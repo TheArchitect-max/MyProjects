@@ -1,4 +1,4 @@
-const RELEASE='20260902-10';
+const RELEASE='20260902-12';
 const DATA_VERSION='20260902-10';
 const DATA_PATH=document.documentElement.dataset.dataPath||'assets/projects.json';
 const EUR=n=>new Intl.NumberFormat('nl-NL',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(Number(n)||0);
@@ -9,6 +9,10 @@ const ARR={VH:2000000,H:1000000,M:500000,S:250000};
 const NEXT={V:'Productization and production hardening',P:'Software validation and product hardening',R:'Prototype definition and validation'};
 const CURRENT={V:'Software-validated asset',P:'Verified development prototype',R:'Research-stage software asset'};
 const REVIEW_DATE='02 Sep 2026';
+const IDENTITY_OVERRIDES={
+ 'biospeak':{slug:'faunometric',name:'Faunometric',summary:'A proprietary bioacoustic intelligence platform for evidence-gated signal classification, held-out-individual evaluation and commercial-rights-controlled model promotion.'},
+ 'avedi':{slug:'latticedepth',name:'LatticeDepth',summary:'A subsurface materials evidence and qualification platform with claim governance, independent review provenance, gate-evidence packaging and an external-review data-room layer.'}
+};
 const LAUNCH_PRIORITY={
  'veritas-evidence-intelligence':{rank:1,label:'Recommended First Product',reason:'Best overall balance of clear B2B value, hosted-product fit, commercial scope and a focused first-user workflow.'},
  'organizational-memory-engine':{rank:2,label:'Enterprise Upside',reason:'Strong enterprise ceiling for organizational knowledge, engineering history and change-risk intelligence.'},
@@ -23,8 +27,9 @@ async function loadPortfolio(){
  const p=await r.json();
  if(p.v!==DATA_VERSION||p.n!==50||!Array.isArray(p.a)||p.a.length!==50) throw new Error('Portfolio release mismatch');
  const assets=p.a.map(x=>{
-   const launch=LAUNCH_PRIORITY[x[2]]||null;
-   return {id:x[0],ref:x[1],slug:x[2],name:x[3],category:p.c[x[4]],status:STATUS[x[5]],statusCode:x[5],summary:x[6],ask:Number(x[7]),rd:Number(x[8]),potential:POTENTIAL[x[9]],potentialCode:x[9],route:p.r[x[10]],arr:ARR[x[9]],url:x[11]||'',current:CURRENT[x[5]],next:NEXT[x[5]],launch};
+   const rawSlug=x[2],identity=IDENTITY_OVERRIDES[rawSlug]||null,slug=identity?.slug||rawSlug;
+   const launch=LAUNCH_PRIORITY[slug]||null;
+   return {id:x[0],ref:x[1],slug,legacySlug:rawSlug===slug?'':rawSlug,name:identity?.name||x[3],category:p.c[x[4]],status:STATUS[x[5]],statusCode:x[5],summary:identity?.summary||x[6],ask:Number(x[7]),rd:Number(x[8]),potential:POTENTIAL[x[9]],potentialCode:x[9],route:p.r[x[10]],arr:ARR[x[9]],url:x[11]||'',current:CURRENT[x[5]],next:NEXT[x[5]],launch};
  });
  return {p,assets,validation:validatePortfolio(p,assets)};
 }
@@ -83,7 +88,7 @@ function renderHome(d){
 }
 function renderProject(d){
  const root=document.querySelector('#project'); if(!root)return;
- const slug=document.documentElement.dataset.asset||location.pathname.replace(/\/$/,'').split('/').pop(),a=d.assets.find(x=>x.slug===slug);
+ const requested=document.documentElement.dataset.asset||location.pathname.replace(/\/$/,'').split('/').pop(),a=d.assets.find(x=>x.slug===requested||x.legacySlug===requested);
  if(!a){root.innerHTML='<section class="shell section"><h1>Asset not found.</h1></section>';return}
  document.title=`${a.name} — THEARCHITECT_MAX`;
  const meta=document.querySelector('meta[name=description]'); if(meta)meta.content=a.summary;
@@ -100,7 +105,7 @@ function renderProject(d){
  <article><small>Recreation-cost reference</small><strong>${EUR(a.rd)}</strong><p>Current replacement-effort reference for comparable software scope.</p></article>
  <article><small>Asking / recreation reference</small><strong>${priceRatio}%</strong><p>Rights, maturity, evidence and commercial-readiness discount reflected.</p></article>
  <article><small>Transfer status</small><strong>Available</strong><p>As-Is asset transfer, subject to project-specific diligence and definitive agreement.</p></article></div></section>
- <section class="shell project-copy storefront-copy"><div><p class="eyebrow">Asset overview</p><h2>An owner-held software/IP asset with a defined path forward.</h2></div><div><p>${SAFE(a.summary)}</p><p>The public presentation focuses on product purpose, evidence-based maturity, commercial direction and acquisition economics.</p></div></section>
+ <section class="shell project-copy storefront-copy"><div><p class="eyebrow">Asset overview</p><h2>A first-party proprietary software/IP asset with a defined path forward.</h2></div><div><p>${SAFE(a.summary)}</p><p>The public presentation focuses on product purpose, evidence-based maturity, commercial direction and acquisition economics.</p></div></section>
  <section class="facts"><div class="shell facts-grid"><article class="fact"><small>Reassessed maturity</small><strong>${SAFE(a.current)}</strong><p>${SAFE(a.status)}</p></article>
  <article class="fact"><small>Next milestone</small><strong>${SAFE(a.next)}</strong><p>Next evidence or productization gate.</p></article>
  <article class="fact"><small>Commercial route</small><strong>${SAFE(a.potential)}</strong><p>${SAFE(a.route)}</p></article>
@@ -111,7 +116,7 @@ function renderProject(d){
  <article class="metric"><small>Replacement effort</small><strong>${EUR(a.rd)}</strong><p>comparable recreation-cost reference</p></article>
  <article class="metric"><small>Record integrity</small><strong>${d.validation.passed?'Checked':'Review'}</strong><p>portfolio arithmetic and classification consistency</p></article></div></section>
  ${launchPanel}
- <section class="shell section"><p class="eyebrow">Development roadmap</p><h2 class="section-title">Asset to operating product.</h2><div class="lifecycle">${['Software/IP asset','Productization','Production readiness','Commercial launch','Recurring revenue','Hub integration'].map((s,j)=>`<article class="step"><span>0${j+1}</span><strong>${s}</strong><p>${['Current owner-held software/IP asset.','Focus the project into a market-facing product.','Advance reliability, security and operations.','Introduce pricing, onboarding and go-to-market.','Operate through the appropriate recurring-revenue model.','Connect the venture through the wider portfolio platform.'][j]}</p></article>`).join('')}</div></section>
+ <section class="shell section"><p class="eyebrow">Development roadmap</p><h2 class="section-title">Asset to operating product.</h2><div class="lifecycle">${['Software/IP asset','Productization','Production readiness','Commercial launch','Recurring revenue','Hub integration'].map((s,j)=>`<article class="step"><span>0${j+1}</span><strong>${s}</strong><p>${['Current first-party proprietary software/IP asset.','Focus the project into a market-facing product.','Advance reliability, security and operations.','Introduce pricing, onboarding and go-to-market.','Operate through the appropriate recurring-revenue model.','Connect the venture through the wider portfolio platform.'][j]}</p></article>`).join('')}</div></section>
  <section class="economics"><div class="shell acquisition showroom-acquisition"><div><p class="eyebrow">Acquisition position</p><h2>${EUR(a.ask)}</h2><p>The displayed amount is the current evidence-reviewed As-Is asking reference. It is paired with a separate recreation-cost reference of ${EUR(a.rd)} and remains subject to transaction-specific diligence.</p><div class="actions"><a class="btn primary" href="../../transfer.html">View transfer framework</a><a class="btn" href="../../commercialization.html">Valuation basis</a></div></div>
  <aside><small>Commercial direction</small><strong>${SAFE(a.potential)}</strong><p>${SAFE(a.route)}</p><small>Reassessed status</small><strong>${SAFE(a.status)}</strong></aside></div></section>
  <nav class="project-nav shell"><a href="../${prev.slug}/">← ${SAFE(prev.name)}</a><a href="../${next.slug}/">${SAFE(next.name)} →</a></nav>`;
