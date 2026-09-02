@@ -6,4 +6,8 @@ The site presents 50 first-party proprietary software/IP assets with evidence-re
 
 The current connected-account inventory verifies that all 50 listed core assets are backed by private GitHub repositories. Public evidence confirms existence and private visibility only; repository names, repository IDs, branches, commit identifiers, file trees, source paths, source code, internal architecture and implementation details are intentionally withheld.
 
+Public asset pages use the current canonical commercial identity even when an underlying private repository retains a legacy continuity name. Legacy public asset URLs may redirect to the current canonical presentation.
+
 Third-party libraries, models, datasets, APIs, standards, services and other external materials remain subject to their own applicable licenses and terms and are not claimed as first-party proprietary IP.
+
+Current showroom release: `20260902-12`.
