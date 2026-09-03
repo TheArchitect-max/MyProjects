@@ -1,76 +1,339 @@
-const RELEASE='20260903-15';
-const DATA_VERSION='20260903-15';
-const DATA_PATH=document.documentElement.dataset.dataPath||'assets/projects.json';
-const EUR=n=>new Intl.NumberFormat('nl-NL',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(Number(n)||0);
-const SAFE=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
-const STATUS={V:'Software-Validated',P:'Verified Prototype',R:'Research'};
-const POTENTIAL={VH:'Very High',H:'High',M:'Moderate',S:'Specialist'};
-const ARR={VH:2000000,H:1000000,M:500000,S:250000};
-const NEXT={V:'Productization and production hardening',P:'Software validation and product hardening',R:'Prototype definition and validation'};
-const CURRENT={V:'Software-validated asset',P:'Verified development prototype',R:'Research-stage software asset'};
-const REVIEW_DATE='03 Sep 2026';
-const RELEASE_ADDITIONS=new Set(['aletheia-intelligence-fabric','truelane-inkcore','visionair-research-engine','chimera-spectral-perception-system']);
-const LAUNCH_PRIORITY={
- 'veritas-evidence-intelligence':{rank:1,label:'Recommended First Product',reason:'Best overall balance of clear B2B value, hosted-product fit, commercial scope and a focused first-user workflow.'},
- 'organizational-memory-engine':{rank:2,label:'Enterprise Upside',reason:'Strong enterprise ceiling for organizational knowledge, engineering history and change-risk intelligence.'},
- 'programmatic-search-fabric':{rank:3,label:'Fast Web Productization',reason:'A direct web-platform route with comparatively straightforward hosted deployment and customer-facing workflows.'},
- 'agentic-engineering-control-plane':{rank:4,label:'AI B2B Candidate',reason:'Strong fit for engineering organizations adopting governed agentic and reusable AI workflows.'},
- 'mercorion-commerce-compiler':{rank:5,label:'Commerce Product Candidate',reason:'A locally qualified deterministic commerce compiler with a clear path to hosted catalog publication and managed commercial workflows.'},
- 'sonicfabric':{rank:6,label:'Direct-to-User Candidate',reason:'Strong interactive web presentation potential and a clear route to a customer-facing creative product.'}
-};
-async function loadPortfolio(){
- const r=await fetch(`${DATA_PATH}?v=${DATA_VERSION}`,{cache:'no-store'});
- if(!r.ok)throw new Error('Portfolio unavailable');
- const p=await r.json();
- if(p.v!==DATA_VERSION||!Number.isInteger(p.n)||p.n<1||!Array.isArray(p.a)||p.a.length!==p.n)throw new Error('Portfolio release mismatch');
- const assets=p.a.map(x=>({id:x[0],ref:x[1],slug:x[2],name:x[3],category:p.c[x[4]],status:STATUS[x[5]],statusCode:x[5],summary:x[6],ask:Number(x[7]),rd:Number(x[8]),potential:POTENTIAL[x[9]],potentialCode:x[9],route:p.r[x[10]],arr:ARR[x[9]],url:x[11]||'',current:CURRENT[x[5]],next:NEXT[x[5]],launch:LAUNCH_PRIORITY[x[2]]||null}));
- return {p,assets,validation:validatePortfolio(p,assets)};
-}
-function validatePortfolio(p,assets){
- const round=n=>Math.round(n*100)/100;
- const ask=round(assets.reduce((s,a)=>s+a.ask,0)),rd=round(assets.reduce((s,a)=>s+a.rd,0));
- const allPriced=assets.every(a=>a.ask>0&&a.rd>0),relationships=assets.every(a=>a.ask<=a.rd);
- const uniqueRefs=new Set(assets.map(a=>a.ref)).size===p.n,uniqueSlugs=new Set(assets.map(a=>a.slug)).size===p.n;
- const counts=assets.reduce((m,a)=>(m[a.statusCode]=(m[a.statusCode]||0)+1,m),{});
- const potentialCounts=assets.reduce((m,a)=>(m[a.potentialCode]=(m[a.potentialCode]||0)+1,m),{});
- const totals=ask===round(p.t[0])&&rd===round(p.t[1]);
- const statuses=(counts.V||0)===p.sc.V&&(counts.P||0)===p.sc.P&&(counts.R||0)===p.sc.R;
- const potentials=['VH','H','M','S'].every(k=>(potentialCounts[k]||0)===p.pc[k]);
- const numbered=assets.every((a,i)=>a.id===i+1&&a.ref===`TA-IP-${String(i+1).padStart(3,'0')}`);
- const indexed=assets.every(a=>a.category&&a.route&&STATUS[a.statusCode]&&POTENTIAL[a.potentialCode]);
- const reassessed=Boolean(p.re&&p.re.date==='2026-09-03'&&p.re.method&&p.re.scope);
- return {passed:allPriced&&relationships&&uniqueRefs&&uniqueSlugs&&totals&&statuses&&potentials&&numbered&&indexed&&reassessed,ask,rd};
-}
-function renderHome(d){
- const grid=document.querySelector('#project-grid');if(!grid)return;
- const search=document.querySelector('#search'),sort=document.querySelector('#sort'),filters=document.querySelector('#filters'),count=document.querySelector('#result-count');let active='All';
- const set=(id,v)=>{const e=document.querySelector(id);if(e)e.textContent=v};
- set('#asset-count',d.p.n);set('#validated',d.p.sc.V);set('#prototype',d.p.sc.P);set('#ask-total',EUR(d.p.t[0]));set('#rd-total',EUR(d.p.t[1]));set('#pricing-status',d.validation.passed?`Reassessed ${REVIEW_DATE}`:'Review required');
- document.documentElement.dataset.priceValidation=d.validation.passed?'passed':'failed';
- const defs=[['All','All'],['New in this release','New in this release'],['Launch shortlist','Launch shortlist'],['Recommended first product','Recommended first product'],['Software-Validated','Software-Validated'],['Verified Prototype','Verified Prototype'],['Research','Research']];
- filters.innerHTML=defs.map(([v,l],i)=>`<button class="filter${i?'':' active'}" data-v="${SAFE(v)}">${SAFE(l)}</button>`).join('');
- const launchBox=document.querySelector('#launch-priority-list');if(launchBox){const pick=d.assets.find(a=>a.launch?.rank===1);launchBox.innerHTML=`<article class="metric"><small>Recommended first product</small><strong>${SAFE(pick.name)}</strong><p>${SAFE(pick.launch.reason)}</p></article><article class="metric"><small>Launch priority</small><strong>#1</strong><p>Strategic productization ranking, separate from maturity and valuation.</p></article><article class="metric"><small>Commercial route</small><strong>B2B SaaS</strong><p>${SAFE(pick.route)}</p></article><article class="metric"><small>Hosted-product fit</small><strong>Strong</strong><p>Well suited to a server-hosted product with browser-based workflows.</p></article>`;}
- const matches=a=>active==='All'||(active==='New in this release'&&RELEASE_ADDITIONS.has(a.slug))||(active==='Launch shortlist'&&a.launch)||(active==='Recommended first product'&&a.launch?.rank===1)||a.status===active;
- function draw(){
-  const q=(search?.value||'').trim().toLowerCase();let rows=d.assets.filter(a=>matches(a)&&(!q||`${a.name} ${a.category} ${a.summary} ${a.route} ${a.ref} ${a.launch?.label||''}`.toLowerCase().includes(q)));
-  if(sort?.value==='name')rows.sort((a,b)=>a.name.localeCompare(b.name));else if(sort?.value==='price-asc')rows.sort((a,b)=>a.ask-b.ask);else if(sort?.value==='status')rows.sort((a,b)=>a.status.localeCompare(b.status)||a.id-b.id);else if(sort?.value==='launch')rows.sort((a,b)=>(a.launch?.rank||999)-(b.launch?.rank||999)||b.ask-a.ask);else rows.sort((a,b)=>b.ask-a.ask);
-  grid.innerHTML=rows.map(a=>`<a class="card asset-card" href="projects/${SAFE(a.slug)}/"><div><div class="card-top"><span class="asset-ref">${SAFE(a.ref)}</span><span class="availability">Available · As-Is</span></div><h3>${SAFE(a.name)}</h3><p>${SAFE(a.summary)}</p><div class="chips">${RELEASE_ADDITIONS.has(a.slug)?'<span class="chip release-chip">New · Release 15</span>':''}${a.launch?.rank===1?'<span class="chip">Recommended first product</span>':''}${a.launch?`<span class="chip">Launch priority #${a.launch.rank}</span>`:''}<span class="chip">${SAFE(a.status)}</span><span class="chip">${SAFE(a.category)}</span></div></div><div><div class="price"><span>Evidence-reviewed asking reference</span><strong>${EUR(a.ask)}</strong></div><div class="valuation-mini"><span>Recreation-cost reference</span><b>${EUR(a.rd)}</b><span class="verified-mark">✓ Reassessed ${REVIEW_DATE}</span></div><div class="card-foot"><span>${SAFE(a.potential)} commercial potential</span><span>Open asset →</span></div></div></a>`).join('');if(count)count.textContent=`${rows.length} assets`;
- }
- filters?.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;active=b.dataset.v;[...filters.children].forEach(x=>x.classList.toggle('active',x===b));draw()});search?.addEventListener('input',draw);sort?.addEventListener('change',draw);draw();
-}
-function renderProject(d){
- const root=document.querySelector('#project');if(!root)return;
- const slug=document.documentElement.dataset.asset||location.pathname.replace(/\/$/,'').split('/').pop(),a=d.assets.find(x=>x.slug===slug);if(!a){root.innerHTML='<section class="shell section"><h1>Asset not found.</h1></section>';return}
- document.title=`${a.name} — THEARCHITECT_MAX`;const meta=document.querySelector('meta[name=description]');if(meta)meta.content=a.summary;const canonical=document.querySelector('link[rel=canonical]');if(canonical)canonical.href=`https://thearchitect-max.github.io/MyProjects/projects/${a.slug}/`;
- const i=d.assets.indexOf(a),prev=d.assets[(i+d.assets.length-1)%d.assets.length],next=d.assets[(i+1)%d.assets.length],priceRatio=Math.round((a.ask/a.rd)*100);const external=a.url?`<a class="btn" href="${SAFE(a.url)}" target="_blank" rel="noopener">Open public product site ↗</a>`:'';
- const launchPanel=a.launch?`<section class="shell section"><div class="market-note"><strong>Strategic launch lens · Priority #${a.launch.rank}${a.launch.rank===1?' · Recommended First Product':''}</strong><br>${SAFE(a.launch.reason)} This productization ranking remains separate from maturity and valuation.</div></section>`:'';
- root.innerHTML=`<section class="project-hero shell asset-hero"><div class="asset-titlebar"><span>${SAFE(a.ref)}</span><span class="availability">Available for As-Is transfer</span></div><p class="eyebrow">${SAFE(a.category)} · ${SAFE(a.status)}</p><h1>${SAFE(a.name)}</h1><p class="project-lede">${SAFE(a.summary)}</p><div class="actions"><a class="btn primary" href="../../">Back to portfolio</a><a class="btn" href="../../transfer.html">Transfer overview</a>${external}</div>${a.launch?`<div class="chips"><span class="chip">Launch priority #${a.launch.rank}</span>${a.launch.rank===1?'<span class="chip">Recommended first product</span>':''}</div>`:''}</section>
- <section class="price-stage"><div class="shell price-stage-grid"><article class="price-primary"><small>Evidence-reviewed As-Is asking reference</small><strong>${EUR(a.ask)}</strong><span class="validated-badge">✓ Reassessed ${REVIEW_DATE}</span></article><article><small>Recreation-cost reference</small><strong>${EUR(a.rd)}</strong><p>Current replacement-effort reference for comparable software scope.</p></article><article><small>Asking / recreation reference</small><strong>${priceRatio}%</strong><p>Maturity, evidence, proprietary posture, third-party constraints and commercial-readiness discount reflected.</p></article><article><small>Transfer status</small><strong>Available</strong><p>As-Is asset transfer, subject to project-specific diligence and definitive agreement.</p></article></div></section>
- <section class="shell project-copy storefront-copy"><div><p class="eyebrow">Asset overview</p><h2>A private software/IP asset with a repository-verified proprietary first-party posture.</h2></div><div><p>${SAFE(a.summary)}</p><p>The public presentation focuses on product purpose, evidence-based maturity, commercial direction and acquisition economics. Transaction-specific chain-of-title and third-party rights remain diligence matters.</p></div></section>
- <section class="facts"><div class="shell facts-grid"><article class="fact"><small>Reassessed maturity</small><strong>${SAFE(a.current)}</strong><p>${SAFE(a.status)}</p></article><article class="fact"><small>Next milestone</small><strong>${SAFE(a.next)}</strong><p>Next evidence or productization gate.</p></article><article class="fact"><small>Commercial route</small><strong>${SAFE(a.potential)}</strong><p>${SAFE(a.route)}</p></article><article class="fact"><small>Modeled future ARR</small><strong>${EUR(a.arr)}</strong><p>Commercialization scenario; not current revenue.</p></article></div></section>
- <section class="shell section"><div class="section-head"><div><p class="eyebrow">Evidence-weighted reassessment</p><h2 class="section-title">Current scope, current evidence, current price.</h2></div><p>Reviewed ${REVIEW_DATE} against current repository state. The reassessment considers implementation, executable validation, product/operations readiness, provenance, commercial deployability, repository license posture and third-party constraints.</p></div><div class="metrics"><article class="metric"><small>Maturity result</small><strong>${SAFE(a.status)}</strong><p>software maturity after repository review</p></article><article class="metric"><small>As-Is reference</small><strong>${EUR(a.ask)}</strong><p>current evidence-weighted seller reference</p></article><article class="metric"><small>Replacement effort</small><strong>${EUR(a.rd)}</strong><p>comparable recreation-cost reference</p></article><article class="metric"><small>Record integrity</small><strong>${d.validation.passed?'Checked':'Review'}</strong><p>portfolio arithmetic and classification consistency</p></article></div></section>${launchPanel}
- <section class="shell section"><p class="eyebrow">Development roadmap</p><h2 class="section-title">Asset to operating product.</h2><div class="lifecycle">${['Software/IP asset','Productization','Production readiness','Commercial launch','Recurring revenue','Hub integration'].map((s,j)=>`<article class="step"><span>0${j+1}</span><strong>${s}</strong><p>${['Current private software/IP asset with proprietary first-party license posture.','Focus the project into a market-facing product.','Advance reliability, security and operations.','Introduce pricing, onboarding and go-to-market.','Operate through the appropriate recurring-revenue model.','Connect viable ventures through the wider portfolio platform.'][j]}</p></article>`).join('')}</div></section>
- <section class="economics"><div class="shell acquisition showroom-acquisition"><div><p class="eyebrow">Acquisition position</p><h2>${EUR(a.ask)}</h2><p>The displayed amount is the current evidence-reviewed As-Is asking reference. It is paired with a separate recreation-cost reference of ${EUR(a.rd)} and remains subject to transaction-specific technical and rights diligence.</p><div class="actions"><a class="btn primary" href="../../transfer.html">View transfer framework</a><a class="btn" href="../../commercialization.html">Valuation basis</a></div></div><aside><small>Commercial direction</small><strong>${SAFE(a.potential)}</strong><p>${SAFE(a.route)}</p><small>Reassessed status</small><strong>${SAFE(a.status)}</strong></aside></div></section><nav class="project-nav shell"><a href="../${SAFE(prev.slug)}/">← ${SAFE(prev.name)}</a><a href="../${SAFE(next.slug)}/">${SAFE(next.name)} →</a></nav>`;
-}
-function renderCommercial(d){const list=document.querySelector('#commercial-list');if(!list)return;const set=(id,v)=>{const e=document.querySelector(id);if(e)e.textContent=v};set('#model-arr',EUR(d.p.t[2]));set('#model-low',EUR(d.p.t[2]*2));set('#model-mid',EUR(d.p.t[2]*4));set('#model-high',EUR(d.p.t[2]*7));set('#commercial-ask-total',EUR(d.p.t[0]));set('#commercial-rd-total',EUR(d.p.t[1]));list.innerHTML=d.assets.map(a=>`<article class="row valuation-row"><div class="n">${String(a.id).padStart(2,'0')}</div><div><h2><a href="projects/${SAFE(a.slug)}/">${SAFE(a.name)}</a></h2><p>${SAFE(a.status)} · ${SAFE(a.category)}${a.launch?` · Launch #${a.launch.rank}`:''}</p></div><div><span class="row-label">As-Is reference</span><strong>${EUR(a.ask)}</strong></div><div><span class="row-label">Recreation ref.</span><strong>${EUR(a.rd)}</strong></div></article>`).join('')}
-loadPortfolio().then(d=>{renderHome(d);renderProject(d);renderCommercial(d);document.documentElement.dataset.releaseRuntime=RELEASE}).catch(err=>{console.error(err);document.querySelectorAll('[data-load]').forEach(x=>x.textContent='Portfolio data temporarily unavailable.')});
+(() => {
+  'use strict';
+
+  const RELEASE = '20260903-16';
+  const DATA_VERSION = '20260903-16';
+  const DATA_PATH = document.documentElement.dataset.dataPath || 'assets/projects.json';
+  const REVIEW_DATE = '03 Sep 2026';
+  const FX_SOURCE_URL = 'https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html';
+
+  const EUR = (value) => new Intl.NumberFormat('nl-NL', {
+    style: 'currency', currency: 'EUR', maximumFractionDigits: 0
+  }).format(Number(value) || 0);
+  const USD = (value, rate) => new Intl.NumberFormat('en-US', {
+    style: 'currency', currency: 'USD', maximumFractionDigits: 0
+  }).format((Number(value) || 0) * rate);
+  const SAFE = (value) => String(value ?? '').replace(/[&<>"']/g, (character) => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+  })[character]);
+
+  const STATUS = { V: 'Software-Validated', P: 'Verified Prototype', R: 'Research' };
+  const POTENTIAL = { VH: 'Very High', H: 'High', M: 'Moderate', S: 'Specialist' };
+  const ARR = { VH: 2_000_000, H: 1_000_000, M: 500_000, S: 250_000 };
+  const NEXT = {
+    V: 'Productization and production hardening',
+    P: 'Software validation and product hardening',
+    R: 'Prototype definition and validation'
+  };
+  const CURRENT = {
+    V: 'Software-validated asset',
+    P: 'Verified development prototype',
+    R: 'Research-stage software asset'
+  };
+  const RELEASE_ADDITIONS = new Set([
+    'aletheia-intelligence-fabric', 'truelane-inkcore',
+    'visionair-research-engine', 'chimera-spectral-perception-system'
+  ]);
+  const LAUNCH_PRIORITY = {
+    'veritas-evidence-intelligence': {
+      rank: 1, label: 'Recommended First Product',
+      reason: 'Best overall balance of clear B2B value, hosted-product fit, commercial scope and a focused first-user workflow.'
+    },
+    'organizational-memory-engine': {
+      rank: 2, label: 'Enterprise Upside',
+      reason: 'Strong enterprise ceiling for organizational knowledge, engineering history and change-risk intelligence.'
+    },
+    'programmatic-search-fabric': {
+      rank: 3, label: 'Fast Web Productization',
+      reason: 'A direct web-platform route with comparatively straightforward hosted deployment and customer-facing workflows.'
+    },
+    'agentic-engineering-control-plane': {
+      rank: 4, label: 'AI B2B Candidate',
+      reason: 'Strong fit for engineering organizations adopting governed agentic and reusable AI workflows.'
+    },
+    'mercorion-commerce-compiler': {
+      rank: 5, label: 'Commerce Product Candidate',
+      reason: 'A locally qualified deterministic commerce compiler with a clear path to hosted catalog publication and managed commercial workflows.'
+    },
+    sonicfabric: {
+      rank: 6, label: 'Direct-to-User Candidate',
+      reason: 'Strong interactive web presentation potential and a clear route to a customer-facing creative product.'
+    }
+  };
+
+  const fxDate = (value) => new Intl.DateTimeFormat('en-GB', {
+    day: '2-digit', month: 'short', year: 'numeric', timeZone: 'UTC'
+  }).format(new Date(`${value}T12:00:00Z`));
+  const usdSecondary = (value, fx) =>
+    `<span class="usd-price">≈ ${USD(value, fx.rate)} <small>USD · indicative</small></span>`;
+  const currencyPair = (value, fx, className = '') =>
+    `<span class="currency-pair ${className}"><strong>${EUR(value)}</strong>${usdSecondary(value, fx)}</span>`;
+  const fxDisclosure = (fx) =>
+    `EUR is the authoritative portfolio currency. USD is an indicative conversion at ` +
+    `<strong>1 EUR = ${fx.rate.toFixed(4)} USD</strong>, ${SAFE(fx.source)}, ${fxDate(fx.date)}. ` +
+    `<a href="${FX_SOURCE_URL}" target="_blank" rel="noopener">View ECB reference ↗</a>`;
+
+  async function loadPortfolio() {
+    const response = await fetch(`${DATA_PATH}?v=${DATA_VERSION}`, { cache: 'no-store' });
+    if (!response.ok) throw new Error('Portfolio unavailable');
+    const portfolio = await response.json();
+    if (portfolio.v !== DATA_VERSION || !Number.isInteger(portfolio.n) || portfolio.n < 1 ||
+      !Array.isArray(portfolio.a) || portfolio.a.length !== portfolio.n) {
+      throw new Error('Portfolio release mismatch');
+    }
+    const assets = portfolio.a.map((row) => ({
+      id: row[0], ref: row[1], slug: row[2], name: row[3], category: portfolio.c[row[4]],
+      status: STATUS[row[5]], statusCode: row[5], summary: row[6], ask: Number(row[7]),
+      rd: Number(row[8]), potential: POTENTIAL[row[9]], potentialCode: row[9],
+      route: portfolio.r[row[10]], arr: ARR[row[9]], url: row[11] || '',
+      current: CURRENT[row[5]], next: NEXT[row[5]], launch: LAUNCH_PRIORITY[row[2]] || null
+    }));
+    return { p: portfolio, assets, validation: validatePortfolio(portfolio, assets) };
+  }
+
+  function validatePortfolio(portfolio, assets) {
+    const round = (value) => Math.round(value * 100) / 100;
+    const ask = round(assets.reduce((sum, asset) => sum + asset.ask, 0));
+    const rd = round(assets.reduce((sum, asset) => sum + asset.rd, 0));
+    const counts = assets.reduce((map, asset) => {
+      map[asset.statusCode] = (map[asset.statusCode] || 0) + 1;
+      return map;
+    }, {});
+    const potentialCounts = assets.reduce((map, asset) => {
+      map[asset.potentialCode] = (map[asset.potentialCode] || 0) + 1;
+      return map;
+    }, {});
+    const fx = portfolio.fx;
+    const currency = Boolean(fx && fx.base === 'EUR' && fx.quote === 'USD' &&
+      Number.isFinite(fx.rate) && fx.rate > 0 && /^\d{4}-\d{2}-\d{2}$/.test(fx.date) &&
+      fx.source && fx.indicative === true);
+    const passed = assets.every((asset) => asset.ask > 0 && asset.rd > 0 && asset.ask <= asset.rd) &&
+      new Set(assets.map((asset) => asset.ref)).size === portfolio.n &&
+      new Set(assets.map((asset) => asset.slug)).size === portfolio.n &&
+      ask === round(portfolio.t[0]) && rd === round(portfolio.t[1]) &&
+      (counts.V || 0) === portfolio.sc.V && (counts.P || 0) === portfolio.sc.P &&
+      (counts.R || 0) === portfolio.sc.R &&
+      ['VH', 'H', 'M', 'S'].every((key) => (potentialCounts[key] || 0) === portfolio.pc[key]) &&
+      assets.every((asset, index) => asset.id === index + 1 &&
+        asset.ref === `TA-IP-${String(index + 1).padStart(3, '0')}`) &&
+      assets.every((asset) => asset.category && asset.route && STATUS[asset.statusCode] && POTENTIAL[asset.potentialCode]) &&
+      Boolean(portfolio.re && portfolio.re.date === '2026-09-03' && portfolio.re.method && portfolio.re.scope) &&
+      currency;
+    return { passed, ask, rd };
+  }
+
+  function renderHome(data) {
+    const grid = document.querySelector('#project-grid');
+    if (!grid) return;
+    const search = document.querySelector('#search');
+    const sort = document.querySelector('#sort');
+    const filters = document.querySelector('#filters');
+    const count = document.querySelector('#result-count');
+    let active = 'All';
+    const set = (selector, value) => {
+      const element = document.querySelector(selector);
+      if (element) element.textContent = value;
+    };
+    set('#asset-count', data.p.n);
+    set('#validated', data.p.sc.V);
+    set('#prototype', data.p.sc.P);
+    set('#ask-total', EUR(data.p.t[0]));
+    set('#ask-total-usd', `≈ ${USD(data.p.t[0], data.p.fx.rate)} USD`);
+    set('#rd-total', EUR(data.p.t[1]));
+    set('#rd-total-usd', `≈ ${USD(data.p.t[1], data.p.fx.rate)} USD`);
+    set('#fx-rate', `1 EUR = ${data.p.fx.rate.toFixed(4)} USD`);
+    set('#pricing-status', data.validation.passed ? `Reassessed ${REVIEW_DATE}` : 'Review required');
+    document.documentElement.dataset.priceValidation = data.validation.passed ? 'passed' : 'failed';
+
+    const definitions = [
+      ['All', 'All'], ['New in this release', 'New in this release'],
+      ['Launch shortlist', 'Launch shortlist'], ['Recommended first product', 'Recommended first product'],
+      ['Software-Validated', 'Software-Validated'], ['Verified Prototype', 'Verified Prototype'],
+      ['Research', 'Research']
+    ];
+    filters.innerHTML = definitions.map(([value, label], index) =>
+      `<button class="filter${index ? '' : ' active'}" type="button" data-v="${SAFE(value)}" ` +
+      `aria-pressed="${index ? 'false' : 'true'}">${SAFE(label)}</button>`
+    ).join('');
+
+    const launchBox = document.querySelector('#launch-priority-list');
+    if (launchBox) {
+      const pick = data.assets.find((asset) => asset.launch?.rank === 1);
+      launchBox.innerHTML = `
+        <article class="metric feature-metric"><small>Recommended first product</small><strong>${SAFE(pick.name)}</strong><p>${SAFE(pick.launch.reason)}</p></article>
+        <article class="metric"><small>Launch priority</small><strong>#1</strong><p>Strategic productization ranking, separate from maturity and valuation.</p></article>
+        <article class="metric"><small>Commercial route</small><strong>B2B SaaS</strong><p>${SAFE(pick.route)}</p></article>
+        <article class="metric"><small>Hosted-product fit</small><strong>Strong</strong><p>Well suited to a server-hosted product with browser-based workflows.</p></article>`;
+    }
+
+    const matches = (asset) => active === 'All' ||
+      (active === 'New in this release' && RELEASE_ADDITIONS.has(asset.slug)) ||
+      (active === 'Launch shortlist' && asset.launch) ||
+      (active === 'Recommended first product' && asset.launch?.rank === 1) || asset.status === active;
+
+    function draw() {
+      const query = (search?.value || '').trim().toLowerCase();
+      const rows = data.assets.filter((asset) => matches(asset) && (!query ||
+        `${asset.name} ${asset.category} ${asset.summary} ${asset.route} ${asset.ref} ${asset.launch?.label || ''}`
+          .toLowerCase().includes(query)));
+      if (sort?.value === 'name') rows.sort((a, b) => a.name.localeCompare(b.name));
+      else if (sort?.value === 'price-asc') rows.sort((a, b) => a.ask - b.ask);
+      else if (sort?.value === 'status') rows.sort((a, b) => a.status.localeCompare(b.status) || a.id - b.id);
+      else if (sort?.value === 'launch') rows.sort((a, b) =>
+        (a.launch?.rank || 999) - (b.launch?.rank || 999) || b.ask - a.ask);
+      else rows.sort((a, b) => b.ask - a.ask);
+
+      grid.innerHTML = rows.map((asset) => `
+        <a class="card asset-card" data-status="${asset.statusCode}" href="projects/${SAFE(asset.slug)}/">
+          <div class="card-content">
+            <div class="card-top"><span class="asset-ref">${SAFE(asset.ref)}</span><span class="availability">Available · As-Is</span></div>
+            <h3>${SAFE(asset.name)}</h3><p>${SAFE(asset.summary)}</p>
+            <div class="chips">
+              ${RELEASE_ADDITIONS.has(asset.slug) ? '<span class="chip release-chip">New · Release 16</span>' : ''}
+              ${asset.launch?.rank === 1 ? '<span class="chip priority-chip">Recommended first product</span>' : ''}
+              ${asset.launch ? `<span class="chip">Launch priority #${asset.launch.rank}</span>` : ''}
+              <span class="chip status-chip">${SAFE(asset.status)}</span><span class="chip">${SAFE(asset.category)}</span>
+            </div>
+          </div>
+          <div class="card-commercial">
+            <span class="price-label">Evidence-reviewed As-Is asking reference</span>
+            ${currencyPair(asset.ask, data.p.fx, 'card-price')}
+            <div class="recreation-price"><span>Recreation-cost reference</span>${currencyPair(asset.rd, data.p.fx)}</div>
+            <div class="card-foot"><span>✓ Reassessed ${REVIEW_DATE}</span><span>Open asset <b>↗</b></span></div>
+          </div>
+        </a>`).join('');
+      if (count) count.textContent = `${rows.length} ${rows.length === 1 ? 'asset' : 'assets'}`;
+    }
+
+    filters?.addEventListener('click', (event) => {
+      const button = event.target.closest('button');
+      if (!button) return;
+      active = button.dataset.v;
+      [...filters.children].forEach((item) => {
+        const selected = item === button;
+        item.classList.toggle('active', selected);
+        item.setAttribute('aria-pressed', String(selected));
+      });
+      draw();
+    });
+    search?.addEventListener('input', draw);
+    sort?.addEventListener('change', draw);
+    draw();
+  }
+
+  function renderProject(data) {
+    const root = document.querySelector('#project');
+    if (!root) return;
+    const slug = document.documentElement.dataset.asset || location.pathname.replace(/\/$/, '').split('/').pop();
+    const asset = data.assets.find((item) => item.slug === slug);
+    if (!asset) {
+      root.innerHTML = '<section class="shell section"><h1>Asset not found.</h1></section>';
+      return;
+    }
+    document.title = `${asset.name} — THEARCHITECT_MAX`;
+    const meta = document.querySelector('meta[name=description]');
+    if (meta) meta.content = asset.summary;
+    const canonical = document.querySelector('link[rel=canonical]');
+    if (canonical) canonical.href = `https://thearchitect-max.github.io/MyProjects/projects/${asset.slug}/`;
+
+    const index = data.assets.indexOf(asset);
+    const previous = data.assets[(index + data.assets.length - 1) % data.assets.length];
+    const next = data.assets[(index + 1) % data.assets.length];
+    const priceRatio = Math.round((asset.ask / asset.rd) * 100);
+    const external = asset.url
+      ? `<a class="btn" href="${SAFE(asset.url)}" target="_blank" rel="noopener">Open public product site ↗</a>` : '';
+    const launchPanel = asset.launch ? `
+      <section class="shell section compact-section"><div class="market-note"><strong>Strategic launch lens · Priority #${asset.launch.rank}${asset.launch.rank === 1 ? ' · Recommended First Product' : ''}</strong><p>${SAFE(asset.launch.reason)} This productization ranking remains separate from maturity and valuation.</p></div></section>` : '';
+
+    root.innerHTML = `
+      <section class="project-hero shell asset-hero">
+        <div class="asset-titlebar"><span>${SAFE(asset.ref)}</span><span class="availability">Available for As-Is transfer</span></div>
+        <p class="eyebrow">${SAFE(asset.category)} · ${SAFE(asset.status)}</p><h1>${SAFE(asset.name)}</h1>
+        <p class="project-lede">${SAFE(asset.summary)}</p>
+        <div class="actions"><a class="btn primary" href="../../">Back to portfolio</a><a class="btn" href="../../transfer.html">Transfer overview</a>${external}</div>
+        ${asset.launch ? `<div class="chips"><span class="chip">Launch priority #${asset.launch.rank}</span>${asset.launch.rank === 1 ? '<span class="chip priority-chip">Recommended first product</span>' : ''}</div>` : ''}
+      </section>
+      <section class="price-stage">
+        <div class="shell price-stage-grid">
+          <article class="price-primary"><small>Evidence-reviewed As-Is asking reference</small>${currencyPair(asset.ask, data.p.fx, 'project-price')}<span class="validated-badge">✓ Reassessed ${REVIEW_DATE}</span></article>
+          <article><small>Recreation-cost reference</small>${currencyPair(asset.rd, data.p.fx, 'project-price secondary')}<p>Current replacement-effort reference for comparable software scope.</p></article>
+          <article><small>Asking / recreation reference</small><strong>${priceRatio}%</strong><p>Maturity, evidence, proprietary posture, third-party constraints and commercial-readiness discount reflected.</p></article>
+          <article><small>Transfer status</small><strong>Available</strong><p>As-Is transfer, subject to project-specific diligence and definitive agreement.</p></article>
+        </div><div class="shell fx-disclosure">${fxDisclosure(data.p.fx)}</div>
+      </section>
+      <section class="shell project-copy storefront-copy">
+        <div><p class="eyebrow">Asset overview</p><h2>A private software/IP asset with a repository-verified proprietary first-party posture.</h2></div>
+        <div><p>${SAFE(asset.summary)}</p><p>The public presentation focuses on product purpose, evidence-based maturity, commercial direction and acquisition economics. Transaction-specific chain-of-title and third-party rights remain diligence matters.</p></div>
+      </section>
+      <section class="facts"><div class="shell facts-grid">
+        <article class="fact"><small>Reassessed maturity</small><strong>${SAFE(asset.current)}</strong><p>${SAFE(asset.status)}</p></article>
+        <article class="fact"><small>Next milestone</small><strong>${SAFE(asset.next)}</strong><p>Next evidence or productization gate.</p></article>
+        <article class="fact"><small>Commercial route</small><strong>${SAFE(asset.potential)}</strong><p>${SAFE(asset.route)}</p></article>
+        <article class="fact"><small>Modeled future ARR</small>${currencyPair(asset.arr, data.p.fx, 'fact-price')}<p>Commercialization scenario; not current revenue.</p></article>
+      </div></section>
+      <section class="shell section">
+        <div class="section-head"><div><p class="eyebrow">Evidence-weighted reassessment</p><h2 class="section-title">Current scope, current evidence, current price.</h2></div><p>Reviewed ${REVIEW_DATE} against current repository state. The reassessment considers implementation, executable validation, product/operations readiness, provenance, commercial deployability, repository license posture and third-party constraints.</p></div>
+        <div class="metrics">
+          <article class="metric"><small>Maturity result</small><strong>${SAFE(asset.status)}</strong><p>software maturity after repository review</p></article>
+          <article class="metric"><small>As-Is reference</small>${currencyPair(asset.ask, data.p.fx, 'metric-price')}<p>current evidence-weighted seller reference</p></article>
+          <article class="metric"><small>Replacement effort</small>${currencyPair(asset.rd, data.p.fx, 'metric-price')}<p>comparable recreation-cost reference</p></article>
+          <article class="metric"><small>Record integrity</small><strong>${data.validation.passed ? 'Checked' : 'Review'}</strong><p>portfolio arithmetic, currency and classification consistency</p></article>
+        </div>
+      </section>${launchPanel}
+      <section class="shell section">
+        <p class="eyebrow">Development roadmap</p><h2 class="section-title">Asset to operating product.</h2>
+        <div class="lifecycle">${['Software/IP asset', 'Productization', 'Production readiness', 'Commercial launch', 'Recurring revenue', 'Hub integration'].map((label, step) => `
+          <article class="step"><span>0${step + 1}</span><strong>${label}</strong><p>${[
+            'Current private software/IP asset with proprietary first-party license posture.',
+            'Focus the project into a market-facing product.', 'Advance reliability, security and operations.',
+            'Introduce pricing, onboarding and go-to-market.', 'Operate through the appropriate recurring-revenue model.',
+            'Connect viable ventures through the wider portfolio platform.'
+          ][step]}</p></article>`).join('')}</div>
+      </section>
+      <section class="economics"><div class="shell acquisition showroom-acquisition">
+        <div><p class="eyebrow">Acquisition position</p>${currencyPair(asset.ask, data.p.fx, 'acquisition-price')}<p>The EUR amount is the current evidence-reviewed As-Is asking reference. The USD amount is indicative at the disclosed ECB reference rate. The separate recreation-cost reference is ${EUR(asset.rd)} (≈ ${USD(asset.rd, data.p.fx.rate)} USD).</p><div class="actions"><a class="btn primary" href="../../transfer.html">View transfer framework</a><a class="btn" href="../../commercialization.html">Valuation basis</a></div></div>
+        <aside><small>Commercial direction</small><strong>${SAFE(asset.potential)}</strong><p>${SAFE(asset.route)}</p><small>Reassessed status</small><strong>${SAFE(asset.status)}</strong></aside>
+      </div></section>
+      <nav class="project-nav shell" aria-label="Adjacent assets"><a href="../${SAFE(previous.slug)}/">← ${SAFE(previous.name)}</a><a href="../${SAFE(next.slug)}/">${SAFE(next.name)} →</a></nav>`;
+  }
+
+  function renderCommercial(data) {
+    const list = document.querySelector('#commercial-list');
+    if (!list) return;
+    const set = (selector, value) => {
+      const element = document.querySelector(selector);
+      if (element) element.textContent = value;
+    };
+    set('#model-arr', EUR(data.p.t[2]));
+    set('#model-arr-usd', `≈ ${USD(data.p.t[2], data.p.fx.rate)} USD`);
+    set('#model-low', EUR(data.p.t[2] * 2));
+    set('#model-low-usd', `≈ ${USD(data.p.t[2] * 2, data.p.fx.rate)} USD`);
+    set('#model-mid', EUR(data.p.t[2] * 4));
+    set('#model-mid-usd', `≈ ${USD(data.p.t[2] * 4, data.p.fx.rate)} USD`);
+    set('#model-high', EUR(data.p.t[2] * 7));
+    set('#model-high-usd', `≈ ${USD(data.p.t[2] * 7, data.p.fx.rate)} USD`);
+    set('#commercial-ask-total', EUR(data.p.t[0]));
+    set('#commercial-ask-total-usd', `≈ ${USD(data.p.t[0], data.p.fx.rate)} USD`);
+    set('#commercial-rd-total', EUR(data.p.t[1]));
+    set('#commercial-rd-total-usd', `≈ ${USD(data.p.t[1], data.p.fx.rate)} USD`);
+    set('#commercial-fx-rate', `1 EUR = ${data.p.fx.rate.toFixed(4)} USD`);
+    list.innerHTML = data.assets.map((asset) => `
+      <article class="row valuation-row">
+        <div class="n">${String(asset.id).padStart(2, '0')}</div>
+        <div class="row-asset"><h2><a href="projects/${SAFE(asset.slug)}/">${SAFE(asset.name)}</a></h2><p>${SAFE(asset.status)} · ${SAFE(asset.category)}${asset.launch ? ` · Launch #${asset.launch.rank}` : ''}</p></div>
+        <div><span class="row-label">As-Is asking reference</span>${currencyPair(asset.ask, data.p.fx, 'row-price')}</div>
+        <div><span class="row-label">Recreation-cost reference</span>${currencyPair(asset.rd, data.p.fx, 'row-price')}</div>
+        <a class="row-open" href="projects/${SAFE(asset.slug)}/" aria-label="Open ${SAFE(asset.name)}">↗</a>
+      </article>`).join('');
+  }
+
+  loadPortfolio().then((data) => {
+    renderHome(data); renderProject(data); renderCommercial(data);
+    document.documentElement.dataset.releaseRuntime = RELEASE;
+  }).catch((error) => {
+    console.error(error);
+    document.querySelectorAll('[data-load]').forEach((element) => {
+      element.textContent = 'Portfolio data temporarily unavailable.';
+    });
+  });
+})();

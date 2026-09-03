@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url';
 import vm from 'node:vm';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const RELEASE = '20260903-15';
+const RELEASE = '20260903-16';
 const ORIGIN = 'https://thearchitect-max.github.io/MyProjects/';
 const ARR = { VH: 2_000_000, H: 1_000_000, M: 500_000, S: 250_000 };
 const checks = [];
@@ -71,6 +71,9 @@ const assets = portfolio.a.map((row) => ({
 
 check('release:portfolio', portfolio.v === RELEASE, portfolio.v);
 check('release:evidence', evidence.release === RELEASE, evidence.release);
+check('currency:base-quote', portfolio.fx?.base === 'EUR' && portfolio.fx?.quote === 'USD');
+check('currency:ecb-reference', portfolio.fx?.rate === 1.1578 && portfolio.fx?.date === '2026-09-02' &&
+  portfolio.fx?.source === 'ECB euro reference rate' && portfolio.fx?.indicative === true);
 check('portfolio:asset-count', portfolio.n === assets.length && assets.length === 54, `${portfolio.n}/${assets.length}`);
 check('portfolio:asset-count-evidence', evidence.asset_count === assets.length && evidence.records.length === assets.length);
 check('portfolio:sequential-identities', assets.every((asset, index) =>
@@ -139,6 +142,12 @@ for (const relative of canonicalPages) {
   }
 }
 
+for (const relative of ['index.html', 'commercialization.html', 'transfer.html']) {
+  const html = await text(relative);
+  check(`currency:static-eur-usd:${relative}`, html.includes('EUR') && html.includes('USD'));
+  check(`currency:static-rate:${relative}`, html.includes('1.1578'));
+}
+
 for (const relative of ['assets/site.js', 'assets/foundations.js', 'assets/github-evidence.js']) {
   const source = await text(relative);
   check(`javascript:release:${relative}`, source.includes(`'${RELEASE}'`));
@@ -149,6 +158,13 @@ for (const relative of ['assets/site.js', 'assets/foundations.js', 'assets/githu
     check(`javascript:syntax:${relative}`, false, error.message);
   }
 }
+
+const siteRuntime = await text('assets/site.js');
+check('currency:runtime-formatters', siteRuntime.includes("currency: 'EUR'") && siteRuntime.includes("currency: 'USD'"));
+check('currency:runtime-all-assets', siteRuntime.includes('currencyPair(asset.ask') &&
+  siteRuntime.includes('currencyPair(asset.rd') && siteRuntime.includes('USD · indicative'));
+check('currency:runtime-disclosure', siteRuntime.includes('EUR is the authoritative portfolio currency') &&
+  siteRuntime.includes('View ECB reference'));
 
 const projectEntries = await readdir(path.join(ROOT, 'projects'), { withFileTypes: true });
 const canonicalSlugs = new Set(assets.map((asset) => asset.slug));
@@ -169,7 +185,7 @@ for (const relative of repositoryFiles) {
   const source = await text(relative);
   check(
     `release:no-stale-marker:${relative}`,
-    !['20260903-13', '20260903-14'].some((marker) => source.includes(marker))
+    !['20260903-13', '20260903-14', '20260903-15'].some((marker) => source.includes(marker))
   );
 }
 check('policy:no-github-actions', !(await exists(path.join(ROOT, '.github', 'workflows'))));

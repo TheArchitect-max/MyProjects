@@ -1,5 +1,5 @@
 (()=>{'use strict';
-const RELEASE='20260903-15';
+const RELEASE='20260903-16';
 const IS_PROJECT=/\/projects\/[^/]+\/?$/.test(location.pathname);
 const BASE=IS_PROJECT?'../../':'./';
 const URL=`${BASE}evidence/github-existence.json?v=${RELEASE}`;
