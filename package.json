@@ -1,0 +1,14 @@
+{
+  "name": "thearchitect-max-myprojects-showroom",
+  "version": "2026.9.3-14",
+  "private": true,
+  "description": "Internal validation tooling for the THEARCHITECT_MAX software/IP asset showroom.",
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/validate-site.mjs",
+    "validate": "node scripts/validate-site.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

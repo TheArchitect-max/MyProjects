@@ -1,5 +1,5 @@
-const RELEASE='20260903-13';
-const DATA_VERSION='20260903-13';
+const RELEASE='20260903-14';
+const DATA_VERSION='20260903-14';
 const DATA_PATH=document.documentElement.dataset.dataPath||'assets/projects.json';
 const EUR=n=>new Intl.NumberFormat('nl-NL',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(Number(n)||0);
 const SAFE=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
@@ -9,6 +9,7 @@ const ARR={VH:2000000,H:1000000,M:500000,S:250000};
 const NEXT={V:'Productization and production hardening',P:'Software validation and product hardening',R:'Prototype definition and validation'};
 const CURRENT={V:'Software-validated asset',P:'Verified development prototype',R:'Research-stage software asset'};
 const REVIEW_DATE='03 Sep 2026';
+const RELEASE_ADDITIONS=new Set(['aletheia-intelligence-fabric','truelane-inkcore','visionair-research-engine','chimera-spectral-perception-system']);
 const LAUNCH_PRIORITY={
  'veritas-evidence-intelligence':{rank:1,label:'Recommended First Product',reason:'Best overall balance of clear B2B value, hosted-product fit, commercial scope and a focused first-user workflow.'},
  'organizational-memory-engine':{rank:2,label:'Enterprise Upside',reason:'Strong enterprise ceiling for organizational knowledge, engineering history and change-risk intelligence.'},
@@ -21,7 +22,7 @@ async function loadPortfolio(){
  const r=await fetch(`${DATA_PATH}?v=${DATA_VERSION}`,{cache:'no-store'});
  if(!r.ok)throw new Error('Portfolio unavailable');
  const p=await r.json();
- if(p.v!==DATA_VERSION||p.n!==50||!Array.isArray(p.a)||p.a.length!==50)throw new Error('Portfolio release mismatch');
+ if(p.v!==DATA_VERSION||!Number.isInteger(p.n)||p.n<1||!Array.isArray(p.a)||p.a.length!==p.n)throw new Error('Portfolio release mismatch');
  const assets=p.a.map(x=>({id:x[0],ref:x[1],slug:x[2],name:x[3],category:p.c[x[4]],status:STATUS[x[5]],statusCode:x[5],summary:x[6],ask:Number(x[7]),rd:Number(x[8]),potential:POTENTIAL[x[9]],potentialCode:x[9],route:p.r[x[10]],arr:ARR[x[9]],url:x[11]||'',current:CURRENT[x[5]],next:NEXT[x[5]],launch:LAUNCH_PRIORITY[x[2]]||null}));
  return {p,assets,validation:validatePortfolio(p,assets)};
 }
@@ -29,12 +30,16 @@ function validatePortfolio(p,assets){
  const round=n=>Math.round(n*100)/100;
  const ask=round(assets.reduce((s,a)=>s+a.ask,0)),rd=round(assets.reduce((s,a)=>s+a.rd,0));
  const allPriced=assets.every(a=>a.ask>0&&a.rd>0),relationships=assets.every(a=>a.ask<=a.rd);
- const uniqueRefs=new Set(assets.map(a=>a.ref)).size===50,uniqueSlugs=new Set(assets.map(a=>a.slug)).size===50;
+ const uniqueRefs=new Set(assets.map(a=>a.ref)).size===p.n,uniqueSlugs=new Set(assets.map(a=>a.slug)).size===p.n;
  const counts=assets.reduce((m,a)=>(m[a.statusCode]=(m[a.statusCode]||0)+1,m),{});
+ const potentialCounts=assets.reduce((m,a)=>(m[a.potentialCode]=(m[a.potentialCode]||0)+1,m),{});
  const totals=ask===round(p.t[0])&&rd===round(p.t[1]);
  const statuses=(counts.V||0)===p.sc.V&&(counts.P||0)===p.sc.P&&(counts.R||0)===p.sc.R;
+ const potentials=['VH','H','M','S'].every(k=>(potentialCounts[k]||0)===p.pc[k]);
+ const numbered=assets.every((a,i)=>a.id===i+1&&a.ref===`TA-IP-${String(i+1).padStart(3,'0')}`);
+ const indexed=assets.every(a=>a.category&&a.route&&STATUS[a.statusCode]&&POTENTIAL[a.potentialCode]);
  const reassessed=Boolean(p.re&&p.re.date==='2026-09-03'&&p.re.method&&p.re.scope);
- return {passed:allPriced&&relationships&&uniqueRefs&&uniqueSlugs&&totals&&statuses&&reassessed,ask,rd};
+ return {passed:allPriced&&relationships&&uniqueRefs&&uniqueSlugs&&totals&&statuses&&potentials&&numbered&&indexed&&reassessed,ask,rd};
 }
 function renderHome(d){
  const grid=document.querySelector('#project-grid');if(!grid)return;
@@ -42,14 +47,14 @@ function renderHome(d){
  const set=(id,v)=>{const e=document.querySelector(id);if(e)e.textContent=v};
  set('#asset-count',d.p.n);set('#validated',d.p.sc.V);set('#prototype',d.p.sc.P);set('#ask-total',EUR(d.p.t[0]));set('#rd-total',EUR(d.p.t[1]));set('#pricing-status',d.validation.passed?`Reassessed ${REVIEW_DATE}`:'Review required');
  document.documentElement.dataset.priceValidation=d.validation.passed?'passed':'failed';
- const defs=[['All','All'],['Launch shortlist','Launch shortlist'],['Recommended first product','Recommended first product'],['Software-Validated','Software-Validated'],['Verified Prototype','Verified Prototype'],['Research','Research']];
+ const defs=[['All','All'],['New in this release','New in this release'],['Launch shortlist','Launch shortlist'],['Recommended first product','Recommended first product'],['Software-Validated','Software-Validated'],['Verified Prototype','Verified Prototype'],['Research','Research']];
  filters.innerHTML=defs.map(([v,l],i)=>`<button class="filter${i?'':' active'}" data-v="${SAFE(v)}">${SAFE(l)}</button>`).join('');
  const launchBox=document.querySelector('#launch-priority-list');if(launchBox){const pick=d.assets.find(a=>a.launch?.rank===1);launchBox.innerHTML=`<article class="metric"><small>Recommended first product</small><strong>${SAFE(pick.name)}</strong><p>${SAFE(pick.launch.reason)}</p></article><article class="metric"><small>Launch priority</small><strong>#1</strong><p>Strategic productization ranking, separate from maturity and valuation.</p></article><article class="metric"><small>Commercial route</small><strong>B2B SaaS</strong><p>${SAFE(pick.route)}</p></article><article class="metric"><small>Hosted-product fit</small><strong>Strong</strong><p>Well suited to a server-hosted product with browser-based workflows.</p></article>`;}
- const matches=a=>active==='All'||(active==='Launch shortlist'&&a.launch)||(active==='Recommended first product'&&a.launch?.rank===1)||a.status===active;
+ const matches=a=>active==='All'||(active==='New in this release'&&RELEASE_ADDITIONS.has(a.slug))||(active==='Launch shortlist'&&a.launch)||(active==='Recommended first product'&&a.launch?.rank===1)||a.status===active;
  function draw(){
   const q=(search?.value||'').trim().toLowerCase();let rows=d.assets.filter(a=>matches(a)&&(!q||`${a.name} ${a.category} ${a.summary} ${a.route} ${a.ref} ${a.launch?.label||''}`.toLowerCase().includes(q)));
   if(sort?.value==='name')rows.sort((a,b)=>a.name.localeCompare(b.name));else if(sort?.value==='price-asc')rows.sort((a,b)=>a.ask-b.ask);else if(sort?.value==='status')rows.sort((a,b)=>a.status.localeCompare(b.status)||a.id-b.id);else if(sort?.value==='launch')rows.sort((a,b)=>(a.launch?.rank||999)-(b.launch?.rank||999)||b.ask-a.ask);else rows.sort((a,b)=>b.ask-a.ask);
-  grid.innerHTML=rows.map(a=>`<a class="card asset-card" href="projects/${SAFE(a.slug)}/"><div><div class="card-top"><span class="asset-ref">${SAFE(a.ref)}</span><span class="availability">Available · As-Is</span></div><h3>${SAFE(a.name)}</h3><p>${SAFE(a.summary)}</p><div class="chips">${a.launch?.rank===1?'<span class="chip">Recommended first product</span>':''}${a.launch?`<span class="chip">Launch priority #${a.launch.rank}</span>`:''}<span class="chip">${SAFE(a.status)}</span><span class="chip">${SAFE(a.category)}</span></div></div><div><div class="price"><span>Evidence-reviewed asking reference</span><strong>${EUR(a.ask)}</strong></div><div class="valuation-mini"><span>Recreation-cost reference</span><b>${EUR(a.rd)}</b><span class="verified-mark">✓ Reassessed ${REVIEW_DATE}</span></div><div class="card-foot"><span>${SAFE(a.potential)} commercial potential</span><span>Open asset →</span></div></div></a>`).join('');if(count)count.textContent=`${rows.length} assets`;
+  grid.innerHTML=rows.map(a=>`<a class="card asset-card" href="projects/${SAFE(a.slug)}/"><div><div class="card-top"><span class="asset-ref">${SAFE(a.ref)}</span><span class="availability">Available · As-Is</span></div><h3>${SAFE(a.name)}</h3><p>${SAFE(a.summary)}</p><div class="chips">${RELEASE_ADDITIONS.has(a.slug)?'<span class="chip release-chip">New · Release 14</span>':''}${a.launch?.rank===1?'<span class="chip">Recommended first product</span>':''}${a.launch?`<span class="chip">Launch priority #${a.launch.rank}</span>`:''}<span class="chip">${SAFE(a.status)}</span><span class="chip">${SAFE(a.category)}</span></div></div><div><div class="price"><span>Evidence-reviewed asking reference</span><strong>${EUR(a.ask)}</strong></div><div class="valuation-mini"><span>Recreation-cost reference</span><b>${EUR(a.rd)}</b><span class="verified-mark">✓ Reassessed ${REVIEW_DATE}</span></div><div class="card-foot"><span>${SAFE(a.potential)} commercial potential</span><span>Open asset →</span></div></div></a>`).join('');if(count)count.textContent=`${rows.length} assets`;
  }
  filters?.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;active=b.dataset.v;[...filters.children].forEach(x=>x.classList.toggle('active',x===b));draw()});search?.addEventListener('input',draw);sort?.addEventListener('change',draw);draw();
 }
