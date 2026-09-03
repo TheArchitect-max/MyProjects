@@ -1,0 +1,547 @@
+{
+  "schema": "ta-assurance-review-v1",
+  "release": "20260903-19",
+  "reviewed_at": "2026-09-03T20:30:00+02:00",
+  "scope": "Public evidence-bound terminology for repository existence, internal software validation, prototype maturity, research maturity, standards references and certification boundaries.",
+  "terminology": {
+    "V": {
+      "label": "Software-Validated",
+      "meaning": "Repository-maintained executable checks passed for the stated software scope; this is internal software validation, not field proof or independent certification."
+    },
+    "P": {
+      "label": "Verified Prototype",
+      "meaning": "Implemented prototype with repository evidence and bounded internal checks; full software, operational or domain validation remains open."
+    },
+    "R": {
+      "label": "Research",
+      "meaning": "Repository-backed research implementation whose core scientific, experimental or product claim remains unresolved."
+    },
+    "standards_referenced": "A named standard, authoritative method or benchmark informs the work; conformity is not implied.",
+    "standards_aligned": "Requires an explicit requirements/control mapping plus implementation and test evidence for the stated scope.",
+    "independently_certified": "Requires a current certificate or assessment from an identified competent external body with a defined scope."
+  },
+  "portfolio": {
+    "canonical_assets": 64,
+    "software_validated": 36,
+    "verified_prototypes": 24,
+    "research": 4,
+    "repository_existence_verified": 64,
+    "proprietary_boundaries_reviewed": 64,
+    "portfolio_wide_independent_certifications_claimed": 0
+  },
+  "records": [
+    {
+      "asset_ref": "TA-IP-001",
+      "slug": "research-orchestrator",
+      "maturity": "P",
+      "internal_evidence": "Prior portfolio review supports implemented prototype status; broader validation and product hardening remain open.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-002",
+      "slug": "ossn-uap",
+      "maturity": "P",
+      "internal_evidence": "Prior portfolio review supports implemented prototype status; broader validation and product hardening remain open.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-003",
+      "slug": "athanor",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-004",
+      "slug": "stabilitymesh",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-005",
+      "slug": "systemic-absolute-topology",
+      "maturity": "P",
+      "internal_evidence": "Prior portfolio review supports implemented prototype status; broader validation and product hardening remain open.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-006",
+      "slug": "omnisynth-intelligence-engine",
+      "maturity": "R",
+      "internal_evidence": "Prior portfolio review supports a real repository-backed research asset; hypothesis or validation gates remain open.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-007",
+      "slug": "faunometric",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-008",
+      "slug": "modular-key-cryptanalysis-platform",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-009",
+      "slug": "truelane-flora",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-010",
+      "slug": "unifiedcannabis",
+      "maturity": "P",
+      "internal_evidence": "Prior portfolio review supports implemented prototype status; broader validation and product hardening remain open.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-011",
+      "slug": "tls-virtual",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-012",
+      "slug": "research-intelligence-fabric",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-013",
+      "slug": "aegis-vision",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-014",
+      "slug": "aegis-vision-offline",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-015",
+      "slug": "truelane-intelligence-engine",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-016",
+      "slug": "programmatic-search-fabric",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-017",
+      "slug": "protein-structure-evidence-qualification-platform",
+      "maturity": "R",
+      "internal_evidence": "Prior portfolio review supports a real repository-backed research asset; hypothesis or validation gates remain open.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-018",
+      "slug": "signal-processing-universal-framework",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-019",
+      "slug": "air-to-water-transition-vehicle",
+      "maturity": "P",
+      "internal_evidence": "Prior portfolio review supports implemented prototype status; broader validation and product hardening remain open.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-020",
+      "slug": "verifiable-execution-control-platform",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-021",
+      "slug": "organizational-memory-engine",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-022",
+      "slug": "machine-cognition-research-framework",
+      "maturity": "P",
+      "internal_evidence": "Prior portfolio review supports implemented prototype status; broader validation and product hardening remain open.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-023",
+      "slug": "cipher-lyric-engine",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-024",
+      "slug": "distributed-ai-resource-fabric",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-025",
+      "slug": "dmt-laser-phenomenology-engine",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-026",
+      "slug": "universal-kernel-machine",
+      "maturity": "P",
+      "internal_evidence": "Prior portfolio review supports implemented prototype status; broader validation and product hardening remain open.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-027",
+      "slug": "sensor-fusion-digital-twin-engine",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-028",
+      "slug": "dominus-kraken-execution-engine",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-029",
+      "slug": "autonomous-adaptation-framework",
+      "maturity": "P",
+      "internal_evidence": "Prior portfolio review supports implemented prototype status; broader validation and product hardening remain open.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-030",
+      "slug": "lewis-hybrid-llm-orchestrator",
+      "maturity": "R",
+      "internal_evidence": "Prior portfolio review supports a real repository-backed research asset; hypothesis or validation gates remain open.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-031",
+      "slug": "veritas-evidence-intelligence",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-032",
+      "slug": "aerospace-mission-simulator",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-033",
+      "slug": "mt2050-experimental-dynamics",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-034",
+      "slug": "electric-flight-systems-simulation-validation-platform",
+      "maturity": "P",
+      "internal_evidence": "Prior portfolio review supports implemented prototype status; broader validation and product hardening remain open.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-035",
+      "slug": "legalops-nl",
+      "maturity": "P",
+      "internal_evidence": "Prior portfolio review supports implemented prototype status; broader validation and product hardening remain open.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-036",
+      "slug": "advanced-ground-vehicle-engineering",
+      "maturity": "P",
+      "internal_evidence": "Prior portfolio review supports implemented prototype status; broader validation and product hardening remain open.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-037",
+      "slug": "sentinelbio-verify",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "NIST SP 800-63B-4 is a documented assurance reference; reference or control mapping does not equal NIST certification.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-038",
+      "slug": "truelane-engineering-excellence",
+      "maturity": "P",
+      "internal_evidence": "Prior portfolio review supports implemented prototype status; broader validation and product hardening remain open.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-039",
+      "slug": "mothercode-research-engine",
+      "maturity": "P",
+      "internal_evidence": "Prior portfolio review supports implemented prototype status; broader validation and product hardening remain open.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-040",
+      "slug": "integrated-media-production-engine",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-041",
+      "slug": "agentic-engineering-control-plane",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-042",
+      "slug": "oraculum-infinitum",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-043",
+      "slug": "cipherroutedb",
+      "maturity": "P",
+      "internal_evidence": "Prior portfolio review supports implemented prototype status; broader validation and product hardening remain open.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-044",
+      "slug": "axiomfactor",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-045",
+      "slug": "latticedepth",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-046",
+      "slug": "isbr-securetrace",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-047",
+      "slug": "mercorion-commerce-compiler",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-048",
+      "slug": "sonicfabric",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-049",
+      "slug": "kinetic-logic-reconstructor",
+      "maturity": "P",
+      "internal_evidence": "Prior portfolio review supports implemented prototype status; broader validation and product hardening remain open.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-050",
+      "slug": "adaptive-biofeedback-engine",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-051",
+      "slug": "aletheia-intelligence-fabric",
+      "maturity": "P",
+      "internal_evidence": "Prior portfolio review supports implemented prototype status; broader validation and product hardening remain open.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-052",
+      "slug": "truelane-inkcore",
+      "maturity": "P",
+      "internal_evidence": "Prior portfolio review supports implemented prototype status; broader validation and product hardening remain open.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-053",
+      "slug": "visionair-research-engine",
+      "maturity": "P",
+      "internal_evidence": "Prior portfolio review supports implemented prototype status; broader validation and product hardening remain open.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-054",
+      "slug": "vision-evidence-governed-multimodal-perception-framework",
+      "maturity": "P",
+      "internal_evidence": "Prior portfolio review supports implemented prototype status; broader validation and product hardening remain open.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-055",
+      "slug": "evidence-grounded-multi-expert-reasoning-system",
+      "maturity": "P",
+      "internal_evidence": "Prior portfolio review supports implemented prototype status; broader validation and product hardening remain open.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-056",
+      "slug": "goldennet-signal-intelligence-platform",
+      "maturity": "V",
+      "internal_evidence": "Prior portfolio review supports repository-maintained internal software validation for the bounded implementation scope.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-057",
+      "slug": "autonomous-documentary-engine",
+      "maturity": "P",
+      "internal_evidence": "Prior portfolio review supports implemented prototype status; broader validation and product hardening remain open.",
+      "standards_posture": "No portfolio claim of independent standards certification is made for this asset.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-058",
+      "slug": "multimodal-evidence-adaptive-systems-platform",
+      "maturity": "P",
+      "internal_evidence": "Current v0.1.0 tree contains a repository-local unittest, compilation and invariant gate. The build records completion of internal validation; scientific and human-sensing validity remain unestablished.",
+      "standards_posture": "Repository-local evidence and reproducibility protocol. No formal standards conformity or external certification is claimed.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-059",
+      "slug": "fusionlunar-energy-systems-engineering-platform",
+      "maturity": "P",
+      "internal_evidence": "Current v0.4 tree contains deterministic pytest coverage and explicit reactor-loss qualification gates. A passing software gate is not experimental fusion, lunar-resource or net-power validation.",
+      "standards_posture": "The NRL Plasma Formulary expression and provenance-qualified scientific sources are technical references, not energy-system certification.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-060",
+      "slug": "temporal-physics-causality-research-platform",
+      "maturity": "R",
+      "internal_evidence": "The v0.5 digital twin and unit-test gate support design calculations only. The repository explicitly records PTCG-1B as not experimentally validated.",
+      "standards_posture": "BIPM frequency recommendations and NIST trapped-ion literature are metrology references; they do not certify the proposed device or causal-control hypothesis.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-061",
+      "slug": "industrial-predictive-maintenance-rul-platform",
+      "maturity": "V",
+      "internal_evidence": "The v0.2.0 release manifest records 25/25 tests passed plus compilation, CLI, bundle-integrity, synthetic-pipeline and external-fixture smoke gates.",
+      "standards_posture": "NASA C-MAPSS is supported as an operator-supplied benchmark path. No ISO/IEC conformity, SIL certification or field-performance certification is claimed.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-062",
+      "slug": "adaptive-audio-production-system",
+      "maturity": "P",
+      "internal_evidence": "The v0.1.0 tree contains repository-local pytest and Ruff gates for deterministic analysis, DSP, pipeline and QA behavior. No independent production-master validation is recorded.",
+      "standards_posture": "No broadcast or mastering-standard conformity is claimed; integrated loudness, production limiting and true-peak validation remain open gates.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-063",
+      "slug": "causal-state-field-engine",
+      "maturity": "V",
+      "internal_evidence": "The v0.1.0 validation record reports 8/8 tests passed for canonicalization, coordinate stability, propagation, attribution and rejection invariants.",
+      "standards_posture": "SHA-256 and JSON-like canonicalization are implementation primitives. No formal standards conformity or external certification is claimed.",
+      "independently_certified": false
+    },
+    {
+      "asset_ref": "TA-IP-064",
+      "slug": "evidence-governed-analytical-reasoning-platform",
+      "maturity": "V",
+      "internal_evidence": "The v0.1.0 verification record reports 10/10 tests passed, including deterministic evaluation and evidence-state invariants.",
+      "standards_posture": "Evidence states and reproducibility rules are repository protocols. No forensic, legal, scientific or regulatory certification is claimed.",
+      "independently_certified": false
+    }
+  ],
+  "records_sha256": "3d5f7f3aa11aee6a53e716fde4f055ca3eeea0d0e05acabff7f4f50540699655"
+}
