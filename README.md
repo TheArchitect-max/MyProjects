@@ -16,13 +16,12 @@ The site presents **57 canonical private software/IP assets** with evidence-revi
 
 ## Current portfolio pricing — release 18
 
-- Revised market-calibrated strategic asking reference: **€10,310,000**
+- Market-calibrated strategic asking reference: **€10,310,000**
 - Indicative USD conversion: **$11,936,918**
 - Defensible portfolio negotiation band: **€8,225,000–€12,900,000**
 - Liquidity / quick-sale reference: **€4,070,000**
 - Recreation-cost reference retained separately: **€38,770,000**
 - Indicative USD recreation-cost conversion: **$44,887,906**
-- Prior release-17 seller reference retained as historical pricing evidence: **€21,660,000**
 - Strategic asking / recreation-cost relationship: **26.6%**
 - Maturity: **33 Software-Validated / 21 Verified Prototype / 3 Research**
 
@@ -36,26 +35,26 @@ Current showroom release: `20260903-18`.
 
 ## Release 18 — multi-source price review
 
-Release 18 performs a full price-layer reassessment while preserving release-17 prices as historical evidence.
+Release 18 performs a full market-calibrated price-layer reassessment and exposes only the current pricing framework in the public site and current public pricing data.
 
 ### Valuation method
 
 The review triangulates multiple external and internal evidence types:
 
 - **WIPO IP valuation guidance** — cost/replacement methods are retained as a technical baseline for internally developed software and early-stage technology, not as automatic transaction value.
-- **Acquire.com 2026 closed SaaS transactions** — profitable SaaS deals continue to anchor primarily on verified profit; the reported 2024/2025 median confirmed profit multiple is 3.9×.
-- **Software Equity Group 2Q26** — SaaS M&A remains active but selective, with disclosed median EV/TTM revenue around 4.0× and premiums for strategic fit, differentiated data and embedded workflows.
+- **Acquire.com 2026 closed SaaS transactions** — profitable SaaS deals continue to anchor primarily on verified operating performance.
+- **Software Equity Group 2Q26** — SaaS M&A remains active but selective, with premiums for strategic fit, differentiated data and embedded workflows.
 - **SaaS Capital 2026** — private B2B SaaS valuation uses ARR multiples driven by market conditions, ARR growth and net revenue retention; those operating metrics are not assumed where they are not evidenced.
 - **Flippa marketplace pricing rules** — non-revenue and concept-stage assets face materially lower marketplace price ceilings than operating businesses, supporting a strong liquidity/commercial-proof discount.
 - **BLS and Eurostat labor data** — used only as a reasonableness cross-check on software recreation cost, never as a direct sale-price multiple.
 - **ECB reference FX** — used solely for indicative USD conversion.
 
-The documented pricing model applies maturity, commercial-potential and route-to-market factors to the retained recreation-cost reference. Strategic point estimates are rounded to €5,000. The public negotiation band is 80%–125% of the strategic point. A separate lower liquidity reference estimates the additional discount associated with quick execution and absent operating proof.
+The documented pricing model applies maturity, commercial-potential and route-to-market factors to the recreation-cost reference. Strategic point estimates are rounded to €5,000. The public negotiation band is 80%–125% of the strategic point. A separate lower liquidity reference estimates the additional discount associated with quick execution and absent operating proof.
 
 ### Machine-readable and human-readable evidence
 
-- `assets/pricing-review.json` — canonical release-18 pricing model, sources, factors, portfolio totals and all 57 asset pricing records.
-- `evidence/valuation-review-2026-09-03.md` — full 57-asset audit table with prior ask, revised strategic ask, negotiation band, quick-sale reference and recreation reference.
+- `assets/pricing-review.json` — canonical release-18 pricing model, sources, factors, portfolio totals and all 57 current asset pricing records.
+- `evidence/valuation-review-2026-09-03.md` — full current 57-asset audit table with strategic ask, negotiation band, quick-sale reference and recreation reference.
 - `scripts/validate-refresh.mjs` — release-18 local validator checking pricing aggregates, band relationships, source coverage, repository evidence and canonical routes.
 
 ## Release 17 — full portfolio reconciliation retained
@@ -78,26 +77,11 @@ This release reconciled the public site against the current GitHub portfolio wit
 
 ### Release 17 site and diligence changes
 
-- Raised the canonical public portfolio from 54 to **57 assets** while preserving the previous 54-asset data source as the immutable release-16 base.
-- Added `assets/portfolio-refresh.json` as the release-17 reconciliation record rather than destructively rewriting the previous data file.
-- Added `assets/portfolio-overlay.js` to merge current identities and additions before the existing rendering engine reads portfolio data.
+- Raised the canonical public portfolio from 54 to **57 assets**.
+- Added `assets/portfolio-refresh.json` as the release-17 canonical identity reconciliation record.
 - Reconciled the privacy-safe GitHub evidence register to 57 canonical assets and recorded the separate 58-repository observed scope.
 - Preserved renamed public URLs as `noindex` canonical redirects.
 - Added a release-17 validator while retaining the preceding validator as `npm run validate:base`.
-
-## Release 16 professional refresh — retained baseline
-
-- Restored simultaneous EUR and USD pricing across the preceding 54-asset release and canonical asset presentations.
-- Added the same dual-currency treatment to portfolio totals, recreation references, future scenarios, the valuation register and transfer framework.
-- Recorded the ECB reference rate and date in the canonical base portfolio data and validated the currency policy locally.
-- Refined hierarchy, navigation, responsive layouts, keyboard focus, filter state, valuation disclosure and buyer-facing presentation.
-
-### Assets introduced in the preceding portfolio expansion
-
-- **Aletheia Intelligence Fabric** — Verified Prototype defensive evidence and entity-intelligence core.
-- **TrueLane Ink-Core** — Verified Prototype for traceable tattoo-studio operations and stencil geometry.
-- **Visionair Research Engine** — Verified Prototype for reproducible synthetic ML experimentation.
-- **Vision Evidence Governed Multimodal Perception Framework** — current canonical identity for the perception asset introduced in that expansion; historical migration material remains retained separately.
 
 ## Internal validation
 
@@ -107,9 +91,9 @@ The public site does not require GitHub Actions. Validate the current static rel
 npm run validate
 ```
 
-The release-18 validator reconciles the retained base register with the release-17 canonical refresh and release-18 pricing layer. It checks canonical asset counts, strategic asking totals, negotiation-band aggregates, liquidity references, recreation-cost arithmetic, maturity and potential classifications, multi-source pricing evidence, repository-evidence SHA-256 integrity, canonical project pages, legacy redirects and release integration.
+The release-18 validator reconciles the canonical refresh and current pricing layer. It checks canonical asset counts, strategic asking totals, negotiation-band aggregates, liquidity references, recreation-cost arithmetic, maturity and potential classifications, multi-source pricing evidence, repository-evidence SHA-256 integrity, canonical project pages, legacy redirects and release integration.
 
-The previous complete release-16 validator remains available and has not been deleted:
+The previous complete validator remains available as:
 
 ```bash
 npm run validate:base
