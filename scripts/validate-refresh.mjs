@@ -153,6 +153,37 @@ for (const relative of ['assets/site.js', 'assets/portfolio-overlay.js', 'assets
   assert(source.includes(RELEASE), `runtime release mismatch ${relative}`);
   new vm.Script(source, { filename: relative });
 }
+const overlayRuntime = read('assets/portfolio-overlay.js');
+assert(!overlayRuntime.includes('x.textContent=x.textContent.replace'), 'overlay must not rewrite unchanged footer text');
+assert(overlayRuntime.includes('if(next!==x.textContent)x.textContent=next'), 'overlay mutation guard missing');
+let overlayCallback;
+let unchangedFooterWrites = 0;
+const unchangedFooter = {
+  value: `Portfolio · Release ${RELEASE}`,
+  get textContent() { return this.value; },
+  set textContent(value) {
+    this.value = value;
+    unchangedFooterWrites += 1;
+    if (unchangedFooterWrites < 4) queueMicrotask(() => overlayCallback?.());
+  }
+};
+vm.runInNewContext(overlayRuntime, {
+  document: {
+    body: {}, readyState: 'complete',
+    documentElement: { dataset: { release: RELEASE } },
+    querySelectorAll: (selector) => selector === '.footer-inner div' ? [unchangedFooter] : []
+  },
+  MutationObserver: class {
+    constructor(callback) { overlayCallback = callback; }
+    observe() {}
+  },
+  NodeFilter: { SHOW_TEXT: 4 },
+  queueMicrotask
+});
+await Promise.resolve();
+await Promise.resolve();
+assert(unchangedFooterWrites === 0, 'overlay rewrites unchanged footer and can trigger a mutation loop');
+assert(read('index.html').includes('portfolio-overlay.js?v=20260903-19.1'), 'homepage overlay cache-buster missing');
 assert(read('assets/github-evidence.js').includes('assurance-review.json'), 'assurance runtime source missing');
 assert(read('index.html').includes('64 canonical assets') && read('index.html').includes('€11.295.000') && read('index.html').includes('€43.620.000'), 'homepage release totals missing');
 assert(read('assurance.html').includes('Reference is not') && read('assurance.html').includes('No blanket portfolio certification'), 'assurance terminology missing');
