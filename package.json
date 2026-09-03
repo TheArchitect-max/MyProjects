@@ -1,12 +1,13 @@
 {
   "name": "thearchitect-max-myprojects-showroom",
-  "version": "2026.9.3-16",
+  "version": "2026.9.3-17",
   "private": true,
   "description": "Internal validation tooling for the THEARCHITECT_MAX software/IP asset showroom.",
   "type": "module",
   "scripts": {
-    "test": "node scripts/validate-site.mjs",
-    "validate": "node scripts/validate-site.mjs"
+    "test": "node scripts/validate-refresh.mjs",
+    "validate": "node scripts/validate-refresh.mjs",
+    "validate:base": "node scripts/validate-site.mjs"
   },
   "engines": {
     "node": ">=20"
