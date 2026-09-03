@@ -15,6 +15,7 @@ const evidence=json('evidence/github-existence.json');
 assert(base.v===refresh.base_version,'refresh/base version mismatch');
 assert(pricing.v==='20260903-18','pricing release mismatch');
 assert(pricing.basis_release===refresh.v,'pricing basis release mismatch');
+assert(!('prior_asking_reference' in pricing.portfolio),'legacy public asking reference must be absent');
 const merged=JSON.parse(JSON.stringify(base));
 for(const c of refresh.replacements){const row=merged.a.find(x=>x[0]===c.id);assert(row,`missing replacement id ${c.id}`);row[2]=c.slug;row[3]=c.name;row[6]=c.summary}
 const refs=new Set(merged.a.map(x=>x[1]));for(const row of refresh.additions){if(!refs.has(row[1]))merged.a.push(row)}
@@ -29,7 +30,7 @@ assert(new Set(merged.a.map(x=>x[2])).size===57,'asset slugs must be unique');
 for(let i=0;i<merged.a.length;i++){assert(merged.a[i][0]===i+1,`non-sequential id ${i+1}`);assert(merged.a[i][1]===`TA-IP-${String(i+1).padStart(3,'0')}`,`bad asset ref ${i+1}`)}
 const ask=merged.a.reduce((s,x)=>s+Number(x[7]),0),rd=merged.a.reduce((s,x)=>s+Number(x[8]),0);
 assert(ask===10310000,'strategic asking total mismatch');assert(rd===38770000,'recreation total mismatch');
-assert(pricing.portfolio.prior_asking_reference===21660000,'prior asking reference mismatch');
+assert(refresh.totals[0]===pricing.portfolio.strategic_asking_reference,'refresh strategic total mismatch');
 assert(pricing.portfolio.strategic_band[0]===8225000&&pricing.portfolio.strategic_band[1]===12900000,'strategic band mismatch');
 assert(pricing.portfolio.quick_sale_reference===4070000,'quick-sale total mismatch');
 const low=pricing.records.reduce((s,x)=>s+Number(x[2]),0),high=pricing.records.reduce((s,x)=>s+Number(x[3]),0),quick=pricing.records.reduce((s,x)=>s+Number(x[4]),0);
@@ -64,4 +65,4 @@ const commercial=read('commercialization.html');assert(commercial.includes('€1
 const transfer=read('transfer.html');assert(transfer.includes('€10.31M'),'transfer strategic asking total missing');
 const siteJs=read('assets/site.js');assert(siteJs.includes("const RELEASE = '20260903-18'"),'site runtime release mismatch');assert(siteJs.includes('pricing-review.json'),'site runtime pricing source missing');
 for(const oldName of ['AxiomCrypt','Shield Breaker Research','Chimera Spectral Perception System'])assert(!index.includes(oldName),`legacy identity leaked into homepage: ${oldName}`);
-console.log('Release 20260903-18 validation passed: 57 canonical assets, market-calibrated pricing, strategic bands, liquidity references, SHA-256 pricing integrity, repository evidence and routes reconciled.');
+console.log('Release 20260903-18 validation passed: 57 canonical assets, current-only market-calibrated pricing, strategic bands, liquidity references, SHA-256 pricing integrity, repository evidence and routes reconciled.');
