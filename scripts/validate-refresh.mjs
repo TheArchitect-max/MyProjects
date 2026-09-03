@@ -35,6 +35,8 @@ assert(pricing.portfolio.quick_sale_reference===4070000,'quick-sale total mismat
 const low=pricing.records.reduce((s,x)=>s+Number(x[2]),0),high=pricing.records.reduce((s,x)=>s+Number(x[3]),0),quick=pricing.records.reduce((s,x)=>s+Number(x[4]),0);
 assert(low===8225000&&high===12900000&&quick===4070000,'pricing-record aggregate mismatch');
 for(const record of pricing.records){assert(record[2]<=record[1]&&record[1]<=record[3],`invalid strategic band ${record[0]}`);assert(record[4]<=record[1],`invalid liquidity reference ${record[0]}`)}
+const pricingDigest=crypto.createHash('sha256').update(JSON.stringify(pricing.records)).digest('hex');
+assert(pricingDigest===pricing.records_sha256,'pricing SHA-256 mismatch');
 const sc={V:0,P:0,R:0},pc={VH:0,H:0,M:0,S:0};for(const x of merged.a){sc[x[5]]++;pc[x[9]]++;assert(x[7]>0&&x[8]>=x[7],`invalid price relation ${x[1]}`)}
 assert(JSON.stringify(sc)===JSON.stringify(refresh.status_counts),'maturity counts mismatch');
 assert(JSON.stringify(pc)===JSON.stringify(refresh.potential_counts),'potential counts mismatch');
@@ -60,5 +62,6 @@ assert(fs.existsSync(path.join(root,'evidence/valuation-review-2026-09-03.md')),
 const index=read('index.html');assert(index.includes('57 canonical assets'),'homepage canonical count missing');assert(index.indexOf('portfolio-overlay.js')<index.indexOf('site.js'),'portfolio overlay must load before site.js');assert(index.includes('€10.310.000'),'homepage strategic asking total missing');assert(index.includes('€38.770.000'),'homepage recreation total missing');assert(index.includes('20260903-18'),'homepage release 18 marker missing');
 const commercial=read('commercialization.html');assert(commercial.includes('€10.310.000'),'commercial valuation total missing');assert(commercial.includes('€8.225.000')&&commercial.includes('€12.900.000'),'commercial valuation band missing');
 const transfer=read('transfer.html');assert(transfer.includes('€10.31M'),'transfer strategic asking total missing');
+const siteJs=read('assets/site.js');assert(siteJs.includes("const RELEASE = '20260903-18'"),'site runtime release mismatch');assert(siteJs.includes('pricing-review.json'),'site runtime pricing source missing');
 for(const oldName of ['AxiomCrypt','Shield Breaker Research','Chimera Spectral Perception System'])assert(!index.includes(oldName),`legacy identity leaked into homepage: ${oldName}`);
-console.log('Release 20260903-18 validation passed: 57 canonical assets, market-calibrated pricing, strategic bands, liquidity references, repository evidence and routes reconciled.');
+console.log('Release 20260903-18 validation passed: 57 canonical assets, market-calibrated pricing, strategic bands, liquidity references, SHA-256 pricing integrity, repository evidence and routes reconciled.');
