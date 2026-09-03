@@ -17,15 +17,15 @@ The site presents 54 private software/IP assets with evidence-reviewed maturity,
 - Combined As-Is asking references: **€20,780,000**
 - Recreation-cost reference: **€36,920,000**
 - Modeled future ARR scenario: **€54,250,000** — planning scenario, not current revenue
-- Maturity: **33 Software-Validated / 18 Verified Prototype / 3 Research**
+- Maturity: **32 Software-Validated / 19 Verified Prototype / 3 Research**
 
 All 54 canonical asset routes contain static title, description, Open Graph and canonical metadata. Legacy public asset URLs for renamed products are retained only as `noindex` redirects to their current canonical presentations.
 
-Current showroom release: `20260903-14`.
+Current showroom release: `20260903-15`.
 
-## Release 14 additions
+## Release 15 additions
 
-- **Aletheia Intelligence Fabric** — Software-Validated defensive evidence and entity-intelligence core.
+- **Aletheia Intelligence Fabric** — Verified Prototype defensive evidence and entity-intelligence core; the current local validation run passes 15 of 16 runtime tests.
 - **TrueLane Ink-Core** — Verified Prototype for traceable tattoo-studio operations and stencil geometry.
 - **Visionair Research Engine** — Verified Prototype for reproducible synthetic ML experimentation.
 - **Chimera Spectral Perception System** — Verified Prototype with a computational-design-only hardware boundary.

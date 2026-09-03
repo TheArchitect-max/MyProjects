@@ -1,4 +1,4 @@
-(()=>{'use strict';const RELEASE='20260903-14';
+(()=>{'use strict';const RELEASE='20260903-15';
 const F={
 'research-orchestrator':['Web Research & State',['Serper'],'Web-research retrieval combined with persistent research state and human review gates.'],
 'ossn-uap':['Aviation & Observation Data',['OpenSky Network','NOAA NEXRAD','NASA Earthdata','Celestrak'],'Independent air-traffic, weather/radar, earth-observation and orbital context for cross-reference workflows.'],

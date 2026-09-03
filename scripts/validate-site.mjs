@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url';
 import vm from 'node:vm';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const RELEASE = '20260903-14';
+const RELEASE = '20260903-15';
 const ORIGIN = 'https://thearchitect-max.github.io/MyProjects/';
 const ARR = { VH: 2_000_000, H: 1_000_000, M: 500_000, S: 250_000 };
 const checks = [];
@@ -166,7 +166,11 @@ const repositoryFiles = [
   'assets/projects.json', 'evidence/github-existence.json'
 ];
 for (const relative of repositoryFiles) {
-  check(`release:no-stale-marker:${relative}`, !(await text(relative)).includes('20260903-13'));
+  const source = await text(relative);
+  check(
+    `release:no-stale-marker:${relative}`,
+    !['20260903-13', '20260903-14'].some((marker) => source.includes(marker))
+  );
 }
 check('policy:no-github-actions', !(await exists(path.join(ROOT, '.github', 'workflows'))));
 const license = await text('LICENSE');

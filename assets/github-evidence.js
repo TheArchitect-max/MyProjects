@@ -1,5 +1,5 @@
 (()=>{'use strict';
-const RELEASE='20260903-14';
+const RELEASE='20260903-15';
 const IS_PROJECT=/\/projects\/[^/]+\/?$/.test(location.pathname);
 const BASE=IS_PROJECT?'../../':'./';
 const URL=`${BASE}evidence/github-existence.json?v=${RELEASE}`;
@@ -10,7 +10,7 @@ const UPDATES={
 'truelane-engineering-excellence':['v0.41 research chain','The research chain is developed, while executable integration validation and independent canonical promotion remain open gates.'],
 'latticedepth':['v0.0.21 offline acquisition verification','The current release adds portable offline verification of acquisition packages, transaction-room provenance and reviewer/signature evidence. Rights review, scientific review and legal clearance remain separate.'],
 'mercorion-commerce-compiler':['v1.0 locally qualified commerce compiler','The current release adds deterministic large-site sharding and locally qualified release checks. The published benchmark remains a measured development-environment baseline rather than a universal performance guarantee.'],
-'aletheia-intelligence-fabric':['v1.1 defensive evidence and entity core','The current Node.js reference core has a checked-in local validator covering package policy, module imports, the built-in test suite, defensive boundaries and deployment configuration. Durable multi-replica production state and independently validated ML models remain later gates.'],
+'aletheia-intelligence-fabric':['v1.1 defensive evidence and entity core','The current Node.js reference core includes a 187-check local validator. The 03 September audit passed 15 of 16 runtime tests; access-challenge classification remains failing. The asset therefore remains a Verified Prototype pending a clean exact-revision validation run.'],
 'truelane-inkcore':['Verified multi-language operations baseline','The current baseline includes Go domain services, Python geometry tests, PostgreSQL policy checks and local validation. Production identity, regulatory clearance, payment-network authorization, load evidence and real-world stencil accuracy remain separate gates.'],
 'visionair-research-engine':['v0.2 reproducible research harness','The current baseline adds deterministic synthetic experiments, leakage auditing, calibration metrics, checkpoint round-trips, SQLite metrics and local/Colab validation paths. Synthetic results do not establish real-world or clinical performance.'],
 'chimera-spectral-perception-system':['Computational design baseline','The current repository validates package contracts, specification coherence and evidence-state guards. The multispectral hardware remains a design target without fabricated, calibrated or bench-verified prototype evidence.']};
