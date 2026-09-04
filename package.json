@@ -1,12 +1,12 @@
 {
   "name": "thearchitect-max-myprojects-showroom",
-  "version": "2026.9.3-19",
+  "version": "2026.9.4-20",
   "private": true,
-  "description": "Internal validation tooling for the THEARCHITECT_MAX software/IP showroom, assurance register and multi-source pricing review.",
+  "description": "Internal validation tooling for the THEARCHITECT_MAX private software/IP showroom and Release 20 live portfolio reconciliation.",
   "type": "module",
   "scripts": {
-    "test": "node scripts/validate-refresh.mjs",
-    "validate": "node scripts/validate-refresh.mjs"
+    "test": "node scripts/validate-live.mjs",
+    "validate": "node scripts/validate-live.mjs"
   },
   "engines": {
     "node": ">=20"
