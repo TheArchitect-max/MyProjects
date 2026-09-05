@@ -1,74 +1,53 @@
-# THEARCHITECT_MAX — MyProjects
+# THEARCHITECT_MAX — Information Memorandum
 
-Public GitHub Pages showroom for the private software/IP portfolio under the `TheArchitect-max` account.
+Public commercial Information Memorandum for the THEARCHITECT_MAX private software and digital intellectual-property portfolio.
 
-## Current release
+The public site is intentionally commercial rather than technical. It presents:
 
-Release `20260905-22` is an auditability-hardening release following the full repository reconciliation performed on 5 September 2026.
+- executive summary and portfolio proposition;
+- 67-asset commercial schedule;
+- portfolio development-stage mix;
+- routes to market and commercial potential;
+- indicative EUR/USD asking references and ranges;
+- commercial opportunity and strategic-acquirer rationale;
+- potential transaction structures and process;
+- an important-notice / non-reliance section.
 
-Current register:
+Technical implementation, repository internals, validation mechanics, source-tree information, detailed dependency information and transaction-stage diligence material are deliberately excluded from the public-facing memorandum.
 
-- **68 private project repositories observed**;
-- **67 canonical portfolio assets**;
-- **1 retained legacy perception-migration repository**, not double-counted;
-- maturity: **37 Software-Validated / 25 Verified Prototype / 5 Research**;
-- strategic asking reference: **EUR 11,755,000**;
-- strategic band: **EUR 9,380,000–14,715,000**;
-- liquidity reference: **EUR 4,625,000**;
-- recreation-cost reference: **EUR 46,420,000**;
-- indicative USD conversion uses the ECB 4 September 2026 reference rate of **1 EUR = 1.1622 USD**.
+## Current public navigation
 
-TraceLine is represented as `TA-IP-067` with **Verified Prototype** maturity after an executable v0.3 implementation appeared in the repository.
+- `/` — Information Memorandum / executive summary
+- `/portfolio.html` — commercial portfolio schedule
+- `/opportunity.html` — commercial opportunity and indicative valuation framework
+- `/transaction.html` — transaction structures and process
+- `/notice.html` — important notice
+- `/projects/<slug>/` — concise commercial asset profile
 
-## Release-22 data architecture
+Historical public routes such as `assurance.html`, `commercialization.html` and `transfer.html` remain as `noindex` compatibility pages so old links do not break.
 
-The repository intentionally retains earlier machine-readable review files as historical evidence. Their older embedded counts are not current standalone portfolio state.
+## Commercial presentation
 
-Current-state contracts:
+Current portfolio presentation:
 
-- `assets/current-register.json` — authoritative current composition contract;
-- `assets/assurance-current.json` — current assurance counts, terminology and material exceptions;
-- `assets/pricing-current.json` — current pricing totals and record-source contract;
-- `assets/live-release.json` — current identity overrides, assets 65–67, counts and caveats;
-- `evidence/repository-register-2026-09-05.json` — current repository-scope reconciliation;
-- `evidence/valuation-review-2026-09-05.md` — current seller-side valuation review;
-- `evidence/release22-integrity.md` — release provenance explanation.
+- 67 portfolio assets;
+- 37 established software assets;
+- 25 developed prototypes;
+- 5 research-stage assets;
+- indicative strategic asking reference: EUR 11,755,000;
+- indicative portfolio range: EUR 9,380,000–14,715,000;
+- USD values are convenience conversions only.
 
-Historical inputs retained for auditability:
+The public memorandum is for discussion purposes only and is not an independent appraisal, binding offer, commitment or substitute for buyer diligence.
 
-- `assets/projects.json` — Release 16 historical base;
-- `assets/portfolio-refresh.json` — Release 19 identity/addition layer;
-- `assets/pricing-review.json` — Release 19 price rows for TA-IP-001 through TA-IP-064;
-- `assets/assurance-review.json` — Release 19 assurance detail snapshot.
+## Internal site validation
 
-The browser runtime verifies the historical source versions against `assets/current-register.json` before declaring the current register valid.
-
-## Current identity notes
-
-- TA-IP-005: Continuum State Integrity Platform.
-- TA-IP-008: ModularKey Cryptanalysis Platform.
-- TA-IP-017: Protein Structure Evidence Qualification Platform.
-- TA-IP-030: Resource-Aware Hybrid Model Orchestration Platform; README still retains the historical Lewis label.
-- TA-IP-034: Electric Flight Systems Simulation & Validation Platform.
-- TA-IP-037: Biometric Systems Assurance Platform; README still retains the historical SentinelBio Verify label.
-- TA-IP-041: Evidence-Governed Software Assurance Platform.
-- TA-IP-054: Vision Evidence Governed Multimodal Perception Framework; canonical destination is currently an empty migration target while one legacy perception repository is retained for continuity.
-- TA-IP-067: TraceLine — Evidence-Governed Investigation Framework.
-
-## Validation
-
-No GitHub Actions workflow is used. Run the supported local gate with Node.js 20 or newer:
+No GitHub Actions workflow is required. The local static-site validation entrypoint is:
 
 ```bash
 npm test
 ```
 
-The Release-22 validator checks the current data contract, historical-source versions, portfolio arithmetic, maturity/potential counts, current identities, current assurance/pricing/repository manifests, all 67 canonical routes, nine historical aliases, sitemap coverage, JavaScript syntax, proprietary website license boundary and absence of `.github/workflows`.
-
-## Evidence boundary
-
-Repository state and internal software validation do not automatically establish scientific validity, clinical validity, field performance, standards certification, regulatory approval, legal chain-of-title, trademark clearance, patent/FTO clearance, market traction or transaction value. Third-party rights remain governed by their own terms.
-
 ## License
 
-The website source remains proprietary / All Rights Reserved under `LICENSE`.
+Website source remains proprietary / All Rights Reserved under `LICENSE`.

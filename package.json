@@ -1,9 +1,9 @@
 {
-  "name": "thearchitect-max-myprojects-showroom",
-  "version": "2026.9.5-22",
+  "name": "thearchitect-max-information-memorandum",
+  "version": "2026.9.5-im1",
   "private": true,
-  "description": "Internal validation tooling for the THEARCHITECT_MAX Release 22 portfolio and data-provenance reconciliation.",
+  "description": "Local validation tooling for the THEARCHITECT_MAX public Information Memorandum.",
   "type": "module",
-  "scripts": {"test": "node scripts/validate-release22.mjs", "validate": "node scripts/validate-release22.mjs", "audit": "node scripts/validate-release22.mjs"},
+  "scripts": {"test":"node scripts/validate-im.mjs","validate":"node scripts/validate-im.mjs"},
   "engines": {"node": ">=20"}
 }
