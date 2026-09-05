@@ -1,19 +1,21 @@
 # THEARCHITECT_MAX — Information Memorandum
 
-Public commercial Information Memorandum for a private portfolio of **68 software and digital intellectual-property assets**.
+Public commercial Information Memorandum for a private portfolio of **69 software and digital intellectual-property assets**.
 
 ## Current public presentation
 
-- 68 portfolio assets
-- EUR 11,875,000 indicative strategic asking reference
-- EUR 9,475,000–14,865,000 indicative portfolio range
-- EUR 47,320,000 portfolio recreation-cost reference
+- 69 portfolio assets
+- EUR 11,920,000 indicative strategic asking reference
+- EUR 9,510,000–14,920,000 indicative portfolio range
+- EUR 47,720,000 portfolio recreation-cost reference
 - EUR is authoritative; USD is shown indicatively
 - transaction routes include portfolio acquisition, selected-asset acquisition, licensing and strategic partnership
 
 The public presentation is intentionally limited to commercially relevant information. Detailed legal, intellectual-property, operational and technical diligence is transaction-stage information and is not published as part of this memorandum.
 
 TA-IP-068 is Organismal State Dynamics Research Platform, presented as a developed research prototype / Research Use Only asset. Its software implementation status does not imply scientific, clinical, regulatory or consciousness-measure validation.
+
+TA-IP-069 is Chimera Spectral Perception System, presented separately from Vision Evidence Governed Multimodal Perception Framework. Chimera is a computational-imaging and multispectral perception R&D prototype; its current optical, sensor and hardware performance specifications remain design targets unless supported by physical bench evidence.
 
 ## Local validation
 
