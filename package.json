@@ -1,14 +1,9 @@
 {
   "name": "thearchitect-max-myprojects-showroom",
-  "version": "2026.9.4-20",
+  "version": "2026.9.5-21",
   "private": true,
-  "description": "Internal validation tooling for the THEARCHITECT_MAX private software/IP showroom and Release 20 live portfolio reconciliation.",
+  "description": "Internal validation tooling for the THEARCHITECT_MAX Release 21 portfolio reconciliation.",
   "type": "module",
-  "scripts": {
-    "test": "node scripts/validate-live.mjs",
-    "validate": "node scripts/validate-live.mjs"
-  },
-  "engines": {
-    "node": ">=20"
-  }
+  "scripts": {"test": "node scripts/validate-release21.mjs", "validate": "node scripts/validate-release21.mjs"},
+  "engines": {"node": ">=20"}
 }

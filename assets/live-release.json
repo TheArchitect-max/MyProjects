@@ -1,87 +1,33 @@
 {
-  "release": "20260904-20",
-  "reviewed_at": "2026-09-04T21:30:00+02:00",
-  "fx": {
-    "base": "EUR",
-    "quote": "USD",
-    "rate": 1.1622,
-    "date": "2026-09-04",
-    "source": "ECB euro reference rate",
-    "indicative": true
-  },
+  "release": "20260905-21",
+  "reviewed_at": "2026-09-05T05:11:00+02:00",
+  "fx": {"base": "EUR", "quote": "USD", "rate": 1.1622, "date": "2026-09-04", "source": "ECB euro reference rate", "indicative": true},
   "repository_scope": {
-    "private_repositories_observed": 68,
-    "canonical_qualified_assets": 66,
+    "private_project_repositories_observed": 68,
+    "canonical_assets": 67,
     "legacy_private_repositories_retained": 1,
-    "reserved_unqualified_repositories": 1,
-    "reserved": [
-      {
-        "repository": "TraceLine-Evidence-Governed-Investigation-Framework",
-        "reason": "Repository exists but is empty at the 2026-09-04 connected-account inventory; it is not priced or represented as qualified software."
-      }
-    ]
+    "reserved_unqualified_repositories": 0,
+    "public_support_repositories_excluded_from_private_count": ["MyProjects", "MyBooks", "SonicFabric-Site"],
+    "legacy_note": "The retained Chimera Spectral Perception System repository remains migration evidence for the Vision Evidence Governed Multimodal Perception Framework and is not double-counted as a separate canonical asset."
   },
-  "expected": {
-    "strategic_asking_reference": 11595000,
-    "recreation_cost_reference": 45520000,
-    "strategic_band": [
-      9250000,
-      14515000
-    ],
-    "quick_sale_reference": 4565000,
-    "status_counts": {
-      "V": 37,
-      "P": 24,
-      "R": 5
-    },
-    "potential_counts": {
-      "VH": 13,
-      "H": 32,
-      "M": 13,
-      "S": 8
-    }
-  },
+  "expected": {"strategic_asking_reference": 11755000, "recreation_cost_reference": 46420000, "strategic_band": [9380000,14715000], "quick_sale_reference": 4625000, "status_counts": {"V":37,"P":25,"R":5}, "potential_counts": {"VH":13,"H":33,"M":13,"S":8}},
+  "current_update_ids": [5,30,37,41,54,65,66,67],
   "replacements": [
-    {
-      "id": 5,
-      "slug": "continuum-state-integrity-platform",
-      "name": "Continuum State Integrity Platform",
-      "summary": "A deterministic state-integration and integrity research platform with contradiction analysis, bounded adaptation, synthetic perturbation testing and tamper-evident provenance.",
-      "note": "Professional product identity replacing the former Systemic Absolute Topology presentation."
-    }
+    {"id":5,"slug":"continuum-state-integrity-platform","name":"Continuum State Integrity Platform","summary":"A deterministic state-integration and integrity research platform with contradiction analysis, bounded adaptation, synthetic perturbation testing and tamper-evident provenance."},
+    {"id":30,"slug":"resource-aware-hybrid-model-orchestration-platform","name":"Resource-Aware Hybrid Model Orchestration Platform","summary":"A private resource-aware orchestration platform for long-form generation and revision across local model runtimes with optional cloud supervision, explicit state, routing and recovery controls."},
+    {"id":37,"slug":"biometric-systems-assurance-platform","name":"Biometric Systems Assurance Platform","summary":"A vendor-neutral software assurance platform for synthetic biometric evaluation, adversarial testing, evidence generation, enterprise result ingestion and reproducible assurance workflows."},
+    {"id":41,"slug":"evidence-governed-software-assurance-platform","name":"Evidence-Governed Software Assurance Platform","summary":"A proprietary assurance control plane for discovering, auditing, qualifying, benchmarking, integrating and governing external software components under evidence-based policy."}
   ],
   "additions": [
-    {
-      "id": 65,
-      "ref": "TA-IP-065",
-      "slug": "software-asset-provenance-qualification-platform",
-      "name": "Software Asset Provenance & Qualification Platform",
-      "category": "Identity & Assurance",
-      "statusCode": "V",
-      "summary": "An evidence-driven qualification engine that binds repository provenance, dependency and license evidence, SBOM exports, vulnerability results, reproducibility receipts, signed attestations and external review records into a fail-closed software-asset qualification workflow.",
-      "ask": 230000,
-      "rd": 700000,
-      "potentialCode": "H",
-      "route": "B2B SaaS / enterprise software",
-      "priceLow": 185000,
-      "priceHigh": 290000,
-      "quick": 90000
-    },
-    {
-      "id": 66,
-      "ref": "TA-IP-066",
-      "slug": "adaptive-general-reasoning-research-platform",
-      "name": "Adaptive General Reasoning Research Platform",
-      "category": "Cognition Research",
-      "statusCode": "R",
-      "summary": "A bounded research platform for evidence-gated general reasoning, active experimentation, latent structure discovery, uncertainty-aware planning and reproducible capability evaluation, with explicit non-AGI claim boundaries.",
-      "ask": 70000,
-      "rd": 1200000,
-      "potentialCode": "H",
-      "route": "Research / R&D licensing",
-      "priceLow": 55000,
-      "priceHigh": 90000,
-      "quick": 25000
-    }
-  ]
+    {"id":65,"ref":"TA-IP-065","slug":"software-asset-provenance-qualification-platform","name":"Software Asset Provenance & Qualification Platform","category":"Identity & Assurance","statusCode":"V","summary":"An evidence-driven qualification engine that binds repository provenance, dependency and license evidence, SBOM exports, vulnerability results, reproducibility receipts, signed attestations and external review records into a fail-closed software-asset qualification workflow.","ask":230000,"rd":700000,"potentialCode":"H","route":"B2B SaaS / enterprise software","priceLow":185000,"priceHigh":290000,"quick":90000},
+    {"id":66,"ref":"TA-IP-066","slug":"adaptive-general-reasoning-research-platform","name":"Adaptive General Reasoning Research Platform","category":"Cognition Research","statusCode":"R","summary":"A bounded research platform for evidence-gated general reasoning, active experimentation, latent structure discovery, uncertainty-aware planning and reproducible capability evaluation, with explicit non-AGI claim boundaries.","ask":70000,"rd":1200000,"potentialCode":"H","route":"Research / R&D licensing","priceLow":55000,"priceHigh":90000,"quick":25000},
+    {"id":67,"ref":"TA-IP-067","slug":"traceline-evidence-governed-investigation-framework","name":"TraceLine — Evidence-Governed Investigation Framework","category":"Evidence Systems","statusCode":"P","summary":"A fail-closed decision-support and evidence-governance platform for professional private-investigation workflows, with persistent authorization records, evidence registries, audit-chain integrity and conservative legal/capability gating.","ask":160000,"rd":900000,"potentialCode":"H","route":"Vertical SaaS / specialist software","priceLow":130000,"priceHigh":200000,"quick":60000}
+  ],
+  "audit_notes": {
+    "30":"The repository uses the professional Resource-Aware Hybrid Model Orchestration Platform identity while its README still carries the historical Lewis Hybrid LLM Orchestrator product label.",
+    "37":"The repository is now named Biometric Systems Assurance Platform while the README still carries the historical SentinelBio Verify product label. The portfolio uses the current repository identity.",
+    "41":"The current repository identity and README are aligned as Evidence-Governed Software Assurance Platform.",
+    "54":"The canonical Vision Evidence repository is currently an empty migration target; implementation continuity is evidenced by the separately retained legacy perception repository. This is a migration caveat, not proof of a fully populated canonical source tree.",
+    "67":"TraceLine was empty in Release 20. It now contains a v0.3 executable Python core, governance/persistence layers, a local validation runner and multiple test modules. It is therefore included as a Verified Prototype, not as independently certified or field-validated software."
+  }
 }
