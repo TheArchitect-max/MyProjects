@@ -7,6 +7,7 @@ Public commercial Information Memorandum for a private portfolio of **67 softwar
 - 67 portfolio assets
 - EUR 11,755,000 indicative strategic asking reference
 - EUR 9,380,000–14,715,000 indicative portfolio range
+- EUR 46,420,000 portfolio recreation-cost reference
 - EUR is authoritative; USD is shown indicatively
 - transaction routes include portfolio acquisition, selected-asset acquisition, licensing and strategic partnership
 
@@ -22,7 +23,7 @@ No GitHub Actions workflow is used.
 
 ## Important notice
 
-All values are seller-side commercial references for discussion purposes only. They are not independent appraisals, fairness opinions, audited valuations or guarantees of transaction value.
+All values are seller-side commercial references for discussion purposes only. Recreation cost is a cost-approach benchmark for recreating comparable assets from scratch and is not market value or transaction price. The figures are not independent appraisals, fairness opinions, audited valuations or guarantees of transaction value.
 
 ## License
 
