@@ -1,21 +1,20 @@
 # THEARCHITECT_MAX — Information Memorandum
 
-Public commercial Information Memorandum for a private portfolio of **69 software and digital intellectual-property assets**.
+Public commercial Information Memorandum for an active portfolio of **68 software and digital intellectual-property assets**.
 
 ## Current public presentation
 
-- 69 portfolio assets
-- EUR 11,920,000 indicative strategic asking reference
-- EUR 9,510,000–14,920,000 indicative portfolio range
-- EUR 47,720,000 portfolio recreation-cost reference
+- 68 active portfolio assets
+- EUR 11,725,000 indicative strategic asking reference
+- EUR 9,355,000–14,675,000 indicative portfolio range
+- EUR 47,070,000 portfolio recreation-cost reference
+- 36 developed software assets / 27 developed prototypes / 5 research-stage assets
 - EUR is authoritative; USD is shown indicatively
 - transaction routes include portfolio acquisition, selected-asset acquisition, licensing and strategic partnership
 
-The public presentation is intentionally limited to commercially relevant information. Detailed legal, intellectual-property, operational and technical diligence is transaction-stage information and is not published as part of this memorandum.
+The active schedule is reconciled against repositories currently present in the owner account. Missing or withdrawn repository lines are removed rather than retained as commercial assets. TA-IP identifiers are stable references and are not renumbered or reused; TA-IP-014 is therefore intentionally absent from the active register.
 
-TA-IP-068 is Organismal State Dynamics Research Platform, presented as a developed research prototype / Research Use Only asset. Its software implementation status does not imply scientific, clinical, regulatory or consciousness-measure validation.
-
-TA-IP-069 is Chimera Spectral Perception System, presented separately from Vision Evidence Governed Multimodal Perception Framework. Chimera is a computational-imaging and multispectral perception R&D prototype; its current optical, sensor and hardware performance specifications remain design targets unless supported by physical bench evidence.
+Historical continuity alias routes for repositories no longer present in the owner account are removed from the public `projects/` tree. Stale external product-site references are also removed.
 
 ## Local validation
 
