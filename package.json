@@ -1,9 +1,9 @@
 {
   "name": "thearchitect-max-myprojects-showroom",
-  "version": "2026.9.5-21",
+  "version": "2026.9.5-22",
   "private": true,
-  "description": "Internal validation tooling for the THEARCHITECT_MAX Release 21 portfolio reconciliation.",
+  "description": "Internal validation tooling for the THEARCHITECT_MAX Release 22 portfolio and data-provenance reconciliation.",
   "type": "module",
-  "scripts": {"test": "node scripts/validate-release21.mjs", "validate": "node scripts/validate-release21.mjs"},
+  "scripts": {"test": "node scripts/validate-release22.mjs", "validate": "node scripts/validate-release22.mjs", "audit": "node scripts/validate-release22.mjs"},
   "engines": {"node": ">=20"}
 }

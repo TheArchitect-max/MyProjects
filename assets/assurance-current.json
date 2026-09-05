@@ -1,0 +1,28 @@
+{
+  "schema": "ta-assurance-current-v2",
+  "release": "20260905-22",
+  "reviewed_at": "2026-09-05T05:11:00+02:00",
+  "portfolio": {
+    "canonical_assets": 67,
+    "software_validated": 37,
+    "verified_prototypes": 25,
+    "research": 5,
+    "portfolio_wide_independent_certifications_claimed": 0
+  },
+  "terminology": {
+    "V": "Repository-maintained executable checks support the stated software scope; this is internal software validation, not independent certification or field proof.",
+    "P": "An implemented prototype and bounded verification surfaces exist; stronger production, operational or domain validation remains open.",
+    "R": "A repository-backed research implementation exists while important scientific, empirical or product claims remain unresolved.",
+    "standards_reference": "A named standard or authoritative method informs the work; conformity is not implied.",
+    "independent_certification": "Requires a current external assessment or certificate with an identified competent body and explicit scope."
+  },
+  "current_exceptions": [
+    {"asset_ref": "TA-IP-030", "type": "identity", "note": "Repository identity is Resource-Aware Hybrid Model Orchestration Platform while the README retains the historical Lewis Hybrid LLM Orchestrator label."},
+    {"asset_ref": "TA-IP-037", "type": "identity", "note": "Repository identity is Biometric Systems Assurance Platform while the README retains the historical SentinelBio Verify label."},
+    {"asset_ref": "TA-IP-041", "type": "identity", "note": "Current repository identity and README are aligned as Evidence-Governed Software Assurance Platform."},
+    {"asset_ref": "TA-IP-054", "type": "migration", "note": "The canonical Vision Evidence repository is an empty migration target at this audit point; implementation continuity is represented by one retained legacy perception repository."},
+    {"asset_ref": "TA-IP-067", "type": "promotion", "note": "TraceLine now contains an executable v0.3 Python core, governance and persistence layers, a local validation runner and multiple tests; it is classified as Verified Prototype, not field-validated or independently certified software."}
+  ],
+  "historical_detail_source": "assets/assurance-review.json",
+  "historical_detail_warning": "The historical detail source is Release 19 and must not be interpreted as the current standalone portfolio count or identity register."
+}

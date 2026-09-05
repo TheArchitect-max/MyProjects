@@ -1,5 +1,5 @@
 {
-  "release": "20260905-21",
+  "release": "20260905-22",
   "reviewed_at": "2026-09-05T05:11:00+02:00",
   "fx": {"base": "EUR", "quote": "USD", "rate": 1.1622, "date": "2026-09-04", "source": "ECB euro reference rate", "indicative": true},
   "repository_scope": {
@@ -12,6 +12,14 @@
   },
   "expected": {"strategic_asking_reference": 11755000, "recreation_cost_reference": 46420000, "strategic_band": [9380000,14715000], "quick_sale_reference": 4625000, "status_counts": {"V":37,"P":25,"R":5}, "potential_counts": {"VH":13,"H":33,"M":13,"S":8}},
   "current_update_ids": [5,30,37,41,54,65,66,67],
+  "data_contract": {
+    "current_register": "assets/current-register.json",
+    "current_assurance": "assets/assurance-current.json",
+    "current_pricing": "assets/pricing-current.json",
+    "repository_evidence": "evidence/repository-register-2026-09-05.json",
+    "valuation_review": "evidence/valuation-review-2026-09-05.md",
+    "historical_inputs_retained": ["assets/projects.json", "assets/portfolio-refresh.json", "assets/pricing-review.json", "assets/assurance-review.json"]
+  },
   "replacements": [
     {"id":5,"slug":"continuum-state-integrity-platform","name":"Continuum State Integrity Platform","summary":"A deterministic state-integration and integrity research platform with contradiction analysis, bounded adaptation, synthetic perturbation testing and tamper-evident provenance."},
     {"id":30,"slug":"resource-aware-hybrid-model-orchestration-platform","name":"Resource-Aware Hybrid Model Orchestration Platform","summary":"A private resource-aware orchestration platform for long-form generation and revision across local model runtimes with optional cloud supervision, explicit state, routing and recovery controls."},
