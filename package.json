@@ -1,9 +1,14 @@
 {
   "name": "thearchitect-max-information-memorandum",
-  "version": "2026.9.5-im1",
+  "version": "2026.9.5-im2",
   "private": true,
-  "description": "Local validation tooling for the THEARCHITECT_MAX public Information Memorandum.",
+  "description": "Local validation tooling for the public Information Memorandum.",
   "type": "module",
-  "scripts": {"test":"node scripts/validate-im.mjs","validate":"node scripts/validate-im.mjs"},
-  "engines": {"node": ">=20"}
+  "scripts": {
+    "test": "node scripts/validate-im.mjs",
+    "validate": "node scripts/validate-im.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
 }

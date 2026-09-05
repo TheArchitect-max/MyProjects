@@ -1,53 +1,29 @@
 # THEARCHITECT_MAX — Information Memorandum
 
-Public commercial Information Memorandum for the THEARCHITECT_MAX private software and digital intellectual-property portfolio.
+Public commercial Information Memorandum for a private portfolio of **67 software and digital intellectual-property assets**.
 
-The public site is intentionally commercial rather than technical. It presents:
+## Current public presentation
 
-- executive summary and portfolio proposition;
-- 67-asset commercial schedule;
-- portfolio development-stage mix;
-- routes to market and commercial potential;
-- indicative EUR/USD asking references and ranges;
-- commercial opportunity and strategic-acquirer rationale;
-- potential transaction structures and process;
-- an important-notice / non-reliance section.
+- 67 portfolio assets
+- EUR 11,755,000 indicative strategic asking reference
+- EUR 9,380,000–14,715,000 indicative portfolio range
+- EUR is authoritative; USD is shown indicatively
+- transaction routes include portfolio acquisition, selected-asset acquisition, licensing and strategic partnership
 
-Technical implementation, repository internals, validation mechanics, source-tree information, detailed dependency information and transaction-stage diligence material are deliberately excluded from the public-facing memorandum.
+The public presentation is intentionally limited to commercially relevant information. Detailed legal, intellectual-property, operational and technical diligence is transaction-stage information and is not published as part of this memorandum.
 
-## Current public navigation
-
-- `/` — Information Memorandum / executive summary
-- `/portfolio.html` — commercial portfolio schedule
-- `/opportunity.html` — commercial opportunity and indicative valuation framework
-- `/transaction.html` — transaction structures and process
-- `/notice.html` — important notice
-- `/projects/<slug>/` — concise commercial asset profile
-
-Historical public routes such as `assurance.html`, `commercialization.html` and `transfer.html` remain as `noindex` compatibility pages so old links do not break.
-
-## Commercial presentation
-
-Current portfolio presentation:
-
-- 67 portfolio assets;
-- 37 established software assets;
-- 25 developed prototypes;
-- 5 research-stage assets;
-- indicative strategic asking reference: EUR 11,755,000;
-- indicative portfolio range: EUR 9,380,000–14,715,000;
-- USD values are convenience conversions only.
-
-The public memorandum is for discussion purposes only and is not an independent appraisal, binding offer, commitment or substitute for buyer diligence.
-
-## Internal site validation
-
-No GitHub Actions workflow is required. The local static-site validation entrypoint is:
+## Local validation
 
 ```bash
 npm test
 ```
 
+No GitHub Actions workflow is used.
+
+## Important notice
+
+All values are seller-side commercial references for discussion purposes only. They are not independent appraisals, fairness opinions, audited valuations or guarantees of transaction value.
+
 ## License
 
-Website source remains proprietary / All Rights Reserved under `LICENSE`.
+The website and first-party presentation materials are proprietary and All Rights Reserved. Third-party rights remain subject to their respective terms.
