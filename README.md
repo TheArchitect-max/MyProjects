@@ -1,20 +1,20 @@
 # THEARCHITECT_MAX — Information Memorandum
 
-Public commercial Information Memorandum for an active portfolio of **69 software and digital intellectual-property assets**.
+Public commercial Information Memorandum for an active portfolio of **75 software and digital intellectual-property assets**.
 
 ## Current public presentation
 
-- 69 active portfolio assets
-- EUR 12,245,000 indicative strategic asking reference
-- EUR 9,765,000–15,330,000 indicative portfolio range
-- EUR 49,620,000 portfolio recreation-cost reference
-- 37 developed software assets / 27 developed prototypes / 5 research-stage assets
+- 75 active portfolio assets
+- EUR 12,950,000 indicative strategic asking reference
+- EUR 10,325,000–16,225,000 indicative portfolio range
+- EUR 54,120,000 portfolio recreation-cost reference
+- 38 developed software assets / 31 developed prototypes / 6 research-stage assets
 - EUR is authoritative; USD is shown indicatively
 - transaction routes include portfolio acquisition, selected-asset acquisition, licensing and strategic partnership
 
 The active schedule is reconciled against repositories currently present in the owner account. Missing or withdrawn repository lines are removed rather than retained as commercial assets. TA-IP identifiers are stable references and are not renumbered or reused; TA-IP-014 remains intentionally absent from the active register.
 
-IM9 adds TA-IP-070 HARM — Hybrid Adaptive Rendering & Media as a separate source-backed asset, reconciles TA-IP-013 to the current Evidence-Governed Visual Intelligence Platform repository identity while retaining AEGIS Vision product lineage, and updates selected seller-side commercial references where post-IM8 repository evidence materially changed implementation or qualification scope. Development-stage and value labels remain commercial classifications rather than independent technical certifications.
+IM10 reconciles the full owner repository inventory to 75 active source-backed assets. It adds TA-IP-071 through TA-IP-076 for Adaptive Audio Synthesis Platform, Adaptive Cognitive Runtime, Content Integrity Assurance Platform, Radioastronomy Signal Validation Platform — VelaTrace, Spatial Wearable Perception Platform, and Telluric Actualization Research Platform. It also updates TA-IP-036 and TA-IP-059 where post-IM9 repository evidence materially expanded validation scope. Development-stage and value labels remain commercial classifications rather than independent technical certifications.
 
 ## Local validation
 
