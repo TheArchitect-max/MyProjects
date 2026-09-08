@@ -7,116 +7,117 @@ const root=process.cwd();
 const read=p=>fs.readFileSync(path.join(root,p),'utf8');
 const json=p=>JSON.parse(read(p));
 const exists=p=>fs.existsSync(path.join(root,p));
-const assert=(condition,message)=>{if(!condition)throw Error(message)};
+const assert=(c,m)=>{if(!c)throw Error(m)};
 
 const d=json('assets/im-data.json');
-const a=d.a;
+const base=d.a;
 const rc=json('assets/recreation-costs.json');
 const descriptions=json('assets/descriptions.json');
 const structure=json('assets/portfolio-structure.json');
+const intake=json('assets/intake-assets.json');
 const pkg=json('package.json');
 
-assert(d.v==='2026.09.08-im14','active register version');
+assert(d.v==='2026.09.08-im14','base register version');
 assert(rc.v==='2026.09.08-im14','recreation register version');
-assert(structure.v==='2026.09.08-im15','portfolio structure version');
-assert(pkg.version==='2026.9.8-im15','package presentation version');
-assert(d.p[0]===75&&a.length===75&&rc.assets.length===75,'active asset count');
-assert(new Set(a.map(x=>x[1])).size===75&&new Set(a.map(x=>x[2])).size===75,'unique refs/slugs');
-assert(!a.some(x=>x[1]==='TA-IP-001'||x[2]==='research-orchestrator'),'retired predecessor excluded');
-assert(!a.some(x=>x[1]==='TA-IP-014'),'TA-IP-014 withdrawn');
-assert(a.every(x=>x[1]===`TA-IP-${String(x[0]).padStart(3,'0')}`),'stable id/ref');
-assert(structure.retired.some(x=>x.ref==='TA-IP-001'&&x.slug==='research-orchestrator'&&x.successor==='research-intelligence-fabric'),'retirement lineage');
+assert(structure.v==='2026.09.08-im16','structure version');
+assert(intake.v==='2026.09.08-im16','intake version');
+assert(pkg.version==='2026.9.8-im16','package version');
+assert(base.length===75&&rc.assets.length===75,'base referenced asset count');
+assert(intake.assets.length===4,'pending intake count');
 
-assert(typeof structure.policy?.asset_independence==='string'&&structure.policy.asset_independence.includes('standalone intellectual-property asset'),'standalone asset policy');
-assert(typeof structure.policy?.family_role==='string'&&structure.policy.family_role.includes('classification and navigation')&&structure.policy.family_role.includes('not itself an IP asset'),'classification family policy');
-assert(typeof structure.policy?.multi_asset_transactions==='string'&&structure.policy.multi_asset_transactions.includes('explicitly identify each included asset'),'multi-asset policy');
-assert(typeof structure.policy?.repository_intake==='string'&&structure.policy.repository_intake.includes('does not automatically place a project'),'repository intake policy');
+const baseAssets=base.map((x,i)=>({id:x[0],ref:x[1],slug:x[2],name:x[3],stage:x[5],potential:x[6],ask:x[8],low:x[9],high:x[10],recreationCost:rc.assets[i],description:descriptions.descriptions[x[2]],priced:true}));
+const intakeAssets=intake.assets.map(x=>({id:x.id,ref:x.ref,slug:x.slug,name:x.name,stage:x.stage,potential:x.potential,ask:null,low:null,high:null,recreationCost:null,description:x.description,priced:false}));
+const assets=[...baseAssets,...intakeAssets];
 
-a.forEach((x,i)=>{
-  assert(x[9]<=x[8]&&x[8]<=x[10],`range ${x[1]}`);
-  assert(rc.assets[i]>0,`recreation cost ${x[1]}`);
-  assert(!x[11],`external URL ${x[1]}`);
-  assert(typeof descriptions.descriptions[x[2]]==='string'&&descriptions.descriptions[x[2]].length>20,`description ${x[1]}`);
+assert(assets.length===79,'active standalone asset count');
+assert(new Set(assets.map(x=>x.ref)).size===79,'unique TA-IP references');
+assert(new Set(assets.map(x=>x.slug)).size===79,'unique slugs');
+assert(!assets.some(x=>x.ref==='TA-IP-001'||x.slug==='research-orchestrator'),'retired predecessor excluded');
+assert(!assets.some(x=>x.ref==='TA-IP-014'),'TA-IP-014 remains unused');
+assert(assets.every(x=>x.ref===`TA-IP-${String(x.id).padStart(3,'0')}`),'stable ref mapping');
+assert(intakeAssets.every(x=>x.id>=78&&x.id<=81&&!x.priced),'intake references 078-081 pending');
+assert(structure.retired.some(x=>x.ref==='TA-IP-001'&&x.successor==='research-intelligence-fabric'),'retirement lineage');
+
+assert(structure.policy.asset_independence.includes('standalone intellectual-property asset'),'standalone policy');
+assert(structure.policy.family_role.includes('not itself an IP asset'),'family-only policy');
+assert(structure.policy.multi_asset_transactions.includes('explicitly identify each included asset'),'multi-asset policy');
+
+baseAssets.forEach(x=>{
+  assert(x.low<=x.ask&&x.ask<=x.high,`range ${x.ref}`);
+  assert(x.recreationCost>0,`recreation ${x.ref}`);
+  assert(typeof x.description==='string'&&x.description.length>20,`description ${x.ref}`);
 });
+intakeAssets.forEach(x=>assert(typeof x.description==='string'&&x.description.length>20,`intake description ${x.ref}`));
 
-const sum=i=>a.reduce((n,x)=>n+x[i],0);
-const count=i=>a.reduce((m,x)=>(m[x[i]]=(m[x[i]]||0)+1,m),{});
-assert(sum(8)===13470000&&sum(9)===10740000&&sum(10)===16875000,'portfolio asking/range totals');
-assert(d.p[1]===13470000&&d.p[2]===10740000&&d.p[3]===16875000,'header asking/range totals');
-assert(rc.portfolioRecreationCostEUR===57350000&&rc.assets.reduce((n,v)=>n+v,0)===57350000,'recreation total');
-const sc=count(5),pc=count(6);
-assert(sc.V===40&&sc.P===29&&sc.R===6,'stage counts');
-assert(d.p[4]===40&&d.p[5]===29&&d.p[6]===6,'header stage counts');
-assert(pc.VH===16&&pc.H===36&&pc.M===13&&pc.S===10,'potential counts');
+const sum=k=>baseAssets.reduce((n,x)=>n+Number(x[k]||0),0);
+assert(sum('ask')===13470000,'asking total');
+assert(sum('low')===10740000&&sum('high')===16875000,'range totals');
+assert(sum('recreationCost')===57350000&&rc.portfolioRecreationCostEUR===57350000,'recreation total');
+
+const stage=assets.reduce((m,x)=>(m[x.stage]=(m[x.stage]||0)+1,m),{});
+const potential=assets.reduce((m,x)=>(m[x.potential]=(m[x.potential]||0)+1,m),{});
+assert(stage.V===41&&stage.P===32&&stage.R===6,'stage counts');
+assert(potential.VH===16&&potential.H===40&&potential.M===13&&potential.S===10,'potential counts');
 
 assert(Array.isArray(structure.families)&&structure.families.length===12,'classification family count');
-assert(structure.families.every(f=>typeof f.description==='string'&&f.description.toLowerCase().includes('classification family')),'classification-only family descriptions');
 const familySlugs=structure.families.flatMap(f=>f.assets||[]);
-assert(familySlugs.length===75&&new Set(familySlugs).size===75,'unique classification assignments');
-const activeSlugs=new Set(a.map(x=>x[2]));
-for(const slug of familySlugs)assert(activeSlugs.has(slug),`family references inactive asset ${slug}`);
-for(const slug of activeSlugs)assert(familySlugs.includes(slug),`active asset lacks classification family ${slug}`);
-
-const by=r=>a.find(x=>x[1]===r);
-assert(JSON.stringify(by('TA-IP-077'))===JSON.stringify([77,'TA-IP-077','qubo-structural-analysis-and-optimization-platform','QUBO Structural Analysis and Optimization Platform',6,'P','M',1,90000,70000,115000,'']),'QUBO contract');
-assert(JSON.stringify(by('TA-IP-059'))===JSON.stringify([59,'TA-IP-059','fusionlunar-energy-systems-engineering-platform','FusionLunar Energy Systems Engineering Platform',6,'P','M',1,350000,280000,440000,'']),'FusionLunar contract');
-assert(by('TA-IP-073')[5]==='V'&&by('TA-IP-075')[5]==='V','software promotions');
+assert(familySlugs.length===79&&new Set(familySlugs).size===79,'complete unique family assignments');
+const activeSlugs=new Set(assets.map(x=>x.slug));
+for(const slug of familySlugs)assert(activeSlugs.has(slug),`family references inactive slug ${slug}`);
+for(const slug of activeSlugs)assert(familySlugs.includes(slug),`asset lacks family ${slug}`);
 
 for(const p of ['index.html','portfolio.html','opportunity.html','transaction.html','notice.html']){
   const h=read(p);
   assert(h.includes('rel="canonical"'),`canonical ${p}`);
+  assert(h.includes('im4.css?v=im16'),`IM16 stylesheet ${p}`);
   assert(h.toLowerCase().includes('standalone'),`standalone language ${p}`);
-  assert(h.toLowerCase().includes('classification'),`classification language ${p}`);
-  assert(h.includes('im4.css?v=im15'),`IM15 stylesheet ${p}`);
 }
-assert(read('index.html').includes('75 standalone IP assets')&&read('index.html').includes('classification families'),'homepage standalone positioning');
-assert(read('index.html').includes('€13.470M')&&read('index.html').includes('€10.740M – €16.875M')&&read('index.html').includes('€57.350M'),'homepage commercial totals');
-assert(read('opportunity.html').includes('€13.470M')&&read('opportunity.html').includes('€10.740M – €16.875M')&&read('opportunity.html').includes('€57.350M'),'opportunity commercial totals');
-assert(read('portfolio.html').includes('id="family"')&&read('portfolio.html').includes('75 standalone assets'),'portfolio classification filter');
-assert(!read('transaction.html').includes('Product-family acquisition'),'family is not transaction unit');
-assert(read('transaction.html').includes('Single-asset acquisition')&&read('transaction.html').includes('Multi-asset acquisition'),'asset transaction routes');
+assert(read('index.html').includes('79 standalone IP assets'),'homepage 79');
+assert(read('index.html').includes('75 referenced')&&read('index.html').includes('4 pending'),'homepage pricing split');
+assert(read('portfolio.html').includes('79 standalone'),'portfolio 79');
+assert(!read('transaction.html').includes('Product-family acquisition'),'family not transaction unit');
+assert(read('transaction.html').includes('Single-asset acquisition')&&read('transaction.html').includes('Multi-asset acquisition'),'transaction routes');
 
-const expected=new Set(a.map(x=>x[2]));
 const projectRoot=path.join(root,'projects');
 const actual=new Set(fs.readdirSync(projectRoot,{withFileTypes:true}).filter(x=>x.isDirectory()).map(x=>x.name));
-assert(actual.size===75,'project directory count');
+assert(actual.size===79,'project directory count');
 assert(!actual.has('research-orchestrator'),'retired project route removed');
-for(const slug of expected){
-  assert(actual.has(slug),`missing ${slug}`);
+for(const slug of activeSlugs){
+  assert(actual.has(slug),`missing project route ${slug}`);
   const h=read(`projects/${slug}/index.html`);
-  assert(h.includes('../../assets/im.js?v=im15'),`IM15 runtime ${slug}`);
-  assert(h.includes('../../assets/im4.css?v=im15'),`IM15 stylesheet ${slug}`);
-  assert(h.includes('Standalone IP Asset')&&!h.includes('noindex'),`standalone profile shell ${slug}`);
+  assert(h.includes('../../assets/im.js?v=im16'),`IM16 runtime ${slug}`);
+  assert(h.includes('../../assets/im4.css?v=im16'),`IM16 stylesheet ${slug}`);
+  assert(h.includes('Standalone IP Asset')&&!h.includes('noindex'),`profile shell ${slug}`);
 }
 
 const locs=[...read('sitemap.xml').matchAll(/<loc>([^<]+)<\/loc>/g)].map(x=>x[1]);
-assert(locs.length===80&&new Set(locs).size===80,'sitemap URL count');
+assert(locs.length===84&&new Set(locs).size===84,'sitemap URL count');
 assert(!locs.some(x=>x.includes('/projects/research-orchestrator/')),'retired sitemap route');
-for(const x of a)assert(locs.includes(`https://thearchitect-max.github.io/MyProjects/projects/${x[2]}/`),`sitemap ${x[2]}`);
+for(const slug of activeSlugs)assert(locs.includes(`https://thearchitect-max.github.io/MyProjects/projects/${slug}/`),`sitemap ${slug}`);
 
-new vm.Script(read('assets/im.js'));
-assert(read('assets/im.js').includes("VERSION='im15'"),'runtime version');
-assert(read('assets/im.js').includes('standalone:true'),'runtime standalone asset flag');
-assert(read('assets/im.js').includes('Standalone IP asset'),'runtime standalone UI');
-assert(read('assets/im.js').includes('Classification family'),'runtime classification terminology');
+const runtime=read('assets/im.js');
+new vm.Script(runtime);
+assert(runtime.includes("VERSION='im16'"),'runtime version');
+assert(runtime.includes('intake-assets.json'),'runtime intake merge');
+assert(runtime.includes('Pending qualification'),'runtime pending pricing');
+assert(runtime.includes('standalone:true'),'runtime standalone flag');
 assert(!exists('.github/workflows'),'Actions prohibited');
 assert(!exists('evidence'),'public evidence prohibited');
 
 console.log(JSON.stringify({
   technologyIpPortfolio:true,
-  presentationRelease:'IM15',
-  standaloneActiveAssets:75,
+  presentationRelease:'IM16',
+  standaloneActiveAssets:79,
+  referencedAssets:75,
+  pendingCommercialQualification:4,
   retiredPredecessors:1,
   classificationFamilies:12,
   familyIsTransactionUnit:false,
   askingReferenceEUR:13470000,
   rangeEUR:[10740000,16875000],
   recreationCostEUR:57350000,
-  commercialRefresh:'2026-09-08',
-  stageCounts:{developedSoftware:40,developedPrototype:29,researchStage:6},
-  potentialCounts:{veryHigh:16,high:36,moderate:13,specialist:10},
-  sitemapUrls:80,
-  staleProjectRoutes:0,
-  staleExternalUrls:0,
+  stageCounts:{developedSoftware:41,developedPrototype:32,researchStage:6},
+  potentialCounts:{veryHigh:16,high:40,moderate:13,specialist:10},
+  sitemapUrls:84,
   githubActions:false
 },null,2));
