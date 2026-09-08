@@ -1,6 +1,6 @@
 (()=>{'use strict';
 const DATA=(document.documentElement.dataset.dataPath||'assets/im-data.json'),VERSION='im14';
-const SAFE=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot',"'":'&#39;'}[c]));
+const SAFE=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const EUR=v=>new Intl.NumberFormat('nl-NL',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(Number(v)||0),EURM=v=>`€${((Number(v)||0)/1e6).toLocaleString('en-US',{minimumFractionDigits:3,maximumFractionDigits:3})}M`,USD=(v,r)=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format((Number(v)||0)*r),USDM=(v,r)=>`$${(((Number(v)||0)*r)/1e6).toLocaleString('en-US',{minimumFractionDigits:3,maximumFractionDigits:3})}M`;
 const STAGES={V:'Developed software',P:'Developed prototype',R:'Research-stage'},POTENTIALS={VH:'Very high',H:'High',M:'Moderate',S:'Specialist'},POTENTIAL_SCORE={VH:4,H:3,M:2,S:1};
 async function load(){
@@ -8,7 +8,7 @@ async function load(){
   const [r,c,s,p]=await Promise.all([fetch(`${DATA}?v=${VERSION}`,{cache:'no-store'}),fetch(`${cp}?v=${VERSION}`,{cache:'no-store'}),fetch(`${dp}?v=${VERSION}`,{cache:'no-store'}),fetch(`${sp}?v=${VERSION}`,{cache:'no-store'})]);
   if(!r.ok||!c.ok||!s.ok||!p.ok)throw Error('Portfolio information unavailable');
   const d=await r.json(),rc=await c.json(),ds=await s.json(),ps=await p.json();
-  if(d.v!=='2026.09.07-im11'||rc.v!=='2026.09.07-im11'||ds.v!=='2026.09.08-im13'||ps.v!=='2026.09.08-im14'||!Array.isArray(rc.assets)||rc.assets.length!==d.a.length||!ds.descriptions||!Array.isArray(ps.families))throw Error('Portfolio register mismatch');
+  if(d.v!=='2026.09.08-im14'||rc.v!=='2026.09.08-im14'||ds.v!=='2026.09.08-im13'||ps.v!=='2026.09.08-im14'||!Array.isArray(rc.assets)||rc.assets.length!==d.a.length||!ds.descriptions||!Array.isArray(ps.families))throw Error('Portfolio register mismatch');
   const retired=new Set((ps.retired||[]).map(x=>x.slug));
   const familyBySlug={};
   ps.families.forEach(f=>(f.assets||[]).forEach(slug=>{if(familyBySlug[slug])throw Error(`Duplicate family assignment: ${slug}`);familyBySlug[slug]=f}));
