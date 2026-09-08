@@ -1,6 +1,6 @@
 {
-  "v": "2026.09.08-im19",
-  "model": "Asset-Level Five-Lens Probability-Adjusted Economic Valuation Model",
+  "v": "2026.09.08-im20",
+  "model": "Asset-Level Five-Lens Probability-Adjusted Economic Valuation Model with External Evidence Calibration",
   "status": "preliminary-seller-side-economic-model",
   "portfolio": {
     "assetCount": 79,
@@ -14,11 +14,26 @@
     "sellerAskAsShareOfTriangulated": 0.196583363
   },
   "confidence": {
-    "replacementCost": "medium",
-    "marketComparableProxy": "low",
-    "incomeLicensingProxy": "low",
-    "probabilityAdjustedStrategicValue": "modelled",
+    "replacementCost": "medium-but-not-yet-fully-componentized",
+    "marketComparableProxy": "low-to-medium-by-sector; primary transaction anchors available but direct asset comparability not established",
+    "incomeLicensingProxy": "low; buyer-specific cash-flow and royalty evidence not established",
+    "probabilityAdjustedStrategicValue": "modelled with explicit probabilities",
     "triangulatedEconomicReference": "preliminary"
+  },
+  "externalEvidence": {
+    "registry": "assets/external-market-evidence.json",
+    "transactionAnchorCount": 13,
+    "sectorCoverageCount": 8,
+    "observedIllustrativeRevenueRatioSampleSize": 6,
+    "observedIllustrativeRevenueRatioRange": [4.88, 24.98],
+    "observedIllustrativeRevenueRatioMedian": 13.05,
+    "policy": "External transaction evidence calibrates sector demand and confidence before it changes asset value. Mature-company transaction values or revenue multiples are not copied directly into pre-revenue or early-stage asset valuations."
+  },
+  "replacementCostScope": {
+    "registry": "assets/replacement-cost-scope.json",
+    "currentBaselineEUR": 60150000,
+    "status": "current baseline is not yet represented as a fully componentized all-in replacement-cost audit",
+    "policy": "Do not automatically uplift the current baseline. Audit architecture, research, QA/validation, security, deployment, documentation, data/model assets, productization, compliance, IP/licence qualification and programme management asset by asset while avoiding double counting."
   },
   "factors": {
     "marketPotential": {"S":0.70,"M":0.90,"H":1.15,"VH":1.50},
@@ -40,6 +55,16 @@
       "Research & Scientific Software": 0.85,
       "Specialist Vertical Software": 1.00
     },
+    "externalEvidenceConfidenceBySector": {
+      "AI, Decision & Knowledge Systems": 0.60,
+      "Aerospace & Mobility": 0.50,
+      "Enterprise Software & Operations": 0.65,
+      "Identity, Privacy & Assurance": 0.65,
+      "Industrial & Infrastructure Software": 0.70,
+      "Media & Creator Technology": 0.55,
+      "Research & Scientific Software": 0.65,
+      "Specialist Vertical Software": 0.60
+    },
     "routeMonetization": {
       "B2B SaaS / enterprise software": 1.15,
       "Research / R&D licensing": 0.85,
@@ -57,11 +82,19 @@
     }
   },
   "definitions": {
-    "replacementCost": "Existing recreation/replacement-cost baseline for comparable current work product.",
-    "marketComparableProxy": "Modelled marketability indication using maturity, commercial-potential and sector factors. It is not a verified comparable-transactions valuation.",
+    "replacementCost": "Existing recreation/replacement-cost baseline for comparable current work product. IM20 does not assume that every architecture, research, QA, security, deployment, documentation, compliance, IP-cleanup or programme-management component is already fully captured.",
+    "marketComparableProxy": "Modelled marketability indication using maturity, commercial-potential and sector factors. Primary-source transaction anchors now calibrate evidence confidence, but the figure is not a verified comparable-transactions valuation.",
     "incomeLicensingProxy": "Modelled monetization indication using maturity, commercial-potential and route-to-market factors. It is not a DCF or relief-from-royalty valuation because asset-specific revenue forecasts and royalty benchmarks are not established.",
     "probabilityAdjustedStrategicValue": "Replacement-cost anchored opportunity value adjusted for technical completion, commercialization probability, a rights/transfer diligence reserve, time/risk and sector context.",
     "triangulatedEconomicReference": "Weighted preliminary seller-side economic reference combining the four valuation lenses above. It is not certified market value.",
-    "sellerAsk": "Existing seller-side asking reference, deliberately separate from economic-reference modelling."
-  }
+    "sellerAsk": "Existing seller-side asking reference, deliberately separate from economic-reference modelling.",
+    "externalEvidenceConfidence": "A confidence measure for the existence and relevance of primary-source sector transaction evidence. It is not a valuation multiplier and does not establish direct comparability."
+  },
+  "nextGates": [
+    "Run asset-by-asset replacement-cost completeness audits without double counting.",
+    "Match subject assets to narrower precedent transactions or licences by rights, maturity, sector, geography, useful life and date.",
+    "Introduce defensible royalty benchmarks and buyer-specific income forecasts where commercialization routes are credible.",
+    "Replace generic technical and commercialization probabilities with asset-specific evidence.",
+    "Re-weight valuation lenses by asset according to evidence quality rather than applying one universal portfolio weighting."
+  ]
 }
