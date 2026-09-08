@@ -2,6 +2,26 @@
 
 Public commercial portfolio for **79 active standalone software and digital intellectual-property assets**. Every active project is treated as its own IP asset. The portfolio also uses **12 classification families** to help professional counterparties navigate related subject areas.
 
+## IM21 website release
+
+- Complete responsive visual refresh across the overview, six information pages and 79 asset profiles.
+- One consistent navigation and footer, including Evidence on every active route.
+- Opportunity aligned to the current EUR 71.598M triangulated reference and 19.7% asking ratio; superseded scenario figures removed.
+- Asset profiles, family cards and all 79 schedule entries are rendered into HTML at build time for direct reading and indexing.
+- Search, family/sector filters and sorting progressively enhance the static schedule.
+- Asset-specific canonical URLs and metadata exist before JavaScript executes.
+- Repository inventory checked through the connected GitHub account: 80 repositories, including the portfolio website, correspond to 79 active asset records. This is an inventory check, not a technical or rights audit of those repositories.
+- Existing seller pricing, development classifications and IM20 economic assumptions are retained; this presentation release does not re-appraise the assets.
+
+Rebuild the presentation after editing data or templates:
+
+```bash
+npm run build
+npm test
+```
+
+The existing GitHub Pages publication remains the destination. No custom GitHub Actions workflow is added.
+
 ## Current public presentation
 
 - 79 standalone active IP assets
