@@ -1,0 +1,67 @@
+{
+  "v": "2026.09.08-im19",
+  "model": "Asset-Level Five-Lens Probability-Adjusted Economic Valuation Model",
+  "status": "preliminary-seller-side-economic-model",
+  "portfolio": {
+    "assetCount": 79,
+    "sellerAskEUR": 14075000,
+    "replacementCostEUR": 60150000,
+    "marketComparableProxyEUR": 67966649,
+    "incomeLicensingProxyEUR": 80368396,
+    "probabilityAdjustedStrategicValueEUR": 76838904,
+    "triangulatedEconomicReferenceEUR": 71598124,
+    "averageTriangulatedEconomicReferencePerAssetEUR": 906305.37,
+    "sellerAskAsShareOfTriangulated": 0.196583363
+  },
+  "confidence": {
+    "replacementCost": "medium",
+    "marketComparableProxy": "low",
+    "incomeLicensingProxy": "low",
+    "probabilityAdjustedStrategicValue": "modelled",
+    "triangulatedEconomicReference": "preliminary"
+  },
+  "factors": {
+    "marketPotential": {"S":0.70,"M":0.90,"H":1.15,"VH":1.50},
+    "marketMaturity": {"R":0.65,"P":0.85,"V":1.00},
+    "incomePotential": {"S":0.60,"M":0.90,"H":1.35,"VH":2.00},
+    "incomeMaturity": {"R":0.50,"P":0.75,"V":1.00},
+    "technicalCompletionProbability": {"R":0.50,"P":0.75,"V":0.95},
+    "commercializationProbability": {"S":0.25,"M":0.40,"H":0.55,"VH":0.70},
+    "timeRisk": {"R":0.70,"P":0.85,"V":0.95},
+    "strategicOpportunityMultiplier": {"S":1.25,"M":1.75,"H":2.75,"VH":4.50},
+    "rightsTransferDiligenceReserve": 0.85,
+    "sectorContext": {
+      "AI, Decision & Knowledge Systems": 1.10,
+      "Aerospace & Mobility": 0.90,
+      "Enterprise Software & Operations": 1.10,
+      "Identity, Privacy & Assurance": 1.05,
+      "Industrial & Infrastructure Software": 1.05,
+      "Media & Creator Technology": 1.00,
+      "Research & Scientific Software": 0.85,
+      "Specialist Vertical Software": 1.00
+    },
+    "routeMonetization": {
+      "B2B SaaS / enterprise software": 1.15,
+      "Research / R&D licensing": 0.85,
+      "Vertical SaaS / specialist software": 1.10,
+      "Enterprise software / licensing": 1.15,
+      "Private deployment / enterprise licensing": 1.10,
+      "Web platform infrastructure / SaaS / licensing": 1.15,
+      "Media / creator software": 1.05
+    },
+    "triangulationWeights": {
+      "replacementCost": 0.25,
+      "marketComparableProxy": 0.20,
+      "incomeLicensingProxy": 0.20,
+      "probabilityAdjustedStrategicValue": 0.35
+    }
+  },
+  "definitions": {
+    "replacementCost": "Existing recreation/replacement-cost baseline for comparable current work product.",
+    "marketComparableProxy": "Modelled marketability indication using maturity, commercial-potential and sector factors. It is not a verified comparable-transactions valuation.",
+    "incomeLicensingProxy": "Modelled monetization indication using maturity, commercial-potential and route-to-market factors. It is not a DCF or relief-from-royalty valuation because asset-specific revenue forecasts and royalty benchmarks are not established.",
+    "probabilityAdjustedStrategicValue": "Replacement-cost anchored opportunity value adjusted for technical completion, commercialization probability, a rights/transfer diligence reserve, time/risk and sector context.",
+    "triangulatedEconomicReference": "Weighted preliminary seller-side economic reference combining the four valuation lenses above. It is not certified market value.",
+    "sellerAsk": "Existing seller-side asking reference, deliberately separate from economic-reference modelling."
+  }
+}
