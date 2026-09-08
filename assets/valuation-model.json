@@ -1,0 +1,68 @@
+{
+  "v": "2026.09.08-im18",
+  "model": "Conservative Replacement-Cost + Strategic Potential Scenario Model",
+  "purpose": "Keep the public asking reference separate from replacement cost and from a modelled strategic-potential expectation.",
+  "portfolio": {
+    "assetCount": 79,
+    "askingReferenceEUR": 14075000,
+    "replacementCostEUR": 60150000,
+    "askingAsShareOfReplacement": 0.2339983375,
+    "averageAskingPerAssetEUR": 178164.56,
+    "averageReplacementPerAssetEUR": 761392.41
+  },
+  "potentialDistribution": {
+    "VH": 16,
+    "H": 40,
+    "M": 13,
+    "S": 10,
+    "weightedScoreOutOf4": 2.7848101266
+  },
+  "stageDistribution": {
+    "V": 41,
+    "P": 32,
+    "R": 6
+  },
+  "scenarioFactors": {
+    "low": {
+      "potential": {"S": 0.50, "M": 0.75, "H": 1.00, "VH": 1.50},
+      "maturity": {"R": 0.45, "P": 0.70, "V": 0.90}
+    },
+    "base": {
+      "potential": {"S": 0.75, "M": 1.00, "H": 1.50, "VH": 2.25},
+      "maturity": {"R": 0.55, "P": 0.80, "V": 1.00}
+    },
+    "high": {
+      "potential": {"S": 1.00, "M": 1.50, "H": 2.25, "VH": 3.50},
+      "maturity": {"R": 0.70, "P": 0.95, "V": 1.15}
+    }
+  },
+  "portfolioAverageFactors": {
+    "low": {"potential": 0.9968354430, "maturity": 0.7848101266, "combined": 0.7823265502},
+    "base": {"potential": 1.4746835443, "maturity": 0.8848101266, "combined": 1.3048149335},
+    "high": {"potential": 2.2215189873, "maturity": 1.0348101266, "combined": 2.2988503445}
+  },
+  "strategicPotentialScenarioEUR": {
+    "low": 47056942,
+    "baseExpectation": 78484618,
+    "high": 138275848,
+    "averageBaseExpectationPerAsset": 993476.18,
+    "askingAsShareOfBaseExpectation": 0.1793345029
+  },
+  "interpretation": {
+    "askingReference": "A deliberately conservative seller-side transaction reference. It is not presented as full economic or strategic value.",
+    "replacementCost": "A cost-approach baseline for recreating comparable software and work product as-is.",
+    "strategicPotential": "A portfolio-level scenario reference that translates existing maturity and qualitative commercial-potential classifications into a conventionalized strategic-upside indicator above the replacement-cost baseline.",
+    "limitations": "The strategic-potential scenario is not an independent appraisal, market quotation or asset-by-asset DCF. It does not assume project revenues that do not yet exist. The multipliers are explicit portfolio modelling assumptions and should be replaced by buyer-specific market, royalty, cash-flow, comparable-transaction or real-options inputs during diligence."
+  },
+  "referenceFrameworks": [
+    "WIPO IP valuation guidance and 2025 technology-transfer valuation guide",
+    "International Valuation Standards: IVS 100-106 and IVS 210 Intangible Assets",
+    "RICS Valuation of Intellectual Property Rights professional standard",
+    "OECD Transfer Pricing Guidelines for intangibles and DEMPE/value-creation analysis",
+    "IFRS IAS 38 Intangible Assets for identifiability, separability and future-economic-benefit concepts",
+    "ISO 56005:2020 Innovation management — Tools and methods for intellectual property management",
+    "EPO patent management and valuation guidance",
+    "JPO intellectual-property valuation training guidance",
+    "USPTO IP valuation, commercialization and economic-context resources"
+  ]
+}
