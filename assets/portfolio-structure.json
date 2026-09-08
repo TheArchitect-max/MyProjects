@@ -1,5 +1,11 @@
 {
-  "v": "2026.09.08-im14",
+  "v": "2026.09.08-im15",
+  "policy": {
+    "asset_independence": "Every active project is a standalone intellectual-property asset with its own TA-IP identifier, commercial reference, rights perimeter, diligence scope and transaction pathway.",
+    "family_role": "Families are classification and navigation categories only. A family is not itself an IP asset, does not merge member assets, and does not imply common ownership boundaries, technical interchangeability or automatic bundling.",
+    "multi_asset_transactions": "Two or more standalone assets may be negotiated together only when the transaction documents explicitly identify each included asset and its rights perimeter.",
+    "repository_intake": "Repository existence alone does not automatically place a project in the active commercial register. New repositories are added only after separate asset qualification and commercial metadata are established."
+  },
   "retired": [
     {
       "slug": "research-orchestrator",
@@ -13,73 +19,73 @@
     {
       "id": "evidence-intelligence",
       "name": "Evidence & Intelligence Systems",
-      "description": "Assets centred on evidence-led analysis, intelligence synthesis, structured reasoning and decision support.",
+      "description": "Classification family for independently held assets centred on evidence-led analysis, intelligence synthesis, structured reasoning and decision support.",
       "assets": ["research-intelligence-fabric","veritas-evidence-intelligence","aletheia-intelligence-fabric","evidence-grounded-multi-expert-reasoning-system","evidence-governed-analytical-reasoning-platform","kinetic-logic-reconstructor","oraculum-infinitum","causal-state-field-engine"]
     },
     {
       "id": "adaptive-intelligence",
       "name": "Adaptive Intelligence & Cognition",
-      "description": "Research and engineering assets exploring adaptive reasoning, cognition, model orchestration and controlled AI-system development.",
+      "description": "Classification family for standalone research and engineering assets exploring adaptive reasoning, cognition, model orchestration and controlled AI-system development.",
       "assets": ["omnisynth-intelligence-engine","truelane-intelligence-engine","machine-cognition-research-framework","universal-kernel-machine","autonomous-adaptation-framework","resource-aware-hybrid-model-orchestration-platform","mothercode-research-engine","adaptive-general-reasoning-research-platform","adaptive-cognitive-runtime"]
     },
     {
       "id": "visual-multimodal",
       "name": "Visual, Spatial & Multimodal Systems",
-      "description": "Perception, visual evidence, multimodal research and spatial-computing assets for professional evaluation and product development.",
+      "description": "Classification family for distinct perception, visual-evidence, multimodal-research and spatial-computing IP assets.",
       "assets": ["evidence-governed-visual-intelligence-platform","visionair-research-engine","vision-evidence-governed-multimodal-perception-framework","multimodal-evidence-adaptive-systems-platform","chimera-spectral-perception-system","spatial-wearable-perception-platform"]
     },
     {
       "id": "audio-media",
       "name": "Audio & Media Creation",
-      "description": "Assets for audio generation and production, media workflows, documentary production and configurable digital-content creation.",
+      "description": "Classification family for separate audio-generation, production, media-workflow, documentary and configurable-content IP assets.",
       "assets": ["cipher-lyric-engine","integrated-media-production-engine","sonicfabric","autonomous-documentary-engine","adaptive-audio-production-system","hybrid-adaptive-rendering-media","adaptive-audio-synthesis-platform"]
     },
     {
       "id": "industrial-digital-twins",
       "name": "Industrial Reliability & Digital Twins",
-      "description": "Operational resilience, signal, digital-twin and predictive-maintenance assets for industrial and infrastructure environments.",
+      "description": "Classification family for standalone operational-resilience, signal, digital-twin and predictive-maintenance IP assets.",
       "assets": ["athanor","stabilitymesh","continuum-state-integrity-platform","tls-virtual","signal-processing-universal-framework","sensor-fusion-digital-twin-engine","industrial-predictive-maintenance-rul-platform"]
     },
     {
       "id": "software-assurance-control",
       "name": "Software Assurance, Provenance & Control",
-      "description": "Assets for governed execution, software assurance, provenance, operational control and transfer-readiness workflows.",
+      "description": "Classification family for distinct governed-execution, software-assurance, provenance, operational-control and transfer-readiness assets.",
       "assets": ["verifiable-execution-control-platform","distributed-ai-resource-fabric","dominus-kraken-execution-engine","truelane-engineering-excellence","evidence-governed-software-assurance-platform","software-asset-provenance-qualification-platform","content-integrity-assurance-platform"]
     },
     {
       "id": "security-traceability",
       "name": "Security, Identity & Traceability",
-      "description": "Security, identity, custody, traceability and investigation-oriented assets for controlled professional use.",
+      "description": "Classification family for independently scoped security, identity, custody, traceability and investigation-oriented IP assets.",
       "assets": ["modular-key-cryptanalysis-platform","custody-integrity-assurance-platform","biometric-systems-assurance-platform","cipherroutedb","isbr-securetrace","traceline-evidence-governed-investigation-framework"]
     },
     {
       "id": "aerospace-mobility",
       "name": "Aerospace & Mobility Engineering",
-      "description": "Simulation, engineering and research assets covering aerospace missions, electric flight, advanced mobility and mission systems.",
+      "description": "Classification family for separate simulation, engineering and research assets covering aerospace missions, electric flight, advanced mobility and mission systems.",
       "assets": ["air-to-water-transition-vehicle","aerospace-mission-simulator","mt2050-experimental-dynamics","electric-flight-systems-simulation-validation-platform","advanced-ground-vehicle-engineering","fusionlunar-energy-systems-engineering-platform"]
     },
     {
       "id": "scientific-observation",
       "name": "Scientific Observation & Domain Research",
-      "description": "Specialist research assets for evidence-led observation and investigation across biological, terrestrial, astronomical and experimental domains.",
+      "description": "Classification family for specialist standalone research assets spanning biological, terrestrial, astronomical and experimental domains.",
       "assets": ["ossn-uap","faunometric","protein-structure-evidence-qualification-platform","dmt-laser-phenomenology-engine","latticedepth","organismal-state-dynamics-research-platform","radioastronomy-signal-validation-platform","telluric-actualization-research-platform"]
     },
     {
       "id": "physics-math-optimization",
       "name": "Physics, Mathematics & Optimisation Research",
-      "description": "Research assets focused on mathematical exploration, physics hypotheses, signal-oriented analysis and structured optimisation problems.",
+      "description": "Classification family for independent mathematical, physics, signal-oriented and optimisation research IP assets.",
       "assets": ["axiomfactor","temporal-physics-causality-research-platform","goldennet-signal-intelligence-platform","qubo-structural-analysis-and-optimization-platform"]
     },
     {
       "id": "enterprise-web-commerce",
       "name": "Enterprise, Web & Commerce Systems",
-      "description": "Assets for organisational knowledge, scalable digital publishing, search-facing infrastructure and structured commerce workflows.",
+      "description": "Classification family for separate organisational-knowledge, digital-publishing, search-infrastructure and commerce-workflow assets.",
       "assets": ["organizational-memory-engine","programmatic-search-fabric","mercorion-commerce-compiler"]
     },
     {
       "id": "specialist-verticals",
       "name": "Specialist Vertical Software",
-      "description": "Domain-focused software assets for specialist operational, professional, creative-service and wellness-oriented workflows.",
+      "description": "Classification family for independently transferable domain-focused software assets serving specialist operational and professional workflows.",
       "assets": ["truelane-flora","legalops-nl","truelane-inkcore","adaptive-biofeedback-engine"]
     }
   ]
