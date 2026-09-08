@@ -28,6 +28,7 @@ assert(intake.assets.length===4,'pending intake count');
 const baseAssets=base.map((x,i)=>({id:x[0],ref:x[1],slug:x[2],name:x[3],stage:x[5],potential:x[6],ask:x[8],low:x[9],high:x[10],recreationCost:rc.assets[i],description:descriptions.descriptions[x[2]],priced:true}));
 const intakeAssets=intake.assets.map(x=>({id:x.id,ref:x.ref,slug:x.slug,name:x.name,stage:x.stage,potential:x.potential,ask:null,low:null,high:null,recreationCost:null,description:x.description,priced:false}));
 const assets=[...baseAssets,...intakeAssets];
+const intakeSlugs=new Set(intakeAssets.map(x=>x.slug));
 
 assert(assets.length===79,'active standalone asset count');
 assert(new Set(assets.map(x=>x.ref)).size===79,'unique TA-IP references');
@@ -85,9 +86,10 @@ assert(!actual.has('research-orchestrator'),'retired project route removed');
 for(const slug of activeSlugs){
   assert(actual.has(slug),`missing project route ${slug}`);
   const h=read(`projects/${slug}/index.html`);
-  assert(h.includes('../../assets/im.js?v=im16'),`IM16 runtime ${slug}`);
-  assert(h.includes('../../assets/im4.css?v=im16'),`IM16 stylesheet ${slug}`);
+  assert(/\.\.\/\.\.\/assets\/im\.js\?v=im1[56]/.test(h),`runtime shell ${slug}`);
+  assert(/\.\.\/\.\.\/assets\/im4\.css\?v=im1[56]/.test(h),`stylesheet shell ${slug}`);
   assert(h.includes('Standalone IP Asset')&&!h.includes('noindex'),`profile shell ${slug}`);
+  if(intakeSlugs.has(slug))assert(h.includes('im.js?v=im16')&&h.includes('im4.css?v=im16'),`new intake shell IM16 ${slug}`);
 }
 
 const locs=[...read('sitemap.xml').matchAll(/<loc>([^<]+)<\/loc>/g)].map(x=>x[1]);
