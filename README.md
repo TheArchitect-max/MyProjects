@@ -11,7 +11,7 @@ Public commercial portfolio for **79 active standalone software and digital inte
 - 8 commercial sectors
 - EUR 14,075,000 aggregate seller asking reference
 - EUR 11,220,000–17,645,000 aggregate asking range
-- EUR 60,150,000 aggregate recreation/replacement-cost reference
+- EUR 60,150,000 current recreation/replacement-cost baseline
 - EUR 67,966,649 aggregate market/comparable proxy
 - EUR 80,368,396 aggregate income/licensing proxy
 - EUR 76,838,904 aggregate probability-adjusted strategic value
@@ -28,24 +28,58 @@ Two or more standalone assets may be negotiated together, but each included asse
 
 The active schedule excludes retired predecessors from commercial counts and valuation totals. TA-IP identifiers remain stable historical references and are not renumbered or reused. **TA-IP-001 Research Orchestrator** is retired after its repository was removed; **TA-IP-012 Research Intelligence Fabric** remains a separate active asset. TA-IP-014 remains intentionally absent from the active register.
 
-## IM19 valuation architecture
+## IM20 valuation architecture
 
-The portfolio now keeps the following valuation lenses separate at **individual asset level**:
+The portfolio keeps the following valuation lenses separate at **individual asset level**:
 
-1. **Replacement Cost** — existing recreation/replacement-cost baseline.
-2. **Market / Comparable Proxy** — preliminary marketability indication pending verified comparable transactions.
+1. **Replacement Cost** — current recreation/replacement-cost baseline.
+2. **Market / Comparable Proxy** — preliminary marketability indication pending direct subject-asset comparables.
 3. **Income / Licensing Proxy** — preliminary monetization indication pending buyer-specific forecasts, royalty benchmarks or other defensible income inputs.
 4. **Probability-adjusted Strategic Value** — adjusted for technical completion, commercialization probability, rights/transfer diligence reserve, time/risk and sector context.
 5. **Seller Asking Price** — deliberately separate from economic-value modelling.
 6. **Preliminary Triangulated Economic Reference** — combines the first four lenses at asset level using explicit weights.
 
-Current triangulation weights are replacement cost 25%, market/comparable proxy 20%, income/licensing proxy 20% and probability-adjusted strategic value 35%.
+Current triangulation weights remain replacement cost 25%, market/comparable proxy 20%, income/licensing proxy 20% and probability-adjusted strategic value 35%.
 
-The aggregate seller ask of EUR 14.075 million is approximately **23.4% of replacement cost** and **19.7% of the preliminary triangulated economic reference**.
+The aggregate seller ask of EUR 14.075 million is approximately **23.4% of the current replacement-cost baseline** and **19.7% of the preliminary triangulated economic reference**.
 
 The 79 individual records are stored in `assets/asset-economic-valuations.csv`. Model definitions and factors are stored in `assets/economic-methodology.json`.
 
-The earlier portfolio-level strategic scenario in `assets/valuation-model.json` is retained for analytical lineage but is no longer the primary economic-reference method.
+## External market evidence calibration
+
+IM20 adds `assets/external-market-evidence.json`, a primary-source evidence register covering strategic transactions across the eight portfolio sectors.
+
+The register currently contains 13 transaction anchors including enterprise AI, data, infrastructure, identity/security, industrial simulation, scientific R&D software, vertical professional software and media/creator technology.
+
+Six selected mature targets have disclosed revenue sufficient to derive rough deal-value/revenue ratios. In this illustrative sample the ratios range from approximately **4.88x to 24.98x**, with a median around **13.05x**.
+
+Those ratios are **not applied directly to the portfolio assets**. The sample mixes enterprise value and equity value, uses different revenue periods and contains mature operating companies. The evidence is used first to calibrate sector demand and confidence. Direct market valuation requires subject-asset comparability in rights, maturity, revenue, growth, useful life, geography, transaction date and transaction structure.
+
+The public evidence page is `evidence.html`.
+
+## Replacement-cost completeness
+
+IM20 also adds `assets/replacement-cost-scope.json`.
+
+The current EUR 60.150 million baseline is retained as a cost-approach reference, but it is **not yet represented as a fully componentized all-in replacement-cost audit**.
+
+The next replacement-cost gate audits each asset for inclusion of:
+
+- software engineering and implementation
+- architecture and systems design
+- domain research and R&D
+- QA, testing and validation
+- security and hardening
+- deployment, packaging and operations
+- documentation and transfer material
+- data, models and evaluation assets
+- productization and UX
+- compliance and regulatory engineering where relevant
+- IP, licence and provenance qualification
+- project and programme management
+- failed-R&D / learning cost where defensible
+
+No automatic uplift is applied. The audit must avoid double counting work already reflected in the current baseline.
 
 ## Probability architecture
 
@@ -76,13 +110,13 @@ These references inform terminology, method selection and diligence design. They
 
 ## Confidence boundary
 
-- replacement-cost lens: medium confidence, subject to fuller recreation-cost refinement
-- market/comparable proxy: low confidence until verified precedent transactions are available
+- replacement-cost lens: medium confidence; full component audit still pending
+- market/comparable proxy: low-to-medium by sector; primary transaction anchors exist but direct comparability is not established
 - income/licensing proxy: low confidence until defendable economic forecasts or royalty benchmarks are available
 - probability-adjusted strategic value: modelled
 - triangulated economic reference: preliminary
 
-A transaction-stage valuation should replace proxies with reliable comparable transactions, royalty evidence, cash-flow forecasts, discount rates, useful-life assumptions, remaining development costs, legal/IP diligence and buyer-specific synergies.
+A transaction-stage valuation should replace proxies with narrow comparable transactions, royalty evidence, cash-flow forecasts, discount rates, useful-life assumptions, remaining development costs, legal/IP diligence and buyer-specific synergies.
 
 ## Local validation
 
@@ -90,7 +124,7 @@ A transaction-stage valuation should replace proxies with reliable comparable tr
 npm test
 ```
 
-The IM19 validation gate checks all 79 economic records, aggregate lens totals, probability ranges, project-route coverage, economic presentation runtime and principal public valuation figures.
+The IM20 validation gate checks the 79 economic records, aggregate lens totals, external evidence registry, sector coverage, illustrative-ratio metadata, replacement-cost audit framework, project-route coverage and principal public valuation figures.
 
 No GitHub Actions workflow is used.
 
