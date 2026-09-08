@@ -1,0 +1,254 @@
+{
+  "v": "2026.09.08-im20",
+  "status": "external-evidence-calibration",
+  "purpose": "Primary-source transaction and standards evidence used to calibrate confidence and strategic buyer appetite. These records are not direct valuation comparables for the portfolio assets unless an asset-specific comparability review says otherwise.",
+  "rules": {
+    "directPriceCopyingProhibited": true,
+    "transactionAnchorsAffectConfidenceBeforeValue": true,
+    "revenueMultiplesAreIllustrativeOnly": true,
+    "assetSpecificComparabilityRequiredForMarketApproach": true,
+    "buyerSpecificForecastRequiredForIncomeApproach": true
+  },
+  "observedIllustrativeRevenueRatios": {
+    "sampleSize": 6,
+    "minimum": 4.88,
+    "median": 13.05,
+    "mean": 13.50,
+    "maximum": 24.98,
+    "unit": "rough disclosed deal-value / disclosed annual-revenue ratio",
+    "warning": "Selective mixed EV/equity-value sample of mature operating software companies. Not a valuation multiple for pre-revenue or early-stage portfolio assets. SafeSend uses expected 2025 revenue; the other disclosed revenue anchors use 2024 revenue."
+  },
+  "transactions": [
+    {
+      "id": "TX-SERVICENOW-MOVEWORKS-2025",
+      "buyer": "ServiceNow",
+      "target": "Moveworks",
+      "announcedOrClosed": "completed 2025-12-15",
+      "dealValueUSD": 2850000000,
+      "valueBasis": "transaction consideration",
+      "themes": ["enterprise AI", "knowledge tools", "enterprise search", "agentic workflows"],
+      "sourceType": "primary-company-release",
+      "source": "https://newsroom.servicenow.com/press-releases/details/2025/ServiceNow-completes-acquisition-of-Moveworks/default.aspx",
+      "use": "strategic demand evidence; not direct comparable"
+    },
+    {
+      "id": "TX-WORKDAY-SANA-2025",
+      "buyer": "Workday",
+      "target": "Sana",
+      "announcedOrClosed": "announced 2025-09-16",
+      "dealValueUSD": 1100000000,
+      "valueBasis": "approximate transaction value",
+      "themes": ["enterprise AI", "knowledge tools", "learning", "agents"],
+      "sourceType": "primary-company-release",
+      "source": "https://investor.workday.com/news-and-events/press-releases/news-details/2025/Workday-Signs-Definitive-Agreement-to-Acquire-Sana-09-16-2025/default.aspx",
+      "use": "strategic demand evidence; not direct comparable"
+    },
+    {
+      "id": "TX-SALESFORCE-INFORMATICA-2025",
+      "buyer": "Salesforce",
+      "target": "Informatica",
+      "announcedOrClosed": "completed 2025-11-18",
+      "dealValueUSD": 8000000000,
+      "valueBasis": "approximate equity value net of existing investment",
+      "targetRevenueUSD": 1640018000,
+      "targetRevenuePeriod": "FY2024",
+      "roughDealValueToRevenue": 4.88,
+      "themes": ["enterprise data", "governance", "quality", "privacy", "AI infrastructure"],
+      "sourceType": "primary-company-release + SEC revenue filing",
+      "source": "https://www.salesforce.com/news/press-releases/2025/11/18/salesforce-completes-acquisition-of-informatica/",
+      "revenueSource": "https://www.sec.gov/Archives/edgar/data/1868778/000186877825000007/infa-20241231.htm",
+      "use": "strategic demand evidence and mature-company ratio reference; not direct comparable"
+    },
+    {
+      "id": "TX-IBM-HASHICORP-2025",
+      "buyer": "IBM",
+      "target": "HashiCorp",
+      "announcedOrClosed": "completed 2025-02-27",
+      "dealValueUSD": 7200000000,
+      "valueBasis": "approximate equity value disclosed in IBM filing",
+      "targetRevenueUSD": 583100000,
+      "targetRevenuePeriod": "FY2024",
+      "roughDealValueToRevenue": 12.35,
+      "themes": ["cloud infrastructure", "automation", "security", "hybrid cloud"],
+      "sourceType": "SEC filing + primary-company-release",
+      "source": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000052/ibm-20250630.htm",
+      "revenueSource": "https://www.sec.gov/Archives/edgar/data/1720671/000114036124025948/ny20021845x1_def14a.htm",
+      "use": "strategic demand evidence and mature-company ratio reference; not direct comparable"
+    },
+    {
+      "id": "TX-GOOGLE-WIZ-2025",
+      "buyer": "Google",
+      "target": "Wiz",
+      "announcedOrClosed": "announced 2025-03-18",
+      "dealValueUSD": 32000000000,
+      "valueBasis": "all-cash transaction subject to closing adjustments",
+      "themes": ["cloud security", "multicloud", "cybersecurity", "AI-era infrastructure"],
+      "sourceType": "primary-company-release + SEC filing",
+      "source": "https://blog.google/company-news/inside-google/company-announcements/google-agreement-acquire-wiz/",
+      "secSource": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000027/goog-20250318.htm",
+      "use": "strategic demand evidence; not direct comparable"
+    },
+    {
+      "id": "TX-PALOALTO-CYBERARK-2025",
+      "buyer": "Palo Alto Networks",
+      "target": "CyberArk",
+      "announcedOrClosed": "announced 2025-07-30",
+      "dealValueUSD": 25000000000,
+      "valueBasis": "approximate equity value",
+      "targetRevenueUSD": 1001000000,
+      "targetRevenuePeriod": "FY2024 approximate",
+      "roughDealValueToRevenue": 24.98,
+      "themes": ["identity security", "privileged access", "AI agent security"],
+      "sourceType": "primary-company-release + SEC revenue filing",
+      "source": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-announces-agreement-acquire-cyberark-identity",
+      "revenueSource": "https://www.sec.gov/Archives/edgar/data/1598110/000117891325000473/exhibit_99-1.htm",
+      "use": "strategic demand evidence and mature-company ratio reference; not direct comparable"
+    },
+    {
+      "id": "TX-SIEMENS-ALTAIR-2025",
+      "buyer": "Siemens",
+      "target": "Altair Engineering",
+      "announcedOrClosed": "completed 2025-03-26",
+      "dealValueUSD": 10000000000,
+      "valueBasis": "approximate enterprise value",
+      "targetRevenueUSD": 665788000,
+      "targetRevenuePeriod": "FY2024",
+      "roughDealValueToRevenue": 15.02,
+      "themes": ["simulation", "industrial AI", "digital twin", "HPC", "engineering software"],
+      "sourceType": "primary-company-release + SEC revenue filing",
+      "source": "https://press.siemens.com/global/en/pressrelease/siemens-acquires-altair-create-most-complete-ai-powered-portfolio-industrial-software",
+      "revenueSource": "https://www.sec.gov/Archives/edgar/data/1701732/000095017025024197/altr-20241231.htm",
+      "use": "strategic demand evidence and mature-company ratio reference; not direct comparable"
+    },
+    {
+      "id": "TX-SYNOPSYS-ANSYS-2025",
+      "buyer": "Synopsys",
+      "target": "Ansys",
+      "announcedOrClosed": "completed 2025-07-17",
+      "dealValueUSD": 35000000000,
+      "valueBasis": "approximate enterprise value at announcement",
+      "targetRevenueUSD": 2544809000,
+      "targetRevenuePeriod": "FY2024",
+      "roughDealValueToRevenue": 13.75,
+      "themes": ["simulation", "analysis", "engineering software", "aerospace", "automotive", "industrial"],
+      "sourceType": "primary-company-release + SEC revenue filing",
+      "source": "https://investor.synopsys.com/news/news-details/2025/Synopsys-Completes-Acquisition-of-Ansys/default.aspx",
+      "dealTermsSource": "https://ansys.synopsys.com/news-center/press-releases/1-16-24-synopsys-acquires-ansys",
+      "revenueSource": "https://www.sec.gov/Archives/edgar/data/1013462/000101346225000009/anss-20241231.htm",
+      "use": "strategic demand evidence and mature-company ratio reference; not direct comparable"
+    },
+    {
+      "id": "TX-SIEMENS-DOTMATICS-2025",
+      "buyer": "Siemens",
+      "target": "Dotmatics",
+      "announcedOrClosed": "completed 2025-07-01",
+      "dealValueUSD": 5100000000,
+      "valueBasis": "enterprise value",
+      "themes": ["scientific software", "life sciences R&D", "AI", "research data"],
+      "sourceType": "primary-company-release",
+      "source": "https://press.siemens.com/global/en/pressrelease/siemens-completes-acquisition-dotmatics",
+      "use": "strategic demand evidence; not direct comparable"
+    },
+    {
+      "id": "TX-THOMSONREUTERS-SAFESEND-2025",
+      "buyer": "Thomson Reuters",
+      "target": "SafeSend",
+      "announcedOrClosed": "completed 2025-01-02",
+      "dealValueUSD": 600000000,
+      "valueBasis": "cash purchase price",
+      "targetRevenueUSD": 60000000,
+      "targetRevenuePeriod": "expected 2025 revenue",
+      "roughDealValueToRevenue": 10.0,
+      "themes": ["vertical software", "tax automation", "professional workflow", "cloud-native"],
+      "sourceType": "primary-company-release",
+      "source": "https://www.thomsonreuters.com/en/press-releases/2025/january/thomson-reuters-acquires-safesend-expanding-tax-automation-capabilities",
+      "use": "vertical-software demand evidence and rough forward-revenue ratio reference; not direct comparable"
+    },
+    {
+      "id": "TX-GETTY-SHUTTERSTOCK-2025",
+      "buyer": "Getty Images / Shutterstock",
+      "target": "merger of equals",
+      "announcedOrClosed": "announced 2025-01-07; pending conditions in 2026 filings",
+      "dealValueUSD": 3700000000,
+      "valueBasis": "approximate combined enterprise value announced",
+      "themes": ["visual content", "creator economy", "media technology", "content licensing"],
+      "sourceType": "SEC-filed transaction release",
+      "source": "https://www.sec.gov/Archives/edgar/data/1898496/000110465925001732/tm252186d1_ex99-1.htm",
+      "use": "media/creator strategic demand evidence; not direct comparable"
+    },
+    {
+      "id": "TX-AUTODESK-WONDERDYNAMICS-2024",
+      "buyer": "Autodesk",
+      "target": "Wonder Dynamics",
+      "announcedOrClosed": "acquired 2024-05-21",
+      "dealValueUSD": null,
+      "valueBasis": "terms undisclosed",
+      "themes": ["creator software", "AI", "3D", "VFX", "media production"],
+      "sourceType": "primary-company-release",
+      "source": "https://adsknews.autodesk.com/en/pressrelease/autodesk-acquires-wonder-dynamics-offering-cloud-based-ai-technology-to-empower-more-artists-to-create-more-3d-content-across-media-and-entertainment-industries/",
+      "use": "strategic demand evidence only"
+    },
+    {
+      "id": "TX-CANVA-LEONARDO-2024",
+      "buyer": "Canva",
+      "target": "Leonardo.Ai",
+      "announcedOrClosed": "acquired 2024",
+      "dealValueUSD": null,
+      "valueBasis": "terms undisclosed",
+      "themes": ["generative AI", "visual AI", "creator software", "foundation models"],
+      "sourceType": "primary-company-release",
+      "source": "https://www.canva.com/newsroom/news/leonardo-ai/",
+      "use": "strategic demand evidence only"
+    }
+  ],
+  "sectorCalibration": {
+    "AI, Decision & Knowledge Systems": {
+      "evidenceConfidence": 0.60,
+      "confidenceLabel": "medium",
+      "anchors": ["TX-SERVICENOW-MOVEWORKS-2025", "TX-WORKDAY-SANA-2025", "TX-SALESFORCE-INFORMATICA-2025"],
+      "interpretation": "Strong strategic acquisition appetite exists for enterprise AI, knowledge, data and agentic-workflow capabilities; portfolio assets remain much earlier and smaller than the observed targets."
+    },
+    "Aerospace & Mobility": {
+      "evidenceConfidence": 0.50,
+      "confidenceLabel": "medium-low",
+      "anchors": ["TX-SYNOPSYS-ANSYS-2025", "TX-SIEMENS-ALTAIR-2025"],
+      "interpretation": "Observed transactions validate strategic value in simulation and engineering software used in aerospace, automotive and industrial markets, but are adjacent rather than direct comparables for portfolio aerospace concepts."
+    },
+    "Enterprise Software & Operations": {
+      "evidenceConfidence": 0.65,
+      "confidenceLabel": "medium-high",
+      "anchors": ["TX-IBM-HASHICORP-2025", "TX-SALESFORCE-INFORMATICA-2025", "TX-SERVICENOW-MOVEWORKS-2025", "TX-THOMSONREUTERS-SAFESEND-2025"],
+      "interpretation": "Multiple recent primary-source transactions show sustained buyer appetite for automation, infrastructure, data, workflow and AI-operational software."
+    },
+    "Identity, Privacy & Assurance": {
+      "evidenceConfidence": 0.65,
+      "confidenceLabel": "medium-high",
+      "anchors": ["TX-GOOGLE-WIZ-2025", "TX-PALOALTO-CYBERARK-2025", "TX-SALESFORCE-INFORMATICA-2025"],
+      "interpretation": "Recent transactions indicate strategic buyer appetite for cloud security, identity security, trusted data and governance capabilities."
+    },
+    "Industrial & Infrastructure Software": {
+      "evidenceConfidence": 0.70,
+      "confidenceLabel": "high-for-sector-demand / low-for-direct-comparability",
+      "anchors": ["TX-SIEMENS-ALTAIR-2025", "TX-SYNOPSYS-ANSYS-2025", "TX-IBM-HASHICORP-2025"],
+      "interpretation": "Primary transactions strongly validate industrial software, simulation, digital-twin, infrastructure automation and engineering-tool demand; observed targets are mature operating businesses rather than direct asset comparables."
+    },
+    "Media & Creator Technology": {
+      "evidenceConfidence": 0.55,
+      "confidenceLabel": "medium",
+      "anchors": ["TX-GETTY-SHUTTERSTOCK-2025", "TX-AUTODESK-WONDERDYNAMICS-2024", "TX-CANVA-LEONARDO-2024"],
+      "interpretation": "Strategic transactions support continued demand for creator tooling, visual AI, VFX automation and content platforms; two important technology acquisitions have undisclosed consideration."
+    },
+    "Research & Scientific Software": {
+      "evidenceConfidence": 0.65,
+      "confidenceLabel": "medium-high",
+      "anchors": ["TX-SIEMENS-DOTMATICS-2025", "TX-SIEMENS-ALTAIR-2025", "TX-SYNOPSYS-ANSYS-2025"],
+      "interpretation": "Large strategic transactions validate scientific R&D, simulation and research-data software as acquisition categories, while portfolio research assets still require asset-specific technical and commercialization evidence."
+    },
+    "Specialist Vertical Software": {
+      "evidenceConfidence": 0.60,
+      "confidenceLabel": "medium",
+      "anchors": ["TX-THOMSONREUTERS-SAFESEND-2025", "TX-SIEMENS-DOTMATICS-2025", "TX-WORKDAY-SANA-2025"],
+      "interpretation": "Observed deals support strategic value in focused workflow and domain software, but asset-level revenue, retention and buyer fit are needed before applying transaction multiples."
+    }
+  }
+}
