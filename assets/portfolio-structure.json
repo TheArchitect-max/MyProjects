@@ -1,7 +1,7 @@
 {
-  "v": "2026.09.08-im15",
+  "v": "2026.09.08-im16",
   "policy": {
-    "asset_independence": "Every active project is a standalone intellectual-property asset with its own TA-IP identifier, commercial reference, rights perimeter, diligence scope and transaction pathway.",
+    "asset_independence": "Every active project is a standalone intellectual-property asset with its own TA-IP identifier, commercial reference or explicit pending-reference status, rights perimeter, diligence scope and transaction pathway.",
     "family_role": "Families are classification and navigation categories only. A family is not itself an IP asset, does not merge member assets, and does not imply common ownership boundaries, technical interchangeability or automatic bundling.",
     "multi_asset_transactions": "Two or more standalone assets may be negotiated together only when the transaction documents explicitly identify each included asset and its rights perimeter.",
     "repository_intake": "Repository existence alone does not automatically place a project in the active commercial register. New repositories are added only after separate asset qualification and commercial metadata are established."
@@ -26,7 +26,7 @@
       "id": "adaptive-intelligence",
       "name": "Adaptive Intelligence & Cognition",
       "description": "Classification family for standalone research and engineering assets exploring adaptive reasoning, cognition, model orchestration and controlled AI-system development.",
-      "assets": ["omnisynth-intelligence-engine","truelane-intelligence-engine","machine-cognition-research-framework","universal-kernel-machine","autonomous-adaptation-framework","resource-aware-hybrid-model-orchestration-platform","mothercode-research-engine","adaptive-general-reasoning-research-platform","adaptive-cognitive-runtime"]
+      "assets": ["omnisynth-intelligence-engine","truelane-intelligence-engine","machine-cognition-research-framework","universal-kernel-machine","autonomous-adaptation-framework","resource-aware-hybrid-model-orchestration-platform","mothercode-research-engine","adaptive-general-reasoning-research-platform","adaptive-cognitive-runtime","adaptive-neural-architecture-platform"]
     },
     {
       "id": "visual-multimodal",
@@ -56,7 +56,7 @@
       "id": "security-traceability",
       "name": "Security, Identity & Traceability",
       "description": "Classification family for independently scoped security, identity, custody, traceability and investigation-oriented IP assets.",
-      "assets": ["modular-key-cryptanalysis-platform","custody-integrity-assurance-platform","biometric-systems-assurance-platform","cipherroutedb","isbr-securetrace","traceline-evidence-governed-investigation-framework"]
+      "assets": ["modular-key-cryptanalysis-platform","custody-integrity-assurance-platform","biometric-systems-assurance-platform","cipherroutedb","isbr-securetrace","traceline-evidence-governed-investigation-framework","secure-actuation-integrity-platform"]
     },
     {
       "id": "aerospace-mobility",
@@ -67,8 +67,8 @@
     {
       "id": "scientific-observation",
       "name": "Scientific Observation & Domain Research",
-      "description": "Classification family for specialist standalone research assets spanning biological, terrestrial, astronomical and experimental domains.",
-      "assets": ["ossn-uap","faunometric","protein-structure-evidence-qualification-platform","dmt-laser-phenomenology-engine","latticedepth","organismal-state-dynamics-research-platform","radioastronomy-signal-validation-platform","telluric-actualization-research-platform"]
+      "description": "Classification family for specialist standalone research assets spanning biological, terrestrial, astronomical, signal and experimental domains.",
+      "assets": ["ossn-uap","faunometric","protein-structure-evidence-qualification-platform","dmt-laser-phenomenology-engine","latticedepth","organismal-state-dynamics-research-platform","radioastronomy-signal-validation-platform","telluric-actualization-research-platform","bio-inspired-neural-dynamics-active-inference-simulation-platform","cardiosignal-intelligence-platform"]
     },
     {
       "id": "physics-math-optimization",
