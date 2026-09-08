@@ -26,6 +26,21 @@ Repository existence alone does not automatically place a project in the active 
 
 The active schedule excludes retired predecessors from commercial counts and valuation totals. TA-IP identifiers remain stable historical references and are not renumbered or reused. **TA-IP-001 Research Orchestrator** is retired after its repository was removed; **TA-IP-012 Research Intelligence Fabric** remains a separate active asset. TA-IP-014 remains intentionally absent from the active register.
 
+## Valuation methodology
+
+The commercial references were calculated by ChatGPT for the portfolio owner as **indicative seller-side IP valuations** using a reproducible framework informed by six institutional reference points:
+
+1. **WIPO — World Intellectual Property Organization**
+2. **International Valuation Standards / IVSC**
+3. **OECD guidance on intangibles, value creation and DEMPE-related principles**
+4. **JPO — Japan Patent Office institutional IP guidance**
+5. **USPTO — United States Patent and Trademark Office institutional IP guidance**
+6. **EPO — European Patent Office institutional IP guidance**
+
+The methodology uses cost, market and income/strategic-utility approaches where appropriate, together with asset-specific considerations including identifiability, maturity, provenance, rights perimeter, dependencies, evidence, useful life, transferability, commercialization readiness and buyer utility.
+
+This methodology statement means the calculations are **aligned with or informed by** those institutional frameworks and guidance. It does **not** mean WIPO, IVSC, OECD, JPO, USPTO or EPO independently reviewed the repositories, certified the applied methodology, endorsed the amounts, issued formal appraisals or approved transaction prices.
+
 ## Latest commercial references
 
 - **TA-IP-078 Adaptive Neural Architecture Platform** — EUR 125,000 ask; EUR 100,000–160,000 range; EUR 650,000 recreation-cost reference.
@@ -47,7 +62,7 @@ No GitHub Actions workflow is used.
 
 ## Important notice
 
-All values are seller-side commercial references for discussion purposes only. Recreation cost is a cost-approach benchmark for recreating comparable assets from scratch and is not market value or transaction price. The figures are not independent appraisals, fairness opinions, audited valuations or guarantees of transaction value.
+All values are calculated seller-side commercial references for discussion purposes only. Recreation cost is a cost-approach benchmark for recreating comparable assets from scratch and is not market value or transaction price. The figures are not independent appraisals, fairness opinions, audited valuations or guarantees of transaction value.
 
 ## License
 
