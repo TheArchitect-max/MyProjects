@@ -1,0 +1,86 @@
+{
+  "v": "2026.09.08-im14",
+  "retired": [
+    {
+      "slug": "research-orchestrator",
+      "ref": "TA-IP-001",
+      "status": "retired-predecessor",
+      "successor": "research-intelligence-fabric",
+      "note": "Withdrawn from the active commercial portfolio after repository retirement; identifier retained for historical continuity and is not reused."
+    }
+  ],
+  "families": [
+    {
+      "id": "evidence-intelligence",
+      "name": "Evidence & Intelligence Systems",
+      "description": "Assets centred on evidence-led analysis, intelligence synthesis, structured reasoning and decision support.",
+      "assets": ["research-intelligence-fabric","veritas-evidence-intelligence","aletheia-intelligence-fabric","evidence-grounded-multi-expert-reasoning-system","evidence-governed-analytical-reasoning-platform","kinetic-logic-reconstructor","oraculum-infinitum","causal-state-field-engine"]
+    },
+    {
+      "id": "adaptive-intelligence",
+      "name": "Adaptive Intelligence & Cognition",
+      "description": "Research and engineering assets exploring adaptive reasoning, cognition, model orchestration and controlled AI-system development.",
+      "assets": ["omnisynth-intelligence-engine","truelane-intelligence-engine","machine-cognition-research-framework","universal-kernel-machine","autonomous-adaptation-framework","resource-aware-hybrid-model-orchestration-platform","mothercode-research-engine","adaptive-general-reasoning-research-platform","adaptive-cognitive-runtime"]
+    },
+    {
+      "id": "visual-multimodal",
+      "name": "Visual, Spatial & Multimodal Systems",
+      "description": "Perception, visual evidence, multimodal research and spatial-computing assets for professional evaluation and product development.",
+      "assets": ["evidence-governed-visual-intelligence-platform","visionair-research-engine","vision-evidence-governed-multimodal-perception-framework","multimodal-evidence-adaptive-systems-platform","chimera-spectral-perception-system","spatial-wearable-perception-platform"]
+    },
+    {
+      "id": "audio-media",
+      "name": "Audio & Media Creation",
+      "description": "Assets for audio generation and production, media workflows, documentary production and configurable digital-content creation.",
+      "assets": ["cipher-lyric-engine","integrated-media-production-engine","sonicfabric","autonomous-documentary-engine","adaptive-audio-production-system","hybrid-adaptive-rendering-media","adaptive-audio-synthesis-platform"]
+    },
+    {
+      "id": "industrial-digital-twins",
+      "name": "Industrial Reliability & Digital Twins",
+      "description": "Operational resilience, signal, digital-twin and predictive-maintenance assets for industrial and infrastructure environments.",
+      "assets": ["athanor","stabilitymesh","continuum-state-integrity-platform","tls-virtual","signal-processing-universal-framework","sensor-fusion-digital-twin-engine","industrial-predictive-maintenance-rul-platform"]
+    },
+    {
+      "id": "software-assurance-control",
+      "name": "Software Assurance, Provenance & Control",
+      "description": "Assets for governed execution, software assurance, provenance, operational control and transfer-readiness workflows.",
+      "assets": ["verifiable-execution-control-platform","distributed-ai-resource-fabric","dominus-kraken-execution-engine","truelane-engineering-excellence","evidence-governed-software-assurance-platform","software-asset-provenance-qualification-platform","content-integrity-assurance-platform"]
+    },
+    {
+      "id": "security-traceability",
+      "name": "Security, Identity & Traceability",
+      "description": "Security, identity, custody, traceability and investigation-oriented assets for controlled professional use.",
+      "assets": ["modular-key-cryptanalysis-platform","custody-integrity-assurance-platform","biometric-systems-assurance-platform","cipherroutedb","isbr-securetrace","traceline-evidence-governed-investigation-framework"]
+    },
+    {
+      "id": "aerospace-mobility",
+      "name": "Aerospace & Mobility Engineering",
+      "description": "Simulation, engineering and research assets covering aerospace missions, electric flight, advanced mobility and mission systems.",
+      "assets": ["air-to-water-transition-vehicle","aerospace-mission-simulator","mt2050-experimental-dynamics","electric-flight-systems-simulation-validation-platform","advanced-ground-vehicle-engineering","fusionlunar-energy-systems-engineering-platform"]
+    },
+    {
+      "id": "scientific-experimental",
+      "name": "Scientific & Experimental Research",
+      "description": "Specialist scientific and experimental research assets spanning physical, biological, signal and optimisation domains.",
+      "assets": ["ossn-uap","faunometric","protein-structure-evidence-qualification-platform","dmt-laser-phenomenology-engine","axiomfactor","latticedepth","temporal-physics-causality-research-platform","organismal-state-dynamics-research-platform","goldennet-signal-intelligence-platform","radioastronomy-signal-validation-platform","telluric-actualization-research-platform","qubo-structural-analysis-and-optimization-platform"]
+    },
+    {
+      "id": "enterprise-knowledge",
+      "name": "Enterprise Knowledge & Operations",
+      "description": "Enterprise knowledge and operational-memory assets intended to preserve context, decisions and reusable organisational information.",
+      "assets": ["organizational-memory-engine"]
+    },
+    {
+      "id": "web-commerce",
+      "name": "Web, Commerce & Digital Infrastructure",
+      "description": "Commercial web, search and commerce infrastructure assets for scalable digital publishing and selling workflows.",
+      "assets": ["programmatic-search-fabric","mercorion-commerce-compiler"]
+    },
+    {
+      "id": "specialist-verticals",
+      "name": "Specialist Vertical Software",
+      "description": "Domain-focused software assets for specialist operational, professional, creative-service and wellness-oriented workflows.",
+      "assets": ["truelane-flora","legalops-nl","truelane-inkcore","adaptive-biofeedback-engine"]
+    }
+  ]
+}
