@@ -9,12 +9,13 @@ Public commercial portfolio for **79 active standalone software and digital inte
 - 12 classification families — navigation/taxonomy only
 - 8 commercial sectors
 - EUR 14,075,000 aggregate indicative asking reference
-- EUR 11,220,000–17,645,000 aggregate indicative portfolio range
-- EUR 60,150,000 aggregate recreation-cost reference
+- EUR 11,220,000–17,645,000 aggregate indicative asking range
+- EUR 60,150,000 aggregate recreation/replacement-cost reference
+- approximately EUR 78.5 million modelled base strategic-potential expectation
+- approximately EUR 47.1 million–138.3 million strategic-potential scenario envelope
 - 41 developed software assets / 32 developed prototypes / 6 research-stage assets
 - EUR is authoritative; USD is shown indicatively
 - each active asset has its own TA-IP reference, commercial description, value references and diligence perimeter
-- transaction routes include single-asset acquisition, explicitly scoped multi-asset acquisition, asset-specific licensing, technology transfer and strategic integration
 
 ## Standalone asset policy
 
@@ -22,24 +23,48 @@ Public commercial portfolio for **79 active standalone software and digital inte
 
 Two or more standalone assets may be negotiated together, but each included asset must be explicitly identified and independently diligenced. Rights to one asset do not automatically extend to another asset in the same classification family.
 
-Repository existence alone does not automatically place a project in the active commercial register. Newly created repositories are added only after separate asset qualification and commercial metadata are established.
-
 The active schedule excludes retired predecessors from commercial counts and valuation totals. TA-IP identifiers remain stable historical references and are not renumbered or reused. **TA-IP-001 Research Orchestrator** is retired after its repository was removed; **TA-IP-012 Research Intelligence Fabric** remains a separate active asset. TA-IP-014 remains intentionally absent from the active register.
 
-## Valuation methodology
+## Valuation architecture
 
-The commercial references were calculated by ChatGPT for the portfolio owner as **indicative seller-side IP valuations** using a reproducible framework informed by six institutional reference points:
+The public portfolio keeps three concepts separate:
 
-1. **WIPO — World Intellectual Property Organization**
-2. **International Valuation Standards / IVSC**
-3. **OECD guidance on intangibles, value creation and DEMPE-related principles**
-4. **JPO — Japan Patent Office institutional IP guidance**
-5. **USPTO — United States Patent and Trademark Office institutional IP guidance**
-6. **EPO — European Patent Office institutional IP guidance**
+1. **Seller-side asking reference** — a deliberately conservative transaction reference.
+2. **Recreation/replacement-cost baseline** — the estimated cost of recreating comparable software and current work product as-is.
+3. **Strategic-potential expectation** — a separate portfolio-level scenario model intended to expose economic optionality not captured by pure development cost.
 
-The methodology uses cost, market and income/strategic-utility approaches where appropriate, together with asset-specific considerations including identifiability, maturity, provenance, rights perimeter, dependencies, evidence, useful life, transferability, commercialization readiness and buyer utility.
+At the current aggregate level, the EUR 14.075 million asking reference equals approximately **23.4% of the EUR 60.150 million replacement-cost baseline** and approximately **17.9% of the EUR 78.5 million modelled base strategic-potential expectation**.
 
-This methodology statement means the calculations are **aligned with or informed by** those institutional frameworks and guidance. It does **not** mean WIPO, IVSC, OECD, JPO, USPTO or EPO independently reviewed the repositories, certified the applied methodology, endorsed the amounts, issued formal appraisals or approved transaction prices.
+The strategic-potential model is intentionally not an asset-by-asset DCF. It does not invent revenues. It uses the existing distribution of development stages and qualitative commercial-potential classes with explicit low/base/high modelling factors. The current scenario envelope is approximately **EUR 47.1 million–138.3 million**, with a base expectation of approximately **EUR 78.5 million**.
+
+The model assumptions are stored in `assets/valuation-model.json`.
+
+## Reference frameworks
+
+The valuation architecture is informed by a broader set of recognized standards and institutional guidance than pure code-development cost alone:
+
+1. **WIPO** — IP valuation guidance and the 2025 technology-transfer valuation guide, including cost, market, income, real-options and Monte Carlo methods.
+2. **International Valuation Standards / IVSC** — IVS 100–106 and IVS 210 Intangible Assets.
+3. **RICS** — Valuation of Intellectual Property Rights professional standard.
+4. **OECD** — guidance on intangibles, DEMPE and value creation.
+5. **IFRS IAS 38** — identifiability, separability, future-economic-benefit and measurement concepts for intangible assets including software.
+6. **ISO 56005:2020** — systematic IP management within innovation processes.
+7. **EPO** — patent-management and valuation guidance including cost, market and income approaches.
+8. **JPO** — intellectual-property valuation training materials and commercialization context.
+9. **USPTO** — IP valuation, commercialization, technology-transfer and economic-context resources.
+
+These references inform the architecture and terminology. They do **not** mean that any named institution has reviewed the repositories, certified the portfolio model, endorsed an individual amount or issued a formal appraisal.
+
+## Commercial potential
+
+Commercial-potential labels are qualitative screening dimensions and are separate from the asking price:
+
+- **Very high** — broad strategic optionality and multiple plausible commercialization routes.
+- **High** — clear commercial relevance and credible licensing, integration or productization routes.
+- **Moderate** — narrower buyer fit or additional development dependence.
+- **Specialist** — concentrated niche or research utility for a smaller set of counterparties.
+
+The potential classifications are not guarantees of future value. During transaction-stage diligence they should be supplemented or replaced by reliable comparable transactions, royalty data, buyer-specific cash-flow forecasts, discount rates, real-options inputs, regulatory requirements and integration synergies.
 
 ## Latest commercial references
 
@@ -48,21 +73,19 @@ This methodology statement means the calculations are **aligned with or informed
 - **TA-IP-080 CardioSignal Intelligence Platform** — EUR 110,000 ask; EUR 85,000–140,000 range; EUR 550,000 recreation-cost reference.
 - **TA-IP-081 Secure Actuation Integrity Platform** — EUR 225,000 ask; EUR 180,000–285,000 range; EUR 850,000 recreation-cost reference.
 
-These are seller-side discussion references, not independent appraisals or guarantees of transaction value.
-
 ## Local validation
 
 ```bash
 npm test
 ```
 
-The IM17 validation gate checks 79 active standalone assets, complete individual commercial-reference coverage, aggregate asking/range/recreation totals, stage and potential counts, classification-family coverage, unique family assignments, project routes, sitemap coverage, runtime syntax and the absence of the retired Research Orchestrator route.
+The local validation gate checks the 79 active standalone assets, individual commercial-reference coverage, aggregate asking/range/recreation totals, strategic-potential model invariants, classification-family coverage, project routes, sitemap coverage, runtime syntax and the absence of the retired Research Orchestrator route.
 
 No GitHub Actions workflow is used.
 
 ## Important notice
 
-All values are calculated seller-side commercial references for discussion purposes only. Recreation cost is a cost-approach benchmark for recreating comparable assets from scratch and is not market value or transaction price. The figures are not independent appraisals, fairness opinions, audited valuations or guarantees of transaction value.
+All values are calculated seller-side references for professional discussion. The strategic-potential model is a transparent internal scenario model, not an independent appraisal, fairness opinion, audited valuation or guarantee of transaction value. Buyer-specific diligence remains necessary.
 
 ## License
 
