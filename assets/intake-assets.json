@@ -1,5 +1,6 @@
 {
-  "v": "2026.09.08-im16",
+  "v": "2026.09.08-im17",
+  "status": "qualified-commercial-references",
   "assets": [
     {
       "id": 78,
@@ -12,7 +13,11 @@
       "route": "Research / R&D licensing",
       "family": "adaptive-intelligence",
       "description": "AI research and engineering asset for controlled evaluation, validation and development of adaptive neural-architecture concepts.",
-      "pricing_status": "pending-qualification"
+      "pricing_status": "established",
+      "ask": 125000,
+      "low": 100000,
+      "high": 160000,
+      "recreationCost": 650000
     },
     {
       "id": 79,
@@ -25,7 +30,11 @@
       "route": "Research / R&D licensing",
       "family": "scientific-observation",
       "description": "Computational-neuroscience research asset for reproducible study of neural dynamics, adaptation, stability and active-inference concepts.",
-      "pricing_status": "pending-qualification"
+      "pricing_status": "established",
+      "ask": 145000,
+      "low": 115000,
+      "high": 185000,
+      "recreationCost": 750000
     },
     {
       "id": 80,
@@ -38,7 +47,11 @@
       "route": "Research / R&D licensing",
       "family": "scientific-observation",
       "description": "ECG research and engineering asset for controlled signal analysis, quality assessment and reproducible algorithm-validation workflows without clinical claims.",
-      "pricing_status": "pending-qualification"
+      "pricing_status": "established",
+      "ask": 110000,
+      "low": 85000,
+      "high": 140000,
+      "recreationCost": 550000
     },
     {
       "id": 81,
@@ -51,7 +64,11 @@
       "route": "Private deployment / enterprise licensing",
       "family": "security-traceability",
       "description": "Security and assurance asset for authenticated, policy-governed actuation and decision-integrity workflows in controlled inert or simulated environments.",
-      "pricing_status": "pending-qualification"
+      "pricing_status": "established",
+      "ask": 225000,
+      "low": 180000,
+      "high": 285000,
+      "recreationCost": 850000
     }
   ]
 }
