@@ -6,16 +6,19 @@ Public commercial portfolio for **79 active standalone software and digital inte
 
 - 79 standalone active IP assets
 - 79 assets with individual seller-side commercial references
+- 79 assets with individual probability-adjusted economic valuation records
 - 12 classification families — navigation/taxonomy only
 - 8 commercial sectors
-- EUR 14,075,000 aggregate indicative asking reference
-- EUR 11,220,000–17,645,000 aggregate indicative asking range
+- EUR 14,075,000 aggregate seller asking reference
+- EUR 11,220,000–17,645,000 aggregate asking range
 - EUR 60,150,000 aggregate recreation/replacement-cost reference
-- approximately EUR 78.5 million modelled base strategic-potential expectation
-- approximately EUR 47.1 million–138.3 million strategic-potential scenario envelope
+- EUR 67,966,649 aggregate market/comparable proxy
+- EUR 80,368,396 aggregate income/licensing proxy
+- EUR 76,838,904 aggregate probability-adjusted strategic value
+- EUR 71,598,124 preliminary triangulated economic reference
+- approximately EUR 906,305 average triangulated economic reference per standalone asset
+- seller ask equals approximately 19.7% of the preliminary triangulated economic reference
 - 41 developed software assets / 32 developed prototypes / 6 research-stage assets
-- EUR is authoritative; USD is shown indicatively
-- each active asset has its own TA-IP reference, commercial description, value references and diligence perimeter
 
 ## Standalone asset policy
 
@@ -25,53 +28,61 @@ Two or more standalone assets may be negotiated together, but each included asse
 
 The active schedule excludes retired predecessors from commercial counts and valuation totals. TA-IP identifiers remain stable historical references and are not renumbered or reused. **TA-IP-001 Research Orchestrator** is retired after its repository was removed; **TA-IP-012 Research Intelligence Fabric** remains a separate active asset. TA-IP-014 remains intentionally absent from the active register.
 
-## Valuation architecture
+## IM19 valuation architecture
 
-The public portfolio keeps three concepts separate:
+The portfolio now keeps the following valuation lenses separate at **individual asset level**:
 
-1. **Seller-side asking reference** — a deliberately conservative transaction reference.
-2. **Recreation/replacement-cost baseline** — the estimated cost of recreating comparable software and current work product as-is.
-3. **Strategic-potential expectation** — a separate portfolio-level scenario model intended to expose economic optionality not captured by pure development cost.
+1. **Replacement Cost** — existing recreation/replacement-cost baseline.
+2. **Market / Comparable Proxy** — preliminary marketability indication pending verified comparable transactions.
+3. **Income / Licensing Proxy** — preliminary monetization indication pending buyer-specific forecasts, royalty benchmarks or other defensible income inputs.
+4. **Probability-adjusted Strategic Value** — adjusted for technical completion, commercialization probability, rights/transfer diligence reserve, time/risk and sector context.
+5. **Seller Asking Price** — deliberately separate from economic-value modelling.
+6. **Preliminary Triangulated Economic Reference** — combines the first four lenses at asset level using explicit weights.
 
-At the current aggregate level, the EUR 14.075 million asking reference equals approximately **23.4% of the EUR 60.150 million replacement-cost baseline** and approximately **17.9% of the EUR 78.5 million modelled base strategic-potential expectation**.
+Current triangulation weights are replacement cost 25%, market/comparable proxy 20%, income/licensing proxy 20% and probability-adjusted strategic value 35%.
 
-The strategic-potential model is intentionally not an asset-by-asset DCF. It does not invent revenues. It uses the existing distribution of development stages and qualitative commercial-potential classes with explicit low/base/high modelling factors. The current scenario envelope is approximately **EUR 47.1 million–138.3 million**, with a base expectation of approximately **EUR 78.5 million**.
+The aggregate seller ask of EUR 14.075 million is approximately **23.4% of replacement cost** and **19.7% of the preliminary triangulated economic reference**.
 
-The model assumptions are stored in `assets/valuation-model.json`.
+The 79 individual records are stored in `assets/asset-economic-valuations.csv`. Model definitions and factors are stored in `assets/economic-methodology.json`.
+
+The earlier portfolio-level strategic scenario in `assets/valuation-model.json` is retained for analytical lineage but is no longer the primary economic-reference method.
+
+## Probability architecture
+
+Current transparent modelling assumptions include:
+
+- technical completion probability: research 50%, developed prototype 75%, developed software 95%
+- commercialization probability: specialist 25%, moderate 40%, high 55%, very high 70%
+- time/risk factor: research 70%, prototype 85%, developed software 95%
+- rights/transfer diligence reserve: 85% pending transaction-stage verification
+
+These are internal modelling assumptions, not institution-prescribed probabilities. They are intended to make uncertainty explicit and should be replaced or calibrated with stronger asset-specific evidence during diligence.
 
 ## Reference frameworks
 
-The valuation architecture is informed by a broader set of recognized standards and institutional guidance than pure code-development cost alone:
+The valuation architecture is informed by:
 
-1. **WIPO** — IP valuation guidance and the 2025 technology-transfer valuation guide, including cost, market, income, real-options and Monte Carlo methods.
-2. **International Valuation Standards / IVSC** — IVS 100–106 and IVS 210 Intangible Assets.
+1. **WIPO** — cost, market, income, real-options and Monte Carlo IP valuation guidance.
+2. **International Valuation Standards / IVSC** — including IVS 210 Intangible Assets.
 3. **RICS** — Valuation of Intellectual Property Rights professional standard.
-4. **OECD** — guidance on intangibles, DEMPE and value creation.
-5. **IFRS IAS 38** — identifiability, separability, future-economic-benefit and measurement concepts for intangible assets including software.
-6. **ISO 56005:2020** — systematic IP management within innovation processes.
-7. **EPO** — patent-management and valuation guidance including cost, market and income approaches.
-8. **JPO** — intellectual-property valuation training materials and commercialization context.
-9. **USPTO** — IP valuation, commercialization, technology-transfer and economic-context resources.
+4. **OECD** — intangibles, DEMPE and value-creation guidance.
+5. **IFRS IAS 38** — identifiability, separability and future-economic-benefit concepts.
+6. **ISO 56005:2020** — intellectual-property management within innovation processes.
+7. **EPO** — patent-management and valuation guidance.
+8. **JPO** — intellectual-property valuation and commercialization context.
+9. **USPTO** — IP valuation, commercialization and technology-transfer context.
 
-These references inform the architecture and terminology. They do **not** mean that any named institution has reviewed the repositories, certified the portfolio model, endorsed an individual amount or issued a formal appraisal.
+These references inform terminology, method selection and diligence design. They do **not** mean that any named institution has reviewed the repositories, certified the model, endorsed an amount or issued a formal appraisal.
 
-## Commercial potential
+## Confidence boundary
 
-Commercial-potential labels are qualitative screening dimensions and are separate from the asking price:
+- replacement-cost lens: medium confidence, subject to fuller recreation-cost refinement
+- market/comparable proxy: low confidence until verified precedent transactions are available
+- income/licensing proxy: low confidence until defendable economic forecasts or royalty benchmarks are available
+- probability-adjusted strategic value: modelled
+- triangulated economic reference: preliminary
 
-- **Very high** — broad strategic optionality and multiple plausible commercialization routes.
-- **High** — clear commercial relevance and credible licensing, integration or productization routes.
-- **Moderate** — narrower buyer fit or additional development dependence.
-- **Specialist** — concentrated niche or research utility for a smaller set of counterparties.
-
-The potential classifications are not guarantees of future value. During transaction-stage diligence they should be supplemented or replaced by reliable comparable transactions, royalty data, buyer-specific cash-flow forecasts, discount rates, real-options inputs, regulatory requirements and integration synergies.
-
-## Latest commercial references
-
-- **TA-IP-078 Adaptive Neural Architecture Platform** — EUR 125,000 ask; EUR 100,000–160,000 range; EUR 650,000 recreation-cost reference.
-- **TA-IP-079 Bio-Inspired Neural Dynamics & Active Inference Simulation Platform** — EUR 145,000 ask; EUR 115,000–185,000 range; EUR 750,000 recreation-cost reference.
-- **TA-IP-080 CardioSignal Intelligence Platform** — EUR 110,000 ask; EUR 85,000–140,000 range; EUR 550,000 recreation-cost reference.
-- **TA-IP-081 Secure Actuation Integrity Platform** — EUR 225,000 ask; EUR 180,000–285,000 range; EUR 850,000 recreation-cost reference.
+A transaction-stage valuation should replace proxies with reliable comparable transactions, royalty evidence, cash-flow forecasts, discount rates, useful-life assumptions, remaining development costs, legal/IP diligence and buyer-specific synergies.
 
 ## Local validation
 
@@ -79,13 +90,13 @@ The potential classifications are not guarantees of future value. During transac
 npm test
 ```
 
-The local validation gate checks the 79 active standalone assets, individual commercial-reference coverage, aggregate asking/range/recreation totals, strategic-potential model invariants, classification-family coverage, project routes, sitemap coverage, runtime syntax and the absence of the retired Research Orchestrator route.
+The IM19 validation gate checks all 79 economic records, aggregate lens totals, probability ranges, project-route coverage, economic presentation runtime and principal public valuation figures.
 
 No GitHub Actions workflow is used.
 
 ## Important notice
 
-All values are calculated seller-side references for professional discussion. The strategic-potential model is a transparent internal scenario model, not an independent appraisal, fairness opinion, audited valuation or guarantee of transaction value. Buyer-specific diligence remains necessary.
+All published values are seller-side references for professional discussion. The preliminary economic model is not an independent appraisal, fairness opinion, audited valuation, certified market value or guarantee of transaction value. Buyer-specific diligence remains necessary.
 
 ## License
 
