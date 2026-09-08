@@ -1,26 +1,30 @@
-# THEARCHITECT_MAX — Information Memorandum
+# THEARCHITECT_MAX — Technology & IP Portfolio
 
-Public commercial Information Memorandum for an active portfolio of **76 software and digital intellectual-property assets**.
+Public commercial portfolio for **75 active software and digital intellectual-property assets**, organised into **12 commercial product families** for professional acquisition, licensing, technology-transfer and strategic-integration discussions.
 
 ## Current public presentation
 
-- 76 active portfolio assets
-- EUR 13,525,000 indicative strategic asking reference
-- EUR 10,785,000–16,945,000 indicative portfolio range
-- EUR 57,670,000 portfolio recreation-cost reference
-- 40 developed software assets / 30 developed prototypes / 6 research-stage assets
+- 75 active portfolio assets
+- 12 commercial product families
+- 8 commercial sectors
+- EUR 13,470,000 indicative strategic asking reference
+- EUR 10,740,000–16,875,000 indicative portfolio range
+- EUR 57,350,000 portfolio recreation-cost reference
+- 40 developed software assets / 29 developed prototypes / 6 research-stage assets
 - EUR is authoritative; USD is shown indicatively
-- transaction routes include portfolio acquisition, selected-asset acquisition, licensing and strategic partnership
+- transaction routes include selected-asset acquisition, product-family acquisition, licensing, technology transfer, strategic integration and broader portfolio transactions
 
-The active schedule is reconciled against repositories currently present in the owner account. Missing or withdrawn repository lines are removed rather than retained as commercial assets. TA-IP identifiers are stable references and are not renumbered or reused; TA-IP-014 remains intentionally absent from the active register.
+The active schedule excludes retired predecessors from commercial counts and valuation totals. TA-IP identifiers remain stable historical references and are not renumbered or reused. **TA-IP-001 Research Orchestrator** has been retired after its repository was removed; the active commercial successor is **TA-IP-012 Research Intelligence Fabric**. TA-IP-014 remains intentionally absent from the active register.
 
-IM11 includes TA-IP-077 QUBO Structural Analysis and Optimization Platform as a separate source-backed asset. The 8 September commercial refresh updates only TA-IP-059 FusionLunar and TA-IP-077 QUBO after post-IM11 engineering changes; asset count, stage classifications and commercial-potential labels remain unchanged. FusionLunar remains a developed prototype despite its expanded simulation/qualification chain, and QUBO remains a developed prototype despite its sparse structural engine. These labels do not imply certification, scientific validation or real-world hardware qualification.
+Product-family grouping is a commercial navigation and rationalisation layer. It makes related capabilities explicit without asserting that separate repositories are technically interchangeable. Each active asset retains its own commercial reference, rights perimeter and diligence requirements.
 
 ## Local validation
 
 ```bash
 npm test
 ```
+
+The IM14 validation gate checks active counts, asking/range/recreation totals, stage and potential counts, 12-family coverage, uniqueness of family assignments, project routes, sitemap coverage, runtime syntax and the absence of the retired Research Orchestrator route.
 
 No GitHub Actions workflow is used.
 
