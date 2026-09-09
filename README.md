@@ -2,6 +2,23 @@
 
 Public commercial portfolio for **79 active standalone software and digital intellectual-property assets**. Every active project is treated as its own IP asset. The portfolio also uses **12 classification families** to help professional counterparties navigate related subject areas.
 
+## IM22 public commercial expansion
+
+Updated 9 September 2026 using the supplied 30-topic public inventory, with new commercial content beyond that inventory.
+
+- 89 active pages: overview, portfolio, opportunity, valuation, evidence, transaction, notice, three buyer guides and 79 individual asset profiles.
+- Applications and potential buyer categories for all 12 families, explicitly labelled as hypotheses requiring asset-specific qualification.
+- Buyer guide covering assignment/licensing, rights perimeter, operating costs, delivery, acceptance, possible package categories and FAQ.
+- Disclosure guide distinguishing public summaries, qualified discussion, confidential diligence and agreed transfer.
+- Evidence categories and explicit boundaries for adoption, readiness, patents, independent review and regulated uses.
+- Official EEN, European IP Helpdesk, EU and WIPO resources, with no implied affiliation or endorsement.
+- Public contact forms no longer solicit personal contact details in public issues.
+- Historical scenario file clearly labelled superseded; published pricing and current economic assumptions retained.
+- Public-scope gate checks curated payload names, restricted file types, credential patterns and underlying asset repository links.
+- Pages excludes authoring and verification files. These files remain public in the website repository; this is not an access-control mechanism.
+
+No underlying private project source, implementation designs, model assets or experimental material was retrieved or imported for this update. The reviewed scope is this website's current tracked content, not every asset repository or all historical disclosures. The automated checks are not a proof of secrecy, ownership or protection.
+
 ## IM21 website release
 
 - Complete responsive visual refresh across the overview, six information pages and 79 asset profiles.

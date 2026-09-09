@@ -1,12 +1,12 @@
 {
   "name": "thearchitect-max-technology-ip-portfolio",
-  "version": "2026.9.8-im21",
+  "version": "2026.9.9-im22",
   "private": true,
   "description": "Local validation tooling for the public standalone Technology & IP Portfolio.",
   "type": "module",
   "scripts": {
-    "test": "node scripts/validate-im.mjs && node scripts/validate-site.mjs",
-    "validate": "node scripts/validate-im.mjs && node scripts/validate-site.mjs",
+    "test": "node scripts/validate-im.mjs && node scripts/validate-site.mjs && node scripts/validate-public-scope.mjs",
+    "validate": "node scripts/validate-im.mjs && node scripts/validate-site.mjs && node scripts/validate-public-scope.mjs",
     "build": "node scripts/build-site.mjs"
   },
   "engines": {
