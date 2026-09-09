@@ -3,7 +3,7 @@ import path from 'node:path';
 const assert=(ok,message)=>{if(!ok)throw Error(message)};
 const read=p=>fs.readFileSync(p,'utf8');
 const assets=fs.readdirSync('assets');
-const approved=new Set(['portfolio-structure.json','external-market-evidence.json','im4.css','im-data.json','im.css','descriptions.json','economic.js','replacement-cost-scope.json','im.js','intake-assets.json','asset-economic-valuations.csv','valuation-model.json','recreation-costs.json','economic-methodology.json','commercial-context.json']);
+const approved=new Set(['portfolio-structure.json','external-market-evidence.json','im4.css','im-data.json','im.css','descriptions.json','economic.js','replacement-cost-scope.json','im.js','intake-assets.json','asset-economic-valuations.csv','valuation-model.json','recreation-costs.json','economic-methodology.json','commercial-context.json','development-status.json']);
 for(const name of assets)assert(approved.has(name),'Unreviewed public asset payload: '+name);
 const walk=dir=>fs.readdirSync(dir,{withFileTypes:true}).filter(e=>e.name!=='.git').flatMap(e=>e.isDirectory()?walk(path.join(dir,e.name)):[path.join(dir,e.name)]);
 const all=walk('.');

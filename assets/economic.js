@@ -1,5 +1,5 @@
 (()=>{'use strict';
-const VERSION='im22';
+const VERSION='im23';
 const EUR=v=>new Intl.NumberFormat('nl-NL',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(Number(v)||0);
 const PCT=v=>`${(Number(v)*100).toLocaleString('en-US',{minimumFractionDigits:1,maximumFractionDigits:1})}%`;
 const DATA=(document.documentElement.dataset.dataPath||'assets/im-data.json').replace(/im-data\.json$/,'asset-economic-valuations.csv');

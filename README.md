@@ -2,6 +2,20 @@
 
 Public commercial portfolio for **79 active standalone software and digital intellectual-property assets**. Every active project is treated as its own IP asset. The portfolio also uses **12 classification families** to help professional counterparties navigate related subject areas.
 
+## IM23 repository documentation refresh
+
+Review date: 9 September 2026. The connected GitHub inventory contained 80 repositories: this website and 79 mapped standalone asset repositories. All default-branch heads were checked. README material was reviewed at those exact snapshots for 78 assets, including three nested project READMEs. Omnisynth has no current README; its public record is explicitly metadata-only and its existing purpose is retained.
+
+- Refreshed commercial purpose summaries and 79 dated development records.
+- Corrected previously over-general scopes including MOTHERCODE, ORACULUM, TLS Virtual, TrueLane Flora, Dominus, Causal State Field Engine and Visionair.
+- Retained separate candidate, qualified, historical-validation and research-only boundaries.
+- Recorded documentation/activity mismatches for FusionLunar and Adaptive General Reasoning without inferring promotion from commit activity.
+- Added `updates.html`, linked from every footer, with 79 dated notes and review coverage.
+- Updated profile metadata, discovery cards, search content and the full static portfolio schedule from the same public data.
+- 90 active pages. Seller asking references, financial assumptions and existing commercial-stage screening labels are retained; this is not a re-appraisal or a new asset-test campaign.
+
+`assets/development-status.json` contains only approved public summaries and dates. Private repository names/paths, commit identifiers, raw documentation excerpts, technical methods and detailed test artefacts are not exported there. The private review working material is outside this repository. The snapshot covers default branches, not unmerged development branches or later activity.
+
 ## IM22 public commercial expansion
 
 Updated 9 September 2026 using the supplied 30-topic public inventory, with new commercial content beyond that inventory.
