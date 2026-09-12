@@ -1,5 +1,5 @@
 (()=>{'use strict';
-const DATA=(document.documentElement.dataset.dataPath||'assets/im-data.json'),VERSION='im23';
+const DATA=(document.documentElement.dataset.dataPath||'assets/im-data.json'),VERSION='im24';
 const SAFE=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const EUR=v=>new Intl.NumberFormat('nl-NL',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(Number(v)||0);
 const USD=(v,r)=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format((Number(v)||0)*r);

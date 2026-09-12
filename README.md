@@ -1,6 +1,16 @@
 # THEARCHITECT_MAX — Technology & IP Portfolio
 
-Public commercial portfolio for **79 active standalone software and digital intellectual-property assets**. Every active project is treated as its own IP asset. The portfolio also uses **12 classification families** to help professional counterparties navigate related subject areas.
+Public portfolio for **81 separately identified projects: 79 assets with commercial references and two awaiting commercial qualification**. Every active project is treated as its own IP asset. The portfolio also uses **12 classification families** to help professional counterparties navigate related subject areas.
+
+## IM24 current portfolio refresh
+
+Review date: 12 September 2026. The connected inventory contains 82 repositories: this website and 81 project repositories. All project default-branch heads were checked. Nine existing project heads changed and two repositories were added; their README documentation was reviewed at the checked snapshots. Earlier documentation reviews are retained only for unchanged heads. Coverage totals 80 documented projects and one metadata-only record.
+
+- Nine current development summaries updated; all 79 existing records carry the new head-check date.
+- Two separate intake profiles added, with purpose, potential buyer fit, development boundaries and related-work navigation.
+- No invented price, economic model or stage for intake projects; all financial totals continue to cover 79 assets.
+- Homepage, portfolio, development review, all profiles, navigation, cache versions and sitemap rebuilt. 92 active pages.
+- Existing uploaded commercial inventory and disclosure boundaries retained. No underlying implementation, raw source documents or detailed validation artifacts are published.
 
 ## IM23 repository documentation refresh
 
@@ -55,7 +65,7 @@ The existing GitHub Pages publication remains the destination. No custom GitHub 
 
 ## Current public presentation
 
-- 79 standalone active IP assets
+- 81 project profiles: 79 commercially referenced assets and two awaiting qualification
 - 79 assets with individual seller-side commercial references
 - 79 assets with individual probability-adjusted economic valuation records
 - 12 classification families — navigation/taxonomy only

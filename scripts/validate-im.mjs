@@ -16,7 +16,7 @@ const replacementScope=json('assets/replacement-cost-scope.json');
 const pkg=json('package.json');
 const sum=k=>rows.reduce((n,x)=>n+x[k],0);
 
-assert(pkg.version==='2026.9.9-im23','package version');
+assert(pkg.version==='2026.9.12-im24','package version');
 assert(method.v==='2026.09.08-im20','methodology version');
 assert(evidence.v==='2026.09.08-im20','external evidence version');
 assert(replacementScope.v==='2026.09.08-im20','replacement scope version');
@@ -60,20 +60,20 @@ assert(method.replacementCostScope.currentBaselineEUR===60150000,'methodology re
 
 const projectRoot=path.join(root,'projects');
 const dirs=fs.readdirSync(projectRoot,{withFileTypes:true}).filter(x=>x.isDirectory()).map(x=>x.name);
-assert(dirs.length===79,'project route count');
-for(const x of rows){assert(dirs.includes(x.slug),`missing route ${x.slug}`);const h=read(`projects/${x.slug}/index.html`);assert(h.includes('economic.js?v=im23'),`economic runtime ${x.slug}`);assert(h.includes('im4.css?v=im23'),`IM19 asset shell stylesheet ${x.slug}`)}
+assert(dirs.length===81,'project route count');
+for(const x of rows){assert(dirs.includes(x.slug),`missing route ${x.slug}`);const h=read(`projects/${x.slug}/index.html`);assert(h.includes('economic.js?v=im24'),`economic runtime ${x.slug}`);assert(h.includes('im4.css?v=im24'),`IM19 asset shell stylesheet ${x.slug}`)}
 
 for(const p of ['index.html','portfolio.html','valuation.html','evidence.html','opportunity.html','transaction.html','notice.html'])assert(read(p).includes('rel="canonical"'),`canonical ${p}`);
 assert(read('index.html').includes('€71.598M')&&read('index.html').includes('€76.839M'),'homepage economic values');
 assert(read('valuation.html').includes('€67.967M')&&read('valuation.html').includes('€80.368M')&&read('valuation.html').includes('€71.598M'),'valuation lenses');
 assert(read('valuation.html').includes('13 transaction anchors')&&read('valuation.html').includes('fully componentized'),'valuation IM20 evidence and replacement scope');
 assert(read('evidence.html').includes('13.1×')&&read('evidence.html').includes('Direct application prohibited'),'external evidence presentation');
-assert(read('portfolio.html').includes('economic.js?v=im23'),'portfolio economic runtime');
+assert(read('portfolio.html').includes('economic.js?v=im24'),'portfolio economic runtime');
 const locs=[...read('sitemap.xml').matchAll(/<loc>([^<]+)<\/loc>/g)].map(x=>x[1]);
-assert(locs.length===90&&new Set(locs).size===90,'sitemap URL count');
+assert(locs.length===92&&new Set(locs).size===92,'sitemap URL count');
 assert(locs.includes('https://thearchitect-max.github.io/MyProjects/evidence.html'),'evidence sitemap route');
 new vm.Script(read('assets/economic.js'));
 new vm.Script(read('assets/im.js'));
 for(const p of ['README.md','valuation.html','evidence.html','assets/economic-methodology.json','assets/external-market-evidence.json','assets/replacement-cost-scope.json'])assert(!/chatgpt/i.test(read(p)),`forbidden attribution ${p}`);
 assert(!fs.existsSync(path.join(root,'.github/workflows')),'Actions prohibited');
-console.log(JSON.stringify({presentationRelease:'IM23',standaloneAssets:79,sellerAskEUR:14075000,replacementCostEUR:60150000,marketComparableProxyEUR:67966649,incomeLicensingProxyEUR:80368396,probabilityAdjustedStrategicValueEUR:76838904,triangulatedEconomicReferenceEUR:71598124,averageEconomicReferencePerAssetEUR:906305.37,askShareOfTriangulated:0.196583363,externalTransactionAnchors:13,externalEvidenceSectors:8,illustrativeRevenueRatioMedian:13.05,replacementComponentsToAudit:13,sitemapUrls:90},null,2));
+console.log(JSON.stringify({presentationRelease:'IM24',standaloneAssets:79,sellerAskEUR:14075000,replacementCostEUR:60150000,marketComparableProxyEUR:67966649,incomeLicensingProxyEUR:80368396,probabilityAdjustedStrategicValueEUR:76838904,triangulatedEconomicReferenceEUR:71598124,averageEconomicReferencePerAssetEUR:906305.37,askShareOfTriangulated:0.196583363,externalTransactionAnchors:13,externalEvidenceSectors:8,illustrativeRevenueRatioMedian:13.05,replacementComponentsToAudit:13,sitemapUrls:92},null,2));

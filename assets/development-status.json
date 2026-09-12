@@ -1,15 +1,15 @@
 {
-  "version": "2026.09.09-im23",
-  "reviewedOn": "2026-09-09",
+  "version": "2026.09.12-im24",
+  "reviewedOn": "2026-09-12",
   "assetCount": 79,
   "documentationReviewed": 78,
   "metadataOnly": 1,
-  "boundary": "Source-document review, not a rerun of project tests or an independent certification. Review scope is the default-branch snapshot. No automatic change to seller pricing or commercial development-stage classifications.",
+  "boundary": "Default-branch heads rechecked on 12 September 2026. Changed project documentation was reviewed; prior documentation reviews were retained only where the checked head was unchanged. Source-document review, not a rerun of project tests or independent certification. No automatic change to prices or commercial-stage classifications.",
   "assets": [
     {
       "ref": "TA-IP-002",
       "slug": "ossn-uap",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-02",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "Research software; field accuracy and physical-system performance require separate validation."
@@ -17,7 +17,7 @@
     {
       "ref": "TA-IP-003",
       "slug": "athanor",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-03",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v3.5 research release; recorded software checks do not establish physical or biological validity."
@@ -25,7 +25,7 @@
     {
       "ref": "TA-IP-004",
       "slug": "stabilitymesh",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-03",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "Beta engineering platform; deployment-specific calibration and acceptance remain necessary."
@@ -33,7 +33,7 @@
     {
       "ref": "TA-IP-005",
       "slug": "continuum-state-integrity-platform",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-04",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v2.2 research software with strengthened provenance assurance."
@@ -41,7 +41,7 @@
     {
       "ref": "TA-IP-006",
       "slug": "omnisynth-intelligence-engine",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-02",
       "reviewBasis": "Repository metadata only",
       "currentState": "Repository metadata reviewed; no current README was available. Existing scope retained without a capability upgrade."
@@ -49,7 +49,7 @@
     {
       "ref": "TA-IP-007",
       "slug": "faunometric",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-03",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "Current v5.0 development follows the documented GPU-validated v4.9.1 baseline; fresh full validation of the current head remains required."
@@ -57,7 +57,7 @@
     {
       "ref": "TA-IP-008",
       "slug": "modular-key-cryptanalysis-platform",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-03",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "Research and analysis tools; not a replacement for production cryptographic protection."
@@ -65,7 +65,7 @@
     {
       "ref": "TA-IP-009",
       "slug": "truelane-flora",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-02",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "Operational software foundation; bundled reference material is not a claim of global coverage or horticultural validation."
@@ -73,7 +73,7 @@
     {
       "ref": "TA-IP-010",
       "slug": "custody-integrity-assurance-platform",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-06",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "Candidate 0.4.0; independent validation and accountable-owner approvals remain pending."
@@ -81,7 +81,7 @@
     {
       "ref": "TA-IP-011",
       "slug": "tls-virtual",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-02",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "Synthetic-model demonstrator; diagnostic performance on physical machinery is not established."
@@ -89,7 +89,7 @@
     {
       "ref": "TA-IP-012",
       "slug": "research-intelligence-fabric",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-02",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v4.3.0 software release; first-party and third-party rights remain separate."
@@ -97,7 +97,7 @@
     {
       "ref": "TA-IP-013",
       "slug": "evidence-governed-visual-intelligence-platform",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-06",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "AEGIS Vision 2.7.0; no government, evidentiary or regulatory certification is claimed."
@@ -105,7 +105,7 @@
     {
       "ref": "TA-IP-015",
       "slug": "truelane-intelligence-engine",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-08-31",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "5.6.0-alpha.1; limited verification assets do not establish foundation-model quality or benchmark superiority."
@@ -113,7 +113,7 @@
     {
       "ref": "TA-IP-016",
       "slug": "programmatic-search-fabric",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-02",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v1.9.0; the documented public publishing baseline is unchanged by the development increment."
@@ -121,15 +121,15 @@
     {
       "ref": "TA-IP-017",
       "slug": "protein-structure-evidence-qualification-platform",
-      "reviewedOn": "2026-09-09",
-      "lastRepositoryActivity": "2026-09-09",
+      "reviewedOn": "2026-09-12",
+      "lastRepositoryActivity": "2026-09-10",
       "reviewBasis": "Repository documentation and latest activity",
-      "currentState": "Structural qualification remains in progress. No admitted canonical structure model or experimental binding evidence is reported."
+      "currentState": "Computational structure qualification remains in progress, with additional execution-readiness checks. No canonical structure model or experimental binding evidence is admitted."
     },
     {
       "ref": "TA-IP-018",
       "slug": "signal-processing-universal-framework",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-08",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v1.5.0 reference-domain recovery recorded; operational suitability remains use-specific."
@@ -137,7 +137,7 @@
     {
       "ref": "TA-IP-019",
       "slug": "air-to-water-transition-vehicle",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-02",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "HATV v8 Master; no physical vehicle or demonstrated real-world feasibility is included."
@@ -145,7 +145,7 @@
     {
       "ref": "TA-IP-020",
       "slug": "verifiable-execution-control-platform",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-03",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "Implementation, software testing, deployment and physical validation remain separate states."
@@ -153,7 +153,7 @@
     {
       "ref": "TA-IP-021",
       "slug": "organizational-memory-engine",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-01",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v2.26.0; core infrastructure execution and production traffic are not authorised by the documented baseline."
@@ -161,7 +161,7 @@
     {
       "ref": "TA-IP-022",
       "slug": "machine-cognition-research-framework",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-08-29",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v0.6.0 early-stage research; no AGI or consciousness claim."
@@ -169,7 +169,7 @@
     {
       "ref": "TA-IP-023",
       "slug": "cipher-lyric-engine",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-02",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v3.10.0; performance interpretation depends on the declared evaluation conditions."
@@ -177,7 +177,7 @@
     {
       "ref": "TA-IP-024",
       "slug": "distributed-ai-resource-fabric",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-02",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "Capacity coordination does not make distributed resources equivalent to one local device."
@@ -185,7 +185,7 @@
     {
       "ref": "TA-IP-025",
       "slug": "dmt-laser-phenomenology-engine",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-02",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v8.9 operational evaluation baseline; no extraordinary interpretation is established by software controls."
@@ -193,7 +193,7 @@
     {
       "ref": "TA-IP-026",
       "slug": "universal-kernel-machine",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-02",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "V57 / package 0.2.0 evidence infrastructure; superiority remains a hypothesis to test."
@@ -201,7 +201,7 @@
     {
       "ref": "TA-IP-027",
       "slug": "sensor-fusion-digital-twin-engine",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-02",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v1.5 reference framework; deployment and physical validation remain separate."
@@ -209,7 +209,7 @@
     {
       "ref": "TA-IP-028",
       "slug": "dominus-kraken-execution-engine",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-02",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "V3.3 development architecture; live trading remains disabled by default. No investment-performance claim."
@@ -217,7 +217,7 @@
     {
       "ref": "TA-IP-029",
       "slug": "autonomous-adaptation-framework",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-02",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v0.8.0 engineering baseline; internal verification does not establish production evidence."
@@ -225,7 +225,7 @@
     {
       "ref": "TA-IP-030",
       "slug": "resource-aware-hybrid-model-orchestration-platform",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-02",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "Private orchestration software; optional model and service dependencies retain separate terms and costs."
@@ -233,7 +233,7 @@
     {
       "ref": "TA-IP-031",
       "slug": "veritas-evidence-intelligence",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-02",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v0.10.0; evidence handling and output verification remain bounded to the reviewed scope."
@@ -241,7 +241,7 @@
     {
       "ref": "TA-IP-032",
       "slug": "aerospace-mission-simulator",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-02",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v2.8 research framework; simulation results are not flight certification."
@@ -249,15 +249,15 @@
     {
       "ref": "TA-IP-033",
       "slug": "mt2050-experimental-dynamics",
-      "reviewedOn": "2026-09-09",
-      "lastRepositoryActivity": "2026-09-08",
+      "reviewedOn": "2026-09-12",
+      "lastRepositoryActivity": "2026-09-11",
       "reviewBasis": "Repository documentation and latest activity",
-      "currentState": "v0.9.0 release-history update recorded; speculative models remain explicitly distinguished."
+      "currentState": "v0.11 research simulation release strengthens uncertainty assessment and planned validation studies. Physical performance and aerospace certification are not established by software checks."
     },
     {
       "ref": "TA-IP-034",
       "slug": "electric-flight-systems-simulation-validation-platform",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-02",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "TITAN research baseline; not certified flight software or approval to operate an aircraft."
@@ -265,7 +265,7 @@
     {
       "ref": "TA-IP-035",
       "slug": "legalops-nl",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-02",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "Framework generator; content coverage does not establish current legal advice or automated compliance."
@@ -273,7 +273,7 @@
     {
       "ref": "TA-IP-036",
       "slug": "advanced-ground-vehicle-engineering",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-06",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v0.5.0; offline, non-operational analysis with no physical vehicle control."
@@ -281,7 +281,7 @@
     {
       "ref": "TA-IP-037",
       "slug": "biometric-systems-assurance-platform",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-08-29",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "SentinelBio Verify v0.3.0; no physical actuation or device certification is implied."
@@ -289,7 +289,7 @@
     {
       "ref": "TA-IP-038",
       "slug": "truelane-engineering-excellence",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-03",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v0.44.0; specialist research remains in progress after the documented foundational stages."
@@ -297,7 +297,7 @@
     {
       "ref": "TA-IP-039",
       "slug": "mothercode-research-engine",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-02",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "Research engine; no consciousness, biological equivalence, AGI or production-readiness claim."
@@ -305,7 +305,7 @@
     {
       "ref": "TA-IP-040",
       "slug": "integrated-media-production-engine",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-08-30",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v0.14.0 foundation; third-party content and provider permissions remain separately governed."
@@ -313,7 +313,7 @@
     {
       "ref": "TA-IP-041",
       "slug": "evidence-governed-software-assurance-platform",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-05",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v40.0.0; recorded focused checks do not establish live deployment or portfolio-wide production qualification."
@@ -321,7 +321,7 @@
     {
       "ref": "TA-IP-042",
       "slug": "oraculum-infinitum",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-02",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v1.0.0; component selection does not transfer third-party ownership or licensing rights."
@@ -329,7 +329,7 @@
     {
       "ref": "TA-IP-043",
       "slug": "cipherroutedb",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-02",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "Research engine with an unresolved core capability boundary; no production-readiness upgrade inferred."
@@ -337,7 +337,7 @@
     {
       "ref": "TA-IP-044",
       "slug": "axiomfactor",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-02",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v0.22.0 research implementation; no universal performance or practical cryptographic breakthrough is implied."
@@ -345,7 +345,7 @@
     {
       "ref": "TA-IP-045",
       "slug": "latticedepth",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-03",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v0.0.21 includes offline acquisition-verification work; no physical discovery or materials validation is inferred."
@@ -353,15 +353,15 @@
     {
       "ref": "TA-IP-046",
       "slug": "isbr-securetrace",
-      "reviewedOn": "2026-09-09",
-      "lastRepositoryActivity": "2026-09-08",
+      "reviewedOn": "2026-09-12",
+      "lastRepositoryActivity": "2026-09-11",
       "reviewBasis": "Repository documentation and latest activity",
-      "currentState": "Released core v2.4.0 plus Assurance v3 development work; no wet-lab validation or regulatory certification."
+      "currentState": "The released software baseline remains v2.4.0; current development adds portable assurance dossiers and offline evidence verification. These controls do not establish biological validation or regulatory certification."
     },
     {
       "ref": "TA-IP-047",
       "slug": "mercorion-commerce-compiler",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-02",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v1.0.0; publishing infrastructure does not include customer demand or sales performance."
@@ -369,15 +369,15 @@
     {
       "ref": "TA-IP-048",
       "slug": "sonicfabric",
-      "reviewedOn": "2026-09-09",
-      "lastRepositoryActivity": "2026-09-06",
+      "reviewedOn": "2026-09-12",
+      "lastRepositoryActivity": "2026-09-11",
       "reviewBasis": "Repository documentation and latest activity",
-      "currentState": "v0.2.0-alpha.29 candidate; third-party generation models and operating services remain separate."
+      "currentState": "Alpha development now includes creation-library discovery, version history, audio playback and preview capabilities. The documented A32 candidate is not a declaration of production readiness; no heavyweight provider is designated as the production default."
     },
     {
       "ref": "TA-IP-049",
       "slug": "kinetic-logic-reconstructor",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-02",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v1.8; reference use concerns observable software-review decisions, not recreation of a person's mind."
@@ -385,7 +385,7 @@
     {
       "ref": "TA-IP-050",
       "slug": "adaptive-biofeedback-engine",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-02",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "V1.1; measured, computed, simulated and generated information remain distinct; clinical effectiveness is not established."
@@ -393,7 +393,7 @@
     {
       "ref": "TA-IP-051",
       "slug": "aletheia-intelligence-fabric",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-03",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v1.1.0 defensive-resilience release; intended use and data permissions require qualification."
@@ -401,7 +401,7 @@
     {
       "ref": "TA-IP-052",
       "slug": "truelane-inkcore",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-03",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "Verified implementation remains distinct from the aspirational product roadmap."
@@ -409,7 +409,7 @@
     {
       "ref": "TA-IP-053",
       "slug": "visionair-research-engine",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-08",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v0.7.0; new training work is separate from historical model evidence and does not establish clinical validity."
@@ -417,7 +417,7 @@
     {
       "ref": "TA-IP-054",
       "slug": "vision-evidence-governed-multimodal-perception-framework",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-05",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v33.0.0 source baseline with repository-reported validation; scientific claims remain bounded."
@@ -425,7 +425,7 @@
     {
       "ref": "TA-IP-055",
       "slug": "evidence-grounded-multi-expert-reasoning-system",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-03",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v0.2.0 engineering foundation; no AGI or human-equivalence claim."
@@ -433,7 +433,7 @@
     {
       "ref": "TA-IP-056",
       "slug": "goldennet-signal-intelligence-platform",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-03",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v0.2 commercial-readiness record; any performance claim needs task-specific evidence."
@@ -441,7 +441,7 @@
     {
       "ref": "TA-IP-057",
       "slug": "autonomous-documentary-engine",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-06",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v0.9.2 release-operations development; deployment and content rights require separate qualification."
@@ -449,7 +449,7 @@
     {
       "ref": "TA-IP-058",
       "slug": "multimodal-evidence-adaptive-systems-platform",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-03",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v0.2.0 internal engineering release; no unsupported human-state or extraordinary capability claims."
@@ -457,7 +457,7 @@
     {
       "ref": "TA-IP-059",
       "slug": "fusionlunar-energy-systems-engineering-platform",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-09",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v0.46 release-candidate activity is recorded; the README retains v0.45 as the qualified baseline. Candidate activity is not treated as final release qualification."
@@ -465,7 +465,7 @@
     {
       "ref": "TA-IP-060",
       "slug": "temporal-physics-causality-research-platform",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-04",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v0.13.0 research build; no working time machine or physically demonstrated target device is claimed."
@@ -473,7 +473,7 @@
     {
       "ref": "TA-IP-061",
       "slug": "industrial-predictive-maintenance-rul-platform",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-03",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v0.2.0; predictive usefulness requires validation against the intended equipment and data."
@@ -481,7 +481,7 @@
     {
       "ref": "TA-IP-062",
       "slug": "adaptive-audio-production-system",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-03",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v0.1.0 foundation; optional learned-model capabilities are separately integrated."
@@ -489,7 +489,7 @@
     {
       "ref": "TA-IP-063",
       "slug": "causal-state-field-engine",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-03",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v0.3.0; records declared relationships rather than discovering real-world causal mechanisms."
@@ -497,7 +497,7 @@
     {
       "ref": "TA-IP-064",
       "slug": "evidence-governed-analytical-reasoning-platform",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-03",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v0.5.0 internal verification recorded; information integrity does not itself establish truth."
@@ -505,7 +505,7 @@
     {
       "ref": "TA-IP-065",
       "slug": "software-asset-provenance-qualification-platform",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-03",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v0.3.0; qualification reports do not confer legal ownership, patent rights or certification."
@@ -513,7 +513,7 @@
     {
       "ref": "TA-IP-066",
       "slug": "adaptive-general-reasoning-research-platform",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-08",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "Latest activity records v1.52 benchmark evidence; README status still describes v1.50. No release promotion or AGI claim is inferred from that mismatch."
@@ -521,7 +521,7 @@
     {
       "ref": "TA-IP-067",
       "slug": "traceline-evidence-governed-investigation-framework",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-05",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v0.3.0; professional and legal authority require separate verification."
@@ -529,7 +529,7 @@
     {
       "ref": "TA-IP-068",
       "slug": "organismal-state-dynamics-research-platform",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-05",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v0.7.0 research-use-only infrastructure; no direct consciousness measurement or clinical validation claim."
@@ -537,7 +537,7 @@
     {
       "ref": "TA-IP-069",
       "slug": "chimera-spectral-perception-system",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-03",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "Computational design and software architecture; hardware specifications remain targets pending physical validation."
@@ -545,7 +545,7 @@
     {
       "ref": "TA-IP-070",
       "slug": "hybrid-adaptive-rendering-media",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-06",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "HARM v0.4.0 deployment foundation; inference resources, third-party models and their permissions remain separate."
@@ -553,7 +553,7 @@
     {
       "ref": "TA-IP-071",
       "slug": "adaptive-audio-synthesis-platform",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-08",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v0.5.0 foundation; no trained neural audio model or semantic language model is claimed."
@@ -561,7 +561,7 @@
     {
       "ref": "TA-IP-072",
       "slug": "adaptive-cognitive-runtime",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-06",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "BICA v4.4 / package 0.4.4; experimental software, not demonstrated AGI."
@@ -569,7 +569,7 @@
     {
       "ref": "TA-IP-073",
       "slug": "content-integrity-assurance-platform",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-06",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "V58.0.0 acquisition and receipt layer; the documented analysis engine remains at its earlier baseline."
@@ -577,7 +577,7 @@
     {
       "ref": "TA-IP-074",
       "slug": "radioastronomy-signal-validation-platform",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-07",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "Repository records historical validation and ongoing consolidation; no confirmed extraterrestrial-origin claim."
@@ -585,23 +585,23 @@
     {
       "ref": "TA-IP-075",
       "slug": "spatial-wearable-perception-platform",
-      "reviewedOn": "2026-09-09",
-      "lastRepositoryActivity": "2026-09-07",
+      "reviewedOn": "2026-09-12",
+      "lastRepositoryActivity": "2026-09-11",
       "reviewBasis": "Repository documentation and latest activity",
-      "currentState": "SWPP v0.6.0; local device-qualification evidence does not imply universal device compatibility or field validation."
+      "currentState": "v0.7 software platform adds measured-result qualification and release-readiness review. Independent real-world hardware qualification remains not established."
     },
     {
       "ref": "TA-IP-076",
       "slug": "telluric-actualization-research-platform",
-      "reviewedOn": "2026-09-09",
-      "lastRepositoryActivity": "2026-09-06",
+      "reviewedOn": "2026-09-12",
+      "lastRepositoryActivity": "2026-09-12",
       "reviewBasis": "Repository documentation and latest activity",
-      "currentState": "TAM 3.0 baseline with a 3.1 foundation in development; not an empirically verified theory or completed new release."
+      "currentState": "Active research software is 0.5.0.dev0; the TAM 3.1.0 build remains blocked. Observational evidence is not admitted and the study design remains a draft. The underlying theory is speculative and not empirically verified."
     },
     {
       "ref": "TA-IP-077",
       "slug": "qubo-structural-analysis-and-optimization-platform",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-07",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "v0.2.0; structural diagnostics do not establish universal complexity or solver-performance claims."
@@ -609,7 +609,7 @@
     {
       "ref": "TA-IP-078",
       "slug": "adaptive-neural-architecture-platform",
-      "reviewedOn": "2026-09-09",
+      "reviewedOn": "2026-09-12",
       "lastRepositoryActivity": "2026-09-08",
       "reviewBasis": "Repository documentation and latest activity",
       "currentState": "Initial verification foundation; historical labels are not accepted as independent capability evidence."
@@ -617,26 +617,26 @@
     {
       "ref": "TA-IP-079",
       "slug": "bio-inspired-neural-dynamics-active-inference-simulation-platform",
-      "reviewedOn": "2026-09-09",
-      "lastRepositoryActivity": "2026-09-08",
+      "reviewedOn": "2026-09-12",
+      "lastRepositoryActivity": "2026-09-11",
       "reviewBasis": "Repository documentation and latest activity",
-      "currentState": "v0.3.0; no consciousness, biological-brain equivalence or clinical validity claim."
+      "currentState": "v0.5 research software extends experiment coverage and scale qualification. GPU verification requires separate execution evidence; no clinical validity or equivalence to a biological brain is claimed."
     },
     {
       "ref": "TA-IP-080",
       "slug": "cardiosignal-intelligence-platform",
-      "reviewedOn": "2026-09-09",
-      "lastRepositoryActivity": "2026-09-08",
+      "reviewedOn": "2026-09-12",
+      "lastRepositoryActivity": "2026-09-11",
       "reviewBasis": "Repository documentation and latest activity",
-      "currentState": "v0.1.0 clean-slate foundation; no inherited trained classifier or clinical performance claim."
+      "currentState": "v0.4 provides a benchmark and baseline-evaluation foundation using synthetic internal fixtures. No learned classifier has been accepted and no diagnostic or clinical performance is established."
     },
     {
       "ref": "TA-IP-081",
       "slug": "secure-actuation-integrity-platform",
-      "reviewedOn": "2026-09-09",
-      "lastRepositoryActivity": "2026-09-09",
+      "reviewedOn": "2026-09-12",
+      "lastRepositoryActivity": "2026-09-11",
       "reviewBasis": "Repository documentation and latest activity",
-      "currentState": "v1.4.0 release-assurance development; no physical actuator implementation is included."
+      "currentState": "v2.4 develops review lifecycle and requalification governance. External assessment requirements remain unresolved, with no recorded assessor acceptance. The reference remains software-only and does not establish hardware qualification or certification."
     }
   ]
 }

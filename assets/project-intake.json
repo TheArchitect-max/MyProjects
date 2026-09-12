@@ -1,0 +1,35 @@
+{
+  "version": "2026.09.12-im24",
+  "reviewedOn": "2026-09-12",
+  "boundary": "Separately identified projects awaiting commercial qualification. No asking price, economic value or seller-stage classification is assigned. Excluded from the 79-asset financial totals. Related project rights are not bundled.",
+  "projects": [
+    {
+      "ref": "TA-INTAKE-001",
+      "slug": "truelane-studio-apex-architect",
+      "name": "TrueLane Studio: Apex Architect",
+      "description": "Vehicle-independent engineering and tuning research software for comparing simulated configurations and reviewing supporting evidence.",
+      "currentState": "v1.8 software development broadens vehicle and powertrain coverage and configuration search. The reference is simulation-only and does not apply changes to a physical vehicle. Independent real-world performance remains to be qualified.",
+      "buyers": "Automotive engineering teams, simulation providers and specialist R&D groups",
+      "applications": "Engineering scenario comparison, model review and evidence-led tuning research",
+      "qualification": "Which vehicle-specific measurements and independent validation support the intended use, and which rights are distinct from related TrueLane assets?",
+      "relatedSlug": "advanced-ground-vehicle-engineering",
+      "relatedName": "Advanced Ground Vehicle Engineering",
+      "reviewedOn": "2026-09-12",
+      "lastRepositoryActivity": "2026-09-09"
+    },
+    {
+      "ref": "TA-INTAKE-002",
+      "slug": "swpp-viorith-mobile-camera-overlay",
+      "name": "SWPP / VIORITH Mobile Camera Overlay",
+      "description": "Phone-first spatial-perception software foundation for presenting camera-based object information through a mobile overlay.",
+      "currentState": "v0.1 provides an early mobile camera-overlay foundation with repository-reported internal software checks. Native phone integration and physical-device qualification remain to be established.",
+      "buyers": "Mobile application teams, spatial-computing developers and product R&D groups",
+      "applications": "Phone-based visual-assistance concepts and exploratory camera-overlay experiences",
+      "qualification": "Which native device integration, measured latency, calibration and independent device evidence support the proposed experience?",
+      "relatedSlug": "spatial-wearable-perception-platform",
+      "relatedName": "Spatial Wearable Perception Platform",
+      "reviewedOn": "2026-09-12",
+      "lastRepositoryActivity": "2026-09-12"
+    }
+  ]
+}
