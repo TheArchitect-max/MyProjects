@@ -1,23 +1,36 @@
 {
-  "v": "2026.09.08-im20",
-  "model": "Asset-Level Five-Lens Probability-Adjusted Economic Valuation Model with External Evidence Calibration",
+  "v": "2026.09.12-im25-head-revaluation",
+  "model": "Asset-Level Five-Lens Probability-Adjusted Economic Valuation Model with Current-Head Evidence Reunderwriting",
   "status": "preliminary-seller-side-economic-model",
   "portfolio": {
     "assetCount": 79,
-    "sellerAskEUR": 14075000,
-    "replacementCostEUR": 60150000,
-    "marketComparableProxyEUR": 67966649,
-    "incomeLicensingProxyEUR": 80368396,
-    "probabilityAdjustedStrategicValueEUR": 76838904,
-    "triangulatedEconomicReferenceEUR": 71598124,
-    "averageTriangulatedEconomicReferencePerAssetEUR": 906305.37,
-    "sellerAskAsShareOfTriangulated": 0.196583363
+    "sellerAskEUR": 14550000,
+    "negotiationLowEUR": 11615000,
+    "negotiationHighEUR": 18245000,
+    "replacementCostEUR": 62155000,
+    "marketComparableProxyEUR": 70277585,
+    "incomeLicensingProxyEUR": 83092566,
+    "probabilityAdjustedStrategicValueEUR": 79540183,
+    "triangulatedEconomicReferenceEUR": 74051843,
+    "averageTriangulatedEconomicReferencePerAssetEUR": 937365.10,
+    "sellerAskAsShareOfTriangulated": 0.196483969,
+    "sellerAskAsShareOfReplacementCost": 0.234092189
+  },
+  "currentHeadRevaluation": {
+    "registry": "assets/revaluation-2026-09-12.json",
+    "baselineVersion": "2026.09.08-im20",
+    "baselineCutoffUTC": "2026-09-08T10:55:13Z",
+    "reviewedAssetCount": 79,
+    "changedAssetCount": 14,
+    "unchangedAssetCount": 65,
+    "policy": "README content is supporting evidence only. Current state is established from default-branch heads using commit chronology and diffs, first-party source, package/version metadata, tests, validation and benchmark artifacts, schemas/manifests, persistence/security/deployment surfaces and documentation. A build changes valuation only when those sources demonstrate economically relevant scope, maturity, validation, transferability, productization, risk reduction or replacement effort. Commit count and version labels are not valuation multipliers.",
+    "pricingPolicy": "The 8 September register remains the prior financial baseline. Current-head deltas are underwritten asset by asset. Replacement cost changes only for additional evidenced work product; maturity changes require stronger execution evidence; the other analytical lenses are recalculated consistently with the existing model factors. The seller ask remains a separate acquisition position and is adjusted only where current-head evidence materially changes the asset's commercial or transfer profile."
   },
   "confidence": {
-    "replacementCost": "medium-but-not-yet-fully-componentized",
+    "replacementCost": "medium; current-head deltas reviewed, but the full non-code component audit remains incomplete",
     "marketComparableProxy": "low-to-medium-by-sector; primary transaction anchors available but direct asset comparability not established",
     "incomeLicensingProxy": "low; buyer-specific cash-flow and royalty evidence not established",
-    "probabilityAdjustedStrategicValue": "modelled with explicit probabilities",
+    "probabilityAdjustedStrategicValue": "modelled with explicit probabilities and current-head maturity treatment",
     "triangulatedEconomicReference": "preliminary"
   },
   "externalEvidence": {
@@ -31,9 +44,11 @@
   },
   "replacementCostScope": {
     "registry": "assets/replacement-cost-scope.json",
-    "currentBaselineEUR": 60150000,
-    "status": "current baseline is not yet represented as a fully componentized all-in replacement-cost audit",
-    "policy": "Do not automatically uplift the current baseline. Audit architecture, research, QA/validation, security, deployment, documentation, data/model assets, productization, compliance, IP/licence qualification and programme management asset by asset while avoiding double counting."
+    "currentBaselineEUR": 62155000,
+    "priorBaselineEUR": 60150000,
+    "currentHeadDeltaEUR": 2005000,
+    "status": "current-head build deltas have been reviewed, while the portfolio is still not represented as a fully componentized all-in replacement-cost audit",
+    "policy": "Do not automatically uplift the baseline. Audit architecture, research, QA/validation, security, deployment, documentation, data/model assets, productization, compliance, IP/licence qualification and programme management asset by asset while avoiding double counting."
   },
   "factors": {
     "marketPotential": {"S":0.70,"M":0.90,"H":1.15,"VH":1.50},
@@ -82,19 +97,19 @@
     }
   },
   "definitions": {
-    "replacementCost": "Existing recreation/replacement-cost baseline for comparable current work product. IM20 does not assume that every architecture, research, QA, security, deployment, documentation, compliance, IP-cleanup or programme-management component is already fully captured.",
-    "marketComparableProxy": "Modelled marketability indication using maturity, commercial-potential and sector factors. Primary-source transaction anchors now calibrate evidence confidence, but the figure is not a verified comparable-transactions valuation.",
+    "replacementCost": "Current seller-side estimate for recreating comparable present work product. The 12 September revaluation adds only current-head development deltas supported by repository evidence; the broader all-in component audit is still incomplete.",
+    "marketComparableProxy": "Modelled marketability indication using maturity, commercial-potential and sector factors. Primary-source transaction anchors calibrate evidence confidence, but the figure is not a verified comparable-transactions valuation.",
     "incomeLicensingProxy": "Modelled monetization indication using maturity, commercial-potential and route-to-market factors. It is not a DCF or relief-from-royalty valuation because asset-specific revenue forecasts and royalty benchmarks are not established.",
     "probabilityAdjustedStrategicValue": "Replacement-cost anchored opportunity value adjusted for technical completion, commercialization probability, a rights/transfer diligence reserve, time/risk and sector context.",
     "triangulatedEconomicReference": "Weighted preliminary seller-side economic reference combining the four valuation lenses above. It is not certified market value.",
-    "sellerAsk": "Existing seller-side asking reference, deliberately separate from economic-reference modelling.",
+    "sellerAsk": "Current seller-side acquisition asking reference. It is independent from the analytical value model and is re-underwritten only when asset-specific current-head evidence materially changes the commercial or transfer profile.",
     "externalEvidenceConfidence": "A confidence measure for the existence and relevance of primary-source sector transaction evidence. It is not a valuation multiplier and does not establish direct comparability."
   },
   "nextGates": [
-    "Run asset-by-asset replacement-cost completeness audits without double counting.",
+    "Run full asset-by-asset replacement-cost component audits beyond the current-head development deltas, without double counting.",
     "Match subject assets to narrower precedent transactions or licences by rights, maturity, sector, geography, useful life and date.",
     "Introduce defensible royalty benchmarks and buyer-specific income forecasts where commercialization routes are credible.",
-    "Replace generic technical and commercialization probabilities with asset-specific evidence.",
+    "Replace remaining generic technical and commercialization probabilities with asset-specific retained evidence.",
     "Re-weight valuation lenses by asset according to evidence quality rather than applying one universal portfolio weighting."
   ]
 }
