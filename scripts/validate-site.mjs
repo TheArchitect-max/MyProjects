@@ -1,30 +1,34 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import vm from 'node:vm';
+import assert from 'node:assert/strict';
+import {selectProjects} from '../assets/portfolio.js';
 const read=p=>fs.readFileSync(p,'utf8');
-const assert=(ok,message)=>{if(!ok)throw Error(message)};
-const pages=['index.html','portfolio.html','opportunity.html','valuation.html','evidence.html','transaction.html','notice.html','commercialization.html','assurance.html','transfer.html','updates.html',...fs.readdirSync('projects').map(p=>`projects/${p}/index.html`)];
-for(const page of pages){const html=read(page);assert((html.match(/<h1[ >]/g)||[]).length===1,`One main heading: ${page}`);assert((html.match(/<main[ >]/g)||[]).length===1,`One main landmark: ${page}`);assert(html.includes('href="#main"'),'Skip link');assert(html.includes('aria-label="Primary navigation"'),'Labelled navigation');assert(html.includes('evidence.html">Evidence</a>'),`Evidence navigation: ${page}`);assert(!/€78\.5M|€47\.1M|€138\.3M/.test(html),`Superseded figures: ${page}`);assert(!html.includes('Loading standalone IP asset'),`Static asset profile: ${page}`);for(const m of html.matchAll(/(?:href|src)="([^"?#]+)(?:[?#][^"]*)?"/g)){let url=m[1].replaceAll('&amp;','&');if(/^(?:https?:|mailto:|data:)/.test(url))continue;const local=path.resolve(path.dirname(page),url);assert(fs.existsSync(local),`Missing local route or asset ${page}: ${url}`)}if(page.startsWith('projects/')){assert(html.includes('id="asset-economic-model"')||html.includes('id="commercial-qualification"'),`Static commercial context: ${page}`);assert(!html.includes('<title>Standalone IP Asset —'),`Unique asset title: ${page}`);assert(html.includes(`href="https://thearchitect-max.github.io/MyProjects/${path.dirname(page)}/"`),`Absolute canonical: ${page}`)}}
-assert((read('portfolio.html').match(/class="schedule-row"/g)||[]).length===79,'All 79 assets present without JavaScript');
-assert(read('opportunity.html').includes('€71.598M')&&read('opportunity.html').includes('19.7%'),'Opportunity aligned');
-// Exercise real filtering and sorting handlers without installing a browser or dependencies.
-const elements=new Map();
-for(const [id,value] of [['portfolio-schedule',''],['search',''],['sort','potential-desc'],['sector','all'],['family','all'],['filters',''],['result-count','']])elements.set(id,{value,innerHTML:'',textContent:'',handlers:{},addEventListener(type,fn){this.handlers[type]=fn},querySelectorAll(){return[]}});
-const ctx={console,Intl,URLSearchParams,location:{search:'',pathname:'/'},document:{documentElement:{dataset:{}},getElementById:id=>elements.get(id)||null},fetch:async url=>({ok:true,json:async()=>JSON.parse(read(url.split('?')[0]))})};vm.createContext(ctx);vm.runInContext(read('assets/im.js').replace(/document.readyState==='loading'[\s\S]*?init\(\);\}\)\(\);\s*$/,'globalThis.api={load,schedule};})();'),ctx);
-const data=await ctx.api.load();ctx.api.schedule(data);const change=(id,value,type='change')=>{const e=elements.get(id);e.value=value;e.handlers[type]()};const count=()=>elements.get('result-count').textContent;assert(count().startsWith('79 of'),'Initial asset count');change('search','TA-IP-072','input');assert(count().startsWith('1 of')&&elements.get('portfolio-schedule').innerHTML.includes('Adaptive Cognitive Runtime'),'Search by stable identifier');change('search','no-such-asset-zzzz','input');assert(count().startsWith('0 of')&&elements.get('portfolio-schedule').innerHTML.includes('No matching assets'),'Helpful empty state');change('search','','input');const family=data.families[0];change('family',family.id);assert(count().startsWith(`${data.assets.filter(a=>a.family.id===family.id).length} of`),'Family filter');change('family','all');const sector=data.assets[0].sector;change('sector',sector);assert(count().startsWith(`${data.assets.filter(a=>a.sector===sector).length} of`),'Sector filter');change('sector','all');change('sort','ask-asc');const first=data.assets.slice().sort((a,b)=>a.ask-b.ask)[0];assert(elements.get('portfolio-schedule').innerHTML.indexOf(first.ref)<elements.get('portfolio-schedule').innerHTML.indexOf(data.assets.find(a=>a.ask>first.ask).ref),'Price sorting');elements.get('filters').handlers.click({target:{closest:()=>({dataset:{filter:'R'}})}});assert(count().startsWith('6 of'),'Research-stage filter');
-console.log(`Validated ${pages.length} active pages, local links, metadata, static profiles, consistent valuation figures, search, filters and sorting.`);
-
-const review=JSON.parse(read('assets/development-status.json'));
-assert(review.assets.length===79&&new Set(review.assets.map(a=>a.ref)).size===79,'Unique development records');
-assert(review.assets.filter(a=>a.reviewBasis==='Repository metadata only').length===1,'One metadata-only review');
-assert(review.documentationReviewed===78,'78 documentation reviews');
-for(const a of review.assets){const html=read(`projects/${a.slug}/index.html`);assert(html.includes('Repository-reported position')&&html.includes(a.lastRepositoryActivity),'Dated development profile '+a.ref);assert(Object.keys(a).sort().join(',')==='currentState,lastRepositoryActivity,ref,reviewBasis,reviewedOn,slug','Public review allowlist '+a.ref);}
-elements.get('filters').handlers.click({target:{closest:()=>({dataset:{filter:'all'}})}});change('search','clinical','input');assert(!count().startsWith('0 of'),'Search current development notes');
-assert(read('updates.html').includes('metadata-only'),'Review coverage disclosure');
-console.log('Development snapshot validated: 79 dated profiles, 78 document reviews, one metadata-only record, searchable current-state notes.');
-
-const intake=JSON.parse(read('assets/project-intake.json'));
-assert(intake.projects.length===2,'Two new project records');
-assert(new Set([...review.assets,...intake.projects].map(a=>a.slug)).size===81,'81 distinct project routes');
-for(const a of intake.projects){const html=read(`projects/${a.slug}/index.html`);assert(!html.includes('asset-economic-model')&&!('ask' in a),'No invented intake economics');assert(html.includes('excluded from all published 79-asset valuation totals'),'Intake financial boundary');for(const p of ['index.html','portfolio.html','updates.html'])assert(read(p).includes(`projects/${a.slug}/`),'Intake discoverability '+p);}
-console.log('81 projects covered; two intake profiles have no fabricated financial records.');
+const d=JSON.parse(read('assets/reevaluation.json'));
+const urls=[...read('sitemap.xml').matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]);assert.equal(urls.length,93);assert.equal(new Set(urls).size,93);
+const base='https://thearchitect-max.github.io/MyProjects/';
+for(const url of urls){const route=url.slice(base.length),p=route.endsWith('/')?route+'index.html':route||'index.html',html=read(p);assert.equal((html.match(/<h1[ >]/g)||[]).length,1,`${p}: one h1`);assert.equal((html.match(/<main[ >]/g)||[]).length,1,`${p}: one main`);assert.ok(html.includes(`rel="canonical" href="${url}"`));assert.ok(html.includes('href="#main"'));assert.ok(html.includes('aria-label="Primary navigation"'));assert.ok(html.includes('reevaluation.html'));assert.ok(!/assets\/(?:im\.js|economic\.js)|archive\/im24/.test(html),'No historical runtime or data');for(const m of html.matchAll(/(?:href|src)="([^"?#]+)(?:[?#][^"]*)?"/g)){let target=m[1].replaceAll('&amp;','&');if(/^(?:https?:|mailto:|data:)/.test(target))continue;assert.ok(fs.existsSync(path.resolve(path.dirname(p),target)),`${p}: missing ${target}`);}if(p.startsWith('projects/')){assert.ok(html.includes('Current monetary conclusion: not established.'));assert.ok(html.includes('Project-specific qualification'));assert.ok(html.includes('Proprietary implementation material is outside this public profile.'));}}
+assert.equal((read('portfolio.html').match(/class="panel project-record"/g)||[]).length,81,'81 static profiles discoverable');
+assert.equal(selectProjects(d.assets,{query:'TA-INTAKE-001'}).length,1);assert.equal(selectProjects(d.assets,{query:'  cardiosignal  '})[0].ref,'TA-IP-080');assert.equal(selectProjects(d.assets,{query:'no-match-zzzzz'}).length,0);assert.equal(selectProjects(d.assets,{stage:'R'}).length,41);assert.equal(selectProjects(d.assets,{stage:'U'})[0].ref,'TA-IP-006');
+const families=JSON.parse(read('assets/portfolio-structure.json')).families;
+for(const f of families){const r=selectProjects(d.assets,{family:f.id});assert.equal(r.length,f.assets.length);for(const stage of ['S','F','R','D','U'])assert.deepEqual(selectProjects(d.assets,{family:f.id,stage}).map(x=>x.ref).sort(),d.assets.filter(x=>x.family===f.id&&x.developmentClass===stage).map(x=>x.ref).sort());}
+assert.equal(new Set(families.flatMap(f=>f.assets)).size,81);
+const sorted=selectProjects(d.assets,{sort:'updated'});assert.ok(sorted.every((a,i)=>i===0||sorted[i-1].lastRepositoryActivity>=a.lastRepositoryActivity));assert.equal(d.assets.length,81,'Filtering does not mutate source data');
+console.log('Validated 93 pages, local links, metadata, all static records, search, sorting and every family/class filter combination.');
+// Exercise actual event wiring and hidden-state updates against the static record contract.
+const {initPortfolio}=await import('../assets/portfolio.js');
+const nodes=new Map();
+const field=(value)=>({value,handlers:{},options:[],addEventListener(type,fn){this.handlers[type]=fn;},focus(){this.focused=true;}});
+for(const [id,value]of[['search',''],['family','all'],['stage','all'],['sort','name'],['reset-filters','']])nodes.set(id,field(value));
+nodes.get('family').options=[{value:'all'},...families.map(f=>({value:f.id}))];
+const records=d.assets.map(a=>({dataset:{project:JSON.stringify(a)},hidden:false}));
+const ordered=records.slice();
+nodes.set('project-list',{querySelectorAll:()=>records,appendChild(e){ordered.splice(ordered.indexOf(e),1);ordered.push(e);}});
+nodes.set('result-count',{textContent:''});nodes.set('no-results',{hidden:true});
+initPortfolio({getElementById:id=>nodes.get(id)},{search:'?family=aerospace-mobility'});
+assert.equal(records.filter(r=>!r.hidden).length,7,'Initial family URL covers new project');
+nodes.get('reset-filters').handlers.click();assert.equal(records.filter(r=>!r.hidden).length,81);
+nodes.get('search').value='TA-INTAKE-002';nodes.get('search').handlers.input();assert.equal(records.filter(r=>!r.hidden).length,1);assert.equal(nodes.get('result-count').textContent,'1 of 81 project assessments');
+nodes.get('search').value='missing-zzzz';nodes.get('search').handlers.input();assert.equal(nodes.get('no-results').hidden,false);
+nodes.get('reset-filters').handlers.click();assert.equal(nodes.get('no-results').hidden,true);assert.equal(nodes.get('search').focused,true);
+for(const p of fs.readdirSync('assets').filter(p=>p.endsWith('.css'))){for(const m of read('assets/'+p).matchAll(/url\(["']?([^)'"\s]+)/g)){if(!/^(data:|https?:)/.test(m[1]))assert.ok(fs.existsSync(path.resolve('assets',m[1].split('?')[0])),'CSS dependency '+m[1]);}}
+console.log('Validated catalogue event wiring, URL filters, reset/empty states and local CSS dependencies.');

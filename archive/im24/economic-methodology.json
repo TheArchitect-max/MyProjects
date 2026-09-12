@@ -25,7 +25,10 @@
     "transactionAnchorCount": 13,
     "sectorCoverageCount": 8,
     "observedIllustrativeRevenueRatioSampleSize": 6,
-    "observedIllustrativeRevenueRatioRange": [4.88, 24.98],
+    "observedIllustrativeRevenueRatioRange": [
+      4.88,
+      24.98
+    ],
     "observedIllustrativeRevenueRatioMedian": 13.05,
     "policy": "External transaction evidence calibrates sector demand and confidence before it changes asset value. Mature-company transaction values or revenue multiples are not copied directly into pre-revenue or early-stage asset valuations."
   },
@@ -36,48 +39,84 @@
     "policy": "Do not automatically uplift the current baseline. Audit architecture, research, QA/validation, security, deployment, documentation, data/model assets, productization, compliance, IP/licence qualification and programme management asset by asset while avoiding double counting."
   },
   "factors": {
-    "marketPotential": {"S":0.70,"M":0.90,"H":1.15,"VH":1.50},
-    "marketMaturity": {"R":0.65,"P":0.85,"V":1.00},
-    "incomePotential": {"S":0.60,"M":0.90,"H":1.35,"VH":2.00},
-    "incomeMaturity": {"R":0.50,"P":0.75,"V":1.00},
-    "technicalCompletionProbability": {"R":0.50,"P":0.75,"V":0.95},
-    "commercializationProbability": {"S":0.25,"M":0.40,"H":0.55,"VH":0.70},
-    "timeRisk": {"R":0.70,"P":0.85,"V":0.95},
-    "strategicOpportunityMultiplier": {"S":1.25,"M":1.75,"H":2.75,"VH":4.50},
+    "marketPotential": {
+      "S": 0.7,
+      "M": 0.9,
+      "H": 1.15,
+      "VH": 1.5
+    },
+    "marketMaturity": {
+      "R": 0.65,
+      "P": 0.85,
+      "V": 1.0
+    },
+    "incomePotential": {
+      "S": 0.6,
+      "M": 0.9,
+      "H": 1.35,
+      "VH": 2.0
+    },
+    "incomeMaturity": {
+      "R": 0.5,
+      "P": 0.75,
+      "V": 1.0
+    },
+    "technicalCompletionProbability": {
+      "R": 0.5,
+      "P": 0.75,
+      "V": 0.95
+    },
+    "commercializationProbability": {
+      "S": 0.25,
+      "M": 0.4,
+      "H": 0.55,
+      "VH": 0.7
+    },
+    "timeRisk": {
+      "R": 0.7,
+      "P": 0.85,
+      "V": 0.95
+    },
+    "strategicOpportunityMultiplier": {
+      "S": 1.25,
+      "M": 1.75,
+      "H": 2.75,
+      "VH": 4.5
+    },
     "rightsTransferDiligenceReserve": 0.85,
     "sectorContext": {
-      "AI, Decision & Knowledge Systems": 1.10,
-      "Aerospace & Mobility": 0.90,
-      "Enterprise Software & Operations": 1.10,
+      "AI, Decision & Knowledge Systems": 1.1,
+      "Aerospace & Mobility": 0.9,
+      "Enterprise Software & Operations": 1.1,
       "Identity, Privacy & Assurance": 1.05,
       "Industrial & Infrastructure Software": 1.05,
-      "Media & Creator Technology": 1.00,
+      "Media & Creator Technology": 1.0,
       "Research & Scientific Software": 0.85,
-      "Specialist Vertical Software": 1.00
+      "Specialist Vertical Software": 1.0
     },
     "externalEvidenceConfidenceBySector": {
-      "AI, Decision & Knowledge Systems": 0.60,
-      "Aerospace & Mobility": 0.50,
+      "AI, Decision & Knowledge Systems": 0.6,
+      "Aerospace & Mobility": 0.5,
       "Enterprise Software & Operations": 0.65,
       "Identity, Privacy & Assurance": 0.65,
-      "Industrial & Infrastructure Software": 0.70,
+      "Industrial & Infrastructure Software": 0.7,
       "Media & Creator Technology": 0.55,
       "Research & Scientific Software": 0.65,
-      "Specialist Vertical Software": 0.60
+      "Specialist Vertical Software": 0.6
     },
     "routeMonetization": {
       "B2B SaaS / enterprise software": 1.15,
       "Research / R&D licensing": 0.85,
-      "Vertical SaaS / specialist software": 1.10,
+      "Vertical SaaS / specialist software": 1.1,
       "Enterprise software / licensing": 1.15,
-      "Private deployment / enterprise licensing": 1.10,
+      "Private deployment / enterprise licensing": 1.1,
       "Web platform infrastructure / SaaS / licensing": 1.15,
       "Media / creator software": 1.05
     },
     "triangulationWeights": {
       "replacementCost": 0.25,
-      "marketComparableProxy": 0.20,
-      "incomeLicensingProxy": 0.20,
+      "marketComparableProxy": 0.2,
+      "incomeLicensingProxy": 0.2,
       "probabilityAdjustedStrategicValue": 0.35
     }
   },
@@ -96,5 +135,6 @@
     "Introduce defensible royalty benchmarks and buyer-specific income forecasts where commercialization routes are credible.",
     "Replace generic technical and commercialization probabilities with asset-specific evidence.",
     "Re-weight valuation lenses by asset according to evidence quality rather than applying one universal portfolio weighting."
-  ]
+  ],
+  "publicStatus": "Historical IM24 or earlier input. Superseded as a current valuation by the IM25 re-evaluation; not reconfirmed."
 }

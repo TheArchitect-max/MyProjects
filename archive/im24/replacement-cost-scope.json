@@ -13,83 +13,164 @@
     {
       "id": "engineering",
       "name": "Software engineering and implementation",
-      "examples": ["first-party code", "integration", "refactoring", "runtime implementation"],
+      "examples": [
+        "first-party code",
+        "integration",
+        "refactoring",
+        "runtime implementation"
+      ],
       "currentCoverage": "likely-major-component",
       "notes": "Expected to be the dominant component of the current baseline but not assumed to be the only component."
     },
     {
       "id": "architecture",
       "name": "Architecture and systems design",
-      "examples": ["system architecture", "data models", "interfaces", "orchestration design", "technical decision records"],
+      "examples": [
+        "system architecture",
+        "data models",
+        "interfaces",
+        "orchestration design",
+        "technical decision records"
+      ],
       "currentCoverage": "not-separately-audited"
     },
     {
       "id": "research",
       "name": "Domain research and R&D",
-      "examples": ["scientific review", "domain modelling", "algorithm research", "experimental design", "technical feasibility work"],
+      "examples": [
+        "scientific review",
+        "domain modelling",
+        "algorithm research",
+        "experimental design",
+        "technical feasibility work"
+      ],
       "currentCoverage": "not-separately-audited"
     },
     {
       "id": "qa-validation",
       "name": "QA, testing and validation",
-      "examples": ["unit/integration tests", "benchmarking", "validation campaigns", "reproducibility", "acceptance criteria"],
+      "examples": [
+        "unit/integration tests",
+        "benchmarking",
+        "validation campaigns",
+        "reproducibility",
+        "acceptance criteria"
+      ],
       "currentCoverage": "not-separately-audited"
     },
     {
       "id": "security",
       "name": "Security and hardening",
-      "examples": ["threat modelling", "secure defaults", "dependency review", "secrets handling", "access control", "abuse resistance"],
+      "examples": [
+        "threat modelling",
+        "secure defaults",
+        "dependency review",
+        "secrets handling",
+        "access control",
+        "abuse resistance"
+      ],
       "currentCoverage": "not-separately-audited"
     },
     {
       "id": "deployment",
       "name": "Deployment, packaging and operations",
-      "examples": ["containerization", "installation", "observability", "configuration", "backup/recovery", "operational runbooks"],
+      "examples": [
+        "containerization",
+        "installation",
+        "observability",
+        "configuration",
+        "backup/recovery",
+        "operational runbooks"
+      ],
       "currentCoverage": "not-separately-audited"
     },
     {
       "id": "documentation",
       "name": "Documentation and transfer package",
-      "examples": ["technical docs", "operator guidance", "buyer handover material", "architecture diagrams", "release notes"],
+      "examples": [
+        "technical docs",
+        "operator guidance",
+        "buyer handover material",
+        "architecture diagrams",
+        "release notes"
+      ],
       "currentCoverage": "not-separately-audited"
     },
     {
       "id": "data-models",
       "name": "Data, models and evaluation assets",
-      "examples": ["datasets", "schemas", "prompts", "model weights", "evaluation sets", "benchmark fixtures"],
+      "examples": [
+        "datasets",
+        "schemas",
+        "prompts",
+        "model weights",
+        "evaluation sets",
+        "benchmark fixtures"
+      ],
       "currentCoverage": "asset-dependent-and-not-separately-audited"
     },
     {
       "id": "product-ux",
       "name": "Productization and UX",
-      "examples": ["user flows", "dashboard", "API ergonomics", "product packaging", "commercial configuration"],
+      "examples": [
+        "user flows",
+        "dashboard",
+        "API ergonomics",
+        "product packaging",
+        "commercial configuration"
+      ],
       "currentCoverage": "not-separately-audited"
     },
     {
       "id": "compliance",
       "name": "Compliance and regulatory engineering",
-      "examples": ["privacy controls", "records", "domain-specific compliance", "risk files", "regulated-market documentation"],
+      "examples": [
+        "privacy controls",
+        "records",
+        "domain-specific compliance",
+        "risk files",
+        "regulated-market documentation"
+      ],
       "currentCoverage": "asset-dependent-and-not-separately-audited"
     },
     {
       "id": "ip-provenance",
       "name": "IP, licence and provenance qualification",
-      "examples": ["third-party licence review", "copyright provenance", "dependency inventory", "data/model rights", "transferability review"],
+      "examples": [
+        "third-party licence review",
+        "copyright provenance",
+        "dependency inventory",
+        "data/model rights",
+        "transferability review"
+      ],
       "currentCoverage": "not-separately-audited"
     },
     {
       "id": "program-management",
       "name": "Project and programme management",
-      "examples": ["planning", "requirements", "coordination", "quality gates", "release management"],
+      "examples": [
+        "planning",
+        "requirements",
+        "coordination",
+        "quality gates",
+        "release management"
+      ],
       "currentCoverage": "not-separately-audited"
     },
     {
       "id": "failed-rd-risk",
       "name": "Avoided failed-R&D and learning cost",
-      "examples": ["discarded approaches", "iteration cost", "failed experiments", "architectural dead ends", "learning curve"],
+      "examples": [
+        "discarded approaches",
+        "iteration cost",
+        "failed experiments",
+        "architectural dead ends",
+        "learning curve"
+      ],
       "currentCoverage": "not-included-as-separate-cost-item",
       "notes": "Relevant to build-versus-buy economics but should not be mechanically added without evidence."
     }
   ],
-  "nextGate": "For each asset, identify which components are already captured in the current replacement baseline, estimate missing effort using documented labour/rate assumptions, and produce low/base/high fully-loaded replacement scenarios without double counting."
+  "nextGate": "For each asset, identify which components are already captured in the current replacement baseline, estimate missing effort using documented labour/rate assumptions, and produce low/base/high fully-loaded replacement scenarios without double counting.",
+  "publicStatus": "Historical IM24 or earlier input. Superseded as a current valuation by the IM25 re-evaluation; not reconfirmed."
 }

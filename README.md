@@ -1,198 +1,59 @@
 # THEARCHITECT_MAX — Technology & IP Portfolio
 
-Public portfolio for **81 separately identified projects: 79 assets with commercial references and two awaiting commercial qualification**. Every active project is treated as its own IP asset. The portfolio also uses **12 classification families** to help professional counterparties navigate related subject areas.
+Public portfolio for 81 individually assessed technology projects. Current presentation: **IM25 full documentary and commercial re-evaluation, 12 September 2026**.
 
-## IM24 current portfolio refresh
+## Re-evaluation outcome
 
-Review date: 12 September 2026. The connected inventory contains 82 repositories: this website and 81 project repositories. All project default-branch heads were checked. Nine existing project heads changed and two repositories were added; their README documentation was reviewed at the checked snapshots. Earlier documentation reviews are retained only for unchanged heads. Coverage totals 80 documented projects and one metadata-only record.
+All 81 default-branch project identities were checked. Current README documentation was retrieved at those snapshots for 80 projects, using nested project documentation where needed. Omnisynth has no current README and remains metadata-only. Private source documents and review working material are not included in this website repository.
 
-- Nine current development summaries updated; all 79 existing records carry the new head-check date.
-- Two separate intake profiles added, with purpose, potential buyer fit, development boundaries and related-work navigation.
-- No invented price, economic model or stage for intake projects; all financial totals continue to cover 79 assets.
-- Homepage, portfolio, development review, all profiles, navigation, cache versions and sitemap rebuilt. 92 active pages.
-- Existing uploaded commercial inventory and disclosure boundaries retained. No underlying implementation, raw source documents or detailed validation artifacts are published.
+The documentary assessment now distinguishes:
 
-## IM23 repository documentation refresh
+- 17 software platforms;
+- 20 software foundations;
+- 41 research software projects;
+- 2 design/specification projects;
+- 1 project with insufficient documentation.
 
-Review date: 9 September 2026. The connected GitHub inventory contained 80 repositories: this website and 79 mapped standalone asset repositories. All default-branch heads were checked. README material was reviewed at those exact snapshots for 78 assets, including three nested project READMEs. Omnisynth has no current README; its public record is explicitly metadata-only and its existing purpose is retained.
+These describe work-product type and documented development state, not certified maturity levels. Fifteen projects previously labelled developed software are now explicitly classified by their research purpose. Every project has a separately authored buyer-use hypothesis, qualification question and proposed valuation route. The two recent projects are included in the same assessment and retain their stable intake identifiers.
 
-- Refreshed commercial purpose summaries and 79 dated development records.
-- Corrected previously over-general scopes including MOTHERCODE, ORACULUM, TLS Virtual, TrueLane Flora, Dominus, Causal State Field Engine and Visionair.
-- Retained separate candidate, qualified, historical-validation and research-only boundaries.
-- Recorded documentation/activity mismatches for FusionLunar and Adaptive General Reasoning without inferring promotion from commit activity.
-- Added `updates.html`, linked from every footer, with 79 dated notes and review coverage.
-- Updated profile metadata, discovery cards, search content and the full static portfolio schedule from the same public data.
-- 90 active pages. Seller asking references, financial assumptions and existing commercial-stage screening labels are retained; this is not a re-appraisal or a new asset-test campaign.
+## Monetary decision
 
-`assets/development-status.json` contains only approved public summaries and dates. Private repository names/paths, commit identifiers, raw documentation excerpts, technical methods and detailed test artefacts are not exported there. The private review working material is outside this repository. The snapshot covers default branches, not unmerged development branches or later activity.
+No current asset or portfolio monetary value is established from the reviewed evidence. This is not a zero valuation or a finding of zero revenue. New asking-price recommendations remain unset. Earlier seller references are historical and not reconfirmed.
 
-## IM22 public commercial expansion
+The 79 historical market, income and strategic calculations were independently reconstructed from their published factors. Each uses the same replacement-cost anchor. Their combination does not supply independent valuation evidence. The reviewed documentation does not establish component-level cost inputs, comparable-rights transactions, defensible income forecasts or empirically calibrated completion/commercialisation probabilities.
 
-Updated 9 September 2026 using the supplied 30-topic public inventory, with new commercial content beyond that inventory.
+Historical IM24 inputs are retained in `archive/im24/` and are not loaded by the current website. The previous asking total of EUR 14,075,000, replacement estimate of EUR 60,150,000 and modelled economic reference of EUR 71,598,124 remain traceable in that archive and explicitly historical disclosures. They are not current valuation conclusions.
 
-- 89 active pages: overview, portfolio, opportunity, valuation, evidence, transaction, notice, three buyer guides and 79 individual asset profiles.
-- Applications and potential buyer categories for all 12 families, explicitly labelled as hypotheses requiring asset-specific qualification.
-- Buyer guide covering assignment/licensing, rights perimeter, operating costs, delivery, acceptance, possible package categories and FAQ.
-- Disclosure guide distinguishing public summaries, qualified discussion, confidential diligence and agreed transfer.
-- Evidence categories and explicit boundaries for adoption, readiness, patents, independent review and regulated uses.
-- Official EEN, European IP Helpdesk, EU and WIPO resources, with no implied affiliation or endorsement.
-- Public contact forms no longer solicit personal contact details in public issues.
-- Historical scenario file clearly labelled superseded; published pricing and current economic assumptions retained.
-- Public-scope gate checks curated payload names, restricted file types, credential patterns and underlying asset repository links.
-- Pages excludes authoring and verification files. These files remain public in the website repository; this is not an access-control mechanism.
+WIPO's general IP valuation guidance was checked on 12 September 2026 for method selection and input requirements. No institutional endorsement or formal standards-compliant appraisal is claimed.
 
-No underlying private project source, implementation designs, model assets or experimental material was retrieved or imported for this update. The reviewed scope is this website's current tracked content, not every asset repository or all historical disclosures. The automated checks are not a proof of secrecy, ownership or protection.
+## Public site
 
-## IM21 website release
+93 active pages: 81 individual assessments and 12 portfolio/information pages. All profiles and the complete searchable catalogue are statically rendered. JavaScript enhances filtering and sorting for all 81 records. The website remains usable without JavaScript.
 
-- Complete responsive visual refresh across the overview, six information pages and 79 asset profiles.
-- One consistent navigation and footer, including Evidence on every active route.
-- Opportunity aligned to the current EUR 71.598M triangulated reference and 19.7% asking ratio; superseded scenario figures removed.
-- Asset profiles, family cards and all 79 schedule entries are rendered into HTML at build time for direct reading and indexing.
-- Search, family/sector filters and sorting progressively enhance the static schedule.
-- Asset-specific canonical URLs and metadata exist before JavaScript executes.
-- Repository inventory checked through the connected GitHub account: 80 repositories, including the portfolio website, correspond to 79 active asset records. This is an inventory check, not a technical or rights audit of those repositories.
-- Existing seller pricing, development classifications and IM20 economic assumptions are retained; this presentation release does not re-appraise the assets.
+- Current assessment data: `assets/reevaluation.json`
+- Classification families: `assets/portfolio-structure.json`
+- Family-level buyer hypotheses: `assets/commercial-context.json`
+- Current generator: `scripts/build-site.mjs`
+- Public buyer guides: `scripts/public-content.mjs`
+- Search and filtering: `assets/portfolio.js`
 
-Rebuild the presentation after editing data or templates:
+## Rebuild and verify
 
 ```bash
 npm run build
 npm test
 ```
 
-The existing GitHub Pages publication remains the destination. No custom GitHub Actions workflow is added.
+Validation covers all 81 individual decisions, null rather than zero monetary values, reconstruction of the 79 historical model rows, static page coverage, internal links, canonical metadata, every family/development-class filter combination, public payload field restrictions and the absence of custom GitHub Actions workflows.
 
-## Current public presentation
+The site uses the existing GitHub Pages publication. Tests are local. No custom Actions workflows, paid services, hosted backend or external browser dependencies are added to the project.
 
-- 81 project profiles: 79 commercially referenced assets and two awaiting qualification
-- 79 assets with individual seller-side commercial references
-- 79 assets with individual probability-adjusted economic valuation records
-- 12 classification families — navigation/taxonomy only
-- 8 commercial sectors
-- EUR 14,075,000 aggregate seller asking reference
-- EUR 11,220,000–17,645,000 aggregate asking range
-- EUR 60,150,000 current recreation/replacement-cost baseline
-- EUR 67,966,649 aggregate market/comparable proxy
-- EUR 80,368,396 aggregate income/licensing proxy
-- EUR 76,838,904 aggregate probability-adjusted strategic value
-- EUR 71,598,124 preliminary triangulated economic reference
-- approximately EUR 906,305 average triangulated economic reference per standalone asset
-- seller ask equals approximately 19.7% of the preliminary triangulated economic reference
-- 41 developed software assets / 32 developed prototypes / 6 research-stage assets
+## Scope and rights
 
-## Standalone asset policy
+This is a source-document and commercial-method assessment, not a complete implementation audit, rerun of the project test suites, independent scientific/security review, legal title opinion or appraisal. Documentary test claims remain repository-reported. Other branches and later activity are outside the checked snapshot.
 
-**One active project equals one standalone IP asset.** Family membership does not merge ownership, rights, provenance, technical identity, valuation or transferability. A classification family is not itself an IP asset and carries no independent asking price.
+One project remains one separately identified transaction scope. Families do not merge rights, ownership or valuation. TA-IP-001 remains retired and TA-IP-014 remains intentionally absent. No identifiers are reused.
 
-Two or more standalone assets may be negotiated together, but each included asset must be explicitly identified and independently diligenced. Rights to one asset do not automatically extend to another asset in the same classification family.
+The public website excludes proprietary implementation material. Source code, algorithms, model assets, raw validation records, private repository identities and raw review documents are not imported into the active public data. Third-party rights remain distinct. A private-IP label does not itself prove enforceable title or transferability.
 
-The active schedule excludes retired predecessors from commercial counts and valuation totals. TA-IP identifiers remain stable historical references and are not renumbered or reused. **TA-IP-001 Research Orchestrator** is retired after its repository was removed; **TA-IP-012 Research Intelligence Fabric** remains a separate active asset. TA-IP-014 remains intentionally absent from the active register.
-
-## IM20 valuation architecture
-
-The portfolio keeps the following valuation lenses separate at **individual asset level**:
-
-1. **Replacement Cost** — current recreation/replacement-cost baseline.
-2. **Market / Comparable Proxy** — preliminary marketability indication pending direct subject-asset comparables.
-3. **Income / Licensing Proxy** — preliminary monetization indication pending buyer-specific forecasts, royalty benchmarks or other defensible income inputs.
-4. **Probability-adjusted Strategic Value** — adjusted for technical completion, commercialization probability, rights/transfer diligence reserve, time/risk and sector context.
-5. **Seller Asking Price** — deliberately separate from economic-value modelling.
-6. **Preliminary Triangulated Economic Reference** — combines the first four lenses at asset level using explicit weights.
-
-Current triangulation weights remain replacement cost 25%, market/comparable proxy 20%, income/licensing proxy 20% and probability-adjusted strategic value 35%.
-
-The aggregate seller ask of EUR 14.075 million is approximately **23.4% of the current replacement-cost baseline** and **19.7% of the preliminary triangulated economic reference**.
-
-The 79 individual records are stored in `assets/asset-economic-valuations.csv`. Model definitions and factors are stored in `assets/economic-methodology.json`.
-
-## External market evidence calibration
-
-IM20 adds `assets/external-market-evidence.json`, a primary-source evidence register covering strategic transactions across the eight portfolio sectors.
-
-The register currently contains 13 transaction anchors including enterprise AI, data, infrastructure, identity/security, industrial simulation, scientific R&D software, vertical professional software and media/creator technology.
-
-Six selected mature targets have disclosed revenue sufficient to derive rough deal-value/revenue ratios. In this illustrative sample the ratios range from approximately **4.88x to 24.98x**, with a median around **13.05x**.
-
-Those ratios are **not applied directly to the portfolio assets**. The sample mixes enterprise value and equity value, uses different revenue periods and contains mature operating companies. The evidence is used first to calibrate sector demand and confidence. Direct market valuation requires subject-asset comparability in rights, maturity, revenue, growth, useful life, geography, transaction date and transaction structure.
-
-The public evidence page is `evidence.html`.
-
-## Replacement-cost completeness
-
-IM20 also adds `assets/replacement-cost-scope.json`.
-
-The current EUR 60.150 million baseline is retained as a cost-approach reference, but it is **not yet represented as a fully componentized all-in replacement-cost audit**.
-
-The next replacement-cost gate audits each asset for inclusion of:
-
-- software engineering and implementation
-- architecture and systems design
-- domain research and R&D
-- QA, testing and validation
-- security and hardening
-- deployment, packaging and operations
-- documentation and transfer material
-- data, models and evaluation assets
-- productization and UX
-- compliance and regulatory engineering where relevant
-- IP, licence and provenance qualification
-- project and programme management
-- failed-R&D / learning cost where defensible
-
-No automatic uplift is applied. The audit must avoid double counting work already reflected in the current baseline.
-
-## Probability architecture
-
-Current transparent modelling assumptions include:
-
-- technical completion probability: research 50%, developed prototype 75%, developed software 95%
-- commercialization probability: specialist 25%, moderate 40%, high 55%, very high 70%
-- time/risk factor: research 70%, prototype 85%, developed software 95%
-- rights/transfer diligence reserve: 85% pending transaction-stage verification
-
-These are internal modelling assumptions, not institution-prescribed probabilities. They are intended to make uncertainty explicit and should be replaced or calibrated with stronger asset-specific evidence during diligence.
-
-## Reference frameworks
-
-The valuation architecture is informed by:
-
-1. **WIPO** — cost, market, income, real-options and Monte Carlo IP valuation guidance.
-2. **International Valuation Standards / IVSC** — including IVS 210 Intangible Assets.
-3. **RICS** — Valuation of Intellectual Property Rights professional standard.
-4. **OECD** — intangibles, DEMPE and value-creation guidance.
-5. **IFRS IAS 38** — identifiability, separability and future-economic-benefit concepts.
-6. **ISO 56005:2020** — intellectual-property management within innovation processes.
-7. **EPO** — patent-management and valuation guidance.
-8. **JPO** — intellectual-property valuation and commercialization context.
-9. **USPTO** — IP valuation, commercialization and technology-transfer context.
-
-These references inform terminology, method selection and diligence design. They do **not** mean that any named institution has reviewed the repositories, certified the model, endorsed an amount or issued a formal appraisal.
-
-## Confidence boundary
-
-- replacement-cost lens: medium confidence; full component audit still pending
-- market/comparable proxy: low-to-medium by sector; primary transaction anchors exist but direct comparability is not established
-- income/licensing proxy: low confidence until defendable economic forecasts or royalty benchmarks are available
-- probability-adjusted strategic value: modelled
-- triangulated economic reference: preliminary
-
-A transaction-stage valuation should replace proxies with narrow comparable transactions, royalty evidence, cash-flow forecasts, discount rates, useful-life assumptions, remaining development costs, legal/IP diligence and buyer-specific synergies.
-
-## Local validation
-
-```bash
-npm test
-```
-
-The IM20 validation gate checks the 79 economic records, aggregate lens totals, external evidence registry, sector coverage, illustrative-ratio metadata, replacement-cost audit framework, project-route coverage and principal public valuation figures.
-
-No GitHub Actions workflow is used.
-
-## Important notice
-
-All published values are seller-side references for professional discussion. The preliminary economic model is not an independent appraisal, fairness opinion, audited valuation, certified market value or guarantee of transaction value. Buyer-specific diligence remains necessary.
-
-## License
-
-The website and first-party presentation materials are proprietary and All Rights Reserved. Third-party rights remain subject to their respective terms.
+GitHub Pages exclusions prevent authoring and historical files from entering the generated Pages output; they are not access controls. This repository and its history remain public. First-party website materials remain proprietary and All Rights Reserved.
