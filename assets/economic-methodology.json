@@ -1,54 +1,34 @@
 {
-  "v": "2026.09.12-im25-head-revaluation",
-  "model": "Asset-Level Five-Lens Probability-Adjusted Economic Valuation Model with Current-Head Evidence Reunderwriting",
+  "v": "2026.09.13-im27-public-current-head",
+  "model": "Asset-Level Five-Lens Probability-Adjusted Economic Valuation Model",
   "status": "preliminary-seller-side-economic-model",
   "portfolio": {
-    "assetCount": 79,
-    "sellerAskEUR": 14550000,
-    "negotiationLowEUR": 11615000,
-    "negotiationHighEUR": 18245000,
-    "replacementCostEUR": 62155000,
-    "marketComparableProxyEUR": 70277585,
-    "incomeLicensingProxyEUR": 83092566,
-    "probabilityAdjustedStrategicValueEUR": 79540183,
-    "triangulatedEconomicReferenceEUR": 74051843,
-    "averageTriangulatedEconomicReferencePerAssetEUR": 937365.10,
-    "sellerAskAsShareOfTriangulated": 0.196483969,
-    "sellerAskAsShareOfReplacementCost": 0.234092189
+    "assetCount": 83,
+    "sellerAskEUR": 15715000,
+    "negotiationLowEUR": 12545000,
+    "negotiationHighEUR": 19705000,
+    "replacementCostEUR": 67530000,
+    "marketComparableProxyEUR": 76658630,
+    "incomeLicensingProxyEUR": 90460628,
+    "probabilityAdjustedStrategicValueEUR": 86680390,
+    "triangulatedEconomicReferenceEUR": 80644487,
+    "averageTriangulatedEconomicReferencePerAssetEUR": 971620.33,
+    "sellerAskAsShareOfTriangulated": 0.194867629,
+    "sellerAskAsShareOfReplacementCost": 0.232711388
   },
-  "currentHeadRevaluation": {
-    "registry": "assets/revaluation-2026-09-12.json",
-    "baselineVersion": "2026.09.08-im20",
-    "baselineCutoffUTC": "2026-09-08T10:55:13Z",
-    "reviewedAssetCount": 79,
-    "changedAssetCount": 14,
-    "unchangedAssetCount": 65,
-    "policy": "README content is supporting evidence only. Current state is established from default-branch heads using commit chronology and diffs, first-party source, package/version metadata, tests, validation and benchmark artifacts, schemas/manifests, persistence/security/deployment surfaces and documentation. A build changes valuation only when those sources demonstrate economically relevant scope, maturity, validation, transferability, productization, risk reduction or replacement effort. Commit count and version labels are not valuation multipliers.",
-    "pricingPolicy": "The 8 September register remains the prior financial baseline. Current-head deltas are underwritten asset by asset. Replacement cost changes only for additional evidenced work product; maturity changes require stronger execution evidence; the other analytical lenses are recalculated consistently with the existing model factors. The seller ask remains a separate acquisition position and is adjusted only where current-head evidence materially changes the asset's commercial or transfer profile."
+  "currentHeadReview": {
+    "registry": "assets/revaluation-2026-09-13.json",
+    "priorValuationVersion": "2026.09.12-im25-head-revaluation",
+    "reviewedAssetCount": 83,
+    "policy": "Current state is established from repository-head evidence rather than README text alone. Economically relevant implementation, execution, validation, release, productization and transfer evidence can change a valuation; commit count and version labels cannot. Public website data intentionally excludes confidential implementation detail.",
+    "pricingPolicy": "Seller asking price remains a separate acquisition position. Replacement cost, market/comparable proxy, income/licensing proxy and probability-adjusted strategic value remain analytical lenses and are not mechanically converted into the ask."
   },
   "confidence": {
-    "replacementCost": "medium; current-head deltas reviewed, but the full non-code component audit remains incomplete",
-    "marketComparableProxy": "low-to-medium-by-sector; primary transaction anchors available but direct asset comparability not established",
-    "incomeLicensingProxy": "low; buyer-specific cash-flow and royalty evidence not established",
-    "probabilityAdjustedStrategicValue": "modelled with explicit probabilities and current-head maturity treatment",
-    "triangulatedEconomicReference": "preliminary"
-  },
-  "externalEvidence": {
-    "registry": "assets/external-market-evidence.json",
-    "transactionAnchorCount": 13,
-    "sectorCoverageCount": 8,
-    "observedIllustrativeRevenueRatioSampleSize": 6,
-    "observedIllustrativeRevenueRatioRange": [4.88, 24.98],
-    "observedIllustrativeRevenueRatioMedian": 13.05,
-    "policy": "External transaction evidence calibrates sector demand and confidence before it changes asset value. Mature-company transaction values or revenue multiples are not copied directly into pre-revenue or early-stage asset valuations."
-  },
-  "replacementCostScope": {
-    "registry": "assets/replacement-cost-scope.json",
-    "currentBaselineEUR": 62155000,
-    "priorBaselineEUR": 60150000,
-    "currentHeadDeltaEUR": 2005000,
-    "status": "current-head build deltas have been reviewed, while the portfolio is still not represented as a fully componentized all-in replacement-cost audit",
-    "policy": "Do not automatically uplift the baseline. Audit architecture, research, QA/validation, security, deployment, documentation, data/model assets, productization, compliance, IP/licence qualification and programme management asset by asset while avoiding double counting."
+    "replacementCost": "medium; seller-side reconstruction estimate rather than an independently audited all-in cost study",
+    "marketComparableProxy": "low-to-medium by sector; primary transaction anchors exist but direct comparability is not established",
+    "incomeLicensingProxy": "low; buyer-specific cash-flow and royalty evidence is not established",
+    "probabilityAdjustedStrategicValue": "modelled with explicit maturity, commercialization, rights and time-risk assumptions",
+    "triangulatedEconomicReference": "preliminary seller-side analytical reference"
   },
   "factors": {
     "marketPotential": {"S":0.70,"M":0.90,"H":1.15,"VH":1.50},
@@ -60,56 +40,16 @@
     "timeRisk": {"R":0.70,"P":0.85,"V":0.95},
     "strategicOpportunityMultiplier": {"S":1.25,"M":1.75,"H":2.75,"VH":4.50},
     "rightsTransferDiligenceReserve": 0.85,
-    "sectorContext": {
-      "AI, Decision & Knowledge Systems": 1.10,
-      "Aerospace & Mobility": 0.90,
-      "Enterprise Software & Operations": 1.10,
-      "Identity, Privacy & Assurance": 1.05,
-      "Industrial & Infrastructure Software": 1.05,
-      "Media & Creator Technology": 1.00,
-      "Research & Scientific Software": 0.85,
-      "Specialist Vertical Software": 1.00
-    },
-    "externalEvidenceConfidenceBySector": {
-      "AI, Decision & Knowledge Systems": 0.60,
-      "Aerospace & Mobility": 0.50,
-      "Enterprise Software & Operations": 0.65,
-      "Identity, Privacy & Assurance": 0.65,
-      "Industrial & Infrastructure Software": 0.70,
-      "Media & Creator Technology": 0.55,
-      "Research & Scientific Software": 0.65,
-      "Specialist Vertical Software": 0.60
-    },
-    "routeMonetization": {
-      "B2B SaaS / enterprise software": 1.15,
-      "Research / R&D licensing": 0.85,
-      "Vertical SaaS / specialist software": 1.10,
-      "Enterprise software / licensing": 1.15,
-      "Private deployment / enterprise licensing": 1.10,
-      "Web platform infrastructure / SaaS / licensing": 1.15,
-      "Media / creator software": 1.05
-    },
-    "triangulationWeights": {
-      "replacementCost": 0.25,
-      "marketComparableProxy": 0.20,
-      "incomeLicensingProxy": 0.20,
-      "probabilityAdjustedStrategicValue": 0.35
-    }
+    "sectorContext": {"AI, Decision & Knowledge Systems":1.10,"Aerospace & Mobility":0.90,"Enterprise Software & Operations":1.10,"Identity, Privacy & Assurance":1.05,"Industrial & Infrastructure Software":1.05,"Media & Creator Technology":1.00,"Research & Scientific Software":0.85,"Specialist Vertical Software":1.00},
+    "routeMonetization": {"B2B SaaS / enterprise software":1.15,"Research / R&D licensing":0.85,"Vertical SaaS / specialist software":1.10,"Enterprise software / licensing":1.15,"Private deployment / enterprise licensing":1.10,"Web platform infrastructure / SaaS / licensing":1.15,"Media / creator software":1.05},
+    "triangulationWeights": {"replacementCost":0.25,"marketComparableProxy":0.20,"incomeLicensingProxy":0.20,"probabilityAdjustedStrategicValue":0.35}
   },
   "definitions": {
-    "replacementCost": "Current seller-side estimate for recreating comparable present work product. The 12 September revaluation adds only current-head development deltas supported by repository evidence; the broader all-in component audit is still incomplete.",
-    "marketComparableProxy": "Modelled marketability indication using maturity, commercial-potential and sector factors. Primary-source transaction anchors calibrate evidence confidence, but the figure is not a verified comparable-transactions valuation.",
-    "incomeLicensingProxy": "Modelled monetization indication using maturity, commercial-potential and route-to-market factors. It is not a DCF or relief-from-royalty valuation because asset-specific revenue forecasts and royalty benchmarks are not established.",
-    "probabilityAdjustedStrategicValue": "Replacement-cost anchored opportunity value adjusted for technical completion, commercialization probability, a rights/transfer diligence reserve, time/risk and sector context.",
-    "triangulatedEconomicReference": "Weighted preliminary seller-side economic reference combining the four valuation lenses above. It is not certified market value.",
-    "sellerAsk": "Current seller-side acquisition asking reference. It is independent from the analytical value model and is re-underwritten only when asset-specific current-head evidence materially changes the commercial or transfer profile.",
-    "externalEvidenceConfidence": "A confidence measure for the existence and relevance of primary-source sector transaction evidence. It is not a valuation multiplier and does not establish direct comparability."
-  },
-  "nextGates": [
-    "Run full asset-by-asset replacement-cost component audits beyond the current-head development deltas, without double counting.",
-    "Match subject assets to narrower precedent transactions or licences by rights, maturity, sector, geography, useful life and date.",
-    "Introduce defensible royalty benchmarks and buyer-specific income forecasts where commercialization routes are credible.",
-    "Replace remaining generic technical and commercialization probabilities with asset-specific retained evidence.",
-    "Re-weight valuation lenses by asset according to evidence quality rather than applying one universal portfolio weighting."
-  ]
+    "replacementCost": "Seller-side estimate for recreating comparable present work product; supporting lens only.",
+    "marketComparableProxy": "Modelled marketability indication using maturity, potential and sector context; not a verified precedent-transaction valuation.",
+    "incomeLicensingProxy": "Modelled monetization indication; not a DCF or relief-from-royalty valuation.",
+    "probabilityAdjustedStrategicValue": "Replacement-cost anchored opportunity value adjusted for technical completion, commercialization probability, rights-transfer reserve, time/risk and sector context.",
+    "triangulatedEconomicReference": "Weighted preliminary seller-side analytical reference combining the four valuation lenses; not certified market value.",
+    "sellerAsk": "Indicative seller-side acquisition asking reference, separately underwritten from the analytical value model."
+  }
 }
