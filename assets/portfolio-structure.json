@@ -1,14 +1,5 @@
 {
-  "v": "2026.09.13-im27",
-  "policy": {
-    "asset_independence": "Every active project is a standalone intellectual-property asset with its own TA-IP identifier, seller-side commercial reference, rights perimeter, diligence scope and transaction pathway.",
-    "family_role": "Families are classification and navigation categories only. They do not merge assets, rights, valuation or ownership boundaries.",
-    "public_disclosure": "The public portfolio presents commercial identity, purpose, stage, valuation references and diligence boundaries. Confidential implementation, source code, repository internals and private technical evidence remain outside the public website.",
-    "repository_intake": "Repository existence alone does not create a commercial asset. New repositories enter the register only after separate identity, transfer and valuation qualification."
-  },
-  "retired": [
-    {"slug":"research-orchestrator","ref":"TA-IP-001","status":"retired-predecessor","successor":"research-intelligence-fabric","note":"Historical identifier retained and not reused."}
-  ],
+  "v": "2026.09.13-im28-public-commercial",
   "families": [
     {"id":"evidence-intelligence","name":"Evidence & Intelligence Systems","description":"Evidence-led analysis, intelligence synthesis, structured reasoning and accountable decision support.","assets":["research-intelligence-fabric","veritas-evidence-intelligence","aletheia-intelligence-fabric","evidence-grounded-multi-expert-reasoning-system","evidence-governed-analytical-reasoning-platform","kinetic-logic-reconstructor","oraculum-infinitum","causal-state-field-engine","plantelogia-intelligence-platform"]},
     {"id":"adaptive-intelligence","name":"Adaptive Intelligence & Cognition","description":"Adaptive reasoning, cognition, orchestration and controlled AI-system research and engineering.","assets":["omnisynth-intelligence-engine","truelane-intelligence-engine","machine-cognition-research-framework","universal-kernel-machine","autonomous-adaptation-framework","resource-aware-hybrid-model-orchestration-platform","mothercode-research-engine","adaptive-general-reasoning-research-platform","adaptive-cognitive-runtime","adaptive-neural-architecture-platform"]},
