@@ -1,6 +1,6 @@
 {
-  "v": "2026.09.13-im28-public-commercial",
-  "model": "Asset-Level Five-Lens Probability-Adjusted Economic Valuation Model",
+  "v": "2026.09.15-public-commercial",
+  "model": "Recreation-Cost-Anchored Seller Pricing with Secondary Economic Lenses",
   "status": "public-seller-side-economic-model",
   "portfolio": {
     "assetCount": 83,
@@ -17,11 +17,11 @@
     "sellerAskAsShareOfReplacementCost": 0.232711388
   },
   "confidence": {
-    "replacementCost": "Seller-side reconstruction estimate rather than an independently audited all-in cost study.",
-    "marketComparableProxy": "Sector-informed analytical proxy; direct subject-asset comparability is not established.",
-    "incomeLicensingProxy": "Analytical monetization proxy; buyer-specific cash flow and royalty evidence is not established.",
-    "probabilityAdjustedStrategicValue": "Modelled using maturity, commercialization, rights and time-risk assumptions.",
-    "triangulatedEconomicReference": "Preliminary seller-side analytical reference."
+    "replacementCost": "Primary seller-side build-versus-buy reference. It is a reconstruction estimate for comparable present work product rather than an independently audited all-in cost study.",
+    "marketComparableProxy": "Secondary buyer-side context. Sector-informed analytical proxy; direct subject-asset comparability is not established.",
+    "incomeLicensingProxy": "Secondary buyer-side context. Analytical monetization proxy; buyer-specific cash flow and royalty evidence is not established.",
+    "probabilityAdjustedStrategicValue": "Secondary buyer-side context modelled using maturity, commercialization, rights and time-risk assumptions.",
+    "triangulatedEconomicReference": "Secondary preliminary analytical reference rather than the primary seller pricing basis."
   },
   "factors": {
     "marketPotential": {"S": 0.7, "M": 0.9, "H": 1.15, "VH": 1.5},
@@ -60,11 +60,11 @@
     }
   },
   "definitions": {
-    "replacementCost": "Seller-side estimate for recreating comparable present work product; supporting lens only.",
-    "marketComparableProxy": "Modelled marketability indication using maturity, potential and sector context; not a verified precedent-transaction valuation.",
-    "incomeLicensingProxy": "Modelled monetization indication; not a DCF or relief-from-royalty valuation.",
-    "probabilityAdjustedStrategicValue": "Replacement-cost anchored opportunity value adjusted for technical completion, commercialization probability, rights-transfer reserve, time/risk and sector context.",
-    "triangulatedEconomicReference": "Weighted preliminary seller-side analytical reference combining the four valuation lenses; not certified market value.",
-    "sellerAsk": "Indicative seller-side acquisition asking reference, separately underwritten from the analytical value model."
+    "replacementCost": "Primary seller-side build-versus-buy reference: estimated cost to recreate comparable present work product. It is not a guaranteed buyer saving or certified independent cost study.",
+    "marketComparableProxy": "Secondary modelled marketability indication using maturity, potential and sector context; not a verified precedent-transaction valuation.",
+    "incomeLicensingProxy": "Secondary modelled monetization indication; not a DCF or relief-from-royalty valuation and not seller-delivered future income.",
+    "probabilityAdjustedStrategicValue": "Secondary buyer-side opportunity reference anchored to replacement cost and adjusted for technical completion, commercialization probability, rights-transfer reserve, time/risk and sector context.",
+    "triangulatedEconomicReference": "Secondary weighted analytical reference combining the four economic lenses; not the primary asking-price basis and not certified market value.",
+    "sellerAsk": "Indicative seller-side source-code/IP acquisition asking reference positioned primarily against recreation cost. It is independently set rather than mechanically calculated from future income or enterprise value."
   }
 }
