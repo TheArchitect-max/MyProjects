@@ -1,5 +1,5 @@
 (()=>{'use strict';
-const SCRIPT=document.currentScript,ROOT=new URL('../',SCRIPT.src).href,AS=new URL('assets/',ROOT).href,VERSION='im28';
+const SCRIPT=document.currentScript,ROOT=new URL('../',SCRIPT.src).href,AS=new URL('assets/',ROOT).href,VERSION='im31';
 const STAGES={V:'Developed software',P:'Developed prototype',R:'Research-stage'};
 const POT={VH:'Very high',H:'High',M:'Moderate',S:'Specialist'};
 const PS={VH:4,H:3,M:2,S:1};
@@ -17,7 +17,7 @@ const BUYERS={
 'physics-math-optimization':'advanced engineering, optimisation and scientific-computing teams',
 'enterprise-web-commerce':'enterprise software, publishing, search and commerce-platform teams',
 'specialist-verticals':'specialist software acquirers and vertical-technology operators'};
-let FX=1.15982,FXDATE='2026-09-13';
+let FX=1.14637,FXDATE='2026-09-18';
 const ESC=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const EUR=v=>new Intl.NumberFormat('nl-NL',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(Number(v)||0);
 const USD=v=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format((Number(v)||0)*FX);
@@ -40,7 +40,7 @@ async function load(){
   const [d,rc,desc,structure,supp,values,method]=await Promise.all([
     fetchJSON('im-data.json'),fetchJSON('recreation-costs.json'),fetchJSON('descriptions.json'),
     fetchJSON('portfolio-structure.json'),fetchJSON('supplemental-assets.json'),
-    fetchJSON('revaluation-2026-09-13.json'),fetchJSON('economic-methodology.json')
+    fetchJSON('valuation-register.json'),fetchJSON('economic-methodology.json')
   ]);
   const famBySlug={};structure.families.forEach(f=>(f.assets||[]).forEach(s=>famBySlug[s]=f));
   const updates=new Map(values.updates.map(x=>[x.ref,x]));
