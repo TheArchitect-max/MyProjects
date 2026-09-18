@@ -1,17 +1,172 @@
 {
-  "v": "2026.09.13-im28-public-commercial",
+  "v": "2026.09.18-im31-full-repo-audit",
   "families": [
-    {"id":"evidence-intelligence","name":"Evidence & Intelligence Systems","description":"Evidence-led analysis, intelligence synthesis, structured reasoning and accountable decision support.","assets":["research-intelligence-fabric","veritas-evidence-intelligence","aletheia-intelligence-fabric","evidence-grounded-multi-expert-reasoning-system","evidence-governed-analytical-reasoning-platform","kinetic-logic-reconstructor","oraculum-infinitum","causal-state-field-engine","plantelogia-intelligence-platform"]},
-    {"id":"adaptive-intelligence","name":"Adaptive Intelligence & Cognition","description":"Adaptive reasoning, cognition, orchestration and controlled AI-system research and engineering.","assets":["omnisynth-intelligence-engine","truelane-intelligence-engine","machine-cognition-research-framework","universal-kernel-machine","autonomous-adaptation-framework","resource-aware-hybrid-model-orchestration-platform","mothercode-research-engine","adaptive-general-reasoning-research-platform","adaptive-cognitive-runtime","adaptive-neural-architecture-platform"]},
-    {"id":"visual-multimodal","name":"Visual, Spatial & Multimodal Systems","description":"Perception, visual-evidence, multimodal and spatial-computing software assets.","assets":["evidence-governed-visual-intelligence-platform","visionair-research-engine","vision-evidence-governed-multimodal-perception-framework","multimodal-evidence-adaptive-systems-platform","chimera-spectral-perception-system","spatial-wearable-perception-platform","swpp-viorith-mobile-camera-overlay"]},
-    {"id":"audio-media","name":"Audio & Media Creation","description":"Audio generation, production, media-workflow and accountable creator-technology assets.","assets":["cipher-lyric-engine","integrated-media-production-engine","sonicfabric","autonomous-documentary-engine","adaptive-audio-production-system","hybrid-adaptive-rendering-media","adaptive-audio-synthesis-platform"]},
-    {"id":"industrial-digital-twins","name":"Industrial Reliability & Digital Twins","description":"Resilience, signal, digital-twin and predictive-maintenance software assets.","assets":["athanor","stabilitymesh","continuum-state-integrity-platform","tls-virtual","signal-processing-universal-framework","sensor-fusion-digital-twin-engine","industrial-predictive-maintenance-rul-platform"]},
-    {"id":"software-assurance-control","name":"Software Assurance, Provenance & Control","description":"Governed execution, software assurance, provenance, distributed infrastructure and transfer-readiness assets.","assets":["verifiable-execution-control-platform","distributed-ai-resource-fabric","dominus-kraken-execution-engine","truelane-engineering-excellence","evidence-governed-software-assurance-platform","software-asset-provenance-qualification-platform","content-integrity-assurance-platform","distributed-compute-fabric"]},
-    {"id":"security-traceability","name":"Security, Identity & Traceability","description":"Security, identity, custody, traceability and investigation-oriented software assets.","assets":["modular-key-cryptanalysis-platform","custody-integrity-assurance-platform","biometric-systems-assurance-platform","cipherroutedb","isbr-securetrace","traceline-evidence-governed-investigation-framework","secure-actuation-integrity-platform"]},
-    {"id":"aerospace-mobility","name":"Aerospace & Mobility Engineering","description":"Simulation and engineering software for aerospace, mobility, vehicles and mission systems.","assets":["air-to-water-transition-vehicle","aerospace-mission-simulator","mt2050-experimental-dynamics","electric-flight-systems-simulation-validation-platform","advanced-ground-vehicle-engineering","fusionlunar-energy-systems-engineering-platform","truelane-studio-apex-architect"]},
-    {"id":"scientific-observation","name":"Scientific Observation & Domain Research","description":"Specialist research assets spanning biological, terrestrial, astronomical, signal and experimental domains.","assets":["ossn-uap","faunometric","protein-structure-evidence-qualification-platform","dmt-laser-phenomenology-engine","latticedepth","organismal-state-dynamics-research-platform","radioastronomy-signal-validation-platform","telluric-actualization-research-platform","bio-inspired-neural-dynamics-active-inference-simulation-platform","cardiosignal-intelligence-platform"]},
-    {"id":"physics-math-optimization","name":"Physics, Mathematics & Optimisation Research","description":"Mathematical, physics, signal-oriented and optimisation research software.","assets":["axiomfactor","temporal-physics-causality-research-platform","goldennet-signal-intelligence-platform","qubo-structural-analysis-and-optimization-platform"]},
-    {"id":"enterprise-web-commerce","name":"Enterprise, Web & Commerce Systems","description":"Organisational knowledge, publishing, search infrastructure and commerce workflow assets.","assets":["organizational-memory-engine","programmatic-search-fabric","mercorion-commerce-compiler"]},
-    {"id":"specialist-verticals","name":"Specialist Vertical Software","description":"Domain-focused software for specialist professional and operational workflows.","assets":["truelane-flora","legalops-nl","truelane-inkcore","adaptive-biofeedback-engine"]}
+    {
+      "id": "evidence-intelligence",
+      "name": "Evidence & Intelligence Systems",
+      "description": "Evidence-led analysis, intelligence synthesis, structured reasoning and accountable decision support.",
+      "assets": [
+        "research-intelligence-fabric",
+        "veritas-evidence-intelligence",
+        "aletheia-intelligence-fabric",
+        "evidence-grounded-multi-expert-reasoning-system",
+        "evidence-governed-analytical-reasoning-platform",
+        "kinetic-logic-reconstructor",
+        "oraculum-infinitum",
+        "causal-state-field-engine",
+        "plantelogia-intelligence-platform"
+      ]
+    },
+    {
+      "id": "adaptive-intelligence",
+      "name": "Adaptive Intelligence & Cognition",
+      "description": "Adaptive reasoning, cognition, orchestration and controlled AI-system research and engineering.",
+      "assets": [
+        "omnisynth-intelligence-engine",
+        "truelane-intelligence-engine",
+        "machine-cognition-research-framework",
+        "universal-kernel-machine",
+        "autonomous-adaptation-framework",
+        "resource-aware-hybrid-model-orchestration-platform",
+        "mothercode-research-engine",
+        "adaptive-general-reasoning-research-platform",
+        "adaptive-cognitive-runtime",
+        "adaptive-neural-architecture-platform"
+      ]
+    },
+    {
+      "id": "visual-multimodal",
+      "name": "Visual, Spatial & Multimodal Systems",
+      "description": "Perception, visual-evidence, multimodal and spatial-computing software assets.",
+      "assets": [
+        "evidence-governed-visual-intelligence-platform",
+        "visionair-research-engine",
+        "vision-evidence-governed-multimodal-perception-framework",
+        "multimodal-evidence-adaptive-systems-platform",
+        "chimera-spectral-perception-system",
+        "spatial-wearable-perception-platform",
+        "swpp-viorith-mobile-camera-overlay"
+      ]
+    },
+    {
+      "id": "audio-media",
+      "name": "Audio & Media Creation",
+      "description": "Audio generation, production, media-workflow and accountable creator-technology assets.",
+      "assets": [
+        "cipher-lyric-engine",
+        "integrated-media-production-engine",
+        "sonicfabric",
+        "autonomous-documentary-engine",
+        "adaptive-audio-production-system",
+        "hybrid-adaptive-rendering-media",
+        "adaptive-audio-synthesis-platform"
+      ]
+    },
+    {
+      "id": "industrial-digital-twins",
+      "name": "Industrial Reliability & Digital Twins",
+      "description": "Resilience, signal, digital-twin and predictive-maintenance software assets.",
+      "assets": [
+        "athanor",
+        "stabilitymesh",
+        "continuum-state-integrity-platform",
+        "tls-virtual",
+        "signal-processing-universal-framework",
+        "sensor-fusion-digital-twin-engine",
+        "industrial-predictive-maintenance-rul-platform"
+      ]
+    },
+    {
+      "id": "software-assurance-control",
+      "name": "Software Assurance, Provenance & Control",
+      "description": "Governed execution, software assurance, provenance, distributed infrastructure and transfer-readiness assets.",
+      "assets": [
+        "verifiable-execution-control-platform",
+        "distributed-ai-resource-fabric",
+        "dominus-kraken-execution-engine",
+        "truelane-engineering-excellence",
+        "evidence-governed-software-assurance-platform",
+        "software-asset-provenance-qualification-platform",
+        "content-integrity-assurance-platform",
+        "distributed-compute-fabric"
+      ]
+    },
+    {
+      "id": "security-traceability",
+      "name": "Security, Identity & Traceability",
+      "description": "Security, identity, custody, traceability and investigation-oriented software assets.",
+      "assets": [
+        "modular-key-cryptanalysis-platform",
+        "custody-integrity-assurance-platform",
+        "biometric-systems-assurance-platform",
+        "cipherroutedb",
+        "isbr-securetrace",
+        "traceline-evidence-governed-investigation-framework",
+        "secure-actuation-integrity-platform"
+      ]
+    },
+    {
+      "id": "aerospace-mobility",
+      "name": "Aerospace & Mobility Engineering",
+      "description": "Simulation and engineering software for aerospace, mobility, vehicles and mission systems.",
+      "assets": [
+        "air-to-water-transition-vehicle",
+        "aerospace-mission-simulator",
+        "mt2050-experimental-dynamics",
+        "electric-flight-systems-simulation-validation-platform",
+        "advanced-ground-vehicle-engineering",
+        "fusionlunar-energy-systems-engineering-platform",
+        "truelane-studio-apex-architect"
+      ]
+    },
+    {
+      "id": "scientific-observation",
+      "name": "Scientific Observation & Domain Research",
+      "description": "Specialist research assets spanning biological, terrestrial, astronomical, signal and experimental domains.",
+      "assets": [
+        "ossn-uap",
+        "faunometric",
+        "protein-structure-evidence-qualification-platform",
+        "dmt-laser-phenomenology-engine",
+        "latticedepth",
+        "organismal-state-dynamics-research-platform",
+        "radioastronomy-signal-validation-platform",
+        "telluric-actualization-research-platform",
+        "bio-inspired-neural-dynamics-active-inference-simulation-platform",
+        "cardiosignal-intelligence-platform"
+      ]
+    },
+    {
+      "id": "physics-math-optimization",
+      "name": "Physics, Mathematics & Optimisation Research",
+      "description": "Mathematical, physics, signal-oriented and optimisation research software.",
+      "assets": [
+        "axiomfactor",
+        "temporal-physics-causality-research-platform",
+        "goldennet-signal-intelligence-platform",
+        "qubo-structural-analysis-and-optimization-platform"
+      ]
+    },
+    {
+      "id": "enterprise-web-commerce",
+      "name": "Enterprise, Web & Commerce Systems",
+      "description": "Organisational knowledge, publishing, search infrastructure and commerce workflow assets.",
+      "assets": [
+        "organizational-memory-engine",
+        "programmatic-search-fabric",
+        "mercorion-commerce-compiler"
+      ]
+    },
+    {
+      "id": "specialist-verticals",
+      "name": "Specialist Vertical Software",
+      "description": "Domain-focused software for specialist professional and operational workflows.",
+      "assets": [
+        "truelane-flora",
+        "legalops-nl",
+        "truelane-inkcore",
+        "adaptive-biofeedback-engine"
+      ]
+    }
   ]
 }
