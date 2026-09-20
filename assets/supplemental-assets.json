@@ -1,5 +1,5 @@
 {
-  "v": "2026.09.20-im32-full-repo-sync",
+  "v": "2026.09.20-im33-new-assets-sync",
   "status": "qualified-commercial-references",
   "assets": [
     {
@@ -29,12 +29,12 @@
       "potential": "H",
       "route": "Research / R&D licensing",
       "family": "scientific-observation",
-      "description": "Developed computational-neuroscience research software with validated multi-source external-data qualification, neural-dynamics learning, replay, interventions, consensus evidence and projected-prior runtime experiments; v2.0 remains a release candidate and scientific interpretation stays separately bounded.",
+      "description": "Developed computational-neuroscience research software with validated multi-source data qualification, consensus evidence, projected-prior runtime experiments and robustness controls; scientific interpretation remains separately bounded.",
       "pricing_status": "established",
-      "ask": 725000,
-      "low": 580000,
-      "high": 910000,
-      "recreationCost": 2600000
+      "ask": 850000,
+      "low": 680000,
+      "high": 1065000,
+      "recreationCost": 3000000
     },
     {
       "id": 80,
@@ -137,6 +137,40 @@
       "low": 160000,
       "high": 250000,
       "recreationCost": 1150000
+    },
+    {
+      "id": 86,
+      "ref": "TA-IP-086",
+      "slug": "interactive-piano-learning-platform",
+      "name": "Interactive Piano Learning Platform",
+      "sector": "Specialist Vertical Software",
+      "stage": "V",
+      "potential": "H",
+      "route": "Vertical SaaS / specialist software",
+      "family": "specialist-verticals",
+      "description": "Local-first piano learning and practice software with MIDI feedback, adaptive coaching, score import and synchronized private accompaniment.",
+      "pricing_status": "established",
+      "ask": 350000,
+      "low": 280000,
+      "high": 440000,
+      "recreationCost": 1250000
+    },
+    {
+      "id": 87,
+      "ref": "TA-IP-087",
+      "slug": "adaptive-audio-midi-transcription-studio",
+      "name": "Adaptive Audio MIDI Transcription Studio",
+      "sector": "Media & Creator Technology",
+      "stage": "P",
+      "potential": "H",
+      "route": "Media / creator software",
+      "family": "audio-media",
+      "description": "Local-first audio transcription prototype for stem separation, polyphonic audio-to-MIDI conversion, piano-roll review and multitrack MIDI export.",
+      "pricing_status": "established",
+      "ask": 80000,
+      "low": 65000,
+      "high": 100000,
+      "recreationCost": 450000
     }
   ]
 }
