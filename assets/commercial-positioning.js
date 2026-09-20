@@ -1,12 +1,12 @@
 (()=>{'use strict';
-const SCRIPT=document.currentScript,ROOT=new URL('../',SCRIPT.src).href,AS=new URL('assets/',ROOT).href,FX=1.14637,FXDATE='2026-09-18';
+const SCRIPT=document.currentScript,ROOT=new URL('../',SCRIPT.src).href,AS=new URL('assets/',ROOT).href,FX=1.1479,FXDATE='2026-09-20';
 const EUR=v=>new Intl.NumberFormat('nl-NL',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(Number(v)||0);
 const USD=v=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format((Number(v)||0)*FX);
 const EURM=v=>`€${((Number(v)||0)/1e6).toLocaleString('en-US',{minimumFractionDigits:3,maximumFractionDigits:3})}M`;
 const USDM=v=>`$${(((Number(v)||0)*FX)/1e6).toLocaleString('en-US',{minimumFractionDigits:3,maximumFractionDigits:3})}M`;
 const PCT=v=>`${(Number(v)*100).toLocaleString('en-US',{minimumFractionDigits:1,maximumFractionDigits:1})}%`;
 const spread=(rep,ask)=>Math.max(0,(Number(rep)||0)-(Number(ask)||0));
-const fetchJSON=async n=>{const r=await fetch(`${AS}${n}?v=cp2`,{cache:'no-store'});if(!r.ok)throw Error(n);return r.json()};
+const fetchJSON=async n=>{const r=await fetch(`${AS}${n}?v=cp3`,{cache:'no-store'});if(!r.ok)throw Error(n);return r.json()};
 const DATA=Promise.all([fetchJSON('im-data.json'),fetchJSON('recreation-costs.json'),fetchJSON('supplemental-assets.json'),fetchJSON('valuation-register.json')]).then(([d,rc,supp,val])=>{
   const byRef=new Map();
   d.a.forEach((x,i)=>byRef.set(x[1],{ref:x[1],ask:Number(x[8]),low:Number(x[9]),high:Number(x[10]),recreation:Number(rc.assets[i])||0}));
