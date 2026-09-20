@@ -4,12 +4,13 @@ Public commercial catalogue for independently scoped proprietary technology and 
 
 The current public register contains **83 individually priced assets**: **50 developed software assets, 29 developed prototypes and 4 research-stage assets**. Seller-side pricing is anchored primarily to estimated recreation cost for comparable present transferable work product.
 
-## Current public snapshot — 18 September 2026
+## Current public snapshot — 20 September 2026
 
-- Aggregate IP buy-out ask: **EUR 17.675M**
-- Indicative negotiation range: **EUR 14.120M–22.155M**
-- Estimated recreation cost: **EUR 74.550M**
-- Ask / recreation cost: **23.71%**
+- Aggregate IP buy-out ask: **EUR 18.225M**
+- Indicative negotiation range: **EUR 14.560M–22.855M**
+- Estimated recreation cost: **EUR 76.500M**
+- Ask / recreation cost: **23.82%**
+- Indicative build-versus-buy spread: **EUR 58.275M**
 
 EUR amounts are authoritative. USD amounts on the website are indicative conversions using the dated exchange rate shown by the public renderer.
 
