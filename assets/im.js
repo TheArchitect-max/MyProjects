@@ -1,5 +1,5 @@
 (()=>{'use strict';
-const SCRIPT=document.currentScript,ROOT=new URL('../',SCRIPT.src).href,AS=new URL('assets/',ROOT).href,VERSION='im31';
+const SCRIPT=document.currentScript,ROOT=new URL('../',SCRIPT.src).href,AS=new URL('assets/',ROOT).href,VERSION='im32';
 const STAGES={V:'Developed software',P:'Developed prototype',R:'Research-stage'};
 const POT={VH:'Very high',H:'High',M:'Moderate',S:'Specialist'};
 const PS={VH:4,H:3,M:2,S:1};
@@ -17,7 +17,7 @@ const BUYERS={
 'physics-math-optimization':'advanced engineering, optimisation and scientific-computing teams',
 'enterprise-web-commerce':'enterprise software, publishing, search and commerce-platform teams',
 'specialist-verticals':'specialist software acquirers and vertical-technology operators'};
-let FX=1.14637,FXDATE='2026-09-18';
+let FX=1.1479,FXDATE='2026-09-20';
 const ESC=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const EUR=v=>new Intl.NumberFormat('nl-NL',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(Number(v)||0);
 const USD=v=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format((Number(v)||0)*FX);
