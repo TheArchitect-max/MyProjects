@@ -1,5 +1,5 @@
 {
-  "v": "2026.09.20-im33-new-assets-sync",
+  "v": "2026.09.27-im34-full-repo-sync",
   "status": "qualified-commercial-references",
   "assets": [
     {
@@ -29,12 +29,12 @@
       "potential": "H",
       "route": "Research / R&D licensing",
       "family": "scientific-observation",
-      "description": "Developed computational-neuroscience research software with validated multi-source data qualification, consensus evidence, projected-prior runtime experiments and robustness controls; scientific interpretation remains separately bounded.",
+      "description": "Developed computational-neuroscience research software with validated multi-source qualification, projected-prior robustness and bounded failure-envelope research; scientific and clinical interpretation remain separate.",
       "pricing_status": "established",
-      "ask": 850000,
-      "low": 680000,
-      "high": 1065000,
-      "recreationCost": 3000000
+      "ask": 925000,
+      "low": 740000,
+      "high": 1160000,
+      "recreationCost": 3300000
     },
     {
       "id": 80,
@@ -148,12 +148,12 @@
       "potential": "H",
       "route": "Vertical SaaS / specialist software",
       "family": "specialist-verticals",
-      "description": "Local-first piano learning and practice software with MIDI feedback, adaptive coaching, score import and synchronized private accompaniment.",
+      "description": "Developed local-first piano learning and practice software with MIDI and acoustic feedback, adaptive coaching, score and audio workflows, learned transcription support and private local media handling.",
       "pricing_status": "established",
-      "ask": 350000,
-      "low": 280000,
-      "high": 440000,
-      "recreationCost": 1250000
+      "ask": 550000,
+      "low": 440000,
+      "high": 690000,
+      "recreationCost": 2000000
     },
     {
       "id": 87,
@@ -171,6 +171,23 @@
       "low": 65000,
       "high": 100000,
       "recreationCost": 450000
+    },
+    {
+      "id": 88,
+      "ref": "TA-IP-088",
+      "slug": "reserveflow-saas-platform",
+      "name": "ReserveFlow SaaS Platform",
+      "sector": "Enterprise Software & Operations",
+      "stage": "V",
+      "potential": "H",
+      "route": "B2B SaaS / enterprise software",
+      "family": "enterprise-web-commerce",
+      "description": "Developed multi-tenant SaaS control platform with tenant isolation, role-based access, workspace persistence, billing-state controls, audit, deployment and operational foundations.",
+      "pricing_status": "established",
+      "ask": 380000,
+      "low": 305000,
+      "high": 475000,
+      "recreationCost": 1350000
     }
   ]
 }
