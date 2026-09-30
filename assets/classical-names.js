@@ -4,7 +4,6 @@ const root=new URL('../',script.src);
 const cfgUrl=new URL('assets/display-names.json?v=classical1',root).href;
 const projectSlug=()=>{const base=new URL(root).pathname.replace(/\/$/,'');const rel=location.pathname.startsWith(base)?location.pathname.slice(base.length):location.pathname;const m=rel.match(/(?:^|\/)projects\/([^/]+)(?:\/|$)/);return m?decodeURIComponent(m[1]):''};
 const slugFromHref=href=>{try{const m=new URL(href,location.href).pathname.match(/\/projects\/([^/]+)(?:\/|$)/);return m?decodeURIComponent(m[1]):''}catch{return''}};
-const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 fetch(cfgUrl,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('display names unavailable');return r.json()}).then(cfg=>{
   const names=cfg&&cfg.names||{};
   const entries=Object.entries(names).filter(([,v])=>v&&typeof v.displayName==='string'&&v.displayName.trim());
@@ -56,8 +55,9 @@ fetch(cfgUrl,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('display names un
   const sortAliasRows=()=>{
     const sel=document.getElementById('sort'),box=document.getElementById('portfolio-list');if(!sel||!box||sel.value!=='name')return;
     const rows=[...box.children];if(rows.length<2)return;
-    rows.sort((x,y)=>{const ax=(x.querySelector('.ta-classical-name')?.textContent||'').trim();const ay=(y.querySelector('.ta-classical-name')?.textContent||'').trim();return ax.localeCompare(ay,undefined,{sensitivity:'base'})});
-    rows.forEach(r=>box.appendChild(r));
+    const ordered=[...rows].sort((x,y)=>{const ax=(x.querySelector('.ta-classical-name')?.textContent||'').trim();const ay=(y.querySelector('.ta-classical-name')?.textContent||'').trim();return ax.localeCompare(ay,undefined,{sensitivity:'base'})});
+    if(rows.every((row,i)=>row===ordered[i]))return;
+    ordered.forEach(r=>box.appendChild(r));
   };
 
   const apply=()=>{bindLinkedHeadings();bindProjectHero();addNamingNote();sortAliasRows()};
