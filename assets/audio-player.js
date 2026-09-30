@@ -1,0 +1,23 @@
+(()=>{'use strict';
+const script=document.currentScript;
+const root=new URL('../',script.src);
+const source=new URL('assets/classical-cello-background.mp3?v=music1',root).href;
+const STORE='ta_portfolio_music_v1',TIME='ta_portfolio_music_time_v1',VOL='ta_portfolio_music_volume_v1';
+let enabled=false,volume=.12,saveTick=0;
+try{enabled=localStorage.getItem(STORE)==='on';const v=Number(localStorage.getItem(VOL));if(Number.isFinite(v)&&v>=0&&v<=.5)volume=v;}catch{}
+const style=document.createElement('style');
+style.textContent=`.ta-music{position:fixed;right:max(14px,env(safe-area-inset-right));bottom:max(14px,env(safe-area-inset-bottom));z-index:10000;display:flex;align-items:center;gap:9px;padding:8px 10px;background:rgba(7,6,4,.88);border:1px solid rgba(202,165,93,.42);border-radius:999px;box-shadow:0 14px 38px rgba(0,0,0,.34);backdrop-filter:blur(14px);color:#ead9b5;font:600 11px/1 system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase}.ta-music button{border:0;background:transparent;color:inherit;display:flex;align-items:center;gap:7px;padding:4px 5px;cursor:pointer;font:inherit;letter-spacing:inherit;text-transform:inherit}.ta-music button:focus-visible,.ta-music input:focus-visible{outline:2px solid #d9b66f;outline-offset:3px}.ta-music-icon{display:grid;place-items:center;width:22px;height:22px;border:1px solid rgba(226,193,126,.45);border-radius:50%;font-size:12px}.ta-music[data-playing="true"] .ta-music-icon{background:rgba(218,180,103,.13);border-color:rgba(226,193,126,.82)}.ta-music-status{min-width:58px;white-space:nowrap}.ta-music input{width:72px;accent-color:#d9b66f;cursor:pointer}.ta-music-note{position:absolute;right:8px;bottom:calc(100% + 7px);max-width:220px;padding:7px 9px;border:1px solid rgba(202,165,93,.3);border-radius:8px;background:rgba(7,6,4,.92);color:#d9caa9;font:500 10px/1.35 system-ui,sans-serif;letter-spacing:.02em;text-transform:none;opacity:0;pointer-events:none}.ta-music[data-blocked="true"] .ta-music-note{opacity:1}@media(max-width:640px){.ta-music{right:10px;bottom:10px;padding:7px 8px}.ta-music input{width:58px}.ta-music-status{display:none}}`;
+document.head.appendChild(style);
+const audio=document.createElement('audio');audio.src=source;audio.loop=true;audio.preload='metadata';audio.volume=volume;audio.setAttribute('playsinline','');document.body.appendChild(audio);
+const box=document.createElement('div');box.className='ta-music';box.dataset.playing='false';box.dataset.blocked='false';box.innerHTML=`<button type="button" aria-label="Play background music" aria-pressed="false"><span class="ta-music-icon">♫</span><span class="ta-music-status">Music off</span></button><input type="range" min="0" max="0.5" step="0.01" value="${volume}" aria-label="Background music volume"><span class="ta-music-note" role="status">Select Music to resume audio.</span>`;document.body.appendChild(box);
+const toggle=box.querySelector('button'),status=box.querySelector('.ta-music-status'),slider=box.querySelector('input');
+const ui=(playing,blocked=false)=>{box.dataset.playing=String(playing);box.dataset.blocked=String(blocked);toggle.setAttribute('aria-pressed',String(playing));toggle.setAttribute('aria-label',playing?'Pause background music':'Play background music');status.textContent=playing?'Music on':'Music off'};
+const remember=()=>{try{if(Number.isFinite(audio.currentTime))sessionStorage.setItem(TIME,String(audio.currentTime))}catch{}};
+const restore=()=>{try{const t=Number(sessionStorage.getItem(TIME));if(Number.isFinite(t)&&t>0&&audio.duration&&t<audio.duration-1)audio.currentTime=t}catch{}};
+const setEnabled=v=>{enabled=v;try{localStorage.setItem(STORE,v?'on':'off')}catch{}};
+const play=async(user=false)=>{if(user)setEnabled(true);try{await audio.play();ui(true,false)}catch{ui(false,true)}};
+const pause=()=>{audio.pause();setEnabled(false);remember();ui(false,false)};
+toggle.addEventListener('click',()=>audio.paused?play(true):pause());
+slider.addEventListener('input',()=>{volume=Math.min(.5,Math.max(0,Number(slider.value)||0));audio.volume=volume;try{localStorage.setItem(VOL,String(volume))}catch{}});
+audio.addEventListener('loadedmetadata',()=>{restore();if(enabled)play(false)},{once:true});audio.addEventListener('play',()=>ui(true,false));audio.addEventListener('error',()=>{box.hidden=true});audio.addEventListener('timeupdate',()=>{const n=Date.now();if(n-saveTick>2500){saveTick=n;remember()}});window.addEventListener('pagehide',remember);
+})();
