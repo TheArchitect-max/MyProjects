@@ -2,15 +2,15 @@
 
 Public commercial showroom for independently scoped proprietary technology and software assets.
 
-The current public register contains **87 individually priced assets**: **55 developed software assets, 28 developed prototypes and 4 research-stage assets**.
+The current public register contains **89 individually priced assets**: **55 developed software assets, 30 developed prototypes and 4 research-stage assets**.
 
-## Public snapshot — 3 October 2026
+## Public snapshot — 5 October 2026
 
-- Aggregate IP acquisition ask: **EUR 22.055M**
-- Indicative negotiation range: **EUR 17.625M–27.645M**
-- Engineering-equivalent recreation cost: **EUR 91.880M**
-- Ask / recreation cost: **24.00%**
-- Indicative build-versus-buy spread: **EUR 69.825M**
+- Aggregate IP acquisition ask: **EUR 22.870M**
+- Indicative negotiation range: **EUR 18.275M–28.665M**
+- Engineering-equivalent recreation cost: **EUR 96.130M**
+- Ask / recreation cost: **23.79%**
+- Indicative build-versus-buy spread: **EUR 73.260M**
 
 EUR amounts are authoritative. USD values on the website are presentation-only conversions using a dated public exchange rate.
 
