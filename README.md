@@ -45,3 +45,11 @@ The public site now distinguishes the **89 individually priced commercial assets
 
 Development capital is milestone-based: no project-specific funding amount is represented as validated until a defined scope, evidence baseline, use-of-funds budget and acceptance criteria exist. The GitHub Pages site is informational only and does not process investments, crowdfunding payments, users, sessions or financial transactions.
 <!-- DEVELOPMENT-REGISTER:END -->
+
+<!-- PROJECT-IDENTITIES:START -->
+## Project identity names
+
+Every one of the 95 repository-backed projects now has a stable feminine public identity name. These identities are presentation and project-reference aliases only: canonical technical names, repository URLs, valuation records, evidence lineage and ownership are unchanged.
+
+The authoritative public mapping is `assets/project-identities.json`.
+<!-- PROJECT-IDENTITIES:END -->
