@@ -1,7 +1,7 @@
 {
-  "version": "2026.10.07-development-register-v2",
-  "status": "repository-evidenced-unpriced-projects",
-  "policy": "These records extend the development register without assigning a public valuation or funding target. Distinct repository lineages receive distinct public development slugs. Capital requirements are established only against a separately validated milestone and budget.",
+  "version": "2026.10.07-development-register-v3",
+  "status": "repository-evidenced-non-standalone-commercial-projects",
+  "policy": "These substantive project repositories remain in the 95-project development register without a separate standalone seller-side price. Digital Twin Core has no committed implementation baseline. LEARNPIANO is economically represented by TA-IP-086 Interactive Piano Learning Platform, and the distinct PLANTELOGIA lineage is economically represented within TA-IP-085 Adaptive Systems Intelligence Platform. This prevents duplicate economic counting while preserving project-level identity.",
   "projects": [
     {
       "slug": "digital-twin-core",
@@ -9,15 +9,8 @@
       "stageLabel": "No committed implementation baseline",
       "familyName": "Industrial Reliability & Digital Twins",
       "sector": "Industrial & Infrastructure Software",
-      "description": "Reserved Digital Twin Core project. At the current repository state, no committed implementation baseline exists and no software maturity claim is made."
-    },
-    {
-      "slug": "h-rm-lyra-automotive-lyra-rs-3-6t",
-      "name": "HΛRM LYRA Automotive / LYRA RS 3.6T",
-      "stageLabel": "Engineering baseline",
-      "familyName": "Aerospace & Mobility Engineering",
-      "sector": "Aerospace & Mobility",
-      "description": "Automotive engineering-analysis and simulation project with deterministic tooling that separates source-defined design targets, derived calculations and externally validated evidence."
+      "description": "Reserved Digital Twin Core project. At the current repository state, no committed implementation baseline exists and no software maturity claim is made.",
+      "pricingDisposition": "No standalone seller-side price: no committed implementation baseline exists."
     },
     {
       "slug": "learnpiano",
@@ -25,15 +18,8 @@
       "stageLabel": "Developed application",
       "familyName": "Specialist Vertical Software",
       "sector": "Specialist Vertical Software",
-      "description": "Local-first piano learning, performance and production software with browser-based practice, MIDI and audio workflows, adaptive coaching and repository-owned validation."
-    },
-    {
-      "slug": "lyra-aero-evtol",
-      "name": "LYRA-AERO eVTOL",
-      "stageLabel": "Developed analytical prototype",
-      "familyName": "Aerospace & Mobility Engineering",
-      "sector": "Aerospace & Mobility",
-      "description": "eVTOL digital-twin and simulation research software with reproducible analytical power, energy, lift and design-space calculations, deterministic exploration and audit records."
+      "description": "Local-first piano learning, performance and production software with browser-based practice, MIDI and audio workflows, adaptive coaching and repository-owned validation.",
+      "pricingDisposition": "No duplicate seller-side price: current economic work product is represented by TA-IP-086 Interactive Piano Learning Platform."
     },
     {
       "slug": "plantelogia-intelligence-platform-lineage",
@@ -41,15 +27,8 @@
       "stageLabel": "Qualified engineering prototype",
       "familyName": "Evidence & Intelligence Systems",
       "sector": "AI, Decision & Knowledge Systems",
-      "description": "Evidence-governed intelligence and policy-runtime software with persistent evidence, audit, policy, delegated-authority and provenance foundations, maintained as a distinct PLANTELOGIA lineage project."
-    },
-    {
-      "slug": "universal-capability-synthesis-engine",
-      "name": "Universal Capability Synthesis Engine (UCSE)",
-      "stageLabel": "Developed executable prototype",
-      "familyName": "Adaptive Intelligence & Cognition",
-      "sector": "AI, Decision & Knowledge Systems",
-      "description": "Evidence-governed software-capability discovery, evaluation, benchmarking and synthesis engine with an executable kernel, qualification gates, reproducible benchmark support and provenance tracking."
+      "description": "Evidence-governed intelligence and policy-runtime software with persistent evidence, audit, policy, delegated-authority and provenance foundations, maintained as a distinct PLANTELOGIA lineage project.",
+      "pricingDisposition": "No duplicate seller-side price: current economic work product is represented within TA-IP-085 Adaptive Systems Intelligence Platform."
     }
   ]
 }
