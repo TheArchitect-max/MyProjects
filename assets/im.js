@@ -2,7 +2,7 @@
 const SCRIPT=document.currentScript;
 const ROOT=new URL('../',SCRIPT.src).href;
 const AS=new URL('assets/',ROOT).href;
-const VERSION='im42';
+const VERSION='im43';
 const EXPECTED_ASSETS=92;
 const FX=1.12448, FXDATE='2026-10-07';
 const STAGES={V:'Developed software',P:'Developed prototype',R:'Research-stage'};
@@ -64,16 +64,19 @@ function reconcile(assets,p){
   return{totals:s,checks,ok:Object.values(checks).every(Boolean)};
 }
 async function load(){
-  const[d,rc,desc,structure,supp,valText,methodText,att,development,identities,futureText]=await Promise.all([
+  const[d,rc,desc,structure,supp,valText,methodText,att,development,identities,futureText,readinessText,ownershipText,supplyText,auditText]=await Promise.all([
     fetchJSON('im-data.json'),fetchJSON('recreation-costs.json'),fetchJSON('descriptions.json'),fetchJSON('portfolio-structure.json'),
     fetchJSON('supplemental-assets.json'),fetchText('valuation-register.json'),fetchText('economic-methodology.json'),fetchJSON('public-attestation.json'),
-    fetchJSON('development-projects.json'),fetchJSON('project-identities.json'),fetchText('future-economic-references.json')
+    fetchJSON('development-projects.json'),fetchJSON('project-identities.json'),fetchText('future-economic-references.json'),fetchText('seller-readiness-register.json'),
+    fetchText('ip-ownership-register.json'),fetchText('software-supply-chain-summary.json'),fetchText('portfolio-audit-certificate.json')
   ]);
-  const values=JSON.parse(valText),method=JSON.parse(methodText),future=JSON.parse(futureText);
+  const values=JSON.parse(valText),method=JSON.parse(methodText),future=JSON.parse(futureText),sellerReadiness=JSON.parse(readinessText),ownership=JSON.parse(ownershipText),supplyChain=JSON.parse(supplyText),auditCertificate=JSON.parse(auditText);
   const identityBySlug=new Map((identities.projects||[]).map(x=>[x.slug,x]));
   const futureBySlug=new Map((future.projects||[]).map(x=>[x.slug,x]));
+  const readinessBySlug=new Map((sellerReadiness.projects||[]).map(x=>[x.slug,x]));
   if(identityBySlug.size!==95)throw Error('Project identity register mismatch');
   if(futureBySlug.size!==95)throw Error('Future economic reference register mismatch');
+  if(readinessBySlug.size!==95)throw Error('Seller readiness register mismatch');
   const famBySlug={};structure.families.forEach(f=>(f.assets||[]).forEach(s=>famBySlug[s]=f));
   const updates=new Map((values.updates||[]).map(x=>[x.ref,x]));
   const primary=d.a.map((x,i)=>({id:x[0],ref:x[1],slug:x[2],name:x[3],sector:d.s[x[4]],stage:x[5],potential:x[6],route:d.r[x[7]],ask:x[8],low:x[9],high:x[10],replacementCost:rc.assets[i],description:desc.descriptions[x[2]]||''}));
@@ -84,26 +87,31 @@ async function load(){
     const family=famBySlug[a.slug];if(!family)throw Error(`Missing family for ${a.slug}`);
     const identity=identityBySlug.get(a.slug);if(!identity)throw Error(`Missing project identity for ${a.slug}`);
     const futureReference=futureBySlug.get(a.slug);if(!futureReference)throw Error(`Missing future economic reference for ${a.slug}`);
-    return{...a,family,econ:econ(a,method,u),identityName:identity.identityName,identityExisting:identity.existingCanonical,displayName:identity.existingCanonical?a.name:`${identity.identityName} · ${a.name}`,futureReference};
+    const sellerReadinessRecord=readinessBySlug.get(a.slug);if(!sellerReadinessRecord)throw Error(`Missing seller readiness record for ${a.slug}`);
+    return{...a,family,econ:econ(a,method,u),identityName:identity.identityName,identityExisting:identity.existingCanonical,displayName:identity.existingCanonical?a.name:`${identity.identityName} · ${a.name}`,futureReference,sellerReadinessRecord};
   });
   if(assets.length!==EXPECTED_ASSETS||new Set(assets.map(x=>x.ref)).size!==EXPECTED_ASSETS)throw Error('Portfolio register mismatch');
   const integrity={
     valuation:(await sha256(valText))===att.files['valuation-register.json'].sha256,
     methodology:(await sha256(methodText))===att.files['economic-methodology.json'].sha256,
-    futureReferences:(await sha256(futureText))===att.files['future-economic-references.json'].sha256
+    futureReferences:(await sha256(futureText))===att.files['future-economic-references.json'].sha256,
+    sellerReadiness:(await sha256(readinessText))===att.files['seller-readiness-register.json'].sha256,
+    ownership:(await sha256(ownershipText))===att.files['ip-ownership-register.json'].sha256,
+    supplyChain:(await sha256(supplyText))===att.files['software-supply-chain-summary.json'].sha256,
+    auditCertificate:(await sha256(auditText))===att.files['portfolio-audit-certificate.json'].sha256
   };
-  integrity.ok=integrity.valuation&&integrity.methodology&&integrity.futureReferences;
+  integrity.ok=Object.values(integrity).every(Boolean);
   const rec=reconcile(assets,values.portfolio);
   const projects=[
     ...assets.map(a=>({...a,kind:'asset',commercialReference:true,stageLabel:STAGES[a.stage],familyName:a.family.name})),
-    ...(development.projects||[]).map(p=>{const identity=identityBySlug.get(p.slug);if(!identity)throw Error(`Missing project identity for ${p.slug}`);const futureReference=futureBySlug.get(p.slug);if(!futureReference)throw Error(`Missing future economic reference for ${p.slug}`);return{...p,kind:'development',commercialReference:false,identityName:identity.identityName,identityExisting:identity.existingCanonical,displayName:identity.existingCanonical?p.name:`${identity.identityName} · ${p.name}`,futureReference}})
+    ...(development.projects||[]).map(p=>{const identity=identityBySlug.get(p.slug);if(!identity)throw Error(`Missing project identity for ${p.slug}`);const futureReference=futureBySlug.get(p.slug);if(!futureReference)throw Error(`Missing future economic reference for ${p.slug}`);const sellerReadinessRecord=readinessBySlug.get(p.slug);if(!sellerReadinessRecord)throw Error(`Missing seller readiness record for ${p.slug}`);return{...p,kind:'development',commercialReference:false,identityName:identity.identityName,identityExisting:identity.existingCanonical,displayName:identity.existingCanonical?p.name:`${identity.identityName} · ${p.name}`,futureReference,sellerReadinessRecord}})
   ];
   if(projects.length!==95||new Set(projects.map(x=>x.slug)).size!==95)throw Error('Development project register mismatch');
-  return{d,structure,values,method,assets,projects,development,identities,future,att,integrity,reconciliation:rec};
+  return{d,structure,values,method,assets,projects,development,identities,future,sellerReadiness,ownership,supplyChain,auditCertificate,att,integrity,reconciliation:rec};
 }
 function path(){const base=new URL(ROOT).pathname.replace(/\/$/,'');return location.pathname.startsWith(base)?location.pathname.slice(base.length).replace(/^\/+|\/+$/g,''):''}
 function nav(active){
-  const items=[['','Overview'],['portfolio.html','Collection'],['development.html','Development'],['proof.html','Proof'],['valuation.html','Valuation'],['evidence.html','Diligence'],['transaction.html','Transaction']];
+  const items=[['','Overview'],['portfolio.html','Collection'],['development.html','Development'],['assurance.html','Assurance'],['proof.html','Proof'],['valuation.html','Valuation'],['evidence.html','Diligence'],['transaction.html','Transaction']];
   return`<header class="site-head"><div class="shell nav"><a class="brand" href="${ROOT}"><span class="monogram">TA</span><span class="brand-copy"><strong>THEARCHITECT_MAX</strong><span>Private Technology · Public Catalogue</span></span></a><nav class="nav-links" aria-label="Primary navigation">${items.map(([u,l])=>`<a${active===u?' aria-current="page"':''} href="${ROOT}${u}">${l}</a>`).join('')}</nav></div></header>`;
 }
 function footer(n){
