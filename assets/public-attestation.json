@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.07-im44-public-attestation",
+  "version": "2026.10.07-im45-public-attestation",
   "publicationDate": "2026-10-07",
   "portfolioAssetCount": 92,
   "valuationBasisDate": "2026-10-07",
@@ -23,11 +23,11 @@
     },
     "seller-readiness-register.json": {
       "algorithm": "SHA-256",
-      "sha256": "be6dbfa660737b9c01778aa047c0c4d367549bdb461bc48f4d91a5e178a22406"
+      "sha256": "9f983cade3aeaecfecfd202cf367b909c31eb72e9782f71ef9695fc68738a7b3"
     },
     "ip-ownership-register.json": {
       "algorithm": "SHA-256",
-      "sha256": "d4f835271dc20a1d00d206292bb6e91035862481a135cf70832920a8d43607fd"
+      "sha256": "b16baeed830e790b8c181553acba7570128bc838d6ee6fcbf135d5ac71d8696b"
     },
     "software-supply-chain-summary.json": {
       "algorithm": "SHA-256",
@@ -35,15 +35,11 @@
     },
     "portfolio-audit-certificate.json": {
       "algorithm": "SHA-256",
-      "sha256": "5c32eaaeebc756ffe8710b082d3fd5b802e980c3eb284266c8f3749d8fbfd109"
+      "sha256": "5ca11c5ce1360fc4a19b6fee21042934be30bb35356082b54a145ed709d45802"
     },
-    "development-provenance-register.json": {
+    "rights-transfer-register.json": {
       "algorithm": "SHA-256",
-      "sha256": "0a6040d56a1579682d542d7cc80df88f4daea38ea2d78a09fb18df91135d3220"
-    },
-    "trade-secret-register.json": {
-      "algorithm": "SHA-256",
-      "sha256": "e974daddc1f9385696e4683d96757d9dce5a09220199c48c9b7f93abab590745"
+      "sha256": "2f1f872b9048cac6a0363a86efc89d7f8ae016892cd20454c49b01ade7d63f9a"
     }
   },
   "verification": {
@@ -53,7 +49,7 @@
     "existenceBoundary": "The timestamped public publication and matching digests demonstrate existence and integrity of the public commercial record as published. They do not independently prove authorship, legal title, patent priority, source-code identity, scientific validity, security assurance, certified valuation or commercial outcome.",
     "futureEconomicReferences": "The public renderer verifies the SHA-256 digest of the 95-project milestone-conditioned economic-reference register. Numeric entries are maturity-only sensitivities, not forecasts or current values.",
     "sellerReadiness": "The public renderer verifies the SHA-256 digests of the seller-readiness, ownership, supply-chain and audit-certificate records before presenting acquisition-readiness status.",
-    "creatorProvenance": "The public renderer verifies the development-provenance and trade-secret classification records. Historical multi-AI development provenance is owner-declared; current repository baselines remain independently auditable through repository evidence."
+    "rightsTransfer": "The public renderer verifies the seller-readiness, IP-ownership, software supply-chain, portfolio audit and rights-transfer records. The public transaction layer focuses on the offered rights, third-party obligations and transfer perimeter rather than internal development methods."
   },
-  "privacyBoundary": "Public records expose seller-side status, owner-declared provenance, evidence metadata, hashes and transfer boundaries only. Deleted historical AI conversation chains are not retained. Surviving private know-how, credentials, customer data, sensitive implementation details and transaction-confidential material remain outside the public showroom."
+  "privacyBoundary": "Public records expose seller-side commercial, rights, transfer, evidence and non-sensitive supply-chain metadata only. Internal development methods, proprietary know-how, credentials, customer data, sensitive implementation details and transaction-confidential material remain outside the public showroom."
 }
