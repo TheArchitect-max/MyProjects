@@ -2,27 +2,21 @@
 
 Basis date: 2026-10-07
 
-## Classification levels
+## PUBLIC
+Information intentionally published in repositories, GitHub Pages, public READMEs and approved public commercial/evidence registers.
 
-### PUBLIC
-Information intentionally published in GitHub repositories, GitHub Pages, public READMEs, public valuation registers or other approved public materials.
+## CONTROLLED
+Non-public technical, validation, architecture, rights, transfer or commercial material disclosed only for a defined transaction purpose to a qualified counterparty.
 
-### CONTROLLED
-Non-public technical, validation, architecture, transfer or commercial material disclosed only for a defined purpose to a qualified counterparty.
+## RESTRICTED
+Credentials, secrets, personal/customer data, exploitable security details, transaction-confidential information and proprietary non-public know-how.
 
-### RESTRICTED
-Credentials, secrets, personal/customer data, transaction-confidential information, private security details and surviving trade-secret know-how.
+## Internal development methods
 
-### IRRECOVERABLE / NOT RETAINED
-Deleted historical AI conversations and intermediate development states. This is an evidence state, not a confidentiality class and not a trade-secret claim.
-
-## Creator provenance
-
-The owner declares one human creator working iteratively across multiple AI systems. Historical conversation chains were deliberately deleted and no duplicate archive is retained. Current repositories are the authoritative surviving auditable artifacts.
+Internal workflows, research methods, prompts, design reasoning and other non-public development know-how are not part of the public acquisition record. They are disclosed only if commercially necessary and expressly included within a controlled transaction scope.
 
 ## Handling
 
 - PUBLIC material may be referenced publicly.
-- CONTROLLED material is disclosed only when justified by transaction scope.
-- RESTRICTED material is never placed in the public showroom.
-- IRRECOVERABLE material cannot be produced and must not be represented as available evidence.
+- CONTROLLED material is disclosed only to the extent required for a defined transaction.
+- RESTRICTED material is not placed in the public showroom.
