@@ -74,3 +74,31 @@ A numeric reference is published only for an objective **R→P** or **P→V** ma
 
 Projects already at stage V receive no higher amount unless new attributable market, income, transaction or other independently supportable evidence exists. The authoritative register is `assets/future-economic-references.json`.
 <!-- FUTURE-ECONOMIC-REFERENCES:END -->
+
+<!-- SELLER-READINESS:START -->
+## Seller evidence & transaction readiness
+
+A repository-native seller-side acquisition audit now covers all **95 substantive projects**. Every project has an `ACQUISITION_DOSSIER.md` tied to a frozen baseline and a five-axis Asset Assurance Matrix.
+
+Current status:
+
+- **2 READY**
+- **83 READY_WITH_CONDITIONS**
+- **10 NOT_READY**
+- **0 pending**
+
+This is seller-side documentation and transfer readiness, not buyer due diligence. Independent legal title/FTO opinions, certified penetration tests and independent valuations are never implied unless separately evidenced.
+
+Authoritative machine-readable registers:
+
+- `assets/seller-readiness-register.json`
+- `assets/ip-ownership-register.json`
+- `assets/software-supply-chain-summary.json`
+- `assets/portfolio-audit-certificate.json`
+
+Institutional documentation:
+
+- `docs/SELLER_READINESS_STANDARD.md`
+- `docs/CONTROLLED_VDR_INDEX.md`
+- `docs/INSTITUTIONAL_PORTFOLIO_MEMORANDUM.md`
+<!-- SELLER-READINESS:END -->
