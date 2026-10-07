@@ -5,37 +5,31 @@ Basis date: 2026-10-07
 ## Public showroom
 
 May contain:
-- project identity and purpose;
-- current maturity and seller-side economic references;
-- transaction-readiness status;
-- assurance metadata;
-- cryptographic hashes and non-sensitive evidence metadata;
-- creator-provenance summary.
+- project identity, purpose and maturity;
+- seller-side economics;
+- transaction-readiness and assurance status;
+- seller rights/transfer status;
+- third-party-rights and licence status at a non-sensitive level;
+- cryptographic hashes and non-sensitive evidence metadata.
 
 ## Controlled transaction disclosure
 
-May contain where relevant and safe:
-- detailed architecture;
-- source and build material;
+May contain where relevant:
+- source and architecture;
 - component-level SBOM and licensing obligations;
-- validation artifacts;
-- transfer package;
-- non-public rights/provenance support;
-- security material appropriate to the buyer's diligence scope.
+- rights-supporting records and disclosure schedules;
+- validation evidence;
+- security material appropriate to the diligence scope;
+- transfer package and acceptance material.
 
-## Restricted / non-public
+## Outside the public transaction record
 
+- internal development workflows and methods;
+- proprietary research process and design reasoning;
 - credentials and secrets;
 - personal/customer data;
-- exploitable security-sensitive details;
-- surviving confidential development know-how;
-- trade-secret information where applicable;
-- transaction-confidential terms and negotiation material.
+- exploitable security-sensitive detail;
+- transaction-confidential terms;
+- any other non-public know-how not expressly included in the transaction.
 
-## Not available
-
-The deleted multi-AI conversation histories, intermediate prompts and deleted development states are not retained. They are not withheld documents and are not described as a hidden archive. Their status is:
-
-`IRRECOVERABLE_FROM_RETAINED_EVIDENCE`.
-
-The current repository baseline is the authoritative surviving auditable technical artifact.
+The public acquisition record is designed to establish the offered asset, rights perimeter, third-party obligations and transfer evidence—not to disclose how the asset was created.
