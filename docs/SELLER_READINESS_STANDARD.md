@@ -47,18 +47,9 @@ WIPO:
 - https://www.wipo.int/en/web/business/ip-audit
 - https://www.wipo.int/en/web/ip-commercialization/w/blog/how-to-prepare-for-ip-due-diligence-the-ultimate-guide-for-ventures
 - https://www.wipo.int/en/web/business/ip-valuation
-## Creator and historical-development provenance
 
-The portfolio creator declares a **single-human-creator, multi-AI-assisted** development model. The owner directed objectives, requirements, iterative decisions, selection, integration and acceptance while using multiple AI systems as research, design and coding assistants.
+## Rights-first transaction principle
 
-The historical conversational chain was not retained and was deliberately deleted. Accordingly:
+The public seller-side system documents **what is offered and what rights can be transferred**, not the internal method of creation. Development methods, prompts, research process and other non-public know-how are outside the public diligence perimeter unless a definitive transaction specifically includes them.
 
-- `HISTORICAL_DEVELOPMENT_PATH = IRRECOVERABLE_FROM_RETAINED_EVIDENCE`;
-- `IDENTICAL_PROCESS_REPRODUCTION = NOT_POSSIBLE_FROM_RETAINED_EVIDENCE`;
-- `DUPLICATE_HISTORICAL_ARCHIVE = NONE_RETAINED`;
-- `CURRENT_REPOSITORY_BASELINE = AUTHORITATIVE_SURVIVING_AUDITABLE_ARTIFACT`.
-
-This is an **owner declaration**, not a claim inferred from Git history. Repository evidence independently establishes the surviving technical baseline. Deleted historical AI transcripts are not treated as a seller-side documentation deficiency and do not reduce transfer readiness merely because they no longer exist.
-
-The declaration does **not** claim that functionally similar software cannot be independently created. It states only that the exact historical multi-AI development process cannot be reconstructed from retained evidence. Surviving non-public know-how is treated as confidential and, where the applicable legal criteria are met, as trade-secret information.
-
+The rights review therefore focuses on seller-owned first-party rights, known/disclosed co-owners or claimants, third-party IP and licence obligations, encumbrances/restrictions, transferability and the exact delivery perimeter. The authoritative rights-transfer record is `assets/rights-transfer-register.json`.
