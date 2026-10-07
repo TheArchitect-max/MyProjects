@@ -128,15 +128,13 @@ WIPO materials used as external process references:
 - https://www.wipo.int/en/web/business/ip-valuation
 
 These sources inform portfolio process architecture; they do not certify this portfolio.
-## 12. Creator and historical provenance
 
-The portfolio was created by one independent human creator using multiple AI systems as iterative research, design and coding assistants. The owner retained direction and acceptance control over the objectives, requirements, selection, integration and repository outcomes.
+## 12. Rights and transfer perimeter
 
-The underlying multi-AI conversational histories and intermediate development states were deliberately deleted and no duplicate historical archive is retained. The exact historical development path is therefore **irrecoverable from retained evidence** and cannot be reproduced through the identical original process by the creator.
+The acquisition system is rights-first. A buyer is asked to evaluate what first-party rights and deliverables are offered, what evidence supports the seller-side rights position, what third-party IP remains under separate terms, and which rights are included or excluded from a definitive transaction.
 
-This does not mean that similar functionality could never be independently reimplemented. It means that the original sequence of prompts, intermediate outputs, rejected alternatives, corrections and cross-system interactions no longer exists as a reconstructible record.
+The internal method by which an asset was created is not part of the public acquisition record and is not required to establish the offered transfer perimeter. Non-public development methods and know-how remain outside the public showroom unless expressly included in a transaction.
 
-For transaction purposes, the current repository/release baselines and retained technical evidence are the authoritative surviving auditable artifacts. The absence of deleted historical AI conversation logs is not classified as an open seller item. Surviving non-public know-how remains confidential and may be treated as trade-secret information where the applicable legal conditions are satisfied.
+The seller declares no known or disclosed external human co-owner of the seller-owned first-party rights. Third-party components are not represented as seller-owned and remain governed by their own licences/contracts. Independent legal title/FTO opinions remain `NOT_PERFORMED` unless separately commissioned.
 
-The machine-readable source is `assets/development-provenance-register.json`.
-
+Authoritative machine-readable source: `assets/rights-transfer-register.json`.
