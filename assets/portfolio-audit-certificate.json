@@ -2,7 +2,7 @@
   "schema": "thearchitect-max-portfolio-audit-certificate-v3",
   "basisDate": "2026-10-07",
   "repository": "TheArchitect-max/MyProjects",
-  "sourceHeadAtCertificatePreparation": "d28dff96a833f630fc811f419af3ed7446dcd8db",
+  "sourceHeadAtCertificatePreparation": "08e4dce50ca98e27950b65a079c689ec978c0dfc",
   "scope": {
     "substantiveProjects": 95,
     "pricedStandaloneAssets": 92,
@@ -127,6 +127,10 @@
     "softwareSupplyChainSummary": {
       "path": "assets/software-supply-chain-summary.json",
       "gitBlobSha": "f74f3ca120db155be622f4bedd2748e9a47e56ff"
+    },
+    "rightsTransferRegister": {
+      "path": "assets/rights-transfer-register.json",
+      "gitBlobSha": "d4d2abd1a21da36d4db55add2235f27463d90473"
     }
   },
   "externalStandards": [
