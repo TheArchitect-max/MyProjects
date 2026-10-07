@@ -1,1 +1,28 @@
-{"version":"2026.10.07-im38-public-attestation","publicationDate":"2026-10-07","portfolioAssetCount":89,"valuationBasisDate":"2026-10-07","purpose":"Public integrity attestation for the commercial portfolio. It binds the published valuation register, methodology and verified public project-site directory without disclosing private source code, private repository identities, private evidence artifacts or security-sensitive implementation detail.","files":{"valuation-register.json":{"algorithm":"SHA-256","sha256":"0e47df4d1c7e8c4a1248eecea5e3619acd394b45d85b917ab52b3ca67f6d3b44"},"economic-methodology.json":{"algorithm":"SHA-256","sha256":"85c6144e711e1679d392124aa0519e362b98f47c7cf84bf9768d3b1ca079b7c8"},"public-sites.json":{"algorithm":"SHA-256","sha256":"ca3879175ec870bb881d5d1ce7cd8edba11d3a39be25fb36265438ddac8a5ce3"}},"verification":{"browserIntegrity":"The public renderer fetches the valuation register and methodology as raw text, recomputes SHA-256 in the browser and compares the result with this attestation.","valuationReconciliation":"The public renderer assembles the current asset register, applies published overrides, recalculates asset-level analytical economics and compares aggregate values with the published portfolio totals.","publicSiteDirectory":"The public project-site enhancer recomputes the SHA-256 digest of the site directory before presenting its integrity state.","existenceBoundary":"The timestamped public publication and matching digests demonstrate existence and integrity of the public commercial record as published. They do not independently prove authorship, legal title, patent priority, source-code identity, scientific validity, security assurance, certified valuation or commercial outcome."},"privacyBoundary":"No private repository names, source code, private validation artifacts, credentials, customer data, internal security details or transaction-confidential material are included."}
+{
+  "version": "2026.10.07-im41-public-attestation",
+  "publicationDate": "2026-10-07",
+  "portfolioAssetCount": 92,
+  "valuationBasisDate": "2026-10-07",
+  "purpose": "Public integrity attestation for the 92-asset standalone commercial portfolio and 95-project development register. It binds the published valuation register, methodology and verified public project-site directory without disclosing private source code, private evidence artifacts or security-sensitive implementation detail.",
+  "files": {
+    "valuation-register.json": {
+      "algorithm": "SHA-256",
+      "sha256": "8442d871c6c04cd63dadd18ae4d8b498facec27c32e9f77a6dce9766506572d2"
+    },
+    "economic-methodology.json": {
+      "algorithm": "SHA-256",
+      "sha256": "a9d326b2d0cf1c95dc4699517dee25b0edbaa0adfe601d1484fc77029194519b"
+    },
+    "public-sites.json": {
+      "algorithm": "SHA-256",
+      "sha256": "ca3879175ec870bb881d5d1ce7cd8edba11d3a39be25fb36265438ddac8a5ce3"
+    }
+  },
+  "verification": {
+    "browserIntegrity": "The public renderer fetches the valuation register and methodology as raw text, recomputes SHA-256 in the browser and compares the result with this attestation.",
+    "valuationReconciliation": "The public renderer assembles the current asset register, applies published overrides, recalculates asset-level analytical economics and compares aggregate values with the published portfolio totals.",
+    "publicSiteDirectory": "The public project-site enhancer recomputes the SHA-256 digest of the site directory before presenting its integrity state.",
+    "existenceBoundary": "The timestamped public publication and matching digests demonstrate existence and integrity of the public commercial record as published. They do not independently prove authorship, legal title, patent priority, source-code identity, scientific validity, security assurance, certified valuation or commercial outcome."
+  },
+  "privacyBoundary": "No private repository names, source code, private validation artifacts, credentials, customer data, internal security details or transaction-confidential material are included."
+}
