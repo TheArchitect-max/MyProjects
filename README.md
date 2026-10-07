@@ -102,3 +102,15 @@ Institutional documentation:
 - `docs/CONTROLLED_VDR_INDEX.md`
 - `docs/INSTITUTIONAL_PORTFOLIO_MEMORANDUM.md`
 <!-- SELLER-READINESS:END -->
+
+<!-- CREATOR-PROVENANCE:START -->
+## Creator & development provenance
+
+The portfolio uses a **single-human-creator, multi-AI-assisted** provenance model. The owner directed the objectives, iterative development, selection, integration and acceptance of the repository outcomes.
+
+Historical multi-AI conversation chains and intermediate development states were deliberately deleted and are not retained. The exact historical development path is therefore recorded as **IRRECOVERABLE_FROM_RETAINED_EVIDENCE**. The current repository/release baselines are the authoritative surviving auditable artifacts.
+
+This does not claim that similar software cannot be independently reimplemented. It means the identical original multi-AI development process cannot be reconstructed from the retained evidence. Deleted historical AI transcripts are not treated as an open seller-side documentation item.
+
+Authoritative record: `assets/development-provenance-register.json`.
+<!-- CREATOR-PROVENANCE:END -->
