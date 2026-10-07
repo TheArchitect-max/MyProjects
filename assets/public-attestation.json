@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.07-im43-public-attestation",
+  "version": "2026.10.07-im44-public-attestation",
   "publicationDate": "2026-10-07",
   "portfolioAssetCount": 92,
   "valuationBasisDate": "2026-10-07",
@@ -23,11 +23,11 @@
     },
     "seller-readiness-register.json": {
       "algorithm": "SHA-256",
-      "sha256": "e7682dddd286c370d1e7a0418ecf9f51b46231805552fe0da4d6378887d1a31e"
+      "sha256": "be6dbfa660737b9c01778aa047c0c4d367549bdb461bc48f4d91a5e178a22406"
     },
     "ip-ownership-register.json": {
       "algorithm": "SHA-256",
-      "sha256": "ea34bad1f385220e070151a6c9d599a54c86a18c52f2973b4e83d9690920470a"
+      "sha256": "d4f835271dc20a1d00d206292bb6e91035862481a135cf70832920a8d43607fd"
     },
     "software-supply-chain-summary.json": {
       "algorithm": "SHA-256",
@@ -35,7 +35,15 @@
     },
     "portfolio-audit-certificate.json": {
       "algorithm": "SHA-256",
-      "sha256": "022b2c144d6f8e2629adb33308e92c61821782981d0a1c9d49a4efff3064c04b"
+      "sha256": "5c32eaaeebc756ffe8710b082d3fd5b802e980c3eb284266c8f3749d8fbfd109"
+    },
+    "development-provenance-register.json": {
+      "algorithm": "SHA-256",
+      "sha256": "0a6040d56a1579682d542d7cc80df88f4daea38ea2d78a09fb18df91135d3220"
+    },
+    "trade-secret-register.json": {
+      "algorithm": "SHA-256",
+      "sha256": "e974daddc1f9385696e4683d96757d9dce5a09220199c48c9b7f93abab590745"
     }
   },
   "verification": {
@@ -44,7 +52,8 @@
     "publicSiteDirectory": "The public project-site enhancer recomputes the SHA-256 digest of the site directory before presenting its integrity state.",
     "existenceBoundary": "The timestamped public publication and matching digests demonstrate existence and integrity of the public commercial record as published. They do not independently prove authorship, legal title, patent priority, source-code identity, scientific validity, security assurance, certified valuation or commercial outcome.",
     "futureEconomicReferences": "The public renderer verifies the SHA-256 digest of the 95-project milestone-conditioned economic-reference register. Numeric entries are maturity-only sensitivities, not forecasts or current values.",
-    "sellerReadiness": "The public renderer verifies the SHA-256 digests of the seller-readiness, ownership, supply-chain and audit-certificate records before presenting acquisition-readiness status."
+    "sellerReadiness": "The public renderer verifies the SHA-256 digests of the seller-readiness, ownership, supply-chain and audit-certificate records before presenting acquisition-readiness status.",
+    "creatorProvenance": "The public renderer verifies the development-provenance and trade-secret classification records. Historical multi-AI development provenance is owner-declared; current repository baselines remain independently auditable through repository evidence."
   },
-  "privacyBoundary": "Public records expose seller-side status, evidence metadata, hashes and transfer boundaries only. Private source code, private validation artifacts, credentials, customer data, sensitive implementation details and transaction-confidential material remain outside the public showroom."
+  "privacyBoundary": "Public records expose seller-side status, owner-declared provenance, evidence metadata, hashes and transfer boundaries only. Deleted historical AI conversation chains are not retained. Surviving private know-how, credentials, customer data, sensitive implementation details and transaction-confidential material remain outside the public showroom."
 }
