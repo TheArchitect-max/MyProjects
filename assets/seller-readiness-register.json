@@ -3576,22 +3576,105 @@
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 350000,
-      "baselineCommit": null,
-      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "baselineCommit": "ca4f0174bf9fca55f3aa6ba9d8ffa2a2801c7a7d",
+      "auditStatus": "REPOSITORY_SCAN_COMPLETE",
       "assurance": {
         "technicalMaturity": "V",
-        "evidenceMaturity": "E0",
-        "ipRightsMaturity": "R0",
+        "evidenceMaturity": "E4",
+        "ipRightsMaturity": "R2",
         "commercialMaturity": "C2",
-        "transferReadiness": "T0"
+        "transferReadiness": "T3"
       },
-      "transactionReadiness": "NOT_ASSESSED",
-      "evidence": {},
-      "dependencySummary": null,
-      "rightsSummary": null,
-      "securitySummary": null,
-      "transferSummary": null,
-      "openSellerItems": [],
+      "transactionReadiness": "READY_WITH_CONDITIONS",
+      "evidence": {
+        "EV-TECH-001": {
+          "kind": "implementation",
+          "path": "notebooks/AEGIS_Local_Runtime_GPU_Validation.ipynb",
+          "gitBlobSha": "648253583df9add57a91fd39dcd207e95c67c8f7"
+        },
+        "EV-TEST-001": {
+          "kind": "tests",
+          "path": "tests/conftest.py",
+          "gitBlobSha": "241812e309f1b05579d049f6cdf80d89469b135b"
+        },
+        "EV-VAL-001": {
+          "kind": "validation",
+          "path": "VALIDATION_REPORT.md",
+          "gitBlobSha": "3a280170f6bcb55334aa2b0190e21f502f1939b6"
+        },
+        "EV-IP-001": {
+          "kind": "repository-licence",
+          "path": "LICENSE",
+          "gitBlobSha": "9a01f1b2baff449e96e0cd03834d675fbbc3519c"
+        },
+        "EV-DEP-001": {
+          "kind": "dependency-manifest",
+          "path": "pyproject.toml",
+          "gitBlobSha": "aa42703ea40a04404334791b4955ccdc855d4173"
+        },
+        "EV-SEC-001": {
+          "kind": "security",
+          "path": "SECURITY.md",
+          "gitBlobSha": "78519aab16cb239711fa34b9219b696449ff19d1"
+        },
+        "EV-PROV-001": {
+          "kind": "provenance",
+          "path": "release-manifest.json",
+          "gitBlobSha": "7958cde81f3a1aba1df4e0aa3092ba2a56f76edd"
+        }
+      },
+      "dependencySummary": {
+        "manifestCount": 1,
+        "lockfileCount": 0,
+        "sbomCount": 0,
+        "manifests": [
+          "pyproject.toml"
+        ],
+        "locks": [],
+        "sbomFiles": []
+      },
+      "rightsSummary": {
+        "licenceFiles": [
+          "LICENSE"
+        ],
+        "thirdPartyFiles": [
+          "LICENSE"
+        ],
+        "legalTitleOpinion": "NOT_PERFORMED",
+        "ftoOpinion": "NOT_PERFORMED"
+      },
+      "securitySummary": {
+        "securityFiles": [
+          "SECURITY.md",
+          "docs/THREAT_MODEL.md"
+        ],
+        "sensitiveFilenameIndicators": [],
+        "independentPenetrationTest": "NOT_ASSUMED"
+      },
+      "transferSummary": {
+        "buildReleaseEvidence": [
+          "Dockerfile",
+          "Makefile",
+          "pyproject.toml",
+          "scripts/colab_gpu_validation.py",
+          "scripts/internal_validation.py",
+          "scripts/live_validation.py",
+          "scripts/package_release.py",
+          "scripts/release_utils.py",
+          "scripts/validate_release.py"
+        ],
+        "provenanceEvidence": [
+          "release-manifest.json",
+          "src/aegis_vision/provenance.py",
+          "tests/test_provenance.py"
+        ],
+        "transferEvidence": []
+      },
+      "openSellerItems": [
+        "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
+        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
+        "Add an explicit buyer handover / transfer manifest."
+      ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
         "Freedom-to-operate legal opinion not performed unless separately evidenced.",
@@ -3606,22 +3689,94 @@
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 500000,
-      "baselineCommit": null,
-      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "baselineCommit": "1761f7b94f00aa12feaf9c3c07be02256fa468fb",
+      "auditStatus": "REPOSITORY_SCAN_COMPLETE",
       "assurance": {
         "technicalMaturity": "V",
-        "evidenceMaturity": "E0",
-        "ipRightsMaturity": "R0",
+        "evidenceMaturity": "E3",
+        "ipRightsMaturity": "R2",
         "commercialMaturity": "C2",
-        "transferReadiness": "T0"
+        "transferReadiness": "T3"
       },
-      "transactionReadiness": "NOT_ASSESSED",
-      "evidence": {},
-      "dependencySummary": null,
-      "rightsSummary": null,
-      "securitySummary": null,
-      "transferSummary": null,
-      "openSellerItems": [],
+      "transactionReadiness": "READY_WITH_CONDITIONS",
+      "evidence": {
+        "EV-TECH-001": {
+          "kind": "implementation",
+          "path": "benchmarks/benchmark_v01.py",
+          "gitBlobSha": "1e9f24b7d93d15bbb6bf73336aa4b3e7c0ecbe52"
+        },
+        "EV-TEST-001": {
+          "kind": "tests",
+          "path": "tests/test_core.py",
+          "gitBlobSha": "422ef92a75ac37691889615f80e682ddfef195e5"
+        },
+        "EV-VAL-001": {
+          "kind": "validation",
+          "path": "benchmarks/benchmark_v01.py",
+          "gitBlobSha": "1e9f24b7d93d15bbb6bf73336aa4b3e7c0ecbe52"
+        },
+        "EV-IP-001": {
+          "kind": "repository-licence",
+          "path": "LICENSE",
+          "gitBlobSha": "c18499d592bfcf1995c1f6622f56a891e2441bff"
+        },
+        "EV-DEP-001": {
+          "kind": "dependency-manifest",
+          "path": "pyproject.toml",
+          "gitBlobSha": "e35d0c458c39f9f64e5ce34bd247a0f949f8b576"
+        },
+        "EV-PROV-001": {
+          "kind": "provenance",
+          "path": "docs/CANONICAL_FINGERPRINTS.md",
+          "gitBlobSha": "44ab48e0ec0132d90aea55342d01c2d4f5fb00b6"
+        }
+      },
+      "dependencySummary": {
+        "manifestCount": 1,
+        "lockfileCount": 0,
+        "sbomCount": 0,
+        "manifests": [
+          "pyproject.toml"
+        ],
+        "locks": [],
+        "sbomFiles": []
+      },
+      "rightsSummary": {
+        "licenceFiles": [
+          "LICENSE"
+        ],
+        "thirdPartyFiles": [
+          "LICENSE"
+        ],
+        "legalTitleOpinion": "NOT_PERFORMED",
+        "ftoOpinion": "NOT_PERFORMED"
+      },
+      "securitySummary": {
+        "securityFiles": [],
+        "sensitiveFilenameIndicators": [],
+        "independentPenetrationTest": "NOT_ASSUMED"
+      },
+      "transferSummary": {
+        "buildReleaseEvidence": [
+          "pyproject.toml",
+          "scripts/validate.py",
+          "scripts/validate_distribution.py"
+        ],
+        "provenanceEvidence": [
+          "docs/CANONICAL_FINGERPRINTS.md",
+          "docs/CUSTODY_CHAIN.md",
+          "docs/REPLICATION_PROVENANCE.md",
+          "src/egmers/custody.py",
+          "src/egmers/replication_provenance.py"
+        ],
+        "transferEvidence": []
+      },
+      "openSellerItems": [
+        "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
+        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
+        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
+        "Add an explicit buyer handover / transfer manifest."
+      ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
         "Freedom-to-operate legal opinion not performed unless separately evidenced.",
@@ -3636,22 +3791,102 @@
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 275000,
-      "baselineCommit": null,
-      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "baselineCommit": "58b2fa85b117ea9ee885fcf8d8ceff9a37be4cad",
+      "auditStatus": "REPOSITORY_SCAN_COMPLETE",
       "assurance": {
         "technicalMaturity": "V",
-        "evidenceMaturity": "E0",
-        "ipRightsMaturity": "R0",
+        "evidenceMaturity": "E3",
+        "ipRightsMaturity": "R2",
         "commercialMaturity": "C2",
-        "transferReadiness": "T0"
+        "transferReadiness": "T3"
       },
-      "transactionReadiness": "NOT_ASSESSED",
-      "evidence": {},
-      "dependencySummary": null,
-      "rightsSummary": null,
-      "securitySummary": null,
-      "transferSummary": null,
-      "openSellerItems": [],
+      "transactionReadiness": "READY_WITH_CONDITIONS",
+      "evidence": {
+        "EV-TECH-001": {
+          "kind": "implementation",
+          "path": "Faunometric_Colab.ipynb",
+          "gitBlobSha": "ef79512ed1baa18b918df643e8c8974c776666b2"
+        },
+        "EV-TEST-001": {
+          "kind": "tests",
+          "path": "tests/protocol_fixture.py",
+          "gitBlobSha": "62ec0e6d5a00c4e9fcb8c63bfc9e0eab3d10dce6"
+        },
+        "EV-VAL-001": {
+          "kind": "validation",
+          "path": "RELEASE_EVIDENCE.md",
+          "gitBlobSha": "1c692b2a5ad308051a85b4508a9592f8a59cfc54"
+        },
+        "EV-IP-001": {
+          "kind": "repository-licence",
+          "path": "LICENSE",
+          "gitBlobSha": "51f12e2f09a1f78cd37111594588f83d05004da5"
+        },
+        "EV-DEP-001": {
+          "kind": "dependency-manifest",
+          "path": "requirements-colab.txt",
+          "gitBlobSha": "0710373b12aeddc67e5cbfa9f5728ea75b819c72"
+        },
+        "EV-PROV-001": {
+          "kind": "provenance",
+          "path": "experiment_provenance.py",
+          "gitBlobSha": "2150b98234e090d288a1b1574a9bab69afd43b0b"
+        },
+        "EV-TRN-001": {
+          "kind": "transfer",
+          "path": "legacy_yamnet_transfer_trainer.py",
+          "gitBlobSha": "9472970c8777a59e621cddd3bdb51bf9f136eaa6"
+        }
+      },
+      "dependencySummary": {
+        "manifestCount": 2,
+        "lockfileCount": 0,
+        "sbomCount": 0,
+        "manifests": [
+          "requirements-colab.txt",
+          "requirements.txt"
+        ],
+        "locks": [],
+        "sbomFiles": []
+      },
+      "rightsSummary": {
+        "licenceFiles": [
+          "LICENSE"
+        ],
+        "thirdPartyFiles": [
+          "LICENSE",
+          "THIRD_PARTY_NOTICES.md",
+          "tests/test_third_party_manifest.py",
+          "tools/generate_third_party_manifest.py"
+        ],
+        "legalTitleOpinion": "NOT_PERFORMED",
+        "ftoOpinion": "NOT_PERFORMED"
+      },
+      "securitySummary": {
+        "securityFiles": [],
+        "sensitiveFilenameIndicators": [],
+        "independentPenetrationTest": "NOT_ASSUMED"
+      },
+      "transferSummary": {
+        "buildReleaseEvidence": [
+          "Dockerfile",
+          "Makefile",
+          "tools/release_evidence.py",
+          "tools/release_gate.py"
+        ],
+        "provenanceEvidence": [
+          "experiment_provenance.py",
+          "tests/test_experiment_provenance.py"
+        ],
+        "transferEvidence": [
+          "legacy_yamnet_transfer_trainer.py"
+        ]
+      },
+      "openSellerItems": [
+        "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
+        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
+        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed."
+      ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
         "Freedom-to-operate legal opinion not performed unless separately evidenced.",
@@ -3666,22 +3901,98 @@
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 360000,
-      "baselineCommit": null,
-      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "baselineCommit": "096976c41732cfdd3f959c447fdbb5c58088c802",
+      "auditStatus": "REPOSITORY_SCAN_COMPLETE",
       "assurance": {
         "technicalMaturity": "P",
-        "evidenceMaturity": "E0",
-        "ipRightsMaturity": "R0",
+        "evidenceMaturity": "E4",
+        "ipRightsMaturity": "R2",
         "commercialMaturity": "C2",
-        "transferReadiness": "T0"
+        "transferReadiness": "T3"
       },
-      "transactionReadiness": "NOT_ASSESSED",
-      "evidence": {},
-      "dependencySummary": null,
-      "rightsSummary": null,
-      "securitySummary": null,
-      "transferSummary": null,
-      "openSellerItems": [],
+      "transactionReadiness": "READY_WITH_CONDITIONS",
+      "evidence": {
+        "EV-TECH-001": {
+          "kind": "implementation",
+          "path": "notebooks/FusionLunar_v0.22_Colab_Full_Nonlinear_Reliability.ipynb",
+          "gitBlobSha": "0a4d8270cc2c41b239bdc627d521ed1d08160225"
+        },
+        "EV-TEST-001": {
+          "kind": "tests",
+          "path": "tests/test_core.py",
+          "gitBlobSha": "21253f10173ab849432555bf64af53bab78a6281"
+        },
+        "EV-VAL-001": {
+          "kind": "validation",
+          "path": "data/v0.22-real-external-baseline/outputs/real-data-verification-result.json",
+          "gitBlobSha": "e0062fd1dbce85c7ae538ebf0b8f331e9229bb31"
+        },
+        "EV-IP-001": {
+          "kind": "repository-licence",
+          "path": "LICENSE.md",
+          "gitBlobSha": "2178758e6adc93a9b60099ae00c5894e9acf287a"
+        },
+        "EV-DEP-001": {
+          "kind": "dependency-manifest",
+          "path": "pyproject.toml",
+          "gitBlobSha": "b69e143d41594ce111a5fe8e90b5cb61472863d8"
+        },
+        "EV-SEC-001": {
+          "kind": "security",
+          "path": "SECURITY.md",
+          "gitBlobSha": "c62ea4cadbec69a0b821539ff9c3e1d254b960c3"
+        },
+        "EV-PROV-001": {
+          "kind": "provenance",
+          "path": "docs/V37_FULL_REGRESSION_ATTESTATION.md",
+          "gitBlobSha": "a91e4ad6c7e9e609c2034c595f529cac648ccdd6"
+        }
+      },
+      "dependencySummary": {
+        "manifestCount": 1,
+        "lockfileCount": 0,
+        "sbomCount": 0,
+        "manifests": [
+          "pyproject.toml"
+        ],
+        "locks": [],
+        "sbomFiles": []
+      },
+      "rightsSummary": {
+        "licenceFiles": [
+          "LICENSE.md"
+        ],
+        "thirdPartyFiles": [
+          "THIRD_PARTY_NOTICES.md"
+        ],
+        "legalTitleOpinion": "NOT_PERFORMED",
+        "ftoOpinion": "NOT_PERFORMED"
+      },
+      "securitySummary": {
+        "securityFiles": [
+          "SECURITY.md"
+        ],
+        "sensitiveFilenameIndicators": [],
+        "independentPenetrationTest": "NOT_ASSUMED"
+      },
+      "transferSummary": {
+        "buildReleaseEvidence": [
+          "pyproject.toml"
+        ],
+        "provenanceEvidence": [
+          "docs/V37_FULL_REGRESSION_ATTESTATION.md",
+          "docs/V40_AUTHENTICATED_RELEASE_PROVENANCE.md",
+          "src/fusionlunar/provenance.py",
+          "src/fusionlunar/v40_authenticated_provenance.py",
+          "tests/test_v40_provenance.py"
+        ],
+        "transferEvidence": []
+      },
+      "openSellerItems": [
+        "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
+        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
+        "Add an explicit buyer handover / transfer manifest."
+      ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
         "Freedom-to-operate legal opinion not performed unless separately evidenced.",
@@ -3696,22 +4007,112 @@
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 425000,
-      "baselineCommit": null,
-      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "baselineCommit": "6272e6ae599bb4fc54e15b9221129bee7fe897a0",
+      "auditStatus": "REPOSITORY_SCAN_COMPLETE",
       "assurance": {
         "technicalMaturity": "V",
-        "evidenceMaturity": "E0",
-        "ipRightsMaturity": "R0",
+        "evidenceMaturity": "E4",
+        "ipRightsMaturity": "R2",
         "commercialMaturity": "C2",
-        "transferReadiness": "T0"
+        "transferReadiness": "T3"
       },
-      "transactionReadiness": "NOT_ASSESSED",
-      "evidence": {},
-      "dependencySummary": null,
-      "rightsSummary": null,
-      "securitySummary": null,
-      "transferSummary": null,
-      "openSellerItems": [],
+      "transactionReadiness": "READY_WITH_CONDITIONS",
+      "evidence": {
+        "EV-TECH-001": {
+          "kind": "implementation",
+          "path": "notebooks/GoldenNet_CMAPSS_Validation_Colab.ipynb",
+          "gitBlobSha": "354eb8dd6fe72af2ade391dfe59482f02474954a"
+        },
+        "EV-TEST-001": {
+          "kind": "tests",
+          "path": "tests/test_acceptance.py",
+          "gitBlobSha": "b6c899faa7478b2f13f462b1fdd895e87a2cacd4"
+        },
+        "EV-VAL-001": {
+          "kind": "validation",
+          "path": "benchmark_artifacts/baseline_summary.json",
+          "gitBlobSha": "114a107e4b5b70cb71469c56306f737c20b3f084"
+        },
+        "EV-IP-001": {
+          "kind": "repository-licence",
+          "path": "LICENSE.txt",
+          "gitBlobSha": "5915eb2edc03d687b1d729c972219e726af9e024"
+        },
+        "EV-DEP-001": {
+          "kind": "dependency-manifest",
+          "path": "pyproject.toml",
+          "gitBlobSha": "df102841314004e0134928c7a04a497221002dc0"
+        },
+        "EV-SEC-001": {
+          "kind": "security",
+          "path": "docs/SECURITY.md",
+          "gitBlobSha": "5abaf3e7422b9df2283cd8c21c9c885c6f46743a"
+        },
+        "EV-PROV-001": {
+          "kind": "provenance",
+          "path": "RELEASE_MANIFEST.json",
+          "gitBlobSha": "74e7afc90d934ae405fa7795109776ef50a8ec9d"
+        },
+        "EV-TRN-001": {
+          "kind": "transfer",
+          "path": "scripts/build_release_pack.py",
+          "gitBlobSha": "f14e20ea037d15dbb98e05c6647be37886dee55f"
+        }
+      },
+      "dependencySummary": {
+        "manifestCount": 3,
+        "lockfileCount": 0,
+        "sbomCount": 0,
+        "manifests": [
+          "pyproject.toml",
+          "requirements-signing.txt",
+          "requirements.txt"
+        ],
+        "locks": [],
+        "sbomFiles": []
+      },
+      "rightsSummary": {
+        "licenceFiles": [
+          "LICENSE.txt"
+        ],
+        "thirdPartyFiles": [
+          "THIRD_PARTY_NOTICES.md"
+        ],
+        "legalTitleOpinion": "NOT_PERFORMED",
+        "ftoOpinion": "NOT_PERFORMED"
+      },
+      "securitySummary": {
+        "securityFiles": [
+          "docs/SECURITY.md"
+        ],
+        "sensitiveFilenameIndicators": [],
+        "independentPenetrationTest": "NOT_ASSUMED"
+      },
+      "transferSummary": {
+        "buildReleaseEvidence": [
+          "Dockerfile",
+          "pyproject.toml",
+          "scripts/attest_release.py",
+          "scripts/build_release_pack.py",
+          "scripts/sign_release_ed25519.py",
+          "scripts/validate_evidence.py",
+          "scripts/validate_repo.py",
+          "scripts/verify_release_pack.py"
+        ],
+        "provenanceEvidence": [
+          "RELEASE_MANIFEST.json",
+          "docs/EXTERNAL_DATASET_PROVENANCE.md",
+          "docs/RELEASE_ATTESTATION.md"
+        ],
+        "transferEvidence": [
+          "scripts/build_release_pack.py",
+          "scripts/verify_release_pack.py"
+        ]
+      },
+      "openSellerItems": [
+        "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
+        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles."
+      ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
         "Freedom-to-operate legal opinion not performed unless separately evidenced.",
@@ -3726,22 +4127,83 @@
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 55000,
-      "baselineCommit": null,
-      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "baselineCommit": "be30d4faa9d888c31a2030bce06eb7b3cc25eacf",
+      "auditStatus": "REPOSITORY_SCAN_COMPLETE",
       "assurance": {
         "technicalMaturity": "P",
-        "evidenceMaturity": "E0",
-        "ipRightsMaturity": "R0",
+        "evidenceMaturity": "E2",
+        "ipRightsMaturity": "R2",
         "commercialMaturity": "C2",
-        "transferReadiness": "T0"
+        "transferReadiness": "T3"
       },
-      "transactionReadiness": "NOT_ASSESSED",
-      "evidence": {},
-      "dependencySummary": null,
-      "rightsSummary": null,
-      "securitySummary": null,
-      "transferSummary": null,
-      "openSellerItems": [],
+      "transactionReadiness": "READY_WITH_CONDITIONS",
+      "evidence": {
+        "EV-TECH-001": {
+          "kind": "implementation",
+          "path": "scripts/validate_repo.py",
+          "gitBlobSha": "227fcfd4e1061f6efdd134ddbfd755401383dfd6"
+        },
+        "EV-TEST-001": {
+          "kind": "tests",
+          "path": "tests/test_engineering.py",
+          "gitBlobSha": "8154eb1782efe8baa099b7e2de6557f47650e4f9"
+        },
+        "EV-VAL-001": {
+          "kind": "validation",
+          "path": ".github/workflows/validate.yml",
+          "gitBlobSha": "e0dc8061c133e8493d2e8b4cb207597ab70f7277"
+        },
+        "EV-IP-001": {
+          "kind": "repository-licence",
+          "path": "LICENSE",
+          "gitBlobSha": "daa2bd9ea5a97223b7d88569d6b593480eef6555"
+        },
+        "EV-DEP-001": {
+          "kind": "dependency-manifest",
+          "path": "pyproject.toml",
+          "gitBlobSha": "777c1ddbf0784a16f5abaa05618ecae9bcbda70d"
+        }
+      },
+      "dependencySummary": {
+        "manifestCount": 1,
+        "lockfileCount": 0,
+        "sbomCount": 0,
+        "manifests": [
+          "pyproject.toml"
+        ],
+        "locks": [],
+        "sbomFiles": []
+      },
+      "rightsSummary": {
+        "licenceFiles": [
+          "LICENSE"
+        ],
+        "thirdPartyFiles": [
+          "LICENSE"
+        ],
+        "legalTitleOpinion": "NOT_PERFORMED",
+        "ftoOpinion": "NOT_PERFORMED"
+      },
+      "securitySummary": {
+        "securityFiles": [],
+        "sensitiveFilenameIndicators": [],
+        "independentPenetrationTest": "NOT_ASSUMED"
+      },
+      "transferSummary": {
+        "buildReleaseEvidence": [
+          "pyproject.toml",
+          "scripts/validate_repo.py"
+        ],
+        "provenanceEvidence": [],
+        "transferEvidence": []
+      },
+      "openSellerItems": [
+        "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
+        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
+        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
+        "Add release/provenance fingerprint or attestation evidence.",
+        "Add an explicit buyer handover / transfer manifest."
+      ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
         "Freedom-to-operate legal opinion not performed unless separately evidenced.",
@@ -3756,22 +4218,78 @@
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 40000,
-      "baselineCommit": null,
-      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "baselineCommit": "470a9e13b66dd632f6a46bac2d19849b8f77dc48",
+      "auditStatus": "REPOSITORY_SCAN_COMPLETE",
       "assurance": {
         "technicalMaturity": "P",
-        "evidenceMaturity": "E0",
-        "ipRightsMaturity": "R0",
+        "evidenceMaturity": "E1",
+        "ipRightsMaturity": "R2",
         "commercialMaturity": "C2",
-        "transferReadiness": "T0"
+        "transferReadiness": "T1"
       },
-      "transactionReadiness": "NOT_ASSESSED",
-      "evidence": {},
-      "dependencySummary": null,
-      "rightsSummary": null,
-      "securitySummary": null,
-      "transferSummary": null,
-      "openSellerItems": [],
+      "transactionReadiness": "NOT_READY",
+      "evidence": {
+        "EV-TECH-001": {
+          "kind": "implementation",
+          "path": "MASTER/hatv_env.py",
+          "gitBlobSha": "08596af74e356f53f33555536a8be8e760fab806"
+        },
+        "EV-VAL-001": {
+          "kind": "validation",
+          "path": ".github/workflows/validate.yml",
+          "gitBlobSha": "440a5c5b83d2fc38f7890a3c7d4598ba44e90bb7"
+        },
+        "EV-IP-001": {
+          "kind": "repository-licence",
+          "path": "LICENSE",
+          "gitBlobSha": "bff6b26ba0520605f14217524d4dd804aea0ec80"
+        },
+        "EV-DEP-001": {
+          "kind": "dependency-manifest",
+          "path": "MASTER/requirements.txt",
+          "gitBlobSha": "6f8454b80ecc2cda7fb5bfd860778994d489b550"
+        }
+      },
+      "dependencySummary": {
+        "manifestCount": 1,
+        "lockfileCount": 0,
+        "sbomCount": 0,
+        "manifests": [
+          "MASTER/requirements.txt"
+        ],
+        "locks": [],
+        "sbomFiles": []
+      },
+      "rightsSummary": {
+        "licenceFiles": [
+          "LICENSE"
+        ],
+        "thirdPartyFiles": [
+          "LICENSE"
+        ],
+        "legalTitleOpinion": "NOT_PERFORMED",
+        "ftoOpinion": "NOT_PERFORMED"
+      },
+      "securitySummary": {
+        "securityFiles": [],
+        "sensitiveFilenameIndicators": [],
+        "independentPenetrationTest": "NOT_ASSUMED"
+      },
+      "transferSummary": {
+        "buildReleaseEvidence": [
+          "MASTER/Makefile"
+        ],
+        "provenanceEvidence": [],
+        "transferEvidence": []
+      },
+      "openSellerItems": [
+        "Repository-native tests not identified.",
+        "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
+        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
+        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
+        "Add release/provenance fingerprint or attestation evidence.",
+        "Add an explicit buyer handover / transfer manifest."
+      ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
         "Freedom-to-operate legal opinion not performed unless separately evidenced.",
@@ -3786,22 +4304,98 @@
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 160000,
-      "baselineCommit": null,
-      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "baselineCommit": "5c48f066831e5f4403492ddc71c6e6f6d5ee4904",
+      "auditStatus": "REPOSITORY_SCAN_COMPLETE",
       "assurance": {
         "technicalMaturity": "P",
-        "evidenceMaturity": "E0",
-        "ipRightsMaturity": "R0",
+        "evidenceMaturity": "E3",
+        "ipRightsMaturity": "R2",
         "commercialMaturity": "C2",
-        "transferReadiness": "T0"
+        "transferReadiness": "T3"
       },
-      "transactionReadiness": "NOT_ASSESSED",
-      "evidence": {},
-      "dependencySummary": null,
-      "rightsSummary": null,
-      "securitySummary": null,
-      "transferSummary": null,
-      "openSellerItems": [],
+      "transactionReadiness": "READY_WITH_CONDITIONS",
+      "evidence": {
+        "EV-TECH-001": {
+          "kind": "implementation",
+          "path": "notebooks/HARM_LTX25_GPU_VALIDATION.ipynb",
+          "gitBlobSha": "e93b5a5a9b3b347f66443fab2a4c0c0b15bc9550"
+        },
+        "EV-TEST-001": {
+          "kind": "tests",
+          "path": "tests/test_core.py",
+          "gitBlobSha": "a77a2c753a2c1ac57219616ea2bc5cb2eedc3fb6"
+        },
+        "EV-VAL-001": {
+          "kind": "validation",
+          "path": "audit/MINIMAX_H3_IP_SEPARATION_AUDIT.md",
+          "gitBlobSha": "3f29b11e6f5a5dffd224bd04bd9356a138bc7f41"
+        },
+        "EV-IP-001": {
+          "kind": "repository-licence",
+          "path": "LICENSE",
+          "gitBlobSha": "472dbe3d4bd0fe12a06b2889e4f698854aa58793"
+        },
+        "EV-DEP-001": {
+          "kind": "dependency-manifest",
+          "path": "pyproject.toml",
+          "gitBlobSha": "38f45ace9a7addaec53905ed9cd66b1c71b62d68"
+        },
+        "EV-SEC-001": {
+          "kind": "security",
+          "path": "docs/SECURITY.md",
+          "gitBlobSha": "8c30d4e40a5348d1e6e752cab61a83acb9217af9"
+        },
+        "EV-PROV-001": {
+          "kind": "provenance",
+          "path": "provenance/EXCLUDED_REFERENCE_MATERIAL.md",
+          "gitBlobSha": "4c00591a32be13bd56c04973a29956aa3a3297e5"
+        }
+      },
+      "dependencySummary": {
+        "manifestCount": 1,
+        "lockfileCount": 0,
+        "sbomCount": 0,
+        "manifests": [
+          "pyproject.toml"
+        ],
+        "locks": [],
+        "sbomFiles": []
+      },
+      "rightsSummary": {
+        "licenceFiles": [
+          "LICENSE"
+        ],
+        "thirdPartyFiles": [
+          "LICENSE",
+          "docs/THIRD_PARTY_POLICY.md"
+        ],
+        "legalTitleOpinion": "NOT_PERFORMED",
+        "ftoOpinion": "NOT_PERFORMED"
+      },
+      "securitySummary": {
+        "securityFiles": [
+          "docs/SECURITY.md"
+        ],
+        "sensitiveFilenameIndicators": [],
+        "independentPenetrationTest": "NOT_ASSUMED"
+      },
+      "transferSummary": {
+        "buildReleaseEvidence": [
+          "deploy/Dockerfile",
+          "pyproject.toml"
+        ],
+        "provenanceEvidence": [
+          "provenance/EXCLUDED_REFERENCE_MATERIAL.md",
+          "provenance/OPTIONAL_LTX25_RUNTIME.md",
+          "provenance/ORIGIN_REGISTER.md"
+        ],
+        "transferEvidence": []
+      },
+      "openSellerItems": [
+        "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
+        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
+        "Add an explicit buyer handover / transfer manifest."
+      ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
         "Freedom-to-operate legal opinion not performed unless separately evidenced.",
@@ -3816,22 +4410,123 @@
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 650000,
-      "baselineCommit": null,
-      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "baselineCommit": "f7e2e2ded8873713358c673198d2372363c00bcd",
+      "auditStatus": "REPOSITORY_SCAN_COMPLETE",
       "assurance": {
         "technicalMaturity": "V",
-        "evidenceMaturity": "E0",
-        "ipRightsMaturity": "R0",
+        "evidenceMaturity": "E3",
+        "ipRightsMaturity": "R2",
         "commercialMaturity": "C2",
-        "transferReadiness": "T0"
+        "transferReadiness": "T3"
       },
-      "transactionReadiness": "NOT_ASSESSED",
-      "evidence": {},
-      "dependencySummary": null,
-      "rightsSummary": null,
-      "securitySummary": null,
-      "transferSummary": null,
-      "openSellerItems": [],
+      "transactionReadiness": "READY_WITH_CONDITIONS",
+      "evidence": {
+        "EV-TECH-001": {
+          "kind": "implementation",
+          "path": "scripts/internal_validate.py",
+          "gitBlobSha": "0c42aa31852d19935383a2d7832f289fdd9ea43d"
+        },
+        "EV-TEST-001": {
+          "kind": "tests",
+          "path": "tests/test_api.py",
+          "gitBlobSha": "cbc848debe6e01b66fdb9a43fcf17ea5ff557692"
+        },
+        "EV-VAL-001": {
+          "kind": "validation",
+          "path": ".github/workflows/canonical-validation.yml",
+          "gitBlobSha": "9c666ee097eb2239c5cde042d9a5a62e4115b214"
+        },
+        "EV-IP-001": {
+          "kind": "repository-licence",
+          "path": "LICENSE",
+          "gitBlobSha": "aea30d93ca3c8475a17b762823ccf198a117addb"
+        },
+        "EV-DEP-001": {
+          "kind": "dependency-manifest",
+          "path": "pyproject.toml",
+          "gitBlobSha": "f390f2219b6cd301a7b97ca77dc54a82a244efdc"
+        },
+        "EV-SEC-001": {
+          "kind": "security",
+          "path": "schemas/security-event.schema.json",
+          "gitBlobSha": "01842852a440d24ec3d3f9df82d7aa1fcb7d515b"
+        },
+        "EV-PROV-001": {
+          "kind": "provenance",
+          "path": "RELEASE_MANIFEST.json",
+          "gitBlobSha": "8f619e3ff8a034549d985522bafff2e3701b955e"
+        },
+        "EV-TRN-001": {
+          "kind": "transfer",
+          "path": "docs/ACQUISITION_CLOSURE.md",
+          "gitBlobSha": "e0ab5855999b05d100918bab4ce0425d2cb32a25"
+        }
+      },
+      "dependencySummary": {
+        "manifestCount": 1,
+        "lockfileCount": 0,
+        "sbomCount": 0,
+        "manifests": [
+          "pyproject.toml"
+        ],
+        "locks": [],
+        "sbomFiles": []
+      },
+      "rightsSummary": {
+        "licenceFiles": [
+          "LICENSE"
+        ],
+        "thirdPartyFiles": [
+          "LICENSE",
+          "schemas/acquisition-recovery-escalation-acknowledgement-v4.9.schema.json"
+        ],
+        "legalTitleOpinion": "NOT_PERFORMED",
+        "ftoOpinion": "NOT_PERFORMED"
+      },
+      "securitySummary": {
+        "securityFiles": [
+          "schemas/security-event.schema.json",
+          "src/isbr/security_events.py"
+        ],
+        "sensitiveFilenameIndicators": [],
+        "independentPenetrationTest": "NOT_ASSUMED"
+      },
+      "transferSummary": {
+        "buildReleaseEvidence": [
+          "Dockerfile",
+          "Makefile",
+          "pyproject.toml",
+          "scripts/internal_validate.py",
+          "scripts/validate_v25_operational.py"
+        ],
+        "provenanceEvidence": [
+          "RELEASE_MANIFEST.json",
+          "docs/EVIDENCE_GRAPH_CUSTODY.md",
+          "schemas/acquisition-recovery-state-attestation.schema.json",
+          "schemas/acquisition-restore-drill-attestation.schema.json",
+          "src/isbr/attestation.py",
+          "src/isbr/key_custody.py",
+          "src/isbr/provenance.py"
+        ],
+        "transferEvidence": [
+          "docs/ACQUISITION_CLOSURE.md",
+          "docs/ACQUISITION_FEDERATION.md",
+          "docs/ACQUISITION_FEDERATION_IMPORT.md",
+          "docs/ACQUISITION_FEDERATION_RECOVERY.md",
+          "docs/ACQUISITION_GATE.md",
+          "docs/ACQUISITION_RECOVERY_EXECUTION.md",
+          "docs/ACQUISITION_REGISTRY.md",
+          "docs/DUE_DILIGENCE_TRANSFER.md",
+          "docs/TRANSFER_CLOSURE.md",
+          "docs/TRANSFER_LEDGER_PORTFOLIO.md",
+          "examples/acquisition_federation_import_policy.json",
+          "examples/acquisition_policy.json"
+        ]
+      },
+      "openSellerItems": [
+        "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
+        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles."
+      ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
         "Freedom-to-operate legal opinion not performed unless separately evidenced.",
@@ -5400,10 +6095,10 @@
     }
   ],
   "summary": {
-    "audited": 34,
-    "pending": 61,
+    "audited": 43,
+    "pending": 52,
     "ready": 1,
-    "readyWithConditions": 30,
-    "notReady": 3
+    "readyWithConditions": 38,
+    "notReady": 4
   }
 }
