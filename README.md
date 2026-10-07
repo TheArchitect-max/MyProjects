@@ -37,3 +37,11 @@ Companion delivery repositories, public project websites and successor/generaliz
 The website retains its public-domain / CC0 old-master visual references and current chiaroscuro, tenebrism and sfumato presentation. Attribution and source links remain in the public footer.
 
 © 2026 THEARCHITECT_MAX. All rights reserved for first-party portfolio text, design and commercial material.
+
+<!-- DEVELOPMENT-REGISTER:START -->
+## Development register
+
+The public site now distinguishes the **89 individually priced commercial assets** from a broader **95-project repository-backed development register**.
+
+Development capital is milestone-based: no project-specific funding amount is represented as validated until a defined scope, evidence baseline, use-of-funds budget and acceptance criteria exist. The GitHub Pages site is informational only and does not process investments, crowdfunding payments, users, sessions or financial transactions.
+<!-- DEVELOPMENT-REGISTER:END -->
