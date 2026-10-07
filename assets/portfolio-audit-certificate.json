@@ -1,8 +1,8 @@
 {
-  "schema": "thearchitect-max-portfolio-audit-certificate-v1",
+  "schema": "thearchitect-max-portfolio-audit-certificate-v2",
   "basisDate": "2026-10-07",
   "repository": "TheArchitect-max/MyProjects",
-  "sourceHeadAtCertificatePreparation": "9f6c09b7b780d1ee679ceabd5ea05f94298513db",
+  "sourceHeadAtCertificatePreparation": "d28dff96a833f630fc811f419af3ed7446dcd8db",
   "scope": {
     "substantiveProjects": 95,
     "pricedStandaloneAssets": 92,
@@ -106,7 +106,7 @@
   "sourceObjects": {
     "sellerReadinessRegister": {
       "path": "assets/seller-readiness-register.json",
-      "gitBlobSha": "b5d82932934af2e53073e86ebdb8e96b68ca3760"
+      "gitBlobSha": "93bee6250b4b03690d7443d16af2cce1b9135f2f"
     },
     "valuationRegister": {
       "path": "assets/valuation-register.json",
@@ -119,6 +119,22 @@
     "projectIdentities": {
       "path": "assets/project-identities.json",
       "gitBlobSha": "c7bf3bd7162e4eed30050c9001a881f4f5899c1f"
+    },
+    "ipOwnershipRegister": {
+      "path": "assets/ip-ownership-register.json",
+      "gitBlobSha": "eaeb9aa1a080ef5dbd33391f9339e1abac13a2a7"
+    },
+    "softwareSupplyChainSummary": {
+      "path": "assets/software-supply-chain-summary.json",
+      "gitBlobSha": "f74f3ca120db155be622f4bedd2748e9a47e56ff"
+    },
+    "developmentProvenanceRegister": {
+      "path": "assets/development-provenance-register.json",
+      "gitBlobSha": "1882183ee10df45faae227addd079e3c2b99c2bc"
+    },
+    "tradeSecretRegister": {
+      "path": "assets/trade-secret-register.json",
+      "gitBlobSha": "5b8104a66b1ec807d9b5e1a76f96e8e56e03dff1"
     }
   },
   "externalStandards": [
@@ -138,5 +154,21 @@
       "url": "https://www.wipo.int/en/web/business/ip-valuation"
     }
   ],
-  "boundary": "Seller-side repository evidence audit. This certificate is not a legal title opinion, FTO opinion, certified security assessment, independent valuation, regulatory approval or buyer due-diligence conclusion."
+  "boundary": "Seller-side repository evidence and owner-declared provenance audit. Historical multi-AI conversations were deleted and are not retained. This certificate is not a legal title opinion, FTO opinion, certified security assessment, independent valuation, regulatory approval or buyer due-diligence conclusion.",
+  "provenance": {
+    "status": "OWNER_DECLARED_WITH_REPOSITORY_BASELINES",
+    "creatorModel": "SOLE_HUMAN_CREATOR_MULTI_AI_ASSISTED",
+    "humanCreatorCount": 1,
+    "externalHumanContributors": "NONE_KNOWN",
+    "historicalDevelopmentPath": "IRRECOVERABLE_FROM_RETAINED_EVIDENCE",
+    "historicalAiConversationArchive": "DELETED_NOT_RETAINED",
+    "identicalHistoricalProcessReproduction": "NOT_POSSIBLE_FROM_RETAINED_EVIDENCE",
+    "duplicateHistoricalArchive": "NONE_RETAINED",
+    "currentRepositoryRole": "AUTHORITATIVE_SURVIVING_AUDITABLE_ARTIFACT",
+    "evidenceBasis": [
+      "OWNER_DECLARATION",
+      "CURRENT_REPOSITORY_EVIDENCE"
+    ],
+    "treatment": "Deleted historical AI transcripts are not an open seller-side documentation item. Current repositories are the authoritative surviving auditable technical artifacts."
+  }
 }
