@@ -1,7 +1,7 @@
 {
-  "version": "2026.10.07-development-register-v1",
+  "version": "2026.10.07-development-register-v2",
   "status": "repository-evidenced-unpriced-projects",
-  "policy": "These records extend the development register without assigning a public valuation or funding target. Capital requirements are established only against a separately validated milestone and budget.",
+  "policy": "These records extend the development register without assigning a public valuation or funding target. Distinct repository lineages receive distinct public development slugs. Capital requirements are established only against a separately validated milestone and budget.",
   "projects": [
     {
       "slug": "digital-twin-core",
@@ -36,7 +36,7 @@
       "description": "eVTOL digital-twin and simulation research software with reproducible analytical power, energy, lift and design-space calculations, deterministic exploration and audit records."
     },
     {
-      "slug": "plantelogia-intelligence-platform",
+      "slug": "plantelogia-intelligence-platform-lineage",
       "name": "PLANTELOGIA Intelligence Platform",
       "stageLabel": "Qualified engineering prototype",
       "familyName": "Evidence & Intelligence Systems",

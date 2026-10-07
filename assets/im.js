@@ -236,7 +236,7 @@ async function render(){
   else if(rel==='proof.html'){title('Proof of Existence & Integrity','Public existence attestation, SHA-256 integrity verification and valuation reconciliation.');html=proofPage(d)}
   else if(rel==='valuation.html'){title('Verifiable Valuation',`Recreation-cost-anchored, reproducible seller-side valuation framework for ${n} proprietary assets.`);html=valuation(d)}
   else if(rel==='updates.html'){title('Portfolio Status');html=proofPage(d)}
-  else if(rel.startsWith('projects/')){const slug=rel.split('/')[1];const p=d.projects.find(x=>x.slug===slug);if(p){title(p.name,p.description);if(p.kind==='asset'){a=p;html=project(a,d)}else html=developmentProject(p,d)}else html=notFound(n)
+  else if(rel.startsWith('projects/')){const slug=rel.split('/')[1];const p=d.projects.find(x=>x.slug===slug);if(p){title(p.name,p.description);if(p.kind==='asset'){a=p;html=project(a,d)}else html=developmentProject(p,d)}else html=notFound(n)}
   else if(['opportunity.html','commercialization.html','evidence.html','transaction.html','transfer.html','assurance.html','notice.html'].includes(rel)){title(rel.replace('.html','').replace(/(^.|-.)/g,s=>s.replace('-',' ').toUpperCase()));html=info(rel,d)}
   else html=notFound(n);
   app.innerHTML=html;
