@@ -2,7 +2,7 @@
 const SCRIPT=document.currentScript;
 const ROOT=new URL('../',SCRIPT.src).href;
 const AS=new URL('assets/',ROOT).href;
-const VERSION='im38';
+const VERSION='im39';
 const EXPECTED_ASSETS=89;
 const FX=1.12448, FXDATE='2026-10-07';
 const STAGES={V:'Developed software',P:'Developed prototype',R:'Research-stage'};
@@ -64,9 +64,10 @@ function reconcile(assets,p){
   return{totals:s,checks,ok:Object.values(checks).every(Boolean)};
 }
 async function load(){
-  const[d,rc,desc,structure,supp,valText,methodText,att]=await Promise.all([
+  const[d,rc,desc,structure,supp,valText,methodText,att,development]=await Promise.all([
     fetchJSON('im-data.json'),fetchJSON('recreation-costs.json'),fetchJSON('descriptions.json'),fetchJSON('portfolio-structure.json'),
-    fetchJSON('supplemental-assets.json'),fetchText('valuation-register.json'),fetchText('economic-methodology.json'),fetchJSON('public-attestation.json')
+    fetchJSON('supplemental-assets.json'),fetchText('valuation-register.json'),fetchText('economic-methodology.json'),fetchJSON('public-attestation.json'),
+    fetchJSON('development-projects.json')
   ]);
   const values=JSON.parse(valText),method=JSON.parse(methodText);
   const famBySlug={};structure.families.forEach(f=>(f.assets||[]).forEach(s=>famBySlug[s]=f));
@@ -86,15 +87,20 @@ async function load(){
   };
   integrity.ok=integrity.valuation&&integrity.methodology;
   const rec=reconcile(assets,values.portfolio);
-  return{d,structure,values,method,assets,att,integrity,reconciliation:rec};
+  const projects=[
+    ...assets.map(a=>({...a,kind:'asset',commercialReference:true,stageLabel:STAGES[a.stage],familyName:a.family.name})),
+    ...(development.projects||[]).map(p=>({...p,kind:'development',commercialReference:false}))
+  ];
+  if(projects.length!==95||new Set(projects.map(x=>x.slug)).size!==95)throw Error('Development project register mismatch');
+  return{d,structure,values,method,assets,projects,development,att,integrity,reconciliation:rec};
 }
 function path(){const base=new URL(ROOT).pathname.replace(/\/$/,'');return location.pathname.startsWith(base)?location.pathname.slice(base.length).replace(/^\/+|\/+$/g,''):''}
 function nav(active){
-  const items=[['','Overview'],['portfolio.html','Collection'],['proof.html','Proof'],['valuation.html','Valuation'],['evidence.html','Diligence'],['transaction.html','Transaction']];
+  const items=[['','Overview'],['portfolio.html','Collection'],['development.html','Development'],['proof.html','Proof'],['valuation.html','Valuation'],['evidence.html','Diligence'],['transaction.html','Transaction']];
   return`<header class="site-head"><div class="shell nav"><a class="brand" href="${ROOT}"><span class="monogram">TA</span><span class="brand-copy"><strong>THEARCHITECT_MAX</strong><span>Private Technology · Public Catalogue</span></span></a><nav class="nav-links" aria-label="Primary navigation">${items.map(([u,l])=>`<a${active===u?' aria-current="page"':''} href="${ROOT}${u}">${l}</a>`).join('')}</nav></div></header>`;
 }
 function footer(n){
-  return`<footer class="footer"><div class="shell footer-grid"><div><span class="kicker">THEARCHITECT_MAX</span><h2>Private IP, disclosed with restraint.</h2><p>${n} individually priced assets. Public screening data only; source code and controlled diligence material remain private.</p></div><div class="footer-links"><a href="${ROOT}portfolio.html">Collection</a><a href="${ROOT}proof.html">Proof of existence</a><a href="${ROOT}valuation.html">Valuation</a><a href="${ROOT}evidence.html">Diligence perimeter</a><a href="${ROOT}transaction.html">Commercial enquiry</a><a href="${ROOT}notice.html">Notice</a></div></div><div class="shell art-credit"><span>Visual references:</span> <a target="_blank" rel="noopener" href="${ART.caravaggio.page}">${ESC(ART.caravaggio.credit)}</a> · <a target="_blank" rel="noopener" href="${ART.rembrandt.page}">${ESC(ART.rembrandt.credit)}</a><br>© 2026 THEARCHITECT_MAX. Portfolio text, design and first-party commercial material. All rights reserved.</div></footer>`;
+  return`<footer class="footer"><div class="shell footer-grid"><div><span class="kicker">THEARCHITECT_MAX</span><h2>Private IP, disclosed with restraint.</h2><p>${n} individually priced assets. Public screening data only; source code and controlled diligence material remain private.</p></div><div class="footer-links"><a href="${ROOT}portfolio.html">Collection</a><a href="${ROOT}development.html">Development</a><a href="${ROOT}proof.html">Proof of existence</a><a href="${ROOT}valuation.html">Valuation</a><a href="${ROOT}evidence.html">Diligence perimeter</a><a href="${ROOT}transaction.html">Commercial enquiry</a><a href="${ROOT}notice.html">Notice</a></div></div><div class="shell art-credit"><span>Visual references:</span> <a target="_blank" rel="noopener" href="${ART.caravaggio.page}">${ESC(ART.caravaggio.credit)}</a> · <a target="_blank" rel="noopener" href="${ART.rembrandt.page}">${ESC(ART.rembrandt.credit)}</a><br>© 2026 THEARCHITECT_MAX. Portfolio text, design and first-party commercial material. All rights reserved.</div></footer>`;
 }
 function wrap(main,active='',n=EXPECTED_ASSETS){return`<a class="skip" href="#main">Skip to content</a>${nav(active)}<main id="main">${main}</main>${footer(n)}`}
 function title(t,desc){document.title=`${t} — THEARCHITECT_MAX`;const m=document.querySelector('meta[name="description"]');if(m)m.content=desc||'Proprietary technology and IP assets available for acquisition, licensing or strategic integration.'}
@@ -107,7 +113,7 @@ function home(d){
   const selected=[...d.assets].sort((a,b)=>b.ask-a.ask).slice(0,6);
   return wrap(`
   <section class="hero-tenebrist"><div class="shell hero-grid">
-    <div class="hero-copy"><p class="eyebrow">Independent proprietary technology portfolio</p><h1>Private technology.<br><em>Public proof.</em></h1><p class="lede">A controlled commercial catalogue of ${n} proprietary software and research assets. Public information establishes identity, maturity, economic position and reproducible valuation arithmetic—without exposing source code or confidential implementation detail.</p><div class="actions"><a class="btn primary" href="${ROOT}portfolio.html">Enter the collection</a><a class="btn ghost" href="${ROOT}proof.html">Verify the public record</a></div><div class="hero-proof">${verificationMark(d)}<span>Basis ${ESC(d.values.valuationBasisDate)}</span></div></div>
+    <div class="hero-copy"><p class="eyebrow">Independent proprietary technology portfolio</p><h1>Private technology.<br><em>Public proof.</em></h1><p class="lede">A controlled commercial catalogue of ${n} individually priced proprietary assets, supported by a ${d.projects.length}-project development register. Public information establishes identity, evidenced maturity and commercial context without exposing source code or confidential implementation detail.</p><div class="actions"><a class="btn primary" href="${ROOT}portfolio.html">Enter the collection</a><a class="btn ghost" href="${ROOT}development.html">Development register</a><a class="btn ghost" href="${ROOT}proof.html">Verify the public record</a></div><div class="hero-proof">${verificationMark(d)}<span>Basis ${ESC(d.values.valuationBasisDate)}</span></div></div>
     <figure class="art-frame hero-art"><img src="${ART.caravaggio.src}" alt="The Calling of Saint Matthew by Caravaggio, used as a public-domain tenebrist visual reference" referrerpolicy="no-referrer"><figcaption>Light as evidence. ${ESC(ART.caravaggio.credit)}</figcaption></figure>
   </div></section>
   <section class="ledger-strip"><div class="shell ledger-grid"><div><span>Standalone assets</span><strong>${n}</strong></div><div><span>Aggregate acquisition ask</span><strong>${EURM(p.sellerAskEUR)}</strong><small>≈ ${USDM(p.sellerAskEUR)}</small></div><div><span>Engineering recreation cost</span><strong>${EURM(p.replacementCostEUR)}</strong><small>≈ ${USDM(p.replacementCostEUR)}</small></div><div><span>Ask / recreation cost</span><strong>${PCT(p.sellerAskAsShareOfReplacementCost)}</strong></div></div></section>
@@ -162,6 +168,41 @@ function valuation(d){
   <div class="model-box"><div><p class="eyebrow">Calibration</p><h2>Engineering-equivalent rebuild basis.</h2><p>Senior engineer month: ${EUR(d.method.rebuildCostCalibration.seniorEngineerMonthEUR)} · lead/specialist month: ${EUR(d.method.rebuildCostCalibration.leadOrSpecialistMonthEUR)} · validation/provenance month: ${EUR(d.method.rebuildCostCalibration.validationProvenanceMonthEUR)} · coordination/tooling allowance: ${PCT(d.method.rebuildCostCalibration.coordinationToolingAllowance)}.</p></div><a class="btn" href="${ROOT}proof.html">Verify the arithmetic</a></div>
   <div class="boundary-note"><strong>Valuation boundary.</strong><p>Reproducibility means another reader can obtain the same model result from the same public inputs. It does not make the inputs independently audited, nor does it establish fair market value. Buyer-specific rights, exclusivity, remaining work, synergies, third-party dependencies and evidence can materially alter negotiated value.</p></div></div></section>`,'valuation.html',n);
 }
+function developmentIssue(p){
+  const id=p.ref?`${p.ref} — ${p.name}`:p.name;
+  return `https://github.com/TheArchitect-max/MyProjects/issues/new?title=${encodeURIComponent(`Development inquiry — ${id}`)}&body=${encodeURIComponent(`Public contact initiation only. Do not include confidential information.\n\nProject: ${id}\nInterest: development sponsorship / co-development / licensing with development commitment / separately structured private financing\n\nA project-specific milestone scope, evidence perimeter, budget and definitive terms must be agreed separately.`)}`;
+}
+function developmentPage(d){
+  const n=d.projects.length,priced=d.assets.length,unpriced=n-priced;
+  const rows=[...d.projects].sort((a,b)=>a.name.localeCompare(b.name)).map(p=>{
+    const ref=p.ref||'DEVELOPMENT';
+    const family=p.familyName||(p.family&&p.family.name)||'Independent project';
+    const commercial=p.commercialReference?EUR(p.ask):'Not established';
+    return `<article class="collection-row" data-development-row data-search="${ESC(`${p.name} ${p.description} ${family} ${p.sector||''} ${p.stageLabel||''} ${p.ref||''}`.toLowerCase())}"><div class="row-ref"><span>${ESC(ref)}</span><b>${p.commercialReference?'Commercial + development':'Development only'}</b></div><div class="row-main"><span class="stage">${ESC(p.stageLabel||'Repository-evidenced project')}</span><h2><a href="${ROOT}projects/${p.slug}/">${ESC(p.name)}</a></h2><p>${ESC(p.description)}</p><small>${ESC(family)}${p.sector?` · ${ESC(p.sector)}`:''}</small></div><div class="row-money"><div><span>Commercial reference</span><strong>${commercial}</strong><small>${p.commercialReference?'Existing seller-side acquisition reference':'No validated public seller-side price established'}</small></div><div><span>Development capital</span><strong>Milestone-defined</strong><small>No amount stated before scope and budget validation</small></div></div></article>`;
+  }).join('');
+  return wrap(`<section class="page-hero"><div class="shell"><p class="eyebrow">Development capital</p><h1>Fund defined progress.<br><em>Not undefined promises.</em></h1><p class="lede">${n} repository-backed projects are represented individually. ${priced} currently have established seller-side commercial references; ${unpriced} additional projects are presented without a public valuation. Development capital is scoped against defined technical or commercial milestones rather than an undifferentiated funding request.</p><div class="actions"><a class="btn primary" href="#development-register">Browse development register</a><a class="btn" href="${ROOT}transaction.html">Transaction routes</a></div></div></section>
+  <section class="section"><div class="shell"><div class="proof-grid"><article class="proof-card"><span>01</span><h3>Development sponsorship</h3><p>Support a defined engineering, validation or productisation milestone without implying transfer of the underlying IP.</p></article><article class="proof-card"><span>02</span><h3>Strategic co-development</h3><p>Combine capital, technical capability, infrastructure or market access under a separately documented project scope.</p></article><article class="proof-card"><span>03</span><h3>Licence + development</h3><p>Pair defined commercial rights with agreed further-development, validation or deployment commitments.</p></article><article class="proof-card"><span>04</span><h3>External funding route</h3><p>Private financing or an external crowdfunding platform may be used only when separately structured. This website does not process funding or payments.</p></article></div><div class="boundary-note"><strong>Capital discipline.</strong><p>No development amount is presented as validated until the applicable project has a defined milestone, evidence baseline, use-of-funds budget and delivery perimeter. Nothing on this page is an offer of securities, a guarantee of performance or a commitment to enter into a transaction.</p></div></div></section>
+  <section class="section" id="development-register"><div class="shell"><div class="section-head"><div><p class="eyebrow">Project register</p><h2>${n} distinct development records.</h2></div><p>Commercial valuation and development funding are separate. A project may be technically active without having a published seller-side price or funding target.</p></div><div class="tools"><label><span>Search development register</span><input id="development-search" type="search" placeholder="Project, capability, family, maturity…"></label></div><div class="collection-meta"><p id="development-count">${n} projects</p>${verificationMark(d,true)}</div><div class="collection-list" id="development-list">${rows}</div></div></section>`,'development.html',priced);
+}
+function bindDevelopment(d){
+  const q=document.getElementById('development-search'),count=document.getElementById('development-count');
+  if(!q||!count)return;
+  const rows=[...document.querySelectorAll('[data-development-row]')];
+  const draw=()=>{const s=q.value.trim().toLowerCase();let visible=0;rows.forEach(r=>{const show=!s||(r.dataset.search||'').includes(s);r.hidden=!show;if(show)visible++});count.textContent=`${visible} of ${d.projects.length} projects`;};
+  q.addEventListener('input',draw);draw();
+}
+function developmentOpportunity(a){
+  const issue=developmentIssue(a);
+  return `<section class="section"><div class="shell"><div class="section-head"><div><p class="eyebrow">Development route</p><h2>Milestone-based advancement.</h2></div><p>Acquisition value and development capital are separate concepts. No project-specific funding figure is stated here until a technical or commercial milestone scope and use-of-funds budget have been validated.</p></div><div class="proof-grid"><article class="proof-card"><h3>Development sponsorship</h3><p>Defined engineering, validation or productisation work without automatic transfer of IP ownership.</p></article><article class="proof-card"><h3>Strategic co-development</h3><p>Capital, infrastructure, expertise or market access can be combined under separately agreed rights and deliverables.</p></article><article class="proof-card"><h3>Licence + development</h3><p>Commercial rights can be paired with a separately scoped development commitment where appropriate.</p></article><article class="proof-card"><h3>Private financing</h3><p>Possible only through an appropriate separately documented structure; this public site does not accept or process investment.</p></article></div><div class="actions"><a class="btn primary" target="_blank" rel="noopener" href="${issue}">Development enquiry</a><a class="btn" href="${ROOT}development.html">Development register</a></div></div></section>`;
+}
+function developmentProject(p,d){
+  const issue=developmentIssue(p);
+  const family=p.familyName||'Independent project';
+  return wrap(`<section class="asset-hero"><div class="shell"><div class="asset-ref">Development project · Repository-evidenced public status</div><h1>${ESC(p.name)}</h1><p class="lede">${ESC(p.description)}</p><div class="actions"><a class="btn primary" target="_blank" rel="noopener" href="${issue}">Development enquiry</a><a class="btn ghost" href="${ROOT}development.html">Development register</a></div></div></section>
+  <section class="section"><div class="shell detail-grid"><article class="profile-panel"><p class="eyebrow">Public development profile</p><dl><div><dt>Classification</dt><dd>${ESC(family)}</dd></div><div><dt>Sector</dt><dd>${ESC(p.sector||'Technology development')}</dd></div><div><dt>Demonstrated maturity</dt><dd>${ESC(p.stageLabel)}</dd></div><div><dt>Development capital</dt><dd>Defined per validated milestone</dd></div><div><dt>Commercial reference</dt><dd>No validated public seller-side price established</dd></div></dl></article><aside class="price-panel"><span>Development funding status</span><strong>Scope first</strong><small>No funding amount is published before a project-specific milestone and budget are validated.</small><hr><span>Public transaction status</span><b>By enquiry</b><small>Any sponsorship, licence, co-development or financing terms require separate definitive documentation.</small></aside></div></section>
+  <section class="section ink-section"><div class="shell"><div class="section-head"><div><p class="eyebrow">Evidence boundary</p><h2>Only demonstrated status is published.</h2></div><p>Repository evidence supports the public maturity description. Private implementation detail, controlled validation material and security-sensitive information are not exposed by this development profile.</p></div></div></section>
+  <section class="section"><div class="shell"><div class="proof-grid"><article class="proof-card"><h3>Defined milestone</h3><p>State the technical or commercial output that development capital is intended to produce.</p></article><article class="proof-card"><h3>Use of funds</h3><p>Establish a project-specific budget before any funding amount is represented as validated.</p></article><article class="proof-card"><h3>Acceptance evidence</h3><p>Define reproducible completion and validation criteria for the funded milestone.</p></article><article class="proof-card"><h3>Separate terms</h3><p>Funding does not itself transfer source code, ownership, licences or other IP rights.</p></article></div><div class="boundary-note"><strong>Public boundary.</strong><p>This profile is informational. It is not an offer of securities, a guarantee of technical or commercial performance, or a substitute for legal, technical and financial diligence.</p></div></div></section>`,'development.html',d.values.portfolio.assetCount);
+}
 async function publicFingerprint(a,basis){const obj={ref:a.ref,slug:a.slug,name:a.name,stage:a.stage,potential:a.potential,sector:a.sector,route:a.route,ask:a.ask,low:a.low,high:a.high,recreationCost:a.replacementCost,basisDate:basis};return sha256(JSON.stringify(obj))}
 function project(a,d){
   const e=a.econ,buy=BUYERS[a.family.id]||'strategic technology buyers';
@@ -170,6 +211,7 @@ function project(a,d){
   <section class="section"><div class="shell detail-grid"><article class="profile-panel"><p class="eyebrow">Commercial profile</p><dl><div><dt>Classification</dt><dd>${ESC(a.family.name)}</dd></div><div><dt>Sector</dt><dd>${ESC(a.sector)}</dd></div><div><dt>Seller-assessed stage</dt><dd>${STAGES[a.stage]}</dd></div><div><dt>Commercial potential</dt><dd>${POT[a.potential]}</dd></div><div><dt>Primary route</dt><dd>${ESC(a.route)}</dd></div></dl><div class="fingerprint"><span>Public record fingerprint · SHA-256</span><code id="asset-fingerprint">Calculating…</code><small>Deterministic fingerprint of this public commercial record; not a source-code hash.</small></div></article>
   <aside class="price-panel"><span>Indicative IP acquisition ask</span><strong>${EUR(a.ask)}</strong><small>≈ ${USD(a.ask)} USD</small><hr><span>Negotiation range</span><b>${EUR(a.low)} – ${EUR(a.high)}</b><hr><span>Engineering recreation cost</span><b>${EUR(e.replacementCostEUR)}</b><hr><span>Ask / recreation cost</span><b>${PCT(a.ask/e.replacementCostEUR)}</b></aside></div><p class="shell fine">${FXNOTE()}</p></section>
   <section class="section ink-section"><div class="shell"><div class="section-head"><div><p class="eyebrow">Secondary analytical context</p><h2>Value lenses after implementation.</h2></div><p>Model outputs are secondary to the recreation-cost price basis and do not guarantee market adoption, income or strategic outcomes.</p></div><div class="value-grid"><article><span>Market proxy</span><strong>${EUR(e.marketComparableProxyEUR)}</strong></article><article><span>Income proxy</span><strong>${EUR(e.incomeLicensingProxyEUR)}</strong></article><article><span>Strategic reference</span><strong>${EUR(e.probabilityAdjustedStrategicValueEUR)}</strong></article><article><span>Triangulated reference</span><strong>${EUR(e.triangulatedEconomicReferenceEUR)}</strong></article></div></div></section>
+  ${developmentOpportunity(a)}
   <section class="section"><div class="shell"><div class="proof-grid two"><article class="proof-card"><span>Buyer fit</span><h3>Illustrative counterparties</h3><p>${ESC(buy)}. Actual utility requires buyer-specific technical and commercial diligence.</p></article><article class="proof-card"><span>Disclosure</span><h3>Controlled diligence only</h3><p>Detailed source, architecture, rights, validation and transaction material is not published in this showroom.</p></article></div><div class="boundary-note"><strong>Diligence perimeter.</strong><p>Production readiness, scientific validity, regulatory status, third-party rights, security posture and deployment suitability are qualified separately for the intended transaction and use case.</p></div></div></section>`,'portfolio.html',d.values.portfolio.assetCount);
 }
 function info(page,d){
@@ -190,14 +232,16 @@ async function render(){
   const d=await load(),rel=path(),app=document.getElementById('app'),n=d.values.portfolio.assetCount;let html,a=null;
   if(!rel||rel==='index.html'){title('Private Technology & IP Portfolio',`${n} proprietary technology and IP assets with public proof and reproducible seller-side valuation.`);html=home(d)}
   else if(rel==='portfolio.html'){title('Collection',`Search ${n} individually priced proprietary technology assets.`);html=portfolio(d)}
+  else if(rel==='development.html'){title('Development','Repository-backed development opportunities with milestone-defined capital scopes.');html=developmentPage(d)}
   else if(rel==='proof.html'){title('Proof of Existence & Integrity','Public existence attestation, SHA-256 integrity verification and valuation reconciliation.');html=proofPage(d)}
   else if(rel==='valuation.html'){title('Verifiable Valuation',`Recreation-cost-anchored, reproducible seller-side valuation framework for ${n} proprietary assets.`);html=valuation(d)}
   else if(rel==='updates.html'){title('Portfolio Status');html=proofPage(d)}
-  else if(rel.startsWith('projects/')){const slug=rel.split('/')[1];a=d.assets.find(x=>x.slug===slug);if(a){title(a.name,a.description);html=project(a,d)}else html=notFound(n)}
+  else if(rel.startsWith('projects/')){const slug=rel.split('/')[1];const p=d.projects.find(x=>x.slug===slug);if(p){title(p.name,p.description);if(p.kind==='asset'){a=p;html=project(a,d)}else html=developmentProject(p,d)}else html=notFound(n)
   else if(['opportunity.html','commercialization.html','evidence.html','transaction.html','transfer.html','assurance.html','notice.html'].includes(rel)){title(rel.replace('.html','').replace(/(^.|-.)/g,s=>s.replace('-',' ').toUpperCase()));html=info(rel,d)}
   else html=notFound(n);
   app.innerHTML=html;
   if(rel==='portfolio.html')bindPortfolio(d);
+  if(rel==='development.html')bindDevelopment(d);
   if(a)await bindProjectFingerprint(a,d);
 }
 render().catch(e=>{console.error(e);document.getElementById('app').innerHTML=`<main id="main"><section class="page-hero"><div class="shell"><h1>Portfolio temporarily unavailable.</h1><p>Public commercial data could not be verified and loaded.</p></div></section></main>`});
