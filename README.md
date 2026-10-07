@@ -103,21 +103,19 @@ Institutional documentation:
 - `docs/INSTITUTIONAL_PORTFOLIO_MEMORANDUM.md`
 <!-- SELLER-READINESS:END -->
 
-<!-- CREATOR-PROVENANCE:START -->
-## Creator & development provenance
+<!-- RIGHTS-TRANSFER:START -->
+## Rights & transfer perimeter
 
-The portfolio uses a **single-human-creator, multi-AI-assisted** provenance model. The owner directed the objectives, iterative development, selection, integration and acceptance of the repository outcomes.
+The public acquisition layer focuses on **what is offered, what seller-owned first-party rights are transferable/licensable, what third-party rights are present, and what is explicitly excluded**. Internal development methods are outside the public transaction record.
 
-Historical multi-AI conversation chains and intermediate development states were deliberately deleted and are not retained. The exact historical development path is therefore recorded as **IRRECOVERABLE_FROM_RETAINED_EVIDENCE**. The current repository/release baselines are the authoritative surviving auditable artifacts.
+The seller declares no known or disclosed external human co-owner of the seller-owned first-party rights. Third-party software, libraries, datasets, models, APIs and other third-party IP are not represented as seller-owned and remain governed by their own terms.
 
-This does not claim that similar software cannot be independently reimplemented. It means the identical original multi-AI development process cannot be reconstructed from the retained evidence. Deleted historical AI transcripts are not treated as an open seller-side documentation item.
+Authoritative registers:
 
-Authoritative record: `assets/development-provenance-register.json`.
+- `assets/ip-ownership-register.json`
+- `assets/rights-transfer-register.json`
+- `assets/software-supply-chain-summary.json`
 
-Related confidentiality/governance records:
+Detailed transaction rights, disclosure schedules, representations and warranties belong in the definitive agreement.
+<!-- RIGHTS-TRANSFER:END -->
 
-- `assets/trade-secret-register.json`
-- `docs/TRADE_SECRET_CLASSIFICATION.md`
-- `docs/CONFIDENTIAL_INFORMATION_POLICY.md`
-- `docs/DISCLOSURE_BOUNDARY.md`
-<!-- CREATOR-PROVENANCE:END -->
