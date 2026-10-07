@@ -113,4 +113,11 @@ Historical multi-AI conversation chains and intermediate development states were
 This does not claim that similar software cannot be independently reimplemented. It means the identical original multi-AI development process cannot be reconstructed from the retained evidence. Deleted historical AI transcripts are not treated as an open seller-side documentation item.
 
 Authoritative record: `assets/development-provenance-register.json`.
+
+Related confidentiality/governance records:
+
+- `assets/trade-secret-register.json`
+- `docs/TRADE_SECRET_CLASSIFICATION.md`
+- `docs/CONFIDENTIAL_INFORMATION_POLICY.md`
+- `docs/DISCLOSURE_BOUNDARY.md`
 <!-- CREATOR-PROVENANCE:END -->
