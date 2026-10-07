@@ -2,9 +2,9 @@
 const SCRIPT=document.currentScript;
 const ROOT=new URL('../',SCRIPT.src).href;
 const AS=new URL('assets/',ROOT).href;
-const VERSION='im37';
+const VERSION='im38';
 const EXPECTED_ASSETS=89;
-const FX=1.12050, FXDATE='2026-10-05';
+const FX=1.12448, FXDATE='2026-10-07';
 const STAGES={V:'Developed software',P:'Developed prototype',R:'Research-stage'};
 const POT={VH:'Very high',H:'High',M:'Moderate',S:'Specialist'};
 const PS={VH:4,H:3,M:2,S:1};
