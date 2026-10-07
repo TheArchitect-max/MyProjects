@@ -1,0 +1,2055 @@
+{
+  "version": "2026.10.07-rights-transfer-register-v1",
+  "basisDate": "2026-10-07",
+  "status": "SELLER_SIDE_RIGHTS_AND_TRANSFER_REGISTER",
+  "purpose": "Define what rights and deliverables are offered, what third-party rights are excluded from ownership transfer, and what evidence supports the seller-side rights position.",
+  "portfolioSellerDeclaration": {
+    "firstPartyRightsClaim": "Seller declares ownership/control of the seller-owned first-party rights embodied in the offered work product, subject to applicable law and disclosed third-party rights.",
+    "externalHumanCoOwnerClaim": "NO_EXTERNAL_HUMAN_CO_OWNERS_KNOWN_OR_DISCLOSED",
+    "developmentMethodDisclosure": "NOT_REQUIRED_FOR_PUBLIC_TRANSACTION_RECORD",
+    "thirdPartyRule": "Third-party libraries, frameworks, datasets, models, media, APIs and other third-party IP are not represented as seller-owned IP and are not transferred as such; their continued use is governed by the applicable licence or contract.",
+    "transferRule": "A definitive transaction transfers or licenses only the seller-owned rights and specifically identified deliverables within the agreed transaction perimeter.",
+    "encumbrances": "NOT_INDEPENDENTLY_VERIFIED; definitive transaction should include seller representations, disclosure schedules and buyer review appropriate to the transaction.",
+    "legalOpinion": "NOT_PERFORMED"
+  },
+  "evidenceModel": {
+    "sellerDeclaration": "Primary factual declaration regarding seller-owned first-party rights and absence of known external human co-owners.",
+    "repositoryEvidence": "Current repository baselines, licence files, notices, dependency manifests, SBOM/third-party records and Git object identities support the technical and third-party-rights perimeter.",
+    "independentLegalOpinion": "Not implied. May be commissioned if a transaction requires it."
+  },
+  "projects": [
+    {
+      "repository": "ATHANOR---Adaptive-Topology-Hazard-Analysis-Network-Optimization-Resilience",
+      "slug": "athanor",
+      "identityName": "Elara",
+      "commercialReference": "TA-IP-003",
+      "auditedBaselineCommit": "1fc48abb15b8195c39eabe188dd3783ebb7129d1",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_BOUNDARY.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Adaptive-Audio-MIDI-Transcription-Studio",
+      "slug": "adaptive-audio-midi-transcription-studio",
+      "identityName": "Aria",
+      "commercialReference": "TA-IP-087",
+      "auditedBaselineCommit": "2dec0e7743286246c5ab9cae95ac6d6e7eedeb0c",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [],
+      "thirdPartyDisclosureFiles": [
+        "THIRD_PARTY.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R0",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Adaptive-Audio-Production-System",
+      "slug": "adaptive-audio-production-system",
+      "identityName": "Melody",
+      "commercialReference": "TA-IP-062",
+      "auditedBaselineCommit": "f2342fd049288e2f69ca829a62b270562be7b6e9",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Adaptive-Audio-Synthesis-Platform",
+      "slug": "adaptive-audio-synthesis-platform",
+      "identityName": "Cadence",
+      "commercialReference": "TA-IP-071",
+      "auditedBaselineCommit": "66d434a886fe61174fc608f61cac8f589d9a27eb",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Adaptive-Biofeedback-Engine",
+      "slug": "adaptive-biofeedback-engine",
+      "identityName": "Serena",
+      "commercialReference": "TA-IP-050",
+      "auditedBaselineCommit": "d5effa4537582cd7955f551ada4e2a51b5358387",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE",
+        "LICENSE.md"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "docs/THIRD_PARTY_SERVICES.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Adaptive-Cognitive-Runtime",
+      "slug": "adaptive-cognitive-runtime",
+      "identityName": "Sophia",
+      "commercialReference": "TA-IP-072",
+      "auditedBaselineCommit": "e49bcde8a79c5918bd0753868a47580453aeb1d5",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Adaptive-General-Reasoning-Research-Platform",
+      "slug": "adaptive-general-reasoning-research-platform",
+      "identityName": "Athena",
+      "commercialReference": "TA-IP-066",
+      "auditedBaselineCommit": "bba596fc224a38fc3c7a559e2e148731ed7b47e6",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE",
+        "NOTICE.md"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "NOTICE.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Adaptive-Neural-Architecture-Platform",
+      "slug": "adaptive-neural-architecture-platform",
+      "identityName": "Ada",
+      "commercialReference": "TA-IP-078",
+      "auditedBaselineCommit": "b7267c0a67957066a5404bdfd6a3ea8fea60ffb7",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Adaptive-Systems-Intelligence-Platform",
+      "slug": "plantelogia-intelligence-platform",
+      "identityName": "Nadia",
+      "commercialReference": "TA-IP-085",
+      "auditedBaselineCommit": "819e399c4d337fb604c3ecf46747c80a1194843f",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE",
+        "NOTICE.md"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "NOTICE.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Advanced-Ground-Vehicle-Engineering",
+      "slug": "advanced-ground-vehicle-engineering",
+      "identityName": "Petra",
+      "commercialReference": "TA-IP-036",
+      "auditedBaselineCommit": "169d4868a3000c8121f6dcef6884261c12d19553",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Aerospace-Mission-Simulator",
+      "slug": "aerospace-mission-simulator",
+      "identityName": "Celeste",
+      "commercialReference": "TA-IP-032",
+      "auditedBaselineCommit": "8dd369f1fe9ac7dd458676780905c32d9e76e1af",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Aletheia-Intelligence-Fabric---Distributed-Evidence-Entity-Intelligence-Platform",
+      "slug": "aletheia-intelligence-fabric",
+      "identityName": "Aletheia",
+      "commercialReference": "TA-IP-051",
+      "auditedBaselineCommit": "9e1afc08d39b66ff75b8ebe79d1626853049e9e6",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE",
+        "NOTICE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "NOTICE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Autonomous-Adaptation-Framework",
+      "slug": "autonomous-adaptation-framework",
+      "identityName": "Nora",
+      "commercialReference": "TA-IP-029",
+      "auditedBaselineCommit": "324e8732ea5be3aed1d6e61b50abf18720dfac9b",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Autonomous-Documentary-Engine",
+      "slug": "autonomous-documentary-engine",
+      "identityName": "Clara",
+      "commercialReference": "TA-IP-057",
+      "auditedBaselineCommit": "197bcd8f613284f1e4fe287629cec4dbfbc0f015",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "AxiomFactor",
+      "slug": "axiomfactor",
+      "identityName": "Hypatia",
+      "commercialReference": "TA-IP-044",
+      "auditedBaselineCommit": "e6ea6ebc606afd4111a316ff4d7e8bef555c9369",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Bio-Inspired-Neural-Dynamics-Active-Inference-Simulation-Platform",
+      "slug": "bio-inspired-neural-dynamics-active-inference-simulation-platform",
+      "identityName": "Iona",
+      "commercialReference": "TA-IP-079",
+      "auditedBaselineCommit": "fc98d6166e909375a68b446c209f2e2804e5d700",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Biometric-Systems-Assurance-Platform",
+      "slug": "biometric-systems-assurance-platform",
+      "identityName": "Iris",
+      "commercialReference": "TA-IP-037",
+      "auditedBaselineCommit": "1fa07cfbcdfef5af093f3bbfa3d00af74cc7ba2f",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE",
+        "NOTICE.md"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "NOTICE.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R3",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "CardioSignal-Intelligence-Platform",
+      "slug": "cardiosignal-intelligence-platform",
+      "identityName": "Cora",
+      "commercialReference": "TA-IP-080",
+      "auditedBaselineCommit": "d5b4ff5378c531878a2fe27928c931ad0eb8a857",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE.md"
+      ],
+      "thirdPartyDisclosureFiles": [],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Causal-State-Field-Engine",
+      "slug": "causal-state-field-engine",
+      "identityName": "Maya",
+      "commercialReference": "TA-IP-063",
+      "auditedBaselineCommit": "097ec215b37c719febb27219169fa4c224da071e",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Chimera-Spectral-Perception-System",
+      "slug": "chimera-spectral-perception-system",
+      "identityName": "Selene",
+      "commercialReference": "TA-IP-069",
+      "auditedBaselineCommit": "e39d389e397cfdf03b0cc2b3ccae83b17f4c48ef",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE.txt"
+      ],
+      "thirdPartyDisclosureFiles": [],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Cipher-Lyric-Engine",
+      "slug": "cipher-lyric-engine",
+      "identityName": "Livia",
+      "commercialReference": "TA-IP-023",
+      "auditedBaselineCommit": "695e87369298ec799616e36da68f99b6e5c464e0",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "CipherRouteDB",
+      "slug": "cipherroutedb",
+      "identityName": "Vera",
+      "commercialReference": "TA-IP-043",
+      "auditedBaselineCommit": "9a68042c79709ff635c4d7c0492f73d094061828",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Content-Integrity-Assurance-Platform",
+      "slug": "content-integrity-assurance-platform",
+      "identityName": "Verena",
+      "commercialReference": "TA-IP-073",
+      "auditedBaselineCommit": "1d03275cb7e4cba222e2c8c850faf1b45176e73c",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Continuum-State-Integrity-Platform",
+      "slug": "continuum-state-integrity-platform",
+      "identityName": "Elena",
+      "commercialReference": "TA-IP-005",
+      "auditedBaselineCommit": "2e294631f3d9054439e55d00867342fcdab1fd99",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Custody-Integrity-Assurance-Platform",
+      "slug": "custody-integrity-assurance-platform",
+      "identityName": "Justine",
+      "commercialReference": "TA-IP-010",
+      "auditedBaselineCommit": "c038e36aed99ba4857ff00b2497b90ae6a4329b3",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "DMT-Laser-Phenomenology-Engine",
+      "slug": "dmt-laser-phenomenology-engine",
+      "identityName": "Aurora",
+      "commercialReference": "TA-IP-025",
+      "auditedBaselineCommit": "d642f3331b3ab87eed7d41b07adf29a2346f28cc",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Digital-Twin-Core",
+      "slug": "digital-twin-core",
+      "identityName": "Tessa",
+      "commercialReference": null,
+      "auditedBaselineCommit": "2962d8c984584138329ccd141923c9e7cf290866",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [],
+      "thirdPartyDisclosureFiles": [],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R0",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Distributed-AI-Resource-Fabric",
+      "slug": "distributed-ai-resource-fabric",
+      "identityName": "Freya",
+      "commercialReference": "TA-IP-024",
+      "auditedBaselineCommit": "a66be856b2f6a89cc35d2d9253451d1f80861be2",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Distributed-Compute-Fabric",
+      "slug": "distributed-compute-fabric",
+      "identityName": "Ingrid",
+      "commercialReference": "TA-IP-084",
+      "auditedBaselineCommit": "b306a662db44d8852bef9ede55cb40a62f982d7b",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Dominus-Kraken-Execution-Engine",
+      "slug": "dominus-kraken-execution-engine",
+      "identityName": "Mara",
+      "commercialReference": "TA-IP-028",
+      "auditedBaselineCommit": "1e6d77e7eace7dbf9358bb85d18483c37d689f8f",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Electric-Flight-Systems-Simulation-Validation-Platform",
+      "slug": "electric-flight-systems-simulation-validation-platform",
+      "identityName": "Amelia",
+      "commercialReference": "TA-IP-034",
+      "auditedBaselineCommit": "b59b4195fac6d229658f97c53a55a62ba2aaf5d8",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Engineering-Intelligence-Mastery-Platform",
+      "slug": "truelane-engineering-excellence",
+      "identityName": "Minerva",
+      "commercialReference": "TA-IP-038",
+      "auditedBaselineCommit": "01ba2bebb1c4af41edfbd2a63983b87b12a85bc9",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Evidence-Governed-Analytical-Reasoning-Platform",
+      "slug": "evidence-governed-analytical-reasoning-platform",
+      "identityName": "Thea",
+      "commercialReference": "TA-IP-064",
+      "auditedBaselineCommit": "471abb19f133ce8b3d61fb014ffdc9152e00b970",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE",
+        "NOTICE.md"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "NOTICE.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Evidence-Governed-Software-Assurance-Platform",
+      "slug": "evidence-governed-software-assurance-platform",
+      "identityName": "Grace",
+      "commercialReference": "TA-IP-041",
+      "auditedBaselineCommit": "233c9d9686a49cf00c146130d0a399fa696cbff9",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R3",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Evidence-Governed-Visual-Intelligence-Platform",
+      "slug": "evidence-governed-visual-intelligence-platform",
+      "identityName": "Helena",
+      "commercialReference": "TA-IP-013",
+      "auditedBaselineCommit": "ca4f0174bf9fca55f3aa6ba9d8ffa2a2801c7a7d",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Evidence-Grounded-Multi-Expert-Reasoning-System",
+      "slug": "evidence-grounded-multi-expert-reasoning-system",
+      "identityName": "Eleanor",
+      "commercialReference": "TA-IP-055",
+      "auditedBaselineCommit": "1761f7b94f00aa12feaf9c3c07be02256fa468fb",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Faunometric-Bioacoustic-Intelligence-Platform",
+      "slug": "faunometric",
+      "identityName": "Fauna",
+      "commercialReference": "TA-IP-007",
+      "auditedBaselineCommit": "58b2fa85b117ea9ee885fcf8d8ceff9a37be4cad",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md",
+        "tests/test_third_party_manifest.py",
+        "tools/generate_third_party_manifest.py"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "FusionLunar-Energy-Systems-Engineering-Platform",
+      "slug": "fusionlunar-energy-systems-engineering-platform",
+      "identityName": "Luna",
+      "commercialReference": "TA-IP-059",
+      "auditedBaselineCommit": "096976c41732cfdd3f959c447fdbb5c58088c802",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE.md"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "GoldenNet-Signal-Intelligence-Platform",
+      "slug": "goldennet-signal-intelligence-platform",
+      "identityName": "Aurelia",
+      "commercialReference": "TA-IP-056",
+      "auditedBaselineCommit": "6272e6ae599bb4fc54e15b9221129bee7fe897a0",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE.txt"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "H-RM-LYRA-Automotive-LYRA-RS-3.6T",
+      "slug": "h-rm-lyra-automotive-lyra-rs-3-6t",
+      "identityName": "Lyra",
+      "commercialReference": "TA-IP-092",
+      "auditedBaselineCommit": "be30d4faa9d888c31a2030bce06eb7b3cc25eacf",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "High-Speed-Air-to-Water-Transition-Vehicle",
+      "slug": "air-to-water-transition-vehicle",
+      "identityName": "Marina",
+      "commercialReference": "TA-IP-019",
+      "auditedBaselineCommit": "470a9e13b66dd632f6a46bac2d19849b8f77dc48",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Hybrid-Adaptive-Rendering-Media",
+      "slug": "hybrid-adaptive-rendering-media",
+      "identityName": "Nova",
+      "commercialReference": "TA-IP-070",
+      "auditedBaselineCommit": "5c48f066831e5f4403492ddc71c6e6f6d5ee4904",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "docs/THIRD_PARTY_POLICY.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "ISBR-SecureTrace",
+      "slug": "isbr-securetrace",
+      "identityName": "Noelle",
+      "commercialReference": "TA-IP-046",
+      "auditedBaselineCommit": "f7e2e2ded8873713358c673198d2372363c00bcd",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "schemas/acquisition-recovery-escalation-acknowledgement-v4.9.schema.json"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Industrial-Predictive-Maintenance-RUL-Platform",
+      "slug": "industrial-predictive-maintenance-rul-platform",
+      "identityName": "Rhea",
+      "commercialReference": "TA-IP-061",
+      "auditedBaselineCommit": "fe2b6ea2fde240289731e3bdf9896b04af0f09c7",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Integrated-Media-Production-Engine",
+      "slug": "integrated-media-production-engine",
+      "identityName": "Mira",
+      "commercialReference": "TA-IP-040",
+      "auditedBaselineCommit": "92f6d81366adceaf4c270022550cbe72ae196cd7",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE",
+        "NOTICE.md"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "NOTICE.md",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R3",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Interactive-Piano-Learning-Platform",
+      "slug": "interactive-piano-learning-platform",
+      "identityName": "Allegra",
+      "commercialReference": "TA-IP-086",
+      "auditedBaselineCommit": "3a95c2b3b4d226bc77218426e09c7971d3180869",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md",
+        "tools/mp3-midi-track-studio/THIRD_PARTY.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Kinetic-Logic-Reconstructor",
+      "slug": "kinetic-logic-reconstructor",
+      "identityName": "Keira",
+      "commercialReference": "TA-IP-049",
+      "auditedBaselineCommit": "ea01d27284cca068fb73ddf336560f8e055eac8c",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "LEARNPIANO",
+      "slug": "learnpiano",
+      "identityName": "Elise",
+      "commercialReference": null,
+      "auditedBaselineCommit": "a58f0cf9be1680ea86b21ebc30e3c1db102299e4",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "LYRA-AERO-eVTOL",
+      "slug": "lyra-aero-evtol",
+      "identityName": "Lyra",
+      "commercialReference": "TA-IP-093",
+      "auditedBaselineCommit": "cbb959465e448c65e338bcb6314d85e007f929ba",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "LatticeDepth-Subsurface-Materials-Evidence-Qualification-Platform",
+      "slug": "latticedepth",
+      "identityName": "Gaia",
+      "commercialReference": "TA-IP-045",
+      "auditedBaselineCommit": "bd6d0e4754cf3d98690b3df4cef38554804a1f3c",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_COMPONENTS.json",
+        "THIRD_PARTY_NOTICES.md",
+        "THIRD_PARTY_OBLIGATION_MATRIX.json",
+        "docs/THIRD_PARTY_COMPLIANCE.md",
+        "docs/THIRD_PARTY_OBLIGATION_MATRIX.md",
+        "schemas/third-party-components.schema.json"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R3",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "LegalOps-NL",
+      "slug": "legalops-nl",
+      "identityName": "Julia",
+      "commercialReference": "TA-IP-035",
+      "auditedBaselineCommit": "b5862fd7949a7cd55debe0e84b01ba415976b2b6",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "MOTHERCODE-Research-Engine",
+      "slug": "mothercode-research-engine",
+      "identityName": "Eve",
+      "commercialReference": "TA-IP-039",
+      "auditedBaselineCommit": "8bd47b4767fb0bdb8a932840b41c45e71160b346",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "MT2050-Experimental-Dynamics",
+      "slug": "mt2050-experimental-dynamics",
+      "identityName": "Valentina",
+      "commercialReference": "TA-IP-033",
+      "auditedBaselineCommit": "dcdb759f08e65c1af80b0b92c68fd4b2d8f55881",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Maastricht-Digital-Twin",
+      "slug": "maastricht-digital-twin",
+      "identityName": "Mila",
+      "commercialReference": "TA-IP-090",
+      "auditedBaselineCommit": "12138ce5b432ec847b57421819c8581d31e3a4ea",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Maastricht-Zero-Hour-Simulator",
+      "slug": "maastricht-zero-hour-simulator",
+      "identityName": "Eva",
+      "commercialReference": "TA-IP-091",
+      "auditedBaselineCommit": "1d3d6266aefb8d1afebb127e63beebcf10b29183",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [],
+      "thirdPartyDisclosureFiles": [],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R0",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Machine-Cognition-Research-Framework",
+      "slug": "machine-cognition-research-framework",
+      "identityName": "Noa",
+      "commercialReference": "TA-IP-022",
+      "auditedBaselineCommit": "8c90a6b9e51aa9bf92e8b31ca603bc67d95a7a23",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Mercorion-Commerce-Compiler",
+      "slug": "mercorion-commerce-compiler",
+      "identityName": "Mercia",
+      "commercialReference": "TA-IP-047",
+      "auditedBaselineCommit": "d5699456622ff2b18192f9d7d6d28e1f024ed2ed",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE",
+        "NOTICE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "NOTICE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "ModularKey-Cryptanalysis-Platform",
+      "slug": "modular-key-cryptanalysis-platform",
+      "identityName": "Alice",
+      "commercialReference": "TA-IP-008",
+      "auditedBaselineCommit": "168d8fb881887cfe0c91832563c3c2aa75dd8d9f",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Multimodal-Evidence-Adaptive-Systems-Platform",
+      "slug": "multimodal-evidence-adaptive-systems-platform",
+      "identityName": "Lena",
+      "commercialReference": "TA-IP-058",
+      "auditedBaselineCommit": "1694e05850e9e7fe8b3594f5d12063dfa886abd6",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "ORACULUM-INFINITUM",
+      "slug": "oraculum-infinitum",
+      "identityName": "Sibyl",
+      "commercialReference": "TA-IP-042",
+      "auditedBaselineCommit": "d13d32b8052a7df48814248b1a0383e1ec7c89d3",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "OSSN-UAP",
+      "slug": "ossn-uap",
+      "identityName": "Stella",
+      "commercialReference": "TA-IP-002",
+      "auditedBaselineCommit": "48a7d136f79d5ad50fa8906e12ea2757b42d1cf7",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "ossn-uap-v0.1.0/ossn-uap/LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "ossn-uap-v0.1.0/ossn-uap/LICENSE",
+        "ossn-uap-v0.1.0/ossn-uap/third_party/nlohmann/README.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Organismal-State-Dynamics-Research-Platform",
+      "slug": "organismal-state-dynamics-research-platform",
+      "identityName": "Daphne",
+      "commercialReference": "TA-IP-068",
+      "auditedBaselineCommit": "2ba14267628e2e18095469e7263c6f37f48b7c59",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE.md",
+        "NOTICE.md"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "NOTICE.md",
+        "docs/THIRD_PARTY.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R3",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Organizational-Memory-Engine",
+      "slug": "organizational-memory-engine",
+      "identityName": "Mnemosyne",
+      "commercialReference": "TA-IP-021",
+      "auditedBaselineCommit": "1f9a5469c979bf94eb2e70244adf197f6b29217e",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Plantelogia-Intelligence-Platform",
+      "slug": "plantelogia-intelligence-platform-lineage",
+      "identityName": "Ivy",
+      "commercialReference": null,
+      "auditedBaselineCommit": "918448d0dc26c18fb6d065fa2f160ce5edc474ab",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Programmatic-Search-Fabric",
+      "slug": "programmatic-search-fabric",
+      "identityName": "Sasha",
+      "commercialReference": "TA-IP-016",
+      "auditedBaselineCommit": "2d22ed49276d9bb8827766404e2db517eac9457d",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE",
+        "LICENSE.md"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Protein-Structure-Evidence-Qualification-Platform",
+      "slug": "protein-structure-evidence-qualification-platform",
+      "identityName": "Rosalind",
+      "commercialReference": "TA-IP-017",
+      "auditedBaselineCommit": "738cef55e1bf7c9df6e42408f55156079546495a",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "QUBO-Structural-Analysis-and-Optimization-Platform",
+      "slug": "qubo-structural-analysis-and-optimization-platform",
+      "identityName": "Emmy",
+      "commercialReference": "TA-IP-077",
+      "auditedBaselineCommit": "004c89d6ea82c618e0eaa559efd2dcee55a9ed93",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE.md"
+      ],
+      "thirdPartyDisclosureFiles": [],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Radioastronomy-Signal-Validation-Platform",
+      "slug": "radioastronomy-signal-validation-platform",
+      "identityName": "Jocelyn",
+      "commercialReference": "TA-IP-074",
+      "auditedBaselineCommit": "d3ee8e64da6ae3ae4e1fdc4fe37507822d41a689",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Research-Intelligence-Fabric.",
+      "slug": "research-intelligence-fabric",
+      "identityName": "Dorothy",
+      "commercialReference": "TA-IP-012",
+      "auditedBaselineCommit": "b2014dca008ce766e33bcbfcf085cd61163ec507",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "ReserveFlow-SaaS-Platform",
+      "slug": "reserveflow-saas-platform",
+      "identityName": "Olivia",
+      "commercialReference": "TA-IP-088",
+      "auditedBaselineCommit": "cabeca908d1ebb13ecb4032cfacdcbdf3f3feea9",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [],
+      "thirdPartyDisclosureFiles": [
+        "THIRD_PARTY_NOTICES.md",
+        "docs/ip-sale/THIRD_PARTY_DEPENDENCIES.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R0",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Resource-Aware-Hybrid-Model-Orchestration-Platform",
+      "slug": "resource-aware-hybrid-model-orchestration-platform",
+      "identityName": "Mia",
+      "commercialReference": "TA-IP-030",
+      "auditedBaselineCommit": "9586c0af598dd3a9e1de7969d25b278887fa676a",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "SWPP-VIORITH-Mobile-Camera-Overlay-",
+      "slug": "swpp-viorith-mobile-camera-overlay",
+      "identityName": "Violet",
+      "commercialReference": "TA-IP-083",
+      "auditedBaselineCommit": "11b0386e90386cd4f27d9c7d281ef10f1ce6168b",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Secure-Actuation-Integrity-Platform",
+      "slug": "secure-actuation-integrity-platform",
+      "identityName": "Valeria",
+      "commercialReference": "TA-IP-081",
+      "auditedBaselineCommit": "17484ffb0853e363fd1c8e2a77c2556a76e285d6",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE.txt",
+        "NOTICE.md"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "NOTICE.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R3",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Sensor-Fusion-Digital-Twin-Engine",
+      "slug": "sensor-fusion-digital-twin-engine",
+      "identityName": "Artemis",
+      "commercialReference": "TA-IP-027",
+      "auditedBaselineCommit": "e9bc5577159bc16bb32431f03ed23d07627721f3",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Signal-Processing-Universal-Framework",
+      "slug": "signal-processing-universal-framework",
+      "identityName": "Shannon",
+      "commercialReference": "TA-IP-018",
+      "auditedBaselineCommit": "f984f3ddefd9bc43aa2027c205990f94f5c29c7a",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Software-Asset-Provenance-Qualification-Platform",
+      "slug": "software-asset-provenance-qualification-platform",
+      "identityName": "Beatrice",
+      "commercialReference": "TA-IP-065",
+      "auditedBaselineCommit": "a17742fd0cb9a74d2134140dd260febcaca8d56c",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R3",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "SonicFabric",
+      "slug": "sonicfabric",
+      "identityName": "Harmonia",
+      "commercialReference": "TA-IP-048",
+      "auditedBaselineCommit": "0f119ea9348014bbb2800c1a84caa3a0b288c70c",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE",
+        "NOTICE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "NOTICE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "SourceVector-Intelligence-Platform",
+      "slug": "omnisynth-intelligence-engine",
+      "identityName": "Sophie",
+      "commercialReference": "TA-IP-006",
+      "auditedBaselineCommit": "b74978f2666c5a4e08f8dcc03be30e27016284b6",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Spatial-Wearable-Perception-Platform",
+      "slug": "spatial-wearable-perception-platform",
+      "identityName": "Skye",
+      "commercialReference": "TA-IP-075",
+      "auditedBaselineCommit": "74a4435e6965c33446fe83c3189391b5f45fbee0",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "StabilityMesh-Adaptive-Resilience-Control-for-Distributed-Systems",
+      "slug": "stabilitymesh",
+      "identityName": "Ariadne",
+      "commercialReference": "TA-IP-004",
+      "auditedBaselineCommit": "25576ba47c2653934a968dfee5c7b50d052b2cc7",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "TLS-Virtual-1",
+      "slug": "tls-virtual",
+      "identityName": "Talia",
+      "commercialReference": "TA-IP-011",
+      "auditedBaselineCommit": "6035d34f6966171e2a8dc97a17de21edaf5c3528",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE",
+        "TrueLaneStudio_Complete_Handoff/01_Software/TLS-VIRTUAL-V1/LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "TrueLaneStudio_Complete_Handoff/01_Software/TLS-VIRTUAL-V1/LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Telluric-Actualization-Research-Platform",
+      "slug": "telluric-actualization-research-platform",
+      "identityName": "Terra",
+      "commercialReference": "TA-IP-076",
+      "auditedBaselineCommit": "f1b4603a6270cfd8219e080578e4e8490cc621f4",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [],
+      "thirdPartyDisclosureFiles": [],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R0",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Temporal-Physics-Causality-Research-Platform",
+      "slug": "temporal-physics-causality-research-platform",
+      "identityName": "Eleni",
+      "commercialReference": "TA-IP-060",
+      "auditedBaselineCommit": "7f7f2b3de8e276de10060d1f38529485ffec845f",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "TraceLine-Evidence-Governed-Investigation-Framework",
+      "slug": "traceline-evidence-governed-investigation-framework",
+      "identityName": "Clio",
+      "commercialReference": "TA-IP-067",
+      "auditedBaselineCommit": "088ccb803dde47a4924324606d22fb5e4b308168",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "TrueLane-Flora",
+      "slug": "truelane-flora",
+      "identityName": "Flora",
+      "commercialReference": "TA-IP-009",
+      "auditedBaselineCommit": "cba10d87726c031cf5c248d37f7e0aebe2ecb706",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "TrueLane-InkCore",
+      "slug": "truelane-inkcore",
+      "identityName": "Ines",
+      "commercialReference": "TA-IP-052",
+      "auditedBaselineCommit": "c337aa49f866a24d975601346e561c939e682974",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE.md"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "TrueLane-Intelligence-Engine",
+      "slug": "truelane-intelligence-engine",
+      "identityName": "Thalia",
+      "commercialReference": "TA-IP-015",
+      "auditedBaselineCommit": "bd9c1ddea9574c5ba7e3642271adf0898f232624",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "TrueLane-Studio-Apex-Architect",
+      "slug": "truelane-studio-apex-architect",
+      "identityName": "Ava",
+      "commercialReference": "TA-IP-082",
+      "auditedBaselineCommit": "af3a69b8f9be34fbbe8fdee0c6a90efcf89ee2e6",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Universal-Capability-Synthesis-Engine",
+      "slug": "universal-capability-synthesis-engine",
+      "identityName": "Ursula",
+      "commercialReference": "TA-IP-094",
+      "auditedBaselineCommit": "1f9f98664c769c390b45c7d6e5a57217137f65d7",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Universal-Kernel-Machine",
+      "slug": "universal-kernel-machine",
+      "identityName": "Kira",
+      "commercialReference": "TA-IP-026",
+      "auditedBaselineCommit": "9e3893260daa2537c4f9c39d161f910509e66584",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "VellumGrid-Autonomous-Commerce-Platform",
+      "slug": "vellumgrid-autonomous-commerce-platform",
+      "identityName": "Vivienne",
+      "commercialReference": "TA-IP-089",
+      "auditedBaselineCommit": "e61430f749dba1351d08afba7f1e7773c2a7448b",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE.md"
+      ],
+      "thirdPartyDisclosureFiles": [],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Verifiable-Execution-Control-Platform",
+      "slug": "verifiable-execution-control-platform",
+      "identityName": "Victoria",
+      "commercialReference": "TA-IP-020",
+      "auditedBaselineCommit": "ce1e3f2ceb01fa379ca91e9f379de35e24491f77",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md",
+        "docs/legal/IP_AND_THIRD_PARTY_POLICY.md",
+        "edge/THIRD_PARTY_NOTICES.md",
+        "scripts/audit_third_party_licenses.py"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Veritas-Evidence-Intelligence",
+      "slug": "veritas-evidence-intelligence",
+      "identityName": "Verity",
+      "commercialReference": "TA-IP-031",
+      "auditedBaselineCommit": "501a8fdf1a06bf69d020d8f1c89007b5ba19e823",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Vision-Evidence-Governed-Multimodal-Perception-Framework",
+      "slug": "vision-evidence-governed-multimodal-perception-framework",
+      "identityName": "Viola",
+      "commercialReference": "TA-IP-054",
+      "auditedBaselineCommit": "28a71a577e5207acb2de899e996662aad3594812",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Visionair-Research-Engine",
+      "slug": "visionair-research-engine",
+      "identityName": "Vivian",
+      "commercialReference": "TA-IP-053",
+      "auditedBaselineCommit": "9b3f18f1ab0e72989963fb9f72e8acb109132e77",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable repository/delivery artifacts; third-party ownership rights excluded.",
+      "definitiveAgreementRequired": true
+    }
+  ]
+}
