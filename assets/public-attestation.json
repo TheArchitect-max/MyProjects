@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.07-im41-public-attestation",
+  "version": "2026.10.07-im42-public-attestation",
   "publicationDate": "2026-10-07",
   "portfolioAssetCount": 92,
   "valuationBasisDate": "2026-10-07",
@@ -16,13 +16,18 @@
     "public-sites.json": {
       "algorithm": "SHA-256",
       "sha256": "ca3879175ec870bb881d5d1ce7cd8edba11d3a39be25fb36265438ddac8a5ce3"
+    },
+    "future-economic-references.json": {
+      "algorithm": "SHA-256",
+      "sha256": "47d782126274e297c0b733b0df7c72c73ef304760e14d11c9a726022cfc2a7f8"
     }
   },
   "verification": {
     "browserIntegrity": "The public renderer fetches the valuation register and methodology as raw text, recomputes SHA-256 in the browser and compares the result with this attestation.",
     "valuationReconciliation": "The public renderer assembles the current asset register, applies published overrides, recalculates asset-level analytical economics and compares aggregate values with the published portfolio totals.",
     "publicSiteDirectory": "The public project-site enhancer recomputes the SHA-256 digest of the site directory before presenting its integrity state.",
-    "existenceBoundary": "The timestamped public publication and matching digests demonstrate existence and integrity of the public commercial record as published. They do not independently prove authorship, legal title, patent priority, source-code identity, scientific validity, security assurance, certified valuation or commercial outcome."
+    "existenceBoundary": "The timestamped public publication and matching digests demonstrate existence and integrity of the public commercial record as published. They do not independently prove authorship, legal title, patent priority, source-code identity, scientific validity, security assurance, certified valuation or commercial outcome.",
+    "futureEconomicReferences": "The public renderer verifies the SHA-256 digest of the 95-project milestone-conditioned economic-reference register. Numeric entries are maturity-only sensitivities, not forecasts or current values."
   },
   "privacyBoundary": "No private repository names, source code, private validation artifacts, credentials, customer data, internal security details or transaction-confidential material are included."
 }
