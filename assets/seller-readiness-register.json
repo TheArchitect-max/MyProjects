@@ -1,0 +1,2910 @@
+{
+  "version": "2026.10.07-seller-readiness-v1",
+  "basisDate": "2026-10-07",
+  "status": "IN_PROGRESS",
+  "scope": {
+    "substantiveProjects": 95,
+    "standaloneEconomicAssets": 92,
+    "excludedPublicationRepositories": 11
+  },
+  "definitions": {
+    "purpose": "Seller-side evidence, transfer and acquisition-documentation readiness. This is not buyer due diligence and does not replace buyer-specific legal, technical, security or financial review.",
+    "evidenceMaturity": {
+      "E0": "No repository-native test/validation evidence identified.",
+      "E1": "Tests or structured evidence identified.",
+      "E2": "Tests plus validation/qualification evidence identified.",
+      "E3": "Tests, validation and provenance/release evidence identified.",
+      "E4": "E3 plus repository-retained independent/external validation evidence identified."
+    },
+    "ipRightsMaturity": {
+      "R0": "No repository licence evidence identified.",
+      "R1": "Repository licence file identified.",
+      "R2": "R1 plus dependency/third-party disclosure basis identified.",
+      "R3": "R2 plus SBOM/lockfile and provenance/rights-supporting evidence identified.",
+      "R4": "R3 plus independent legal chain-of-title opinion or equivalent external legal evidence."
+    },
+    "commercialMaturity": {
+      "C0": "No separate standalone seller-side economic reference.",
+      "C1": "Seller-side commercial framing established.",
+      "C2": "Seller ask and reproducible economic reference established.",
+      "C3": "C2 plus attributable transaction/comparable or income evidence.",
+      "C4": "C3 plus independent professional valuation evidence."
+    },
+    "transferReadiness": {
+      "T0": "No committed implementation baseline.",
+      "T1": "Implementation exists but core transfer evidence is incomplete.",
+      "T2": "Source, documentation, tests and licence evidence support bounded handover.",
+      "T3": "T2 plus validation, build/release and dependency-disclosure evidence.",
+      "T4": "T3 plus SBOM, third-party obligations, security, provenance and explicit transfer/handover package evidence."
+    }
+  },
+  "externalStandards": [
+    {
+      "publisher": "WIPO",
+      "title": "Uncovering IP Risks and Potential: IP Audit",
+      "url": "https://www.wipo.int/en/web/business/ip-audit"
+    },
+    {
+      "publisher": "WIPO",
+      "title": "How to Prepare for IP Due Diligence – The Ultimate Guide for Ventures",
+      "url": "https://www.wipo.int/en/web/ip-commercialization/w/blog/how-to-prepare-for-ip-due-diligence-the-ultimate-guide-for-ventures"
+    },
+    {
+      "publisher": "WIPO",
+      "title": "Valuing Intellectual Property Assets",
+      "url": "https://www.wipo.int/en/web/business/ip-valuation"
+    }
+  ],
+  "projects": [
+    {
+      "repository": "ATHANOR---Adaptive-Topology-Hazard-Analysis-Network-Optimization-Resilience",
+      "slug": "athanor",
+      "identityName": "Elara",
+      "commercialReference": "TA-IP-003",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 95000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Adaptive-Audio-MIDI-Transcription-Studio",
+      "slug": "adaptive-audio-midi-transcription-studio",
+      "identityName": "Aria",
+      "commercialReference": "TA-IP-087",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 80000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Adaptive-Audio-Production-System",
+      "slug": "adaptive-audio-production-system",
+      "identityName": "Melody",
+      "commercialReference": "TA-IP-062",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 95000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Adaptive-Audio-Synthesis-Platform",
+      "slug": "adaptive-audio-synthesis-platform",
+      "identityName": "Cadence",
+      "commercialReference": "TA-IP-071",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 425000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Adaptive-Biofeedback-Engine",
+      "slug": "adaptive-biofeedback-engine",
+      "identityName": "Serena",
+      "commercialReference": "TA-IP-050",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 300000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Adaptive-Cognitive-Runtime",
+      "slug": "adaptive-cognitive-runtime",
+      "identityName": "Sophia",
+      "commercialReference": "TA-IP-072",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 225000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Adaptive-General-Reasoning-Research-Platform",
+      "slug": "adaptive-general-reasoning-research-platform",
+      "identityName": "Athena",
+      "commercialReference": "TA-IP-066",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "R",
+      "sellerAskEUR": 80000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "R",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Adaptive-Neural-Architecture-Platform",
+      "slug": "adaptive-neural-architecture-platform",
+      "identityName": "Ada",
+      "commercialReference": "TA-IP-078",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 190000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Adaptive-Systems-Intelligence-Platform",
+      "slug": "plantelogia-intelligence-platform",
+      "identityName": "Nadia",
+      "commercialReference": "TA-IP-085",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 200000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Advanced-Ground-Vehicle-Engineering",
+      "slug": "advanced-ground-vehicle-engineering",
+      "identityName": "Petra",
+      "commercialReference": "TA-IP-036",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 55000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Aerospace-Mission-Simulator",
+      "slug": "aerospace-mission-simulator",
+      "identityName": "Celeste",
+      "commercialReference": "TA-IP-032",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 215000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Aletheia-Intelligence-Fabric---Distributed-Evidence-Entity-Intelligence-Platform",
+      "slug": "aletheia-intelligence-fabric",
+      "identityName": "Aletheia",
+      "commercialReference": "TA-IP-051",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 200000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Autonomous-Adaptation-Framework",
+      "slug": "autonomous-adaptation-framework",
+      "identityName": "Nora",
+      "commercialReference": "TA-IP-029",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 360000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Autonomous-Documentary-Engine",
+      "slug": "autonomous-documentary-engine",
+      "identityName": "Clara",
+      "commercialReference": "TA-IP-057",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 625000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "AxiomFactor",
+      "slug": "axiomfactor",
+      "identityName": "Hypatia",
+      "commercialReference": "TA-IP-044",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 150000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Bio-Inspired-Neural-Dynamics-Active-Inference-Simulation-Platform",
+      "slug": "bio-inspired-neural-dynamics-active-inference-simulation-platform",
+      "identityName": "Iona",
+      "commercialReference": "TA-IP-079",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 925000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Biometric-Systems-Assurance-Platform",
+      "slug": "biometric-systems-assurance-platform",
+      "identityName": "Iris",
+      "commercialReference": "TA-IP-037",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 240000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "CardioSignal-Intelligence-Platform",
+      "slug": "cardiosignal-intelligence-platform",
+      "identityName": "Cora",
+      "commercialReference": "TA-IP-080",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 250000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Causal-State-Field-Engine",
+      "slug": "causal-state-field-engine",
+      "identityName": "Maya",
+      "commercialReference": "TA-IP-063",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 115000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Chimera-Spectral-Perception-System",
+      "slug": "chimera-spectral-perception-system",
+      "identityName": "Selene",
+      "commercialReference": "TA-IP-069",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 125000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Cipher-Lyric-Engine",
+      "slug": "cipher-lyric-engine",
+      "identityName": "Livia",
+      "commercialReference": "TA-IP-023",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 300000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "CipherRouteDB",
+      "slug": "cipherroutedb",
+      "identityName": "Vera",
+      "commercialReference": "TA-IP-043",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 115000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Content-Integrity-Assurance-Platform",
+      "slug": "content-integrity-assurance-platform",
+      "identityName": "Verena",
+      "commercialReference": "TA-IP-073",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 400000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Continuum-State-Integrity-Platform",
+      "slug": "continuum-state-integrity-platform",
+      "identityName": "Elena",
+      "commercialReference": "TA-IP-005",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 175000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Custody-Integrity-Assurance-Platform",
+      "slug": "custody-integrity-assurance-platform",
+      "identityName": "Justine",
+      "commercialReference": "TA-IP-010",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 140000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "DMT-Laser-Phenomenology-Engine",
+      "slug": "dmt-laser-phenomenology-engine",
+      "identityName": "Aurora",
+      "commercialReference": "TA-IP-025",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 210000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Digital-Twin-Core",
+      "slug": "digital-twin-core",
+      "identityName": "Tessa",
+      "commercialReference": null,
+      "commercialStatus": "NO_SEPARATE_STANDALONE_PRICE",
+      "currentStage": null,
+      "sellerAskEUR": null,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "UNASSESSED",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C0",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Distributed-AI-Resource-Fabric",
+      "slug": "distributed-ai-resource-fabric",
+      "identityName": "Freya",
+      "commercialReference": "TA-IP-024",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 290000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Distributed-Compute-Fabric",
+      "slug": "distributed-compute-fabric",
+      "identityName": "Ingrid",
+      "commercialReference": "TA-IP-084",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 220000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Dominus-Kraken-Execution-Engine",
+      "slug": "dominus-kraken-execution-engine",
+      "identityName": "Mara",
+      "commercialReference": "TA-IP-028",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 800000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Electric-Flight-Systems-Simulation-Validation-Platform",
+      "slug": "electric-flight-systems-simulation-validation-platform",
+      "identityName": "Amelia",
+      "commercialReference": "TA-IP-034",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 50000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Engineering-Intelligence-Mastery-Platform",
+      "slug": "truelane-engineering-excellence",
+      "identityName": "Minerva",
+      "commercialReference": "TA-IP-038",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 80000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Evidence-Governed-Analytical-Reasoning-Platform",
+      "slug": "evidence-governed-analytical-reasoning-platform",
+      "identityName": "Thea",
+      "commercialReference": "TA-IP-064",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 165000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Evidence-Governed-Software-Assurance-Platform",
+      "slug": "evidence-governed-software-assurance-platform",
+      "identityName": "Grace",
+      "commercialReference": "TA-IP-041",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 475000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Evidence-Governed-Visual-Intelligence-Platform",
+      "slug": "evidence-governed-visual-intelligence-platform",
+      "identityName": "Helena",
+      "commercialReference": "TA-IP-013",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 350000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Evidence-Grounded-Multi-Expert-Reasoning-System",
+      "slug": "evidence-grounded-multi-expert-reasoning-system",
+      "identityName": "Eleanor",
+      "commercialReference": "TA-IP-055",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 500000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Faunometric-Bioacoustic-Intelligence-Platform",
+      "slug": "faunometric",
+      "identityName": "Fauna",
+      "commercialReference": "TA-IP-007",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 275000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "FusionLunar-Energy-Systems-Engineering-Platform",
+      "slug": "fusionlunar-energy-systems-engineering-platform",
+      "identityName": "Luna",
+      "commercialReference": "TA-IP-059",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 360000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "GoldenNet-Signal-Intelligence-Platform",
+      "slug": "goldennet-signal-intelligence-platform",
+      "identityName": "Aurelia",
+      "commercialReference": "TA-IP-056",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 425000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "H-RM-LYRA-Automotive-LYRA-RS-3.6T",
+      "slug": "h-rm-lyra-automotive-lyra-rs-3-6t",
+      "identityName": "Lyra",
+      "commercialReference": "TA-IP-092",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 55000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "High-Speed-Air-to-Water-Transition-Vehicle",
+      "slug": "air-to-water-transition-vehicle",
+      "identityName": "Marina",
+      "commercialReference": "TA-IP-019",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 40000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Hybrid-Adaptive-Rendering-Media",
+      "slug": "hybrid-adaptive-rendering-media",
+      "identityName": "Nova",
+      "commercialReference": "TA-IP-070",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 160000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "ISBR-SecureTrace",
+      "slug": "isbr-securetrace",
+      "identityName": "Noelle",
+      "commercialReference": "TA-IP-046",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 650000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Industrial-Predictive-Maintenance-RUL-Platform",
+      "slug": "industrial-predictive-maintenance-rul-platform",
+      "identityName": "Rhea",
+      "commercialReference": "TA-IP-061",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 360000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Integrated-Media-Production-Engine",
+      "slug": "integrated-media-production-engine",
+      "identityName": "Mira",
+      "commercialReference": "TA-IP-040",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 430000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Interactive-Piano-Learning-Platform",
+      "slug": "interactive-piano-learning-platform",
+      "identityName": "Allegra",
+      "commercialReference": "TA-IP-086",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 700000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Kinetic-Logic-Reconstructor",
+      "slug": "kinetic-logic-reconstructor",
+      "identityName": "Keira",
+      "commercialReference": "TA-IP-049",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 95000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "LEARNPIANO",
+      "slug": "learnpiano",
+      "identityName": "Elise",
+      "commercialReference": null,
+      "commercialStatus": "NO_SEPARATE_STANDALONE_PRICE",
+      "currentStage": null,
+      "sellerAskEUR": null,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "UNASSESSED",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C0",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "LYRA-AERO-eVTOL",
+      "slug": "lyra-aero-evtol",
+      "identityName": "Lyra",
+      "commercialReference": "TA-IP-093",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 50000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "LatticeDepth-Subsurface-Materials-Evidence-Qualification-Platform",
+      "slug": "latticedepth",
+      "identityName": "Gaia",
+      "commercialReference": "TA-IP-045",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 255000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "LegalOps-NL",
+      "slug": "legalops-nl",
+      "identityName": "Julia",
+      "commercialReference": "TA-IP-035",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 100000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "MOTHERCODE-Research-Engine",
+      "slug": "mothercode-research-engine",
+      "identityName": "Eve",
+      "commercialReference": "TA-IP-039",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 45000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "MT2050-Experimental-Dynamics",
+      "slug": "mt2050-experimental-dynamics",
+      "identityName": "Valentina",
+      "commercialReference": "TA-IP-033",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 250000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Maastricht-Digital-Twin",
+      "slug": "maastricht-digital-twin",
+      "identityName": "Mila",
+      "commercialReference": "TA-IP-090",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 200000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Maastricht-Zero-Hour-Simulator",
+      "slug": "maastricht-zero-hour-simulator",
+      "identityName": "Eva",
+      "commercialReference": "TA-IP-091",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 120000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Machine-Cognition-Research-Framework",
+      "slug": "machine-cognition-research-framework",
+      "identityName": "Noa",
+      "commercialReference": "TA-IP-022",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 80000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Mercorion-Commerce-Compiler",
+      "slug": "mercorion-commerce-compiler",
+      "identityName": "Mercia",
+      "commercialReference": "TA-IP-047",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 340000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "ModularKey-Cryptanalysis-Platform",
+      "slug": "modular-key-cryptanalysis-platform",
+      "identityName": "Alice",
+      "commercialReference": "TA-IP-008",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 95000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Multimodal-Evidence-Adaptive-Systems-Platform",
+      "slug": "multimodal-evidence-adaptive-systems-platform",
+      "identityName": "Lena",
+      "commercialReference": "TA-IP-058",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 115000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "ORACULUM-INFINITUM",
+      "slug": "oraculum-infinitum",
+      "identityName": "Sibyl",
+      "commercialReference": "TA-IP-042",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 275000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "OSSN-UAP",
+      "slug": "ossn-uap",
+      "identityName": "Stella",
+      "commercialReference": "TA-IP-002",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 45000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Organismal-State-Dynamics-Research-Platform",
+      "slug": "organismal-state-dynamics-research-platform",
+      "identityName": "Daphne",
+      "commercialReference": "TA-IP-068",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 120000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Organizational-Memory-Engine",
+      "slug": "organizational-memory-engine",
+      "identityName": "Mnemosyne",
+      "commercialReference": "TA-IP-021",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 700000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Plantelogia-Intelligence-Platform",
+      "slug": "plantelogia-intelligence-platform-lineage",
+      "identityName": "Ivy",
+      "commercialReference": null,
+      "commercialStatus": "NO_SEPARATE_STANDALONE_PRICE",
+      "currentStage": null,
+      "sellerAskEUR": null,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "UNASSESSED",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C0",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Programmatic-Search-Fabric",
+      "slug": "programmatic-search-fabric",
+      "identityName": "Sasha",
+      "commercialReference": "TA-IP-016",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 265000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Protein-Structure-Evidence-Qualification-Platform",
+      "slug": "protein-structure-evidence-qualification-platform",
+      "identityName": "Rosalind",
+      "commercialReference": "TA-IP-017",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 100000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "QUBO-Structural-Analysis-and-Optimization-Platform",
+      "slug": "qubo-structural-analysis-and-optimization-platform",
+      "identityName": "Emmy",
+      "commercialReference": "TA-IP-077",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 90000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Radioastronomy-Signal-Validation-Platform",
+      "slug": "radioastronomy-signal-validation-platform",
+      "identityName": "Jocelyn",
+      "commercialReference": "TA-IP-074",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 275000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Research-Intelligence-Fabric.",
+      "slug": "research-intelligence-fabric",
+      "identityName": "Dorothy",
+      "commercialReference": "TA-IP-012",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 280000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "ReserveFlow-SaaS-Platform",
+      "slug": "reserveflow-saas-platform",
+      "identityName": "Olivia",
+      "commercialReference": "TA-IP-088",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 625000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Resource-Aware-Hybrid-Model-Orchestration-Platform",
+      "slug": "resource-aware-hybrid-model-orchestration-platform",
+      "identityName": "Mia",
+      "commercialReference": "TA-IP-030",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "R",
+      "sellerAskEUR": 20000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "R",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "SWPP-VIORITH-Mobile-Camera-Overlay-",
+      "slug": "swpp-viorith-mobile-camera-overlay",
+      "identityName": "Violet",
+      "commercialReference": "TA-IP-083",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 180000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Secure-Actuation-Integrity-Platform",
+      "slug": "secure-actuation-integrity-platform",
+      "identityName": "Valeria",
+      "commercialReference": "TA-IP-081",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 425000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Sensor-Fusion-Digital-Twin-Engine",
+      "slug": "sensor-fusion-digital-twin-engine",
+      "identityName": "Artemis",
+      "commercialReference": "TA-IP-027",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 235000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Signal-Processing-Universal-Framework",
+      "slug": "signal-processing-universal-framework",
+      "identityName": "Shannon",
+      "commercialReference": "TA-IP-018",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 120000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Software-Asset-Provenance-Qualification-Platform",
+      "slug": "software-asset-provenance-qualification-platform",
+      "identityName": "Beatrice",
+      "commercialReference": "TA-IP-065",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 240000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "SonicFabric",
+      "slug": "sonicfabric",
+      "identityName": "Harmonia",
+      "commercialReference": "TA-IP-048",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 650000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "SourceVector-Intelligence-Platform",
+      "slug": "omnisynth-intelligence-engine",
+      "identityName": "Sophie",
+      "commercialReference": "TA-IP-006",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 150000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Spatial-Wearable-Perception-Platform",
+      "slug": "spatial-wearable-perception-platform",
+      "identityName": "Skye",
+      "commercialReference": "TA-IP-075",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 800000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "StabilityMesh-Adaptive-Resilience-Control-for-Distributed-Systems",
+      "slug": "stabilitymesh",
+      "identityName": "Ariadne",
+      "commercialReference": "TA-IP-004",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 200000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "TLS-Virtual-1",
+      "slug": "tls-virtual",
+      "identityName": "Talia",
+      "commercialReference": "TA-IP-011",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 195000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Telluric-Actualization-Research-Platform",
+      "slug": "telluric-actualization-research-platform",
+      "identityName": "Terra",
+      "commercialReference": "TA-IP-076",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "R",
+      "sellerAskEUR": 55000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "R",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Temporal-Physics-Causality-Research-Platform",
+      "slug": "temporal-physics-causality-research-platform",
+      "identityName": "Eleni",
+      "commercialReference": "TA-IP-060",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "R",
+      "sellerAskEUR": 50000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "R",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "TraceLine-Evidence-Governed-Investigation-Framework",
+      "slug": "traceline-evidence-governed-investigation-framework",
+      "identityName": "Clio",
+      "commercialReference": "TA-IP-067",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 280000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "TrueLane-Flora",
+      "slug": "truelane-flora",
+      "identityName": "Flora",
+      "commercialReference": "TA-IP-009",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 270000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "TrueLane-InkCore",
+      "slug": "truelane-inkcore",
+      "identityName": "Ines",
+      "commercialReference": "TA-IP-052",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 160000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "TrueLane-Intelligence-Engine",
+      "slug": "truelane-intelligence-engine",
+      "identityName": "Thalia",
+      "commercialReference": "TA-IP-015",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 255000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "TrueLane-Studio-Apex-Architect",
+      "slug": "truelane-studio-apex-architect",
+      "identityName": "Ava",
+      "commercialReference": "TA-IP-082",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 250000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Universal-Capability-Synthesis-Engine",
+      "slug": "universal-capability-synthesis-engine",
+      "identityName": "Ursula",
+      "commercialReference": "TA-IP-094",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 150000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Universal-Kernel-Machine",
+      "slug": "universal-kernel-machine",
+      "identityName": "Kira",
+      "commercialReference": "TA-IP-026",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "P",
+      "sellerAskEUR": 65000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "VellumGrid-Autonomous-Commerce-Platform",
+      "slug": "vellumgrid-autonomous-commerce-platform",
+      "identityName": "Vivienne",
+      "commercialReference": "TA-IP-089",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 575000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Verifiable-Execution-Control-Platform",
+      "slug": "verifiable-execution-control-platform",
+      "identityName": "Victoria",
+      "commercialReference": "TA-IP-020",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 450000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Veritas-Evidence-Intelligence",
+      "slug": "veritas-evidence-intelligence",
+      "identityName": "Verity",
+      "commercialReference": "TA-IP-031",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 650000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Vision-Evidence-Governed-Multimodal-Perception-Framework",
+      "slug": "vision-evidence-governed-multimodal-perception-framework",
+      "identityName": "Viola",
+      "commercialReference": "TA-IP-054",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 160000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    },
+    {
+      "repository": "Visionair-Research-Engine",
+      "slug": "visionair-research-engine",
+      "identityName": "Vivian",
+      "commercialReference": "TA-IP-053",
+      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "currentStage": "V",
+      "sellerAskEUR": 260000,
+      "baselineCommit": null,
+      "auditStatus": "PENDING_REPOSITORY_SCAN",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_ASSESSED",
+      "evidence": {},
+      "dependencySummary": null,
+      "rightsSummary": null,
+      "securitySummary": null,
+      "transferSummary": null,
+      "openSellerItems": [],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ]
+    }
+  ]
+}
