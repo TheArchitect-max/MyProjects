@@ -2,15 +2,15 @@
 
 Public commercial showroom for independently scoped proprietary technology and software assets.
 
-The current public register contains **89 individually priced assets**: **56 developed software assets, 29 developed prototypes and 4 research-stage assets**.
+The current public register contains **92 individually priced standalone assets**: **56 developed software assets, 32 developed prototypes and 4 research-stage assets**.
 
 ## Public snapshot — 7 October 2026
 
-- Aggregate IP acquisition ask: **EUR 23.785M**
-- Indicative negotiation range: **EUR 19.010M–29.810M**
-- Engineering-equivalent recreation cost: **EUR 100.250M**
-- Ask / recreation cost: **23.73%**
-- Indicative build-versus-buy spread: **EUR 76.465M**
+- Aggregate IP acquisition ask: **EUR 24.040M**
+- Indicative negotiation range: **EUR 19.215M–30.130M**
+- Engineering-equivalent recreation cost: **EUR 101.950M**
+- Ask / recreation cost: **23.58%**
+- Indicative build-versus-buy spread: **EUR 77.910M**
 
 EUR amounts are authoritative. USD values on the website are presentation-only conversions using a dated public exchange rate.
 
@@ -41,7 +41,7 @@ The website retains its public-domain / CC0 old-master visual references and cur
 <!-- DEVELOPMENT-REGISTER:START -->
 ## Development register
 
-The public site now distinguishes the **89 individually priced commercial assets** from a broader **95-project repository-backed development register**.
+The public site now distinguishes **92 individually priced standalone commercial assets** within a broader **95-project repository-backed development register**. The three remaining project repositories are not separately priced: two are economically represented by existing priced assets and one has no committed implementation baseline.
 
 Development capital is milestone-based: no project-specific funding amount is represented as validated until a defined scope, evidence baseline, use-of-funds budget and acceptance criteria exist. The GitHub Pages site is informational only and does not process investments, crowdfunding payments, users, sessions or financial transactions.
 <!-- DEVELOPMENT-REGISTER:END -->
