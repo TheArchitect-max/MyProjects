@@ -1,0 +1,55 @@
+{
+  "version": "2026.10.07-development-register-v1",
+  "status": "repository-evidenced-unpriced-projects",
+  "policy": "These records extend the development register without assigning a public valuation or funding target. Capital requirements are established only against a separately validated milestone and budget.",
+  "projects": [
+    {
+      "slug": "digital-twin-core",
+      "name": "Digital Twin Core",
+      "stageLabel": "No committed implementation baseline",
+      "familyName": "Industrial Reliability & Digital Twins",
+      "sector": "Industrial & Infrastructure Software",
+      "description": "Reserved Digital Twin Core project. At the current repository state, no committed implementation baseline exists and no software maturity claim is made."
+    },
+    {
+      "slug": "h-rm-lyra-automotive-lyra-rs-3-6t",
+      "name": "HΛRM LYRA Automotive / LYRA RS 3.6T",
+      "stageLabel": "Engineering baseline",
+      "familyName": "Aerospace & Mobility Engineering",
+      "sector": "Aerospace & Mobility",
+      "description": "Automotive engineering-analysis and simulation project with deterministic tooling that separates source-defined design targets, derived calculations and externally validated evidence."
+    },
+    {
+      "slug": "learnpiano",
+      "name": "LEARNPIANO — Piano Paradise",
+      "stageLabel": "Developed application",
+      "familyName": "Specialist Vertical Software",
+      "sector": "Specialist Vertical Software",
+      "description": "Local-first piano learning, performance and production software with browser-based practice, MIDI and audio workflows, adaptive coaching and repository-owned validation."
+    },
+    {
+      "slug": "lyra-aero-evtol",
+      "name": "LYRA-AERO eVTOL",
+      "stageLabel": "Developed analytical prototype",
+      "familyName": "Aerospace & Mobility Engineering",
+      "sector": "Aerospace & Mobility",
+      "description": "eVTOL digital-twin and simulation research software with reproducible analytical power, energy, lift and design-space calculations, deterministic exploration and audit records."
+    },
+    {
+      "slug": "plantelogia-intelligence-platform",
+      "name": "PLANTELOGIA Intelligence Platform",
+      "stageLabel": "Qualified engineering prototype",
+      "familyName": "Evidence & Intelligence Systems",
+      "sector": "AI, Decision & Knowledge Systems",
+      "description": "Evidence-governed intelligence and policy-runtime software with persistent evidence, audit, policy, delegated-authority and provenance foundations, maintained as a distinct PLANTELOGIA lineage project."
+    },
+    {
+      "slug": "universal-capability-synthesis-engine",
+      "name": "Universal Capability Synthesis Engine (UCSE)",
+      "stageLabel": "Developed executable prototype",
+      "familyName": "Adaptive Intelligence & Cognition",
+      "sector": "AI, Decision & Knowledge Systems",
+      "description": "Evidence-governed software-capability discovery, evaluation, benchmarking and synthesis engine with an executable kernel, qualification gates, reproducible benchmark support and provenance tracking."
+    }
+  ]
+}
