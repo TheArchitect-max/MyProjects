@@ -53,3 +53,14 @@ Every one of the 95 repository-backed projects now has a stable feminine public 
 
 The authoritative public mapping is `assets/project-identities.json`.
 <!-- PROJECT-IDENTITIES:END -->
+
+<!-- REPOSITORY-SCOPE:START -->
+## Repository scope
+
+The GitHub account currently contains **106 repositories** in scope for this catalogue audit:
+
+- **95 substantive project repositories** — counted as projects and eligible for project identity mapping.
+- **11 GitHub Pages / website / catalogue repositories** — publication surfaces only; **not projects, not standalone IP assets, and not assigned project identities**.
+
+Excluded publication repositories: `Adaptive-Audio-Synthesis-Platform-Website`, `BIND-AI-Website`, `CSIP-Website`, `CardioSignal-Website`, `DOMINUS-Platform-Website`, `EIMP-Website`, `Faunometric-Website`, `ISBR-SecureTrace-Website`, `MyProjects`, `ReserveFlow-Website`, `SAIP-Website`.
+<!-- REPOSITORY-SCOPE:END -->
