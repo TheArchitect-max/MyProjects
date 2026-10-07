@@ -1,6 +1,6 @@
 {
-  "version": "2026.10.07-project-identities-v1",
-  "policy": "Each repository-backed project has a stable feminine public identity name. Canonical repository names, technical names, valuation records, evidence lineage and IP ownership remain unchanged.",
+  "version": "2026.10.07-project-identities-v2",
+  "policy": "Identity names apply only to substantive project repositories. GitHub Pages, website, catalogue and presentation repositories are publication surfaces and are explicitly excluded from project counting, asset counting and identity assignment. Canonical technical names, repository URLs, valuation records, evidence lineage and IP ownership remain unchanged.",
   "projects": [
     {
       "repository": "ATHANOR---Adaptive-Topology-Hazard-Analysis-Network-Optimization-Resilience",
@@ -572,5 +572,22 @@
       "identityName": "Vivian",
       "existingCanonical": false
     }
-  ]
+  ],
+  "scope": {
+    "substantiveProjectRepositories": 95,
+    "excludedPublicationRepositories": 11,
+    "excludedRepositories": [
+      "Adaptive-Audio-Synthesis-Platform-Website",
+      "BIND-AI-Website",
+      "CSIP-Website",
+      "CardioSignal-Website",
+      "DOMINUS-Platform-Website",
+      "EIMP-Website",
+      "Faunometric-Website",
+      "ISBR-SecureTrace-Website",
+      "MyProjects",
+      "ReserveFlow-Website",
+      "SAIP-Website"
+    ]
+  }
 }
