@@ -128,3 +128,15 @@ WIPO materials used as external process references:
 - https://www.wipo.int/en/web/business/ip-valuation
 
 These sources inform portfolio process architecture; they do not certify this portfolio.
+## 12. Creator and historical provenance
+
+The portfolio was created by one independent human creator using multiple AI systems as iterative research, design and coding assistants. The owner retained direction and acceptance control over the objectives, requirements, selection, integration and repository outcomes.
+
+The underlying multi-AI conversational histories and intermediate development states were deliberately deleted and no duplicate historical archive is retained. The exact historical development path is therefore **irrecoverable from retained evidence** and cannot be reproduced through the identical original process by the creator.
+
+This does not mean that similar functionality could never be independently reimplemented. It means that the original sequence of prompts, intermediate outputs, rejected alternatives, corrections and cross-system interactions no longer exists as a reconstructible record.
+
+For transaction purposes, the current repository/release baselines and retained technical evidence are the authoritative surviving auditable artifacts. The absence of deleted historical AI conversation logs is not classified as an open seller item. Surviving non-public know-how remains confidential and may be treated as trade-secret information where the applicable legal conditions are satisfied.
+
+The machine-readable source is `assets/development-provenance-register.json`.
+
