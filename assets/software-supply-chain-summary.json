@@ -1,0 +1,2243 @@
+{
+  "version": "2026.10.07-software-supply-chain-summary-v1",
+  "basisDate": "2026-10-07",
+  "status": "SELLER_SIDE_REPOSITORY_EVIDENCE_SUMMARY",
+  "boundary": "This is a portfolio-level SBOM/licensing summary derived from repository evidence. It does not claim a complete component-level SBOM where no SBOM file exists.",
+  "summary": {
+    "projects": 95,
+    "withDependencyManifest": 85,
+    "withLockfile": 4,
+    "withExistingSbom": 8,
+    "withLicenceFile": 90,
+    "withThirdPartyDisclosure": 88,
+    "withSecurityEvidence": 42,
+    "withSensitiveFilenameIndicators": 8
+  },
+  "projects": [
+    {
+      "repository": "ATHANOR---Adaptive-Topology-Hazard-Analysis-Network-Optimization-Resilience",
+      "slug": "athanor",
+      "identityName": "Elara",
+      "baselineCommit": "1fc48abb15b8195c39eabe188dd3783ebb7129d1",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_BOUNDARY.md"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Adaptive-Audio-MIDI-Transcription-Studio",
+      "slug": "adaptive-audio-midi-transcription-studio",
+      "identityName": "Aria",
+      "baselineCommit": "2dec0e7743286246c5ab9cae95ac6d6e7eedeb0c",
+      "manifests": [
+        "requirements-dev.txt",
+        "requirements.txt"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [],
+      "thirdPartyDisclosureFiles": [
+        "THIRD_PARTY.md"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "REVIEW_REQUIRED"
+    },
+    {
+      "repository": "Adaptive-Audio-Production-System",
+      "slug": "adaptive-audio-production-system",
+      "identityName": "Melody",
+      "baselineCommit": "f2342fd049288e2f69ca829a62b270562be7b6e9",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Adaptive-Audio-Synthesis-Platform",
+      "slug": "adaptive-audio-synthesis-platform",
+      "identityName": "Cadence",
+      "baselineCommit": "66d434a886fe61174fc608f61cac8f589d9a27eb",
+      "manifests": [],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "NO_DEPENDENCY_MANIFEST_IDENTIFIED",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "securityEvidenceFiles": [
+        "docs/SECURITY.md",
+        "include/aasp/security.hpp",
+        "src/security.cpp"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Adaptive-Biofeedback-Engine",
+      "slug": "adaptive-biofeedback-engine",
+      "identityName": "Serena",
+      "baselineCommit": "d5effa4537582cd7955f551ada4e2a51b5358387",
+      "manifests": [
+        "package.json",
+        "requirements-dev.txt"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE",
+        "LICENSE.md"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "docs/THIRD_PARTY_SERVICES.md"
+      ],
+      "securityEvidenceFiles": [
+        "SECURITY.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Adaptive-Cognitive-Runtime",
+      "slug": "adaptive-cognitive-runtime",
+      "identityName": "Sophia",
+      "baselineCommit": "e49bcde8a79c5918bd0753868a47580453aeb1d5",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [
+        "docs/SECURITY_MODEL.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Adaptive-General-Reasoning-Research-Platform",
+      "slug": "adaptive-general-reasoning-research-platform",
+      "identityName": "Athena",
+      "baselineCommit": "bba596fc224a38fc3c7a559e2e148731ed7b47e6",
+      "manifests": [
+        "research/v1.49.0/pyproject.toml",
+        "research/v1.50.0/pyproject.toml",
+        "research/v1.51.0/pyproject.toml",
+        "research/v1.52.0/pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE",
+        "NOTICE.md"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "NOTICE.md"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Adaptive-Neural-Architecture-Platform",
+      "slug": "adaptive-neural-architecture-platform",
+      "identityName": "Ada",
+      "baselineCommit": "b7267c0a67957066a5404bdfd6a3ea8fea60ffb7",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [
+        "SECURITY.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Adaptive-Systems-Intelligence-Platform",
+      "slug": "plantelogia-intelligence-platform",
+      "identityName": "Nadia",
+      "baselineCommit": "819e399c4d337fb604c3ecf46747c80a1194843f",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE",
+        "NOTICE.md"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "NOTICE.md"
+      ],
+      "securityEvidenceFiles": [
+        "docs/SECURITY_MODEL.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Advanced-Ground-Vehicle-Engineering",
+      "slug": "advanced-ground-vehicle-engineering",
+      "identityName": "Petra",
+      "baselineCommit": "169d4868a3000c8121f6dcef6884261c12d19553",
+      "manifests": [],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "NO_DEPENDENCY_MANIFEST_IDENTIFIED",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Aerospace-Mission-Simulator",
+      "slug": "aerospace-mission-simulator",
+      "identityName": "Celeste",
+      "baselineCommit": "8dd369f1fe9ac7dd458676780905c32d9e76e1af",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Aletheia-Intelligence-Fabric---Distributed-Evidence-Entity-Intelligence-Platform",
+      "slug": "aletheia-intelligence-fabric",
+      "identityName": "Aletheia",
+      "baselineCommit": "9e1afc08d39b66ff75b8ebe79d1626853049e9e6",
+      "manifests": [
+        "package.json"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE",
+        "NOTICE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "NOTICE"
+      ],
+      "securityEvidenceFiles": [
+        "docs/SECURITY.md",
+        "docs/THREAT_MODEL.md",
+        "src/security/auth.js",
+        "src/security/credentialBroker.js",
+        "src/security/defensiveEdge.js",
+        "src/security/ephemeralKeyVault.js"
+      ],
+      "sensitiveFilenameIndicators": [
+        "src/security/credentialBroker.js"
+      ],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Autonomous-Adaptation-Framework",
+      "slug": "autonomous-adaptation-framework",
+      "identityName": "Nora",
+      "baselineCommit": "324e8732ea5be3aed1d6e61b50abf18720dfac9b",
+      "manifests": [
+        "aaf_rust/Cargo.toml",
+        "wasm_frontend/package.json"
+      ],
+      "lockfiles": [
+        "aaf_rust/Cargo.lock"
+      ],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [
+        "SECURITY.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Autonomous-Documentary-Engine",
+      "slug": "autonomous-documentary-engine",
+      "identityName": "Clara",
+      "baselineCommit": "197bcd8f613284f1e4fe287629cec4dbfbc0f015",
+      "manifests": [
+        "apps/web/package.json",
+        "apps/worker/package.json",
+        "package.json",
+        "packages/audio/package.json",
+        "packages/contracts/package.json",
+        "packages/control-plane/package.json",
+        "packages/delivery/package.json",
+        "packages/evidence/package.json",
+        "packages/final-qc/package.json",
+        "packages/media/package.json",
+        "packages/orchestrator/package.json",
+        "packages/providers/package.json",
+        "packages/renderer/package.json",
+        "packages/storage/package.json",
+        "packages/story/package.json",
+        "packages/visual/package.json"
+      ],
+      "lockfiles": [
+        "pnpm-lock.yaml"
+      ],
+      "existingSbomFiles": [
+        "scripts/sbom.mjs"
+      ],
+      "sbomStatus": "SBOM_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [
+        "apps/web/app/api/credentials/[id]/route.ts",
+        "apps/web/app/api/credentials/rotation/route.ts",
+        "apps/web/app/api/credentials/route.ts",
+        "apps/worker/src/provider-credentials.ts",
+        "docs/CREDENTIAL-KEY-ROTATION.md"
+      ],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "AxiomFactor",
+      "slug": "axiomfactor",
+      "identityName": "Hypatia",
+      "baselineCommit": "e6ea6ebc606afd4111a316ff4d7e8bef555c9369",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Bio-Inspired-Neural-Dynamics-Active-Inference-Simulation-Platform",
+      "slug": "bio-inspired-neural-dynamics-active-inference-simulation-platform",
+      "identityName": "Iona",
+      "baselineCommit": "fc98d6166e909375a68b446c209f2e2804e5d700",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Biometric-Systems-Assurance-Platform",
+      "slug": "biometric-systems-assurance-platform",
+      "identityName": "Iris",
+      "baselineCommit": "1fa07cfbcdfef5af093f3bbfa3d00af74cc7ba2f",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [
+        "sbom/cyclonedx.json"
+      ],
+      "sbomStatus": "SBOM_PRESENT",
+      "licenceFiles": [
+        "LICENSE",
+        "NOTICE.md"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "NOTICE.md"
+      ],
+      "securityEvidenceFiles": [
+        "SECURITY.md",
+        "evidence/security-suite.json"
+      ],
+      "sensitiveFilenameIndicators": [
+        "sentinelbio/credentials.py"
+      ],
+      "licensingClearanceStatus": "ADVANCED_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "CardioSignal-Intelligence-Platform",
+      "slug": "cardiosignal-intelligence-platform",
+      "identityName": "Cora",
+      "baselineCommit": "d5b4ff5378c531878a2fe27928c931ad0eb8a857",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE.md"
+      ],
+      "thirdPartyDisclosureFiles": [],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Causal-State-Field-Engine",
+      "slug": "causal-state-field-engine",
+      "identityName": "Maya",
+      "baselineCommit": "097ec215b37c719febb27219169fa4c224da071e",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Chimera-Spectral-Perception-System",
+      "slug": "chimera-spectral-perception-system",
+      "identityName": "Selene",
+      "baselineCommit": "e39d389e397cfdf03b0cc2b3ccae83b17f4c48ef",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE.txt"
+      ],
+      "thirdPartyDisclosureFiles": [],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Cipher-Lyric-Engine",
+      "slug": "cipher-lyric-engine",
+      "identityName": "Livia",
+      "baselineCommit": "695e87369298ec799616e36da68f99b6e5c464e0",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "CipherRouteDB",
+      "slug": "cipherroutedb",
+      "identityName": "Vera",
+      "baselineCommit": "9a68042c79709ff635c4d7c0492f73d094061828",
+      "manifests": [],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "NO_DEPENDENCY_MANIFEST_IDENTIFIED",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [
+        "docs/THREAT_MODEL.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Content-Integrity-Assurance-Platform",
+      "slug": "content-integrity-assurance-platform",
+      "identityName": "Verena",
+      "baselineCommit": "1d03275cb7e4cba222e2c8c850faf1b45176e73c",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "securityEvidenceFiles": [
+        "SECURITY.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Continuum-State-Integrity-Platform",
+      "slug": "continuum-state-integrity-platform",
+      "identityName": "Elena",
+      "baselineCommit": "2e294631f3d9054439e55d00867342fcdab1fd99",
+      "manifests": [],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "NO_DEPENDENCY_MANIFEST_IDENTIFIED",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [
+        "SECURITY.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Custody-Integrity-Assurance-Platform",
+      "slug": "custody-integrity-assurance-platform",
+      "identityName": "Justine",
+      "baselineCommit": "c038e36aed99ba4857ff00b2497b90ae6a4329b3",
+      "manifests": [],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "NO_DEPENDENCY_MANIFEST_IDENTIFIED",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [
+        "10_Security_Threat_Model_and_Key_Management.md",
+        "machine/security-controls.json",
+        "machine/threat-model.json"
+      ],
+      "sensitiveFilenameIndicators": [
+        "machine/schemas/validate_command_credentials-command.schema.json"
+      ],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "DMT-Laser-Phenomenology-Engine",
+      "slug": "dmt-laser-phenomenology-engine",
+      "identityName": "Aurora",
+      "baselineCommit": "d642f3331b3ab87eed7d41b07adf29a2346f28cc",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Digital-Twin-Core",
+      "slug": "digital-twin-core",
+      "identityName": "Tessa",
+      "baselineCommit": "2962d8c984584138329ccd141923c9e7cf290866",
+      "manifests": [],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "NO_DEPENDENCY_MANIFEST_IDENTIFIED",
+      "licenceFiles": [],
+      "thirdPartyDisclosureFiles": [],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "REVIEW_REQUIRED"
+    },
+    {
+      "repository": "Distributed-AI-Resource-Fabric",
+      "slug": "distributed-ai-resource-fabric",
+      "identityName": "Freya",
+      "baselineCommit": "a66be856b2f6a89cc35d2d9253451d1f80861be2",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Distributed-Compute-Fabric",
+      "slug": "distributed-compute-fabric",
+      "identityName": "Ingrid",
+      "baselineCommit": "b306a662db44d8852bef9ede55cb40a62f982d7b",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "securityEvidenceFiles": [
+        "docs/THREAT_MODEL.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Dominus-Kraken-Execution-Engine",
+      "slug": "dominus-kraken-execution-engine",
+      "identityName": "Mara",
+      "baselineCommit": "1e6d77e7eace7dbf9358bb85d18483c37d689f8f",
+      "manifests": [
+        "pyproject.toml",
+        "requirements.txt",
+        "rust-core/Cargo.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [
+        "SECURITY.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Electric-Flight-Systems-Simulation-Validation-Platform",
+      "slug": "electric-flight-systems-simulation-validation-platform",
+      "identityName": "Amelia",
+      "baselineCommit": "b59b4195fac6d229658f97c53a55a62ba2aaf5d8",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Engineering-Intelligence-Mastery-Platform",
+      "slug": "truelane-engineering-excellence",
+      "identityName": "Minerva",
+      "baselineCommit": "01ba2bebb1c4af41edfbd2a63983b87b12a85bc9",
+      "manifests": [
+        "package.json"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Evidence-Governed-Analytical-Reasoning-Platform",
+      "slug": "evidence-governed-analytical-reasoning-platform",
+      "identityName": "Thea",
+      "baselineCommit": "471abb19f133ce8b3d61fb014ffdc9152e00b970",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE",
+        "NOTICE.md"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "NOTICE.md"
+      ],
+      "securityEvidenceFiles": [
+        "SECURITY.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Evidence-Governed-Software-Assurance-Platform",
+      "slug": "evidence-governed-software-assurance-platform",
+      "identityName": "Grace",
+      "baselineCommit": "233c9d9686a49cf00c146130d0a399fa696cbff9",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [
+        "src/bogae/provider_sbom.py"
+      ],
+      "sbomStatus": "SBOM_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [
+        "SECURITY.md",
+        "config/runtime-suites/security-conformance.json"
+      ],
+      "sensitiveFilenameIndicators": [
+        "src/bogae/credential_rotation.py"
+      ],
+      "licensingClearanceStatus": "ADVANCED_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Evidence-Governed-Visual-Intelligence-Platform",
+      "slug": "evidence-governed-visual-intelligence-platform",
+      "identityName": "Helena",
+      "baselineCommit": "ca4f0174bf9fca55f3aa6ba9d8ffa2a2801c7a7d",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [
+        "SECURITY.md",
+        "docs/THREAT_MODEL.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Evidence-Grounded-Multi-Expert-Reasoning-System",
+      "slug": "evidence-grounded-multi-expert-reasoning-system",
+      "identityName": "Eleanor",
+      "baselineCommit": "1761f7b94f00aa12feaf9c3c07be02256fa468fb",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Faunometric-Bioacoustic-Intelligence-Platform",
+      "slug": "faunometric",
+      "identityName": "Fauna",
+      "baselineCommit": "58b2fa85b117ea9ee885fcf8d8ceff9a37be4cad",
+      "manifests": [
+        "requirements-colab.txt",
+        "requirements.txt"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md",
+        "tests/test_third_party_manifest.py",
+        "tools/generate_third_party_manifest.py"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "FusionLunar-Energy-Systems-Engineering-Platform",
+      "slug": "fusionlunar-energy-systems-engineering-platform",
+      "identityName": "Luna",
+      "baselineCommit": "096976c41732cfdd3f959c447fdbb5c58088c802",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE.md"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "securityEvidenceFiles": [
+        "SECURITY.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "GoldenNet-Signal-Intelligence-Platform",
+      "slug": "goldennet-signal-intelligence-platform",
+      "identityName": "Aurelia",
+      "baselineCommit": "6272e6ae599bb4fc54e15b9221129bee7fe897a0",
+      "manifests": [
+        "pyproject.toml",
+        "requirements-signing.txt",
+        "requirements.txt"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE.txt"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "securityEvidenceFiles": [
+        "docs/SECURITY.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "H-RM-LYRA-Automotive-LYRA-RS-3.6T",
+      "slug": "h-rm-lyra-automotive-lyra-rs-3-6t",
+      "identityName": "Lyra",
+      "baselineCommit": "be30d4faa9d888c31a2030bce06eb7b3cc25eacf",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "High-Speed-Air-to-Water-Transition-Vehicle",
+      "slug": "air-to-water-transition-vehicle",
+      "identityName": "Marina",
+      "baselineCommit": "470a9e13b66dd632f6a46bac2d19849b8f77dc48",
+      "manifests": [
+        "MASTER/requirements.txt"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Hybrid-Adaptive-Rendering-Media",
+      "slug": "hybrid-adaptive-rendering-media",
+      "identityName": "Nova",
+      "baselineCommit": "5c48f066831e5f4403492ddc71c6e6f6d5ee4904",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "docs/THIRD_PARTY_POLICY.md"
+      ],
+      "securityEvidenceFiles": [
+        "docs/SECURITY.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "ISBR-SecureTrace",
+      "slug": "isbr-securetrace",
+      "identityName": "Noelle",
+      "baselineCommit": "f7e2e2ded8873713358c673198d2372363c00bcd",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "schemas/acquisition-recovery-escalation-acknowledgement-v4.9.schema.json"
+      ],
+      "securityEvidenceFiles": [
+        "schemas/security-event.schema.json",
+        "src/isbr/security_events.py"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Industrial-Predictive-Maintenance-RUL-Platform",
+      "slug": "industrial-predictive-maintenance-rul-platform",
+      "identityName": "Rhea",
+      "baselineCommit": "fe2b6ea2fde240289731e3bdf9896b04af0f09c7",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "securityEvidenceFiles": [
+        "SECURITY.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Integrated-Media-Production-Engine",
+      "slug": "integrated-media-production-engine",
+      "identityName": "Mira",
+      "baselineCommit": "92f6d81366adceaf4c270022550cbe72ae196cd7",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [
+        "src/impe/sbom.py",
+        "tests/test_sbom_v12.py"
+      ],
+      "sbomStatus": "SBOM_PRESENT",
+      "licenceFiles": [
+        "LICENSE",
+        "NOTICE.md"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "NOTICE.md",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "securityEvidenceFiles": [
+        "src/impe/security.py"
+      ],
+      "sensitiveFilenameIndicators": [
+        "src/impe/managed_secrets.py",
+        "src/impe/provider_credentials.py"
+      ],
+      "licensingClearanceStatus": "ADVANCED_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Interactive-Piano-Learning-Platform",
+      "slug": "interactive-piano-learning-platform",
+      "identityName": "Allegra",
+      "baselineCommit": "3a95c2b3b4d226bc77218426e09c7971d3180869",
+      "manifests": [
+        "package.json",
+        "tools/mp3-midi-track-studio/pyproject.toml",
+        "tools/mp3-midi-track-studio/requirements.txt"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md",
+        "tools/mp3-midi-track-studio/THIRD_PARTY.md"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Kinetic-Logic-Reconstructor",
+      "slug": "kinetic-logic-reconstructor",
+      "identityName": "Keira",
+      "baselineCommit": "ea01d27284cca068fb73ddf336560f8e055eac8c",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [
+        "src/klr/security/__init__.py",
+        "src/klr/security/secret_scan.py"
+      ],
+      "sensitiveFilenameIndicators": [
+        "scripts/scan_secrets.py",
+        "src/klr/security/secret_scan.py"
+      ],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "LEARNPIANO",
+      "slug": "learnpiano",
+      "identityName": "Elise",
+      "baselineCommit": "a58f0cf9be1680ea86b21ebc30e3c1db102299e4",
+      "manifests": [
+        "package.json",
+        "validation/real-audio/requirements-ci.txt",
+        "validation/real-audio/requirements-v14-training.txt",
+        "validation/real-audio/requirements.txt"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "LYRA-AERO-eVTOL",
+      "slug": "lyra-aero-evtol",
+      "identityName": "Lyra",
+      "baselineCommit": "cbb959465e448c65e338bcb6314d85e007f929ba",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "LatticeDepth-Subsurface-Materials-Evidence-Qualification-Platform",
+      "slug": "latticedepth",
+      "identityName": "Gaia",
+      "baselineCommit": "bd6d0e4754cf3d98690b3df4cef38554804a1f3c",
+      "manifests": [
+        "examples/release_v011/pyproject.toml",
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [
+        "docs/SBOM_AND_DEPENDENCY_LOCKING.md",
+        "examples/release_v011/sbom_lock.json",
+        "schemas/sbom-lock.schema.json",
+        "src/avedi/sbom_lock.py",
+        "tests/test_v011_sbom.py"
+      ],
+      "sbomStatus": "SBOM_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_COMPONENTS.json",
+        "THIRD_PARTY_NOTICES.md",
+        "THIRD_PARTY_OBLIGATION_MATRIX.json",
+        "docs/THIRD_PARTY_COMPLIANCE.md",
+        "docs/THIRD_PARTY_OBLIGATION_MATRIX.md",
+        "schemas/third-party-components.schema.json"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "ADVANCED_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "LegalOps-NL",
+      "slug": "legalops-nl",
+      "identityName": "Julia",
+      "baselineCommit": "b5862fd7949a7cd55debe0e84b01ba415976b2b6",
+      "manifests": [],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "NO_DEPENDENCY_MANIFEST_IDENTIFIED",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "MOTHERCODE-Research-Engine",
+      "slug": "mothercode-research-engine",
+      "identityName": "Eve",
+      "baselineCommit": "8bd47b4767fb0bdb8a932840b41c45e71160b346",
+      "manifests": [],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "NO_DEPENDENCY_MANIFEST_IDENTIFIED",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "MT2050-Experimental-Dynamics",
+      "slug": "mt2050-experimental-dynamics",
+      "identityName": "Valentina",
+      "baselineCommit": "dcdb759f08e65c1af80b0b92c68fd4b2d8f55881",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Maastricht-Digital-Twin",
+      "slug": "maastricht-digital-twin",
+      "identityName": "Mila",
+      "baselineCommit": "12138ce5b432ec847b57421819c8581d31e3a4ea",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "securityEvidenceFiles": [
+        "SECURITY.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Maastricht-Zero-Hour-Simulator",
+      "slug": "maastricht-zero-hour-simulator",
+      "identityName": "Eva",
+      "baselineCommit": "1d3d6266aefb8d1afebb127e63beebcf10b29183",
+      "manifests": [],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "NO_DEPENDENCY_MANIFEST_IDENTIFIED",
+      "licenceFiles": [],
+      "thirdPartyDisclosureFiles": [],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "REVIEW_REQUIRED"
+    },
+    {
+      "repository": "Machine-Cognition-Research-Framework",
+      "slug": "machine-cognition-research-framework",
+      "identityName": "Noa",
+      "baselineCommit": "8c90a6b9e51aa9bf92e8b31ca603bc67d95a7a23",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Mercorion-Commerce-Compiler",
+      "slug": "mercorion-commerce-compiler",
+      "identityName": "Mercia",
+      "baselineCommit": "d5699456622ff2b18192f9d7d6d28e1f024ed2ed",
+      "manifests": [
+        "pyproject.toml",
+        "requirements.txt"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE",
+        "NOTICE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "NOTICE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "securityEvidenceFiles": [
+        "sovereign_commerce_engine/security.py"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "ModularKey-Cryptanalysis-Platform",
+      "slug": "modular-key-cryptanalysis-platform",
+      "identityName": "Alice",
+      "baselineCommit": "168d8fb881887cfe0c91832563c3c2aa75dd8d9f",
+      "manifests": [
+        "pyproject.toml",
+        "setup.py"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Multimodal-Evidence-Adaptive-Systems-Platform",
+      "slug": "multimodal-evidence-adaptive-systems-platform",
+      "identityName": "Lena",
+      "baselineCommit": "1694e05850e9e7fe8b3594f5d12063dfa886abd6",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "ORACULUM-INFINITUM",
+      "slug": "oraculum-infinitum",
+      "identityName": "Sibyl",
+      "baselineCommit": "d13d32b8052a7df48814248b1a0383e1ec7c89d3",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [
+        "uv.lock"
+      ],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [
+        "SECURITY.md",
+        "docs/threat-model.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "OSSN-UAP",
+      "slug": "ossn-uap",
+      "identityName": "Stella",
+      "baselineCommit": "48a7d136f79d5ad50fa8906e12ea2757b42d1cf7",
+      "manifests": [
+        "ossn-uap-v0.1.0/ossn-uap/scripts/python/requirements.txt"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "ossn-uap-v0.1.0/ossn-uap/LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "ossn-uap-v0.1.0/ossn-uap/LICENSE",
+        "ossn-uap-v0.1.0/ossn-uap/third_party/nlohmann/README.md"
+      ],
+      "securityEvidenceFiles": [
+        "ossn-uap-v0.1.0/ossn-uap/docs/SECURITY.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Organismal-State-Dynamics-Research-Platform",
+      "slug": "organismal-state-dynamics-research-platform",
+      "identityName": "Daphne",
+      "baselineCommit": "2ba14267628e2e18095469e7263c6f37f48b7c59",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [
+        "SBOM.spdx.json"
+      ],
+      "sbomStatus": "SBOM_PRESENT",
+      "licenceFiles": [
+        "LICENSE.md",
+        "NOTICE.md"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "NOTICE.md",
+        "docs/THIRD_PARTY.md"
+      ],
+      "securityEvidenceFiles": [
+        "SECURITY.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "ADVANCED_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Organizational-Memory-Engine",
+      "slug": "organizational-memory-engine",
+      "identityName": "Mnemosyne",
+      "baselineCommit": "1f9a5469c979bf94eb2e70244adf197f6b29217e",
+      "manifests": [
+        "pyproject.toml",
+        "requirements.txt"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "securityEvidenceFiles": [
+        "SECURITY.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Plantelogia-Intelligence-Platform",
+      "slug": "plantelogia-intelligence-platform-lineage",
+      "identityName": "Ivy",
+      "baselineCommit": "918448d0dc26c18fb6d065fa2f160ce5edc474ab",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [
+        "SECURITY.md",
+        "docs/THREAT-MODEL-0.2.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Programmatic-Search-Fabric",
+      "slug": "programmatic-search-fabric",
+      "identityName": "Sasha",
+      "baselineCommit": "2d22ed49276d9bb8827766404e2db517eac9457d",
+      "manifests": [
+        "package.json"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE",
+        "LICENSE.md"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Protein-Structure-Evidence-Qualification-Platform",
+      "slug": "protein-structure-evidence-qualification-platform",
+      "identityName": "Rosalind",
+      "baselineCommit": "738cef55e1bf7c9df6e42408f55156079546495a",
+      "manifests": [
+        "requirements-ci.txt"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "QUBO-Structural-Analysis-and-Optimization-Platform",
+      "slug": "qubo-structural-analysis-and-optimization-platform",
+      "identityName": "Emmy",
+      "baselineCommit": "004c89d6ea82c618e0eaa559efd2dcee55a9ed93",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE.md"
+      ],
+      "thirdPartyDisclosureFiles": [],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Radioastronomy-Signal-Validation-Platform",
+      "slug": "radioastronomy-signal-validation-platform",
+      "identityName": "Jocelyn",
+      "baselineCommit": "d3ee8e64da6ae3ae4e1fdc4fe37507822d41a689",
+      "manifests": [
+        "pyproject.toml",
+        "requirements-barycentric.txt",
+        "requirements-core.txt",
+        "requirements-full.txt",
+        "requirements-orbit.txt",
+        "requirements-public-data.txt",
+        "requirements-real-data.txt"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "securityEvidenceFiles": [
+        "SECURITY.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Research-Intelligence-Fabric.",
+      "slug": "research-intelligence-fabric",
+      "identityName": "Dorothy",
+      "baselineCommit": "b2014dca008ce766e33bcbfcf085cd61163ec507",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [
+        "src/api/security.py"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "ReserveFlow-SaaS-Platform",
+      "slug": "reserveflow-saas-platform",
+      "identityName": "Olivia",
+      "baselineCommit": "cabeca908d1ebb13ecb4032cfacdcbdf3f3feea9",
+      "manifests": [
+        "package.json"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [],
+      "thirdPartyDisclosureFiles": [
+        "THIRD_PARTY_NOTICES.md",
+        "docs/ip-sale/THIRD_PARTY_DEPENDENCIES.md"
+      ],
+      "securityEvidenceFiles": [
+        "docs/SECURITY.md",
+        "server/security.mjs",
+        "supabase/tests/security_definer_trigger_search_path_invariants.sql"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "REVIEW_REQUIRED"
+    },
+    {
+      "repository": "Resource-Aware-Hybrid-Model-Orchestration-Platform",
+      "slug": "resource-aware-hybrid-model-orchestration-platform",
+      "identityName": "Mia",
+      "baselineCommit": "9586c0af598dd3a9e1de7969d25b278887fa676a",
+      "manifests": [],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "NO_DEPENDENCY_MANIFEST_IDENTIFIED",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "SWPP-VIORITH-Mobile-Camera-Overlay-",
+      "slug": "swpp-viorith-mobile-camera-overlay",
+      "identityName": "Violet",
+      "baselineCommit": "11b0386e90386cd4f27d9c7d281ef10f1ce6168b",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Secure-Actuation-Integrity-Platform",
+      "slug": "secure-actuation-integrity-platform",
+      "identityName": "Valeria",
+      "baselineCommit": "17484ffb0853e363fd1c8e2a77c2556a76e285d6",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [
+        "SBOM.json"
+      ],
+      "sbomStatus": "SBOM_PRESENT",
+      "licenceFiles": [
+        "LICENSE.txt",
+        "NOTICE.md"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "NOTICE.md"
+      ],
+      "securityEvidenceFiles": [
+        "SECURITY.md",
+        "docs/THREAT_MODEL.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "ADVANCED_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Sensor-Fusion-Digital-Twin-Engine",
+      "slug": "sensor-fusion-digital-twin-engine",
+      "identityName": "Artemis",
+      "baselineCommit": "e9bc5577159bc16bb32431f03ed23d07627721f3",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Signal-Processing-Universal-Framework",
+      "slug": "signal-processing-universal-framework",
+      "identityName": "Shannon",
+      "baselineCommit": "f984f3ddefd9bc43aa2027c205990f94f5c29c7a",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Software-Asset-Provenance-Qualification-Platform",
+      "slug": "software-asset-provenance-qualification-platform",
+      "identityName": "Beatrice",
+      "baselineCommit": "a17742fd0cb9a74d2134140dd260febcaca8d56c",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [
+        "schemas/sbom.schema.json",
+        "src/sapqp/sbom.py",
+        "src/sapqp/sbom_export.py",
+        "tests/test_sbom.py",
+        "tests/test_spdx_v03.py"
+      ],
+      "sbomStatus": "SBOM_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "securityEvidenceFiles": [
+        "src/sapqp/security.py"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "ADVANCED_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "SonicFabric",
+      "slug": "sonicfabric",
+      "identityName": "Harmonia",
+      "baselineCommit": "0f119ea9348014bbb2800c1a84caa3a0b288c70c",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE",
+        "NOTICE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "NOTICE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "SourceVector-Intelligence-Platform",
+      "slug": "omnisynth-intelligence-engine",
+      "identityName": "Sophie",
+      "baselineCommit": "b74978f2666c5a4e08f8dcc03be30e27016284b6",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Spatial-Wearable-Perception-Platform",
+      "slug": "spatial-wearable-perception-platform",
+      "identityName": "Skye",
+      "baselineCommit": "74a4435e6965c33446fe83c3189391b5f45fbee0",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "StabilityMesh-Adaptive-Resilience-Control-for-Distributed-Systems",
+      "slug": "stabilitymesh",
+      "identityName": "Ariadne",
+      "baselineCommit": "25576ba47c2653934a968dfee5c7b50d052b2cc7",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [
+        "SECURITY.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "TLS-Virtual-1",
+      "slug": "tls-virtual",
+      "identityName": "Talia",
+      "baselineCommit": "6035d34f6966171e2a8dc97a17de21edaf5c3528",
+      "manifests": [
+        "TrueLaneStudio_Complete_Handoff/01_Software/TLS-VIRTUAL-V1/pyproject.toml",
+        "TrueLaneStudio_Complete_Handoff/01_Software/TLS-VIRTUAL-V1/requirements-dev.txt",
+        "TrueLaneStudio_Complete_Handoff/01_Software/TLS-VIRTUAL-V1/requirements.txt"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE",
+        "TrueLaneStudio_Complete_Handoff/01_Software/TLS-VIRTUAL-V1/LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "TrueLaneStudio_Complete_Handoff/01_Software/TLS-VIRTUAL-V1/LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Telluric-Actualization-Research-Platform",
+      "slug": "telluric-actualization-research-platform",
+      "identityName": "Terra",
+      "baselineCommit": "f1b4603a6270cfd8219e080578e4e8490cc621f4",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [],
+      "thirdPartyDisclosureFiles": [],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "REVIEW_REQUIRED"
+    },
+    {
+      "repository": "Temporal-Physics-Causality-Research-Platform",
+      "slug": "temporal-physics-causality-research-platform",
+      "identityName": "Eleni",
+      "baselineCommit": "7f7f2b3de8e276de10060d1f38529485ffec845f",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "TraceLine-Evidence-Governed-Investigation-Framework",
+      "slug": "traceline-evidence-governed-investigation-framework",
+      "identityName": "Clio",
+      "baselineCommit": "088ccb803dde47a4924324606d22fb5e4b308168",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [
+        "docs/SECURITY.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "TrueLane-Flora",
+      "slug": "truelane-flora",
+      "identityName": "Flora",
+      "baselineCommit": "cba10d87726c031cf5c248d37f7e0aebe2ecb706",
+      "manifests": [
+        "truelane-flora/truelane-flora/go.mod"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [
+        "truelane-flora/truelane-flora/docs/SECURITY.md",
+        "truelane-flora/truelane-flora/internal/interfaces/http/middleware/security.go",
+        "truelane-flora/truelane-flora/internal/interfaces/http/middleware/security_test.go",
+        "truelane-flora/truelane-flora/pkg/config/security_test.go"
+      ],
+      "sensitiveFilenameIndicators": [
+        "truelane-flora/truelane-flora/scripts/generate_dev_token.py"
+      ],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "TrueLane-InkCore",
+      "slug": "truelane-inkcore",
+      "identityName": "Ines",
+      "baselineCommit": "c337aa49f866a24d975601346e561c939e682974",
+      "manifests": [
+        "go.mod",
+        "requirements.txt"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE.md"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "securityEvidenceFiles": [
+        "docs/SECURITY.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "TrueLane-Intelligence-Engine",
+      "slug": "truelane-intelligence-engine",
+      "identityName": "Thalia",
+      "baselineCommit": "bd9c1ddea9574c5ba7e3642271adf0898f232624",
+      "manifests": [
+        "requirements-integrations.txt",
+        "requirements-ml.txt",
+        "requirements-training.txt",
+        "requirements.txt",
+        "setup.py"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "TrueLane-Studio-Apex-Architect",
+      "slug": "truelane-studio-apex-architect",
+      "identityName": "Ava",
+      "baselineCommit": "af3a69b8f9be34fbbe8fdee0c6a90efcf89ee2e6",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Universal-Capability-Synthesis-Engine",
+      "slug": "universal-capability-synthesis-engine",
+      "identityName": "Ursula",
+      "baselineCommit": "1f9f98664c769c390b45c7d6e5a57217137f65d7",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [
+        "SECURITY.md",
+        "docs/THREAT_MODEL.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Universal-Kernel-Machine",
+      "slug": "universal-kernel-machine",
+      "identityName": "Kira",
+      "baselineCommit": "9e3893260daa2537c4f9c39d161f910509e66584",
+      "manifests": [
+        "pyproject.toml",
+        "requirements-repro.txt"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "VellumGrid-Autonomous-Commerce-Platform",
+      "slug": "vellumgrid-autonomous-commerce-platform",
+      "identityName": "Vivienne",
+      "baselineCommit": "e61430f749dba1351d08afba7f1e7773c2a7448b",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE.md"
+      ],
+      "thirdPartyDisclosureFiles": [],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Verifiable-Execution-Control-Platform",
+      "slug": "verifiable-execution-control-platform",
+      "identityName": "Victoria",
+      "baselineCommit": "ce1e3f2ceb01fa379ca91e9f379de35e24491f77",
+      "manifests": [
+        "edge/Cargo.toml",
+        "go.mod"
+      ],
+      "lockfiles": [
+        "edge/Cargo.lock"
+      ],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md",
+        "docs/legal/IP_AND_THIRD_PARTY_POLICY.md",
+        "edge/THIRD_PARTY_NOTICES.md",
+        "scripts/audit_third_party_licenses.py"
+      ],
+      "securityEvidenceFiles": [
+        "SECURITY.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Veritas-Evidence-Intelligence",
+      "slug": "veritas-evidence-intelligence",
+      "identityName": "Verity",
+      "baselineCommit": "501a8fdf1a06bf69d020d8f1c89007b5ba19e823",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Vision-Evidence-Governed-Multimodal-Perception-Framework",
+      "slug": "vision-evidence-governed-multimodal-perception-framework",
+      "identityName": "Viola",
+      "baselineCommit": "28a71a577e5207acb2de899e996662aad3594812",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Visionair-Research-Engine",
+      "slug": "visionair-research-engine",
+      "identityName": "Vivian",
+      "baselineCommit": "9b3f18f1ab0e72989963fb9f72e8acb109132e77",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    }
+  ]
+}
