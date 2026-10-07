@@ -64,3 +64,13 @@ The GitHub account currently contains **106 repositories** in scope for this cat
 
 Excluded publication repositories: `Adaptive-Audio-Synthesis-Platform-Website`, `BIND-AI-Website`, `CSIP-Website`, `CardioSignal-Website`, `DOMINUS-Platform-Website`, `EIMP-Website`, `Faunometric-Website`, `ISBR-SecureTrace-Website`, `MyProjects`, `ReserveFlow-Website`, `SAIP-Website`.
 <!-- REPOSITORY-SCOPE:END -->
+
+<!-- FUTURE-ECONOMIC-REFERENCES:START -->
+## Milestone-conditioned economic references
+
+A separate evidence-bounded register now covers all **95 projects**. It contains **36 numeric conditional maturity references** and **59 NOT_ESTABLISHED records**.
+
+A numeric reference is published only for an objective **R→P** or **P→V** maturity transition. The calculation reuses the published portfolio methodology and changes only the maturity-stage factor; replacement cost, commercial potential, sector and monetization route remain fixed. It is therefore a reproducible maturity sensitivity, not a forecast, seller ask, market value, investment return or guarantee.
+
+Projects already at stage V receive no higher amount unless new attributable market, income, transaction or other independently supportable evidence exists. The authoritative register is `assets/future-economic-references.json`.
+<!-- FUTURE-ECONOMIC-REFERENCES:END -->
