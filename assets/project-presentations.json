@@ -1,18 +1,11 @@
 {
-  "version": "2026.10.09-im47-full-project-evaluation",
+  "version": "2026.10.09-im48-asset-only-catalogue",
   "checkedDate": "2026-10-09",
   "scope": {
-    "repositoryCount": 108,
-    "projectCount": 97,
-    "implementedSoftwareProjects": 96,
     "softwareIpAssetCount": 94,
-    "pricedSoftwareAssetCount": 94,
-    "unpricedSoftwareAssetCount": 0,
-    "representedCompanionProjects": 2,
-    "reservedProjects": 1,
-    "publicationRepositoryCount": 11
+    "pricedSoftwareAssetCount": 94
   },
-  "policy": "Only independently scoped first-party software projects count as IP assets. Website, catalogue and display repositories are excluded. Companion work already represented by an existing asset is not counted again. Versions identify current source builds, not automatic release or production approval.",
+  "policy": "The public catalogue contains only independently scoped first-party software IP assets. Project websites are digital displays linked to their corresponding software assets.",
   "projects": [
     {
       "slug": "athanor",
@@ -511,25 +504,6 @@
       "valuationStage": "V"
     },
     {
-      "slug": "digital-twin-core",
-      "title": "Digital Twin Core",
-      "description": "Follow a proposed digital-twin project. An implemented software baseline is not yet available.",
-      "currentVersion": null,
-      "developmentVersion": null,
-      "statusLabel": "Reserved project",
-      "statusNote": "Reserved project with no implemented software baseline; excluded from the software IP-asset count.",
-      "lastUpdated": "2026-10-07",
-      "checkedDate": "2026-10-09",
-      "implemented": false,
-      "countsAsIpAsset": false,
-      "representedBy": null,
-      "evaluationDate": "2026-10-09",
-      "evaluationTimestamp": "2026-10-09T05:36:00Z",
-      "evaluationResult": "RECONFIRMED",
-      "evaluationNote": "The reserved project still has no implemented software baseline. It remains outside the software-asset count and has no standalone monetary value.",
-      "valuationStage": null
-    },
-    {
       "slug": "distributed-ai-resource-fabric",
       "title": "Distributed AI Resource Fabric",
       "description": "Coordinate AI workloads across your available computers and assess the capacity you can actually use.",
@@ -914,25 +888,6 @@
       "valuationStage": "P"
     },
     {
-      "slug": "learnpiano",
-      "title": "LEARNPIANO",
-      "description": "Practise piano with visual guidance, work with your own music and explore performance and recording tools.",
-      "currentVersion": "v13 product / v16 experimental",
-      "developmentVersion": null,
-      "statusLabel": "Developed software",
-      "statusNote": "The current practice product keeps its existing transcription baseline; the newer recovery model remains experimental.",
-      "lastUpdated": "2026-10-07",
-      "checkedDate": "2026-10-09",
-      "implemented": true,
-      "countsAsIpAsset": false,
-      "representedBy": "interactive-piano-learning-platform",
-      "evaluationDate": "2026-10-09",
-      "evaluationTimestamp": "2026-10-09T05:36:00Z",
-      "evaluationResult": "RECONFIRMED",
-      "evaluationNote": "This implemented companion project remains represented within its existing software asset. It has a current evidence review and no duplicated standalone monetary value.",
-      "valuationStage": null
-    },
-    {
       "slug": "lyra-aero-evtol",
       "title": "LYRA-AERO eVTOL",
       "description": "Compare electric-aircraft design options and explore simulated flight and energy assumptions.",
@@ -1217,25 +1172,6 @@
       "evaluationResult": "RECONFIRMED",
       "evaluationNote": "The current source snapshot was compared with the previous assessment. No new evidence changes the existing maturity or monetary estimate; remaining acceptance conditions still apply.",
       "valuationStage": "V"
-    },
-    {
-      "slug": "plantelogia-intelligence-platform-lineage",
-      "title": "PLANTELOGIA Intelligence Platform",
-      "description": "Review the evidence and policies behind decisions within the original PLANTELOGIA project.",
-      "currentVersion": "0.2.0",
-      "developmentVersion": null,
-      "statusLabel": "Prototype",
-      "statusNote": "An implemented prototype for evaluation and further development.",
-      "lastUpdated": "2026-10-07",
-      "checkedDate": "2026-10-09",
-      "implemented": true,
-      "countsAsIpAsset": false,
-      "representedBy": "plantelogia-intelligence-platform",
-      "evaluationDate": "2026-10-09",
-      "evaluationTimestamp": "2026-10-09T05:36:00Z",
-      "evaluationResult": "RECONFIRMED",
-      "evaluationNote": "This implemented companion project remains represented within its existing software asset. It has a current evidence review and no duplicated standalone monetary value.",
-      "valuationStage": null
     },
     {
       "slug": "programmatic-search-fabric",
@@ -1869,5 +1805,6 @@
       "valuationStage": "P"
     }
   ],
-  "assessedAt": "2026-10-09T05:36:00Z"
+  "assessedAt": "2026-10-09T05:36:00Z",
+  "catalogueUpdatedAt": "2026-10-09T05:51:18Z"
 }

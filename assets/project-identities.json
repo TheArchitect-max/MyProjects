@@ -1,6 +1,6 @@
 {
-  "version": "2026.10.09-project-identities-v3",
-  "policy": "One project title and one feminine reference alias per software project. Titles lead the presentation; aliases never replace titles. Publication repositories have no asset identity or independent IP count.",
+  "version": "2026.10.09-im48-asset-only-catalogue",
+  "policy": "One project title and one feminine reference alias per software IP asset. Titles lead the presentation; aliases never replace titles. Websites are digital displays only.",
   "projects": [
     {
       "repository": "ATHANOR---Adaptive-Topology-Hazard-Analysis-Network-Optimization-Resilience",
@@ -159,12 +159,6 @@
       "existingCanonical": false
     },
     {
-      "repository": "Digital-Twin-Core",
-      "slug": "digital-twin-core",
-      "identityName": "Tessa",
-      "existingCanonical": false
-    },
-    {
       "repository": "Distributed-AI-Resource-Fabric",
       "slug": "distributed-ai-resource-fabric",
       "identityName": "Freya",
@@ -285,12 +279,6 @@
       "existingCanonical": false
     },
     {
-      "repository": "LEARNPIANO",
-      "slug": "learnpiano",
-      "identityName": "Elise",
-      "existingCanonical": false
-    },
-    {
       "repository": "LYRA-AERO-eVTOL",
       "slug": "lyra-aero-evtol",
       "identityName": "Lucia",
@@ -378,12 +366,6 @@
       "repository": "Organizational-Memory-Engine",
       "slug": "organizational-memory-engine",
       "identityName": "Mnemosyne",
-      "existingCanonical": false
-    },
-    {
-      "repository": "Plantelogia-Intelligence-Platform",
-      "slug": "plantelogia-intelligence-platform-lineage",
-      "identityName": "Ivy",
       "existingCanonical": false
     },
     {
@@ -586,8 +568,7 @@
     }
   ],
   "scope": {
-    "substantiveProjectRepositories": 97,
-    "excludedPublicationRepositories": 11,
+    "softwareIpAssetCount": 94,
     "excludedRepositories": [
       "Adaptive-Audio-Synthesis-Platform-Website",
       "BIND-AI-Website",
@@ -601,5 +582,6 @@
       "ReserveFlow-Website",
       "SAIP-Website"
     ]
-  }
+  },
+  "catalogueUpdatedAt": "2026-10-09T05:51:18Z"
 }

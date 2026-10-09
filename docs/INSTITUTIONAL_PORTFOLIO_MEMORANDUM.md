@@ -7,13 +7,13 @@
 
 ## 1. Portfolio thesis
 
-THEARCHITECT_MAX maintains a portfolio of 97 substantive repository-backed technology projects. Ninety-four are separately priced standalone first-party software assets. Three additional project repositories remain in the development register without a separate standalone price because their economic work product is already represented by an existing asset or because no committed implementation baseline exists.
+The public portfolio consists of 94 independently scoped, separately priced first-party software IP assets. Project websites are digital displays linked to the corresponding software asset.
 
 The public catalogue is a screening and evidence layer. Source code, detailed architecture, controlled validation material, sensitive security information and transaction-confidential documents remain outside the public showroom unless already intentionally public in the underlying repository.
 
 ## 2. Seller-side acquisition system
 
-All 97 projects have a current seller-side evaluation tied to frozen source and retained evidence. Existing repository-native dossiers remain part of their evidence history; the current website registers cover newly evaluated projects as well. The review covers:
+All 94 software assets have a current seller-side evaluation tied to frozen source and retained evidence. Existing repository-native dossiers remain part of their evidence history; the current website registers cover newly evaluated projects as well. The review covers:
 
 - technical baseline and build/release evidence;
 - tests and validation/qualification evidence;
@@ -40,16 +40,15 @@ Each project is independently classified across five axes:
 Current transfer-readiness distribution:
 
 - T4: 2
-- T3: 80
+- T3: 78
 - T2: 7
 - T1: 7
-- T0: 1
 
 Transaction-readiness outcome:
 
 - READY: 2
-- READY_WITH_CONDITIONS: 87
-- NOT_READY: 8
+- READY_WITH_CONDITIONS: 85
+- NOT_READY: 7
 
 These are seller-side documentation/transfer statuses, not buyer approval.
 
@@ -73,7 +72,7 @@ Current portfolio economics remain separated into:
 2. current analytical economic reference;
 3. milestone-conditioned economic reference.
 
-The milestone register contains 38 numeric maturity sensitivities and 59 NOT_ESTABLISHED records. These are not future seller asks or guaranteed market values.
+The milestone register contains 38 numeric maturity sensitivities and 56 NOT_ESTABLISHED records. These are not future seller asks or guaranteed market values.
 
 Aggregate current seller ask: EUR 24.290M.
 Engineering-equivalent recreation cost: EUR 103.550M.
@@ -143,6 +142,6 @@ Authoritative machine-readable source: `assets/rights-transfer-register.json`.
 
 ## 13. Reassessment since 7 October
 
-All 97 projects were reviewed: 91 reconfirmed conclusions, four updated assessments and two first standalone software evaluations. The current evaluation covers maturity, retained evidence, rights, dependencies, handover and monetary references. The authoritative per-project result is `assets/project-evaluations.json`.
+All 94 software assets were reviewed: 88 reconfirmed conclusions, four updated assessments and two first standalone software evaluations. The current evaluation covers maturity, retained evidence, rights, dependencies, handover and monetary references. The authoritative per-project result is `assets/project-evaluations.json`.
 
 Additional delivered work at DARF and TrueLane Studio changes their engineering-equivalent recreation estimates. Aurynthiq and UVCD receive separate software-only estimates. The committed orchestration candidate supports prototype classification while its prior discounted asking position is retained. Market/income factors stay fixed where no new attributable commercial evidence exists.

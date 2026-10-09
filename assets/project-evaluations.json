@@ -1,25 +1,18 @@
 {
-  "version": "2026.10.09-im47-full-project-evaluation",
+  "version": "2026.10.09-im48-asset-only-catalogue",
   "basisDate": "2026-10-09",
   "assessedAt": "2026-10-09T05:36:00Z",
   "previousBasisDate": "2026-10-07",
-  "purpose": "Current per-project evidence, rights, transfer, maturity and economic reassessment since the previous frozen evaluation baselines.",
+  "purpose": "Current per-asset evidence, rights, transfer, maturity and economic reassessment since the previous frozen evaluation baselines.",
   "scope": {
-    "repositoryCount": 108,
-    "projectCount": 97,
-    "implementedSoftwareProjects": 96,
     "softwareIpAssetCount": 94,
-    "pricedSoftwareAssetCount": 94,
-    "unpricedSoftwareAssetCount": 0,
-    "representedCompanionProjects": 2,
-    "reservedProjects": 1,
-    "publicationRepositoryCount": 11
+    "pricedSoftwareAssetCount": 94
   },
   "summary": {
-    "projectsReviewed": 97,
+    "projectsReviewed": 94,
     "softwareAssetsEvaluated": 94,
     "reviewOutcomes": {
-      "RECONFIRMED": 91,
+      "RECONFIRMED": 88,
       "UPDATED": 4,
       "NEW_SOFTWARE_ASSET_EVALUATION": 2
     },
@@ -956,45 +949,6 @@
       "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
     },
     {
-      "slug": "digital-twin-core",
-      "title": "Digital Twin Core",
-      "assessmentDate": "2026-10-09",
-      "assessedAt": "2026-10-09T05:36:00Z",
-      "previousAssessmentDate": "2026-10-07",
-      "reviewResult": "RECONFIRMED",
-      "reviewNote": "The reserved project still has no implemented software baseline. It remains outside the software-asset count and has no standalone monetary value.",
-      "currentVersion": null,
-      "developmentVersion": null,
-      "countsAsIpAsset": false,
-      "representedBy": null,
-      "stage": null,
-      "previousStage": null,
-      "assurance": {
-        "technicalMaturity": "UNASSESSED",
-        "evidenceMaturity": "E0",
-        "ipRightsMaturity": "R0",
-        "commercialMaturity": "C0",
-        "transferReadiness": "T0"
-      },
-      "transactionReadiness": "NOT_READY",
-      "sellerOpenItems": [
-        "No committed implementation baseline identified.",
-        "Repository licence file not identified.",
-        "Repository-native tests not identified.",
-        "Validation/qualification evidence not identified.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
-      ],
-      "sellerAskEUR": null,
-      "previousSellerAskEUR": null,
-      "replacementCostEUR": null,
-      "previousReplacementCostEUR": null,
-      "triangulatedEconomicReferenceEUR": null,
-      "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
-    },
-    {
       "slug": "distributed-ai-resource-fabric",
       "title": "Distributed AI Resource Fabric",
       "assessmentDate": "2026-10-09",
@@ -1704,43 +1658,6 @@
       "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
     },
     {
-      "slug": "learnpiano",
-      "title": "LEARNPIANO",
-      "assessmentDate": "2026-10-09",
-      "assessedAt": "2026-10-09T05:36:00Z",
-      "previousAssessmentDate": "2026-10-07",
-      "reviewResult": "RECONFIRMED",
-      "reviewNote": "This implemented companion project remains represented within its existing software asset. It has a current evidence review and no duplicated standalone monetary value.",
-      "currentVersion": "v13 product / v16 experimental",
-      "developmentVersion": null,
-      "countsAsIpAsset": false,
-      "representedBy": "interactive-piano-learning-platform",
-      "stage": null,
-      "previousStage": null,
-      "assurance": {
-        "technicalMaturity": "V",
-        "evidenceMaturity": "E2",
-        "ipRightsMaturity": "R2",
-        "commercialMaturity": "C0",
-        "transferReadiness": "T3"
-      },
-      "transactionReadiness": "READY_WITH_CONDITIONS",
-      "sellerOpenItems": [
-        "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
-      ],
-      "sellerAskEUR": null,
-      "previousSellerAskEUR": null,
-      "replacementCostEUR": null,
-      "previousReplacementCostEUR": null,
-      "triangulatedEconomicReferenceEUR": null,
-      "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
-    },
-    {
       "slug": "lyra-aero-evtol",
       "title": "LYRA-AERO eVTOL",
       "assessmentDate": "2026-10-09",
@@ -2274,41 +2191,6 @@
       "replacementCostEUR": 1900000,
       "previousReplacementCostEUR": 1900000,
       "triangulatedEconomicReferenceEUR": 3634782,
-      "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
-    },
-    {
-      "slug": "plantelogia-intelligence-platform-lineage",
-      "title": "PLANTELOGIA Intelligence Platform",
-      "assessmentDate": "2026-10-09",
-      "assessedAt": "2026-10-09T05:36:00Z",
-      "previousAssessmentDate": "2026-10-07",
-      "reviewResult": "RECONFIRMED",
-      "reviewNote": "This implemented companion project remains represented within its existing software asset. It has a current evidence review and no duplicated standalone monetary value.",
-      "currentVersion": "0.2.0",
-      "developmentVersion": null,
-      "countsAsIpAsset": false,
-      "representedBy": "plantelogia-intelligence-platform",
-      "stage": null,
-      "previousStage": null,
-      "assurance": {
-        "technicalMaturity": "P",
-        "evidenceMaturity": "E3",
-        "ipRightsMaturity": "R2",
-        "commercialMaturity": "C0",
-        "transferReadiness": "T3"
-      },
-      "transactionReadiness": "READY_WITH_CONDITIONS",
-      "sellerOpenItems": [
-        "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add an explicit buyer handover / transfer manifest."
-      ],
-      "sellerAskEUR": null,
-      "previousSellerAskEUR": null,
-      "replacementCostEUR": null,
-      "previousReplacementCostEUR": null,
-      "triangulatedEconomicReferenceEUR": null,
       "monetaryEstimateChanged": false,
       "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
     },
@@ -3505,5 +3387,6 @@
       "monetaryEstimateChanged": true,
       "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
     }
-  ]
+  ],
+  "catalogueUpdatedAt": "2026-10-09T05:51:18Z"
 }

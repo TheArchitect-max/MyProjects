@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.09-im47-full-project-evaluation",
+  "version": "2026.10.09-im48-asset-only-catalogue",
   "basisDate": "2026-10-09",
   "status": "SELLER_SIDE_REPOSITORY_EVIDENCE_REGISTER",
   "boundary": "Seller-side rights evidence register. It records repository licence evidence, disclosed third-party material and rights-review status. It does not disclose development methods and does not constitute an independent legal title or freedom-to-operate opinion.",
@@ -560,23 +560,6 @@
       "buyerSpecificLegalReviewRequired": true
     },
     {
-      "repository": "Digital-Twin-Core",
-      "slug": "digital-twin-core",
-      "identityName": "Tessa",
-      "baselineCommit": "7c838eaf6692e3b14edc6b15e70e90288b39d29b",
-      "commercialReference": null,
-      "defaultBranchBaselineCommit": "7c838eaf6692e3b14edc6b15e70e90288b39d29b",
-      "sourceScope": "DEFAULT_BRANCH",
-      "assessmentDate": "2026-10-09",
-      "repositoryLicenceFiles": [],
-      "thirdPartyDisclosureFiles": [],
-      "ipRightsMaturity": "R0",
-      "ownershipEvidenceStatus": "LICENCE_EVIDENCE_NOT_IDENTIFIED",
-      "legalChainOfTitleOpinion": "NOT_PERFORMED",
-      "freedomToOperateOpinion": "NOT_PERFORMED",
-      "buyerSpecificLegalReviewRequired": true
-    },
-    {
       "repository": "Distributed-AI-Resource-Fabric",
       "slug": "distributed-ai-resource-fabric",
       "identityName": "Freya",
@@ -1009,28 +992,6 @@
       "buyerSpecificLegalReviewRequired": true
     },
     {
-      "repository": "LEARNPIANO",
-      "slug": "learnpiano",
-      "identityName": "Elise",
-      "baselineCommit": "4ac4713e529bb187546a9e4197bc23ac634d5990",
-      "commercialReference": null,
-      "defaultBranchBaselineCommit": "4ac4713e529bb187546a9e4197bc23ac634d5990",
-      "sourceScope": "DEFAULT_BRANCH",
-      "assessmentDate": "2026-10-09",
-      "repositoryLicenceFiles": [
-        "LICENSE"
-      ],
-      "thirdPartyDisclosureFiles": [
-        "LICENSE",
-        "THIRD_PARTY_NOTICES.md"
-      ],
-      "ipRightsMaturity": "R2",
-      "ownershipEvidenceStatus": "REPOSITORY_RIGHTS_AND_DEPENDENCY_BASIS_DOCUMENTED",
-      "legalChainOfTitleOpinion": "NOT_PERFORMED",
-      "freedomToOperateOpinion": "NOT_PERFORMED",
-      "buyerSpecificLegalReviewRequired": true
-    },
-    {
       "repository": "LYRA-AERO-eVTOL",
       "slug": "lyra-aero-evtol",
       "identityName": "Lucia",
@@ -1346,27 +1307,6 @@
       "thirdPartyDisclosureFiles": [
         "LICENSE",
         "THIRD_PARTY_NOTICES.md"
-      ],
-      "ipRightsMaturity": "R2",
-      "ownershipEvidenceStatus": "REPOSITORY_RIGHTS_AND_DEPENDENCY_BASIS_DOCUMENTED",
-      "legalChainOfTitleOpinion": "NOT_PERFORMED",
-      "freedomToOperateOpinion": "NOT_PERFORMED",
-      "buyerSpecificLegalReviewRequired": true
-    },
-    {
-      "repository": "Plantelogia-Intelligence-Platform",
-      "slug": "plantelogia-intelligence-platform-lineage",
-      "identityName": "Ivy",
-      "baselineCommit": "0038679044885f8104cb460cb6902590ef1f87dc",
-      "commercialReference": null,
-      "defaultBranchBaselineCommit": "0038679044885f8104cb460cb6902590ef1f87dc",
-      "sourceScope": "DEFAULT_BRANCH",
-      "assessmentDate": "2026-10-09",
-      "repositoryLicenceFiles": [
-        "LICENSE"
-      ],
-      "thirdPartyDisclosureFiles": [
-        "LICENSE"
       ],
       "ipRightsMaturity": "R2",
       "ownershipEvidenceStatus": "REPOSITORY_RIGHTS_AND_DEPENDENCY_BASIS_DOCUMENTED",
@@ -2080,5 +2020,6 @@
       "buyerSpecificLegalReviewRequired": true
     }
   ],
-  "assessedAt": "2026-10-09T05:36:00Z"
+  "assessedAt": "2026-10-09T05:36:00Z",
+  "catalogueUpdatedAt": "2026-10-09T05:51:18Z"
 }

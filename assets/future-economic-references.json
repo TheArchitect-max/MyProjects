@@ -1,10 +1,10 @@
 {
-  "version": "2026.10.09-im47-full-project-evaluation",
+  "version": "2026.10.09-im48-asset-only-catalogue",
   "status": "evidence-bounded-maturity-sensitivity-register",
   "basisDate": "2026-10-09",
-  "purpose": "Project-by-project conditional economic references for objectively testable maturity transitions. These are not forecasts, seller asks, market values, investment returns or guarantees.",
+  "purpose": "Asset-by-asset conditional economic references for objectively testable maturity transitions. These are not forecasts, seller asks, market values, investment returns or guarantees.",
   "methodology": {
-    "rule": "Only R→P and P→V maturity transitions receive a numeric conditional reference. V-stage assets receive NOT_ESTABLISHED unless new attributable market/income evidence supports a separate model. Non-standalone or unimplemented project repositories receive NOT_ESTABLISHED.",
+    "rule": "Only R→P and P→V maturity transitions receive a numeric conditional reference. V-stage assets receive NOT_ESTABLISHED unless new attributable market/income evidence supports a separate model.",
     "invariantInputs": [
       "replacement cost",
       "commercial potential",
@@ -32,9 +32,9 @@
     "boundary": "No TAM-derived value, speculative revenue, arbitrary probability, automatic multiple, future seller ask or unverified commercialization outcome is used."
   },
   "summary": {
-    "projectCount": 97,
+    "projectCount": 94,
     "numericConditionalReferences": 38,
-    "notEstablished": 59,
+    "notEstablished": 56,
     "transitions": {
       "RtoP": 3,
       "PtoV": 35
@@ -479,19 +479,6 @@
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established."
     },
     {
-      "slug": "digital-twin-core",
-      "ref": null,
-      "identityName": "Tessa",
-      "name": "Digital Twin Core",
-      "assessmentDate": "2026-10-09",
-      "status": "NOT_ESTABLISHED",
-      "currentStage": null,
-      "targetStage": null,
-      "milestoneConditionedEconomicReferenceEUR": null,
-      "futureReferenceStatus": "NOT_ESTABLISHED",
-      "reason": "Companion work is represented elsewhere or no implemented software baseline exists; no separate future amount is counted."
-    },
-    {
       "slug": "distributed-ai-resource-fabric",
       "ref": "TA-IP-024",
       "identityName": "Freya",
@@ -824,19 +811,6 @@
       "futureReferenceStatus": "CONDITIONAL"
     },
     {
-      "slug": "learnpiano",
-      "ref": null,
-      "identityName": "Elise",
-      "name": "LEARNPIANO",
-      "assessmentDate": "2026-10-09",
-      "status": "NOT_ESTABLISHED",
-      "currentStage": null,
-      "targetStage": null,
-      "milestoneConditionedEconomicReferenceEUR": null,
-      "futureReferenceStatus": "NOT_ESTABLISHED",
-      "reason": "Companion work is represented elsewhere or no implemented software baseline exists; no separate future amount is counted."
-    },
-    {
       "slug": "lyra-aero-evtol",
       "ref": "TA-IP-093",
       "identityName": "Lucia",
@@ -1111,19 +1085,6 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established."
-    },
-    {
-      "slug": "plantelogia-intelligence-platform-lineage",
-      "ref": null,
-      "identityName": "Ivy",
-      "name": "PLANTELOGIA Intelligence Platform",
-      "assessmentDate": "2026-10-09",
-      "status": "NOT_ESTABLISHED",
-      "currentStage": null,
-      "targetStage": null,
-      "milestoneConditionedEconomicReferenceEUR": null,
-      "futureReferenceStatus": "NOT_ESTABLISHED",
-      "reason": "Companion work is represented elsewhere or no implemented software baseline exists; no separate future amount is counted."
     },
     {
       "slug": "programmatic-search-fabric",
@@ -1645,5 +1606,6 @@
       "futureReferenceStatus": "CONDITIONAL"
     }
   ],
-  "assessedAt": "2026-10-09T05:36:00Z"
+  "assessedAt": "2026-10-09T05:36:00Z",
+  "catalogueUpdatedAt": "2026-10-09T05:51:18Z"
 }
