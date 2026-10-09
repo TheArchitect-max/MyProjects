@@ -2,11 +2,11 @@
   "schema": "thearchitect-max-portfolio-audit-certificate-v4",
   "basisDate": "2026-10-09",
   "repository": "TheArchitect-max/MyProjects",
-  "sourceHeadAtCertificatePreparation": "b5503a46c61db7dff6145921c6c083da922ddc63",
+  "sourceHeadAtCertificatePreparation": "264e7f3c184fe95ac2e55cd23654168c2a6dfd23",
   "scope": {
     "ipAssetCount": 97,
-    "pricedAssetCount": 94,
-    "unpricedAssetCount": 3
+    "pricedAssetCount": 97,
+    "unpricedAssetCount": 0
   },
   "audit": {
     "sellerReadinessStatus": "COMPLETE",
@@ -21,9 +21,9 @@
     },
     "evidenceMaturityDistribution": {
       "E1": 8,
-      "E3": 38,
+      "E3": 39,
       "E4": 16,
-      "E2": 34,
+      "E2": 33,
       "E0": 1
     },
     "ipRightsMaturityDistribution": {
@@ -32,8 +32,7 @@
       "R3": 7
     },
     "commercialMaturityDistribution": {
-      "C2": 94,
-      "C1": 3
+      "C2": 97
     },
     "transferReadinessDistribution": {
       "T1": 7,
@@ -48,23 +47,23 @@
         "count": 85
       },
       {
-        "item": "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
+        "item": "A detailed component inventory and licensing report are required for the agreed delivery scope.",
         "count": 81
       },
       {
-        "item": "Add an explicit buyer handover / transfer manifest.",
+        "item": "An explicit delivery manifest and handover scope remain to be agreed.",
         "count": 70
       },
       {
-        "item": "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
+        "item": "A security assessment or an explicit statement of its absence is required before acceptance.",
         "count": 54
       },
       {
-        "item": "Add release/provenance fingerprint or attestation evidence.",
-        "count": 40
+        "item": "Release identity and provenance evidence remain incomplete.",
+        "count": 39
       },
       {
-        "item": "Add or consolidate third-party licensing/obligations documentation.",
+        "item": "Third-party licensing and obligations documentation remains incomplete.",
         "count": 8
       },
       {
@@ -84,7 +83,7 @@
         "count": 3
       },
       {
-        "item": "Complete the exact current candidate release-validation gate before accepting it as a validated release.",
+        "item": "Full release validation of the exact current candidate remains required before acceptance.",
         "count": 2
       },
       {
@@ -94,53 +93,53 @@
     ]
   },
   "economics": {
-    "sellerAskEUR": 24290000,
-    "negotiationLowEUR": 19410000,
-    "negotiationHighEUR": 30440000,
-    "replacementCostEUR": 103550000,
-    "triangulatedEconomicReferenceEUR": 122978192,
-    "milestoneConditionalNumericReferences": 38,
-    "milestoneReferencesNotEstablished": 59,
-    "pricedAssetCount": 94,
-    "unpricedAssetCount": 3,
-    "monetaryScope": "Published monetary references only; three independent IP assets remain available by enquiry."
+    "sellerAskEUR": 24520500,
+    "negotiationLowEUR": 19595400,
+    "negotiationHighEUR": 30728125,
+    "replacementCostEUR": 104652000,
+    "triangulatedEconomicReferenceEUR": 124229209,
+    "milestoneConditionalNumericReferences": 39,
+    "milestoneReferencesNotEstablished": 58,
+    "pricedAssetCount": 97,
+    "unpricedAssetCount": 0,
+    "monetaryScope": "All 97 independently scoped IP assets. Digital Twin Core covers existing definition and acquisition documentation, not implemented software."
   },
   "sourceObjects": {
     "sellerReadinessRegister": {
       "path": "assets/seller-readiness-register.json",
-      "gitBlobSha": "015ff0c9122f9657ddd6a86d01cf3f36a456313d"
+      "gitBlobSha": "b5e2fc3aed841453a4ed0a57baa44e6c58c6afac"
     },
     "valuationRegister": {
       "path": "assets/valuation-register.json",
-      "gitBlobSha": "0b9c1f0e9a5fa81cb6dfdaa5c332832fc2914c19"
+      "gitBlobSha": "83c6727ebeb36cb7a6bcfd2c484b3eb5d9b25337"
     },
     "futureEconomicReferences": {
       "path": "assets/future-economic-references.json",
-      "gitBlobSha": "ca3887decf33238df3b905f0a35a6afe6d9fb1a8"
+      "gitBlobSha": "d336431f5605c58a10113a5d68692835dd57a665"
     },
     "projectIdentities": {
       "path": "assets/project-identities.json",
-      "gitBlobSha": "b16997fa567e7c4b75d7defe74b7f1d736496e0a"
+      "gitBlobSha": "ec6893651d70f326c61a40d1a82ce2842e4d2e8e"
     },
     "ipOwnershipRegister": {
       "path": "assets/ip-ownership-register.json",
-      "gitBlobSha": "d856c665fea3ba9922fc1aa732870249adef2b10"
+      "gitBlobSha": "c52f6083343ff6499a328dd0b0fe9d522a18a14e"
     },
     "softwareSupplyChainSummary": {
       "path": "assets/software-supply-chain-summary.json",
-      "gitBlobSha": "916adff96276b7c28fc7e35448dc0106460c69a7"
+      "gitBlobSha": "be036223a43cf792f6e4076ed15616f0553fb5c7"
     },
     "rightsTransferRegister": {
       "path": "assets/rights-transfer-register.json",
-      "gitBlobSha": "ce2712bf643445e0c170755799cd5d5fc1cab01c"
+      "gitBlobSha": "aba61e9013fca838bbb6d51d58fc312655d15ca7"
     },
     "projectEvaluations": {
       "path": "assets/project-evaluations.json",
-      "gitBlobSha": "bfeaf49596a7c877a65838c127c053a2288f0d26"
+      "gitBlobSha": "7a77d339c2dd074887e8eeb5b00b39ff5eea6dc9"
     },
     "projectPresentations": {
       "path": "assets/project-presentations.json",
-      "gitBlobSha": "6500fbfc9cc59bb32eaf7af104f337bded5b10f0"
+      "gitBlobSha": "5c7a82e05dc4b2f3859d4b091015e28ae66ece34"
     }
   },
   "externalStandards": [
@@ -178,8 +177,22 @@
     "projectsReviewed": 97,
     "unassessedProjects": 0,
     "evaluationRegister": "assets/project-evaluations.json",
-    "boundary": "All 97 projects are independent IP assets. Current source evidence and each asset’s individual rights and transfer perimeter remain distinct from whether a separate monetary estimate exists.",
+    "boundary": "All 97 projects retain individual source/evidence assessments with their recorded dates. The three latest separately listed assets have fresh source-head checks and their first individual present-scope prices. Digital Twin Core is documentation only; no independent legal, financial, security or production certification is implied.",
     "ipAssetsEvaluated": 97
   },
-  "catalogueUpdatedAt": "2026-10-09T06:07:10Z"
+  "catalogueUpdatedAt": "2026-10-09T06:22:41Z",
+  "latestSeparateAssetPricing": {
+    "assessedAt": "2026-10-09T06:22:41Z",
+    "assetCount": 3,
+    "assetReferences": [
+      "TA-IP-095",
+      "TA-IP-096",
+      "TA-IP-097"
+    ],
+    "previousPricedAssetCount": 94,
+    "currentPricedAssetCount": 97,
+    "previousPublishedSellerAskEUR": 24290000,
+    "previousPublishedReplacementCostEUR": 103550000,
+    "boundary": "Fresh source-head checks and retained-evidence review for these three assets. Prior source/evidence assessments and monetary inputs for the other 94 assets retain their recorded dates; no fresh execution of all repository tests is claimed."
+  }
 }

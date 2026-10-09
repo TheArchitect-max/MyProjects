@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.09-im49-independent-ip-assets",
+  "version": "2026.10.09-im51-complete-asset-pricing",
   "basisDate": "2026-10-09",
   "status": "SELLER_SIDE_REPOSITORY_EVIDENCE_SUMMARY",
   "boundary": "This is a portfolio-level SBOM/licensing summary derived from repository evidence. It does not claim a complete component-level SBOM where no SBOM file exists.",
@@ -35,7 +35,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-002"
     },
     {
       "repository": "Adaptive-Audio-MIDI-Transcription-Studio",
@@ -56,7 +57,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "NOT_ESTABLISHED"
+      "licensingClearanceStatus": "NOT_ESTABLISHED",
+      "ref": "TA-IP-085"
     },
     {
       "repository": "Adaptive-Audio-Production-System",
@@ -79,7 +81,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-060"
     },
     {
       "repository": "Adaptive-Audio-Synthesis-Platform",
@@ -104,7 +107,8 @@
         "src/security.cpp"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-069"
     },
     {
       "repository": "Adaptive-Biofeedback-Engine",
@@ -131,7 +135,8 @@
         "SECURITY.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-048"
     },
     {
       "repository": "Adaptive-Cognitive-Runtime",
@@ -155,7 +160,8 @@
         "docs/SECURITY_MODEL.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-070"
     },
     {
       "repository": "Adaptive-General-Reasoning-Research-Platform",
@@ -182,7 +188,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-064"
     },
     {
       "repository": "Adaptive-Neural-Architecture-Platform",
@@ -206,7 +213,8 @@
         "SECURITY.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-076"
     },
     {
       "repository": "Adaptive-Systems-Intelligence-Platform",
@@ -232,7 +240,8 @@
         "docs/SECURITY_MODEL.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-083"
     },
     {
       "repository": "Advanced-Ground-Vehicle-Engineering",
@@ -252,7 +261,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-034"
     },
     {
       "repository": "Aerospace-Mission-Simulator",
@@ -274,7 +284,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-030"
     },
     {
       "repository": "Aletheia-Intelligence-Fabric---Distributed-Evidence-Entity-Intelligence-Platform",
@@ -307,7 +318,8 @@
       "sensitiveFilenameIndicators": [
         "src/security/credentialBroker.js"
       ],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-049"
     },
     {
       "repository": "Autonomous-Adaptation-Framework",
@@ -334,7 +346,8 @@
         "SECURITY.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-027"
     },
     {
       "repository": "Autonomous-Documentary-Engine",
@@ -381,7 +394,8 @@
         "apps/worker/src/provider-credentials.ts",
         "docs/CREDENTIAL-KEY-ROTATION.md"
       ],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-055"
     },
     {
       "repository": "AxiomFactor",
@@ -403,7 +417,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-042"
     },
     {
       "repository": "Bio-Inspired-Neural-Dynamics-Active-Inference-Simulation-Platform",
@@ -425,7 +440,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-077"
     },
     {
       "repository": "Biometric-Systems-Assurance-Platform",
@@ -456,7 +472,8 @@
       "sensitiveFilenameIndicators": [
         "sentinelbio/credentials.py"
       ],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-035"
     },
     {
       "repository": "CardioSignal-Intelligence-Platform",
@@ -476,7 +493,8 @@
       "thirdPartyDisclosureFiles": [],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-078"
     },
     {
       "repository": "Causal-State-Field-Engine",
@@ -499,7 +517,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-061"
     },
     {
       "repository": "Chimera-Spectral-Perception-System",
@@ -519,7 +538,8 @@
       "thirdPartyDisclosureFiles": [],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-067"
     },
     {
       "repository": "Cipher-Lyric-Engine",
@@ -541,7 +561,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-021"
     },
     {
       "repository": "CipherRouteDB",
@@ -563,7 +584,8 @@
         "docs/THREAT_MODEL.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-041"
     },
     {
       "repository": "Content-Integrity-Assurance-Platform",
@@ -588,7 +610,8 @@
         "SECURITY.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-071"
     },
     {
       "repository": "Continuum-State-Integrity-Platform",
@@ -610,7 +633,8 @@
         "SECURITY.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-004"
     },
     {
       "repository": "Custody-Integrity-Assurance-Platform",
@@ -636,7 +660,8 @@
       "sensitiveFilenameIndicators": [
         "machine/schemas/validate_command_credentials-command.schema.json"
       ],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-009"
     },
     {
       "repository": "DMT-Laser-Phenomenology-Engine",
@@ -658,7 +683,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-023"
     },
     {
       "repository": "Distributed-AI-Resource-Fabric",
@@ -678,7 +704,8 @@
       "thirdPartyDisclosureFiles": [],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-022"
     },
     {
       "repository": "Distributed-Compute-Fabric",
@@ -703,7 +730,8 @@
         "docs/THREAT_MODEL.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-082"
     },
     {
       "repository": "Dominus-Kraken-Execution-Engine",
@@ -729,7 +757,8 @@
         "SECURITY.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-026"
     },
     {
       "repository": "Electric-Flight-Systems-Simulation-Validation-Platform",
@@ -751,7 +780,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-032"
     },
     {
       "repository": "Engineering-Intelligence-Mastery-Platform",
@@ -773,7 +803,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-036"
     },
     {
       "repository": "Evidence-Governed-Analytical-Reasoning-Platform",
@@ -799,7 +830,8 @@
         "SECURITY.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-062"
     },
     {
       "repository": "Evidence-Governed-Software-Assurance-Platform",
@@ -828,7 +860,8 @@
       "sensitiveFilenameIndicators": [
         "src/bogae/credential_rotation.py"
       ],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-039"
     },
     {
       "repository": "Evidence-Governed-Visual-Intelligence-Platform",
@@ -853,7 +886,8 @@
         "docs/THREAT_MODEL.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-012"
     },
     {
       "repository": "Evidence-Grounded-Multi-Expert-Reasoning-System",
@@ -875,7 +909,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-053"
     },
     {
       "repository": "Faunometric-Bioacoustic-Intelligence-Platform",
@@ -901,7 +936,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-006"
     },
     {
       "repository": "FusionLunar-Energy-Systems-Engineering-Platform",
@@ -925,7 +961,8 @@
         "SECURITY.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-057"
     },
     {
       "repository": "GoldenNet-Signal-Intelligence-Platform",
@@ -951,7 +988,8 @@
         "docs/SECURITY.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-054"
     },
     {
       "repository": "H-RM-LYRA-Automotive-LYRA-RS-3.6T",
@@ -973,7 +1011,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-090"
     },
     {
       "repository": "High-Speed-Air-to-Water-Transition-Vehicle",
@@ -995,7 +1034,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-017"
     },
     {
       "repository": "Hybrid-Adaptive-Rendering-Media",
@@ -1020,7 +1060,8 @@
         "docs/SECURITY.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-068"
     },
     {
       "repository": "ISBR-SecureTrace",
@@ -1046,7 +1087,8 @@
         "src/isbr/security_events.py"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-044"
     },
     {
       "repository": "Industrial-Predictive-Maintenance-RUL-Platform",
@@ -1071,7 +1113,8 @@
         "SECURITY.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-059"
     },
     {
       "repository": "Integrated-Media-Production-Engine",
@@ -1104,7 +1147,8 @@
         "src/impe/managed_secrets.py",
         "src/impe/provider_credentials.py"
       ],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-038"
     },
     {
       "repository": "Interactive-Piano-Learning-Platform",
@@ -1130,7 +1174,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-084"
     },
     {
       "repository": "Kinetic-Logic-Reconstructor",
@@ -1158,7 +1203,8 @@
         "scripts/scan_secrets.py",
         "src/klr/security/secret_scan.py"
       ],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-047"
     },
     {
       "repository": "LYRA-AERO-eVTOL",
@@ -1180,7 +1226,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-091"
     },
     {
       "repository": "LatticeDepth-Subsurface-Materials-Evidence-Qualification-Platform",
@@ -1215,7 +1262,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-043"
     },
     {
       "repository": "LegalOps-NL",
@@ -1235,7 +1283,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-033"
     },
     {
       "repository": "MOTHERCODE-Research-Engine",
@@ -1255,7 +1304,8 @@
       "thirdPartyDisclosureFiles": [],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-037"
     },
     {
       "repository": "MT2050-Experimental-Dynamics",
@@ -1277,7 +1327,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-031"
     },
     {
       "repository": "Maastricht-Digital-Twin",
@@ -1302,7 +1353,8 @@
         "SECURITY.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-088"
     },
     {
       "repository": "Maastricht-Zero-Hour-Simulator",
@@ -1318,7 +1370,8 @@
       "thirdPartyDisclosureFiles": [],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "NOT_ESTABLISHED"
+      "licensingClearanceStatus": "NOT_ESTABLISHED",
+      "ref": "TA-IP-089"
     },
     {
       "repository": "Machine-Cognition-Research-Framework",
@@ -1340,7 +1393,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-020"
     },
     {
       "repository": "Mercorion-Commerce-Compiler",
@@ -1368,7 +1422,8 @@
         "sovereign_commerce_engine/security.py"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-045"
     },
     {
       "repository": "ModularKey-Cryptanalysis-Platform",
@@ -1391,7 +1446,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-007"
     },
     {
       "repository": "Multimodal-Evidence-Adaptive-Systems-Platform",
@@ -1413,7 +1469,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-056"
     },
     {
       "repository": "ORACULUM-INFINITUM",
@@ -1440,7 +1497,8 @@
         "docs/threat-model.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-040"
     },
     {
       "repository": "OSSN-UAP",
@@ -1465,7 +1523,8 @@
         "ossn-uap-v0.1.0/ossn-uap/docs/SECURITY.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-001"
     },
     {
       "repository": "Organismal-State-Dynamics-Research-Platform",
@@ -1493,7 +1552,8 @@
         "SECURITY.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-066"
     },
     {
       "repository": "Organizational-Memory-Engine",
@@ -1519,7 +1579,8 @@
         "SECURITY.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-019"
     },
     {
       "repository": "Programmatic-Search-Fabric",
@@ -1542,7 +1603,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-014"
     },
     {
       "repository": "Protein-Structure-Evidence-Qualification-Platform",
@@ -1564,7 +1626,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-015"
     },
     {
       "repository": "QUBO-Structural-Analysis-and-Optimization-Platform",
@@ -1584,7 +1647,8 @@
       "thirdPartyDisclosureFiles": [],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-075"
     },
     {
       "repository": "Radioastronomy-Signal-Validation-Platform",
@@ -1615,7 +1679,8 @@
         "SECURITY.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-072"
     },
     {
       "repository": "Research-Intelligence-Fabric.",
@@ -1639,7 +1704,8 @@
         "src/api/security.py"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-011"
     },
     {
       "repository": "ReserveFlow-SaaS-Platform",
@@ -1664,7 +1730,8 @@
         "supabase/tests/security_definer_trigger_search_path_invariants.sql"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "NOT_ESTABLISHED"
+      "licensingClearanceStatus": "NOT_ESTABLISHED",
+      "ref": "TA-IP-086"
     },
     {
       "repository": "Resource-Aware-Hybrid-Model-Orchestration-Platform",
@@ -1684,7 +1751,8 @@
       "thirdPartyDisclosureFiles": [],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-028"
     },
     {
       "repository": "SWPP-VIORITH-Mobile-Camera-Overlay-",
@@ -1707,7 +1775,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-081"
     },
     {
       "repository": "Secure-Actuation-Integrity-Platform",
@@ -1735,7 +1804,8 @@
         "docs/THREAT_MODEL.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-079"
     },
     {
       "repository": "Sensor-Fusion-Digital-Twin-Engine",
@@ -1757,7 +1827,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-025"
     },
     {
       "repository": "Signal-Processing-Universal-Framework",
@@ -1779,7 +1850,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-016"
     },
     {
       "repository": "Software-Asset-Provenance-Qualification-Platform",
@@ -1810,7 +1882,8 @@
         "src/sapqp/security.py"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-063"
     },
     {
       "repository": "SonicFabric",
@@ -1834,7 +1907,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-046"
     },
     {
       "repository": "SourceVector-Intelligence-Platform",
@@ -1856,7 +1930,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-005"
     },
     {
       "repository": "Spatial-Wearable-Perception-Platform",
@@ -1879,7 +1954,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-073"
     },
     {
       "repository": "StabilityMesh-Adaptive-Resilience-Control-for-Distributed-Systems",
@@ -1903,7 +1979,8 @@
         "SECURITY.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-003"
     },
     {
       "repository": "TLS-Virtual-1",
@@ -1929,7 +2006,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-010"
     },
     {
       "repository": "Telluric-Actualization-Research-Platform",
@@ -1947,7 +2025,8 @@
       "thirdPartyDisclosureFiles": [],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "NOT_ESTABLISHED"
+      "licensingClearanceStatus": "NOT_ESTABLISHED",
+      "ref": "TA-IP-074"
     },
     {
       "repository": "Temporal-Physics-Causality-Research-Platform",
@@ -1970,7 +2049,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-058"
     },
     {
       "repository": "TraceLine-Evidence-Governed-Investigation-Framework",
@@ -1994,7 +2074,8 @@
         "docs/SECURITY.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-065"
     },
     {
       "repository": "TrueLane-Flora",
@@ -2023,7 +2104,8 @@
       "sensitiveFilenameIndicators": [
         "truelane-flora/truelane-flora/scripts/generate_dev_token.py"
       ],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-008"
     },
     {
       "repository": "TrueLane-InkCore",
@@ -2048,7 +2130,8 @@
         "docs/SECURITY.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-050"
     },
     {
       "repository": "TrueLane-Intelligence-Engine",
@@ -2074,7 +2157,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-013"
     },
     {
       "repository": "TrueLane-Studio-Apex-Architect",
@@ -2096,7 +2180,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-080"
     },
     {
       "repository": "Universal-Capability-Synthesis-Engine",
@@ -2121,7 +2206,8 @@
         "docs/THREAT_MODEL.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-092"
     },
     {
       "repository": "Universal-Kernel-Machine",
@@ -2144,7 +2230,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-024"
     },
     {
       "repository": "VellumGrid-Autonomous-Commerce-Platform",
@@ -2164,7 +2251,8 @@
       "thirdPartyDisclosureFiles": [],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-087"
     },
     {
       "repository": "Verifiable-Execution-Control-Platform",
@@ -2195,7 +2283,8 @@
         "SECURITY.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-018"
     },
     {
       "repository": "Veritas-Evidence-Intelligence",
@@ -2217,7 +2306,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-029"
     },
     {
       "repository": "Vision-Evidence-Governed-Multimodal-Perception-Framework",
@@ -2239,7 +2329,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-052"
     },
     {
       "repository": "Visionair-Research-Engine",
@@ -2262,7 +2353,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-051"
     },
     {
       "repository": "Aurynthiq---.Autonomous-DJ-Intelligence-Platform",
@@ -2287,7 +2379,8 @@
         "SECURITY.md"
       ],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-093"
     },
     {
       "repository": "Universal-Vehicle-Configuration-Database",
@@ -2315,7 +2408,8 @@
       ],
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
-      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "ref": "TA-IP-094"
     },
     {
       "repository": "Digital-Twin-Core",
@@ -2333,7 +2427,8 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "NOT_ESTABLISHED",
       "independentIpAsset": true,
-      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z",
+      "ref": "TA-IP-097"
     },
     {
       "repository": "LEARNPIANO",
@@ -2361,7 +2456,8 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "independentIpAsset": true,
-      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z",
+      "ref": "TA-IP-095"
     },
     {
       "repository": "Plantelogia-Intelligence-Platform",
@@ -2388,9 +2484,10 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "independentIpAsset": true,
-      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z",
+      "ref": "TA-IP-096"
     }
   ],
   "assessedAt": "2026-10-09T05:36:00Z",
-  "catalogueUpdatedAt": "2026-10-09T06:07:10Z"
+  "catalogueUpdatedAt": "2026-10-09T06:22:41Z"
 }

@@ -1,11 +1,11 @@
 {
-  "version": "2026.10.09-im49-independent-ip-assets",
+  "version": "2026.10.09-im51-complete-asset-pricing",
   "basisDate": "2026-10-09",
   "status": "COMPLETE",
   "scope": {
     "ipAssetCount": 97,
-    "pricedAssetCount": 94,
-    "unpricedAssetCount": 3
+    "pricedAssetCount": 97,
+    "unpricedAssetCount": 0
   },
   "definitions": {
     "purpose": "Seller-side evidence, transfer and acquisition-documentation readiness. This is not buyer due diligence and does not replace buyer-specific legal, technical, security or financial review.",
@@ -60,7 +60,7 @@
       "repository": "ATHANOR---Adaptive-Topology-Hazard-Analysis-Network-Optimization-Resilience",
       "slug": "athanor",
       "identityName": "Elara",
-      "commercialReference": "TA-IP-003",
+      "commercialReference": "TA-IP-002",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 95000,
@@ -145,9 +145,9 @@
       "openSellerItems": [
         "Repository-native tests not identified.",
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -160,13 +160,14 @@
       "previousBaselineCommit": "1fc48abb15b8195c39eabe188dd3783ebb7129d1",
       "defaultBranchBaselineCommit": "45242d61ee6d65983cc12e1d3d305d93aee3eac3",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-002"
     },
     {
       "repository": "Adaptive-Audio-MIDI-Transcription-Studio",
       "slug": "adaptive-audio-midi-transcription-studio",
       "identityName": "Aria",
-      "commercialReference": "TA-IP-087",
+      "commercialReference": "TA-IP-085",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 80000,
@@ -233,10 +234,10 @@
         "Repository licence file not identified.",
         "Validation/qualification evidence not identified.",
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -249,13 +250,14 @@
       "previousBaselineCommit": "2dec0e7743286246c5ab9cae95ac6d6e7eedeb0c",
       "defaultBranchBaselineCommit": "0b0344041d320a629dbfcf6fc7d8f4bd3b8ee2b7",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-085"
     },
     {
       "repository": "Adaptive-Audio-Production-System",
       "slug": "adaptive-audio-production-system",
       "identityName": "Melody",
-      "commercialReference": "TA-IP-062",
+      "commercialReference": "TA-IP-060",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 95000,
@@ -333,10 +335,10 @@
       "openSellerItems": [
         "Validation/qualification evidence not identified.",
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -349,13 +351,14 @@
       "previousBaselineCommit": "f2342fd049288e2f69ca829a62b270562be7b6e9",
       "defaultBranchBaselineCommit": "0827f14509e9b32ffda377250090dff18a12b81b",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-060"
     },
     {
       "repository": "Adaptive-Audio-Synthesis-Platform",
       "slug": "adaptive-audio-synthesis-platform",
       "identityName": "Cadence",
-      "commercialReference": "TA-IP-071",
+      "commercialReference": "TA-IP-069",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 425000,
@@ -446,7 +449,7 @@
         "transferEvidence": []
       },
       "openSellerItems": [
-        "Add an explicit buyer handover / transfer manifest."
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -459,13 +462,14 @@
       "previousBaselineCommit": "66d434a886fe61174fc608f61cac8f589d9a27eb",
       "defaultBranchBaselineCommit": "b5efadc8150c4c22e37fa5e879cdc16877804a6a",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-069"
     },
     {
       "repository": "Adaptive-Biofeedback-Engine",
       "slug": "adaptive-biofeedback-engine",
       "identityName": "Serena",
-      "commercialReference": "TA-IP-050",
+      "commercialReference": "TA-IP-048",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 300000,
@@ -583,7 +587,7 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -596,13 +600,14 @@
       "previousBaselineCommit": "d5effa4537582cd7955f551ada4e2a51b5358387",
       "defaultBranchBaselineCommit": "fb753605e21473f47edb03cd8bed0bbab36f4c7e",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-048"
     },
     {
       "repository": "Adaptive-Cognitive-Runtime",
       "slug": "adaptive-cognitive-runtime",
       "identityName": "Sophia",
-      "commercialReference": "TA-IP-072",
+      "commercialReference": "TA-IP-070",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 225000,
@@ -699,8 +704,8 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -713,13 +718,14 @@
       "previousBaselineCommit": "e49bcde8a79c5918bd0753868a47580453aeb1d5",
       "defaultBranchBaselineCommit": "da610532feebcb86316021594eed472c38960290",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-070"
     },
     {
       "repository": "Adaptive-General-Reasoning-Research-Platform",
       "slug": "adaptive-general-reasoning-research-platform",
       "identityName": "Athena",
-      "commercialReference": "TA-IP-066",
+      "commercialReference": "TA-IP-064",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "R",
       "sellerAskEUR": 80000,
@@ -821,9 +827,9 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -836,13 +842,14 @@
       "previousBaselineCommit": "bba596fc224a38fc3c7a559e2e148731ed7b47e6",
       "defaultBranchBaselineCommit": "2cd2a288cfda4108399ed27dad68673b4172fd2a",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-064"
     },
     {
       "repository": "Adaptive-Neural-Architecture-Platform",
       "slug": "adaptive-neural-architecture-platform",
       "identityName": "Ada",
-      "commercialReference": "TA-IP-078",
+      "commercialReference": "TA-IP-076",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 190000,
@@ -931,9 +938,9 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -946,13 +953,14 @@
       "previousBaselineCommit": "b7267c0a67957066a5404bdfd6a3ea8fea60ffb7",
       "defaultBranchBaselineCommit": "2869dffab51498363c095a4529da2cf6356d461a",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-076"
     },
     {
       "repository": "Adaptive-Systems-Intelligence-Platform",
       "slug": "plantelogia-intelligence-platform",
       "identityName": "Nadia",
-      "commercialReference": "TA-IP-085",
+      "commercialReference": "TA-IP-083",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 200000,
@@ -1043,9 +1051,9 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -1058,13 +1066,14 @@
       "previousBaselineCommit": "819e399c4d337fb604c3ecf46747c80a1194843f",
       "defaultBranchBaselineCommit": "c3e7cc84207c1e72b691fd82e7bd2580eb28d5ba",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-083"
     },
     {
       "repository": "Advanced-Ground-Vehicle-Engineering",
       "slug": "advanced-ground-vehicle-engineering",
       "identityName": "Petra",
-      "commercialReference": "TA-IP-036",
+      "commercialReference": "TA-IP-034",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 55000,
@@ -1137,9 +1146,9 @@
         "transferEvidence": []
       },
       "openSellerItems": [
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -1152,13 +1161,14 @@
       "previousBaselineCommit": "169d4868a3000c8121f6dcef6884261c12d19553",
       "defaultBranchBaselineCommit": "33baadbc08a7391c5391e4aaa2b062d2fb012c81",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-034"
     },
     {
       "repository": "Aerospace-Mission-Simulator",
       "slug": "aerospace-mission-simulator",
       "identityName": "Celeste",
-      "commercialReference": "TA-IP-032",
+      "commercialReference": "TA-IP-030",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 215000,
@@ -1239,10 +1249,10 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -1255,13 +1265,14 @@
       "previousBaselineCommit": "8dd369f1fe9ac7dd458676780905c32d9e76e1af",
       "defaultBranchBaselineCommit": "2c47096a6004c9b25eec50f91e065cf9284aa7ec",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-030"
     },
     {
       "repository": "Aletheia-Intelligence-Fabric---Distributed-Evidence-Entity-Intelligence-Platform",
       "slug": "aletheia-intelligence-fabric",
       "identityName": "Alina",
-      "commercialReference": "TA-IP-051",
+      "commercialReference": "TA-IP-049",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 200000,
@@ -1373,8 +1384,8 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add release/provenance fingerprint or attestation evidence.",
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Release identity and provenance evidence remain incomplete.",
         "Review potential sensitive filenames before transfer: src/security/credentialBroker.js"
       ],
       "externalOrBuyerSideItems": [
@@ -1388,13 +1399,14 @@
       "previousBaselineCommit": "9e1afc08d39b66ff75b8ebe79d1626853049e9e6",
       "defaultBranchBaselineCommit": "a2b67000d3e2dea736193c66623a22020ad3a9e3",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-049"
     },
     {
       "repository": "Autonomous-Adaptation-Framework",
       "slug": "autonomous-adaptation-framework",
       "identityName": "Nora",
-      "commercialReference": "TA-IP-029",
+      "commercialReference": "TA-IP-027",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 360000,
@@ -1485,9 +1497,9 @@
         "transferEvidence": []
       },
       "openSellerItems": [
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -1500,13 +1512,14 @@
       "previousBaselineCommit": "324e8732ea5be3aed1d6e61b50abf18720dfac9b",
       "defaultBranchBaselineCommit": "226bfb228226bb64146e87b55950552a7b9f5dd5",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-027"
     },
     {
       "repository": "Autonomous-Documentary-Engine",
       "slug": "autonomous-documentary-engine",
       "identityName": "Clara",
-      "commercialReference": "TA-IP-057",
+      "commercialReference": "TA-IP-055",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 625000,
@@ -1635,8 +1648,8 @@
         ]
       },
       "openSellerItems": [
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
         "Review potential sensitive filenames before transfer: apps/web/app/api/credentials/[id]/route.ts, apps/web/app/api/credentials/rotation/route.ts, apps/web/app/api/credentials/route.ts, apps/worker/src/provider-credentials.ts, docs/CREDENTIAL-KEY-ROTATION.md"
       ],
       "externalOrBuyerSideItems": [
@@ -1650,13 +1663,14 @@
       "previousBaselineCommit": "197bcd8f613284f1e4fe287629cec4dbfbc0f015",
       "defaultBranchBaselineCommit": "115006fbf66d4bbe9368560e57f30852ad016e1c",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-055"
     },
     {
       "repository": "AxiomFactor",
       "slug": "axiomfactor",
       "identityName": "Hypatia",
-      "commercialReference": "TA-IP-044",
+      "commercialReference": "TA-IP-042",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 150000,
@@ -1746,9 +1760,9 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -1761,13 +1775,14 @@
       "previousBaselineCommit": "e6ea6ebc606afd4111a316ff4d7e8bef555c9369",
       "defaultBranchBaselineCommit": "3ed23766e21e49567d3abae6ca2e9b68e6ab5958",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-042"
     },
     {
       "repository": "Bio-Inspired-Neural-Dynamics-Active-Inference-Simulation-Platform",
       "slug": "bio-inspired-neural-dynamics-active-inference-simulation-platform",
       "identityName": "Iona",
-      "commercialReference": "TA-IP-079",
+      "commercialReference": "TA-IP-077",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 925000,
@@ -1872,9 +1887,9 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -1887,13 +1902,14 @@
       "previousBaselineCommit": "fc98d6166e909375a68b446c209f2e2804e5d700",
       "defaultBranchBaselineCommit": "d7880d6fa2d8adc90d27e9a0ac85a4e94d961666",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-077"
     },
     {
       "repository": "Biometric-Systems-Assurance-Platform",
       "slug": "biometric-systems-assurance-platform",
       "identityName": "Iris",
-      "commercialReference": "TA-IP-037",
+      "commercialReference": "TA-IP-035",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 240000,
@@ -2008,7 +2024,7 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Add an explicit buyer handover / transfer manifest.",
+        "An explicit delivery manifest and handover scope remain to be agreed.",
         "Review potential sensitive filenames before transfer: sentinelbio/credentials.py"
       ],
       "externalOrBuyerSideItems": [
@@ -2022,13 +2038,14 @@
       "previousBaselineCommit": "1fa07cfbcdfef5af093f3bbfa3d00af74cc7ba2f",
       "defaultBranchBaselineCommit": "762ae11013ce5547ee75ecd126e2f7d4c71da46c",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-035"
     },
     {
       "repository": "CardioSignal-Intelligence-Platform",
       "slug": "cardiosignal-intelligence-platform",
       "identityName": "Cora",
-      "commercialReference": "TA-IP-080",
+      "commercialReference": "TA-IP-078",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 250000,
@@ -2128,9 +2145,9 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add or consolidate third-party licensing/obligations documentation.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Third-party licensing and obligations documentation remains incomplete.",
+        "A security assessment or an explicit statement of its absence is required before acceptance."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -2143,13 +2160,14 @@
       "previousBaselineCommit": "d5b4ff5378c531878a2fe27928c931ad0eb8a857",
       "defaultBranchBaselineCommit": "945603c2595f4db63a87bac26b8850248ad91f2b",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-078"
     },
     {
       "repository": "Causal-State-Field-Engine",
       "slug": "causal-state-field-engine",
       "identityName": "Maya",
-      "commercialReference": "TA-IP-063",
+      "commercialReference": "TA-IP-061",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 115000,
@@ -2230,10 +2248,10 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -2246,13 +2264,14 @@
       "previousBaselineCommit": "097ec215b37c719febb27219169fa4c224da071e",
       "defaultBranchBaselineCommit": "cd4d51f5ad458b6a99cc67e6c56570a7457f71df",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-061"
     },
     {
       "repository": "Chimera-Spectral-Perception-System",
       "slug": "chimera-spectral-perception-system",
       "identityName": "Selene",
-      "commercialReference": "TA-IP-069",
+      "commercialReference": "TA-IP-067",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 125000,
@@ -2348,10 +2367,10 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add or consolidate third-party licensing/obligations documentation.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Third-party licensing and obligations documentation remains incomplete.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -2364,13 +2383,14 @@
       "previousBaselineCommit": "e39d389e397cfdf03b0cc2b3ccae83b17f4c48ef",
       "defaultBranchBaselineCommit": "146d0074a9bd65df9e2cd85eb6539c55638335d7",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-067"
     },
     {
       "repository": "Cipher-Lyric-Engine",
       "slug": "cipher-lyric-engine",
       "identityName": "Livia",
-      "commercialReference": "TA-IP-023",
+      "commercialReference": "TA-IP-021",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 300000,
@@ -2452,10 +2472,10 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -2468,13 +2488,14 @@
       "previousBaselineCommit": "695e87369298ec799616e36da68f99b6e5c464e0",
       "defaultBranchBaselineCommit": "914744cfa0d644b34fadee3b88f1795ecbf5c966",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-021"
     },
     {
       "repository": "CipherRouteDB",
       "slug": "cipherroutedb",
       "identityName": "Vera",
-      "commercialReference": "TA-IP-043",
+      "commercialReference": "TA-IP-041",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 115000,
@@ -2553,8 +2574,8 @@
         "transferEvidence": []
       },
       "openSellerItems": [
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -2567,13 +2588,14 @@
       "previousBaselineCommit": "9a68042c79709ff635c4d7c0492f73d094061828",
       "defaultBranchBaselineCommit": "175e0a9d0de6e7e636c34f78b3e4adbe889f1ef1",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-041"
     },
     {
       "repository": "Content-Integrity-Assurance-Platform",
       "slug": "content-integrity-assurance-platform",
       "identityName": "Verena",
-      "commercialReference": "TA-IP-073",
+      "commercialReference": "TA-IP-071",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 400000,
@@ -2686,7 +2708,7 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -2699,13 +2721,14 @@
       "previousBaselineCommit": "1d03275cb7e4cba222e2c8c850faf1b45176e73c",
       "defaultBranchBaselineCommit": "ed1cb490304c97eb078bc8291adda194b01adb94",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-071"
     },
     {
       "repository": "Continuum-State-Integrity-Platform",
       "slug": "continuum-state-integrity-platform",
       "identityName": "Elena",
-      "commercialReference": "TA-IP-005",
+      "commercialReference": "TA-IP-004",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 175000,
@@ -2794,7 +2817,7 @@
         "transferEvidence": []
       },
       "openSellerItems": [
-        "Add an explicit buyer handover / transfer manifest."
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -2807,13 +2830,14 @@
       "previousBaselineCommit": "2e294631f3d9054439e55d00867342fcdab1fd99",
       "defaultBranchBaselineCommit": "779fddae41026d4df683304f073f9d8fa244048e",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-004"
     },
     {
       "repository": "Custody-Integrity-Assurance-Platform",
       "slug": "custody-integrity-assurance-platform",
       "identityName": "Justine",
-      "commercialReference": "TA-IP-010",
+      "commercialReference": "TA-IP-009",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 140000,
@@ -2935,13 +2959,14 @@
       "previousBaselineCommit": "c038e36aed99ba4857ff00b2497b90ae6a4329b3",
       "defaultBranchBaselineCommit": "d6522a06ba9c1bb291ff76f42fa7bdfde25d07ed",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-009"
     },
     {
       "repository": "DMT-Laser-Phenomenology-Engine",
       "slug": "dmt-laser-phenomenology-engine",
       "identityName": "Aurora",
-      "commercialReference": "TA-IP-025",
+      "commercialReference": "TA-IP-023",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 210000,
@@ -3049,8 +3074,8 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -3063,13 +3088,14 @@
       "previousBaselineCommit": "d642f3331b3ab87eed7d41b07adf29a2346f28cc",
       "defaultBranchBaselineCommit": "ba4e0db8e7b81146aa8e4ba9211b30e5ca5acb6b",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-023"
     },
     {
       "repository": "Distributed-AI-Resource-Fabric",
       "slug": "distributed-ai-resource-fabric",
       "identityName": "Freya",
-      "commercialReference": "TA-IP-024",
+      "commercialReference": "TA-IP-022",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 325000,
@@ -3159,11 +3185,11 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add or consolidate third-party licensing/obligations documentation.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest.",
-        "Complete the exact current candidate release-validation gate before accepting it as a validated release."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Third-party licensing and obligations documentation remains incomplete.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed.",
+        "Full release validation of the exact current candidate remains required before acceptance."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -3184,13 +3210,14 @@
         "currentCompleteValidation": "PENDING",
         "boundary": "Earlier hardware evidence is retained; current full model-serving validation is not claimed."
       },
-      "reviewResult": "UPDATED_EVIDENCE_OR_SCOPE"
+      "reviewResult": "UPDATED_EVIDENCE_OR_SCOPE",
+      "ref": "TA-IP-022"
     },
     {
       "repository": "Distributed-Compute-Fabric",
       "slug": "distributed-compute-fabric",
       "identityName": "Ingrid",
-      "commercialReference": "TA-IP-084",
+      "commercialReference": "TA-IP-082",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 220000,
@@ -3289,8 +3316,8 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add release/provenance fingerprint or attestation evidence."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Release identity and provenance evidence remain incomplete."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -3303,13 +3330,14 @@
       "previousBaselineCommit": "b306a662db44d8852bef9ede55cb40a62f982d7b",
       "defaultBranchBaselineCommit": "7810d2175bac7adc8ac4232d21dd6efbcf5bf198",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-082"
     },
     {
       "repository": "Dominus-Kraken-Execution-Engine",
       "slug": "dominus-kraken-execution-engine",
       "identityName": "Mara",
-      "commercialReference": "TA-IP-028",
+      "commercialReference": "TA-IP-026",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 800000,
@@ -3423,8 +3451,8 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -3437,13 +3465,14 @@
       "previousBaselineCommit": "1e6d77e7eace7dbf9358bb85d18483c37d689f8f",
       "defaultBranchBaselineCommit": "272798957490e6d6d4b13f50348a0837f1680860",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-026"
     },
     {
       "repository": "Electric-Flight-Systems-Simulation-Validation-Platform",
       "slug": "electric-flight-systems-simulation-validation-platform",
       "identityName": "Amelia",
-      "commercialReference": "TA-IP-034",
+      "commercialReference": "TA-IP-032",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 50000,
@@ -3523,10 +3552,10 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -3539,13 +3568,14 @@
       "previousBaselineCommit": "b59b4195fac6d229658f97c53a55a62ba2aaf5d8",
       "defaultBranchBaselineCommit": "51689e41e447f8a9ccebc8c0a2ea78b56dccf124",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-032"
     },
     {
       "repository": "Engineering-Intelligence-Mastery-Platform",
       "slug": "truelane-engineering-excellence",
       "identityName": "Minerva",
-      "commercialReference": "TA-IP-038",
+      "commercialReference": "TA-IP-036",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 80000,
@@ -3663,8 +3693,8 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -3677,13 +3707,14 @@
       "previousBaselineCommit": "01ba2bebb1c4af41edfbd2a63983b87b12a85bc9",
       "defaultBranchBaselineCommit": "a4f390b15abcadc01057162f08df3ad32667bb8f",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-036"
     },
     {
       "repository": "Evidence-Governed-Analytical-Reasoning-Platform",
       "slug": "evidence-governed-analytical-reasoning-platform",
       "identityName": "Thea",
-      "commercialReference": "TA-IP-064",
+      "commercialReference": "TA-IP-062",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 165000,
@@ -3784,8 +3815,8 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -3798,13 +3829,14 @@
       "previousBaselineCommit": "471abb19f133ce8b3d61fb014ffdc9152e00b970",
       "defaultBranchBaselineCommit": "77b3b1c153253a22359032ad5280cb079888bbca",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-062"
     },
     {
       "repository": "Evidence-Governed-Software-Assurance-Platform",
       "slug": "evidence-governed-software-assurance-platform",
       "identityName": "Grace",
-      "commercialReference": "TA-IP-041",
+      "commercialReference": "TA-IP-039",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 475000,
@@ -3950,13 +3982,14 @@
       "previousBaselineCommit": "233c9d9686a49cf00c146130d0a399fa696cbff9",
       "defaultBranchBaselineCommit": "5e72ef1971367fa28d5d9818ba13db17eacc142e",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-039"
     },
     {
       "repository": "Evidence-Governed-Visual-Intelligence-Platform",
       "slug": "evidence-governed-visual-intelligence-platform",
       "identityName": "Helena",
-      "commercialReference": "TA-IP-013",
+      "commercialReference": "TA-IP-012",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 350000,
@@ -4063,8 +4096,8 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -4077,13 +4110,14 @@
       "previousBaselineCommit": "ca4f0174bf9fca55f3aa6ba9d8ffa2a2801c7a7d",
       "defaultBranchBaselineCommit": "b99e5047c59eacd229f1807de989236d1ffcea73",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-012"
     },
     {
       "repository": "Evidence-Grounded-Multi-Expert-Reasoning-System",
       "slug": "evidence-grounded-multi-expert-reasoning-system",
       "identityName": "Eleanor",
-      "commercialReference": "TA-IP-055",
+      "commercialReference": "TA-IP-053",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 500000,
@@ -4177,9 +4211,9 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -4192,13 +4226,14 @@
       "previousBaselineCommit": "1761f7b94f00aa12feaf9c3c07be02256fa468fb",
       "defaultBranchBaselineCommit": "32d06de2f93ca9e5ba8a290c06e69cf49b75e8e8",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-053"
     },
     {
       "repository": "Faunometric-Bioacoustic-Intelligence-Platform",
       "slug": "faunometric",
       "identityName": "Fauna",
-      "commercialReference": "TA-IP-007",
+      "commercialReference": "TA-IP-006",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 275000,
@@ -4302,8 +4337,8 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -4316,13 +4351,14 @@
       "previousBaselineCommit": "58b2fa85b117ea9ee885fcf8d8ceff9a37be4cad",
       "defaultBranchBaselineCommit": "5136f71fb47e518c4746aabd493acf0e0640ef00",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-006"
     },
     {
       "repository": "FusionLunar-Energy-Systems-Engineering-Platform",
       "slug": "fusionlunar-energy-systems-engineering-platform",
       "identityName": "Luna",
-      "commercialReference": "TA-IP-059",
+      "commercialReference": "TA-IP-057",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 360000,
@@ -4422,8 +4458,8 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -4436,13 +4472,14 @@
       "previousBaselineCommit": "096976c41732cfdd3f959c447fdbb5c58088c802",
       "defaultBranchBaselineCommit": "927e6f0a9fa9e42e8a6a81003a46dcbf50709300",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-057"
     },
     {
       "repository": "GoldenNet-Signal-Intelligence-Platform",
       "slug": "goldennet-signal-intelligence-platform",
       "identityName": "Aurelia",
-      "commercialReference": "TA-IP-056",
+      "commercialReference": "TA-IP-054",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 425000,
@@ -4558,7 +4595,7 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -4571,13 +4608,14 @@
       "previousBaselineCommit": "6272e6ae599bb4fc54e15b9221129bee7fe897a0",
       "defaultBranchBaselineCommit": "d644b87d1d0278cbf7d84a20d8071ae4030605d2",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-054"
     },
     {
       "repository": "H-RM-LYRA-Automotive-LYRA-RS-3.6T",
       "slug": "h-rm-lyra-automotive-lyra-rs-3-6t",
       "identityName": "Lydia",
-      "commercialReference": "TA-IP-092",
+      "commercialReference": "TA-IP-090",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 55000,
@@ -4658,10 +4696,10 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -4674,13 +4712,14 @@
       "previousBaselineCommit": "be30d4faa9d888c31a2030bce06eb7b3cc25eacf",
       "defaultBranchBaselineCommit": "65fdf8c6c88b2cd00a3257a811d413d7bdc11bc7",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-090"
     },
     {
       "repository": "High-Speed-Air-to-Water-Transition-Vehicle",
       "slug": "air-to-water-transition-vehicle",
       "identityName": "Marina",
-      "commercialReference": "TA-IP-019",
+      "commercialReference": "TA-IP-017",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 40000,
@@ -4755,10 +4794,10 @@
       "openSellerItems": [
         "Repository-native tests not identified.",
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -4771,13 +4810,14 @@
       "previousBaselineCommit": "470a9e13b66dd632f6a46bac2d19849b8f77dc48",
       "defaultBranchBaselineCommit": "51697347299d306be7d161c86269bbbd378e2a37",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-017"
     },
     {
       "repository": "Hybrid-Adaptive-Rendering-Media",
       "slug": "hybrid-adaptive-rendering-media",
       "identityName": "Nova",
-      "commercialReference": "TA-IP-070",
+      "commercialReference": "TA-IP-068",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 160000,
@@ -4877,8 +4917,8 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -4891,13 +4931,14 @@
       "previousBaselineCommit": "5c48f066831e5f4403492ddc71c6e6f6d5ee4904",
       "defaultBranchBaselineCommit": "9d8444c05691f706bb622339e796b1b0e74a3f6d",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-068"
     },
     {
       "repository": "ISBR-SecureTrace",
       "slug": "isbr-securetrace",
       "identityName": "Noelle",
-      "commercialReference": "TA-IP-046",
+      "commercialReference": "TA-IP-044",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 650000,
@@ -5024,7 +5065,7 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -5037,13 +5078,14 @@
       "previousBaselineCommit": "f7e2e2ded8873713358c673198d2372363c00bcd",
       "defaultBranchBaselineCommit": "fd60ef0bf79c5cd490319989a69e071ebbb18ea7",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-044"
     },
     {
       "repository": "Industrial-Predictive-Maintenance-RUL-Platform",
       "slug": "industrial-predictive-maintenance-rul-platform",
       "identityName": "Rhea",
-      "commercialReference": "TA-IP-061",
+      "commercialReference": "TA-IP-059",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 360000,
@@ -5147,8 +5189,8 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -5161,13 +5203,14 @@
       "previousBaselineCommit": "fe2b6ea2fde240289731e3bdf9896b04af0f09c7",
       "defaultBranchBaselineCommit": "fdba8ab499098daf626191ef75605a172f424245",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-059"
     },
     {
       "repository": "Integrated-Media-Production-Engine",
       "slug": "integrated-media-production-engine",
       "identityName": "Mira",
-      "commercialReference": "TA-IP-040",
+      "commercialReference": "TA-IP-038",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 430000,
@@ -5288,7 +5331,7 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Add an explicit buyer handover / transfer manifest.",
+        "An explicit delivery manifest and handover scope remain to be agreed.",
         "Review potential sensitive filenames before transfer: src/impe/managed_secrets.py, src/impe/provider_credentials.py"
       ],
       "externalOrBuyerSideItems": [
@@ -5302,13 +5345,14 @@
       "previousBaselineCommit": "92f6d81366adceaf4c270022550cbe72ae196cd7",
       "defaultBranchBaselineCommit": "c72ab4961955b81c0932e16fcd3e94a5f943d894",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-038"
     },
     {
       "repository": "Interactive-Piano-Learning-Platform",
       "slug": "interactive-piano-learning-platform",
       "identityName": "Allegra",
-      "commercialReference": "TA-IP-086",
+      "commercialReference": "TA-IP-084",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 700000,
@@ -5409,9 +5453,9 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -5424,13 +5468,14 @@
       "previousBaselineCommit": "3a95c2b3b4d226bc77218426e09c7971d3180869",
       "defaultBranchBaselineCommit": "7b40cbc8527dcc45a5d13495f829264b86361580",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-084"
     },
     {
       "repository": "Kinetic-Logic-Reconstructor",
       "slug": "kinetic-logic-reconstructor",
       "identityName": "Keira",
-      "commercialReference": "TA-IP-049",
+      "commercialReference": "TA-IP-047",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 95000,
@@ -5556,7 +5601,7 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
         "Review potential sensitive filenames before transfer: scripts/scan_secrets.py, src/klr/security/secret_scan.py"
       ],
       "externalOrBuyerSideItems": [
@@ -5570,13 +5615,14 @@
       "previousBaselineCommit": "ea01d27284cca068fb73ddf336560f8e055eac8c",
       "defaultBranchBaselineCommit": "2e8d7fbd77c8b8f1f36de6a5a90734fea5c0ef76",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-047"
     },
     {
       "repository": "LYRA-AERO-eVTOL",
       "slug": "lyra-aero-evtol",
       "identityName": "Lucia",
-      "commercialReference": "TA-IP-093",
+      "commercialReference": "TA-IP-091",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 50000,
@@ -5651,10 +5697,10 @@
       "openSellerItems": [
         "Validation/qualification evidence not identified.",
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -5667,13 +5713,14 @@
       "previousBaselineCommit": "cbb959465e448c65e338bcb6314d85e007f929ba",
       "defaultBranchBaselineCommit": "408042cac2c144177b91af653cfaecf2d240424b",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-091"
     },
     {
       "repository": "LatticeDepth-Subsurface-Materials-Evidence-Qualification-Platform",
       "slug": "latticedepth",
       "identityName": "Gaia",
-      "commercialReference": "TA-IP-045",
+      "commercialReference": "TA-IP-043",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 255000,
@@ -5812,7 +5859,7 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed."
+        "A security assessment or an explicit statement of its absence is required before acceptance."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -5825,13 +5872,14 @@
       "previousBaselineCommit": "bd6d0e4754cf3d98690b3df4cef38554804a1f3c",
       "defaultBranchBaselineCommit": "81090d0356850c932436ceb8d692b812aa55ba25",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-043"
     },
     {
       "repository": "LegalOps-NL",
       "slug": "legalops-nl",
       "identityName": "Julia",
-      "commercialReference": "TA-IP-035",
+      "commercialReference": "TA-IP-033",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 100000,
@@ -5917,8 +5965,8 @@
         "transferEvidence": []
       },
       "openSellerItems": [
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -5931,13 +5979,14 @@
       "previousBaselineCommit": "b5862fd7949a7cd55debe0e84b01ba415976b2b6",
       "defaultBranchBaselineCommit": "213e3f7a705659f96db0f4d85c71f5ea09e828d2",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-033"
     },
     {
       "repository": "MOTHERCODE-Research-Engine",
       "slug": "mothercode-research-engine",
       "identityName": "Eve",
-      "commercialReference": "TA-IP-039",
+      "commercialReference": "TA-IP-037",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 45000,
@@ -6007,12 +6056,12 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add or consolidate third-party licensing/obligations documentation.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest.",
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Third-party licensing and obligations documentation remains incomplete.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed.",
         "Agree and freeze the exact development-branch delivery perimeter before transfer; draft status is retained.",
-        "Complete the full exact-candidate regression and packaging checks; a bounded external research result is not a full release pass."
+        "Full regression and packaging acceptance of the exact candidate remains outstanding; bounded research evidence is not full release acceptance."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -6036,13 +6085,14 @@
         "currentBranchCompleteRegression": "NOT_ESTABLISHED",
         "boundary": "Retained external evidence supports a bounded research experiment. It does not establish a full current-suite pass, biological equivalence or production readiness."
       },
-      "reviewResult": "UPDATED_EVIDENCE_OR_SCOPE"
+      "reviewResult": "UPDATED_EVIDENCE_OR_SCOPE",
+      "ref": "TA-IP-037"
     },
     {
       "repository": "MT2050-Experimental-Dynamics",
       "slug": "mt2050-experimental-dynamics",
       "identityName": "Valentina",
-      "commercialReference": "TA-IP-033",
+      "commercialReference": "TA-IP-031",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 250000,
@@ -6124,10 +6174,10 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -6140,13 +6190,14 @@
       "previousBaselineCommit": "dcdb759f08e65c1af80b0b92c68fd4b2d8f55881",
       "defaultBranchBaselineCommit": "64cda01db464c445dbc464ef359ef06e2984aba4",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-031"
     },
     {
       "repository": "Maastricht-Digital-Twin",
       "slug": "maastricht-digital-twin",
       "identityName": "Mila",
-      "commercialReference": "TA-IP-090",
+      "commercialReference": "TA-IP-088",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 200000,
@@ -6236,9 +6287,9 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -6251,13 +6302,14 @@
       "previousBaselineCommit": "12138ce5b432ec847b57421819c8581d31e3a4ea",
       "defaultBranchBaselineCommit": "a5e48a80a70b3171d7a20c310f21df1f192011a3",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-088"
     },
     {
       "repository": "Maastricht-Zero-Hour-Simulator",
       "slug": "maastricht-zero-hour-simulator",
       "identityName": "Eva",
-      "commercialReference": "TA-IP-091",
+      "commercialReference": "TA-IP-089",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 120000,
@@ -6314,9 +6366,9 @@
       "openSellerItems": [
         "Repository licence file not identified.",
         "Repository-native tests not identified.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -6329,13 +6381,14 @@
       "previousBaselineCommit": "1d3d6266aefb8d1afebb127e63beebcf10b29183",
       "defaultBranchBaselineCommit": "74c4cd23d800e677db32981a5c37784979d42561",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-089"
     },
     {
       "repository": "Machine-Cognition-Research-Framework",
       "slug": "machine-cognition-research-framework",
       "identityName": "Noa",
-      "commercialReference": "TA-IP-022",
+      "commercialReference": "TA-IP-020",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 80000,
@@ -6423,9 +6476,9 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -6438,13 +6491,14 @@
       "previousBaselineCommit": "8c90a6b9e51aa9bf92e8b31ca603bc67d95a7a23",
       "defaultBranchBaselineCommit": "8cb56a1a8e52f9c82f6471eab888662561dbc935",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-020"
     },
     {
       "repository": "Mercorion-Commerce-Compiler",
       "slug": "mercorion-commerce-compiler",
       "identityName": "Mercia",
-      "commercialReference": "TA-IP-047",
+      "commercialReference": "TA-IP-045",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 340000,
@@ -6545,8 +6599,8 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add release/provenance fingerprint or attestation evidence."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Release identity and provenance evidence remain incomplete."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -6559,13 +6613,14 @@
       "previousBaselineCommit": "d5699456622ff2b18192f9d7d6d28e1f024ed2ed",
       "defaultBranchBaselineCommit": "4090d0dc2e50848fe7b5110c09dc34ba9417c1df",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-045"
     },
     {
       "repository": "ModularKey-Cryptanalysis-Platform",
       "slug": "modular-key-cryptanalysis-platform",
       "identityName": "Alice",
-      "commercialReference": "TA-IP-008",
+      "commercialReference": "TA-IP-007",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 95000,
@@ -6655,9 +6710,9 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -6670,13 +6725,14 @@
       "previousBaselineCommit": "168d8fb881887cfe0c91832563c3c2aa75dd8d9f",
       "defaultBranchBaselineCommit": "7ae56e61201919545217900bf98ebca28f464107",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-007"
     },
     {
       "repository": "Multimodal-Evidence-Adaptive-Systems-Platform",
       "slug": "multimodal-evidence-adaptive-systems-platform",
       "identityName": "Lena",
-      "commercialReference": "TA-IP-058",
+      "commercialReference": "TA-IP-056",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 115000,
@@ -6768,9 +6824,9 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -6783,13 +6839,14 @@
       "previousBaselineCommit": "1694e05850e9e7fe8b3594f5d12063dfa886abd6",
       "defaultBranchBaselineCommit": "3c6664d07311be71afa29632103755e10e843d13",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-056"
     },
     {
       "repository": "ORACULUM-INFINITUM",
       "slug": "oraculum-infinitum",
       "identityName": "Sibyl",
-      "commercialReference": "TA-IP-042",
+      "commercialReference": "TA-IP-040",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 275000,
@@ -6881,9 +6938,9 @@
         "transferEvidence": []
       },
       "openSellerItems": [
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -6896,13 +6953,14 @@
       "previousBaselineCommit": "d13d32b8052a7df48814248b1a0383e1ec7c89d3",
       "defaultBranchBaselineCommit": "c0cb8b4595593d84c783d03a3bf0d10cef114050",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-040"
     },
     {
       "repository": "OSSN-UAP",
       "slug": "ossn-uap",
       "identityName": "Stella",
-      "commercialReference": "TA-IP-002",
+      "commercialReference": "TA-IP-001",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 45000,
@@ -6995,8 +7053,8 @@
       "openSellerItems": [
         "Validation/qualification evidence not identified.",
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -7009,13 +7067,14 @@
       "previousBaselineCommit": "48a7d136f79d5ad50fa8906e12ea2757b42d1cf7",
       "defaultBranchBaselineCommit": "d43cf19d3b12ba6452f945aab1a5ea64deac7901",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-001"
     },
     {
       "repository": "Organismal-State-Dynamics-Research-Platform",
       "slug": "organismal-state-dynamics-research-platform",
       "identityName": "Daphne",
-      "commercialReference": "TA-IP-068",
+      "commercialReference": "TA-IP-066",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 120000,
@@ -7124,7 +7183,7 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -7137,13 +7196,14 @@
       "previousBaselineCommit": "2ba14267628e2e18095469e7263c6f37f48b7c59",
       "defaultBranchBaselineCommit": "60ce881d9b23f0d2e0a34952566212f402e9cb91",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-066"
     },
     {
       "repository": "Organizational-Memory-Engine",
       "slug": "organizational-memory-engine",
       "identityName": "Mnemosyne",
-      "commercialReference": "TA-IP-021",
+      "commercialReference": "TA-IP-019",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 700000,
@@ -7251,7 +7311,7 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -7264,13 +7324,14 @@
       "previousBaselineCommit": "1f9a5469c979bf94eb2e70244adf197f6b29217e",
       "defaultBranchBaselineCommit": "7756e95c726b2564eb170cbb038ae42ac4d55889",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-019"
     },
     {
       "repository": "Programmatic-Search-Fabric",
       "slug": "programmatic-search-fabric",
       "identityName": "Sasha",
-      "commercialReference": "TA-IP-016",
+      "commercialReference": "TA-IP-014",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 265000,
@@ -7355,9 +7416,9 @@
       "openSellerItems": [
         "Repository-native tests not identified.",
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -7370,13 +7431,14 @@
       "previousBaselineCommit": "2d22ed49276d9bb8827766404e2db517eac9457d",
       "defaultBranchBaselineCommit": "17b5715602cbe013aeadfe075012a5100cca2208",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-014"
     },
     {
       "repository": "Protein-Structure-Evidence-Qualification-Platform",
       "slug": "protein-structure-evidence-qualification-platform",
       "identityName": "Rosalind",
-      "commercialReference": "TA-IP-017",
+      "commercialReference": "TA-IP-015",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 100000,
@@ -7495,8 +7557,8 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -7509,13 +7571,14 @@
       "previousBaselineCommit": "738cef55e1bf7c9df6e42408f55156079546495a",
       "defaultBranchBaselineCommit": "df7a4b0a01ef3c07d0be972a32b0fecb03c1b9b0",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-015"
     },
     {
       "repository": "QUBO-Structural-Analysis-and-Optimization-Platform",
       "slug": "qubo-structural-analysis-and-optimization-platform",
       "identityName": "Emmy",
-      "commercialReference": "TA-IP-077",
+      "commercialReference": "TA-IP-075",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 90000,
@@ -7594,11 +7657,11 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add or consolidate third-party licensing/obligations documentation.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Third-party licensing and obligations documentation remains incomplete.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -7611,13 +7674,14 @@
       "previousBaselineCommit": "004c89d6ea82c618e0eaa559efd2dcee55a9ed93",
       "defaultBranchBaselineCommit": "c027b2a8f54f317339cd419e2057ea6247bf65c7",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-075"
     },
     {
       "repository": "Radioastronomy-Signal-Validation-Platform",
       "slug": "radioastronomy-signal-validation-platform",
       "identityName": "Jocelyn",
-      "commercialReference": "TA-IP-074",
+      "commercialReference": "TA-IP-072",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 275000,
@@ -7729,7 +7793,7 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -7742,13 +7806,14 @@
       "previousBaselineCommit": "d3ee8e64da6ae3ae4e1fdc4fe37507822d41a689",
       "defaultBranchBaselineCommit": "7b3b905b05dd85b8bbc8a72bce61897caca67ad3",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-072"
     },
     {
       "repository": "Research-Intelligence-Fabric.",
       "slug": "research-intelligence-fabric",
       "identityName": "Dorothy",
-      "commercialReference": "TA-IP-012",
+      "commercialReference": "TA-IP-011",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 280000,
@@ -7838,9 +7903,9 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -7853,13 +7918,14 @@
       "previousBaselineCommit": "b2014dca008ce766e33bcbfcf085cd61163ec507",
       "defaultBranchBaselineCommit": "f6d0c94233ba0060ef0e26ba9dda21f2e205e4ba",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-011"
     },
     {
       "repository": "ReserveFlow-SaaS-Platform",
       "slug": "reserveflow-saas-platform",
       "identityName": "Olivia",
-      "commercialReference": "TA-IP-088",
+      "commercialReference": "TA-IP-086",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 625000,
@@ -7963,7 +8029,7 @@
       "openSellerItems": [
         "Repository licence file not identified.",
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -7976,13 +8042,14 @@
       "previousBaselineCommit": "cabeca908d1ebb13ecb4032cfacdcbdf3f3feea9",
       "defaultBranchBaselineCommit": "49ae1b21bb911d847fa14966ce3f0d9909b201cd",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-086"
     },
     {
       "repository": "Resource-Aware-Hybrid-Model-Orchestration-Platform",
       "slug": "resource-aware-hybrid-model-orchestration-platform",
       "identityName": "Mia",
-      "commercialReference": "TA-IP-030",
+      "commercialReference": "TA-IP-028",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 20000,
@@ -8067,11 +8134,11 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add or consolidate third-party licensing/obligations documentation.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Third-party licensing and obligations documentation remains incomplete.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
         "Agree and freeze the exact development-branch delivery perimeter before transfer; draft status is retained.",
-        "Complete the exact current candidate release-validation gate before accepting it as a validated release."
+        "Full release validation of the exact current candidate remains required before acceptance."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -8096,13 +8163,14 @@
         "historicalEvidenceRetained": true,
         "boundary": "An implemented development prototype is available. Historical execution evidence does not constitute a current full release or buyer-provider qualification."
       },
-      "reviewResult": "UPDATED_EVIDENCE_OR_SCOPE"
+      "reviewResult": "UPDATED_EVIDENCE_OR_SCOPE",
+      "ref": "TA-IP-028"
     },
     {
       "repository": "SWPP-VIORITH-Mobile-Camera-Overlay-",
       "slug": "swpp-viorith-mobile-camera-overlay",
       "identityName": "Violet",
-      "commercialReference": "TA-IP-083",
+      "commercialReference": "TA-IP-081",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 180000,
@@ -8184,10 +8252,10 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -8200,13 +8268,14 @@
       "previousBaselineCommit": "11b0386e90386cd4f27d9c7d281ef10f1ce6168b",
       "defaultBranchBaselineCommit": "de02892ac9ed9cbd27adc0f1ec4ecbf92896ea34",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-081"
     },
     {
       "repository": "Secure-Actuation-Integrity-Platform",
       "slug": "secure-actuation-integrity-platform",
       "identityName": "Valeria",
-      "commercialReference": "TA-IP-081",
+      "commercialReference": "TA-IP-079",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 425000,
@@ -8359,13 +8428,14 @@
       "previousBaselineCommit": "17484ffb0853e363fd1c8e2a77c2556a76e285d6",
       "defaultBranchBaselineCommit": "e4025683523b70281f349b0c6845224bb4b0269a",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-079"
     },
     {
       "repository": "Sensor-Fusion-Digital-Twin-Engine",
       "slug": "sensor-fusion-digital-twin-engine",
       "identityName": "Artemis",
-      "commercialReference": "TA-IP-027",
+      "commercialReference": "TA-IP-025",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 235000,
@@ -8454,9 +8524,9 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -8469,13 +8539,14 @@
       "previousBaselineCommit": "e9bc5577159bc16bb32431f03ed23d07627721f3",
       "defaultBranchBaselineCommit": "18bfbb95f3369630f680503de7139cf9ea150bb9",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-025"
     },
     {
       "repository": "Signal-Processing-Universal-Framework",
       "slug": "signal-processing-universal-framework",
       "identityName": "Shannon",
-      "commercialReference": "TA-IP-018",
+      "commercialReference": "TA-IP-016",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 120000,
@@ -8556,10 +8627,10 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -8572,13 +8643,14 @@
       "previousBaselineCommit": "f984f3ddefd9bc43aa2027c205990f94f5c29c7a",
       "defaultBranchBaselineCommit": "8a115c904955797155b6463fd2cda415899223d3",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-016"
     },
     {
       "repository": "Software-Asset-Provenance-Qualification-Platform",
       "slug": "software-asset-provenance-qualification-platform",
       "identityName": "Beatrice",
-      "commercialReference": "TA-IP-065",
+      "commercialReference": "TA-IP-063",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 240000,
@@ -8695,7 +8767,7 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -8708,13 +8780,14 @@
       "previousBaselineCommit": "a17742fd0cb9a74d2134140dd260febcaca8d56c",
       "defaultBranchBaselineCommit": "416dee23d53ea2e25223d6bf5ff8302a5ffc7eb3",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-063"
     },
     {
       "repository": "SonicFabric",
       "slug": "sonicfabric",
       "identityName": "Harmonia",
-      "commercialReference": "TA-IP-048",
+      "commercialReference": "TA-IP-046",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 650000,
@@ -8826,9 +8899,9 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -8841,13 +8914,14 @@
       "previousBaselineCommit": "0f119ea9348014bbb2800c1a84caa3a0b288c70c",
       "defaultBranchBaselineCommit": "cdfc7df5dba46500fb9ed00d7c1476431d9a679d",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-046"
     },
     {
       "repository": "SourceVector-Intelligence-Platform",
       "slug": "omnisynth-intelligence-engine",
       "identityName": "Sophie",
-      "commercialReference": "TA-IP-006",
+      "commercialReference": "TA-IP-005",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 150000,
@@ -8928,10 +9002,10 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -8944,13 +9018,14 @@
       "previousBaselineCommit": "b74978f2666c5a4e08f8dcc03be30e27016284b6",
       "defaultBranchBaselineCommit": "620213d30f3aa50120a29693d6871eb932bf4251",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-005"
     },
     {
       "repository": "Spatial-Wearable-Perception-Platform",
       "slug": "spatial-wearable-perception-platform",
       "identityName": "Skye",
-      "commercialReference": "TA-IP-075",
+      "commercialReference": "TA-IP-073",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 800000,
@@ -9052,8 +9127,8 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -9066,13 +9141,14 @@
       "previousBaselineCommit": "74a4435e6965c33446fe83c3189391b5f45fbee0",
       "defaultBranchBaselineCommit": "649722bf3073957316966130ad2e21de6f8924d6",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-073"
     },
     {
       "repository": "StabilityMesh-Adaptive-Resilience-Control-for-Distributed-Systems",
       "slug": "stabilitymesh",
       "identityName": "Ariadne",
-      "commercialReference": "TA-IP-004",
+      "commercialReference": "TA-IP-003",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 200000,
@@ -9163,9 +9239,9 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -9178,13 +9254,14 @@
       "previousBaselineCommit": "25576ba47c2653934a968dfee5c7b50d052b2cc7",
       "defaultBranchBaselineCommit": "6a6e04b1db4a7c641a1de99671780fc22ccf9aaf",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-003"
     },
     {
       "repository": "TLS-Virtual-1",
       "slug": "tls-virtual",
       "identityName": "Talia",
-      "commercialReference": "TA-IP-011",
+      "commercialReference": "TA-IP-010",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 195000,
@@ -9278,9 +9355,9 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -9293,13 +9370,14 @@
       "previousBaselineCommit": "6035d34f6966171e2a8dc97a17de21edaf5c3528",
       "defaultBranchBaselineCommit": "2192bafec863eec3601bc396bf55a56bb61c10cc",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-010"
     },
     {
       "repository": "Telluric-Actualization-Research-Platform",
       "slug": "telluric-actualization-research-platform",
       "identityName": "Terra",
-      "commercialReference": "TA-IP-076",
+      "commercialReference": "TA-IP-074",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "R",
       "sellerAskEUR": 55000,
@@ -9392,10 +9470,10 @@
       "openSellerItems": [
         "Repository licence file not identified.",
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add or consolidate third-party licensing/obligations documentation.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Third-party licensing and obligations documentation remains incomplete.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -9408,13 +9486,14 @@
       "previousBaselineCommit": "f1b4603a6270cfd8219e080578e4e8490cc621f4",
       "defaultBranchBaselineCommit": "d9b2afa9108e57500315bb890c044060176f2e16",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-074"
     },
     {
       "repository": "Temporal-Physics-Causality-Research-Platform",
       "slug": "temporal-physics-causality-research-platform",
       "identityName": "Eleni",
-      "commercialReference": "TA-IP-060",
+      "commercialReference": "TA-IP-058",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "R",
       "sellerAskEUR": 50000,
@@ -9509,9 +9588,9 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -9524,13 +9603,14 @@
       "previousBaselineCommit": "7f7f2b3de8e276de10060d1f38529485ffec845f",
       "defaultBranchBaselineCommit": "1bc82c487ffe0271dc09385a11ce747ad42b8b64",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-058"
     },
     {
       "repository": "TraceLine-Evidence-Governed-Investigation-Framework",
       "slug": "traceline-evidence-governed-investigation-framework",
       "identityName": "Clio",
-      "commercialReference": "TA-IP-067",
+      "commercialReference": "TA-IP-065",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 280000,
@@ -9627,8 +9707,8 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -9641,13 +9721,14 @@
       "previousBaselineCommit": "088ccb803dde47a4924324606d22fb5e4b308168",
       "defaultBranchBaselineCommit": "811388b926e0a0916cfd6634b98f886bc3003050",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-065"
     },
     {
       "repository": "TrueLane-Flora",
       "slug": "truelane-flora",
       "identityName": "Florence",
-      "commercialReference": "TA-IP-009",
+      "commercialReference": "TA-IP-008",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 270000,
@@ -9757,8 +9838,8 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add an explicit buyer handover / transfer manifest.",
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "An explicit delivery manifest and handover scope remain to be agreed.",
         "Review potential sensitive filenames before transfer: truelane-flora/truelane-flora/scripts/generate_dev_token.py"
       ],
       "externalOrBuyerSideItems": [
@@ -9772,13 +9853,14 @@
       "previousBaselineCommit": "cba10d87726c031cf5c248d37f7e0aebe2ecb706",
       "defaultBranchBaselineCommit": "c773b1dda3b28d773ac055d20572d5cd03f78215",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-008"
     },
     {
       "repository": "TrueLane-InkCore",
       "slug": "truelane-inkcore",
       "identityName": "Ines",
-      "commercialReference": "TA-IP-052",
+      "commercialReference": "TA-IP-050",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 160000,
@@ -9869,9 +9951,9 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -9884,13 +9966,14 @@
       "previousBaselineCommit": "c337aa49f866a24d975601346e561c939e682974",
       "defaultBranchBaselineCommit": "5d2f5d39bdaea62f5d274b043107cf32fd89a439",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-050"
     },
     {
       "repository": "TrueLane-Intelligence-Engine",
       "slug": "truelane-intelligence-engine",
       "identityName": "Thalia",
-      "commercialReference": "TA-IP-015",
+      "commercialReference": "TA-IP-013",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 255000,
@@ -9985,9 +10068,9 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -10000,13 +10083,14 @@
       "previousBaselineCommit": "bd9c1ddea9574c5ba7e3642271adf0898f232624",
       "defaultBranchBaselineCommit": "d2234f0905763440fe06b1fa7a6e7002b490d397",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-013"
     },
     {
       "repository": "TrueLane-Studio-Apex-Architect",
       "slug": "truelane-studio-apex-architect",
       "identityName": "Ava",
-      "commercialReference": "TA-IP-082",
+      "commercialReference": "TA-IP-080",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 300000,
@@ -10120,9 +10204,9 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -10144,13 +10228,14 @@
         "laterExecutableChanges": false,
         "boundary": "Software release checks passed. Physical vehicle fitness and the optional external-data bootstrap were not established by this run."
       },
-      "reviewResult": "UPDATED_EVIDENCE_OR_SCOPE"
+      "reviewResult": "UPDATED_EVIDENCE_OR_SCOPE",
+      "ref": "TA-IP-080"
     },
     {
       "repository": "Universal-Capability-Synthesis-Engine",
       "slug": "universal-capability-synthesis-engine",
       "identityName": "Ursula",
-      "commercialReference": "TA-IP-094",
+      "commercialReference": "TA-IP-092",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 150000,
@@ -10240,9 +10325,9 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -10255,13 +10340,14 @@
       "previousBaselineCommit": "1f9f98664c769c390b45c7d6e5a57217137f65d7",
       "defaultBranchBaselineCommit": "b8148150e0803e23a268bd830bfb2d713a982144",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-092"
     },
     {
       "repository": "Universal-Kernel-Machine",
       "slug": "universal-kernel-machine",
       "identityName": "Kira",
-      "commercialReference": "TA-IP-026",
+      "commercialReference": "TA-IP-024",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 65000,
@@ -10342,10 +10428,10 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -10358,13 +10444,14 @@
       "previousBaselineCommit": "9e3893260daa2537c4f9c39d161f910509e66584",
       "defaultBranchBaselineCommit": "a7351d51ae6ed0baba091d7aee4f1939007fc7fd",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-024"
     },
     {
       "repository": "VellumGrid-Autonomous-Commerce-Platform",
       "slug": "vellumgrid-autonomous-commerce-platform",
       "identityName": "Vivienne",
-      "commercialReference": "TA-IP-089",
+      "commercialReference": "TA-IP-087",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 575000,
@@ -10444,11 +10531,11 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add or consolidate third-party licensing/obligations documentation.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Third-party licensing and obligations documentation remains incomplete.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -10461,13 +10548,14 @@
       "previousBaselineCommit": "e61430f749dba1351d08afba7f1e7773c2a7448b",
       "defaultBranchBaselineCommit": "c51a06eeb7543e98433b2341bdff230a68655757",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-087"
     },
     {
       "repository": "Verifiable-Execution-Control-Platform",
       "slug": "verifiable-execution-control-platform",
       "identityName": "Victoria",
-      "commercialReference": "TA-IP-020",
+      "commercialReference": "TA-IP-018",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 450000,
@@ -10565,9 +10653,9 @@
         "transferEvidence": []
       },
       "openSellerItems": [
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -10580,13 +10668,14 @@
       "previousBaselineCommit": "ce1e3f2ceb01fa379ca91e9f379de35e24491f77",
       "defaultBranchBaselineCommit": "fd959ee476a0c2bc85803c7070207faf050e800c",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-018"
     },
     {
       "repository": "Veritas-Evidence-Intelligence",
       "slug": "veritas-evidence-intelligence",
       "identityName": "Verity",
-      "commercialReference": "TA-IP-031",
+      "commercialReference": "TA-IP-029",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 650000,
@@ -10688,9 +10777,9 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -10703,13 +10792,14 @@
       "previousBaselineCommit": "501a8fdf1a06bf69d020d8f1c89007b5ba19e823",
       "defaultBranchBaselineCommit": "d049cc3388cc8c74cc229bfcec1dd37d731d9597",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-029"
     },
     {
       "repository": "Vision-Evidence-Governed-Multimodal-Perception-Framework",
       "slug": "vision-evidence-governed-multimodal-perception-framework",
       "identityName": "Viola",
-      "commercialReference": "TA-IP-054",
+      "commercialReference": "TA-IP-052",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 160000,
@@ -10792,10 +10882,10 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -10808,13 +10898,14 @@
       "previousBaselineCommit": "28a71a577e5207acb2de899e996662aad3594812",
       "defaultBranchBaselineCommit": "7e0ee68989060c2babfcdda95d63d8b41d95f5ab",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-052"
     },
     {
       "repository": "Visionair-Research-Engine",
       "slug": "visionair-research-engine",
       "identityName": "Vivian",
-      "commercialReference": "TA-IP-053",
+      "commercialReference": "TA-IP-051",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
       "sellerAskEUR": 260000,
@@ -10906,9 +10997,9 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -10921,7 +11012,8 @@
       "previousBaselineCommit": "9b3f18f1ab0e72989963fb9f72e8acb109132e77",
       "defaultBranchBaselineCommit": "4a4790d5c57d057879f1eadf02683ed0d48f43ac",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON"
+      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "ref": "TA-IP-051"
     },
     {
       "repository": "Aurynthiq---.Autonomous-DJ-Intelligence-Platform",
@@ -10962,10 +11054,10 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add an explicit buyer handover / transfer manifest.",
-        "Complete packaged-delivery and buyer handover acceptance.",
-        "Retain appropriate music/media rights and use-specific listening/hardware acceptance evidence."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "An explicit delivery manifest and handover scope remain to be agreed.",
+        "Packaged delivery and handover acceptance remain outstanding.",
+        "Music/media rights and listening/hardware acceptance evidence are required for your intended use."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -10980,7 +11072,7 @@
       "defaultBranchBaselineCommit": "44d97997b2b811672e3415b0b3e9b62344e8b942",
       "sourceScope": "DEFAULT_BRANCH",
       "auditStatus": "CURRENT_REPOSITORY_REASSESSMENT_COMPLETE",
-      "commercialReference": "TA-IP-095",
+      "commercialReference": "TA-IP-093",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 40000,
@@ -11029,7 +11121,8 @@
         "transferEvidence": []
       },
       "transactionReadiness": "READY_WITH_CONDITIONS",
-      "reviewResult": "UPDATED_EVIDENCE_OR_SCOPE"
+      "reviewResult": "UPDATED_EVIDENCE_OR_SCOPE",
+      "ref": "TA-IP-093"
     },
     {
       "repository": "Universal-Vehicle-Configuration-Database",
@@ -11064,9 +11157,9 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest.",
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed.",
         "Agree and freeze the exact development-branch delivery perimeter before transfer; draft status is retained.",
         "Review third-party source rights and vehicle-specific compatibility separately; no production or programming authorization is offered."
       ],
@@ -11083,7 +11176,7 @@
       "defaultBranchBaselineCommit": "0be6f04fd2eee6f829cac99cce68b914f931b9d7",
       "sourceScope": "DEFAULT_BRANCH_AND_BOUNDED_DEVELOPMENT_BRANCH",
       "auditStatus": "CURRENT_REPOSITORY_REASSESSMENT_COMPLETE",
-      "commercialReference": "TA-IP-096",
+      "commercialReference": "TA-IP-094",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
       "sellerAskEUR": 125000,
@@ -11179,27 +11272,42 @@
         "transferEvidence": []
       },
       "transactionReadiness": "READY_WITH_CONDITIONS",
-      "reviewResult": "UPDATED_EVIDENCE_OR_SCOPE"
+      "reviewResult": "UPDATED_EVIDENCE_OR_SCOPE",
+      "ref": "TA-IP-094"
     },
     {
       "repository": "Digital-Twin-Core",
       "slug": "digital-twin-core",
       "identityName": "Tessa",
-      "commercialReference": "TA-IP-099",
-      "commercialStatus": "INDEPENDENT_IP_ASSET_PRICE_BY_ENQUIRY",
+      "commercialReference": "TA-IP-097",
+      "commercialStatus": "INDEPENDENT_IP_ASSET_SEPARATELY_PRICED",
       "currentStage": "D",
-      "sellerAskEUR": null,
+      "sellerAskEUR": 500,
       "baselineCommit": "7c838eaf6692e3b14edc6b15e70e90288b39d29b",
       "auditStatus": "CURRENT_REPOSITORY_REASSESSMENT_COMPLETE",
       "assurance": {
         "technicalMaturity": "UNASSESSED",
         "evidenceMaturity": "E0",
         "ipRightsMaturity": "R0",
-        "commercialMaturity": "C1",
+        "commercialMaturity": "C2",
         "transferReadiness": "T0"
       },
       "transactionReadiness": "NOT_READY",
-      "evidence": {},
+      "evidence": {
+        "EV-DOC-001": {
+          "kind": "project-definition-documentation",
+          "path": "README.md",
+          "gitBlobSha": "f40b28389b44d988fa1c019b1fba04f2e85ae1eb",
+          "baselineCommit": "7c838eaf6692e3b14edc6b15e70e90288b39d29b"
+        },
+        "EV-DOC-002": {
+          "kind": "historical-acquisition-documentation",
+          "path": "ACQUISITION_DOSSIER.md",
+          "gitBlobSha": "ded2cb5d59ab336a0031c16eb605dccc6a8c2c36",
+          "baselineCommit": "7c838eaf6692e3b14edc6b15e70e90288b39d29b",
+          "boundary": "Historical dossier retains its original date and unpriced statement; the current website valuation register governs the documentation-only reference."
+        }
+      },
       "dependencySummary": {
         "manifestCount": 0,
         "lockfileCount": 0,
@@ -11225,13 +11333,13 @@
         "transferEvidence": []
       },
       "openSellerItems": [
-        "No committed implementation baseline identified.",
+        "No implemented software is available in the reviewed baseline.",
         "Repository licence file not identified.",
         "Repository-native tests not identified.",
         "Validation/qualification evidence not identified.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -11246,23 +11354,27 @@
       "sourceScope": "DEFAULT_BRANCH",
       "reviewResult": "UPDATED",
       "independentIpAsset": true,
-      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z",
+      "ref": "TA-IP-097",
+      "economicAssessmentAt": "2026-10-09T06:22:41Z",
+      "pricingScope": "Existing first-party project definition and acquisition documentation only. No implemented software, validated digital-twin capability, protected technical invention or future development is included in this estimate.",
+      "sourceRecheckedAt": "2026-10-09T06:22:41Z"
     },
     {
       "repository": "LEARNPIANO",
       "slug": "learnpiano",
       "identityName": "Elise",
-      "commercialReference": "TA-IP-097",
-      "commercialStatus": "INDEPENDENT_IP_ASSET_PRICE_BY_ENQUIRY",
+      "commercialReference": "TA-IP-095",
+      "commercialStatus": "INDEPENDENT_IP_ASSET_SEPARATELY_PRICED",
       "currentStage": "V",
-      "sellerAskEUR": null,
+      "sellerAskEUR": 180000,
       "baselineCommit": "4ac4713e529bb187546a9e4197bc23ac634d5990",
       "auditStatus": "CURRENT_REPOSITORY_REASSESSMENT_COMPLETE",
       "assurance": {
         "technicalMaturity": "V",
-        "evidenceMaturity": "E2",
+        "evidenceMaturity": "E3",
         "ipRightsMaturity": "R2",
-        "commercialMaturity": "C1",
+        "commercialMaturity": "C2",
         "transferReadiness": "T3"
       },
       "transactionReadiness": "READY_WITH_CONDITIONS",
@@ -11296,6 +11408,20 @@
           "path": "package.json",
           "gitBlobSha": "9a9f21d060bde3d8166ec74c1c2c533cb0d628ec",
           "baselineCommit": "4ac4713e529bb187546a9e4197bc23ac634d5990"
+        },
+        "EV-PROV-001": {
+          "kind": "retained-product-release-evidence",
+          "path": "validation/native-transcriber/results/v13-browser-product-integration.json",
+          "gitBlobSha": "16a19c708e1d6fd5188541f327fe1443ef601bb4",
+          "baselineCommit": "4ac4713e529bb187546a9e4197bc23ac634d5990",
+          "boundary": "Retained v13 product evidence, not fresh execution of the latest complete repository."
+        },
+        "EV-REAL-001": {
+          "kind": "retained-real-audio-characterisation",
+          "path": "validation/real-audio/results/musicnet-2303-real-audio-report.json",
+          "gitBlobSha": "6308a09c81b5096364b739de1aed4eff74f604bf",
+          "baselineCommit": "4ac4713e529bb187546a9e4197bc23ac634d5990",
+          "boundary": "External dataset assessed by the project; this is not an independent third-party product certification. Recorded real-audio limitations remain."
         }
       },
       "dependencySummary": {
@@ -11336,10 +11462,9 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -11354,23 +11479,27 @@
       "sourceScope": "DEFAULT_BRANCH",
       "reviewResult": "UPDATED",
       "independentIpAsset": true,
-      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z",
+      "ref": "TA-IP-095",
+      "economicAssessmentAt": "2026-10-09T06:22:41Z",
+      "pricingScope": "Present first-party piano practice, performance and local production software, its proprietary transcription work, retained research and validation, and documentation. User music, external scores, recordings, datasets, plugins and future model qualification are excluded.",
+      "sourceRecheckedAt": "2026-10-09T06:22:41Z"
     },
     {
       "repository": "Plantelogia-Intelligence-Platform",
       "slug": "plantelogia-intelligence-platform-lineage",
       "identityName": "Ivy",
-      "commercialReference": "TA-IP-098",
-      "commercialStatus": "INDEPENDENT_IP_ASSET_PRICE_BY_ENQUIRY",
+      "commercialReference": "TA-IP-096",
+      "commercialStatus": "INDEPENDENT_IP_ASSET_SEPARATELY_PRICED",
       "currentStage": "P",
-      "sellerAskEUR": null,
+      "sellerAskEUR": 50000,
       "baselineCommit": "0038679044885f8104cb460cb6902590ef1f87dc",
       "auditStatus": "CURRENT_REPOSITORY_REASSESSMENT_COMPLETE",
       "assurance": {
         "technicalMaturity": "P",
         "evidenceMaturity": "E3",
         "ipRightsMaturity": "R2",
-        "commercialMaturity": "C1",
+        "commercialMaturity": "C2",
         "transferReadiness": "T3"
       },
       "transactionReadiness": "READY_WITH_CONDITIONS",
@@ -11416,6 +11545,13 @@
           "path": "schemas/provenance-envelope.schema.json",
           "gitBlobSha": "eabb328beb4f0e3ef317bff656b03843a4294868",
           "baselineCommit": "0038679044885f8104cb460cb6902590ef1f87dc"
+        },
+        "EV-VAL-002": {
+          "kind": "retained-prototype-qualification",
+          "path": "qualification/BASELINE-0.2.md",
+          "gitBlobSha": "95145fed24fe945e1637c5431252df0b09ac2716",
+          "baselineCommit": "0038679044885f8104cb460cb6902590ef1f87dc",
+          "boundary": "Retained 24-test internal qualification of the 0.2 implementation; not production or independent certification."
         }
       },
       "dependencySummary": {
@@ -11458,8 +11594,8 @@
       },
       "openSellerItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -11474,7 +11610,11 @@
       "sourceScope": "DEFAULT_BRANCH",
       "reviewResult": "UPDATED",
       "independentIpAsset": true,
-      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z",
+      "ref": "TA-IP-096",
+      "economicAssessmentAt": "2026-10-09T06:22:41Z",
+      "pricingScope": "Present first-party evidence-governed intelligence prototype, retained qualification, documentation and packaging. Production deployment, operational infrastructure, external evidence/data rights and future productisation are excluded.",
+      "sourceRecheckedAt": "2026-10-09T06:22:41Z"
     }
   ],
   "summary": {
@@ -11487,5 +11627,5 @@
   "assessedAt": "2026-10-09T05:36:00Z",
   "previousBasisDate": "2026-10-07",
   "reviewPolicy": "Current default-branch heads and retained evidence are compared with previous frozen assessment baselines. Where committed implementation exists only on a development branch, that scope is explicit and does not imply a merge or full release acceptance. Unchanged evidence retains its previous grade after Git-blob verification. Repository evidence inventory is not a fresh execution of every software test suite.",
-  "catalogueUpdatedAt": "2026-10-09T06:07:10Z"
+  "catalogueUpdatedAt": "2026-10-09T06:22:41Z"
 }

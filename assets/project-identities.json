@@ -1,570 +1,852 @@
 {
-  "version": "2026.10.09-im49-independent-ip-assets",
+  "version": "2026.10.09-im51-complete-asset-pricing",
   "policy": "Each independent IP asset has one project title and one feminine reference alias. Each project has its own asset identity and rights perimeter. Websites are digital displays only.",
   "projects": [
     {
       "repository": "ATHANOR---Adaptive-Topology-Hazard-Analysis-Network-Optimization-Resilience",
       "slug": "athanor",
       "identityName": "Elara",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-002",
+      "id": 2,
+      "title": "ATHANOR Adaptive Topology, Hazard Analysis, Network Optimization & Resilience"
     },
     {
       "repository": "Adaptive-Audio-MIDI-Transcription-Studio",
       "slug": "adaptive-audio-midi-transcription-studio",
       "identityName": "Aria",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-085",
+      "id": 85,
+      "title": "Adaptive Audio MIDI Transcription Studio"
     },
     {
       "repository": "Adaptive-Audio-Production-System",
       "slug": "adaptive-audio-production-system",
       "identityName": "Melody",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-060",
+      "id": 60,
+      "title": "Adaptive Audio Production System"
     },
     {
       "repository": "Adaptive-Audio-Synthesis-Platform",
       "slug": "adaptive-audio-synthesis-platform",
       "identityName": "Cadence",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-069",
+      "id": 69,
+      "title": "Adaptive Audio Synthesis Platform"
     },
     {
       "repository": "Adaptive-Biofeedback-Engine",
       "slug": "adaptive-biofeedback-engine",
       "identityName": "Serena",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-048",
+      "id": 48,
+      "title": "Adaptive Biofeedback Engine"
     },
     {
       "repository": "Adaptive-Cognitive-Runtime",
       "slug": "adaptive-cognitive-runtime",
       "identityName": "Sophia",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-070",
+      "id": 70,
+      "title": "Adaptive Cognitive Runtime"
     },
     {
       "repository": "Adaptive-General-Reasoning-Research-Platform",
       "slug": "adaptive-general-reasoning-research-platform",
       "identityName": "Athena",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-064",
+      "id": 64,
+      "title": "Adaptive General Reasoning Research Platform"
     },
     {
       "repository": "Adaptive-Neural-Architecture-Platform",
       "slug": "adaptive-neural-architecture-platform",
       "identityName": "Ada",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-076",
+      "id": 76,
+      "title": "Adaptive Neural Architecture Platform"
     },
     {
       "repository": "Adaptive-Systems-Intelligence-Platform",
       "slug": "plantelogia-intelligence-platform",
       "identityName": "Nadia",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-083",
+      "id": 83,
+      "title": "Adaptive Systems Intelligence Platform"
     },
     {
       "repository": "Advanced-Ground-Vehicle-Engineering",
       "slug": "advanced-ground-vehicle-engineering",
       "identityName": "Petra",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-034",
+      "id": 34,
+      "title": "Advanced Ground Vehicle Engineering"
     },
     {
       "repository": "Aerospace-Mission-Simulator",
       "slug": "aerospace-mission-simulator",
       "identityName": "Celeste",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-030",
+      "id": 30,
+      "title": "Aerospace Mission Simulator"
     },
     {
       "repository": "Aletheia-Intelligence-Fabric---Distributed-Evidence-Entity-Intelligence-Platform",
       "slug": "aletheia-intelligence-fabric",
       "identityName": "Alina",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-049",
+      "id": 49,
+      "title": "Aletheia Intelligence Fabric"
     },
     {
       "repository": "Autonomous-Adaptation-Framework",
       "slug": "autonomous-adaptation-framework",
       "identityName": "Nora",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-027",
+      "id": 27,
+      "title": "Autonomous Adaptation Framework"
     },
     {
       "repository": "Autonomous-Documentary-Engine",
       "slug": "autonomous-documentary-engine",
       "identityName": "Clara",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-055",
+      "id": 55,
+      "title": "Autonomous Documentary Engine"
     },
     {
       "repository": "AxiomFactor",
       "slug": "axiomfactor",
       "identityName": "Hypatia",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-042",
+      "id": 42,
+      "title": "AxiomFactor"
     },
     {
       "repository": "Bio-Inspired-Neural-Dynamics-Active-Inference-Simulation-Platform",
       "slug": "bio-inspired-neural-dynamics-active-inference-simulation-platform",
       "identityName": "Iona",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-077",
+      "id": 77,
+      "title": "Bio-Inspired Neural Dynamics & Active Inference Simulation Platform"
     },
     {
       "repository": "Biometric-Systems-Assurance-Platform",
       "slug": "biometric-systems-assurance-platform",
       "identityName": "Iris",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-035",
+      "id": 35,
+      "title": "Biometric Systems Assurance Platform"
     },
     {
       "repository": "CardioSignal-Intelligence-Platform",
       "slug": "cardiosignal-intelligence-platform",
       "identityName": "Cora",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-078",
+      "id": 78,
+      "title": "CardioSignal Intelligence Platform"
     },
     {
       "repository": "Causal-State-Field-Engine",
       "slug": "causal-state-field-engine",
       "identityName": "Maya",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-061",
+      "id": 61,
+      "title": "Causal State Field Engine"
     },
     {
       "repository": "Chimera-Spectral-Perception-System",
       "slug": "chimera-spectral-perception-system",
       "identityName": "Selene",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-067",
+      "id": 67,
+      "title": "Chimera Spectral Perception System"
     },
     {
       "repository": "Cipher-Lyric-Engine",
       "slug": "cipher-lyric-engine",
       "identityName": "Livia",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-021",
+      "id": 21,
+      "title": "Cipher Lyric Engine"
     },
     {
       "repository": "CipherRouteDB",
       "slug": "cipherroutedb",
       "identityName": "Vera",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-041",
+      "id": 41,
+      "title": "CipherRouteDB"
     },
     {
       "repository": "Content-Integrity-Assurance-Platform",
       "slug": "content-integrity-assurance-platform",
       "identityName": "Verena",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-071",
+      "id": 71,
+      "title": "Content Integrity Assurance Platform"
     },
     {
       "repository": "Continuum-State-Integrity-Platform",
       "slug": "continuum-state-integrity-platform",
       "identityName": "Elena",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-004",
+      "id": 4,
+      "title": "Continuum State Integrity Platform"
     },
     {
       "repository": "Custody-Integrity-Assurance-Platform",
       "slug": "custody-integrity-assurance-platform",
       "identityName": "Justine",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-009",
+      "id": 9,
+      "title": "Custody Integrity Assurance Platform"
     },
     {
       "repository": "DMT-Laser-Phenomenology-Engine",
       "slug": "dmt-laser-phenomenology-engine",
       "identityName": "Aurora",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-023",
+      "id": 23,
+      "title": "DMT Laser Phenomenology Engine"
     },
     {
       "repository": "Distributed-AI-Resource-Fabric",
       "slug": "distributed-ai-resource-fabric",
       "identityName": "Freya",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-022",
+      "id": 22,
+      "title": "Distributed AI Resource Fabric"
     },
     {
       "repository": "Distributed-Compute-Fabric",
       "slug": "distributed-compute-fabric",
       "identityName": "Ingrid",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-082",
+      "id": 82,
+      "title": "Distributed Compute Fabric"
     },
     {
       "repository": "Dominus-Kraken-Execution-Engine",
       "slug": "dominus-kraken-execution-engine",
       "identityName": "Mara",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-026",
+      "id": 26,
+      "title": "Dominus Kraken Execution Engine"
     },
     {
       "repository": "Electric-Flight-Systems-Simulation-Validation-Platform",
       "slug": "electric-flight-systems-simulation-validation-platform",
       "identityName": "Amelia",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-032",
+      "id": 32,
+      "title": "Electric Flight Systems Simulation & Validation Platform"
     },
     {
       "repository": "Engineering-Intelligence-Mastery-Platform",
       "slug": "truelane-engineering-excellence",
       "identityName": "Minerva",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-036",
+      "id": 36,
+      "title": "Engineering Intelligence & Mastery Platform (EIMP)"
     },
     {
       "repository": "Evidence-Governed-Analytical-Reasoning-Platform",
       "slug": "evidence-governed-analytical-reasoning-platform",
       "identityName": "Thea",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-062",
+      "id": 62,
+      "title": "Evidence-Governed Analytical Reasoning Platform"
     },
     {
       "repository": "Evidence-Governed-Software-Assurance-Platform",
       "slug": "evidence-governed-software-assurance-platform",
       "identityName": "Grace",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-039",
+      "id": 39,
+      "title": "Evidence-Governed Software Assurance Platform"
     },
     {
       "repository": "Evidence-Governed-Visual-Intelligence-Platform",
       "slug": "evidence-governed-visual-intelligence-platform",
       "identityName": "Helena",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-012",
+      "id": 12,
+      "title": "Evidence-Governed Visual Intelligence Platform"
     },
     {
       "repository": "Evidence-Grounded-Multi-Expert-Reasoning-System",
       "slug": "evidence-grounded-multi-expert-reasoning-system",
       "identityName": "Eleanor",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-053",
+      "id": 53,
+      "title": "Evidence-Grounded Multi-Expert Reasoning System"
     },
     {
       "repository": "Faunometric-Bioacoustic-Intelligence-Platform",
       "slug": "faunometric",
       "identityName": "Fauna",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-006",
+      "id": 6,
+      "title": "Faunometric"
     },
     {
       "repository": "FusionLunar-Energy-Systems-Engineering-Platform",
       "slug": "fusionlunar-energy-systems-engineering-platform",
       "identityName": "Luna",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-057",
+      "id": 57,
+      "title": "FusionLunar Energy Systems Engineering Platform"
     },
     {
       "repository": "GoldenNet-Signal-Intelligence-Platform",
       "slug": "goldennet-signal-intelligence-platform",
       "identityName": "Aurelia",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-054",
+      "id": 54,
+      "title": "GoldenNet Signal Intelligence Platform"
     },
     {
       "repository": "H-RM-LYRA-Automotive-LYRA-RS-3.6T",
       "slug": "h-rm-lyra-automotive-lyra-rs-3-6t",
       "identityName": "Lydia",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-090",
+      "id": 90,
+      "title": "HΛRM LYRA Automotive"
     },
     {
       "repository": "High-Speed-Air-to-Water-Transition-Vehicle",
       "slug": "air-to-water-transition-vehicle",
       "identityName": "Marina",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-017",
+      "id": 17,
+      "title": "Air-to-Water Transition Vehicle"
     },
     {
       "repository": "Hybrid-Adaptive-Rendering-Media",
       "slug": "hybrid-adaptive-rendering-media",
       "identityName": "Nova",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-068",
+      "id": 68,
+      "title": "HARM — Hybrid Adaptive Rendering & Media"
     },
     {
       "repository": "ISBR-SecureTrace",
       "slug": "isbr-securetrace",
       "identityName": "Noelle",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-044",
+      "id": 44,
+      "title": "ISBR SecureTrace"
     },
     {
       "repository": "Industrial-Predictive-Maintenance-RUL-Platform",
       "slug": "industrial-predictive-maintenance-rul-platform",
       "identityName": "Rhea",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-059",
+      "id": 59,
+      "title": "Industrial Predictive Maintenance & RUL Platform"
     },
     {
       "repository": "Integrated-Media-Production-Engine",
       "slug": "integrated-media-production-engine",
       "identityName": "Mira",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-038",
+      "id": 38,
+      "title": "Integrated Media Production Engine"
     },
     {
       "repository": "Interactive-Piano-Learning-Platform",
       "slug": "interactive-piano-learning-platform",
       "identityName": "Allegra",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-084",
+      "id": 84,
+      "title": "Interactive Piano Learning Platform"
     },
     {
       "repository": "Kinetic-Logic-Reconstructor",
       "slug": "kinetic-logic-reconstructor",
       "identityName": "Keira",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-047",
+      "id": 47,
+      "title": "Kinetic Logic Reconstructor"
     },
     {
       "repository": "LYRA-AERO-eVTOL",
       "slug": "lyra-aero-evtol",
       "identityName": "Lucia",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-091",
+      "id": 91,
+      "title": "LYRA-AERO eVTOL"
     },
     {
       "repository": "LatticeDepth-Subsurface-Materials-Evidence-Qualification-Platform",
       "slug": "latticedepth",
       "identityName": "Gaia",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-043",
+      "id": 43,
+      "title": "LatticeDepth"
     },
     {
       "repository": "LegalOps-NL",
       "slug": "legalops-nl",
       "identityName": "Julia",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-033",
+      "id": 33,
+      "title": "LegalOps NL"
     },
     {
       "repository": "MOTHERCODE-Research-Engine",
       "slug": "mothercode-research-engine",
       "identityName": "Eve",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-037",
+      "id": 37,
+      "title": "MOTHERCODE Research Engine"
     },
     {
       "repository": "MT2050-Experimental-Dynamics",
       "slug": "mt2050-experimental-dynamics",
       "identityName": "Valentina",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-031",
+      "id": 31,
+      "title": "MT2050 Experimental Dynamics"
     },
     {
       "repository": "Maastricht-Digital-Twin",
       "slug": "maastricht-digital-twin",
       "identityName": "Mila",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-088",
+      "id": 88,
+      "title": "Maastricht Digital Twin"
     },
     {
       "repository": "Maastricht-Zero-Hour-Simulator",
       "slug": "maastricht-zero-hour-simulator",
       "identityName": "Eva",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-089",
+      "id": 89,
+      "title": "Maastricht Zero-Hour Simulator"
     },
     {
       "repository": "Machine-Cognition-Research-Framework",
       "slug": "machine-cognition-research-framework",
       "identityName": "Noa",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-020",
+      "id": 20,
+      "title": "Machine Cognition Research Framework"
     },
     {
       "repository": "Mercorion-Commerce-Compiler",
       "slug": "mercorion-commerce-compiler",
       "identityName": "Mercia",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-045",
+      "id": 45,
+      "title": "Mercorion Commerce Compiler"
     },
     {
       "repository": "ModularKey-Cryptanalysis-Platform",
       "slug": "modular-key-cryptanalysis-platform",
       "identityName": "Alice",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-007",
+      "id": 7,
+      "title": "ModularKey Cryptanalysis Platform"
     },
     {
       "repository": "Multimodal-Evidence-Adaptive-Systems-Platform",
       "slug": "multimodal-evidence-adaptive-systems-platform",
       "identityName": "Lena",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-056",
+      "id": 56,
+      "title": "Multimodal Evidence Adaptive Systems Platform"
     },
     {
       "repository": "ORACULUM-INFINITUM",
       "slug": "oraculum-infinitum",
       "identityName": "Sibyl",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-040",
+      "id": 40,
+      "title": "ORACULUM INFINITUM"
     },
     {
       "repository": "OSSN-UAP",
       "slug": "ossn-uap",
       "identityName": "Stella",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-001",
+      "id": 1,
+      "title": "OSSN-UAP"
     },
     {
       "repository": "Organismal-State-Dynamics-Research-Platform",
       "slug": "organismal-state-dynamics-research-platform",
       "identityName": "Daphne",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-066",
+      "id": 66,
+      "title": "Organismal State Dynamics Research Platform"
     },
     {
       "repository": "Organizational-Memory-Engine",
       "slug": "organizational-memory-engine",
       "identityName": "Mnemosyne",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-019",
+      "id": 19,
+      "title": "Organizational Memory Engine"
     },
     {
       "repository": "Programmatic-Search-Fabric",
       "slug": "programmatic-search-fabric",
       "identityName": "Sasha",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-014",
+      "id": 14,
+      "title": "Programmatic Search Fabric"
     },
     {
       "repository": "Protein-Structure-Evidence-Qualification-Platform",
       "slug": "protein-structure-evidence-qualification-platform",
       "identityName": "Rosalind",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-015",
+      "id": 15,
+      "title": "Protein Structure Evidence Qualification Platform"
     },
     {
       "repository": "QUBO-Structural-Analysis-and-Optimization-Platform",
       "slug": "qubo-structural-analysis-and-optimization-platform",
       "identityName": "Emmy",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-075",
+      "id": 75,
+      "title": "QUBO Structural Analysis and Optimization Platform"
     },
     {
       "repository": "Radioastronomy-Signal-Validation-Platform",
       "slug": "radioastronomy-signal-validation-platform",
       "identityName": "Jocelyn",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-072",
+      "id": 72,
+      "title": "Radioastronomy Signal Validation Platform"
     },
     {
       "repository": "Research-Intelligence-Fabric.",
       "slug": "research-intelligence-fabric",
       "identityName": "Dorothy",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-011",
+      "id": 11,
+      "title": "Research Intelligence Fabric"
     },
     {
       "repository": "ReserveFlow-SaaS-Platform",
       "slug": "reserveflow-saas-platform",
       "identityName": "Olivia",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-086",
+      "id": 86,
+      "title": "OPERIVEX"
     },
     {
       "repository": "Resource-Aware-Hybrid-Model-Orchestration-Platform",
       "slug": "resource-aware-hybrid-model-orchestration-platform",
       "identityName": "Mia",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-028",
+      "id": 28,
+      "title": "Resource-Aware Hybrid Model Orchestration Platform"
     },
     {
       "repository": "SWPP-VIORITH-Mobile-Camera-Overlay-",
       "slug": "swpp-viorith-mobile-camera-overlay",
       "identityName": "Violet",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-081",
+      "id": 81,
+      "title": "VIORITH Mobile Camera Overlay"
     },
     {
       "repository": "Secure-Actuation-Integrity-Platform",
       "slug": "secure-actuation-integrity-platform",
       "identityName": "Valeria",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-079",
+      "id": 79,
+      "title": "Secure Actuation Integrity Platform"
     },
     {
       "repository": "Sensor-Fusion-Digital-Twin-Engine",
       "slug": "sensor-fusion-digital-twin-engine",
       "identityName": "Artemis",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-025",
+      "id": 25,
+      "title": "Sensor Fusion Digital Twin Engine"
     },
     {
       "repository": "Signal-Processing-Universal-Framework",
       "slug": "signal-processing-universal-framework",
       "identityName": "Shannon",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-016",
+      "id": 16,
+      "title": "Signal Processing Universal Framework"
     },
     {
       "repository": "Software-Asset-Provenance-Qualification-Platform",
       "slug": "software-asset-provenance-qualification-platform",
       "identityName": "Beatrice",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-063",
+      "id": 63,
+      "title": "Software Asset Provenance & Qualification Platform"
     },
     {
       "repository": "SonicFabric",
       "slug": "sonicfabric",
       "identityName": "Harmonia",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-046",
+      "id": 46,
+      "title": "SonicFabric"
     },
     {
       "repository": "SourceVector-Intelligence-Platform",
       "slug": "omnisynth-intelligence-engine",
       "identityName": "Sophie",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-005",
+      "id": 5,
+      "title": "SourceVector Intelligence Platform"
     },
     {
       "repository": "Spatial-Wearable-Perception-Platform",
       "slug": "spatial-wearable-perception-platform",
       "identityName": "Skye",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-073",
+      "id": 73,
+      "title": "Spatial Wearable Perception Platform"
     },
     {
       "repository": "StabilityMesh-Adaptive-Resilience-Control-for-Distributed-Systems",
       "slug": "stabilitymesh",
       "identityName": "Ariadne",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-003",
+      "id": 3,
+      "title": "StabilityMesh"
     },
     {
       "repository": "TLS-Virtual-1",
       "slug": "tls-virtual",
       "identityName": "Talia",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-010",
+      "id": 10,
+      "title": "TLS Virtual"
     },
     {
       "repository": "Telluric-Actualization-Research-Platform",
       "slug": "telluric-actualization-research-platform",
       "identityName": "Terra",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-074",
+      "id": 74,
+      "title": "Telluric Actualization Research Platform"
     },
     {
       "repository": "Temporal-Physics-Causality-Research-Platform",
       "slug": "temporal-physics-causality-research-platform",
       "identityName": "Eleni",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-058",
+      "id": 58,
+      "title": "Temporal Physics & Causality Research Platform"
     },
     {
       "repository": "TraceLine-Evidence-Governed-Investigation-Framework",
       "slug": "traceline-evidence-governed-investigation-framework",
       "identityName": "Clio",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-065",
+      "id": 65,
+      "title": "TraceLine — Evidence-Governed Investigation Framework"
     },
     {
       "repository": "TrueLane-Flora",
       "slug": "truelane-flora",
       "identityName": "Florence",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-008",
+      "id": 8,
+      "title": "TrueLane Flora"
     },
     {
       "repository": "TrueLane-InkCore",
       "slug": "truelane-inkcore",
       "identityName": "Ines",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-050",
+      "id": 50,
+      "title": "TrueLane Ink-Core"
     },
     {
       "repository": "TrueLane-Intelligence-Engine",
       "slug": "truelane-intelligence-engine",
       "identityName": "Thalia",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-013",
+      "id": 13,
+      "title": "TrueLane Intelligence Engine"
     },
     {
       "repository": "TrueLane-Studio-Apex-Architect",
       "slug": "truelane-studio-apex-architect",
       "identityName": "Ava",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-080",
+      "id": 80,
+      "title": "TrueLane Studio: Apex Architect"
     },
     {
       "repository": "Universal-Capability-Synthesis-Engine",
       "slug": "universal-capability-synthesis-engine",
       "identityName": "Ursula",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-092",
+      "id": 92,
+      "title": "Universal Capability Synthesis Engine (UCSE)"
     },
     {
       "repository": "Universal-Kernel-Machine",
       "slug": "universal-kernel-machine",
       "identityName": "Kira",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-024",
+      "id": 24,
+      "title": "Universal Kernel Machine"
     },
     {
       "repository": "VellumGrid-Autonomous-Commerce-Platform",
       "slug": "vellumgrid-autonomous-commerce-platform",
       "identityName": "Vivienne",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-087",
+      "id": 87,
+      "title": "VellumGrid Autonomous Commerce Platform"
     },
     {
       "repository": "Verifiable-Execution-Control-Platform",
       "slug": "verifiable-execution-control-platform",
       "identityName": "Victoria",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-018",
+      "id": 18,
+      "title": "Verifiable Execution Control Platform"
     },
     {
       "repository": "Veritas-Evidence-Intelligence",
       "slug": "veritas-evidence-intelligence",
       "identityName": "Verity",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-029",
+      "id": 29,
+      "title": "Veritas Evidence Intelligence"
     },
     {
       "repository": "Vision-Evidence-Governed-Multimodal-Perception-Framework",
       "slug": "vision-evidence-governed-multimodal-perception-framework",
       "identityName": "Viola",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-052",
+      "id": 52,
+      "title": "Vision Evidence Governed Multimodal Perception Framework"
     },
     {
       "repository": "Visionair-Research-Engine",
       "slug": "visionair-research-engine",
       "identityName": "Vivian",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-051",
+      "id": 51,
+      "title": "Visionair Research Engine"
     },
     {
       "repository": "Aurynthiq---.Autonomous-DJ-Intelligence-Platform",
       "slug": "aurynthiq-autonomous-dj-intelligence-platform",
       "identityName": "Isadora",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-093",
+      "id": 93,
+      "title": "Aurynthiq Autonomous DJ Intelligence Platform"
     },
     {
       "repository": "Universal-Vehicle-Configuration-Database",
       "slug": "universal-vehicle-configuration-database",
       "identityName": "Celine",
-      "existingCanonical": false
+      "existingCanonical": false,
+      "ref": "TA-IP-094",
+      "id": 94,
+      "title": "Universal Vehicle Configuration Database"
     },
     {
       "repository": "Digital-Twin-Core",
@@ -572,7 +854,10 @@
       "identityName": "Tessa",
       "existingCanonical": false,
       "independentIpAsset": true,
-      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z",
+      "ref": "TA-IP-097",
+      "id": 97,
+      "title": "Digital Twin Core"
     },
     {
       "repository": "LEARNPIANO",
@@ -580,7 +865,10 @@
       "identityName": "Elise",
       "existingCanonical": false,
       "independentIpAsset": true,
-      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z",
+      "ref": "TA-IP-095",
+      "id": 95,
+      "title": "LEARNPIANO"
     },
     {
       "repository": "Plantelogia-Intelligence-Platform",
@@ -588,7 +876,10 @@
       "identityName": "Ivy",
       "existingCanonical": false,
       "independentIpAsset": true,
-      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z",
+      "ref": "TA-IP-096",
+      "id": 96,
+      "title": "PLANTELOGIA Intelligence Platform"
     }
   ],
   "scope": {
@@ -605,7 +896,10 @@
       "MyProjects",
       "ReserveFlow-Website",
       "SAIP-Website"
-    ]
+    ],
+    "pricedAssetCount": 97,
+    "unpricedAssetCount": 0
   },
-  "catalogueUpdatedAt": "2026-10-09T06:07:10Z"
+  "catalogueUpdatedAt": "2026-10-09T06:22:41Z",
+  "identifierPolicy": "The current public identifiers are TA-IP-001 through TA-IP-097, assigned once in catalogue order. The same identifier, title, reference alias and slug govern every current register, project profile and digital-display link. Historical publications remain available in Git history."
 }

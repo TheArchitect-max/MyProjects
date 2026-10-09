@@ -1,9 +1,9 @@
 {
-  "version": "2026.10.09-im49-independent-ip-assets",
+  "version": "2026.10.09-im51-complete-asset-pricing",
   "status": "public-seller-side-valuation-register",
   "valuationBasisDate": "2026-10-09",
   "developmentStatusDate": "2026-10-09",
-  "scope": "The portfolio consists of 97 independent first-party IP assets, each with its own rights and transfer perimeter. The published monetary subtotals cover the 94 assets with separate monetary references; the other three assets are available by enquiry. Websites are digital displays only.",
+  "scope": "Compare 97 independent first-party IP assets with individual asking prices, present-scope recreation estimates and separate rights/transfer perimeters. Digital Twin Core is definition/documentation only. Project websites are digital displays and are excluded from the asset count.",
   "portfolio": {
     "assetCount": 97,
     "stageCounts": {
@@ -12,24 +12,24 @@
       "researchStage": 3,
       "definitionStage": 1
     },
-    "sellerAskEUR": 24290000,
-    "negotiationLowEUR": 19410000,
-    "negotiationHighEUR": 30440000,
-    "replacementCostEUR": 103550000,
-    "marketComparableProxyEUR": 118245105,
-    "incomeLicensingProxyEUR": 139434347,
-    "probabilityAdjustedStrategicValueEUR": 130156564,
-    "triangulatedEconomicReferenceEUR": 122978192,
-    "sellerAskAsShareOfTriangulated": 0.19751469431263066,
-    "sellerAskAsShareOfReplacementCost": 0.23457267020762917,
-    "pricedAssetCount": 94,
-    "unpricedAssetCount": 3,
-    "monetaryScope": "Published amounts only; unpriced assets are not assigned zero value.",
-    "averageTriangulatedEconomicReferencePerPricedAsset": 1308278.6382978724
+    "sellerAskEUR": 24520500,
+    "negotiationLowEUR": 19595400,
+    "negotiationHighEUR": 30728125,
+    "replacementCostEUR": 104652000,
+    "marketComparableProxyEUR": 119487680,
+    "incomeLicensingProxyEUR": 140971660,
+    "probabilityAdjustedStrategicValueEUR": 131355248,
+    "triangulatedEconomicReferenceEUR": 124229209,
+    "sellerAskAsShareOfTriangulated": 0.1973811167066193,
+    "sellerAskAsShareOfReplacementCost": 0.23430512555899552,
+    "pricedAssetCount": 97,
+    "unpricedAssetCount": 0,
+    "monetaryScope": "All 97 independently scoped IP assets. Digital Twin Core covers existing definition and acquisition documentation, not implemented software.",
+    "averageTriangulatedEconomicReferencePerPricedAsset": 1280713.4948453608
   },
   "updates": [
     {
-      "ref": "TA-IP-002",
+      "ref": "TA-IP-001",
       "slug": "ossn-uap",
       "name": "OSSN-UAP",
       "stage": "P",
@@ -50,7 +50,7 @@
       "askShareOfTriangulated": 0.18514099515342017
     },
     {
-      "ref": "TA-IP-003",
+      "ref": "TA-IP-002",
       "slug": "athanor",
       "name": "ATHANOR Adaptive Topology, Hazard Analysis, Network Optimization & Resilience",
       "stage": "V",
@@ -71,7 +71,7 @@
       "askShareOfTriangulated": 0.31117749564351505
     },
     {
-      "ref": "TA-IP-004",
+      "ref": "TA-IP-003",
       "slug": "stabilitymesh",
       "name": "StabilityMesh",
       "stage": "V",
@@ -92,7 +92,7 @@
       "askShareOfTriangulated": 0.2050670005157435
     },
     {
-      "ref": "TA-IP-005",
+      "ref": "TA-IP-004",
       "slug": "continuum-state-integrity-platform",
       "name": "Continuum State Integrity Platform",
       "stage": "V",
@@ -113,7 +113,7 @@
       "askShareOfTriangulated": 0.27712894413872285
     },
     {
-      "ref": "TA-IP-006",
+      "ref": "TA-IP-005",
       "slug": "omnisynth-intelligence-engine",
       "name": "SourceVector Intelligence Platform",
       "stage": "P",
@@ -134,7 +134,7 @@
       "askShareOfTriangulated": 0.18500862756899897
     },
     {
-      "ref": "TA-IP-007",
+      "ref": "TA-IP-006",
       "slug": "faunometric",
       "name": "Faunometric",
       "stage": "V",
@@ -155,7 +155,7 @@
       "askShareOfTriangulated": 0.3012364936510301
     },
     {
-      "ref": "TA-IP-008",
+      "ref": "TA-IP-007",
       "slug": "modular-key-cryptanalysis-platform",
       "name": "ModularKey Cryptanalysis Platform",
       "stage": "V",
@@ -176,7 +176,7 @@
       "askShareOfTriangulated": 0.33880775334795554
     },
     {
-      "ref": "TA-IP-009",
+      "ref": "TA-IP-008",
       "slug": "truelane-flora",
       "name": "TrueLane Flora",
       "stage": "V",
@@ -197,7 +197,7 @@
       "askShareOfTriangulated": 0.2406339903532507
     },
     {
-      "ref": "TA-IP-010",
+      "ref": "TA-IP-009",
       "slug": "custody-integrity-assurance-platform",
       "name": "Custody Integrity Assurance Platform",
       "stage": "P",
@@ -218,7 +218,7 @@
       "askShareOfTriangulated": 0.19062739560767247
     },
     {
-      "ref": "TA-IP-011",
+      "ref": "TA-IP-010",
       "slug": "tls-virtual",
       "name": "TLS Virtual",
       "stage": "V",
@@ -239,7 +239,7 @@
       "askShareOfTriangulated": 0.24693359132617268
     },
     {
-      "ref": "TA-IP-012",
+      "ref": "TA-IP-011",
       "slug": "research-intelligence-fabric",
       "name": "Research Intelligence Fabric",
       "stage": "V",
@@ -260,7 +260,7 @@
       "askShareOfTriangulated": 0.2613949528368821
     },
     {
-      "ref": "TA-IP-013",
+      "ref": "TA-IP-012",
       "slug": "evidence-governed-visual-intelligence-platform",
       "name": "Evidence-Governed Visual Intelligence Platform",
       "stage": "V",
@@ -281,7 +281,7 @@
       "askShareOfTriangulated": 0.1560493651020117
     },
     {
-      "ref": "TA-IP-015",
+      "ref": "TA-IP-013",
       "slug": "truelane-intelligence-engine",
       "name": "TrueLane Intelligence Engine",
       "stage": "V",
@@ -302,7 +302,7 @@
       "askShareOfTriangulated": 0.2406339146608336
     },
     {
-      "ref": "TA-IP-016",
+      "ref": "TA-IP-014",
       "slug": "programmatic-search-fabric",
       "name": "Programmatic Search Fabric",
       "stage": "V",
@@ -323,7 +323,7 @@
       "askShareOfTriangulated": 0.19213591331987656
     },
     {
-      "ref": "TA-IP-017",
+      "ref": "TA-IP-015",
       "slug": "protein-structure-evidence-qualification-platform",
       "name": "Protein Structure Evidence Qualification Platform",
       "stage": "P",
@@ -344,7 +344,7 @@
       "askShareOfTriangulated": 0.2091927669508899
     },
     {
-      "ref": "TA-IP-018",
+      "ref": "TA-IP-016",
       "slug": "signal-processing-universal-framework",
       "name": "Signal Processing Universal Framework",
       "stage": "V",
@@ -365,7 +365,7 @@
       "askShareOfTriangulated": 0.24693339588979363
     },
     {
-      "ref": "TA-IP-019",
+      "ref": "TA-IP-017",
       "slug": "air-to-water-transition-vehicle",
       "name": "Air-to-Water Transition Vehicle",
       "stage": "P",
@@ -386,7 +386,7 @@
       "askShareOfTriangulated": 0.20536411056803713
     },
     {
-      "ref": "TA-IP-020",
+      "ref": "TA-IP-018",
       "slug": "verifiable-execution-control-platform",
       "name": "Verifiable Execution Control Platform",
       "stage": "V",
@@ -407,7 +407,7 @@
       "askShareOfTriangulated": 0.18271039914507775
     },
     {
-      "ref": "TA-IP-021",
+      "ref": "TA-IP-019",
       "slug": "organizational-memory-engine",
       "name": "Organizational Memory Engine",
       "stage": "V",
@@ -428,7 +428,7 @@
       "askShareOfTriangulated": 0.1925837643082859
     },
     {
-      "ref": "TA-IP-022",
+      "ref": "TA-IP-020",
       "slug": "machine-cognition-research-framework",
       "name": "Machine Cognition Research Framework",
       "stage": "P",
@@ -449,7 +449,7 @@
       "askShareOfTriangulated": 0.1812394512975612
     },
     {
-      "ref": "TA-IP-023",
+      "ref": "TA-IP-021",
       "slug": "cipher-lyric-engine",
       "name": "Cipher Lyric Engine",
       "stage": "V",
@@ -470,7 +470,7 @@
       "askShareOfTriangulated": 0.2564986059300768
     },
     {
-      "ref": "TA-IP-024",
+      "ref": "TA-IP-022",
       "slug": "distributed-ai-resource-fabric",
       "name": "Distributed AI Resource Fabric",
       "stage": "V",
@@ -491,7 +491,7 @@
       "askShareOfTriangulated": 0.18515374597361817
     },
     {
-      "ref": "TA-IP-025",
+      "ref": "TA-IP-023",
       "slug": "dmt-laser-phenomenology-engine",
       "name": "DMT Laser Phenomenology Engine",
       "stage": "V",
@@ -512,7 +512,7 @@
       "askShareOfTriangulated": 0.3157576605063851
     },
     {
-      "ref": "TA-IP-026",
+      "ref": "TA-IP-024",
       "slug": "universal-kernel-machine",
       "name": "Universal Kernel Machine",
       "stage": "P",
@@ -533,7 +533,7 @@
       "askShareOfTriangulated": 0.17403084897602925
     },
     {
-      "ref": "TA-IP-027",
+      "ref": "TA-IP-025",
       "slug": "sensor-fusion-digital-twin-engine",
       "name": "Sensor Fusion Digital Twin Engine",
       "stage": "V",
@@ -554,7 +554,7 @@
       "askShareOfTriangulated": 0.24798891542311657
     },
     {
-      "ref": "TA-IP-028",
+      "ref": "TA-IP-026",
       "slug": "dominus-kraken-execution-engine",
       "name": "Dominus Kraken Execution Engine",
       "stage": "V",
@@ -575,7 +575,7 @@
       "askShareOfTriangulated": 0.21160550385915539
     },
     {
-      "ref": "TA-IP-029",
+      "ref": "TA-IP-027",
       "slug": "autonomous-adaptation-framework",
       "name": "Autonomous Adaptation Framework",
       "stage": "V",
@@ -596,7 +596,7 @@
       "askShareOfTriangulated": 0.1901529304943501
     },
     {
-      "ref": "TA-IP-030",
+      "ref": "TA-IP-028",
       "slug": "resource-aware-hybrid-model-orchestration-platform",
       "name": "Resource-Aware Hybrid Model Orchestration Platform",
       "stage": "P",
@@ -617,7 +617,7 @@
       "askShareOfTriangulated": 0.07893687812540702
     },
     {
-      "ref": "TA-IP-031",
+      "ref": "TA-IP-029",
       "slug": "veritas-evidence-intelligence",
       "name": "Veritas Evidence Intelligence",
       "stage": "V",
@@ -638,7 +638,7 @@
       "askShareOfTriangulated": 0.16988640610796515
     },
     {
-      "ref": "TA-IP-032",
+      "ref": "TA-IP-030",
       "slug": "aerospace-mission-simulator",
       "name": "Aerospace Mission Simulator",
       "stage": "V",
@@ -659,7 +659,7 @@
       "askShareOfTriangulated": 0.24044133846423965
     },
     {
-      "ref": "TA-IP-033",
+      "ref": "TA-IP-031",
       "slug": "mt2050-experimental-dynamics",
       "name": "MT2050 Experimental Dynamics",
       "stage": "V",
@@ -680,7 +680,7 @@
       "askShareOfTriangulated": 0.28377456494521447
     },
     {
-      "ref": "TA-IP-034",
+      "ref": "TA-IP-032",
       "slug": "electric-flight-systems-simulation-validation-platform",
       "name": "Electric Flight Systems Simulation & Validation Platform",
       "stage": "P",
@@ -701,7 +701,7 @@
       "askShareOfTriangulated": 0.17865437524564975
     },
     {
-      "ref": "TA-IP-035",
+      "ref": "TA-IP-033",
       "slug": "legalops-nl",
       "name": "LegalOps NL",
       "stage": "P",
@@ -722,7 +722,7 @@
       "askShareOfTriangulated": 0.17940244633175817
     },
     {
-      "ref": "TA-IP-036",
+      "ref": "TA-IP-034",
       "slug": "advanced-ground-vehicle-engineering",
       "name": "Advanced Ground Vehicle Engineering",
       "stage": "P",
@@ -743,7 +743,7 @@
       "askShareOfTriangulated": 0.19651981277021474
     },
     {
-      "ref": "TA-IP-037",
+      "ref": "TA-IP-035",
       "slug": "biometric-systems-assurance-platform",
       "name": "Biometric Systems Assurance Platform",
       "stage": "V",
@@ -764,7 +764,7 @@
       "askShareOfTriangulated": 0.24693364995714673
     },
     {
-      "ref": "TA-IP-038",
+      "ref": "TA-IP-036",
       "slug": "truelane-engineering-excellence",
       "name": "Engineering Intelligence & Mastery Platform (EIMP)",
       "stage": "P",
@@ -785,7 +785,7 @@
       "askShareOfTriangulated": 0.1754155155023462
     },
     {
-      "ref": "TA-IP-039",
+      "ref": "TA-IP-037",
       "slug": "mothercode-research-engine",
       "name": "MOTHERCODE Research Engine",
       "stage": "P",
@@ -806,7 +806,7 @@
       "askShareOfTriangulated": 0.1656640921239609
     },
     {
-      "ref": "TA-IP-040",
+      "ref": "TA-IP-038",
       "slug": "integrated-media-production-engine",
       "name": "Integrated Media Production Engine",
       "stage": "V",
@@ -827,7 +827,7 @@
       "askShareOfTriangulated": 0.19734665132564172
     },
     {
-      "ref": "TA-IP-041",
+      "ref": "TA-IP-039",
       "slug": "evidence-governed-software-assurance-platform",
       "name": "Evidence-Governed Software Assurance Platform",
       "stage": "V",
@@ -848,7 +848,7 @@
       "askShareOfTriangulated": 0.20691289446309807
     },
     {
-      "ref": "TA-IP-042",
+      "ref": "TA-IP-040",
       "slug": "oraculum-infinitum",
       "name": "ORACULUM INFINITUM",
       "stage": "V",
@@ -869,7 +869,7 @@
       "askShareOfTriangulated": 0.19938632514326815
     },
     {
-      "ref": "TA-IP-043",
+      "ref": "TA-IP-041",
       "slug": "cipherroutedb",
       "name": "CipherRouteDB",
       "stage": "P",
@@ -890,7 +890,7 @@
       "askShareOfTriangulated": 0.14569724366153644
     },
     {
-      "ref": "TA-IP-044",
+      "ref": "TA-IP-042",
       "slug": "axiomfactor",
       "name": "AxiomFactor",
       "stage": "V",
@@ -911,7 +911,7 @@
       "askShareOfTriangulated": 0.2993844655388521
     },
     {
-      "ref": "TA-IP-045",
+      "ref": "TA-IP-043",
       "slug": "latticedepth",
       "name": "LatticeDepth",
       "stage": "V",
@@ -932,7 +932,7 @@
       "askShareOfTriangulated": 0.2724344421237066
     },
     {
-      "ref": "TA-IP-046",
+      "ref": "TA-IP-044",
       "slug": "isbr-securetrace",
       "name": "ISBR SecureTrace",
       "stage": "V",
@@ -953,7 +953,7 @@
       "askShareOfTriangulated": 0.19107952582880744
     },
     {
-      "ref": "TA-IP-047",
+      "ref": "TA-IP-045",
       "slug": "mercorion-commerce-compiler",
       "name": "Mercorion Commerce Compiler",
       "stage": "V",
@@ -974,7 +974,7 @@
       "askShareOfTriangulated": 0.1835046583197234
     },
     {
-      "ref": "TA-IP-048",
+      "ref": "TA-IP-046",
       "slug": "sonicfabric",
       "name": "SonicFabric",
       "stage": "V",
@@ -995,7 +995,7 @@
       "askShareOfTriangulated": 0.1967098015954678
     },
     {
-      "ref": "TA-IP-049",
+      "ref": "TA-IP-047",
       "slug": "kinetic-logic-reconstructor",
       "name": "Kinetic Logic Reconstructor",
       "stage": "P",
@@ -1016,7 +1016,7 @@
       "askShareOfTriangulated": 0.15622970041721554
     },
     {
-      "ref": "TA-IP-050",
+      "ref": "TA-IP-048",
       "slug": "adaptive-biofeedback-engine",
       "name": "Adaptive Biofeedback Engine",
       "stage": "V",
@@ -1037,7 +1037,7 @@
       "askShareOfTriangulated": 0.2113098676073243
     },
     {
-      "ref": "TA-IP-051",
+      "ref": "TA-IP-049",
       "slug": "aletheia-intelligence-fabric",
       "name": "Aletheia Intelligence Fabric",
       "stage": "P",
@@ -1058,7 +1058,7 @@
       "askShareOfTriangulated": 0.14128923602084298
     },
     {
-      "ref": "TA-IP-052",
+      "ref": "TA-IP-050",
       "slug": "truelane-inkcore",
       "name": "TrueLane Ink-Core",
       "stage": "V",
@@ -1079,7 +1079,7 @@
       "askShareOfTriangulated": 0.20805890147500758
     },
     {
-      "ref": "TA-IP-053",
+      "ref": "TA-IP-051",
       "slug": "visionair-research-engine",
       "name": "Visionair Research Engine",
       "stage": "V",
@@ -1100,7 +1100,7 @@
       "askShareOfTriangulated": 0.26823812943108755
     },
     {
-      "ref": "TA-IP-054",
+      "ref": "TA-IP-052",
       "slug": "vision-evidence-governed-multimodal-perception-framework",
       "name": "Vision Evidence Governed Multimodal Perception Framework",
       "stage": "V",
@@ -1121,7 +1121,7 @@
       "askShareOfTriangulated": 0.314619998033625
     },
     {
-      "ref": "TA-IP-055",
+      "ref": "TA-IP-053",
       "slug": "evidence-grounded-multi-expert-reasoning-system",
       "name": "Evidence-Grounded Multi-Expert Reasoning System",
       "stage": "V",
@@ -1142,7 +1142,7 @@
       "askShareOfTriangulated": 0.22042239985328685
     },
     {
-      "ref": "TA-IP-056",
+      "ref": "TA-IP-054",
       "slug": "goldennet-signal-intelligence-platform",
       "name": "GoldenNet Signal Intelligence Platform",
       "stage": "V",
@@ -1163,7 +1163,7 @@
       "askShareOfTriangulated": 0.19434586155349565
     },
     {
-      "ref": "TA-IP-057",
+      "ref": "TA-IP-055",
       "slug": "autonomous-documentary-engine",
       "name": "Autonomous Documentary Engine",
       "stage": "V",
@@ -1184,7 +1184,7 @@
       "askShareOfTriangulated": 0.13768375825111226
     },
     {
-      "ref": "TA-IP-058",
+      "ref": "TA-IP-056",
       "slug": "multimodal-evidence-adaptive-systems-platform",
       "name": "Multimodal Evidence Adaptive Systems Platform",
       "stage": "P",
@@ -1205,7 +1205,7 @@
       "askShareOfTriangulated": 0.17882800788709266
     },
     {
-      "ref": "TA-IP-059",
+      "ref": "TA-IP-057",
       "slug": "fusionlunar-energy-systems-engineering-platform",
       "name": "FusionLunar Energy Systems Engineering Platform",
       "stage": "P",
@@ -1226,7 +1226,7 @@
       "askShareOfTriangulated": 0.204293337994248
     },
     {
-      "ref": "TA-IP-060",
+      "ref": "TA-IP-058",
       "slug": "temporal-physics-causality-research-platform",
       "name": "Temporal Physics & Causality Research Platform",
       "stage": "R",
@@ -1247,7 +1247,7 @@
       "askShareOfTriangulated": 0.11728581850254158
     },
     {
-      "ref": "TA-IP-061",
+      "ref": "TA-IP-059",
       "slug": "industrial-predictive-maintenance-rul-platform",
       "name": "Industrial Predictive Maintenance & RUL Platform",
       "stage": "V",
@@ -1268,7 +1268,7 @@
       "askShareOfTriangulated": 0.19017000670349274
     },
     {
-      "ref": "TA-IP-062",
+      "ref": "TA-IP-060",
       "slug": "adaptive-audio-production-system",
       "name": "Adaptive Audio Production System",
       "stage": "P",
@@ -1289,7 +1289,7 @@
       "askShareOfTriangulated": 0.1675520469569021
     },
     {
-      "ref": "TA-IP-063",
+      "ref": "TA-IP-061",
       "slug": "causal-state-field-engine",
       "name": "Causal State Field Engine",
       "stage": "V",
@@ -1310,7 +1310,7 @@
       "askShareOfTriangulated": 0.21817947253689604
     },
     {
-      "ref": "TA-IP-064",
+      "ref": "TA-IP-062",
       "slug": "evidence-governed-analytical-reasoning-platform",
       "name": "Evidence-Governed Analytical Reasoning Platform",
       "stage": "V",
@@ -1331,7 +1331,7 @@
       "askShareOfTriangulated": 0.2686416987272896
     },
     {
-      "ref": "TA-IP-065",
+      "ref": "TA-IP-063",
       "slug": "software-asset-provenance-qualification-platform",
       "name": "Software Asset Provenance & Qualification Platform",
       "stage": "V",
@@ -1352,7 +1352,7 @@
       "askShareOfTriangulated": 0.22985401396937769
     },
     {
-      "ref": "TA-IP-066",
+      "ref": "TA-IP-064",
       "slug": "adaptive-general-reasoning-research-platform",
       "name": "Adaptive General Reasoning Research Platform",
       "stage": "R",
@@ -1373,7 +1373,7 @@
       "askShareOfTriangulated": 0.08760700374191414
     },
     {
-      "ref": "TA-IP-067",
+      "ref": "TA-IP-065",
       "slug": "traceline-evidence-governed-investigation-framework",
       "name": "TraceLine — Evidence-Governed Investigation Framework",
       "stage": "V",
@@ -1394,7 +1394,7 @@
       "askShareOfTriangulated": 0.20486330861559962
     },
     {
-      "ref": "TA-IP-068",
+      "ref": "TA-IP-066",
       "slug": "organismal-state-dynamics-research-platform",
       "name": "Organismal State Dynamics Research Platform",
       "stage": "P",
@@ -1415,7 +1415,7 @@
       "askShareOfTriangulated": 0.1602320159591088
     },
     {
-      "ref": "TA-IP-069",
+      "ref": "TA-IP-067",
       "slug": "chimera-spectral-perception-system",
       "name": "Chimera Spectral Perception System",
       "stage": "P",
@@ -1436,7 +1436,7 @@
       "askShareOfTriangulated": 0.2179093601658203
     },
     {
-      "ref": "TA-IP-070",
+      "ref": "TA-IP-068",
       "slug": "hybrid-adaptive-rendering-media",
       "name": "HARM — Hybrid Adaptive Rendering & Media",
       "stage": "P",
@@ -1457,7 +1457,7 @@
       "askShareOfTriangulated": 0.12542369692617875
     },
     {
-      "ref": "TA-IP-071",
+      "ref": "TA-IP-069",
       "slug": "adaptive-audio-synthesis-platform",
       "name": "Adaptive Audio Synthesis Platform",
       "stage": "V",
@@ -1478,7 +1478,7 @@
       "askShareOfTriangulated": 0.2018739603491042
     },
     {
-      "ref": "TA-IP-072",
+      "ref": "TA-IP-070",
       "slug": "adaptive-cognitive-runtime",
       "name": "Adaptive Cognitive Runtime",
       "stage": "V",
@@ -1499,7 +1499,7 @@
       "askShareOfTriangulated": 0.22447786448720278
     },
     {
-      "ref": "TA-IP-073",
+      "ref": "TA-IP-071",
       "slug": "content-integrity-assurance-platform",
       "name": "Content Integrity Assurance Platform",
       "stage": "V",
@@ -1520,7 +1520,7 @@
       "askShareOfTriangulated": 0.205777935769504
     },
     {
-      "ref": "TA-IP-074",
+      "ref": "TA-IP-072",
       "slug": "radioastronomy-signal-validation-platform",
       "name": "Radioastronomy Signal Validation Platform",
       "stage": "V",
@@ -1541,7 +1541,7 @@
       "askShareOfTriangulated": 0.2073535876317732
     },
     {
-      "ref": "TA-IP-075",
+      "ref": "TA-IP-073",
       "slug": "spatial-wearable-perception-platform",
       "name": "Spatial Wearable Perception Platform",
       "stage": "V",
@@ -1562,7 +1562,7 @@
       "askShareOfTriangulated": 0.12353003123148015
     },
     {
-      "ref": "TA-IP-076",
+      "ref": "TA-IP-074",
       "slug": "telluric-actualization-research-platform",
       "name": "Telluric Actualization Research Platform",
       "stage": "R",
@@ -1583,7 +1583,7 @@
       "askShareOfTriangulated": 0.22577533301861621
     },
     {
-      "ref": "TA-IP-077",
+      "ref": "TA-IP-075",
       "slug": "qubo-structural-analysis-and-optimization-platform",
       "name": "QUBO Structural Analysis and Optimization Platform",
       "stage": "P",
@@ -1604,7 +1604,7 @@
       "askShareOfTriangulated": 0.22786540749930376
     },
     {
-      "ref": "TA-IP-078",
+      "ref": "TA-IP-076",
       "slug": "adaptive-neural-architecture-platform",
       "name": "Adaptive Neural Architecture Platform",
       "stage": "P",
@@ -1625,7 +1625,7 @@
       "askShareOfTriangulated": 0.1994298405820832
     },
     {
-      "ref": "TA-IP-079",
+      "ref": "TA-IP-077",
       "slug": "bio-inspired-neural-dynamics-active-inference-simulation-platform",
       "name": "Bio-Inspired Neural Dynamics & Active Inference Simulation Platform",
       "stage": "V",
@@ -1646,7 +1646,7 @@
       "askShareOfTriangulated": 0.274757752772677
     },
     {
-      "ref": "TA-IP-080",
+      "ref": "TA-IP-078",
       "slug": "cardiosignal-intelligence-platform",
       "name": "CardioSignal Intelligence Platform",
       "stage": "P",
@@ -1667,7 +1667,7 @@
       "askShareOfTriangulated": 0.24034786989296827
     },
     {
-      "ref": "TA-IP-081",
+      "ref": "TA-IP-079",
       "slug": "secure-actuation-integrity-platform",
       "name": "Secure Actuation Integrity Platform",
       "stage": "V",
@@ -1688,7 +1688,7 @@
       "askShareOfTriangulated": 0.19989859261983803
     },
     {
-      "ref": "TA-IP-082",
+      "ref": "TA-IP-080",
       "slug": "truelane-studio-apex-architect",
       "name": "TrueLane Studio: Apex Architect",
       "stage": "V",
@@ -1709,7 +1709,7 @@
       "askShareOfTriangulated": 0.23764540928480615
     },
     {
-      "ref": "TA-IP-083",
+      "ref": "TA-IP-081",
       "slug": "swpp-viorith-mobile-camera-overlay",
       "name": "VIORITH Mobile Camera Overlay",
       "stage": "V",
@@ -1730,7 +1730,7 @@
       "askShareOfTriangulated": 0.16803961253799563
     },
     {
-      "ref": "TA-IP-084",
+      "ref": "TA-IP-082",
       "slug": "distributed-compute-fabric",
       "name": "Distributed Compute Fabric",
       "stage": "P",
@@ -1751,7 +1751,7 @@
       "askShareOfTriangulated": 0.11961781022199434
     },
     {
-      "ref": "TA-IP-085",
+      "ref": "TA-IP-083",
       "slug": "plantelogia-intelligence-platform",
       "name": "Adaptive Systems Intelligence Platform",
       "stage": "P",
@@ -1772,7 +1772,7 @@
       "askShareOfTriangulated": 0.17160238012501233
     },
     {
-      "ref": "TA-IP-086",
+      "ref": "TA-IP-084",
       "slug": "interactive-piano-learning-platform",
       "name": "Interactive Piano Learning Platform",
       "stage": "V",
@@ -1793,7 +1793,7 @@
       "askShareOfTriangulated": 0.21913615900018815
     },
     {
-      "ref": "TA-IP-087",
+      "ref": "TA-IP-085",
       "slug": "adaptive-audio-midi-transcription-studio",
       "name": "Adaptive Audio MIDI Transcription Studio",
       "stage": "P",
@@ -1814,7 +1814,7 @@
       "askShareOfTriangulated": 0.18812861412704796
     },
     {
-      "ref": "TA-IP-088",
+      "ref": "TA-IP-086",
       "slug": "reserveflow-saas-platform",
       "name": "OPERIVEX",
       "stage": "V",
@@ -1835,7 +1835,7 @@
       "askShareOfTriangulated": 0.22042247759096925
     },
     {
-      "ref": "TA-IP-089",
+      "ref": "TA-IP-087",
       "slug": "vellumgrid-autonomous-commerce-platform",
       "name": "VellumGrid Autonomous Commerce Platform",
       "stage": "V",
@@ -1856,7 +1856,7 @@
       "askShareOfTriangulated": 0.19011431987345992
     },
     {
-      "ref": "TA-IP-090",
+      "ref": "TA-IP-088",
       "slug": "maastricht-digital-twin",
       "name": "Maastricht Digital Twin",
       "stage": "P",
@@ -1877,7 +1877,7 @@
       "askShareOfTriangulated": 0.21537845224736646
     },
     {
-      "ref": "TA-IP-091",
+      "ref": "TA-IP-089",
       "slug": "maastricht-zero-hour-simulator",
       "name": "Maastricht Zero-Hour Simulator",
       "stage": "P",
@@ -1898,7 +1898,7 @@
       "askShareOfTriangulated": 0.21561056419894387
     },
     {
-      "ref": "TA-IP-092",
+      "ref": "TA-IP-090",
       "slug": "h-rm-lyra-automotive-lyra-rs-3-6t",
       "name": "HΛRM LYRA Automotive",
       "stage": "P",
@@ -1919,7 +1919,7 @@
       "askShareOfTriangulated": 0.19651981277021474
     },
     {
-      "ref": "TA-IP-093",
+      "ref": "TA-IP-091",
       "slug": "lyra-aero-evtol",
       "name": "LYRA-AERO eVTOL",
       "stage": "P",
@@ -1940,7 +1940,7 @@
       "askShareOfTriangulated": 0.17865437524564975
     },
     {
-      "ref": "TA-IP-094",
+      "ref": "TA-IP-092",
       "slug": "universal-capability-synthesis-engine",
       "name": "Universal Capability Synthesis Engine (UCSE)",
       "stage": "P",
@@ -1961,7 +1961,7 @@
       "askShareOfTriangulated": 0.18500862756899897
     },
     {
-      "ref": "TA-IP-095",
+      "ref": "TA-IP-093",
       "slug": "aurynthiq-autonomous-dj-intelligence-platform",
       "name": "Aurynthiq Autonomous DJ Intelligence Platform",
       "stage": "P",
@@ -1982,7 +1982,7 @@
       "askShareOfTriangulated": 0.16931575271434315
     },
     {
-      "ref": "TA-IP-096",
+      "ref": "TA-IP-094",
       "slug": "universal-vehicle-configuration-database",
       "name": "Universal Vehicle Configuration Database",
       "stage": "P",
@@ -2003,59 +2003,100 @@
       "askShareOfTriangulated": 0.1390345662177148
     },
     {
-      "sellerAskEUR": null,
-      "negotiationLowEUR": null,
-      "negotiationHighEUR": null,
-      "replacementCostEUR": null,
-      "marketComparableProxyEUR": null,
-      "incomeLicensingProxyEUR": null,
-      "probabilityAdjustedStrategicValueEUR": null,
-      "triangulatedEconomicReferenceEUR": null,
-      "ref": "TA-IP-097",
+      "sellerAskEUR": 180000,
+      "negotiationLowEUR": 145000,
+      "negotiationHighEUR": 225000,
+      "replacementCostEUR": 800000,
+      "marketComparableProxyEUR": 920000,
+      "incomeLicensingProxyEUR": 1188000,
+      "probabilityAdjustedStrategicValueEUR": 928221,
+      "triangulatedEconomicReferenceEUR": 946477,
+      "ref": "TA-IP-095",
       "slug": "learnpiano",
       "name": "LEARNPIANO",
       "stage": "V",
-      "potential": null,
-      "pricingStatus": "BY_ENQUIRY",
-      "independentIpAsset": true
+      "potential": "H",
+      "pricingStatus": "SELLER_SIDE_ESTIMATE_ESTABLISHED",
+      "independentIpAsset": true,
+      "description": "Build focused piano practice around your own music, follow visual guidance and review your progress.",
+      "technicalCompletionProbability": 0.95,
+      "commercializationProbability": 0.55,
+      "rightsTransferReserve": 0.85,
+      "timeRiskFactor": 0.95,
+      "askShareOfTriangulated": 0.19017894782440567,
+      "pricingScope": "Present first-party piano practice, performance and local production software, its proprietary transcription work, retained research and validation, and documentation. User music, external scores, recordings, datasets, plugins and future model qualification are excluded.",
+      "economicAssessmentAt": "2026-10-09T06:22:41Z",
+      "sourceHead": "4ac4713e529bb187546a9e4197bc23ac634d5990"
     },
     {
-      "sellerAskEUR": null,
-      "negotiationLowEUR": null,
-      "negotiationHighEUR": null,
-      "replacementCostEUR": null,
-      "marketComparableProxyEUR": null,
-      "incomeLicensingProxyEUR": null,
-      "probabilityAdjustedStrategicValueEUR": null,
-      "triangulatedEconomicReferenceEUR": null,
-      "ref": "TA-IP-098",
+      "sellerAskEUR": 50000,
+      "negotiationLowEUR": 40000,
+      "negotiationHighEUR": 62500,
+      "replacementCostEUR": 300000,
+      "marketComparableProxyEUR": 322575,
+      "incomeLicensingProxyEUR": 349313,
+      "probabilityAdjustedStrategicValueEUR": 270463,
+      "triangulatedEconomicReferenceEUR": 304040,
+      "ref": "TA-IP-096",
       "slug": "plantelogia-intelligence-platform-lineage",
       "name": "PLANTELOGIA Intelligence Platform",
       "stage": "P",
-      "potential": null,
-      "pricingStatus": "BY_ENQUIRY",
-      "independentIpAsset": true
+      "potential": "H",
+      "pricingStatus": "SELLER_SIDE_ESTIMATE_ESTABLISHED",
+      "independentIpAsset": true,
+      "description": "Review supporting evidence and decision rules before adopting an intelligence workflow for your organisation.",
+      "technicalCompletionProbability": 0.75,
+      "commercializationProbability": 0.55,
+      "rightsTransferReserve": 0.85,
+      "timeRiskFactor": 0.85,
+      "askShareOfTriangulated": 0.16445204578344955,
+      "pricingScope": "Present first-party evidence-governed intelligence prototype, retained qualification, documentation and packaging. Production deployment, operational infrastructure, external evidence/data rights and future productisation are excluded.",
+      "economicAssessmentAt": "2026-10-09T06:22:41Z",
+      "sourceHead": "0038679044885f8104cb460cb6902590ef1f87dc"
     },
     {
-      "sellerAskEUR": null,
-      "negotiationLowEUR": null,
-      "negotiationHighEUR": null,
-      "replacementCostEUR": null,
-      "marketComparableProxyEUR": null,
-      "incomeLicensingProxyEUR": null,
-      "probabilityAdjustedStrategicValueEUR": null,
-      "triangulatedEconomicReferenceEUR": null,
-      "ref": "TA-IP-099",
+      "sellerAskEUR": 500,
+      "negotiationLowEUR": 400,
+      "negotiationHighEUR": 625,
+      "replacementCostEUR": 2000,
+      "marketComparableProxyEUR": 0,
+      "incomeLicensingProxyEUR": 0,
+      "probabilityAdjustedStrategicValueEUR": 0,
+      "triangulatedEconomicReferenceEUR": 500,
+      "ref": "TA-IP-097",
       "slug": "digital-twin-core",
       "name": "Digital Twin Core",
       "stage": "D",
-      "potential": null,
-      "pricingStatus": "BY_ENQUIRY",
-      "independentIpAsset": true
+      "potential": "S",
+      "pricingStatus": "SELLER_SIDE_ESTIMATE_ESTABLISHED",
+      "independentIpAsset": true,
+      "description": "Review the initial Digital Twin Core project definition and acquisition documentation before scoping further development.",
+      "technicalCompletionProbability": 0,
+      "commercializationProbability": 0.25,
+      "rightsTransferReserve": 0.85,
+      "timeRiskFactor": 0,
+      "askShareOfTriangulated": 1.0,
+      "pricingScope": "Existing first-party project definition and acquisition documentation only. No implemented software, validated digital-twin capability, protected technical invention or future development is included in this estimate.",
+      "economicAssessmentAt": "2026-10-09T06:22:41Z",
+      "sourceHead": "7c838eaf6692e3b14edc6b15e70e90288b39d29b"
     }
   ],
   "assessedAt": "2026-10-09T05:36:00Z",
   "previousValuationBasisDate": "2026-10-07",
   "reviewPolicy": "Every project is reassessed against current source and retained evidence. An unchanged conclusion is explicitly retained after comparison; commit counts and version labels alone do not increase monetary value or maturity. Development branches and validated executable baselines are distinguished.",
-  "catalogueUpdatedAt": "2026-10-09T06:07:10Z"
+  "catalogueUpdatedAt": "2026-10-09T06:22:41Z",
+  "latestSeparateAssetPricing": {
+    "assessedAt": "2026-10-09T06:22:41Z",
+    "assetCount": 3,
+    "assetReferences": [
+      "TA-IP-095",
+      "TA-IP-096",
+      "TA-IP-097"
+    ],
+    "previousPricedAssetCount": 94,
+    "currentPricedAssetCount": 97,
+    "previousPublishedSellerAskEUR": 24290000,
+    "previousPublishedReplacementCostEUR": 103550000,
+    "boundary": "Fresh source-head checks and retained-evidence review for these three assets. Prior source/evidence assessments and monetary inputs for the other 94 assets retain their recorded dates; no fresh execution of all repository tests is claimed."
+  }
 }

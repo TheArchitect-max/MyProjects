@@ -1,5 +1,5 @@
 {
-  "v": "2026.10.09-im47-full-project-evaluation",
+  "v": "2026.10.09-im51-complete-asset-pricing",
   "model": "Recreation-Cost-Anchored Seller Pricing with Reproducible Public Arithmetic",
   "status": "public-seller-side-economic-model",
   "portfolio": {
@@ -10,20 +10,20 @@
       "researchStage": 3,
       "definitionStage": 1
     },
-    "sellerAskEUR": 24290000,
-    "negotiationLowEUR": 19410000,
-    "negotiationHighEUR": 30440000,
-    "replacementCostEUR": 103550000,
-    "marketComparableProxyEUR": 118245105,
-    "incomeLicensingProxyEUR": 139434347,
-    "probabilityAdjustedStrategicValueEUR": 130156564,
-    "triangulatedEconomicReferenceEUR": 122978192,
-    "sellerAskAsShareOfTriangulated": 0.19751469431263066,
-    "sellerAskAsShareOfReplacementCost": 0.23457267020762917,
-    "pricedAssetCount": 94,
-    "unpricedAssetCount": 3,
-    "monetaryScope": "Published amounts only; unpriced assets are not assigned zero value.",
-    "averageTriangulatedEconomicReferencePerPricedAsset": 1308278.6382978724
+    "sellerAskEUR": 24520500,
+    "negotiationLowEUR": 19595400,
+    "negotiationHighEUR": 30728125,
+    "replacementCostEUR": 104652000,
+    "marketComparableProxyEUR": 119487680,
+    "incomeLicensingProxyEUR": 140971660,
+    "probabilityAdjustedStrategicValueEUR": 131355248,
+    "triangulatedEconomicReferenceEUR": 124229209,
+    "sellerAskAsShareOfTriangulated": 0.1973811167066193,
+    "sellerAskAsShareOfReplacementCost": 0.23430512555899552,
+    "pricedAssetCount": 97,
+    "unpricedAssetCount": 0,
+    "monetaryScope": "All 97 independently scoped IP assets. Digital Twin Core covers existing definition and acquisition documentation, not implemented software.",
+    "averageTriangulatedEconomicReferencePerPricedAsset": 1280713.4948453608
   },
   "confidence": {
     "replacementCost": "Primary seller-side build-versus-buy reference estimating the engineering-equivalent cost to recreate comparable present transferable work product. It is a seller estimate, not a certified cost audit or guaranteed buyer saving.",
@@ -35,14 +35,14 @@
   },
   "rebuildCostCalibration": {
     "basisDate": "2026-10-09",
-    "approach": "Current project-by-project reassessment since the 7 October asset baselines. Verified new first-party work is added conservatively. Unchanged work retains its earlier engineering-equivalent estimate. Aurynthiq and UVCD are separately costed first-party software assets; websites and third-party data/models/media are excluded from seller-owned software estimates. Independent IP assets without established monetary inputs remain individually listed and unpriced.",
+    "approach": "Compare asset-specific acquisition references with the estimated cost of reproducing the present transferable first-party work. The previously priced 94 assets retain their established monetary inputs; the three separately added assets use their current source snapshots and retained evidence. Digital Twin Core covers existing definition and acquisition documentation only. Websites, external data, models, recordings and third-party rights are excluded.",
     "seniorEngineerMonthEUR": 18000,
     "leadOrSpecialistMonthEUR": 22000,
     "validationProvenanceMonthEUR": 16000,
     "coordinationToolingAllowance": 0.15,
-    "rounding": "Asset-level changes are rounded conservatively and are not inferred from commit count alone.",
+    "rounding": "Initial asset-level recreation estimates are rounded conservatively. Asking references use asset-specific discounts; published negotiation bounds are indicative and may use finer rounding for small documentation assets. File and commit counts do not determine price.",
     "successorPolicy": "Every catalogue project is treated as its own IP asset with its own first-party rights and transfer perimeter. Monetary estimates are established separately for each asset. Project websites are digital displays only.",
-    "boundary": "Only present reproducible software, research-software, validation, governance, packaging and handover work product is costed. Future hosting, market execution, speculative scientific outcomes, unexecuted external qualification, uncommitted implementation and unearned commercial performance are excluded.",
+    "boundary": "Only present first-party software, research-software, validation, governance, packaging, documentation and handover work is costed. A definition-stage documentation estimate does not imply implemented software. Future hosting, market execution, speculative outcomes, unexecuted qualification and uncommitted implementation are excluded.",
     "previousBasisDate": "2026-10-07",
     "assessedAt": "2026-10-09T05:36:00Z",
     "workPackageEstimates": [
@@ -55,7 +55,8 @@
         "rawEngineeringCostEUR": 92000,
         "withAllowanceEUR": 105800,
         "adoptedRecreationIncrementEUR": 100000,
-        "scope": "Additional recoverability, reproducible operation and validation work delivered after the previous assessment. The pending latest hardware gate is excluded from completed-validation claims."
+        "scope": "Additional recoverability, reproducible operation and validation work delivered after the previous assessment. The pending latest hardware gate is excluded from completed-validation claims.",
+        "ref": "TA-IP-022"
       },
       {
         "slug": "truelane-studio-apex-architect",
@@ -66,7 +67,8 @@
         "rawEngineeringCostEUR": 188000,
         "withAllowanceEUR": 216200,
         "adoptedRecreationIncrementEUR": 200000,
-        "scope": "Additional tuning qualification, learning studies, release checks and retained release evidence since the earlier assessment. Physical vehicle qualification is excluded."
+        "scope": "Additional tuning qualification, learning studies, release checks and retained release evidence since the earlier assessment. Physical vehicle qualification is excluded.",
+        "ref": "TA-IP-080"
       },
       {
         "slug": "aurynthiq-autonomous-dj-intelligence-platform",
@@ -77,7 +79,8 @@
         "rawEngineeringCostEUR": 218000,
         "withAllowanceEUR": 250700,
         "adoptedRecreationCostEUR": 250000,
-        "scope": "Present first-party music-library, DJ-set creation and review prototype, documentation and reproducible test work. Music recordings, third-party models, production hardware and unperformed listener studies are excluded."
+        "scope": "Present first-party music-library, DJ-set creation and review prototype, documentation and reproducible test work. Music recordings, third-party models, production hardware and unperformed listener studies are excluded.",
+        "ref": "TA-IP-093"
       },
       {
         "slug": "universal-vehicle-configuration-database",
@@ -88,10 +91,57 @@
         "rawEngineeringCostEUR": 908000,
         "withAllowanceEUR": 1044200,
         "adoptedRecreationCostEUR": 1050000,
-        "scope": "Present first-party configuration software, evidence review, documented research extensions and retained validation work. Government/manufacturer data, third-party factual records, firmware binaries, OEM rights and unverified vehicle fitment are excluded."
+        "scope": "Present first-party configuration software, evidence review, documented research extensions and retained validation work. Government/manufacturer data, third-party factual records, firmware binaries, OEM rights and unverified vehicle fitment are excluded.",
+        "ref": "TA-IP-094"
+      },
+      {
+        "slug": "learnpiano",
+        "ref": "TA-IP-095",
+        "basis": "first separate present-scope estimate",
+        "seniorEngineerMonths": 20,
+        "leadOrSpecialistMonths": 8,
+        "validationProvenanceMonths": 10,
+        "rawEngineeringCostEUR": 696000,
+        "withAllowanceEUR": 800400.0,
+        "adoptedRecreationCostEUR": 800000,
+        "scope": "Present first-party piano practice, performance and local production software, its proprietary transcription work, retained research and validation, and documentation. User music, external scores, recordings, datasets, plugins and future model qualification are excluded.",
+        "sourceHead": "4ac4713e529bb187546a9e4197bc23ac634d5990",
+        "retainedFileCount": 274,
+        "economicAssessmentAt": "2026-10-09T06:22:41Z"
+      },
+      {
+        "slug": "plantelogia-intelligence-platform-lineage",
+        "ref": "TA-IP-096",
+        "basis": "first separate present-scope estimate",
+        "seniorEngineerMonths": 8,
+        "leadOrSpecialistMonths": 3,
+        "validationProvenanceMonths": 4,
+        "rawEngineeringCostEUR": 274000,
+        "withAllowanceEUR": 315100.0,
+        "adoptedRecreationCostEUR": 300000,
+        "scope": "Present first-party evidence-governed intelligence prototype, retained qualification, documentation and packaging. Production deployment, operational infrastructure, external evidence/data rights and future productisation are excluded.",
+        "sourceHead": "0038679044885f8104cb460cb6902590ef1f87dc",
+        "retainedFileCount": 48,
+        "economicAssessmentAt": "2026-10-09T06:22:41Z"
+      },
+      {
+        "slug": "digital-twin-core",
+        "ref": "TA-IP-097",
+        "basis": "first separate present-scope estimate",
+        "seniorEngineerMonths": 0,
+        "leadOrSpecialistMonths": 0.05,
+        "validationProvenanceMonths": 0.04,
+        "rawEngineeringCostEUR": 1740.0,
+        "withAllowanceEUR": 2001.0,
+        "adoptedRecreationCostEUR": 2000,
+        "scope": "Existing first-party project definition and acquisition documentation only. No implemented software, validated digital-twin capability, protected technical invention or future development is included in this estimate.",
+        "sourceHead": "7c838eaf6692e3b14edc6b15e70e90288b39d29b",
+        "retainedFileCount": 2,
+        "economicAssessmentAt": "2026-10-09T06:22:41Z"
       }
     ],
-    "estimateBoundary": "Engineer-month budgets are seller-side engineering-equivalent estimates for reproducing delivered work, not recorded payroll, elapsed development time, certified costs or a market appraisal."
+    "estimateBoundary": "Engineer-month budgets are seller-side engineering-equivalent estimates for reproducing delivered work, not recorded payroll, elapsed development time, certified costs or a market appraisal.",
+    "latestSeparateAssetPricingAt": "2026-10-09T06:22:41Z"
   },
   "factors": {
     "marketPotential": {
@@ -103,7 +153,8 @@
     "marketMaturity": {
       "R": 0.65,
       "P": 0.85,
-      "V": 1
+      "V": 1,
+      "D": 0
     },
     "incomePotential": {
       "S": 0.6,
@@ -114,12 +165,14 @@
     "incomeMaturity": {
       "R": 0.5,
       "P": 0.75,
-      "V": 1
+      "V": 1,
+      "D": 0
     },
     "technicalCompletionProbability": {
       "R": 0.5,
       "P": 0.75,
-      "V": 0.95
+      "V": 0.95,
+      "D": 0
     },
     "commercializationProbability": {
       "S": 0.25,
@@ -130,7 +183,8 @@
     "timeRisk": {
       "R": 0.7,
       "P": 0.85,
-      "V": 0.95
+      "V": 0.95,
+      "D": 0
     },
     "strategicOpportunityMultiplier": {
       "S": 1.25,
@@ -156,7 +210,8 @@
       "Enterprise software / licensing": 1.15,
       "Private deployment / enterprise licensing": 1.1,
       "Web platform infrastructure / SaaS / licensing": 1.15,
-      "Media / creator software": 1.05
+      "Media / creator software": 1.05,
+      "Definition-stage documentation / licensing": 0
     },
     "triangulationWeights": {
       "replacementCost": 0.25,
@@ -188,7 +243,8 @@
           "adaptive-audio-production-system",
           "adaptive-audio-midi-transcription-studio"
         ],
-        "adoptedAskShareOfRecreation": 0.16
+        "adoptedAskShareOfRecreation": 0.16,
+        "ref": "TA-IP-093"
       },
       {
         "slug": "universal-vehicle-configuration-database",
@@ -198,15 +254,64 @@
           "h-rm-lyra-automotive-lyra-rs-3-6t",
           "lyra-aero-evtol"
         ],
-        "adoptedAskShareOfRecreation": 0.11904761904761904
+        "adoptedAskShareOfRecreation": 0.11904761904761904,
+        "ref": "TA-IP-094"
+      },
+      {
+        "slug": "learnpiano",
+        "ref": "TA-IP-095",
+        "referenceAssets": [
+          "interactive-piano-learning-platform",
+          "adaptive-audio-midi-transcription-studio"
+        ],
+        "adoptedAskShareOfRecreation": 0.225,
+        "calibrationReason": "The 22.5% recreation-cost asking ratio is below the established piano-platform ratio and reflects recorded real-audio limitations, experimental successor work and incomplete buyer handover.",
+        "boundary": "Internal asking-price calibration only; no observed external transaction or independently verified demand is implied."
+      },
+      {
+        "slug": "plantelogia-intelligence-platform-lineage",
+        "ref": "TA-IP-096",
+        "referenceAssets": [
+          "adaptive-systems-intelligence-platform",
+          "legalops-nl",
+          "truelane-engineering-excellence"
+        ],
+        "adoptedAskShareOfRecreation": 0.16666666666666666,
+        "calibrationReason": "The 16.7% recreation-cost asking ratio is conservatively positioned below the cited internal prototype asking ratios and reflects remaining production and handover work.",
+        "boundary": "Internal asking-price calibration only; no observed external transaction or independently verified demand is implied."
+      },
+      {
+        "slug": "digital-twin-core",
+        "ref": "TA-IP-097",
+        "referenceAssets": [],
+        "adoptedAskShareOfRecreation": 0.25,
+        "calibrationReason": "A documentation-only asking reference at 25% of a conservatively estimated EUR 2,000 reproduction budget. Software benchmark prices are not applied to an unimplemented project.",
+        "boundary": "Internal asking-price calibration only; no observed external transaction or independently verified demand is implied."
       }
     ],
-    "commercialEvidence": "No new attributable income, external transaction or independent appraisal evidence identified; commercial-potential and monetization-route factors are retained for existing assets."
+    "commercialEvidence": "No new attributable income, external transaction or independent appraisal evidence identified; commercial-potential and monetization-route factors are retained for existing assets.",
+    "latestSeparateAssetPricingAt": "2026-10-09T06:22:41Z"
   },
   "independentAssetPolicy": {
     "ipAssetCount": 97,
-    "pricedAssetCount": 94,
-    "unpricedAssetCount": 3,
-    "rule": "Independent asset identity and ownership scope are assessed separately from whether a monetary estimate has been established. Null monetary inputs are never converted to zero or represented by another asset."
-  }
+    "pricedAssetCount": 97,
+    "unpricedAssetCount": 0,
+    "rule": "Every listed asset has its own identity, rights perimeter and present-scope monetary estimate. No project is represented by another asset. Project websites are digital displays only. Definition documentation is distinguished from implemented software."
+  },
+  "definitionStagePolicy": {
+    "stage": "D",
+    "scope": "Existing first-party definition/documentation only; no implemented software.",
+    "marketIncomeAndStrategicTreatment": "Zero model contributions mean no evidenced software monetisation or technology premium; they do not set the acquisition price or total asset value to zero.",
+    "triangulation": "The existing 25% recreation-cost weight applies; market, income and strategic software lenses contribute zero.",
+    "potentialClassification": "S is a conservative specialist classification for model arithmetic, not evidence of market demand.",
+    "futureDevelopment": "Excluded from present reproduction cost and asking price. No numeric D-stage future sensitivity is established."
+  },
+  "externalMethodReferences": [
+    {
+      "publisher": "WIPO",
+      "title": "Intellectual Property Valuation Basics — The cost method",
+      "url": "https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html",
+      "application": "General cost-approach context only. WIPO does not endorse, certify or supply the asset-specific amounts or engineering-equivalent budgets."
+    }
+  ]
 }

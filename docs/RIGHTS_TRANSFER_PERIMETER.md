@@ -31,4 +31,4 @@ The seller-side dossier must make it possible to answer:
 7. What is explicitly excluded?
 8. What rights representation/warranty will appear in the definitive agreement?
 
-The seller does not need to publish the internal development method to answer these questions.
+Use the rights and delivery evidence to assess these questions; internal development methods are included only when expressly agreed as part of your transaction.

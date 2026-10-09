@@ -1,13 +1,13 @@
 {
-  "version": "2026.10.09-im49-independent-ip-assets",
+  "version": "2026.10.09-im51-complete-asset-pricing",
   "basisDate": "2026-10-09",
   "assessedAt": "2026-10-09T05:36:00Z",
   "previousBasisDate": "2026-10-07",
   "purpose": "Current per-asset evidence, rights, transfer, maturity and economic reassessment since the previous frozen evaluation baselines.",
   "scope": {
     "ipAssetCount": 97,
-    "pricedAssetCount": 94,
-    "unpricedAssetCount": 3
+    "pricedAssetCount": 97,
+    "unpricedAssetCount": 0
   },
   "summary": {
     "projectsReviewed": 97,
@@ -16,11 +16,11 @@
       "UPDATED": 7,
       "NEW_SOFTWARE_ASSET_EVALUATION": 2
     },
-    "monetaryReferencesChanged": 5,
+    "monetaryReferencesChanged": 8,
     "previousSellerAskEUR": 24040000,
-    "currentSellerAskEUR": 24290000,
+    "currentSellerAskEUR": 24520500,
     "previousReplacementCostEUR": 101950000,
-    "currentReplacementCostEUR": 103550000,
+    "currentReplacementCostEUR": 104652000,
     "ipAssetsEvaluated": 97
   },
   "projects": [
@@ -48,9 +48,9 @@
       "sellerOpenItems": [
         "Repository-native tests not identified.",
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 95000,
       "previousSellerAskEUR": 95000,
@@ -58,7 +58,8 @@
       "previousReplacementCostEUR": 520000,
       "triangulatedEconomicReferenceEUR": 305292,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-002"
     },
     {
       "slug": "adaptive-audio-midi-transcription-studio",
@@ -85,10 +86,10 @@
         "Repository licence file not identified.",
         "Validation/qualification evidence not identified.",
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 80000,
       "previousSellerAskEUR": 80000,
@@ -96,7 +97,8 @@
       "previousReplacementCostEUR": 450000,
       "triangulatedEconomicReferenceEUR": 425241,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-085"
     },
     {
       "slug": "adaptive-audio-production-system",
@@ -122,10 +124,10 @@
       "sellerOpenItems": [
         "Validation/qualification evidence not identified.",
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 95000,
       "previousSellerAskEUR": 95000,
@@ -133,7 +135,8 @@
       "previousReplacementCostEUR": 600000,
       "triangulatedEconomicReferenceEUR": 566988,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-060"
     },
     {
       "slug": "adaptive-audio-synthesis-platform",
@@ -157,7 +160,7 @@
       },
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
-        "Add an explicit buyer handover / transfer manifest."
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 425000,
       "previousSellerAskEUR": 425000,
@@ -165,7 +168,8 @@
       "previousReplacementCostEUR": 1800000,
       "triangulatedEconomicReferenceEUR": 2105274,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-069"
     },
     {
       "slug": "adaptive-biofeedback-engine",
@@ -190,7 +194,7 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope."
       ],
       "sellerAskEUR": 300000,
       "previousSellerAskEUR": 300000,
@@ -198,7 +202,8 @@
       "previousReplacementCostEUR": 1200000,
       "triangulatedEconomicReferenceEUR": 1419716,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-048"
     },
     {
       "slug": "adaptive-cognitive-runtime",
@@ -223,8 +228,8 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 225000,
       "previousSellerAskEUR": 225000,
@@ -232,7 +237,8 @@
       "previousReplacementCostEUR": 850000,
       "triangulatedEconomicReferenceEUR": 1002326,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-070"
     },
     {
       "slug": "adaptive-general-reasoning-research-platform",
@@ -257,9 +263,9 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 80000,
       "previousSellerAskEUR": 80000,
@@ -267,7 +273,8 @@
       "previousReplacementCostEUR": 1300000,
       "triangulatedEconomicReferenceEUR": 913169,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-064"
     },
     {
       "slug": "adaptive-neural-architecture-platform",
@@ -292,9 +299,9 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 190000,
       "previousSellerAskEUR": 190000,
@@ -302,7 +309,8 @@
       "previousReplacementCostEUR": 1000000,
       "triangulatedEconomicReferenceEUR": 952716,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-076"
     },
     {
       "slug": "plantelogia-intelligence-platform",
@@ -327,9 +335,9 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 200000,
       "previousSellerAskEUR": 200000,
@@ -337,7 +345,8 @@
       "previousReplacementCostEUR": 1150000,
       "triangulatedEconomicReferenceEUR": 1165485,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-083"
     },
     {
       "slug": "advanced-ground-vehicle-engineering",
@@ -361,9 +370,9 @@
       },
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 55000,
       "previousSellerAskEUR": 55000,
@@ -371,7 +380,8 @@
       "previousReplacementCostEUR": 450000,
       "triangulatedEconomicReferenceEUR": 279870,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-034"
     },
     {
       "slug": "aerospace-mission-simulator",
@@ -396,10 +406,10 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 215000,
       "previousSellerAskEUR": 215000,
@@ -407,7 +417,8 @@
       "previousReplacementCostEUR": 850000,
       "triangulatedEconomicReferenceEUR": 894189,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-030"
     },
     {
       "slug": "aletheia-intelligence-fabric",
@@ -432,8 +443,8 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add release/provenance fingerprint or attestation evidence.",
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Release identity and provenance evidence remain incomplete.",
         "Review potential sensitive filenames before transfer: src/security/credentialBroker.js"
       ],
       "sellerAskEUR": 200000,
@@ -442,7 +453,8 @@
       "previousReplacementCostEUR": 950000,
       "triangulatedEconomicReferenceEUR": 1415536,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-049"
     },
     {
       "slug": "autonomous-adaptation-framework",
@@ -466,9 +478,9 @@
       },
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 360000,
       "previousSellerAskEUR": 360000,
@@ -476,7 +488,8 @@
       "previousReplacementCostEUR": 1650000,
       "triangulatedEconomicReferenceEUR": 1893213,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-027"
     },
     {
       "slug": "autonomous-documentary-engine",
@@ -500,8 +513,8 @@
       },
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
         "Review potential sensitive filenames before transfer: apps/web/app/api/credentials/[id]/route.ts, apps/web/app/api/credentials/rotation/route.ts, apps/web/app/api/credentials/route.ts, apps/worker/src/provider-credentials.ts, docs/CREDENTIAL-KEY-ROTATION.md"
       ],
       "sellerAskEUR": 625000,
@@ -510,7 +523,8 @@
       "previousReplacementCostEUR": 2500000,
       "triangulatedEconomicReferenceEUR": 4539388,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-055"
     },
     {
       "slug": "axiomfactor",
@@ -535,9 +549,9 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 150000,
       "previousSellerAskEUR": 150000,
@@ -545,7 +559,8 @@
       "previousReplacementCostEUR": 700000,
       "triangulatedEconomicReferenceEUR": 501028,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-042"
     },
     {
       "slug": "bio-inspired-neural-dynamics-active-inference-simulation-platform",
@@ -570,9 +585,9 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete."
       ],
       "sellerAskEUR": 925000,
       "previousSellerAskEUR": 925000,
@@ -580,7 +595,8 @@
       "previousReplacementCostEUR": 3300000,
       "triangulatedEconomicReferenceEUR": 3366602,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-077"
     },
     {
       "slug": "biometric-systems-assurance-platform",
@@ -605,7 +621,7 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Add an explicit buyer handover / transfer manifest.",
+        "An explicit delivery manifest and handover scope remain to be agreed.",
         "Review potential sensitive filenames before transfer: sentinelbio/credentials.py"
       ],
       "sellerAskEUR": 240000,
@@ -614,7 +630,8 @@
       "previousReplacementCostEUR": 800000,
       "triangulatedEconomicReferenceEUR": 971921,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-035"
     },
     {
       "slug": "cardiosignal-intelligence-platform",
@@ -639,9 +656,9 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add or consolidate third-party licensing/obligations documentation.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Third-party licensing and obligations documentation remains incomplete.",
+        "A security assessment or an explicit statement of its absence is required before acceptance."
       ],
       "sellerAskEUR": 250000,
       "previousSellerAskEUR": 250000,
@@ -649,7 +666,8 @@
       "previousReplacementCostEUR": 1250000,
       "triangulatedEconomicReferenceEUR": 1040159,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-078"
     },
     {
       "slug": "causal-state-field-engine",
@@ -674,10 +692,10 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 115000,
       "previousSellerAskEUR": 115000,
@@ -685,7 +703,8 @@
       "previousReplacementCostEUR": 625000,
       "triangulatedEconomicReferenceEUR": 527089,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-061"
     },
     {
       "slug": "chimera-spectral-perception-system",
@@ -710,10 +729,10 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add or consolidate third-party licensing/obligations documentation.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Third-party licensing and obligations documentation remains incomplete.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete."
       ],
       "sellerAskEUR": 125000,
       "previousSellerAskEUR": 125000,
@@ -721,7 +740,8 @@
       "previousReplacementCostEUR": 1200000,
       "triangulatedEconomicReferenceEUR": 573633,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-067"
     },
     {
       "slug": "cipher-lyric-engine",
@@ -746,10 +766,10 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 300000,
       "previousSellerAskEUR": 300000,
@@ -757,7 +777,8 @@
       "previousReplacementCostEUR": 1000000,
       "triangulatedEconomicReferenceEUR": 1169597,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-021"
     },
     {
       "slug": "cipherroutedb",
@@ -781,8 +802,8 @@
       },
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 115000,
       "previousSellerAskEUR": 115000,
@@ -790,7 +811,8 @@
       "previousReplacementCostEUR": 850000,
       "triangulatedEconomicReferenceEUR": 789308,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-041"
     },
     {
       "slug": "content-integrity-assurance-platform",
@@ -815,7 +837,7 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope."
       ],
       "sellerAskEUR": 400000,
       "previousSellerAskEUR": 400000,
@@ -823,7 +845,8 @@
       "previousReplacementCostEUR": 1600000,
       "triangulatedEconomicReferenceEUR": 1943843,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-071"
     },
     {
       "slug": "continuum-state-integrity-platform",
@@ -847,7 +870,7 @@
       },
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
-        "Add an explicit buyer handover / transfer manifest."
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 175000,
       "previousSellerAskEUR": 175000,
@@ -855,7 +878,8 @@
       "previousReplacementCostEUR": 800000,
       "triangulatedEconomicReferenceEUR": 631475,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-004"
     },
     {
       "slug": "custody-integrity-assurance-platform",
@@ -887,7 +911,8 @@
       "previousReplacementCostEUR": 750000,
       "triangulatedEconomicReferenceEUR": 734417,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-009"
     },
     {
       "slug": "dmt-laser-phenomenology-engine",
@@ -912,8 +937,8 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance."
       ],
       "sellerAskEUR": 210000,
       "previousSellerAskEUR": 210000,
@@ -921,7 +946,8 @@
       "previousReplacementCostEUR": 1150000,
       "triangulatedEconomicReferenceEUR": 665067,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-023"
     },
     {
       "slug": "distributed-ai-resource-fabric",
@@ -946,11 +972,11 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add or consolidate third-party licensing/obligations documentation.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest.",
-        "Complete the exact current candidate release-validation gate before accepting it as a validated release."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Third-party licensing and obligations documentation remains incomplete.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed.",
+        "Full release validation of the exact current candidate remains required before acceptance."
       ],
       "sellerAskEUR": 325000,
       "previousSellerAskEUR": 290000,
@@ -958,7 +984,8 @@
       "previousReplacementCostEUR": 800000,
       "triangulatedEconomicReferenceEUR": 1755298,
       "monetaryEstimateChanged": true,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-022"
     },
     {
       "slug": "distributed-compute-fabric",
@@ -983,8 +1010,8 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add release/provenance fingerprint or attestation evidence."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Release identity and provenance evidence remain incomplete."
       ],
       "sellerAskEUR": 220000,
       "previousSellerAskEUR": 220000,
@@ -992,7 +1019,8 @@
       "previousReplacementCostEUR": 1200000,
       "triangulatedEconomicReferenceEUR": 1839191,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-082"
     },
     {
       "slug": "dominus-kraken-execution-engine",
@@ -1017,8 +1045,8 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 800000,
       "previousSellerAskEUR": 800000,
@@ -1026,7 +1054,8 @@
       "previousReplacementCostEUR": 3000000,
       "triangulatedEconomicReferenceEUR": 3780620,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-026"
     },
     {
       "slug": "electric-flight-systems-simulation-validation-platform",
@@ -1051,10 +1080,10 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 50000,
       "previousSellerAskEUR": 50000,
@@ -1062,7 +1091,8 @@
       "previousReplacementCostEUR": 450000,
       "triangulatedEconomicReferenceEUR": 279870,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-032"
     },
     {
       "slug": "truelane-engineering-excellence",
@@ -1087,8 +1117,8 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance."
       ],
       "sellerAskEUR": 80000,
       "previousSellerAskEUR": 80000,
@@ -1096,7 +1126,8 @@
       "previousReplacementCostEUR": 450000,
       "triangulatedEconomicReferenceEUR": 456060,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-036"
     },
     {
       "slug": "evidence-governed-analytical-reasoning-platform",
@@ -1121,8 +1152,8 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 165000,
       "previousSellerAskEUR": 165000,
@@ -1130,7 +1161,8 @@
       "previousReplacementCostEUR": 500000,
       "triangulatedEconomicReferenceEUR": 614201,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-062"
     },
     {
       "slug": "evidence-governed-software-assurance-platform",
@@ -1163,7 +1195,8 @@
       "previousReplacementCostEUR": 1200000,
       "triangulatedEconomicReferenceEUR": 2295652,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-039"
     },
     {
       "slug": "evidence-governed-visual-intelligence-platform",
@@ -1188,8 +1221,8 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 350000,
       "previousSellerAskEUR": 350000,
@@ -1197,7 +1230,8 @@
       "previousReplacementCostEUR": 1150000,
       "triangulatedEconomicReferenceEUR": 2242880,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-012"
     },
     {
       "slug": "evidence-grounded-multi-expert-reasoning-system",
@@ -1222,9 +1256,9 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 500000,
       "previousSellerAskEUR": 500000,
@@ -1232,7 +1266,8 @@
       "previousReplacementCostEUR": 1800000,
       "triangulatedEconomicReferenceEUR": 2268372,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-053"
     },
     {
       "slug": "faunometric",
@@ -1257,8 +1292,8 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance."
       ],
       "sellerAskEUR": 275000,
       "previousSellerAskEUR": 275000,
@@ -1266,7 +1301,8 @@
       "previousReplacementCostEUR": 1200000,
       "triangulatedEconomicReferenceEUR": 912904,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-006"
     },
     {
       "slug": "fusionlunar-energy-systems-engineering-platform",
@@ -1291,8 +1327,8 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 360000,
       "previousSellerAskEUR": 360000,
@@ -1300,7 +1336,8 @@
       "previousReplacementCostEUR": 2900000,
       "triangulatedEconomicReferenceEUR": 1762172,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-057"
     },
     {
       "slug": "goldennet-signal-intelligence-platform",
@@ -1325,7 +1362,7 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope."
       ],
       "sellerAskEUR": 425000,
       "previousSellerAskEUR": 425000,
@@ -1333,7 +1370,8 @@
       "previousReplacementCostEUR": 1800000,
       "triangulatedEconomicReferenceEUR": 2186823,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-054"
     },
     {
       "slug": "h-rm-lyra-automotive-lyra-rs-3-6t",
@@ -1358,10 +1396,10 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 55000,
       "previousSellerAskEUR": 55000,
@@ -1369,7 +1407,8 @@
       "previousReplacementCostEUR": 450000,
       "triangulatedEconomicReferenceEUR": 279870,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-090"
     },
     {
       "slug": "air-to-water-transition-vehicle",
@@ -1395,10 +1434,10 @@
       "sellerOpenItems": [
         "Repository-native tests not identified.",
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 40000,
       "previousSellerAskEUR": 40000,
@@ -1406,7 +1445,8 @@
       "previousReplacementCostEUR": 400000,
       "triangulatedEconomicReferenceEUR": 194776,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-017"
     },
     {
       "slug": "hybrid-adaptive-rendering-media",
@@ -1431,8 +1471,8 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 160000,
       "previousSellerAskEUR": 160000,
@@ -1440,7 +1480,8 @@
       "previousReplacementCostEUR": 900000,
       "triangulatedEconomicReferenceEUR": 1275676,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-068"
     },
     {
       "slug": "isbr-securetrace",
@@ -1465,7 +1506,7 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope."
       ],
       "sellerAskEUR": 650000,
       "previousSellerAskEUR": 650000,
@@ -1473,7 +1514,8 @@
       "previousReplacementCostEUR": 2800000,
       "triangulatedEconomicReferenceEUR": 3401725,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-044"
     },
     {
       "slug": "industrial-predictive-maintenance-rul-platform",
@@ -1498,8 +1540,8 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 360000,
       "previousSellerAskEUR": 360000,
@@ -1507,7 +1549,8 @@
       "previousReplacementCostEUR": 1000000,
       "triangulatedEconomicReferenceEUR": 1893043,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-059"
     },
     {
       "slug": "integrated-media-production-engine",
@@ -1532,7 +1575,7 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Add an explicit buyer handover / transfer manifest.",
+        "An explicit delivery manifest and handover scope remain to be agreed.",
         "Review potential sensitive filenames before transfer: src/impe/managed_secrets.py, src/impe/provider_credentials.py"
       ],
       "sellerAskEUR": 430000,
@@ -1541,7 +1584,8 @@
       "previousReplacementCostEUR": 1200000,
       "triangulatedEconomicReferenceEUR": 2178907,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-038"
     },
     {
       "slug": "interactive-piano-learning-platform",
@@ -1566,9 +1610,9 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 700000,
       "previousSellerAskEUR": 700000,
@@ -1576,7 +1620,8 @@
       "previousReplacementCostEUR": 2700000,
       "triangulatedEconomicReferenceEUR": 3194361,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-084"
     },
     {
       "slug": "kinetic-logic-reconstructor",
@@ -1601,7 +1646,7 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
         "Review potential sensitive filenames before transfer: scripts/scan_secrets.py, src/klr/security/secret_scan.py"
       ],
       "sellerAskEUR": 95000,
@@ -1610,7 +1655,8 @@
       "previousReplacementCostEUR": 600000,
       "triangulatedEconomicReferenceEUR": 608079,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-047"
     },
     {
       "slug": "lyra-aero-evtol",
@@ -1636,10 +1682,10 @@
       "sellerOpenItems": [
         "Validation/qualification evidence not identified.",
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 50000,
       "previousSellerAskEUR": 50000,
@@ -1647,7 +1693,8 @@
       "previousReplacementCostEUR": 450000,
       "triangulatedEconomicReferenceEUR": 279870,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-091"
     },
     {
       "slug": "latticedepth",
@@ -1672,7 +1719,7 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed."
+        "A security assessment or an explicit statement of its absence is required before acceptance."
       ],
       "sellerAskEUR": 255000,
       "previousSellerAskEUR": 255000,
@@ -1680,7 +1727,8 @@
       "previousReplacementCostEUR": 850000,
       "triangulatedEconomicReferenceEUR": 936005,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-043"
     },
     {
       "slug": "legalops-nl",
@@ -1704,8 +1752,8 @@
       },
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 100000,
       "previousSellerAskEUR": 100000,
@@ -1713,7 +1761,8 @@
       "previousReplacementCostEUR": 550000,
       "triangulatedEconomicReferenceEUR": 557406,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-033"
     },
     {
       "slug": "mothercode-research-engine",
@@ -1738,12 +1787,12 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add or consolidate third-party licensing/obligations documentation.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest.",
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Third-party licensing and obligations documentation remains incomplete.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed.",
         "Agree and freeze the exact development-branch delivery perimeter before transfer; draft status is retained.",
-        "Complete the full exact-candidate regression and packaging checks; a bounded external research result is not a full release pass."
+        "Full regression and packaging acceptance of the exact candidate remains outstanding; bounded research evidence is not full release acceptance."
       ],
       "sellerAskEUR": 45000,
       "previousSellerAskEUR": 45000,
@@ -1751,7 +1800,8 @@
       "previousReplacementCostEUR": 400000,
       "triangulatedEconomicReferenceEUR": 271634,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-037"
     },
     {
       "slug": "mt2050-experimental-dynamics",
@@ -1776,10 +1826,10 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 250000,
       "previousSellerAskEUR": 250000,
@@ -1787,7 +1837,8 @@
       "previousReplacementCostEUR": 1200000,
       "triangulatedEconomicReferenceEUR": 880981,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-031"
     },
     {
       "slug": "maastricht-digital-twin",
@@ -1812,9 +1863,9 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 200000,
       "previousSellerAskEUR": 200000,
@@ -1822,7 +1873,8 @@
       "previousReplacementCostEUR": 1000000,
       "triangulatedEconomicReferenceEUR": 928598,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-088"
     },
     {
       "slug": "maastricht-zero-hour-simulator",
@@ -1848,9 +1900,9 @@
       "sellerOpenItems": [
         "Repository licence file not identified.",
         "Repository-native tests not identified.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 120000,
       "previousSellerAskEUR": 120000,
@@ -1858,7 +1910,8 @@
       "previousReplacementCostEUR": 650000,
       "triangulatedEconomicReferenceEUR": 556559,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-089"
     },
     {
       "slug": "machine-cognition-research-framework",
@@ -1883,9 +1936,9 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 80000,
       "previousSellerAskEUR": 80000,
@@ -1893,7 +1946,8 @@
       "previousReplacementCostEUR": 650000,
       "triangulatedEconomicReferenceEUR": 441405,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-020"
     },
     {
       "slug": "mercorion-commerce-compiler",
@@ -1918,8 +1972,8 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add release/provenance fingerprint or attestation evidence."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Release identity and provenance evidence remain incomplete."
       ],
       "sellerAskEUR": 340000,
       "previousSellerAskEUR": 340000,
@@ -1927,7 +1981,8 @@
       "previousReplacementCostEUR": 950000,
       "triangulatedEconomicReferenceEUR": 1852814,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-045"
     },
     {
       "slug": "modular-key-cryptanalysis-platform",
@@ -1952,9 +2007,9 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 95000,
       "previousSellerAskEUR": 95000,
@@ -1962,7 +2017,8 @@
       "previousReplacementCostEUR": 450000,
       "triangulatedEconomicReferenceEUR": 280395,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-007"
     },
     {
       "slug": "multimodal-evidence-adaptive-systems-platform",
@@ -1987,9 +2043,9 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete."
       ],
       "sellerAskEUR": 115000,
       "previousSellerAskEUR": 115000,
@@ -1997,7 +2053,8 @@
       "previousReplacementCostEUR": 650000,
       "triangulatedEconomicReferenceEUR": 643076,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-056"
     },
     {
       "slug": "oraculum-infinitum",
@@ -2021,9 +2078,9 @@
       },
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 275000,
       "previousSellerAskEUR": 275000,
@@ -2031,7 +2088,8 @@
       "previousReplacementCostEUR": 700000,
       "triangulatedEconomicReferenceEUR": 1379232,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-040"
     },
     {
       "slug": "ossn-uap",
@@ -2057,8 +2115,8 @@
       "sellerOpenItems": [
         "Validation/qualification evidence not identified.",
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 45000,
       "previousSellerAskEUR": 45000,
@@ -2066,7 +2124,8 @@
       "previousReplacementCostEUR": 400000,
       "triangulatedEconomicReferenceEUR": 243058,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-001"
     },
     {
       "slug": "organismal-state-dynamics-research-platform",
@@ -2091,7 +2150,7 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 120000,
       "previousSellerAskEUR": 120000,
@@ -2099,7 +2158,8 @@
       "previousReplacementCostEUR": 900000,
       "triangulatedEconomicReferenceEUR": 748914,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-066"
     },
     {
       "slug": "organizational-memory-engine",
@@ -2124,7 +2184,7 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope."
       ],
       "sellerAskEUR": 700000,
       "previousSellerAskEUR": 700000,
@@ -2132,7 +2192,8 @@
       "previousReplacementCostEUR": 1900000,
       "triangulatedEconomicReferenceEUR": 3634782,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-019"
     },
     {
       "slug": "programmatic-search-fabric",
@@ -2158,9 +2219,9 @@
       "sellerOpenItems": [
         "Repository-native tests not identified.",
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete."
       ],
       "sellerAskEUR": 265000,
       "previousSellerAskEUR": 265000,
@@ -2168,7 +2229,8 @@
       "previousReplacementCostEUR": 700000,
       "triangulatedEconomicReferenceEUR": 1379232,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-014"
     },
     {
       "slug": "protein-structure-evidence-qualification-platform",
@@ -2193,8 +2255,8 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance."
       ],
       "sellerAskEUR": 100000,
       "previousSellerAskEUR": 100000,
@@ -2202,7 +2264,8 @@
       "previousReplacementCostEUR": 1000000,
       "triangulatedEconomicReferenceEUR": 478028,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-015"
     },
     {
       "slug": "qubo-structural-analysis-and-optimization-platform",
@@ -2227,11 +2290,11 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add or consolidate third-party licensing/obligations documentation.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Third-party licensing and obligations documentation remains incomplete.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 90000,
       "previousSellerAskEUR": 90000,
@@ -2239,7 +2302,8 @@
       "previousReplacementCostEUR": 650000,
       "triangulatedEconomicReferenceEUR": 394970,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-075"
     },
     {
       "slug": "radioastronomy-signal-validation-platform",
@@ -2264,7 +2328,7 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope."
       ],
       "sellerAskEUR": 275000,
       "previousSellerAskEUR": 275000,
@@ -2272,7 +2336,8 @@
       "previousReplacementCostEUR": 1300000,
       "triangulatedEconomicReferenceEUR": 1326237,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-072"
     },
     {
       "slug": "research-intelligence-fabric",
@@ -2297,9 +2362,9 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 280000,
       "previousSellerAskEUR": 280000,
@@ -2307,7 +2372,8 @@
       "previousReplacementCostEUR": 850000,
       "triangulatedEconomicReferenceEUR": 1071176,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-011"
     },
     {
       "slug": "reserveflow-saas-platform",
@@ -2333,7 +2399,7 @@
       "sellerOpenItems": [
         "Repository licence file not identified.",
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope."
       ],
       "sellerAskEUR": 625000,
       "previousSellerAskEUR": 625000,
@@ -2341,7 +2407,8 @@
       "previousReplacementCostEUR": 2250000,
       "triangulatedEconomicReferenceEUR": 2835464,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-086"
     },
     {
       "slug": "resource-aware-hybrid-model-orchestration-platform",
@@ -2366,11 +2433,11 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add or consolidate third-party licensing/obligations documentation.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Third-party licensing and obligations documentation remains incomplete.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
         "Agree and freeze the exact development-branch delivery perimeter before transfer; draft status is retained.",
-        "Complete the exact current candidate release-validation gate before accepting it as a validated release."
+        "Full release validation of the exact current candidate remains required before acceptance."
       ],
       "sellerAskEUR": 20000,
       "previousSellerAskEUR": 20000,
@@ -2378,7 +2445,8 @@
       "previousReplacementCostEUR": 250000,
       "triangulatedEconomicReferenceEUR": 253367,
       "monetaryEstimateChanged": true,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-028"
     },
     {
       "slug": "swpp-viorith-mobile-camera-overlay",
@@ -2403,10 +2471,10 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 180000,
       "previousSellerAskEUR": 180000,
@@ -2414,7 +2482,8 @@
       "previousReplacementCostEUR": 850000,
       "triangulatedEconomicReferenceEUR": 1071176,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-081"
     },
     {
       "slug": "secure-actuation-integrity-platform",
@@ -2446,7 +2515,8 @@
       "previousReplacementCostEUR": 1750000,
       "triangulatedEconomicReferenceEUR": 2126078,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-079"
     },
     {
       "slug": "sensor-fusion-digital-twin-engine",
@@ -2471,9 +2541,9 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 235000,
       "previousSellerAskEUR": 235000,
@@ -2481,7 +2551,8 @@
       "previousReplacementCostEUR": 780000,
       "triangulatedEconomicReferenceEUR": 947623,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-025"
     },
     {
       "slug": "signal-processing-universal-framework",
@@ -2506,10 +2577,10 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 120000,
       "previousSellerAskEUR": 120000,
@@ -2517,7 +2588,8 @@
       "previousReplacementCostEUR": 400000,
       "triangulatedEconomicReferenceEUR": 485961,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-016"
     },
     {
       "slug": "software-asset-provenance-qualification-platform",
@@ -2542,7 +2614,7 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 240000,
       "previousSellerAskEUR": 240000,
@@ -2550,7 +2622,8 @@
       "previousReplacementCostEUR": 850000,
       "triangulatedEconomicReferenceEUR": 1044141,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-063"
     },
     {
       "slug": "sonicfabric",
@@ -2575,9 +2648,9 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 650000,
       "previousSellerAskEUR": 650000,
@@ -2585,7 +2658,8 @@
       "previousReplacementCostEUR": 1800000,
       "triangulatedEconomicReferenceEUR": 3304360,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-046"
     },
     {
       "slug": "omnisynth-intelligence-engine",
@@ -2610,10 +2684,10 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 150000,
       "previousSellerAskEUR": 150000,
@@ -2621,7 +2695,8 @@
       "previousReplacementCostEUR": 800000,
       "triangulatedEconomicReferenceEUR": 810773,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-005"
     },
     {
       "slug": "spatial-wearable-perception-platform",
@@ -2646,8 +2721,8 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance."
       ],
       "sellerAskEUR": 800000,
       "previousSellerAskEUR": 800000,
@@ -2655,7 +2730,8 @@
       "previousReplacementCostEUR": 3500000,
       "triangulatedEconomicReferenceEUR": 6476158,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-073"
     },
     {
       "slug": "stabilitymesh",
@@ -2680,9 +2756,9 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 200000,
       "previousSellerAskEUR": 200000,
@@ -2690,7 +2766,8 @@
       "previousReplacementCostEUR": 850000,
       "triangulatedEconomicReferenceEUR": 975291,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-003"
     },
     {
       "slug": "tls-virtual",
@@ -2715,9 +2792,9 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 195000,
       "previousSellerAskEUR": 195000,
@@ -2725,7 +2802,8 @@
       "previousReplacementCostEUR": 650000,
       "triangulatedEconomicReferenceEUR": 789686,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-010"
     },
     {
       "slug": "telluric-actualization-research-platform",
@@ -2751,10 +2829,10 @@
       "sellerOpenItems": [
         "Repository licence file not identified.",
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add or consolidate third-party licensing/obligations documentation.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Third-party licensing and obligations documentation remains incomplete.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 55000,
       "previousSellerAskEUR": 55000,
@@ -2762,7 +2840,8 @@
       "previousReplacementCostEUR": 600000,
       "triangulatedEconomicReferenceEUR": 243605,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-074"
     },
     {
       "slug": "temporal-physics-causality-research-platform",
@@ -2787,9 +2866,9 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 50000,
       "previousSellerAskEUR": 50000,
@@ -2797,7 +2876,8 @@
       "previousReplacementCostEUR": 1050000,
       "triangulatedEconomicReferenceEUR": 426309,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-058"
     },
     {
       "slug": "traceline-evidence-governed-investigation-framework",
@@ -2822,8 +2902,8 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 280000,
       "previousSellerAskEUR": 280000,
@@ -2831,7 +2911,8 @@
       "previousReplacementCostEUR": 1125000,
       "triangulatedEconomicReferenceEUR": 1366765,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-065"
     },
     {
       "slug": "truelane-flora",
@@ -2856,8 +2937,8 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add an explicit buyer handover / transfer manifest.",
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "An explicit delivery manifest and handover scope remain to be agreed.",
         "Review potential sensitive filenames before transfer: truelane-flora/truelane-flora/scripts/generate_dev_token.py"
       ],
       "sellerAskEUR": 270000,
@@ -2866,7 +2947,8 @@
       "previousReplacementCostEUR": 900000,
       "triangulatedEconomicReferenceEUR": 1122036,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-008"
     },
     {
       "slug": "truelane-inkcore",
@@ -2891,9 +2973,9 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 160000,
       "previousSellerAskEUR": 160000,
@@ -2901,7 +2983,8 @@
       "previousReplacementCostEUR": 650000,
       "triangulatedEconomicReferenceEUR": 769013,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-050"
     },
     {
       "slug": "truelane-intelligence-engine",
@@ -2926,9 +3009,9 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 255000,
       "previousSellerAskEUR": 255000,
@@ -2936,7 +3019,8 @@
       "previousReplacementCostEUR": 850000,
       "triangulatedEconomicReferenceEUR": 1059701,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-013"
     },
     {
       "slug": "truelane-studio-apex-architect",
@@ -2961,9 +3045,9 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 300000,
       "previousSellerAskEUR": 250000,
@@ -2971,7 +3055,8 @@
       "previousReplacementCostEUR": 1000000,
       "triangulatedEconomicReferenceEUR": 1262385,
       "monetaryEstimateChanged": true,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-080"
     },
     {
       "slug": "universal-capability-synthesis-engine",
@@ -2996,9 +3081,9 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 150000,
       "previousSellerAskEUR": 150000,
@@ -3006,7 +3091,8 @@
       "previousReplacementCostEUR": 800000,
       "triangulatedEconomicReferenceEUR": 810773,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-092"
     },
     {
       "slug": "universal-kernel-machine",
@@ -3031,10 +3117,10 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 65000,
       "previousSellerAskEUR": 65000,
@@ -3042,7 +3128,8 @@
       "previousReplacementCostEUR": 550000,
       "triangulatedEconomicReferenceEUR": 373497,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-024"
     },
     {
       "slug": "vellumgrid-autonomous-commerce-platform",
@@ -3067,11 +3154,11 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add or consolidate third-party licensing/obligations documentation.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Third-party licensing and obligations documentation remains incomplete.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 575000,
       "previousSellerAskEUR": 575000,
@@ -3079,7 +3166,8 @@
       "previousReplacementCostEUR": 2400000,
       "triangulatedEconomicReferenceEUR": 3024496,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-087"
     },
     {
       "slug": "verifiable-execution-control-platform",
@@ -3103,9 +3191,9 @@
       },
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 450000,
       "previousSellerAskEUR": 450000,
@@ -3113,7 +3201,8 @@
       "previousReplacementCostEUR": 1250000,
       "triangulatedEconomicReferenceEUR": 2462914,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-018"
     },
     {
       "slug": "veritas-evidence-intelligence",
@@ -3138,9 +3227,9 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 650000,
       "previousSellerAskEUR": 650000,
@@ -3148,7 +3237,8 @@
       "previousReplacementCostEUR": 2000000,
       "triangulatedEconomicReferenceEUR": 3826086,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-029"
     },
     {
       "slug": "vision-evidence-governed-multimodal-perception-framework",
@@ -3173,10 +3263,10 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 160000,
       "previousSellerAskEUR": 160000,
@@ -3184,7 +3274,8 @@
       "previousReplacementCostEUR": 850000,
       "triangulatedEconomicReferenceEUR": 508550,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-052"
     },
     {
       "slug": "visionair-research-engine",
@@ -3209,9 +3300,9 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "sellerAskEUR": 260000,
       "previousSellerAskEUR": 260000,
@@ -3219,7 +3310,8 @@
       "previousReplacementCostEUR": 1200000,
       "triangulatedEconomicReferenceEUR": 969288,
       "monetaryEstimateChanged": false,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-051"
     },
     {
       "slug": "aurynthiq-autonomous-dj-intelligence-platform",
@@ -3244,10 +3336,10 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add an explicit buyer handover / transfer manifest.",
-        "Complete packaged-delivery and buyer handover acceptance.",
-        "Retain appropriate music/media rights and use-specific listening/hardware acceptance evidence."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "An explicit delivery manifest and handover scope remain to be agreed.",
+        "Packaged delivery and handover acceptance remain outstanding.",
+        "Music/media rights and listening/hardware acceptance evidence are required for your intended use."
       ],
       "sellerAskEUR": 40000,
       "previousSellerAskEUR": null,
@@ -3255,7 +3347,8 @@
       "previousReplacementCostEUR": null,
       "triangulatedEconomicReferenceEUR": 236245,
       "monetaryEstimateChanged": true,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-093"
     },
     {
       "slug": "universal-vehicle-configuration-database",
@@ -3280,9 +3373,9 @@
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add an explicit buyer handover / transfer manifest.",
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed.",
         "Agree and freeze the exact development-branch delivery perimeter before transfer; draft status is retained.",
         "Review third-party source rights and vehicle-specific compatibility separately; no production or programming authorization is offered."
       ],
@@ -3292,7 +3385,8 @@
       "previousReplacementCostEUR": null,
       "triangulatedEconomicReferenceEUR": 899057,
       "monetaryEstimateChanged": true,
-      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied."
+      "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
+      "ref": "TA-IP-094"
     },
     {
       "slug": "digital-twin-core",
@@ -3301,7 +3395,7 @@
       "assessedAt": "2026-10-09T05:36:00Z",
       "previousAssessmentDate": "2026-10-07",
       "reviewResult": "UPDATED",
-      "reviewNote": "Independently scoped IP asset with its own first-party rights and transfer perimeter. Its separate monetary reference is not yet established and is available by enquiry.",
+      "reviewNote": "Review a EUR 500 asking reference for the existing project definition and acquisition documentation only. No committed software implementation is present. Software delivery readiness remains NOT_READY; further development is separately scoped and priced.",
       "currentVersion": null,
       "developmentVersion": null,
       "countsAsIpAsset": true,
@@ -3311,28 +3405,34 @@
         "technicalMaturity": "UNASSESSED",
         "evidenceMaturity": "E0",
         "ipRightsMaturity": "R0",
-        "commercialMaturity": "C1",
+        "commercialMaturity": "C2",
         "transferReadiness": "T0"
       },
       "transactionReadiness": "NOT_READY",
       "sellerOpenItems": [
-        "No committed implementation baseline identified.",
+        "No implemented software is available in the reviewed baseline.",
         "Repository licence file not identified.",
         "Repository-native tests not identified.",
         "Validation/qualification evidence not identified.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "Release identity and provenance evidence remain incomplete.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
-      "sellerAskEUR": null,
+      "sellerAskEUR": 500,
       "previousSellerAskEUR": null,
-      "replacementCostEUR": null,
+      "replacementCostEUR": 2000,
       "previousReplacementCostEUR": null,
-      "triangulatedEconomicReferenceEUR": null,
-      "monetaryEstimateChanged": false,
+      "triangulatedEconomicReferenceEUR": 500,
+      "monetaryEstimateChanged": true,
       "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
       "independentIpAsset": true,
-      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z",
+      "ref": "TA-IP-097",
+      "economicAssessmentAt": "2026-10-09T06:22:41Z",
+      "sourceRecheckedAt": "2026-10-09T06:22:41Z",
+      "pricingScope": "Existing first-party project definition and acquisition documentation only. No implemented software, validated digital-twin capability, protected technical invention or future development is included in this estimate.",
+      "sourceHead": "7c838eaf6692e3b14edc6b15e70e90288b39d29b",
+      "retainedFileCount": 2
     },
     {
       "slug": "learnpiano",
@@ -3341,36 +3441,41 @@
       "assessedAt": "2026-10-09T05:36:00Z",
       "previousAssessmentDate": "2026-10-07",
       "reviewResult": "UPDATED",
-      "reviewNote": "Independently scoped IP asset with its own first-party rights and transfer perimeter. Its separate monetary reference is not yet established and is available by enquiry.",
-      "currentVersion": "v13 product / v16 experimental",
-      "developmentVersion": null,
+      "reviewNote": "Compare the current practice software and retained validation with a separate EUR 180,000 acquisition reference. The existing product baseline remains in use; the newer recovery candidate is experimental and is excluded from completed-validation claims.",
+      "currentVersion": "v13 established product",
+      "developmentVersion": "v16 experimental recovery candidate",
       "countsAsIpAsset": true,
       "stage": "V",
       "previousStage": null,
       "assurance": {
         "technicalMaturity": "V",
-        "evidenceMaturity": "E2",
+        "evidenceMaturity": "E3",
         "ipRightsMaturity": "R2",
-        "commercialMaturity": "C1",
+        "commercialMaturity": "C2",
         "transferReadiness": "T3"
       },
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "Add release/provenance fingerprint or attestation evidence.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "A security assessment or an explicit statement of its absence is required before acceptance.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
-      "sellerAskEUR": null,
+      "sellerAskEUR": 180000,
       "previousSellerAskEUR": null,
-      "replacementCostEUR": null,
+      "replacementCostEUR": 800000,
       "previousReplacementCostEUR": null,
-      "triangulatedEconomicReferenceEUR": null,
-      "monetaryEstimateChanged": false,
+      "triangulatedEconomicReferenceEUR": 946477,
+      "monetaryEstimateChanged": true,
       "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
       "independentIpAsset": true,
-      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z",
+      "ref": "TA-IP-095",
+      "economicAssessmentAt": "2026-10-09T06:22:41Z",
+      "sourceRecheckedAt": "2026-10-09T06:22:41Z",
+      "pricingScope": "Present first-party piano practice, performance and local production software, its proprietary transcription work, retained research and validation, and documentation. User music, external scores, recordings, datasets, plugins and future model qualification are excluded.",
+      "sourceHead": "4ac4713e529bb187546a9e4197bc23ac634d5990",
+      "retainedFileCount": 274
     },
     {
       "slug": "plantelogia-intelligence-platform-lineage",
@@ -3379,7 +3484,7 @@
       "assessedAt": "2026-10-09T05:36:00Z",
       "previousAssessmentDate": "2026-10-07",
       "reviewResult": "UPDATED",
-      "reviewNote": "Independently scoped IP asset with its own first-party rights and transfer perimeter. Its separate monetary reference is not yet established and is available by enquiry.",
+      "reviewNote": "Review the qualified 0.2.0 prototype with its own EUR 50,000 acquisition reference. Retained internal qualification covers 24 tests; production deployment and transaction-specific acceptance remain separate.",
       "currentVersion": "0.2.0",
       "developmentVersion": null,
       "countsAsIpAsset": true,
@@ -3389,25 +3494,45 @@
         "technicalMaturity": "P",
         "evidenceMaturity": "E3",
         "ipRightsMaturity": "R2",
-        "commercialMaturity": "C1",
+        "commercialMaturity": "C2",
         "transferReadiness": "T3"
       },
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "sellerOpenItems": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "Add an explicit buyer handover / transfer manifest."
+        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
+        "An explicit delivery manifest and handover scope remain to be agreed."
       ],
-      "sellerAskEUR": null,
+      "sellerAskEUR": 50000,
       "previousSellerAskEUR": null,
-      "replacementCostEUR": null,
+      "replacementCostEUR": 300000,
       "previousReplacementCostEUR": null,
-      "triangulatedEconomicReferenceEUR": null,
-      "monetaryEstimateChanged": false,
+      "triangulatedEconomicReferenceEUR": 304040,
+      "monetaryEstimateChanged": true,
       "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
       "independentIpAsset": true,
-      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z",
+      "ref": "TA-IP-096",
+      "economicAssessmentAt": "2026-10-09T06:22:41Z",
+      "sourceRecheckedAt": "2026-10-09T06:22:41Z",
+      "pricingScope": "Present first-party evidence-governed intelligence prototype, retained qualification, documentation and packaging. Production deployment, operational infrastructure, external evidence/data rights and future productisation are excluded.",
+      "sourceHead": "0038679044885f8104cb460cb6902590ef1f87dc",
+      "retainedFileCount": 48
     }
   ],
-  "catalogueUpdatedAt": "2026-10-09T06:07:10Z"
+  "catalogueUpdatedAt": "2026-10-09T06:22:41Z",
+  "latestSeparateAssetPricing": {
+    "assessedAt": "2026-10-09T06:22:41Z",
+    "assetCount": 3,
+    "assetReferences": [
+      "TA-IP-095",
+      "TA-IP-096",
+      "TA-IP-097"
+    ],
+    "previousPricedAssetCount": 94,
+    "currentPricedAssetCount": 97,
+    "previousPublishedSellerAskEUR": 24290000,
+    "previousPublishedReplacementCostEUR": 103550000,
+    "boundary": "Fresh source-head checks and retained-evidence review for these three assets. Prior source/evidence assessments and monetary inputs for the other 94 assets retain their recorded dates; no fresh execution of all repository tests is claimed."
+  }
 }

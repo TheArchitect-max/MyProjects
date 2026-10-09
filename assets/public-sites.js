@@ -2,7 +2,7 @@
 const SCRIPT=document.currentScript;
 const ROOT=new URL('../',SCRIPT.src).href;
 const AS=new URL('assets/',ROOT).href;
-const VERSION='sites3';
+const VERSION='sites4';
 const ESC=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const hex=b=>[...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('');
 const sha256=async s=>hex(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s)));
@@ -24,11 +24,12 @@ function extLink(site,label='Digital display ↗',klass='text-link'){
   return `<a class="${klass}" data-public-site-link="1" target="_blank" rel="noopener external" href="${ESC(site.url)}">${ESC(label)}</a>`;
 }
 async function load(){
-  const [sitesText,attText]=await Promise.all([fetchText('public-sites.json'),fetchText('public-attestation.json')]);
-  const directory=JSON.parse(sitesText),att=JSON.parse(attText);
+  const [sitesText,attText,identitiesText]=await Promise.all([fetchText('public-sites.json'),fetchText('public-attestation.json'),fetchText('project-identities.json')]);
+  const directory=JSON.parse(sitesText),att=JSON.parse(attText),identities=JSON.parse(identitiesText),identityBySlug=new Map(identities.projects.map(p=>[p.slug,p]));
+  if(directory.siteCount!==directory.sites.length||new Set(directory.sites.map(p=>p.slug)).size!==directory.siteCount||directory.sites.some(p=>!identityBySlug.has(p.slug)||p.ref!==identityBySlug.get(p.slug).ref||p.title!==identityBySlug.get(p.slug).title||p.kind!=='digital-display'))throw Error('Digital-display identity mismatch');
   const expected=att.files&&att.files['public-sites.json']&&att.files['public-sites.json'].sha256;
   const actual=await sha256(sitesText);
-  const integrity=Boolean(expected&&actual===expected);
+  const integrity=Boolean(expected&&actual===expected&&(await sha256(identitiesText))===att.files['project-identities.json'].sha256);
   const map=new Map((directory.sites||[]).filter(s=>s.status==='live').map(s=>[s.slug,s]));
   return{directory,map,integrity,expected,actual};
 }
@@ -74,7 +75,7 @@ function decorateProof(ctx){
   const main=document.querySelector('main');
   if(!main)return;
   const cards=(ctx.directory.sites||[]).map(s=>`<article class="proof-card"><span>${ESC(s.ref)}</span><h3>${ESC(s.title)}</h3><p>${ESC(s.provider)} · linked project display.</p>${extLink(s,'Open digital display ↗')}</article>`).join('');
-  main.insertAdjacentHTML('beforeend',`<section class="section" data-public-sites-proof="1"><div class="shell"><div class="section-head"><div><p class="eyebrow">Digital display directory</p><h2>${ctx.integrity?'Directory integrity verified.':'Directory integrity requires attention.'}</h2></div><p>SHA-256 ${ctx.integrity?'matches the published attestation':'does not match the published attestation'}. These URLs are presentation surfaces for existing assets, not additional portfolio assets or source-code disclosures.</p></div><div class="proof-grid">${cards}</div></div></section>`);
+  main.insertAdjacentHTML('beforeend',`<section class="section" data-public-sites-proof="1"><div class="shell"><div class="section-head"><div><p class="eyebrow">Digital display directory</p><h2>${ctx.integrity?'Directory integrity verified.':'Directory integrity requires attention.'}</h2></div><p>Check the directory against the dated public record. Each display uses the same TA-IP identifier and project title as its asset profile. Display websites are excluded from the IP-asset count.</p></div><div class="proof-grid">${cards}</div></div></section>`);
 }
 function decorate(ctx){
   decorateProject(ctx);

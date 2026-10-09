@@ -3,11 +3,11 @@
 Current review basis: 2026-10-09
 Previous evaluation basis: 2026-10-07
 
-This standard converts the 97-asset portfolio into a seller-side acquisition documentation system. It is deliberately narrower than buyer due diligence.
+Use this standard to compare the evidence, rights and delivery conditions for all 97 independent assets before planning your acquisition review.
 
 ## Governing boundary
 
-The seller documents what exists, what is included, what repository evidence supports, what third-party material is visible, what is known to remain open, and what can be transferred. A buyer remains responsible for buyer-specific legal, technical, security, regulatory, tax, financial and integration diligence.
+Review what exists, what is included, the supporting evidence, third-party obligations and outstanding delivery conditions. Assess the legal, technical, security, regulatory, tax, financial and integration requirements of your intended transaction.
 
 Statuses are evidence states, not marketing claims. No internal scan is labelled an independent legal opinion, certified penetration test, independent valuation or freedom-to-operate opinion.
 
@@ -60,3 +60,5 @@ The rights review therefore focuses on seller-owned first-party rights, known/di
 All 97 IP assets have a current review result: UPDATED, NEW_SOFTWARE_ASSET_EVALUATION or RECONFIRMED. An unchanged conclusion means the current source/evidence snapshot was compared with the previous assessment; it is not a skipped review. The current source-pinned validation state remains distinct from the presence of test files or historical reports.
 
 The public scope consists only of the 97 independent first-party IP assets. Project websites are digital displays only. New monetary estimates cost first-party work only. No new independent legal, security, market, vehicle or scientific acceptance is inferred from an internal reassessment.
+
+All current profiles and registers use identifiers TA-IP-001 through TA-IP-097. All 97 assets have separate prices. The Digital Twin Core estimate covers existing definition/acquisition documentation only and does not change its lack of implemented software or NOT_READY software-transfer status.

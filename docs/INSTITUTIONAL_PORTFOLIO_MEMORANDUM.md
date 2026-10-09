@@ -3,11 +3,11 @@
 **THEARCHITECT_MAX — Private Technology & IP Portfolio**
 **Current evaluation basis:** 9 October 2026
 **Previous basis:** 7 October 2026
-**Evaluation timestamp:** 2026-10-09T05:36:00Z
+**Source/evidence evaluation timestamp:** 2026-10-09T05:36:00Z
 
 ## 1. Portfolio thesis
 
-The portfolio consists of 97 independent first-party IP assets, each with its own identity, rights and transfer perimeter. Separate monetary references exist for 94 assets; three additional independent assets have by-enquiry terms. Project websites are digital displays linked to the corresponding software asset.
+The portfolio consists of 97 independent first-party IP assets, each with its own identity, rights and transfer perimeter. Individual asking references and present-scope recreation estimates are available for all 97 assets. Digital Twin Core is priced for existing definition and acquisition documentation only; no implemented software is included. Project websites are digital displays linked to the corresponding software asset.
 
 The public catalogue is a screening and evidence layer. Source code, detailed architecture, controlled validation material, sensitive security information and transaction-confidential documents remain outside the public showroom unless already intentionally public in the underlying repository.
 
@@ -55,9 +55,9 @@ These are seller-side documentation/transfer statuses, not buyer approval.
 
 ## 4. Ownership and rights
 
-The portfolio now has a machine-readable repository-evidence ownership register. It records repository licence evidence, third-party disclosure evidence, IP/rights maturity, and whether a legal chain-of-title or FTO opinion exists.
+Use the ownership register to review repository licence evidence, disclosed third-party rights and the current rights maturity of the asset you are considering. Check whether independent legal title or freedom-to-operate evidence has been supplied.
 
-No independent legal chain-of-title opinion is fabricated. Where none exists the register states `NOT_PERFORMED`.
+Independent legal title opinions are identified only where supplied; otherwise the register states `NOT_PERFORMED`.
 
 ## 5. Software supply chain
 
@@ -73,15 +73,15 @@ Current portfolio economics remain separated into:
 2. current analytical economic reference;
 3. milestone-conditioned economic reference.
 
-The milestone register contains 38 numeric maturity sensitivities and 59 NOT_ESTABLISHED records. These are not future seller asks or guaranteed market values.
+The milestone register contains 39 numeric maturity sensitivities and 58 NOT_ESTABLISHED records. These are not future seller asks or guaranteed market values.
 
-Aggregate current seller ask: EUR 24.290M.
-Engineering-equivalent recreation cost: EUR 103.550M.
-Triangulated analytical reference: EUR 122.978M.
+Aggregate current seller ask: EUR 24,520,500.
+Engineering-equivalent recreation cost: EUR 104,652,000.
+Triangulated analytical reference: EUR 124,229,209.
 
 ## 7. Double-counting control
 
-Each of the 97 projects is its own IP asset. Rights, delivery and transaction scope are defined separately for each asset. Project websites are digital displays only. Unestablished monetary references are recorded as null, never as zero value or representation by another asset.
+Each of the 97 projects is its own IP asset. Rights, delivery and transaction scope are defined separately for each asset. Project websites are digital displays only. Every asset has its own price and rights perimeter. No project represents another asset. Identifiers TA-IP-001 through TA-IP-097 are consistent across the current profiles and registers.
 
 ## 8. Controlled transaction process
 
@@ -98,28 +98,30 @@ The recommended sequence is:
 
 The controlled VDR structure is defined in `docs/CONTROLLED_VDR_INDEX.md`.
 
-## 9. Key current seller-side gaps
+## 9. Outstanding delivery conditions
 
-- 85 projects — Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
-- 81 projects — Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.
-- 70 projects — Add an explicit buyer handover / transfer manifest.
-- 54 projects — Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.
-- 40 projects — Add release/provenance fingerprint or attestation evidence.
-- 8 projects — Add or consolidate third-party licensing/obligations documentation.
-- 5 projects — Repository-native tests not identified.
-- 5 projects — Repository licence file not identified.
-- 5 projects — Validation/qualification evidence not identified.
-- 3 projects — Agree and freeze the exact development-branch delivery perimeter before transfer; draft status is retained.
-- 2 projects — Complete the exact current candidate release-validation gate before accepting it as a validated release.
-- 1 projects — Review potential sensitive filenames before transfer: src/security/credentialBroker.js
+Review the conditions relevant to your intended transaction:
 
-These conditions are current project-specific acceptance items. Updated evidence and unmerged development scope do not silently imply a validated production release.
+- 85 assets — Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
+- 81 assets — A detailed component inventory and licensing report are required for the agreed delivery scope.
+- 70 assets — An explicit delivery manifest and handover scope remain to be agreed.
+- 54 assets — A security assessment or an explicit statement of its absence is required before acceptance.
+- 39 assets — Release identity and provenance evidence remain incomplete.
+- 8 assets — Third-party licensing and obligations documentation remains incomplete.
+- 5 assets — Repository-native tests not identified.
+- 5 assets — Repository licence file not identified.
+- 5 assets — Validation/qualification evidence not identified.
+- 3 assets — Agree and freeze the exact development-branch delivery perimeter before transfer; draft status is retained.
+- 2 assets — Full release validation of the exact current candidate remains required before acceptance.
+- 1 assets — Review potential sensitive filenames before transfer: src/security/credentialBroker.js
+
+Use these recorded acceptance conditions to agree the evidence and deliverables required before transfer.
 
 ## 10. External evidence boundary
 
 Independent legal ownership opinions, freedom-to-operate opinions, independent penetration tests, independent professional valuations, regulatory approvals and physical validation are not claimed unless separately evidenced.
 
-The buyer remains responsible for buyer-specific diligence and suitability decisions.
+Plan your legal, technical, security, regulatory, tax, financial and integration review against your intended use.
 
 ## 11. External methodological basis
 
@@ -133,7 +135,7 @@ These sources inform portfolio process architecture; they do not certify this po
 
 ## 12. Rights and transfer perimeter
 
-The acquisition system is rights-first. A buyer is asked to evaluate what first-party rights and deliverables are offered, what evidence supports the seller-side rights position, what third-party IP remains under separate terms, and which rights are included or excluded from a definitive transaction.
+The acquisition system is rights-first. Review the first-party rights and deliverables offered, the evidence supporting those rights, third-party obligations and the inclusions or exclusions required in your definitive agreement.
 
 The internal method by which an asset was created is not part of the public acquisition record and is not required to establish the offered transfer perimeter. Non-public development methods and know-how remain outside the public showroom unless expressly included in a transaction.
 
@@ -146,3 +148,15 @@ Authoritative machine-readable source: `assets/rights-transfer-register.json`.
 All 97 IP assets were reviewed: 88 reconfirmed conclusions, seven updated evidence/scope assessments and two first standalone software evaluations. The current evaluation covers maturity, retained evidence, rights, dependencies, handover and monetary references. The authoritative per-project result is `assets/project-evaluations.json`.
 
 Additional delivered work at DARF and TrueLane Studio changes their engineering-equivalent recreation estimates. Aurynthiq and UVCD receive separate software-only estimates. The committed orchestration candidate supports prototype classification while its prior discounted asking position is retained. Market/income factors stay fixed where no new attributable commercial evidence exists.
+
+## 14. Latest separate asset pricing
+
+**Pricing assessment:** 2026-10-09T06:22:41Z. The three source heads were rechecked; retained qualification was reviewed. The other 94 monetary inputs retain their established estimates and recorded source/evidence assessment dates.
+
+| Identifier | Project | Asking reference | Recreation estimate | Present scope |
+|---|---|---:|---:|---|
+| TA-IP-095 | LEARNPIANO | EUR 180,000 | EUR 800,000 | Existing first-party software and supporting work; experimental successor qualification excluded |
+| TA-IP-096 | PLANTELOGIA Intelligence Platform | EUR 50,000 | EUR 300,000 | Existing qualified prototype and supporting work; production deployment excluded |
+| TA-IP-097 | Digital Twin Core | EUR 500 | EUR 2,000 | Existing definition and acquisition documentation only; no implemented software |
+
+Compare these seller-side asking references with their disclosed work-package budgets. They are not independent appraisals, observed transaction prices, verified income or guaranteed buyer savings. Further development and third-party rights are separately scoped.

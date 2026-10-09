@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.09-im49-independent-ip-assets",
+  "version": "2026.10.09-im51-complete-asset-pricing",
   "basisDate": "2026-10-09",
   "status": "SELLER_SIDE_RIGHTS_AND_TRANSFER_REGISTER",
   "purpose": "Define what rights and deliverables are offered, what third-party rights are excluded from ownership transfer, and what evidence supports the seller-side rights position.",
@@ -22,7 +22,7 @@
       "repository": "ATHANOR---Adaptive-Topology-Hazard-Analysis-Network-Optimization-Resilience",
       "slug": "athanor",
       "identityName": "Elara",
-      "commercialReference": "TA-IP-003",
+      "commercialReference": "TA-IP-002",
       "auditedBaselineCommit": "45242d61ee6d65983cc12e1d3d305d93aee3eac3",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -40,13 +40,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-002"
     },
     {
       "repository": "Adaptive-Audio-MIDI-Transcription-Studio",
       "slug": "adaptive-audio-midi-transcription-studio",
       "identityName": "Aria",
-      "commercialReference": "TA-IP-087",
+      "commercialReference": "TA-IP-085",
       "auditedBaselineCommit": "0b0344041d320a629dbfcf6fc7d8f4bd3b8ee2b7",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -61,13 +62,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R0",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-085"
     },
     {
       "repository": "Adaptive-Audio-Production-System",
       "slug": "adaptive-audio-production-system",
       "identityName": "Melody",
-      "commercialReference": "TA-IP-062",
+      "commercialReference": "TA-IP-060",
       "auditedBaselineCommit": "0827f14509e9b32ffda377250090dff18a12b81b",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -85,13 +87,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-060"
     },
     {
       "repository": "Adaptive-Audio-Synthesis-Platform",
       "slug": "adaptive-audio-synthesis-platform",
       "identityName": "Cadence",
-      "commercialReference": "TA-IP-071",
+      "commercialReference": "TA-IP-069",
       "auditedBaselineCommit": "b5efadc8150c4c22e37fa5e879cdc16877804a6a",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -109,13 +112,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-069"
     },
     {
       "repository": "Adaptive-Biofeedback-Engine",
       "slug": "adaptive-biofeedback-engine",
       "identityName": "Serena",
-      "commercialReference": "TA-IP-050",
+      "commercialReference": "TA-IP-048",
       "auditedBaselineCommit": "fb753605e21473f47edb03cd8bed0bbab36f4c7e",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -134,13 +138,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-048"
     },
     {
       "repository": "Adaptive-Cognitive-Runtime",
       "slug": "adaptive-cognitive-runtime",
       "identityName": "Sophia",
-      "commercialReference": "TA-IP-072",
+      "commercialReference": "TA-IP-070",
       "auditedBaselineCommit": "da610532feebcb86316021594eed472c38960290",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -157,13 +162,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-070"
     },
     {
       "repository": "Adaptive-General-Reasoning-Research-Platform",
       "slug": "adaptive-general-reasoning-research-platform",
       "identityName": "Athena",
-      "commercialReference": "TA-IP-066",
+      "commercialReference": "TA-IP-064",
       "auditedBaselineCommit": "2cd2a288cfda4108399ed27dad68673b4172fd2a",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -182,13 +188,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-064"
     },
     {
       "repository": "Adaptive-Neural-Architecture-Platform",
       "slug": "adaptive-neural-architecture-platform",
       "identityName": "Ada",
-      "commercialReference": "TA-IP-078",
+      "commercialReference": "TA-IP-076",
       "auditedBaselineCommit": "2869dffab51498363c095a4529da2cf6356d461a",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -205,13 +212,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-076"
     },
     {
       "repository": "Adaptive-Systems-Intelligence-Platform",
       "slug": "plantelogia-intelligence-platform",
       "identityName": "Nadia",
-      "commercialReference": "TA-IP-085",
+      "commercialReference": "TA-IP-083",
       "auditedBaselineCommit": "c3e7cc84207c1e72b691fd82e7bd2580eb28d5ba",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -230,13 +238,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-083"
     },
     {
       "repository": "Advanced-Ground-Vehicle-Engineering",
       "slug": "advanced-ground-vehicle-engineering",
       "identityName": "Petra",
-      "commercialReference": "TA-IP-036",
+      "commercialReference": "TA-IP-034",
       "auditedBaselineCommit": "33baadbc08a7391c5391e4aaa2b062d2fb012c81",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -253,13 +262,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-034"
     },
     {
       "repository": "Aerospace-Mission-Simulator",
       "slug": "aerospace-mission-simulator",
       "identityName": "Celeste",
-      "commercialReference": "TA-IP-032",
+      "commercialReference": "TA-IP-030",
       "auditedBaselineCommit": "2c47096a6004c9b25eec50f91e065cf9284aa7ec",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -276,13 +286,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-030"
     },
     {
       "repository": "Aletheia-Intelligence-Fabric---Distributed-Evidence-Entity-Intelligence-Platform",
       "slug": "aletheia-intelligence-fabric",
       "identityName": "Alina",
-      "commercialReference": "TA-IP-051",
+      "commercialReference": "TA-IP-049",
       "auditedBaselineCommit": "a2b67000d3e2dea736193c66623a22020ad3a9e3",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -301,13 +312,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-049"
     },
     {
       "repository": "Autonomous-Adaptation-Framework",
       "slug": "autonomous-adaptation-framework",
       "identityName": "Nora",
-      "commercialReference": "TA-IP-029",
+      "commercialReference": "TA-IP-027",
       "auditedBaselineCommit": "226bfb228226bb64146e87b55950552a7b9f5dd5",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -324,13 +336,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-027"
     },
     {
       "repository": "Autonomous-Documentary-Engine",
       "slug": "autonomous-documentary-engine",
       "identityName": "Clara",
-      "commercialReference": "TA-IP-057",
+      "commercialReference": "TA-IP-055",
       "auditedBaselineCommit": "115006fbf66d4bbe9368560e57f30852ad016e1c",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -347,13 +360,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-055"
     },
     {
       "repository": "AxiomFactor",
       "slug": "axiomfactor",
       "identityName": "Hypatia",
-      "commercialReference": "TA-IP-044",
+      "commercialReference": "TA-IP-042",
       "auditedBaselineCommit": "3ed23766e21e49567d3abae6ca2e9b68e6ab5958",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -370,13 +384,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-042"
     },
     {
       "repository": "Bio-Inspired-Neural-Dynamics-Active-Inference-Simulation-Platform",
       "slug": "bio-inspired-neural-dynamics-active-inference-simulation-platform",
       "identityName": "Iona",
-      "commercialReference": "TA-IP-079",
+      "commercialReference": "TA-IP-077",
       "auditedBaselineCommit": "d7880d6fa2d8adc90d27e9a0ac85a4e94d961666",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -393,13 +408,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-077"
     },
     {
       "repository": "Biometric-Systems-Assurance-Platform",
       "slug": "biometric-systems-assurance-platform",
       "identityName": "Iris",
-      "commercialReference": "TA-IP-037",
+      "commercialReference": "TA-IP-035",
       "auditedBaselineCommit": "762ae11013ce5547ee75ecd126e2f7d4c71da46c",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -418,13 +434,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R3",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-035"
     },
     {
       "repository": "CardioSignal-Intelligence-Platform",
       "slug": "cardiosignal-intelligence-platform",
       "identityName": "Cora",
-      "commercialReference": "TA-IP-080",
+      "commercialReference": "TA-IP-078",
       "auditedBaselineCommit": "945603c2595f4db63a87bac26b8850248ad91f2b",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -439,13 +456,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-078"
     },
     {
       "repository": "Causal-State-Field-Engine",
       "slug": "causal-state-field-engine",
       "identityName": "Maya",
-      "commercialReference": "TA-IP-063",
+      "commercialReference": "TA-IP-061",
       "auditedBaselineCommit": "cd4d51f5ad458b6a99cc67e6c56570a7457f71df",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -463,13 +481,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-061"
     },
     {
       "repository": "Chimera-Spectral-Perception-System",
       "slug": "chimera-spectral-perception-system",
       "identityName": "Selene",
-      "commercialReference": "TA-IP-069",
+      "commercialReference": "TA-IP-067",
       "auditedBaselineCommit": "146d0074a9bd65df9e2cd85eb6539c55638335d7",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -484,13 +503,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-067"
     },
     {
       "repository": "Cipher-Lyric-Engine",
       "slug": "cipher-lyric-engine",
       "identityName": "Livia",
-      "commercialReference": "TA-IP-023",
+      "commercialReference": "TA-IP-021",
       "auditedBaselineCommit": "914744cfa0d644b34fadee3b88f1795ecbf5c966",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -507,13 +527,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-021"
     },
     {
       "repository": "CipherRouteDB",
       "slug": "cipherroutedb",
       "identityName": "Vera",
-      "commercialReference": "TA-IP-043",
+      "commercialReference": "TA-IP-041",
       "auditedBaselineCommit": "175e0a9d0de6e7e636c34f78b3e4adbe889f1ef1",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -530,13 +551,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-041"
     },
     {
       "repository": "Content-Integrity-Assurance-Platform",
       "slug": "content-integrity-assurance-platform",
       "identityName": "Verena",
-      "commercialReference": "TA-IP-073",
+      "commercialReference": "TA-IP-071",
       "auditedBaselineCommit": "ed1cb490304c97eb078bc8291adda194b01adb94",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -554,13 +576,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-071"
     },
     {
       "repository": "Continuum-State-Integrity-Platform",
       "slug": "continuum-state-integrity-platform",
       "identityName": "Elena",
-      "commercialReference": "TA-IP-005",
+      "commercialReference": "TA-IP-004",
       "auditedBaselineCommit": "779fddae41026d4df683304f073f9d8fa244048e",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -577,13 +600,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-004"
     },
     {
       "repository": "Custody-Integrity-Assurance-Platform",
       "slug": "custody-integrity-assurance-platform",
       "identityName": "Justine",
-      "commercialReference": "TA-IP-010",
+      "commercialReference": "TA-IP-009",
       "auditedBaselineCommit": "d6522a06ba9c1bb291ff76f42fa7bdfde25d07ed",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -600,13 +624,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-009"
     },
     {
       "repository": "DMT-Laser-Phenomenology-Engine",
       "slug": "dmt-laser-phenomenology-engine",
       "identityName": "Aurora",
-      "commercialReference": "TA-IP-025",
+      "commercialReference": "TA-IP-023",
       "auditedBaselineCommit": "ba4e0db8e7b81146aa8e4ba9211b30e5ca5acb6b",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -623,13 +648,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-023"
     },
     {
       "repository": "Distributed-AI-Resource-Fabric",
       "slug": "distributed-ai-resource-fabric",
       "identityName": "Freya",
-      "commercialReference": "TA-IP-024",
+      "commercialReference": "TA-IP-022",
       "auditedBaselineCommit": "5b93c6896427a47770e2705ac184fe09f31489f0",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -644,13 +670,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-022"
     },
     {
       "repository": "Distributed-Compute-Fabric",
       "slug": "distributed-compute-fabric",
       "identityName": "Ingrid",
-      "commercialReference": "TA-IP-084",
+      "commercialReference": "TA-IP-082",
       "auditedBaselineCommit": "7810d2175bac7adc8ac4232d21dd6efbcf5bf198",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -668,13 +695,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-082"
     },
     {
       "repository": "Dominus-Kraken-Execution-Engine",
       "slug": "dominus-kraken-execution-engine",
       "identityName": "Mara",
-      "commercialReference": "TA-IP-028",
+      "commercialReference": "TA-IP-026",
       "auditedBaselineCommit": "272798957490e6d6d4b13f50348a0837f1680860",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -691,13 +719,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-026"
     },
     {
       "repository": "Electric-Flight-Systems-Simulation-Validation-Platform",
       "slug": "electric-flight-systems-simulation-validation-platform",
       "identityName": "Amelia",
-      "commercialReference": "TA-IP-034",
+      "commercialReference": "TA-IP-032",
       "auditedBaselineCommit": "51689e41e447f8a9ccebc8c0a2ea78b56dccf124",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -714,13 +743,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-032"
     },
     {
       "repository": "Engineering-Intelligence-Mastery-Platform",
       "slug": "truelane-engineering-excellence",
       "identityName": "Minerva",
-      "commercialReference": "TA-IP-038",
+      "commercialReference": "TA-IP-036",
       "auditedBaselineCommit": "a4f390b15abcadc01057162f08df3ad32667bb8f",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -737,13 +767,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-036"
     },
     {
       "repository": "Evidence-Governed-Analytical-Reasoning-Platform",
       "slug": "evidence-governed-analytical-reasoning-platform",
       "identityName": "Thea",
-      "commercialReference": "TA-IP-064",
+      "commercialReference": "TA-IP-062",
       "auditedBaselineCommit": "77b3b1c153253a22359032ad5280cb079888bbca",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -762,13 +793,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-062"
     },
     {
       "repository": "Evidence-Governed-Software-Assurance-Platform",
       "slug": "evidence-governed-software-assurance-platform",
       "identityName": "Grace",
-      "commercialReference": "TA-IP-041",
+      "commercialReference": "TA-IP-039",
       "auditedBaselineCommit": "5e72ef1971367fa28d5d9818ba13db17eacc142e",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -785,13 +817,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R3",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-039"
     },
     {
       "repository": "Evidence-Governed-Visual-Intelligence-Platform",
       "slug": "evidence-governed-visual-intelligence-platform",
       "identityName": "Helena",
-      "commercialReference": "TA-IP-013",
+      "commercialReference": "TA-IP-012",
       "auditedBaselineCommit": "b99e5047c59eacd229f1807de989236d1ffcea73",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -808,13 +841,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-012"
     },
     {
       "repository": "Evidence-Grounded-Multi-Expert-Reasoning-System",
       "slug": "evidence-grounded-multi-expert-reasoning-system",
       "identityName": "Eleanor",
-      "commercialReference": "TA-IP-055",
+      "commercialReference": "TA-IP-053",
       "auditedBaselineCommit": "32d06de2f93ca9e5ba8a290c06e69cf49b75e8e8",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -831,13 +865,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-053"
     },
     {
       "repository": "Faunometric-Bioacoustic-Intelligence-Platform",
       "slug": "faunometric",
       "identityName": "Fauna",
-      "commercialReference": "TA-IP-007",
+      "commercialReference": "TA-IP-006",
       "auditedBaselineCommit": "5136f71fb47e518c4746aabd493acf0e0640ef00",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -857,13 +892,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-006"
     },
     {
       "repository": "FusionLunar-Energy-Systems-Engineering-Platform",
       "slug": "fusionlunar-energy-systems-engineering-platform",
       "identityName": "Luna",
-      "commercialReference": "TA-IP-059",
+      "commercialReference": "TA-IP-057",
       "auditedBaselineCommit": "927e6f0a9fa9e42e8a6a81003a46dcbf50709300",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -880,13 +916,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-057"
     },
     {
       "repository": "GoldenNet-Signal-Intelligence-Platform",
       "slug": "goldennet-signal-intelligence-platform",
       "identityName": "Aurelia",
-      "commercialReference": "TA-IP-056",
+      "commercialReference": "TA-IP-054",
       "auditedBaselineCommit": "d644b87d1d0278cbf7d84a20d8071ae4030605d2",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -903,13 +940,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-054"
     },
     {
       "repository": "H-RM-LYRA-Automotive-LYRA-RS-3.6T",
       "slug": "h-rm-lyra-automotive-lyra-rs-3-6t",
       "identityName": "Lydia",
-      "commercialReference": "TA-IP-092",
+      "commercialReference": "TA-IP-090",
       "auditedBaselineCommit": "65fdf8c6c88b2cd00a3257a811d413d7bdc11bc7",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -926,13 +964,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-090"
     },
     {
       "repository": "High-Speed-Air-to-Water-Transition-Vehicle",
       "slug": "air-to-water-transition-vehicle",
       "identityName": "Marina",
-      "commercialReference": "TA-IP-019",
+      "commercialReference": "TA-IP-017",
       "auditedBaselineCommit": "51697347299d306be7d161c86269bbbd378e2a37",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -949,13 +988,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-017"
     },
     {
       "repository": "Hybrid-Adaptive-Rendering-Media",
       "slug": "hybrid-adaptive-rendering-media",
       "identityName": "Nova",
-      "commercialReference": "TA-IP-070",
+      "commercialReference": "TA-IP-068",
       "auditedBaselineCommit": "9d8444c05691f706bb622339e796b1b0e74a3f6d",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -973,13 +1013,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-068"
     },
     {
       "repository": "ISBR-SecureTrace",
       "slug": "isbr-securetrace",
       "identityName": "Noelle",
-      "commercialReference": "TA-IP-046",
+      "commercialReference": "TA-IP-044",
       "auditedBaselineCommit": "fd60ef0bf79c5cd490319989a69e071ebbb18ea7",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -997,13 +1038,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-044"
     },
     {
       "repository": "Industrial-Predictive-Maintenance-RUL-Platform",
       "slug": "industrial-predictive-maintenance-rul-platform",
       "identityName": "Rhea",
-      "commercialReference": "TA-IP-061",
+      "commercialReference": "TA-IP-059",
       "auditedBaselineCommit": "fdba8ab499098daf626191ef75605a172f424245",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1021,13 +1063,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-059"
     },
     {
       "repository": "Integrated-Media-Production-Engine",
       "slug": "integrated-media-production-engine",
       "identityName": "Mira",
-      "commercialReference": "TA-IP-040",
+      "commercialReference": "TA-IP-038",
       "auditedBaselineCommit": "c72ab4961955b81c0932e16fcd3e94a5f943d894",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1047,13 +1090,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R3",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-038"
     },
     {
       "repository": "Interactive-Piano-Learning-Platform",
       "slug": "interactive-piano-learning-platform",
       "identityName": "Allegra",
-      "commercialReference": "TA-IP-086",
+      "commercialReference": "TA-IP-084",
       "auditedBaselineCommit": "7b40cbc8527dcc45a5d13495f829264b86361580",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1072,13 +1116,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-084"
     },
     {
       "repository": "Kinetic-Logic-Reconstructor",
       "slug": "kinetic-logic-reconstructor",
       "identityName": "Keira",
-      "commercialReference": "TA-IP-049",
+      "commercialReference": "TA-IP-047",
       "auditedBaselineCommit": "2e8d7fbd77c8b8f1f36de6a5a90734fea5c0ef76",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1095,13 +1140,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-047"
     },
     {
       "repository": "LYRA-AERO-eVTOL",
       "slug": "lyra-aero-evtol",
       "identityName": "Lucia",
-      "commercialReference": "TA-IP-093",
+      "commercialReference": "TA-IP-091",
       "auditedBaselineCommit": "408042cac2c144177b91af653cfaecf2d240424b",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1118,13 +1164,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-091"
     },
     {
       "repository": "LatticeDepth-Subsurface-Materials-Evidence-Qualification-Platform",
       "slug": "latticedepth",
       "identityName": "Gaia",
-      "commercialReference": "TA-IP-045",
+      "commercialReference": "TA-IP-043",
       "auditedBaselineCommit": "81090d0356850c932436ceb8d692b812aa55ba25",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1147,13 +1194,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R3",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-043"
     },
     {
       "repository": "LegalOps-NL",
       "slug": "legalops-nl",
       "identityName": "Julia",
-      "commercialReference": "TA-IP-035",
+      "commercialReference": "TA-IP-033",
       "auditedBaselineCommit": "213e3f7a705659f96db0f4d85c71f5ea09e828d2",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1170,13 +1218,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-033"
     },
     {
       "repository": "MOTHERCODE-Research-Engine",
       "slug": "mothercode-research-engine",
       "identityName": "Eve",
-      "commercialReference": "TA-IP-039",
+      "commercialReference": "TA-IP-037",
       "auditedBaselineCommit": "b085a224a484c84be1302959cb37638db66d0b4c",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH_AND_BOUNDED_DEVELOPMENT_BRANCH",
@@ -1191,13 +1240,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-037"
     },
     {
       "repository": "MT2050-Experimental-Dynamics",
       "slug": "mt2050-experimental-dynamics",
       "identityName": "Valentina",
-      "commercialReference": "TA-IP-033",
+      "commercialReference": "TA-IP-031",
       "auditedBaselineCommit": "64cda01db464c445dbc464ef359ef06e2984aba4",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1214,13 +1264,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-031"
     },
     {
       "repository": "Maastricht-Digital-Twin",
       "slug": "maastricht-digital-twin",
       "identityName": "Mila",
-      "commercialReference": "TA-IP-090",
+      "commercialReference": "TA-IP-088",
       "auditedBaselineCommit": "a5e48a80a70b3171d7a20c310f21df1f192011a3",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1238,13 +1289,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-088"
     },
     {
       "repository": "Maastricht-Zero-Hour-Simulator",
       "slug": "maastricht-zero-hour-simulator",
       "identityName": "Eva",
-      "commercialReference": "TA-IP-091",
+      "commercialReference": "TA-IP-089",
       "auditedBaselineCommit": "74c4cd23d800e677db32981a5c37784979d42561",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1257,13 +1309,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R0",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-089"
     },
     {
       "repository": "Machine-Cognition-Research-Framework",
       "slug": "machine-cognition-research-framework",
       "identityName": "Noa",
-      "commercialReference": "TA-IP-022",
+      "commercialReference": "TA-IP-020",
       "auditedBaselineCommit": "8cb56a1a8e52f9c82f6471eab888662561dbc935",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1280,13 +1333,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-020"
     },
     {
       "repository": "Mercorion-Commerce-Compiler",
       "slug": "mercorion-commerce-compiler",
       "identityName": "Mercia",
-      "commercialReference": "TA-IP-047",
+      "commercialReference": "TA-IP-045",
       "auditedBaselineCommit": "4090d0dc2e50848fe7b5110c09dc34ba9417c1df",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1306,13 +1360,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-045"
     },
     {
       "repository": "ModularKey-Cryptanalysis-Platform",
       "slug": "modular-key-cryptanalysis-platform",
       "identityName": "Alice",
-      "commercialReference": "TA-IP-008",
+      "commercialReference": "TA-IP-007",
       "auditedBaselineCommit": "7ae56e61201919545217900bf98ebca28f464107",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1329,13 +1384,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-007"
     },
     {
       "repository": "Multimodal-Evidence-Adaptive-Systems-Platform",
       "slug": "multimodal-evidence-adaptive-systems-platform",
       "identityName": "Lena",
-      "commercialReference": "TA-IP-058",
+      "commercialReference": "TA-IP-056",
       "auditedBaselineCommit": "3c6664d07311be71afa29632103755e10e843d13",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1352,13 +1408,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-056"
     },
     {
       "repository": "ORACULUM-INFINITUM",
       "slug": "oraculum-infinitum",
       "identityName": "Sibyl",
-      "commercialReference": "TA-IP-042",
+      "commercialReference": "TA-IP-040",
       "auditedBaselineCommit": "c0cb8b4595593d84c783d03a3bf0d10cef114050",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1375,13 +1432,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-040"
     },
     {
       "repository": "OSSN-UAP",
       "slug": "ossn-uap",
       "identityName": "Stella",
-      "commercialReference": "TA-IP-002",
+      "commercialReference": "TA-IP-001",
       "auditedBaselineCommit": "d43cf19d3b12ba6452f945aab1a5ea64deac7901",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1399,13 +1457,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-001"
     },
     {
       "repository": "Organismal-State-Dynamics-Research-Platform",
       "slug": "organismal-state-dynamics-research-platform",
       "identityName": "Daphne",
-      "commercialReference": "TA-IP-068",
+      "commercialReference": "TA-IP-066",
       "auditedBaselineCommit": "60ce881d9b23f0d2e0a34952566212f402e9cb91",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1424,13 +1483,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R3",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-066"
     },
     {
       "repository": "Organizational-Memory-Engine",
       "slug": "organizational-memory-engine",
       "identityName": "Mnemosyne",
-      "commercialReference": "TA-IP-021",
+      "commercialReference": "TA-IP-019",
       "auditedBaselineCommit": "7756e95c726b2564eb170cbb038ae42ac4d55889",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1448,13 +1508,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-019"
     },
     {
       "repository": "Programmatic-Search-Fabric",
       "slug": "programmatic-search-fabric",
       "identityName": "Sasha",
-      "commercialReference": "TA-IP-016",
+      "commercialReference": "TA-IP-014",
       "auditedBaselineCommit": "17b5715602cbe013aeadfe075012a5100cca2208",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1472,13 +1533,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-014"
     },
     {
       "repository": "Protein-Structure-Evidence-Qualification-Platform",
       "slug": "protein-structure-evidence-qualification-platform",
       "identityName": "Rosalind",
-      "commercialReference": "TA-IP-017",
+      "commercialReference": "TA-IP-015",
       "auditedBaselineCommit": "df7a4b0a01ef3c07d0be972a32b0fecb03c1b9b0",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1495,13 +1557,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-015"
     },
     {
       "repository": "QUBO-Structural-Analysis-and-Optimization-Platform",
       "slug": "qubo-structural-analysis-and-optimization-platform",
       "identityName": "Emmy",
-      "commercialReference": "TA-IP-077",
+      "commercialReference": "TA-IP-075",
       "auditedBaselineCommit": "c027b2a8f54f317339cd419e2057ea6247bf65c7",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1516,13 +1579,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-075"
     },
     {
       "repository": "Radioastronomy-Signal-Validation-Platform",
       "slug": "radioastronomy-signal-validation-platform",
       "identityName": "Jocelyn",
-      "commercialReference": "TA-IP-074",
+      "commercialReference": "TA-IP-072",
       "auditedBaselineCommit": "7b3b905b05dd85b8bbc8a72bce61897caca67ad3",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1540,13 +1604,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-072"
     },
     {
       "repository": "Research-Intelligence-Fabric.",
       "slug": "research-intelligence-fabric",
       "identityName": "Dorothy",
-      "commercialReference": "TA-IP-012",
+      "commercialReference": "TA-IP-011",
       "auditedBaselineCommit": "f6d0c94233ba0060ef0e26ba9dda21f2e205e4ba",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1563,13 +1628,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-011"
     },
     {
       "repository": "ReserveFlow-SaaS-Platform",
       "slug": "reserveflow-saas-platform",
       "identityName": "Olivia",
-      "commercialReference": "TA-IP-088",
+      "commercialReference": "TA-IP-086",
       "auditedBaselineCommit": "49ae1b21bb911d847fa14966ce3f0d9909b201cd",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1585,13 +1651,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R0",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-086"
     },
     {
       "repository": "Resource-Aware-Hybrid-Model-Orchestration-Platform",
       "slug": "resource-aware-hybrid-model-orchestration-platform",
       "identityName": "Mia",
-      "commercialReference": "TA-IP-030",
+      "commercialReference": "TA-IP-028",
       "auditedBaselineCommit": "2adda46f52a8abf666dcc33c6c170a345ee5cdb5",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH_AND_BOUNDED_DEVELOPMENT_BRANCH",
@@ -1606,13 +1673,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-028"
     },
     {
       "repository": "SWPP-VIORITH-Mobile-Camera-Overlay-",
       "slug": "swpp-viorith-mobile-camera-overlay",
       "identityName": "Violet",
-      "commercialReference": "TA-IP-083",
+      "commercialReference": "TA-IP-081",
       "auditedBaselineCommit": "de02892ac9ed9cbd27adc0f1ec4ecbf92896ea34",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1630,13 +1698,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-081"
     },
     {
       "repository": "Secure-Actuation-Integrity-Platform",
       "slug": "secure-actuation-integrity-platform",
       "identityName": "Valeria",
-      "commercialReference": "TA-IP-081",
+      "commercialReference": "TA-IP-079",
       "auditedBaselineCommit": "e4025683523b70281f349b0c6845224bb4b0269a",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1654,13 +1723,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R3",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-079"
     },
     {
       "repository": "Sensor-Fusion-Digital-Twin-Engine",
       "slug": "sensor-fusion-digital-twin-engine",
       "identityName": "Artemis",
-      "commercialReference": "TA-IP-027",
+      "commercialReference": "TA-IP-025",
       "auditedBaselineCommit": "18bfbb95f3369630f680503de7139cf9ea150bb9",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1677,13 +1747,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-025"
     },
     {
       "repository": "Signal-Processing-Universal-Framework",
       "slug": "signal-processing-universal-framework",
       "identityName": "Shannon",
-      "commercialReference": "TA-IP-018",
+      "commercialReference": "TA-IP-016",
       "auditedBaselineCommit": "8a115c904955797155b6463fd2cda415899223d3",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1700,13 +1771,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-016"
     },
     {
       "repository": "Software-Asset-Provenance-Qualification-Platform",
       "slug": "software-asset-provenance-qualification-platform",
       "identityName": "Beatrice",
-      "commercialReference": "TA-IP-065",
+      "commercialReference": "TA-IP-063",
       "auditedBaselineCommit": "416dee23d53ea2e25223d6bf5ff8302a5ffc7eb3",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1724,13 +1796,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R3",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-063"
     },
     {
       "repository": "SonicFabric",
       "slug": "sonicfabric",
       "identityName": "Harmonia",
-      "commercialReference": "TA-IP-048",
+      "commercialReference": "TA-IP-046",
       "auditedBaselineCommit": "cdfc7df5dba46500fb9ed00d7c1476431d9a679d",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1749,13 +1822,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-046"
     },
     {
       "repository": "SourceVector-Intelligence-Platform",
       "slug": "omnisynth-intelligence-engine",
       "identityName": "Sophie",
-      "commercialReference": "TA-IP-006",
+      "commercialReference": "TA-IP-005",
       "auditedBaselineCommit": "620213d30f3aa50120a29693d6871eb932bf4251",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1772,13 +1846,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-005"
     },
     {
       "repository": "Spatial-Wearable-Perception-Platform",
       "slug": "spatial-wearable-perception-platform",
       "identityName": "Skye",
-      "commercialReference": "TA-IP-075",
+      "commercialReference": "TA-IP-073",
       "auditedBaselineCommit": "649722bf3073957316966130ad2e21de6f8924d6",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1796,13 +1871,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-073"
     },
     {
       "repository": "StabilityMesh-Adaptive-Resilience-Control-for-Distributed-Systems",
       "slug": "stabilitymesh",
       "identityName": "Ariadne",
-      "commercialReference": "TA-IP-004",
+      "commercialReference": "TA-IP-003",
       "auditedBaselineCommit": "6a6e04b1db4a7c641a1de99671780fc22ccf9aaf",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1819,13 +1895,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-003"
     },
     {
       "repository": "TLS-Virtual-1",
       "slug": "tls-virtual",
       "identityName": "Talia",
-      "commercialReference": "TA-IP-011",
+      "commercialReference": "TA-IP-010",
       "auditedBaselineCommit": "2192bafec863eec3601bc396bf55a56bb61c10cc",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1844,13 +1921,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-010"
     },
     {
       "repository": "Telluric-Actualization-Research-Platform",
       "slug": "telluric-actualization-research-platform",
       "identityName": "Terra",
-      "commercialReference": "TA-IP-076",
+      "commercialReference": "TA-IP-074",
       "auditedBaselineCommit": "d9b2afa9108e57500315bb890c044060176f2e16",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1863,13 +1941,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R0",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-074"
     },
     {
       "repository": "Temporal-Physics-Causality-Research-Platform",
       "slug": "temporal-physics-causality-research-platform",
       "identityName": "Eleni",
-      "commercialReference": "TA-IP-060",
+      "commercialReference": "TA-IP-058",
       "auditedBaselineCommit": "1bc82c487ffe0271dc09385a11ce747ad42b8b64",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1887,13 +1966,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-058"
     },
     {
       "repository": "TraceLine-Evidence-Governed-Investigation-Framework",
       "slug": "traceline-evidence-governed-investigation-framework",
       "identityName": "Clio",
-      "commercialReference": "TA-IP-067",
+      "commercialReference": "TA-IP-065",
       "auditedBaselineCommit": "811388b926e0a0916cfd6634b98f886bc3003050",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1910,13 +1990,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-065"
     },
     {
       "repository": "TrueLane-Flora",
       "slug": "truelane-flora",
       "identityName": "Florence",
-      "commercialReference": "TA-IP-009",
+      "commercialReference": "TA-IP-008",
       "auditedBaselineCommit": "c773b1dda3b28d773ac055d20572d5cd03f78215",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1933,13 +2014,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-008"
     },
     {
       "repository": "TrueLane-InkCore",
       "slug": "truelane-inkcore",
       "identityName": "Ines",
-      "commercialReference": "TA-IP-052",
+      "commercialReference": "TA-IP-050",
       "auditedBaselineCommit": "5d2f5d39bdaea62f5d274b043107cf32fd89a439",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1956,13 +2038,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-050"
     },
     {
       "repository": "TrueLane-Intelligence-Engine",
       "slug": "truelane-intelligence-engine",
       "identityName": "Thalia",
-      "commercialReference": "TA-IP-015",
+      "commercialReference": "TA-IP-013",
       "auditedBaselineCommit": "d2234f0905763440fe06b1fa7a6e7002b490d397",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -1979,13 +2062,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-013"
     },
     {
       "repository": "TrueLane-Studio-Apex-Architect",
       "slug": "truelane-studio-apex-architect",
       "identityName": "Ava",
-      "commercialReference": "TA-IP-082",
+      "commercialReference": "TA-IP-080",
       "auditedBaselineCommit": "3868e277ea6a637cbc7b3a4543ead388ee438b29",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -2002,13 +2086,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-080"
     },
     {
       "repository": "Universal-Capability-Synthesis-Engine",
       "slug": "universal-capability-synthesis-engine",
       "identityName": "Ursula",
-      "commercialReference": "TA-IP-094",
+      "commercialReference": "TA-IP-092",
       "auditedBaselineCommit": "b8148150e0803e23a268bd830bfb2d713a982144",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -2025,13 +2110,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-092"
     },
     {
       "repository": "Universal-Kernel-Machine",
       "slug": "universal-kernel-machine",
       "identityName": "Kira",
-      "commercialReference": "TA-IP-026",
+      "commercialReference": "TA-IP-024",
       "auditedBaselineCommit": "a7351d51ae6ed0baba091d7aee4f1939007fc7fd",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -2048,13 +2134,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-024"
     },
     {
       "repository": "VellumGrid-Autonomous-Commerce-Platform",
       "slug": "vellumgrid-autonomous-commerce-platform",
       "identityName": "Vivienne",
-      "commercialReference": "TA-IP-089",
+      "commercialReference": "TA-IP-087",
       "auditedBaselineCommit": "c51a06eeb7543e98433b2341bdff230a68655757",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -2069,13 +2156,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-087"
     },
     {
       "repository": "Verifiable-Execution-Control-Platform",
       "slug": "verifiable-execution-control-platform",
       "identityName": "Victoria",
-      "commercialReference": "TA-IP-020",
+      "commercialReference": "TA-IP-018",
       "auditedBaselineCommit": "fd959ee476a0c2bc85803c7070207faf050e800c",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -2096,13 +2184,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-018"
     },
     {
       "repository": "Veritas-Evidence-Intelligence",
       "slug": "veritas-evidence-intelligence",
       "identityName": "Verity",
-      "commercialReference": "TA-IP-031",
+      "commercialReference": "TA-IP-029",
       "auditedBaselineCommit": "d049cc3388cc8c74cc229bfcec1dd37d731d9597",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -2119,13 +2208,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-029"
     },
     {
       "repository": "Vision-Evidence-Governed-Multimodal-Perception-Framework",
       "slug": "vision-evidence-governed-multimodal-perception-framework",
       "identityName": "Viola",
-      "commercialReference": "TA-IP-054",
+      "commercialReference": "TA-IP-052",
       "auditedBaselineCommit": "7e0ee68989060c2babfcdda95d63d8b41d95f5ab",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -2142,13 +2232,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-052"
     },
     {
       "repository": "Visionair-Research-Engine",
       "slug": "visionair-research-engine",
       "identityName": "Vivian",
-      "commercialReference": "TA-IP-053",
+      "commercialReference": "TA-IP-051",
       "auditedBaselineCommit": "4a4790d5c57d057879f1eadf02683ed0d48f43ac",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -2166,13 +2257,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-051"
     },
     {
       "repository": "Aurynthiq---.Autonomous-DJ-Intelligence-Platform",
       "slug": "aurynthiq-autonomous-dj-intelligence-platform",
       "identityName": "Isadora",
-      "commercialReference": "TA-IP-095",
+      "commercialReference": "TA-IP-093",
       "auditedBaselineCommit": "44d97997b2b811672e3415b0b3e9b62344e8b942",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -2190,13 +2282,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-093"
     },
     {
       "repository": "Universal-Vehicle-Configuration-Database",
       "slug": "universal-vehicle-configuration-database",
       "identityName": "Celine",
-      "commercialReference": "TA-IP-096",
+      "commercialReference": "TA-IP-094",
       "auditedBaselineCommit": "dd98b58fb96857debe9eefb8a5acb525f96f4dab",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH_AND_BOUNDED_DEVELOPMENT_BRANCH",
@@ -2219,13 +2312,14 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
-      "definitiveAgreementRequired": true
+      "definitiveAgreementRequired": true,
+      "ref": "TA-IP-094"
     },
     {
       "repository": "Digital-Twin-Core",
       "slug": "digital-twin-core",
       "identityName": "Tessa",
-      "commercialReference": "TA-IP-099",
+      "commercialReference": "TA-IP-097",
       "auditedBaselineCommit": "7c838eaf6692e3b14edc6b15e70e90288b39d29b",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -2237,16 +2331,19 @@
       "legalChainOfTitleOpinion": "NOT_PERFORMED",
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R0",
-      "offeredTransferPerimeter": "This asset’s own seller-owned first-party project rights and specifically agreed transferable documentation and delivery artifacts. Project websites are digital displays; third-party ownership rights remain governed separately.",
+      "offeredTransferPerimeter": "Existing first-party project definition and acquisition documentation, to the extent the associated rights are transferable. No implemented software or validated digital-twin capability is included. Licence/title evidence and definitive delivery terms remain required before transfer.",
       "definitiveAgreementRequired": true,
       "independentIpAsset": true,
-      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z",
+      "ref": "TA-IP-097",
+      "pricingScope": "Existing first-party project definition and acquisition documentation only. No implemented software, validated digital-twin capability, protected technical invention or future development is included in this estimate.",
+      "economicAssessmentAt": "2026-10-09T06:22:41Z"
     },
     {
       "repository": "LEARNPIANO",
       "slug": "learnpiano",
       "identityName": "Elise",
-      "commercialReference": "TA-IP-097",
+      "commercialReference": "TA-IP-095",
       "auditedBaselineCommit": "4ac4713e529bb187546a9e4197bc23ac634d5990",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -2266,13 +2363,16 @@
       "offeredTransferPerimeter": "This asset’s own seller-owned first-party project rights and specifically agreed transferable documentation and delivery artifacts. Project websites are digital displays; third-party ownership rights remain governed separately.",
       "definitiveAgreementRequired": true,
       "independentIpAsset": true,
-      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z",
+      "ref": "TA-IP-095",
+      "pricingScope": "Present first-party piano practice, performance and local production software, its proprietary transcription work, retained research and validation, and documentation. User music, external scores, recordings, datasets, plugins and future model qualification are excluded.",
+      "economicAssessmentAt": "2026-10-09T06:22:41Z"
     },
     {
       "repository": "Plantelogia-Intelligence-Platform",
       "slug": "plantelogia-intelligence-platform-lineage",
       "identityName": "Ivy",
-      "commercialReference": "TA-IP-098",
+      "commercialReference": "TA-IP-096",
       "auditedBaselineCommit": "0038679044885f8104cb460cb6902590ef1f87dc",
       "assessmentDate": "2026-10-09",
       "sourceScope": "DEFAULT_BRANCH",
@@ -2291,9 +2391,12 @@
       "offeredTransferPerimeter": "This asset’s own seller-owned first-party project rights and specifically agreed transferable documentation and delivery artifacts. Project websites are digital displays; third-party ownership rights remain governed separately.",
       "definitiveAgreementRequired": true,
       "independentIpAsset": true,
-      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z",
+      "ref": "TA-IP-096",
+      "pricingScope": "Present first-party evidence-governed intelligence prototype, retained qualification, documentation and packaging. Production deployment, operational infrastructure, external evidence/data rights and future productisation are excluded.",
+      "economicAssessmentAt": "2026-10-09T06:22:41Z"
     }
   ],
   "assessedAt": "2026-10-09T05:36:00Z",
-  "catalogueUpdatedAt": "2026-10-09T06:07:10Z"
+  "catalogueUpdatedAt": "2026-10-09T06:22:41Z"
 }
