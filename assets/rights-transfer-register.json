@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.09-im48-asset-only-catalogue",
+  "version": "2026.10.09-im49-independent-ip-assets",
   "basisDate": "2026-10-09",
   "status": "SELLER_SIDE_RIGHTS_AND_TRANSFER_REGISTER",
   "purpose": "Define what rights and deliverables are offered, what third-party rights are excluded from ownership transfer, and what evidence supports the seller-side rights position.",
@@ -2220,8 +2220,80 @@
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
       "definitiveAgreementRequired": true
+    },
+    {
+      "repository": "Digital-Twin-Core",
+      "slug": "digital-twin-core",
+      "identityName": "Tessa",
+      "commercialReference": "TA-IP-099",
+      "auditedBaselineCommit": "7c838eaf6692e3b14edc6b15e70e90288b39d29b",
+      "assessmentDate": "2026-10-09",
+      "sourceScope": "DEFAULT_BRANCH",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [],
+      "thirdPartyDisclosureFiles": [],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R0",
+      "offeredTransferPerimeter": "This asset’s own seller-owned first-party project rights and specifically agreed transferable documentation and delivery artifacts. Project websites are digital displays; third-party ownership rights remain governed separately.",
+      "definitiveAgreementRequired": true,
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
+    },
+    {
+      "repository": "LEARNPIANO",
+      "slug": "learnpiano",
+      "identityName": "Elise",
+      "commercialReference": "TA-IP-097",
+      "auditedBaselineCommit": "4ac4713e529bb187546a9e4197bc23ac634d5990",
+      "assessmentDate": "2026-10-09",
+      "sourceScope": "DEFAULT_BRANCH",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "This asset’s own seller-owned first-party project rights and specifically agreed transferable documentation and delivery artifacts. Project websites are digital displays; third-party ownership rights remain governed separately.",
+      "definitiveAgreementRequired": true,
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
+    },
+    {
+      "repository": "Plantelogia-Intelligence-Platform",
+      "slug": "plantelogia-intelligence-platform-lineage",
+      "identityName": "Ivy",
+      "commercialReference": "TA-IP-098",
+      "auditedBaselineCommit": "0038679044885f8104cb460cb6902590ef1f87dc",
+      "assessmentDate": "2026-10-09",
+      "sourceScope": "DEFAULT_BRANCH",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "rightsMaturity": "R2",
+      "offeredTransferPerimeter": "This asset’s own seller-owned first-party project rights and specifically agreed transferable documentation and delivery artifacts. Project websites are digital displays; third-party ownership rights remain governed separately.",
+      "definitiveAgreementRequired": true,
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
     }
   ],
   "assessedAt": "2026-10-09T05:36:00Z",
-  "catalogueUpdatedAt": "2026-10-09T05:51:18Z"
+  "catalogueUpdatedAt": "2026-10-09T06:07:10Z"
 }

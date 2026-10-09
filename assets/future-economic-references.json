@@ -1,10 +1,10 @@
 {
-  "version": "2026.10.09-im48-asset-only-catalogue",
+  "version": "2026.10.09-im49-independent-ip-assets",
   "status": "evidence-bounded-maturity-sensitivity-register",
   "basisDate": "2026-10-09",
   "purpose": "Asset-by-asset conditional economic references for objectively testable maturity transitions. These are not forecasts, seller asks, market values, investment returns or guarantees.",
   "methodology": {
-    "rule": "Only R→P and P→V maturity transitions receive a numeric conditional reference. V-stage assets receive NOT_ESTABLISHED unless new attributable market/income evidence supports a separate model.",
+    "rule": "Only R→P and P→V maturity transitions receive a numeric conditional reference. V-stage assets receive NOT_ESTABLISHED unless new attributable market/income evidence supports a separate model. An independently owned asset without its own monetary inputs has no numeric sensitivity until those inputs are established.",
     "invariantInputs": [
       "replacement cost",
       "commercial potential",
@@ -32,9 +32,9 @@
     "boundary": "No TAM-derived value, speculative revenue, arbitrary probability, automatic multiple, future seller ask or unverified commercialization outcome is used."
   },
   "summary": {
-    "projectCount": 94,
+    "projectCount": 97,
     "numericConditionalReferences": 38,
-    "notEstablished": 56,
+    "notEstablished": 59,
     "transitions": {
       "RtoP": 3,
       "PtoV": 35
@@ -1604,8 +1604,53 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL"
+    },
+    {
+      "slug": "digital-twin-core",
+      "ref": "TA-IP-099",
+      "identityName": "Tessa",
+      "name": "Digital Twin Core",
+      "assessmentDate": "2026-10-09",
+      "status": "NOT_ESTABLISHED",
+      "currentStage": "D",
+      "targetStage": null,
+      "milestoneConditionedEconomicReferenceEUR": null,
+      "futureReferenceStatus": "NOT_ESTABLISHED",
+      "reason": "Independent IP asset. A separate recreation-cost and economic baseline must be established before a numeric maturity sensitivity can be calculated.",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
+    },
+    {
+      "slug": "learnpiano",
+      "ref": "TA-IP-097",
+      "identityName": "Elise",
+      "name": "LEARNPIANO",
+      "assessmentDate": "2026-10-09",
+      "status": "NOT_ESTABLISHED",
+      "currentStage": "V",
+      "targetStage": null,
+      "milestoneConditionedEconomicReferenceEUR": null,
+      "futureReferenceStatus": "NOT_ESTABLISHED",
+      "reason": "Independent IP asset. A separate recreation-cost and economic baseline must be established before a numeric maturity sensitivity can be calculated.",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
+    },
+    {
+      "slug": "plantelogia-intelligence-platform-lineage",
+      "ref": "TA-IP-098",
+      "identityName": "Ivy",
+      "name": "PLANTELOGIA Intelligence Platform",
+      "assessmentDate": "2026-10-09",
+      "status": "NOT_ESTABLISHED",
+      "currentStage": "P",
+      "targetStage": null,
+      "milestoneConditionedEconomicReferenceEUR": null,
+      "futureReferenceStatus": "NOT_ESTABLISHED",
+      "reason": "Independent IP asset. A separate recreation-cost and economic baseline must be established before a numeric maturity sensitivity can be calculated.",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
     }
   ],
   "assessedAt": "2026-10-09T05:36:00Z",
-  "catalogueUpdatedAt": "2026-10-09T05:51:18Z"
+  "catalogueUpdatedAt": "2026-10-09T06:07:10Z"
 }

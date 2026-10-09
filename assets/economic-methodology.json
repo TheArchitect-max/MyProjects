@@ -3,11 +3,12 @@
   "model": "Recreation-Cost-Anchored Seller Pricing with Reproducible Public Arithmetic",
   "status": "public-seller-side-economic-model",
   "portfolio": {
-    "assetCount": 94,
+    "assetCount": 97,
     "stageCounts": {
-      "developedSoftware": 56,
-      "developedPrototype": 35,
-      "researchStage": 3
+      "developedSoftware": 57,
+      "developedPrototype": 36,
+      "researchStage": 3,
+      "definitionStage": 1
     },
     "sellerAskEUR": 24290000,
     "negotiationLowEUR": 19410000,
@@ -17,9 +18,12 @@
     "incomeLicensingProxyEUR": 139434347,
     "probabilityAdjustedStrategicValueEUR": 130156564,
     "triangulatedEconomicReferenceEUR": 122978192,
-    "averageTriangulatedEconomicReferencePerAsset": 1308278.6382978724,
     "sellerAskAsShareOfTriangulated": 0.19751469431263066,
-    "sellerAskAsShareOfReplacementCost": 0.23457267020762917
+    "sellerAskAsShareOfReplacementCost": 0.23457267020762917,
+    "pricedAssetCount": 94,
+    "unpricedAssetCount": 3,
+    "monetaryScope": "Published amounts only; unpriced assets are not assigned zero value.",
+    "averageTriangulatedEconomicReferencePerPricedAsset": 1308278.6382978724
   },
   "confidence": {
     "replacementCost": "Primary seller-side build-versus-buy reference estimating the engineering-equivalent cost to recreate comparable present transferable work product. It is a seller estimate, not a certified cost audit or guaranteed buyer saving.",
@@ -31,13 +35,13 @@
   },
   "rebuildCostCalibration": {
     "basisDate": "2026-10-09",
-    "approach": "Current project-by-project reassessment since the 7 October asset baselines. Verified new first-party work is added conservatively. Unchanged work retains its earlier engineering-equivalent estimate. Aurynthiq and UVCD are separately costed first-party software assets; websites, third-party data/models/media and duplicated companion work are excluded.",
+    "approach": "Current project-by-project reassessment since the 7 October asset baselines. Verified new first-party work is added conservatively. Unchanged work retains its earlier engineering-equivalent estimate. Aurynthiq and UVCD are separately costed first-party software assets; websites and third-party data/models/media are excluded from seller-owned software estimates. Independent IP assets without established monetary inputs remain individually listed and unpriced.",
     "seniorEngineerMonthEUR": 18000,
     "leadOrSpecialistMonthEUR": 22000,
     "validationProvenanceMonthEUR": 16000,
     "coordinationToolingAllowance": 0.15,
     "rounding": "Asset-level changes are rounded conservatively and are not inferred from commit count alone.",
-    "successorPolicy": "Successor/generalized identities and companion delivery-surface repositories are not double-counted where they substantially represent the same economic work product.",
+    "successorPolicy": "Every catalogue project is treated as its own IP asset with its own first-party rights and transfer perimeter. Monetary estimates are established separately for each asset. Project websites are digital displays only.",
     "boundary": "Only present reproducible software, research-software, validation, governance, packaging and handover work product is costed. Future hosting, market execution, speculative scientific outcomes, unexecuted external qualification, uncommitted implementation and unearned commercial performance are excluded.",
     "previousBasisDate": "2026-10-07",
     "assessedAt": "2026-10-09T05:36:00Z",
@@ -198,5 +202,11 @@
       }
     ],
     "commercialEvidence": "No new attributable income, external transaction or independent appraisal evidence identified; commercial-potential and monetization-route factors are retained for existing assets."
+  },
+  "independentAssetPolicy": {
+    "ipAssetCount": 97,
+    "pricedAssetCount": 94,
+    "unpricedAssetCount": 3,
+    "rule": "Independent asset identity and ownership scope are assessed separately from whether a monetary estimate has been established. Null monetary inputs are never converted to zero or represented by another asset."
   }
 }

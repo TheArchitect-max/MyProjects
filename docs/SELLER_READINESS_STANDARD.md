@@ -3,7 +3,7 @@
 Current review basis: 2026-10-09
 Previous evaluation basis: 2026-10-07
 
-This standard converts the 94-asset portfolio into a seller-side acquisition documentation system. It is deliberately narrower than buyer due diligence.
+This standard converts the 97-asset portfolio into a seller-side acquisition documentation system. It is deliberately narrower than buyer due diligence.
 
 ## Governing boundary
 
@@ -57,6 +57,6 @@ The rights review therefore focuses on seller-owned first-party rights, known/di
 
 ## Current comparison and calculation rules
 
-All 94 software assets have a current review result: UPDATED, NEW_SOFTWARE_ASSET_EVALUATION or RECONFIRMED. An unchanged conclusion means the current source/evidence snapshot was compared with the previous assessment; it is not a skipped review. The current source-pinned validation state remains distinct from the presence of test files or historical reports.
+All 97 IP assets have a current review result: UPDATED, NEW_SOFTWARE_ASSET_EVALUATION or RECONFIRMED. An unchanged conclusion means the current source/evidence snapshot was compared with the previous assessment; it is not a skipped review. The current source-pinned validation state remains distinct from the presence of test files or historical reports.
 
-The public scope consists only of the 94 independently scoped first-party software IP assets. Project websites are digital displays only. New monetary estimates cost first-party work only. No new independent legal, security, market, vehicle or scientific acceptance is inferred from an internal reassessment.
+The public scope consists only of the 97 independent first-party IP assets. Project websites are digital displays only. New monetary estimates cost first-party work only. No new independent legal, security, market, vehicle or scientific acceptance is inferred from an internal reassessment.

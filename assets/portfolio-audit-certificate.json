@@ -2,62 +2,66 @@
   "schema": "thearchitect-max-portfolio-audit-certificate-v4",
   "basisDate": "2026-10-09",
   "repository": "TheArchitect-max/MyProjects",
-  "sourceHeadAtCertificatePreparation": "2dfb073dd07b96d88f2db8356c1746f413b86364",
+  "sourceHeadAtCertificatePreparation": "b5503a46c61db7dff6145921c6c083da922ddc63",
   "scope": {
-    "softwareIpAssetCount": 94,
-    "pricedSoftwareAssetCount": 94
+    "ipAssetCount": 97,
+    "pricedAssetCount": 94,
+    "unpricedAssetCount": 3
   },
   "audit": {
     "sellerReadinessStatus": "COMPLETE",
-    "auditedProjects": 94,
+    "auditedProjects": 97,
     "pendingProjects": 0,
     "transactionReadiness": {
-      "audited": 94,
+      "audited": 97,
       "pending": 0,
       "ready": 2,
-      "readyWithConditions": 85,
-      "notReady": 7
+      "readyWithConditions": 87,
+      "notReady": 8
     },
     "evidenceMaturityDistribution": {
       "E1": 8,
-      "E3": 37,
+      "E3": 38,
       "E4": 16,
-      "E2": 33
+      "E2": 34,
+      "E0": 1
     },
     "ipRightsMaturityDistribution": {
-      "R2": 83,
-      "R0": 4,
+      "R2": 85,
+      "R0": 5,
       "R3": 7
     },
     "commercialMaturityDistribution": {
-      "C2": 94
+      "C2": 94,
+      "C1": 3
     },
     "transferReadinessDistribution": {
       "T1": 7,
       "T2": 7,
-      "T3": 78,
-      "T4": 2
+      "T3": 80,
+      "T4": 2,
+      "T0": 1
     },
     "topOpenSellerItems": [
       {
         "item": "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "count": 83
+        "count": 85
       },
       {
         "item": "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "count": 79
+        "count": 81
       },
       {
         "item": "Add an explicit buyer handover / transfer manifest.",
-        "count": 67
+        "count": 70
       },
       {
         "item": "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "count": 52
+        "count": 54
       },
       {
         "item": "Add release/provenance fingerprint or attestation evidence.",
-        "count": 38
+        "count": 40
       },
       {
         "item": "Add or consolidate third-party licensing/obligations documentation.",
@@ -65,15 +69,15 @@
       },
       {
         "item": "Repository-native tests not identified.",
-        "count": 4
+        "count": 5
       },
       {
         "item": "Repository licence file not identified.",
-        "count": 4
+        "count": 5
       },
       {
         "item": "Validation/qualification evidence not identified.",
-        "count": 4
+        "count": 5
       },
       {
         "item": "Agree and freeze the exact development-branch delivery perimeter before transfer; draft status is retained.",
@@ -96,44 +100,47 @@
     "replacementCostEUR": 103550000,
     "triangulatedEconomicReferenceEUR": 122978192,
     "milestoneConditionalNumericReferences": 38,
-    "milestoneReferencesNotEstablished": 56
+    "milestoneReferencesNotEstablished": 59,
+    "pricedAssetCount": 94,
+    "unpricedAssetCount": 3,
+    "monetaryScope": "Published monetary references only; three independent IP assets remain available by enquiry."
   },
   "sourceObjects": {
     "sellerReadinessRegister": {
       "path": "assets/seller-readiness-register.json",
-      "gitBlobSha": "6198d2cedd529161601d452cea18df82bd79eef0"
+      "gitBlobSha": "015ff0c9122f9657ddd6a86d01cf3f36a456313d"
     },
     "valuationRegister": {
       "path": "assets/valuation-register.json",
-      "gitBlobSha": "706caf11efcf0ccfdb5b91e56fd087045c43530b"
+      "gitBlobSha": "0b9c1f0e9a5fa81cb6dfdaa5c332832fc2914c19"
     },
     "futureEconomicReferences": {
       "path": "assets/future-economic-references.json",
-      "gitBlobSha": "e48eeae054122b3801c78f1792bfe02fff35f4dd"
+      "gitBlobSha": "ca3887decf33238df3b905f0a35a6afe6d9fb1a8"
     },
     "projectIdentities": {
       "path": "assets/project-identities.json",
-      "gitBlobSha": "71b12ab14660c02b06f6990dff1e296b60deb8e0"
+      "gitBlobSha": "b16997fa567e7c4b75d7defe74b7f1d736496e0a"
     },
     "ipOwnershipRegister": {
       "path": "assets/ip-ownership-register.json",
-      "gitBlobSha": "f4e039e778a94713a84c2411d801e694e779660e"
+      "gitBlobSha": "d856c665fea3ba9922fc1aa732870249adef2b10"
     },
     "softwareSupplyChainSummary": {
       "path": "assets/software-supply-chain-summary.json",
-      "gitBlobSha": "61118d75b806383e920a43577e5d363dd7b63757"
+      "gitBlobSha": "916adff96276b7c28fc7e35448dc0106460c69a7"
     },
     "rightsTransferRegister": {
       "path": "assets/rights-transfer-register.json",
-      "gitBlobSha": "0985aadc70d7fa7572aa482ccfdf14d683b690e2"
+      "gitBlobSha": "ce2712bf643445e0c170755799cd5d5fc1cab01c"
     },
     "projectEvaluations": {
       "path": "assets/project-evaluations.json",
-      "gitBlobSha": "66e8869939431e05a8f4d430225243c22ff15213"
+      "gitBlobSha": "bfeaf49596a7c877a65838c127c053a2288f0d26"
     },
     "projectPresentations": {
       "path": "assets/project-presentations.json",
-      "gitBlobSha": "605543a185bfdce852bf2250bf3c430ffaa27254"
+      "gitBlobSha": "6500fbfc9cc59bb32eaf7af104f337bded5b10f0"
     }
   },
   "externalStandards": [
@@ -168,11 +175,11 @@
     "date": "2026-10-09",
     "assessedAt": "2026-10-09T05:36:00Z",
     "previousEvaluationDate": "2026-10-07",
-    "projectsReviewed": 94,
-    "softwareAssetsEvaluated": 94,
+    "projectsReviewed": 97,
     "unassessedProjects": 0,
     "evaluationRegister": "assets/project-evaluations.json",
-    "boundary": "All 94 software-asset assessments are current; retained software validation is distinguished from newly executed validation and from unperformed buyer-specific acceptance."
+    "boundary": "All 97 projects are independent IP assets. Current source evidence and each asset’s individual rights and transfer perimeter remain distinct from whether a separate monetary estimate exists.",
+    "ipAssetsEvaluated": 97
   },
-  "catalogueUpdatedAt": "2026-10-09T05:51:18Z"
+  "catalogueUpdatedAt": "2026-10-09T06:07:10Z"
 }

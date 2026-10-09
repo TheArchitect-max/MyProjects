@@ -1,15 +1,16 @@
 {
-  "version": "2026.10.09-im48-asset-only-catalogue",
+  "version": "2026.10.09-im49-independent-ip-assets",
   "status": "public-seller-side-valuation-register",
   "valuationBasisDate": "2026-10-09",
   "developmentStatusDate": "2026-10-09",
-  "scope": "Current seller-side reassessment of the 94 independently scoped first-party software IP assets. Project websites are digital displays only.",
+  "scope": "The portfolio consists of 97 independent first-party IP assets, each with its own rights and transfer perimeter. The published monetary subtotals cover the 94 assets with separate monetary references; the other three assets are available by enquiry. Websites are digital displays only.",
   "portfolio": {
-    "assetCount": 94,
+    "assetCount": 97,
     "stageCounts": {
-      "developedSoftware": 56,
-      "developedPrototype": 35,
-      "researchStage": 3
+      "developedSoftware": 57,
+      "developedPrototype": 36,
+      "researchStage": 3,
+      "definitionStage": 1
     },
     "sellerAskEUR": 24290000,
     "negotiationLowEUR": 19410000,
@@ -19,9 +20,12 @@
     "incomeLicensingProxyEUR": 139434347,
     "probabilityAdjustedStrategicValueEUR": 130156564,
     "triangulatedEconomicReferenceEUR": 122978192,
-    "averageTriangulatedEconomicReferencePerAsset": 1308278.6382978724,
     "sellerAskAsShareOfTriangulated": 0.19751469431263066,
-    "sellerAskAsShareOfReplacementCost": 0.23457267020762917
+    "sellerAskAsShareOfReplacementCost": 0.23457267020762917,
+    "pricedAssetCount": 94,
+    "unpricedAssetCount": 3,
+    "monetaryScope": "Published amounts only; unpriced assets are not assigned zero value.",
+    "averageTriangulatedEconomicReferencePerPricedAsset": 1308278.6382978724
   },
   "updates": [
     {
@@ -1997,10 +2001,61 @@
       "probabilityAdjustedStrategicValueEUR": 774509,
       "triangulatedEconomicReferenceEUR": 899057,
       "askShareOfTriangulated": 0.1390345662177148
+    },
+    {
+      "sellerAskEUR": null,
+      "negotiationLowEUR": null,
+      "negotiationHighEUR": null,
+      "replacementCostEUR": null,
+      "marketComparableProxyEUR": null,
+      "incomeLicensingProxyEUR": null,
+      "probabilityAdjustedStrategicValueEUR": null,
+      "triangulatedEconomicReferenceEUR": null,
+      "ref": "TA-IP-097",
+      "slug": "learnpiano",
+      "name": "LEARNPIANO",
+      "stage": "V",
+      "potential": null,
+      "pricingStatus": "BY_ENQUIRY",
+      "independentIpAsset": true
+    },
+    {
+      "sellerAskEUR": null,
+      "negotiationLowEUR": null,
+      "negotiationHighEUR": null,
+      "replacementCostEUR": null,
+      "marketComparableProxyEUR": null,
+      "incomeLicensingProxyEUR": null,
+      "probabilityAdjustedStrategicValueEUR": null,
+      "triangulatedEconomicReferenceEUR": null,
+      "ref": "TA-IP-098",
+      "slug": "plantelogia-intelligence-platform-lineage",
+      "name": "PLANTELOGIA Intelligence Platform",
+      "stage": "P",
+      "potential": null,
+      "pricingStatus": "BY_ENQUIRY",
+      "independentIpAsset": true
+    },
+    {
+      "sellerAskEUR": null,
+      "negotiationLowEUR": null,
+      "negotiationHighEUR": null,
+      "replacementCostEUR": null,
+      "marketComparableProxyEUR": null,
+      "incomeLicensingProxyEUR": null,
+      "probabilityAdjustedStrategicValueEUR": null,
+      "triangulatedEconomicReferenceEUR": null,
+      "ref": "TA-IP-099",
+      "slug": "digital-twin-core",
+      "name": "Digital Twin Core",
+      "stage": "D",
+      "potential": null,
+      "pricingStatus": "BY_ENQUIRY",
+      "independentIpAsset": true
     }
   ],
   "assessedAt": "2026-10-09T05:36:00Z",
   "previousValuationBasisDate": "2026-10-07",
   "reviewPolicy": "Every project is reassessed against current source and retained evidence. An unchanged conclusion is explicitly retained after comparison; commit counts and version labels alone do not increase monetary value or maturity. Development branches and validated executable baselines are distinguished.",
-  "catalogueUpdatedAt": "2026-10-09T05:51:18Z"
+  "catalogueUpdatedAt": "2026-10-09T06:07:10Z"
 }

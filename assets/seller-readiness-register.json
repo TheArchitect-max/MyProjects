@@ -1,10 +1,11 @@
 {
-  "version": "2026.10.09-im48-asset-only-catalogue",
+  "version": "2026.10.09-im49-independent-ip-assets",
   "basisDate": "2026-10-09",
   "status": "COMPLETE",
   "scope": {
-    "softwareIpAssetCount": 94,
-    "pricedSoftwareAssetCount": 94
+    "ipAssetCount": 97,
+    "pricedAssetCount": 94,
+    "unpricedAssetCount": 3
   },
   "definitions": {
     "purpose": "Seller-side evidence, transfer and acquisition-documentation readiness. This is not buyer due diligence and does not replace buyer-specific legal, technical, security or financial review.",
@@ -11179,17 +11180,312 @@
       },
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "reviewResult": "UPDATED_EVIDENCE_OR_SCOPE"
+    },
+    {
+      "repository": "Digital-Twin-Core",
+      "slug": "digital-twin-core",
+      "identityName": "Tessa",
+      "commercialReference": "TA-IP-099",
+      "commercialStatus": "INDEPENDENT_IP_ASSET_PRICE_BY_ENQUIRY",
+      "currentStage": "D",
+      "sellerAskEUR": null,
+      "baselineCommit": "7c838eaf6692e3b14edc6b15e70e90288b39d29b",
+      "auditStatus": "CURRENT_REPOSITORY_REASSESSMENT_COMPLETE",
+      "assurance": {
+        "technicalMaturity": "UNASSESSED",
+        "evidenceMaturity": "E0",
+        "ipRightsMaturity": "R0",
+        "commercialMaturity": "C1",
+        "transferReadiness": "T0"
+      },
+      "transactionReadiness": "NOT_READY",
+      "evidence": {},
+      "dependencySummary": {
+        "manifestCount": 0,
+        "lockfileCount": 0,
+        "sbomCount": 0,
+        "manifests": [],
+        "locks": [],
+        "sbomFiles": []
+      },
+      "rightsSummary": {
+        "licenceFiles": [],
+        "thirdPartyFiles": [],
+        "legalTitleOpinion": "NOT_PERFORMED",
+        "ftoOpinion": "NOT_PERFORMED"
+      },
+      "securitySummary": {
+        "securityFiles": [],
+        "sensitiveFilenameIndicators": [],
+        "independentPenetrationTest": "NOT_ASSUMED"
+      },
+      "transferSummary": {
+        "buildReleaseEvidence": [],
+        "provenanceEvidence": [],
+        "transferEvidence": []
+      },
+      "openSellerItems": [
+        "No committed implementation baseline identified.",
+        "Repository licence file not identified.",
+        "Repository-native tests not identified.",
+        "Validation/qualification evidence not identified.",
+        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
+        "Add release/provenance fingerprint or attestation evidence.",
+        "Add an explicit buyer handover / transfer manifest."
+      ],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ],
+      "assessmentDate": "2026-10-09",
+      "assessedAt": "2026-10-09T05:36:00Z",
+      "previousAssessmentDate": "2026-10-07",
+      "previousBaselineCommit": "2962d8c984584138329ccd141923c9e7cf290866",
+      "defaultBranchBaselineCommit": "7c838eaf6692e3b14edc6b15e70e90288b39d29b",
+      "sourceScope": "DEFAULT_BRANCH",
+      "reviewResult": "UPDATED",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
+    },
+    {
+      "repository": "LEARNPIANO",
+      "slug": "learnpiano",
+      "identityName": "Elise",
+      "commercialReference": "TA-IP-097",
+      "commercialStatus": "INDEPENDENT_IP_ASSET_PRICE_BY_ENQUIRY",
+      "currentStage": "V",
+      "sellerAskEUR": null,
+      "baselineCommit": "4ac4713e529bb187546a9e4197bc23ac634d5990",
+      "auditStatus": "CURRENT_REPOSITORY_REASSESSMENT_COMPLETE",
+      "assurance": {
+        "technicalMaturity": "V",
+        "evidenceMaturity": "E2",
+        "ipRightsMaturity": "R2",
+        "commercialMaturity": "C1",
+        "transferReadiness": "T3"
+      },
+      "transactionReadiness": "READY_WITH_CONDITIONS",
+      "evidence": {
+        "EV-TECH-001": {
+          "kind": "implementation",
+          "path": "index.html",
+          "gitBlobSha": "b26dca21af2b743c4d0292833bcaebb4e7c1a2bd",
+          "baselineCommit": "4ac4713e529bb187546a9e4197bc23ac634d5990"
+        },
+        "EV-TEST-001": {
+          "kind": "tests",
+          "path": "tests/anchored-onset-residual-v15.test.mjs",
+          "gitBlobSha": "ab2562f9b7dbe4fd708c2d8c0f40b178f08c8202",
+          "baselineCommit": "4ac4713e529bb187546a9e4197bc23ac634d5990"
+        },
+        "EV-VAL-001": {
+          "kind": "validation",
+          "path": "tests/real-audio-benchmark.test.mjs",
+          "gitBlobSha": "0eb45b1dacd359e23e72f357fd8d196729129bd8",
+          "baselineCommit": "4ac4713e529bb187546a9e4197bc23ac634d5990"
+        },
+        "EV-IP-001": {
+          "kind": "repository-licence",
+          "path": "LICENSE",
+          "gitBlobSha": "b2089af6f61313fab1c3a098b0ac1f00a310de34",
+          "baselineCommit": "4ac4713e529bb187546a9e4197bc23ac634d5990"
+        },
+        "EV-DEP-001": {
+          "kind": "dependency-manifest",
+          "path": "package.json",
+          "gitBlobSha": "9a9f21d060bde3d8166ec74c1c2c533cb0d628ec",
+          "baselineCommit": "4ac4713e529bb187546a9e4197bc23ac634d5990"
+        }
+      },
+      "dependencySummary": {
+        "manifestCount": 4,
+        "lockfileCount": 0,
+        "sbomCount": 0,
+        "manifests": [
+          "package.json",
+          "validation/real-audio/requirements-ci.txt",
+          "validation/real-audio/requirements-v14-training.txt",
+          "validation/real-audio/requirements.txt"
+        ],
+        "locks": [],
+        "sbomFiles": []
+      },
+      "rightsSummary": {
+        "licenceFiles": [
+          "LICENSE"
+        ],
+        "thirdPartyFiles": [
+          "LICENSE",
+          "THIRD_PARTY_NOTICES.md"
+        ],
+        "legalTitleOpinion": "NOT_PERFORMED",
+        "ftoOpinion": "NOT_PERFORMED"
+      },
+      "securitySummary": {
+        "securityFiles": [],
+        "sensitiveFilenameIndicators": [],
+        "independentPenetrationTest": "NOT_ASSUMED"
+      },
+      "transferSummary": {
+        "buildReleaseEvidence": [
+          "package.json"
+        ],
+        "provenanceEvidence": [],
+        "transferEvidence": []
+      },
+      "openSellerItems": [
+        "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
+        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
+        "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
+        "Add release/provenance fingerprint or attestation evidence.",
+        "Add an explicit buyer handover / transfer manifest."
+      ],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ],
+      "assessmentDate": "2026-10-09",
+      "assessedAt": "2026-10-09T05:36:00Z",
+      "previousAssessmentDate": "2026-10-07",
+      "previousBaselineCommit": "a58f0cf9be1680ea86b21ebc30e3c1db102299e4",
+      "defaultBranchBaselineCommit": "4ac4713e529bb187546a9e4197bc23ac634d5990",
+      "sourceScope": "DEFAULT_BRANCH",
+      "reviewResult": "UPDATED",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
+    },
+    {
+      "repository": "Plantelogia-Intelligence-Platform",
+      "slug": "plantelogia-intelligence-platform-lineage",
+      "identityName": "Ivy",
+      "commercialReference": "TA-IP-098",
+      "commercialStatus": "INDEPENDENT_IP_ASSET_PRICE_BY_ENQUIRY",
+      "currentStage": "P",
+      "sellerAskEUR": null,
+      "baselineCommit": "0038679044885f8104cb460cb6902590ef1f87dc",
+      "auditStatus": "CURRENT_REPOSITORY_REASSESSMENT_COMPLETE",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E3",
+        "ipRightsMaturity": "R2",
+        "commercialMaturity": "C1",
+        "transferReadiness": "T3"
+      },
+      "transactionReadiness": "READY_WITH_CONDITIONS",
+      "evidence": {
+        "EV-TECH-001": {
+          "kind": "implementation",
+          "path": "scripts/qualify.py",
+          "gitBlobSha": "1e5da25afd03a66e1bc3b8bb3a9afae8d67875d7",
+          "baselineCommit": "0038679044885f8104cb460cb6902590ef1f87dc"
+        },
+        "EV-TEST-001": {
+          "kind": "tests",
+          "path": "tests/test_core.py",
+          "gitBlobSha": "13d5d81304cebcd8cc24702be059a4e0d45cbb5b",
+          "baselineCommit": "0038679044885f8104cb460cb6902590ef1f87dc"
+        },
+        "EV-VAL-001": {
+          "kind": "validation",
+          "path": "docs/QUALIFICATION.md",
+          "gitBlobSha": "a991c36b01ac0c8563c6cc1badc8f3ffcf26a167",
+          "baselineCommit": "0038679044885f8104cb460cb6902590ef1f87dc"
+        },
+        "EV-IP-001": {
+          "kind": "repository-licence",
+          "path": "LICENSE",
+          "gitBlobSha": "b848075585d80aa981221a3a245d5d4b3a4e6c73",
+          "baselineCommit": "0038679044885f8104cb460cb6902590ef1f87dc"
+        },
+        "EV-DEP-001": {
+          "kind": "dependency-manifest",
+          "path": "pyproject.toml",
+          "gitBlobSha": "539b2fff1a7ca982d5911194d8dc47bc023da5ff",
+          "baselineCommit": "0038679044885f8104cb460cb6902590ef1f87dc"
+        },
+        "EV-SEC-001": {
+          "kind": "security",
+          "path": "SECURITY.md",
+          "gitBlobSha": "2e9715808613fa4f1154c5c4acf2af14c394f780",
+          "baselineCommit": "0038679044885f8104cb460cb6902590ef1f87dc"
+        },
+        "EV-PROV-001": {
+          "kind": "provenance",
+          "path": "schemas/provenance-envelope.schema.json",
+          "gitBlobSha": "eabb328beb4f0e3ef317bff656b03843a4294868",
+          "baselineCommit": "0038679044885f8104cb460cb6902590ef1f87dc"
+        }
+      },
+      "dependencySummary": {
+        "manifestCount": 1,
+        "lockfileCount": 0,
+        "sbomCount": 0,
+        "manifests": [
+          "pyproject.toml"
+        ],
+        "locks": [],
+        "sbomFiles": []
+      },
+      "rightsSummary": {
+        "licenceFiles": [
+          "LICENSE"
+        ],
+        "thirdPartyFiles": [
+          "LICENSE"
+        ],
+        "legalTitleOpinion": "NOT_PERFORMED",
+        "ftoOpinion": "NOT_PERFORMED"
+      },
+      "securitySummary": {
+        "securityFiles": [
+          "SECURITY.md",
+          "docs/THREAT-MODEL-0.2.md"
+        ],
+        "sensitiveFilenameIndicators": [],
+        "independentPenetrationTest": "NOT_ASSUMED"
+      },
+      "transferSummary": {
+        "buildReleaseEvidence": [
+          "pyproject.toml"
+        ],
+        "provenanceEvidence": [
+          "schemas/provenance-envelope.schema.json",
+          "src/plantelogia/core/provenance.py"
+        ],
+        "transferEvidence": []
+      },
+      "openSellerItems": [
+        "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
+        "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
+        "Add an explicit buyer handover / transfer manifest."
+      ],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ],
+      "assessmentDate": "2026-10-09",
+      "assessedAt": "2026-10-09T05:36:00Z",
+      "previousAssessmentDate": "2026-10-07",
+      "previousBaselineCommit": "918448d0dc26c18fb6d065fa2f160ce5edc474ab",
+      "defaultBranchBaselineCommit": "0038679044885f8104cb460cb6902590ef1f87dc",
+      "sourceScope": "DEFAULT_BRANCH",
+      "reviewResult": "UPDATED",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
     }
   ],
   "summary": {
-    "audited": 94,
+    "audited": 97,
     "pending": 0,
     "ready": 2,
-    "readyWithConditions": 85,
-    "notReady": 7
+    "readyWithConditions": 87,
+    "notReady": 8
   },
   "assessedAt": "2026-10-09T05:36:00Z",
   "previousBasisDate": "2026-10-07",
   "reviewPolicy": "Current default-branch heads and retained evidence are compared with previous frozen assessment baselines. Where committed implementation exists only on a development branch, that scope is explicit and does not imply a merge or full release acceptance. Unchanged evidence retains its previous grade after Git-blob verification. Repository evidence inventory is not a fresh execution of every software test suite.",
-  "catalogueUpdatedAt": "2026-10-09T05:51:18Z"
+  "catalogueUpdatedAt": "2026-10-09T06:07:10Z"
 }

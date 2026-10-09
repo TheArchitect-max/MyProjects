@@ -1,6 +1,6 @@
 {
-  "version": "2026.10.09-im48-asset-only-catalogue",
-  "policy": "One project title and one feminine reference alias per software IP asset. Titles lead the presentation; aliases never replace titles. Websites are digital displays only.",
+  "version": "2026.10.09-im49-independent-ip-assets",
+  "policy": "Each independent IP asset has one project title and one feminine reference alias. Each project has its own asset identity and rights perimeter. Websites are digital displays only.",
   "projects": [
     {
       "repository": "ATHANOR---Adaptive-Topology-Hazard-Analysis-Network-Optimization-Resilience",
@@ -565,10 +565,34 @@
       "slug": "universal-vehicle-configuration-database",
       "identityName": "Celine",
       "existingCanonical": false
+    },
+    {
+      "repository": "Digital-Twin-Core",
+      "slug": "digital-twin-core",
+      "identityName": "Tessa",
+      "existingCanonical": false,
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
+    },
+    {
+      "repository": "LEARNPIANO",
+      "slug": "learnpiano",
+      "identityName": "Elise",
+      "existingCanonical": false,
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
+    },
+    {
+      "repository": "Plantelogia-Intelligence-Platform",
+      "slug": "plantelogia-intelligence-platform-lineage",
+      "identityName": "Ivy",
+      "existingCanonical": false,
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
     }
   ],
   "scope": {
-    "softwareIpAssetCount": 94,
+    "ipAssetCount": 97,
     "excludedRepositories": [
       "Adaptive-Audio-Synthesis-Platform-Website",
       "BIND-AI-Website",
@@ -583,5 +607,5 @@
       "SAIP-Website"
     ]
   },
-  "catalogueUpdatedAt": "2026-10-09T05:51:18Z"
+  "catalogueUpdatedAt": "2026-10-09T06:07:10Z"
 }

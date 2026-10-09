@@ -1,16 +1,16 @@
 {
-  "version": "2026.10.09-im48-asset-only-catalogue",
+  "version": "2026.10.09-im49-independent-ip-assets",
   "basisDate": "2026-10-09",
   "status": "SELLER_SIDE_REPOSITORY_EVIDENCE_SUMMARY",
   "boundary": "This is a portfolio-level SBOM/licensing summary derived from repository evidence. It does not claim a complete component-level SBOM where no SBOM file exists.",
   "summary": {
-    "projects": 94,
-    "withDependencyManifest": 87,
+    "projects": 97,
+    "withDependencyManifest": 89,
     "withLockfile": 4,
     "withExistingSbom": 8,
-    "withLicenceFile": 90,
-    "withThirdPartyDisclosure": 85,
-    "withSecurityEvidence": 42,
+    "withLicenceFile": 92,
+    "withThirdPartyDisclosure": 87,
+    "withSecurityEvidence": 43,
     "withSensitiveFilenameIndicators": 8
   },
   "projects": [
@@ -2316,8 +2316,81 @@
       "securityEvidenceFiles": [],
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE"
+    },
+    {
+      "repository": "Digital-Twin-Core",
+      "slug": "digital-twin-core",
+      "identityName": "Tessa",
+      "baselineCommit": "7c838eaf6692e3b14edc6b15e70e90288b39d29b",
+      "assessmentDate": "2026-10-09",
+      "manifests": [],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "NO_DEPENDENCY_MANIFEST_IDENTIFIED",
+      "licenceFiles": [],
+      "thirdPartyDisclosureFiles": [],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "NOT_ESTABLISHED",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
+    },
+    {
+      "repository": "LEARNPIANO",
+      "slug": "learnpiano",
+      "identityName": "Elise",
+      "baselineCommit": "4ac4713e529bb187546a9e4197bc23ac634d5990",
+      "assessmentDate": "2026-10-09",
+      "manifests": [
+        "package.json",
+        "validation/real-audio/requirements-ci.txt",
+        "validation/real-audio/requirements-v14-training.txt",
+        "validation/real-audio/requirements.txt"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
+    },
+    {
+      "repository": "Plantelogia-Intelligence-Platform",
+      "slug": "plantelogia-intelligence-platform-lineage",
+      "identityName": "Ivy",
+      "baselineCommit": "0038679044885f8104cb460cb6902590ef1f87dc",
+      "assessmentDate": "2026-10-09",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "MANIFEST_EVIDENCED_SBOM_NOT_PRESENT",
+      "licenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE"
+      ],
+      "securityEvidenceFiles": [
+        "SECURITY.md",
+        "docs/THREAT-MODEL-0.2.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-09T06:07:10Z"
     }
   ],
   "assessedAt": "2026-10-09T05:36:00Z",
-  "catalogueUpdatedAt": "2026-10-09T05:51:18Z"
+  "catalogueUpdatedAt": "2026-10-09T06:07:10Z"
 }
