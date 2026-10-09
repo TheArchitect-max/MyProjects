@@ -2,7 +2,7 @@
 const SCRIPT=document.currentScript;
 const ROOT=new URL('../',SCRIPT.src).href;
 const AS=new URL('assets/',ROOT).href;
-const VERSION='sites4';
+const VERSION='sites5';
 const ESC=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const hex=b=>[...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('');
 const sha256=async s=>hex(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s)));

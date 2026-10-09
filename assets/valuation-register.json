@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.09-im51-complete-asset-pricing",
+  "version": "2026.10.09-im52-current-pages-and-displays",
   "status": "public-seller-side-valuation-register",
   "valuationBasisDate": "2026-10-09",
   "developmentStatusDate": "2026-10-09",
@@ -2084,7 +2084,7 @@
   "assessedAt": "2026-10-09T05:36:00Z",
   "previousValuationBasisDate": "2026-10-07",
   "reviewPolicy": "Every project is reassessed against current source and retained evidence. An unchanged conclusion is explicitly retained after comparison; commit counts and version labels alone do not increase monetary value or maturity. Development branches and validated executable baselines are distinguished.",
-  "catalogueUpdatedAt": "2026-10-09T06:22:41Z",
+  "catalogueUpdatedAt": "2026-10-09T10:15:23Z",
   "latestSeparateAssetPricing": {
     "assessedAt": "2026-10-09T06:22:41Z",
     "assetCount": 3,
@@ -2098,5 +2098,18 @@
     "previousPublishedSellerAskEUR": 24290000,
     "previousPublishedReplacementCostEUR": 103550000,
     "boundary": "Fresh source-head checks and retained-evidence review for these three assets. Prior source/evidence assessments and monetary inputs for the other 94 assets retain their recorded dates; no fresh execution of all repository tests is claimed."
+  },
+  "latestSourceReview": {
+    "checkedAt": "2026-10-09T10:15:23Z",
+    "previousCatalogueUpdatedAt": "2026-10-09T06:22:41Z",
+    "defaultBranchesChecked": 97,
+    "changedDefaultBranches": 4,
+    "updatedAssetProfiles": 8,
+    "unchangedAssetProfiles": 89,
+    "retainedNumericPriceRecords": 97,
+    "softwareMaturityChanges": 0,
+    "monetaryChanges": 0,
+    "displayCount": 11,
+    "boundary": "Fresh source-head checks for all 97 assets and retained-evidence review for changed releases or development scopes. No fresh execution of all source repositories, independent price appraisal or production-service deployment is implied."
   }
 }

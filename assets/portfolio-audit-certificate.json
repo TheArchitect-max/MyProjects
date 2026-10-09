@@ -2,7 +2,7 @@
   "schema": "thearchitect-max-portfolio-audit-certificate-v4",
   "basisDate": "2026-10-09",
   "repository": "TheArchitect-max/MyProjects",
-  "sourceHeadAtCertificatePreparation": "264e7f3c184fe95ac2e55cd23654168c2a6dfd23",
+  "sourceHeadAtCertificatePreparation": "9ba7fd0b9683b5c3afac807b114ba352f66af92c",
   "scope": {
     "ipAssetCount": 97,
     "pricedAssetCount": 97,
@@ -21,9 +21,9 @@
     },
     "evidenceMaturityDistribution": {
       "E1": 8,
-      "E3": 39,
+      "E3": 40,
       "E4": 16,
-      "E2": 33,
+      "E2": 32,
       "E0": 1
     },
     "ipRightsMaturityDistribution": {
@@ -60,7 +60,7 @@
       },
       {
         "item": "Release identity and provenance evidence remain incomplete.",
-        "count": 39
+        "count": 38
       },
       {
         "item": "Third-party licensing and obligations documentation remains incomplete.",
@@ -107,39 +107,39 @@
   "sourceObjects": {
     "sellerReadinessRegister": {
       "path": "assets/seller-readiness-register.json",
-      "gitBlobSha": "b5e2fc3aed841453a4ed0a57baa44e6c58c6afac"
+      "gitBlobSha": "af202d1bc2c24af7b36399ea558147e2b514b0ea"
     },
     "valuationRegister": {
       "path": "assets/valuation-register.json",
-      "gitBlobSha": "83c6727ebeb36cb7a6bcfd2c484b3eb5d9b25337"
+      "gitBlobSha": "cf2f856eb4e14248499ea99676a733440007a3b7"
     },
     "futureEconomicReferences": {
       "path": "assets/future-economic-references.json",
-      "gitBlobSha": "d336431f5605c58a10113a5d68692835dd57a665"
+      "gitBlobSha": "615498fafff14641feeb2d44d8fdaec14e8f179c"
     },
     "projectIdentities": {
       "path": "assets/project-identities.json",
-      "gitBlobSha": "ec6893651d70f326c61a40d1a82ce2842e4d2e8e"
+      "gitBlobSha": "6456136a232144d8301a6004f69c43aebffbf76f"
     },
     "ipOwnershipRegister": {
       "path": "assets/ip-ownership-register.json",
-      "gitBlobSha": "c52f6083343ff6499a328dd0b0fe9d522a18a14e"
+      "gitBlobSha": "fc10742783313e8655b6037d3984a74de56fb8ce"
     },
     "softwareSupplyChainSummary": {
       "path": "assets/software-supply-chain-summary.json",
-      "gitBlobSha": "be036223a43cf792f6e4076ed15616f0553fb5c7"
+      "gitBlobSha": "25001d884aa9165044cc4863b676de8399fcef4c"
     },
     "rightsTransferRegister": {
       "path": "assets/rights-transfer-register.json",
-      "gitBlobSha": "aba61e9013fca838bbb6d51d58fc312655d15ca7"
+      "gitBlobSha": "0cf27b20a63f5ea73ab1eef207a92587e9963eb8"
     },
     "projectEvaluations": {
       "path": "assets/project-evaluations.json",
-      "gitBlobSha": "7a77d339c2dd074887e8eeb5b00b39ff5eea6dc9"
+      "gitBlobSha": "2cb2cc2b909ffb103389b944f07668f5706dc585"
     },
     "projectPresentations": {
       "path": "assets/project-presentations.json",
-      "gitBlobSha": "5c7a82e05dc4b2f3859d4b091015e28ae66ece34"
+      "gitBlobSha": "d48655cd952cf1f01e5d865302b92138ca27a449"
     }
   },
   "externalStandards": [
@@ -168,19 +168,20 @@
     "developmentMethodDisclosure": "OUTSIDE_PUBLIC_TRANSACTION_RECORD",
     "legalChainOfTitleOpinion": "NOT_PERFORMED_UNLESS_SEPARATELY_EVIDENCED"
   },
-  "assessedAt": "2026-10-09T05:36:00Z",
-  "previousBasisDate": "2026-10-07",
+  "assessedAt": "2026-10-09T10:15:23Z",
+  "previousBasisDate": "2026-10-09",
   "fullEvaluationUpdate": {
     "date": "2026-10-09",
-    "assessedAt": "2026-10-09T05:36:00Z",
-    "previousEvaluationDate": "2026-10-07",
+    "assessedAt": "2026-10-09T10:15:23Z",
+    "previousEvaluationDate": "2026-10-09",
     "projectsReviewed": 97,
     "unassessedProjects": 0,
     "evaluationRegister": "assets/project-evaluations.json",
-    "boundary": "All 97 projects retain individual source/evidence assessments with their recorded dates. The three latest separately listed assets have fresh source-head checks and their first individual present-scope prices. Digital Twin Core is documentation only; no independent legal, financial, security or production certification is implied.",
-    "ipAssetsEvaluated": 97
+    "boundary": "Fresh source-head checks for all 97 assets and retained-evidence review for changed releases or development scopes. No fresh execution of all source repositories, independent price appraisal or production-service deployment is implied.",
+    "ipAssetsEvaluated": 97,
+    "previousAssessedAt": "2026-10-09T05:36:00Z"
   },
-  "catalogueUpdatedAt": "2026-10-09T06:22:41Z",
+  "catalogueUpdatedAt": "2026-10-09T10:15:23Z",
   "latestSeparateAssetPricing": {
     "assessedAt": "2026-10-09T06:22:41Z",
     "assetCount": 3,
@@ -194,5 +195,18 @@
     "previousPublishedSellerAskEUR": 24290000,
     "previousPublishedReplacementCostEUR": 103550000,
     "boundary": "Fresh source-head checks and retained-evidence review for these three assets. Prior source/evidence assessments and monetary inputs for the other 94 assets retain their recorded dates; no fresh execution of all repository tests is claimed."
+  },
+  "latestPageRefresh": {
+    "checkedAt": "2026-10-09T10:15:23Z",
+    "previousCatalogueUpdatedAt": "2026-10-09T06:22:41Z",
+    "defaultBranchesChecked": 97,
+    "changedDefaultBranches": 4,
+    "updatedAssetProfiles": 8,
+    "unchangedAssetProfiles": 89,
+    "retainedNumericPriceRecords": 97,
+    "softwareMaturityChanges": 0,
+    "monetaryChanges": 0,
+    "displayCount": 11,
+    "boundary": "Fresh source-head checks for all 97 assets and retained-evidence review for changed releases or development scopes. No fresh execution of all source repositories, independent price appraisal or production-service deployment is implied."
   }
 }

@@ -1,5 +1,5 @@
 {
-  "v": "2026.10.09-im51-complete-asset-pricing",
+  "v": "2026.10.09-im52-current-pages-and-displays",
   "model": "Recreation-Cost-Anchored Seller Pricing with Reproducible Public Arithmetic",
   "status": "public-seller-side-economic-model",
   "portfolio": {
@@ -141,7 +141,8 @@
       }
     ],
     "estimateBoundary": "Engineer-month budgets are seller-side engineering-equivalent estimates for reproducing delivered work, not recorded payroll, elapsed development time, certified costs or a market appraisal.",
-    "latestSeparateAssetPricingAt": "2026-10-09T06:22:41Z"
+    "latestSeparateAssetPricingAt": "2026-10-09T06:22:41Z",
+    "latestReviewBoundary": "Current source and release changes are reflected in the dated evaluation register. Existing engineering-equivalent budgets and asking references are retained; no additional budget or verified commercial-income evidence is established by this page refresh."
   },
   "factors": {
     "marketPotential": {
@@ -313,5 +314,18 @@
       "url": "https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html",
       "application": "General cost-approach context only. WIPO does not endorse, certify or supply the asset-specific amounts or engineering-equivalent budgets."
     }
-  ]
+  ],
+  "latestSourceReview": {
+    "checkedAt": "2026-10-09T10:15:23Z",
+    "previousCatalogueUpdatedAt": "2026-10-09T06:22:41Z",
+    "defaultBranchesChecked": 97,
+    "changedDefaultBranches": 4,
+    "updatedAssetProfiles": 8,
+    "unchangedAssetProfiles": 89,
+    "retainedNumericPriceRecords": 97,
+    "softwareMaturityChanges": 0,
+    "monetaryChanges": 0,
+    "displayCount": 11,
+    "boundary": "Fresh source-head checks for all 97 assets and retained-evidence review for changed releases or development scopes. No fresh execution of all source repositories, independent price appraisal or production-service deployment is implied."
+  }
 }

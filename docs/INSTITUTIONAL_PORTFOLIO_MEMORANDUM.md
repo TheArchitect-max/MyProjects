@@ -2,12 +2,12 @@
 
 **THEARCHITECT_MAX — Private Technology & IP Portfolio**
 **Current evaluation basis:** 9 October 2026
-**Previous basis:** 7 October 2026
-**Source/evidence evaluation timestamp:** 2026-10-09T05:36:00Z
+**Previous catalogue timestamp:** 2026-10-09T06:22:41Z
+**Source/evidence evaluation timestamp:** 2026-10-09T10:15:23Z
 
 ## 1. Portfolio thesis
 
-The portfolio consists of 97 independent first-party IP assets, each with its own identity, rights and transfer perimeter. Individual asking references and present-scope recreation estimates are available for all 97 assets. Digital Twin Core is priced for existing definition and acquisition documentation only; no implemented software is included. Project websites are digital displays linked to the corresponding software asset.
+The portfolio consists of 97 independent first-party IP assets, each with its own identity, rights and transfer perimeter. Individual asking references and present-scope recreation estimates are available for all 97 assets. Digital Twin Core is priced for existing definition and acquisition documentation only; no implemented software is included. The directory provides 11 project websites as digital displays linked to their corresponding IP assets; display repositories are excluded from the asset count.
 
 The public catalogue is a screening and evidence layer. Source code, detailed architecture, controlled validation material, sensitive security information and transaction-confidential documents remain outside the public showroom unless already intentionally public in the underlying repository.
 
@@ -106,14 +106,14 @@ Review the conditions relevant to your intended transaction:
 - 81 assets — A detailed component inventory and licensing report are required for the agreed delivery scope.
 - 70 assets — An explicit delivery manifest and handover scope remain to be agreed.
 - 54 assets — A security assessment or an explicit statement of its absence is required before acceptance.
-- 39 assets — Release identity and provenance evidence remain incomplete.
+- 38 assets — Release identity and provenance evidence remain incomplete.
 - 8 assets — Third-party licensing and obligations documentation remains incomplete.
 - 5 assets — Repository-native tests not identified.
 - 5 assets — Repository licence file not identified.
 - 5 assets — Validation/qualification evidence not identified.
 - 3 assets — Agree and freeze the exact development-branch delivery perimeter before transfer; draft status is retained.
 - 2 assets — Full release validation of the exact current candidate remains required before acceptance.
-- 1 assets — Review potential sensitive filenames before transfer: src/security/credentialBroker.js
+- 1 asset — Review potential sensitive filenames before transfer: src/security/credentialBroker.js
 
 Use these recorded acceptance conditions to agree the evidence and deliverables required before transfer.
 
@@ -143,15 +143,15 @@ The seller declares no known or disclosed external human co-owner of the seller-
 
 Authoritative machine-readable source: `assets/rights-transfer-register.json`.
 
-## 13. Reassessment since 7 October
+## 13. Latest catalogue review
 
-All 97 IP assets were reviewed: 88 reconfirmed conclusions, seven updated evidence/scope assessments and two first standalone software evaluations. The current evaluation covers maturity, retained evidence, rights, dependencies, handover and monetary references. The authoritative per-project result is `assets/project-evaluations.json`.
+All 97 independent IP assets were checked at 2026-10-09T10:15:23Z: 89 conclusions were reconfirmed and eight assessments reflect newer evidence or development scope. Four default branches changed; the review also checked relevant open development branches. No asset was added or removed, no software maturity stage changed, and all 97 asking references, ranges, recreation estimates and model inputs are retained. The authoritative per-project results are in `assets/project-evaluations.json`.
 
-Additional delivered work at DARF and TrueLane Studio changes their engineering-equivalent recreation estimates. Aurynthiq and UVCD receive separate software-only estimates. The committed orchestration candidate supports prototype classification while its prior discounted asking position is retained. Market/income factors stay fixed where no new attributable commercial evidence exists.
+VEGMPF v35.0.0 now has retained complete software release validation. BIND-AI v2.2, EGMERS v1.8, LEARNPIANO v16 and UVCD's latest local development scope retain their individual draft status and validation limits. DARF, TrueLane Intelligence and Aurynthiq reflect newer documentation. Review the applicable baseline and outstanding acceptance conditions for your intended transaction. This catalogue update does not imply a new full-repository test execution, independent appraisal or production-service deployment.
 
 ## 14. Latest separate asset pricing
 
-**Pricing assessment:** 2026-10-09T06:22:41Z. The three source heads were rechecked; retained qualification was reviewed. The other 94 monetary inputs retain their established estimates and recorded source/evidence assessment dates.
+**Pricing assessment:** 2026-10-09T06:22:41Z. The three source heads were rechecked; retained qualification was reviewed. All 97 monetary inputs retain their established estimates following the latest source/evidence review at 2026-10-09T10:15:23Z.
 
 | Identifier | Project | Asking reference | Recreation estimate | Present scope |
 |---|---|---:|---:|---|

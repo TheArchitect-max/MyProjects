@@ -1,7 +1,7 @@
 {
-  "version": "2026.10.09-im51-complete-asset-pricing",
+  "version": "2026.10.09-im52-current-pages-and-displays",
   "verifiedDate": "2026-10-09",
-  "siteCount": 9,
+  "siteCount": 11,
   "sites": [
     {
       "slug": "continuum-state-integrity-platform",
@@ -52,10 +52,14 @@
       "slug": "bio-inspired-neural-dynamics-active-inference-simulation-platform",
       "ref": "TA-IP-077",
       "title": "Bio-Inspired Neural Dynamics & Active Inference Simulation Platform",
-      "url": "https://thearchitect-max.github.io/BIND-AI-Website/",
+      "url": "https://thearchitect-max.github.io/BIND-AI-Computational-Neuroscience-IP-WEBSITE/",
       "provider": "GitHub Pages",
       "status": "live",
-      "kind": "digital-display"
+      "kind": "digital-display",
+      "repository": "BIND-AI-Computational-Neuroscience-IP-WEBSITE",
+      "verifiedAt": "2026-10-09T10:15:23Z",
+      "displayCommit": "c25e88df9bf168a8fd9e7e270d9250faa2826114",
+      "successfulDeployment": 37909138547
     },
     {
       "slug": "secure-actuation-integrity-platform",
@@ -83,6 +87,32 @@
       "provider": "GitHub Pages",
       "status": "live",
       "kind": "digital-display"
+    },
+    {
+      "slug": "vision-evidence-governed-multimodal-perception-framework",
+      "ref": "TA-IP-052",
+      "title": "Vision Evidence Governed Multimodal Perception Framework",
+      "url": "https://thearchitect-max.github.io/VEGMPF-Website/",
+      "provider": "GitHub Pages",
+      "status": "live",
+      "kind": "digital-display",
+      "repository": "VEGMPF-Website",
+      "verifiedAt": "2026-10-09T10:15:23Z",
+      "displayCommit": "b990b0afae31ac4d4ab35313db0bb2fc37d67b12",
+      "successfulDeployment": 37909860880
+    },
+    {
+      "slug": "evidence-grounded-multi-expert-reasoning-system",
+      "ref": "TA-IP-053",
+      "title": "Evidence-Grounded Multi-Expert Reasoning System",
+      "url": "https://thearchitect-max.github.io/TheArchitect-max-EGMERS-Website/",
+      "provider": "GitHub Pages",
+      "status": "live",
+      "kind": "digital-display",
+      "repository": "TheArchitect-max-EGMERS-Website",
+      "verifiedAt": "2026-10-09T10:15:23Z",
+      "displayCommit": "581107bcf336d84db747bd29c351ad53820acbdb",
+      "successfulDeployment": 37905292192
     }
   ],
   "boundary": "Digital displays belong to their software projects. Website repositories never count as separate IP assets.",
@@ -94,5 +124,6 @@
       "kind": "digital-display",
       "ref": "TA-IP-086"
     }
-  ]
+  ],
+  "verifiedAt": "2026-10-09T10:15:23Z"
 }
