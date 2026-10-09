@@ -1,93 +1,298 @@
 {
-  "v": "2026.09.30-classical-presentation-names-v1",
-  "scope": "MyProjects presentation layer only",
-  "policy": "These aliases are public showroom names. Technical product names, repository names, slugs, TA-IP references, valuation records and fingerprints remain authoritative and unchanged.",
+  "v": "2026.10.09-reference-aliases",
+  "scope": 97,
+  "policy": "Compatibility mirror of project-identities.json. These are reference aliases only, never replacement project titles.",
   "names": {
-    "research-intelligence-fabric": {"displayName": "Minerva"},
-    "veritas-evidence-intelligence": {"displayName": "Vittoria"},
-    "aletheia-intelligence-fabric": {"displayName": "Sophia"},
-    "evidence-grounded-multi-expert-reasoning-system": {"displayName": "Beatrice"},
-    "evidence-governed-analytical-reasoning-platform": {"displayName": "Isabella"},
-    "kinetic-logic-reconstructor": {"displayName": "Cassandra"},
-    "oraculum-infinitum": {"displayName": "Sibilla"},
-    "causal-state-field-engine": {"displayName": "Aurelia"},
-    "plantelogia-intelligence-platform": {"displayName": "Caterina"},
-    "omnisynth-intelligence-engine": {"displayName": "Eleonora"},
-    "truelane-intelligence-engine": {"displayName": "Ginevra"},
-    "machine-cognition-research-framework": {"displayName": "Livia"},
-    "universal-kernel-machine": {"displayName": "Octavia"},
-    "autonomous-adaptation-framework": {"displayName": "Camilla"},
-    "resource-aware-hybrid-model-orchestration-platform": {"displayName": "Cornelia"},
-    "mothercode-research-engine": {"displayName": "Lucilla"},
-    "adaptive-general-reasoning-research-platform": {"displayName": "Theodora"},
-    "adaptive-cognitive-runtime": {"displayName": "Artemisia"},
-    "adaptive-neural-architecture-platform": {"displayName": "Lavinia"},
-    "evidence-governed-visual-intelligence-platform": {"displayName": "Sofonisba"},
-    "visionair-research-engine": {"displayName": "Lucia"},
-    "vision-evidence-governed-multimodal-perception-framework": {"displayName": "Rosalba"},
-    "multimodal-evidence-adaptive-systems-platform": {"displayName": "Bianca"},
-    "chimera-spectral-perception-system": {"displayName": "Aurora"},
-    "spatial-wearable-perception-platform": {"displayName": "Diana"},
-    "swpp-viorith-mobile-camera-overlay": {"displayName": "Clarissa"},
-    "cipher-lyric-engine": {"displayName": "Calliope"},
-    "integrated-media-production-engine": {"displayName": "Serafina"},
-    "sonicfabric": {"displayName": "Euterpe"},
-    "autonomous-documentary-engine": {"displayName": "Clio"},
-    "adaptive-audio-production-system": {"displayName": "Allegra"},
-    "hybrid-adaptive-rendering-media": {"displayName": "Valentina"},
-    "adaptive-audio-synthesis-platform": {"displayName": "Aria"},
-    "adaptive-audio-midi-transcription-studio": {"displayName": "Viola"},
-    "athanor": {"displayName": "Valeria"},
-    "stabilitymesh": {"displayName": "Constantia"},
-    "continuum-state-integrity-platform": {"displayName": "Fidelia"},
-    "tls-virtual": {"displayName": "Tullia"},
-    "signal-processing-universal-framework": {"displayName": "Celestina"},
-    "sensor-fusion-digital-twin-engine": {"displayName": "Gemma"},
-    "industrial-predictive-maintenance-rul-platform": {"displayName": "Prudenza"},
-    "verifiable-execution-control-platform": {"displayName": "Portia"},
-    "distributed-ai-resource-fabric": {"displayName": "Marcella"},
-    "dominus-kraken-execution-engine": {"displayName": "Domitilla"},
-    "truelane-engineering-excellence": {"displayName": "Leonora"},
-    "evidence-governed-software-assurance-platform": {"displayName": "Justina"},
-    "software-asset-provenance-qualification-platform": {"displayName": "Genevra"},
-    "content-integrity-assurance-platform": {"displayName": "Honoria"},
-    "distributed-compute-fabric": {"displayName": "Ottavia"},
-    "modular-key-cryptanalysis-platform": {"displayName": "Sibylle"},
-    "custody-integrity-assurance-platform": {"displayName": "Matilda"},
-    "biometric-systems-assurance-platform": {"displayName": "Helena"},
-    "cipherroutedb": {"displayName": "Ariadne"},
-    "isbr-securetrace": {"displayName": "Veronica"},
-    "traceline-evidence-governed-investigation-framework": {"displayName": "Cordelia"},
-    "secure-actuation-integrity-platform": {"displayName": "Claudia"},
-    "air-to-water-transition-vehicle": {"displayName": "Marina"},
-    "aerospace-mission-simulator": {"displayName": "Selene"},
-    "mt2050-experimental-dynamics": {"displayName": "Faustina"},
-    "electric-flight-systems-simulation-validation-platform": {"displayName": "Alessandra"},
-    "advanced-ground-vehicle-engineering": {"displayName": "Flavia"},
-    "fusionlunar-energy-systems-engineering-platform": {"displayName": "Lunetta"},
-    "truelane-studio-apex-architect": {"displayName": "Victoria"},
-    "ossn-uap": {"displayName": "Celeste"},
-    "faunometric": {"displayName": "Daphne"},
-    "protein-structure-evidence-qualification-platform": {"displayName": "Rosalind"},
-    "dmt-laser-phenomenology-engine": {"displayName": "Iris"},
-    "latticedepth": {"displayName": "Gaia"},
-    "organismal-state-dynamics-research-platform": {"displayName": "Thalia"},
-    "radioastronomy-signal-validation-platform": {"displayName": "Andromeda"},
-    "telluric-actualization-research-platform": {"displayName": "Teresa"},
-    "bio-inspired-neural-dynamics-active-inference-simulation-platform": {"displayName": "Galatea"},
-    "cardiosignal-intelligence-platform": {"displayName": "Amata"},
-    "axiomfactor": {"displayName": "Hypatia"},
-    "temporal-physics-causality-research-platform": {"displayName": "Aelia"},
-    "goldennet-signal-intelligence-platform": {"displayName": "Dorothea"},
-    "qubo-structural-analysis-and-optimization-platform": {"displayName": "Olympia"},
-    "organizational-memory-engine": {"displayName": "Mnemosyne"},
-    "programmatic-search-fabric": {"displayName": "Arianna"},
-    "mercorion-commerce-compiler": {"displayName": "Lucrezia"},
-    "reserveflow-saas-platform": {"displayName": "Felicita"},
-    "truelane-flora": {"displayName": "Flora"},
-    "legalops-nl": {"displayName": "Giustina"},
-    "truelane-inkcore": {"displayName": "Erato"},
-    "adaptive-biofeedback-engine": {"displayName": "Harmonia"},
-    "interactive-piano-learning-platform": {"displayName": "Cecilia"}
+    "athanor": {
+      "displayName": "Elara"
+    },
+    "adaptive-audio-midi-transcription-studio": {
+      "displayName": "Aria"
+    },
+    "adaptive-audio-production-system": {
+      "displayName": "Melody"
+    },
+    "adaptive-audio-synthesis-platform": {
+      "displayName": "Cadence"
+    },
+    "adaptive-biofeedback-engine": {
+      "displayName": "Serena"
+    },
+    "adaptive-cognitive-runtime": {
+      "displayName": "Sophia"
+    },
+    "adaptive-general-reasoning-research-platform": {
+      "displayName": "Athena"
+    },
+    "adaptive-neural-architecture-platform": {
+      "displayName": "Ada"
+    },
+    "plantelogia-intelligence-platform": {
+      "displayName": "Nadia"
+    },
+    "advanced-ground-vehicle-engineering": {
+      "displayName": "Petra"
+    },
+    "aerospace-mission-simulator": {
+      "displayName": "Celeste"
+    },
+    "aletheia-intelligence-fabric": {
+      "displayName": "Alina"
+    },
+    "autonomous-adaptation-framework": {
+      "displayName": "Nora"
+    },
+    "autonomous-documentary-engine": {
+      "displayName": "Clara"
+    },
+    "axiomfactor": {
+      "displayName": "Hypatia"
+    },
+    "bio-inspired-neural-dynamics-active-inference-simulation-platform": {
+      "displayName": "Iona"
+    },
+    "biometric-systems-assurance-platform": {
+      "displayName": "Iris"
+    },
+    "cardiosignal-intelligence-platform": {
+      "displayName": "Cora"
+    },
+    "causal-state-field-engine": {
+      "displayName": "Maya"
+    },
+    "chimera-spectral-perception-system": {
+      "displayName": "Selene"
+    },
+    "cipher-lyric-engine": {
+      "displayName": "Livia"
+    },
+    "cipherroutedb": {
+      "displayName": "Vera"
+    },
+    "content-integrity-assurance-platform": {
+      "displayName": "Verena"
+    },
+    "continuum-state-integrity-platform": {
+      "displayName": "Elena"
+    },
+    "custody-integrity-assurance-platform": {
+      "displayName": "Justine"
+    },
+    "dmt-laser-phenomenology-engine": {
+      "displayName": "Aurora"
+    },
+    "digital-twin-core": {
+      "displayName": "Tessa"
+    },
+    "distributed-ai-resource-fabric": {
+      "displayName": "Freya"
+    },
+    "distributed-compute-fabric": {
+      "displayName": "Ingrid"
+    },
+    "dominus-kraken-execution-engine": {
+      "displayName": "Mara"
+    },
+    "electric-flight-systems-simulation-validation-platform": {
+      "displayName": "Amelia"
+    },
+    "truelane-engineering-excellence": {
+      "displayName": "Minerva"
+    },
+    "evidence-governed-analytical-reasoning-platform": {
+      "displayName": "Thea"
+    },
+    "evidence-governed-software-assurance-platform": {
+      "displayName": "Grace"
+    },
+    "evidence-governed-visual-intelligence-platform": {
+      "displayName": "Helena"
+    },
+    "evidence-grounded-multi-expert-reasoning-system": {
+      "displayName": "Eleanor"
+    },
+    "faunometric": {
+      "displayName": "Fauna"
+    },
+    "fusionlunar-energy-systems-engineering-platform": {
+      "displayName": "Luna"
+    },
+    "goldennet-signal-intelligence-platform": {
+      "displayName": "Aurelia"
+    },
+    "h-rm-lyra-automotive-lyra-rs-3-6t": {
+      "displayName": "Lydia"
+    },
+    "air-to-water-transition-vehicle": {
+      "displayName": "Marina"
+    },
+    "hybrid-adaptive-rendering-media": {
+      "displayName": "Nova"
+    },
+    "isbr-securetrace": {
+      "displayName": "Noelle"
+    },
+    "industrial-predictive-maintenance-rul-platform": {
+      "displayName": "Rhea"
+    },
+    "integrated-media-production-engine": {
+      "displayName": "Mira"
+    },
+    "interactive-piano-learning-platform": {
+      "displayName": "Allegra"
+    },
+    "kinetic-logic-reconstructor": {
+      "displayName": "Keira"
+    },
+    "learnpiano": {
+      "displayName": "Elise"
+    },
+    "lyra-aero-evtol": {
+      "displayName": "Lucia"
+    },
+    "latticedepth": {
+      "displayName": "Gaia"
+    },
+    "legalops-nl": {
+      "displayName": "Julia"
+    },
+    "mothercode-research-engine": {
+      "displayName": "Eve"
+    },
+    "mt2050-experimental-dynamics": {
+      "displayName": "Valentina"
+    },
+    "maastricht-digital-twin": {
+      "displayName": "Mila"
+    },
+    "maastricht-zero-hour-simulator": {
+      "displayName": "Eva"
+    },
+    "machine-cognition-research-framework": {
+      "displayName": "Noa"
+    },
+    "mercorion-commerce-compiler": {
+      "displayName": "Mercia"
+    },
+    "modular-key-cryptanalysis-platform": {
+      "displayName": "Alice"
+    },
+    "multimodal-evidence-adaptive-systems-platform": {
+      "displayName": "Lena"
+    },
+    "oraculum-infinitum": {
+      "displayName": "Sibyl"
+    },
+    "ossn-uap": {
+      "displayName": "Stella"
+    },
+    "organismal-state-dynamics-research-platform": {
+      "displayName": "Daphne"
+    },
+    "organizational-memory-engine": {
+      "displayName": "Mnemosyne"
+    },
+    "plantelogia-intelligence-platform-lineage": {
+      "displayName": "Ivy"
+    },
+    "programmatic-search-fabric": {
+      "displayName": "Sasha"
+    },
+    "protein-structure-evidence-qualification-platform": {
+      "displayName": "Rosalind"
+    },
+    "qubo-structural-analysis-and-optimization-platform": {
+      "displayName": "Emmy"
+    },
+    "radioastronomy-signal-validation-platform": {
+      "displayName": "Jocelyn"
+    },
+    "research-intelligence-fabric": {
+      "displayName": "Dorothy"
+    },
+    "reserveflow-saas-platform": {
+      "displayName": "Olivia"
+    },
+    "resource-aware-hybrid-model-orchestration-platform": {
+      "displayName": "Mia"
+    },
+    "swpp-viorith-mobile-camera-overlay": {
+      "displayName": "Violet"
+    },
+    "secure-actuation-integrity-platform": {
+      "displayName": "Valeria"
+    },
+    "sensor-fusion-digital-twin-engine": {
+      "displayName": "Artemis"
+    },
+    "signal-processing-universal-framework": {
+      "displayName": "Shannon"
+    },
+    "software-asset-provenance-qualification-platform": {
+      "displayName": "Beatrice"
+    },
+    "sonicfabric": {
+      "displayName": "Harmonia"
+    },
+    "omnisynth-intelligence-engine": {
+      "displayName": "Sophie"
+    },
+    "spatial-wearable-perception-platform": {
+      "displayName": "Skye"
+    },
+    "stabilitymesh": {
+      "displayName": "Ariadne"
+    },
+    "tls-virtual": {
+      "displayName": "Talia"
+    },
+    "telluric-actualization-research-platform": {
+      "displayName": "Terra"
+    },
+    "temporal-physics-causality-research-platform": {
+      "displayName": "Eleni"
+    },
+    "traceline-evidence-governed-investigation-framework": {
+      "displayName": "Clio"
+    },
+    "truelane-flora": {
+      "displayName": "Florence"
+    },
+    "truelane-inkcore": {
+      "displayName": "Ines"
+    },
+    "truelane-intelligence-engine": {
+      "displayName": "Thalia"
+    },
+    "truelane-studio-apex-architect": {
+      "displayName": "Ava"
+    },
+    "universal-capability-synthesis-engine": {
+      "displayName": "Ursula"
+    },
+    "universal-kernel-machine": {
+      "displayName": "Kira"
+    },
+    "vellumgrid-autonomous-commerce-platform": {
+      "displayName": "Vivienne"
+    },
+    "verifiable-execution-control-platform": {
+      "displayName": "Victoria"
+    },
+    "veritas-evidence-intelligence": {
+      "displayName": "Verity"
+    },
+    "vision-evidence-governed-multimodal-perception-framework": {
+      "displayName": "Viola"
+    },
+    "visionair-research-engine": {
+      "displayName": "Vivian"
+    },
+    "aurynthiq-autonomous-dj-intelligence-platform": {
+      "displayName": "Isadora"
+    },
+    "universal-vehicle-configuration-database": {
+      "displayName": "Celine"
+    }
   }
 }

@@ -106,31 +106,31 @@
   "sourceObjects": {
     "sellerReadinessRegister": {
       "path": "assets/seller-readiness-register.json",
-      "gitBlobSha": "93bee6250b4b03690d7443d16af2cce1b9135f2f"
+      "gitBlobSha": "ba9a2a4d6e2abedb67f9161af8051c067744abb9"
     },
     "valuationRegister": {
       "path": "assets/valuation-register.json",
-      "gitBlobSha": "6d693f6d4fc34ba4885ee6b24f98a427e325079a"
+      "gitBlobSha": "4659861ee00627c6b045ed827730550b48b5fdf4"
     },
     "futureEconomicReferences": {
       "path": "assets/future-economic-references.json",
-      "gitBlobSha": "d4ee2d9f73342e67d569230ae44f61a7296e56ca"
+      "gitBlobSha": "596fbb85026e1ff71184d2ff4031a6029295c7be"
     },
     "projectIdentities": {
       "path": "assets/project-identities.json",
-      "gitBlobSha": "c7bf3bd7162e4eed30050c9001a881f4f5899c1f"
+      "gitBlobSha": "295c24e0b444478f43e38ebf970645c94dde5140"
     },
     "ipOwnershipRegister": {
       "path": "assets/ip-ownership-register.json",
-      "gitBlobSha": "eaeb9aa1a080ef5dbd33391f9339e1abac13a2a7"
+      "gitBlobSha": "b8bf840a6de61c41f4b3bed41001ad9ee0820834"
     },
     "softwareSupplyChainSummary": {
       "path": "assets/software-supply-chain-summary.json",
-      "gitBlobSha": "f74f3ca120db155be622f4bedd2748e9a47e56ff"
+      "gitBlobSha": "99732b4662f75fcb6616f9baac93619ebdab2cb6"
     },
     "rightsTransferRegister": {
       "path": "assets/rights-transfer-register.json",
-      "gitBlobSha": "d4d2abd1a21da36d4db55add2235f27463d90473"
+      "gitBlobSha": "f23dc5844c101696d03b2c04adc33afab197cca9"
     }
   },
   "externalStandards": [
@@ -158,5 +158,14 @@
     "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
     "developmentMethodDisclosure": "OUTSIDE_PUBLIC_TRANSACTION_RECORD",
     "legalChainOfTitleOpinion": "NOT_PERFORMED_UNLESS_SEPARATELY_EVIDENCED"
+  },
+  "presentationUpdate": {
+    "date": "2026-10-09",
+    "scope": "User-facing descriptions, one reference alias per project, current build status and digital display classification.",
+    "softwareIpAssets": 94,
+    "currentProjects": 97,
+    "additionalAcquisitionAssessmentsPending": 2,
+    "auditBasisUnchanged": "2026-10-07",
+    "economicQuantitiesChanged": false
   }
 }

@@ -1,7 +1,7 @@
 {
-  "version": "2026.10.07-development-register-v3",
+  "version": "2026.10.09-development-register-v4",
   "status": "repository-evidenced-non-standalone-commercial-projects",
-  "policy": "These substantive project repositories remain in the 95-project development register without a separate standalone seller-side price. Digital Twin Core has no committed implementation baseline. LEARNPIANO is economically represented by TA-IP-086 Interactive Piano Learning Platform, and the distinct PLANTELOGIA lineage is economically represented within TA-IP-085 Adaptive Systems Intelligence Platform. This prevents duplicate economic counting while preserving project-level identity.",
+  "policy": "Five projects have no separate published acquisition price: two newly listed software assets, two companion projects represented by existing assets, and one reserved project without implementation.",
   "projects": [
     {
       "slug": "digital-twin-core",
@@ -9,16 +9,16 @@
       "stageLabel": "No committed implementation baseline",
       "familyName": "Industrial Reliability & Digital Twins",
       "sector": "Industrial & Infrastructure Software",
-      "description": "Reserved Digital Twin Core project. At the current repository state, no committed implementation baseline exists and no software maturity claim is made.",
+      "description": "Follow a proposed digital-twin project. An implemented software baseline is not yet available.",
       "pricingDisposition": "No standalone seller-side price: no committed implementation baseline exists."
     },
     {
       "slug": "learnpiano",
-      "name": "LEARNPIANO — Piano Paradise",
+      "name": "LEARNPIANO",
       "stageLabel": "Developed application",
       "familyName": "Specialist Vertical Software",
       "sector": "Specialist Vertical Software",
-      "description": "Local-first piano learning, performance and production software with browser-based practice, MIDI and audio workflows, adaptive coaching and repository-owned validation.",
+      "description": "Practise piano with visual guidance, work with your own music and explore performance and recording tools.",
       "pricingDisposition": "No duplicate seller-side price: current economic work product is represented by TA-IP-086 Interactive Piano Learning Platform."
     },
     {
@@ -27,8 +27,33 @@
       "stageLabel": "Qualified engineering prototype",
       "familyName": "Evidence & Intelligence Systems",
       "sector": "AI, Decision & Knowledge Systems",
-      "description": "Evidence-governed intelligence and policy-runtime software with persistent evidence, audit, policy, delegated-authority and provenance foundations, maintained as a distinct PLANTELOGIA lineage project.",
+      "description": "Review the evidence and policies behind decisions within the original PLANTELOGIA project.",
       "pricingDisposition": "No duplicate seller-side price: current economic work product is represented within TA-IP-085 Adaptive Systems Intelligence Platform."
+    },
+    {
+      "slug": "aurynthiq-autonomous-dj-intelligence-platform",
+      "name": "Aurynthiq Autonomous DJ Intelligence Platform",
+      "description": "Create DJ sets from your music library, preview transitions and explore proposed combinations between tracks.",
+      "stage": "P",
+      "stageLabel": "Developed prototype",
+      "familyName": "Audio, Music & Media",
+      "familyId": "audio-media",
+      "sector": "Audio / Media",
+      "softwareAsset": true,
+      "commercialStatus": "NO_PUBLISHED_STANDALONE_PRICE"
+    },
+    {
+      "slug": "universal-vehicle-configuration-database",
+      "name": "Universal Vehicle Configuration Database",
+      "description": "Find source-supported vehicle configurations and see where the available information is complete or still uncertain.",
+      "stage": "P",
+      "stageLabel": "Developed prototype",
+      "familyName": "Aerospace, Mobility & Engineering",
+      "familyId": "aerospace-mobility",
+      "sector": "Automotive / Engineering",
+      "softwareAsset": true,
+      "commercialStatus": "NO_PUBLISHED_STANDALONE_PRICE"
     }
-  ]
+  ],
+  "basisDate": "2026-10-09"
 }

@@ -1,6 +1,6 @@
 {
-  "version": "2026.10.07-project-identities-v2",
-  "policy": "Identity names apply only to substantive project repositories. GitHub Pages, website, catalogue and presentation repositories are publication surfaces and are explicitly excluded from project counting, asset counting and identity assignment. Canonical technical names, repository URLs, valuation records, evidence lineage and IP ownership remain unchanged.",
+  "version": "2026.10.09-project-identities-v3",
+  "policy": "One project title and one feminine reference alias per software project. Titles lead the presentation; aliases never replace titles. Publication repositories have no asset identity or independent IP count.",
   "projects": [
     {
       "repository": "ATHANOR---Adaptive-Topology-Hazard-Analysis-Network-Optimization-Resilience",
@@ -71,8 +71,8 @@
     {
       "repository": "Aletheia-Intelligence-Fabric---Distributed-Evidence-Entity-Intelligence-Platform",
       "slug": "aletheia-intelligence-fabric",
-      "identityName": "Aletheia",
-      "existingCanonical": true
+      "identityName": "Alina",
+      "existingCanonical": false
     },
     {
       "repository": "Autonomous-Adaptation-Framework",
@@ -239,8 +239,8 @@
     {
       "repository": "H-RM-LYRA-Automotive-LYRA-RS-3.6T",
       "slug": "h-rm-lyra-automotive-lyra-rs-3-6t",
-      "identityName": "Lyra",
-      "existingCanonical": true
+      "identityName": "Lydia",
+      "existingCanonical": false
     },
     {
       "repository": "High-Speed-Air-to-Water-Transition-Vehicle",
@@ -293,8 +293,8 @@
     {
       "repository": "LYRA-AERO-eVTOL",
       "slug": "lyra-aero-evtol",
-      "identityName": "Lyra",
-      "existingCanonical": true
+      "identityName": "Lucia",
+      "existingCanonical": false
     },
     {
       "repository": "LatticeDepth-Subsurface-Materials-Evidence-Qualification-Platform",
@@ -509,8 +509,8 @@
     {
       "repository": "TrueLane-Flora",
       "slug": "truelane-flora",
-      "identityName": "Flora",
-      "existingCanonical": true
+      "identityName": "Florence",
+      "existingCanonical": false
     },
     {
       "repository": "TrueLane-InkCore",
@@ -571,10 +571,22 @@
       "slug": "visionair-research-engine",
       "identityName": "Vivian",
       "existingCanonical": false
+    },
+    {
+      "repository": "Aurynthiq---.Autonomous-DJ-Intelligence-Platform",
+      "slug": "aurynthiq-autonomous-dj-intelligence-platform",
+      "identityName": "Isadora",
+      "existingCanonical": false
+    },
+    {
+      "repository": "Universal-Vehicle-Configuration-Database",
+      "slug": "universal-vehicle-configuration-database",
+      "identityName": "Celine",
+      "existingCanonical": false
     }
   ],
   "scope": {
-    "substantiveProjectRepositories": 95,
+    "substantiveProjectRepositories": 97,
     "excludedPublicationRepositories": 11,
     "excludedRepositories": [
       "Adaptive-Audio-Synthesis-Platform-Website",

@@ -1,8 +1,8 @@
 # THEARCHITECT_MAX — Private Technology & IP Portfolio
 
-Public commercial showroom for independently scoped proprietary technology and software assets.
+Explore independently scoped software projects, understand what you can use them for, review their current status and open their digital displays.
 
-The current public register contains **92 individually priced standalone assets**: **56 developed software assets, 32 developed prototypes and 4 research-stage assets**.
+The current collection contains **94 independently scoped self-built software IP assets**. **92** retain published acquisition references and **2** have no published standalone price. The 7 October valuation-stage snapshot comprises 56 developed-software, 32 prototype and 4 research-stage references; it is separate from the current source-build status.
 
 ## Public snapshot — 7 October 2026
 
@@ -41,7 +41,7 @@ The website retains its public-domain / CC0 old-master visual references and cur
 <!-- DEVELOPMENT-REGISTER:START -->
 ## Development register
 
-The public site now distinguishes **92 individually priced standalone commercial assets** within a broader **95-project repository-backed development register**. The three remaining project repositories are not separately priced: two are economically represented by existing priced assets and one has no committed implementation baseline.
+The public site presents **97 repository-backed projects**, including **94 independently scoped software IP assets**. Of those assets, **92** have published acquisition references; Aurynthiq and UVCD have no published standalone price. Two companion projects are represented by existing assets and one reserved project has no implementation. Current source-build and open development status were checked on **9 October 2026**; older acquisition and valuation assessments retain their stated dates.
 
 Development capital is milestone-based: no project-specific funding amount is represented as validated until a defined scope, evidence baseline, use-of-funds budget and acceptance criteria exist. The GitHub Pages site is informational only and does not process investments, crowdfunding payments, users, sessions or financial transactions.
 <!-- DEVELOPMENT-REGISTER:END -->
@@ -49,18 +49,18 @@ Development capital is milestone-based: no project-specific funding amount is re
 <!-- PROJECT-IDENTITIES:START -->
 ## Project identity names
 
-Every one of the 95 repository-backed projects now has a stable feminine public identity name. These identities are presentation and project-reference aliases only: canonical technical names, repository URLs, valuation records, evidence lineage and ownership are unchanged.
+Every one of the **97 projects** has one project title and one feminine reference alias. The title leads every card and profile; the alias appears once as a project reference. `assets/display-names.json` mirrors the same mapping and the legacy title-replacement script no longer renames headings. Repository identities, economic quantities and evidence lineage are preserved.
 
-The authoritative public mapping is `assets/project-identities.json`.
+The authoritative public mapping is `assets/project-identities.json`. Current user-facing descriptions, version status and asset eligibility are in `assets/project-presentations.json`.
 <!-- PROJECT-IDENTITIES:END -->
 
 <!-- REPOSITORY-SCOPE:START -->
 ## Repository scope
 
-The GitHub account currently contains **106 repositories** in scope for this catalogue audit:
+The GitHub account contains **108 repositories** in the 9 October catalogue inventory:
 
-- **95 substantive project repositories** — counted as projects and eligible for project identity mapping.
-- **11 GitHub Pages / website / catalogue repositories** — publication surfaces only; **not projects, not standalone IP assets, and not assigned project identities**.
+- **97 project repositories** — 96 with first-party software implementation, including two companion projects already represented by existing assets; one reserved project has no implementation. The independently scoped software asset count is **94**.
+- **11 website / catalogue repositories** — digital display surfaces only; excluded from project and IP-asset counting and from reference-alias assignment. Nine published project displays are linked from their associated software profiles; the remaining project display is not published and MyProjects is the catalogue.
 
 Excluded publication repositories: `Adaptive-Audio-Synthesis-Platform-Website`, `BIND-AI-Website`, `CSIP-Website`, `CardioSignal-Website`, `DOMINUS-Platform-Website`, `EIMP-Website`, `Faunometric-Website`, `ISBR-SecureTrace-Website`, `MyProjects`, `ReserveFlow-Website`, `SAIP-Website`.
 <!-- REPOSITORY-SCOPE:END -->
@@ -68,7 +68,7 @@ Excluded publication repositories: `Adaptive-Audio-Synthesis-Platform-Website`, 
 <!-- FUTURE-ECONOMIC-REFERENCES:START -->
 ## Milestone-conditioned economic references
 
-A separate evidence-bounded register now covers all **95 projects**. It contains **36 numeric conditional maturity references** and **59 NOT_ESTABLISHED records**.
+The dated 7 October evidence-bounded register covers **95 projects**; the two newly listed software projects have no additional maturity valuation. It contains **36 numeric conditional maturity references** and **59 NOT_ESTABLISHED records**.
 
 A numeric reference is published only for an objective **R→P** or **P→V** maturity transition. The calculation reuses the published portfolio methodology and changes only the maturity-stage factor; replacement cost, commercial potential, sector and monetization route remain fixed. It is therefore a reproducible maturity sensitivity, not a forecast, seller ask, market value, investment return or guarantee.
 
@@ -78,7 +78,7 @@ Projects already at stage V receive no higher amount unless new attributable mar
 <!-- SELLER-READINESS:START -->
 ## Seller evidence & transaction readiness
 
-A repository-native seller-side acquisition audit now covers all **95 substantive projects**. Every project has an `ACQUISITION_DOSSIER.md` tied to a frozen baseline and a five-axis Asset Assurance Matrix.
+The retained **7 October** repository-native seller-side acquisition audit covers **95 projects**. The two newly listed software projects are explicitly **NOT_ASSESSED** for acquisition readiness; current source-build review does not silently promote the dated audit. Every project has an `ACQUISITION_DOSSIER.md` tied to a frozen baseline and a five-axis Asset Assurance Matrix.
 
 Current status:
 
