@@ -1,120 +1,120 @@
 {
-  "schema": "thearchitect-max-portfolio-audit-certificate-v3",
-  "basisDate": "2026-10-07",
+  "schema": "thearchitect-max-portfolio-audit-certificate-v4",
+  "basisDate": "2026-10-09",
   "repository": "TheArchitect-max/MyProjects",
-  "sourceHeadAtCertificatePreparation": "08e4dce50ca98e27950b65a079c689ec978c0dfc",
+  "sourceHeadAtCertificatePreparation": "9ec77c1d2de76ec62eab607071218bf8a65f10c8",
   "scope": {
-    "substantiveProjects": 95,
-    "pricedStandaloneAssets": 92,
+    "substantiveProjects": 97,
+    "pricedStandaloneAssets": 94,
     "nonStandaloneOrUnimplementedProjects": 3,
     "excludedPublicationRepositories": 11
   },
   "audit": {
     "sellerReadinessStatus": "COMPLETE",
-    "auditedProjects": 95,
+    "auditedProjects": 97,
     "pendingProjects": 0,
     "transactionReadiness": {
-      "audited": 95,
+      "audited": 97,
       "pending": 0,
       "ready": 2,
-      "readyWithConditions": 83,
-      "notReady": 10
+      "readyWithConditions": 87,
+      "notReady": 8
     },
     "evidenceMaturityDistribution": {
       "E1": 8,
       "E3": 38,
-      "E4": 12,
+      "E4": 16,
       "E2": 34,
-      "E0": 3
+      "E0": 1
     },
     "ipRightsMaturityDistribution": {
-      "R2": 83,
+      "R2": 85,
       "R0": 5,
       "R3": 7
     },
     "commercialMaturityDistribution": {
-      "C2": 92,
+      "C2": 94,
       "C0": 3
     },
     "transferReadinessDistribution": {
       "T1": 7,
-      "T2": 4,
-      "T3": 79,
-      "T0": 3,
+      "T2": 7,
+      "T3": 80,
+      "T0": 1,
       "T4": 2
     },
     "topOpenSellerItems": [
       {
         "item": "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "count": 81
+        "count": 85
       },
       {
         "item": "Generate a detailed SBOM from the evidenced dependency manifests/lockfiles.",
-        "count": 77
+        "count": 81
       },
       {
         "item": "Add an explicit buyer handover / transfer manifest.",
-        "count": 68
+        "count": 70
       },
       {
         "item": "Add a seller-side security/threat summary or explicitly document that no security assessment has been performed.",
-        "count": 53
+        "count": 54
       },
       {
         "item": "Add release/provenance fingerprint or attestation evidence.",
-        "count": 43
+        "count": 40
+      },
+      {
+        "item": "Add or consolidate third-party licensing/obligations documentation.",
+        "count": 8
       },
       {
         "item": "Repository-native tests not identified.",
-        "count": 7
-      },
-      {
-        "item": "Validation/qualification evidence not identified.",
-        "count": 7
+        "count": 5
       },
       {
         "item": "Repository licence file not identified.",
         "count": 5
       },
       {
-        "item": "Add or consolidate third-party licensing/obligations documentation.",
+        "item": "Validation/qualification evidence not identified.",
         "count": 5
       },
       {
-        "item": "No committed implementation baseline identified.",
+        "item": "Agree and freeze the exact development-branch delivery perimeter before transfer; draft status is retained.",
         "count": 3
       },
       {
-        "item": "Review potential sensitive filenames before transfer: src/security/credentialBroker.js",
-        "count": 1
+        "item": "Complete the exact current candidate release-validation gate before accepting it as a validated release.",
+        "count": 2
       },
       {
-        "item": "Review potential sensitive filenames before transfer: apps/web/app/api/credentials/[id]/route.ts, apps/web/app/api/credentials/rotation/route.ts, apps/web/app/api/credentials/route.ts, apps/worker/src/provider-credentials.ts, docs/CREDENTIAL-KEY-ROTATION.md",
+        "item": "Review potential sensitive filenames before transfer: src/security/credentialBroker.js",
         "count": 1
       }
     ]
   },
   "economics": {
-    "sellerAskEUR": 24040000,
-    "negotiationLowEUR": 19215000,
-    "negotiationHighEUR": 30130000,
-    "replacementCostEUR": 101950000,
-    "triangulatedEconomicReferenceEUR": 121369826,
-    "milestoneConditionalNumericReferences": 36,
+    "sellerAskEUR": 24290000,
+    "negotiationLowEUR": 19410000,
+    "negotiationHighEUR": 30440000,
+    "replacementCostEUR": 103550000,
+    "triangulatedEconomicReferenceEUR": 122978192,
+    "milestoneConditionalNumericReferences": 38,
     "milestoneReferencesNotEstablished": 59
   },
   "sourceObjects": {
     "sellerReadinessRegister": {
       "path": "assets/seller-readiness-register.json",
-      "gitBlobSha": "ba9a2a4d6e2abedb67f9161af8051c067744abb9"
+      "gitBlobSha": "d529a9427fafe48ebcedb1c4555600584e1e23d1"
     },
     "valuationRegister": {
       "path": "assets/valuation-register.json",
-      "gitBlobSha": "4659861ee00627c6b045ed827730550b48b5fdf4"
+      "gitBlobSha": "0f87b2265e432fd6125656649f5b37611276dacf"
     },
     "futureEconomicReferences": {
       "path": "assets/future-economic-references.json",
-      "gitBlobSha": "596fbb85026e1ff71184d2ff4031a6029295c7be"
+      "gitBlobSha": "0e3a719fa89518c9695ea8bf25c5bdee459d6b8a"
     },
     "projectIdentities": {
       "path": "assets/project-identities.json",
@@ -122,15 +122,23 @@
     },
     "ipOwnershipRegister": {
       "path": "assets/ip-ownership-register.json",
-      "gitBlobSha": "b8bf840a6de61c41f4b3bed41001ad9ee0820834"
+      "gitBlobSha": "5afae0e183efc09bb3faf2b71cd719345b78bbc5"
     },
     "softwareSupplyChainSummary": {
       "path": "assets/software-supply-chain-summary.json",
-      "gitBlobSha": "99732b4662f75fcb6616f9baac93619ebdab2cb6"
+      "gitBlobSha": "920550f272581bba02ea87b65b2ed5899794ccd2"
     },
     "rightsTransferRegister": {
       "path": "assets/rights-transfer-register.json",
-      "gitBlobSha": "f23dc5844c101696d03b2c04adc33afab197cca9"
+      "gitBlobSha": "7a7743545e86eaa5bc7dbf1eb227002475b5e1fd"
+    },
+    "projectEvaluations": {
+      "path": "assets/project-evaluations.json",
+      "gitBlobSha": "9e3d94da17d42c3498e25f840640d062043b78bf"
+    },
+    "projectPresentations": {
+      "path": "assets/project-presentations.json",
+      "gitBlobSha": "bca256f1f4fcf0b561efc462c2649357f2b7b4a4"
     }
   },
   "externalStandards": [
@@ -159,13 +167,16 @@
     "developmentMethodDisclosure": "OUTSIDE_PUBLIC_TRANSACTION_RECORD",
     "legalChainOfTitleOpinion": "NOT_PERFORMED_UNLESS_SEPARATELY_EVIDENCED"
   },
-  "presentationUpdate": {
+  "assessedAt": "2026-10-09T05:36:00Z",
+  "previousBasisDate": "2026-10-07",
+  "fullEvaluationUpdate": {
     "date": "2026-10-09",
-    "scope": "User-facing descriptions, one reference alias per project, current build status and digital display classification.",
-    "softwareIpAssets": 94,
-    "currentProjects": 97,
-    "additionalAcquisitionAssessmentsPending": 2,
-    "auditBasisUnchanged": "2026-10-07",
-    "economicQuantitiesChanged": false
+    "assessedAt": "2026-10-09T05:36:00Z",
+    "previousEvaluationDate": "2026-10-07",
+    "projectsReviewed": 97,
+    "softwareAssetsEvaluated": 94,
+    "unassessedProjects": 0,
+    "evaluationRegister": "assets/project-evaluations.json",
+    "boundary": "All project assessments are current; retained software validation is distinguished from newly executed validation and from unperformed buyer-specific acceptance."
   }
 }

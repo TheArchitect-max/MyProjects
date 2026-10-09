@@ -1,5 +1,5 @@
 {
-  "v": "2026.10.07-im41-92-asset-pricing",
+  "v": "2026.10.09-im47-full-project-evaluation",
   "status": "qualified-commercial-references",
   "assets": [
     {
@@ -82,10 +82,10 @@
       "family": "aerospace-mobility",
       "description": "Compare vehicle configurations, examine measured results and review proposed improvements before further tuning work.",
       "pricing_status": "established",
-      "ask": 250000,
-      "low": 200000,
-      "high": 315000,
-      "recreationCost": 1000000
+      "ask": 300000,
+      "low": 240000,
+      "high": 375000,
+      "recreationCost": 1200000
     },
     {
       "id": 83,
@@ -176,7 +176,7 @@
       "id": 88,
       "ref": "TA-IP-088",
       "slug": "reserveflow-saas-platform",
-      "name": "ReserveFlow SaaS Platform",
+      "name": "OPERIVEX",
       "sector": "Enterprise Software & Operations",
       "stage": "V",
       "potential": "H",
@@ -244,7 +244,7 @@
       "id": 92,
       "ref": "TA-IP-092",
       "slug": "h-rm-lyra-automotive-lyra-rs-3-6t",
-      "name": "HΛRM LYRA Automotive / LYRA RS 3.6T",
+      "name": "HΛRM LYRA Automotive",
       "sector": "Aerospace & Mobility",
       "stage": "P",
       "potential": "M",
@@ -290,6 +290,40 @@
       "low": 120000,
       "high": 190000,
       "recreationCost": 800000
+    },
+    {
+      "id": 95,
+      "ref": "TA-IP-095",
+      "slug": "aurynthiq-autonomous-dj-intelligence-platform",
+      "sector": "Media & Creator Technology",
+      "stage": "P",
+      "potential": "H",
+      "route": "Media / creator software",
+      "family": "audio-media",
+      "recreationCost": 250000,
+      "ask": 40000,
+      "low": 30000,
+      "high": 50000,
+      "name": "Aurynthiq Autonomous DJ Intelligence Platform",
+      "description": "Create DJ sets from your music library, preview transitions and explore proposed combinations between tracks.",
+      "pricing_status": "seller-estimate"
+    },
+    {
+      "id": 96,
+      "ref": "TA-IP-096",
+      "slug": "universal-vehicle-configuration-database",
+      "sector": "Aerospace & Mobility",
+      "stage": "P",
+      "potential": "H",
+      "route": "Research / R&D licensing",
+      "family": "aerospace-mobility",
+      "recreationCost": 1050000,
+      "ask": 125000,
+      "low": 100000,
+      "high": 155000,
+      "name": "Universal Vehicle Configuration Database",
+      "description": "Find source-supported vehicle configurations and see where the available information is complete or still uncertain.",
+      "pricing_status": "seller-estimate"
     }
   ]
 }

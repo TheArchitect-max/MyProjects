@@ -1,17 +1,17 @@
 {
-  "version": "2026.10.09-im46-public-attestation",
+  "version": "2026.10.09-im47-full-project-evaluation",
   "publicationDate": "2026-10-09",
-  "portfolioAssetCount": 92,
-  "valuationBasisDate": "2026-10-07",
-  "purpose": "Integrity of the user-facing 97-project catalogue and 94-software-asset scope. The 92 priced acquisition references retain their 7 October economic basis; new listings have no invented price or acquisition assessment.",
+  "portfolioAssetCount": 94,
+  "valuationBasisDate": "2026-10-09",
+  "purpose": "Integrity and reproducible arithmetic of the current full 97-project evaluation and all 94 independently scoped software assets. Website repositories remain digital displays only.",
   "files": {
     "valuation-register.json": {
       "algorithm": "SHA-256",
-      "sha256": "49164075321a4c804fb087109d4a6287027b6eaacb362c20a577207ff5f14a7d"
+      "sha256": "104d2e4625e8d2802adb61512c4b571691ba7f34481c543765bd44b37a7c1ded"
     },
     "economic-methodology.json": {
       "algorithm": "SHA-256",
-      "sha256": "a9d326b2d0cf1c95dc4699517dee25b0edbaa0adfe601d1484fc77029194519b"
+      "sha256": "ff2783db5d3326c540345937f4d53eff9f6c40bc5e1d07893d7a5814ad4174c8"
     },
     "public-sites.json": {
       "algorithm": "SHA-256",
@@ -19,31 +19,31 @@
     },
     "future-economic-references.json": {
       "algorithm": "SHA-256",
-      "sha256": "0845097a2dc3edd08ac02d501c1e4a0f0a409512188740b7f0d2d7aef7ac6fe0"
+      "sha256": "2fdbd93443482fe5e5f34b6ecac1e548786dbd7746a15f3009967c6221abf13e"
     },
     "seller-readiness-register.json": {
       "algorithm": "SHA-256",
-      "sha256": "59d59d80fa971c376a5da0573d55826d102deee100dbfd2c8e163227fb5d1efd"
+      "sha256": "d5ecc4ed1da659efcf274c3e74ebb13f6256651305d73fda3897fd27bbd67a27"
     },
     "ip-ownership-register.json": {
       "algorithm": "SHA-256",
-      "sha256": "77794f30ef41a38576f62e526d1948f683d47185b2d36ec7248a08144b1b8886"
+      "sha256": "02b297e19a79c393bfaab2a140bafc58b3bfa4109a2be6d22f5b3b3acfe02a4e"
     },
     "software-supply-chain-summary.json": {
       "algorithm": "SHA-256",
-      "sha256": "bf423b09c3f7e4df5a1cfeb44ebc341312d69de0da761a384dcbefec3d22fa31"
+      "sha256": "da8b058216d0f61f54258490021311ecd86f5e4e7ba7d9be51e3be56739728eb"
     },
     "portfolio-audit-certificate.json": {
       "algorithm": "SHA-256",
-      "sha256": "a83b06ca3148d711a7ca6f1bd22f8fe92ceb1509d5fbd39b339f4b850f6a0ef7"
+      "sha256": "daabe1b8c0fedadd8152fb29800f03c362eac5fb6c9c93a46d9253eeb0ca710f"
     },
     "rights-transfer-register.json": {
       "algorithm": "SHA-256",
-      "sha256": "5373e5668e6c48b110da33eb48a141e2bf26aafa05d27e3c7de1ea2f1dcf837d"
+      "sha256": "01227aa3eb2fd1d5bd995810d5bc477c0ce6849800642b64e7dccad2cea2bf54"
     },
     "project-presentations.json": {
       "algorithm": "SHA-256",
-      "sha256": "c8a997dbdc302758bae5b292472ba5a31d2ad1dc3efce97af2f165703efefbf7"
+      "sha256": "54c938e038031c87595b5a5cbe6ff10dbd94282b51dec2ee63760251d237aff6"
     },
     "project-identities.json": {
       "algorithm": "SHA-256",
@@ -59,15 +59,27 @@
     },
     "supplemental-assets.json": {
       "algorithm": "SHA-256",
-      "sha256": "6f95c2f419be1ea72d8ec9a3127edf44d23c648b96cf62ba686d50c32dfc590c"
+      "sha256": "da1b5a14edd9d1322285fd5286673728237553bbf02de32b4331d808a061a475"
     },
     "development-projects.json": {
       "algorithm": "SHA-256",
-      "sha256": "1cd0f71f4bc47283c085e63407a0de6cae2a9c3a27a50d012964c5652ee87eef"
+      "sha256": "21d87bcdf9bc139d2bfb0b812ee5405fbb486c03c33da5af23bae88226d2ffb1"
     },
     "portfolio-structure.json": {
       "algorithm": "SHA-256",
-      "sha256": "6d536bbfdeb738a748ea58c1151336dd895c575f20e94f709a86aa7c7f7d58a3"
+      "sha256": "580e3a4b5771a77ad3d964a28b1ef372c5cecf1838085440ef88d61b22aa1161"
+    },
+    "project-evaluations.json": {
+      "algorithm": "SHA-256",
+      "sha256": "cac59331cff44d2422633953e272a35ea0aa21c16c458d5a0fd88c0350c12291"
+    },
+    "im-data.json": {
+      "algorithm": "SHA-256",
+      "sha256": "3cb2344ffb25d8e1ff2fb84811bada37956560e2df6b9cbff19bb2531d9e4804"
+    },
+    "recreation-costs.json": {
+      "algorithm": "SHA-256",
+      "sha256": "aba6e939052102f16b55dd3d41eb25e9e9f71cd7c4e688df1151817db47b7814"
     }
   },
   "verification": {
@@ -75,12 +87,15 @@
     "valuationReconciliation": "The public renderer assembles the current asset register, applies published overrides, recalculates asset-level analytical economics and compares aggregate values with the published portfolio totals.",
     "publicSiteDirectory": "The public project-site enhancer recomputes the SHA-256 digest of the site directory before presenting its integrity state.",
     "existenceBoundary": "The timestamped public publication and matching digests demonstrate existence and integrity of the public commercial record as published. They do not independently prove authorship, legal title, patent priority, source-code identity, scientific validity, security assurance, certified valuation or commercial outcome.",
-    "futureEconomicReferences": "The public renderer verifies the SHA-256 digest of the 95-project milestone-conditioned economic-reference register. Numeric entries are maturity-only sensitivities, not forecasts or current values.",
+    "futureEconomicReferences": "The renderer verifies and recalculates the current 97-project maturity-sensitivity register; numeric entries change maturity only and are not forecasts or prices.",
     "sellerReadiness": "The public renderer verifies the SHA-256 digests of the seller-readiness, ownership, supply-chain and audit-certificate records before presenting acquisition-readiness status.",
-    "rightsTransfer": "The public renderer verifies the seller-readiness, IP-ownership, software supply-chain, portfolio audit and rights-transfer records. The public transaction layer focuses on the offered rights, third-party obligations and transfer perimeter rather than internal development methods."
+    "rightsTransfer": "The public renderer verifies the seller-readiness, IP-ownership, software supply-chain, portfolio audit and rights-transfer records. The public transaction layer focuses on the offered rights, third-party obligations and transfer perimeter rather than internal development methods.",
+    "projectEvaluations": "All 97 project reassessments share the current evaluation timestamp, record the prior basis and distinguish updated, newly evaluated and reconfirmed results without disclosing implementation detail."
   },
   "privacyBoundary": "Public records expose seller-side commercial, rights, transfer, evidence and non-sensitive supply-chain metadata only. Internal development methods, proprietary know-how, credentials, customer data, sensitive implementation details and transaction-confidential material remain outside the public showroom.",
   "softwareIpAssetCount": 94,
   "projectCount": 97,
-  "publicationRepositoryCount": 11
+  "publicationRepositoryCount": 11,
+  "assessedAt": "2026-10-09T05:36:00Z",
+  "previousEvaluationBasisDate": "2026-10-07"
 }

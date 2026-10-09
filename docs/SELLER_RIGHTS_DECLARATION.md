@@ -1,6 +1,8 @@
 # Seller Rights & Transfer Declaration
 
-Basis date: 2026-10-07
+Original seller declaration basis: 2026-10-07
+Current repository-evidence review: 2026-10-09
+The seller declaration is retained; this review does not create an independent legal opinion.
 
 ## Purpose
 

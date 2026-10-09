@@ -1,8 +1,9 @@
 # Seller Evidence & Transfer Readiness Standard
 
-Basis date: 2026-10-07
+Current review basis: 2026-10-09
+Previous evaluation basis: 2026-10-07
 
-This standard converts the 95-project portfolio into a seller-side acquisition documentation system. It is deliberately narrower than buyer due diligence.
+This standard converts the 97-project portfolio into a seller-side acquisition documentation system. It is deliberately narrower than buyer due diligence.
 
 ## Governing boundary
 
@@ -20,7 +21,7 @@ Statuses are evidence states, not marketing claims. No internal scan is labelled
 
 ## Repository-native audit inputs
 
-Each audit uses the current default-branch snapshot and records its commit SHA. The scan inventories:
+Each reassessment records the current default-branch snapshot, compares it with the previous evaluated baseline, and records its commit SHA. Where implementation or research extensions exist only on a committed development branch, the separate branch scope is explicit; its presence does not imply a merge or full release acceptance. The scan inventories:
 - source and executable implementation files;
 - tests and test harnesses;
 - dependency manifests and lockfiles;
@@ -53,3 +54,9 @@ WIPO:
 The public seller-side system documents **what is offered and what rights can be transferred**, not the internal method of creation. Development methods, prompts, research process and other non-public know-how are outside the public diligence perimeter unless a definitive transaction specifically includes them.
 
 The rights review therefore focuses on seller-owned first-party rights, known/disclosed co-owners or claimants, third-party IP and licence obligations, encumbrances/restrictions, transferability and the exact delivery perimeter. The authoritative rights-transfer record is `assets/rights-transfer-register.json`.
+
+## Current comparison and calculation rules
+
+All 97 projects have a current review result: UPDATED, NEW_SOFTWARE_ASSET_EVALUATION or RECONFIRMED. An unchanged conclusion means the current source/evidence snapshot was compared with the previous assessment; it is not a skipped review. The current source-pinned validation state remains distinct from the presence of test files or historical reports.
+
+The current scope is 94 independently scoped first-party software assets, two economically represented companion projects and one reserved project without implementation. Eleven website/catalogue repositories are digital displays only. New monetary estimates cost first-party work only. No new independent legal, security, market, vehicle or scientific acceptance is inferred from an internal reassessment.

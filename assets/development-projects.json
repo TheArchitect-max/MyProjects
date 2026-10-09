@@ -1,7 +1,7 @@
 {
-  "version": "2026.10.09-development-register-v4",
+  "version": "2026.10.09-im47-full-project-evaluation",
   "status": "repository-evidenced-non-standalone-commercial-projects",
-  "policy": "Five projects have no separate published acquisition price: two newly listed software assets, two companion projects represented by existing assets, and one reserved project without implementation.",
+  "policy": "Three projects have no separate standalone value: two companion projects are represented by existing software assets and one reserved project has no implementation.",
   "projects": [
     {
       "slug": "digital-twin-core",
@@ -29,30 +29,6 @@
       "sector": "AI, Decision & Knowledge Systems",
       "description": "Review the evidence and policies behind decisions within the original PLANTELOGIA project.",
       "pricingDisposition": "No duplicate seller-side price: current economic work product is represented within TA-IP-085 Adaptive Systems Intelligence Platform."
-    },
-    {
-      "slug": "aurynthiq-autonomous-dj-intelligence-platform",
-      "name": "Aurynthiq Autonomous DJ Intelligence Platform",
-      "description": "Create DJ sets from your music library, preview transitions and explore proposed combinations between tracks.",
-      "stage": "P",
-      "stageLabel": "Developed prototype",
-      "familyName": "Audio, Music & Media",
-      "familyId": "audio-media",
-      "sector": "Audio / Media",
-      "softwareAsset": true,
-      "commercialStatus": "NO_PUBLISHED_STANDALONE_PRICE"
-    },
-    {
-      "slug": "universal-vehicle-configuration-database",
-      "name": "Universal Vehicle Configuration Database",
-      "description": "Find source-supported vehicle configurations and see where the available information is complete or still uncertain.",
-      "stage": "P",
-      "stageLabel": "Developed prototype",
-      "familyName": "Aerospace, Mobility & Engineering",
-      "familyId": "aerospace-mobility",
-      "sector": "Automotive / Engineering",
-      "softwareAsset": true,
-      "commercialStatus": "NO_PUBLISHED_STANDALONE_PRICE"
     }
   ],
   "basisDate": "2026-10-09"

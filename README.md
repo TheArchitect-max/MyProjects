@@ -2,15 +2,15 @@
 
 Explore independently scoped software projects, understand what you can use them for, review their current status and open their digital displays.
 
-The current collection contains **94 independently scoped self-built software IP assets**. **92** retain published acquisition references and **2** have no published standalone price. The 7 October valuation-stage snapshot comprises 56 developed-software, 32 prototype and 4 research-stage references; it is separate from the current source-build status.
+The current collection contains **94 independently scoped self-built software IP assets**. **94** have current seller-side acquisition references. The 9 October maturity evaluation comprises 56 developed-software, 35 prototype and 3 research-stage assets. All 97 project records have current evidence, rights and handover assessments.
 
-## Public snapshot — 7 October 2026
+## Public evaluation — 9 October 2026
 
-- Aggregate IP acquisition ask: **EUR 24.040M**
-- Indicative negotiation range: **EUR 19.215M–30.130M**
-- Engineering-equivalent recreation cost: **EUR 101.950M**
-- Ask / recreation cost: **23.58%**
-- Indicative build-versus-buy spread: **EUR 77.910M**
+- Aggregate IP acquisition ask: **EUR 24.290M**
+- Indicative negotiation range: **EUR 19.410M–30.440M**
+- Engineering-equivalent recreation cost: **EUR 103.550M**
+- Ask / recreation cost: **23.46%**
+- Indicative build-versus-buy spread: **EUR 79.260M**
 
 EUR amounts are authoritative. USD values on the website are presentation-only conversions using a dated public exchange rate.
 
@@ -41,7 +41,7 @@ The website retains its public-domain / CC0 old-master visual references and cur
 <!-- DEVELOPMENT-REGISTER:START -->
 ## Development register
 
-The public site presents **97 repository-backed projects**, including **94 independently scoped software IP assets**. Of those assets, **92** have published acquisition references; Aurynthiq and UVCD have no published standalone price. Two companion projects are represented by existing assets and one reserved project has no implementation. Current source-build and open development status were checked on **9 October 2026**; older acquisition and valuation assessments retain their stated dates.
+The public site presents **97 repository-backed projects**, including **94 independently scoped software IP assets**, all with current seller-side acquisition references. Two companion projects are represented by existing assets and one reserved project has no implementation. The complete evidence, rights, transfer, maturity and economic evaluation was updated on **9 October 2026**, against the previous 7 October baselines.
 
 Development capital is milestone-based: no project-specific funding amount is represented as validated until a defined scope, evidence baseline, use-of-funds budget and acceptance criteria exist. The GitHub Pages site is informational only and does not process investments, crowdfunding payments, users, sessions or financial transactions.
 <!-- DEVELOPMENT-REGISTER:END -->
@@ -49,7 +49,7 @@ Development capital is milestone-based: no project-specific funding amount is re
 <!-- PROJECT-IDENTITIES:START -->
 ## Project identity names
 
-Every one of the **97 projects** has one project title and one feminine reference alias. The title leads every card and profile; the alias appears once as a project reference. `assets/display-names.json` mirrors the same mapping and the legacy title-replacement script no longer renames headings. Repository identities, economic quantities and evidence lineage are preserved.
+Every one of the **97 projects** has one project title and one feminine reference alias. The title leads every card and profile; the alias appears once as a project reference. `assets/display-names.json` mirrors the same mapping and the legacy title-replacement script no longer renames headings. Repository identities, single reference names and evidence lineage are preserved. Economic quantities follow the current evidence-based reassessment.
 
 The authoritative public mapping is `assets/project-identities.json`. Current user-facing descriptions, version status and asset eligibility are in `assets/project-presentations.json`.
 <!-- PROJECT-IDENTITIES:END -->
@@ -68,7 +68,7 @@ Excluded publication repositories: `Adaptive-Audio-Synthesis-Platform-Website`, 
 <!-- FUTURE-ECONOMIC-REFERENCES:START -->
 ## Milestone-conditioned economic references
 
-The dated 7 October evidence-bounded register covers **95 projects**; the two newly listed software projects have no additional maturity valuation. It contains **36 numeric conditional maturity references** and **59 NOT_ESTABLISHED records**.
+The current 9 October evidence-bounded register covers **97 projects**. It contains **38 numeric conditional maturity references** and **59 NOT_ESTABLISHED records**. Every conditional amount is recalculated from the current asset inputs.
 
 A numeric reference is published only for an objective **R→P** or **P→V** maturity transition. The calculation reuses the published portfolio methodology and changes only the maturity-stage factor; replacement cost, commercial potential, sector and monetization route remain fixed. It is therefore a reproducible maturity sensitivity, not a forecast, seller ask, market value, investment return or guarantee.
 
@@ -78,19 +78,20 @@ Projects already at stage V receive no higher amount unless new attributable mar
 <!-- SELLER-READINESS:START -->
 ## Seller evidence & transaction readiness
 
-The retained **7 October** repository-native seller-side acquisition audit covers **95 projects**. The two newly listed software projects are explicitly **NOT_ASSESSED** for acquisition readiness; current source-build review does not silently promote the dated audit. Every project has an `ACQUISITION_DOSSIER.md` tied to a frozen baseline and a five-axis Asset Assurance Matrix.
+The **9 October** seller-side acquisition reassessment covers **all 97 projects** against current source snapshots and retained evidence. The five-axis Asset Assurance Matrix distinguishes default-branch software, unmerged development work, completed source-pinned validation and remaining handover conditions. Existing repository dossiers retain their original dates; the current authoritative evaluation is in the website registers.
 
 Current status:
 
 - **2 READY**
-- **83 READY_WITH_CONDITIONS**
-- **10 NOT_READY**
+- **87 READY_WITH_CONDITIONS**
+- **8 NOT_READY**
 - **0 pending**
 
 This is seller-side documentation and transfer readiness, not buyer due diligence. Independent legal title/FTO opinions, certified penetration tests and independent valuations are never implied unless separately evidenced.
 
 Authoritative machine-readable registers:
 
+- `assets/project-evaluations.json`
 - `assets/seller-readiness-register.json`
 - `assets/ip-ownership-register.json`
 - `assets/software-supply-chain-summary.json`
@@ -119,3 +120,17 @@ Authoritative registers:
 Detailed transaction rights, disclosure schedules, representations and warranties belong in the definitive agreement.
 <!-- RIGHTS-TRANSFER:END -->
 
+
+<!-- FULL-EVALUATION:START -->
+## Full project evaluation since the previous timestamp
+
+Previous evaluation basis: **7 October 2026**. Current evaluation timestamp: **2026-10-09T05:36:00Z** (**07:36:00 CEST**).
+
+All **97** projects were compared with the previous frozen baselines. **91** conclusions were reconfirmed after comparison, **4** assessments changed, and **2** first standalone software evaluations were completed. Five monetary model records changed: DARF and TrueLane Studio reflect additional delivered work, Aurynthiq and UVCD have first software-only estimates, and the implemented orchestration candidate is reclassified from research to prototype while retaining its discounted asking position and recreation estimate.
+
+Current source-pinned evidence includes Aurynthiq 0.10 with 146 passing local tests, TrueLane Studio 2.0 with 118 passing tests plus package/smoke acceptance, retained DARF 0.9 hardware validation with the 0.10 gate still pending, and UVCD PR22 with 77/77 saved validation gates and independently matching archive logs. Development branches remain unmerged and buyer-specific acceptance remains explicit.
+
+All monetary estimates use the existing factor model. New first-party work is conservatively costed through disclosed engineering-month budgets; version numbers and commit counts alone never trigger a price increase. Websites, third-party factual data, media and external models do not receive standalone software IP value.
+
+Authoritative full per-project results: `assets/project-evaluations.json`.
+<!-- FULL-EVALUATION:END -->

@@ -1,25 +1,25 @@
 {
-  "v": "2026.10.07-im41-92-asset-pricing",
+  "v": "2026.10.09-im47-full-project-evaluation",
   "model": "Recreation-Cost-Anchored Seller Pricing with Reproducible Public Arithmetic",
   "status": "public-seller-side-economic-model",
   "portfolio": {
-    "assetCount": 92,
+    "assetCount": 94,
     "stageCounts": {
       "developedSoftware": 56,
-      "developedPrototype": 32,
-      "researchStage": 4
+      "developedPrototype": 35,
+      "researchStage": 3
     },
-    "sellerAskEUR": 24040000,
-    "negotiationLowEUR": 19215000,
-    "negotiationHighEUR": 30130000,
-    "replacementCostEUR": 101950000,
-    "marketComparableProxyEUR": 116641742,
-    "incomeLicensingProxyEUR": 137718378,
-    "probabilityAdjustedStrategicValueEUR": 128600856,
-    "triangulatedEconomicReferenceEUR": 121369826,
-    "averageTriangulatedEconomicReferencePerAsset": 1319237.2391304348,
-    "sellerAskAsShareOfTriangulated": 0.19807229516832298,
-    "sellerAskAsShareOfReplacementCost": 0.2358018636586562
+    "sellerAskEUR": 24290000,
+    "negotiationLowEUR": 19410000,
+    "negotiationHighEUR": 30440000,
+    "replacementCostEUR": 103550000,
+    "marketComparableProxyEUR": 118245105,
+    "incomeLicensingProxyEUR": 139434347,
+    "probabilityAdjustedStrategicValueEUR": 130156564,
+    "triangulatedEconomicReferenceEUR": 122978192,
+    "averageTriangulatedEconomicReferencePerAsset": 1308278.6382978724,
+    "sellerAskAsShareOfTriangulated": 0.19751469431263066,
+    "sellerAskAsShareOfReplacementCost": 0.23457267020762917
   },
   "confidence": {
     "replacementCost": "Primary seller-side build-versus-buy reference estimating the engineering-equivalent cost to recreate comparable present transferable work product. It is a seller estimate, not a certified cost audit or guaranteed buyer saving.",
@@ -30,15 +30,64 @@
     "triangulatedEconomicReference": "Secondary weighted analytical reference rather than the primary asking-price basis."
   },
   "rebuildCostCalibration": {
-    "basisDate": "2026-10-07",
-    "approach": "Full owner-repository inventory control through 2026-10-07. Three previously development-only repositories are admitted as distinct standalone economic assets based on their current transferable work product: HΛRM LYRA Automotive / LYRA RS 3.6T, LYRA-AERO eVTOL and Universal Capability Synthesis Engine. LEARNPIANO remains economically represented by TA-IP-086, the PLANTELOGIA lineage remains economically represented within TA-IP-085, and Digital Twin Core has no committed implementation baseline; these are not double-counted as additional economic assets.",
+    "basisDate": "2026-10-09",
+    "approach": "Current project-by-project reassessment since the 7 October asset baselines. Verified new first-party work is added conservatively. Unchanged work retains its earlier engineering-equivalent estimate. Aurynthiq and UVCD are separately costed first-party software assets; websites, third-party data/models/media and duplicated companion work are excluded.",
     "seniorEngineerMonthEUR": 18000,
     "leadOrSpecialistMonthEUR": 22000,
     "validationProvenanceMonthEUR": 16000,
     "coordinationToolingAllowance": 0.15,
     "rounding": "Asset-level changes are rounded conservatively and are not inferred from commit count alone.",
     "successorPolicy": "Successor/generalized identities and companion delivery-surface repositories are not double-counted where they substantially represent the same economic work product.",
-    "boundary": "Only present reproducible software, research-software, validation, governance, packaging and handover work product is costed. Future hosting, market execution, speculative scientific outcomes, unexecuted external qualification, uncommitted implementation and unearned commercial performance are excluded."
+    "boundary": "Only present reproducible software, research-software, validation, governance, packaging and handover work product is costed. Future hosting, market execution, speculative scientific outcomes, unexecuted external qualification, uncommitted implementation and unearned commercial performance are excluded.",
+    "previousBasisDate": "2026-10-07",
+    "assessedAt": "2026-10-09T05:36:00Z",
+    "workPackageEstimates": [
+      {
+        "slug": "distributed-ai-resource-fabric",
+        "basis": "incremental",
+        "seniorEngineerMonths": 3,
+        "leadOrSpecialistMonths": 1,
+        "validationProvenanceMonths": 1,
+        "rawEngineeringCostEUR": 92000,
+        "withAllowanceEUR": 105800,
+        "adoptedRecreationIncrementEUR": 100000,
+        "scope": "Additional recoverability, reproducible operation and validation work delivered after the previous assessment. The pending latest hardware gate is excluded from completed-validation claims."
+      },
+      {
+        "slug": "truelane-studio-apex-architect",
+        "basis": "incremental",
+        "seniorEngineerMonths": 5,
+        "leadOrSpecialistMonths": 3,
+        "validationProvenanceMonths": 2,
+        "rawEngineeringCostEUR": 188000,
+        "withAllowanceEUR": 216200,
+        "adoptedRecreationIncrementEUR": 200000,
+        "scope": "Additional tuning qualification, learning studies, release checks and retained release evidence since the earlier assessment. Physical vehicle qualification is excluded."
+      },
+      {
+        "slug": "aurynthiq-autonomous-dj-intelligence-platform",
+        "basis": "new standalone software",
+        "seniorEngineerMonths": 7,
+        "leadOrSpecialistMonths": 2,
+        "validationProvenanceMonths": 3,
+        "rawEngineeringCostEUR": 218000,
+        "withAllowanceEUR": 250700,
+        "adoptedRecreationCostEUR": 250000,
+        "scope": "Present first-party music-library, DJ-set creation and review prototype, documentation and reproducible test work. Music recordings, third-party models, production hardware and unperformed listener studies are excluded."
+      },
+      {
+        "slug": "universal-vehicle-configuration-database",
+        "basis": "new standalone software",
+        "seniorEngineerMonths": 24,
+        "leadOrSpecialistMonths": 10,
+        "validationProvenanceMonths": 16,
+        "rawEngineeringCostEUR": 908000,
+        "withAllowanceEUR": 1044200,
+        "adoptedRecreationCostEUR": 1050000,
+        "scope": "Present first-party configuration software, evidence review, documented research extensions and retained validation work. Government/manufacturer data, third-party factual records, firmware binaries, OEM rights and unverified vehicle fitment are excluded."
+      }
+    ],
+    "estimateBoundary": "Engineer-month budgets are seller-side engineering-equivalent estimates for reproducing delivered work, not recorded payroll, elapsed development time, certified costs or a market appraisal."
   },
   "factors": {
     "marketPotential": {
@@ -113,7 +162,7 @@
     }
   },
   "verification": {
-    "publicArithmetic": "The public renderer independently recomputes every portfolio aggregate from the public asset inputs and this methodology. A reconciliation status is shown on the Proof and Valuation pages.",
+    "publicArithmetic": "The public renderer independently recalculates each asset’s analytical reference from stage, potential, recreation cost, sector and route, compares every result with its register row, then reconciles all portfolio totals.",
     "fileIntegrity": "SHA-256 fingerprints for the current valuation register and methodology are published in the public attestation file and verified in the browser.",
     "boundary": "Reproducible arithmetic verifies internal consistency of the published model. It does not convert seller assumptions into an independent appraisal, legal title opinion, patent priority opinion, audit or third-party certification."
   },
@@ -124,5 +173,30 @@
     "probabilityAdjustedStrategicValue": "Secondary buyer-side opportunity reference anchored to replacement cost and adjusted for technical completion, commercialization probability, rights-transfer reserve, time/risk and sector context.",
     "triangulatedEconomicReference": "Secondary weighted analytical reference combining four economic lenses; not certified market value.",
     "sellerAsk": "Indicative seller-side source-code/IP acquisition asking reference positioned primarily against recreation cost."
+  },
+  "sellerPricingUpdate": {
+    "existingAssets": "For new scope at DARF and TrueLane Studio, retain each asset’s existing ask/low/high share of recreation cost and round down to EUR 5,000. Other existing asking references remain unchanged absent separately supported commercial evidence.",
+    "newAssets": "Conservative seller estimates checked against existing portfolio prototype price/recreation relationships; these are internal asking references, not external comparable transactions.",
+    "newAssetReferences": [
+      {
+        "slug": "aurynthiq-autonomous-dj-intelligence-platform",
+        "referenceAssets": [
+          "adaptive-audio-production-system",
+          "adaptive-audio-midi-transcription-studio"
+        ],
+        "adoptedAskShareOfRecreation": 0.16
+      },
+      {
+        "slug": "universal-vehicle-configuration-database",
+        "referenceAssets": [
+          "advanced-ground-vehicle-engineering",
+          "electric-flight-systems-simulation-validation-platform",
+          "h-rm-lyra-automotive-lyra-rs-3-6t",
+          "lyra-aero-evtol"
+        ],
+        "adoptedAskShareOfRecreation": 0.11904761904761904
+      }
+    ],
+    "commercialEvidence": "No new attributable income, external transaction or independent appraisal evidence identified; commercial-potential and monetization-route factors are retained for existing assets."
   }
 }

@@ -1,6 +1,7 @@
 # Rights & Transfer Perimeter Standard
 
-Basis date: 2026-10-07
+Reviewed with the current project evaluation: 2026-10-09
+Original policy basis: 2026-10-07
 
 ## What is being offered
 
