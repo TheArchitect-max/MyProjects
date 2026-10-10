@@ -1,0 +1,51 @@
+/* Proposed connection catalogue. The existing portfolio theme is retained. */
+@media(min-width:1121px){.nav-links{gap:clamp(10px,1.5vw,22px)}.site-head .nav{gap:24px}}
+@media(min-width:1121px) and (max-width:1280px){.site-head .nav{align-items:flex-start;flex-direction:column;padding:20px 0;gap:16px}.site-head .nav-links{margin-left:0;flex-wrap:wrap}.site-head .nav-links a{padding:7px 0}}
+.connection-overview{display:flex;flex-wrap:wrap;gap:18px 34px;margin:30px 0 0;padding:22px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.connection-overview p{margin:0;font-size:.78rem}.connection-overview strong{color:var(--ivory);font-size:1rem}
+.connection-tools{grid-template-columns:minmax(230px,1.4fr) minmax(190px,1fr) minmax(220px,1.1fr) minmax(180px,.8fr)}
+.connection-list{display:grid;gap:32px}
+.connection-card{padding:30px;border:1px solid var(--line);background:linear-gradient(145deg,rgba(255,255,255,.025),rgba(255,255,255,.008));scroll-margin-top:28px}
+.connection-card[hidden],.connection-empty[hidden]{display:none}
+.connection-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(230px,.3fr);gap:34px;align-items:start}
+.connection-kicker{display:flex;flex-wrap:wrap;gap:8px 18px;color:var(--gold);font-size:.63rem;letter-spacing:.1em;text-transform:uppercase}
+.connection-card h2{font-size:clamp(1.8rem,3vw,2.5rem);line-height:1.15;margin:16px 0 13px}
+.connection-head p{font-size:.88rem;margin-bottom:14px;max-width:800px}
+.connection-total{padding:20px 23px;border:1px solid var(--line2);background:var(--panel2)}
+.connection-total span,.connection-total strong,.connection-total small{display:block}
+.connection-total span{color:var(--muted);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase}
+.connection-total strong{font-family:var(--serif);font-size:clamp(2rem,3vw,2.8rem);font-weight:400;color:var(--ivory);margin:8px 0}
+.connection-total small{font-size:.7rem;color:var(--muted)}
+.connection-status{display:inline-block;padding:6px 10px;border:1px solid var(--line2);color:#c7b79f;font-size:.66rem}
+.connection-flow{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:21px 0;color:var(--muted);font-size:.74rem}
+.connection-flow li{display:flex;align-items:center;gap:8px}.connection-flow li+li:before{content:'→';color:var(--gold)}
+.connection-table{width:100%;border-collapse:collapse;table-layout:fixed;margin:20px 0}
+.connection-table caption{text-align:left;color:var(--gold);font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:12px}
+.connection-table th{color:var(--muted);font-size:.62rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;text-align:left}
+.connection-table td,.connection-table th{padding:15px 16px;border-bottom:1px solid var(--line);vertical-align:top;overflow-wrap:anywhere}
+.connection-table th:first-child,.connection-table td:first-child{padding-left:0;width:46%}
+.connection-table th:last-child,.connection-table td:last-child{padding-right:0;width:18%;text-align:right}
+.connection-table td{font-size:.8rem;color:var(--muted)}
+.connection-table td a{display:block;color:var(--ivory);font-size:.94rem;line-height:1.4;margin:4px 0 7px}
+.connection-table td a:hover{color:var(--gold)}
+.connection-table td small{display:block;font-size:.65rem;color:var(--muted)}
+.connection-table td>span{color:var(--gold);font-size:.64rem;letter-spacing:.07em}
+.connection-table td strong{color:var(--ivory);white-space:nowrap;font-size:.9rem;font-weight:600}
+.connection-conditions{padding:13px 0;border-bottom:1px solid var(--line);font-size:.78rem;color:var(--muted)}
+.connection-conditions summary{cursor:pointer;color:#c7b79f;font-size:.77rem}
+.connection-conditions ul{padding-left:20px;margin-bottom:6px}.connection-conditions li{margin:7px 0}
+.connection-card .actions{margin-top:24px;flex-wrap:wrap}
+.connection-card .fine{margin:14px 0 0;color:var(--muted)}
+.connection-empty{padding:32px;border:1px solid var(--line);color:var(--muted)}
+.project-connection-links{display:grid;gap:16px;grid-template-columns:repeat(2,minmax(0,1fr))}
+.project-connection-links article{padding:24px;border:1px solid var(--line);background:var(--panel)}
+.project-connection-links span{color:var(--gold);font-size:.65rem;letter-spacing:.08em;text-transform:uppercase}
+.project-connection-links h3{font-size:1.5rem;margin:13px 0}
+.project-connection-links p{font-size:.8rem;margin:0 0 10px}
+.project-connection-links strong{display:block;color:var(--ivory);font-family:var(--serif);font-size:1.7rem;font-weight:400;margin:12px 0}
+.project-connection-links small{display:block;color:var(--muted);font-size:.7rem;margin-bottom:12px}
+.project-connection-links .arrow-link{font-size:.75rem}
+@media(max-width:1120px){.connection-tools{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:820px){.connection-head{grid-template-columns:1fr;gap:12px}.connection-total{max-width:420px}.connection-card{padding:23px}.connection-table th:first-child,.connection-table td:first-child{width:43%}.connection-table th:last-child,.connection-table td:last-child{width:22%}}
+@media(max-width:620px){.connection-tools,.project-connection-links{grid-template-columns:1fr}.connection-card{padding:18px}.connection-table,.connection-table tbody,.connection-table tr,.connection-table td{display:block;width:100%!important}.connection-table thead{display:none}.connection-table tr{padding:12px 0;border-bottom:1px solid var(--line)}.connection-table td{padding:5px 0;border:0;text-align:left!important}.connection-table td:last-child:before{content:'Individual asking reference: ';font-size:.73rem}.connection-table td a{font-size:.98rem}.connection-total{max-width:none}.connection-overview{gap:12px 22px}.connection-flow{display:block}.connection-flow li{margin:6px 0}.connection-flow li+li:before{content:'↓'}.connection-card .actions .btn{width:100%;white-space:normal}}
+@media print{.connection-card,.connection-total,.project-connection-links article{background:#fff;color:#111;border-color:#ccc}.connection-card h2,.connection-total strong,.connection-table td strong,.connection-table td a{color:#111}.connection-tools,.connection-card .actions{display:none}.connection-card{break-inside:avoid}.connection-card[hidden]{display:none}}

@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.10-im56-acquisition-contribution-policy",
+  "version": "2026.10.10-im57-project-connections",
   "publicationDate": "2026-10-10",
   "portfolioAssetCount": 97,
   "valuationBasisDate": "2026-10-10",
@@ -84,6 +84,10 @@
     "acquisition-contribution-policy.json": {
       "sha256": "a75c72ae2d6dd4d0827da08ab1b00ee2edf21d4d36a41911b48caa110f7d3f23",
       "bytes": 13306
+    },
+    "project-connections.json": {
+      "sha256": "05f968a6a04678a912589ae4f14e9090a157155d795a1bed46873aadbeb569af",
+      "bytes": 52598
     }
   },
   "verification": {
@@ -95,13 +99,14 @@
     "sellerReadiness": "Verify the dated criteria disclosure and corrected readiness records. Integrity checks establish unchanged published bytes and cross-register consistency; they do not establish completed transfer gates or independent certification.",
     "rightsTransfer": "The public renderer verifies the seller-readiness, IP-ownership, software supply-chain, portfolio audit and rights-transfer records. The public transaction layer focuses on the offered rights, third-party obligations and transfer perimeter rather than internal development methods.",
     "projectEvaluations": "Each of the 97 IP assets has its own evaluation, first-party rights and transfer perimeter. Scope corrections are dated separately from the retained source-evidence assessment.",
-    "projectIdentities": "Confirm the unique TA-IP-001 through TA-IP-097 identifiers against the same project title, reference alias and slug in every current register and digital-display entry."
+    "projectIdentities": "Confirm the unique TA-IP-001 through TA-IP-097 identifiers against the same project title, reference alias and slug in every current register and digital-display entry.",
+    "projectConnections": "Verify the proposed-connection register, resolve every member against its independent TA-IP asset record and recompute each combination total from the current individual asking references. This verifies identities and arithmetic; it does not establish technical integration."
   },
   "privacyBoundary": "Public records expose seller-side commercial, rights, transfer, evidence and non-sensitive supply-chain metadata only. Internal development methods, proprietary know-how, credentials, customer data, sensitive implementation details and transaction-confidential material remain outside the public showroom.",
   "projectCount": 97,
   "assessedAt": "2026-10-10T08:52:15Z",
   "previousEvaluationBasisDate": "2026-10-09",
-  "catalogueUpdatedAt": "2026-10-10T09:36:25Z",
+  "catalogueUpdatedAt": "2026-10-10T18:29:03Z",
   "ipAssetCount": 97,
   "pricedAssetCount": 97,
   "unpricedAssetCount": 0,
@@ -224,5 +229,16 @@
     "monetaryChanges": 0,
     "sourceAssessmentChanges": 0,
     "boundary": "Informational route policy and address publication only. No acquisition closing, checkout, wallet connection, transaction monitoring, payment settlement or app server is provided by GitHub Pages."
+  },
+  "latestConnectionCatalogue": {
+    "publishedAt": "2026-10-10T18:29:03Z",
+    "connectionCount": 27,
+    "uniqueProjectCount": 64,
+    "sourceDocumentationReviewed": 64,
+    "sourceDocumentationReviewedAt": "2026-10-10T18:29:03Z",
+    "monetaryChanges": 0,
+    "assetCountChanges": 0,
+    "jointIntegrationsValidated": 0,
+    "boundary": "These are proposed combinations of independently scoped project assets, based on reviewed project documentation. Existing project implementations and any documented links retain their own evidence boundaries. This publication establishes no new shared runtime or joint end-to-end validation."
   }
 }

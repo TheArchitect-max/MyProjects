@@ -1,0 +1,1420 @@
+{
+  "version": "2026.10.10-im57-project-connections",
+  "publishedAt": "2026-10-10T18:29:03Z",
+  "sourceDocumentationReviewedAt": "2026-10-10T18:29:03Z",
+  "priceBasisDate": "2026-10-10",
+  "portfolioAssetCount": 97,
+  "currency": "EUR",
+  "priceMethod": "SUM_CURRENT_INDIVIDUAL_ASKS",
+  "scope": {
+    "connectionCount": 27,
+    "uniqueProjectCount": 64,
+    "jointIntegrationsValidatedByThisCatalogue": 0,
+    "sourceDocumentationReviewed": 64,
+    "projectWebsitesIncludedAsAssets": false
+  },
+  "presentationBoundary": "These are proposed combinations of independently scoped project assets, based on reviewed project documentation. Existing project implementations and any documented links retain their own evidence boundaries. This publication establishes no new shared runtime or joint end-to-end validation.",
+  "priceBoundary": "Each combination total is the sum of the current published seller-side asking references for its distinct member projects. It is an asking reference for the listed existing assets AS IS. Integration engineering, deployment, external hardware, services and third-party rights are outside the sum unless expressly agreed separately. No integration premium, discount or independent valuation is added.",
+  "ownershipBoundary": "Every project remains its own independent IP asset with its own first-party rights and transfer perimeter. A proposed combination is not an additional portfolio asset.",
+  "overlapBoundary": "A project may appear in several alternative combinations. Count it once within each combination. Do not add overlapping combination totals to derive a portfolio price.",
+  "transactionBoundary": "Acquisition is completed separately under a definitive written agreement. No purchase, payment or transfer of intellectual property is completed through GitHub Pages. Voluntary Bitcoin contributions remain independent and acquire none of the listed projects or combinations.",
+  "sourceDocumentation": [
+    {
+      "ref": "TA-IP-085",
+      "repository": "Adaptive-Audio-MIDI-Transcription-Studio",
+      "blobSha": "8ef78d8caa73e9c9f7f062274d0956f98968987a",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-060",
+      "repository": "Adaptive-Audio-Production-System",
+      "blobSha": "dee3357fd4d4f293cfd5a4474181c5b357ed9314",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-069",
+      "repository": "Adaptive-Audio-Synthesis-Platform",
+      "blobSha": "ff00144e01b1c2c0ba9b409ad41edade08a1a8c3",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-070",
+      "repository": "Adaptive-Cognitive-Runtime",
+      "blobSha": "53a8617ea9948921b312c2ef51c9f6b5fd9b5f27",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-076",
+      "repository": "Adaptive-Neural-Architecture-Platform",
+      "blobSha": "140ec062000c245b52d41f47ef8959a3a022b8d8",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-034",
+      "repository": "Advanced-Ground-Vehicle-Engineering",
+      "blobSha": "eab06782ca3d8fef3a25e56643efc3751e76ae23",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-030",
+      "repository": "Aerospace-Mission-Simulator",
+      "blobSha": "54f3bfca7aad39744c36269937f873055e9fbd96",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-049",
+      "repository": "Aletheia-Intelligence-Fabric---Distributed-Evidence-Entity-Intelligence-Platform",
+      "blobSha": "0fedfdc1d943216bd0e61f5f6ae12307cf1d244f",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-027",
+      "repository": "Autonomous-Adaptation-Framework",
+      "blobSha": "4ee253b4b10680b3ecae8c1129f2590e0a866a75",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-055",
+      "repository": "Autonomous-Documentary-Engine",
+      "blobSha": "6e58127e501e9ef8e02e17cea1f7349b87de31fb",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-077",
+      "repository": "Bio-Inspired-Neural-Dynamics-Active-Inference-Simulation-Platform",
+      "blobSha": "69af3033cfca35f5f97cde2641255a2c42a559ce",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-078",
+      "repository": "CardioSignal-Intelligence-Platform",
+      "blobSha": "0ec9e912c541430c1f0012ef72f9860da8ce5164",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-021",
+      "repository": "Cipher-Lyric-Engine",
+      "blobSha": "9d7798604ac572710482598b41bf82b89dd9bf22",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-071",
+      "repository": "Content-Integrity-Assurance-Platform",
+      "blobSha": "b1507e468550929f31c48959686ce8e410ad79fd",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-004",
+      "repository": "Continuum-State-Integrity-Platform",
+      "blobSha": "7da5ea3a2b25b388f642d8de2f06f0781be041fc",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-009",
+      "repository": "Custody-Integrity-Assurance-Platform",
+      "blobSha": "76ca78af8c71d44a7749ce38164a7efaf74a2ae7",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-022",
+      "repository": "Distributed-AI-Resource-Fabric",
+      "blobSha": "b00976230f3a0bdfa420991fa097d1fa58b4722e",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-082",
+      "repository": "Distributed-Compute-Fabric",
+      "blobSha": "72604710991e95583e2fdbad9e8da615188bdecd",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-032",
+      "repository": "Electric-Flight-Systems-Simulation-Validation-Platform",
+      "blobSha": "1ae3c7196cde0a5def48505f4d2ae7fd40166ece",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-062",
+      "repository": "Evidence-Governed-Analytical-Reasoning-Platform",
+      "blobSha": "a1926fa09767625806a95e03c32427332afdf1ba",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-039",
+      "repository": "Evidence-Governed-Software-Assurance-Platform",
+      "blobSha": "df5fab7ad770c846ae84c69b910932816cfa79f0",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-012",
+      "repository": "Evidence-Governed-Visual-Intelligence-Platform",
+      "blobSha": "c9b064d038adeca68183812045c956afdfa4d2b7",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-053",
+      "repository": "Evidence-Grounded-Multi-Expert-Reasoning-System",
+      "blobSha": "24ca748a25bcef1002ef56b4e480d5e822b09d6f",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-006",
+      "repository": "Faunometric-Bioacoustic-Intelligence-Platform",
+      "blobSha": "80a7ffcfa9ec050f1338dc07ca6a21f9cdabd502",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-068",
+      "repository": "Hybrid-Adaptive-Rendering-Media",
+      "blobSha": "a5958b6b61ed2240e42e52724bc0ec918e43bee7",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-044",
+      "repository": "ISBR-SecureTrace",
+      "blobSha": "caa14cac352c145262caa9e945ca5db360cde421",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-059",
+      "repository": "Industrial-Predictive-Maintenance-RUL-Platform",
+      "blobSha": "2eef904a32f031c58be969afdbd72d7c61d6b515",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-038",
+      "repository": "Integrated-Media-Production-Engine",
+      "blobSha": "331e0a610020b3989e5b407ff77bd7872849b535",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-084",
+      "repository": "Interactive-Piano-Learning-Platform",
+      "blobSha": "32431f316cf5c440b3feb884cfd63f4525743de3",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-047",
+      "repository": "Kinetic-Logic-Reconstructor",
+      "blobSha": "326a0208316997665d9c6ae92324c9b5260c6513",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-091",
+      "repository": "LYRA-AERO-eVTOL",
+      "blobSha": "8fa72f4e9a24e34c75c90ebb1e0c9994cf3860bd",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-033",
+      "repository": "LegalOps-NL",
+      "blobSha": "97687469d3da9bedc71f6c1b8353d6afa5d5eb82",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-088",
+      "repository": "Maastricht-Digital-Twin",
+      "blobSha": "4d924e98bb0ea7a31aa2230337f65a8e68e085e4",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-089",
+      "repository": "Maastricht-Zero-Hour-Simulator",
+      "blobSha": "2325ffc66d7e4289eccc2130d148a51929940d4b",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-020",
+      "repository": "Machine-Cognition-Research-Framework",
+      "blobSha": "d2dd22fefba4114c16cba65bef881d522f352173",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-045",
+      "repository": "Mercorion-Commerce-Compiler",
+      "blobSha": "9f484d8b6dd67cd13f5d1c525c062f76d5ca75cd",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-056",
+      "repository": "Multimodal-Evidence-Adaptive-Systems-Platform",
+      "blobSha": "15d5995c23bd1d34950d1ef873c810db59ecc08f",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-019",
+      "repository": "Organizational-Memory-Engine",
+      "blobSha": "eafac650608cdb62f46c158893ed074f070ca08c",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-014",
+      "repository": "Programmatic-Search-Fabric",
+      "blobSha": "0741ee5c451a6a5458bdd10e479de0f584ab0350",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-072",
+      "repository": "Radioastronomy-Signal-Validation-Platform",
+      "blobSha": "a1915b3963e99037a2a0fdccef77367fa21aad65",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-011",
+      "repository": "Research-Intelligence-Fabric.",
+      "blobSha": "4f0fe7f3d128dce47c3ab0c2a372bf41775f8ebd",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-028",
+      "repository": "Resource-Aware-Hybrid-Model-Orchestration-Platform",
+      "blobSha": "8764bf4340b53609fe8bc59baea7e1c81b88db19",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-081",
+      "repository": "SWPP-VIORITH-Mobile-Camera-Overlay-",
+      "blobSha": "8207907c668ee3421331256c9a93076338016d19",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-079",
+      "repository": "Secure-Actuation-Integrity-Platform",
+      "blobSha": "4ca6eb576495ae08b968f82d459e80a78ded1579",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-025",
+      "repository": "Sensor-Fusion-Digital-Twin-Engine",
+      "blobSha": "e0d941fcd8caaa4210f3db5da03730c58f9fef89",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-016",
+      "repository": "Signal-Processing-Universal-Framework",
+      "blobSha": "68e4042caac67bccd1267f2c76d6eae000c8e015",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-063",
+      "repository": "Software-Asset-Provenance-Qualification-Platform",
+      "blobSha": "e91674927730b7ec584cd012849ca6e100ac9f6c",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-046",
+      "repository": "SonicFabric",
+      "blobSha": "89b8e47789868d7c4d28a7a2a5103bbe42fd89d8",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-073",
+      "repository": "Spatial-Wearable-Perception-Platform",
+      "blobSha": "bd62a6d4aba21aca425ed789f43e749ab596144f",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-003",
+      "repository": "StabilityMesh-Adaptive-Resilience-Control-for-Distributed-Systems",
+      "blobSha": "03b2e48d456fc627815750a2f1af49deb59a5cd1",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-010",
+      "repository": "TLS-Virtual-1",
+      "blobSha": "b7dd340b5b425b9a01e596f65c7e24c23ddafbdd",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-065",
+      "repository": "TraceLine-Evidence-Governed-Investigation-Framework",
+      "blobSha": "8ac3fe0462fc0500e889ca930b4be86af7ba216b",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-013",
+      "repository": "TrueLane-Intelligence-Engine",
+      "blobSha": "d01b261429529250f434f2e71e6bd971b30fba19",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-080",
+      "repository": "TrueLane-Studio-Apex-Architect",
+      "blobSha": "ed75c01308e95364e5394220ab1508e1009a2a11",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-092",
+      "repository": "Universal-Capability-Synthesis-Engine",
+      "blobSha": "ea50ed6b0efe2a9c69d3430667d044139398373e",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-024",
+      "repository": "Universal-Kernel-Machine",
+      "blobSha": "63e63ad28af85fc7e24ccf2acfea3a8cb1dbc0c0",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-087",
+      "repository": "VellumGrid-Autonomous-Commerce-Platform",
+      "blobSha": "4080d4751544bc15bf617e39e914783afe7d327c",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-018",
+      "repository": "Verifiable-Execution-Control-Platform",
+      "blobSha": "c4b4f25445f58905979e7ed951b2881d835f3a60",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-029",
+      "repository": "Veritas-Evidence-Intelligence",
+      "blobSha": "43901163775fb3aedb46849a7aa9070485810a71",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-052",
+      "repository": "Vision-Evidence-Governed-Multimodal-Perception-Framework",
+      "blobSha": "cedb32d79008c0ddf01775cc3e6b47a095dbb454",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-051",
+      "repository": "Visionair-Research-Engine",
+      "blobSha": "7e34cb5cdcd373e87f21047790b77a10a07f1ea7",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-093",
+      "repository": "Aurynthiq---.Autonomous-DJ-Intelligence-Platform",
+      "blobSha": "8f4343a07dd4c5fb4f82385591668aeb344d6ebf",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-094",
+      "repository": "Universal-Vehicle-Configuration-Database",
+      "blobSha": "34b1c41897ca259ff075491f06c49f04f997fe6d",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-095",
+      "repository": "LEARNPIANO",
+      "blobSha": "34279b93f84c55f2384b4d0de9d6c7877fb80398",
+      "path": "README.md",
+      "checkedAt": "2026-10-10T18:29:03Z"
+    }
+  ],
+  "connections": [
+    {
+      "id": "TA-CN-001",
+      "slug": "research-and-reasoning",
+      "title": "Research and evidence-based reasoning",
+      "category": "Intelligence & research",
+      "purpose": "Take a research question through organised investigation, evidence assessment and a reviewed conclusion.",
+      "proposedFlow": [
+        "Research programme",
+        "Expert reasoning",
+        "Analytical review"
+      ],
+      "connectionType": "Workflow adapters",
+      "integrationStatus": "PROPOSED",
+      "members": [
+        {
+          "ref": "TA-IP-011",
+          "slug": "research-intelligence-fabric",
+          "role": "Organise research tasks and human review."
+        },
+        {
+          "ref": "TA-IP-053",
+          "slug": "evidence-grounded-multi-expert-reasoning-system",
+          "role": "Compare expert perspectives and assess their supporting evidence."
+        },
+        {
+          "ref": "TA-IP-062",
+          "slug": "evidence-governed-analytical-reasoning-platform",
+          "role": "Review analytical conclusions, uncertainties and acceptance conditions."
+        }
+      ],
+      "requirements": [
+        "Agree how research findings and evidence references are passed between the projects.",
+        "Keep the reasoning and analytical-review responsibilities distinct.",
+        "Test one complete question-to-reviewed-report workflow."
+      ]
+    },
+    {
+      "id": "TA-CN-002",
+      "slug": "investigation-and-publication",
+      "title": "Investigation to accountable publication",
+      "category": "Intelligence & research",
+      "purpose": "Organise an authorised investigation and prepare its findings for a documented publication decision.",
+      "proposedFlow": [
+        "Information relationships",
+        "Case review",
+        "Publication assessment"
+      ],
+      "connectionType": "Workflow adapters",
+      "integrationStatus": "PROPOSED",
+      "members": [
+        {
+          "ref": "TA-IP-049",
+          "slug": "aletheia-intelligence-fabric",
+          "role": "Organise relationships between authorised information sources."
+        },
+        {
+          "ref": "TA-IP-065",
+          "slug": "traceline-evidence-governed-investigation-framework",
+          "role": "Manage case evidence and authorised investigation decisions."
+        },
+        {
+          "ref": "TA-IP-029",
+          "slug": "veritas-evidence-intelligence",
+          "role": "Prepare supporting records for publication review."
+        }
+      ],
+      "requirements": [
+        "Align case identifiers, source permissions and evidence references.",
+        "Define the handover between investigation review and publication approval.",
+        "Test the traceability of one case from source material to its reviewed output."
+      ]
+    },
+    {
+      "id": "TA-CN-003",
+      "slug": "content-and-custody",
+      "title": "Content review and custody records",
+      "category": "Evidence & assurance",
+      "purpose": "Review content alongside the records showing its custody and asset history.",
+      "proposedFlow": [
+        "Content review",
+        "Custody handover",
+        "Asset-history review"
+      ],
+      "connectionType": "Workflow adapters",
+      "integrationStatus": "PROPOSED",
+      "members": [
+        {
+          "ref": "TA-IP-071",
+          "slug": "content-integrity-assurance-platform",
+          "role": "Review content and its supporting integrity evidence."
+        },
+        {
+          "ref": "TA-IP-009",
+          "slug": "custody-integrity-assurance-platform",
+          "role": "Record custody handovers and responsibility."
+        },
+        {
+          "ref": "TA-IP-044",
+          "slug": "isbr-securetrace",
+          "role": "Review asset histories and documented handover evidence."
+        }
+      ],
+      "requirements": [
+        "Define which content item each custody and history record refers to.",
+        "Preserve the distinction between content assessment and custody evidence.",
+        "Test whether missing or conflicting records remain visible to the reviewer."
+      ]
+    },
+    {
+      "id": "TA-CN-004",
+      "slug": "software-composition",
+      "title": "Software capability selection and qualification",
+      "category": "Software & infrastructure",
+      "purpose": "Compare software capabilities, qualify the selected components and review the provenance of the resulting asset.",
+      "proposedFlow": [
+        "Capability selection",
+        "Component assurance",
+        "Provenance review"
+      ],
+      "connectionType": "Workflow adapters",
+      "integrationStatus": "PROPOSED",
+      "members": [
+        {
+          "ref": "TA-IP-092",
+          "slug": "universal-capability-synthesis-engine",
+          "role": "Compare candidate capabilities and proposed combinations."
+        },
+        {
+          "ref": "TA-IP-039",
+          "slug": "evidence-governed-software-assurance-platform",
+          "role": "Assess software components against evidence and policy requirements."
+        },
+        {
+          "ref": "TA-IP-063",
+          "slug": "software-asset-provenance-qualification-platform",
+          "role": "Review origin, qualification and release evidence."
+        }
+      ],
+      "requirements": [
+        "Add an explicit intake route for independently owned portfolio components.",
+        "Align the qualification criteria and provenance references.",
+        "Demonstrate compatibility with joint tests before treating a selected combination as integrated."
+      ]
+    },
+    {
+      "id": "TA-CN-005",
+      "slug": "software-change-governance",
+      "title": "Software change memory and authorisation",
+      "category": "Software & infrastructure",
+      "purpose": "Review a proposed software change against earlier decisions, state records and explicit action permissions.",
+      "proposedFlow": [
+        "Historical precedent",
+        "State review",
+        "Action authorisation"
+      ],
+      "connectionType": "Workflow adapters",
+      "integrationStatus": "PROPOSED",
+      "members": [
+        {
+          "ref": "TA-IP-019",
+          "slug": "organizational-memory-engine",
+          "role": "Retrieve earlier software decisions and change-risk evidence."
+        },
+        {
+          "ref": "TA-IP-047",
+          "slug": "kinetic-logic-reconstructor",
+          "role": "Compare software cases with recorded architecture and review precedents."
+        },
+        {
+          "ref": "TA-IP-004",
+          "slug": "continuum-state-integrity-platform",
+          "role": "Review operational state and the history of changes."
+        },
+        {
+          "ref": "TA-IP-079",
+          "slug": "secure-actuation-integrity-platform",
+          "role": "Review permissions before authorising a controlled action."
+        }
+      ],
+      "requirements": [
+        "Align change identifiers, state records and review decisions.",
+        "Keep historical evidence separate from permission to execute.",
+        "Test approved and rejected change scenarios with an agreed authorisation boundary."
+      ]
+    },
+    {
+      "id": "TA-CN-006",
+      "slug": "ai-models-and-capacity",
+      "title": "AI model workflows and compute capacity",
+      "category": "Software & infrastructure",
+      "purpose": "Plan AI model work and match supported tasks to available computing resources.",
+      "proposedFlow": [
+        "Model-task planning",
+        "Resource placement",
+        "Execution evidence"
+      ],
+      "connectionType": "Shared execution services",
+      "integrationStatus": "PROPOSED",
+      "members": [
+        {
+          "ref": "TA-IP-028",
+          "slug": "resource-aware-hybrid-model-orchestration-platform",
+          "role": "Plan supported model workflows and continuation of interrupted tasks."
+        },
+        {
+          "ref": "TA-IP-022",
+          "slug": "distributed-ai-resource-fabric",
+          "role": "Coordinate supported AI workloads and available computing capacity."
+        }
+      ],
+      "requirements": [
+        "Agree the task handover and supported model-runtime boundary.",
+        "Validate the resource requirements and recovery behaviour for one supported workload.",
+        "Qualify each target environment separately before relying on distributed execution."
+      ]
+    },
+    {
+      "id": "TA-CN-007",
+      "slug": "distributed-continuity",
+      "title": "Distributed workload continuity",
+      "category": "Software & infrastructure",
+      "purpose": "Explore how remote workloads could respond to disruption using reviewed resilience and recovery decisions.",
+      "proposedFlow": [
+        "Remote workloads",
+        "Resilience scenarios",
+        "Recovery review"
+      ],
+      "connectionType": "Workflow adapters",
+      "integrationStatus": "PROPOSED",
+      "members": [
+        {
+          "ref": "TA-IP-082",
+          "slug": "distributed-compute-fabric",
+          "role": "Coordinate remote computing work and continuity records."
+        },
+        {
+          "ref": "TA-IP-003",
+          "slug": "stabilitymesh",
+          "role": "Compare distributed-system resilience scenarios."
+        },
+        {
+          "ref": "TA-IP-027",
+          "slug": "autonomous-adaptation-framework",
+          "role": "Evaluate recovery options and continuity conditions."
+        }
+      ],
+      "requirements": [
+        "Define the workload state shared by coordination and recovery components.",
+        "Keep simulated responses distinct from target-environment execution.",
+        "Test failure, recovery and duplicate-task scenarios in a controlled environment."
+      ]
+    },
+    {
+      "id": "TA-CN-008",
+      "slug": "learning-model-research",
+      "title": "Learning model research and comparison",
+      "category": "Intelligence & research",
+      "purpose": "Compare model candidates through controlled training, architecture and information-retention studies.",
+      "proposedFlow": [
+        "Training studies",
+        "Architecture comparison",
+        "Retention experiments"
+      ],
+      "connectionType": "Research comparison",
+      "integrationStatus": "PROPOSED",
+      "members": [
+        {
+          "ref": "TA-IP-013",
+          "slug": "truelane-intelligence-engine",
+          "role": "Manage reviewed AI training studies and model candidates."
+        },
+        {
+          "ref": "TA-IP-076",
+          "slug": "adaptive-neural-architecture-platform",
+          "role": "Compare the effect of model-architecture changes."
+        },
+        {
+          "ref": "TA-IP-024",
+          "slug": "universal-kernel-machine",
+          "role": "Examine learning behaviour and retention under controlled changes."
+        }
+      ],
+      "requirements": [
+        "Use an agreed dataset, model identity and evaluation protocol.",
+        "Provide adapters for the supported experiment and checkpoint formats.",
+        "Compare results under matched conditions without assuming interchangeable models."
+      ]
+    },
+    {
+      "id": "TA-CN-009",
+      "slug": "adaptive-cognition-research",
+      "title": "Adaptive cognition research workbench",
+      "category": "Intelligence & research",
+      "purpose": "Study adaptive decisions, memory and brain-inspired behaviour through matched computational experiments.",
+      "proposedFlow": [
+        "Adaptive runtime",
+        "Neural simulation",
+        "Comparative evaluation"
+      ],
+      "connectionType": "Research comparison",
+      "integrationStatus": "PROPOSED",
+      "members": [
+        {
+          "ref": "TA-IP-070",
+          "slug": "adaptive-cognitive-runtime",
+          "role": "Run controlled experiments on adaptive learning, memory and decisions."
+        },
+        {
+          "ref": "TA-IP-077",
+          "slug": "bio-inspired-neural-dynamics-active-inference-simulation-platform",
+          "role": "Simulate brain-inspired neural dynamics and active inference."
+        },
+        {
+          "ref": "TA-IP-020",
+          "slug": "machine-cognition-research-framework",
+          "role": "Compare adaptation and decision behaviour."
+        }
+      ],
+      "requirements": [
+        "Define common experiment inputs, observations and outcome measures.",
+        "Preserve each project’s model assumptions and research limitations.",
+        "Test the adapters and comparison protocol before combining experimental conclusions."
+      ]
+    },
+    {
+      "id": "TA-CN-010",
+      "slug": "multimodal-observation",
+      "title": "Multimodal observation and review",
+      "category": "Perception & signals",
+      "purpose": "Compare different observation types and review how each contributes to an interpretation.",
+      "proposedFlow": [
+        "Perception experiments",
+        "Observation comparison",
+        "Visual review"
+      ],
+      "connectionType": "Research comparison",
+      "integrationStatus": "PROPOSED",
+      "members": [
+        {
+          "ref": "TA-IP-052",
+          "slug": "vision-evidence-governed-multimodal-perception-framework",
+          "role": "Compare documented multimodal-perception research outputs."
+        },
+        {
+          "ref": "TA-IP-056",
+          "slug": "multimodal-evidence-adaptive-systems-platform",
+          "role": "Combine observation records for comparative research."
+        },
+        {
+          "ref": "TA-IP-012",
+          "slug": "evidence-governed-visual-intelligence-platform",
+          "role": "Review visual material and supporting interpretations."
+        }
+      ],
+      "requirements": [
+        "Agree observation identifiers and compatible representations.",
+        "Retain the difference between research proxies and observed real-world evidence.",
+        "Test a bounded observation-to-review example without promoting research results into unsupported claims."
+      ]
+    },
+    {
+      "id": "TA-CN-011",
+      "slug": "mobile-spatial-review",
+      "title": "Mobile capture and spatial review",
+      "category": "Perception & signals",
+      "purpose": "Bring captured mobile observations into a spatial-review workflow.",
+      "proposedFlow": [
+        "Mobile capture",
+        "Spatial observations",
+        "Evidence review"
+      ],
+      "connectionType": "Workflow adapters",
+      "integrationStatus": "PROPOSED",
+      "members": [
+        {
+          "ref": "TA-IP-081",
+          "slug": "swpp-viorith-mobile-camera-overlay",
+          "role": "Capture and review mobile-camera observations."
+        },
+        {
+          "ref": "TA-IP-073",
+          "slug": "spatial-wearable-perception-platform",
+          "role": "Organise spatial and wearable-use observations."
+        },
+        {
+          "ref": "TA-IP-012",
+          "slug": "evidence-governed-visual-intelligence-platform",
+          "role": "Review the visual evidence supporting an interpretation."
+        }
+      ],
+      "requirements": [
+        "Agree capture formats, timestamps and spatial reference information.",
+        "Define consent, retention and access requirements for the captured material.",
+        "Test one capture-to-review scenario on the supported devices."
+      ]
+    },
+    {
+      "id": "TA-CN-012",
+      "slug": "audio-render-and-review",
+      "title": "Audio rendering and production review",
+      "category": "Audio & media",
+      "purpose": "Render an audio file, process it and review its measured technical quality.",
+      "proposedFlow": [
+        "Audio rendering",
+        "Audio processing",
+        "Quality review"
+      ],
+      "connectionType": "File exchange",
+      "integrationStatus": "PROPOSED",
+      "members": [
+        {
+          "ref": "TA-IP-069",
+          "slug": "adaptive-audio-synthesis-platform",
+          "role": "Render and export audio from the supported synthesis backend."
+        },
+        {
+          "ref": "TA-IP-060",
+          "slug": "adaptive-audio-production-system",
+          "role": "Analyse, process and technically review the rendered audio."
+        }
+      ],
+      "requirements": [
+        "Agree supported audio-file formats, sample rates and channel layouts.",
+        "Implement the handover from rendered output to production input.",
+        "Test a complete render-to-reviewed-file workflow with the available backends."
+      ]
+    },
+    {
+      "id": "TA-CN-013",
+      "slug": "recording-to-piano-practice",
+      "title": "Recorded music to guided piano practice",
+      "category": "Audio & media",
+      "purpose": "Convert suitable recordings into editable musical parts for a guided piano-practice workflow.",
+      "proposedFlow": [
+        "Recording transcription",
+        "Musical-part review",
+        "Guided practice"
+      ],
+      "connectionType": "File exchange",
+      "integrationStatus": "PROPOSED",
+      "members": [
+        {
+          "ref": "TA-IP-085",
+          "slug": "adaptive-audio-midi-transcription-studio",
+          "role": "Transcribe recordings and export reviewed MIDI parts."
+        },
+        {
+          "ref": "TA-IP-084",
+          "slug": "interactive-piano-learning-platform",
+          "role": "Use suitable musical parts for guided practice and performance feedback."
+        }
+      ],
+      "requirements": [
+        "Map the exported musical parts to the learning project’s supported input.",
+        "Retain an editing and review step for transcription inaccuracies.",
+        "Test one authorised recording through transcription and guided practice."
+      ]
+    },
+    {
+      "id": "TA-CN-014",
+      "slug": "recording-to-learnpiano",
+      "title": "Recorded music to LEARNPIANO practice",
+      "category": "Audio & media",
+      "purpose": "Prepare musical parts from your recordings for the separate LEARNPIANO practice route.",
+      "proposedFlow": [
+        "Recording transcription",
+        "Part preparation",
+        "Practice review"
+      ],
+      "connectionType": "File exchange",
+      "integrationStatus": "PROPOSED",
+      "members": [
+        {
+          "ref": "TA-IP-085",
+          "slug": "adaptive-audio-midi-transcription-studio",
+          "role": "Prepare editable MIDI parts from suitable recordings."
+        },
+        {
+          "ref": "TA-IP-095",
+          "slug": "learnpiano",
+          "role": "Organise focused piano practice and progress review."
+        }
+      ],
+      "requirements": [
+        "Confirm which exported musical formats the practice workflow can accept.",
+        "Agree part selection, timing and manual correction behaviour.",
+        "Test the handover independently from other piano-learning combinations."
+      ]
+    },
+    {
+      "id": "TA-CN-015",
+      "slug": "music-library-and-dj",
+      "title": "Music-library preparation and DJ review",
+      "category": "Audio & media",
+      "purpose": "Organise authorised audio creations, review their technical quality and prepare candidate DJ transitions.",
+      "proposedFlow": [
+        "Audio-library preparation",
+        "Quality review",
+        "DJ-set preview"
+      ],
+      "connectionType": "Workflow adapters",
+      "integrationStatus": "PROPOSED",
+      "members": [
+        {
+          "ref": "TA-IP-046",
+          "slug": "sonicfabric",
+          "role": "Organise audio creations and supported provider choices."
+        },
+        {
+          "ref": "TA-IP-060",
+          "slug": "adaptive-audio-production-system",
+          "role": "Review and process the audio files admitted to the workflow."
+        },
+        {
+          "ref": "TA-IP-093",
+          "slug": "aurynthiq-autonomous-dj-intelligence-platform",
+          "role": "Prepare DJ sets and preview proposed transitions."
+        }
+      ],
+      "requirements": [
+        "Admit only audio that may be used for the intended workflow.",
+        "Align audio exports, library metadata and transition inputs.",
+        "Test a small authorised library through file review and DJ-set preview."
+      ]
+    },
+    {
+      "id": "TA-CN-016",
+      "slug": "creative-media-production",
+      "title": "Creative text and media production",
+      "category": "Audio & media",
+      "purpose": "Develop creative text alongside a reviewed media-production and delivery workflow.",
+      "proposedFlow": [
+        "Creative-text review",
+        "Production organisation",
+        "Preview and delivery"
+      ],
+      "connectionType": "Workflow adapters",
+      "integrationStatus": "PROPOSED",
+      "members": [
+        {
+          "ref": "TA-IP-021",
+          "slug": "cipher-lyric-engine",
+          "role": "Develop and revise lyrics or other supported creative text."
+        },
+        {
+          "ref": "TA-IP-038",
+          "slug": "integrated-media-production-engine",
+          "role": "Organise media sources, production review and delivery."
+        },
+        {
+          "ref": "TA-IP-068",
+          "slug": "hybrid-adaptive-rendering-media",
+          "role": "Manage supported media-generation jobs and previews."
+        }
+      ],
+      "requirements": [
+        "Define which approved text and media assets enter production.",
+        "Align production jobs, preview artifacts and delivery formats.",
+        "Test a bounded creative brief through review and supported media output."
+      ]
+    },
+    {
+      "id": "TA-CN-017",
+      "slug": "documentary-and-evidence",
+      "title": "Documentary production with evidence review",
+      "category": "Audio & media",
+      "purpose": "Prepare a documentary workflow with supporting evidence reviewed before release.",
+      "proposedFlow": [
+        "Source-evidence review",
+        "Documentary planning",
+        "Production delivery"
+      ],
+      "connectionType": "Workflow adapters",
+      "integrationStatus": "PROPOSED",
+      "members": [
+        {
+          "ref": "TA-IP-029",
+          "slug": "veritas-evidence-intelligence",
+          "role": "Review supporting evidence and publication conditions."
+        },
+        {
+          "ref": "TA-IP-055",
+          "slug": "autonomous-documentary-engine",
+          "role": "Develop documentary stories and production plans."
+        },
+        {
+          "ref": "TA-IP-038",
+          "slug": "integrated-media-production-engine",
+          "role": "Manage supported media-production review and delivery."
+        }
+      ],
+      "requirements": [
+        "Align source permissions, narrative references and publication decisions.",
+        "Keep editorial approval explicit throughout production.",
+        "Test one authorised source package through planning and reviewable delivery."
+      ]
+    },
+    {
+      "id": "TA-CN-018",
+      "slug": "machine-condition-research",
+      "title": "Machine-condition simulation and maintenance research",
+      "category": "Industry & engineering",
+      "purpose": "Compare machine-condition observations and remaining-life estimates within a controlled maintenance study.",
+      "proposedFlow": [
+        "Machine simulation",
+        "State estimation",
+        "Maintenance assessment"
+      ],
+      "connectionType": "Simulation workflow",
+      "integrationStatus": "PROPOSED",
+      "members": [
+        {
+          "ref": "TA-IP-010",
+          "slug": "tls-virtual",
+          "role": "Provide supported rotating-machine simulation and diagnostic records."
+        },
+        {
+          "ref": "TA-IP-025",
+          "slug": "sensor-fusion-digital-twin-engine",
+          "role": "Review operational observations and estimated system state."
+        },
+        {
+          "ref": "TA-IP-059",
+          "slug": "industrial-predictive-maintenance-rul-platform",
+          "role": "Assess suitable machine histories for remaining-life research."
+        }
+      ],
+      "requirements": [
+        "Map simulated measurements to agreed sensor definitions and time histories.",
+        "Qualify a predictive model for the intended machine and data distribution.",
+        "Keep simulation, external-dataset evaluation and field performance separately identified."
+      ]
+    },
+    {
+      "id": "TA-CN-019",
+      "slug": "reviewed-operational-actions",
+      "title": "Reviewed operational state and controlled actions",
+      "category": "Industry & engineering",
+      "purpose": "Review system observations and require explicit permission before a bounded operational action.",
+      "proposedFlow": [
+        "State review",
+        "Permission review",
+        "Controlled execution"
+      ],
+      "connectionType": "Simulation workflow",
+      "integrationStatus": "PROPOSED",
+      "members": [
+        {
+          "ref": "TA-IP-025",
+          "slug": "sensor-fusion-digital-twin-engine",
+          "role": "Provide reviewed state observations and uncertainty."
+        },
+        {
+          "ref": "TA-IP-079",
+          "slug": "secure-actuation-integrity-platform",
+          "role": "Review the permission and decision record for an action."
+        },
+        {
+          "ref": "TA-IP-018",
+          "slug": "verifiable-execution-control-platform",
+          "role": "Execute supported bounded commands with observed-state checks."
+        }
+      ],
+      "requirements": [
+        "Agree state, command and authorisation contracts.",
+        "Test approval, rejection and observed-state handling in software simulation.",
+        "Qualify deployment and physical equipment separately before target use."
+      ]
+    },
+    {
+      "id": "TA-CN-020",
+      "slug": "vehicle-configuration-review",
+      "title": "Vehicle configuration and engineering review",
+      "category": "Industry & engineering",
+      "purpose": "Compare source-supported vehicle configurations alongside engineering and tuning studies.",
+      "proposedFlow": [
+        "Configuration evidence",
+        "Engineering comparison",
+        "Performance review"
+      ],
+      "connectionType": "Workflow adapters",
+      "integrationStatus": "PROPOSED",
+      "members": [
+        {
+          "ref": "TA-IP-094",
+          "slug": "universal-vehicle-configuration-database",
+          "role": "Organise source-supported vehicle-configuration records."
+        },
+        {
+          "ref": "TA-IP-034",
+          "slug": "advanced-ground-vehicle-engineering",
+          "role": "Compare ground-vehicle concepts and design assumptions."
+        },
+        {
+          "ref": "TA-IP-080",
+          "slug": "truelane-studio-apex-architect",
+          "role": "Review measured configurations and proposed improvements."
+        }
+      ],
+      "requirements": [
+        "Align vehicle identity, configuration versions and measurement units.",
+        "Keep observed measurements separate from design and tuning assumptions.",
+        "Test one configuration across the supported analysis routes."
+      ]
+    },
+    {
+      "id": "TA-CN-021",
+      "slug": "electric-flight-studies",
+      "title": "Electric-flight concept and mission studies",
+      "category": "Industry & engineering",
+      "purpose": "Review electric-aircraft concepts together with supported flight and mission simulations.",
+      "proposedFlow": [
+        "Aircraft concept",
+        "Flight simulation",
+        "Mission comparison"
+      ],
+      "connectionType": "Simulation workflow",
+      "integrationStatus": "PROPOSED",
+      "members": [
+        {
+          "ref": "TA-IP-091",
+          "slug": "lyra-aero-evtol",
+          "role": "Explore the LYRA-AERO electric-aircraft design assumptions."
+        },
+        {
+          "ref": "TA-IP-032",
+          "slug": "electric-flight-systems-simulation-validation-platform",
+          "role": "Compare supported electric-flight simulation behaviour."
+        },
+        {
+          "ref": "TA-IP-030",
+          "slug": "aerospace-mission-simulator",
+          "role": "Review mission scenarios, routes and planning assumptions."
+        }
+      ],
+      "requirements": [
+        "Agree aircraft parameters, energy assumptions and mission inputs.",
+        "Map each simulator’s supported state and scenario boundaries.",
+        "Test matched simulated scenarios; physical certification and deployment require separate evidence."
+      ]
+    },
+    {
+      "id": "TA-CN-022",
+      "slug": "maastricht-mobility-studies",
+      "title": "Maastricht mobility and driving studies",
+      "category": "Industry & engineering",
+      "purpose": "Explore local mobility scenarios alongside the developing interactive-driving workbench.",
+      "proposedFlow": [
+        "Mobility scenario",
+        "Vehicle assumptions",
+        "Driving-workbench study"
+      ],
+      "connectionType": "Simulation workflow",
+      "integrationStatus": "PROPOSED",
+      "members": [
+        {
+          "ref": "TA-IP-088",
+          "slug": "maastricht-digital-twin",
+          "role": "Provide the supported Maastricht mobility-simulation workbench."
+        },
+        {
+          "ref": "TA-IP-034",
+          "slug": "advanced-ground-vehicle-engineering",
+          "role": "Review compatible ground-vehicle assumptions."
+        },
+        {
+          "ref": "TA-IP-089",
+          "slug": "maastricht-zero-hour-simulator",
+          "role": "Provide the developing interactive-driving project foundations."
+        }
+      ],
+      "requirements": [
+        "Agree scenario identity, geography and supported vehicle parameters.",
+        "Identify the additional implementation required by the driving-workbench prototype.",
+        "Demonstrate one shared scenario before presenting a combined interactive simulator."
+      ]
+    },
+    {
+      "id": "TA-CN-023",
+      "slug": "bioacoustic-signal-review",
+      "title": "Bioacoustic signal analysis and classification",
+      "category": "Perception & signals",
+      "purpose": "Prepare authorised sound recordings for repeatable bioacoustic classification studies.",
+      "proposedFlow": [
+        "Signal preparation",
+        "Bioacoustic classification",
+        "Result review"
+      ],
+      "connectionType": "File exchange",
+      "integrationStatus": "PROPOSED",
+      "members": [
+        {
+          "ref": "TA-IP-016",
+          "slug": "signal-processing-universal-framework",
+          "role": "Analyse and prepare suitable signal inputs."
+        },
+        {
+          "ref": "TA-IP-006",
+          "slug": "faunometric",
+          "role": "Classify bioacoustic recordings and compare evaluation results."
+        }
+      ],
+      "requirements": [
+        "Agree sample rates, preprocessing and annotation conventions.",
+        "Use a documented dataset and a compatible classification model.",
+        "Test whether preprocessing preserves the signals required by the classification study."
+      ]
+    },
+    {
+      "id": "TA-CN-024",
+      "slug": "radioastronomy-signal-review",
+      "title": "Radioastronomy signal review",
+      "category": "Perception & signals",
+      "purpose": "Prepare compatible telescope-signal data for candidate-observation review.",
+      "proposedFlow": [
+        "Signal preparation",
+        "Observation qualification",
+        "Candidate review"
+      ],
+      "connectionType": "File exchange",
+      "integrationStatus": "PROPOSED",
+      "members": [
+        {
+          "ref": "TA-IP-016",
+          "slug": "signal-processing-universal-framework",
+          "role": "Prepare and analyse the supported signal representations."
+        },
+        {
+          "ref": "TA-IP-072",
+          "slug": "radioastronomy-signal-validation-platform",
+          "role": "Review radioastronomy candidate observations and validation records."
+        }
+      ],
+      "requirements": [
+        "Preserve the acquisition metadata, units and timing needed for the observation.",
+        "Validate the processing adapter for the supported telescope-data representation.",
+        "Test signal preparation against a documented candidate-validation case."
+      ]
+    },
+    {
+      "id": "TA-CN-025",
+      "slug": "cardiac-signal-research",
+      "title": "Cardiac-signal quality and learning research",
+      "category": "Perception & signals",
+      "purpose": "Compare ECG preparation, signal-quality review and learning experiments in a documented research workflow.",
+      "proposedFlow": [
+        "Signal preparation",
+        "ECG-quality review",
+        "Learning-study comparison"
+      ],
+      "connectionType": "Research comparison",
+      "integrationStatus": "PROPOSED",
+      "members": [
+        {
+          "ref": "TA-IP-016",
+          "slug": "signal-processing-universal-framework",
+          "role": "Prepare supported ECG signal inputs for analysis."
+        },
+        {
+          "ref": "TA-IP-078",
+          "slug": "cardiosignal-intelligence-platform",
+          "role": "Review cardiac-signal quality and study results."
+        },
+        {
+          "ref": "TA-IP-051",
+          "slug": "visionair-research-engine",
+          "role": "Run supported ECG learning studies and comparative evaluations."
+        }
+      ],
+      "requirements": [
+        "Align ECG leads, sampling, annotations and permitted dataset use.",
+        "Keep training, validation and test populations appropriately separated.",
+        "Evaluate the research workflow separately from any clinical or diagnostic use."
+      ]
+    },
+    {
+      "id": "TA-CN-026",
+      "slug": "digital-commerce-workflow",
+      "title": "Digital-product creation and catalogue workflow",
+      "category": "Commerce & professional work",
+      "purpose": "Organise supported digital-product creation, catalogue preparation and reviewed publishing workflows.",
+      "proposedFlow": [
+        "Digital-product preparation",
+        "Catalogue compilation",
+        "Page-workflow review"
+      ],
+      "connectionType": "Workflow adapters",
+      "integrationStatus": "PROPOSED",
+      "members": [
+        {
+          "ref": "TA-IP-087",
+          "slug": "vellumgrid-autonomous-commerce-platform",
+          "role": "Organise supported digital-product creation and fulfilment records."
+        },
+        {
+          "ref": "TA-IP-045",
+          "slug": "mercorion-commerce-compiler",
+          "role": "Prepare reviewed storefront material from a product catalogue."
+        },
+        {
+          "ref": "TA-IP-014",
+          "slug": "programmatic-search-fabric",
+          "role": "Manage supported programmatic-page collections and publishing review."
+        }
+      ],
+      "requirements": [
+        "Align product identifiers, approved content and catalogue records.",
+        "Keep publication, fulfilment and external commercial operations explicitly scoped.",
+        "Test a local product-to-reviewed-catalogue workflow; accounts, transactions and runtime services require separate hosting."
+      ]
+    },
+    {
+      "id": "TA-CN-027",
+      "slug": "professional-case-review",
+      "title": "Legal research and accountable case review",
+      "category": "Commerce & professional work",
+      "purpose": "Organise legal research, assess its supporting evidence and retain authorised case-review decisions.",
+      "proposedFlow": [
+        "Legal research",
+        "Analytical evidence review",
+        "Case review"
+      ],
+      "connectionType": "Workflow adapters",
+      "integrationStatus": "PROPOSED",
+      "members": [
+        {
+          "ref": "TA-IP-033",
+          "slug": "legalops-nl",
+          "role": "Organise supported legal references and source-review workspaces."
+        },
+        {
+          "ref": "TA-IP-062",
+          "slug": "evidence-governed-analytical-reasoning-platform",
+          "role": "Review supplied evidence, hypotheses and analytical uncertainty."
+        },
+        {
+          "ref": "TA-IP-065",
+          "slug": "traceline-evidence-governed-investigation-framework",
+          "role": "Retain authorised case evidence and review decisions."
+        }
+      ],
+      "requirements": [
+        "Align case identifiers, source permissions and proposition-level evidence.",
+        "Require professional review for conclusions affecting a real case.",
+        "Test retrieval and traceability using an authorised example case."
+      ]
+    }
+  ]
+}
