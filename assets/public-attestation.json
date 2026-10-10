@@ -1,17 +1,17 @@
 {
-  "version": "2026.10.09-im52-current-pages-and-displays",
-  "publicationDate": "2026-10-09",
+  "version": "2026.10.10-im53-darf-v015-financial-review",
+  "publicationDate": "2026-10-10",
   "portfolioAssetCount": 97,
-  "valuationBasisDate": "2026-10-09",
+  "valuationBasisDate": "2026-10-10",
   "purpose": "Verify the integrity and arithmetic of 97 individually priced independent IP-asset records. Digital Twin Core is priced for existing definition and documentation only. Project websites are digital displays and are excluded from the asset count.",
   "files": {
     "valuation-register.json": {
       "algorithm": "SHA-256",
-      "sha256": "1b242152965401278b083f77057e6fe6805624840691d554834f9960247725e8"
+      "sha256": "15bc42701ce5f5ab3d65d1788d8448d061d25626bc793cbb498e87333ba5b1fd"
     },
     "economic-methodology.json": {
       "algorithm": "SHA-256",
-      "sha256": "84f5c56bc2674f5167b394cd6c11bedc166550805f264e294b11cb2aded564b6"
+      "sha256": "b6e0e477eaa571abbd676ec33acc2c66da1f10aec7277121ab5701989aa25f9e"
     },
     "public-sites.json": {
       "algorithm": "SHA-256",
@@ -19,31 +19,31 @@
     },
     "future-economic-references.json": {
       "algorithm": "SHA-256",
-      "sha256": "170489bbcea5a12a948d87225fefaf9a863c22ed3279fb31c3d04e04b1ec5faa"
+      "sha256": "f13744a740185583691f00ded1018ed484dcf48111871502fa73cc65db772f3b"
     },
     "seller-readiness-register.json": {
       "algorithm": "SHA-256",
-      "sha256": "5fecded372eb425c53304daf429b0d9a50c5c0165f53bfa0bd6c37b8f5e41960"
+      "sha256": "a7b24d486315c53e49eda45e0fa9239c6041b1d6064a25f9e172f58ac68c037b"
     },
     "ip-ownership-register.json": {
       "algorithm": "SHA-256",
-      "sha256": "095e09caa72f88b4fcc45a2e7e5ef60a4aaf710d88b1c272d299495538cd2022"
+      "sha256": "bacabdf145862fc492eca22ecbffcf50258f3ac5375773a5b1b1fd5fd4c98d03"
     },
     "software-supply-chain-summary.json": {
       "algorithm": "SHA-256",
-      "sha256": "2149d3cb56b700c461f98580a63ddcb9aebdb29c6147bf790d0d3c448d3989f8"
+      "sha256": "e780b2d49587181f06620c49b38028c6113febd4cf9d065efabf797b9285ee0d"
     },
     "portfolio-audit-certificate.json": {
       "algorithm": "SHA-256",
-      "sha256": "818bab78c6a7232212c284fe8b204e56ecf3d75d35b45d199e6c6fc61f91819d"
+      "sha256": "5d1389e64d3ba79f94a64c8358e1b7fb2c9895d590686d1163c09c035a79dd10"
     },
     "rights-transfer-register.json": {
       "algorithm": "SHA-256",
-      "sha256": "12a5d4ea5a108d19e7a1d5bda647fbe9de5a02ed8f5ed1860d81da1d0e6ffb26"
+      "sha256": "6053e4f7e476d11e39302af8b58261a13b9602b9ae74f901b351742ec8462299"
     },
     "project-presentations.json": {
       "algorithm": "SHA-256",
-      "sha256": "f7d1ff7abbbcbc4f2ad27bdee4c0f759151122e3c7865bc80fb6e8343b99c13a"
+      "sha256": "8a6fffc8a0494bf76c2bfd4ad7053b8d19b2d5f2a94510c2996a799c57b95c0e"
     },
     "project-identities.json": {
       "algorithm": "SHA-256",
@@ -51,7 +51,7 @@
     },
     "descriptions.json": {
       "algorithm": "SHA-256",
-      "sha256": "2e52d45cc7cd784db9dff226f5441c1432bef2a59fb96d31d6b1d1356d0ef6f8"
+      "sha256": "3656a11889ed575033d2e4f2eeab8a2dd8918af8318adce633f9f835dea78bf4"
     },
     "display-names.json": {
       "algorithm": "SHA-256",
@@ -67,15 +67,15 @@
     },
     "project-evaluations.json": {
       "algorithm": "SHA-256",
-      "sha256": "81737076ecee8e88d64f2626fd26bd8c7abacfc94d1ad987c0759afbaf78560f"
+      "sha256": "3dfff28f81544c70ed584d37dd6b808e244aaa6c590b32fb277aea139a3c2870"
     },
     "im-data.json": {
       "algorithm": "SHA-256",
-      "sha256": "82b7b64042e4002b7dc7c5832c4ed0fd48e84eb51787be721e4f9131314ad3a6"
+      "sha256": "2c9302b9ddca44896c6914d6c180421eab74e7b23e879801e010599eb0c53bac"
     },
     "recreation-costs.json": {
       "algorithm": "SHA-256",
-      "sha256": "652ed5df036a918488ffd46a8ddfadb3f463b4088a4f580281e99421f36564de"
+      "sha256": "3e481f129bdac3d585e10844bf39344f6a12c3a83a01ff2ef0721010b8eaf293"
     },
     "independent-assets.json": {
       "algorithm": "SHA-256",
@@ -97,7 +97,7 @@
   "projectCount": 97,
   "assessedAt": "2026-10-09T10:15:23Z",
   "previousEvaluationBasisDate": "2026-10-09",
-  "catalogueUpdatedAt": "2026-10-09T10:15:23Z",
+  "catalogueUpdatedAt": "2026-10-10T00:48:36Z",
   "ipAssetCount": 97,
   "pricedAssetCount": 97,
   "unpricedAssetCount": 0,
@@ -115,5 +115,28 @@
     "displayCount": 11,
     "boundary": "Fresh source-head checks for all 97 assets and retained-evidence review for changed releases or development scopes. No fresh execution of all source repositories, independent price appraisal or production-service deployment is implied."
   },
-  "publicDisplayCount": 11
+  "publicDisplayCount": 11,
+  "latestTargetedAssetReview": {
+    "slug": "distributed-ai-resource-fabric",
+    "ref": "TA-IP-022",
+    "title": "Distributed AI Resource Fabric",
+    "assessedAt": "2026-10-10T00:48:36Z",
+    "previousCatalogueUpdatedAt": "2026-10-09T10:15:23Z",
+    "sourceHead": "2c4e07efa560633eec9efe24a2c82146f48b118d",
+    "validatedExecutableCommit": "e5e7808e20ac63dc9621158bf35c9ac0ba2cd3d6",
+    "currentVersion": "0.15.0",
+    "assetsReassessed": 1,
+    "otherAssetRecordsRetained": 96,
+    "monetaryReferencesChanged": 1,
+    "previousSellerAskEUR": 325000,
+    "sellerAskEUR": 395000,
+    "previousReplacementCostEUR": 900000,
+    "replacementCostEUR": 1100000,
+    "negotiationLowEUR": 310000,
+    "negotiationHighEUR": 495000,
+    "unchangedCommercialFactors": true,
+    "softwareMaturityChanged": false,
+    "boundary": "DARF only: current source, retained exact-commit validation, rights, delivery conditions and seller-side economics. The other 96 asset assessments and monetary inputs retain their earlier dates and conclusions; portfolio totals are recomputed."
+  },
+  "latestIndividualPricingAt": "2026-10-10T00:48:36Z"
 }

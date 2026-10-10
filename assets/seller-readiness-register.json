@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.09-im52-current-pages-and-displays",
+  "version": "2026.10.10-im53-darf-v015-financial-review",
   "basisDate": "2026-10-09",
   "status": "COMPLETE",
   "scope": {
@@ -3167,8 +3167,8 @@
       "commercialReference": "TA-IP-022",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
-      "sellerAskEUR": 325000,
-      "baselineCommit": "adf6305b010f56fd2b0891e3b0b34652e23f45da",
+      "sellerAskEUR": 395000,
+      "baselineCommit": "2c4e07efa560633eec9efe24a2c82146f48b118d",
       "auditStatus": "CURRENT_REPOSITORY_REASSESSMENT_COMPLETE",
       "assurance": {
         "technicalMaturity": "V",
@@ -3183,43 +3183,92 @@
           "kind": "implementation",
           "path": "examples/capacity_agnostic.py",
           "gitBlobSha": "03e8265be2c79c001b836ca737c1585756060079",
-          "baselineCommit": "adf6305b010f56fd2b0891e3b0b34652e23f45da"
+          "baselineCommit": "2c4e07efa560633eec9efe24a2c82146f48b118d"
         },
         "EV-TEST-001": {
           "kind": "tests",
           "path": "tests/test_accelerators.py",
           "gitBlobSha": "35334d353162e4ea85e696e9934b4aa7dc5ac6ca",
-          "baselineCommit": "adf6305b010f56fd2b0891e3b0b34652e23f45da"
+          "baselineCommit": "2c4e07efa560633eec9efe24a2c82146f48b118d"
         },
         "EV-VAL-001": {
           "kind": "validation",
           "path": "COLAB_GPU_VALIDATION.md",
-          "gitBlobSha": "abf823c1405147adeb001dd4d1e5fd1de1d12760",
-          "baselineCommit": "adf6305b010f56fd2b0891e3b0b34652e23f45da"
+          "gitBlobSha": "99b074c77c573e8367ec467062723a0c875271dd",
+          "baselineCommit": "2c4e07efa560633eec9efe24a2c82146f48b118d"
         },
         "EV-IP-001": {
           "kind": "repository-licence",
           "path": "LICENSE",
           "gitBlobSha": "e74802823af49e0f344d3f9798f13be21eded4b2",
-          "baselineCommit": "adf6305b010f56fd2b0891e3b0b34652e23f45da"
+          "baselineCommit": "2c4e07efa560633eec9efe24a2c82146f48b118d"
         },
         "EV-DEP-001": {
           "kind": "dependency-manifest",
           "path": "pyproject.toml",
-          "gitBlobSha": "83ed35e0c2a784a47aa790075221c99950d53cc7",
-          "baselineCommit": "adf6305b010f56fd2b0891e3b0b34652e23f45da"
+          "gitBlobSha": "86c9724a1191ce42f2c04474d2de7bacb4d737d4",
+          "baselineCommit": "2c4e07efa560633eec9efe24a2c82146f48b118d"
         },
         "EV-TRN-001": {
           "kind": "transfer",
           "path": "src/distributed_ai_resource_fabric/routed_transfer.py",
           "gitBlobSha": "6e2923ecdedea67f748e134e3f0ee5be4918be06",
-          "baselineCommit": "adf6305b010f56fd2b0891e3b0b34652e23f45da"
+          "baselineCommit": "2c4e07efa560633eec9efe24a2c82146f48b118d"
         },
         "EV-EXT-002": {
           "kind": "retained-external-validation",
           "path": "validation/colab/2026-10-07-tesla-t4-v0.9.0.json",
           "gitBlobSha": "d7c8813c4ea45562aab50b9863fd3a8b0185f380",
-          "baselineCommit": "adf6305b010f56fd2b0891e3b0b34652e23f45da"
+          "baselineCommit": "2c4e07efa560633eec9efe24a2c82146f48b118d"
+        },
+        "EV-EXT-003": {
+          "kind": "retained-external-validation",
+          "path": "validation/colab/2026-10-10-tesla-t4-v0.15.0-durable-reconciliation.json",
+          "gitBlobSha": "43c8c2956c03b9702974c27b393d50e2a1078e5e",
+          "baselineCommit": "2c4e07efa560633eec9efe24a2c82146f48b118d",
+          "boundary": "Exact executable commit e5e7808e20ac63dc9621158bf35c9ac0ba2cd3d6: 231/231 software tests and one Tesla T4 GPU gate. Latest main adds documentation/evidence, not a second GPU run."
+        },
+        "EV-EXT-004": {
+          "kind": "historical-model-serving-validation",
+          "path": "validation/colab/2026-10-09-tesla-t4-v0.10.0-model-serving.json",
+          "gitBlobSha": "d7a02630fcffe81919987f29f5eecb39358d09e4",
+          "baselineCommit": "2c4e07efa560633eec9efe24a2c82146f48b118d",
+          "boundary": "Real model serving is validated for the separate v0.10 code commit 73c732ec14d81ebc1e168f307125033c50221070; it is not a new v0.15 model-serving benchmark."
+        },
+        "EV-EXT-005": {
+          "kind": "historical-logical-worker-validation",
+          "path": "validation/colab/2026-10-09-tesla-t4-v0.12.0-lease-readiness-failover.json",
+          "gitBlobSha": "57721106b4808d786bcd5296af9de47fd2390a5d",
+          "baselineCommit": "2c4e07efa560633eec9efe24a2c82146f48b118d",
+          "boundary": "Two logical workers on one physical host at v0.12 code commit 70fc4c2859b1ffd3103e6b30ba80a804603759d8; physical multi-host/multi-GPU failover is not established."
+        },
+        "EV-TECH-002": {
+          "kind": "implementation",
+          "path": "src/distributed_ai_resource_fabric/coordinator_journal.py",
+          "gitBlobSha": "20a47d53cd74e9cda5141e4610f71e64026ec209",
+          "baselineCommit": "2c4e07efa560633eec9efe24a2c82146f48b118d",
+          "boundary": "Persistent local recovery/reconciliation software, not distributed high availability or proven physical crash recovery."
+        },
+        "EV-TEST-002": {
+          "kind": "tests",
+          "path": "tests/test_coordinator_journal.py",
+          "gitBlobSha": "85b70bc2a2581c78e1c9030e2babcdedbd9e582f",
+          "baselineCommit": "2c4e07efa560633eec9efe24a2c82146f48b118d",
+          "boundary": "Recovery regression source is included in the retained 231-test exact-code gate."
+        },
+        "EV-COM-001": {
+          "kind": "commercial-planning-document",
+          "path": "COMMERCIAL_STRATEGY.md",
+          "gitBlobSha": "06addf3e15590b525fefa7cbbbb6aed5ab08e883",
+          "baselineCommit": "2c4e07efa560633eec9efe24a2c82146f48b118d",
+          "boundary": "Proposed enterprise licensing and evidence-gated roadmap only. No current paid pilot, recurring contract, revenue, buyer ROI or launched managed service is established."
+        },
+        "EV-COM-002": {
+          "kind": "commercial-planning-document",
+          "path": "ROADMAP.md",
+          "gitBlobSha": "69bca2bacb4666d5fc5398ca16c1e7ed592571da",
+          "baselineCommit": "2c4e07efa560633eec9efe24a2c82146f48b118d",
+          "boundary": "Proposed enterprise licensing and evidence-gated roadmap only. No current paid pilot, recurring contract, revenue, buyer ROI or launched managed service is established."
         }
       },
       "dependencySummary": {
@@ -3249,7 +3298,10 @@
         "buildReleaseEvidence": [
           "pyproject.toml"
         ],
-        "provenanceEvidence": [],
+        "provenanceEvidence": [
+          "validation/colab/2026-10-10-tesla-t4-v0.15.0-durable-reconciliation.json",
+          "notebooks/DARF_v0.15_Exact_Commit_Recovery_Validation.ipynb"
+        ],
         "transferEvidence": []
       },
       "openSellerItems": [
@@ -3258,32 +3310,48 @@
         "Third-party licensing and obligations documentation remains incomplete.",
         "A security assessment or an explicit statement of its absence is required before acceptance.",
         "An explicit delivery manifest and handover scope remain to be agreed.",
-        "Full release validation of the exact current candidate remains required before acceptance."
+        "Physical multi-host recovery, real current-version model serving and production acceptance require qualification for the agreed deployment environment."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
         "Freedom-to-operate legal opinion not performed unless separately evidenced.",
         "Independent penetration test not assumed unless separately evidenced."
       ],
-      "assessmentDate": "2026-10-09",
-      "assessedAt": "2026-10-09T10:15:23Z",
+      "assessmentDate": "2026-10-10",
+      "assessedAt": "2026-10-10T00:48:36Z",
       "previousAssessmentDate": "2026-10-09",
-      "previousBaselineCommit": "5b93c6896427a47770e2705ac184fe09f31489f0",
-      "defaultBranchBaselineCommit": "adf6305b010f56fd2b0891e3b0b34652e23f45da",
+      "previousBaselineCommit": "adf6305b010f56fd2b0891e3b0b34652e23f45da",
+      "defaultBranchBaselineCommit": "2c4e07efa560633eec9efe24a2c82146f48b118d",
       "sourceScope": "DEFAULT_BRANCH",
       "validationReview": {
-        "validatedVersion": "0.9.0",
-        "validatedExecutableCommit": "5f3fe2d353d35db61e1111e74025c9b8dc71bcec",
-        "retainedTestsPassed": 139,
-        "currentVersion": "0.10.0",
-        "currentCompleteValidation": "PENDING",
-        "boundary": "Earlier hardware evidence is retained; current full model-serving validation is not claimed."
+        "validatedVersion": "0.15.0",
+        "validatedExecutableCommit": "e5e7808e20ac63dc9621158bf35c9ac0ba2cd3d6",
+        "retainedTestsPassed": 231,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "currentVersion": "0.15.0",
+        "currentCompleteValidation": "PASS_FOR_EXACT_SOFTWARE_AND_SINGLE_GPU_SCOPE",
+        "validatedAt": "2026-10-10T00:21:28.995236+00:00",
+        "retainedReportSha256": "af55f5d3caf47d0398b7ce006f632087dae2b5c157919f05bb80cec91bfe3d1a",
+        "latestMainEquivalentExecutableScope": true,
+        "changesAfterValidation": "Documentation, retained evidence and a pinned validation notebook only; no core source/test/tool/package changes.",
+        "historicalModelServingVersion": "0.10.0",
+        "historicalLogicalWorkerFailoverVersion": "0.12.0",
+        "boundary": "Software-level recovery and single-device GPU admission are evidenced. Physical worker/coordinator crash recovery, multi-host/multi-GPU failover, durable distributed availability and fresh v0.15 real model serving remain unvalidated."
       },
       "reviewResult": "UPDATED",
       "ref": "TA-IP-022",
-      "previousAssessedAt": "2026-10-09T05:36:00Z",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z",
-      "currentSourceReviewBoundary": "Review the expanded project objectives and user-value documentation. The v0.10.0 software baseline and earlier hardware evidence are unchanged; full current hardware-serving validation remains pending."
+      "previousAssessedAt": "2026-10-09T10:15:23Z",
+      "sourceRecheckedAt": "2026-10-10T00:48:36Z",
+      "currentSourceReviewBoundary": "Review v0.15.0 for coordinating your AI work and overseeing interrupted operations. Retained evidence records 231 passing software tests and a single-Tesla-T4 hardware gate on the validated code snapshot. Earlier real model-serving and controlled failover results remain tied to their own versions; multi-computer recovery and production availability are not established.",
+      "commercialPlanningReview": {
+        "status": "PLANNING_HYPOTHESES_ONLY",
+        "priority": "Scoped private-infrastructure evaluation on customer-controlled hardware, followed by enterprise licensing after qualification.",
+        "currentRevenueEvidence": "NOT_ESTABLISHED",
+        "pilotAndSubscriptionScenariosIncludedInAcquisitionValue": false,
+        "repositoryDossier": "Historical 7 October EUR 290,000 asking record is frozen; the current MyProjects 10 October assessment governs this public catalogue."
+      }
     },
     {
       "repository": "Distributed-Compute-Fabric",
@@ -11891,5 +11959,27 @@
   "assessedAt": "2026-10-09T10:15:23Z",
   "previousBasisDate": "2026-10-09",
   "reviewPolicy": "Current default-branch heads and retained evidence are compared with previous frozen assessment baselines. Where committed implementation exists only on a development branch, that scope is explicit and does not imply a merge or full release acceptance. Unchanged evidence retains its previous grade after Git-blob verification. Repository evidence inventory is not a fresh execution of every software test suite.",
-  "catalogueUpdatedAt": "2026-10-09T10:15:23Z"
+  "catalogueUpdatedAt": "2026-10-10T00:48:36Z",
+  "latestTargetedAssetReview": {
+    "slug": "distributed-ai-resource-fabric",
+    "ref": "TA-IP-022",
+    "title": "Distributed AI Resource Fabric",
+    "assessedAt": "2026-10-10T00:48:36Z",
+    "previousCatalogueUpdatedAt": "2026-10-09T10:15:23Z",
+    "sourceHead": "2c4e07efa560633eec9efe24a2c82146f48b118d",
+    "validatedExecutableCommit": "e5e7808e20ac63dc9621158bf35c9ac0ba2cd3d6",
+    "currentVersion": "0.15.0",
+    "assetsReassessed": 1,
+    "otherAssetRecordsRetained": 96,
+    "monetaryReferencesChanged": 1,
+    "previousSellerAskEUR": 325000,
+    "sellerAskEUR": 395000,
+    "previousReplacementCostEUR": 900000,
+    "replacementCostEUR": 1100000,
+    "negotiationLowEUR": 310000,
+    "negotiationHighEUR": 495000,
+    "unchangedCommercialFactors": true,
+    "softwareMaturityChanged": false,
+    "boundary": "DARF only: current source, retained exact-commit validation, rights, delivery conditions and seller-side economics. The other 96 asset assessments and monetary inputs retain their earlier dates and conclusions; portfolio totals are recomputed."
+  }
 }

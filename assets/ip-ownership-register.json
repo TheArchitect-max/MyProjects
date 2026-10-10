@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.09-im52-current-pages-and-displays",
+  "version": "2026.10.10-im53-darf-v015-financial-review",
   "basisDate": "2026-10-09",
   "status": "SELLER_SIDE_REPOSITORY_EVIDENCE_REGISTER",
   "boundary": "Seller-side rights evidence register. It records repository licence evidence, disclosed third-party material and rights-review status. It does not disclose development methods and does not constitute an independent legal title or freedom-to-operate opinion.",
@@ -615,11 +615,11 @@
       "repository": "Distributed-AI-Resource-Fabric",
       "slug": "distributed-ai-resource-fabric",
       "identityName": "Freya",
-      "baselineCommit": "adf6305b010f56fd2b0891e3b0b34652e23f45da",
+      "baselineCommit": "2c4e07efa560633eec9efe24a2c82146f48b118d",
       "commercialReference": "TA-IP-022",
-      "defaultBranchBaselineCommit": "adf6305b010f56fd2b0891e3b0b34652e23f45da",
+      "defaultBranchBaselineCommit": "2c4e07efa560633eec9efe24a2c82146f48b118d",
       "sourceScope": "DEFAULT_BRANCH",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "repositoryLicenceFiles": [
         "LICENSE"
       ],
@@ -630,7 +630,7 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "buyerSpecificLegalReviewRequired": true,
       "ref": "TA-IP-022",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T00:48:36Z"
     },
     {
       "repository": "Distributed-Compute-Fabric",
@@ -2281,5 +2281,27 @@
     }
   ],
   "assessedAt": "2026-10-09T10:15:23Z",
-  "catalogueUpdatedAt": "2026-10-09T10:15:23Z"
+  "catalogueUpdatedAt": "2026-10-10T00:48:36Z",
+  "latestTargetedAssetReview": {
+    "slug": "distributed-ai-resource-fabric",
+    "ref": "TA-IP-022",
+    "title": "Distributed AI Resource Fabric",
+    "assessedAt": "2026-10-10T00:48:36Z",
+    "previousCatalogueUpdatedAt": "2026-10-09T10:15:23Z",
+    "sourceHead": "2c4e07efa560633eec9efe24a2c82146f48b118d",
+    "validatedExecutableCommit": "e5e7808e20ac63dc9621158bf35c9ac0ba2cd3d6",
+    "currentVersion": "0.15.0",
+    "assetsReassessed": 1,
+    "otherAssetRecordsRetained": 96,
+    "monetaryReferencesChanged": 1,
+    "previousSellerAskEUR": 325000,
+    "sellerAskEUR": 395000,
+    "previousReplacementCostEUR": 900000,
+    "replacementCostEUR": 1100000,
+    "negotiationLowEUR": 310000,
+    "negotiationHighEUR": 495000,
+    "unchangedCommercialFactors": true,
+    "softwareMaturityChanged": false,
+    "boundary": "DARF only: current source, retained exact-commit validation, rights, delivery conditions and seller-side economics. The other 96 asset assessments and monetary inputs retain their earlier dates and conclusions; portfolio totals are recomputed."
+  }
 }

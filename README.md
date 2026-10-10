@@ -4,13 +4,13 @@ Explore independently scoped software projects, understand what you can use them
 
 The collection contains **97 independent IP assets**, each with its own identity, first-party rights and transfer perimeter. Individual asking references and present-scope recreation estimates are published for all 97 assets. Digital Twin Core covers existing definition and acquisition documentation only, with no implemented software included. Current maturity: 57 developed-software, 36 prototype, 3 research-stage and 1 definition-stage asset. All 97 assets have individual evidence, rights and handover assessments.
 
-## Public evaluation — 9 October 2026
+## Public monetary evaluation — 10 October 2026
 
-- Published asking subtotal: **EUR 24,520,500**
-- Indicative negotiation range: **EUR 19,595,400–30,728,125**
-- Published engineering-equivalent recreation subtotal: **EUR 104,652,000**
-- Ask / recreation cost: **23.43%**
-- Indicative build-versus-buy spread: **EUR 80,131,500**
+- Published asking subtotal: **EUR 24,590,500**
+- Indicative negotiation range: **EUR 19,650,400–30,818,125**
+- Published engineering-equivalent recreation subtotal: **EUR 104,852,000**
+- Ask / recreation cost: **23.45%**
+- Indicative build-versus-buy spread: **EUR 80,261,500**
 
 EUR amounts are authoritative. USD values on the website are presentation-only conversions using a dated public exchange rate.
 
@@ -117,9 +117,9 @@ Detailed transaction rights, disclosure schedules, representations and warrantie
 
 
 <!-- FULL-EVALUATION:START -->
-## Full asset evaluation since the previous timestamp
+## Full catalogue review — 9 October 2026
 
-Previous catalogue timestamp: **2026-10-09T06:22:41Z**. Current source/evidence review: **2026-10-09T10:15:23Z** (**12:15:23 CEST**).
+Previous catalogue timestamp: **2026-10-09T06:22:41Z**. Full source/evidence review: **2026-10-09T10:15:23Z** (**12:15:23 CEST**).
 
 All **97** independent IP assets were checked against their current default branches. **Eight** project assessments reflect newer release evidence, development scopes or documentation, and **89** conclusions are reconfirmed. No asset was removed or added, no software maturity classification changed, and all **97** individual monetary records retain their existing estimates. The directory now links **11** digital displays: VEGMPF and EGMERS were added, and the BIND-AI display moved to its new website repository. Website repositories remain excluded from the IP-asset count.
 
@@ -129,3 +129,9 @@ The latest separate pricing assessment remains **2026-10-09T06:22:41Z**. LEARNPI
 
 Authoritative full per-asset results: `assets/project-evaluations.json`.
 <!-- FULL-EVALUATION:END -->
+
+## DARF v0.15 individual reassessment — 10 October 2026
+
+DARF (TA-IP-022, project reference Freya) is updated to v0.15.0 with retained 231/231 software-test and single-Tesla-T4 qualification. Its indicative ask is **EUR 395,000**, negotiation reference **EUR 310,000–495,000**, and recreation estimate **EUR 1,100,000**. The additional EUR 200,000 reproduction budget covers delivered work after the previous catalogue baseline; commercial factors and maturity remain unchanged. The other 96 asset prices and assessment dates are retained. Full portfolio source review remains dated 2026-10-09T10:15:23Z; this DARF-only review is dated **2026-10-10T00:48:36Z**.
+
+Review [the disclosed DARF financial assessment](docs/DARF_FINANCIAL_REASSESSMENT.md) for scope, budget assumptions, exact validation provenance and remaining delivery conditions. The new asking total is EUR 24,590,500 and recreation total EUR 104,852,000. No SaaS or application service is deployed by this catalogue update.

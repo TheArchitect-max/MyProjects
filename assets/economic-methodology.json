@@ -1,5 +1,5 @@
 {
-  "v": "2026.10.09-im52-current-pages-and-displays",
+  "v": "2026.10.10-im53-darf-v015-financial-review",
   "model": "Recreation-Cost-Anchored Seller Pricing with Reproducible Public Arithmetic",
   "status": "public-seller-side-economic-model",
   "portfolio": {
@@ -10,20 +10,20 @@
       "researchStage": 3,
       "definitionStage": 1
     },
-    "sellerAskEUR": 24520500,
-    "negotiationLowEUR": 19595400,
-    "negotiationHighEUR": 30728125,
-    "replacementCostEUR": 104652000,
-    "marketComparableProxyEUR": 119487680,
-    "incomeLicensingProxyEUR": 140971660,
-    "probabilityAdjustedStrategicValueEUR": 131355248,
-    "triangulatedEconomicReferenceEUR": 124229209,
-    "sellerAskAsShareOfTriangulated": 0.1973811167066193,
-    "sellerAskAsShareOfReplacementCost": 0.23430512555899552,
+    "sellerAskEUR": 24590500,
+    "negotiationLowEUR": 19650400,
+    "negotiationHighEUR": 30818125,
+    "replacementCostEUR": 104852000,
+    "marketComparableProxyEUR": 119817680,
+    "incomeLicensingProxyEUR": 141411660,
+    "probabilityAdjustedStrategicValueEUR": 131886866,
+    "triangulatedEconomicReferenceEUR": 124619275,
+    "sellerAskAsShareOfTriangulated": 0.197325012523143,
+    "sellerAskAsShareOfReplacementCost": 0.23452580780528745,
     "pricedAssetCount": 97,
     "unpricedAssetCount": 0,
     "monetaryScope": "All 97 independently scoped IP assets. Digital Twin Core covers existing definition and acquisition documentation, not implemented software.",
-    "averageTriangulatedEconomicReferencePerPricedAsset": 1280713.4948453608
+    "averageTriangulatedEconomicReferencePerPricedAsset": 1284734.793814433
   },
   "confidence": {
     "replacementCost": "Primary seller-side build-versus-buy reference estimating the engineering-equivalent cost to recreate comparable present transferable work product. It is a seller estimate, not a certified cost audit or guaranteed buyer saving.",
@@ -34,8 +34,8 @@
     "triangulatedEconomicReference": "Secondary weighted analytical reference rather than the primary asking-price basis."
   },
   "rebuildCostCalibration": {
-    "basisDate": "2026-10-09",
-    "approach": "Compare asset-specific acquisition references with the estimated cost of reproducing the present transferable first-party work. The previously priced 94 assets retain their established monetary inputs; the three separately added assets use their current source snapshots and retained evidence. Digital Twin Core covers existing definition and acquisition documentation only. Websites, external data, models, recordings and third-party rights are excluded.",
+    "basisDate": "2026-10-10",
+    "approach": "Estimate the engineering-equivalent cost to recreate present transferable first-party work. DARF v0.15 adds a separately disclosed incremental budget to its earlier EUR 900,000 estimate. The other 96 asset estimates retain their established budgets. Websites, third-party assets and future implementation remain excluded.",
     "seniorEngineerMonthEUR": 18000,
     "leadOrSpecialistMonthEUR": 22000,
     "validationProvenanceMonthEUR": 16000,
@@ -44,7 +44,7 @@
     "successorPolicy": "Every catalogue project is treated as its own IP asset with its own first-party rights and transfer perimeter. Monetary estimates are established separately for each asset. Project websites are digital displays only.",
     "boundary": "Only present first-party software, research-software, validation, governance, packaging, documentation and handover work is costed. A definition-stage documentation estimate does not imply implemented software. Future hosting, market execution, speculative outcomes, unexecuted qualification and uncommitted implementation are excluded.",
     "previousBasisDate": "2026-10-07",
-    "assessedAt": "2026-10-09T05:36:00Z",
+    "assessedAt": "2026-10-10T00:48:36Z",
     "workPackageEstimates": [
       {
         "slug": "distributed-ai-resource-fabric",
@@ -138,11 +138,58 @@
         "sourceHead": "7c838eaf6692e3b14edc6b15e70e90288b39d29b",
         "retainedFileCount": 2,
         "economicAssessmentAt": "2026-10-09T06:22:41Z"
+      },
+      {
+        "slug": "distributed-ai-resource-fabric",
+        "ref": "TA-IP-022",
+        "basis": "incremental delivered v0.11–v0.15 scope since 9 October catalogue review",
+        "economicAssessmentAt": "2026-10-10T00:48:36Z",
+        "sourceHead": "2c4e07efa560633eec9efe24a2c82146f48b118d",
+        "validatedExecutableCommit": "e5e7808e20ac63dc9621158bf35c9ac0ba2cd3d6",
+        "previousRecreationCostEUR": 900000,
+        "seniorEngineerMonths": 5,
+        "leadOrSpecialistMonths": 2,
+        "validationProvenanceMonths": 3,
+        "rawEngineeringCostEUR": 182000,
+        "withAllowanceEUR": 209300,
+        "adoptedRecreationIncrementEUR": 200000,
+        "resultingRecreationCostEUR": 1100000,
+        "scope": "Delivered workload placement/execution controls, worker policy and lease enforcement, active-session supervision, persistent local recovery/reconciliation software, retained regression and single-GPU qualification, and supporting documentation. Earlier v0.10 implementation is already priced and is not counted again.",
+        "exclusions": [
+          "Physical multi-host/multi-GPU failure recovery",
+          "Production high availability and deployment",
+          "Fresh v0.15 real model-serving qualification",
+          "Third-party model weights, inference engines and hardware",
+          "Projected revenue or guaranteed utilization savings"
+        ],
+        "workPackages": [
+          {
+            "scope": "Work placement, worker policies and execution control",
+            "seniorEngineerMonths": 3,
+            "leadOrSpecialistMonths": 1,
+            "validationProvenanceMonths": 0.5
+          },
+          {
+            "scope": "Session oversight and persistent local recovery/reconciliation",
+            "seniorEngineerMonths": 2,
+            "leadOrSpecialistMonths": 1,
+            "validationProvenanceMonths": 1
+          },
+          {
+            "scope": "Retained qualification, provenance and operator documentation",
+            "seniorEngineerMonths": 0,
+            "leadOrSpecialistMonths": 0,
+            "validationProvenanceMonths": 1.5
+          }
+        ],
+        "boundary": "Analyst-assumed engineering-equivalent reproduction budget at existing model rates; not recorded hours, elapsed build time, actual expenditure or an independent valuation."
       }
     ],
     "estimateBoundary": "Engineer-month budgets are seller-side engineering-equivalent estimates for reproducing delivered work, not recorded payroll, elapsed development time, certified costs or a market appraisal.",
     "latestSeparateAssetPricingAt": "2026-10-09T06:22:41Z",
-    "latestReviewBoundary": "Current source and release changes are reflected in the dated evaluation register. Existing engineering-equivalent budgets and asking references are retained; no additional budget or verified commercial-income evidence is established by this page refresh."
+    "latestReviewBoundary": "The 10 October reassessment changes DARF only. Its delivered v0.11–v0.15 software and retained validation are costed; prior work is not recosted. No new verified revenue, external transaction or independent appraisal is established.",
+    "latestIndividualAssetPricingAt": "2026-10-10T00:48:36Z",
+    "previousAssessedAt": "2026-10-09T05:36:00Z"
   },
   "factors": {
     "marketPotential": {
@@ -291,7 +338,20 @@
       }
     ],
     "commercialEvidence": "No new attributable income, external transaction or independent appraisal evidence identified; commercial-potential and monetization-route factors are retained for existing assets.",
-    "latestSeparateAssetPricingAt": "2026-10-09T06:22:41Z"
+    "latestSeparateAssetPricingAt": "2026-10-09T06:22:41Z",
+    "latestTargetedAssetPricing": {
+      "assessedAt": "2026-10-10T00:48:36Z",
+      "ref": "TA-IP-022",
+      "previousRecreationCostEUR": 900000,
+      "currentRecreationCostEUR": 1100000,
+      "priorAskShareOfRecreation": 0.3611111111111111,
+      "priorLowShareOfRecreation": 0.2833333333333333,
+      "priorHighShareOfRecreation": 0.45,
+      "roundingEUR": 5000,
+      "roundingDirection": "down",
+      "other96AssetPrices": "unchanged",
+      "commercialPremiumAdded": false
+    }
   },
   "independentAssetPolicy": {
     "ipAssetCount": 97,
@@ -327,5 +387,27 @@
     "monetaryChanges": 0,
     "displayCount": 11,
     "boundary": "Fresh source-head checks for all 97 assets and retained-evidence review for changed releases or development scopes. No fresh execution of all source repositories, independent price appraisal or production-service deployment is implied."
+  },
+  "latestTargetedAssetReview": {
+    "slug": "distributed-ai-resource-fabric",
+    "ref": "TA-IP-022",
+    "title": "Distributed AI Resource Fabric",
+    "assessedAt": "2026-10-10T00:48:36Z",
+    "previousCatalogueUpdatedAt": "2026-10-09T10:15:23Z",
+    "sourceHead": "2c4e07efa560633eec9efe24a2c82146f48b118d",
+    "validatedExecutableCommit": "e5e7808e20ac63dc9621158bf35c9ac0ba2cd3d6",
+    "currentVersion": "0.15.0",
+    "assetsReassessed": 1,
+    "otherAssetRecordsRetained": 96,
+    "monetaryReferencesChanged": 1,
+    "previousSellerAskEUR": 325000,
+    "sellerAskEUR": 395000,
+    "previousReplacementCostEUR": 900000,
+    "replacementCostEUR": 1100000,
+    "negotiationLowEUR": 310000,
+    "negotiationHighEUR": 495000,
+    "unchangedCommercialFactors": true,
+    "softwareMaturityChanged": false,
+    "boundary": "DARF only: current source, retained exact-commit validation, rights, delivery conditions and seller-side economics. The other 96 asset assessments and monetary inputs retain their earlier dates and conclusions; portfolio totals are recomputed."
   }
 }

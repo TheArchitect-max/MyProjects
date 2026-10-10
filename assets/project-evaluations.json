@@ -1,6 +1,6 @@
 {
-  "version": "2026.10.09-im52-current-pages-and-displays",
-  "basisDate": "2026-10-09",
+  "version": "2026.10.10-im53-darf-v015-financial-review",
+  "basisDate": "2026-10-10",
   "assessedAt": "2026-10-09T10:15:23Z",
   "previousBasisDate": "2026-10-09",
   "purpose": "Current per-asset evidence, rights, transfer, maturity and economic reassessment since the previous frozen evaluation baselines.",
@@ -16,11 +16,11 @@
       "UPDATED": 8,
       "NEW_SOFTWARE_ASSET_EVALUATION": 0
     },
-    "monetaryReferencesChanged": 0,
+    "monetaryReferencesChanged": 1,
     "previousSellerAskEUR": 24520500,
-    "currentSellerAskEUR": 24520500,
+    "currentSellerAskEUR": 24590500,
     "previousReplacementCostEUR": 104652000,
-    "currentReplacementCostEUR": 104652000,
+    "currentReplacementCostEUR": 104852000,
     "ipAssetsEvaluated": 97
   },
   "projects": [
@@ -1089,12 +1089,12 @@
     {
       "slug": "distributed-ai-resource-fabric",
       "title": "Distributed AI Resource Fabric",
-      "assessmentDate": "2026-10-09",
-      "assessedAt": "2026-10-09T10:15:23Z",
+      "assessmentDate": "2026-10-10",
+      "assessedAt": "2026-10-10T00:48:36Z",
       "previousAssessmentDate": "2026-10-09",
       "reviewResult": "UPDATED",
-      "reviewNote": "Review the expanded project objectives and user-value documentation. The v0.10.0 software baseline and earlier hardware evidence are unchanged; full current hardware-serving validation remains pending.",
-      "currentVersion": "0.10.0",
+      "reviewNote": "Review v0.15.0 for coordinating your AI work and overseeing interrupted operations. Retained evidence records 231 passing software tests and a single-Tesla-T4 hardware gate on the validated code snapshot. Earlier real model-serving and controlled failover results remain tied to their own versions; multi-computer recovery and production availability are not established.",
+      "currentVersion": "0.15.0",
       "developmentVersion": null,
       "countsAsIpAsset": true,
       "stage": "V",
@@ -1113,21 +1113,25 @@
         "Third-party licensing and obligations documentation remains incomplete.",
         "A security assessment or an explicit statement of its absence is required before acceptance.",
         "An explicit delivery manifest and handover scope remain to be agreed.",
-        "Full release validation of the exact current candidate remains required before acceptance."
+        "Physical multi-host recovery, real current-version model serving and production acceptance require qualification for the agreed deployment environment."
       ],
-      "sellerAskEUR": 325000,
+      "sellerAskEUR": 395000,
       "previousSellerAskEUR": 325000,
-      "replacementCostEUR": 900000,
+      "replacementCostEUR": 1100000,
       "previousReplacementCostEUR": 900000,
-      "triangulatedEconomicReferenceEUR": 1755298,
-      "monetaryEstimateChanged": false,
+      "triangulatedEconomicReferenceEUR": 2145364,
+      "monetaryEstimateChanged": true,
       "evidenceBoundary": "Seller-side review of retained evidence; no fresh execution of every repository’s tests or independent market appraisal is implied.",
       "ref": "TA-IP-022",
-      "previousAssessedAt": "2026-10-09T05:36:00Z",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z",
-      "sourceHead": "adf6305b010f56fd2b0891e3b0b34652e23f45da",
-      "defaultBranchBaselineCommit": "adf6305b010f56fd2b0891e3b0b34652e23f45da",
-      "sourceScope": "DEFAULT_BRANCH"
+      "previousAssessedAt": "2026-10-09T10:15:23Z",
+      "sourceRecheckedAt": "2026-10-10T00:48:36Z",
+      "sourceHead": "2c4e07efa560633eec9efe24a2c82146f48b118d",
+      "defaultBranchBaselineCommit": "2c4e07efa560633eec9efe24a2c82146f48b118d",
+      "sourceScope": "DEFAULT_BRANCH",
+      "validatedExecutableCommit": "e5e7808e20ac63dc9621158bf35c9ac0ba2cd3d6",
+      "economicAssessmentAt": "2026-10-10T00:48:36Z",
+      "economicAssessmentNote": "The asking reference rises from EUR 325,000 to EUR 395,000. A separately disclosed EUR 200,000 engineering-equivalent budget for delivered software and qualification raises the recreation estimate to EUR 1,100,000. Existing pricing discounts and commercial assumptions are retained; future implementation, third-party assets and projected income are excluded.",
+      "commercialPlanningReview": "Latest enterprise-first strategy and roadmap reviewed. Illustrative pilot/license prices, revenue and profit are unvalidated planning assumptions and do not add a premium."
     },
     {
       "slug": "distributed-compute-fabric",
@@ -4026,7 +4030,7 @@
       "sourceScope": "DEFAULT_BRANCH"
     }
   ],
-  "catalogueUpdatedAt": "2026-10-09T10:15:23Z",
+  "catalogueUpdatedAt": "2026-10-10T00:48:36Z",
   "latestSeparateAssetPricing": {
     "assessedAt": "2026-10-09T06:22:41Z",
     "assetCount": 3,
@@ -4055,5 +4059,45 @@
     "monetaryChanges": 0,
     "displayCount": 11,
     "boundary": "Fresh source-head checks for all 97 assets and retained-evidence review for changed releases or development scopes. No fresh execution of all source repositories, independent price appraisal or production-service deployment is implied."
+  },
+  "latestFullPortfolioReview": {
+    "assessedAt": "2026-10-09T10:15:23Z",
+    "basisDate": "2026-10-09",
+    "summary": {
+      "projectsReviewed": 97,
+      "reviewOutcomes": {
+        "RECONFIRMED": 89,
+        "UPDATED": 8,
+        "NEW_SOFTWARE_ASSET_EVALUATION": 0
+      },
+      "monetaryReferencesChanged": 0,
+      "previousSellerAskEUR": 24520500,
+      "currentSellerAskEUR": 24520500,
+      "previousReplacementCostEUR": 104652000,
+      "currentReplacementCostEUR": 104652000,
+      "ipAssetsEvaluated": 97
+    }
+  },
+  "latestTargetedAssetReview": {
+    "slug": "distributed-ai-resource-fabric",
+    "ref": "TA-IP-022",
+    "title": "Distributed AI Resource Fabric",
+    "assessedAt": "2026-10-10T00:48:36Z",
+    "previousCatalogueUpdatedAt": "2026-10-09T10:15:23Z",
+    "sourceHead": "2c4e07efa560633eec9efe24a2c82146f48b118d",
+    "validatedExecutableCommit": "e5e7808e20ac63dc9621158bf35c9ac0ba2cd3d6",
+    "currentVersion": "0.15.0",
+    "assetsReassessed": 1,
+    "otherAssetRecordsRetained": 96,
+    "monetaryReferencesChanged": 1,
+    "previousSellerAskEUR": 325000,
+    "sellerAskEUR": 395000,
+    "previousReplacementCostEUR": 900000,
+    "replacementCostEUR": 1100000,
+    "negotiationLowEUR": 310000,
+    "negotiationHighEUR": 495000,
+    "unchangedCommercialFactors": true,
+    "softwareMaturityChanged": false,
+    "boundary": "DARF only: current source, retained exact-commit validation, rights, delivery conditions and seller-side economics. The other 96 asset assessments and monetary inputs retain their earlier dates and conclusions; portfolio totals are recomputed."
   }
 }

@@ -1,7 +1,7 @@
 {
-  "version": "2026.10.09-im52-current-pages-and-displays",
+  "version": "2026.10.10-im53-darf-v015-financial-review",
   "status": "evidence-bounded-maturity-sensitivity-register",
-  "basisDate": "2026-10-09",
+  "basisDate": "2026-10-10",
   "purpose": "Asset-by-asset conditional economic references for objectively testable maturity transitions. These are not forecasts, seller asks, market values, investment returns or guarantees.",
   "methodology": {
     "rule": "Only R→P and P→V maturity transitions receive a numeric conditional reference. V-stage assets receive NOT_ESTABLISHED unless new attributable market/income evidence supports a separate model. An independently owned asset without its own monetary inputs has no numeric sensitivity until those inputs are established.",
@@ -509,14 +509,15 @@
       "ref": "TA-IP-022",
       "identityName": "Freya",
       "name": "Distributed AI Resource Fabric",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "status": "NOT_ESTABLISHED",
       "currentStage": "V",
       "targetStage": null,
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T00:48:36Z",
+      "currentTriangulatedEconomicReferenceEUR": 2145364
     },
     {
       "slug": "distributed-compute-fabric",
@@ -1765,5 +1766,27 @@
     }
   ],
   "assessedAt": "2026-10-09T10:15:23Z",
-  "catalogueUpdatedAt": "2026-10-09T10:15:23Z"
+  "catalogueUpdatedAt": "2026-10-10T00:48:36Z",
+  "latestTargetedAssetReview": {
+    "slug": "distributed-ai-resource-fabric",
+    "ref": "TA-IP-022",
+    "title": "Distributed AI Resource Fabric",
+    "assessedAt": "2026-10-10T00:48:36Z",
+    "previousCatalogueUpdatedAt": "2026-10-09T10:15:23Z",
+    "sourceHead": "2c4e07efa560633eec9efe24a2c82146f48b118d",
+    "validatedExecutableCommit": "e5e7808e20ac63dc9621158bf35c9ac0ba2cd3d6",
+    "currentVersion": "0.15.0",
+    "assetsReassessed": 1,
+    "otherAssetRecordsRetained": 96,
+    "monetaryReferencesChanged": 1,
+    "previousSellerAskEUR": 325000,
+    "sellerAskEUR": 395000,
+    "previousReplacementCostEUR": 900000,
+    "replacementCostEUR": 1100000,
+    "negotiationLowEUR": 310000,
+    "negotiationHighEUR": 495000,
+    "unchangedCommercialFactors": true,
+    "softwareMaturityChanged": false,
+    "boundary": "DARF only: current source, retained exact-commit validation, rights, delivery conditions and seller-side economics. The other 96 asset assessments and monetary inputs retain their earlier dates and conclusions; portfolio totals are recomputed."
+  }
 }

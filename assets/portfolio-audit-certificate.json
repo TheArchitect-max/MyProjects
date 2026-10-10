@@ -1,8 +1,8 @@
 {
   "schema": "thearchitect-max-portfolio-audit-certificate-v4",
-  "basisDate": "2026-10-09",
+  "basisDate": "2026-10-10",
   "repository": "TheArchitect-max/MyProjects",
-  "sourceHeadAtCertificatePreparation": "9ba7fd0b9683b5c3afac807b114ba352f66af92c",
+  "sourceHeadAtCertificatePreparation": "c7f95df37ed079f36287a0e1ae084c314a7f18ef",
   "scope": {
     "ipAssetCount": 97,
     "pricedAssetCount": 97,
@@ -83,21 +83,21 @@
         "count": 3
       },
       {
-        "item": "Full release validation of the exact current candidate remains required before acceptance.",
-        "count": 2
+        "item": "Review potential sensitive filenames before transfer: src/security/credentialBroker.js",
+        "count": 1
       },
       {
-        "item": "Review potential sensitive filenames before transfer: src/security/credentialBroker.js",
+        "item": "Review potential sensitive filenames before transfer: apps/web/app/api/credentials/[id]/route.ts, apps/web/app/api/credentials/rotation/route.ts, apps/web/app/api/credentials/route.ts, apps/worker/src/provider-credentials.ts, docs/CREDENTIAL-KEY-ROTATION.md",
         "count": 1
       }
     ]
   },
   "economics": {
-    "sellerAskEUR": 24520500,
-    "negotiationLowEUR": 19595400,
-    "negotiationHighEUR": 30728125,
-    "replacementCostEUR": 104652000,
-    "triangulatedEconomicReferenceEUR": 124229209,
+    "sellerAskEUR": 24590500,
+    "negotiationLowEUR": 19650400,
+    "negotiationHighEUR": 30818125,
+    "replacementCostEUR": 104852000,
+    "triangulatedEconomicReferenceEUR": 124619275,
     "milestoneConditionalNumericReferences": 39,
     "milestoneReferencesNotEstablished": 58,
     "pricedAssetCount": 97,
@@ -107,15 +107,15 @@
   "sourceObjects": {
     "sellerReadinessRegister": {
       "path": "assets/seller-readiness-register.json",
-      "gitBlobSha": "af202d1bc2c24af7b36399ea558147e2b514b0ea"
+      "gitBlobSha": "4b8775401661b03a2f7355c46e64baca6c3a4e7a"
     },
     "valuationRegister": {
       "path": "assets/valuation-register.json",
-      "gitBlobSha": "cf2f856eb4e14248499ea99676a733440007a3b7"
+      "gitBlobSha": "f16793aa73fb25f3e1038a8cf8ce696279c54c27"
     },
     "futureEconomicReferences": {
       "path": "assets/future-economic-references.json",
-      "gitBlobSha": "615498fafff14641feeb2d44d8fdaec14e8f179c"
+      "gitBlobSha": "7a0645c69a3cc7374d2003e3c2a9a6865f92794a"
     },
     "projectIdentities": {
       "path": "assets/project-identities.json",
@@ -123,23 +123,23 @@
     },
     "ipOwnershipRegister": {
       "path": "assets/ip-ownership-register.json",
-      "gitBlobSha": "fc10742783313e8655b6037d3984a74de56fb8ce"
+      "gitBlobSha": "80c9520adaf0f751a52e9f7a6de7d1a0ba3d4580"
     },
     "softwareSupplyChainSummary": {
       "path": "assets/software-supply-chain-summary.json",
-      "gitBlobSha": "25001d884aa9165044cc4863b676de8399fcef4c"
+      "gitBlobSha": "9374456fd1058cda0b059d4acc0dd9b56dadb176"
     },
     "rightsTransferRegister": {
       "path": "assets/rights-transfer-register.json",
-      "gitBlobSha": "0cf27b20a63f5ea73ab1eef207a92587e9963eb8"
+      "gitBlobSha": "955e7f5b8391c6ffb5a72781c429149067b1dfa4"
     },
     "projectEvaluations": {
       "path": "assets/project-evaluations.json",
-      "gitBlobSha": "2cb2cc2b909ffb103389b944f07668f5706dc585"
+      "gitBlobSha": "039d48b6da0e828ad05d32abfcb16786d5b95edd"
     },
     "projectPresentations": {
       "path": "assets/project-presentations.json",
-      "gitBlobSha": "d48655cd952cf1f01e5d865302b92138ca27a449"
+      "gitBlobSha": "a21e8fd833b084d16ee9ac033779209f8c229bfa"
     }
   },
   "externalStandards": [
@@ -181,7 +181,7 @@
     "ipAssetsEvaluated": 97,
     "previousAssessedAt": "2026-10-09T05:36:00Z"
   },
-  "catalogueUpdatedAt": "2026-10-09T10:15:23Z",
+  "catalogueUpdatedAt": "2026-10-10T00:48:36Z",
   "latestSeparateAssetPricing": {
     "assessedAt": "2026-10-09T06:22:41Z",
     "assetCount": 3,
@@ -208,5 +208,27 @@
     "monetaryChanges": 0,
     "displayCount": 11,
     "boundary": "Fresh source-head checks for all 97 assets and retained-evidence review for changed releases or development scopes. No fresh execution of all source repositories, independent price appraisal or production-service deployment is implied."
+  },
+  "latestTargetedAssetReview": {
+    "slug": "distributed-ai-resource-fabric",
+    "ref": "TA-IP-022",
+    "title": "Distributed AI Resource Fabric",
+    "assessedAt": "2026-10-10T00:48:36Z",
+    "previousCatalogueUpdatedAt": "2026-10-09T10:15:23Z",
+    "sourceHead": "2c4e07efa560633eec9efe24a2c82146f48b118d",
+    "validatedExecutableCommit": "e5e7808e20ac63dc9621158bf35c9ac0ba2cd3d6",
+    "currentVersion": "0.15.0",
+    "assetsReassessed": 1,
+    "otherAssetRecordsRetained": 96,
+    "monetaryReferencesChanged": 1,
+    "previousSellerAskEUR": 325000,
+    "sellerAskEUR": 395000,
+    "previousReplacementCostEUR": 900000,
+    "replacementCostEUR": 1100000,
+    "negotiationLowEUR": 310000,
+    "negotiationHighEUR": 495000,
+    "unchangedCommercialFactors": true,
+    "softwareMaturityChanged": false,
+    "boundary": "DARF only: current source, retained exact-commit validation, rights, delivery conditions and seller-side economics. The other 96 asset assessments and monetary inputs retain their earlier dates and conclusions; portfolio totals are recomputed."
   }
 }

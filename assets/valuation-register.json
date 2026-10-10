@@ -1,9 +1,9 @@
 {
-  "version": "2026.10.09-im52-current-pages-and-displays",
+  "version": "2026.10.10-im53-darf-v015-financial-review",
   "status": "public-seller-side-valuation-register",
-  "valuationBasisDate": "2026-10-09",
-  "developmentStatusDate": "2026-10-09",
-  "scope": "Compare 97 independent first-party IP assets with individual asking prices, present-scope recreation estimates and separate rights/transfer perimeters. Digital Twin Core is definition/documentation only. Project websites are digital displays and are excluded from the asset count.",
+  "valuationBasisDate": "2026-10-10",
+  "developmentStatusDate": "2026-10-10",
+  "scope": "Compare 97 independent first-party IP assets with separate asking references and rights perimeters. DARF was reassessed on 10 October; the other 96 monetary inputs retain their established estimates. Project websites are digital displays only. Digital Twin Core is definition/documentation only.",
   "portfolio": {
     "assetCount": 97,
     "stageCounts": {
@@ -12,20 +12,20 @@
       "researchStage": 3,
       "definitionStage": 1
     },
-    "sellerAskEUR": 24520500,
-    "negotiationLowEUR": 19595400,
-    "negotiationHighEUR": 30728125,
-    "replacementCostEUR": 104652000,
-    "marketComparableProxyEUR": 119487680,
-    "incomeLicensingProxyEUR": 140971660,
-    "probabilityAdjustedStrategicValueEUR": 131355248,
-    "triangulatedEconomicReferenceEUR": 124229209,
-    "sellerAskAsShareOfTriangulated": 0.1973811167066193,
-    "sellerAskAsShareOfReplacementCost": 0.23430512555899552,
+    "sellerAskEUR": 24590500,
+    "negotiationLowEUR": 19650400,
+    "negotiationHighEUR": 30818125,
+    "replacementCostEUR": 104852000,
+    "marketComparableProxyEUR": 119817680,
+    "incomeLicensingProxyEUR": 141411660,
+    "probabilityAdjustedStrategicValueEUR": 131886866,
+    "triangulatedEconomicReferenceEUR": 124619275,
+    "sellerAskAsShareOfTriangulated": 0.197325012523143,
+    "sellerAskAsShareOfReplacementCost": 0.23452580780528745,
     "pricedAssetCount": 97,
     "unpricedAssetCount": 0,
     "monetaryScope": "All 97 independently scoped IP assets. Digital Twin Core covers existing definition and acquisition documentation, not implemented software.",
-    "averageTriangulatedEconomicReferencePerPricedAsset": 1280713.4948453608
+    "averageTriangulatedEconomicReferencePerPricedAsset": 1284734.793814433
   },
   "updates": [
     {
@@ -475,20 +475,20 @@
       "name": "Distributed AI Resource Fabric",
       "stage": "V",
       "potential": "VH",
-      "description": "Coordinate AI workloads across your available computers and assess the capacity you can actually use.",
-      "sellerAskEUR": 325000,
-      "negotiationLowEUR": 255000,
-      "negotiationHighEUR": 405000,
-      "replacementCostEUR": 900000,
-      "marketComparableProxyEUR": 1485000,
-      "incomeLicensingProxyEUR": 1980000,
+      "description": "Coordinate AI work across your available computers, oversee active workloads and review capacity and recovery decisions.",
+      "sellerAskEUR": 395000,
+      "negotiationLowEUR": 310000,
+      "negotiationHighEUR": 495000,
+      "replacementCostEUR": 1100000,
+      "marketComparableProxyEUR": 1815000,
+      "incomeLicensingProxyEUR": 2420000,
       "technicalCompletionProbability": 0.95,
       "commercializationProbability": 0.7,
       "rightsTransferReserve": 0.85,
       "timeRiskFactor": 0.95,
-      "probabilityAdjustedStrategicValueEUR": 2392279,
-      "triangulatedEconomicReferenceEUR": 1755298,
-      "askShareOfTriangulated": 0.18515374597361817
+      "probabilityAdjustedStrategicValueEUR": 2923897,
+      "triangulatedEconomicReferenceEUR": 2145364,
+      "askShareOfTriangulated": 0.18411793989271752
     },
     {
       "ref": "TA-IP-023",
@@ -2081,10 +2081,10 @@
       "sourceHead": "7c838eaf6692e3b14edc6b15e70e90288b39d29b"
     }
   ],
-  "assessedAt": "2026-10-09T05:36:00Z",
-  "previousValuationBasisDate": "2026-10-07",
+  "assessedAt": "2026-10-10T00:48:36Z",
+  "previousValuationBasisDate": "2026-10-09",
   "reviewPolicy": "Every project is reassessed against current source and retained evidence. An unchanged conclusion is explicitly retained after comparison; commit counts and version labels alone do not increase monetary value or maturity. Development branches and validated executable baselines are distinguished.",
-  "catalogueUpdatedAt": "2026-10-09T10:15:23Z",
+  "catalogueUpdatedAt": "2026-10-10T00:48:36Z",
   "latestSeparateAssetPricing": {
     "assessedAt": "2026-10-09T06:22:41Z",
     "assetCount": 3,
@@ -2111,5 +2111,34 @@
     "monetaryChanges": 0,
     "displayCount": 11,
     "boundary": "Fresh source-head checks for all 97 assets and retained-evidence review for changed releases or development scopes. No fresh execution of all source repositories, independent price appraisal or production-service deployment is implied."
+  },
+  "latestTargetedAssetReview": {
+    "slug": "distributed-ai-resource-fabric",
+    "ref": "TA-IP-022",
+    "title": "Distributed AI Resource Fabric",
+    "assessedAt": "2026-10-10T00:48:36Z",
+    "previousCatalogueUpdatedAt": "2026-10-09T10:15:23Z",
+    "sourceHead": "2c4e07efa560633eec9efe24a2c82146f48b118d",
+    "validatedExecutableCommit": "e5e7808e20ac63dc9621158bf35c9ac0ba2cd3d6",
+    "currentVersion": "0.15.0",
+    "assetsReassessed": 1,
+    "otherAssetRecordsRetained": 96,
+    "monetaryReferencesChanged": 1,
+    "previousSellerAskEUR": 325000,
+    "sellerAskEUR": 395000,
+    "previousReplacementCostEUR": 900000,
+    "replacementCostEUR": 1100000,
+    "negotiationLowEUR": 310000,
+    "negotiationHighEUR": 495000,
+    "unchangedCommercialFactors": true,
+    "softwareMaturityChanged": false,
+    "boundary": "DARF only: current source, retained exact-commit validation, rights, delivery conditions and seller-side economics. The other 96 asset assessments and monetary inputs retain their earlier dates and conclusions; portfolio totals are recomputed."
+  },
+  "latestIndividualPricing": {
+    "assessedAt": "2026-10-10T00:48:36Z",
+    "assetRefs": [
+      "TA-IP-022"
+    ],
+    "scope": "DARF v0.15 present first-party software and retained qualification; other 96 asking references unchanged."
   }
 }
