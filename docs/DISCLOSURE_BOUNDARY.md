@@ -1,6 +1,6 @@
 # Disclosure Boundary
 
-Reviewed with the current project evaluation: 2026-10-09
+Current full project evaluation: 2026-10-10
 Original policy basis: 2026-10-07
 
 ## Public showroom
@@ -12,6 +12,10 @@ May contain:
 - seller rights/transfer status;
 - third-party-rights and licence status at a non-sensitive level;
 - cryptographic hashes and non-sensitive evidence metadata.
+- AS IS acquisition information and voluntary Bitcoin contribution conditions;
+- the receiving BTC address and the requirement to use the Bitcoin network only.
+
+Read the [acquisition and voluntary contribution policy](ACQUISITION_VOLUNTARY_CONTRIBUTION_POLICY.md). Contributions create no acquisition rights or development entitlement. Acquisitions close separately under a definitive written agreement. This static showroom does not provide checkout, wallet connections, user/session storage, billing, settlement, transaction monitoring or investment services.
 
 ## Controlled transaction disclosure
 

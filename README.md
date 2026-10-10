@@ -39,11 +39,15 @@ The website retains its public-domain / CC0 old-master visual references and cur
 © 2026 THEARCHITECT_MAX. All rights reserved for first-party portfolio text, design and commercial material.
 
 <!-- DEVELOPMENT-REGISTER:START -->
-## Development register
+## Acquisition and voluntary contribution
 
 The public site presents **97 independent IP assets**, each with its own rights and transfer perimeter. Compare individual asking prices, included scope and outstanding delivery conditions asset by asset. The complete evidence, rights, transfer, maturity and economic evaluation was updated on **10 October 2026**, against each preceding recorded source and financial baseline.
 
-Development capital is milestone-based: no project-specific funding amount is represented as validated until a defined scope, evidence baseline, use-of-funds budget and acceptance criteria exist. The GitHub Pages site is informational only and does not process investments, crowdfunding payments, users, sessions or financial transactions.
+The two offered routes are **complete project acquisition AS IS** and an independent **voluntary Bitcoin contribution**. The latter creates no ownership, licence, financial return, price credit or entitlement to development, software, services or support. Development sponsorship, milestone financing and co-development are no longer offered routes on the public website.
+
+The published receiving address is **38dn8ZDf11cYSMv8X1UUARsE2wqdmtjd36**. Send **BTC only via the Bitcoin network** and independently verify the complete address. Unsupported assets or networks may cause permanent loss. The address is displayed as information; no checkout, wallet connection, transaction monitoring, account/session system, billing or payment settlement is implemented.
+
+Acquisitions require a separate definitive written agreement. The GitHub Pages site remains an informational project showcase. Read the [complete policy](docs/ACQUISITION_VOLUNTARY_CONTRIBUTION_POLICY.md), published on `policy.html`, and the project-specific routes on all 97 profiles. Prices, readiness grades and source-evidence timestamps are unchanged by this policy update.
 <!-- DEVELOPMENT-REGISTER:END -->
 
 <!-- PROJECT-IDENTITIES:START -->

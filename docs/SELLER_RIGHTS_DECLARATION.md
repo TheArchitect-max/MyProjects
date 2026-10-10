@@ -6,7 +6,7 @@ The seller declaration is retained; this review does not create an independent l
 
 ## Purpose
 
-This declaration addresses the rights position relevant to acquisition or licensing. It does not disclose, and does not require disclosure of, the internal methods by which the projects were created.
+This declaration addresses the rights position relevant to complete AS IS acquisition. It does not disclose, and does not require disclosure of, the internal methods by which the projects were created. Voluntary Bitcoin contributions are independent and confer no rights in an asset; review the acquisition and contribution policy for the separate routes.
 
 ## Seller declaration
 

@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.10-im55-readiness-criteria-review",
+  "version": "2026.10.10-im56-acquisition-contribution-policy",
   "publicationDate": "2026-10-10",
   "portfolioAssetCount": 97,
   "valuationBasisDate": "2026-10-10",
@@ -80,6 +80,10 @@
     "independent-assets.json": {
       "algorithm": "SHA-256",
       "sha256": "1a7718f3842d91253fe9cf353a61aa8141e33203e3bb959e2b023a9f269b5f34"
+    },
+    "acquisition-contribution-policy.json": {
+      "sha256": "a75c72ae2d6dd4d0827da08ab1b00ee2edf21d4d36a41911b48caa110f7d3f23",
+      "bytes": 13306
     }
   },
   "verification": {
@@ -97,7 +101,7 @@
   "projectCount": 97,
   "assessedAt": "2026-10-10T08:52:15Z",
   "previousEvaluationBasisDate": "2026-10-09",
-  "catalogueUpdatedAt": "2026-10-10T09:20:17Z",
+  "catalogueUpdatedAt": "2026-10-10T09:36:25Z",
   "ipAssetCount": 97,
   "pricedAssetCount": 97,
   "unpricedAssetCount": 0,
@@ -207,5 +211,18 @@
       "readyWithConditions": 89,
       "notReady": 8
     }
+  },
+  "latestCommercialPolicy": {
+    "publishedAt": "2026-10-10T09:36:25Z",
+    "policy": "assets/acquisition-contribution-policy.json",
+    "projectProfiles": 97,
+    "routes": [
+      "COMPLETE_PROJECT_ACQUISITION_AS_IS",
+      "VOLUNTARY_BITCOIN_CONTRIBUTION"
+    ],
+    "bitcoinAddress": "38dn8ZDf11cYSMv8X1UUARsE2wqdmtjd36",
+    "monetaryChanges": 0,
+    "sourceAssessmentChanges": 0,
+    "boundary": "Informational route policy and address publication only. No acquisition closing, checkout, wallet connection, transaction monitoring, payment settlement or app server is provided by GitHub Pages."
   }
 }
