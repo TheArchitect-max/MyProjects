@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.10-im57-project-connections",
+  "version": "2026.10.10-im58-unique-connections-recreation-costs",
   "publicationDate": "2026-10-10",
   "portfolioAssetCount": 97,
   "valuationBasisDate": "2026-10-10",
@@ -86,8 +86,8 @@
       "bytes": 13306
     },
     "project-connections.json": {
-      "sha256": "05f968a6a04678a912589ae4f14e9090a157155d795a1bed46873aadbeb569af",
-      "bytes": 52598
+      "sha256": "e56c02c9e290b4fd547689134d665c8680e0d7b5e5fdeaccc92bba6ca6de857b",
+      "bytes": 49814
     }
   },
   "verification": {
@@ -100,13 +100,13 @@
     "rightsTransfer": "The public renderer verifies the seller-readiness, IP-ownership, software supply-chain, portfolio audit and rights-transfer records. The public transaction layer focuses on the offered rights, third-party obligations and transfer perimeter rather than internal development methods.",
     "projectEvaluations": "Each of the 97 IP assets has its own evaluation, first-party rights and transfer perimeter. Scope corrections are dated separately from the retained source-evidence assessment.",
     "projectIdentities": "Confirm the unique TA-IP-001 through TA-IP-097 identifiers against the same project title, reference alias and slug in every current register and digital-display entry.",
-    "projectConnections": "Verify the proposed-connection register, resolve every member against its independent TA-IP asset record and recompute each combination total from the current individual asking references. This verifies identities and arithmetic; it does not establish technical integration."
+    "projectConnections": "Verify the proposed-connection register, resolve every member against its independent TA-IP asset record, reject project reuse across combinations and recompute both the combined asking reference and recreation-cost total from the current individual financial references. This verifies identities, unique allocation and arithmetic; it does not establish technical integration."
   },
   "privacyBoundary": "Public records expose seller-side commercial, rights, transfer, evidence and non-sensitive supply-chain metadata only. Internal development methods, proprietary know-how, credentials, customer data, sensitive implementation details and transaction-confidential material remain outside the public showroom.",
   "projectCount": 97,
   "assessedAt": "2026-10-10T08:52:15Z",
   "previousEvaluationBasisDate": "2026-10-09",
-  "catalogueUpdatedAt": "2026-10-10T18:29:03Z",
+  "catalogueUpdatedAt": "2026-10-10T20:17:35Z",
   "ipAssetCount": 97,
   "pricedAssetCount": 97,
   "unpricedAssetCount": 0,
@@ -231,14 +231,20 @@
     "boundary": "Informational route policy and address publication only. No acquisition closing, checkout, wallet connection, transaction monitoring, payment settlement or app server is provided by GitHub Pages."
   },
   "latestConnectionCatalogue": {
-    "publishedAt": "2026-10-10T18:29:03Z",
-    "connectionCount": 27,
+    "publishedAt": "2026-10-10T20:17:35Z",
+    "connectionCount": 25,
     "uniqueProjectCount": 64,
     "sourceDocumentationReviewed": 64,
     "sourceDocumentationReviewedAt": "2026-10-10T18:29:03Z",
     "monetaryChanges": 0,
     "assetCountChanges": 0,
     "jointIntegrationsValidated": 0,
-    "boundary": "These are proposed combinations of independently scoped project assets, based on reviewed project documentation. Existing project implementations and any documented links retain their own evidence boundaries. This publication establishes no new shared runtime or joint end-to-end validation."
+    "boundary": "These are proposed combinations of independently scoped project assets, based on reviewed project documentation. Existing project implementations and any documented links retain their own evidence boundaries. This publication establishes no new shared runtime or joint end-to-end validation.",
+    "projectOccurrences": 64,
+    "repeatedProjectCount": 0,
+    "financialReferences": [
+      "INDIVIDUAL_ASK_AND_COMBINED_ASK",
+      "INDIVIDUAL_RECREATION_COST_AND_RECREATION_COST_TOTAL"
+    ]
   }
 }

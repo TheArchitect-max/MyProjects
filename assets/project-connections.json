@@ -1,22 +1,23 @@
 {
-  "version": "2026.10.10-im57-project-connections",
-  "publishedAt": "2026-10-10T18:29:03Z",
+  "version": "2026.10.10-im58-unique-connections-recreation-costs",
+  "publishedAt": "2026-10-10T20:17:35Z",
   "sourceDocumentationReviewedAt": "2026-10-10T18:29:03Z",
   "priceBasisDate": "2026-10-10",
   "portfolioAssetCount": 97,
   "currency": "EUR",
   "priceMethod": "SUM_CURRENT_INDIVIDUAL_ASKS",
   "scope": {
-    "connectionCount": 27,
+    "connectionCount": 25,
     "uniqueProjectCount": 64,
     "jointIntegrationsValidatedByThisCatalogue": 0,
     "sourceDocumentationReviewed": 64,
-    "projectWebsitesIncludedAsAssets": false
+    "projectWebsitesIncludedAsAssets": false,
+    "projectOccurrences": 64,
+    "repeatedProjectCount": 0
   },
   "presentationBoundary": "These are proposed combinations of independently scoped project assets, based on reviewed project documentation. Existing project implementations and any documented links retain their own evidence boundaries. This publication establishes no new shared runtime or joint end-to-end validation.",
   "priceBoundary": "Each combination total is the sum of the current published seller-side asking references for its distinct member projects. It is an asking reference for the listed existing assets AS IS. Integration engineering, deployment, external hardware, services and third-party rights are outside the sum unless expressly agreed separately. No integration premium, discount or independent valuation is added.",
   "ownershipBoundary": "Every project remains its own independent IP asset with its own first-party rights and transfer perimeter. A proposed combination is not an additional portfolio asset.",
-  "overlapBoundary": "A project may appear in several alternative combinations. Count it once within each combination. Do not add overlapping combination totals to derive a portfolio price.",
   "transactionBoundary": "Acquisition is completed separately under a definitive written agreement. No purchase, payment or transfer of intellectual property is completed through GitHub Pages. Voluntary Bitcoin contributions remain independent and acquire none of the listed projects or combinations.",
   "sourceDocumentation": [
     {
@@ -478,7 +479,7 @@
       "proposedFlow": [
         "Research programme",
         "Expert reasoning",
-        "Analytical review"
+        "Reviewed conclusion"
       ],
       "connectionType": "Workflow adapters",
       "integrationStatus": "PROPOSED",
@@ -492,29 +493,24 @@
           "ref": "TA-IP-053",
           "slug": "evidence-grounded-multi-expert-reasoning-system",
           "role": "Compare expert perspectives and assess their supporting evidence."
-        },
-        {
-          "ref": "TA-IP-062",
-          "slug": "evidence-governed-analytical-reasoning-platform",
-          "role": "Review analytical conclusions, uncertainties and acceptance conditions."
         }
       ],
       "requirements": [
-        "Agree how research findings and evidence references are passed between the projects.",
-        "Keep the reasoning and analytical-review responsibilities distinct.",
-        "Test one complete question-to-reviewed-report workflow."
+        "Agree how research tasks, findings and evidence references pass between the two projects.",
+        "Define the respective orchestration, reasoning and human-review responsibilities.",
+        "Test one complete question-to-reviewed-conclusion workflow."
       ]
     },
     {
       "id": "TA-CN-002",
       "slug": "investigation-and-publication",
-      "title": "Investigation to accountable publication",
+      "title": "Investigation and evidence review",
       "category": "Intelligence & research",
-      "purpose": "Organise an authorised investigation and prepare its findings for a documented publication decision.",
+      "purpose": "Organise authorised information relationships and retain traceable case-evidence review decisions.",
       "proposedFlow": [
         "Information relationships",
-        "Case review",
-        "Publication assessment"
+        "Case evidence",
+        "Authorised review"
       ],
       "connectionType": "Workflow adapters",
       "integrationStatus": "PROPOSED",
@@ -528,16 +524,11 @@
           "ref": "TA-IP-065",
           "slug": "traceline-evidence-governed-investigation-framework",
           "role": "Manage case evidence and authorised investigation decisions."
-        },
-        {
-          "ref": "TA-IP-029",
-          "slug": "veritas-evidence-intelligence",
-          "role": "Prepare supporting records for publication review."
         }
       ],
       "requirements": [
         "Align case identifiers, source permissions and evidence references.",
-        "Define the handover between investigation review and publication approval.",
+        "Define the handover between information relationships and authorised case review.",
         "Test the traceability of one case from source material to its reviewed output."
       ]
     },
@@ -616,13 +607,13 @@
     {
       "id": "TA-CN-005",
       "slug": "software-change-governance",
-      "title": "Software change memory and authorisation",
+      "title": "Software change memory and state review",
       "category": "Software & infrastructure",
-      "purpose": "Review a proposed software change against earlier decisions, state records and explicit action permissions.",
+      "purpose": "Review a proposed software change against earlier decisions, architecture precedents and state records.",
       "proposedFlow": [
-        "Historical precedent",
-        "State review",
-        "Action authorisation"
+        "Historical decisions",
+        "Architecture precedents",
+        "State review"
       ],
       "connectionType": "Workflow adapters",
       "integrationStatus": "PROPOSED",
@@ -641,17 +632,12 @@
           "ref": "TA-IP-004",
           "slug": "continuum-state-integrity-platform",
           "role": "Review operational state and the history of changes."
-        },
-        {
-          "ref": "TA-IP-079",
-          "slug": "secure-actuation-integrity-platform",
-          "role": "Review permissions before authorising a controlled action."
         }
       ],
       "requirements": [
-        "Align change identifiers, state records and review decisions.",
-        "Keep historical evidence separate from permission to execute.",
-        "Test approved and rejected change scenarios with an agreed authorisation boundary."
+        "Align change identifiers, architecture precedents and operational state records.",
+        "Keep historical evidence distinct from the current change-review decision.",
+        "Test accepted and rejected change proposals while preserving a traceable review record."
       ]
     },
     {
@@ -838,7 +824,7 @@
       "proposedFlow": [
         "Mobile capture",
         "Spatial observations",
-        "Evidence review"
+        "Supported-device review"
       ],
       "connectionType": "Workflow adapters",
       "integrationStatus": "PROPOSED",
@@ -852,11 +838,6 @@
           "ref": "TA-IP-073",
           "slug": "spatial-wearable-perception-platform",
           "role": "Organise spatial and wearable-use observations."
-        },
-        {
-          "ref": "TA-IP-012",
-          "slug": "evidence-governed-visual-intelligence-platform",
-          "role": "Review the visual evidence supporting an interpretation."
         }
       ],
       "requirements": [
@@ -901,11 +882,11 @@
       "slug": "recording-to-piano-practice",
       "title": "Recorded music to guided piano practice",
       "category": "Audio & media",
-      "purpose": "Convert suitable recordings into editable musical parts for a guided piano-practice workflow.",
+      "purpose": "Prepare reviewed musical parts from suitable recordings for guided lessons and focused piano-practice research.",
       "proposedFlow": [
         "Recording transcription",
         "Musical-part review",
-        "Guided practice"
+        "Practice-platform handover"
       ],
       "connectionType": "File exchange",
       "integrationStatus": "PROPOSED",
@@ -919,32 +900,6 @@
           "ref": "TA-IP-084",
           "slug": "interactive-piano-learning-platform",
           "role": "Use suitable musical parts for guided practice and performance feedback."
-        }
-      ],
-      "requirements": [
-        "Map the exported musical parts to the learning project’s supported input.",
-        "Retain an editing and review step for transcription inaccuracies.",
-        "Test one authorised recording through transcription and guided practice."
-      ]
-    },
-    {
-      "id": "TA-CN-014",
-      "slug": "recording-to-learnpiano",
-      "title": "Recorded music to LEARNPIANO practice",
-      "category": "Audio & media",
-      "purpose": "Prepare musical parts from your recordings for the separate LEARNPIANO practice route.",
-      "proposedFlow": [
-        "Recording transcription",
-        "Part preparation",
-        "Practice review"
-      ],
-      "connectionType": "File exchange",
-      "integrationStatus": "PROPOSED",
-      "members": [
-        {
-          "ref": "TA-IP-085",
-          "slug": "adaptive-audio-midi-transcription-studio",
-          "role": "Prepare editable MIDI parts from suitable recordings."
         },
         {
           "ref": "TA-IP-095",
@@ -953,21 +908,21 @@
         }
       ],
       "requirements": [
-        "Confirm which exported musical formats the practice workflow can accept.",
-        "Agree part selection, timing and manual correction behaviour.",
-        "Test the handover independently from other piano-learning combinations."
+        "Define a separate handover of the reviewed MIDI parts to each piano platform; the platforms remain independently scoped.",
+        "Confirm each platform's supported musical formats, part selection and timing.",
+        "Retain manual correction of transcription inaccuracies and test both practice routes using authorised recordings."
       ]
     },
     {
-      "id": "TA-CN-015",
+      "id": "TA-CN-014",
       "slug": "music-library-and-dj",
       "title": "Music-library preparation and DJ review",
       "category": "Audio & media",
-      "purpose": "Organise authorised audio creations, review their technical quality and prepare candidate DJ transitions.",
+      "purpose": "Organise authorised audio creations and prepare reviewable candidate DJ sets and transitions.",
       "proposedFlow": [
         "Audio-library preparation",
-        "Quality review",
-        "DJ-set preview"
+        "DJ-set planning",
+        "Transition preview"
       ],
       "connectionType": "Workflow adapters",
       "integrationStatus": "PROPOSED",
@@ -978,11 +933,6 @@
           "role": "Organise audio creations and supported provider choices."
         },
         {
-          "ref": "TA-IP-060",
-          "slug": "adaptive-audio-production-system",
-          "role": "Review and process the audio files admitted to the workflow."
-        },
-        {
           "ref": "TA-IP-093",
           "slug": "aurynthiq-autonomous-dj-intelligence-platform",
           "role": "Prepare DJ sets and preview proposed transitions."
@@ -990,12 +940,12 @@
       ],
       "requirements": [
         "Admit only audio that may be used for the intended workflow.",
-        "Align audio exports, library metadata and transition inputs.",
-        "Test a small authorised library through file review and DJ-set preview."
+        "Align supported audio exports, library metadata and transition inputs.",
+        "Test a small authorised library through the handover and DJ-set preview."
       ]
     },
     {
-      "id": "TA-CN-016",
+      "id": "TA-CN-015",
       "slug": "creative-media-production",
       "title": "Creative text and media production",
       "category": "Audio & media",
@@ -1031,7 +981,7 @@
       ]
     },
     {
-      "id": "TA-CN-017",
+      "id": "TA-CN-016",
       "slug": "documentary-and-evidence",
       "title": "Documentary production with evidence review",
       "category": "Audio & media",
@@ -1039,7 +989,7 @@
       "proposedFlow": [
         "Source-evidence review",
         "Documentary planning",
-        "Production delivery"
+        "Editorial review"
       ],
       "connectionType": "Workflow adapters",
       "integrationStatus": "PROPOSED",
@@ -1053,21 +1003,16 @@
           "ref": "TA-IP-055",
           "slug": "autonomous-documentary-engine",
           "role": "Develop documentary stories and production plans."
-        },
-        {
-          "ref": "TA-IP-038",
-          "slug": "integrated-media-production-engine",
-          "role": "Manage supported media-production review and delivery."
         }
       ],
       "requirements": [
         "Align source permissions, narrative references and publication decisions.",
-        "Keep editorial approval explicit throughout production.",
-        "Test one authorised source package through planning and reviewable delivery."
+        "Keep editorial approval explicit throughout documentary planning.",
+        "Test one authorised source package through planning and a reviewable documentary output."
       ]
     },
     {
-      "id": "TA-CN-018",
+      "id": "TA-CN-017",
       "slug": "machine-condition-research",
       "title": "Machine-condition simulation and maintenance research",
       "category": "Industry & engineering",
@@ -1103,24 +1048,19 @@
       ]
     },
     {
-      "id": "TA-CN-019",
+      "id": "TA-CN-018",
       "slug": "reviewed-operational-actions",
-      "title": "Reviewed operational state and controlled actions",
+      "title": "Action authorisation and controlled execution",
       "category": "Industry & engineering",
-      "purpose": "Review system observations and require explicit permission before a bounded operational action.",
+      "purpose": "Review explicit action permissions before executing and observing a supported bounded command.",
       "proposedFlow": [
-        "State review",
+        "Action proposal",
         "Permission review",
         "Controlled execution"
       ],
       "connectionType": "Simulation workflow",
       "integrationStatus": "PROPOSED",
       "members": [
-        {
-          "ref": "TA-IP-025",
-          "slug": "sensor-fusion-digital-twin-engine",
-          "role": "Provide reviewed state observations and uncertainty."
-        },
         {
           "ref": "TA-IP-079",
           "slug": "secure-actuation-integrity-platform",
@@ -1139,7 +1079,7 @@
       ]
     },
     {
-      "id": "TA-CN-020",
+      "id": "TA-CN-019",
       "slug": "vehicle-configuration-review",
       "title": "Vehicle configuration and engineering review",
       "category": "Industry & engineering",
@@ -1175,7 +1115,7 @@
       ]
     },
     {
-      "id": "TA-CN-021",
+      "id": "TA-CN-020",
       "slug": "electric-flight-studies",
       "title": "Electric-flight concept and mission studies",
       "category": "Industry & engineering",
@@ -1211,14 +1151,14 @@
       ]
     },
     {
-      "id": "TA-CN-022",
+      "id": "TA-CN-021",
       "slug": "maastricht-mobility-studies",
       "title": "Maastricht mobility and driving studies",
       "category": "Industry & engineering",
       "purpose": "Explore local mobility scenarios alongside the developing interactive-driving workbench.",
       "proposedFlow": [
         "Mobility scenario",
-        "Vehicle assumptions",
+        "Shared scenario parameters",
         "Driving-workbench study"
       ],
       "connectionType": "Simulation workflow",
@@ -1228,11 +1168,6 @@
           "ref": "TA-IP-088",
           "slug": "maastricht-digital-twin",
           "role": "Provide the supported Maastricht mobility-simulation workbench."
-        },
-        {
-          "ref": "TA-IP-034",
-          "slug": "advanced-ground-vehicle-engineering",
-          "role": "Review compatible ground-vehicle assumptions."
         },
         {
           "ref": "TA-IP-089",
@@ -1247,15 +1182,15 @@
       ]
     },
     {
-      "id": "TA-CN-023",
+      "id": "TA-CN-022",
       "slug": "bioacoustic-signal-review",
-      "title": "Bioacoustic signal analysis and classification",
+      "title": "Scientific signal preparation and domain review",
       "category": "Perception & signals",
-      "purpose": "Prepare authorised sound recordings for repeatable bioacoustic classification studies.",
+      "purpose": "Prepare suitable signal inputs for separate bioacoustic and radioastronomy studies within a shared research workflow.",
       "proposedFlow": [
         "Signal preparation",
-        "Bioacoustic classification",
-        "Result review"
+        "Separate domain studies",
+        "Result qualification"
       ],
       "connectionType": "File exchange",
       "integrationStatus": "PROPOSED",
@@ -1269,32 +1204,6 @@
           "ref": "TA-IP-006",
           "slug": "faunometric",
           "role": "Classify bioacoustic recordings and compare evaluation results."
-        }
-      ],
-      "requirements": [
-        "Agree sample rates, preprocessing and annotation conventions.",
-        "Use a documented dataset and a compatible classification model.",
-        "Test whether preprocessing preserves the signals required by the classification study."
-      ]
-    },
-    {
-      "id": "TA-CN-024",
-      "slug": "radioastronomy-signal-review",
-      "title": "Radioastronomy signal review",
-      "category": "Perception & signals",
-      "purpose": "Prepare compatible telescope-signal data for candidate-observation review.",
-      "proposedFlow": [
-        "Signal preparation",
-        "Observation qualification",
-        "Candidate review"
-      ],
-      "connectionType": "File exchange",
-      "integrationStatus": "PROPOSED",
-      "members": [
-        {
-          "ref": "TA-IP-016",
-          "slug": "signal-processing-universal-framework",
-          "role": "Prepare and analyse the supported signal representations."
         },
         {
           "ref": "TA-IP-072",
@@ -1303,30 +1212,25 @@
         }
       ],
       "requirements": [
-        "Preserve the acquisition metadata, units and timing needed for the observation.",
-        "Validate the processing adapter for the supported telescope-data representation.",
-        "Test signal preparation against a documented candidate-validation case."
+        "Define separate processing handovers for bioacoustic recordings and supported telescope-data representations.",
+        "Preserve each domain's sample rates, timing, units, annotations and acquisition metadata.",
+        "Validate each branch independently against a documented domain-specific case; the domains do not share a classification or scientific-validation claim."
       ]
     },
     {
-      "id": "TA-CN-025",
+      "id": "TA-CN-023",
       "slug": "cardiac-signal-research",
       "title": "Cardiac-signal quality and learning research",
       "category": "Perception & signals",
       "purpose": "Compare ECG preparation, signal-quality review and learning experiments in a documented research workflow.",
       "proposedFlow": [
-        "Signal preparation",
         "ECG-quality review",
-        "Learning-study comparison"
+        "Learning-study comparison",
+        "Research result review"
       ],
       "connectionType": "Research comparison",
       "integrationStatus": "PROPOSED",
       "members": [
-        {
-          "ref": "TA-IP-016",
-          "slug": "signal-processing-universal-framework",
-          "role": "Prepare supported ECG signal inputs for analysis."
-        },
         {
           "ref": "TA-IP-078",
           "slug": "cardiosignal-intelligence-platform",
@@ -1345,7 +1249,7 @@
       ]
     },
     {
-      "id": "TA-CN-026",
+      "id": "TA-CN-024",
       "slug": "digital-commerce-workflow",
       "title": "Digital-product creation and catalogue workflow",
       "category": "Commerce & professional work",
@@ -1381,15 +1285,15 @@
       ]
     },
     {
-      "id": "TA-CN-027",
+      "id": "TA-CN-025",
       "slug": "professional-case-review",
       "title": "Legal research and accountable case review",
       "category": "Commerce & professional work",
-      "purpose": "Organise legal research, assess its supporting evidence and retain authorised case-review decisions.",
+      "purpose": "Organise legal research and review the evidence and uncertainty supporting a case analysis.",
       "proposedFlow": [
         "Legal research",
         "Analytical evidence review",
-        "Case review"
+        "Professional review"
       ],
       "connectionType": "Workflow adapters",
       "integrationStatus": "PROPOSED",
@@ -1403,11 +1307,6 @@
           "ref": "TA-IP-062",
           "slug": "evidence-governed-analytical-reasoning-platform",
           "role": "Review supplied evidence, hypotheses and analytical uncertainty."
-        },
-        {
-          "ref": "TA-IP-065",
-          "slug": "traceline-evidence-governed-investigation-framework",
-          "role": "Retain authorised case evidence and review decisions."
         }
       ],
       "requirements": [
@@ -1416,5 +1315,9 @@
         "Test retrieval and traceability using an authorised example case."
       ]
     }
-  ]
+  ],
+  "recreationCostMethod": "SUM_CURRENT_INDIVIDUAL_RECREATION_COSTS",
+  "allocationMethod": "GLOBAL_UNIQUE_PROJECTS",
+  "allocationBoundary": "Each included project appears in exactly one combination in this catalogue. The 64 included projects remain a subset of the 97 independently scoped portfolio assets. An allocation does not merge their IP identities or transfer perimeters.",
+  "recreationCostBoundary": "The recreation-cost total is the sum of the current published recreation-cost estimates for the listed existing projects. It is a cost reference for their documented scope, not an acquisition price or an estimate of additional integration work. No shared-work savings, integration costs or future development are added to this arithmetic."
 }
