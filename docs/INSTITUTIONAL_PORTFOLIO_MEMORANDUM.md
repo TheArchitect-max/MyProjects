@@ -1,20 +1,21 @@
 # Institutional Portfolio Memorandum
 
 **THEARCHITECT_MAX — Private Technology & IP Portfolio**
-**Current monetary publication basis:** 10 October 2026
+**Current monetary publication basis:** 11 October 2026
 **Last full source review:** 10 October 2026
 **Previous catalogue timestamp:** 2026-10-10T00:48:36Z
-**Source/evidence evaluation timestamp:** 2026-10-10T08:52:15Z
+**Latest targeted source/evidence evaluation:** 2026-10-10T22:16:09Z
+**Full source-review timestamp:** 2026-10-10T08:52:15Z
 
 ## 1. Portfolio thesis
 
-The portfolio consists of 97 independent first-party IP assets, each with its own identity, rights and transfer perimeter. Individual asking references and present-scope recreation estimates are available for all 97 assets. Digital Twin Core is priced for existing definition and acquisition documentation only; no implemented software is included. The directory provides 11 project websites as digital displays linked to their corresponding IP assets; display repositories are excluded from the asset count.
+The collection contains **98 independent IP assets**, each with its own identity, first-party rights and transfer perimeter. Individual asking references and present-scope recreation estimates are published for all 98 assets. CAUSORYN occupies TA-IP-097 and Software Asset Engineering Platform occupies TA-IP-098. Current maturity: 57 developed-software, 38 prototype and 3 research-stage assets. All 98 assets have individual evidence, rights and handover assessments. The directory provides 11 project websites as digital displays linked to their corresponding IP assets; display repositories are excluded from the asset count.
 
 The public catalogue is a screening and evidence layer. Source code, detailed architecture, controlled validation material, sensitive security information and transaction-confidential documents remain outside the public showroom unless already intentionally public in the underlying repository.
 
 ## 2. Seller-side acquisition system
 
-All 97 IP assets have a current seller-side evaluation tied to frozen source and retained evidence. Existing repository-native dossiers remain part of their evidence history; the current website registers cover newly evaluated projects as well. The review covers:
+All 98 IP assets have a dated seller-side evaluation tied to identified source and retained evidence. The latest targeted assessment covers TA-IP-097 and TA-IP-098; the other 96 records retain their dates. Existing repository-native dossiers remain part of their evidence history; the current website registers cover newly evaluated projects as well. The review covers:
 
 - technical baseline and build/release evidence;
 - tests and validation/qualification evidence;
@@ -41,15 +42,15 @@ Each project is independently classified across five axes:
 Current transfer-readiness distribution:
 
 - T4: 0
-- T3: 82
+- T3: 83
 - T2: 7
-- T1: 7
-- T0: 1
+- T1: 8
+- T0: 0
 
 Transaction-readiness outcome:
 
 - READY: 0
-- READY_WITH_CONDITIONS: 89
+- READY_WITH_CONDITIONS: 90
 - NOT_READY: 8
 
 These are seller-side documentation/transfer statuses, not buyer approval.
@@ -150,9 +151,9 @@ All 97 independent asset source heads and all 29 open pull requests were checked
 
 Use `assets/project-evaluations.json` for current conclusions and [the full financial reassessment](PORTFOLIO_FINANCIAL_REASSESSMENT_2026-10-10.md) for the two incremental budgets. This source/evidence review is not a fresh execution of all repository test suites or an independent appraisal.
 
-## 14. Latest separate asset pricing
+## 14. Historical separate asset pricing — 9 October 2026
 
-**Pricing assessment:** 2026-10-09T06:22:41Z. The three source heads were rechecked; retained qualification was reviewed. Those three inputs retain their 9 October estimates. The subsequent DARF and TrueLane financial reassessments are recorded below; the other 95 monetary inputs are unchanged.
+**Pricing assessment:** 2026-10-09T06:22:41Z. The three source heads were rechecked; retained qualification was reviewed. LEARNPIANO and PLANTELOGIA retain their 9 October estimates. The Digital Twin Core entry below is historical and was replaced by CAUSORYN at TA-IP-097 on 11 October without inheriting its value. The subsequent DARF and TrueLane financial reassessments are recorded below; the other 95 monetary inputs are unchanged.
 
 | Identifier | Project | Asking reference | Recreation estimate | Present scope |
 |---|---|---:|---:|---|
@@ -172,7 +173,7 @@ Review [the complete reassessment](PORTFOLIO_FINANCIAL_REASSESSMENT_2026-10-10.m
 
 ## Readiness criteria disclosure and correction — 10 October 2026
 
-At 2026-10-10T09:20:17Z, all 97 project profiles receive a visitor-facing explanation of their recorded criteria and outstanding conditions. Two former READY classifications are corrected to READY_WITH_CONDITIONS after source-content review. Evidence-Governed Software Assurance Platform has component-inventory generation code and runtime transaction features, not an established completed buyer package; its T4/R3 grades become T3/R2. Secure Actuation Integrity Platform explicitly records an ineligible, unexported package and unperformed buyer verification; its T4 grade becomes T3. Current distribution: **0 READY, 89 READY_WITH_CONDITIONS, 8 NOT_READY**.
+At 2026-10-10T09:20:17Z, all 97 project profiles receive a visitor-facing explanation of their recorded criteria and outstanding conditions. Two former READY classifications are corrected to READY_WITH_CONDITIONS after source-content review. Evidence-Governed Software Assurance Platform has component-inventory generation code and runtime transaction features, not an established completed buyer package; its T4/R3 grades become T3/R2. Secure Actuation Integrity Platform explicitly records an ineligible, unexported package and unperformed buyer verification; its T4 grade becomes T3. Distribution at that review: **0 READY, 89 READY_WITH_CONDITIONS, 8 NOT_READY**.
 
 This correction does not change prices, first-party ownership declarations, technical software stages or the preceding full source-review timestamp. Review `assets/seller-readiness-register.json` and [the readiness standard](SELLER_READINESS_STANDARD.md) for the gate definitions. Repository filenames, generation tooling and negative status reports cannot establish READY.
 
@@ -181,3 +182,16 @@ This correction does not change prices, first-party ownership declarations, tech
 The public portfolio offers two independent routes: complete acquisition of the defined existing project AS IS, under a separate definitive written agreement; or a voluntary Bitcoin contribution with no ownership, repayment, return, licence, purchase-price credit or development entitlement. Development sponsorship, milestone financing and co-development are not offered through this catalogue. The informational receiving address is `38dn8ZDf11cYSMv8X1UUARsE2wqdmtjd36`; only BTC on the Bitcoin network is accepted. The site does not connect wallets, monitor transactions, process payments or complete acquisition contracts.
 
 Review [the complete policy](ACQUISITION_VOLUNTARY_CONTRIBUTION_POLICY.md). Historical income/licensing model references remain analytical assumptions, not a separate currently offered transaction route. This policy update leaves all 97 asset prices, readiness grades, ownership declarations and source-review timestamps unchanged.
+
+## Targeted identity and new software evaluation — 11 October 2026
+
+Assessed at 2026-10-10T22:16:09Z. CAUSORYN / Vespera replaces Digital Twin Core / Tessa within **TA-IP-097**, without inheriting its predecessor price or evidence. Software Asset Engineering Platform / Octavia is now registered as **TA-IP-098**, based on its implemented v0.1.0 source rather than the earlier empty repository state. All other 96 project records and monetary inputs retain their dates and conclusions.
+
+| Identifier | Project | Asking reference | Recreation-cost total | Readiness |
+|---|---|---:|---:|---|
+| TA-IP-097 | CAUSORYN | EUR 30,000 | EUR 100,000 | NOT_READY — incomplete acquisition handover |
+| TA-IP-098 | Software Asset Engineering Platform | EUR 75,000 | EUR 250,000 | READY_WITH_CONDITIONS — final engine delivery and obligations to be agreed |
+
+Fresh local verification passed 54 CAUSORYN tests and four examples, and 72 Software Asset Engineering Platform tests. The latter source digests match retained installed-wheel evidence; this review did not repeat the wheel execution. Engine tests do not validate ingested projects or certify title, value or production acceptance. Review [the disclosed cost and evidence assessment](CAUSORYN_AND_NEW_ASSET_ASSESSMENT_2026-10-11.md).
+
+Current register: **98 assets**; **57 developed-software, 38 prototype and 3 research-stage**. Asking total: **EUR 24,845,000**; recreation-cost total: **EUR 105,650,000**. Readiness: **0 READY, 90 READY_WITH_CONDITIONS, 8 NOT_READY**. The 25 Connections retain their 64 unique members and unchanged individual price inputs. Website repositories remain excluded digital displays.

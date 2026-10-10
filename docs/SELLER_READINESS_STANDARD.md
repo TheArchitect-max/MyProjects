@@ -2,7 +2,7 @@
 
 Current full source-review basis: **2026-10-10T08:52:15Z**. Criteria disclosure and targeted readiness correction: **2026-10-10T09:20:17Z**.
 
-Use this internal standard to compare the recorded evidence, rights and delivery conditions for all **97 independent assets**. Each project page has an **Assessment criteria** section showing its five grades, decision basis and outstanding conditions. These are seller-side dossier classifications, not official certification or buyer acceptance.
+Use this internal standard to compare the recorded evidence, rights and delivery conditions for all **98 independent assets**. Each project page has an **Assessment criteria** section showing its five grades, decision basis and outstanding conditions. These are seller-side dossier classifications, not official certification or buyer acceptance.
 
 ## Decision criteria
 
@@ -49,7 +49,7 @@ Source-content bindings and correction reasons are recorded in the seller-readin
 
 Assess the offered first-party rights, any disclosed co-owners, third-party obligations, restrictions and the exact deliverables. The authoritative rights-transfer register records these separately. Repository paperwork does not replace an independent legal title or freedom-to-operate opinion.
 
-All 97 assets have separate asking references. Digital Twin Core covers existing definition/acquisition documentation only and remains NOT_READY for software transfer. Project websites are digital displays and are excluded from the IP-asset count. Development methods and confidential know-how are outside the public transaction record unless expressly included in a definitive agreement.
+All 98 assets have separate asking references. CAUSORYN replaces Digital Twin Core at TA-IP-097 and remains NOT_READY because its acquisition handover is explicitly incomplete. Software Asset Engineering Platform at TA-IP-098 has a source-specific READY_WITH_CONDITIONS engine assessment; its input-project transaction outputs are separate. Project websites are digital displays and are excluded from the IP-asset count. Development methods and confidential know-how are outside the public transaction record unless expressly included in a definitive agreement.
 
 ## General reference material
 
@@ -58,3 +58,16 @@ The internal E/R/C/T labels are this catalogue's own classifications; the follow
 - WIPO IP audit: https://www.wipo.int/en/web/business/ip-audit
 - WIPO IP due diligence: https://www.wipo.int/en/web/ip-commercialization/w/blog/how-to-prepare-for-ip-due-diligence-the-ultimate-guide-for-ventures
 - WIPO IP valuation: https://www.wipo.int/en/web/business/ip-valuation
+
+## Targeted identity and new software evaluation — 11 October 2026
+
+Assessed at 2026-10-10T22:16:09Z. CAUSORYN / Vespera replaces Digital Twin Core / Tessa within **TA-IP-097**, without inheriting its predecessor price or evidence. Software Asset Engineering Platform / Octavia is now registered as **TA-IP-098**, based on its implemented v0.1.0 source rather than the earlier empty repository state. All other 96 project records and monetary inputs retain their dates and conclusions.
+
+| Identifier | Project | Asking reference | Recreation-cost total | Readiness |
+|---|---|---:|---:|---|
+| TA-IP-097 | CAUSORYN | EUR 30,000 | EUR 100,000 | NOT_READY — incomplete acquisition handover |
+| TA-IP-098 | Software Asset Engineering Platform | EUR 75,000 | EUR 250,000 | READY_WITH_CONDITIONS — final engine delivery and obligations to be agreed |
+
+Fresh local verification passed 54 CAUSORYN tests and four examples, and 72 Software Asset Engineering Platform tests. The latter source digests match retained installed-wheel evidence; this review did not repeat the wheel execution. Engine tests do not validate ingested projects or certify title, value or production acceptance. Review [the disclosed cost and evidence assessment](CAUSORYN_AND_NEW_ASSET_ASSESSMENT_2026-10-11.md).
+
+Current register: **98 assets**; **57 developed-software, 38 prototype and 3 research-stage**. Asking total: **EUR 24,845,000**; recreation-cost total: **EUR 105,650,000**. Readiness: **0 READY, 90 READY_WITH_CONDITIONS, 8 NOT_READY**. The 25 Connections retain their 64 unique members and unchanged individual price inputs. Website repositories remain excluded digital displays.

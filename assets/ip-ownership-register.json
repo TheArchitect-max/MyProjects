@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.10-im55-readiness-criteria-review",
+  "version": "2026.10.11-im59-causoryn-and-octavia",
   "basisDate": "2026-10-10",
   "status": "SELLER_SIDE_REPOSITORY_EVIDENCE_REGISTER",
   "boundary": "Seller-side rights evidence register. It records repository licence evidence, disclosed third-party material and rights-review status. It does not disclose development methods and does not constitute an independent legal title or freedom-to-operate opinion.",
@@ -2210,25 +2210,29 @@
       "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
-      "repository": "Digital-Twin-Core",
-      "slug": "digital-twin-core",
-      "identityName": "Tessa",
-      "baselineCommit": "7c838eaf6692e3b14edc6b15e70e90288b39d29b",
+      "repository": "Universal-Systems-Intelligence-Engine",
+      "identityName": "Vespera",
+      "slug": "causoryn",
+      "ref": "TA-IP-097",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-10T22:16:09Z",
+      "baselineCommit": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86",
       "commercialReference": "TA-IP-097",
-      "defaultBranchBaselineCommit": "7c838eaf6692e3b14edc6b15e70e90288b39d29b",
+      "defaultBranchBaselineCommit": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86",
       "sourceScope": "DEFAULT_BRANCH",
-      "assessmentDate": "2026-10-10",
-      "repositoryLicenceFiles": [],
-      "thirdPartyDisclosureFiles": [],
-      "ipRightsMaturity": "R0",
-      "ownershipEvidenceStatus": "LICENCE_EVIDENCE_NOT_IDENTIFIED",
+      "assessmentDate": "2026-10-11",
+      "repositoryLicenceFiles": [
+        "LICENSE.md"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "THIRD_PARTY_BOUNDARY.md"
+      ],
+      "ipRightsMaturity": "R2",
+      "ownershipEvidenceStatus": "REPOSITORY_RIGHTS_AND_DEPENDENCY_BASIS_DOCUMENTED",
       "legalChainOfTitleOpinion": "NOT_PERFORMED",
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "buyerSpecificLegalReviewRequired": true,
-      "independentIpAsset": true,
-      "scopeUpdatedAt": "2026-10-09T06:07:10Z",
-      "ref": "TA-IP-097",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-10T22:16:09Z"
     },
     {
       "repository": "LEARNPIANO",
@@ -2280,10 +2284,35 @@
       "scopeUpdatedAt": "2026-10-09T06:07:10Z",
       "ref": "TA-IP-096",
       "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+    },
+    {
+      "repository": "Software-Asset-Engineering-Platform",
+      "identityName": "Octavia",
+      "slug": "software-asset-engineering-platform",
+      "ref": "TA-IP-098",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-10T22:16:09Z",
+      "baselineCommit": "bcfa388d0f10941b649cc181dfee544b016332f4",
+      "commercialReference": "TA-IP-098",
+      "defaultBranchBaselineCommit": "bcfa388d0f10941b649cc181dfee544b016332f4",
+      "sourceScope": "DEFAULT_BRANCH",
+      "assessmentDate": "2026-10-11",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "ipRightsMaturity": "R3",
+      "ownershipEvidenceStatus": "REPOSITORY_RIGHTS_DEPENDENCY_AND_SOURCE_BOUND_VALIDATION_BASIS_DOCUMENTED",
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "buyerSpecificLegalReviewRequired": true,
+      "sourceRecheckedAt": "2026-10-10T22:16:09Z"
     }
   ],
-  "assessedAt": "2026-10-10T08:52:15Z",
-  "catalogueUpdatedAt": "2026-10-10T09:20:17Z",
+  "assessedAt": "2026-10-10T22:16:09Z",
+  "catalogueUpdatedAt": "2026-10-10T22:16:09Z",
   "previousTargetedAssetReview": {
     "slug": "distributed-ai-resource-fabric",
     "ref": "TA-IP-022",
@@ -2307,6 +2336,67 @@
     "boundary": "DARF only: current source, retained exact-commit validation, rights, delivery conditions and seller-side economics. The other 96 asset assessments and monetary inputs retain their earlier dates and conclusions; portfolio totals are recomputed."
   },
   "latestReadinessReview": {
+    "assessedAt": "2026-10-10T22:16:09Z",
+    "type": "REPLACEMENT_AND_NEW_DEFINITION_CONTENT_REVIEW",
+    "criteriaDisclosedFor": 98,
+    "targetedRepositoryContentReviews": 2,
+    "changedReadinessReferences": [
+      "TA-IP-097",
+      "TA-IP-098"
+    ],
+    "previousSummary": {
+      "audited": 97,
+      "pending": 0,
+      "ready": 0,
+      "readyWithConditions": 89,
+      "notReady": 8
+    },
+    "currentSummary": {
+      "audited": 98,
+      "pending": 0,
+      "ready": 0,
+      "readyWithConditions": 90,
+      "notReady": 8
+    },
+    "sourceHeads": {
+      "Universal-Systems-Intelligence-Engine": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86",
+      "Software-Asset-Engineering-Platform": null
+    },
+    "monetaryChanges": 2,
+    "boundary": "Targeted review of TA-IP-097 and the new TA-IP-098 only. Exact source snapshots were checked against Git blob identities. CAUSORYN passed 54 local unit tests, syntax checks and four examples. Software Asset Engineering Platform passed 72 local tests with no failures, errors or skips; engine/test digests match retained local and installed-wheel evidence. Engine verification does not validate ingested project code or legal/commercial conclusions. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
+  },
+  "latestIdentityUpdate": {
+    "assessedAt": "2026-10-10T22:16:09Z",
+    "replacement": {
+      "ref": "TA-IP-097",
+      "previousTitle": "Digital Twin Core",
+      "previousReferenceAlias": "Tessa",
+      "previousRepository": "Digital-Twin-Core",
+      "title": "CAUSORYN",
+      "referenceAlias": "Vespera",
+      "repository": "Universal-Systems-Intelligence-Engine",
+      "sourceHead": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86",
+      "version": "v0.4.0",
+      "historicalValuationsInherited": false,
+      "historicalEvidenceInherited": false
+    },
+    "addition": {
+      "ref": "TA-IP-098",
+      "title": "Software Asset Engineering Platform",
+      "referenceAlias": "Octavia",
+      "repository": "Software-Asset-Engineering-Platform",
+      "sourceState": "IMPLEMENTED_LOCAL_PROTOTYPE",
+      "sourceHead": "bcfa388d0f10941b649cc181dfee544b016332f4",
+      "version": "v0.1.0",
+      "scopeDocument": "docs/SOFTWARE_ASSET_ENGINEERING_PLATFORM_SCOPE.md"
+    },
+    "previousAssetCount": 97,
+    "currentAssetCount": 98,
+    "otherAssetRecordsRetained": 96,
+    "boundary": "Targeted review of TA-IP-097 and the new TA-IP-098 only. Exact source snapshots were checked against Git blob identities. CAUSORYN passed 54 local unit tests, syntax checks and four examples. Software Asset Engineering Platform passed 72 local tests with no failures, errors or skips; engine/test digests match retained local and installed-wheel evidence. Engine verification does not validate ingested project code or legal/commercial conclusions. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
+  },
+  "previousRegisterAssessedAt": "2026-10-10T08:52:15Z",
+  "previousReadinessReview": {
     "assessedAt": "2026-10-10T09:20:17Z",
     "type": "CRITERIA_DISCLOSURE_AND_TARGETED_CONTENT_CORRECTION",
     "criteriaDisclosedFor": 97,

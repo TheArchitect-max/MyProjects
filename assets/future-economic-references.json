@@ -1,7 +1,7 @@
 {
-  "version": "2026.10.10-im54-full-portfolio-financial-review",
+  "version": "2026.10.11-im59-causoryn-and-octavia",
   "status": "evidence-bounded-maturity-sensitivity-register",
-  "basisDate": "2026-10-10",
+  "basisDate": "2026-10-11",
   "purpose": "Asset-by-asset conditional economic references for objectively testable maturity transitions. These are not forecasts, seller asks, market values, investment returns or guarantees.",
   "methodology": {
     "rule": "Only R→P and P→V maturity transitions receive a numeric conditional reference. V-stage assets receive NOT_ESTABLISHED unless new attributable market/income evidence supports a separate model. An independently owned asset without its own monetary inputs has no numeric sensitivity until those inputs are established.",
@@ -32,12 +32,12 @@
     "boundary": "No TAM-derived value, speculative revenue, arbitrary probability, automatic multiple, future seller ask or unverified commercialization outcome is used."
   },
   "summary": {
-    "projectCount": 97,
-    "numericConditionalReferences": 39,
-    "notEstablished": 58,
+    "projectCount": 98,
+    "numericConditionalReferences": 41,
+    "notEstablished": 57,
     "transitions": {
       "RtoP": 3,
-      "PtoV": 36
+      "PtoV": 38
     }
   },
   "projects": [
@@ -1702,23 +1702,30 @@
       "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
-      "slug": "digital-twin-core",
+      "slug": "causoryn",
       "ref": "TA-IP-097",
-      "identityName": "Tessa",
-      "name": "Digital Twin Core",
-      "assessmentDate": "2026-10-10",
-      "status": "NOT_ESTABLISHED",
-      "currentStage": "D",
-      "targetStage": null,
-      "milestoneConditionedEconomicReferenceEUR": null,
-      "futureReferenceStatus": "NOT_ESTABLISHED",
-      "reason": "The present scope is definition and acquisition documentation only. No implemented software or supported D-stage maturity budget exists; future development and future value are not priced.",
       "independentIpAsset": true,
-      "scopeUpdatedAt": "2026-10-09T06:07:10Z",
-      "currentTriangulatedEconomicReferenceEUR": 500,
-      "currentReplacementCostEUR": 2000,
-      "economicAssessmentAt": "2026-10-09T06:22:41Z",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "scopeUpdatedAt": "2026-10-10T22:16:09Z",
+      "identityName": "Vespera",
+      "name": "CAUSORYN",
+      "assessmentDate": "2026-10-11",
+      "status": "CONDITIONAL",
+      "currentStage": "P",
+      "targetStage": "V",
+      "futureReferenceStatus": "CONDITIONAL",
+      "currentTriangulatedEconomicReferenceEUR": 66480,
+      "currentReplacementCostEUR": 100000,
+      "economicAssessmentAt": "2026-10-10T22:16:09Z",
+      "sourceRecheckedAt": "2026-10-10T22:16:09Z",
+      "milestoneConditionedEconomicReferenceEUR": 78934,
+      "sensitivityDeltaEUR": 12454,
+      "replacementCostHeldConstant": true,
+      "potentialHeldConstant": "M",
+      "sectorHeldConstant": "Industrial & Infrastructure Software",
+      "routeHeldConstant": "Research / R&D licensing",
+      "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and an agreed operational and handover acceptance scope.",
+      "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price, future asking reference or forecast.",
+      "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
     },
     {
       "slug": "learnpiano",
@@ -1764,10 +1771,36 @@
       "acceptanceRule": "Use this figure only as a maturity sensitivity. It is not the current asking price or a promise of future value.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+    },
+    {
+      "slug": "software-asset-engineering-platform",
+      "ref": "TA-IP-098",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-10T22:16:09Z",
+      "identityName": "Octavia",
+      "name": "Software Asset Engineering Platform",
+      "assessmentDate": "2026-10-11",
+      "status": "CONDITIONAL",
+      "currentStage": "P",
+      "targetStage": "V",
+      "futureReferenceStatus": "CONDITIONAL",
+      "currentTriangulatedEconomicReferenceEUR": 179896,
+      "currentReplacementCostEUR": 250000,
+      "economicAssessmentAt": "2026-10-10T22:16:09Z",
+      "sourceRecheckedAt": "2026-10-10T22:16:09Z",
+      "milestoneConditionedEconomicReferenceEUR": 215435,
+      "sensitivityDeltaEUR": 35539,
+      "replacementCostHeldConstant": true,
+      "potentialHeldConstant": "M",
+      "sectorHeldConstant": "Enterprise Software & Operations",
+      "routeHeldConstant": "Enterprise software / licensing",
+      "targetMilestone": "Evidence a reproducible operational engine release, deployment-specific security and an agreed engine-asset delivery acceptance scope. Deferred input execution and SaaS remain outside this milestone.",
+      "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this is a constant-cost maturity sensitivity, not a future price, revenue forecast or acceptance of ingested software.",
+      "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
     }
   ],
-  "assessedAt": "2026-10-10T08:52:15Z",
-  "catalogueUpdatedAt": "2026-10-10T08:52:15Z",
+  "assessedAt": "2026-10-10T22:16:09Z",
+  "catalogueUpdatedAt": "2026-10-10T22:16:09Z",
   "previousTargetedAssetReview": {
     "slug": "distributed-ai-resource-fabric",
     "ref": "TA-IP-022",
@@ -1789,5 +1822,37 @@
     "unchangedCommercialFactors": true,
     "softwareMaturityChanged": false,
     "boundary": "DARF only: current source, retained exact-commit validation, rights, delivery conditions and seller-side economics. The other 96 asset assessments and monetary inputs retain their earlier dates and conclusions; portfolio totals are recomputed."
-  }
+  },
+  "latestIdentityUpdate": {
+    "assessedAt": "2026-10-10T22:16:09Z",
+    "replacement": {
+      "ref": "TA-IP-097",
+      "previousTitle": "Digital Twin Core",
+      "previousReferenceAlias": "Tessa",
+      "previousRepository": "Digital-Twin-Core",
+      "title": "CAUSORYN",
+      "referenceAlias": "Vespera",
+      "repository": "Universal-Systems-Intelligence-Engine",
+      "sourceHead": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86",
+      "version": "v0.4.0",
+      "historicalValuationsInherited": false,
+      "historicalEvidenceInherited": false
+    },
+    "addition": {
+      "ref": "TA-IP-098",
+      "title": "Software Asset Engineering Platform",
+      "referenceAlias": "Octavia",
+      "repository": "Software-Asset-Engineering-Platform",
+      "sourceState": "IMPLEMENTED_LOCAL_PROTOTYPE",
+      "sourceHead": "bcfa388d0f10941b649cc181dfee544b016332f4",
+      "version": "v0.1.0",
+      "scopeDocument": "docs/SOFTWARE_ASSET_ENGINEERING_PLATFORM_SCOPE.md"
+    },
+    "previousAssetCount": 97,
+    "currentAssetCount": 98,
+    "otherAssetRecordsRetained": 96,
+    "boundary": "Targeted review of TA-IP-097 and the new TA-IP-098 only. Exact source snapshots were checked against Git blob identities. CAUSORYN passed 54 local unit tests, syntax checks and four examples. Software Asset Engineering Platform passed 72 local tests with no failures, errors or skips; engine/test digests match retained local and installed-wheel evidence. Engine verification does not validate ingested project code or legal/commercial conclusions. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
+  },
+  "previousBasisDate": "2026-10-10",
+  "previousRegisterAssessedAt": "2026-10-10T08:52:15Z"
 }

@@ -1,10 +1,10 @@
 {
-  "version": "2026.10.10-im55-readiness-criteria-review",
-  "basisDate": "2026-10-10",
+  "version": "2026.10.11-im59-causoryn-and-octavia",
+  "basisDate": "2026-10-11",
   "status": "COMPLETE",
   "scope": {
-    "ipAssetCount": 97,
-    "pricedAssetCount": 97,
+    "ipAssetCount": 98,
+    "pricedAssetCount": 98,
     "unpricedAssetCount": 0
   },
   "definitions": {
@@ -15764,132 +15764,208 @@
       }
     },
     {
-      "repository": "Digital-Twin-Core",
-      "slug": "digital-twin-core",
-      "identityName": "Tessa",
+      "repository": "Universal-Systems-Intelligence-Engine",
+      "identityName": "Vespera",
+      "slug": "causoryn",
+      "ref": "TA-IP-097",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-10T22:16:09Z",
       "commercialReference": "TA-IP-097",
       "commercialStatus": "INDEPENDENT_IP_ASSET_SEPARATELY_PRICED",
-      "currentStage": "D",
-      "sellerAskEUR": 500,
-      "baselineCommit": "7c838eaf6692e3b14edc6b15e70e90288b39d29b",
-      "auditStatus": "CURRENT_REPOSITORY_REASSESSMENT_COMPLETE",
+      "currentStage": "P",
+      "sellerAskEUR": 30000,
+      "baselineCommit": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86",
+      "auditStatus": "EXACT_SOURCE_REVIEW_COMPLETE",
       "assurance": {
-        "technicalMaturity": "UNASSESSED",
-        "evidenceMaturity": "E0",
-        "ipRightsMaturity": "R0",
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E3",
+        "ipRightsMaturity": "R2",
         "commercialMaturity": "C2",
-        "transferReadiness": "T0"
+        "transferReadiness": "T1"
       },
       "transactionReadiness": "NOT_READY",
       "evidence": {
-        "EV-DOC-001": {
-          "kind": "project-definition-documentation",
+        "EV-SRC-001": {
+          "kind": "project-scope-documentation",
           "path": "README.md",
-          "gitBlobSha": "f40b28389b44d988fa1c019b1fba04f2e85ae1eb",
-          "baselineCommit": "7c838eaf6692e3b14edc6b15e70e90288b39d29b"
+          "gitBlobSha": "1c48d368f6ace1d42a6b354a26041455b5347b48",
+          "baselineCommit": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86"
         },
-        "EV-DOC-002": {
-          "kind": "historical-acquisition-documentation",
-          "path": "ACQUISITION_DOSSIER.md",
-          "gitBlobSha": "ded2cb5d59ab336a0031c16eb605dccc6a8c2c36",
-          "baselineCommit": "7c838eaf6692e3b14edc6b15e70e90288b39d29b",
-          "boundary": "Historical dossier retains its original date and unpriced statement; the current website valuation register governs the documentation-only reference."
+        "EV-SRC-002": {
+          "kind": "project-identity",
+          "path": "project-identity.json",
+          "gitBlobSha": "c323fad0da8a98357c3ca9538e3e4243a1f30a05",
+          "baselineCommit": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86"
+        },
+        "EV-SRC-003": {
+          "kind": "validation-boundary",
+          "path": "docs/VALIDATION.md",
+          "gitBlobSha": "3cfd4a2324e43c97a6523d88bd8188455f5bdf7e",
+          "baselineCommit": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86"
+        },
+        "EV-SRC-004": {
+          "kind": "retained-local-validation",
+          "path": "evidence/LOCAL_VALIDATION.md",
+          "gitBlobSha": "da7f7611fafe639a3645ebbe96afabcbfa8cccec",
+          "baselineCommit": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86"
+        },
+        "EV-SRC-005": {
+          "kind": "source-provenance-manifest",
+          "path": "evidence/SOURCE_MANIFEST.json",
+          "gitBlobSha": "4dea1d32e022d31aa2293db0b928cb18f86a63cb",
+          "baselineCommit": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86"
+        },
+        "EV-SRC-006": {
+          "kind": "first-party-licence-boundary",
+          "path": "LICENSE.md",
+          "gitBlobSha": "dfeeaa1e135ead0f3ebeffc26a9f2272b477d519",
+          "baselineCommit": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86"
+        },
+        "EV-SRC-007": {
+          "kind": "third-party-dependency-boundary",
+          "path": "THIRD_PARTY_BOUNDARY.md",
+          "gitBlobSha": "72c8188b0931079a00c21baa958696512ebf815e",
+          "baselineCommit": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86"
+        },
+        "EV-SRC-008": {
+          "kind": "security-and-model-trust-boundary",
+          "path": "docs/SECURITY.md",
+          "gitBlobSha": "5647ea12483c040171bb3a8840be3203898e3f13",
+          "baselineCommit": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86"
+        },
+        "EV-SRC-009": {
+          "kind": "incomplete-development-handover",
+          "path": "docs/HANDOVER_MANIFEST.md",
+          "gitBlobSha": "6c271189fb536ee7318246edb325ef6bee93e64e",
+          "baselineCommit": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86"
+        },
+        "EV-SRC-010": {
+          "kind": "explicit-not-ready-commercial-boundary",
+          "path": "docs/COMMERCIAL_AND_RIGHTS.md",
+          "gitBlobSha": "84398412d5bb75cc31d63287591994bfa398e9a4",
+          "baselineCommit": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86"
+        },
+        "EV-SRC-011": {
+          "kind": "build-and-version-manifest",
+          "path": "pyproject.toml",
+          "gitBlobSha": "a40cb408bd55ddd50629544d808f0d2442cb0d67",
+          "baselineCommit": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86"
         }
       },
       "dependencySummary": {
-        "manifestCount": 0,
+        "manifestCount": 1,
         "lockfileCount": 0,
         "sbomCount": 0,
-        "manifests": [],
+        "manifests": [
+          "pyproject.toml"
+        ],
         "locks": [],
         "sbomFiles": []
       },
       "rightsSummary": {
-        "licenceFiles": [],
-        "thirdPartyFiles": [],
+        "licenceFiles": [
+          "LICENSE.md"
+        ],
+        "thirdPartyFiles": [
+          "THIRD_PARTY_BOUNDARY.md"
+        ],
         "legalTitleOpinion": "NOT_PERFORMED",
         "ftoOpinion": "NOT_PERFORMED"
       },
       "securitySummary": {
-        "securityFiles": [],
+        "securityFiles": [
+          "docs/SECURITY.md"
+        ],
         "sensitiveFilenameIndicators": [],
         "independentPenetrationTest": "NOT_ASSUMED"
       },
       "transferSummary": {
-        "buildReleaseEvidence": [],
-        "provenanceEvidence": [],
-        "transferEvidence": []
+        "buildReleaseEvidence": [
+          "pyproject.toml"
+        ],
+        "provenanceEvidence": [
+          "evidence/SOURCE_MANIFEST.json",
+          "project-identity.json"
+        ],
+        "transferEvidence": [
+          "docs/HANDOVER_MANIFEST.md"
+        ],
+        "transferEvidenceBoundary": "Development handover index explicitly incomplete; not an acquisition-ready package."
       },
       "openSellerItems": [
-        "No implemented software is available in the reviewed baseline.",
-        "Repository licence file not identified.",
-        "Repository-native tests not identified.",
-        "Validation/qualification evidence not identified.",
-        "A security assessment or an explicit statement of its absence is required before acceptance.",
-        "Release identity and provenance evidence remain incomplete.",
-        "An explicit delivery manifest and handover scope remain to be agreed."
+        "Freeze the acquisition delivery scope and complete the source, provenance and first-party rights register for the agreed release.",
+        "Reconcile a release-specific component and licensing inventory; identify and pin the build-tool dependency.",
+        "Complete the acquisition handover package and agree delivery, verification and acceptance conditions. The repository explicitly records NOT_READY.",
+        "Qualify the intended deployment and model-trust boundary; no independent security assessment or production acceptance is established.",
+        "Validate any claimed real-world domain behaviour separately. The current tests do not establish physical fidelity or scientific calibration."
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
         "Freedom-to-operate legal opinion not performed unless separately evidenced.",
         "Independent penetration test not assumed unless separately evidenced."
       ],
-      "assessmentDate": "2026-10-10",
-      "assessedAt": "2026-10-10T08:52:15Z",
-      "previousAssessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-11",
+      "assessedAt": "2026-10-10T22:16:09Z",
+      "previousAssessmentDate": "2026-10-10",
       "previousBaselineCommit": "7c838eaf6692e3b14edc6b15e70e90288b39d29b",
-      "defaultBranchBaselineCommit": "7c838eaf6692e3b14edc6b15e70e90288b39d29b",
+      "defaultBranchBaselineCommit": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
-      "independentIpAsset": true,
-      "scopeUpdatedAt": "2026-10-09T06:07:10Z",
-      "ref": "TA-IP-097",
-      "economicAssessmentAt": "2026-10-09T06:22:41Z",
-      "pricingScope": "Existing first-party project definition and acquisition documentation only. No implemented software, validated digital-twin capability, protected technical invention or future development is included in this estimate.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z",
-      "previousAssessedAt": "2026-10-09T10:15:23Z",
+      "reviewResult": "REPLACEMENT_IMPLEMENTATION_REVIEWED",
+      "economicAssessmentAt": "2026-10-10T22:16:09Z",
+      "pricingScope": "Present first-party linked-system modelling and scenario-comparison prototype, retained tests, documentation and development packaging at the identified v0.4.0 source commit. Physical fidelity, live connectors, production operation, independent qualification, third-party rights and future development are excluded.",
+      "sourceRecheckedAt": "2026-10-10T22:16:09Z",
+      "currentSourceReviewBoundary": "Targeted review of TA-IP-097 and the new TA-IP-098 only. Exact source snapshots were checked against Git blob identities. CAUSORYN passed 54 local unit tests, syntax checks and four examples. Software Asset Engineering Platform passed 72 local tests with no failures, errors or skips; engine/test digests match retained local and installed-wheel evidence. Engine verification does not validate ingested project code or legal/commercial conclusions. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied.",
       "readinessAssessment": {
-        "assessedAt": "2026-10-10T09:20:17Z",
-        "sourceEvidenceAssessedAt": "2026-10-10T08:52:15Z",
-        "basis": "DISCLOSURE_OF_RETAINED_REPOSITORY_ASSESSMENT",
+        "assessedAt": "2026-10-10T22:16:09Z",
+        "sourceEvidenceAssessedAt": "2026-10-10T22:16:09Z",
+        "basis": "EXACT_SOURCE_CONTENT_REVIEW_AND_LOCAL_TEST_EXECUTION",
         "decision": "NOT_READY",
-        "decisionBasis": "No implemented software baseline is identified in the reviewed scope.",
-        "transferClosure": "NO_IMPLEMENTATION_BASELINE",
+        "decisionBasis": "The implementation is locally tested, but the source explicitly states NOT_READY and describes a development index rather than a completed acquisition handover package. Essential release-specific rights, component and delivery conditions remain open.",
+        "transferClosure": "EXPLICITLY_INCOMPLETE",
         "readyGate": "NOT_ESTABLISHED",
-        "openConditionCount": 7,
+        "openConditionCount": 5,
         "criteria": [
           {
             "axis": "technicalMaturity",
             "label": "Technical scope",
-            "grade": "UNASSESSED",
+            "grade": "P",
             "criterion": "Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance."
           },
           {
             "axis": "evidenceMaturity",
             "label": "Evidence and validation",
-            "grade": "E0",
-            "criterion": "No repository-native test/validation evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results."
+            "grade": "E3",
+            "criterion": "Tests, validation and provenance/release evidence identified. The identified source version and tested scope govern these results; this is not independent certification."
           },
           {
             "axis": "ipRightsMaturity",
             "label": "Rights and component obligations",
-            "grade": "R0",
-            "criterion": "No repository licence evidence identified. This grade concerns documented rights evidence. Missing documentation does not establish that first-party ownership is absent."
+            "grade": "R2",
+            "criterion": "R1 plus dependency/third-party disclosure basis identified. Review the documented rights and exclusions for your transaction; no independent title opinion is established."
           },
           {
             "axis": "commercialMaturity",
             "label": "Commercial basis",
             "grade": "C2",
-            "criterion": "Seller ask and reproducible economic reference established. A published asking reference does not establish a completed sale, income or an independent appraisal."
+            "criterion": "Seller ask and reproducible economic reference established. This is a seller asking reference and assumption-based reproduction model, not a completed sale or independent appraisal."
           },
           {
             "axis": "transferReadiness",
             "label": "Delivery and handover",
-            "grade": "T0",
-            "criterion": "No committed implementation baseline. Your agreed delivery scope and the conditions below govern acceptance."
+            "grade": "T1",
+            "criterion": "Implementation exists but core transfer evidence is incomplete. The listed conditions and agreed delivery scope govern acceptance."
           }
         ],
-        "evidenceBoundary": "The grades describe recorded repository evidence, not a fresh execution of every test or independent legal, security or market certification. External execution can mean a retained Colab run; it does not automatically mean an independent assessor."
+        "evidenceBoundary": "Targeted review of TA-IP-097 and the new TA-IP-098 only. Exact source snapshots were checked against Git blob identities. CAUSORYN passed 54 local unit tests, syntax checks and four examples. Software Asset Engineering Platform passed 72 local tests with no failures, errors or skips; engine/test digests match retained local and installed-wheel evidence. Engine verification does not validate ingested project code or legal/commercial conclusions. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
+      },
+      "localVerification": {
+        "sourceHead": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86",
+        "unitTestsPassed": 54,
+        "unitTestsFailed": 0,
+        "syntaxCheck": "PASS",
+        "examplesPassed": 4,
+        "assessedAt": "2026-10-10T22:16:09Z",
+        "independentValidation": false
       }
     },
     {
@@ -16252,19 +16328,253 @@
         ],
         "evidenceBoundary": "The grades describe recorded repository evidence, not a fresh execution of every test or independent legal, security or market certification. External execution can mean a retained Colab run; it does not automatically mean an independent assessor."
       }
+    },
+    {
+      "repository": "Software-Asset-Engineering-Platform",
+      "identityName": "Octavia",
+      "slug": "software-asset-engineering-platform",
+      "ref": "TA-IP-098",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-10T22:16:09Z",
+      "commercialReference": "TA-IP-098",
+      "commercialStatus": "INDEPENDENT_IP_ASSET_SEPARATELY_PRICED",
+      "currentStage": "P",
+      "sellerAskEUR": 75000,
+      "baselineCommit": "bcfa388d0f10941b649cc181dfee544b016332f4",
+      "auditStatus": "EXACT_SOURCE_REVIEW_COMPLETE",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E3",
+        "ipRightsMaturity": "R3",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T3"
+      },
+      "transactionReadiness": "READY_WITH_CONDITIONS",
+      "evidence": {
+        "EV-SRC-001": {
+          "kind": "project-scope-documentation",
+          "path": "README.md",
+          "gitBlobSha": "5699f267e173568f3c21d537398076983318d2fa",
+          "baselineCommit": "bcfa388d0f10941b649cc181dfee544b016332f4"
+        },
+        "EV-SRC-002": {
+          "kind": "project-identity",
+          "path": "project-identity.json",
+          "gitBlobSha": "c42498e26ff506e41dbfa95310c17780146923ca",
+          "baselineCommit": "bcfa388d0f10941b649cc181dfee544b016332f4"
+        },
+        "EV-SRC-003": {
+          "kind": "implemented-and-deferred-capabilities",
+          "path": "docs/IMPLEMENTATION_STATUS.md",
+          "gitBlobSha": "dff69673411aac1d4405c09682f401d5d1bef59d",
+          "baselineCommit": "bcfa388d0f10941b649cc181dfee544b016332f4"
+        },
+        "EV-SRC-004": {
+          "kind": "scope-specific-acceptance-mapping",
+          "path": "docs/ACCEPTANCE.md",
+          "gitBlobSha": "e9f7c6a8e23bd53318ed1d861e6d4b15a62cf57d",
+          "baselineCommit": "bcfa388d0f10941b649cc181dfee544b016332f4"
+        },
+        "EV-SRC-005": {
+          "kind": "retained-local-validation",
+          "path": "docs/validation/LOCAL_VALIDATION.json",
+          "gitBlobSha": "4fd231be2f1fba9b7f177ae77be5e766c8775a38",
+          "baselineCommit": "bcfa388d0f10941b649cc181dfee544b016332f4"
+        },
+        "EV-SRC-006": {
+          "kind": "retained-installed-package-validation",
+          "path": "docs/validation/INSTALLED_WHEEL_VALIDATION.json",
+          "gitBlobSha": "5a914f72b65de66eb4c8de6cdbb9c7d3b5ab2de0",
+          "baselineCommit": "bcfa388d0f10941b649cc181dfee544b016332f4"
+        },
+        "EV-SRC-007": {
+          "kind": "first-party-licence-boundary",
+          "path": "LICENSE",
+          "gitBlobSha": "ef285f9e7e03e75b46c3d3c168b8edfb892af22f",
+          "baselineCommit": "bcfa388d0f10941b649cc181dfee544b016332f4"
+        },
+        "EV-SRC-008": {
+          "kind": "third-party-component-boundary",
+          "path": "THIRD_PARTY_NOTICES.md",
+          "gitBlobSha": "9118a04a4f21a70353846f2a6c067059887d14bc",
+          "baselineCommit": "bcfa388d0f10941b649cc181dfee544b016332f4"
+        },
+        "EV-SRC-009": {
+          "kind": "local-security-boundary",
+          "path": "SECURITY.md",
+          "gitBlobSha": "8d79f298734be213013975380197bfc33ff993f7",
+          "baselineCommit": "bcfa388d0f10941b649cc181dfee544b016332f4"
+        },
+        "EV-SRC-010": {
+          "kind": "rights-and-draft-handover-boundary",
+          "path": "docs/RIGHTS_AND_TRANSFER.md",
+          "gitBlobSha": "25ee91580c12d05e2fe7014256cf423fcd58927f",
+          "baselineCommit": "bcfa388d0f10941b649cc181dfee544b016332f4"
+        },
+        "EV-SRC-011": {
+          "kind": "build-and-version-manifest",
+          "path": "pyproject.toml",
+          "gitBlobSha": "531b156d8ea57edc32105cf43841fcf251c5bd4a",
+          "baselineCommit": "bcfa388d0f10941b649cc181dfee544b016332f4"
+        },
+        "EV-SRC-012": {
+          "kind": "runtime-dependency-declaration",
+          "path": "requirements.lock",
+          "gitBlobSha": "47b517736a29cf632ba69cb9ac083a84a9cf0afd",
+          "baselineCommit": "bcfa388d0f10941b649cc181dfee544b016332f4"
+        },
+        "EV-SRC-013": {
+          "kind": "pinned-build-dependencies",
+          "path": "build-requirements.lock",
+          "gitBlobSha": "0b5cc336e6ab4ff14e7daf3deab7e3bd36f821e6",
+          "baselineCommit": "bcfa388d0f10941b649cc181dfee544b016332f4"
+        }
+      },
+      "dependencySummary": {
+        "manifestCount": 2,
+        "lockfileCount": 2,
+        "sbomCount": 0,
+        "manifests": [
+          "pyproject.toml",
+          "examples/minimal-python/pyproject.toml"
+        ],
+        "locks": [
+          "requirements.lock",
+          "build-requirements.lock"
+        ],
+        "sbomFiles": []
+      },
+      "rightsSummary": {
+        "licenceFiles": [
+          "LICENSE"
+        ],
+        "thirdPartyFiles": [
+          "THIRD_PARTY_NOTICES.md"
+        ],
+        "legalTitleOpinion": "NOT_PERFORMED",
+        "ftoOpinion": "NOT_PERFORMED"
+      },
+      "securitySummary": {
+        "securityFiles": [
+          "SECURITY.md",
+          "docs/THREAT_MODEL.md"
+        ],
+        "sensitiveFilenameIndicators": [],
+        "independentPenetrationTest": "NOT_ASSUMED"
+      },
+      "transferSummary": {
+        "buildReleaseEvidence": [
+          "pyproject.toml",
+          "build-requirements.lock",
+          "docs/validation/INSTALLED_WHEEL_VALIDATION.json"
+        ],
+        "provenanceEvidence": [
+          "project-identity.json",
+          "docs/validation/LOCAL_VALIDATION.json",
+          "docs/validation/INSTALLED_WHEEL_VALIDATION.json"
+        ],
+        "transferEvidence": [
+          "docs/RIGHTS_AND_TRANSFER.md",
+          "docs/ACCEPTANCE.md"
+        ],
+        "transferEvidenceBoundary": "Own-engine source and installed-package evidence support bounded handover; a final engine acquisition package is not established. The engine creates separate input-project draft review packages, not accepted transfers."
+      },
+      "openSellerItems": [
+        "Agree and freeze the engine asset delivery manifest, included rights and first-party provenance for the identified release.",
+        "Reconcile the pinned build-tool licences and final component obligations for the agreed delivery scope.",
+        "Complete recipient verification and acceptance of the engine delivery package; generated input-project dossiers remain separate draft review records.",
+        "Qualify the intended local deployment and its security boundary. Input-project execution, a general sandbox and multi-tenant SaaS are not delivered.",
+        "Retain explicit NOT_RUN and UNSUPPORTED input-project outcomes; engine tests do not establish an inspected project’s runtime correctness, title or value."
+      ],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ],
+      "assessmentDate": "2026-10-11",
+      "assessedAt": "2026-10-10T22:16:09Z",
+      "previousAssessmentDate": null,
+      "previousBaselineCommit": null,
+      "defaultBranchBaselineCommit": "bcfa388d0f10941b649cc181dfee544b016332f4",
+      "sourceScope": "DEFAULT_BRANCH",
+      "reviewResult": "NEW_SOFTWARE_ASSET_EVALUATED",
+      "economicAssessmentAt": "2026-10-10T22:16:09Z",
+      "pricingScope": "Present first-party local software-inspection, evidence, bounded review-proposal and package-preparation prototype, its CLI/local interface, source contracts, documentation and retained validation at the identified v0.1.0 commit. Ingested-project execution, arbitrary-code isolation, broader adapters, production SaaS, hosting, rights certification, third-party ownership and future development are excluded.",
+      "sourceRecheckedAt": "2026-10-10T22:16:09Z",
+      "currentSourceReviewBoundary": "Targeted review of TA-IP-097 and the new TA-IP-098 only. Exact source snapshots were checked against Git blob identities. CAUSORYN passed 54 local unit tests, syntax checks and four examples. Software Asset Engineering Platform passed 72 local tests with no failures, errors or skips; engine/test digests match retained local and installed-wheel evidence. Engine verification does not validate ingested project code or legal/commercial conclusions. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied.",
+      "readinessAssessment": {
+        "assessedAt": "2026-10-10T22:16:09Z",
+        "sourceEvidenceAssessedAt": "2026-10-10T22:16:09Z",
+        "basis": "EXACT_SOURCE_CONTENT_REVIEW_AND_LOCAL_TEST_EXECUTION",
+        "decision": "READY_WITH_CONDITIONS",
+        "decisionBasis": "The engine release has source, documentation, licence, passing local tests, pinned build tools and source-bound installed-wheel evidence supporting a bounded handover. An accepted engine-asset delivery package and final rights/component obligations remain to be agreed. Generated input-project NOT_READY records are separate from the readiness of this engine asset.",
+        "transferClosure": "NOT_ESTABLISHED",
+        "readyGate": "NOT_ESTABLISHED",
+        "openConditionCount": 5,
+        "criteria": [
+          {
+            "axis": "technicalMaturity",
+            "label": "Technical scope",
+            "grade": "P",
+            "criterion": "Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance."
+          },
+          {
+            "axis": "evidenceMaturity",
+            "label": "Evidence and validation",
+            "grade": "E3",
+            "criterion": "Tests, validation and provenance/release evidence identified. The identified source version and tested scope govern these results; this is not independent certification."
+          },
+          {
+            "axis": "ipRightsMaturity",
+            "label": "Rights and component obligations",
+            "grade": "R3",
+            "criterion": "R2 plus SBOM/lockfile and provenance/rights-supporting evidence identified. Review the documented rights and exclusions for your transaction; no independent title opinion is established."
+          },
+          {
+            "axis": "commercialMaturity",
+            "label": "Commercial basis",
+            "grade": "C2",
+            "criterion": "Seller ask and reproducible economic reference established. This is a seller asking reference and assumption-based reproduction model, not a completed sale or independent appraisal."
+          },
+          {
+            "axis": "transferReadiness",
+            "label": "Delivery and handover",
+            "grade": "T3",
+            "criterion": "T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and agreed delivery scope govern acceptance."
+          }
+        ],
+        "evidenceBoundary": "Targeted review of TA-IP-097 and the new TA-IP-098 only. Exact source snapshots were checked against Git blob identities. CAUSORYN passed 54 local unit tests, syntax checks and four examples. Software Asset Engineering Platform passed 72 local tests with no failures, errors or skips; engine/test digests match retained local and installed-wheel evidence. Engine verification does not validate ingested project code or legal/commercial conclusions. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
+      },
+      "repositoryEmpty": false,
+      "localVerification": {
+        "sourceHead": "bcfa388d0f10941b649cc181dfee544b016332f4",
+        "unitTestsPassed": 72,
+        "unitTestsFailed": 0,
+        "unitTestErrors": 0,
+        "unitTestsSkipped": 0,
+        "syntaxCheck": "PASS",
+        "assessedAt": "2026-10-10T22:16:09Z",
+        "engineSourceDigest": "c61144ea3987241f2b701a82226572e444f7904c9c807b97b38b524da0952b71",
+        "testSourceDigest": "473c51acbc392e07aa7740bf1732507ef0d5d79a7e0057861e8258107f6e28f4",
+        "retainedInstalledWheelVerification": "PASS_MATCHING_ENGINE_DIGEST",
+        "freshInstalledWheelExecution": false,
+        "inputProjectRuntimeTests": "NOT_RUN",
+        "independentValidation": false
+      },
+      "scopeDocument": "docs/SOFTWARE_ASSET_ENGINEERING_PLATFORM_SCOPE.md"
     }
   ],
   "summary": {
-    "audited": 97,
+    "audited": 98,
     "pending": 0,
     "ready": 0,
-    "readyWithConditions": 89,
+    "readyWithConditions": 90,
     "notReady": 8
   },
-  "assessedAt": "2026-10-10T08:52:15Z",
-  "previousBasisDate": "2026-10-09",
+  "assessedAt": "2026-10-10T22:16:09Z",
+  "previousBasisDate": "2026-10-10",
   "reviewPolicy": "Current default-branch heads and retained evidence are compared with previous frozen assessment baselines. Where committed implementation exists only on a development branch, that scope is explicit and does not imply a merge or full release acceptance. Unchanged evidence retains its previous grade after Git-blob verification. Repository evidence inventory is not a fresh execution of every software test suite.",
-  "catalogueUpdatedAt": "2026-10-10T09:20:17Z",
+  "catalogueUpdatedAt": "2026-10-10T22:16:09Z",
   "previousTargetedAssetReview": {
     "slug": "distributed-ai-resource-fabric",
     "ref": "TA-IP-022",
@@ -16303,6 +16613,67 @@
     "testFilesAreNotPassingTestResults": true
   },
   "latestReadinessReview": {
+    "assessedAt": "2026-10-10T22:16:09Z",
+    "type": "REPLACEMENT_AND_NEW_DEFINITION_CONTENT_REVIEW",
+    "criteriaDisclosedFor": 98,
+    "targetedRepositoryContentReviews": 2,
+    "changedReadinessReferences": [
+      "TA-IP-097",
+      "TA-IP-098"
+    ],
+    "previousSummary": {
+      "audited": 97,
+      "pending": 0,
+      "ready": 0,
+      "readyWithConditions": 89,
+      "notReady": 8
+    },
+    "currentSummary": {
+      "audited": 98,
+      "pending": 0,
+      "ready": 0,
+      "readyWithConditions": 90,
+      "notReady": 8
+    },
+    "sourceHeads": {
+      "Universal-Systems-Intelligence-Engine": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86",
+      "Software-Asset-Engineering-Platform": null
+    },
+    "monetaryChanges": 2,
+    "boundary": "Targeted review of TA-IP-097 and the new TA-IP-098 only. Exact source snapshots were checked against Git blob identities. CAUSORYN passed 54 local unit tests, syntax checks and four examples. Software Asset Engineering Platform passed 72 local tests with no failures, errors or skips; engine/test digests match retained local and installed-wheel evidence. Engine verification does not validate ingested project code or legal/commercial conclusions. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
+  },
+  "latestIdentityUpdate": {
+    "assessedAt": "2026-10-10T22:16:09Z",
+    "replacement": {
+      "ref": "TA-IP-097",
+      "previousTitle": "Digital Twin Core",
+      "previousReferenceAlias": "Tessa",
+      "previousRepository": "Digital-Twin-Core",
+      "title": "CAUSORYN",
+      "referenceAlias": "Vespera",
+      "repository": "Universal-Systems-Intelligence-Engine",
+      "sourceHead": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86",
+      "version": "v0.4.0",
+      "historicalValuationsInherited": false,
+      "historicalEvidenceInherited": false
+    },
+    "addition": {
+      "ref": "TA-IP-098",
+      "title": "Software Asset Engineering Platform",
+      "referenceAlias": "Octavia",
+      "repository": "Software-Asset-Engineering-Platform",
+      "sourceState": "IMPLEMENTED_LOCAL_PROTOTYPE",
+      "sourceHead": "bcfa388d0f10941b649cc181dfee544b016332f4",
+      "version": "v0.1.0",
+      "scopeDocument": "docs/SOFTWARE_ASSET_ENGINEERING_PLATFORM_SCOPE.md"
+    },
+    "previousAssetCount": 97,
+    "currentAssetCount": 98,
+    "otherAssetRecordsRetained": 96,
+    "boundary": "Targeted review of TA-IP-097 and the new TA-IP-098 only. Exact source snapshots were checked against Git blob identities. CAUSORYN passed 54 local unit tests, syntax checks and four examples. Software Asset Engineering Platform passed 72 local tests with no failures, errors or skips; engine/test digests match retained local and installed-wheel evidence. Engine verification does not validate ingested project code or legal/commercial conclusions. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
+  },
+  "previousRegisterAssessedAt": "2026-10-10T08:52:15Z",
+  "previousReadinessReview": {
     "assessedAt": "2026-10-10T09:20:17Z",
     "type": "CRITERIA_DISCLOSURE_AND_TARGETED_CONTENT_CORRECTION",
     "criteriaDisclosedFor": 97,

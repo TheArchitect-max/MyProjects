@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.10-im54-full-portfolio-financial-review",
+  "version": "2026.10.11-im59-causoryn-and-octavia",
   "policy": "Each independent IP asset has one project title and one feminine reference alias. Each project has its own asset identity and rights perimeter. Websites are digital displays only.",
   "projects": [
     {
@@ -849,15 +849,15 @@
       "title": "Universal Vehicle Configuration Database"
     },
     {
-      "repository": "Digital-Twin-Core",
-      "slug": "digital-twin-core",
-      "identityName": "Tessa",
-      "existingCanonical": false,
-      "independentIpAsset": true,
-      "scopeUpdatedAt": "2026-10-09T06:07:10Z",
+      "repository": "Universal-Systems-Intelligence-Engine",
+      "identityName": "Vespera",
+      "slug": "causoryn",
       "ref": "TA-IP-097",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-10T22:16:09Z",
       "id": 97,
-      "title": "Digital Twin Core"
+      "title": "CAUSORYN",
+      "existingCanonical": true
     },
     {
       "repository": "LEARNPIANO",
@@ -880,10 +880,21 @@
       "ref": "TA-IP-096",
       "id": 96,
       "title": "PLANTELOGIA Intelligence Platform"
+    },
+    {
+      "repository": "Software-Asset-Engineering-Platform",
+      "identityName": "Octavia",
+      "slug": "software-asset-engineering-platform",
+      "ref": "TA-IP-098",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-10T22:16:09Z",
+      "id": 98,
+      "title": "Software Asset Engineering Platform",
+      "existingCanonical": true
     }
   ],
   "scope": {
-    "ipAssetCount": 97,
+    "ipAssetCount": 98,
     "excludedRepositories": [
       "Adaptive-Audio-Synthesis-Platform-Website",
       "BIND-AI-Computational-Neuroscience-IP-WEBSITE",
@@ -899,9 +910,39 @@
       "TheArchitect-max-EGMERS-Website",
       "VEGMPF-Website"
     ],
-    "pricedAssetCount": 97,
+    "pricedAssetCount": 98,
     "unpricedAssetCount": 0
   },
-  "catalogueUpdatedAt": "2026-10-10T08:52:15Z",
-  "identifierPolicy": "The current public identifiers are TA-IP-001 through TA-IP-097, assigned once in catalogue order. The same identifier, title, reference alias and slug govern every current register, project profile and digital-display link. Historical publications remain available in Git history."
+  "catalogueUpdatedAt": "2026-10-10T22:16:09Z",
+  "identifierPolicy": "The current public identifiers are TA-IP-001 through TA-IP-098, assigned once in catalogue order. The same identifier, title, reference alias and slug govern every current register, project profile and digital-display link. Historical publications remain available in Git history. The current TA-IP-097 slot replaces its historical predecessor; a replacement is not a new asset.",
+  "latestIdentityUpdate": {
+    "assessedAt": "2026-10-10T22:16:09Z",
+    "replacement": {
+      "ref": "TA-IP-097",
+      "previousTitle": "Digital Twin Core",
+      "previousReferenceAlias": "Tessa",
+      "previousRepository": "Digital-Twin-Core",
+      "title": "CAUSORYN",
+      "referenceAlias": "Vespera",
+      "repository": "Universal-Systems-Intelligence-Engine",
+      "sourceHead": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86",
+      "version": "v0.4.0",
+      "historicalValuationsInherited": false,
+      "historicalEvidenceInherited": false
+    },
+    "addition": {
+      "ref": "TA-IP-098",
+      "title": "Software Asset Engineering Platform",
+      "referenceAlias": "Octavia",
+      "repository": "Software-Asset-Engineering-Platform",
+      "sourceState": "IMPLEMENTED_LOCAL_PROTOTYPE",
+      "sourceHead": "bcfa388d0f10941b649cc181dfee544b016332f4",
+      "version": "v0.1.0",
+      "scopeDocument": "docs/SOFTWARE_ASSET_ENGINEERING_PLATFORM_SCOPE.md"
+    },
+    "previousAssetCount": 97,
+    "currentAssetCount": 98,
+    "otherAssetRecordsRetained": 96,
+    "boundary": "Targeted review of TA-IP-097 and the new TA-IP-098 only. Exact source snapshots were checked against Git blob identities. CAUSORYN passed 54 local unit tests, syntax checks and four examples. Software Asset Engineering Platform passed 72 local tests with no failures, errors or skips; engine/test digests match retained local and installed-wheel evidence. Engine verification does not validate ingested project code or legal/commercial conclusions. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
+  }
 }
