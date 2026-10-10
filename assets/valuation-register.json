@@ -1,9 +1,9 @@
 {
-  "version": "2026.10.10-im53-darf-v015-financial-review",
+  "version": "2026.10.10-im54-full-portfolio-financial-review",
   "status": "public-seller-side-valuation-register",
   "valuationBasisDate": "2026-10-10",
   "developmentStatusDate": "2026-10-10",
-  "scope": "Compare 97 independent first-party IP assets with separate asking references and rights perimeters. DARF was reassessed on 10 October; the other 96 monetary inputs retain their established estimates. Project websites are digital displays only. Digital Twin Core is definition/documentation only.",
+  "scope": "All 97 independent IP assets have current dated source reviews. DARF and TrueLane Intelligence Engine have new incremental present-scope monetary estimates; the other 95 asset prices are retained. Websites are digital displays only. Digital Twin Core remains definition/documentation only.",
   "portfolio": {
     "assetCount": 97,
     "stageCounts": {
@@ -12,20 +12,20 @@
       "researchStage": 3,
       "definitionStage": 1
     },
-    "sellerAskEUR": 24590500,
-    "negotiationLowEUR": 19650400,
-    "negotiationHighEUR": 30818125,
-    "replacementCostEUR": 104852000,
-    "marketComparableProxyEUR": 119817680,
-    "incomeLicensingProxyEUR": 141411660,
-    "probabilityAdjustedStrategicValueEUR": 131886866,
-    "triangulatedEconomicReferenceEUR": 124619275,
-    "sellerAskAsShareOfTriangulated": 0.197325012523143,
-    "sellerAskAsShareOfReplacementCost": 0.23452580780528745,
+    "sellerAskEUR": 24740500,
+    "negotiationLowEUR": 19765400,
+    "negotiationHighEUR": 31008125,
+    "replacementCostEUR": 105302000,
+    "marketComparableProxyEUR": 120502430,
+    "incomeLicensingProxyEUR": 142294410,
+    "probabilityAdjustedStrategicValueEUR": 132875737,
+    "triangulatedEconomicReferenceEUR": 125391379,
+    "sellerAskAsShareOfTriangulated": 0.1973062278866875,
+    "sellerAskAsShareOfReplacementCost": 0.234948054168012,
     "pricedAssetCount": 97,
     "unpricedAssetCount": 0,
     "monetaryScope": "All 97 independently scoped IP assets. Digital Twin Core covers existing definition and acquisition documentation, not implemented software.",
-    "averageTriangulatedEconomicReferencePerPricedAsset": 1284734.793814433
+    "averageTriangulatedEconomicReferencePerPricedAsset": 1292694.6288659794
   },
   "updates": [
     {
@@ -286,20 +286,20 @@
       "name": "TrueLane Intelligence Engine",
       "stage": "V",
       "potential": "H",
-      "description": "Compare AI models and training studies, and review the evidence before selecting a candidate for your use.",
-      "sellerAskEUR": 255000,
-      "negotiationLowEUR": 205000,
-      "negotiationHighEUR": 320000,
-      "replacementCostEUR": 850000,
-      "marketComparableProxyEUR": 1075250,
-      "incomeLicensingProxyEUR": 1262250,
+      "description": "Compare AI training studies, resume reviewed experiments and assess model candidates using retained evidence.",
+      "sellerAskEUR": 300000,
+      "negotiationLowEUR": 240000,
+      "negotiationHighEUR": 375000,
+      "replacementCostEUR": 1000000,
+      "marketComparableProxyEUR": 1265000,
+      "incomeLicensingProxyEUR": 1485000,
       "technicalCompletionProbability": 0.95,
       "commercializationProbability": 0.55,
       "rightsTransferReserve": 0.85,
       "timeRiskFactor": 0.95,
-      "probabilityAdjustedStrategicValueEUR": 1084859,
-      "triangulatedEconomicReferenceEUR": 1059701,
-      "askShareOfTriangulated": 0.2406339146608336
+      "probabilityAdjustedStrategicValueEUR": 1276304,
+      "triangulatedEconomicReferenceEUR": 1246706,
+      "askShareOfTriangulated": 0.24063411903046908
     },
     {
       "ref": "TA-IP-014",
@@ -476,19 +476,19 @@
       "stage": "V",
       "potential": "VH",
       "description": "Coordinate AI work across your available computers, oversee active workloads and review capacity and recovery decisions.",
-      "sellerAskEUR": 395000,
-      "negotiationLowEUR": 310000,
-      "negotiationHighEUR": 495000,
-      "replacementCostEUR": 1100000,
-      "marketComparableProxyEUR": 1815000,
-      "incomeLicensingProxyEUR": 2420000,
+      "sellerAskEUR": 500000,
+      "negotiationLowEUR": 390000,
+      "negotiationHighEUR": 630000,
+      "replacementCostEUR": 1400000,
+      "marketComparableProxyEUR": 2310000,
+      "incomeLicensingProxyEUR": 3080000,
       "technicalCompletionProbability": 0.95,
       "commercializationProbability": 0.7,
       "rightsTransferReserve": 0.85,
       "timeRiskFactor": 0.95,
-      "probabilityAdjustedStrategicValueEUR": 2923897,
-      "triangulatedEconomicReferenceEUR": 2145364,
-      "askShareOfTriangulated": 0.18411793989271752
+      "probabilityAdjustedStrategicValueEUR": 3721323,
+      "triangulatedEconomicReferenceEUR": 2730463,
+      "askShareOfTriangulated": 0.18311912668291055
     },
     {
       "ref": "TA-IP-023",
@@ -2081,10 +2081,10 @@
       "sourceHead": "7c838eaf6692e3b14edc6b15e70e90288b39d29b"
     }
   ],
-  "assessedAt": "2026-10-10T00:48:36Z",
+  "assessedAt": "2026-10-10T08:52:15Z",
   "previousValuationBasisDate": "2026-10-09",
   "reviewPolicy": "Every project is reassessed against current source and retained evidence. An unchanged conclusion is explicitly retained after comparison; commit counts and version labels alone do not increase monetary value or maturity. Development branches and validated executable baselines are distinguished.",
-  "catalogueUpdatedAt": "2026-10-10T00:48:36Z",
+  "catalogueUpdatedAt": "2026-10-10T08:52:15Z",
   "latestSeparateAssetPricing": {
     "assessedAt": "2026-10-09T06:22:41Z",
     "assetCount": 3,
@@ -2100,19 +2100,28 @@
     "boundary": "Fresh source-head checks and retained-evidence review for these three assets. Prior source/evidence assessments and monetary inputs for the other 94 assets retain their recorded dates; no fresh execution of all repository tests is claimed."
   },
   "latestSourceReview": {
-    "checkedAt": "2026-10-09T10:15:23Z",
-    "previousCatalogueUpdatedAt": "2026-10-09T06:22:41Z",
+    "checkedAt": "2026-10-10T08:52:15Z",
+    "previousCatalogueUpdatedAt": "2026-10-10T00:48:36Z",
     "defaultBranchesChecked": 97,
-    "changedDefaultBranches": 4,
-    "updatedAssetProfiles": 8,
-    "unchangedAssetProfiles": 89,
-    "retainedNumericPriceRecords": 97,
+    "changedDefaultBranches": 2,
+    "openPullRequestsChecked": 29,
+    "updatedAssetProfiles": 2,
+    "unchangedAssetProfiles": 95,
+    "retainedNumericPriceRecords": 95,
     "softwareMaturityChanges": 0,
-    "monetaryChanges": 0,
+    "monetaryChanges": 2,
     "displayCount": 11,
-    "boundary": "Fresh source-head checks for all 97 assets and retained-evidence review for changed releases or development scopes. No fresh execution of all source repositories, independent price appraisal or production-service deployment is implied."
+    "boundary": "All 97 default-branch heads and all 29 open pull requests were checked. Changed source, retained exact-code validation and bounded development scope were reviewed. This is not a new execution of every repository test suite, independent appraisal or application deployment."
   },
-  "latestTargetedAssetReview": {
+  "latestIndividualPricing": {
+    "assessedAt": "2026-10-10T08:52:15Z",
+    "assetRefs": [
+      "TA-IP-022",
+      "TA-IP-013"
+    ],
+    "scope": "Incremental DARF and TrueLane Intelligence Engine software/evidence reassessment; other 95 monetary inputs retained."
+  },
+  "previousTargetedAssetReview": {
     "slug": "distributed-ai-resource-fabric",
     "ref": "TA-IP-022",
     "title": "Distributed AI Resource Fabric",
@@ -2134,11 +2143,42 @@
     "softwareMaturityChanged": false,
     "boundary": "DARF only: current source, retained exact-commit validation, rights, delivery conditions and seller-side economics. The other 96 asset assessments and monetary inputs retain their earlier dates and conclusions; portfolio totals are recomputed."
   },
-  "latestIndividualPricing": {
-    "assessedAt": "2026-10-10T00:48:36Z",
-    "assetRefs": [
-      "TA-IP-022"
+  "latestFinancialReassessment": {
+    "assessedAt": "2026-10-10T08:52:15Z",
+    "assetsReassessed": 97,
+    "monetaryReferencesChanged": 2,
+    "unchangedAssetPrices": 95,
+    "unchangedCommercialFactors": true,
+    "assets": [
+      {
+        "slug": "distributed-ai-resource-fabric",
+        "ref": "TA-IP-022",
+        "title": "Distributed AI Resource Fabric",
+        "assessedAt": "2026-10-10T08:52:15Z",
+        "previousSellerAskEUR": 395000,
+        "sellerAskEUR": 500000,
+        "previousReplacementCostEUR": 1100000,
+        "replacementCostEUR": 1400000,
+        "negotiationLowEUR": 390000,
+        "negotiationHighEUR": 630000,
+        "incrementalRecreationCostEUR": 300000,
+        "costAssumptionsDocument": "docs/PORTFOLIO_FINANCIAL_REASSESSMENT_2026-10-10.md"
+      },
+      {
+        "slug": "truelane-intelligence-engine",
+        "ref": "TA-IP-013",
+        "title": "TrueLane Intelligence Engine",
+        "assessedAt": "2026-10-10T08:52:15Z",
+        "previousSellerAskEUR": 255000,
+        "sellerAskEUR": 300000,
+        "previousReplacementCostEUR": 850000,
+        "replacementCostEUR": 1000000,
+        "negotiationLowEUR": 240000,
+        "negotiationHighEUR": 375000,
+        "incrementalRecreationCostEUR": 150000,
+        "costAssumptionsDocument": "docs/PORTFOLIO_FINANCIAL_REASSESSMENT_2026-10-10.md"
+      }
     ],
-    "scope": "DARF v0.15 present first-party software and retained qualification; other 96 asking references unchanged."
+    "boundary": "Current first-party work and explicitly identified committed development only. Existing maturity and price discounts are retained. Future qualification, third-party ownership, physical hardware, website repositories and speculative commercial outcomes are excluded."
   }
 }

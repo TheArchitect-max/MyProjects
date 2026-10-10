@@ -6,11 +6,11 @@ The collection contains **97 independent IP assets**, each with its own identity
 
 ## Public monetary evaluation — 10 October 2026
 
-- Published asking subtotal: **EUR 24,590,500**
-- Indicative negotiation range: **EUR 19,650,400–30,818,125**
-- Published engineering-equivalent recreation subtotal: **EUR 104,852,000**
-- Ask / recreation cost: **23.45%**
-- Indicative build-versus-buy spread: **EUR 80,261,500**
+- Published asking subtotal: **EUR 24,740,500**
+- Indicative negotiation range: **EUR 19,765,400–31,008,125**
+- Published engineering-equivalent recreation subtotal: **EUR 105,302,000**
+- Ask / recreation cost: **23.49%**
+- Indicative build-versus-buy spread: **EUR 80,561,500**
 
 EUR amounts are authoritative. USD values on the website are presentation-only conversions using a dated public exchange rate.
 
@@ -41,7 +41,7 @@ The website retains its public-domain / CC0 old-master visual references and cur
 <!-- DEVELOPMENT-REGISTER:START -->
 ## Development register
 
-The public site presents **97 independent IP assets**, each with its own rights and transfer perimeter. Compare individual asking prices, included scope and outstanding delivery conditions asset by asset. The complete evidence, rights, transfer, maturity and economic evaluation was updated on **9 October 2026**, against the previous 7 October baselines.
+The public site presents **97 independent IP assets**, each with its own rights and transfer perimeter. Compare individual asking prices, included scope and outstanding delivery conditions asset by asset. The complete evidence, rights, transfer, maturity and economic evaluation was updated on **10 October 2026**, against each preceding recorded source and financial baseline.
 
 Development capital is milestone-based: no project-specific funding amount is represented as validated until a defined scope, evidence baseline, use-of-funds budget and acceptance criteria exist. The GitHub Pages site is informational only and does not process investments, crowdfunding payments, users, sessions or financial transactions.
 <!-- DEVELOPMENT-REGISTER:END -->
@@ -63,7 +63,7 @@ The public collection, development register, assurance records and evaluations c
 <!-- FUTURE-ECONOMIC-REFERENCES:START -->
 ## Milestone-conditioned economic references
 
-The current 9 October evidence-bounded register covers **97 IP assets**. It contains **39 numeric conditional maturity references** and **58 NOT_ESTABLISHED records**. Every conditional amount is recalculated from the current asset inputs.
+The current 10 October evidence-bounded register covers **97 IP assets**. It contains **39 numeric conditional maturity references** and **58 NOT_ESTABLISHED records**. Every conditional amount is recalculated from the current asset inputs.
 
 A numeric reference is published only for an objective **R→P** or **P→V** maturity transition. The calculation reuses the published portfolio methodology and changes only the maturity-stage factor; replacement cost, commercial potential, sector and monetization route remain fixed. It is therefore a reproducible maturity sensitivity, not a forecast, seller ask, market value, investment return or guarantee.
 
@@ -73,7 +73,7 @@ Projects already at stage V receive no higher amount unless new attributable mar
 <!-- SELLER-READINESS:START -->
 ## Seller evidence & transaction readiness
 
-The **9 October** seller-side acquisition reassessment covers **all 97 IP assets** against current source snapshots and retained evidence. The five-axis Asset Assurance Matrix distinguishes default-branch software, unmerged development work, completed source-pinned validation and remaining handover conditions. Existing repository dossiers retain their original dates; the current authoritative evaluation is in the website registers.
+The **10 October** seller-side acquisition reassessment covers **all 97 IP assets** against current source snapshots and retained evidence. The five-axis Asset Assurance Matrix distinguishes default-branch software, unmerged development work, completed source-pinned validation and remaining handover conditions. Existing repository dossiers retain their original dates; the current authoritative evaluation is in the website registers.
 
 Current status:
 
@@ -117,21 +117,21 @@ Detailed transaction rights, disclosure schedules, representations and warrantie
 
 
 <!-- FULL-EVALUATION:START -->
-## Full catalogue review — 9 October 2026
+## Full catalogue and financial review — 10 October 2026
 
-Previous catalogue timestamp: **2026-10-09T06:22:41Z**. Full source/evidence review: **2026-10-09T10:15:23Z** (**12:15:23 CEST**).
+**Review timestamp:** 2026-10-10T08:52:15Z. Previous full portfolio source review: 2026-10-09T10:15:23Z; previous individual DARF financial review: 2026-10-10T00:48:36Z.
 
-All **97** independent IP assets were checked against their current default branches. **Eight** project assessments reflect newer release evidence, development scopes or documentation, and **89** conclusions are reconfirmed. No asset was removed or added, no software maturity classification changed, and all **97** individual monetary records retain their existing estimates. The directory now links **11** digital displays: VEGMPF and EGMERS were added, and the BIND-AI display moved to its new website repository. Website repositories remain excluded from the IP-asset count.
+All **97 independent IP assets** and all **29 open pull requests** were checked. **Two** project assessments and financial estimates are updated; **95** source/evidence conclusions and monetary estimates are reconfirmed. The same 97 asset identities and software maturity classifications are retained. Website repositories remain digital displays only.
 
-VEGMPF now shows the completed **v35.0.0** software release with retained 267/267 core and 3/3 validation-tool test results. BIND-AI v2.2, EGMERS v1.8, LEARNPIANO v16 and UVCD's latest local SaaS-related development scope remain separate, unmerged development candidates. Their validation and acceptance limits are stated individually. DARF, TrueLane Intelligence and Aurynthiq reflect their latest documentation changes. The portfolio review does not deploy any SaaS application, portal, billing service or payment integration.
+DARF (TA-IP-022) distinguishes main v0.19.0 from its unmerged v0.24.0 development scope. The latter has retained 375/375 exact-source software tests and one Tesla T4 qualification; physical multi-GPU model execution, two-host execution/recovery and live kernel containment remain unqualified. Its indicative ask is **EUR 500,000**, negotiation reference **EUR 390,000–630,000**, and recreation estimate **EUR 1,400,000**.
 
-The latest separate pricing assessment remains **2026-10-09T06:22:41Z**. LEARNPIANO (TA-IP-095) retains **EUR 180,000**, PLANTELOGIA Intelligence Platform (TA-IP-096) **EUR 50,000**, and Digital Twin Core (TA-IP-097) **EUR 500** for existing definition and acquisition documentation only. Compare these seller-side estimates with the disclosed scope and work-package budgets; future implementation and third-party rights are excluded. Version numbers, documentation changes and commit counts alone do not trigger a price increase.
+TrueLane Intelligence Engine (TA-IP-013) is updated to v5.7.0-alpha.1 with retained CUDA preference training, exact Google Drive checkpoint resume and independent CUDA distillation reproducibility on small first-party verification assets. General AI or larger-model quality is not established. Its indicative ask is **EUR 300,000**, negotiation reference **EUR 240,000–375,000**, and recreation estimate **EUR 1,000,000**.
 
-Authoritative full per-asset results: `assets/project-evaluations.json`.
+The additional engineering-equivalent budgets are EUR 300,000 for DARF and EUR 150,000 for TrueLane. Existing rates, commercial factors and price/recreation discounts are retained; asking references are rounded down to EUR 5,000. These are reproduction assumptions, not actual recorded expenditure. Future qualification, third-party assets and projected income are excluded.
+
+Review [the complete financial reassessment](docs/PORTFOLIO_FINANCIAL_REASSESSMENT_2026-10-10.md) for work-package assumptions, source-specific evidence and exclusions. Individual results are in `assets/project-evaluations.json` and the public arithmetic/integrity checks are on the Proof page.
+
+The three separately priced additions retain their existing asks: LEARNPIANO EUR 180,000; PLANTELOGIA Intelligence Platform EUR 50,000; Digital Twin Core EUR 500 for existing definition and acquisition documentation only.
+
+The directory retains **11** digital displays. The static catalogue update does not deploy an application, SaaS, user/session database, billing or payment service.
 <!-- FULL-EVALUATION:END -->
-
-## DARF v0.15 individual reassessment — 10 October 2026
-
-DARF (TA-IP-022, project reference Freya) is updated to v0.15.0 with retained 231/231 software-test and single-Tesla-T4 qualification. Its indicative ask is **EUR 395,000**, negotiation reference **EUR 310,000–495,000**, and recreation estimate **EUR 1,100,000**. The additional EUR 200,000 reproduction budget covers delivered work after the previous catalogue baseline; commercial factors and maturity remain unchanged. The other 96 asset prices and assessment dates are retained. Full portfolio source review remains dated 2026-10-09T10:15:23Z; this DARF-only review is dated **2026-10-10T00:48:36Z**.
-
-Review [the disclosed DARF financial assessment](docs/DARF_FINANCIAL_REASSESSMENT.md) for scope, budget assumptions, exact validation provenance and remaining delivery conditions. The new asking total is EUR 24,590,500 and recreation total EUR 104,852,000. No SaaS or application service is deployed by this catalogue update.

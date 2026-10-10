@@ -1,5 +1,8 @@
 # Distributed AI Resource Fabric — financial reassessment
 
+**Historical assessment at 2026-10-10T00:48:36Z. Superseded by the [current full-portfolio financial reassessment](PORTFOLIO_FINANCIAL_REASSESSMENT_2026-10-10.md): current DARF indicative ask EUR 500,000 and recreation estimate EUR 1,400,000. The figures below retain their historical meaning.**
+
+
 **Asset:** TA-IP-022  
 **Project reference:** Freya  
 **Assessment:** 10 October 2026, 00:48:36 UTC  

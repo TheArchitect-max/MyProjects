@@ -1,5 +1,5 @@
 {
-  "v": "2026.10.10-im53-darf-v015-financial-review",
+  "v": "2026.10.10-im54-full-portfolio-financial-review",
   "model": "Recreation-Cost-Anchored Seller Pricing with Reproducible Public Arithmetic",
   "status": "public-seller-side-economic-model",
   "portfolio": {
@@ -10,20 +10,20 @@
       "researchStage": 3,
       "definitionStage": 1
     },
-    "sellerAskEUR": 24590500,
-    "negotiationLowEUR": 19650400,
-    "negotiationHighEUR": 30818125,
-    "replacementCostEUR": 104852000,
-    "marketComparableProxyEUR": 119817680,
-    "incomeLicensingProxyEUR": 141411660,
-    "probabilityAdjustedStrategicValueEUR": 131886866,
-    "triangulatedEconomicReferenceEUR": 124619275,
-    "sellerAskAsShareOfTriangulated": 0.197325012523143,
-    "sellerAskAsShareOfReplacementCost": 0.23452580780528745,
+    "sellerAskEUR": 24740500,
+    "negotiationLowEUR": 19765400,
+    "negotiationHighEUR": 31008125,
+    "replacementCostEUR": 105302000,
+    "marketComparableProxyEUR": 120502430,
+    "incomeLicensingProxyEUR": 142294410,
+    "probabilityAdjustedStrategicValueEUR": 132875737,
+    "triangulatedEconomicReferenceEUR": 125391379,
+    "sellerAskAsShareOfTriangulated": 0.1973062278866875,
+    "sellerAskAsShareOfReplacementCost": 0.234948054168012,
     "pricedAssetCount": 97,
     "unpricedAssetCount": 0,
     "monetaryScope": "All 97 independently scoped IP assets. Digital Twin Core covers existing definition and acquisition documentation, not implemented software.",
-    "averageTriangulatedEconomicReferencePerPricedAsset": 1284734.793814433
+    "averageTriangulatedEconomicReferencePerPricedAsset": 1292694.6288659794
   },
   "confidence": {
     "replacementCost": "Primary seller-side build-versus-buy reference estimating the engineering-equivalent cost to recreate comparable present transferable work product. It is a seller estimate, not a certified cost audit or guaranteed buyer saving.",
@@ -35,7 +35,7 @@
   },
   "rebuildCostCalibration": {
     "basisDate": "2026-10-10",
-    "approach": "Estimate the engineering-equivalent cost to recreate present transferable first-party work. DARF v0.15 adds a separately disclosed incremental budget to its earlier EUR 900,000 estimate. The other 96 asset estimates retain their established budgets. Websites, third-party assets and future implementation remain excluded.",
+    "approach": "Recreate current first-party work using the retained engineering-equivalent rates. Add separately disclosed incremental DARF and TrueLane Intelligence Engine budgets to their immediately preceding estimates. The other 95 budgets and all commercial factors are retained.",
     "seniorEngineerMonthEUR": 18000,
     "leadOrSpecialistMonthEUR": 22000,
     "validationProvenanceMonthEUR": 16000,
@@ -44,7 +44,7 @@
     "successorPolicy": "Every catalogue project is treated as its own IP asset with its own first-party rights and transfer perimeter. Monetary estimates are established separately for each asset. Project websites are digital displays only.",
     "boundary": "Only present first-party software, research-software, validation, governance, packaging, documentation and handover work is costed. A definition-stage documentation estimate does not imply implemented software. Future hosting, market execution, speculative outcomes, unexecuted qualification and uncommitted implementation are excluded.",
     "previousBasisDate": "2026-10-07",
-    "assessedAt": "2026-10-10T00:48:36Z",
+    "assessedAt": "2026-10-10T08:52:15Z",
     "workPackageEstimates": [
       {
         "slug": "distributed-ai-resource-fabric",
@@ -183,12 +183,100 @@
           }
         ],
         "boundary": "Analyst-assumed engineering-equivalent reproduction budget at existing model rates; not recorded hours, elapsed build time, actual expenditure or an independent valuation."
+      },
+      {
+        "slug": "distributed-ai-resource-fabric",
+        "ref": "TA-IP-022",
+        "seniorEngineerMonths": 8,
+        "leadOrSpecialistMonths": 3,
+        "validationProvenanceMonths": 5,
+        "adoptedRecreationIncrementEUR": 300000,
+        "scope": "Delivered durable worker receipts and process supervision, bounded custody/launch safety and forensic review software, retained exact-source regression and single-device qualification, and supporting documentation. Committed v0.20–v0.24 development remains draft and unmerged.",
+        "workPackages": [
+          {
+            "scope": "Durable worker receipts, execution supervision and custody",
+            "seniorEngineerMonths": 3,
+            "leadOrSpecialistMonths": 1,
+            "validationProvenanceMonths": 1
+          },
+          {
+            "scope": "Bounded launch safety and custody-review software",
+            "seniorEngineerMonths": 5,
+            "leadOrSpecialistMonths": 2,
+            "validationProvenanceMonths": 2
+          },
+          {
+            "scope": "Retained regression, hardware evidence and review documentation",
+            "seniorEngineerMonths": 0,
+            "leadOrSpecialistMonths": 0,
+            "validationProvenanceMonths": 2
+          }
+        ],
+        "exclusions": [
+          "Future two-GPU oversized-model and two-host model execution",
+          "Unperformed live kernel containment and post-crash recovery",
+          "Future qualification-campaign execution, production hosting and hardware",
+          "Third-party runtimes, model weights and projected revenue"
+        ],
+        "basis": "Incremental delivered scope since the immediately preceding asset financial assessment",
+        "economicAssessmentAt": "2026-10-10T08:52:15Z",
+        "sourceHead": "ba3e5f7dbb8ec821c3e8d093429fb6717d18a1c1",
+        "validatedExecutableCommit": "d203d04a799b65c21c391650a7d4dfcea2f4cccf",
+        "previousRecreationCostEUR": 1100000,
+        "resultingRecreationCostEUR": 1400000,
+        "rawEngineeringCostEUR": 290000,
+        "withAllowanceEUR": 333500.0,
+        "boundary": "Assumed engineering-equivalent reproduction budget, not actual hours, payroll, expenditure, elapsed development time or an independently certified appraisal."
+      },
+      {
+        "slug": "truelane-intelligence-engine",
+        "ref": "TA-IP-013",
+        "seniorEngineerMonths": 4,
+        "leadOrSpecialistMonths": 1,
+        "validationProvenanceMonths": 3,
+        "adoptedRecreationIncrementEUR": 150000,
+        "scope": "Delivered first-party preference training and durable checkpoint/resume software, review assets, Colab verification and retained independent CUDA distillation evidence. Previously costed v5.6 distillation implementation is not counted again.",
+        "workPackages": [
+          {
+            "scope": "Reviewed preference-training workflow and first-party review assets",
+            "seniorEngineerMonths": 3,
+            "leadOrSpecialistMonths": 1,
+            "validationProvenanceMonths": 1
+          },
+          {
+            "scope": "Durable checkpoint restore and identity checks",
+            "seniorEngineerMonths": 1,
+            "leadOrSpecialistMonths": 0,
+            "validationProvenanceMonths": 1
+          },
+          {
+            "scope": "Retained CUDA qualification, reproducibility and documentation",
+            "seniorEngineerMonths": 0,
+            "leadOrSpecialistMonths": 0,
+            "validationProvenanceMonths": 1
+          }
+        ],
+        "exclusions": [
+          "Future large-model or frontier capability",
+          "Prior v5.6 distillation implementation already included in the baseline",
+          "Third-party frameworks, Google Drive service ownership and external model/data rights",
+          "Production hosting, contracted revenue and unperformed qualification"
+        ],
+        "basis": "Incremental delivered scope since the immediately preceding asset financial assessment",
+        "economicAssessmentAt": "2026-10-10T08:52:15Z",
+        "sourceHead": "a5d14ddbcb44fd3c94d125af57aba3254b22abbe",
+        "validatedExecutableCommit": "e35e8ffde8cc87cc322dbbc83d01d67e11e3d4b4",
+        "previousRecreationCostEUR": 850000,
+        "resultingRecreationCostEUR": 1000000,
+        "rawEngineeringCostEUR": 142000,
+        "withAllowanceEUR": 163300.0,
+        "boundary": "Assumed engineering-equivalent reproduction budget, not actual hours, payroll, expenditure, elapsed development time or an independently certified appraisal."
       }
     ],
     "estimateBoundary": "Engineer-month budgets are seller-side engineering-equivalent estimates for reproducing delivered work, not recorded payroll, elapsed development time, certified costs or a market appraisal.",
     "latestSeparateAssetPricingAt": "2026-10-09T06:22:41Z",
-    "latestReviewBoundary": "The 10 October reassessment changes DARF only. Its delivered v0.11–v0.15 software and retained validation are costed; prior work is not recosted. No new verified revenue, external transaction or independent appraisal is established.",
-    "latestIndividualAssetPricingAt": "2026-10-10T00:48:36Z",
+    "latestReviewBoundary": "Current first-party work and explicitly identified committed development only. Existing maturity and price discounts are retained. Future qualification, third-party ownership, physical hardware, website repositories and speculative commercial outcomes are excluded.",
+    "latestIndividualAssetPricingAt": "2026-10-10T08:52:15Z",
     "previousAssessedAt": "2026-10-09T05:36:00Z"
   },
   "factors": {
@@ -339,17 +427,23 @@
     ],
     "commercialEvidence": "No new attributable income, external transaction or independent appraisal evidence identified; commercial-potential and monetization-route factors are retained for existing assets.",
     "latestSeparateAssetPricingAt": "2026-10-09T06:22:41Z",
-    "latestTargetedAssetPricing": {
-      "assessedAt": "2026-10-10T00:48:36Z",
-      "ref": "TA-IP-022",
-      "previousRecreationCostEUR": 900000,
-      "currentRecreationCostEUR": 1100000,
-      "priorAskShareOfRecreation": 0.3611111111111111,
-      "priorLowShareOfRecreation": 0.2833333333333333,
-      "priorHighShareOfRecreation": 0.45,
+    "latestIncrementalPricing": {
+      "assessedAt": "2026-10-10T08:52:15Z",
       "roundingEUR": 5000,
       "roundingDirection": "down",
-      "other96AssetPrices": "unchanged",
+      "assets": [
+        {
+          "slug": "distributed-ai-resource-fabric",
+          "priorAskShareOfRecreation": 0.35909090909090907,
+          "currentAskShareOfRecreation": 0.35714285714285715
+        },
+        {
+          "slug": "truelane-intelligence-engine",
+          "priorAskShareOfRecreation": 0.3,
+          "currentAskShareOfRecreation": 0.3
+        }
+      ],
+      "unchangedAssetPrices": 95,
       "commercialPremiumAdded": false
     }
   },
@@ -376,19 +470,20 @@
     }
   ],
   "latestSourceReview": {
-    "checkedAt": "2026-10-09T10:15:23Z",
-    "previousCatalogueUpdatedAt": "2026-10-09T06:22:41Z",
+    "checkedAt": "2026-10-10T08:52:15Z",
+    "previousCatalogueUpdatedAt": "2026-10-10T00:48:36Z",
     "defaultBranchesChecked": 97,
-    "changedDefaultBranches": 4,
-    "updatedAssetProfiles": 8,
-    "unchangedAssetProfiles": 89,
-    "retainedNumericPriceRecords": 97,
+    "changedDefaultBranches": 2,
+    "openPullRequestsChecked": 29,
+    "updatedAssetProfiles": 2,
+    "unchangedAssetProfiles": 95,
+    "retainedNumericPriceRecords": 95,
     "softwareMaturityChanges": 0,
-    "monetaryChanges": 0,
+    "monetaryChanges": 2,
     "displayCount": 11,
-    "boundary": "Fresh source-head checks for all 97 assets and retained-evidence review for changed releases or development scopes. No fresh execution of all source repositories, independent price appraisal or production-service deployment is implied."
+    "boundary": "All 97 default-branch heads and all 29 open pull requests were checked. Changed source, retained exact-code validation and bounded development scope were reviewed. This is not a new execution of every repository test suite, independent appraisal or application deployment."
   },
-  "latestTargetedAssetReview": {
+  "previousTargetedAssetReview": {
     "slug": "distributed-ai-resource-fabric",
     "ref": "TA-IP-022",
     "title": "Distributed AI Resource Fabric",
@@ -409,5 +504,43 @@
     "unchangedCommercialFactors": true,
     "softwareMaturityChanged": false,
     "boundary": "DARF only: current source, retained exact-commit validation, rights, delivery conditions and seller-side economics. The other 96 asset assessments and monetary inputs retain their earlier dates and conclusions; portfolio totals are recomputed."
+  },
+  "latestFinancialReassessment": {
+    "assessedAt": "2026-10-10T08:52:15Z",
+    "assetsReassessed": 97,
+    "monetaryReferencesChanged": 2,
+    "unchangedAssetPrices": 95,
+    "unchangedCommercialFactors": true,
+    "assets": [
+      {
+        "slug": "distributed-ai-resource-fabric",
+        "ref": "TA-IP-022",
+        "title": "Distributed AI Resource Fabric",
+        "assessedAt": "2026-10-10T08:52:15Z",
+        "previousSellerAskEUR": 395000,
+        "sellerAskEUR": 500000,
+        "previousReplacementCostEUR": 1100000,
+        "replacementCostEUR": 1400000,
+        "negotiationLowEUR": 390000,
+        "negotiationHighEUR": 630000,
+        "incrementalRecreationCostEUR": 300000,
+        "costAssumptionsDocument": "docs/PORTFOLIO_FINANCIAL_REASSESSMENT_2026-10-10.md"
+      },
+      {
+        "slug": "truelane-intelligence-engine",
+        "ref": "TA-IP-013",
+        "title": "TrueLane Intelligence Engine",
+        "assessedAt": "2026-10-10T08:52:15Z",
+        "previousSellerAskEUR": 255000,
+        "sellerAskEUR": 300000,
+        "previousReplacementCostEUR": 850000,
+        "replacementCostEUR": 1000000,
+        "negotiationLowEUR": 240000,
+        "negotiationHighEUR": 375000,
+        "incrementalRecreationCostEUR": 150000,
+        "costAssumptionsDocument": "docs/PORTFOLIO_FINANCIAL_REASSESSMENT_2026-10-10.md"
+      }
+    ],
+    "boundary": "Current first-party work and explicitly identified committed development only. Existing maturity and price discounts are retained. Future qualification, third-party ownership, physical hardware, website repositories and speculative commercial outcomes are excluded."
   }
 }

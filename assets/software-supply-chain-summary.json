@@ -1,6 +1,6 @@
 {
-  "version": "2026.10.10-im53-darf-v015-financial-review",
-  "basisDate": "2026-10-09",
+  "version": "2026.10.10-im54-full-portfolio-financial-review",
+  "basisDate": "2026-10-10",
   "status": "SELLER_SIDE_REPOSITORY_EVIDENCE_SUMMARY",
   "boundary": "This is a portfolio-level SBOM/licensing summary derived from repository evidence. It does not claim a complete component-level SBOM where no SBOM file exists.",
   "summary": {
@@ -19,7 +19,7 @@
       "slug": "athanor",
       "identityName": "Elara",
       "baselineCommit": "45242d61ee6d65983cc12e1d3d305d93aee3eac3",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -37,14 +37,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-002",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Adaptive-Audio-MIDI-Transcription-Studio",
       "slug": "adaptive-audio-midi-transcription-studio",
       "identityName": "Aria",
       "baselineCommit": "0b0344041d320a629dbfcf6fc7d8f4bd3b8ee2b7",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "requirements-dev.txt",
         "requirements.txt"
@@ -60,14 +60,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "NOT_ESTABLISHED",
       "ref": "TA-IP-085",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Adaptive-Audio-Production-System",
       "slug": "adaptive-audio-production-system",
       "identityName": "Melody",
       "baselineCommit": "0827f14509e9b32ffda377250090dff18a12b81b",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -85,14 +85,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-060",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Adaptive-Audio-Synthesis-Platform",
       "slug": "adaptive-audio-synthesis-platform",
       "identityName": "Cadence",
       "baselineCommit": "b5efadc8150c4c22e37fa5e879cdc16877804a6a",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [],
       "lockfiles": [],
       "existingSbomFiles": [],
@@ -112,14 +112,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-069",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Adaptive-Biofeedback-Engine",
       "slug": "adaptive-biofeedback-engine",
       "identityName": "Serena",
       "baselineCommit": "fb753605e21473f47edb03cd8bed0bbab36f4c7e",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "package.json",
         "requirements-dev.txt"
@@ -141,14 +141,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-048",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Adaptive-Cognitive-Runtime",
       "slug": "adaptive-cognitive-runtime",
       "identityName": "Sophia",
       "baselineCommit": "da610532feebcb86316021594eed472c38960290",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -167,14 +167,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-070",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Adaptive-General-Reasoning-Research-Platform",
       "slug": "adaptive-general-reasoning-research-platform",
       "identityName": "Athena",
       "baselineCommit": "2cd2a288cfda4108399ed27dad68673b4172fd2a",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "research/v1.49.0/pyproject.toml",
         "research/v1.50.0/pyproject.toml",
@@ -196,14 +196,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-064",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Adaptive-Neural-Architecture-Platform",
       "slug": "adaptive-neural-architecture-platform",
       "identityName": "Ada",
       "baselineCommit": "2869dffab51498363c095a4529da2cf6356d461a",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -222,14 +222,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-076",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Adaptive-Systems-Intelligence-Platform",
       "slug": "plantelogia-intelligence-platform",
       "identityName": "Nadia",
       "baselineCommit": "c3e7cc84207c1e72b691fd82e7bd2580eb28d5ba",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -250,14 +250,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-083",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Advanced-Ground-Vehicle-Engineering",
       "slug": "advanced-ground-vehicle-engineering",
       "identityName": "Petra",
       "baselineCommit": "33baadbc08a7391c5391e4aaa2b062d2fb012c81",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [],
       "lockfiles": [],
       "existingSbomFiles": [],
@@ -272,14 +272,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-034",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Aerospace-Mission-Simulator",
       "slug": "aerospace-mission-simulator",
       "identityName": "Celeste",
       "baselineCommit": "2c47096a6004c9b25eec50f91e065cf9284aa7ec",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -296,14 +296,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-030",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Aletheia-Intelligence-Fabric---Distributed-Evidence-Entity-Intelligence-Platform",
       "slug": "aletheia-intelligence-fabric",
       "identityName": "Alina",
       "baselineCommit": "a2b67000d3e2dea736193c66623a22020ad3a9e3",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "package.json"
       ],
@@ -331,14 +331,14 @@
       ],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-049",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Autonomous-Adaptation-Framework",
       "slug": "autonomous-adaptation-framework",
       "identityName": "Nora",
       "baselineCommit": "226bfb228226bb64146e87b55950552a7b9f5dd5",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "aaf_rust/Cargo.toml",
         "wasm_frontend/package.json"
@@ -360,14 +360,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-027",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Autonomous-Documentary-Engine",
       "slug": "autonomous-documentary-engine",
       "identityName": "Clara",
       "baselineCommit": "115006fbf66d4bbe9368560e57f30852ad016e1c",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "apps/web/package.json",
         "apps/worker/package.json",
@@ -409,14 +409,14 @@
       ],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-055",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "AxiomFactor",
       "slug": "axiomfactor",
       "identityName": "Hypatia",
       "baselineCommit": "3ed23766e21e49567d3abae6ca2e9b68e6ab5958",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -433,14 +433,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-042",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Bio-Inspired-Neural-Dynamics-Active-Inference-Simulation-Platform",
       "slug": "bio-inspired-neural-dynamics-active-inference-simulation-platform",
       "identityName": "Iona",
       "baselineCommit": "42128e9168e0ff955c5adeebad01e5baece82ecd",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -457,14 +457,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-077",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Biometric-Systems-Assurance-Platform",
       "slug": "biometric-systems-assurance-platform",
       "identityName": "Iris",
       "baselineCommit": "762ae11013ce5547ee75ecd126e2f7d4c71da46c",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -490,14 +490,14 @@
       ],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-035",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "CardioSignal-Intelligence-Platform",
       "slug": "cardiosignal-intelligence-platform",
       "identityName": "Cora",
       "baselineCommit": "945603c2595f4db63a87bac26b8850248ad91f2b",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -512,14 +512,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-078",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Causal-State-Field-Engine",
       "slug": "causal-state-field-engine",
       "identityName": "Maya",
       "baselineCommit": "cd4d51f5ad458b6a99cc67e6c56570a7457f71df",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -537,14 +537,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-061",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Chimera-Spectral-Perception-System",
       "slug": "chimera-spectral-perception-system",
       "identityName": "Selene",
       "baselineCommit": "146d0074a9bd65df9e2cd85eb6539c55638335d7",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -559,14 +559,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-067",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Cipher-Lyric-Engine",
       "slug": "cipher-lyric-engine",
       "identityName": "Livia",
       "baselineCommit": "914744cfa0d644b34fadee3b88f1795ecbf5c966",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -583,14 +583,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-021",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "CipherRouteDB",
       "slug": "cipherroutedb",
       "identityName": "Vera",
       "baselineCommit": "175e0a9d0de6e7e636c34f78b3e4adbe889f1ef1",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [],
       "lockfiles": [],
       "existingSbomFiles": [],
@@ -607,14 +607,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-041",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Content-Integrity-Assurance-Platform",
       "slug": "content-integrity-assurance-platform",
       "identityName": "Verena",
       "baselineCommit": "ed1cb490304c97eb078bc8291adda194b01adb94",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -634,14 +634,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-071",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Continuum-State-Integrity-Platform",
       "slug": "continuum-state-integrity-platform",
       "identityName": "Elena",
       "baselineCommit": "779fddae41026d4df683304f073f9d8fa244048e",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [],
       "lockfiles": [],
       "existingSbomFiles": [],
@@ -658,14 +658,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-004",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Custody-Integrity-Assurance-Platform",
       "slug": "custody-integrity-assurance-platform",
       "identityName": "Justine",
       "baselineCommit": "d6522a06ba9c1bb291ff76f42fa7bdfde25d07ed",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [],
       "lockfiles": [],
       "existingSbomFiles": [],
@@ -686,14 +686,14 @@
       ],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-009",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "DMT-Laser-Phenomenology-Engine",
       "slug": "dmt-laser-phenomenology-engine",
       "identityName": "Aurora",
       "baselineCommit": "ba4e0db8e7b81146aa8e4ba9211b30e5ca5acb6b",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -710,13 +710,13 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-023",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Distributed-AI-Resource-Fabric",
       "slug": "distributed-ai-resource-fabric",
       "identityName": "Freya",
-      "baselineCommit": "2c4e07efa560633eec9efe24a2c82146f48b118d",
+      "baselineCommit": "ba3e5f7dbb8ec821c3e8d093429fb6717d18a1c1",
       "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
@@ -732,14 +732,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-022",
-      "sourceRecheckedAt": "2026-10-10T00:48:36Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Distributed-Compute-Fabric",
       "slug": "distributed-compute-fabric",
       "identityName": "Ingrid",
       "baselineCommit": "7810d2175bac7adc8ac4232d21dd6efbcf5bf198",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -759,14 +759,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-082",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Dominus-Kraken-Execution-Engine",
       "slug": "dominus-kraken-execution-engine",
       "identityName": "Mara",
       "baselineCommit": "272798957490e6d6d4b13f50348a0837f1680860",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml",
         "requirements.txt",
@@ -787,14 +787,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-026",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Electric-Flight-Systems-Simulation-Validation-Platform",
       "slug": "electric-flight-systems-simulation-validation-platform",
       "identityName": "Amelia",
       "baselineCommit": "51689e41e447f8a9ccebc8c0a2ea78b56dccf124",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -811,14 +811,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-032",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Engineering-Intelligence-Mastery-Platform",
       "slug": "truelane-engineering-excellence",
       "identityName": "Minerva",
       "baselineCommit": "a4f390b15abcadc01057162f08df3ad32667bb8f",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "package.json"
       ],
@@ -835,14 +835,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-036",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Evidence-Governed-Analytical-Reasoning-Platform",
       "slug": "evidence-governed-analytical-reasoning-platform",
       "identityName": "Thea",
       "baselineCommit": "77b3b1c153253a22359032ad5280cb079888bbca",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -863,14 +863,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-062",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Evidence-Governed-Software-Assurance-Platform",
       "slug": "evidence-governed-software-assurance-platform",
       "identityName": "Grace",
       "baselineCommit": "5e72ef1971367fa28d5d9818ba13db17eacc142e",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -894,14 +894,14 @@
       ],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-039",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Evidence-Governed-Visual-Intelligence-Platform",
       "slug": "evidence-governed-visual-intelligence-platform",
       "identityName": "Helena",
       "baselineCommit": "b99e5047c59eacd229f1807de989236d1ffcea73",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -921,14 +921,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-012",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Evidence-Grounded-Multi-Expert-Reasoning-System",
       "slug": "evidence-grounded-multi-expert-reasoning-system",
       "identityName": "Eleanor",
       "baselineCommit": "8c4351b8f57a49e90bad8c314eaab2cee228e3c8",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -945,14 +945,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-053",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Faunometric-Bioacoustic-Intelligence-Platform",
       "slug": "faunometric",
       "identityName": "Fauna",
       "baselineCommit": "5136f71fb47e518c4746aabd493acf0e0640ef00",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "requirements-colab.txt",
         "requirements.txt"
@@ -973,14 +973,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-006",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "FusionLunar-Energy-Systems-Engineering-Platform",
       "slug": "fusionlunar-energy-systems-engineering-platform",
       "identityName": "Luna",
       "baselineCommit": "927e6f0a9fa9e42e8a6a81003a46dcbf50709300",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -999,14 +999,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-057",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "GoldenNet-Signal-Intelligence-Platform",
       "slug": "goldennet-signal-intelligence-platform",
       "identityName": "Aurelia",
       "baselineCommit": "d644b87d1d0278cbf7d84a20d8071ae4030605d2",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml",
         "requirements-signing.txt",
@@ -1027,14 +1027,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-054",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "H-RM-LYRA-Automotive-LYRA-RS-3.6T",
       "slug": "h-rm-lyra-automotive-lyra-rs-3-6t",
       "identityName": "Lydia",
       "baselineCommit": "65fdf8c6c88b2cd00a3257a811d413d7bdc11bc7",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -1051,14 +1051,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-090",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "High-Speed-Air-to-Water-Transition-Vehicle",
       "slug": "air-to-water-transition-vehicle",
       "identityName": "Marina",
       "baselineCommit": "51697347299d306be7d161c86269bbbd378e2a37",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "MASTER/requirements.txt"
       ],
@@ -1075,14 +1075,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-017",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Hybrid-Adaptive-Rendering-Media",
       "slug": "hybrid-adaptive-rendering-media",
       "identityName": "Nova",
       "baselineCommit": "9d8444c05691f706bb622339e796b1b0e74a3f6d",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -1102,14 +1102,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-068",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "ISBR-SecureTrace",
       "slug": "isbr-securetrace",
       "identityName": "Noelle",
       "baselineCommit": "fd60ef0bf79c5cd490319989a69e071ebbb18ea7",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -1130,14 +1130,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-044",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Industrial-Predictive-Maintenance-RUL-Platform",
       "slug": "industrial-predictive-maintenance-rul-platform",
       "identityName": "Rhea",
       "baselineCommit": "fdba8ab499098daf626191ef75605a172f424245",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -1157,14 +1157,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-059",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Integrated-Media-Production-Engine",
       "slug": "integrated-media-production-engine",
       "identityName": "Mira",
       "baselineCommit": "c72ab4961955b81c0932e16fcd3e94a5f943d894",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -1192,14 +1192,14 @@
       ],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-038",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Interactive-Piano-Learning-Platform",
       "slug": "interactive-piano-learning-platform",
       "identityName": "Allegra",
       "baselineCommit": "7b40cbc8527dcc45a5d13495f829264b86361580",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "package.json",
         "tools/mp3-midi-track-studio/pyproject.toml",
@@ -1220,14 +1220,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-084",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Kinetic-Logic-Reconstructor",
       "slug": "kinetic-logic-reconstructor",
       "identityName": "Keira",
       "baselineCommit": "2e8d7fbd77c8b8f1f36de6a5a90734fea5c0ef76",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -1250,14 +1250,14 @@
       ],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-047",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "LYRA-AERO-eVTOL",
       "slug": "lyra-aero-evtol",
       "identityName": "Lucia",
       "baselineCommit": "408042cac2c144177b91af653cfaecf2d240424b",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -1274,14 +1274,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-091",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "LatticeDepth-Subsurface-Materials-Evidence-Qualification-Platform",
       "slug": "latticedepth",
       "identityName": "Gaia",
       "baselineCommit": "81090d0356850c932436ceb8d692b812aa55ba25",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "examples/release_v011/pyproject.toml",
         "pyproject.toml"
@@ -1311,14 +1311,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-043",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "LegalOps-NL",
       "slug": "legalops-nl",
       "identityName": "Julia",
       "baselineCommit": "213e3f7a705659f96db0f4d85c71f5ea09e828d2",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [],
       "lockfiles": [],
       "existingSbomFiles": [],
@@ -1333,14 +1333,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-033",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "MOTHERCODE-Research-Engine",
       "slug": "mothercode-research-engine",
       "identityName": "Eve",
       "baselineCommit": "b085a224a484c84be1302959cb37638db66d0b4c",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "requirements.txt"
       ],
@@ -1355,14 +1355,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-037",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "MT2050-Experimental-Dynamics",
       "slug": "mt2050-experimental-dynamics",
       "identityName": "Valentina",
       "baselineCommit": "64cda01db464c445dbc464ef359ef06e2984aba4",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -1379,14 +1379,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-031",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Maastricht-Digital-Twin",
       "slug": "maastricht-digital-twin",
       "identityName": "Mila",
       "baselineCommit": "a5e48a80a70b3171d7a20c310f21df1f192011a3",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -1406,14 +1406,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-088",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Maastricht-Zero-Hour-Simulator",
       "slug": "maastricht-zero-hour-simulator",
       "identityName": "Eva",
       "baselineCommit": "74c4cd23d800e677db32981a5c37784979d42561",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [],
       "lockfiles": [],
       "existingSbomFiles": [],
@@ -1424,14 +1424,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "NOT_ESTABLISHED",
       "ref": "TA-IP-089",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Machine-Cognition-Research-Framework",
       "slug": "machine-cognition-research-framework",
       "identityName": "Noa",
       "baselineCommit": "8cb56a1a8e52f9c82f6471eab888662561dbc935",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -1448,14 +1448,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-020",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Mercorion-Commerce-Compiler",
       "slug": "mercorion-commerce-compiler",
       "identityName": "Mercia",
       "baselineCommit": "4090d0dc2e50848fe7b5110c09dc34ba9417c1df",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml",
         "requirements.txt"
@@ -1478,14 +1478,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-045",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "ModularKey-Cryptanalysis-Platform",
       "slug": "modular-key-cryptanalysis-platform",
       "identityName": "Alice",
       "baselineCommit": "7ae56e61201919545217900bf98ebca28f464107",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml",
         "setup.py"
@@ -1503,14 +1503,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-007",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Multimodal-Evidence-Adaptive-Systems-Platform",
       "slug": "multimodal-evidence-adaptive-systems-platform",
       "identityName": "Lena",
       "baselineCommit": "3c6664d07311be71afa29632103755e10e843d13",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -1527,14 +1527,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-056",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "ORACULUM-INFINITUM",
       "slug": "oraculum-infinitum",
       "identityName": "Sibyl",
       "baselineCommit": "c0cb8b4595593d84c783d03a3bf0d10cef114050",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -1556,14 +1556,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-040",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "OSSN-UAP",
       "slug": "ossn-uap",
       "identityName": "Stella",
       "baselineCommit": "d43cf19d3b12ba6452f945aab1a5ea64deac7901",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "ossn-uap-v0.1.0/ossn-uap/scripts/python/requirements.txt"
       ],
@@ -1583,14 +1583,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-001",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Organismal-State-Dynamics-Research-Platform",
       "slug": "organismal-state-dynamics-research-platform",
       "identityName": "Daphne",
       "baselineCommit": "60ce881d9b23f0d2e0a34952566212f402e9cb91",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -1613,14 +1613,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-066",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Organizational-Memory-Engine",
       "slug": "organizational-memory-engine",
       "identityName": "Mnemosyne",
       "baselineCommit": "7756e95c726b2564eb170cbb038ae42ac4d55889",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml",
         "requirements.txt"
@@ -1641,14 +1641,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-019",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Programmatic-Search-Fabric",
       "slug": "programmatic-search-fabric",
       "identityName": "Sasha",
       "baselineCommit": "17b5715602cbe013aeadfe075012a5100cca2208",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "package.json"
       ],
@@ -1666,14 +1666,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-014",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Protein-Structure-Evidence-Qualification-Platform",
       "slug": "protein-structure-evidence-qualification-platform",
       "identityName": "Rosalind",
       "baselineCommit": "df7a4b0a01ef3c07d0be972a32b0fecb03c1b9b0",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "requirements-ci.txt"
       ],
@@ -1690,14 +1690,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-015",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "QUBO-Structural-Analysis-and-Optimization-Platform",
       "slug": "qubo-structural-analysis-and-optimization-platform",
       "identityName": "Emmy",
       "baselineCommit": "c027b2a8f54f317339cd419e2057ea6247bf65c7",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -1712,14 +1712,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-075",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Radioastronomy-Signal-Validation-Platform",
       "slug": "radioastronomy-signal-validation-platform",
       "identityName": "Jocelyn",
       "baselineCommit": "7b3b905b05dd85b8bbc8a72bce61897caca67ad3",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml",
         "requirements-barycentric.txt",
@@ -1745,14 +1745,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-072",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Research-Intelligence-Fabric.",
       "slug": "research-intelligence-fabric",
       "identityName": "Dorothy",
       "baselineCommit": "f6d0c94233ba0060ef0e26ba9dda21f2e205e4ba",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -1771,14 +1771,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-011",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "ReserveFlow-SaaS-Platform",
       "slug": "reserveflow-saas-platform",
       "identityName": "Olivia",
       "baselineCommit": "49ae1b21bb911d847fa14966ce3f0d9909b201cd",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "package.json"
       ],
@@ -1798,14 +1798,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "NOT_ESTABLISHED",
       "ref": "TA-IP-086",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Resource-Aware-Hybrid-Model-Orchestration-Platform",
       "slug": "resource-aware-hybrid-model-orchestration-platform",
       "identityName": "Mia",
       "baselineCommit": "2adda46f52a8abf666dcc33c6c170a345ee5cdb5",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -1820,14 +1820,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-028",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "SWPP-VIORITH-Mobile-Camera-Overlay-",
       "slug": "swpp-viorith-mobile-camera-overlay",
       "identityName": "Violet",
       "baselineCommit": "de02892ac9ed9cbd27adc0f1ec4ecbf92896ea34",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -1845,14 +1845,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-081",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Secure-Actuation-Integrity-Platform",
       "slug": "secure-actuation-integrity-platform",
       "identityName": "Valeria",
       "baselineCommit": "e4025683523b70281f349b0c6845224bb4b0269a",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -1875,14 +1875,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-079",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Sensor-Fusion-Digital-Twin-Engine",
       "slug": "sensor-fusion-digital-twin-engine",
       "identityName": "Artemis",
       "baselineCommit": "18bfbb95f3369630f680503de7139cf9ea150bb9",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -1899,14 +1899,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-025",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Signal-Processing-Universal-Framework",
       "slug": "signal-processing-universal-framework",
       "identityName": "Shannon",
       "baselineCommit": "8a115c904955797155b6463fd2cda415899223d3",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -1923,14 +1923,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-016",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Software-Asset-Provenance-Qualification-Platform",
       "slug": "software-asset-provenance-qualification-platform",
       "identityName": "Beatrice",
       "baselineCommit": "416dee23d53ea2e25223d6bf5ff8302a5ffc7eb3",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -1956,14 +1956,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-063",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "SonicFabric",
       "slug": "sonicfabric",
       "identityName": "Harmonia",
       "baselineCommit": "cdfc7df5dba46500fb9ed00d7c1476431d9a679d",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -1982,14 +1982,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-046",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "SourceVector-Intelligence-Platform",
       "slug": "omnisynth-intelligence-engine",
       "identityName": "Sophie",
       "baselineCommit": "620213d30f3aa50120a29693d6871eb932bf4251",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -2006,14 +2006,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-005",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Spatial-Wearable-Perception-Platform",
       "slug": "spatial-wearable-perception-platform",
       "identityName": "Skye",
       "baselineCommit": "649722bf3073957316966130ad2e21de6f8924d6",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -2031,14 +2031,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-073",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "StabilityMesh-Adaptive-Resilience-Control-for-Distributed-Systems",
       "slug": "stabilitymesh",
       "identityName": "Ariadne",
       "baselineCommit": "6a6e04b1db4a7c641a1de99671780fc22ccf9aaf",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -2057,14 +2057,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-003",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "TLS-Virtual-1",
       "slug": "tls-virtual",
       "identityName": "Talia",
       "baselineCommit": "2192bafec863eec3601bc396bf55a56bb61c10cc",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "TrueLaneStudio_Complete_Handoff/01_Software/TLS-VIRTUAL-V1/pyproject.toml",
         "TrueLaneStudio_Complete_Handoff/01_Software/TLS-VIRTUAL-V1/requirements-dev.txt",
@@ -2085,14 +2085,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-010",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Telluric-Actualization-Research-Platform",
       "slug": "telluric-actualization-research-platform",
       "identityName": "Terra",
       "baselineCommit": "d9b2afa9108e57500315bb890c044060176f2e16",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -2105,14 +2105,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "NOT_ESTABLISHED",
       "ref": "TA-IP-074",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Temporal-Physics-Causality-Research-Platform",
       "slug": "temporal-physics-causality-research-platform",
       "identityName": "Eleni",
       "baselineCommit": "1bc82c487ffe0271dc09385a11ce747ad42b8b64",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -2130,14 +2130,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-058",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "TraceLine-Evidence-Governed-Investigation-Framework",
       "slug": "traceline-evidence-governed-investigation-framework",
       "identityName": "Clio",
       "baselineCommit": "811388b926e0a0916cfd6634b98f886bc3003050",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -2156,14 +2156,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-065",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "TrueLane-Flora",
       "slug": "truelane-flora",
       "identityName": "Florence",
       "baselineCommit": "c773b1dda3b28d773ac055d20572d5cd03f78215",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "truelane-flora/truelane-flora/go.mod"
       ],
@@ -2187,14 +2187,14 @@
       ],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-008",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "TrueLane-InkCore",
       "slug": "truelane-inkcore",
       "identityName": "Ines",
       "baselineCommit": "5d2f5d39bdaea62f5d274b043107cf32fd89a439",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "go.mod",
         "requirements.txt"
@@ -2214,14 +2214,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-050",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "TrueLane-Intelligence-Engine",
       "slug": "truelane-intelligence-engine",
       "identityName": "Thalia",
-      "baselineCommit": "4bf0b28b6fa8a83da90b44d17bfe721af7c1a02b",
-      "assessmentDate": "2026-10-09",
+      "baselineCommit": "a5d14ddbcb44fd3c94d125af57aba3254b22abbe",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "requirements-integrations.txt",
         "requirements-ml.txt",
@@ -2242,14 +2242,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-013",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "TrueLane-Studio-Apex-Architect",
       "slug": "truelane-studio-apex-architect",
       "identityName": "Ava",
       "baselineCommit": "3868e277ea6a637cbc7b3a4543ead388ee438b29",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -2266,14 +2266,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-080",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Universal-Capability-Synthesis-Engine",
       "slug": "universal-capability-synthesis-engine",
       "identityName": "Ursula",
       "baselineCommit": "b8148150e0803e23a268bd830bfb2d713a982144",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -2293,14 +2293,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-092",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Universal-Kernel-Machine",
       "slug": "universal-kernel-machine",
       "identityName": "Kira",
       "baselineCommit": "a7351d51ae6ed0baba091d7aee4f1939007fc7fd",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml",
         "requirements-repro.txt"
@@ -2318,14 +2318,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-024",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "VellumGrid-Autonomous-Commerce-Platform",
       "slug": "vellumgrid-autonomous-commerce-platform",
       "identityName": "Vivienne",
       "baselineCommit": "c51a06eeb7543e98433b2341bdff230a68655757",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -2340,14 +2340,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-087",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Verifiable-Execution-Control-Platform",
       "slug": "verifiable-execution-control-platform",
       "identityName": "Victoria",
       "baselineCommit": "fd959ee476a0c2bc85803c7070207faf050e800c",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "edge/Cargo.toml",
         "go.mod"
@@ -2373,14 +2373,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-018",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Veritas-Evidence-Intelligence",
       "slug": "veritas-evidence-intelligence",
       "identityName": "Verity",
       "baselineCommit": "d049cc3388cc8c74cc229bfcec1dd37d731d9597",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -2397,14 +2397,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-029",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Vision-Evidence-Governed-Multimodal-Perception-Framework",
       "slug": "vision-evidence-governed-multimodal-perception-framework",
       "identityName": "Viola",
       "baselineCommit": "c1e9d6ee4931cc3898aebe0753fc9979f2762223",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -2421,14 +2421,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-052",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Visionair-Research-Engine",
       "slug": "visionair-research-engine",
       "identityName": "Vivian",
       "baselineCommit": "4a4790d5c57d057879f1eadf02683ed0d48f43ac",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -2446,14 +2446,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-051",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Aurynthiq---.Autonomous-DJ-Intelligence-Platform",
       "slug": "aurynthiq-autonomous-dj-intelligence-platform",
       "identityName": "Isadora",
       "baselineCommit": "dbdc51d7a493e325529fd01b706e5907e07356cf",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -2473,14 +2473,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-093",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Universal-Vehicle-Configuration-Database",
       "slug": "universal-vehicle-configuration-database",
       "identityName": "Celine",
       "baselineCommit": "805f0a222e730acfaa79a7ac9791db6f418f0a1f",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -2503,14 +2503,14 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-094",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Digital-Twin-Core",
       "slug": "digital-twin-core",
       "identityName": "Tessa",
       "baselineCommit": "7c838eaf6692e3b14edc6b15e70e90288b39d29b",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [],
       "lockfiles": [],
       "existingSbomFiles": [],
@@ -2523,14 +2523,14 @@
       "independentIpAsset": true,
       "scopeUpdatedAt": "2026-10-09T06:07:10Z",
       "ref": "TA-IP-097",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "LEARNPIANO",
       "slug": "learnpiano",
       "identityName": "Elise",
       "baselineCommit": "3337f3cd38f552cc1ef338fbb9dc8634a880eedc",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "package.json",
         "validation/real-audio/requirements-ci.txt",
@@ -2553,14 +2553,14 @@
       "independentIpAsset": true,
       "scopeUpdatedAt": "2026-10-09T06:07:10Z",
       "ref": "TA-IP-095",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     },
     {
       "repository": "Plantelogia-Intelligence-Platform",
       "slug": "plantelogia-intelligence-platform-lineage",
       "identityName": "Ivy",
       "baselineCommit": "0038679044885f8104cb460cb6902590ef1f87dc",
-      "assessmentDate": "2026-10-09",
+      "assessmentDate": "2026-10-10",
       "manifests": [
         "pyproject.toml"
       ],
@@ -2582,12 +2582,12 @@
       "independentIpAsset": true,
       "scopeUpdatedAt": "2026-10-09T06:07:10Z",
       "ref": "TA-IP-096",
-      "sourceRecheckedAt": "2026-10-09T10:15:23Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
     }
   ],
-  "assessedAt": "2026-10-09T10:15:23Z",
-  "catalogueUpdatedAt": "2026-10-10T00:48:36Z",
-  "latestTargetedAssetReview": {
+  "assessedAt": "2026-10-10T08:52:15Z",
+  "catalogueUpdatedAt": "2026-10-10T08:52:15Z",
+  "previousTargetedAssetReview": {
     "slug": "distributed-ai-resource-fabric",
     "ref": "TA-IP-022",
     "title": "Distributed AI Resource Fabric",

@@ -2,9 +2,9 @@
 
 **THEARCHITECT_MAX — Private Technology & IP Portfolio**
 **Current monetary publication basis:** 10 October 2026
-**Last full source review:** 9 October 2026
-**Previous catalogue timestamp:** 2026-10-09T06:22:41Z
-**Source/evidence evaluation timestamp:** 2026-10-09T10:15:23Z
+**Last full source review:** 10 October 2026
+**Previous catalogue timestamp:** 2026-10-10T00:48:36Z
+**Source/evidence evaluation timestamp:** 2026-10-10T08:52:15Z
 
 ## 1. Portfolio thesis
 
@@ -76,9 +76,9 @@ Current portfolio economics remain separated into:
 
 The milestone register contains 39 numeric maturity sensitivities and 58 NOT_ESTABLISHED records. These are not future seller asks or guaranteed market values.
 
-Aggregate current seller ask: EUR 24,590,500.
-Engineering-equivalent recreation cost: EUR 104,852,000.
-Triangulated analytical reference: EUR 124,619,275.
+Aggregate current seller ask: EUR 24,740,500.
+Engineering-equivalent recreation cost: EUR 105,302,000.
+Triangulated analytical reference: EUR 125,391,379.
 
 ## 7. Double-counting control
 
@@ -144,15 +144,15 @@ The seller declares no known or disclosed external human co-owner of the seller-
 
 Authoritative machine-readable source: `assets/rights-transfer-register.json`.
 
-## 13. Full catalogue review — 9 October 2026
+## 13. Full catalogue review — 10 October 2026
 
-All 97 independent IP assets were checked at 2026-10-09T10:15:23Z: 89 conclusions were reconfirmed and eight assessments reflect newer evidence or development scope. Four default branches changed; the review also checked relevant open development branches. No asset was added or removed, no software maturity stage changed, and all 97 asking references, ranges, recreation estimates and model inputs are retained. The authoritative per-project results are in `assets/project-evaluations.json`.
+All 97 independent asset source heads and all 29 open pull requests were checked at 2026-10-10T08:52:15Z. DARF and TrueLane Intelligence Engine have newer committed work and retained runtime evidence. The other 95 conclusions and prices are retained after source comparison. No asset was added or removed and no software maturity classification changed. Exact source, validation and unmerged development boundaries are identified separately in the per-project records.
 
-VEGMPF v35.0.0 now has retained complete software release validation. BIND-AI v2.2, EGMERS v1.8, LEARNPIANO v16 and UVCD's latest local development scope retain their individual draft status and validation limits. DARF, TrueLane Intelligence and Aurynthiq reflect newer documentation. Review the applicable baseline and outstanding acceptance conditions for your intended transaction. This catalogue update does not imply a new full-repository test execution, independent appraisal or production-service deployment.
+Use `assets/project-evaluations.json` for current conclusions and [the full financial reassessment](PORTFOLIO_FINANCIAL_REASSESSMENT_2026-10-10.md) for the two incremental budgets. This source/evidence review is not a fresh execution of all repository test suites or an independent appraisal.
 
 ## 14. Latest separate asset pricing
 
-**Pricing assessment:** 2026-10-09T06:22:41Z. The three source heads were rechecked; retained qualification was reviewed. Those three inputs retain their 9 October estimates. The subsequent DARF-only financial reassessment is recorded below; the remaining 96 asset monetary inputs are unchanged.
+**Pricing assessment:** 2026-10-09T06:22:41Z. The three source heads were rechecked; retained qualification was reviewed. Those three inputs retain their 9 October estimates. The subsequent DARF and TrueLane financial reassessments are recorded below; the other 95 monetary inputs are unchanged.
 
 | Identifier | Project | Asking reference | Recreation estimate | Present scope |
 |---|---|---:|---:|---|
@@ -162,8 +162,10 @@ VEGMPF v35.0.0 now has retained complete software release validation. BIND-AI v2
 
 Compare these seller-side asking references with their disclosed work-package budgets. They are not independent appraisals, observed transaction prices, verified income or guaranteed buyer savings. Further development and third-party rights are separately scoped.
 
-## 15. DARF-only reassessment — 10 October 2026
+## 15. Updated financial references — 10 October 2026
 
-At 2026-10-10T00:48:36Z DARF v0.15.0 was reassessed against its current source and retained exact-code qualification. Asking reference: **EUR 395,000** (previously EUR 325,000); negotiation reference: **EUR 310,000–495,000**; recreation estimate: **EUR 1,100,000** (previously EUR 900,000). Its delivered expansion is covered by a separately disclosed incremental engineering-equivalent budget. The existing commercial factors and maturity/rights/transfer grades are retained. All other 96 asset prices and assessment dates remain unchanged.
+At 2026-10-10T08:52:15Z, DARF's indicative ask becomes EUR 500,000 and recreation estimate EUR 1,400,000; TrueLane Intelligence Engine's ask becomes EUR 300,000 and recreation estimate EUR 1,000,000. The portfolio total is EUR 24,740,500 for asking references and EUR 105,302,000 for recreation estimates.
 
-See [the full financial assessment](DARF_FINANCIAL_REASSESSMENT.md) for the budget, calibration, evidence and exclusions. Physical multi-host recovery, production availability and fresh v0.15 real model-serving qualification remain separate acceptance requirements.
+DARF main remains v0.19.0; the v0.24 software and hardware-campaign development scope is explicitly draft and unmerged. Retained exact-source 375-test/single-T4 qualification does not establish multi-GPU model execution, two-host failover or live kernel containment. TrueLane's v5.7 GPU/Drive-resume results use small first-party fixtures and do not establish general AI performance.
+
+Review [the complete reassessment](PORTFOLIO_FINANCIAL_REASSESSMENT_2026-10-10.md) for source provenance, incremental engineering-equivalent assumptions, unchanged commercial factors, price calibration and outstanding delivery conditions. Historical acquisition dossiers retain their original dates and prices. All other 95 asset estimates are unchanged.
