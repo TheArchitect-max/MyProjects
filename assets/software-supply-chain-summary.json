@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.10-im54-full-portfolio-financial-review",
+  "version": "2026.10.10-im55-readiness-criteria-review",
   "basisDate": "2026-10-10",
   "status": "SELLER_SIDE_REPOSITORY_EVIDENCE_SUMMARY",
   "boundary": "This is a portfolio-level SBOM/licensing summary derived from repository evidence. It does not claim a complete component-level SBOM where no SBOM file exists.",
@@ -7,7 +7,7 @@
     "projects": 97,
     "withDependencyManifest": 89,
     "withLockfile": 4,
-    "withExistingSbom": 8,
+    "withExistingSbom": 7,
     "withLicenceFile": 92,
     "withThirdPartyDisclosure": 87,
     "withSecurityEvidence": 43,
@@ -875,10 +875,8 @@
         "pyproject.toml"
       ],
       "lockfiles": [],
-      "existingSbomFiles": [
-        "src/bogae/provider_sbom.py"
-      ],
-      "sbomStatus": "SBOM_ARTIFACT_PRESENT_SCOPE_REVIEW_REQUIRED",
+      "existingSbomFiles": [],
+      "sbomStatus": "GENERATOR_CODE_ONLY_NO_COMPLETED_SBOM_IDENTIFIED",
       "licenceFiles": [
         "LICENSE"
       ],
@@ -894,7 +892,8 @@
       ],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "ref": "TA-IP-039",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z",
+      "readinessAssessedAt": "2026-10-10T09:20:17Z"
     },
     {
       "repository": "Evidence-Governed-Visual-Intelligence-Platform",
@@ -2586,7 +2585,7 @@
     }
   ],
   "assessedAt": "2026-10-10T08:52:15Z",
-  "catalogueUpdatedAt": "2026-10-10T08:52:15Z",
+  "catalogueUpdatedAt": "2026-10-10T09:20:17Z",
   "previousTargetedAssetReview": {
     "slug": "distributed-ai-resource-fabric",
     "ref": "TA-IP-022",
@@ -2608,5 +2607,35 @@
     "unchangedCommercialFactors": true,
     "softwareMaturityChanged": false,
     "boundary": "DARF only: current source, retained exact-commit validation, rights, delivery conditions and seller-side economics. The other 96 asset assessments and monetary inputs retain their earlier dates and conclusions; portfolio totals are recomputed."
+  },
+  "latestReadinessReview": {
+    "assessedAt": "2026-10-10T09:20:17Z",
+    "type": "CRITERIA_DISCLOSURE_AND_TARGETED_CONTENT_CORRECTION",
+    "criteriaDisclosedFor": 97,
+    "targetedRepositoryContentReviews": 2,
+    "changedReadinessReferences": [
+      "TA-IP-039",
+      "TA-IP-079"
+    ],
+    "previousSummary": {
+      "audited": 97,
+      "pending": 0,
+      "ready": 2,
+      "readyWithConditions": 87,
+      "notReady": 8
+    },
+    "sourceHeads": {
+      "Evidence-Governed-Software-Assurance-Platform": "5e72ef1971367fa28d5d9818ba13db17eacc142e",
+      "Secure-Actuation-Integrity-Platform": "e4025683523b70281f349b0c6845224bb4b0269a"
+    },
+    "monetaryChanges": 0,
+    "boundary": "This update discloses the recorded criteria for all 97 assets and corrects two prior READY classifications after source-content review. The preceding full source review and financial assessment retain their original timestamps. It is not a new test execution or an independent certification.",
+    "currentSummary": {
+      "audited": 97,
+      "pending": 0,
+      "ready": 0,
+      "readyWithConditions": 89,
+      "notReady": 8
+    }
   }
 }

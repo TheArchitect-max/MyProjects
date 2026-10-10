@@ -2,7 +2,7 @@
   "schema": "thearchitect-max-portfolio-audit-certificate-v4",
   "basisDate": "2026-10-10",
   "repository": "TheArchitect-max/MyProjects",
-  "sourceHeadAtCertificatePreparation": "ec5f458086f27172e23fac6d1a043477bd341cc6",
+  "sourceHeadAtCertificatePreparation": "a12ff7b6199538b4fa10c804876c4bd44299d7fb",
   "scope": {
     "ipAssetCount": 97,
     "pricedAssetCount": 97,
@@ -15,8 +15,8 @@
     "transactionReadiness": {
       "audited": 97,
       "pending": 0,
-      "ready": 2,
-      "readyWithConditions": 87,
+      "ready": 0,
+      "readyWithConditions": 89,
       "notReady": 8
     },
     "evidenceMaturityDistribution": {
@@ -27,9 +27,9 @@
       "E0": 1
     },
     "ipRightsMaturityDistribution": {
-      "R2": 85,
+      "R2": 86,
       "R0": 5,
-      "R3": 7
+      "R3": 6
     },
     "commercialMaturityDistribution": {
       "C2": 97
@@ -37,8 +37,7 @@
     "transferReadinessDistribution": {
       "T1": 7,
       "T2": 7,
-      "T3": 80,
-      "T4": 2,
+      "T3": 82,
       "T0": 1
     },
     "topOpenSellerItems": [
@@ -107,7 +106,7 @@
   "sourceObjects": {
     "sellerReadinessRegister": {
       "path": "assets/seller-readiness-register.json",
-      "gitBlobSha": "96b860af4f1a3f036943e9d30c7642e0e527f28b"
+      "gitBlobSha": "be36db40de9a3bc057f92482f7eec1b1145e3d9d"
     },
     "valuationRegister": {
       "path": "assets/valuation-register.json",
@@ -123,23 +122,23 @@
     },
     "ipOwnershipRegister": {
       "path": "assets/ip-ownership-register.json",
-      "gitBlobSha": "58343e73563b3c94ec4634beffeed127d3bf5ad4"
+      "gitBlobSha": "92f343a2711b9bb4743a78f64ff3ef9fd0d12a0f"
     },
     "softwareSupplyChainSummary": {
       "path": "assets/software-supply-chain-summary.json",
-      "gitBlobSha": "2a0381c55158070ae6bbd4d1ad18053a0724705e"
+      "gitBlobSha": "eadc1816309729d0bbaac1f0ecd8cd3364b574e2"
     },
     "rightsTransferRegister": {
       "path": "assets/rights-transfer-register.json",
-      "gitBlobSha": "a9a8431c499f7baf91477fe65bd239601c15dce5"
+      "gitBlobSha": "aacd4485023da171ba996277e07539b47a2a7333"
     },
     "projectEvaluations": {
       "path": "assets/project-evaluations.json",
-      "gitBlobSha": "352de673006bbef3c2539cbb8d591e8bc8bd74aa"
+      "gitBlobSha": "d73f9ac31182903111c582d590cdc7ef76d0b3a4"
     },
     "projectPresentations": {
       "path": "assets/project-presentations.json",
-      "gitBlobSha": "c3459c812816a350b6213356a321fa34b0fe2da2"
+      "gitBlobSha": "0469c8205c08fe99dafffd4a02c4ed2f26c943c8"
     }
   },
   "externalStandards": [
@@ -181,7 +180,7 @@
     "ipAssetsEvaluated": 97,
     "previousAssessedAt": "2026-10-09T10:15:23Z"
   },
-  "catalogueUpdatedAt": "2026-10-10T08:52:15Z",
+  "catalogueUpdatedAt": "2026-10-10T09:20:17Z",
   "latestSeparateAssetPricing": {
     "assessedAt": "2026-10-09T06:22:41Z",
     "assetCount": 3,
@@ -269,5 +268,36 @@
       }
     ],
     "boundary": "Current first-party work and explicitly identified committed development only. Existing maturity and price discounts are retained. Future qualification, third-party ownership, physical hardware, website repositories and speculative commercial outcomes are excluded."
+  },
+  "version": "2026.10.10-im55-readiness-criteria-review",
+  "latestReadinessReview": {
+    "assessedAt": "2026-10-10T09:20:17Z",
+    "type": "CRITERIA_DISCLOSURE_AND_TARGETED_CONTENT_CORRECTION",
+    "criteriaDisclosedFor": 97,
+    "targetedRepositoryContentReviews": 2,
+    "changedReadinessReferences": [
+      "TA-IP-039",
+      "TA-IP-079"
+    ],
+    "previousSummary": {
+      "audited": 97,
+      "pending": 0,
+      "ready": 2,
+      "readyWithConditions": 87,
+      "notReady": 8
+    },
+    "sourceHeads": {
+      "Evidence-Governed-Software-Assurance-Platform": "5e72ef1971367fa28d5d9818ba13db17eacc142e",
+      "Secure-Actuation-Integrity-Platform": "e4025683523b70281f349b0c6845224bb4b0269a"
+    },
+    "monetaryChanges": 0,
+    "boundary": "This update discloses the recorded criteria for all 97 assets and corrects two prior READY classifications after source-content review. The preceding full source review and financial assessment retain their original timestamps. It is not a new test execution or an independent certification.",
+    "currentSummary": {
+      "audited": 97,
+      "pending": 0,
+      "ready": 0,
+      "readyWithConditions": 89,
+      "notReady": 8
+    }
   }
 }

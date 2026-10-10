@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.10-im54-full-portfolio-financial-review",
+  "version": "2026.10.10-im55-readiness-criteria-review",
   "publicationDate": "2026-10-10",
   "portfolioAssetCount": 97,
   "valuationBasisDate": "2026-10-10",
@@ -23,27 +23,27 @@
     },
     "seller-readiness-register.json": {
       "algorithm": "SHA-256",
-      "sha256": "36e70e5ae9097c107bf27bf05c890df3cc1decec9bcebe470e9fd7e3f8acdae9"
+      "sha256": "eaafae88036b9977de32569e8eb4afb8594125c16927f5f0023a94ac2799191d"
     },
     "ip-ownership-register.json": {
       "algorithm": "SHA-256",
-      "sha256": "b2c8f6e7232052571772a40395d9638bf4159715bd16cfe0437958456a9fc578"
+      "sha256": "4145683be65728e6734c36c289ef13a4e3b4e6c097c30272e28635f81417e495"
     },
     "software-supply-chain-summary.json": {
       "algorithm": "SHA-256",
-      "sha256": "1b2cd00b3adcb739f71415129650cc1a1512bffc1285165d840f5c2a29b884b4"
+      "sha256": "c05fc5f2e326195bdf2a70d0fda2e2fd0869d081947e066ede33ca3c8bbc13c1"
     },
     "portfolio-audit-certificate.json": {
       "algorithm": "SHA-256",
-      "sha256": "63a388a6de1de49bff7cba7a35303f0ac76dcfded08d9a5195a5d0291cbe9ce3"
+      "sha256": "36dc16010f9b035868affd82bcac18cd8faf7436260fbfa67de8c0de574d3b26"
     },
     "rights-transfer-register.json": {
       "algorithm": "SHA-256",
-      "sha256": "0136a5a85f91c42ccdc5f832a244a5092cf4ea7e9e2d559327d19aaa50792ad5"
+      "sha256": "e2166929953749dcdd82a7b685f2b8032f1953675790d0c1fc3e0e7e0d18113c"
     },
     "project-presentations.json": {
       "algorithm": "SHA-256",
-      "sha256": "fd4a8ccc3c936990d035855f3478bf4693f3e0b3b9befcedd2d850974990aa77"
+      "sha256": "cd3c262ffccf6560ac25479f3fb57bdcaf653999e637d45451171ad16c477933"
     },
     "project-identities.json": {
       "algorithm": "SHA-256",
@@ -67,7 +67,7 @@
     },
     "project-evaluations.json": {
       "algorithm": "SHA-256",
-      "sha256": "f82b81fcfe59a5ce79b0c792bb85d3448b5138444f49d42f9a97ad75e5ac6d02"
+      "sha256": "0cca263abbed7b64258a6baaed737c0ebdd13ebd8ecb2f0c21566531979bb02d"
     },
     "im-data.json": {
       "algorithm": "SHA-256",
@@ -88,7 +88,7 @@
     "publicSiteDirectory": "The public project-site enhancer recomputes the SHA-256 digest of the site directory before presenting its integrity state.",
     "existenceBoundary": "The timestamped public publication and matching digests demonstrate existence and integrity of the public commercial record as published. They do not independently prove authorship, legal title, patent priority, source-code identity, scientific validity, security assurance, certified valuation or commercial outcome.",
     "futureEconomicReferences": "The renderer verifies the current 97-asset register. Numeric maturity sensitivities require each asset’s own established monetary baseline.",
-    "sellerReadiness": "The public renderer verifies the SHA-256 digests of the seller-readiness, ownership, supply-chain and audit-certificate records before presenting acquisition-readiness status.",
+    "sellerReadiness": "Verify the dated criteria disclosure and corrected readiness records. Integrity checks establish unchanged published bytes and cross-register consistency; they do not establish completed transfer gates or independent certification.",
     "rightsTransfer": "The public renderer verifies the seller-readiness, IP-ownership, software supply-chain, portfolio audit and rights-transfer records. The public transaction layer focuses on the offered rights, third-party obligations and transfer perimeter rather than internal development methods.",
     "projectEvaluations": "Each of the 97 IP assets has its own evaluation, first-party rights and transfer perimeter. Scope corrections are dated separately from the retained source-evidence assessment.",
     "projectIdentities": "Confirm the unique TA-IP-001 through TA-IP-097 identifiers against the same project title, reference alias and slug in every current register and digital-display entry."
@@ -97,7 +97,7 @@
   "projectCount": 97,
   "assessedAt": "2026-10-10T08:52:15Z",
   "previousEvaluationBasisDate": "2026-10-09",
-  "catalogueUpdatedAt": "2026-10-10T08:52:15Z",
+  "catalogueUpdatedAt": "2026-10-10T09:20:17Z",
   "ipAssetCount": 97,
   "pricedAssetCount": 97,
   "unpricedAssetCount": 0,
@@ -177,5 +177,35 @@
       }
     ],
     "boundary": "Current first-party work and explicitly identified committed development only. Existing maturity and price discounts are retained. Future qualification, third-party ownership, physical hardware, website repositories and speculative commercial outcomes are excluded."
+  },
+  "latestReadinessReview": {
+    "assessedAt": "2026-10-10T09:20:17Z",
+    "type": "CRITERIA_DISCLOSURE_AND_TARGETED_CONTENT_CORRECTION",
+    "criteriaDisclosedFor": 97,
+    "targetedRepositoryContentReviews": 2,
+    "changedReadinessReferences": [
+      "TA-IP-039",
+      "TA-IP-079"
+    ],
+    "previousSummary": {
+      "audited": 97,
+      "pending": 0,
+      "ready": 2,
+      "readyWithConditions": 87,
+      "notReady": 8
+    },
+    "sourceHeads": {
+      "Evidence-Governed-Software-Assurance-Platform": "5e72ef1971367fa28d5d9818ba13db17eacc142e",
+      "Secure-Actuation-Integrity-Platform": "e4025683523b70281f349b0c6845224bb4b0269a"
+    },
+    "monetaryChanges": 0,
+    "boundary": "This update discloses the recorded criteria for all 97 assets and corrects two prior READY classifications after source-content review. The preceding full source review and financial assessment retain their original timestamps. It is not a new test execution or an independent certification.",
+    "currentSummary": {
+      "audited": 97,
+      "pending": 0,
+      "ready": 0,
+      "readyWithConditions": 89,
+      "notReady": 8
+    }
   }
 }

@@ -1,64 +1,60 @@
 # Seller Evidence & Transfer Readiness Standard
 
-Current review basis: 2026-10-09
-Previous evaluation basis: 2026-10-07
+Current full source-review basis: **2026-10-10T08:52:15Z**. Criteria disclosure and targeted readiness correction: **2026-10-10T09:20:17Z**.
 
-Use this standard to compare the evidence, rights and delivery conditions for all 97 independent assets before planning your acquisition review.
+Use this internal standard to compare the recorded evidence, rights and delivery conditions for all **97 independent assets**. Each project page has an **Assessment criteria** section showing its five grades, decision basis and outstanding conditions. These are seller-side dossier classifications, not official certification or buyer acceptance.
 
-## Governing boundary
+## Decision criteria
 
-Review what exists, what is included, the supporting evidence, third-party obligations and outstanding delivery conditions. Assess the legal, technical, security, regulatory, tax, financial and integration requirements of your intended transaction.
+| Label | Transfer grade | Required basis |
+|---|---|---|
+| READY | T4 | A content-reviewed, release-specific handover package; reconciled component/licence obligations; security and provenance evidence; and no unresolved seller-side delivery blockers. |
+| READY_WITH_CONDITIONS | T2–T3 | A bounded handover basis exists, with explicit outstanding delivery or qualification conditions. |
+| NOT_READY | T0–T1 | No implemented baseline, or essential evidence for a sufficiently documented handover is incomplete. |
 
-Statuses are evidence states, not marketing claims. No internal scan is labelled an independent legal opinion, certified penetration test, independent valuation or freedom-to-operate opinion.
+The transfer grade determines the readiness label. It is not an average of the other grades and does not depend on the asking price. Production suitability, scientific validity, regulatory approval and buyer-specific integration acceptance are assessed separately for the intended use.
 
-## Assurance axes
+READY requires substantive evidence. A filename, a policy, generation software, synthetic fixture or package-building capability is not the completed delivery artifact. A negative or incomplete readiness report takes precedence over the presence of that report file. Missing rights documentation does not establish missing first-party ownership.
 
-- Technical maturity: existing portfolio stage or repository-evidenced development status.
-- Evidence maturity E0-E4: tests, validation, provenance and retained external evidence.
-- IP/rights maturity R0-R4: repository licence, dependency/third-party disclosure, SBOM/lock evidence, provenance and external legal title evidence.
-- Commercial maturity C0-C4: seller-side price/economic evidence through independent valuation evidence.
-- Transfer readiness T0-T4: implementation baseline through explicit acquisition/handover package readiness.
+## Five assessment axes
 
-## Repository-native audit inputs
+| Axis | Recorded levels and criteria |
+|---|---|
+| Technical scope | Developed software, prototype, research or definition documentation. Record what exists in the offered scope, separately from future objectives. |
+| Evidence E0–E4 | E0: no test/validation evidence identified. E1: tests or structured evidence. E2: tests plus validation material. E3: those plus provenance/release evidence. E4: E3 plus retained external execution or independent validation evidence. |
+| Rights R0–R4 | R0: no licence evidence identified. R1: licence file. R2: licence plus dependency/third-party disclosure basis. R3: component/locked-dependency and provenance/rights evidence. R4: those plus independent legal title evidence. |
+| Commercial basis C0–C4 | C0: no separate economic reference. C1: commercial framing. C2: asking reference and reproducible economic model. C3: attributable transactions, comparables or income evidence. C4: those plus an independent professional valuation. |
+| Transfer T0–T4 | T0: no implementation. T1: implementation with incomplete core handover evidence. T2: source, documentation, tests and licence evidence supporting bounded handover. T3: those plus validation, build/release and dependency evidence. T4: content-verified complete package and closure of seller-side delivery blockers. |
 
-Each reassessment records the current default-branch snapshot, compares it with the previous evaluated baseline, and records its commit SHA. Where implementation or research extensions exist only on a committed development branch, the separate branch scope is explicit; its presence does not imply a merge or full release acceptance. The scan inventories:
-- source and executable implementation files;
-- tests and test harnesses;
-- dependency manifests and lockfiles;
-- LICENSE/COPYING/NOTICE/THIRD_PARTY/attribution material;
-- SBOM/SPDX/CycloneDX material;
-- security/threat-model material;
-- validation, qualification, benchmark and audit evidence;
-- provenance, checksum, attestation and release manifests;
-- build, packaging and release tooling;
-- handover/transfer/acquisition artifacts;
-- filenames requiring secret/credential review.
+External execution can mean a retained Colab run. It does not automatically mean an independent assessor or certified result. The presence of test files is not evidence that the tests passed. A security policy is not a penetration-test result. A component-inventory generator is not a generated, release-specific inventory.
 
-Evidence entries bind path metadata to Git object SHA where available.
+## How to read a project's assessment
 
-## Transaction readiness
+The dated register identifies each project's recorded grades, label, decision basis, evidence-review timestamp and conditions. The public criteria section explains these without disclosing source code or internal implementation details. Specific source paths and Git-object bindings remain in the dated register for follow-up.
 
-READY means the seller-side repository evidence reaches T4. READY_WITH_CONDITIONS means T2-T3 with explicit seller open items. NOT_READY means T0-T1.
+The full portfolio review compared current default-branch snapshots and retained development scope with previous baselines. Unmerged work is identified separately. The inventory covers implementation, tests, dependencies, licence obligations, component inventories, security, validation, provenance, packaging and handover material. This is not a fresh execution of every repository's tests.
 
-READY does not mean a buyer must accept the asset. Buyer acceptance remains transaction-specific.
+For the 95 assets outside the targeted correction below, this update discloses retained assessments; it does not claim that every previously inventoried artifact received a fresh content audit. Their recorded grades must be checked against the actual delivery scope before a transaction. READY cannot be established by filename matching alone.
 
-## External source basis
+## Targeted correction — 10 October 2026
 
-WIPO:
-- https://www.wipo.int/en/web/business/ip-audit
-- https://www.wipo.int/en/web/ip-commercialization/w/blog/how-to-prepare-for-ip-due-diligence-the-ultimate-guide-for-ventures
-- https://www.wipo.int/en/web/business/ip-valuation
+- **TA-IP-039 — Evidence-Governed Software Assurance Platform:** T4 becomes **T3**, READY becomes **READY_WITH_CONDITIONS**, and R3 becomes **R2**. Component-inventory generation code is not a completed inventory. Runtime transaction/recovery configuration is not an acquisition handover package. A generated component/licence inventory and an explicit buyer delivery package remain to be established.
+- **TA-IP-079 — Secure Actuation Integrity Platform:** T4 becomes **T3** and READY becomes **READY_WITH_CONDITIONS**. Its retained reports explicitly record an ineligible transfer package, absent closed manifest/unexported handoff bundle, unresolved acceptance/trust/receipt prerequisites and unperformed buyer verification. Software supporting package creation does not establish package completion.
 
-## Rights-first transaction principle
+Both source heads match their preceding reviewed baselines. These corrections change the interpretation of retained evidence, not the software, ownership declarations, technical stages or asking prices. The current distribution is **0 READY, 89 READY_WITH_CONDITIONS and 8 NOT_READY**.
 
-The public seller-side system documents **what is offered and what rights can be transferred**, not the internal method of creation. Development methods, prompts, research process and other non-public know-how are outside the public diligence perimeter unless a definitive transaction specifically includes them.
+Source-content bindings and correction reasons are recorded in the seller-readiness register. The preceding full source review and financial evaluation keep their original timestamps.
 
-The rights review therefore focuses on seller-owned first-party rights, known/disclosed co-owners or claimants, third-party IP and licence obligations, encumbrances/restrictions, transferability and the exact delivery perimeter. The authoritative rights-transfer record is `assets/rights-transfer-register.json`.
+## Rights and transaction perimeter
 
-## Current comparison and calculation rules
+Assess the offered first-party rights, any disclosed co-owners, third-party obligations, restrictions and the exact deliverables. The authoritative rights-transfer register records these separately. Repository paperwork does not replace an independent legal title or freedom-to-operate opinion.
 
-All 97 IP assets have a current review result: UPDATED, NEW_SOFTWARE_ASSET_EVALUATION or RECONFIRMED. An unchanged conclusion means the current source/evidence snapshot was compared with the previous assessment; it is not a skipped review. The current source-pinned validation state remains distinct from the presence of test files or historical reports.
+All 97 assets have separate asking references. Digital Twin Core covers existing definition/acquisition documentation only and remains NOT_READY for software transfer. Project websites are digital displays and are excluded from the IP-asset count. Development methods and confidential know-how are outside the public transaction record unless expressly included in a definitive agreement.
 
-The public scope consists only of the 97 independent first-party IP assets. Project websites are digital displays only. New monetary estimates cost first-party work only. No new independent legal, security, market, vehicle or scientific acceptance is inferred from an internal reassessment.
+## General reference material
 
-All current profiles and registers use identifiers TA-IP-001 through TA-IP-097. All 97 assets have separate prices. The Digital Twin Core estimate covers existing definition/acquisition documentation only and does not change its lack of implemented software or NOT_READY software-transfer status.
+The internal E/R/C/T labels are this catalogue's own classifications; the following reference material does not certify individual labels or prices:
+
+- WIPO IP audit: https://www.wipo.int/en/web/business/ip-audit
+- WIPO IP due diligence: https://www.wipo.int/en/web/ip-commercialization/w/blog/how-to-prepare-for-ip-due-diligence-the-ultimate-guide-for-ventures
+- WIPO IP valuation: https://www.wipo.int/en/web/business/ip-valuation

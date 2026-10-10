@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.10-im54-full-portfolio-financial-review",
+  "version": "2026.10.10-im55-readiness-criteria-review",
   "checkedDate": "2026-10-09",
   "scope": {
     "ipAssetCount": 97,
@@ -716,12 +716,13 @@
       "countsAsIpAsset": true,
       "evaluationDate": "2026-10-10",
       "evaluationTimestamp": "2026-10-10T08:52:15Z",
-      "evaluationResult": "RECONFIRMED",
-      "evaluationNote": "The current default-branch snapshot and any previously reviewed development scope match the preceding assessment. Use the retained maturity, asking reference and delivery conditions for your acquisition review.",
+      "evaluationResult": "UPDATED",
+      "evaluationNote": "The earlier READY result counted component-inventory generation code and runtime transaction features as a completed acquisition package. Content review does not establish a generated, release-specific component inventory or an explicit buyer handover package. The transfer grade is corrected from T4 to T3; the rights-documentation grade is corrected from R3 to R2. Your acquisition review must close the component, licensing and delivery conditions.",
       "valuationStage": "V",
       "ref": "TA-IP-039",
       "sourceCheckedAt": "2026-10-10T08:52:15Z",
-      "defaultBranchBaselineCommit": "5e72ef1971367fa28d5d9818ba13db17eacc142e"
+      "defaultBranchBaselineCommit": "5e72ef1971367fa28d5d9818ba13db17eacc142e",
+      "readinessAssessedAt": "2026-10-10T09:20:17Z"
     },
     {
       "slug": "evidence-governed-visual-intelligence-platform",
@@ -1503,12 +1504,13 @@
       "countsAsIpAsset": true,
       "evaluationDate": "2026-10-10",
       "evaluationTimestamp": "2026-10-10T08:52:15Z",
-      "evaluationResult": "RECONFIRMED",
-      "evaluationNote": "The current default-branch snapshot and any previously reviewed development scope match the preceding assessment. Use the retained maturity, asking reference and delivery conditions for your acquisition review.",
+      "evaluationResult": "UPDATED",
+      "evaluationNote": "The earlier READY result did not account for negative results inside the retained transfer reports. The current reports state that the package is ineligible, no closed manifest or handoff bundle has been created, and buyer verification has not been performed. The transfer grade is corrected from T4 to T3. Your transaction requires a legitimate completed package and resolution of its stated acceptance, trust and receipt prerequisites.",
       "valuationStage": "V",
       "ref": "TA-IP-079",
       "sourceCheckedAt": "2026-10-10T08:52:15Z",
-      "defaultBranchBaselineCommit": "e4025683523b70281f349b0c6845224bb4b0269a"
+      "defaultBranchBaselineCommit": "e4025683523b70281f349b0c6845224bb4b0269a",
+      "readinessAssessedAt": "2026-10-10T09:20:17Z"
     },
     {
       "slug": "sensor-fusion-digital-twin-engine",
@@ -2118,7 +2120,7 @@
     }
   ],
   "assessedAt": "2026-10-10T08:52:15Z",
-  "catalogueUpdatedAt": "2026-10-10T08:52:15Z",
+  "catalogueUpdatedAt": "2026-10-10T09:20:17Z",
   "latestSeparateAssetPricingAt": "2026-10-09T06:22:41Z",
   "sourceCheckedAt": "2026-10-10T08:52:15Z",
   "previousTargetedAssetReview": {
@@ -2180,5 +2182,35 @@
       }
     ],
     "boundary": "Current first-party work and explicitly identified committed development only. Existing maturity and price discounts are retained. Future qualification, third-party ownership, physical hardware, website repositories and speculative commercial outcomes are excluded."
+  },
+  "latestReadinessReview": {
+    "assessedAt": "2026-10-10T09:20:17Z",
+    "type": "CRITERIA_DISCLOSURE_AND_TARGETED_CONTENT_CORRECTION",
+    "criteriaDisclosedFor": 97,
+    "targetedRepositoryContentReviews": 2,
+    "changedReadinessReferences": [
+      "TA-IP-039",
+      "TA-IP-079"
+    ],
+    "previousSummary": {
+      "audited": 97,
+      "pending": 0,
+      "ready": 2,
+      "readyWithConditions": 87,
+      "notReady": 8
+    },
+    "sourceHeads": {
+      "Evidence-Governed-Software-Assurance-Platform": "5e72ef1971367fa28d5d9818ba13db17eacc142e",
+      "Secure-Actuation-Integrity-Platform": "e4025683523b70281f349b0c6845224bb4b0269a"
+    },
+    "monetaryChanges": 0,
+    "boundary": "This update discloses the recorded criteria for all 97 assets and corrects two prior READY classifications after source-content review. The preceding full source review and financial assessment retain their original timestamps. It is not a new test execution or an independent certification.",
+    "currentSummary": {
+      "audited": 97,
+      "pending": 0,
+      "ready": 0,
+      "readyWithConditions": 89,
+      "notReady": 8
+    }
   }
 }

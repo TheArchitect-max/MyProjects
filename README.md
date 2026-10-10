@@ -77,8 +77,8 @@ The **10 October** seller-side acquisition reassessment covers **all 97 IP asset
 
 Current status:
 
-- **2 READY**
-- **87 READY_WITH_CONDITIONS**
+- **0 READY**
+- **89 READY_WITH_CONDITIONS**
 - **8 NOT_READY**
 - **0 pending**
 
@@ -135,3 +135,9 @@ The three separately priced additions retain their existing asks: LEARNPIANO EUR
 
 The directory retains **11** digital displays. The static catalogue update does not deploy an application, SaaS, user/session database, billing or payment service.
 <!-- FULL-EVALUATION:END -->
+
+## Readiness criteria disclosure and correction — 10 October 2026
+
+At 2026-10-10T09:20:17Z, all 97 project profiles receive a visitor-facing explanation of their recorded criteria and outstanding conditions. Two former READY classifications are corrected to READY_WITH_CONDITIONS after source-content review. Evidence-Governed Software Assurance Platform has component-inventory generation code and runtime transaction features, not an established completed buyer package; its T4/R3 grades become T3/R2. Secure Actuation Integrity Platform explicitly records an ineligible, unexported package and unperformed buyer verification; its T4 grade becomes T3. Current distribution: **0 READY, 89 READY_WITH_CONDITIONS, 8 NOT_READY**.
+
+This correction does not change prices, first-party ownership declarations, technical software stages or the preceding full source-review timestamp. Review `assets/seller-readiness-register.json` and [the readiness standard](docs/SELLER_READINESS_STANDARD.md) for the gate definitions. Repository filenames, generation tooling and negative status reports cannot establish READY.

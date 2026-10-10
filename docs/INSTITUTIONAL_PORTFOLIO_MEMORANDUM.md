@@ -40,16 +40,16 @@ Each project is independently classified across five axes:
 
 Current transfer-readiness distribution:
 
-- T4: 2
-- T3: 80
+- T4: 0
+- T3: 82
 - T2: 7
 - T1: 7
 - T0: 1
 
 Transaction-readiness outcome:
 
-- READY: 2
-- READY_WITH_CONDITIONS: 87
+- READY: 0
+- READY_WITH_CONDITIONS: 89
 - NOT_READY: 8
 
 These are seller-side documentation/transfer statuses, not buyer approval.
@@ -169,3 +169,9 @@ At 2026-10-10T08:52:15Z, DARF's indicative ask becomes EUR 500,000 and recreatio
 DARF main remains v0.19.0; the v0.24 software and hardware-campaign development scope is explicitly draft and unmerged. Retained exact-source 375-test/single-T4 qualification does not establish multi-GPU model execution, two-host failover or live kernel containment. TrueLane's v5.7 GPU/Drive-resume results use small first-party fixtures and do not establish general AI performance.
 
 Review [the complete reassessment](PORTFOLIO_FINANCIAL_REASSESSMENT_2026-10-10.md) for source provenance, incremental engineering-equivalent assumptions, unchanged commercial factors, price calibration and outstanding delivery conditions. Historical acquisition dossiers retain their original dates and prices. All other 95 asset estimates are unchanged.
+
+## Readiness criteria disclosure and correction — 10 October 2026
+
+At 2026-10-10T09:20:17Z, all 97 project profiles receive a visitor-facing explanation of their recorded criteria and outstanding conditions. Two former READY classifications are corrected to READY_WITH_CONDITIONS after source-content review. Evidence-Governed Software Assurance Platform has component-inventory generation code and runtime transaction features, not an established completed buyer package; its T4/R3 grades become T3/R2. Secure Actuation Integrity Platform explicitly records an ineligible, unexported package and unperformed buyer verification; its T4 grade becomes T3. Current distribution: **0 READY, 89 READY_WITH_CONDITIONS, 8 NOT_READY**.
+
+This correction does not change prices, first-party ownership declarations, technical software stages or the preceding full source-review timestamp. Review `assets/seller-readiness-register.json` and [the readiness standard](SELLER_READINESS_STANDARD.md) for the gate definitions. Repository filenames, generation tooling and negative status reports cannot establish READY.
