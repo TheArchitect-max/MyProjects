@@ -11,7 +11,7 @@ Assessed at **2026-10-11T07:01:21Z**. Two new independent software assets are in
 
 Fresh checks passed 18 LCTEP tests and 14 SCEP tests. The seven retained SCEP final-campaign files pass checksum verification; the complete intermediate checkpoint set remains unestablished; one newly retained step-50 checkpoint and seven binary parts were inventoried. Flight qualification, consciousness, historical-output equivalence and future implementation are outside the priced scope. Review [the new project cost and evidence assessment](NEW_PROJECT_ASSESSMENTS_2026-10-11.md).
 
-Current register: **100 assets**; **57 developed-software, 40 prototype and three research-stage**. Aggregate ask: **EUR 24,923,000**; recreation-cost total: **EUR 105,910,000**. Readiness: **0 READY, 92 READY_WITH_CONDITIONS, 8 NOT_READY**. The 25 Connections retain their 64 unique members and existing asking and recreation-cost totals. Website repositories remain excluded digital displays.
+Current register: **100 assets**; **57 developed-software, 40 prototype and three research-stage**. Aggregate ask: **EUR 24,923,000**; recreation-cost total: **EUR 105,910,000**. Readiness: **0 READY, 92 READY_WITH_CONDITIONS, 8 NOT_READY**. The 26 Connections allocate 66 projects exactly once, including the FusionLunar transport-module relationship; existing individual prices are unchanged. Website repositories remain excluded digital displays.
 
 
 Current full source-review basis: **2026-10-10T08:52:15Z**. Criteria disclosure and targeted readiness correction: **2026-10-10T09:20:17Z**.

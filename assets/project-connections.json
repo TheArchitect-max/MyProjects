@@ -1,18 +1,18 @@
 {
-  "version": "2026.10.11-im61-two-new-software-assets",
-  "publishedAt": "2026-10-10T20:17:35Z",
-  "sourceDocumentationReviewedAt": "2026-10-10T18:29:03Z",
+  "version": "2026.10.11-im62-fusionlunar-transport-module",
+  "publishedAt": "2026-10-11T07:14:54Z",
+  "sourceDocumentationReviewedAt": "2026-10-11T07:14:54Z",
   "priceBasisDate": "2026-10-11",
   "portfolioAssetCount": 100,
   "currency": "EUR",
   "priceMethod": "SUM_CURRENT_INDIVIDUAL_ASKS",
   "scope": {
-    "connectionCount": 25,
-    "uniqueProjectCount": 64,
+    "connectionCount": 26,
+    "uniqueProjectCount": 66,
     "jointIntegrationsValidatedByThisCatalogue": 0,
-    "sourceDocumentationReviewed": 64,
+    "sourceDocumentationReviewed": 66,
     "projectWebsitesIncludedAsAssets": false,
-    "projectOccurrences": 64,
+    "projectOccurrences": 66,
     "repeatedProjectCount": 0
   },
   "presentationBoundary": "These are proposed combinations of independently scoped project assets, based on reviewed project documentation. Existing project implementations and any documented links retain their own evidence boundaries. This publication establishes no new shared runtime or joint end-to-end validation.",
@@ -467,6 +467,20 @@
       "blobSha": "34279b93f84c55f2384b4d0de9d6c7877fb80398",
       "path": "README.md",
       "checkedAt": "2026-10-10T18:29:03Z"
+    },
+    {
+      "ref": "TA-IP-057",
+      "repository": "FusionLunar-Energy-Systems-Engineering-Platform",
+      "blobSha": "58f32afe0c79baeb5883138c64b07ce058dc0d55",
+      "path": "README.md",
+      "checkedAt": "2026-10-11T07:14:54Z"
+    },
+    {
+      "ref": "TA-IP-099",
+      "repository": "Launch-Cislunar-Transportation-Engineering-Platform",
+      "blobSha": "c09e3aef9e4f2eb732a154e8c25c4d26217d5587",
+      "path": "README.md",
+      "checkedAt": "2026-10-11T07:14:54Z"
     }
   ],
   "connections": [
@@ -1314,10 +1328,73 @@
         "Require professional review for conclusions affecting a real case.",
         "Test retrieval and traceability using an authorised example case."
       ]
+    },
+    {
+      "id": "TA-CN-026",
+      "slug": "fusionlunar-energy-and-transport",
+      "title": "FusionLunar energy and transport studies",
+      "category": "Industry & engineering",
+      "purpose": "Assess lunar energy and infrastructure concepts together with their launch, cargo and resupply needs. Launch & Cislunar Transportation Engineering Platform provides the separately scoped transport module for your FusionLunar study.",
+      "proposedFlow": [
+        "Lunar energy and infrastructure requirements",
+        "Launch and cislunar transport options",
+        "Whole-system concept review"
+      ],
+      "connectionType": "FusionLunar transport module",
+      "integrationStatus": "PROPOSED",
+      "members": [
+        {
+          "ref": "TA-IP-057",
+          "slug": "fusionlunar-energy-systems-engineering-platform",
+          "role": "Review energy-system and lunar-infrastructure requirements for your engineering study."
+        },
+        {
+          "ref": "TA-IP-099",
+          "slug": "launch-cislunar-transportation-engineering-platform",
+          "role": "Use the separate launch and cislunar transport module to evaluate the transport needs of your FusionLunar study."
+        }
+      ],
+      "requirements": [
+        "Agree the supported demand/result interface, version boundary, units and evidence required for the intended study.",
+        "Validate the combined workflow against both identified source versions before relying on whole-system results; the catalogue does not establish completed joint qualification.",
+        "Treat declared or synthetic screening inputs separately from flight-qualified performance, vehicle safety and operational reliability.",
+        "Keep both first-party software scopes, third-party obligations and transfer perimeters distinct; additional integration work is outside the published sums."
+      ]
     }
   ],
   "recreationCostMethod": "SUM_CURRENT_INDIVIDUAL_RECREATION_COSTS",
   "allocationMethod": "GLOBAL_UNIQUE_PROJECTS",
-  "allocationBoundary": "Each included project appears in exactly one combination in this catalogue. The 64 included projects remain a subset of the 97 independently scoped portfolio assets. An allocation does not merge their IP identities or transfer perimeters.",
-  "recreationCostBoundary": "The recreation-cost total is the sum of the current published recreation-cost estimates for the listed existing projects. It is a cost reference for their documented scope, not an acquisition price or an estimate of additional integration work. No shared-work savings, integration costs or future development are added to this arithmetic."
+  "allocationBoundary": "Each included project appears in exactly one combination in this catalogue. The 66 included projects remain a subset of the 100 independently scoped portfolio assets. An allocation does not merge their IP identities or transfer perimeters.",
+  "recreationCostBoundary": "The recreation-cost total is the sum of the current published recreation-cost estimates for the listed existing projects. It is a cost reference for their documented scope, not an acquisition price or an estimate of additional integration work. No shared-work savings, integration costs or future development are added to this arithmetic.",
+  "latestModuleRelationship": {
+    "updatedAt": "2026-10-11T07:14:54Z",
+    "connectionRef": "TA-CN-026",
+    "parentProjectRef": "TA-IP-057",
+    "moduleProjectRef": "TA-IP-099",
+    "relationship": "TRANSPORT_MODULE_FOR_FUSIONLUNAR",
+    "independentIpAssets": true,
+    "jointIntegrationValidation": "NOT_ESTABLISHED",
+    "financialReferencesChanged": false,
+    "sourceEvidence": [
+      {
+        "repository": "Launch-Cislunar-Transportation-Engineering-Platform",
+        "path": "README.md",
+        "sourceHead": "eeaadf2299f8309e9e6f5a53dd0b35deb81a0ff8",
+        "gitBlobSha": "c09e3aef9e4f2eb732a154e8c25c4d26217d5587"
+      },
+      {
+        "repository": "Launch-Cislunar-Transportation-Engineering-Platform",
+        "path": "docs/FUSIONLUNAR_INTERFACE.md",
+        "sourceHead": "eeaadf2299f8309e9e6f5a53dd0b35deb81a0ff8",
+        "gitBlobSha": "cece5b807a4cd61c00784badbfa0edee265d5585"
+      },
+      {
+        "repository": "FusionLunar-Energy-Systems-Engineering-Platform",
+        "path": "README.md",
+        "sourceHead": "927e6f0a9fa9e42e8a6a81003a46dcbf50709300",
+        "gitBlobSha": "58f32afe0c79baeb5883138c64b07ce058dc0d55"
+      }
+    ],
+    "boundary": "Launch & Cislunar Transportation Engineering Platform is the separately scoped launch and cislunar transport module for FusionLunar studies. The documented demand/result interface supports the relationship; this update does not establish a new shared runtime, completed end-to-end integration or flight-qualified transport. Both projects retain their own asset identity, price and transfer scope."
+  }
 }

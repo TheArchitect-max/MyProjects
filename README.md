@@ -5,6 +5,10 @@ Explore independently scoped software projects, understand what you can use them
 The collection contains **100 independent IP assets**, each with its own identity, first-party rights and transfer perimeter. Individual asking references and present-scope recreation estimates are published for all 100 assets. The new Launch & Cislunar Transportation Engineering Platform and Synthetic Consciousness Engineering Platform occupy TA-IP-099 and TA-IP-100. Current maturity: 57 developed-software, 40 prototype and 3 research-stage assets. All 100 assets have individual evidence, rights and handover assessments.
 
 
+## FusionLunar transport-module relationship — 11 October 2026
+
+Launch & Cislunar Transportation Engineering Platform (TA-IP-099) is the separately scoped transport module for FusionLunar Energy Systems Engineering Platform (TA-IP-057). Review both projects together in TA-CN-026: asking reference **EUR 375,000**; recreation-cost total **EUR 2,950,000**. Both remain independent IP assets. Joint qualification is open, and all individual prices and assessment dates are unchanged. See [the module relationship](docs/FUSIONLUNAR_TRANSPORT_MODULE_RELATIONSHIP.md).
+
 ## Current additions — 11 October 2026
 
 Assessed at **2026-10-11T07:01:21Z**. Two new independent software assets are integrated with unique project identifiers and single feminine reference aliases. All 98 preceding asset records, source dates, prices and criteria retain their assessments.
@@ -16,7 +20,7 @@ Assessed at **2026-10-11T07:01:21Z**. Two new independent software assets are in
 
 Fresh checks passed 18 LCTEP tests and 14 SCEP tests. The seven retained SCEP final-campaign files pass checksum verification; the complete intermediate checkpoint set remains unestablished; one newly retained step-50 checkpoint and seven binary parts were inventoried. Flight qualification, consciousness, historical-output equivalence and future implementation are outside the priced scope. Review [the new project cost and evidence assessment](docs/NEW_PROJECT_ASSESSMENTS_2026-10-11.md).
 
-Current register: **100 assets**; **57 developed-software, 40 prototype and three research-stage**. Aggregate ask: **EUR 24,923,000**; recreation-cost total: **EUR 105,910,000**. Readiness: **0 READY, 92 READY_WITH_CONDITIONS, 8 NOT_READY**. The 25 Connections retain their 64 unique members and existing asking and recreation-cost totals. Website repositories remain excluded digital displays.
+Current register: **100 assets**; **57 developed-software, 40 prototype and three research-stage**. Aggregate ask: **EUR 24,923,000**; recreation-cost total: **EUR 105,910,000**. Readiness: **0 READY, 92 READY_WITH_CONDITIONS, 8 NOT_READY**. The 26 Connections allocate 66 projects exactly once, including the FusionLunar transport-module relationship; existing individual prices are unchanged. Website repositories remain excluded digital displays.
 
 
 ## Previous targeted source review — 11 October 2026

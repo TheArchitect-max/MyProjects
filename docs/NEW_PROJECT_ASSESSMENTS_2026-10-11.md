@@ -117,7 +117,7 @@ The proprietary notice and dependency disclosure support an internal **R2** clas
 
 Current portfolio: **100 priced assets**, with **57 developed-software**, **40 prototype** and **3 research-stage** records. Current asking total: **EUR 24,923,000**. Current recreation-cost total: **EUR 105,910,000**. Readiness: **0 READY**, **92 READY_WITH_CONDITIONS**, **8 NOT_READY**. The maturity register contains **43 conditional numeric sensitivities** and **57 NOT_ESTABLISHED** future records.
 
-The **25 proposed Connections** retain **64 unique allocated projects**, their membership, roles and financial inputs. Both asking totals and recreation-cost totals continue to resolve from individual asset prices. Neither new project is automatically allocated to an existing combination; a documented possible interface does not justify repeated allocation or a claim of validated integration.
+The initial assessment retained 25 proposed Connections and 64 unique allocated projects. The subsequent relationship clarification at 2026-10-11T07:14:54Z adds TA-CN-026: FusionLunar and its separately scoped launch and cislunar transport module. The current catalogue contains **26 proposed Connections** and **66 unique allocated projects** with zero repeated allocations. Existing individual prices, prior memberships and evidence dates are unchanged. Both financial totals resolve from current individual records; joint qualification remains open. See [the module relationship](FUSIONLUNAR_TRANSPORT_MODULE_RELATIONSHIP.md).
 
 ## Acquisition and contribution boundary
 
