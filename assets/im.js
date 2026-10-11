@@ -2,7 +2,7 @@
 const SCRIPT=document.currentScript;
 const ROOT=new URL('../',SCRIPT.src).href;
 const AS=new URL('assets/',ROOT).href;
-const VERSION='im62';
+const VERSION='im63';
 const BTC_ADDRESS='38dn8ZDf11cYSMv8X1UUARsE2wqdmtjd36';
 const EXPECTED_ASSETS=100;
 const EXPECTED_PRICED_ASSETS=100;
