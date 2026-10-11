@@ -1,9 +1,9 @@
 {
-  "version": "2026.10.11-im59-causoryn-and-octavia",
+  "version": "2026.10.11-im60-current-causoryn-and-octavia",
   "status": "public-seller-side-valuation-register",
   "valuationBasisDate": "2026-10-11",
   "developmentStatusDate": "2026-10-11",
-  "scope": "All 98 independently scoped IP assets. CAUSORYN replaces the historical Digital Twin Core record at TA-IP-097. Software Asset Engineering Platform (TA-IP-098) is separately priced for its implemented v0.1.0 local inspection and review-packaging prototype. Neither record inherits the former Digital Twin Core documentation price. The two affected records have new targeted reviews; the other 96 source assessments and monetary inputs retain their dates.",
+  "scope": "All 98 independently scoped IP assets. CAUSORYN at TA-IP-097 is priced for its implemented v0.6.0 local prototype. Software Asset Engineering Platform at TA-IP-098 retains its v0.1.0 local-engine estimate; required future SaaS delivery is excluded. Historical Digital Twin Core values are not inherited. The other 96 source assessments and monetary inputs retain their dates.",
   "portfolio": {
     "assetCount": 98,
     "stageCounts": {
@@ -12,20 +12,20 @@
       "researchStage": 3,
       "definitionStage": 0
     },
-    "sellerAskEUR": 24845000,
-    "negotiationLowEUR": 19849000,
-    "negotiationHighEUR": 31138750,
-    "replacementCostEUR": 105650000,
-    "marketComparableProxyEUR": 120793130,
-    "incomeLicensingProxyEUR": 142545847,
-    "probabilityAdjustedStrategicValueEUR": 133019876,
-    "triangulatedEconomicReferenceEUR": 125637255,
-    "sellerAskAsShareOfTriangulated": 0.19775185314260488,
-    "sellerAskAsShareOfReplacementCost": 0.23516327496450545,
+    "sellerAskEUR": 24863000,
+    "negotiationLowEUR": 19863400,
+    "negotiationHighEUR": 31161250,
+    "replacementCostEUR": 105710000,
+    "marketComparableProxyEUR": 120841325,
+    "incomeLicensingProxyEUR": 142580272,
+    "probabilityAdjustedStrategicValueEUR": 133043773,
+    "triangulatedEconomicReferenceEUR": 125677143,
+    "sellerAskAsShareOfTriangulated": 0.19783231386792427,
+    "sellerAskAsShareOfReplacementCost": 0.23520007567874374,
     "pricedAssetCount": 98,
     "unpricedAssetCount": 0,
-    "monetaryScope": "All 98 independently scoped IP assets. CAUSORYN replaces the historical Digital Twin Core record at TA-IP-097. Software Asset Engineering Platform (TA-IP-098) is separately priced for its implemented v0.1.0 local inspection and review-packaging prototype. Neither record inherits the former Digital Twin Core documentation price.",
-    "averageTriangulatedEconomicReferencePerPricedAsset": 1282012.806122449
+    "monetaryScope": "All 98 independently scoped IP assets. CAUSORYN at TA-IP-097 is priced for its implemented v0.6.0 local prototype. Software Asset Engineering Platform at TA-IP-098 retains its v0.1.0 local-engine estimate; required future SaaS delivery is excluded. Historical Digital Twin Core values are not inherited.",
+    "averageTriangulatedEconomicReferencePerPricedAsset": 1282419.8265306123
   },
   "updates": [
     {
@@ -2058,15 +2058,15 @@
       "slug": "causoryn",
       "ref": "TA-IP-097",
       "independentIpAsset": true,
-      "scopeUpdatedAt": "2026-10-10T22:16:09Z",
-      "sellerAskEUR": 30000,
-      "negotiationLowEUR": 24000,
-      "negotiationHighEUR": 37500,
-      "replacementCostEUR": 100000,
-      "marketComparableProxyEUR": 80325,
-      "incomeLicensingProxyEUR": 57375,
-      "probabilityAdjustedStrategicValueEUR": 39828,
-      "triangulatedEconomicReferenceEUR": 66480,
+      "scopeUpdatedAt": "2026-10-11T00:24:59Z",
+      "sellerAskEUR": 48000,
+      "negotiationLowEUR": 38400,
+      "negotiationHighEUR": 60000,
+      "replacementCostEUR": 160000,
+      "marketComparableProxyEUR": 128520,
+      "incomeLicensingProxyEUR": 91800,
+      "probabilityAdjustedStrategicValueEUR": 63725,
+      "triangulatedEconomicReferenceEUR": 106368,
       "technicalCompletionProbability": 0.75,
       "commercializationProbability": 0.4,
       "rightsTransferReserve": 0.85,
@@ -2077,16 +2077,16 @@
       "potential": "M",
       "pricingStatus": "SELLER_SIDE_ESTIMATE_ESTABLISHED",
       "description": "Explore how changes could affect interconnected systems, compare alternative scenarios and review the recorded outcomes.",
-      "pricingScope": "Present first-party linked-system modelling and scenario-comparison prototype, retained tests, documentation and development packaging at the identified v0.4.0 source commit. Physical fidelity, live connectors, production operation, independent qualification, third-party rights and future development are excluded.",
-      "economicAssessmentAt": "2026-10-10T22:16:09Z",
-      "sourceHead": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86",
-      "costAssumptionsDocument": "docs/CAUSORYN_AND_NEW_ASSET_ASSESSMENT_2026-10-11.md"
+      "pricingScope": "Present first-party linked-system modelling, scenario comparison, offline observation records and local coupled-simulation prototype, with retained source, tests, documentation and development packaging at the identified v0.6.0 source commit. Live telemetry, distributed operation, physical fidelity, production qualification, third-party ownership and future development are excluded.",
+      "economicAssessmentAt": "2026-10-11T00:24:59Z",
+      "sourceHead": "3ca782f99c14b69675d9766c3c8e32d30a28791d",
+      "costAssumptionsDocument": "docs/CAUSORYN_AND_OCTAVIA_SOURCE_REFRESH_2026-10-11.md"
     },
     {
       "slug": "software-asset-engineering-platform",
       "ref": "TA-IP-098",
       "independentIpAsset": true,
-      "scopeUpdatedAt": "2026-10-10T22:16:09Z",
+      "scopeUpdatedAt": "2026-10-11T00:24:59Z",
       "sellerAskEUR": 75000,
       "negotiationLowEUR": 60000,
       "negotiationHighEUR": 93750,
@@ -2106,15 +2106,15 @@
       "pricingStatus": "SELLER_SIDE_ESTIMATE_ESTABLISHED",
       "description": "Inspect a software project, review its recorded evidence and limitations, and prepare a documented package for an acquisition review.",
       "pricingScope": "Present first-party local software-inspection, evidence, bounded review-proposal and package-preparation prototype, its CLI/local interface, source contracts, documentation and retained validation at the identified v0.1.0 commit. Ingested-project execution, arbitrary-code isolation, broader adapters, production SaaS, hosting, rights certification, third-party ownership and future development are excluded.",
-      "economicAssessmentAt": "2026-10-10T22:16:09Z",
-      "sourceHead": "bcfa388d0f10941b649cc181dfee544b016332f4",
-      "costAssumptionsDocument": "docs/CAUSORYN_AND_NEW_ASSET_ASSESSMENT_2026-10-11.md"
+      "economicAssessmentAt": "2026-10-11T00:24:59Z",
+      "sourceHead": "e654268817be3394101715d98a3c60ed246a49ea",
+      "costAssumptionsDocument": "docs/CAUSORYN_AND_OCTAVIA_SOURCE_REFRESH_2026-10-11.md"
     }
   ],
-  "assessedAt": "2026-10-10T22:16:09Z",
+  "assessedAt": "2026-10-11T00:24:59Z",
   "previousValuationBasisDate": "2026-10-10",
   "reviewPolicy": "Every project is reassessed against current source and retained evidence. An unchanged conclusion is explicitly retained after comparison; commit counts and version labels alone do not increase monetary value or maturity. Development branches and validated executable baselines are distinguished.",
-  "catalogueUpdatedAt": "2026-10-10T22:16:09Z",
+  "catalogueUpdatedAt": "2026-10-11T00:24:59Z",
   "latestSeparateAssetPricing": {
     "assessedAt": "2026-10-09T06:22:41Z",
     "assetCount": 3,
@@ -2130,84 +2130,62 @@
     "boundary": "Fresh source-head checks and retained-evidence review for these three assets. Prior source/evidence assessments and monetary inputs for the other 94 assets retain their recorded dates; no fresh execution of all repository tests is claimed."
   },
   "latestSourceReview": {
-    "checkedAt": "2026-10-10T22:16:09Z",
-    "type": "TWO_ASSET_TARGETED_REVIEW",
+    "checkedAt": "2026-10-11T00:24:59Z",
+    "type": "TWO_ASSET_TARGETED_SOURCE_REFRESH",
     "repositoryHeads": {
-      "Universal-Systems-Intelligence-Engine": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86",
-      "Software-Asset-Engineering-Platform": "bcfa388d0f10941b649cc181dfee544b016332f4"
+      "Universal-Systems-Intelligence-Engine": "3ca782f99c14b69675d9766c3c8e32d30a28791d",
+      "Software-Asset-Engineering-Platform": "e654268817be3394101715d98a3c60ed246a49ea"
     },
     "defaultBranchesChecked": 2,
     "updatedAssetProfiles": 2,
     "otherAssetRecordsRetained": 96,
-    "monetaryChanges": 2,
-    "assetAdditions": 1,
-    "assetReplacements": 1,
-    "boundary": "Targeted review of TA-IP-097 and the new TA-IP-098 only. Exact source snapshots were checked against Git blob identities. CAUSORYN passed 54 local unit tests, syntax checks and four examples. Software Asset Engineering Platform passed 72 local tests with no failures, errors or skips; engine/test digests match retained local and installed-wheel evidence. Engine verification does not validate ingested project code or legal/commercial conclusions. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
+    "monetaryChanges": 1,
+    "assetAdditions": 0,
+    "assetReplacements": 0,
+    "boundary": "Targeted source and financial review of TA-IP-097 and TA-IP-098 only. Exact Git blob identities were verified for 51 CAUSORYN files and 78 Software Asset Engineering Platform files. Fresh local checks passed 98 CAUSORYN tests, syntax compilation and seven examples, and 72 Octavia tests with no failures, errors or skips. Octavia engine and test digests are unchanged; its new required private SaaS is a specification, not a delivered service. Only CAUSORYN monetary references change for its implemented v0.5/v0.6 increments. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
   },
   "latestIndividualPricing": {
-    "assessedAt": "2026-10-10T22:16:09Z",
+    "assessedAt": "2026-10-11T00:24:59Z",
     "assetsReassessed": 2,
-    "monetaryReferencesChanged": 2,
-    "unchangedAssetPrices": 96,
+    "monetaryReferencesChanged": 1,
+    "unchangedAssetPrices": 97,
+    "otherAssetRecordsRetained": 96,
     "unchangedCommercialFactors": true,
-    "softwareMaturityChanged": true,
+    "softwareMaturityChanged": false,
     "assets": [
       {
         "slug": "causoryn",
         "ref": "TA-IP-097",
         "title": "CAUSORYN",
-        "assessedAt": "2026-10-10T22:16:09Z",
-        "previousSellerAskEUR": 500,
-        "sellerAskEUR": 30000,
-        "previousReplacementCostEUR": 2000,
-        "replacementCostEUR": 100000,
-        "negotiationLowEUR": 24000,
-        "negotiationHighEUR": 37500,
-        "previousReferenceBoundary": "Historical predecessor definition only; not an inherited value.",
-        "costAssumptionsDocument": "docs/CAUSORYN_AND_NEW_ASSET_ASSESSMENT_2026-10-11.md",
-        "pricingScope": "Present first-party linked-system modelling and scenario-comparison prototype, retained tests, documentation and development packaging at the identified v0.4.0 source commit. Physical fidelity, live connectors, production operation, independent qualification, third-party rights and future development are excluded."
+        "assessedAt": "2026-10-11T00:24:59Z",
+        "previousSellerAskEUR": 30000,
+        "sellerAskEUR": 48000,
+        "previousReplacementCostEUR": 100000,
+        "replacementCostEUR": 160000,
+        "negotiationLowEUR": 38400,
+        "negotiationHighEUR": 60000,
+        "previousReferenceBoundary": "Previous separately assessed v0.4.0 implementation; the current scope includes the delivered v0.5/v0.6 increments.",
+        "costAssumptionsDocument": "docs/CAUSORYN_AND_OCTAVIA_SOURCE_REFRESH_2026-10-11.md",
+        "pricingScope": "Present first-party linked-system modelling, scenario comparison, offline observation records and local coupled-simulation prototype, with retained source, tests, documentation and development packaging at the identified v0.6.0 source commit. Live telemetry, distributed operation, physical fidelity, production qualification, third-party ownership and future development are excluded."
       },
       {
         "slug": "software-asset-engineering-platform",
         "ref": "TA-IP-098",
         "title": "Software Asset Engineering Platform",
-        "assessedAt": "2026-10-10T22:16:09Z",
-        "previousSellerAskEUR": null,
+        "assessedAt": "2026-10-11T00:24:59Z",
+        "previousSellerAskEUR": 75000,
         "sellerAskEUR": 75000,
-        "previousReplacementCostEUR": null,
+        "previousReplacementCostEUR": 250000,
         "replacementCostEUR": 250000,
         "negotiationLowEUR": 60000,
         "negotiationHighEUR": 93750,
-        "previousReferenceBoundary": "New implemented software asset; no prior published monetary reference.",
-        "costAssumptionsDocument": "docs/CAUSORYN_AND_NEW_ASSET_ASSESSMENT_2026-10-11.md",
+        "previousReferenceBoundary": "Prior v0.1.0 local-engine estimate retained; documentation of required future SaaS adds no delivered hosted capability.",
+        "costAssumptionsDocument": "docs/CAUSORYN_AND_OCTAVIA_SOURCE_REFRESH_2026-10-11.md",
         "pricingScope": "Present first-party local software-inspection, evidence, bounded review-proposal and package-preparation prototype, its CLI/local interface, source contracts, documentation and retained validation at the identified v0.1.0 commit. Ingested-project execution, arbitrary-code isolation, broader adapters, production SaaS, hosting, rights certification, third-party ownership and future development are excluded."
       }
     ],
-    "boundary": "Targeted review of TA-IP-097 and the new TA-IP-098 only. Exact source snapshots were checked against Git blob identities. CAUSORYN passed 54 local unit tests, syntax checks and four examples. Software Asset Engineering Platform passed 72 local tests with no failures, errors or skips; engine/test digests match retained local and installed-wheel evidence. Engine verification does not validate ingested project code or legal/commercial conclusions. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied.",
+    "boundary": "Targeted source and financial review of TA-IP-097 and TA-IP-098 only. Exact Git blob identities were verified for 51 CAUSORYN files and 78 Software Asset Engineering Platform files. Fresh local checks passed 98 CAUSORYN tests, syntax compilation and seven examples, and 72 Octavia tests with no failures, errors or skips. Octavia engine and test digests are unchanged; its new required private SaaS is a specification, not a delivered service. Only CAUSORYN monetary references change for its implemented v0.5/v0.6 increments. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied.",
     "previousPortfolio": {
-      "assetCount": 97,
-      "stageCounts": {
-        "developedSoftware": 57,
-        "developedPrototype": 36,
-        "researchStage": 3,
-        "definitionStage": 1
-      },
-      "sellerAskEUR": 24740500,
-      "negotiationLowEUR": 19765400,
-      "negotiationHighEUR": 31008125,
-      "replacementCostEUR": 105302000,
-      "marketComparableProxyEUR": 120502430,
-      "incomeLicensingProxyEUR": 142294410,
-      "probabilityAdjustedStrategicValueEUR": 132875737,
-      "triangulatedEconomicReferenceEUR": 125391379,
-      "sellerAskAsShareOfTriangulated": 0.1973062278866875,
-      "sellerAskAsShareOfReplacementCost": 0.234948054168012,
-      "pricedAssetCount": 97,
-      "unpricedAssetCount": 0,
-      "monetaryScope": "All 97 independently scoped IP assets. Digital Twin Core covers existing definition and acquisition documentation, not implemented software.",
-      "averageTriangulatedEconomicReferencePerPricedAsset": 1292694.6288659794
-    },
-    "currentPortfolio": {
       "assetCount": 98,
       "stageCounts": {
         "developedSoftware": 57,
@@ -2229,6 +2207,29 @@
       "unpricedAssetCount": 0,
       "monetaryScope": "All 98 independently scoped IP assets. CAUSORYN replaces the historical Digital Twin Core record at TA-IP-097. Software Asset Engineering Platform (TA-IP-098) is separately priced for its implemented v0.1.0 local inspection and review-packaging prototype. Neither record inherits the former Digital Twin Core documentation price.",
       "averageTriangulatedEconomicReferencePerPricedAsset": 1282012.806122449
+    },
+    "currentPortfolio": {
+      "assetCount": 98,
+      "stageCounts": {
+        "developedSoftware": 57,
+        "developedPrototype": 38,
+        "researchStage": 3,
+        "definitionStage": 0
+      },
+      "sellerAskEUR": 24863000,
+      "negotiationLowEUR": 19863400,
+      "negotiationHighEUR": 31161250,
+      "replacementCostEUR": 105710000,
+      "marketComparableProxyEUR": 120841325,
+      "incomeLicensingProxyEUR": 142580272,
+      "probabilityAdjustedStrategicValueEUR": 133043773,
+      "triangulatedEconomicReferenceEUR": 125677143,
+      "sellerAskAsShareOfTriangulated": 0.19783231386792427,
+      "sellerAskAsShareOfReplacementCost": 0.23520007567874374,
+      "pricedAssetCount": 98,
+      "unpricedAssetCount": 0,
+      "monetaryScope": "All 98 independently scoped IP assets. CAUSORYN at TA-IP-097 is priced for its implemented v0.6.0 local prototype. Software Asset Engineering Platform at TA-IP-098 retains its v0.1.0 local-engine estimate; required future SaaS delivery is excluded. Historical Digital Twin Core values are not inherited.",
+      "averageTriangulatedEconomicReferencePerPricedAsset": 1282419.8265306123
     }
   },
   "previousTargetedAssetReview": {
@@ -2254,69 +2255,47 @@
     "boundary": "DARF only: current source, retained exact-commit validation, rights, delivery conditions and seller-side economics. The other 96 asset assessments and monetary inputs retain their earlier dates and conclusions; portfolio totals are recomputed."
   },
   "latestFinancialReassessment": {
-    "assessedAt": "2026-10-10T22:16:09Z",
+    "assessedAt": "2026-10-11T00:24:59Z",
     "assetsReassessed": 2,
-    "monetaryReferencesChanged": 2,
-    "unchangedAssetPrices": 96,
+    "monetaryReferencesChanged": 1,
+    "unchangedAssetPrices": 97,
+    "otherAssetRecordsRetained": 96,
     "unchangedCommercialFactors": true,
-    "softwareMaturityChanged": true,
+    "softwareMaturityChanged": false,
     "assets": [
       {
         "slug": "causoryn",
         "ref": "TA-IP-097",
         "title": "CAUSORYN",
-        "assessedAt": "2026-10-10T22:16:09Z",
-        "previousSellerAskEUR": 500,
-        "sellerAskEUR": 30000,
-        "previousReplacementCostEUR": 2000,
-        "replacementCostEUR": 100000,
-        "negotiationLowEUR": 24000,
-        "negotiationHighEUR": 37500,
-        "previousReferenceBoundary": "Historical predecessor definition only; not an inherited value.",
-        "costAssumptionsDocument": "docs/CAUSORYN_AND_NEW_ASSET_ASSESSMENT_2026-10-11.md",
-        "pricingScope": "Present first-party linked-system modelling and scenario-comparison prototype, retained tests, documentation and development packaging at the identified v0.4.0 source commit. Physical fidelity, live connectors, production operation, independent qualification, third-party rights and future development are excluded."
+        "assessedAt": "2026-10-11T00:24:59Z",
+        "previousSellerAskEUR": 30000,
+        "sellerAskEUR": 48000,
+        "previousReplacementCostEUR": 100000,
+        "replacementCostEUR": 160000,
+        "negotiationLowEUR": 38400,
+        "negotiationHighEUR": 60000,
+        "previousReferenceBoundary": "Previous separately assessed v0.4.0 implementation; the current scope includes the delivered v0.5/v0.6 increments.",
+        "costAssumptionsDocument": "docs/CAUSORYN_AND_OCTAVIA_SOURCE_REFRESH_2026-10-11.md",
+        "pricingScope": "Present first-party linked-system modelling, scenario comparison, offline observation records and local coupled-simulation prototype, with retained source, tests, documentation and development packaging at the identified v0.6.0 source commit. Live telemetry, distributed operation, physical fidelity, production qualification, third-party ownership and future development are excluded."
       },
       {
         "slug": "software-asset-engineering-platform",
         "ref": "TA-IP-098",
         "title": "Software Asset Engineering Platform",
-        "assessedAt": "2026-10-10T22:16:09Z",
-        "previousSellerAskEUR": null,
+        "assessedAt": "2026-10-11T00:24:59Z",
+        "previousSellerAskEUR": 75000,
         "sellerAskEUR": 75000,
-        "previousReplacementCostEUR": null,
+        "previousReplacementCostEUR": 250000,
         "replacementCostEUR": 250000,
         "negotiationLowEUR": 60000,
         "negotiationHighEUR": 93750,
-        "previousReferenceBoundary": "New implemented software asset; no prior published monetary reference.",
-        "costAssumptionsDocument": "docs/CAUSORYN_AND_NEW_ASSET_ASSESSMENT_2026-10-11.md",
+        "previousReferenceBoundary": "Prior v0.1.0 local-engine estimate retained; documentation of required future SaaS adds no delivered hosted capability.",
+        "costAssumptionsDocument": "docs/CAUSORYN_AND_OCTAVIA_SOURCE_REFRESH_2026-10-11.md",
         "pricingScope": "Present first-party local software-inspection, evidence, bounded review-proposal and package-preparation prototype, its CLI/local interface, source contracts, documentation and retained validation at the identified v0.1.0 commit. Ingested-project execution, arbitrary-code isolation, broader adapters, production SaaS, hosting, rights certification, third-party ownership and future development are excluded."
       }
     ],
-    "boundary": "Targeted review of TA-IP-097 and the new TA-IP-098 only. Exact source snapshots were checked against Git blob identities. CAUSORYN passed 54 local unit tests, syntax checks and four examples. Software Asset Engineering Platform passed 72 local tests with no failures, errors or skips; engine/test digests match retained local and installed-wheel evidence. Engine verification does not validate ingested project code or legal/commercial conclusions. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied.",
+    "boundary": "Targeted source and financial review of TA-IP-097 and TA-IP-098 only. Exact Git blob identities were verified for 51 CAUSORYN files and 78 Software Asset Engineering Platform files. Fresh local checks passed 98 CAUSORYN tests, syntax compilation and seven examples, and 72 Octavia tests with no failures, errors or skips. Octavia engine and test digests are unchanged; its new required private SaaS is a specification, not a delivered service. Only CAUSORYN monetary references change for its implemented v0.5/v0.6 increments. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied.",
     "previousPortfolio": {
-      "assetCount": 97,
-      "stageCounts": {
-        "developedSoftware": 57,
-        "developedPrototype": 36,
-        "researchStage": 3,
-        "definitionStage": 1
-      },
-      "sellerAskEUR": 24740500,
-      "negotiationLowEUR": 19765400,
-      "negotiationHighEUR": 31008125,
-      "replacementCostEUR": 105302000,
-      "marketComparableProxyEUR": 120502430,
-      "incomeLicensingProxyEUR": 142294410,
-      "probabilityAdjustedStrategicValueEUR": 132875737,
-      "triangulatedEconomicReferenceEUR": 125391379,
-      "sellerAskAsShareOfTriangulated": 0.1973062278866875,
-      "sellerAskAsShareOfReplacementCost": 0.234948054168012,
-      "pricedAssetCount": 97,
-      "unpricedAssetCount": 0,
-      "monetaryScope": "All 97 independently scoped IP assets. Digital Twin Core covers existing definition and acquisition documentation, not implemented software.",
-      "averageTriangulatedEconomicReferencePerPricedAsset": 1292694.6288659794
-    },
-    "currentPortfolio": {
       "assetCount": 98,
       "stageCounts": {
         "developedSoftware": 57,
@@ -2338,6 +2317,29 @@
       "unpricedAssetCount": 0,
       "monetaryScope": "All 98 independently scoped IP assets. CAUSORYN replaces the historical Digital Twin Core record at TA-IP-097. Software Asset Engineering Platform (TA-IP-098) is separately priced for its implemented v0.1.0 local inspection and review-packaging prototype. Neither record inherits the former Digital Twin Core documentation price.",
       "averageTriangulatedEconomicReferencePerPricedAsset": 1282012.806122449
+    },
+    "currentPortfolio": {
+      "assetCount": 98,
+      "stageCounts": {
+        "developedSoftware": 57,
+        "developedPrototype": 38,
+        "researchStage": 3,
+        "definitionStage": 0
+      },
+      "sellerAskEUR": 24863000,
+      "negotiationLowEUR": 19863400,
+      "negotiationHighEUR": 31161250,
+      "replacementCostEUR": 105710000,
+      "marketComparableProxyEUR": 120841325,
+      "incomeLicensingProxyEUR": 142580272,
+      "probabilityAdjustedStrategicValueEUR": 133043773,
+      "triangulatedEconomicReferenceEUR": 125677143,
+      "sellerAskAsShareOfTriangulated": 0.19783231386792427,
+      "sellerAskAsShareOfReplacementCost": 0.23520007567874374,
+      "pricedAssetCount": 98,
+      "unpricedAssetCount": 0,
+      "monetaryScope": "All 98 independently scoped IP assets. CAUSORYN at TA-IP-097 is priced for its implemented v0.6.0 local prototype. Software Asset Engineering Platform at TA-IP-098 retains its v0.1.0 local-engine estimate; required future SaaS delivery is excluded. Historical Digital Twin Core values are not inherited.",
+      "averageTriangulatedEconomicReferencePerPricedAsset": 1282419.8265306123
     }
   },
   "latestIdentityUpdate": {
@@ -2371,44 +2373,93 @@
     "boundary": "Targeted review of TA-IP-097 and the new TA-IP-098 only. Exact source snapshots were checked against Git blob identities. CAUSORYN passed 54 local unit tests, syntax checks and four examples. Software Asset Engineering Platform passed 72 local tests with no failures, errors or skips; engine/test digests match retained local and installed-wheel evidence. Engine verification does not validate ingested project code or legal/commercial conclusions. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
   },
   "previousFinancialReassessment": {
-    "assessedAt": "2026-10-10T08:52:15Z",
-    "assetsReassessed": 97,
+    "assessedAt": "2026-10-10T22:16:09Z",
+    "assetsReassessed": 2,
     "monetaryReferencesChanged": 2,
-    "unchangedAssetPrices": 95,
+    "unchangedAssetPrices": 96,
     "unchangedCommercialFactors": true,
+    "softwareMaturityChanged": true,
     "assets": [
       {
-        "slug": "distributed-ai-resource-fabric",
-        "ref": "TA-IP-022",
-        "title": "Distributed AI Resource Fabric",
-        "assessedAt": "2026-10-10T08:52:15Z",
-        "previousSellerAskEUR": 395000,
-        "sellerAskEUR": 500000,
-        "previousReplacementCostEUR": 1100000,
-        "replacementCostEUR": 1400000,
-        "negotiationLowEUR": 390000,
-        "negotiationHighEUR": 630000,
-        "incrementalRecreationCostEUR": 300000,
-        "costAssumptionsDocument": "docs/PORTFOLIO_FINANCIAL_REASSESSMENT_2026-10-10.md"
+        "slug": "causoryn",
+        "ref": "TA-IP-097",
+        "title": "CAUSORYN",
+        "assessedAt": "2026-10-10T22:16:09Z",
+        "previousSellerAskEUR": 500,
+        "sellerAskEUR": 30000,
+        "previousReplacementCostEUR": 2000,
+        "replacementCostEUR": 100000,
+        "negotiationLowEUR": 24000,
+        "negotiationHighEUR": 37500,
+        "previousReferenceBoundary": "Historical predecessor definition only; not an inherited value.",
+        "costAssumptionsDocument": "docs/CAUSORYN_AND_NEW_ASSET_ASSESSMENT_2026-10-11.md",
+        "pricingScope": "Present first-party linked-system modelling and scenario-comparison prototype, retained tests, documentation and development packaging at the identified v0.4.0 source commit. Physical fidelity, live connectors, production operation, independent qualification, third-party rights and future development are excluded."
       },
       {
-        "slug": "truelane-intelligence-engine",
-        "ref": "TA-IP-013",
-        "title": "TrueLane Intelligence Engine",
-        "assessedAt": "2026-10-10T08:52:15Z",
-        "previousSellerAskEUR": 255000,
-        "sellerAskEUR": 300000,
-        "previousReplacementCostEUR": 850000,
-        "replacementCostEUR": 1000000,
-        "negotiationLowEUR": 240000,
-        "negotiationHighEUR": 375000,
-        "incrementalRecreationCostEUR": 150000,
-        "costAssumptionsDocument": "docs/PORTFOLIO_FINANCIAL_REASSESSMENT_2026-10-10.md"
+        "slug": "software-asset-engineering-platform",
+        "ref": "TA-IP-098",
+        "title": "Software Asset Engineering Platform",
+        "assessedAt": "2026-10-10T22:16:09Z",
+        "previousSellerAskEUR": null,
+        "sellerAskEUR": 75000,
+        "previousReplacementCostEUR": null,
+        "replacementCostEUR": 250000,
+        "negotiationLowEUR": 60000,
+        "negotiationHighEUR": 93750,
+        "previousReferenceBoundary": "New implemented software asset; no prior published monetary reference.",
+        "costAssumptionsDocument": "docs/CAUSORYN_AND_NEW_ASSET_ASSESSMENT_2026-10-11.md",
+        "pricingScope": "Present first-party local software-inspection, evidence, bounded review-proposal and package-preparation prototype, its CLI/local interface, source contracts, documentation and retained validation at the identified v0.1.0 commit. Ingested-project execution, arbitrary-code isolation, broader adapters, production SaaS, hosting, rights certification, third-party ownership and future development are excluded."
       }
     ],
-    "boundary": "Current first-party work and explicitly identified committed development only. Existing maturity and price discounts are retained. Future qualification, third-party ownership, physical hardware, website repositories and speculative commercial outcomes are excluded."
+    "boundary": "Targeted review of TA-IP-097 and the new TA-IP-098 only. Exact source snapshots were checked against Git blob identities. CAUSORYN passed 54 local unit tests, syntax checks and four examples. Software Asset Engineering Platform passed 72 local tests with no failures, errors or skips; engine/test digests match retained local and installed-wheel evidence. Engine verification does not validate ingested project code or legal/commercial conclusions. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied.",
+    "previousPortfolio": {
+      "assetCount": 97,
+      "stageCounts": {
+        "developedSoftware": 57,
+        "developedPrototype": 36,
+        "researchStage": 3,
+        "definitionStage": 1
+      },
+      "sellerAskEUR": 24740500,
+      "negotiationLowEUR": 19765400,
+      "negotiationHighEUR": 31008125,
+      "replacementCostEUR": 105302000,
+      "marketComparableProxyEUR": 120502430,
+      "incomeLicensingProxyEUR": 142294410,
+      "probabilityAdjustedStrategicValueEUR": 132875737,
+      "triangulatedEconomicReferenceEUR": 125391379,
+      "sellerAskAsShareOfTriangulated": 0.1973062278866875,
+      "sellerAskAsShareOfReplacementCost": 0.234948054168012,
+      "pricedAssetCount": 97,
+      "unpricedAssetCount": 0,
+      "monetaryScope": "All 97 independently scoped IP assets. Digital Twin Core covers existing definition and acquisition documentation, not implemented software.",
+      "averageTriangulatedEconomicReferencePerPricedAsset": 1292694.6288659794
+    },
+    "currentPortfolio": {
+      "assetCount": 98,
+      "stageCounts": {
+        "developedSoftware": 57,
+        "developedPrototype": 38,
+        "researchStage": 3,
+        "definitionStage": 0
+      },
+      "sellerAskEUR": 24845000,
+      "negotiationLowEUR": 19849000,
+      "negotiationHighEUR": 31138750,
+      "replacementCostEUR": 105650000,
+      "marketComparableProxyEUR": 120793130,
+      "incomeLicensingProxyEUR": 142545847,
+      "probabilityAdjustedStrategicValueEUR": 133019876,
+      "triangulatedEconomicReferenceEUR": 125637255,
+      "sellerAskAsShareOfTriangulated": 0.19775185314260488,
+      "sellerAskAsShareOfReplacementCost": 0.23516327496450545,
+      "pricedAssetCount": 98,
+      "unpricedAssetCount": 0,
+      "monetaryScope": "All 98 independently scoped IP assets. CAUSORYN replaces the historical Digital Twin Core record at TA-IP-097. Software Asset Engineering Platform (TA-IP-098) is separately priced for its implemented v0.1.0 local inspection and review-packaging prototype. Neither record inherits the former Digital Twin Core documentation price.",
+      "averageTriangulatedEconomicReferencePerPricedAsset": 1282012.806122449
+    }
   },
-  "previousRegisterAssessedAt": "2026-10-10T08:52:15Z",
+  "previousRegisterAssessedAt": "2026-10-10T22:16:09Z",
   "previousFullSourceReview": {
     "checkedAt": "2026-10-10T08:52:15Z",
     "previousCatalogueUpdatedAt": "2026-10-10T00:48:36Z",
@@ -2422,5 +2473,20 @@
     "monetaryChanges": 2,
     "displayCount": 11,
     "boundary": "All 97 default-branch heads and all 29 open pull requests were checked. Changed source, retained exact-code validation and bounded development scope were reviewed. This is not a new execution of every repository test suite, independent appraisal or application deployment."
+  },
+  "previousTargetedSourceReview": {
+    "checkedAt": "2026-10-10T22:16:09Z",
+    "type": "TWO_ASSET_TARGETED_REVIEW",
+    "repositoryHeads": {
+      "Universal-Systems-Intelligence-Engine": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86",
+      "Software-Asset-Engineering-Platform": "bcfa388d0f10941b649cc181dfee544b016332f4"
+    },
+    "defaultBranchesChecked": 2,
+    "updatedAssetProfiles": 2,
+    "otherAssetRecordsRetained": 96,
+    "monetaryChanges": 2,
+    "assetAdditions": 1,
+    "assetReplacements": 1,
+    "boundary": "Targeted review of TA-IP-097 and the new TA-IP-098 only. Exact source snapshots were checked against Git blob identities. CAUSORYN passed 54 local unit tests, syntax checks and four examples. Software Asset Engineering Platform passed 72 local tests with no failures, errors or skips; engine/test digests match retained local and installed-wheel evidence. Engine verification does not validate ingested project code or legal/commercial conclusions. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
   }
 }

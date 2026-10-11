@@ -1,6 +1,6 @@
 # Software Asset Engineering Platform — acquisition scope
 
-Portfolio reference: **TA-IP-098**. Project reference: **Octavia**. Current version: **0.1.0**. Assessed at 2026-10-10T22:16:09Z.
+Portfolio reference: **TA-IP-098**. Project reference: **Octavia**. Current version: **0.1.0**. Assessed at 2026-10-11T00:24:59Z.
 
 ## What you can review
 
@@ -10,13 +10,17 @@ The offered first-party asset is the engine itself, with its source contracts, d
 
 ## Current evidence and limitations
 
-Source: `TheArchitect-max/Software-Asset-Engineering-Platform` at `bcfa388d0f10941b649cc181dfee544b016332f4`. The 77 retained files were verified against Git blob identities. Fresh local verification passed **72 tests**, with zero failures, errors or skips. Engine and test digests match the retained local report, and the retained installed-wheel report binds to the same engine source. This website review did not repeat the installed-wheel execution.
+Source: `TheArchitect-max/Software-Asset-Engineering-Platform` at `e654268817be3394101715d98a3c60ed246a49ea`. The 78 retained files were verified against Git blob identities. Fresh local verification passed **72 tests**, with zero failures, errors or skips. Engine and test digests match the retained local report, and the retained installed-wheel report binds to the same engine source. This website review did not repeat the installed-wheel execution.
 
 The tests concern the engine's own local behaviour. Input-project builds, installs and functional tests remain **NOT_RUN**. Unknown language capabilities remain **UNSUPPORTED**. This release supplies no general arbitrary-code execution sandbox, complete transitive dependency qualification, rights certification, automatic market valuation, transaction closing or multi-tenant SaaS. Review-package integrity does not independently authenticate an author or establish title.
 
+## Required final product
+
+The required final product is a private SaaS, as specified in the current repository. This hosted service is not implemented or deployed in v0.1.0. Its accounts, tenant isolation, hosted storage, asynchronous processing and operational acceptance are excluded from the current local-engine acquisition and price. The source changes since the preceding assessment are documentation only; engine and test digests are unchanged.
+
 ## Acquisition references
 
-Published seller asking reference: **EUR 75,000**. Present-scope recreation-cost total: **EUR 250,000**. Indicative negotiation references: **EUR 60,000–93,750**. Review the [disclosed reproduction budget](CAUSORYN_AND_NEW_ASSET_ASSESSMENT_2026-10-11.md). These are seller-side assumptions, not recorded expenditure, completed comparable sales or an independent appraisal. Future execution adapters, broader remediation, SaaS, hosting and independent qualification are excluded.
+Published seller asking reference: **EUR 75,000**. Present-scope recreation-cost total: **EUR 250,000**. Indicative negotiation references: **EUR 60,000–93,750**. Review the [disclosed reproduction budget](CAUSORYN_AND_OCTAVIA_SOURCE_REFRESH_2026-10-11.md). These are seller-side assumptions, not recorded expenditure, completed comparable sales or an independent appraisal. Future execution adapters, broader remediation, SaaS, hosting and independent qualification are excluded.
 
 ## Readiness criteria
 

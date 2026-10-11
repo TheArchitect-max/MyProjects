@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.11-im59-causoryn-and-octavia",
+  "version": "2026.10.11-im60-current-causoryn-and-octavia",
   "basisDate": "2026-10-10",
   "status": "SELLER_SIDE_RIGHTS_AND_TRANSFER_REGISTER",
   "purpose": "Define what rights and deliverables are offered, what third-party rights are excluded from ownership transfer, and what evidence supports the seller-side rights position.",
@@ -2417,9 +2417,9 @@
       "slug": "causoryn",
       "ref": "TA-IP-097",
       "independentIpAsset": true,
-      "scopeUpdatedAt": "2026-10-10T22:16:09Z",
+      "scopeUpdatedAt": "2026-10-11T00:24:59Z",
       "commercialReference": "TA-IP-097",
-      "auditedBaselineCommit": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86",
+      "auditedBaselineCommit": "3ca782f99c14b69675d9766c3c8e32d30a28791d",
       "assessmentDate": "2026-10-11",
       "sourceScope": "DEFAULT_BRANCH",
       "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
@@ -2436,9 +2436,9 @@
       "rightsMaturity": "R2",
       "offeredTransferPerimeter": "This asset’s own expressly agreed first-party prototype source, tests, documentation and retained development evidence at the identified commit; third-party rights and future implementation are excluded.",
       "definitiveAgreementRequired": true,
-      "pricingScope": "Present first-party linked-system modelling and scenario-comparison prototype, retained tests, documentation and development packaging at the identified v0.4.0 source commit. Physical fidelity, live connectors, production operation, independent qualification, third-party rights and future development are excluded.",
-      "economicAssessmentAt": "2026-10-10T22:16:09Z",
-      "sourceRecheckedAt": "2026-10-10T22:16:09Z"
+      "pricingScope": "Present first-party linked-system modelling, scenario comparison, offline observation records and local coupled-simulation prototype, with retained source, tests, documentation and development packaging at the identified v0.6.0 source commit. Live telemetry, distributed operation, physical fidelity, production qualification, third-party ownership and future development are excluded.",
+      "economicAssessmentAt": "2026-10-11T00:24:59Z",
+      "sourceRecheckedAt": "2026-10-11T00:24:59Z"
     },
     {
       "repository": "LEARNPIANO",
@@ -2505,9 +2505,9 @@
       "slug": "software-asset-engineering-platform",
       "ref": "TA-IP-098",
       "independentIpAsset": true,
-      "scopeUpdatedAt": "2026-10-10T22:16:09Z",
+      "scopeUpdatedAt": "2026-10-11T00:24:59Z",
       "commercialReference": "TA-IP-098",
-      "auditedBaselineCommit": "bcfa388d0f10941b649cc181dfee544b016332f4",
+      "auditedBaselineCommit": "e654268817be3394101715d98a3c60ed246a49ea",
       "assessmentDate": "2026-10-11",
       "sourceScope": "DEFAULT_BRANCH",
       "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
@@ -2525,12 +2525,12 @@
       "offeredTransferPerimeter": "This asset’s own expressly agreed first-party local engine source, source contracts, documentation, fixtures and retained validation at the identified v0.1.0 commit. Ingested-project rights, third-party ownership, arbitrary-code execution, hosted services and future engineering are excluded.",
       "definitiveAgreementRequired": true,
       "pricingScope": "Present first-party local software-inspection, evidence, bounded review-proposal and package-preparation prototype, its CLI/local interface, source contracts, documentation and retained validation at the identified v0.1.0 commit. Ingested-project execution, arbitrary-code isolation, broader adapters, production SaaS, hosting, rights certification, third-party ownership and future development are excluded.",
-      "economicAssessmentAt": "2026-10-10T22:16:09Z",
-      "sourceRecheckedAt": "2026-10-10T22:16:09Z"
+      "economicAssessmentAt": "2026-10-11T00:24:59Z",
+      "sourceRecheckedAt": "2026-10-11T00:24:59Z"
     }
   ],
-  "assessedAt": "2026-10-10T22:16:09Z",
-  "catalogueUpdatedAt": "2026-10-10T22:16:09Z",
+  "assessedAt": "2026-10-11T00:24:59Z",
+  "catalogueUpdatedAt": "2026-10-11T00:24:59Z",
   "previousTargetedAssetReview": {
     "slug": "distributed-ai-resource-fabric",
     "ref": "TA-IP-022",
@@ -2554,19 +2554,16 @@
     "boundary": "DARF only: current source, retained exact-commit validation, rights, delivery conditions and seller-side economics. The other 96 asset assessments and monetary inputs retain their earlier dates and conclusions; portfolio totals are recomputed."
   },
   "latestReadinessReview": {
-    "assessedAt": "2026-10-10T22:16:09Z",
-    "type": "REPLACEMENT_AND_NEW_DEFINITION_CONTENT_REVIEW",
+    "assessedAt": "2026-10-11T00:24:59Z",
+    "type": "TWO_ASSET_CONTENT_RECHECK",
     "criteriaDisclosedFor": 98,
     "targetedRepositoryContentReviews": 2,
-    "changedReadinessReferences": [
-      "TA-IP-097",
-      "TA-IP-098"
-    ],
+    "changedReadinessReferences": [],
     "previousSummary": {
-      "audited": 97,
+      "audited": 98,
       "pending": 0,
       "ready": 0,
-      "readyWithConditions": 89,
+      "readyWithConditions": 90,
       "notReady": 8
     },
     "currentSummary": {
@@ -2577,11 +2574,11 @@
       "notReady": 8
     },
     "sourceHeads": {
-      "Universal-Systems-Intelligence-Engine": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86",
-      "Software-Asset-Engineering-Platform": null
+      "Universal-Systems-Intelligence-Engine": "3ca782f99c14b69675d9766c3c8e32d30a28791d",
+      "Software-Asset-Engineering-Platform": "e654268817be3394101715d98a3c60ed246a49ea"
     },
-    "monetaryChanges": 2,
-    "boundary": "Targeted review of TA-IP-097 and the new TA-IP-098 only. Exact source snapshots were checked against Git blob identities. CAUSORYN passed 54 local unit tests, syntax checks and four examples. Software Asset Engineering Platform passed 72 local tests with no failures, errors or skips; engine/test digests match retained local and installed-wheel evidence. Engine verification does not validate ingested project code or legal/commercial conclusions. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
+    "monetaryChanges": 1,
+    "boundary": "Targeted source and financial review of TA-IP-097 and TA-IP-098 only. Exact Git blob identities were verified for 51 CAUSORYN files and 78 Software Asset Engineering Platform files. Fresh local checks passed 98 CAUSORYN tests, syntax compilation and seven examples, and 72 Octavia tests with no failures, errors or skips. Octavia engine and test digests are unchanged; its new required private SaaS is a specification, not a delivered service. Only CAUSORYN monetary references change for its implemented v0.5/v0.6 increments. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
   },
   "latestIdentityUpdate": {
     "assessedAt": "2026-10-10T22:16:09Z",
@@ -2613,35 +2610,35 @@
     "otherAssetRecordsRetained": 96,
     "boundary": "Targeted review of TA-IP-097 and the new TA-IP-098 only. Exact source snapshots were checked against Git blob identities. CAUSORYN passed 54 local unit tests, syntax checks and four examples. Software Asset Engineering Platform passed 72 local tests with no failures, errors or skips; engine/test digests match retained local and installed-wheel evidence. Engine verification does not validate ingested project code or legal/commercial conclusions. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
   },
-  "previousRegisterAssessedAt": "2026-10-10T08:52:15Z",
+  "previousRegisterAssessedAt": "2026-10-10T22:16:09Z",
   "previousReadinessReview": {
-    "assessedAt": "2026-10-10T09:20:17Z",
-    "type": "CRITERIA_DISCLOSURE_AND_TARGETED_CONTENT_CORRECTION",
-    "criteriaDisclosedFor": 97,
+    "assessedAt": "2026-10-10T22:16:09Z",
+    "type": "REPLACEMENT_AND_NEW_DEFINITION_CONTENT_REVIEW",
+    "criteriaDisclosedFor": 98,
     "targetedRepositoryContentReviews": 2,
     "changedReadinessReferences": [
-      "TA-IP-039",
-      "TA-IP-079"
+      "TA-IP-097",
+      "TA-IP-098"
     ],
     "previousSummary": {
-      "audited": 97,
-      "pending": 0,
-      "ready": 2,
-      "readyWithConditions": 87,
-      "notReady": 8
-    },
-    "sourceHeads": {
-      "Evidence-Governed-Software-Assurance-Platform": "5e72ef1971367fa28d5d9818ba13db17eacc142e",
-      "Secure-Actuation-Integrity-Platform": "e4025683523b70281f349b0c6845224bb4b0269a"
-    },
-    "monetaryChanges": 0,
-    "boundary": "This update discloses the recorded criteria for all 97 assets and corrects two prior READY classifications after source-content review. The preceding full source review and financial assessment retain their original timestamps. It is not a new test execution or an independent certification.",
-    "currentSummary": {
       "audited": 97,
       "pending": 0,
       "ready": 0,
       "readyWithConditions": 89,
       "notReady": 8
-    }
+    },
+    "currentSummary": {
+      "audited": 98,
+      "pending": 0,
+      "ready": 0,
+      "readyWithConditions": 90,
+      "notReady": 8
+    },
+    "sourceHeads": {
+      "Universal-Systems-Intelligence-Engine": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86",
+      "Software-Asset-Engineering-Platform": null
+    },
+    "monetaryChanges": 2,
+    "boundary": "Targeted review of TA-IP-097 and the new TA-IP-098 only. Exact source snapshots were checked against Git blob identities. CAUSORYN passed 54 local unit tests, syntax checks and four examples. Software Asset Engineering Platform passed 72 local tests with no failures, errors or skips; engine/test digests match retained local and installed-wheel evidence. Engine verification does not validate ingested project code or legal/commercial conclusions. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
   }
 }

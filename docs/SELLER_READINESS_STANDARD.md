@@ -59,7 +59,20 @@ The internal E/R/C/T labels are this catalogue's own classifications; the follow
 - WIPO IP due diligence: https://www.wipo.int/en/web/ip-commercialization/w/blog/how-to-prepare-for-ip-due-diligence-the-ultimate-guide-for-ventures
 - WIPO IP valuation: https://www.wipo.int/en/web/business/ip-valuation
 
-## Targeted identity and new software evaluation — 11 October 2026
+## Current targeted source review — 11 October 2026
+
+Assessed at **2026-10-11T00:24:59Z**. CAUSORYN remains TA-IP-097 and is updated to its implemented v0.6.0 local prototype. Software Asset Engineering Platform remains TA-IP-098; its implemented local engine stays at v0.1.0, and its newly required private SaaS is specified but not implemented or deployed. The other 96 asset records, source dates and prices are unchanged.
+
+| Portfolio ID | Project | Asking reference | Recreation-cost total | Transfer readiness |
+|---|---|---:|---:|---|
+| TA-IP-097 | CAUSORYN | EUR 48,000 | EUR 160,000 | NOT_READY — acquisition handover incomplete |
+| TA-IP-098 | Software Asset Engineering Platform | EUR 75,000 | EUR 250,000 | READY_WITH_CONDITIONS — present local engine only |
+
+Fresh checks passed 98 CAUSORYN tests and seven examples, plus 72 Octavia tests. CAUSORYN's revised budget includes its delivered observation and local simulation increments. Octavia's engine/test digests and current budget are unchanged; future SaaS is excluded. Review [the current cost and evidence assessment](CAUSORYN_AND_OCTAVIA_SOURCE_REFRESH_2026-10-11.md).
+
+Current register: **98 assets**; **57 developed-software, 38 prototype and three research-stage**. Aggregate ask: **EUR 24,863,000**; recreation-cost total: **EUR 105,710,000**. Readiness: **0 READY, 90 READY_WITH_CONDITIONS, 8 NOT_READY**. The 25 Connections keep their 64 unique members and unchanged financial inputs. Website repositories remain excluded digital displays.
+
+## Historical targeted identity and new software evaluation — 11 October 2026
 
 Assessed at 2026-10-10T22:16:09Z. CAUSORYN / Vespera replaces Digital Twin Core / Tessa within **TA-IP-097**, without inheriting its predecessor price or evidence. Software Asset Engineering Platform / Octavia is now registered as **TA-IP-098**, based on its implemented v0.1.0 source rather than the earlier empty repository state. All other 96 project records and monetary inputs retain their dates and conclusions.
 
@@ -70,4 +83,4 @@ Assessed at 2026-10-10T22:16:09Z. CAUSORYN / Vespera replaces Digital Twin Core 
 
 Fresh local verification passed 54 CAUSORYN tests and four examples, and 72 Software Asset Engineering Platform tests. The latter source digests match retained installed-wheel evidence; this review did not repeat the wheel execution. Engine tests do not validate ingested projects or certify title, value or production acceptance. Review [the disclosed cost and evidence assessment](CAUSORYN_AND_NEW_ASSET_ASSESSMENT_2026-10-11.md).
 
-Current register: **98 assets**; **57 developed-software, 38 prototype and 3 research-stage**. Asking total: **EUR 24,845,000**; recreation-cost total: **EUR 105,650,000**. Readiness: **0 READY, 90 READY_WITH_CONDITIONS, 8 NOT_READY**. The 25 Connections retain their 64 unique members and unchanged individual price inputs. Website repositories remain excluded digital displays.
+Register at that review: **98 assets**; **57 developed-software, 38 prototype and 3 research-stage**. Asking total: **EUR 24,845,000**; recreation-cost total: **EUR 105,650,000**. Readiness: **0 READY, 90 READY_WITH_CONDITIONS, 8 NOT_READY**. The 25 Connections retain their 64 unique members and unchanged individual price inputs. Website repositories remain excluded digital displays.

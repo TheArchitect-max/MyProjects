@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.11-im59-causoryn-and-octavia",
+  "version": "2026.10.11-im60-current-causoryn-and-octavia",
   "scopeUpdatedAt": "2026-10-10T22:16:09Z",
   "policy": "Four independently scoped IP assets with individual asking references and defined transfer perimeters. CAUSORYN replaces the former Digital Twin Core documentation record within TA-IP-097. Software Asset Engineering Platform is the separately evaluated v0.1.0 engine under TA-IP-098. Each current estimate covers its own documented present implementation.",
   "assets": [
@@ -53,15 +53,15 @@
       "stage": "P",
       "potential": "M",
       "route": "Research / R&D licensing",
-      "ask": 30000,
-      "low": 24000,
-      "high": 37500,
-      "recreationCost": 100000,
+      "ask": 48000,
+      "low": 38400,
+      "high": 60000,
+      "recreationCost": 160000,
       "description": "Explore how changes could affect interconnected systems, compare alternative scenarios and review the recorded outcomes.",
-      "pricingScope": "Present first-party linked-system modelling and scenario-comparison prototype, retained tests, documentation and development packaging at the identified v0.4.0 source commit. Physical fidelity, live connectors, production operation, independent qualification, third-party rights and future development are excluded.",
+      "pricingScope": "Present first-party linked-system modelling, scenario comparison, offline observation records and local coupled-simulation prototype, with retained source, tests, documentation and development packaging at the identified v0.6.0 source commit. Live telemetry, distributed operation, physical fidelity, production qualification, third-party ownership and future development are excluded.",
       "pricingStatus": "SELLER_SIDE_ESTIMATE_ESTABLISHED",
       "independentIpAsset": true,
-      "economicAssessmentAt": "2026-10-10T22:16:09Z"
+      "economicAssessmentAt": "2026-10-11T00:24:59Z"
     },
     {
       "id": 98,
@@ -81,10 +81,10 @@
       "pricingScope": "Present first-party local software-inspection, evidence, bounded review-proposal and package-preparation prototype, its CLI/local interface, source contracts, documentation and retained validation at the identified v0.1.0 commit. Ingested-project execution, arbitrary-code isolation, broader adapters, production SaaS, hosting, rights certification, third-party ownership and future development are excluded.",
       "pricingStatus": "SELLER_SIDE_ESTIMATE_ESTABLISHED",
       "independentIpAsset": true,
-      "economicAssessmentAt": "2026-10-10T22:16:09Z"
+      "economicAssessmentAt": "2026-10-11T00:24:59Z"
     }
   ],
-  "catalogueUpdatedAt": "2026-10-10T22:16:09Z",
+  "catalogueUpdatedAt": "2026-10-11T00:24:59Z",
   "latestIdentityUpdate": {
     "assessedAt": "2026-10-10T22:16:09Z",
     "replacement": {

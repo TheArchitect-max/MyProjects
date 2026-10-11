@@ -1,5 +1,7 @@
 # Targeted identity and financial assessment — 2026-10-11
 
+Historical assessment at 2026-10-10T22:16:09Z. The [current source and financial assessment](CAUSORYN_AND_OCTAVIA_SOURCE_REFRESH_2026-10-11.md) supersedes its CAUSORYN v0.4.0 references; the Octavia local-engine budget is retained.
+
 Assessed at 2026-10-10T22:16:09Z. Public register preparation source: `89a1c98537474391f8041b97e1e1d541734caeb4`. This update concerns two records only; the other 96 project records, asking references, reproduction budgets and evidence dates are retained.
 
 ## Correct project identities
