@@ -2,9 +2,24 @@
 
 Explore independently scoped software projects, understand what you can use them for, review their current status and open their digital displays.
 
-The collection contains **98 independent IP assets**, each with its own identity, first-party rights and transfer perimeter. Individual asking references and present-scope recreation estimates are published for all 98 assets. CAUSORYN occupies TA-IP-097 and Software Asset Engineering Platform occupies TA-IP-098. Current maturity: 57 developed-software, 38 prototype and 3 research-stage assets. All 98 assets have individual evidence, rights and handover assessments.
+The collection contains **100 independent IP assets**, each with its own identity, first-party rights and transfer perimeter. Individual asking references and present-scope recreation estimates are published for all 100 assets. The new Launch & Cislunar Transportation Engineering Platform and Synthetic Consciousness Engineering Platform occupy TA-IP-099 and TA-IP-100. Current maturity: 57 developed-software, 40 prototype and 3 research-stage assets. All 100 assets have individual evidence, rights and handover assessments.
 
-## Current targeted source review — 11 October 2026
+
+## Current additions — 11 October 2026
+
+Assessed at **2026-10-11T07:01:21Z**. Two new independent software assets are integrated with unique project identifiers and single feminine reference aliases. All 98 preceding asset records, source dates, prices and criteria retain their assessments.
+
+| Project | Title | Asking reference | Recreation-cost total | Readiness |
+|---|---|---:|---:|---|
+| TA-IP-099 | Launch & Cislunar Transportation Engineering Platform | EUR 15,000 | EUR 50,000 | READY_WITH_CONDITIONS — defined software foundation |
+| TA-IP-100 | Synthetic Consciousness Engineering Platform | EUR 45,000 | EUR 150,000 | READY_WITH_CONDITIONS — bounded research software and final evidence |
+
+Fresh checks passed 18 LCTEP tests and 14 SCEP tests. The seven retained SCEP final-campaign files pass checksum verification; the complete intermediate checkpoint set remains unestablished; one newly retained step-50 checkpoint and seven binary parts were inventoried. Flight qualification, consciousness, historical-output equivalence and future implementation are outside the priced scope. Review [the new project cost and evidence assessment](docs/NEW_PROJECT_ASSESSMENTS_2026-10-11.md).
+
+Current register: **100 assets**; **57 developed-software, 40 prototype and three research-stage**. Aggregate ask: **EUR 24,923,000**; recreation-cost total: **EUR 105,910,000**. Readiness: **0 READY, 92 READY_WITH_CONDITIONS, 8 NOT_READY**. The 25 Connections retain their 64 unique members and existing asking and recreation-cost totals. Website repositories remain excluded digital displays.
+
+
+## Previous targeted source review — 11 October 2026
 
 Assessed at **2026-10-11T00:24:59Z**. CAUSORYN remains TA-IP-097 and is updated to its implemented v0.6.0 local prototype. Software Asset Engineering Platform remains TA-IP-098; its implemented local engine stays at v0.1.0, and its newly required private SaaS is specified but not implemented or deployed. The other 96 asset records, source dates and prices are unchanged.
 
@@ -15,7 +30,7 @@ Assessed at **2026-10-11T00:24:59Z**. CAUSORYN remains TA-IP-097 and is updated 
 
 Fresh checks passed 98 CAUSORYN tests and seven examples, plus 72 Octavia tests. CAUSORYN's revised budget includes its delivered observation and local simulation increments. Octavia's engine/test digests and current budget are unchanged; future SaaS is excluded. Review [the current cost and evidence assessment](docs/CAUSORYN_AND_OCTAVIA_SOURCE_REFRESH_2026-10-11.md).
 
-Current register: **98 assets**; **57 developed-software, 38 prototype and three research-stage**. Aggregate ask: **EUR 24,863,000**; recreation-cost total: **EUR 105,710,000**. Readiness: **0 READY, 90 READY_WITH_CONDITIONS, 8 NOT_READY**. The 25 Connections keep their 64 unique members and unchanged financial inputs. Website repositories remain excluded digital displays.
+Register at that review: **98 assets**; **57 developed-software, 38 prototype and three research-stage**. Aggregate ask: **EUR 24,863,000**; recreation-cost total: **EUR 105,710,000**. Readiness: **0 READY, 90 READY_WITH_CONDITIONS, 8 NOT_READY**. The 25 Connections keep their 64 unique members and unchanged financial inputs. Website repositories remain excluded digital displays.
 
 ## Public monetary evaluation — 11 October 2026
 
@@ -67,33 +82,33 @@ The website retains its public-domain / CC0 old-master visual references and cur
 <!-- DEVELOPMENT-REGISTER:START -->
 ## Acquisition and voluntary contribution
 
-The public site presents **98 independent IP assets**, each with its own rights and transfer perimeter. Compare individual asking prices, included scope and outstanding delivery conditions asset by asset. The complete evidence, rights, transfer, maturity and economic evaluation was updated on **10 October 2026**, against each preceding recorded source and financial baseline.
+The public site presents **100 independent IP assets**, each with its own rights and transfer perimeter. Compare individual asking prices, included scope and outstanding delivery conditions asset by asset. The complete evidence, rights, transfer, maturity and economic evaluation was updated on **10 October 2026**, against each preceding recorded source and financial baseline.
 
 The two offered routes are **complete project acquisition AS IS** and an independent **voluntary Bitcoin contribution**. The latter creates no ownership, licence, financial return, price credit or entitlement to development, software, services or support. Development sponsorship, milestone financing and co-development are no longer offered routes on the public website.
 
 The published receiving address is **38dn8ZDf11cYSMv8X1UUARsE2wqdmtjd36**. Send **BTC only via the Bitcoin network** and independently verify the complete address. Unsupported assets or networks may cause permanent loss. The address is displayed as information; no checkout, wallet connection, transaction monitoring, account/session system, billing or payment settlement is implemented.
 
-Acquisitions require a separate definitive written agreement. The GitHub Pages site remains an informational project showcase. Read the [complete policy](docs/ACQUISITION_VOLUNTARY_CONTRIBUTION_POLICY.md), published on `policy.html`, and the project-specific routes on all 98 profiles. Prices, readiness grades and source-evidence timestamps are unchanged by this policy update.
+Acquisitions require a separate definitive written agreement. The GitHub Pages site remains an informational project showcase. Read the [complete policy](docs/ACQUISITION_VOLUNTARY_CONTRIBUTION_POLICY.md), published on `policy.html`, and the project-specific routes on all 100 profiles. Prices, readiness grades and source-evidence timestamps are unchanged by this policy update.
 <!-- DEVELOPMENT-REGISTER:END -->
 
 <!-- PROJECT-IDENTITIES:START -->
 ## Project identity names
 
-Every one of the **98 IP assets** has one project title and one feminine reference alias. The title leads every card and profile; the alias appears once as a project reference. `assets/display-names.json` mirrors the same mapping and the legacy title-replacement script no longer renames headings. Repository identities, single reference names and evidence lineage are preserved. Economic quantities follow the current evidence-based reassessment.
+Every one of the **100 IP assets** has one project title and one feminine reference alias. The title leads every card and profile; the alias appears once as a project reference. `assets/display-names.json` mirrors the same mapping and the legacy title-replacement script no longer renames headings. Repository identities, single reference names and evidence lineage are preserved. Economic quantities follow the current evidence-based reassessment.
 
-Use identifiers **TA-IP-001 through TA-IP-098** to match each project across the collection, profile, rights, assurance, financial records and digital-display directory. The authoritative public mapping is `assets/project-identities.json`. Current user-facing descriptions, version status and asset eligibility are in `assets/project-presentations.json`.
+Use identifiers **TA-IP-001 through TA-IP-100** to match each project across the collection, profile, rights, assurance, financial records and digital-display directory. The authoritative public mapping is `assets/project-identities.json`. Current user-facing descriptions, version status and asset eligibility are in `assets/project-presentations.json`.
 <!-- PROJECT-IDENTITIES:END -->
 
 <!-- REPOSITORY-SCOPE:START -->
 ## Repository scope
 
-The public collection, development register, assurance records and evaluations contain the same **98 independent first-party IP assets**. Project websites are available solely as digital displays linked from their corresponding software profiles.
+The public collection, development register, assurance records and evaluations contain the same **100 independent first-party IP assets**. Project websites are available solely as digital displays linked from their corresponding software profiles.
 <!-- REPOSITORY-SCOPE:END -->
 
 <!-- FUTURE-ECONOMIC-REFERENCES:START -->
 ## Milestone-conditioned economic references
 
-The current 11 October evidence-bounded register covers **98 IP assets**. It contains **41 numeric conditional maturity references** and **57 NOT_ESTABLISHED records**. Every conditional amount is recalculated from the current asset inputs.
+The current 11 October evidence-bounded register covers **100 IP assets**. It contains **43 numeric conditional maturity references** and **57 NOT_ESTABLISHED records**. Every conditional amount is recalculated from the current asset inputs.
 
 A numeric reference is published only for an objective **R→P** or **P→V** maturity transition. The calculation reuses the published portfolio methodology and changes only the maturity-stage factor; replacement cost, commercial potential, sector and monetization route remain fixed. It is therefore a reproducible maturity sensitivity, not a forecast, seller ask, market value, investment return or guarantee.
 

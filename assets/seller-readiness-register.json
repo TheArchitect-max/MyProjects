@@ -1,10 +1,10 @@
 {
-  "version": "2026.10.11-im60-current-causoryn-and-octavia",
+  "version": "2026.10.11-im61-two-new-software-assets",
   "basisDate": "2026-10-11",
   "status": "COMPLETE",
   "scope": {
-    "ipAssetCount": 98,
-    "pricedAssetCount": 98,
+    "ipAssetCount": 100,
+    "pricedAssetCount": 100,
     "unpricedAssetCount": 0
   },
   "definitions": {
@@ -16592,19 +16592,444 @@
         "independentValidation": false
       },
       "scopeDocument": "docs/SOFTWARE_ASSET_ENGINEERING_PLATFORM_SCOPE.md"
+    },
+    {
+      "repository": "Launch-Cislunar-Transportation-Engineering-Platform",
+      "identityName": "Astrid",
+      "slug": "launch-cislunar-transportation-engineering-platform",
+      "ref": "TA-IP-099",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-11T07:01:21Z",
+      "commercialReference": "TA-IP-099",
+      "commercialStatus": "SELLER_SIDE_ESTIMATE_ESTABLISHED",
+      "currentStage": "P",
+      "sellerAskEUR": 15000,
+      "baselineCommit": "eeaadf2299f8309e9e6f5a53dd0b35deb81a0ff8",
+      "auditStatus": "EXACT_SOURCE_REVIEW_COMPLETE",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E3",
+        "ipRightsMaturity": "R2",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T3"
+      },
+      "transactionReadiness": "READY_WITH_CONDITIONS",
+      "evidence": {
+        "EV-SRC-001": {
+          "kind": "current-project-scope",
+          "path": "README.md",
+          "gitBlobSha": "c09e3aef9e4f2eb732a154e8c25c4d26217d5587",
+          "baselineCommit": "eeaadf2299f8309e9e6f5a53dd0b35deb81a0ff8"
+        },
+        "EV-SRC-002": {
+          "kind": "build-version-and-dependency-manifest",
+          "path": "pyproject.toml",
+          "gitBlobSha": "2b14d285c84db0129b25f2e40f228f890dbcb32c",
+          "baselineCommit": "eeaadf2299f8309e9e6f5a53dd0b35deb81a0ff8"
+        },
+        "EV-SRC-003": {
+          "kind": "proprietary-rights-and-third-party-boundary",
+          "path": "LICENSE.md",
+          "gitBlobSha": "f48c0236a7eb7b0a5eca546cd5a8ccb56107c626",
+          "baselineCommit": "eeaadf2299f8309e9e6f5a53dd0b35deb81a0ff8"
+        },
+        "EV-SRC-004": {
+          "kind": "implemented-foundation-boundary",
+          "path": "docs/ARCHITECTURE.md",
+          "gitBlobSha": "567e4dbc41c9606afaa0131ab1ba1ead6c03e910",
+          "baselineCommit": "eeaadf2299f8309e9e6f5a53dd0b35deb81a0ff8"
+        },
+        "EV-SRC-005": {
+          "kind": "separate-project-interface-contract",
+          "path": "docs/FUSIONLUNAR_INTERFACE.md",
+          "gitBlobSha": "cece5b807a4cd61c00784badbfa0edee265d5585",
+          "baselineCommit": "eeaadf2299f8309e9e6f5a53dd0b35deb81a0ff8"
+        },
+        "EV-SRC-006": {
+          "kind": "source-bound-retained-software-validation",
+          "path": "validation/v0.1/software-validation.json",
+          "gitBlobSha": "6829cd5b00bcea3f7046bb1bc7900f68671bdd3d",
+          "baselineCommit": "eeaadf2299f8309e9e6f5a53dd0b35deb81a0ff8"
+        }
+      },
+      "dependencySummary": {
+        "manifestCount": 1,
+        "lockfileCount": 0,
+        "sbomCount": 0,
+        "manifests": [
+          "pyproject.toml"
+        ],
+        "locks": [],
+        "sbomFiles": []
+      },
+      "rightsSummary": {
+        "licenceFiles": [
+          "LICENSE.md"
+        ],
+        "thirdPartyFiles": [
+          "LICENSE.md",
+          "pyproject.toml"
+        ],
+        "legalTitleOpinion": "NOT_PERFORMED",
+        "ftoOpinion": "NOT_PERFORMED"
+      },
+      "securitySummary": {
+        "securityFiles": [],
+        "sensitiveFilenameIndicators": [],
+        "independentPenetrationTest": "NOT_ASSUMED"
+      },
+      "transferSummary": {
+        "buildReleaseEvidence": [
+          "pyproject.toml",
+          "validation/v0.1/software-validation.json"
+        ],
+        "provenanceEvidence": [
+          "README.md",
+          "pyproject.toml",
+          "LICENSE.md",
+          "docs/ARCHITECTURE.md",
+          "docs/FUSIONLUNAR_INTERFACE.md",
+          "validation/v0.1/software-validation.json"
+        ],
+        "transferEvidence": [
+          "LICENSE.md"
+        ],
+        "transferEvidenceBoundary": "The current source, documentation, tests, proprietary licence notice, dependency declaration and source-bound validation report support a bounded software handover. The retained validation source matches all 17 current source, test and build-manifest blobs. A final delivery manifest, component obligations, applicable rights holder and recipient acceptance remain to be agreed. This classification concerns the software foundation, not a flight-qualified transport system."
+      },
+      "openSellerItems": [
+        "Agree the exact software delivery manifest, release identity and recipient acceptance checks.",
+        "Confirm the applicable rights holder and its authority to transfer the included first-party materials; the repository copyright notice names TrueLaneStudio.",
+        "Reconcile build and test component versions, licences and release inventory; no dependency lockfile or completed SBOM is retained.",
+        "Qualify the intended engineering use with appropriate evidence; synthetic screening and software tests do not establish flight performance, safety or operational reliability.",
+        "Keep the FusionLunar interface and separately owned FusionLunar asset distinct; an interface contract does not establish a completed joint integration."
+      ],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ],
+      "assessmentDate": "2026-10-11",
+      "assessedAt": "2026-10-11T07:01:21Z",
+      "previousAssessmentDate": null,
+      "previousBaselineCommit": null,
+      "defaultBranchBaselineCommit": "eeaadf2299f8309e9e6f5a53dd0b35deb81a0ff8",
+      "sourceScope": "DEFAULT_BRANCH",
+      "reviewResult": "NEW_SOFTWARE_ASSET_EVALUATION",
+      "economicAssessmentAt": "2026-10-11T07:01:21Z",
+      "pricingScope": "Present first-party transport-concept screening software, interface contracts, synthetic example, tests, documentation and retained software validation at the identified development commit. Physical vehicles, flight qualification, operational transport, external science and data rights, the separately owned FusionLunar asset and future engineering are excluded.",
+      "sourceRecheckedAt": "2026-10-11T07:01:21Z",
+      "currentSourceReviewBoundary": "Two newly listed software repositories were reviewed and added as TA-IP-099 and TA-IP-100. All 29 LCTEP files and 56 selected SCEP files were checked against Git blob identities; the full SCEP tree contains 200 files, including historical material that was not executed. Fresh local checks passed 18 LCTEP tests and 14 SCEP tests without failures, errors or skips, syntax compilation and bounded CLI examples. All seven retained SCEP final-campaign files passed byte-length, SHA-256 and archive-integrity checks; four recorded source-file blobs match the current source. The retained 400-agent, 1000-step GPU campaign was not rerun. One step-50 checkpoint metadata file and seven binary parts are present. The metadata file was byte-verified; the binary parts were inventoried, not downloaded or restored. The overall checkpoint-part manifest and complete intermediate checkpoint set are not established, and a checkpoint checksum field contains a filename. Validation concerns bounded software execution and retained evidence, not flight qualification, consciousness, historical-output equivalence or independent certification. All 98 existing asset records, source dates, prices and readiness criteria are retained. Website repositories remain excluded digital displays.",
+      "readinessAssessment": {
+        "assessedAt": "2026-10-11T07:01:21Z",
+        "sourceEvidenceAssessedAt": "2026-10-11T07:01:21Z",
+        "basis": "EXACT_SOURCE_CONTENT_REVIEW_AND_LOCAL_TEST_EXECUTION",
+        "decision": "READY_WITH_CONDITIONS",
+        "decisionBasis": "The current source, documentation, tests, proprietary licence notice, dependency declaration and source-bound validation report support a bounded software handover. The retained validation source matches all 17 current source, test and build-manifest blobs. A final delivery manifest, component obligations, applicable rights holder and recipient acceptance remain to be agreed. This classification concerns the software foundation, not a flight-qualified transport system.",
+        "transferClosure": "NOT_ESTABLISHED",
+        "readyGate": "NOT_ESTABLISHED",
+        "openConditionCount": 5,
+        "criteria": [
+          {
+            "axis": "technicalMaturity",
+            "label": "Technical scope",
+            "grade": "P",
+            "criterion": "Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance."
+          },
+          {
+            "axis": "evidenceMaturity",
+            "label": "Evidence and validation",
+            "grade": "E3",
+            "criterion": "Tests, validation and provenance/release evidence identified. The identified source version and tested scope govern these results; this is not independent certification."
+          },
+          {
+            "axis": "ipRightsMaturity",
+            "label": "Rights and component obligations",
+            "grade": "R2",
+            "criterion": "R1 plus dependency/third-party disclosure basis identified. Review the documented rights and exclusions for your transaction; no independent title opinion is established."
+          },
+          {
+            "axis": "commercialMaturity",
+            "label": "Commercial basis",
+            "grade": "C2",
+            "criterion": "Seller ask and reproducible economic reference established. This is a seller asking reference and assumption-based reproduction model, not a completed sale or independent appraisal."
+          },
+          {
+            "axis": "transferReadiness",
+            "label": "Delivery and handover",
+            "grade": "T3",
+            "criterion": "T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and agreed delivery scope govern acceptance."
+          }
+        ],
+        "evidenceBoundary": "Two newly listed software repositories were reviewed and added as TA-IP-099 and TA-IP-100. All 29 LCTEP files and 56 selected SCEP files were checked against Git blob identities; the full SCEP tree contains 200 files, including historical material that was not executed. Fresh local checks passed 18 LCTEP tests and 14 SCEP tests without failures, errors or skips, syntax compilation and bounded CLI examples. All seven retained SCEP final-campaign files passed byte-length, SHA-256 and archive-integrity checks; four recorded source-file blobs match the current source. The retained 400-agent, 1000-step GPU campaign was not rerun. One step-50 checkpoint metadata file and seven binary parts are present. The metadata file was byte-verified; the binary parts were inventoried, not downloaded or restored. The overall checkpoint-part manifest and complete intermediate checkpoint set are not established, and a checkpoint checksum field contains a filename. Validation concerns bounded software execution and retained evidence, not flight qualification, consciousness, historical-output equivalence or independent certification. All 98 existing asset records, source dates, prices and readiness criteria are retained. Website repositories remain excluded digital displays."
+      },
+      "repositoryEmpty": false,
+      "localVerification": {
+        "sourceHead": "eeaadf2299f8309e9e6f5a53dd0b35deb81a0ff8",
+        "unitTestsPassed": 18,
+        "unitTestsFailed": 0,
+        "unitTestErrors": 0,
+        "unitTestsSkipped": 0,
+        "syntaxCheck": "PASS",
+        "cliSmoke": "PASS",
+        "pythonVersion": "3.12.14",
+        "assessedAt": "2026-10-11T07:01:21Z",
+        "independentValidation": false,
+        "sourceFilesByteVerified": 29,
+        "repositoryFilesInventoried": 29,
+        "retainedValidationSource": "773a71b9f7150d1488d68b983268cd026af87903",
+        "retainedValidationMatchesCurrentSourceTestAndManifestBlobs": 17,
+        "freshInstalledWheelExecution": false
+      },
+      "scopeDocument": "docs/NEW_PROJECT_ASSESSMENTS_2026-10-11.md"
+    },
+    {
+      "repository": "Synthetic-Consciousness-Engineering-Platform",
+      "identityName": "Elysia",
+      "slug": "synthetic-consciousness-engineering-platform",
+      "ref": "TA-IP-100",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-11T07:01:21Z",
+      "commercialReference": "TA-IP-100",
+      "commercialStatus": "SELLER_SIDE_ESTIMATE_ESTABLISHED",
+      "currentStage": "P",
+      "sellerAskEUR": 45000,
+      "baselineCommit": "683dbfada5d1406dd7f03f33fc1c5123c44c1ecc",
+      "auditStatus": "EXACT_SOURCE_REVIEW_COMPLETE",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E3",
+        "ipRightsMaturity": "R2",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T2"
+      },
+      "transactionReadiness": "READY_WITH_CONDITIONS",
+      "evidence": {
+        "EV-SRC-001": {
+          "kind": "current-project-scope",
+          "path": "README.md",
+          "gitBlobSha": "bcc133a141f5e2b85899825d74d76030ba379a0f",
+          "baselineCommit": "683dbfada5d1406dd7f03f33fc1c5123c44c1ecc"
+        },
+        "EV-SRC-002": {
+          "kind": "build-version-and-dependency-manifest",
+          "path": "pyproject.toml",
+          "gitBlobSha": "5b76624b0aaa2ba8e22a28d8410e2a2a4312dee6",
+          "baselineCommit": "683dbfada5d1406dd7f03f33fc1c5123c44c1ecc"
+        },
+        "EV-SRC-003": {
+          "kind": "proprietary-intent-and-archive-rights-boundary",
+          "path": "docs/IP_AND_LICENSING.md",
+          "gitBlobSha": "5820fcbce482f8b5a0f8bed67dc876a22a31fc87",
+          "baselineCommit": "683dbfada5d1406dd7f03f33fc1c5123c44c1ecc"
+        },
+        "EV-SRC-004": {
+          "kind": "research-security-boundary",
+          "path": "docs/SECURITY_AND_GOVERNANCE.md",
+          "gitBlobSha": "285911fa32e3f677deb9f08ce195dde584d3c7af",
+          "baselineCommit": "683dbfada5d1406dd7f03f33fc1c5123c44c1ecc"
+        },
+        "EV-SRC-005": {
+          "kind": "development-status-record",
+          "path": "PROJECT_STATUS.md",
+          "gitBlobSha": "a9591374af9c3e031d3ede99c75839f5c975e012",
+          "baselineCommit": "683dbfada5d1406dd7f03f33fc1c5123c44c1ecc"
+        },
+        "EV-SRC-006": {
+          "kind": "retained-seven-file-transfer-inventory",
+          "path": "research/campaigns/2026-10-11_v33_1_full400_1000/TRANSFER_INVENTORY.json",
+          "gitBlobSha": "2f8d5077fbae2e992f41d9016bc759978ce59feb",
+          "baselineCommit": "683dbfada5d1406dd7f03f33fc1c5123c44c1ecc"
+        },
+        "EV-SRC-007": {
+          "kind": "source-bound-retained-campaign-result",
+          "path": "research/campaigns/2026-10-11_v33_1_full400_1000/final/reproduced_v33_1_seed3310_full1000_71c07c1483c4.json",
+          "gitBlobSha": "1586e6dc18b3228f1d7e35f39232b78f87939081",
+          "baselineCommit": "683dbfada5d1406dd7f03f33fc1c5123c44c1ecc"
+        },
+        "EV-SRC-008": {
+          "kind": "scoped-quality-gate-with-checksum-limitation",
+          "path": "research/campaigns/2026-10-11_v33_1_full400_1000/final/QUALITY_GATE.original.json",
+          "gitBlobSha": "218746a2aa97368e969ae9df511b0863250fbc12",
+          "baselineCommit": "683dbfada5d1406dd7f03f33fc1c5123c44c1ecc"
+        },
+        "EV-SRC-009": {
+          "kind": "offline-final-artifact-integrity-verifier",
+          "path": "scripts/verify_scep_campaign_transfer.py",
+          "gitBlobSha": "03f287c413e3ea264e76c964612ab2b62dc109c3",
+          "baselineCommit": "683dbfada5d1406dd7f03f33fc1c5123c44c1ecc"
+        },
+        "EV-SRC-010": {
+          "kind": "step-50-checkpoint-metadata",
+          "path": "research/campaigns/2026-10-11_v33_1_full400_1000/checkpoints/step_000050.json",
+          "gitBlobSha": "8f98f125479dfe118fa0c16461a4135c4729b63f",
+          "baselineCommit": "683dbfada5d1406dd7f03f33fc1c5123c44c1ecc"
+        }
+      },
+      "dependencySummary": {
+        "manifestCount": 1,
+        "lockfileCount": 0,
+        "sbomCount": 0,
+        "manifests": [
+          "pyproject.toml"
+        ],
+        "locks": [],
+        "sbomFiles": []
+      },
+      "rightsSummary": {
+        "licenceFiles": [
+          "docs/IP_AND_LICENSING.md"
+        ],
+        "thirdPartyFiles": [
+          "docs/IP_AND_LICENSING.md",
+          "pyproject.toml"
+        ],
+        "legalTitleOpinion": "NOT_PERFORMED",
+        "ftoOpinion": "NOT_PERFORMED"
+      },
+      "securitySummary": {
+        "securityFiles": [
+          "docs/SECURITY_AND_GOVERNANCE.md"
+        ],
+        "sensitiveFilenameIndicators": [],
+        "independentPenetrationTest": "NOT_ASSUMED"
+      },
+      "transferSummary": {
+        "buildReleaseEvidence": [
+          "pyproject.toml"
+        ],
+        "provenanceEvidence": [
+          "README.md",
+          "pyproject.toml",
+          "docs/IP_AND_LICENSING.md",
+          "docs/SECURITY_AND_GOVERNANCE.md",
+          "PROJECT_STATUS.md",
+          "research/campaigns/2026-10-11_v33_1_full400_1000/TRANSFER_INVENTORY.json",
+          "research/campaigns/2026-10-11_v33_1_full400_1000/final/reproduced_v33_1_seed3310_full1000_71c07c1483c4.json",
+          "research/campaigns/2026-10-11_v33_1_full400_1000/final/QUALITY_GATE.original.json",
+          "scripts/verify_scep_campaign_transfer.py",
+          "research/campaigns/2026-10-11_v33_1_full400_1000/checkpoints/step_000050.json"
+        ],
+        "transferEvidence": [
+          "docs/IP_AND_LICENSING.md",
+          "research/campaigns/2026-10-11_v33_1_full400_1000/TRANSFER_INVENTORY.json"
+        ],
+        "transferEvidenceBoundary": "The current source, documentation, passing local tests, proprietary rights notice and checksum-verified final experiment bundle support a bounded research-software handover. Exact component locks, archive-specific rights clearance and an accepted release delivery remain open. One step-50 checkpoint metadata file and seven binary parts are present; the parts were inventoried but not byte-verified or restored. The overall part manifest and complete intermediate checkpoint set are not established, and the retained quality gate has a filename in a checksum field. The available final evidence establishes recorded completion and file integrity only; it does not establish consciousness or historical-output equivalence."
+      },
+      "openSellerItems": [
+        "Freeze the active research software and seven-file final-evidence delivery manifest; distinguish the corrected derivative from preserved historical fragments.",
+        "Resolve archive-specific authorship, provider terms, third-party obligations and nonstandard historical licence labels in the definitive agreement.",
+        "Pin the agreed runtime and build components and produce a release-specific component and licence inventory; no lockfile or completed SBOM is retained.",
+        "Reconcile the complete intermediate checkpoint inventory and incorrect checkpoint-checksum field. One step-50 metadata file and seven binary parts are present but the parts were not restored or byte-verified, and the overall checkpoint-part manifest is absent; verify any expressly included materials or define their exclusion.",
+        "Complete recipient reproduction and acceptance for the agreed environment; the retained GPU campaign was not rerun and current CPU checks do not establish GPU/CPU equivalence.",
+        "Preserve the scientific limits: missing original data and weights remain missing, abstract simulation values are not money or measured physical quantities, and no consciousness claim is validated."
+      ],
+      "externalOrBuyerSideItems": [
+        "Independent legal ownership/title opinion not performed by this internal audit.",
+        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
+        "Independent penetration test not assumed unless separately evidenced."
+      ],
+      "assessmentDate": "2026-10-11",
+      "assessedAt": "2026-10-11T07:01:21Z",
+      "previousAssessmentDate": null,
+      "previousBaselineCommit": null,
+      "defaultBranchBaselineCommit": "683dbfada5d1406dd7f03f33fc1c5123c44c1ecc",
+      "sourceScope": "DEFAULT_BRANCH",
+      "reviewResult": "NEW_SOFTWARE_ASSET_EVALUATION",
+      "economicAssessmentAt": "2026-10-11T07:01:21Z",
+      "pricingScope": "Present first-party offline research prototype, corrected experimental derivative, documentation, historical provenance archive and the seven retained final-campaign files at the identified source commit. Historical fragments are counted once as retained provenance, not separate completed systems. Missing original data, unestablished complete intermediate checkpoints, trained weights, proven consciousness, external platform ownership, third-party rights and future research are excluded.",
+      "sourceRecheckedAt": "2026-10-11T07:01:21Z",
+      "currentSourceReviewBoundary": "Two newly listed software repositories were reviewed and added as TA-IP-099 and TA-IP-100. All 29 LCTEP files and 56 selected SCEP files were checked against Git blob identities; the full SCEP tree contains 200 files, including historical material that was not executed. Fresh local checks passed 18 LCTEP tests and 14 SCEP tests without failures, errors or skips, syntax compilation and bounded CLI examples. All seven retained SCEP final-campaign files passed byte-length, SHA-256 and archive-integrity checks; four recorded source-file blobs match the current source. The retained 400-agent, 1000-step GPU campaign was not rerun. One step-50 checkpoint metadata file and seven binary parts are present. The metadata file was byte-verified; the binary parts were inventoried, not downloaded or restored. The overall checkpoint-part manifest and complete intermediate checkpoint set are not established, and a checkpoint checksum field contains a filename. Validation concerns bounded software execution and retained evidence, not flight qualification, consciousness, historical-output equivalence or independent certification. All 98 existing asset records, source dates, prices and readiness criteria are retained. Website repositories remain excluded digital displays.",
+      "readinessAssessment": {
+        "assessedAt": "2026-10-11T07:01:21Z",
+        "sourceEvidenceAssessedAt": "2026-10-11T07:01:21Z",
+        "basis": "EXACT_SOURCE_CONTENT_REVIEW_AND_LOCAL_TEST_EXECUTION",
+        "decision": "READY_WITH_CONDITIONS",
+        "decisionBasis": "The current source, documentation, passing local tests, proprietary rights notice and checksum-verified final experiment bundle support a bounded research-software handover. Exact component locks, archive-specific rights clearance and an accepted release delivery remain open. One step-50 checkpoint metadata file and seven binary parts are present; the parts were inventoried but not byte-verified or restored. The overall part manifest and complete intermediate checkpoint set are not established, and the retained quality gate has a filename in a checksum field. The available final evidence establishes recorded completion and file integrity only; it does not establish consciousness or historical-output equivalence.",
+        "transferClosure": "NOT_ESTABLISHED",
+        "readyGate": "NOT_ESTABLISHED",
+        "openConditionCount": 6,
+        "criteria": [
+          {
+            "axis": "technicalMaturity",
+            "label": "Technical scope",
+            "grade": "P",
+            "criterion": "Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance."
+          },
+          {
+            "axis": "evidenceMaturity",
+            "label": "Evidence and validation",
+            "grade": "E3",
+            "criterion": "Tests, validation and provenance/release evidence identified. The identified source version and tested scope govern these results; this is not independent certification."
+          },
+          {
+            "axis": "ipRightsMaturity",
+            "label": "Rights and component obligations",
+            "grade": "R2",
+            "criterion": "R1 plus dependency/third-party disclosure basis identified. Review the documented rights and exclusions for your transaction; no independent title opinion is established."
+          },
+          {
+            "axis": "commercialMaturity",
+            "label": "Commercial basis",
+            "grade": "C2",
+            "criterion": "Seller ask and reproducible economic reference established. This is a seller asking reference and assumption-based reproduction model, not a completed sale or independent appraisal."
+          },
+          {
+            "axis": "transferReadiness",
+            "label": "Delivery and handover",
+            "grade": "T2",
+            "criterion": "Source, documentation, tests and licence evidence support bounded handover. The listed conditions and agreed delivery scope govern acceptance."
+          }
+        ],
+        "evidenceBoundary": "Two newly listed software repositories were reviewed and added as TA-IP-099 and TA-IP-100. All 29 LCTEP files and 56 selected SCEP files were checked against Git blob identities; the full SCEP tree contains 200 files, including historical material that was not executed. Fresh local checks passed 18 LCTEP tests and 14 SCEP tests without failures, errors or skips, syntax compilation and bounded CLI examples. All seven retained SCEP final-campaign files passed byte-length, SHA-256 and archive-integrity checks; four recorded source-file blobs match the current source. The retained 400-agent, 1000-step GPU campaign was not rerun. One step-50 checkpoint metadata file and seven binary parts are present. The metadata file was byte-verified; the binary parts were inventoried, not downloaded or restored. The overall checkpoint-part manifest and complete intermediate checkpoint set are not established, and a checkpoint checksum field contains a filename. Validation concerns bounded software execution and retained evidence, not flight qualification, consciousness, historical-output equivalence or independent certification. All 98 existing asset records, source dates, prices and readiness criteria are retained. Website repositories remain excluded digital displays."
+      },
+      "repositoryEmpty": false,
+      "localVerification": {
+        "sourceHead": "683dbfada5d1406dd7f03f33fc1c5123c44c1ecc",
+        "unitTestsPassed": 14,
+        "unitTestsFailed": 0,
+        "unitTestErrors": 0,
+        "unitTestsSkipped": 0,
+        "syntaxCheck": "PASS",
+        "cliSmoke": "PASS",
+        "pythonVersion": "3.12.14",
+        "assessedAt": "2026-10-11T07:01:21Z",
+        "independentValidation": false,
+        "sourceFilesByteVerified": 56,
+        "repositoryFilesInventoried": 200,
+        "numpyVersion": "2.3.5",
+        "jaxVersion": "0.11.2",
+        "jaxlibVersion": "0.11.2",
+        "devicePlatform": "CPU",
+        "retainedFinalCampaignFilesVerified": 7,
+        "retainedCampaignSourceBlobsMatch": 4,
+        "retainedCampaignSteps": 1000,
+        "retainedCampaignAgents": 400,
+        "retainedCampaignExecutionRepeated": false,
+        "checkpointChecksumFieldIsFilename": true,
+        "historicalFragmentsExecuted": false,
+        "checkpointPartsManifestPresent": false,
+        "completeIntermediateCheckpointSetEstablished": false,
+        "checkpointPartFilesInventoried": 7,
+        "checkpointStepsInventoried": [
+          50
+        ],
+        "checkpointPartBytesVerified": false,
+        "checkpointPartsRestored": false
+      },
+      "scopeDocument": "docs/NEW_PROJECT_ASSESSMENTS_2026-10-11.md"
     }
   ],
   "summary": {
-    "audited": 98,
+    "audited": 100,
     "pending": 0,
     "ready": 0,
-    "readyWithConditions": 90,
+    "readyWithConditions": 92,
     "notReady": 8
   },
-  "assessedAt": "2026-10-11T00:24:59Z",
+  "assessedAt": "2026-10-11T07:01:21Z",
   "previousBasisDate": "2026-10-10",
   "reviewPolicy": "Current default-branch heads and retained evidence are compared with previous frozen assessment baselines. Where committed implementation exists only on a development branch, that scope is explicit and does not imply a merge or full release acceptance. Unchanged evidence retains its previous grade after Git-blob verification. Repository evidence inventory is not a fresh execution of every software test suite.",
-  "catalogueUpdatedAt": "2026-10-11T00:24:59Z",
+  "catalogueUpdatedAt": "2026-10-11T07:01:21Z",
   "previousTargetedAssetReview": {
     "slug": "distributed-ai-resource-fabric",
     "ref": "TA-IP-022",
@@ -16643,6 +17068,63 @@
     "testFilesAreNotPassingTestResults": true
   },
   "latestReadinessReview": {
+    "assessedAt": "2026-10-11T07:01:21Z",
+    "type": "TWO_NEW_SOURCE_CONTENT_REVIEWS",
+    "criteriaDisclosedFor": 100,
+    "targetedRepositoryContentReviews": 2,
+    "changedReadinessReferences": [
+      "TA-IP-099",
+      "TA-IP-100"
+    ],
+    "previousSummary": {
+      "audited": 98,
+      "pending": 0,
+      "ready": 0,
+      "readyWithConditions": 90,
+      "notReady": 8
+    },
+    "currentSummary": {
+      "audited": 100,
+      "pending": 0,
+      "ready": 0,
+      "readyWithConditions": 92,
+      "notReady": 8
+    },
+    "sourceHeads": {
+      "Launch-Cislunar-Transportation-Engineering-Platform": "eeaadf2299f8309e9e6f5a53dd0b35deb81a0ff8",
+      "Synthetic-Consciousness-Engineering-Platform": "683dbfada5d1406dd7f03f33fc1c5123c44c1ecc"
+    },
+    "monetaryChanges": 2,
+    "boundary": "Two newly listed software repositories were reviewed and added as TA-IP-099 and TA-IP-100. All 29 LCTEP files and 56 selected SCEP files were checked against Git blob identities; the full SCEP tree contains 200 files, including historical material that was not executed. Fresh local checks passed 18 LCTEP tests and 14 SCEP tests without failures, errors or skips, syntax compilation and bounded CLI examples. All seven retained SCEP final-campaign files passed byte-length, SHA-256 and archive-integrity checks; four recorded source-file blobs match the current source. The retained 400-agent, 1000-step GPU campaign was not rerun. One step-50 checkpoint metadata file and seven binary parts are present. The metadata file was byte-verified; the binary parts were inventoried, not downloaded or restored. The overall checkpoint-part manifest and complete intermediate checkpoint set are not established, and a checkpoint checksum field contains a filename. Validation concerns bounded software execution and retained evidence, not flight qualification, consciousness, historical-output equivalence or independent certification. All 98 existing asset records, source dates, prices and readiness criteria are retained. Website repositories remain excluded digital displays."
+  },
+  "latestIdentityUpdate": {
+    "assessedAt": "2026-10-11T07:01:21Z",
+    "type": "TWO_INDEPENDENT_SOFTWARE_ADDITIONS",
+    "previousAssetCount": 98,
+    "currentAssetCount": 100,
+    "otherAssetRecordsRetained": 98,
+    "additions": [
+      {
+        "ref": "TA-IP-099",
+        "title": "Launch & Cislunar Transportation Engineering Platform",
+        "referenceAlias": "Astrid",
+        "repository": "Launch-Cislunar-Transportation-Engineering-Platform",
+        "sourceHead": "eeaadf2299f8309e9e6f5a53dd0b35deb81a0ff8",
+        "version": "v0.1.0.dev0"
+      },
+      {
+        "ref": "TA-IP-100",
+        "title": "Synthetic Consciousness Engineering Platform",
+        "referenceAlias": "Elysia",
+        "repository": "Synthetic-Consciousness-Engineering-Platform",
+        "sourceHead": "683dbfada5d1406dd7f03f33fc1c5123c44c1ecc",
+        "version": "v0.1.0.dev0"
+      }
+    ],
+    "boundary": "Two newly listed software repositories were reviewed and added as TA-IP-099 and TA-IP-100. All 29 LCTEP files and 56 selected SCEP files were checked against Git blob identities; the full SCEP tree contains 200 files, including historical material that was not executed. Fresh local checks passed 18 LCTEP tests and 14 SCEP tests without failures, errors or skips, syntax compilation and bounded CLI examples. All seven retained SCEP final-campaign files passed byte-length, SHA-256 and archive-integrity checks; four recorded source-file blobs match the current source. The retained 400-agent, 1000-step GPU campaign was not rerun. One step-50 checkpoint metadata file and seven binary parts are present. The metadata file was byte-verified; the binary parts were inventoried, not downloaded or restored. The overall checkpoint-part manifest and complete intermediate checkpoint set are not established, and a checkpoint checksum field contains a filename. Validation concerns bounded software execution and retained evidence, not flight qualification, consciousness, historical-output equivalence or independent certification. All 98 existing asset records, source dates, prices and readiness criteria are retained. Website repositories remain excluded digital displays."
+  },
+  "previousRegisterAssessedAt": "2026-10-11T00:24:59Z",
+  "previousReadinessReview": {
     "assessedAt": "2026-10-11T00:24:59Z",
     "type": "TWO_ASSET_CONTENT_RECHECK",
     "criteriaDisclosedFor": 98,
@@ -16669,7 +17151,7 @@
     "monetaryChanges": 1,
     "boundary": "Targeted source and financial review of TA-IP-097 and TA-IP-098 only. Exact Git blob identities were verified for 51 CAUSORYN files and 78 Software Asset Engineering Platform files. Fresh local checks passed 98 CAUSORYN tests, syntax compilation and seven examples, and 72 Octavia tests with no failures, errors or skips. Octavia engine and test digests are unchanged; its new required private SaaS is a specification, not a delivered service. Only CAUSORYN monetary references change for its implemented v0.5/v0.6 increments. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
   },
-  "latestIdentityUpdate": {
+  "previousIdentityUpdate": {
     "assessedAt": "2026-10-10T22:16:09Z",
     "replacement": {
       "ref": "TA-IP-097",
@@ -16697,37 +17179,6 @@
     "previousAssetCount": 97,
     "currentAssetCount": 98,
     "otherAssetRecordsRetained": 96,
-    "boundary": "Targeted review of TA-IP-097 and the new TA-IP-098 only. Exact source snapshots were checked against Git blob identities. CAUSORYN passed 54 local unit tests, syntax checks and four examples. Software Asset Engineering Platform passed 72 local tests with no failures, errors or skips; engine/test digests match retained local and installed-wheel evidence. Engine verification does not validate ingested project code or legal/commercial conclusions. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
-  },
-  "previousRegisterAssessedAt": "2026-10-10T22:16:09Z",
-  "previousReadinessReview": {
-    "assessedAt": "2026-10-10T22:16:09Z",
-    "type": "REPLACEMENT_AND_NEW_DEFINITION_CONTENT_REVIEW",
-    "criteriaDisclosedFor": 98,
-    "targetedRepositoryContentReviews": 2,
-    "changedReadinessReferences": [
-      "TA-IP-097",
-      "TA-IP-098"
-    ],
-    "previousSummary": {
-      "audited": 97,
-      "pending": 0,
-      "ready": 0,
-      "readyWithConditions": 89,
-      "notReady": 8
-    },
-    "currentSummary": {
-      "audited": 98,
-      "pending": 0,
-      "ready": 0,
-      "readyWithConditions": 90,
-      "notReady": 8
-    },
-    "sourceHeads": {
-      "Universal-Systems-Intelligence-Engine": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86",
-      "Software-Asset-Engineering-Platform": null
-    },
-    "monetaryChanges": 2,
     "boundary": "Targeted review of TA-IP-097 and the new TA-IP-098 only. Exact source snapshots were checked against Git blob identities. CAUSORYN passed 54 local unit tests, syntax checks and four examples. Software Asset Engineering Platform passed 72 local tests with no failures, errors or skips; engine/test digests match retained local and installed-wheel evidence. Engine verification does not validate ingested project code or legal/commercial conclusions. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
   }
 }

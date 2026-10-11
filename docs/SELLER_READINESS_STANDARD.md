@@ -1,8 +1,22 @@
 # Seller Evidence & Transfer Readiness Standard
 
+## Current additions — 11 October 2026
+
+Assessed at **2026-10-11T07:01:21Z**. Two new independent software assets are integrated with unique project identifiers and single feminine reference aliases. All 98 preceding asset records, source dates, prices and criteria retain their assessments.
+
+| Project | Title | Asking reference | Recreation-cost total | Readiness |
+|---|---|---:|---:|---|
+| TA-IP-099 | Launch & Cislunar Transportation Engineering Platform | EUR 15,000 | EUR 50,000 | READY_WITH_CONDITIONS — defined software foundation |
+| TA-IP-100 | Synthetic Consciousness Engineering Platform | EUR 45,000 | EUR 150,000 | READY_WITH_CONDITIONS — bounded research software and final evidence |
+
+Fresh checks passed 18 LCTEP tests and 14 SCEP tests. The seven retained SCEP final-campaign files pass checksum verification; the complete intermediate checkpoint set remains unestablished; one newly retained step-50 checkpoint and seven binary parts were inventoried. Flight qualification, consciousness, historical-output equivalence and future implementation are outside the priced scope. Review [the new project cost and evidence assessment](NEW_PROJECT_ASSESSMENTS_2026-10-11.md).
+
+Current register: **100 assets**; **57 developed-software, 40 prototype and three research-stage**. Aggregate ask: **EUR 24,923,000**; recreation-cost total: **EUR 105,910,000**. Readiness: **0 READY, 92 READY_WITH_CONDITIONS, 8 NOT_READY**. The 25 Connections retain their 64 unique members and existing asking and recreation-cost totals. Website repositories remain excluded digital displays.
+
+
 Current full source-review basis: **2026-10-10T08:52:15Z**. Criteria disclosure and targeted readiness correction: **2026-10-10T09:20:17Z**.
 
-Use this internal standard to compare the recorded evidence, rights and delivery conditions for all **98 independent assets**. Each project page has an **Assessment criteria** section showing its five grades, decision basis and outstanding conditions. These are seller-side dossier classifications, not official certification or buyer acceptance.
+Use this internal standard to compare the recorded evidence, rights and delivery conditions for all **100 independent assets**. Each project page has an **Assessment criteria** section showing its five grades, decision basis and outstanding conditions. These are seller-side dossier classifications, not official certification or buyer acceptance.
 
 ## Decision criteria
 
@@ -41,7 +55,7 @@ For the 95 assets outside the targeted correction below, this update discloses r
 - **TA-IP-039 — Evidence-Governed Software Assurance Platform:** T4 becomes **T3**, READY becomes **READY_WITH_CONDITIONS**, and R3 becomes **R2**. Component-inventory generation code is not a completed inventory. Runtime transaction/recovery configuration is not an acquisition handover package. A generated component/licence inventory and an explicit buyer delivery package remain to be established.
 - **TA-IP-079 — Secure Actuation Integrity Platform:** T4 becomes **T3** and READY becomes **READY_WITH_CONDITIONS**. Its retained reports explicitly record an ineligible transfer package, absent closed manifest/unexported handoff bundle, unresolved acceptance/trust/receipt prerequisites and unperformed buyer verification. Software supporting package creation does not establish package completion.
 
-Both source heads match their preceding reviewed baselines. These corrections change the interpretation of retained evidence, not the software, ownership declarations, technical stages or asking prices. The current distribution is **0 READY, 89 READY_WITH_CONDITIONS and 8 NOT_READY**.
+Both source heads match their preceding reviewed baselines. These corrections change the interpretation of retained evidence, not the software, ownership declarations, technical stages or asking prices. The distribution at that review was **0 READY, 89 READY_WITH_CONDITIONS and 8 NOT_READY**.
 
 Source-content bindings and correction reasons are recorded in the seller-readiness register. The preceding full source review and financial evaluation keep their original timestamps.
 
@@ -49,7 +63,7 @@ Source-content bindings and correction reasons are recorded in the seller-readin
 
 Assess the offered first-party rights, any disclosed co-owners, third-party obligations, restrictions and the exact deliverables. The authoritative rights-transfer register records these separately. Repository paperwork does not replace an independent legal title or freedom-to-operate opinion.
 
-All 98 assets have separate asking references. CAUSORYN replaces Digital Twin Core at TA-IP-097 and remains NOT_READY because its acquisition handover is explicitly incomplete. Software Asset Engineering Platform at TA-IP-098 has a source-specific READY_WITH_CONDITIONS engine assessment; its input-project transaction outputs are separate. Project websites are digital displays and are excluded from the IP-asset count. Development methods and confidential know-how are outside the public transaction record unless expressly included in a definitive agreement.
+All 100 assets have separate asking references. CAUSORYN replaces Digital Twin Core at TA-IP-097 and remains NOT_READY because its acquisition handover is explicitly incomplete. Software Asset Engineering Platform at TA-IP-098 has a source-specific READY_WITH_CONDITIONS engine assessment; its input-project transaction outputs are separate. Project websites are digital displays and are excluded from the IP-asset count. Development methods and confidential know-how are outside the public transaction record unless expressly included in a definitive agreement.
 
 ## General reference material
 
@@ -59,7 +73,7 @@ The internal E/R/C/T labels are this catalogue's own classifications; the follow
 - WIPO IP due diligence: https://www.wipo.int/en/web/ip-commercialization/w/blog/how-to-prepare-for-ip-due-diligence-the-ultimate-guide-for-ventures
 - WIPO IP valuation: https://www.wipo.int/en/web/business/ip-valuation
 
-## Current targeted source review — 11 October 2026
+## Previous targeted source review — 11 October 2026
 
 Assessed at **2026-10-11T00:24:59Z**. CAUSORYN remains TA-IP-097 and is updated to its implemented v0.6.0 local prototype. Software Asset Engineering Platform remains TA-IP-098; its implemented local engine stays at v0.1.0, and its newly required private SaaS is specified but not implemented or deployed. The other 96 asset records, source dates and prices are unchanged.
 
@@ -70,7 +84,7 @@ Assessed at **2026-10-11T00:24:59Z**. CAUSORYN remains TA-IP-097 and is updated 
 
 Fresh checks passed 98 CAUSORYN tests and seven examples, plus 72 Octavia tests. CAUSORYN's revised budget includes its delivered observation and local simulation increments. Octavia's engine/test digests and current budget are unchanged; future SaaS is excluded. Review [the current cost and evidence assessment](CAUSORYN_AND_OCTAVIA_SOURCE_REFRESH_2026-10-11.md).
 
-Current register: **98 assets**; **57 developed-software, 38 prototype and three research-stage**. Aggregate ask: **EUR 24,863,000**; recreation-cost total: **EUR 105,710,000**. Readiness: **0 READY, 90 READY_WITH_CONDITIONS, 8 NOT_READY**. The 25 Connections keep their 64 unique members and unchanged financial inputs. Website repositories remain excluded digital displays.
+Register at that review: **98 assets**; **57 developed-software, 38 prototype and three research-stage**. Aggregate ask: **EUR 24,863,000**; recreation-cost total: **EUR 105,710,000**. Readiness: **0 READY, 90 READY_WITH_CONDITIONS, 8 NOT_READY**. The 25 Connections keep their 64 unique members and unchanged financial inputs. Website repositories remain excluded digital displays.
 
 ## Historical targeted identity and new software evaluation — 11 October 2026
 

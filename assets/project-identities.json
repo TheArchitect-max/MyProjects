@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.11-im60-current-causoryn-and-octavia",
+  "version": "2026.10.11-im61-two-new-software-assets",
   "policy": "Each independent IP asset has one project title and one feminine reference alias. Each project has its own asset identity and rights perimeter. Websites are digital displays only.",
   "projects": [
     {
@@ -891,10 +891,34 @@
       "id": 98,
       "title": "Software Asset Engineering Platform",
       "existingCanonical": true
+    },
+    {
+      "repository": "Launch-Cislunar-Transportation-Engineering-Platform",
+      "identityName": "Astrid",
+      "slug": "launch-cislunar-transportation-engineering-platform",
+      "ref": "TA-IP-099",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-11T07:01:21Z",
+      "id": 99,
+      "title": "Launch & Cislunar Transportation Engineering Platform",
+      "existingCanonical": true,
+      "referenceAliasAssignment": "PORTFOLIO_REFERENCE_ONLY"
+    },
+    {
+      "repository": "Synthetic-Consciousness-Engineering-Platform",
+      "identityName": "Elysia",
+      "slug": "synthetic-consciousness-engineering-platform",
+      "ref": "TA-IP-100",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-11T07:01:21Z",
+      "id": 100,
+      "title": "Synthetic Consciousness Engineering Platform",
+      "existingCanonical": true,
+      "referenceAliasAssignment": "PORTFOLIO_REFERENCE_ONLY"
     }
   ],
   "scope": {
-    "ipAssetCount": 98,
+    "ipAssetCount": 100,
     "excludedRepositories": [
       "Adaptive-Audio-Synthesis-Platform-Website",
       "BIND-AI-Computational-Neuroscience-IP-WEBSITE",
@@ -910,12 +934,38 @@
       "TheArchitect-max-EGMERS-Website",
       "VEGMPF-Website"
     ],
-    "pricedAssetCount": 98,
+    "pricedAssetCount": 100,
     "unpricedAssetCount": 0
   },
-  "catalogueUpdatedAt": "2026-10-11T00:24:59Z",
-  "identifierPolicy": "The current public identifiers are TA-IP-001 through TA-IP-098, assigned once in catalogue order. The same identifier, title, reference alias and slug govern every current register, project profile and digital-display link. Historical publications remain available in Git history. The current TA-IP-097 slot replaces its historical predecessor; a replacement is not a new asset.",
+  "catalogueUpdatedAt": "2026-10-11T07:01:21Z",
+  "identifierPolicy": "The current public identifiers are TA-IP-001 through TA-IP-100, assigned once in catalogue order. The same identifier, title, reference alias and slug govern every current register, project profile and digital-display link. Historical publications remain available in Git history. The current TA-IP-097 slot replaces its historical predecessor; a replacement is not a new asset.",
   "latestIdentityUpdate": {
+    "assessedAt": "2026-10-11T07:01:21Z",
+    "type": "TWO_INDEPENDENT_SOFTWARE_ADDITIONS",
+    "previousAssetCount": 98,
+    "currentAssetCount": 100,
+    "otherAssetRecordsRetained": 98,
+    "additions": [
+      {
+        "ref": "TA-IP-099",
+        "title": "Launch & Cislunar Transportation Engineering Platform",
+        "referenceAlias": "Astrid",
+        "repository": "Launch-Cislunar-Transportation-Engineering-Platform",
+        "sourceHead": "eeaadf2299f8309e9e6f5a53dd0b35deb81a0ff8",
+        "version": "v0.1.0.dev0"
+      },
+      {
+        "ref": "TA-IP-100",
+        "title": "Synthetic Consciousness Engineering Platform",
+        "referenceAlias": "Elysia",
+        "repository": "Synthetic-Consciousness-Engineering-Platform",
+        "sourceHead": "683dbfada5d1406dd7f03f33fc1c5123c44c1ecc",
+        "version": "v0.1.0.dev0"
+      }
+    ],
+    "boundary": "Two newly listed software repositories were reviewed and added as TA-IP-099 and TA-IP-100. All 29 LCTEP files and 56 selected SCEP files were checked against Git blob identities; the full SCEP tree contains 200 files, including historical material that was not executed. Fresh local checks passed 18 LCTEP tests and 14 SCEP tests without failures, errors or skips, syntax compilation and bounded CLI examples. All seven retained SCEP final-campaign files passed byte-length, SHA-256 and archive-integrity checks; four recorded source-file blobs match the current source. The retained 400-agent, 1000-step GPU campaign was not rerun. One step-50 checkpoint metadata file and seven binary parts are present. The metadata file was byte-verified; the binary parts were inventoried, not downloaded or restored. The overall checkpoint-part manifest and complete intermediate checkpoint set are not established, and a checkpoint checksum field contains a filename. Validation concerns bounded software execution and retained evidence, not flight qualification, consciousness, historical-output equivalence or independent certification. All 98 existing asset records, source dates, prices and readiness criteria are retained. Website repositories remain excluded digital displays."
+  },
+  "previousIdentityUpdate": {
     "assessedAt": "2026-10-10T22:16:09Z",
     "replacement": {
       "ref": "TA-IP-097",

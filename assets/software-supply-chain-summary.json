@@ -1,16 +1,16 @@
 {
-  "version": "2026.10.11-im60-current-causoryn-and-octavia",
+  "version": "2026.10.11-im61-two-new-software-assets",
   "basisDate": "2026-10-10",
   "status": "SELLER_SIDE_REPOSITORY_EVIDENCE_SUMMARY",
   "boundary": "This is a portfolio-level SBOM/licensing summary derived from repository evidence. It does not claim a complete component-level SBOM where no SBOM file exists.",
   "summary": {
-    "projects": 98,
-    "withDependencyManifest": 91,
+    "projects": 100,
+    "withDependencyManifest": 93,
     "withLockfile": 5,
     "withExistingSbom": 7,
-    "withLicenceFile": 94,
-    "withThirdPartyDisclosure": 89,
-    "withSecurityEvidence": 45,
+    "withLicenceFile": 96,
+    "withThirdPartyDisclosure": 91,
+    "withSecurityEvidence": 46,
     "withSensitiveFilenameIndicators": 8
   },
   "projects": [
@@ -2623,10 +2623,66 @@
       "sensitiveFilenameIndicators": [],
       "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
       "sourceRecheckedAt": "2026-10-11T00:24:59Z"
+    },
+    {
+      "repository": "Launch-Cislunar-Transportation-Engineering-Platform",
+      "identityName": "Astrid",
+      "slug": "launch-cislunar-transportation-engineering-platform",
+      "ref": "TA-IP-099",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-11T07:01:21Z",
+      "baselineCommit": "eeaadf2299f8309e9e6f5a53dd0b35deb81a0ff8",
+      "assessmentDate": "2026-10-11",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "DECLARED_DEPENDENCIES; NO_LOCKFILE_OR_COMPLETED_RELEASE_SBOM",
+      "licenceFiles": [
+        "LICENSE.md"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "LICENSE.md",
+        "pyproject.toml"
+      ],
+      "securityEvidenceFiles": [],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "sourceRecheckedAt": "2026-10-11T07:01:21Z"
+    },
+    {
+      "repository": "Synthetic-Consciousness-Engineering-Platform",
+      "identityName": "Elysia",
+      "slug": "synthetic-consciousness-engineering-platform",
+      "ref": "TA-IP-100",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-11T07:01:21Z",
+      "baselineCommit": "683dbfada5d1406dd7f03f33fc1c5123c44c1ecc",
+      "assessmentDate": "2026-10-11",
+      "manifests": [
+        "pyproject.toml"
+      ],
+      "lockfiles": [],
+      "existingSbomFiles": [],
+      "sbomStatus": "DECLARED_DEPENDENCIES; NO_LOCKFILE_OR_COMPLETED_RELEASE_SBOM",
+      "licenceFiles": [
+        "docs/IP_AND_LICENSING.md"
+      ],
+      "thirdPartyDisclosureFiles": [
+        "docs/IP_AND_LICENSING.md",
+        "pyproject.toml"
+      ],
+      "securityEvidenceFiles": [
+        "docs/SECURITY_AND_GOVERNANCE.md"
+      ],
+      "sensitiveFilenameIndicators": [],
+      "licensingClearanceStatus": "PARTIAL_REPOSITORY_EVIDENCE",
+      "sourceRecheckedAt": "2026-10-11T07:01:21Z"
     }
   ],
-  "assessedAt": "2026-10-11T00:24:59Z",
-  "catalogueUpdatedAt": "2026-10-11T00:24:59Z",
+  "assessedAt": "2026-10-11T07:01:21Z",
+  "catalogueUpdatedAt": "2026-10-11T07:01:21Z",
   "previousTargetedAssetReview": {
     "slug": "distributed-ai-resource-fabric",
     "ref": "TA-IP-022",
@@ -2650,6 +2706,63 @@
     "boundary": "DARF only: current source, retained exact-commit validation, rights, delivery conditions and seller-side economics. The other 96 asset assessments and monetary inputs retain their earlier dates and conclusions; portfolio totals are recomputed."
   },
   "latestReadinessReview": {
+    "assessedAt": "2026-10-11T07:01:21Z",
+    "type": "TWO_NEW_SOURCE_CONTENT_REVIEWS",
+    "criteriaDisclosedFor": 100,
+    "targetedRepositoryContentReviews": 2,
+    "changedReadinessReferences": [
+      "TA-IP-099",
+      "TA-IP-100"
+    ],
+    "previousSummary": {
+      "audited": 98,
+      "pending": 0,
+      "ready": 0,
+      "readyWithConditions": 90,
+      "notReady": 8
+    },
+    "currentSummary": {
+      "audited": 100,
+      "pending": 0,
+      "ready": 0,
+      "readyWithConditions": 92,
+      "notReady": 8
+    },
+    "sourceHeads": {
+      "Launch-Cislunar-Transportation-Engineering-Platform": "eeaadf2299f8309e9e6f5a53dd0b35deb81a0ff8",
+      "Synthetic-Consciousness-Engineering-Platform": "683dbfada5d1406dd7f03f33fc1c5123c44c1ecc"
+    },
+    "monetaryChanges": 2,
+    "boundary": "Two newly listed software repositories were reviewed and added as TA-IP-099 and TA-IP-100. All 29 LCTEP files and 56 selected SCEP files were checked against Git blob identities; the full SCEP tree contains 200 files, including historical material that was not executed. Fresh local checks passed 18 LCTEP tests and 14 SCEP tests without failures, errors or skips, syntax compilation and bounded CLI examples. All seven retained SCEP final-campaign files passed byte-length, SHA-256 and archive-integrity checks; four recorded source-file blobs match the current source. The retained 400-agent, 1000-step GPU campaign was not rerun. One step-50 checkpoint metadata file and seven binary parts are present. The metadata file was byte-verified; the binary parts were inventoried, not downloaded or restored. The overall checkpoint-part manifest and complete intermediate checkpoint set are not established, and a checkpoint checksum field contains a filename. Validation concerns bounded software execution and retained evidence, not flight qualification, consciousness, historical-output equivalence or independent certification. All 98 existing asset records, source dates, prices and readiness criteria are retained. Website repositories remain excluded digital displays."
+  },
+  "latestIdentityUpdate": {
+    "assessedAt": "2026-10-11T07:01:21Z",
+    "type": "TWO_INDEPENDENT_SOFTWARE_ADDITIONS",
+    "previousAssetCount": 98,
+    "currentAssetCount": 100,
+    "otherAssetRecordsRetained": 98,
+    "additions": [
+      {
+        "ref": "TA-IP-099",
+        "title": "Launch & Cislunar Transportation Engineering Platform",
+        "referenceAlias": "Astrid",
+        "repository": "Launch-Cislunar-Transportation-Engineering-Platform",
+        "sourceHead": "eeaadf2299f8309e9e6f5a53dd0b35deb81a0ff8",
+        "version": "v0.1.0.dev0"
+      },
+      {
+        "ref": "TA-IP-100",
+        "title": "Synthetic Consciousness Engineering Platform",
+        "referenceAlias": "Elysia",
+        "repository": "Synthetic-Consciousness-Engineering-Platform",
+        "sourceHead": "683dbfada5d1406dd7f03f33fc1c5123c44c1ecc",
+        "version": "v0.1.0.dev0"
+      }
+    ],
+    "boundary": "Two newly listed software repositories were reviewed and added as TA-IP-099 and TA-IP-100. All 29 LCTEP files and 56 selected SCEP files were checked against Git blob identities; the full SCEP tree contains 200 files, including historical material that was not executed. Fresh local checks passed 18 LCTEP tests and 14 SCEP tests without failures, errors or skips, syntax compilation and bounded CLI examples. All seven retained SCEP final-campaign files passed byte-length, SHA-256 and archive-integrity checks; four recorded source-file blobs match the current source. The retained 400-agent, 1000-step GPU campaign was not rerun. One step-50 checkpoint metadata file and seven binary parts are present. The metadata file was byte-verified; the binary parts were inventoried, not downloaded or restored. The overall checkpoint-part manifest and complete intermediate checkpoint set are not established, and a checkpoint checksum field contains a filename. Validation concerns bounded software execution and retained evidence, not flight qualification, consciousness, historical-output equivalence or independent certification. All 98 existing asset records, source dates, prices and readiness criteria are retained. Website repositories remain excluded digital displays."
+  },
+  "previousRegisterAssessedAt": "2026-10-11T00:24:59Z",
+  "previousReadinessReview": {
     "assessedAt": "2026-10-11T00:24:59Z",
     "type": "TWO_ASSET_CONTENT_RECHECK",
     "criteriaDisclosedFor": 98,
@@ -2676,7 +2789,7 @@
     "monetaryChanges": 1,
     "boundary": "Targeted source and financial review of TA-IP-097 and TA-IP-098 only. Exact Git blob identities were verified for 51 CAUSORYN files and 78 Software Asset Engineering Platform files. Fresh local checks passed 98 CAUSORYN tests, syntax compilation and seven examples, and 72 Octavia tests with no failures, errors or skips. Octavia engine and test digests are unchanged; its new required private SaaS is a specification, not a delivered service. Only CAUSORYN monetary references change for its implemented v0.5/v0.6 increments. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
   },
-  "latestIdentityUpdate": {
+  "previousIdentityUpdate": {
     "assessedAt": "2026-10-10T22:16:09Z",
     "replacement": {
       "ref": "TA-IP-097",
@@ -2704,37 +2817,6 @@
     "previousAssetCount": 97,
     "currentAssetCount": 98,
     "otherAssetRecordsRetained": 96,
-    "boundary": "Targeted review of TA-IP-097 and the new TA-IP-098 only. Exact source snapshots were checked against Git blob identities. CAUSORYN passed 54 local unit tests, syntax checks and four examples. Software Asset Engineering Platform passed 72 local tests with no failures, errors or skips; engine/test digests match retained local and installed-wheel evidence. Engine verification does not validate ingested project code or legal/commercial conclusions. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
-  },
-  "previousRegisterAssessedAt": "2026-10-10T22:16:09Z",
-  "previousReadinessReview": {
-    "assessedAt": "2026-10-10T22:16:09Z",
-    "type": "REPLACEMENT_AND_NEW_DEFINITION_CONTENT_REVIEW",
-    "criteriaDisclosedFor": 98,
-    "targetedRepositoryContentReviews": 2,
-    "changedReadinessReferences": [
-      "TA-IP-097",
-      "TA-IP-098"
-    ],
-    "previousSummary": {
-      "audited": 97,
-      "pending": 0,
-      "ready": 0,
-      "readyWithConditions": 89,
-      "notReady": 8
-    },
-    "currentSummary": {
-      "audited": 98,
-      "pending": 0,
-      "ready": 0,
-      "readyWithConditions": 90,
-      "notReady": 8
-    },
-    "sourceHeads": {
-      "Universal-Systems-Intelligence-Engine": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86",
-      "Software-Asset-Engineering-Platform": null
-    },
-    "monetaryChanges": 2,
     "boundary": "Targeted review of TA-IP-097 and the new TA-IP-098 only. Exact source snapshots were checked against Git blob identities. CAUSORYN passed 54 local unit tests, syntax checks and four examples. Software Asset Engineering Platform passed 72 local tests with no failures, errors or skips; engine/test digests match retained local and installed-wheel evidence. Engine verification does not validate ingested project code or legal/commercial conclusions. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
   }
 }

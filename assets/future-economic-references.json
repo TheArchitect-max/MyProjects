@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.11-im60-current-causoryn-and-octavia",
+  "version": "2026.10.11-im61-two-new-software-assets",
   "status": "evidence-bounded-maturity-sensitivity-register",
   "basisDate": "2026-10-11",
   "purpose": "Asset-by-asset conditional economic references for objectively testable maturity transitions. These are not forecasts, seller asks, market values, investment returns or guarantees.",
@@ -32,12 +32,12 @@
     "boundary": "No TAM-derived value, speculative revenue, arbitrary probability, automatic multiple, future seller ask or unverified commercialization outcome is used."
   },
   "summary": {
-    "projectCount": 98,
-    "numericConditionalReferences": 41,
+    "projectCount": 100,
+    "numericConditionalReferences": 43,
     "notEstablished": 57,
     "transitions": {
       "RtoP": 3,
-      "PtoV": 38
+      "PtoV": 40
     }
   },
   "projects": [
@@ -1797,10 +1797,62 @@
       "targetMilestone": "Evidence a reproducible operational engine release, deployment-specific security and an agreed engine-asset delivery acceptance scope. Deferred input execution and SaaS remain outside this milestone.",
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this is a constant-cost maturity sensitivity, not a future price, revenue forecast or acceptance of ingested software.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+    },
+    {
+      "slug": "launch-cislunar-transportation-engineering-platform",
+      "ref": "TA-IP-099",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-11T07:01:21Z",
+      "identityName": "Astrid",
+      "name": "Launch & Cislunar Transportation Engineering Platform",
+      "assessmentDate": "2026-10-11",
+      "status": "CONDITIONAL",
+      "currentStage": "P",
+      "targetStage": "V",
+      "futureReferenceStatus": "CONDITIONAL",
+      "currentTriangulatedEconomicReferenceEUR": 31097,
+      "currentReplacementCostEUR": 50000,
+      "economicAssessmentAt": "2026-10-11T07:01:21Z",
+      "sourceRecheckedAt": "2026-10-11T07:01:21Z",
+      "milestoneConditionedEconomicReferenceEUR": 36707,
+      "sensitivityDeltaEUR": 5610,
+      "replacementCostHeldConstant": true,
+      "potentialHeldConstant": "M",
+      "sectorHeldConstant": "Aerospace & Mobility",
+      "routeHeldConstant": "Research / R&D licensing",
+      "targetMilestone": "Evidence a reproducible release, agreed component and rights boundaries, use-specific qualification and recipient acceptance of the defined software package.",
+      "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced. This constant-cost sensitivity is not a future price, forecast, scientific qualification or acceptance of unimplemented capabilities.",
+      "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+    },
+    {
+      "slug": "synthetic-consciousness-engineering-platform",
+      "ref": "TA-IP-100",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-11T07:01:21Z",
+      "identityName": "Elysia",
+      "name": "Synthetic Consciousness Engineering Platform",
+      "assessmentDate": "2026-10-11",
+      "status": "CONDITIONAL",
+      "currentStage": "P",
+      "targetStage": "V",
+      "futureReferenceStatus": "CONDITIONAL",
+      "currentTriangulatedEconomicReferenceEUR": 101863,
+      "currentReplacementCostEUR": 150000,
+      "economicAssessmentAt": "2026-10-11T07:01:21Z",
+      "sourceRecheckedAt": "2026-10-11T07:01:21Z",
+      "milestoneConditionedEconomicReferenceEUR": 121161,
+      "sensitivityDeltaEUR": 19298,
+      "replacementCostHeldConstant": true,
+      "potentialHeldConstant": "M",
+      "sectorHeldConstant": "AI, Decision & Knowledge Systems",
+      "routeHeldConstant": "Research / R&D licensing",
+      "targetMilestone": "Evidence a reproducible release, agreed component and rights boundaries, use-specific qualification and recipient acceptance of the defined software package.",
+      "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced. This constant-cost sensitivity is not a future price, forecast, scientific qualification or acceptance of unimplemented capabilities.",
+      "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
     }
   ],
-  "assessedAt": "2026-10-11T00:24:59Z",
-  "catalogueUpdatedAt": "2026-10-11T00:24:59Z",
+  "assessedAt": "2026-10-11T07:01:21Z",
+  "catalogueUpdatedAt": "2026-10-11T07:01:21Z",
   "previousTargetedAssetReview": {
     "slug": "distributed-ai-resource-fabric",
     "ref": "TA-IP-022",
@@ -1824,6 +1876,34 @@
     "boundary": "DARF only: current source, retained exact-commit validation, rights, delivery conditions and seller-side economics. The other 96 asset assessments and monetary inputs retain their earlier dates and conclusions; portfolio totals are recomputed."
   },
   "latestIdentityUpdate": {
+    "assessedAt": "2026-10-11T07:01:21Z",
+    "type": "TWO_INDEPENDENT_SOFTWARE_ADDITIONS",
+    "previousAssetCount": 98,
+    "currentAssetCount": 100,
+    "otherAssetRecordsRetained": 98,
+    "additions": [
+      {
+        "ref": "TA-IP-099",
+        "title": "Launch & Cislunar Transportation Engineering Platform",
+        "referenceAlias": "Astrid",
+        "repository": "Launch-Cislunar-Transportation-Engineering-Platform",
+        "sourceHead": "eeaadf2299f8309e9e6f5a53dd0b35deb81a0ff8",
+        "version": "v0.1.0.dev0"
+      },
+      {
+        "ref": "TA-IP-100",
+        "title": "Synthetic Consciousness Engineering Platform",
+        "referenceAlias": "Elysia",
+        "repository": "Synthetic-Consciousness-Engineering-Platform",
+        "sourceHead": "683dbfada5d1406dd7f03f33fc1c5123c44c1ecc",
+        "version": "v0.1.0.dev0"
+      }
+    ],
+    "boundary": "Two newly listed software repositories were reviewed and added as TA-IP-099 and TA-IP-100. All 29 LCTEP files and 56 selected SCEP files were checked against Git blob identities; the full SCEP tree contains 200 files, including historical material that was not executed. Fresh local checks passed 18 LCTEP tests and 14 SCEP tests without failures, errors or skips, syntax compilation and bounded CLI examples. All seven retained SCEP final-campaign files passed byte-length, SHA-256 and archive-integrity checks; four recorded source-file blobs match the current source. The retained 400-agent, 1000-step GPU campaign was not rerun. One step-50 checkpoint metadata file and seven binary parts are present. The metadata file was byte-verified; the binary parts were inventoried, not downloaded or restored. The overall checkpoint-part manifest and complete intermediate checkpoint set are not established, and a checkpoint checksum field contains a filename. Validation concerns bounded software execution and retained evidence, not flight qualification, consciousness, historical-output equivalence or independent certification. All 98 existing asset records, source dates, prices and readiness criteria are retained. Website repositories remain excluded digital displays."
+  },
+  "previousBasisDate": "2026-10-10",
+  "previousRegisterAssessedAt": "2026-10-11T00:24:59Z",
+  "previousIdentityUpdate": {
     "assessedAt": "2026-10-10T22:16:09Z",
     "replacement": {
       "ref": "TA-IP-097",
@@ -1852,7 +1932,5 @@
     "currentAssetCount": 98,
     "otherAssetRecordsRetained": 96,
     "boundary": "Targeted review of TA-IP-097 and the new TA-IP-098 only. Exact source snapshots were checked against Git blob identities. CAUSORYN passed 54 local unit tests, syntax checks and four examples. Software Asset Engineering Platform passed 72 local tests with no failures, errors or skips; engine/test digests match retained local and installed-wheel evidence. Engine verification does not validate ingested project code or legal/commercial conclusions. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
-  },
-  "previousBasisDate": "2026-10-10",
-  "previousRegisterAssessedAt": "2026-10-10T22:16:09Z"
+  }
 }

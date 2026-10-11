@@ -1,7 +1,7 @@
 {
-  "version": "2026.10.11-im60-current-causoryn-and-octavia",
+  "version": "2026.10.11-im61-two-new-software-assets",
   "scopeUpdatedAt": "2026-10-10T22:16:09Z",
-  "policy": "Four independently scoped IP assets with individual asking references and defined transfer perimeters. CAUSORYN replaces the former Digital Twin Core documentation record within TA-IP-097. Software Asset Engineering Platform is the separately evaluated v0.1.0 engine under TA-IP-098. Each current estimate covers its own documented present implementation.",
+  "policy": "Six independently scoped software IP assets with individual asking references and defined transfer perimeters. Each estimate covers its own documented present implementation. Historical predecessor values remain separate. No project website is counted as an asset.",
   "assets": [
     {
       "id": 95,
@@ -82,10 +82,76 @@
       "pricingStatus": "SELLER_SIDE_ESTIMATE_ESTABLISHED",
       "independentIpAsset": true,
       "economicAssessmentAt": "2026-10-11T00:24:59Z"
+    },
+    {
+      "id": 99,
+      "ref": "TA-IP-099",
+      "slug": "launch-cislunar-transportation-engineering-platform",
+      "name": "Launch & Cislunar Transportation Engineering Platform",
+      "familyId": "aerospace-mobility",
+      "sector": "Aerospace & Mobility",
+      "stage": "P",
+      "potential": "M",
+      "route": "Research / R&D licensing",
+      "ask": 15000,
+      "low": 12000,
+      "high": 18750,
+      "recreationCost": 50000,
+      "description": "Compare early transport concepts for launch and lunar missions, review their assumptions and identify the evidence needed for further engineering.",
+      "pricingScope": "Present first-party transport-concept screening software, interface contracts, synthetic example, tests, documentation and retained software validation at the identified development commit. Physical vehicles, flight qualification, operational transport, external science and data rights, the separately owned FusionLunar asset and future engineering are excluded.",
+      "pricingStatus": "SELLER_SIDE_ESTIMATE_ESTABLISHED",
+      "independentIpAsset": true,
+      "economicAssessmentAt": "2026-10-11T07:01:21Z"
+    },
+    {
+      "id": 100,
+      "ref": "TA-IP-100",
+      "slug": "synthetic-consciousness-engineering-platform",
+      "name": "Synthetic Consciousness Engineering Platform",
+      "familyId": "adaptive-intelligence",
+      "sector": "AI, Decision & Knowledge Systems",
+      "stage": "P",
+      "potential": "M",
+      "route": "Research / R&D licensing",
+      "ask": 45000,
+      "low": 36000,
+      "high": 56250,
+      "recreationCost": 150000,
+      "description": "Explore controlled simulations of adaptive behaviour and compare recorded experiments to assess questions for further research.",
+      "pricingScope": "Present first-party offline research prototype, corrected experimental derivative, documentation, historical provenance archive and the seven retained final-campaign files at the identified source commit. Historical fragments are counted once as retained provenance, not separate completed systems. Missing original data, unestablished complete intermediate checkpoints, trained weights, proven consciousness, external platform ownership, third-party rights and future research are excluded.",
+      "pricingStatus": "SELLER_SIDE_ESTIMATE_ESTABLISHED",
+      "independentIpAsset": true,
+      "economicAssessmentAt": "2026-10-11T07:01:21Z"
     }
   ],
-  "catalogueUpdatedAt": "2026-10-11T00:24:59Z",
+  "catalogueUpdatedAt": "2026-10-11T07:01:21Z",
   "latestIdentityUpdate": {
+    "assessedAt": "2026-10-11T07:01:21Z",
+    "type": "TWO_INDEPENDENT_SOFTWARE_ADDITIONS",
+    "previousAssetCount": 98,
+    "currentAssetCount": 100,
+    "otherAssetRecordsRetained": 98,
+    "additions": [
+      {
+        "ref": "TA-IP-099",
+        "title": "Launch & Cislunar Transportation Engineering Platform",
+        "referenceAlias": "Astrid",
+        "repository": "Launch-Cislunar-Transportation-Engineering-Platform",
+        "sourceHead": "eeaadf2299f8309e9e6f5a53dd0b35deb81a0ff8",
+        "version": "v0.1.0.dev0"
+      },
+      {
+        "ref": "TA-IP-100",
+        "title": "Synthetic Consciousness Engineering Platform",
+        "referenceAlias": "Elysia",
+        "repository": "Synthetic-Consciousness-Engineering-Platform",
+        "sourceHead": "683dbfada5d1406dd7f03f33fc1c5123c44c1ecc",
+        "version": "v0.1.0.dev0"
+      }
+    ],
+    "boundary": "Two newly listed software repositories were reviewed and added as TA-IP-099 and TA-IP-100. All 29 LCTEP files and 56 selected SCEP files were checked against Git blob identities; the full SCEP tree contains 200 files, including historical material that was not executed. Fresh local checks passed 18 LCTEP tests and 14 SCEP tests without failures, errors or skips, syntax compilation and bounded CLI examples. All seven retained SCEP final-campaign files passed byte-length, SHA-256 and archive-integrity checks; four recorded source-file blobs match the current source. The retained 400-agent, 1000-step GPU campaign was not rerun. One step-50 checkpoint metadata file and seven binary parts are present. The metadata file was byte-verified; the binary parts were inventoried, not downloaded or restored. The overall checkpoint-part manifest and complete intermediate checkpoint set are not established, and a checkpoint checksum field contains a filename. Validation concerns bounded software execution and retained evidence, not flight qualification, consciousness, historical-output equivalence or independent certification. All 98 existing asset records, source dates, prices and readiness criteria are retained. Website repositories remain excluded digital displays."
+  },
+  "previousIdentityUpdate": {
     "assessedAt": "2026-10-10T22:16:09Z",
     "replacement": {
       "ref": "TA-IP-097",
