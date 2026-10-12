@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.12-im68-full-portfolio-revision",
+  "version": "2026.10.12-im69-full-portfolio-revision",
   "checkedDate": "2026-10-12",
   "scope": {
     "ipAssetCount": 104,
@@ -1449,7 +1449,7 @@
       "developmentVersion": "0.4.2 — unmerged development candidate",
       "statusLabel": "Prototype; qualified local development candidate",
       "statusNote": "Review the existing observation project and its separately tested v0.4.2 development candidate. The candidate passed 280 Python tests and 92 native checks; the native sanitizer checks also passed. Main remains the historical v0.1 source and the development candidate is unmerged. These are synthetic and adversarial software checks; calibrated field performance and the larger research programme remain unqualified.",
-      "lastUpdated": "2026-10-07",
+      "lastUpdated": "2026-10-12",
       "checkedDate": "2026-10-12",
       "implemented": true,
       "countsAsIpAsset": true,
@@ -1480,7 +1480,9 @@
           "draft": false,
           "merged": false
         }
-      ]
+      ],
+      "defaultBranchLastUpdatedAt": "2026-10-07T05:49:11Z",
+      "developmentLastUpdatedAt": "2026-10-12T08:03:12Z"
     },
     {
       "slug": "organismal-state-dynamics-research-platform",

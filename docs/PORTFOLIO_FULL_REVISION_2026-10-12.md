@@ -67,3 +67,5 @@ Acquisition concerns only the expressly defined existing first-party asset and r
 ## Final development-candidate check
 
 At 2026-10-12T09:34:20Z, Remote Perception PR #1 advanced by a documentation-only change. All implementation and test blobs are unchanged; the exact candidate `f88bf8c6b453fe0d22cf14d149fe2ab3299bb243` again passed 91 software tests and its complete local preflight. Main is unchanged, and the separately reported commercial transfer gate remains BLOCKED. Project identity, asking reference and recreation estimate are unchanged.
+
+The final live-page review corrected the latest recorded update for TA-IP-001 to 12 October 2026, matching the reviewed unmerged development commit. Its default main remains dated 7 October 2026; no version, price, transfer grade or merger status changed.
