@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.11-im61-two-new-software-assets",
+  "version": "2026.10.12-im65-full-repository-review",
   "policy": "Each independent IP asset has one project title and one feminine reference alias. Each project has its own asset identity and rights perimeter. Websites are digital displays only.",
   "projects": [
     {
@@ -915,10 +915,22 @@
       "title": "Synthetic Consciousness Engineering Platform",
       "existingCanonical": true,
       "referenceAliasAssignment": "PORTFOLIO_REFERENCE_ONLY"
+    },
+    {
+      "slug": "omniframe-universal-video-intelligence-platform",
+      "ref": "TA-IP-101",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-12T00:19:02Z",
+      "repository": "OmniFrame-Universal-Video-Intelligence-Platform",
+      "identityName": "Ophelia",
+      "id": 101,
+      "title": "OmniFrame Universal Video Intelligence Platform",
+      "existingCanonical": true,
+      "referenceAliasAssignment": "PORTFOLIO_REFERENCE_ONLY"
     }
   ],
   "scope": {
-    "ipAssetCount": 100,
+    "ipAssetCount": 101,
     "excludedRepositories": [
       "Adaptive-Audio-Synthesis-Platform-Website",
       "BIND-AI-Computational-Neuroscience-IP-WEBSITE",
@@ -927,6 +939,7 @@
       "DOMINUS-Platform-Website",
       "EIMP-Website",
       "Faunometric-Website",
+      "FusionLunar-Website",
       "ISBR-SecureTrace-Website",
       "MyProjects",
       "ReserveFlow-Website",
@@ -934,12 +947,30 @@
       "TheArchitect-max-EGMERS-Website",
       "VEGMPF-Website"
     ],
-    "pricedAssetCount": 100,
+    "pricedAssetCount": 101,
     "unpricedAssetCount": 0
   },
-  "catalogueUpdatedAt": "2026-10-11T07:01:21Z",
-  "identifierPolicy": "The current public identifiers are TA-IP-001 through TA-IP-100, assigned once in catalogue order. The same identifier, title, reference alias and slug govern every current register, project profile and digital-display link. Historical publications remain available in Git history. The current TA-IP-097 slot replaces its historical predecessor; a replacement is not a new asset.",
+  "catalogueUpdatedAt": "2026-10-12T00:19:02Z",
+  "identifierPolicy": "The current public identifiers are TA-IP-001 through TA-IP-101, assigned once in catalogue order. The same identifier, title, reference alias and slug govern every current register, project profile and digital-display link. Historical publications remain available in Git history. The current TA-IP-097 slot replaces its historical predecessor; a replacement is not a new asset.",
   "latestIdentityUpdate": {
+    "assessedAt": "2026-10-12T00:19:02Z",
+    "type": "ONE_INDEPENDENT_SOFTWARE_ADDITION",
+    "previousAssetCount": 100,
+    "currentAssetCount": 101,
+    "otherAssetRecordsRetained": 100,
+    "additions": [
+      {
+        "ref": "TA-IP-101",
+        "title": "OmniFrame Universal Video Intelligence Platform",
+        "referenceAlias": "Ophelia",
+        "repository": "OmniFrame-Universal-Video-Intelligence-Platform",
+        "sourceHead": "24201fc76ac5125585a620e3786c256f668ff9df",
+        "version": "v0.5.0"
+      }
+    ],
+    "boundary": "OmniFrame is one independently scoped first-party prototype. Its internal research modules are not separately counted, and target-project assets and rights are excluded."
+  },
+  "previousIdentityUpdate": {
     "assessedAt": "2026-10-11T07:01:21Z",
     "type": "TWO_INDEPENDENT_SOFTWARE_ADDITIONS",
     "previousAssetCount": 98,
@@ -964,35 +995,5 @@
       }
     ],
     "boundary": "Two newly listed software repositories were reviewed and added as TA-IP-099 and TA-IP-100. All 29 LCTEP files and 56 selected SCEP files were checked against Git blob identities; the full SCEP tree contains 200 files, including historical material that was not executed. Fresh local checks passed 18 LCTEP tests and 14 SCEP tests without failures, errors or skips, syntax compilation and bounded CLI examples. All seven retained SCEP final-campaign files passed byte-length, SHA-256 and archive-integrity checks; four recorded source-file blobs match the current source. The retained 400-agent, 1000-step GPU campaign was not rerun. One step-50 checkpoint metadata file and seven binary parts are present. The metadata file was byte-verified; the binary parts were inventoried, not downloaded or restored. The overall checkpoint-part manifest and complete intermediate checkpoint set are not established, and a checkpoint checksum field contains a filename. Validation concerns bounded software execution and retained evidence, not flight qualification, consciousness, historical-output equivalence or independent certification. All 98 existing asset records, source dates, prices and readiness criteria are retained. Website repositories remain excluded digital displays."
-  },
-  "previousIdentityUpdate": {
-    "assessedAt": "2026-10-10T22:16:09Z",
-    "replacement": {
-      "ref": "TA-IP-097",
-      "previousTitle": "Digital Twin Core",
-      "previousReferenceAlias": "Tessa",
-      "previousRepository": "Digital-Twin-Core",
-      "title": "CAUSORYN",
-      "referenceAlias": "Vespera",
-      "repository": "Universal-Systems-Intelligence-Engine",
-      "sourceHead": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86",
-      "version": "v0.4.0",
-      "historicalValuationsInherited": false,
-      "historicalEvidenceInherited": false
-    },
-    "addition": {
-      "ref": "TA-IP-098",
-      "title": "Software Asset Engineering Platform",
-      "referenceAlias": "Octavia",
-      "repository": "Software-Asset-Engineering-Platform",
-      "sourceState": "IMPLEMENTED_LOCAL_PROTOTYPE",
-      "sourceHead": "bcfa388d0f10941b649cc181dfee544b016332f4",
-      "version": "v0.1.0",
-      "scopeDocument": "docs/SOFTWARE_ASSET_ENGINEERING_PLATFORM_SCOPE.md"
-    },
-    "previousAssetCount": 97,
-    "currentAssetCount": 98,
-    "otherAssetRecordsRetained": 96,
-    "boundary": "Targeted review of TA-IP-097 and the new TA-IP-098 only. Exact source snapshots were checked against Git blob identities. CAUSORYN passed 54 local unit tests, syntax checks and four examples. Software Asset Engineering Platform passed 72 local tests with no failures, errors or skips; engine/test digests match retained local and installed-wheel evidence. Engine verification does not validate ingested project code or legal/commercial conclusions. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
   }
 }

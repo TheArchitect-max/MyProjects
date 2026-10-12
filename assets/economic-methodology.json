@@ -1,29 +1,29 @@
 {
-  "v": "2026.10.11-im61-two-new-software-assets",
+  "v": "2026.10.12-im65-full-repository-review",
   "model": "Recreation-Cost-Anchored Seller Pricing with Reproducible Public Arithmetic",
   "status": "public-seller-side-economic-model",
   "portfolio": {
-    "assetCount": 100,
+    "assetCount": 101,
     "stageCounts": {
       "developedSoftware": 57,
-      "developedPrototype": 40,
+      "developedPrototype": 41,
       "researchStage": 3,
       "definitionStage": 0
     },
-    "sellerAskEUR": 24923000,
-    "negotiationLowEUR": 19911400,
-    "negotiationHighEUR": 31236250,
-    "replacementCostEUR": 105910000,
-    "marketComparableProxyEUR": 121001975,
-    "incomeLicensingProxyEUR": 142695023,
-    "probabilityAdjustedStrategicValueEUR": 133123429,
-    "triangulatedEconomicReferenceEUR": 125810103,
-    "sellerAskAsShareOfTriangulated": 0.19810014780768442,
-    "sellerAskAsShareOfReplacementCost": 0.23532244358417526,
-    "pricedAssetCount": 100,
+    "sellerAskEUR": 24993000,
+    "negotiationLowEUR": 19967400,
+    "negotiationHighEUR": 31324500,
+    "replacementCostEUR": 106170000,
+    "marketComparableProxyEUR": 121255675,
+    "incomeLicensingProxyEUR": 142957935,
+    "probabilityAdjustedStrategicValueEUR": 133318554,
+    "triangulatedEconomicReferenceEUR": 126046720,
+    "sellerAskAsShareOfTriangulated": 0.1982836205495867,
+    "sellerAskAsShareOfReplacementCost": 0.23540548177451256,
+    "pricedAssetCount": 101,
     "unpricedAssetCount": 0,
-    "monetaryScope": "All 100 independently scoped software IP assets. TA-IP-099 and TA-IP-100 have new present-scope prototype estimates. All 98 preceding asset prices retain their dated assessments. Project website repositories are excluded digital displays.",
-    "averageTriangulatedEconomicReferencePerPricedAsset": 1258101.03
+    "monetaryScope": "101 independent software IP assets. Three implemented main-branch increments and the new OmniFrame prototype have current estimates; the other 97 prices retain their individual assessments. Fourteen website/publication repositories are excluded digital displays.",
+    "averageTriangulatedEconomicReferencePerPricedAsset": 1247987.3267326732
   },
   "confidence": {
     "replacementCost": "Primary seller-side build-versus-buy reference estimating the engineering-equivalent cost to recreate comparable present transferable work product. It is a seller estimate, not a certified cost audit or guaranteed buyer saving.",
@@ -34,8 +34,8 @@
     "triangulatedEconomicReference": "Secondary weighted analytical reference rather than the primary asking-price basis."
   },
   "rebuildCostCalibration": {
-    "basisDate": "2026-10-11",
-    "approach": "Use the retained engineering-equivalent rates for separately disclosed present-scope budgets for the two new software assets. All 98 existing asset budgets and the economic model factors are retained.",
+    "basisDate": "2026-10-12",
+    "approach": "Retain the established engineering-equivalent rates. Add separately disclosed budgets only for the three implemented increments and the new OmniFrame prototype. No price premium is applied for unexecuted qualification, speculative AI outcomes or file counts.",
     "seniorEngineerMonthEUR": 18000,
     "leadOrSpecialistMonthEUR": 22000,
     "validationProvenanceMonthEUR": 16000,
@@ -44,7 +44,7 @@
     "successorPolicy": "Every catalogue project is treated as its own IP asset with its own first-party rights and transfer perimeter. Monetary estimates are established separately for each asset. Project websites are digital displays only.",
     "boundary": "Only present first-party software, research-software, validation, governance, packaging, documentation and handover work is costed. A definition-stage documentation estimate does not imply implemented software. Future hosting, market execution, speculative outcomes, unexecuted qualification and uncommitted implementation are excluded.",
     "previousBasisDate": "2026-10-10",
-    "assessedAt": "2026-10-11T07:01:21Z",
+    "assessedAt": "2026-10-12T00:19:02Z",
     "workPackageEstimates": [
       {
         "slug": "distributed-ai-resource-fabric",
@@ -429,12 +429,30 @@
         "askingShareOfAdoptedRecreationCost": 0.3,
         "costAssumptionsDocument": "docs/NEW_PROJECT_ASSESSMENTS_2026-10-11.md",
         "boundary": "Assumed engineering-equivalent reproduction budget, not recorded hours, expenditure, elapsed development time, completed comparables or an independent appraisal."
+      },
+      {
+        "slug": "omniframe-universal-video-intelligence-platform",
+        "ref": "TA-IP-101",
+        "basis": "First standalone current-prototype estimate; current validation blocker explicitly included",
+        "economicAssessmentAt": "2026-10-12T00:19:02Z",
+        "sourceHead": "84d20ef4de81fb8a199a84c9e168d83f5c6c21b4",
+        "retainedFileCount": 62,
+        "scope": "Present first-party v0.7 prototype source and documentation for browser controls, manual notes, offline project research, reviewed proposals and read-only source-review modules, in their actual documented state. The current mandatory validation failure is included as a known limitation. Browser production qualification, AI transcript or multimodal analysis, video downloading, external media/platform ownership, target-project code and rights, hosted services, automatic repairs and future engineering are excluded.",
+        "seniorEngineerMonths": 3,
+        "leadOrSpecialistMonths": 0.7,
+        "validationProvenanceMonths": 1,
+        "rawEngineeringCostEUR": 85400,
+        "withAllowanceEUR": 98210,
+        "adoptedRecreationCostEUR": 100000,
+        "askingShareOfAdoptedRecreationCost": 0.3,
+        "costAssumptionsDocument": "docs/PORTFOLIO_UPDATE_2026-10-12.md",
+        "boundary": "Uncertain seller-side reproduction assumption for existing first-party source. Retained v0.5 tests are separate; current v0.7 validation is blocked. No successful-current-release, revenue, browser qualification or AI-performance premium."
       }
     ],
     "estimateBoundary": "Engineer-month budgets are seller-side engineering-equivalent estimates for reproducing delivered work, not recorded payroll, elapsed development time, certified costs or a market appraisal.",
     "latestSeparateAssetPricingAt": "2026-10-09T06:22:41Z",
-    "latestReviewBoundary": "Two newly listed software repositories were reviewed and added as TA-IP-099 and TA-IP-100. All 29 LCTEP files and 56 selected SCEP files were checked against Git blob identities; the full SCEP tree contains 200 files, including historical material that was not executed. Fresh local checks passed 18 LCTEP tests and 14 SCEP tests without failures, errors or skips, syntax compilation and bounded CLI examples. All seven retained SCEP final-campaign files passed byte-length, SHA-256 and archive-integrity checks; four recorded source-file blobs match the current source. The retained 400-agent, 1000-step GPU campaign was not rerun. One step-50 checkpoint metadata file and seven binary parts are present. The metadata file was byte-verified; the binary parts were inventoried, not downloaded or restored. The overall checkpoint-part manifest and complete intermediate checkpoint set are not established, and a checkpoint checksum field contains a filename. Validation concerns bounded software execution and retained evidence, not flight qualification, consciousness, historical-output equivalence or independent certification. All 98 existing asset records, source dates, prices and readiness criteria are retained. Website repositories remain excluded digital displays.",
-    "latestIndividualAssetPricingAt": "2026-10-11T07:01:21Z",
+    "latestReviewBoundary": "All 101 software repositories are accounted for: the 100 existing default branches and 32 open pull requests were checked, and the new OmniFrame source was reviewed. Fresh local checks passed 103 TraceLine tests and 29 SCEP tests. OmniFrame v0.5 passed 37 tests and a development build; its newer v0.7 mandatory syntax gate fails in new test source, so the current full suite and build were not reached and its transfer classification is NOT_READY. TrueLane mandatory validation passed: 95 tests ran, 80 passed and 15 optional PyTorch tests were skipped; no new CUDA or Drive adapter execution is claimed. Changed source, retained validation and unmerged candidates are kept separate. The SCEP checkpoint manifest and tree inventory were reviewed; binary download, restoration and numerical replay were not performed. Prices change only for three implemented main-branch increments and the new OmniFrame prototype. All 97 other existing prices and all 100 existing maturity and readiness classifications are retained. The new OmniFrame prototype has an explicit current-source validation blocker. Website repositories are excluded digital displays. No independent legal, scientific, security or market certification is implied.",
+    "latestIndividualAssetPricingAt": "2026-10-12T00:19:02Z",
     "previousAssessedAt": "2026-10-11T00:24:59Z",
     "supersededWorkPackageEstimates": [
       {
@@ -502,6 +520,62 @@
         "supersededAt": "2026-10-11T00:24:59Z",
         "supersededBy": "causoryn-v0.6.0",
         "historicalOnly": true
+      }
+    ],
+    "incrementalWorkPackageEstimates": [
+      {
+        "ref": "TA-IP-013",
+        "slug": "truelane-intelligence-engine",
+        "economicAssessmentAt": "2026-10-12T00:19:02Z",
+        "sourceHead": "52a9de8d475f0b08b238047f435b71fb092a8081",
+        "previousRecreationCostEUR": 1000000,
+        "currentRecreationCostEUR": 1040000,
+        "sellerAskEUR": 310000,
+        "scope": "Implemented first-party adaptation controls, reviewed fixtures and checkpoint lifecycle",
+        "seniorEngineerMonths": 1,
+        "leadOrSpecialistMonths": 0.25,
+        "validationProvenanceMonths": 0.65,
+        "rawEngineeringCostEUR": 33900,
+        "withAllowanceEUR": 38985,
+        "adoptedRecreationCostEUR": 40000,
+        "costAssumptionsDocument": "docs/PORTFOLIO_UPDATE_2026-10-12.md",
+        "boundary": "Engineering-equivalent reproduction assumption; no test-count, file-count, revenue or unexecuted-qualification premium."
+      },
+      {
+        "ref": "TA-IP-065",
+        "slug": "traceline-evidence-governed-investigation-framework",
+        "economicAssessmentAt": "2026-10-12T00:19:02Z",
+        "sourceHead": "7152a0dc6bc4dc536189424eabde8e29d047f8b6",
+        "previousRecreationCostEUR": 1125000,
+        "currentRecreationCostEUR": 1195000,
+        "sellerAskEUR": 295000,
+        "scope": "Local evidence custody, controlled disclosure and interrupted-operation recovery",
+        "seniorEngineerMonths": 2,
+        "leadOrSpecialistMonths": 0.5,
+        "validationProvenanceMonths": 0.8,
+        "rawEngineeringCostEUR": 59800,
+        "withAllowanceEUR": 68770,
+        "adoptedRecreationCostEUR": 70000,
+        "costAssumptionsDocument": "docs/PORTFOLIO_UPDATE_2026-10-12.md",
+        "boundary": "Engineering-equivalent reproduction assumption; no test-count, file-count, revenue or unexecuted-qualification premium."
+      },
+      {
+        "ref": "TA-IP-100",
+        "slug": "synthetic-consciousness-engineering-platform",
+        "economicAssessmentAt": "2026-10-12T00:19:02Z",
+        "sourceHead": "0f36122a14ce403c1c8d69382f1e5cea76706018",
+        "previousRecreationCostEUR": 150000,
+        "currentRecreationCostEUR": 200000,
+        "sellerAskEUR": 60000,
+        "scope": "Repeatable campaign review and source-bound experiment recovery software",
+        "seniorEngineerMonths": 1.5,
+        "leadOrSpecialistMonths": 0.4,
+        "validationProvenanceMonths": 0.6,
+        "rawEngineeringCostEUR": 45400,
+        "withAllowanceEUR": 52210,
+        "adoptedRecreationCostEUR": 50000,
+        "costAssumptionsDocument": "docs/PORTFOLIO_UPDATE_2026-10-12.md",
+        "boundary": "Engineering-equivalent reproduction assumption; no test-count, file-count, revenue or unexecuted-qualification premium."
       }
     ]
   },
@@ -708,8 +782,8 @@
     }
   },
   "independentAssetPolicy": {
-    "ipAssetCount": 100,
-    "pricedAssetCount": 100,
+    "ipAssetCount": 101,
+    "pricedAssetCount": 101,
     "unpricedAssetCount": 0,
     "rule": "Every listed asset has its own identity, rights perimeter and present-scope monetary estimate. No project is represented by another asset. Project websites are digital displays only. Definition documentation is distinguished from implemented software."
   },
@@ -730,21 +804,20 @@
     }
   ],
   "latestSourceReview": {
-    "checkedAt": "2026-10-11T07:01:21Z",
-    "type": "TWO_NEW_SOFTWARE_ASSETS",
-    "repositoryHeads": {
-      "Launch-Cislunar-Transportation-Engineering-Platform": "eeaadf2299f8309e9e6f5a53dd0b35deb81a0ff8",
-      "Synthetic-Consciousness-Engineering-Platform": "683dbfada5d1406dd7f03f33fc1c5123c44c1ecc"
-    },
-    "defaultBranchesChecked": 2,
-    "updatedAssetProfiles": 2,
-    "otherAssetRecordsRetained": 98,
-    "monetaryChanges": 2,
-    "assetAdditions": 2,
-    "assetReplacements": 0,
-    "accountRepositoryCount": 113,
-    "excludedWebsiteRepositoryCount": 13,
-    "boundary": "Two newly listed software repositories were reviewed and added as TA-IP-099 and TA-IP-100. All 29 LCTEP files and 56 selected SCEP files were checked against Git blob identities; the full SCEP tree contains 200 files, including historical material that was not executed. Fresh local checks passed 18 LCTEP tests and 14 SCEP tests without failures, errors or skips, syntax compilation and bounded CLI examples. All seven retained SCEP final-campaign files passed byte-length, SHA-256 and archive-integrity checks; four recorded source-file blobs match the current source. The retained 400-agent, 1000-step GPU campaign was not rerun. One step-50 checkpoint metadata file and seven binary parts are present. The metadata file was byte-verified; the binary parts were inventoried, not downloaded or restored. The overall checkpoint-part manifest and complete intermediate checkpoint set are not established, and a checkpoint checksum field contains a filename. Validation concerns bounded software execution and retained evidence, not flight qualification, consciousness, historical-output equivalence or independent certification. All 98 existing asset records, source dates, prices and readiness criteria are retained. Website repositories remain excluded digital displays."
+    "assessedAt": "2026-10-12T00:19:02Z",
+    "checkedAt": "2026-10-12T00:19:02Z",
+    "previousEvaluationDate": "2026-10-11",
+    "defaultBranchesChecked": 101,
+    "existingDefaultBranchesChanged": 3,
+    "openPullRequestsChecked": 32,
+    "projectsReviewed": 101,
+    "unassessedProjects": 0,
+    "updatedAssetProfiles": 8,
+    "reconfirmedExistingProfiles": 93,
+    "newSoftwareAssets": 1,
+    "monetaryChanges": 4,
+    "displayCount": 12,
+    "boundary": "All 101 software repositories are accounted for: the 100 existing default branches and 32 open pull requests were checked, and the new OmniFrame source was reviewed. Fresh local checks passed 103 TraceLine tests and 29 SCEP tests. OmniFrame v0.5 passed 37 tests and a development build; its newer v0.7 mandatory syntax gate fails in new test source, so the current full suite and build were not reached and its transfer classification is NOT_READY. TrueLane mandatory validation passed: 95 tests ran, 80 passed and 15 optional PyTorch tests were skipped; no new CUDA or Drive adapter execution is claimed. Changed source, retained validation and unmerged candidates are kept separate. The SCEP checkpoint manifest and tree inventory were reviewed; binary download, restoration and numerical replay were not performed. Prices change only for three implemented main-branch increments and the new OmniFrame prototype. All 97 other existing prices and all 100 existing maturity and readiness classifications are retained. The new OmniFrame prototype has an explicit current-source validation blocker. Website repositories are excluded digital displays. No independent legal, scientific, security or market certification is implied."
   },
   "previousTargetedAssetReview": {
     "slug": "distributed-ai-resource-fabric",
@@ -769,6 +842,128 @@
     "boundary": "DARF only: current source, retained exact-commit validation, rights, delivery conditions and seller-side economics. The other 96 asset assessments and monetary inputs retain their earlier dates and conclusions; portfolio totals are recomputed."
   },
   "latestFinancialReassessment": {
+    "assessedAt": "2026-10-12T00:19:02Z",
+    "assetsReassessed": 4,
+    "monetaryReferencesChanged": 4,
+    "assetAdditions": 1,
+    "unchangedAssetPrices": 97,
+    "otherAssetRecordsRetained": 97,
+    "unchangedCommercialFactors": true,
+    "softwareMaturityChanged": false,
+    "assets": [
+      {
+        "ref": "TA-IP-013",
+        "slug": "truelane-intelligence-engine",
+        "title": "TrueLane Intelligence Engine",
+        "previousSellerAskEUR": 300000,
+        "sellerAskEUR": 310000,
+        "previousReplacementCostEUR": 1000000,
+        "replacementCostEUR": 1040000,
+        "costAssumptionsDocument": "docs/PORTFOLIO_UPDATE_2026-10-12.md",
+        "pricingScope": "Existing first-party AI research and training-control software plus the implemented v5.8 adaptation, reviewed-input and local checkpoint-control increment. Optional new PyTorch training execution, external CUDA/Drive adapter qualification, larger-model quality, external weights and data, frontier performance and future development are not included as demonstrated capabilities."
+      },
+      {
+        "ref": "TA-IP-065",
+        "slug": "traceline-evidence-governed-investigation-framework",
+        "title": "TraceLine — Evidence-Governed Investigation Framework",
+        "previousSellerAskEUR": 280000,
+        "sellerAskEUR": 295000,
+        "previousReplacementCostEUR": 1125000,
+        "replacementCostEUR": 1195000,
+        "costAssumptionsDocument": "docs/PORTFOLIO_UPDATE_2026-10-12.md",
+        "pricingScope": "Existing first-party investigation decision-support software plus the implemented v0.6 local evidence custody, controlled disclosure and recoverable-operation increment, its documentation and tests. Legal authority, third-party content rights, independent evidence authentication, certified security and future deployment are excluded."
+      },
+      {
+        "ref": "TA-IP-100",
+        "slug": "synthetic-consciousness-engineering-platform",
+        "title": "Synthetic Consciousness Engineering Platform",
+        "previousSellerAskEUR": 45000,
+        "sellerAskEUR": 60000,
+        "previousReplacementCostEUR": 150000,
+        "replacementCostEUR": 200000,
+        "costAssumptionsDocument": "docs/PORTFOLIO_UPDATE_2026-10-12.md",
+        "pricingScope": "Present first-party offline research software, corrected experimental derivative, implemented campaign-audit, multi-seed study and resumable-experiment controls, documentation and retained historical/final/checkpoint material counted once. Missing original historical data and weights, proven consciousness, numerical equivalence, external platform ownership, third-party rights, full-scale future GPU qualification and future research are excluded."
+      },
+      {
+        "ref": "TA-IP-101",
+        "slug": "omniframe-universal-video-intelligence-platform",
+        "title": "OmniFrame Universal Video Intelligence Platform",
+        "previousSellerAskEUR": null,
+        "sellerAskEUR": 30000,
+        "previousReplacementCostEUR": null,
+        "replacementCostEUR": 100000,
+        "costAssumptionsDocument": "docs/PORTFOLIO_UPDATE_2026-10-12.md",
+        "pricingScope": "Present first-party v0.7 prototype source and documentation for browser controls, manual notes, offline project research, reviewed proposals and read-only source-review modules, in their actual documented state. The current mandatory validation failure is included as a known limitation. Browser production qualification, AI transcript or multimodal analysis, video downloading, external media/platform ownership, target-project code and rights, hosted services, automatic repairs and future engineering are excluded."
+      }
+    ],
+    "boundary": "All 101 software repositories are accounted for: the 100 existing default branches and 32 open pull requests were checked, and the new OmniFrame source was reviewed. Fresh local checks passed 103 TraceLine tests and 29 SCEP tests. OmniFrame v0.5 passed 37 tests and a development build; its newer v0.7 mandatory syntax gate fails in new test source, so the current full suite and build were not reached and its transfer classification is NOT_READY. TrueLane mandatory validation passed: 95 tests ran, 80 passed and 15 optional PyTorch tests were skipped; no new CUDA or Drive adapter execution is claimed. Changed source, retained validation and unmerged candidates are kept separate. The SCEP checkpoint manifest and tree inventory were reviewed; binary download, restoration and numerical replay were not performed. Prices change only for three implemented main-branch increments and the new OmniFrame prototype. All 97 other existing prices and all 100 existing maturity and readiness classifications are retained. The new OmniFrame prototype has an explicit current-source validation blocker. Website repositories are excluded digital displays. No independent legal, scientific, security or market certification is implied.",
+    "previousPortfolio": {
+      "assetCount": 100,
+      "stageCounts": {
+        "developedSoftware": 57,
+        "developedPrototype": 40,
+        "researchStage": 3,
+        "definitionStage": 0
+      },
+      "sellerAskEUR": 24923000,
+      "negotiationLowEUR": 19911400,
+      "negotiationHighEUR": 31236250,
+      "replacementCostEUR": 105910000,
+      "marketComparableProxyEUR": 121001975,
+      "incomeLicensingProxyEUR": 142695023,
+      "probabilityAdjustedStrategicValueEUR": 133123429,
+      "triangulatedEconomicReferenceEUR": 125810103,
+      "sellerAskAsShareOfTriangulated": 0.19810014780768442,
+      "sellerAskAsShareOfReplacementCost": 0.23532244358417526,
+      "pricedAssetCount": 100,
+      "unpricedAssetCount": 0,
+      "monetaryScope": "All 100 independently scoped software IP assets. TA-IP-099 and TA-IP-100 have new present-scope prototype estimates. All 98 preceding asset prices retain their dated assessments. Project website repositories are excluded digital displays.",
+      "averageTriangulatedEconomicReferencePerPricedAsset": 1258101.03
+    },
+    "currentPortfolio": {
+      "assetCount": 101,
+      "stageCounts": {
+        "developedSoftware": 57,
+        "developedPrototype": 41,
+        "researchStage": 3,
+        "definitionStage": 0
+      },
+      "sellerAskEUR": 24993000,
+      "negotiationLowEUR": 19967400,
+      "negotiationHighEUR": 31324500,
+      "replacementCostEUR": 106170000,
+      "marketComparableProxyEUR": 121255675,
+      "incomeLicensingProxyEUR": 142957935,
+      "probabilityAdjustedStrategicValueEUR": 133318554,
+      "triangulatedEconomicReferenceEUR": 126046720,
+      "sellerAskAsShareOfTriangulated": 0.1982836205495867,
+      "sellerAskAsShareOfReplacementCost": 0.23540548177451256,
+      "pricedAssetCount": 101,
+      "unpricedAssetCount": 0,
+      "monetaryScope": "101 independent software IP assets. Three implemented main-branch increments and the new OmniFrame prototype have current estimates; the other 97 prices retain their individual assessments. Fourteen website/publication repositories are excluded digital displays.",
+      "averageTriangulatedEconomicReferencePerPricedAsset": 1247987.3267326732
+    }
+  },
+  "catalogueUpdatedAt": "2026-10-12T00:19:02Z",
+  "latestIdentityUpdate": {
+    "assessedAt": "2026-10-12T00:19:02Z",
+    "type": "ONE_INDEPENDENT_SOFTWARE_ADDITION",
+    "previousAssetCount": 100,
+    "currentAssetCount": 101,
+    "otherAssetRecordsRetained": 100,
+    "additions": [
+      {
+        "ref": "TA-IP-101",
+        "title": "OmniFrame Universal Video Intelligence Platform",
+        "referenceAlias": "Ophelia",
+        "repository": "OmniFrame-Universal-Video-Intelligence-Platform",
+        "sourceHead": "84d20ef4de81fb8a199a84c9e168d83f5c6c21b4",
+        "version": "v0.7.0"
+      }
+    ],
+    "boundary": "OmniFrame is one independently scoped first-party prototype. Its internal research modules are not separately counted, and target-project assets and rights are excluded."
+  },
+  "previousFinancialReassessment": {
     "assessedAt": "2026-10-11T07:01:21Z",
     "assetsReassessed": 2,
     "monetaryReferencesChanged": 2,
@@ -857,8 +1052,39 @@
       "averageTriangulatedEconomicReferencePerPricedAsset": 1258101.03
     }
   },
-  "catalogueUpdatedAt": "2026-10-11T07:01:21Z",
-  "latestIdentityUpdate": {
+  "previousFullSourceReview": {
+    "checkedAt": "2026-10-11T07:01:21Z",
+    "type": "TWO_NEW_SOFTWARE_ASSETS",
+    "repositoryHeads": {
+      "Launch-Cislunar-Transportation-Engineering-Platform": "eeaadf2299f8309e9e6f5a53dd0b35deb81a0ff8",
+      "Synthetic-Consciousness-Engineering-Platform": "683dbfada5d1406dd7f03f33fc1c5123c44c1ecc"
+    },
+    "defaultBranchesChecked": 2,
+    "updatedAssetProfiles": 2,
+    "otherAssetRecordsRetained": 98,
+    "monetaryChanges": 2,
+    "assetAdditions": 2,
+    "assetReplacements": 0,
+    "accountRepositoryCount": 113,
+    "excludedWebsiteRepositoryCount": 13,
+    "boundary": "Two newly listed software repositories were reviewed and added as TA-IP-099 and TA-IP-100. All 29 LCTEP files and 56 selected SCEP files were checked against Git blob identities; the full SCEP tree contains 200 files, including historical material that was not executed. Fresh local checks passed 18 LCTEP tests and 14 SCEP tests without failures, errors or skips, syntax compilation and bounded CLI examples. All seven retained SCEP final-campaign files passed byte-length, SHA-256 and archive-integrity checks; four recorded source-file blobs match the current source. The retained 400-agent, 1000-step GPU campaign was not rerun. One step-50 checkpoint metadata file and seven binary parts are present. The metadata file was byte-verified; the binary parts were inventoried, not downloaded or restored. The overall checkpoint-part manifest and complete intermediate checkpoint set are not established, and a checkpoint checksum field contains a filename. Validation concerns bounded software execution and retained evidence, not flight qualification, consciousness, historical-output equivalence or independent certification. All 98 existing asset records, source dates, prices and readiness criteria are retained. Website repositories remain excluded digital displays."
+  },
+  "previousTargetedSourceReview": {
+    "checkedAt": "2026-10-11T00:24:59Z",
+    "type": "TWO_ASSET_TARGETED_SOURCE_REFRESH",
+    "repositoryHeads": {
+      "Universal-Systems-Intelligence-Engine": "3ca782f99c14b69675d9766c3c8e32d30a28791d",
+      "Software-Asset-Engineering-Platform": "e654268817be3394101715d98a3c60ed246a49ea"
+    },
+    "defaultBranchesChecked": 2,
+    "updatedAssetProfiles": 2,
+    "otherAssetRecordsRetained": 96,
+    "monetaryChanges": 1,
+    "assetAdditions": 0,
+    "assetReplacements": 0,
+    "boundary": "Targeted source and financial review of TA-IP-097 and TA-IP-098 only. Exact Git blob identities were verified for 51 CAUSORYN files and 78 Software Asset Engineering Platform files. Fresh local checks passed 98 CAUSORYN tests, syntax compilation and seven examples, and 72 Octavia tests with no failures, errors or skips. Octavia engine and test digests are unchanged; its new required private SaaS is a specification, not a delivered service. Only CAUSORYN monetary references change for its implemented v0.5/v0.6 increments. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
+  },
+  "previousIdentityUpdate": {
     "assessedAt": "2026-10-11T07:01:21Z",
     "type": "TWO_INDEPENDENT_SOFTWARE_ADDITIONS",
     "previousAssetCount": 98,
@@ -883,152 +1109,5 @@
       }
     ],
     "boundary": "Two newly listed software repositories were reviewed and added as TA-IP-099 and TA-IP-100. All 29 LCTEP files and 56 selected SCEP files were checked against Git blob identities; the full SCEP tree contains 200 files, including historical material that was not executed. Fresh local checks passed 18 LCTEP tests and 14 SCEP tests without failures, errors or skips, syntax compilation and bounded CLI examples. All seven retained SCEP final-campaign files passed byte-length, SHA-256 and archive-integrity checks; four recorded source-file blobs match the current source. The retained 400-agent, 1000-step GPU campaign was not rerun. One step-50 checkpoint metadata file and seven binary parts are present. The metadata file was byte-verified; the binary parts were inventoried, not downloaded or restored. The overall checkpoint-part manifest and complete intermediate checkpoint set are not established, and a checkpoint checksum field contains a filename. Validation concerns bounded software execution and retained evidence, not flight qualification, consciousness, historical-output equivalence or independent certification. All 98 existing asset records, source dates, prices and readiness criteria are retained. Website repositories remain excluded digital displays."
-  },
-  "previousFinancialReassessment": {
-    "assessedAt": "2026-10-11T00:24:59Z",
-    "assetsReassessed": 2,
-    "monetaryReferencesChanged": 1,
-    "unchangedAssetPrices": 97,
-    "otherAssetRecordsRetained": 96,
-    "unchangedCommercialFactors": true,
-    "softwareMaturityChanged": false,
-    "assets": [
-      {
-        "slug": "causoryn",
-        "ref": "TA-IP-097",
-        "title": "CAUSORYN",
-        "assessedAt": "2026-10-11T00:24:59Z",
-        "previousSellerAskEUR": 30000,
-        "sellerAskEUR": 48000,
-        "previousReplacementCostEUR": 100000,
-        "replacementCostEUR": 160000,
-        "negotiationLowEUR": 38400,
-        "negotiationHighEUR": 60000,
-        "previousReferenceBoundary": "Previous separately assessed v0.4.0 implementation; the current scope includes the delivered v0.5/v0.6 increments.",
-        "costAssumptionsDocument": "docs/CAUSORYN_AND_OCTAVIA_SOURCE_REFRESH_2026-10-11.md",
-        "pricingScope": "Present first-party linked-system modelling, scenario comparison, offline observation records and local coupled-simulation prototype, with retained source, tests, documentation and development packaging at the identified v0.6.0 source commit. Live telemetry, distributed operation, physical fidelity, production qualification, third-party ownership and future development are excluded."
-      },
-      {
-        "slug": "software-asset-engineering-platform",
-        "ref": "TA-IP-098",
-        "title": "Software Asset Engineering Platform",
-        "assessedAt": "2026-10-11T00:24:59Z",
-        "previousSellerAskEUR": 75000,
-        "sellerAskEUR": 75000,
-        "previousReplacementCostEUR": 250000,
-        "replacementCostEUR": 250000,
-        "negotiationLowEUR": 60000,
-        "negotiationHighEUR": 93750,
-        "previousReferenceBoundary": "Prior v0.1.0 local-engine estimate retained; documentation of required future SaaS adds no delivered hosted capability.",
-        "costAssumptionsDocument": "docs/CAUSORYN_AND_OCTAVIA_SOURCE_REFRESH_2026-10-11.md",
-        "pricingScope": "Present first-party local software-inspection, evidence, bounded review-proposal and package-preparation prototype, its CLI/local interface, source contracts, documentation and retained validation at the identified v0.1.0 commit. Ingested-project execution, arbitrary-code isolation, broader adapters, production SaaS, hosting, rights certification, third-party ownership and future development are excluded."
-      }
-    ],
-    "boundary": "Targeted source and financial review of TA-IP-097 and TA-IP-098 only. Exact Git blob identities were verified for 51 CAUSORYN files and 78 Software Asset Engineering Platform files. Fresh local checks passed 98 CAUSORYN tests, syntax compilation and seven examples, and 72 Octavia tests with no failures, errors or skips. Octavia engine and test digests are unchanged; its new required private SaaS is a specification, not a delivered service. Only CAUSORYN monetary references change for its implemented v0.5/v0.6 increments. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied.",
-    "previousPortfolio": {
-      "assetCount": 98,
-      "stageCounts": {
-        "developedSoftware": 57,
-        "developedPrototype": 38,
-        "researchStage": 3,
-        "definitionStage": 0
-      },
-      "sellerAskEUR": 24845000,
-      "negotiationLowEUR": 19849000,
-      "negotiationHighEUR": 31138750,
-      "replacementCostEUR": 105650000,
-      "marketComparableProxyEUR": 120793130,
-      "incomeLicensingProxyEUR": 142545847,
-      "probabilityAdjustedStrategicValueEUR": 133019876,
-      "triangulatedEconomicReferenceEUR": 125637255,
-      "sellerAskAsShareOfTriangulated": 0.19775185314260488,
-      "sellerAskAsShareOfReplacementCost": 0.23516327496450545,
-      "pricedAssetCount": 98,
-      "unpricedAssetCount": 0,
-      "monetaryScope": "All 98 independently scoped IP assets. CAUSORYN replaces the historical Digital Twin Core record at TA-IP-097. Software Asset Engineering Platform (TA-IP-098) is separately priced for its implemented v0.1.0 local inspection and review-packaging prototype. Neither record inherits the former Digital Twin Core documentation price.",
-      "averageTriangulatedEconomicReferencePerPricedAsset": 1282012.806122449
-    },
-    "currentPortfolio": {
-      "assetCount": 98,
-      "stageCounts": {
-        "developedSoftware": 57,
-        "developedPrototype": 38,
-        "researchStage": 3,
-        "definitionStage": 0
-      },
-      "sellerAskEUR": 24863000,
-      "negotiationLowEUR": 19863400,
-      "negotiationHighEUR": 31161250,
-      "replacementCostEUR": 105710000,
-      "marketComparableProxyEUR": 120841325,
-      "incomeLicensingProxyEUR": 142580272,
-      "probabilityAdjustedStrategicValueEUR": 133043773,
-      "triangulatedEconomicReferenceEUR": 125677143,
-      "sellerAskAsShareOfTriangulated": 0.19783231386792427,
-      "sellerAskAsShareOfReplacementCost": 0.23520007567874374,
-      "pricedAssetCount": 98,
-      "unpricedAssetCount": 0,
-      "monetaryScope": "All 98 independently scoped IP assets. CAUSORYN at TA-IP-097 is priced for its implemented v0.6.0 local prototype. Software Asset Engineering Platform at TA-IP-098 retains its v0.1.0 local-engine estimate; required future SaaS delivery is excluded. Historical Digital Twin Core values are not inherited.",
-      "averageTriangulatedEconomicReferencePerPricedAsset": 1282419.8265306123
-    }
-  },
-  "previousFullSourceReview": {
-    "checkedAt": "2026-10-10T08:52:15Z",
-    "previousCatalogueUpdatedAt": "2026-10-10T00:48:36Z",
-    "defaultBranchesChecked": 97,
-    "changedDefaultBranches": 2,
-    "openPullRequestsChecked": 29,
-    "updatedAssetProfiles": 2,
-    "unchangedAssetProfiles": 95,
-    "retainedNumericPriceRecords": 95,
-    "softwareMaturityChanges": 0,
-    "monetaryChanges": 2,
-    "displayCount": 11,
-    "boundary": "All 97 default-branch heads and all 29 open pull requests were checked. Changed source, retained exact-code validation and bounded development scope were reviewed. This is not a new execution of every repository test suite, independent appraisal or application deployment."
-  },
-  "previousTargetedSourceReview": {
-    "checkedAt": "2026-10-11T00:24:59Z",
-    "type": "TWO_ASSET_TARGETED_SOURCE_REFRESH",
-    "repositoryHeads": {
-      "Universal-Systems-Intelligence-Engine": "3ca782f99c14b69675d9766c3c8e32d30a28791d",
-      "Software-Asset-Engineering-Platform": "e654268817be3394101715d98a3c60ed246a49ea"
-    },
-    "defaultBranchesChecked": 2,
-    "updatedAssetProfiles": 2,
-    "otherAssetRecordsRetained": 96,
-    "monetaryChanges": 1,
-    "assetAdditions": 0,
-    "assetReplacements": 0,
-    "boundary": "Targeted source and financial review of TA-IP-097 and TA-IP-098 only. Exact Git blob identities were verified for 51 CAUSORYN files and 78 Software Asset Engineering Platform files. Fresh local checks passed 98 CAUSORYN tests, syntax compilation and seven examples, and 72 Octavia tests with no failures, errors or skips. Octavia engine and test digests are unchanged; its new required private SaaS is a specification, not a delivered service. Only CAUSORYN monetary references change for its implemented v0.5/v0.6 increments. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
-  },
-  "previousIdentityUpdate": {
-    "assessedAt": "2026-10-10T22:16:09Z",
-    "replacement": {
-      "ref": "TA-IP-097",
-      "previousTitle": "Digital Twin Core",
-      "previousReferenceAlias": "Tessa",
-      "previousRepository": "Digital-Twin-Core",
-      "title": "CAUSORYN",
-      "referenceAlias": "Vespera",
-      "repository": "Universal-Systems-Intelligence-Engine",
-      "sourceHead": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86",
-      "version": "v0.4.0",
-      "historicalValuationsInherited": false,
-      "historicalEvidenceInherited": false
-    },
-    "addition": {
-      "ref": "TA-IP-098",
-      "title": "Software Asset Engineering Platform",
-      "referenceAlias": "Octavia",
-      "repository": "Software-Asset-Engineering-Platform",
-      "sourceState": "IMPLEMENTED_LOCAL_PROTOTYPE",
-      "sourceHead": "bcfa388d0f10941b649cc181dfee544b016332f4",
-      "version": "v0.1.0",
-      "scopeDocument": "docs/SOFTWARE_ASSET_ENGINEERING_PLATFORM_SCOPE.md"
-    },
-    "previousAssetCount": 97,
-    "currentAssetCount": 98,
-    "otherAssetRecordsRetained": 96,
-    "boundary": "Targeted review of TA-IP-097 and the new TA-IP-098 only. Exact source snapshots were checked against Git blob identities. CAUSORYN passed 54 local unit tests, syntax checks and four examples. Software Asset Engineering Platform passed 72 local tests with no failures, errors or skips; engine/test digests match retained local and installed-wheel evidence. Engine verification does not validate ingested project code or legal/commercial conclusions. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
   }
 }

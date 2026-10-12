@@ -1,7 +1,7 @@
 {
-  "version": "2026.10.11-im64-project-display-source-sync",
-  "verifiedDate": "2026-10-11",
-  "siteCount": 11,
+  "version": "2026.10.12-im65-full-repository-review",
+  "verifiedDate": "2026-10-12",
+  "siteCount": 12,
   "sites": [
     {
       "slug": "continuum-state-integrity-platform",
@@ -156,6 +156,20 @@
       "displayCommit": "04a58254dcc457196c576b2331eefaa772a8dd27",
       "successfulDeployment": 38123102993,
       "sourceCheckedAt": "2026-10-11T07:49:54Z"
+    },
+    {
+      "slug": "fusionlunar-energy-systems-engineering-platform",
+      "ref": "TA-IP-057",
+      "title": "FusionLunar Energy Systems Engineering Platform",
+      "url": "https://thearchitect-max.github.io/FusionLunar-Website/",
+      "provider": "GitHub Pages",
+      "status": "live",
+      "kind": "digital-display",
+      "repository": "FusionLunar-Website",
+      "displayCommit": "97f8ad094e6112d97cd2018404fcf192701dac4c",
+      "successfulDeployment": 38187664367,
+      "sourceCheckedAt": "2026-10-12T00:19:02Z",
+      "verifiedAt": "2026-10-12T00:24:39.042Z"
     }
   ],
   "boundary": "Digital displays belong to their software projects. Website repositories never count as separate IP assets.",
@@ -169,5 +183,12 @@
     }
   ],
   "verifiedAt": "2026-10-11T08:06:21.463Z",
-  "sourceCheckedAt": "2026-10-11T07:49:54Z"
+  "sourceCheckedAt": "2026-10-11T07:49:54Z",
+  "catalogueUpdatedAt": "2026-10-12T00:26:20Z",
+  "latestAddedDisplay": {
+    "ref": "TA-IP-057",
+    "repository": "FusionLunar-Website",
+    "verifiedAt": "2026-10-12T00:24:39.042Z",
+    "assetCountChanged": false
+  }
 }

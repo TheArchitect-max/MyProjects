@@ -1,7 +1,7 @@
 {
-  "version": "2026.10.11-im62-fusionlunar-transport-module",
+  "version": "2026.10.12-im65-full-repository-review",
   "scopeUpdatedAt": "2026-10-10T22:16:09Z",
-  "policy": "Six independently scoped software IP assets with individual asking references and defined transfer perimeters. Each estimate covers its own documented present implementation. Historical predecessor values remain separate. No project website is counted as an asset.",
+  "policy": "Seven independently scoped software IP assets with individual asking references and transfer perimeters. Each estimate covers its own existing first-party implementation. Internal modules are counted once inside their project; target-project rights and website repositories are excluded.",
   "assets": [
     {
       "id": 95,
@@ -113,19 +113,57 @@
       "stage": "P",
       "potential": "M",
       "route": "Research / R&D licensing",
-      "ask": 45000,
-      "low": 36000,
-      "high": 56250,
-      "recreationCost": 150000,
+      "ask": 60000,
+      "low": 48000,
+      "high": 75000,
+      "recreationCost": 200000,
       "description": "Explore controlled simulations of adaptive behaviour and compare recorded experiments to assess questions for further research.",
-      "pricingScope": "Present first-party offline research prototype, corrected experimental derivative, documentation, historical provenance archive and the seven retained final-campaign files at the identified source commit. Historical fragments are counted once as retained provenance, not separate completed systems. Missing original data, unestablished complete intermediate checkpoints, trained weights, proven consciousness, external platform ownership, third-party rights and future research are excluded.",
+      "pricingScope": "Present first-party offline research software, corrected experimental derivative, implemented campaign-audit, multi-seed study and resumable-experiment controls, documentation and retained historical/final/checkpoint material counted once. Missing original historical data and weights, proven consciousness, numerical equivalence, external platform ownership, third-party rights, full-scale future GPU qualification and future research are excluded.",
       "pricingStatus": "SELLER_SIDE_ESTIMATE_ESTABLISHED",
       "independentIpAsset": true,
-      "economicAssessmentAt": "2026-10-11T07:01:21Z"
+      "economicAssessmentAt": "2026-10-12T00:19:02Z"
+    },
+    {
+      "id": 101,
+      "ref": "TA-IP-101",
+      "slug": "omniframe-universal-video-intelligence-platform",
+      "name": "OmniFrame Universal Video Intelligence Platform",
+      "familyId": "audio-media",
+      "sector": "Media & Creator Technology",
+      "stage": "P",
+      "potential": "M",
+      "route": "Media / creator software",
+      "ask": 30000,
+      "low": 24000,
+      "high": 37500,
+      "recreationCost": 100000,
+      "description": "Control your video viewing, retain your own timestamped research notes and turn reviewed ideas into proposals for your software projects.",
+      "pricingScope": "Present first-party v0.7 prototype source and documentation for browser controls, manual notes, offline project research, reviewed proposals and read-only source-review modules, in their actual documented state. The current mandatory validation failure is included as a known limitation. Browser production qualification, AI transcript or multimodal analysis, video downloading, external media/platform ownership, target-project code and rights, hosted services, automatic repairs and future engineering are excluded.",
+      "pricingStatus": "SELLER_SIDE_ESTIMATE_ESTABLISHED",
+      "independentIpAsset": true,
+      "economicAssessmentAt": "2026-10-12T00:19:02Z"
     }
   ],
-  "catalogueUpdatedAt": "2026-10-11T07:14:54Z",
+  "catalogueUpdatedAt": "2026-10-12T00:19:02Z",
   "latestIdentityUpdate": {
+    "assessedAt": "2026-10-12T00:19:02Z",
+    "type": "ONE_INDEPENDENT_SOFTWARE_ADDITION",
+    "previousAssetCount": 100,
+    "currentAssetCount": 101,
+    "otherAssetRecordsRetained": 100,
+    "additions": [
+      {
+        "ref": "TA-IP-101",
+        "title": "OmniFrame Universal Video Intelligence Platform",
+        "referenceAlias": "Ophelia",
+        "repository": "OmniFrame-Universal-Video-Intelligence-Platform",
+        "sourceHead": "24201fc76ac5125585a620e3786c256f668ff9df",
+        "version": "v0.5.0"
+      }
+    ],
+    "boundary": "OmniFrame is one independently scoped first-party prototype. Its internal research modules are not separately counted, and target-project assets and rights are excluded."
+  },
+  "previousIdentityUpdate": {
     "assessedAt": "2026-10-11T07:01:21Z",
     "type": "TWO_INDEPENDENT_SOFTWARE_ADDITIONS",
     "previousAssetCount": 98,
@@ -150,36 +188,6 @@
       }
     ],
     "boundary": "Two newly listed software repositories were reviewed and added as TA-IP-099 and TA-IP-100. All 29 LCTEP files and 56 selected SCEP files were checked against Git blob identities; the full SCEP tree contains 200 files, including historical material that was not executed. Fresh local checks passed 18 LCTEP tests and 14 SCEP tests without failures, errors or skips, syntax compilation and bounded CLI examples. All seven retained SCEP final-campaign files passed byte-length, SHA-256 and archive-integrity checks; four recorded source-file blobs match the current source. The retained 400-agent, 1000-step GPU campaign was not rerun. One step-50 checkpoint metadata file and seven binary parts are present. The metadata file was byte-verified; the binary parts were inventoried, not downloaded or restored. The overall checkpoint-part manifest and complete intermediate checkpoint set are not established, and a checkpoint checksum field contains a filename. Validation concerns bounded software execution and retained evidence, not flight qualification, consciousness, historical-output equivalence or independent certification. All 98 existing asset records, source dates, prices and readiness criteria are retained. Website repositories remain excluded digital displays."
-  },
-  "previousIdentityUpdate": {
-    "assessedAt": "2026-10-10T22:16:09Z",
-    "replacement": {
-      "ref": "TA-IP-097",
-      "previousTitle": "Digital Twin Core",
-      "previousReferenceAlias": "Tessa",
-      "previousRepository": "Digital-Twin-Core",
-      "title": "CAUSORYN",
-      "referenceAlias": "Vespera",
-      "repository": "Universal-Systems-Intelligence-Engine",
-      "sourceHead": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86",
-      "version": "v0.4.0",
-      "historicalValuationsInherited": false,
-      "historicalEvidenceInherited": false
-    },
-    "addition": {
-      "ref": "TA-IP-098",
-      "title": "Software Asset Engineering Platform",
-      "referenceAlias": "Octavia",
-      "repository": "Software-Asset-Engineering-Platform",
-      "sourceState": "IMPLEMENTED_LOCAL_PROTOTYPE",
-      "sourceHead": "bcfa388d0f10941b649cc181dfee544b016332f4",
-      "version": "v0.1.0",
-      "scopeDocument": "docs/SOFTWARE_ASSET_ENGINEERING_PLATFORM_SCOPE.md"
-    },
-    "previousAssetCount": 97,
-    "currentAssetCount": 98,
-    "otherAssetRecordsRetained": 96,
-    "boundary": "Targeted review of TA-IP-097 and the new TA-IP-098 only. Exact source snapshots were checked against Git blob identities. CAUSORYN passed 54 local unit tests, syntax checks and four examples. Software Asset Engineering Platform passed 72 local tests with no failures, errors or skips; engine/test digests match retained local and installed-wheel evidence. Engine verification does not validate ingested project code or legal/commercial conclusions. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
   },
   "latestModuleRelationship": {
     "updatedAt": "2026-10-11T07:14:54Z",

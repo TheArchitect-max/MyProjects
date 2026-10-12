@@ -1,7 +1,7 @@
 {
-  "version": "2026.10.11-im61-two-new-software-assets",
+  "version": "2026.10.12-im65-full-repository-review",
   "status": "evidence-bounded-maturity-sensitivity-register",
-  "basisDate": "2026-10-11",
+  "basisDate": "2026-10-12",
   "purpose": "Asset-by-asset conditional economic references for objectively testable maturity transitions. These are not forecasts, seller asks, market values, investment returns or guarantees.",
   "methodology": {
     "rule": "Only R→P and P→V maturity transitions receive a numeric conditional reference. V-stage assets receive NOT_ESTABLISHED unless new attributable market/income evidence supports a separate model. An independently owned asset without its own monetary inputs has no numeric sensitivity until those inputs are established.",
@@ -32,12 +32,12 @@
     "boundary": "No TAM-derived value, speculative revenue, arbitrary probability, automatic multiple, future seller ask or unverified commercialization outcome is used."
   },
   "summary": {
-    "projectCount": 100,
-    "numericConditionalReferences": 43,
+    "projectCount": 101,
+    "numericConditionalReferences": 44,
     "notEstablished": 57,
     "transitions": {
       "RtoP": 3,
-      "PtoV": 40
+      "PtoV": 41
     }
   },
   "projects": [
@@ -1480,7 +1480,9 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-10T08:52:15Z",
+      "currentReplacementCostEUR": 1195000,
+      "currentTriangulatedEconomicReferenceEUR": 1451808
     },
     {
       "slug": "truelane-flora",
@@ -1523,7 +1525,8 @@
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
       "sourceRecheckedAt": "2026-10-10T08:52:15Z",
-      "currentTriangulatedEconomicReferenceEUR": 1246706
+      "currentTriangulatedEconomicReferenceEUR": 1296575,
+      "currentReplacementCostEUR": 1040000
     },
     {
       "slug": "truelane-studio-apex-architect",
@@ -1836,12 +1839,12 @@
       "currentStage": "P",
       "targetStage": "V",
       "futureReferenceStatus": "CONDITIONAL",
-      "currentTriangulatedEconomicReferenceEUR": 101863,
-      "currentReplacementCostEUR": 150000,
+      "currentTriangulatedEconomicReferenceEUR": 135817,
+      "currentReplacementCostEUR": 200000,
       "economicAssessmentAt": "2026-10-11T07:01:21Z",
       "sourceRecheckedAt": "2026-10-11T07:01:21Z",
-      "milestoneConditionedEconomicReferenceEUR": 121161,
-      "sensitivityDeltaEUR": 19298,
+      "milestoneConditionedEconomicReferenceEUR": 161548,
+      "sensitivityDeltaEUR": 25731,
       "replacementCostHeldConstant": true,
       "potentialHeldConstant": "M",
       "sectorHeldConstant": "AI, Decision & Knowledge Systems",
@@ -1849,10 +1852,36 @@
       "targetMilestone": "Evidence a reproducible release, agreed component and rights boundaries, use-specific qualification and recipient acceptance of the defined software package.",
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced. This constant-cost sensitivity is not a future price, forecast, scientific qualification or acceptance of unimplemented capabilities.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+    },
+    {
+      "slug": "omniframe-universal-video-intelligence-platform",
+      "ref": "TA-IP-101",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-12T00:19:02Z",
+      "identityName": "Ophelia",
+      "name": "OmniFrame Universal Video Intelligence Platform",
+      "assessmentDate": "2026-10-12",
+      "status": "CONDITIONAL",
+      "currentStage": "P",
+      "targetStage": "V",
+      "futureReferenceStatus": "CONDITIONAL",
+      "currentTriangulatedEconomicReferenceEUR": 67751,
+      "currentReplacementCostEUR": 100000,
+      "economicAssessmentAt": "2026-10-12T00:19:02Z",
+      "sourceRecheckedAt": "2026-10-12T00:19:02Z",
+      "milestoneConditionedEconomicReferenceEUR": 80695,
+      "sensitivityDeltaEUR": 12944,
+      "replacementCostHeldConstant": true,
+      "potentialHeldConstant": "M",
+      "sectorHeldConstant": "Media & Creator Technology",
+      "routeHeldConstant": "Media / creator software",
+      "targetMilestone": "Correct and qualify the exact current syntax/test/build gate, then complete browser, rights/component and recipient acceptance of the defined prototype.",
+      "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced. This constant-cost sensitivity is not a future asking price, forecast or acceptance of unimplemented AI capabilities.",
+      "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
     }
   ],
-  "assessedAt": "2026-10-11T07:01:21Z",
-  "catalogueUpdatedAt": "2026-10-11T07:01:21Z",
+  "assessedAt": "2026-10-12T00:19:02Z",
+  "catalogueUpdatedAt": "2026-10-12T00:19:02Z",
   "previousTargetedAssetReview": {
     "slug": "distributed-ai-resource-fabric",
     "ref": "TA-IP-022",
@@ -1876,6 +1905,26 @@
     "boundary": "DARF only: current source, retained exact-commit validation, rights, delivery conditions and seller-side economics. The other 96 asset assessments and monetary inputs retain their earlier dates and conclusions; portfolio totals are recomputed."
   },
   "latestIdentityUpdate": {
+    "assessedAt": "2026-10-12T00:19:02Z",
+    "type": "ONE_INDEPENDENT_SOFTWARE_ADDITION",
+    "previousAssetCount": 100,
+    "currentAssetCount": 101,
+    "otherAssetRecordsRetained": 100,
+    "additions": [
+      {
+        "ref": "TA-IP-101",
+        "title": "OmniFrame Universal Video Intelligence Platform",
+        "referenceAlias": "Ophelia",
+        "repository": "OmniFrame-Universal-Video-Intelligence-Platform",
+        "sourceHead": "24201fc76ac5125585a620e3786c256f668ff9df",
+        "version": "v0.5.0"
+      }
+    ],
+    "boundary": "OmniFrame is one independently scoped first-party prototype. Its internal research modules are not separately counted, and target-project assets and rights are excluded."
+  },
+  "previousBasisDate": "2026-10-10",
+  "previousRegisterAssessedAt": "2026-10-11T07:01:21Z",
+  "previousIdentityUpdate": {
     "assessedAt": "2026-10-11T07:01:21Z",
     "type": "TWO_INDEPENDENT_SOFTWARE_ADDITIONS",
     "previousAssetCount": 98,
@@ -1900,37 +1949,5 @@
       }
     ],
     "boundary": "Two newly listed software repositories were reviewed and added as TA-IP-099 and TA-IP-100. All 29 LCTEP files and 56 selected SCEP files were checked against Git blob identities; the full SCEP tree contains 200 files, including historical material that was not executed. Fresh local checks passed 18 LCTEP tests and 14 SCEP tests without failures, errors or skips, syntax compilation and bounded CLI examples. All seven retained SCEP final-campaign files passed byte-length, SHA-256 and archive-integrity checks; four recorded source-file blobs match the current source. The retained 400-agent, 1000-step GPU campaign was not rerun. One step-50 checkpoint metadata file and seven binary parts are present. The metadata file was byte-verified; the binary parts were inventoried, not downloaded or restored. The overall checkpoint-part manifest and complete intermediate checkpoint set are not established, and a checkpoint checksum field contains a filename. Validation concerns bounded software execution and retained evidence, not flight qualification, consciousness, historical-output equivalence or independent certification. All 98 existing asset records, source dates, prices and readiness criteria are retained. Website repositories remain excluded digital displays."
-  },
-  "previousBasisDate": "2026-10-10",
-  "previousRegisterAssessedAt": "2026-10-11T00:24:59Z",
-  "previousIdentityUpdate": {
-    "assessedAt": "2026-10-10T22:16:09Z",
-    "replacement": {
-      "ref": "TA-IP-097",
-      "previousTitle": "Digital Twin Core",
-      "previousReferenceAlias": "Tessa",
-      "previousRepository": "Digital-Twin-Core",
-      "title": "CAUSORYN",
-      "referenceAlias": "Vespera",
-      "repository": "Universal-Systems-Intelligence-Engine",
-      "sourceHead": "4c8b5f8aa46663bb3c8af50cda828b052ed73d86",
-      "version": "v0.4.0",
-      "historicalValuationsInherited": false,
-      "historicalEvidenceInherited": false
-    },
-    "addition": {
-      "ref": "TA-IP-098",
-      "title": "Software Asset Engineering Platform",
-      "referenceAlias": "Octavia",
-      "repository": "Software-Asset-Engineering-Platform",
-      "sourceState": "IMPLEMENTED_LOCAL_PROTOTYPE",
-      "sourceHead": "bcfa388d0f10941b649cc181dfee544b016332f4",
-      "version": "v0.1.0",
-      "scopeDocument": "docs/SOFTWARE_ASSET_ENGINEERING_PLATFORM_SCOPE.md"
-    },
-    "previousAssetCount": 97,
-    "currentAssetCount": 98,
-    "otherAssetRecordsRetained": 96,
-    "boundary": "Targeted review of TA-IP-097 and the new TA-IP-098 only. Exact source snapshots were checked against Git blob identities. CAUSORYN passed 54 local unit tests, syntax checks and four examples. Software Asset Engineering Platform passed 72 local tests with no failures, errors or skips; engine/test digests match retained local and installed-wheel evidence. Engine verification does not validate ingested project code or legal/commercial conclusions. The other 96 asset records, prices, evidence dates and criteria are retained. No independent legal, security, scientific or market certification is implied."
   }
 }

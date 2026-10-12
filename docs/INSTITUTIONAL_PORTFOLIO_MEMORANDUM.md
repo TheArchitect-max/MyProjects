@@ -1,3 +1,13 @@
+# Current Portfolio Memorandum — 12 October 2026
+
+**Current review:** 2026-10-12T00:19:02Z. Review **101** independent software assets, **12** live digital displays and the project-specific evidence, rights and transfer conditions. The current asking reference is **EUR 24,993,000**; recreation-cost total **EUR 106,170,000**. The current readiness distribution is **0 READY, 92 READY_WITH_CONDITIONS and 9 NOT_READY**.
+
+OmniFrame is the single added prototype. Three implemented main-branch increments have revised estimates; 97 existing prices are retained. The 26 combinations retain 66 globally unique members. Fourteen publication repositories remain excluded from the software-asset count.
+
+Use [the complete current source and financial review](PORTFOLIO_UPDATE_2026-10-12.md) and the current project registers for acquisition discussions. The following preceding memorandum is retained as a dated historical publication record; its older counts and amounts do not override current records.
+
+---
+
 # Institutional Portfolio Memorandum
 
 ## Current additions — 11 October 2026
@@ -11,7 +21,7 @@ Assessed at **2026-10-11T07:01:21Z**. Two new independent software assets are in
 
 Fresh checks passed 18 LCTEP tests and 14 SCEP tests. The seven retained SCEP final-campaign files pass checksum verification; the complete intermediate checkpoint set remains unestablished; one newly retained step-50 checkpoint and seven binary parts were inventoried. Flight qualification, consciousness, historical-output equivalence and future implementation are outside the priced scope. Review [the new project cost and evidence assessment](NEW_PROJECT_ASSESSMENTS_2026-10-11.md).
 
-Current register: **100 assets**; **57 developed-software, 40 prototype and three research-stage**. Aggregate ask: **EUR 24,923,000**; recreation-cost total: **EUR 105,910,000**. Readiness: **0 READY, 92 READY_WITH_CONDITIONS, 8 NOT_READY**. The 26 Connections allocate 66 projects exactly once, including the FusionLunar transport-module relationship; existing individual prices are unchanged. Website repositories remain excluded digital displays.
+Current register: **100 assets**; **57 developed-software, 40 prototype and three research-stage**. Aggregate ask: **EUR 24,923,000**; recreation-cost total: **EUR 105,910,000**. Readiness: **0 READY, 92 READY_WITH_CONDITIONS, 9 NOT_READY**. The 26 Connections allocate 66 projects exactly once, including the FusionLunar transport-module relationship; existing individual prices are unchanged. Website repositories remain excluded digital displays.
 
 
 **THEARCHITECT_MAX — Private Technology & IP Portfolio**
@@ -187,7 +197,7 @@ Review [the complete reassessment](PORTFOLIO_FINANCIAL_REASSESSMENT_2026-10-10.m
 
 ## Readiness criteria disclosure and correction — 10 October 2026
 
-At 2026-10-10T09:20:17Z, all 97 project profiles receive a visitor-facing explanation of their recorded criteria and outstanding conditions. Two former READY classifications are corrected to READY_WITH_CONDITIONS after source-content review. Evidence-Governed Software Assurance Platform has component-inventory generation code and runtime transaction features, not an established completed buyer package; its T4/R3 grades become T3/R2. Secure Actuation Integrity Platform explicitly records an ineligible, unexported package and unperformed buyer verification; its T4 grade becomes T3. Distribution at that review: **0 READY, 89 READY_WITH_CONDITIONS, 8 NOT_READY**.
+At 2026-10-10T09:20:17Z, all 97 project profiles receive a visitor-facing explanation of their recorded criteria and outstanding conditions. Two former READY classifications are corrected to READY_WITH_CONDITIONS after source-content review. Evidence-Governed Software Assurance Platform has component-inventory generation code and runtime transaction features, not an established completed buyer package; its T4/R3 grades become T3/R2. Secure Actuation Integrity Platform explicitly records an ineligible, unexported package and unperformed buyer verification; its T4 grade becomes T3. Distribution at that review: **0 READY, 89 READY_WITH_CONDITIONS, 9 NOT_READY**.
 
 This correction does not change prices, first-party ownership declarations, technical software stages or the preceding full source-review timestamp. Review `assets/seller-readiness-register.json` and [the readiness standard](SELLER_READINESS_STANDARD.md) for the gate definitions. Repository filenames, generation tooling and negative status reports cannot establish READY.
 
@@ -208,7 +218,7 @@ Assessed at **2026-10-11T00:24:59Z**. CAUSORYN remains TA-IP-097 and is updated 
 
 Fresh checks passed 98 CAUSORYN tests and seven examples, plus 72 Octavia tests. CAUSORYN's revised budget includes its delivered observation and local simulation increments. Octavia's engine/test digests and current budget are unchanged; future SaaS is excluded. Review [the current cost and evidence assessment](CAUSORYN_AND_OCTAVIA_SOURCE_REFRESH_2026-10-11.md).
 
-Register at that review: **98 assets**; **57 developed-software, 38 prototype and three research-stage**. Aggregate ask: **EUR 24,863,000**; recreation-cost total: **EUR 105,710,000**. Readiness: **0 READY, 90 READY_WITH_CONDITIONS, 8 NOT_READY**. The 25 Connections keep their 64 unique members and unchanged financial inputs. Website repositories remain excluded digital displays.
+Register at that review: **98 assets**; **57 developed-software, 38 prototype and three research-stage**. Aggregate ask: **EUR 24,863,000**; recreation-cost total: **EUR 105,710,000**. Readiness: **0 READY, 90 READY_WITH_CONDITIONS, 9 NOT_READY**. The 25 Connections keep their 64 unique members and unchanged financial inputs. Website repositories remain excluded digital displays.
 
 ## Historical targeted identity and new software evaluation — 11 October 2026
 
@@ -221,4 +231,4 @@ Assessed at 2026-10-10T22:16:09Z. CAUSORYN / Vespera replaces Digital Twin Core 
 
 Fresh local verification passed 54 CAUSORYN tests and four examples, and 72 Software Asset Engineering Platform tests. The latter source digests match retained installed-wheel evidence; this review did not repeat the wheel execution. Engine tests do not validate ingested projects or certify title, value or production acceptance. Review [the disclosed cost and evidence assessment](CAUSORYN_AND_NEW_ASSET_ASSESSMENT_2026-10-11.md).
 
-Register at that review: **98 assets**; **57 developed-software, 38 prototype and 3 research-stage**. Asking total: **EUR 24,845,000**; recreation-cost total: **EUR 105,650,000**. Readiness: **0 READY, 90 READY_WITH_CONDITIONS, 8 NOT_READY**. The 25 Connections retain their 64 unique members and unchanged individual price inputs. Website repositories remain excluded digital displays.
+Register at that review: **98 assets**; **57 developed-software, 38 prototype and 3 research-stage**. Asking total: **EUR 24,845,000**; recreation-cost total: **EUR 105,650,000**. Readiness: **0 READY, 90 READY_WITH_CONDITIONS, 9 NOT_READY**. The 25 Connections retain their 64 unique members and unchanged individual price inputs. Website repositories remain excluded digital displays.
