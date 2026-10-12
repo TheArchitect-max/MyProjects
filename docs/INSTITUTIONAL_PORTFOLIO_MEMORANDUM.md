@@ -1,3 +1,11 @@
+## Current portfolio revision — 12 October 2026
+
+**Published at 2026-10-12T09:21:42Z.** Review **104 active software IP assets**, **12 live digital displays** and **30 proposed connections with 74 unique members**. Current seller asking reference: **EUR 24,480,500**. Recreation-cost total: **EUR 104,315,000**. Readiness: **0 READY, 94 READY_WITH_CONDITIONS and 10 NOT_READY**.
+
+Use [the current complete revision](PORTFOLIO_FULL_REVISION_2026-10-12.md) and the authoritative registers. The following dated report records an earlier publication state; its counts, prices and source status do not override current records.
+
+---
+
 # Current Portfolio Memorandum — 12 October 2026
 
 ## Current scope reconciliation — 12 October 2026

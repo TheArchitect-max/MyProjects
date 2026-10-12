@@ -1,18 +1,18 @@
 {
-  "version": "2026.10.12-im67-portfolio-scope-update",
-  "publishedAt": "2026-10-12T03:40:16Z",
-  "sourceDocumentationReviewedAt": "2026-10-11T07:14:54Z",
+  "version": "2026.10.12-im68-full-portfolio-revision",
+  "publishedAt": "2026-10-12T09:21:42Z",
+  "sourceDocumentationReviewedAt": "2026-10-12T09:21:42Z",
   "priceBasisDate": "2026-10-12",
-  "portfolioAssetCount": 100,
+  "portfolioAssetCount": 104,
   "currency": "EUR",
   "priceMethod": "SUM_CURRENT_INDIVIDUAL_ASKS",
   "scope": {
-    "connectionCount": 26,
-    "uniqueProjectCount": 66,
+    "connectionCount": 30,
+    "uniqueProjectCount": 74,
     "jointIntegrationsValidatedByThisCatalogue": 0,
-    "sourceDocumentationReviewed": 66,
+    "sourceDocumentationReviewed": 74,
     "projectWebsitesIncludedAsAssets": false,
-    "projectOccurrences": 66,
+    "projectOccurrences": 74,
     "repeatedProjectCount": 0
   },
   "presentationBoundary": "These are proposed combinations of independently scoped project assets, based on reviewed project documentation. Existing project implementations and any documented links retain their own evidence boundaries. This publication establishes no new shared runtime or joint end-to-end validation.",
@@ -23,464 +23,668 @@
     {
       "ref": "TA-IP-085",
       "repository": "Adaptive-Audio-MIDI-Transcription-Studio",
-      "blobSha": "8ef78d8caa73e9c9f7f062274d0956f98968987a",
+      "head": "0b0344041d320a629dbfcf6fc7d8f4bd3b8ee2b7",
+      "sourceScope": "main",
       "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
+      "blobSha": "8ef78d8caa73e9c9f7f062274d0956f98968987a",
+      "checkedAt": "2026-10-12T09:00:53.634Z"
     },
     {
       "ref": "TA-IP-060",
       "repository": "Adaptive-Audio-Production-System",
-      "blobSha": "dee3357fd4d4f293cfd5a4474181c5b357ed9314",
+      "head": "0827f14509e9b32ffda377250090dff18a12b81b",
+      "sourceScope": "main",
       "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
+      "blobSha": "dee3357fd4d4f293cfd5a4474181c5b357ed9314",
+      "checkedAt": "2026-10-12T09:00:53.597Z"
     },
     {
       "ref": "TA-IP-069",
       "repository": "Adaptive-Audio-Synthesis-Platform",
-      "blobSha": "ff00144e01b1c2c0ba9b409ad41edade08a1a8c3",
+      "head": "b5efadc8150c4c22e37fa5e879cdc16877804a6a",
+      "sourceScope": "main",
       "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
+      "blobSha": "ff00144e01b1c2c0ba9b409ad41edade08a1a8c3",
+      "checkedAt": "2026-10-12T09:00:53.549Z"
     },
     {
       "ref": "TA-IP-070",
       "repository": "Adaptive-Cognitive-Runtime",
-      "blobSha": "53a8617ea9948921b312c2ef51c9f6b5fd9b5f27",
+      "head": "da610532feebcb86316021594eed472c38960290",
+      "sourceScope": "main",
       "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
+      "blobSha": "53a8617ea9948921b312c2ef51c9f6b5fd9b5f27",
+      "checkedAt": "2026-10-12T09:00:53.740Z"
     },
     {
       "ref": "TA-IP-076",
       "repository": "Adaptive-Neural-Architecture-Platform",
-      "blobSha": "140ec062000c245b52d41f47ef8959a3a022b8d8",
+      "head": "2869dffab51498363c095a4529da2cf6356d461a",
+      "sourceScope": "main",
       "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
+      "blobSha": "140ec062000c245b52d41f47ef8959a3a022b8d8",
+      "checkedAt": "2026-10-12T09:00:53.609Z"
     },
     {
       "ref": "TA-IP-034",
       "repository": "Advanced-Ground-Vehicle-Engineering",
-      "blobSha": "eab06782ca3d8fef3a25e56643efc3751e76ae23",
+      "head": "33baadbc08a7391c5391e4aaa2b062d2fb012c81",
+      "sourceScope": "main",
       "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
+      "blobSha": "eab06782ca3d8fef3a25e56643efc3751e76ae23",
+      "checkedAt": "2026-10-12T09:00:53.548Z"
     },
     {
       "ref": "TA-IP-030",
       "repository": "Aerospace-Mission-Simulator",
-      "blobSha": "54f3bfca7aad39744c36269937f873055e9fbd96",
+      "head": "2c47096a6004c9b25eec50f91e065cf9284aa7ec",
+      "sourceScope": "main",
       "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
+      "blobSha": "54f3bfca7aad39744c36269937f873055e9fbd96",
+      "checkedAt": "2026-10-12T09:00:55.152Z"
     },
     {
       "ref": "TA-IP-049",
       "repository": "Aletheia-Intelligence-Fabric---Distributed-Evidence-Entity-Intelligence-Platform",
-      "blobSha": "0fedfdc1d943216bd0e61f5f6ae12307cf1d244f",
+      "head": "a2b67000d3e2dea736193c66623a22020ad3a9e3",
+      "sourceScope": "main",
       "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
+      "blobSha": "0fedfdc1d943216bd0e61f5f6ae12307cf1d244f",
+      "checkedAt": "2026-10-12T09:00:55.238Z"
     },
     {
       "ref": "TA-IP-027",
       "repository": "Autonomous-Adaptation-Framework",
-      "blobSha": "4ee253b4b10680b3ecae8c1129f2590e0a866a75",
+      "head": "226bfb228226bb64146e87b55950552a7b9f5dd5",
+      "sourceScope": "main",
       "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
+      "blobSha": "4ee253b4b10680b3ecae8c1129f2590e0a866a75",
+      "checkedAt": "2026-10-12T09:00:55.143Z"
     },
     {
       "ref": "TA-IP-055",
       "repository": "Autonomous-Documentary-Engine",
-      "blobSha": "6e58127e501e9ef8e02e17cea1f7349b87de31fb",
+      "head": "115006fbf66d4bbe9368560e57f30852ad016e1c",
+      "sourceScope": "main",
       "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
+      "blobSha": "6e58127e501e9ef8e02e17cea1f7349b87de31fb",
+      "checkedAt": "2026-10-12T09:00:55.208Z"
     },
     {
       "ref": "TA-IP-077",
       "repository": "Bio-Inspired-Neural-Dynamics-Active-Inference-Simulation-Platform",
-      "blobSha": "69af3033cfca35f5f97cde2641255a2c42a559ce",
+      "head": "d7880d6fa2d8adc90d27e9a0ac85a4e94d961666",
+      "sourceScope": "main",
       "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
+      "blobSha": "69af3033cfca35f5f97cde2641255a2c42a559ce",
+      "checkedAt": "2026-10-12T09:00:55.678Z"
     },
     {
       "ref": "TA-IP-078",
       "repository": "CardioSignal-Intelligence-Platform",
-      "blobSha": "0ec9e912c541430c1f0012ef72f9860da8ce5164",
+      "head": "945603c2595f4db63a87bac26b8850248ad91f2b",
+      "sourceScope": "main",
       "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
+      "blobSha": "0ec9e912c541430c1f0012ef72f9860da8ce5164",
+      "checkedAt": "2026-10-12T09:00:55.184Z"
     },
     {
       "ref": "TA-IP-021",
       "repository": "Cipher-Lyric-Engine",
-      "blobSha": "9d7798604ac572710482598b41bf82b89dd9bf22",
+      "head": "914744cfa0d644b34fadee3b88f1795ecbf5c966",
+      "sourceScope": "main",
       "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
+      "blobSha": "9d7798604ac572710482598b41bf82b89dd9bf22",
+      "checkedAt": "2026-10-12T09:00:57.304Z"
     },
     {
       "ref": "TA-IP-071",
       "repository": "Content-Integrity-Assurance-Platform",
-      "blobSha": "b1507e468550929f31c48959686ce8e410ad79fd",
+      "head": "ed1cb490304c97eb078bc8291adda194b01adb94",
+      "sourceScope": "main",
       "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
+      "blobSha": "b1507e468550929f31c48959686ce8e410ad79fd",
+      "checkedAt": "2026-10-12T09:00:57.329Z"
     },
     {
       "ref": "TA-IP-004",
       "repository": "Continuum-State-Integrity-Platform",
-      "blobSha": "7da5ea3a2b25b388f642d8de2f06f0781be041fc",
+      "head": "779fddae41026d4df683304f073f9d8fa244048e",
+      "sourceScope": "main",
       "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
+      "blobSha": "7da5ea3a2b25b388f642d8de2f06f0781be041fc",
+      "checkedAt": "2026-10-12T09:00:57.370Z"
     },
     {
       "ref": "TA-IP-009",
       "repository": "Custody-Integrity-Assurance-Platform",
-      "blobSha": "76ca78af8c71d44a7749ce38164a7efaf74a2ae7",
+      "head": "d6522a06ba9c1bb291ff76f42fa7bdfde25d07ed",
+      "sourceScope": "main",
       "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
+      "blobSha": "76ca78af8c71d44a7749ce38164a7efaf74a2ae7",
+      "checkedAt": "2026-10-12T09:00:57.319Z"
     },
     {
       "ref": "TA-IP-022",
       "repository": "Distributed-AI-Resource-Fabric",
-      "blobSha": "b00976230f3a0bdfa420991fa097d1fa58b4722e",
+      "head": "29cd6da7dab0cd7c9be5abfab30f381ba931454e",
+      "sourceScope": "main",
       "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
+      "blobSha": "b00976230f3a0bdfa420991fa097d1fa58b4722e",
+      "checkedAt": "2026-10-12T09:00:57.227Z"
     },
     {
       "ref": "TA-IP-082",
       "repository": "Distributed-Compute-Fabric",
-      "blobSha": "72604710991e95583e2fdbad9e8da615188bdecd",
+      "head": "7810d2175bac7adc8ac4232d21dd6efbcf5bf198",
+      "sourceScope": "main",
       "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
+      "blobSha": "72604710991e95583e2fdbad9e8da615188bdecd",
+      "checkedAt": "2026-10-12T09:00:57.297Z"
     },
     {
       "ref": "TA-IP-032",
       "repository": "Electric-Flight-Systems-Simulation-Validation-Platform",
-      "blobSha": "1ae3c7196cde0a5def48505f4d2ae7fd40166ece",
+      "head": "51689e41e447f8a9ccebc8c0a2ea78b56dccf124",
+      "sourceScope": "main",
       "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
+      "blobSha": "1ae3c7196cde0a5def48505f4d2ae7fd40166ece",
+      "checkedAt": "2026-10-12T09:00:58.630Z"
     },
     {
       "ref": "TA-IP-062",
       "repository": "Evidence-Governed-Analytical-Reasoning-Platform",
-      "blobSha": "a1926fa09767625806a95e03c32427332afdf1ba",
+      "head": "77b3b1c153253a22359032ad5280cb079888bbca",
+      "sourceScope": "main",
       "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
+      "blobSha": "a1926fa09767625806a95e03c32427332afdf1ba",
+      "checkedAt": "2026-10-12T09:00:58.551Z"
     },
     {
       "ref": "TA-IP-039",
       "repository": "Evidence-Governed-Software-Assurance-Platform",
-      "blobSha": "df5fab7ad770c846ae84c69b910932816cfa79f0",
+      "head": "5e72ef1971367fa28d5d9818ba13db17eacc142e",
+      "sourceScope": "main",
       "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
+      "blobSha": "df5fab7ad770c846ae84c69b910932816cfa79f0",
+      "checkedAt": "2026-10-12T09:00:58.618Z"
     },
     {
       "ref": "TA-IP-012",
       "repository": "Evidence-Governed-Visual-Intelligence-Platform",
-      "blobSha": "c9b064d038adeca68183812045c956afdfa4d2b7",
+      "head": "b99e5047c59eacd229f1807de989236d1ffcea73",
+      "sourceScope": "main",
       "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
+      "blobSha": "c9b064d038adeca68183812045c956afdfa4d2b7",
+      "checkedAt": "2026-10-12T09:00:58.553Z"
     },
     {
       "ref": "TA-IP-053",
       "repository": "Evidence-Grounded-Multi-Expert-Reasoning-System",
-      "blobSha": "24ca748a25bcef1002ef56b4e480d5e822b09d6f",
+      "head": "32d06de2f93ca9e5ba8a290c06e69cf49b75e8e8",
+      "sourceScope": "main",
       "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
+      "blobSha": "24ca748a25bcef1002ef56b4e480d5e822b09d6f",
+      "checkedAt": "2026-10-12T09:00:58.716Z"
     },
     {
       "ref": "TA-IP-006",
       "repository": "Faunometric-Bioacoustic-Intelligence-Platform",
+      "head": "5136f71fb47e518c4746aabd493acf0e0640ef00",
+      "sourceScope": "main",
+      "path": "README.md",
       "blobSha": "80a7ffcfa9ec050f1338dc07ca6a21f9cdabd502",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-068",
-      "repository": "Hybrid-Adaptive-Rendering-Media",
-      "blobSha": "a5958b6b61ed2240e42e52724bc0ec918e43bee7",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-044",
-      "repository": "ISBR-SecureTrace",
-      "blobSha": "caa14cac352c145262caa9e945ca5db360cde421",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-059",
-      "repository": "Industrial-Predictive-Maintenance-RUL-Platform",
-      "blobSha": "2eef904a32f031c58be969afdbd72d7c61d6b515",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-038",
-      "repository": "Integrated-Media-Production-Engine",
-      "blobSha": "331e0a610020b3989e5b407ff77bd7872849b535",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-084",
-      "repository": "Interactive-Piano-Learning-Platform",
-      "blobSha": "32431f316cf5c440b3feb884cfd63f4525743de3",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-047",
-      "repository": "Kinetic-Logic-Reconstructor",
-      "blobSha": "326a0208316997665d9c6ae92324c9b5260c6513",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-091",
-      "repository": "LYRA-AERO-eVTOL",
-      "blobSha": "8fa72f4e9a24e34c75c90ebb1e0c9994cf3860bd",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-033",
-      "repository": "LegalOps-NL",
-      "blobSha": "97687469d3da9bedc71f6c1b8353d6afa5d5eb82",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-088",
-      "repository": "Maastricht-Digital-Twin",
-      "blobSha": "4d924e98bb0ea7a31aa2230337f65a8e68e085e4",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-089",
-      "repository": "Maastricht-Zero-Hour-Simulator",
-      "blobSha": "2325ffc66d7e4289eccc2130d148a51929940d4b",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-020",
-      "repository": "Machine-Cognition-Research-Framework",
-      "blobSha": "d2dd22fefba4114c16cba65bef881d522f352173",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-045",
-      "repository": "Mercorion-Commerce-Compiler",
-      "blobSha": "9f484d8b6dd67cd13f5d1c525c062f76d5ca75cd",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-056",
-      "repository": "Multimodal-Evidence-Adaptive-Systems-Platform",
-      "blobSha": "15d5995c23bd1d34950d1ef873c810db59ecc08f",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-019",
-      "repository": "Organizational-Memory-Engine",
-      "blobSha": "eafac650608cdb62f46c158893ed074f070ca08c",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-014",
-      "repository": "Programmatic-Search-Fabric",
-      "blobSha": "0741ee5c451a6a5458bdd10e479de0f584ab0350",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-072",
-      "repository": "Radioastronomy-Signal-Validation-Platform",
-      "blobSha": "a1915b3963e99037a2a0fdccef77367fa21aad65",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-011",
-      "repository": "Research-Intelligence-Fabric.",
-      "blobSha": "4f0fe7f3d128dce47c3ab0c2a372bf41775f8ebd",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-028",
-      "repository": "Resource-Aware-Hybrid-Model-Orchestration-Platform",
-      "blobSha": "8764bf4340b53609fe8bc59baea7e1c81b88db19",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-081",
-      "repository": "SWPP-VIORITH-Mobile-Camera-Overlay-",
-      "blobSha": "8207907c668ee3421331256c9a93076338016d19",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-079",
-      "repository": "Secure-Actuation-Integrity-Platform",
-      "blobSha": "4ca6eb576495ae08b968f82d459e80a78ded1579",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-025",
-      "repository": "Sensor-Fusion-Digital-Twin-Engine",
-      "blobSha": "e0d941fcd8caaa4210f3db5da03730c58f9fef89",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-016",
-      "repository": "Signal-Processing-Universal-Framework",
-      "blobSha": "68e4042caac67bccd1267f2c76d6eae000c8e015",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-063",
-      "repository": "Software-Asset-Provenance-Qualification-Platform",
-      "blobSha": "e91674927730b7ec584cd012849ca6e100ac9f6c",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-046",
-      "repository": "SonicFabric",
-      "blobSha": "89b8e47789868d7c4d28a7a2a5103bbe42fd89d8",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-073",
-      "repository": "Spatial-Wearable-Perception-Platform",
-      "blobSha": "bd62a6d4aba21aca425ed789f43e749ab596144f",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-003",
-      "repository": "StabilityMesh-Adaptive-Resilience-Control-for-Distributed-Systems",
-      "blobSha": "03b2e48d456fc627815750a2f1af49deb59a5cd1",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-010",
-      "repository": "TLS-Virtual-1",
-      "blobSha": "b7dd340b5b425b9a01e596f65c7e24c23ddafbdd",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-065",
-      "repository": "TraceLine-Evidence-Governed-Investigation-Framework",
-      "blobSha": "8ac3fe0462fc0500e889ca930b4be86af7ba216b",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-013",
-      "repository": "TrueLane-Intelligence-Engine",
-      "blobSha": "d01b261429529250f434f2e71e6bd971b30fba19",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-080",
-      "repository": "TrueLane-Studio-Apex-Architect",
-      "blobSha": "ed75c01308e95364e5394220ab1508e1009a2a11",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-092",
-      "repository": "Universal-Capability-Synthesis-Engine",
-      "blobSha": "ea50ed6b0efe2a9c69d3430667d044139398373e",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-024",
-      "repository": "Universal-Kernel-Machine",
-      "blobSha": "63e63ad28af85fc7e24ccf2acfea3a8cb1dbc0c0",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-087",
-      "repository": "VellumGrid-Autonomous-Commerce-Platform",
-      "blobSha": "4080d4751544bc15bf617e39e914783afe7d327c",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-018",
-      "repository": "Verifiable-Execution-Control-Platform",
-      "blobSha": "c4b4f25445f58905979e7ed951b2881d835f3a60",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-029",
-      "repository": "Veritas-Evidence-Intelligence",
-      "blobSha": "43901163775fb3aedb46849a7aa9070485810a71",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-052",
-      "repository": "Vision-Evidence-Governed-Multimodal-Perception-Framework",
-      "blobSha": "cedb32d79008c0ddf01775cc3e6b47a095dbb454",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-051",
-      "repository": "Visionair-Research-Engine",
-      "blobSha": "7e34cb5cdcd373e87f21047790b77a10a07f1ea7",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-093",
-      "repository": "Aurynthiq---.Autonomous-DJ-Intelligence-Platform",
-      "blobSha": "8f4343a07dd4c5fb4f82385591668aeb344d6ebf",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-094",
-      "repository": "Universal-Vehicle-Configuration-Database",
-      "blobSha": "34b1c41897ca259ff075491f06c49f04f997fe6d",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
-    },
-    {
-      "ref": "TA-IP-095",
-      "repository": "LEARNPIANO",
-      "blobSha": "34279b93f84c55f2384b4d0de9d6c7877fb80398",
-      "path": "README.md",
-      "checkedAt": "2026-10-10T18:29:03Z"
+      "checkedAt": "2026-10-12T09:00:58.632Z"
     },
     {
       "ref": "TA-IP-057",
       "repository": "FusionLunar-Energy-Systems-Engineering-Platform",
-      "blobSha": "58f32afe0c79baeb5883138c64b07ce058dc0d55",
+      "head": "927e6f0a9fa9e42e8a6a81003a46dcbf50709300",
+      "sourceScope": "main",
       "path": "README.md",
-      "checkedAt": "2026-10-11T07:14:54Z"
+      "blobSha": "58f32afe0c79baeb5883138c64b07ce058dc0d55",
+      "checkedAt": "2026-10-12T09:01:00.066Z"
+    },
+    {
+      "ref": "TA-IP-068",
+      "repository": "Hybrid-Adaptive-Rendering-Media",
+      "head": "9d8444c05691f706bb622339e796b1b0e74a3f6d",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "a5958b6b61ed2240e42e52724bc0ec918e43bee7",
+      "checkedAt": "2026-10-12T09:01:00.064Z"
+    },
+    {
+      "ref": "TA-IP-044",
+      "repository": "ISBR-SecureTrace",
+      "head": "fd60ef0bf79c5cd490319989a69e071ebbb18ea7",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "caa14cac352c145262caa9e945ca5db360cde421",
+      "checkedAt": "2026-10-12T09:01:00.160Z"
+    },
+    {
+      "ref": "TA-IP-059",
+      "repository": "Industrial-Predictive-Maintenance-RUL-Platform",
+      "head": "fdba8ab499098daf626191ef75605a172f424245",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "2eef904a32f031c58be969afdbd72d7c61d6b515",
+      "checkedAt": "2026-10-12T09:01:00.098Z"
+    },
+    {
+      "ref": "TA-IP-038",
+      "repository": "Integrated-Media-Production-Engine",
+      "head": "c72ab4961955b81c0932e16fcd3e94a5f943d894",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "331e0a610020b3989e5b407ff77bd7872849b535",
+      "checkedAt": "2026-10-12T09:01:00.386Z"
+    },
+    {
+      "ref": "TA-IP-084",
+      "repository": "Interactive-Piano-Learning-Platform",
+      "head": "7b40cbc8527dcc45a5d13495f829264b86361580",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "32431f316cf5c440b3feb884cfd63f4525743de3",
+      "checkedAt": "2026-10-12T09:01:00.037Z"
+    },
+    {
+      "ref": "TA-IP-047",
+      "repository": "Kinetic-Logic-Reconstructor",
+      "head": "2e8d7fbd77c8b8f1f36de6a5a90734fea5c0ef76",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "326a0208316997665d9c6ae92324c9b5260c6513",
+      "checkedAt": "2026-10-12T09:01:01.617Z"
+    },
+    {
+      "ref": "TA-IP-091",
+      "repository": "LYRA-AERO-eVTOL",
+      "head": "408042cac2c144177b91af653cfaecf2d240424b",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "8fa72f4e9a24e34c75c90ebb1e0c9994cf3860bd",
+      "checkedAt": "2026-10-12T09:01:01.617Z"
+    },
+    {
+      "ref": "TA-IP-033",
+      "repository": "LegalOps-NL",
+      "head": "213e3f7a705659f96db0f4d85c71f5ea09e828d2",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "97687469d3da9bedc71f6c1b8353d6afa5d5eb82",
+      "checkedAt": "2026-10-12T09:01:01.790Z"
+    },
+    {
+      "ref": "TA-IP-088",
+      "repository": "Maastricht-Digital-Twin",
+      "head": "a5e48a80a70b3171d7a20c310f21df1f192011a3",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "4d924e98bb0ea7a31aa2230337f65a8e68e085e4",
+      "checkedAt": "2026-10-12T09:01:01.621Z"
+    },
+    {
+      "ref": "TA-IP-089",
+      "repository": "Maastricht-Zero-Hour-Simulator",
+      "head": "74c4cd23d800e677db32981a5c37784979d42561",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "2325ffc66d7e4289eccc2130d148a51929940d4b",
+      "checkedAt": "2026-10-12T09:01:01.659Z"
+    },
+    {
+      "ref": "TA-IP-020",
+      "repository": "Machine-Cognition-Research-Framework",
+      "head": "8cb56a1a8e52f9c82f6471eab888662561dbc935",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "d2dd22fefba4114c16cba65bef881d522f352173",
+      "checkedAt": "2026-10-12T09:01:01.629Z"
+    },
+    {
+      "ref": "TA-IP-045",
+      "repository": "Mercorion-Commerce-Compiler",
+      "head": "4090d0dc2e50848fe7b5110c09dc34ba9417c1df",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "9f484d8b6dd67cd13f5d1c525c062f76d5ca75cd",
+      "checkedAt": "2026-10-12T09:01:02.973Z"
+    },
+    {
+      "ref": "TA-IP-056",
+      "repository": "Multimodal-Evidence-Adaptive-Systems-Platform",
+      "head": "3c6664d07311be71afa29632103755e10e843d13",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "15d5995c23bd1d34950d1ef873c810db59ecc08f",
+      "checkedAt": "2026-10-12T09:01:02.968Z"
+    },
+    {
+      "ref": "TA-IP-001",
+      "repository": "OSSN-UAP",
+      "head": "de09af79414680dabca8db396ccb39812a79d5b3",
+      "sourceScope": "unmerged-development",
+      "path": "README.md",
+      "blobSha": "fdee2a99574f643e66dca38655b5286284988e9c",
+      "checkedAt": "2026-10-12T09:01:03.017Z"
+    },
+    {
+      "ref": "TA-IP-019",
+      "repository": "Organizational-Memory-Engine",
+      "head": "7756e95c726b2564eb170cbb038ae42ac4d55889",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "eafac650608cdb62f46c158893ed074f070ca08c",
+      "checkedAt": "2026-10-12T09:01:03.037Z"
+    },
+    {
+      "ref": "TA-IP-014",
+      "repository": "Programmatic-Search-Fabric",
+      "head": "17b5715602cbe013aeadfe075012a5100cca2208",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "0741ee5c451a6a5458bdd10e479de0f584ab0350",
+      "checkedAt": "2026-10-12T09:01:03.020Z"
+    },
+    {
+      "ref": "TA-IP-072",
+      "repository": "Radioastronomy-Signal-Validation-Platform",
+      "head": "7b3b905b05dd85b8bbc8a72bce61897caca67ad3",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "a1915b3963e99037a2a0fdccef77367fa21aad65",
+      "checkedAt": "2026-10-12T09:01:03.032Z"
+    },
+    {
+      "ref": "TA-IP-011",
+      "repository": "Research-Intelligence-Fabric.",
+      "head": "f6d0c94233ba0060ef0e26ba9dda21f2e205e4ba",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "4f0fe7f3d128dce47c3ab0c2a372bf41775f8ebd",
+      "checkedAt": "2026-10-12T09:01:04.616Z"
+    },
+    {
+      "ref": "TA-IP-028",
+      "repository": "Resource-Aware-Hybrid-Model-Orchestration-Platform",
+      "head": "5c1ce5919e4453d7bbec3ae4b173b3cefa84e5c9",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "8764bf4340b53609fe8bc59baea7e1c81b88db19",
+      "checkedAt": "2026-10-12T09:01:04.231Z"
+    },
+    {
+      "ref": "TA-IP-081",
+      "repository": "SWPP-VIORITH-Mobile-Camera-Overlay-",
+      "head": "de02892ac9ed9cbd27adc0f1ec4ecbf92896ea34",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "8207907c668ee3421331256c9a93076338016d19",
+      "checkedAt": "2026-10-12T09:01:04.269Z"
+    },
+    {
+      "ref": "TA-IP-079",
+      "repository": "Secure-Actuation-Integrity-Platform",
+      "head": "e4025683523b70281f349b0c6845224bb4b0269a",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "4ca6eb576495ae08b968f82d459e80a78ded1579",
+      "checkedAt": "2026-10-12T09:01:04.271Z"
+    },
+    {
+      "ref": "TA-IP-025",
+      "repository": "Sensor-Fusion-Digital-Twin-Engine",
+      "head": "18bfbb95f3369630f680503de7139cf9ea150bb9",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "e0d941fcd8caaa4210f3db5da03730c58f9fef89",
+      "checkedAt": "2026-10-12T09:01:04.271Z"
+    },
+    {
+      "ref": "TA-IP-016",
+      "repository": "Signal-Processing-Universal-Framework",
+      "head": "8a115c904955797155b6463fd2cda415899223d3",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "68e4042caac67bccd1267f2c76d6eae000c8e015",
+      "checkedAt": "2026-10-12T09:01:04.318Z"
+    },
+    {
+      "ref": "TA-IP-063",
+      "repository": "Software-Asset-Provenance-Qualification-Platform",
+      "head": "416dee23d53ea2e25223d6bf5ff8302a5ffc7eb3",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "e91674927730b7ec584cd012849ca6e100ac9f6c",
+      "checkedAt": "2026-10-12T09:01:05.770Z"
+    },
+    {
+      "ref": "TA-IP-046",
+      "repository": "SonicFabric",
+      "head": "cdfc7df5dba46500fb9ed00d7c1476431d9a679d",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "89b8e47789868d7c4d28a7a2a5103bbe42fd89d8",
+      "checkedAt": "2026-10-12T09:01:05.879Z"
+    },
+    {
+      "ref": "TA-IP-073",
+      "repository": "Spatial-Wearable-Perception-Platform",
+      "head": "649722bf3073957316966130ad2e21de6f8924d6",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "bd62a6d4aba21aca425ed789f43e749ab596144f",
+      "checkedAt": "2026-10-12T09:01:05.840Z"
+    },
+    {
+      "ref": "TA-IP-003",
+      "repository": "StabilityMesh-Adaptive-Resilience-Control-for-Distributed-Systems",
+      "head": "6a6e04b1db4a7c641a1de99671780fc22ccf9aaf",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "03b2e48d456fc627815750a2f1af49deb59a5cd1",
+      "checkedAt": "2026-10-12T09:01:05.845Z"
+    },
+    {
+      "ref": "TA-IP-010",
+      "repository": "TLS-Virtual-1",
+      "head": "2192bafec863eec3601bc396bf55a56bb61c10cc",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "b7dd340b5b425b9a01e596f65c7e24c23ddafbdd",
+      "checkedAt": "2026-10-12T09:01:05.905Z"
+    },
+    {
+      "ref": "TA-IP-065",
+      "repository": "TraceLine-Evidence-Governed-Investigation-Framework",
+      "head": "7152a0dc6bc4dc536189424eabde8e29d047f8b6",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "a8847ed314aa08ed8010ce39deb866fa98313453",
+      "checkedAt": "2026-10-12T09:01:05.890Z"
+    },
+    {
+      "ref": "TA-IP-013",
+      "repository": "TrueLane-Intelligence-Engine",
+      "head": "52a9de8d475f0b08b238047f435b71fb092a8081",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "03fdf9ff6dc96df75d031144953f70c2ba13e2a1",
+      "checkedAt": "2026-10-12T09:01:07.081Z"
+    },
+    {
+      "ref": "TA-IP-080",
+      "repository": "TrueLane-Studio-Apex-Architect",
+      "head": "3868e277ea6a637cbc7b3a4543ead388ee438b29",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "ed75c01308e95364e5394220ab1508e1009a2a11",
+      "checkedAt": "2026-10-12T09:01:07.100Z"
+    },
+    {
+      "ref": "TA-IP-092",
+      "repository": "Universal-Capability-Synthesis-Engine",
+      "head": "b8148150e0803e23a268bd830bfb2d713a982144",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "ea50ed6b0efe2a9c69d3430667d044139398373e",
+      "checkedAt": "2026-10-12T09:01:07.293Z"
+    },
+    {
+      "ref": "TA-IP-024",
+      "repository": "Universal-Kernel-Machine",
+      "head": "a7351d51ae6ed0baba091d7aee4f1939007fc7fd",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "63e63ad28af85fc7e24ccf2acfea3a8cb1dbc0c0",
+      "checkedAt": "2026-10-12T09:01:07.152Z"
+    },
+    {
+      "ref": "TA-IP-087",
+      "repository": "VellumGrid-Autonomous-Commerce-Platform",
+      "head": "c51a06eeb7543e98433b2341bdff230a68655757",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "4080d4751544bc15bf617e39e914783afe7d327c",
+      "checkedAt": "2026-10-12T09:01:07.100Z"
+    },
+    {
+      "ref": "TA-IP-018",
+      "repository": "Verifiable-Execution-Control-Platform",
+      "head": "fd959ee476a0c2bc85803c7070207faf050e800c",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "c4b4f25445f58905979e7ed951b2881d835f3a60",
+      "checkedAt": "2026-10-12T09:01:07.152Z"
+    },
+    {
+      "ref": "TA-IP-029",
+      "repository": "Veritas-Evidence-Intelligence",
+      "head": "d049cc3388cc8c74cc229bfcec1dd37d731d9597",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "43901163775fb3aedb46849a7aa9070485810a71",
+      "checkedAt": "2026-10-12T09:01:08.772Z"
+    },
+    {
+      "ref": "TA-IP-052",
+      "repository": "Vision-Evidence-Governed-Multimodal-Perception-Framework",
+      "head": "c1e9d6ee4931cc3898aebe0753fc9979f2762223",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "cedb32d79008c0ddf01775cc3e6b47a095dbb454",
+      "checkedAt": "2026-10-12T09:01:08.640Z"
+    },
+    {
+      "ref": "TA-IP-051",
+      "repository": "Visionair-Research-Engine",
+      "head": "4a4790d5c57d057879f1eadf02683ed0d48f43ac",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "7e34cb5cdcd373e87f21047790b77a10a07f1ea7",
+      "checkedAt": "2026-10-12T09:01:08.700Z"
+    },
+    {
+      "ref": "TA-IP-093",
+      "repository": "Aurynthiq---.Autonomous-DJ-Intelligence-Platform",
+      "head": "ee059930599d1924baa9cbdafae6bd41a4fa94b8",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "fcdcd5d3d522cce9890bad63bb93a52742ce820d",
+      "checkedAt": "2026-10-12T09:01:08.620Z"
+    },
+    {
+      "ref": "TA-IP-094",
+      "repository": "Universal-Vehicle-Configuration-Database",
+      "head": "0be6f04fd2eee6f829cac99cce68b914f931b9d7",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "34b1c41897ca259ff075491f06c49f04f997fe6d",
+      "checkedAt": "2026-10-12T09:01:08.796Z"
+    },
+    {
+      "ref": "TA-IP-097",
+      "repository": "Universal-Systems-Intelligence-Engine",
+      "head": "3ca782f99c14b69675d9766c3c8e32d30a28791d",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "bfe3b89e2f2043c8222e316296579cdbc011ee50",
+      "checkedAt": "2026-10-12T09:01:08.646Z"
+    },
+    {
+      "ref": "TA-IP-095",
+      "repository": "LEARNPIANO",
+      "head": "4ac4713e529bb187546a9e4197bc23ac634d5990",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "34279b93f84c55f2384b4d0de9d6c7877fb80398",
+      "checkedAt": "2026-10-12T09:01:10.291Z"
+    },
+    {
+      "ref": "TA-IP-098",
+      "repository": "Software-Asset-Engineering-Platform",
+      "head": "e654268817be3394101715d98a3c60ed246a49ea",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "a7fd72feaaaa04fda93c481bb6794fc1bff91733",
+      "checkedAt": "2026-10-12T09:01:10.159Z"
     },
     {
       "ref": "TA-IP-099",
       "repository": "Launch-Cislunar-Transportation-Engineering-Platform",
-      "blobSha": "c09e3aef9e4f2eb732a154e8c25c4d26217d5587",
+      "head": "eeaadf2299f8309e9e6f5a53dd0b35deb81a0ff8",
+      "sourceScope": "main",
       "path": "README.md",
-      "checkedAt": "2026-10-11T07:14:54Z"
+      "blobSha": "c09e3aef9e4f2eb732a154e8c25c4d26217d5587",
+      "checkedAt": "2026-10-12T09:01:10.215Z"
+    },
+    {
+      "ref": "TA-IP-101",
+      "repository": "Universal-Video-Intelligence-Platform",
+      "head": "10c1c9c702007a62bf032706a6042932a2fcc52b",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "770a1120b6c007b97fa8304d5a7858a678641e8c",
+      "checkedAt": "2026-10-12T09:01:10.141Z"
+    },
+    {
+      "ref": "TA-IP-102",
+      "repository": "Universal-Remote-Perception-Intelligence-Platform",
+      "head": "4431fda60af9bd21b90a80df0c4ff21c28769215",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "495d5911eae513bde03f322c886a3326bb72bead",
+      "checkedAt": "2026-10-12T09:01:10.094Z"
+    },
+    {
+      "ref": "TA-IP-103",
+      "repository": "Universal-Operations-Orchestration-Intelligence-Platform",
+      "head": "2804045108ced5760f1d8db0452d64c54988237e",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "8bfaaf85ac689560e57b27fddec6d50888433bc6",
+      "checkedAt": "2026-10-12T09:01:10.105Z"
+    },
+    {
+      "ref": "TA-IP-104",
+      "repository": "Collective-Reality-Engine-CRE---Universal-Shared-World-Intelligence-Platform",
+      "head": "1b6abb67b404a5169875ed260324b1f4642c8e0e",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "54bf37183faa8e29bf7504447e5e4992be1e770c",
+      "checkedAt": "2026-10-12T09:01:11.434Z"
+    },
+    {
+      "ref": "TA-IP-105",
+      "repository": "Mission-to-Execution-Engineering-Framework",
+      "head": "ee27964574e2a9d0d5d86eb28500337a5800f0ac",
+      "sourceScope": "main",
+      "path": "README.md",
+      "blobSha": "04e9634ffe51edb7c23ad7df2d87a04a0fb6f93c",
+      "checkedAt": "2026-10-12T09:01:11.446Z"
     }
   ],
   "connections": [
@@ -1360,6 +1564,138 @@
         "Treat declared or synthetic screening inputs separately from flight-qualified performance, vehicle safety and operational reliability.",
         "Keep both first-party software scopes, third-party obligations and transfer perimeters distinct; additional integration work is outside the published sums."
       ]
+    },
+    {
+      "id": "TA-CN-027",
+      "slug": "mission-planning-and-operational-review",
+      "title": "Mission planning and operational review",
+      "category": "Operations & planning",
+      "connectionType": "Proposed modular workflow",
+      "integrationStatus": "PROPOSED",
+      "purpose": "Translate your project aims into reviewed plans, then compare operational scenarios before an execution decision.",
+      "members": [
+        {
+          "ref": "TA-IP-105",
+          "slug": "mission-to-execution-engineering-framework",
+          "role": "Prepare requirements, evidence links and dependency-aware planning outputs."
+        },
+        {
+          "ref": "TA-IP-103",
+          "slug": "universal-operations-orchestration-intelligence-platform",
+          "role": "Model resources and workflows, compare scenarios and preserve local decision evidence."
+        }
+      ],
+      "proposedFlow": [
+        "Reviewed requirements and dependencies",
+        "Proposed operational model",
+        "Scenario comparison",
+        "Human-authorised decision review"
+      ],
+      "requirements": [
+        "Define and implement a versioned adapter between the identified software scopes; no working connector is claimed by this catalogue.",
+        "Freeze the exact main/development sources, permitted inputs, component obligations and recipient acceptance tests.",
+        "Keep supplied declarations, synthetic examples and human reviews separate from independent scientific, security or production qualification.",
+        "Agree integration work, deployment and any external rights separately from the sums of the existing project prices."
+      ]
+    },
+    {
+      "id": "TA-CN-028",
+      "slug": "scenario-modelling-and-shared-worlds",
+      "title": "Scenario modelling and shared worlds",
+      "category": "Simulation & shared worlds",
+      "connectionType": "Proposed modular workflow",
+      "integrationStatus": "PROPOSED",
+      "purpose": "Explore how modelled scenarios could inform consistent fictional shared-world experiences.",
+      "members": [
+        {
+          "ref": "TA-IP-097",
+          "slug": "causoryn",
+          "role": "Prepare bounded state models and reviewed simulation scenarios."
+        },
+        {
+          "ref": "TA-IP-104",
+          "slug": "collective-reality-engine",
+          "role": "Apply authorised fictional-world decisions and review scenario history."
+        }
+      ],
+      "proposedFlow": [
+        "Scoped scenario model",
+        "Agreed state and event adapter",
+        "Local shared-world scenario",
+        "Replay and outcome review"
+      ],
+      "requirements": [
+        "Define and implement a versioned adapter between the identified software scopes; no working connector is claimed by this catalogue.",
+        "Freeze the exact main/development sources, permitted inputs, component obligations and recipient acceptance tests.",
+        "Keep supplied declarations, synthetic examples and human reviews separate from independent scientific, security or production qualification.",
+        "Agree integration work, deployment and any external rights separately from the sums of the existing project prices."
+      ]
+    },
+    {
+      "id": "TA-CN-029",
+      "slug": "observation-and-perception-studies",
+      "title": "Observation and perception studies",
+      "category": "Scientific observation",
+      "connectionType": "Proposed modular workflow",
+      "integrationStatus": "PROPOSED",
+      "purpose": "Review optical observation software alongside controlled study records, keeping measurements, hypotheses and research conclusions distinct.",
+      "members": [
+        {
+          "ref": "TA-IP-001",
+          "slug": "ossn-uap",
+          "role": "Process bounded optical observations in a separately qualified development candidate."
+        },
+        {
+          "ref": "TA-IP-102",
+          "slug": "universal-remote-perception-intelligence-platform",
+          "role": "Prepare controlled study, custody and scoring records with explicit research limitations."
+        }
+      ],
+      "proposedFlow": [
+        "Authorised observation input",
+        "Separately reviewed optical software",
+        "Controlled study and independent custody",
+        "Human review of evidence and uncertainty"
+      ],
+      "requirements": [
+        "Define and implement a versioned adapter between the identified software scopes; no working connector is claimed by this catalogue.",
+        "Freeze the exact main/development sources, permitted inputs, component obligations and recipient acceptance tests.",
+        "Keep supplied declarations, synthetic examples and human reviews separate from independent scientific, security or production qualification.",
+        "Agree integration work, deployment and any external rights separately from the sums of the existing project prices."
+      ]
+    },
+    {
+      "id": "TA-CN-030",
+      "slug": "research-led-software-asset-review",
+      "title": "Research-led software asset review",
+      "category": "Software evidence",
+      "connectionType": "Proposed modular workflow",
+      "integrationStatus": "PROPOSED",
+      "purpose": "Review your authorised research notes and source-bound proposals alongside the local software-asset qualification workflow.",
+      "members": [
+        {
+          "ref": "TA-IP-101",
+          "slug": "universal-video-intelligence-platform",
+          "role": "Retain manual research notes and prepare reviewed source-linked investigation proposals."
+        },
+        {
+          "ref": "TA-IP-098",
+          "slug": "software-asset-engineering-platform",
+          "role": "Review the agreed software scope and version-bound evidence for a documented handover."
+        }
+      ],
+      "proposedFlow": [
+        "User-authored research notes",
+        "Human-reviewed project leads",
+        "Agreed source/evidence adapter",
+        "Software-asset review and handover planning"
+      ],
+      "requirements": [
+        "Define and implement a versioned adapter between the identified software scopes; no working connector is claimed by this catalogue.",
+        "Freeze the exact main/development sources, permitted inputs, component obligations and recipient acceptance tests.",
+        "Keep supplied declarations, synthetic examples and human reviews separate from independent scientific, security or production qualification.",
+        "Agree integration work, deployment and any external rights separately from the sums of the existing project prices."
+      ]
     }
   ],
   "recreationCostMethod": "SUM_CURRENT_INDIVIDUAL_RECREATION_COSTS",
@@ -1397,40 +1733,39 @@
     ],
     "boundary": "Launch & Cislunar Transportation Engineering Platform is the separately scoped launch and cislunar transport module for FusionLunar studies. The documented demand/result interface supports the relationship; this update does not establish a new shared runtime, completed end-to-end integration or flight-qualified transport. Both projects retain their own asset identity, price and transfer scope."
   },
-  "catalogueUpdatedAt": "2026-10-12T03:40:16Z",
+  "catalogueUpdatedAt": "2026-10-12T09:21:42Z",
   "latestPortfolioScopeUpdate": {
-    "publishedAt": "2026-10-12T03:40:16Z",
-    "type": "WITHDRAWN_ASSET_REMOVAL",
-    "removedAssetCount": 1,
-    "currentAssetCount": 100,
-    "retainedIndividualPriceRecords": 100,
+    "publishedAt": "2026-10-12T09:21:42Z",
+    "type": "FULL_PORTFOLIO_REVISION",
+    "currentAssetCount": 104,
+    "retainedIndividualPriceRecords": 98,
     "identifiersReassigned": false,
     "currentPortfolio": {
-      "assetCount": 100,
+      "assetCount": 104,
       "stageCounts": {
         "developedSoftware": 56,
-        "developedPrototype": 41,
+        "developedPrototype": 45,
         "researchStage": 3,
         "definitionStage": 0
       },
-      "sellerAskEUR": 24368000,
-      "negotiationLowEUR": 19467400,
-      "negotiationHighEUR": 30539500,
-      "replacementCostEUR": 103920000,
-      "marketComparableProxyEUR": 118409425,
-      "incomeLicensingProxyEUR": 139464810,
-      "probabilityAdjustedStrategicValueEUR": 130446870,
-      "triangulatedEconomicReferenceEUR": 123211256,
-      "sellerAskAsShareOfTriangulated": 0.19777413842774236,
-      "sellerAskAsShareOfReplacementCost": 0.23448806774441877,
-      "pricedAssetCount": 100,
+      "sellerAskEUR": 24480500,
+      "negotiationLowEUR": 19557100,
+      "negotiationHighEUR": 30680125,
+      "replacementCostEUR": 104315000,
+      "marketComparableProxyEUR": 118718571,
+      "incomeLicensingProxyEUR": 139753880,
+      "probabilityAdjustedStrategicValueEUR": 130613552,
+      "triangulatedEconomicReferenceEUR": 123487987,
+      "sellerAskAsShareOfTriangulated": 0.19824195530857588,
+      "sellerAskAsShareOfReplacementCost": 0.2346786176484686,
+      "pricedAssetCount": 104,
       "unpricedAssetCount": 0,
-      "monetaryScope": "100 independently scoped software IP assets with retained individual price, evidence, rights and delivery assessments. The current portfolio totals include only active project records. Website and publication repositories are excluded from the IP-asset count.",
-      "averageTriangulatedEconomicReferencePerPricedAsset": 1232112.56
+      "monetaryScope": "104 independent software IP assets with individual seller asking references and defined existing-scope recreation estimates. Four new prototypes and two implemented increments have updated estimates; the other 98 existing prices are retained. Website repositories are excluded.",
+      "averageTriangulatedEconomicReferencePerPricedAsset": 1187384.4903846155
     },
-    "proposedConnections": 26,
-    "uniqueConnectionMembers": 66,
+    "proposedConnections": 30,
+    "uniqueConnectionMembers": 74,
     "liveDigitalDisplays": 12,
-    "boundary": "This publication removes one withdrawn asset from the current portfolio and recalculates the aggregates from the remaining 100 records. Individual identifiers, prices, model assumptions, source versions, evidence dates and readiness criteria are retained. The 26 proposed connections retain 66 unique project members and their existing financial sums. This scope update does not claim new software tests, source qualification or independent valuation."
+    "boundary": "All 117 repositories and 36 open pull requests were compared with the preceding portfolio. The 104 active software assets are independently scoped; 13 publication repositories are excluded. Nine pinned source trees from seven projects were byte-verified and locally tested. Current-main, unmerged development, historical validation and future specifications remain separate. The current video prototype passes its mandatory 73-test/build gate; the earlier blocker is resolved. Remote perception retains an explicitly blocked commercial transfer gate. CRE and the mission framework retain open rights/delivery conditions. No physical, anomalous-perception, independently certified rights/security, production hosting or future scientific capability is established by local tests."
   }
 }

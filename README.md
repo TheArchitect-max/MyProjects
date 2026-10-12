@@ -1,188 +1,44 @@
 # THEARCHITECT_MAX — Private Technology & IP Portfolio
 
-Explore **100 independent software IP assets**, each with one TA-IP identifier, one project title, one feminine reference alias and its own financial and transfer scope.
+Explore **104 independent software IP assets**, each with one assigned TA-IP identifier, one project title, one feminine reference alias and its own financial, rights and transfer scope.
 
-## Current portfolio scope — 12 October 2026
+## Current complete revision — 12 October 2026
 
-Published at **2026-10-12T03:40:16Z**. The active portfolio contains **100** independently scoped software IP assets. One withdrawn project and all its catalogue references have been removed. Remaining identifiers are preserved and are not renumbered or reused. The last full software-source review remains dated **2026-10-12T00:19:02Z**; this scope update does not claim new source tests.
+Reviewed at **2026-10-12T09:21:42Z**. All **117 repositories** and **36 open pull requests** were compared with the preceding publication. **13 website/publication repositories** are excluded from the IP-asset count. The directory provides **12 live project digital displays**. Four new prototypes occupy TA-IP-102 through TA-IP-105. Universal Video Intelligence Platform retains TA-IP-101 / Ophelia after a confirmed repository rename. Withdrawn identifiers are not reused.
 
-Current portfolio asking reference: **EUR 24,368,000**. Recreation-cost total: **EUR 103,920,000**. All 100 remaining individual prices, model factors and project assessments retain their dates. Current maturity: **56 developed-software, 41 prototype and three research-stage** assets. Readiness: **0 READY, 92 READY_WITH_CONDITIONS, 8 NOT_READY**.
+Portfolio asking reference: **EUR 24,480,500**. Recreation-cost total: **EUR 104,315,000**. Negotiation-reference aggregate: **EUR 19,557,100–30,680,125**. Current maturity: **56 developed-software, 45 prototype and three research-stage** assets. Readiness: **0 READY, 94 READY_WITH_CONDITIONS, 10 NOT_READY**.
 
-The directory retains **12 live project displays**. Website and publication repositories are excluded from the software-asset count. The **26 Connections** retain **66 globally unique members** and unchanged individual and combined prices. The withdrawn project was not a member of any combination.
+| Identifier | Project | Reference | Seller ask | Recreation estimate | Handover readiness |
+|---|---|---|---:|---:|---|
+| TA-IP-093 | Aurynthiq Autonomous DJ Intelligence Platform | Isadora | EUR 46,000 | EUR 290,000 | READY_WITH_CONDITIONS |
+| TA-IP-101 | Universal Video Intelligence Platform | Ophelia | EUR 36,000 | EUR 120,000 | READY_WITH_CONDITIONS |
+| TA-IP-102 | Universal Remote Perception Intelligence Platform | Pallas | EUR 33,000 | EUR 110,000 | NOT_READY |
+| TA-IP-103 | Universal Operations Orchestration & Intelligence Platform | Diana | EUR 27,000 | EUR 90,000 | READY_WITH_CONDITIONS |
+| TA-IP-104 | Collective Reality Engine | Calliope | EUR 24,000 | EUR 80,000 | NOT_READY |
+| TA-IP-105 | Mission-to-Execution Engineering Framework | Hestia | EUR 16,500 | EUR 55,000 | NOT_READY |
 
-Review [the current portfolio scope and aggregate reconciliation](docs/PORTFOLIO_SCOPE_UPDATE_2026-10-12.md), [the preceding source and financial assessment](docs/PORTFOLIO_UPDATE_2026-10-12.md) and the authoritative registers. OmniFrame v0.7 remains NOT_READY because its mandatory current-source validation gate fails; the retained v0.5 results remain separate. The website remains an informational portfolio.
+The 98 other existing individual prices retain their assessments. Seven projects received source-content review and specifically reported local checks across nine source trees; fresh validation is not claimed for every repository. Main versions, unmerged development candidates, earlier validation and future objectives remain distinct. Remote Perception's commercial transfer gate remains explicitly blocked. See [the complete source, cost and connection revision](docs/PORTFOLIO_FULL_REVISION_2026-10-12.md).
 
-## Retained preceding reviews
+## Connections
 
-The dated records below describe their publication states. Current counts, prices and evidence are in the current review above and the authoritative registers.
+The catalogue contains **30 proposed combinations**, with **74 globally unique project members**. Each member appears once. Both the combined asking reference and recreation-cost total resolve dynamically from individual records. Four new combinations concern mission/operations planning, shared-world scenarios, controlled observation studies and research-led software-asset review. Every combination needs an agreed interface and joint qualification; no integrated larger engine is claimed as already delivered. The FusionLunar transport-module relationship is preserved.
 
-## FusionLunar transport-module relationship — 11 October 2026
+## Identities, criteria and verification
 
-Launch & Cislunar Transportation Engineering Platform (TA-IP-099) is the separately scoped transport module for FusionLunar Energy Systems Engineering Platform (TA-IP-057). Review both projects together in TA-CN-026: asking reference **EUR 375,000**; recreation-cost total **EUR 2,950,000**. Both remain independent IP assets. Joint qualification is open, and all individual prices and assessment dates are unchanged. See [the module relationship](docs/FUSIONLUNAR_TRANSPORT_MODULE_RELATIONSHIP.md).
+The 104 active, stable identifiers match the collection, profiles, evidence, ownership, transfer, financial records and display directory. Identifiers may contain gaps. Project titles lead; a feminine reference alias appears once per profile or card. The authoritative mapping is `assets/project-identities.json`.
 
-## Current additions — 11 October 2026
+Every project page has an assessment section with five grades, its decision basis and remaining conditions. Read [the readiness standard](docs/SELLER_READINESS_STANDARD.md). The current record has **48 conditional maturity sensitivities** and **56 NOT_ESTABLISHED** future references; these are not future prices or income promises.
 
-Assessed at **2026-10-11T07:01:21Z**. Two new independent software assets are integrated with unique project identifiers and single feminine reference aliases. All 98 preceding asset records, source dates, prices and criteria retain their assessments.
+The proof page verifies SHA-256 file integrity, per-asset analytical calculations, portfolio sums and the display directory. Such checks establish publication integrity and arithmetic consistency, not independent title, authorship, scientific validity, security certification or certified appraisal. Detailed implementation and controlled diligence stay outside the public showroom.
 
-| Project | Title | Asking reference | Recreation-cost total | Readiness |
-|---|---|---:|---:|---|
-| TA-IP-099 | Launch & Cislunar Transportation Engineering Platform | EUR 15,000 | EUR 50,000 | READY_WITH_CONDITIONS — defined software foundation |
-| TA-IP-100 | Synthetic Consciousness Engineering Platform | EUR 45,000 | EUR 150,000 | READY_WITH_CONDITIONS — bounded research software and final evidence |
+## Independent acquisition and contribution routes
 
-Fresh checks passed 18 LCTEP tests and 14 SCEP tests. The seven retained SCEP final-campaign files pass checksum verification; the complete intermediate checkpoint set remains unestablished; one newly retained step-50 checkpoint and seven binary parts were inventoried. Flight qualification, consciousness, historical-output equivalence and future implementation are outside the priced scope. Review [the new project cost and evidence assessment](docs/NEW_PROJECT_ASSESSMENTS_2026-10-11.md).
+Each project may be acquired in its expressly defined existing scope **AS IS**, subject to a separate definitive written agreement. A voluntary Bitcoin contribution creates no ownership, repayment, financial return, project reservation or development entitlement. Read [the acquisition and contribution policy](docs/ACQUISITION_VOLUNTARY_CONTRIBUTION_POLICY.md).
 
-Current register: **100 assets**; **57 developed-software, 40 prototype and three research-stage**. Aggregate ask: **EUR 24,923,000**; recreation-cost total: **EUR 105,910,000**. Readiness: **0 READY, 92 READY_WITH_CONDITIONS, 9 NOT_READY**. The 26 Connections allocate 66 projects exactly once, including the FusionLunar transport-module relationship; existing individual prices are unchanged. Website repositories remain excluded digital displays.
+The GitHub Pages site is an informational portfolio. It hosts no SaaS runtime, customer/session database, billing, escrow, payment settlement or IP-transfer process. No GitHub Actions workflow is added by this revision; only the pre-existing native static Pages publication is used.
 
+## Publication and rollback
 
-## Previous targeted source review — 11 October 2026
+Serve the repository root through its existing native GitHub Pages configuration. No custom application-server workflow is required. Git history retains prior publication states; current authoritative registers supersede their dated counts and prices. The [preceding institutional memorandum](docs/INSTITUTIONAL_PORTFOLIO_MEMORANDUM.md) is explicitly historical beneath its current preface.
 
-Assessed at **2026-10-11T00:24:59Z**. CAUSORYN remains TA-IP-097 and is updated to its implemented v0.6.0 local prototype. Software Asset Engineering Platform remains TA-IP-098; its implemented local engine stays at v0.1.0, and its newly required private SaaS is specified but not implemented or deployed. The other 96 asset records, source dates and prices are unchanged.
-
-| Portfolio ID | Project | Asking reference | Recreation-cost total | Transfer readiness |
-|---|---|---:|---:|---|
-| TA-IP-097 | CAUSORYN | EUR 48,000 | EUR 160,000 | NOT_READY — acquisition handover incomplete |
-| TA-IP-098 | Software Asset Engineering Platform | EUR 75,000 | EUR 250,000 | READY_WITH_CONDITIONS — present local engine only |
-
-Fresh checks passed 98 CAUSORYN tests and seven examples, plus 72 Octavia tests. CAUSORYN's revised budget includes its delivered observation and local simulation increments. Octavia's engine/test digests and current budget are unchanged; future SaaS is excluded. Review [the current cost and evidence assessment](docs/CAUSORYN_AND_OCTAVIA_SOURCE_REFRESH_2026-10-11.md).
-
-Register at that review: **98 assets**; **57 developed-software, 38 prototype and three research-stage**. Aggregate ask: **EUR 24,863,000**; recreation-cost total: **EUR 105,710,000**. Readiness: **0 READY, 90 READY_WITH_CONDITIONS, 9 NOT_READY**. The 25 Connections keep their 64 unique members and unchanged financial inputs. Website repositories remain excluded digital displays.
-
-## Current public monetary references — 12 October 2026
-
-- Published asking reference: **EUR 24,368,000**
-- Indicative negotiation range: **EUR 19,467,400–30,539,500**
-- Engineering-equivalent recreation estimate: **EUR 103,920,000**
-- Ask / recreation cost: **23.45%**
-
-EUR amounts are authoritative. USD amounts use the separately dated conversion rate; it is not presented as a current exchange quote.
-
-## Historical identity and new software evaluation — 11 October 2026
-
-Assessed at 2026-10-10T22:16:09Z. CAUSORYN / Vespera replaces Digital Twin Core / Tessa within **TA-IP-097**, without inheriting its predecessor price or evidence. Software Asset Engineering Platform / Octavia is now registered as **TA-IP-098**, based on its implemented v0.1.0 source rather than the earlier empty repository state. All other 96 project records and monetary inputs retain their dates and conclusions.
-
-| Identifier | Project | Asking reference | Recreation-cost total | Readiness |
-|---|---|---:|---:|---|
-| TA-IP-097 | CAUSORYN | EUR 30,000 | EUR 100,000 | NOT_READY — incomplete acquisition handover |
-| TA-IP-098 | Software Asset Engineering Platform | EUR 75,000 | EUR 250,000 | READY_WITH_CONDITIONS — final engine delivery and obligations to be agreed |
-
-Fresh local verification passed 54 CAUSORYN tests and four examples, and 72 Software Asset Engineering Platform tests. The latter source digests match retained installed-wheel evidence; this review did not repeat the wheel execution. Engine tests do not validate ingested projects or certify title, value or production acceptance. Review [the disclosed cost and evidence assessment](docs/CAUSORYN_AND_NEW_ASSET_ASSESSMENT_2026-10-11.md).
-
-Register at that review: **98 assets**; **57 developed-software, 38 prototype and 3 research-stage**. Asking total: **EUR 24,845,000**; recreation-cost total: **EUR 105,650,000**. Readiness: **0 READY, 90 READY_WITH_CONDITIONS, 9 NOT_READY**. The 25 Connections retain their 64 unique members and unchanged individual price inputs. Website repositories remain excluded digital displays.
-
-## Public verification
-
-Use the public records to verify asset identities, compare pricing assumptions and plan your controlled diligence:
-
-- SHA-256 fingerprints for the current public valuation register and economic methodology;
-- browser-side verification of those fingerprints;
-- deterministic asset-by-asset recomputation of portfolio valuation totals;
-- a verified directory of public GitHub Pages presentation surfaces;
-- explicit separation between public commercial evidence and controlled diligence.
-
-This proves integrity and internal consistency of the published commercial record. It is not an independent title opinion, patent-priority record, source-code audit, security certification, scientific validation or certified market appraisal.
-
-## Publication boundary
-
-This repository contains public commercial information only. Private source code, private repository identities, implementation architecture, validation artifacts, rights records, security-sensitive material, customer data and transaction-confidential information remain outside the public showroom.
-
-Each independently scoped first-party IP asset is counted once; definition documentation is distinguished from implemented software. Project websites are linked only as digital displays.
-
-## Visual references
-
-The website retains its public-domain / CC0 old-master visual references and current chiaroscuro, tenebrism and sfumato presentation. Attribution and source links remain in the public footer.
-
-© 2026 THEARCHITECT_MAX. All rights reserved for first-party portfolio text, design and commercial material.
-
-<!-- DEVELOPMENT-REGISTER:START -->
-## Acquisition and voluntary contribution
-
-The public site presents **100 independent IP assets**, each with its own rights and transfer perimeter. Compare individual asking prices, included scope and outstanding delivery conditions asset by asset. The complete evidence, rights, transfer, maturity and economic evaluation was updated on **10 October 2026**, against each preceding recorded source and financial baseline.
-
-The two offered routes are **complete project acquisition AS IS** and an independent **voluntary Bitcoin contribution**. The latter creates no ownership, licence, financial return, price credit or entitlement to development, software, services or support. Development sponsorship, milestone financing and co-development are no longer offered routes on the public website.
-
-The published receiving address is **38dn8ZDf11cYSMv8X1UUARsE2wqdmtjd36**. Send **BTC only via the Bitcoin network** and independently verify the complete address. Unsupported assets or networks may cause permanent loss. The address is displayed as information; no checkout, wallet connection, transaction monitoring, account/session system, billing or payment settlement is implemented.
-
-Acquisitions require a separate definitive written agreement. The GitHub Pages site remains an informational project showcase. Read the [complete policy](docs/ACQUISITION_VOLUNTARY_CONTRIBUTION_POLICY.md), published on `policy.html`, and the project-specific routes on all 100 profiles. Prices, readiness grades and source-evidence timestamps are unchanged by this policy update.
-<!-- DEVELOPMENT-REGISTER:END -->
-
-<!-- PROJECT-IDENTITIES:START -->
-## Project identity names
-
-Every one of the **100 IP assets** has one project title and one feminine reference alias. The title leads every card and profile; the alias appears once as a project reference. `assets/display-names.json` mirrors the same mapping and the legacy title-replacement script no longer renames headings. Repository identities, single reference names and evidence lineage are preserved. Economic quantities follow the current evidence-based reassessment.
-
-Use the **100 active, previously assigned TA-IP identifiers** to match each project across the collection, profile, rights, assurance, financial records and digital-display directory. The authoritative public mapping is `assets/project-identities.json`. Current user-facing descriptions, version status and asset eligibility are in `assets/project-presentations.json`.
-<!-- PROJECT-IDENTITIES:END -->
-
-<!-- REPOSITORY-SCOPE:START -->
-## Repository scope
-
-The public collection, development register, assurance records and evaluations contain the same **100 independent first-party IP assets**. Project websites are available solely as digital displays linked from their corresponding software profiles.
-<!-- REPOSITORY-SCOPE:END -->
-
-<!-- FUTURE-ECONOMIC-REFERENCES:START -->
-## Milestone-conditioned economic references
-
-The current 12 October evidence-bounded register covers **100 IP assets**. It contains **44 numeric conditional maturity references** and **56 NOT_ESTABLISHED records**. Every conditional amount is recalculated from the current asset inputs.
-
-A numeric reference is published only for an objective **R→P** or **P→V** maturity transition. The calculation reuses the published portfolio methodology and changes only the maturity-stage factor; replacement cost, commercial potential, sector and monetization route remain fixed. It is therefore a reproducible maturity sensitivity, not a forecast, seller ask, market value, investment return or guarantee.
-
-Projects already at stage V receive no higher amount unless new attributable market, income, transaction or other independently supportable evidence exists. The authoritative register is `assets/future-economic-references.json`.
-<!-- FUTURE-ECONOMIC-REFERENCES:END -->
-
-<!-- SELLER-READINESS:START -->
-## Current seller evidence and transaction readiness
-
-At 2026-10-12T03:40:16Z, all **100** active assets retain five disclosed evidence, technical, rights, commercial and handover criteria. Current grades are **0 READY, 92 READY_WITH_CONDITIONS, 8 NOT_READY, 0 pending**. Source comparison and specifically reported local checks retain version-specific validation boundaries. Independent legal, scientific, security and market certification is not implied.
-
-Review the authoritative project-evaluation, seller-readiness, ownership, component and rights-transfer registers and [the current review](docs/PORTFOLIO_UPDATE_2026-10-12.md) for the project-specific basis and outstanding conditions.
-<!-- SELLER-READINESS:END -->
-
-<!-- RIGHTS-TRANSFER:START -->
-## Rights & transfer perimeter
-
-The public acquisition layer focuses on **what is offered, what seller-owned first-party rights are transferable/licensable, what third-party rights are present, and what is explicitly excluded**. Internal development methods are outside the public transaction record.
-
-The seller declares no known or disclosed external human co-owner of the seller-owned first-party rights. Third-party software, libraries, datasets, models, APIs and other third-party IP are not represented as seller-owned and remain governed by their own terms.
-
-Authoritative registers:
-
-- `assets/ip-ownership-register.json`
-- `assets/rights-transfer-register.json`
-- `assets/software-supply-chain-summary.json`
-
-Detailed transaction rights, disclosure schedules, representations and warranties belong in the definitive agreement.
-<!-- RIGHTS-TRANSFER:END -->
-
-
-<!-- FULL-EVALUATION:START -->
-## Full catalogue and financial review — 10 October 2026
-
-**Review timestamp:** 2026-10-10T08:52:15Z. Previous full portfolio source review: 2026-10-09T10:15:23Z; previous individual DARF financial review: 2026-10-10T00:48:36Z.
-
-All **97 independent IP assets** and all **29 open pull requests** were checked. **Two** project assessments and financial estimates are updated; **95** source/evidence conclusions and monetary estimates are reconfirmed. The same 97 asset identities and software maturity classifications are retained. Website repositories remain digital displays only.
-
-DARF (TA-IP-022) distinguishes main v0.19.0 from its unmerged v0.24.0 development scope. The latter has retained 375/375 exact-source software tests and one Tesla T4 qualification; physical multi-GPU model execution, two-host execution/recovery and live kernel containment remain unqualified. Its indicative ask is **EUR 500,000**, negotiation reference **EUR 390,000–630,000**, and recreation estimate **EUR 1,400,000**.
-
-TrueLane Intelligence Engine (TA-IP-013) is updated to v5.7.0-alpha.1 with retained CUDA preference training, exact Google Drive checkpoint resume and independent CUDA distillation reproducibility on small first-party verification assets. General AI or larger-model quality is not established. Its indicative ask is **EUR 300,000**, negotiation reference **EUR 240,000–375,000**, and recreation estimate **EUR 1,000,000**.
-
-The additional engineering-equivalent budgets are EUR 300,000 for DARF and EUR 150,000 for TrueLane. Existing rates, commercial factors and price/recreation discounts are retained; asking references are rounded down to EUR 5,000. These are reproduction assumptions, not actual recorded expenditure. Future qualification, third-party assets and projected income are excluded.
-
-Review [the complete financial reassessment](docs/PORTFOLIO_FINANCIAL_REASSESSMENT_2026-10-10.md) for work-package assumptions, source-specific evidence and exclusions. Individual results are in `assets/project-evaluations.json` and the public arithmetic/integrity checks are on the Proof page.
-
-Historical 9 October additions were priced as follows: LEARNPIANO EUR 180,000; PLANTELOGIA Intelligence Platform EUR 50,000; Digital Twin Core EUR 500 for existing definition and acquisition documentation only. That predecessor record was replaced by CAUSORYN on 11 October; its old price is not inherited.
-
-The directory retains **11** digital displays. The static catalogue update does not deploy an application, SaaS, user/session database, billing or payment service.
-<!-- FULL-EVALUATION:END -->
-
-## Readiness criteria disclosure and correction — 10 October 2026
-
-At 2026-10-10T09:20:17Z, all 97 project profiles receive a visitor-facing explanation of their recorded criteria and outstanding conditions. Two former READY classifications are corrected to READY_WITH_CONDITIONS after source-content review. Evidence-Governed Software Assurance Platform has component-inventory generation code and runtime transaction features, not an established completed buyer package; its T4/R3 grades become T3/R2. Secure Actuation Integrity Platform explicitly records an ineligible, unexported package and unperformed buyer verification; its T4 grade becomes T3. Distribution at that review: **0 READY, 89 READY_WITH_CONDITIONS, 9 NOT_READY**.
-
-This correction does not change prices, first-party ownership declarations, technical software stages or the preceding full source-review timestamp. Review `assets/seller-readiness-register.json` and [the readiness standard](docs/SELLER_READINESS_STANDARD.md) for the gate definitions. Repository filenames, generation tooling and negative status reports cannot establish READY.
-## Proposed project connections
-
-The **Connections** tab (connections.html) presents 25 proposed combinations drawn from 64 independently scoped projects. Every included project appears in exactly one combination. Each combination lists the included TA-IP assets, their current individual asking references and recreation-cost estimates, their proposed roles, the combined asking reference and the **recreation-cost total**. The same 64 projects remain included; no portfolio asset is removed. Project profiles link to their allocated combination and display both totals.
-
-Search, topic and project filters, and ordering by either financial total run locally in the visitor's browser. The static connection register is SHA-256 checked against the public attestation. Both financial references are resolved from the existing verified asset register. Global uniqueness is enforced across all combinations, not only within a combination. No second price list, extra portfolio asset, shared-work discount or integration premium is introduced.
-
-The combinations are proposals based on reviewed project documentation. No shared runtime or new joint validation is claimed. Existing assets may be acquired AS IS under a separate definitive written agreement; integration engineering and deployment require a separately defined scope. Recreation costs describe the published existing project scopes, not the additional work to integrate them. The existing acquisition/contribution policy and individual price, rights and readiness records are retained.
+© 2026 THEARCHITECT_MAX. All rights reserved.

@@ -1,3 +1,11 @@
+## Current portfolio revision — 12 October 2026
+
+**Published at 2026-10-12T09:21:42Z.** Review **104 active software IP assets**, **12 live digital displays** and **30 proposed connections with 74 unique members**. Current seller asking reference: **EUR 24,480,500**. Recreation-cost total: **EUR 104,315,000**. Readiness: **0 READY, 94 READY_WITH_CONDITIONS and 10 NOT_READY**.
+
+Use [the current complete revision](PORTFOLIO_FULL_REVISION_2026-10-12.md) and the authoritative registers. The following dated report records an earlier publication state; its counts, prices and source status do not override current records.
+
+---
+
 # Current portfolio scope and financial reconciliation — 12 October 2026
 
 **Publication timestamp:** 2026-10-12T03:40:16Z. **Active software IP assets:** 100.
@@ -29,6 +37,6 @@ The digital-display directory retains 12 live sites. The withdrawn project's unp
 
 ## Evidence and transaction boundary
 
-The last full software-source review remains dated 2026-10-12T00:19:02Z. This update reconciles catalogue scope and arithmetic; it does not claim another source audit or software-test execution. OmniFrame's current validation blocker and separately retained earlier baseline remain unchanged.
+The last full software-source review remains dated 2026-10-12T00:19:02Z. This update reconciles catalogue scope and arithmetic; it does not claim another source audit or software-test execution. Universal Video Intelligence Platform's current validation blocker and separately retained earlier baseline remain unchanged.
 
 Acquisition requires a separate definitive written agreement. A voluntary Bitcoin contribution creates no project rights or development entitlement. GitHub Pages presents public portfolio information and completes no purchase, payment or IP transfer.

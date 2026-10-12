@@ -2,54 +2,54 @@
   "schema": "thearchitect-max-portfolio-audit-certificate-v4",
   "basisDate": "2026-10-12",
   "repository": "TheArchitect-max/MyProjects",
-  "sourceHeadAtCertificatePreparation": "f7be0fbc2cc67004bfc40e85f98b3cc6570214b2",
+  "sourceHeadAtCertificatePreparation": "3ffc8e72d5eecebcb7d77114627d28a5ddc8c1a8",
   "scope": {
-    "ipAssetCount": 100,
-    "pricedAssetCount": 100,
+    "ipAssetCount": 104,
+    "pricedAssetCount": 104,
     "unpricedAssetCount": 0
   },
   "audit": {
     "sellerReadinessStatus": "COMPLETE",
-    "auditedProjects": 100,
+    "auditedProjects": 104,
     "pendingProjects": 0,
     "transactionReadiness": {
-      "audited": 100,
+      "audited": 104,
       "pending": 0,
       "ready": 0,
-      "readyWithConditions": 92,
-      "notReady": 8
+      "readyWithConditions": 94,
+      "notReady": 10
     },
     "evidenceMaturityDistribution": {
-      "E1": 8,
-      "E3": 42,
+      "E1": 7,
+      "E3": 44,
       "E4": 17,
-      "E2": 33
+      "E2": 36
     },
     "ipRightsMaturityDistribution": {
-      "R2": 90,
-      "R0": 3,
+      "R2": 92,
+      "R0": 5,
       "R3": 7
     },
     "commercialMaturityDistribution": {
-      "C2": 100
+      "C2": 104
     },
     "transferReadinessDistribution": {
-      "T1": 8,
-      "T2": 8,
+      "T1": 10,
+      "T2": 10,
       "T3": 84
     },
     "topOpenSellerItems": [
       {
         "item": "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "count": 84
+        "count": 82
       },
       {
         "item": "A detailed component inventory and licensing report are required for the agreed delivery scope.",
-        "count": 80
+        "count": 78
       },
       {
         "item": "An explicit delivery manifest and handover scope remain to be agreed.",
-        "count": 69
+        "count": 67
       },
       {
         "item": "A security assessment or an explicit statement of its absence is required before acceptance.",
@@ -68,11 +68,11 @@
         "count": 4
       },
       {
-        "item": "Validation/qualification evidence not identified.",
-        "count": 4
+        "item": "Repository licence file not identified.",
+        "count": 3
       },
       {
-        "item": "Repository licence file not identified.",
+        "item": "Validation/qualification evidence not identified.",
         "count": 3
       },
       {
@@ -90,53 +90,53 @@
     ]
   },
   "economics": {
-    "sellerAskEUR": 24368000,
-    "negotiationLowEUR": 19467400,
-    "negotiationHighEUR": 30539500,
-    "replacementCostEUR": 103920000,
-    "triangulatedEconomicReferenceEUR": 123211256,
-    "milestoneConditionalNumericReferences": 44,
+    "sellerAskEUR": 24480500,
+    "negotiationLowEUR": 19557100,
+    "negotiationHighEUR": 30680125,
+    "replacementCostEUR": 104315000,
+    "triangulatedEconomicReferenceEUR": 123487987,
+    "milestoneConditionalNumericReferences": 48,
     "milestoneReferencesNotEstablished": 56,
-    "pricedAssetCount": 100,
+    "pricedAssetCount": 104,
     "unpricedAssetCount": 0,
-    "monetaryScope": "100 independently scoped software IP assets with retained individual price, evidence, rights and delivery assessments. The current portfolio totals include only active project records. Website and publication repositories are excluded from the IP-asset count."
+    "monetaryScope": "104 independent software IP assets with individual seller asking references and defined existing-scope recreation estimates. Four new prototypes and two implemented increments have updated estimates; the other 98 existing prices are retained. Website repositories are excluded."
   },
   "sourceObjects": {
     "sellerReadinessRegister": {
       "path": "assets/seller-readiness-register.json",
-      "gitBlobSha": "3ab0df5f83d54a28ea2ecdf25b69e7928c273998"
+      "gitBlobSha": "075021e33fec0109eb83cd3d17c831ad09f73b8b"
     },
     "valuationRegister": {
       "path": "assets/valuation-register.json",
-      "gitBlobSha": "7c02f88811fdae2e48e163f6496c31361d8db582"
+      "gitBlobSha": "75d3188227822b5e13e2865a428edd9042933750"
     },
     "futureEconomicReferences": {
       "path": "assets/future-economic-references.json",
-      "gitBlobSha": "b84d06b0f2e52d6616046a61f1660ed497374b1e"
+      "gitBlobSha": "df1a1f9711ee8d052c19b98b414d0a9e4f3d94cb"
     },
     "projectIdentities": {
       "path": "assets/project-identities.json",
-      "gitBlobSha": "0005f993f0678d0a43f98ff208e79bc8fba78a63"
+      "gitBlobSha": "b9325af6ccb458d57e922d07512d11a5d957718f"
     },
     "ipOwnershipRegister": {
       "path": "assets/ip-ownership-register.json",
-      "gitBlobSha": "f7f1c4b17dbdaaae9f028e6f5097ec0930c5a5de"
+      "gitBlobSha": "bc22aa59b65612991bf4bec122a27602444cc5a9"
     },
     "softwareSupplyChainSummary": {
       "path": "assets/software-supply-chain-summary.json",
-      "gitBlobSha": "93bd4bf596b82d52e643c400acde8e5a7c7e66c1"
+      "gitBlobSha": "c087753617e350893d8e0d4228b1d020b402fd02"
     },
     "rightsTransferRegister": {
       "path": "assets/rights-transfer-register.json",
-      "gitBlobSha": "47240cad272fe3e0ab552739c3e7c94d90d01b0f"
+      "gitBlobSha": "305fb8e1da50d1e518d51201d0bca73597fa1394"
     },
     "projectEvaluations": {
       "path": "assets/project-evaluations.json",
-      "gitBlobSha": "841e2df963294031f5ced6c22af24f34ffa50dde"
+      "gitBlobSha": "c0a88670e9426e9fd7a655748b39f91746049434"
     },
     "projectPresentations": {
       "path": "assets/project-presentations.json",
-      "gitBlobSha": "dd83746b343ec0750b389c1f85f56406134698b6"
+      "gitBlobSha": "edd04e28ff8e0baca46578b096df6254e1c83df9"
     }
   },
   "externalStandards": [
@@ -165,7 +165,7 @@
     "developmentMethodDisclosure": "OUTSIDE_PUBLIC_TRANSACTION_RECORD",
     "legalChainOfTitleOpinion": "NOT_PERFORMED_UNLESS_SEPARATELY_EVIDENCED"
   },
-  "assessedAt": "2026-10-12T03:40:16Z",
+  "assessedAt": "2026-10-12T09:21:42Z",
   "previousBasisDate": "2026-10-10",
   "fullEvaluationUpdate": {
     "date": "2026-10-10",
@@ -178,7 +178,7 @@
     "ipAssetsEvaluated": 97,
     "previousAssessedAt": "2026-10-09T10:15:23Z"
   },
-  "catalogueUpdatedAt": "2026-10-12T03:40:16Z",
+  "catalogueUpdatedAt": "2026-10-12T09:21:42Z",
   "latestSeparateAssetPricing": {
     "assessedAt": "2026-10-09T06:22:41Z",
     "assetCount": 3,
@@ -230,6 +230,206 @@
     "boundary": "DARF only: current source, retained exact-commit validation, rights, delivery conditions and seller-side economics. The other 96 asset assessments and monetary inputs retain their earlier dates and conclusions; portfolio totals are recomputed."
   },
   "latestFinancialReassessment": {
+    "assessedAt": "2026-10-12T09:21:42Z",
+    "type": "FULL_PORTFOLIO_SOURCE_REVIEW_AND_TARGETED_REASSESSMENT",
+    "assetsReassessed": 6,
+    "monetaryReferencesChanged": 6,
+    "assetAdditions": 4,
+    "unchangedAssetPrices": 98,
+    "otherAssetRecordsRetained": 98,
+    "unchangedCommercialFactors": true,
+    "softwareMaturityChanged": false,
+    "assets": [
+      {
+        "ref": "TA-IP-093",
+        "slug": "aurynthiq-autonomous-dj-intelligence-platform",
+        "title": "Aurynthiq Autonomous DJ Intelligence Platform",
+        "previousSellerAskEUR": 40000,
+        "sellerAskEUR": 46000,
+        "previousReplacementCostEUR": 250000,
+        "replacementCostEUR": 290000,
+        "pricingScope": "Existing first-party local DJ and music-library prototype plus the implemented v0.11/v0.12 user-library, declared-use, audition and local-export controls, source, tests and documentation. External music, model weights and runtime ownership, independently cleared music rights, professional listening quality, large-library/hardware qualification and a hosted service are excluded.",
+        "costAssumptionsDocument": "docs/PORTFOLIO_FULL_REVISION_2026-10-12.md"
+      },
+      {
+        "ref": "TA-IP-101",
+        "slug": "universal-video-intelligence-platform",
+        "title": "Universal Video Intelligence Platform",
+        "previousSellerAskEUR": 30000,
+        "sellerAskEUR": 36000,
+        "previousReplacementCostEUR": 100000,
+        "replacementCostEUR": 120000,
+        "pricingScope": "Present first-party v0.9.1 browser and offline research prototype, manual notes and backup recovery, source-review and human-supplied evidence review, documentation, tests and development packaging. Browser production qualification, AI transcript/multimodal analysis, media downloading, platform or target-project ownership, hosted services, automatic repairs and future engineering are excluded.",
+        "costAssumptionsDocument": "docs/PORTFOLIO_FULL_REVISION_2026-10-12.md"
+      },
+      {
+        "ref": "TA-IP-102",
+        "slug": "universal-remote-perception-intelligence-platform",
+        "title": "Universal Remote Perception Intelligence Platform",
+        "previousSellerAskEUR": null,
+        "sellerAskEUR": 33000,
+        "previousReplacementCostEUR": null,
+        "replacementCostEUR": 110000,
+        "pricingScope": "Existing first-party offline controlled-study, custody, scoring and IP-governance software, its documentation and tests, with a separately identified unmerged P1.2 candidate. Seven internal component records are counted once within this project. Physical sensing hardware, hidden-object inference, scientifically demonstrated anomalous or sensor-free perception, independent custody/security certification, third-party rights and future research are excluded.",
+        "costAssumptionsDocument": "docs/PORTFOLIO_FULL_REVISION_2026-10-12.md"
+      },
+      {
+        "ref": "TA-IP-103",
+        "slug": "universal-operations-orchestration-intelligence-platform",
+        "title": "Universal Operations Orchestration & Intelligence Platform",
+        "previousSellerAskEUR": null,
+        "sellerAskEUR": 27000,
+        "previousReplacementCostEUR": null,
+        "replacementCostEUR": 90000,
+        "pricingScope": "Existing first-party v0.4 offline operational modelling, planning, local event memory, controlled recovery, portable evidence and non-mutating policy-proposal software, tests and documentation. External actuation, authenticated identities, externally certified custody, deployed multi-user SaaS, production optimisation or autonomous execution and future development are excluded.",
+        "costAssumptionsDocument": "docs/PORTFOLIO_FULL_REVISION_2026-10-12.md"
+      },
+      {
+        "ref": "TA-IP-104",
+        "slug": "collective-reality-engine",
+        "title": "Collective Reality Engine",
+        "previousSellerAskEUR": null,
+        "sellerAskEUR": 24000,
+        "previousReplacementCostEUR": null,
+        "replacementCostEUR": 80000,
+        "pricingScope": "Existing first-party v0.3 local shared-world reference software, two bounded scenario implementations, local persistence/replay controls, tests and design documentation counted once. Future narrative production, external artwork/audio, AI models, online multiplayer, production identity, large-scale infrastructure and commercial event delivery are excluded.",
+        "costAssumptionsDocument": "docs/PORTFOLIO_FULL_REVISION_2026-10-12.md"
+      },
+      {
+        "ref": "TA-IP-105",
+        "slug": "mission-to-execution-engineering-framework",
+        "title": "Mission-to-Execution Engineering Framework",
+        "previousSellerAskEUR": null,
+        "sellerAskEUR": 16500,
+        "previousReplacementCostEUR": null,
+        "replacementCostEUR": 55000,
+        "pricingScope": "Existing first-party offline mission, requirements, dependency-planning and document-generation software on main v0.1 plus separately frozen unmerged v0.2/v0.3 traceability and feasibility-declaration software, tests and methodology documents. Generated plans are design outputs; independently established feasibility, copied cross-project IP, automatic engineering or execution, hosted services and future implementation are excluded.",
+        "costAssumptionsDocument": "docs/PORTFOLIO_FULL_REVISION_2026-10-12.md"
+      }
+    ],
+    "previousPortfolio": {
+      "assetCount": 100,
+      "stageCounts": {
+        "developedSoftware": 56,
+        "developedPrototype": 41,
+        "researchStage": 3,
+        "definitionStage": 0
+      },
+      "sellerAskEUR": 24368000,
+      "negotiationLowEUR": 19467400,
+      "negotiationHighEUR": 30539500,
+      "replacementCostEUR": 103920000,
+      "marketComparableProxyEUR": 118409425,
+      "incomeLicensingProxyEUR": 139464810,
+      "probabilityAdjustedStrategicValueEUR": 130446870,
+      "triangulatedEconomicReferenceEUR": 123211256,
+      "sellerAskAsShareOfTriangulated": 0.19777413842774236,
+      "sellerAskAsShareOfReplacementCost": 0.23448806774441877,
+      "pricedAssetCount": 100,
+      "unpricedAssetCount": 0,
+      "monetaryScope": "100 independently scoped software IP assets with retained individual price, evidence, rights and delivery assessments. The current portfolio totals include only active project records. Website and publication repositories are excluded from the IP-asset count.",
+      "averageTriangulatedEconomicReferencePerPricedAsset": 1232112.56
+    },
+    "currentPortfolio": {
+      "assetCount": 104,
+      "stageCounts": {
+        "developedSoftware": 56,
+        "developedPrototype": 45,
+        "researchStage": 3,
+        "definitionStage": 0
+      },
+      "sellerAskEUR": 24480500,
+      "negotiationLowEUR": 19557100,
+      "negotiationHighEUR": 30680125,
+      "replacementCostEUR": 104315000,
+      "marketComparableProxyEUR": 118718571,
+      "incomeLicensingProxyEUR": 139753880,
+      "probabilityAdjustedStrategicValueEUR": 130613552,
+      "triangulatedEconomicReferenceEUR": 123487987,
+      "sellerAskAsShareOfTriangulated": 0.19824195530857588,
+      "sellerAskAsShareOfReplacementCost": 0.2346786176484686,
+      "pricedAssetCount": 104,
+      "unpricedAssetCount": 0,
+      "monetaryScope": "104 independent software IP assets with individual seller asking references and defined existing-scope recreation estimates. Four new prototypes and two implemented increments have updated estimates; the other 98 existing prices are retained. Website repositories are excluded.",
+      "averageTriangulatedEconomicReferencePerPricedAsset": 1187384.4903846155
+    },
+    "boundary": "All 117 repositories and 36 open pull requests were compared with the preceding portfolio. The 104 active software assets are independently scoped; 13 publication repositories are excluded. Nine pinned source trees from seven projects were byte-verified and locally tested. Current-main, unmerged development, historical validation and future specifications remain separate. The current video prototype passes its mandatory 73-test/build gate; the earlier blocker is resolved. Remote perception retains an explicitly blocked commercial transfer gate. CRE and the mission framework retain open rights/delivery conditions. No physical, anomalous-perception, independently certified rights/security, production hosting or future scientific capability is established by local tests."
+  },
+  "version": "2026.10.12-im68-full-portfolio-revision",
+  "latestReadinessReview": {
+    "assessedAt": "2026-10-12T09:21:42Z",
+    "type": "FULL_SOURCE_COMPARISON_AND_TARGETED_CONTENT_REVIEW",
+    "criteriaDisclosedFor": 104,
+    "targetedRepositoryContentReviews": 7,
+    "changedReadinessReferences": [
+      "TA-IP-101",
+      "TA-IP-102",
+      "TA-IP-103",
+      "TA-IP-104",
+      "TA-IP-105"
+    ],
+    "previousSummary": {
+      "audited": 100,
+      "pending": 0,
+      "ready": 0,
+      "readyWithConditions": 92,
+      "notReady": 8
+    },
+    "currentSummary": {
+      "audited": 104,
+      "pending": 0,
+      "ready": 0,
+      "readyWithConditions": 94,
+      "notReady": 10
+    },
+    "boundary": "All 117 repositories and 36 open pull requests were compared with the preceding portfolio. The 104 active software assets are independently scoped; 13 publication repositories are excluded. Nine pinned source trees from seven projects were byte-verified and locally tested. Current-main, unmerged development, historical validation and future specifications remain separate. The current video prototype passes its mandatory 73-test/build gate; the earlier blocker is resolved. Remote perception retains an explicitly blocked commercial transfer gate. CRE and the mission framework retain open rights/delivery conditions. No physical, anomalous-perception, independently certified rights/security, production hosting or future scientific capability is established by local tests."
+  },
+  "latestIdentityUpdate": {
+    "assessedAt": "2026-10-12T09:21:42Z",
+    "type": "FOUR_SOFTWARE_ADDITIONS_AND_ONE_CONFIRMED_REPOSITORY_RENAME",
+    "previousAssetCount": 100,
+    "currentAssetCount": 104,
+    "otherAssetRecordsRetained": 100,
+    "identifiersReassigned": false,
+    "additions": [
+      {
+        "ref": "TA-IP-102",
+        "title": "Universal Remote Perception Intelligence Platform",
+        "referenceAlias": "Pallas",
+        "repository": "Universal-Remote-Perception-Intelligence-Platform",
+        "sourceHead": "4431fda60af9bd21b90a80df0c4ff21c28769215"
+      },
+      {
+        "ref": "TA-IP-103",
+        "title": "Universal Operations Orchestration & Intelligence Platform",
+        "referenceAlias": "Diana",
+        "repository": "Universal-Operations-Orchestration-Intelligence-Platform",
+        "sourceHead": "2804045108ced5760f1d8db0452d64c54988237e"
+      },
+      {
+        "ref": "TA-IP-104",
+        "title": "Collective Reality Engine",
+        "referenceAlias": "Calliope",
+        "repository": "Collective-Reality-Engine-CRE---Universal-Shared-World-Intelligence-Platform",
+        "sourceHead": "1b6abb67b404a5169875ed260324b1f4642c8e0e"
+      },
+      {
+        "ref": "TA-IP-105",
+        "title": "Mission-to-Execution Engineering Framework",
+        "referenceAlias": "Hestia",
+        "repository": "Mission-to-Execution-Engineering-Framework",
+        "sourceHead": "ee27964574e2a9d0d5d86eb28500337a5800f0ac"
+      }
+    ],
+    "repositoryRename": {
+      "ref": "TA-IP-101",
+      "repository": "Universal-Video-Intelligence-Platform",
+      "sameRepositoryId": true,
+      "newAsset": false
+    },
+    "boundary": "Each new software project is counted once. The confirmed repository rename retains its existing project identifier and reference alias. Withdrawn identifiers are not reused."
+  },
+  "previousFinancialReassessment": {
     "assessedAt": "2026-10-12T03:40:16Z",
     "type": "PORTFOLIO_SCOPE_RECONCILIATION",
     "assetsReassessed": 0,
@@ -261,7 +461,7 @@
       "sellerAskAsShareOfReplacementCost": 0.23540548177451256,
       "pricedAssetCount": 101,
       "unpricedAssetCount": 0,
-      "monetaryScope": "101 independent software IP assets. Three implemented main-branch increments and the new OmniFrame prototype have current estimates; the other 97 prices retain their individual assessments. Fourteen website/publication repositories are excluded digital displays.",
+      "monetaryScope": "101 independent software IP assets. Three implemented main-branch increments and the new Universal Video Intelligence Platform prototype have current estimates; the other 97 prices retain their individual assessments. Fourteen website/publication repositories are excluded digital displays.",
       "averageTriangulatedEconomicReferencePerPricedAsset": 1247987.3267326732
     },
     "currentPortfolio": {
@@ -289,8 +489,8 @@
     },
     "boundary": "This publication removes one withdrawn asset from the current portfolio and recalculates the aggregates from the remaining 100 records. Individual identifiers, prices, model assumptions, source versions, evidence dates and readiness criteria are retained. The 26 proposed connections retain 66 unique project members and their existing financial sums. This scope update does not claim new software tests, source qualification or independent valuation."
   },
-  "version": "2026.10.12-im67-portfolio-scope-update",
-  "latestReadinessReview": {
+  "previousRegisterAssessedAt": "2026-10-11T07:01:21Z",
+  "previousReadinessReview": {
     "assessedAt": "2026-10-12T03:40:16Z",
     "type": "PORTFOLIO_SCOPE_RECONCILIATION",
     "criteriaDisclosedFor": 100,
@@ -312,7 +512,7 @@
     },
     "boundary": "This publication removes one withdrawn asset from the current portfolio and recalculates the aggregates from the remaining 100 records. Individual identifiers, prices, model assumptions, source versions, evidence dates and readiness criteria are retained. The 26 proposed connections retain 66 unique project members and their existing financial sums. This scope update does not claim new software tests, source qualification or independent valuation."
   },
-  "latestIdentityUpdate": {
+  "previousIdentityUpdate": {
     "assessedAt": "2026-10-12T03:40:16Z",
     "type": "WITHDRAWN_ASSET_REMOVAL",
     "previousAssetCount": 101,
@@ -321,152 +521,6 @@
     "otherAssetRecordsRetained": 100,
     "identifiersReassigned": false,
     "boundary": "Remaining project identifiers and identities are preserved; withdrawn identifiers are not reused."
-  },
-  "previousFinancialReassessment": {
-    "assessedAt": "2026-10-12T00:19:02Z",
-    "assetsReassessed": 4,
-    "monetaryReferencesChanged": 4,
-    "assetAdditions": 1,
-    "unchangedAssetPrices": 97,
-    "otherAssetRecordsRetained": 97,
-    "unchangedCommercialFactors": true,
-    "softwareMaturityChanged": false,
-    "assets": [
-      {
-        "ref": "TA-IP-013",
-        "slug": "truelane-intelligence-engine",
-        "title": "TrueLane Intelligence Engine",
-        "previousSellerAskEUR": 300000,
-        "sellerAskEUR": 310000,
-        "previousReplacementCostEUR": 1000000,
-        "replacementCostEUR": 1040000,
-        "costAssumptionsDocument": "docs/PORTFOLIO_UPDATE_2026-10-12.md",
-        "pricingScope": "Existing first-party AI research and training-control software plus the implemented v5.8 adaptation, reviewed-input and local checkpoint-control increment. Optional new PyTorch training execution, external CUDA/Drive adapter qualification, larger-model quality, external weights and data, frontier performance and future development are not included as demonstrated capabilities."
-      },
-      {
-        "ref": "TA-IP-065",
-        "slug": "traceline-evidence-governed-investigation-framework",
-        "title": "TraceLine — Evidence-Governed Investigation Framework",
-        "previousSellerAskEUR": 280000,
-        "sellerAskEUR": 295000,
-        "previousReplacementCostEUR": 1125000,
-        "replacementCostEUR": 1195000,
-        "costAssumptionsDocument": "docs/PORTFOLIO_UPDATE_2026-10-12.md",
-        "pricingScope": "Existing first-party investigation decision-support software plus the implemented v0.6 local evidence custody, controlled disclosure and recoverable-operation increment, its documentation and tests. Legal authority, third-party content rights, independent evidence authentication, certified security and future deployment are excluded."
-      },
-      {
-        "ref": "TA-IP-100",
-        "slug": "synthetic-consciousness-engineering-platform",
-        "title": "Synthetic Consciousness Engineering Platform",
-        "previousSellerAskEUR": 45000,
-        "sellerAskEUR": 60000,
-        "previousReplacementCostEUR": 150000,
-        "replacementCostEUR": 200000,
-        "costAssumptionsDocument": "docs/PORTFOLIO_UPDATE_2026-10-12.md",
-        "pricingScope": "Present first-party offline research software, corrected experimental derivative, implemented campaign-audit, multi-seed study and resumable-experiment controls, documentation and retained historical/final/checkpoint material counted once. Missing original historical data and weights, proven consciousness, numerical equivalence, external platform ownership, third-party rights, full-scale future GPU qualification and future research are excluded."
-      },
-      {
-        "ref": "TA-IP-101",
-        "slug": "omniframe-universal-video-intelligence-platform",
-        "title": "OmniFrame Universal Video Intelligence Platform",
-        "previousSellerAskEUR": null,
-        "sellerAskEUR": 30000,
-        "previousReplacementCostEUR": null,
-        "replacementCostEUR": 100000,
-        "costAssumptionsDocument": "docs/PORTFOLIO_UPDATE_2026-10-12.md",
-        "pricingScope": "Present first-party v0.7 prototype source and documentation for browser controls, manual notes, offline project research, reviewed proposals and read-only source-review modules, in their actual documented state. The current mandatory validation failure is included as a known limitation. Browser production qualification, AI transcript or multimodal analysis, video downloading, external media/platform ownership, target-project code and rights, hosted services, automatic repairs and future engineering are excluded."
-      }
-    ],
-    "boundary": "All 101 software repositories are accounted for: the 100 existing default branches and 32 open pull requests were checked, and the new OmniFrame source was reviewed. Fresh local checks passed 103 TraceLine tests and 29 SCEP tests. OmniFrame v0.5 passed 37 tests and a development build; its newer v0.7 mandatory syntax gate fails in new test source, so the current full suite and build were not reached and its transfer classification is NOT_READY. TrueLane mandatory validation passed: 95 tests ran, 80 passed and 15 optional PyTorch tests were skipped; no new CUDA or Drive adapter execution is claimed. Changed source, retained validation and unmerged candidates are kept separate. The SCEP checkpoint manifest and tree inventory were reviewed; binary download, restoration and numerical replay were not performed. Prices change only for three implemented main-branch increments and the new OmniFrame prototype. All 97 other existing prices and all 100 existing maturity and readiness classifications are retained. The new OmniFrame prototype has an explicit current-source validation blocker. Website repositories are excluded digital displays. No independent legal, scientific, security or market certification is implied.",
-    "previousPortfolio": {
-      "assetCount": 100,
-      "stageCounts": {
-        "developedSoftware": 57,
-        "developedPrototype": 40,
-        "researchStage": 3,
-        "definitionStage": 0
-      },
-      "sellerAskEUR": 24923000,
-      "negotiationLowEUR": 19911400,
-      "negotiationHighEUR": 31236250,
-      "replacementCostEUR": 105910000,
-      "marketComparableProxyEUR": 121001975,
-      "incomeLicensingProxyEUR": 142695023,
-      "probabilityAdjustedStrategicValueEUR": 133123429,
-      "triangulatedEconomicReferenceEUR": 125810103,
-      "sellerAskAsShareOfTriangulated": 0.19810014780768442,
-      "sellerAskAsShareOfReplacementCost": 0.23532244358417526,
-      "pricedAssetCount": 100,
-      "unpricedAssetCount": 0,
-      "monetaryScope": "All 100 independently scoped software IP assets. TA-IP-099 and TA-IP-100 have new present-scope prototype estimates. All 98 preceding asset prices retain their dated assessments. Project website repositories are excluded digital displays.",
-      "averageTriangulatedEconomicReferencePerPricedAsset": 1258101.03
-    },
-    "currentPortfolio": {
-      "assetCount": 101,
-      "stageCounts": {
-        "developedSoftware": 57,
-        "developedPrototype": 41,
-        "researchStage": 3,
-        "definitionStage": 0
-      },
-      "sellerAskEUR": 24993000,
-      "negotiationLowEUR": 19967400,
-      "negotiationHighEUR": 31324500,
-      "replacementCostEUR": 106170000,
-      "marketComparableProxyEUR": 121255675,
-      "incomeLicensingProxyEUR": 142957935,
-      "probabilityAdjustedStrategicValueEUR": 133318554,
-      "triangulatedEconomicReferenceEUR": 126046720,
-      "sellerAskAsShareOfTriangulated": 0.1982836205495867,
-      "sellerAskAsShareOfReplacementCost": 0.23540548177451256,
-      "pricedAssetCount": 101,
-      "unpricedAssetCount": 0,
-      "monetaryScope": "101 independent software IP assets. Three implemented main-branch increments and the new OmniFrame prototype have current estimates; the other 97 prices retain their individual assessments. Fourteen website/publication repositories are excluded digital displays.",
-      "averageTriangulatedEconomicReferencePerPricedAsset": 1247987.3267326732
-    }
-  },
-  "previousRegisterAssessedAt": "2026-10-11T07:01:21Z",
-  "previousReadinessReview": {
-    "assessedAt": "2026-10-12T00:19:02Z",
-    "type": "FULL_SOURCE_COMPARISON_AND_TARGETED_CONTENT_REVIEW",
-    "criteriaDisclosedFor": 101,
-    "targetedRepositoryContentReviews": 8,
-    "changedReadinessReferences": [
-      "TA-IP-101"
-    ],
-    "previousSummary": {
-      "audited": 100,
-      "pending": 0,
-      "ready": 0,
-      "readyWithConditions": 92,
-      "notReady": 8
-    },
-    "currentSummary": {
-      "audited": 101,
-      "pending": 0,
-      "ready": 0,
-      "readyWithConditions": 92,
-      "notReady": 9
-    },
-    "boundary": "All 101 software repositories are accounted for: the 100 existing default branches and 32 open pull requests were checked, and the new OmniFrame source was reviewed. Fresh local checks passed 103 TraceLine tests and 29 SCEP tests. OmniFrame v0.5 passed 37 tests and a development build; its newer v0.7 mandatory syntax gate fails in new test source, so the current full suite and build were not reached and its transfer classification is NOT_READY. TrueLane mandatory validation passed: 95 tests ran, 80 passed and 15 optional PyTorch tests were skipped; no new CUDA or Drive adapter execution is claimed. Changed source, retained validation and unmerged candidates are kept separate. The SCEP checkpoint manifest and tree inventory were reviewed; binary download, restoration and numerical replay were not performed. Prices change only for three implemented main-branch increments and the new OmniFrame prototype. All 97 other existing prices and all 100 existing maturity and readiness classifications are retained. The new OmniFrame prototype has an explicit current-source validation blocker. Website repositories are excluded digital displays. No independent legal, scientific, security or market certification is implied."
-  },
-  "previousIdentityUpdate": {
-    "assessedAt": "2026-10-12T00:19:02Z",
-    "type": "ONE_INDEPENDENT_SOFTWARE_ADDITION",
-    "previousAssetCount": 100,
-    "currentAssetCount": 101,
-    "otherAssetRecordsRetained": 100,
-    "additions": [
-      {
-        "ref": "TA-IP-101",
-        "title": "OmniFrame Universal Video Intelligence Platform",
-        "referenceAlias": "Ophelia",
-        "repository": "OmniFrame-Universal-Video-Intelligence-Platform",
-        "sourceHead": "84d20ef4de81fb8a199a84c9e168d83f5c6c21b4",
-        "version": "v0.7.0"
-      }
-    ],
-    "boundary": "OmniFrame is one independently scoped first-party prototype. Its internal research modules are not separately counted, and target-project assets and rights are excluded."
   },
   "latestModuleRelationship": {
     "updatedAt": "2026-10-11T07:14:54Z",
@@ -500,38 +554,58 @@
     "boundary": "Launch & Cislunar Transportation Engineering Platform is the separately scoped launch and cislunar transport module for FusionLunar studies. The documented demand/result interface supports the relationship; this update does not establish a new shared runtime, completed end-to-end integration or flight-qualified transport. Both projects retain their own asset identity, price and transfer scope."
   },
   "latestPortfolioScopeUpdate": {
-    "publishedAt": "2026-10-12T03:40:16Z",
-    "type": "WITHDRAWN_ASSET_REMOVAL",
-    "removedAssetCount": 1,
-    "currentAssetCount": 100,
-    "retainedIndividualPriceRecords": 100,
+    "publishedAt": "2026-10-12T09:21:42Z",
+    "type": "FULL_PORTFOLIO_REVISION",
+    "currentAssetCount": 104,
+    "retainedIndividualPriceRecords": 98,
     "identifiersReassigned": false,
     "currentPortfolio": {
-      "assetCount": 100,
+      "assetCount": 104,
       "stageCounts": {
         "developedSoftware": 56,
-        "developedPrototype": 41,
+        "developedPrototype": 45,
         "researchStage": 3,
         "definitionStage": 0
       },
-      "sellerAskEUR": 24368000,
-      "negotiationLowEUR": 19467400,
-      "negotiationHighEUR": 30539500,
-      "replacementCostEUR": 103920000,
-      "marketComparableProxyEUR": 118409425,
-      "incomeLicensingProxyEUR": 139464810,
-      "probabilityAdjustedStrategicValueEUR": 130446870,
-      "triangulatedEconomicReferenceEUR": 123211256,
-      "sellerAskAsShareOfTriangulated": 0.19777413842774236,
-      "sellerAskAsShareOfReplacementCost": 0.23448806774441877,
-      "pricedAssetCount": 100,
+      "sellerAskEUR": 24480500,
+      "negotiationLowEUR": 19557100,
+      "negotiationHighEUR": 30680125,
+      "replacementCostEUR": 104315000,
+      "marketComparableProxyEUR": 118718571,
+      "incomeLicensingProxyEUR": 139753880,
+      "probabilityAdjustedStrategicValueEUR": 130613552,
+      "triangulatedEconomicReferenceEUR": 123487987,
+      "sellerAskAsShareOfTriangulated": 0.19824195530857588,
+      "sellerAskAsShareOfReplacementCost": 0.2346786176484686,
+      "pricedAssetCount": 104,
       "unpricedAssetCount": 0,
-      "monetaryScope": "100 independently scoped software IP assets with retained individual price, evidence, rights and delivery assessments. The current portfolio totals include only active project records. Website and publication repositories are excluded from the IP-asset count.",
-      "averageTriangulatedEconomicReferencePerPricedAsset": 1232112.56
+      "monetaryScope": "104 independent software IP assets with individual seller asking references and defined existing-scope recreation estimates. Four new prototypes and two implemented increments have updated estimates; the other 98 existing prices are retained. Website repositories are excluded.",
+      "averageTriangulatedEconomicReferencePerPricedAsset": 1187384.4903846155
     },
-    "proposedConnections": 26,
-    "uniqueConnectionMembers": 66,
+    "proposedConnections": 30,
+    "uniqueConnectionMembers": 74,
     "liveDigitalDisplays": 12,
-    "boundary": "This publication removes one withdrawn asset from the current portfolio and recalculates the aggregates from the remaining 100 records. Individual identifiers, prices, model assumptions, source versions, evidence dates and readiness criteria are retained. The 26 proposed connections retain 66 unique project members and their existing financial sums. This scope update does not claim new software tests, source qualification or independent valuation."
+    "boundary": "All 117 repositories and 36 open pull requests were compared with the preceding portfolio. The 104 active software assets are independently scoped; 13 publication repositories are excluded. Nine pinned source trees from seven projects were byte-verified and locally tested. Current-main, unmerged development, historical validation and future specifications remain separate. The current video prototype passes its mandatory 73-test/build gate; the earlier blocker is resolved. Remote perception retains an explicitly blocked commercial transfer gate. CRE and the mission framework retain open rights/delivery conditions. No physical, anomalous-perception, independently certified rights/security, production hosting or future scientific capability is established by local tests."
+  },
+  "latestFullPortfolioReview": {
+    "assessedAt": "2026-10-12T09:21:42Z",
+    "checkedAt": "2026-10-12T09:21:42Z",
+    "previousEvaluationDate": "2026-10-12",
+    "repositoryCount": 117,
+    "defaultBranchesChecked": 104,
+    "existingDefaultBranchesChanged": 2,
+    "openPullRequestsChecked": 36,
+    "projectsReviewed": 104,
+    "unassessedProjects": 0,
+    "updatedAssetProfiles": 7,
+    "reconfirmedExistingProfiles": 97,
+    "newSoftwareAssets": 4,
+    "monetaryChanges": 6,
+    "displayCount": 12,
+    "sourceTreesByteVerified": 9,
+    "uniqueSourceBlobsVerified": 513,
+    "connectionReadmesReviewed": 74,
+    "proposedConnections": 30,
+    "boundary": "All 117 repositories and 36 open pull requests were compared with the preceding portfolio. The 104 active software assets are independently scoped; 13 publication repositories are excluded. Nine pinned source trees from seven projects were byte-verified and locally tested. Current-main, unmerged development, historical validation and future specifications remain separate. The current video prototype passes its mandatory 73-test/build gate; the earlier blocker is resolved. Remote perception retains an explicitly blocked commercial transfer gate. CRE and the mission framework retain open rights/delivery conditions. No physical, anomalous-perception, independently certified rights/security, production hosting or future scientific capability is established by local tests."
   }
 }

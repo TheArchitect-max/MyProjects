@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.12-im67-portfolio-scope-update",
+  "version": "2026.10.12-im68-full-portfolio-revision",
   "status": "evidence-bounded-maturity-sensitivity-register",
   "basisDate": "2026-10-12",
   "purpose": "Asset-by-asset conditional economic references for objectively testable maturity transitions. These are not forecasts, seller asks, market values, investment returns or guarantees.",
@@ -32,11 +32,11 @@
     "boundary": "No TAM-derived value, speculative revenue, arbitrary probability, automatic multiple, future seller ask or unverified commercialization outcome is used."
   },
   "summary": {
-    "projectCount": 100,
-    "numericConditionalReferences": 44,
+    "projectCount": 104,
+    "numericConditionalReferences": 48,
     "notEstablished": 56,
     "transitions": {
-      "PtoV": 41,
+      "PtoV": 45,
       "RtoP": 3
     }
   },
@@ -53,7 +53,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "adaptive-audio-midi-transcription-studio",
@@ -76,7 +76,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "adaptive-audio-production-system",
@@ -99,7 +99,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "adaptive-audio-synthesis-platform",
@@ -113,7 +113,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "adaptive-biofeedback-engine",
@@ -127,7 +127,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "adaptive-cognitive-runtime",
@@ -141,7 +141,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "adaptive-general-reasoning-research-platform",
@@ -164,7 +164,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "adaptive-neural-architecture-platform",
@@ -187,7 +187,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "plantelogia-intelligence-platform",
@@ -210,7 +210,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "advanced-ground-vehicle-engineering",
@@ -233,7 +233,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "aerospace-mission-simulator",
@@ -247,7 +247,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "aletheia-intelligence-fabric",
@@ -270,7 +270,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "autonomous-adaptation-framework",
@@ -284,7 +284,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "autonomous-documentary-engine",
@@ -298,7 +298,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "axiomfactor",
@@ -312,7 +312,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "bio-inspired-neural-dynamics-active-inference-simulation-platform",
@@ -326,7 +326,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "biometric-systems-assurance-platform",
@@ -340,7 +340,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "cardiosignal-intelligence-platform",
@@ -363,7 +363,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "causal-state-field-engine",
@@ -377,7 +377,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "chimera-spectral-perception-system",
@@ -400,7 +400,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "cipher-lyric-engine",
@@ -414,7 +414,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "cipherroutedb",
@@ -437,7 +437,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "content-integrity-assurance-platform",
@@ -451,7 +451,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "continuum-state-integrity-platform",
@@ -465,7 +465,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "custody-integrity-assurance-platform",
@@ -488,7 +488,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "dmt-laser-phenomenology-engine",
@@ -502,7 +502,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "distributed-ai-resource-fabric",
@@ -516,7 +516,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z",
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z",
       "currentTriangulatedEconomicReferenceEUR": 2730463
     },
     {
@@ -540,7 +540,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "dominus-kraken-execution-engine",
@@ -554,7 +554,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "electric-flight-systems-simulation-validation-platform",
@@ -577,7 +577,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "truelane-engineering-excellence",
@@ -600,7 +600,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "evidence-governed-analytical-reasoning-platform",
@@ -614,7 +614,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "evidence-governed-software-assurance-platform",
@@ -628,7 +628,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "evidence-governed-visual-intelligence-platform",
@@ -642,7 +642,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "evidence-grounded-multi-expert-reasoning-system",
@@ -656,7 +656,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "faunometric",
@@ -670,7 +670,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "fusionlunar-energy-systems-engineering-platform",
@@ -693,7 +693,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "goldennet-signal-intelligence-platform",
@@ -707,7 +707,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "h-rm-lyra-automotive-lyra-rs-3-6t",
@@ -730,7 +730,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "air-to-water-transition-vehicle",
@@ -753,7 +753,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "hybrid-adaptive-rendering-media",
@@ -776,7 +776,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "isbr-securetrace",
@@ -790,7 +790,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "industrial-predictive-maintenance-rul-platform",
@@ -804,7 +804,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "integrated-media-production-engine",
@@ -818,7 +818,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "interactive-piano-learning-platform",
@@ -832,7 +832,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "kinetic-logic-reconstructor",
@@ -855,7 +855,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "lyra-aero-evtol",
@@ -878,7 +878,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "latticedepth",
@@ -892,7 +892,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "legalops-nl",
@@ -915,7 +915,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "mothercode-research-engine",
@@ -938,7 +938,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "mt2050-experimental-dynamics",
@@ -952,7 +952,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "maastricht-digital-twin",
@@ -975,7 +975,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "maastricht-zero-hour-simulator",
@@ -998,7 +998,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "machine-cognition-research-framework",
@@ -1021,7 +1021,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "mercorion-commerce-compiler",
@@ -1035,7 +1035,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "modular-key-cryptanalysis-platform",
@@ -1049,7 +1049,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "multimodal-evidence-adaptive-systems-platform",
@@ -1072,7 +1072,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "oraculum-infinitum",
@@ -1086,7 +1086,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "ossn-uap",
@@ -1105,11 +1105,12 @@
       "potentialHeldConstant": "M",
       "sectorHeldConstant": "Research & Scientific Software",
       "routeHeldConstant": "Research / R&D licensing",
-      "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
-      "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
+      "targetMilestone": "Qualify the defined existing software, source-specific evidence, rights and recipient handover; separately resolve the listed project conditions. Scientific, physical or production claims require their own evidence.",
+      "acceptanceRule": "Re-evaluate only on an evidenced software-maturity milestone. This constant-cost sensitivity is not a future asking price, income forecast or acceptance of unimplemented research goals.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z",
+      "economicAssessmentAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "organismal-state-dynamics-research-platform",
@@ -1132,7 +1133,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "organizational-memory-engine",
@@ -1146,7 +1147,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "programmatic-search-fabric",
@@ -1160,7 +1161,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "protein-structure-evidence-qualification-platform",
@@ -1183,7 +1184,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "qubo-structural-analysis-and-optimization-platform",
@@ -1206,7 +1207,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "radioastronomy-signal-validation-platform",
@@ -1220,7 +1221,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "research-intelligence-fabric",
@@ -1234,7 +1235,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "resource-aware-hybrid-model-orchestration-platform",
@@ -1257,7 +1258,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "swpp-viorith-mobile-camera-overlay",
@@ -1271,7 +1272,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "secure-actuation-integrity-platform",
@@ -1285,7 +1286,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "sensor-fusion-digital-twin-engine",
@@ -1299,7 +1300,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "signal-processing-universal-framework",
@@ -1313,7 +1314,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "software-asset-provenance-qualification-platform",
@@ -1327,7 +1328,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "sonicfabric",
@@ -1341,7 +1342,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "omnisynth-intelligence-engine",
@@ -1364,7 +1365,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "spatial-wearable-perception-platform",
@@ -1378,7 +1379,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "stabilitymesh",
@@ -1392,7 +1393,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "tls-virtual",
@@ -1406,7 +1407,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "telluric-actualization-research-platform",
@@ -1429,7 +1430,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "temporal-physics-causality-research-platform",
@@ -1452,7 +1453,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "traceline-evidence-governed-investigation-framework",
@@ -1466,7 +1467,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z",
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z",
       "currentReplacementCostEUR": 1195000,
       "currentTriangulatedEconomicReferenceEUR": 1451808
     },
@@ -1482,7 +1483,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "truelane-inkcore",
@@ -1496,7 +1497,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "truelane-intelligence-engine",
@@ -1510,7 +1511,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z",
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z",
       "currentTriangulatedEconomicReferenceEUR": 1296575,
       "currentReplacementCostEUR": 1040000
     },
@@ -1526,7 +1527,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "universal-capability-synthesis-engine",
@@ -1549,7 +1550,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "universal-kernel-machine",
@@ -1572,7 +1573,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "vellumgrid-autonomous-commerce-platform",
@@ -1586,7 +1587,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "verifiable-execution-control-platform",
@@ -1600,7 +1601,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "veritas-evidence-intelligence",
@@ -1614,7 +1615,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "vision-evidence-governed-multimodal-perception-framework",
@@ -1628,7 +1629,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "visionair-research-engine",
@@ -1642,7 +1643,7 @@
       "milestoneConditionedEconomicReferenceEUR": null,
       "futureReferenceStatus": "NOT_ESTABLISHED",
       "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "aurynthiq-autonomous-dj-intelligence-platform",
@@ -1653,19 +1654,20 @@
       "status": "CONDITIONAL",
       "currentStage": "P",
       "targetStage": "V",
-      "currentTriangulatedEconomicReferenceEUR": 236245,
-      "milestoneConditionedEconomicReferenceEUR": 292399,
-      "sensitivityDeltaEUR": 56154,
-      "currentReplacementCostEUR": 250000,
+      "currentTriangulatedEconomicReferenceEUR": 274044,
+      "milestoneConditionedEconomicReferenceEUR": 339183,
+      "sensitivityDeltaEUR": 65139,
+      "currentReplacementCostEUR": 290000,
       "replacementCostHeldConstant": true,
       "potentialHeldConstant": "H",
       "sectorHeldConstant": "Media & Creator Technology",
       "routeHeldConstant": "Media / creator software",
-      "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
-      "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
+      "targetMilestone": "Qualify the defined existing software, source-specific evidence, rights and recipient handover; separately resolve the listed project conditions. Scientific, physical or production claims require their own evidence.",
+      "acceptanceRule": "Re-evaluate only on an evidenced software-maturity milestone. This constant-cost sensitivity is not a future asking price, income forecast or acceptance of unimplemented research goals.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z",
+      "economicAssessmentAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "universal-vehicle-configuration-database",
@@ -1688,7 +1690,7 @@
       "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
       "futureReferenceStatus": "CONDITIONAL",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "causoryn",
@@ -1705,7 +1707,7 @@
       "currentTriangulatedEconomicReferenceEUR": 106368,
       "currentReplacementCostEUR": 160000,
       "economicAssessmentAt": "2026-10-11T00:24:59Z",
-      "sourceRecheckedAt": "2026-10-11T00:24:59Z",
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z",
       "milestoneConditionedEconomicReferenceEUR": 126295,
       "sensitivityDeltaEUR": 19927,
       "replacementCostHeldConstant": true,
@@ -1733,7 +1735,7 @@
       "currentTriangulatedEconomicReferenceEUR": 946477,
       "currentReplacementCostEUR": 800000,
       "economicAssessmentAt": "2026-10-09T06:22:41Z",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "plantelogia-intelligence-platform-lineage",
@@ -1759,7 +1761,7 @@
       "targetMilestone": "Evidence a repeatable operational release, deployment-specific security and agreed delivery acceptance for the intended use.",
       "acceptanceRule": "Use this figure only as a maturity sensitivity. It is not the current asking price or a promise of future value.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-      "sourceRecheckedAt": "2026-10-10T08:52:15Z"
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z"
     },
     {
       "slug": "software-asset-engineering-platform",
@@ -1776,7 +1778,7 @@
       "currentTriangulatedEconomicReferenceEUR": 179896,
       "currentReplacementCostEUR": 250000,
       "economicAssessmentAt": "2026-10-11T00:24:59Z",
-      "sourceRecheckedAt": "2026-10-11T00:24:59Z",
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z",
       "milestoneConditionedEconomicReferenceEUR": 215435,
       "sensitivityDeltaEUR": 35539,
       "replacementCostHeldConstant": true,
@@ -1802,7 +1804,7 @@
       "currentTriangulatedEconomicReferenceEUR": 31097,
       "currentReplacementCostEUR": 50000,
       "economicAssessmentAt": "2026-10-11T07:01:21Z",
-      "sourceRecheckedAt": "2026-10-11T07:01:21Z",
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z",
       "milestoneConditionedEconomicReferenceEUR": 36707,
       "sensitivityDeltaEUR": 5610,
       "replacementCostHeldConstant": true,
@@ -1828,7 +1830,7 @@
       "currentTriangulatedEconomicReferenceEUR": 135817,
       "currentReplacementCostEUR": 200000,
       "economicAssessmentAt": "2026-10-11T07:01:21Z",
-      "sourceRecheckedAt": "2026-10-11T07:01:21Z",
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z",
       "milestoneConditionedEconomicReferenceEUR": 161548,
       "sensitivityDeltaEUR": 25731,
       "replacementCostHeldConstant": true,
@@ -1840,34 +1842,130 @@
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
     },
     {
-      "slug": "omniframe-universal-video-intelligence-platform",
+      "slug": "universal-video-intelligence-platform",
       "ref": "TA-IP-101",
       "independentIpAsset": true,
       "scopeUpdatedAt": "2026-10-12T00:19:02Z",
       "identityName": "Ophelia",
-      "name": "OmniFrame Universal Video Intelligence Platform",
+      "name": "Universal Video Intelligence Platform",
       "assessmentDate": "2026-10-12",
       "status": "CONDITIONAL",
       "currentStage": "P",
       "targetStage": "V",
       "futureReferenceStatus": "CONDITIONAL",
-      "currentTriangulatedEconomicReferenceEUR": 67751,
-      "currentReplacementCostEUR": 100000,
-      "economicAssessmentAt": "2026-10-12T00:19:02Z",
-      "sourceRecheckedAt": "2026-10-12T00:19:02Z",
-      "milestoneConditionedEconomicReferenceEUR": 80695,
-      "sensitivityDeltaEUR": 12944,
+      "currentTriangulatedEconomicReferenceEUR": 81301,
+      "currentReplacementCostEUR": 120000,
+      "economicAssessmentAt": "2026-10-12T09:21:42Z",
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z",
+      "milestoneConditionedEconomicReferenceEUR": 96834,
+      "sensitivityDeltaEUR": 15533,
       "replacementCostHeldConstant": true,
       "potentialHeldConstant": "M",
       "sectorHeldConstant": "Media & Creator Technology",
       "routeHeldConstant": "Media / creator software",
-      "targetMilestone": "Correct and qualify the exact current syntax/test/build gate, then complete browser, rights/component and recipient acceptance of the defined prototype.",
-      "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced. This constant-cost sensitivity is not a future asking price, forecast or acceptance of unimplemented AI capabilities.",
+      "targetMilestone": "Qualify the defined existing software, source-specific evidence, rights and recipient handover; separately resolve the listed project conditions. Scientific, physical or production claims require their own evidence.",
+      "acceptanceRule": "Re-evaluate only on an evidenced software-maturity milestone. This constant-cost sensitivity is not a future asking price, income forecast or acceptance of unimplemented research goals.",
       "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+    },
+    {
+      "ref": "TA-IP-102",
+      "slug": "universal-remote-perception-intelligence-platform",
+      "name": "Universal Remote Perception Intelligence Platform",
+      "identityName": "Pallas",
+      "assessmentDate": "2026-10-12",
+      "status": "CONDITIONAL",
+      "futureReferenceStatus": "CONDITIONAL",
+      "currentStage": "P",
+      "targetStage": "V",
+      "replacementCostHeldConstant": true,
+      "potentialHeldConstant": "M",
+      "sectorHeldConstant": "Research & Scientific Software",
+      "routeHeldConstant": "Research / R&D licensing",
+      "modelBasis": "Retained model; maturity alone changes.",
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z",
+      "currentTriangulatedEconomicReferenceEUR": 66841,
+      "currentReplacementCostEUR": 110000,
+      "milestoneConditionedEconomicReferenceEUR": 78733,
+      "sensitivityDeltaEUR": 11892,
+      "targetMilestone": "Qualify the defined existing software, source-specific evidence, rights and recipient handover; separately resolve the listed project conditions. Scientific, physical or production claims require their own evidence.",
+      "acceptanceRule": "Re-evaluate only on an evidenced software-maturity milestone. This constant-cost sensitivity is not a future asking price, income forecast or acceptance of unimplemented research goals.",
+      "economicAssessmentAt": "2026-10-12T09:21:42Z"
+    },
+    {
+      "ref": "TA-IP-103",
+      "slug": "universal-operations-orchestration-intelligence-platform",
+      "name": "Universal Operations Orchestration & Intelligence Platform",
+      "identityName": "Diana",
+      "assessmentDate": "2026-10-12",
+      "status": "CONDITIONAL",
+      "futureReferenceStatus": "CONDITIONAL",
+      "currentStage": "P",
+      "targetStage": "V",
+      "replacementCostHeldConstant": true,
+      "potentialHeldConstant": "M",
+      "sectorHeldConstant": "Enterprise Software & Operations",
+      "routeHeldConstant": "Enterprise software / licensing",
+      "modelBasis": "Retained model; maturity alone changes.",
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z",
+      "currentTriangulatedEconomicReferenceEUR": 64763,
+      "currentReplacementCostEUR": 90000,
+      "milestoneConditionedEconomicReferenceEUR": 77557,
+      "sensitivityDeltaEUR": 12794,
+      "targetMilestone": "Qualify the defined existing software, source-specific evidence, rights and recipient handover; separately resolve the listed project conditions. Scientific, physical or production claims require their own evidence.",
+      "acceptanceRule": "Re-evaluate only on an evidenced software-maturity milestone. This constant-cost sensitivity is not a future asking price, income forecast or acceptance of unimplemented research goals.",
+      "economicAssessmentAt": "2026-10-12T09:21:42Z"
+    },
+    {
+      "ref": "TA-IP-104",
+      "slug": "collective-reality-engine",
+      "name": "Collective Reality Engine",
+      "identityName": "Calliope",
+      "assessmentDate": "2026-10-12",
+      "status": "CONDITIONAL",
+      "futureReferenceStatus": "CONDITIONAL",
+      "currentStage": "P",
+      "targetStage": "V",
+      "replacementCostHeldConstant": true,
+      "potentialHeldConstant": "M",
+      "sectorHeldConstant": "Media & Creator Technology",
+      "routeHeldConstant": "Media / creator software",
+      "modelBasis": "Retained model; maturity alone changes.",
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z",
+      "currentTriangulatedEconomicReferenceEUR": 54201,
+      "currentReplacementCostEUR": 80000,
+      "milestoneConditionedEconomicReferenceEUR": 64556,
+      "sensitivityDeltaEUR": 10355,
+      "targetMilestone": "Qualify the defined existing software, source-specific evidence, rights and recipient handover; separately resolve the listed project conditions. Scientific, physical or production claims require their own evidence.",
+      "acceptanceRule": "Re-evaluate only on an evidenced software-maturity milestone. This constant-cost sensitivity is not a future asking price, income forecast or acceptance of unimplemented research goals.",
+      "economicAssessmentAt": "2026-10-12T09:21:42Z"
+    },
+    {
+      "ref": "TA-IP-105",
+      "slug": "mission-to-execution-engineering-framework",
+      "name": "Mission-to-Execution Engineering Framework",
+      "identityName": "Hestia",
+      "assessmentDate": "2026-10-12",
+      "status": "CONDITIONAL",
+      "futureReferenceStatus": "CONDITIONAL",
+      "currentStage": "P",
+      "targetStage": "V",
+      "replacementCostHeldConstant": true,
+      "potentialHeldConstant": "M",
+      "sectorHeldConstant": "Enterprise Software & Operations",
+      "routeHeldConstant": "Enterprise software / licensing",
+      "modelBasis": "Retained model; maturity alone changes.",
+      "sourceRecheckedAt": "2026-10-12T09:21:42Z",
+      "currentTriangulatedEconomicReferenceEUR": 39577,
+      "currentReplacementCostEUR": 55000,
+      "milestoneConditionedEconomicReferenceEUR": 47396,
+      "sensitivityDeltaEUR": 7819,
+      "targetMilestone": "Qualify the defined existing software, source-specific evidence, rights and recipient handover; separately resolve the listed project conditions. Scientific, physical or production claims require their own evidence.",
+      "acceptanceRule": "Re-evaluate only on an evidenced software-maturity milestone. This constant-cost sensitivity is not a future asking price, income forecast or acceptance of unimplemented research goals.",
+      "economicAssessmentAt": "2026-10-12T09:21:42Z"
     }
   ],
   "assessedAt": "2026-10-12T00:19:02Z",
-  "catalogueUpdatedAt": "2026-10-12T03:40:16Z",
+  "catalogueUpdatedAt": "2026-10-12T09:21:42Z",
   "previousTargetedAssetReview": {
     "slug": "distributed-ai-resource-fabric",
     "ref": "TA-IP-022",
@@ -1891,6 +1989,53 @@
     "boundary": "DARF only: current source, retained exact-commit validation, rights, delivery conditions and seller-side economics. The other 96 asset assessments and monetary inputs retain their earlier dates and conclusions; portfolio totals are recomputed."
   },
   "latestIdentityUpdate": {
+    "assessedAt": "2026-10-12T09:21:42Z",
+    "type": "FOUR_SOFTWARE_ADDITIONS_AND_ONE_CONFIRMED_REPOSITORY_RENAME",
+    "previousAssetCount": 100,
+    "currentAssetCount": 104,
+    "otherAssetRecordsRetained": 100,
+    "identifiersReassigned": false,
+    "additions": [
+      {
+        "ref": "TA-IP-102",
+        "title": "Universal Remote Perception Intelligence Platform",
+        "referenceAlias": "Pallas",
+        "repository": "Universal-Remote-Perception-Intelligence-Platform",
+        "sourceHead": "4431fda60af9bd21b90a80df0c4ff21c28769215"
+      },
+      {
+        "ref": "TA-IP-103",
+        "title": "Universal Operations Orchestration & Intelligence Platform",
+        "referenceAlias": "Diana",
+        "repository": "Universal-Operations-Orchestration-Intelligence-Platform",
+        "sourceHead": "2804045108ced5760f1d8db0452d64c54988237e"
+      },
+      {
+        "ref": "TA-IP-104",
+        "title": "Collective Reality Engine",
+        "referenceAlias": "Calliope",
+        "repository": "Collective-Reality-Engine-CRE---Universal-Shared-World-Intelligence-Platform",
+        "sourceHead": "1b6abb67b404a5169875ed260324b1f4642c8e0e"
+      },
+      {
+        "ref": "TA-IP-105",
+        "title": "Mission-to-Execution Engineering Framework",
+        "referenceAlias": "Hestia",
+        "repository": "Mission-to-Execution-Engineering-Framework",
+        "sourceHead": "ee27964574e2a9d0d5d86eb28500337a5800f0ac"
+      }
+    ],
+    "repositoryRename": {
+      "ref": "TA-IP-101",
+      "repository": "Universal-Video-Intelligence-Platform",
+      "sameRepositoryId": true,
+      "newAsset": false
+    },
+    "boundary": "Each new software project is counted once. The confirmed repository rename retains its existing project identifier and reference alias. Withdrawn identifiers are not reused."
+  },
+  "previousBasisDate": "2026-10-10",
+  "previousRegisterAssessedAt": "2026-10-11T07:01:21Z",
+  "previousIdentityUpdate": {
     "assessedAt": "2026-10-12T03:40:16Z",
     "type": "WITHDRAWN_ASSET_REMOVAL",
     "previousAssetCount": 101,
@@ -1900,59 +2045,38 @@
     "identifiersReassigned": false,
     "boundary": "Remaining project identifiers and identities are preserved; withdrawn identifiers are not reused."
   },
-  "previousBasisDate": "2026-10-10",
-  "previousRegisterAssessedAt": "2026-10-11T07:01:21Z",
-  "previousIdentityUpdate": {
-    "assessedAt": "2026-10-12T00:19:02Z",
-    "type": "ONE_INDEPENDENT_SOFTWARE_ADDITION",
-    "previousAssetCount": 100,
-    "currentAssetCount": 101,
-    "otherAssetRecordsRetained": 100,
-    "additions": [
-      {
-        "ref": "TA-IP-101",
-        "title": "OmniFrame Universal Video Intelligence Platform",
-        "referenceAlias": "Ophelia",
-        "repository": "OmniFrame-Universal-Video-Intelligence-Platform",
-        "sourceHead": "24201fc76ac5125585a620e3786c256f668ff9df",
-        "version": "v0.5.0"
-      }
-    ],
-    "boundary": "OmniFrame is one independently scoped first-party prototype. Its internal research modules are not separately counted, and target-project assets and rights are excluded."
-  },
   "latestPortfolioScopeUpdate": {
-    "publishedAt": "2026-10-12T03:40:16Z",
-    "type": "WITHDRAWN_ASSET_REMOVAL",
-    "removedAssetCount": 1,
-    "currentAssetCount": 100,
-    "retainedIndividualPriceRecords": 100,
+    "publishedAt": "2026-10-12T09:21:42Z",
+    "type": "FULL_PORTFOLIO_REVISION",
+    "currentAssetCount": 104,
+    "retainedIndividualPriceRecords": 98,
     "identifiersReassigned": false,
     "currentPortfolio": {
-      "assetCount": 100,
+      "assetCount": 104,
       "stageCounts": {
         "developedSoftware": 56,
-        "developedPrototype": 41,
+        "developedPrototype": 45,
         "researchStage": 3,
         "definitionStage": 0
       },
-      "sellerAskEUR": 24368000,
-      "negotiationLowEUR": 19467400,
-      "negotiationHighEUR": 30539500,
-      "replacementCostEUR": 103920000,
-      "marketComparableProxyEUR": 118409425,
-      "incomeLicensingProxyEUR": 139464810,
-      "probabilityAdjustedStrategicValueEUR": 130446870,
-      "triangulatedEconomicReferenceEUR": 123211256,
-      "sellerAskAsShareOfTriangulated": 0.19777413842774236,
-      "sellerAskAsShareOfReplacementCost": 0.23448806774441877,
-      "pricedAssetCount": 100,
+      "sellerAskEUR": 24480500,
+      "negotiationLowEUR": 19557100,
+      "negotiationHighEUR": 30680125,
+      "replacementCostEUR": 104315000,
+      "marketComparableProxyEUR": 118718571,
+      "incomeLicensingProxyEUR": 139753880,
+      "probabilityAdjustedStrategicValueEUR": 130613552,
+      "triangulatedEconomicReferenceEUR": 123487987,
+      "sellerAskAsShareOfTriangulated": 0.19824195530857588,
+      "sellerAskAsShareOfReplacementCost": 0.2346786176484686,
+      "pricedAssetCount": 104,
       "unpricedAssetCount": 0,
-      "monetaryScope": "100 independently scoped software IP assets with retained individual price, evidence, rights and delivery assessments. The current portfolio totals include only active project records. Website and publication repositories are excluded from the IP-asset count.",
-      "averageTriangulatedEconomicReferencePerPricedAsset": 1232112.56
+      "monetaryScope": "104 independent software IP assets with individual seller asking references and defined existing-scope recreation estimates. Four new prototypes and two implemented increments have updated estimates; the other 98 existing prices are retained. Website repositories are excluded.",
+      "averageTriangulatedEconomicReferencePerPricedAsset": 1187384.4903846155
     },
-    "proposedConnections": 26,
-    "uniqueConnectionMembers": 66,
+    "proposedConnections": 30,
+    "uniqueConnectionMembers": 74,
     "liveDigitalDisplays": 12,
-    "boundary": "This publication removes one withdrawn asset from the current portfolio and recalculates the aggregates from the remaining 100 records. Individual identifiers, prices, model assumptions, source versions, evidence dates and readiness criteria are retained. The 26 proposed connections retain 66 unique project members and their existing financial sums. This scope update does not claim new software tests, source qualification or independent valuation."
+    "boundary": "All 117 repositories and 36 open pull requests were compared with the preceding portfolio. The 104 active software assets are independently scoped; 13 publication repositories are excluded. Nine pinned source trees from seven projects were byte-verified and locally tested. Current-main, unmerged development, historical validation and future specifications remain separate. The current video prototype passes its mandatory 73-test/build gate; the earlier blocker is resolved. Remote perception retains an explicitly blocked commercial transfer gate. CRE and the mission framework retain open rights/delivery conditions. No physical, anomalous-perception, independently certified rights/security, production hosting or future scientific capability is established by local tests."
   }
 }

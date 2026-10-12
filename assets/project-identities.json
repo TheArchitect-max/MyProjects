@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.12-im67-portfolio-scope-update",
+  "version": "2026.10.12-im68-full-portfolio-revision",
   "policy": "Each independent IP asset has one project title and one feminine reference alias. Each project has its own asset identity and rights perimeter. Websites are digital displays only.",
   "projects": [
     {
@@ -908,20 +908,68 @@
       "referenceAliasAssignment": "PORTFOLIO_REFERENCE_ONLY"
     },
     {
-      "slug": "omniframe-universal-video-intelligence-platform",
+      "slug": "universal-video-intelligence-platform",
       "ref": "TA-IP-101",
       "independentIpAsset": true,
       "scopeUpdatedAt": "2026-10-12T00:19:02Z",
-      "repository": "OmniFrame-Universal-Video-Intelligence-Platform",
+      "repository": "Universal-Video-Intelligence-Platform",
       "identityName": "Ophelia",
       "id": 101,
-      "title": "OmniFrame Universal Video Intelligence Platform",
+      "title": "Universal Video Intelligence Platform",
       "existingCanonical": true,
+      "referenceAliasAssignment": "PORTFOLIO_REFERENCE_ONLY"
+    },
+    {
+      "repository": "Universal-Remote-Perception-Intelligence-Platform",
+      "slug": "universal-remote-perception-intelligence-platform",
+      "identityName": "Pallas",
+      "existingCanonical": true,
+      "ref": "TA-IP-102",
+      "id": 102,
+      "title": "Universal Remote Perception Intelligence Platform",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-12T09:21:42Z",
+      "referenceAliasAssignment": "PORTFOLIO_REFERENCE_ONLY"
+    },
+    {
+      "repository": "Universal-Operations-Orchestration-Intelligence-Platform",
+      "slug": "universal-operations-orchestration-intelligence-platform",
+      "identityName": "Diana",
+      "existingCanonical": true,
+      "ref": "TA-IP-103",
+      "id": 103,
+      "title": "Universal Operations Orchestration & Intelligence Platform",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-12T09:21:42Z",
+      "referenceAliasAssignment": "PORTFOLIO_REFERENCE_ONLY"
+    },
+    {
+      "repository": "Collective-Reality-Engine-CRE---Universal-Shared-World-Intelligence-Platform",
+      "slug": "collective-reality-engine",
+      "identityName": "Calliope",
+      "existingCanonical": true,
+      "ref": "TA-IP-104",
+      "id": 104,
+      "title": "Collective Reality Engine",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-12T09:21:42Z",
+      "referenceAliasAssignment": "PORTFOLIO_REFERENCE_ONLY"
+    },
+    {
+      "repository": "Mission-to-Execution-Engineering-Framework",
+      "slug": "mission-to-execution-engineering-framework",
+      "identityName": "Hestia",
+      "existingCanonical": true,
+      "ref": "TA-IP-105",
+      "id": 105,
+      "title": "Mission-to-Execution Engineering Framework",
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-12T09:21:42Z",
       "referenceAliasAssignment": "PORTFOLIO_REFERENCE_ONLY"
     }
   ],
   "scope": {
-    "ipAssetCount": 100,
+    "ipAssetCount": 104,
     "excludedRepositories": [
       "Adaptive-Audio-Synthesis-Platform-Website",
       "BIND-AI-Computational-Neuroscience-IP-WEBSITE",
@@ -937,12 +985,57 @@
       "TheArchitect-max-EGMERS-Website",
       "VEGMPF-Website"
     ],
-    "pricedAssetCount": 100,
+    "pricedAssetCount": 104,
     "unpricedAssetCount": 0
   },
-  "catalogueUpdatedAt": "2026-10-12T03:40:16Z",
-  "identifierPolicy": "Each active project retains its previously assigned TA-IP identifier. Identifiers may contain gaps; withdrawn identifiers are not reassigned. The same identifier, title, single reference alias and slug govern every current register, profile and digital-display link. Historical publications remain available in Git history. A replacement within an existing identity is not an additional asset.",
+  "catalogueUpdatedAt": "2026-10-12T09:21:42Z",
+  "identifierPolicy": "Each active project retains its assigned TA-IP identifier; gaps are permitted and withdrawn identifiers are not reused. One title and one reference alias govern all current records and profiles. A confirmed repository rename is not a new asset.",
   "latestIdentityUpdate": {
+    "assessedAt": "2026-10-12T09:21:42Z",
+    "type": "FOUR_SOFTWARE_ADDITIONS_AND_ONE_CONFIRMED_REPOSITORY_RENAME",
+    "previousAssetCount": 100,
+    "currentAssetCount": 104,
+    "otherAssetRecordsRetained": 100,
+    "identifiersReassigned": false,
+    "additions": [
+      {
+        "ref": "TA-IP-102",
+        "title": "Universal Remote Perception Intelligence Platform",
+        "referenceAlias": "Pallas",
+        "repository": "Universal-Remote-Perception-Intelligence-Platform",
+        "sourceHead": "4431fda60af9bd21b90a80df0c4ff21c28769215"
+      },
+      {
+        "ref": "TA-IP-103",
+        "title": "Universal Operations Orchestration & Intelligence Platform",
+        "referenceAlias": "Diana",
+        "repository": "Universal-Operations-Orchestration-Intelligence-Platform",
+        "sourceHead": "2804045108ced5760f1d8db0452d64c54988237e"
+      },
+      {
+        "ref": "TA-IP-104",
+        "title": "Collective Reality Engine",
+        "referenceAlias": "Calliope",
+        "repository": "Collective-Reality-Engine-CRE---Universal-Shared-World-Intelligence-Platform",
+        "sourceHead": "1b6abb67b404a5169875ed260324b1f4642c8e0e"
+      },
+      {
+        "ref": "TA-IP-105",
+        "title": "Mission-to-Execution Engineering Framework",
+        "referenceAlias": "Hestia",
+        "repository": "Mission-to-Execution-Engineering-Framework",
+        "sourceHead": "ee27964574e2a9d0d5d86eb28500337a5800f0ac"
+      }
+    ],
+    "repositoryRename": {
+      "ref": "TA-IP-101",
+      "repository": "Universal-Video-Intelligence-Platform",
+      "sameRepositoryId": true,
+      "newAsset": false
+    },
+    "boundary": "Each new software project is counted once. The confirmed repository rename retains its existing project identifier and reference alias. Withdrawn identifiers are not reused."
+  },
+  "previousIdentityUpdate": {
     "assessedAt": "2026-10-12T03:40:16Z",
     "type": "WITHDRAWN_ASSET_REMOVAL",
     "previousAssetCount": 101,
@@ -952,57 +1045,38 @@
     "identifiersReassigned": false,
     "boundary": "Remaining project identifiers and identities are preserved; withdrawn identifiers are not reused."
   },
-  "previousIdentityUpdate": {
-    "assessedAt": "2026-10-12T00:19:02Z",
-    "type": "ONE_INDEPENDENT_SOFTWARE_ADDITION",
-    "previousAssetCount": 100,
-    "currentAssetCount": 101,
-    "otherAssetRecordsRetained": 100,
-    "additions": [
-      {
-        "ref": "TA-IP-101",
-        "title": "OmniFrame Universal Video Intelligence Platform",
-        "referenceAlias": "Ophelia",
-        "repository": "OmniFrame-Universal-Video-Intelligence-Platform",
-        "sourceHead": "24201fc76ac5125585a620e3786c256f668ff9df",
-        "version": "v0.5.0"
-      }
-    ],
-    "boundary": "OmniFrame is one independently scoped first-party prototype. Its internal research modules are not separately counted, and target-project assets and rights are excluded."
-  },
   "latestPortfolioScopeUpdate": {
-    "publishedAt": "2026-10-12T03:40:16Z",
-    "type": "WITHDRAWN_ASSET_REMOVAL",
-    "removedAssetCount": 1,
-    "currentAssetCount": 100,
-    "retainedIndividualPriceRecords": 100,
+    "publishedAt": "2026-10-12T09:21:42Z",
+    "type": "FULL_PORTFOLIO_REVISION",
+    "currentAssetCount": 104,
+    "retainedIndividualPriceRecords": 98,
     "identifiersReassigned": false,
     "currentPortfolio": {
-      "assetCount": 100,
+      "assetCount": 104,
       "stageCounts": {
         "developedSoftware": 56,
-        "developedPrototype": 41,
+        "developedPrototype": 45,
         "researchStage": 3,
         "definitionStage": 0
       },
-      "sellerAskEUR": 24368000,
-      "negotiationLowEUR": 19467400,
-      "negotiationHighEUR": 30539500,
-      "replacementCostEUR": 103920000,
-      "marketComparableProxyEUR": 118409425,
-      "incomeLicensingProxyEUR": 139464810,
-      "probabilityAdjustedStrategicValueEUR": 130446870,
-      "triangulatedEconomicReferenceEUR": 123211256,
-      "sellerAskAsShareOfTriangulated": 0.19777413842774236,
-      "sellerAskAsShareOfReplacementCost": 0.23448806774441877,
-      "pricedAssetCount": 100,
+      "sellerAskEUR": 24480500,
+      "negotiationLowEUR": 19557100,
+      "negotiationHighEUR": 30680125,
+      "replacementCostEUR": 104315000,
+      "marketComparableProxyEUR": 118718571,
+      "incomeLicensingProxyEUR": 139753880,
+      "probabilityAdjustedStrategicValueEUR": 130613552,
+      "triangulatedEconomicReferenceEUR": 123487987,
+      "sellerAskAsShareOfTriangulated": 0.19824195530857588,
+      "sellerAskAsShareOfReplacementCost": 0.2346786176484686,
+      "pricedAssetCount": 104,
       "unpricedAssetCount": 0,
-      "monetaryScope": "100 independently scoped software IP assets with retained individual price, evidence, rights and delivery assessments. The current portfolio totals include only active project records. Website and publication repositories are excluded from the IP-asset count.",
-      "averageTriangulatedEconomicReferencePerPricedAsset": 1232112.56
+      "monetaryScope": "104 independent software IP assets with individual seller asking references and defined existing-scope recreation estimates. Four new prototypes and two implemented increments have updated estimates; the other 98 existing prices are retained. Website repositories are excluded.",
+      "averageTriangulatedEconomicReferencePerPricedAsset": 1187384.4903846155
     },
-    "proposedConnections": 26,
-    "uniqueConnectionMembers": 66,
+    "proposedConnections": 30,
+    "uniqueConnectionMembers": 74,
     "liveDigitalDisplays": 12,
-    "boundary": "This publication removes one withdrawn asset from the current portfolio and recalculates the aggregates from the remaining 100 records. Individual identifiers, prices, model assumptions, source versions, evidence dates and readiness criteria are retained. The 26 proposed connections retain 66 unique project members and their existing financial sums. This scope update does not claim new software tests, source qualification or independent valuation."
+    "boundary": "All 117 repositories and 36 open pull requests were compared with the preceding portfolio. The 104 active software assets are independently scoped; 13 publication repositories are excluded. Nine pinned source trees from seven projects were byte-verified and locally tested. Current-main, unmerged development, historical validation and future specifications remain separate. The current video prototype passes its mandatory 73-test/build gate; the earlier blocker is resolved. Remote perception retains an explicitly blocked commercial transfer gate. CRE and the mission framework retain open rights/delivery conditions. No physical, anomalous-perception, independently certified rights/security, production hosting or future scientific capability is established by local tests."
   }
 }
