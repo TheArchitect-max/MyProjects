@@ -1,3 +1,11 @@
+## Current scope reconciliation — 12 October 2026
+
+**Published at 2026-10-12T03:40:16Z.** Review **100 active software IP assets**, with current asking reference **EUR 24,368,000** and recreation-cost total **EUR 103,920,000**. Readiness: **0 READY, 92 READY_WITH_CONDITIONS and 8 NOT_READY**. The 12 live digital displays and 26 proposed connections with 66 unique members are retained. Individual identifiers, prices, source versions, evidence dates and assessment criteria are unchanged.
+
+Use [the current scope reconciliation](PORTFOLIO_SCOPE_UPDATE_2026-10-12.md) and authoritative registers for current totals. The following dated assessment describes its earlier publication state; its portfolio counts and aggregates do not override current records.
+
+---
+
 # Seller Evidence & Transfer Readiness Standard
 
 ## Current additions — 11 October 2026

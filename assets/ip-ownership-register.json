@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.12-im65-full-repository-review",
+  "version": "2026.10.12-im67-portfolio-scope-update",
   "basisDate": "2026-10-12",
   "status": "SELLER_SIDE_REPOSITORY_EVIDENCE_REGISTER",
   "boundary": "Seller-side rights evidence register. It records repository licence evidence, disclosed third-party material and rights-review status. It does not disclose development methods and does not constitute an independent legal title or freedom-to-operate opinion.",
@@ -1619,29 +1619,6 @@
       "financialReferencesReviewedAt": "2026-10-12T00:19:02Z"
     },
     {
-      "repository": "ReserveFlow-SaaS-Platform",
-      "slug": "reserveflow-saas-platform",
-      "identityName": "Olivia",
-      "baselineCommit": "49ae1b21bb911d847fa14966ce3f0d9909b201cd",
-      "commercialReference": "TA-IP-086",
-      "defaultBranchBaselineCommit": "49ae1b21bb911d847fa14966ce3f0d9909b201cd",
-      "sourceScope": "DEFAULT_BRANCH",
-      "assessmentDate": "2026-10-12",
-      "repositoryLicenceFiles": [],
-      "thirdPartyDisclosureFiles": [
-        "THIRD_PARTY_NOTICES.md",
-        "docs/ip-sale/THIRD_PARTY_DEPENDENCIES.md"
-      ],
-      "ipRightsMaturity": "R0",
-      "ownershipEvidenceStatus": "LICENCE_EVIDENCE_NOT_IDENTIFIED",
-      "legalChainOfTitleOpinion": "NOT_PERFORMED",
-      "freedomToOperateOpinion": "NOT_PERFORMED",
-      "buyerSpecificLegalReviewRequired": true,
-      "ref": "TA-IP-086",
-      "sourceRecheckedAt": "2026-10-12T00:19:02Z",
-      "financialReferencesReviewedAt": "2026-10-12T00:19:02Z"
-    },
-    {
       "repository": "Resource-Aware-Hybrid-Model-Orchestration-Platform",
       "slug": "resource-aware-hybrid-model-orchestration-platform",
       "identityName": "Mia",
@@ -2497,7 +2474,7 @@
     }
   ],
   "assessedAt": "2026-10-12T00:19:02Z",
-  "catalogueUpdatedAt": "2026-10-12T00:19:02Z",
+  "catalogueUpdatedAt": "2026-10-12T03:40:16Z",
   "previousTargetedAssetReview": {
     "slug": "distributed-ai-resource-fabric",
     "ref": "TA-IP-022",
@@ -2521,6 +2498,39 @@
     "boundary": "DARF only: current source, retained exact-commit validation, rights, delivery conditions and seller-side economics. The other 96 asset assessments and monetary inputs retain their earlier dates and conclusions; portfolio totals are recomputed."
   },
   "latestReadinessReview": {
+    "assessedAt": "2026-10-12T03:40:16Z",
+    "type": "PORTFOLIO_SCOPE_RECONCILIATION",
+    "criteriaDisclosedFor": 100,
+    "targetedRepositoryContentReviews": 0,
+    "changedReadinessReferences": [],
+    "previousSummary": {
+      "audited": 101,
+      "pending": 0,
+      "ready": 0,
+      "readyWithConditions": 92,
+      "notReady": 9
+    },
+    "currentSummary": {
+      "audited": 100,
+      "pending": 0,
+      "ready": 0,
+      "readyWithConditions": 92,
+      "notReady": 8
+    },
+    "boundary": "This publication removes one withdrawn asset from the current portfolio and recalculates the aggregates from the remaining 100 records. Individual identifiers, prices, model assumptions, source versions, evidence dates and readiness criteria are retained. The 26 proposed connections retain 66 unique project members and their existing financial sums. This scope update does not claim new software tests, source qualification or independent valuation."
+  },
+  "latestIdentityUpdate": {
+    "assessedAt": "2026-10-12T03:40:16Z",
+    "type": "WITHDRAWN_ASSET_REMOVAL",
+    "previousAssetCount": 101,
+    "currentAssetCount": 100,
+    "removedAssetCount": 1,
+    "otherAssetRecordsRetained": 100,
+    "identifiersReassigned": false,
+    "boundary": "Remaining project identifiers and identities are preserved; withdrawn identifiers are not reused."
+  },
+  "previousRegisterAssessedAt": "2026-10-11T07:01:21Z",
+  "previousReadinessReview": {
     "assessedAt": "2026-10-12T00:19:02Z",
     "type": "FULL_SOURCE_COMPARISON_AND_TARGETED_CONTENT_REVIEW",
     "criteriaDisclosedFor": 101,
@@ -2544,7 +2554,7 @@
     },
     "boundary": "All 101 software repositories are accounted for: the 100 existing default branches and 32 open pull requests were checked, and the new OmniFrame source was reviewed. Fresh local checks passed 103 TraceLine tests and 29 SCEP tests. OmniFrame v0.5 passed 37 tests and a development build; its newer v0.7 mandatory syntax gate fails in new test source, so the current full suite and build were not reached and its transfer classification is NOT_READY. TrueLane mandatory validation passed: 95 tests ran, 80 passed and 15 optional PyTorch tests were skipped; no new CUDA or Drive adapter execution is claimed. Changed source, retained validation and unmerged candidates are kept separate. The SCEP checkpoint manifest and tree inventory were reviewed; binary download, restoration and numerical replay were not performed. Prices change only for three implemented main-branch increments and the new OmniFrame prototype. All 97 other existing prices and all 100 existing maturity and readiness classifications are retained. The new OmniFrame prototype has an explicit current-source validation blocker. Website repositories are excluded digital displays. No independent legal, scientific, security or market certification is implied."
   },
-  "latestIdentityUpdate": {
+  "previousIdentityUpdate": {
     "assessedAt": "2026-10-12T00:19:02Z",
     "type": "ONE_INDEPENDENT_SOFTWARE_ADDITION",
     "previousAssetCount": 100,
@@ -2562,61 +2572,39 @@
     ],
     "boundary": "OmniFrame is one independently scoped first-party prototype. Its internal research modules are not separately counted, and target-project assets and rights are excluded."
   },
-  "previousRegisterAssessedAt": "2026-10-11T07:01:21Z",
-  "previousReadinessReview": {
-    "assessedAt": "2026-10-11T07:01:21Z",
-    "type": "TWO_NEW_SOURCE_CONTENT_REVIEWS",
-    "criteriaDisclosedFor": 100,
-    "targetedRepositoryContentReviews": 2,
-    "changedReadinessReferences": [
-      "TA-IP-099",
-      "TA-IP-100"
-    ],
-    "previousSummary": {
-      "audited": 98,
-      "pending": 0,
-      "ready": 0,
-      "readyWithConditions": 90,
-      "notReady": 8
-    },
-    "currentSummary": {
-      "audited": 100,
-      "pending": 0,
-      "ready": 0,
-      "readyWithConditions": 92,
-      "notReady": 8
-    },
-    "sourceHeads": {
-      "Launch-Cislunar-Transportation-Engineering-Platform": "eeaadf2299f8309e9e6f5a53dd0b35deb81a0ff8",
-      "Synthetic-Consciousness-Engineering-Platform": "683dbfada5d1406dd7f03f33fc1c5123c44c1ecc"
-    },
-    "monetaryChanges": 2,
-    "boundary": "Two newly listed software repositories were reviewed and added as TA-IP-099 and TA-IP-100. All 29 LCTEP files and 56 selected SCEP files were checked against Git blob identities; the full SCEP tree contains 200 files, including historical material that was not executed. Fresh local checks passed 18 LCTEP tests and 14 SCEP tests without failures, errors or skips, syntax compilation and bounded CLI examples. All seven retained SCEP final-campaign files passed byte-length, SHA-256 and archive-integrity checks; four recorded source-file blobs match the current source. The retained 400-agent, 1000-step GPU campaign was not rerun. One step-50 checkpoint metadata file and seven binary parts are present. The metadata file was byte-verified; the binary parts were inventoried, not downloaded or restored. The overall checkpoint-part manifest and complete intermediate checkpoint set are not established, and a checkpoint checksum field contains a filename. Validation concerns bounded software execution and retained evidence, not flight qualification, consciousness, historical-output equivalence or independent certification. All 98 existing asset records, source dates, prices and readiness criteria are retained. Website repositories remain excluded digital displays."
-  },
-  "previousIdentityUpdate": {
-    "assessedAt": "2026-10-11T07:01:21Z",
-    "type": "TWO_INDEPENDENT_SOFTWARE_ADDITIONS",
-    "previousAssetCount": 98,
+  "latestPortfolioScopeUpdate": {
+    "publishedAt": "2026-10-12T03:40:16Z",
+    "type": "WITHDRAWN_ASSET_REMOVAL",
+    "removedAssetCount": 1,
     "currentAssetCount": 100,
-    "otherAssetRecordsRetained": 98,
-    "additions": [
-      {
-        "ref": "TA-IP-099",
-        "title": "Launch & Cislunar Transportation Engineering Platform",
-        "referenceAlias": "Astrid",
-        "repository": "Launch-Cislunar-Transportation-Engineering-Platform",
-        "sourceHead": "eeaadf2299f8309e9e6f5a53dd0b35deb81a0ff8",
-        "version": "v0.1.0.dev0"
+    "retainedIndividualPriceRecords": 100,
+    "identifiersReassigned": false,
+    "currentPortfolio": {
+      "assetCount": 100,
+      "stageCounts": {
+        "developedSoftware": 56,
+        "developedPrototype": 41,
+        "researchStage": 3,
+        "definitionStage": 0
       },
-      {
-        "ref": "TA-IP-100",
-        "title": "Synthetic Consciousness Engineering Platform",
-        "referenceAlias": "Elysia",
-        "repository": "Synthetic-Consciousness-Engineering-Platform",
-        "sourceHead": "683dbfada5d1406dd7f03f33fc1c5123c44c1ecc",
-        "version": "v0.1.0.dev0"
-      }
-    ],
-    "boundary": "Two newly listed software repositories were reviewed and added as TA-IP-099 and TA-IP-100. All 29 LCTEP files and 56 selected SCEP files were checked against Git blob identities; the full SCEP tree contains 200 files, including historical material that was not executed. Fresh local checks passed 18 LCTEP tests and 14 SCEP tests without failures, errors or skips, syntax compilation and bounded CLI examples. All seven retained SCEP final-campaign files passed byte-length, SHA-256 and archive-integrity checks; four recorded source-file blobs match the current source. The retained 400-agent, 1000-step GPU campaign was not rerun. One step-50 checkpoint metadata file and seven binary parts are present. The metadata file was byte-verified; the binary parts were inventoried, not downloaded or restored. The overall checkpoint-part manifest and complete intermediate checkpoint set are not established, and a checkpoint checksum field contains a filename. Validation concerns bounded software execution and retained evidence, not flight qualification, consciousness, historical-output equivalence or independent certification. All 98 existing asset records, source dates, prices and readiness criteria are retained. Website repositories remain excluded digital displays."
+      "sellerAskEUR": 24368000,
+      "negotiationLowEUR": 19467400,
+      "negotiationHighEUR": 30539500,
+      "replacementCostEUR": 103920000,
+      "marketComparableProxyEUR": 118409425,
+      "incomeLicensingProxyEUR": 139464810,
+      "probabilityAdjustedStrategicValueEUR": 130446870,
+      "triangulatedEconomicReferenceEUR": 123211256,
+      "sellerAskAsShareOfTriangulated": 0.19777413842774236,
+      "sellerAskAsShareOfReplacementCost": 0.23448806774441877,
+      "pricedAssetCount": 100,
+      "unpricedAssetCount": 0,
+      "monetaryScope": "100 independently scoped software IP assets with retained individual price, evidence, rights and delivery assessments. The current portfolio totals include only active project records. Website and publication repositories are excluded from the IP-asset count.",
+      "averageTriangulatedEconomicReferencePerPricedAsset": 1232112.56
+    },
+    "proposedConnections": 26,
+    "uniqueConnectionMembers": 66,
+    "liveDigitalDisplays": 12,
+    "boundary": "This publication removes one withdrawn asset from the current portfolio and recalculates the aggregates from the remaining 100 records. Individual identifiers, prices, model assumptions, source versions, evidence dates and readiness criteria are retained. The 26 proposed connections retain 66 unique project members and their existing financial sums. This scope update does not claim new software tests, source qualification or independent valuation."
   }
 }

@@ -1,12 +1,13 @@
 # Current Portfolio Memorandum — 12 October 2026
 
-**Current review:** 2026-10-12T00:19:02Z. Review **101** independent software assets, **12** live digital displays and the project-specific evidence, rights and transfer conditions. The current asking reference is **EUR 24,993,000**; recreation-cost total **EUR 106,170,000**. The current readiness distribution is **0 READY, 92 READY_WITH_CONDITIONS and 9 NOT_READY**.
+## Current scope reconciliation — 12 October 2026
 
-OmniFrame is the single added prototype. Three implemented main-branch increments have revised estimates; 97 existing prices are retained. The 26 combinations retain 66 globally unique members. Fourteen publication repositories remain excluded from the software-asset count.
+**Published at 2026-10-12T03:40:16Z.** Review **100 active software IP assets**, with current asking reference **EUR 24,368,000** and recreation-cost total **EUR 103,920,000**. Readiness: **0 READY, 92 READY_WITH_CONDITIONS and 8 NOT_READY**. The 12 live digital displays and 26 proposed connections with 66 unique members are retained. Individual identifiers, prices, source versions, evidence dates and assessment criteria are unchanged.
 
-Use [the complete current source and financial review](PORTFOLIO_UPDATE_2026-10-12.md) and the current project registers for acquisition discussions. The following preceding memorandum is retained as a dated historical publication record; its older counts and amounts do not override current records.
+Use [the current scope reconciliation](PORTFOLIO_SCOPE_UPDATE_2026-10-12.md) and authoritative registers for current totals. The following dated assessment describes its earlier publication state; its portfolio counts and aggregates do not override current records.
 
 ---
+
 
 # Institutional Portfolio Memorandum
 

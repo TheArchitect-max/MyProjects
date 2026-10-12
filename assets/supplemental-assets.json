@@ -173,23 +173,6 @@
       "recreationCost": 450000
     },
     {
-      "id": 86,
-      "ref": "TA-IP-086",
-      "slug": "reserveflow-saas-platform",
-      "name": "OPERIVEX",
-      "sector": "Enterprise Software & Operations",
-      "stage": "V",
-      "potential": "H",
-      "route": "B2B SaaS / enterprise software",
-      "family": "enterprise-web-commerce",
-      "description": "Organise your resources, operations and scenarios in a shared workspace, and compare plans before execution.",
-      "pricing_status": "established",
-      "ask": 625000,
-      "low": 500000,
-      "high": 785000,
-      "recreationCost": 2250000
-    },
-    {
       "id": 87,
       "ref": "TA-IP-087",
       "slug": "vellumgrid-autonomous-commerce-platform",
@@ -325,5 +308,41 @@
       "description": "Find source-supported vehicle configurations and see where the available information is complete or still uncertain.",
       "pricing_status": "seller-estimate"
     }
-  ]
+  ],
+  "catalogueUpdatedAt": "2026-10-12T03:40:16Z",
+  "latestPortfolioScopeUpdate": {
+    "publishedAt": "2026-10-12T03:40:16Z",
+    "type": "WITHDRAWN_ASSET_REMOVAL",
+    "removedAssetCount": 1,
+    "currentAssetCount": 100,
+    "retainedIndividualPriceRecords": 100,
+    "identifiersReassigned": false,
+    "currentPortfolio": {
+      "assetCount": 100,
+      "stageCounts": {
+        "developedSoftware": 56,
+        "developedPrototype": 41,
+        "researchStage": 3,
+        "definitionStage": 0
+      },
+      "sellerAskEUR": 24368000,
+      "negotiationLowEUR": 19467400,
+      "negotiationHighEUR": 30539500,
+      "replacementCostEUR": 103920000,
+      "marketComparableProxyEUR": 118409425,
+      "incomeLicensingProxyEUR": 139464810,
+      "probabilityAdjustedStrategicValueEUR": 130446870,
+      "triangulatedEconomicReferenceEUR": 123211256,
+      "sellerAskAsShareOfTriangulated": 0.19777413842774236,
+      "sellerAskAsShareOfReplacementCost": 0.23448806774441877,
+      "pricedAssetCount": 100,
+      "unpricedAssetCount": 0,
+      "monetaryScope": "100 independently scoped software IP assets with retained individual price, evidence, rights and delivery assessments. The current portfolio totals include only active project records. Website and publication repositories are excluded from the IP-asset count.",
+      "averageTriangulatedEconomicReferencePerPricedAsset": 1232112.56
+    },
+    "proposedConnections": 26,
+    "uniqueConnectionMembers": 66,
+    "liveDigitalDisplays": 12,
+    "boundary": "This publication removes one withdrawn asset from the current portfolio and recalculates the aggregates from the remaining 100 records. Individual identifiers, prices, model assumptions, source versions, evidence dates and readiness criteria are retained. The 26 proposed connections retain 66 unique project members and their existing financial sums. This scope update does not claim new software tests, source qualification or independent valuation."
+  }
 }

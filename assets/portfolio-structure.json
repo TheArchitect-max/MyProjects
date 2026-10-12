@@ -169,7 +169,6 @@
         "organizational-memory-engine",
         "programmatic-search-fabric",
         "mercorion-commerce-compiler",
-        "reserveflow-saas-platform",
         "vellumgrid-autonomous-commerce-platform"
       ]
     },
@@ -187,5 +186,40 @@
       ]
     }
   ],
-  "catalogueUpdatedAt": "2026-10-12T00:19:02Z"
+  "catalogueUpdatedAt": "2026-10-12T03:40:16Z",
+  "latestPortfolioScopeUpdate": {
+    "publishedAt": "2026-10-12T03:40:16Z",
+    "type": "WITHDRAWN_ASSET_REMOVAL",
+    "removedAssetCount": 1,
+    "currentAssetCount": 100,
+    "retainedIndividualPriceRecords": 100,
+    "identifiersReassigned": false,
+    "currentPortfolio": {
+      "assetCount": 100,
+      "stageCounts": {
+        "developedSoftware": 56,
+        "developedPrototype": 41,
+        "researchStage": 3,
+        "definitionStage": 0
+      },
+      "sellerAskEUR": 24368000,
+      "negotiationLowEUR": 19467400,
+      "negotiationHighEUR": 30539500,
+      "replacementCostEUR": 103920000,
+      "marketComparableProxyEUR": 118409425,
+      "incomeLicensingProxyEUR": 139464810,
+      "probabilityAdjustedStrategicValueEUR": 130446870,
+      "triangulatedEconomicReferenceEUR": 123211256,
+      "sellerAskAsShareOfTriangulated": 0.19777413842774236,
+      "sellerAskAsShareOfReplacementCost": 0.23448806774441877,
+      "pricedAssetCount": 100,
+      "unpricedAssetCount": 0,
+      "monetaryScope": "100 independently scoped software IP assets with retained individual price, evidence, rights and delivery assessments. The current portfolio totals include only active project records. Website and publication repositories are excluded from the IP-asset count.",
+      "averageTriangulatedEconomicReferencePerPricedAsset": 1232112.56
+    },
+    "proposedConnections": 26,
+    "uniqueConnectionMembers": 66,
+    "liveDigitalDisplays": 12,
+    "boundary": "This publication removes one withdrawn asset from the current portfolio and recalculates the aggregates from the remaining 100 records. Individual identifiers, prices, model assumptions, source versions, evidence dates and readiness criteria are retained. The 26 proposed connections retain 66 unique project members and their existing financial sums. This scope update does not claim new software tests, source qualification or independent valuation."
+  }
 }

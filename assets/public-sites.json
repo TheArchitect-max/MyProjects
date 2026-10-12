@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.12-im65-full-repository-review",
+  "version": "sites10",
   "verifiedDate": "2026-10-12",
   "siteCount": 12,
   "sites": [
@@ -173,22 +173,49 @@
     }
   ],
   "boundary": "Digital displays belong to their software projects. Website repositories never count as separate IP assets.",
-  "unpublishedDisplays": [
-    {
-      "slug": "reserveflow-saas-platform",
-      "title": "OPERIVEX",
-      "status": "not-published",
-      "kind": "digital-display",
-      "ref": "TA-IP-086"
-    }
-  ],
+  "unpublishedDisplays": [],
   "verifiedAt": "2026-10-11T08:06:21.463Z",
   "sourceCheckedAt": "2026-10-11T07:49:54Z",
-  "catalogueUpdatedAt": "2026-10-12T00:26:20Z",
+  "catalogueUpdatedAt": "2026-10-12T03:40:16Z",
   "latestAddedDisplay": {
     "ref": "TA-IP-057",
     "repository": "FusionLunar-Website",
     "verifiedAt": "2026-10-12T00:24:39.042Z",
     "assetCountChanged": false
+  },
+  "latestPortfolioScopeUpdate": {
+    "publishedAt": "2026-10-12T03:40:16Z",
+    "type": "WITHDRAWN_ASSET_REMOVAL",
+    "removedAssetCount": 1,
+    "currentAssetCount": 100,
+    "retainedIndividualPriceRecords": 100,
+    "identifiersReassigned": false,
+    "currentPortfolio": {
+      "assetCount": 100,
+      "stageCounts": {
+        "developedSoftware": 56,
+        "developedPrototype": 41,
+        "researchStage": 3,
+        "definitionStage": 0
+      },
+      "sellerAskEUR": 24368000,
+      "negotiationLowEUR": 19467400,
+      "negotiationHighEUR": 30539500,
+      "replacementCostEUR": 103920000,
+      "marketComparableProxyEUR": 118409425,
+      "incomeLicensingProxyEUR": 139464810,
+      "probabilityAdjustedStrategicValueEUR": 130446870,
+      "triangulatedEconomicReferenceEUR": 123211256,
+      "sellerAskAsShareOfTriangulated": 0.19777413842774236,
+      "sellerAskAsShareOfReplacementCost": 0.23448806774441877,
+      "pricedAssetCount": 100,
+      "unpricedAssetCount": 0,
+      "monetaryScope": "100 independently scoped software IP assets with retained individual price, evidence, rights and delivery assessments. The current portfolio totals include only active project records. Website and publication repositories are excluded from the IP-asset count.",
+      "averageTriangulatedEconomicReferencePerPricedAsset": 1232112.56
+    },
+    "proposedConnections": 26,
+    "uniqueConnectionMembers": 66,
+    "liveDigitalDisplays": 12,
+    "boundary": "This publication removes one withdrawn asset from the current portfolio and recalculates the aggregates from the remaining 100 records. Individual identifiers, prices, model assumptions, source versions, evidence dates and readiness criteria are retained. The 26 proposed connections retain 66 unique project members and their existing financial sums. This scope update does not claim new software tests, source qualification or independent valuation."
   }
 }

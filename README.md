@@ -1,16 +1,16 @@
 # THEARCHITECT_MAX — Private Technology & IP Portfolio
 
-Explore **101 independent software IP assets**, each with one TA-IP identifier, one project title, one feminine reference alias and its own financial and transfer scope.
+Explore **100 independent software IP assets**, each with one TA-IP identifier, one project title, one feminine reference alias and its own financial and transfer scope.
 
-## Current full review — 12 October 2026
+## Current portfolio scope — 12 October 2026
 
-Reviewed at **2026-10-12T00:19:02Z**. All 101 software sources and all 32 current open pull requests are accounted for. OmniFrame v0.7 is NOT_READY because its mandatory current-source validation gate fails; the separately retained v0.5 baseline passed 37 tests. The new **TA-IP-101 — OmniFrame Universal Video Intelligence Platform** is a v0.7 prototype with a documented current-source validation blocker: published asking reference **EUR 30,000**; recreation estimate **EUR 100,000**. Its internal research modules are counted once within the project.
+Published at **2026-10-12T03:40:16Z**. The active portfolio contains **100** independently scoped software IP assets. One withdrawn project and all its catalogue references have been removed. Remaining identifiers are preserved and are not renumbered or reused. The last full software-source review remains dated **2026-10-12T00:19:02Z**; this scope update does not claim new source tests.
 
-Current portfolio asking reference: **EUR 24,993,000**. Recreation-cost total: **EUR 106,170,000**. Three existing delivered increments have revised estimates; all other 97 existing prices are retained. Current maturity: **57 developed-software, 41 prototype and three research-stage** assets. Readiness: **0 READY, 92 READY_WITH_CONDITIONS, 9 NOT_READY**.
+Current portfolio asking reference: **EUR 24,368,000**. Recreation-cost total: **EUR 103,920,000**. All 100 remaining individual prices, model factors and project assessments retain their dates. Current maturity: **56 developed-software, 41 prototype and three research-stage** assets. Readiness: **0 READY, 92 READY_WITH_CONDITIONS, 8 NOT_READY**.
 
-FusionLunar has an additional digital display. The directory now contains **12 live project displays**; **14 website/publication repositories** are excluded from the asset count. The **26 Connections** retain **66 globally unique members**, with current financial totals recomputed from their individual asset references.
+The directory retains **12 live project displays**. Website and publication repositories are excluded from the software-asset count. The **26 Connections** retain **66 globally unique members** and unchanged individual and combined prices. The withdrawn project was not a member of any combination.
 
-Review [the current source, cost assumptions, prices and evidence boundaries](docs/PORTFOLIO_UPDATE_2026-10-12.md). Fresh tests apply only to the specifically reported sources. OmniFrame current-source qualification is blocked; its retained v0.5 result is separate. Unmerged or unexecuted qualification remains explicit. The current visitor-facing website is the informational portfolio, not a deployed application or payment service.
+Review [the current portfolio scope and aggregate reconciliation](docs/PORTFOLIO_SCOPE_UPDATE_2026-10-12.md), [the preceding source and financial assessment](docs/PORTFOLIO_UPDATE_2026-10-12.md) and the authoritative registers. OmniFrame v0.7 remains NOT_READY because its mandatory current-source validation gate fails; the retained v0.5 results remain separate. The website remains an informational portfolio.
 
 ## Retained preceding reviews
 
@@ -49,10 +49,10 @@ Register at that review: **98 assets**; **57 developed-software, 38 prototype an
 
 ## Current public monetary references — 12 October 2026
 
-- Published asking reference: **EUR 24,993,000**
-- Indicative negotiation range: **EUR 19,967,400–31,324,500**
-- Engineering-equivalent recreation estimate: **EUR 106,170,000**
-- Ask / recreation cost: **23.54%**
+- Published asking reference: **EUR 24,368,000**
+- Indicative negotiation range: **EUR 19,467,400–30,539,500**
+- Engineering-equivalent recreation estimate: **EUR 103,920,000**
+- Ask / recreation cost: **23.45%**
 
 EUR amounts are authoritative. USD amounts use the separately dated conversion rate; it is not presented as a current exchange quote.
 
@@ -96,33 +96,33 @@ The website retains its public-domain / CC0 old-master visual references and cur
 <!-- DEVELOPMENT-REGISTER:START -->
 ## Acquisition and voluntary contribution
 
-The public site presents **101 independent IP assets**, each with its own rights and transfer perimeter. Compare individual asking prices, included scope and outstanding delivery conditions asset by asset. The complete evidence, rights, transfer, maturity and economic evaluation was updated on **10 October 2026**, against each preceding recorded source and financial baseline.
+The public site presents **100 independent IP assets**, each with its own rights and transfer perimeter. Compare individual asking prices, included scope and outstanding delivery conditions asset by asset. The complete evidence, rights, transfer, maturity and economic evaluation was updated on **10 October 2026**, against each preceding recorded source and financial baseline.
 
 The two offered routes are **complete project acquisition AS IS** and an independent **voluntary Bitcoin contribution**. The latter creates no ownership, licence, financial return, price credit or entitlement to development, software, services or support. Development sponsorship, milestone financing and co-development are no longer offered routes on the public website.
 
 The published receiving address is **38dn8ZDf11cYSMv8X1UUARsE2wqdmtjd36**. Send **BTC only via the Bitcoin network** and independently verify the complete address. Unsupported assets or networks may cause permanent loss. The address is displayed as information; no checkout, wallet connection, transaction monitoring, account/session system, billing or payment settlement is implemented.
 
-Acquisitions require a separate definitive written agreement. The GitHub Pages site remains an informational project showcase. Read the [complete policy](docs/ACQUISITION_VOLUNTARY_CONTRIBUTION_POLICY.md), published on `policy.html`, and the project-specific routes on all 101 profiles. Prices, readiness grades and source-evidence timestamps are unchanged by this policy update.
+Acquisitions require a separate definitive written agreement. The GitHub Pages site remains an informational project showcase. Read the [complete policy](docs/ACQUISITION_VOLUNTARY_CONTRIBUTION_POLICY.md), published on `policy.html`, and the project-specific routes on all 100 profiles. Prices, readiness grades and source-evidence timestamps are unchanged by this policy update.
 <!-- DEVELOPMENT-REGISTER:END -->
 
 <!-- PROJECT-IDENTITIES:START -->
 ## Project identity names
 
-Every one of the **101 IP assets** has one project title and one feminine reference alias. The title leads every card and profile; the alias appears once as a project reference. `assets/display-names.json` mirrors the same mapping and the legacy title-replacement script no longer renames headings. Repository identities, single reference names and evidence lineage are preserved. Economic quantities follow the current evidence-based reassessment.
+Every one of the **100 IP assets** has one project title and one feminine reference alias. The title leads every card and profile; the alias appears once as a project reference. `assets/display-names.json` mirrors the same mapping and the legacy title-replacement script no longer renames headings. Repository identities, single reference names and evidence lineage are preserved. Economic quantities follow the current evidence-based reassessment.
 
-Use identifiers **TA-IP-001 through TA-IP-101** to match each project across the collection, profile, rights, assurance, financial records and digital-display directory. The authoritative public mapping is `assets/project-identities.json`. Current user-facing descriptions, version status and asset eligibility are in `assets/project-presentations.json`.
+Use the **100 active, previously assigned TA-IP identifiers** to match each project across the collection, profile, rights, assurance, financial records and digital-display directory. The authoritative public mapping is `assets/project-identities.json`. Current user-facing descriptions, version status and asset eligibility are in `assets/project-presentations.json`.
 <!-- PROJECT-IDENTITIES:END -->
 
 <!-- REPOSITORY-SCOPE:START -->
 ## Repository scope
 
-The public collection, development register, assurance records and evaluations contain the same **101 independent first-party IP assets**. Project websites are available solely as digital displays linked from their corresponding software profiles.
+The public collection, development register, assurance records and evaluations contain the same **100 independent first-party IP assets**. Project websites are available solely as digital displays linked from their corresponding software profiles.
 <!-- REPOSITORY-SCOPE:END -->
 
 <!-- FUTURE-ECONOMIC-REFERENCES:START -->
 ## Milestone-conditioned economic references
 
-The current 12 October evidence-bounded register covers **101 IP assets**. It contains **44 numeric conditional maturity references** and **57 NOT_ESTABLISHED records**. Every conditional amount is recalculated from the current asset inputs.
+The current 12 October evidence-bounded register covers **100 IP assets**. It contains **44 numeric conditional maturity references** and **56 NOT_ESTABLISHED records**. Every conditional amount is recalculated from the current asset inputs.
 
 A numeric reference is published only for an objective **R→P** or **P→V** maturity transition. The calculation reuses the published portfolio methodology and changes only the maturity-stage factor; replacement cost, commercial potential, sector and monetization route remain fixed. It is therefore a reproducible maturity sensitivity, not a forecast, seller ask, market value, investment return or guarantee.
 
@@ -132,7 +132,7 @@ Projects already at stage V receive no higher amount unless new attributable mar
 <!-- SELLER-READINESS:START -->
 ## Current seller evidence and transaction readiness
 
-At 2026-10-12T00:19:02Z, all **101** assets have five disclosed evidence, technical, rights, commercial and handover criteria. Current grades are **0 READY, 92 READY_WITH_CONDITIONS, 9 NOT_READY, 0 pending**. Source comparison and specifically reported local checks retain version-specific validation boundaries. Independent legal, scientific, security and market certification is not implied.
+At 2026-10-12T03:40:16Z, all **100** active assets retain five disclosed evidence, technical, rights, commercial and handover criteria. Current grades are **0 READY, 92 READY_WITH_CONDITIONS, 8 NOT_READY, 0 pending**. Source comparison and specifically reported local checks retain version-specific validation boundaries. Independent legal, scientific, security and market certification is not implied.
 
 Review the authoritative project-evaluation, seller-readiness, ownership, component and rights-transfer registers and [the current review](docs/PORTFOLIO_UPDATE_2026-10-12.md) for the project-specific basis and outstanding conditions.
 <!-- SELLER-READINESS:END -->
