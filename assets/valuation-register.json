@@ -2342,7 +2342,7 @@
   "assessedAt": "2026-10-13T04:20:04Z",
   "previousValuationBasisDate": "2026-10-10",
   "reviewPolicy": "The current repository inventory is checked; the 104 preceding individual financial records retain their source and evidence dates. MIPP is evaluated separately.",
-  "catalogueUpdatedAt": "2026-10-13T04:20:04Z",
+  "catalogueUpdatedAt": "2026-10-13T05:07:05Z",
   "latestSeparateAssetPricing": {
     "assessedAt": "2026-10-09T06:22:41Z",
     "assetCount": 3,
@@ -2659,10 +2659,10 @@
     "boundary": "Launch & Cislunar Transportation Engineering Platform is the separately scoped launch and cislunar transport module for FusionLunar studies. The documented demand/result interface supports the relationship; this update does not establish a new shared runtime, completed end-to-end integration or flight-qualified transport. Both projects retain their own asset identity, price and transfer scope."
   },
   "latestPortfolioScopeUpdate": {
-    "publishedAt": "2026-10-13T04:20:04Z",
-    "type": "REPOSITORY_INVENTORY_AND_NEW_ASSET_ADDITION",
+    "publishedAt": "2026-10-13T05:07:05Z",
+    "type": "DISPLAY_DIRECTORY_REMOVAL",
     "currentAssetCount": 105,
-    "retainedIndividualPriceRecords": 104,
+    "retainedIndividualPriceRecords": 105,
     "identifiersReassigned": false,
     "currentPortfolio": {
       "assetCount": 105,
@@ -2689,8 +2689,8 @@
     },
     "proposedConnections": 33,
     "uniqueConnectionMembers": 81,
-    "liveDigitalDisplays": 12,
-    "boundary": "All 118 repository heads and the README/source inventories of 105 project repositories were checked. Thirteen publication repositories remain excluded from the asset count. MIPP is the only new project. Its 52 frozen Git blobs were verified and 18 local tests, protocol integrity and syntax checks passed. The other 104 project records, individual prices, grades and evidence dates are retained. The newer documented MIPP offline builds have not been source-imported into the repository and were not executed in this review. Inventory review is not full-portfolio test execution, independent appraisal or certification."
+    "liveDigitalDisplays": 0,
+    "boundary": "The owner removed all 12 separately hosted project-display repositories. Current repository presence was checked: 105 project repositories and the MyProjects catalogue remain, 106 repositories in total. No linked project display is currently published in this directory. All 105 software project records, individual prices, rights/transfer criteria and evidence dates are retained. This display-directory update does not claim new source qualification or a financial reassessment."
   },
   "latestFullPortfolioReview": {
     "assessedAt": "2026-10-12T09:21:42Z",
@@ -2714,20 +2714,23 @@
     "boundary": "All 117 repositories and 36 open pull requests were compared with the preceding portfolio. The 104 active software assets are independently scoped; 13 publication repositories are excluded. Nine pinned source trees from seven projects were byte-verified and locally tested. Current-main, unmerged development, historical validation and future specifications remain separate. The current video prototype passes its mandatory 73-test/build gate; the earlier blocker is resolved. Remote perception retains an explicitly blocked commercial transfer gate. CRE and the mission framework retain open rights/delivery conditions. No physical, anomalous-perception, independently certified rights/security, production hosting or future scientific capability is established by local tests."
   },
   "latestRepositoryInventory": {
-    "assessedAt": "2026-10-13T04:20:04Z",
-    "repositoryCount": 118,
+    "assessedAt": "2026-10-13T05:07:05Z",
+    "type": "DISPLAY_REPOSITORY_REMOVAL",
+    "repositoryCount": 106,
     "projectRepositoryCount": 105,
-    "publicationRepositoryCount": 13,
-    "repositoryHeadsChecked": 118,
-    "projectReadmesRead": 105,
-    "projectTreesRead": 105,
-    "newProjects": [
-      "TA-IP-106"
-    ],
+    "publicationRepositoryCount": 1,
+    "repositoryPresenceChecked": 106,
+    "repositoryHeadsChecked": 0,
+    "projectReadmesRead": 0,
+    "projectTreesRead": 0,
+    "retainedSourceInventoryProjects": 105,
+    "sourceInventoryAssessedAt": "2026-10-13T04:20:04Z",
+    "newProjects": [],
     "removedActiveProjects": [],
+    "removedDisplayCount": 12,
+    "publicDisplayCount": 0,
     "orphanProjectFoldersRemoved": [],
-    "brokenProjectRepositoryLinksFound": 0,
-    "existingProjectRecordsRetained": 104,
+    "existingProjectRecordsRetained": 105,
     "changedExistingHeads": [
       {
         "ref": "TA-IP-101",
@@ -2737,8 +2740,19 @@
         "treatment": "Existing profile, evidence date and price retained at the user’s instruction."
       }
     ],
-    "newProjectTestsPassed": 18,
-    "newProjectBlobsVerified": 52,
-    "boundary": "All 118 repository heads and the README/source inventories of 105 project repositories were checked. Thirteen publication repositories remain excluded from the asset count. MIPP is the only new project. Its 52 frozen Git blobs were verified and 18 local tests, protocol integrity and syntax checks passed. The other 104 project records, individual prices, grades and evidence dates are retained. The newer documented MIPP offline builds have not been source-imported into the repository and were not executed in this review. Inventory review is not full-portfolio test execution, independent appraisal or certification."
+    "boundary": "The owner removed all 12 separately hosted project-display repositories. Current repository presence was checked: 105 project repositories and the MyProjects catalogue remain, 106 repositories in total. No linked project display is currently published in this directory. All 105 software project records, individual prices, rights/transfer criteria and evidence dates are retained. This display-directory update does not claim new source qualification or a financial reassessment."
+  },
+  "latestDisplayDirectoryUpdate": {
+    "assessedAt": "2026-10-13T05:07:05Z",
+    "type": "DISPLAY_REPOSITORY_REMOVAL",
+    "removedDisplayCount": 12,
+    "currentRepositoryCount": 106,
+    "projectRepositoryCount": 105,
+    "publicationRepositoryCount": 1,
+    "publicDisplayCount": 0,
+    "retainedProjectCount": 105,
+    "individualPricesChanged": 0,
+    "projectRepositoriesRemoved": 0,
+    "boundary": "The owner removed all 12 separately hosted project-display repositories. Current repository presence was checked: 105 project repositories and the MyProjects catalogue remain, 106 repositories in total. No linked project display is currently published in this directory. All 105 software project records, individual prices, rights/transfer criteria and evidence dates are retained. This display-directory update does not claim new source qualification or a financial reassessment."
   }
 }

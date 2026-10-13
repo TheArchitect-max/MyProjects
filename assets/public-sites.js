@@ -2,7 +2,7 @@
 const SCRIPT=document.currentScript;
 const ROOT=new URL('../',SCRIPT.src).href;
 const AS=new URL('assets/',ROOT).href;
-const VERSION='sites11';
+const VERSION='sites12';
 const ESC=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const hex=b=>[...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('');
 const sha256=async s=>hex(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s)));
@@ -64,6 +64,7 @@ function decorateCards(ctx){
   });
 }
 function decorateHome(ctx){
+  if(!ctx.map.size)return;
   if(!document.querySelector('.hero-tenebrist')||document.querySelector('[data-public-sites-home]'))return;
   const main=document.querySelector('main');
   if(!main)return;
@@ -71,6 +72,7 @@ function decorateHome(ctx){
   main.insertAdjacentHTML('beforeend',`<section class="section ink-section" data-public-sites-home="1"><div class="shell"><div class="section-head"><div><p class="eyebrow">Project digital displays</p><h2>Explore a project before making your next decision.</h2></div><p>Open ${ctx.directory.siteCount} available digital displays, each linked to its software project. Website repositories are excluded from the IP-asset count.</p></div><div class="proof-grid">${cards}</div></div></section>`);
 }
 function decorateProof(ctx){
+  if(!ctx.map.size)return;
   if(!document.querySelector('.proof-status')||document.querySelector('[data-public-sites-proof]'))return;
   const main=document.querySelector('main');
   if(!main)return;
@@ -85,6 +87,7 @@ function decorate(ctx){
   decorateProof(ctx);
 }
 load().then(ctx=>{
+  if(!ctx.map.size)return;
   let scheduled=false;
   const run=()=>{scheduled=false;decorate(ctx)};
   const schedule=()=>{if(!scheduled){scheduled=true;queueMicrotask(run)}};

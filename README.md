@@ -1,5 +1,17 @@
 # THEARCHITECT_MAX — Private Technology & IP Portfolio
 
+## Current display-directory status — 13 October 2026
+
+All **12 separate project-display repositories have been removed by the owner**. The current inventory contains **106 repositories**: **105 independent software projects** and the **MyProjects catalogue**. There are **zero linked project digital displays**.
+
+All **105 project profiles and individual financial records are preserved**. The deleted websites were publication displays rather than separately priced assets. Old display links and buttons are removed; the catalogue, assessments and project enquiries remain available.
+
+Read [the current directory update](docs/DISPLAY_DIRECTORY_REMOVAL_2026-10-13.md). The snapshots below are historical: their former display counts describe earlier publications, not the current directory.
+
+---
+
+## Earlier catalogue publication — historical
+
 Explore **105 independent software IP assets**, each with its own TA-IP identifier, project profile, financial reference, rights and transfer perimeter.
 
 ## Current inventory and addition — 13 October 2026

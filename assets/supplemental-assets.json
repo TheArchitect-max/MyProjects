@@ -311,40 +311,52 @@
       "pricing_status": "seller-estimate"
     }
   ],
-  "catalogueUpdatedAt": "2026-10-12T09:21:42Z",
+  "catalogueUpdatedAt": "2026-10-13T05:07:05Z",
   "latestPortfolioScopeUpdate": {
-    "publishedAt": "2026-10-12T03:40:16Z",
-    "type": "WITHDRAWN_ASSET_REMOVAL",
-    "removedAssetCount": 1,
-    "currentAssetCount": 100,
-    "retainedIndividualPriceRecords": 100,
+    "publishedAt": "2026-10-13T05:07:05Z",
+    "type": "DISPLAY_DIRECTORY_REMOVAL",
+    "currentAssetCount": 105,
+    "retainedIndividualPriceRecords": 105,
     "identifiersReassigned": false,
     "currentPortfolio": {
-      "assetCount": 100,
+      "assetCount": 105,
       "stageCounts": {
         "developedSoftware": 56,
-        "developedPrototype": 41,
+        "developedPrototype": 46,
         "researchStage": 3,
         "definitionStage": 0
       },
-      "sellerAskEUR": 24368000,
-      "negotiationLowEUR": 19467400,
-      "negotiationHighEUR": 30539500,
-      "replacementCostEUR": 103920000,
-      "marketComparableProxyEUR": 118409425,
-      "incomeLicensingProxyEUR": 139464810,
-      "probabilityAdjustedStrategicValueEUR": 130446870,
-      "triangulatedEconomicReferenceEUR": 123211256,
-      "sellerAskAsShareOfTriangulated": 0.19777413842774236,
-      "sellerAskAsShareOfReplacementCost": 0.23448806774441877,
-      "pricedAssetCount": 100,
+      "sellerAskEUR": 24501500,
+      "negotiationLowEUR": 19573900,
+      "negotiationHighEUR": 30706375,
+      "replacementCostEUR": 104385000,
+      "marketComparableProxyEUR": 118772121,
+      "incomeLicensingProxyEUR": 139803493,
+      "probabilityAdjustedStrategicValueEUR": 130640104,
+      "triangulatedEconomicReferenceEUR": 123535413,
+      "sellerAskAsShareOfTriangulated": 0.19833584075199553,
+      "sellerAskAsShareOfReplacementCost": 0.23472242180389902,
+      "pricedAssetCount": 105,
       "unpricedAssetCount": 0,
-      "monetaryScope": "100 independently scoped software IP assets with retained individual price, evidence, rights and delivery assessments. The current portfolio totals include only active project records. Website and publication repositories are excluded from the IP-asset count.",
-      "averageTriangulatedEconomicReferencePerPricedAsset": 1232112.56
+      "monetaryScope": "105 independent software IP assets. MIPP has a first separate v0.1 present-source estimate; all 104 preceding individual prices and cost estimates are unchanged. Thirteen publication repositories are excluded.",
+      "averageTriangulatedEconomicReferencePerPricedAsset": 1176527.7428571428
     },
-    "proposedConnections": 26,
-    "uniqueConnectionMembers": 66,
-    "liveDigitalDisplays": 12,
-    "boundary": "This publication removes one withdrawn asset from the current portfolio and recalculates the aggregates from the remaining 100 records. Individual identifiers, prices, model assumptions, source versions, evidence dates and readiness criteria are retained. The 26 proposed connections retain 66 unique project members and their existing financial sums. This scope update does not claim new software tests, source qualification or independent valuation."
+    "proposedConnections": 33,
+    "uniqueConnectionMembers": 81,
+    "liveDigitalDisplays": 0,
+    "boundary": "The owner removed all 12 separately hosted project-display repositories. Current repository presence was checked: 105 project repositories and the MyProjects catalogue remain, 106 repositories in total. No linked project display is currently published in this directory. All 105 software project records, individual prices, rights/transfer criteria and evidence dates are retained. This display-directory update does not claim new source qualification or a financial reassessment."
+  },
+  "latestDisplayDirectoryUpdate": {
+    "assessedAt": "2026-10-13T05:07:05Z",
+    "type": "DISPLAY_REPOSITORY_REMOVAL",
+    "removedDisplayCount": 12,
+    "currentRepositoryCount": 106,
+    "projectRepositoryCount": 105,
+    "publicationRepositoryCount": 1,
+    "publicDisplayCount": 0,
+    "retainedProjectCount": 105,
+    "individualPricesChanged": 0,
+    "projectRepositoriesRemoved": 0,
+    "boundary": "The owner removed all 12 separately hosted project-display repositories. Current repository presence was checked: 105 project repositories and the MyProjects catalogue remain, 106 repositories in total. No linked project display is currently published in this directory. All 105 software project records, individual prices, rights/transfer criteria and evidence dates are retained. This display-directory update does not claim new source qualification or a financial reassessment."
   }
 }

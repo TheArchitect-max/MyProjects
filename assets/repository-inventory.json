@@ -1,22 +1,25 @@
 {
   "schema": "thearchitect-max-repository-inventory-v1",
-  "reviewedAt": "2026-10-13T04:20:04Z",
-  "websiteBaselineCommit": "14751c62692986917e8694ddfb6f5fd2f10ac022",
+  "reviewedAt": "2026-10-13T05:07:05Z",
+  "websiteBaselineCommit": "a1aa4a739c97f5bb9cb5b1227efbe14fe2a58507",
   "summary": {
-    "assessedAt": "2026-10-13T04:20:04Z",
-    "repositoryCount": 118,
+    "assessedAt": "2026-10-13T05:07:05Z",
+    "type": "DISPLAY_REPOSITORY_REMOVAL",
+    "repositoryCount": 106,
     "projectRepositoryCount": 105,
-    "publicationRepositoryCount": 13,
-    "repositoryHeadsChecked": 118,
-    "projectReadmesRead": 105,
-    "projectTreesRead": 105,
-    "newProjects": [
-      "TA-IP-106"
-    ],
+    "publicationRepositoryCount": 1,
+    "repositoryPresenceChecked": 106,
+    "repositoryHeadsChecked": 0,
+    "projectReadmesRead": 0,
+    "projectTreesRead": 0,
+    "retainedSourceInventoryProjects": 105,
+    "sourceInventoryAssessedAt": "2026-10-13T04:20:04Z",
+    "newProjects": [],
     "removedActiveProjects": [],
+    "removedDisplayCount": 12,
+    "publicDisplayCount": 0,
     "orphanProjectFoldersRemoved": [],
-    "brokenProjectRepositoryLinksFound": 0,
-    "existingProjectRecordsRetained": 104,
+    "existingProjectRecordsRetained": 105,
     "changedExistingHeads": [
       {
         "ref": "TA-IP-101",
@@ -26,24 +29,10 @@
         "treatment": "Existing profile, evidence date and price retained at the user’s instruction."
       }
     ],
-    "newProjectTestsPassed": 18,
-    "newProjectBlobsVerified": 52,
-    "boundary": "All 118 repository heads and the README/source inventories of 105 project repositories were checked. Thirteen publication repositories remain excluded from the asset count. MIPP is the only new project. Its 52 frozen Git blobs were verified and 18 local tests, protocol integrity and syntax checks passed. The other 104 project records, individual prices, grades and evidence dates are retained. The newer documented MIPP offline builds have not been source-imported into the repository and were not executed in this review. Inventory review is not full-portfolio test execution, independent appraisal or certification."
+    "boundary": "The owner removed all 12 separately hosted project-display repositories. Current repository presence was checked: 105 project repositories and the MyProjects catalogue remain, 106 repositories in total. No linked project display is currently published in this directory. All 105 software project records, individual prices, rights/transfer criteria and evidence dates are retained. This display-directory update does not claim new source qualification or a financial reassessment."
   },
   "publicationRepositories": [
-    "Adaptive-Audio-Synthesis-Platform-Website",
-    "BIND-AI-Computational-Neuroscience-IP-WEBSITE",
-    "CSIP-Website",
-    "CardioSignal-Website",
-    "DOMINUS-Platform-Website",
-    "EIMP-Website",
-    "Faunometric-Website",
-    "FusionLunar-Website",
-    "ISBR-SecureTrace-Website",
-    "MyProjects",
-    "SAIP-Website",
-    "TheArchitect-max-EGMERS-Website",
-    "VEGMPF-Website"
+    "MyProjects"
   ],
   "projects": [
     {
@@ -2488,5 +2477,48 @@
       "freshLocalTestsPerformed": true
     }
   ],
-  "scopePolicy": "One project record per existing project repository. Publication repositories are not independent assets. No deleted repository is inferred from an inaccessible or private URL. Stable withdrawn identifiers are never reused."
+  "scopePolicy": "All 105 existing project repositories retain their independent asset records. MyProjects is the sole remaining publication repository and is excluded from the asset count. Separate display links are added only after a new display publication is independently verified. Withdrawn identifiers are not reused.",
+  "previousSummary": {
+    "assessedAt": "2026-10-13T04:20:04Z",
+    "repositoryCount": 118,
+    "projectRepositoryCount": 105,
+    "publicationRepositoryCount": 13,
+    "repositoryHeadsChecked": 118,
+    "projectReadmesRead": 105,
+    "projectTreesRead": 105,
+    "newProjects": [
+      "TA-IP-106"
+    ],
+    "removedActiveProjects": [],
+    "orphanProjectFoldersRemoved": [],
+    "brokenProjectRepositoryLinksFound": 0,
+    "existingProjectRecordsRetained": 104,
+    "changedExistingHeads": [
+      {
+        "ref": "TA-IP-101",
+        "repository": "Universal-Video-Intelligence-Platform",
+        "retainedAssessmentHead": "10c1c9c702007a62bf032706a6042932a2fcc52b",
+        "observedHead": "889e0171f581bf285e1e1a53afcf2ab82fd9271a",
+        "treatment": "Existing profile, evidence date and price retained at the user’s instruction."
+      }
+    ],
+    "newProjectTestsPassed": 18,
+    "newProjectBlobsVerified": 52,
+    "boundary": "All 118 repository heads and the README/source inventories of 105 project repositories were checked. Thirteen publication repositories remain excluded from the asset count. MIPP is the only new project. Its 52 frozen Git blobs were verified and 18 local tests, protocol integrity and syntax checks passed. The other 104 project records, individual prices, grades and evidence dates are retained. The newer documented MIPP offline builds have not been source-imported into the repository and were not executed in this review. Inventory review is not full-portfolio test execution, independent appraisal or certification."
+  },
+  "repositoryPresenceCheckedAt": "2026-10-13T05:07:05Z",
+  "sourceInventoryAssessedAt": "2026-10-13T04:20:04Z",
+  "latestDisplayDirectoryUpdate": {
+    "assessedAt": "2026-10-13T05:07:05Z",
+    "type": "DISPLAY_REPOSITORY_REMOVAL",
+    "removedDisplayCount": 12,
+    "currentRepositoryCount": 106,
+    "projectRepositoryCount": 105,
+    "publicationRepositoryCount": 1,
+    "publicDisplayCount": 0,
+    "retainedProjectCount": 105,
+    "individualPricesChanged": 0,
+    "projectRepositoriesRemoved": 0,
+    "boundary": "The owner removed all 12 separately hosted project-display repositories. Current repository presence was checked: 105 project repositories and the MyProjects catalogue remain, 106 repositories in total. No linked project display is currently published in this directory. All 105 software project records, individual prices, rights/transfer criteria and evidence dates are retained. This display-directory update does not claim new source qualification or a financial reassessment."
+  }
 }
