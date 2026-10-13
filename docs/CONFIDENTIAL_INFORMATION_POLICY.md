@@ -21,3 +21,4 @@ Internal workflows, research methods, prompts, design reasoning and other non-pu
 - PUBLIC material may be referenced publicly.
 - CONTROLLED material is disclosed only to the extent required for a defined transaction.
 - RESTRICTED material is not placed in the public showroom.
+

@@ -38,3 +38,4 @@ May contain where relevant:
 - any other non-public know-how not expressly included in the transaction.
 
 The public acquisition record is designed to establish the offered asset, rights perimeter, third-party obligations and transfer evidence—not to disclose how the asset was created.
+

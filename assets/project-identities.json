@@ -983,7 +983,8 @@
   "scope": {
     "ipAssetCount": 105,
     "excludedRepositories": [
-      "MyProjects"
+      "MyProjects",
+      "Projects-Displays"
     ],
     "pricedAssetCount": 105,
     "unpricedAssetCount": 0
@@ -1109,6 +1110,20 @@
     "boundary": "The owner removed all 12 separately hosted project-display repositories. Current repository presence was checked: 105 project repositories and the MyProjects catalogue remain, 106 repositories in total. No linked project display is currently published in this directory. All 105 software project records, individual prices, rights/transfer criteria and evidence dates are retained. This display-directory update does not claim new source qualification or a financial reassessment."
   },
   "latestDisplayDirectoryUpdate": {
+    "assessedAt": "2026-10-13T06:09:04Z",
+    "type": "INTEGRATED_PROJECT_DISPLAYS",
+    "currentRepositoryCount": 107,
+    "projectRepositoryCount": 105,
+    "publicationRepositoryCount": 2,
+    "publicDisplayCount": 105,
+    "retainedProjectCount": 105,
+    "individualPricesChanged": 0,
+    "projectRepositoriesRemoved": 0,
+    "hubUrl": "https://thearchitect-max.github.io/MyProjects/",
+    "displayBaseUrl": "https://thearchitect-max.github.io/MyProjects/displays/",
+    "boundary": "All 105 independently scoped project records now have a matching buyer-facing display, maintained together in Projects-Displays and published within MyProjects. The connected repository inventory contains 107 repositories: 105 project repositories and two presentation repositories. This publication changes display navigation and presentation; retained product qualification, rights, transfer assessments and individual prices keep their own dates and scope."
+  },
+  "previousDisplayDirectoryUpdate": {
     "assessedAt": "2026-10-13T05:07:05Z",
     "type": "DISPLAY_REPOSITORY_REMOVAL",
     "removedDisplayCount": 12,

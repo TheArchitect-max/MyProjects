@@ -1,0 +1,41 @@
+{
+  "schema": "integrated-project-displays-validation-v1",
+  "recordedAt": "2026-10-13T06:22:25.365803+00:00",
+  "staticChecks": {
+    "projectsMatched": 105,
+    "pricesMatched": 105,
+    "productDisplays": 105,
+    "factsheets": 105,
+    "editableBriefs": 105,
+    "projectProfilesLinked": 105,
+    "hubReturnButtonsChecked": 210,
+    "exhibitPagesChecked": 110,
+    "internalLinksAndFragmentsChecked": 3100,
+    "mirroredFilesChecked": 318,
+    "directoryDigestsPassed": true,
+    "missingTargets": 0,
+    "workflowFilesAdded": 0
+  },
+  "factsheetBytesRetainedFromSuppliedPackage": 105,
+  "existingCommercialAndQualificationRegistersUnchanged": true,
+  "hubRuntimeValidation": {
+    "schema": "project-display-hub-runtime-validation-v1",
+    "checkedAt": "2026-10-13T06:21:18.027Z",
+    "projectsLoaded": 105,
+    "projectProfilesRendered": 105,
+    "connectionsRendered": 33,
+    "attestedRegistersVerified": 15,
+    "registerIntegrityPassed": true,
+    "financialReconciliationPassed": true,
+    "sellerAskEUR": 24501500,
+    "recreationCostEUR": 104385000,
+    "repositoryCount": 107,
+    "publicDisplayCount": 105,
+    "boundary": "Real hub data-loading, register validation, financial reconciliation and HTML rendering executed in Node with local file-backed fetch. This is not visual browser verification or underlying product software validation.",
+    "displayDirectoryLoaderPassed": true,
+    "displayLinksGenerated": 105
+  },
+  "visualBrowserVerificationPerformed": false,
+  "underlyingProductTestsReexecuted": false,
+  "scope": "Presentation, canonical linkage, static assets and real hub register/rendering execution. Existing software qualification and financial assessment dates are retained."
+}

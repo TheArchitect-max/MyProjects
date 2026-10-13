@@ -1,6 +1,19 @@
 # THEARCHITECT_MAX — Private Technology & IP Portfolio
 
-## Current display-directory status — 13 October 2026
+## Integrated project displays — 13 October 2026
+
+All **105 independent software projects** now have their own buyer-facing display, factsheet and editable product brief. Displays are maintained in the single **Projects-Displays** repository and published inside the existing hub at **/MyProjects/displays/**. The collection, project profiles and proposed connections open the display belonging to the same canonical TA-IP reference. Every display has a **Return to hub** button leading to the main page, plus a link to its full project profile.
+
+The connected inventory contains **107 repositories: 105 product repositories and two presentation repositories**. Individual prices and dated product assessments are retained. This is a static informational exhibition; acquisition enquiries remain user-controlled drafts and transactions close separately.
+
+Read [the integration record](docs/PROJECT_DISPLAYS_INTEGRATION_2026-10-13.md) and [open the exhibition](https://thearchitect-max.github.io/MyProjects/displays/).
+
+The directory records below are historical snapshots.
+
+---
+
+
+## Historical display-directory status — 13 October 2026
 
 All **12 separate project-display repositories have been removed by the owner**. The current inventory contains **106 repositories**: **105 independent software projects** and the **MyProjects catalogue**. There are **zero linked project digital displays**.
 
@@ -74,3 +87,4 @@ The GitHub Pages site is an informational portfolio. It hosts no SaaS runtime, c
 Serve the repository root through its existing native GitHub Pages configuration. No custom application-server workflow is required. Git history retains prior publication states; current authoritative registers supersede their dated counts and prices. The [preceding institutional memorandum](docs/INSTITUTIONAL_PORTFOLIO_MEMORANDUM.md) is explicitly historical beneath its current preface.
 
 © 2026 THEARCHITECT_MAX. All rights reserved.
+

@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.13-im70-repository-inventory-and-mipp",
+  "version": "2026.10.13-im72-integrated-project-displays",
   "publicationDate": "2026-10-13",
   "portfolioAssetCount": 105,
   "valuationBasisDate": "2026-10-13",
@@ -17,8 +17,8 @@
     },
     "public-sites.json": {
       "algorithm": "SHA-256",
-      "sha256": "88559c5a732d4fab215d8dec799ce7225d32807e9013afff9cc67dd3659426d3",
-      "bytes": 1534
+      "sha256": "5b7915838ec7918504a1a656d1957c271284c09951bd4da078b0365c0f292815",
+      "bytes": 75120
     },
     "future-economic-references.json": {
       "algorithm": "SHA-256",
@@ -42,8 +42,8 @@
     },
     "portfolio-audit-certificate.json": {
       "algorithm": "SHA-256",
-      "sha256": "5c091f9f8c9f5d7e85d71bba62443ee9da8be9f41872375b663fc640c07bffef",
-      "bytes": 28756
+      "sha256": "73a68a0f79ec180015693f8dd1b803295bd96bde04fc0f491b2625cff9fee8e6",
+      "bytes": 29749
     },
     "rights-transfer-register.json": {
       "algorithm": "SHA-256",
@@ -57,8 +57,8 @@
     },
     "project-identities.json": {
       "algorithm": "SHA-256",
-      "sha256": "8b8d30eb4778cedfc1ea740c0bc4931b275746465d85449412688819525ee491",
-      "bytes": 38475
+      "sha256": "ad20c7c117c57be3ed125fb1bdca91c87aa9527871396e2ab11ed2dfbcbaf186",
+      "bytes": 39495
     },
     "descriptions.json": {
       "algorithm": "SHA-256",
@@ -112,8 +112,8 @@
     },
     "repository-inventory.json": {
       "algorithm": "SHA-256",
-      "sha256": "831749dd6f37baf093aeae58b0190142d1b417c533e008155f807f451bb11a38",
-      "bytes": 85683
+      "sha256": "a32da354c22afdba3ed9a60f26b42ac7627c9541014ed84e9be2c3bec31b0bcd",
+      "bytes": 86643
     },
     "valuation-sources.json": {
       "algorithm": "SHA-256",
@@ -124,13 +124,13 @@
   "verification": {
     "browserIntegrity": "The public renderer fetches the valuation register and methodology as raw text, recomputes SHA-256 in the browser and compares the result with this attestation.",
     "valuationReconciliation": "The public renderer assembles the current asset register, applies published overrides, recalculates asset-level analytical economics and compares aggregate values with the published portfolio totals.",
-    "publicSiteDirectory": "The public project-site enhancer recomputes the SHA-256 digest of the site directory before presenting its integrity state.",
+    "publicSiteDirectory": "Verify all 105 display identities and the SHA-256 digests of the display directory and project identity register before adding display navigation to the hub.",
     "existenceBoundary": "The timestamped public publication and matching digests demonstrate existence and integrity of the public commercial record as published. They do not independently prove authorship, legal title, patent priority, source-code identity, scientific validity, security assurance, certified valuation or commercial outcome.",
     "futureEconomicReferences": "Verify current asset-level maturity sensitivities using the retained methodology; these are not future asking prices or financial-return forecasts.",
     "sellerReadiness": "Verify the dated criteria disclosure and corrected readiness records. Integrity checks establish unchanged published bytes and cross-register consistency; they do not establish completed transfer gates or independent certification.",
     "rightsTransfer": "The public renderer verifies the seller-readiness, IP-ownership, software supply-chain, portfolio audit and rights-transfer records. The public transaction layer focuses on the offered rights, third-party obligations and transfer perimeter rather than internal development methods.",
-    "projectEvaluations": "Each of the 104 active software assets has a dated identity, evidence, rights, financial and handover record. Fresh tests apply only to the seven specifically reviewed projects and their pinned main/development sources.",
-    "projectIdentities": "Verify 104 unique active identifiers, titles and single reference aliases. Thirteen publication repositories are excluded; 12 live project displays are available. Stable identifiers may contain gaps.",
+    "projectEvaluations": "Each of the 105 active software assets has separately dated identity, evidence, rights, financial and handover records. This display publication does not re-execute underlying product tests or independently certify those records.",
+    "projectIdentities": "Verify 105 unique active identifiers, titles and reference aliases. MyProjects and Projects-Displays are presentation repositories excluded from the IP asset count. Each project has a matching digital display and stable identifiers may contain gaps.",
     "projectConnections": "Verify the proposed-connection register, resolve every member against its independent TA-IP asset record, reject project reuse across combinations and recompute both the combined asking reference and recreation-cost total from the current individual financial references. This verifies identities, unique allocation and arithmetic; it does not establish technical integration."
   },
   "privacyBoundary": "Public records expose seller-side commercial, rights, transfer, evidence and non-sensitive supply-chain metadata only. Internal development methods, proprietary know-how, credentials, customer data, sensitive implementation details and transaction-confidential material remain outside the public showroom.",
@@ -143,27 +143,10 @@
   "unpricedAssetCount": 0,
   "latestSeparateAssetPricingAt": "2026-10-09T06:22:41Z",
   "latestPageRefresh": {
-    "assessedAt": "2026-10-12T09:21:42Z",
-    "checkedAt": "2026-10-12T09:21:42Z",
-    "previousEvaluationDate": "2026-10-12",
-    "repositoryCount": 117,
-    "defaultBranchesChecked": 104,
-    "existingDefaultBranchesChanged": 2,
-    "openPullRequestsChecked": 36,
-    "projectsReviewed": 104,
-    "unassessedProjects": 0,
-    "updatedAssetProfiles": 7,
-    "reconfirmedExistingProfiles": 97,
-    "newSoftwareAssets": 4,
-    "monetaryChanges": 6,
-    "displayCount": 12,
-    "sourceTreesByteVerified": 9,
-    "uniqueSourceBlobsVerified": 513,
-    "connectionReadmesReviewed": 74,
-    "proposedConnections": 30,
-    "boundary": "All 117 repositories and 36 open pull requests were compared with the preceding portfolio. The 104 active software assets are independently scoped; 13 publication repositories are excluded. Nine pinned source trees from seven projects were byte-verified and locally tested. Current-main, unmerged development, historical validation and future specifications remain separate. The current video prototype passes its mandatory 73-test/build gate; the earlier blocker is resolved. Remote perception retains an explicitly blocked commercial transfer gate. CRE and the mission framework retain open rights/delivery conditions. No physical, anomalous-perception, independently certified rights/security, production hosting or future scientific capability is established by local tests."
+    "at": "2026-10-13T06:09:04Z",
+    "scope": "105 project displays and their hub navigation"
   },
-  "publicDisplayCount": 0,
+  "publicDisplayCount": 105,
   "latestIndividualPricingAt": "2026-10-13T04:20:04Z",
   "previousTargetedAssetReview": {
     "slug": "distributed-ai-resource-fabric",
@@ -470,17 +453,18 @@
     "boundary": "Launch & Cislunar Transportation Engineering Platform is the separately scoped launch and cislunar transport module for FusionLunar studies. The documented demand/result interface supports the relationship; this update does not establish a new shared runtime, completed end-to-end integration or flight-qualified transport. Both projects retain their own asset identity, price and transfer scope."
   },
   "latestPublicDisplayUpdate": {
-    "assessedAt": "2026-10-13T05:07:05Z",
-    "type": "DISPLAY_REPOSITORY_REMOVAL",
-    "removedDisplayCount": 12,
-    "currentRepositoryCount": 106,
+    "assessedAt": "2026-10-13T06:09:04Z",
+    "type": "INTEGRATED_PROJECT_DISPLAYS",
+    "currentRepositoryCount": 107,
     "projectRepositoryCount": 105,
-    "publicationRepositoryCount": 1,
-    "publicDisplayCount": 0,
+    "publicationRepositoryCount": 2,
+    "publicDisplayCount": 105,
     "retainedProjectCount": 105,
     "individualPricesChanged": 0,
     "projectRepositoriesRemoved": 0,
-    "boundary": "The owner removed all 12 separately hosted project-display repositories. Current repository presence was checked: 105 project repositories and the MyProjects catalogue remain, 106 repositories in total. No linked project display is currently published in this directory. All 105 software project records, individual prices, rights/transfer criteria and evidence dates are retained. This display-directory update does not claim new source qualification or a financial reassessment."
+    "hubUrl": "https://thearchitect-max.github.io/MyProjects/",
+    "displayBaseUrl": "https://thearchitect-max.github.io/MyProjects/displays/",
+    "boundary": "All 105 independently scoped project records now have a matching buyer-facing display, maintained together in Projects-Displays and published within MyProjects. The connected repository inventory contains 107 repositories: 105 project repositories and two presentation repositories. This publication changes display navigation and presentation; retained product qualification, rights, transfer assessments and individual prices keep their own dates and scope."
   },
   "latestFullPortfolioReview": {
     "assessedAt": "2026-10-12T09:21:42Z",
@@ -590,6 +574,20 @@
     "boundary": "The owner removed all 12 separately hosted project-display repositories. Current repository presence was checked: 105 project repositories and the MyProjects catalogue remain, 106 repositories in total. No linked project display is currently published in this directory. All 105 software project records, individual prices, rights/transfer criteria and evidence dates are retained. This display-directory update does not claim new source qualification or a financial reassessment."
   },
   "latestDisplayDirectoryUpdate": {
+    "assessedAt": "2026-10-13T06:09:04Z",
+    "type": "INTEGRATED_PROJECT_DISPLAYS",
+    "currentRepositoryCount": 107,
+    "projectRepositoryCount": 105,
+    "publicationRepositoryCount": 2,
+    "publicDisplayCount": 105,
+    "retainedProjectCount": 105,
+    "individualPricesChanged": 0,
+    "projectRepositoriesRemoved": 0,
+    "hubUrl": "https://thearchitect-max.github.io/MyProjects/",
+    "displayBaseUrl": "https://thearchitect-max.github.io/MyProjects/displays/",
+    "boundary": "All 105 independently scoped project records now have a matching buyer-facing display, maintained together in Projects-Displays and published within MyProjects. The connected repository inventory contains 107 repositories: 105 project repositories and two presentation repositories. This publication changes display navigation and presentation; retained product qualification, rights, transfer assessments and individual prices keep their own dates and scope."
+  },
+  "previousDisplayDirectoryUpdate": {
     "assessedAt": "2026-10-13T05:07:05Z",
     "type": "DISPLAY_REPOSITORY_REMOVAL",
     "removedDisplayCount": 12,
