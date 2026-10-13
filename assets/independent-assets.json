@@ -1,7 +1,7 @@
 {
-  "version": "2026.10.12-im68-full-portfolio-revision",
+  "version": "2026.10.13-im70-repository-inventory-and-mipp",
   "scopeUpdatedAt": "2026-10-10T22:16:09Z",
-  "policy": "Seven independently scoped software IP assets with individual asking references and transfer perimeters. Each estimate covers its own existing first-party implementation. Internal modules are counted once inside their project; target-project rights and website repositories are excluded.",
+  "policy": "Each listed project is an independently scoped software IP asset with its own asking reference, recreation estimate, evidence and transfer perimeter.",
   "assets": [
     {
       "id": 95,
@@ -222,9 +222,29 @@
       "pricingStatus": "SELLER_SIDE_ESTIMATE_ESTABLISHED",
       "independentIpAsset": true,
       "economicAssessmentAt": "2026-10-12T09:21:42Z"
+    },
+    {
+      "id": 106,
+      "ref": "TA-IP-106",
+      "slug": "manuscript-integrity-publishing-platform",
+      "name": "Manuscript Integrity & Publishing Platform",
+      "familyId": "audio-media",
+      "sector": "Media & Creator Technology",
+      "stage": "P",
+      "potential": "M",
+      "route": "Media / creator software",
+      "ask": 21000,
+      "low": 16800,
+      "high": 26250,
+      "recreationCost": 70000,
+      "description": "Write and assemble your chapters, track editorial evidence and defects, and prepare an author-approved manuscript for manual publication handoff.",
+      "pricingScope": "Existing first-party v0.1.0 local manuscript authoring, DOCX assembly, evidence-linked eight-gate/40-stage quality workflow, defect and change controls, explicit author release authorization, read-only dashboard, manual Draft2Digital handoff, tests and documentation at the frozen repository baseline. The embedded author-supplied protocol must have separately agreed use/transfer rights. Author manuscripts, creative archive ownership, author identity/pen-name rights, third-party services and templates, separately staged v0.2–v0.5 application code, automated literary/factual certification, autonomous book generation, live distribution and future SaaS are outside this price.",
+      "pricingStatus": "SELLER_SIDE_ESTIMATE_ESTABLISHED",
+      "independentIpAsset": true,
+      "economicAssessmentAt": "2026-10-13T04:20:04Z"
     }
   ],
-  "catalogueUpdatedAt": "2026-10-12T09:21:42Z",
+  "catalogueUpdatedAt": "2026-10-13T04:20:04Z",
   "latestIdentityUpdate": {
     "assessedAt": "2026-10-12T09:21:42Z",
     "type": "FOUR_SOFTWARE_ADDITIONS_AND_ONE_CONFIRMED_REPOSITORY_RENAME",

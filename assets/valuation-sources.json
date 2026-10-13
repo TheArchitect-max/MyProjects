@@ -1,0 +1,156 @@
+{
+  "schema": "thearchitect-max-valuation-sources-v1",
+  "reviewedAt": "2026-10-13T04:20:04Z",
+  "title": "Sources, assumptions and calculation trail",
+  "scope": "External contextual sources were checked for the new MIPP assessment and portfolio method disclosure. Existing individual prices and their dates are retained; this is not a new independent valuation of all projects.",
+  "sources": [
+    {
+      "id": "WIPO-COST",
+      "publisher": "WIPO",
+      "title": "Intellectual Property Valuation Basics — The cost method",
+      "url": "https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html",
+      "reviewedAt": "2026-10-13T04:20:04Z",
+      "type": "METHOD_CONTEXT",
+      "finding": "Cost-based reproduction/replacement is a starting point; cost and negotiated value may differ.",
+      "application": "Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO."
+    },
+    {
+      "id": "KNAB-2026",
+      "publisher": "Knab",
+      "title": "Software developer freelance rates in 2026",
+      "url": "https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst",
+      "reviewedAt": "2026-10-13T04:20:04Z",
+      "sourceUpdatedAt": "2026-07-01",
+      "type": "DUTCH_RATE_SURVEY",
+      "finding": "Reported 2026 mean software-developer rate: EUR 94/hour excluding VAT; broader survey includes over 20,000 Dutch self-employed people.",
+      "application": "External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them."
+    },
+    {
+      "id": "UPWORK-RATES",
+      "publisher": "Upwork",
+      "title": "Software developer hiring costs",
+      "url": "https://www.upwork.com/hire/software-developers/cost/",
+      "reviewedAt": "2026-10-13T04:20:04Z",
+      "type": "GLOBAL_MARKETPLACE_RATE_CONTEXT",
+      "finding": "Global headline range USD 10–100/hour; the detailed expert tier is USD 70–150+/hour.",
+      "application": "Broad expertise/location sensitivity only. Global marketplace contract ranges are not a Dutch quote or an IP-sale comparable."
+    }
+  ],
+  "internalEvidence": {
+    "id": "MIPP-SOURCE",
+    "repository": "Manuscript-Integrity-Publishing-Platform",
+    "sourceHead": "9b8b8d39cd86289fcd70c3684172a44062879bba",
+    "filesVerified": 52,
+    "testsPassed": 18,
+    "evidencePaths": [
+      "README.md",
+      "NOTICE.md",
+      "pyproject.toml",
+      "VALIDATION_REPORT.json",
+      "mipp/resources/protocol_lock.json",
+      "docs/V050_RAYFORD_STYLE_STUDIO_STAGING.md"
+    ],
+    "access": "Private source available through controlled review; no source code or author content is published here."
+  },
+  "roles": [
+    {
+      "name": "Senior engineer",
+      "monthEUR": 18000,
+      "assumedHoursPerMonth": 160,
+      "impliedHourlyEUR": 112.5
+    },
+    {
+      "name": "Lead / specialist",
+      "monthEUR": 22000,
+      "assumedHoursPerMonth": 160,
+      "impliedHourlyEUR": 137.5
+    },
+    {
+      "name": "Validation / provenance",
+      "monthEUR": 16000,
+      "assumedHoursPerMonth": 160,
+      "impliedHourlyEUR": 100
+    }
+  ],
+  "assumptions": [
+    "Engineering-equivalent effort is not recorded development time or actual expenditure.",
+    "The retained role budgets are analyst choices; Knab and Upwork provide context and do not endorse them.",
+    "The 15% coordination/tooling allowance is not added as a second hourly-rate overhead; it budgets separate project-level coordination and tooling work.",
+    "The 30% seller asking factor is a negotiation choice, not a market-observed IP discount.",
+    "Market, income and strategic proxies share the same cost anchor; they are correlated model scenarios, not three independent valuations.",
+    "No paid-user base, attributable recurring income, completed comparable sale or independent certified appraisal is evidenced for MIPP."
+  ],
+  "newAssetBudget": {
+    "slug": "manuscript-integrity-publishing-platform",
+    "ref": "TA-IP-106",
+    "basis": "First separate present-source v0.1 estimate",
+    "economicAssessmentAt": "2026-10-13T04:20:04Z",
+    "sourceHead": "9b8b8d39cd86289fcd70c3684172a44062879bba",
+    "retainedFileCount": 52,
+    "seniorEngineerMonths": 2.25,
+    "leadOrSpecialistMonths": 0.5,
+    "validationProvenanceMonths": 0.75,
+    "rawEngineeringCostEUR": 63500,
+    "withAllowanceEUR": 73025,
+    "adoptedRecreationCostEUR": 70000,
+    "scope": "Existing first-party v0.1.0 local manuscript authoring, DOCX assembly, evidence-linked eight-gate/40-stage quality workflow, defect and change controls, explicit author release authorization, read-only dashboard, manual Draft2Digital handoff, tests and documentation at the frozen repository baseline. The embedded author-supplied protocol must have separately agreed use/transfer rights. Author manuscripts, creative archive ownership, author identity/pen-name rights, third-party services and templates, separately staged v0.2–v0.5 application code, automated literary/factual certification, autonomous book generation, live distribution and future SaaS are outside this price.",
+    "workPackages": [
+      {
+        "scope": "Immutable protocol and sequential evidence gates",
+        "seniorEngineerMonths": 0.65,
+        "leadOrSpecialistMonths": 0.15,
+        "validationProvenanceMonths": 0.15
+      },
+      {
+        "scope": "Chapter input, manuscript inspection and DOCX assembly",
+        "seniorEngineerMonths": 0.5,
+        "leadOrSpecialistMonths": 0.1,
+        "validationProvenanceMonths": 0.1
+      },
+      {
+        "scope": "Defects, authorization and change invalidation",
+        "seniorEngineerMonths": 0.5,
+        "leadOrSpecialistMonths": 0.15,
+        "validationProvenanceMonths": 0.2
+      },
+      {
+        "scope": "Local dashboard, CLI and manual handoff",
+        "seniorEngineerMonths": 0.3,
+        "leadOrSpecialistMonths": 0.05,
+        "validationProvenanceMonths": 0.1
+      },
+      {
+        "scope": "Regression fixtures, provenance and handover documentation",
+        "seniorEngineerMonths": 0.3,
+        "leadOrSpecialistMonths": 0.05,
+        "validationProvenanceMonths": 0.2
+      }
+    ],
+    "askingShareOfAdoptedRecreationCost": 0.3,
+    "costAssumptionsDocument": "docs/MIPP_ASSESSMENT_AND_VALUATION_2026-10-13.md",
+    "sourceReferences": [
+      "MIPP-SOURCE",
+      "WIPO-COST",
+      "KNAB-2026",
+      "UPWORK-RATES"
+    ],
+    "boundary": "Work effort, retained role rates, 15% allowance, rounding and 30% asking factor are seller-side analyst assumptions; they are not recorded hours, expenditure, contractor quotations, market transactions or an independent appraisal."
+  },
+  "calculation": {
+    "assumedHours": 560,
+    "directCostEUR": 63500,
+    "coordinationToolingAllowanceEUR": 9525,
+    "totalBudgetEUR": 73025,
+    "adoptedRecreationCostEUR": 70000,
+    "roundingAdjustmentEUR": -3025,
+    "sellerAskingFactor": 0.3,
+    "sellerAskEUR": 21000,
+    "negotiationLowEUR": 16800,
+    "negotiationHighEUR": 26250,
+    "flatKnabMeanSensitivityEUR": 60536,
+    "sensitivityLowEUR": 41055,
+    "sensitivityHighEUR": 110688,
+    "sensitivityBasis": "Low: 420 assumed hours at EUR 85/hour +15%; high: 700 hours at EUR 137.50/hour +15%. These effort/rate bounds are analyst scenarios, not a statistical confidence interval. Flat-rate comparison: 560 hours at the published Knab EUR 94 mean +15%."
+  },
+  "methodBoundary": "These external sources support method/rate context. The project amount follows the disclosed source scope and analyst effort/price assumptions. It is a seller asking reference, not established market value."
+}

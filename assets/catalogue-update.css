@@ -1,0 +1,10 @@
+/* Scoped additions for the MIPP evidence and cost dossier. */
+.budget-table-wrap{overflow-x:auto;margin:28px 0;border:1px solid var(--line)}
+.budget-table{border-collapse:collapse;width:100%;min-width:610px;font-size:.86rem}
+.budget-table caption{text-align:left;padding:18px;color:var(--gold);font-weight:700}
+.budget-table th,.budget-table td{padding:14px 18px;text-align:left;border-top:1px solid var(--line);vertical-align:top}
+.budget-table thead th{color:var(--gold);font-size:.75rem}
+.budget-table tbody th{font-weight:400;color:var(--ivory)}
+.budget-table tbody tr:last-child th,.budget-table tbody tr:last-child td{font-weight:700}
+#product-scope li{margin:10px 0;color:var(--muted)}
+#product-scope .proof-card{min-height:0}

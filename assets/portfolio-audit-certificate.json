@@ -1,41 +1,42 @@
 {
   "schema": "thearchitect-max-portfolio-audit-certificate-v4",
-  "basisDate": "2026-10-12",
+  "basisDate": "2026-10-13",
   "repository": "TheArchitect-max/MyProjects",
-  "sourceHeadAtCertificatePreparation": "3ffc8e72d5eecebcb7d77114627d28a5ddc8c1a8",
+  "sourceHeadAtCertificatePreparation": "14751c62692986917e8694ddfb6f5fd2f10ac022",
   "scope": {
-    "ipAssetCount": 104,
-    "pricedAssetCount": 104,
+    "ipAssetCount": 105,
+    "pricedAssetCount": 105,
     "unpricedAssetCount": 0
   },
   "audit": {
     "sellerReadinessStatus": "COMPLETE",
-    "auditedProjects": 104,
+    "auditedProjects": 105,
     "pendingProjects": 0,
     "transactionReadiness": {
-      "audited": 104,
+      "audited": 105,
       "pending": 0,
       "ready": 0,
-      "readyWithConditions": 94,
+      "readyWithConditions": 95,
       "notReady": 10
     },
     "evidenceMaturityDistribution": {
       "E1": 7,
       "E3": 44,
       "E4": 17,
-      "E2": 36
+      "E2": 37
     },
     "ipRightsMaturityDistribution": {
       "R2": 92,
       "R0": 5,
-      "R3": 7
+      "R3": 7,
+      "R1": 1
     },
     "commercialMaturityDistribution": {
-      "C2": 104
+      "C2": 105
     },
     "transferReadinessDistribution": {
       "T1": 10,
-      "T2": 10,
+      "T2": 11,
       "T3": 84
     },
     "topOpenSellerItems": [
@@ -90,53 +91,53 @@
     ]
   },
   "economics": {
-    "sellerAskEUR": 24480500,
-    "negotiationLowEUR": 19557100,
-    "negotiationHighEUR": 30680125,
-    "replacementCostEUR": 104315000,
-    "triangulatedEconomicReferenceEUR": 123487987,
-    "milestoneConditionalNumericReferences": 48,
-    "milestoneReferencesNotEstablished": 56,
-    "pricedAssetCount": 104,
+    "sellerAskEUR": 24501500,
+    "negotiationLowEUR": 19573900,
+    "negotiationHighEUR": 30706375,
+    "replacementCostEUR": 104385000,
+    "triangulatedEconomicReferenceEUR": 123535413,
+    "pricedAssetCount": 105,
     "unpricedAssetCount": 0,
-    "monetaryScope": "104 independent software IP assets with individual seller asking references and defined existing-scope recreation estimates. Four new prototypes and two implemented increments have updated estimates; the other 98 existing prices are retained. Website repositories are excluded."
+    "monetaryScope": "105 independent software IP assets. MIPP has a first separate v0.1 present-source estimate; all 104 preceding individual prices and cost estimates are unchanged. Thirteen publication repositories are excluded.",
+    "milestoneConditionalNumericReferences": 49,
+    "milestoneReferencesNotEstablished": 56
   },
   "sourceObjects": {
     "sellerReadinessRegister": {
       "path": "assets/seller-readiness-register.json",
-      "gitBlobSha": "075021e33fec0109eb83cd3d17c831ad09f73b8b"
+      "gitBlobSha": "d8e76996eb59ceea5c6f8f137d62e6348ffbe6e6"
     },
     "valuationRegister": {
       "path": "assets/valuation-register.json",
-      "gitBlobSha": "75d3188227822b5e13e2865a428edd9042933750"
+      "gitBlobSha": "a662da7b94f60d67b2cb249d98f18b1aafe6e897"
     },
     "futureEconomicReferences": {
       "path": "assets/future-economic-references.json",
-      "gitBlobSha": "df1a1f9711ee8d052c19b98b414d0a9e4f3d94cb"
+      "gitBlobSha": "90124d5452fd9fcb97b08b6fe8d5cfcb276bca9c"
     },
     "projectIdentities": {
       "path": "assets/project-identities.json",
-      "gitBlobSha": "b9325af6ccb458d57e922d07512d11a5d957718f"
+      "gitBlobSha": "90b8fb96f4d2e40c4946ac8b0dba4f580c830a8e"
     },
     "ipOwnershipRegister": {
       "path": "assets/ip-ownership-register.json",
-      "gitBlobSha": "bc22aa59b65612991bf4bec122a27602444cc5a9"
+      "gitBlobSha": "13d0620a6777ef9a02482f7d608e25caf81ff591"
     },
     "softwareSupplyChainSummary": {
       "path": "assets/software-supply-chain-summary.json",
-      "gitBlobSha": "c087753617e350893d8e0d4228b1d020b402fd02"
+      "gitBlobSha": "e4ae1f1d5d24f767e439e7e766d62e52b3398fa2"
     },
     "rightsTransferRegister": {
       "path": "assets/rights-transfer-register.json",
-      "gitBlobSha": "305fb8e1da50d1e518d51201d0bca73597fa1394"
+      "gitBlobSha": "06bb4bbe836a86a7abd8f246f3c6601cafb26865"
     },
     "projectEvaluations": {
       "path": "assets/project-evaluations.json",
-      "gitBlobSha": "c0a88670e9426e9fd7a655748b39f91746049434"
+      "gitBlobSha": "05e0810bcdff3fab42057defa7b01fc169002268"
     },
     "projectPresentations": {
       "path": "assets/project-presentations.json",
-      "gitBlobSha": "dfbd7325b0d30fe9fdfa3ec4708881c5d2f35959"
+      "gitBlobSha": "a8cecdd18fccdfbfc0dd3a3327205dc10d967816"
     }
   },
   "externalStandards": [
@@ -165,7 +166,7 @@
     "developmentMethodDisclosure": "OUTSIDE_PUBLIC_TRANSACTION_RECORD",
     "legalChainOfTitleOpinion": "NOT_PERFORMED_UNLESS_SEPARATELY_EVIDENCED"
   },
-  "assessedAt": "2026-10-12T09:21:42Z",
+  "assessedAt": "2026-10-13T04:20:04Z",
   "previousBasisDate": "2026-10-10",
   "fullEvaluationUpdate": {
     "date": "2026-10-10",
@@ -178,7 +179,7 @@
     "ipAssetsEvaluated": 97,
     "previousAssessedAt": "2026-10-09T10:15:23Z"
   },
-  "catalogueUpdatedAt": "2026-10-12T09:21:42Z",
+  "catalogueUpdatedAt": "2026-10-13T04:20:04Z",
   "latestSeparateAssetPricing": {
     "assessedAt": "2026-10-09T06:22:41Z",
     "assetCount": 3,
@@ -230,107 +231,29 @@
     "boundary": "DARF only: current source, retained exact-commit validation, rights, delivery conditions and seller-side economics. The other 96 asset assessments and monetary inputs retain their earlier dates and conclusions; portfolio totals are recomputed."
   },
   "latestFinancialReassessment": {
-    "assessedAt": "2026-10-12T09:21:42Z",
-    "type": "FULL_PORTFOLIO_SOURCE_REVIEW_AND_TARGETED_REASSESSMENT",
-    "assetsReassessed": 6,
-    "monetaryReferencesChanged": 6,
-    "assetAdditions": 4,
-    "unchangedAssetPrices": 98,
-    "otherAssetRecordsRetained": 98,
+    "assessedAt": "2026-10-13T04:20:04Z",
+    "type": "NEW_ASSET_SOURCE_REVIEW_WITH_EXISTING_RECORDS_PRESERVED",
+    "assetsReassessed": 1,
+    "monetaryReferencesChanged": 1,
+    "assetAdditions": 1,
+    "unchangedAssetPrices": 104,
+    "otherAssetRecordsRetained": 104,
     "unchangedCommercialFactors": true,
     "softwareMaturityChanged": false,
     "assets": [
       {
-        "ref": "TA-IP-093",
-        "slug": "aurynthiq-autonomous-dj-intelligence-platform",
-        "title": "Aurynthiq Autonomous DJ Intelligence Platform",
-        "previousSellerAskEUR": 40000,
-        "sellerAskEUR": 46000,
-        "previousReplacementCostEUR": 250000,
-        "replacementCostEUR": 290000,
-        "pricingScope": "Existing first-party local DJ and music-library prototype plus the implemented v0.11/v0.12 user-library, declared-use, audition and local-export controls, source, tests and documentation. External music, model weights and runtime ownership, independently cleared music rights, professional listening quality, large-library/hardware qualification and a hosted service are excluded.",
-        "costAssumptionsDocument": "docs/PORTFOLIO_FULL_REVISION_2026-10-12.md"
-      },
-      {
-        "ref": "TA-IP-101",
-        "slug": "universal-video-intelligence-platform",
-        "title": "Universal Video Intelligence Platform",
-        "previousSellerAskEUR": 30000,
-        "sellerAskEUR": 36000,
-        "previousReplacementCostEUR": 100000,
-        "replacementCostEUR": 120000,
-        "pricingScope": "Present first-party v0.9.1 browser and offline research prototype, manual notes and backup recovery, source-review and human-supplied evidence review, documentation, tests and development packaging. Browser production qualification, AI transcript/multimodal analysis, media downloading, platform or target-project ownership, hosted services, automatic repairs and future engineering are excluded.",
-        "costAssumptionsDocument": "docs/PORTFOLIO_FULL_REVISION_2026-10-12.md"
-      },
-      {
-        "ref": "TA-IP-102",
-        "slug": "universal-remote-perception-intelligence-platform",
-        "title": "Universal Remote Perception Intelligence Platform",
+        "ref": "TA-IP-106",
+        "slug": "manuscript-integrity-publishing-platform",
+        "title": "Manuscript Integrity & Publishing Platform",
         "previousSellerAskEUR": null,
-        "sellerAskEUR": 33000,
+        "sellerAskEUR": 21000,
         "previousReplacementCostEUR": null,
-        "replacementCostEUR": 110000,
-        "pricingScope": "Existing first-party offline controlled-study, custody, scoring and IP-governance software, its documentation and tests, with a separately identified unmerged P1.2 candidate. Seven internal component records are counted once within this project. Physical sensing hardware, hidden-object inference, scientifically demonstrated anomalous or sensor-free perception, independent custody/security certification, third-party rights and future research are excluded.",
-        "costAssumptionsDocument": "docs/PORTFOLIO_FULL_REVISION_2026-10-12.md"
-      },
-      {
-        "ref": "TA-IP-103",
-        "slug": "universal-operations-orchestration-intelligence-platform",
-        "title": "Universal Operations Orchestration & Intelligence Platform",
-        "previousSellerAskEUR": null,
-        "sellerAskEUR": 27000,
-        "previousReplacementCostEUR": null,
-        "replacementCostEUR": 90000,
-        "pricingScope": "Existing first-party v0.4 offline operational modelling, planning, local event memory, controlled recovery, portable evidence and non-mutating policy-proposal software, tests and documentation. External actuation, authenticated identities, externally certified custody, deployed multi-user SaaS, production optimisation or autonomous execution and future development are excluded.",
-        "costAssumptionsDocument": "docs/PORTFOLIO_FULL_REVISION_2026-10-12.md"
-      },
-      {
-        "ref": "TA-IP-104",
-        "slug": "collective-reality-engine",
-        "title": "Collective Reality Engine",
-        "previousSellerAskEUR": null,
-        "sellerAskEUR": 24000,
-        "previousReplacementCostEUR": null,
-        "replacementCostEUR": 80000,
-        "pricingScope": "Existing first-party v0.3 local shared-world reference software, two bounded scenario implementations, local persistence/replay controls, tests and design documentation counted once. Future narrative production, external artwork/audio, AI models, online multiplayer, production identity, large-scale infrastructure and commercial event delivery are excluded.",
-        "costAssumptionsDocument": "docs/PORTFOLIO_FULL_REVISION_2026-10-12.md"
-      },
-      {
-        "ref": "TA-IP-105",
-        "slug": "mission-to-execution-engineering-framework",
-        "title": "Mission-to-Execution Engineering Framework",
-        "previousSellerAskEUR": null,
-        "sellerAskEUR": 16500,
-        "previousReplacementCostEUR": null,
-        "replacementCostEUR": 55000,
-        "pricingScope": "Existing first-party offline mission, requirements, dependency-planning and document-generation software on main v0.1 plus separately frozen unmerged v0.2/v0.3 traceability and feasibility-declaration software, tests and methodology documents. Generated plans are design outputs; independently established feasibility, copied cross-project IP, automatic engineering or execution, hosted services and future implementation are excluded.",
-        "costAssumptionsDocument": "docs/PORTFOLIO_FULL_REVISION_2026-10-12.md"
+        "replacementCostEUR": 70000,
+        "pricingScope": "Existing first-party v0.1.0 local manuscript authoring, DOCX assembly, evidence-linked eight-gate/40-stage quality workflow, defect and change controls, explicit author release authorization, read-only dashboard, manual Draft2Digital handoff, tests and documentation at the frozen repository baseline. The embedded author-supplied protocol must have separately agreed use/transfer rights. Author manuscripts, creative archive ownership, author identity/pen-name rights, third-party services and templates, separately staged v0.2–v0.5 application code, automated literary/factual certification, autonomous book generation, live distribution and future SaaS are outside this price.",
+        "costAssumptionsDocument": "docs/MIPP_ASSESSMENT_AND_VALUATION_2026-10-13.md"
       }
     ],
     "previousPortfolio": {
-      "assetCount": 100,
-      "stageCounts": {
-        "developedSoftware": 56,
-        "developedPrototype": 41,
-        "researchStage": 3,
-        "definitionStage": 0
-      },
-      "sellerAskEUR": 24368000,
-      "negotiationLowEUR": 19467400,
-      "negotiationHighEUR": 30539500,
-      "replacementCostEUR": 103920000,
-      "marketComparableProxyEUR": 118409425,
-      "incomeLicensingProxyEUR": 139464810,
-      "probabilityAdjustedStrategicValueEUR": 130446870,
-      "triangulatedEconomicReferenceEUR": 123211256,
-      "sellerAskAsShareOfTriangulated": 0.19777413842774236,
-      "sellerAskAsShareOfReplacementCost": 0.23448806774441877,
-      "pricedAssetCount": 100,
-      "unpricedAssetCount": 0,
-      "monetaryScope": "100 independently scoped software IP assets with retained individual price, evidence, rights and delivery assessments. The current portfolio totals include only active project records. Website and publication repositories are excluded from the IP-asset count.",
-      "averageTriangulatedEconomicReferencePerPricedAsset": 1232112.56
-    },
-    "currentPortfolio": {
       "assetCount": 104,
       "stageCounts": {
         "developedSoftware": 56,
@@ -353,36 +276,55 @@
       "monetaryScope": "104 independent software IP assets with individual seller asking references and defined existing-scope recreation estimates. Four new prototypes and two implemented increments have updated estimates; the other 98 existing prices are retained. Website repositories are excluded.",
       "averageTriangulatedEconomicReferencePerPricedAsset": 1187384.4903846155
     },
-    "boundary": "All 117 repositories and 36 open pull requests were compared with the preceding portfolio. The 104 active software assets are independently scoped; 13 publication repositories are excluded. Nine pinned source trees from seven projects were byte-verified and locally tested. Current-main, unmerged development, historical validation and future specifications remain separate. The current video prototype passes its mandatory 73-test/build gate; the earlier blocker is resolved. Remote perception retains an explicitly blocked commercial transfer gate. CRE and the mission framework retain open rights/delivery conditions. No physical, anomalous-perception, independently certified rights/security, production hosting or future scientific capability is established by local tests."
+    "currentPortfolio": {
+      "assetCount": 105,
+      "stageCounts": {
+        "developedSoftware": 56,
+        "developedPrototype": 46,
+        "researchStage": 3,
+        "definitionStage": 0
+      },
+      "sellerAskEUR": 24501500,
+      "negotiationLowEUR": 19573900,
+      "negotiationHighEUR": 30706375,
+      "replacementCostEUR": 104385000,
+      "marketComparableProxyEUR": 118772121,
+      "incomeLicensingProxyEUR": 139803493,
+      "probabilityAdjustedStrategicValueEUR": 130640104,
+      "triangulatedEconomicReferenceEUR": 123535413,
+      "sellerAskAsShareOfTriangulated": 0.19833584075199553,
+      "sellerAskAsShareOfReplacementCost": 0.23472242180389902,
+      "pricedAssetCount": 105,
+      "unpricedAssetCount": 0,
+      "monetaryScope": "105 independent software IP assets. MIPP has a first separate v0.1 present-source estimate; all 104 preceding individual prices and cost estimates are unchanged. Thirteen publication repositories are excluded.",
+      "averageTriangulatedEconomicReferencePerPricedAsset": 1176527.7428571428
+    },
+    "boundary": "All 118 repository heads and the README/source inventories of 105 project repositories were checked. Thirteen publication repositories remain excluded from the asset count. MIPP is the only new project. Its 52 frozen Git blobs were verified and 18 local tests, protocol integrity and syntax checks passed. The other 104 project records, individual prices, grades and evidence dates are retained. The newer documented MIPP offline builds have not been source-imported into the repository and were not executed in this review. Inventory review is not full-portfolio test execution, independent appraisal or certification."
   },
-  "version": "2026.10.12-im68-full-portfolio-revision",
+  "version": "2026.10.13-im70-repository-inventory-and-mipp",
   "latestReadinessReview": {
-    "assessedAt": "2026-10-12T09:21:42Z",
-    "type": "FULL_SOURCE_COMPARISON_AND_TARGETED_CONTENT_REVIEW",
-    "criteriaDisclosedFor": 104,
-    "targetedRepositoryContentReviews": 7,
+    "assessedAt": "2026-10-13T04:20:04Z",
+    "type": "NEW_ASSET_SOURCE_CONTENT_REVIEW",
+    "criteriaDisclosedFor": 105,
+    "targetedRepositoryContentReviews": 1,
     "changedReadinessReferences": [
-      "TA-IP-101",
-      "TA-IP-102",
-      "TA-IP-103",
-      "TA-IP-104",
-      "TA-IP-105"
+      "TA-IP-106"
     ],
     "previousSummary": {
-      "audited": 100,
-      "pending": 0,
-      "ready": 0,
-      "readyWithConditions": 92,
-      "notReady": 8
-    },
-    "currentSummary": {
       "audited": 104,
       "pending": 0,
       "ready": 0,
       "readyWithConditions": 94,
       "notReady": 10
     },
-    "boundary": "All 117 repositories and 36 open pull requests were compared with the preceding portfolio. The 104 active software assets are independently scoped; 13 publication repositories are excluded. Nine pinned source trees from seven projects were byte-verified and locally tested. Current-main, unmerged development, historical validation and future specifications remain separate. The current video prototype passes its mandatory 73-test/build gate; the earlier blocker is resolved. Remote perception retains an explicitly blocked commercial transfer gate. CRE and the mission framework retain open rights/delivery conditions. No physical, anomalous-perception, independently certified rights/security, production hosting or future scientific capability is established by local tests."
+    "currentSummary": {
+      "audited": 105,
+      "pending": 0,
+      "ready": 0,
+      "readyWithConditions": 95,
+      "notReady": 10
+    },
+    "boundary": "All 118 repository heads and the README/source inventories of 105 project repositories were checked. Thirteen publication repositories remain excluded from the asset count. MIPP is the only new project. Its 52 frozen Git blobs were verified and 18 local tests, protocol integrity and syntax checks passed. The other 104 project records, individual prices, grades and evidence dates are retained. The newer documented MIPP offline builds have not been source-imported into the repository and were not executed in this review. Inventory review is not full-portfolio test execution, independent appraisal or certification."
   },
   "latestIdentityUpdate": {
     "assessedAt": "2026-10-12T09:21:42Z",
@@ -554,38 +496,38 @@
     "boundary": "Launch & Cislunar Transportation Engineering Platform is the separately scoped launch and cislunar transport module for FusionLunar studies. The documented demand/result interface supports the relationship; this update does not establish a new shared runtime, completed end-to-end integration or flight-qualified transport. Both projects retain their own asset identity, price and transfer scope."
   },
   "latestPortfolioScopeUpdate": {
-    "publishedAt": "2026-10-12T09:21:42Z",
-    "type": "FULL_PORTFOLIO_REVISION",
-    "currentAssetCount": 104,
-    "retainedIndividualPriceRecords": 98,
+    "publishedAt": "2026-10-13T04:20:04Z",
+    "type": "REPOSITORY_INVENTORY_AND_NEW_ASSET_ADDITION",
+    "currentAssetCount": 105,
+    "retainedIndividualPriceRecords": 104,
     "identifiersReassigned": false,
     "currentPortfolio": {
-      "assetCount": 104,
+      "assetCount": 105,
       "stageCounts": {
         "developedSoftware": 56,
-        "developedPrototype": 45,
+        "developedPrototype": 46,
         "researchStage": 3,
         "definitionStage": 0
       },
-      "sellerAskEUR": 24480500,
-      "negotiationLowEUR": 19557100,
-      "negotiationHighEUR": 30680125,
-      "replacementCostEUR": 104315000,
-      "marketComparableProxyEUR": 118718571,
-      "incomeLicensingProxyEUR": 139753880,
-      "probabilityAdjustedStrategicValueEUR": 130613552,
-      "triangulatedEconomicReferenceEUR": 123487987,
-      "sellerAskAsShareOfTriangulated": 0.19824195530857588,
-      "sellerAskAsShareOfReplacementCost": 0.2346786176484686,
-      "pricedAssetCount": 104,
+      "sellerAskEUR": 24501500,
+      "negotiationLowEUR": 19573900,
+      "negotiationHighEUR": 30706375,
+      "replacementCostEUR": 104385000,
+      "marketComparableProxyEUR": 118772121,
+      "incomeLicensingProxyEUR": 139803493,
+      "probabilityAdjustedStrategicValueEUR": 130640104,
+      "triangulatedEconomicReferenceEUR": 123535413,
+      "sellerAskAsShareOfTriangulated": 0.19833584075199553,
+      "sellerAskAsShareOfReplacementCost": 0.23472242180389902,
+      "pricedAssetCount": 105,
       "unpricedAssetCount": 0,
-      "monetaryScope": "104 independent software IP assets with individual seller asking references and defined existing-scope recreation estimates. Four new prototypes and two implemented increments have updated estimates; the other 98 existing prices are retained. Website repositories are excluded.",
-      "averageTriangulatedEconomicReferencePerPricedAsset": 1187384.4903846155
+      "monetaryScope": "105 independent software IP assets. MIPP has a first separate v0.1 present-source estimate; all 104 preceding individual prices and cost estimates are unchanged. Thirteen publication repositories are excluded.",
+      "averageTriangulatedEconomicReferencePerPricedAsset": 1176527.7428571428
     },
-    "proposedConnections": 30,
-    "uniqueConnectionMembers": 74,
+    "proposedConnections": 33,
+    "uniqueConnectionMembers": 81,
     "liveDigitalDisplays": 12,
-    "boundary": "All 117 repositories and 36 open pull requests were compared with the preceding portfolio. The 104 active software assets are independently scoped; 13 publication repositories are excluded. Nine pinned source trees from seven projects were byte-verified and locally tested. Current-main, unmerged development, historical validation and future specifications remain separate. The current video prototype passes its mandatory 73-test/build gate; the earlier blocker is resolved. Remote perception retains an explicitly blocked commercial transfer gate. CRE and the mission framework retain open rights/delivery conditions. No physical, anomalous-perception, independently certified rights/security, production hosting or future scientific capability is established by local tests."
+    "boundary": "All 118 repository heads and the README/source inventories of 105 project repositories were checked. Thirteen publication repositories remain excluded from the asset count. MIPP is the only new project. Its 52 frozen Git blobs were verified and 18 local tests, protocol integrity and syntax checks passed. The other 104 project records, individual prices, grades and evidence dates are retained. The newer documented MIPP offline builds have not been source-imported into the repository and were not executed in this review. Inventory review is not full-portfolio test execution, independent appraisal or certification."
   },
   "latestFullPortfolioReview": {
     "assessedAt": "2026-10-12T09:21:42Z",
@@ -607,5 +549,33 @@
     "connectionReadmesReviewed": 74,
     "proposedConnections": 30,
     "boundary": "All 117 repositories and 36 open pull requests were compared with the preceding portfolio. The 104 active software assets are independently scoped; 13 publication repositories are excluded. Nine pinned source trees from seven projects were byte-verified and locally tested. Current-main, unmerged development, historical validation and future specifications remain separate. The current video prototype passes its mandatory 73-test/build gate; the earlier blocker is resolved. Remote perception retains an explicitly blocked commercial transfer gate. CRE and the mission framework retain open rights/delivery conditions. No physical, anomalous-perception, independently certified rights/security, production hosting or future scientific capability is established by local tests."
+  },
+  "latestRepositoryInventory": {
+    "assessedAt": "2026-10-13T04:20:04Z",
+    "repositoryCount": 118,
+    "projectRepositoryCount": 105,
+    "publicationRepositoryCount": 13,
+    "repositoryHeadsChecked": 118,
+    "projectReadmesRead": 105,
+    "projectTreesRead": 105,
+    "newProjects": [
+      "TA-IP-106"
+    ],
+    "removedActiveProjects": [],
+    "orphanProjectFoldersRemoved": [],
+    "brokenProjectRepositoryLinksFound": 0,
+    "existingProjectRecordsRetained": 104,
+    "changedExistingHeads": [
+      {
+        "ref": "TA-IP-101",
+        "repository": "Universal-Video-Intelligence-Platform",
+        "retainedAssessmentHead": "10c1c9c702007a62bf032706a6042932a2fcc52b",
+        "observedHead": "889e0171f581bf285e1e1a53afcf2ab82fd9271a",
+        "treatment": "Existing profile, evidence date and price retained at the user’s instruction."
+      }
+    ],
+    "newProjectTestsPassed": 18,
+    "newProjectBlobsVerified": 52,
+    "boundary": "All 118 repository heads and the README/source inventories of 105 project repositories were checked. Thirteen publication repositories remain excluded from the asset count. MIPP is the only new project. Its 52 frozen Git blobs were verified and 18 local tests, protocol integrity and syntax checks passed. The other 104 project records, individual prices, grades and evidence dates are retained. The newer documented MIPP offline builds have not been source-imported into the repository and were not executed in this review. Inventory review is not full-portfolio test execution, independent appraisal or certification."
   }
 }

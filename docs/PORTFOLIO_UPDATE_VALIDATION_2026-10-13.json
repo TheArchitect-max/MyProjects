@@ -1,0 +1,58 @@
+{
+  "schema": "portfolio-website-update-validation-v1",
+  "date": "2026-10-13",
+  "sourceBaseline": "14751c62692986917e8694ddfb6f5fd2f10ac022",
+  "preservation": {
+    "passed": true,
+    "existingProjectRecordsPreserved": 104,
+    "projectRegistersCompared": 8,
+    "existingFinancialRecordsPreserved": 104,
+    "newAsset": "TA-IP-106",
+    "sourceInventoryProjects": 105,
+    "repositoryHeadsChecked": 118,
+    "staleActiveProjects": 0,
+    "individualBudgetsReconciled": true,
+    "attestedFiles": 23,
+    "connections": 33,
+    "uniqueConnectionMembers": 81,
+    "originalThemeAudioDisplayPolicyPreserved": true
+  },
+  "renderer": {
+    "passed": true,
+    "profilesRendered": 105,
+    "globalPagesRendered": 8,
+    "registryIntegrity": {
+      "valuation": true,
+      "methodology": true,
+      "futureReferences": true,
+      "sellerReadiness": true,
+      "ownership": true,
+      "supplyChain": true,
+      "auditCertificate": true,
+      "rightsTransfer": true,
+      "presentation": true,
+      "evaluations": true,
+      "independentAssets": true,
+      "commercialPolicy": true,
+      "connections": true,
+      "valuationSources": true,
+      "repositoryInventory": true,
+      "ok": true
+    },
+    "portfolioArithmetic": true,
+    "externalSourceCards": 3,
+    "newMippDossier": true,
+    "connections": 33,
+    "uniqueConnectionMembers": 81,
+    "sourceTamperingRejected": true
+  },
+  "newProjectLocalTests": {
+    "project": "TA-IP-106",
+    "baselineCommit": "9b8b8d39cd86289fcd70c3684172a44062879bba",
+    "sourceBlobsVerified": 52,
+    "unitTestsPassed": 18,
+    "immutableProtocolPassed": true,
+    "compilePassed": true
+  },
+  "verificationBoundary": "Repository inventory and actual JavaScript HTML generation/arithmetic/hash checks were executed locally. Existing project suites were not re-run. Node VM rendering is not browser visual or interaction testing. No independent appraisal, legal/security/editorial certification or live book publication was performed."
+}
