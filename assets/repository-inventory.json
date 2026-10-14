@@ -2370,7 +2370,46 @@
       "workflowFiles": [],
       "profile": "projects/universal-video-intelligence-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "documentaryStatusReview": {
+        "reviewedAt": "2026-10-14T07:18:19Z",
+        "reviewType": "TARGETED_DOCUMENTARY_TECHNICAL_STATUS_REVIEW",
+        "ref": "TA-IP-101",
+        "recordDocument": "docs/UVIP_PROJECT_STATUS_UPDATE_2026-10-14.md",
+        "main": {
+          "version": "0.9.8",
+          "observedHead": "889e0171f581bf285e1e1a53afcf2ab82fd9271a",
+          "testedHead": "4a4c1a058a0701031e367b9953d2e031522c5350",
+          "nodePassed": 143,
+          "offlineChromiumPassed": 14,
+          "evidenceRecord": "docs/UNIFIED-VALIDATION-PASS-v0.9.8.md"
+        },
+        "candidate": {
+          "version": "0.9.9",
+          "branch": "build/v0.9.9-local-mutation-integrity",
+          "observedHead": "7dd0ad4b86bc30b711efffdf500b192ab36224a1",
+          "testedHead": "b5c740bce20bb64be1034c1e578371281e40ee42",
+          "testedTree": "cec96bc236c47f5483dffeea0c5719d21caa5502",
+          "pullRequestNumber": 1,
+          "pullRequestState": "OPEN_DRAFT_UNMERGED",
+          "milestone": "R28",
+          "chromeScenariosPassed": 5,
+          "edgeScenariosPassed": 5,
+          "offlineContractsPassed": 12,
+          "executionClass": "USER_OPERATED_SELF_REPORTED",
+          "fullUnderlyingReportsReviewedForCatalogue": false,
+          "thirdPartyAttestation": false,
+          "productionReleaseApproved": false,
+          "evidenceRecord": "docs/R28-BRANDED-LIVE-YOUTUBE-DUAL-BROWSER-PASS-2026-10-14.md"
+        },
+        "productTestsRerunForCatalogue": false,
+        "financialReferencesChanged": false,
+        "assuranceGradesChanged": false,
+        "transactionReadinessChanged": false,
+        "otherProjectRecordsChanged": 0,
+        "boundary": "Targeted documentary status review of source-pinned repository records; product tests were not rerun for this catalogue update. R28 is user-operated/self-reported browser acceptance, not third-party attestation or release certification. The catalogue review did not independently inspect or replay the two full browser reports. Existing financial assumptions, assurance grades and the READY_WITH_CONDITIONS classification are retained."
+      },
+      "latestTechnicalStatusReviewAt": "2026-10-14T07:18:19Z"
     },
     {
       "repository": "Universal-Remote-Perception-Intelligence-Platform",
@@ -2536,5 +2575,43 @@
     "individualPricesChanged": 0,
     "projectRepositoriesRemoved": 0,
     "boundary": "The owner removed all 12 separately hosted project-display repositories. Current repository presence was checked: 105 project repositories and the MyProjects catalogue remain, 106 repositories in total. No linked project display is currently published in this directory. All 105 software project records, individual prices, rights/transfer criteria and evidence dates are retained. This display-directory update does not claim new source qualification or a financial reassessment."
+  },
+  "latestTargetedAssetReview": {
+    "reviewedAt": "2026-10-14T07:18:19Z",
+    "reviewType": "TARGETED_DOCUMENTARY_TECHNICAL_STATUS_REVIEW",
+    "ref": "TA-IP-101",
+    "recordDocument": "docs/UVIP_PROJECT_STATUS_UPDATE_2026-10-14.md",
+    "main": {
+      "version": "0.9.8",
+      "observedHead": "889e0171f581bf285e1e1a53afcf2ab82fd9271a",
+      "testedHead": "4a4c1a058a0701031e367b9953d2e031522c5350",
+      "nodePassed": 143,
+      "offlineChromiumPassed": 14,
+      "evidenceRecord": "docs/UNIFIED-VALIDATION-PASS-v0.9.8.md"
+    },
+    "candidate": {
+      "version": "0.9.9",
+      "branch": "build/v0.9.9-local-mutation-integrity",
+      "observedHead": "7dd0ad4b86bc30b711efffdf500b192ab36224a1",
+      "testedHead": "b5c740bce20bb64be1034c1e578371281e40ee42",
+      "testedTree": "cec96bc236c47f5483dffeea0c5719d21caa5502",
+      "pullRequestNumber": 1,
+      "pullRequestState": "OPEN_DRAFT_UNMERGED",
+      "milestone": "R28",
+      "chromeScenariosPassed": 5,
+      "edgeScenariosPassed": 5,
+      "offlineContractsPassed": 12,
+      "executionClass": "USER_OPERATED_SELF_REPORTED",
+      "fullUnderlyingReportsReviewedForCatalogue": false,
+      "thirdPartyAttestation": false,
+      "productionReleaseApproved": false,
+      "evidenceRecord": "docs/R28-BRANDED-LIVE-YOUTUBE-DUAL-BROWSER-PASS-2026-10-14.md"
+    },
+    "productTestsRerunForCatalogue": false,
+    "financialReferencesChanged": false,
+    "assuranceGradesChanged": false,
+    "transactionReadinessChanged": false,
+    "otherProjectRecordsChanged": 0,
+    "boundary": "Targeted documentary status review of source-pinned repository records; product tests were not rerun for this catalogue update. R28 is user-operated/self-reported browser acceptance, not third-party attestation or release certification. The catalogue review did not independently inspect or replay the two full browser reports. Existing financial assumptions, assurance grades and the READY_WITH_CONDITIONS classification are retained."
   }
 }

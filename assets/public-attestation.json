@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.13-im72-integrated-project-displays",
+  "version": "2026.10.14-im73-uvip-r28-status",
   "publicationDate": "2026-10-13",
   "portfolioAssetCount": 105,
   "valuationBasisDate": "2026-10-13",
@@ -27,8 +27,8 @@
     },
     "seller-readiness-register.json": {
       "algorithm": "SHA-256",
-      "sha256": "a04232478ee8e667f1f48e71825b1a8dbe9991a831cd51bf20b545b2aa9f82b1",
-      "bytes": 989260
+      "sha256": "a49adde46ec4183b12437a3194e5a05e1b151424c63b9c71296dc6f257dc051a",
+      "bytes": 994328
     },
     "ip-ownership-register.json": {
       "algorithm": "SHA-256",
@@ -47,13 +47,13 @@
     },
     "rights-transfer-register.json": {
       "algorithm": "SHA-256",
-      "sha256": "ede00c4671915bf1698538573cffc61d451ae761f73aaab5c7af8f07e44f04a1",
-      "bytes": 156799
+      "sha256": "27590ca21ed2ebd75cece60ff61580fbc005c69b108e015adfebb6ce4bdd895f",
+      "bytes": 159102
     },
     "project-presentations.json": {
       "algorithm": "SHA-256",
-      "sha256": "2c7adf195b03225dc0f886f2e55561be0a2b86a4d8e52d5e835ce5155ae6ac3f",
-      "bytes": 199284
+      "sha256": "48dded6fedb525012a0f248f20b4a0c5a568d926ad1226104dc5624866065ce3",
+      "bytes": 207103
     },
     "project-identities.json": {
       "algorithm": "SHA-256",
@@ -62,8 +62,8 @@
     },
     "descriptions.json": {
       "algorithm": "SHA-256",
-      "sha256": "4993c0df7b36fada9ebcf7d33ec177d4fa3801708a10868d544e267e81b61432",
-      "bytes": 18652
+      "sha256": "a8f3688e2c6d50b60a3609e38e1aa1ff857488c2934bbb6e7a0f8dff34e1b09e",
+      "bytes": 18663
     },
     "display-names.json": {
       "algorithm": "SHA-256",
@@ -82,8 +82,8 @@
     },
     "project-evaluations.json": {
       "algorithm": "SHA-256",
-      "sha256": "496de88eeac7da30d9744175d3e8445ef34dbba79edf3246283f4facafee792e",
-      "bytes": 687119
+      "sha256": "afdd5bf7067fb5ec198d72608c5212d418ba2e3b5eb3546ddb9ea5b93b564ed2",
+      "bytes": 692752
     },
     "im-data.json": {
       "algorithm": "SHA-256",
@@ -112,8 +112,8 @@
     },
     "repository-inventory.json": {
       "algorithm": "SHA-256",
-      "sha256": "a32da354c22afdba3ed9a60f26b42ac7627c9541014ed84e9be2c3bec31b0bcd",
-      "bytes": 86643
+      "sha256": "0a55d77cbb95afeb0da6ebe2befef736fecac4fd42a109b56a1b5403d479e4ad",
+      "bytes": 90834
     },
     "valuation-sources.json": {
       "algorithm": "SHA-256",
@@ -137,7 +137,7 @@
   "projectCount": 105,
   "assessedAt": "2026-10-13T04:20:04Z",
   "previousEvaluationBasisDate": "2026-10-09",
-  "catalogueUpdatedAt": "2026-10-13T05:07:05Z",
+  "catalogueUpdatedAt": "2026-10-14T07:18:19Z",
   "ipAssetCount": 105,
   "pricedAssetCount": 105,
   "unpricedAssetCount": 0,
@@ -599,5 +599,43 @@
     "individualPricesChanged": 0,
     "projectRepositoriesRemoved": 0,
     "boundary": "The owner removed all 12 separately hosted project-display repositories. Current repository presence was checked: 105 project repositories and the MyProjects catalogue remain, 106 repositories in total. No linked project display is currently published in this directory. All 105 software project records, individual prices, rights/transfer criteria and evidence dates are retained. This display-directory update does not claim new source qualification or a financial reassessment."
+  },
+  "latestTargetedAssetReview": {
+    "reviewedAt": "2026-10-14T07:18:19Z",
+    "reviewType": "TARGETED_DOCUMENTARY_TECHNICAL_STATUS_REVIEW",
+    "ref": "TA-IP-101",
+    "recordDocument": "docs/UVIP_PROJECT_STATUS_UPDATE_2026-10-14.md",
+    "main": {
+      "version": "0.9.8",
+      "observedHead": "889e0171f581bf285e1e1a53afcf2ab82fd9271a",
+      "testedHead": "4a4c1a058a0701031e367b9953d2e031522c5350",
+      "nodePassed": 143,
+      "offlineChromiumPassed": 14,
+      "evidenceRecord": "docs/UNIFIED-VALIDATION-PASS-v0.9.8.md"
+    },
+    "candidate": {
+      "version": "0.9.9",
+      "branch": "build/v0.9.9-local-mutation-integrity",
+      "observedHead": "7dd0ad4b86bc30b711efffdf500b192ab36224a1",
+      "testedHead": "b5c740bce20bb64be1034c1e578371281e40ee42",
+      "testedTree": "cec96bc236c47f5483dffeea0c5719d21caa5502",
+      "pullRequestNumber": 1,
+      "pullRequestState": "OPEN_DRAFT_UNMERGED",
+      "milestone": "R28",
+      "chromeScenariosPassed": 5,
+      "edgeScenariosPassed": 5,
+      "offlineContractsPassed": 12,
+      "executionClass": "USER_OPERATED_SELF_REPORTED",
+      "fullUnderlyingReportsReviewedForCatalogue": false,
+      "thirdPartyAttestation": false,
+      "productionReleaseApproved": false,
+      "evidenceRecord": "docs/R28-BRANDED-LIVE-YOUTUBE-DUAL-BROWSER-PASS-2026-10-14.md"
+    },
+    "productTestsRerunForCatalogue": false,
+    "financialReferencesChanged": false,
+    "assuranceGradesChanged": false,
+    "transactionReadinessChanged": false,
+    "otherProjectRecordsChanged": 0,
+    "boundary": "Targeted documentary status review of source-pinned repository records; product tests were not rerun for this catalogue update. R28 is user-operated/self-reported browser acceptance, not third-party attestation or release certification. The catalogue review did not independently inspect or replay the two full browser reports. Existing financial assumptions, assurance grades and the READY_WITH_CONDITIONS classification are retained."
   }
 }

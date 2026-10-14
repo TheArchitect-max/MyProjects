@@ -1,0 +1,39 @@
+{
+  "schema": "uvip-targeted-portfolio-publication-validation-v1",
+  "date": "2026-10-14",
+  "scope": "TA-IP-101 public documentary status refresh; product execution is not repeated",
+  "sourceHeads": {
+    "uvipMain": "889e0171f581bf285e1e1a53afcf2ab82fd9271a",
+    "uvipDevelopment": "7dd0ad4b86bc30b711efffdf500b192ab36224a1",
+    "r28Tested": "b5c740bce20bb64be1034c1e578371281e40ee42"
+  },
+  "validation": {
+    "productionHubDataLoad": "PASS",
+    "digestChecks": 16,
+    "fullProjectProfilesRendered": 105,
+    "proposedConnections": 33,
+    "portfolioArithmetic": "PASS",
+    "uvipStatusAndQualityGates": "PASS",
+    "uvipIdentity": "TA-IP-101 / Ophelia",
+    "sellerAskEUR": 36000,
+    "recreationCostEUR": 120000,
+    "transactionReadiness": "READY_WITH_CONDITIONS",
+    "catalogueSearchAndCurrentStatus": "PASS",
+    "productRuntimeTestsRerun": false,
+    "publicRegisterDigestsAndByteCounts": 23,
+    "otherProjectRecordsRetained": 104,
+    "displayIdentityAndPriceMatches": 105,
+    "changedStaticFilesMirrored": 6,
+    "factsheetPages": 2,
+    "factsheetLayoutVisuallyReviewed": true,
+    "pdfTextChecks": "PASS",
+    "csvOtherProjectRowsRetained": true,
+    "financialAndIdentitySourceBytesRetained": true,
+    "canonicalUvIpProfile": "PASS",
+    "javascriptSyntaxAndDiffChecks": "PASS",
+    "browserVisualPreviewInLocalEnvironment": "UNAVAILABLE",
+    "productReleaseApprovedByThisPublication": false,
+    "workflowFilesAdded": 0
+  },
+  "boundary": "This validates catalogue data loading, rendered templates, integrity, arithmetic and presentation consistency. It does not attest R28 execution, rerun UVIP or certify the product."
+}
