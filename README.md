@@ -1,5 +1,13 @@
 # THEARCHITECT_MAX — Private Technology & IP Portfolio
 
+## Implemented development value correction - 16 October 2026
+
+Nine concrete source-bound increments now have separate work budgets and revised seller asking references. Recreation increments total EUR 645,000; applying the previous project-specific asking/cost proportions changes asking references by EUR 146,000. Frozen MARP v0.6.3 and EIOP v6.4.0 development snapshots are explicitly included without merging. Portfolio asking reference: EUR 24,647,500. Recreation references: EUR 105,030,000. The other 96 individual amounts and all qualification grades are retained. These are analyst cost/asking assumptions, not independently established market gains.
+
+Read [the source comparison and nine budgets](docs/DEVELOPMENT_VALUE_CORRECTION_2026-10-16.md).
+
+The same-day records below describe earlier publication states.
+
 ## Complete multisource reference review - 16 October 2026
 
 All 105 projects now have an individual source and financial-reference decision, with current main/development boundaries, original price-basis dates, cost-budget coverage and retained transfer conditions. Eight disclosed budgets reconcile, six are partial and 91 require a complete work budget. Asking references and recreation anchors remain unchanged; no independent market or income valuation is established. Duplicate project-site mentions are removed from profiles, the homepage and display collection. Read [the complete review](docs/MULTISOURCE_VALUATION_REVIEW_2026-10-16.md) and inspect [all 105 decisions](assets/valuation-sources.json).

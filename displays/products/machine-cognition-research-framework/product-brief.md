@@ -44,19 +44,21 @@ Documentation checked: 16 October 2026. Product tests were not rerun for this ca
 
 ## Commercial reference
 
-Seller asking reference: EUR 80,000.
+Seller asking reference: EUR 85,000.
 
-Seller-estimated recreation cost: EUR 650,000.
+Seller-estimated recreation cost: EUR 690,000.
 
-All 105 project financial references were reviewed on 16 October 2026 against current documentation, retained seller assessments and the disclosed method/rate sources. Individual asking references and recreation anchors remain unchanged. Final delivery, consideration and taxes are agreed separately.
+All 105 project financial references were reviewed on 16 October 2026 against current documentation, retained seller assessments and the disclosed method/rate sources. Nine implemented increments have revised individual references; this project is one of them. Final delivery, consideration and taxes are agreed separately.
 
 Seller-estimated engineering-equivalent cost to recreate comparable present work. This is a build-versus-buy reference, not actual historical expenditure, a contractor quotation, certified market value or guaranteed buyer saving.
 
 ## Individual financial-reference review
 
-Financial-reference review: 16 October 2026. Legacy cost reference; complete work budget missing. Original financial-reference date: 2026-10-12. Seller ask and recreation anchor are retained. Current documentation does not automatically expand the priced delivery; a delivery-specific re-estimate remains required.
+Development reviewed 16 October 2026: 0.8.0 (default-branch snapshot). Retained base EUR 650,000 plus separately estimated new work EUR 40,000 gives EUR 690,000. The new increment has a disclosed work budget; the older base remains a legacy seller assumption. No independent market-value increase is established.
 
-Comparable-sale valuation, project-income valuation and independent appraisal are NOT_ESTABLISHED. WIPO, Knab and the limited Upwork source provide method/rate context. Their information is not a project appraisal.
+Adds an explicitly trained predictive-state layer, held-out evaluation separation and checkpoint-bound research runs beyond the earlier count-based adaptation.
+
+General intelligence, human equivalence, open-world performance, autonomous operation and new commercial demand are not established or priced.
 
 ## Transaction scope
 

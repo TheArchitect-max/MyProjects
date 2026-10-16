@@ -4627,7 +4627,7 @@
       "commercialReference": "TA-IP-082",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
-      "sellerAskEUR": 220000,
+      "sellerAskEUR": 229000,
       "baselineCommit": "7810d2175bac7adc8ac4232d21dd6efbcf5bf198",
       "auditStatus": "CURRENT_REPOSITORY_REASSESSMENT_COMPLETE",
       "assurance": {
@@ -4784,8 +4784,14 @@
         ],
         "evidenceBoundary": "The grades describe recorded repository evidence, not a fresh execution of every test or independent legal, security or market certification. External execution can mean a retained Colab run; it does not automatically mean an independent assessor."
       },
-      "financialReferencesReviewedAt": "2026-10-12T09:21:42Z",
-      "currentSourceReviewBoundary": "All 101 software repositories are accounted for: the 100 existing default branches and 32 open pull requests were checked, and the new Universal Video Intelligence Platform source was reviewed. Fresh local checks passed 103 TraceLine tests and 29 SCEP tests. Universal Video Intelligence Platform v0.5 passed 37 tests and a development build; its newer v0.7 mandatory syntax gate fails in new test source, so the current full suite and build were not reached and its transfer classification is NOT_READY. TrueLane mandatory validation passed: 95 tests ran, 80 passed and 15 optional PyTorch tests were skipped; no new CUDA or Drive adapter execution is claimed. Changed source, retained validation and unmerged candidates are kept separate. The SCEP checkpoint manifest and tree inventory were reviewed; binary download, restoration and numerical replay were not performed. Prices change only for three implemented main-branch increments and the new Universal Video Intelligence Platform prototype. All 97 other existing prices and all 100 existing maturity and readiness classifications are retained. The new Universal Video Intelligence Platform prototype has an explicit current-source validation blocker. Website repositories are excluded digital displays. No independent legal, scientific, security or market certification is implied."
+      "financialReferencesReviewedAt": "2026-10-16T07:49:40Z",
+      "currentSourceReviewBoundary": "All 101 software repositories are accounted for: the 100 existing default branches and 32 open pull requests were checked, and the new Universal Video Intelligence Platform source was reviewed. Fresh local checks passed 103 TraceLine tests and 29 SCEP tests. Universal Video Intelligence Platform v0.5 passed 37 tests and a development build; its newer v0.7 mandatory syntax gate fails in new test source, so the current full suite and build were not reached and its transfer classification is NOT_READY. TrueLane mandatory validation passed: 95 tests ran, 80 passed and 15 optional PyTorch tests were skipped; no new CUDA or Drive adapter execution is claimed. Changed source, retained validation and unmerged candidates are kept separate. The SCEP checkpoint manifest and tree inventory were reviewed; binary download, restoration and numerical replay were not performed. Prices change only for three implemented main-branch increments and the new Universal Video Intelligence Platform prototype. All 97 other existing prices and all 100 existing maturity and readiness classifications are retained. The new Universal Video Intelligence Platform prototype has an explicit current-source validation blocker. Website repositories are excluded digital displays. No independent legal, scientific, security or market certification is implied.",
+      "pricedDeliverySnapshot": {
+        "version": "0.11.0",
+        "head": "6255df2e6c27535dd46043ac904fec519623ce33",
+        "scope": "DEFAULT_BRANCH",
+        "includedInAskingReference": true
+      }
     },
     {
       "repository": "Dominus-Kraken-Execution-Engine",
@@ -5685,7 +5691,7 @@
       "commercialReference": "TA-IP-012",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
-      "sellerAskEUR": 350000,
+      "sellerAskEUR": 354500,
       "baselineCommit": "b99e5047c59eacd229f1807de989236d1ffcea73",
       "auditStatus": "CURRENT_REPOSITORY_REASSESSMENT_COMPLETE",
       "assurance": {
@@ -5850,8 +5856,14 @@
         ],
         "evidenceBoundary": "The grades describe recorded repository evidence, not a fresh execution of every test or independent legal, security or market certification. External execution can mean a retained Colab run; it does not automatically mean an independent assessor."
       },
-      "financialReferencesReviewedAt": "2026-10-12T09:21:42Z",
-      "currentSourceReviewBoundary": "All 101 software repositories are accounted for: the 100 existing default branches and 32 open pull requests were checked, and the new Universal Video Intelligence Platform source was reviewed. Fresh local checks passed 103 TraceLine tests and 29 SCEP tests. Universal Video Intelligence Platform v0.5 passed 37 tests and a development build; its newer v0.7 mandatory syntax gate fails in new test source, so the current full suite and build were not reached and its transfer classification is NOT_READY. TrueLane mandatory validation passed: 95 tests ran, 80 passed and 15 optional PyTorch tests were skipped; no new CUDA or Drive adapter execution is claimed. Changed source, retained validation and unmerged candidates are kept separate. The SCEP checkpoint manifest and tree inventory were reviewed; binary download, restoration and numerical replay were not performed. Prices change only for three implemented main-branch increments and the new Universal Video Intelligence Platform prototype. All 97 other existing prices and all 100 existing maturity and readiness classifications are retained. The new Universal Video Intelligence Platform prototype has an explicit current-source validation blocker. Website repositories are excluded digital displays. No independent legal, scientific, security or market certification is implied."
+      "financialReferencesReviewedAt": "2026-10-16T07:49:40Z",
+      "currentSourceReviewBoundary": "All 101 software repositories are accounted for: the 100 existing default branches and 32 open pull requests were checked, and the new Universal Video Intelligence Platform source was reviewed. Fresh local checks passed 103 TraceLine tests and 29 SCEP tests. Universal Video Intelligence Platform v0.5 passed 37 tests and a development build; its newer v0.7 mandatory syntax gate fails in new test source, so the current full suite and build were not reached and its transfer classification is NOT_READY. TrueLane mandatory validation passed: 95 tests ran, 80 passed and 15 optional PyTorch tests were skipped; no new CUDA or Drive adapter execution is claimed. Changed source, retained validation and unmerged candidates are kept separate. The SCEP checkpoint manifest and tree inventory were reviewed; binary download, restoration and numerical replay were not performed. Prices change only for three implemented main-branch increments and the new Universal Video Intelligence Platform prototype. All 97 other existing prices and all 100 existing maturity and readiness classifications are retained. The new Universal Video Intelligence Platform prototype has an explicit current-source validation blocker. Website repositories are excluded digital displays. No independent legal, scientific, security or market certification is implied.",
+      "pricedDeliverySnapshot": {
+        "version": "2.9.0",
+        "head": "85c1cdfd72b1be2f5c1a572ec7f85de04217c93d",
+        "scope": "DEFAULT_BRANCH",
+        "includedInAskingReference": true
+      }
     },
     {
       "repository": "Evidence-Grounded-Multi-Expert-Reasoning-System",
@@ -7392,7 +7404,7 @@
       "commercialReference": "TA-IP-038",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
-      "sellerAskEUR": 430000,
+      "sellerAskEUR": 457000,
       "baselineCommit": "c72ab4961955b81c0932e16fcd3e94a5f943d894",
       "auditStatus": "CURRENT_REPOSITORY_REASSESSMENT_COMPLETE",
       "assurance": {
@@ -7571,8 +7583,14 @@
         ],
         "evidenceBoundary": "The grades describe recorded repository evidence, not a fresh execution of every test or independent legal, security or market certification. External execution can mean a retained Colab run; it does not automatically mean an independent assessor."
       },
-      "financialReferencesReviewedAt": "2026-10-12T09:21:42Z",
-      "currentSourceReviewBoundary": "All 101 software repositories are accounted for: the 100 existing default branches and 32 open pull requests were checked, and the new Universal Video Intelligence Platform source was reviewed. Fresh local checks passed 103 TraceLine tests and 29 SCEP tests. Universal Video Intelligence Platform v0.5 passed 37 tests and a development build; its newer v0.7 mandatory syntax gate fails in new test source, so the current full suite and build were not reached and its transfer classification is NOT_READY. TrueLane mandatory validation passed: 95 tests ran, 80 passed and 15 optional PyTorch tests were skipped; no new CUDA or Drive adapter execution is claimed. Changed source, retained validation and unmerged candidates are kept separate. The SCEP checkpoint manifest and tree inventory were reviewed; binary download, restoration and numerical replay were not performed. Prices change only for three implemented main-branch increments and the new Universal Video Intelligence Platform prototype. All 97 other existing prices and all 100 existing maturity and readiness classifications are retained. The new Universal Video Intelligence Platform prototype has an explicit current-source validation blocker. Website repositories are excluded digital displays. No independent legal, scientific, security or market certification is implied."
+      "financialReferencesReviewedAt": "2026-10-16T07:49:40Z",
+      "currentSourceReviewBoundary": "All 101 software repositories are accounted for: the 100 existing default branches and 32 open pull requests were checked, and the new Universal Video Intelligence Platform source was reviewed. Fresh local checks passed 103 TraceLine tests and 29 SCEP tests. Universal Video Intelligence Platform v0.5 passed 37 tests and a development build; its newer v0.7 mandatory syntax gate fails in new test source, so the current full suite and build were not reached and its transfer classification is NOT_READY. TrueLane mandatory validation passed: 95 tests ran, 80 passed and 15 optional PyTorch tests were skipped; no new CUDA or Drive adapter execution is claimed. Changed source, retained validation and unmerged candidates are kept separate. The SCEP checkpoint manifest and tree inventory were reviewed; binary download, restoration and numerical replay were not performed. Prices change only for three implemented main-branch increments and the new Universal Video Intelligence Platform prototype. All 97 other existing prices and all 100 existing maturity and readiness classifications are retained. The new Universal Video Intelligence Platform prototype has an explicit current-source validation blocker. Website repositories are excluded digital displays. No independent legal, scientific, security or market certification is implied.",
+      "pricedDeliverySnapshot": {
+        "version": "0.24.0",
+        "head": "4fb34a9155fc1041a616dd024ac2d31f1dfcaa09",
+        "scope": "DEFAULT_BRANCH",
+        "includedInAskingReference": true
+      }
     },
     {
       "repository": "Interactive-Piano-Learning-Platform",
@@ -9047,7 +9065,7 @@
       "commercialReference": "TA-IP-020",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
-      "sellerAskEUR": 80000,
+      "sellerAskEUR": 85000,
       "baselineCommit": "8cb56a1a8e52f9c82f6471eab888662561dbc935",
       "auditStatus": "CURRENT_REPOSITORY_REASSESSMENT_COMPLETE",
       "assurance": {
@@ -9194,8 +9212,14 @@
         ],
         "evidenceBoundary": "The grades describe recorded repository evidence, not a fresh execution of every test or independent legal, security or market certification. External execution can mean a retained Colab run; it does not automatically mean an independent assessor."
       },
-      "financialReferencesReviewedAt": "2026-10-12T09:21:42Z",
-      "currentSourceReviewBoundary": "All 101 software repositories are accounted for: the 100 existing default branches and 32 open pull requests were checked, and the new Universal Video Intelligence Platform source was reviewed. Fresh local checks passed 103 TraceLine tests and 29 SCEP tests. Universal Video Intelligence Platform v0.5 passed 37 tests and a development build; its newer v0.7 mandatory syntax gate fails in new test source, so the current full suite and build were not reached and its transfer classification is NOT_READY. TrueLane mandatory validation passed: 95 tests ran, 80 passed and 15 optional PyTorch tests were skipped; no new CUDA or Drive adapter execution is claimed. Changed source, retained validation and unmerged candidates are kept separate. The SCEP checkpoint manifest and tree inventory were reviewed; binary download, restoration and numerical replay were not performed. Prices change only for three implemented main-branch increments and the new Universal Video Intelligence Platform prototype. All 97 other existing prices and all 100 existing maturity and readiness classifications are retained. The new Universal Video Intelligence Platform prototype has an explicit current-source validation blocker. Website repositories are excluded digital displays. No independent legal, scientific, security or market certification is implied."
+      "financialReferencesReviewedAt": "2026-10-16T07:49:40Z",
+      "currentSourceReviewBoundary": "All 101 software repositories are accounted for: the 100 existing default branches and 32 open pull requests were checked, and the new Universal Video Intelligence Platform source was reviewed. Fresh local checks passed 103 TraceLine tests and 29 SCEP tests. Universal Video Intelligence Platform v0.5 passed 37 tests and a development build; its newer v0.7 mandatory syntax gate fails in new test source, so the current full suite and build were not reached and its transfer classification is NOT_READY. TrueLane mandatory validation passed: 95 tests ran, 80 passed and 15 optional PyTorch tests were skipped; no new CUDA or Drive adapter execution is claimed. Changed source, retained validation and unmerged candidates are kept separate. The SCEP checkpoint manifest and tree inventory were reviewed; binary download, restoration and numerical replay were not performed. Prices change only for three implemented main-branch increments and the new Universal Video Intelligence Platform prototype. All 97 other existing prices and all 100 existing maturity and readiness classifications are retained. The new Universal Video Intelligence Platform prototype has an explicit current-source validation blocker. Website repositories are excluded digital displays. No independent legal, scientific, security or market certification is implied.",
+      "pricedDeliverySnapshot": {
+        "version": "0.8.0",
+        "head": "ce4d3f92aa5439954b03755dd3082b2c4641e37e",
+        "scope": "DEFAULT_BRANCH",
+        "includedInAskingReference": true
+      }
     },
     {
       "repository": "Mercorion-Commerce-Compiler",
@@ -9854,7 +9878,7 @@
       "commercialReference": "TA-IP-001",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
-      "sellerAskEUR": 45000,
+      "sellerAskEUR": 61000,
       "baselineCommit": "de09af79414680dabca8db396ccb39812a79d5b3",
       "auditStatus": "CURRENT_REPOSITORY_REASSESSMENT_COMPLETE",
       "assurance": {
@@ -10000,7 +10024,7 @@
         ],
         "evidenceBoundary": "Review the existing observation project and its separately tested v0.4.2 development candidate. The candidate passed 280 Python tests and 92 native checks; the native sanitizer checks also passed. Main remains the historical v0.1 source and the development candidate is unmerged. These are synthetic and adversarial software checks; calibrated field performance and the larger research programme remain unqualified."
       },
-      "financialReferencesReviewedAt": "2026-10-12T09:21:42Z",
+      "financialReferencesReviewedAt": "2026-10-16T07:49:40Z",
       "currentSourceReviewBoundary": "Review the existing observation project and its separately tested v0.4.2 development candidate. The candidate passed 280 Python tests and 92 native checks; the native sanitizer checks also passed. Main remains the historical v0.1 source and the development candidate is unmerged. These are synthetic and adversarial software checks; calibrated field performance and the larger research programme remain unqualified.",
       "localVerification": {
         "sourceHead": "de09af79414680dabca8db396ccb39812a79d5b3",
@@ -10022,7 +10046,13 @@
         "developmentCandidateMerged": false,
         "physicalFieldQualification": "NOT_ESTABLISHED"
       },
-      "scopeDocument": "docs/PORTFOLIO_FULL_REVISION_2026-10-12.md"
+      "scopeDocument": "docs/PORTFOLIO_FULL_REVISION_2026-10-12.md",
+      "pricedDeliverySnapshot": {
+        "version": "0.6.3",
+        "head": "f7ec774494ff1fa73e1ae2eb26cb967d4054eac6",
+        "scope": "FROZEN_UNMERGED_DEVELOPMENT",
+        "includedInAskingReference": true
+      }
     },
     {
       "repository": "Organismal-State-Dynamics-Research-Platform",
@@ -11379,7 +11409,7 @@
       "commercialReference": "TA-IP-081",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
-      "sellerAskEUR": 180000,
+      "sellerAskEUR": 185500,
       "baselineCommit": "de02892ac9ed9cbd27adc0f1ec4ecbf92896ea34",
       "auditStatus": "CURRENT_REPOSITORY_REASSESSMENT_COMPLETE",
       "assurance": {
@@ -11521,8 +11551,14 @@
         ],
         "evidenceBoundary": "The grades describe recorded repository evidence, not a fresh execution of every test or independent legal, security or market certification. External execution can mean a retained Colab run; it does not automatically mean an independent assessor."
       },
-      "financialReferencesReviewedAt": "2026-10-12T09:21:42Z",
-      "currentSourceReviewBoundary": "All 101 software repositories are accounted for: the 100 existing default branches and 32 open pull requests were checked, and the new Universal Video Intelligence Platform source was reviewed. Fresh local checks passed 103 TraceLine tests and 29 SCEP tests. Universal Video Intelligence Platform v0.5 passed 37 tests and a development build; its newer v0.7 mandatory syntax gate fails in new test source, so the current full suite and build were not reached and its transfer classification is NOT_READY. TrueLane mandatory validation passed: 95 tests ran, 80 passed and 15 optional PyTorch tests were skipped; no new CUDA or Drive adapter execution is claimed. Changed source, retained validation and unmerged candidates are kept separate. The SCEP checkpoint manifest and tree inventory were reviewed; binary download, restoration and numerical replay were not performed. Prices change only for three implemented main-branch increments and the new Universal Video Intelligence Platform prototype. All 97 other existing prices and all 100 existing maturity and readiness classifications are retained. The new Universal Video Intelligence Platform prototype has an explicit current-source validation blocker. Website repositories are excluded digital displays. No independent legal, scientific, security or market certification is implied."
+      "financialReferencesReviewedAt": "2026-10-16T07:49:40Z",
+      "currentSourceReviewBoundary": "All 101 software repositories are accounted for: the 100 existing default branches and 32 open pull requests were checked, and the new Universal Video Intelligence Platform source was reviewed. Fresh local checks passed 103 TraceLine tests and 29 SCEP tests. Universal Video Intelligence Platform v0.5 passed 37 tests and a development build; its newer v0.7 mandatory syntax gate fails in new test source, so the current full suite and build were not reached and its transfer classification is NOT_READY. TrueLane mandatory validation passed: 95 tests ran, 80 passed and 15 optional PyTorch tests were skipped; no new CUDA or Drive adapter execution is claimed. Changed source, retained validation and unmerged candidates are kept separate. The SCEP checkpoint manifest and tree inventory were reviewed; binary download, restoration and numerical replay were not performed. Prices change only for three implemented main-branch increments and the new Universal Video Intelligence Platform prototype. All 97 other existing prices and all 100 existing maturity and readiness classifications are retained. The new Universal Video Intelligence Platform prototype has an explicit current-source validation blocker. Website repositories are excluded digital displays. No independent legal, scientific, security or market certification is implied.",
+      "pricedDeliverySnapshot": {
+        "version": "0.7.0",
+        "head": "8870c146e94c62856dcf38d297653367ac37d565",
+        "scope": "DEFAULT_BRANCH",
+        "includedInAskingReference": true
+      }
     },
     {
       "repository": "Secure-Actuation-Integrity-Platform",
@@ -11937,7 +11973,7 @@
       "commercialReference": "TA-IP-016",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
-      "sellerAskEUR": 120000,
+      "sellerAskEUR": 150000,
       "baselineCommit": "8a115c904955797155b6463fd2cda415899223d3",
       "auditStatus": "CURRENT_REPOSITORY_REASSESSMENT_COMPLETE",
       "assurance": {
@@ -12078,8 +12114,14 @@
         ],
         "evidenceBoundary": "The grades describe recorded repository evidence, not a fresh execution of every test or independent legal, security or market certification. External execution can mean a retained Colab run; it does not automatically mean an independent assessor."
       },
-      "financialReferencesReviewedAt": "2026-10-12T09:21:42Z",
-      "currentSourceReviewBoundary": "All 101 software repositories are accounted for: the 100 existing default branches and 32 open pull requests were checked, and the new Universal Video Intelligence Platform source was reviewed. Fresh local checks passed 103 TraceLine tests and 29 SCEP tests. Universal Video Intelligence Platform v0.5 passed 37 tests and a development build; its newer v0.7 mandatory syntax gate fails in new test source, so the current full suite and build were not reached and its transfer classification is NOT_READY. TrueLane mandatory validation passed: 95 tests ran, 80 passed and 15 optional PyTorch tests were skipped; no new CUDA or Drive adapter execution is claimed. Changed source, retained validation and unmerged candidates are kept separate. The SCEP checkpoint manifest and tree inventory were reviewed; binary download, restoration and numerical replay were not performed. Prices change only for three implemented main-branch increments and the new Universal Video Intelligence Platform prototype. All 97 other existing prices and all 100 existing maturity and readiness classifications are retained. The new Universal Video Intelligence Platform prototype has an explicit current-source validation blocker. Website repositories are excluded digital displays. No independent legal, scientific, security or market certification is implied."
+      "financialReferencesReviewedAt": "2026-10-16T07:49:40Z",
+      "currentSourceReviewBoundary": "All 101 software repositories are accounted for: the 100 existing default branches and 32 open pull requests were checked, and the new Universal Video Intelligence Platform source was reviewed. Fresh local checks passed 103 TraceLine tests and 29 SCEP tests. Universal Video Intelligence Platform v0.5 passed 37 tests and a development build; its newer v0.7 mandatory syntax gate fails in new test source, so the current full suite and build were not reached and its transfer classification is NOT_READY. TrueLane mandatory validation passed: 95 tests ran, 80 passed and 15 optional PyTorch tests were skipped; no new CUDA or Drive adapter execution is claimed. Changed source, retained validation and unmerged candidates are kept separate. The SCEP checkpoint manifest and tree inventory were reviewed; binary download, restoration and numerical replay were not performed. Prices change only for three implemented main-branch increments and the new Universal Video Intelligence Platform prototype. All 97 other existing prices and all 100 existing maturity and readiness classifications are retained. The new Universal Video Intelligence Platform prototype has an explicit current-source validation blocker. Website repositories are excluded digital displays. No independent legal, scientific, security or market certification is implied.",
+      "pricedDeliverySnapshot": {
+        "version": "1.23.0",
+        "head": "e758cb4680041b8b0b9cf313299d21cea90628dc",
+        "scope": "DEFAULT_BRANCH",
+        "includedInAskingReference": true
+      }
     },
     {
       "repository": "Software-Asset-Provenance-Qualification-Platform",
@@ -12453,7 +12495,7 @@
       "commercialReference": "TA-IP-005",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "P",
-      "sellerAskEUR": 150000,
+      "sellerAskEUR": 169000,
       "baselineCommit": "620213d30f3aa50120a29693d6871eb932bf4251",
       "auditStatus": "CURRENT_REPOSITORY_REASSESSMENT_COMPLETE",
       "assurance": {
@@ -12594,8 +12636,14 @@
         ],
         "evidenceBoundary": "The grades describe recorded repository evidence, not a fresh execution of every test or independent legal, security or market certification. External execution can mean a retained Colab run; it does not automatically mean an independent assessor."
       },
-      "financialReferencesReviewedAt": "2026-10-12T09:21:42Z",
-      "currentSourceReviewBoundary": "All 101 software repositories are accounted for: the 100 existing default branches and 32 open pull requests were checked, and the new Universal Video Intelligence Platform source was reviewed. Fresh local checks passed 103 TraceLine tests and 29 SCEP tests. Universal Video Intelligence Platform v0.5 passed 37 tests and a development build; its newer v0.7 mandatory syntax gate fails in new test source, so the current full suite and build were not reached and its transfer classification is NOT_READY. TrueLane mandatory validation passed: 95 tests ran, 80 passed and 15 optional PyTorch tests were skipped; no new CUDA or Drive adapter execution is claimed. Changed source, retained validation and unmerged candidates are kept separate. The SCEP checkpoint manifest and tree inventory were reviewed; binary download, restoration and numerical replay were not performed. Prices change only for three implemented main-branch increments and the new Universal Video Intelligence Platform prototype. All 97 other existing prices and all 100 existing maturity and readiness classifications are retained. The new Universal Video Intelligence Platform prototype has an explicit current-source validation blocker. Website repositories are excluded digital displays. No independent legal, scientific, security or market certification is implied."
+      "financialReferencesReviewedAt": "2026-10-16T07:49:40Z",
+      "currentSourceReviewBoundary": "All 101 software repositories are accounted for: the 100 existing default branches and 32 open pull requests were checked, and the new Universal Video Intelligence Platform source was reviewed. Fresh local checks passed 103 TraceLine tests and 29 SCEP tests. Universal Video Intelligence Platform v0.5 passed 37 tests and a development build; its newer v0.7 mandatory syntax gate fails in new test source, so the current full suite and build were not reached and its transfer classification is NOT_READY. TrueLane mandatory validation passed: 95 tests ran, 80 passed and 15 optional PyTorch tests were skipped; no new CUDA or Drive adapter execution is claimed. Changed source, retained validation and unmerged candidates are kept separate. The SCEP checkpoint manifest and tree inventory were reviewed; binary download, restoration and numerical replay were not performed. Prices change only for three implemented main-branch increments and the new Universal Video Intelligence Platform prototype. All 97 other existing prices and all 100 existing maturity and readiness classifications are retained. The new Universal Video Intelligence Platform prototype has an explicit current-source validation blocker. Website repositories are excluded digital displays. No independent legal, scientific, security or market certification is implied.",
+      "pricedDeliverySnapshot": {
+        "version": "6.4.0",
+        "head": "b76713bcb30af9a83cc4ec679d92b5892b25e773",
+        "scope": "FROZEN_UNMERGED_DEVELOPMENT",
+        "includedInAskingReference": true
+      }
     },
     {
       "repository": "Spatial-Wearable-Perception-Platform",
@@ -13612,7 +13660,7 @@
       "commercialReference": "TA-IP-008",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
       "currentStage": "V",
-      "sellerAskEUR": 270000,
+      "sellerAskEUR": 300000,
       "baselineCommit": "c773b1dda3b28d773ac055d20572d5cd03f78215",
       "auditStatus": "CURRENT_REPOSITORY_REASSESSMENT_COMPLETE",
       "assurance": {
@@ -13781,8 +13829,14 @@
         ],
         "evidenceBoundary": "The grades describe recorded repository evidence, not a fresh execution of every test or independent legal, security or market certification. External execution can mean a retained Colab run; it does not automatically mean an independent assessor."
       },
-      "financialReferencesReviewedAt": "2026-10-12T09:21:42Z",
-      "currentSourceReviewBoundary": "All 101 software repositories are accounted for: the 100 existing default branches and 32 open pull requests were checked, and the new Universal Video Intelligence Platform source was reviewed. Fresh local checks passed 103 TraceLine tests and 29 SCEP tests. Universal Video Intelligence Platform v0.5 passed 37 tests and a development build; its newer v0.7 mandatory syntax gate fails in new test source, so the current full suite and build were not reached and its transfer classification is NOT_READY. TrueLane mandatory validation passed: 95 tests ran, 80 passed and 15 optional PyTorch tests were skipped; no new CUDA or Drive adapter execution is claimed. Changed source, retained validation and unmerged candidates are kept separate. The SCEP checkpoint manifest and tree inventory were reviewed; binary download, restoration and numerical replay were not performed. Prices change only for three implemented main-branch increments and the new Universal Video Intelligence Platform prototype. All 97 other existing prices and all 100 existing maturity and readiness classifications are retained. The new Universal Video Intelligence Platform prototype has an explicit current-source validation blocker. Website repositories are excluded digital displays. No independent legal, scientific, security or market certification is implied."
+      "financialReferencesReviewedAt": "2026-10-16T07:49:40Z",
+      "currentSourceReviewBoundary": "All 101 software repositories are accounted for: the 100 existing default branches and 32 open pull requests were checked, and the new Universal Video Intelligence Platform source was reviewed. Fresh local checks passed 103 TraceLine tests and 29 SCEP tests. Universal Video Intelligence Platform v0.5 passed 37 tests and a development build; its newer v0.7 mandatory syntax gate fails in new test source, so the current full suite and build were not reached and its transfer classification is NOT_READY. TrueLane mandatory validation passed: 95 tests ran, 80 passed and 15 optional PyTorch tests were skipped; no new CUDA or Drive adapter execution is claimed. Changed source, retained validation and unmerged candidates are kept separate. The SCEP checkpoint manifest and tree inventory were reviewed; binary download, restoration and numerical replay were not performed. Prices change only for three implemented main-branch increments and the new Universal Video Intelligence Platform prototype. All 97 other existing prices and all 100 existing maturity and readiness classifications are retained. The new Universal Video Intelligence Platform prototype has an explicit current-source validation blocker. Website repositories are excluded digital displays. No independent legal, scientific, security or market certification is implied.",
+      "pricedDeliverySnapshot": {
+        "version": "retained assessment-comparison build",
+        "head": "ff85ede411bdd26f0bd2b96e144ef075460ca614",
+        "scope": "DEFAULT_BRANCH",
+        "includedInAskingReference": true
+      }
     },
     {
       "repository": "TrueLane-InkCore",
@@ -18317,7 +18371,7 @@
   "assessedAt": "2026-10-13T04:20:04Z",
   "previousBasisDate": "2026-10-10",
   "reviewPolicy": "Only the new MIPP readiness record is added. All 104 preceding criteria, grades, decisions and evidence dates are retained.",
-  "catalogueUpdatedAt": "2026-10-16T06:23:40Z",
+  "catalogueUpdatedAt": "2026-10-16T07:49:40Z",
   "previousTargetedAssetReview": {
     "slug": "distributed-ai-resource-fabric",
     "ref": "TA-IP-022",
@@ -18649,5 +18703,21 @@
     "transactionReadinessChanged": false,
     "otherProjectRecordsChanged": 0,
     "boundary": "Targeted documentary status review of source-pinned repository records; product tests were not rerun for this catalogue update. R28 is user-operated/self-reported browser acceptance, not third-party attestation or release certification. The catalogue review did not independently inspect or replay the two full browser reports. Existing financial assumptions, assurance grades and the READY_WITH_CONDITIONS classification are retained."
+  },
+  "latestFinancialReferenceCorrection": {
+    "assessedAt": "2026-10-16T07:49:40Z",
+    "projects": [
+      "TA-IP-001",
+      "TA-IP-005",
+      "TA-IP-008",
+      "TA-IP-012",
+      "TA-IP-016",
+      "TA-IP-020",
+      "TA-IP-038",
+      "TA-IP-081",
+      "TA-IP-082"
+    ],
+    "document": "docs/DEVELOPMENT_VALUE_CORRECTION_2026-10-16.md",
+    "qualificationGradesChanged": 0
   }
 }

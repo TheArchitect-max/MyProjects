@@ -13,17 +13,18 @@
     "projectsReviewed": 105,
     "ipAssetsEvaluated": 105,
     "reviewOutcomes": {
-      "REFERENCE_REVIEWED": 105
+      "INCREMENT_REPRICED": 9,
+      "REFERENCE_REVIEWED": 96
     },
-    "monetaryReferencesChanged": 0,
+    "monetaryReferencesChanged": 9,
     "previousSellerAskEUR": 24501500,
-    "currentSellerAskEUR": 24501500,
+    "currentSellerAskEUR": 24647500,
     "previousReplacementCostEUR": 104385000,
-    "currentReplacementCostEUR": 104385000,
-    "targetedAssetsReviewed": 0,
+    "currentReplacementCostEUR": 105030000,
+    "targetedAssetsReviewed": 13,
     "newAssetsEvaluated": 0,
-    "otherAssetRecordsRetained": 0,
-    "boundary": "Documentary and financial-reference review of all 105 independent projects using the frozen repository documentation, retained qualification/transfer records, disclosed cost assumptions and external method/rate context. No project tests were rerun. No independent market appraisal, comparable sale or project cash-flow valuation is established. All seller asking references, negotiation ranges, recreation anchors and model factors are retained. Current source scope is not automatically included in an older cost budget; a delivery-specific re-estimate remains required."
+    "otherAssetRecordsRetained": 92,
+    "boundary": "Existing implemented work is separately estimated against explicit earlier and current sources. Elapsed days and version numbers are not pricing multipliers. Role effort, rates, allowance, rounding and seller asking proportions remain assumptions. No independent market-value increase is established. No product tests were rerun by this pricing review."
   },
   "projects": [
     {
@@ -4144,10 +4145,10 @@
       "slug": "distributed-compute-fabric",
       "title": "Distributed Compute Fabric",
       "assessmentDate": "2026-10-16",
-      "assessedAt": "2026-10-16T07:06:02Z",
+      "assessedAt": "2026-10-16T07:49:40Z",
       "previousAssessmentDate": "2026-10-12",
-      "reviewResult": "REFERENCE_REVIEWED",
-      "reviewNote": "Retain the existing EUR 220,000 seller ask and EUR 1,200,000 recreation anchor. Reviewed main: 0.11.0. A documentation/version update is not evidence of an agreed deliverable or a market-price change. The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.",
+      "reviewResult": "INCREMENT_REPRICED",
+      "reviewNote": "The implemented increment adds an estimated EUR 50,000 reproduction reference to the retained EUR 1,200,000 base, giving EUR 1,250,000. Retaining this project's prior asking/cost proportion (18.333%) and rounding to EUR 500 changes the seller asking reference from EUR 220,000 to EUR 229,000. The baseline cost remains a legacy seller assumption; the new increment has its own disclosed budget.",
       "currentVersion": "0.11.0",
       "developmentVersion": null,
       "countsAsIpAsset": true,
@@ -4166,12 +4167,12 @@
         "A detailed component inventory and licensing report are required for the agreed delivery scope.",
         "Release identity and provenance evidence remain incomplete."
       ],
-      "sellerAskEUR": 220000,
+      "sellerAskEUR": 229000,
       "previousSellerAskEUR": 220000,
-      "replacementCostEUR": 1200000,
+      "replacementCostEUR": 1250000,
       "previousReplacementCostEUR": 1200000,
-      "triangulatedEconomicReferenceEUR": 1839191,
-      "monetaryEstimateChanged": false,
+      "triangulatedEconomicReferenceEUR": 1915824,
+      "monetaryEstimateChanged": true,
       "evidenceBoundary": "Documentary and financial-reference review of all 105 independent projects using the frozen repository documentation, retained qualification/transfer records, disclosed cost assumptions and external method/rate context. No project tests were rerun. No independent market appraisal, comparable sale or project cash-flow valuation is established. All seller asking references, negotiation ranges, recreation anchors and model factors are retained. Current source scope is not automatically included in an older cost budget; a delivery-specific re-estimate remains required.",
       "ref": "TA-IP-082",
       "previousAssessedAt": "2026-10-12T00:19:02Z",
@@ -4222,7 +4223,7 @@
         ],
         "evidenceBoundary": "The grades describe recorded repository evidence, not a fresh execution of every test or independent legal, security or market certification. External execution can mean a retained Colab run; it does not automatically mean an independent assessor."
       },
-      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReferencesReviewedAt": "2026-10-16T07:49:40Z",
       "previousSourceHead": "7810d2175bac7adc8ac4232d21dd6efbcf5bf198",
       "catalogueSourceReview": {
         "reviewedAt": "2026-10-16T06:35:07Z",
@@ -4235,11 +4236,11 @@
         "productTestsExecutedForThisReview": false
       },
       "valuationReview": {
-        "reviewedAt": "2026-10-16T07:06:02Z",
-        "decision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
-        "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+        "reviewedAt": "2026-10-16T07:49:40Z",
+        "decision": "REPRICED_IMPLEMENTED_INCREMENT",
+        "costEvidenceStatus": "INCREMENT_BUDGET_WITH_LEGACY_BASE",
         "sourceRegister": "assets/valuation-sources.json",
-        "document": "docs/MULTISOURCE_VALUATION_REVIEW_2026-10-16.md",
+        "document": "docs/DEVELOPMENT_VALUE_CORRECTION_2026-10-16.md",
         "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
       },
       "retainedQualificationBaseline": {
@@ -4289,6 +4290,12 @@
           ],
           "evidenceBoundary": "The grades describe recorded repository evidence, not a fresh execution of every test or independent legal, security or market certification. External execution can mean a retained Colab run; it does not automatically mean an independent assessor."
         }
+      },
+      "pricedDevelopmentSnapshot": {
+        "version": "0.11.0",
+        "head": "6255df2e6c27535dd46043ac904fec519623ce33",
+        "scope": "DEFAULT_BRANCH",
+        "includedInAskingReference": true
       }
     },
     {
@@ -5071,10 +5078,10 @@
       "slug": "evidence-governed-visual-intelligence-platform",
       "title": "AEGIS Vision — Evidence-Governed Visual Intelligence Platform",
       "assessmentDate": "2026-10-16",
-      "assessedAt": "2026-10-16T07:06:02Z",
+      "assessedAt": "2026-10-16T07:49:40Z",
       "previousAssessmentDate": "2026-10-12",
-      "reviewResult": "REFERENCE_REVIEWED",
-      "reviewNote": "Retain the existing EUR 350,000 seller ask and EUR 1,150,000 recreation anchor. Reviewed main: 2.9.0. A documentation/version update is not evidence of an agreed deliverable or a market-price change. The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.",
+      "reviewResult": "INCREMENT_REPRICED",
+      "reviewNote": "The implemented increment adds an estimated EUR 15,000 reproduction reference to the retained EUR 1,150,000 base, giving EUR 1,165,000. Retaining this project's prior asking/cost proportion (30.435%) and rounding to EUR 500 changes the seller asking reference from EUR 350,000 to EUR 354,500. The baseline cost remains a legacy seller assumption; the new increment has its own disclosed budget.",
       "currentVersion": "2.9.0",
       "developmentVersion": null,
       "countsAsIpAsset": true,
@@ -5093,12 +5100,12 @@
         "A detailed component inventory and licensing report are required for the agreed delivery scope.",
         "An explicit delivery manifest and handover scope remain to be agreed."
       ],
-      "sellerAskEUR": 350000,
+      "sellerAskEUR": 354500,
       "previousSellerAskEUR": 350000,
-      "replacementCostEUR": 1150000,
+      "replacementCostEUR": 1165000,
       "previousReplacementCostEUR": 1150000,
-      "triangulatedEconomicReferenceEUR": 2242880,
-      "monetaryEstimateChanged": false,
+      "triangulatedEconomicReferenceEUR": 2272136,
+      "monetaryEstimateChanged": true,
       "evidenceBoundary": "Documentary and financial-reference review of all 105 independent projects using the frozen repository documentation, retained qualification/transfer records, disclosed cost assumptions and external method/rate context. No project tests were rerun. No independent market appraisal, comparable sale or project cash-flow valuation is established. All seller asking references, negotiation ranges, recreation anchors and model factors are retained. Current source scope is not automatically included in an older cost budget; a delivery-specific re-estimate remains required.",
       "ref": "TA-IP-012",
       "previousAssessedAt": "2026-10-12T00:19:02Z",
@@ -5149,7 +5156,7 @@
         ],
         "evidenceBoundary": "The grades describe recorded repository evidence, not a fresh execution of every test or independent legal, security or market certification. External execution can mean a retained Colab run; it does not automatically mean an independent assessor."
       },
-      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReferencesReviewedAt": "2026-10-16T07:49:40Z",
       "previousSourceHead": "b99e5047c59eacd229f1807de989236d1ffcea73",
       "catalogueSourceReview": {
         "reviewedAt": "2026-10-16T06:35:07Z",
@@ -5162,11 +5169,11 @@
         "productTestsExecutedForThisReview": false
       },
       "valuationReview": {
-        "reviewedAt": "2026-10-16T07:06:02Z",
-        "decision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
-        "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+        "reviewedAt": "2026-10-16T07:49:40Z",
+        "decision": "REPRICED_IMPLEMENTED_INCREMENT",
+        "costEvidenceStatus": "INCREMENT_BUDGET_WITH_LEGACY_BASE",
         "sourceRegister": "assets/valuation-sources.json",
-        "document": "docs/MULTISOURCE_VALUATION_REVIEW_2026-10-16.md",
+        "document": "docs/DEVELOPMENT_VALUE_CORRECTION_2026-10-16.md",
         "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
       },
       "retainedQualificationBaseline": {
@@ -5216,6 +5223,12 @@
           ],
           "evidenceBoundary": "The grades describe recorded repository evidence, not a fresh execution of every test or independent legal, security or market certification. External execution can mean a retained Colab run; it does not automatically mean an independent assessor."
         }
+      },
+      "pricedDevelopmentSnapshot": {
+        "version": "2.9.0",
+        "head": "85c1cdfd72b1be2f5c1a572ec7f85de04217c93d",
+        "scope": "DEFAULT_BRANCH",
+        "includedInAskingReference": true
       }
     },
     {
@@ -6592,10 +6605,10 @@
       "slug": "integrated-media-production-engine",
       "title": "Integrated Media Production Engine",
       "assessmentDate": "2026-10-16",
-      "assessedAt": "2026-10-16T07:06:02Z",
+      "assessedAt": "2026-10-16T07:49:40Z",
       "previousAssessmentDate": "2026-10-12",
-      "reviewResult": "REFERENCE_REVIEWED",
-      "reviewNote": "Retain the existing EUR 430,000 seller ask and EUR 1,200,000 recreation anchor. Reviewed main: 0.24.0. A documentation/version update is not evidence of an agreed deliverable or a market-price change. The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.",
+      "reviewResult": "INCREMENT_REPRICED",
+      "reviewNote": "The implemented increment adds an estimated EUR 75,000 reproduction reference to the retained EUR 1,200,000 base, giving EUR 1,275,000. Retaining this project's prior asking/cost proportion (35.833%) and rounding to EUR 500 changes the seller asking reference from EUR 430,000 to EUR 457,000. The baseline cost remains a legacy seller assumption; the new increment has its own disclosed budget.",
       "currentVersion": "0.24.0",
       "developmentVersion": null,
       "countsAsIpAsset": true,
@@ -6614,12 +6627,12 @@
         "An explicit delivery manifest and handover scope remain to be agreed.",
         "Review potential sensitive filenames before transfer: src/impe/managed_secrets.py, src/impe/provider_credentials.py"
       ],
-      "sellerAskEUR": 430000,
+      "sellerAskEUR": 457000,
       "previousSellerAskEUR": 430000,
-      "replacementCostEUR": 1200000,
+      "replacementCostEUR": 1275000,
       "previousReplacementCostEUR": 1200000,
-      "triangulatedEconomicReferenceEUR": 2178907,
-      "monetaryEstimateChanged": false,
+      "triangulatedEconomicReferenceEUR": 2315088,
+      "monetaryEstimateChanged": true,
       "evidenceBoundary": "Documentary and financial-reference review of all 105 independent projects using the frozen repository documentation, retained qualification/transfer records, disclosed cost assumptions and external method/rate context. No project tests were rerun. No independent market appraisal, comparable sale or project cash-flow valuation is established. All seller asking references, negotiation ranges, recreation anchors and model factors are retained. Current source scope is not automatically included in an older cost budget; a delivery-specific re-estimate remains required.",
       "ref": "TA-IP-038",
       "previousAssessedAt": "2026-10-12T00:19:02Z",
@@ -6670,7 +6683,7 @@
         ],
         "evidenceBoundary": "The grades describe recorded repository evidence, not a fresh execution of every test or independent legal, security or market certification. External execution can mean a retained Colab run; it does not automatically mean an independent assessor."
       },
-      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReferencesReviewedAt": "2026-10-16T07:49:40Z",
       "previousSourceHead": "c72ab4961955b81c0932e16fcd3e94a5f943d894",
       "catalogueSourceReview": {
         "reviewedAt": "2026-10-16T06:23:40Z",
@@ -6683,11 +6696,11 @@
         "productTestsExecutedForThisReview": false
       },
       "valuationReview": {
-        "reviewedAt": "2026-10-16T07:06:02Z",
-        "decision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
-        "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+        "reviewedAt": "2026-10-16T07:49:40Z",
+        "decision": "REPRICED_IMPLEMENTED_INCREMENT",
+        "costEvidenceStatus": "INCREMENT_BUDGET_WITH_LEGACY_BASE",
         "sourceRegister": "assets/valuation-sources.json",
-        "document": "docs/MULTISOURCE_VALUATION_REVIEW_2026-10-16.md",
+        "document": "docs/DEVELOPMENT_VALUE_CORRECTION_2026-10-16.md",
         "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
       },
       "retainedQualificationBaseline": {
@@ -6737,6 +6750,12 @@
           ],
           "evidenceBoundary": "The grades describe recorded repository evidence, not a fresh execution of every test or independent legal, security or market certification. External execution can mean a retained Colab run; it does not automatically mean an independent assessor."
         }
+      },
+      "pricedDevelopmentSnapshot": {
+        "version": "0.24.0",
+        "head": "4fb34a9155fc1041a616dd024ac2d31f1dfcaa09",
+        "scope": "DEFAULT_BRANCH",
+        "includedInAskingReference": true
       }
     },
     {
@@ -8120,10 +8139,10 @@
       "slug": "machine-cognition-research-framework",
       "title": "Machine Cognition Research Framework",
       "assessmentDate": "2026-10-16",
-      "assessedAt": "2026-10-16T07:06:02Z",
+      "assessedAt": "2026-10-16T07:49:40Z",
       "previousAssessmentDate": "2026-10-12",
-      "reviewResult": "REFERENCE_REVIEWED",
-      "reviewNote": "Retain the existing EUR 80,000 seller ask and EUR 650,000 recreation anchor. Reviewed main: 0.8.0. A documentation/version update is not evidence of an agreed deliverable or a market-price change. The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.",
+      "reviewResult": "INCREMENT_REPRICED",
+      "reviewNote": "The implemented increment adds an estimated EUR 40,000 reproduction reference to the retained EUR 650,000 base, giving EUR 690,000. Retaining this project's prior asking/cost proportion (12.308%) and rounding to EUR 500 changes the seller asking reference from EUR 80,000 to EUR 85,000. The baseline cost remains a legacy seller assumption; the new increment has its own disclosed budget.",
       "currentVersion": "0.8.0",
       "developmentVersion": null,
       "countsAsIpAsset": true,
@@ -8143,12 +8162,12 @@
         "A security assessment or an explicit statement of its absence is required before acceptance.",
         "An explicit delivery manifest and handover scope remain to be agreed."
       ],
-      "sellerAskEUR": 80000,
+      "sellerAskEUR": 85000,
       "previousSellerAskEUR": 80000,
-      "replacementCostEUR": 650000,
+      "replacementCostEUR": 690000,
       "previousReplacementCostEUR": 650000,
-      "triangulatedEconomicReferenceEUR": 441405,
-      "monetaryEstimateChanged": false,
+      "triangulatedEconomicReferenceEUR": 468569,
+      "monetaryEstimateChanged": true,
       "evidenceBoundary": "Documentary and financial-reference review of all 105 independent projects using the frozen repository documentation, retained qualification/transfer records, disclosed cost assumptions and external method/rate context. No project tests were rerun. No independent market appraisal, comparable sale or project cash-flow valuation is established. All seller asking references, negotiation ranges, recreation anchors and model factors are retained. Current source scope is not automatically included in an older cost budget; a delivery-specific re-estimate remains required.",
       "ref": "TA-IP-020",
       "previousAssessedAt": "2026-10-12T00:19:02Z",
@@ -8199,7 +8218,7 @@
         ],
         "evidenceBoundary": "The grades describe recorded repository evidence, not a fresh execution of every test or independent legal, security or market certification. External execution can mean a retained Colab run; it does not automatically mean an independent assessor."
       },
-      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReferencesReviewedAt": "2026-10-16T07:49:40Z",
       "previousSourceHead": "8cb56a1a8e52f9c82f6471eab888662561dbc935",
       "catalogueSourceReview": {
         "reviewedAt": "2026-10-16T06:35:07Z",
@@ -8212,11 +8231,11 @@
         "productTestsExecutedForThisReview": false
       },
       "valuationReview": {
-        "reviewedAt": "2026-10-16T07:06:02Z",
-        "decision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
-        "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+        "reviewedAt": "2026-10-16T07:49:40Z",
+        "decision": "REPRICED_IMPLEMENTED_INCREMENT",
+        "costEvidenceStatus": "INCREMENT_BUDGET_WITH_LEGACY_BASE",
         "sourceRegister": "assets/valuation-sources.json",
-        "document": "docs/MULTISOURCE_VALUATION_REVIEW_2026-10-16.md",
+        "document": "docs/DEVELOPMENT_VALUE_CORRECTION_2026-10-16.md",
         "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
       },
       "retainedQualificationBaseline": {
@@ -8266,6 +8285,12 @@
           ],
           "evidenceBoundary": "The grades describe recorded repository evidence, not a fresh execution of every test or independent legal, security or market certification. External execution can mean a retained Colab run; it does not automatically mean an independent assessor."
         }
+      },
+      "pricedDevelopmentSnapshot": {
+        "version": "0.8.0",
+        "head": "ce4d3f92aa5439954b03755dd3082b2c4641e37e",
+        "scope": "DEFAULT_BRANCH",
+        "includedInAskingReference": true
       }
     },
     {
@@ -8878,10 +8903,10 @@
       "slug": "modular-aerospace-research-platform",
       "title": "Modular Aerospace Research Platform",
       "assessmentDate": "2026-10-16",
-      "assessedAt": "2026-10-16T07:06:02Z",
+      "assessedAt": "2026-10-16T07:49:40Z",
       "previousAssessmentDate": "2026-10-12",
-      "reviewResult": "REFERENCE_REVIEWED",
-      "reviewNote": "Retain the existing EUR 45,000 seller ask and EUR 400,000 recreation anchor. Reviewed main: 0.1.0. A documentation/version update is not evidence of an agreed deliverable or a market-price change. The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.",
+      "reviewResult": "INCREMENT_REPRICED",
+      "reviewNote": "The implemented increment adds an estimated EUR 140,000 reproduction reference to the retained EUR 400,000 base, giving EUR 540,000. Retaining this project's prior asking/cost proportion (11.250%) and rounding to EUR 500 changes the seller asking reference from EUR 45,000 to EUR 61,000. The baseline cost remains a legacy seller assumption; the new increment has its own disclosed budget.",
       "currentVersion": "0.1.0",
       "developmentVersion": "0.6.3 — unmerged STELLA research foundation",
       "countsAsIpAsset": true,
@@ -8901,12 +8926,12 @@
         "Complete the agreed component inventory, obligations review and recipient acceptance of the bounded software package.",
         "Keep physical calibration, independently qualified annotations, field performance and the blocked v1.0/Horizon programme outside the demonstrated scope."
       ],
-      "sellerAskEUR": 45000,
+      "sellerAskEUR": 61000,
       "previousSellerAskEUR": 45000,
-      "replacementCostEUR": 400000,
+      "replacementCostEUR": 540000,
       "previousReplacementCostEUR": 400000,
-      "triangulatedEconomicReferenceEUR": 243058,
-      "monetaryEstimateChanged": false,
+      "triangulatedEconomicReferenceEUR": 328128,
+      "monetaryEstimateChanged": true,
       "evidenceBoundary": "Documentary and financial-reference review of all 105 independent projects using the frozen repository documentation, retained qualification/transfer records, disclosed cost assumptions and external method/rate context. No project tests were rerun. No independent market appraisal, comparable sale or project cash-flow valuation is established. All seller asking references, negotiation ranges, recreation anchors and model factors are retained. Current source scope is not automatically included in an older cost budget; a delivery-specific re-estimate remains required.",
       "ref": "TA-IP-001",
       "previousAssessedAt": "2026-10-12T00:19:02Z",
@@ -8957,7 +8982,7 @@
         ],
         "evidenceBoundary": "Review the existing observation project and its separately tested v0.4.2 development candidate. The candidate passed 280 Python tests and 92 native checks; the native sanitizer checks also passed. Main remains the historical v0.1 source and the development candidate is unmerged. These are synthetic and adversarial software checks; calibrated field performance and the larger research programme remain unqualified."
       },
-      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReferencesReviewedAt": "2026-10-16T07:49:40Z",
       "previousSourceHead": "d43cf19d3b12ba6452f945aab1a5ea64deac7901",
       "statusNote": "Review the existing observation project and its separately tested v0.4.2 development candidate. The candidate passed 280 Python tests and 92 native checks; the native sanitizer checks also passed. Main remains the historical v0.1 source and the development candidate is unmerged. These are synthetic and adversarial software checks; calibrated field performance and the larger research programme remain unqualified.",
       "localVerification": {
@@ -8995,11 +9020,11 @@
         "productTestsExecutedForThisReview": false
       },
       "valuationReview": {
-        "reviewedAt": "2026-10-16T07:06:02Z",
-        "decision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
-        "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+        "reviewedAt": "2026-10-16T07:49:40Z",
+        "decision": "REPRICED_IMPLEMENTED_INCREMENT",
+        "costEvidenceStatus": "INCREMENT_BUDGET_WITH_LEGACY_BASE",
         "sourceRegister": "assets/valuation-sources.json",
-        "document": "docs/MULTISOURCE_VALUATION_REVIEW_2026-10-16.md",
+        "document": "docs/DEVELOPMENT_VALUE_CORRECTION_2026-10-16.md",
         "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
       },
       "retainedQualificationBaseline": {
@@ -9049,6 +9074,12 @@
           ],
           "evidenceBoundary": "Review the existing observation project and its separately tested v0.4.2 development candidate. The candidate passed 280 Python tests and 92 native checks; the native sanitizer checks also passed. Main remains the historical v0.1 source and the development candidate is unmerged. These are synthetic and adversarial software checks; calibrated field performance and the larger research programme remain unqualified."
         }
+      },
+      "pricedDevelopmentSnapshot": {
+        "version": "0.6.3",
+        "head": "f7ec774494ff1fa73e1ae2eb26cb967d4054eac6",
+        "scope": "FROZEN_UNMERGED_DEVELOPMENT",
+        "includedInAskingReference": true
       }
     },
     {
@@ -10269,10 +10300,10 @@
       "slug": "swpp-viorith-mobile-camera-overlay",
       "title": "VIORITH Mobile Camera Overlay",
       "assessmentDate": "2026-10-16",
-      "assessedAt": "2026-10-16T07:06:02Z",
+      "assessedAt": "2026-10-16T07:49:40Z",
       "previousAssessmentDate": "2026-10-12",
-      "reviewResult": "REFERENCE_REVIEWED",
-      "reviewNote": "Retain the existing EUR 180,000 seller ask and EUR 850,000 recreation anchor. Reviewed main: 0.7.0. A documentation/version update is not evidence of an agreed deliverable or a market-price change. The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.",
+      "reviewResult": "INCREMENT_REPRICED",
+      "reviewNote": "The implemented increment adds an estimated EUR 25,000 reproduction reference to the retained EUR 850,000 base, giving EUR 875,000. Retaining this project's prior asking/cost proportion (21.176%) and rounding to EUR 500 changes the seller asking reference from EUR 180,000 to EUR 185,500. The baseline cost remains a legacy seller assumption; the new increment has its own disclosed budget.",
       "currentVersion": "0.7.0",
       "developmentVersion": null,
       "countsAsIpAsset": true,
@@ -10293,12 +10324,12 @@
         "Release identity and provenance evidence remain incomplete.",
         "An explicit delivery manifest and handover scope remain to be agreed."
       ],
-      "sellerAskEUR": 180000,
+      "sellerAskEUR": 185500,
       "previousSellerAskEUR": 180000,
-      "replacementCostEUR": 850000,
+      "replacementCostEUR": 875000,
       "previousReplacementCostEUR": 850000,
-      "triangulatedEconomicReferenceEUR": 1071176,
-      "monetaryEstimateChanged": false,
+      "triangulatedEconomicReferenceEUR": 1102681,
+      "monetaryEstimateChanged": true,
       "evidenceBoundary": "Documentary and financial-reference review of all 105 independent projects using the frozen repository documentation, retained qualification/transfer records, disclosed cost assumptions and external method/rate context. No project tests were rerun. No independent market appraisal, comparable sale or project cash-flow valuation is established. All seller asking references, negotiation ranges, recreation anchors and model factors are retained. Current source scope is not automatically included in an older cost budget; a delivery-specific re-estimate remains required.",
       "ref": "TA-IP-081",
       "previousAssessedAt": "2026-10-12T00:19:02Z",
@@ -10349,7 +10380,7 @@
         ],
         "evidenceBoundary": "The grades describe recorded repository evidence, not a fresh execution of every test or independent legal, security or market certification. External execution can mean a retained Colab run; it does not automatically mean an independent assessor."
       },
-      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReferencesReviewedAt": "2026-10-16T07:49:40Z",
       "previousSourceHead": "de02892ac9ed9cbd27adc0f1ec4ecbf92896ea34",
       "catalogueSourceReview": {
         "reviewedAt": "2026-10-16T06:23:40Z",
@@ -10362,11 +10393,11 @@
         "productTestsExecutedForThisReview": false
       },
       "valuationReview": {
-        "reviewedAt": "2026-10-16T07:06:02Z",
-        "decision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
-        "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+        "reviewedAt": "2026-10-16T07:49:40Z",
+        "decision": "REPRICED_IMPLEMENTED_INCREMENT",
+        "costEvidenceStatus": "INCREMENT_BUDGET_WITH_LEGACY_BASE",
         "sourceRegister": "assets/valuation-sources.json",
-        "document": "docs/MULTISOURCE_VALUATION_REVIEW_2026-10-16.md",
+        "document": "docs/DEVELOPMENT_VALUE_CORRECTION_2026-10-16.md",
         "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
       },
       "retainedQualificationBaseline": {
@@ -10416,6 +10447,12 @@
           ],
           "evidenceBoundary": "The grades describe recorded repository evidence, not a fresh execution of every test or independent legal, security or market certification. External execution can mean a retained Colab run; it does not automatically mean an independent assessor."
         }
+      },
+      "pricedDevelopmentSnapshot": {
+        "version": "0.7.0",
+        "head": "8870c146e94c62856dcf38d297653367ac37d565",
+        "scope": "DEFAULT_BRANCH",
+        "includedInAskingReference": true
       }
     },
     {
@@ -10762,10 +10799,10 @@
       "slug": "signal-processing-universal-framework",
       "title": "Signal Processing Universal Framework",
       "assessmentDate": "2026-10-16",
-      "assessedAt": "2026-10-16T07:06:02Z",
+      "assessedAt": "2026-10-16T07:49:40Z",
       "previousAssessmentDate": "2026-10-12",
-      "reviewResult": "REFERENCE_REVIEWED",
-      "reviewNote": "Retain the existing EUR 120,000 seller ask and EUR 400,000 recreation anchor. Reviewed main: 1.23.0. A documentation/version update is not evidence of an agreed deliverable or a market-price change. The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.",
+      "reviewResult": "INCREMENT_REPRICED",
+      "reviewNote": "The implemented increment adds an estimated EUR 100,000 reproduction reference to the retained EUR 400,000 base, giving EUR 500,000. Retaining this project's prior asking/cost proportion (30.000%) and rounding to EUR 500 changes the seller asking reference from EUR 120,000 to EUR 150,000. The baseline cost remains a legacy seller assumption; the new increment has its own disclosed budget.",
       "currentVersion": "1.23.0",
       "developmentVersion": null,
       "countsAsIpAsset": true,
@@ -10786,12 +10823,12 @@
         "Release identity and provenance evidence remain incomplete.",
         "An explicit delivery manifest and handover scope remain to be agreed."
       ],
-      "sellerAskEUR": 120000,
+      "sellerAskEUR": 150000,
       "previousSellerAskEUR": 120000,
-      "replacementCostEUR": 400000,
+      "replacementCostEUR": 500000,
       "previousReplacementCostEUR": 400000,
-      "triangulatedEconomicReferenceEUR": 485961,
-      "monetaryEstimateChanged": false,
+      "triangulatedEconomicReferenceEUR": 607451,
+      "monetaryEstimateChanged": true,
       "evidenceBoundary": "Documentary and financial-reference review of all 105 independent projects using the frozen repository documentation, retained qualification/transfer records, disclosed cost assumptions and external method/rate context. No project tests were rerun. No independent market appraisal, comparable sale or project cash-flow valuation is established. All seller asking references, negotiation ranges, recreation anchors and model factors are retained. Current source scope is not automatically included in an older cost budget; a delivery-specific re-estimate remains required.",
       "ref": "TA-IP-016",
       "previousAssessedAt": "2026-10-12T00:19:02Z",
@@ -10842,7 +10879,7 @@
         ],
         "evidenceBoundary": "The grades describe recorded repository evidence, not a fresh execution of every test or independent legal, security or market certification. External execution can mean a retained Colab run; it does not automatically mean an independent assessor."
       },
-      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReferencesReviewedAt": "2026-10-16T07:49:40Z",
       "previousSourceHead": "8a115c904955797155b6463fd2cda415899223d3",
       "catalogueSourceReview": {
         "reviewedAt": "2026-10-16T07:16:50Z",
@@ -10855,11 +10892,11 @@
         "productTestsExecutedForThisReview": false
       },
       "valuationReview": {
-        "reviewedAt": "2026-10-16T07:06:02Z",
-        "decision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
-        "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+        "reviewedAt": "2026-10-16T07:49:40Z",
+        "decision": "REPRICED_IMPLEMENTED_INCREMENT",
+        "costEvidenceStatus": "INCREMENT_BUDGET_WITH_LEGACY_BASE",
         "sourceRegister": "assets/valuation-sources.json",
-        "document": "docs/MULTISOURCE_VALUATION_REVIEW_2026-10-16.md",
+        "document": "docs/DEVELOPMENT_VALUE_CORRECTION_2026-10-16.md",
         "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
       },
       "retainedQualificationBaseline": {
@@ -10919,6 +10956,12 @@
         "independentTests": 253,
         "recordedFinishedAt": "2026-10-16T06:37:16.076410+00:00",
         "reviewBoundary": "The retained v1.23.0 Colab record reports canonical 253/253 and independent unittest-discovery 253/253 passes at frozen code 32073ef1c45b490e0669acb995f20e891601ddc8. The current head adds evidence and documentation; this is source-bound Colab evidence, not a GitHub Actions result or a new execution by this website review."
+      },
+      "pricedDevelopmentSnapshot": {
+        "version": "1.23.0",
+        "head": "e758cb4680041b8b0b9cf313299d21cea90628dc",
+        "scope": "DEFAULT_BRANCH",
+        "includedInAskingReference": true
       }
     },
     {
@@ -11227,10 +11270,10 @@
       "slug": "evidence-intelligence-operations-platform",
       "title": "Evidence Intelligence Operations Platform",
       "assessmentDate": "2026-10-16",
-      "assessedAt": "2026-10-16T07:06:02Z",
+      "assessedAt": "2026-10-16T07:49:40Z",
       "previousAssessmentDate": "2026-10-12",
-      "reviewResult": "REFERENCE_REVIEWED",
-      "reviewNote": "Retain the existing EUR 150,000 seller ask and EUR 800,000 recreation anchor. Reviewed main: 6.3.0. A documentation/version update is not evidence of an agreed deliverable or a market-price change. The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.",
+      "reviewResult": "INCREMENT_REPRICED",
+      "reviewNote": "The implemented increment adds an estimated EUR 100,000 reproduction reference to the retained EUR 800,000 base, giving EUR 900,000. Retaining this project's prior asking/cost proportion (18.750%) and rounding to EUR 500 changes the seller asking reference from EUR 150,000 to EUR 169,000. The baseline cost remains a legacy seller assumption; the new increment has its own disclosed budget.",
       "currentVersion": "6.3.0",
       "developmentVersion": "6.4.0 — unmerged authorized-document connector candidate",
       "countsAsIpAsset": true,
@@ -11251,12 +11294,12 @@
         "Release identity and provenance evidence remain incomplete.",
         "An explicit delivery manifest and handover scope remain to be agreed."
       ],
-      "sellerAskEUR": 150000,
+      "sellerAskEUR": 169000,
       "previousSellerAskEUR": 150000,
-      "replacementCostEUR": 800000,
+      "replacementCostEUR": 900000,
       "previousReplacementCostEUR": 800000,
-      "triangulatedEconomicReferenceEUR": 810773,
-      "monetaryEstimateChanged": false,
+      "triangulatedEconomicReferenceEUR": 912119,
+      "monetaryEstimateChanged": true,
       "evidenceBoundary": "Documentary and financial-reference review of all 105 independent projects using the frozen repository documentation, retained qualification/transfer records, disclosed cost assumptions and external method/rate context. No project tests were rerun. No independent market appraisal, comparable sale or project cash-flow valuation is established. All seller asking references, negotiation ranges, recreation anchors and model factors are retained. Current source scope is not automatically included in an older cost budget; a delivery-specific re-estimate remains required.",
       "ref": "TA-IP-005",
       "previousAssessedAt": "2026-10-12T00:19:02Z",
@@ -11307,7 +11350,7 @@
         ],
         "evidenceBoundary": "The grades describe recorded repository evidence, not a fresh execution of every test or independent legal, security or market certification. External execution can mean a retained Colab run; it does not automatically mean an independent assessor."
       },
-      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReferencesReviewedAt": "2026-10-16T07:49:40Z",
       "previousSourceHead": "620213d30f3aa50120a29693d6871eb932bf4251",
       "catalogueSourceReview": {
         "reviewedAt": "2026-10-16T06:23:40Z",
@@ -11320,11 +11363,11 @@
         "productTestsExecutedForThisReview": false
       },
       "valuationReview": {
-        "reviewedAt": "2026-10-16T07:06:02Z",
-        "decision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
-        "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+        "reviewedAt": "2026-10-16T07:49:40Z",
+        "decision": "REPRICED_IMPLEMENTED_INCREMENT",
+        "costEvidenceStatus": "INCREMENT_BUDGET_WITH_LEGACY_BASE",
         "sourceRegister": "assets/valuation-sources.json",
-        "document": "docs/MULTISOURCE_VALUATION_REVIEW_2026-10-16.md",
+        "document": "docs/DEVELOPMENT_VALUE_CORRECTION_2026-10-16.md",
         "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
       },
       "retainedQualificationBaseline": {
@@ -11374,6 +11417,12 @@
           ],
           "evidenceBoundary": "The grades describe recorded repository evidence, not a fresh execution of every test or independent legal, security or market certification. External execution can mean a retained Colab run; it does not automatically mean an independent assessor."
         }
+      },
+      "pricedDevelopmentSnapshot": {
+        "version": "6.4.0",
+        "head": "b76713bcb30af9a83cc4ec679d92b5892b25e773",
+        "scope": "FROZEN_UNMERGED_DEVELOPMENT",
+        "includedInAskingReference": true
       }
     },
     {
@@ -12305,10 +12354,10 @@
       "slug": "plant-environment-decision-intelligence-platform",
       "title": "Plant Environment Decision Intelligence Platform",
       "assessmentDate": "2026-10-16",
-      "assessedAt": "2026-10-16T07:06:02Z",
+      "assessedAt": "2026-10-16T07:49:40Z",
       "previousAssessmentDate": "2026-10-12",
-      "reviewResult": "REFERENCE_REVIEWED",
-      "reviewNote": "Retain the existing EUR 270,000 seller ask and EUR 900,000 recreation anchor. Reviewed main: Retained assessment-comparison build. A documentation/version update is not evidence of an agreed deliverable or a market-price change. The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.",
+      "reviewResult": "INCREMENT_REPRICED",
+      "reviewNote": "The implemented increment adds an estimated EUR 100,000 reproduction reference to the retained EUR 900,000 base, giving EUR 1,000,000. Retaining this project's prior asking/cost proportion (30.000%) and rounding to EUR 500 changes the seller asking reference from EUR 270,000 to EUR 300,000. The baseline cost remains a legacy seller assumption; the new increment has its own disclosed budget.",
       "currentVersion": "Retained assessment-comparison build",
       "developmentVersion": null,
       "countsAsIpAsset": true,
@@ -12328,12 +12377,12 @@
         "An explicit delivery manifest and handover scope remain to be agreed.",
         "Review potential sensitive filenames before transfer: plant-environment-decision-intelligence-platform/plant-environment-decision-intelligence-platform/scripts/generate_dev_token.py"
       ],
-      "sellerAskEUR": 270000,
+      "sellerAskEUR": 300000,
       "previousSellerAskEUR": 270000,
-      "replacementCostEUR": 900000,
+      "replacementCostEUR": 1000000,
       "previousReplacementCostEUR": 900000,
-      "triangulatedEconomicReferenceEUR": 1122036,
-      "monetaryEstimateChanged": false,
+      "triangulatedEconomicReferenceEUR": 1246706,
+      "monetaryEstimateChanged": true,
       "evidenceBoundary": "Documentary and financial-reference review of all 105 independent projects using the frozen repository documentation, retained qualification/transfer records, disclosed cost assumptions and external method/rate context. No project tests were rerun. No independent market appraisal, comparable sale or project cash-flow valuation is established. All seller asking references, negotiation ranges, recreation anchors and model factors are retained. Current source scope is not automatically included in an older cost budget; a delivery-specific re-estimate remains required.",
       "ref": "TA-IP-008",
       "previousAssessedAt": "2026-10-12T00:19:02Z",
@@ -12384,7 +12433,7 @@
         ],
         "evidenceBoundary": "The grades describe recorded repository evidence, not a fresh execution of every test or independent legal, security or market certification. External execution can mean a retained Colab run; it does not automatically mean an independent assessor."
       },
-      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReferencesReviewedAt": "2026-10-16T07:49:40Z",
       "previousSourceHead": "c773b1dda3b28d773ac055d20572d5cd03f78215",
       "catalogueSourceReview": {
         "reviewedAt": "2026-10-16T06:23:40Z",
@@ -12397,11 +12446,11 @@
         "productTestsExecutedForThisReview": false
       },
       "valuationReview": {
-        "reviewedAt": "2026-10-16T07:06:02Z",
-        "decision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
-        "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+        "reviewedAt": "2026-10-16T07:49:40Z",
+        "decision": "REPRICED_IMPLEMENTED_INCREMENT",
+        "costEvidenceStatus": "INCREMENT_BUDGET_WITH_LEGACY_BASE",
         "sourceRegister": "assets/valuation-sources.json",
-        "document": "docs/MULTISOURCE_VALUATION_REVIEW_2026-10-16.md",
+        "document": "docs/DEVELOPMENT_VALUE_CORRECTION_2026-10-16.md",
         "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
       },
       "retainedQualificationBaseline": {
@@ -12451,6 +12500,12 @@
           ],
           "evidenceBoundary": "The grades describe recorded repository evidence, not a fresh execution of every test or independent legal, security or market certification. External execution can mean a retained Colab run; it does not automatically mean an independent assessor."
         }
+      },
+      "pricedDevelopmentSnapshot": {
+        "version": "retained assessment-comparison build",
+        "head": "ff85ede411bdd26f0bd2b96e144ef075460ca614",
+        "scope": "DEFAULT_BRANCH",
+        "includedInAskingReference": true
       }
     },
     {
@@ -16603,7 +16658,7 @@
       }
     }
   ],
-  "catalogueUpdatedAt": "2026-10-16T07:06:02Z",
+  "catalogueUpdatedAt": "2026-10-16T07:49:40Z",
   "latestSeparateAssetPricing": {
     "assessedAt": "2026-10-09T06:22:41Z",
     "assetCount": 3,
@@ -16678,6 +16733,860 @@
     "boundary": "DARF only: current source, retained exact-commit validation, rights, delivery conditions and seller-side economics. The other 96 asset assessments and monetary inputs retain their earlier dates and conclusions; portfolio totals are recomputed."
   },
   "latestFinancialReassessment": {
+    "assessedAt": "2026-10-16T07:49:40Z",
+    "type": "TARGETED_IMPLEMENTED_INCREMENT_REVIEW",
+    "assetsReassessed": 13,
+    "monetaryReferencesChanged": 9,
+    "assetAdditions": 0,
+    "unchangedAssetPrices": 96,
+    "otherAssetRecordsRetained": 92,
+    "unchangedCommercialFactors": true,
+    "softwareMaturityChanged": 0,
+    "assets": [
+      {
+        "ref": "TA-IP-001",
+        "slug": "modular-aerospace-research-platform",
+        "title": "Modular Aerospace Research Platform",
+        "reviewedAt": "2026-10-16T07:49:40Z",
+        "beforeVersion": "0.4.2",
+        "pricedVersion": "0.6.3",
+        "comparisonBaselineCommit": "de09af79414680dabca8db396ccb39812a79d5b3",
+        "pricedSourceHead": "f7ec774494ff1fa73e1ae2eb26cb967d4054eac6",
+        "sourceScope": "FROZEN_UNMERGED_DEVELOPMENT",
+        "finding": "Adds conditional observation geometry, replayable research dossiers, bounded motion/signal processing, actual public-archive import and dependency-aware evidence comparison beyond the already priced v0.4.2 foundation.",
+        "retainedEvidence": "Retained v0.6.3 report: 1,043 canonical passes and 96 independently validated schemas at its stated tested implementation. Publication/evidence commits are kept separate from that executed code.",
+        "remainingQualification": "Full cross-modality fusion, physical/field qualification, Horizon products and third-party archive ownership are excluded.",
+        "previousSellerAskEUR": 45000,
+        "currentSellerAskEUR": 61000,
+        "askingReferenceChangeEUR": 16000,
+        "previousReplacementCostEUR": 400000,
+        "currentReplacementCostEUR": 540000,
+        "recreationIncrementEUR": 140000,
+        "priorAskingShareOfRecreation": 0.1125,
+        "budget": {
+          "ref": "TA-IP-001",
+          "slug": "modular-aerospace-research-platform",
+          "basis": "Incremental present first-party work since the explicitly identified earlier source; previous scope counted once",
+          "economicAssessmentAt": "2026-10-16T07:49:40Z",
+          "comparisonBaselineVersion": "0.4.2",
+          "comparisonBaselineCommit": "de09af79414680dabca8db396ccb39812a79d5b3",
+          "sourceHead": "f7ec774494ff1fa73e1ae2eb26cb967d4054eac6",
+          "pricedVersion": "0.6.3",
+          "sourceScope": "FROZEN_UNMERGED_DEVELOPMENT",
+          "seniorEngineerMonths": 3.0,
+          "leadOrSpecialistMonths": 2.0,
+          "validationProvenanceMonths": 1.5,
+          "assumedHours": 1040.0,
+          "rawEngineeringCostEUR": 122000,
+          "withAllowanceEUR": 140300,
+          "adoptedRecreationIncrementEUR": 140000,
+          "previousRecreationCostEUR": 400000,
+          "resultingRecreationCostEUR": 540000,
+          "workPackages": [
+            {
+              "scope": "Conditional geometry and replayable research dossiers",
+              "seniorEngineerMonths": 1.25,
+              "leadOrSpecialistMonths": 0.9,
+              "validationProvenanceMonths": 0.35
+            },
+            {
+              "scope": "Bounded signal processing, archive context and evidence comparison",
+              "seniorEngineerMonths": 1.35,
+              "leadOrSpecialistMonths": 0.85,
+              "validationProvenanceMonths": 0.5
+            },
+            {
+              "scope": "Numerical/regression evidence, packaging and review documentation",
+              "seniorEngineerMonths": 0.4,
+              "leadOrSpecialistMonths": 0.25,
+              "validationProvenanceMonths": 0.65
+            }
+          ],
+          "scope": "Adds conditional observation geometry, replayable research dossiers, bounded motion/signal processing, actual public-archive import and dependency-aware evidence comparison beyond the already priced v0.4.2 foundation.",
+          "exclusions": [
+            "Full cross-modality fusion, physical/field qualification, Horizon products and third-party archive ownership are excluded.",
+            "Previously costed baseline work",
+            "Pure renaming, generated snapshots and repeated historical validation counted as new products",
+            "Future implementation, revenue and guaranteed buyer outcomes"
+          ],
+          "effortSensitivity": {
+            "acceleratedQuarterEffortAtKnabMeanEUR": 28106,
+            "oneAndHalfEffortAtRetainedRoleRatesEUR": 210450,
+            "basis": "Illustrative effort alternatives only; AI assistance, reuse, acceptance depth and buyer capability can change actual effort substantially. Neither scenario is a quote or confidence interval."
+          },
+          "boundary": "Analyst engineering-equivalent reproduction assumption, not logged hours, two days of labour invoiced as months, historical expenditure, a buyer quotation or independently established market value."
+        },
+        "costAssumptionsDocument": "docs/DEVELOPMENT_VALUE_CORRECTION_2026-10-16.md",
+        "pricingScope": "Existing first-party 0.6.3 source at f7ec774494ff1fa73e1ae2eb26cb967d4054eac6 (unmerged development snapshot), including the described implemented increment. Full cross-modality fusion, physical/field qualification, Horizon products and third-party archive ownership are excluded.",
+        "decisionNote": "The implemented increment adds an estimated EUR 140,000 reproduction reference to the retained EUR 400,000 base, giving EUR 540,000. Retaining this project's prior asking/cost proportion (11.250%) and rounding to EUR 500 changes the seller asking reference from EUR 45,000 to EUR 61,000. The baseline cost remains a legacy seller assumption; the new increment has its own disclosed budget.",
+        "productTestsExecutedForThisPricingReview": false,
+        "marketValueIncreaseEstablished": false
+      },
+      {
+        "ref": "TA-IP-005",
+        "slug": "evidence-intelligence-operations-platform",
+        "title": "Evidence Intelligence Operations Platform",
+        "reviewedAt": "2026-10-16T07:49:40Z",
+        "beforeVersion": "5.9.0",
+        "pricedVersion": "6.4.0",
+        "comparisonBaselineCommit": "620213d30f3aa50120a29693d6871eb932bf4251",
+        "pricedSourceHead": "b76713bcb30af9a83cc4ec679d92b5892b25e773",
+        "sourceScope": "FROZEN_UNMERGED_DEVELOPMENT",
+        "finding": "Adds operator case governance, cross-dossier evidence review, verifiable bundles/delivery records and bounded authorized local-document collection beyond the retained v5.9 scope. Rename-only edits receive no separate premium.",
+        "retainedEvidence": "Retained current verifier: v6.4.0 PASS, 192 tests across six environments; repaired v6.3.1/v6.3.2 evidence remains separate from historical failures.",
+        "remainingQualification": "Historical v6.0.0/v6.3.0 FAIL states remain. Live provider collection, external rights, production operation and future connectors are excluded.",
+        "previousSellerAskEUR": 150000,
+        "currentSellerAskEUR": 169000,
+        "askingReferenceChangeEUR": 19000,
+        "previousReplacementCostEUR": 800000,
+        "currentReplacementCostEUR": 900000,
+        "recreationIncrementEUR": 100000,
+        "priorAskingShareOfRecreation": 0.1875,
+        "budget": {
+          "ref": "TA-IP-005",
+          "slug": "evidence-intelligence-operations-platform",
+          "basis": "Incremental present first-party work since the explicitly identified earlier source; previous scope counted once",
+          "economicAssessmentAt": "2026-10-16T07:49:40Z",
+          "comparisonBaselineVersion": "5.9.0",
+          "comparisonBaselineCommit": "620213d30f3aa50120a29693d6871eb932bf4251",
+          "sourceHead": "b76713bcb30af9a83cc4ec679d92b5892b25e773",
+          "pricedVersion": "6.4.0",
+          "sourceScope": "FROZEN_UNMERGED_DEVELOPMENT",
+          "seniorEngineerMonths": 3.0,
+          "leadOrSpecialistMonths": 0.75,
+          "validationProvenanceMonths": 1.25,
+          "assumedHours": 800.0,
+          "rawEngineeringCostEUR": 90500,
+          "withAllowanceEUR": 104075,
+          "adoptedRecreationIncrementEUR": 100000,
+          "previousRecreationCostEUR": 800000,
+          "resultingRecreationCostEUR": 900000,
+          "workPackages": [
+            {
+              "scope": "Operator governance and cross-dossier review functions",
+              "seniorEngineerMonths": 1.3,
+              "leadOrSpecialistMonths": 0.3,
+              "validationProvenanceMonths": 0.35
+            },
+            {
+              "scope": "Evidence bundles, delivery records and authorized document collection",
+              "seniorEngineerMonths": 1.3,
+              "leadOrSpecialistMonths": 0.3,
+              "validationProvenanceMonths": 0.35
+            },
+            {
+              "scope": "Compatibility repairs, retained qualification and handover documentation",
+              "seniorEngineerMonths": 0.4,
+              "leadOrSpecialistMonths": 0.15,
+              "validationProvenanceMonths": 0.55
+            }
+          ],
+          "scope": "Adds operator case governance, cross-dossier evidence review, verifiable bundles/delivery records and bounded authorized local-document collection beyond the retained v5.9 scope. Rename-only edits receive no separate premium.",
+          "exclusions": [
+            "Historical v6.0.0/v6.3.0 FAIL states remain. Live provider collection, external rights, production operation and future connectors are excluded.",
+            "Previously costed baseline work",
+            "Pure renaming, generated snapshots and repeated historical validation counted as new products",
+            "Future implementation, revenue and guaranteed buyer outcomes"
+          ],
+          "effortSensitivity": {
+            "acceleratedQuarterEffortAtKnabMeanEUR": 21620,
+            "oneAndHalfEffortAtRetainedRoleRatesEUR": 156113,
+            "basis": "Illustrative effort alternatives only; AI assistance, reuse, acceptance depth and buyer capability can change actual effort substantially. Neither scenario is a quote or confidence interval."
+          },
+          "boundary": "Analyst engineering-equivalent reproduction assumption, not logged hours, two days of labour invoiced as months, historical expenditure, a buyer quotation or independently established market value."
+        },
+        "costAssumptionsDocument": "docs/DEVELOPMENT_VALUE_CORRECTION_2026-10-16.md",
+        "pricingScope": "Existing first-party 6.4.0 source at b76713bcb30af9a83cc4ec679d92b5892b25e773 (unmerged development snapshot), including the described implemented increment. Historical v6.0.0/v6.3.0 FAIL states remain. Live provider collection, external rights, production operation and future connectors are excluded.",
+        "decisionNote": "The implemented increment adds an estimated EUR 100,000 reproduction reference to the retained EUR 800,000 base, giving EUR 900,000. Retaining this project's prior asking/cost proportion (18.750%) and rounding to EUR 500 changes the seller asking reference from EUR 150,000 to EUR 169,000. The baseline cost remains a legacy seller assumption; the new increment has its own disclosed budget.",
+        "productTestsExecutedForThisPricingReview": false,
+        "marketValueIncreaseEstablished": false
+      },
+      {
+        "ref": "TA-IP-008",
+        "slug": "plant-environment-decision-intelligence-platform",
+        "title": "Plant Environment Decision Intelligence Platform",
+        "reviewedAt": "2026-10-16T07:49:40Z",
+        "beforeVersion": "previous plant-suitability core",
+        "pricedVersion": "retained assessment-comparison build",
+        "comparisonBaselineCommit": "c773b1dda3b28d773ac055d20572d5cd03f78215",
+        "pricedSourceHead": "ff85ede411bdd26f0bd2b96e144ef075460ca614",
+        "sourceScope": "DEFAULT_BRANCH",
+        "finding": "Adds owner-scoped projects/sites/zones, immutable plan revisions, retained assessment exports and descriptive scenario comparisons. File/path renames and copied fixtures are not counted as additional software.",
+        "retainedEvidence": "Current comparison documentation reports 112 Go tests, seven Python regressions and 376 file-runtime checks. Earlier native PostgreSQL receipts apply only to their earlier frozen sources.",
+        "remainingQualification": "The newest comparison backend still requires its own native PostgreSQL qualification. Regional coverage, field agronomy, live weather acceptance and production deployment are excluded.",
+        "previousSellerAskEUR": 270000,
+        "currentSellerAskEUR": 300000,
+        "askingReferenceChangeEUR": 30000,
+        "previousReplacementCostEUR": 900000,
+        "currentReplacementCostEUR": 1000000,
+        "recreationIncrementEUR": 100000,
+        "priorAskingShareOfRecreation": 0.3,
+        "budget": {
+          "ref": "TA-IP-008",
+          "slug": "plant-environment-decision-intelligence-platform",
+          "basis": "Incremental present first-party work since the explicitly identified earlier source; previous scope counted once",
+          "economicAssessmentAt": "2026-10-16T07:49:40Z",
+          "comparisonBaselineVersion": "previous plant-suitability core",
+          "comparisonBaselineCommit": "c773b1dda3b28d773ac055d20572d5cd03f78215",
+          "sourceHead": "ff85ede411bdd26f0bd2b96e144ef075460ca614",
+          "pricedVersion": "retained assessment-comparison build",
+          "sourceScope": "DEFAULT_BRANCH",
+          "seniorEngineerMonths": 3.0,
+          "leadOrSpecialistMonths": 1.0,
+          "validationProvenanceMonths": 1.0,
+          "assumedHours": 800.0,
+          "rawEngineeringCostEUR": 92000,
+          "withAllowanceEUR": 105800,
+          "adoptedRecreationIncrementEUR": 100000,
+          "previousRecreationCostEUR": 900000,
+          "resultingRecreationCostEUR": 1000000,
+          "workPackages": [
+            {
+              "scope": "Multi-species assessment and owner-scoped project planning",
+              "seniorEngineerMonths": 1.25,
+              "leadOrSpecialistMonths": 0.4,
+              "validationProvenanceMonths": 0.25
+            },
+            {
+              "scope": "Retained assessment evidence, export and scenario comparison",
+              "seniorEngineerMonths": 1.3,
+              "leadOrSpecialistMonths": 0.35,
+              "validationProvenanceMonths": 0.35
+            },
+            {
+              "scope": "Persistence integration, regression evidence and product documentation",
+              "seniorEngineerMonths": 0.45,
+              "leadOrSpecialistMonths": 0.25,
+              "validationProvenanceMonths": 0.4
+            }
+          ],
+          "scope": "Adds owner-scoped projects/sites/zones, immutable plan revisions, retained assessment exports and descriptive scenario comparisons. File/path renames and copied fixtures are not counted as additional software.",
+          "exclusions": [
+            "The newest comparison backend still requires its own native PostgreSQL qualification. Regional coverage, field agronomy, live weather acceptance and production deployment are excluded.",
+            "Previously costed baseline work",
+            "Pure renaming, generated snapshots and repeated historical validation counted as new products",
+            "Future implementation, revenue and guaranteed buyer outcomes"
+          ],
+          "effortSensitivity": {
+            "acceleratedQuarterEffortAtKnabMeanEUR": 21620,
+            "oneAndHalfEffortAtRetainedRoleRatesEUR": 158700,
+            "basis": "Illustrative effort alternatives only; AI assistance, reuse, acceptance depth and buyer capability can change actual effort substantially. Neither scenario is a quote or confidence interval."
+          },
+          "boundary": "Analyst engineering-equivalent reproduction assumption, not logged hours, two days of labour invoiced as months, historical expenditure, a buyer quotation or independently established market value."
+        },
+        "costAssumptionsDocument": "docs/DEVELOPMENT_VALUE_CORRECTION_2026-10-16.md",
+        "pricingScope": "Existing first-party retained assessment-comparison build source at ff85ede411bdd26f0bd2b96e144ef075460ca614 (default-branch snapshot), including the described implemented increment. The newest comparison backend still requires its own native PostgreSQL qualification. Regional coverage, field agronomy, live weather acceptance and production deployment are excluded.",
+        "decisionNote": "The implemented increment adds an estimated EUR 100,000 reproduction reference to the retained EUR 900,000 base, giving EUR 1,000,000. Retaining this project's prior asking/cost proportion (30.000%) and rounding to EUR 500 changes the seller asking reference from EUR 270,000 to EUR 300,000. The baseline cost remains a legacy seller assumption; the new increment has its own disclosed budget.",
+        "productTestsExecutedForThisPricingReview": false,
+        "marketValueIncreaseEstablished": false
+      },
+      {
+        "ref": "TA-IP-012",
+        "slug": "evidence-governed-visual-intelligence-platform",
+        "title": "AEGIS Vision — Evidence-Governed Visual Intelligence Platform",
+        "reviewedAt": "2026-10-16T07:49:40Z",
+        "beforeVersion": "2.7.0",
+        "pricedVersion": "2.9.0",
+        "comparisonBaselineCommit": "b99e5047c59eacd229f1807de989236d1ffcea73",
+        "pricedSourceHead": "85c1cdfd72b1be2f5c1a572ec7f85de04217c93d",
+        "sourceScope": "DEFAULT_BRANCH",
+        "finding": "Adds release-evidence/readiness governance and deterministic post-release change/requalification assessment; it also repairs nested evidence binding.",
+        "retainedEvidence": "Retained 2.9 report: 130 automated tests PASS and 90.88% stated core coverage. These are internal engineering results, not independent certification.",
+        "remainingQualification": "No visual-accuracy, always-on monitoring, hidden remote-model identity, production, legal or independent-certification premium is included.",
+        "previousSellerAskEUR": 350000,
+        "currentSellerAskEUR": 354500,
+        "askingReferenceChangeEUR": 4500,
+        "previousReplacementCostEUR": 1150000,
+        "currentReplacementCostEUR": 1165000,
+        "recreationIncrementEUR": 15000,
+        "priorAskingShareOfRecreation": 0.30434782608695654,
+        "budget": {
+          "ref": "TA-IP-012",
+          "slug": "evidence-governed-visual-intelligence-platform",
+          "basis": "Incremental present first-party work since the explicitly identified earlier source; previous scope counted once",
+          "economicAssessmentAt": "2026-10-16T07:49:40Z",
+          "comparisonBaselineVersion": "2.7.0",
+          "comparisonBaselineCommit": "b99e5047c59eacd229f1807de989236d1ffcea73",
+          "sourceHead": "85c1cdfd72b1be2f5c1a572ec7f85de04217c93d",
+          "pricedVersion": "2.9.0",
+          "sourceScope": "DEFAULT_BRANCH",
+          "seniorEngineerMonths": 0.25,
+          "leadOrSpecialistMonths": 0.15,
+          "validationProvenanceMonths": 0.25,
+          "assumedHours": 104.0,
+          "rawEngineeringCostEUR": 11800,
+          "withAllowanceEUR": 13570,
+          "adoptedRecreationIncrementEUR": 15000,
+          "previousRecreationCostEUR": 1150000,
+          "resultingRecreationCostEUR": 1165000,
+          "workPackages": [
+            {
+              "scope": "Release-evidence and readiness workflow",
+              "seniorEngineerMonths": 0.12,
+              "leadOrSpecialistMonths": 0.06,
+              "validationProvenanceMonths": 0.08
+            },
+            {
+              "scope": "Post-release change assessment and requalification",
+              "seniorEngineerMonths": 0.1,
+              "leadOrSpecialistMonths": 0.07,
+              "validationProvenanceMonths": 0.1
+            },
+            {
+              "scope": "Tamper regressions, CLI checks and release documentation",
+              "seniorEngineerMonths": 0.03,
+              "leadOrSpecialistMonths": 0.02,
+              "validationProvenanceMonths": 0.07
+            }
+          ],
+          "scope": "Adds release-evidence/readiness governance and deterministic post-release change/requalification assessment; it also repairs nested evidence binding.",
+          "exclusions": [
+            "No visual-accuracy, always-on monitoring, hidden remote-model identity, production, legal or independent-certification premium is included.",
+            "Previously costed baseline work",
+            "Pure renaming, generated snapshots and repeated historical validation counted as new products",
+            "Future implementation, revenue and guaranteed buyer outcomes"
+          ],
+          "effortSensitivity": {
+            "acceleratedQuarterEffortAtKnabMeanEUR": 2811,
+            "oneAndHalfEffortAtRetainedRoleRatesEUR": 20355,
+            "basis": "Illustrative effort alternatives only; AI assistance, reuse, acceptance depth and buyer capability can change actual effort substantially. Neither scenario is a quote or confidence interval."
+          },
+          "boundary": "Analyst engineering-equivalent reproduction assumption, not logged hours, two days of labour invoiced as months, historical expenditure, a buyer quotation or independently established market value."
+        },
+        "costAssumptionsDocument": "docs/DEVELOPMENT_VALUE_CORRECTION_2026-10-16.md",
+        "pricingScope": "Existing first-party 2.9.0 source at 85c1cdfd72b1be2f5c1a572ec7f85de04217c93d (default-branch snapshot), including the described implemented increment. No visual-accuracy, always-on monitoring, hidden remote-model identity, production, legal or independent-certification premium is included.",
+        "decisionNote": "The implemented increment adds an estimated EUR 15,000 reproduction reference to the retained EUR 1,150,000 base, giving EUR 1,165,000. Retaining this project's prior asking/cost proportion (30.435%) and rounding to EUR 500 changes the seller asking reference from EUR 350,000 to EUR 354,500. The baseline cost remains a legacy seller assumption; the new increment has its own disclosed budget.",
+        "productTestsExecutedForThisPricingReview": false,
+        "marketValueIncreaseEstablished": false
+      },
+      {
+        "ref": "TA-IP-016",
+        "slug": "signal-processing-universal-framework",
+        "title": "Signal Processing Universal Framework",
+        "reviewedAt": "2026-10-16T07:49:40Z",
+        "beforeVersion": "1.7.0",
+        "pricedVersion": "1.23.0",
+        "comparisonBaselineCommit": "8a115c904955797155b6463fd2cda415899223d3",
+        "pricedSourceHead": "e758cb4680041b8b0b9cf313299d21cea90628dc",
+        "sourceScope": "DEFAULT_BRANCH",
+        "finding": "Adds supplied-series financial/space reference extensions, recovery supervision, window/temporal evidence, portable records, local archives and offline verification, followed by reproducible identity/lifecycle repairs.",
+        "retainedEvidence": "Retained exact-code v1.23 Colab evidence records canonical 253/253 and independent discovery 253/253 passes at 32073ef1c45b490e0669acb995f20e891601ddc8; the priced head adds the evidence record.",
+        "remainingQualification": "Live instruments/feeds, field/domain accuracy, scientific certification and production deployment are excluded. Historical features are not counted again.",
+        "previousSellerAskEUR": 120000,
+        "currentSellerAskEUR": 150000,
+        "askingReferenceChangeEUR": 30000,
+        "previousReplacementCostEUR": 400000,
+        "currentReplacementCostEUR": 500000,
+        "recreationIncrementEUR": 100000,
+        "priorAskingShareOfRecreation": 0.3,
+        "budget": {
+          "ref": "TA-IP-016",
+          "slug": "signal-processing-universal-framework",
+          "basis": "Incremental present first-party work since the explicitly identified earlier source; previous scope counted once",
+          "economicAssessmentAt": "2026-10-16T07:49:40Z",
+          "comparisonBaselineVersion": "1.7.0",
+          "comparisonBaselineCommit": "8a115c904955797155b6463fd2cda415899223d3",
+          "sourceHead": "e758cb4680041b8b0b9cf313299d21cea90628dc",
+          "pricedVersion": "1.23.0",
+          "sourceScope": "DEFAULT_BRANCH",
+          "seniorEngineerMonths": 2.0,
+          "leadOrSpecialistMonths": 1.0,
+          "validationProvenanceMonths": 1.5,
+          "assumedHours": 720.0,
+          "rawEngineeringCostEUR": 82000,
+          "withAllowanceEUR": 94300,
+          "adoptedRecreationIncrementEUR": 100000,
+          "previousRecreationCostEUR": 400000,
+          "resultingRecreationCostEUR": 500000,
+          "workPackages": [
+            {
+              "scope": "Additional reference adapters and temporal/window comparison",
+              "seniorEngineerMonths": 0.75,
+              "leadOrSpecialistMonths": 0.4,
+              "validationProvenanceMonths": 0.35
+            },
+            {
+              "scope": "Recovery supervision, portable evidence and local archives",
+              "seniorEngineerMonths": 0.85,
+              "leadOrSpecialistMonths": 0.4,
+              "validationProvenanceMonths": 0.55
+            },
+            {
+              "scope": "Contract/identity repairs, retained regressions and documentation",
+              "seniorEngineerMonths": 0.4,
+              "leadOrSpecialistMonths": 0.2,
+              "validationProvenanceMonths": 0.6
+            }
+          ],
+          "scope": "Adds supplied-series financial/space reference extensions, recovery supervision, window/temporal evidence, portable records, local archives and offline verification, followed by reproducible identity/lifecycle repairs.",
+          "exclusions": [
+            "Live instruments/feeds, field/domain accuracy, scientific certification and production deployment are excluded. Historical features are not counted again.",
+            "Previously costed baseline work",
+            "Pure renaming, generated snapshots and repeated historical validation counted as new products",
+            "Future implementation, revenue and guaranteed buyer outcomes"
+          ],
+          "effortSensitivity": {
+            "acceleratedQuarterEffortAtKnabMeanEUR": 19458,
+            "oneAndHalfEffortAtRetainedRoleRatesEUR": 141450,
+            "basis": "Illustrative effort alternatives only; AI assistance, reuse, acceptance depth and buyer capability can change actual effort substantially. Neither scenario is a quote or confidence interval."
+          },
+          "boundary": "Analyst engineering-equivalent reproduction assumption, not logged hours, two days of labour invoiced as months, historical expenditure, a buyer quotation or independently established market value."
+        },
+        "costAssumptionsDocument": "docs/DEVELOPMENT_VALUE_CORRECTION_2026-10-16.md",
+        "pricingScope": "Existing first-party 1.23.0 source at e758cb4680041b8b0b9cf313299d21cea90628dc (default-branch snapshot), including the described implemented increment. Live instruments/feeds, field/domain accuracy, scientific certification and production deployment are excluded. Historical features are not counted again.",
+        "decisionNote": "The implemented increment adds an estimated EUR 100,000 reproduction reference to the retained EUR 400,000 base, giving EUR 500,000. Retaining this project's prior asking/cost proportion (30.000%) and rounding to EUR 500 changes the seller asking reference from EUR 120,000 to EUR 150,000. The baseline cost remains a legacy seller assumption; the new increment has its own disclosed budget.",
+        "productTestsExecutedForThisPricingReview": false,
+        "marketValueIncreaseEstablished": false
+      },
+      {
+        "ref": "TA-IP-020",
+        "slug": "machine-cognition-research-framework",
+        "title": "Machine Cognition Research Framework",
+        "reviewedAt": "2026-10-16T07:49:40Z",
+        "beforeVersion": "0.7.0",
+        "pricedVersion": "0.8.0",
+        "comparisonBaselineCommit": "8cb56a1a8e52f9c82f6471eab888662561dbc935",
+        "pricedSourceHead": "ce4d3f92aa5439954b03755dd3082b2c4641e37e",
+        "sourceScope": "DEFAULT_BRANCH",
+        "finding": "Adds an explicitly trained predictive-state layer, held-out evaluation separation and checkpoint-bound research runs beyond the earlier count-based adaptation.",
+        "retainedEvidence": "Retained change record expands the regression inventory from 75 to 101 tests; the documented frozen benchmark remains bounded. The website does not claim a new execution.",
+        "remainingQualification": "General intelligence, human equivalence, open-world performance, autonomous operation and new commercial demand are not established or priced.",
+        "previousSellerAskEUR": 80000,
+        "currentSellerAskEUR": 85000,
+        "askingReferenceChangeEUR": 5000,
+        "previousReplacementCostEUR": 650000,
+        "currentReplacementCostEUR": 690000,
+        "recreationIncrementEUR": 40000,
+        "priorAskingShareOfRecreation": 0.12307692307692308,
+        "budget": {
+          "ref": "TA-IP-020",
+          "slug": "machine-cognition-research-framework",
+          "basis": "Incremental present first-party work since the explicitly identified earlier source; previous scope counted once",
+          "economicAssessmentAt": "2026-10-16T07:49:40Z",
+          "comparisonBaselineVersion": "0.7.0",
+          "comparisonBaselineCommit": "8cb56a1a8e52f9c82f6471eab888662561dbc935",
+          "sourceHead": "ce4d3f92aa5439954b03755dd3082b2c4641e37e",
+          "pricedVersion": "0.8.0",
+          "sourceScope": "DEFAULT_BRANCH",
+          "seniorEngineerMonths": 1.0,
+          "leadOrSpecialistMonths": 0.5,
+          "validationProvenanceMonths": 0.5,
+          "assumedHours": 320.0,
+          "rawEngineeringCostEUR": 37000,
+          "withAllowanceEUR": 42550,
+          "adoptedRecreationIncrementEUR": 40000,
+          "previousRecreationCostEUR": 650000,
+          "resultingRecreationCostEUR": 690000,
+          "workPackages": [
+            {
+              "scope": "Bounded trainable predictive-state research layer",
+              "seniorEngineerMonths": 0.6,
+              "leadOrSpecialistMonths": 0.35,
+              "validationProvenanceMonths": 0.15
+            },
+            {
+              "scope": "Checkpoint-bound experiments and review interfaces",
+              "seniorEngineerMonths": 0.25,
+              "leadOrSpecialistMonths": 0.1,
+              "validationProvenanceMonths": 0.15
+            },
+            {
+              "scope": "Partition/regression checks and research documentation",
+              "seniorEngineerMonths": 0.15,
+              "leadOrSpecialistMonths": 0.05,
+              "validationProvenanceMonths": 0.2
+            }
+          ],
+          "scope": "Adds an explicitly trained predictive-state layer, held-out evaluation separation and checkpoint-bound research runs beyond the earlier count-based adaptation.",
+          "exclusions": [
+            "General intelligence, human equivalence, open-world performance, autonomous operation and new commercial demand are not established or priced.",
+            "Previously costed baseline work",
+            "Pure renaming, generated snapshots and repeated historical validation counted as new products",
+            "Future implementation, revenue and guaranteed buyer outcomes"
+          ],
+          "effortSensitivity": {
+            "acceleratedQuarterEffortAtKnabMeanEUR": 8648,
+            "oneAndHalfEffortAtRetainedRoleRatesEUR": 63825,
+            "basis": "Illustrative effort alternatives only; AI assistance, reuse, acceptance depth and buyer capability can change actual effort substantially. Neither scenario is a quote or confidence interval."
+          },
+          "boundary": "Analyst engineering-equivalent reproduction assumption, not logged hours, two days of labour invoiced as months, historical expenditure, a buyer quotation or independently established market value."
+        },
+        "costAssumptionsDocument": "docs/DEVELOPMENT_VALUE_CORRECTION_2026-10-16.md",
+        "pricingScope": "Existing first-party 0.8.0 source at ce4d3f92aa5439954b03755dd3082b2c4641e37e (default-branch snapshot), including the described implemented increment. General intelligence, human equivalence, open-world performance, autonomous operation and new commercial demand are not established or priced.",
+        "decisionNote": "The implemented increment adds an estimated EUR 40,000 reproduction reference to the retained EUR 650,000 base, giving EUR 690,000. Retaining this project's prior asking/cost proportion (12.308%) and rounding to EUR 500 changes the seller asking reference from EUR 80,000 to EUR 85,000. The baseline cost remains a legacy seller assumption; the new increment has its own disclosed budget.",
+        "productTestsExecutedForThisPricingReview": false,
+        "marketValueIncreaseEstablished": false
+      },
+      {
+        "ref": "TA-IP-038",
+        "slug": "integrated-media-production-engine",
+        "title": "Integrated Media Production Engine",
+        "reviewedAt": "2026-10-16T07:49:40Z",
+        "beforeVersion": "0.17.0",
+        "pricedVersion": "0.24.0",
+        "comparisonBaselineCommit": "c72ab4961955b81c0932e16fcd3e94a5f943d894",
+        "pricedSourceHead": "4fb34a9155fc1041a616dd024ac2d31f1dfcaa09",
+        "sourceScope": "DEFAULT_BRANCH",
+        "finding": "Adds artifact bindings, retention/reconciliation and repair planning, durable deletion claims and verified readmission within the existing media-production foundation.",
+        "retainedEvidence": "Repository records report 324 local passes per Python version with native PostgreSQL tests skipped. This pricing review did not rerun those suites.",
+        "remainingQualification": "Full native 0.24 PostgreSQL/concurrency qualification remains open. Prior 0.23.1 database PASS is not promoted to 0.24. Media/model rights, hosted operation and future provider acceptance are excluded.",
+        "previousSellerAskEUR": 430000,
+        "currentSellerAskEUR": 457000,
+        "askingReferenceChangeEUR": 27000,
+        "previousReplacementCostEUR": 1200000,
+        "currentReplacementCostEUR": 1275000,
+        "recreationIncrementEUR": 75000,
+        "priorAskingShareOfRecreation": 0.35833333333333334,
+        "budget": {
+          "ref": "TA-IP-038",
+          "slug": "integrated-media-production-engine",
+          "basis": "Incremental present first-party work since the explicitly identified earlier source; previous scope counted once",
+          "economicAssessmentAt": "2026-10-16T07:49:40Z",
+          "comparisonBaselineVersion": "0.17.0",
+          "comparisonBaselineCommit": "c72ab4961955b81c0932e16fcd3e94a5f943d894",
+          "sourceHead": "4fb34a9155fc1041a616dd024ac2d31f1dfcaa09",
+          "pricedVersion": "0.24.0",
+          "sourceScope": "DEFAULT_BRANCH",
+          "seniorEngineerMonths": 1.75,
+          "leadOrSpecialistMonths": 0.75,
+          "validationProvenanceMonths": 1.0,
+          "assumedHours": 560.0,
+          "rawEngineeringCostEUR": 64000,
+          "withAllowanceEUR": 73600,
+          "adoptedRecreationIncrementEUR": 75000,
+          "previousRecreationCostEUR": 1200000,
+          "resultingRecreationCostEUR": 1275000,
+          "workPackages": [
+            {
+              "scope": "Artifact binding and lifecycle coordination",
+              "seniorEngineerMonths": 0.75,
+              "leadOrSpecialistMonths": 0.35,
+              "validationProvenanceMonths": 0.35
+            },
+            {
+              "scope": "Retention, reconciliation, repair and deletion/readmission controls",
+              "seniorEngineerMonths": 0.7,
+              "leadOrSpecialistMonths": 0.3,
+              "validationProvenanceMonths": 0.35
+            },
+            {
+              "scope": "Regression/API integration and handover documentation",
+              "seniorEngineerMonths": 0.3,
+              "leadOrSpecialistMonths": 0.1,
+              "validationProvenanceMonths": 0.3
+            }
+          ],
+          "scope": "Adds artifact bindings, retention/reconciliation and repair planning, durable deletion claims and verified readmission within the existing media-production foundation.",
+          "exclusions": [
+            "Full native 0.24 PostgreSQL/concurrency qualification remains open. Prior 0.23.1 database PASS is not promoted to 0.24. Media/model rights, hosted operation and future provider acceptance are excluded.",
+            "Previously costed baseline work",
+            "Pure renaming, generated snapshots and repeated historical validation counted as new products",
+            "Future implementation, revenue and guaranteed buyer outcomes"
+          ],
+          "effortSensitivity": {
+            "acceleratedQuarterEffortAtKnabMeanEUR": 15134,
+            "oneAndHalfEffortAtRetainedRoleRatesEUR": 110400,
+            "basis": "Illustrative effort alternatives only; AI assistance, reuse, acceptance depth and buyer capability can change actual effort substantially. Neither scenario is a quote or confidence interval."
+          },
+          "boundary": "Analyst engineering-equivalent reproduction assumption, not logged hours, two days of labour invoiced as months, historical expenditure, a buyer quotation or independently established market value."
+        },
+        "costAssumptionsDocument": "docs/DEVELOPMENT_VALUE_CORRECTION_2026-10-16.md",
+        "pricingScope": "Existing first-party 0.24.0 source at 4fb34a9155fc1041a616dd024ac2d31f1dfcaa09 (default-branch snapshot), including the described implemented increment. Full native 0.24 PostgreSQL/concurrency qualification remains open. Prior 0.23.1 database PASS is not promoted to 0.24. Media/model rights, hosted operation and future provider acceptance are excluded.",
+        "decisionNote": "The implemented increment adds an estimated EUR 75,000 reproduction reference to the retained EUR 1,200,000 base, giving EUR 1,275,000. Retaining this project's prior asking/cost proportion (35.833%) and rounding to EUR 500 changes the seller asking reference from EUR 430,000 to EUR 457,000. The baseline cost remains a legacy seller assumption; the new increment has its own disclosed budget.",
+        "productTestsExecutedForThisPricingReview": false,
+        "marketValueIncreaseEstablished": false
+      },
+      {
+        "ref": "TA-IP-081",
+        "slug": "swpp-viorith-mobile-camera-overlay",
+        "title": "VIORITH Mobile Camera Overlay",
+        "reviewedAt": "2026-10-16T07:49:40Z",
+        "beforeVersion": "0.5.0",
+        "pricedVersion": "0.7.0",
+        "comparisonBaselineCommit": "de02892ac9ed9cbd27adc0f1ec4ecbf92896ea34",
+        "pricedSourceHead": "8870c146e94c62856dcf38d297653367ac37d565",
+        "sourceScope": "DEFAULT_BRANCH",
+        "finding": "Adds packaged offline browser providers, content-identity verification and bounded semantic-provider/dataset evaluation over controlled examples.",
+        "retainedEvidence": "Current documentation records 30 targeted checks and JavaScript syntax checks. Physical-device and broad semantic qualification remain unestablished.",
+        "remainingQualification": "The marker provider and software demo do not establish general scene understanding, production-detector accuracy or physical-device qualification.",
+        "previousSellerAskEUR": 180000,
+        "currentSellerAskEUR": 185500,
+        "askingReferenceChangeEUR": 5500,
+        "previousReplacementCostEUR": 850000,
+        "currentReplacementCostEUR": 875000,
+        "recreationIncrementEUR": 25000,
+        "priorAskingShareOfRecreation": 0.21176470588235294,
+        "budget": {
+          "ref": "TA-IP-081",
+          "slug": "swpp-viorith-mobile-camera-overlay",
+          "basis": "Incremental present first-party work since the explicitly identified earlier source; previous scope counted once",
+          "economicAssessmentAt": "2026-10-16T07:49:40Z",
+          "comparisonBaselineVersion": "0.5.0",
+          "comparisonBaselineCommit": "de02892ac9ed9cbd27adc0f1ec4ecbf92896ea34",
+          "sourceHead": "8870c146e94c62856dcf38d297653367ac37d565",
+          "pricedVersion": "0.7.0",
+          "sourceScope": "DEFAULT_BRANCH",
+          "seniorEngineerMonths": 0.6,
+          "leadOrSpecialistMonths": 0.2,
+          "validationProvenanceMonths": 0.35,
+          "assumedHours": 184.0,
+          "rawEngineeringCostEUR": 20800,
+          "withAllowanceEUR": 23920,
+          "adoptedRecreationIncrementEUR": 25000,
+          "previousRecreationCostEUR": 850000,
+          "resultingRecreationCostEUR": 875000,
+          "workPackages": [
+            {
+              "scope": "Packaged offline browser-provider workflow",
+              "seniorEngineerMonths": 0.3,
+              "leadOrSpecialistMonths": 0.08,
+              "validationProvenanceMonths": 0.1
+            },
+            {
+              "scope": "Bounded semantic-provider and dataset evaluation",
+              "seniorEngineerMonths": 0.2,
+              "leadOrSpecialistMonths": 0.08,
+              "validationProvenanceMonths": 0.1
+            },
+            {
+              "scope": "Targeted qualification checks and product documentation",
+              "seniorEngineerMonths": 0.1,
+              "leadOrSpecialistMonths": 0.04,
+              "validationProvenanceMonths": 0.15
+            }
+          ],
+          "scope": "Adds packaged offline browser providers, content-identity verification and bounded semantic-provider/dataset evaluation over controlled examples.",
+          "exclusions": [
+            "The marker provider and software demo do not establish general scene understanding, production-detector accuracy or physical-device qualification.",
+            "Previously costed baseline work",
+            "Pure renaming, generated snapshots and repeated historical validation counted as new products",
+            "Future implementation, revenue and guaranteed buyer outcomes"
+          ],
+          "effortSensitivity": {
+            "acceleratedQuarterEffortAtKnabMeanEUR": 4973,
+            "oneAndHalfEffortAtRetainedRoleRatesEUR": 35880,
+            "basis": "Illustrative effort alternatives only; AI assistance, reuse, acceptance depth and buyer capability can change actual effort substantially. Neither scenario is a quote or confidence interval."
+          },
+          "boundary": "Analyst engineering-equivalent reproduction assumption, not logged hours, two days of labour invoiced as months, historical expenditure, a buyer quotation or independently established market value."
+        },
+        "costAssumptionsDocument": "docs/DEVELOPMENT_VALUE_CORRECTION_2026-10-16.md",
+        "pricingScope": "Existing first-party 0.7.0 source at 8870c146e94c62856dcf38d297653367ac37d565 (default-branch snapshot), including the described implemented increment. The marker provider and software demo do not establish general scene understanding, production-detector accuracy or physical-device qualification.",
+        "decisionNote": "The implemented increment adds an estimated EUR 25,000 reproduction reference to the retained EUR 850,000 base, giving EUR 875,000. Retaining this project's prior asking/cost proportion (21.176%) and rounding to EUR 500 changes the seller asking reference from EUR 180,000 to EUR 185,500. The baseline cost remains a legacy seller assumption; the new increment has its own disclosed budget.",
+        "productTestsExecutedForThisPricingReview": false,
+        "marketValueIncreaseEstablished": false
+      },
+      {
+        "ref": "TA-IP-082",
+        "slug": "distributed-compute-fabric",
+        "title": "Distributed Compute Fabric",
+        "reviewedAt": "2026-10-16T07:49:40Z",
+        "beforeVersion": "0.8.0",
+        "pricedVersion": "0.11.0",
+        "comparisonBaselineCommit": "7810d2175bac7adc8ac4232d21dd6efbcf5bf198",
+        "pricedSourceHead": "6255df2e6c27535dd46043ac904fec519623ce33",
+        "sourceScope": "DEFAULT_BRANCH",
+        "finding": "Adds loopback transport, TLS 1.3 mutual authentication and an outbound-only reference worker agent with bounded reconnect, heartbeat and command/lease processing.",
+        "retainedEvidence": "Retained 0.11 documentation reports 212 passing tests. Qualification remains within the stated reference/loopback boundary.",
+        "remainingQualification": "Production remote-provider operation, public networking, fleet installation, hostile-code containment, accelerator execution and multi-controller operation remain excluded.",
+        "previousSellerAskEUR": 220000,
+        "currentSellerAskEUR": 229000,
+        "askingReferenceChangeEUR": 9000,
+        "previousReplacementCostEUR": 1200000,
+        "currentReplacementCostEUR": 1250000,
+        "recreationIncrementEUR": 50000,
+        "priorAskingShareOfRecreation": 0.18333333333333332,
+        "budget": {
+          "ref": "TA-IP-082",
+          "slug": "distributed-compute-fabric",
+          "basis": "Incremental present first-party work since the explicitly identified earlier source; previous scope counted once",
+          "economicAssessmentAt": "2026-10-16T07:49:40Z",
+          "comparisonBaselineVersion": "0.8.0",
+          "comparisonBaselineCommit": "7810d2175bac7adc8ac4232d21dd6efbcf5bf198",
+          "sourceHead": "6255df2e6c27535dd46043ac904fec519623ce33",
+          "pricedVersion": "0.11.0",
+          "sourceScope": "DEFAULT_BRANCH",
+          "seniorEngineerMonths": 1.1,
+          "leadOrSpecialistMonths": 0.6,
+          "validationProvenanceMonths": 0.65,
+          "assumedHours": 376.0,
+          "rawEngineeringCostEUR": 43400,
+          "withAllowanceEUR": 49910,
+          "adoptedRecreationIncrementEUR": 50000,
+          "previousRecreationCostEUR": 1200000,
+          "resultingRecreationCostEUR": 1250000,
+          "workPackages": [
+            {
+              "scope": "Bounded loopback runtime and mutual-authentication transport",
+              "seniorEngineerMonths": 0.45,
+              "leadOrSpecialistMonths": 0.25,
+              "validationProvenanceMonths": 0.2
+            },
+            {
+              "scope": "Outbound-only reference worker-agent lifecycle",
+              "seniorEngineerMonths": 0.45,
+              "leadOrSpecialistMonths": 0.25,
+              "validationProvenanceMonths": 0.2
+            },
+            {
+              "scope": "Protocol/regression evidence and operational documentation",
+              "seniorEngineerMonths": 0.2,
+              "leadOrSpecialistMonths": 0.1,
+              "validationProvenanceMonths": 0.25
+            }
+          ],
+          "scope": "Adds loopback transport, TLS 1.3 mutual authentication and an outbound-only reference worker agent with bounded reconnect, heartbeat and command/lease processing.",
+          "exclusions": [
+            "Production remote-provider operation, public networking, fleet installation, hostile-code containment, accelerator execution and multi-controller operation remain excluded.",
+            "Previously costed baseline work",
+            "Pure renaming, generated snapshots and repeated historical validation counted as new products",
+            "Future implementation, revenue and guaranteed buyer outcomes"
+          ],
+          "effortSensitivity": {
+            "acceleratedQuarterEffortAtKnabMeanEUR": 10161,
+            "oneAndHalfEffortAtRetainedRoleRatesEUR": 74865,
+            "basis": "Illustrative effort alternatives only; AI assistance, reuse, acceptance depth and buyer capability can change actual effort substantially. Neither scenario is a quote or confidence interval."
+          },
+          "boundary": "Analyst engineering-equivalent reproduction assumption, not logged hours, two days of labour invoiced as months, historical expenditure, a buyer quotation or independently established market value."
+        },
+        "costAssumptionsDocument": "docs/DEVELOPMENT_VALUE_CORRECTION_2026-10-16.md",
+        "pricingScope": "Existing first-party 0.11.0 source at 6255df2e6c27535dd46043ac904fec519623ce33 (default-branch snapshot), including the described implemented increment. Production remote-provider operation, public networking, fleet installation, hostile-code containment, accelerator execution and multi-controller operation remain excluded.",
+        "decisionNote": "The implemented increment adds an estimated EUR 50,000 reproduction reference to the retained EUR 1,200,000 base, giving EUR 1,250,000. Retaining this project's prior asking/cost proportion (18.333%) and rounding to EUR 500 changes the seller asking reference from EUR 220,000 to EUR 229,000. The baseline cost remains a legacy seller assumption; the new increment has its own disclosed budget.",
+        "productTestsExecutedForThisPricingReview": false,
+        "marketValueIncreaseEstablished": false
+      }
+    ],
+    "previousPortfolio": {
+      "assetCount": 105,
+      "stageCounts": {
+        "developedSoftware": 56,
+        "developedPrototype": 46,
+        "researchStage": 3,
+        "definitionStage": 0
+      },
+      "sellerAskEUR": 24501500,
+      "negotiationLowEUR": 19573900,
+      "negotiationHighEUR": 30706375,
+      "replacementCostEUR": 104385000,
+      "marketComparableProxyEUR": 118772121,
+      "incomeLicensingProxyEUR": 139803493,
+      "probabilityAdjustedStrategicValueEUR": 130640104,
+      "triangulatedEconomicReferenceEUR": 123535413,
+      "sellerAskAsShareOfTriangulated": 0.19833584075199553,
+      "sellerAskAsShareOfReplacementCost": 0.23472242180389902,
+      "pricedAssetCount": 105,
+      "unpricedAssetCount": 0,
+      "monetaryScope": "105 independent project references, reviewed individually on 16 October 2026. Seller asks and cost anchors retained; two publication repositories excluded. No independent market or income valuation established.",
+      "averageTriangulatedEconomicReferencePerPricedAsset": 1176527.7428571428
+    },
+    "currentPortfolio": {
+      "assetCount": 105,
+      "stageCounts": {
+        "developedSoftware": 56,
+        "developedPrototype": 46,
+        "researchStage": 3,
+        "definitionStage": 0
+      },
+      "sellerAskEUR": 24647500,
+      "negotiationLowEUR": 19689900,
+      "negotiationHighEUR": 30889875,
+      "replacementCostEUR": 105030000,
+      "marketComparableProxyEUR": 119490591,
+      "incomeLicensingProxyEUR": 140635768,
+      "probabilityAdjustedStrategicValueEUR": 131388437,
+      "triangulatedEconomicReferenceEUR": 124268728,
+      "sellerAskAsShareOfTriangulated": 0.1983403258139087,
+      "sellerAskAsShareOfReplacementCost": 0.23467104636770447,
+      "pricedAssetCount": 105,
+      "unpricedAssetCount": 0,
+      "monetaryScope": "105 independent project references. Nine implemented increments are separately budgeted and repriced; 96 individual amounts are retained. Frozen MARP and EIOP development snapshots are explicitly included without merging. Two publication repositories remain excluded.",
+      "averageTriangulatedEconomicReferencePerPricedAsset": 1183511.6952380952
+    },
+    "sourceRegister": "assets/valuation-sources.json",
+    "costAssumptionsDocument": "docs/DEVELOPMENT_VALUE_CORRECTION_2026-10-16.md",
+    "recreationIncrementEUR": 645000,
+    "askingReferenceChangeEUR": 146000,
+    "unchangedReviewedReferences": [
+      "TA-IP-007",
+      "TA-IP-036",
+      "TA-IP-083",
+      "TA-IP-097"
+    ],
+    "boundary": "Existing implemented work is separately estimated against explicit earlier and current sources. Elapsed days and version numbers are not pricing multipliers. Role effort, rates, allowance, rounding and seller asking proportions remain assumptions. No independent market-value increase is established. No product tests were rerun by this pricing review."
+  },
+  "latestReadinessReview": {
+    "assessedAt": "2026-10-12T09:21:42Z",
+    "type": "FULL_SOURCE_COMPARISON_AND_TARGETED_CONTENT_REVIEW",
+    "criteriaDisclosedFor": 104,
+    "targetedRepositoryContentReviews": 7,
+    "changedReadinessReferences": [
+      "TA-IP-101",
+      "TA-IP-102",
+      "TA-IP-103",
+      "TA-IP-104",
+      "TA-IP-105"
+    ],
+    "previousSummary": {
+      "audited": 100,
+      "pending": 0,
+      "ready": 0,
+      "readyWithConditions": 92,
+      "notReady": 8
+    },
+    "currentSummary": {
+      "audited": 104,
+      "pending": 0,
+      "ready": 0,
+      "readyWithConditions": 94,
+      "notReady": 10
+    },
+    "boundary": "All 117 repositories and 36 open pull requests were compared with the preceding portfolio. The 104 active software assets are independently scoped; 13 publication repositories are excluded. Nine pinned source trees from seven projects were byte-verified and locally tested. Current-main, unmerged development, historical validation and future specifications remain separate. The current video prototype passes its mandatory 73-test/build gate; the earlier blocker is resolved. Remote perception retains an explicitly blocked commercial transfer gate. CRE and the mission framework retain open rights/delivery conditions. No physical, anomalous-perception, independently certified rights/security, production hosting or future scientific capability is established by local tests."
+  },
+  "latestIdentityUpdate": {
+    "assessedAt": "2026-10-12T09:21:42Z",
+    "type": "FOUR_SOFTWARE_ADDITIONS_AND_ONE_CONFIRMED_REPOSITORY_RENAME",
+    "previousAssetCount": 100,
+    "currentAssetCount": 104,
+    "otherAssetRecordsRetained": 100,
+    "identifiersReassigned": false,
+    "additions": [
+      {
+        "ref": "TA-IP-102",
+        "title": "Universal Remote Perception Intelligence Platform",
+        "referenceAlias": "Pallas",
+        "repository": "Universal-Remote-Perception-Intelligence-Platform",
+        "sourceHead": "4431fda60af9bd21b90a80df0c4ff21c28769215"
+      },
+      {
+        "ref": "TA-IP-103",
+        "title": "Universal Operations Orchestration & Intelligence Platform",
+        "referenceAlias": "Diana",
+        "repository": "Universal-Operations-Orchestration-Intelligence-Platform",
+        "sourceHead": "2804045108ced5760f1d8db0452d64c54988237e"
+      },
+      {
+        "ref": "TA-IP-104",
+        "title": "Collective Reality Engine",
+        "referenceAlias": "Calliope",
+        "repository": "Collective-Reality-Engine-CRE---Universal-Shared-World-Intelligence-Platform",
+        "sourceHead": "1b6abb67b404a5169875ed260324b1f4642c8e0e"
+      },
+      {
+        "ref": "TA-IP-105",
+        "title": "Mission-to-Execution Engineering Framework",
+        "referenceAlias": "Hestia",
+        "repository": "Mission-to-Execution-Engineering-Framework",
+        "sourceHead": "ee27964574e2a9d0d5d86eb28500337a5800f0ac"
+      }
+    ],
+    "repositoryRename": {
+      "ref": "TA-IP-101",
+      "repository": "Universal-Video-Intelligence-Platform",
+      "sameRepositoryId": true,
+      "newAsset": false
+    },
+    "boundary": "Each new software project is counted once. The confirmed repository rename retains its existing project identifier and reference alias. Withdrawn identifiers are not reused."
+  },
+  "previousFinancialReassessment": {
     "assessedAt": "2026-10-16T07:06:02Z",
     "type": "FULL_PORTFOLIO_MULTISOURCE_REVIEW",
     "assetsReassessed": 105,
@@ -16757,168 +17666,22 @@
     },
     "boundary": "Documentary and financial-reference review of all 105 independent projects using the frozen repository documentation, retained qualification/transfer records, disclosed cost assumptions and external method/rate context. No project tests were rerun. No independent market appraisal, comparable sale or project cash-flow valuation is established. All seller asking references, negotiation ranges, recreation anchors and model factors are retained. Current source scope is not automatically included in an older cost budget; a delivery-specific re-estimate remains required."
   },
-  "latestReadinessReview": {
-    "assessedAt": "2026-10-12T09:21:42Z",
-    "type": "FULL_SOURCE_COMPARISON_AND_TARGETED_CONTENT_REVIEW",
-    "criteriaDisclosedFor": 104,
-    "targetedRepositoryContentReviews": 7,
-    "changedReadinessReferences": [
-      "TA-IP-101",
-      "TA-IP-102",
-      "TA-IP-103",
-      "TA-IP-104",
-      "TA-IP-105"
-    ],
-    "previousSummary": {
-      "audited": 100,
-      "pending": 0,
-      "ready": 0,
-      "readyWithConditions": 92,
-      "notReady": 8
-    },
-    "currentSummary": {
-      "audited": 104,
-      "pending": 0,
-      "ready": 0,
-      "readyWithConditions": 94,
-      "notReady": 10
-    },
-    "boundary": "All 117 repositories and 36 open pull requests were compared with the preceding portfolio. The 104 active software assets are independently scoped; 13 publication repositories are excluded. Nine pinned source trees from seven projects were byte-verified and locally tested. Current-main, unmerged development, historical validation and future specifications remain separate. The current video prototype passes its mandatory 73-test/build gate; the earlier blocker is resolved. Remote perception retains an explicitly blocked commercial transfer gate. CRE and the mission framework retain open rights/delivery conditions. No physical, anomalous-perception, independently certified rights/security, production hosting or future scientific capability is established by local tests."
-  },
-  "latestIdentityUpdate": {
-    "assessedAt": "2026-10-12T09:21:42Z",
-    "type": "FOUR_SOFTWARE_ADDITIONS_AND_ONE_CONFIRMED_REPOSITORY_RENAME",
-    "previousAssetCount": 100,
-    "currentAssetCount": 104,
-    "otherAssetRecordsRetained": 100,
-    "identifiersReassigned": false,
-    "additions": [
-      {
-        "ref": "TA-IP-102",
-        "title": "Universal Remote Perception Intelligence Platform",
-        "referenceAlias": "Pallas",
-        "repository": "Universal-Remote-Perception-Intelligence-Platform",
-        "sourceHead": "4431fda60af9bd21b90a80df0c4ff21c28769215"
-      },
-      {
-        "ref": "TA-IP-103",
-        "title": "Universal Operations Orchestration & Intelligence Platform",
-        "referenceAlias": "Diana",
-        "repository": "Universal-Operations-Orchestration-Intelligence-Platform",
-        "sourceHead": "2804045108ced5760f1d8db0452d64c54988237e"
-      },
-      {
-        "ref": "TA-IP-104",
-        "title": "Collective Reality Engine",
-        "referenceAlias": "Calliope",
-        "repository": "Collective-Reality-Engine-CRE---Universal-Shared-World-Intelligence-Platform",
-        "sourceHead": "1b6abb67b404a5169875ed260324b1f4642c8e0e"
-      },
-      {
-        "ref": "TA-IP-105",
-        "title": "Mission-to-Execution Engineering Framework",
-        "referenceAlias": "Hestia",
-        "repository": "Mission-to-Execution-Engineering-Framework",
-        "sourceHead": "ee27964574e2a9d0d5d86eb28500337a5800f0ac"
-      }
-    ],
-    "repositoryRename": {
-      "ref": "TA-IP-101",
-      "repository": "Universal-Video-Intelligence-Platform",
-      "sameRepositoryId": true,
-      "newAsset": false
-    },
-    "boundary": "Each new software project is counted once. The confirmed repository rename retains its existing project identifier and reference alias. Withdrawn identifiers are not reused."
-  },
-  "previousFinancialReassessment": {
-    "assessedAt": "2026-10-13T04:20:04Z",
-    "type": "NEW_ASSET_SOURCE_REVIEW_WITH_EXISTING_RECORDS_PRESERVED",
-    "assetsReassessed": 1,
-    "monetaryReferencesChanged": 1,
-    "assetAdditions": 1,
-    "unchangedAssetPrices": 104,
-    "otherAssetRecordsRetained": 104,
-    "unchangedCommercialFactors": true,
-    "softwareMaturityChanged": false,
-    "assets": [
-      {
-        "ref": "TA-IP-106",
-        "slug": "manuscript-integrity-publishing-platform",
-        "title": "Manuscript Integrity & Publishing Platform",
-        "previousSellerAskEUR": null,
-        "sellerAskEUR": 21000,
-        "previousReplacementCostEUR": null,
-        "replacementCostEUR": 70000,
-        "pricingScope": "Existing first-party v0.1.0 local manuscript authoring, DOCX assembly, evidence-linked eight-gate/40-stage quality workflow, defect and change controls, explicit author release authorization, read-only dashboard, manual Draft2Digital handoff, tests and documentation at the frozen repository baseline. The embedded author-supplied protocol must have separately agreed use/transfer rights. Author manuscripts, creative archive ownership, author identity/pen-name rights, third-party services and templates, separately staged v0.2–v0.5 application code, automated literary/factual certification, autonomous book generation, live distribution and future SaaS are outside this price.",
-        "costAssumptionsDocument": "docs/MIPP_ASSESSMENT_AND_VALUATION_2026-10-13.md"
-      }
-    ],
-    "previousPortfolio": {
-      "assetCount": 104,
-      "stageCounts": {
-        "developedSoftware": 56,
-        "developedPrototype": 45,
-        "researchStage": 3,
-        "definitionStage": 0
-      },
-      "sellerAskEUR": 24480500,
-      "negotiationLowEUR": 19557100,
-      "negotiationHighEUR": 30680125,
-      "replacementCostEUR": 104315000,
-      "marketComparableProxyEUR": 118718571,
-      "incomeLicensingProxyEUR": 139753880,
-      "probabilityAdjustedStrategicValueEUR": 130613552,
-      "triangulatedEconomicReferenceEUR": 123487987,
-      "sellerAskAsShareOfTriangulated": 0.19824195530857588,
-      "sellerAskAsShareOfReplacementCost": 0.2346786176484686,
-      "pricedAssetCount": 104,
-      "unpricedAssetCount": 0,
-      "monetaryScope": "104 independent software IP assets with individual seller asking references and defined existing-scope recreation estimates. Four new prototypes and two implemented increments have updated estimates; the other 98 existing prices are retained. Website repositories are excluded.",
-      "averageTriangulatedEconomicReferencePerPricedAsset": 1187384.4903846155
-    },
-    "currentPortfolio": {
-      "assetCount": 105,
-      "stageCounts": {
-        "developedSoftware": 56,
-        "developedPrototype": 46,
-        "researchStage": 3,
-        "definitionStage": 0
-      },
-      "sellerAskEUR": 24501500,
-      "negotiationLowEUR": 19573900,
-      "negotiationHighEUR": 30706375,
-      "replacementCostEUR": 104385000,
-      "marketComparableProxyEUR": 118772121,
-      "incomeLicensingProxyEUR": 139803493,
-      "probabilityAdjustedStrategicValueEUR": 130640104,
-      "triangulatedEconomicReferenceEUR": 123535413,
-      "sellerAskAsShareOfTriangulated": 0.19833584075199553,
-      "sellerAskAsShareOfReplacementCost": 0.23472242180389902,
-      "pricedAssetCount": 105,
-      "unpricedAssetCount": 0,
-      "monetaryScope": "105 independent software IP assets. MIPP has a first separate v0.1 present-source estimate; all 104 preceding individual prices and cost estimates are unchanged. Thirteen publication repositories are excluded.",
-      "averageTriangulatedEconomicReferencePerPricedAsset": 1176527.7428571428
-    },
-    "boundary": "All 118 repository heads and the README/source inventories of 105 project repositories were checked. Thirteen publication repositories remain excluded from the asset count. MIPP is the only new project. Its 52 frozen Git blobs were verified and 18 local tests, protocol integrity and syntax checks passed. The other 104 project records, individual prices, grades and evidence dates are retained. The newer documented MIPP offline builds have not been source-imported into the repository and were not executed in this review. Inventory review is not full-portfolio test execution, independent appraisal or certification."
-  },
   "previousRegisterAssessedAt": "2026-10-11T07:01:21Z",
   "previousSummary": {
     "projectsReviewed": 105,
     "ipAssetsEvaluated": 105,
     "reviewOutcomes": {
-      "RECONFIRMED": 97,
-      "UPDATED": 3,
-      "NEW_SOFTWARE_ASSET_EVALUATION": 5
+      "REFERENCE_REVIEWED": 105
     },
-    "monetaryReferencesChanged": 1,
-    "previousSellerAskEUR": 24480500,
+    "monetaryReferencesChanged": 0,
+    "previousSellerAskEUR": 24501500,
     "currentSellerAskEUR": 24501500,
-    "previousReplacementCostEUR": 104315000,
+    "previousReplacementCostEUR": 104385000,
     "currentReplacementCostEUR": 104385000,
-    "targetedAssetsReviewed": 1,
-    "newAssetsEvaluated": 1,
-    "otherAssetRecordsRetained": 104,
-    "boundary": "All 118 repository heads and the README/source inventories of 105 project repositories were checked. Thirteen publication repositories remain excluded from the asset count. MIPP is the only new project. Its 52 frozen Git blobs were verified and 18 local tests, protocol integrity and syntax checks passed. The other 104 project records, individual prices, grades and evidence dates are retained. The newer documented MIPP offline builds have not been source-imported into the repository and were not executed in this review. Inventory review is not full-portfolio test execution, independent appraisal or certification."
+    "targetedAssetsReviewed": 0,
+    "newAssetsEvaluated": 0,
+    "otherAssetRecordsRetained": 0,
+    "boundary": "Documentary and financial-reference review of all 105 independent projects using the frozen repository documentation, retained qualification/transfer records, disclosed cost assumptions and external method/rate context. No project tests were rerun. No independent market appraisal, comparable sale or project cash-flow valuation is established. All seller asking references, negotiation ranges, recreation anchors and model factors are retained. Current source scope is not automatically included in an older cost budget; a delivery-specific re-estimate remains required."
   },
   "previousReadinessReview": {
     "assessedAt": "2026-10-12T03:40:16Z",
