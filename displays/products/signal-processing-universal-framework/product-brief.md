@@ -36,7 +36,7 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 Current main baseline: 1.23.0.
 
-The 1.23.0 source includes the 1.19-1.22 input, retry-policy, registry and processor-identity hardening, plus precise event-subscription lifetime control. The framework retains its supplied-series reference domains, explicit temporal alignment and recovery evidence. Domain accuracy and representative live-instrument acceptance remain separately qualified.
+The 1.23.0 source includes the 1.19-1.22 input, retry-policy, registry and processor-identity hardening, plus precise event-subscription lifetime control. The framework retains its supplied-series reference domains, explicit temporal alignment and recovery evidence. Domain accuracy and representative live-instrument acceptance remain separately qualified. The retained v1.23.0 Colab record reports canonical 253/253 and independent unittest-discovery 253/253 passes at frozen code 32073ef1c45b490e0669acb995f20e891601ddc8. The current head adds evidence and documentation; this is source-bound Colab evidence, not a GitHub Actions result or a new execution by this website review.
 
 Material limitations: Reference-domain results are supplied-series calculations. They do not certify live instruments, domain science or the accuracy of an arbitrary buyer dataset.
 
@@ -50,9 +50,15 @@ Seller asking reference: EUR 120,000.
 
 Seller-estimated recreation cost: EUR 400,000.
 
-Published seller asking reference from the commercial register dated 13 October 2026. Existing asset-specific prices are retained; this exhibition does not introduce a new valuation. Taxes, payment terms and final consideration are agreed separately.
+All 105 project financial references were reviewed on 16 October 2026 against current documentation, retained seller assessments and the disclosed method/rate sources. Individual asking references and recreation anchors remain unchanged. Final delivery, consideration and taxes are agreed separately.
 
 Seller-estimated engineering-equivalent cost to recreate comparable present work. This is a build-versus-buy reference, not actual historical expenditure, a contractor quotation, certified market value or guaranteed buyer saving.
+
+## Individual financial-reference review
+
+Financial-reference review: 16 October 2026. Legacy cost reference; complete work budget missing. Original financial-reference date: 2026-10-12. Seller ask and recreation anchor are retained. Current documentation does not automatically expand the priced delivery; a delivery-specific re-estimate remains required.
+
+Comparable-sale valuation, project-income valuation and independent appraisal are NOT_ESTABLISHED. WIPO, Knab and the limited Upwork source provide method/rate context. Their information is not a project appraisal.
 
 ## Transaction scope
 
@@ -74,8 +80,8 @@ Separately scoped or excluded:
 
 ## Source basis
 
-- TA-IP-016-P: reviewed product overview, 13 October 2026.
-- TA-IP-016-C: published commercial register, 13 October 2026.
+- TA-IP-016-P: reviewed product overview and current main/development boundary, 16 October 2026.
+- TA-IP-016-C: full financial-reference review, 16 October 2026; original reference date 2026-10-12.
 - TA-IP-016-A: retained seller assessment, 2026-10-12.
 
 ## Acquisition enquiry

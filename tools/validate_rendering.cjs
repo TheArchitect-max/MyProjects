@@ -30,20 +30,34 @@ vm.runInContext(source,sandbox,{filename:'assets/im.js'});
  assert(data.integrity.ok);assert(data.reconciliation.ok);
  const identities=new Map(data.identities.projects.map(p=>[p.ref,p]));
  let profileCount=0;
+ const renderedPageAnchors={};
+ const anchorIds=html=>[...html.matchAll(/\bid="([^"]+)"/g)].map(match=>match[1]);
  for(const project of data.projects){
   const html=r.project(project,data);
   assert(html.includes('<h1>'));
   assert(html.includes(project.ref));
   assert.equal(project.name,identities.get(project.ref).title);
   assert(!/OSSN-UAP|SourceVector Intelligence Platform|TrueLane Flora/.test(html),project.ref);
+  assert.equal((html.match(/data-project-valuation-review=/g)||[]).length,1,project.ref);
+  assert(html.includes('Comparable-sale valuation: NOT_ESTABLISHED'));
+  renderedPageAnchors[`projects/${project.slug}/index.html`]=anchorIds(html);
   profileCount++;
  }
  let pages=0;
- for(const name of ['home','portfolio','proofPage','connectionsPage','assurancePage','valuation','developmentPage','policyPage']){
+ const pageNames={home:'index.html',portfolio:'portfolio.html',proofPage:'proof.html',connectionsPage:'connections.html',assurancePage:'assurance.html',valuation:'valuation.html',developmentPage:'development.html',policyPage:'policy.html'};
+ for(const name of Object.keys(pageNames)){
   const html=r[name](data);assert.equal(typeof html,'string');assert(html.length>1000,name);pages++;
+  renderedPageAnchors[pageNames[name]]=anchorIds(html);
  }
- const result={result:'PASS',runtime:'Node VM executing the actual browser data loader and HTML generators',profileRenderFunctions:profileCount,mainPageRenderFunctions:pages,registerIntegrity:true,financialReconciliation:true,browserLayoutExecuted:false};
+ const reviews=data.valuationSourceRegister.projects;
+ assert.equal(reviews.length,105);assert.equal(new Set(reviews.map(p=>p.ref)).size,105);
+ const statusCounts={};for(const p of reviews){statusCounts[p.costEvidence.status]=(statusCounts[p.costEvidence.status]||0)+1;assert.equal(p.source.head,data.presentation.projects.find(x=>x.ref===p.ref).defaultBranchBaselineCommit);assert.equal(p.source.productTestsExecutedForThisReview,false)}
+ assert.equal(statusCounts.LEGACY_COST_REFERENCE_ONLY,91);assert.equal(statusCounts.PARTIAL_WORK_PACKAGE_BASIS,6);assert.equal(statusCounts.BASE_AND_INCREMENT_BUDGETS_RECONCILE,8);
+ const valuationHTML=r.valuation(data);
+ assert.equal((valuationHTML.match(/data-valuation-review="TA-IP-/g)||[]).length,105);
+ assert(!valuationHTML.includes('Frozen MIPP source:'));
+ const result={result:'PASS',runtime:'Node VM executing the actual browser data loader and HTML generators',profileRenderFunctions:profileCount,mainPageRenderFunctions:pages,individualFinancialReviews:105,costEvidenceCounts:statusCounts,registerIntegrity:true,financialReconciliation:true,browserLayoutExecuted:false};
  const text=JSON.stringify(result,null,2)+'\n';
- if(process.argv[2])fs.writeFileSync(process.argv[2],text);
+ if(process.argv[2])fs.writeFileSync(process.argv[2],JSON.stringify({...result,renderedPageAnchors},null,2)+'\n');
  process.stdout.write(text);
 })().catch(error=>{console.error(error);process.exitCode=1});

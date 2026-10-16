@@ -1,7 +1,7 @@
 {
   "version": "2026.10.13-im70-repository-inventory-and-mipp",
   "status": "evidence-bounded-maturity-sensitivity-register",
-  "basisDate": "2026-10-13",
+  "basisDate": "2026-10-16",
   "purpose": "Asset-by-asset conditional economic references for objectively testable maturity transitions. These are not forecasts, seller asks, market values, investment returns or guarantees.",
   "methodology": {
     "rule": "Only R→P and P→V maturity transitions receive a numeric conditional reference. V-stage assets receive NOT_ESTABLISHED unless new attributable market/income evidence supports a separate model. An independently owned asset without its own monetary inputs has no numeric sensitivity until those inputs are established.",
@@ -1989,7 +1989,7 @@
     }
   ],
   "assessedAt": "2026-10-13T04:20:04Z",
-  "catalogueUpdatedAt": "2026-10-16T06:23:40Z",
+  "catalogueUpdatedAt": "2026-10-16T07:06:02Z",
   "previousTargetedAssetReview": {
     "slug": "distributed-ai-resource-fabric",
     "ref": "TA-IP-022",
@@ -2057,7 +2057,7 @@
     },
     "boundary": "Each new software project is counted once. The confirmed repository rename retains its existing project identifier and reference alias. Withdrawn identifiers are not reused."
   },
-  "previousBasisDate": "2026-10-10",
+  "previousBasisDate": "2026-10-13",
   "previousRegisterAssessedAt": "2026-10-11T07:01:21Z",
   "previousIdentityUpdate": {
     "assessedAt": "2026-10-12T03:40:16Z",
@@ -2144,5 +2144,10 @@
     "individualPricesChanged": 0,
     "projectRepositoriesRemoved": 0,
     "boundary": "The owner removed all 12 separately hosted project-display repositories. Current repository presence was checked: 105 project repositories and the MyProjects catalogue remain, 106 repositories in total. No linked project display is currently published in this directory. All 105 software project records, individual prices, rights/transfer criteria and evidence dates are retained. This display-directory update does not claim new source qualification or a financial reassessment."
+  },
+  "latestMultisourceValuationReview": {
+    "reviewedAt": "2026-10-16T07:06:02Z",
+    "sourceRegister": "assets/valuation-sources.json",
+    "boundary": "Documentary and financial-reference review of all 105 independent projects using the frozen repository documentation, retained qualification/transfer records, disclosed cost assumptions and external method/rate context. No project tests were rerun. No independent market appraisal, comparable sale or project cash-flow valuation is established. All seller asking references, negotiation ranges, recreation anchors and model factors are retained. Current source scope is not automatically included in an older cost budget; a delivery-specific re-estimate remains required."
   }
 }

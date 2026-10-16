@@ -2,7 +2,7 @@
   "version": "2026.10.13-im70-repository-inventory-and-mipp",
   "publishedAt": "2026-10-13T04:20:04Z",
   "sourceDocumentationReviewedAt": "2026-10-16T06:23:40Z",
-  "priceBasisDate": "2026-10-13",
+  "priceBasisDate": "2026-10-16",
   "portfolioAssetCount": 105,
   "currency": "EUR",
   "priceMethod": "SUM_CURRENT_INDIVIDUAL_ASKS",
@@ -1827,7 +1827,7 @@
     ],
     "boundary": "Launch & Cislunar Transportation Engineering Platform is the separately scoped launch and cislunar transport module for FusionLunar studies. The documented demand/result interface supports the relationship; this update does not establish a new shared runtime, completed end-to-end integration or flight-qualified transport. Both projects retain their own asset identity, price and transfer scope."
   },
-  "catalogueUpdatedAt": "2026-10-16T06:23:40Z",
+  "catalogueUpdatedAt": "2026-10-16T07:06:02Z",
   "latestPortfolioScopeUpdate": {
     "publishedAt": "2026-10-13T05:07:05Z",
     "type": "DISPLAY_DIRECTORY_REMOVAL",
@@ -1874,5 +1874,10 @@
     "individualPricesChanged": 0,
     "projectRepositoriesRemoved": 0,
     "boundary": "The owner removed all 12 separately hosted project-display repositories. Current repository presence was checked: 105 project repositories and the MyProjects catalogue remain, 106 repositories in total. No linked project display is currently published in this directory. All 105 software project records, individual prices, rights/transfer criteria and evidence dates are retained. This display-directory update does not claim new source qualification or a financial reassessment."
+  },
+  "latestMultisourceValuationReview": {
+    "reviewedAt": "2026-10-16T07:06:02Z",
+    "sourceRegister": "assets/valuation-sources.json",
+    "boundary": "Documentary and financial-reference review of all 105 independent projects using the frozen repository documentation, retained qualification/transfer records, disclosed cost assumptions and external method/rate context. No project tests were rerun. No independent market appraisal, comparable sale or project cash-flow valuation is established. All seller asking references, negotiation ranges, recreation anchors and model factors are retained. Current source scope is not automatically included in an older cost budget; a delivery-specific re-estimate remains required."
   }
 }

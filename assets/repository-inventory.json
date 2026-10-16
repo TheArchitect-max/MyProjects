@@ -1,6 +1,6 @@
 {
   "schema": "thearchitect-max-repository-inventory-v1",
-  "reviewedAt": "2026-10-16T06:35:07Z",
+  "reviewedAt": "2026-10-16T07:20:07Z",
   "websiteBaselineCommit": "a7d1d037e26282574ef1c8488172442c932ba06c",
   "summary": {
     "assessedAt": "2026-10-16T06:35:07Z",
@@ -601,10 +601,10 @@
     {
       "repository": "Signal-Processing-Universal-Framework",
       "ref": "TA-IP-016",
-      "sourceHead": "32073ef1c45b490e0669acb995f20e891601ddc8",
-      "treeSha": "32073ef1c45b490e0669acb995f20e891601ddc8",
-      "sourceUpdatedAt": "2026-10-16T06:30:13Z",
-      "fileCount": 111,
+      "sourceHead": "e758cb4680041b8b0b9cf313299d21cea90628dc",
+      "treeSha": "6e0ba1374d94f98fa546066bafd0e3f60326447d",
+      "sourceUpdatedAt": "2026-10-16T06:40:55Z",
+      "fileCount": 113,
       "treeTruncated": false,
       "treeRead": true,
       "readmeRead": true,
@@ -629,7 +629,7 @@
         "readmeBlobSha": "68e4042caac67bccd1267f2c76d6eae000c8e015"
       },
       "repositoryId": "1337938556",
-      "sourceCheckedAt": "2026-10-16T06:35:07Z",
+      "sourceCheckedAt": "2026-10-16T07:16:50Z",
       "openPullRequests": 0
     },
     {
@@ -3883,7 +3883,7 @@
     ],
     "boundary": "All 105 independently scoped project records now have a matching buyer-facing display, maintained together in Projects-Displays and published within MyProjects. The connected repository inventory contains 107 repositories: 105 project repositories and two presentation repositories. This publication changes display navigation and presentation; retained product qualification, rights, transfer assessments and individual prices keep their own dates and scope."
   },
-  "repositoryPresenceCheckedAt": "2026-10-16T06:35:07Z",
+  "repositoryPresenceCheckedAt": "2026-10-16T07:20:07Z",
   "sourceInventoryAssessedAt": "2026-10-16T06:35:07Z",
   "latestDisplayDirectoryUpdate": {
     "assessedAt": "2026-10-13T06:09:04Z",
@@ -3950,5 +3950,18 @@
     "otherProjectRecordsChanged": 0,
     "boundary": "Targeted documentary status review of source-pinned repository records; product tests were not rerun for this catalogue update. R28 is user-operated/self-reported browser acceptance, not third-party attestation or release certification. The catalogue review did not independently inspect or replay the two full browser reports. Existing financial assumptions, assurance grades and the READY_WITH_CONDITIONS classification are retained."
   },
-  "catalogueUpdatedAt": "2026-10-16T06:23:40Z"
+  "catalogueUpdatedAt": "2026-10-16T06:23:40Z",
+  "publicationHeadRecheck": {
+    "checkedAt": "2026-10-16T07:16:50Z",
+    "defaultBranchesChecked": 105,
+    "unchangedHeads": 104,
+    "changedHeads": 1,
+    "retrievalErrors": 0,
+    "changedProject": "TA-IP-016",
+    "changeType": "RETAINED_COLAB_EVIDENCE_AND_DOCUMENTATION",
+    "productTestsExecutedByThisReview": 0,
+    "currentRepositoryCount": 107,
+    "inventoryNamesMatched": true,
+    "publicationRepositories": 2
+  }
 }

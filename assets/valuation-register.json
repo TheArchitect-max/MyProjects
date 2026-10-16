@@ -1,9 +1,9 @@
 {
   "version": "2026.10.13-im70-repository-inventory-and-mipp",
   "status": "public-seller-side-valuation-register",
-  "valuationBasisDate": "2026-10-13",
+  "valuationBasisDate": "2026-10-16",
   "developmentStatusDate": "2026-10-13",
-  "scope": "105 independent software IP assets. MIPP has a first separate v0.1 present-source estimate; all 104 preceding individual prices and cost estimates are unchanged. Thirteen publication repositories are excluded.",
+  "scope": "Documentary and financial-reference review of all 105 independent projects using the frozen repository documentation, retained qualification/transfer records, disclosed cost assumptions and external method/rate context. No project tests were rerun. No independent market appraisal, comparable sale or project cash-flow valuation is established. All seller asking references, negotiation ranges, recreation anchors and model factors are retained. Current source scope is not automatically included in an older cost budget; a delivery-specific re-estimate remains required.",
   "portfolio": {
     "assetCount": 105,
     "stageCounts": {
@@ -24,7 +24,7 @@
     "sellerAskAsShareOfReplacementCost": 0.23472242180389902,
     "pricedAssetCount": 105,
     "unpricedAssetCount": 0,
-    "monetaryScope": "105 independent software IP assets. MIPP has a first separate v0.1 present-source estimate; all 104 preceding individual prices and cost estimates are unchanged. Thirteen publication repositories are excluded.",
+    "monetaryScope": "105 independent project references, reviewed individually on 16 October 2026. Seller asks and cost anchors retained; two publication repositories excluded. No independent market or income valuation established.",
     "averageTriangulatedEconomicReferencePerPricedAsset": 1176527.7428571428
   },
   "updates": [
@@ -49,7 +49,11 @@
       "triangulatedEconomicReferenceEUR": 243058,
       "askShareOfTriangulated": 0.18514099515342017,
       "sourceHead": "de09af79414680dabca8db396ccb39812a79d5b3",
-      "financialReferencesReviewedAt": "2026-10-12T09:21:42Z"
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-001",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-002",
@@ -70,7 +74,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 130891,
       "triangulatedEconomicReferenceEUR": 305292,
-      "askShareOfTriangulated": 0.31117749564351505
+      "askShareOfTriangulated": 0.31117749564351505,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-002",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-003",
@@ -91,7 +100,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 1035547,
       "triangulatedEconomicReferenceEUR": 975291,
-      "askShareOfTriangulated": 0.2050670005157435
+      "askShareOfTriangulated": 0.2050670005157435,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-003",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-004",
@@ -112,7 +126,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 451070,
       "triangulatedEconomicReferenceEUR": 631475,
-      "askShareOfTriangulated": 0.27712894413872285
+      "askShareOfTriangulated": 0.27712894413872285,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-004",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-005",
@@ -133,7 +152,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 721236,
       "triangulatedEconomicReferenceEUR": 810773,
-      "askShareOfTriangulated": 0.18500862756899897
+      "askShareOfTriangulated": 0.18500862756899897,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-005",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-006",
@@ -154,7 +178,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 547727,
       "triangulatedEconomicReferenceEUR": 912904,
-      "askShareOfTriangulated": 0.3012364936510301
+      "askShareOfTriangulated": 0.3012364936510301,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-006",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-007",
@@ -175,7 +204,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 113271,
       "triangulatedEconomicReferenceEUR": 280395,
-      "askShareOfTriangulated": 0.33880775334795554
+      "askShareOfTriangulated": 0.33880775334795554,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-007",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-008",
@@ -196,7 +230,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 1148674,
       "triangulatedEconomicReferenceEUR": 1122036,
-      "askShareOfTriangulated": 0.2406339903532507
+      "askShareOfTriangulated": 0.2406339903532507,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-008",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-009",
@@ -217,7 +256,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 645424,
       "triangulatedEconomicReferenceEUR": 734417,
-      "askShareOfTriangulated": 0.19062739560767247
+      "askShareOfTriangulated": 0.19062739560767247,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-009",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-010",
@@ -238,7 +282,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 791889,
       "triangulatedEconomicReferenceEUR": 789686,
-      "askShareOfTriangulated": 0.24693359132617268
+      "askShareOfTriangulated": 0.24693359132617268,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-010",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-011",
@@ -259,7 +308,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 1084859,
       "triangulatedEconomicReferenceEUR": 1071176,
-      "askShareOfTriangulated": 0.2613949528368821
+      "askShareOfTriangulated": 0.2613949528368821,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-011",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-012",
@@ -280,7 +334,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 3056801,
       "triangulatedEconomicReferenceEUR": 2242880,
-      "askShareOfTriangulated": 0.1560493651020117
+      "askShareOfTriangulated": 0.1560493651020117,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-012",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-013",
@@ -303,11 +362,15 @@
       "triangulatedEconomicReferenceEUR": 1296575,
       "askShareOfTriangulated": 0.2390914524805738,
       "economicAssessmentAt": "2026-10-12T00:19:02Z",
-      "financialReferencesReviewedAt": "2026-10-12T00:19:02Z",
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
       "sourceHead": "52a9de8d475f0b08b238047f435b71fb092a8081",
       "pricingScope": "Existing first-party AI research and training-control software plus the implemented v5.8 adaptation, reviewed-input and local checkpoint-control increment. Optional new PyTorch training execution, external CUDA/Drive adapter qualification, larger-model quality, external weights and data, frontier performance and future development are not included as demonstrated capabilities.",
       "costAssumptionsDocument": "docs/PORTFOLIO_UPDATE_2026-10-12.md",
-      "economicAssessmentNote": "The disclosed implemented-scope increment adopts EUR 40,000 beyond the prior recreation estimate. The current recreation reference is EUR 1,040,000 and seller asking reference EUR 310,000. Existing rates and commercial factors are retained; future qualification and revenue are excluded. This is an uncertain seller estimate, not recorded expenditure or an independent appraisal."
+      "economicAssessmentNote": "The disclosed implemented-scope increment adopts EUR 40,000 beyond the prior recreation estimate. The current recreation reference is EUR 1,040,000 and seller asking reference EUR 310,000. Existing rates and commercial factors are retained; future qualification and revenue are excluded. This is an uncertain seller estimate, not recorded expenditure or an independent appraisal.",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-013",
+      "costEvidenceStatus": "PARTIAL_WORK_PACKAGE_BASIS",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T00:19:02Z"
     },
     {
       "ref": "TA-IP-014",
@@ -328,7 +391,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 1860662,
       "triangulatedEconomicReferenceEUR": 1379232,
-      "askShareOfTriangulated": 0.19213591331987656
+      "askShareOfTriangulated": 0.19213591331987656,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-014",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-015",
@@ -349,7 +417,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 143936,
       "triangulatedEconomicReferenceEUR": 478028,
-      "askShareOfTriangulated": 0.2091927669508899
+      "askShareOfTriangulated": 0.2091927669508899,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-015",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-016",
@@ -370,7 +443,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 487316,
       "triangulatedEconomicReferenceEUR": 485961,
-      "askShareOfTriangulated": 0.24693339588979363
+      "askShareOfTriangulated": 0.24693339588979363,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-016",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-017",
@@ -391,7 +469,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 60961,
       "triangulatedEconomicReferenceEUR": 194776,
-      "askShareOfTriangulated": 0.20536411056803713
+      "askShareOfTriangulated": 0.20536411056803713,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-017",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-018",
@@ -412,7 +495,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 3322610,
       "triangulatedEconomicReferenceEUR": 2462914,
-      "askShareOfTriangulated": 0.18271039914507775
+      "askShareOfTriangulated": 0.18271039914507775,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-018",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-019",
@@ -433,7 +521,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 4820805,
       "triangulatedEconomicReferenceEUR": 3634782,
-      "askShareOfTriangulated": 0.1925837643082859
+      "askShareOfTriangulated": 0.1925837643082859,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-019",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-020",
@@ -454,7 +547,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 271208,
       "triangulatedEconomicReferenceEUR": 441405,
-      "askShareOfTriangulated": 0.1812394512975612
+      "askShareOfTriangulated": 0.1812394512975612,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-020",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-021",
@@ -475,7 +573,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 1160277,
       "triangulatedEconomicReferenceEUR": 1169597,
-      "askShareOfTriangulated": 0.2564986059300768
+      "askShareOfTriangulated": 0.2564986059300768,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-021",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-022",
@@ -496,7 +599,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 3721323,
       "triangulatedEconomicReferenceEUR": 2730463,
-      "askShareOfTriangulated": 0.18311912668291055
+      "askShareOfTriangulated": 0.18311912668291055,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-022",
+      "costEvidenceStatus": "PARTIAL_WORK_PACKAGE_BASIS",
+      "originalFinancialReferenceReviewedAt": "2026-10-10T08:52:15Z"
     },
     {
       "ref": "TA-IP-023",
@@ -517,7 +625,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 234333,
       "triangulatedEconomicReferenceEUR": 665067,
-      "askShareOfTriangulated": 0.3157576605063851
+      "askShareOfTriangulated": 0.3157576605063851,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-023",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-024",
@@ -538,7 +651,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 229484,
       "triangulatedEconomicReferenceEUR": 373497,
-      "askShareOfTriangulated": 0.17403084897602925
+      "askShareOfTriangulated": 0.17403084897602925,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-024",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-025",
@@ -559,7 +677,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 950267,
       "triangulatedEconomicReferenceEUR": 947623,
-      "askShareOfTriangulated": 0.24798891542311657
+      "askShareOfTriangulated": 0.24798891542311657,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-025",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-026",
@@ -580,7 +703,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 3828913,
       "triangulatedEconomicReferenceEUR": 3780620,
-      "askShareOfTriangulated": 0.21160550385915539
+      "askShareOfTriangulated": 0.21160550385915539,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-026",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-027",
@@ -601,7 +729,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 2010179,
       "triangulatedEconomicReferenceEUR": 1893213,
-      "askShareOfTriangulated": 0.1901529304943501
+      "askShareOfTriangulated": 0.1901529304943501,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-027",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-028",
@@ -622,7 +755,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 225386,
       "triangulatedEconomicReferenceEUR": 253367,
-      "askShareOfTriangulated": 0.07893687812540702
+      "askShareOfTriangulated": 0.07893687812540702,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-028",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-029",
@@ -643,7 +781,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 5074532,
       "triangulatedEconomicReferenceEUR": 3826086,
-      "askShareOfTriangulated": 0.16988640610796515
+      "askShareOfTriangulated": 0.16988640610796515,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-029",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-030",
@@ -664,7 +807,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 887612,
       "triangulatedEconomicReferenceEUR": 894189,
-      "askShareOfTriangulated": 0.24044133846423965
+      "askShareOfTriangulated": 0.24044133846423965,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-030",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-031",
@@ -685,7 +833,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 579947,
       "triangulatedEconomicReferenceEUR": 880981,
-      "askShareOfTriangulated": 0.28377456494521447
+      "askShareOfTriangulated": 0.28377456494521447,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-031",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-032",
@@ -706,7 +859,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 153622,
       "triangulatedEconomicReferenceEUR": 279870,
-      "askShareOfTriangulated": 0.17865437524564975
+      "askShareOfTriangulated": 0.17865437524564975,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-032",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-033",
@@ -727,7 +885,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 495849,
       "triangulatedEconomicReferenceEUR": 557406,
-      "askShareOfTriangulated": 0.17940244633175817
+      "askShareOfTriangulated": 0.17940244633175817,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-033",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-034",
@@ -748,7 +911,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 153622,
       "triangulatedEconomicReferenceEUR": 279870,
-      "askShareOfTriangulated": 0.19651981277021474
+      "askShareOfTriangulated": 0.19651981277021474,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-034",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-035",
@@ -769,7 +937,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 974632,
       "triangulatedEconomicReferenceEUR": 971921,
-      "askShareOfTriangulated": 0.24693364995714673
+      "askShareOfTriangulated": 0.24693364995714673,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-035",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-036",
@@ -790,7 +963,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 405695,
       "triangulatedEconomicReferenceEUR": 456060,
-      "askShareOfTriangulated": 0.1754155155023462
+      "askShareOfTriangulated": 0.1754155155023462,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-036",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-037",
@@ -811,7 +989,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 166898,
       "triangulatedEconomicReferenceEUR": 271634,
-      "askShareOfTriangulated": 0.1656640921239609
+      "askShareOfTriangulated": 0.1656640921239609,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-037",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-038",
@@ -832,7 +1015,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 2899733,
       "triangulatedEconomicReferenceEUR": 2178907,
-      "askShareOfTriangulated": 0.19734665132564172
+      "askShareOfTriangulated": 0.19734665132564172,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-038",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-039",
@@ -853,7 +1041,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 3044719,
       "triangulatedEconomicReferenceEUR": 2295652,
-      "askShareOfTriangulated": 0.20691289446309807
+      "askShareOfTriangulated": 0.20691289446309807,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-039",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-040",
@@ -874,7 +1067,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 1860662,
       "triangulatedEconomicReferenceEUR": 1379232,
-      "askShareOfTriangulated": 0.19938632514326815
+      "askShareOfTriangulated": 0.19938632514326815,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-040",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-041",
@@ -895,7 +1093,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 731480,
       "triangulatedEconomicReferenceEUR": 789308,
-      "askShareOfTriangulated": 0.14569724366153644
+      "askShareOfTriangulated": 0.14569724366153644,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-041",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-042",
@@ -916,7 +1119,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 319508,
       "triangulatedEconomicReferenceEUR": 501028,
-      "askShareOfTriangulated": 0.2993844655388521
+      "askShareOfTriangulated": 0.2993844655388521,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-042",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-043",
@@ -937,7 +1145,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 838300,
       "triangulatedEconomicReferenceEUR": 936005,
-      "askShareOfTriangulated": 0.2724344421237066
+      "askShareOfTriangulated": 0.2724344421237066,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-043",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-044",
@@ -958,7 +1171,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 3411213,
       "triangulatedEconomicReferenceEUR": 3401725,
-      "askShareOfTriangulated": 0.19107952582880744
+      "askShareOfTriangulated": 0.19107952582880744,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-044",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-045",
@@ -979,7 +1197,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 2525184,
       "triangulatedEconomicReferenceEUR": 1852814,
-      "askShareOfTriangulated": 0.1835046583197234
+      "askShareOfTriangulated": 0.1835046583197234,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-045",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-046",
@@ -1000,7 +1223,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 4349599,
       "triangulatedEconomicReferenceEUR": 3304360,
-      "askShareOfTriangulated": 0.1967098015954678
+      "askShareOfTriangulated": 0.1967098015954678,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-046",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-047",
@@ -1021,7 +1249,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 540927,
       "triangulatedEconomicReferenceEUR": 608079,
-      "askShareOfTriangulated": 0.15622970041721554
+      "askShareOfTriangulated": 0.15622970041721554,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-047",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-048",
@@ -1042,7 +1275,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 1392332,
       "triangulatedEconomicReferenceEUR": 1419716,
-      "askShareOfTriangulated": 0.2113098676073243
+      "askShareOfTriangulated": 0.2113098676073243,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-048",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-049",
@@ -1063,7 +1301,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 1702639,
       "triangulatedEconomicReferenceEUR": 1415536,
-      "askShareOfTriangulated": 0.14128923602084298
+      "askShareOfTriangulated": 0.14128923602084298,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-049",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-050",
@@ -1084,7 +1327,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 754180,
       "triangulatedEconomicReferenceEUR": 769013,
-      "askShareOfTriangulated": 0.20805890147500758
+      "askShareOfTriangulated": 0.20805890147500758,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-050",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-051",
@@ -1105,7 +1353,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 708824,
       "triangulatedEconomicReferenceEUR": 969288,
-      "askShareOfTriangulated": 0.26823812943108755
+      "askShareOfTriangulated": 0.26823812943108755,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-051",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-052",
@@ -1126,7 +1379,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 224144,
       "triangulatedEconomicReferenceEUR": 508550,
-      "askShareOfTriangulated": 0.314619998033625
+      "askShareOfTriangulated": 0.314619998033625,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-052",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-053",
@@ -1147,7 +1405,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 2297348,
       "triangulatedEconomicReferenceEUR": 2268372,
-      "askShareOfTriangulated": 0.22042239985328685
+      "askShareOfTriangulated": 0.22042239985328685,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-053",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-054",
@@ -1168,7 +1431,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 2192923,
       "triangulatedEconomicReferenceEUR": 2186823,
-      "askShareOfTriangulated": 0.19434586155349565
+      "askShareOfTriangulated": 0.19434586155349565,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-054",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-055",
@@ -1189,7 +1457,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 6041109,
       "triangulatedEconomicReferenceEUR": 4539388,
-      "askShareOfTriangulated": 0.13768375825111226
+      "askShareOfTriangulated": 0.13768375825111226,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-055",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-056",
@@ -1210,7 +1483,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 559367,
       "triangulatedEconomicReferenceEUR": 643076,
-      "askShareOfTriangulated": 0.17882800788709266
+      "askShareOfTriangulated": 0.17882800788709266,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-056",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-057",
@@ -1231,7 +1509,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 935005,
       "triangulatedEconomicReferenceEUR": 1762172,
-      "askShareOfTriangulated": 0.204293337994248
+      "askShareOfTriangulated": 0.204293337994248,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-057",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-058",
@@ -1252,7 +1535,12 @@
       "timeRiskFactor": 0.7,
       "probabilityAdjustedStrategicValueEUR": 82975,
       "triangulatedEconomicReferenceEUR": 426309,
-      "askShareOfTriangulated": 0.11728581850254158
+      "askShareOfTriangulated": 0.11728581850254158,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-058",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-059",
@@ -1273,7 +1561,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 2537266,
       "triangulatedEconomicReferenceEUR": 1893043,
-      "askShareOfTriangulated": 0.19017000670349274
+      "askShareOfTriangulated": 0.19017000670349274,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-059",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-060",
@@ -1294,7 +1587,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 491752,
       "triangulatedEconomicReferenceEUR": 566988,
-      "askShareOfTriangulated": 0.1675520469569021
+      "askShareOfTriangulated": 0.1675520469569021,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-060",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-061",
@@ -1315,7 +1613,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 352398,
       "triangulatedEconomicReferenceEUR": 527089,
-      "askShareOfTriangulated": 0.21817947253689604
+      "askShareOfTriangulated": 0.21817947253689604,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-061",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-062",
@@ -1336,7 +1639,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 609145,
       "triangulatedEconomicReferenceEUR": 614201,
-      "askShareOfTriangulated": 0.2686416987272896
+      "askShareOfTriangulated": 0.2686416987272896,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-062",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-063",
@@ -1357,7 +1665,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 1035547,
       "triangulatedEconomicReferenceEUR": 1044141,
-      "askShareOfTriangulated": 0.22985401396937769
+      "askShareOfTriangulated": 0.22985401396937769,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-063",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-064",
@@ -1378,7 +1691,12 @@
       "timeRiskFactor": 0.7,
       "probabilityAdjustedStrategicValueEUR": 643455,
       "triangulatedEconomicReferenceEUR": 913169,
-      "askShareOfTriangulated": 0.08760700374191414
+      "askShareOfTriangulated": 0.08760700374191414,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-064",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-065",
@@ -1401,11 +1719,15 @@
       "triangulatedEconomicReferenceEUR": 1451808,
       "askShareOfTriangulated": 0.2031949128259384,
       "economicAssessmentAt": "2026-10-12T00:19:02Z",
-      "financialReferencesReviewedAt": "2026-10-12T00:19:02Z",
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
       "sourceHead": "7152a0dc6bc4dc536189424eabde8e29d047f8b6",
       "pricingScope": "Existing first-party investigation decision-support software plus the implemented v0.6 local evidence custody, controlled disclosure and recoverable-operation increment, its documentation and tests. Legal authority, third-party content rights, independent evidence authentication, certified security and future deployment are excluded.",
       "costAssumptionsDocument": "docs/PORTFOLIO_UPDATE_2026-10-12.md",
-      "economicAssessmentNote": "The disclosed implemented-scope increment adopts EUR 70,000 beyond the prior recreation estimate. The current recreation reference is EUR 1,195,000 and seller asking reference EUR 295,000. Existing rates and commercial factors are retained; future qualification and revenue are excluded. This is an uncertain seller estimate, not recorded expenditure or an independent appraisal."
+      "economicAssessmentNote": "The disclosed implemented-scope increment adopts EUR 70,000 beyond the prior recreation estimate. The current recreation reference is EUR 1,195,000 and seller asking reference EUR 295,000. Existing rates and commercial factors are retained; future qualification and revenue are excluded. This is an uncertain seller estimate, not recorded expenditure or an independent appraisal.",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-065",
+      "costEvidenceStatus": "PARTIAL_WORK_PACKAGE_BASIS",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T00:19:02Z"
     },
     {
       "ref": "TA-IP-066",
@@ -1426,7 +1748,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 626983,
       "triangulatedEconomicReferenceEUR": 748914,
-      "askShareOfTriangulated": 0.1602320159591088
+      "askShareOfTriangulated": 0.1602320159591088,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-066",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-067",
@@ -1447,7 +1774,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 172723,
       "triangulatedEconomicReferenceEUR": 573633,
-      "askShareOfTriangulated": 0.2179093601658203
+      "askShareOfTriangulated": 0.2179093601658203,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-067",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-068",
@@ -1468,7 +1800,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 1536216,
       "triangulatedEconomicReferenceEUR": 1275676,
-      "askShareOfTriangulated": 0.12542369692617875
+      "askShareOfTriangulated": 0.12542369692617875,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-068",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-069",
@@ -1489,7 +1826,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 2088498,
       "triangulatedEconomicReferenceEUR": 2105274,
-      "askShareOfTriangulated": 0.2018739603491042
+      "askShareOfTriangulated": 0.2018739603491042,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-069",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-070",
@@ -1510,7 +1852,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 1084859,
       "triangulatedEconomicReferenceEUR": 1002326,
-      "askShareOfTriangulated": 0.22447786448720278
+      "askShareOfTriangulated": 0.22447786448720278,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-070",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-071",
@@ -1531,7 +1878,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 1949265,
       "triangulatedEconomicReferenceEUR": 1943843,
-      "askShareOfTriangulated": 0.205777935769504
+      "askShareOfTriangulated": 0.205777935769504,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-071",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-072",
@@ -1552,7 +1904,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 1282106,
       "triangulatedEconomicReferenceEUR": 1326237,
-      "askShareOfTriangulated": 0.2073535876317732
+      "askShareOfTriangulated": 0.2073535876317732,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-072",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-073",
@@ -1573,7 +1930,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 9303308,
       "triangulatedEconomicReferenceEUR": 6476158,
-      "askShareOfTriangulated": 0.12353003123148015
+      "askShareOfTriangulated": 0.12353003123148015,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-073",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-074",
@@ -1594,7 +1956,12 @@
       "timeRiskFactor": 0.7,
       "probabilityAdjustedStrategicValueEUR": 47414,
       "triangulatedEconomicReferenceEUR": 243605,
-      "askShareOfTriangulated": 0.22577533301861621
+      "askShareOfTriangulated": 0.22577533301861621,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-074",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-075",
@@ -1615,7 +1982,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 209570,
       "triangulatedEconomicReferenceEUR": 394970,
-      "askShareOfTriangulated": 0.22786540749930376
+      "askShareOfTriangulated": 0.22786540749930376,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-075",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-076",
@@ -1636,7 +2008,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 901545,
       "triangulatedEconomicReferenceEUR": 952716,
-      "askShareOfTriangulated": 0.1994298405820832
+      "askShareOfTriangulated": 0.1994298405820832,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-076",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-077",
@@ -1657,7 +2034,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 3254576,
       "triangulatedEconomicReferenceEUR": 3366602,
-      "askShareOfTriangulated": 0.274757752772677
+      "askShareOfTriangulated": 0.274757752772677,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-077",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-078",
@@ -1678,7 +2060,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 870810,
       "triangulatedEconomicReferenceEUR": 1040159,
-      "askShareOfTriangulated": 0.24034786989296827
+      "askShareOfTriangulated": 0.24034786989296827,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-078",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-079",
@@ -1699,7 +2086,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 2132008,
       "triangulatedEconomicReferenceEUR": 2126078,
-      "askShareOfTriangulated": 0.19989859261983803
+      "askShareOfTriangulated": 0.19989859261983803,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-079",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-080",
@@ -1720,7 +2112,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 1253099,
       "triangulatedEconomicReferenceEUR": 1262385,
-      "askShareOfTriangulated": 0.23764540928480615
+      "askShareOfTriangulated": 0.23764540928480615,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-080",
+      "costEvidenceStatus": "PARTIAL_WORK_PACKAGE_BASIS",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-081",
@@ -1741,7 +2138,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 1084859,
       "triangulatedEconomicReferenceEUR": 1071176,
-      "askShareOfTriangulated": 0.16803961253799563
+      "askShareOfTriangulated": 0.16803961253799563,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-081",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-082",
@@ -1762,7 +2164,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 2253116,
       "triangulatedEconomicReferenceEUR": 1839191,
-      "askShareOfTriangulated": 0.11961781022199434
+      "askShareOfTriangulated": 0.11961781022199434,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-082",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-083",
@@ -1783,7 +2190,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 1036776,
       "triangulatedEconomicReferenceEUR": 1165485,
-      "askShareOfTriangulated": 0.17160238012501233
+      "askShareOfTriangulated": 0.17160238012501233,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-083",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-084",
@@ -1804,7 +2216,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 3132747,
       "triangulatedEconomicReferenceEUR": 3194361,
-      "askShareOfTriangulated": 0.21913615900018815
+      "askShareOfTriangulated": 0.21913615900018815,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-084",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-085",
@@ -1825,7 +2242,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 368814,
       "triangulatedEconomicReferenceEUR": 425241,
-      "askShareOfTriangulated": 0.18812861412704796
+      "askShareOfTriangulated": 0.18812861412704796,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-085",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-087",
@@ -1846,7 +2268,12 @@
       "timeRiskFactor": 0.95,
       "probabilityAdjustedStrategicValueEUR": 3063130,
       "triangulatedEconomicReferenceEUR": 3024496,
-      "askShareOfTriangulated": 0.19011431987345992
+      "askShareOfTriangulated": 0.19011431987345992,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-087",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-088",
@@ -1867,7 +2294,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 860565,
       "triangulatedEconomicReferenceEUR": 928598,
-      "askShareOfTriangulated": 0.21537845224736646
+      "askShareOfTriangulated": 0.21537845224736646,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-088",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-089",
@@ -1888,7 +2320,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 479458,
       "triangulatedEconomicReferenceEUR": 556559,
-      "askShareOfTriangulated": 0.21561056419894387
+      "askShareOfTriangulated": 0.21561056419894387,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-089",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-090",
@@ -1909,7 +2346,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 153622,
       "triangulatedEconomicReferenceEUR": 279870,
-      "askShareOfTriangulated": 0.19651981277021474
+      "askShareOfTriangulated": 0.19651981277021474,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-090",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-091",
@@ -1930,7 +2372,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 153622,
       "triangulatedEconomicReferenceEUR": 279870,
-      "askShareOfTriangulated": 0.17865437524564975
+      "askShareOfTriangulated": 0.17865437524564975,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-091",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-092",
@@ -1951,7 +2398,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 721236,
       "triangulatedEconomicReferenceEUR": 810773,
-      "askShareOfTriangulated": 0.18500862756899897
+      "askShareOfTriangulated": 0.18500862756899897,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-092",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-093",
@@ -1974,11 +2426,15 @@
       "triangulatedEconomicReferenceEUR": 274044,
       "askShareOfTriangulated": 0.16785625665951454,
       "sourceHead": "ee059930599d1924baa9cbdafae6bd41a4fa94b8",
-      "financialReferencesReviewedAt": "2026-10-12T09:21:42Z",
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
       "economicAssessmentAt": "2026-10-12T09:21:42Z",
       "pricingScope": "Existing first-party local DJ and music-library prototype plus the implemented v0.11/v0.12 user-library, declared-use, audition and local-export controls, source, tests and documentation. External music, model weights and runtime ownership, independently cleared music rights, professional listening quality, large-library/hardware qualification and a hosted service are excluded.",
       "economicAssessmentNote": "The disclosed engineering-equivalent increment budget is EUR 37,375, including the retained 15% allowance; the adopted increment is EUR 40,000. The current recreation reference is EUR 290,000 and seller asking reference EUR 46,000. These are uncertain seller assumptions, not recorded expenditure, an independent appraisal or forecast income.",
-      "costAssumptionsDocument": "docs/PORTFOLIO_FULL_REVISION_2026-10-12.md"
+      "costAssumptionsDocument": "docs/PORTFOLIO_FULL_REVISION_2026-10-12.md",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-093",
+      "costEvidenceStatus": "PARTIAL_WORK_PACKAGE_BASIS",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-094",
@@ -1999,7 +2455,12 @@
       "timeRiskFactor": 0.85,
       "probabilityAdjustedStrategicValueEUR": 774509,
       "triangulatedEconomicReferenceEUR": 899057,
-      "askShareOfTriangulated": 0.1390345662177148
+      "askShareOfTriangulated": 0.1390345662177148,
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-094",
+      "costEvidenceStatus": "BASE_AND_INCREMENT_BUDGETS_RECONCILE",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "sellerAskEUR": 180000,
@@ -2025,7 +2486,12 @@
       "askShareOfTriangulated": 0.19017894782440567,
       "pricingScope": "Present first-party piano practice, performance and local production software, its proprietary transcription work, retained research and validation, and documentation. User music, external scores, recordings, datasets, plugins and future model qualification are excluded.",
       "economicAssessmentAt": "2026-10-09T06:22:41Z",
-      "sourceHead": "4ac4713e529bb187546a9e4197bc23ac634d5990"
+      "sourceHead": "4ac4713e529bb187546a9e4197bc23ac634d5990",
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-095",
+      "costEvidenceStatus": "BASE_AND_INCREMENT_BUDGETS_RECONCILE",
+      "originalFinancialReferenceReviewedAt": "2026-10-09T06:22:41Z"
     },
     {
       "sellerAskEUR": 50000,
@@ -2051,7 +2517,12 @@
       "askShareOfTriangulated": 0.16445204578344955,
       "pricingScope": "Present first-party evidence-governed intelligence prototype, retained qualification, documentation and packaging. Production deployment, operational infrastructure, external evidence/data rights and future productisation are excluded.",
       "economicAssessmentAt": "2026-10-09T06:22:41Z",
-      "sourceHead": "0038679044885f8104cb460cb6902590ef1f87dc"
+      "sourceHead": "0038679044885f8104cb460cb6902590ef1f87dc",
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-096",
+      "costEvidenceStatus": "BASE_AND_INCREMENT_BUDGETS_RECONCILE",
+      "originalFinancialReferenceReviewedAt": "2026-10-09T06:22:41Z"
     },
     {
       "slug": "causoryn",
@@ -2079,7 +2550,12 @@
       "pricingScope": "Present first-party linked-system modelling, scenario comparison, offline observation records and local coupled-simulation prototype, with retained source, tests, documentation and development packaging at the identified v0.6.0 source commit. Live telemetry, distributed operation, physical fidelity, production qualification, third-party ownership and future development are excluded.",
       "economicAssessmentAt": "2026-10-11T00:24:59Z",
       "sourceHead": "3ca782f99c14b69675d9766c3c8e32d30a28791d",
-      "costAssumptionsDocument": "docs/CAUSORYN_AND_OCTAVIA_SOURCE_REFRESH_2026-10-11.md"
+      "costAssumptionsDocument": "docs/CAUSORYN_AND_OCTAVIA_SOURCE_REFRESH_2026-10-11.md",
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-097",
+      "costEvidenceStatus": "BASE_AND_INCREMENT_BUDGETS_RECONCILE",
+      "originalFinancialReferenceReviewedAt": "2026-10-11T00:24:59Z"
     },
     {
       "slug": "software-asset-engineering-platform",
@@ -2107,7 +2583,12 @@
       "pricingScope": "Present first-party local software-inspection, evidence, bounded review-proposal and package-preparation prototype, its CLI/local interface, source contracts, documentation and retained validation at the identified v0.1.0 commit. Ingested-project execution, arbitrary-code isolation, broader adapters, production SaaS, hosting, rights certification, third-party ownership and future development are excluded.",
       "economicAssessmentAt": "2026-10-11T00:24:59Z",
       "sourceHead": "e654268817be3394101715d98a3c60ed246a49ea",
-      "costAssumptionsDocument": "docs/CAUSORYN_AND_OCTAVIA_SOURCE_REFRESH_2026-10-11.md"
+      "costAssumptionsDocument": "docs/CAUSORYN_AND_OCTAVIA_SOURCE_REFRESH_2026-10-11.md",
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-098",
+      "costEvidenceStatus": "BASE_AND_INCREMENT_BUDGETS_RECONCILE",
+      "originalFinancialReferenceReviewedAt": "2026-10-11T00:24:59Z"
     },
     {
       "slug": "launch-cislunar-transportation-engineering-platform",
@@ -2135,7 +2616,12 @@
       "pricingScope": "Present first-party transport-concept screening software, interface contracts, synthetic example, tests, documentation and retained software validation at the identified development commit. Physical vehicles, flight qualification, operational transport, external science and data rights, the separately owned FusionLunar asset and future engineering are excluded.",
       "economicAssessmentAt": "2026-10-11T07:01:21Z",
       "sourceHead": "eeaadf2299f8309e9e6f5a53dd0b35deb81a0ff8",
-      "costAssumptionsDocument": "docs/NEW_PROJECT_ASSESSMENTS_2026-10-11.md"
+      "costAssumptionsDocument": "docs/NEW_PROJECT_ASSESSMENTS_2026-10-11.md",
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-099",
+      "costEvidenceStatus": "BASE_AND_INCREMENT_BUDGETS_RECONCILE",
+      "originalFinancialReferenceReviewedAt": "2026-10-11T07:01:21Z"
     },
     {
       "slug": "synthetic-consciousness-engineering-platform",
@@ -2164,8 +2650,12 @@
       "economicAssessmentAt": "2026-10-12T00:19:02Z",
       "sourceHead": "0f36122a14ce403c1c8d69382f1e5cea76706018",
       "costAssumptionsDocument": "docs/PORTFOLIO_UPDATE_2026-10-12.md",
-      "financialReferencesReviewedAt": "2026-10-12T00:19:02Z",
-      "economicAssessmentNote": "The disclosed implemented-scope increment adopts EUR 50,000 beyond the prior recreation estimate. The current recreation reference is EUR 200,000 and seller asking reference EUR 60,000. Existing rates and commercial factors are retained; future qualification and revenue are excluded. This is an uncertain seller estimate, not recorded expenditure or an independent appraisal."
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "economicAssessmentNote": "The disclosed implemented-scope increment adopts EUR 50,000 beyond the prior recreation estimate. The current recreation reference is EUR 200,000 and seller asking reference EUR 60,000. Existing rates and commercial factors are retained; future qualification and revenue are excluded. This is an uncertain seller estimate, not recorded expenditure or an independent appraisal.",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-100",
+      "costEvidenceStatus": "BASE_AND_INCREMENT_BUDGETS_RECONCILE",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T00:19:02Z"
     },
     {
       "slug": "universal-video-intelligence-platform",
@@ -2195,7 +2685,11 @@
       "sourceHead": "10c1c9c702007a62bf032706a6042932a2fcc52b",
       "costAssumptionsDocument": "docs/PORTFOLIO_FULL_REVISION_2026-10-12.md",
       "economicAssessmentNote": "The disclosed engineering-equivalent increment budget is EUR 20,585, including the retained 15% allowance; the adopted increment is EUR 20,000. The current recreation reference is EUR 120,000 and seller asking reference EUR 36,000. These are uncertain seller assumptions, not recorded expenditure, an independent appraisal or forecast income.",
-      "financialReferencesReviewedAt": "2026-10-12T09:21:42Z"
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-101",
+      "costEvidenceStatus": "PARTIAL_WORK_PACKAGE_BASIS",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-102",
@@ -2218,11 +2712,15 @@
       "askShareOfTriangulated": 0.4937089510928921,
       "description": "Plan controlled perception studies, preserve blind-study records and review what the recorded results can support.",
       "sourceHead": "4431fda60af9bd21b90a80df0c4ff21c28769215",
-      "financialReferencesReviewedAt": "2026-10-12T09:21:42Z",
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
       "economicAssessmentAt": "2026-10-12T09:21:42Z",
       "pricingScope": "Existing first-party offline controlled-study, custody, scoring and IP-governance software, its documentation and tests, with a separately identified unmerged P1.2 candidate. Seven internal component records are counted once within this project. Physical sensing hardware, hidden-object inference, scientifically demonstrated anomalous or sensor-free perception, independent custody/security certification, third-party rights and future research are excluded.",
       "economicAssessmentNote": "The disclosed engineering-equivalent total budget is EUR 111,090, including the retained 15% allowance; the adopted total is EUR 110,000. The current recreation reference is EUR 110,000 and seller asking reference EUR 33,000. These are uncertain seller assumptions, not recorded expenditure, an independent appraisal or forecast income.",
-      "costAssumptionsDocument": "docs/PORTFOLIO_FULL_REVISION_2026-10-12.md"
+      "costAssumptionsDocument": "docs/PORTFOLIO_FULL_REVISION_2026-10-12.md",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-102",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-103",
@@ -2245,11 +2743,15 @@
       "askShareOfTriangulated": 0.4169047141114525,
       "description": "Model your operations, compare resource and workflow scenarios, and review proposed decisions before authorising execution.",
       "sourceHead": "2804045108ced5760f1d8db0452d64c54988237e",
-      "financialReferencesReviewedAt": "2026-10-12T09:21:42Z",
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
       "economicAssessmentAt": "2026-10-12T09:21:42Z",
       "pricingScope": "Existing first-party v0.4 offline operational modelling, planning, local event memory, controlled recovery, portable evidence and non-mutating policy-proposal software, tests and documentation. External actuation, authenticated identities, externally certified custody, deployed multi-user SaaS, production optimisation or autonomous execution and future development are excluded.",
       "economicAssessmentNote": "The disclosed engineering-equivalent total budget is EUR 92,000, including the retained 15% allowance; the adopted total is EUR 90,000. The current recreation reference is EUR 90,000 and seller asking reference EUR 27,000. These are uncertain seller assumptions, not recorded expenditure, an independent appraisal or forecast income.",
-      "costAssumptionsDocument": "docs/PORTFOLIO_FULL_REVISION_2026-10-12.md"
+      "costAssumptionsDocument": "docs/PORTFOLIO_FULL_REVISION_2026-10-12.md",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-103",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-104",
@@ -2272,11 +2774,15 @@
       "askShareOfTriangulated": 0.44279625837161674,
       "description": "Explore shared fictional worlds, review the consequences of participant decisions and preserve a consistent history of each scenario.",
       "sourceHead": "1b6abb67b404a5169875ed260324b1f4642c8e0e",
-      "financialReferencesReviewedAt": "2026-10-12T09:21:42Z",
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
       "economicAssessmentAt": "2026-10-12T09:21:42Z",
       "pricingScope": "Existing first-party v0.3 local shared-world reference software, two bounded scenario implementations, local persistence/replay controls, tests and design documentation counted once. Future narrative production, external artwork/audio, AI models, online multiplayer, production identity, large-scale infrastructure and commercial event delivery are excluded.",
       "economicAssessmentNote": "The disclosed engineering-equivalent total budget is EUR 79,120, including the retained 15% allowance; the adopted total is EUR 80,000. The current recreation reference is EUR 80,000 and seller asking reference EUR 24,000. These are uncertain seller assumptions, not recorded expenditure, an independent appraisal or forecast income.",
-      "costAssumptionsDocument": "docs/PORTFOLIO_FULL_REVISION_2026-10-12.md"
+      "costAssumptionsDocument": "docs/PORTFOLIO_FULL_REVISION_2026-10-12.md",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-104",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-105",
@@ -2299,11 +2805,15 @@
       "askShareOfTriangulated": 0.41690881067286556,
       "description": "Turn your project aims into reviewed requirements, dependency-aware plans and planning documents with traceable decisions.",
       "sourceHead": "ee27964574e2a9d0d5d86eb28500337a5800f0ac",
-      "financialReferencesReviewedAt": "2026-10-12T09:21:42Z",
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
       "economicAssessmentAt": "2026-10-12T09:21:42Z",
       "pricingScope": "Existing first-party offline mission, requirements, dependency-planning and document-generation software on main v0.1 plus separately frozen unmerged v0.2/v0.3 traceability and feasibility-declaration software, tests and methodology documents. Generated plans are design outputs; independently established feasibility, copied cross-project IP, automatic engineering or execution, hosted services and future implementation are excluded.",
       "economicAssessmentNote": "The disclosed engineering-equivalent total budget is EUR 56,925, including the retained 15% allowance; the adopted total is EUR 55,000. The current recreation reference is EUR 55,000 and seller asking reference EUR 16,500. These are uncertain seller assumptions, not recorded expenditure, an independent appraisal or forecast income.",
-      "costAssumptionsDocument": "docs/PORTFOLIO_FULL_REVISION_2026-10-12.md"
+      "costAssumptionsDocument": "docs/PORTFOLIO_FULL_REVISION_2026-10-12.md",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-105",
+      "costEvidenceStatus": "LEGACY_COST_REFERENCE_ONLY",
+      "originalFinancialReferenceReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
       "ref": "TA-IP-106",
@@ -2326,7 +2836,7 @@
       "askShareOfTriangulated": 0.4427950913001307,
       "description": "Write and assemble your chapters, track editorial evidence and defects, and prepare an author-approved manuscript for manual publication handoff.",
       "sourceHead": "9b8b8d39cd86289fcd70c3684172a44062879bba",
-      "financialReferencesReviewedAt": "2026-10-13T04:20:04Z",
+      "financialReferencesReviewedAt": "2026-10-16T07:06:02Z",
       "economicAssessmentAt": "2026-10-13T04:20:04Z",
       "pricingScope": "Existing first-party v0.1.0 local manuscript authoring, DOCX assembly, evidence-linked eight-gate/40-stage quality workflow, defect and change controls, explicit author release authorization, read-only dashboard, manual Draft2Digital handoff, tests and documentation at the frozen repository baseline. The embedded author-supplied protocol must have separately agreed use/transfer rights. Author manuscripts, creative archive ownership, author identity/pen-name rights, third-party services and templates, separately staged v0.2–v0.5 application code, automated literary/factual certification, autonomous book generation, live distribution and future SaaS are outside this price.",
       "economicAssessmentNote": "Engineering-equivalent assumptions: 2.25 senior-engineer months, 0.50 specialist months and 0.75 validation/provenance months at retained EUR 18,000 / 22,000 / 16,000 rates. Direct budget EUR 63,500; 15% coordination/tooling allowance EUR 9,525; total EUR 73,025; adopted recreation reference EUR 70,000. Seller asking reference is 30% of that adopted total: EUR 21,000. Hours, allowance, rounding and discount are analyst assumptions; external sources provide method and rate context, not a certified asset value.",
@@ -2336,13 +2846,17 @@
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "assumptionSource": "ANALYST_ENGINEERING_EQUIVALENT_ESTIMATE"
+      "assumptionSource": "ANALYST_ENGINEERING_EQUIVALENT_ESTIMATE",
+      "financialReviewDecision": "RETAIN_REFERENCE_PENDING_DELIVERY_SPECIFIC_REESTIMATE",
+      "financialReviewSource": "assets/valuation-sources.json#TA-IP-106",
+      "costEvidenceStatus": "BASE_AND_INCREMENT_BUDGETS_RECONCILE",
+      "originalFinancialReferenceReviewedAt": "2026-10-13T04:20:04Z"
     }
   ],
-  "assessedAt": "2026-10-13T04:20:04Z",
-  "previousValuationBasisDate": "2026-10-10",
+  "assessedAt": "2026-10-16T07:06:02Z",
+  "previousValuationBasisDate": "2026-10-13",
   "reviewPolicy": "The current repository inventory is checked; the 104 preceding individual financial records retain their source and evidence dates. MIPP is evaluated separately.",
-  "catalogueUpdatedAt": "2026-10-16T06:23:40Z",
+  "catalogueUpdatedAt": "2026-10-16T07:06:02Z",
   "latestSeparateAssetPricing": {
     "assessedAt": "2026-10-09T06:22:41Z",
     "assetCount": 3,
@@ -2409,6 +2923,131 @@
     "boundary": "DARF only: current source, retained exact-commit validation, rights, delivery conditions and seller-side economics. The other 96 asset assessments and monetary inputs retain their earlier dates and conclusions; portfolio totals are recomputed."
   },
   "latestFinancialReassessment": {
+    "assessedAt": "2026-10-16T07:06:02Z",
+    "type": "FULL_PORTFOLIO_MULTISOURCE_REVIEW",
+    "assetsReassessed": 105,
+    "monetaryReferencesChanged": 0,
+    "assetAdditions": 0,
+    "unchangedAssetPrices": 105,
+    "otherAssetRecordsRetained": 0,
+    "unchangedCommercialFactors": true,
+    "softwareMaturityChanged": 0,
+    "assets": [],
+    "previousPortfolio": {
+      "assetCount": 105,
+      "stageCounts": {
+        "developedSoftware": 56,
+        "developedPrototype": 46,
+        "researchStage": 3,
+        "definitionStage": 0
+      },
+      "sellerAskEUR": 24501500,
+      "negotiationLowEUR": 19573900,
+      "negotiationHighEUR": 30706375,
+      "replacementCostEUR": 104385000,
+      "marketComparableProxyEUR": 118772121,
+      "incomeLicensingProxyEUR": 139803493,
+      "probabilityAdjustedStrategicValueEUR": 130640104,
+      "triangulatedEconomicReferenceEUR": 123535413,
+      "sellerAskAsShareOfTriangulated": 0.19833584075199553,
+      "sellerAskAsShareOfReplacementCost": 0.23472242180389902,
+      "pricedAssetCount": 105,
+      "unpricedAssetCount": 0,
+      "monetaryScope": "105 independent software IP assets. MIPP has a first separate v0.1 present-source estimate; all 104 preceding individual prices and cost estimates are unchanged. Thirteen publication repositories are excluded.",
+      "averageTriangulatedEconomicReferencePerPricedAsset": 1176527.7428571428
+    },
+    "currentPortfolio": {
+      "assetCount": 105,
+      "stageCounts": {
+        "developedSoftware": 56,
+        "developedPrototype": 46,
+        "researchStage": 3,
+        "definitionStage": 0
+      },
+      "sellerAskEUR": 24501500,
+      "negotiationLowEUR": 19573900,
+      "negotiationHighEUR": 30706375,
+      "replacementCostEUR": 104385000,
+      "marketComparableProxyEUR": 118772121,
+      "incomeLicensingProxyEUR": 139803493,
+      "probabilityAdjustedStrategicValueEUR": 130640104,
+      "triangulatedEconomicReferenceEUR": 123535413,
+      "sellerAskAsShareOfTriangulated": 0.19833584075199553,
+      "sellerAskAsShareOfReplacementCost": 0.23472242180389902,
+      "pricedAssetCount": 105,
+      "unpricedAssetCount": 0,
+      "monetaryScope": "105 independent project references, reviewed individually on 16 October 2026. Seller asks and cost anchors retained; two publication repositories excluded. No independent market or income valuation established.",
+      "averageTriangulatedEconomicReferencePerPricedAsset": 1176527.7428571428
+    },
+    "sourceRegister": "assets/valuation-sources.json",
+    "costAssumptionsDocument": "docs/MULTISOURCE_VALUATION_REVIEW_2026-10-16.md",
+    "summary": {
+      "projectsReviewed": 105,
+      "uniqueProjectReferences": 105,
+      "monetaryReferencesChanged": 0,
+      "askingReferencesRetained": 105,
+      "recreationAnchorsRetained": 105,
+      "costEvidenceCounts": {
+        "LEGACY_COST_REFERENCE_ONLY": 91,
+        "PARTIAL_WORK_PACKAGE_BASIS": 6,
+        "BASE_AND_INCREMENT_BUDGETS_RECONCILE": 8
+      },
+      "projectsWithDisclosedWorkPackages": 14,
+      "marketTransactionValuationsEstablished": 0,
+      "incomeValuationsEstablished": 0,
+      "independentAppraisalsEstablished": 0,
+      "productTestsExecuted": 0,
+      "projectSites": 105,
+      "publicationRepositoriesExcludedFromValuation": 2
+    },
+    "boundary": "Documentary and financial-reference review of all 105 independent projects using the frozen repository documentation, retained qualification/transfer records, disclosed cost assumptions and external method/rate context. No project tests were rerun. No independent market appraisal, comparable sale or project cash-flow valuation is established. All seller asking references, negotiation ranges, recreation anchors and model factors are retained. Current source scope is not automatically included in an older cost budget; a delivery-specific re-estimate remains required."
+  },
+  "latestIdentityUpdate": {
+    "assessedAt": "2026-10-12T09:21:42Z",
+    "type": "FOUR_SOFTWARE_ADDITIONS_AND_ONE_CONFIRMED_REPOSITORY_RENAME",
+    "previousAssetCount": 100,
+    "currentAssetCount": 104,
+    "otherAssetRecordsRetained": 100,
+    "identifiersReassigned": false,
+    "additions": [
+      {
+        "ref": "TA-IP-102",
+        "title": "Universal Remote Perception Intelligence Platform",
+        "referenceAlias": "Pallas",
+        "repository": "Universal-Remote-Perception-Intelligence-Platform",
+        "sourceHead": "4431fda60af9bd21b90a80df0c4ff21c28769215"
+      },
+      {
+        "ref": "TA-IP-103",
+        "title": "Universal Operations Orchestration & Intelligence Platform",
+        "referenceAlias": "Diana",
+        "repository": "Universal-Operations-Orchestration-Intelligence-Platform",
+        "sourceHead": "2804045108ced5760f1d8db0452d64c54988237e"
+      },
+      {
+        "ref": "TA-IP-104",
+        "title": "Collective Reality Engine",
+        "referenceAlias": "Calliope",
+        "repository": "Collective-Reality-Engine-CRE---Universal-Shared-World-Intelligence-Platform",
+        "sourceHead": "1b6abb67b404a5169875ed260324b1f4642c8e0e"
+      },
+      {
+        "ref": "TA-IP-105",
+        "title": "Mission-to-Execution Engineering Framework",
+        "referenceAlias": "Hestia",
+        "repository": "Mission-to-Execution-Engineering-Framework",
+        "sourceHead": "ee27964574e2a9d0d5d86eb28500337a5800f0ac"
+      }
+    ],
+    "repositoryRename": {
+      "ref": "TA-IP-101",
+      "repository": "Universal-Video-Intelligence-Platform",
+      "sameRepositoryId": true,
+      "newAsset": false
+    },
+    "boundary": "Each new software project is counted once. The confirmed repository rename retains its existing project identifier and reference alias. Withdrawn identifiers are not reused."
+  },
+  "previousFinancialReassessment": {
     "assessedAt": "2026-10-13T04:20:04Z",
     "type": "NEW_ASSET_SOURCE_REVIEW_WITH_EXISTING_RECORDS_PRESERVED",
     "assetsReassessed": 1,
@@ -2478,111 +3117,6 @@
       "averageTriangulatedEconomicReferencePerPricedAsset": 1176527.7428571428
     },
     "boundary": "All 118 repository heads and the README/source inventories of 105 project repositories were checked. Thirteen publication repositories remain excluded from the asset count. MIPP is the only new project. Its 52 frozen Git blobs were verified and 18 local tests, protocol integrity and syntax checks passed. The other 104 project records, individual prices, grades and evidence dates are retained. The newer documented MIPP offline builds have not been source-imported into the repository and were not executed in this review. Inventory review is not full-portfolio test execution, independent appraisal or certification."
-  },
-  "latestIdentityUpdate": {
-    "assessedAt": "2026-10-12T09:21:42Z",
-    "type": "FOUR_SOFTWARE_ADDITIONS_AND_ONE_CONFIRMED_REPOSITORY_RENAME",
-    "previousAssetCount": 100,
-    "currentAssetCount": 104,
-    "otherAssetRecordsRetained": 100,
-    "identifiersReassigned": false,
-    "additions": [
-      {
-        "ref": "TA-IP-102",
-        "title": "Universal Remote Perception Intelligence Platform",
-        "referenceAlias": "Pallas",
-        "repository": "Universal-Remote-Perception-Intelligence-Platform",
-        "sourceHead": "4431fda60af9bd21b90a80df0c4ff21c28769215"
-      },
-      {
-        "ref": "TA-IP-103",
-        "title": "Universal Operations Orchestration & Intelligence Platform",
-        "referenceAlias": "Diana",
-        "repository": "Universal-Operations-Orchestration-Intelligence-Platform",
-        "sourceHead": "2804045108ced5760f1d8db0452d64c54988237e"
-      },
-      {
-        "ref": "TA-IP-104",
-        "title": "Collective Reality Engine",
-        "referenceAlias": "Calliope",
-        "repository": "Collective-Reality-Engine-CRE---Universal-Shared-World-Intelligence-Platform",
-        "sourceHead": "1b6abb67b404a5169875ed260324b1f4642c8e0e"
-      },
-      {
-        "ref": "TA-IP-105",
-        "title": "Mission-to-Execution Engineering Framework",
-        "referenceAlias": "Hestia",
-        "repository": "Mission-to-Execution-Engineering-Framework",
-        "sourceHead": "ee27964574e2a9d0d5d86eb28500337a5800f0ac"
-      }
-    ],
-    "repositoryRename": {
-      "ref": "TA-IP-101",
-      "repository": "Universal-Video-Intelligence-Platform",
-      "sameRepositoryId": true,
-      "newAsset": false
-    },
-    "boundary": "Each new software project is counted once. The confirmed repository rename retains its existing project identifier and reference alias. Withdrawn identifiers are not reused."
-  },
-  "previousFinancialReassessment": {
-    "assessedAt": "2026-10-12T03:40:16Z",
-    "type": "PORTFOLIO_SCOPE_RECONCILIATION",
-    "assetsReassessed": 0,
-    "monetaryReferencesChanged": 0,
-    "assetAdditions": 0,
-    "assetRemovals": 1,
-    "unchangedAssetPrices": 100,
-    "otherAssetRecordsRetained": 100,
-    "unchangedCommercialFactors": true,
-    "softwareMaturityChanged": false,
-    "assets": [],
-    "previousPortfolio": {
-      "assetCount": 101,
-      "stageCounts": {
-        "developedSoftware": 57,
-        "developedPrototype": 41,
-        "researchStage": 3,
-        "definitionStage": 0
-      },
-      "sellerAskEUR": 24993000,
-      "negotiationLowEUR": 19967400,
-      "negotiationHighEUR": 31324500,
-      "replacementCostEUR": 106170000,
-      "marketComparableProxyEUR": 121255675,
-      "incomeLicensingProxyEUR": 142957935,
-      "probabilityAdjustedStrategicValueEUR": 133318554,
-      "triangulatedEconomicReferenceEUR": 126046720,
-      "sellerAskAsShareOfTriangulated": 0.1982836205495867,
-      "sellerAskAsShareOfReplacementCost": 0.23540548177451256,
-      "pricedAssetCount": 101,
-      "unpricedAssetCount": 0,
-      "monetaryScope": "101 independent software IP assets. Three implemented main-branch increments and the new Universal Video Intelligence Platform prototype have current estimates; the other 97 prices retain their individual assessments. Fourteen website/publication repositories are excluded digital displays.",
-      "averageTriangulatedEconomicReferencePerPricedAsset": 1247987.3267326732
-    },
-    "currentPortfolio": {
-      "assetCount": 100,
-      "stageCounts": {
-        "developedSoftware": 56,
-        "developedPrototype": 41,
-        "researchStage": 3,
-        "definitionStage": 0
-      },
-      "sellerAskEUR": 24368000,
-      "negotiationLowEUR": 19467400,
-      "negotiationHighEUR": 30539500,
-      "replacementCostEUR": 103920000,
-      "marketComparableProxyEUR": 118409425,
-      "incomeLicensingProxyEUR": 139464810,
-      "probabilityAdjustedStrategicValueEUR": 130446870,
-      "triangulatedEconomicReferenceEUR": 123211256,
-      "sellerAskAsShareOfTriangulated": 0.19777413842774236,
-      "sellerAskAsShareOfReplacementCost": 0.23448806774441877,
-      "pricedAssetCount": 100,
-      "unpricedAssetCount": 0,
-      "monetaryScope": "100 independently scoped software IP assets with retained individual price, evidence, rights and delivery assessments. The current portfolio totals include only active project records. Website and publication repositories are excluded from the IP-asset count.",
-      "averageTriangulatedEconomicReferencePerPricedAsset": 1232112.56
-    },
-    "boundary": "This publication removes one withdrawn asset from the current portfolio and recalculates the aggregates from the remaining 100 records. Individual identifiers, prices, model assumptions, source versions, evidence dates and readiness criteria are retained. The 26 proposed connections retain 66 unique project members and their existing financial sums. This scope update does not claim new software tests, source qualification or independent valuation."
   },
   "previousRegisterAssessedAt": "2026-10-11T07:01:21Z",
   "previousFullSourceReview": {

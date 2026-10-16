@@ -1,5 +1,11 @@
 # THEARCHITECT_MAX — Private Technology & IP Portfolio
 
+## Complete multisource reference review - 16 October 2026
+
+All 105 projects now have an individual source and financial-reference decision, with current main/development boundaries, original price-basis dates, cost-budget coverage and retained transfer conditions. Eight disclosed budgets reconcile, six are partial and 91 require a complete work budget. Asking references and recreation anchors remain unchanged; no independent market or income valuation is established. Duplicate project-site mentions are removed from profiles, the homepage and display collection. Read [the complete review](docs/MULTISOURCE_VALUATION_REVIEW_2026-10-16.md) and inspect [all 105 decisions](assets/valuation-sources.json).
+
+The directory and financial snapshots below describe preceding publication states.
+
 ## Complete directory update - 16 October 2026
 
 All 107 repositories and 105 project profiles were checked. Three repository renames, the AEGIS Vision product brand, five canonical route migrations, current main versions and separate development candidates are synchronized with all 105 displays, briefs and factsheets. Existing individual prices, qualifications and stable TA-IP references retain their dated scope. Read [the current update](docs/PORTFOLIO_UPDATE_2026-10-16.md).
