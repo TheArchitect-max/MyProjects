@@ -1,0 +1,57 @@
+{
+  "result": "PASS",
+  "verifiedAt": "2026-10-16T08:10:16Z",
+  "contentCommit": "61052f0ed1b5b22619f91e7eddccc8ebc233fd6b",
+  "displaySourceCommit": "55e9206772ec4869d8b11e2bd963f4fb4fa644f8",
+  "pagesRun": {
+    "id": 38871330949,
+    "conclusion": "success"
+  },
+  "valuationURL": "https://thearchitect-max.github.io/MyProjects/valuation.html",
+  "visibleIncrementRows": 9,
+  "askingReferenceChangeEUR": 146000,
+  "recreationIncrementEUR": 645000,
+  "publicRegisterReconciled": true,
+  "profileSamples": [
+    {
+      "ref": "TA-IP-001",
+      "askEUR": 61000,
+      "recreationEUR": 540000,
+      "pricedVersion": "0.6.3",
+      "scope": "unmerged development snapshot",
+      "displayLinks": 1,
+      "budgetRows": 3
+    },
+    {
+      "ref": "TA-IP-005",
+      "askEUR": 169000,
+      "recreationEUR": 900000,
+      "pricedVersion": "6.4.0",
+      "scope": "unmerged development snapshot",
+      "displayLinks": 1,
+      "budgetRows": 3
+    },
+    {
+      "ref": "TA-IP-016",
+      "askEUR": 150000,
+      "recreationEUR": 500000,
+      "pricedVersion": "1.23.0",
+      "scope": "default branch",
+      "displayLinks": 1,
+      "budgetRows": 3
+    }
+  ],
+  "displaySample": {
+    "ref": "TA-IP-005",
+    "askEUR": 169000,
+    "reviewScopeVisible": true
+  },
+  "collection": {
+    "displayLinks": 105,
+    "uniqueReferences": 105,
+    "uniqueURLs": 105
+  },
+  "marketValueIncreaseEstablished": false,
+  "productTestsRerunByPricingReview": 0,
+  "boundary": "Live cloud Chrome DOM checks of published informational pages. Separate from retained product qualification and the earlier offline financial/PDF validations."
+}
