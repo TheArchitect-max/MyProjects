@@ -2,7 +2,7 @@
 
 TA-IP-003 | Reference alias: Ariadne | Industrial Reliability & Digital Twins
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Compare resilience scenarios for your distributed systems and study how defensive responses affect the simulation.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed software. Reference baseline: 1.3.0.
+Current main baseline: 1.3.0.
 
-The current asset is an engineering simulation platform. Operational deployment requires environment-specific calibration and acceptance.
+Available software for evaluation against your intended use. Deployment suitability is assessed separately.
 
-Next qualification step: Calibrate representative service scenarios before operational use.
+Material limitations: The current asset is an engineering simulation platform. Operational deployment requires environment-specific calibration and acceptance.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

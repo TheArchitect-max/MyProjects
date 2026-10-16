@@ -1,10 +1,10 @@
-# OSSN-UAP
+# Modular Aerospace Research Platform
 
 TA-IP-001 | Reference alias: Stella | Scientific Observation & Domain Research
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
-Organise your aerial observations and review the evidence and uncertainty surrounding each report.
+Turn aerospace observations into replayable research cases, compare declared evidence and keep uncertainty visible.
 
 ## Product overview
 
@@ -34,19 +34,17 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Prototype. Reference baseline: 0.1.0.
+Current main baseline: 0.1.0.
 
-An unexplained event is not proof of an extraordinary origin. Physical hardware and representative field accuracy remain separately qualified.
+Separate development: 0.6.3 — unmerged STELLA research foundation.
 
-Next qualification step: Qualify a bounded observation campaign on the agreed delivery.
+Main retains the 0.1.0 baseline. The separate 0.6.3 STELLA candidate adds offline sensor processing, calibrated geometry, replayable evidence comparison and retained actual NOAA context. Its build report records 1,043 tests and independent validation of 96 schemas; these are source-bound repository results, not executions by this website review. Field accuracy, cross-modality fusion and mission qualification remain open.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
+Material limitations: Representative hardware, calibrated field accuracy and general cross-modality fusion are not qualified. NOAA archive context does not by itself validate a reconstructed physical event.
 
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Next qualification step: Complete the remaining S-014 comparison/fusion work and qualify representative calibrated field observations; keep the development candidate separate from main.
 
-## Recorded separate development
-
-A later observation-research candidate is recorded separately from the established baseline. Field qualification and acceptance remain distinct.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

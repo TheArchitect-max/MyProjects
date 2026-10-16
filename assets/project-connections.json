@@ -1,7 +1,7 @@
 {
   "version": "2026.10.13-im70-repository-inventory-and-mipp",
   "publishedAt": "2026-10-13T04:20:04Z",
-  "sourceDocumentationReviewedAt": "2026-10-13T04:20:04Z",
+  "sourceDocumentationReviewedAt": "2026-10-16T06:23:40Z",
   "priceBasisDate": "2026-10-13",
   "portfolioAssetCount": 105,
   "currency": "EUR",
@@ -22,7 +22,7 @@
   "sourceDocumentation": [
     {
       "ref": "TA-IP-001",
-      "repository": "OSSN-UAP",
+      "repository": "Modular-Aerospace-Research-Platform",
       "path": "README.md",
       "blobSha": "046875bb88930723af4ae04763c2d6840bb9a8ce",
       "sourceHead": "d43cf19d3b12ba6452f945aab1a5ea64deac7901",
@@ -54,9 +54,9 @@
     },
     {
       "ref": "TA-IP-005",
-      "repository": "SourceVector-Intelligence-Platform",
+      "repository": "Evidence-Intelligence-Operations-Platform",
       "path": "README.md",
-      "blobSha": "9ad821961acde3b0def0727a82c92d95e1de1514",
+      "blobSha": "c2e2d2a20ff6bb0cecbdd8342ca89841562b287f",
       "sourceHead": "620213d30f3aa50120a29693d6871eb932bf4251",
       "reviewedAt": "2026-10-13T04:20:04Z"
     },
@@ -96,7 +96,7 @@
       "ref": "TA-IP-012",
       "repository": "Evidence-Governed-Visual-Intelligence-Platform",
       "path": "README.md",
-      "blobSha": "c9b064d038adeca68183812045c956afdfa4d2b7",
+      "blobSha": "b428d6768514ddd853f2ffcb562764e4f448be34",
       "sourceHead": "b99e5047c59eacd229f1807de989236d1ffcea73",
       "reviewedAt": "2026-10-13T04:20:04Z"
     },
@@ -120,7 +120,7 @@
       "ref": "TA-IP-016",
       "repository": "Signal-Processing-Universal-Framework",
       "path": "README.md",
-      "blobSha": "68e4042caac67bccd1267f2c76d6eae000c8e015",
+      "blobSha": "8bebf32085b1b3f6091f4c230a7101b23bb553fa",
       "sourceHead": "8a115c904955797155b6463fd2cda415899223d3",
       "reviewedAt": "2026-10-13T04:20:04Z"
     },
@@ -144,7 +144,7 @@
       "ref": "TA-IP-020",
       "repository": "Machine-Cognition-Research-Framework",
       "path": "README.md",
-      "blobSha": "d2dd22fefba4114c16cba65bef881d522f352173",
+      "blobSha": "8562b0baa8795f1ff8e4133fa7ac36f83fcf13fb",
       "sourceHead": "8cb56a1a8e52f9c82f6471eab888662561dbc935",
       "reviewedAt": "2026-10-13T04:20:04Z"
     },
@@ -248,7 +248,7 @@
       "ref": "TA-IP-038",
       "repository": "Integrated-Media-Production-Engine",
       "path": "README.md",
-      "blobSha": "331e0a610020b3989e5b407ff77bd7872849b535",
+      "blobSha": "4a89b646251e8916ddba5ae5e2d1ee2c81ef304e",
       "sourceHead": "c72ab4961955b81c0932e16fcd3e94a5f943d894",
       "reviewedAt": "2026-10-13T04:20:04Z"
     },
@@ -288,7 +288,7 @@
       "ref": "TA-IP-046",
       "repository": "SonicFabric",
       "path": "README.md",
-      "blobSha": "89b8e47789868d7c4d28a7a2a5103bbe42fd89d8",
+      "blobSha": "585b8c76c80a979925e2fae30e47883554843260",
       "sourceHead": "cdfc7df5dba46500fb9ed00d7c1476431d9a679d",
       "reviewedAt": "2026-10-13T04:20:04Z"
     },
@@ -496,7 +496,7 @@
       "ref": "TA-IP-081",
       "repository": "SWPP-VIORITH-Mobile-Camera-Overlay-",
       "path": "README.md",
-      "blobSha": "8207907c668ee3421331256c9a93076338016d19",
+      "blobSha": "2e11b8ed48cb79b0796458aee209c702103ca32b",
       "sourceHead": "de02892ac9ed9cbd27adc0f1ec4ecbf92896ea34",
       "reviewedAt": "2026-10-13T04:20:04Z"
     },
@@ -504,7 +504,7 @@
       "ref": "TA-IP-082",
       "repository": "Distributed-Compute-Fabric",
       "path": "README.md",
-      "blobSha": "72604710991e95583e2fdbad9e8da615188bdecd",
+      "blobSha": "152968e85dedc0fd4815c951e98aaa4c5aee2268",
       "sourceHead": "7810d2175bac7adc8ac4232d21dd6efbcf5bf198",
       "reviewedAt": "2026-10-13T04:20:04Z"
     },
@@ -1631,7 +1631,7 @@
       "members": [
         {
           "ref": "TA-IP-001",
-          "slug": "ossn-uap",
+          "slug": "modular-aerospace-research-platform",
           "role": "Process bounded optical observations in a separately qualified development candidate."
         },
         {
@@ -1702,7 +1702,7 @@
         },
         {
           "ref": "TA-IP-005",
-          "slug": "omnisynth-intelligence-engine",
+          "slug": "evidence-intelligence-operations-platform",
           "role": "Retain supplied evidence, compare changes and route documented review decisions."
         }
       ],
@@ -1772,7 +1772,7 @@
         },
         {
           "ref": "TA-IP-083",
-          "slug": "plantelogia-intelligence-platform",
+          "slug": "adaptive-systems-intelligence-platform",
           "role": "Apply an agreed domain pack to supplied evidence, obligations and reviewer authority."
         }
       ],
@@ -1827,7 +1827,7 @@
     ],
     "boundary": "Launch & Cislunar Transportation Engineering Platform is the separately scoped launch and cislunar transport module for FusionLunar studies. The documented demand/result interface supports the relationship; this update does not establish a new shared runtime, completed end-to-end integration or flight-qualified transport. Both projects retain their own asset identity, price and transfer scope."
   },
-  "catalogueUpdatedAt": "2026-10-13T05:07:05Z",
+  "catalogueUpdatedAt": "2026-10-16T06:23:40Z",
   "latestPortfolioScopeUpdate": {
     "publishedAt": "2026-10-13T05:07:05Z",
     "type": "DISPLAY_DIRECTORY_REMOVAL",

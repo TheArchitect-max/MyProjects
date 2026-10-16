@@ -2,7 +2,7 @@
 
 TA-IP-072 | Reference alias: Jocelyn | Scientific Observation & Domain Research
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Review telescope signals, compare findings and assess whether candidate observations withstand further scrutiny.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed software. Reference baseline: 7.17.0.
+Current main baseline: 7.17.0.
 
-Candidate screening does not establish extraterrestrial origin. Consolidation into the complete delivery record remains unfinished.
+Available software for evaluation against your intended use. Deployment suitability is assessed separately.
 
-Next qualification step: Close delivery completeness and qualify the selected observation campaign.
+Material limitations: Candidate screening does not establish extraterrestrial origin. Consolidation into the complete delivery record remains unfinished.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

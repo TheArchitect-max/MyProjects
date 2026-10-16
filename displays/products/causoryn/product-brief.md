@@ -2,7 +2,7 @@
 
 TA-IP-097 | Reference alias: Vespera | Industrial Reliability & Digital Twins
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Explore how changes could affect interconnected systems, compare alternative scenarios and review the recorded outcomes.
 
@@ -34,15 +34,15 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Locally tested development prototype. Reference baseline: v0.6.0.
+Current main baseline: v0.6.0.
 
-The implementation does not establish physical equivalence, live sensing or autonomous optimisation. Distributed coupling remains future work.
+Compare connected-system scenarios and review recorded observations with the locally tested prototype. Check its documented limitations and incomplete acquisition handover against your intended use.
 
-Next qualification step: Qualify representative connected-system models and observations.
+Material limitations: The implementation does not establish physical equivalence, live sensing or autonomous optimisation. Distributed coupling remains future work.
 
-Retained seller handover status: Handover evidence incomplete; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
+Next qualification step: Complete and freeze the acquisition evidence, rights and release-specific handover scope; separately qualify the intended domain.
 
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

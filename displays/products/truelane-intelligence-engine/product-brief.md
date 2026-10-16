@@ -2,7 +2,7 @@
 
 TA-IP-013 | Reference alias: Thalia | Adaptive Intelligence & Cognition
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Compare AI training studies, resume reviewed experiments and assess model candidates using retained evidence.
 
@@ -34,15 +34,15 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed software. Reference baseline: 5.8.0-alpha.1.
+Current main baseline: 5.8.0-alpha.1.
 
-Frontier performance is a research objective. Current software and retained studies do not establish general AI superiority.
+Compare the current model-adaptation workflow with retained earlier training evidence. The new first-party adaptation software is implemented. Earlier GPU and Drive-resume records remain bounded to v5.6/v5.7; external v5.8 adapter qualification remains open.
 
-Next qualification step: Evaluate the agreed present model-management scope on reproducible tasks.
+Material limitations: Frontier performance is a research objective. Current software and retained studies do not establish general AI superiority.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
+Next qualification step: Larger reviewed model/data experiments and independent task benchmarks for your intended use.
 
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

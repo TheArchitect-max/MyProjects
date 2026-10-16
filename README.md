@@ -1,5 +1,11 @@
 # THEARCHITECT_MAX — Private Technology & IP Portfolio
 
+## Complete directory update - 16 October 2026
+
+All 107 repositories and 105 project profiles were checked. Three repository renames, the AEGIS Vision product brand, five canonical route migrations, current main versions and separate development candidates are synchronized with all 105 displays, briefs and factsheets. Existing individual prices, qualifications and stable TA-IP references retain their dated scope. Read [the current update](docs/PORTFOLIO_UPDATE_2026-10-16.md).
+
+The dated records below describe earlier publication states.
+
 ## Universal Video Intelligence Platform - 14 October 2026
 
 TA-IP-101 / Ophelia now distinguishes the current v0.9.8 main from the unmerged v0.9.9 candidate. R28 records a source-pinned, user-operated live YouTube PASS for five scenarios in each official Chrome and Edge browser; accessibility, privacy, security, performance and durability gates remain open. The profile, display, factsheet and source register are refreshed. Existing price references and assurance grades are retained. Read [the dated status update](docs/UVIP_PROJECT_STATUS_UPDATE_2026-10-14.md).

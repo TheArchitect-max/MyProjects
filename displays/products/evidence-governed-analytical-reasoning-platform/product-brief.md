@@ -2,7 +2,7 @@
 
 TA-IP-062 | Reference alias: Thea | Evidence & Intelligence Systems
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Review the evidence behind an analysis, see its uncertainties and reach a more accountable conclusion.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed software. Reference baseline: 0.5.0.
+Current main baseline: 0.5.0.
 
-The asset supports bounded analysis rather than acting as a legal or forensic authority. Conclusions remain limited by supplied evidence.
+Available software for evaluation against your intended use. Deployment suitability is assessed separately.
 
-Next qualification step: Qualify representative cases with an accountable human review process.
+Material limitations: The asset supports bounded analysis rather than acting as a legal or forensic authority. Conclusions remain limited by supplied evidence.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

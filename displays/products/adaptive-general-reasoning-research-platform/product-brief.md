@@ -2,7 +2,7 @@
 
 TA-IP-064 | Reference alias: Athena | Adaptive Intelligence & Cognition
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Compare reasoning approaches in repeatable experiments and assess which results your evidence supports.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Research-stage. Reference baseline: 1.52.0.
+Current main baseline: 1.52.0.
 
-Bounded software tests and research outcomes do not establish general intelligence. Broader capability claims require independent comparisons.
+Experimental research software; scientific conclusions require separate evidence.
 
-Next qualification step: Complete declared matched reasoning experiments and review generalisation limits.
+Material limitations: Bounded software tests and research outcomes do not establish general intelligence. Broader capability claims require independent comparisons.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

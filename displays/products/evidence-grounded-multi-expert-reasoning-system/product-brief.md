@@ -2,7 +2,7 @@
 
 TA-IP-053 | Reference alias: Eleanor | Evidence & Intelligence Systems
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Compare multiple perspectives on a complex question and inspect the evidence behind their conclusions.
 
@@ -34,19 +34,15 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed software. Reference baseline: 1.7.0.
+Current main baseline: 1.7.0.
 
-General AI or human-expert superiority remains a research objective. The established release demonstrates an engineering framework.
+Separate development: 1.8.0 capability-study candidate.
 
-Next qualification step: Execute matched independent reasoning studies under declared acceptance criteria.
+Use the validated v1.7.0 release as the current evidence baseline. The newer v1.8.0 candidate has completed static review and awaits full runtime and distribution validation.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
+Material limitations: General AI or human-expert superiority remains a research objective. The established release demonstrates an engineering framework.
 
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
-
-## Recorded separate development
-
-A later capability-study candidate is recorded separately. Comparative superiority remains a research objective until the declared independent evaluations support it.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

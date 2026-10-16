@@ -2,7 +2,7 @@
 
 TA-IP-098 | Reference alias: Octavia | Software Assurance, Provenance & Control
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Inspect a software project, review its recorded evidence and limitations, and prepare a documented package for an acquisition review.
 
@@ -34,19 +34,17 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Locally tested software-inspection prototype. Reference baseline: v0.1.0.
+Current main baseline: v0.1.0.
 
-Ingested software is inspected rather than executed. Hosted accounts, live jobs and the required private SaaS remain development work.
+Separate development: v0.2 internal service-control foundation; unmerged.
 
-Next qualification step: Qualify the agreed local inspection scope and separately complete the private service product.
+Evaluate the existing v0.1 local software-inspection engine. A newer unmerged draft adds internal service-control records, but authentication, hosted storage, live jobs and billing remain unfinished. Current prices cover the local engine; no deployed private SaaS is claimed.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
+Material limitations: Ingested software is inspected rather than executed. Hosted accounts, live jobs and the required private SaaS remain development work.
 
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Next qualification step: An accepted private SaaS workflow remains required. Current acquisition covers the local engine; its agreed delivery manifest, component obligations and recipient acceptance remain open.
 
-## Recorded separate development
-
-The required private service product remains under development. A separate draft adds service-control records; hosted accounts, live processing and billing are unfinished.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

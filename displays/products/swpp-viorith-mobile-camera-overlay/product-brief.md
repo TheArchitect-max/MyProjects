@@ -2,7 +2,7 @@
 
 TA-IP-081 | Reference alias: Violet | Visual, Spatial & Multimodal Systems
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Explore camera overlays and review captured observations for your mobile perception workflows.
 
@@ -34,15 +34,15 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed software. Reference baseline: 0.5.0.
+Current main baseline: 0.7.0.
 
-This is a distinct mobile product surface. Device-specific perception accuracy and commercial hardware acceptance remain separately qualified.
+The 0.7.0 source adds semantic-provider and dataset evaluation with strict label, frame-count and scope checks. The README records 30 targeted local checks and JavaScript syntax checks; those do not establish general scene understanding, broad device coverage or independent semantic accuracy.
 
-Next qualification step: Validate representative supported phones and selected camera workflows.
+Material limitations: A targeted supplied-dataset gate does not establish broad semantic accuracy or representative camera/device coverage.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
+Next qualification step: Qualify the selected semantic provider and representative licensed dataset on the intended camera/browser/device combination.
 
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

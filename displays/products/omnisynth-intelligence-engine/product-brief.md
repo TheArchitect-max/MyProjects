@@ -1,10 +1,10 @@
-# SourceVector Intelligence Platform
+# Evidence Intelligence Operations Platform
 
 TA-IP-005 | Reference alias: Sophie | Adaptive Intelligence & Cognition
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
-Bring information from several sources together and review the reasoning behind a complex decision.
+Collect authorized source material, track evidence and changes, and prepare traceable intelligence dossiers and delivery bundles.
 
 ## Product overview
 
@@ -34,15 +34,17 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed prototype. Reference baseline: 5.9.0.
+Current main baseline: 6.3.0.
 
-Priority classifications are policy choices rather than calibrated probabilities. Generated report text is kept separate from source evidence.
+Separate development: 6.4.0 — unmerged authorized-document connector candidate.
 
-Next qualification step: Qualify representative source feeds and operator review workflows.
+Main is 6.3.0. The separate 6.4.0 candidate adds explicitly authorized, bounded local-document collection and verifiable collection receipts. Its retained report records 54 command gates and 192 tests across six installed environments. Historical 6.0.0 and 6.3.0 failures remain failures; repaired 6.3.1/6.3.2 evidence is retained separately. This publication did not rerun those product gates.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
+Material limitations: Authorized local-file collection has a bounded platform and policy scope. Historical failed releases are not promoted to PASS, and live external-provider ingestion requires separate qualification.
 
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Next qualification step: Review the exact candidate and delivery manifest; qualify controlled read-only HTTPS/API ingestion and each additional operating-system or provider boundary separately.
+
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

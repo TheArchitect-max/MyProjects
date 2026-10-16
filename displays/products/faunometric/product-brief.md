@@ -2,7 +2,7 @@
 
 TA-IP-006 | Reference alias: Fauna | Scientific Observation & Domain Research
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Classify recorded sounds for your bioacoustic studies and compare results across repeatable evaluations.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed software. Reference baseline: 5.7.0.
+Current main baseline: 5.7.0.
 
-The established validation and newer development have separate evidence boundaries. Classification does not establish animal meaning or field-wide accuracy.
+The latest build requires fresh validation; the earlier validated baseline remains available for review.
 
-Next qualification step: Requalify the selected current release on representative lawful recordings.
+Material limitations: The established validation and newer development have separate evidence boundaries. Classification does not establish animal meaning or field-wide accuracy.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

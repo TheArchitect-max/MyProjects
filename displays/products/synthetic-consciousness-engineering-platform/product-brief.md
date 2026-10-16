@@ -2,7 +2,7 @@
 
 TA-IP-100 | Reference alias: Elysia | Adaptive Intelligence & Cognition
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Explore controlled simulations of adaptive behaviour and compare recorded experiments to assess questions for further research.
 
@@ -34,19 +34,17 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Locally tested experimental research prototype. Reference baseline: v0.4.0.dev0.
+Current main baseline: v0.4.0.dev0.
 
-Subjective experience and consciousness are not established. Retained historical claims are separate from reproduced runtime evidence.
+Separate development: v0.4 resumable research controller (merged).
 
-Next qualification step: Reproduce the selected campaign and review its scientific interpretation independently.
+Compare repeatable research studies and resume controlled experiments with the current v0.4 software. All 29 local tests pass. The recorded archive now includes all 20 checkpoint manifests and 152 binary parts; this review did not restore or numerically replay that archive. Consciousness and completion of the planned larger GPU campaign remain unestablished.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
+Material limitations: Subjective experience and consciousness are not established. Retained historical claims are separate from reproduced runtime evidence.
 
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Next qualification step: Evidence a reproducible release, agreed component and rights boundaries, use-specific qualification and recipient acceptance of the defined software package.
 
-## Recorded separate development
-
-The documented research-controller work supports campaign continuation. It does not establish consciousness or change the scientific evidence boundary.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

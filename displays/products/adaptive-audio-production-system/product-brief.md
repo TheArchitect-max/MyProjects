@@ -2,7 +2,7 @@
 
 TA-IP-060 | Reference alias: Melody | Audio & Media Creation
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Analyse, process and master your audio in one workflow, with quality checks to help you review the result.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed prototype. Reference baseline: 0.1.0.
+Current main baseline: 0.1.0.
 
-The implemented foundation is narrower than the complete product vision. Optional processing capabilities require separate qualification.
+An implemented prototype for evaluation and further development.
 
-Next qualification step: Evaluate representative lawful recordings and agreed output quality targets.
+Material limitations: The implemented foundation is narrower than the complete product vision. Optional processing capabilities require separate qualification.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

@@ -2,7 +2,7 @@
 
 TA-IP-004 | Reference alias: Elena | Industrial Reliability & Digital Twins
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Review changes in your system, check whether its state remains consistent and follow its operational history.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed software. Reference baseline: 2.4.1.
+Current main baseline: 2.4.1.
 
-Its evidence concerns software state and controlled research scenarios. Real containment actions depend on separately governed external operation.
+Available software for evaluation against your intended use. Deployment suitability is assessed separately.
 
-Next qualification step: Verify the agreed state-history workflow and handover scope.
+Material limitations: Its evidence concerns software state and controlled research scenarios. Real containment actions depend on separately governed external operation.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

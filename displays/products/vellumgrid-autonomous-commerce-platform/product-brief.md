@@ -2,7 +2,7 @@
 
 TA-IP-087 | Reference alias: Vivienne | Enterprise, Web & Commerce Systems
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Organise digital-product creation and fulfilment, and review the operational and financial evidence for your commerce workflow.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed software. Reference baseline: 0.7.6.dev0.
+Current main baseline: 0.7.6.dev0.
 
-Live store operation and measured profitability are not established. External platform services and buyer commercial operation remain separate.
+A newer development build is in progress. Live commercial performance and profitability remain unestablished.
 
-Next qualification step: Qualify a lawful product range and the intended commercial delivery process.
+Material limitations: Live store operation and measured profitability are not established. External platform services and buyer commercial operation remain separate.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

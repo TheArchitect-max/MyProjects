@@ -2,7 +2,7 @@
 
 TA-IP-046 | Reference alias: Harmonia | Audio & Media Creation
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Organise music-generation projects, manage your creations and review provider choices for your audio product.
 
@@ -34,19 +34,15 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed software. Reference baseline: 0.2.0a32.
+Current main baseline: 0.2.0a33.
 
-The original product layer is distinct from external generation assets. A running commercial music business is not included by default.
+Separate development: 0.2.0a34 — unmerged evidence-selected provider routing.
 
-Next qualification step: Qualify the selected generation service, rights and commercial delivery workflow.
+Main includes the merged A33 bounded generation controls. A34 remains an open provider-routing candidate that selects from qualified provider evidence. Actual provider/model rights, hardware behavior and commercial operation stay subject to the separately qualified configuration.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
+Material limitations: Provider routing is a separate A34 candidate. Model licenses, measured generation quality, hardware acceptance and production commercial operation remain separately qualified.
 
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
-
-## Recorded separate development
-
-A newer product candidate is recorded separately from the established release. Its added functions require their own qualification before inclusion in an accepted delivery.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

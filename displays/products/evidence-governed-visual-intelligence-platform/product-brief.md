@@ -1,8 +1,8 @@
-# Evidence-Governed Visual Intelligence Platform
+# AEGIS Vision — Evidence-Governed Visual Intelligence Platform
 
 TA-IP-012 | Reference alias: Helena | Visual, Spatial & Multimodal Systems
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Examine visual material, compare interpretations and follow the evidence supporting your review.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed software. Reference baseline: 2.7.0.
+Current main baseline: 2.9.0.
 
-Interpretation and evidence integrity do not establish factual truth. No regulatory or evidentiary certification is represented.
+AEGIS Vision 2.9.0 adds post-release change assessment and requalification governance to its visual-evidence, provider-comparison and release-evidence workflow. The repository defines offline deterministic gates; this catalogue did not execute them. Actual provider/model performance, deployment and independent certification remain separately qualified.
 
-Next qualification step: Evaluate representative permitted images against declared acceptance criteria.
+Material limitations: Interpretation and evidence integrity do not establish factual truth. No regulatory or evidentiary certification is represented.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

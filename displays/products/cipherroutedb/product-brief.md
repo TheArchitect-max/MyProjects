@@ -2,7 +2,7 @@
 
 TA-IP-041 | Reference alias: Vera | Security, Identity & Traceability
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Explore privacy-conscious ways to route and access information in controlled research settings.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed prototype. Reference baseline: 0.3.16.
+Current main baseline: 0.3.16.
 
-The unresolved confidential-access boundary is not presented as solved. The current research primitives are not production security assurance.
+An implemented prototype for evaluation and further development.
 
-Next qualification step: Independently assess the declared privacy boundary and representative threat assumptions.
+Material limitations: The unresolved confidential-access boundary is not presented as solved. The current research primitives are not production security assurance.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

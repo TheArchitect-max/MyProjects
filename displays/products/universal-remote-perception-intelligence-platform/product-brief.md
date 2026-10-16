@@ -2,7 +2,7 @@
 
 TA-IP-102 | Reference alias: Pallas | Scientific Observation & Domain Research
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Plan controlled perception studies, preserve blind-study records and review what the recorded results can support.
 
@@ -34,19 +34,17 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed prototype. Reference baseline: 0.4.0.
+Current main baseline: 0.4.0.
 
-Physical sensing hardware is not built. Sensor-free remote perception is not an established capability; transfer conditions remain open.
+Separate development: P1.2 — unmerged conformance and recovery candidate.
 
-Next qualification step: Resolve rights and provenance conditions, then qualify a representative physical study.
+Use the current offline research prototype to prepare controlled studies and review recorded results. Main passed 52 local tests; the separate unmerged candidate passed 91 tests and its software preflight. The project's own commercial transfer gate remains blocked by unresolved rights and provenance documentation. Physical sensing and sensor-free remote perception are not established.
 
-Retained seller handover status: Handover evidence incomplete; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
+Material limitations: Physical sensing hardware is not built. Sensor-free remote perception is not an established capability; transfer conditions remain open.
 
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Next qualification step: Resolve the expressly reported BLOCKED commercial transfer gate: reconcile component origin records, first-party rights and the documented ownership evidence before handover.
 
-## Recorded separate development
-
-A separate candidate extends conformance and recovery review. It does not establish physical sensing or close the documented transfer conditions.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

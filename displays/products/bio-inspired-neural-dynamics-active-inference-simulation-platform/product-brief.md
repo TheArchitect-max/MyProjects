@@ -2,7 +2,7 @@
 
 TA-IP-077 | Reference alias: Iona | Scientific Observation & Domain Research
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Study brain-inspired learning and behaviour through repeatable computational experiments.
 
@@ -34,19 +34,15 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed software. Reference baseline: 2.2.0.
+Current main baseline: 2.2.0.
 
-The project does not establish biological-brain equivalence or clinical validity. Candidate research and retained validation remain separate.
+Separate development: 2.2.0 hardened draft candidate.
 
-Next qualification step: Complete the declared candidate qualification and independent scientific review.
+Use the retained v2.1.0 validated research baseline and review the newer v2.2.0 candidate separately. Full candidate validation remains outstanding.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
+Material limitations: The project does not establish biological-brain equivalence or clinical validity. Candidate research and retained validation remain separate.
 
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
-
-## Recorded separate development
-
-Later robustness and failure-boundary research is recorded as candidate work. Its final release qualification is separate from the retained evidence.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

@@ -1,22 +1,22 @@
-# TrueLane Flora
+# Plant Environment Decision Intelligence Platform
 
 TA-IP-008 | Reference alias: Florence | Specialist Vertical Software
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
-Assess plant suitability for your environment and plan gardening work with explainable recommendations.
+Assess plants against site conditions, manage versioned planting plans and compare the evidence behind retained assessment results.
 
 ## Product overview
 
-A gardening decision-support asset for explainable plant suitability and practical planning.
+A plant-environment decision workbench for site suitability, versioned planting plans and evidence-backed comparison of retained assessments.
 
 ## Documented functions
 
-- Assess plant suitability
-- Consider location and soil conditions
-- Review relevant weather context
-- Explain viability decisions
-- Prepare practical gardening directives
+- Assess several candidate species against one site
+- Manage owner-scoped projects, sites and planting zones
+- Retain versioned planting-plan scenarios
+- Export assessment inputs, results and integrity records
+- Compare retained scenarios and explain material differences
 
 ## Potential buyers
 
@@ -34,15 +34,15 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed software. Reference baseline: Version confirmed with the agreed delivery.
+Current main baseline: Retained assessment-comparison build.
 
-Bundled botanical and spatial records are development fixtures. Global coverage and horticultural field validation are not established.
+The current source provides bounded multi-species site assessment, owner-scoped projects, sites and zones, versioned plan scenarios, retained assessment exports and read-only scenario comparison. The comparison report records 112 Go tests, seven Python regressions and 376 file-runtime checks. Earlier native PostgreSQL evidence applies to earlier retained-evidence source; the new comparison backend still needs its own native qualification. Regional data, live weather and deployment acceptance remain separate.
 
-Next qualification step: Qualify botanical records and recommendations for the buyer's target region.
+Material limitations: Botanical and spatial data coverage, real weather behavior and horticultural field accuracy need region-specific acceptance. The new comparison route is not covered by the earlier native database campaign.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
+Next qualification step: Run the exact comparison build against native PostgreSQL, then qualify regional botanical/spatial data, authorized weather behavior and the intended deployment.
 
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

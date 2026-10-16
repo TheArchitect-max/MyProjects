@@ -2,7 +2,7 @@
 
 TA-IP-052 | Reference alias: Viola | Visual, Spatial & Multimodal Systems
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Compare perception results across different types of input and review the evidence behind each interpretation.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed software. Reference baseline: 35.0.0.
+Current main baseline: 35.0.0.
 
-Research proxies are separate from full biological behaviour. Independent quantitative and complete-mode qualification remain open.
+Evaluate the completed v35.0.0 software release for your intended workflow. Research evidence is feature-specific and does not establish biological equivalence.
 
-Next qualification step: Complete the declared independent comparisons before making broader scientific claims.
+Material limitations: Research proxies are separate from full biological behaviour. Independent quantitative and complete-mode qualification remain open.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

@@ -2,7 +2,7 @@
 
 TA-IP-022 | Reference alias: Freya | Software Assurance, Provenance & Control
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Coordinate AI work across your available computers, oversee active workloads and review capacity and recovery decisions.
 
@@ -34,19 +34,17 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed software. Reference baseline: 0.19.0.
+Current main baseline: 0.19.0.
 
-Single-device evidence does not establish every multi-host scenario. Hardware, external model rights and production operation are separately scoped.
+Separate development: 0.24.0 unmerged draft; physical campaign preflight unsuccessful.
 
-Next qualification step: Qualify the agreed hardware configuration and unresolved execution campaign.
+Evaluate the v0.19 main software and the retained v0.24 draft separately. The newer hardware-campaign record documents a failed inventory preflight, not multi-GPU execution. The retained 375-test and single-T4 results remain version-specific. Physical multi-GPU, two-host recovery and live containment gates remain open; prices are retained.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
+Material limitations: Single-device evidence does not establish every multi-host scenario. Hardware, external model rights and production operation are separately scoped.
 
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Next qualification step: Real model execution across two physical GPUs, then two independent hosts, plus live operating-system containment on an authorised host.
 
-## Recorded separate development
-
-A newer unmerged draft and physical qualification campaign remain separate from the present priced asset. Multi-device and post-failure acceptance still need representative evidence.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

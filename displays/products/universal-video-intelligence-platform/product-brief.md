@@ -35,21 +35,17 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed prototype. Reference baseline: v0.9.8 main; v0.9.9 development candidate / R28 limited live-browser PASS.
+Current main baseline: 0.9.8.
 
-R28: 5/5 scenarios PASS in official Google Chrome and 5/5 in official Microsoft Edge on live YouTube, plus 12/12 offline contracts. This is source-pinned, user-operated/self-reported acceptance; the full browser reports were not independently inspected or replayed for this catalogue review. No third-party attestation is claimed.
+Separate development: 0.9.9 / R31 — offline keyboard checks; live shortcut acceptance pending.
 
-R28 records a limited live YouTube PASS in official Chrome and Edge: five user-operated scenarios per browser, on a pinned development source. This does not establish full browser coverage, screen-reader accessibility, audited privacy/security, measured performance or crash/disk durability. The v0.9.9 candidate is unmerged and has no production release approval.
+Main remains 0.9.8. The unmerged 0.9.9 candidate records source-specific R30 live acceptance in official Chrome and Edge, followed by R31 opt-in quick keyboard access. The R31 Windows offline record reports 310 Node passes, two symlink-related skips, eight keyboard tests passed and 84 R30 Python regressions passed. Actual R31 shortcut acceptance in both browsers remains pending; prior browser passes do not qualify the new feature.
 
-Next qualification step: Complete hands-on keyboard and screen-reader accessibility, privacy/network/storage review, security and dependency review, measured Chrome/Edge performance and reliability, and crash/disk durability checks where required; agree the exact delivery manifest and buyer acceptance separately.
+Material limitations: The R31 keyboard change still needs real Chrome and Edge shortcut acceptance. Security, privacy, accessibility, performance and crash/disk durability retain their open gates.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. The 14 October documentary review clarifies the remaining conditions and retains the classification and grades; product tests were not rerun for this publication.
+Next qualification step: Validate the R31 shortcut in actual Windows Chrome and Edge, then complete the remaining accessibility, privacy/security, performance and durability gates.
 
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
-
-## Long-term product direction
-
-Permission-aware video analysis, cross-video knowledge, evidence-grounded AI and a standalone workspace or API are future objectives. Transcription, OCR, multimodal AI and hosted services are not delivered by this candidate.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

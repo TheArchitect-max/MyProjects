@@ -2,7 +2,7 @@
 
 TA-IP-044 | Reference alias: Noelle | Security, Identity & Traceability
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Follow asset histories, review supporting records and assess what is ready for a documented handover.
 
@@ -34,19 +34,15 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed software. Reference baseline: 2.4.0.
+Current main baseline: 2.4.0.
 
-The release and later development are separately recorded. Wet-laboratory results and regulatory certification are outside the established software scope.
+Separate development: Assurance 5.1.
 
-Next qualification step: Accept a bounded registry and assurance workflow on the selected delivery baseline.
+The released core and the newer assurance development line are presented separately.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
+Material limitations: The release and later development are separately recorded. Wet-laboratory results and regulatory certification are outside the established software scope.
 
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
-
-## Recorded separate development
-
-The established release and later assurance-development line have separate evidence. Extended recovery and transfer review must be accepted for the agreed delivery.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

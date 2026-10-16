@@ -1339,7 +1339,7 @@
     },
     {
       "repository": "Adaptive-Systems-Intelligence-Platform",
-      "slug": "plantelogia-intelligence-platform",
+      "slug": "adaptive-systems-intelligence-platform",
       "identityName": "Nadia",
       "commercialReference": "TA-IP-083",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
@@ -5121,7 +5121,7 @@
     },
     {
       "repository": "Engineering-Intelligence-Mastery-Platform",
-      "slug": "truelane-engineering-excellence",
+      "slug": "engineering-intelligence-mastery-platform",
       "identityName": "Minerva",
       "commercialReference": "TA-IP-036",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
@@ -9848,8 +9848,8 @@
       "currentSourceReviewBoundary": "All 101 software repositories are accounted for: the 100 existing default branches and 32 open pull requests were checked, and the new Universal Video Intelligence Platform source was reviewed. Fresh local checks passed 103 TraceLine tests and 29 SCEP tests. Universal Video Intelligence Platform v0.5 passed 37 tests and a development build; its newer v0.7 mandatory syntax gate fails in new test source, so the current full suite and build were not reached and its transfer classification is NOT_READY. TrueLane mandatory validation passed: 95 tests ran, 80 passed and 15 optional PyTorch tests were skipped; no new CUDA or Drive adapter execution is claimed. Changed source, retained validation and unmerged candidates are kept separate. The SCEP checkpoint manifest and tree inventory were reviewed; binary download, restoration and numerical replay were not performed. Prices change only for three implemented main-branch increments and the new Universal Video Intelligence Platform prototype. All 97 other existing prices and all 100 existing maturity and readiness classifications are retained. The new Universal Video Intelligence Platform prototype has an explicit current-source validation blocker. Website repositories are excluded digital displays. No independent legal, scientific, security or market certification is implied."
     },
     {
-      "repository": "OSSN-UAP",
-      "slug": "ossn-uap",
+      "repository": "Modular-Aerospace-Research-Platform",
+      "slug": "modular-aerospace-research-platform",
       "identityName": "Stella",
       "commercialReference": "TA-IP-001",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
@@ -12447,8 +12447,8 @@
       "currentSourceReviewBoundary": "All 101 software repositories are accounted for: the 100 existing default branches and 32 open pull requests were checked, and the new Universal Video Intelligence Platform source was reviewed. Fresh local checks passed 103 TraceLine tests and 29 SCEP tests. Universal Video Intelligence Platform v0.5 passed 37 tests and a development build; its newer v0.7 mandatory syntax gate fails in new test source, so the current full suite and build were not reached and its transfer classification is NOT_READY. TrueLane mandatory validation passed: 95 tests ran, 80 passed and 15 optional PyTorch tests were skipped; no new CUDA or Drive adapter execution is claimed. Changed source, retained validation and unmerged candidates are kept separate. The SCEP checkpoint manifest and tree inventory were reviewed; binary download, restoration and numerical replay were not performed. Prices change only for three implemented main-branch increments and the new Universal Video Intelligence Platform prototype. All 97 other existing prices and all 100 existing maturity and readiness classifications are retained. The new Universal Video Intelligence Platform prototype has an explicit current-source validation blocker. Website repositories are excluded digital displays. No independent legal, scientific, security or market certification is implied."
     },
     {
-      "repository": "SourceVector-Intelligence-Platform",
-      "slug": "omnisynth-intelligence-engine",
+      "repository": "Evidence-Intelligence-Operations-Platform",
+      "slug": "evidence-intelligence-operations-platform",
       "identityName": "Sophie",
       "commercialReference": "TA-IP-005",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
@@ -13606,8 +13606,8 @@
       }
     },
     {
-      "repository": "TrueLane-Flora",
-      "slug": "truelane-flora",
+      "repository": "Plant-Environment-Decision-Intelligence-Platform",
+      "slug": "plant-environment-decision-intelligence-platform",
       "identityName": "Florence",
       "commercialReference": "TA-IP-008",
       "commercialStatus": "PRICED_STANDALONE_ASSET",
@@ -13626,19 +13626,19 @@
       "evidence": {
         "EV-TECH-001": {
           "kind": "implementation",
-          "path": "truelane-flora/truelane-flora/bootstrap_truelane.sh",
+          "path": "plant-environment-decision-intelligence-platform/plant-environment-decision-intelligence-platform/bootstrap_truelane.sh",
           "gitBlobSha": "86828b2b754b15201926a04fe35fe991bc5d56e3",
           "baselineCommit": "c773b1dda3b28d773ac055d20572d5cd03f78215"
         },
         "EV-TEST-001": {
           "kind": "tests",
-          "path": "truelane-flora/truelane-flora/deploy/docker/docker-compose.test.yml",
+          "path": "plant-environment-decision-intelligence-platform/plant-environment-decision-intelligence-platform/deploy/docker/docker-compose.test.yml",
           "gitBlobSha": "f7904f87bacb1e11642857c4cf78ce36aa052b1e",
           "baselineCommit": "c773b1dda3b28d773ac055d20572d5cd03f78215"
         },
         "EV-VAL-001": {
           "kind": "validation",
-          "path": "truelane-flora/truelane-flora/db/migrations/000003_add_ingestion_audit.down.sql",
+          "path": "plant-environment-decision-intelligence-platform/plant-environment-decision-intelligence-platform/db/migrations/000003_add_ingestion_audit.down.sql",
           "gitBlobSha": "d60e6715746b1bbafb3dd4b3c98087c66516471f",
           "baselineCommit": "c773b1dda3b28d773ac055d20572d5cd03f78215"
         },
@@ -13650,19 +13650,19 @@
         },
         "EV-DEP-001": {
           "kind": "dependency-manifest",
-          "path": "truelane-flora/truelane-flora/go.mod",
+          "path": "plant-environment-decision-intelligence-platform/plant-environment-decision-intelligence-platform/go.mod",
           "gitBlobSha": "c42bdc7a80bf72867152df8a54564bc0a358ce7b",
           "baselineCommit": "c773b1dda3b28d773ac055d20572d5cd03f78215"
         },
         "EV-SEC-001": {
           "kind": "security",
-          "path": "truelane-flora/truelane-flora/docs/SECURITY.md",
+          "path": "plant-environment-decision-intelligence-platform/plant-environment-decision-intelligence-platform/docs/SECURITY.md",
           "gitBlobSha": "73ec1d4bd6aa9739ff0c23a9bf84aa47c15f2ec7",
           "baselineCommit": "c773b1dda3b28d773ac055d20572d5cd03f78215"
         },
         "EV-PROV-001": {
           "kind": "provenance",
-          "path": "truelane-flora/truelane-flora/db/migrations/000004_add_dataset_provenance.down.sql",
+          "path": "plant-environment-decision-intelligence-platform/plant-environment-decision-intelligence-platform/db/migrations/000004_add_dataset_provenance.down.sql",
           "gitBlobSha": "a4d4b9bc6e70e7225772e0d22f6991b2c85537a2",
           "baselineCommit": "c773b1dda3b28d773ac055d20572d5cd03f78215"
         }
@@ -13672,7 +13672,7 @@
         "lockfileCount": 0,
         "sbomCount": 0,
         "manifests": [
-          "truelane-flora/truelane-flora/go.mod"
+          "plant-environment-decision-intelligence-platform/plant-environment-decision-intelligence-platform/go.mod"
         ],
         "locks": [],
         "sbomFiles": []
@@ -13689,31 +13689,31 @@
       },
       "securitySummary": {
         "securityFiles": [
-          "truelane-flora/truelane-flora/docs/SECURITY.md",
-          "truelane-flora/truelane-flora/internal/interfaces/http/middleware/security.go",
-          "truelane-flora/truelane-flora/internal/interfaces/http/middleware/security_test.go",
-          "truelane-flora/truelane-flora/pkg/config/security_test.go"
+          "plant-environment-decision-intelligence-platform/plant-environment-decision-intelligence-platform/docs/SECURITY.md",
+          "plant-environment-decision-intelligence-platform/plant-environment-decision-intelligence-platform/internal/interfaces/http/middleware/security.go",
+          "plant-environment-decision-intelligence-platform/plant-environment-decision-intelligence-platform/internal/interfaces/http/middleware/security_test.go",
+          "plant-environment-decision-intelligence-platform/plant-environment-decision-intelligence-platform/pkg/config/security_test.go"
         ],
         "sensitiveFilenameIndicators": [
-          "truelane-flora/truelane-flora/scripts/generate_dev_token.py"
+          "plant-environment-decision-intelligence-platform/plant-environment-decision-intelligence-platform/scripts/generate_dev_token.py"
         ],
         "independentPenetrationTest": "NOT_ASSUMED"
       },
       "transferSummary": {
         "buildReleaseEvidence": [
-          "truelane-flora/truelane-flora/Makefile",
-          "truelane-flora/truelane-flora/go.mod",
-          "truelane-flora/truelane-flora/scripts/build.sh",
-          "truelane-flora/truelane-flora/scripts/internal_test.sh",
-          "truelane-flora/truelane-flora/scripts/render_release_manifests.py",
-          "truelane-flora/truelane-flora/scripts/seed_test_data.sh",
-          "truelane-flora/truelane-flora/scripts/smoke_test.sh",
-          "truelane-flora/truelane-flora/scripts/verify_release.sh"
+          "plant-environment-decision-intelligence-platform/plant-environment-decision-intelligence-platform/Makefile",
+          "plant-environment-decision-intelligence-platform/plant-environment-decision-intelligence-platform/go.mod",
+          "plant-environment-decision-intelligence-platform/plant-environment-decision-intelligence-platform/scripts/build.sh",
+          "plant-environment-decision-intelligence-platform/plant-environment-decision-intelligence-platform/scripts/internal_test.sh",
+          "plant-environment-decision-intelligence-platform/plant-environment-decision-intelligence-platform/scripts/render_release_manifests.py",
+          "plant-environment-decision-intelligence-platform/plant-environment-decision-intelligence-platform/scripts/seed_test_data.sh",
+          "plant-environment-decision-intelligence-platform/plant-environment-decision-intelligence-platform/scripts/smoke_test.sh",
+          "plant-environment-decision-intelligence-platform/plant-environment-decision-intelligence-platform/scripts/verify_release.sh"
         ],
         "provenanceEvidence": [
-          "truelane-flora/truelane-flora/db/migrations/000004_add_dataset_provenance.down.sql",
-          "truelane-flora/truelane-flora/db/migrations/000004_add_dataset_provenance.up.sql",
-          "truelane-flora/truelane-flora/scripts/render_release_manifests.py"
+          "plant-environment-decision-intelligence-platform/plant-environment-decision-intelligence-platform/db/migrations/000004_add_dataset_provenance.down.sql",
+          "plant-environment-decision-intelligence-platform/plant-environment-decision-intelligence-platform/db/migrations/000004_add_dataset_provenance.up.sql",
+          "plant-environment-decision-intelligence-platform/plant-environment-decision-intelligence-platform/scripts/render_release_manifests.py"
         ],
         "transferEvidence": []
       },
@@ -13721,7 +13721,7 @@
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
         "A detailed component inventory and licensing report are required for the agreed delivery scope.",
         "An explicit delivery manifest and handover scope remain to be agreed.",
-        "Review potential sensitive filenames before transfer: truelane-flora/truelane-flora/scripts/generate_dev_token.py"
+        "Review potential sensitive filenames before transfer: plant-environment-decision-intelligence-platform/plant-environment-decision-intelligence-platform/scripts/generate_dev_token.py"
       ],
       "externalOrBuyerSideItems": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -18317,7 +18317,7 @@
   "assessedAt": "2026-10-13T04:20:04Z",
   "previousBasisDate": "2026-10-10",
   "reviewPolicy": "Only the new MIPP readiness record is added. All 104 preceding criteria, grades, decisions and evidence dates are retained.",
-  "catalogueUpdatedAt": "2026-10-14T07:18:19Z",
+  "catalogueUpdatedAt": "2026-10-16T06:23:40Z",
   "previousTargetedAssetReview": {
     "slug": "distributed-ai-resource-fabric",
     "ref": "TA-IP-022",

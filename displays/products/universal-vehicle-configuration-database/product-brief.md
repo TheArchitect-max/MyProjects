@@ -2,7 +2,7 @@
 
 TA-IP-094 | Reference alias: Celine | Aerospace & Mobility Engineering
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Find source-supported vehicle configurations and see where the available information is complete or still uncertain.
 
@@ -34,19 +34,15 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed prototype. Reference baseline: 0.5.6.dev0.
+Current main baseline: 0.5.6.dev0.
 
-Data coverage is evidence-dependent. The asset does not supply universal fitment, vehicle tuning authority or rights in external factual records.
+Separate development: PR25 draft / portal, API and offline billing foundations.
 
-Next qualification step: Qualify target markets and the current supported configuration fields.
+Evaluate the vehicle-information prototype and its source-evidence research. New portal, API and offline billing work is private development only; no public SaaS or live payments are available.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
+Material limitations: Data coverage is evidence-dependent. The asset does not supply universal fitment, vehicle tuning authority or rights in external factual records.
 
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
-
-## Recorded separate development
-
-A separately recorded draft extends the portal, customer-service access and offline commercial foundations. Hosted operation and acceptance remain separate.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

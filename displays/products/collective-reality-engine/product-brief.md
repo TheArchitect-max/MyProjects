@@ -2,7 +2,7 @@
 
 TA-IP-104 | Reference alias: Calliope | Enterprise, Web & Commerce Systems
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Explore shared fictional worlds, review the consequences of participant decisions and preserve a consistent history of each scenario.
 
@@ -34,15 +34,15 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed pre-alpha prototype. Reference baseline: 0.3.0.
+Current main baseline: 0.3.0.
 
-Online multiplayer, large-scale operation and deployed AI actors are not established. Fictional scenario assets retain their agreed rights perimeter.
+Evaluate a local shared-world prototype with two fictional scenarios and repeatable histories. All 41 local tests and the demonstration passed. Rights documentation and the delivery package remain incomplete; online multiplayer, AI actors and large-scale operation are not established.
 
-Next qualification step: Accept a bounded local scenario and qualify future participant and scale requirements separately.
+Material limitations: Online multiplayer, large-scale operation and deployed AI actors are not established. Fictional scenario assets retain their agreed rights perimeter.
 
-Retained seller handover status: Handover evidence incomplete; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
+Next qualification step: Resolve the missing explicit rights and agreed-transfer documentation; the source policy deliberately does not grant a general software licence.
 
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

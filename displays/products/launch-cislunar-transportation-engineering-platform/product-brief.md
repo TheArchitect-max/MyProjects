@@ -2,7 +2,7 @@
 
 TA-IP-099 | Reference alias: Astrid | Aerospace & Mobility Engineering
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Assess launch and lunar transport options for your FusionLunar studies, compare their assumptions and review the evidence needed for further engineering.
 
@@ -34,19 +34,17 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Locally tested engineering foundation. Reference baseline: v0.1.0.dev0.
+Current main baseline: v0.1.0.dev0.
 
-The foundation is distinct from a qualified launch vehicle or flight system. Joint integration with energy studies and newer refuelling work remain separate.
+Separate development: v0.2 refueling-study candidate; unmerged.
 
-Next qualification step: Qualify a representative mission and the agreed transport-study interfaces.
+Use the v0.1 transport-concept software for your FusionLunar studies. A separate unmerged v0.2 draft adds refueling and departure-study controls with isolated synthetic checks; full frozen-source integration and release qualification remain open. Flight qualification and completed joint FusionLunar integration are not established. Existing prices are retained.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
+Material limitations: The foundation is distinct from a qualified launch vehicle or flight system. Joint integration with energy studies and newer refuelling work remain separate.
 
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Next qualification step: Evidence a reproducible release, agreed component and rights boundaries, use-specific qualification and recipient acceptance of the defined software package.
 
-## Recorded separate development
-
-A separate draft adds refuelling and departure-study work. Full delivery integration and release qualification remain open.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

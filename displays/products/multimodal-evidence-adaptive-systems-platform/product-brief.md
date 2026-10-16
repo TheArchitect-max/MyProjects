@@ -2,7 +2,7 @@
 
 TA-IP-056 | Reference alias: Lena | Visual, Spatial & Multimodal Systems
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Bring different forms of observation together and compare their contribution to your research.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed prototype. Reference baseline: 0.2.0.
+Current main baseline: 0.2.0.
 
-Research estimates are distinct from psychological facts or human-state manipulation. Hardware and domain interpretation require separate evidence.
+An implemented prototype for evaluation and further development.
 
-Next qualification step: Qualify the selected observation protocol and representative acquired records.
+Material limitations: Research estimates are distinct from psychological facts or human-state manipulation. Hardware and domain interpretation require separate evidence.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

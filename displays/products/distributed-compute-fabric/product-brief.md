@@ -2,7 +2,7 @@
 
 TA-IP-082 | Reference alias: Ingrid | Software Assurance, Provenance & Control
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Coordinate remote computing work and review continuity across your distributed operations.
 
@@ -34,15 +34,15 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed prototype. Reference baseline: 0.8.0.
+Current main baseline: 0.11.0.
 
-The asset is software infrastructure rather than an operating compute business. Buyer hosting, customer operations and commercial acceptance are separate.
+The 0.11.0 layer adds a runnable outbound-only reference worker agent over the loopback TLS 1.3 mutual-authentication transport, with bounded reconnect, heartbeat and command/lease handling. Its repository report records 212 passing tests. The qualified reference runtime remains loopback-scoped; production remote-provider operation and accelerator workloads need separate authorization and acceptance.
 
-Next qualification step: Qualify representative worker environments and the intended service delivery scope.
+Material limitations: The qualified transport is loopback-scoped. Remote production deployments, provider consent and accelerator workloads need their own tests and authorization.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
+Next qualification step: Qualify remote transport and intended host/provider configurations with explicit authorization before production network exposure.
 
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

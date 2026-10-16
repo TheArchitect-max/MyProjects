@@ -2,7 +2,7 @@
 
 TA-IP-067 | Reference alias: Selene | Visual, Spatial & Multimodal Systems
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Assess imaging concepts and compare acquisition options before planning a physical trial.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed prototype. Reference baseline: 0.15.0.
+Current main baseline: 0.15.0.
 
-The integrated physical camera has not been bench-verified. Software and planned campaign records are separate from measured hardware performance.
+An implemented prototype for evaluation and further development.
 
-Next qualification step: Select real devices and complete a representative physical imaging campaign.
+Material limitations: The integrated physical camera has not been bench-verified. Software and planned campaign records are separate from measured hardware performance.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

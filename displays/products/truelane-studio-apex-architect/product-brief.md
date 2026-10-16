@@ -2,7 +2,7 @@
 
 TA-IP-080 | Reference alias: Ava | Aerospace & Mobility Engineering
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Compare vehicle configurations, examine measured results and review proposed improvements before further tuning work.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed software. Reference baseline: 2.0.0.
+Current main baseline: 2.0.0.
 
-The asset does not establish world-leading tuning performance or universal vehicle compatibility. Physical qualification remains separately required.
+The 2.0.0 release has retained external validation. Suitability for your vehicle requires its own evidence.
 
-Next qualification step: Qualify the selected vehicle and engineering objectives against measured evidence.
+Material limitations: The asset does not establish world-leading tuning performance or universal vehicle compatibility. Physical qualification remains separately required.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

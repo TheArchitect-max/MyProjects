@@ -2,7 +2,7 @@
 
 TA-IP-030 | Reference alias: Celeste | Aerospace & Mobility Engineering
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Explore mission scenarios, compare routes and examine planning assumptions before real-world deployment.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed software. Reference baseline: 2.8.0.
+Current main baseline: 2.8.0.
 
-Software-in-the-loop evidence is bounded by model assumptions. It does not establish flight certification or aircraft performance.
+Available software for evaluation against your intended use. Deployment suitability is assessed separately.
 
-Next qualification step: Compare representative missions with independently supplied reference evidence.
+Material limitations: Software-in-the-loop evidence is bounded by model assumptions. It does not establish flight certification or aircraft performance.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

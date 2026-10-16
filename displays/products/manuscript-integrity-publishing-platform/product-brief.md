@@ -2,7 +2,7 @@
 
 TA-IP-106 | Reference alias: Euterpe | Audio & Media Creation
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Write and assemble your chapters, track editorial evidence and defects, and prepare an author-approved manuscript for manual publication handoff.
 
@@ -34,19 +34,17 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed local prototype. Reference baseline: 0.1.0.
+Current main baseline: 0.1.0.
 
-The current priced delivery is the local v0.1 prototype. Separately documented later builds, author content and pseudonym rights are excluded; literary or factual certification is not automated.
+Separate development: 0.7.0 — documented offline staging; full application source import pending.
 
-Next qualification step: Agree protocol and template rights, accept the v0.1 delivery and independently qualify any requested later build.
+The repository still delivers the 0.1.0 editorial QA application. Later documents through 0.7 record creative-module curation, genre/style controls, originality work and complete author-archive placement as separate offline staging. Full later application sources are not imported and remain outside the existing 0.1 asking/recreation scope. The retained 0.1 tests and later reported checks retain their own source and execution dates.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-13. This exhibition has not reclassified that record through a fresh execution.
+Material limitations: Later staged application source is not yet part of the delivered repository package or its retained price. Editorial, rights, rendering and distributor acceptance need actual evidence.
 
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Next qualification step: Import and integrity-check the complete staged application, then independently rerun its behavior, manuscript rendering and editorial qualification before extending the delivered software scope.
 
-## Recorded separate development
-
-Later literary-style tools are documented as separately staged work. They are outside the priced v0.1 delivery and require a complete separately agreed and qualified handover.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

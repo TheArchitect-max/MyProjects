@@ -2,7 +2,7 @@
 
 TA-IP-025 | Reference alias: Artemis | Industrial Reliability & Digital Twins
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Bring operational observations into a digital-twin view and review changes with their uncertainties.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed software. Reference baseline: 1.5.0.
+Current main baseline: 1.5.0.
 
-A reference framework does not establish physical accuracy for each domain. Real sensors and operational decisions require buyer qualification.
+Available software for evaluation against your intended use. Deployment suitability is assessed separately.
 
-Next qualification step: Qualify the selected observations and operational acceptance criteria.
+Material limitations: A reference framework does not establish physical accuracy for each domain. Real sensors and operational decisions require buyer qualification.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

@@ -2,7 +2,7 @@
 
 TA-IP-095 | Reference alias: Elise | Specialist Vertical Software
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Build focused piano practice around your own music, follow visual guidance and review your progress.
 
@@ -34,19 +34,17 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed software. Reference baseline: v13 established product.
+Current main baseline: v13 established product.
 
-The established practice version and later experimental candidates remain separate. User music and external scores are outside the offered IP.
+Separate development: v16 — draft evidence-aware model-selection repair.
 
-Next qualification step: Accept the distinct application scope and qualify representative device and recording behaviour.
+The established v13 product remains the active baseline. Main includes v16 corpus staging. The real 32/8 development campaign exposed a model-selection failure; draft PR32 uses an evidence-aware recovery score and binds its semantics into checkpoints. The candidate awaits exact-source validation and a new qualified campaign. No v16 product promotion or successful new freeze is claimed.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
+Material limitations: The v16 model-selection repair remains a draft and does not change the active v13 product, confirm an accepted recovery model or establish a successful new freeze.
 
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Next qualification step: Validate the exact PR32 candidate, rerun development and calibration, and satisfy the confirmation/promotion gates before changing the active product.
 
-## Recorded separate development
-
-A later recovery and training-resume candidate remains experimental. The established practice scope is separate from promotion of that candidate.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

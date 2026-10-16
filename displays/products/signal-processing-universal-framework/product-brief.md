@@ -2,7 +2,7 @@
 
 TA-IP-016 | Reference alias: Shannon | Industrial Reliability & Digital Twins
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Analyse your signals, compare processing results and keep your findings traceable.
 
@@ -34,15 +34,15 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed software. Reference baseline: 1.7.0.
+Current main baseline: 1.23.0.
 
-Reference domains demonstrate software structure. Their presence is not independent validation for every application or dataset.
+The 1.23.0 source includes the 1.19-1.22 input, retry-policy, registry and processor-identity hardening, plus precise event-subscription lifetime control. The framework retains its supplied-series reference domains, explicit temporal alignment and recovery evidence. Domain accuracy and representative live-instrument acceptance remain separately qualified.
 
-Next qualification step: Qualify the buyer's selected signal domain and supplied records.
+Material limitations: Reference-domain results are supplied-series calculations. They do not certify live instruments, domain science or the accuracy of an arbitrary buyer dataset.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
+Next qualification step: Select the intended domain and validate representative inputs, reference outputs and operational acceptance on the agreed version.
 
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

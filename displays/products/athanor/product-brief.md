@@ -2,7 +2,7 @@
 
 TA-IP-002 | Reference alias: Elara | Industrial Reliability & Digital Twins
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Compare recovery options when your network is disrupted, and review the evidence behind each choice.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed software. Reference baseline: 3.5.0.
+Current main baseline: 3.5.0.
 
-Comparisons concern declared software scenarios. Biological interpretations and production-network performance are not established by these experiments.
+Available software for evaluation against your intended use. Deployment suitability is assessed separately.
 
-Next qualification step: Evaluate representative network cases and close the delivery evidence conditions.
+Material limitations: Comparisons concern declared software scenarios. Biological interpretations and production-network performance are not established by these experiments.
 
-Retained seller handover status: Handover evidence incomplete; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

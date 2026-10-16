@@ -2,7 +2,7 @@
 
 TA-IP-037 | Reference alias: Eve | Adaptive Intelligence & Cognition
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Explore learning and memory in brain-inspired research models and compare their observed behaviour.
 
@@ -34,19 +34,15 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed prototype. Reference baseline: 18.3.
+Current main baseline: 18.3.
 
-The asset is experimental research software. Biological equivalence, consciousness and production readiness are not established.
+Separate development: 18.4 research target.
 
-Next qualification step: Reproduce a declared experiment and independently review its scientific interpretation.
+The available research implementation is on a development branch. Wider qualification and biological claims remain open.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
+Material limitations: The asset is experimental research software. Biological equivalence, consciousness and production readiness are not established.
 
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
-
-## Recorded separate development
-
-A later neural-dynamics research target is recorded separately from the documented baseline. It is a research direction rather than a guaranteed delivered result.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

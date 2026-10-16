@@ -2,7 +2,7 @@
 
 TA-IP-024 | Reference alias: Kira | Adaptive Intelligence & Cognition
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Compare learning approaches and examine how well they retain information under controlled changes.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed prototype. Reference baseline: V57 / package 0.2.0.
+Current main baseline: V57 / package 0.2.0.
 
-The project supplies research and comparison machinery. It does not establish superiority over contemporary alternatives.
+An experimental research build for comparative evaluation; superiority has not been established.
 
-Next qualification step: Execute representative matched comparisons under an agreed evaluation protocol.
+Material limitations: The project supplies research and comparison machinery. It does not establish superiority over contemporary alternatives.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

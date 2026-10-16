@@ -2,7 +2,7 @@
 
 TA-IP-105 | Reference alias: Hestia | Software Assurance, Provenance & Control
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Turn your project aims into reviewed requirements, dependency-aware plans and planning documents with traceable decisions.
 
@@ -34,19 +34,17 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed prototype. Reference baseline: 0.1.0.
+Current main baseline: 0.1.0.
 
-The present functions are an early research foundation. Autonomous engineering and cross-domain validation are not established.
+Separate development: 0.3.0 — unmerged, stacked traceability/feasibility candidate.
 
-Next qualification step: Close the documentation conditions and qualify a representative mission plan.
+Use the current local planning prototype to prepare requirements, dependencies and design documents. Main passed 24 tests; a separate unmerged v0.3 candidate passed 70 tests and its planning examples. Review labels record supplied declarations and do not independently establish engineering, scientific, legal or operational feasibility. Rights and handover documentation remain open.
 
-Retained seller handover status: Handover evidence incomplete; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
+Material limitations: The present functions are an early research foundation. Autonomous engineering and cross-domain validation are not established.
 
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Next qualification step: Complete explicit first-party rights, component-obligation and definitive transfer documentation; a repository licence file is not currently identified.
 
-## Recorded separate development
-
-Separate candidate work extends traceability and feasibility review. It remains outside an accepted present delivery unless expressly agreed.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

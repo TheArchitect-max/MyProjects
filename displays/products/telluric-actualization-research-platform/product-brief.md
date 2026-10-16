@@ -2,7 +2,7 @@
 
 TA-IP-074 | Reference alias: Terra | Scientific Observation & Domain Research
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Organise geophysical hypotheses and compare the evidence supporting your research questions.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Research-stage. Reference baseline: 0.23.0.dev0.
+Current main baseline: 0.23.0.dev0.
 
-The underlying research programme remains speculative and empirically unverified. It is not established as a replacement for accepted physics.
+Experimental research software; scientific conclusions require separate evidence.
 
-Next qualification step: Obtain the missing independent observations and review the declared scientific criteria.
+Material limitations: The underlying research programme remains speculative and empirically unverified. It is not established as a replacement for accepted physics.
 
-Retained seller handover status: Handover evidence incomplete; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

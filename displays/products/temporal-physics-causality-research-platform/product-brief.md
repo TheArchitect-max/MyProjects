@@ -2,7 +2,7 @@
 
 TA-IP-058 | Reference alias: Eleni | Physics, Mathematics & Optimisation Research
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Explore causal-order questions through controlled computational-physics experiments.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Research-stage. Reference baseline: 0.16.0.
+Current main baseline: 0.16.0.
 
-The physical invention target remains unverified. Computational results do not establish a working device or extraordinary physical capability.
+Experimental research software; scientific conclusions require separate evidence.
 
-Next qualification step: Carry out a declared independent physical experiment and retain its uncertainty.
+Material limitations: The physical invention target remains unverified. Computational results do not establish a working device or extraordinary physical capability.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

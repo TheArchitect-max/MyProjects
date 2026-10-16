@@ -2,7 +2,7 @@
 
 TA-IP-017 | Reference alias: Marina | Aerospace & Mobility Engineering
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Explore a conceptual air-to-water vehicle in simulation and review how its control choices affect the model.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed prototype. Reference baseline: v8 Master.
+Current main baseline: v8 Master.
 
-No physical vehicle is included. Model results do not establish aerodynamic, hydrodynamic or structural feasibility.
+An implemented prototype for evaluation and further development.
 
-Next qualification step: Review the concept assumptions and qualify the agreed simulation experiments.
+Material limitations: No physical vehicle is included. Model results do not establish aerodynamic, hydrodynamic or structural feasibility.
 
-Retained seller handover status: Handover evidence incomplete; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

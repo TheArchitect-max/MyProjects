@@ -2,7 +2,7 @@
 
 TA-IP-029 | Reference alias: Verity | Evidence & Intelligence Systems
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Organise evidence, review its supporting records and prepare material for an accountable publication decision.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed software. Reference baseline: 0.24.0.
+Current main baseline: 0.24.0.
 
-Authenticating a record does not make its factual contents true. Publication integrity and source verification remain separate.
+Available software for evaluation against your intended use. Deployment suitability is assessed separately.
 
-Next qualification step: Qualify representative source-review and publication-acceptance workflows.
+Material limitations: Authenticating a record does not make its factual contents true. Publication integrity and source verification remain separate.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

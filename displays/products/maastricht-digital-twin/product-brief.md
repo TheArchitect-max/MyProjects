@@ -2,7 +2,7 @@
 
 TA-IP-088 | Reference alias: Mila | Industrial Reliability & Digital Twins
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Explore Maastricht-based scenarios and compare mobility simulations in a local research workbench.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed prototype. Reference baseline: 0.1.0.
+Current main baseline: 0.1.0.
 
-Bundled city geometry is schematic and traffic is uncalibrated. It is not a completed surveyed city model or validated planning forecast.
+An implemented prototype for evaluation and further development.
 
-Next qualification step: Replace fixtures with qualified city data and calibrate a bounded mobility study.
+Material limitations: Bundled city geometry is schematic and traffic is uncalibrated. It is not a completed surveyed city model or validated planning forecast.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

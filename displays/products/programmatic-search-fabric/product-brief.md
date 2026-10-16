@@ -2,7 +2,7 @@
 
 TA-IP-014 | Reference alias: Sasha | Enterprise, Web & Commerce Systems
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Create and maintain useful collections of web pages, with review controls for your publishing workflow.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed software. Reference baseline: 1.9.0.
+Current main baseline: 1.9.0.
 
-Recorded acceptance concerns the retained software scope. Live serving and further publication remain separately authorised.
+Available software for evaluation against your intended use. Deployment suitability is assessed separately.
 
-Next qualification step: Accept the agreed page corpus and qualify the intended hosting context.
+Material limitations: Recorded acceptance concerns the retained software scope. Live serving and further publication remain separately authorised.
 
-Retained seller handover status: Handover evidence incomplete; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

@@ -2,7 +2,7 @@
 
 TA-IP-038 | Reference alias: Mira | Audio & Media Creation
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Manage your media-production work from source selection to review and delivery.
 
@@ -34,15 +34,15 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed software. Reference baseline: 0.17.0.
+Current main baseline: 0.24.0.
 
-Production control is distinct from rights clearance for every input or readiness of each optional external service.
+The 0.24.0 foundation adds durable artifact-deletion claims and verified byte/size readmission. Repository records report 324 local passes per Python version with native PostgreSQL tests skipped. Prior 0.23.1 native PostgreSQL PASS remains bound to that earlier source; full native 0.24 concurrency qualification is still required. Third-party media rights and provider adapters need separate acceptance.
 
-Next qualification step: Qualify a lawful production project and the agreed delivery workflow.
+Material limitations: Full native 0.24 database and concurrency acceptance remains open. A prior release PASS and substitute SQL checks do not close that gate.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
+Next qualification step: Complete the exact 0.24 native PostgreSQL and concurrency campaigns, and agree the permitted media/provider and delivery scope.
 
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

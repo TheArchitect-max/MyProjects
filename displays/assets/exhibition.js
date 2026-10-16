@@ -66,7 +66,7 @@
       + 'Requested rights and delivery perimeter:\n\n'
       + 'My organisation and preferred contact channel:\n\n'
       + 'I would like to discuss the current work product, recorded handover conditions, controlled review and definitive written acquisition terms.\n\n'
-      + 'Reference: exhibition edition 13 October 2026. This enquiry is not a purchase, payment instruction or transfer of rights.';
+      + 'Reference: exhibition edition 16 October 2026. This enquiry is not a purchase, payment instruction or transfer of rights.';
     feedback.textContent = '';
     if (typeof dialog.showModal === 'function') dialog.showModal();
     else dialog.setAttribute('open', '');

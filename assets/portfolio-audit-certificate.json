@@ -105,39 +105,66 @@
   "sourceObjects": {
     "sellerReadinessRegister": {
       "path": "assets/seller-readiness-register.json",
-      "gitBlobSha": "eca63ef97d04338d2d49e94f9a9918c3f511e1d0"
+      "gitBlobSha": "3a0ce1348dccf2075aabf1e0173972752e428e4d",
+      "algorithm": "SHA-256",
+      "sha256": "6e4abeee2968af9ea0a0fbfcc88ed60b0c97dd79c5b81c3e873cffdbdb4e9d5f",
+      "bytes": 996116
     },
     "valuationRegister": {
       "path": "assets/valuation-register.json",
-      "gitBlobSha": "a035a20d5d24876a525baa2ff2b3474f64ad6495"
+      "gitBlobSha": "c5be5340dac502c56d7f1981a60fcd12a0ce2489",
+      "algorithm": "SHA-256",
+      "sha256": "446979bf8e2cf05b804d3027216dd1f6c19e9ebc4336fa9c6f81f9d101d5c58d",
+      "bytes": 129573
     },
     "futureEconomicReferences": {
       "path": "assets/future-economic-references.json",
-      "gitBlobSha": "feb449ddf32d81f7212de5fbc9eae2d37a5a0c74"
+      "gitBlobSha": "fa5691a605ea6ae705c5f0ce587afc55dc1fa0ef",
+      "algorithm": "SHA-256",
+      "sha256": "c3877e7966e4e720444dd1ec6ed95335407dc70479df3b1749c1edad967fe6c0",
+      "bytes": 104546
     },
     "projectIdentities": {
       "path": "assets/project-identities.json",
-      "gitBlobSha": "605ddd2c62dc1c8a9ea5b61780f07ca7ceb041b9"
+      "gitBlobSha": "340bb3caef873120b4908cfc22cd001828349c50",
+      "algorithm": "SHA-256",
+      "sha256": "b570894499f239822b759fef9f01c0142cd09090d9395f3363c5b888a05fa092",
+      "bytes": 43865
     },
     "ipOwnershipRegister": {
       "path": "assets/ip-ownership-register.json",
-      "gitBlobSha": "7a500112a4446534e51bb3df2c3e8784d7bf87ca"
+      "gitBlobSha": "06add079bb05a350e3231a2fd0d1230ad3a28557",
+      "algorithm": "SHA-256",
+      "sha256": "0b4ac4f15dacb96b6ad992d54a2fe1e3756688ba62e5db56dba110411bdfc20a",
+      "bytes": 115858
     },
     "softwareSupplyChainSummary": {
       "path": "assets/software-supply-chain-summary.json",
-      "gitBlobSha": "c575426625d57a9ac2062fa80f9a8ca657f63786"
+      "gitBlobSha": "9db0fa0c1e25efb795cdceb818a54abba3acdeef",
+      "algorithm": "SHA-256",
+      "sha256": "a2a1a556bd9f6900d1c4d83ab4bace24607cecabb1898174081d73fb08d9958d",
+      "bytes": 108268
     },
     "rightsTransferRegister": {
       "path": "assets/rights-transfer-register.json",
-      "gitBlobSha": "81249e3f097230c456d5d2bed283c03b57ec34ac"
+      "gitBlobSha": "7be0267592321a0c2ec570e414af73dfca36e0e7",
+      "algorithm": "SHA-256",
+      "sha256": "33f8f2508387e1b13585371979a249731fd188193194ce26904a9077c1e1e6e1",
+      "bytes": 159258
     },
     "projectEvaluations": {
       "path": "assets/project-evaluations.json",
-      "gitBlobSha": "551a0707f50b2c5fbd1b88a3d277378fc9ccf971"
+      "gitBlobSha": "5c29771a29e930bd74dc1bac22ba06af9eaa356e",
+      "algorithm": "SHA-256",
+      "sha256": "d8a1242914a9eea16dcc3d150305d82cca637294dcf2a67a0957a3d2e3d79296",
+      "bytes": 738774
     },
     "projectPresentations": {
       "path": "assets/project-presentations.json",
-      "gitBlobSha": "fc7b96e41e2c587609712c646df4b58096b86a69"
+      "gitBlobSha": "b49533b567c38338799ca4c53e519a0a1cc6d137",
+      "algorithm": "SHA-256",
+      "sha256": "39042e7e3d5ae3207db73cbc674567d75bd0fe46c27d4f399571f0a16b4b6c4c",
+      "bytes": 276324
     }
   },
   "externalStandards": [
@@ -179,7 +206,7 @@
     "ipAssetsEvaluated": 97,
     "previousAssessedAt": "2026-10-09T10:15:23Z"
   },
-  "catalogueUpdatedAt": "2026-10-13T05:07:05Z",
+  "catalogueUpdatedAt": "2026-10-16T06:23:40Z",
   "latestSeparateAssetPricing": {
     "assessedAt": "2026-10-09T06:22:41Z",
     "assetCount": 3,

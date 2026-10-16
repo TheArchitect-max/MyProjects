@@ -2,7 +2,7 @@
 
 TA-IP-085 | Reference alias: Aria | Audio & Media Creation
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Turn your recordings into editable MIDI tracks, inspect the notes and take individual parts into your music workflow.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed prototype. Reference baseline: Version confirmed with the agreed delivery.
+Current main baseline: No semantic release version established.
 
-Audio-to-MIDI is approximate transcription rather than a lossless conversion. External processing assets and music rights are separately governed.
+An implemented prototype for evaluation and further development.
 
-Next qualification step: Evaluate representative lawful recordings and acceptable editing effort.
+Material limitations: Audio-to-MIDI is approximate transcription rather than a lossless conversion. External processing assets and music rights are separately governed.
 
-Retained seller handover status: Handover evidence incomplete; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

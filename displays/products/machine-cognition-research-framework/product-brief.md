@@ -2,7 +2,7 @@
 
 TA-IP-020 | Reference alias: Noa | Adaptive Intelligence & Cognition
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Study adaptation and decision behaviour through repeatable experiments and comparative review.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed prototype. Reference baseline: 0.7.0.
+Current main baseline: 0.8.0.
 
-Research mechanisms do not establish consciousness or general intelligence. Ordinary execution does not grant external action authority.
+The 0.8.0 research prototype adds an explicitly trained predictive-state layer alongside its separate count-based adaptation. Training and held-out evaluation are separated and retained model checkpoints bind later research runs. This is a bounded deterministic research mechanism; general intelligence, autonomous action and human-equivalent cognition are not established.
 
-Next qualification step: Reproduce selected research tasks and retain their limits alongside outcomes.
+Material limitations: Research mechanisms do not establish consciousness or general intelligence. Ordinary execution does not grant external action authority.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

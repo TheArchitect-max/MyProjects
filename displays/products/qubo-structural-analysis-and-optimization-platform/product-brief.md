@@ -2,7 +2,7 @@
 
 TA-IP-075 | Reference alias: Emmy | Physics, Mathematics & Optimisation Research
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Compare optimisation approaches and assess candidate solutions within a clearly defined problem scope.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed prototype. Reference baseline: 0.2.0.
+Current main baseline: 0.2.0.
 
-Structural diagnostics do not establish formal impossibility or universal solver superiority. Performance remains problem- and protocol-specific.
+An implemented prototype for evaluation and further development.
 
-Next qualification step: Run representative matched optimisation studies with explicit acceptance criteria.
+Material limitations: Structural diagnostics do not establish formal impossibility or universal solver superiority. Performance remains problem- and protocol-specific.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

@@ -2,7 +2,7 @@
 
 TA-IP-009 | Reference alias: Justine | Security, Identity & Traceability
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Track custody handovers and examine whether the accompanying records support a clear chain of responsibility.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed prototype. Reference baseline: 0.4.0.
+Current main baseline: 0.4.0.
 
-This is a candidate software and specification asset. Real operational conformity, independent approval and deployment are not established.
+A candidate reference implementation; independent review and operational approval remain pending.
 
-Next qualification step: Complete a bounded transfer pilot and agree its accountable-owner acceptance.
+Material limitations: This is a candidate software and specification asset. Real operational conformity, independent approval and deployment are not established.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

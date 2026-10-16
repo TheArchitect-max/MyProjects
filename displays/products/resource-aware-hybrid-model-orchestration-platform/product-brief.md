@@ -2,7 +2,7 @@
 
 TA-IP-028 | Reference alias: Mia | Adaptive Intelligence & Cognition
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Plan long-form AI-assisted work, compare model options and continue interrupted tasks within your available resources.
 
@@ -34,19 +34,15 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed prototype. Reference baseline: Version confirmed with the agreed delivery.
+Current main baseline: No semantic release version established.
 
-The product is a rebuild and research prototype. Historical design documents are separate from demonstrated current behaviour.
+Separate development: 0.1.7rc26 — unmerged orchestration candidate.
 
-Next qualification step: Demonstrate an end-to-end long-form task against declared resource and quality criteria.
+An implemented release candidate is available on a development branch; production use requires further qualification.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
+Material limitations: Provider accounts, third-party model rights, deployment configurations and measured long-form quality remain specific to the selected delivery and validation scope.
 
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
-
-## Recorded separate development
-
-The separately recorded rebuild candidate remains subject to end-to-end generation, revision and resource qualification.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

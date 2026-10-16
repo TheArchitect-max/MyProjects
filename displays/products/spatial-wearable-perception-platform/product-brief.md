@@ -2,7 +2,7 @@
 
 TA-IP-073 | Reference alias: Skye | Visual, Spatial & Multimodal Systems
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Explore spatial observations and wearable-use scenarios, with captured material available for later review.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed software. Reference baseline: 0.11.1.
+Current main baseline: 0.11.1.
 
-Recovered and tested software is separate from real-world wearable hardware qualification. Physical accuracy remains unestablished.
+Available software for evaluation against your intended use. Deployment suitability is assessed separately.
 
-Next qualification step: Qualify the selected device and representative spatial sessions.
+Material limitations: Recovered and tested software is separate from real-world wearable hardware qualification. Physical accuracy remains unestablished.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

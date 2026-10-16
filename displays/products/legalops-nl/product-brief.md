@@ -2,7 +2,7 @@
 
 TA-IP-033 | Reference alias: Julia | Specialist Vertical Software
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Organise legal research, references and case material into reviewable workspaces for your professional workflow.
 
@@ -34,19 +34,15 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed prototype. Reference baseline: 0.8.0.
+Current main baseline: 0.8.0.
 
-Generated legal content remains unverified until its evidence gates pass. Professional legal review and authoritative current sources remain necessary.
+Separate development: 0.9.0 unmerged candidate; release qualification blocked.
 
-Next qualification step: Qualify the selected legal corpus and its proposition-level source evidence.
+Evaluate the v0.8 main prototype. The v0.9 investigation-workspace candidate and newer roadmap remain unmerged; its canonical source, packaging and external release qualification are blocked or pending. The roadmap does not establish a working commercial service. Existing financial references are retained.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
+Material limitations: Generated legal content remains unverified until its evidence gates pass. Professional legal review and authoritative current sources remain necessary.
 
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
-
-## Recorded separate development
-
-A later candidate remains separately recorded, with release qualification open. It does not make the generated legal corpus independently verified.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 

@@ -1,35 +1,111 @@
 {
   "schema": "thearchitect-max-repository-inventory-v1",
-  "reviewedAt": "2026-10-13T06:09:04Z",
-  "websiteBaselineCommit": "a1aa4a739c97f5bb9cb5b1227efbe14fe2a58507",
+  "reviewedAt": "2026-10-16T06:35:07Z",
+  "websiteBaselineCommit": "a7d1d037e26282574ef1c8488172442c932ba06c",
   "summary": {
-    "assessedAt": "2026-10-13T06:09:04Z",
-    "type": "INTEGRATED_PROJECT_DISPLAYS",
+    "assessedAt": "2026-10-16T06:35:07Z",
+    "type": "COMPLETE_REPOSITORY_IDENTITY_AND_STATUS_REVIEW",
     "repositoryCount": 107,
     "projectRepositoryCount": 105,
     "publicationRepositoryCount": 2,
     "repositoryPresenceChecked": 107,
-    "repositoryHeadsChecked": 0,
-    "projectReadmesRead": 0,
-    "projectTreesRead": 0,
-    "retainedSourceInventoryProjects": 105,
-    "sourceInventoryAssessedAt": "2026-10-13T04:20:04Z",
+    "repositoryHeadsChecked": 107,
+    "projectReadmesRead": 105,
+    "projectTreesRead": 11,
+    "openPullRequestsReviewed": 40,
+    "developmentReadmesRead": 35,
     "newProjects": [],
     "removedActiveProjects": [],
-    "removedDisplayCount": 12,
+    "renamedRepositories": 3,
+    "migratedProfilePaths": 5,
     "publicDisplayCount": 105,
-    "orphanProjectFoldersRemoved": [],
     "existingProjectRecordsRetained": 105,
+    "retainedSourceInventoryProjects": 105,
+    "sourceInventoryAssessedAt": "2026-10-16T06:35:07Z",
     "changedExistingHeads": [
       {
-        "ref": "TA-IP-101",
-        "repository": "Universal-Video-Intelligence-Platform",
-        "retainedAssessmentHead": "10c1c9c702007a62bf032706a6042932a2fcc52b",
-        "observedHead": "889e0171f581bf285e1e1a53afcf2ab82fd9271a",
-        "treatment": "Existing profile, evidence date and price retained at the user’s instruction."
+        "ref": "TA-IP-005",
+        "repository": "Evidence-Intelligence-Operations-Platform",
+        "retainedAssessmentHead": "620213d30f3aa50120a29693d6871eb932bf4251",
+        "observedHead": "0e90b908af9c1461ac9c2316236ed8b34731ebc2",
+        "treatment": "Current catalogue status refreshed; retained product qualification and financial/rights assessments keep their original dates and source scope."
+      },
+      {
+        "ref": "TA-IP-008",
+        "repository": "Plant-Environment-Decision-Intelligence-Platform",
+        "retainedAssessmentHead": "c773b1dda3b28d773ac055d20572d5cd03f78215",
+        "observedHead": "ff85ede411bdd26f0bd2b96e144ef075460ca614",
+        "treatment": "Current catalogue status refreshed; retained product qualification and financial/rights assessments keep their original dates and source scope."
+      },
+      {
+        "ref": "TA-IP-012",
+        "repository": "Evidence-Governed-Visual-Intelligence-Platform",
+        "retainedAssessmentHead": "b99e5047c59eacd229f1807de989236d1ffcea73",
+        "observedHead": "85c1cdfd72b1be2f5c1a572ec7f85de04217c93d",
+        "treatment": "Current catalogue status refreshed; retained product qualification and financial/rights assessments keep their original dates and source scope."
+      },
+      {
+        "ref": "TA-IP-016",
+        "repository": "Signal-Processing-Universal-Framework",
+        "retainedAssessmentHead": "8a115c904955797155b6463fd2cda415899223d3",
+        "observedHead": "32073ef1c45b490e0669acb995f20e891601ddc8",
+        "treatment": "Current catalogue status refreshed; retained product qualification and financial/rights assessments keep their original dates and source scope."
+      },
+      {
+        "ref": "TA-IP-020",
+        "repository": "Machine-Cognition-Research-Framework",
+        "retainedAssessmentHead": "8cb56a1a8e52f9c82f6471eab888662561dbc935",
+        "observedHead": "ce4d3f92aa5439954b03755dd3082b2c4641e37e",
+        "treatment": "Current catalogue status refreshed; retained product qualification and financial/rights assessments keep their original dates and source scope."
+      },
+      {
+        "ref": "TA-IP-038",
+        "repository": "Integrated-Media-Production-Engine",
+        "retainedAssessmentHead": "c72ab4961955b81c0932e16fcd3e94a5f943d894",
+        "observedHead": "4fb34a9155fc1041a616dd024ac2d31f1dfcaa09",
+        "treatment": "Current catalogue status refreshed; retained product qualification and financial/rights assessments keep their original dates and source scope."
+      },
+      {
+        "ref": "TA-IP-046",
+        "repository": "SonicFabric",
+        "retainedAssessmentHead": "cdfc7df5dba46500fb9ed00d7c1476431d9a679d",
+        "observedHead": "23462ac10621ab1b305e8f6c1aacbd1b99bf43d0",
+        "treatment": "Current catalogue status refreshed; retained product qualification and financial/rights assessments keep their original dates and source scope."
+      },
+      {
+        "ref": "TA-IP-081",
+        "repository": "SWPP-VIORITH-Mobile-Camera-Overlay-",
+        "retainedAssessmentHead": "de02892ac9ed9cbd27adc0f1ec4ecbf92896ea34",
+        "observedHead": "8870c146e94c62856dcf38d297653367ac37d565",
+        "treatment": "Current catalogue status refreshed; retained product qualification and financial/rights assessments keep their original dates and source scope."
+      },
+      {
+        "ref": "TA-IP-082",
+        "repository": "Distributed-Compute-Fabric",
+        "retainedAssessmentHead": "7810d2175bac7adc8ac4232d21dd6efbcf5bf198",
+        "observedHead": "6255df2e6c27535dd46043ac904fec519623ce33",
+        "treatment": "Current catalogue status refreshed; retained product qualification and financial/rights assessments keep their original dates and source scope."
+      },
+      {
+        "ref": "TA-IP-095",
+        "repository": "LEARNPIANO",
+        "retainedAssessmentHead": "4ac4713e529bb187546a9e4197bc23ac634d5990",
+        "observedHead": "19fbf11b94dd7e6c92206fab998fc52fe9d4efd7",
+        "treatment": "Current catalogue status refreshed; retained product qualification and financial/rights assessments keep their original dates and source scope."
+      },
+      {
+        "ref": "TA-IP-106",
+        "repository": "Manuscript-Integrity-Publishing-Platform",
+        "retainedAssessmentHead": "9b8b8d39cd86289fcd70c3684172a44062879bba",
+        "observedHead": "e624f08a7bd630302d760e025252bac0326eceaf",
+        "treatment": "Current catalogue status refreshed; retained product qualification and financial/rights assessments keep their original dates and source scope."
       }
     ],
-    "boundary": "All 105 independently scoped project records now have a matching buyer-facing display, maintained together in Projects-Displays and published within MyProjects. The connected repository inventory contains 107 repositories: 105 project repositories and two presentation repositories. This publication changes display navigation and presentation; retained product qualification, rights, transfer assessments and individual prices keep their own dates and scope."
+    "boundary": "All 107 repositories, all 105 frozen default-branch README files and all 40 open pull requests were checked. Three repository renames and five obsolete public paths are reconciled across the catalogue and its 105 displays. Current main and unmerged development are separate. Retained product tests, qualification, rights and financial assessments keep their own dates; this documentary publication does not rerun or reclassify the underlying software.",
+    "finalHeadRecheckAt": "2026-10-16T06:35:07Z",
+    "additionalProductBrandUpdates": [
+      "AEGIS Vision"
+    ]
   },
   "publicationRepositories": [
     "MyProjects",
@@ -37,27 +113,39 @@
   ],
   "projects": [
     {
-      "repository": "OSSN-UAP",
+      "repository": "Modular-Aerospace-Research-Platform",
       "ref": "TA-IP-001",
       "sourceHead": "d43cf19d3b12ba6452f945aab1a5ea64deac7901",
       "treeSha": "928b531c6df1c4ca4dfa72a76ea0773063c06965",
       "sourceUpdatedAt": "2026-10-07T05:49:11Z",
-      "fileCount": 58,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "046875bb88930723af4ae04763c2d6840bb9a8ce",
       "manifests": [
-        "ossn-uap-v0.1.0/ossn-uap/scripts/python/requirements.txt"
+        "ossn-uap-v0.1.0/modular-aerospace-research-platform/scripts/python/requirements.txt"
       ],
       "rightsFiles": [
-        "ossn-uap-v0.1.0/ossn-uap/LICENSE",
-        "ossn-uap-v0.1.0/ossn-uap/third_party/nlohmann/README.md"
+        "ossn-uap-v0.1.0/modular-aerospace-research-platform/LICENSE",
+        "ossn-uap-v0.1.0/modular-aerospace-research-platform/third_party/nlohmann/README.md"
       ],
       "workflowFiles": [],
-      "profile": "projects/ossn-uap/",
+      "profile": "projects/modular-aerospace-research-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "d43cf19d3b12ba6452f945aab1a5ea64deac7901",
+        "treeSha": "928b531c6df1c4ca4dfa72a76ea0773063c06965",
+        "sourceUpdatedAt": "2026-10-07T05:49:11Z",
+        "fileCount": 58,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "046875bb88930723af4ae04763c2d6840bb9a8ce"
+      },
+      "repositoryId": "1282302258",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 1
     },
     {
       "repository": "ATHANOR---Adaptive-Topology-Hazard-Analysis-Network-Optimization-Resilience",
@@ -65,9 +153,9 @@
       "sourceHead": "45242d61ee6d65983cc12e1d3d305d93aee3eac3",
       "treeSha": "b1d81efd7deec035850fa57a457fdf021fb9279d",
       "sourceUpdatedAt": "2026-10-07T05:41:56Z",
-      "fileCount": 68,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "0563b219d856b67bb010d910b5e835829d4eb3f4",
       "manifests": [
@@ -80,7 +168,19 @@
       "workflowFiles": [],
       "profile": "projects/athanor/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "45242d61ee6d65983cc12e1d3d305d93aee3eac3",
+        "treeSha": "b1d81efd7deec035850fa57a457fdf021fb9279d",
+        "sourceUpdatedAt": "2026-10-07T05:41:56Z",
+        "fileCount": 68,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "0563b219d856b67bb010d910b5e835829d4eb3f4"
+      },
+      "repositoryId": "1282603382",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "StabilityMesh-Adaptive-Resilience-Control-for-Distributed-Systems",
@@ -88,9 +188,9 @@
       "sourceHead": "6a6e04b1db4a7c641a1de99671780fc22ccf9aaf",
       "treeSha": "eb90090a679135902a38b69e6138db1c6577e12e",
       "sourceUpdatedAt": "2026-10-07T05:51:39Z",
-      "fileCount": 43,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "03b2e48d456fc627815750a2f1af49deb59a5cd1",
       "manifests": [
@@ -102,7 +202,19 @@
       "workflowFiles": [],
       "profile": "projects/stabilitymesh/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "6a6e04b1db4a7c641a1de99671780fc22ccf9aaf",
+        "treeSha": "eb90090a679135902a38b69e6138db1c6577e12e",
+        "sourceUpdatedAt": "2026-10-07T05:51:39Z",
+        "fileCount": 43,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "03b2e48d456fc627815750a2f1af49deb59a5cd1"
+      },
+      "repositoryId": "1285389576",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Continuum-State-Integrity-Platform",
@@ -110,9 +222,9 @@
       "sourceHead": "779fddae41026d4df683304f073f9d8fa244048e",
       "treeSha": "eaec5edce3cf0cf84de7a5d742316bf5f963b2f1",
       "sourceUpdatedAt": "2026-10-07T05:44:50Z",
-      "fileCount": 41,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "7da5ea3a2b25b388f642d8de2f06f0781be041fc",
       "manifests": [],
@@ -124,19 +236,31 @@
       ],
       "profile": "projects/continuum-state-integrity-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "779fddae41026d4df683304f073f9d8fa244048e",
+        "treeSha": "eaec5edce3cf0cf84de7a5d742316bf5f963b2f1",
+        "sourceUpdatedAt": "2026-10-07T05:44:50Z",
+        "fileCount": 41,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "7da5ea3a2b25b388f642d8de2f06f0781be041fc"
+      },
+      "repositoryId": "1285521546",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
-      "repository": "SourceVector-Intelligence-Platform",
+      "repository": "Evidence-Intelligence-Operations-Platform",
       "ref": "TA-IP-005",
-      "sourceHead": "620213d30f3aa50120a29693d6871eb932bf4251",
-      "treeSha": "9921b5f03e67598a27554b72e52169b2329ec98e",
-      "sourceUpdatedAt": "2026-10-07T05:51:27Z",
-      "fileCount": 55,
+      "sourceHead": "0e90b908af9c1461ac9c2316236ed8b34731ebc2",
+      "treeSha": "0c1d5b154c827f36c90b7ce7d7c1d2d2ebfb23de",
+      "sourceUpdatedAt": "2026-10-16T02:22:11Z",
+      "fileCount": 73,
       "treeTruncated": false,
       "treeRead": true,
       "readmeRead": true,
-      "readmeBlobSha": "9ad821961acde3b0def0727a82c92d95e1de1514",
+      "readmeBlobSha": "c2e2d2a20ff6bb0cecbdd8342ca89841562b287f",
       "manifests": [
         "pyproject.toml"
       ],
@@ -144,9 +268,21 @@
         "LICENSE"
       ],
       "workflowFiles": [],
-      "profile": "projects/omnisynth-intelligence-engine/",
+      "profile": "projects/evidence-intelligence-operations-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "620213d30f3aa50120a29693d6871eb932bf4251",
+        "treeSha": "9921b5f03e67598a27554b72e52169b2329ec98e",
+        "sourceUpdatedAt": "2026-10-07T05:51:27Z",
+        "fileCount": 55,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "9ad821961acde3b0def0727a82c92d95e1de1514"
+      },
+      "repositoryId": "1286627819",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 1
     },
     {
       "repository": "Faunometric-Bioacoustic-Intelligence-Platform",
@@ -154,9 +290,9 @@
       "sourceHead": "5136f71fb47e518c4746aabd493acf0e0640ef00",
       "treeSha": "80988417b97513dc972d643c4530b72521119489",
       "sourceUpdatedAt": "2026-10-07T05:46:27Z",
-      "fileCount": 108,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "80a7ffcfa9ec050f1338dc07ca6a21f9cdabd502",
       "manifests": [
@@ -172,7 +308,19 @@
       ],
       "profile": "projects/faunometric/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "5136f71fb47e518c4746aabd493acf0e0640ef00",
+        "treeSha": "80988417b97513dc972d643c4530b72521119489",
+        "sourceUpdatedAt": "2026-10-07T05:46:27Z",
+        "fileCount": 108,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "80a7ffcfa9ec050f1338dc07ca6a21f9cdabd502"
+      },
+      "repositoryId": "1286652492",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "ModularKey-Cryptanalysis-Platform",
@@ -180,9 +328,9 @@
       "sourceHead": "7ae56e61201919545217900bf98ebca28f464107",
       "treeSha": "dfd06191f638f9be7ed57d50421d5fc46b170718",
       "sourceUpdatedAt": "2026-10-07T05:48:56Z",
-      "fileCount": 43,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "9fd64a909c115f7204b78ca587b1b9bce906c4c7",
       "manifests": [
@@ -194,29 +342,53 @@
       "workflowFiles": [],
       "profile": "projects/modular-key-cryptanalysis-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "7ae56e61201919545217900bf98ebca28f464107",
+        "treeSha": "dfd06191f638f9be7ed57d50421d5fc46b170718",
+        "sourceUpdatedAt": "2026-10-07T05:48:56Z",
+        "fileCount": 43,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "9fd64a909c115f7204b78ca587b1b9bce906c4c7"
+      },
+      "repositoryId": "1299914990",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
-      "repository": "TrueLane-Flora",
+      "repository": "Plant-Environment-Decision-Intelligence-Platform",
       "ref": "TA-IP-008",
-      "sourceHead": "c773b1dda3b28d773ac055d20572d5cd03f78215",
-      "treeSha": "3538af59bf5d317f8f3c8b1a8804edf5d91ae8a6",
-      "sourceUpdatedAt": "2026-10-07T05:52:20Z",
-      "fileCount": 141,
+      "sourceHead": "ff85ede411bdd26f0bd2b96e144ef075460ca614",
+      "treeSha": "93062210d6e316c26a03604ac90960b6791c1b3b",
+      "sourceUpdatedAt": "2026-10-16T02:00:39Z",
+      "fileCount": 222,
       "treeTruncated": false,
       "treeRead": true,
       "readmeRead": true,
-      "readmeBlobSha": "964d47a9822e3e1ba809886a04fa1961ff89bc4c",
+      "readmeBlobSha": "9f91e6ca86d142d4f942d754fe593fd3688a9faf",
       "manifests": [
-        "truelane-flora/truelane-flora/go.mod"
+        "plant-environment-decision-intelligence-platform/plant-environment-decision-intelligence-platform/go.mod"
       ],
       "rightsFiles": [
         "LICENSE"
       ],
       "workflowFiles": [],
-      "profile": "projects/truelane-flora/",
+      "profile": "projects/plant-environment-decision-intelligence-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "c773b1dda3b28d773ac055d20572d5cd03f78215",
+        "treeSha": "3538af59bf5d317f8f3c8b1a8804edf5d91ae8a6",
+        "sourceUpdatedAt": "2026-10-07T05:52:20Z",
+        "fileCount": 141,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "964d47a9822e3e1ba809886a04fa1961ff89bc4c"
+      },
+      "repositoryId": "1324064685",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Custody-Integrity-Assurance-Platform",
@@ -224,9 +396,9 @@
       "sourceHead": "d6522a06ba9c1bb291ff76f42fa7bdfde25d07ed",
       "treeSha": "4adc5f6d7c62521c96b1d7b728d7ed08ba2408aa",
       "sourceUpdatedAt": "2026-10-07T05:45:01Z",
-      "fileCount": 85,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "76ca78af8c71d44a7749ce38164a7efaf74a2ae7",
       "manifests": [],
@@ -236,7 +408,19 @@
       "workflowFiles": [],
       "profile": "projects/custody-integrity-assurance-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "d6522a06ba9c1bb291ff76f42fa7bdfde25d07ed",
+        "treeSha": "4adc5f6d7c62521c96b1d7b728d7ed08ba2408aa",
+        "sourceUpdatedAt": "2026-10-07T05:45:01Z",
+        "fileCount": 85,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "76ca78af8c71d44a7749ce38164a7efaf74a2ae7"
+      },
+      "repositoryId": "1324075308",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "TLS-Virtual-1",
@@ -244,9 +428,9 @@
       "sourceHead": "2192bafec863eec3601bc396bf55a56bb61c10cc",
       "treeSha": "adbd240436be604934eaa7821d5890f6de477e75",
       "sourceUpdatedAt": "2026-10-07T05:51:44Z",
-      "fileCount": 93,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "b7dd340b5b425b9a01e596f65c7e24c23ddafbdd",
       "manifests": [
@@ -261,7 +445,19 @@
       "workflowFiles": [],
       "profile": "projects/tls-virtual/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "2192bafec863eec3601bc396bf55a56bb61c10cc",
+        "treeSha": "adbd240436be604934eaa7821d5890f6de477e75",
+        "sourceUpdatedAt": "2026-10-07T05:51:44Z",
+        "fileCount": 93,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "b7dd340b5b425b9a01e596f65c7e24c23ddafbdd"
+      },
+      "repositoryId": "1324078728",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Research-Intelligence-Fabric.",
@@ -269,9 +465,9 @@
       "sourceHead": "f6d0c94233ba0060ef0e26ba9dda21f2e205e4ba",
       "treeSha": "de138863fba0fcbf2f7ccfb424acdc400287d3ae",
       "sourceUpdatedAt": "2026-10-07T05:50:17Z",
-      "fileCount": 61,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "4f0fe7f3d128dce47c3ab0c2a372bf41775f8ebd",
       "manifests": [
@@ -283,19 +479,31 @@
       "workflowFiles": [],
       "profile": "projects/research-intelligence-fabric/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "f6d0c94233ba0060ef0e26ba9dda21f2e205e4ba",
+        "treeSha": "de138863fba0fcbf2f7ccfb424acdc400287d3ae",
+        "sourceUpdatedAt": "2026-10-07T05:50:17Z",
+        "fileCount": 61,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "4f0fe7f3d128dce47c3ab0c2a372bf41775f8ebd"
+      },
+      "repositoryId": "1324082910",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Evidence-Governed-Visual-Intelligence-Platform",
       "ref": "TA-IP-012",
-      "sourceHead": "b99e5047c59eacd229f1807de989236d1ffcea73",
-      "treeSha": "b5cdfa70b31058376044bd5bb9b9a2e0b3af8b18",
-      "sourceUpdatedAt": "2026-10-07T05:46:04Z",
-      "fileCount": 158,
+      "sourceHead": "85c1cdfd72b1be2f5c1a572ec7f85de04217c93d",
+      "treeSha": "85c1cdfd72b1be2f5c1a572ec7f85de04217c93d",
+      "sourceUpdatedAt": "2026-10-16T05:50:22Z",
+      "fileCount": 190,
       "treeTruncated": false,
       "treeRead": true,
       "readmeRead": true,
-      "readmeBlobSha": "c9b064d038adeca68183812045c956afdfa4d2b7",
+      "readmeBlobSha": "b428d6768514ddd853f2ffcb562764e4f448be34",
       "manifests": [
         "pyproject.toml"
       ],
@@ -305,7 +513,19 @@
       "workflowFiles": [],
       "profile": "projects/evidence-governed-visual-intelligence-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "b99e5047c59eacd229f1807de989236d1ffcea73",
+        "treeSha": "b5cdfa70b31058376044bd5bb9b9a2e0b3af8b18",
+        "sourceUpdatedAt": "2026-10-07T05:46:04Z",
+        "fileCount": 158,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "c9b064d038adeca68183812045c956afdfa4d2b7"
+      },
+      "repositoryId": "1324090907",
+      "sourceCheckedAt": "2026-10-16T06:35:07Z",
+      "openPullRequests": 0
     },
     {
       "repository": "TrueLane-Intelligence-Engine",
@@ -313,9 +533,9 @@
       "sourceHead": "52a9de8d475f0b08b238047f435b71fb092a8081",
       "treeSha": "13c022cf174b5f11c1f73a2f020520bb37fa3201",
       "sourceUpdatedAt": "2026-10-10T20:31:59Z",
-      "fileCount": 152,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "03fdf9ff6dc96df75d031144953f70c2ba13e2a1",
       "manifests": [
@@ -330,7 +550,19 @@
       "workflowFiles": [],
       "profile": "projects/truelane-intelligence-engine/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "52a9de8d475f0b08b238047f435b71fb092a8081",
+        "treeSha": "13c022cf174b5f11c1f73a2f020520bb37fa3201",
+        "sourceUpdatedAt": "2026-10-10T20:31:59Z",
+        "fileCount": 152,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "03fdf9ff6dc96df75d031144953f70c2ba13e2a1"
+      },
+      "repositoryId": "1324123386",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Protein-Structure-Evidence-Qualification-Platform",
@@ -338,9 +570,9 @@
       "sourceHead": "df7a4b0a01ef3c07d0be972a32b0fecb03c1b9b0",
       "treeSha": "6349f0c321100e2ca1d202cc7b80650fa8826ba3",
       "sourceUpdatedAt": "2026-10-07T05:49:49Z",
-      "fileCount": 326,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "e1524489cacc4ffbfa69b717b482b8dca34ad0ca",
       "manifests": [
@@ -352,19 +584,31 @@
       "workflowFiles": [],
       "profile": "projects/protein-structure-evidence-qualification-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "df7a4b0a01ef3c07d0be972a32b0fecb03c1b9b0",
+        "treeSha": "6349f0c321100e2ca1d202cc7b80650fa8826ba3",
+        "sourceUpdatedAt": "2026-10-07T05:49:49Z",
+        "fileCount": 326,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "e1524489cacc4ffbfa69b717b482b8dca34ad0ca"
+      },
+      "repositoryId": "1336515560",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 1
     },
     {
       "repository": "Signal-Processing-Universal-Framework",
       "ref": "TA-IP-016",
-      "sourceHead": "8a115c904955797155b6463fd2cda415899223d3",
-      "treeSha": "d84fbba973d2ef22916b124c04c322c70459a135",
-      "sourceUpdatedAt": "2026-10-07T05:51:00Z",
-      "fileCount": 54,
+      "sourceHead": "32073ef1c45b490e0669acb995f20e891601ddc8",
+      "treeSha": "32073ef1c45b490e0669acb995f20e891601ddc8",
+      "sourceUpdatedAt": "2026-10-16T06:30:13Z",
+      "fileCount": 111,
       "treeTruncated": false,
       "treeRead": true,
       "readmeRead": true,
-      "readmeBlobSha": "68e4042caac67bccd1267f2c76d6eae000c8e015",
+      "readmeBlobSha": "8bebf32085b1b3f6091f4c230a7101b23bb553fa",
       "manifests": [
         "pyproject.toml"
       ],
@@ -374,7 +618,19 @@
       "workflowFiles": [],
       "profile": "projects/signal-processing-universal-framework/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "8a115c904955797155b6463fd2cda415899223d3",
+        "treeSha": "d84fbba973d2ef22916b124c04c322c70459a135",
+        "sourceUpdatedAt": "2026-10-07T05:51:00Z",
+        "fileCount": 54,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "68e4042caac67bccd1267f2c76d6eae000c8e015"
+      },
+      "repositoryId": "1337938556",
+      "sourceCheckedAt": "2026-10-16T06:35:07Z",
+      "openPullRequests": 0
     },
     {
       "repository": "High-Speed-Air-to-Water-Transition-Vehicle",
@@ -382,9 +638,9 @@
       "sourceHead": "51697347299d306be7d161c86269bbbd378e2a37",
       "treeSha": "4b79a1f06c206f1717a51b88e8d8c79c15ecbed3",
       "sourceUpdatedAt": "2026-10-07T05:46:49Z",
-      "fileCount": 27,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "79d40895752f19e6a8e164cb7d7c08c8f242f387",
       "manifests": [
@@ -398,7 +654,19 @@
       ],
       "profile": "projects/air-to-water-transition-vehicle/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "51697347299d306be7d161c86269bbbd378e2a37",
+        "treeSha": "4b79a1f06c206f1717a51b88e8d8c79c15ecbed3",
+        "sourceUpdatedAt": "2026-10-07T05:46:49Z",
+        "fileCount": 27,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "79d40895752f19e6a8e164cb7d7c08c8f242f387"
+      },
+      "repositoryId": "1337962115",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Verifiable-Execution-Control-Platform",
@@ -406,9 +674,9 @@
       "sourceHead": "fd959ee476a0c2bc85803c7070207faf050e800c",
       "treeSha": "7cff0c10edf0906876aa2e6cb343017ad192b49a",
       "sourceUpdatedAt": "2026-10-07T05:53:10Z",
-      "fileCount": 144,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "c4b4f25445f58905979e7ed951b2881d835f3a60",
       "manifests": [
@@ -427,7 +695,19 @@
       ],
       "profile": "projects/verifiable-execution-control-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "fd959ee476a0c2bc85803c7070207faf050e800c",
+        "treeSha": "7cff0c10edf0906876aa2e6cb343017ad192b49a",
+        "sourceUpdatedAt": "2026-10-07T05:53:10Z",
+        "fileCount": 144,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "c4b4f25445f58905979e7ed951b2881d835f3a60"
+      },
+      "repositoryId": "1338011602",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 4
     },
     {
       "repository": "Organizational-Memory-Engine",
@@ -435,9 +715,9 @@
       "sourceHead": "7756e95c726b2564eb170cbb038ae42ac4d55889",
       "treeSha": "183708aea89c7171d9ab59ba8e79a1f6bc683efe",
       "sourceUpdatedAt": "2026-10-07T05:49:21Z",
-      "fileCount": 131,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "eafac650608cdb62f46c158893ed074f070ca08c",
       "manifests": [
@@ -453,19 +733,31 @@
       ],
       "profile": "projects/organizational-memory-engine/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "7756e95c726b2564eb170cbb038ae42ac4d55889",
+        "treeSha": "183708aea89c7171d9ab59ba8e79a1f6bc683efe",
+        "sourceUpdatedAt": "2026-10-07T05:49:21Z",
+        "fileCount": 131,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "eafac650608cdb62f46c158893ed074f070ca08c"
+      },
+      "repositoryId": "1338859774",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Machine-Cognition-Research-Framework",
       "ref": "TA-IP-020",
-      "sourceHead": "8cb56a1a8e52f9c82f6471eab888662561dbc935",
-      "treeSha": "bb400a33a64f4cc4f30e7320285d8ef3c2c83edd",
-      "sourceUpdatedAt": "2026-10-07T05:48:32Z",
-      "fileCount": 54,
+      "sourceHead": "ce4d3f92aa5439954b03755dd3082b2c4641e37e",
+      "treeSha": "ce4d3f92aa5439954b03755dd3082b2c4641e37e",
+      "sourceUpdatedAt": "2026-10-16T06:32:26Z",
+      "fileCount": 58,
       "treeTruncated": false,
       "treeRead": true,
       "readmeRead": true,
-      "readmeBlobSha": "d2dd22fefba4114c16cba65bef881d522f352173",
+      "readmeBlobSha": "8562b0baa8795f1ff8e4133fa7ac36f83fcf13fb",
       "manifests": [
         "pyproject.toml"
       ],
@@ -475,7 +767,19 @@
       "workflowFiles": [],
       "profile": "projects/machine-cognition-research-framework/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "8cb56a1a8e52f9c82f6471eab888662561dbc935",
+        "treeSha": "bb400a33a64f4cc4f30e7320285d8ef3c2c83edd",
+        "sourceUpdatedAt": "2026-10-07T05:48:32Z",
+        "fileCount": 54,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "d2dd22fefba4114c16cba65bef881d522f352173"
+      },
+      "repositoryId": "1338911391",
+      "sourceCheckedAt": "2026-10-16T06:35:07Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Cipher-Lyric-Engine",
@@ -483,9 +787,9 @@
       "sourceHead": "914744cfa0d644b34fadee3b88f1795ecbf5c966",
       "treeSha": "ccb4fc3332211331fa02c1d6a3e9b655ea6081f4",
       "sourceUpdatedAt": "2026-10-07T05:44:24Z",
-      "fileCount": 190,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "9d7798604ac572710482598b41bf82b89dd9bf22",
       "manifests": [
@@ -499,7 +803,19 @@
       ],
       "profile": "projects/cipher-lyric-engine/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "914744cfa0d644b34fadee3b88f1795ecbf5c966",
+        "treeSha": "ccb4fc3332211331fa02c1d6a3e9b655ea6081f4",
+        "sourceUpdatedAt": "2026-10-07T05:44:24Z",
+        "fileCount": 190,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "9d7798604ac572710482598b41bf82b89dd9bf22"
+      },
+      "repositoryId": "1338947823",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Distributed-AI-Resource-Fabric",
@@ -507,9 +823,9 @@
       "sourceHead": "29cd6da7dab0cd7c9be5abfab30f381ba931454e",
       "treeSha": "7e9c411616722cd95dcdc407a1be293fedbf0e83",
       "sourceUpdatedAt": "2026-10-10T04:39:41Z",
-      "fileCount": 152,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "b00976230f3a0bdfa420991fa097d1fa58b4722e",
       "manifests": [
@@ -521,7 +837,19 @@
       "workflowFiles": [],
       "profile": "projects/distributed-ai-resource-fabric/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "29cd6da7dab0cd7c9be5abfab30f381ba931454e",
+        "treeSha": "7e9c411616722cd95dcdc407a1be293fedbf0e83",
+        "sourceUpdatedAt": "2026-10-10T04:39:41Z",
+        "fileCount": 152,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "b00976230f3a0bdfa420991fa097d1fa58b4722e"
+      },
+      "repositoryId": "1339002232",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 7
     },
     {
       "repository": "DMT-Laser-Phenomenology-Engine",
@@ -529,9 +857,9 @@
       "sourceHead": "ba4e0db8e7b81146aa8e4ba9211b30e5ca5acb6b",
       "treeSha": "a88ff9fc1337a343f6d96c37aebae6113e92c809",
       "sourceUpdatedAt": "2026-10-07T05:45:06Z",
-      "fileCount": 239,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "efc55de0c7b51f8180feff55458e59422d255ad8",
       "manifests": [
@@ -543,7 +871,19 @@
       "workflowFiles": [],
       "profile": "projects/dmt-laser-phenomenology-engine/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "ba4e0db8e7b81146aa8e4ba9211b30e5ca5acb6b",
+        "treeSha": "a88ff9fc1337a343f6d96c37aebae6113e92c809",
+        "sourceUpdatedAt": "2026-10-07T05:45:06Z",
+        "fileCount": 239,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "efc55de0c7b51f8180feff55458e59422d255ad8"
+      },
+      "repositoryId": "1339070072",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Universal-Kernel-Machine",
@@ -551,9 +891,9 @@
       "sourceHead": "a7351d51ae6ed0baba091d7aee4f1939007fc7fd",
       "treeSha": "44ecc6db00ccd0ed3ea5c00f1e4ece3258b45f86",
       "sourceUpdatedAt": "2026-10-07T05:52:46Z",
-      "fileCount": 42,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "63e63ad28af85fc7e24ccf2acfea3a8cb1dbc0c0",
       "manifests": [
@@ -569,7 +909,19 @@
       ],
       "profile": "projects/universal-kernel-machine/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "a7351d51ae6ed0baba091d7aee4f1939007fc7fd",
+        "treeSha": "44ecc6db00ccd0ed3ea5c00f1e4ece3258b45f86",
+        "sourceUpdatedAt": "2026-10-07T05:52:46Z",
+        "fileCount": 42,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "63e63ad28af85fc7e24ccf2acfea3a8cb1dbc0c0"
+      },
+      "repositoryId": "1339113298",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Sensor-Fusion-Digital-Twin-Engine",
@@ -577,9 +929,9 @@
       "sourceHead": "18bfbb95f3369630f680503de7139cf9ea150bb9",
       "treeSha": "e94a23ac3cc7a7b357f084c00d9c1a1b6dcdbefa",
       "sourceUpdatedAt": "2026-10-07T05:50:55Z",
-      "fileCount": 32,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "e0d941fcd8caaa4210f3db5da03730c58f9fef89",
       "manifests": [
@@ -591,7 +943,19 @@
       "workflowFiles": [],
       "profile": "projects/sensor-fusion-digital-twin-engine/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "18bfbb95f3369630f680503de7139cf9ea150bb9",
+        "treeSha": "e94a23ac3cc7a7b357f084c00d9c1a1b6dcdbefa",
+        "sourceUpdatedAt": "2026-10-07T05:50:55Z",
+        "fileCount": 32,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "e0d941fcd8caaa4210f3db5da03730c58f9fef89"
+      },
+      "repositoryId": "1339133358",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Dominus-Kraken-Execution-Engine",
@@ -599,9 +963,9 @@
       "sourceHead": "272798957490e6d6d4b13f50348a0837f1680860",
       "treeSha": "dbcebf32e7a4f08acff33fb8a58702e43b46acf9",
       "sourceUpdatedAt": "2026-10-07T05:45:40Z",
-      "fileCount": 201,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "ab75991f861665efb25d07fc33689d81747fa8c1",
       "manifests": [
@@ -615,7 +979,19 @@
       "workflowFiles": [],
       "profile": "projects/dominus-kraken-execution-engine/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "272798957490e6d6d4b13f50348a0837f1680860",
+        "treeSha": "dbcebf32e7a4f08acff33fb8a58702e43b46acf9",
+        "sourceUpdatedAt": "2026-10-07T05:45:40Z",
+        "fileCount": 201,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "ab75991f861665efb25d07fc33689d81747fa8c1"
+      },
+      "repositoryId": "1339295977",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Autonomous-Adaptation-Framework",
@@ -623,9 +999,9 @@
       "sourceHead": "226bfb228226bb64146e87b55950552a7b9f5dd5",
       "treeSha": "240275fdf80eb2a087f4b78c72e7142151742ab7",
       "sourceUpdatedAt": "2026-10-07T05:43:32Z",
-      "fileCount": 179,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "4ee253b4b10680b3ecae8c1129f2590e0a866a75",
       "manifests": [
@@ -638,7 +1014,19 @@
       "workflowFiles": [],
       "profile": "projects/autonomous-adaptation-framework/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "226bfb228226bb64146e87b55950552a7b9f5dd5",
+        "treeSha": "240275fdf80eb2a087f4b78c72e7142151742ab7",
+        "sourceUpdatedAt": "2026-10-07T05:43:32Z",
+        "fileCount": 179,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "4ee253b4b10680b3ecae8c1129f2590e0a866a75"
+      },
+      "repositoryId": "1339367236",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Resource-Aware-Hybrid-Model-Orchestration-Platform",
@@ -646,9 +1034,9 @@
       "sourceHead": "5c1ce5919e4453d7bbec3ae4b173b3cefa84e5c9",
       "treeSha": "8805d75fbd42725cb5274cc5ff742827214ca536",
       "sourceUpdatedAt": "2026-10-07T05:50:40Z",
-      "fileCount": 4,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "8764bf4340b53609fe8bc59baea7e1c81b88db19",
       "manifests": [],
@@ -658,7 +1046,19 @@
       "workflowFiles": [],
       "profile": "projects/resource-aware-hybrid-model-orchestration-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "5c1ce5919e4453d7bbec3ae4b173b3cefa84e5c9",
+        "treeSha": "8805d75fbd42725cb5274cc5ff742827214ca536",
+        "sourceUpdatedAt": "2026-10-07T05:50:40Z",
+        "fileCount": 4,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "8764bf4340b53609fe8bc59baea7e1c81b88db19"
+      },
+      "repositoryId": "1340046191",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 1
     },
     {
       "repository": "Veritas-Evidence-Intelligence",
@@ -666,9 +1066,9 @@
       "sourceHead": "d049cc3388cc8c74cc229bfcec1dd37d731d9597",
       "treeSha": "3687d7e0fa31c44d82cb3915140b4a989e7b7f51",
       "sourceUpdatedAt": "2026-10-07T05:53:15Z",
-      "fileCount": 222,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "43901163775fb3aedb46849a7aa9070485810a71",
       "manifests": [
@@ -682,7 +1082,19 @@
       ],
       "profile": "projects/veritas-evidence-intelligence/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "d049cc3388cc8c74cc229bfcec1dd37d731d9597",
+        "treeSha": "3687d7e0fa31c44d82cb3915140b4a989e7b7f51",
+        "sourceUpdatedAt": "2026-10-07T05:53:15Z",
+        "fileCount": 222,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "43901163775fb3aedb46849a7aa9070485810a71"
+      },
+      "repositoryId": "1340058412",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Aerospace-Mission-Simulator",
@@ -690,9 +1102,9 @@
       "sourceHead": "2c47096a6004c9b25eec50f91e065cf9284aa7ec",
       "treeSha": "d3ba7d9b7fc515e1e26be45bae85cd400996c02d",
       "sourceUpdatedAt": "2026-10-07T05:43:22Z",
-      "fileCount": 64,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "54f3bfca7aad39744c36269937f873055e9fbd96",
       "manifests": [
@@ -704,7 +1116,19 @@
       "workflowFiles": [],
       "profile": "projects/aerospace-mission-simulator/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "2c47096a6004c9b25eec50f91e065cf9284aa7ec",
+        "treeSha": "d3ba7d9b7fc515e1e26be45bae85cd400996c02d",
+        "sourceUpdatedAt": "2026-10-07T05:43:22Z",
+        "fileCount": 64,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "54f3bfca7aad39744c36269937f873055e9fbd96"
+      },
+      "repositoryId": "1340118217",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "MT2050-Experimental-Dynamics",
@@ -712,9 +1136,9 @@
       "sourceHead": "64cda01db464c445dbc464ef359ef06e2984aba4",
       "treeSha": "52096c64d3c8111306e716ef00d58973d9ddf3dd",
       "sourceUpdatedAt": "2026-10-07T05:48:16Z",
-      "fileCount": 179,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "5f75ebd31ebd03e06aba24dcda46e3d6228584fa",
       "manifests": [
@@ -726,7 +1150,19 @@
       "workflowFiles": [],
       "profile": "projects/mt2050-experimental-dynamics/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "64cda01db464c445dbc464ef359ef06e2984aba4",
+        "treeSha": "52096c64d3c8111306e716ef00d58973d9ddf3dd",
+        "sourceUpdatedAt": "2026-10-07T05:48:16Z",
+        "fileCount": 179,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "5f75ebd31ebd03e06aba24dcda46e3d6228584fa"
+      },
+      "repositoryId": "1340141430",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Electric-Flight-Systems-Simulation-Validation-Platform",
@@ -734,9 +1170,9 @@
       "sourceHead": "51689e41e447f8a9ccebc8c0a2ea78b56dccf124",
       "treeSha": "fb0e8537e9fba1525fdc6a3d44ff55cd13a649f9",
       "sourceUpdatedAt": "2026-10-07T05:45:45Z",
-      "fileCount": 42,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "1ae3c7196cde0a5def48505f4d2ae7fd40166ece",
       "manifests": [
@@ -750,7 +1186,19 @@
       ],
       "profile": "projects/electric-flight-systems-simulation-validation-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "51689e41e447f8a9ccebc8c0a2ea78b56dccf124",
+        "treeSha": "fb0e8537e9fba1525fdc6a3d44ff55cd13a649f9",
+        "sourceUpdatedAt": "2026-10-07T05:45:45Z",
+        "fileCount": 42,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "1ae3c7196cde0a5def48505f4d2ae7fd40166ece"
+      },
+      "repositoryId": "1340201110",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "LegalOps-NL",
@@ -758,9 +1206,9 @@
       "sourceHead": "213e3f7a705659f96db0f4d85c71f5ea09e828d2",
       "treeSha": "d23808f761b30e1eb036162ffecfefbe59994c5d",
       "sourceUpdatedAt": "2026-10-07T05:48:07Z",
-      "fileCount": 83,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "97687469d3da9bedc71f6c1b8353d6afa5d5eb82",
       "manifests": [],
@@ -772,7 +1220,19 @@
       ],
       "profile": "projects/legalops-nl/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "213e3f7a705659f96db0f4d85c71f5ea09e828d2",
+        "treeSha": "d23808f761b30e1eb036162ffecfefbe59994c5d",
+        "sourceUpdatedAt": "2026-10-07T05:48:07Z",
+        "fileCount": 83,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "97687469d3da9bedc71f6c1b8353d6afa5d5eb82"
+      },
+      "repositoryId": "1340273080",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 2
     },
     {
       "repository": "Advanced-Ground-Vehicle-Engineering",
@@ -780,9 +1240,9 @@
       "sourceHead": "33baadbc08a7391c5391e4aaa2b062d2fb012c81",
       "treeSha": "f0343342d216e5aed754edc39f6f087cf6a11373",
       "sourceUpdatedAt": "2026-10-07T05:43:18Z",
-      "fileCount": 58,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "eab06782ca3d8fef3a25e56643efc3751e76ae23",
       "manifests": [],
@@ -792,7 +1252,19 @@
       "workflowFiles": [],
       "profile": "projects/advanced-ground-vehicle-engineering/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "33baadbc08a7391c5391e4aaa2b062d2fb012c81",
+        "treeSha": "f0343342d216e5aed754edc39f6f087cf6a11373",
+        "sourceUpdatedAt": "2026-10-07T05:43:18Z",
+        "fileCount": 58,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "eab06782ca3d8fef3a25e56643efc3751e76ae23"
+      },
+      "repositoryId": "1340499668",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Biometric-Systems-Assurance-Platform",
@@ -800,9 +1272,9 @@
       "sourceHead": "762ae11013ce5547ee75ecd126e2f7d4c71da46c",
       "treeSha": "df2b18f8c368c17564fb7c7625240f7f0098a3c4",
       "sourceUpdatedAt": "2026-10-07T05:44:05Z",
-      "fileCount": 95,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "4970abd00977ec431242be79aa9981231b3aa07c",
       "manifests": [
@@ -815,7 +1287,19 @@
       "workflowFiles": [],
       "profile": "projects/biometric-systems-assurance-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "762ae11013ce5547ee75ecd126e2f7d4c71da46c",
+        "treeSha": "df2b18f8c368c17564fb7c7625240f7f0098a3c4",
+        "sourceUpdatedAt": "2026-10-07T05:44:05Z",
+        "fileCount": 95,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "4970abd00977ec431242be79aa9981231b3aa07c"
+      },
+      "repositoryId": "1340526664",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Engineering-Intelligence-Mastery-Platform",
@@ -823,9 +1307,9 @@
       "sourceHead": "a4f390b15abcadc01057162f08df3ad32667bb8f",
       "treeSha": "22054ed49b8bff1b60cc565b34c2d1908a87bc0b",
       "sourceUpdatedAt": "2026-10-07T05:45:50Z",
-      "fileCount": 727,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "1f5d3d0fc02d316b98720f10ae75b531f3d2d6c1",
       "manifests": [
@@ -837,9 +1321,21 @@
       "workflowFiles": [
         ".github/workflows/validate.yml"
       ],
-      "profile": "projects/truelane-engineering-excellence/",
+      "profile": "projects/engineering-intelligence-mastery-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "a4f390b15abcadc01057162f08df3ad32667bb8f",
+        "treeSha": "22054ed49b8bff1b60cc565b34c2d1908a87bc0b",
+        "sourceUpdatedAt": "2026-10-07T05:45:50Z",
+        "fileCount": 727,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "1f5d3d0fc02d316b98720f10ae75b531f3d2d6c1"
+      },
+      "repositoryId": "1340562001",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "MOTHERCODE-Research-Engine",
@@ -847,9 +1343,9 @@
       "sourceHead": "78d626941a80e8ed5819da6d43c0350a0514a9f4",
       "treeSha": "a2f635769e09f5a1e464d1686644b5fbb287b5b5",
       "sourceUpdatedAt": "2026-10-07T05:48:12Z",
-      "fileCount": 4,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "723b60956accf9f33712333aeabb005e7842448b",
       "manifests": [],
@@ -859,19 +1355,31 @@
       "workflowFiles": [],
       "profile": "projects/mothercode-research-engine/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "78d626941a80e8ed5819da6d43c0350a0514a9f4",
+        "treeSha": "a2f635769e09f5a1e464d1686644b5fbb287b5b5",
+        "sourceUpdatedAt": "2026-10-07T05:48:12Z",
+        "fileCount": 4,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "723b60956accf9f33712333aeabb005e7842448b"
+      },
+      "repositoryId": "1342211959",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 1
     },
     {
       "repository": "Integrated-Media-Production-Engine",
       "ref": "TA-IP-038",
-      "sourceHead": "c72ab4961955b81c0932e16fcd3e94a5f943d894",
-      "treeSha": "7f64ef6ab34ee4720bc5c5af4d207b6f3977d808",
-      "sourceUpdatedAt": "2026-10-07T05:47:22Z",
-      "fileCount": 241,
+      "sourceHead": "4fb34a9155fc1041a616dd024ac2d31f1dfcaa09",
+      "treeSha": "e87851dee81877228e884f68fa41e58e93908307",
+      "sourceUpdatedAt": "2026-10-15T00:15:02Z",
+      "fileCount": 290,
       "treeTruncated": false,
       "treeRead": true,
       "readmeRead": true,
-      "readmeBlobSha": "331e0a610020b3989e5b407ff77bd7872849b535",
+      "readmeBlobSha": "4a89b646251e8916ddba5ae5e2d1ee2c81ef304e",
       "manifests": [
         "pyproject.toml"
       ],
@@ -885,7 +1393,19 @@
       ],
       "profile": "projects/integrated-media-production-engine/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "c72ab4961955b81c0932e16fcd3e94a5f943d894",
+        "treeSha": "7f64ef6ab34ee4720bc5c5af4d207b6f3977d808",
+        "sourceUpdatedAt": "2026-10-07T05:47:22Z",
+        "fileCount": 241,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "331e0a610020b3989e5b407ff77bd7872849b535"
+      },
+      "repositoryId": "1342342948",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Evidence-Governed-Software-Assurance-Platform",
@@ -893,9 +1413,9 @@
       "sourceHead": "5e72ef1971367fa28d5d9818ba13db17eacc142e",
       "treeSha": "3b29c1edd454e6a52eaffdb7fdc1217d0022bf08",
       "sourceUpdatedAt": "2026-10-07T05:45:59Z",
-      "fileCount": 582,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "df5fab7ad770c846ae84c69b910932816cfa79f0",
       "manifests": [
@@ -907,7 +1427,19 @@
       "workflowFiles": [],
       "profile": "projects/evidence-governed-software-assurance-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "5e72ef1971367fa28d5d9818ba13db17eacc142e",
+        "treeSha": "3b29c1edd454e6a52eaffdb7fdc1217d0022bf08",
+        "sourceUpdatedAt": "2026-10-07T05:45:59Z",
+        "fileCount": 582,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "df5fab7ad770c846ae84c69b910932816cfa79f0"
+      },
+      "repositoryId": "1342485469",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "ORACULUM-INFINITUM",
@@ -915,9 +1447,9 @@
       "sourceHead": "c0cb8b4595593d84c783d03a3bf0d10cef114050",
       "treeSha": "9fc9de5cbcb445b7fd6db3a196a908cc8ca051ca",
       "sourceUpdatedAt": "2026-10-07T05:49:06Z",
-      "fileCount": 51,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "d4a84c3c1cbf01e37aae55fc6fdf6d6396574bbd",
       "manifests": [
@@ -929,7 +1461,19 @@
       "workflowFiles": [],
       "profile": "projects/oraculum-infinitum/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "c0cb8b4595593d84c783d03a3bf0d10cef114050",
+        "treeSha": "9fc9de5cbcb445b7fd6db3a196a908cc8ca051ca",
+        "sourceUpdatedAt": "2026-10-07T05:49:06Z",
+        "fileCount": 51,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "d4a84c3c1cbf01e37aae55fc6fdf6d6396574bbd"
+      },
+      "repositoryId": "1342544243",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "CipherRouteDB",
@@ -937,9 +1481,9 @@
       "sourceHead": "175e0a9d0de6e7e636c34f78b3e4adbe889f1ef1",
       "treeSha": "59c017190f2eb011a8db91d76d16a0fe92dc40e9",
       "sourceUpdatedAt": "2026-10-07T05:44:40Z",
-      "fileCount": 114,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "d432c0764a187fe1237d1d4faa271275bc3c6ba4",
       "manifests": [],
@@ -949,7 +1493,19 @@
       "workflowFiles": [],
       "profile": "projects/cipherroutedb/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "175e0a9d0de6e7e636c34f78b3e4adbe889f1ef1",
+        "treeSha": "59c017190f2eb011a8db91d76d16a0fe92dc40e9",
+        "sourceUpdatedAt": "2026-10-07T05:44:40Z",
+        "fileCount": 114,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "d432c0764a187fe1237d1d4faa271275bc3c6ba4"
+      },
+      "repositoryId": "1344223364",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "AxiomFactor",
@@ -957,9 +1513,9 @@
       "sourceHead": "3ed23766e21e49567d3abae6ca2e9b68e6ab5958",
       "treeSha": "377bb05912bb7c0f41a2ca1aa871e6ddab37a8aa",
       "sourceUpdatedAt": "2026-10-07T05:43:54Z",
-      "fileCount": 186,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "fbbf2b5be16c4626497c50a403af58ddd1689cb2",
       "manifests": [
@@ -971,7 +1527,19 @@
       "workflowFiles": [],
       "profile": "projects/axiomfactor/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "3ed23766e21e49567d3abae6ca2e9b68e6ab5958",
+        "treeSha": "377bb05912bb7c0f41a2ca1aa871e6ddab37a8aa",
+        "sourceUpdatedAt": "2026-10-07T05:43:54Z",
+        "fileCount": 186,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "fbbf2b5be16c4626497c50a403af58ddd1689cb2"
+      },
+      "repositoryId": "1344308535",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "LatticeDepth-Subsurface-Materials-Evidence-Qualification-Platform",
@@ -979,9 +1547,9 @@
       "sourceHead": "81090d0356850c932436ceb8d692b812aa55ba25",
       "treeSha": "fe6e31e3d7cae95a315bd1164dcf6f0d89ba9f09",
       "sourceUpdatedAt": "2026-10-07T05:48:02Z",
-      "fileCount": 560,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "17c3ea0904904c9f1738430c64b4bc9bf3d1b106",
       "manifests": [
@@ -1002,7 +1570,19 @@
       "workflowFiles": [],
       "profile": "projects/latticedepth/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "81090d0356850c932436ceb8d692b812aa55ba25",
+        "treeSha": "fe6e31e3d7cae95a315bd1164dcf6f0d89ba9f09",
+        "sourceUpdatedAt": "2026-10-07T05:48:02Z",
+        "fileCount": 560,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "17c3ea0904904c9f1738430c64b4bc9bf3d1b106"
+      },
+      "repositoryId": "1344339742",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "ISBR-SecureTrace",
@@ -1010,9 +1590,9 @@
       "sourceHead": "fd60ef0bf79c5cd490319989a69e071ebbb18ea7",
       "treeSha": "687adb5470b432a11ac41a002bb070d40c138dc2",
       "sourceUpdatedAt": "2026-10-07T05:47:12Z",
-      "fileCount": 244,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "caa14cac352c145262caa9e945ca5db360cde421",
       "manifests": [
@@ -1026,7 +1606,19 @@
       ],
       "profile": "projects/isbr-securetrace/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "fd60ef0bf79c5cd490319989a69e071ebbb18ea7",
+        "treeSha": "687adb5470b432a11ac41a002bb070d40c138dc2",
+        "sourceUpdatedAt": "2026-10-07T05:47:12Z",
+        "fileCount": 244,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "caa14cac352c145262caa9e945ca5db360cde421"
+      },
+      "repositoryId": "1345588302",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Mercorion-Commerce-Compiler",
@@ -1034,9 +1626,9 @@
       "sourceHead": "4090d0dc2e50848fe7b5110c09dc34ba9417c1df",
       "treeSha": "3597836065a31c8c3c346aad4fdb29ccb2101360",
       "sourceUpdatedAt": "2026-10-07T05:48:51Z",
-      "fileCount": 48,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "9f484d8b6dd67cd13f5d1c525c062f76d5ca75cd",
       "manifests": [
@@ -1051,19 +1643,31 @@
       "workflowFiles": [],
       "profile": "projects/mercorion-commerce-compiler/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "4090d0dc2e50848fe7b5110c09dc34ba9417c1df",
+        "treeSha": "3597836065a31c8c3c346aad4fdb29ccb2101360",
+        "sourceUpdatedAt": "2026-10-07T05:48:51Z",
+        "fileCount": 48,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "9f484d8b6dd67cd13f5d1c525c062f76d5ca75cd"
+      },
+      "repositoryId": "1345592827",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "SonicFabric",
       "ref": "TA-IP-046",
-      "sourceHead": "cdfc7df5dba46500fb9ed00d7c1476431d9a679d",
-      "treeSha": "4ae90c62b32262e05fc26f961d2947db1822ec4c",
-      "sourceUpdatedAt": "2026-10-07T05:51:10Z",
-      "fileCount": 344,
+      "sourceHead": "23462ac10621ab1b305e8f6c1aacbd1b99bf43d0",
+      "treeSha": "df791079fa0a45e2e514d923f81aa87d19c15713",
+      "sourceUpdatedAt": "2026-10-14T04:47:44Z",
+      "fileCount": 351,
       "treeTruncated": false,
       "treeRead": true,
       "readmeRead": true,
-      "readmeBlobSha": "89b8e47789868d7c4d28a7a2a5103bbe42fd89d8",
+      "readmeBlobSha": "585b8c76c80a979925e2fae30e47883554843260",
       "manifests": [
         "pyproject.toml"
       ],
@@ -1077,7 +1681,19 @@
       ],
       "profile": "projects/sonicfabric/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "cdfc7df5dba46500fb9ed00d7c1476431d9a679d",
+        "treeSha": "4ae90c62b32262e05fc26f961d2947db1822ec4c",
+        "sourceUpdatedAt": "2026-10-07T05:51:10Z",
+        "fileCount": 344,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "89b8e47789868d7c4d28a7a2a5103bbe42fd89d8"
+      },
+      "repositoryId": "1345595491",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 1
     },
     {
       "repository": "Programmatic-Search-Fabric",
@@ -1085,9 +1701,9 @@
       "sourceHead": "17b5715602cbe013aeadfe075012a5100cca2208",
       "treeSha": "381d543cb13daa71891a1bf4e66bd3ded4bf6e59",
       "sourceUpdatedAt": "2026-10-07T05:49:44Z",
-      "fileCount": 94,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "0741ee5c451a6a5458bdd10e479de0f584ab0350",
       "manifests": [
@@ -1100,7 +1716,19 @@
       "workflowFiles": [],
       "profile": "projects/programmatic-search-fabric/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "17b5715602cbe013aeadfe075012a5100cca2208",
+        "treeSha": "381d543cb13daa71891a1bf4e66bd3ded4bf6e59",
+        "sourceUpdatedAt": "2026-10-07T05:49:44Z",
+        "fileCount": 94,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "0741ee5c451a6a5458bdd10e479de0f584ab0350"
+      },
+      "repositoryId": "1350197507",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Kinetic-Logic-Reconstructor",
@@ -1108,9 +1736,9 @@
       "sourceHead": "2e8d7fbd77c8b8f1f36de6a5a90734fea5c0ef76",
       "treeSha": "b1366401c7dac12a582dc81f8d2baa27e1d95f58",
       "sourceUpdatedAt": "2026-10-07T05:47:33Z",
-      "fileCount": 123,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "326a0208316997665d9c6ae92324c9b5260c6513",
       "manifests": [
@@ -1122,7 +1750,19 @@
       "workflowFiles": [],
       "profile": "projects/kinetic-logic-reconstructor/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "2e8d7fbd77c8b8f1f36de6a5a90734fea5c0ef76",
+        "treeSha": "b1366401c7dac12a582dc81f8d2baa27e1d95f58",
+        "sourceUpdatedAt": "2026-10-07T05:47:33Z",
+        "fileCount": 123,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "326a0208316997665d9c6ae92324c9b5260c6513"
+      },
+      "repositoryId": "1350383555",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Adaptive-Biofeedback-Engine",
@@ -1130,9 +1770,9 @@
       "sourceHead": "fb753605e21473f47edb03cd8bed0bbab36f4c7e",
       "treeSha": "e3d16a61872a71f39201645f118338a9765b5669",
       "sourceUpdatedAt": "2026-10-07T05:42:16Z",
-      "fileCount": 119,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "116ed9b74dd87b034d67f80bdb714b699e0b29b4",
       "manifests": [
@@ -1147,7 +1787,19 @@
       "workflowFiles": [],
       "profile": "projects/adaptive-biofeedback-engine/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "fb753605e21473f47edb03cd8bed0bbab36f4c7e",
+        "treeSha": "e3d16a61872a71f39201645f118338a9765b5669",
+        "sourceUpdatedAt": "2026-10-07T05:42:16Z",
+        "fileCount": 119,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "116ed9b74dd87b034d67f80bdb714b699e0b29b4"
+      },
+      "repositoryId": "1350516701",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Aletheia-Intelligence-Fabric---Distributed-Evidence-Entity-Intelligence-Platform",
@@ -1155,9 +1807,9 @@
       "sourceHead": "a2b67000d3e2dea736193c66623a22020ad3a9e3",
       "treeSha": "bf720b4198e11b5162a496f3f602e4eef2280b69",
       "sourceUpdatedAt": "2026-10-07T05:43:27Z",
-      "fileCount": 70,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "0fedfdc1d943216bd0e61f5f6ae12307cf1d244f",
       "manifests": [
@@ -1170,7 +1822,19 @@
       "workflowFiles": [],
       "profile": "projects/aletheia-intelligence-fabric/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "a2b67000d3e2dea736193c66623a22020ad3a9e3",
+        "treeSha": "bf720b4198e11b5162a496f3f602e4eef2280b69",
+        "sourceUpdatedAt": "2026-10-07T05:43:27Z",
+        "fileCount": 70,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "0fedfdc1d943216bd0e61f5f6ae12307cf1d244f"
+      },
+      "repositoryId": "1355517794",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "TrueLane-InkCore",
@@ -1178,9 +1842,9 @@
       "sourceHead": "5d2f5d39bdaea62f5d274b043107cf32fd89a439",
       "treeSha": "0b6e073964d82f69522ece014bec172935482859",
       "sourceUpdatedAt": "2026-10-07T05:52:25Z",
-      "fileCount": 37,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "30b07108dfab4c059767252506ab20f34d219f1c",
       "manifests": [
@@ -1194,7 +1858,19 @@
       "workflowFiles": [],
       "profile": "projects/truelane-inkcore/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "5d2f5d39bdaea62f5d274b043107cf32fd89a439",
+        "treeSha": "0b6e073964d82f69522ece014bec172935482859",
+        "sourceUpdatedAt": "2026-10-07T05:52:25Z",
+        "fileCount": 37,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "30b07108dfab4c059767252506ab20f34d219f1c"
+      },
+      "repositoryId": "1355535155",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Visionair-Research-Engine",
@@ -1202,9 +1878,9 @@
       "sourceHead": "4a4790d5c57d057879f1eadf02683ed0d48f43ac",
       "treeSha": "f818237cd8d3a0203245cafee0f2f83397a01e7b",
       "sourceUpdatedAt": "2026-10-07T05:53:27Z",
-      "fileCount": 73,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "7e34cb5cdcd373e87f21047790b77a10a07f1ea7",
       "manifests": [
@@ -1217,7 +1893,19 @@
       "workflowFiles": [],
       "profile": "projects/visionair-research-engine/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "4a4790d5c57d057879f1eadf02683ed0d48f43ac",
+        "treeSha": "f818237cd8d3a0203245cafee0f2f83397a01e7b",
+        "sourceUpdatedAt": "2026-10-07T05:53:27Z",
+        "fileCount": 73,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "7e34cb5cdcd373e87f21047790b77a10a07f1ea7"
+      },
+      "repositoryId": "1355569121",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Chimera-Spectral-Perception-System",
@@ -1225,9 +1913,9 @@
       "sourceHead": "146d0074a9bd65df9e2cd85eb6539c55638335d7",
       "treeSha": "f5b7028fdcf35c8677023d9046565c76ff4ccaea",
       "sourceUpdatedAt": "2026-10-07T05:44:19Z",
-      "fileCount": 131,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "9ca9090f8f5094e40b592a3122579ec2f41c62f2",
       "manifests": [
@@ -1239,7 +1927,19 @@
       "workflowFiles": [],
       "profile": "projects/chimera-spectral-perception-system/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "146d0074a9bd65df9e2cd85eb6539c55638335d7",
+        "treeSha": "f5b7028fdcf35c8677023d9046565c76ff4ccaea",
+        "sourceUpdatedAt": "2026-10-07T05:44:19Z",
+        "fileCount": 131,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "9ca9090f8f5094e40b592a3122579ec2f41c62f2"
+      },
+      "repositoryId": "1355591561",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Vision-Evidence-Governed-Multimodal-Perception-Framework",
@@ -1247,9 +1947,9 @@
       "sourceHead": "c1e9d6ee4931cc3898aebe0753fc9979f2762223",
       "treeSha": "7139d5420ef6cfab388ddd835a1bbc958c3a8f3a",
       "sourceUpdatedAt": "2026-10-09T09:00:34Z",
-      "fileCount": 228,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "cedb32d79008c0ddf01775cc3e6b47a095dbb454",
       "manifests": [
@@ -1261,7 +1961,19 @@
       "workflowFiles": [],
       "profile": "projects/vision-evidence-governed-multimodal-perception-framework/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "c1e9d6ee4931cc3898aebe0753fc9979f2762223",
+        "treeSha": "7139d5420ef6cfab388ddd835a1bbc958c3a8f3a",
+        "sourceUpdatedAt": "2026-10-09T09:00:34Z",
+        "fileCount": 228,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "cedb32d79008c0ddf01775cc3e6b47a095dbb454"
+      },
+      "repositoryId": "1355670276",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Evidence-Grounded-Multi-Expert-Reasoning-System",
@@ -1269,9 +1981,9 @@
       "sourceHead": "32d06de2f93ca9e5ba8a290c06e69cf49b75e8e8",
       "treeSha": "c0464f91d4b14f4c2b1eb5fbb9e6407156f735d1",
       "sourceUpdatedAt": "2026-10-07T05:46:22Z",
-      "fileCount": 115,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "24ca748a25bcef1002ef56b4e480d5e822b09d6f",
       "manifests": [
@@ -1283,7 +1995,19 @@
       "workflowFiles": [],
       "profile": "projects/evidence-grounded-multi-expert-reasoning-system/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "32d06de2f93ca9e5ba8a290c06e69cf49b75e8e8",
+        "treeSha": "c0464f91d4b14f4c2b1eb5fbb9e6407156f735d1",
+        "sourceUpdatedAt": "2026-10-07T05:46:22Z",
+        "fileCount": 115,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "24ca748a25bcef1002ef56b4e480d5e822b09d6f"
+      },
+      "repositoryId": "1355749685",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 1
     },
     {
       "repository": "GoldenNet-Signal-Intelligence-Platform",
@@ -1291,9 +2015,9 @@
       "sourceHead": "d644b87d1d0278cbf7d84a20d8071ae4030605d2",
       "treeSha": "129d1548ff9a6616b7bd95517aad691afda17856",
       "sourceUpdatedAt": "2026-10-07T05:46:39Z",
-      "fileCount": 150,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "22cc473172bf2fd230637309ba8476ded923210d",
       "manifests": [
@@ -1310,7 +2034,19 @@
       ],
       "profile": "projects/goldennet-signal-intelligence-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "d644b87d1d0278cbf7d84a20d8071ae4030605d2",
+        "treeSha": "129d1548ff9a6616b7bd95517aad691afda17856",
+        "sourceUpdatedAt": "2026-10-07T05:46:39Z",
+        "fileCount": 150,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "22cc473172bf2fd230637309ba8476ded923210d"
+      },
+      "repositoryId": "1355754601",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Autonomous-Documentary-Engine",
@@ -1318,9 +2054,9 @@
       "sourceHead": "115006fbf66d4bbe9368560e57f30852ad016e1c",
       "treeSha": "47ce504e2af44e3d3c89d18d61bd87c9407dae72",
       "sourceUpdatedAt": "2026-10-07T05:43:37Z",
-      "fileCount": 230,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "6e58127e501e9ef8e02e17cea1f7349b87de31fb",
       "manifests": [
@@ -1349,7 +2085,19 @@
       ],
       "profile": "projects/autonomous-documentary-engine/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "115006fbf66d4bbe9368560e57f30852ad016e1c",
+        "treeSha": "47ce504e2af44e3d3c89d18d61bd87c9407dae72",
+        "sourceUpdatedAt": "2026-10-07T05:43:37Z",
+        "fileCount": 230,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "6e58127e501e9ef8e02e17cea1f7349b87de31fb"
+      },
+      "repositoryId": "1355768762",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Multimodal-Evidence-Adaptive-Systems-Platform",
@@ -1357,9 +2105,9 @@
       "sourceHead": "3c6664d07311be71afa29632103755e10e843d13",
       "treeSha": "ab472f4a21936d116f4522ebcecb80dccd1249a4",
       "sourceUpdatedAt": "2026-10-07T05:49:02Z",
-      "fileCount": 40,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "15d5995c23bd1d34950d1ef873c810db59ecc08f",
       "manifests": [
@@ -1371,7 +2119,19 @@
       "workflowFiles": [],
       "profile": "projects/multimodal-evidence-adaptive-systems-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "3c6664d07311be71afa29632103755e10e843d13",
+        "treeSha": "ab472f4a21936d116f4522ebcecb80dccd1249a4",
+        "sourceUpdatedAt": "2026-10-07T05:49:02Z",
+        "fileCount": 40,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "15d5995c23bd1d34950d1ef873c810db59ecc08f"
+      },
+      "repositoryId": "1356049979",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "FusionLunar-Energy-Systems-Engineering-Platform",
@@ -1379,9 +2139,9 @@
       "sourceHead": "927e6f0a9fa9e42e8a6a81003a46dcbf50709300",
       "treeSha": "78ffc75461de71ad0c2f52b555469bcbf9d628b9",
       "sourceUpdatedAt": "2026-10-07T05:46:34Z",
-      "fileCount": 517,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "58f32afe0c79baeb5883138c64b07ce058dc0d55",
       "manifests": [
@@ -1394,7 +2154,19 @@
       "workflowFiles": [],
       "profile": "projects/fusionlunar-energy-systems-engineering-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "927e6f0a9fa9e42e8a6a81003a46dcbf50709300",
+        "treeSha": "78ffc75461de71ad0c2f52b555469bcbf9d628b9",
+        "sourceUpdatedAt": "2026-10-07T05:46:34Z",
+        "fileCount": 517,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "58f32afe0c79baeb5883138c64b07ce058dc0d55"
+      },
+      "repositoryId": "1356159999",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Temporal-Physics-Causality-Research-Platform",
@@ -1402,9 +2174,9 @@
       "sourceHead": "1bc82c487ffe0271dc09385a11ce747ad42b8b64",
       "treeSha": "aeec200c42d2453758add7d445a2d1135ab28c2f",
       "sourceUpdatedAt": "2026-10-07T05:51:55Z",
-      "fileCount": 179,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "4c9aa0b0f2cd130f5d9218139cec51758f02d199",
       "manifests": [
@@ -1417,7 +2189,19 @@
       "workflowFiles": [],
       "profile": "projects/temporal-physics-causality-research-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "1bc82c487ffe0271dc09385a11ce747ad42b8b64",
+        "treeSha": "aeec200c42d2453758add7d445a2d1135ab28c2f",
+        "sourceUpdatedAt": "2026-10-07T05:51:55Z",
+        "fileCount": 179,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "4c9aa0b0f2cd130f5d9218139cec51758f02d199"
+      },
+      "repositoryId": "1356212025",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Industrial-Predictive-Maintenance-RUL-Platform",
@@ -1425,9 +2209,9 @@
       "sourceHead": "fdba8ab499098daf626191ef75605a172f424245",
       "treeSha": "6356e9da230b0c15e624c9c5eb6a22df40cc84a3",
       "sourceUpdatedAt": "2026-10-07T05:47:17Z",
-      "fileCount": 60,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "2eef904a32f031c58be969afdbd72d7c61d6b515",
       "manifests": [
@@ -1440,7 +2224,19 @@
       "workflowFiles": [],
       "profile": "projects/industrial-predictive-maintenance-rul-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "fdba8ab499098daf626191ef75605a172f424245",
+        "treeSha": "6356e9da230b0c15e624c9c5eb6a22df40cc84a3",
+        "sourceUpdatedAt": "2026-10-07T05:47:17Z",
+        "fileCount": 60,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "2eef904a32f031c58be969afdbd72d7c61d6b515"
+      },
+      "repositoryId": "1356266927",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Adaptive-Audio-Production-System",
@@ -1448,9 +2244,9 @@
       "sourceHead": "0827f14509e9b32ffda377250090dff18a12b81b",
       "treeSha": "e75db4079fdafff9678bd8a8a958250b0203ff7a",
       "sourceUpdatedAt": "2026-10-07T05:42:06Z",
-      "fileCount": 29,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "dee3357fd4d4f293cfd5a4474181c5b357ed9314",
       "manifests": [
@@ -1463,7 +2259,19 @@
       "workflowFiles": [],
       "profile": "projects/adaptive-audio-production-system/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "0827f14509e9b32ffda377250090dff18a12b81b",
+        "treeSha": "e75db4079fdafff9678bd8a8a958250b0203ff7a",
+        "sourceUpdatedAt": "2026-10-07T05:42:06Z",
+        "fileCount": 29,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "dee3357fd4d4f293cfd5a4474181c5b357ed9314"
+      },
+      "repositoryId": "1356273359",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Causal-State-Field-Engine",
@@ -1471,9 +2279,9 @@
       "sourceHead": "cd4d51f5ad458b6a99cc67e6c56570a7457f71df",
       "treeSha": "a8ee9856d4b7c4affc770481a9b3f68a7de9eff1",
       "sourceUpdatedAt": "2026-10-07T05:44:14Z",
-      "fileCount": 54,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "e9454b337c5d9fdfd423650d0481e73db418e3c4",
       "manifests": [
@@ -1486,7 +2294,19 @@
       "workflowFiles": [],
       "profile": "projects/causal-state-field-engine/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "cd4d51f5ad458b6a99cc67e6c56570a7457f71df",
+        "treeSha": "a8ee9856d4b7c4affc770481a9b3f68a7de9eff1",
+        "sourceUpdatedAt": "2026-10-07T05:44:14Z",
+        "fileCount": 54,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "e9454b337c5d9fdfd423650d0481e73db418e3c4"
+      },
+      "repositoryId": "1356283563",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Evidence-Governed-Analytical-Reasoning-Platform",
@@ -1494,9 +2314,9 @@
       "sourceHead": "77b3b1c153253a22359032ad5280cb079888bbca",
       "treeSha": "a152aa71ffb24f28b95837d919be08135813c61e",
       "sourceUpdatedAt": "2026-10-07T05:45:55Z",
-      "fileCount": 51,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "a1926fa09767625806a95e03c32427332afdf1ba",
       "manifests": [
@@ -1509,7 +2329,19 @@
       "workflowFiles": [],
       "profile": "projects/evidence-governed-analytical-reasoning-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "77b3b1c153253a22359032ad5280cb079888bbca",
+        "treeSha": "a152aa71ffb24f28b95837d919be08135813c61e",
+        "sourceUpdatedAt": "2026-10-07T05:45:55Z",
+        "fileCount": 51,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "a1926fa09767625806a95e03c32427332afdf1ba"
+      },
+      "repositoryId": "1356295498",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Software-Asset-Provenance-Qualification-Platform",
@@ -1517,9 +2349,9 @@
       "sourceHead": "416dee23d53ea2e25223d6bf5ff8302a5ffc7eb3",
       "treeSha": "5d3e4a3638c64ad65f91cc5b444e0428e8cb6a81",
       "sourceUpdatedAt": "2026-10-07T05:51:05Z",
-      "fileCount": 75,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "e91674927730b7ec584cd012849ca6e100ac9f6c",
       "manifests": [
@@ -1533,7 +2365,19 @@
       "workflowFiles": [],
       "profile": "projects/software-asset-provenance-qualification-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "416dee23d53ea2e25223d6bf5ff8302a5ffc7eb3",
+        "treeSha": "5d3e4a3638c64ad65f91cc5b444e0428e8cb6a81",
+        "sourceUpdatedAt": "2026-10-07T05:51:05Z",
+        "fileCount": 75,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "e91674927730b7ec584cd012849ca6e100ac9f6c"
+      },
+      "repositoryId": "1356350811",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "TraceLine-Evidence-Governed-Investigation-Framework",
@@ -1541,9 +2385,9 @@
       "sourceHead": "7152a0dc6bc4dc536189424eabde8e29d047f8b6",
       "treeSha": "ccbc9b7d0a54b63edcda8a8d1cb6fedd1d09f05f",
       "sourceUpdatedAt": "2026-10-11T03:35:07Z",
-      "fileCount": 62,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "a8847ed314aa08ed8010ce39deb866fa98313453",
       "manifests": [
@@ -1555,7 +2399,19 @@
       "workflowFiles": [],
       "profile": "projects/traceline-evidence-governed-investigation-framework/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "7152a0dc6bc4dc536189424eabde8e29d047f8b6",
+        "treeSha": "ccbc9b7d0a54b63edcda8a8d1cb6fedd1d09f05f",
+        "sourceUpdatedAt": "2026-10-11T03:35:07Z",
+        "fileCount": 62,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "a8847ed314aa08ed8010ce39deb866fa98313453"
+      },
+      "repositoryId": "1356354138",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Adaptive-General-Reasoning-Research-Platform",
@@ -1563,9 +2419,9 @@
       "sourceHead": "2cd2a288cfda4108399ed27dad68673b4172fd2a",
       "treeSha": "efaf3e2c46447629d07e342764a840d37323d2cd",
       "sourceUpdatedAt": "2026-10-07T05:42:26Z",
-      "fileCount": 128,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "6852c78ba1fa228e60cf9af8456cf84bb904c18e",
       "manifests": [
@@ -1581,7 +2437,19 @@
       "workflowFiles": [],
       "profile": "projects/adaptive-general-reasoning-research-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "2cd2a288cfda4108399ed27dad68673b4172fd2a",
+        "treeSha": "efaf3e2c46447629d07e342764a840d37323d2cd",
+        "sourceUpdatedAt": "2026-10-07T05:42:26Z",
+        "fileCount": 128,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "6852c78ba1fa228e60cf9af8456cf84bb904c18e"
+      },
+      "repositoryId": "1356669888",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Organismal-State-Dynamics-Research-Platform",
@@ -1589,9 +2457,9 @@
       "sourceHead": "60ce881d9b23f0d2e0a34952566212f402e9cb91",
       "treeSha": "ab9d9bd95c09f44fe4ca83817d931344790834bc",
       "sourceUpdatedAt": "2026-10-07T05:49:16Z",
-      "fileCount": 98,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "f816b66944ad75bd92b9c3c820a091073108edc2",
       "manifests": [
@@ -1605,7 +2473,19 @@
       "workflowFiles": [],
       "profile": "projects/organismal-state-dynamics-research-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "60ce881d9b23f0d2e0a34952566212f402e9cb91",
+        "treeSha": "ab9d9bd95c09f44fe4ca83817d931344790834bc",
+        "sourceUpdatedAt": "2026-10-07T05:49:16Z",
+        "fileCount": 98,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "f816b66944ad75bd92b9c3c820a091073108edc2"
+      },
+      "repositoryId": "1358172526",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Hybrid-Adaptive-Rendering-Media",
@@ -1613,9 +2493,9 @@
       "sourceHead": "9d8444c05691f706bb622339e796b1b0e74a3f6d",
       "treeSha": "544c4fa094aea1bd3ac8596e075e09698a1dae41",
       "sourceUpdatedAt": "2026-10-07T05:46:54Z",
-      "fileCount": 58,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "a5958b6b61ed2240e42e52724bc0ec918e43bee7",
       "manifests": [
@@ -1628,7 +2508,19 @@
       "workflowFiles": [],
       "profile": "projects/hybrid-adaptive-rendering-media/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "9d8444c05691f706bb622339e796b1b0e74a3f6d",
+        "treeSha": "544c4fa094aea1bd3ac8596e075e09698a1dae41",
+        "sourceUpdatedAt": "2026-10-07T05:46:54Z",
+        "fileCount": 58,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "a5958b6b61ed2240e42e52724bc0ec918e43bee7"
+      },
+      "repositoryId": "1358785666",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Content-Integrity-Assurance-Platform",
@@ -1636,9 +2528,9 @@
       "sourceHead": "ed1cb490304c97eb078bc8291adda194b01adb94",
       "treeSha": "22364c5aefc130088b33161c741d66ebc4d74903",
       "sourceUpdatedAt": "2026-10-07T05:44:45Z",
-      "fileCount": 80,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "b1507e468550929f31c48959686ce8e410ad79fd",
       "manifests": [
@@ -1651,7 +2543,19 @@
       "workflowFiles": [],
       "profile": "projects/content-integrity-assurance-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "ed1cb490304c97eb078bc8291adda194b01adb94",
+        "treeSha": "22364c5aefc130088b33161c741d66ebc4d74903",
+        "sourceUpdatedAt": "2026-10-07T05:44:45Z",
+        "fileCount": 80,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "b1507e468550929f31c48959686ce8e410ad79fd"
+      },
+      "repositoryId": "1358972581",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Adaptive-Cognitive-Runtime",
@@ -1659,9 +2563,9 @@
       "sourceHead": "da610532feebcb86316021594eed472c38960290",
       "treeSha": "ea054f03344b661617997fe2bb6f6a590232d1a2",
       "sourceUpdatedAt": "2026-10-07T05:42:21Z",
-      "fileCount": 53,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "53a8617ea9948921b312c2ef51c9f6b5fd9b5f27",
       "manifests": [
@@ -1673,7 +2577,19 @@
       "workflowFiles": [],
       "profile": "projects/adaptive-cognitive-runtime/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "da610532feebcb86316021594eed472c38960290",
+        "treeSha": "ea054f03344b661617997fe2bb6f6a590232d1a2",
+        "sourceUpdatedAt": "2026-10-07T05:42:21Z",
+        "fileCount": 53,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "53a8617ea9948921b312c2ef51c9f6b5fd9b5f27"
+      },
+      "repositoryId": "1358976585",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Telluric-Actualization-Research-Platform",
@@ -1681,9 +2597,9 @@
       "sourceHead": "d9b2afa9108e57500315bb890c044060176f2e16",
       "treeSha": "e87220d3d8812b2c45b07bac42d5cb2876f9d02a",
       "sourceUpdatedAt": "2026-10-07T05:51:49Z",
-      "fileCount": 274,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "0fa7d1b9ea5206e0f3d8a7f6106b388d062db5a6",
       "manifests": [
@@ -1695,7 +2611,19 @@
       "workflowFiles": [],
       "profile": "projects/telluric-actualization-research-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "d9b2afa9108e57500315bb890c044060176f2e16",
+        "treeSha": "e87220d3d8812b2c45b07bac42d5cb2876f9d02a",
+        "sourceUpdatedAt": "2026-10-07T05:51:49Z",
+        "fileCount": 274,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "0fa7d1b9ea5206e0f3d8a7f6106b388d062db5a6"
+      },
+      "repositoryId": "1359007717",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Spatial-Wearable-Perception-Platform",
@@ -1703,9 +2631,9 @@
       "sourceHead": "649722bf3073957316966130ad2e21de6f8924d6",
       "treeSha": "a12b76943cf35632185205c4c1901ed47c0b730f",
       "sourceUpdatedAt": "2026-10-07T05:51:34Z",
-      "fileCount": 198,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "bd62a6d4aba21aca425ed789f43e749ab596144f",
       "manifests": [
@@ -1718,7 +2646,19 @@
       "workflowFiles": [],
       "profile": "projects/spatial-wearable-perception-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "649722bf3073957316966130ad2e21de6f8924d6",
+        "treeSha": "a12b76943cf35632185205c4c1901ed47c0b730f",
+        "sourceUpdatedAt": "2026-10-07T05:51:34Z",
+        "fileCount": 198,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "bd62a6d4aba21aca425ed789f43e749ab596144f"
+      },
+      "repositoryId": "1359136720",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Adaptive-Audio-Synthesis-Platform",
@@ -1726,9 +2666,9 @@
       "sourceHead": "b5efadc8150c4c22e37fa5e879cdc16877804a6a",
       "treeSha": "b8e5f8ecca56ff753f21118b32ef25f71dc89856",
       "sourceUpdatedAt": "2026-10-07T05:42:10Z",
-      "fileCount": 106,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "ff00144e01b1c2c0ba9b409ad41edade08a1a8c3",
       "manifests": [],
@@ -1739,7 +2679,19 @@
       "workflowFiles": [],
       "profile": "projects/adaptive-audio-synthesis-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "b5efadc8150c4c22e37fa5e879cdc16877804a6a",
+        "treeSha": "b8e5f8ecca56ff753f21118b32ef25f71dc89856",
+        "sourceUpdatedAt": "2026-10-07T05:42:10Z",
+        "fileCount": 106,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "ff00144e01b1c2c0ba9b409ad41edade08a1a8c3"
+      },
+      "repositoryId": "1359157874",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Radioastronomy-Signal-Validation-Platform",
@@ -1747,9 +2699,9 @@
       "sourceHead": "7b3b905b05dd85b8bbc8a72bce61897caca67ad3",
       "treeSha": "fb4271a4143b9fb8737756fd9b0d40aa088ecb1e",
       "sourceUpdatedAt": "2026-10-07T05:50:12Z",
-      "fileCount": 80,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "a1915b3963e99037a2a0fdccef77367fa21aad65",
       "manifests": [
@@ -1768,7 +2720,19 @@
       "workflowFiles": [],
       "profile": "projects/radioastronomy-signal-validation-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "7b3b905b05dd85b8bbc8a72bce61897caca67ad3",
+        "treeSha": "fb4271a4143b9fb8737756fd9b0d40aa088ecb1e",
+        "sourceUpdatedAt": "2026-10-07T05:50:12Z",
+        "fileCount": 80,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "a1915b3963e99037a2a0fdccef77367fa21aad65"
+      },
+      "repositoryId": "1359166541",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "QUBO-Structural-Analysis-and-Optimization-Platform",
@@ -1776,9 +2740,9 @@
       "sourceHead": "c027b2a8f54f317339cd419e2057ea6247bf65c7",
       "treeSha": "840b68dd9b4ded508ee9c6528981cb1112deb5a4",
       "sourceUpdatedAt": "2026-10-07T05:49:54Z",
-      "fileCount": 39,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "1cb28c481442a7a690dfd29b58c063d9eda0b243",
       "manifests": [
@@ -1790,7 +2754,19 @@
       "workflowFiles": [],
       "profile": "projects/qubo-structural-analysis-and-optimization-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "c027b2a8f54f317339cd419e2057ea6247bf65c7",
+        "treeSha": "840b68dd9b4ded508ee9c6528981cb1112deb5a4",
+        "sourceUpdatedAt": "2026-10-07T05:49:54Z",
+        "fileCount": 39,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "1cb28c481442a7a690dfd29b58c063d9eda0b243"
+      },
+      "repositoryId": "1360304749",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Secure-Actuation-Integrity-Platform",
@@ -1798,9 +2774,9 @@
       "sourceHead": "e4025683523b70281f349b0c6845224bb4b0269a",
       "treeSha": "8c130f28d28d8e56bb1a4c22c75648f8997f76a8",
       "sourceUpdatedAt": "2026-10-07T05:50:50Z",
-      "fileCount": 170,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "4ca6eb576495ae08b968f82d459e80a78ded1579",
       "manifests": [
@@ -1815,7 +2791,19 @@
       ],
       "profile": "projects/secure-actuation-integrity-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "e4025683523b70281f349b0c6845224bb4b0269a",
+        "treeSha": "8c130f28d28d8e56bb1a4c22c75648f8997f76a8",
+        "sourceUpdatedAt": "2026-10-07T05:50:50Z",
+        "fileCount": 170,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "4ca6eb576495ae08b968f82d459e80a78ded1579"
+      },
+      "repositoryId": "1361066027",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Bio-Inspired-Neural-Dynamics-Active-Inference-Simulation-Platform",
@@ -1823,9 +2811,9 @@
       "sourceHead": "d7880d6fa2d8adc90d27e9a0ac85a4e94d961666",
       "treeSha": "ad233164324790063257e1b310f55d81fce98d17",
       "sourceUpdatedAt": "2026-10-07T05:43:59Z",
-      "fileCount": 222,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "69af3033cfca35f5f97cde2641255a2c42a559ce",
       "manifests": [
@@ -1837,7 +2825,19 @@
       "workflowFiles": [],
       "profile": "projects/bio-inspired-neural-dynamics-active-inference-simulation-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "d7880d6fa2d8adc90d27e9a0ac85a4e94d961666",
+        "treeSha": "ad233164324790063257e1b310f55d81fce98d17",
+        "sourceUpdatedAt": "2026-10-07T05:43:59Z",
+        "fileCount": 222,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "69af3033cfca35f5f97cde2641255a2c42a559ce"
+      },
+      "repositoryId": "1361091589",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 1
     },
     {
       "repository": "Adaptive-Neural-Architecture-Platform",
@@ -1845,9 +2845,9 @@
       "sourceHead": "2869dffab51498363c095a4529da2cf6356d461a",
       "treeSha": "58f8b72048ee1ea6df5d2f5d84ce27495648b62f",
       "sourceUpdatedAt": "2026-10-07T05:42:57Z",
-      "fileCount": 45,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "140ec062000c245b52d41f47ef8959a3a022b8d8",
       "manifests": [
@@ -1859,7 +2859,19 @@
       "workflowFiles": [],
       "profile": "projects/adaptive-neural-architecture-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "2869dffab51498363c095a4529da2cf6356d461a",
+        "treeSha": "58f8b72048ee1ea6df5d2f5d84ce27495648b62f",
+        "sourceUpdatedAt": "2026-10-07T05:42:57Z",
+        "fileCount": 45,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "140ec062000c245b52d41f47ef8959a3a022b8d8"
+      },
+      "repositoryId": "1361134084",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "CardioSignal-Intelligence-Platform",
@@ -1867,9 +2879,9 @@
       "sourceHead": "945603c2595f4db63a87bac26b8850248ad91f2b",
       "treeSha": "4db8b4df00fab5e06fe31a5e2471aafb51840726",
       "sourceUpdatedAt": "2026-10-07T05:44:10Z",
-      "fileCount": 149,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "0ec9e912c541430c1f0012ef72f9860da8ce5164",
       "manifests": [
@@ -1883,7 +2895,19 @@
       ],
       "profile": "projects/cardiosignal-intelligence-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "945603c2595f4db63a87bac26b8850248ad91f2b",
+        "treeSha": "4db8b4df00fab5e06fe31a5e2471aafb51840726",
+        "sourceUpdatedAt": "2026-10-07T05:44:10Z",
+        "fileCount": 149,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "0ec9e912c541430c1f0012ef72f9860da8ce5164"
+      },
+      "repositoryId": "1361150528",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "TrueLane-Studio-Apex-Architect",
@@ -1891,9 +2915,9 @@
       "sourceHead": "3868e277ea6a637cbc7b3a4543ead388ee438b29",
       "treeSha": "bbed7558c890c0e42fef118558641d6a5d21f71a",
       "sourceUpdatedAt": "2026-10-08T05:23:04Z",
-      "fileCount": 143,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "ed75c01308e95364e5394220ab1508e1009a2a11",
       "manifests": [
@@ -1906,19 +2930,31 @@
       "workflowFiles": [],
       "profile": "projects/truelane-studio-apex-architect/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "3868e277ea6a637cbc7b3a4543ead388ee438b29",
+        "treeSha": "bbed7558c890c0e42fef118558641d6a5d21f71a",
+        "sourceUpdatedAt": "2026-10-08T05:23:04Z",
+        "fileCount": 143,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "ed75c01308e95364e5394220ab1508e1009a2a11"
+      },
+      "repositoryId": "1362615291",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "SWPP-VIORITH-Mobile-Camera-Overlay-",
       "ref": "TA-IP-081",
-      "sourceHead": "de02892ac9ed9cbd27adc0f1ec4ecbf92896ea34",
-      "treeSha": "ba4d9959c69ce3050492cd46650ea94c98cb7617",
-      "sourceUpdatedAt": "2026-10-07T05:50:45Z",
-      "fileCount": 54,
+      "sourceHead": "8870c146e94c62856dcf38d297653367ac37d565",
+      "treeSha": "8eff2f1886defd66f8a8363de7fda14a53c37ebf",
+      "sourceUpdatedAt": "2026-10-14T05:00:50Z",
+      "fileCount": 72,
       "treeTruncated": false,
       "treeRead": true,
       "readmeRead": true,
-      "readmeBlobSha": "8207907c668ee3421331256c9a93076338016d19",
+      "readmeBlobSha": "2e11b8ed48cb79b0796458aee209c702103ca32b",
       "manifests": [
         "pyproject.toml"
       ],
@@ -1929,19 +2965,31 @@
       "workflowFiles": [],
       "profile": "projects/swpp-viorith-mobile-camera-overlay/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "de02892ac9ed9cbd27adc0f1ec4ecbf92896ea34",
+        "treeSha": "ba4d9959c69ce3050492cd46650ea94c98cb7617",
+        "sourceUpdatedAt": "2026-10-07T05:50:45Z",
+        "fileCount": 54,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "8207907c668ee3421331256c9a93076338016d19"
+      },
+      "repositoryId": "1367142670",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Distributed-Compute-Fabric",
       "ref": "TA-IP-082",
-      "sourceHead": "7810d2175bac7adc8ac4232d21dd6efbcf5bf198",
-      "treeSha": "014d844c2cf6a352b2ba01691a7bf9605de983af",
-      "sourceUpdatedAt": "2026-10-07T05:45:35Z",
-      "fileCount": 62,
+      "sourceHead": "6255df2e6c27535dd46043ac904fec519623ce33",
+      "treeSha": "6255df2e6c27535dd46043ac904fec519623ce33",
+      "sourceUpdatedAt": "2026-10-16T05:03:14Z",
+      "fileCount": 80,
       "treeTruncated": false,
       "treeRead": true,
       "readmeRead": true,
-      "readmeBlobSha": "72604710991e95583e2fdbad9e8da615188bdecd",
+      "readmeBlobSha": "152968e85dedc0fd4815c951e98aaa4c5aee2268",
       "manifests": [
         "pyproject.toml"
       ],
@@ -1952,7 +3000,19 @@
       "workflowFiles": [],
       "profile": "projects/distributed-compute-fabric/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "7810d2175bac7adc8ac4232d21dd6efbcf5bf198",
+        "treeSha": "014d844c2cf6a352b2ba01691a7bf9605de983af",
+        "sourceUpdatedAt": "2026-10-07T05:45:35Z",
+        "fileCount": 62,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "72604710991e95583e2fdbad9e8da615188bdecd"
+      },
+      "repositoryId": "1367298551",
+      "sourceCheckedAt": "2026-10-16T06:35:07Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Plantelogia-Intelligence-Platform",
@@ -1960,9 +3020,9 @@
       "sourceHead": "0038679044885f8104cb460cb6902590ef1f87dc",
       "treeSha": "a4554cbb0327487ffe1e482a99d239aff6f45b51",
       "sourceUpdatedAt": "2026-10-07T05:49:39Z",
-      "fileCount": 48,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "3ad60d74bfc9fce92421c5c2b86c7cfd03af7d3c",
       "manifests": [
@@ -1974,7 +3034,19 @@
       "workflowFiles": [],
       "profile": "projects/plantelogia-intelligence-platform-lineage/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "0038679044885f8104cb460cb6902590ef1f87dc",
+        "treeSha": "a4554cbb0327487ffe1e482a99d239aff6f45b51",
+        "sourceUpdatedAt": "2026-10-07T05:49:39Z",
+        "fileCount": 48,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "3ad60d74bfc9fce92421c5c2b86c7cfd03af7d3c"
+      },
+      "repositoryId": "1368575119",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Adaptive-Systems-Intelligence-Platform",
@@ -1982,9 +3054,9 @@
       "sourceHead": "c3e7cc84207c1e72b691fd82e7bd2580eb28d5ba",
       "treeSha": "722ac775760c1e39e423985f612d4812f85b8768",
       "sourceUpdatedAt": "2026-10-07T05:43:02Z",
-      "fileCount": 30,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "9554c943efd7a7caf2d0de3fbd452760a211779d",
       "manifests": [
@@ -1995,9 +3067,21 @@
         "NOTICE.md"
       ],
       "workflowFiles": [],
-      "profile": "projects/plantelogia-intelligence-platform/",
+      "profile": "projects/adaptive-systems-intelligence-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "c3e7cc84207c1e72b691fd82e7bd2580eb28d5ba",
+        "treeSha": "722ac775760c1e39e423985f612d4812f85b8768",
+        "sourceUpdatedAt": "2026-10-07T05:43:02Z",
+        "fileCount": 30,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "9554c943efd7a7caf2d0de3fbd452760a211779d"
+      },
+      "repositoryId": "1368994666",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Interactive-Piano-Learning-Platform",
@@ -2005,9 +3089,9 @@
       "sourceHead": "7b40cbc8527dcc45a5d13495f829264b86361580",
       "treeSha": "a9a558854d2fe3986179d94d9ec871eeb041c29d",
       "sourceUpdatedAt": "2026-10-07T05:47:28Z",
-      "fileCount": 98,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "32431f316cf5c440b3feb884cfd63f4525743de3",
       "manifests": [
@@ -2023,15 +3107,27 @@
       "workflowFiles": [],
       "profile": "projects/interactive-piano-learning-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "7b40cbc8527dcc45a5d13495f829264b86361580",
+        "treeSha": "a9a558854d2fe3986179d94d9ec871eeb041c29d",
+        "sourceUpdatedAt": "2026-10-07T05:47:28Z",
+        "fileCount": 98,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "32431f316cf5c440b3feb884cfd63f4525743de3"
+      },
+      "repositoryId": "1378442452",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "LEARNPIANO",
       "ref": "TA-IP-095",
-      "sourceHead": "4ac4713e529bb187546a9e4197bc23ac634d5990",
-      "treeSha": "1f02ea987a1c3ea6b566c397828ec9d0d3489b64",
-      "sourceUpdatedAt": "2026-10-07T05:47:38Z",
-      "fileCount": 274,
+      "sourceHead": "19fbf11b94dd7e6c92206fab998fc52fe9d4efd7",
+      "treeSha": "c17db9699aeb76266b6280cf46eb2c4386c64416",
+      "sourceUpdatedAt": "2026-10-15T20:56:11Z",
+      "fileCount": 276,
       "treeTruncated": false,
       "treeRead": true,
       "readmeRead": true,
@@ -2051,7 +3147,19 @@
       ],
       "profile": "projects/learnpiano/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "4ac4713e529bb187546a9e4197bc23ac634d5990",
+        "treeSha": "1f02ea987a1c3ea6b566c397828ec9d0d3489b64",
+        "sourceUpdatedAt": "2026-10-07T05:47:38Z",
+        "fileCount": 274,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "34279b93f84c55f2384b4d0de9d6c7877fb80398"
+      },
+      "repositoryId": "1378654571",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 1
     },
     {
       "repository": "Adaptive-Audio-MIDI-Transcription-Studio",
@@ -2059,9 +3167,9 @@
       "sourceHead": "0b0344041d320a629dbfcf6fc7d8f4bd3b8ee2b7",
       "treeSha": "56591e09eff75513000e82608f516774fe922dde",
       "sourceUpdatedAt": "2026-10-07T05:42:01Z",
-      "fileCount": 16,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "8ef78d8caa73e9c9f7f062274d0956f98968987a",
       "manifests": [
@@ -2074,7 +3182,19 @@
       "workflowFiles": [],
       "profile": "projects/adaptive-audio-midi-transcription-studio/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "0b0344041d320a629dbfcf6fc7d8f4bd3b8ee2b7",
+        "treeSha": "56591e09eff75513000e82608f516774fe922dde",
+        "sourceUpdatedAt": "2026-10-07T05:42:01Z",
+        "fileCount": 16,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "8ef78d8caa73e9c9f7f062274d0956f98968987a"
+      },
+      "repositoryId": "1378738300",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "VellumGrid-Autonomous-Commerce-Platform",
@@ -2082,9 +3202,9 @@
       "sourceHead": "c51a06eeb7543e98433b2341bdff230a68655757",
       "treeSha": "455c67b0d96b29cedd6d09a39d98d0f443fc573b",
       "sourceUpdatedAt": "2026-10-07T05:52:52Z",
-      "fileCount": 109,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "4080d4751544bc15bf617e39e914783afe7d327c",
       "manifests": [
@@ -2098,7 +3218,19 @@
       ],
       "profile": "projects/vellumgrid-autonomous-commerce-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "c51a06eeb7543e98433b2341bdff230a68655757",
+        "treeSha": "455c67b0d96b29cedd6d09a39d98d0f443fc573b",
+        "sourceUpdatedAt": "2026-10-07T05:52:52Z",
+        "fileCount": 109,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "4080d4751544bc15bf617e39e914783afe7d327c"
+      },
+      "repositoryId": "1399160934",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Maastricht-Digital-Twin",
@@ -2106,9 +3238,9 @@
       "sourceHead": "a5e48a80a70b3171d7a20c310f21df1f192011a3",
       "treeSha": "019cef6e3e49acfeaa8e7957cfa697ec098899c1",
       "sourceUpdatedAt": "2026-10-07T05:48:21Z",
-      "fileCount": 39,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "4d924e98bb0ea7a31aa2230337f65a8e68e085e4",
       "manifests": [
@@ -2121,7 +3253,19 @@
       "workflowFiles": [],
       "profile": "projects/maastricht-digital-twin/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "a5e48a80a70b3171d7a20c310f21df1f192011a3",
+        "treeSha": "019cef6e3e49acfeaa8e7957cfa697ec098899c1",
+        "sourceUpdatedAt": "2026-10-07T05:48:21Z",
+        "fileCount": 39,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "4d924e98bb0ea7a31aa2230337f65a8e68e085e4"
+      },
+      "repositoryId": "1403503306",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Maastricht-Zero-Hour-Simulator",
@@ -2129,9 +3273,9 @@
       "sourceHead": "74c4cd23d800e677db32981a5c37784979d42561",
       "treeSha": "b8843dfc0e3d000054b2ee8d70225bea68f5cd97",
       "sourceUpdatedAt": "2026-10-07T05:48:27Z",
-      "fileCount": 25,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "2325ffc66d7e4289eccc2130d148a51929940d4b",
       "manifests": [],
@@ -2139,7 +3283,19 @@
       "workflowFiles": [],
       "profile": "projects/maastricht-zero-hour-simulator/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "74c4cd23d800e677db32981a5c37784979d42561",
+        "treeSha": "b8843dfc0e3d000054b2ee8d70225bea68f5cd97",
+        "sourceUpdatedAt": "2026-10-07T05:48:27Z",
+        "fileCount": 25,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "2325ffc66d7e4289eccc2130d148a51929940d4b"
+      },
+      "repositoryId": "1403548854",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "H-RM-LYRA-Automotive-LYRA-RS-3.6T",
@@ -2147,9 +3303,9 @@
       "sourceHead": "65fdf8c6c88b2cd00a3257a811d413d7bdc11bc7",
       "treeSha": "4246eb68d399eeed866609932997597265d682ad",
       "sourceUpdatedAt": "2026-10-07T05:46:44Z",
-      "fileCount": 22,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "ac8c49ac449f42c02df8e390391b4e209daf0572",
       "manifests": [
@@ -2163,7 +3319,19 @@
       ],
       "profile": "projects/h-rm-lyra-automotive-lyra-rs-3-6t/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "65fdf8c6c88b2cd00a3257a811d413d7bdc11bc7",
+        "treeSha": "4246eb68d399eeed866609932997597265d682ad",
+        "sourceUpdatedAt": "2026-10-07T05:46:44Z",
+        "fileCount": 22,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "ac8c49ac449f42c02df8e390391b4e209daf0572"
+      },
+      "repositoryId": "1403556198",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "LYRA-AERO-eVTOL",
@@ -2171,9 +3339,9 @@
       "sourceHead": "408042cac2c144177b91af653cfaecf2d240424b",
       "treeSha": "4f6029571474f63046670e9cfbfd79bdcf38102a",
       "sourceUpdatedAt": "2026-10-07T05:47:42Z",
-      "fileCount": 18,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "8fa72f4e9a24e34c75c90ebb1e0c9994cf3860bd",
       "manifests": [
@@ -2185,7 +3353,19 @@
       "workflowFiles": [],
       "profile": "projects/lyra-aero-evtol/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "408042cac2c144177b91af653cfaecf2d240424b",
+        "treeSha": "4f6029571474f63046670e9cfbfd79bdcf38102a",
+        "sourceUpdatedAt": "2026-10-07T05:47:42Z",
+        "fileCount": 18,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "8fa72f4e9a24e34c75c90ebb1e0c9994cf3860bd"
+      },
+      "repositoryId": "1403611933",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Universal-Capability-Synthesis-Engine",
@@ -2193,9 +3373,9 @@
       "sourceHead": "b8148150e0803e23a268bd830bfb2d713a982144",
       "treeSha": "5086d3e10efd7bd1a132047f4ce76e0a2c4505d1",
       "sourceUpdatedAt": "2026-10-07T05:52:42Z",
-      "fileCount": 41,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "ea50ed6b0efe2a9c69d3430667d044139398373e",
       "manifests": [
@@ -2207,7 +3387,19 @@
       "workflowFiles": [],
       "profile": "projects/universal-capability-synthesis-engine/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "b8148150e0803e23a268bd830bfb2d713a982144",
+        "treeSha": "5086d3e10efd7bd1a132047f4ce76e0a2c4505d1",
+        "sourceUpdatedAt": "2026-10-07T05:52:42Z",
+        "fileCount": 41,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "ea50ed6b0efe2a9c69d3430667d044139398373e"
+      },
+      "repositoryId": "1406715899",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Universal-Vehicle-Configuration-Database",
@@ -2215,9 +3407,9 @@
       "sourceHead": "0be6f04fd2eee6f829cac99cce68b914f931b9d7",
       "treeSha": "a666418f266489a123fcb74533b134d72a81b464",
       "sourceUpdatedAt": "2026-10-08T06:24:17Z",
-      "fileCount": 138,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "34b1c41897ca259ff075491f06c49f04f997fe6d",
       "manifests": [
@@ -2235,7 +3427,19 @@
       "workflowFiles": [],
       "profile": "projects/universal-vehicle-configuration-database/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "0be6f04fd2eee6f829cac99cce68b914f931b9d7",
+        "treeSha": "a666418f266489a123fcb74533b134d72a81b464",
+        "sourceUpdatedAt": "2026-10-08T06:24:17Z",
+        "fileCount": 138,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "34b1c41897ca259ff075491f06c49f04f997fe6d"
+      },
+      "repositoryId": "1408382344",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 12
     },
     {
       "repository": "Aurynthiq---.Autonomous-DJ-Intelligence-Platform",
@@ -2243,9 +3447,9 @@
       "sourceHead": "ee059930599d1924baa9cbdafae6bd41a4fa94b8",
       "treeSha": "700978d32c42a71c6d1d28330245748c6e5cdd15",
       "sourceUpdatedAt": "2026-10-12T00:17:29Z",
-      "fileCount": 65,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "fcdcd5d3d522cce9890bad63bb93a52742ce820d",
       "manifests": [
@@ -2258,7 +3462,19 @@
       "workflowFiles": [],
       "profile": "projects/aurynthiq-autonomous-dj-intelligence-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "ee059930599d1924baa9cbdafae6bd41a4fa94b8",
+        "treeSha": "700978d32c42a71c6d1d28330245748c6e5cdd15",
+        "sourceUpdatedAt": "2026-10-12T00:17:29Z",
+        "fileCount": 65,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "fcdcd5d3d522cce9890bad63bb93a52742ce820d"
+      },
+      "repositoryId": "1410820702",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Universal-Systems-Intelligence-Engine",
@@ -2266,9 +3482,9 @@
       "sourceHead": "3ca782f99c14b69675d9766c3c8e32d30a28791d",
       "treeSha": "914c0b4f5ca09ead1e1abd0a9989fe8983df7f75",
       "sourceUpdatedAt": "2026-10-10T23:49:58Z",
-      "fileCount": 51,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "bfe3b89e2f2043c8222e316296579cdbc011ee50",
       "manifests": [
@@ -2281,7 +3497,19 @@
       "workflowFiles": [],
       "profile": "projects/causoryn/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "3ca782f99c14b69675d9766c3c8e32d30a28791d",
+        "treeSha": "914c0b4f5ca09ead1e1abd0a9989fe8983df7f75",
+        "sourceUpdatedAt": "2026-10-10T23:49:58Z",
+        "fileCount": 51,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "bfe3b89e2f2043c8222e316296579cdbc011ee50"
+      },
+      "repositoryId": "1413684328",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Software-Asset-Engineering-Platform",
@@ -2289,9 +3517,9 @@
       "sourceHead": "e654268817be3394101715d98a3c60ed246a49ea",
       "treeSha": "4aa31ec682534d533788ebedf70525232d391b7f",
       "sourceUpdatedAt": "2026-10-10T22:22:54Z",
-      "fileCount": 78,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "a7fd72feaaaa04fda93c481bb6794fc1bff91733",
       "manifests": [
@@ -2306,7 +3534,19 @@
       "workflowFiles": [],
       "profile": "projects/software-asset-engineering-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "e654268817be3394101715d98a3c60ed246a49ea",
+        "treeSha": "4aa31ec682534d533788ebedf70525232d391b7f",
+        "sourceUpdatedAt": "2026-10-10T22:22:54Z",
+        "fileCount": 78,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "a7fd72feaaaa04fda93c481bb6794fc1bff91733"
+      },
+      "repositoryId": "1413690845",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 1
     },
     {
       "repository": "Launch-Cislunar-Transportation-Engineering-Platform",
@@ -2314,9 +3554,9 @@
       "sourceHead": "eeaadf2299f8309e9e6f5a53dd0b35deb81a0ff8",
       "treeSha": "8362c48af556042e7afebcfe34e2212a1b76d98b",
       "sourceUpdatedAt": "2026-10-11T00:15:28Z",
-      "fileCount": 29,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "c09e3aef9e4f2eb732a154e8c25c4d26217d5587",
       "manifests": [
@@ -2328,7 +3568,19 @@
       "workflowFiles": [],
       "profile": "projects/launch-cislunar-transportation-engineering-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "eeaadf2299f8309e9e6f5a53dd0b35deb81a0ff8",
+        "treeSha": "8362c48af556042e7afebcfe34e2212a1b76d98b",
+        "sourceUpdatedAt": "2026-10-11T00:15:28Z",
+        "fileCount": 29,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "c09e3aef9e4f2eb732a154e8c25c4d26217d5587"
+      },
+      "repositoryId": "1413778955",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 1
     },
     {
       "repository": "Synthetic-Consciousness-Engineering-Platform",
@@ -2336,9 +3588,9 @@
       "sourceHead": "0f36122a14ce403c1c8d69382f1e5cea76706018",
       "treeSha": "bc4afe24fcca56056c1052982305199e1baccb13",
       "sourceUpdatedAt": "2026-10-11T18:27:56Z",
-      "fileCount": 377,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "1e8a9e7856302c0a29793c286e56fa747a6a5cbf",
       "manifests": [
@@ -2348,7 +3600,19 @@
       "workflowFiles": [],
       "profile": "projects/synthetic-consciousness-engineering-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "0f36122a14ce403c1c8d69382f1e5cea76706018",
+        "treeSha": "bc4afe24fcca56056c1052982305199e1baccb13",
+        "sourceUpdatedAt": "2026-10-11T18:27:56Z",
+        "fileCount": 377,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "1e8a9e7856302c0a29793c286e56fa747a6a5cbf"
+      },
+      "repositoryId": "1413942809",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Universal-Video-Intelligence-Platform",
@@ -2356,9 +3620,9 @@
       "sourceHead": "889e0171f581bf285e1e1a53afcf2ab82fd9271a",
       "treeSha": "d83362e060c78a0ea54aa064bffb3ccfc4d95628",
       "sourceUpdatedAt": "2026-10-12T22:56:16Z",
-      "fileCount": 98,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "ea5ec48d60276b93ab5d0d518d1f9b688031baba",
       "manifests": [
@@ -2409,7 +3673,19 @@
         "otherProjectRecordsChanged": 0,
         "boundary": "Targeted documentary status review of source-pinned repository records; product tests were not rerun for this catalogue update. R28 is user-operated/self-reported browser acceptance, not third-party attestation or release certification. The catalogue review did not independently inspect or replay the two full browser reports. Existing financial assumptions, assurance grades and the READY_WITH_CONDITIONS classification are retained."
       },
-      "latestTechnicalStatusReviewAt": "2026-10-14T07:18:19Z"
+      "latestTechnicalStatusReviewAt": "2026-10-14T07:18:19Z",
+      "retainedSourceInventory": {
+        "sourceHead": "889e0171f581bf285e1e1a53afcf2ab82fd9271a",
+        "treeSha": "d83362e060c78a0ea54aa064bffb3ccfc4d95628",
+        "sourceUpdatedAt": "2026-10-12T22:56:16Z",
+        "fileCount": 98,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "ea5ec48d60276b93ab5d0d518d1f9b688031baba"
+      },
+      "repositoryId": "1414745915",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 1
     },
     {
       "repository": "Universal-Remote-Perception-Intelligence-Platform",
@@ -2417,9 +3693,9 @@
       "sourceHead": "4431fda60af9bd21b90a80df0c4ff21c28769215",
       "treeSha": "8779b42a3415362e038f3779a9a5fd6a411ce270",
       "sourceUpdatedAt": "2026-10-12T07:35:33Z",
-      "fileCount": 63,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "495d5911eae513bde03f322c886a3326bb72bead",
       "manifests": [
@@ -2432,7 +3708,19 @@
       "workflowFiles": [],
       "profile": "projects/universal-remote-perception-intelligence-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "4431fda60af9bd21b90a80df0c4ff21c28769215",
+        "treeSha": "8779b42a3415362e038f3779a9a5fd6a411ce270",
+        "sourceUpdatedAt": "2026-10-12T07:35:33Z",
+        "fileCount": 63,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "495d5911eae513bde03f322c886a3326bb72bead"
+      },
+      "repositoryId": "1414893419",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 1
     },
     {
       "repository": "Universal-Operations-Orchestration-Intelligence-Platform",
@@ -2440,9 +3728,9 @@
       "sourceHead": "2804045108ced5760f1d8db0452d64c54988237e",
       "treeSha": "a968897b7a77bea19dae0c2c63677521487e3c44",
       "sourceUpdatedAt": "2026-10-12T08:28:34Z",
-      "fileCount": 58,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "8bfaaf85ac689560e57b27fddec6d50888433bc6",
       "manifests": [
@@ -2452,7 +3740,19 @@
       "workflowFiles": [],
       "profile": "projects/universal-operations-orchestration-intelligence-platform/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "2804045108ced5760f1d8db0452d64c54988237e",
+        "treeSha": "a968897b7a77bea19dae0c2c63677521487e3c44",
+        "sourceUpdatedAt": "2026-10-12T08:28:34Z",
+        "fileCount": 58,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "8bfaaf85ac689560e57b27fddec6d50888433bc6"
+      },
+      "repositoryId": "1415005605",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Collective-Reality-Engine-CRE---Universal-Shared-World-Intelligence-Platform",
@@ -2460,9 +3760,9 @@
       "sourceHead": "1b6abb67b404a5169875ed260324b1f4642c8e0e",
       "treeSha": "bcf80cff4c295d31b445714947daf7dddc139b4c",
       "sourceUpdatedAt": "2026-10-12T07:31:47Z",
-      "fileCount": 42,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "54bf37183faa8e29bf7504447e5e4992be1e770c",
       "manifests": [
@@ -2472,7 +3772,19 @@
       "workflowFiles": [],
       "profile": "projects/collective-reality-engine/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "1b6abb67b404a5169875ed260324b1f4642c8e0e",
+        "treeSha": "bcf80cff4c295d31b445714947daf7dddc139b4c",
+        "sourceUpdatedAt": "2026-10-12T07:31:47Z",
+        "fileCount": 42,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "54bf37183faa8e29bf7504447e5e4992be1e770c"
+      },
+      "repositoryId": "1415143696",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     },
     {
       "repository": "Mission-to-Execution-Engineering-Framework",
@@ -2480,9 +3792,9 @@
       "sourceHead": "ee27964574e2a9d0d5d86eb28500337a5800f0ac",
       "treeSha": "1f4e1ddb8b42036bea290571afc6cc7331077106",
       "sourceUpdatedAt": "2026-10-12T06:16:34Z",
-      "fileCount": 12,
-      "treeTruncated": false,
-      "treeRead": true,
+      "fileCount": null,
+      "treeTruncated": null,
+      "treeRead": false,
       "readmeRead": true,
       "readmeBlobSha": "04e9634ffe51edb7c23ad7df2d87a04a0fb6f93c",
       "manifests": [
@@ -2492,15 +3804,27 @@
       "workflowFiles": [],
       "profile": "projects/mission-to-execution-engineering-framework/",
       "existingAssessmentRetained": true,
-      "freshLocalTestsPerformed": false
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "ee27964574e2a9d0d5d86eb28500337a5800f0ac",
+        "treeSha": "1f4e1ddb8b42036bea290571afc6cc7331077106",
+        "sourceUpdatedAt": "2026-10-12T06:16:34Z",
+        "fileCount": 12,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "04e9634ffe51edb7c23ad7df2d87a04a0fb6f93c"
+      },
+      "repositoryId": "1415148697",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 2
     },
     {
       "repository": "Manuscript-Integrity-Publishing-Platform",
       "ref": "TA-IP-106",
-      "sourceHead": "9b8b8d39cd86289fcd70c3684172a44062879bba",
-      "treeSha": "d8acb80ef23d5e4f86ecc8f9881a6a5db99d122f",
-      "sourceUpdatedAt": "2026-10-13T04:08:05Z",
-      "fileCount": 52,
+      "sourceHead": "e624f08a7bd630302d760e025252bac0326eceaf",
+      "treeSha": "9f2d8fdb68465c3a3a669b61422c83ed63d302e6",
+      "sourceUpdatedAt": "2026-10-13T04:59:15Z",
+      "fileCount": 54,
       "treeTruncated": false,
       "treeRead": true,
       "readmeRead": true,
@@ -2514,17 +3838,29 @@
       "workflowFiles": [],
       "profile": "projects/manuscript-integrity-publishing-platform/",
       "existingAssessmentRetained": false,
-      "freshLocalTestsPerformed": true
+      "freshLocalTestsPerformed": false,
+      "retainedSourceInventory": {
+        "sourceHead": "9b8b8d39cd86289fcd70c3684172a44062879bba",
+        "treeSha": "d8acb80ef23d5e4f86ecc8f9881a6a5db99d122f",
+        "sourceUpdatedAt": "2026-10-13T04:08:05Z",
+        "fileCount": 52,
+        "treeRead": true,
+        "readmeRead": true,
+        "readmeBlobSha": "b5c46a204212b1c4722f1fa442022fefca39a2b8"
+      },
+      "repositoryId": "1416353622",
+      "sourceCheckedAt": "2026-10-16T06:23:40Z",
+      "openPullRequests": 0
     }
   ],
   "scopePolicy": "All 105 existing project repositories retain their independent asset records. MyProjects is the sole remaining publication repository and is excluded from the asset count. Separate display links are added only after a new display publication is independently verified. Withdrawn identifiers are not reused.",
   "previousSummary": {
-    "assessedAt": "2026-10-13T05:07:05Z",
-    "type": "DISPLAY_REPOSITORY_REMOVAL",
-    "repositoryCount": 106,
+    "assessedAt": "2026-10-13T06:09:04Z",
+    "type": "INTEGRATED_PROJECT_DISPLAYS",
+    "repositoryCount": 107,
     "projectRepositoryCount": 105,
-    "publicationRepositoryCount": 1,
-    "repositoryPresenceChecked": 106,
+    "publicationRepositoryCount": 2,
+    "repositoryPresenceChecked": 107,
     "repositoryHeadsChecked": 0,
     "projectReadmesRead": 0,
     "projectTreesRead": 0,
@@ -2533,7 +3869,7 @@
     "newProjects": [],
     "removedActiveProjects": [],
     "removedDisplayCount": 12,
-    "publicDisplayCount": 0,
+    "publicDisplayCount": 105,
     "orphanProjectFoldersRemoved": [],
     "existingProjectRecordsRetained": 105,
     "changedExistingHeads": [
@@ -2545,10 +3881,10 @@
         "treatment": "Existing profile, evidence date and price retained at the user’s instruction."
       }
     ],
-    "boundary": "The owner removed all 12 separately hosted project-display repositories. Current repository presence was checked: 105 project repositories and the MyProjects catalogue remain, 106 repositories in total. No linked project display is currently published in this directory. All 105 software project records, individual prices, rights/transfer criteria and evidence dates are retained. This display-directory update does not claim new source qualification or a financial reassessment."
+    "boundary": "All 105 independently scoped project records now have a matching buyer-facing display, maintained together in Projects-Displays and published within MyProjects. The connected repository inventory contains 107 repositories: 105 project repositories and two presentation repositories. This publication changes display navigation and presentation; retained product qualification, rights, transfer assessments and individual prices keep their own dates and scope."
   },
-  "repositoryPresenceCheckedAt": "2026-10-13T06:09:04Z",
-  "sourceInventoryAssessedAt": "2026-10-13T04:20:04Z",
+  "repositoryPresenceCheckedAt": "2026-10-16T06:35:07Z",
+  "sourceInventoryAssessedAt": "2026-10-16T06:35:07Z",
   "latestDisplayDirectoryUpdate": {
     "assessedAt": "2026-10-13T06:09:04Z",
     "type": "INTEGRATED_PROJECT_DISPLAYS",
@@ -2613,5 +3949,6 @@
     "transactionReadinessChanged": false,
     "otherProjectRecordsChanged": 0,
     "boundary": "Targeted documentary status review of source-pinned repository records; product tests were not rerun for this catalogue update. R28 is user-operated/self-reported browser acceptance, not third-party attestation or release certification. The catalogue review did not independently inspect or replay the two full browser reports. Existing financial assumptions, assurance grades and the READY_WITH_CONDITIONS classification are retained."
-  }
+  },
+  "catalogueUpdatedAt": "2026-10-16T06:23:40Z"
 }

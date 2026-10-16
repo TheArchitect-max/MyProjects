@@ -2,7 +2,7 @@
 
 TA-IP-049 | Reference alias: Alina | Evidence & Intelligence Systems
 
-Buyer-facing edition: 13 October 2026
+Buyer-facing edition: 16 October 2026
 
 Organise authorised information about people, organisations and events, and review the relationships that matter to your investigation.
 
@@ -34,15 +34,13 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Documented scope: Developed prototype. Reference baseline: 1.1.0.
+Current main baseline: 1.1.0.
 
-Source access must remain authorised. Analytical correlations do not independently establish factual relationships or intent.
+An implemented prototype for evaluation and further development.
 
-Next qualification step: Qualify representative source permissions and analytical review criteria.
+Material limitations: Source access must remain authorised. Analytical correlations do not independently establish factual relationships or intent.
 
-Retained seller handover status: Handover subject to conditions; record date 2026-10-12. This exhibition has not reclassified that record through a fresh execution.
-
-Functions are described from reviewed project documentation. Retained evaluation records keep their own dates and scope. This exhibition did not re-run product tests or independently certify legal title, security, scientific performance or production readiness.
+Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
 
 ## Commercial reference
 
