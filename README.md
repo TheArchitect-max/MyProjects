@@ -9,3 +9,5 @@ Maintain established project references and reference names. Asset descriptions 
 The website is an informational exhibition. It completes no purchase, payment or transfer of rights.
 
 © 2026 THEARCHITECT_MAX. First-party rights reserved.
+
+USD amounts accompany EUR acquisition and recreation references. Preserve the dated ECB conversion, exact whole-USD rounding and all existing EUR prices. The public pricing dataset includes the original model inputs. `assets/pricing-math.js` recomputes the scenarios, USD amounts, cost budgets, conditional references and totals; `tools/build_calculation_check.cjs` produces `assets/calculation-validation.json` from the approved public files. These arithmetic checks do not certify product quality, market value or the underlying assumptions.

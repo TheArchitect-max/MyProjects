@@ -70,16 +70,18 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 Basis: 2026-10-17. All amounts in EUR. Market value is not established.
 
-| Reference | EUR |
-| --- | ---: |
-| Seller asking reference | 160,000 |
-| Negotiation reference - low | 130,000 |
-| Negotiation reference - high | 200,000 |
-| Recreation cost estimate | 650,000 |
-| Marketability cost scenario | 747,500 |
-| Monetisation cost scenario | 965,250 |
-| Risk-adjusted strategic reference | 754,180 |
-| Weighted economic reference | 769,013 |
+| Reference | EUR | USD - indicative |
+| --- | ---: | ---: |
+| Seller asking reference | 160,000 | 180,048 |
+| Negotiation reference - low | 130,000 | 146,289 |
+| Negotiation reference - high | 200,000 | 225,060 |
+| Recreation cost estimate | 650,000 | 731,445 |
+| Marketability cost scenario | 747,500 | 841,162 |
+| Monetisation cost scenario | 965,250 | 1,086,196 |
+| Risk-adjusted strategic reference | 754,180 | 848,679 |
+| Weighted economic reference | 769,013 | 865,370 |
+
+USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the previously published indicative negotiation range.
@@ -111,4 +113,10 @@ Project-specific prices are seller choices and model outputs; external publisher
 Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
+
+Calculation inputs: {"stage": "V", "potential": "H", "sector": "Specialist Vertical Software", "route": "Vertical SaaS / specialist software"}.
+
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html
+
+Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/truelane-inkcore/#calculation
 

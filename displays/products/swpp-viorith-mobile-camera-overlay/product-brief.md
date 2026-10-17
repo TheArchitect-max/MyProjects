@@ -70,16 +70,18 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 Basis: 2026-10-16. All amounts in EUR. Market value is not established.
 
-| Reference | EUR |
-| --- | ---: |
-| Seller asking reference | 185,500 |
-| Negotiation reference - low | 149,500 |
-| Negotiation reference - high | 232,000 |
-| Recreation cost estimate | 875,000 |
-| Marketability cost scenario | 1,106,875 |
-| Monetisation cost scenario | 1,358,438 |
-| Risk-adjusted strategic reference | 1,116,766 |
-| Weighted economic reference | 1,102,681 |
+| Reference | EUR | USD - indicative |
+| --- | ---: | ---: |
+| Seller asking reference | 185,500 | 208,743 |
+| Negotiation reference - low | 149,500 | 168,232 |
+| Negotiation reference - high | 232,000 | 261,070 |
+| Recreation cost estimate | 875,000 | 984,638 |
+| Marketability cost scenario | 1,106,875 | 1,245,566 |
+| Monetisation cost scenario | 1,358,438 | 1,528,650 |
+| Risk-adjusted strategic reference | 1,116,766 | 1,256,697 |
+| Weighted economic reference | 1,102,681 | 1,240,847 |
+
+USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the previously published indicative negotiation range.
@@ -129,4 +131,10 @@ Project-specific prices are seller choices and model outputs; external publisher
 Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
+
+Calculation inputs: {"stage": "V", "potential": "H", "sector": "AI, Decision & Knowledge Systems", "route": "B2B SaaS / enterprise software"}.
+
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html
+
+Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/swpp-viorith-mobile-camera-overlay/#calculation
 

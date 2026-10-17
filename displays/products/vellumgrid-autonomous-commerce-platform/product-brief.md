@@ -70,16 +70,18 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 Basis: 2026-10-17. All amounts in EUR. Market value is not established.
 
-| Reference | EUR |
-| --- | ---: |
-| Seller asking reference | 575,000 |
-| Negotiation reference - low | 460,000 |
-| Negotiation reference - high | 720,000 |
-| Recreation cost estimate | 2,400,000 |
-| Marketability cost scenario | 3,036,000 |
-| Monetisation cost scenario | 3,726,000 |
-| Risk-adjusted strategic reference | 3,063,130 |
-| Weighted economic reference | 3,024,496 |
+| Reference | EUR | USD - indicative |
+| --- | ---: | ---: |
+| Seller asking reference | 575,000 | 647,048 |
+| Negotiation reference - low | 460,000 | 517,638 |
+| Negotiation reference - high | 720,000 | 810,216 |
+| Recreation cost estimate | 2,400,000 | 2,700,720 |
+| Marketability cost scenario | 3,036,000 | 3,416,411 |
+| Monetisation cost scenario | 3,726,000 | 4,192,868 |
+| Risk-adjusted strategic reference | 3,063,130 | 3,446,940 |
+| Weighted economic reference | 3,024,496 | 3,403,465 |
+
+USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the previously published indicative negotiation range.
@@ -111,4 +113,10 @@ Project-specific prices are seller choices and model outputs; external publisher
 Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
+
+Calculation inputs: {"stage": "V", "potential": "H", "sector": "Enterprise Software & Operations", "route": "B2B SaaS / enterprise software"}.
+
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html
+
+Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/vellumgrid-autonomous-commerce-platform/#calculation
 

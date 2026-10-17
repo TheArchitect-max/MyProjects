@@ -70,16 +70,18 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 Basis: 2026-10-17. All amounts in EUR. Market value is not established.
 
-| Reference | EUR |
-| --- | ---: |
-| Seller asking reference | 475,000 |
-| Negotiation reference - low | 380,000 |
-| Negotiation reference - high | 595,000 |
-| Recreation cost estimate | 1,200,000 |
-| Marketability cost scenario | 1,890,000 |
-| Monetisation cost scenario | 2,760,000 |
-| Risk-adjusted strategic reference | 3,044,719 |
-| Weighted economic reference | 2,295,652 |
+| Reference | EUR | USD - indicative |
+| --- | ---: | ---: |
+| Seller asking reference | 475,000 | 534,518 |
+| Negotiation reference - low | 380,000 | 427,614 |
+| Negotiation reference - high | 595,000 | 669,554 |
+| Recreation cost estimate | 1,200,000 | 1,350,360 |
+| Marketability cost scenario | 1,890,000 | 2,126,817 |
+| Monetisation cost scenario | 2,760,000 | 3,105,828 |
+| Risk-adjusted strategic reference | 3,044,719 | 3,426,222 |
+| Weighted economic reference | 2,295,652 | 2,583,297 |
+
+USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the previously published indicative negotiation range.
@@ -111,4 +113,10 @@ Project-specific prices are seller choices and model outputs; external publisher
 Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
+
+Calculation inputs: {"stage": "V", "potential": "VH", "sector": "Industrial & Infrastructure Software", "route": "B2B SaaS / enterprise software"}.
+
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html
+
+Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/evidence-governed-software-assurance-platform/#calculation
 

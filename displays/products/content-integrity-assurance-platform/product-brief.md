@@ -70,16 +70,18 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 Basis: 2026-10-17. All amounts in EUR. Market value is not established.
 
-| Reference | EUR |
-| --- | ---: |
-| Seller asking reference | 400,000 |
-| Negotiation reference - low | 320,000 |
-| Negotiation reference - high | 500,000 |
-| Recreation cost estimate | 1,600,000 |
-| Marketability cost scenario | 1,932,000 |
-| Monetisation cost scenario | 2,376,000 |
-| Risk-adjusted strategic reference | 1,949,265 |
-| Weighted economic reference | 1,943,843 |
+| Reference | EUR | USD - indicative |
+| --- | ---: | ---: |
+| Seller asking reference | 400,000 | 450,120 |
+| Negotiation reference - low | 320,000 | 360,096 |
+| Negotiation reference - high | 500,000 | 562,650 |
+| Recreation cost estimate | 1,600,000 | 1,800,480 |
+| Marketability cost scenario | 1,932,000 | 2,174,080 |
+| Monetisation cost scenario | 2,376,000 | 2,673,713 |
+| Risk-adjusted strategic reference | 1,949,265 | 2,193,508 |
+| Weighted economic reference | 1,943,843 | 2,187,407 |
+
+USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the previously published indicative negotiation range.
@@ -111,4 +113,10 @@ Project-specific prices are seller choices and model outputs; external publisher
 Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
+
+Calculation inputs: {"stage": "V", "potential": "H", "sector": "Identity, Privacy & Assurance", "route": "Private deployment / enterprise licensing"}.
+
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html
+
+Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/content-integrity-assurance-platform/#calculation
 

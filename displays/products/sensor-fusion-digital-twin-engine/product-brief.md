@@ -70,16 +70,18 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 Basis: 2026-10-17. All amounts in EUR. Market value is not established.
 
-| Reference | EUR |
-| --- | ---: |
-| Seller asking reference | 240,000 |
-| Negotiation reference - low | 194,000 |
-| Negotiation reference - high | 301,500 |
-| Recreation cost estimate | 797,000 |
-| Marketability cost scenario | 962,377 |
-| Monetisation cost scenario | 1,183,545 |
-| Risk-adjusted strategic reference | 970,977 |
-| Weighted economic reference | 968,276 |
+| Reference | EUR | USD - indicative |
+| --- | ---: | ---: |
+| Seller asking reference | 240,000 | 270,072 |
+| Negotiation reference - low | 194,000 | 218,308 |
+| Negotiation reference - high | 301,500 | 339,278 |
+| Recreation cost estimate | 797,000 | 896,864 |
+| Marketability cost scenario | 962,377 | 1,082,963 |
+| Monetisation cost scenario | 1,183,545 | 1,331,843 |
+| Risk-adjusted strategic reference | 970,977 | 1,092,640 |
+| Weighted economic reference | 968,276 | 1,089,601 |
+
+USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the previously published indicative negotiation range.
@@ -130,4 +132,10 @@ Project-specific prices are seller choices and model outputs; external publisher
 Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
+
+Calculation inputs: {"stage": "V", "potential": "H", "sector": "Industrial & Infrastructure Software", "route": "Vertical SaaS / specialist software"}.
+
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html
+
+Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/universal-sensor-fusion-digital-twin-intelligence-platform/#calculation
 

@@ -70,16 +70,18 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 Basis: 2026-10-12. All amounts in EUR. Market value is not established.
 
-| Reference | EUR |
-| --- | ---: |
-| Seller asking reference | 27,000 |
-| Negotiation reference - low | 21,600 |
-| Negotiation reference - high | 33,750 |
-| Recreation cost estimate | 90,000 |
-| Marketability cost scenario | 75,735 |
-| Monetisation cost scenario | 69,863 |
-| Risk-adjusted strategic reference | 37,552 |
-| Weighted economic reference | 64,763 |
+| Reference | EUR | USD - indicative |
+| --- | ---: | ---: |
+| Seller asking reference | 27,000 | 30,383 |
+| Negotiation reference - low | 21,600 | 24,306 |
+| Negotiation reference - high | 33,750 | 37,979 |
+| Recreation cost estimate | 90,000 | 101,277 |
+| Marketability cost scenario | 75,735 | 85,225 |
+| Monetisation cost scenario | 69,863 | 78,617 |
+| Risk-adjusted strategic reference | 37,552 | 42,257 |
+| Weighted economic reference | 64,763 | 72,878 |
+
+USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the previously published indicative negotiation range.
@@ -111,4 +113,10 @@ Project-specific prices are seller choices and model outputs; external publisher
 Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
+
+Calculation inputs: {"stage": "P", "potential": "M", "sector": "Enterprise Software & Operations", "route": "Enterprise software / licensing"}.
+
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html
+
+Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/universal-operations-orchestration-intelligence-platform/#calculation
 

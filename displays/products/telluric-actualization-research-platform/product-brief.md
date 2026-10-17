@@ -71,16 +71,18 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 Basis: 2026-10-17. All amounts in EUR. Market value is not established.
 
-| Reference | EUR |
-| --- | ---: |
-| Seller asking reference | 55,000 |
-| Negotiation reference - low | 45,000 |
-| Negotiation reference - high | 70,000 |
-| Recreation cost estimate | 600,000 |
-| Marketability cost scenario | 232,050 |
-| Monetisation cost scenario | 153,000 |
-| Risk-adjusted strategic reference | 47,414 |
-| Weighted economic reference | 243,605 |
+| Reference | EUR | USD - indicative |
+| --- | ---: | ---: |
+| Seller asking reference | 55,000 | 61,892 |
+| Negotiation reference - low | 45,000 | 50,639 |
+| Negotiation reference - high | 70,000 | 78,771 |
+| Recreation cost estimate | 600,000 | 675,180 |
+| Marketability cost scenario | 232,050 | 261,126 |
+| Monetisation cost scenario | 153,000 | 172,171 |
+| Risk-adjusted strategic reference | 47,414 | 53,355 |
+| Weighted economic reference | 243,605 | 274,129 |
+
+USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the previously published indicative negotiation range.
@@ -112,4 +114,10 @@ Project-specific prices are seller choices and model outputs; external publisher
 Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
+
+Calculation inputs: {"stage": "R", "potential": "S", "sector": "Research & Scientific Software", "route": "Research / R&D licensing"}.
+
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html
+
+Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/telluric-actualization-research-platform/#calculation
 

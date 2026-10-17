@@ -70,16 +70,18 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 Basis: 2026-10-17. All amounts in EUR. Market value is not established.
 
-| Reference | EUR |
-| --- | ---: |
-| Seller asking reference | 300,000 |
-| Negotiation reference - low | 240,000 |
-| Negotiation reference - high | 375,000 |
-| Recreation cost estimate | 1,000,000 |
-| Marketability cost scenario | 1,150,000 |
-| Monetisation cost scenario | 1,417,500 |
-| Risk-adjusted strategic reference | 1,160,277 |
-| Weighted economic reference | 1,169,597 |
+| Reference | EUR | USD - indicative |
+| --- | ---: | ---: |
+| Seller asking reference | 300,000 | 337,590 |
+| Negotiation reference - low | 240,000 | 270,072 |
+| Negotiation reference - high | 375,000 | 421,988 |
+| Recreation cost estimate | 1,000,000 | 1,125,300 |
+| Marketability cost scenario | 1,150,000 | 1,294,095 |
+| Monetisation cost scenario | 1,417,500 | 1,595,113 |
+| Risk-adjusted strategic reference | 1,160,277 | 1,305,660 |
+| Weighted economic reference | 1,169,597 | 1,316,148 |
+
+USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the previously published indicative negotiation range.
@@ -111,4 +113,10 @@ Project-specific prices are seller choices and model outputs; external publisher
 Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
+
+Calculation inputs: {"stage": "V", "potential": "H", "sector": "Media & Creator Technology", "route": "Media / creator software"}.
+
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html
+
+Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/cipher-lyric-engine/#calculation
 

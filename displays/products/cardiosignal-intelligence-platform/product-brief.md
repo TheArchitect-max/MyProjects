@@ -70,16 +70,18 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 Basis: 2026-10-17. All amounts in EUR. Market value is not established.
 
-| Reference | EUR |
-| --- | ---: |
-| Seller asking reference | 250,000 |
-| Negotiation reference - low | 200,000 |
-| Negotiation reference - high | 315,000 |
-| Recreation cost estimate | 1,250,000 |
-| Marketability cost scenario | 1,038,594 |
-| Monetisation cost scenario | 1,075,781 |
-| Risk-adjusted strategic reference | 870,810 |
-| Weighted economic reference | 1,040,159 |
+| Reference | EUR | USD - indicative |
+| --- | ---: | ---: |
+| Seller asking reference | 250,000 | 281,325 |
+| Negotiation reference - low | 200,000 | 225,060 |
+| Negotiation reference - high | 315,000 | 354,470 |
+| Recreation cost estimate | 1,250,000 | 1,406,625 |
+| Marketability cost scenario | 1,038,594 | 1,168,730 |
+| Monetisation cost scenario | 1,075,781 | 1,210,576 |
+| Risk-adjusted strategic reference | 870,810 | 979,922 |
+| Weighted economic reference | 1,040,159 | 1,170,491 |
+
+USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the previously published indicative negotiation range.
@@ -111,4 +113,10 @@ Project-specific prices are seller choices and model outputs; external publisher
 Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
+
+Calculation inputs: {"stage": "P", "potential": "H", "sector": "Research & Scientific Software", "route": "Research / R&D licensing"}.
+
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html
+
+Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/cardiosignal-intelligence-platform/#calculation
 

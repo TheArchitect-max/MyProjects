@@ -70,16 +70,18 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 Basis: 2026-10-12. All amounts in EUR. Market value is not established.
 
-| Reference | EUR |
-| --- | ---: |
-| Seller asking reference | 295,000 |
-| Negotiation reference - low | 237,000 |
-| Negotiation reference - high | 369,000 |
-| Recreation cost estimate | 1,195,000 |
-| Marketability cost scenario | 1,442,963 |
-| Monetisation cost scenario | 1,774,575 |
-| Risk-adjusted strategic reference | 1,455,857 |
-| Weighted economic reference | 1,451,808 |
+| Reference | EUR | USD - indicative |
+| --- | ---: | ---: |
+| Seller asking reference | 295,000 | 331,964 |
+| Negotiation reference - low | 237,000 | 266,696 |
+| Negotiation reference - high | 369,000 | 415,236 |
+| Recreation cost estimate | 1,195,000 | 1,344,734 |
+| Marketability cost scenario | 1,442,963 | 1,623,766 |
+| Monetisation cost scenario | 1,774,575 | 1,996,929 |
+| Risk-adjusted strategic reference | 1,455,857 | 1,638,276 |
+| Weighted economic reference | 1,451,808 | 1,633,720 |
+
+USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the previously published indicative negotiation range.
@@ -126,4 +128,10 @@ Project-specific prices are seller choices and model outputs; external publisher
 Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
+
+Calculation inputs: {"stage": "V", "potential": "H", "sector": "Identity, Privacy & Assurance", "route": "Vertical SaaS / specialist software"}.
+
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html
+
+Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/traceline-evidence-governed-investigation-framework/#calculation
 

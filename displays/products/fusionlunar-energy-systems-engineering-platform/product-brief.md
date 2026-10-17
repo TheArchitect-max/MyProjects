@@ -70,16 +70,18 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 Basis: 2026-10-17. All amounts in EUR. Market value is not established.
 
-| Reference | EUR |
-| --- | ---: |
-| Seller asking reference | 360,000 |
-| Negotiation reference - low | 290,000 |
-| Negotiation reference - high | 450,000 |
-| Recreation cost estimate | 2,900,000 |
-| Marketability cost scenario | 1,885,725 |
-| Monetisation cost scenario | 1,663,875 |
-| Risk-adjusted strategic reference | 935,005 |
-| Weighted economic reference | 1,762,172 |
+| Reference | EUR | USD - indicative |
+| --- | ---: | ---: |
+| Seller asking reference | 360,000 | 405,108 |
+| Negotiation reference - low | 290,000 | 326,337 |
+| Negotiation reference - high | 450,000 | 506,385 |
+| Recreation cost estimate | 2,900,000 | 3,263,370 |
+| Marketability cost scenario | 1,885,725 | 2,122,006 |
+| Monetisation cost scenario | 1,663,875 | 1,872,359 |
+| Risk-adjusted strategic reference | 935,005 | 1,052,161 |
+| Weighted economic reference | 1,762,172 | 1,982,972 |
+
+USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the previously published indicative negotiation range.
@@ -111,4 +113,10 @@ Project-specific prices are seller choices and model outputs; external publisher
 Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
+
+Calculation inputs: {"stage": "P", "potential": "M", "sector": "Research & Scientific Software", "route": "Research / R&D licensing"}.
+
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html
+
+Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/fusionlunar-energy-systems-engineering-platform/#calculation
 

@@ -70,16 +70,18 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 Basis: 2026-10-17. All amounts in EUR. Market value is not established.
 
-| Reference | EUR |
-| --- | ---: |
-| Seller asking reference | 800,000 |
-| Negotiation reference - low | 640,000 |
-| Negotiation reference - high | 1,000,000 |
-| Recreation cost estimate | 3,500,000 |
-| Marketability cost scenario | 5,775,000 |
-| Monetisation cost scenario | 5,950,000 |
-| Risk-adjusted strategic reference | 9,303,308 |
-| Weighted economic reference | 6,476,158 |
+| Reference | EUR | USD - indicative |
+| --- | ---: | ---: |
+| Seller asking reference | 800,000 | 900,240 |
+| Negotiation reference - low | 640,000 | 720,192 |
+| Negotiation reference - high | 1,000,000 | 1,125,300 |
+| Recreation cost estimate | 3,500,000 | 3,938,550 |
+| Marketability cost scenario | 5,775,000 | 6,498,608 |
+| Monetisation cost scenario | 5,950,000 | 6,695,535 |
+| Risk-adjusted strategic reference | 9,303,308 | 10,469,012 |
+| Weighted economic reference | 6,476,158 | 7,287,621 |
+
+USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the previously published indicative negotiation range.
@@ -111,4 +113,10 @@ Project-specific prices are seller choices and model outputs; external publisher
 Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
+
+Calculation inputs: {"stage": "V", "potential": "VH", "sector": "AI, Decision & Knowledge Systems", "route": "Research / R&D licensing"}.
+
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html
+
+Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/spatial-wearable-perception-platform/#calculation
 

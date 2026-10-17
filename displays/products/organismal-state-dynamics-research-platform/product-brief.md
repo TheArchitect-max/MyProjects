@@ -70,16 +70,18 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 Basis: 2026-10-17. All amounts in EUR. Market value is not established.
 
-| Reference | EUR |
-| --- | ---: |
-| Seller asking reference | 120,000 |
-| Negotiation reference - low | 95,000 |
-| Negotiation reference - high | 150,000 |
-| Recreation cost estimate | 900,000 |
-| Marketability cost scenario | 747,787 |
-| Monetisation cost scenario | 774,563 |
-| Risk-adjusted strategic reference | 626,983 |
-| Weighted economic reference | 748,914 |
+| Reference | EUR | USD - indicative |
+| --- | ---: | ---: |
+| Seller asking reference | 120,000 | 135,036 |
+| Negotiation reference - low | 95,000 | 106,904 |
+| Negotiation reference - high | 150,000 | 168,795 |
+| Recreation cost estimate | 900,000 | 1,012,770 |
+| Marketability cost scenario | 747,787 | 841,485 |
+| Monetisation cost scenario | 774,563 | 871,616 |
+| Risk-adjusted strategic reference | 626,983 | 705,544 |
+| Weighted economic reference | 748,914 | 842,753 |
+
+USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the previously published indicative negotiation range.
@@ -111,4 +113,10 @@ Project-specific prices are seller choices and model outputs; external publisher
 Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
+
+Calculation inputs: {"stage": "P", "potential": "H", "sector": "Research & Scientific Software", "route": "Research / R&D licensing"}.
+
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html
+
+Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/organismal-state-dynamics-research-platform/#calculation
 

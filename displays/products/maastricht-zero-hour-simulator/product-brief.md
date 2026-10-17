@@ -71,16 +71,18 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 Basis: 2026-10-17. All amounts in EUR. Market value is not established.
 
-| Reference | EUR |
-| --- | ---: |
-| Seller asking reference | 120,000 |
-| Negotiation reference - low | 95,000 |
-| Negotiation reference - high | 150,000 |
-| Recreation cost estimate | 650,000 |
-| Marketability cost scenario | 571,838 |
-| Monetisation cost scenario | 559,406 |
-| Risk-adjusted strategic reference | 479,458 |
-| Weighted economic reference | 556,559 |
+| Reference | EUR | USD - indicative |
+| --- | ---: | ---: |
+| Seller asking reference | 120,000 | 135,036 |
+| Negotiation reference - low | 95,000 | 106,904 |
+| Negotiation reference - high | 150,000 | 168,795 |
+| Recreation cost estimate | 650,000 | 731,445 |
+| Marketability cost scenario | 571,838 | 643,489 |
+| Monetisation cost scenario | 559,406 | 629,500 |
+| Risk-adjusted strategic reference | 479,458 | 539,534 |
+| Weighted economic reference | 556,559 | 626,296 |
+
+USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the previously published indicative negotiation range.
@@ -112,4 +114,10 @@ Project-specific prices are seller choices and model outputs; external publisher
 Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
+
+Calculation inputs: {"stage": "P", "potential": "H", "sector": "Aerospace & Mobility", "route": "Research / R&D licensing"}.
+
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html
+
+Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/maastricht-zero-hour-simulator/#calculation
 

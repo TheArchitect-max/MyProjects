@@ -70,16 +70,18 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 Basis: 2026-10-17. All amounts in EUR. Market value is not established.
 
-| Reference | EUR |
-| --- | ---: |
-| Seller asking reference | 800,000 |
-| Negotiation reference - low | 640,000 |
-| Negotiation reference - high | 1,000,000 |
-| Recreation cost estimate | 3,000,000 |
-| Marketability cost scenario | 3,795,000 |
-| Monetisation cost scenario | 4,657,500 |
-| Risk-adjusted strategic reference | 3,828,913 |
-| Weighted economic reference | 3,780,620 |
+| Reference | EUR | USD - indicative |
+| --- | ---: | ---: |
+| Seller asking reference | 800,000 | 900,240 |
+| Negotiation reference - low | 640,000 | 720,192 |
+| Negotiation reference - high | 1,000,000 | 1,125,300 |
+| Recreation cost estimate | 3,000,000 | 3,375,900 |
+| Marketability cost scenario | 3,795,000 | 4,270,514 |
+| Monetisation cost scenario | 4,657,500 | 5,241,085 |
+| Risk-adjusted strategic reference | 3,828,913 | 4,308,676 |
+| Weighted economic reference | 3,780,620 | 4,254,332 |
+
+USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the previously published indicative negotiation range.
@@ -111,4 +113,10 @@ Project-specific prices are seller choices and model outputs; external publisher
 Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
+
+Calculation inputs: {"stage": "V", "potential": "H", "sector": "Enterprise Software & Operations", "route": "Enterprise software / licensing"}.
+
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html
+
+Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/dominus-kraken-execution-engine/#calculation
 

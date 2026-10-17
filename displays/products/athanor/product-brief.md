@@ -71,16 +71,18 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 Basis: 2026-10-17. All amounts in EUR. Market value is not established.
 
-| Reference | EUR |
-| --- | ---: |
-| Seller asking reference | 95,000 |
-| Negotiation reference - low | 75,000 |
-| Negotiation reference - high | 120,000 |
-| Recreation cost estimate | 520,000 |
-| Marketability cost scenario | 382,200 |
-| Monetisation cost scenario | 265,200 |
-| Risk-adjusted strategic reference | 130,891 |
-| Weighted economic reference | 305,292 |
+| Reference | EUR | USD - indicative |
+| --- | ---: | ---: |
+| Seller asking reference | 95,000 | 106,904 |
+| Negotiation reference - low | 75,000 | 84,398 |
+| Negotiation reference - high | 120,000 | 135,036 |
+| Recreation cost estimate | 520,000 | 585,156 |
+| Marketability cost scenario | 382,200 | 430,090 |
+| Monetisation cost scenario | 265,200 | 298,430 |
+| Risk-adjusted strategic reference | 130,891 | 147,292 |
+| Weighted economic reference | 305,292 | 343,545 |
+
+USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the previously published indicative negotiation range.
@@ -112,4 +114,10 @@ Project-specific prices are seller choices and model outputs; external publisher
 Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
+
+Calculation inputs: {"stage": "V", "potential": "S", "sector": "Industrial & Infrastructure Software", "route": "Research / R&D licensing"}.
+
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html
+
+Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/athanor/#calculation
 

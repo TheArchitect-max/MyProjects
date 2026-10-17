@@ -70,16 +70,18 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 Basis: 2026-10-17. All amounts in EUR. Market value is not established.
 
-| Reference | EUR |
-| --- | ---: |
-| Seller asking reference | 500,000 |
-| Negotiation reference - low | 400,000 |
-| Negotiation reference - high | 625,000 |
-| Recreation cost estimate | 1,800,000 |
-| Marketability cost scenario | 2,277,000 |
-| Monetisation cost scenario | 2,794,500 |
-| Risk-adjusted strategic reference | 2,297,348 |
-| Weighted economic reference | 2,268,372 |
+| Reference | EUR | USD - indicative |
+| --- | ---: | ---: |
+| Seller asking reference | 500,000 | 562,650 |
+| Negotiation reference - low | 400,000 | 450,120 |
+| Negotiation reference - high | 625,000 | 703,313 |
+| Recreation cost estimate | 1,800,000 | 2,025,540 |
+| Marketability cost scenario | 2,277,000 | 2,562,308 |
+| Monetisation cost scenario | 2,794,500 | 3,144,651 |
+| Risk-adjusted strategic reference | 2,297,348 | 2,585,206 |
+| Weighted economic reference | 2,268,372 | 2,552,599 |
+
+USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the previously published indicative negotiation range.
@@ -111,4 +113,10 @@ Project-specific prices are seller choices and model outputs; external publisher
 Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
+
+Calculation inputs: {"stage": "V", "potential": "H", "sector": "AI, Decision & Knowledge Systems", "route": "B2B SaaS / enterprise software"}.
+
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html
+
+Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/evidence-grounded-multi-expert-reasoning-system/#calculation
 

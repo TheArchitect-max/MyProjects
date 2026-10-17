@@ -61,7 +61,8 @@
     "quote": "USD",
     "rate": 1.1253,
     "date": "2026-10-16",
-    "sourceId": "ECB-FX"
+    "sourceId": "ECB-FX",
+    "rounding": "Each EUR amount is converted at the disclosed rate and rounded half-up to the nearest whole USD. Portfolio USD totals convert the EUR portfolio total; summing individually rounded USD amounts can differ."
   },
   "sources": [
     {
@@ -239,7 +240,8 @@
       "All four model lenses share the same recreation anchor. Their weighted blend is an internal sensitivity, not independent triangulation."
     ],
     "futureRule": "Only R→P and P→V maturity transitions receive a numeric conditional reference. V-stage assets receive NOT_ESTABLISHED unless new attributable market/income evidence supports a separate model. An independently owned asset without its own monetary inputs has no numeric sensitivity until those inputs are established.",
-    "futureCalculation": "Recompute the published market, income, strategic and triangulated reference using the target-stage factors from economic-methodology.json while holding invariant inputs constant."
+    "futureCalculation": "Recompute the published market, income, strategic and triangulated reference using the target-stage factors from economic-methodology.json while holding invariant inputs constant.",
+    "calculationPolicy": "Recalculate the four cost-model outputs for each asset from the disclosed inputs. Apply Math.round to each non-negative whole-EUR scenario, then calculate and round the weighted blend from those rounded scenarios. Asking prices, negotiation bounds and recreation estimates are disclosed seller inputs, not independently validated market values. An unlisted sector or route retains the original neutral factor 1 and is explicitly identified in the calculation trace."
   },
   "projects": [
     {
@@ -270,7 +272,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 592266,
+        "sensitivityDeltaUSD": 113742
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "H",
+        "sector": "Media & Creator Technology",
+        "route": "Media / creator software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 90024,
+        "negotiationLowUSD": 73145,
+        "negotiationHighUSD": 112530,
+        "replacementCostUSD": 506385,
+        "marketComparableProxyUSD": 494991,
+        "incomeLicensingProxyUSD": 538350,
+        "probabilityAdjustedStrategicValueUSD": 415026,
+        "triangulatedEconomicReferenceUSD": 478524
       }
     },
     {
@@ -301,7 +321,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 789688,
+        "sensitivityDeltaUSD": 151657
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "H",
+        "sector": "Media & Creator Technology",
+        "route": "Media / creator software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 106904,
+        "negotiationLowUSD": 84398,
+        "negotiationHighUSD": 135036,
+        "replacementCostUSD": 675180,
+        "marketComparableProxyUSD": 659988,
+        "incomeLicensingProxyUSD": 717801,
+        "probabilityAdjustedStrategicValueUSD": 553369,
+        "triangulatedEconomicReferenceUSD": 638032
       }
     },
     {
@@ -330,6 +368,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "Media & Creator Technology",
+        "route": "Media / creator software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 478253,
+        "negotiationLowUSD": 382602,
+        "negotiationHighUSD": 602036,
+        "replacementCostUSD": 2025540,
+        "marketComparableProxyUSD": 2329371,
+        "incomeLicensingProxyUSD": 2871203,
+        "probabilityAdjustedStrategicValueUSD": 2350187,
+        "triangulatedEconomicReferenceUSD": 2369065
       }
     },
     {
@@ -358,6 +412,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "Specialist Vertical Software",
+        "route": "Vertical SaaS / specialist software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 337590,
+        "negotiationLowUSD": 270072,
+        "negotiationHighUSD": 421988,
+        "replacementCostUSD": 1350360,
+        "marketComparableProxyUSD": 1552914,
+        "incomeLicensingProxyUSD": 2005285,
+        "probabilityAdjustedStrategicValueUSD": 1566791,
+        "triangulatedEconomicReferenceUSD": 1597606
       }
     },
     {
@@ -386,6 +456,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "AI, Decision & Knowledge Systems",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 253193,
+        "negotiationLowUSD": 202554,
+        "negotiationHighUSD": 315084,
+        "replacementCostUSD": 956505,
+        "marketComparableProxyUSD": 1209979,
+        "incomeLicensingProxyUSD": 1097589,
+        "probabilityAdjustedStrategicValueUSD": 1220792,
+        "triangulatedEconomicReferenceUSD": 1127917
       }
     },
     {
@@ -416,7 +502,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 1393718,
+        "sensitivityDeltaUSD": 366129
+      },
+      "calculationInputs": {
+        "stage": "R",
+        "potential": "H",
+        "sector": "AI, Decision & Knowledge Systems",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 90024,
+        "negotiationLowUSD": 73145,
+        "negotiationHighUSD": 112530,
+        "replacementCostUSD": 1462890,
+        "marketComparableProxyUSD": 1202861,
+        "incomeLicensingProxyUSD": 839333,
+        "probabilityAdjustedStrategicValueUSD": 724080,
+        "triangulatedEconomicReferenceUSD": 1027589
       }
     },
     {
@@ -447,7 +551,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 1326961,
+        "sensitivityDeltaUSD": 254869
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "H",
+        "sector": "AI, Decision & Knowledge Systems",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 213807,
+        "negotiationLowUSD": 168795,
+        "negotiationHighUSD": 270072,
+        "replacementCostUSD": 1125300,
+        "marketComparableProxyUSD": 1209979,
+        "incomeLicensingProxyUSD": 968461,
+        "probabilityAdjustedStrategicValueUSD": 1014509,
+        "triangulatedEconomicReferenceUSD": 1072091
       }
     },
     {
@@ -478,7 +600,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 1630828,
+        "sensitivityDeltaUSD": 319307
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "H",
+        "sector": "AI, Decision & Knowledge Systems",
+        "route": "Enterprise software / licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 225060,
+        "negotiationLowUSD": 180048,
+        "negotiationHighUSD": 281325,
+        "replacementCostUSD": 1294095,
+        "marketComparableProxyUSD": 1391476,
+        "incomeLicensingProxyUSD": 1506812,
+        "probabilityAdjustedStrategicValueUSD": 1166684,
+        "triangulatedEconomicReferenceUSD": 1311520
       }
     },
     {
@@ -509,7 +649,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 371763,
+        "sensitivityDeltaUSD": 56825
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "M",
+        "sector": "Aerospace & Mobility",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 61892,
+        "negotiationLowUSD": 50639,
+        "negotiationHighUSD": 78771,
+        "replacementCostUSD": 506385,
+        "marketComparableProxyUSD": 348646,
+        "incomeLicensingProxyUSD": 290539,
+        "probabilityAdjustedStrategicValueUSD": 172871,
+        "triangulatedEconomicReferenceUSD": 314938
       }
     },
     {
@@ -580,6 +738,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "VH",
+        "sector": "AI, Decision & Knowledge Systems",
+        "route": "Private deployment / enterprise licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 398919,
+        "negotiationLowUSD": 319023,
+        "negotiationHighUSD": 501321,
+        "replacementCostUSD": 1310975,
+        "marketComparableProxyUSD": 2163108,
+        "incomeLicensingProxyUSD": 2884144,
+        "probabilityAdjustedStrategicValueUSD": 3484686,
+        "triangulatedEconomicReferenceUSD": 2556835
       }
     },
     {
@@ -608,6 +782,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "Aerospace & Mobility",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 241940,
+        "negotiationLowUSD": 191301,
+        "negotiationHighUSD": 303831,
+        "replacementCostUSD": 956505,
+        "marketComparableProxyUSD": 989983,
+        "incomeLicensingProxyUSD": 1097589,
+        "probabilityAdjustedStrategicValueUSD": 998830,
+        "triangulatedEconomicReferenceUSD": 1006231
       }
     },
     {
@@ -638,7 +828,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 249148,
+        "sensitivityDeltaUSD": 29967
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "S",
+        "sector": "Aerospace & Mobility",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 45012,
+        "negotiationLowUSD": 33759,
+        "negotiationHighUSD": 56265,
+        "replacementCostUSD": 450120,
+        "marketComparableProxyUSD": 241039,
+        "incomeLicensingProxyUSD": 172171,
+        "probabilityAdjustedStrategicValueUSD": 68599,
+        "triangulatedEconomicReferenceUSD": 219181
       }
     },
     {
@@ -669,7 +877,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 2045110,
+        "sensitivityDeltaUSD": 452207
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "VH",
+        "sector": "Identity, Privacy & Assurance",
+        "route": "B2B SaaS / enterprise software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 225060,
+        "negotiationLowUSD": 180048,
+        "negotiationHighUSD": 281325,
+        "replacementCostUSD": 1069035,
+        "marketComparableProxyUSD": 1431171,
+        "incomeLicensingProxyUSD": 1844085,
+        "probabilityAdjustedStrategicValueUSD": 1915980,
+        "triangulatedEconomicReferenceUSD": 1592903
       }
     },
     {
@@ -698,6 +924,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "S",
+        "sector": "Industrial & Infrastructure Software",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 106904,
+        "negotiationLowUSD": 84398,
+        "negotiationHighUSD": 135036,
+        "replacementCostUSD": 585156,
+        "marketComparableProxyUSD": 430090,
+        "incomeLicensingProxyUSD": 298430,
+        "probabilityAdjustedStrategicValueUSD": 147292,
+        "triangulatedEconomicReferenceUSD": 343545
       }
     },
     {
@@ -740,7 +982,25 @@
         "targetMilestone": "Qualify the defined existing software, source-specific evidence, rights and recipient handover; separately resolve the listed project conditions. Scientific, physical or production claims require their own evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only on an evidenced software-maturity milestone. This constant-cost sensitivity is not a future asking price, income forecast or acceptance of unimplemented research goals.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 381683,
+        "sensitivityDeltaUSD": 73301
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "H",
+        "sector": "Media & Creator Technology",
+        "route": "Media / creator software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 51764,
+        "negotiationLowUSD": 38823,
+        "negotiationHighUSD": 64705,
+        "replacementCostUSD": 326337,
+        "marketComparableProxyUSD": 318994,
+        "incomeLicensingProxyUSD": 346937,
+        "probabilityAdjustedStrategicValueUSD": 267461,
+        "triangulatedEconomicReferenceUSD": 308382
       }
     },
     {
@@ -769,6 +1029,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "Industrial & Infrastructure Software",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 405108,
+        "negotiationLowUSD": 326337,
+        "negotiationHighUSD": 506385,
+        "replacementCostUSD": 1856745,
+        "marketComparableProxyUSD": 2242020,
+        "incomeLicensingProxyUSD": 2130615,
+        "probabilityAdjustedStrategicValueUSD": 2262054,
+        "triangulatedEconomicReferenceUSD": 2130433
       }
     },
     {
@@ -797,6 +1073,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "VH",
+        "sector": "Media & Creator Technology",
+        "route": "Media / creator software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 703313,
+        "negotiationLowUSD": 562650,
+        "negotiationHighUSD": 883361,
+        "replacementCostUSD": 2813250,
+        "marketComparableProxyUSD": 4219875,
+        "incomeLicensingProxyUSD": 5907825,
+        "probabilityAdjustedStrategicValueUSD": 6798060,
+        "triangulatedEconomicReferenceUSD": 5108173
       }
     },
     {
@@ -825,6 +1117,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "M",
+        "sector": "Research & Scientific Software",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 168795,
+        "negotiationLowUSD": 135036,
+        "negotiationHighUSD": 213807,
+        "replacementCostUSD": 787710,
+        "marketComparableProxyUSD": 602598,
+        "incomeLicensingProxyUSD": 602598,
+        "probabilityAdjustedStrategicValueUSD": 359542,
+        "triangulatedEconomicReferenceUSD": 563807
       }
     },
     {
@@ -853,6 +1161,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "Research & Scientific Software",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 1040903,
+        "negotiationLowUSD": 832722,
+        "negotiationHighUSD": 1305348,
+        "replacementCostUSD": 3713490,
+        "marketComparableProxyUSD": 3629936,
+        "incomeLicensingProxyUSD": 4261230,
+        "probabilityAdjustedStrategicValueUSD": 3662374,
+        "triangulatedEconomicReferenceUSD": 3788437
       }
     },
     {
@@ -881,6 +1205,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "Identity, Privacy & Assurance",
+        "route": "Private deployment / enterprise licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 270072,
+        "negotiationLowUSD": 213807,
+        "negotiationHighUSD": 337590,
+        "replacementCostUSD": 900240,
+        "marketComparableProxyUSD": 1087040,
+        "incomeLicensingProxyUSD": 1336856,
+        "probabilityAdjustedStrategicValueUSD": 1096753,
+        "triangulatedEconomicReferenceUSD": 1093703
       }
     },
     {
@@ -911,7 +1251,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 1435014,
+        "sensitivityDeltaUSD": 264523
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "H",
+        "sector": "Research & Scientific Software",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 281325,
+        "negotiationLowUSD": 225060,
+        "negotiationHighUSD": 354470,
+        "replacementCostUSD": 1406625,
+        "marketComparableProxyUSD": 1168730,
+        "incomeLicensingProxyUSD": 1210576,
+        "probabilityAdjustedStrategicValueUSD": 979922,
+        "triangulatedEconomicReferenceUSD": 1170491
       }
     },
     {
@@ -940,6 +1298,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "M",
+        "sector": "Identity, Privacy & Assurance",
+        "route": "Enterprise software / licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 129410,
+        "negotiationLowUSD": 101277,
+        "negotiationHighUSD": 163169,
+        "replacementCostUSD": 703313,
+        "marketComparableProxyUSD": 664630,
+        "incomeLicensingProxyUSD": 727928,
+        "probabilityAdjustedStrategicValueUSD": 396553,
+        "triangulatedEconomicReferenceUSD": 593133
       }
     },
     {
@@ -1024,7 +1398,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and an agreed operational and handover acceptance scope.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price, future asking reference or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 142120,
+        "sensitivityDeltaUSD": 22424
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "M",
+        "sector": "Industrial & Infrastructure Software",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 54014,
+        "negotiationLowUSD": 43212,
+        "negotiationHighUSD": 67518,
+        "replacementCostUSD": 180048,
+        "marketComparableProxyUSD": 144624,
+        "incomeLicensingProxyUSD": 103303,
+        "probabilityAdjustedStrategicValueUSD": 71710,
+        "triangulatedEconomicReferenceUSD": 119696
       }
     },
     {
@@ -1055,7 +1447,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 732325,
+        "sensitivityDeltaUSD": 86816
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "S",
+        "sector": "Research & Scientific Software",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 140663,
+        "negotiationLowUSD": 112530,
+        "negotiationHighUSD": 180048,
+        "replacementCostUSD": 1350360,
+        "marketComparableProxyUSD": 682945,
+        "incomeLicensingProxyUSD": 516513,
+        "probabilityAdjustedStrategicValueUSD": 194365,
+        "triangulatedEconomicReferenceUSD": 645509
       }
     },
     {
@@ -1084,6 +1494,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "Media & Creator Technology",
+        "route": "Media / creator software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 337590,
+        "negotiationLowUSD": 270072,
+        "negotiationHighUSD": 421988,
+        "replacementCostUSD": 1125300,
+        "marketComparableProxyUSD": 1294095,
+        "incomeLicensingProxyUSD": 1595113,
+        "probabilityAdjustedStrategicValueUSD": 1305660,
+        "triangulatedEconomicReferenceUSD": 1316148
       }
     },
     {
@@ -1114,7 +1540,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 1097495,
+        "sensitivityDeltaUSD": 209287
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "H",
+        "sector": "Identity, Privacy & Assurance",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 129410,
+        "negotiationLowUSD": 101277,
+        "negotiationHighUSD": 163169,
+        "replacementCostUSD": 956505,
+        "marketComparableProxyUSD": 981733,
+        "incomeLicensingProxyUSD": 823192,
+        "probabilityAdjustedStrategicValueUSD": 823134,
+        "triangulatedEconomicReferenceUSD": 888208
       }
     },
     {
@@ -1145,7 +1589,25 @@
         "targetMilestone": "Qualify the defined existing software, source-specific evidence, rights and recipient handover; separately resolve the listed project conditions. Scientific, physical or production claims require their own evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only on an evidenced software-maturity milestone. This constant-cost sensitivity is not a future asking price, income forecast or acceptance of unimplemented research goals.",
-        "modelBasis": "Retained model; maturity alone changes."
+        "modelBasis": "Retained model; maturity alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 72645,
+        "sensitivityDeltaUSD": 11652
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "M",
+        "sector": "Media & Creator Technology",
+        "route": "Media / creator software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 27007,
+        "negotiationLowUSD": 21606,
+        "negotiationHighUSD": 33759,
+        "replacementCostUSD": 90024,
+        "marketComparableProxyUSD": 68868,
+        "incomeLicensingProxyUSD": 63805,
+        "probabilityAdjustedStrategicValueUSD": 34147,
+        "triangulatedEconomicReferenceUSD": 60992
       }
     },
     {
@@ -1174,6 +1636,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "Identity, Privacy & Assurance",
+        "route": "Private deployment / enterprise licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 450120,
+        "negotiationLowUSD": 360096,
+        "negotiationHighUSD": 562650,
+        "replacementCostUSD": 1800480,
+        "marketComparableProxyUSD": 2174080,
+        "incomeLicensingProxyUSD": 2673713,
+        "probabilityAdjustedStrategicValueUSD": 2193508,
+        "triangulatedEconomicReferenceUSD": 2187407
       }
     },
     {
@@ -1202,6 +1680,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "M",
+        "sector": "Industrial & Infrastructure Software",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 196928,
+        "negotiationLowUSD": 157542,
+        "negotiationHighUSD": 247566,
+        "replacementCostUSD": 900240,
+        "marketComparableProxyUSD": 850727,
+        "incomeLicensingProxyUSD": 688684,
+        "probabilityAdjustedStrategicValueUSD": 507589,
+        "triangulatedEconomicReferenceUSD": 710599
       }
     },
     {
@@ -1232,7 +1726,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 1025346,
+        "sensitivityDeltaUSD": 198907
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "H",
+        "sector": "Identity, Privacy & Assurance",
+        "route": "Private deployment / enterprise licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 157542,
+        "negotiationLowUSD": 123783,
+        "negotiationHighUSD": 196928,
+        "replacementCostUSD": 843975,
+        "marketComparableProxyUSD": 866235,
+        "incomeLicensingProxyUSD": 939978,
+        "probabilityAdjustedStrategicValueUSD": 726296,
+        "triangulatedEconomicReferenceUSD": 826439
       }
     },
     {
@@ -1343,6 +1855,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "VH",
+        "sector": "Enterprise Software & Operations",
+        "route": "Private deployment / enterprise licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 562650,
+        "negotiationLowUSD": 438867,
+        "negotiationHighUSD": 708939,
+        "replacementCostUSD": 1575420,
+        "marketComparableProxyUSD": 2599443,
+        "incomeLicensingProxyUSD": 3465924,
+        "probabilityAdjustedStrategicValueUSD": 4187605,
+        "triangulatedEconomicReferenceUSD": 3072590
       }
     },
     {
@@ -1415,7 +1943,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 2771517,
+        "sensitivityDeltaUSD": 615640
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "VH",
+        "sector": "Enterprise Software & Operations",
+        "route": "B2B SaaS / enterprise software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 257694,
+        "negotiationLowUSD": 204805,
+        "negotiationHighUSD": 322398,
+        "replacementCostUSD": 1406625,
+        "marketComparableProxyUSD": 1972792,
+        "incomeLicensingProxyUSD": 2426428,
+        "probabilityAdjustedStrategicValueUSD": 2641075,
+        "triangulatedEconomicReferenceUSD": 2155877
       }
     },
     {
@@ -1444,6 +1990,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "S",
+        "sector": "Research & Scientific Software",
+        "route": "Enterprise software / licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 236313,
+        "negotiationLowUSD": 191301,
+        "negotiationHighUSD": 298205,
+        "replacementCostUSD": 1294095,
+        "marketComparableProxyUSD": 769987,
+        "incomeLicensingProxyUSD": 892926,
+        "probabilityAdjustedStrategicValueUSD": 263695,
+        "triangulatedEconomicReferenceUSD": 748400
       }
     },
     {
@@ -1472,6 +2034,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "Enterprise Software & Operations",
+        "route": "Enterprise software / licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 900240,
+        "negotiationLowUSD": 720192,
+        "negotiationHighUSD": 1125300,
+        "replacementCostUSD": 3375900,
+        "marketComparableProxyUSD": 4270514,
+        "incomeLicensingProxyUSD": 5241085,
+        "probabilityAdjustedStrategicValueUSD": 4308676,
+        "triangulatedEconomicReferenceUSD": 4254332
       }
     },
     {
@@ -1502,7 +2080,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 371763,
+        "sensitivityDeltaUSD": 56825
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "M",
+        "sector": "Aerospace & Mobility",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 56265,
+        "negotiationLowUSD": 45012,
+        "negotiationHighUSD": 67518,
+        "replacementCostUSD": 506385,
+        "marketComparableProxyUSD": 348646,
+        "incomeLicensingProxyUSD": 290539,
+        "probabilityAdjustedStrategicValueUSD": 172871,
+        "triangulatedEconomicReferenceUSD": 314938
       }
     },
     {
@@ -1533,7 +2129,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 638150,
+        "sensitivityDeltaUSD": 124945
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "H",
+        "sector": "Enterprise Software & Operations",
+        "route": "B2B SaaS / enterprise software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 90024,
+        "negotiationLowUSD": 73145,
+        "negotiationHighUSD": 112530,
+        "replacementCostUSD": 506385,
+        "marketComparableProxyUSD": 544491,
+        "incomeLicensingProxyUSD": 589622,
+        "probabilityAdjustedStrategicValueUSD": 456529,
+        "triangulatedEconomicReferenceUSD": 513204
       }
     },
     {
@@ -1606,7 +2220,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 1276300,
+        "sensitivityDeltaUSD": 249892
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "H",
+        "sector": "AI, Decision & Knowledge Systems",
+        "route": "B2B SaaS / enterprise software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 190176,
+        "negotiationLowUSD": 151916,
+        "negotiationHighUSD": 240814,
+        "replacementCostUSD": 1012770,
+        "marketComparableProxyUSD": 1088981,
+        "incomeLicensingProxyUSD": 1179244,
+        "probabilityAdjustedStrategicValueUSD": 913057,
+        "triangulatedEconomicReferenceUSD": 1026408
       }
     },
     {
@@ -1635,6 +2267,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "Identity, Privacy & Assurance",
+        "route": "B2B SaaS / enterprise software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 185675,
+        "negotiationLowUSD": 146289,
+        "negotiationHighUSD": 230687,
+        "replacementCostUSD": 562650,
+        "marketComparableProxyUSD": 679400,
+        "incomeLicensingProxyUSD": 873514,
+        "probabilityAdjustedStrategicValueUSD": 685471,
+        "triangulatedEconomicReferenceUSD": 691160
       }
     },
     {
@@ -1663,6 +2311,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "VH",
+        "sector": "Industrial & Infrastructure Software",
+        "route": "B2B SaaS / enterprise software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 534518,
+        "negotiationLowUSD": 427614,
+        "negotiationHighUSD": 669554,
+        "replacementCostUSD": 1350360,
+        "marketComparableProxyUSD": 2126817,
+        "incomeLicensingProxyUSD": 3105828,
+        "probabilityAdjustedStrategicValueUSD": 3426222,
+        "triangulatedEconomicReferenceUSD": 2583297
       }
     },
     {
@@ -1691,6 +2355,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "AI, Decision & Knowledge Systems",
+        "route": "B2B SaaS / enterprise software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 562650,
+        "negotiationLowUSD": 450120,
+        "negotiationHighUSD": 703313,
+        "replacementCostUSD": 2025540,
+        "marketComparableProxyUSD": 2562308,
+        "incomeLicensingProxyUSD": 3144651,
+        "probabilityAdjustedStrategicValueUSD": 2585206,
+        "triangulatedEconomicReferenceUSD": 2552599
       }
     },
     {
@@ -1719,6 +2399,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "M",
+        "sector": "Research & Scientific Software",
+        "route": "Vertical SaaS / specialist software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 309458,
+        "negotiationLowUSD": 247566,
+        "negotiationHighUSD": 388229,
+        "replacementCostUSD": 1350360,
+        "marketComparableProxyUSD": 1033025,
+        "incomeLicensingProxyUSD": 1336856,
+        "probabilityAdjustedStrategicValueUSD": 616357,
+        "triangulatedEconomicReferenceUSD": 1027291
       }
     },
     {
@@ -1749,7 +2445,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 2335769,
+        "sensitivityDeltaUSD": 352797
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "M",
+        "sector": "Research & Scientific Software",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 405108,
+        "negotiationLowUSD": 326337,
+        "negotiationHighUSD": 506385,
+        "replacementCostUSD": 3263370,
+        "marketComparableProxyUSD": 2122006,
+        "incomeLicensingProxyUSD": 1872359,
+        "probabilityAdjustedStrategicValueUSD": 1052161,
+        "triangulatedEconomicReferenceUSD": 1982972
       }
     },
     {
@@ -1778,6 +2492,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "Industrial & Infrastructure Software",
+        "route": "Vertical SaaS / specialist software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 478253,
+        "negotiationLowUSD": 382602,
+        "negotiationHighUSD": 602036,
+        "replacementCostUSD": 2025540,
+        "marketComparableProxyUSD": 2445840,
+        "incomeLicensingProxyUSD": 3007927,
+        "probabilityAdjustedStrategicValueUSD": 2467696,
+        "triangulatedEconomicReferenceUSD": 2460832
       }
     },
     {
@@ -1808,7 +2538,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 1838943,
+        "sensitivityDeltaUSD": 403425
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "VH",
+        "sector": "Media & Creator Technology",
+        "route": "Media / creator software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 180048,
+        "negotiationLowUSD": 140663,
+        "negotiationHighUSD": 225060,
+        "replacementCostUSD": 1012770,
+        "marketComparableProxyUSD": 1291282,
+        "incomeLicensingProxyUSD": 1595113,
+        "probabilityAdjustedStrategicValueUSD": 1728704,
+        "triangulatedEconomicReferenceUSD": 1435518
       }
     },
     {
@@ -1839,7 +2587,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 371763,
+        "sensitivityDeltaUSD": 56825
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "M",
+        "sector": "Aerospace & Mobility",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 61892,
+        "negotiationLowUSD": 50639,
+        "negotiationHighUSD": 78771,
+        "replacementCostUSD": 506385,
+        "marketComparableProxyUSD": 348646,
+        "incomeLicensingProxyUSD": 290539,
+        "probabilityAdjustedStrategicValueUSD": 172871,
+        "triangulatedEconomicReferenceUSD": 314938
       }
     },
     {
@@ -1868,6 +2634,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "VH",
+        "sector": "Industrial & Infrastructure Software",
+        "route": "Vertical SaaS / specialist software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 405108,
+        "negotiationLowUSD": 326337,
+        "negotiationHighUSD": 506385,
+        "replacementCostUSD": 1125300,
+        "marketComparableProxyUSD": 1772348,
+        "incomeLicensingProxyUSD": 2475660,
+        "probabilityAdjustedStrategicValueUSD": 2855185,
+        "triangulatedEconomicReferenceUSD": 2130241
       }
     },
     {
@@ -1938,6 +2720,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "VH",
+        "sector": "Media & Creator Technology",
+        "route": "Media / creator software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 514262,
+        "negotiationLowUSD": 412422,
+        "negotiationHighUSD": 645922,
+        "replacementCostUSD": 1434758,
+        "marketComparableProxyUSD": 2152136,
+        "incomeLicensingProxyUSD": 3012991,
+        "probabilityAdjustedStrategicValueUSD": 3467011,
+        "triangulatedEconomicReferenceUSD": 2605169
       }
     },
     {
@@ -1966,6 +2764,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "Specialist Vertical Software",
+        "route": "Vertical SaaS / specialist software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 787710,
+        "negotiationLowUSD": 630168,
+        "negotiationHighUSD": 984638,
+        "replacementCostUSD": 3038310,
+        "marketComparableProxyUSD": 3494057,
+        "incomeLicensingProxyUSD": 4511890,
+        "probabilityAdjustedStrategicValueUSD": 3525280,
+        "triangulatedEconomicReferenceUSD": 3594614
       }
     },
     {
@@ -1994,6 +2808,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "Identity, Privacy & Assurance",
+        "route": "Private deployment / enterprise licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 731445,
+        "negotiationLowUSD": 585156,
+        "negotiationHighUSD": 917120,
+        "replacementCostUSD": 3150840,
+        "marketComparableProxyUSD": 3804639,
+        "incomeLicensingProxyUSD": 4678997,
+        "probabilityAdjustedStrategicValueUSD": 3838638,
+        "triangulatedEconomicReferenceUSD": 3827961
       }
     },
     {
@@ -2024,7 +2854,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 850866,
+        "sensitivityDeltaUSD": 166595
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "H",
+        "sector": "AI, Decision & Knowledge Systems",
+        "route": "Enterprise software / licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 106904,
+        "negotiationLowUSD": 84398,
+        "negotiationHighUSD": 135036,
+        "replacementCostUSD": 675180,
+        "marketComparableProxyUSD": 725987,
+        "incomeLicensingProxyUSD": 786163,
+        "probabilityAdjustedStrategicValueUSD": 608705,
+        "triangulatedEconomicReferenceUSD": 684271
       }
     },
     {
@@ -2053,6 +2901,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "Research & Scientific Software",
+        "route": "Enterprise software / licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 286952,
+        "negotiationLowUSD": 230687,
+        "negotiationHighUSD": 360096,
+        "replacementCostUSD": 956505,
+        "marketComparableProxyUSD": 934984,
+        "incomeLicensingProxyUSD": 1484974,
+        "probabilityAdjustedStrategicValueUSD": 943339,
+        "triangulatedEconomicReferenceUSD": 1053286
       }
     },
     {
@@ -2113,7 +2977,25 @@
         "targetMilestone": "Evidence a reproducible release, agreed component and rights boundaries, use-specific qualification and recipient acceptance of the defined software package.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced. This constant-cost sensitivity is not a future price, forecast, scientific qualification or acceptance of unimplemented capabilities.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 41306,
+        "sensitivityDeltaUSD": 6313
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "M",
+        "sector": "Aerospace & Mobility",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 16880,
+        "negotiationLowUSD": 13504,
+        "negotiationHighUSD": 21099,
+        "replacementCostUSD": 56265,
+        "marketComparableProxyUSD": 38738,
+        "incomeLicensingProxyUSD": 32283,
+        "probabilityAdjustedStrategicValueUSD": 19208,
+        "triangulatedEconomicReferenceUSD": 34993
       }
     },
     {
@@ -2155,6 +3037,22 @@
         "targetStage": null,
         "reason": "The present asset is already classified as developed software. Further value requires attributable new evidence; the experimental recovery candidate does not establish a higher monetary reference.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "Specialist Vertical Software",
+        "route": "Vertical SaaS / specialist software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 202554,
+        "negotiationLowUSD": 163169,
+        "negotiationHighUSD": 253193,
+        "replacementCostUSD": 900240,
+        "marketComparableProxyUSD": 1035276,
+        "incomeLicensingProxyUSD": 1336856,
+        "probabilityAdjustedStrategicValueUSD": 1044527,
+        "triangulatedEconomicReferenceUSD": 1065071
       }
     },
     {
@@ -2185,7 +3083,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 779960,
+        "sensitivityDeltaUSD": 152711
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "H",
+        "sector": "AI, Decision & Knowledge Systems",
+        "route": "B2B SaaS / enterprise software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 112530,
+        "negotiationLowUSD": 90024,
+        "negotiationHighUSD": 140663,
+        "replacementCostUSD": 618915,
+        "marketComparableProxyUSD": 665489,
+        "incomeLicensingProxyUSD": 720649,
+        "probabilityAdjustedStrategicValueUSD": 557979,
+        "triangulatedEconomicReferenceUSD": 627249
       }
     },
     {
@@ -2216,7 +3132,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 371763,
+        "sensitivityDeltaUSD": 56825
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "M",
+        "sector": "Aerospace & Mobility",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 56265,
+        "negotiationLowUSD": 45012,
+        "negotiationHighUSD": 67518,
+        "replacementCostUSD": 506385,
+        "marketComparableProxyUSD": 348646,
+        "incomeLicensingProxyUSD": 290539,
+        "probabilityAdjustedStrategicValueUSD": 172871,
+        "triangulatedEconomicReferenceUSD": 314938
       }
     },
     {
@@ -2247,7 +3181,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 1291171,
+        "sensitivityDeltaUSD": 246220
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "H",
+        "sector": "Industrial & Infrastructure Software",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 225060,
+        "negotiationLowUSD": 180048,
+        "negotiationHighUSD": 281325,
+        "replacementCostUSD": 1125300,
+        "marketComparableProxyUSD": 1154980,
+        "incomeLicensingProxyUSD": 968461,
+        "probabilityAdjustedStrategicValueUSD": 968394,
+        "triangulatedEconomicReferenceUSD": 1044951
       }
     },
     {
@@ -2278,7 +3230,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 769471,
+        "sensitivityDeltaUSD": 143175
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "H",
+        "sector": "Aerospace & Mobility",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 135036,
+        "negotiationLowUSD": 106904,
+        "negotiationHighUSD": 168795,
+        "replacementCostUSD": 731445,
+        "marketComparableProxyUSD": 643489,
+        "incomeLicensingProxyUSD": 629500,
+        "probabilityAdjustedStrategicValueUSD": 539534,
+        "triangulatedEconomicReferenceUSD": 626296
       }
     },
     {
@@ -2351,7 +3321,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 627176,
+        "sensitivityDeltaUSD": 99895
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "M",
+        "sector": "AI, Decision & Knowledge Systems",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 95651,
+        "negotiationLowUSD": 77646,
+        "negotiationHighUSD": 119844,
+        "replacementCostUSD": 776457,
+        "marketComparableProxyUSD": 653389,
+        "incomeLicensingProxyUSD": 445493,
+        "probabilityAdjustedStrategicValueUSD": 323972,
+        "triangulatedEconomicReferenceUSD": 527281
       }
     },
     {
@@ -2429,7 +3417,9 @@
         "targetMilestone": "Qualify the frozen manuscript/QA software and real-output rendering, settle embedded rights and recipient handover. Separately import and test any included v0.5 software.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Constant-cost maturity sensitivity only; not a future asking price, income forecast or a price for staged code.",
-        "modelBasis": "Retained model; maturity alone changes."
+        "modelBasis": "Retained model; maturity alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 63564,
+        "sensitivityDeltaUSD": 10195
       },
       "costSensitivity": {
         "assumedHours": 560,
@@ -2443,6 +3433,22 @@
         "sensitivityLowEUR": 41055,
         "sensitivityHighEUR": 110688,
         "sensitivityBasis": "Low: 420 assumed hours at EUR 85/hour +15%; high: 700 hours at EUR 137.50/hour +15%. These effort/rate bounds are analyst scenarios, not a statistical confidence interval. Flat-rate comparison: 560 hours at the published Knab EUR 94 mean +15%."
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "M",
+        "sector": "Media & Creator Technology",
+        "route": "Media / creator software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 23631,
+        "negotiationLowUSD": 18905,
+        "negotiationHighUSD": 29539,
+        "replacementCostUSD": 78771,
+        "marketComparableProxyUSD": 60260,
+        "incomeLicensingProxyUSD": 55830,
+        "probabilityAdjustedStrategicValueUSD": 29879,
+        "triangulatedEconomicReferenceUSD": 53368
       }
     },
     {
@@ -2471,6 +3477,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "VH",
+        "sector": "Enterprise Software & Operations",
+        "route": "Vertical SaaS / specialist software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 382602,
+        "negotiationLowUSD": 303831,
+        "negotiationHighUSD": 478253,
+        "replacementCostUSD": 1069035,
+        "marketComparableProxyUSD": 1763908,
+        "incomeLicensingProxyUSD": 2351877,
+        "probabilityAdjustedStrategicValueUSD": 2841590,
+        "triangulatedEconomicReferenceUSD": 2084972
       }
     },
     {
@@ -2501,7 +3523,25 @@
         "targetMilestone": "Qualify the defined existing software, source-specific evidence, rights and recipient handover; separately resolve the listed project conditions. Scientific, physical or production claims require their own evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only on an evidenced software-maturity milestone. This constant-cost sensitivity is not a future asking price, income forecast or acceptance of unimplemented research goals.",
-        "modelBasis": "Retained model; maturity alone changes."
+        "modelBasis": "Retained model; maturity alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 53335,
+        "sensitivityDeltaUSD": 8799
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "M",
+        "sector": "Enterprise Software & Operations",
+        "route": "Enterprise software / licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 18567,
+        "negotiationLowUSD": 14854,
+        "negotiationHighUSD": 23209,
+        "replacementCostUSD": 61892,
+        "marketComparableProxyUSD": 52082,
+        "incomeLicensingProxyUSD": 48044,
+        "probabilityAdjustedStrategicValueUSD": 25823,
+        "triangulatedEconomicReferenceUSD": 44536
       }
     },
     {
@@ -2574,7 +3614,25 @@
         "targetMilestone": "Qualify the defined existing software, source-specific evidence, rights and recipient handover; separately resolve the listed project conditions. Scientific, physical or production claims require their own evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only on an evidenced software-maturity milestone. This constant-cost sensitivity is not a future asking price, income forecast or acceptance of unimplemented research goals.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 434936,
+        "sensitivityDeltaUSD": 65694
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "M",
+        "sector": "Research & Scientific Software",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 68643,
+        "negotiationLowUSD": 53452,
+        "negotiationHighUSD": 83835,
+        "replacementCostUSD": 607662,
+        "marketComparableProxyUSD": 395132,
+        "incomeLicensingProxyUSD": 348646,
+        "probabilityAdjustedStrategicValueUSD": 195919,
+        "triangulatedEconomicReferenceUSD": 369242
       }
     },
     {
@@ -2603,6 +3661,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "S",
+        "sector": "Identity, Privacy & Assurance",
+        "route": "Enterprise software / licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 106904,
+        "negotiationLowUSD": 84398,
+        "negotiationHighUSD": 135036,
+        "replacementCostUSD": 506385,
+        "marketComparableProxyUSD": 372193,
+        "incomeLicensingProxyUSD": 349406,
+        "probabilityAdjustedStrategicValueUSD": 127464,
+        "triangulatedEconomicReferenceUSD": 315528
       }
     },
     {
@@ -2633,7 +3707,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 363580,
+        "sensitivityDeltaUSD": 57910
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "M",
+        "sector": "AI, Decision & Knowledge Systems",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 50639,
+        "negotiationLowUSD": 39386,
+        "negotiationHighUSD": 61892,
+        "replacementCostUSD": 450120,
+        "marketComparableProxyUSD": 378776,
+        "incomeLicensingProxyUSD": 258256,
+        "probabilityAdjustedStrategicValueUSD": 187810,
+        "triangulatedEconomicReferenceUSD": 305670
       }
     },
     {
@@ -2662,6 +3754,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "M",
+        "sector": "Aerospace & Mobility",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 281325,
+        "negotiationLowUSD": 225060,
+        "negotiationHighUSD": 354470,
+        "replacementCostUSD": 1350360,
+        "marketComparableProxyUSD": 1093792,
+        "incomeLicensingProxyUSD": 1033025,
+        "probabilityAdjustedStrategicValueUSD": 652614,
+        "triangulatedEconomicReferenceUSD": 991368
       }
     },
     {
@@ -2692,7 +3800,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 898508,
+        "sensitivityDeltaUSD": 174855
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "H",
+        "sector": "Industrial & Infrastructure Software",
+        "route": "B2B SaaS / enterprise software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 129410,
+        "negotiationLowUSD": 101277,
+        "negotiationHighUSD": 163169,
+        "replacementCostUSD": 731445,
+        "marketComparableProxyUSD": 750737,
+        "incomeLicensingProxyUSD": 851677,
+        "probabilityAdjustedStrategicValueUSD": 629456,
+        "triangulatedEconomicReferenceUSD": 723653
       }
     },
     {
@@ -2764,6 +3890,22 @@
         "reason": "No accepted next-maturity evidence or future sale/income value is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED",
         "acceptanceRule": "Future work is unpriced and requires its own evidence and scope."
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "M",
+        "sector": "Enterprise, Web & Commerce",
+        "route": "Private deployment / enterprise licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 10128,
+        "negotiationLowUSD": 7877,
+        "negotiationHighUSD": 12941,
+        "replacementCostUSD": 33759,
+        "marketComparableProxyUSD": 25826,
+        "incomeLicensingProxyUSD": 25066,
+        "probabilityAdjustedStrategicValueUSD": 12805,
+        "triangulatedEconomicReferenceUSD": 23100
       }
     },
     {
@@ -2792,6 +3934,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "VH",
+        "sector": "AI, Decision & Knowledge Systems",
+        "route": "B2B SaaS / enterprise software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 309458,
+        "negotiationLowUSD": 247566,
+        "negotiationHighUSD": 388229,
+        "replacementCostUSD": 787710,
+        "marketComparableProxyUSD": 1299722,
+        "incomeLicensingProxyUSD": 1811733,
+        "probabilityAdjustedStrategicValueUSD": 2093803,
+        "triangulatedEconomicReferenceUSD": 1552050
       }
     },
     {
@@ -2822,7 +3980,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 1033210,
+        "sensitivityDeltaUSD": 190457
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "H",
+        "sector": "Research & Scientific Software",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 135036,
+        "negotiationLowUSD": 106904,
+        "negotiationHighUSD": 168795,
+        "replacementCostUSD": 1012770,
+        "marketComparableProxyUSD": 841485,
+        "incomeLicensingProxyUSD": 871616,
+        "probabilityAdjustedStrategicValueUSD": 705544,
+        "triangulatedEconomicReferenceUSD": 842753
       }
     },
     {
@@ -2851,6 +4027,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "VH",
+        "sector": "Industrial & Infrastructure Software",
+        "route": "B2B SaaS / enterprise software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 787710,
+        "negotiationLowUSD": 630168,
+        "negotiationHighUSD": 984638,
+        "replacementCostUSD": 2138070,
+        "marketComparableProxyUSD": 3367460,
+        "incomeLicensingProxyUSD": 4917561,
+        "probabilityAdjustedStrategicValueUSD": 5424852,
+        "triangulatedEconomicReferenceUSD": 4090220
       }
     },
     {
@@ -2921,6 +4113,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "AI, Decision & Knowledge Systems",
+        "route": "Vertical SaaS / specialist software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 337590,
+        "negotiationLowUSD": 268947,
+        "negotiationHighUSD": 425363,
+        "replacementCostUSD": 1125300,
+        "marketComparableProxyUSD": 1423505,
+        "incomeLicensingProxyUSD": 1671071,
+        "probabilityAdjustedStrategicValueUSD": 1436225,
+        "triangulatedEconomicReferenceUSD": 1402918
       }
     },
     {
@@ -2964,7 +4172,25 @@
         "targetMilestone": "Evidence a repeatable operational release, deployment-specific security and agreed delivery acceptance for the intended use.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Use this figure only as a maturity sensitivity. It is not the current asking price or a promise of future value.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 425433,
+        "sensitivityDeltaUSD": 83297
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "H",
+        "sector": "AI, Decision & Knowledge Systems",
+        "route": "Enterprise software / licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 56265,
+        "negotiationLowUSD": 45012,
+        "negotiationHighUSD": 70331,
+        "replacementCostUSD": 337590,
+        "marketComparableProxyUSD": 362994,
+        "incomeLicensingProxyUSD": 393082,
+        "probabilityAdjustedStrategicValueUSD": 304352,
+        "triangulatedEconomicReferenceUSD": 342136
       }
     },
     {
@@ -2993,6 +4219,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "VH",
+        "sector": "Enterprise Software & Operations",
+        "route": "Web platform infrastructure / SaaS / licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 298205,
+        "negotiationLowUSD": 236313,
+        "negotiationHighUSD": 371349,
+        "replacementCostUSD": 787710,
+        "marketComparableProxyUSD": 1299722,
+        "incomeLicensingProxyUSD": 1811733,
+        "probabilityAdjustedStrategicValueUSD": 2093803,
+        "triangulatedEconomicReferenceUSD": 1552050
       }
     },
     {
@@ -3023,7 +4265,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 610272,
+        "sensitivityDeltaUSD": 72347
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "S",
+        "sector": "Research & Scientific Software",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 112530,
+        "negotiationLowUSD": 90024,
+        "negotiationHighUSD": 140663,
+        "replacementCostUSD": 1125300,
+        "marketComparableProxyUSD": 569120,
+        "incomeLicensingProxyUSD": 430427,
+        "probabilityAdjustedStrategicValueUSD": 161971,
+        "triangulatedEconomicReferenceUSD": 537925
       }
     },
     {
@@ -3054,7 +4314,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 523535,
+        "sensitivityDeltaUSD": 79075
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "M",
+        "sector": "Research & Scientific Software",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 101277,
+        "negotiationLowUSD": 78771,
+        "negotiationHighUSD": 129410,
+        "replacementCostUSD": 731445,
+        "marketComparableProxyUSD": 475623,
+        "incomeLicensingProxyUSD": 419667,
+        "probabilityAdjustedStrategicValueUSD": 235829,
+        "triangulatedEconomicReferenceUSD": 444460
       }
     },
     {
@@ -3083,6 +4361,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "Research & Scientific Software",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 309458,
+        "negotiationLowUSD": 247566,
+        "negotiationHighUSD": 388229,
+        "replacementCostUSD": 1462890,
+        "marketComparableProxyUSD": 1429975,
+        "incomeLicensingProxyUSD": 1678666,
+        "probabilityAdjustedStrategicValueUSD": 1442754,
+        "triangulatedEconomicReferenceUSD": 1492414
       }
     },
     {
@@ -3111,6 +4405,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "AI, Decision & Knowledge Systems",
+        "route": "B2B SaaS / enterprise software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 315084,
+        "negotiationLowUSD": 253193,
+        "negotiationHighUSD": 393855,
+        "replacementCostUSD": 956505,
+        "marketComparableProxyUSD": 1209979,
+        "incomeLicensingProxyUSD": 1484974,
+        "probabilityAdjustedStrategicValueUSD": 1220792,
+        "triangulatedEconomicReferenceUSD": 1205394
       }
     },
     {
@@ -3141,7 +4451,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 354528,
+        "sensitivityDeltaUSD": 69414
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "H",
+        "sector": "AI, Decision & Knowledge Systems",
+        "route": "B2B SaaS / enterprise software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 22506,
+        "negotiationLowUSD": 16880,
+        "negotiationHighUSD": 28133,
+        "replacementCostUSD": 281325,
+        "marketComparableProxyUSD": 302495,
+        "incomeLicensingProxyUSD": 327568,
+        "probabilityAdjustedStrategicValueUSD": 253627,
+        "triangulatedEconomicReferenceUSD": 285114
       }
     },
     {
@@ -3170,6 +4498,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "Identity, Privacy & Assurance",
+        "route": "Private deployment / enterprise licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 478253,
+        "negotiationLowUSD": 382602,
+        "negotiationHighUSD": 602036,
+        "replacementCostUSD": 1969275,
+        "marketComparableProxyUSD": 2377900,
+        "incomeLicensingProxyUSD": 2924373,
+        "probabilityAdjustedStrategicValueUSD": 2399149,
+        "triangulatedEconomicReferenceUSD": 2392476
       }
     },
     {
@@ -3240,6 +4584,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "Industrial & Infrastructure Software",
+        "route": "Private deployment / enterprise licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 168795,
+        "negotiationLowUSD": 133911,
+        "negotiationHighUSD": 210994,
+        "replacementCostUSD": 562650,
+        "marketComparableProxyUSD": 679400,
+        "incomeLicensingProxyUSD": 835535,
+        "probabilityAdjustedStrategicValueUSD": 685471,
+        "triangulatedEconomicReferenceUSD": 683565
       }
     },
     {
@@ -3311,7 +4671,25 @@
         "targetMilestone": "Evidence a reproducible operational engine release, deployment-specific security and an agreed engine-asset delivery acceptance scope. Deferred input execution and SaaS remain outside this milestone.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this is a constant-cost maturity sensitivity, not a future price, revenue forecast or acceptance of ingested software.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 242429,
+        "sensitivityDeltaUSD": 39992
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "M",
+        "sector": "Enterprise Software & Operations",
+        "route": "Enterprise software / licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 84398,
+        "negotiationLowUSD": 67518,
+        "negotiationHighUSD": 105497,
+        "replacementCostUSD": 281325,
+        "marketComparableProxyUSD": 236735,
+        "incomeLicensingProxyUSD": 218378,
+        "probabilityAdjustedStrategicValueUSD": 117381,
+        "triangulatedEconomicReferenceUSD": 202437
       }
     },
     {
@@ -3340,6 +4718,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "Identity, Privacy & Assurance",
+        "route": "B2B SaaS / enterprise software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 270072,
+        "negotiationLowUSD": 213807,
+        "negotiationHighUSD": 337590,
+        "replacementCostUSD": 956505,
+        "marketComparableProxyUSD": 1154980,
+        "incomeLicensingProxyUSD": 1484974,
+        "probabilityAdjustedStrategicValueUSD": 1165301,
+        "triangulatedEconomicReferenceUSD": 1174972
       }
     },
     {
@@ -3368,6 +4762,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "VH",
+        "sector": "Media & Creator Technology",
+        "route": "Vertical SaaS / specialist software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 731445,
+        "negotiationLowUSD": 585156,
+        "negotiationHighUSD": 917120,
+        "replacementCostUSD": 2025540,
+        "marketComparableProxyUSD": 3038310,
+        "incomeLicensingProxyUSD": 4456188,
+        "probabilityAdjustedStrategicValueUSD": 4894604,
+        "triangulatedEconomicReferenceUSD": 3718396
       }
     },
     {
@@ -3396,6 +4806,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "VH",
+        "sector": "AI, Decision & Knowledge Systems",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 900240,
+        "negotiationLowUSD": 720192,
+        "negotiationHighUSD": 1125300,
+        "replacementCostUSD": 3938550,
+        "marketComparableProxyUSD": 6498608,
+        "incomeLicensingProxyUSD": 6695535,
+        "probabilityAdjustedStrategicValueUSD": 10469012,
+        "triangulatedEconomicReferenceUSD": 7287621
       }
     },
     {
@@ -3462,6 +4888,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "Industrial & Infrastructure Software",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 230687,
+        "negotiationLowUSD": 184549,
+        "negotiationHighUSD": 288639,
+        "replacementCostUSD": 980699,
+        "marketComparableProxyUSD": 1184194,
+        "incomeLicensingProxyUSD": 1125352,
+        "probabilityAdjustedStrategicValueUSD": 1194776,
+        "triangulatedEconomicReferenceUSD": 1125255
       }
     },
     {
@@ -3542,7 +4984,25 @@
         "targetMilestone": "Evidence a reproducible release, agreed component and rights boundaries, use-specific qualification and recipient acceptance of the defined software package.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced. This constant-cost sensitivity is not a future price, forecast, scientific qualification or acceptance of unimplemented capabilities.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 181790,
+        "sensitivityDeltaUSD": 28955
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "M",
+        "sector": "AI, Decision & Knowledge Systems",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 67518,
+        "negotiationLowUSD": 54014,
+        "negotiationHighUSD": 84398,
+        "replacementCostUSD": 225060,
+        "marketComparableProxyUSD": 189388,
+        "incomeLicensingProxyUSD": 129128,
+        "probabilityAdjustedStrategicValueUSD": 93905,
+        "triangulatedEconomicReferenceUSD": 152835
       }
     },
     {
@@ -3573,7 +5033,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 322754,
+        "sensitivityDeltaUSD": 48625
+      },
+      "calculationInputs": {
+        "stage": "R",
+        "potential": "S",
+        "sector": "Research & Scientific Software",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 61892,
+        "negotiationLowUSD": 50639,
+        "negotiationHighUSD": 78771,
+        "replacementCostUSD": 675180,
+        "marketComparableProxyUSD": 261126,
+        "incomeLicensingProxyUSD": 172171,
+        "probabilityAdjustedStrategicValueUSD": 53355,
+        "triangulatedEconomicReferenceUSD": 274129
       }
     },
     {
@@ -3604,7 +5082,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 564821,
+        "sensitivityDeltaUSD": 85095
+      },
+      "calculationInputs": {
+        "stage": "R",
+        "potential": "S",
+        "sector": "Research & Scientific Software",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 56265,
+        "negotiationLowUSD": 45012,
+        "negotiationHighUSD": 73145,
+        "replacementCostUSD": 1181565,
+        "marketComparableProxyUSD": 456971,
+        "incomeLicensingProxyUSD": 301299,
+        "probabilityAdjustedStrategicValueUSD": 93372,
+        "triangulatedEconomicReferenceUSD": 479726
       }
     },
     {
@@ -3633,6 +5129,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "Industrial & Infrastructure Software",
+        "route": "Vertical SaaS / specialist software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 219434,
+        "negotiationLowUSD": 174422,
+        "negotiationHighUSD": 275699,
+        "replacementCostUSD": 731445,
+        "marketComparableProxyUSD": 883220,
+        "incomeLicensingProxyUSD": 1086196,
+        "probabilityAdjustedStrategicValueUSD": 891113,
+        "triangulatedEconomicReferenceUSD": 888634
       }
     },
     {
@@ -3676,6 +5188,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "Identity, Privacy & Assurance",
+        "route": "Vertical SaaS / specialist software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 331964,
+        "negotiationLowUSD": 266696,
+        "negotiationHighUSD": 415236,
+        "replacementCostUSD": 1344734,
+        "marketComparableProxyUSD": 1623766,
+        "incomeLicensingProxyUSD": 1996929,
+        "probabilityAdjustedStrategicValueUSD": 1638276,
+        "triangulatedEconomicReferenceUSD": 1633720
       }
     },
     {
@@ -3704,6 +5232,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "Specialist Vertical Software",
+        "route": "Vertical SaaS / specialist software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 180048,
+        "negotiationLowUSD": 146289,
+        "negotiationHighUSD": 225060,
+        "replacementCostUSD": 731445,
+        "marketComparableProxyUSD": 841162,
+        "incomeLicensingProxyUSD": 1086196,
+        "probabilityAdjustedStrategicValueUSD": 848679,
+        "triangulatedEconomicReferenceUSD": 865370
       }
     },
     {
@@ -3782,6 +5326,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "AI, Decision & Knowledge Systems",
+        "route": "Private deployment / enterprise licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 348843,
+        "negotiationLowUSD": 279074,
+        "negotiationHighUSD": 436616,
+        "replacementCostUSD": 1170312,
+        "marketComparableProxyUSD": 1480445,
+        "incomeLicensingProxyUSD": 1737913,
+        "probabilityAdjustedStrategicValueUSD": 1493674,
+        "triangulatedEconomicReferenceUSD": 1459036
       }
     },
     {
@@ -3822,6 +5382,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "Aerospace & Mobility",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 337590,
+        "negotiationLowUSD": 270072,
+        "negotiationHighUSD": 421988,
+        "replacementCostUSD": 1350360,
+        "marketComparableProxyUSD": 1397623,
+        "incomeLicensingProxyUSD": 1549538,
+        "probabilityAdjustedStrategicValueUSD": 1410112,
+        "triangulatedEconomicReferenceUSD": 1420562
       }
     },
     {
@@ -3852,7 +5428,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 1134488,
+        "sensitivityDeltaUSD": 222125
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "H",
+        "sector": "AI, Decision & Knowledge Systems",
+        "route": "Enterprise software / licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 168795,
+        "negotiationLowUSD": 135036,
+        "negotiationHighUSD": 213807,
+        "replacementCostUSD": 900240,
+        "marketComparableProxyUSD": 967983,
+        "incomeLicensingProxyUSD": 1048217,
+        "probabilityAdjustedStrategicValueUSD": 811607,
+        "triangulatedEconomicReferenceUSD": 912363
       }
     },
     {
@@ -3883,7 +5477,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 499922,
+        "sensitivityDeltaUSD": 79626
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "M",
+        "sector": "AI, Decision & Knowledge Systems",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 73145,
+        "negotiationLowUSD": 56265,
+        "negotiationHighUSD": 90024,
+        "replacementCostUSD": 618915,
+        "marketComparableProxyUSD": 520817,
+        "incomeLicensingProxyUSD": 355103,
+        "probabilityAdjustedStrategicValueUSD": 258238,
+        "triangulatedEconomicReferenceUSD": 420296
       }
     },
     {
@@ -3914,7 +5526,25 @@
         "targetMilestone": "Qualify the defined existing software, source-specific evidence, rights and recipient handover; separately resolve the listed project conditions. Scientific, physical or production claims require their own evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only on an evidenced software-maturity milestone. This constant-cost sensitivity is not a future asking price, income forecast or acceptance of unimplemented research goals.",
-        "modelBasis": "Retained model; maturity alone changes."
+        "modelBasis": "Retained model; maturity alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 87275,
+        "sensitivityDeltaUSD": 14397
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "M",
+        "sector": "Enterprise Software & Operations",
+        "route": "Enterprise software / licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 30383,
+        "negotiationLowUSD": 24306,
+        "negotiationHighUSD": 37979,
+        "replacementCostUSD": 101277,
+        "marketComparableProxyUSD": 85225,
+        "incomeLicensingProxyUSD": 78617,
+        "probabilityAdjustedStrategicValueUSD": 42257,
+        "triangulatedEconomicReferenceUSD": 72878
       }
     },
     {
@@ -3982,6 +5612,22 @@
         "reason": "No accepted next-maturity evidence or future sale/income value is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED",
         "acceptanceRule": "Future work is unpriced and requires its own evidence and scope."
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "M",
+        "sector": "Enterprise, Web & Commerce",
+        "route": "Private deployment / enterprise licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 4501,
+        "negotiationLowUSD": 3376,
+        "negotiationHighUSD": 5627,
+        "replacementCostUSD": 14066,
+        "marketComparableProxyUSD": 10761,
+        "incomeLicensingProxyUSD": 10444,
+        "probabilityAdjustedStrategicValueUSD": 5335,
+        "triangulatedEconomicReferenceUSD": 9625
       }
     },
     {
@@ -4012,7 +5658,25 @@
         "targetMilestone": "Qualify the defined existing software, source-specific evidence, rights and recipient handover; separately resolve the listed project conditions. Scientific, physical or production claims require their own evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only on an evidenced software-maturity milestone. This constant-cost sensitivity is not a future asking price, income forecast or acceptance of unimplemented research goals.",
-        "modelBasis": "Retained model; maturity alone changes."
+        "modelBasis": "Retained model; maturity alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 88598,
+        "sensitivityDeltaUSD": 13382
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "M",
+        "sector": "Research & Scientific Software",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 37135,
+        "negotiationLowUSD": 29708,
+        "negotiationHighUSD": 46419,
+        "replacementCostUSD": 123783,
+        "marketComparableProxyUSD": 80490,
+        "incomeLicensingProxyUSD": 71021,
+        "probabilityAdjustedStrategicValueUSD": 39910,
+        "triangulatedEconomicReferenceUSD": 75216
       }
     },
     {
@@ -4079,6 +5743,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "Industrial & Infrastructure Software",
+        "route": "Vertical SaaS / specialist software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 270072,
+        "negotiationLowUSD": 218308,
+        "negotiationHighUSD": 339278,
+        "replacementCostUSD": 896864,
+        "marketComparableProxyUSD": 1082963,
+        "incomeLicensingProxyUSD": 1331843,
+        "probabilityAdjustedStrategicValueUSD": 1092640,
+        "triangulatedEconomicReferenceUSD": 1089601
       }
     },
     {
@@ -4121,7 +5801,25 @@
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 1242991,
+        "sensitivityDeltaUSD": 231282
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "H",
+        "sector": "Aerospace & Mobility",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 140663,
+        "negotiationLowUSD": 112530,
+        "negotiationHighUSD": 174422,
+        "replacementCostUSD": 1181565,
+        "marketComparableProxyUSD": 1039482,
+        "incomeLicensingProxyUSD": 1016884,
+        "probabilityAdjustedStrategicValueUSD": 871555,
+        "triangulatedEconomicReferenceUSD": 1011709
       }
     },
     {
@@ -4167,7 +5865,25 @@
         "targetMilestone": "Qualify the defined existing software, source-specific evidence, rights and recipient handover; separately resolve the listed project conditions. Scientific, physical or production claims require their own evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only on an evidenced software-maturity milestone. This constant-cost sensitivity is not a future asking price, income forecast or acceptance of unimplemented research goals.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes."
+        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
+        "milestoneConditionedEconomicReferenceUSD": 108967,
+        "sensitivityDeltaUSD": 17479
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "M",
+        "sector": "Media & Creator Technology",
+        "route": "Media / creator software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 40511,
+        "negotiationLowUSD": 32409,
+        "negotiationHighUSD": 50639,
+        "replacementCostUSD": 135036,
+        "marketComparableProxyUSD": 103303,
+        "incomeLicensingProxyUSD": 95707,
+        "probabilityAdjustedStrategicValueUSD": 51221,
+        "triangulatedEconomicReferenceUSD": 91488
       }
     },
     {
@@ -4196,6 +5912,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "Enterprise Software & Operations",
+        "route": "B2B SaaS / enterprise software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 647048,
+        "negotiationLowUSD": 517638,
+        "negotiationHighUSD": 810216,
+        "replacementCostUSD": 2700720,
+        "marketComparableProxyUSD": 3416411,
+        "incomeLicensingProxyUSD": 4192868,
+        "probabilityAdjustedStrategicValueUSD": 3446940,
+        "triangulatedEconomicReferenceUSD": 3403465
       }
     },
     {
@@ -4224,6 +5956,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "VH",
+        "sector": "Enterprise Software & Operations",
+        "route": "B2B SaaS / enterprise software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 506385,
+        "negotiationLowUSD": 405108,
+        "negotiationHighUSD": 635795,
+        "replacementCostUSD": 1406625,
+        "marketComparableProxyUSD": 2320931,
+        "incomeLicensingProxyUSD": 3235238,
+        "probabilityAdjustedStrategicValueUSD": 3738933,
+        "triangulatedEconomicReferenceUSD": 2771517
       }
     },
     {
@@ -4252,6 +6000,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "VH",
+        "sector": "Identity, Privacy & Assurance",
+        "route": "B2B SaaS / enterprise software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 731445,
+        "negotiationLowUSD": 585156,
+        "negotiationHighUSD": 917120,
+        "replacementCostUSD": 2250600,
+        "marketComparableProxyUSD": 3544695,
+        "incomeLicensingProxyUSD": 5176380,
+        "probabilityAdjustedStrategicValueUSD": 5710371,
+        "triangulatedEconomicReferenceUSD": 4305495
       }
     },
     {
@@ -4322,6 +6086,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "H",
+        "sector": "AI, Decision & Knowledge Systems",
+        "route": "B2B SaaS / enterprise software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 208743,
+        "negotiationLowUSD": 168232,
+        "negotiationHighUSD": 261070,
+        "replacementCostUSD": 984638,
+        "marketComparableProxyUSD": 1245566,
+        "incomeLicensingProxyUSD": 1528650,
+        "probabilityAdjustedStrategicValueUSD": 1256697,
+        "triangulatedEconomicReferenceUSD": 1240847
       }
     },
     {
@@ -4350,6 +6130,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "S",
+        "sector": "AI, Decision & Knowledge Systems",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 180048,
+        "negotiationLowUSD": 146289,
+        "negotiationHighUSD": 225060,
+        "replacementCostUSD": 956505,
+        "marketComparableProxyUSD": 736509,
+        "incomeLicensingProxyUSD": 487818,
+        "probabilityAdjustedStrategicValueUSD": 252229,
+        "triangulatedEconomicReferenceUSD": 572271
       }
     },
     {
@@ -4378,6 +6174,22 @@
         "targetStage": null,
         "reason": "No independently supported higher maturity amount or new attributable market/income evidence is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED"
+      },
+      "calculationInputs": {
+        "stage": "V",
+        "potential": "M",
+        "sector": "AI, Decision & Knowledge Systems",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 292578,
+        "negotiationLowUSD": 236313,
+        "negotiationHighUSD": 365723,
+        "replacementCostUSD": 1350360,
+        "marketComparableProxyUSD": 1336856,
+        "incomeLicensingProxyUSD": 1033025,
+        "probabilityAdjustedStrategicValueUSD": 797640,
+        "triangulatedEconomicReferenceUSD": 1090740
       }
     },
     {
@@ -4445,7 +6257,33 @@
         "reason": "No accepted next-maturity evidence or future sale/income value is established.",
         "futureReferenceStatus": "NOT_ESTABLISHED",
         "acceptanceRule": "Future work is unpriced and requires its own evidence and scope."
+      },
+      "calculationInputs": {
+        "stage": "P",
+        "potential": "M",
+        "sector": "Media & Creator Technology",
+        "route": "Media / creator software"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 6189,
+        "negotiationLowUSD": 5064,
+        "negotiationHighUSD": 7877,
+        "replacementCostUSD": 21381,
+        "marketComparableProxyUSD": 16356,
+        "incomeLicensingProxyUSD": 15153,
+        "probabilityAdjustedStrategicValueUSD": 8110,
+        "triangulatedEconomicReferenceUSD": 14486
       }
     }
-  ]
+  ],
+  "portfolioUSD": {
+    "sellerAskUSD": 27767903,
+    "negotiationLowUSD": 22182364,
+    "negotiationHighUSD": 34801450,
+    "replacementCostUSD": 118302789,
+    "marketComparableProxyUSD": 134568018,
+    "incomeLicensingProxyUSD": 158364263,
+    "probabilityAdjustedStrategicValueUSD": 147930438,
+    "triangulatedEconomicReferenceUSD": 139937811
+  }
 }

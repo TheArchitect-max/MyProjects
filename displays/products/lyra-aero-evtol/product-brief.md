@@ -70,16 +70,18 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 Basis: 2026-10-17. All amounts in EUR. Market value is not established.
 
-| Reference | EUR |
-| --- | ---: |
-| Seller asking reference | 50,000 |
-| Negotiation reference - low | 40,000 |
-| Negotiation reference - high | 60,000 |
-| Recreation cost estimate | 450,000 |
-| Marketability cost scenario | 309,825 |
-| Monetisation cost scenario | 258,188 |
-| Risk-adjusted strategic reference | 153,622 |
-| Weighted economic reference | 279,870 |
+| Reference | EUR | USD - indicative |
+| --- | ---: | ---: |
+| Seller asking reference | 50,000 | 56,265 |
+| Negotiation reference - low | 40,000 | 45,012 |
+| Negotiation reference - high | 60,000 | 67,518 |
+| Recreation cost estimate | 450,000 | 506,385 |
+| Marketability cost scenario | 309,825 | 348,646 |
+| Monetisation cost scenario | 258,188 | 290,539 |
+| Risk-adjusted strategic reference | 153,622 | 172,871 |
+| Weighted economic reference | 279,870 | 314,938 |
+
+USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the previously published indicative negotiation range.
@@ -111,4 +113,10 @@ Project-specific prices are seller choices and model outputs; external publisher
 Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
+
+Calculation inputs: {"stage": "P", "potential": "M", "sector": "Aerospace & Mobility", "route": "Research / R&D licensing"}.
+
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html
+
+Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/lyra-aero-evtol/#calculation
 

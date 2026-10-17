@@ -70,16 +70,18 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 Basis: 2026-10-11. All amounts in EUR. Market value is not established.
 
-| Reference | EUR |
-| --- | ---: |
-| Seller asking reference | 15,000 |
-| Negotiation reference - low | 12,000 |
-| Negotiation reference - high | 18,750 |
-| Recreation cost estimate | 50,000 |
-| Marketability cost scenario | 34,425 |
-| Monetisation cost scenario | 28,688 |
-| Risk-adjusted strategic reference | 17,069 |
-| Weighted economic reference | 31,097 |
+| Reference | EUR | USD - indicative |
+| --- | ---: | ---: |
+| Seller asking reference | 15,000 | 16,880 |
+| Negotiation reference - low | 12,000 | 13,504 |
+| Negotiation reference - high | 18,750 | 21,099 |
+| Recreation cost estimate | 50,000 | 56,265 |
+| Marketability cost scenario | 34,425 | 38,738 |
+| Monetisation cost scenario | 28,688 | 32,283 |
+| Risk-adjusted strategic reference | 17,069 | 19,208 |
+| Weighted economic reference | 31,097 | 34,993 |
+
+USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the previously published indicative negotiation range.
@@ -125,4 +127,10 @@ Project-specific prices are seller choices and model outputs; external publisher
 Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
+
+Calculation inputs: {"stage": "P", "potential": "M", "sector": "Aerospace & Mobility", "route": "Research / R&D licensing"}.
+
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html
+
+Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/launch-cislunar-transportation-engineering-platform/#calculation
 
