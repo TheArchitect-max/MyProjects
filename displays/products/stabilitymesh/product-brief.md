@@ -66,6 +66,64 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 © 2026 THEARCHITECT_MAX. First-party rights reserved.
 
+## Product edition and acquisition dossier
+
+Identified product edition: 1.9.1
+
+Handover position: Conditional handover
+
+The 1.9.1 software provides evidence custody, guarded local infrastructure qualification, Alibaba/Azure measured-trace adapters, full-trace sensitivity and operational outcome/readiness contracts. Eleven static gates passed, including parsing 61 Python files. Full dependency-based tests and external-data campaigns require their own acceptance. Measured workloads and simulated controller responses are separate evidence categories.
+
+### Priced first-party scope
+
+Present first-party v1.9.1 software. Measured external workloads remain separate from simulated controller responses. Operational calibration on genuinely labeled outcomes, environment-specific acceptance and production deployment remain open. v1.9.1 is a metadata/transfer patch over the v1.9 functional baseline.
+
+### Acquisition evidence profile
+
+| Criterion | Profile | Meaning for your review |
+| --- | --- | --- |
+| Technical scope | V | provides hash-bound evidence custody, guarded local infrastructure qualification, Alibaba/Azure measured-trace adapters, full-trace sensitivity and operational outcome/readiness contracts. |
+| Evidence and validation | E2 | Eleven repository-native static gates passed, including parsing 61 Python files. Full dependency-based tests and external-data campaigns were not rerun. |
+| Rights and component obligations | R2 | Proprietary declaration and repository notices reviewed; independent chain of title and freedom to operate remain unestablished. |
+| Commercial basis | C2 | Explicit low-effort cost assumptions and seller asking choice; no independently determined market or income value. |
+| Delivery and handover | T3 | Source, tests and instructions inspected; exact rights, manifest and recipient acceptance remain open. |
+
+### Conditions before handover
+
+- Agree exact first-party rights, component obligations and excluded content in the definitive agreement.
+- Freeze a release-specific delivery manifest and complete recipient acceptance.
+- Complete independent security review or expressly accept its absence within the local reference scope.
+- Run the full dependency-based release suite and retain its source-pinned receipt.
+- Qualify genuinely labeled operational outcomes and the intended environment; external workload traces alone do not supply those labels.
+
+### Qualification objectives
+
+- Freeze and accept an exact delivery; run the full dependency-based suite and qualify measured, labeled outcomes in the intended environment.
+
+### Rights and components
+
+The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.
+
+Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance.
+
+- Dependency declaration: identified
+- Dependency lock record: not established in reviewed records
+- Component inventory artifact: not established in reviewed records
+- Licence notices: identified
+- Third-party disclosure: identified
+- Security documentation: identified
+
+### Potential applications
+
+- [Distributed workload continuity](https://thearchitect-max.github.io/MyProjects/connections.html#distributed-continuity): Compare distributed-system resilience scenarios.
+
+Proposed applications require separate interfaces, integration and joint qualification; they are not delivered integrated products.
+
+Grade definitions: https://thearchitect-max.github.io/MyProjects/assurance.html#criteria
+
+Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfer.html
+
+
 ## Complete prices and economic references
 
 Basis: 2026-10-17. All amounts in EUR. Market value is not established.
@@ -98,11 +156,11 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-Retained EUR 850,000 base plus EUR 21,500 low-effort implementation increment = EUR 871,500. Seller asking reference EUR 200,000 to EUR 205,000, retaining the earlier asking/cost proportion. Market value remains NOT_ESTABLISHED. Estimated hours are not logged time or expenditure.
+The EUR 871,500 recreation estimate consists of a EUR 850,000 base and a EUR 21,500 scoped implementation budget. The seller asking reference is EUR 205,000. Effort is estimated, not logged time or actual expenditure. Market value is not established.
 
 #### Low-effort working estimate
 
-Adds hash-bound evidence custody, guarded local infrastructure qualification, Alibaba/Azure measured-trace adapters, full-trace sensitivity and operational outcome/readiness contracts.
+Provides hash-bound evidence custody, guarded local infrastructure qualification, Alibaba/Azure measured-trace adapters, full-trace sensitivity and operational outcome/readiness contracts.
 
 - Assumed hours: 200
 - Hourly rate: EUR 94
@@ -119,7 +177,7 @@ Adds hash-bound evidence custody, guarded local infrastructure qualification, Al
 
 Hours and the 15% allowance are analyst assumptions for bounded reproduction with modern tooling. EUR 94 is a Dutch mean, not a minimum rate or a contractor quote. This is the lowest of the explicitly scoped working scenarios, not an absolute market or cost floor.
 
-Historical budgets can overlap and are not added to calculate a new price.
+Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
 

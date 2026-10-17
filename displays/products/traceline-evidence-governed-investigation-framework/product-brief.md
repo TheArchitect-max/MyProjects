@@ -66,6 +66,66 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 © 2026 THEARCHITECT_MAX. First-party rights reserved.
 
+## Product edition and acquisition dossier
+
+Identified product edition: 0.6.0
+
+Handover position: Conditional handover
+
+Review case evidence, controlled disclosure and recoverable local operations with v0.6.0. All 103 current local tests and the repository validation gate pass. Recorded authorisations and software checks support your review; they do not grant legal authority or independently authenticate evidence.
+
+### Priced first-party scope
+
+Existing first-party investigation decision-support software plus the implemented v0.6 local evidence custody, controlled disclosure and recoverable-operation increment, its documentation and tests. Legal authority, third-party content rights, independent evidence authentication, certified security and future deployment are excluded.
+
+### Acquisition evidence profile
+
+| Criterion | Profile | Meaning for your review |
+| --- | --- | --- |
+| Technical scope | V | Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance. |
+| Evidence and validation | E3 | Tests, validation and provenance/release evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results. |
+| Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. This grade concerns documented rights evidence. Missing documentation does not establish that first-party ownership is absent. |
+| Commercial basis | C2 | Seller ask and reproducible economic reference established. A published asking reference does not establish a completed sale, income or an independent appraisal. |
+| Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. Your agreed delivery scope and the conditions below govern acceptance. |
+
+### Conditions before handover
+
+- Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
+- A detailed component inventory and licensing report are required for the agreed delivery scope.
+- An explicit delivery manifest and handover scope remain to be agreed.
+
+### Qualification objectives
+
+- Agree a source-specific delivery edition and evaluate the documented functions against your intended use.
+- Close the listed technical, rights and handover conditions before recipient acceptance.
+- Independent legal ownership/title opinion not performed by this internal audit.
+- Freedom-to-operate legal opinion not performed unless separately evidenced.
+- Independent penetration test not assumed unless separately evidenced.
+
+### Rights and components
+
+The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.
+
+Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance.
+
+- Dependency declaration: identified
+- Dependency lock record: not established in reviewed records
+- Component inventory artifact: not established in reviewed records
+- Licence notices: identified
+- Third-party disclosure: identified
+- Security documentation: identified
+
+### Potential applications
+
+- [Investigation and evidence review](https://thearchitect-max.github.io/MyProjects/connections.html#investigation-and-publication): Manage case evidence and authorised investigation decisions.
+
+Proposed applications require separate interfaces, integration and joint qualification; they are not delivered integrated products.
+
+Grade definitions: https://thearchitect-max.github.io/MyProjects/assurance.html#criteria
+
+Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfer.html
+
+
 ## Complete prices and economic references
 
 Basis: 2026-10-12. All amounts in EUR. Market value is not established.
@@ -115,7 +175,7 @@ Local evidence custody, controlled disclosure and interrupted-operation recovery
 
 Engineering-equivalent reproduction assumption; no test-count, file-count, revenue or unexecuted-qualification premium.
 
-Historical budgets can overlap and are not added to calculate a new price.
+Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
 

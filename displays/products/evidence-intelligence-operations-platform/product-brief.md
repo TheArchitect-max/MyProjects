@@ -66,6 +66,69 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 © 2026 THEARCHITECT_MAX. First-party rights reserved.
 
+## Product edition and acquisition dossier
+
+Identified product edition: 6.3.0
+
+Handover position: Conditional handover
+
+The 6.3.0 baseline and separate 6.4.0 document-connector candidate require different qualification evidence. The candidate supports explicitly authorised, bounded local-document collection and verifiable receipts. Its retained report records 54 command gates and 192 tests across six environments. Historical failed runs remain failed; repair evidence for 6.3.1/6.3.2 applies to those specific editions.
+
+Separately scoped development: 6.4.0 — unmerged authorized-document connector candidate
+
+### Priced first-party scope
+
+Existing first-party 6.4.0 source (unmerged development snapshot), including the described implemented increment. Historical v6.0.0/v6.3.0 FAIL states remain. Live provider collection, external rights, production operation and future connectors are excluded.
+
+### Acquisition evidence profile
+
+| Criterion | Profile | Meaning for your review |
+| --- | --- | --- |
+| Technical scope | P | Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance. |
+| Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results. |
+| Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. This grade concerns documented rights evidence. Missing documentation does not establish that first-party ownership is absent. |
+| Commercial basis | C2 | Seller ask and reproducible economic reference established. A published asking reference does not establish a completed sale, income or an independent appraisal. |
+| Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. Your agreed delivery scope and the conditions below govern acceptance. |
+
+### Conditions before handover
+
+- Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
+- A detailed component inventory and licensing report are required for the agreed delivery scope.
+- A security assessment or an explicit statement of its absence is required before acceptance.
+- Release identity and provenance evidence remain incomplete.
+- An explicit delivery manifest and handover scope remain to be agreed.
+
+### Qualification objectives
+
+- Review the exact candidate and delivery manifest; qualify controlled read-only HTTPS/API ingestion and each additional operating-system or provider boundary separately.
+- Independent legal ownership/title opinion not performed by this internal audit.
+- Freedom-to-operate legal opinion not performed unless separately evidenced.
+- Independent penetration test not assumed unless separately evidenced.
+
+### Rights and components
+
+The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.
+
+Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance.
+
+- Dependency declaration: identified
+- Dependency lock record: not established in reviewed records
+- Component inventory artifact: not established in reviewed records
+- Licence notices: identified
+- Third-party disclosure: identified
+- Security documentation: not established in reviewed records
+
+### Potential applications
+
+- [Biometric evidence intake and review](https://thearchitect-max.github.io/MyProjects/connections.html#biometric-evidence-review): Retain supplied evidence, compare changes and route documented review decisions.
+
+Proposed applications require separate interfaces, integration and joint qualification; they are not delivered integrated products.
+
+Grade definitions: https://thearchitect-max.github.io/MyProjects/assurance.html#criteria
+
+Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfer.html
+
+
 ## Complete prices and economic references
 
 Basis: 2026-10-16. All amounts in EUR. Market value is not established.
@@ -98,11 +161,11 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The previous whole-project cost anchor remains a legacy seller assumption. The new implemented increment has a separate role/work-package reproduction budget; the base is counted once.
+The recreation anchor combines an identified base with separately scoped implementation work. The base remains a seller assumption; the scoped component has a role/work-package reproduction budget. Each component is counted once.
 
 #### Implemented scope budget
 
-Adds operator case governance, cross-dossier evidence review, verifiable bundles/delivery records and bounded authorized local-document collection beyond the retained v5.9 scope. Rename-only edits receive no separate premium.
+Provides operator case governance, cross-dossier evidence review, verifiable bundles/delivery records and bounded authorized local-document collection beyond the retained v5.9 scope. Rename-only edits receive no separate premium.
 
 - Senior engineer months: 3.0
 - Lead or specialist months: 0.75
@@ -118,7 +181,7 @@ Adds operator case governance, cross-dossier evidence review, verifiable bundles
 
 Analyst engineering-equivalent reproduction assumption, not logged hours, two days of labour invoiced as months, historical expenditure, a buyer quotation or independently established market value.
 
-Historical budgets can overlap and are not added to calculate a new price.
+Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
 

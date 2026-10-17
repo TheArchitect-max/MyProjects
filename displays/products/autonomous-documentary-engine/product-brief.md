@@ -66,6 +66,66 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 © 2026 THEARCHITECT_MAX. First-party rights reserved.
 
+## Product edition and acquisition dossier
+
+Identified product edition: 0.9.11
+
+Handover position: Conditional handover
+
+Available software for evaluation against your intended use. Deployment suitability is assessed separately.
+
+### Priced first-party scope
+
+Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+
+### Acquisition evidence profile
+
+| Criterion | Profile | Meaning for your review |
+| --- | --- | --- |
+| Technical scope | V | Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance. |
+| Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results. |
+| Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. This grade concerns documented rights evidence. Missing documentation does not establish that first-party ownership is absent. |
+| Commercial basis | C2 | Seller ask and reproducible economic reference established. A published asking reference does not establish a completed sale, income or an independent appraisal. |
+| Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. Your agreed delivery scope and the conditions below govern acceptance. |
+
+### Conditions before handover
+
+- A security assessment or an explicit statement of its absence is required before acceptance.
+- Release identity and provenance evidence remain incomplete.
+- Review potential sensitive filenames before transfer: apps/web/app/api/credentials/[id]/route.ts, apps/web/app/api/credentials/rotation/route.ts, apps/web/app/api/credentials/route.ts, apps/worker/src/provider-credentials.ts, docs/CREDENTIAL-KEY-ROTATION.md
+
+### Qualification objectives
+
+- Agree a source-specific delivery edition and evaluate the documented functions against your intended use.
+- Close the listed technical, rights and handover conditions before recipient acceptance.
+- Independent legal ownership/title opinion not performed by this internal audit.
+- Freedom-to-operate legal opinion not performed unless separately evidenced.
+- Independent penetration test not assumed unless separately evidenced.
+
+### Rights and components
+
+The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.
+
+Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance.
+
+- Dependency declaration: identified
+- Dependency lock record: identified
+- Component inventory artifact: identified
+- Licence notices: identified
+- Third-party disclosure: identified
+- Security documentation: not established in reviewed records
+
+### Potential applications
+
+- [Documentary production with evidence review](https://thearchitect-max.github.io/MyProjects/connections.html#documentary-and-evidence): Develop documentary stories and production plans.
+
+Proposed applications require separate interfaces, integration and joint qualification; they are not delivered integrated products.
+
+Grade definitions: https://thearchitect-max.github.io/MyProjects/assurance.html#criteria
+
+Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfer.html
+
+
 ## Complete prices and economic references
 
 Basis: 2026-10-17. All amounts in EUR. Market value is not established.
@@ -100,7 +160,7 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Historical budgets can overlap and are not added to calculate a new price.
+Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
 

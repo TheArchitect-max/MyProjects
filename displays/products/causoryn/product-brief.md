@@ -67,6 +67,67 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 © 2026 THEARCHITECT_MAX. First-party rights reserved.
 
+## Product edition and acquisition dossier
+
+Identified product edition: v0.6.0
+
+Handover position: Scope closure required
+
+Compare connected-system scenarios and review recorded observations with the locally tested prototype. Check its documented limitations and incomplete acquisition handover against your intended use.
+
+### Priced first-party scope
+
+Present first-party linked-system modelling, scenario comparison, offline observation records and local coupled-simulation prototype, with retained source, tests, documentation and development packaging at the identified v0.6.0 source commit. Live telemetry, distributed operation, physical fidelity, production qualification, third-party ownership and future development are excluded.
+
+### Acquisition evidence profile
+
+| Criterion | Profile | Meaning for your review |
+| --- | --- | --- |
+| Technical scope | P | Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance. |
+| Evidence and validation | E3 | Tests, validation and provenance/release evidence identified. The identified source version and tested scope govern these results; this is not independent certification. |
+| Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the documented rights and exclusions for your transaction; no independent title opinion is established. |
+| Commercial basis | C2 | Seller ask and reproducible economic reference established. This is a seller asking reference and assumption-based reproduction model, not a completed sale or independent appraisal. |
+| Delivery and handover | T1 | Implementation exists but core transfer evidence is incomplete. The listed conditions and agreed delivery scope govern acceptance. |
+
+### Conditions before handover
+
+- Freeze the acquisition delivery scope and complete the source, provenance and first-party rights register for the agreed release.
+- Reconcile a release-specific component and licensing inventory; identify and pin the build-tool dependency.
+- Complete the acquisition handover package and agree delivery, verification and acceptance conditions. The repository explicitly records NOT_READY.
+- Qualify the intended deployment and model-trust boundary; no independent security assessment or production acceptance is established.
+- Validate any claimed real-world domain behaviour separately. The current tests do not establish physical fidelity or scientific calibration.
+
+### Qualification objectives
+
+- Complete and freeze the acquisition evidence, rights and release-specific handover scope; separately qualify the intended domain.
+- Independent legal ownership/title opinion not performed by this internal audit.
+- Freedom-to-operate legal opinion not performed unless separately evidenced.
+- Independent penetration test not assumed unless separately evidenced.
+
+### Rights and components
+
+The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.
+
+Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance.
+
+- Dependency declaration: identified
+- Dependency lock record: not established in reviewed records
+- Component inventory artifact: not established in reviewed records
+- Licence notices: identified
+- Third-party disclosure: identified
+- Security documentation: identified
+
+### Potential applications
+
+- [Scenario modelling and shared worlds](https://thearchitect-max.github.io/MyProjects/connections.html#scenario-modelling-and-shared-worlds): Prepare bounded state models and reviewed simulation scenarios.
+
+Proposed applications require separate interfaces, integration and joint qualification; they are not delivered integrated products.
+
+Grade definitions: https://thearchitect-max.github.io/MyProjects/assurance.html#criteria
+
+Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfer.html
+
+
 ## Complete prices and economic references
 
 Basis: 2026-10-11. All amounts in EUR. Market value is not established.
@@ -101,7 +162,7 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 Disclosed base/increment assumptions reconcile to the retained recreation anchor. Effort remains an analyst estimate for its original scope.
 
-#### Retained work-package budget
+#### Scoped work-package budget
 
 Present first-party linked-system modelling, scenario comparison, offline observation records and local coupled-simulation prototype, with retained source, tests, documentation and development packaging at the identified v0.6.0 source commit. Live telemetry, distributed operation, physical fidelity, production qualification, third-party ownership and future development are excluded.
 
@@ -115,7 +176,7 @@ Present first-party linked-system modelling, scenario comparison, offline observ
 
 Assumed engineering-equivalent reproduction budget, not recorded hours, expenditure, elapsed development time, completed comparables or an independent appraisal.
 
-Historical budgets can overlap and are not added to calculate a new price.
+Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
 

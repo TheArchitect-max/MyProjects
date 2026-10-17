@@ -67,6 +67,67 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 © 2026 THEARCHITECT_MAX. First-party rights reserved.
 
+## Product edition and acquisition dossier
+
+Identified product edition: 0.1.0
+
+Handover position: Scope closure required
+
+Use the current local planning prototype to prepare requirements, dependencies and design documents. Main passed 24 tests; a separate unmerged v0.3 candidate passed 70 tests and its planning examples. Review labels record supplied declarations and do not independently establish engineering, scientific, legal or operational feasibility. Rights and handover documentation remain open.
+
+Separately scoped development: 0.3.0 — unmerged, stacked traceability/feasibility candidate
+
+### Priced first-party scope
+
+Existing first-party offline mission, requirements, dependency-planning and document-generation software on main v0.1 plus separately frozen unmerged v0.2/v0.3 traceability and feasibility-declaration software, tests and methodology documents. Generated plans are design outputs; independently established feasibility, copied cross-project IP, automatic engineering or execution, hosted services and future implementation are excluded.
+
+### Acquisition evidence profile
+
+| Criterion | Profile | Meaning for your review |
+| --- | --- | --- |
+| Technical scope | P | Assess the identified existing prototype and its documented limits; design objectives do not establish completed implementation. |
+| Evidence and validation | E2 | Use the exact-source local software results. Synthetic fixtures, supplied declarations and unmerged candidates remain distinct from independent or production qualification. |
+| Rights and component obligations | R0 | Review the expressly included first-party rights and outstanding provenance/component obligations. A seller declaration or a source inventory does not independently establish legal title. |
+| Commercial basis | C2 | Compare the seller asking reference with the disclosed engineering-equivalent cost assumptions; no independent appraisal, attributable income or comparable sale is established. |
+| Delivery and handover | T1 | Complete explicit first-party rights, component-obligation and definitive transfer documentation; a repository licence file is not currently identified. |
+
+### Conditions before handover
+
+- Complete explicit first-party rights, component-obligation and definitive transfer documentation; a repository licence file is not currently identified.
+- Agree main v0.1 and any expressly included unmerged v0.2/v0.3 delivery sources; the stacked candidate has not been integrated into main.
+- Freeze the delivery manifest, supported environment and recipient acceptance of the agreed planning and traceability workflows.
+- Independently review actual evidence and feasibility for your use case; software labels and supplied PASS declarations do not establish real-world feasibility.
+- Keep automatic implementation, deployment, scientific certification and incorporation of other project rights outside the offered scope.
+
+### Qualification objectives
+
+- Complete explicit first-party rights, component-obligation and definitive transfer documentation; a repository licence file is not currently identified.
+- Independent legal title/FTO opinions, security certification and buyer-specific acceptance remain separate.
+
+### Rights and components
+
+The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.
+
+Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance.
+
+- Dependency declaration: identified
+- Dependency lock record: not established in reviewed records
+- Component inventory artifact: not established in reviewed records
+- Licence notices: not established in reviewed records
+- Third-party disclosure: not established in reviewed records
+- Security documentation: not established in reviewed records
+
+### Potential applications
+
+- [Mission planning and operational review](https://thearchitect-max.github.io/MyProjects/connections.html#mission-planning-and-operational-review): Prepare requirements, evidence links and dependency-aware planning outputs.
+
+Proposed applications require separate interfaces, integration and joint qualification; they are not delivered integrated products.
+
+Grade definitions: https://thearchitect-max.github.io/MyProjects/assurance.html#criteria
+
+Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfer.html
+
+
 ## Complete prices and economic references
 
 Basis: 2026-10-12. All amounts in EUR. Market value is not established.
@@ -101,7 +162,7 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Historical budgets can overlap and are not added to calculate a new price.
+Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
 

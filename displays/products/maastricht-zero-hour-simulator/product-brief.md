@@ -67,6 +67,68 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 © 2026 THEARCHITECT_MAX. First-party rights reserved.
 
+## Product edition and acquisition dossier
+
+Identified product edition: 0.1.0
+
+Handover position: Scope closure required
+
+A simulator foundation in development; the complete city model and validated vehicle behaviour remain unfinished.
+
+### Priced first-party scope
+
+Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+
+### Acquisition evidence profile
+
+| Criterion | Profile | Meaning for your review |
+| --- | --- | --- |
+| Technical scope | P | Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance. |
+| Evidence and validation | E1 | Tests or structured evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results. |
+| Rights and component obligations | R0 | No repository licence evidence identified. This grade concerns documented rights evidence. Missing documentation does not establish that first-party ownership is absent. |
+| Commercial basis | C2 | Seller ask and reproducible economic reference established. A published asking reference does not establish a completed sale, income or an independent appraisal. |
+| Delivery and handover | T1 | Implementation exists but core transfer evidence is incomplete. Your agreed delivery scope and the conditions below govern acceptance. |
+
+### Conditions before handover
+
+- Repository licence file not identified.
+- Repository-native tests not identified.
+- A security assessment or an explicit statement of its absence is required before acceptance.
+- Release identity and provenance evidence remain incomplete.
+- An explicit delivery manifest and handover scope remain to be agreed.
+
+### Qualification objectives
+
+- Agree a source-specific delivery edition and evaluate the documented functions against your intended use.
+- Close the listed technical, rights and handover conditions before recipient acceptance.
+- Independent legal ownership/title opinion not performed by this internal audit.
+- Freedom-to-operate legal opinion not performed unless separately evidenced.
+- Independent penetration test not assumed unless separately evidenced.
+
+### Rights and components
+
+The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.
+
+Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance.
+
+- Dependency declaration: not established in reviewed records
+- Dependency lock record: not established in reviewed records
+- Component inventory artifact: not established in reviewed records
+- Licence notices: not established in reviewed records
+- Third-party disclosure: not established in reviewed records
+- Security documentation: not established in reviewed records
+
+### Potential applications
+
+- [Maastricht mobility and driving studies](https://thearchitect-max.github.io/MyProjects/connections.html#maastricht-mobility-studies): Provide the developing interactive-driving project foundations.
+
+Proposed applications require separate interfaces, integration and joint qualification; they are not delivered integrated products.
+
+Grade definitions: https://thearchitect-max.github.io/MyProjects/assurance.html#criteria
+
+Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfer.html
+
+
 ## Complete prices and economic references
 
 Basis: 2026-10-17. All amounts in EUR. Market value is not established.
@@ -101,7 +163,7 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Historical budgets can overlap and are not added to calculate a new price.
+Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
 

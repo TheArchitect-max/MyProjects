@@ -1,0 +1,1046 @@
+{
+  "schema": "public-application-combinations-1",
+  "purpose": "Potential acquisition applications involving separately scoped assets. Interfaces, integration, deployment and combined performance are not delivered or priced by these illustrative combinations.",
+  "connections": [
+    {
+      "id": "TA-CN-001",
+      "slug": "research-and-reasoning",
+      "title": "Research and evidence-based reasoning",
+      "category": "Intelligence & research",
+      "purpose": "Take a research question through organised investigation, evidence assessment and a reviewed conclusion.",
+      "connectionType": "Workflow adapters",
+      "status": "Proposed application",
+      "flow": [
+        "Research programme",
+        "Expert reasoning",
+        "Reviewed conclusion"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-011",
+          "role": "Organise research tasks and human review."
+        },
+        {
+          "ref": "TA-IP-053",
+          "role": "Compare expert perspectives and assess their supporting evidence."
+        }
+      ],
+      "requirements": [
+        "Agree how research tasks, findings and evidence references pass between the two projects.",
+        "Define the respective orchestration, reasoning and human-review responsibilities.",
+        "Test one complete question-to-reviewed-conclusion workflow."
+      ]
+    },
+    {
+      "id": "TA-CN-002",
+      "slug": "investigation-and-publication",
+      "title": "Investigation and evidence review",
+      "category": "Intelligence & research",
+      "purpose": "Organise authorised information relationships and retain traceable case-evidence review decisions.",
+      "connectionType": "Workflow adapters",
+      "status": "Proposed application",
+      "flow": [
+        "Information relationships",
+        "Case evidence",
+        "Authorised review"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-049",
+          "role": "Organise relationships between authorised information sources."
+        },
+        {
+          "ref": "TA-IP-065",
+          "role": "Manage case evidence and authorised investigation decisions."
+        }
+      ],
+      "requirements": [
+        "Align case identifiers, source permissions and evidence references.",
+        "Define the handover between information relationships and authorised case review.",
+        "Test the traceability of one case from source material to its reviewed output."
+      ]
+    },
+    {
+      "id": "TA-CN-003",
+      "slug": "content-and-custody",
+      "title": "Content review and custody records",
+      "category": "Evidence & assurance",
+      "purpose": "Review content alongside the records showing its custody and asset history.",
+      "connectionType": "Workflow adapters",
+      "status": "Proposed application",
+      "flow": [
+        "Content review",
+        "Custody handover",
+        "Asset-history review"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-071",
+          "role": "Review content and its supporting integrity evidence."
+        },
+        {
+          "ref": "TA-IP-009",
+          "role": "Record custody handovers and responsibility."
+        },
+        {
+          "ref": "TA-IP-044",
+          "role": "Review asset histories and documented handover evidence."
+        }
+      ],
+      "requirements": [
+        "Define which content item each custody and history record refers to.",
+        "Preserve the distinction between content assessment and custody evidence.",
+        "Test whether missing or conflicting records remain visible to the reviewer."
+      ]
+    },
+    {
+      "id": "TA-CN-004",
+      "slug": "software-composition",
+      "title": "Software capability selection and qualification",
+      "category": "Software & infrastructure",
+      "purpose": "Compare software capabilities, qualify the selected components and review the provenance of the resulting asset.",
+      "connectionType": "Workflow adapters",
+      "status": "Proposed application",
+      "flow": [
+        "Capability selection",
+        "Component assurance",
+        "Provenance review"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-092",
+          "role": "Compare candidate capabilities and proposed combinations."
+        },
+        {
+          "ref": "TA-IP-039",
+          "role": "Assess software components against evidence and policy requirements."
+        },
+        {
+          "ref": "TA-IP-063",
+          "role": "Review origin, qualification and release evidence."
+        }
+      ],
+      "requirements": [
+        "Add an explicit intake route for independently owned portfolio components.",
+        "Align the qualification criteria and provenance references.",
+        "Demonstrate compatibility with joint tests before treating a selected combination as integrated."
+      ]
+    },
+    {
+      "id": "TA-CN-005",
+      "slug": "software-change-governance",
+      "title": "Software change memory and state review",
+      "category": "Software & infrastructure",
+      "purpose": "Review a proposed software change against earlier decisions, architecture precedents and state records.",
+      "connectionType": "Workflow adapters",
+      "status": "Proposed application",
+      "flow": [
+        "Historical decisions",
+        "Architecture precedents",
+        "State review"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-019",
+          "role": "Retrieve earlier software decisions and change-risk evidence."
+        },
+        {
+          "ref": "TA-IP-047",
+          "role": "Compare software cases with recorded architecture and review precedents."
+        },
+        {
+          "ref": "TA-IP-004",
+          "role": "Review operational state and the history of changes."
+        }
+      ],
+      "requirements": [
+        "Align change identifiers, architecture precedents and operational state records.",
+        "Keep historical evidence distinct from the current change-review decision.",
+        "Test accepted and rejected change proposals while preserving a traceable review record."
+      ]
+    },
+    {
+      "id": "TA-CN-006",
+      "slug": "ai-models-and-capacity",
+      "title": "AI model workflows and compute capacity",
+      "category": "Software & infrastructure",
+      "purpose": "Plan AI model work and match supported tasks to available computing resources.",
+      "connectionType": "Shared execution services",
+      "status": "Proposed application",
+      "flow": [
+        "Model-task planning",
+        "Resource placement",
+        "Execution evidence"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-028",
+          "role": "Plan supported model workflows and continuation of interrupted tasks."
+        },
+        {
+          "ref": "TA-IP-022",
+          "role": "Coordinate supported AI workloads and available computing capacity."
+        }
+      ],
+      "requirements": [
+        "Agree the task handover and supported model-runtime boundary.",
+        "Validate the resource requirements and recovery behaviour for one supported workload.",
+        "Qualify each target environment separately before relying on distributed execution."
+      ]
+    },
+    {
+      "id": "TA-CN-007",
+      "slug": "distributed-continuity",
+      "title": "Distributed workload continuity",
+      "category": "Software & infrastructure",
+      "purpose": "Explore how remote workloads could respond to disruption using reviewed resilience and recovery decisions.",
+      "connectionType": "Workflow adapters",
+      "status": "Proposed application",
+      "flow": [
+        "Remote workloads",
+        "Resilience scenarios",
+        "Recovery review"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-082",
+          "role": "Coordinate remote computing work and continuity records."
+        },
+        {
+          "ref": "TA-IP-003",
+          "role": "Compare distributed-system resilience scenarios."
+        },
+        {
+          "ref": "TA-IP-027",
+          "role": "Evaluate recovery options and continuity conditions."
+        }
+      ],
+      "requirements": [
+        "Define the workload state shared by coordination and recovery components.",
+        "Keep simulated responses distinct from target-environment execution.",
+        "Test failure, recovery and duplicate-task scenarios in a controlled environment."
+      ]
+    },
+    {
+      "id": "TA-CN-008",
+      "slug": "learning-model-research",
+      "title": "Learning model research and comparison",
+      "category": "Intelligence & research",
+      "purpose": "Compare model candidates through controlled training, architecture and information-retention studies.",
+      "connectionType": "Research comparison",
+      "status": "Proposed application",
+      "flow": [
+        "Training studies",
+        "Architecture comparison",
+        "Retention experiments"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-013",
+          "role": "Manage reviewed AI training studies and model candidates."
+        },
+        {
+          "ref": "TA-IP-076",
+          "role": "Compare the effect of model-architecture changes."
+        },
+        {
+          "ref": "TA-IP-024",
+          "role": "Examine learning behaviour and retention under controlled changes."
+        }
+      ],
+      "requirements": [
+        "Use an agreed dataset, model identity and evaluation protocol.",
+        "Provide adapters for the supported experiment and checkpoint formats.",
+        "Compare results under matched conditions without assuming interchangeable models."
+      ]
+    },
+    {
+      "id": "TA-CN-009",
+      "slug": "adaptive-cognition-research",
+      "title": "Adaptive cognition research workbench",
+      "category": "Intelligence & research",
+      "purpose": "Study adaptive decisions, memory and brain-inspired behaviour through matched computational experiments.",
+      "connectionType": "Research comparison",
+      "status": "Proposed application",
+      "flow": [
+        "Adaptive runtime",
+        "Neural simulation",
+        "Comparative evaluation"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-070",
+          "role": "Run controlled experiments on adaptive learning, memory and decisions."
+        },
+        {
+          "ref": "TA-IP-077",
+          "role": "Simulate brain-inspired neural dynamics and active inference."
+        },
+        {
+          "ref": "TA-IP-020",
+          "role": "Compare adaptation and decision behaviour."
+        }
+      ],
+      "requirements": [
+        "Define common experiment inputs, observations and outcome measures.",
+        "Preserve each project’s model assumptions and research limitations.",
+        "Test the adapters and comparison protocol before combining experimental conclusions."
+      ]
+    },
+    {
+      "id": "TA-CN-010",
+      "slug": "multimodal-observation",
+      "title": "Multimodal observation and review",
+      "category": "Perception & signals",
+      "purpose": "Compare different observation types and review how each contributes to an interpretation.",
+      "connectionType": "Research comparison",
+      "status": "Proposed application",
+      "flow": [
+        "Perception experiments",
+        "Observation comparison",
+        "Visual review"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-052",
+          "role": "Compare documented multimodal-perception research outputs."
+        },
+        {
+          "ref": "TA-IP-056",
+          "role": "Combine observation records for comparative research."
+        },
+        {
+          "ref": "TA-IP-012",
+          "role": "Review visual material and supporting interpretations."
+        }
+      ],
+      "requirements": [
+        "Agree observation identifiers and compatible representations.",
+        "Retain the difference between research proxies and observed real-world evidence.",
+        "Test a bounded observation-to-review example without promoting research results into unsupported claims."
+      ]
+    },
+    {
+      "id": "TA-CN-011",
+      "slug": "mobile-spatial-review",
+      "title": "Mobile capture and spatial review",
+      "category": "Perception & signals",
+      "purpose": "Bring captured mobile observations into a spatial-review workflow.",
+      "connectionType": "Workflow adapters",
+      "status": "Proposed application",
+      "flow": [
+        "Mobile capture",
+        "Spatial observations",
+        "Supported-device review"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-081",
+          "role": "Capture and review mobile-camera observations."
+        },
+        {
+          "ref": "TA-IP-073",
+          "role": "Organise spatial and wearable-use observations."
+        }
+      ],
+      "requirements": [
+        "Agree capture formats, timestamps and spatial reference information.",
+        "Define consent, retention and access requirements for the captured material.",
+        "Test one capture-to-review scenario on the supported devices."
+      ]
+    },
+    {
+      "id": "TA-CN-012",
+      "slug": "audio-render-and-review",
+      "title": "Audio rendering and production review",
+      "category": "Audio & media",
+      "purpose": "Render an audio file, process it and review its measured technical quality.",
+      "connectionType": "File exchange",
+      "status": "Proposed application",
+      "flow": [
+        "Audio rendering",
+        "Audio processing",
+        "Quality review"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-069",
+          "role": "Render and export audio from the supported synthesis backend."
+        },
+        {
+          "ref": "TA-IP-060",
+          "role": "Analyse, process and technically review the rendered audio."
+        }
+      ],
+      "requirements": [
+        "Agree supported audio-file formats, sample rates and channel layouts.",
+        "Implement the handover from rendered output to production input.",
+        "Test a complete render-to-reviewed-file workflow with the available backends."
+      ]
+    },
+    {
+      "id": "TA-CN-013",
+      "slug": "recording-to-piano-practice",
+      "title": "Recorded music to guided piano practice",
+      "category": "Audio & media",
+      "purpose": "Prepare reviewed musical parts from suitable recordings for guided lessons and focused piano-practice research.",
+      "connectionType": "File exchange",
+      "status": "Proposed application",
+      "flow": [
+        "Recording transcription",
+        "Musical-part review",
+        "Practice-platform handover"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-085",
+          "role": "Transcribe recordings and export reviewed MIDI parts."
+        },
+        {
+          "ref": "TA-IP-084",
+          "role": "Use suitable musical parts for guided practice and performance feedback."
+        },
+        {
+          "ref": "TA-IP-095",
+          "role": "Organise focused piano practice and progress review."
+        }
+      ],
+      "requirements": [
+        "Define a separate handover of the reviewed MIDI parts to each piano platform; the platforms remain independently scoped.",
+        "Confirm each platform's supported musical formats, part selection and timing.",
+        "Retain manual correction of transcription inaccuracies and test both practice routes using authorised recordings."
+      ]
+    },
+    {
+      "id": "TA-CN-014",
+      "slug": "music-library-and-dj",
+      "title": "Music-library preparation and DJ review",
+      "category": "Audio & media",
+      "purpose": "Organise authorised audio creations and prepare reviewable candidate DJ sets and transitions.",
+      "connectionType": "Workflow adapters",
+      "status": "Proposed application",
+      "flow": [
+        "Audio-library preparation",
+        "DJ-set planning",
+        "Transition preview"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-046",
+          "role": "Organise audio creations and supported provider choices."
+        },
+        {
+          "ref": "TA-IP-093",
+          "role": "Prepare DJ sets and preview proposed transitions."
+        }
+      ],
+      "requirements": [
+        "Admit only audio that may be used for the intended workflow.",
+        "Align supported audio exports, library metadata and transition inputs.",
+        "Test a small authorised library through the handover and DJ-set preview."
+      ]
+    },
+    {
+      "id": "TA-CN-015",
+      "slug": "creative-media-production",
+      "title": "Creative text and media production",
+      "category": "Audio & media",
+      "purpose": "Develop creative text and media, then review supported manuscript deliverables through an author-controlled quality and manual publication handoff.",
+      "connectionType": "Workflow adapters",
+      "status": "Proposed application",
+      "flow": [
+        "Creative-text review",
+        "Production organisation",
+        "Preview and delivery",
+        "Manuscript evidence gates and author-approved manual handoff"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-021",
+          "role": "Develop and revise lyrics or other supported creative text."
+        },
+        {
+          "ref": "TA-IP-038",
+          "role": "Organise media sources, production review and delivery."
+        },
+        {
+          "ref": "TA-IP-068",
+          "role": "Manage supported media-generation jobs and previews."
+        },
+        {
+          "ref": "TA-IP-106",
+          "role": "Assemble and inspect agreed manuscript deliverables, retain QA evidence and prepare the author-approved manual book handoff."
+        }
+      ],
+      "requirements": [
+        "Define which approved text and media assets enter production.",
+        "Align production jobs, preview artifacts and delivery formats.",
+        "Test a bounded creative brief through review and supported media output.",
+        "Apply MIPP to supported text/DOCX deliverables only. Media rendering, literary/factual review and distributor acceptance require their own evidence; staged v0.5 code is outside the currently priced combination."
+      ]
+    },
+    {
+      "id": "TA-CN-016",
+      "slug": "documentary-and-evidence",
+      "title": "Documentary production with evidence review",
+      "category": "Audio & media",
+      "purpose": "Prepare a documentary workflow with supporting evidence reviewed before release.",
+      "connectionType": "Workflow adapters",
+      "status": "Proposed application",
+      "flow": [
+        "Source-evidence review",
+        "Documentary planning",
+        "Editorial review"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-029",
+          "role": "Review supporting evidence and publication conditions."
+        },
+        {
+          "ref": "TA-IP-055",
+          "role": "Develop documentary stories and production plans."
+        }
+      ],
+      "requirements": [
+        "Align source permissions, narrative references and publication decisions.",
+        "Keep editorial approval explicit throughout documentary planning.",
+        "Test one authorised source package through planning and a reviewable documentary output."
+      ]
+    },
+    {
+      "id": "TA-CN-017",
+      "slug": "machine-condition-research",
+      "title": "Machine-condition simulation and maintenance research",
+      "category": "Industry & engineering",
+      "purpose": "Compare machine-condition observations and remaining-life estimates within a controlled maintenance study.",
+      "connectionType": "Simulation workflow",
+      "status": "Proposed application",
+      "flow": [
+        "Machine simulation",
+        "State estimation",
+        "Maintenance assessment"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-010",
+          "role": "Provide supported rotating-machine simulation and diagnostic records."
+        },
+        {
+          "ref": "TA-IP-025",
+          "role": "Review operational observations and estimated system state."
+        },
+        {
+          "ref": "TA-IP-059",
+          "role": "Assess suitable machine histories for remaining-life research."
+        }
+      ],
+      "requirements": [
+        "Map simulated measurements to agreed sensor definitions and time histories.",
+        "Qualify a predictive model for the intended machine and data distribution.",
+        "Keep simulation, external-dataset evaluation and field performance separately identified."
+      ]
+    },
+    {
+      "id": "TA-CN-018",
+      "slug": "reviewed-operational-actions",
+      "title": "Action authorisation and controlled execution",
+      "category": "Industry & engineering",
+      "purpose": "Review explicit action permissions before executing and observing a supported bounded command.",
+      "connectionType": "Simulation workflow",
+      "status": "Proposed application",
+      "flow": [
+        "Action proposal",
+        "Permission review",
+        "Controlled execution"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-079",
+          "role": "Review the permission and decision record for an action."
+        },
+        {
+          "ref": "TA-IP-018",
+          "role": "Execute supported bounded commands with observed-state checks."
+        }
+      ],
+      "requirements": [
+        "Agree state, command and authorisation contracts.",
+        "Test approval, rejection and observed-state handling in software simulation.",
+        "Qualify deployment and physical equipment separately before target use."
+      ]
+    },
+    {
+      "id": "TA-CN-019",
+      "slug": "vehicle-configuration-review",
+      "title": "Vehicle configuration and engineering review",
+      "category": "Industry & engineering",
+      "purpose": "Compare source-supported vehicle configurations alongside engineering and tuning studies.",
+      "connectionType": "Workflow adapters",
+      "status": "Proposed application",
+      "flow": [
+        "Configuration evidence",
+        "Engineering comparison",
+        "Performance review"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-094",
+          "role": "Organise source-supported vehicle-configuration records."
+        },
+        {
+          "ref": "TA-IP-034",
+          "role": "Compare ground-vehicle concepts and design assumptions."
+        },
+        {
+          "ref": "TA-IP-080",
+          "role": "Review measured configurations and proposed improvements."
+        }
+      ],
+      "requirements": [
+        "Align vehicle identity, configuration versions and measurement units.",
+        "Keep observed measurements separate from design and tuning assumptions.",
+        "Test one configuration across the supported analysis routes."
+      ]
+    },
+    {
+      "id": "TA-CN-020",
+      "slug": "electric-flight-studies",
+      "title": "Electric-flight concept and mission studies",
+      "category": "Industry & engineering",
+      "purpose": "Review electric-aircraft concepts together with supported flight and mission simulations.",
+      "connectionType": "Simulation workflow",
+      "status": "Proposed application",
+      "flow": [
+        "Aircraft concept",
+        "Flight simulation",
+        "Mission comparison"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-091",
+          "role": "Explore the LYRA-AERO electric-aircraft design assumptions."
+        },
+        {
+          "ref": "TA-IP-032",
+          "role": "Compare supported electric-flight simulation behaviour."
+        },
+        {
+          "ref": "TA-IP-030",
+          "role": "Review mission scenarios, routes and planning assumptions."
+        }
+      ],
+      "requirements": [
+        "Agree aircraft parameters, energy assumptions and mission inputs.",
+        "Map each simulator’s supported state and scenario boundaries.",
+        "Test matched simulated scenarios; physical certification and deployment require separate evidence."
+      ]
+    },
+    {
+      "id": "TA-CN-021",
+      "slug": "maastricht-mobility-studies",
+      "title": "Maastricht mobility and driving studies",
+      "category": "Industry & engineering",
+      "purpose": "Explore local mobility scenarios alongside the developing interactive-driving workbench.",
+      "connectionType": "Simulation workflow",
+      "status": "Proposed application",
+      "flow": [
+        "Mobility scenario",
+        "Shared scenario parameters",
+        "Driving-workbench study"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-088",
+          "role": "Provide the supported Maastricht mobility-simulation workbench."
+        },
+        {
+          "ref": "TA-IP-089",
+          "role": "Provide the developing interactive-driving project foundations."
+        }
+      ],
+      "requirements": [
+        "Agree scenario identity, geography and supported vehicle parameters.",
+        "Identify the additional implementation required by the driving-workbench prototype.",
+        "Demonstrate one shared scenario before presenting a combined interactive simulator."
+      ]
+    },
+    {
+      "id": "TA-CN-022",
+      "slug": "bioacoustic-signal-review",
+      "title": "Scientific signal preparation and domain review",
+      "category": "Perception & signals",
+      "purpose": "Prepare suitable signal inputs for separate bioacoustic and radioastronomy studies within a shared research workflow.",
+      "connectionType": "File exchange",
+      "status": "Proposed application",
+      "flow": [
+        "Signal preparation",
+        "Separate domain studies",
+        "Result qualification"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-016",
+          "role": "Analyse and prepare suitable signal inputs."
+        },
+        {
+          "ref": "TA-IP-006",
+          "role": "Classify bioacoustic recordings and compare evaluation results."
+        },
+        {
+          "ref": "TA-IP-072",
+          "role": "Review radioastronomy candidate observations and validation records."
+        }
+      ],
+      "requirements": [
+        "Define separate processing handovers for bioacoustic recordings and supported telescope-data representations.",
+        "Preserve each domain's sample rates, timing, units, annotations and acquisition metadata.",
+        "Validate each branch independently against a documented domain-specific case; the domains do not share a classification or scientific-validation claim."
+      ]
+    },
+    {
+      "id": "TA-CN-023",
+      "slug": "cardiac-signal-research",
+      "title": "Cardiac-signal quality and learning research",
+      "category": "Perception & signals",
+      "purpose": "Compare ECG preparation, signal-quality review and learning experiments in a documented research workflow.",
+      "connectionType": "Research comparison",
+      "status": "Proposed application",
+      "flow": [
+        "ECG-quality review",
+        "Learning-study comparison",
+        "Research result review"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-078",
+          "role": "Review cardiac-signal quality and study results."
+        },
+        {
+          "ref": "TA-IP-051",
+          "role": "Run supported ECG learning studies and comparative evaluations."
+        }
+      ],
+      "requirements": [
+        "Align ECG leads, sampling, annotations and permitted dataset use.",
+        "Keep training, validation and test populations appropriately separated.",
+        "Evaluate the research workflow separately from any clinical or diagnostic use."
+      ]
+    },
+    {
+      "id": "TA-CN-024",
+      "slug": "digital-commerce-workflow",
+      "title": "Digital-product creation and catalogue workflow",
+      "category": "Commerce & professional work",
+      "purpose": "Organise supported digital-product creation, catalogue preparation and reviewed publishing workflows.",
+      "connectionType": "Workflow adapters",
+      "status": "Proposed application",
+      "flow": [
+        "Digital-product preparation",
+        "Catalogue compilation",
+        "Page-workflow review"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-087",
+          "role": "Organise supported digital-product creation and fulfilment records."
+        },
+        {
+          "ref": "TA-IP-045",
+          "role": "Prepare reviewed storefront material from a product catalogue."
+        },
+        {
+          "ref": "TA-IP-014",
+          "role": "Manage supported programmatic-page collections and publishing review."
+        }
+      ],
+      "requirements": [
+        "Align product identifiers, approved content and catalogue records.",
+        "Keep publication, fulfilment and external commercial operations explicitly scoped.",
+        "Test a local product-to-reviewed-catalogue workflow; accounts, transactions and runtime services require separate hosting."
+      ]
+    },
+    {
+      "id": "TA-CN-025",
+      "slug": "professional-case-review",
+      "title": "Legal research and accountable case review",
+      "category": "Commerce & professional work",
+      "purpose": "Organise legal research and review the evidence and uncertainty supporting a case analysis.",
+      "connectionType": "Workflow adapters",
+      "status": "Proposed application",
+      "flow": [
+        "Legal research",
+        "Analytical evidence review",
+        "Professional review"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-033",
+          "role": "Organise supported legal references and source-review workspaces."
+        },
+        {
+          "ref": "TA-IP-062",
+          "role": "Review supplied evidence, hypotheses and analytical uncertainty."
+        }
+      ],
+      "requirements": [
+        "Align case identifiers, source permissions and proposition-level evidence.",
+        "Require professional review for conclusions affecting a real case.",
+        "Test retrieval and traceability using an authorised example case."
+      ]
+    },
+    {
+      "id": "TA-CN-026",
+      "slug": "fusionlunar-energy-and-transport",
+      "title": "FusionLunar energy and transport studies",
+      "category": "Industry & engineering",
+      "purpose": "Assess lunar energy and infrastructure concepts together with their launch, cargo and resupply needs. Launch & Cislunar Transportation Engineering Platform provides the separately scoped transport module for your FusionLunar study.",
+      "connectionType": "FusionLunar transport module",
+      "status": "Proposed application",
+      "flow": [
+        "Lunar energy and infrastructure requirements",
+        "Launch and cislunar transport options",
+        "Whole-system concept review"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-057",
+          "role": "Review energy-system and lunar-infrastructure requirements for your engineering study."
+        },
+        {
+          "ref": "TA-IP-099",
+          "role": "Use the separate launch and cislunar transport module to evaluate the transport needs of your FusionLunar study."
+        }
+      ],
+      "requirements": [
+        "Agree the supported demand/result interface, version boundary, units and evidence required for the intended study.",
+        "Validate the combined workflow against both identified source versions before relying on whole-system results; the catalogue does not establish completed joint qualification.",
+        "Treat declared or synthetic screening inputs separately from flight-qualified performance, vehicle safety and operational reliability.",
+        "Keep both first-party software scopes, third-party obligations and transfer perimeters distinct; additional integration work is outside the published sums."
+      ]
+    },
+    {
+      "id": "TA-CN-027",
+      "slug": "mission-planning-and-operational-review",
+      "title": "Mission planning and operational review",
+      "category": "Operations & planning",
+      "purpose": "Translate your project aims into reviewed plans, then compare operational scenarios before an execution decision.",
+      "connectionType": "Proposed modular workflow",
+      "status": "Proposed application",
+      "flow": [
+        "Reviewed requirements and dependencies",
+        "Proposed operational model",
+        "Scenario comparison",
+        "Human-authorised decision review"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-105",
+          "role": "Prepare requirements, evidence links and dependency-aware planning outputs."
+        },
+        {
+          "ref": "TA-IP-103",
+          "role": "Model resources and workflows, compare scenarios and preserve local decision evidence."
+        }
+      ],
+      "requirements": [
+        "Define and implement a versioned adapter between the identified software scopes; no working connector is claimed by this catalogue.",
+        "Freeze the exact main/development sources, permitted inputs, component obligations and recipient acceptance tests.",
+        "Keep supplied declarations, synthetic examples and human reviews separate from independent scientific, security or production qualification.",
+        "Agree integration work, deployment and any external rights separately from the sums of the existing project prices."
+      ]
+    },
+    {
+      "id": "TA-CN-028",
+      "slug": "scenario-modelling-and-shared-worlds",
+      "title": "Scenario modelling and shared worlds",
+      "category": "Simulation & shared worlds",
+      "purpose": "Explore how modelled scenarios could inform consistent fictional shared-world experiences.",
+      "connectionType": "Proposed modular workflow",
+      "status": "Proposed application",
+      "flow": [
+        "Scoped scenario model",
+        "Agreed state and event adapter",
+        "Local shared-world scenario",
+        "Replay and outcome review"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-097",
+          "role": "Prepare bounded state models and reviewed simulation scenarios."
+        },
+        {
+          "ref": "TA-IP-104",
+          "role": "Apply authorised fictional-world decisions and review scenario history."
+        }
+      ],
+      "requirements": [
+        "Define and implement a versioned adapter between the identified software scopes; no working connector is claimed by this catalogue.",
+        "Freeze the exact main/development sources, permitted inputs, component obligations and recipient acceptance tests.",
+        "Keep supplied declarations, synthetic examples and human reviews separate from independent scientific, security or production qualification.",
+        "Agree integration work, deployment and any external rights separately from the sums of the existing project prices."
+      ]
+    },
+    {
+      "id": "TA-CN-029",
+      "slug": "observation-and-perception-studies",
+      "title": "Observation and perception studies",
+      "category": "Scientific observation",
+      "purpose": "Review optical observation software alongside controlled study records, keeping measurements, hypotheses and research conclusions distinct.",
+      "connectionType": "Proposed modular workflow",
+      "status": "Proposed application",
+      "flow": [
+        "Authorised observation input",
+        "Separately reviewed optical software",
+        "Controlled study and independent custody",
+        "Human review of evidence and uncertainty"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-001",
+          "role": "Process bounded optical observations in a separately qualified development candidate."
+        },
+        {
+          "ref": "TA-IP-102",
+          "role": "Prepare controlled study, custody and scoring records with explicit research limitations."
+        }
+      ],
+      "requirements": [
+        "Define and implement a versioned adapter between the identified software scopes; no working connector is claimed by this catalogue.",
+        "Freeze the exact main/development sources, permitted inputs, component obligations and recipient acceptance tests.",
+        "Keep supplied declarations, synthetic examples and human reviews separate from independent scientific, security or production qualification.",
+        "Agree integration work, deployment and any external rights separately from the sums of the existing project prices."
+      ]
+    },
+    {
+      "id": "TA-CN-030",
+      "slug": "research-led-software-asset-review",
+      "title": "Research-led software asset review",
+      "category": "Software evidence",
+      "purpose": "Review your authorised research notes and source-bound proposals alongside the local software-asset qualification workflow.",
+      "connectionType": "Proposed modular workflow",
+      "status": "Proposed application",
+      "flow": [
+        "User-authored research notes",
+        "Human-reviewed project leads",
+        "Agreed source/evidence adapter",
+        "Software-asset review and handover planning"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-101",
+          "role": "Retain manual research notes and prepare reviewed source-linked investigation proposals."
+        },
+        {
+          "ref": "TA-IP-098",
+          "role": "Review the agreed software scope and version-bound evidence for a documented handover."
+        }
+      ],
+      "requirements": [
+        "Define and implement a versioned adapter between the identified software scopes; no working connector is claimed by this catalogue.",
+        "Freeze the exact main/development sources, permitted inputs, component obligations and recipient acceptance tests.",
+        "Keep supplied declarations, synthetic examples and human reviews separate from independent scientific, security or production qualification.",
+        "Agree integration work, deployment and any external rights separately from the sums of the existing project prices."
+      ]
+    },
+    {
+      "id": "TA-CN-031",
+      "slug": "biometric-evidence-review",
+      "title": "Biometric evidence intake and review",
+      "category": "Security evidence",
+      "purpose": "Review authorised biometric-assurance results alongside source-bound evidence changes and reviewer queues.",
+      "connectionType": "Proposed modular workflow",
+      "status": "Proposed application",
+      "flow": [
+        "Authorised synthetic or laboratory results",
+        "Agreed result/provenance adapter",
+        "Evidence change assessment",
+        "Human review queue"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-035",
+          "role": "Prepare simulated biometric metrics and ingest separately identified laboratory evidence."
+        },
+        {
+          "ref": "TA-IP-005",
+          "role": "Retain supplied evidence, compare changes and route documented review decisions."
+        }
+      ],
+      "requirements": [
+        "Define dataset consent, retention and disclosure before any real biometric-data use.",
+        "Preserve simulation versus hardware-evidence labels and validate the exact result/provenance adapter.",
+        "No physical-device certification or live authentication deployment is established by this proposed combination.",
+        "Freeze agreed source versions, permitted inputs and each project’s separate rights/perimeter.",
+        "Build and jointly qualify a versioned interface; the catalogue does not deliver a working integrated engine.",
+        "Existing-asset asking/recreation totals exclude integration, deployment and external service/data rights."
+      ]
+    },
+    {
+      "id": "TA-CN-032",
+      "slug": "factorisation-optimisation-research",
+      "title": "Factorisation and optimisation research",
+      "category": "Mathematical research",
+      "purpose": "Compare bounded factorisation-circuit resource studies with separately formulated QUBO optimisation experiments.",
+      "connectionType": "Proposed modular workflow",
+      "status": "Proposed application",
+      "flow": [
+        "Declared factorisation/resource study",
+        "Separately reviewed QUBO formulation",
+        "Bounded solver comparison",
+        "Reproducible research report"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-042",
+          "role": "Produce bounded order-finding, routing/factory and resource-sensitivity study outputs."
+        },
+        {
+          "ref": "TA-IP-075",
+          "role": "Analyse and benchmark an explicitly formulated binary optimisation instance with declared baselines."
+        }
+      ],
+      "requirements": [
+        "Construct and review the mathematical encoding; no automatic factorisation-to-QUBO adapter is currently claimed.",
+        "Keep exact-circuit semantics, heuristic optimisation and physical quantum feasibility as separate evidence categories.",
+        "No cryptographic breakthrough, general solver advantage or hardware result is established by a proposed workflow.",
+        "Freeze agreed source versions, permitted inputs and each project’s separate rights/perimeter.",
+        "Build and jointly qualify a versioned interface; the catalogue does not deliver a working integrated engine.",
+        "Existing-asset asking/recreation totals exclude integration, deployment and external service/data rights."
+      ]
+    },
+    {
+      "id": "TA-CN-033",
+      "slug": "governed-network-resilience",
+      "title": "Governed network-resilience studies",
+      "category": "Infrastructure governance",
+      "purpose": "Review proposed topology-repair choices alongside explicit evidence, obligations and decision authority.",
+      "connectionType": "Proposed modular workflow",
+      "status": "Proposed application",
+      "flow": [
+        "Declared network perturbation",
+        "ATHANOR strategy/provenance record",
+        "Agreed governance evidence adapter",
+        "Reviewer-authorised decision"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-002",
+          "role": "Compare deterministic topology-repair strategies and retain simulation/provenance results."
+        },
+        {
+          "ref": "TA-IP-083",
+          "role": "Apply an agreed domain pack to supplied evidence, obligations and reviewer authority."
+        }
+      ],
+      "requirements": [
+        "Define the network domain pack and interface; synthetic graph results do not establish physical network safety.",
+        "Test preservation of source fingerprints, abstention decisions and authority restrictions.",
+        "Live intervention, production infrastructure and integration engineering need separate qualification and agreement.",
+        "Freeze agreed source versions, permitted inputs and each project’s separate rights/perimeter.",
+        "Build and jointly qualify a versioned interface; the catalogue does not deliver a working integrated engine.",
+        "Existing-asset asking/recreation totals exclude integration, deployment and external service/data rights."
+      ]
+    }
+  ]
+}

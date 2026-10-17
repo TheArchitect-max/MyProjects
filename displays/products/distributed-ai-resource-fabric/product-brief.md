@@ -66,6 +66,71 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 © 2026 THEARCHITECT_MAX. First-party rights reserved.
 
+## Product edition and acquisition dossier
+
+Identified product edition: 0.19.0
+
+Handover position: Conditional handover
+
+The v0.19 baseline and separate v0.24 development candidate have distinct acceptance scopes. Retained 375-test and single-T4 results remain specific to their recorded versions. A hardware-campaign inventory preflight failed before multi-GPU execution. Physical multi-GPU, two-host recovery and live containment qualification remain open.
+
+Separately scoped development: 0.24.0 unmerged draft; physical campaign preflight unsuccessful
+
+### Priced first-party scope
+
+Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+
+### Acquisition evidence profile
+
+| Criterion | Profile | Meaning for your review |
+| --- | --- | --- |
+| Technical scope | V | Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance. |
+| Evidence and validation | E4 | E3 plus repository-retained independent/external validation evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results. |
+| Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. This grade concerns documented rights evidence. Missing documentation does not establish that first-party ownership is absent. |
+| Commercial basis | C2 | Seller ask and reproducible economic reference established. A published asking reference does not establish a completed sale, income or an independent appraisal. |
+| Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. Your agreed delivery scope and the conditions below govern acceptance. |
+
+### Conditions before handover
+
+- Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
+- A detailed component inventory and licensing report are required for the agreed delivery scope.
+- Third-party licensing and obligations documentation remains incomplete.
+- A security assessment or an explicit statement of its absence is required before acceptance.
+- An explicit delivery manifest and handover scope remain to be agreed.
+- Agree and freeze the exact unmerged v0.24 delivery scope; main remains v0.19 and no release promotion is implied.
+- Physical multi-GPU model execution, two-host model execution/recovery, live kernel containment and production acceptance remain unqualified.
+
+### Qualification objectives
+
+- Real model execution across two physical GPUs, then two independent hosts, plus live operating-system containment on an authorised host.
+- Independent legal ownership/title opinion not performed by this internal audit.
+- Freedom-to-operate legal opinion not performed unless separately evidenced.
+- Independent penetration test not assumed unless separately evidenced.
+
+### Rights and components
+
+The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.
+
+Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance.
+
+- Dependency declaration: identified
+- Dependency lock record: not established in reviewed records
+- Component inventory artifact: not established in reviewed records
+- Licence notices: identified
+- Third-party disclosure: not established in reviewed records
+- Security documentation: not established in reviewed records
+
+### Potential applications
+
+- [AI model workflows and compute capacity](https://thearchitect-max.github.io/MyProjects/connections.html#ai-models-and-capacity): Coordinate supported AI workloads and available computing capacity.
+
+Proposed applications require separate interfaces, integration and joint qualification; they are not delivered integrated products.
+
+Grade definitions: https://thearchitect-max.github.io/MyProjects/assurance.html#criteria
+
+Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfer.html
+
+
 ## Complete prices and economic references
 
 Basis: 2026-10-17. All amounts in EUR. Market value is not established.
@@ -100,7 +165,7 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 Some dated work-package assumptions are disclosed, but they do not reconstruct the complete retained recreation anchor. A complete scope-specific budget is required.
 
-#### Retained work-package budget
+#### Scoped work-package budget
 
 Additional recoverability, reproducible operation and validation work delivered after the previous assessment. The pending latest hardware gate is excluded from completed-validation claims.
 
@@ -113,7 +178,7 @@ Additional recoverability, reproducible operation and validation work delivered 
 
 Seller assumptions for scoped reproduction, not actual spending.
 
-#### Retained work-package budget
+#### Scoped work-package budget
 
 Delivered workload placement/execution controls, worker policy and lease enforcement, active-session supervision, persistent local recovery/reconciliation software, retained regression and single-GPU qualification, and supporting documentation. Earlier v0.10 implementation is already priced and is not counted again.
 
@@ -128,7 +193,7 @@ Delivered workload placement/execution controls, worker policy and lease enforce
 
 Analyst-assumed engineering-equivalent reproduction budget at existing model rates; not recorded hours, elapsed build time, actual expenditure or an independent valuation.
 
-#### Retained work-package budget
+#### Scoped work-package budget
 
 Delivered durable worker receipts and process supervision, bounded custody/launch safety and forensic review software, retained exact-source regression and single-device qualification, and supporting documentation. Committed v0.20–v0.24 development remains draft and unmerged.
 
@@ -143,7 +208,7 @@ Delivered durable worker receipts and process supervision, bounded custody/launc
 
 Assumed engineering-equivalent reproduction budget, not actual hours, payroll, expenditure, elapsed development time or an independently certified appraisal.
 
-Historical budgets can overlap and are not added to calculate a new price.
+Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
 

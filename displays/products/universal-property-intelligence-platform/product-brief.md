@@ -65,6 +65,57 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 © 2026 THEARCHITECT_MAX. First-party rights reserved.
 
+## Product edition and acquisition dossier
+
+Identified product edition: 0.1.0
+
+Handover position: Conditional handover
+
+A standard-library property evidence core with hierarchy, observed/declared/inferred records, deterministic low/base/high replacement estimates, condition/risk fields, graph and JSON/CSV exports. all 7 local Python tests passed on the exact v0.1.0 snapshot. No automatic extraction from photographs/video, certified property appraisal, verified insurance value, production integration or real-property accuracy is established. Reference Property 001 is synthetic demonstration evidence.
+
+### Priced first-party scope
+
+Present first-party v0.1.0 software. No automatic extraction from photographs/video, certified property appraisal, verified insurance value, production integration or real-property accuracy is established. Reference Property 001 is synthetic demonstration evidence.
+
+### Acquisition evidence profile
+
+| Criterion | Profile | Meaning for your review |
+| --- | --- | --- |
+| Technical scope | P | A standard-library property evidence core with hierarchy, observed/declared/inferred records, deterministic low/base/high replacement estimates, condition/risk fields, graph and JSON/CSV exports. |
+| Evidence and validation | E2 | all 7 local Python tests passed on the exact v0.1.0 snapshot. |
+| Rights and component obligations | R1 | Proprietary declaration and repository notices reviewed; independent chain of title and freedom to operate remain unestablished. |
+| Commercial basis | C2 | Explicit low-effort cost assumptions and seller asking choice; no independently determined market or income value. |
+| Delivery and handover | T2 | Source, tests and instructions inspected; exact rights, manifest and recipient acceptance remain open. |
+
+### Conditions before handover
+
+- Agree exact first-party rights, component obligations and excluded content in the definitive agreement.
+- Freeze a release-specific delivery manifest and complete recipient acceptance.
+- Complete independent security review or expressly accept its absence within the local reference scope.
+- Qualify realistic, permissioned property evidence, strengthen hash/ontology checks and agree rights and recipient acceptance.
+
+### Qualification objectives
+
+- Qualify realistic, permissioned property evidence, strengthen hash/ontology checks and agree rights and recipient acceptance.
+
+### Rights and components
+
+The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.
+
+Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance.
+
+- Dependency declaration: identified
+- Dependency lock record: not established in reviewed records
+- Component inventory artifact: not established in reviewed records
+- Licence notices: identified
+- Third-party disclosure: not established in reviewed records
+- Security documentation: identified
+
+Grade definitions: https://thearchitect-max.github.io/MyProjects/assurance.html#criteria
+
+Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfer.html
+
+
 ## Complete prices and economic references
 
 Basis: 2026-10-17. All amounts in EUR. Market value is not established.
@@ -97,7 +148,7 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-New present-source low-effort recreation reference EUR 12,500; seller asking choice EUR 4,000. Market value remains NOT_ESTABLISHED. Estimated hours are not logged time or expenditure.
+Present-source low-effort recreation reference EUR 12,500; seller asking choice EUR 4,000. Market value remains not established. Estimated hours are not logged time or expenditure.
 
 #### Low-effort working estimate
 
@@ -118,7 +169,7 @@ A standard-library property evidence core with hierarchy, observed/declared/infe
 
 Hours and the 15% allowance are analyst assumptions for bounded reproduction with modern tooling. EUR 94 is a Dutch mean, not a minimum rate or a contractor quote. This is the lowest of the explicitly scoped working scenarios, not an absolute market or cost floor.
 
-Historical budgets can overlap and are not added to calculate a new price.
+Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
 

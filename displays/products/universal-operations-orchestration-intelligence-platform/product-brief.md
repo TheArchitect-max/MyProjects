@@ -66,6 +66,65 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 © 2026 THEARCHITECT_MAX. First-party rights reserved.
 
+## Product edition and acquisition dossier
+
+Identified product edition: 0.4.0
+
+Handover position: Conditional handover
+
+Evaluate operational models, plan dependencies and compare scenarios using the offline foundation. All 81 local tests, four demonstrations and the small local benchmark passed. Production authentication, hosted operations and autonomous real-world execution remain future work.
+
+### Priced first-party scope
+
+Existing first-party v0.4 offline operational modelling, planning, local event memory, controlled recovery, portable evidence and non-mutating policy-proposal software, tests and documentation. External actuation, authenticated identities, externally certified custody, deployed multi-user SaaS, production optimisation or autonomous execution and future development are excluded.
+
+### Acquisition evidence profile
+
+| Criterion | Profile | Meaning for your review |
+| --- | --- | --- |
+| Technical scope | P | Assess the identified existing prototype and its documented limits; design objectives do not establish completed implementation. |
+| Evidence and validation | E2 | Use the exact-source local software results. Synthetic fixtures, supplied declarations and unmerged candidates remain distinct from independent or production qualification. |
+| Rights and component obligations | R2 | Review the expressly included first-party rights and outstanding provenance/component obligations. A seller declaration or a source inventory does not independently establish legal title. |
+| Commercial basis | C2 | Compare the seller asking reference with the disclosed engineering-equivalent cost assumptions; no independent appraisal, attributable income or comparable sale is established. |
+| Delivery and handover | T2 | Agree the exact v0.4 source, local software delivery manifest, supported environment and recipient acceptance checks. |
+
+### Conditions before handover
+
+- Agree the exact v0.4 source, local software delivery manifest, supported environment and recipient acceptance checks.
+- Reconcile component and build-tool obligations and the included first-party rights; the interpreter and external tooling remain third-party material.
+- Independently preserve and reconcile custody evidence for your intended workflow; local controls do not authenticate real people or organisations.
+- Qualify workload size, recovery, security and operating limits beyond the small local examples.
+- Define any future hosting, authentication, integration or real-world action system separately; none is included as a deployed service.
+
+### Qualification objectives
+
+- Agree the exact v0.4 source, local software delivery manifest, supported environment and recipient acceptance checks.
+- Independent legal title/FTO opinions, security certification and buyer-specific acceptance remain separate.
+
+### Rights and components
+
+The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.
+
+Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance.
+
+- Dependency declaration: identified
+- Dependency lock record: not established in reviewed records
+- Component inventory artifact: not established in reviewed records
+- Licence notices: identified
+- Third-party disclosure: identified
+- Security documentation: identified
+
+### Potential applications
+
+- [Mission planning and operational review](https://thearchitect-max.github.io/MyProjects/connections.html#mission-planning-and-operational-review): Model resources and workflows, compare scenarios and preserve local decision evidence.
+
+Proposed applications require separate interfaces, integration and joint qualification; they are not delivered integrated products.
+
+Grade definitions: https://thearchitect-max.github.io/MyProjects/assurance.html#criteria
+
+Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfer.html
+
+
 ## Complete prices and economic references
 
 Basis: 2026-10-12. All amounts in EUR. Market value is not established.
@@ -100,7 +159,7 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Historical budgets can overlap and are not added to calculate a new price.
+Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
 

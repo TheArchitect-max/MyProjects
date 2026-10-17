@@ -66,6 +66,66 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 © 2026 THEARCHITECT_MAX. First-party rights reserved.
 
+## Product edition and acquisition dossier
+
+Identified product edition: 5.8.0-alpha.1
+
+Handover position: Conditional handover
+
+The 5.8.0-alpha.1 software provides first-party model-adaptation workflows. Retained GPU and Drive-resume evidence applies to v5.6/v5.7. External adapter qualification for v5.8 remains open.
+
+### Priced first-party scope
+
+Existing first-party AI research and training-control software plus the implemented v5.8 adaptation, reviewed-input and local checkpoint-control increment. Optional separate PyTorch training execution, external CUDA/Drive adapter qualification, larger-model quality, external weights and data, frontier performance and future development are not included as demonstrated capabilities.
+
+### Acquisition evidence profile
+
+| Criterion | Profile | Meaning for your review |
+| --- | --- | --- |
+| Technical scope | V | Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance. |
+| Evidence and validation | E4 | E3 plus repository-retained independent/external validation evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results. |
+| Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. This grade concerns documented rights evidence. Missing documentation does not establish that first-party ownership is absent. |
+| Commercial basis | C2 | Seller ask and reproducible economic reference established. A published asking reference does not establish a completed sale, income or an independent appraisal. |
+| Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. Your agreed delivery scope and the conditions below govern acceptance. |
+
+### Conditions before handover
+
+- Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
+- A detailed component inventory and licensing report are required for the agreed delivery scope.
+- A security assessment or an explicit statement of its absence is required before acceptance.
+- An explicit delivery manifest and handover scope remain to be agreed.
+
+### Qualification objectives
+
+- Larger reviewed model/data experiments and independent task benchmarks for your intended use.
+- Independent legal ownership/title opinion not performed by this internal audit.
+- Freedom-to-operate legal opinion not performed unless separately evidenced.
+- Independent penetration test not assumed unless separately evidenced.
+
+### Rights and components
+
+The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.
+
+Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance.
+
+- Dependency declaration: identified
+- Dependency lock record: not established in reviewed records
+- Component inventory artifact: not established in reviewed records
+- Licence notices: identified
+- Third-party disclosure: identified
+- Security documentation: not established in reviewed records
+
+### Potential applications
+
+- [Learning model research and comparison](https://thearchitect-max.github.io/MyProjects/connections.html#learning-model-research): Manage reviewed AI training studies and model candidates.
+
+Proposed applications require separate interfaces, integration and joint qualification; they are not delivered integrated products.
+
+Grade definitions: https://thearchitect-max.github.io/MyProjects/assurance.html#criteria
+
+Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfer.html
+
+
 ## Complete prices and economic references
 
 Basis: 2026-10-12. All amounts in EUR. Market value is not established.
@@ -100,7 +160,7 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 Some dated work-package assumptions are disclosed, but they do not reconstruct the complete retained recreation anchor. A complete scope-specific budget is required.
 
-#### Retained work-package budget
+#### Scoped work-package budget
 
 Delivered first-party preference training and durable checkpoint/resume software, review assets, Colab verification and retained independent CUDA distillation evidence. Previously costed v5.6 distillation implementation is not counted again.
 
@@ -130,7 +190,7 @@ Implemented first-party adaptation controls, reviewed fixtures and checkpoint li
 
 Engineering-equivalent reproduction assumption; no test-count, file-count, revenue or unexecuted-qualification premium.
 
-Historical budgets can overlap and are not added to calculate a new price.
+Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
 

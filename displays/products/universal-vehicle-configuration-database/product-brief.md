@@ -66,6 +66,72 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 © 2026 THEARCHITECT_MAX. First-party rights reserved.
 
+## Product edition and acquisition dossier
+
+Identified product edition: 0.5.6.dev0
+
+Handover position: Conditional handover
+
+Evaluate the vehicle-information prototype and its source-evidence research. Portal, API and offline billing development is private development only; no public SaaS or live payments are available.
+
+Separately scoped development: the development candidate draft / portal, API and offline billing foundations
+
+### Priced first-party scope
+
+Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+
+### Acquisition evidence profile
+
+| Criterion | Profile | Meaning for your review |
+| --- | --- | --- |
+| Technical scope | P | Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance. |
+| Evidence and validation | E4 | E3 plus repository-retained independent/external validation evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results. |
+| Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. This grade concerns documented rights evidence. Missing documentation does not establish that first-party ownership is absent. |
+| Commercial basis | C2 | Seller ask and reproducible economic reference established. A published asking reference does not establish a completed sale, income or an independent appraisal. |
+| Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. Your agreed delivery scope and the conditions below govern acceptance. |
+
+### Conditions before handover
+
+- Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
+- A detailed component inventory and licensing report are required for the agreed delivery scope.
+- A security assessment or an explicit statement of its absence is required before acceptance.
+- An explicit delivery manifest and handover scope remain to be agreed.
+- Agree and freeze the exact development-branch delivery perimeter before transfer; draft status is retained.
+- Review third-party source rights and vehicle-specific compatibility separately; no production or programming authorization is offered.
+- Production deployment, live-provider acceptance and real payment integration are not established; draft delivery scope must be agreed separately.
+
+### Qualification objectives
+
+- Agree a source-specific delivery edition and evaluate the documented functions against your intended use.
+- Close the listed technical, rights and handover conditions before recipient acceptance.
+- Independent legal ownership/title opinion not performed by this internal audit.
+- Freedom-to-operate legal opinion not performed unless separately evidenced.
+- Independent penetration test not assumed unless separately evidenced.
+
+### Rights and components
+
+The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.
+
+Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance.
+
+- Dependency declaration: identified
+- Dependency lock record: not established in reviewed records
+- Component inventory artifact: not established in reviewed records
+- Licence notices: identified
+- Third-party disclosure: identified
+- Security documentation: not established in reviewed records
+
+### Potential applications
+
+- [Vehicle configuration and engineering review](https://thearchitect-max.github.io/MyProjects/connections.html#vehicle-configuration-review): Organise source-supported vehicle-configuration records.
+
+Proposed applications require separate interfaces, integration and joint qualification; they are not delivered integrated products.
+
+Grade definitions: https://thearchitect-max.github.io/MyProjects/assurance.html#criteria
+
+Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfer.html
+
+
 ## Complete prices and economic references
 
 Basis: 2026-10-17. All amounts in EUR. Market value is not established.
@@ -100,7 +166,7 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 Disclosed base/increment assumptions reconcile to the retained recreation anchor. Effort remains an analyst estimate for its original scope.
 
-#### Retained work-package budget
+#### Scoped work-package budget
 
 Present first-party configuration software, evidence review, documented research extensions and retained validation work. Government/manufacturer data, third-party factual records, firmware binaries, OEM rights and unverified vehicle fitment are excluded.
 
@@ -113,7 +179,7 @@ Present first-party configuration software, evidence review, documented research
 
 Seller assumptions for scoped reproduction, not actual spending.
 
-Historical budgets can overlap and are not added to calculate a new price.
+Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
 

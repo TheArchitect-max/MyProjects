@@ -66,6 +66,65 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 © 2026 THEARCHITECT_MAX. First-party rights reserved.
 
+## Product edition and acquisition dossier
+
+Identified product edition: 0.24.0
+
+Handover position: Conditional handover
+
+The 0.24.0 foundation provides durable artifact-deletion claims and verified byte/size readmission. Repository records report 324 local passes per Python version, with native PostgreSQL tests skipped. Native concurrency evidence for 0.23.1 applies only to that source. Native 0.24 qualification, third-party media rights and provider acceptance remain open.
+
+### Priced first-party scope
+
+Existing first-party 0.24.0 source (default-branch snapshot), including the described implemented increment. Full native 0.24 PostgreSQL/concurrency qualification remains open. Prior 0.23.1 database PASS is not promoted to 0.24. Media/model rights, hosted operation and future provider acceptance are excluded.
+
+### Acquisition evidence profile
+
+| Criterion | Profile | Meaning for your review |
+| --- | --- | --- |
+| Technical scope | V | Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance. |
+| Evidence and validation | E3 | Tests, validation and provenance/release evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results. |
+| Rights and component obligations | R3 | R2 plus SBOM/lockfile and provenance/rights-supporting evidence identified. This grade concerns documented rights evidence. Missing documentation does not establish that first-party ownership is absent. |
+| Commercial basis | C2 | Seller ask and reproducible economic reference established. A published asking reference does not establish a completed sale, income or an independent appraisal. |
+| Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. Your agreed delivery scope and the conditions below govern acceptance. |
+
+### Conditions before handover
+
+- Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
+- An explicit delivery manifest and handover scope remain to be agreed.
+- Review potential sensitive filenames before transfer: src/impe/managed_secrets.py, src/impe/provider_credentials.py
+
+### Qualification objectives
+
+- Complete the exact 0.24 native PostgreSQL and concurrency campaigns, and agree the permitted media/provider and delivery scope.
+- Independent legal ownership/title opinion not performed by this internal audit.
+- Freedom-to-operate legal opinion not performed unless separately evidenced.
+- Independent penetration test not assumed unless separately evidenced.
+
+### Rights and components
+
+The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.
+
+Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance.
+
+- Dependency declaration: identified
+- Dependency lock record: not established in reviewed records
+- Component inventory artifact: identified
+- Licence notices: identified
+- Third-party disclosure: identified
+- Security documentation: identified
+
+### Potential applications
+
+- [Creative text and media production](https://thearchitect-max.github.io/MyProjects/connections.html#creative-media-production): Organise media sources, production review and delivery.
+
+Proposed applications require separate interfaces, integration and joint qualification; they are not delivered integrated products.
+
+Grade definitions: https://thearchitect-max.github.io/MyProjects/assurance.html#criteria
+
+Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfer.html
+
+
 ## Complete prices and economic references
 
 Basis: 2026-10-16. All amounts in EUR. Market value is not established.
@@ -98,11 +157,11 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The previous whole-project cost anchor remains a legacy seller assumption. The new implemented increment has a separate role/work-package reproduction budget; the base is counted once.
+The recreation anchor combines an identified base with separately scoped implementation work. The base remains a seller assumption; the scoped component has a role/work-package reproduction budget. Each component is counted once.
 
 #### Implemented scope budget
 
-Adds artifact bindings, retention/reconciliation and repair planning, durable deletion claims and verified readmission within the existing media-production foundation.
+Provides artifact bindings, retention/reconciliation and repair planning, durable deletion claims and verified readmission within the existing media-production foundation.
 
 - Senior engineer months: 1.75
 - Lead or specialist months: 0.75
@@ -118,7 +177,7 @@ Adds artifact bindings, retention/reconciliation and repair planning, durable de
 
 Analyst engineering-equivalent reproduction assumption, not logged hours, two days of labour invoiced as months, historical expenditure, a buyer quotation or independently established market value.
 
-Historical budgets can overlap and are not added to calculate a new price.
+Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
 

@@ -67,6 +67,65 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 © 2026 THEARCHITECT_MAX. First-party rights reserved.
 
+## Product edition and acquisition dossier
+
+Identified product edition: 0.3.0
+
+Handover position: Scope closure required
+
+Evaluate a local shared-world prototype with two fictional scenarios and repeatable histories. All 41 local tests and the demonstration passed. Rights documentation and the delivery package remain incomplete; online multiplayer, AI actors and large-scale operation are not established.
+
+### Priced first-party scope
+
+Existing first-party v0.3 local shared-world reference software, two bounded scenario implementations, local persistence/replay controls, tests and design documentation counted once. Future narrative production, external artwork/audio, AI models, online multiplayer, production identity, large-scale infrastructure and commercial event delivery are excluded.
+
+### Acquisition evidence profile
+
+| Criterion | Profile | Meaning for your review |
+| --- | --- | --- |
+| Technical scope | P | Assess the identified existing prototype and its documented limits; design objectives do not establish completed implementation. |
+| Evidence and validation | E2 | Use the exact-source local software results. Synthetic fixtures, supplied declarations and unmerged candidates remain distinct from independent or production qualification. |
+| Rights and component obligations | R0 | Review the expressly included first-party rights and outstanding provenance/component obligations. A seller declaration or a source inventory does not independently establish legal title. |
+| Commercial basis | C2 | Compare the seller asking reference with the disclosed engineering-equivalent cost assumptions; no independent appraisal, attributable income or comparable sale is established. |
+| Delivery and handover | T1 | Resolve the missing explicit rights and agreed-transfer documentation; the source policy deliberately does not grant a general software licence. |
+
+### Conditions before handover
+
+- Resolve the missing explicit rights and agreed-transfer documentation; the source policy deliberately does not grant a general software licence.
+- Define the exact v0.3 engine, included first-party scenario materials and delivery manifest; distinguish blueprint content from implemented narrative features.
+- Reconcile component obligations and recipient acceptance of local persistence, recovery and scenario behaviour.
+- Qualify independent security, workload and recovery evidence for your intended use; local fixtures are not distributed-scale proof.
+- Agree any future online runtime or public event separately, including consent, accessibility, privacy and moderation requirements.
+
+### Qualification objectives
+
+- Resolve the missing explicit rights and agreed-transfer documentation; the source policy deliberately does not grant a general software licence.
+- Independent legal title/FTO opinions, security certification and buyer-specific acceptance remain separate.
+
+### Rights and components
+
+The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.
+
+Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance.
+
+- Dependency declaration: identified
+- Dependency lock record: not established in reviewed records
+- Component inventory artifact: not established in reviewed records
+- Licence notices: not established in reviewed records
+- Third-party disclosure: not established in reviewed records
+- Security documentation: identified
+
+### Potential applications
+
+- [Scenario modelling and shared worlds](https://thearchitect-max.github.io/MyProjects/connections.html#scenario-modelling-and-shared-worlds): Apply authorised fictional-world decisions and review scenario history.
+
+Proposed applications require separate interfaces, integration and joint qualification; they are not delivered integrated products.
+
+Grade definitions: https://thearchitect-max.github.io/MyProjects/assurance.html#criteria
+
+Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfer.html
+
+
 ## Complete prices and economic references
 
 Basis: 2026-10-12. All amounts in EUR. Market value is not established.
@@ -101,7 +160,7 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Historical budgets can overlap and are not added to calculate a new price.
+Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
 

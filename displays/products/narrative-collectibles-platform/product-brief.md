@@ -65,6 +65,57 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 © 2026 THEARCHITECT_MAX. First-party rights reserved.
 
+## Product edition and acquisition dossier
+
+Identified product edition: 0.4.0
+
+Handover position: Conditional handover
+
+An object-independent local SQLite registry and studio with edition limits, narrative checks, fictional world graph, deterministic replay, keyed checkpoints, evidence custody and verified backup/restore. all 84 local Python tests passed on the exact R3/v0.4.0 snapshot, including concurrency, tamper rejection and recovery cases. No public commerce, payments, shipping, production accounts or hosted deployment is delivered. HMAC is keyed local integrity, not independently witnessed ownership or certified provenance. Lithonarra is a separate consumer application/brand; physical stock and fictional content rights are not automatically transferred with the software.
+
+### Priced first-party scope
+
+Present first-party v0.4.0 software. No public commerce, payments, shipping, production accounts or hosted deployment is delivered. HMAC is keyed local integrity, not independently witnessed ownership or certified provenance. Lithonarra is a separate consumer application/brand; physical stock and fictional content rights are not automatically transferred with the software.
+
+### Acquisition evidence profile
+
+| Criterion | Profile | Meaning for your review |
+| --- | --- | --- |
+| Technical scope | P | An object-independent local SQLite registry and studio with edition limits, narrative checks, fictional world graph, deterministic replay, keyed checkpoints, evidence custody and verified backup/restore. |
+| Evidence and validation | E2 | all 84 local Python tests passed on the exact R3/v0.4.0 snapshot, including concurrency, tamper rejection and recovery cases. |
+| Rights and component obligations | R1 | Proprietary declaration and repository notices reviewed; independent chain of title and freedom to operate remain unestablished. |
+| Commercial basis | C2 | Explicit low-effort cost assumptions and seller asking choice; no independently determined market or income value. |
+| Delivery and handover | T2 | Source, tests and instructions inspected; exact rights, manifest and recipient acceptance remain open. |
+
+### Conditions before handover
+
+- Agree exact first-party rights, component obligations and excluded content in the definitive agreement.
+- Freeze a release-specific delivery manifest and complete recipient acceptance.
+- Complete independent security review or expressly accept its absence within the local reference scope.
+- Complete domain and operator acceptance, key/anchor custody and the final security, legal and operational production gates.
+
+### Qualification objectives
+
+- Complete domain and operator acceptance, key/anchor custody and the final security, legal and operational production gates.
+
+### Rights and components
+
+The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.
+
+Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance.
+
+- Dependency declaration: identified
+- Dependency lock record: not established in reviewed records
+- Component inventory artifact: not established in reviewed records
+- Licence notices: not established in reviewed records
+- Third-party disclosure: not established in reviewed records
+- Security documentation: identified
+
+Grade definitions: https://thearchitect-max.github.io/MyProjects/assurance.html#criteria
+
+Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfer.html
+
+
 ## Complete prices and economic references
 
 Basis: 2026-10-17. All amounts in EUR. Market value is not established.
@@ -97,7 +148,7 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-New present-source low-effort recreation reference EUR 30,000; seller asking choice EUR 9,000. Market value remains NOT_ESTABLISHED. Estimated hours are not logged time or expenditure.
+Present-source low-effort recreation reference EUR 30,000; seller asking choice EUR 9,000. Market value remains not established. Estimated hours are not logged time or expenditure.
 
 #### Low-effort working estimate
 
@@ -118,7 +169,7 @@ An object-independent local SQLite registry and studio with edition limits, narr
 
 Hours and the 15% allowance are analyst assumptions for bounded reproduction with modern tooling. EUR 94 is a Dutch mean, not a minimum rate or a contractor quote. This is the lowest of the explicitly scoped working scenarios, not an absolute market or cost floor.
 
-Historical budgets can overlap and are not added to calculate a new price.
+Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
 

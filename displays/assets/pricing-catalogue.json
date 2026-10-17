@@ -2,7 +2,7 @@
   "schema": "public-pricing-1",
   "basisDate": "2026-10-17",
   "currency": "EUR",
-  "statement": "Previously published seller prices and cost-based references restored without repricing. Market value is not established. The selected cost working estimates and retained anchors are distinct from actual expenditure and an absolute minimum cost.",
+  "statement": "Seller asking references and engineering-equivalent cost scenarios for the defined AS IS assets. Market value is not established. Selected cost estimates are seller assumptions, distinct from actual expenditure and an absolute minimum cost.",
   "fields": [
     {
       "key": "sellerAskEUR",
@@ -688,7 +688,7 @@
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The previous whole-project cost anchor remains a legacy seller assumption. The new implemented increment has a separate role/work-package reproduction budget; the base is counted once.",
+      "costBasisNote": "The recreation anchor combines an identified base with separately scoped implementation work. The base remains a seller assumption; the scoped component has a role/work-package reproduction budget. Each component is counted once.",
       "costBudgets": [
         {
           "basis": "Incremental present first-party work since the explicitly identified earlier source; previous scope counted once",
@@ -722,7 +722,7 @@
               "validationProvenanceMonths": 0.07
             }
           ],
-          "scope": "Adds release-evidence/readiness governance and deterministic post-release change/requalification assessment; it also repairs nested evidence binding.",
+          "scope": "Provides release-evidence/readiness governance and deterministic post-release change/requalification assessment; it also repairs nested evidence binding.",
           "effortSensitivity": {
             "acceleratedQuarterEffortAtKnabMeanEUR": 2811,
             "oneAndHalfEffortAtRetainedRoleRatesEUR": 20355,
@@ -971,7 +971,7 @@
           "withAllowanceEUR": 250700,
           "adoptedRecreationCostEUR": 250000,
           "scope": "Present first-party music-library, DJ-set creation and review prototype, documentation and reproducible test work. Music recordings, third-party models, production hardware and unperformed listener studies are excluded.",
-          "kind": "Retained work-package budget"
+          "kind": "Scoped work-package budget"
         }
       ],
       "futureReference": {
@@ -1387,7 +1387,7 @@
           "askingShareOfAdoptedRecreationCost": 0.3,
           "boundary": "Assumed engineering-equivalent reproduction budget, not recorded hours, expenditure, elapsed development time, completed comparables or an independent appraisal.",
           "roundingRule": "Nearest EUR 10,000",
-          "kind": "Retained work-package budget"
+          "kind": "Scoped work-package budget"
         }
       ],
       "futureReference": {
@@ -1776,7 +1776,7 @@
           "withAllowanceEUR": 105800,
           "adoptedRecreationIncrementEUR": 100000,
           "scope": "Additional recoverability, reproducible operation and validation work delivered after the previous assessment. The pending latest hardware gate is excluded from completed-validation claims.",
-          "kind": "Retained work-package budget"
+          "kind": "Scoped work-package budget"
         },
         {
           "basis": "incremental delivered v0.11–v0.15 scope since 9 October catalogue review",
@@ -1811,7 +1811,7 @@
             }
           ],
           "boundary": "Analyst-assumed engineering-equivalent reproduction budget at existing model rates; not recorded hours, elapsed build time, actual expenditure or an independent valuation.",
-          "kind": "Retained work-package budget"
+          "kind": "Scoped work-package budget"
         },
         {
           "seniorEngineerMonths": 8,
@@ -1846,7 +1846,7 @@
           "rawEngineeringCostEUR": 290000,
           "withAllowanceEUR": 333500.0,
           "boundary": "Assumed engineering-equivalent reproduction budget, not actual hours, payroll, expenditure, elapsed development time or an independently certified appraisal.",
-          "kind": "Retained work-package budget"
+          "kind": "Scoped work-package budget"
         }
       ],
       "futureReference": {
@@ -1891,7 +1891,7 @@
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The previous whole-project cost anchor remains a legacy seller assumption. The new implemented increment has a separate role/work-package reproduction budget; the base is counted once.",
+      "costBasisNote": "The recreation anchor combines an identified base with separately scoped implementation work. The base remains a seller assumption; the scoped component has a role/work-package reproduction budget. Each component is counted once.",
       "costBudgets": [
         {
           "basis": "Incremental present first-party work since the explicitly identified earlier source; previous scope counted once",
@@ -1925,7 +1925,7 @@
               "validationProvenanceMonths": 0.25
             }
           ],
-          "scope": "Adds loopback transport, TLS 1.3 mutual authentication and an outbound-only reference worker agent with bounded reconnect, heartbeat and command/lease processing.",
+          "scope": "Provides loopback transport, TLS 1.3 mutual authentication and an outbound-only reference worker agent with bounded reconnect, heartbeat and command/lease processing.",
           "effortSensitivity": {
             "acceleratedQuarterEffortAtKnabMeanEUR": 10161,
             "oneAndHalfEffortAtRetainedRoleRatesEUR": 74865,
@@ -2168,7 +2168,7 @@
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The previous whole-project cost anchor remains a legacy seller assumption. The new implemented increment has a separate role/work-package reproduction budget; the base is counted once.",
+      "costBasisNote": "The recreation anchor combines an identified base with separately scoped implementation work. The base remains a seller assumption; the scoped component has a role/work-package reproduction budget. Each component is counted once.",
       "costBudgets": [
         {
           "basis": "Incremental present first-party work since the explicitly identified earlier source; previous scope counted once",
@@ -2202,7 +2202,7 @@
               "validationProvenanceMonths": 0.55
             }
           ],
-          "scope": "Adds operator case governance, cross-dossier evidence review, verifiable bundles/delivery records and bounded authorized local-document collection beyond the retained v5.9 scope. Rename-only edits receive no separate premium.",
+          "scope": "Provides operator case governance, cross-dossier evidence review, verifiable bundles/delivery records and bounded authorized local-document collection beyond the retained v5.9 scope. Rename-only edits receive no separate premium.",
           "effortSensitivity": {
             "acceleratedQuarterEffortAtKnabMeanEUR": 21620,
             "oneAndHalfEffortAtRetainedRoleRatesEUR": 156113,
@@ -2670,7 +2670,7 @@
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The previous whole-project cost anchor remains a legacy seller assumption. The new implemented increment has a separate role/work-package reproduction budget; the base is counted once.",
+      "costBasisNote": "The recreation anchor combines an identified base with separately scoped implementation work. The base remains a seller assumption; the scoped component has a role/work-package reproduction budget. Each component is counted once.",
       "costBudgets": [
         {
           "basis": "Incremental present first-party work since the explicitly identified earlier source; previous scope counted once",
@@ -2704,7 +2704,7 @@
               "validationProvenanceMonths": 0.3
             }
           ],
-          "scope": "Adds artifact bindings, retention/reconciliation and repair planning, durable deletion claims and verified readmission within the existing media-production foundation.",
+          "scope": "Provides artifact bindings, retention/reconciliation and repair planning, durable deletion claims and verified readmission within the existing media-production foundation.",
           "effortSensitivity": {
             "acceleratedQuarterEffortAtKnabMeanEUR": 15134,
             "oneAndHalfEffortAtRetainedRoleRatesEUR": 110400,
@@ -2966,7 +2966,7 @@
           ],
           "askingShareOfAdoptedRecreationCost": 0.3,
           "boundary": "Assumed engineering-equivalent reproduction budget, not recorded hours, expenditure, elapsed development time, completed comparables or an independent appraisal.",
-          "kind": "Retained work-package budget"
+          "kind": "Scoped work-package budget"
         }
       ],
       "futureReference": {
@@ -3028,7 +3028,7 @@
           "adoptedRecreationCostEUR": 800000,
           "scope": "Present first-party piano practice, performance and local production software, its proprietary transcription work, retained research and validation, and documentation. User music, external scores, recordings, datasets, plugins and future model qualification are excluded.",
           "economicAssessmentAt": "2026-10-09T06:22:41Z",
-          "kind": "Retained work-package budget"
+          "kind": "Scoped work-package budget"
         }
       ],
       "futureReference": {
@@ -3269,7 +3269,7 @@
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The previous whole-project cost anchor remains a legacy seller assumption. The new implemented increment has a separate role/work-package reproduction budget; the base is counted once.",
+      "costBasisNote": "The recreation anchor combines an identified base with separately scoped implementation work. The base remains a seller assumption; the scoped component has a role/work-package reproduction budget. Each component is counted once.",
       "costBudgets": [
         {
           "basis": "Incremental present first-party work since the explicitly identified earlier source; previous scope counted once",
@@ -3303,7 +3303,7 @@
               "validationProvenanceMonths": 0.2
             }
           ],
-          "scope": "Adds an explicitly trained predictive-state layer, held-out evaluation separation and checkpoint-bound research runs beyond the earlier count-based adaptation.",
+          "scope": "Provides an explicitly trained predictive-state layer, held-out evaluation separation and checkpoint-bound research runs beyond the earlier count-based adaptation.",
           "effortSensitivity": {
             "acceleratedQuarterEffortAtKnabMeanEUR": 8648,
             "oneAndHalfEffortAtRetainedRoleRatesEUR": 63825,
@@ -3406,7 +3406,7 @@
           ],
           "askingShareOfAdoptedRecreationCost": 0.3,
           "boundary": "Work effort, retained role rates, 15% allowance, rounding and 30% asking factor are seller-side analyst assumptions; they are not recorded hours, expenditure, contractor quotations, market transactions or an independent appraisal.",
-          "kind": "Retained work-package budget"
+          "kind": "Scoped work-package budget"
         }
       ],
       "futureReference": {
@@ -3562,7 +3562,7 @@
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The previous whole-project cost anchor remains a legacy seller assumption. The new implemented increment has a separate role/work-package reproduction budget; the base is counted once.",
+      "costBasisNote": "The recreation anchor combines an identified base with separately scoped implementation work. The base remains a seller assumption; the scoped component has a role/work-package reproduction budget. Each component is counted once.",
       "costBudgets": [
         {
           "basis": "Incremental present first-party work since the explicitly identified earlier source; previous scope counted once",
@@ -3596,7 +3596,7 @@
               "validationProvenanceMonths": 0.65
             }
           ],
-          "scope": "Adds conditional observation geometry, replayable research dossiers, bounded motion/signal processing, actual public-archive import and dependency-aware evidence comparison beyond the already priced v0.4.2 foundation.",
+          "scope": "Provides conditional observation geometry, replayable research dossiers, bounded motion/signal processing, actual public-archive import and dependency-aware evidence comparison beyond the already priced v0.4.2 foundation.",
           "effortSensitivity": {
             "acceleratedQuarterEffortAtKnabMeanEUR": 28106,
             "oneAndHalfEffortAtRetainedRoleRatesEUR": 210450,
@@ -3839,7 +3839,7 @@
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "New present-source low-effort recreation reference EUR 30,000; seller asking choice EUR 9,000. Market value remains NOT_ESTABLISHED. Estimated hours are not logged time or expenditure.",
+      "costBasisNote": "Present-source low-effort recreation reference EUR 30,000; seller asking choice EUR 9,000. Market value remains not established. Estimated hours are not logged time or expenditure.",
       "costBudgets": [
         {
           "economicAssessmentAt": "2026-10-17T06:30:00Z",
@@ -4063,7 +4063,7 @@
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The previous whole-project cost anchor remains a legacy seller assumption. The new implemented increment has a separate role/work-package reproduction budget; the base is counted once.",
+      "costBasisNote": "The recreation anchor combines an identified base with separately scoped implementation work. The base remains a seller assumption; the scoped component has a role/work-package reproduction budget. Each component is counted once.",
       "costBudgets": [
         {
           "basis": "Incremental present first-party work since the explicitly identified earlier source; previous scope counted once",
@@ -4097,7 +4097,7 @@
               "validationProvenanceMonths": 0.4
             }
           ],
-          "scope": "Adds owner-scoped projects/sites/zones, immutable plan revisions, retained assessment exports and descriptive scenario comparisons. File/path renames and copied fixtures are not counted as additional software.",
+          "scope": "Provides owner-scoped projects/sites/zones, immutable plan revisions, retained assessment exports and descriptive scenario comparisons. File/path renames and copied fixtures are not counted as additional software.",
           "effortSensitivity": {
             "acceleratedQuarterEffortAtKnabMeanEUR": 21620,
             "oneAndHalfEffortAtRetainedRoleRatesEUR": 158700,
@@ -4161,7 +4161,7 @@
           "adoptedRecreationCostEUR": 300000,
           "scope": "Present first-party evidence-governed intelligence prototype, retained qualification, documentation and packaging. Production deployment, operational infrastructure, external evidence/data rights and future productisation are excluded.",
           "economicAssessmentAt": "2026-10-09T06:22:41Z",
-          "kind": "Retained work-package budget"
+          "kind": "Scoped work-package budget"
         }
       ],
       "futureReference": {
@@ -4534,7 +4534,7 @@
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The previous whole-project cost anchor remains a legacy seller assumption. The new implemented increment has a separate role/work-package reproduction budget; the base is counted once.",
+      "costBasisNote": "The recreation anchor combines an identified base with separately scoped implementation work. The base remains a seller assumption; the scoped component has a role/work-package reproduction budget. Each component is counted once.",
       "costBudgets": [
         {
           "basis": "Incremental present first-party work since the explicitly identified earlier source; previous scope counted once",
@@ -4568,7 +4568,7 @@
               "validationProvenanceMonths": 0.6
             }
           ],
-          "scope": "Adds supplied-series financial/space reference extensions, recovery supervision, window/temporal evidence, portable records, local archives and offline verification, followed by reproducible identity/lifecycle repairs.",
+          "scope": "Provides supplied-series financial/space reference extensions, recovery supervision, window/temporal evidence, portable records, local archives and offline verification, followed by reproducible identity/lifecycle repairs.",
           "effortSensitivity": {
             "acceleratedQuarterEffortAtKnabMeanEUR": 19458,
             "oneAndHalfEffortAtRetainedRoleRatesEUR": 141450,
@@ -4660,7 +4660,7 @@
           ],
           "askingShareOfAdoptedRecreationCost": 0.3,
           "boundary": "Assumed engineering-equivalent reproduction budget, not recorded hours, expenditure, elapsed development time, completed comparables or an independent appraisal.",
-          "kind": "Retained work-package budget"
+          "kind": "Scoped work-package budget"
         }
       ],
       "futureReference": {
@@ -4842,11 +4842,11 @@
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "Retained EUR 850,000 base plus EUR 21,500 low-effort implementation increment = EUR 871,500. Seller asking reference EUR 200,000 to EUR 205,000, retaining the earlier asking/cost proportion. Market value remains NOT_ESTABLISHED. Estimated hours are not logged time or expenditure.",
+      "costBasisNote": "The EUR 871,500 recreation estimate consists of a EUR 850,000 base and a EUR 21,500 scoped implementation budget. The seller asking reference is EUR 205,000. Effort is estimated, not logged time or actual expenditure. Market value is not established.",
       "costBudgets": [
         {
           "economicAssessmentAt": "2026-10-17T06:30:00Z",
-          "scope": "Adds hash-bound evidence custody, guarded local infrastructure qualification, Alibaba/Azure measured-trace adapters, full-trace sensitivity and operational outcome/readiness contracts.",
+          "scope": "Provides hash-bound evidence custody, guarded local infrastructure qualification, Alibaba/Azure measured-trace adapters, full-trace sensitivity and operational outcome/readiness contracts.",
           "workPackages": [
             {
               "scope": "Evidence custody, guarded infrastructure qualification and benchmark repairs",
@@ -4959,7 +4959,7 @@
           ],
           "askingShareOfAdoptedRecreationCost": 0.3,
           "boundary": "Assumed engineering-equivalent reproduction budget, not recorded hours, expenditure, elapsed development time, completed comparables or an independent appraisal.",
-          "kind": "Retained work-package budget"
+          "kind": "Scoped work-package budget"
         },
         {
           "economicAssessmentAt": "2026-10-12T00:19:02Z",
@@ -5303,7 +5303,7 @@
           "rawEngineeringCostEUR": 142000,
           "withAllowanceEUR": 163300.0,
           "boundary": "Assumed engineering-equivalent reproduction budget, not actual hours, payroll, expenditure, elapsed development time or an independently certified appraisal.",
-          "kind": "Retained work-package budget"
+          "kind": "Scoped work-package budget"
         },
         {
           "economicAssessmentAt": "2026-10-12T00:19:02Z",
@@ -5373,7 +5373,7 @@
           "withAllowanceEUR": 216200,
           "adoptedRecreationIncrementEUR": 200000,
           "scope": "Additional tuning qualification, learning studies, release checks and retained release evidence since the earlier assessment. Physical vehicle qualification is excluded.",
-          "kind": "Retained work-package budget"
+          "kind": "Scoped work-package budget"
         }
       ],
       "futureReference": {
@@ -5565,7 +5565,7 @@
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "New present-source low-effort recreation reference EUR 12,500; seller asking choice EUR 4,000. Market value remains NOT_ESTABLISHED. Estimated hours are not logged time or expenditure.",
+      "costBasisNote": "Present-source low-effort recreation reference EUR 12,500; seller asking choice EUR 4,000. Market value remains not established. Estimated hours are not logged time or expenditure.",
       "costBudgets": [
         {
           "economicAssessmentAt": "2026-10-17T06:30:00Z",
@@ -5697,11 +5697,11 @@
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "Retained EUR 780,000 base plus EUR 17,000 low-effort implementation increment = EUR 797,000. Seller asking reference EUR 235,000 to EUR 240,000, retaining the earlier asking/cost proportion. Market value remains NOT_ESTABLISHED. Estimated hours are not logged time or expenditure.",
+      "costBasisNote": "The EUR 797,000 recreation estimate consists of a EUR 780,000 base and a EUR 17,000 scoped implementation budget. The seller asking reference is EUR 240,000. Effort is estimated, not logged time or actual expenditure. Market value is not established.",
       "costBudgets": [
         {
           "economicAssessmentAt": "2026-10-17T06:30:00Z",
-          "scope": "Adds coordinated single-writer runtime, fencing/idempotency controls, transparent scenario decisions and deterministic multi-source telemetry alignment with replayable provenance.",
+          "scope": "Provides coordinated single-writer runtime, fencing/idempotency controls, transparent scenario decisions and deterministic multi-source telemetry alignment with replayable provenance.",
           "workPackages": [
             {
               "scope": "Single-writer coordination, fencing, runtime and install hardening",
@@ -5790,7 +5790,7 @@
           "withAllowanceEUR": 1044200,
           "adoptedRecreationCostEUR": 1050000,
           "scope": "Present first-party configuration software, evidence review, documented research extensions and retained validation work. Government/manufacturer data, third-party factual records, firmware binaries, OEM rights and unverified vehicle fitment are excluded.",
-          "kind": "Retained work-package budget"
+          "kind": "Scoped work-package budget"
         }
       ],
       "futureReference": {
@@ -5854,7 +5854,7 @@
           "adoptedRecreationCostEUR": 100000,
           "askingShareOfAdoptedRecreationCost": 0.3,
           "boundary": "Uncertain seller-side reproduction assumption for existing first-party source. Retained v0.5 tests are separate; current v0.7 validation is blocked. No successful-current-release, revenue, browser qualification or AI-performance premium.",
-          "kind": "Retained work-package budget"
+          "kind": "Scoped work-package budget"
         }
       ],
       "futureReference": {
@@ -6036,7 +6036,7 @@
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The previous whole-project cost anchor remains a legacy seller assumption. The new implemented increment has a separate role/work-package reproduction budget; the base is counted once.",
+      "costBasisNote": "The recreation anchor combines an identified base with separately scoped implementation work. The base remains a seller assumption; the scoped component has a role/work-package reproduction budget. Each component is counted once.",
       "costBudgets": [
         {
           "basis": "Incremental present first-party work since the explicitly identified earlier source; previous scope counted once",
@@ -6070,7 +6070,7 @@
               "validationProvenanceMonths": 0.15
             }
           ],
-          "scope": "Adds packaged offline browser providers, content-identity verification and bounded semantic-provider/dataset evaluation over controlled examples.",
+          "scope": "Provides packaged offline browser providers, content-identity verification and bounded semantic-provider/dataset evaluation over controlled examples.",
           "effortSensitivity": {
             "acceleratedQuarterEffortAtKnabMeanEUR": 4973,
             "oneAndHalfEffortAtRetainedRoleRatesEUR": 35880,
@@ -6210,7 +6210,7 @@
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "New present-source low-effort recreation reference EUR 19,000; seller asking choice EUR 5,500. Market value remains NOT_ESTABLISHED. Estimated hours are not logged time or expenditure.",
+      "costBasisNote": "Present-source low-effort recreation reference EUR 19,000; seller asking choice EUR 5,500. Market value remains not established. Estimated hours are not logged time or expenditure.",
       "costBudgets": [
         {
           "economicAssessmentAt": "2026-10-17T06:30:00Z",

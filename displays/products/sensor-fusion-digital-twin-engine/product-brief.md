@@ -66,6 +66,66 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 © 2026 THEARCHITECT_MAX. First-party rights reserved.
 
+## Product edition and acquisition dossier
+
+Identified product edition: 1.8.0
+
+Handover position: Conditional handover
+
+The v1.8.0 software provides a coordinated single-writer runtime, fencing and idempotency controls, scenario decisions, deterministic multi-source telemetry alignment and replayable provenance. All 73 local Python tests passed for the recorded snapshot. Physical-system and production qualification are separate. The unmerged v1.8.1 hardening candidate is excluded from the v1.8.0 financial scope.
+
+Separately scoped development: 1.8.1 — unmerged hardening candidate; excluded from current price
+
+### Priced first-party scope
+
+Present first-party v1.8.0 software. The separate v1.8.1 hardening PR is unmerged and excluded from the v1.8.0 cost scope. Domain calibration, physical sensor accuracy and production acceptance remain open.
+
+### Acquisition evidence profile
+
+| Criterion | Profile | Meaning for your review |
+| --- | --- | --- |
+| Technical scope | V | provides coordinated single-writer runtime, fencing/idempotency controls, transparent scenario decisions and deterministic multi-source telemetry alignment with replayable provenance. |
+| Evidence and validation | E3 | 73 local Python tests passed on the exact v1.8.0 snapshot. This is software testing, not physical-system or production certification. |
+| Rights and component obligations | R2 | Proprietary declaration and repository notices reviewed; independent chain of title and freedom to operate remain unestablished. |
+| Commercial basis | C2 | Explicit low-effort cost assumptions and seller asking choice; no independently determined market or income value. |
+| Delivery and handover | T3 | Source, tests and instructions inspected; exact rights, manifest and recipient acceptance remain open. |
+
+### Conditions before handover
+
+- Agree exact first-party rights, component obligations and excluded content in the definitive agreement.
+- Freeze a release-specific delivery manifest and complete recipient acceptance.
+- Complete independent security review or expressly accept its absence within the local reference scope.
+- Review the unmerged v1.8.1 candidate separately.
+- Qualify physical-domain models, representative telemetry and production conditions.
+
+### Qualification objectives
+
+- Review the separate v1.8.1 hardening candidate, then qualify representative domain telemetry and recipient deployment conditions.
+
+### Rights and components
+
+The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.
+
+Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance.
+
+- Dependency declaration: identified
+- Dependency lock record: not established in reviewed records
+- Component inventory artifact: identified
+- Licence notices: identified
+- Third-party disclosure: identified
+- Security documentation: identified
+
+### Potential applications
+
+- [Machine-condition simulation and maintenance research](https://thearchitect-max.github.io/MyProjects/connections.html#machine-condition-research): Review operational observations and estimated system state.
+
+Proposed applications require separate interfaces, integration and joint qualification; they are not delivered integrated products.
+
+Grade definitions: https://thearchitect-max.github.io/MyProjects/assurance.html#criteria
+
+Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfer.html
+
+
 ## Complete prices and economic references
 
 Basis: 2026-10-17. All amounts in EUR. Market value is not established.
@@ -98,11 +158,11 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-Retained EUR 780,000 base plus EUR 17,000 low-effort implementation increment = EUR 797,000. Seller asking reference EUR 235,000 to EUR 240,000, retaining the earlier asking/cost proportion. Market value remains NOT_ESTABLISHED. Estimated hours are not logged time or expenditure.
+The EUR 797,000 recreation estimate consists of a EUR 780,000 base and a EUR 17,000 scoped implementation budget. The seller asking reference is EUR 240,000. Effort is estimated, not logged time or actual expenditure. Market value is not established.
 
 #### Low-effort working estimate
 
-Adds coordinated single-writer runtime, fencing/idempotency controls, transparent scenario decisions and deterministic multi-source telemetry alignment with replayable provenance.
+Provides coordinated single-writer runtime, fencing/idempotency controls, transparent scenario decisions and deterministic multi-source telemetry alignment with replayable provenance.
 
 - Assumed hours: 160
 - Hourly rate: EUR 94
@@ -119,7 +179,7 @@ Adds coordinated single-writer runtime, fencing/idempotency controls, transparen
 
 Hours and the 15% allowance are analyst assumptions for bounded reproduction with modern tooling. EUR 94 is a Dutch mean, not a minimum rate or a contractor quote. This is the lowest of the explicitly scoped working scenarios, not an absolute market or cost floor.
 
-Historical budgets can overlap and are not added to calculate a new price.
+Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
 

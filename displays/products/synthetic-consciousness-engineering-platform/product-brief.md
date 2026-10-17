@@ -66,6 +66,65 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 © 2026 THEARCHITECT_MAX. First-party rights reserved.
 
+## Product edition and acquisition dossier
+
+Identified product edition: v0.4.0.dev0
+
+Handover position: Conditional handover
+
+The v0.4 software supports repeatable research studies and controlled experiment resumption. All 29 local tests passed for the identified source. The recorded archive contains 20 checkpoint manifests and 152 binary parts; a numerical archive replay is not established. Consciousness and qualification of the larger planned GPU campaign remain unestablished.
+
+Separately scoped development: v0.4 resumable research controller (merged)
+
+### Priced first-party scope
+
+Present first-party offline research software, corrected experimental derivative, implemented campaign-audit, multi-seed study and resumable-experiment controls, documentation and retained historical/final/checkpoint material counted once. Missing original historical data and weights, proven consciousness, numerical equivalence, external platform ownership, third-party rights, full-scale future GPU qualification and future research are excluded.
+
+### Acquisition evidence profile
+
+| Criterion | Profile | Meaning for your review |
+| --- | --- | --- |
+| Technical scope | P | Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance. |
+| Evidence and validation | E3 | Tests, validation and provenance/release evidence identified. The identified source version and tested scope govern these results; this is not independent certification. |
+| Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the documented rights and exclusions for your transaction; no independent title opinion is established. |
+| Commercial basis | C2 | Seller ask and reproducible economic reference established. This is a seller asking reference and assumption-based reproduction model, not a completed sale or independent appraisal. |
+| Delivery and handover | T2 | Source, documentation, tests and licence evidence support bounded handover. The listed conditions and agreed delivery scope govern acceptance. |
+
+### Conditions before handover
+
+- Freeze the active research software and seven-file final-evidence delivery manifest; distinguish the corrected derivative from preserved historical fragments.
+- Resolve archive-specific authorship, provider terms, third-party obligations and nonstandard historical licence labels in the definitive agreement.
+- Pin the agreed runtime and build components and produce a release-specific component and licence inventory; no lockfile or completed SBOM is retained.
+- Reconcile the complete intermediate checkpoint inventory and incorrect checkpoint-checksum field. One step-50 metadata file and seven binary parts are present but the parts were not restored or byte-verified, and the overall checkpoint-part manifest is absent; verify any expressly included materials or define their exclusion.
+- Complete recipient reproduction and acceptance for the agreed environment; the retained GPU campaign was not rerun and current CPU checks do not establish GPU/CPU equivalence.
+- Preserve the scientific limits: missing original data and weights remain missing, abstract simulation values are not money or measured physical quantities, and no consciousness claim is validated.
+- Reconcile the complete recorded checkpoint inventory with the delivered binary bytes and reproduce the agreed research scope. This review did not restore or numerically audit the archive; the historical mislabeled checksum field remains an explicit limitation.
+
+### Qualification objectives
+
+- Evidence a reproducible release, agreed component and rights boundaries, use-specific qualification and recipient acceptance of the defined software package.
+- Independent legal ownership/title opinion not performed by this internal audit.
+- Freedom-to-operate legal opinion not performed unless separately evidenced.
+- Independent penetration test not assumed unless separately evidenced.
+
+### Rights and components
+
+The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.
+
+Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance.
+
+- Dependency declaration: identified
+- Dependency lock record: not established in reviewed records
+- Component inventory artifact: not established in reviewed records
+- Licence notices: identified
+- Third-party disclosure: identified
+- Security documentation: identified
+
+Grade definitions: https://thearchitect-max.github.io/MyProjects/assurance.html#criteria
+
+Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfer.html
+
+
 ## Complete prices and economic references
 
 Basis: 2026-10-12. All amounts in EUR. Market value is not established.
@@ -100,7 +159,7 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 Disclosed base/increment assumptions reconcile to the retained recreation anchor. Effort remains an analyst estimate for its original scope.
 
-#### Retained work-package budget
+#### Scoped work-package budget
 
 Present first-party offline research prototype, corrected experimental derivative, documentation, historical provenance archive and the seven retained final-campaign files at the identified source commit. Historical fragments are counted once as retained provenance, not separate completed systems. Missing original data, unestablished complete intermediate checkpoints, trained weights, proven consciousness, external platform ownership, third-party rights and future research are excluded.
 
@@ -129,7 +188,7 @@ Repeatable campaign review and source-bound experiment recovery software
 
 Engineering-equivalent reproduction assumption; no test-count, file-count, revenue or unexecuted-qualification premium.
 
-Historical budgets can overlap and are not added to calculate a new price.
+Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
 

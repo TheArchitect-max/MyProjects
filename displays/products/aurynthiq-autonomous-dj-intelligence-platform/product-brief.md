@@ -66,6 +66,67 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 © 2026 THEARCHITECT_MAX. First-party rights reserved.
 
+## Product edition and acquisition dossier
+
+Identified product edition: 0.12.0
+
+Handover position: Conditional handover
+
+Evaluate the v0.12 local music-library and audition prototype using your own authorised recordings. All 184 local software tests passed. Music rights, listening quality, supported-hardware performance and production use require separate acceptance; the optional model-backed full-song separation path remains unqualified.
+
+### Priced first-party scope
+
+Existing first-party local DJ and music-library prototype plus the implemented v0.11/v0.12 user-library, declared-use, audition and local-export controls, source, tests and documentation. External music, model weights and runtime ownership, independently cleared music rights, professional listening quality, large-library/hardware qualification and a hosted service are excluded.
+
+### Acquisition evidence profile
+
+| Criterion | Profile | Meaning for your review |
+| --- | --- | --- |
+| Technical scope | P | Assess the identified existing prototype and its documented limits; design objectives do not establish completed implementation. |
+| Evidence and validation | E3 | Use the exact-source local software results. Synthetic fixtures, supplied declarations and unmerged candidates remain distinct from independent or production qualification. |
+| Rights and component obligations | R2 | Review the expressly included first-party rights and outstanding provenance/component obligations. A seller declaration or a source inventory does not independently establish legal title. |
+| Commercial basis | C2 | Compare the seller asking reference with the disclosed engineering-equivalent cost assumptions; no independent appraisal, attributable income or comparable sale is established. |
+| Delivery and handover | T2 | Agree the exact v0.12 first-party source and prototype delivery manifest, supported dependencies and recipient acceptance checks. |
+
+### Conditions before handover
+
+- Agree the exact v0.12 first-party source and prototype delivery manifest, supported dependencies and recipient acceptance checks.
+- Reconcile component versions, licences and obligations; recordings, stems and external model assets retain their own rights.
+- Complete permissioned listening benchmarks and supported-hardware acceptance for your intended music workflow.
+- Qualify the optional model-backed separation path separately; mocked separation tests are not execution of the full model pipeline.
+- Keep the local operator-controlled prototype distinct from a production multi-user service or independent music-rights verification.
+
+### Qualification objectives
+
+- Agree the exact v0.12 first-party source and prototype delivery manifest, supported dependencies and recipient acceptance checks.
+- Independent legal ownership/title opinion not performed by this internal audit.
+- Freedom-to-operate legal opinion not performed unless separately evidenced.
+- Independent penetration test not assumed unless separately evidenced.
+
+### Rights and components
+
+The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.
+
+Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance.
+
+- Dependency declaration: identified
+- Dependency lock record: not established in reviewed records
+- Component inventory artifact: not established in reviewed records
+- Licence notices: identified
+- Third-party disclosure: identified
+- Security documentation: identified
+
+### Potential applications
+
+- [Music-library preparation and DJ review](https://thearchitect-max.github.io/MyProjects/connections.html#music-library-and-dj): Prepare DJ sets and preview proposed transitions.
+
+Proposed applications require separate interfaces, integration and joint qualification; they are not delivered integrated products.
+
+Grade definitions: https://thearchitect-max.github.io/MyProjects/assurance.html#criteria
+
+Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfer.html
+
+
 ## Complete prices and economic references
 
 Basis: 2026-10-12. All amounts in EUR. Market value is not established.
@@ -100,7 +161,7 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 Some dated work-package assumptions are disclosed, but they do not reconstruct the complete retained recreation anchor. A complete scope-specific budget is required.
 
-#### Retained work-package budget
+#### Scoped work-package budget
 
 Present first-party music-library, DJ-set creation and review prototype, documentation and reproducible test work. Music recordings, third-party models, production hardware and unperformed listener studies are excluded.
 
@@ -113,7 +174,7 @@ Present first-party music-library, DJ-set creation and review prototype, documen
 
 Seller assumptions for scoped reproduction, not actual spending.
 
-Historical budgets can overlap and are not added to calculate a new price.
+Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
 

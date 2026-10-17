@@ -66,6 +66,69 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 © 2026 THEARCHITECT_MAX. First-party rights reserved.
 
+## Product edition and acquisition dossier
+
+Identified product edition: v13 established product
+
+Handover position: Conditional handover
+
+The established v13 product is the active product baseline. The v16 development work includes corpus staging and an evidence-aware model-selection candidate. A 32/8 campaign recorded a model-selection failure. Candidate validation, a qualified campaign and confirmation/promotion gates remain prerequisites for a v16 product claim.
+
+Separately scoped development: v16 — draft evidence-aware model-selection repair
+
+### Priced first-party scope
+
+Present first-party piano practice, performance and local production software, its proprietary transcription work, retained research and validation, and documentation. User music, external scores, recordings, datasets, plugins and future model qualification are excluded.
+
+### Acquisition evidence profile
+
+| Criterion | Profile | Meaning for your review |
+| --- | --- | --- |
+| Technical scope | V | Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance. |
+| Evidence and validation | E3 | Tests, validation and provenance/release evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results. |
+| Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. This grade concerns documented rights evidence. Missing documentation does not establish that first-party ownership is absent. |
+| Commercial basis | C2 | Seller ask and reproducible economic reference established. A published asking reference does not establish a completed sale, income or an independent appraisal. |
+| Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. Your agreed delivery scope and the conditions below govern acceptance. |
+
+### Conditions before handover
+
+- Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
+- A detailed component inventory and licensing report are required for the agreed delivery scope.
+- A security assessment or an explicit statement of its absence is required before acceptance.
+- An explicit delivery manifest and handover scope remain to be agreed.
+- Validate the draft training checkpoint/resume implementation and required v16 promotion gates before product acceptance.
+
+### Qualification objectives
+
+- Validate the exact the development candidate candidate, rerun development and calibration, and satisfy the confirmation/promotion gates before changing the active product.
+- Independent legal ownership/title opinion not performed by this internal audit.
+- Freedom-to-operate legal opinion not performed unless separately evidenced.
+- Independent penetration test not assumed unless separately evidenced.
+
+### Rights and components
+
+The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.
+
+Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance.
+
+- Dependency declaration: identified
+- Dependency lock record: not established in reviewed records
+- Component inventory artifact: not established in reviewed records
+- Licence notices: identified
+- Third-party disclosure: identified
+- Security documentation: not established in reviewed records
+
+### Potential applications
+
+- [Recorded music to guided piano practice](https://thearchitect-max.github.io/MyProjects/connections.html#recording-to-piano-practice): Organise focused piano practice and progress review.
+
+Proposed applications require separate interfaces, integration and joint qualification; they are not delivered integrated products.
+
+Grade definitions: https://thearchitect-max.github.io/MyProjects/assurance.html#criteria
+
+Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfer.html
+
+
 ## Complete prices and economic references
 
 Basis: 2026-10-09. All amounts in EUR. Market value is not established.
@@ -100,7 +163,7 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 Disclosed base/increment assumptions reconcile to the retained recreation anchor. Effort remains an analyst estimate for its original scope.
 
-#### Retained work-package budget
+#### Scoped work-package budget
 
 Present first-party piano practice, performance and local production software, its proprietary transcription work, retained research and validation, and documentation. User music, external scores, recordings, datasets, plugins and future model qualification are excluded.
 
@@ -113,7 +176,7 @@ Present first-party piano practice, performance and local production software, i
 
 Seller assumptions for scoped reproduction, not actual spending.
 
-Historical budgets can overlap and are not added to calculate a new price.
+Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
 

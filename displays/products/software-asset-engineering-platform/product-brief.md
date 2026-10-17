@@ -66,6 +66,69 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 © 2026 THEARCHITECT_MAX. First-party rights reserved.
 
+## Product edition and acquisition dossier
+
+Identified product edition: v0.1.0
+
+Handover position: Conditional handover
+
+The offered v0.1 local software-inspection engine has a separate unmerged service-control candidate. Authentication, hosted storage, live jobs and billing are unfinished. The asking and recreation references cover the local engine. A deployed private service is outside this scope.
+
+Separately scoped development: v0.2 internal service-control foundation; unmerged
+
+### Priced first-party scope
+
+Present first-party local software-inspection, evidence, bounded review-proposal and package-preparation prototype, its CLI/local interface, source contracts, documentation and retained validation at the identified v0.1.0 commit. Ingested-project execution, arbitrary-code isolation, broader adapters, production SaaS, hosting, rights certification, third-party ownership and future development are excluded.
+
+### Acquisition evidence profile
+
+| Criterion | Profile | Meaning for your review |
+| --- | --- | --- |
+| Technical scope | P | Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance. |
+| Evidence and validation | E3 | Tests, validation and provenance/release evidence identified. The identified source version and tested scope govern these results; this is not independent certification. |
+| Rights and component obligations | R3 | R2 plus SBOM/lockfile and provenance/rights-supporting evidence identified. Review the documented rights and exclusions for your transaction; no independent title opinion is established. |
+| Commercial basis | C2 | Seller ask and reproducible economic reference established. This is a seller asking reference and assumption-based reproduction model, not a completed sale or independent appraisal. |
+| Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and agreed delivery scope govern acceptance. |
+
+### Conditions before handover
+
+- Agree and freeze the engine asset delivery manifest, included rights and first-party provenance for the identified release.
+- Reconcile the pinned build-tool licences and final component obligations for the agreed delivery scope.
+- Complete recipient verification and acceptance of the engine delivery package; generated input-project dossiers remain separate draft review records.
+- Qualify the intended local deployment and its security boundary. Input-project execution, a general sandbox and multi-tenant SaaS are not delivered.
+- Retain explicit NOT_RUN and UNSUPPORTED input-project outcomes; engine tests do not establish an inspected project’s runtime correctness, title or value.
+
+### Qualification objectives
+
+- An accepted private SaaS workflow remains required. Current acquisition covers the local engine; its agreed delivery manifest, component obligations and recipient acceptance remain open.
+- Independent legal ownership/title opinion not performed by this internal audit.
+- Freedom-to-operate legal opinion not performed unless separately evidenced.
+- Independent penetration test not assumed unless separately evidenced.
+
+### Rights and components
+
+The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.
+
+Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance.
+
+- Dependency declaration: identified
+- Dependency lock record: identified
+- Component inventory artifact: not established in reviewed records
+- Licence notices: identified
+- Third-party disclosure: identified
+- Security documentation: identified
+
+### Potential applications
+
+- [Research-led software asset review](https://thearchitect-max.github.io/MyProjects/connections.html#research-led-software-asset-review): Review the agreed software scope and version-bound evidence for a documented handover.
+
+Proposed applications require separate interfaces, integration and joint qualification; they are not delivered integrated products.
+
+Grade definitions: https://thearchitect-max.github.io/MyProjects/assurance.html#criteria
+
+Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfer.html
+
+
 ## Complete prices and economic references
 
 Basis: 2026-10-11. All amounts in EUR. Market value is not established.
@@ -100,7 +163,7 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 Disclosed base/increment assumptions reconcile to the retained recreation anchor. Effort remains an analyst estimate for its original scope.
 
-#### Retained work-package budget
+#### Scoped work-package budget
 
 Present first-party local software-inspection, evidence, bounded review-proposal and package-preparation prototype, its CLI/local interface, source contracts, documentation and retained validation at the identified v0.1.0 commit. Ingested-project execution, arbitrary-code isolation, broader adapters, production SaaS, hosting, rights certification, third-party ownership and future development are excluded.
 
@@ -114,7 +177,7 @@ Present first-party local software-inspection, evidence, bounded review-proposal
 
 Assumed engineering-equivalent reproduction budget, not recorded hours, expenditure, elapsed development time, completed comparables or an independent appraisal.
 
-Historical budgets can overlap and are not added to calculate a new price.
+Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
 

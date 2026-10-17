@@ -66,6 +66,68 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 © 2026 THEARCHITECT_MAX. First-party rights reserved.
 
+## Product edition and acquisition dossier
+
+Identified product edition: 0.1.0
+
+Handover position: Conditional handover
+
+The 0.1.0 baseline and the separate 0.6.3 STELLA research candidate have distinct delivery scopes. The candidate provides offline sensor processing, calibrated geometry, replayable evidence comparison and retained NOAA context. Its report records 1,043 tests and validation of 96 schemas for the recorded source. Calibrated field accuracy, cross-modality fusion and mission qualification remain open.
+
+Separately scoped development: 0.6.3 — unmerged STELLA research foundation
+
+### Priced first-party scope
+
+Existing first-party 0.6.3 source (unmerged development snapshot), including the described implemented increment. Full cross-modality fusion, physical/field qualification, Horizon products and third-party archive ownership are excluded.
+
+### Acquisition evidence profile
+
+| Criterion | Profile | Meaning for your review |
+| --- | --- | --- |
+| Technical scope | P | Assess the identified existing prototype and its documented limits; design objectives do not establish completed implementation. |
+| Evidence and validation | E3 | Use the exact-source local software results. Synthetic fixtures, supplied declarations and unmerged candidates remain distinct from independent or production qualification. |
+| Rights and component obligations | R2 | Review the expressly included first-party rights and outstanding provenance/component obligations. A seller declaration or a source inventory does not independently establish legal title. |
+| Commercial basis | C2 | Compare the seller asking reference with the disclosed engineering-equivalent cost assumptions; no independent appraisal, attributable income or comparable sale is established. |
+| Delivery and handover | T2 | Agree and freeze the historical-main and separately reviewed v0.4.2 development delivery perimeter; the development candidate has not been merged. |
+
+### Conditions before handover
+
+- Agree and freeze the historical-main and separately reviewed v0.4.2 development delivery perimeter; the development candidate has not been merged.
+- Reconcile the identifier in development documentation with the authoritative portfolio identifier TA-IP-001 before freezing the delivery package.
+- Complete the agreed component inventory, obligations review and recipient acceptance of the bounded software package.
+- Keep physical calibration, independently qualified annotations, field performance and the blocked v1.0/Horizon programme outside the demonstrated scope.
+
+### Qualification objectives
+
+- Complete the remaining S-014 comparison/fusion work and qualify representative calibrated field observations; keep the development candidate separate from main.
+- Independent legal ownership/title opinion not performed by this internal audit.
+- Freedom-to-operate legal opinion not performed unless separately evidenced.
+- Independent penetration test not assumed unless separately evidenced.
+
+### Rights and components
+
+The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.
+
+Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance.
+
+- Dependency declaration: identified
+- Dependency lock record: not established in reviewed records
+- Component inventory artifact: identified
+- Licence notices: identified
+- Third-party disclosure: identified
+- Security documentation: identified
+
+### Potential applications
+
+- [Observation and perception studies](https://thearchitect-max.github.io/MyProjects/connections.html#observation-and-perception-studies): Process bounded optical observations in a separately qualified development candidate.
+
+Proposed applications require separate interfaces, integration and joint qualification; they are not delivered integrated products.
+
+Grade definitions: https://thearchitect-max.github.io/MyProjects/assurance.html#criteria
+
+Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfer.html
+
+
 ## Complete prices and economic references
 
 Basis: 2026-10-16. All amounts in EUR. Market value is not established.
@@ -98,11 +160,11 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The previous whole-project cost anchor remains a legacy seller assumption. The new implemented increment has a separate role/work-package reproduction budget; the base is counted once.
+The recreation anchor combines an identified base with separately scoped implementation work. The base remains a seller assumption; the scoped component has a role/work-package reproduction budget. Each component is counted once.
 
 #### Implemented scope budget
 
-Adds conditional observation geometry, replayable research dossiers, bounded motion/signal processing, actual public-archive import and dependency-aware evidence comparison beyond the already priced v0.4.2 foundation.
+Provides conditional observation geometry, replayable research dossiers, bounded motion/signal processing, actual public-archive import and dependency-aware evidence comparison beyond the already priced v0.4.2 foundation.
 
 - Senior engineer months: 3.0
 - Lead or specialist months: 2.0
@@ -118,7 +180,7 @@ Adds conditional observation geometry, replayable research dossiers, bounded mot
 
 Analyst engineering-equivalent reproduction assumption, not logged hours, two days of labour invoiced as months, historical expenditure, a buyer quotation or independently established market value.
 
-Historical budgets can overlap and are not added to calculate a new price.
+Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
 
