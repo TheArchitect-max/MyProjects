@@ -65,3 +65,69 @@ Quote TA-IP-025 and the project title when discussing your intended use and requ
 Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
 
 © 2026 THEARCHITECT_MAX. First-party rights reserved.
+
+## Complete prices and economic references
+
+Basis: 2026-10-17. All amounts in EUR. Market value is not established.
+
+| Reference | EUR |
+| --- | ---: |
+| Seller asking reference | 240,000 |
+| Negotiation reference - low | 194,000 |
+| Negotiation reference - high | 301,500 |
+| Recreation cost estimate | 797,000 |
+| Marketability cost scenario | 962,377 |
+| Monetisation cost scenario | 1,183,545 |
+| Risk-adjusted strategic reference | 970,977 |
+| Weighted economic reference | 968,276 |
+
+- Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
+- Negotiation reference - low: Lower end of the previously published indicative negotiation range.
+- Negotiation reference - high: Upper end of the previously published indicative negotiation range.
+- Recreation cost estimate: Seller estimate to reproduce comparable present work; not recorded expenditure or an established market value.
+- Marketability cost scenario: Cost-based model scenario; no observed comparable IP sale is used.
+- Monetisation cost scenario: Cost-based model scenario; no attributable income, royalty valuation or DCF is established.
+- Risk-adjusted strategic reference: Cost-based opportunity scenario with stated seller-selected factors.
+- Weighted economic reference: Weighted blend of correlated cost scenarios; not an independent appraisal.
+
+Milestone-conditioned reference: Not established. No independently supported higher maturity amount or new attributable market/income evidence is established.
+
+This is a conditional model sensitivity, not a current asking price, forecast or market value.
+
+### Cost basis
+
+Retained EUR 780,000 base plus EUR 17,000 low-effort implementation increment = EUR 797,000. Seller asking reference EUR 235,000 to EUR 240,000, retaining the earlier asking/cost proportion. Market value remains NOT_ESTABLISHED. Estimated hours are not logged time or expenditure.
+
+#### Low-effort working estimate
+
+Adds coordinated single-writer runtime, fencing/idempotency controls, transparent scenario decisions and deterministic multi-source telemetry alignment with replayable provenance.
+
+- Assumed hours: 160
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 15,040
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 17,296.0
+- Adopted recreation increment: EUR 17,000
+- Effort alternatives / Low hours: 160
+- Effort alternatives / Reference hours: 240.0
+- Effort alternatives / Extended hours: 320
+- Effort alternatives / Low cost: EUR 17,296.0
+- Effort alternatives / Reference cost: EUR 25,944.0
+- Effort alternatives / Extended cost: EUR 34,592.0
+
+Hours and the 15% allowance are analyst assumptions for bounded reproduction with modern tooling. EUR 94 is a Dutch mean, not a minimum rate or a contractor quote. This is the lowest of the explicitly scoped working scenarios, not an absolute market or cost floor.
+
+Historical budgets can overlap and are not added to calculate a new price.
+
+### Sources
+
+Project-specific prices are seller choices and model outputs; external publishers inform method, rates and currency only.
+
+- [WIPO - Intellectual Property Valuation Basics — The cost method](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
+- [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
+
+Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
+
+Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
+

@@ -23,7 +23,7 @@ def validate():
   for key in ['profileUrl','displayUrl','factsheetUrl','briefUrl']:
    url=urlparse(a[key]);assert url.netloc=='thearchitect-max.github.io' and url.path.startswith('/MyProjects/')
    target=ROOT/unquote(url.path.removeprefix('/MyProjects/'));target=target/'index.html' if url.path.endswith('/') else target;assert target.is_file(),target
- assert {p.name for p in (ROOT/'assets').glob('*.json')}=={'buyer-catalogue.json','route-aliases.json'}
+ assert {p.name for p in (ROOT/'assets').glob('*.json')}=={'buyer-catalogue.json','route-aliases.json','pricing-catalogue.json'}
  assert not list((ROOT/'assets').glob('*.csv'));assert not (ROOT/'docs').exists();assert not list(ROOT.glob('.github/workflows/*'))
  assert json.loads((ROOT/'displays/assets/buyer-catalogue.json').read_text())==data
  pages=links=0
@@ -43,5 +43,5 @@ def validate():
   assert set(a)=={'ref','legacySlug','slug'}
   for folder in [ROOT/'projects',ROOT/'displays/products']:
    s=(folder/a['legacySlug']/'index.html').read_text();assert 'noindex,follow' in s and a['slug'] in s
- return dict(result='PASS',approvedPublicProjectRecords=108,perProjectSpecificBuyerProfiles=108,applicationAreas=12,buyerGroups=10,allowedHubDataFiles=2,internalDocumentDirectoryAbsent=True,legacyProfileAndDisplayRoutes=12,htmlPages=pages,internalLinks=links,missingTargets=0)
+ return dict(result='PASS',approvedPublicProjectRecords=108,perProjectSpecificBuyerProfiles=108,applicationAreas=12,buyerGroups=10,allowedHubDataFiles=3,internalDocumentDirectoryAbsent=True,legacyProfileAndDisplayRoutes=12,htmlPages=pages,internalLinks=links,missingTargets=0)
 if __name__=='__main__':print(json.dumps(validate(),indent=2))
