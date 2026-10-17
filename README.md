@@ -19,3 +19,7 @@ The public catalogue includes all 108 asset identities and financial references.
 Public pages and product briefs describe the existing work and acquisition perimeter. Publication history, internal review logs and private identifiers are outside these public datasets. Source records retain their original evidence basis; rebuilding the showroom does not rerun or upgrade the underlying products. The original style and music assets remain in place.
 
 Validate with `python tools/validate_buyer_information.py`, `node tools/validate_buyer_showroom.cjs`, `python tools/validate_prices.py` and `python tools/validate_publication.py`.
+
+## Connections and evaluation references
+
+The primary navigation links to `connections.html` and the separate `sources.html` evaluation register. Connections supports search, application-area and participating-asset filters. `assets/evaluation-sources.json` attributes the nine documented external references and six assessment-record categories, while retaining each source’s application and limits. The financial source register and all project prices remain in `assets/pricing-catalogue.json`.

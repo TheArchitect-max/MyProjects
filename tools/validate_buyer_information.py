@@ -38,11 +38,11 @@ def validate():
   assert len({m['ref'] for m in c['members']})==len(c['members'])
   members.update(m['ref'] for m in c['members'])
  assert len(members)==81
- for page in ['assurance','connections','commercialization','evidence','opportunity','transaction','transfer']:
+ for page in ['assurance','connections','commercialization','evidence','opportunity','transaction','transfer','sources']:
   text=(ROOT/(page+'.html')).read_text();assert 'location.replace' not in text and 'im.js?v=showroom4' in text
  with (ROOT/'displays/catalogue.csv').open(encoding='utf-8-sig',newline='') as f:rows=list(csv.DictReader(f))
  assert len(rows)==108
  for row in rows:
   p=records[row['Reference']];assert row['Product_edition']==p['version'] and row['Handover_position']==p['transferPosition'] and row['Seller_conditions']
- return dict(result='PASS',publicBuyerDossiers=108,assessmentCriteria=540,explicitDevelopmentEditions=editions,handoverConditions=conditions,proposedApplications=33,distinctApplicationMembers=81,buyerInformationPages=7,productBriefsAndDisplaysChecked=216,catalogueRows=108,standaloneVfxAssetPreserved=True)
+ return dict(result='PASS',publicBuyerDossiers=108,assessmentCriteria=540,explicitDevelopmentEditions=editions,handoverConditions=conditions,proposedApplications=33,distinctApplicationMembers=81,buyerInformationPages=8,productBriefsAndDisplaysChecked=216,catalogueRows=108,standaloneVfxAssetPreserved=True)
 if __name__=='__main__':print(json.dumps(validate(),indent=2))

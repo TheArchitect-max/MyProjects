@@ -1,0 +1,212 @@
+{
+  "schema": "public-evaluation-sources-1",
+  "basisDate": "2026-10-17",
+  "title": "Sources behind the asset evaluation",
+  "scope": "External references inform method, rate, currency and diligence context. Project-specific descriptions, grades, effort assumptions and prices remain attributed to the seller records. Market value has not been established.",
+  "categories": [
+    {
+      "id": "valuation",
+      "title": "Valuation methods and disclosure",
+      "description": "Cost-based evaluation, disclosed assumptions and the distinction between engineering cost and negotiated value."
+    },
+    {
+      "id": "rates",
+      "title": "Engineering rate context",
+      "description": "External rate references used to contextualise the disclosed seller engineering budgets."
+    },
+    {
+      "id": "currency",
+      "title": "Currency conversion",
+      "description": "The dated reference used for indicative USD displays."
+    },
+    {
+      "id": "diligence",
+      "title": "Rights and acquisition diligence",
+      "description": "Reference material for the rights, component and handover review framework."
+    }
+  ],
+  "externalSources": [
+    {
+      "id": "WIPO-COST",
+      "publisher": "WIPO",
+      "title": "Intellectual Property Valuation Basics — The cost method",
+      "url": "https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html",
+      "finding": "Cost-based reproduction/replacement is a starting point; cost and negotiated value may differ.",
+      "application": "Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.",
+      "checkedOn": "2026-10-17",
+      "categoryId": "valuation",
+      "referenceBasisDate": "2026-10-17",
+      "access": "Primary publisher page reviewed",
+      "useLimit": "A method reference; WIPO supplies no asking price, project effort or portfolio discount.",
+      "referenceContext": "Financial methodology, rate and currency register"
+    },
+    {
+      "id": "KNAB-2026",
+      "publisher": "Knab",
+      "title": "Software developer freelance rates in 2026",
+      "url": "https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst",
+      "finding": "Reported 2026 mean software-developer rate: EUR 94/hour excluding VAT; broader survey includes over 20,000 Dutch self-employed people.",
+      "application": "External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.",
+      "checkedOn": "2026-10-17",
+      "categoryId": "rates",
+      "referenceBasisDate": "2026-10-17",
+      "access": "Primary publisher page reviewed",
+      "useLimit": "The EUR 94/hour survey mean is not a minimum, contractor quotation or validation of the higher specialist role assumptions.",
+      "referenceContext": "Financial methodology, rate and currency register"
+    },
+    {
+      "id": "UPWORK-RATES",
+      "publisher": "Upwork",
+      "title": "Software developer hiring costs",
+      "url": "https://www.upwork.com/hire/software-developers/",
+      "finding": "The publisher search result gives a global USD 10-100/hour developer range. The detailed cost page could not be retrieved during this check.",
+      "application": "Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.",
+      "checkedOn": "2026-10-17",
+      "categoryId": "rates",
+      "referenceBasisDate": "2026-10-17",
+      "access": "Publisher search result; full page unavailable",
+      "useLimit": "Publisher search-result context only. The detailed page was not retrievable. No specialist premium or asset valuation is inferred.",
+      "referenceContext": "Financial methodology, rate and currency register"
+    },
+    {
+      "id": "ECB-FX",
+      "publisher": "European Central Bank",
+      "title": "Euro reference exchange rate - US dollar",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
+      "finding": "Latest retrieved dated observation: 16 October 2026, EUR 1 = USD 1.1253. Indicative display conversion only.",
+      "application": "Indicative USD display conversion only; authoritative project references remain in EUR.",
+      "checkedOn": "2026-10-17",
+      "categoryId": "currency",
+      "referenceBasisDate": "2026-10-17",
+      "access": "Primary publisher page reviewed",
+      "useLimit": "Display conversion only. The EUR values remain the reference figures; an exchange rate is not valuation evidence.",
+      "referenceContext": "Financial methodology, rate and currency register"
+    },
+    {
+      "id": "IVSC-STANDARDS",
+      "publisher": "International Valuation Standards Council",
+      "title": "International Valuation Standards",
+      "url": "https://ivsc.org/standards/",
+      "finding": "Valuation approaches, data and inputs, models, documentation and reporting for valuation practice, including intangible assets.",
+      "application": "Method and disclosure context only; this portfolio does not claim IVS compliance or an independent valuation.",
+      "checkedOn": "2026-10-17",
+      "categoryId": "valuation",
+      "referenceBasisDate": "2026-10-17",
+      "access": "Primary publisher page reviewed",
+      "useLimit": "Professional-method context. The public portfolio does not claim IVS compliance or an independent appraisal.",
+      "referenceContext": "Financial methodology, rate and currency register"
+    },
+    {
+      "id": "IVSC-TRANSPARENCY",
+      "publisher": "International Valuation Standards Council",
+      "title": "Valuing in the Absence of Markets",
+      "url": "https://ivsc.org/valuing-in-the-absence-of-markets-using-ivs-to-strengthen-quality-and-transparency-in-private-credit-valuations/",
+      "finding": "Transparency of process and inputs is especially important where market inputs are limited or non-observable.",
+      "application": "Method and disclosure context only; this portfolio does not claim IVS compliance or an independent valuation.",
+      "checkedOn": "2026-10-17",
+      "categoryId": "valuation",
+      "referenceBasisDate": "2026-10-17",
+      "access": "Primary publisher page reviewed",
+      "useLimit": "A private-credit discussion used for transparency principles only; it supplies no software comparable, project price or valuation certification.",
+      "referenceContext": "Financial methodology, rate and currency register"
+    },
+    {
+      "id": "WIPO-IP-AUDIT",
+      "publisher": "WIPO",
+      "title": "Uncovering IP Risks and Potential: IP Audit",
+      "url": "https://www.wipo.int/en/web/business/ip-audit",
+      "finding": "An IP audit considers the assets owned and used, protection gaps, ownership, third-party rights and transfer-related risks.",
+      "application": "Context for distinguishing a seller rights declaration from an evidenced, acquisition-specific rights and component review.",
+      "checkedOn": "2026-10-17",
+      "categoryId": "diligence",
+      "referenceBasisDate": "2026-10-13",
+      "access": "Primary publisher page reviewed",
+      "useLimit": "Reference material for the review framework. It is not a legal opinion, WIPO approval of an asset or evidence that an individual transaction is ready.",
+      "referenceContext": "Rights and acquisition-readiness reference list"
+    },
+    {
+      "id": "WIPO-IP-DILIGENCE",
+      "publisher": "WIPO",
+      "title": "How to Prepare for IP Due Diligence – The Ultimate Guide for Ventures",
+      "url": "https://www.wipo.int/en/web/ip-commercialization/w/blog/how-to-prepare-for-ip-due-diligence-the-ultimate-guide-for-ventures",
+      "finding": "Software acquisition preparation includes a component inventory, ownership evidence, licence obligations, security information and a defined diligence package.",
+      "application": "Context for the five acquisition criteria, outstanding documentation conditions and delivery-specific handover review.",
+      "checkedOn": "2026-10-17",
+      "categoryId": "diligence",
+      "referenceBasisDate": "2026-10-13",
+      "access": "Primary publisher page reviewed",
+      "useLimit": "Reference material for the review framework. It is not a legal opinion, WIPO approval of an asset or evidence that an individual transaction is ready.",
+      "referenceContext": "Rights and acquisition-readiness reference list"
+    },
+    {
+      "id": "WIPO-IP-VALUATION",
+      "publisher": "WIPO",
+      "title": "Valuing Intellectual Property Assets",
+      "url": "https://www.wipo.int/en/web/business/ip-valuation",
+      "finding": "Cost, market and income approaches serve different purposes and require asset-specific information.",
+      "application": "Context for the distinction between asking reference, recreation estimate, model sensitivity and an independently supported market value.",
+      "checkedOn": "2026-10-17",
+      "categoryId": "diligence",
+      "referenceBasisDate": "2026-10-13",
+      "access": "Primary publisher page reviewed",
+      "useLimit": "Reference material for the review framework. It is not a legal opinion, WIPO approval of an asset or evidence that an individual transaction is ready.",
+      "referenceContext": "Rights and acquisition-readiness reference list"
+    }
+  ],
+  "assessmentRecords": [
+    {
+      "id": "product-scope",
+      "title": "Product editions and implemented scope",
+      "basis": "Recorded project documentation and reviewed implementation descriptions, with separately identified development editions.",
+      "application": "Public purpose, functions, outputs, identified version and priced first-party scope.",
+      "limit": "The public summary is not the underlying source code or a guarantee of fitness for a buyer’s deployment.",
+      "publicUrl": "assets/buyer-dossiers.json",
+      "linkLabel": "Public product and acquisition dossiers"
+    },
+    {
+      "id": "qualification",
+      "title": "Version-specific qualification evidence",
+      "basis": "Retained repository-native test and validation records, recorded scope conditions and the per-project evidence profiles.",
+      "application": "Technical and evidence criteria, recorded results and remaining qualification objectives.",
+      "limit": "Results apply to their identified source, environment and tested scope. Publishing these summaries does not rerun or independently certify the products.",
+      "publicUrl": "assurance.html",
+      "linkLabel": "Project evidence profiles"
+    },
+    {
+      "id": "rights",
+      "title": "Rights, components and handover records",
+      "basis": "Seller declarations, identified licence/component documentation and retained handover conditions.",
+      "application": "Offered rights, third-party treatment, delivery conditions and recipient acceptance.",
+      "limit": "Documentary indicators do not establish independent legal title, complete licence clearance or a completed transfer.",
+      "publicUrl": "transfer.html",
+      "linkLabel": "Rights and delivery guide"
+    },
+    {
+      "id": "financial-inputs",
+      "title": "Seller cost and commercial inputs",
+      "basis": "The per-asset asking references, scoped work budgets, role-rate assumptions and disclosed economic factors.",
+      "application": "Eight EUR and USD reference fields, conditional scenarios and portfolio reconciliation.",
+      "limit": "Effort and model factors are seller assumptions. They are not logged spending, comparable transactions or established market value.",
+      "publicUrl": "assets/pricing-catalogue.json",
+      "linkLabel": "Public financial inputs and factors"
+    },
+    {
+      "id": "calculation",
+      "title": "Reproducible arithmetic",
+      "basis": "The public pricing inputs and shared calculation module, with a downloadable deterministic check report.",
+      "application": "432 scenario outputs, 864 USD conversions, 32 scoped budgets, 49 conditional references and eight totals.",
+      "limit": "A matching calculation checks arithmetic consistency; it does not independently validate the assumptions.",
+      "publicUrl": "proof.html?v=calc1",
+      "linkLabel": "Run calculation validation"
+    },
+    {
+      "id": "connections",
+      "title": "Proposed workflow applications",
+      "basis": "The documented connection purposes, member roles, workflow requirements and individual asset references.",
+      "application": "The 33 Connections records, with member asking and recreation totals and separately stated integration requirements.",
+      "limit": "These are proposed applications. No working integration, shared rights or additional IP asset is established.",
+      "publicUrl": "assets/application-combinations.json",
+      "linkLabel": "Public connection records"
+    }
+  ]
+}

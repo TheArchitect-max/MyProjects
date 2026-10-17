@@ -2,11 +2,12 @@
 'use strict';
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'..'),script=fs.readFileSync(path.join(root,'assets/im.js'),'utf8'),marker='render().catch';
-assert(script.includes(marker));const source=script.slice(0,script.lastIndexOf(marker))+'globalThis.showroom={load,validate,home,portfolio,project,buyers,acquisition,policy,contribution,notice,filterAssets,valuation,validatePricing,calculationPage,connectionsPage,assurancePage,evidencePage,transferPage,transactionPage,commercializationPage,opportunityPage};})();';
+assert(script.includes(marker));const source=script.slice(0,script.lastIndexOf(marker))+'globalThis.showroom={load,validate,home,portfolio,project,buyers,acquisition,policy,contribution,notice,filterAssets,valuation,validatePricing,calculationPage,connectionsPage,assurancePage,evidencePage,transferPage,transactionPage,commercializationPage,opportunityPage,sourcesPage,filterConnections,validateEvaluationSources};})();';
 const data=JSON.parse(fs.readFileSync(path.join(root,'assets/buyer-catalogue.json'),'utf8'));
 const prices=JSON.parse(fs.readFileSync(path.join(root,'assets/pricing-catalogue.json'),'utf8'));
 const dossiers=JSON.parse(fs.readFileSync(path.join(root,'assets/buyer-dossiers.json'),'utf8')),applications=JSON.parse(fs.readFileSync(path.join(root,'assets/application-combinations.json'),'utf8'));
-const sandbox={PricingMath:require(path.join(root,'assets/pricing-math.js')),URL,URLSearchParams,Intl,JSON,Math,Number,String,Boolean,Map,Set,console,document:{currentScript:{src:'https://thearchitect-max.github.io/MyProjects/assets/im.js'}},location:{pathname:'/MyProjects/',search:'',hash:''},fetch:async url=>{const file=new URL(url).pathname;assert(['/MyProjects/assets/buyer-catalogue.json','/MyProjects/assets/pricing-catalogue.json','/MyProjects/assets/buyer-dossiers.json','/MyProjects/assets/application-combinations.json'].includes(file));return {ok:true,json:async()=>file.endsWith('/pricing-catalogue.json')?prices:file.endsWith('/buyer-dossiers.json')?dossiers:file.endsWith('/application-combinations.json')?applications:data}}};
+const evaluationSources=JSON.parse(fs.readFileSync(path.join(root,'assets/evaluation-sources.json'),'utf8'));
+const sandbox={PricingMath:require(path.join(root,'assets/pricing-math.js')),URL,URLSearchParams,Intl,JSON,Math,Number,String,Boolean,Map,Set,console,document:{currentScript:{src:'https://thearchitect-max.github.io/MyProjects/assets/im.js'}},location:{pathname:'/MyProjects/',search:'',hash:''},fetch:async url=>{const file=new URL(url).pathname;assert(['/MyProjects/assets/buyer-catalogue.json','/MyProjects/assets/pricing-catalogue.json','/MyProjects/assets/buyer-dossiers.json','/MyProjects/assets/application-combinations.json','/MyProjects/assets/evaluation-sources.json'].includes(file));return {ok:true,json:async()=>file.endsWith('/pricing-catalogue.json')?prices:file.endsWith('/buyer-dossiers.json')?dossiers:file.endsWith('/application-combinations.json')?applications:file.endsWith('/evaluation-sources.json')?evaluationSources:data}}};
 vm.createContext(sandbox);vm.runInContext(source,sandbox);
 (async()=>{
  const r=sandbox.showroom,d=await r.load();assert.equal(d.projects.length,108);
@@ -17,7 +18,7 @@ vm.createContext(sandbox);vm.runInContext(source,sandbox);
   for(const b of a.potentialBuyers)assert(html.includes(b.replaceAll('&','&amp;')));
   assert(!/\b[a-f0-9]{40}\b/.test(html));assert(!/role-month|audit grade|new projects|recently added/i.test(html));
  }
- let pages=0;for(const name of ['home','portfolio','buyers','acquisition','policy','contribution','notice','valuation','calculationPage','connectionsPage','assurancePage','evidencePage','transferPage','transactionPage','commercializationPage','opportunityPage']){const html=r[name](d);assert(html.length>1000,name);pages++;assert(!/\b[a-f0-9]{40}\b/.test(html));}
+ let pages=0;for(const name of ['home','portfolio','buyers','acquisition','policy','contribution','notice','valuation','calculationPage','connectionsPage','assurancePage','evidencePage','transferPage','transactionPage','commercializationPage','opportunityPage','sourcesPage']){const html=r[name](d);assert(html.length>1000,name);pages++;assert(!/\b[a-f0-9]{40}\b/.test(html));}
  assert.equal((r.portfolio(d).match(/data-asset-ref=/g)||[]).length,108);
  for(const c of d.categories){const rows=r.filterAssets(d,{family:c.id});assert(rows.length>0);assert(rows.every(a=>a.categoryId===c.id));}
  for(const g of d.buyerGroups){const rows=r.filterAssets(d,{buyer:g.id});assert(rows.length>0);assert(rows.every(a=>a.buyerGroupIds.includes(g.id)));}
@@ -27,6 +28,9 @@ vm.createContext(sandbox);vm.runInContext(source,sandbox);
  assert.equal((r.calculationPage(d).match(/data-calculation-ref=/g)||[]).length,108);
  assert.equal((r.portfolio(d).match(/data-currency="USD"/g)||[]).length,216);
  assert.equal(d.calculation.status,'PASS');assert.equal((r.connectionsPage(d).match(/data-connection-ref=/g)||[]).length,33);assert.equal((r.assurancePage(d).match(/data-assurance-ref=/g)||[]).length,108);
+ assert.equal((r.sourcesPage(d).match(/data-evaluation-source=/g)||[]).length,9);assert.equal((r.sourcesPage(d).match(/data-source-asset=/g)||[]).length,108);
+ assert.equal(r.filterConnections(d).length,33);assert.equal(r.filterConnections(d,{query:'Asteria'}).length,0);assert.equal(r.filterConnections(d,{query:'unmatched-connection-xyz'}).length,0);const ariadne=r.filterConnections(d,{query:'Ariadne'});assert(ariadne.length>0);assert(ariadne.every(c=>c.members.some(m=>m.ref==='TA-IP-003')));const selected=r.filterConnections(d,{asset:'TA-IP-003'});assert.equal(selected.length,ariadne.length);assert(r.filterConnections(d,{category:'Intelligence & research'}).every(c=>c.category==='Intelligence & research'));
+ for(const x of evaluationSources.externalSources)assert(r.sourcesPage(d).includes(x.url));const brokenSources=JSON.parse(JSON.stringify(evaluationSources));brokenSources.externalSources[0].url='https://example.org/unattributed';assert.throws(()=>r.validateEvaluationSources(brokenSources,d));
  assert.throws(()=>r.validatePricing({...prices,portfolio:{...prices.portfolio,sellerAskEUR:1}},data));
  const sorted=r.filterAssets(d,{sort:'ask-asc'});for(let i=1;i<sorted.length;i++)assert(sorted[i].askingReferenceEUR>=sorted[i-1].askingReferenceEUR);
  assert.throws(()=>r.validate({...d,projects:[{...d.projects[0],unapprovedField:'not publishable'},...d.projects.slice(1)]}));
