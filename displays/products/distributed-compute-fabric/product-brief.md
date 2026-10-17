@@ -2,7 +2,7 @@
 
 TA-IP-082 | Reference alias: Ingrid | Software Assurance, Provenance & Control
 
-Buyer-facing edition: 16 October 2026
+Buyer-facing edition: 17 October 2026
 
 Coordinate remote computing work and review continuity across your distributed operations.
 
@@ -38,11 +38,7 @@ Current main baseline: 0.11.0.
 
 The 0.11.0 layer adds a runnable outbound-only reference worker agent over the loopback TLS 1.3 mutual-authentication transport, with bounded reconnect, heartbeat and command/lease handling. Its repository report records 212 passing tests. The qualified reference runtime remains loopback-scoped; production remote-provider operation and accelerator workloads need separate authorization and acceptance.
 
-Material limitations: The qualified transport is loopback-scoped. Remote production deployments, provider consent and accelerator workloads need their own tests and authorization.
-
-Next qualification step: Qualify remote transport and intended host/provider configurations with explicit authorization before production network exposure.
-
-Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
+Documentation checked: 17 October 2026. The main source is unchanged from the preceding directory review. Existing product qualification retains its source and execution date; tests were not rerun for this project.
 
 ## Commercial reference
 
@@ -50,17 +46,13 @@ Seller asking reference: EUR 229,000.
 
 Seller-estimated recreation cost: EUR 1,250,000.
 
-All 105 project financial references were reviewed on 16 October 2026 against current documentation, retained seller assessments and the disclosed method/rate sources. Nine implemented increments have revised individual references; this project is one of them. Final delivery, consideration and taxes are agreed separately.
-
-Seller-estimated engineering-equivalent cost to recreate comparable present work. This is a build-versus-buy reference, not actual historical expenditure, a contractor quotation, certified market value or guaranteed buyer saving.
+All 108 project source and financial-reference decisions were reviewed on 17 October 2026. Three new project estimates and two implementation increments are separately disclosed; 103 preceding individual amounts are retained. Market value remains undetermined. Final scope, consideration and taxes require separate agreement.
 
 ## Individual financial-reference review
 
-Development reviewed 16 October 2026: 0.11.0 (default-branch snapshot). Retained base EUR 1,200,000 plus separately estimated new work EUR 50,000 gives EUR 1,250,000. The new increment has a disclosed work budget; the older base remains a legacy seller assumption. No independent market-value increase is established.
+Financial-reference review: 17 October 2026. Current main source and existing development heads reviewed. The priced scope and disclosed cost assumptions are unchanged; existing cost/asking references are retained. Market value remains NOT_ESTABLISHED. Original financial-reference date: 2026-10-12.
 
-Adds loopback transport, TLS 1.3 mutual authentication and an outbound-only reference worker agent with bounded reconnect, heartbeat and command/lease processing.
-
-Production remote-provider operation, public networking, fleet installation, hostile-code containment, accelerator execution and multi-controller operation remain excluded.
+Comparable-sale valuation, project-income valuation and independent appraisal are NOT_ESTABLISHED. WIPO and contractor-rate publishers provide method/rate context; source-specific effort and seller asking choices are assumptions.
 
 ## Transaction scope
 
@@ -82,10 +74,13 @@ Separately scoped or excluded:
 
 ## Source basis
 
-- TA-IP-082-P: reviewed product overview and current main/development boundary, 16 October 2026.
-- TA-IP-082-C: full financial-reference review, 16 October 2026; original reference date 2026-10-12.
-- TA-IP-082-A: retained seller assessment, 2026-10-12.
+- TA-IP-082-P: source-frozen product documentation, 17 October 2026.
+- TA-IP-082-C: individual cost/reference decision, 17 October 2026.
+- TA-IP-082-A: seller handover review, 2026-10-12.
+
+The main source is unchanged from the preceding directory review. Existing product qualification retains its source and execution date; tests were not rerun for this project.
 
 ## Acquisition enquiry
 
 State this asset title and reference, your intended use and requested delivery perimeter. Agree controlled review and final written terms with the seller through the channel that supplied this package.
+

@@ -35,7 +35,7 @@ vm.createContext(sandbox);vm.runInContext(source,sandbox);
  }
  nodes=new Map();rows=ctx.directory.sites.map(s=>new Container(s));
  for(let n=0;n<3;n++)r.decorateListings(ctx);
- assert.equal(rows.reduce((n,row)=>n+(row.html.match(/data-public-site-link=/g)||[]).length,0),105);
+ assert.equal(rows.reduce((n,row)=>n+(row.html.match(/data-public-site-link=/g)||[]).length,0),108);
  const hero=new Container();hero.actions=new Container();const main=new Container();
  nodes=new Map([['.hero-tenebrist',hero],['main',main]]);
  for(let n=0;n<3;n++)r.decorateHome(ctx);
@@ -45,6 +45,6 @@ vm.createContext(sandbox);vm.runInContext(source,sandbox);
   await assert.rejects(r.load(),/identity mismatch/);
  }
  overrideSites=null;
- const result={result:'PASS',canonicalDisplayRecords:105,profileDecoratorsChecked:105,repeatedDecorationPasses:3,collectionDisplayLinks:105,profileDisplayLinksPerProject:1,extraHomepageDisplayCards:0,duplicateReferenceAndURLRejected:true,browserDOMExecuted:false};
+ const result={result:'PASS',canonicalDisplayRecords:108,profileDecoratorsChecked:108,repeatedDecorationPasses:3,collectionDisplayLinks:108,profileDisplayLinksPerProject:1,extraHomepageDisplayCards:0,duplicateReferenceAndURLRejected:true,browserDOMExecuted:false};
  const text=JSON.stringify(result,null,2)+'\n';if(process.argv[2])fs.writeFileSync(process.argv[2],text);process.stdout.write(text);
 })().catch(error=>{console.error(error);process.exitCode=1});

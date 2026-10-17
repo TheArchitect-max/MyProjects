@@ -2,7 +2,7 @@
 
 TA-IP-020 | Reference alias: Noa | Adaptive Intelligence & Cognition
 
-Buyer-facing edition: 16 October 2026
+Buyer-facing edition: 17 October 2026
 
 Study adaptation and decision behaviour through repeatable experiments and comparative review.
 
@@ -38,9 +38,7 @@ Current main baseline: 0.8.0.
 
 The 0.8.0 research prototype adds an explicitly trained predictive-state layer alongside its separate count-based adaptation. Training and held-out evaluation are separated and retained model checkpoints bind later research runs. This is a bounded deterministic research mechanism; general intelligence, autonomous action and human-equivalent cognition are not established.
 
-Material limitations: Research mechanisms do not establish consciousness or general intelligence. Ordinary execution does not grant external action authority.
-
-Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
+Documentation checked: 17 October 2026. The main source is unchanged from the preceding directory review. Existing product qualification retains its source and execution date; tests were not rerun for this project.
 
 ## Commercial reference
 
@@ -48,17 +46,13 @@ Seller asking reference: EUR 85,000.
 
 Seller-estimated recreation cost: EUR 690,000.
 
-All 105 project financial references were reviewed on 16 October 2026 against current documentation, retained seller assessments and the disclosed method/rate sources. Nine implemented increments have revised individual references; this project is one of them. Final delivery, consideration and taxes are agreed separately.
-
-Seller-estimated engineering-equivalent cost to recreate comparable present work. This is a build-versus-buy reference, not actual historical expenditure, a contractor quotation, certified market value or guaranteed buyer saving.
+All 108 project source and financial-reference decisions were reviewed on 17 October 2026. Three new project estimates and two implementation increments are separately disclosed; 103 preceding individual amounts are retained. Market value remains undetermined. Final scope, consideration and taxes require separate agreement.
 
 ## Individual financial-reference review
 
-Development reviewed 16 October 2026: 0.8.0 (default-branch snapshot). Retained base EUR 650,000 plus separately estimated new work EUR 40,000 gives EUR 690,000. The new increment has a disclosed work budget; the older base remains a legacy seller assumption. No independent market-value increase is established.
+Financial-reference review: 17 October 2026. Current main source and existing development heads reviewed. The priced scope and disclosed cost assumptions are unchanged; existing cost/asking references are retained. Market value remains NOT_ESTABLISHED. Original financial-reference date: 2026-10-12.
 
-Adds an explicitly trained predictive-state layer, held-out evaluation separation and checkpoint-bound research runs beyond the earlier count-based adaptation.
-
-General intelligence, human equivalence, open-world performance, autonomous operation and new commercial demand are not established or priced.
+Comparable-sale valuation, project-income valuation and independent appraisal are NOT_ESTABLISHED. WIPO and contractor-rate publishers provide method/rate context; source-specific effort and seller asking choices are assumptions.
 
 ## Transaction scope
 
@@ -80,10 +74,13 @@ Separately scoped or excluded:
 
 ## Source basis
 
-- TA-IP-020-P: reviewed product overview and current main/development boundary, 16 October 2026.
-- TA-IP-020-C: full financial-reference review, 16 October 2026; original reference date 2026-10-12.
-- TA-IP-020-A: retained seller assessment, 2026-10-12.
+- TA-IP-020-P: source-frozen product documentation, 17 October 2026.
+- TA-IP-020-C: individual cost/reference decision, 17 October 2026.
+- TA-IP-020-A: seller handover review, 2026-10-12.
+
+The main source is unchanged from the preceding directory review. Existing product qualification retains its source and execution date; tests were not rerun for this project.
 
 ## Acquisition enquiry
 
 State this asset title and reference, your intended use and requested delivery perimeter. Agree controlled review and final written terms with the seller through the channel that supplied this package.
+

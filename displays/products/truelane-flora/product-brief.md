@@ -2,7 +2,7 @@
 
 TA-IP-008 | Reference alias: Florence | Specialist Vertical Software
 
-Buyer-facing edition: 16 October 2026
+Buyer-facing edition: 17 October 2026
 
 Assess plants against site conditions, manage versioned planting plans and compare the evidence behind retained assessment results.
 
@@ -38,11 +38,7 @@ Current main baseline: Retained assessment-comparison build.
 
 The current source provides bounded multi-species site assessment, owner-scoped projects, sites and zones, versioned plan scenarios, retained assessment exports and read-only scenario comparison. The comparison report records 112 Go tests, seven Python regressions and 376 file-runtime checks. Earlier native PostgreSQL evidence applies to earlier retained-evidence source; the new comparison backend still needs its own native qualification. Regional data, live weather and deployment acceptance remain separate.
 
-Material limitations: Botanical and spatial data coverage, real weather behavior and horticultural field accuracy need region-specific acceptance. The new comparison route is not covered by the earlier native database campaign.
-
-Next qualification step: Run the exact comparison build against native PostgreSQL, then qualify regional botanical/spatial data, authorized weather behavior and the intended deployment.
-
-Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
+Documentation checked: 17 October 2026. The main source is unchanged from the preceding directory review. Existing product qualification retains its source and execution date; tests were not rerun for this project.
 
 ## Commercial reference
 
@@ -50,17 +46,13 @@ Seller asking reference: EUR 300,000.
 
 Seller-estimated recreation cost: EUR 1,000,000.
 
-All 105 project financial references were reviewed on 16 October 2026 against current documentation, retained seller assessments and the disclosed method/rate sources. Nine implemented increments have revised individual references; this project is one of them. Final delivery, consideration and taxes are agreed separately.
-
-Seller-estimated engineering-equivalent cost to recreate comparable present work. This is a build-versus-buy reference, not actual historical expenditure, a contractor quotation, certified market value or guaranteed buyer saving.
+All 108 project source and financial-reference decisions were reviewed on 17 October 2026. Three new project estimates and two implementation increments are separately disclosed; 103 preceding individual amounts are retained. Market value remains undetermined. Final scope, consideration and taxes require separate agreement.
 
 ## Individual financial-reference review
 
-Development reviewed 16 October 2026: retained assessment-comparison build (default-branch snapshot). Retained base EUR 900,000 plus separately estimated new work EUR 100,000 gives EUR 1,000,000. The new increment has a disclosed work budget; the older base remains a legacy seller assumption. No independent market-value increase is established.
+Financial-reference review: 17 October 2026. Current main source and existing development heads reviewed. The priced scope and disclosed cost assumptions are unchanged; existing cost/asking references are retained. Market value remains NOT_ESTABLISHED. Original financial-reference date: 2026-10-12.
 
-Adds owner-scoped projects/sites/zones, immutable plan revisions, retained assessment exports and descriptive scenario comparisons. File/path renames and copied fixtures are not counted as additional software.
-
-The newest comparison backend still requires its own native PostgreSQL qualification. Regional coverage, field agronomy, live weather acceptance and production deployment are excluded.
+Comparable-sale valuation, project-income valuation and independent appraisal are NOT_ESTABLISHED. WIPO and contractor-rate publishers provide method/rate context; source-specific effort and seller asking choices are assumptions.
 
 ## Transaction scope
 
@@ -82,10 +74,13 @@ Separately scoped or excluded:
 
 ## Source basis
 
-- TA-IP-008-P: reviewed product overview and current main/development boundary, 16 October 2026.
-- TA-IP-008-C: full financial-reference review, 16 October 2026; original reference date 2026-10-12.
-- TA-IP-008-A: retained seller assessment, 2026-10-12.
+- TA-IP-008-P: source-frozen product documentation, 17 October 2026.
+- TA-IP-008-C: individual cost/reference decision, 17 October 2026.
+- TA-IP-008-A: seller handover review, 2026-10-12.
+
+The main source is unchanged from the preceding directory review. Existing product qualification retains its source and execution date; tests were not rerun for this project.
 
 ## Acquisition enquiry
 
 State this asset title and reference, your intended use and requested delivery perimeter. Agree controlled review and final written terms with the seller through the channel that supplied this package.
+

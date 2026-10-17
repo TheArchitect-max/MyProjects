@@ -1,29 +1,29 @@
 {
-  "v": "2026.10.13-im70-repository-inventory-and-mipp",
+  "v": "2026.10.17-im77-full-review",
   "model": "Recreation-Cost-Anchored Seller Pricing with Reproducible Public Arithmetic",
   "status": "public-seller-side-economic-model",
   "portfolio": {
-    "assetCount": 105,
+    "assetCount": 108,
     "stageCounts": {
       "developedSoftware": 56,
-      "developedPrototype": 46,
+      "developedPrototype": 49,
       "researchStage": 3,
       "definitionStage": 0
     },
-    "sellerAskEUR": 24647500,
-    "negotiationLowEUR": 19689900,
-    "negotiationHighEUR": 30889875,
-    "replacementCostEUR": 105030000,
-    "marketComparableProxyEUR": 119490591,
-    "incomeLicensingProxyEUR": 140635768,
-    "probabilityAdjustedStrategicValueEUR": 131388437,
-    "triangulatedEconomicReferenceEUR": 124268728,
-    "sellerAskAsShareOfTriangulated": 0.1983403258139087,
-    "sellerAskAsShareOfReplacementCost": 0.23467104636770447,
-    "pricedAssetCount": 105,
+    "sellerAskEUR": 24676000,
+    "negotiationLowEUR": 19712400,
+    "negotiationHighEUR": 30926375,
+    "replacementCostEUR": 105130000,
+    "marketComparableProxyEUR": 119584127,
+    "incomeLicensingProxyEUR": 140730706,
+    "probabilityAdjustedStrategicValueEUR": 131458667,
+    "triangulatedEconomicReferenceEUR": 124356004,
+    "sellerAskAsShareOfTriangulated": 0.19843030658978075,
+    "sellerAskAsShareOfReplacementCost": 0.23471891943308285,
+    "pricedAssetCount": 108,
     "unpricedAssetCount": 0,
-    "monetaryScope": "105 independent project references. Nine implemented increments are separately budgeted and repriced; 96 individual amounts are retained. Frozen MARP and EIOP development snapshots are explicitly included without merging. Two publication repositories remain excluded.",
-    "averageTriangulatedEconomicReferencePerPricedAsset": 1183511.6952380952
+    "monetaryScope": "108 independent projects: three new source-bound low-effort estimates, two newly budgeted implementation increments and 103 retained existing price records. Earlier nine incremental budgets remain included once. Market value is not established.",
+    "averageTriangulatedEconomicReferencePerPricedAsset": 1151444.4814814816
   },
   "confidence": {
     "replacementCost": "Primary seller-side build-versus-buy reference estimating the engineering-equivalent cost to recreate comparable present transferable work product. It is a seller estimate, not a certified cost audit or guaranteed buyer saving.",
@@ -44,7 +44,7 @@
     "successorPolicy": "Every catalogue project is treated as its own IP asset with its own first-party rights and transfer perimeter. Monetary estimates are established separately for each asset. Project websites are digital displays only.",
     "boundary": "Only present first-party software, research-software, validation, governance, packaging, documentation and handover work is costed. A definition-stage documentation estimate does not imply implemented software. Future hosting, market execution, speculative outcomes, unexecuted qualification and uncommitted implementation are excluded.",
     "previousBasisDate": "2026-10-10",
-    "assessedAt": "2026-10-13T04:20:04Z",
+    "assessedAt": "2026-10-17T06:30:00Z",
     "workPackageEstimates": [
       {
         "slug": "distributed-ai-resource-fabric",
@@ -507,7 +507,7 @@
     ],
     "estimateBoundary": "Engineer-month budgets are seller-side engineering-equivalent estimates for reproducing delivered work, not recorded payroll, elapsed development time, certified costs or a market appraisal.",
     "latestSeparateAssetPricingAt": "2026-10-09T06:22:41Z",
-    "latestReviewBoundary": "Existing implemented work is separately estimated against explicit earlier and current sources. Elapsed days and version numbers are not pricing multipliers. Role effort, rates, allowance, rounding and seller asking proportions remain assumptions. No independent market-value increase is established. No product tests were rerun by this pricing review.",
+    "latestReviewBoundary": "All 108 projects receive a fresh repository-documentation and financial-reference decision. 103 existing main heads are unchanged; two existing implementations and three new projects are examined in full-byte snapshots. Costs are seller-side reproduction assumptions, not actual spending or established market value. New budgets select an explicit low-effort working scenario; older retained anchors do not thereby become independently verified lower bounds. Current main, unmerged candidates, retained qualification and future objectives remain distinct.",
     "latestIndividualAssetPricingAt": "2026-10-12T00:19:02Z",
     "previousAssessedAt": "2026-10-11T00:24:59Z",
     "supersededWorkPackageEstimates": [
@@ -1110,7 +1110,244 @@
         },
         "boundary": "Analyst engineering-equivalent reproduction assumption, not logged hours, two days of labour invoiced as months, historical expenditure, a buyer quotation or independently established market value."
       }
-    ]
+    ],
+    "conservativeWorkPackageEstimates": [
+      {
+        "ref": "TA-IP-003",
+        "sourceHead": "6f4b028eb34a35c17d9c73a008a14ffc346f6ee7",
+        "pricedVersion": "1.9.1",
+        "sourceScope": "DEFAULT_BRANCH",
+        "economicAssessmentAt": "2026-10-17T06:30:00Z",
+        "scope": "Adds hash-bound evidence custody, guarded local infrastructure qualification, Alibaba/Azure measured-trace adapters, full-trace sensitivity and operational outcome/readiness contracts.",
+        "workPackages": [
+          {
+            "scope": "Evidence custody, guarded infrastructure qualification and benchmark repairs",
+            "lowEffortHours": 64
+          },
+          {
+            "scope": "Alibaba/Azure trace adapters, full coverage and sensitivity tooling",
+            "lowEffortHours": 80
+          },
+          {
+            "scope": "Outcome-label contracts, leakage controls, regression and transfer documentation",
+            "lowEffortHours": 56
+          }
+        ],
+        "assumedHours": 200,
+        "hourlyRateEUR": 94,
+        "rateSource": "KNAB-2026",
+        "rawEngineeringCostEUR": 18800,
+        "coordinationToolingAllowance": 0.15,
+        "withAllowanceEUR": 21620.0,
+        "adoptedRecreationCostEUR": null,
+        "adoptedRecreationIncrementEUR": 21500,
+        "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+        "rounding": "DOWN_TO_EUR_500",
+        "effortAlternatives": {
+          "lowHours": 200,
+          "referenceHours": 300.0,
+          "extendedHours": 400,
+          "lowCostEUR": 21620.0,
+          "referenceCostEUR": 32430.0,
+          "extendedCostEUR": 43240.0
+        },
+        "boundary": "Hours and the 15% allowance are analyst assumptions for bounded reproduction with modern tooling. EUR 94 is a Dutch mean, not a minimum rate or a contractor quote. This is the lowest of the explicitly scoped working scenarios, not an absolute market or cost floor.",
+        "exclusions": [
+          "Measured external workloads remain separate from simulated controller responses. Operational calibration on genuinely labeled outcomes, environment-specific acceptance and production deployment remain open. v1.9.1 is a metadata/transfer patch over the v1.9 functional baseline.",
+          "Previously priced base scope is not counted again.",
+          "Future features, independent certification, physical stock, third-party ownership, hosting and revenue are excluded."
+        ]
+      },
+      {
+        "ref": "TA-IP-025",
+        "sourceHead": "34e0091687497b62162f6c5056c8f503f7f0751c",
+        "pricedVersion": "1.8.0",
+        "sourceScope": "DEFAULT_BRANCH",
+        "economicAssessmentAt": "2026-10-17T06:30:00Z",
+        "scope": "Adds coordinated single-writer runtime, fencing/idempotency controls, transparent scenario decisions and deterministic multi-source telemetry alignment with replayable provenance.",
+        "workPackages": [
+          {
+            "scope": "Single-writer coordination, fencing, runtime and install hardening",
+            "lowEffortHours": 48
+          },
+          {
+            "scope": "Transparent decision layer and heterogeneous telemetry alignment",
+            "lowEffortHours": 64
+          },
+          {
+            "scope": "Replay/provenance, regression checks and transfer documentation",
+            "lowEffortHours": 48
+          }
+        ],
+        "assumedHours": 160,
+        "hourlyRateEUR": 94,
+        "rateSource": "KNAB-2026",
+        "rawEngineeringCostEUR": 15040,
+        "coordinationToolingAllowance": 0.15,
+        "withAllowanceEUR": 17296.0,
+        "adoptedRecreationCostEUR": null,
+        "adoptedRecreationIncrementEUR": 17000,
+        "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+        "rounding": "DOWN_TO_EUR_500",
+        "effortAlternatives": {
+          "lowHours": 160,
+          "referenceHours": 240.0,
+          "extendedHours": 320,
+          "lowCostEUR": 17296.0,
+          "referenceCostEUR": 25944.0,
+          "extendedCostEUR": 34592.0
+        },
+        "boundary": "Hours and the 15% allowance are analyst assumptions for bounded reproduction with modern tooling. EUR 94 is a Dutch mean, not a minimum rate or a contractor quote. This is the lowest of the explicitly scoped working scenarios, not an absolute market or cost floor.",
+        "exclusions": [
+          "The separate v1.8.1 hardening PR is unmerged and excluded from the v1.8.0 cost scope. Domain calibration, physical sensor accuracy and production acceptance remain open.",
+          "Previously priced base scope is not counted again.",
+          "Future features, independent certification, physical stock, third-party ownership, hosting and revenue are excluded."
+        ]
+      },
+      {
+        "ref": "TA-IP-107",
+        "sourceHead": "89ba8b4096062c3f893c692b58e62607dc03b3ea",
+        "pricedVersion": "0.1.0",
+        "sourceScope": "DEFAULT_BRANCH",
+        "economicAssessmentAt": "2026-10-17T06:30:00Z",
+        "scope": "A standard-library property evidence core with hierarchy, observed/declared/inferred records, deterministic low/base/high replacement estimates, condition/risk fields, graph and JSON/CSV exports.",
+        "workPackages": [
+          {
+            "scope": "Property hierarchy, evidence registry and validation contracts",
+            "lowEffortHours": 44
+          },
+          {
+            "scope": "Deterministic replacement-cost, graph, CLI and exports",
+            "lowEffortHours": 40
+          },
+          {
+            "scope": "Synthetic fixtures, regression, documentation and handover",
+            "lowEffortHours": 36
+          }
+        ],
+        "assumedHours": 120,
+        "hourlyRateEUR": 94,
+        "rateSource": "KNAB-2026",
+        "rawEngineeringCostEUR": 11280,
+        "coordinationToolingAllowance": 0.15,
+        "withAllowanceEUR": 12972.0,
+        "adoptedRecreationCostEUR": 12500,
+        "adoptedRecreationIncrementEUR": null,
+        "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+        "rounding": "DOWN_TO_EUR_500",
+        "effortAlternatives": {
+          "lowHours": 120,
+          "referenceHours": 180.0,
+          "extendedHours": 240,
+          "lowCostEUR": 12972.0,
+          "referenceCostEUR": 19458.0,
+          "extendedCostEUR": 25944.0
+        },
+        "boundary": "Hours and the 15% allowance are analyst assumptions for bounded reproduction with modern tooling. EUR 94 is a Dutch mean, not a minimum rate or a contractor quote. This is the lowest of the explicitly scoped working scenarios, not an absolute market or cost floor.",
+        "exclusions": [
+          "No automatic extraction from photographs/video, certified property appraisal, verified insurance value, production integration or real-property accuracy is established. Reference Property 001 is synthetic demonstration evidence.",
+          "Previously priced base scope is not counted again.",
+          "Future features, independent certification, physical stock, third-party ownership, hosting and revenue are excluded."
+        ]
+      },
+      {
+        "ref": "TA-IP-108",
+        "sourceHead": "fc4dcff6141f6817076b6cb8a6e304aa81916f05",
+        "pricedVersion": "0.2.0",
+        "sourceScope": "DEFAULT_BRANCH",
+        "economicAssessmentAt": "2026-10-17T06:30:00Z",
+        "scope": "An independent local 2D Canvas editor with shape/text layers, timeline/keyframes, validated JSON import/export and a typed deterministic visual-effect graph.",
+        "workPackages": [
+          {
+            "scope": "Standalone scene/layer editor, timeline and validated project files",
+            "lowEffortHours": 76
+          },
+          {
+            "scope": "Typed deterministic graph engine and integrated graph editor",
+            "lowEffortHours": 64
+          },
+          {
+            "scope": "Model/graph/server checks, security bounds and delivery documentation",
+            "lowEffortHours": 40
+          }
+        ],
+        "assumedHours": 180,
+        "hourlyRateEUR": 94,
+        "rateSource": "KNAB-2026",
+        "rawEngineeringCostEUR": 16920,
+        "coordinationToolingAllowance": 0.15,
+        "withAllowanceEUR": 19458.0,
+        "adoptedRecreationCostEUR": 19000,
+        "adoptedRecreationIncrementEUR": null,
+        "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+        "rounding": "DOWN_TO_EUR_500",
+        "effortAlternatives": {
+          "lowHours": 180,
+          "referenceHours": 270.0,
+          "extendedHours": 360,
+          "lowCostEUR": 19458.0,
+          "referenceCostEUR": 29187.0,
+          "extendedCostEUR": 38916.0
+        },
+        "boundary": "Hours and the 15% allowance are analyst assumptions for bounded reproduction with modern tooling. EUR 94 is a Dutch mean, not a minimum rate or a contractor quote. This is the lowest of the explicitly scoped working scenarios, not an absolute market or cost floor.",
+        "exclusions": [
+          "R1 is a development alpha. Full browser interaction acceptance, hardware camera checks, genuine 3D, AR/VR/XR, computer vision, physics, AI, video encoding and production packaging remain open. Architectural isolation is mandatory: no integration or shared code with other portfolio projects.",
+          "Previously priced base scope is not counted again.",
+          "Future features, independent certification, physical stock, third-party ownership, hosting and revenue are excluded."
+        ]
+      },
+      {
+        "ref": "TA-IP-109",
+        "sourceHead": "e85adb045292bf83aedcab81f02da3886ce60c12",
+        "pricedVersion": "0.4.0",
+        "sourceScope": "DEFAULT_BRANCH",
+        "economicAssessmentAt": "2026-10-17T06:30:00Z",
+        "scope": "An object-independent local SQLite registry and studio with edition limits, narrative checks, fictional world graph, deterministic replay, keyed checkpoints, evidence custody and verified backup/restore.",
+        "workPackages": [
+          {
+            "scope": "Transactional collectible/edition registry, local API and studio",
+            "lowEffortHours": 88
+          },
+          {
+            "scope": "Narrative continuity, fictional world graph and deterministic replay",
+            "lowEffortHours": 78
+          },
+          {
+            "scope": "Keyed assurance checkpoints, custody, backup and cold recovery",
+            "lowEffortHours": 62
+          },
+          {
+            "scope": "Concurrency/tamper regressions, instructions and handover",
+            "lowEffortHours": 52
+          }
+        ],
+        "assumedHours": 280,
+        "hourlyRateEUR": 94,
+        "rateSource": "KNAB-2026",
+        "rawEngineeringCostEUR": 26320,
+        "coordinationToolingAllowance": 0.15,
+        "withAllowanceEUR": 30268.0,
+        "adoptedRecreationCostEUR": 30000,
+        "adoptedRecreationIncrementEUR": null,
+        "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+        "rounding": "DOWN_TO_EUR_500",
+        "effortAlternatives": {
+          "lowHours": 280,
+          "referenceHours": 420.0,
+          "extendedHours": 560,
+          "lowCostEUR": 30268.0,
+          "referenceCostEUR": 45402.0,
+          "extendedCostEUR": 60536.0
+        },
+        "boundary": "Hours and the 15% allowance are analyst assumptions for bounded reproduction with modern tooling. EUR 94 is a Dutch mean, not a minimum rate or a contractor quote. This is the lowest of the explicitly scoped working scenarios, not an absolute market or cost floor.",
+        "exclusions": [
+          "No public commerce, payments, shipping, production accounts or hosted deployment is delivered. HMAC is keyed local integrity, not independently witnessed ownership or certified provenance. Lithonarra is a separate consumer application/brand; physical stock and fictional content rights are not automatically transferred with the software.",
+          "Previously priced base scope is not counted again.",
+          "Future features, independent certification, physical stock, third-party ownership, hosting and revenue are excluded."
+        ]
+      }
+    ],
+    "lowestCostPolicy": "Cost is distinct from market value. Existing seller asking references are separate transaction choices. New budgets use the lowest explicitly scoped low-effort scenario at EUR 94/hour plus 15%, rounded down to EUR 500. These estimates and retained legacy anchors do not establish an absolute cost floor, a market minimum, actual expenditure, attributable income or a completed sale."
   },
   "factors": {
     "marketPotential": {
@@ -1405,6 +1642,473 @@
     "boundary": "DARF only: current source, retained exact-commit validation, rights, delivery conditions and seller-side economics. The other 96 asset assessments and monetary inputs retain their earlier dates and conclusions; portfolio totals are recomputed."
   },
   "latestFinancialReassessment": {
+    "assessedAt": "2026-10-17T06:30:00Z",
+    "type": "FULL_PORTFOLIO_REEVALUATION",
+    "assetsReassessed": 108,
+    "assetAdditions": 3,
+    "monetaryReferencesChanged": 5,
+    "existingAssetsRepriced": 2,
+    "unchangedAssetPrices": 103,
+    "assets": [
+      {
+        "ref": "TA-IP-003",
+        "slug": "stabilitymesh",
+        "title": "StabilityMesh",
+        "reviewedAt": "2026-10-17T06:30:00Z",
+        "pricedVersion": "1.9.1",
+        "beforeVersion": "1.3.0",
+        "sourceScope": "DEFAULT_BRANCH",
+        "pricedSourceHead": "6f4b028eb34a35c17d9c73a008a14ffc346f6ee7",
+        "comparisonBaselineCommit": "6a6e04b1db4a7c641a1de99671780fc22ccf9aaf",
+        "previousSellerAskEUR": 200000,
+        "currentSellerAskEUR": 205000,
+        "previousReplacementCostEUR": 850000,
+        "currentReplacementCostEUR": 871500,
+        "recreationIncrementEUR": 21500,
+        "askingReferenceChangeEUR": 5000,
+        "finding": "Adds hash-bound evidence custody, guarded local infrastructure qualification, Alibaba/Azure measured-trace adapters, full-trace sensitivity and operational outcome/readiness contracts.",
+        "retainedEvidence": "All 92 Git blobs verified. Eleven repository-native static gates passed, including parsing 61 Python files. Full dependency-based tests and external-data campaigns were not rerun.",
+        "remainingQualification": "Measured external workloads remain separate from simulated controller responses. Operational calibration on genuinely labeled outcomes, environment-specific acceptance and production deployment remain open. v1.9.1 is a metadata/transfer patch over the v1.9 functional baseline.",
+        "budget": {
+          "ref": "TA-IP-003",
+          "sourceHead": "6f4b028eb34a35c17d9c73a008a14ffc346f6ee7",
+          "pricedVersion": "1.9.1",
+          "sourceScope": "DEFAULT_BRANCH",
+          "economicAssessmentAt": "2026-10-17T06:30:00Z",
+          "scope": "Adds hash-bound evidence custody, guarded local infrastructure qualification, Alibaba/Azure measured-trace adapters, full-trace sensitivity and operational outcome/readiness contracts.",
+          "workPackages": [
+            {
+              "scope": "Evidence custody, guarded infrastructure qualification and benchmark repairs",
+              "lowEffortHours": 64
+            },
+            {
+              "scope": "Alibaba/Azure trace adapters, full coverage and sensitivity tooling",
+              "lowEffortHours": 80
+            },
+            {
+              "scope": "Outcome-label contracts, leakage controls, regression and transfer documentation",
+              "lowEffortHours": 56
+            }
+          ],
+          "assumedHours": 200,
+          "hourlyRateEUR": 94,
+          "rateSource": "KNAB-2026",
+          "rawEngineeringCostEUR": 18800,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 21620.0,
+          "adoptedRecreationCostEUR": null,
+          "adoptedRecreationIncrementEUR": 21500,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 200,
+            "referenceHours": 300.0,
+            "extendedHours": 400,
+            "lowCostEUR": 21620.0,
+            "referenceCostEUR": 32430.0,
+            "extendedCostEUR": 43240.0
+          },
+          "boundary": "Hours and the 15% allowance are analyst assumptions for bounded reproduction with modern tooling. EUR 94 is a Dutch mean, not a minimum rate or a contractor quote. This is the lowest of the explicitly scoped working scenarios, not an absolute market or cost floor.",
+          "exclusions": [
+            "Measured external workloads remain separate from simulated controller responses. Operational calibration on genuinely labeled outcomes, environment-specific acceptance and production deployment remain open. v1.9.1 is a metadata/transfer patch over the v1.9 functional baseline.",
+            "Previously priced base scope is not counted again.",
+            "Future features, independent certification, physical stock, third-party ownership, hosting and revenue are excluded."
+          ]
+        },
+        "pricingScope": "Present first-party v1.9.1 software at 6f4b028eb34a35c17d9c73a008a14ffc346f6ee7. Measured external workloads remain separate from simulated controller responses. Operational calibration on genuinely labeled outcomes, environment-specific acceptance and production deployment remain open. v1.9.1 is a metadata/transfer patch over the v1.9 functional baseline.",
+        "decisionNote": "Retained EUR 850,000 base plus EUR 21,500 low-effort implementation increment = EUR 871,500. Seller asking reference EUR 200,000 to EUR 205,000, retaining the earlier asking/cost proportion. Market value remains NOT_ESTABLISHED. Estimated hours are not logged time or expenditure.",
+        "costAssumptionsDocument": "docs/PORTFOLIO_REEVALUATION_2026-10-17.md",
+        "newAsset": false,
+        "priorAskingShareOfRecreation": 0.23529411764705882
+      },
+      {
+        "ref": "TA-IP-025",
+        "slug": "universal-sensor-fusion-digital-twin-intelligence-platform",
+        "title": "Universal Sensor Fusion & Digital Twin Intelligence Platform",
+        "reviewedAt": "2026-10-17T06:30:00Z",
+        "pricedVersion": "1.8.0",
+        "beforeVersion": "1.5.0",
+        "sourceScope": "DEFAULT_BRANCH",
+        "pricedSourceHead": "34e0091687497b62162f6c5056c8f503f7f0751c",
+        "comparisonBaselineCommit": "18bfbb95f3369630f680503de7139cf9ea150bb9",
+        "previousSellerAskEUR": 235000,
+        "currentSellerAskEUR": 240000,
+        "previousReplacementCostEUR": 780000,
+        "currentReplacementCostEUR": 797000,
+        "recreationIncrementEUR": 17000,
+        "askingReferenceChangeEUR": 5000,
+        "finding": "Adds coordinated single-writer runtime, fencing/idempotency controls, transparent scenario decisions and deterministic multi-source telemetry alignment with replayable provenance.",
+        "retainedEvidence": "All 60 Git blobs verified; 73 local Python tests passed on the exact v1.8.0 snapshot. This is software testing, not physical-system or production certification.",
+        "remainingQualification": "The separate v1.8.1 hardening PR is unmerged and excluded from the v1.8.0 cost scope. Domain calibration, physical sensor accuracy and production acceptance remain open.",
+        "budget": {
+          "ref": "TA-IP-025",
+          "sourceHead": "34e0091687497b62162f6c5056c8f503f7f0751c",
+          "pricedVersion": "1.8.0",
+          "sourceScope": "DEFAULT_BRANCH",
+          "economicAssessmentAt": "2026-10-17T06:30:00Z",
+          "scope": "Adds coordinated single-writer runtime, fencing/idempotency controls, transparent scenario decisions and deterministic multi-source telemetry alignment with replayable provenance.",
+          "workPackages": [
+            {
+              "scope": "Single-writer coordination, fencing, runtime and install hardening",
+              "lowEffortHours": 48
+            },
+            {
+              "scope": "Transparent decision layer and heterogeneous telemetry alignment",
+              "lowEffortHours": 64
+            },
+            {
+              "scope": "Replay/provenance, regression checks and transfer documentation",
+              "lowEffortHours": 48
+            }
+          ],
+          "assumedHours": 160,
+          "hourlyRateEUR": 94,
+          "rateSource": "KNAB-2026",
+          "rawEngineeringCostEUR": 15040,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 17296.0,
+          "adoptedRecreationCostEUR": null,
+          "adoptedRecreationIncrementEUR": 17000,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 160,
+            "referenceHours": 240.0,
+            "extendedHours": 320,
+            "lowCostEUR": 17296.0,
+            "referenceCostEUR": 25944.0,
+            "extendedCostEUR": 34592.0
+          },
+          "boundary": "Hours and the 15% allowance are analyst assumptions for bounded reproduction with modern tooling. EUR 94 is a Dutch mean, not a minimum rate or a contractor quote. This is the lowest of the explicitly scoped working scenarios, not an absolute market or cost floor.",
+          "exclusions": [
+            "The separate v1.8.1 hardening PR is unmerged and excluded from the v1.8.0 cost scope. Domain calibration, physical sensor accuracy and production acceptance remain open.",
+            "Previously priced base scope is not counted again.",
+            "Future features, independent certification, physical stock, third-party ownership, hosting and revenue are excluded."
+          ]
+        },
+        "pricingScope": "Present first-party v1.8.0 software at 34e0091687497b62162f6c5056c8f503f7f0751c. The separate v1.8.1 hardening PR is unmerged and excluded from the v1.8.0 cost scope. Domain calibration, physical sensor accuracy and production acceptance remain open.",
+        "decisionNote": "Retained EUR 780,000 base plus EUR 17,000 low-effort implementation increment = EUR 797,000. Seller asking reference EUR 235,000 to EUR 240,000, retaining the earlier asking/cost proportion. Market value remains NOT_ESTABLISHED. Estimated hours are not logged time or expenditure.",
+        "costAssumptionsDocument": "docs/PORTFOLIO_REEVALUATION_2026-10-17.md",
+        "newAsset": false,
+        "priorAskingShareOfRecreation": 0.30128205128205127
+      },
+      {
+        "ref": "TA-IP-107",
+        "slug": "universal-property-intelligence-platform",
+        "title": "Universal Property Intelligence Platform",
+        "reviewedAt": "2026-10-17T06:30:00Z",
+        "pricedVersion": "0.1.0",
+        "beforeVersion": null,
+        "sourceScope": "DEFAULT_BRANCH",
+        "pricedSourceHead": "89ba8b4096062c3f893c692b58e62607dc03b3ea",
+        "comparisonBaselineCommit": null,
+        "previousSellerAskEUR": null,
+        "currentSellerAskEUR": 4000,
+        "previousReplacementCostEUR": null,
+        "currentReplacementCostEUR": 12500,
+        "recreationIncrementEUR": 12500,
+        "askingReferenceChangeEUR": 4000,
+        "finding": "A standard-library property evidence core with hierarchy, observed/declared/inferred records, deterministic low/base/high replacement estimates, condition/risk fields, graph and JSON/CSV exports.",
+        "retainedEvidence": "All 30 Git blobs verified; all 7 local Python tests passed on the exact v0.1.0 snapshot.",
+        "remainingQualification": "No automatic extraction from photographs/video, certified property appraisal, verified insurance value, production integration or real-property accuracy is established. Reference Property 001 is synthetic demonstration evidence.",
+        "budget": {
+          "ref": "TA-IP-107",
+          "sourceHead": "89ba8b4096062c3f893c692b58e62607dc03b3ea",
+          "pricedVersion": "0.1.0",
+          "sourceScope": "DEFAULT_BRANCH",
+          "economicAssessmentAt": "2026-10-17T06:30:00Z",
+          "scope": "A standard-library property evidence core with hierarchy, observed/declared/inferred records, deterministic low/base/high replacement estimates, condition/risk fields, graph and JSON/CSV exports.",
+          "workPackages": [
+            {
+              "scope": "Property hierarchy, evidence registry and validation contracts",
+              "lowEffortHours": 44
+            },
+            {
+              "scope": "Deterministic replacement-cost, graph, CLI and exports",
+              "lowEffortHours": 40
+            },
+            {
+              "scope": "Synthetic fixtures, regression, documentation and handover",
+              "lowEffortHours": 36
+            }
+          ],
+          "assumedHours": 120,
+          "hourlyRateEUR": 94,
+          "rateSource": "KNAB-2026",
+          "rawEngineeringCostEUR": 11280,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 12972.0,
+          "adoptedRecreationCostEUR": 12500,
+          "adoptedRecreationIncrementEUR": null,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 120,
+            "referenceHours": 180.0,
+            "extendedHours": 240,
+            "lowCostEUR": 12972.0,
+            "referenceCostEUR": 19458.0,
+            "extendedCostEUR": 25944.0
+          },
+          "boundary": "Hours and the 15% allowance are analyst assumptions for bounded reproduction with modern tooling. EUR 94 is a Dutch mean, not a minimum rate or a contractor quote. This is the lowest of the explicitly scoped working scenarios, not an absolute market or cost floor.",
+          "exclusions": [
+            "No automatic extraction from photographs/video, certified property appraisal, verified insurance value, production integration or real-property accuracy is established. Reference Property 001 is synthetic demonstration evidence.",
+            "Previously priced base scope is not counted again.",
+            "Future features, independent certification, physical stock, third-party ownership, hosting and revenue are excluded."
+          ]
+        },
+        "pricingScope": "Present first-party v0.1.0 software at 89ba8b4096062c3f893c692b58e62607dc03b3ea. No automatic extraction from photographs/video, certified property appraisal, verified insurance value, production integration or real-property accuracy is established. Reference Property 001 is synthetic demonstration evidence.",
+        "decisionNote": "New present-source low-effort recreation reference EUR 12,500; seller asking choice EUR 4,000. Market value remains NOT_ESTABLISHED. Estimated hours are not logged time or expenditure.",
+        "costAssumptionsDocument": "docs/PORTFOLIO_REEVALUATION_2026-10-17.md",
+        "newAsset": true,
+        "priorAskingShareOfRecreation": 0.3
+      },
+      {
+        "ref": "TA-IP-108",
+        "slug": "visual-effects-spatial-computing-platform",
+        "title": "Visual-Effects-Spatial-Computing-Platform",
+        "reviewedAt": "2026-10-17T06:30:00Z",
+        "pricedVersion": "0.2.0",
+        "beforeVersion": null,
+        "sourceScope": "DEFAULT_BRANCH",
+        "pricedSourceHead": "fc4dcff6141f6817076b6cb8a6e304aa81916f05",
+        "comparisonBaselineCommit": null,
+        "previousSellerAskEUR": null,
+        "currentSellerAskEUR": 5500,
+        "previousReplacementCostEUR": null,
+        "currentReplacementCostEUR": 19000,
+        "recreationIncrementEUR": 19000,
+        "askingReferenceChangeEUR": 5500,
+        "finding": "An independent local 2D Canvas editor with shape/text layers, timeline/keyframes, validated JSON import/export and a typed deterministic visual-effect graph.",
+        "retainedEvidence": "All 24 Git blobs verified; 24 JavaScript model/graph tests and 5 Python policy/server tests passed. Browser GUI/device acceptance was not rerun.",
+        "remainingQualification": "R1 is a development alpha. Full browser interaction acceptance, hardware camera checks, genuine 3D, AR/VR/XR, computer vision, physics, AI, video encoding and production packaging remain open. Architectural isolation is mandatory: no integration or shared code with other portfolio projects.",
+        "budget": {
+          "ref": "TA-IP-108",
+          "sourceHead": "fc4dcff6141f6817076b6cb8a6e304aa81916f05",
+          "pricedVersion": "0.2.0",
+          "sourceScope": "DEFAULT_BRANCH",
+          "economicAssessmentAt": "2026-10-17T06:30:00Z",
+          "scope": "An independent local 2D Canvas editor with shape/text layers, timeline/keyframes, validated JSON import/export and a typed deterministic visual-effect graph.",
+          "workPackages": [
+            {
+              "scope": "Standalone scene/layer editor, timeline and validated project files",
+              "lowEffortHours": 76
+            },
+            {
+              "scope": "Typed deterministic graph engine and integrated graph editor",
+              "lowEffortHours": 64
+            },
+            {
+              "scope": "Model/graph/server checks, security bounds and delivery documentation",
+              "lowEffortHours": 40
+            }
+          ],
+          "assumedHours": 180,
+          "hourlyRateEUR": 94,
+          "rateSource": "KNAB-2026",
+          "rawEngineeringCostEUR": 16920,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 19458.0,
+          "adoptedRecreationCostEUR": 19000,
+          "adoptedRecreationIncrementEUR": null,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 180,
+            "referenceHours": 270.0,
+            "extendedHours": 360,
+            "lowCostEUR": 19458.0,
+            "referenceCostEUR": 29187.0,
+            "extendedCostEUR": 38916.0
+          },
+          "boundary": "Hours and the 15% allowance are analyst assumptions for bounded reproduction with modern tooling. EUR 94 is a Dutch mean, not a minimum rate or a contractor quote. This is the lowest of the explicitly scoped working scenarios, not an absolute market or cost floor.",
+          "exclusions": [
+            "R1 is a development alpha. Full browser interaction acceptance, hardware camera checks, genuine 3D, AR/VR/XR, computer vision, physics, AI, video encoding and production packaging remain open. Architectural isolation is mandatory: no integration or shared code with other portfolio projects.",
+            "Previously priced base scope is not counted again.",
+            "Future features, independent certification, physical stock, third-party ownership, hosting and revenue are excluded."
+          ]
+        },
+        "pricingScope": "Present first-party v0.2.0 software at fc4dcff6141f6817076b6cb8a6e304aa81916f05. R1 is a development alpha. Full browser interaction acceptance, hardware camera checks, genuine 3D, AR/VR/XR, computer vision, physics, AI, video encoding and production packaging remain open. Architectural isolation is mandatory: no integration or shared code with other portfolio projects.",
+        "decisionNote": "New present-source low-effort recreation reference EUR 19,000; seller asking choice EUR 5,500. Market value remains NOT_ESTABLISHED. Estimated hours are not logged time or expenditure.",
+        "costAssumptionsDocument": "docs/PORTFOLIO_REEVALUATION_2026-10-17.md",
+        "newAsset": true,
+        "priorAskingShareOfRecreation": 0.3
+      },
+      {
+        "ref": "TA-IP-109",
+        "slug": "narrative-collectibles-platform",
+        "title": "Narrative Collectibles Platform",
+        "reviewedAt": "2026-10-17T06:30:00Z",
+        "pricedVersion": "0.4.0",
+        "beforeVersion": null,
+        "sourceScope": "DEFAULT_BRANCH",
+        "pricedSourceHead": "e85adb045292bf83aedcab81f02da3886ce60c12",
+        "comparisonBaselineCommit": null,
+        "previousSellerAskEUR": null,
+        "currentSellerAskEUR": 9000,
+        "previousReplacementCostEUR": null,
+        "currentReplacementCostEUR": 30000,
+        "recreationIncrementEUR": 30000,
+        "askingReferenceChangeEUR": 9000,
+        "finding": "An object-independent local SQLite registry and studio with edition limits, narrative checks, fictional world graph, deterministic replay, keyed checkpoints, evidence custody and verified backup/restore.",
+        "retainedEvidence": "All 40 Git blobs verified; all 84 local Python tests passed on the exact R3/v0.4.0 snapshot, including concurrency, tamper rejection and recovery cases.",
+        "remainingQualification": "No public commerce, payments, shipping, production accounts or hosted deployment is delivered. HMAC is keyed local integrity, not independently witnessed ownership or certified provenance. Lithonarra is a separate consumer application/brand; physical stock and fictional content rights are not automatically transferred with the software.",
+        "budget": {
+          "ref": "TA-IP-109",
+          "sourceHead": "e85adb045292bf83aedcab81f02da3886ce60c12",
+          "pricedVersion": "0.4.0",
+          "sourceScope": "DEFAULT_BRANCH",
+          "economicAssessmentAt": "2026-10-17T06:30:00Z",
+          "scope": "An object-independent local SQLite registry and studio with edition limits, narrative checks, fictional world graph, deterministic replay, keyed checkpoints, evidence custody and verified backup/restore.",
+          "workPackages": [
+            {
+              "scope": "Transactional collectible/edition registry, local API and studio",
+              "lowEffortHours": 88
+            },
+            {
+              "scope": "Narrative continuity, fictional world graph and deterministic replay",
+              "lowEffortHours": 78
+            },
+            {
+              "scope": "Keyed assurance checkpoints, custody, backup and cold recovery",
+              "lowEffortHours": 62
+            },
+            {
+              "scope": "Concurrency/tamper regressions, instructions and handover",
+              "lowEffortHours": 52
+            }
+          ],
+          "assumedHours": 280,
+          "hourlyRateEUR": 94,
+          "rateSource": "KNAB-2026",
+          "rawEngineeringCostEUR": 26320,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 30268.0,
+          "adoptedRecreationCostEUR": 30000,
+          "adoptedRecreationIncrementEUR": null,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 280,
+            "referenceHours": 420.0,
+            "extendedHours": 560,
+            "lowCostEUR": 30268.0,
+            "referenceCostEUR": 45402.0,
+            "extendedCostEUR": 60536.0
+          },
+          "boundary": "Hours and the 15% allowance are analyst assumptions for bounded reproduction with modern tooling. EUR 94 is a Dutch mean, not a minimum rate or a contractor quote. This is the lowest of the explicitly scoped working scenarios, not an absolute market or cost floor.",
+          "exclusions": [
+            "No public commerce, payments, shipping, production accounts or hosted deployment is delivered. HMAC is keyed local integrity, not independently witnessed ownership or certified provenance. Lithonarra is a separate consumer application/brand; physical stock and fictional content rights are not automatically transferred with the software.",
+            "Previously priced base scope is not counted again.",
+            "Future features, independent certification, physical stock, third-party ownership, hosting and revenue are excluded."
+          ]
+        },
+        "pricingScope": "Present first-party v0.4.0 software at e85adb045292bf83aedcab81f02da3886ce60c12. No public commerce, payments, shipping, production accounts or hosted deployment is delivered. HMAC is keyed local integrity, not independently witnessed ownership or certified provenance. Lithonarra is a separate consumer application/brand; physical stock and fictional content rights are not automatically transferred with the software.",
+        "decisionNote": "New present-source low-effort recreation reference EUR 30,000; seller asking choice EUR 9,000. Market value remains NOT_ESTABLISHED. Estimated hours are not logged time or expenditure.",
+        "costAssumptionsDocument": "docs/PORTFOLIO_REEVALUATION_2026-10-17.md",
+        "newAsset": true,
+        "priorAskingShareOfRecreation": 0.3
+      }
+    ],
+    "previousPortfolio": {
+      "assetCount": 105,
+      "stageCounts": {
+        "developedSoftware": 56,
+        "developedPrototype": 46,
+        "researchStage": 3,
+        "definitionStage": 0
+      },
+      "sellerAskEUR": 24647500,
+      "negotiationLowEUR": 19689900,
+      "negotiationHighEUR": 30889875,
+      "replacementCostEUR": 105030000,
+      "marketComparableProxyEUR": 119490591,
+      "incomeLicensingProxyEUR": 140635768,
+      "probabilityAdjustedStrategicValueEUR": 131388437,
+      "triangulatedEconomicReferenceEUR": 124268728,
+      "sellerAskAsShareOfTriangulated": 0.1983403258139087,
+      "sellerAskAsShareOfReplacementCost": 0.23467104636770447,
+      "pricedAssetCount": 105,
+      "unpricedAssetCount": 0,
+      "monetaryScope": "105 independent project references. Nine implemented increments are separately budgeted and repriced; 96 individual amounts are retained. Frozen MARP and EIOP development snapshots are explicitly included without merging. Two publication repositories remain excluded.",
+      "averageTriangulatedEconomicReferencePerPricedAsset": 1183511.6952380952
+    },
+    "currentPortfolio": {
+      "assetCount": 108,
+      "stageCounts": {
+        "developedSoftware": 56,
+        "developedPrototype": 49,
+        "researchStage": 3,
+        "definitionStage": 0
+      },
+      "sellerAskEUR": 24676000,
+      "negotiationLowEUR": 19712400,
+      "negotiationHighEUR": 30926375,
+      "replacementCostEUR": 105130000,
+      "marketComparableProxyEUR": 119584127,
+      "incomeLicensingProxyEUR": 140730706,
+      "probabilityAdjustedStrategicValueEUR": 131458667,
+      "triangulatedEconomicReferenceEUR": 124356004,
+      "sellerAskAsShareOfTriangulated": 0.19843030658978075,
+      "sellerAskAsShareOfReplacementCost": 0.23471891943308285,
+      "pricedAssetCount": 108,
+      "unpricedAssetCount": 0,
+      "monetaryScope": "108 independent projects: three new source-bound low-effort estimates, two newly budgeted implementation increments and 103 retained existing price records. Earlier nine incremental budgets remain included once. Market value is not established.",
+      "averageTriangulatedEconomicReferencePerPricedAsset": 1151444.4814814816
+    },
+    "sourceRegister": "assets/valuation-sources.json",
+    "costAssumptionsDocument": "docs/PORTFOLIO_REEVALUATION_2026-10-17.md",
+    "recreationIncrementEUR": 100000,
+    "askingReferenceChangeEUR": 28500,
+    "boundary": "All 108 projects receive a fresh repository-documentation and financial-reference decision. 103 existing main heads are unchanged; two existing implementations and three new projects are examined in full-byte snapshots. Costs are seller-side reproduction assumptions, not actual spending or established market value. New budgets select an explicit low-effort working scenario; older retained anchors do not thereby become independently verified lower bounds. Current main, unmerged candidates, retained qualification and future objectives remain distinct."
+  },
+  "catalogueUpdatedAt": "2026-10-17T06:30:00Z",
+  "latestIdentityUpdate": {
+    "assessedAt": "2026-10-12T09:21:42Z",
+    "type": "FOUR_SOFTWARE_ADDITIONS_AND_ONE_CONFIRMED_REPOSITORY_RENAME",
+    "previousAssetCount": 100,
+    "currentAssetCount": 104,
+    "otherAssetRecordsRetained": 100,
+    "identifiersReassigned": false,
+    "additions": [
+      {
+        "ref": "TA-IP-102",
+        "title": "Universal Remote Perception Intelligence Platform",
+        "referenceAlias": "Pallas",
+        "repository": "Universal-Remote-Perception-Intelligence-Platform",
+        "sourceHead": "4431fda60af9bd21b90a80df0c4ff21c28769215"
+      },
+      {
+        "ref": "TA-IP-103",
+        "title": "Universal Operations Orchestration & Intelligence Platform",
+        "referenceAlias": "Diana",
+        "repository": "Universal-Operations-Orchestration-Intelligence-Platform",
+        "sourceHead": "2804045108ced5760f1d8db0452d64c54988237e"
+      },
+      {
+        "ref": "TA-IP-104",
+        "title": "Collective Reality Engine",
+        "referenceAlias": "Calliope",
+        "repository": "Collective-Reality-Engine-CRE---Universal-Shared-World-Intelligence-Platform",
+        "sourceHead": "1b6abb67b404a5169875ed260324b1f4642c8e0e"
+      },
+      {
+        "ref": "TA-IP-105",
+        "title": "Mission-to-Execution Engineering Framework",
+        "referenceAlias": "Hestia",
+        "repository": "Mission-to-Execution-Engineering-Framework",
+        "sourceHead": "ee27964574e2a9d0d5d86eb28500337a5800f0ac"
+      }
+    ],
+    "repositoryRename": {
+      "ref": "TA-IP-101",
+      "repository": "Universal-Video-Intelligence-Platform",
+      "sameRepositoryId": true,
+      "newAsset": false
+    },
+    "boundary": "Each new software project is counted once. The confirmed repository rename retains its existing project identifier and reference alias. Withdrawn identifiers are not reused."
+  },
+  "previousFinancialReassessment": {
     "assessedAt": "2026-10-16T07:49:40Z",
     "type": "TARGETED_IMPLEMENTED_INCREMENT_REVIEW",
     "assetsReassessed": 13,
@@ -2185,132 +2889,6 @@
     ],
     "boundary": "Existing implemented work is separately estimated against explicit earlier and current sources. Elapsed days and version numbers are not pricing multipliers. Role effort, rates, allowance, rounding and seller asking proportions remain assumptions. No independent market-value increase is established. No product tests were rerun by this pricing review."
   },
-  "catalogueUpdatedAt": "2026-10-16T07:49:40Z",
-  "latestIdentityUpdate": {
-    "assessedAt": "2026-10-12T09:21:42Z",
-    "type": "FOUR_SOFTWARE_ADDITIONS_AND_ONE_CONFIRMED_REPOSITORY_RENAME",
-    "previousAssetCount": 100,
-    "currentAssetCount": 104,
-    "otherAssetRecordsRetained": 100,
-    "identifiersReassigned": false,
-    "additions": [
-      {
-        "ref": "TA-IP-102",
-        "title": "Universal Remote Perception Intelligence Platform",
-        "referenceAlias": "Pallas",
-        "repository": "Universal-Remote-Perception-Intelligence-Platform",
-        "sourceHead": "4431fda60af9bd21b90a80df0c4ff21c28769215"
-      },
-      {
-        "ref": "TA-IP-103",
-        "title": "Universal Operations Orchestration & Intelligence Platform",
-        "referenceAlias": "Diana",
-        "repository": "Universal-Operations-Orchestration-Intelligence-Platform",
-        "sourceHead": "2804045108ced5760f1d8db0452d64c54988237e"
-      },
-      {
-        "ref": "TA-IP-104",
-        "title": "Collective Reality Engine",
-        "referenceAlias": "Calliope",
-        "repository": "Collective-Reality-Engine-CRE---Universal-Shared-World-Intelligence-Platform",
-        "sourceHead": "1b6abb67b404a5169875ed260324b1f4642c8e0e"
-      },
-      {
-        "ref": "TA-IP-105",
-        "title": "Mission-to-Execution Engineering Framework",
-        "referenceAlias": "Hestia",
-        "repository": "Mission-to-Execution-Engineering-Framework",
-        "sourceHead": "ee27964574e2a9d0d5d86eb28500337a5800f0ac"
-      }
-    ],
-    "repositoryRename": {
-      "ref": "TA-IP-101",
-      "repository": "Universal-Video-Intelligence-Platform",
-      "sameRepositoryId": true,
-      "newAsset": false
-    },
-    "boundary": "Each new software project is counted once. The confirmed repository rename retains its existing project identifier and reference alias. Withdrawn identifiers are not reused."
-  },
-  "previousFinancialReassessment": {
-    "assessedAt": "2026-10-16T07:06:02Z",
-    "type": "FULL_PORTFOLIO_MULTISOURCE_REVIEW",
-    "assetsReassessed": 105,
-    "monetaryReferencesChanged": 0,
-    "assetAdditions": 0,
-    "unchangedAssetPrices": 105,
-    "otherAssetRecordsRetained": 0,
-    "unchangedCommercialFactors": true,
-    "softwareMaturityChanged": 0,
-    "assets": [],
-    "previousPortfolio": {
-      "assetCount": 105,
-      "stageCounts": {
-        "developedSoftware": 56,
-        "developedPrototype": 46,
-        "researchStage": 3,
-        "definitionStage": 0
-      },
-      "sellerAskEUR": 24501500,
-      "negotiationLowEUR": 19573900,
-      "negotiationHighEUR": 30706375,
-      "replacementCostEUR": 104385000,
-      "marketComparableProxyEUR": 118772121,
-      "incomeLicensingProxyEUR": 139803493,
-      "probabilityAdjustedStrategicValueEUR": 130640104,
-      "triangulatedEconomicReferenceEUR": 123535413,
-      "sellerAskAsShareOfTriangulated": 0.19833584075199553,
-      "sellerAskAsShareOfReplacementCost": 0.23472242180389902,
-      "pricedAssetCount": 105,
-      "unpricedAssetCount": 0,
-      "monetaryScope": "105 independent software IP assets. MIPP has a first separate v0.1 present-source estimate; all 104 preceding individual prices and cost estimates are unchanged. Thirteen publication repositories are excluded.",
-      "averageTriangulatedEconomicReferencePerPricedAsset": 1176527.7428571428
-    },
-    "currentPortfolio": {
-      "assetCount": 105,
-      "stageCounts": {
-        "developedSoftware": 56,
-        "developedPrototype": 46,
-        "researchStage": 3,
-        "definitionStage": 0
-      },
-      "sellerAskEUR": 24501500,
-      "negotiationLowEUR": 19573900,
-      "negotiationHighEUR": 30706375,
-      "replacementCostEUR": 104385000,
-      "marketComparableProxyEUR": 118772121,
-      "incomeLicensingProxyEUR": 139803493,
-      "probabilityAdjustedStrategicValueEUR": 130640104,
-      "triangulatedEconomicReferenceEUR": 123535413,
-      "sellerAskAsShareOfTriangulated": 0.19833584075199553,
-      "sellerAskAsShareOfReplacementCost": 0.23472242180389902,
-      "pricedAssetCount": 105,
-      "unpricedAssetCount": 0,
-      "monetaryScope": "105 independent project references, reviewed individually on 16 October 2026. Seller asks and cost anchors retained; two publication repositories excluded. No independent market or income valuation established.",
-      "averageTriangulatedEconomicReferencePerPricedAsset": 1176527.7428571428
-    },
-    "sourceRegister": "assets/valuation-sources.json",
-    "costAssumptionsDocument": "docs/MULTISOURCE_VALUATION_REVIEW_2026-10-16.md",
-    "summary": {
-      "projectsReviewed": 105,
-      "uniqueProjectReferences": 105,
-      "monetaryReferencesChanged": 0,
-      "askingReferencesRetained": 105,
-      "recreationAnchorsRetained": 105,
-      "costEvidenceCounts": {
-        "LEGACY_COST_REFERENCE_ONLY": 91,
-        "PARTIAL_WORK_PACKAGE_BASIS": 6,
-        "BASE_AND_INCREMENT_BUDGETS_RECONCILE": 8
-      },
-      "projectsWithDisclosedWorkPackages": 14,
-      "marketTransactionValuationsEstablished": 0,
-      "incomeValuationsEstablished": 0,
-      "independentAppraisalsEstablished": 0,
-      "productTestsExecuted": 0,
-      "projectSites": 105,
-      "publicationRepositoriesExcludedFromValuation": 2
-    },
-    "boundary": "Documentary and financial-reference review of all 105 independent projects using the frozen repository documentation, retained qualification/transfer records, disclosed cost assumptions and external method/rate context. No project tests were rerun. No independent market appraisal, comparable sale or project cash-flow valuation is established. All seller asking references, negotiation ranges, recreation anchors and model factors are retained. Current source scope is not automatically included in an older cost budget; a delivery-specific re-estimate remains required."
-  },
   "previousFullSourceReview": {
     "checkedAt": "2026-10-11T07:01:21Z",
     "type": "TWO_NEW_SOFTWARE_ASSETS",
@@ -2438,29 +3016,30 @@
     "boundary": "The owner removed all 12 separately hosted project-display repositories. Current repository presence was checked: 105 project repositories and the MyProjects catalogue remain, 106 repositories in total. No linked project display is currently published in this directory. All 105 software project records, individual prices, rights/transfer criteria and evidence dates are retained. This display-directory update does not claim new source qualification or a financial reassessment."
   },
   "sourceTransparency": {
-    "reviewedAt": "2026-10-16T07:49:40Z",
+    "reviewedAt": "2026-10-17T06:30:00Z",
     "sourceRegister": "assets/valuation-sources.json",
     "summary": {
-      "projectsReviewed": 105,
-      "uniqueProjectReferences": 105,
-      "monetaryReferencesChanged": 9,
-      "askingReferencesRetained": 96,
-      "recreationAnchorsRetained": 96,
+      "projectsReviewed": 108,
+      "uniqueProjectReferences": 108,
+      "monetaryReferencesChanged": 5,
+      "askingReferencesRetained": 103,
+      "recreationAnchorsRetained": 103,
       "costEvidenceCounts": {
-        "INCREMENT_BUDGET_WITH_LEGACY_BASE": 9,
-        "LEGACY_COST_REFERENCE_ONLY": 82,
+        "INCREMENT_BUDGET_WITH_LEGACY_BASE": 11,
+        "LEGACY_COST_REFERENCE_ONLY": 80,
         "PARTIAL_WORK_PACKAGE_BASIS": 6,
-        "BASE_AND_INCREMENT_BUDGETS_RECONCILE": 8
+        "BASE_AND_INCREMENT_BUDGETS_RECONCILE": 11
       },
-      "projectsWithDisclosedWorkPackages": 23,
+      "projectsWithDisclosedWorkPackages": 28,
       "marketTransactionValuationsEstablished": 0,
       "incomeValuationsEstablished": 0,
       "independentAppraisalsEstablished": 0,
-      "productTestsExecuted": 0,
-      "projectSites": 105,
+      "productTestSuitesExecuted": 4,
+      "staticCheckSuitesExecuted": 1,
+      "projectSites": 108,
       "publicationRepositoriesExcludedFromValuation": 2
     },
-    "boundary": "Existing implemented work is separately estimated against explicit earlier and current sources. Elapsed days and version numbers are not pricing multipliers. Role effort, rates, allowance, rounding and seller asking proportions remain assumptions. No independent market-value increase is established. No product tests were rerun by this pricing review."
+    "boundary": "All 108 projects receive a fresh repository-documentation and financial-reference decision. 103 existing main heads are unchanged; two existing implementations and three new projects are examined in full-byte snapshots. Costs are seller-side reproduction assumptions, not actual spending or established market value. New budgets select an explicit low-effort working scenario; older retained anchors do not thereby become independently verified lower bounds. Current main, unmerged candidates, retained qualification and future objectives remain distinct."
   },
   "latestDisplayDirectoryUpdate": {
     "assessedAt": "2026-10-13T05:07:05Z",

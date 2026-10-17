@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.13-im70-repository-inventory-and-mipp",
+  "version": "2026.10.17-im77-full-review",
   "basisDate": "2026-10-13",
   "status": "SELLER_SIDE_RIGHTS_AND_TRANSFER_REGISTER",
   "purpose": "Define what rights and deliverables are offered, what third-party rights are excluded from ownership transfer, and what evidence supports the seller-side rights position.",
@@ -1880,30 +1880,33 @@
       "financialReferencesReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
-      "repository": "Sensor-Fusion-Digital-Twin-Engine",
-      "slug": "sensor-fusion-digital-twin-engine",
+      "repository": "Universal-Sensor-Fusion-Digital-Twin-Intelligence-Platform",
+      "slug": "universal-sensor-fusion-digital-twin-intelligence-platform",
       "identityName": "Artemis",
       "commercialReference": "TA-IP-025",
-      "auditedBaselineCommit": "18bfbb95f3369630f680503de7139cf9ea150bb9",
-      "assessmentDate": "2026-10-12",
+      "auditedBaselineCommit": "34e0091687497b62162f6c5056c8f503f7f0751c",
+      "assessmentDate": "2026-10-17",
       "sourceScope": "DEFAULT_BRANCH",
       "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
       "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
       "repositoryLicenceFiles": [
-        "LICENSE"
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
       ],
       "thirdPartyDisclosureFiles": [
-        "LICENSE"
+        "THIRD_PARTY_NOTICES.md"
       ],
       "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
       "legalChainOfTitleOpinion": "NOT_PERFORMED",
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
-      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
+      "offeredTransferPerimeter": "Present first-party v1.8.0 software at 34e0091687497b62162f6c5056c8f503f7f0751c. The separate v1.8.1 hardening PR is unmerged and excluded from the v1.8.0 cost scope. Domain calibration, physical sensor accuracy and production acceptance remain open.",
       "definitiveAgreementRequired": true,
       "ref": "TA-IP-025",
-      "sourceRecheckedAt": "2026-10-12T09:21:42Z",
-      "financialReferencesReviewedAt": "2026-10-12T09:21:42Z"
+      "sourceRecheckedAt": "2026-10-17T06:30:00Z",
+      "financialReferencesReviewedAt": "2026-10-12T09:21:42Z",
+      "baselineCommit": "34e0091687497b62162f6c5056c8f503f7f0751c",
+      "buyerSpecificLegalReviewRequired": true
     },
     {
       "repository": "Signal-Processing-Universal-Framework",
@@ -2056,26 +2059,29 @@
       "slug": "stabilitymesh",
       "identityName": "Ariadne",
       "commercialReference": "TA-IP-003",
-      "auditedBaselineCommit": "6a6e04b1db4a7c641a1de99671780fc22ccf9aaf",
-      "assessmentDate": "2026-10-12",
+      "auditedBaselineCommit": "6f4b028eb34a35c17d9c73a008a14ffc346f6ee7",
+      "assessmentDate": "2026-10-17",
       "sourceScope": "DEFAULT_BRANCH",
       "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
       "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
       "repositoryLicenceFiles": [
-        "LICENSE"
+        "LICENSE",
+        "docs/THIRD_PARTY_DATA.md"
       ],
       "thirdPartyDisclosureFiles": [
-        "LICENSE"
+        "docs/THIRD_PARTY_DATA.md"
       ],
       "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
       "legalChainOfTitleOpinion": "NOT_PERFORMED",
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "rightsMaturity": "R2",
-      "offeredTransferPerimeter": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
+      "offeredTransferPerimeter": "Present first-party v1.9.1 software at 6f4b028eb34a35c17d9c73a008a14ffc346f6ee7. Measured external workloads remain separate from simulated controller responses. Operational calibration on genuinely labeled outcomes, environment-specific acceptance and production deployment remain open. v1.9.1 is a metadata/transfer patch over the v1.9 functional baseline.",
       "definitiveAgreementRequired": true,
       "ref": "TA-IP-003",
-      "sourceRecheckedAt": "2026-10-12T09:21:42Z",
-      "financialReferencesReviewedAt": "2026-10-12T09:21:42Z"
+      "sourceRecheckedAt": "2026-10-17T06:30:00Z",
+      "financialReferencesReviewedAt": "2026-10-12T09:21:42Z",
+      "baselineCommit": "6f4b028eb34a35c17d9c73a008a14ffc346f6ee7",
+      "buyerSpecificLegalReviewRequired": true
     },
     {
       "repository": "TLS-Virtual-1",
@@ -2911,10 +2917,83 @@
       "rightsMaturity": "R1",
       "offeredTransferPerimeter": "Existing first-party v0.1.0 local manuscript authoring, DOCX assembly, evidence-linked eight-gate/40-stage quality workflow, defect and change controls, explicit author release authorization, read-only dashboard, manual Draft2Digital handoff, tests and documentation at the frozen repository baseline. The embedded author-supplied protocol must have separately agreed use/transfer rights. Author manuscripts, creative archive ownership, author identity/pen-name rights, third-party services and templates, separately staged v0.2–v0.5 application code, automated literary/factual certification, autonomous book generation, live distribution and future SaaS are outside this price.",
       "definitiveAgreementRequired": true
+    },
+    {
+      "ref": "TA-IP-107",
+      "slug": "universal-property-intelligence-platform",
+      "repository": "Universal-Property-Intelligence-Platform",
+      "identityName": "Vesta",
+      "baselineCommit": "89ba8b4096062c3f893c692b58e62607dc03b3ea",
+      "assessmentDate": "2026-10-17",
+      "sourceRecheckedAt": "2026-10-17T06:30:00Z",
+      "commercialReference": "TA-IP-107",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [],
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "sourceScope": "DEFAULT_BRANCH",
+      "buyerSpecificLegalReviewRequired": true,
+      "auditedBaselineCommit": "89ba8b4096062c3f893c692b58e62607dc03b3ea",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "rightsMaturity": "R1",
+      "offeredTransferPerimeter": "Present first-party v0.1.0 software at 89ba8b4096062c3f893c692b58e62607dc03b3ea. No automatic extraction from photographs/video, certified property appraisal, verified insurance value, production integration or real-property accuracy is established. Reference Property 001 is synthetic demonstration evidence.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "ref": "TA-IP-108",
+      "slug": "visual-effects-spatial-computing-platform",
+      "repository": "Visual-Effects-Spatial-Computing-Platform",
+      "identityName": "Asteria",
+      "baselineCommit": "fc4dcff6141f6817076b6cb8a6e304aa81916f05",
+      "assessmentDate": "2026-10-17",
+      "sourceRecheckedAt": "2026-10-17T06:30:00Z",
+      "commercialReference": "TA-IP-108",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [],
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "sourceScope": "DEFAULT_BRANCH",
+      "buyerSpecificLegalReviewRequired": true,
+      "auditedBaselineCommit": "fc4dcff6141f6817076b6cb8a6e304aa81916f05",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "rightsMaturity": "R1",
+      "offeredTransferPerimeter": "Present first-party v0.2.0 software at fc4dcff6141f6817076b6cb8a6e304aa81916f05. R1 is a development alpha. Full browser interaction acceptance, hardware camera checks, genuine 3D, AR/VR/XR, computer vision, physics, AI, video encoding and production packaging remain open. Architectural isolation is mandatory: no integration or shared code with other portfolio projects.",
+      "definitiveAgreementRequired": true
+    },
+    {
+      "ref": "TA-IP-109",
+      "slug": "narrative-collectibles-platform",
+      "repository": "Narrative-Collectibles-Platform",
+      "identityName": "Scheherazade",
+      "baselineCommit": "e85adb045292bf83aedcab81f02da3886ce60c12",
+      "assessmentDate": "2026-10-17",
+      "sourceRecheckedAt": "2026-10-17T06:30:00Z",
+      "commercialReference": "TA-IP-109",
+      "repositoryLicenceFiles": [],
+      "thirdPartyDisclosureFiles": [],
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "sourceScope": "DEFAULT_BRANCH",
+      "buyerSpecificLegalReviewRequired": true,
+      "auditedBaselineCommit": "e85adb045292bf83aedcab81f02da3886ce60c12",
+      "firstPartyRightsPosition": "SELLER_DECLARED_OWNED_OR_CONTROLLED_TO_EXTENT_TRANSFERABLE",
+      "externalHumanCoOwners": "NONE_KNOWN_OR_DISCLOSED_BY_SELLER",
+      "thirdPartyIpTreatment": "EXCLUDED_FROM_SELLER_OWNERSHIP_TRANSFER; GOVERNED_BY_OWN_TERMS",
+      "rightsMaturity": "R1",
+      "offeredTransferPerimeter": "Present first-party v0.4.0 software at e85adb045292bf83aedcab81f02da3886ce60c12. No public commerce, payments, shipping, production accounts or hosted deployment is delivered. HMAC is keyed local integrity, not independently witnessed ownership or certified provenance. Lithonarra is a separate consumer application/brand; physical stock and fictional content rights are not automatically transferred with the software.",
+      "definitiveAgreementRequired": true
     }
   ],
   "assessedAt": "2026-10-13T04:20:04Z",
-  "catalogueUpdatedAt": "2026-10-16T07:49:40Z",
+  "catalogueUpdatedAt": "2026-10-17T06:30:00Z",
   "previousTargetedAssetReview": {
     "slug": "distributed-ai-resource-fabric",
     "ref": "TA-IP-022",

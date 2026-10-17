@@ -2,7 +2,7 @@
 
 TA-IP-101 | Reference alias: Ophelia | Audio & Media Creation
 
-Buyer-facing edition: 14 October 2026
+Buyer-facing edition: 17 October 2026
 
 Control your video viewing, keep and recover your own timecoded research notes, and turn reviewed observations into source-linked project investigations.
 
@@ -41,11 +41,7 @@ Separate development: 0.9.9 / R31 — offline keyboard checks; live shortcut acc
 
 Main remains 0.9.8. The unmerged 0.9.9 candidate records source-specific R30 live acceptance in official Chrome and Edge, followed by R31 opt-in quick keyboard access. The R31 Windows offline record reports 310 Node passes, two symlink-related skips, eight keyboard tests passed and 84 R30 Python regressions passed. Actual R31 shortcut acceptance in both browsers remains pending; prior browser passes do not qualify the new feature.
 
-Material limitations: The R31 keyboard change still needs real Chrome and Edge shortcut acceptance. Security, privacy, accessibility, performance and crash/disk durability retain their open gates.
-
-Next qualification step: Validate the R31 shortcut in actual Windows Chrome and Edge, then complete the remaining accessibility, privacy/security, performance and durability gates.
-
-Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
+Documentation checked: 17 October 2026. The main source is unchanged from the preceding directory review. Existing product qualification retains its source and execution date; tests were not rerun for this project.
 
 ## Commercial reference
 
@@ -53,15 +49,13 @@ Seller asking reference: EUR 36,000.
 
 Seller-estimated recreation cost: EUR 120,000.
 
-All 105 project financial references were reviewed on 16 October 2026 against current documentation, retained seller assessments and the disclosed method/rate sources. Individual asking references and recreation anchors remain unchanged. Final delivery, consideration and taxes are agreed separately.
-
-Seller-estimated engineering-equivalent cost to recreate comparable present work. This is a build-versus-buy reference, not actual historical expenditure, a contractor quotation, certified market value or guaranteed buyer saving.
+All 108 project source and financial-reference decisions were reviewed on 17 October 2026. Three new project estimates and two implementation increments are separately disclosed; 103 preceding individual amounts are retained. Market value remains undetermined. Final scope, consideration and taxes require separate agreement.
 
 ## Individual financial-reference review
 
-Financial-reference review: 16 October 2026. Partial work-package assumptions; complete cost anchor not reconstructed. Original financial-reference date: 2026-10-12. Seller ask and recreation anchor are retained. Current documentation does not automatically expand the priced delivery; a delivery-specific re-estimate remains required.
+Financial-reference review: 17 October 2026. Current main source and existing development heads reviewed. The priced scope and disclosed cost assumptions are unchanged; existing cost/asking references are retained. Market value remains NOT_ESTABLISHED. Original financial-reference date: 2026-10-12.
 
-Comparable-sale valuation, project-income valuation and independent appraisal are NOT_ESTABLISHED. WIPO, Knab and the limited Upwork source provide method/rate context. Their information is not a project appraisal.
+Comparable-sale valuation, project-income valuation and independent appraisal are NOT_ESTABLISHED. WIPO and contractor-rate publishers provide method/rate context; source-specific effort and seller asking choices are assumptions.
 
 ## Transaction scope
 
@@ -83,10 +77,13 @@ Separately scoped or excluded:
 
 ## Source basis
 
-- TA-IP-101-P: targeted product/status review, 14 October 2026; source-pinned main and candidate records.
-- TA-IP-101-C: full financial-reference review, 16 October 2026; original reference date 2026-10-12.
-- TA-IP-101-A: documentary condition review, 14 October 2026; classification and grades retained from 12 October 2026.
+- TA-IP-101-P: source-frozen product documentation, 17 October 2026.
+- TA-IP-101-C: individual cost/reference decision, 17 October 2026.
+- TA-IP-101-A: seller handover review, 2026-10-12.
+
+The main source is unchanged from the preceding directory review. Existing product qualification retains its source and execution date; tests were not rerun for this project.
 
 ## Acquisition enquiry
 
 State this asset title and reference, your intended use and requested delivery perimeter. Agree controlled review and final written terms with the seller through the channel that supplied this package.
+

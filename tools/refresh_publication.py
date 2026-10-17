@@ -22,7 +22,7 @@ def main():
     audit_file.write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n')
     att_file = ROOT / 'assets/public-attestation.json'
     att = json.loads(att_file.read_text())
-    att['publicationDate'] = '2026-10-16'
+    att['publicationDate'] = '2026-10-17'
     att['directoryReviewAt'] = json.loads((ROOT/'assets/repository-inventory.json').read_text())['reviewedAt']
     for name in set(att['files']) | {'project-route-aliases.json'}:
         att['files'][name] = fingerprint(ROOT / 'assets' / name)

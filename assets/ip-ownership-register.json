@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.13-im70-repository-inventory-and-mipp",
+  "version": "2026.10.17-im77-full-review",
   "basisDate": "2026-10-13",
   "status": "SELLER_SIDE_REPOSITORY_EVIDENCE_REGISTER",
   "boundary": "Seller-side rights evidence register. It records repository licence evidence, disclosed third-party material and rights-review status. It does not disclose development methods and does not constitute an independent legal title or freedom-to-operate opinion.",
@@ -1727,27 +1727,28 @@
       "financialReferencesReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
-      "repository": "Sensor-Fusion-Digital-Twin-Engine",
-      "slug": "sensor-fusion-digital-twin-engine",
+      "repository": "Universal-Sensor-Fusion-Digital-Twin-Intelligence-Platform",
+      "slug": "universal-sensor-fusion-digital-twin-intelligence-platform",
       "identityName": "Artemis",
-      "baselineCommit": "18bfbb95f3369630f680503de7139cf9ea150bb9",
+      "baselineCommit": "34e0091687497b62162f6c5056c8f503f7f0751c",
       "commercialReference": "TA-IP-025",
-      "defaultBranchBaselineCommit": "18bfbb95f3369630f680503de7139cf9ea150bb9",
+      "defaultBranchBaselineCommit": "34e0091687497b62162f6c5056c8f503f7f0751c",
       "sourceScope": "DEFAULT_BRANCH",
-      "assessmentDate": "2026-10-12",
+      "assessmentDate": "2026-10-17",
       "repositoryLicenceFiles": [
-        "LICENSE"
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md"
       ],
       "thirdPartyDisclosureFiles": [
-        "LICENSE"
+        "THIRD_PARTY_NOTICES.md"
       ],
       "ipRightsMaturity": "R2",
-      "ownershipEvidenceStatus": "REPOSITORY_RIGHTS_AND_DEPENDENCY_BASIS_DOCUMENTED",
+      "ownershipEvidenceStatus": "SELLER_DECLARATION_AND_DOCUMENTATION_BASIS; INDEPENDENT_TITLE_NOT_ESTABLISHED",
       "legalChainOfTitleOpinion": "NOT_PERFORMED",
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "buyerSpecificLegalReviewRequired": true,
       "ref": "TA-IP-025",
-      "sourceRecheckedAt": "2026-10-12T09:21:42Z",
+      "sourceRecheckedAt": "2026-10-17T06:30:00Z",
       "financialReferencesReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
@@ -1890,24 +1891,25 @@
       "repository": "StabilityMesh-Adaptive-Resilience-Control-for-Distributed-Systems",
       "slug": "stabilitymesh",
       "identityName": "Ariadne",
-      "baselineCommit": "6a6e04b1db4a7c641a1de99671780fc22ccf9aaf",
+      "baselineCommit": "6f4b028eb34a35c17d9c73a008a14ffc346f6ee7",
       "commercialReference": "TA-IP-003",
-      "defaultBranchBaselineCommit": "6a6e04b1db4a7c641a1de99671780fc22ccf9aaf",
+      "defaultBranchBaselineCommit": "6f4b028eb34a35c17d9c73a008a14ffc346f6ee7",
       "sourceScope": "DEFAULT_BRANCH",
-      "assessmentDate": "2026-10-12",
+      "assessmentDate": "2026-10-17",
       "repositoryLicenceFiles": [
-        "LICENSE"
+        "LICENSE",
+        "docs/THIRD_PARTY_DATA.md"
       ],
       "thirdPartyDisclosureFiles": [
-        "LICENSE"
+        "docs/THIRD_PARTY_DATA.md"
       ],
       "ipRightsMaturity": "R2",
-      "ownershipEvidenceStatus": "REPOSITORY_RIGHTS_AND_DEPENDENCY_BASIS_DOCUMENTED",
+      "ownershipEvidenceStatus": "SELLER_DECLARATION_AND_DOCUMENTATION_BASIS; INDEPENDENT_TITLE_NOT_ESTABLISHED",
       "legalChainOfTitleOpinion": "NOT_PERFORMED",
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "buyerSpecificLegalReviewRequired": true,
       "ref": "TA-IP-003",
-      "sourceRecheckedAt": "2026-10-12T09:21:42Z",
+      "sourceRecheckedAt": "2026-10-17T06:30:00Z",
       "financialReferencesReviewedAt": "2026-10-12T09:21:42Z"
     },
     {
@@ -2629,10 +2631,71 @@
       "freedomToOperateOpinion": "NOT_PERFORMED",
       "buyerSpecificLegalReviewRequired": true,
       "embeddedMaterialBoundary": "NOTICE.md preserves separate ownership of the supplied protocol. Software acquisition does not transfer author manuscripts, archive or pseudonym rights."
+    },
+    {
+      "ref": "TA-IP-107",
+      "slug": "universal-property-intelligence-platform",
+      "repository": "Universal-Property-Intelligence-Platform",
+      "identityName": "Vesta",
+      "baselineCommit": "89ba8b4096062c3f893c692b58e62607dc03b3ea",
+      "assessmentDate": "2026-10-17",
+      "sourceRecheckedAt": "2026-10-17T06:30:00Z",
+      "commercialReference": "TA-IP-107",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [],
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "sourceScope": "DEFAULT_BRANCH",
+      "buyerSpecificLegalReviewRequired": true,
+      "defaultBranchBaselineCommit": "89ba8b4096062c3f893c692b58e62607dc03b3ea",
+      "ipRightsMaturity": "R1",
+      "ownershipEvidenceStatus": "SELLER_DECLARATION_AND_DOCUMENTATION_BASIS; INDEPENDENT_TITLE_NOT_ESTABLISHED"
+    },
+    {
+      "ref": "TA-IP-108",
+      "slug": "visual-effects-spatial-computing-platform",
+      "repository": "Visual-Effects-Spatial-Computing-Platform",
+      "identityName": "Asteria",
+      "baselineCommit": "fc4dcff6141f6817076b6cb8a6e304aa81916f05",
+      "assessmentDate": "2026-10-17",
+      "sourceRecheckedAt": "2026-10-17T06:30:00Z",
+      "commercialReference": "TA-IP-108",
+      "repositoryLicenceFiles": [
+        "LICENSE"
+      ],
+      "thirdPartyDisclosureFiles": [],
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "sourceScope": "DEFAULT_BRANCH",
+      "buyerSpecificLegalReviewRequired": true,
+      "defaultBranchBaselineCommit": "fc4dcff6141f6817076b6cb8a6e304aa81916f05",
+      "ipRightsMaturity": "R1",
+      "ownershipEvidenceStatus": "SELLER_DECLARATION_AND_DOCUMENTATION_BASIS; INDEPENDENT_TITLE_NOT_ESTABLISHED"
+    },
+    {
+      "ref": "TA-IP-109",
+      "slug": "narrative-collectibles-platform",
+      "repository": "Narrative-Collectibles-Platform",
+      "identityName": "Scheherazade",
+      "baselineCommit": "e85adb045292bf83aedcab81f02da3886ce60c12",
+      "assessmentDate": "2026-10-17",
+      "sourceRecheckedAt": "2026-10-17T06:30:00Z",
+      "commercialReference": "TA-IP-109",
+      "repositoryLicenceFiles": [],
+      "thirdPartyDisclosureFiles": [],
+      "legalChainOfTitleOpinion": "NOT_PERFORMED",
+      "freedomToOperateOpinion": "NOT_PERFORMED",
+      "sourceScope": "DEFAULT_BRANCH",
+      "buyerSpecificLegalReviewRequired": true,
+      "defaultBranchBaselineCommit": "e85adb045292bf83aedcab81f02da3886ce60c12",
+      "ipRightsMaturity": "R1",
+      "ownershipEvidenceStatus": "SELLER_DECLARATION_AND_DOCUMENTATION_BASIS; INDEPENDENT_TITLE_NOT_ESTABLISHED"
     }
   ],
   "assessedAt": "2026-10-13T04:20:04Z",
-  "catalogueUpdatedAt": "2026-10-16T07:49:40Z",
+  "catalogueUpdatedAt": "2026-10-17T06:30:00Z",
   "previousTargetedAssetReview": {
     "slug": "distributed-ai-resource-fabric",
     "ref": "TA-IP-022",

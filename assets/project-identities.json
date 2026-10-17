@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.13-im70-repository-inventory-and-mipp",
+  "version": "2026.10.17-im77-full-review",
   "policy": "Each independent IP asset has one project title and one feminine reference alias. Each project has its own asset identity and rights perimeter. Websites are digital displays only.",
   "projects": [
     {
@@ -693,13 +693,13 @@
       "repositoryId": "1361066027"
     },
     {
-      "repository": "Sensor-Fusion-Digital-Twin-Engine",
-      "slug": "sensor-fusion-digital-twin-engine",
+      "repository": "Universal-Sensor-Fusion-Digital-Twin-Intelligence-Platform",
+      "slug": "universal-sensor-fusion-digital-twin-intelligence-platform",
       "identityName": "Artemis",
       "existingCanonical": false,
       "ref": "TA-IP-025",
       "id": 25,
-      "title": "Sensor Fusion Digital Twin Engine",
+      "title": "Universal Sensor Fusion & Digital Twin Intelligence Platform",
       "repositoryId": "1339133358"
     },
     {
@@ -1083,63 +1083,79 @@
       "title": "Manuscript Integrity & Publishing Platform",
       "referenceAliasAssignment": "PORTFOLIO_REFERENCE_ONLY",
       "repositoryId": "1416353622"
+    },
+    {
+      "id": 107,
+      "ref": "TA-IP-107",
+      "repository": "Universal-Property-Intelligence-Platform",
+      "repositoryId": "1421882714",
+      "slug": "universal-property-intelligence-platform",
+      "title": "Universal Property Intelligence Platform",
+      "identityName": "Vesta",
+      "existingCanonical": true,
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-17T06:30:00Z",
+      "referenceAliasAssignment": "PORTFOLIO_REFERENCE_ONLY"
+    },
+    {
+      "id": 108,
+      "ref": "TA-IP-108",
+      "repository": "Visual-Effects-Spatial-Computing-Platform",
+      "repositoryId": "1422811823",
+      "slug": "visual-effects-spatial-computing-platform",
+      "title": "Visual-Effects-Spatial-Computing-Platform",
+      "identityName": "Asteria",
+      "existingCanonical": true,
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-17T06:30:00Z",
+      "referenceAliasAssignment": "PORTFOLIO_REFERENCE_ONLY"
+    },
+    {
+      "id": 109,
+      "ref": "TA-IP-109",
+      "repository": "Narrative-Collectibles-Platform",
+      "repositoryId": "1422941730",
+      "slug": "narrative-collectibles-platform",
+      "title": "Narrative Collectibles Platform",
+      "identityName": "Scheherazade",
+      "existingCanonical": true,
+      "independentIpAsset": true,
+      "scopeUpdatedAt": "2026-10-17T06:30:00Z",
+      "referenceAliasAssignment": "PORTFOLIO_REFERENCE_ONLY"
     }
   ],
   "scope": {
-    "ipAssetCount": 105,
+    "ipAssetCount": 108,
     "excludedRepositories": [
       "MyProjects",
       "Projects-Displays"
     ],
-    "pricedAssetCount": 105,
+    "pricedAssetCount": 108,
     "unpricedAssetCount": 0
   },
-  "catalogueUpdatedAt": "2026-10-16T06:23:40Z",
+  "catalogueUpdatedAt": "2026-10-17T06:30:00Z",
   "identifierPolicy": "Each active project retains its assigned TA-IP identifier; gaps are permitted and withdrawn identifiers are not reused. One title and one reference alias govern all current records and profiles. A confirmed repository rename is not a new asset.",
   "latestIdentityUpdate": {
-    "assessedAt": "2026-10-12T09:21:42Z",
-    "type": "FOUR_SOFTWARE_ADDITIONS_AND_ONE_CONFIRMED_REPOSITORY_RENAME",
-    "previousAssetCount": 100,
-    "currentAssetCount": 104,
-    "otherAssetRecordsRetained": 100,
+    "assessedAt": "2026-10-17T06:30:00Z",
+    "type": "THREE_ADDITIONS_AND_CONFIRMED_RENAME",
     "identifiersReassigned": false,
-    "additions": [
+    "existingAliasesRetained": true,
+    "newAliases": [
       {
-        "ref": "TA-IP-102",
-        "title": "Universal Remote Perception Intelligence Platform",
-        "referenceAlias": "Pallas",
-        "repository": "Universal-Remote-Perception-Intelligence-Platform",
-        "sourceHead": "4431fda60af9bd21b90a80df0c4ff21c28769215"
+        "ref": "TA-IP-107",
+        "identityName": "Vesta"
       },
       {
-        "ref": "TA-IP-103",
-        "title": "Universal Operations Orchestration & Intelligence Platform",
-        "referenceAlias": "Diana",
-        "repository": "Universal-Operations-Orchestration-Intelligence-Platform",
-        "sourceHead": "2804045108ced5760f1d8db0452d64c54988237e"
+        "ref": "TA-IP-108",
+        "identityName": "Asteria"
       },
       {
-        "ref": "TA-IP-104",
-        "title": "Collective Reality Engine",
-        "referenceAlias": "Calliope",
-        "repository": "Collective-Reality-Engine-CRE---Universal-Shared-World-Intelligence-Platform",
-        "sourceHead": "1b6abb67b404a5169875ed260324b1f4642c8e0e"
-      },
-      {
-        "ref": "TA-IP-105",
-        "title": "Mission-to-Execution Engineering Framework",
-        "referenceAlias": "Hestia",
-        "repository": "Mission-to-Execution-Engineering-Framework",
-        "sourceHead": "ee27964574e2a9d0d5d86eb28500337a5800f0ac"
+        "ref": "TA-IP-109",
+        "identityName": "Scheherazade"
       }
     ],
-    "repositoryRename": {
-      "ref": "TA-IP-101",
-      "repository": "Universal-Video-Intelligence-Platform",
-      "sameRepositoryId": true,
-      "newAsset": false
-    },
-    "boundary": "Each new software project is counted once. The confirmed repository rename retains its existing project identifier and reference alias. Withdrawn identifiers are not reused."
+    "canonicalIdentityRegister": "assets/project-identities.json",
+    "boundary": "Portfolio identifiers are authoritative. Historical repository status blocks can contain shifted legacy IDs; they do not reassign portfolio assets. Feminine names are reference aliases and do not replace canonical product titles."
   },
   "previousIdentityUpdate": {
     "assessedAt": "2026-10-12T03:40:16Z",

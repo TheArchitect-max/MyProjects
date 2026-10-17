@@ -1,8 +1,8 @@
-# Sensor Fusion Digital Twin Engine
+# Universal Sensor Fusion & Digital Twin Intelligence Platform
 
 TA-IP-025 | Reference alias: Artemis | Industrial Reliability & Digital Twins
 
-Buyer-facing edition: 16 October 2026
+Buyer-facing edition: 17 October 2026
 
 Bring operational observations into a digital-twin view and review changes with their uncertainties.
 
@@ -34,29 +34,31 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Current main baseline: 1.5.0.
+Current main baseline: 1.8.0.
 
-Available software for evaluation against your intended use. Deployment suitability is assessed separately.
+Separate development: 1.8.1 — unmerged hardening candidate; excluded from current price.
 
-Material limitations: A reference framework does not establish physical accuracy for each domain. Real sensors and operational decisions require buyer qualification.
+Adds coordinated single-writer runtime, fencing/idempotency controls, transparent scenario decisions and deterministic multi-source telemetry alignment with replayable provenance. All 60 Git blobs verified; 73 local Python tests passed on the exact v1.8.0 snapshot. This is software testing, not physical-system or production certification. The separate v1.8.1 hardening PR is unmerged and excluded from the v1.8.0 cost scope. Domain calibration, physical sensor accuracy and production acceptance remain open.
 
-Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
+Next qualification step: Review the separate v1.8.1 hardening candidate, then qualify representative domain telemetry and recipient deployment conditions.
+
+Documentation checked: 17 October 2026. All 60 Git blobs verified; 73 local Python tests passed on the exact v1.8.0 snapshot. This is software testing, not physical-system or production certification.
 
 ## Commercial reference
 
-Seller asking reference: EUR 235,000.
+Seller asking reference: EUR 240,000.
 
-Seller-estimated recreation cost: EUR 780,000.
+Seller-estimated recreation cost: EUR 797,000.
 
-All 105 project financial references were reviewed on 16 October 2026 against current documentation, retained seller assessments and the disclosed method/rate sources. Individual asking references and recreation anchors remain unchanged. Final delivery, consideration and taxes are agreed separately.
-
-Seller-estimated engineering-equivalent cost to recreate comparable present work. This is a build-versus-buy reference, not actual historical expenditure, a contractor quotation, certified market value or guaranteed buyer saving.
+All 108 project source and financial-reference decisions were reviewed on 17 October 2026. Three new project estimates and two implementation increments are separately disclosed; 103 preceding individual amounts are retained. Market value remains undetermined. Final scope, consideration and taxes require separate agreement.
 
 ## Individual financial-reference review
 
-Financial-reference review: 16 October 2026. Legacy cost reference; complete work budget missing. Original financial-reference date: 2026-10-12. Seller ask and recreation anchor are retained. Current documentation does not automatically expand the priced delivery; a delivery-specific re-estimate remains required.
+Financial-reference review: 17 October 2026. Retained EUR 780,000 base plus EUR 17,000 low-effort implementation increment = EUR 797,000. Seller asking reference EUR 235,000 to EUR 240,000, retaining the earlier asking/cost proportion. Market value remains NOT_ESTABLISHED. Estimated hours are not logged time or expenditure. Original financial-reference date: 2026-10-12.
 
-Comparable-sale valuation, project-income valuation and independent appraisal are NOT_ESTABLISHED. WIPO, Knab and the limited Upwork source provide method/rate context. Their information is not a project appraisal.
+Comparable-sale valuation, project-income valuation and independent appraisal are NOT_ESTABLISHED. WIPO and contractor-rate publishers provide method/rate context; source-specific effort and seller asking choices are assumptions.
+
+Lowest scoped working scenario: 160 assumed hours × EUR 94/hour, plus 15%, rounded down to EUR 500. This is not logged time, expenditure or an absolute cost floor. Previous base is retained once; this budget covers only the implemented increment.
 
 ## Transaction scope
 
@@ -78,10 +80,13 @@ Separately scoped or excluded:
 
 ## Source basis
 
-- TA-IP-025-P: reviewed product overview and current main/development boundary, 16 October 2026.
-- TA-IP-025-C: full financial-reference review, 16 October 2026; original reference date 2026-10-12.
-- TA-IP-025-A: retained seller assessment, 2026-10-12.
+- TA-IP-025-P: source-frozen product documentation, 17 October 2026.
+- TA-IP-025-C: individual cost/reference decision, 17 October 2026.
+- TA-IP-025-A: seller handover review, 2026-10-17.
+
+All 60 Git blobs verified; 73 local Python tests passed on the exact v1.8.0 snapshot. This is software testing, not physical-system or production certification.
 
 ## Acquisition enquiry
 
 State this asset title and reference, your intended use and requested delivery perimeter. Agree controlled review and final written terms with the seller through the channel that supplied this package.
+

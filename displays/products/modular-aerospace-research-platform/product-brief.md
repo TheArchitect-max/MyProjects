@@ -2,7 +2,7 @@
 
 TA-IP-001 | Reference alias: Stella | Scientific Observation & Domain Research
 
-Buyer-facing edition: 16 October 2026
+Buyer-facing edition: 17 October 2026
 
 Turn aerospace observations into replayable research cases, compare declared evidence and keep uncertainty visible.
 
@@ -40,11 +40,7 @@ Separate development: 0.6.3 — unmerged STELLA research foundation.
 
 Main retains the 0.1.0 baseline. The separate 0.6.3 STELLA candidate adds offline sensor processing, calibrated geometry, replayable evidence comparison and retained actual NOAA context. Its build report records 1,043 tests and independent validation of 96 schemas; these are source-bound repository results, not executions by this website review. Field accuracy, cross-modality fusion and mission qualification remain open.
 
-Material limitations: Representative hardware, calibrated field accuracy and general cross-modality fusion are not qualified. NOAA archive context does not by itself validate a reconstructed physical event.
-
-Next qualification step: Complete the remaining S-014 comparison/fusion work and qualify representative calibrated field observations; keep the development candidate separate from main.
-
-Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
+Documentation checked: 17 October 2026. The main source is unchanged from the preceding directory review. Existing product qualification retains its source and execution date; tests were not rerun for this project.
 
 ## Commercial reference
 
@@ -52,17 +48,13 @@ Seller asking reference: EUR 61,000.
 
 Seller-estimated recreation cost: EUR 540,000.
 
-All 105 project financial references were reviewed on 16 October 2026 against current documentation, retained seller assessments and the disclosed method/rate sources. Nine implemented increments have revised individual references; this project is one of them. Final delivery, consideration and taxes are agreed separately.
-
-Seller-estimated engineering-equivalent cost to recreate comparable present work. This is a build-versus-buy reference, not actual historical expenditure, a contractor quotation, certified market value or guaranteed buyer saving.
+All 108 project source and financial-reference decisions were reviewed on 17 October 2026. Three new project estimates and two implementation increments are separately disclosed; 103 preceding individual amounts are retained. Market value remains undetermined. Final scope, consideration and taxes require separate agreement.
 
 ## Individual financial-reference review
 
-Development reviewed 16 October 2026: 0.6.3 (frozen unmerged snapshot). Retained base EUR 400,000 plus separately estimated new work EUR 140,000 gives EUR 540,000. The new increment has a disclosed work budget; the older base remains a legacy seller assumption. No independent market-value increase is established.
+Financial-reference review: 17 October 2026. Current main source and existing development heads reviewed. The priced scope and disclosed cost assumptions are unchanged; existing cost/asking references are retained. Market value remains NOT_ESTABLISHED. Original financial-reference date: 2026-10-12.
 
-Adds conditional observation geometry, replayable research dossiers, bounded motion/signal processing, actual public-archive import and dependency-aware evidence comparison beyond the already priced v0.4.2 foundation.
-
-Full cross-modality fusion, physical/field qualification, Horizon products and third-party archive ownership are excluded.
+Comparable-sale valuation, project-income valuation and independent appraisal are NOT_ESTABLISHED. WIPO and contractor-rate publishers provide method/rate context; source-specific effort and seller asking choices are assumptions.
 
 ## Transaction scope
 
@@ -84,10 +76,13 @@ Separately scoped or excluded:
 
 ## Source basis
 
-- TA-IP-001-P: reviewed product overview and current main/development boundary, 16 October 2026.
-- TA-IP-001-C: full financial-reference review, 16 October 2026; original reference date 2026-10-12.
-- TA-IP-001-A: retained seller assessment, 2026-10-12.
+- TA-IP-001-P: source-frozen product documentation, 17 October 2026.
+- TA-IP-001-C: individual cost/reference decision, 17 October 2026.
+- TA-IP-001-A: seller handover review, 2026-10-12.
+
+The main source is unchanged from the preceding directory review. Existing product qualification retains its source and execution date; tests were not rerun for this project.
 
 ## Acquisition enquiry
 
 State this asset title and reference, your intended use and requested delivery perimeter. Agree controlled review and final written terms with the seller through the channel that supplied this package.
+

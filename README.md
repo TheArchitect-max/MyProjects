@@ -1,5 +1,19 @@
 # THEARCHITECT_MAX — Private Technology & IP Portfolio
 
+## Complete portfolio reevaluation — 17 October 2026
+
+110 repositories reconcile to 108 independent software projects and two publication sources. Three new projects receive TA-IP-107 / Vesta, TA-IP-108 / Asteria and TA-IP-109 / Scheherazade. TA-IP-025 retains Artemis through its canonical repository/title/route migration. All 108 project, source, financial and handover records are reconciled; 246 exact source files from five projects were verified. Four local suites and one static suite were executed.
+
+Current seller asking references: EUR 24,676,000. Recreation references: EUR 105,130,000. Three new low-effort estimates and two implemented increments are disclosed; 103 existing amounts and all earlier nine increments are retained once. Market value remains undetermined. New low-effort scenarios are assumptions, not absolute cost floors or actual expenditure.
+
+[Read the complete review](docs/PORTFOLIO_REEVALUATION_2026-10-17.md).
+
+The records below are dated historical publication states.
+
+---
+
+# THEARCHITECT_MAX — Private Technology & IP Portfolio
+
 ## Implemented development value correction - 16 October 2026
 
 Nine concrete source-bound increments now have separate work budgets and revised seller asking references. Recreation increments total EUR 645,000; applying the previous project-specific asking/cost proportions changes asking references by EUR 146,000. Frozen MARP v0.6.3 and EIOP v6.4.0 development snapshots are explicitly included without merging. Portfolio asking reference: EUR 24,647,500. Recreation references: EUR 105,030,000. The other 96 individual amounts and all qualification grades are retained. These are analyst cost/asking assumptions, not independently established market gains.

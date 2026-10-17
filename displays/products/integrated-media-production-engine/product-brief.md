@@ -2,7 +2,7 @@
 
 TA-IP-038 | Reference alias: Mira | Audio & Media Creation
 
-Buyer-facing edition: 16 October 2026
+Buyer-facing edition: 17 October 2026
 
 Manage your media-production work from source selection to review and delivery.
 
@@ -38,11 +38,7 @@ Current main baseline: 0.24.0.
 
 The 0.24.0 foundation adds durable artifact-deletion claims and verified byte/size readmission. Repository records report 324 local passes per Python version with native PostgreSQL tests skipped. Prior 0.23.1 native PostgreSQL PASS remains bound to that earlier source; full native 0.24 concurrency qualification is still required. Third-party media rights and provider adapters need separate acceptance.
 
-Material limitations: Full native 0.24 database and concurrency acceptance remains open. A prior release PASS and substitute SQL checks do not close that gate.
-
-Next qualification step: Complete the exact 0.24 native PostgreSQL and concurrency campaigns, and agree the permitted media/provider and delivery scope.
-
-Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
+Documentation checked: 17 October 2026. The main source is unchanged from the preceding directory review. Existing product qualification retains its source and execution date; tests were not rerun for this project.
 
 ## Commercial reference
 
@@ -50,17 +46,13 @@ Seller asking reference: EUR 457,000.
 
 Seller-estimated recreation cost: EUR 1,275,000.
 
-All 105 project financial references were reviewed on 16 October 2026 against current documentation, retained seller assessments and the disclosed method/rate sources. Nine implemented increments have revised individual references; this project is one of them. Final delivery, consideration and taxes are agreed separately.
-
-Seller-estimated engineering-equivalent cost to recreate comparable present work. This is a build-versus-buy reference, not actual historical expenditure, a contractor quotation, certified market value or guaranteed buyer saving.
+All 108 project source and financial-reference decisions were reviewed on 17 October 2026. Three new project estimates and two implementation increments are separately disclosed; 103 preceding individual amounts are retained. Market value remains undetermined. Final scope, consideration and taxes require separate agreement.
 
 ## Individual financial-reference review
 
-Development reviewed 16 October 2026: 0.24.0 (default-branch snapshot). Retained base EUR 1,200,000 plus separately estimated new work EUR 75,000 gives EUR 1,275,000. The new increment has a disclosed work budget; the older base remains a legacy seller assumption. No independent market-value increase is established.
+Financial-reference review: 17 October 2026. Current main source and existing development heads reviewed. The priced scope and disclosed cost assumptions are unchanged; existing cost/asking references are retained. Market value remains NOT_ESTABLISHED. Original financial-reference date: 2026-10-12.
 
-Adds artifact bindings, retention/reconciliation and repair planning, durable deletion claims and verified readmission within the existing media-production foundation.
-
-Full native 0.24 PostgreSQL/concurrency qualification remains open. Prior 0.23.1 database PASS is not promoted to 0.24. Media/model rights, hosted operation and future provider acceptance are excluded.
+Comparable-sale valuation, project-income valuation and independent appraisal are NOT_ESTABLISHED. WIPO and contractor-rate publishers provide method/rate context; source-specific effort and seller asking choices are assumptions.
 
 ## Transaction scope
 
@@ -82,10 +74,13 @@ Separately scoped or excluded:
 
 ## Source basis
 
-- TA-IP-038-P: reviewed product overview and current main/development boundary, 16 October 2026.
-- TA-IP-038-C: full financial-reference review, 16 October 2026; original reference date 2026-10-12.
-- TA-IP-038-A: retained seller assessment, 2026-10-12.
+- TA-IP-038-P: source-frozen product documentation, 17 October 2026.
+- TA-IP-038-C: individual cost/reference decision, 17 October 2026.
+- TA-IP-038-A: seller handover review, 2026-10-12.
+
+The main source is unchanged from the preceding directory review. Existing product qualification retains its source and execution date; tests were not rerun for this project.
 
 ## Acquisition enquiry
 
 State this asset title and reference, your intended use and requested delivery perimeter. Agree controlled review and final written terms with the seller through the channel that supplied this package.
+

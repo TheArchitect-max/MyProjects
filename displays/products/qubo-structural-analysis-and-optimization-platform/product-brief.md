@@ -2,7 +2,7 @@
 
 TA-IP-075 | Reference alias: Emmy | Physics, Mathematics & Optimisation Research
 
-Buyer-facing edition: 16 October 2026
+Buyer-facing edition: 17 October 2026
 
 Compare optimisation approaches and assess candidate solutions within a clearly defined problem scope.
 
@@ -38,9 +38,7 @@ Current main baseline: 0.2.0.
 
 An implemented prototype for evaluation and further development.
 
-Material limitations: Structural diagnostics do not establish formal impossibility or universal solver superiority. Performance remains problem- and protocol-specific.
-
-Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
+Documentation checked: 17 October 2026. The main source is unchanged from the preceding directory review. Existing product qualification retains its source and execution date; tests were not rerun for this project.
 
 ## Commercial reference
 
@@ -48,15 +46,13 @@ Seller asking reference: EUR 90,000.
 
 Seller-estimated recreation cost: EUR 650,000.
 
-All 105 project financial references were reviewed on 16 October 2026 against current documentation, retained seller assessments and the disclosed method/rate sources. Individual asking references and recreation anchors remain unchanged. Final delivery, consideration and taxes are agreed separately.
-
-Seller-estimated engineering-equivalent cost to recreate comparable present work. This is a build-versus-buy reference, not actual historical expenditure, a contractor quotation, certified market value or guaranteed buyer saving.
+All 108 project source and financial-reference decisions were reviewed on 17 October 2026. Three new project estimates and two implementation increments are separately disclosed; 103 preceding individual amounts are retained. Market value remains undetermined. Final scope, consideration and taxes require separate agreement.
 
 ## Individual financial-reference review
 
-Financial-reference review: 16 October 2026. Legacy cost reference; complete work budget missing. Original financial-reference date: 2026-10-12. Seller ask and recreation anchor are retained. Current documentation does not automatically expand the priced delivery; a delivery-specific re-estimate remains required.
+Financial-reference review: 17 October 2026. Current main source and existing development heads reviewed. The priced scope and disclosed cost assumptions are unchanged; existing cost/asking references are retained. Market value remains NOT_ESTABLISHED. Original financial-reference date: 2026-10-12.
 
-Comparable-sale valuation, project-income valuation and independent appraisal are NOT_ESTABLISHED. WIPO, Knab and the limited Upwork source provide method/rate context. Their information is not a project appraisal.
+Comparable-sale valuation, project-income valuation and independent appraisal are NOT_ESTABLISHED. WIPO and contractor-rate publishers provide method/rate context; source-specific effort and seller asking choices are assumptions.
 
 ## Transaction scope
 
@@ -78,10 +74,13 @@ Separately scoped or excluded:
 
 ## Source basis
 
-- TA-IP-075-P: reviewed product overview and current main/development boundary, 16 October 2026.
-- TA-IP-075-C: full financial-reference review, 16 October 2026; original reference date 2026-10-12.
-- TA-IP-075-A: retained seller assessment, 2026-10-12.
+- TA-IP-075-P: source-frozen product documentation, 17 October 2026.
+- TA-IP-075-C: individual cost/reference decision, 17 October 2026.
+- TA-IP-075-A: seller handover review, 2026-10-12.
+
+The main source is unchanged from the preceding directory review. Existing product qualification retains its source and execution date; tests were not rerun for this project.
 
 ## Acquisition enquiry
 
 State this asset title and reference, your intended use and requested delivery perimeter. Agree controlled review and final written terms with the seller through the channel that supplied this package.
+

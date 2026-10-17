@@ -1,9 +1,9 @@
 {
-  "version": "2026.10.13-im70-repository-inventory-and-mipp",
+  "version": "2026.10.17-im77-full-review",
   "publishedAt": "2026-10-13T04:20:04Z",
   "sourceDocumentationReviewedAt": "2026-10-16T06:23:40Z",
-  "priceBasisDate": "2026-10-16",
-  "portfolioAssetCount": 105,
+  "priceBasisDate": "2026-10-17",
+  "portfolioAssetCount": 108,
   "currency": "EUR",
   "priceMethod": "SUM_CURRENT_INDIVIDUAL_ASKS",
   "scope": {
@@ -174,9 +174,9 @@
     },
     {
       "ref": "TA-IP-025",
-      "repository": "Sensor-Fusion-Digital-Twin-Engine",
+      "repository": "Universal-Sensor-Fusion-Digital-Twin-Intelligence-Platform",
       "path": "README.md",
-      "blobSha": "e0d941fcd8caaa4210f3db5da03730c58f9fef89",
+      "blobSha": "14ff3fcac09d29b1dab339bf6a1c69a57797d761",
       "sourceHead": "18bfbb95f3369630f680503de7139cf9ea150bb9",
       "reviewedAt": "2026-10-13T04:20:04Z"
     },
@@ -1239,7 +1239,7 @@
         },
         {
           "ref": "TA-IP-025",
-          "slug": "sensor-fusion-digital-twin-engine",
+          "slug": "universal-sensor-fusion-digital-twin-intelligence-platform",
           "role": "Review operational observations and estimated system state."
         },
         {
@@ -1794,7 +1794,7 @@
   ],
   "recreationCostMethod": "SUM_CURRENT_INDIVIDUAL_RECREATION_COSTS",
   "allocationMethod": "GLOBAL_UNIQUE_PROJECTS",
-  "allocationBoundary": "Each of the 81 included projects appears in exactly one proposed combination. The 33 combinations remain a subset of the 105 independently priced assets; no additional combined IP asset or delivered integration is created.",
+  "allocationBoundary": "Each of the 81 included projects appears in exactly one proposed combination. The 33 proposals remain a subset of 108 independently priced projects; no delivered integration or extra IP asset is created. The independent visual-effects platform is excluded from connection proposals.",
   "recreationCostBoundary": "The recreation-cost total is the sum of the current published recreation-cost estimates for the listed existing projects. It is a cost reference for their documented scope, not an acquisition price or an estimate of additional integration work. No shared-work savings, integration costs or future development are added to this arithmetic.",
   "latestModuleRelationship": {
     "updatedAt": "2026-10-11T07:14:54Z",
@@ -1827,7 +1827,7 @@
     ],
     "boundary": "Launch & Cislunar Transportation Engineering Platform is the separately scoped launch and cislunar transport module for FusionLunar studies. The documented demand/result interface supports the relationship; this update does not establish a new shared runtime, completed end-to-end integration or flight-qualified transport. Both projects retain their own asset identity, price and transfer scope."
   },
-  "catalogueUpdatedAt": "2026-10-16T07:06:02Z",
+  "catalogueUpdatedAt": "2026-10-17T06:30:00Z",
   "latestPortfolioScopeUpdate": {
     "publishedAt": "2026-10-13T05:07:05Z",
     "type": "DISPLAY_DIRECTORY_REMOVAL",

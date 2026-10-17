@@ -20,12 +20,12 @@ def load(name):return json.loads((ROOT/'assets'/name).read_text())
 def validate():
     identities=load('project-identities.json')['projects']
     by_ref={x['ref']:x for x in identities}
-    assert len(by_ref)==len(identities)==105
-    assert len({x['repository'] for x in identities})==105
-    assert len({x['repositoryId'] for x in identities})==105
-    assert len({x['slug'] for x in identities})==105
+    assert len(by_ref)==len(identities)==108
+    assert len({x['repository'] for x in identities})==108
+    assert len({x['repositoryId'] for x in identities})==108
+    assert len({x['slug'] for x in identities})==108
     for name in ['project-presentations.json','project-evaluations.json','seller-readiness-register.json','ip-ownership-register.json','software-supply-chain-summary.json','rights-transfer-register.json','future-economic-references.json']:
-        data=load(name)['projects'];assert len(data)==105,name
+        data=load(name)['projects'];assert len(data)==108,name
         for x in data:
             assert x['ref'] in by_ref and x['slug']==by_ref[x['ref']]['slug'],(name,x['ref'])
             if 'title' in x:assert x['title']==by_ref[x['ref']]['title'],(name,x['ref'],'title')
@@ -36,14 +36,14 @@ def validate():
         assert p['repositoryId']==identity['repositoryId']
         assert p['sourceHead']==presents[p['ref']]['defaultBranchBaselineCommit']
         assert p['readmeBlobSha']==presents[p['ref']]['catalogueSourceReview']['readmeBlobSha']
-        assert p['freshLocalTestsPerformed'] is False
+        assert p['freshLocalTestsPerformed'] == (p['ref'] in {'TA-IP-025','TA-IP-107','TA-IP-108','TA-IP-109'})
     attest=load('public-attestation.json')
     for name,record in attest['files'].items():
         content=(ROOT/'assets'/name).read_bytes()
         assert hashlib.sha256(content).hexdigest()==record['sha256'],name
         assert len(content)==record['bytes'],name
     aliases=load('project-route-aliases.json')['aliases']
-    assert len(aliases)==5
+    assert len(aliases)==6
     for a in aliases:
         assert by_ref[a['ref']]['slug']==a['slug']
         for parent in [ROOT/'projects',ROOT/'displays/products']:
@@ -67,7 +67,7 @@ def validate():
     assert not list(ROOT.glob('.github/workflows/*'))
     assert by_ref['TA-IP-083']['repository']=='Adaptive-Systems-Intelligence-Platform'
     assert by_ref['TA-IP-096']['repository']=='Plantelogia-Intelligence-Platform'
-    return {'projectIdentities':105,'crossRegisters':8,'publicFingerprints':len(attest['files']),'legacyProjectRoutes':5,'legacyDisplayRoutes':5,'htmlPages':pages,'internalLinks':links,'missingTargets':0,'newWorkflows':0,'result':'PASS'}
+    return {'projectIdentities':108,'crossRegisters':8,'publicFingerprints':len(attest['files']),'legacyProjectRoutes':6,'legacyDisplayRoutes':6,'htmlPages':pages,'internalLinks':links,'missingTargets':0,'newWorkflows':0,'result':'PASS'}
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--output',type=Path);args=parser.parse_args()

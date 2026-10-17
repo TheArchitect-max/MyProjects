@@ -26,7 +26,7 @@ vm.runInContext(source,sandbox,{filename:'assets/im.js'});
 (async()=>{
  const r=sandbox.catalogueRuntime;
  const data=await r.load();
- assert.equal(data.projects.length,105);
+ assert.equal(data.projects.length,108);
  assert(data.integrity.ok);assert(data.reconciliation.ok);
  const identities=new Map(data.identities.projects.map(p=>[p.ref,p]));
  let profileCount=0;
@@ -50,14 +50,14 @@ vm.runInContext(source,sandbox,{filename:'assets/im.js'});
   renderedPageAnchors[pageNames[name]]=anchorIds(html);
  }
  const reviews=data.valuationSourceRegister.projects;
- assert.equal(reviews.length,105);assert.equal(new Set(reviews.map(p=>p.ref)).size,105);
- const statusCounts={};for(const p of reviews){statusCounts[p.costEvidence.status]=(statusCounts[p.costEvidence.status]||0)+1;assert.equal(p.source.head,data.presentation.projects.find(x=>x.ref===p.ref).defaultBranchBaselineCommit);assert.equal(p.source.productTestsExecutedForThisReview,false)}
- assert.equal(statusCounts.LEGACY_COST_REFERENCE_ONLY,82);assert.equal(statusCounts.PARTIAL_WORK_PACKAGE_BASIS,6);assert.equal(statusCounts.BASE_AND_INCREMENT_BUDGETS_RECONCILE,8);assert.equal(statusCounts.INCREMENT_BUDGET_WITH_LEGACY_BASE,9);
+ assert.equal(reviews.length,108);assert.equal(new Set(reviews.map(p=>p.ref)).size,108);
+ const statusCounts={};for(const p of reviews){statusCounts[p.costEvidence.status]=(statusCounts[p.costEvidence.status]||0)+1;assert.equal(p.source.head,data.presentation.projects.find(x=>x.ref===p.ref).defaultBranchBaselineCommit);assert.equal(p.source.productTestsExecutedForThisReview,['TA-IP-025','TA-IP-107','TA-IP-108','TA-IP-109'].includes(p.ref))}
+ assert.equal(statusCounts.LEGACY_COST_REFERENCE_ONLY,80);assert.equal(statusCounts.PARTIAL_WORK_PACKAGE_BASIS,6);assert.equal(statusCounts.BASE_AND_INCREMENT_BUDGETS_RECONCILE,11);assert.equal(statusCounts.INCREMENT_BUDGET_WITH_LEGACY_BASE,11);
  assert.equal(reviews.filter(r=>r.incrementalReview).length,9);
  const valuationHTML=r.valuation(data);
- assert.equal((valuationHTML.match(/data-valuation-review="TA-IP-/g)||[]).length,105);
+ assert.equal((valuationHTML.match(/data-valuation-review="TA-IP-/g)||[]).length,108);
  assert(!valuationHTML.includes('Frozen MIPP source:'));
- const result={result:'PASS',runtime:'Node VM executing the actual browser data loader and HTML generators',profileRenderFunctions:profileCount,mainPageRenderFunctions:pages,individualFinancialReviews:105,costEvidenceCounts:statusCounts,registerIntegrity:true,financialReconciliation:true,browserLayoutExecuted:false};
+ const result={result:'PASS',runtime:'Node VM executing the actual browser data loader and HTML generators',profileRenderFunctions:profileCount,mainPageRenderFunctions:pages,individualFinancialReviews:108,costEvidenceCounts:statusCounts,registerIntegrity:true,financialReconciliation:true,browserLayoutExecuted:false};
  const text=JSON.stringify(result,null,2)+'\n';
  if(process.argv[2])fs.writeFileSync(process.argv[2],JSON.stringify({...result,renderedPageAnchors},null,2)+'\n');
  process.stdout.write(text);

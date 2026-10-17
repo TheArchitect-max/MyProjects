@@ -1,10 +1,10 @@
 {
-  "version": "2026.10.13-im70-repository-inventory-and-mipp",
+  "version": "2026.10.17-im77-full-review",
   "basisDate": "2026-10-13",
   "status": "COMPLETE",
   "scope": {
-    "ipAssetCount": 105,
-    "pricedAssetCount": 105,
+    "ipAssetCount": 108,
+    "pricedAssetCount": 108,
     "unpricedAssetCount": 0
   },
   "definitions": {
@@ -11809,15 +11809,15 @@
       "currentSourceReviewBoundary": "All 101 software repositories are accounted for: the 100 existing default branches and 32 open pull requests were checked, and the new Universal Video Intelligence Platform source was reviewed. Fresh local checks passed 103 TraceLine tests and 29 SCEP tests. Universal Video Intelligence Platform v0.5 passed 37 tests and a development build; its newer v0.7 mandatory syntax gate fails in new test source, so the current full suite and build were not reached and its transfer classification is NOT_READY. TrueLane mandatory validation passed: 95 tests ran, 80 passed and 15 optional PyTorch tests were skipped; no new CUDA or Drive adapter execution is claimed. Changed source, retained validation and unmerged candidates are kept separate. The SCEP checkpoint manifest and tree inventory were reviewed; binary download, restoration and numerical replay were not performed. Prices change only for three implemented main-branch increments and the new Universal Video Intelligence Platform prototype. All 97 other existing prices and all 100 existing maturity and readiness classifications are retained. The new Universal Video Intelligence Platform prototype has an explicit current-source validation blocker. Website repositories are excluded digital displays. No independent legal, scientific, security or market certification is implied."
     },
     {
-      "repository": "Sensor-Fusion-Digital-Twin-Engine",
-      "slug": "sensor-fusion-digital-twin-engine",
+      "repository": "Universal-Sensor-Fusion-Digital-Twin-Intelligence-Platform",
+      "slug": "universal-sensor-fusion-digital-twin-intelligence-platform",
       "identityName": "Artemis",
       "commercialReference": "TA-IP-025",
-      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "commercialStatus": "SELLER_REFERENCE_ESTABLISHED",
       "currentStage": "V",
-      "sellerAskEUR": 235000,
-      "baselineCommit": "18bfbb95f3369630f680503de7139cf9ea150bb9",
-      "auditStatus": "CURRENT_REPOSITORY_REASSESSMENT_COMPLETE",
+      "sellerAskEUR": 240000,
+      "baselineCommit": "34e0091687497b62162f6c5056c8f503f7f0751c",
+      "auditStatus": "COMPLETE",
       "assurance": {
         "technicalMaturity": "V",
         "evidenceMaturity": "E3",
@@ -11827,144 +11827,158 @@
       },
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "evidence": {
-        "EV-TECH-001": {
-          "kind": "implementation",
-          "path": "bridge/calibration_bridge.py",
-          "gitBlobSha": "99b0de48a7ac67e8abacbd7becfc04a598083bf3",
-          "baselineCommit": "18bfbb95f3369630f680503de7139cf9ea150bb9"
+        "EV-SRC-003": {
+          "kind": "reviewed-source-and-scope",
+          "path": "CHANGELOG.md",
+          "gitBlobSha": "6e8209dfca6417135ae2c4796d775e50e5e5ff25",
+          "baselineCommit": "34e0091687497b62162f6c5056c8f503f7f0751c"
         },
-        "EV-TEST-001": {
-          "kind": "tests",
-          "path": "tests/test_integration.py",
-          "gitBlobSha": "39e58debf6e848f7565461c07d34900b7b2fc518",
-          "baselineCommit": "18bfbb95f3369630f680503de7139cf9ea150bb9"
-        },
-        "EV-VAL-001": {
-          "kind": "validation",
-          "path": "scripts/validate_release.py",
-          "gitBlobSha": "a2b134581083878d2e6a747fa91518e64e0c7a5d",
-          "baselineCommit": "18bfbb95f3369630f680503de7139cf9ea150bb9"
-        },
-        "EV-IP-001": {
-          "kind": "repository-licence",
+        "EV-SRC-004": {
+          "kind": "reviewed-source-and-scope",
           "path": "LICENSE",
           "gitBlobSha": "398d276b05a9625c2bbb83dc49f88a491b4b1d5e",
-          "baselineCommit": "18bfbb95f3369630f680503de7139cf9ea150bb9"
+          "baselineCommit": "34e0091687497b62162f6c5056c8f503f7f0751c"
         },
-        "EV-DEP-001": {
-          "kind": "dependency-manifest",
+        "EV-SRC-005": {
+          "kind": "reviewed-source-and-scope",
+          "path": "README.md",
+          "gitBlobSha": "14ff3fcac09d29b1dab339bf6a1c69a57797d761",
+          "baselineCommit": "34e0091687497b62162f6c5056c8f503f7f0751c"
+        },
+        "EV-SRC-017": {
+          "kind": "reviewed-source-and-scope",
           "path": "pyproject.toml",
-          "gitBlobSha": "f41c68c65bf51cd1bdd04bfe8ff8e1c82c779ab0",
-          "baselineCommit": "18bfbb95f3369630f680503de7139cf9ea150bb9"
-        },
-        "EV-PROV-001": {
-          "kind": "provenance",
-          "path": "twin/runtime/provenance.py",
-          "gitBlobSha": "3ae2f318053992159171dbad3557e98bf2365cb6",
-          "baselineCommit": "18bfbb95f3369630f680503de7139cf9ea150bb9"
+          "gitBlobSha": "418e46da68031ce7048257cbacf445694165d379",
+          "baselineCommit": "34e0091687497b62162f6c5056c8f503f7f0751c"
         }
       },
       "dependencySummary": {
         "manifestCount": 1,
         "lockfileCount": 0,
-        "sbomCount": 0,
+        "sbomCount": 1,
         "manifests": [
           "pyproject.toml"
         ],
         "locks": [],
-        "sbomFiles": []
+        "sbomFiles": [
+          "SBOM.spdx.json"
+        ]
       },
       "rightsSummary": {
         "licenceFiles": [
-          "LICENSE"
+          "LICENSE",
+          "THIRD_PARTY_NOTICES.md"
         ],
         "thirdPartyFiles": [
-          "LICENSE"
+          "THIRD_PARTY_NOTICES.md"
         ],
         "legalTitleOpinion": "NOT_PERFORMED",
         "ftoOpinion": "NOT_PERFORMED"
       },
       "securitySummary": {
-        "securityFiles": [],
+        "securityFiles": [
+          "SECURITY.md"
+        ],
         "sensitiveFilenameIndicators": [],
         "independentPenetrationTest": "NOT_ASSUMED"
       },
       "transferSummary": {
         "buildReleaseEvidence": [
-          "pyproject.toml",
-          "scripts/validate_release.py"
+          "pyproject.toml"
         ],
         "provenanceEvidence": [
-          "twin/runtime/provenance.py"
+          "README.md"
         ],
-        "transferEvidence": []
+        "transferEvidence": [
+          "LICENSE",
+          "THIRD_PARTY_NOTICES.md"
+        ],
+        "transferEvidenceBoundary": "All 60 Git blobs verified; 73 local Python tests passed on the exact v1.8.0 snapshot. This is software testing, not physical-system or production certification."
       },
       "openSellerItems": [
-        "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
-        "A security assessment or an explicit statement of its absence is required before acceptance.",
-        "An explicit delivery manifest and handover scope remain to be agreed."
+        "Agree exact first-party rights, component obligations and excluded content in the definitive agreement.",
+        "Freeze a release-specific delivery manifest and complete recipient acceptance.",
+        "Complete independent security review or expressly accept its absence within the local reference scope.",
+        "Review the unmerged v1.8.1 candidate separately.",
+        "Qualify physical-domain models, representative telemetry and production conditions."
       ],
-      "externalOrBuyerSideItems": [
-        "Independent legal ownership/title opinion not performed by this internal audit.",
-        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
-        "Independent penetration test not assumed unless separately evidenced."
-      ],
-      "assessmentDate": "2026-10-12",
-      "assessedAt": "2026-10-12T00:19:02Z",
+      "externalOrBuyerSideItems": [],
+      "assessmentDate": "2026-10-17",
+      "assessedAt": "2026-10-17T06:30:00Z",
       "previousAssessmentDate": "2026-10-10",
       "previousBaselineCommit": "18bfbb95f3369630f680503de7139cf9ea150bb9",
-      "defaultBranchBaselineCommit": "18bfbb95f3369630f680503de7139cf9ea150bb9",
+      "defaultBranchBaselineCommit": "34e0091687497b62162f6c5056c8f503f7f0751c",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "reviewResult": "UPDATED",
       "ref": "TA-IP-025",
       "previousAssessedAt": "2026-10-09T10:15:23Z",
-      "sourceRecheckedAt": "2026-10-12T09:21:42Z",
+      "sourceRecheckedAt": "2026-10-17T06:30:00Z",
       "readinessAssessment": {
-        "assessedAt": "2026-10-12T00:19:02Z",
-        "sourceEvidenceAssessedAt": "2026-10-10T08:52:15Z",
-        "basis": "DISCLOSURE_OF_RETAINED_REPOSITORY_ASSESSMENT",
+        "assessedAt": "2026-10-17T06:30:00Z",
+        "sourceEvidenceAssessedAt": "2026-10-17T06:30:00Z",
+        "basis": "SOURCE_BYTE_AND_LOCAL_CHECK_REVIEW",
         "decision": "READY_WITH_CONDITIONS",
-        "decisionBasis": "The recorded handover basis also includes validation, build/release and dependency evidence. A completed, accepted delivery package is not established; close the listed conditions for your intended transaction.",
-        "transferClosure": "NOT_ESTABLISHED",
+        "decisionBasis": "All 60 Git blobs verified; 73 local Python tests passed on the exact v1.8.0 snapshot. This is software testing, not physical-system or production certification. The separate v1.8.1 hardening PR is unmerged and excluded from the v1.8.0 cost scope. Domain calibration, physical sensor accuracy and production acceptance remain open.",
+        "transferClosure": "OPEN_SELLER_ITEMS",
         "readyGate": "NOT_ESTABLISHED",
-        "openConditionCount": 4,
+        "openConditionCount": 5,
         "criteria": [
           {
             "axis": "technicalMaturity",
             "label": "Technical scope",
             "grade": "V",
-            "criterion": "Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance."
+            "criterion": "Adds coordinated single-writer runtime, fencing/idempotency controls, transparent scenario decisions and deterministic multi-source telemetry alignment with replayable provenance."
           },
           {
             "axis": "evidenceMaturity",
             "label": "Evidence and validation",
             "grade": "E3",
-            "criterion": "Tests, validation and provenance/release evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results."
+            "criterion": "All 60 Git blobs verified; 73 local Python tests passed on the exact v1.8.0 snapshot. This is software testing, not physical-system or production certification."
           },
           {
             "axis": "ipRightsMaturity",
             "label": "Rights and component obligations",
             "grade": "R2",
-            "criterion": "R1 plus dependency/third-party disclosure basis identified. This grade concerns documented rights evidence. Missing documentation does not establish that first-party ownership is absent."
+            "criterion": "Proprietary declaration and repository notices reviewed; independent chain of title and freedom to operate remain unestablished."
           },
           {
             "axis": "commercialMaturity",
             "label": "Commercial basis",
             "grade": "C2",
-            "criterion": "Seller ask and reproducible economic reference established. A published asking reference does not establish a completed sale, income or an independent appraisal."
+            "criterion": "Explicit low-effort cost assumptions and seller asking choice; no independently determined market or income value."
           },
           {
             "axis": "transferReadiness",
             "label": "Delivery and handover",
             "grade": "T3",
-            "criterion": "T2 plus validation, build/release and dependency-disclosure evidence. Your agreed delivery scope and the conditions below govern acceptance."
+            "criterion": "Source, tests and instructions inspected; exact rights, manifest and recipient acceptance remain open."
           }
         ],
-        "evidenceBoundary": "The grades describe recorded repository evidence, not a fresh execution of every test or independent legal, security or market certification. External execution can mean a retained Colab run; it does not automatically mean an independent assessor."
+        "evidenceBoundary": "All 60 Git blobs verified; 73 local Python tests passed on the exact v1.8.0 snapshot. This is software testing, not physical-system or production certification."
       },
       "financialReferencesReviewedAt": "2026-10-12T09:21:42Z",
-      "currentSourceReviewBoundary": "All 101 software repositories are accounted for: the 100 existing default branches and 32 open pull requests were checked, and the new Universal Video Intelligence Platform source was reviewed. Fresh local checks passed 103 TraceLine tests and 29 SCEP tests. Universal Video Intelligence Platform v0.5 passed 37 tests and a development build; its newer v0.7 mandatory syntax gate fails in new test source, so the current full suite and build were not reached and its transfer classification is NOT_READY. TrueLane mandatory validation passed: 95 tests ran, 80 passed and 15 optional PyTorch tests were skipped; no new CUDA or Drive adapter execution is claimed. Changed source, retained validation and unmerged candidates are kept separate. The SCEP checkpoint manifest and tree inventory were reviewed; binary download, restoration and numerical replay were not performed. Prices change only for three implemented main-branch increments and the new Universal Video Intelligence Platform prototype. All 97 other existing prices and all 100 existing maturity and readiness classifications are retained. The new Universal Video Intelligence Platform prototype has an explicit current-source validation blocker. Website repositories are excluded digital displays. No independent legal, scientific, security or market certification is implied."
+      "currentSourceReviewBoundary": "All 60 Git blobs verified; 73 local Python tests passed on the exact v1.8.0 snapshot. This is software testing, not physical-system or production certification.",
+      "independentIpAsset": true,
+      "localVerification": {
+        "sourceHead": "34e0091687497b62162f6c5056c8f503f7f0751c",
+        "sourceKind": "main",
+        "sourceFilesByteVerified": 60,
+        "assessedAt": "2026-10-17T06:30:00Z",
+        "independentValidation": false,
+        "commands": [
+          {
+            "name": "python-suite",
+            "testsRun": 73,
+            "passed": true
+          }
+        ],
+        "fullProductSuiteExecuted": true,
+        "browserGUIAcceptanceExecuted": false,
+        "physicalQualificationExecuted": false
+      },
+      "scopeDocument": "docs/PORTFOLIO_REEVALUATION_2026-10-17.md",
+      "economicAssessmentAt": "2026-10-17T06:30:00Z",
+      "pricingScope": "Present first-party v1.8.0 software at 34e0091687497b62162f6c5056c8f503f7f0751c. The separate v1.8.1 hardening PR is unmerged and excluded from the v1.8.0 cost scope. Domain calibration, physical sensor accuracy and production acceptance remain open."
     },
     {
       "repository": "Signal-Processing-Universal-Framework",
@@ -12820,11 +12834,11 @@
       "slug": "stabilitymesh",
       "identityName": "Ariadne",
       "commercialReference": "TA-IP-003",
-      "commercialStatus": "PRICED_STANDALONE_ASSET",
+      "commercialStatus": "SELLER_REFERENCE_ESTABLISHED",
       "currentStage": "V",
-      "sellerAskEUR": 200000,
-      "baselineCommit": "6a6e04b1db4a7c641a1de99671780fc22ccf9aaf",
-      "auditStatus": "CURRENT_REPOSITORY_REASSESSMENT_COMPLETE",
+      "sellerAskEUR": 205000,
+      "baselineCommit": "6f4b028eb34a35c17d9c73a008a14ffc346f6ee7",
+      "auditStatus": "COMPLETE",
       "assurance": {
         "technicalMaturity": "V",
         "evidenceMaturity": "E2",
@@ -12834,41 +12848,29 @@
       },
       "transactionReadiness": "READY_WITH_CONDITIONS",
       "evidence": {
-        "EV-TECH-001": {
-          "kind": "implementation",
-          "path": "scripts/run-chaos.sh",
-          "gitBlobSha": "4f296c90fbbff43c11a85a2575e9dce910a73a53",
-          "baselineCommit": "6a6e04b1db4a7c641a1de99671780fc22ccf9aaf"
+        "EV-SRC-003": {
+          "kind": "reviewed-source-and-scope",
+          "path": "CHANGELOG.md",
+          "gitBlobSha": "299ba75c27827c54a6497c1d097e23765f6d4c50",
+          "baselineCommit": "6f4b028eb34a35c17d9c73a008a14ffc346f6ee7"
         },
-        "EV-TEST-001": {
-          "kind": "tests",
-          "path": "tests/__init__.py",
-          "gitBlobSha": "c97878a5a79c2b982cc164910360b9dd9f677f11",
-          "baselineCommit": "6a6e04b1db4a7c641a1de99671780fc22ccf9aaf"
-        },
-        "EV-VAL-001": {
-          "kind": "validation",
-          "path": "scripts/validate.py",
-          "gitBlobSha": "a397cc5f251d1af9a3ac5505cbf4b9aeec76d2e1",
-          "baselineCommit": "6a6e04b1db4a7c641a1de99671780fc22ccf9aaf"
-        },
-        "EV-IP-001": {
-          "kind": "repository-licence",
+        "EV-SRC-006": {
+          "kind": "reviewed-source-and-scope",
           "path": "LICENSE",
           "gitBlobSha": "6e51fb1d1563f410f6b11020ac653dafd7beb26a",
-          "baselineCommit": "6a6e04b1db4a7c641a1de99671780fc22ccf9aaf"
+          "baselineCommit": "6f4b028eb34a35c17d9c73a008a14ffc346f6ee7"
         },
-        "EV-DEP-001": {
-          "kind": "dependency-manifest",
+        "EV-SRC-008": {
+          "kind": "reviewed-source-and-scope",
+          "path": "README.md",
+          "gitBlobSha": "6b8a14de1918057f9df37cdc22b8ef3925160138",
+          "baselineCommit": "6f4b028eb34a35c17d9c73a008a14ffc346f6ee7"
+        },
+        "EV-SRC-028": {
+          "kind": "reviewed-source-and-scope",
           "path": "pyproject.toml",
-          "gitBlobSha": "32ba991532e1a7a1e97394288c840651ad56c671",
-          "baselineCommit": "6a6e04b1db4a7c641a1de99671780fc22ccf9aaf"
-        },
-        "EV-SEC-001": {
-          "kind": "security",
-          "path": "SECURITY.md",
-          "gitBlobSha": "14d998d9ca8daff89ab49a805f3669c762fc49d1",
-          "baselineCommit": "6a6e04b1db4a7c641a1de99671780fc22ccf9aaf"
+          "gitBlobSha": "7fa677c9772507fd0aa3b45438edf524d3afeed2",
+          "baselineCommit": "6f4b028eb34a35c17d9c73a008a14ffc346f6ee7"
         }
       },
       "dependencySummary": {
@@ -12883,10 +12885,11 @@
       },
       "rightsSummary": {
         "licenceFiles": [
-          "LICENSE"
+          "LICENSE",
+          "docs/THIRD_PARTY_DATA.md"
         ],
         "thirdPartyFiles": [
-          "LICENSE"
+          "docs/THIRD_PARTY_DATA.md"
         ],
         "legalTitleOpinion": "NOT_PERFORMED",
         "ftoOpinion": "NOT_PERFORMED"
@@ -12900,80 +12903,101 @@
       },
       "transferSummary": {
         "buildReleaseEvidence": [
-          "Dockerfile",
-          "Makefile",
-          "pyproject.toml",
-          "scripts/validate.py"
+          "pyproject.toml"
         ],
-        "provenanceEvidence": [],
-        "transferEvidence": []
+        "provenanceEvidence": [
+          "README.md"
+        ],
+        "transferEvidence": [
+          "LICENSE",
+          "docs/THIRD_PARTY_DATA.md"
+        ],
+        "transferEvidenceBoundary": "All 92 Git blobs verified. Eleven repository-native static gates passed, including parsing 61 Python files. Full dependency-based tests and external-data campaigns were not rerun."
       },
       "openSellerItems": [
-        "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
-        "Release identity and provenance evidence remain incomplete.",
-        "An explicit delivery manifest and handover scope remain to be agreed."
+        "Agree exact first-party rights, component obligations and excluded content in the definitive agreement.",
+        "Freeze a release-specific delivery manifest and complete recipient acceptance.",
+        "Complete independent security review or expressly accept its absence within the local reference scope.",
+        "Run the full dependency-based release suite and retain its source-pinned receipt.",
+        "Qualify genuinely labeled operational outcomes and the intended environment; external workload traces alone do not supply those labels."
       ],
-      "externalOrBuyerSideItems": [
-        "Independent legal ownership/title opinion not performed by this internal audit.",
-        "Freedom-to-operate legal opinion not performed unless separately evidenced.",
-        "Independent penetration test not assumed unless separately evidenced."
-      ],
-      "assessmentDate": "2026-10-12",
-      "assessedAt": "2026-10-12T00:19:02Z",
+      "externalOrBuyerSideItems": [],
+      "assessmentDate": "2026-10-17",
+      "assessedAt": "2026-10-17T06:30:00Z",
       "previousAssessmentDate": "2026-10-10",
       "previousBaselineCommit": "6a6e04b1db4a7c641a1de99671780fc22ccf9aaf",
-      "defaultBranchBaselineCommit": "6a6e04b1db4a7c641a1de99671780fc22ccf9aaf",
+      "defaultBranchBaselineCommit": "6f4b028eb34a35c17d9c73a008a14ffc346f6ee7",
       "sourceScope": "DEFAULT_BRANCH",
-      "reviewResult": "RECONFIRMED_AFTER_BASELINE_COMPARISON",
+      "reviewResult": "UPDATED",
       "ref": "TA-IP-003",
       "previousAssessedAt": "2026-10-09T10:15:23Z",
-      "sourceRecheckedAt": "2026-10-12T09:21:42Z",
+      "sourceRecheckedAt": "2026-10-17T06:30:00Z",
       "readinessAssessment": {
-        "assessedAt": "2026-10-12T00:19:02Z",
-        "sourceEvidenceAssessedAt": "2026-10-10T08:52:15Z",
-        "basis": "DISCLOSURE_OF_RETAINED_REPOSITORY_ASSESSMENT",
+        "assessedAt": "2026-10-17T06:30:00Z",
+        "sourceEvidenceAssessedAt": "2026-10-17T06:30:00Z",
+        "basis": "SOURCE_BYTE_AND_LOCAL_CHECK_REVIEW",
         "decision": "READY_WITH_CONDITIONS",
-        "decisionBasis": "The recorded handover basis also includes validation, build/release and dependency evidence. A completed, accepted delivery package is not established; close the listed conditions for your intended transaction.",
-        "transferClosure": "NOT_ESTABLISHED",
+        "decisionBasis": "All 92 Git blobs verified. Eleven repository-native static gates passed, including parsing 61 Python files. Full dependency-based tests and external-data campaigns were not rerun. Measured external workloads remain separate from simulated controller responses. Operational calibration on genuinely labeled outcomes, environment-specific acceptance and production deployment remain open. v1.9.1 is a metadata/transfer patch over the v1.9 functional baseline.",
+        "transferClosure": "OPEN_SELLER_ITEMS",
         "readyGate": "NOT_ESTABLISHED",
-        "openConditionCount": 4,
+        "openConditionCount": 5,
         "criteria": [
           {
             "axis": "technicalMaturity",
             "label": "Technical scope",
             "grade": "V",
-            "criterion": "Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance."
+            "criterion": "Adds hash-bound evidence custody, guarded local infrastructure qualification, Alibaba/Azure measured-trace adapters, full-trace sensitivity and operational outcome/readiness contracts."
           },
           {
             "axis": "evidenceMaturity",
             "label": "Evidence and validation",
             "grade": "E2",
-            "criterion": "Tests plus validation/qualification evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results."
+            "criterion": "All 92 Git blobs verified. Eleven repository-native static gates passed, including parsing 61 Python files. Full dependency-based tests and external-data campaigns were not rerun."
           },
           {
             "axis": "ipRightsMaturity",
             "label": "Rights and component obligations",
             "grade": "R2",
-            "criterion": "R1 plus dependency/third-party disclosure basis identified. This grade concerns documented rights evidence. Missing documentation does not establish that first-party ownership is absent."
+            "criterion": "Proprietary declaration and repository notices reviewed; independent chain of title and freedom to operate remain unestablished."
           },
           {
             "axis": "commercialMaturity",
             "label": "Commercial basis",
             "grade": "C2",
-            "criterion": "Seller ask and reproducible economic reference established. A published asking reference does not establish a completed sale, income or an independent appraisal."
+            "criterion": "Explicit low-effort cost assumptions and seller asking choice; no independently determined market or income value."
           },
           {
             "axis": "transferReadiness",
             "label": "Delivery and handover",
             "grade": "T3",
-            "criterion": "T2 plus validation, build/release and dependency-disclosure evidence. Your agreed delivery scope and the conditions below govern acceptance."
+            "criterion": "Source, tests and instructions inspected; exact rights, manifest and recipient acceptance remain open."
           }
         ],
-        "evidenceBoundary": "The grades describe recorded repository evidence, not a fresh execution of every test or independent legal, security or market certification. External execution can mean a retained Colab run; it does not automatically mean an independent assessor."
+        "evidenceBoundary": "All 92 Git blobs verified. Eleven repository-native static gates passed, including parsing 61 Python files. Full dependency-based tests and external-data campaigns were not rerun."
       },
       "financialReferencesReviewedAt": "2026-10-12T09:21:42Z",
-      "currentSourceReviewBoundary": "All 101 software repositories are accounted for: the 100 existing default branches and 32 open pull requests were checked, and the new Universal Video Intelligence Platform source was reviewed. Fresh local checks passed 103 TraceLine tests and 29 SCEP tests. Universal Video Intelligence Platform v0.5 passed 37 tests and a development build; its newer v0.7 mandatory syntax gate fails in new test source, so the current full suite and build were not reached and its transfer classification is NOT_READY. TrueLane mandatory validation passed: 95 tests ran, 80 passed and 15 optional PyTorch tests were skipped; no new CUDA or Drive adapter execution is claimed. Changed source, retained validation and unmerged candidates are kept separate. The SCEP checkpoint manifest and tree inventory were reviewed; binary download, restoration and numerical replay were not performed. Prices change only for three implemented main-branch increments and the new Universal Video Intelligence Platform prototype. All 97 other existing prices and all 100 existing maturity and readiness classifications are retained. The new Universal Video Intelligence Platform prototype has an explicit current-source validation blocker. Website repositories are excluded digital displays. No independent legal, scientific, security or market certification is implied."
+      "currentSourceReviewBoundary": "All 92 Git blobs verified. Eleven repository-native static gates passed, including parsing 61 Python files. Full dependency-based tests and external-data campaigns were not rerun.",
+      "independentIpAsset": true,
+      "localVerification": {
+        "sourceHead": "6f4b028eb34a35c17d9c73a008a14ffc346f6ee7",
+        "sourceKind": "main",
+        "sourceFilesByteVerified": 92,
+        "assessedAt": "2026-10-17T06:30:00Z",
+        "independentValidation": false,
+        "commands": [
+          {
+            "name": "repository-static-gates",
+            "checksRun": 11,
+            "passed": true
+          }
+        ],
+        "fullProductSuiteExecuted": false,
+        "browserGUIAcceptanceExecuted": false,
+        "physicalQualificationExecuted": false
+      },
+      "scopeDocument": "docs/PORTFOLIO_REEVALUATION_2026-10-17.md",
+      "economicAssessmentAt": "2026-10-17T06:30:00Z",
+      "pricingScope": "Present first-party v1.9.1 software at 6f4b028eb34a35c17d9c73a008a14ffc346f6ee7. Measured external workloads remain separate from simulated controller responses. Operational calibration on genuinely labeled outcomes, environment-specific acceptance and production deployment remain open. v1.9.1 is a metadata/transfer patch over the v1.9 functional baseline."
     },
     {
       "repository": "TLS-Virtual-1",
@@ -18359,19 +18383,491 @@
       "sellerAskEUR": 21000,
       "economicAssessmentAt": "2026-10-13T04:20:04Z",
       "pricingScope": "Existing first-party v0.1.0 local manuscript authoring, DOCX assembly, evidence-linked eight-gate/40-stage quality workflow, defect and change controls, explicit author release authorization, read-only dashboard, manual Draft2Digital handoff, tests and documentation at the frozen repository baseline. The embedded author-supplied protocol must have separately agreed use/transfer rights. Author manuscripts, creative archive ownership, author identity/pen-name rights, third-party services and templates, separately staged v0.2–v0.5 application code, automated literary/factual certification, autonomous book generation, live distribution and future SaaS are outside this price."
+    },
+    {
+      "ref": "TA-IP-107",
+      "slug": "universal-property-intelligence-platform",
+      "repository": "Universal-Property-Intelligence-Platform",
+      "identityName": "Vesta",
+      "commercialReference": "TA-IP-107",
+      "commercialStatus": "SELLER_REFERENCE_ESTABLISHED",
+      "currentStage": "P",
+      "independentIpAsset": true,
+      "auditStatus": "COMPLETE",
+      "externalOrBuyerSideItems": [],
+      "baselineCommit": "89ba8b4096062c3f893c692b58e62607dc03b3ea",
+      "defaultBranchBaselineCommit": "89ba8b4096062c3f893c692b58e62607dc03b3ea",
+      "sourceScope": "DEFAULT_BRANCH",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E2",
+        "ipRightsMaturity": "R1",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T2"
+      },
+      "transactionReadiness": "READY_WITH_CONDITIONS",
+      "assessmentDate": "2026-10-17",
+      "assessedAt": "2026-10-17T06:30:00Z",
+      "reviewResult": "UPDATED",
+      "openSellerItems": [
+        "Agree exact first-party rights, component obligations and excluded content in the definitive agreement.",
+        "Freeze a release-specific delivery manifest and complete recipient acceptance.",
+        "Complete independent security review or expressly accept its absence within the local reference scope.",
+        "Qualify realistic, permissioned property evidence, strengthen hash/ontology checks and agree rights and recipient acceptance."
+      ],
+      "currentSourceReviewBoundary": "All 30 Git blobs verified; all 7 local Python tests passed on the exact v0.1.0 snapshot.",
+      "readinessAssessment": {
+        "assessedAt": "2026-10-17T06:30:00Z",
+        "sourceEvidenceAssessedAt": "2026-10-17T06:30:00Z",
+        "basis": "SOURCE_BYTE_AND_LOCAL_CHECK_REVIEW",
+        "decision": "READY_WITH_CONDITIONS",
+        "decisionBasis": "All 30 Git blobs verified; all 7 local Python tests passed on the exact v0.1.0 snapshot. No automatic extraction from photographs/video, certified property appraisal, verified insurance value, production integration or real-property accuracy is established. Reference Property 001 is synthetic demonstration evidence.",
+        "transferClosure": "OPEN_SELLER_ITEMS",
+        "readyGate": "NOT_ESTABLISHED",
+        "openConditionCount": 4,
+        "criteria": [
+          {
+            "axis": "technicalMaturity",
+            "label": "Technical scope",
+            "grade": "P",
+            "criterion": "A standard-library property evidence core with hierarchy, observed/declared/inferred records, deterministic low/base/high replacement estimates, condition/risk fields, graph and JSON/CSV exports."
+          },
+          {
+            "axis": "evidenceMaturity",
+            "label": "Evidence and validation",
+            "grade": "E2",
+            "criterion": "All 30 Git blobs verified; all 7 local Python tests passed on the exact v0.1.0 snapshot."
+          },
+          {
+            "axis": "ipRightsMaturity",
+            "label": "Rights and component obligations",
+            "grade": "R1",
+            "criterion": "Proprietary declaration and repository notices reviewed; independent chain of title and freedom to operate remain unestablished."
+          },
+          {
+            "axis": "commercialMaturity",
+            "label": "Commercial basis",
+            "grade": "C2",
+            "criterion": "Explicit low-effort cost assumptions and seller asking choice; no independently determined market or income value."
+          },
+          {
+            "axis": "transferReadiness",
+            "label": "Delivery and handover",
+            "grade": "T2",
+            "criterion": "Source, tests and instructions inspected; exact rights, manifest and recipient acceptance remain open."
+          }
+        ],
+        "evidenceBoundary": "All 30 Git blobs verified; all 7 local Python tests passed on the exact v0.1.0 snapshot."
+      },
+      "evidence": {
+        "EV-SRC-002": {
+          "kind": "reviewed-source-and-scope",
+          "path": "CHANGELOG.md",
+          "gitBlobSha": "c8dc7e1f3a6b6befcad081afac1c7aec25fecd9a",
+          "baselineCommit": "89ba8b4096062c3f893c692b58e62607dc03b3ea"
+        },
+        "EV-SRC-003": {
+          "kind": "reviewed-source-and-scope",
+          "path": "LICENSE",
+          "gitBlobSha": "ce1ccd6d2798ff650e449bab9cdae4cc8e51b2a5",
+          "baselineCommit": "89ba8b4096062c3f893c692b58e62607dc03b3ea"
+        },
+        "EV-SRC-004": {
+          "kind": "reviewed-source-and-scope",
+          "path": "README.md",
+          "gitBlobSha": "202fd7edee4e97dbd72ff2be25eb9edb18bef7dd",
+          "baselineCommit": "89ba8b4096062c3f893c692b58e62607dc03b3ea"
+        },
+        "EV-SRC-012": {
+          "kind": "reviewed-source-and-scope",
+          "path": "docs/VALIDATION.md",
+          "gitBlobSha": "a501ca0b22c9e3a0e601a632152d9fb545a6d9e4",
+          "baselineCommit": "89ba8b4096062c3f893c692b58e62607dc03b3ea"
+        },
+        "EV-SRC-016": {
+          "kind": "reviewed-source-and-scope",
+          "path": "pyproject.toml",
+          "gitBlobSha": "06b438a99f85e2581b3d274c6b320f3942dad41d",
+          "baselineCommit": "89ba8b4096062c3f893c692b58e62607dc03b3ea"
+        }
+      },
+      "dependencySummary": {
+        "manifestCount": 1,
+        "lockfileCount": 0,
+        "sbomCount": 0,
+        "manifests": [
+          "pyproject.toml"
+        ],
+        "locks": [],
+        "sbomFiles": []
+      },
+      "rightsSummary": {
+        "licenceFiles": [
+          "LICENSE"
+        ],
+        "thirdPartyFiles": [],
+        "legalTitleOpinion": "NOT_PERFORMED",
+        "ftoOpinion": "NOT_PERFORMED"
+      },
+      "securitySummary": {
+        "securityFiles": [
+          "SECURITY.md"
+        ],
+        "sensitiveFilenameIndicators": [],
+        "independentPenetrationTest": "NOT_ASSUMED"
+      },
+      "transferSummary": {
+        "buildReleaseEvidence": [
+          "pyproject.toml"
+        ],
+        "provenanceEvidence": [
+          "README.md"
+        ],
+        "transferEvidence": [
+          "LICENSE"
+        ],
+        "transferEvidenceBoundary": "All 30 Git blobs verified; all 7 local Python tests passed on the exact v0.1.0 snapshot."
+      },
+      "localVerification": {
+        "sourceHead": "89ba8b4096062c3f893c692b58e62607dc03b3ea",
+        "sourceKind": "main",
+        "sourceFilesByteVerified": 30,
+        "assessedAt": "2026-10-17T06:30:00Z",
+        "independentValidation": false,
+        "commands": [
+          {
+            "name": "unit-tests",
+            "testsRun": 7,
+            "passed": true
+          }
+        ],
+        "fullProductSuiteExecuted": true,
+        "browserGUIAcceptanceExecuted": false,
+        "physicalQualificationExecuted": false
+      },
+      "sourceRecheckedAt": "2026-10-17T06:30:00Z",
+      "scopeDocument": "docs/PORTFOLIO_REEVALUATION_2026-10-17.md",
+      "sellerAskEUR": 4000,
+      "economicAssessmentAt": "2026-10-17T06:30:00Z",
+      "pricingScope": "Present first-party v0.1.0 software at 89ba8b4096062c3f893c692b58e62607dc03b3ea. No automatic extraction from photographs/video, certified property appraisal, verified insurance value, production integration or real-property accuracy is established. Reference Property 001 is synthetic demonstration evidence."
+    },
+    {
+      "ref": "TA-IP-108",
+      "slug": "visual-effects-spatial-computing-platform",
+      "repository": "Visual-Effects-Spatial-Computing-Platform",
+      "identityName": "Asteria",
+      "commercialReference": "TA-IP-108",
+      "commercialStatus": "SELLER_REFERENCE_ESTABLISHED",
+      "currentStage": "P",
+      "independentIpAsset": true,
+      "auditStatus": "COMPLETE",
+      "externalOrBuyerSideItems": [],
+      "baselineCommit": "fc4dcff6141f6817076b6cb8a6e304aa81916f05",
+      "defaultBranchBaselineCommit": "fc4dcff6141f6817076b6cb8a6e304aa81916f05",
+      "sourceScope": "DEFAULT_BRANCH",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E2",
+        "ipRightsMaturity": "R1",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T2"
+      },
+      "transactionReadiness": "READY_WITH_CONDITIONS",
+      "assessmentDate": "2026-10-17",
+      "assessedAt": "2026-10-17T06:30:00Z",
+      "reviewResult": "UPDATED",
+      "openSellerItems": [
+        "Agree exact first-party rights, component obligations and excluded content in the definitive agreement.",
+        "Freeze a release-specific delivery manifest and complete recipient acceptance.",
+        "Complete independent security review or expressly accept its absence within the local reference scope.",
+        "Perform source-pinned browser GUI acceptance and continue the independent roadmap with explicit device and export gates."
+      ],
+      "currentSourceReviewBoundary": "All 24 Git blobs verified; 24 JavaScript model/graph tests and 5 Python policy/server tests passed. Browser GUI/device acceptance was not rerun.",
+      "readinessAssessment": {
+        "assessedAt": "2026-10-17T06:30:00Z",
+        "sourceEvidenceAssessedAt": "2026-10-17T06:30:00Z",
+        "basis": "SOURCE_BYTE_AND_LOCAL_CHECK_REVIEW",
+        "decision": "READY_WITH_CONDITIONS",
+        "decisionBasis": "All 24 Git blobs verified; 24 JavaScript model/graph tests and 5 Python policy/server tests passed. Browser GUI/device acceptance was not rerun. R1 is a development alpha. Full browser interaction acceptance, hardware camera checks, genuine 3D, AR/VR/XR, computer vision, physics, AI, video encoding and production packaging remain open. Architectural isolation is mandatory: no integration or shared code with other portfolio projects.",
+        "transferClosure": "OPEN_SELLER_ITEMS",
+        "readyGate": "NOT_ESTABLISHED",
+        "openConditionCount": 4,
+        "criteria": [
+          {
+            "axis": "technicalMaturity",
+            "label": "Technical scope",
+            "grade": "P",
+            "criterion": "An independent local 2D Canvas editor with shape/text layers, timeline/keyframes, validated JSON import/export and a typed deterministic visual-effect graph."
+          },
+          {
+            "axis": "evidenceMaturity",
+            "label": "Evidence and validation",
+            "grade": "E2",
+            "criterion": "All 24 Git blobs verified; 24 JavaScript model/graph tests and 5 Python policy/server tests passed. Browser GUI/device acceptance was not rerun."
+          },
+          {
+            "axis": "ipRightsMaturity",
+            "label": "Rights and component obligations",
+            "grade": "R1",
+            "criterion": "Proprietary declaration and repository notices reviewed; independent chain of title and freedom to operate remain unestablished."
+          },
+          {
+            "axis": "commercialMaturity",
+            "label": "Commercial basis",
+            "grade": "C2",
+            "criterion": "Explicit low-effort cost assumptions and seller asking choice; no independently determined market or income value."
+          },
+          {
+            "axis": "transferReadiness",
+            "label": "Delivery and handover",
+            "grade": "T2",
+            "criterion": "Source, tests and instructions inspected; exact rights, manifest and recipient acceptance remain open."
+          }
+        ],
+        "evidenceBoundary": "All 24 Git blobs verified; 24 JavaScript model/graph tests and 5 Python policy/server tests passed. Browser GUI/device acceptance was not rerun."
+      },
+      "evidence": {
+        "EV-SRC-002": {
+          "kind": "reviewed-source-and-scope",
+          "path": "LICENSE",
+          "gitBlobSha": "9ae666035cfe66be3fc5e3a57a38a5a0124d0af4",
+          "baselineCommit": "fc4dcff6141f6817076b6cb8a6e304aa81916f05"
+        },
+        "EV-SRC-003": {
+          "kind": "reviewed-source-and-scope",
+          "path": "README.md",
+          "gitBlobSha": "c17b4dde437a85b9ab2a4f8888f201f4dff7e544",
+          "baselineCommit": "fc4dcff6141f6817076b6cb8a6e304aa81916f05"
+        },
+        "EV-SRC-009": {
+          "kind": "reviewed-source-and-scope",
+          "path": "docs/VALIDATION.md",
+          "gitBlobSha": "31697d2ab7dba0abe2fbaa20dd042ed3de437bd4",
+          "baselineCommit": "fc4dcff6141f6817076b6cb8a6e304aa81916f05"
+        }
+      },
+      "dependencySummary": {
+        "manifestCount": 0,
+        "lockfileCount": 0,
+        "sbomCount": 0,
+        "manifests": [],
+        "locks": [],
+        "sbomFiles": []
+      },
+      "rightsSummary": {
+        "licenceFiles": [
+          "LICENSE"
+        ],
+        "thirdPartyFiles": [],
+        "legalTitleOpinion": "NOT_PERFORMED",
+        "ftoOpinion": "NOT_PERFORMED"
+      },
+      "securitySummary": {
+        "securityFiles": [],
+        "sensitiveFilenameIndicators": [],
+        "independentPenetrationTest": "NOT_ASSUMED"
+      },
+      "transferSummary": {
+        "buildReleaseEvidence": [],
+        "provenanceEvidence": [
+          "README.md"
+        ],
+        "transferEvidence": [
+          "LICENSE"
+        ],
+        "transferEvidenceBoundary": "All 24 Git blobs verified; 24 JavaScript model/graph tests and 5 Python policy/server tests passed. Browser GUI/device acceptance was not rerun."
+      },
+      "localVerification": {
+        "sourceHead": "fc4dcff6141f6817076b6cb8a6e304aa81916f05",
+        "sourceKind": "main",
+        "sourceFilesByteVerified": 24,
+        "assessedAt": "2026-10-17T06:30:00Z",
+        "independentValidation": false,
+        "commands": [
+          {
+            "name": "node-model-graph",
+            "testsRun": 24,
+            "passed": true
+          },
+          {
+            "name": "python-policy-server",
+            "testsRun": 5,
+            "passed": true
+          }
+        ],
+        "fullProductSuiteExecuted": true,
+        "browserGUIAcceptanceExecuted": false,
+        "physicalQualificationExecuted": false
+      },
+      "sourceRecheckedAt": "2026-10-17T06:30:00Z",
+      "scopeDocument": "docs/PORTFOLIO_REEVALUATION_2026-10-17.md",
+      "sellerAskEUR": 5500,
+      "economicAssessmentAt": "2026-10-17T06:30:00Z",
+      "pricingScope": "Present first-party v0.2.0 software at fc4dcff6141f6817076b6cb8a6e304aa81916f05. R1 is a development alpha. Full browser interaction acceptance, hardware camera checks, genuine 3D, AR/VR/XR, computer vision, physics, AI, video encoding and production packaging remain open. Architectural isolation is mandatory: no integration or shared code with other portfolio projects."
+    },
+    {
+      "ref": "TA-IP-109",
+      "slug": "narrative-collectibles-platform",
+      "repository": "Narrative-Collectibles-Platform",
+      "identityName": "Scheherazade",
+      "commercialReference": "TA-IP-109",
+      "commercialStatus": "SELLER_REFERENCE_ESTABLISHED",
+      "currentStage": "P",
+      "independentIpAsset": true,
+      "auditStatus": "COMPLETE",
+      "externalOrBuyerSideItems": [],
+      "baselineCommit": "e85adb045292bf83aedcab81f02da3886ce60c12",
+      "defaultBranchBaselineCommit": "e85adb045292bf83aedcab81f02da3886ce60c12",
+      "sourceScope": "DEFAULT_BRANCH",
+      "assurance": {
+        "technicalMaturity": "P",
+        "evidenceMaturity": "E2",
+        "ipRightsMaturity": "R1",
+        "commercialMaturity": "C2",
+        "transferReadiness": "T2"
+      },
+      "transactionReadiness": "READY_WITH_CONDITIONS",
+      "assessmentDate": "2026-10-17",
+      "assessedAt": "2026-10-17T06:30:00Z",
+      "reviewResult": "UPDATED",
+      "openSellerItems": [
+        "Agree exact first-party rights, component obligations and excluded content in the definitive agreement.",
+        "Freeze a release-specific delivery manifest and complete recipient acceptance.",
+        "Complete independent security review or expressly accept its absence within the local reference scope.",
+        "Complete domain and operator acceptance, key/anchor custody and the final security, legal and operational production gates."
+      ],
+      "currentSourceReviewBoundary": "All 40 Git blobs verified; all 84 local Python tests passed on the exact R3/v0.4.0 snapshot, including concurrency, tamper rejection and recovery cases.",
+      "readinessAssessment": {
+        "assessedAt": "2026-10-17T06:30:00Z",
+        "sourceEvidenceAssessedAt": "2026-10-17T06:30:00Z",
+        "basis": "SOURCE_BYTE_AND_LOCAL_CHECK_REVIEW",
+        "decision": "READY_WITH_CONDITIONS",
+        "decisionBasis": "All 40 Git blobs verified; all 84 local Python tests passed on the exact R3/v0.4.0 snapshot, including concurrency, tamper rejection and recovery cases. No public commerce, payments, shipping, production accounts or hosted deployment is delivered. HMAC is keyed local integrity, not independently witnessed ownership or certified provenance. Lithonarra is a separate consumer application/brand; physical stock and fictional content rights are not automatically transferred with the software.",
+        "transferClosure": "OPEN_SELLER_ITEMS",
+        "readyGate": "NOT_ESTABLISHED",
+        "openConditionCount": 4,
+        "criteria": [
+          {
+            "axis": "technicalMaturity",
+            "label": "Technical scope",
+            "grade": "P",
+            "criterion": "An object-independent local SQLite registry and studio with edition limits, narrative checks, fictional world graph, deterministic replay, keyed checkpoints, evidence custody and verified backup/restore."
+          },
+          {
+            "axis": "evidenceMaturity",
+            "label": "Evidence and validation",
+            "grade": "E2",
+            "criterion": "All 40 Git blobs verified; all 84 local Python tests passed on the exact R3/v0.4.0 snapshot, including concurrency, tamper rejection and recovery cases."
+          },
+          {
+            "axis": "ipRightsMaturity",
+            "label": "Rights and component obligations",
+            "grade": "R1",
+            "criterion": "Proprietary declaration and repository notices reviewed; independent chain of title and freedom to operate remain unestablished."
+          },
+          {
+            "axis": "commercialMaturity",
+            "label": "Commercial basis",
+            "grade": "C2",
+            "criterion": "Explicit low-effort cost assumptions and seller asking choice; no independently determined market or income value."
+          },
+          {
+            "axis": "transferReadiness",
+            "label": "Delivery and handover",
+            "grade": "T2",
+            "criterion": "Source, tests and instructions inspected; exact rights, manifest and recipient acceptance remain open."
+          }
+        ],
+        "evidenceBoundary": "All 40 Git blobs verified; all 84 local Python tests passed on the exact R3/v0.4.0 snapshot, including concurrency, tamper rejection and recovery cases."
+      },
+      "evidence": {
+        "EV-SRC-004": {
+          "kind": "reviewed-source-and-scope",
+          "path": "README.md",
+          "gitBlobSha": "d9efe46a18a5938ca62b790353e9a247d9f12de0",
+          "baselineCommit": "e85adb045292bf83aedcab81f02da3886ce60c12"
+        },
+        "EV-SRC-015": {
+          "kind": "reviewed-source-and-scope",
+          "path": "docs/VALIDATION_R3.md",
+          "gitBlobSha": "d5813fd877d4a76b6de74b60dca346c07f021059",
+          "baselineCommit": "e85adb045292bf83aedcab81f02da3886ce60c12"
+        },
+        "EV-SRC-029": {
+          "kind": "reviewed-source-and-scope",
+          "path": "pyproject.toml",
+          "gitBlobSha": "e6af3ce38fcad4e4c3173eea0c74ed2cdacfdce5",
+          "baselineCommit": "e85adb045292bf83aedcab81f02da3886ce60c12"
+        }
+      },
+      "dependencySummary": {
+        "manifestCount": 1,
+        "lockfileCount": 0,
+        "sbomCount": 0,
+        "manifests": [
+          "pyproject.toml"
+        ],
+        "locks": [],
+        "sbomFiles": []
+      },
+      "rightsSummary": {
+        "licenceFiles": [],
+        "thirdPartyFiles": [],
+        "legalTitleOpinion": "NOT_PERFORMED",
+        "ftoOpinion": "NOT_PERFORMED"
+      },
+      "securitySummary": {
+        "securityFiles": [
+          "docs/SECURITY.md"
+        ],
+        "sensitiveFilenameIndicators": [],
+        "independentPenetrationTest": "NOT_ASSUMED"
+      },
+      "transferSummary": {
+        "buildReleaseEvidence": [
+          "pyproject.toml"
+        ],
+        "provenanceEvidence": [
+          "README.md"
+        ],
+        "transferEvidence": [],
+        "transferEvidenceBoundary": "All 40 Git blobs verified; all 84 local Python tests passed on the exact R3/v0.4.0 snapshot, including concurrency, tamper rejection and recovery cases."
+      },
+      "localVerification": {
+        "sourceHead": "e85adb045292bf83aedcab81f02da3886ce60c12",
+        "sourceKind": "main",
+        "sourceFilesByteVerified": 40,
+        "assessedAt": "2026-10-17T06:30:00Z",
+        "independentValidation": false,
+        "commands": [
+          {
+            "name": "python-suite",
+            "testsRun": 84,
+            "passed": true
+          }
+        ],
+        "fullProductSuiteExecuted": true,
+        "browserGUIAcceptanceExecuted": false,
+        "physicalQualificationExecuted": false
+      },
+      "sourceRecheckedAt": "2026-10-17T06:30:00Z",
+      "scopeDocument": "docs/PORTFOLIO_REEVALUATION_2026-10-17.md",
+      "sellerAskEUR": 9000,
+      "economicAssessmentAt": "2026-10-17T06:30:00Z",
+      "pricingScope": "Present first-party v0.4.0 software at e85adb045292bf83aedcab81f02da3886ce60c12. No public commerce, payments, shipping, production accounts or hosted deployment is delivered. HMAC is keyed local integrity, not independently witnessed ownership or certified provenance. Lithonarra is a separate consumer application/brand; physical stock and fictional content rights are not automatically transferred with the software."
     }
   ],
   "summary": {
-    "audited": 105,
+    "audited": 108,
     "pending": 0,
     "ready": 0,
-    "readyWithConditions": 95,
+    "readyWithConditions": 98,
     "notReady": 10
   },
   "assessedAt": "2026-10-13T04:20:04Z",
   "previousBasisDate": "2026-10-10",
   "reviewPolicy": "Only the new MIPP readiness record is added. All 104 preceding criteria, grades, decisions and evidence dates are retained.",
-  "catalogueUpdatedAt": "2026-10-16T07:49:40Z",
+  "catalogueUpdatedAt": "2026-10-17T06:30:00Z",
   "previousTargetedAssetReview": {
     "slug": "distributed-ai-resource-fabric",
     "ref": "TA-IP-022",

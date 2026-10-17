@@ -2,7 +2,7 @@
 
 TA-IP-003 | Reference alias: Ariadne | Industrial Reliability & Digital Twins
 
-Buyer-facing edition: 16 October 2026
+Buyer-facing edition: 17 October 2026
 
 Compare resilience scenarios for your distributed systems and study how defensive responses affect the simulation.
 
@@ -34,29 +34,29 @@ Buyer profiles are positioning suggestions, not established customers or contrac
 
 ## Status and limitations
 
-Current main baseline: 1.3.0.
+Current main baseline: 1.9.1.
 
-Available software for evaluation against your intended use. Deployment suitability is assessed separately.
+Adds hash-bound evidence custody, guarded local infrastructure qualification, Alibaba/Azure measured-trace adapters, full-trace sensitivity and operational outcome/readiness contracts. All 92 Git blobs verified. Eleven repository-native static gates passed, including parsing 61 Python files. Full dependency-based tests and external-data campaigns were not rerun. Measured external workloads remain separate from simulated controller responses. Operational calibration on genuinely labeled outcomes, environment-specific acceptance and production deployment remain open. v1.9.1 is a metadata/transfer patch over the v1.9 functional baseline.
 
-Material limitations: The current asset is an engineering simulation platform. Operational deployment requires environment-specific calibration and acceptance.
+Next qualification step: Freeze and accept an exact delivery; run the full dependency-based suite and qualify measured, labeled outcomes in the intended environment.
 
-Documentation checked: 16 October 2026. Product tests were not rerun for this catalogue. Prior execution evidence, handover grades and financial assessments retain their individual dates and version scope.
+Documentation checked: 17 October 2026. All 92 Git blobs verified. Eleven repository-native static gates passed, including parsing 61 Python files. Full dependency-based tests and external-data campaigns were not rerun.
 
 ## Commercial reference
 
-Seller asking reference: EUR 200,000.
+Seller asking reference: EUR 205,000.
 
-Seller-estimated recreation cost: EUR 850,000.
+Seller-estimated recreation cost: EUR 871,500.
 
-All 105 project financial references were reviewed on 16 October 2026 against current documentation, retained seller assessments and the disclosed method/rate sources. Individual asking references and recreation anchors remain unchanged. Final delivery, consideration and taxes are agreed separately.
-
-Seller-estimated engineering-equivalent cost to recreate comparable present work. This is a build-versus-buy reference, not actual historical expenditure, a contractor quotation, certified market value or guaranteed buyer saving.
+All 108 project source and financial-reference decisions were reviewed on 17 October 2026. Three new project estimates and two implementation increments are separately disclosed; 103 preceding individual amounts are retained. Market value remains undetermined. Final scope, consideration and taxes require separate agreement.
 
 ## Individual financial-reference review
 
-Financial-reference review: 16 October 2026. Legacy cost reference; complete work budget missing. Original financial-reference date: 2026-10-12. Seller ask and recreation anchor are retained. Current documentation does not automatically expand the priced delivery; a delivery-specific re-estimate remains required.
+Financial-reference review: 17 October 2026. Retained EUR 850,000 base plus EUR 21,500 low-effort implementation increment = EUR 871,500. Seller asking reference EUR 200,000 to EUR 205,000, retaining the earlier asking/cost proportion. Market value remains NOT_ESTABLISHED. Estimated hours are not logged time or expenditure. Original financial-reference date: 2026-10-12.
 
-Comparable-sale valuation, project-income valuation and independent appraisal are NOT_ESTABLISHED. WIPO, Knab and the limited Upwork source provide method/rate context. Their information is not a project appraisal.
+Comparable-sale valuation, project-income valuation and independent appraisal are NOT_ESTABLISHED. WIPO and contractor-rate publishers provide method/rate context; source-specific effort and seller asking choices are assumptions.
+
+Lowest scoped working scenario: 200 assumed hours × EUR 94/hour, plus 15%, rounded down to EUR 500. This is not logged time, expenditure or an absolute cost floor. Previous base is retained once; this budget covers only the implemented increment.
 
 ## Transaction scope
 
@@ -78,10 +78,13 @@ Separately scoped or excluded:
 
 ## Source basis
 
-- TA-IP-003-P: reviewed product overview and current main/development boundary, 16 October 2026.
-- TA-IP-003-C: full financial-reference review, 16 October 2026; original reference date 2026-10-12.
-- TA-IP-003-A: retained seller assessment, 2026-10-12.
+- TA-IP-003-P: source-frozen product documentation, 17 October 2026.
+- TA-IP-003-C: individual cost/reference decision, 17 October 2026.
+- TA-IP-003-A: seller handover review, 2026-10-17.
+
+All 92 Git blobs verified. Eleven repository-native static gates passed, including parsing 61 Python files. Full dependency-based tests and external-data campaigns were not rerun.
 
 ## Acquisition enquiry
 
 State this asset title and reference, your intended use and requested delivery perimeter. Agree controlled review and final written terms with the seller through the channel that supplied this package.
+
