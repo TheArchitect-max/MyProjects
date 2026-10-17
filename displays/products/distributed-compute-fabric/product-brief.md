@@ -134,7 +134,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "P", "potential": "VH", "sector": "Enterprise Software & Operations", "route": "B2B SaaS / enterprise software"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc1
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/distributed-compute-fabric/#calculation
 

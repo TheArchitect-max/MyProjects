@@ -116,7 +116,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "V", "potential": "H", "sector": "Media & Creator Technology", "route": "Media / creator software"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc1
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/cipher-lyric-engine/#calculation
 

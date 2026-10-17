@@ -129,7 +129,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "V", "potential": "H", "sector": "Specialist Vertical Software", "route": "Vertical SaaS / specialist software"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc1
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/learnpiano/#calculation
 

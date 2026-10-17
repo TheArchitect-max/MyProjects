@@ -29,5 +29,7 @@ vm.createContext(sandbox);vm.runInContext(source,sandbox);
  assert.throws(()=>r.validatePricing({...prices,portfolio:{...prices.portfolio,sellerAskEUR:1}},data));
  const sorted=r.filterAssets(d,{sort:'ask-asc'});for(let i=1;i<sorted.length;i++)assert(sorted[i].askingReferenceEUR>=sorted[i-1].askingReferenceEUR);
  assert.throws(()=>r.validate({...d,projects:[{...d.projects[0],unapprovedField:'not publishable'},...d.projects.slice(1)]}));
+ let loadedMathScripts=0;const cachedShell={...sandbox,PricingMath:undefined,document:{currentScript:sandbox.document.currentScript,createElement:tag=>{assert.equal(tag,'script');return {}},head:{appendChild:script=>{assert.equal(new URL(script.src).pathname,'/MyProjects/assets/pricing-math.js');loadedMathScripts++;cachedShell.PricingMath=require(path.join(root,'assets/pricing-math.js'));script.onload()}}}};
+ vm.createContext(cachedShell);vm.runInContext(source,cachedShell);const cachedData=await cachedShell.showroom.load();assert.equal(cachedData.calculation.status,'PASS');assert.equal(loadedMathScripts,1);
  console.log(JSON.stringify({result:'PASS',buyerProfilesRendered:108,mainPagesRendered:pages,applicationFilters:12,buyerFilters:10,uniqueProjectPresentations:108,perAssetBuyerFitAndDocuments:true,completePriceRecords:108,priceFieldsPerAsset:8,priceSourcesLinked:true,usdAmountsInCollection:216,calculationRows:108,unknownProjectFieldsRejected:true},null,2));
 })().catch(error=>{console.error(error);process.exitCode=1});

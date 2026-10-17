@@ -131,7 +131,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "V", "potential": "H", "sector": "Identity, Privacy & Assurance", "route": "Vertical SaaS / specialist software"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc1
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/traceline-evidence-governed-investigation-framework/#calculation
 
