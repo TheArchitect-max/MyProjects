@@ -6,6 +6,7 @@
   const cards = grid ? [...grid.querySelectorAll('.asset-card')] : [];
   const search = document.getElementById('asset-search');
   const stage = document.getElementById('stage-filter');
+  const buyer = document.getElementById('buyer-filter');
   const sort = document.getElementById('sort-order');
   const applyFilters = () => {
     const query = normal(search.value.trim());
@@ -13,6 +14,7 @@
     for (const card of cards) {
       const visible = (activeFamily === 'all' || card.dataset.family === activeFamily)
         && (stage.value === 'all' || card.dataset.stage === stage.value)
+        && (buyer.value === 'all' || card.dataset.buyers.split(' ').includes(buyer.value))
         && normal(card.dataset.search).includes(query);
       card.hidden = !visible;
       if (visible) shown += 1;
@@ -30,6 +32,7 @@
   if (grid) {
     search.addEventListener('input', applyFilters);
     stage.addEventListener('change', applyFilters);
+    buyer.addEventListener('change', applyFilters);
     sort.addEventListener('change', applyFilters);
     document.querySelectorAll('[data-family-filter]').forEach(button => button.addEventListener('click', () => {
       activeFamily = button.dataset.familyFilter;
@@ -65,8 +68,8 @@
       + '\n\nMy intended use and target market:\n\n'
       + 'Requested rights and delivery perimeter:\n\n'
       + 'My organisation and preferred contact channel:\n\n'
-      + 'I would like to discuss the current work product, recorded handover conditions, controlled review and definitive written acquisition terms.\n\n'
-      + 'Reference: exhibition edition 16 October 2026. This enquiry is not a purchase, payment instruction or transfer of rights.';
+      + 'I would like to discuss the current work product, the requested scope, an agreed review process and definitive written acquisition terms.\n\n'
+      + 'This enquiry is not a purchase, payment instruction or transfer of rights.';
     feedback.textContent = '';
     if (typeof dialog.showModal === 'function') dialog.showModal();
     else dialog.setAttribute('open', '');

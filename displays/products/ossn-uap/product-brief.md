@@ -1,14 +1,18 @@
 # Modular Aerospace Research Platform
 
-TA-IP-001 | Reference alias: Stella | Scientific Observation & Domain Research
-
-Buyer-facing edition: 17 October 2026
+TA-IP-001 | Reference name: Stella | Scientific observation & life sciences
 
 Turn aerospace observations into replayable research cases, compare declared evidence and keep uncertainty visible.
 
 ## Product overview
 
 A research workbench for organising aerial observations and retaining uncertain events for review.
+
+## Potential acquirers
+
+- Aerospace research groups
+- Observation-network developers
+- Scientific data teams
 
 ## Documented functions
 
@@ -18,71 +22,46 @@ A research workbench for organising aerial observations and retaining uncertain 
 - Document uncertainty
 - Cross-reference permitted external records
 
-## Potential buyers
-
-- Aerospace research groups
-- Observation-network developers
-- Scientific data teams
-
-Buyer profiles are positioning suggestions, not established customers or contracts.
-
-## Documented output types
+## Available output types
 
 - Event dossiers
 - Observation archives
 - Review records
 
-## Status and limitations
+## Current offered position
 
-Current main baseline: 0.1.0.
+Prototype. A prototype offered for evaluation and continued development; production acceptance is separate.
 
-Separate development: 0.6.3 — unmerged STELLA research foundation.
+Available for acquisition discussion.
 
-Main retains the 0.1.0 baseline. The separate 0.6.3 STELLA candidate adds offline sensor processing, calibrated geometry, replayable evidence comparison and retained actual NOAA context. Its build report records 1,043 tests and independent validation of 96 schemas; these are source-bound repository results, not executions by this website review. Field accuracy, cross-modality fusion and mission qualification remain open.
+- Research observation software; calibrated field performance and combined sensor interpretation require separate qualification.
 
-Documentation checked: 17 October 2026. The main source is unchanged from the preceding directory review. Existing product qualification retains its source and execution date; tests were not rerun for this project.
-
-## Commercial reference
+## Acquisition reference
 
 Seller asking reference: EUR 61,000.
 
-Seller-estimated recreation cost: EUR 540,000.
+Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
-All 108 project source and financial-reference decisions were reviewed on 17 October 2026. Three new project estimates and two implementation increments are separately disclosed; 103 preceding individual amounts are retained. Market value remains undetermined. Final scope, consideration and taxes require separate agreement.
+## Offered first-party scope
 
-## Individual financial-reference review
+- The specifically agreed first-party software or research work product
+- Associated first-party product documentation and retained evaluation material
+- The expressly agreed transferable first-party rights
 
-Financial-reference review: 17 October 2026. Current main source and existing development heads reviewed. The priced scope and disclosed cost assumptions are unchanged; existing cost/asking references are retained. Market value remains NOT_ESTABLISHED. Original financial-reference date: 2026-10-12.
+## Separately scoped or excluded
 
-Comparable-sale valuation, project-income valuation and independent appraisal are NOT_ESTABLISHED. WIPO and contractor-rate publishers provide method/rate context; source-specific effort and seller asking choices are assumptions.
+- Third-party software, data, media, models and service entitlements beyond their own terms
+- Personal, customer and author content, private accounts and credentials
+- Future development, hosting, hardware, support and operating businesses unless expressly agreed
 
-## Transaction scope
+## Buyer information and enquiry
 
-AS IS acquisition of the seller-owned first-party software asset and specifically agreed transferable work products. The final written agreement defines the rights, exact delivery, permitted use and acceptance conditions.
+Asset profile: https://thearchitect-max.github.io/MyProjects/projects/modular-aerospace-research-platform/
 
-Candidate handover scope:
+Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/modular-aerospace-research-platform/factsheet.pdf
 
-- Present first-party software within the agreed asset perimeter
-- Associated original product documentation and instructions
-- Existing tests, evaluation records and handover material, where retained
-- The specifically agreed transferable first-party rights
+Quote TA-IP-001 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
-Separately scoped or excluded:
+Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
 
-- Third-party software, data, models, media and service rights beyond their own terms
-- User, author, personal and customer content; private accounts and credentials
-- Future development, hosting, hardware, operational support and business income unless expressly agreed
-- Internal development methods, prompts, design reasoning and other non-public know-how unless expressly agreed
-
-## Source basis
-
-- TA-IP-001-P: source-frozen product documentation, 17 October 2026.
-- TA-IP-001-C: individual cost/reference decision, 17 October 2026.
-- TA-IP-001-A: seller handover review, 2026-10-12.
-
-The main source is unchanged from the preceding directory review. Existing product qualification retains its source and execution date; tests were not rerun for this project.
-
-## Acquisition enquiry
-
-State this asset title and reference, your intended use and requested delivery perimeter. Agree controlled review and final written terms with the seller through the channel that supplied this package.
-
+© 2026 THEARCHITECT_MAX. First-party rights reserved.

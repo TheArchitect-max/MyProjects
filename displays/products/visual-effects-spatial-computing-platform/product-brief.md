@@ -1,73 +1,66 @@
 # Visual-Effects-Spatial-Computing-Platform
 
-TA-IP-108 | Reference alias: Asteria | Visual, Spatial & Multimodal Systems
+TA-IP-108 | Reference name: Asteria | Visual & spatial software
 
-Buyer-facing edition: 17 October 2026
-
-Create local 2D scenes, animate layer properties and drive visual effects with a bounded node graph.
+Create and animate 2D scenes with editable layers, keyframes and bounded visual-effect controls.
 
 ## Product overview
 
-An independent local 2D Canvas editor with shape/text layers, timeline/keyframes, validated JSON import/export and a typed deterministic visual-effect graph.
+An independent local 2D authoring and visual-effects prototype with a scene editor, animation controls and a visual node graph.
 
-## Documented functions
-
-- Edit shape and text layers in a local 2D scene
-- Animate transforms and opacity with keyframes
-- Connect typed nodes to bounded layer outputs
-- Import/export validated project JSON
-
-## Potential buyers
+## Potential acquirers
 
 - Visual authoring software teams
 - Creative-tool developers
 - Interactive media R&D teams
 
-## Documented output types
+## Documented functions
 
-- Editable scene projects
-- Timeline/keyframe data
-- Typed visual-effect graphs
+- Edit 2D shape and text layers
+- Animate scene properties with keyframes
+- Create visual-effect node graphs
+- Save and reopen editable scene projects
 
-## Status and limitations
+## Available output types
 
-Current main baseline: 0.2.0.
+- Editable 2D scene projects
+- Animation and keyframe records
+- Visual-effect graph projects
 
-An independent local 2D Canvas editor with shape/text layers, timeline/keyframes, validated JSON import/export and a typed deterministic visual-effect graph. All 24 Git blobs verified; 24 JavaScript model/graph tests and 5 Python policy/server tests passed. Browser GUI/device acceptance was not rerun. R1 is a development alpha. Full browser interaction acceptance, hardware camera checks, genuine 3D, AR/VR/XR, computer vision, physics, AI, video encoding and production packaging remain open. Architectural isolation is mandatory: no integration or shared code with other portfolio projects.
+## Current offered position
 
-Next qualification step: Perform source-pinned browser GUI acceptance and continue the independent roadmap with explicit device and export gates.
+Prototype. A prototype offered for evaluation and continued development; production acceptance is separate.
 
-Documentation checked: 17 October 2026. All 24 Git blobs verified; 24 JavaScript model/graph tests and 5 Python policy/server tests passed. Browser GUI/device acceptance was not rerun.
+Available for acquisition discussion.
 
-## Individual financial-reference review
+- An independent 2D authoring prototype. 3D, XR and computer vision remain future work. No integration with other portfolio projects is offered.
 
-Financial-reference review: 17 October 2026. New present-source low-effort recreation reference EUR 19,000; seller asking choice EUR 5,500. Market value remains NOT_ESTABLISHED. Estimated hours are not logged time or expenditure. Original financial-reference date: 2026-10-17.
-
-Comparable-sale valuation, project-income valuation and independent appraisal are NOT_ESTABLISHED. WIPO and contractor-rate publishers provide method/rate context; source-specific effort and seller asking choices are assumptions.
-
-Lowest scoped working scenario: 180 assumed hours × EUR 94/hour, plus 15%, rounded down to EUR 500. This is not logged time, expenditure or an absolute cost floor. This budget covers only the present first-party prototype.
-
-## Commercial reference
+## Acquisition reference
 
 Seller asking reference: EUR 5,500.
 
-Seller-estimated recreation cost: EUR 19,000.
+Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
-All 108 project source and financial-reference decisions were reviewed on 17 October 2026. Three new project estimates and two implementation increments are separately disclosed; 103 preceding individual amounts are retained. Market value remains undetermined. Final scope, consideration and taxes require separate agreement.
+## Offered first-party scope
 
-## Transaction scope
+- The specifically agreed first-party software or research work product
+- Associated first-party product documentation and retained evaluation material
+- The expressly agreed transferable first-party rights
 
-AS IS acquisition of specifically agreed first-party software and transferable documentation. The definitive written agreement defines exact source, rights and recipient acceptance. Third-party rights, user/customer content, physical objects, credentials, future work and hosted operations are excluded unless expressly agreed.
+## Separately scoped or excluded
 
-## Source basis
+- Third-party software, data, media, models and service entitlements beyond their own terms
+- Personal, customer and author content, private accounts and credentials
+- Future development, hosting, hardware, support and operating businesses unless expressly agreed
 
-- TA-IP-108-P: source-frozen product documentation, 17 October 2026.
-- TA-IP-108-C: individual cost/reference decision, 17 October 2026.
-- TA-IP-108-A: seller handover review, 2026-10-17.
+## Buyer information and enquiry
 
-All 24 Git blobs verified; 24 JavaScript model/graph tests and 5 Python policy/server tests passed. Browser GUI/device acceptance was not rerun.
+Asset profile: https://thearchitect-max.github.io/MyProjects/projects/visual-effects-spatial-computing-platform/
 
-## Acquisition enquiry
+Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/visual-effects-spatial-computing-platform/factsheet.pdf
 
-State the project title and reference, intended use and requested delivery perimeter. Review and close the transaction separately under definitive written terms.
+Quote TA-IP-108 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
+Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
+
+© 2026 THEARCHITECT_MAX. First-party rights reserved.

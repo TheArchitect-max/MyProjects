@@ -1,14 +1,18 @@
 # Synthetic Consciousness Engineering Platform
 
-TA-IP-100 | Reference alias: Elysia | Adaptive Intelligence & Cognition
-
-Buyer-facing edition: 17 October 2026
+TA-IP-100 | Reference name: Elysia | AI & decision software
 
 Explore controlled simulations of adaptive behaviour and compare recorded experiments to assess questions for further research.
 
 ## Product overview
 
 An experimental research asset for testable properties of synthetic-consciousness theories.
+
+## Potential acquirers
+
+- Cognition research groups
+- AI research teams
+- Scientific software vendors
 
 ## Documented functions
 
@@ -18,71 +22,46 @@ An experimental research asset for testable properties of synthetic-consciousnes
 - Retain experiment histories
 - Support repeatable campaign recovery
 
-## Potential buyers
-
-- Cognition research groups
-- AI research teams
-- Scientific software vendors
-
-Buyer profiles are positioning suggestions, not established customers or contracts.
-
-## Documented output types
+## Available output types
 
 - Experiment records
 - Theory comparisons
 - Research recovery material
 
-## Status and limitations
+## Current offered position
 
-Current main baseline: v0.4.0.dev0.
+Prototype. A prototype offered for evaluation and continued development; production acceptance is separate.
 
-Separate development: v0.4 resumable research controller (merged).
+Available for acquisition discussion.
 
-Compare repeatable research studies and resume controlled experiments with the current v0.4 software. All 29 local tests pass. The recorded archive now includes all 20 checkpoint manifests and 152 binary parts; this review did not restore or numerically replay that archive. Consciousness and completion of the planned larger GPU campaign remain unestablished.
+- Experimental research software. Consciousness is a research subject; demonstrated sentience is not offered.
 
-Documentation checked: 17 October 2026. The main source is unchanged from the preceding directory review. Existing product qualification retains its source and execution date; tests were not rerun for this project.
-
-## Commercial reference
+## Acquisition reference
 
 Seller asking reference: EUR 60,000.
 
-Seller-estimated recreation cost: EUR 200,000.
+Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
-All 108 project source and financial-reference decisions were reviewed on 17 October 2026. Three new project estimates and two implementation increments are separately disclosed; 103 preceding individual amounts are retained. Market value remains undetermined. Final scope, consideration and taxes require separate agreement.
+## Offered first-party scope
 
-## Individual financial-reference review
+- The specifically agreed first-party software or research work product
+- Associated first-party product documentation and retained evaluation material
+- The expressly agreed transferable first-party rights
 
-Financial-reference review: 17 October 2026. Current main source and existing development heads reviewed. The priced scope and disclosed cost assumptions are unchanged; existing cost/asking references are retained. Market value remains NOT_ESTABLISHED. Original financial-reference date: 2026-10-12.
+## Separately scoped or excluded
 
-Comparable-sale valuation, project-income valuation and independent appraisal are NOT_ESTABLISHED. WIPO and contractor-rate publishers provide method/rate context; source-specific effort and seller asking choices are assumptions.
+- Third-party software, data, media, models and service entitlements beyond their own terms
+- Personal, customer and author content, private accounts and credentials
+- Future development, hosting, hardware, support and operating businesses unless expressly agreed
 
-## Transaction scope
+## Buyer information and enquiry
 
-AS IS acquisition of the seller-owned first-party software asset and specifically agreed transferable work products. The final written agreement defines the rights, exact delivery, permitted use and acceptance conditions.
+Asset profile: https://thearchitect-max.github.io/MyProjects/projects/synthetic-consciousness-engineering-platform/
 
-Candidate handover scope:
+Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/synthetic-consciousness-engineering-platform/factsheet.pdf
 
-- Present first-party software within the agreed asset perimeter
-- Associated original product documentation and instructions
-- Existing tests, evaluation records and handover material, where retained
-- The specifically agreed transferable first-party rights
+Quote TA-IP-100 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
-Separately scoped or excluded:
+Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
 
-- Third-party software, data, models, media and service rights beyond their own terms
-- User, author, personal and customer content; private accounts and credentials
-- Future development, hosting, hardware, operational support and business income unless expressly agreed
-- Internal development methods, prompts, design reasoning and other non-public know-how unless expressly agreed
-
-## Source basis
-
-- TA-IP-100-P: source-frozen product documentation, 17 October 2026.
-- TA-IP-100-C: individual cost/reference decision, 17 October 2026.
-- TA-IP-100-A: seller handover review, 2026-10-12.
-
-The main source is unchanged from the preceding directory review. Existing product qualification retains its source and execution date; tests were not rerun for this project.
-
-## Acquisition enquiry
-
-State this asset title and reference, your intended use and requested delivery perimeter. Agree controlled review and final written terms with the seller through the channel that supplied this package.
-
+© 2026 THEARCHITECT_MAX. First-party rights reserved.

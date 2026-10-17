@@ -1,14 +1,18 @@
 # Aerospace Mission Simulator
 
-TA-IP-030 | Reference alias: Celeste | Aerospace & Mobility Engineering
-
-Buyer-facing edition: 17 October 2026
+TA-IP-030 | Reference name: Celeste | Aerospace & mobility engineering
 
 Explore mission scenarios, compare routes and examine planning assumptions before real-world deployment.
 
 ## Product overview
 
 An aerospace mission simulation product for route comparisons and uncertainty-aware studies.
+
+## Potential acquirers
+
+- Aerospace research groups
+- Mission-planning software vendors
+- Vehicle engineering teams
 
 ## Documented functions
 
@@ -18,69 +22,46 @@ An aerospace mission simulation product for route comparisons and uncertainty-aw
 - Study modelled sensor and actuator faults
 - Retain supervisory event histories
 
-## Potential buyers
-
-- Aerospace research groups
-- Mission-planning software vendors
-- Vehicle engineering teams
-
-Buyer profiles are positioning suggestions, not established customers or contracts.
-
-## Documented output types
+## Available output types
 
 - Mission comparisons
 - Scenario telemetry
 - Safety-review records
 
-## Status and limitations
+## Current offered position
 
-Current main baseline: 2.8.0.
+Developed software. Existing software offered for evaluation against an agreed use and delivery scope.
 
-Available software for evaluation against your intended use. Deployment suitability is assessed separately.
+Available for acquisition discussion.
 
-Documentation checked: 17 October 2026. The main source is unchanged from the preceding directory review. Existing product qualification retains its source and execution date; tests were not rerun for this project.
+- Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately.
 
-## Commercial reference
+## Acquisition reference
 
 Seller asking reference: EUR 215,000.
 
-Seller-estimated recreation cost: EUR 850,000.
+Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
-All 108 project source and financial-reference decisions were reviewed on 17 October 2026. Three new project estimates and two implementation increments are separately disclosed; 103 preceding individual amounts are retained. Market value remains undetermined. Final scope, consideration and taxes require separate agreement.
+## Offered first-party scope
 
-## Individual financial-reference review
+- The specifically agreed first-party software or research work product
+- Associated first-party product documentation and retained evaluation material
+- The expressly agreed transferable first-party rights
 
-Financial-reference review: 17 October 2026. Current main source and existing development heads reviewed. The priced scope and disclosed cost assumptions are unchanged; existing cost/asking references are retained. Market value remains NOT_ESTABLISHED. Original financial-reference date: 2026-10-12.
+## Separately scoped or excluded
 
-Comparable-sale valuation, project-income valuation and independent appraisal are NOT_ESTABLISHED. WIPO and contractor-rate publishers provide method/rate context; source-specific effort and seller asking choices are assumptions.
+- Third-party software, data, media, models and service entitlements beyond their own terms
+- Personal, customer and author content, private accounts and credentials
+- Future development, hosting, hardware, support and operating businesses unless expressly agreed
 
-## Transaction scope
+## Buyer information and enquiry
 
-AS IS acquisition of the seller-owned first-party software asset and specifically agreed transferable work products. The final written agreement defines the rights, exact delivery, permitted use and acceptance conditions.
+Asset profile: https://thearchitect-max.github.io/MyProjects/projects/aerospace-mission-simulator/
 
-Candidate handover scope:
+Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/aerospace-mission-simulator/factsheet.pdf
 
-- Present first-party software within the agreed asset perimeter
-- Associated original product documentation and instructions
-- Existing tests, evaluation records and handover material, where retained
-- The specifically agreed transferable first-party rights
+Quote TA-IP-030 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
-Separately scoped or excluded:
+Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
 
-- Third-party software, data, models, media and service rights beyond their own terms
-- User, author, personal and customer content; private accounts and credentials
-- Future development, hosting, hardware, operational support and business income unless expressly agreed
-- Internal development methods, prompts, design reasoning and other non-public know-how unless expressly agreed
-
-## Source basis
-
-- TA-IP-030-P: source-frozen product documentation, 17 October 2026.
-- TA-IP-030-C: individual cost/reference decision, 17 October 2026.
-- TA-IP-030-A: seller handover review, 2026-10-12.
-
-The main source is unchanged from the preceding directory review. Existing product qualification retains its source and execution date; tests were not rerun for this project.
-
-## Acquisition enquiry
-
-State this asset title and reference, your intended use and requested delivery perimeter. Agree controlled review and final written terms with the seller through the channel that supplied this package.
-
+© 2026 THEARCHITECT_MAX. First-party rights reserved.

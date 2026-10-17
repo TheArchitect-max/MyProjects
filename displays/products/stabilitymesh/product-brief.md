@@ -1,14 +1,18 @@
 # StabilityMesh
 
-TA-IP-003 | Reference alias: Ariadne | Industrial Reliability & Digital Twins
-
-Buyer-facing edition: 17 October 2026
+TA-IP-003 | Reference name: Ariadne | Operations, reliability & digital twins
 
 Compare resilience scenarios for your distributed systems and study how defensive responses affect the simulation.
 
 ## Product overview
 
 A simulation environment for examining service disruption and controlled defensive responses.
+
+## Potential acquirers
+
+- Platform engineering teams
+- Reliability teams
+- Infrastructure software vendors
 
 ## Documented functions
 
@@ -18,73 +22,46 @@ A simulation environment for examining service disruption and controlled defensi
 - Study degraded operating conditions
 - Review historical scenario results
 
-## Potential buyers
-
-- Platform engineering teams
-- Reliability teams
-- Infrastructure software vendors
-
-Buyer profiles are positioning suggestions, not established customers or contracts.
-
-## Documented output types
+## Available output types
 
 - Resilience dashboards
 - Scenario histories
 - Response comparisons
 
-## Status and limitations
+## Current offered position
 
-Current main baseline: 1.9.1.
+Developed software. Existing software offered for evaluation against an agreed use and delivery scope.
 
-Adds hash-bound evidence custody, guarded local infrastructure qualification, Alibaba/Azure measured-trace adapters, full-trace sensitivity and operational outcome/readiness contracts. All 92 Git blobs verified. Eleven repository-native static gates passed, including parsing 61 Python files. Full dependency-based tests and external-data campaigns were not rerun. Measured external workloads remain separate from simulated controller responses. Operational calibration on genuinely labeled outcomes, environment-specific acceptance and production deployment remain open. v1.9.1 is a metadata/transfer patch over the v1.9 functional baseline.
+Available for acquisition discussion.
 
-Next qualification step: Freeze and accept an exact delivery; run the full dependency-based suite and qualify measured, labeled outcomes in the intended environment.
+- An engineering and simulation asset. Environment-specific calibration and operational acceptance are separate requirements.
 
-Documentation checked: 17 October 2026. All 92 Git blobs verified. Eleven repository-native static gates passed, including parsing 61 Python files. Full dependency-based tests and external-data campaigns were not rerun.
-
-## Commercial reference
+## Acquisition reference
 
 Seller asking reference: EUR 205,000.
 
-Seller-estimated recreation cost: EUR 871,500.
+Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
-All 108 project source and financial-reference decisions were reviewed on 17 October 2026. Three new project estimates and two implementation increments are separately disclosed; 103 preceding individual amounts are retained. Market value remains undetermined. Final scope, consideration and taxes require separate agreement.
+## Offered first-party scope
 
-## Individual financial-reference review
+- The specifically agreed first-party software or research work product
+- Associated first-party product documentation and retained evaluation material
+- The expressly agreed transferable first-party rights
 
-Financial-reference review: 17 October 2026. Retained EUR 850,000 base plus EUR 21,500 low-effort implementation increment = EUR 871,500. Seller asking reference EUR 200,000 to EUR 205,000, retaining the earlier asking/cost proportion. Market value remains NOT_ESTABLISHED. Estimated hours are not logged time or expenditure. Original financial-reference date: 2026-10-12.
+## Separately scoped or excluded
 
-Comparable-sale valuation, project-income valuation and independent appraisal are NOT_ESTABLISHED. WIPO and contractor-rate publishers provide method/rate context; source-specific effort and seller asking choices are assumptions.
+- Third-party software, data, media, models and service entitlements beyond their own terms
+- Personal, customer and author content, private accounts and credentials
+- Future development, hosting, hardware, support and operating businesses unless expressly agreed
 
-Lowest scoped working scenario: 200 assumed hours × EUR 94/hour, plus 15%, rounded down to EUR 500. This is not logged time, expenditure or an absolute cost floor. Previous base is retained once; this budget covers only the implemented increment.
+## Buyer information and enquiry
 
-## Transaction scope
+Asset profile: https://thearchitect-max.github.io/MyProjects/projects/stabilitymesh/
 
-AS IS acquisition of the seller-owned first-party software asset and specifically agreed transferable work products. The final written agreement defines the rights, exact delivery, permitted use and acceptance conditions.
+Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/stabilitymesh/factsheet.pdf
 
-Candidate handover scope:
+Quote TA-IP-003 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
-- Present first-party software within the agreed asset perimeter
-- Associated original product documentation and instructions
-- Existing tests, evaluation records and handover material, where retained
-- The specifically agreed transferable first-party rights
+Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
 
-Separately scoped or excluded:
-
-- Third-party software, data, models, media and service rights beyond their own terms
-- User, author, personal and customer content; private accounts and credentials
-- Future development, hosting, hardware, operational support and business income unless expressly agreed
-- Internal development methods, prompts, design reasoning and other non-public know-how unless expressly agreed
-
-## Source basis
-
-- TA-IP-003-P: source-frozen product documentation, 17 October 2026.
-- TA-IP-003-C: individual cost/reference decision, 17 October 2026.
-- TA-IP-003-A: seller handover review, 2026-10-17.
-
-All 92 Git blobs verified. Eleven repository-native static gates passed, including parsing 61 Python files. Full dependency-based tests and external-data campaigns were not rerun.
-
-## Acquisition enquiry
-
-State this asset title and reference, your intended use and requested delivery perimeter. Agree controlled review and final written terms with the seller through the channel that supplied this package.
-
+© 2026 THEARCHITECT_MAX. First-party rights reserved.

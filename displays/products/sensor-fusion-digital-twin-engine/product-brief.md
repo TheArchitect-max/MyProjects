@@ -1,14 +1,18 @@
 # Universal Sensor Fusion & Digital Twin Intelligence Platform
 
-TA-IP-025 | Reference alias: Artemis | Industrial Reliability & Digital Twins
-
-Buyer-facing edition: 17 October 2026
+TA-IP-025 | Reference name: Artemis | Operations, reliability & digital twins
 
 Bring operational observations into a digital-twin view and review changes with their uncertainties.
 
 ## Product overview
 
 A domain-neutral twin software foundation for operational observation and supervised review.
+
+## Potential acquirers
+
+- Digital-twin vendors
+- Industrial software teams
+- Systems integrators
 
 ## Documented functions
 
@@ -18,75 +22,46 @@ A domain-neutral twin software foundation for operational observation and superv
 - Recover retained sessions
 - Replay evaluation histories
 
-## Potential buyers
-
-- Digital-twin vendors
-- Industrial software teams
-- Systems integrators
-
-Buyer profiles are positioning suggestions, not established customers or contracts.
-
-## Documented output types
+## Available output types
 
 - Twin state records
 - Operational reports
 - Replay evidence
 
-## Status and limitations
+## Current offered position
 
-Current main baseline: 1.8.0.
+Developed software. Existing software offered for evaluation against an agreed use and delivery scope.
 
-Separate development: 1.8.1 — unmerged hardening candidate; excluded from current price.
+Available for acquisition discussion.
 
-Adds coordinated single-writer runtime, fencing/idempotency controls, transparent scenario decisions and deterministic multi-source telemetry alignment with replayable provenance. All 60 Git blobs verified; 73 local Python tests passed on the exact v1.8.0 snapshot. This is software testing, not physical-system or production certification. The separate v1.8.1 hardening PR is unmerged and excluded from the v1.8.0 cost scope. Domain calibration, physical sensor accuracy and production acceptance remain open.
+- Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately.
 
-Next qualification step: Review the separate v1.8.1 hardening candidate, then qualify representative domain telemetry and recipient deployment conditions.
-
-Documentation checked: 17 October 2026. All 60 Git blobs verified; 73 local Python tests passed on the exact v1.8.0 snapshot. This is software testing, not physical-system or production certification.
-
-## Commercial reference
+## Acquisition reference
 
 Seller asking reference: EUR 240,000.
 
-Seller-estimated recreation cost: EUR 797,000.
+Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
-All 108 project source and financial-reference decisions were reviewed on 17 October 2026. Three new project estimates and two implementation increments are separately disclosed; 103 preceding individual amounts are retained. Market value remains undetermined. Final scope, consideration and taxes require separate agreement.
+## Offered first-party scope
 
-## Individual financial-reference review
+- The specifically agreed first-party software or research work product
+- Associated first-party product documentation and retained evaluation material
+- The expressly agreed transferable first-party rights
 
-Financial-reference review: 17 October 2026. Retained EUR 780,000 base plus EUR 17,000 low-effort implementation increment = EUR 797,000. Seller asking reference EUR 235,000 to EUR 240,000, retaining the earlier asking/cost proportion. Market value remains NOT_ESTABLISHED. Estimated hours are not logged time or expenditure. Original financial-reference date: 2026-10-12.
+## Separately scoped or excluded
 
-Comparable-sale valuation, project-income valuation and independent appraisal are NOT_ESTABLISHED. WIPO and contractor-rate publishers provide method/rate context; source-specific effort and seller asking choices are assumptions.
+- Third-party software, data, media, models and service entitlements beyond their own terms
+- Personal, customer and author content, private accounts and credentials
+- Future development, hosting, hardware, support and operating businesses unless expressly agreed
 
-Lowest scoped working scenario: 160 assumed hours × EUR 94/hour, plus 15%, rounded down to EUR 500. This is not logged time, expenditure or an absolute cost floor. Previous base is retained once; this budget covers only the implemented increment.
+## Buyer information and enquiry
 
-## Transaction scope
+Asset profile: https://thearchitect-max.github.io/MyProjects/projects/universal-sensor-fusion-digital-twin-intelligence-platform/
 
-AS IS acquisition of the seller-owned first-party software asset and specifically agreed transferable work products. The final written agreement defines the rights, exact delivery, permitted use and acceptance conditions.
+Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/universal-sensor-fusion-digital-twin-intelligence-platform/factsheet.pdf
 
-Candidate handover scope:
+Quote TA-IP-025 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
-- Present first-party software within the agreed asset perimeter
-- Associated original product documentation and instructions
-- Existing tests, evaluation records and handover material, where retained
-- The specifically agreed transferable first-party rights
+Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
 
-Separately scoped or excluded:
-
-- Third-party software, data, models, media and service rights beyond their own terms
-- User, author, personal and customer content; private accounts and credentials
-- Future development, hosting, hardware, operational support and business income unless expressly agreed
-- Internal development methods, prompts, design reasoning and other non-public know-how unless expressly agreed
-
-## Source basis
-
-- TA-IP-025-P: source-frozen product documentation, 17 October 2026.
-- TA-IP-025-C: individual cost/reference decision, 17 October 2026.
-- TA-IP-025-A: seller handover review, 2026-10-17.
-
-All 60 Git blobs verified; 73 local Python tests passed on the exact v1.8.0 snapshot. This is software testing, not physical-system or production certification.
-
-## Acquisition enquiry
-
-State this asset title and reference, your intended use and requested delivery perimeter. Agree controlled review and final written terms with the seller through the channel that supplied this package.
-
+© 2026 THEARCHITECT_MAX. First-party rights reserved.
