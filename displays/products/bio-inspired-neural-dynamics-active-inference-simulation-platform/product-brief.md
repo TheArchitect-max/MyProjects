@@ -96,7 +96,7 @@ Seller-owned first-party rights plus specifically agreed transferable software/d
 - A detailed component inventory and licensing report are required for the agreed delivery scope.
 - A security assessment or an explicit statement of its absence is required before acceptance.
 - Release identity and provenance evidence remain incomplete.
-- Full validation of the latest hardened v2.2 candidate remains outstanding before release acceptance.
+- Full validation of the identified hardened v2.2 candidate remains outstanding before release acceptance.
 
 ### Qualification objectives
 

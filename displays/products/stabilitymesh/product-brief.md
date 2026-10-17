@@ -76,13 +76,13 @@ The 1.9.1 software provides evidence custody, guarded local infrastructure quali
 
 ### Priced first-party scope
 
-Present first-party v1.9.1 software. Measured external workloads remain separate from simulated controller responses. Operational calibration on genuinely labeled outcomes, environment-specific acceptance and production deployment remain open. v1.9.1 is a metadata/transfer patch over the v1.9 functional baseline.
+Present first-party v1.9.1 software. Measured external workloads remain separate from simulated controller responses. Operational calibration on genuinely labeled outcomes, environment-specific acceptance and production deployment remain open.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | V | provides hash-bound evidence custody, guarded local infrastructure qualification, Alibaba/Azure measured-trace adapters, full-trace sensitivity and operational outcome/readiness contracts. |
+| Technical scope | V | Provides hash-bound evidence custody, guarded local infrastructure qualification, Alibaba/Azure measured-trace adapters, full-trace sensitivity and operational outcome/readiness contracts. |
 | Evidence and validation | E2 | Eleven repository-native static gates passed, including parsing 61 Python files. Full dependency-based tests and external-data campaigns were not rerun. |
 | Rights and component obligations | R2 | Proprietary declaration and repository notices reviewed; independent chain of title and freedom to operate remain unestablished. |
 | Commercial basis | C2 | Explicit low-effort cost assumptions and seller asking choice; no independently determined market or income value. |

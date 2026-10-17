@@ -1270,7 +1270,7 @@
         "A detailed component inventory and licensing report are required for the agreed delivery scope.",
         "A security assessment or an explicit statement of its absence is required before acceptance.",
         "Release identity and provenance evidence remain incomplete.",
-        "Full validation of the latest hardened v2.2 candidate remains outstanding before release acceptance."
+        "Full validation of the identified hardened v2.2 candidate remains outstanding before release acceptance."
       ],
       "buyerConditions": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -5581,14 +5581,14 @@
       "version": "1.9.1",
       "developmentEdition": "",
       "productPosition": "The 1.9.1 software provides evidence custody, guarded local infrastructure qualification, Alibaba/Azure measured-trace adapters, full-trace sensitivity and operational outcome/readiness contracts. Eleven static gates passed, including parsing 61 Python files. Full dependency-based tests and external-data campaigns require their own acceptance. Measured workloads and simulated controller responses are separate evidence categories.",
-      "offeredEdition": "Present first-party v1.9.1 software. Measured external workloads remain separate from simulated controller responses. Operational calibration on genuinely labeled outcomes, environment-specific acceptance and production deployment remain open. v1.9.1 is a metadata/transfer patch over the v1.9 functional baseline.",
+      "offeredEdition": "Present first-party v1.9.1 software. Measured external workloads remain separate from simulated controller responses. Operational calibration on genuinely labeled outcomes, environment-specific acceptance and production deployment remain open.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "V",
-          "criterion": "provides hash-bound evidence custody, guarded local infrastructure qualification, Alibaba/Azure measured-trace adapters, full-trace sensitivity and operational outcome/readiness contracts."
+          "criterion": "Provides hash-bound evidence custody, guarded local infrastructure qualification, Alibaba/Azure measured-trace adapters, full-trace sensitivity and operational outcome/readiness contracts."
         },
         {
           "axis": "evidenceMaturity",
@@ -6502,7 +6502,7 @@
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "V",
-          "criterion": "provides coordinated single-writer runtime, fencing/idempotency controls, transparent scenario decisions and deterministic multi-source telemetry alignment with replayable provenance."
+          "criterion": "Provides coordinated single-writer runtime, fencing/idempotency controls, transparent scenario decisions and deterministic multi-source telemetry alignment with replayable provenance."
         },
         {
           "axis": "evidenceMaturity",

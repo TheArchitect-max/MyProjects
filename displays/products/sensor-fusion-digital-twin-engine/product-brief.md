@@ -84,7 +84,7 @@ Present first-party v1.8.0 software. The separate v1.8.1 hardening PR is unmerge
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | V | provides coordinated single-writer runtime, fencing/idempotency controls, transparent scenario decisions and deterministic multi-source telemetry alignment with replayable provenance. |
+| Technical scope | V | Provides coordinated single-writer runtime, fencing/idempotency controls, transparent scenario decisions and deterministic multi-source telemetry alignment with replayable provenance. |
 | Evidence and validation | E3 | 73 local Python tests passed on the exact v1.8.0 snapshot. This is software testing, not physical-system or production certification. |
 | Rights and component obligations | R2 | Proprietary declaration and repository notices reviewed; independent chain of title and freedom to operate remain unestablished. |
 | Commercial basis | C2 | Explicit low-effort cost assumptions and seller asking choice; no independently determined market or income value. |

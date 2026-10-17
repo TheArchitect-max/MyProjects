@@ -20,7 +20,7 @@ def validate():
   p=records[a['ref']];assert set(p)==RECORD_FIELDS,a['ref']
   assert {c['axis'] for c in p['assessmentCriteria']}==AXES and len(p['assessmentCriteria'])==5
   assert p['version'] and p['productPosition'] and p['offeredEdition'] and p['sellerConditions'] and p['qualificationObjectives']
-  assert not re.search(r'newly added|new project|recently renamed|INCREMENT_REPRICED|REFERENCE_REVIEWED|all prices restored',json.dumps(p),re.I)
+  assert not re.search(r'newly added|new project|recently renamed|INCREMENT_REPRICED|REFERENCE_REVIEWED|all prices restored|metadata/transfer patch|latest hardened',json.dumps(p),re.I)
   editions+=bool(p['developmentEdition']);conditions+=len(p['sellerConditions'])
   for sub,name in [('displays/products','index.html'),('displays/products','product-brief.md')]:
    text=(ROOT/sub/a['slug']/name).read_text()
