@@ -2,11 +2,11 @@
 
 TA-IP-096 | Reference name: Vespera | Operations, reliability & digital twins
 
-Explore how changes could affect interconnected systems, compare alternative scenarios and review the recorded outcomes.
+Model connected systems, compare scenarios and examine bounded offline forecast studies with traceable evidence.
 
 ## Product overview
 
-A connected-system modelling prototype for comparable what-if experiments.
+Review connected-system models, supplied observations, scenario branches and local coupled simulations, alongside a developer-research forecast workflow with fixed tasks and chronological data separation. Compare reference predictors, inspect held-out errors and empirical intervals, and retain explicit abstention and evidence limits for further qualification.
 
 ## Potential acquirers
 
@@ -21,21 +21,25 @@ A connected-system modelling prototype for comparable what-if experiments.
 - Review supplied observations
 - Run local combined simulations
 - Retain attributable histories
+- Compare fixed-task offline forecasts with transparent CPU reference predictors
+- Review chronological splits, held-out errors, empirical intervals and abstention
 
 ## Available output types
 
 - Scenario comparisons
 - Observation records
 - Simulation histories
+- Bounded forecast-study and reference-comparison reports
 
 ## Current offered position
 
-Prototype. A prototype offered for evaluation and continued development; production acceptance is separate.
+Prototype. Locally tested 0.7.0 developer-research prototype. Physical prediction, representative-domain accuracy, independent model qualification and completed acquisition handover remain separate requirements.
 
 Scope and transfer review required.
 
 - A connected-system modelling prototype. Physical prediction and cross-domain accuracy require domain-specific qualification.
 - The delivery perimeter and transfer requirements need further review before terms can be finalised.
+- The published financial references retain their disclosed v0.6 reproduction scope. The v0.7 research increment requires an expressly agreed delivery allocation and has no separately established monetary reference.
 
 ## Acquisition reference
 
@@ -69,15 +73,30 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: v0.6.0
+Identified product edition: 0.7.0
 
 Handover position: Scope closure required
 
-Compare connected-system scenarios and review recorded observations with the locally tested prototype. Check its documented limitations and incomplete acquisition handover against your intended use.
+The 0.7.0 developer-research source combines connected-system simulation with fixed forecast tasks, chronological data splits, transparent CPU reference predictors, held-out error reports, empirical intervals and explicit abstention. All 128 repository tests passed in a local CPU environment for the reviewed source. Synthetic checks do not establish independent predictive or industrial qualification.
+
+Separately scoped development: Offline predictive-research edition; independent model, field-data and intended-use qualification remain open.
 
 ### Priced first-party scope
 
-Present first-party linked-system modelling, scenario comparison, offline observation records and local coupled-simulation prototype, with retained source, tests, documentation and development packaging at the identified v0.6.0 source commit. Live telemetry, distributed operation, physical fidelity, production qualification, third-party ownership and future development are excluded.
+Current first-party 0.7.0 research source, documented capabilities and retained developer evidence are available for an expressly agreed acquisition scope. The published recreation budget retains its disclosed v0.6.0 modelling, observation and co-simulation basis; the v0.7 forecasting increment has no separately established monetary allocation. Confirm the included edition, work-product perimeter and consideration in writing. Live telemetry, distributed operation, physical fidelity and production qualification remain excluded.
+
+### Offline forecast research
+
+Caller-fixed forecast tasks use chronological training, validation and test partitions, transparent CPU predictors and comparison with a persistence reference. Empirical validation-residual intervals and abstention are research outputs, not established field-calibrated forecasts.
+
+- The full local 128-test repository suite and the synthetic forecast example passed for the reviewed source.
+- Representative held-out domain datasets, independent predictive benchmarks and the full model-qualification programme remain open.
+
+### Financial reference scope
+
+The existing eight financial references retain the disclosed v0.6 reproduction budget. The presence of the v0.7 research source does not establish a revised market value, an automatic transfer or an additional priced increment. Agree the delivery edition and allocation expressly.
+
+
 
 ### Acquisition evidence profile
 

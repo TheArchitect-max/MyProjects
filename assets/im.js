@@ -1,6 +1,6 @@
 (()=>{'use strict';
 const ROOT=new URL('../',document.currentScript.src).href;
-const VERSION='showroom8-musk-strategic-fit-20261019';
+const VERSION='showroom9-source-edition-audit-20261019';
 const ESC=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const EUR=x=>new Intl.NumberFormat('en-IE',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(x);
 const ART={src:'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Caravaggio_%E2%80%94_The_Calling_of_Saint_Matthew.jpg/1280px-Caravaggio_%E2%80%94_The_Calling_of_Saint_Matthew.jpg',url:'https://commons.wikimedia.org/wiki/File:Caravaggio_%E2%80%94_The_Calling_of_Saint_Matthew.jpg',credit:'Caravaggio, The Calling of Saint Matthew · public-domain artwork'};

@@ -2,11 +2,11 @@
 
 TA-IP-108 | Reference name: Scheherazade | Enterprise & commerce software
 
-Manage collectible identities, editions and fictional narratives while keeping physical facts and review decisions distinct.
+Manage collectible identities and narratives, review editorial evidence and study simulated commerce workflows with controlled inventory and ledger rules.
 
 ## Product overview
 
-A local collectible-registry and narrative studio with edition limits, revision-bound editorial review, fictional canon/world graphs, multilingual consistency and publication-quality gates.
+Review collectible identities, edition limits, fictional narratives and editorial evidence in a local reference studio. The R5 source also supports simulated order and fulfilment states, controlled stock reservations, returns, refunds and ledger invariants. Physical facts remain distinct from fiction, and production operation and real payments require later independent acceptance.
 
 ## Potential acquirers
 
@@ -21,20 +21,25 @@ A local collectible-registry and narrative studio with edition limits, revision-
 - Bind editorial decisions to narrative revisions
 - Review canon, multilingual consistency and text reuse
 - Retain deterministic histories and recovery packages
+- Study simulated order, fulfilment, return and refund lifecycles
+- Review idempotency, duplicate-sale prevention and financial ledger invariants
 
 ## Available output types
 
 - Collectible and edition records
 - Fictional world and narrative histories
 - Review and recovery packages
+- Simulated commerce lifecycle and ledger-assurance reports
 
 ## Current offered position
 
-Prototype. A prototype offered for evaluation and continued development; production acceptance is separate.
+Prototype. The 0.6.0 / R5 local reference source passed its 130-test repository suite. Independent operator, security, privacy, rights and production acceptance remain separate final gates; real payments are not activated.
 
 Available for acquisition discussion.
 
 - Text checks are not semantic entailment, plagiarism detection or translation-quality certification. Physical stock, third-party fiction, commerce, payments and hosted accounts are separately scoped.
+- Commerce functions use simulated transaction states. Real payments and production commerce are not activated.
+- Financial references retain their disclosed registry, assurance and R4 cost basis; agree the R5 delivery scope and any separate consideration expressly.
 
 ## Acquisition reference
 
@@ -68,19 +73,21 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 0.5.0 / R4
+Identified product edition: 0.6.0 / R5
 
 Handover position: Conditional handover
 
-A local collectible-registry and narrative studio with edition limits, revision-bound editorial review, fictional canon/world graphs, multilingual consistency and publication-quality gates.
+A local collectible-registry and narrative studio with edition limits, revision-bound editorial review and fictional canon/world graphs. R5 adds simulated order, inventory, fulfilment, return, refund and ledger workflows with idempotency and financial invariants. All 130 repository tests passed locally for the reviewed source; production and real payments remain outside this research/reference scope.
+
+Separately scoped development: R5 commerce-domain implementation in the local reference application; real payments and production remain unactivated.
 
 ### Priced first-party scope
 
-Specifically agreed first-party implementation, documentation and retained evidence for 0.5.0 / R4. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.
+Current first-party 0.6.0 / R5 source, documentation and retained local test evidence are available for a specifically agreed acquisition. Existing monetary references retain the disclosed registry, assurance and R4 editorial reproduction scopes; no separate R5 monetary increment is established. Agree the included source edition and allocation explicitly. Third-party rights, real payment processing, production services and future qualification remain separately scoped.
 
 ### Edition-specific evidence
 
-Retained R4/v0.5 evidence records 108/108 Python tests PASS, including 84 earlier regression cases and 24 R4 domain/HTTP cases, plus Python and JavaScript syntax checks. Reviewer identities are synthetic fixtures; human editorial and browser acceptance are separate.
+The reviewed 0.6.0 / R5 source passed all 130 local Python tests, including concurrent sales protection, idempotency, returns, refunds, ledger invariants and earlier narrative/editorial regressions. Python and JavaScript syntax checks also passed. Fixtures and simulated transactions do not establish human editorial acceptance, operating-commerce qualification or live payment processing.
 
 
 
@@ -88,7 +95,13 @@ Retained R4/v0.5 evidence records 108/108 Python tests PASS, including 84 earlie
 
 Complete representative human editorial and local-browser acceptance, define key/anchor custody and agree final domain, security and delivery conditions.
 
-- Text checks are not semantic entailment, plagiarism detection or translation-quality certification. Physical stock, third-party fiction, commerce, payments and hosted accounts are separately scoped.
+- Text checks are not semantic entailment, plagiarism detection or translation-quality certification. Physical stock, third-party fiction, real payments, hosted accounts and production commerce require separate scope and acceptance.
+
+### Financial reference scope
+
+The eight retained financial references use the existing registry, assurance and R4 editorial cost budgets. The R5 source is disclosed as a current implementation, with delivery scope and any separate consideration to be agreed rather than silently added to the original monetary basis.
+
+
 
 ### Acquisition evidence profile
 
