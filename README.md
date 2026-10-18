@@ -6,7 +6,7 @@ An acquisition presentation for 108 individually scoped software and research IP
 
 The primary navigation provides direct access to the project displays, individual asset dossiers, Connections, prices, sources and acquisition process. `identities.html` provides the public register of canonical project titles, current TA-IP references and feminine aliases; `displays/identity-register.csv` supplies the corresponding download in the hub. Every asset has one identity and one display. Compatibility routes are not additional assets.
 
-The current project repositories carry `ASSET_IDENTITY.json`, linking the fixed portfolio reference and feminine alias to the stable numeric GitHub repository ID. The two publication repositories carry `PUBLICATION_IDENTITY.json` and are excluded from the asset count. Retain unused identifiers without recycling or renumbering; TA-IP-086 is unused.
+The current project repositories carry `ASSET_IDENTITY.json`, linking the fixed portfolio reference and feminine alias to the stable numeric GitHub repository ID. The two publication repositories carry `PUBLICATION_IDENTITY.json` and are excluded from the asset count. The current catalogue is numbered consecutively from TA-IP-001 through TA-IP-108, as instructed by the seller. Resolve current identity through the canonical project title, feminine alias and repository identity; retain historical evidence in its recorded scope.
 
 The public register excludes private source, personal identity, credentials and internal audit records. Historical qualification records keep their original source identities and execution scope. An administrative identity correction does not promote product qualification or establish legal title.
 
@@ -17,6 +17,8 @@ Preserve all eight EUR and USD financial references, the dated ECB conversion, m
 `assets/buyer-catalogue.json` provides the approved product information; `assets/buyer-dossiers.json` supplies the offered edition, separately scoped development, qualification, rights and handover conditions. `assets/application-combinations.json` provides 33 proposed workflows involving 81 distinct assets. Connections do not imply delivered integrations or additional asset value. The VFX platform remains standalone.
 
 `assets/evaluation-sources.json` attributes ten contextual external references and seven assessment-record categories. Each project retains its factsheet, product brief, prices and source links. Original visual and music assets remain in place.
+
+`musk.html` is the separate seller-authored strategic acquisition presentation for Elon Musk and authorised evaluation teams. `assets/musk-opportunities.json` maps 26 distinct existing assets to six company assessment routes and eight official contextual sources. Current titles, IDs, aliases, editions and every price are resolved from the existing catalogues. The route adds no assets, integration claims, valuation uplift or affiliation. General Connections remains separate. The confidential strategic acquisition repository is an editorial input, not a public data-room link. The hub renders the official company source register on both the strategic page and the separate Sources page.
 
 ## Seller-led review and delivery
 
