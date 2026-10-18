@@ -1,6 +1,6 @@
 # LYRA-AERO eVTOL
 
-TA-IP-091 | Reference name: Lucia | Aerospace & mobility engineering
+TA-IP-090 | Reference name: Lucia | Aerospace & mobility engineering
 
 Compare electric-aircraft design options and explore simulated flight and energy assumptions.
 
@@ -60,7 +60,7 @@ Asset profile: https://thearchitect-max.github.io/MyProjects/projects/lyra-aero-
 
 Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/lyra-aero-evtol/factsheet.pdf
 
-Quote TA-IP-091 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
+Quote TA-IP-090 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
 Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
 

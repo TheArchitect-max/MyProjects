@@ -1,6 +1,6 @@
 # PLANTELOGIA Intelligence Platform
 
-TA-IP-096 | Reference name: Ivy | Evidence & investigation software
+TA-IP-095 | Reference name: Ivy | Evidence & investigation software
 
 Review supporting evidence and decision rules before adopting an intelligence workflow for your organisation.
 
@@ -60,7 +60,7 @@ Asset profile: https://thearchitect-max.github.io/MyProjects/projects/plantelogi
 
 Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/plantelogia-intelligence-platform-lineage/factsheet.pdf
 
-Quote TA-IP-096 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
+Quote TA-IP-095 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
 Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
 

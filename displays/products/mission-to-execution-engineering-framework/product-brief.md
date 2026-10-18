@@ -1,6 +1,6 @@
 # Mission-to-Execution Engineering Framework
 
-TA-IP-105 | Reference name: Hestia | Software assurance & infrastructure
+TA-IP-104 | Reference name: Hestia | Software assurance & infrastructure
 
 Turn your project aims into reviewed requirements, dependency-aware plans and planning documents with traceable decisions.
 
@@ -61,7 +61,7 @@ Asset profile: https://thearchitect-max.github.io/MyProjects/projects/mission-to
 
 Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/mission-to-execution-engineering-framework/factsheet.pdf
 
-Quote TA-IP-105 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
+Quote TA-IP-104 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
 Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
 

@@ -34,12 +34,12 @@ def validate():
  for c in connections:
   assert set(c)=={'id','slug','title','category','purpose','connectionType','status','flow','members','requirements'}
   assert c['status']=='Proposed application' and c['requirements'] and c['flow']
-  assert all(set(m)=={'ref','role'} and m['ref'] in refs and m['ref']!='TA-IP-108' for m in c['members'])
+  assert all(set(m)=={'ref','role'} and m['ref'] in refs and m['ref']!='TA-IP-107' for m in c['members'])
   assert len({m['ref'] for m in c['members']})==len(c['members'])
   members.update(m['ref'] for m in c['members'])
  assert len(members)==81
  for page in ['assurance','connections','commercialization','evidence','identities','transaction','transfer','sources']:
-  text=(ROOT/(page+'.html')).read_text();assert 'location.replace' not in text and 'im.js?v=showroom6' in text
+  text=(ROOT/(page+'.html')).read_text();assert 'location.replace' not in text and 'im.js?v=showroom7-sequential-identities-20261019' in text
  with (ROOT/'displays/catalogue.csv').open(encoding='utf-8-sig',newline='') as f:rows=list(csv.DictReader(f))
  assert len(rows)==108
  for row in rows:

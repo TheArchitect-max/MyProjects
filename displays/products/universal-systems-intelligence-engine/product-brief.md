@@ -1,6 +1,6 @@
 # Universal-Systems-Intelligence-Engine
 
-TA-IP-097 | Reference name: Vespera | Operations, reliability & digital twins
+TA-IP-096 | Reference name: Vespera | Operations, reliability & digital twins
 
 Explore how changes could affect interconnected systems, compare alternative scenarios and review the recorded outcomes.
 
@@ -61,7 +61,7 @@ Asset profile: https://thearchitect-max.github.io/MyProjects/projects/universal-
 
 Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/universal-systems-intelligence-engine/factsheet.pdf
 
-Quote TA-IP-097 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
+Quote TA-IP-096 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
 Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
 

@@ -1,6 +1,6 @@
 # HΛRM LYRA Automotive
 
-TA-IP-090 | Reference name: Lydia | Aerospace & mobility engineering
+TA-IP-089 | Reference name: Lydia | Aerospace & mobility engineering
 
 Explore the LYRA automotive concept and compare its design assumptions through engineering analysis and simulation.
 
@@ -60,7 +60,7 @@ Asset profile: https://thearchitect-max.github.io/MyProjects/projects/h-rm-lyra-
 
 Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/h-rm-lyra-automotive-lyra-rs-3-6t/factsheet.pdf
 
-Quote TA-IP-090 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
+Quote TA-IP-089 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
 Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
 

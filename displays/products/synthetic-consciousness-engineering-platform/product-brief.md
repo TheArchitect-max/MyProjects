@@ -1,6 +1,6 @@
 # Synthetic Consciousness Engineering Platform
 
-TA-IP-100 | Reference name: Elysia | AI & decision software
+TA-IP-099 | Reference name: Elysia | AI & decision software
 
 Explore controlled simulations of adaptive behaviour and compare recorded experiments to assess questions for further research.
 
@@ -60,7 +60,7 @@ Asset profile: https://thearchitect-max.github.io/MyProjects/projects/synthetic-
 
 Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/synthetic-consciousness-engineering-platform/factsheet.pdf
 
-Quote TA-IP-100 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
+Quote TA-IP-099 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
 Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
 

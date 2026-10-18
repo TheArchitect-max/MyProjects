@@ -1,6 +1,6 @@
 # Narrative Collectibles Platform
 
-TA-IP-109 | Reference name: Scheherazade | Enterprise & commerce software
+TA-IP-108 | Reference name: Scheherazade | Enterprise & commerce software
 
 Manage collectible identities, editions and fictional narratives while keeping physical facts and review decisions distinct.
 
@@ -60,7 +60,7 @@ Asset profile: https://thearchitect-max.github.io/MyProjects/projects/narrative-
 
 Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/narrative-collectibles-platform/factsheet.pdf
 
-Quote TA-IP-109 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
+Quote TA-IP-108 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
 Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
 

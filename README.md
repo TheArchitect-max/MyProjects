@@ -4,7 +4,7 @@ An acquisition presentation for 108 individually scoped software and research IP
 
 ## Project presentations and identity
 
-The primary navigation provides direct access to the project displays, individual asset dossiers, Connections, prices, sources and acquisition process. `identities.html` provides the public register of canonical project titles, stable TA-IP references and feminine aliases; `displays/identity-register.csv` supplies the corresponding download in the hub. Every asset has one identity and one display. Compatibility routes are not additional assets.
+The primary navigation provides direct access to the project displays, individual asset dossiers, Connections, prices, sources and acquisition process. `identities.html` provides the public register of canonical project titles, current TA-IP references and feminine aliases; `displays/identity-register.csv` supplies the corresponding download in the hub. Every asset has one identity and one display. Compatibility routes are not additional assets.
 
 The current project repositories carry `ASSET_IDENTITY.json`, linking the fixed portfolio reference and feminine alias to the stable numeric GitHub repository ID. The two publication repositories carry `PUBLICATION_IDENTITY.json` and are excluded from the asset count. Retain unused identifiers without recycling or renumbering; TA-IP-086 is unused.
 

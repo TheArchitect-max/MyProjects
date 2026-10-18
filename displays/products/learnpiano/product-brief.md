@@ -1,6 +1,6 @@
 # LEARNPIANO
 
-TA-IP-095 | Reference name: Elise | Specialist applications
+TA-IP-094 | Reference name: Elise | Specialist applications
 
 Build focused piano practice around your own music, follow visual guidance and review your progress.
 
@@ -60,7 +60,7 @@ Asset profile: https://thearchitect-max.github.io/MyProjects/projects/learnpiano
 
 Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/learnpiano/factsheet.pdf
 
-Quote TA-IP-095 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
+Quote TA-IP-094 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
 Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
 

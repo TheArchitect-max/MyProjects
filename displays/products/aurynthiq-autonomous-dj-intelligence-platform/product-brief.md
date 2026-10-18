@@ -1,6 +1,6 @@
 # Aurynthiq Autonomous DJ Intelligence Platform
 
-TA-IP-093 | Reference name: Isadora | Audio, publishing & media
+TA-IP-092 | Reference name: Isadora | Audio, publishing & media
 
 Prepare DJ sets from your own authorised music, audition transitions and review proposed combinations between recordings.
 
@@ -60,7 +60,7 @@ Asset profile: https://thearchitect-max.github.io/MyProjects/projects/aurynthiq-
 
 Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/aurynthiq-autonomous-dj-intelligence-platform/factsheet.pdf
 
-Quote TA-IP-093 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
+Quote TA-IP-092 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
 Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
 

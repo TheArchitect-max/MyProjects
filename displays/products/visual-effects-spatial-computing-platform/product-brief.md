@@ -1,6 +1,6 @@
 # Visual-Effects-Spatial-Computing-Platform
 
-TA-IP-108 | Reference name: Asteria | Visual & spatial software
+TA-IP-107 | Reference name: Asteria | Visual & spatial software
 
 Create and animate 2D scenes with editable layers, keyframes and bounded visual-effect controls.
 
@@ -59,7 +59,7 @@ Asset profile: https://thearchitect-max.github.io/MyProjects/projects/visual-eff
 
 Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/visual-effects-spatial-computing-platform/factsheet.pdf
 
-Quote TA-IP-108 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
+Quote TA-IP-107 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
 Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
 
