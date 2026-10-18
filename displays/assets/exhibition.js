@@ -62,9 +62,9 @@
   const currency = n => 'EUR ' + Number(n).toLocaleString('en-GB');
   const openEnquiry = assets => {
     if (!assets.length) return;
-    draft.value = 'Acquisition enquiry - The Architect IP Exhibition\n\n'
+    draft.value = 'Non-binding acquisition enquiry - THEARCHITECT_MAX\n\n'
       + 'I am interested in the following independently scoped IP asset(s), AS IS:\n\n'
-      + assets.map(asset => `${asset.ref} - ${asset.title}\nPublished seller asking reference: ${currency(asset.price)}`).join('\n\n')
+      + assets.map(asset => `${asset.ref} - ${asset.alias} - ${asset.title}\nProject display: ${asset.display}\nAsset dossier: ${asset.profile}\nPublished seller asking reference: ${currency(asset.price)}`).join('\n\n')
       + '\n\nMy intended use and target market:\n\n'
       + 'Requested rights and delivery perimeter:\n\n'
       + 'My organisation and preferred contact channel:\n\n'
@@ -76,10 +76,10 @@
     draft.focus();
   };
   document.querySelectorAll('[data-asset-enquiry]').forEach(button => button.addEventListener('click', () => openEnquiry([
-    { ref: button.dataset.ref, title: button.dataset.title, price: button.dataset.price }
+    { ref: button.dataset.ref, title: button.dataset.title, alias: button.dataset.alias, profile: button.dataset.profile, display: button.dataset.display, price: button.dataset.price }
   ])));
   document.querySelector('[data-selection-enquiry]')?.addEventListener('click', () => openEnquiry(
-    [...document.querySelectorAll('.asset-select:checked')].map(input => ({ ref: input.value, title: input.dataset.title, price: input.dataset.price }))
+    [...document.querySelectorAll('.asset-select:checked')].map(input => ({ ref: input.value, title: input.dataset.title, alias: input.dataset.alias, profile: input.dataset.profile, display: input.dataset.display, price: input.dataset.price }))
   ));
   document.querySelector('[data-close-dialog]')?.addEventListener('click', () => {
     if (typeof dialog.close === 'function') dialog.close();

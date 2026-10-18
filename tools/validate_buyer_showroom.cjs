@@ -2,7 +2,7 @@
 'use strict';
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'..'),script=fs.readFileSync(path.join(root,'assets/im.js'),'utf8'),marker='render().catch';
-assert(script.includes(marker));const source=script.slice(0,script.lastIndexOf(marker))+'globalThis.showroom={load,validate,home,portfolio,project,buyers,acquisition,policy,contribution,notice,filterAssets,valuation,validatePricing,calculationPage,connectionsPage,assurancePage,evidencePage,transferPage,transactionPage,commercializationPage,opportunityPage,sourcesPage,filterConnections,validateEvaluationSources};})();';
+assert(script.includes(marker));const source=script.slice(0,script.lastIndexOf(marker))+'globalThis.showroom={load,validate,home,portfolio,project,buyers,acquisition,policy,notice,filterAssets,valuation,validatePricing,calculationPage,connectionsPage,assurancePage,evidencePage,transferPage,transactionPage,commercializationPage,sourcesPage,identityPage,filterIdentity,filterConnections,validateEvaluationSources};})();';
 const data=JSON.parse(fs.readFileSync(path.join(root,'assets/buyer-catalogue.json'),'utf8'));
 const prices=JSON.parse(fs.readFileSync(path.join(root,'assets/pricing-catalogue.json'),'utf8'));
 const dossiers=JSON.parse(fs.readFileSync(path.join(root,'assets/buyer-dossiers.json'),'utf8')),applications=JSON.parse(fs.readFileSync(path.join(root,'assets/application-combinations.json'),'utf8'));
@@ -18,17 +18,18 @@ vm.createContext(sandbox);vm.runInContext(source,sandbox);
   for(const b of a.potentialBuyers)assert(html.includes(b.replaceAll('&','&amp;')));
   assert(!/\b[a-f0-9]{40}\b/.test(html));assert(!/role-month|audit grade|new projects|recently added/i.test(html));
  }
- let pages=0;for(const name of ['home','portfolio','buyers','acquisition','policy','contribution','notice','valuation','calculationPage','connectionsPage','assurancePage','evidencePage','transferPage','transactionPage','commercializationPage','opportunityPage','sourcesPage']){const html=r[name](d);assert(html.length>1000,name);pages++;assert(!/\b[a-f0-9]{40}\b/.test(html));}
+ let pages=0;for(const name of ['home','portfolio','buyers','acquisition','policy','notice','valuation','calculationPage','connectionsPage','assurancePage','evidencePage','transferPage','transactionPage','commercializationPage','sourcesPage','identityPage']){const html=r[name](d);assert(html.length>1000,name);pages++;assert(!/\b[a-f0-9]{40}\b/.test(html));}
  assert.equal((r.portfolio(d).match(/data-asset-ref=/g)||[]).length,108);
  for(const c of d.categories){const rows=r.filterAssets(d,{family:c.id});assert(rows.length>0);assert(rows.every(a=>a.categoryId===c.id));}
  for(const g of d.buyerGroups){const rows=r.filterAssets(d,{buyer:g.id});assert(rows.length>0);assert(rows.every(a=>a.buyerGroupIds.includes(g.id)));}
  for(const name of ['Vesta','Asteria','Scheherazade']){const rows=r.filterAssets(d,{query:name});assert.equal(rows.length,1);assert.equal(rows[0].referenceName,name);}
  assert.equal(r.filterAssets(d,{query:'unmatched-object-xyz'}).length,0);
+ assert.equal((r.identityPage(d).match(/data-identity-ref=/g)||[]).length,108);assert.equal(r.filterIdentity(d,'Lydia')[0].ref,'TA-IP-090');assert.equal(r.filterIdentity(d,'Lucia')[0].ref,'TA-IP-091');assert.equal((r.portfolio(d).match(/data-project-display=/g)||[]).length,108);assert(!/Bitcoin|voluntary contribution/.test(r.acquisition(d)+r.home(d)+r.policy(d)));
  assert.equal((r.valuation(d).match(/data-price-ref=/g)||[]).length,108);
  assert.equal((r.calculationPage(d).match(/data-calculation-ref=/g)||[]).length,108);
  assert.equal((r.portfolio(d).match(/data-currency="USD"/g)||[]).length,216);
  assert.equal(d.calculation.status,'PASS');assert.equal((r.connectionsPage(d).match(/data-connection-ref=/g)||[]).length,33);assert.equal((r.assurancePage(d).match(/data-assurance-ref=/g)||[]).length,108);
- assert.equal((r.sourcesPage(d).match(/data-evaluation-source=/g)||[]).length,9);assert.equal((r.sourcesPage(d).match(/data-source-asset=/g)||[]).length,108);
+ assert.equal((r.sourcesPage(d).match(/data-evaluation-source=/g)||[]).length,10);assert.equal((r.sourcesPage(d).match(/data-source-asset=/g)||[]).length,108);
  assert.equal(r.filterConnections(d).length,33);assert.equal(r.filterConnections(d,{query:'Asteria'}).length,0);assert.equal(r.filterConnections(d,{query:'unmatched-connection-xyz'}).length,0);const ariadne=r.filterConnections(d,{query:'Ariadne'});assert(ariadne.length>0);assert(ariadne.every(c=>c.members.some(m=>m.ref==='TA-IP-003')));const selected=r.filterConnections(d,{asset:'TA-IP-003'});assert.equal(selected.length,ariadne.length);assert(r.filterConnections(d,{category:'Intelligence & research'}).every(c=>c.category==='Intelligence & research'));
  for(const x of evaluationSources.externalSources)assert(r.sourcesPage(d).includes(x.url));const brokenSources=JSON.parse(JSON.stringify(evaluationSources));brokenSources.externalSources[0].url='https://example.org/unattributed';assert.throws(()=>r.validateEvaluationSources(brokenSources,d));
  assert.throws(()=>r.validatePricing({...prices,portfolio:{...prices.portfolio,sellerAskEUR:1}},data));

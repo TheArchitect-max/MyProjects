@@ -1,25 +1,31 @@
-# THEARCHITECT_MAX — Software IP acquisition showroom
+# THEARCHITECT_MAX — Seller-offered software IP portfolio
 
-A public buyer catalogue for 108 independently scoped software and research assets, organised by application and potential acquirer. Each project provides a product overview, buyer fit, documented functions and outputs, current offered scope, seller asking reference, factsheet and product brief.
+An acquisition presentation for 108 individually scoped software and research IP assets. The seller defines the offered work, agrees controlled disclosure and negotiates the expressly transferable first-party rights and delivery. This is a static information website; it does not operate the underlying software, host a SaaS, create accounts, collect enquiries or process payments.
 
-The approved public datasets are `assets/buyer-catalogue.json` and `assets/pricing-catalogue.json`. Publish the approved buyer information, all eight monetary references, the conditional maturity reference, cost assumptions and attributed contextual sources. Retain the established EUR amounts unless the seller explicitly requests repricing. Do not remove financial references when simplifying the presentation. Personal information, private accounts, credentials and internal audit records remain excluded. Detailed transaction diligence is handled through a separate agreed review process.
+## Project presentations and identity
 
-Maintain established project references and reference names. Asset descriptions and asking references must be explicitly reviewed before changes are published. Preserve the existing visual assets and music controls.
+The primary navigation provides direct access to the project displays, individual asset dossiers, Connections, prices, sources and acquisition process. `identities.html` provides the public register of canonical project titles, stable TA-IP references and feminine aliases; `displays/identity-register.csv` supplies the corresponding download in the hub. Every asset has one identity and one display. Compatibility routes are not additional assets.
 
-The website is an informational exhibition. It completes no purchase, payment or transfer of rights.
+The current project repositories carry `ASSET_IDENTITY.json`, linking the fixed portfolio reference and feminine alias to the stable numeric GitHub repository ID. The two publication repositories carry `PUBLICATION_IDENTITY.json` and are excluded from the asset count. Retain unused identifiers without recycling or renumbering; TA-IP-086 is unused.
+
+The public register excludes private source, personal identity, credentials and internal audit records. Historical qualification records keep their original source identities and execution scope. An administrative identity correction does not promote product qualification or establish legal title.
+
+## Financial and product information
+
+Preserve all eight EUR and USD financial references, the dated ECB conversion, model inputs, scoped budgets, conditional maturity references and attributed sources in `assets/pricing-catalogue.json`. Asking prices and effort assumptions are seller inputs; market value is not established. Do not remove prices when changing the presentation.
+
+`assets/buyer-catalogue.json` provides the approved product information; `assets/buyer-dossiers.json` supplies the offered edition, separately scoped development, qualification, rights and handover conditions. `assets/application-combinations.json` provides 33 proposed workflows involving 81 distinct assets. Connections do not imply delivered integrations or additional asset value. The VFX platform remains standalone.
+
+`assets/evaluation-sources.json` attributes ten contextual external references and seven assessment-record categories. Each project retains its factsheet, product brief, prices and source links. Original visual and music assets remain in place.
+
+## Seller-led review and delivery
+
+The acquisition flow distinguishes initial non-binding interest, agreed confidentiality and diligence, negotiation, definitive written terms, delivery and recipient acceptance. Exact source editions, rights, third-party obligations, security status, component disclosures and delivery manifests are agreed for the selected work. A request does not imply that every diligence record is already complete.
+
+The enquiry tools create local drafts only. Contact details and confidential review arrangements accompany the seller's acquisition introduction. Legacy contribution pages route to acquisition; no donation or cryptocurrency route forms part of this presentation.
+
+## Validation
+
+The hub supports `python tools/validate_identities.py`, optionally with `--repository-snapshot` pointing to a private authenticated identity audit. Existing validators cover product dossiers, model arithmetic, source attribution, complete prices, public privacy boundaries and internal links. The display validator checks all 108 displays, PDF identities, briefs and mirrored files. No product execution or independent appraisal is inferred from these website checks.
 
 © 2026 THEARCHITECT_MAX. First-party rights reserved.
-
-USD amounts accompany EUR acquisition and recreation references. Preserve the dated ECB conversion, exact whole-USD rounding and all existing EUR prices. The public pricing dataset includes the original model inputs. `assets/pricing-math.js` recomputes the scenarios, USD amounts, cost budgets, conditional references and totals; `tools/build_calculation_check.cjs` produces `assets/calculation-validation.json` from the approved public files. These arithmetic checks do not certify product quality, market value or the underlying assumptions.
-
-## Buyer product and acquisition information
-
-The public catalogue includes all 108 asset identities and financial references. `assets/buyer-dossiers.json` supplies the identified product edition, separately scoped development edition, five acquisition criteria, conditions, rights/component indicators and qualification objectives. `assets/application-combinations.json` supplies 33 proposed applications involving 81 distinct assets; these are not delivered integrations or additional IP assets. The VFX platform remains standalone.
-
-Public pages and product briefs describe the existing work and acquisition perimeter. Publication history, internal review logs and private identifiers are outside these public datasets. Source records retain their original evidence basis; rebuilding the showroom does not rerun or upgrade the underlying products. The original style and music assets remain in place.
-
-Validate with `python tools/validate_buyer_information.py`, `node tools/validate_buyer_showroom.cjs`, `python tools/validate_prices.py` and `python tools/validate_publication.py`.
-
-## Connections and evaluation references
-
-The primary navigation links to `connections.html` and the separate `sources.html` evaluation register. Connections supports search, application-area and participating-asset filters. `assets/evaluation-sources.json` attributes the nine documented external references and six assessment-record categories, while retaining each source’s application and limits. The financial source register and all project prices remain in `assets/pricing-catalogue.json`.

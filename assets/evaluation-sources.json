@@ -23,6 +23,11 @@
       "id": "diligence",
       "title": "Rights and acquisition diligence",
       "description": "Reference material for the rights, component and handover review framework."
+    },
+    {
+      "id": "identity",
+      "title": "Identity and repository continuity",
+      "description": "Stable asset identity and current presentation routes across repository and project name changes."
     }
   ],
   "externalSources": [
@@ -151,6 +156,20 @@
       "access": "Primary publisher page reviewed",
       "useLimit": "Reference material for the review framework. It is not a legal opinion, WIPO approval of an asset or evidence that an individual transaction is ready.",
       "referenceContext": "Rights and acquisition-readiness reference list"
+    },
+    {
+      "id": "GITHUB-RENAMES",
+      "categoryId": "identity",
+      "publisher": "GitHub",
+      "title": "Renaming a repository",
+      "url": "https://docs.github.com/en/repositories/creating-and-managing-repositories/renaming-a-repository",
+      "finding": "Repository web and Git redirects differ from project-site URL handling. Current project-site routes need their own explicit identity and compatibility mapping.",
+      "application": "Context for current repository URLs and retained project presentation routes. The asset mapping itself is checked against the authenticated repository inventory and stable numeric repository IDs.",
+      "useLimit": "Platform documentation does not assign portfolio IDs, establish first-party ownership or verify an asset price.",
+      "referenceBasisDate": "2026-10-18",
+      "checkedOn": "2026-10-18",
+      "access": "Primary publisher page reviewed",
+      "referenceContext": "Identity and presentation-route controls"
     }
   ],
   "assessmentRecords": [
@@ -207,6 +226,15 @@
       "limit": "These are proposed applications. No working integration, shared rights or additional IP asset is established.",
       "publicUrl": "assets/application-combinations.json",
       "linkLabel": "Public connection records"
+    },
+    {
+      "id": "asset-identity",
+      "title": "Asset identity and display linkage",
+      "basis": "Authenticated repository inventory matched by stable numeric repository ID to 108 asset identities and two publication repositories. Uninitialised repositories without a source baseline are excluded from the asset count; current identity records and presentation links are reviewed.",
+      "application": "Canonical project title, TA-IP reference and feminine alias across repository identity metadata, asset dossiers, displays, factsheets and product briefs.",
+      "limit": "Identity consistency does not establish ownership clearance, product qualification or market value. Private source and detailed internal records are outside the public register.",
+      "publicUrl": "identities.html",
+      "linkLabel": "Public asset identity register"
     }
   ]
 }
