@@ -129,7 +129,7 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-16. All amounts in EUR. Market value is not established.
+Basis: 2026-10-18. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
@@ -145,8 +145,8 @@ Basis: 2026-10-16. All amounts in EUR. Market value is not established.
 USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
-- Negotiation reference - low: Lower end of the previously published indicative negotiation range.
-- Negotiation reference - high: Upper end of the previously published indicative negotiation range.
+- Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
+- Negotiation reference - high: Upper end of the indicative seller negotiation range for the defined AS IS asset.
 - Recreation cost estimate: Seller estimate to reproduce comparable present work; not recorded expenditure or an established market value.
 - Marketability cost scenario: Cost-based model scenario; no observed comparable IP sale is used.
 - Monetisation cost scenario: Cost-based model scenario; no attributable income, royalty valuation or DCF is established.
@@ -165,10 +165,14 @@ The recreation anchor combines an identified base with separately scoped impleme
 
 Provides supplied-series financial/space reference extensions, recovery supervision, window/temporal evidence, portable records, local archives and offline verification, followed by reproducible identity/lifecycle repairs.
 
-- Senior engineer months: 2.0
-- Lead or specialist months: 1.0
+- Additional reference adapters and temporal/window comparison
+- Recovery supervision, portable evidence and local archives
+- Contract/identity repairs, retained regressions and documentation
+
+- Senior engineer months: 2
+- Lead or specialist months: 1
 - Validation provenance months: 1.5
-- Assumed hours: 720.0
+- Assumed hours: 720
 - Raw engineering cost: EUR 82,000
 - With allowance: EUR 94,300
 - Adopted recreation increment: EUR 100,000
@@ -195,7 +199,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "V", "potential": "H", "sector": "Industrial & Infrastructure Software", "route": "Private deployment / enterprise licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc1
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc2
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/signal-processing-universal-framework/#calculation
 

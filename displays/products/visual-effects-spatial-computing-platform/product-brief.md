@@ -118,7 +118,7 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-17. All amounts in EUR. Market value is not established.
+Basis: 2026-10-18. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
@@ -134,8 +134,8 @@ Basis: 2026-10-17. All amounts in EUR. Market value is not established.
 USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
-- Negotiation reference - low: Lower end of the previously published indicative negotiation range.
-- Negotiation reference - high: Upper end of the previously published indicative negotiation range.
+- Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
+- Negotiation reference - high: Upper end of the indicative seller negotiation range for the defined AS IS asset.
 - Recreation cost estimate: Seller estimate to reproduce comparable present work; not recorded expenditure or an established market value.
 - Marketability cost scenario: Cost-based model scenario; no observed comparable IP sale is used.
 - Monetisation cost scenario: Cost-based model scenario; no attributable income, royalty valuation or DCF is established.
@@ -154,18 +154,22 @@ Present-source low-effort recreation reference EUR 19,000; seller asking choice 
 
 An independent local 2D Canvas editor with shape/text layers, timeline/keyframes, validated JSON import/export and a typed deterministic visual-effect graph.
 
+- Standalone scene/layer editor, timeline and validated project files — 76 assumed hours
+- Typed deterministic graph engine and integrated graph editor — 64 assumed hours
+- Model/graph/server checks, security bounds and delivery documentation — 40 assumed hours
+
 - Assumed hours: 180
 - Hourly rate: EUR 94
 - Raw engineering cost: EUR 16,920
 - Coordination tooling allowance: 0.15
-- With allowance: EUR 19,458.0
+- With allowance: EUR 19,458
 - Adopted recreation cost: EUR 19,000
 - Effort alternatives / Low hours: 180
-- Effort alternatives / Reference hours: 270.0
+- Effort alternatives / Reference hours: 270
 - Effort alternatives / Extended hours: 360
-- Effort alternatives / Low cost: EUR 19,458.0
-- Effort alternatives / Reference cost: EUR 29,187.0
-- Effort alternatives / Extended cost: EUR 38,916.0
+- Effort alternatives / Low cost: EUR 19,458
+- Effort alternatives / Reference cost: EUR 29,187
+- Effort alternatives / Extended cost: EUR 38,916
 
 Hours and the 15% allowance are analyst assumptions for bounded reproduction with modern tooling. EUR 94 is a Dutch mean, not a minimum rate or a contractor quote. This is the lowest of the explicitly scoped working scenarios, not an absolute market or cost floor.
 
@@ -185,7 +189,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "P", "potential": "M", "sector": "Media & Creator Technology", "route": "Media / creator software"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc1
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc2
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/visual-effects-spatial-computing-platform/#calculation
 

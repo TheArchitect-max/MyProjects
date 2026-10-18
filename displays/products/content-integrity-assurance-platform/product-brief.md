@@ -6,7 +6,7 @@ Review content and supporting evidence so you can make more accountable integrit
 
 ## Product overview
 
-A content-integrity product for reviewable source collection and evidence handling.
+A content-integrity evidence platform with controlled review workspaces, attributable receipts, signed trust-bundle distribution and signer/custody governance.
 
 ## Potential acquirers
 
@@ -16,11 +16,11 @@ A content-integrity product for reviewable source collection and evidence handli
 
 ## Documented functions
 
-- Organise isolated review workspaces
-- Collect permitted source evidence
-- Retain content histories
-- Review attributable receipts
-- Prepare controlled evidence packages
+- Organise isolated content-evidence workspaces
+- Review attributable content and custody receipts
+- Distribute signed trust bundles with rollback/fork checks
+- Govern signer permissions, rotation and revocation
+- Retain bounded evidence and recovery packages
 
 ## Available output types
 
@@ -34,11 +34,11 @@ Developed software. Existing software offered for evaluation against an agreed u
 
 Available for acquisition discussion.
 
-- Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately.
+- Provider interfaces include file/callback boundaries. A concrete vendor HSM/KMS SDK, independently qualified key custody and general content-truth guarantees are not established.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 400,000.
+Seller asking reference: EUR 402,500.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -68,35 +68,48 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 60.0.0
+Identified product edition: 61.0.0 / analysis engine 56.0.0
 
 Handover position: Conditional handover
 
-Available software for evaluation against your intended use. Deployment suitability is assessed separately.
+A content-integrity evidence platform with controlled review workspaces, attributable receipts, signed trust-bundle distribution and signer/custody governance.
 
 ### Priced first-party scope
 
-Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+Specifically agreed first-party implementation, documentation and retained evidence for 61.0.0 / analysis engine 56.0.0. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.
+
+### Edition-specific evidence
+
+The retained v61 focused runtime gate records 30/30 tests PASS: seven custody, eleven signing-governance and twelve trust-distribution tests. Historical v56-v60 and external evidence applies only to its recorded edition; it is not a fresh complete v61 regression or independent v61 assessment.
+
+
+
+### Intended qualification
+
+Run the complete included-edition regression suite and qualify actual signing custody, key services, revocation policy and recipient trust distribution.
+
+- Provider interfaces include file/callback boundaries. A concrete vendor HSM/KMS SDK, independently qualified key custody and general content-truth guarantees are not established.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
 | Technical scope | V | Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance. |
-| Evidence and validation | E4 | E3 plus repository-retained independent/external validation evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results. |
+| Evidence and validation | E4 | The retained v61 focused runtime gate records 30/30 tests PASS: seven custody, eleven signing-governance and twelve trust-distribution tests. Historical v56-v60 and external evidence applies only to its recorded edition; it is not a fresh complete v61 regression or independent v61 assessment. |
 | Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. This grade concerns documented rights evidence. Missing documentation does not establish that first-party ownership is absent. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. A published asking reference does not establish a completed sale, income or an independent appraisal. |
 | Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. Your agreed delivery scope and the conditions below govern acceptance. |
 
 ### Conditions before handover
 
+- Run the complete included-edition regression suite and qualify actual signing custody, key services, revocation policy and recipient trust distribution.
 - Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
 - A detailed component inventory and licensing report are required for the agreed delivery scope.
 
 ### Qualification objectives
 
-- Agree a source-specific delivery edition and evaluate the documented functions against your intended use.
-- Close the listed technical, rights and handover conditions before recipient acceptance.
+- Run the complete included-edition regression suite and qualify actual signing custody, key services, revocation policy and recipient trust distribution.
+- Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance.
 - Independent legal ownership/title opinion not performed by this internal audit.
 - Freedom-to-operate legal opinion not performed unless separately evidenced.
 - Independent penetration test not assumed unless separately evidenced.
@@ -127,24 +140,24 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-17. All amounts in EUR. Market value is not established.
+Basis: 2026-10-18. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 400,000 | 450,120 |
-| Negotiation reference - low | 320,000 | 360,096 |
-| Negotiation reference - high | 500,000 | 562,650 |
-| Recreation cost estimate | 1,600,000 | 1,800,480 |
-| Marketability cost scenario | 1,932,000 | 2,174,080 |
-| Monetisation cost scenario | 2,376,000 | 2,673,713 |
-| Risk-adjusted strategic reference | 1,949,265 | 2,193,508 |
-| Weighted economic reference | 1,943,843 | 2,187,407 |
+| Seller asking reference | 402,500 | 452,933 |
+| Negotiation reference - low | 322,000 | 362,347 |
+| Negotiation reference - high | 503,000 | 566,026 |
+| Recreation cost estimate | 1,610,000 | 1,811,733 |
+| Marketability cost scenario | 1,944,075 | 2,187,668 |
+| Monetisation cost scenario | 2,390,850 | 2,690,424 |
+| Risk-adjusted strategic reference | 1,961,448 | 2,207,217 |
+| Weighted economic reference | 1,955,992 | 2,201,078 |
 
 USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
-- Negotiation reference - low: Lower end of the previously published indicative negotiation range.
-- Negotiation reference - high: Upper end of the previously published indicative negotiation range.
+- Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
+- Negotiation reference - high: Upper end of the indicative seller negotiation range for the defined AS IS asset.
 - Recreation cost estimate: Seller estimate to reproduce comparable present work; not recorded expenditure or an established market value.
 - Marketability cost scenario: Cost-based model scenario; no observed comparable IP sale is used.
 - Monetisation cost scenario: Cost-based model scenario; no attributable income, royalty valuation or DCF is established.
@@ -157,7 +170,32 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+Recreation estimate: EUR 1,600,000 retained scope component plus EUR 10,000 for the explicitly scoped implementation work budget, giving EUR 1,610,000. The scoped budget assumes 96 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.
+
+#### Scoped implementation reproduction budget
+
+Signed Ed25519 trust-bundle distribution and monotonic history; Signer permission, rotation, threshold and revocation governance; Custody, provider-boundary and focused runtime regressions.
+
+- Signed Ed25519 trust-bundle distribution and monotonic history — 32 assumed hours
+- Signer permission, rotation, threshold and revocation governance — 32 assumed hours
+- Custody, provider-boundary and focused runtime regressions — 32 assumed hours
+
+- Assumed hours: 96
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 9,024
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 10,377.6
+- Adopted recreation increment: EUR 10,000
+- Previous recreation cost: EUR 1,600,000
+- Current recreation cost: EUR 1,610,000
+- Effort alternatives / Low hours: 96
+- Effort alternatives / Reference hours: 144
+- Effort alternatives / Extended hours: 192
+- Effort alternatives / Low cost: EUR 10,377.6
+- Effort alternatives / Reference cost: EUR 15,566.4
+- Effort alternatives / Extended cost: EUR 20,755.2
+
+Seller-selected equivalent reproduction effort for the expressly bounded implementation. These are not logged hours, elapsed development time or actual spending. EUR 94/hour is external rate context, not a minimum or quote; the 15% allowance is an assumption. The selected scenario is the lowest of these scoped scenarios, not an absolute cost floor. Candidate-only future features and unestablished qualification are excluded.
 
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
@@ -175,7 +213,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "V", "potential": "H", "sector": "Identity, Privacy & Assurance", "route": "Private deployment / enterprise licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc1
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc2
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/content-integrity-assurance-platform/#calculation
 

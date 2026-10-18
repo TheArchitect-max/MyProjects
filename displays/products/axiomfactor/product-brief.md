@@ -1,12 +1,12 @@
-# AxiomFactor
+# Quantum Cryptanalysis Engineering Platform
 
 TA-IP-042 | Reference name: Hypatia | Physics, mathematics & optimisation
 
-Explore mathematical problems and compare computational approaches through controlled research studies.
+Compare bounded factorisation experiments and quantum-resource engineering assumptions with reproducible research evidence.
 
 ## Product overview
 
-A mathematical computing research product for controlled factorisation and feasibility studies.
+QCEP is a research platform for bounded factorisation, resource-estimation scenarios, physical route/factory co-search and stochastic inventory studies with explicit calibration limits.
 
 ## Potential acquirers
 
@@ -16,11 +16,11 @@ A mathematical computing research product for controlled factorisation and feasi
 
 ## Documented functions
 
-- Run bounded factorisation studies
-- Compare resource scenarios
-- Review timing and uncertainty assumptions
-- Explore feasible study configurations
-- Retain reproducible calculations
+- Run bounded factorisation and arithmetic studies
+- Compare physical routes, factories and corridor scenarios
+- Study stochastic inventory and refinement policies
+- Review held-out resource-model limitations
+- Reproduce installed CLI and package-parity checks
 
 ## Available output types
 
@@ -34,11 +34,11 @@ Developed software. Existing software offered for evaluation against an agreed u
 
 Available for acquisition discussion.
 
-- Mathematical research software. Practical quantum advantage and commercial factorisation performance are not established.
+- No calibrated QPU forecast, ECDLP/secp256k1 circuit, real-wallet targeting capability, universal hardware advantage or completed post-quantum security assessment is established.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 150,000.
+Seller asking reference: EUR 152,000.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -56,9 +56,9 @@ Acquisition of the specifically agreed first-party work product and transferable
 
 ## Buyer information and enquiry
 
-Asset profile: https://thearchitect-max.github.io/MyProjects/projects/axiomfactor/
+Asset profile: https://thearchitect-max.github.io/MyProjects/projects/quantum-cryptanalysis-engineering-platform/
 
-Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/axiomfactor/factsheet.pdf
+Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/quantum-cryptanalysis-engineering-platform/factsheet.pdf
 
 Quote TA-IP-042 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
@@ -68,22 +68,34 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 0.22.0
+Identified product edition: 0.23.0
 
 Handover position: Conditional handover
 
-Available software for evaluation against your intended use. Deployment suitability is assessed separately.
+QCEP is a research platform for bounded factorisation, resource-estimation scenarios, physical route/factory co-search and stochastic inventory studies with explicit calibration limits.
 
 ### Priced first-party scope
 
-Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+Specifically agreed first-party implementation, documentation and retained evidence for 0.23.0. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.
+
+### Edition-specific evidence
+
+The retained v0.23 audit records 269 tests PASS, 41 installed CLI checks PASS, wheel/source-distribution parity and a 21 = 3 × 7 factorisation smoke. The workload holdout has 33 observations with 100% interval coverage but 0% exact chunk-bucket accuracy; only two of six folds are scored.
+
+
+
+### Intended qualification
+
+Reproduce the installed-package audit, review resource assumptions and qualify relevant real hardware observations before relying on workload or timing forecasts.
+
+- No calibrated QPU forecast, ECDLP/secp256k1 circuit, real-wallet targeting capability, universal hardware advantage or completed post-quantum security assessment is established.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
 | Technical scope | V | Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance. |
-| Evidence and validation | E3 | Tests, validation and provenance/release evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results. |
+| Evidence and validation | E3 | The retained v0.23 audit records 269 tests PASS, 41 installed CLI checks PASS, wheel/source-distribution parity and a 21 = 3 × 7 factorisation smoke. The workload holdout has 33 observations with 100% interval coverage but 0% exact chunk-bucket accuracy; only two of six folds are scored. |
 | Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. This grade concerns documented rights evidence. Missing documentation does not establish that first-party ownership is absent. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. A published asking reference does not establish a completed sale, income or an independent appraisal. |
 | Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. Your agreed delivery scope and the conditions below govern acceptance. |
@@ -97,8 +109,8 @@ Seller-owned first-party rights plus specifically agreed transferable software/d
 
 ### Qualification objectives
 
-- Agree a source-specific delivery edition and evaluate the documented functions against your intended use.
-- Close the listed technical, rights and handover conditions before recipient acceptance.
+- Reproduce the installed-package audit, review resource assumptions and qualify relevant real hardware observations before relying on workload or timing forecasts.
+- Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance.
 - Independent legal ownership/title opinion not performed by this internal audit.
 - Freedom-to-operate legal opinion not performed unless separately evidenced.
 - Independent penetration test not assumed unless separately evidenced.
@@ -129,24 +141,24 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-17. All amounts in EUR. Market value is not established.
+Basis: 2026-10-18. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 150,000 | 168,795 |
-| Negotiation reference - low | 120,000 | 135,036 |
-| Negotiation reference - high | 190,000 | 213,807 |
-| Recreation cost estimate | 700,000 | 787,710 |
-| Marketability cost scenario | 535,500 | 602,598 |
-| Monetisation cost scenario | 535,500 | 602,598 |
-| Risk-adjusted strategic reference | 319,508 | 359,542 |
-| Weighted economic reference | 501,028 | 563,807 |
+| Seller asking reference | 152,000 | 171,046 |
+| Negotiation reference - low | 121,500 | 136,724 |
+| Negotiation reference - high | 192,500 | 216,620 |
+| Recreation cost estimate | 710,000 | 798,963 |
+| Marketability cost scenario | 543,150 | 611,207 |
+| Monetisation cost scenario | 543,150 | 611,207 |
+| Risk-adjusted strategic reference | 324,072 | 364,678 |
+| Weighted economic reference | 508,185 | 571,861 |
 
 USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
-- Negotiation reference - low: Lower end of the previously published indicative negotiation range.
-- Negotiation reference - high: Upper end of the previously published indicative negotiation range.
+- Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
+- Negotiation reference - high: Upper end of the indicative seller negotiation range for the defined AS IS asset.
 - Recreation cost estimate: Seller estimate to reproduce comparable present work; not recorded expenditure or an established market value.
 - Marketability cost scenario: Cost-based model scenario; no observed comparable IP sale is used.
 - Monetisation cost scenario: Cost-based model scenario; no attributable income, royalty valuation or DCF is established.
@@ -159,7 +171,32 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+Recreation estimate: EUR 700,000 retained scope component plus EUR 10,000 for the explicitly scoped implementation work budget, giving EUR 710,000. The scoped budget assumes 96 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.
+
+#### Scoped implementation reproduction budget
+
+Physical-resource route, factory and corridor co-search; Stochastic inventory and bounded workload calibration studies; Package parity, installed CLI and audit regression.
+
+- Physical-resource route, factory and corridor co-search — 40 assumed hours
+- Stochastic inventory and bounded workload calibration studies — 32 assumed hours
+- Package parity, installed CLI and audit regression — 24 assumed hours
+
+- Assumed hours: 96
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 9,024
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 10,377.6
+- Adopted recreation increment: EUR 10,000
+- Previous recreation cost: EUR 700,000
+- Current recreation cost: EUR 710,000
+- Effort alternatives / Low hours: 96
+- Effort alternatives / Reference hours: 144
+- Effort alternatives / Extended hours: 192
+- Effort alternatives / Low cost: EUR 10,377.6
+- Effort alternatives / Reference cost: EUR 15,566.4
+- Effort alternatives / Extended cost: EUR 20,755.2
+
+Seller-selected equivalent reproduction effort for the expressly bounded implementation. These are not logged hours, elapsed development time or actual spending. EUR 94/hour is external rate context, not a minimum or quote; the 15% allowance is an assumption. The selected scenario is the lowest of these scoped scenarios, not an absolute cost floor. Candidate-only future features and unestablished qualification are excluded.
 
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
@@ -177,7 +214,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "V", "potential": "M", "sector": "Research & Scientific Software", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc1
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc2
 
-Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/axiomfactor/#calculation
+Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/quantum-cryptanalysis-engineering-platform/#calculation
 

@@ -128,7 +128,7 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-16. All amounts in EUR. Market value is not established.
+Basis: 2026-10-18. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
@@ -144,8 +144,8 @@ Basis: 2026-10-16. All amounts in EUR. Market value is not established.
 USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
-- Negotiation reference - low: Lower end of the previously published indicative negotiation range.
-- Negotiation reference - high: Upper end of the previously published indicative negotiation range.
+- Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
+- Negotiation reference - high: Upper end of the indicative seller negotiation range for the defined AS IS asset.
 - Recreation cost estimate: Seller estimate to reproduce comparable present work; not recorded expenditure or an established market value.
 - Marketability cost scenario: Cost-based model scenario; no observed comparable IP sale is used.
 - Monetisation cost scenario: Cost-based model scenario; no attributable income, royalty valuation or DCF is established.
@@ -164,10 +164,14 @@ The recreation anchor combines an identified base with separately scoped impleme
 
 Provides release-evidence/readiness governance and deterministic post-release change/requalification assessment; it also repairs nested evidence binding.
 
+- Release-evidence and readiness workflow
+- Post-release change assessment and requalification
+- Tamper regressions, CLI checks and release documentation
+
 - Senior engineer months: 0.25
 - Lead or specialist months: 0.15
 - Validation provenance months: 0.25
-- Assumed hours: 104.0
+- Assumed hours: 104
 - Raw engineering cost: EUR 11,800
 - With allowance: EUR 13,570
 - Adopted recreation increment: EUR 15,000
@@ -194,7 +198,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "V", "potential": "VH", "sector": "AI, Decision & Knowledge Systems", "route": "Private deployment / enterprise licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc1
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc2
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/evidence-governed-visual-intelligence-platform/#calculation
 

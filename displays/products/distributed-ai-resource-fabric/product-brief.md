@@ -133,7 +133,7 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-17. All amounts in EUR. Market value is not established.
+Basis: 2026-10-18. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
@@ -149,8 +149,8 @@ Basis: 2026-10-17. All amounts in EUR. Market value is not established.
 USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
-- Negotiation reference - low: Lower end of the previously published indicative negotiation range.
-- Negotiation reference - high: Upper end of the previously published indicative negotiation range.
+- Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
+- Negotiation reference - high: Upper end of the indicative seller negotiation range for the defined AS IS asset.
 - Recreation cost estimate: Seller estimate to reproduce comparable present work; not recorded expenditure or an established market value.
 - Marketability cost scenario: Cost-based model scenario; no observed comparable IP sale is used.
 - Monetisation cost scenario: Cost-based model scenario; no attributable income, royalty valuation or DCF is established.
@@ -169,6 +169,7 @@ Some dated work-package assumptions are disclosed, but they do not reconstruct t
 
 Additional recoverability, reproducible operation and validation work delivered after the previous assessment. The pending latest hardware gate is excluded from completed-validation claims.
 
+
 - Senior engineer months: 3
 - Lead or specialist months: 1
 - Validation provenance months: 1
@@ -181,6 +182,10 @@ Seller assumptions for scoped reproduction, not actual spending.
 #### Scoped work-package budget
 
 Delivered workload placement/execution controls, worker policy and lease enforcement, active-session supervision, persistent local recovery/reconciliation software, retained regression and single-GPU qualification, and supporting documentation. Earlier v0.10 implementation is already priced and is not counted again.
+
+- Work placement, worker policies and execution control
+- Session oversight and persistent local recovery/reconciliation
+- Retained qualification, provenance and operator documentation
 
 - Previous recreation cost: EUR 900,000
 - Senior engineer months: 5
@@ -197,6 +202,10 @@ Analyst-assumed engineering-equivalent reproduction budget at existing model rat
 
 Delivered durable worker receipts and process supervision, bounded custody/launch safety and forensic review software, retained exact-source regression and single-device qualification, and supporting documentation. Committed v0.20–v0.24 development remains draft and unmerged.
 
+- Durable worker receipts, execution supervision and custody
+- Bounded launch safety and custody-review software
+- Retained regression, hardware evidence and review documentation
+
 - Senior engineer months: 8
 - Lead or specialist months: 3
 - Validation provenance months: 5
@@ -204,7 +213,7 @@ Delivered durable worker receipts and process supervision, bounded custody/launc
 - Previous recreation cost: EUR 1,100,000
 - Resulting recreation cost: EUR 1,400,000
 - Raw engineering cost: EUR 290,000
-- With allowance: EUR 333,500.0
+- With allowance: EUR 333,500
 
 Assumed engineering-equivalent reproduction budget, not actual hours, payroll, expenditure, elapsed development time or an independently certified appraisal.
 
@@ -224,7 +233,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "V", "potential": "VH", "sector": "Enterprise Software & Operations", "route": "Private deployment / enterprise licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc1
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc2
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/distributed-ai-resource-fabric/#calculation
 

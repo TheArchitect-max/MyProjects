@@ -75,7 +75,7 @@ Handover position: Conditional handover
 
 The v0.9.8 workspace supports playback controls, timestamp bookmarks, human-authored research notes, local backup and offline project matching. The separate v0.9.9 candidate provides local library search, archive integrity and draft/focus recovery. Recorded software and user-operated browser results are specific to their tested editions. Live keyboard, accessibility and recipient acceptance remain separately scoped.
 
-Separately scoped development: 0.9.9 / R31 — offline keyboard checks; live shortcut acceptance pending
+Separately scoped development: 0.9.9 / R31 unmerged local-mutation, note-replay and keyboard-access candidate; actual Chrome/Edge shortcut acceptance pending
 
 ### Priced first-party scope
 
@@ -157,7 +157,7 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-12. All amounts in EUR. Market value is not established.
+Basis: 2026-10-18. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
@@ -173,8 +173,8 @@ Basis: 2026-10-12. All amounts in EUR. Market value is not established.
 USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
-- Negotiation reference - low: Lower end of the previously published indicative negotiation range.
-- Negotiation reference - high: Upper end of the previously published indicative negotiation range.
+- Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
+- Negotiation reference - high: Upper end of the indicative seller negotiation range for the defined AS IS asset.
 - Recreation cost estimate: Seller estimate to reproduce comparable present work; not recorded expenditure or an established market value.
 - Marketability cost scenario: Cost-based model scenario; no observed comparable IP sale is used.
 - Monetisation cost scenario: Cost-based model scenario; no attributable income, royalty valuation or DCF is established.
@@ -192,6 +192,7 @@ Some dated work-package assumptions are disclosed, but they do not reconstruct t
 #### Scoped work-package budget
 
 Present first-party v0.7 prototype source and documentation for browser controls, manual notes, offline project research, reviewed proposals and read-only source-review modules, in their actual documented state. The current mandatory validation failure is included as a known limitation. Browser production qualification, AI transcript or multimodal analysis, video downloading, external media/platform ownership, target-project code and rights, hosted services, automatic repairs and future engineering are excluded.
+
 
 - Senior engineer months: 3
 - Lead or specialist months: 0.7
@@ -219,7 +220,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "P", "potential": "M", "sector": "Media & Creator Technology", "route": "Media / creator software"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc1
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc2
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/universal-video-intelligence-platform/#calculation
 

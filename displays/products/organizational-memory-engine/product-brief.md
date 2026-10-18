@@ -6,7 +6,7 @@ Keep earlier software decisions accessible so your team can review precedents wh
 
 ## Product overview
 
-An organisational memory product for software-change history and precedent-led decisions.
+A governed organisational memory and software-change review engine with precedent retrieval, acceptance decisions, durable recovery freshness, trust-store contracts and offline release evidence.
 
 ## Potential acquirers
 
@@ -16,11 +16,11 @@ An organisational memory product for software-change history and precedent-led d
 
 ## Documented functions
 
-- Retain software-change history
-- Retrieve relevant precedents
-- Review change risk
-- Govern candidate acceptance
-- Track recovery and review decisions
+- Retrieve attributable software-change precedents
+- Govern candidate acceptance and recovery decisions
+- Enforce recovery evidence freshness
+- Review trust-store and release consistency
+- Run the offline release qualification gate
 
 ## Available output types
 
@@ -34,11 +34,11 @@ Developed software. Existing software offered for evaluation against an agreed u
 
 Available for acquisition discussion.
 
-- Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately.
+- Governance records do not authorise production traffic or infrastructure. Provider API execution and public-key nonrepudiation are outside the demonstrated core.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 700,000.
+Seller asking reference: EUR 703,000.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -68,22 +68,34 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 2.27.0
+Identified product edition: 2.31.0
 
 Handover position: Conditional handover
 
-Available software for evaluation against your intended use. Deployment suitability is assessed separately.
+A governed organisational memory and software-change review engine with precedent retrieval, acceptance decisions, durable recovery freshness, trust-store contracts and offline release evidence.
 
 ### Priced first-party scope
 
-Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+Specifically agreed first-party implementation, documentation and retained evidence for 2.31.0. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.
+
+### Edition-specific evidence
+
+The v2.31.0 retained exact-tree gate records 561 pytest tests PASS with no failures or skips, two FAISS checks PASS and a complete semantic release gate. Release evidence includes package, component and secret-scan checks.
+
+
+
+### Intended qualification
+
+Agree the target trust-store, retention, recovery-age and recipient acceptance policies; reproduce the complete offline release gate for the included edition.
+
+- Governance records do not authorise production traffic or infrastructure. Provider API execution and public-key nonrepudiation are outside the demonstrated core.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
 | Technical scope | V | Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance. |
-| Evidence and validation | E3 | Tests, validation and provenance/release evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results. |
+| Evidence and validation | E3 | The v2.31.0 retained exact-tree gate records 561 pytest tests PASS with no failures or skips, two FAISS checks PASS and a complete semantic release gate. Release evidence includes package, component and secret-scan checks. |
 | Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. This grade concerns documented rights evidence. Missing documentation does not establish that first-party ownership is absent. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. A published asking reference does not establish a completed sale, income or an independent appraisal. |
 | Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. Your agreed delivery scope and the conditions below govern acceptance. |
@@ -95,8 +107,8 @@ Seller-owned first-party rights plus specifically agreed transferable software/d
 
 ### Qualification objectives
 
-- Agree a source-specific delivery edition and evaluate the documented functions against your intended use.
-- Close the listed technical, rights and handover conditions before recipient acceptance.
+- Agree the target trust-store, retention, recovery-age and recipient acceptance policies; reproduce the complete offline release gate for the included edition.
+- Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance.
 - Independent legal ownership/title opinion not performed by this internal audit.
 - Freedom-to-operate legal opinion not performed unless separately evidenced.
 - Independent penetration test not assumed unless separately evidenced.
@@ -109,7 +121,7 @@ Documentary indicators support initial diligence. Identified files do not establ
 
 - Dependency declaration: identified
 - Dependency lock record: not established in reviewed records
-- Component inventory artifact: not established in reviewed records
+- Component inventory artifact: identified
 - Licence notices: identified
 - Third-party disclosure: identified
 - Security documentation: identified
@@ -127,24 +139,24 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-17. All amounts in EUR. Market value is not established.
+Basis: 2026-10-18. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 700,000 | 787,710 |
-| Negotiation reference - low | 560,000 | 630,168 |
-| Negotiation reference - high | 875,000 | 984,638 |
-| Recreation cost estimate | 1,900,000 | 2,138,070 |
-| Marketability cost scenario | 2,992,500 | 3,367,460 |
-| Monetisation cost scenario | 4,370,000 | 4,917,561 |
-| Risk-adjusted strategic reference | 4,820,805 | 5,424,852 |
-| Weighted economic reference | 3,634,782 | 4,090,220 |
+| Seller asking reference | 703,000 | 791,086 |
+| Negotiation reference - low | 562,500 | 632,981 |
+| Negotiation reference - high | 879,000 | 989,139 |
+| Recreation cost estimate | 1,908,500 | 2,147,635 |
+| Marketability cost scenario | 3,005,888 | 3,382,526 |
+| Monetisation cost scenario | 4,389,550 | 4,939,561 |
+| Risk-adjusted strategic reference | 4,842,372 | 5,449,121 |
+| Weighted economic reference | 3,651,043 | 4,108,519 |
 
 USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
-- Negotiation reference - low: Lower end of the previously published indicative negotiation range.
-- Negotiation reference - high: Upper end of the previously published indicative negotiation range.
+- Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
+- Negotiation reference - high: Upper end of the indicative seller negotiation range for the defined AS IS asset.
 - Recreation cost estimate: Seller estimate to reproduce comparable present work; not recorded expenditure or an established market value.
 - Marketability cost scenario: Cost-based model scenario; no observed comparable IP sale is used.
 - Monetisation cost scenario: Cost-based model scenario; no attributable income, royalty valuation or DCF is established.
@@ -157,7 +169,32 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+Recreation estimate: EUR 1,900,000 retained scope component plus EUR 8,500 for the explicitly scoped implementation work budget, giving EUR 1,908,500. The scoped budget assumes 80 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.
+
+#### Scoped implementation reproduction budget
+
+Recovery freshness and durable evidence-state contracts; Trust-store and release-identity integration; Offline release qualification, package and provenance checks.
+
+- Recovery freshness and durable evidence-state contracts — 32 assumed hours
+- Trust-store and release-identity integration — 24 assumed hours
+- Offline release qualification, package and provenance checks — 24 assumed hours
+
+- Assumed hours: 80
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 7,520
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 8,648
+- Adopted recreation increment: EUR 8,500
+- Previous recreation cost: EUR 1,900,000
+- Current recreation cost: EUR 1,908,500
+- Effort alternatives / Low hours: 80
+- Effort alternatives / Reference hours: 120
+- Effort alternatives / Extended hours: 160
+- Effort alternatives / Low cost: EUR 8,648
+- Effort alternatives / Reference cost: EUR 12,972
+- Effort alternatives / Extended cost: EUR 17,296
+
+Seller-selected equivalent reproduction effort for the expressly bounded implementation. These are not logged hours, elapsed development time or actual spending. EUR 94/hour is external rate context, not a minimum or quote; the 15% allowance is an assumption. The selected scenario is the lowest of these scoped scenarios, not an absolute cost floor. Candidate-only future features and unestablished qualification are excluded.
 
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
@@ -175,7 +212,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "V", "potential": "VH", "sector": "Industrial & Infrastructure Software", "route": "B2B SaaS / enterprise software"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc1
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc2
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/organizational-memory-engine/#calculation
 

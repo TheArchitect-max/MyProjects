@@ -6,7 +6,7 @@ Explore mission scenarios, compare routes and examine planning assumptions befor
 
 ## Product overview
 
-An aerospace mission simulation product for route comparisons and uncertainty-aware studies.
+A deterministic mission research simulator with route and fault studies, robust planning and a lumped battery model linking charge, resistive losses, temperature and available propulsion power.
 
 ## Potential acquirers
 
@@ -16,11 +16,11 @@ An aerospace mission simulation product for route comparisons and uncertainty-aw
 
 ## Documented functions
 
-- Simulate mission scenarios
-- Compare route choices
-- Review energy margins
-- Study modelled sensor and actuator faults
-- Retain supervisory event histories
+- Simulate mission, route and fault scenarios
+- Compare robust planning and energy margins
+- Model charge-dependent voltage and resistive loss
+- Propagate thermal and low-charge power derating
+- Retain deterministic battery and supervisory histories
 
 ## Available output types
 
@@ -34,11 +34,11 @@ Developed software. Existing software offered for evaluation against an agreed u
 
 Available for acquisition discussion.
 
-- Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately.
+- This is research/software-in-the-loop scope. Battery qualification, real-aircraft performance, operational flight evidence and aircraft certification are not established.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 215,000.
+Seller asking reference: EUR 216,500.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -68,28 +68,41 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 2.8.0
+Identified product edition: 2.9.0
 
 Handover position: Conditional handover
 
-Available software for evaluation against your intended use. Deployment suitability is assessed separately.
+A deterministic mission research simulator with route and fault studies, robust planning and a lumped battery model linking charge, resistive losses, temperature and available propulsion power.
 
 ### Priced first-party scope
 
-Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+Specifically agreed first-party implementation, documentation and retained evidence for 2.9.0. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.
+
+### Edition-specific evidence
+
+The v2.9 battery slice records 10/10 unit tests PASS plus a four-hour synthetic stress sequence and deterministic replay PASS. The v2.8 50-test and 51-check suites remain historical evidence. The 60-check v2.9 wrapper is defined; a complete v2.9 checkout execution is not established by these records.
+
+
+
+### Intended qualification
+
+Run the complete v2.9 mission/robust-planner integration gate, calibrate battery parameters against permissioned measurements and define scenario acceptance.
+
+- This is research/software-in-the-loop scope. Battery qualification, real-aircraft performance, operational flight evidence and aircraft certification are not established.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
 | Technical scope | V | Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance. |
-| Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results. |
+| Evidence and validation | E2 | The v2.9 battery slice records 10/10 unit tests PASS plus a four-hour synthetic stress sequence and deterministic replay PASS. The v2.8 50-test and 51-check suites remain historical evidence. The 60-check v2.9 wrapper is defined; a complete v2.9 checkout execution is not established by these records. |
 | Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. This grade concerns documented rights evidence. Missing documentation does not establish that first-party ownership is absent. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. A published asking reference does not establish a completed sale, income or an independent appraisal. |
 | Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. Your agreed delivery scope and the conditions below govern acceptance. |
 
 ### Conditions before handover
 
+- Run the complete v2.9 mission/robust-planner integration gate, calibrate battery parameters against permissioned measurements and define scenario acceptance.
 - Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
 - A detailed component inventory and licensing report are required for the agreed delivery scope.
 - A security assessment or an explicit statement of its absence is required before acceptance.
@@ -98,8 +111,8 @@ Seller-owned first-party rights plus specifically agreed transferable software/d
 
 ### Qualification objectives
 
-- Agree a source-specific delivery edition and evaluate the documented functions against your intended use.
-- Close the listed technical, rights and handover conditions before recipient acceptance.
+- Run the complete v2.9 mission/robust-planner integration gate, calibrate battery parameters against permissioned measurements and define scenario acceptance.
+- Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance.
 - Independent legal ownership/title opinion not performed by this internal audit.
 - Freedom-to-operate legal opinion not performed unless separately evidenced.
 - Independent penetration test not assumed unless separately evidenced.
@@ -130,24 +143,24 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-17. All amounts in EUR. Market value is not established.
+Basis: 2026-10-18. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 215,000 | 241,940 |
-| Negotiation reference - low | 170,000 | 191,301 |
-| Negotiation reference - high | 270,000 | 303,831 |
-| Recreation cost estimate | 850,000 | 956,505 |
-| Marketability cost scenario | 879,750 | 989,983 |
-| Monetisation cost scenario | 975,375 | 1,097,589 |
-| Risk-adjusted strategic reference | 887,612 | 998,830 |
-| Weighted economic reference | 894,189 | 1,006,231 |
+| Seller asking reference | 216,500 | 243,627 |
+| Negotiation reference - low | 171,000 | 192,426 |
+| Negotiation reference - high | 271,500 | 305,519 |
+| Recreation cost estimate | 855,000 | 962,132 |
+| Marketability cost scenario | 884,925 | 995,806 |
+| Monetisation cost scenario | 981,113 | 1,104,046 |
+| Risk-adjusted strategic reference | 892,833 | 1,004,705 |
+| Weighted economic reference | 899,449 | 1,012,150 |
 
 USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
-- Negotiation reference - low: Lower end of the previously published indicative negotiation range.
-- Negotiation reference - high: Upper end of the previously published indicative negotiation range.
+- Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
+- Negotiation reference - high: Upper end of the indicative seller negotiation range for the defined AS IS asset.
 - Recreation cost estimate: Seller estimate to reproduce comparable present work; not recorded expenditure or an established market value.
 - Marketability cost scenario: Cost-based model scenario; no observed comparable IP sale is used.
 - Monetisation cost scenario: Cost-based model scenario; no attributable income, royalty valuation or DCF is established.
@@ -160,7 +173,32 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+Recreation estimate: EUR 850,000 retained scope component plus EUR 5,000 for the explicitly scoped implementation work budget, giving EUR 855,000. The scoped budget assumes 48 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.
+
+#### Scoped implementation reproduction budget
+
+SOC-dependent battery voltage, resistance loss and thermal state; Available-power derating in mission and robust-planning constraints; Battery unit, stress and deterministic replay checks.
+
+- SOC-dependent battery voltage, resistance loss and thermal state — 20 assumed hours
+- Available-power derating in mission and robust-planning constraints — 16 assumed hours
+- Battery unit, stress and deterministic replay checks — 12 assumed hours
+
+- Assumed hours: 48
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 4,512
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 5,188.8
+- Adopted recreation increment: EUR 5,000
+- Previous recreation cost: EUR 850,000
+- Current recreation cost: EUR 855,000
+- Effort alternatives / Low hours: 48
+- Effort alternatives / Reference hours: 72
+- Effort alternatives / Extended hours: 96
+- Effort alternatives / Low cost: EUR 5,188.8
+- Effort alternatives / Reference cost: EUR 7,783.2
+- Effort alternatives / Extended cost: EUR 10,377.6
+
+Seller-selected equivalent reproduction effort for the expressly bounded implementation. These are not logged hours, elapsed development time or actual spending. EUR 94/hour is external rate context, not a minimum or quote; the 15% allowance is an assumption. The selected scenario is the lowest of these scoped scenarios, not an absolute cost floor. Candidate-only future features and unestablished qualification are excluded.
 
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
@@ -178,7 +216,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "V", "potential": "H", "sector": "Aerospace & Mobility", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc1
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc2
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/aerospace-mission-simulator/#calculation
 

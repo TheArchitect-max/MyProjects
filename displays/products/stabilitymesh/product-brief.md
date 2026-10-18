@@ -74,9 +74,17 @@ Handover position: Conditional handover
 
 The 1.9.1 software provides evidence custody, guarded local infrastructure qualification, Alibaba/Azure measured-trace adapters, full-trace sensitivity and operational outcome/readiness contracts. Eleven static gates passed, including parsing 61 Python files. Full dependency-based tests and external-data campaigns require their own acceptance. Measured workloads and simulated controller responses are separate evidence categories.
 
+Separately scoped development: 1.10.0 unmerged draft: partial-observation and Google v3 event contracts; excluded from the current price
+
 ### Priced first-party scope
 
 Present first-party v1.9.1 software. Measured external workloads remain separate from simulated controller responses. Operational calibration on genuinely labeled outcomes, environment-specific acceptance and production deployment remain open.
+
+### Separately scoped development
+
+Partial-observation and Google v3 event-contract work is an unmerged candidate. The priced main edition is v1.9.1 on the v1.9.0 functional baseline.
+
+- Environment-specific calibration, telemetry and controlled deployment acceptance remain separate.
 
 ### Acquisition evidence profile
 
@@ -126,7 +134,7 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-17. All amounts in EUR. Market value is not established.
+Basis: 2026-10-18. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
@@ -142,8 +150,8 @@ Basis: 2026-10-17. All amounts in EUR. Market value is not established.
 USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
-- Negotiation reference - low: Lower end of the previously published indicative negotiation range.
-- Negotiation reference - high: Upper end of the previously published indicative negotiation range.
+- Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
+- Negotiation reference - high: Upper end of the indicative seller negotiation range for the defined AS IS asset.
 - Recreation cost estimate: Seller estimate to reproduce comparable present work; not recorded expenditure or an established market value.
 - Marketability cost scenario: Cost-based model scenario; no observed comparable IP sale is used.
 - Monetisation cost scenario: Cost-based model scenario; no attributable income, royalty valuation or DCF is established.
@@ -162,18 +170,22 @@ The EUR 871,500 recreation estimate consists of a EUR 850,000 base and a EUR 21,
 
 Provides hash-bound evidence custody, guarded local infrastructure qualification, Alibaba/Azure measured-trace adapters, full-trace sensitivity and operational outcome/readiness contracts.
 
+- Evidence custody, guarded infrastructure qualification and benchmark repairs — 64 assumed hours
+- Alibaba/Azure trace adapters, full coverage and sensitivity tooling — 80 assumed hours
+- Outcome-label contracts, leakage controls, regression and transfer documentation — 56 assumed hours
+
 - Assumed hours: 200
 - Hourly rate: EUR 94
 - Raw engineering cost: EUR 18,800
 - Coordination tooling allowance: 0.15
-- With allowance: EUR 21,620.0
+- With allowance: EUR 21,620
 - Adopted recreation increment: EUR 21,500
 - Effort alternatives / Low hours: 200
-- Effort alternatives / Reference hours: 300.0
+- Effort alternatives / Reference hours: 300
 - Effort alternatives / Extended hours: 400
-- Effort alternatives / Low cost: EUR 21,620.0
-- Effort alternatives / Reference cost: EUR 32,430.0
-- Effort alternatives / Extended cost: EUR 43,240.0
+- Effort alternatives / Low cost: EUR 21,620
+- Effort alternatives / Reference cost: EUR 32,430
+- Effort alternatives / Extended cost: EUR 43,240
 
 Hours and the 15% allowance are analyst assumptions for bounded reproduction with modern tooling. EUR 94 is a Dutch mean, not a minimum rate or a contractor quote. This is the lowest of the explicitly scoped working scenarios, not an absolute market or cost floor.
 
@@ -193,7 +205,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "V", "potential": "H", "sector": "Industrial & Infrastructure Software", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc1
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc2
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/stabilitymesh/#calculation
 

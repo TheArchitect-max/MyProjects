@@ -6,7 +6,7 @@ Explore privacy-conscious ways to route and access information in controlled res
 
 ## Product overview
 
-A confidential-access research asset for studying privacy-oriented information routing.
+A privacy-oriented database research foundation with restart and authenticated journal studies, AEAD persistence, external rollback-guard contracts and controlled security-bootstrap interfaces.
 
 ## Potential acquirers
 
@@ -16,11 +16,11 @@ A confidential-access research asset for studying privacy-oriented information r
 
 ## Documented functions
 
-- Study confidential record access
-- Compare routing scenarios
-- Review repeated-query behaviour
-- Retain restart and continuity studies
-- Record research limitations
+- Study confidential access and routing primitives
+- Retain authenticated journal and restart research
+- Evaluate AEAD persistence and key rotation
+- Bind external rollback and qualification contracts
+- Exercise an HTTPS/mTLS monotonic-counter adapter
 
 ## Available output types
 
@@ -34,11 +34,11 @@ Prototype. A prototype offered for evaluation and continued development; product
 
 Available for acquisition discussion.
 
-- Privacy-oriented research software. Security suitability for an operational deployment requires a dedicated review.
+- The private-fetch access-pattern primitive remains unresolved. ORAM/PIR/DPF and shadow components are research/reference scope; this is not a qualified production private database.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 115,000.
+Seller asking reference: EUR 116,000.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -68,35 +68,48 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 0.3.16
+Identified product edition: 0.3.19
 
 Handover position: Conditional handover
 
-An implemented prototype for evaluation and further development.
+A privacy-oriented database research foundation with restart and authenticated journal studies, AEAD persistence, external rollback-guard contracts and controlled security-bootstrap interfaces.
 
 ### Priced first-party scope
 
-Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+Specifically agreed first-party implementation, documentation and retained evidence for 0.3.19. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.
+
+### Edition-specific evidence
+
+The retained v0.3.17-v0.3.19 records identify isolated source/harness and OpenSSL RFC-vector checks plus local mTLS counter, stale-CAS, pin and certificate rejection checks PASS. A complete linked v0.3.19 CTest run and independent auditor/HSM qualification are not established.
+
+
+
+### Intended qualification
+
+Run the full linked checkout gate and qualify real root-key custody, independent rollback storage, external statements and recovery under the intended deployment threat model.
+
+- The private-fetch access-pattern primitive remains unresolved. ORAM/PIR/DPF and shadow components are research/reference scope; this is not a qualified production private database.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
 | Technical scope | P | Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance. |
-| Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results. |
+| Evidence and validation | E2 | The retained v0.3.17-v0.3.19 records identify isolated source/harness and OpenSSL RFC-vector checks plus local mTLS counter, stale-CAS, pin and certificate rejection checks PASS. A complete linked v0.3.19 CTest run and independent auditor/HSM qualification are not established. |
 | Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. This grade concerns documented rights evidence. Missing documentation does not establish that first-party ownership is absent. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. A published asking reference does not establish a completed sale, income or an independent appraisal. |
 | Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. Your agreed delivery scope and the conditions below govern acceptance. |
 
 ### Conditions before handover
 
+- Run the full linked checkout gate and qualify real root-key custody, independent rollback storage, external statements and recovery under the intended deployment threat model.
 - Release identity and provenance evidence remain incomplete.
 - An explicit delivery manifest and handover scope remain to be agreed.
 
 ### Qualification objectives
 
-- Agree a source-specific delivery edition and evaluate the documented functions against your intended use.
-- Close the listed technical, rights and handover conditions before recipient acceptance.
+- Run the full linked checkout gate and qualify real root-key custody, independent rollback storage, external statements and recovery under the intended deployment threat model.
+- Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance.
 - Independent legal ownership/title opinion not performed by this internal audit.
 - Freedom-to-operate legal opinion not performed unless separately evidenced.
 - Independent penetration test not assumed unless separately evidenced.
@@ -121,37 +134,62 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-17. All amounts in EUR. Market value is not established.
+Basis: 2026-10-18. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 115,000 | 129,410 |
-| Negotiation reference - low | 90,000 | 101,277 |
-| Negotiation reference - high | 145,000 | 163,169 |
-| Recreation cost estimate | 850,000 | 956,505 |
-| Marketability cost scenario | 872,419 | 981,733 |
-| Monetisation cost scenario | 731,531 | 823,192 |
-| Risk-adjusted strategic reference | 731,480 | 823,134 |
-| Weighted economic reference | 789,308 | 888,208 |
+| Seller asking reference | 116,000 | 130,535 |
+| Negotiation reference - low | 91,000 | 102,402 |
+| Negotiation reference - high | 146,500 | 164,856 |
+| Recreation cost estimate | 858,500 | 966,070 |
+| Marketability cost scenario | 881,143 | 991,550 |
+| Monetisation cost scenario | 738,847 | 831,425 |
+| Risk-adjusted strategic reference | 738,795 | 831,366 |
+| Weighted economic reference | 797,201 | 897,090 |
 
 USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
-- Negotiation reference - low: Lower end of the previously published indicative negotiation range.
-- Negotiation reference - high: Upper end of the previously published indicative negotiation range.
+- Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
+- Negotiation reference - high: Upper end of the indicative seller negotiation range for the defined AS IS asset.
 - Recreation cost estimate: Seller estimate to reproduce comparable present work; not recorded expenditure or an established market value.
 - Marketability cost scenario: Cost-based model scenario; no observed comparable IP sale is used.
 - Monetisation cost scenario: Cost-based model scenario; no attributable income, royalty valuation or DCF is established.
 - Risk-adjusted strategic reference: Cost-based opportunity scenario with stated seller-selected factors.
 - Weighted economic reference: Weighted blend of correlated cost scenarios; not an independent appraisal.
 
-Milestone-conditioned reference: EUR 975,291; model change EUR 185,983. Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.
+Milestone-conditioned reference: EUR 985,044; model change EUR 187,843. Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.
 
 This is a conditional model sensitivity, not a current asking price, forecast or market value.
 
 ### Cost basis
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+Recreation estimate: EUR 850,000 retained scope component plus EUR 8,500 for the explicitly scoped implementation work budget, giving EUR 858,500. The scoped budget assumes 80 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.
+
+#### Scoped implementation reproduction budget
+
+AEAD-backed private persistence and key-rotation contracts; External rollback-guard and security-bootstrap interfaces; HTTPS/mTLS counter adapter and adversarial qualification checks.
+
+- AEAD-backed private persistence and key-rotation contracts — 32 assumed hours
+- External rollback-guard and security-bootstrap interfaces — 24 assumed hours
+- HTTPS/mTLS counter adapter and adversarial qualification checks — 24 assumed hours
+
+- Assumed hours: 80
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 7,520
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 8,648
+- Adopted recreation increment: EUR 8,500
+- Previous recreation cost: EUR 850,000
+- Current recreation cost: EUR 858,500
+- Effort alternatives / Low hours: 80
+- Effort alternatives / Reference hours: 120
+- Effort alternatives / Extended hours: 160
+- Effort alternatives / Low cost: EUR 8,648
+- Effort alternatives / Reference cost: EUR 12,972
+- Effort alternatives / Extended cost: EUR 17,296
+
+Seller-selected equivalent reproduction effort for the expressly bounded implementation. These are not logged hours, elapsed development time or actual spending. EUR 94/hour is external rate context, not a minimum or quote; the 15% allowance is an assumption. The selected scenario is the lowest of these scoped scenarios, not an absolute cost floor. Candidate-only future features and unestablished qualification are excluded.
 
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
@@ -169,7 +207,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "P", "potential": "H", "sector": "Identity, Privacy & Assurance", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc1
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc2
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/cipherroutedb/#calculation
 

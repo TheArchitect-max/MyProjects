@@ -74,11 +74,17 @@ Handover position: Conditional handover
 
 Use the v0.1 transport-concept software for your FusionLunar studies. A separate unmerged v0.2 draft provides refueling and departure-study controls with isolated synthetic checks; full frozen-source integration and release qualification remain open. Flight qualification and completed joint FusionLunar integration are not established. Existing
 
-Separately scoped development: v0.2 refueling-study candidate; unmerged
+Separately scoped development: 0.2 unmerged stateful refueling, depot-inventory and multi-launch departure candidate; excluded from the current price
 
 ### Priced first-party scope
 
 Present first-party transport-concept screening software, interface contracts, synthetic example, tests, documentation and retained software validation at the identified development commit. Physical vehicles, flight qualification, operational transport, external science and data rights, the separately owned FusionLunar asset and future engineering are excluded.
+
+### Separately scoped development
+
+The candidate contains reserve-aware propellant transfers, tanker manifests, boil-off, deterministic replay and departure gates. Current priced scope remains the v0.1 engineering foundation.
+
+- Flight-performance, hardware reliability and operational feasibility are not established.
 
 ### Acquisition evidence profile
 
@@ -131,7 +137,7 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-11. All amounts in EUR. Market value is not established.
+Basis: 2026-10-18. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
@@ -147,8 +153,8 @@ Basis: 2026-10-11. All amounts in EUR. Market value is not established.
 USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
-- Negotiation reference - low: Lower end of the previously published indicative negotiation range.
-- Negotiation reference - high: Upper end of the previously published indicative negotiation range.
+- Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
+- Negotiation reference - high: Upper end of the indicative seller negotiation range for the defined AS IS asset.
 - Recreation cost estimate: Seller estimate to reproduce comparable present work; not recorded expenditure or an established market value.
 - Marketability cost scenario: Cost-based model scenario; no observed comparable IP sale is used.
 - Monetisation cost scenario: Cost-based model scenario; no attributable income, royalty valuation or DCF is established.
@@ -166,6 +172,9 @@ Disclosed base/increment assumptions reconcile to the retained recreation anchor
 #### Scoped work-package budget
 
 Present first-party transport-concept screening software, interface contracts, synthetic example, tests, documentation and retained software validation at the identified development commit. Physical vehicles, flight qualification, operational transport, external science and data rights, the separately owned FusionLunar asset and future engineering are excluded.
+
+- Software contracts, concept assessment and local interfaces
+- Examples, retained validation, documentation and development packaging
 
 - Senior engineer months: 1.5
 - Lead or specialist months: 0.4
@@ -193,7 +202,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "P", "potential": "M", "sector": "Aerospace & Mobility", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc1
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc2
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/launch-cislunar-transportation-engineering-platform/#calculation
 

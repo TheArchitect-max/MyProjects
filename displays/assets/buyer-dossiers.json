@@ -1,6 +1,6 @@
 {
   "schema": "public-buyer-dossiers-1",
-  "basisDate": "2026-10-17",
+  "basisDate": "2026-10-18",
   "purpose": "Version, qualification, rights and handover information for initial acquisition review. Evidence applies to the identified edition and tested scope.",
   "definitions": {
     "purpose": "Seller-side evidence, transfer and acquisition-documentation readiness. This is not buyer due diligence and does not replace buyer-specific legal, technical, security or financial review.",
@@ -305,10 +305,10 @@
     },
     {
       "ref": "TA-IP-070",
-      "version": "0.4.5",
+      "version": "0.4.6 / BICA 4.6",
       "developmentEdition": "",
-      "productPosition": "Available software for evaluation against your intended use. Deployment suitability is assessed separately.",
-      "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
+      "productPosition": "An experimental cognitive runtime for adaptation, memory and sequential decision studies, with an optional local neural backend and explicit worker-admission controls.",
+      "offeredEdition": "Specifically agreed first-party implementation, documentation and retained evidence for 0.4.6 / BICA 4.6. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
@@ -321,7 +321,7 @@
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
           "grade": "E3",
-          "criterion": "Tests, validation and provenance/release evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results."
+          "criterion": "The retained BICA v4.6 evidence records seven targeted CPU tests PASS and CPU-smoke reconstruction, alignment and consolidation gates PASS. Repository-wide and CUDA qualification tooling is present; a complete GPU PASS is not established without executed CUDA evidence."
         },
         {
           "axis": "ipRightsMaturity",
@@ -343,6 +343,7 @@
         }
       ],
       "sellerConditions": [
+        "Execute the complete repository and installed-package gates; qualify the optional CUDA backend on the buyer target and review trusted checkpoint handling.",
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
         "A detailed component inventory and licensing report are required for the agreed delivery scope.",
         "An explicit delivery manifest and handover scope remain to be agreed."
@@ -353,8 +354,8 @@
         "Independent penetration test not assumed unless separately evidenced."
       ],
       "qualificationObjectives": [
-        "Agree a source-specific delivery edition and evaluate the documented functions against your intended use.",
-        "Close the listed technical, rights and handover conditions before recipient acceptance."
+        "Execute the complete repository and installed-package gates; qualify the optional CUDA backend on the buyer target and review trusted checkpoint handling.",
+        "Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance."
       ],
       "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
       "componentEvidence": {
@@ -366,7 +367,20 @@
         "securityDocumentationIdentified": true,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Edition-specific evidence",
+          "text": "The retained BICA v4.6 evidence records seven targeted CPU tests PASS and CPU-smoke reconstruction, alignment and consolidation gates PASS. Repository-wide and CUDA qualification tooling is present; a complete GPU PASS is not established without executed CUDA evidence.",
+          "items": []
+        },
+        {
+          "title": "Intended qualification",
+          "text": "Execute the complete repository and installed-package gates; qualify the optional CUDA backend on the buyer target and review trusted checkpoint handling.",
+          "items": [
+            "No AGI capability is established. Worker processes are not a hostile-code kernel/container sandbox; execution requires explicit admission."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-064",
@@ -568,10 +582,10 @@
     },
     {
       "ref": "TA-IP-034",
-      "version": "0.6.0",
+      "version": "0.8.0",
       "developmentEdition": "",
-      "productPosition": "An implemented prototype for evaluation and further development.",
-      "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
+      "productPosition": "An offline C++ engineering-analysis foundation for ground-vehicle concept comparisons, cumulative scenario-sequence energy and deterministic multi-node thermal networks.",
+      "offeredEdition": "Specifically agreed first-party implementation, documentation and retained evidence for 0.8.0. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
@@ -584,7 +598,7 @@
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
           "grade": "E2",
-          "criterion": "Tests plus validation/qualification evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results."
+          "criterion": "The retained v0.8 validation contract records complete 14-test CTest execution with GCC and Clang Release builds, AddressSanitizer/UndefinedBehaviorSanitizer and strict-mode, manifest and export checks. These are software contracts and synthetic model checks."
         },
         {
           "axis": "ipRightsMaturity",
@@ -616,8 +630,8 @@
         "Independent penetration test not assumed unless separately evidenced."
       ],
       "qualificationObjectives": [
-        "Agree a source-specific delivery edition and evaluate the documented functions against your intended use.",
-        "Close the listed technical, rights and handover conditions before recipient acceptance."
+        "Reproduce the compiler/sanitizer gate and qualify supplied material properties, thermal parameters and reference datasets for the intended engineering study.",
+        "Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance."
       ],
       "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
       "componentEvidence": {
@@ -629,7 +643,20 @@
         "securityDocumentationIdentified": false,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Edition-specific evidence",
+          "text": "The retained v0.8 validation contract records complete 14-test CTest execution with GCC and Clang Release builds, AddressSanitizer/UndefinedBehaviorSanitizer and strict-mode, manifest and export checks. These are software contracts and synthetic model checks.",
+          "items": []
+        },
+        {
+          "title": "Intended qualification",
+          "text": "Reproduce the compiler/sanitizer gate and qualify supplied material properties, thermal parameters and reference datasets for the intended engineering study.",
+          "items": [
+            "The scope is offline, nonoperational analysis. Field reliability, manufacturing feasibility, real subsystem performance and physical qualification are not established."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-012",
@@ -698,10 +725,10 @@
     },
     {
       "ref": "TA-IP-030",
-      "version": "2.8.0",
+      "version": "2.9.0",
       "developmentEdition": "",
-      "productPosition": "Available software for evaluation against your intended use. Deployment suitability is assessed separately.",
-      "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
+      "productPosition": "A deterministic mission research simulator with route and fault studies, robust planning and a lumped battery model linking charge, resistive losses, temperature and available propulsion power.",
+      "offeredEdition": "Specifically agreed first-party implementation, documentation and retained evidence for 2.9.0. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
@@ -714,7 +741,7 @@
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
           "grade": "E2",
-          "criterion": "Tests plus validation/qualification evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results."
+          "criterion": "The v2.9 battery slice records 10/10 unit tests PASS plus a four-hour synthetic stress sequence and deterministic replay PASS. The v2.8 50-test and 51-check suites remain historical evidence. The 60-check v2.9 wrapper is defined; a complete v2.9 checkout execution is not established by these records."
         },
         {
           "axis": "ipRightsMaturity",
@@ -736,6 +763,7 @@
         }
       ],
       "sellerConditions": [
+        "Run the complete v2.9 mission/robust-planner integration gate, calibrate battery parameters against permissioned measurements and define scenario acceptance.",
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
         "A detailed component inventory and licensing report are required for the agreed delivery scope.",
         "A security assessment or an explicit statement of its absence is required before acceptance.",
@@ -748,8 +776,8 @@
         "Independent penetration test not assumed unless separately evidenced."
       ],
       "qualificationObjectives": [
-        "Agree a source-specific delivery edition and evaluate the documented functions against your intended use.",
-        "Close the listed technical, rights and handover conditions before recipient acceptance."
+        "Run the complete v2.9 mission/robust-planner integration gate, calibrate battery parameters against permissioned measurements and define scenario acceptance.",
+        "Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance."
       ],
       "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
       "componentEvidence": {
@@ -761,7 +789,20 @@
         "securityDocumentationIdentified": false,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Edition-specific evidence",
+          "text": "The v2.9 battery slice records 10/10 unit tests PASS plus a four-hour synthetic stress sequence and deterministic replay PASS. The v2.8 50-test and 51-check suites remain historical evidence. The 60-check v2.9 wrapper is defined; a complete v2.9 checkout execution is not established by these records.",
+          "items": []
+        },
+        {
+          "title": "Intended qualification",
+          "text": "Run the complete v2.9 mission/robust-planner integration gate, calibrate battery parameters against permissioned measurements and define scenario acceptance.",
+          "items": [
+            "This is research/software-in-the-loop scope. Battery qualification, real-aircraft performance, operational flight evidence and aircraft certification are not established."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-017",
@@ -803,7 +844,6 @@
         }
       ],
       "sellerConditions": [
-        "Repository-native tests not identified.",
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
         "A detailed component inventory and licensing report are required for the agreed delivery scope.",
         "A security assessment or an explicit statement of its absence is required before acceptance.",
@@ -899,10 +939,10 @@
     },
     {
       "ref": "TA-IP-002",
-      "version": "3.5.0",
+      "version": "3.7.0",
       "developmentEdition": "",
-      "productPosition": "Available software for evaluation against your intended use. Deployment suitability is assessed separately.",
-      "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
+      "productPosition": "A deterministic network-resilience research platform for comparing disruption and repair portfolios, shared damaged-network baselines, budget constraints and failure-domain assurance.",
+      "offeredEdition": "Specifically agreed first-party implementation, documentation and retained evidence for 3.7.0. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.",
       "transferPosition": "Scope closure required",
       "assessmentCriteria": [
         {
@@ -914,8 +954,8 @@
         {
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
-          "grade": "E1",
-          "criterion": "Tests or structured evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results."
+          "grade": "E3",
+          "criterion": "The retained v3.7.0 release manifest and Colab replay audit record 74/74 checks PASS, including seven embedded provenance checks. This is version-specific software/research evidence, not independent field validation."
         },
         {
           "axis": "ipRightsMaturity",
@@ -937,7 +977,6 @@
         }
       ],
       "sellerConditions": [
-        "Repository-native tests not identified.",
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
         "A detailed component inventory and licensing report are required for the agreed delivery scope.",
         "A security assessment or an explicit statement of its absence is required before acceptance.",
@@ -949,8 +988,8 @@
         "Independent penetration test not assumed unless separately evidenced."
       ],
       "qualificationObjectives": [
-        "Agree a source-specific delivery edition and evaluate the documented functions against your intended use.",
-        "Close the listed technical, rights and handover conditions before recipient acceptance."
+        "Reproduce representative failure-domain and repair-budget cases in the buyer environment and retain negative comparisons where an external baseline performs better.",
+        "Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance."
       ],
       "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
       "componentEvidence": {
@@ -962,7 +1001,20 @@
         "securityDocumentationIdentified": false,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Edition-specific evidence",
+          "text": "The retained v3.7.0 release manifest and Colab replay audit record 74/74 checks PASS, including seven embedded provenance checks. This is version-specific software/research evidence, not independent field validation.",
+          "items": []
+        },
+        {
+          "title": "Intended qualification",
+          "text": "Reproduce representative failure-domain and repair-budget cases in the buyer environment and retain negative comparisons where an external baseline performs better.",
+          "items": [
+            "Network simulations and deterministic software checks do not establish universal optimisation, physical resilience or biological/clinical effects."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-093",
@@ -1032,10 +1084,10 @@
     },
     {
       "ref": "TA-IP-027",
-      "version": "0.23.0",
-      "developmentEdition": "",
-      "productPosition": "The identified build is awaiting qualification; the earlier evaluated baseline remains separate.",
-      "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
+      "version": "0.25.0",
+      "developmentEdition": "0.25.0 canonical-evidence implementation; exact native Rust execution qualification pending",
+      "productPosition": "An adaptation and continuity research framework with source-bound evidence qualification, a separate dual-attestation authorization protocol and canonical typed evidence contracts.",
+      "offeredEdition": "Specifically agreed first-party implementation, documentation and retained evidence for 0.25.0. The v0.24 executed baseline and the separately qualified v0.25 implementation must be distinguished in the delivery agreement. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
@@ -1047,8 +1099,8 @@
         {
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
-          "grade": "E2",
-          "criterion": "Tests plus validation/qualification evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results."
+          "grade": "E3",
+          "criterion": "The retained v0.24 qualification record identifies 171/171 Rust tests PASS, nine Gate-7L integration tests PASS and a non-simulated process-filesystem target run. For v0.25, retained evidence establishes 57/57 selected-source checks and three Python byte-vector reproductions PASS; it does not establish execution of the v0.25 Rust suite."
         },
         {
           "axis": "ipRightsMaturity",
@@ -1070,8 +1122,8 @@
         }
       ],
       "sellerConditions": [
+        "Execute the exact v0.25 native Rust gate, qualify each V2 producer migration and supply concrete reviewed identity, signature-verifier and durable atomic nonce implementations for any deployment.",
         "A detailed component inventory and licensing report are required for the agreed delivery scope.",
-        "Release identity and provenance evidence remain incomplete.",
         "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "buyerConditions": [
@@ -1080,8 +1132,8 @@
         "Independent penetration test not assumed unless separately evidenced."
       ],
       "qualificationObjectives": [
-        "Agree a source-specific delivery edition and evaluate the documented functions against your intended use.",
-        "Close the listed technical, rights and handover conditions before recipient acceptance."
+        "Execute the exact v0.25 native Rust gate, qualify each V2 producer migration and supply concrete reviewed identity, signature-verifier and durable atomic nonce implementations for any deployment.",
+        "Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance."
       ],
       "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
       "componentEvidence": {
@@ -1093,7 +1145,20 @@
         "securityDocumentationIdentified": true,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Edition-specific evidence",
+          "text": "The retained v0.24 qualification record identifies 171/171 Rust tests PASS, nine Gate-7L integration tests PASS and a non-simulated process-filesystem target run. For v0.25, retained evidence establishes 57/57 selected-source checks and three Python byte-vector reproductions PASS; it does not establish execution of the v0.25 Rust suite.",
+          "items": []
+        },
+        {
+          "title": "Intended qualification",
+          "text": "Execute the exact v0.25 native Rust gate, qualify each V2 producer migration and supply concrete reviewed identity, signature-verifier and durable atomic nonce implementations for any deployment.",
+          "items": [
+            "The v0.24 qualification is source- and target-specific. General power-loss durability, independent third-party reproduction, production key infrastructure and operational authorization are not established."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-055",
@@ -1162,10 +1227,10 @@
     },
     {
       "ref": "TA-IP-042",
-      "version": "0.22.0",
+      "version": "0.23.0",
       "developmentEdition": "",
-      "productPosition": "Available software for evaluation against your intended use. Deployment suitability is assessed separately.",
-      "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
+      "productPosition": "QCEP is a research platform for bounded factorisation, resource-estimation scenarios, physical route/factory co-search and stochastic inventory studies with explicit calibration limits.",
+      "offeredEdition": "Specifically agreed first-party implementation, documentation and retained evidence for 0.23.0. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
@@ -1178,7 +1243,7 @@
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
           "grade": "E3",
-          "criterion": "Tests, validation and provenance/release evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results."
+          "criterion": "The retained v0.23 audit records 269 tests PASS, 41 installed CLI checks PASS, wheel/source-distribution parity and a 21 = 3 × 7 factorisation smoke. The workload holdout has 33 observations with 100% interval coverage but 0% exact chunk-bucket accuracy; only two of six folds are scored."
         },
         {
           "axis": "ipRightsMaturity",
@@ -1211,8 +1276,8 @@
         "Independent penetration test not assumed unless separately evidenced."
       ],
       "qualificationObjectives": [
-        "Agree a source-specific delivery edition and evaluate the documented functions against your intended use.",
-        "Close the listed technical, rights and handover conditions before recipient acceptance."
+        "Reproduce the installed-package audit, review resource assumptions and qualify relevant real hardware observations before relying on workload or timing forecasts.",
+        "Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance."
       ],
       "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
       "componentEvidence": {
@@ -1224,7 +1289,20 @@
         "securityDocumentationIdentified": false,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Edition-specific evidence",
+          "text": "The retained v0.23 audit records 269 tests PASS, 41 installed CLI checks PASS, wheel/source-distribution parity and a 21 = 3 × 7 factorisation smoke. The workload holdout has 33 observations with 100% interval coverage but 0% exact chunk-bucket accuracy; only two of six folds are scored.",
+          "items": []
+        },
+        {
+          "title": "Intended qualification",
+          "text": "Reproduce the installed-package audit, review resource assumptions and qualify relevant real hardware observations before relying on workload or timing forecasts.",
+          "items": [
+            "No calibrated QPU forecast, ECDLP/secp256k1 circuit, real-wallet targeting capability, universal hardware advantage or completed post-quantum security assessment is established."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-077",
@@ -1693,10 +1771,10 @@
     },
     {
       "ref": "TA-IP-041",
-      "version": "0.3.16",
+      "version": "0.3.19",
       "developmentEdition": "",
-      "productPosition": "An implemented prototype for evaluation and further development.",
-      "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
+      "productPosition": "A privacy-oriented database research foundation with restart and authenticated journal studies, AEAD persistence, external rollback-guard contracts and controlled security-bootstrap interfaces.",
+      "offeredEdition": "Specifically agreed first-party implementation, documentation and retained evidence for 0.3.19. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
@@ -1709,7 +1787,7 @@
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
           "grade": "E2",
-          "criterion": "Tests plus validation/qualification evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results."
+          "criterion": "The retained v0.3.17-v0.3.19 records identify isolated source/harness and OpenSSL RFC-vector checks plus local mTLS counter, stale-CAS, pin and certificate rejection checks PASS. A complete linked v0.3.19 CTest run and independent auditor/HSM qualification are not established."
         },
         {
           "axis": "ipRightsMaturity",
@@ -1731,6 +1809,7 @@
         }
       ],
       "sellerConditions": [
+        "Run the full linked checkout gate and qualify real root-key custody, independent rollback storage, external statements and recovery under the intended deployment threat model.",
         "Release identity and provenance evidence remain incomplete.",
         "An explicit delivery manifest and handover scope remain to be agreed."
       ],
@@ -1740,8 +1819,8 @@
         "Independent penetration test not assumed unless separately evidenced."
       ],
       "qualificationObjectives": [
-        "Agree a source-specific delivery edition and evaluate the documented functions against your intended use.",
-        "Close the listed technical, rights and handover conditions before recipient acceptance."
+        "Run the full linked checkout gate and qualify real root-key custody, independent rollback storage, external statements and recovery under the intended deployment threat model.",
+        "Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance."
       ],
       "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
       "componentEvidence": {
@@ -1753,7 +1832,20 @@
         "securityDocumentationIdentified": true,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Edition-specific evidence",
+          "text": "The retained v0.3.17-v0.3.19 records identify isolated source/harness and OpenSSL RFC-vector checks plus local mTLS counter, stale-CAS, pin and certificate rejection checks PASS. A complete linked v0.3.19 CTest run and independent auditor/HSM qualification are not established.",
+          "items": []
+        },
+        {
+          "title": "Intended qualification",
+          "text": "Run the full linked checkout gate and qualify real root-key custody, independent rollback storage, external statements and recovery under the intended deployment threat model.",
+          "items": [
+            "The private-fetch access-pattern primitive remains unresolved. ORAM/PIR/DPF and shadow components are research/reference scope; this is not a qualified production private database."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-104",
@@ -1821,10 +1913,10 @@
     },
     {
       "ref": "TA-IP-071",
-      "version": "60.0.0",
+      "version": "61.0.0 / analysis engine 56.0.0",
       "developmentEdition": "",
-      "productPosition": "Available software for evaluation against your intended use. Deployment suitability is assessed separately.",
-      "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
+      "productPosition": "A content-integrity evidence platform with controlled review workspaces, attributable receipts, signed trust-bundle distribution and signer/custody governance.",
+      "offeredEdition": "Specifically agreed first-party implementation, documentation and retained evidence for 61.0.0 / analysis engine 56.0.0. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
@@ -1837,7 +1929,7 @@
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
           "grade": "E4",
-          "criterion": "E3 plus repository-retained independent/external validation evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results."
+          "criterion": "The retained v61 focused runtime gate records 30/30 tests PASS: seven custody, eleven signing-governance and twelve trust-distribution tests. Historical v56-v60 and external evidence applies only to its recorded edition; it is not a fresh complete v61 regression or independent v61 assessment."
         },
         {
           "axis": "ipRightsMaturity",
@@ -1859,6 +1951,7 @@
         }
       ],
       "sellerConditions": [
+        "Run the complete included-edition regression suite and qualify actual signing custody, key services, revocation policy and recipient trust distribution.",
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
         "A detailed component inventory and licensing report are required for the agreed delivery scope."
       ],
@@ -1868,8 +1961,8 @@
         "Independent penetration test not assumed unless separately evidenced."
       ],
       "qualificationObjectives": [
-        "Agree a source-specific delivery edition and evaluate the documented functions against your intended use.",
-        "Close the listed technical, rights and handover conditions before recipient acceptance."
+        "Run the complete included-edition regression suite and qualify actual signing custody, key services, revocation policy and recipient trust distribution.",
+        "Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance."
       ],
       "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
       "componentEvidence": {
@@ -1881,7 +1974,20 @@
         "securityDocumentationIdentified": true,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Edition-specific evidence",
+          "text": "The retained v61 focused runtime gate records 30/30 tests PASS: seven custody, eleven signing-governance and twelve trust-distribution tests. Historical v56-v60 and external evidence applies only to its recorded edition; it is not a fresh complete v61 regression or independent v61 assessment.",
+          "items": []
+        },
+        {
+          "title": "Intended qualification",
+          "text": "Run the complete included-edition regression suite and qualify actual signing custody, key services, revocation policy and recipient trust distribution.",
+          "items": [
+            "Provider interfaces include file/callback boundaries. A concrete vendor HSM/KMS SDK, independently qualified key custody and general content-truth guarantees are not established."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-004",
@@ -2143,10 +2249,10 @@
     },
     {
       "ref": "TA-IP-023",
-      "version": "8.23.0",
+      "version": "8.28.0",
       "developmentEdition": "",
-      "productPosition": "Available software for evaluation against your intended use. Deployment suitability is assessed separately.",
-      "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
+      "productPosition": "A phenomenology research and evidence platform combining controlled computational studies, governed observation intake, portable provenance packages and bounded scalar measurement adapters.",
+      "offeredEdition": "Specifically agreed first-party implementation, documentation and retained evidence for 8.28.0. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
@@ -2159,7 +2265,7 @@
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
           "grade": "E3",
-          "criterion": "Tests, validation and provenance/release evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results."
+          "criterion": "Retained v8.28.0 evidence records 463/463 pytest tests and 30/30 native release checks PASS, all 23 installed entrypoints PASS and extracted-source-distribution replay PASS. Adapter observations and instruments in these checks are synthetic fixtures."
         },
         {
           "axis": "ipRightsMaturity",
@@ -2191,8 +2297,8 @@
         "Independent penetration test not assumed unless separately evidenced."
       ],
       "qualificationObjectives": [
-        "Agree a source-specific delivery edition and evaluate the documented functions against your intended use.",
-        "Close the listed technical, rights and handover conditions before recipient acceptance."
+        "Qualify permissioned real measurement methods and observation provenance separately; agree the intended scientific protocol and reproduce package-level acceptance.",
+        "Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance."
       ],
       "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
       "componentEvidence": {
@@ -2204,7 +2310,20 @@
         "securityDocumentationIdentified": false,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Edition-specific evidence",
+          "text": "Retained v8.28.0 evidence records 463/463 pytest tests and 30/30 native release checks PASS, all 23 installed entrypoints PASS and extracted-source-distribution replay PASS. Adapter observations and instruments in these checks are synthetic fixtures.",
+          "items": []
+        },
+        {
+          "title": "Intended qualification",
+          "text": "Qualify permissioned real measurement methods and observation provenance separately; agree the intended scientific protocol and reproduce package-level acceptance.",
+          "items": [
+            "Metadata, provenance and scalar transformations do not authenticate empirical origin or establish neurobiology, causality, clinical effects or a physical interpretation."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-026",
@@ -2461,7 +2580,7 @@
       "componentEvidence": {
         "dependencyManifestIdentified": true,
         "dependencyLockIdentified": false,
-        "componentInventoryIdentified": false,
+        "componentInventoryIdentified": true,
         "licenceNoticesIdentified": true,
         "thirdPartyDisclosureIdentified": true,
         "securityDocumentationIdentified": false,
@@ -3384,7 +3503,7 @@
     {
       "ref": "TA-IP-099",
       "version": "v0.1.0.dev0",
-      "developmentEdition": "v0.2 refueling-study candidate; unmerged",
+      "developmentEdition": "0.2 unmerged stateful refueling, depot-inventory and multi-launch departure candidate; excluded from the current price",
       "productPosition": "Use the v0.1 transport-concept software for your FusionLunar studies. A separate unmerged v0.2 draft provides refueling and departure-study controls with isolated synthetic checks; full frozen-source integration and release qualification remain open. Flight qualification and completed joint FusionLunar integration are not established. Existing",
       "offeredEdition": "Present first-party transport-concept screening software, interface contracts, synthetic example, tests, documentation and retained software validation at the identified development commit. Physical vehicles, flight qualification, operational transport, external science and data rights, the separately owned FusionLunar asset and future engineering are excluded.",
       "transferPosition": "Conditional handover",
@@ -3445,7 +3564,15 @@
         "securityDocumentationIdentified": false,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Separately scoped development",
+          "text": "The candidate contains reserve-aware propellant transfers, tanker manifests, boil-off, deterministic replay and departure gates. Current priced scope remains the v0.1 engineering foundation.",
+          "items": [
+            "Flight-performance, hardware reliability and operational feasibility are not established."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-095",
@@ -3752,7 +3879,6 @@
       ],
       "sellerConditions": [
         "Repository licence file not identified.",
-        "Repository-native tests not identified.",
         "A security assessment or an explicit statement of its absence is required before acceptance.",
         "Release identity and provenance evidence remain incomplete.",
         "An explicit delivery manifest and handover scope remain to be agreed."
@@ -4202,8 +4328,8 @@
     {
       "ref": "TA-IP-037",
       "version": "18.3",
-      "developmentEdition": "18.4 research target",
-      "productPosition": "The available research implementation is on a development branch. Wider qualification and biological claims remain open.",
+      "developmentEdition": "18.4 unmerged adaptive sparsity-budget candidate; external CUDA qualification pending",
+      "productPosition": "Experimental research source is on an unmerged development branch. The priced historical v18.3 evidence package and the v18.4 candidate must be expressly distinguished in the delivery agreement.",
       "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
@@ -4217,7 +4343,7 @@
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
           "grade": "E4",
-          "criterion": "E3 plus repository-retained independent/external validation evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results."
+          "criterion": "Historical external CUDA evidence is identified for v18.3. The v18.4 candidate has bounded local research evidence; external CUDA and complete candidate regression/packaging acceptance remain separate."
         },
         {
           "axis": "ipRightsMaturity",
@@ -4266,7 +4392,16 @@
         "securityDocumentationIdentified": false,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Research evidence and delivery edition",
+          "text": "The candidate documentation records three focused ANEP tests PASS and a five-seed local study passing four seeds; seed 5 has zero frozen-control margin and remains in the canonical set. v18.3 remains the recorded external Tesla-T4 baseline. These records do not establish external v18.4 CUDA qualification or a fresh complete regression PASS.",
+          "items": [
+            "Main contains the public identity and acquisition documentation; agree and freeze the actual included research-source package.",
+            "Consciousness, biological equivalence, AGI, autonomous perception, planning and production readiness are not established."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-031",
@@ -4403,10 +4538,10 @@
     },
     {
       "ref": "TA-IP-109",
-      "version": "0.4.0",
+      "version": "0.5.0 / R4",
       "developmentEdition": "",
-      "productPosition": "An object-independent local SQLite registry and studio with edition limits, narrative checks, fictional world graph, deterministic replay, keyed checkpoints, evidence custody and verified backup/restore. all 84 local Python tests passed on the exact R3/v0.4.0 snapshot, including concurrency, tamper rejection and recovery cases. No public commerce, payments, shipping, production accounts or hosted deployment is delivered. HMAC is keyed local integrity, not independently witnessed ownership or certified provenance. Lithonarra is a separate consumer application/brand; physical stock and fictional content rights are not automatically transferred with the software.",
-      "offeredEdition": "Present first-party v0.4.0 software. No public commerce, payments, shipping, production accounts or hosted deployment is delivered. HMAC is keyed local integrity, not independently witnessed ownership or certified provenance. Lithonarra is a separate consumer application/brand; physical stock and fictional content rights are not automatically transferred with the software.",
+      "productPosition": "A local collectible-registry and narrative studio with edition limits, revision-bound editorial review, fictional canon/world graphs, multilingual consistency and publication-quality gates.",
+      "offeredEdition": "Specifically agreed first-party implementation, documentation and retained evidence for 0.5.0 / R4. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
@@ -4419,7 +4554,7 @@
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
           "grade": "E2",
-          "criterion": "all 84 local Python tests passed on the exact R3/v0.4.0 snapshot, including concurrency, tamper rejection and recovery cases."
+          "criterion": "Retained R4/v0.5 evidence records 108/108 Python tests PASS, including 84 earlier regression cases and 24 R4 domain/HTTP cases, plus Python and JavaScript syntax checks. Reviewer identities are synthetic fixtures; human editorial and browser acceptance are separate."
         },
         {
           "axis": "ipRightsMaturity",
@@ -4448,7 +4583,8 @@
       ],
       "buyerConditions": [],
       "qualificationObjectives": [
-        "Complete domain and operator acceptance, key/anchor custody and the final security, legal and operational production gates."
+        "Complete representative human editorial and local-browser acceptance, define key/anchor custody and agree final domain, security and delivery conditions.",
+        "Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance."
       ],
       "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
       "componentEvidence": {
@@ -4460,7 +4596,20 @@
         "securityDocumentationIdentified": true,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Edition-specific evidence",
+          "text": "Retained R4/v0.5 evidence records 108/108 Python tests PASS, including 84 earlier regression cases and 24 R4 domain/HTTP cases, plus Python and JavaScript syntax checks. Reviewer identities are synthetic fixtures; human editorial and browser acceptance are separate.",
+          "items": []
+        },
+        {
+          "title": "Intended qualification",
+          "text": "Complete representative human editorial and local-browser acceptance, define key/anchor custody and agree final domain, security and delivery conditions.",
+          "items": [
+            "Text checks are not semantic entailment, plagiarism detection or translation-quality certification. Physical stock, third-party fiction, commerce, payments and hosted accounts are separately scoped."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-040",
@@ -4593,10 +4742,10 @@
     },
     {
       "ref": "TA-IP-019",
-      "version": "2.27.0",
+      "version": "2.31.0",
       "developmentEdition": "",
-      "productPosition": "Available software for evaluation against your intended use. Deployment suitability is assessed separately.",
-      "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
+      "productPosition": "A governed organisational memory and software-change review engine with precedent retrieval, acceptance decisions, durable recovery freshness, trust-store contracts and offline release evidence.",
+      "offeredEdition": "Specifically agreed first-party implementation, documentation and retained evidence for 2.31.0. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
@@ -4609,7 +4758,7 @@
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
           "grade": "E3",
-          "criterion": "Tests, validation and provenance/release evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results."
+          "criterion": "The v2.31.0 retained exact-tree gate records 561 pytest tests PASS with no failures or skips, two FAISS checks PASS and a complete semantic release gate. Release evidence includes package, component and secret-scan checks."
         },
         {
           "axis": "ipRightsMaturity",
@@ -4640,20 +4789,33 @@
         "Independent penetration test not assumed unless separately evidenced."
       ],
       "qualificationObjectives": [
-        "Agree a source-specific delivery edition and evaluate the documented functions against your intended use.",
-        "Close the listed technical, rights and handover conditions before recipient acceptance."
+        "Agree the target trust-store, retention, recovery-age and recipient acceptance policies; reproduce the complete offline release gate for the included edition.",
+        "Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance."
       ],
       "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
       "componentEvidence": {
         "dependencyManifestIdentified": true,
         "dependencyLockIdentified": false,
-        "componentInventoryIdentified": false,
+        "componentInventoryIdentified": true,
         "licenceNoticesIdentified": true,
         "thirdPartyDisclosureIdentified": true,
         "securityDocumentationIdentified": true,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Edition-specific evidence",
+          "text": "The v2.31.0 retained exact-tree gate records 561 pytest tests PASS with no failures or skips, two FAISS checks PASS and a complete semantic release gate. Release evidence includes package, component and secret-scan checks.",
+          "items": []
+        },
+        {
+          "title": "Intended qualification",
+          "text": "Agree the target trust-store, retention, recovery-age and recipient acceptance policies; reproduce the complete offline release gate for the included edition.",
+          "items": [
+            "Governance records do not authorise production traffic or infrastructure. Provider API execution and public-key nonrepudiation are outside the demonstrated core."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-008",
@@ -5051,10 +5213,10 @@
     },
     {
       "ref": "TA-IP-011",
-      "version": "4.3.0",
+      "version": "4.4.0",
       "developmentEdition": "",
-      "productPosition": "Available software for evaluation against your intended use. Deployment suitability is assessed separately.",
-      "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
+      "productPosition": "An event-driven research orchestration platform with authenticated human review, durable PostgreSQL/outbox state, RabbitMQ workers, guarded dual-source synthesis and bounded operational observability.",
+      "offeredEdition": "Specifically agreed first-party implementation, documentation and retained evidence for 4.4.0. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
@@ -5067,7 +5229,7 @@
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
           "grade": "E2",
-          "criterion": "Tests plus validation/qualification evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results."
+          "criterion": "The v4.4 implementation includes offline policy/security tests and a separate live CPU/Docker qualification runner. A retained complete live v4.4 provider-to-report PASS bundle was not identified in the reviewed source tree; the existence of the runner is not a passing execution result."
         },
         {
           "axis": "ipRightsMaturity",
@@ -5100,8 +5262,8 @@
         "Independent penetration test not assumed unless separately evidenced."
       ],
       "qualificationObjectives": [
-        "Agree a source-specific delivery edition and evaluate the documented functions against your intended use.",
-        "Close the listed technical, rights and handover conditions before recipient acceptance."
+        "Run the offline and PostgreSQL integration gates, then execute the clean-checkout Docker qualification with permissioned provider credentials and retain either PASS or FAIL evidence.",
+        "Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance."
       ],
       "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
       "componentEvidence": {
@@ -5113,7 +5275,20 @@
         "securityDocumentationIdentified": true,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Edition-specific evidence",
+          "text": "The v4.4 implementation includes offline policy/security tests and a separate live CPU/Docker qualification runner. A retained complete live v4.4 provider-to-report PASS bundle was not identified in the reviewed source tree; the existence of the runner is not a passing execution result.",
+          "items": []
+        },
+        {
+          "title": "Intended qualification",
+          "text": "Run the offline and PostgreSQL integration gates, then execute the clean-checkout Docker qualification with permissioned provider credentials and retain either PASS or FAIL evidence.",
+          "items": [
+            "Evidence coverage is a structural measure, not a probability of truth. Provider results, source rights, target-environment security and operational acceptance require separate review."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-028",
@@ -5579,7 +5754,7 @@
     {
       "ref": "TA-IP-003",
       "version": "1.9.1",
-      "developmentEdition": "",
+      "developmentEdition": "1.10.0 unmerged draft: partial-observation and Google v3 event contracts; excluded from the current price",
       "productPosition": "The 1.9.1 software provides evidence custody, guarded local infrastructure qualification, Alibaba/Azure measured-trace adapters, full-trace sensitivity and operational outcome/readiness contracts. Eleven static gates passed, including parsing 61 Python files. Full dependency-based tests and external-data campaigns require their own acceptance. Measured workloads and simulated controller responses are separate evidence categories.",
       "offeredEdition": "Present first-party v1.9.1 software. Measured external workloads remain separate from simulated controller responses. Operational calibration on genuinely labeled outcomes, environment-specific acceptance and production deployment remain open.",
       "transferPosition": "Conditional handover",
@@ -5636,7 +5811,15 @@
         "securityDocumentationIdentified": true,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Separately scoped development",
+          "text": "Partial-observation and Google v3 event-contract work is an unmerged candidate. The priced main edition is v1.9.1 on the v1.9.0 functional baseline.",
+          "items": [
+            "Environment-specific calibration, telemetry and controlled deployment acceptance remain separate."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-100",
@@ -6367,10 +6550,10 @@
     },
     {
       "ref": "TA-IP-107",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "developmentEdition": "",
-      "productPosition": "A standard-library property evidence core with hierarchy, observed/declared/inferred records, deterministic low/base/high replacement estimates, condition/risk fields, graph and JSON/CSV exports. all 7 local Python tests passed on the exact v0.1.0 snapshot. No automatic extraction from photographs/video, certified property appraisal, verified insurance value, production integration or real-property accuracy is established. Reference Property 001 is synthetic demonstration evidence.",
-      "offeredEdition": "Present first-party v0.1.0 software. No automatic extraction from photographs/video, certified property appraisal, verified insurance value, production integration or real-property accuracy is established. Reference Property 001 is synthetic demonstration evidence.",
+      "productPosition": "A local property-evidence core with hierarchical asset records, structured CSV/JSON ingestion, explicit observation types, replacement-cost ranges and deterministic reconciliation exports.",
+      "offeredEdition": "Specifically agreed first-party implementation, documentation and retained evidence for 0.2.0. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
@@ -6383,7 +6566,7 @@
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
           "grade": "E2",
-          "criterion": "all 7 local Python tests passed on the exact v0.1.0 snapshot."
+          "criterion": "Retained v0.2 evidence records 15/15 Python tests PASS, a reference ingestion bundle, canonical validation, reconciliation and deterministic export PASS, including path-traversal and generated-identity regressions."
         },
         {
           "axis": "ipRightsMaturity",
@@ -6412,7 +6595,8 @@
       ],
       "buyerConditions": [],
       "qualificationObjectives": [
-        "Qualify realistic, permissioned property evidence, strengthen hash/ontology checks and agree rights and recipient acceptance."
+        "Validate realistic permissioned property bundles, price/condition assumptions and reconciliation decisions against the buyer acceptance protocol.",
+        "Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance."
       ],
       "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
       "componentEvidence": {
@@ -6424,7 +6608,20 @@
         "securityDocumentationIdentified": true,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Edition-specific evidence",
+          "text": "Retained v0.2 evidence records 15/15 Python tests PASS, a reference ingestion bundle, canonical validation, reconciliation and deterministic export PASS, including path-traversal and generated-identity regressions.",
+          "items": []
+        },
+        {
+          "title": "Intended qualification",
+          "text": "Validate realistic permissioned property bundles, price/condition assumptions and reconciliation decisions against the buyer acceptance protocol.",
+          "items": [
+            "Opaque document registration does not establish trained vision, automatic document understanding, sensor-derived property truth or an insurance appraisal."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-102",
@@ -6624,7 +6821,7 @@
     {
       "ref": "TA-IP-101",
       "version": "0.9.8",
-      "developmentEdition": "0.9.9 / R31 — offline keyboard checks; live shortcut acceptance pending",
+      "developmentEdition": "0.9.9 / R31 unmerged local-mutation, note-replay and keyboard-access candidate; actual Chrome/Edge shortcut acceptance pending",
       "productPosition": "The v0.9.8 workspace supports playback controls, timestamp bookmarks, human-authored research notes, local backup and offline project matching. The separate v0.9.9 candidate provides local library search, archive integrity and draft/focus recovery. Recorded software and user-operated browser results are specific to their tested editions. Live keyboard, accessibility and recipient acceptance remain separately scoped.",
       "offeredEdition": "Present first-party v0.9.1 browser and offline research prototype, manual notes and backup recovery, source-review and human-supplied evidence review, documentation, tests and development packaging. Browser production qualification, AI transcript/multimodal analysis, media downloading, platform or target-project ownership, hosted services, automatic repairs and future engineering are excluded.",
       "transferPosition": "Conditional handover",
@@ -7051,8 +7248,8 @@
       "ref": "TA-IP-051",
       "version": "0.9.0",
       "developmentEdition": "",
-      "productPosition": "Available software for evaluation against your intended use. Deployment suitability is assessed separately.",
-      "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
+      "productPosition": "An AI and ECG research engine with checkpoint provenance, subject-safe training, repeated-seed governance and a locked external-generalisation protocol.",
+      "offeredEdition": "Specifically agreed first-party implementation, documentation and retained evidence for 0.9.0. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
@@ -7065,7 +7262,7 @@
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
           "grade": "E3",
-          "criterion": "Tests, validation and provenance/release evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results."
+          "criterion": "The v0.9 external protocol locks 75 INCART records across 32 source groups and requires the official 225-file checksum manifest. Historical repeated-seed and primary-holdout evidence remains version-bound; a protocol or integrity PASS does not itself establish a new externally generalising model result."
         },
         {
           "axis": "ipRightsMaturity",
@@ -7098,8 +7295,8 @@
         "Independent penetration test not assumed unless separately evidenced."
       ],
       "qualificationObjectives": [
-        "Agree a source-specific delivery edition and evaluate the documented functions against your intended use.",
-        "Close the listed technical, rights and handover conditions before recipient acceptance."
+        "Reproduce checkpoint-repair regressions and review each retained training, primary-holdout and external dataset result separately, including unsuccessful results.",
+        "Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance."
       ],
       "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
       "componentEvidence": {
@@ -7111,7 +7308,20 @@
         "securityDocumentationIdentified": false,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Edition-specific evidence",
+          "text": "The v0.9 external protocol locks 75 INCART records across 32 source groups and requires the official 225-file checksum manifest. Historical repeated-seed and primary-holdout evidence remains version-bound; a protocol or integrity PASS does not itself establish a new externally generalising model result.",
+          "items": []
+        },
+        {
+          "title": "Intended qualification",
+          "text": "Reproduce checkpoint-repair regressions and review each retained training, primary-holdout and external dataset result separately, including unsuccessful results.",
+          "items": [
+            "Clinical validity, patient-care suitability, regulatory approval and superiority to third-party models are not established by engineering governance."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-108",

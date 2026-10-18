@@ -6,7 +6,7 @@ Manage collectible identities, editions and fictional narratives while keeping p
 
 ## Product overview
 
-An object-independent collectible-registration and narrative-management prototype with edition controls, review workflows and supporting evidence records.
+A local collectible-registry and narrative studio with edition limits, revision-bound editorial review, fictional canon/world graphs, multilingual consistency and publication-quality gates.
 
 ## Potential acquirers
 
@@ -16,10 +16,11 @@ An object-independent collectible-registration and narrative-management prototyp
 
 ## Documented functions
 
-- Register collections, editions and individual objects
-- Manage fictional narratives separately from factual descriptions
-- Review narrative continuity and fictional world histories
-- Maintain supporting evidence and recovery packages
+- Register collectible identities and edition limits
+- Keep fictional narrative and physical facts distinct
+- Bind editorial decisions to narrative revisions
+- Review canon, multilingual consistency and text reuse
+- Retain deterministic histories and recovery packages
 
 ## Available output types
 
@@ -33,11 +34,11 @@ Prototype. A prototype offered for evaluation and continued development; product
 
 Available for acquisition discussion.
 
-- A local collectible-registry prototype with fictional narratives. Public commerce, payments, physical stock and independently certified ownership are excluded.
+- Text checks are not semantic entailment, plagiarism detection or translation-quality certification. Physical stock, third-party fiction, commerce, payments and hosted accounts are separately scoped.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 9,000.
+Seller asking reference: EUR 10,500.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -67,22 +68,34 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 0.4.0
+Identified product edition: 0.5.0 / R4
 
 Handover position: Conditional handover
 
-An object-independent local SQLite registry and studio with edition limits, narrative checks, fictional world graph, deterministic replay, keyed checkpoints, evidence custody and verified backup/restore. all 84 local Python tests passed on the exact R3/v0.4.0 snapshot, including concurrency, tamper rejection and recovery cases. No public commerce, payments, shipping, production accounts or hosted deployment is delivered. HMAC is keyed local integrity, not independently witnessed ownership or certified provenance. Lithonarra is a separate consumer application/brand; physical stock and fictional content rights are not automatically transferred with the software.
+A local collectible-registry and narrative studio with edition limits, revision-bound editorial review, fictional canon/world graphs, multilingual consistency and publication-quality gates.
 
 ### Priced first-party scope
 
-Present first-party v0.4.0 software. No public commerce, payments, shipping, production accounts or hosted deployment is delivered. HMAC is keyed local integrity, not independently witnessed ownership or certified provenance. Lithonarra is a separate consumer application/brand; physical stock and fictional content rights are not automatically transferred with the software.
+Specifically agreed first-party implementation, documentation and retained evidence for 0.5.0 / R4. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.
+
+### Edition-specific evidence
+
+Retained R4/v0.5 evidence records 108/108 Python tests PASS, including 84 earlier regression cases and 24 R4 domain/HTTP cases, plus Python and JavaScript syntax checks. Reviewer identities are synthetic fixtures; human editorial and browser acceptance are separate.
+
+
+
+### Intended qualification
+
+Complete representative human editorial and local-browser acceptance, define key/anchor custody and agree final domain, security and delivery conditions.
+
+- Text checks are not semantic entailment, plagiarism detection or translation-quality certification. Physical stock, third-party fiction, commerce, payments and hosted accounts are separately scoped.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
 | Technical scope | P | An object-independent local SQLite registry and studio with edition limits, narrative checks, fictional world graph, deterministic replay, keyed checkpoints, evidence custody and verified backup/restore. |
-| Evidence and validation | E2 | all 84 local Python tests passed on the exact R3/v0.4.0 snapshot, including concurrency, tamper rejection and recovery cases. |
+| Evidence and validation | E2 | Retained R4/v0.5 evidence records 108/108 Python tests PASS, including 84 earlier regression cases and 24 R4 domain/HTTP cases, plus Python and JavaScript syntax checks. Reviewer identities are synthetic fixtures; human editorial and browser acceptance are separate. |
 | Rights and component obligations | R1 | Proprietary declaration and repository notices reviewed; independent chain of title and freedom to operate remain unestablished. |
 | Commercial basis | C2 | Explicit low-effort cost assumptions and seller asking choice; no independently determined market or income value. |
 | Delivery and handover | T2 | Source, tests and instructions inspected; exact rights, manifest and recipient acceptance remain open. |
@@ -96,7 +109,8 @@ Present first-party v0.4.0 software. No public commerce, payments, shipping, pro
 
 ### Qualification objectives
 
-- Complete domain and operator acceptance, key/anchor custody and the final security, legal and operational production gates.
+- Complete representative human editorial and local-browser acceptance, define key/anchor custody and agree final domain, security and delivery conditions.
+- Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance.
 
 ### Rights and components
 
@@ -118,24 +132,24 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-17. All amounts in EUR. Market value is not established.
+Basis: 2026-10-18. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 9,000 | 10,128 |
-| Negotiation reference - low | 7,000 | 7,877 |
-| Negotiation reference - high | 11,500 | 12,941 |
-| Recreation cost estimate | 30,000 | 33,759 |
-| Marketability cost scenario | 22,950 | 25,826 |
-| Monetisation cost scenario | 22,275 | 25,066 |
-| Risk-adjusted strategic reference | 11,379 | 12,805 |
-| Weighted economic reference | 20,528 | 23,100 |
+| Seller asking reference | 10,500 | 11,816 |
+| Negotiation reference - low | 8,000 | 9,002 |
+| Negotiation reference - high | 13,500 | 15,192 |
+| Recreation cost estimate | 35,000 | 39,386 |
+| Marketability cost scenario | 26,775 | 30,130 |
+| Monetisation cost scenario | 25,988 | 29,244 |
+| Risk-adjusted strategic reference | 13,276 | 14,939 |
+| Weighted economic reference | 23,949 | 26,950 |
 
 USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
-- Negotiation reference - low: Lower end of the previously published indicative negotiation range.
-- Negotiation reference - high: Upper end of the previously published indicative negotiation range.
+- Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
+- Negotiation reference - high: Upper end of the indicative seller negotiation range for the defined AS IS asset.
 - Recreation cost estimate: Seller estimate to reproduce comparable present work; not recorded expenditure or an established market value.
 - Marketability cost scenario: Cost-based model scenario; no observed comparable IP sale is used.
 - Monetisation cost scenario: Cost-based model scenario; no attributable income, royalty valuation or DCF is established.
@@ -148,26 +162,56 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-Present-source low-effort recreation reference EUR 30,000; seller asking choice EUR 9,000. Market value remains not established. Estimated hours are not logged time or expenditure.
+Recreation estimate: EUR 30,000 retained scope component plus EUR 5,000 for the explicitly scoped implementation work budget, giving EUR 35,000. The scoped budget assumes 48 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has its own disclosed work-package estimate; overlapping work must not be added twice. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.
 
 #### Low-effort working estimate
 
 An object-independent local SQLite registry and studio with edition limits, narrative checks, fictional world graph, deterministic replay, keyed checkpoints, evidence custody and verified backup/restore.
 
+- Transactional collectible/edition registry, local API and studio — 88 assumed hours
+- Narrative continuity, fictional world graph and deterministic replay — 78 assumed hours
+- Keyed assurance checkpoints, custody, backup and cold recovery — 62 assumed hours
+- Concurrency/tamper regressions, instructions and handover — 52 assumed hours
+
 - Assumed hours: 280
 - Hourly rate: EUR 94
 - Raw engineering cost: EUR 26,320
 - Coordination tooling allowance: 0.15
-- With allowance: EUR 30,268.0
+- With allowance: EUR 30,268
 - Adopted recreation cost: EUR 30,000
 - Effort alternatives / Low hours: 280
-- Effort alternatives / Reference hours: 420.0
+- Effort alternatives / Reference hours: 420
 - Effort alternatives / Extended hours: 560
-- Effort alternatives / Low cost: EUR 30,268.0
-- Effort alternatives / Reference cost: EUR 45,402.0
-- Effort alternatives / Extended cost: EUR 60,536.0
+- Effort alternatives / Low cost: EUR 30,268
+- Effort alternatives / Reference cost: EUR 45,402
+- Effort alternatives / Extended cost: EUR 60,536
 
 Hours and the 15% allowance are analyst assumptions for bounded reproduction with modern tooling. EUR 94 is a Dutch mean, not a minimum rate or a contractor quote. This is the lowest of the explicitly scoped working scenarios, not an absolute market or cost floor.
+
+#### Scoped implementation reproduction budget
+
+Revision-bound editorial reviews and publication gates; Canon/world graph and multilingual consistency checks; Text reuse, local studio and domain/HTTP regressions.
+
+- Revision-bound editorial reviews and publication gates — 16 assumed hours
+- Canon/world graph and multilingual consistency checks — 16 assumed hours
+- Text reuse, local studio and domain/HTTP regressions — 16 assumed hours
+
+- Assumed hours: 48
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 4,512
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 5,188.8
+- Adopted recreation increment: EUR 5,000
+- Previous recreation cost: EUR 30,000
+- Current recreation cost: EUR 35,000
+- Effort alternatives / Low hours: 48
+- Effort alternatives / Reference hours: 72
+- Effort alternatives / Extended hours: 96
+- Effort alternatives / Low cost: EUR 5,188.8
+- Effort alternatives / Reference cost: EUR 7,783.2
+- Effort alternatives / Extended cost: EUR 10,377.6
+
+Seller-selected equivalent reproduction effort for the expressly bounded implementation. These are not logged hours, elapsed development time or actual spending. EUR 94/hour is external rate context, not a minimum or quote; the 15% allowance is an assumption. The selected scenario is the lowest of these scoped scenarios, not an absolute cost floor. Candidate-only future features and unestablished qualification are excluded.
 
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
@@ -185,7 +229,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "P", "potential": "M", "sector": "Enterprise, Web & Commerce", "route": "Private deployment / enterprise licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc1
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc2
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/narrative-collectibles-platform/#calculation
 

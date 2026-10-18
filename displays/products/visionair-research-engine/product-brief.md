@@ -6,7 +6,7 @@ Compare AI research results and examine ECG learning studies through repeatable 
 
 ## Product overview
 
-An experimental AI research asset with governed cardiac-signal studies.
+An AI and ECG research engine with checkpoint provenance, subject-safe training, repeated-seed governance and a locked external-generalisation protocol.
 
 ## Potential acquirers
 
@@ -16,11 +16,11 @@ An experimental AI research asset with governed cardiac-signal studies.
 
 ## Documented functions
 
-- Run controlled benchmark studies
-- Record data provenance
-- Compare research outcomes
-- Review cardiac-signal evaluation
-- Assess external generalisation
+- Run controlled AI and ECG benchmark studies
+- Recover compatible checkpoints with trainer guards
+- Retain subject-safe training and threshold records
+- Apply locked external-generalisation contracts
+- Report provenance and descriptive research results
 
 ## Available output types
 
@@ -34,7 +34,7 @@ Developed software. Existing software offered for evaluation against an agreed u
 
 Available for acquisition discussion.
 
-- AI and cardiac-signal research software. Clinical performance and medical acceptance remain separate.
+- Clinical validity, patient-care suitability, regulatory approval and superiority to third-party models are not established by engineering governance.
 
 ## Acquisition reference
 
@@ -72,18 +72,30 @@ Identified product edition: 0.9.0
 
 Handover position: Conditional handover
 
-Available software for evaluation against your intended use. Deployment suitability is assessed separately.
+An AI and ECG research engine with checkpoint provenance, subject-safe training, repeated-seed governance and a locked external-generalisation protocol.
 
 ### Priced first-party scope
 
-Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+Specifically agreed first-party implementation, documentation and retained evidence for 0.9.0. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.
+
+### Edition-specific evidence
+
+The v0.9 external protocol locks 75 INCART records across 32 source groups and requires the official 225-file checksum manifest. Historical repeated-seed and primary-holdout evidence remains version-bound; a protocol or integrity PASS does not itself establish a new externally generalising model result.
+
+
+
+### Intended qualification
+
+Reproduce checkpoint-repair regressions and review each retained training, primary-holdout and external dataset result separately, including unsuccessful results.
+
+- Clinical validity, patient-care suitability, regulatory approval and superiority to third-party models are not established by engineering governance.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
 | Technical scope | V | Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance. |
-| Evidence and validation | E3 | Tests, validation and provenance/release evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results. |
+| Evidence and validation | E3 | The v0.9 external protocol locks 75 INCART records across 32 source groups and requires the official 225-file checksum manifest. Historical repeated-seed and primary-holdout evidence remains version-bound; a protocol or integrity PASS does not itself establish a new externally generalising model result. |
 | Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. This grade concerns documented rights evidence. Missing documentation does not establish that first-party ownership is absent. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. A published asking reference does not establish a completed sale, income or an independent appraisal. |
 | Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. Your agreed delivery scope and the conditions below govern acceptance. |
@@ -97,8 +109,8 @@ Seller-owned first-party rights plus specifically agreed transferable software/d
 
 ### Qualification objectives
 
-- Agree a source-specific delivery edition and evaluate the documented functions against your intended use.
-- Close the listed technical, rights and handover conditions before recipient acceptance.
+- Reproduce checkpoint-repair regressions and review each retained training, primary-holdout and external dataset result separately, including unsuccessful results.
+- Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance.
 - Independent legal ownership/title opinion not performed by this internal audit.
 - Freedom-to-operate legal opinion not performed unless separately evidenced.
 - Independent penetration test not assumed unless separately evidenced.
@@ -129,24 +141,24 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-17. All amounts in EUR. Market value is not established.
+Basis: 2026-10-18. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
 | Seller asking reference | 260,000 | 292,578 |
 | Negotiation reference - low | 210,000 | 236,313 |
 | Negotiation reference - high | 325,000 | 365,723 |
-| Recreation cost estimate | 1,200,000 | 1,350,360 |
-| Marketability cost scenario | 1,188,000 | 1,336,856 |
-| Monetisation cost scenario | 918,000 | 1,033,025 |
-| Risk-adjusted strategic reference | 708,824 | 797,640 |
-| Weighted economic reference | 969,288 | 1,090,740 |
+| Recreation cost estimate | 1,200,500 | 1,350,923 |
+| Marketability cost scenario | 1,188,495 | 1,337,413 |
+| Monetisation cost scenario | 918,383 | 1,033,456 |
+| Risk-adjusted strategic reference | 709,119 | 797,972 |
+| Weighted economic reference | 969,692 | 1,091,194 |
 
 USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
-- Negotiation reference - low: Lower end of the previously published indicative negotiation range.
-- Negotiation reference - high: Upper end of the previously published indicative negotiation range.
+- Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
+- Negotiation reference - high: Upper end of the indicative seller negotiation range for the defined AS IS asset.
 - Recreation cost estimate: Seller estimate to reproduce comparable present work; not recorded expenditure or an established market value.
 - Marketability cost scenario: Cost-based model scenario; no observed comparable IP sale is used.
 - Monetisation cost scenario: Cost-based model scenario; no attributable income, royalty valuation or DCF is established.
@@ -159,7 +171,32 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+Recreation estimate: EUR 1,200,000 retained scope component plus EUR 500 for the explicitly scoped implementation work budget, giving EUR 1,200,500. The scoped budget assumes 8 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.
+
+#### Scoped implementation reproduction budget
+
+Training-checkpoint compatibility repair; Stale-trainer rejection guard; Targeted repair regressions and instructions.
+
+- Training-checkpoint compatibility repair — 3 assumed hours
+- Stale-trainer rejection guard — 2 assumed hours
+- Targeted repair regressions and instructions — 3 assumed hours
+
+- Assumed hours: 8
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 752
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 864.8
+- Adopted recreation increment: EUR 500
+- Previous recreation cost: EUR 1,200,000
+- Current recreation cost: EUR 1,200,500
+- Effort alternatives / Low hours: 8
+- Effort alternatives / Reference hours: 12
+- Effort alternatives / Extended hours: 16
+- Effort alternatives / Low cost: EUR 864.8
+- Effort alternatives / Reference cost: EUR 1,297.2
+- Effort alternatives / Extended cost: EUR 1,729.6
+
+Seller-selected equivalent reproduction effort for the expressly bounded implementation. These are not logged hours, elapsed development time or actual spending. EUR 94/hour is external rate context, not a minimum or quote; the 15% allowance is an assumption. The selected scenario is the lowest of these scoped scenarios, not an absolute cost floor. Candidate-only future features and unestablished qualification are excluded.
 
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
@@ -177,7 +214,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "V", "potential": "M", "sector": "AI, Decision & Knowledge Systems", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc1
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc2
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/visionair-research-engine/#calculation
 

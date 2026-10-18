@@ -6,7 +6,7 @@ Compare ground-vehicle concepts and assess design choices before committing to f
 
 ## Product overview
 
-A ground-vehicle analysis foundation for repeatable concept studies and reference comparisons.
+An offline C++ engineering-analysis foundation for ground-vehicle concept comparisons, cumulative scenario-sequence energy and deterministic multi-node thermal networks.
 
 ## Potential acquirers
 
@@ -16,11 +16,11 @@ A ground-vehicle analysis foundation for repeatable concept studies and referenc
 
 ## Documented functions
 
-- Compare mobility and energy concepts
-- Review structural and wear observations
-- Assess uncertainty
-- Compare predictions with supplied reference data
-- Retain qualification records
+- Compare mobility, source-energy and uncertainty assumptions
+- Accumulate scenario duration, distance and energy
+- Model thermal nodes, conductive links and fixed boundaries
+- Inspect energy-balance residuals and stability guards
+- Export deterministic text, JSON and residual records
 
 ## Available output types
 
@@ -34,11 +34,11 @@ Prototype. A prototype offered for evaluation and continued development; product
 
 Available for acquisition discussion.
 
-- Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately.
+- The scope is offline, nonoperational analysis. Field reliability, manufacturing feasibility, real subsystem performance and physical qualification are not established.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 55,000.
+Seller asking reference: EUR 56,000.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -68,22 +68,34 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 0.6.0
+Identified product edition: 0.8.0
 
 Handover position: Conditional handover
 
-An implemented prototype for evaluation and further development.
+An offline C++ engineering-analysis foundation for ground-vehicle concept comparisons, cumulative scenario-sequence energy and deterministic multi-node thermal networks.
 
 ### Priced first-party scope
 
-Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+Specifically agreed first-party implementation, documentation and retained evidence for 0.8.0. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.
+
+### Edition-specific evidence
+
+The retained v0.8 validation contract records complete 14-test CTest execution with GCC and Clang Release builds, AddressSanitizer/UndefinedBehaviorSanitizer and strict-mode, manifest and export checks. These are software contracts and synthetic model checks.
+
+
+
+### Intended qualification
+
+Reproduce the compiler/sanitizer gate and qualify supplied material properties, thermal parameters and reference datasets for the intended engineering study.
+
+- The scope is offline, nonoperational analysis. Field reliability, manufacturing feasibility, real subsystem performance and physical qualification are not established.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
 | Technical scope | P | Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance. |
-| Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results. |
+| Evidence and validation | E2 | The retained v0.8 validation contract records complete 14-test CTest execution with GCC and Clang Release builds, AddressSanitizer/UndefinedBehaviorSanitizer and strict-mode, manifest and export checks. These are software contracts and synthetic model checks. |
 | Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. This grade concerns documented rights evidence. Missing documentation does not establish that first-party ownership is absent. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. A published asking reference does not establish a completed sale, income or an independent appraisal. |
 | Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. Your agreed delivery scope and the conditions below govern acceptance. |
@@ -96,8 +108,8 @@ Seller-owned first-party rights plus specifically agreed transferable software/d
 
 ### Qualification objectives
 
-- Agree a source-specific delivery edition and evaluate the documented functions against your intended use.
-- Close the listed technical, rights and handover conditions before recipient acceptance.
+- Reproduce the compiler/sanitizer gate and qualify supplied material properties, thermal parameters and reference datasets for the intended engineering study.
+- Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance.
 - Independent legal ownership/title opinion not performed by this internal audit.
 - Freedom-to-operate legal opinion not performed unless separately evidenced.
 - Independent penetration test not assumed unless separately evidenced.
@@ -128,37 +140,62 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-17. All amounts in EUR. Market value is not established.
+Basis: 2026-10-18. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 55,000 | 61,892 |
-| Negotiation reference - low | 45,000 | 50,639 |
-| Negotiation reference - high | 70,000 | 78,771 |
-| Recreation cost estimate | 450,000 | 506,385 |
-| Marketability cost scenario | 309,825 | 348,646 |
-| Monetisation cost scenario | 258,188 | 290,539 |
-| Risk-adjusted strategic reference | 153,622 | 172,871 |
-| Weighted economic reference | 279,870 | 314,938 |
+| Seller asking reference | 56,000 | 63,017 |
+| Negotiation reference - low | 45,500 | 51,201 |
+| Negotiation reference - high | 71,000 | 79,896 |
+| Recreation cost estimate | 456,500 | 513,699 |
+| Marketability cost scenario | 314,300 | 353,682 |
+| Monetisation cost scenario | 261,917 | 294,735 |
+| Risk-adjusted strategic reference | 155,841 | 175,368 |
+| Weighted economic reference | 283,913 | 319,487 |
 
 USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
-- Negotiation reference - low: Lower end of the previously published indicative negotiation range.
-- Negotiation reference - high: Upper end of the previously published indicative negotiation range.
+- Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
+- Negotiation reference - high: Upper end of the indicative seller negotiation range for the defined AS IS asset.
 - Recreation cost estimate: Seller estimate to reproduce comparable present work; not recorded expenditure or an established market value.
 - Marketability cost scenario: Cost-based model scenario; no observed comparable IP sale is used.
 - Monetisation cost scenario: Cost-based model scenario; no attributable income, royalty valuation or DCF is established.
 - Risk-adjusted strategic reference: Cost-based opportunity scenario with stated seller-selected factors.
 - Weighted economic reference: Weighted blend of correlated cost scenarios; not an independent appraisal.
 
-Milestone-conditioned reference: EUR 330,368; model change EUR 50,498. Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.
+Milestone-conditioned reference: EUR 335,140; model change EUR 51,227. Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.
 
 This is a conditional model sensitivity, not a current asking price, forecast or market value.
 
 ### Cost basis
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+Recreation estimate: EUR 450,000 retained scope component plus EUR 6,500 for the explicitly scoped implementation work budget, giving EUR 456,500. The scoped budget assumes 64 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.
+
+#### Scoped implementation reproduction budget
+
+Scenario-sequence duration, distance and energy accumulation; Multi-node thermal graph, boundaries and stable integration; Conservation diagnostics, negative paths and compiler qualification.
+
+- Scenario-sequence duration, distance and energy accumulation — 24 assumed hours
+- Multi-node thermal graph, boundaries and stable integration — 24 assumed hours
+- Conservation diagnostics, negative paths and compiler qualification — 16 assumed hours
+
+- Assumed hours: 64
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 6,016
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 6,918.4
+- Adopted recreation increment: EUR 6,500
+- Previous recreation cost: EUR 450,000
+- Current recreation cost: EUR 456,500
+- Effort alternatives / Low hours: 64
+- Effort alternatives / Reference hours: 96
+- Effort alternatives / Extended hours: 128
+- Effort alternatives / Low cost: EUR 6,918.4
+- Effort alternatives / Reference cost: EUR 10,377.6
+- Effort alternatives / Extended cost: EUR 13,836.8
+
+Seller-selected equivalent reproduction effort for the expressly bounded implementation. These are not logged hours, elapsed development time or actual spending. EUR 94/hour is external rate context, not a minimum or quote; the 15% allowance is an assumption. The selected scenario is the lowest of these scoped scenarios, not an absolute cost floor. Candidate-only future features and unestablished qualification are excluded.
 
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
@@ -176,7 +213,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "P", "potential": "M", "sector": "Aerospace & Mobility", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc1
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc2
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/advanced-ground-vehicle-engineering/#calculation
 

@@ -1,6 +1,6 @@
 {
   "schema": "public-pricing-1",
-  "basisDate": "2026-10-17",
+  "basisDate": "2026-10-18",
   "currency": "EUR",
   "statement": "Seller asking references and engineering-equivalent cost scenarios for the defined AS IS assets. Market value is not established. Selected cost estimates are seller assumptions, distinct from actual expenditure and an absolute minimum cost.",
   "fields": [
@@ -12,12 +12,12 @@
     {
       "key": "negotiationLowEUR",
       "label": "Negotiation reference - low",
-      "description": "Lower end of the previously published indicative negotiation range."
+      "description": "Lower end of the indicative seller negotiation range for the defined AS IS asset."
     },
     {
       "key": "negotiationHighEUR",
       "label": "Negotiation reference - high",
-      "description": "Upper end of the previously published indicative negotiation range."
+      "description": "Upper end of the indicative seller negotiation range for the defined AS IS asset."
     },
     {
       "key": "replacementCostEUR",
@@ -46,15 +46,14 @@
     }
   ],
   "portfolio": {
-    "assetCount": 108,
-    "sellerAskEUR": 24676000,
-    "negotiationLowEUR": 19712400,
-    "negotiationHighEUR": 30926375,
-    "replacementCostEUR": 105130000,
-    "marketComparableProxyEUR": 119584127,
-    "incomeLicensingProxyEUR": 140730706,
-    "probabilityAdjustedStrategicValueEUR": 131458667,
-    "triangulatedEconomicReferenceEUR": 124356004
+    "sellerAskEUR": 24702500,
+    "negotiationLowEUR": 19733400,
+    "negotiationHighEUR": 30959875,
+    "replacementCostEUR": 105246000,
+    "marketComparableProxyEUR": 119696775,
+    "incomeLicensingProxyEUR": 140849236,
+    "probabilityAdjustedStrategicValueEUR": 131556056,
+    "triangulatedEconomicReferenceEUR": 124465325
   },
   "displayCurrency": {
     "base": "EUR",
@@ -72,7 +71,7 @@
       "url": "https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html",
       "finding": "Cost-based reproduction/replacement is a starting point; cost and negotiated value may differ.",
       "application": "Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.",
-      "checkedOn": "2026-10-17"
+      "checkedOn": "2026-10-18"
     },
     {
       "id": "KNAB-2026",
@@ -81,7 +80,7 @@
       "url": "https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst",
       "finding": "Reported 2026 mean software-developer rate: EUR 94/hour excluding VAT; broader survey includes over 20,000 Dutch self-employed people.",
       "application": "External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.",
-      "checkedOn": "2026-10-17"
+      "checkedOn": "2026-10-18"
     },
     {
       "id": "UPWORK-RATES",
@@ -90,7 +89,7 @@
       "url": "https://www.upwork.com/hire/software-developers/",
       "finding": "The publisher search result gives a global USD 10-100/hour developer range. The detailed cost page could not be retrieved during this check.",
       "application": "Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.",
-      "checkedOn": "2026-10-17"
+      "checkedOn": "2026-10-18"
     },
     {
       "id": "ECB-FX",
@@ -99,7 +98,7 @@
       "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
       "finding": "Latest retrieved dated observation: 16 October 2026, EUR 1 = USD 1.1253. Indicative display conversion only.",
       "application": "Indicative USD display conversion only; authoritative project references remain in EUR.",
-      "checkedOn": "2026-10-17"
+      "checkedOn": "2026-10-18"
     },
     {
       "id": "IVSC-STANDARDS",
@@ -108,7 +107,7 @@
       "url": "https://ivsc.org/standards/",
       "finding": "Valuation approaches, data and inputs, models, documentation and reporting for valuation practice, including intangible assets.",
       "application": "Method and disclosure context only; this portfolio does not claim IVS compliance or an independent valuation.",
-      "checkedOn": "2026-10-17"
+      "checkedOn": "2026-10-18"
     },
     {
       "id": "IVSC-TRANSPARENCY",
@@ -117,7 +116,7 @@
       "url": "https://ivsc.org/valuing-in-the-absence-of-markets-using-ivs-to-strengthen-quality-and-transparency-in-private-credit-valuations/",
       "finding": "Transparency of process and inputs is especially important where market inputs are limited or non-observable.",
       "application": "Method and disclosure context only; this portfolio does not claim IVS compliance or an independent valuation.",
-      "checkedOn": "2026-10-17"
+      "checkedOn": "2026-10-18"
     }
   ],
   "methodology": {
@@ -237,7 +236,8 @@
       "Market, income and strategic proxies share the same cost anchor; they are correlated model scenarios, not three independent valuations.",
       "No per-project hours are reverse-engineered from a published price and presented as independently estimated effort.",
       "Missing whole-project work budgets and missing price-basis source heads are explicitly reported, not inferred from current README files.",
-      "All four model lenses share the same recreation anchor. Their weighted blend is an internal sensitivity, not independent triangulation."
+      "All four model lenses share the same recreation anchor. Their weighted blend is an internal sensitivity, not independent triangulation.",
+      "Scoped implementation budgets add only the stated non-overlapping work to the retained scope component. Asking and negotiation references preserve the seller-selected asking/cost relationships with EUR 500 rounding. Unmerged candidate work is excluded unless expressly priced."
     ],
     "futureRule": "Only R→P and P→V maturity transitions receive a numeric conditional reference. V-stage assets receive NOT_ESTABLISHED unless new attributable market/income evidence supports a separate model. An independently owned asset without its own monetary inputs has no numeric sensitivity until those inputs are established.",
     "futureCalculation": "Recompute the published market, income, strategic and triangulated reference using the target-stage factors from economic-methodology.json while holding invariant inputs constant.",
@@ -256,7 +256,7 @@
         "probabilityAdjustedStrategicValueEUR": 368814,
         "triangulatedEconomicReferenceEUR": 425241
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -305,7 +305,7 @@
         "probabilityAdjustedStrategicValueEUR": 491752,
         "triangulatedEconomicReferenceEUR": 566988
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -354,7 +354,7 @@
         "probabilityAdjustedStrategicValueEUR": 2088498,
         "triangulatedEconomicReferenceEUR": 2105274
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -398,7 +398,7 @@
         "probabilityAdjustedStrategicValueEUR": 1392332,
         "triangulatedEconomicReferenceEUR": 1419716
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -433,23 +433,61 @@
     {
       "ref": "TA-IP-070",
       "values": {
-        "sellerAskEUR": 225000,
-        "negotiationLowEUR": 180000,
-        "negotiationHighEUR": 280000,
-        "replacementCostEUR": 850000,
-        "marketComparableProxyEUR": 1075250,
-        "incomeLicensingProxyEUR": 975375,
-        "probabilityAdjustedStrategicValueEUR": 1084859,
-        "triangulatedEconomicReferenceEUR": 1002326
+        "sellerAskEUR": 227500,
+        "negotiationLowEUR": 182000,
+        "negotiationHighEUR": 283500,
+        "replacementCostEUR": 860000,
+        "marketComparableProxyEUR": 1087900,
+        "incomeLicensingProxyEUR": 986850,
+        "probabilityAdjustedStrategicValueEUR": 1097622,
+        "triangulatedEconomicReferenceEUR": 1014118
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.",
-      "costBudgets": [],
+      "costBasisNote": "Recreation estimate: EUR 850,000 retained scope component plus EUR 10,000 for the explicitly scoped implementation work budget, giving EUR 860,000. The scoped budget assumes 96 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.",
+      "costBudgets": [
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "scope": "Optional local neural reconstruction and cross-modal alignment; Representation replay, consolidation and sequential-task gates; Portable state, bounded worker admission and qualification tooling.",
+          "workPackages": [
+            {
+              "scope": "Optional local neural reconstruction and cross-modal alignment",
+              "lowEffortHours": 36
+            },
+            {
+              "scope": "Representation replay, consolidation and sequential-task gates",
+              "lowEffortHours": 32
+            },
+            {
+              "scope": "Portable state, bounded worker admission and qualification tooling",
+              "lowEffortHours": 28
+            }
+          ],
+          "assumedHours": 96,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 9024,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 10377.6,
+          "adoptedRecreationIncrementEUR": 10000,
+          "previousRecreationCostEUR": 850000,
+          "currentRecreationCostEUR": 860000,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 96,
+            "referenceHours": 144,
+            "extendedHours": 192,
+            "lowCostEUR": 10377.6,
+            "referenceCostEUR": 15566.4,
+            "extendedCostEUR": 20755.2
+          },
+          "boundary": "Seller-selected equivalent reproduction effort for the expressly bounded implementation. These are not logged hours, elapsed development time or actual spending. EUR 94/hour is external rate context, not a minimum or quote; the 15% allowance is an assumption. The selected scenario is the lowest of these scoped scenarios, not an absolute cost floor. Candidate-only future features and unestablished qualification are excluded."
+        }
+      ],
       "futureReference": {
         "milestoneConditionedEconomicReferenceEUR": null,
         "currentStage": "V",
@@ -464,14 +502,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 253193,
-        "negotiationLowUSD": 202554,
-        "negotiationHighUSD": 315084,
-        "replacementCostUSD": 956505,
-        "marketComparableProxyUSD": 1209979,
-        "incomeLicensingProxyUSD": 1097589,
-        "probabilityAdjustedStrategicValueUSD": 1220792,
-        "triangulatedEconomicReferenceUSD": 1127917
+        "sellerAskUSD": 256006,
+        "negotiationLowUSD": 204805,
+        "negotiationHighUSD": 319023,
+        "replacementCostUSD": 967758,
+        "marketComparableProxyUSD": 1224214,
+        "incomeLicensingProxyUSD": 1110502,
+        "probabilityAdjustedStrategicValueUSD": 1235154,
+        "triangulatedEconomicReferenceUSD": 1141187
       }
     },
     {
@@ -486,7 +524,7 @@
         "probabilityAdjustedStrategicValueEUR": 643455,
         "triangulatedEconomicReferenceEUR": 913169
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -535,7 +573,7 @@
         "probabilityAdjustedStrategicValueEUR": 901545,
         "triangulatedEconomicReferenceEUR": 952716
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -584,7 +622,7 @@
         "probabilityAdjustedStrategicValueEUR": 1036776,
         "triangulatedEconomicReferenceEUR": 1165485
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -624,34 +662,72 @@
     {
       "ref": "TA-IP-034",
       "values": {
-        "sellerAskEUR": 55000,
-        "negotiationLowEUR": 45000,
-        "negotiationHighEUR": 70000,
-        "replacementCostEUR": 450000,
-        "marketComparableProxyEUR": 309825,
-        "incomeLicensingProxyEUR": 258188,
-        "probabilityAdjustedStrategicValueEUR": 153622,
-        "triangulatedEconomicReferenceEUR": 279870
+        "sellerAskEUR": 56000,
+        "negotiationLowEUR": 45500,
+        "negotiationHighEUR": 71000,
+        "replacementCostEUR": 456500,
+        "marketComparableProxyEUR": 314300,
+        "incomeLicensingProxyEUR": 261917,
+        "probabilityAdjustedStrategicValueEUR": 155841,
+        "triangulatedEconomicReferenceEUR": 283913
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.",
-      "costBudgets": [],
+      "costBasisNote": "Recreation estimate: EUR 450,000 retained scope component plus EUR 6,500 for the explicitly scoped implementation work budget, giving EUR 456,500. The scoped budget assumes 64 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.",
+      "costBudgets": [
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "scope": "Scenario-sequence duration, distance and energy accumulation; Multi-node thermal graph, boundaries and stable integration; Conservation diagnostics, negative paths and compiler qualification.",
+          "workPackages": [
+            {
+              "scope": "Scenario-sequence duration, distance and energy accumulation",
+              "lowEffortHours": 24
+            },
+            {
+              "scope": "Multi-node thermal graph, boundaries and stable integration",
+              "lowEffortHours": 24
+            },
+            {
+              "scope": "Conservation diagnostics, negative paths and compiler qualification",
+              "lowEffortHours": 16
+            }
+          ],
+          "assumedHours": 64,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 6016,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 6918.4,
+          "adoptedRecreationIncrementEUR": 6500,
+          "previousRecreationCostEUR": 450000,
+          "currentRecreationCostEUR": 456500,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 64,
+            "referenceHours": 96,
+            "extendedHours": 128,
+            "lowCostEUR": 6918.4,
+            "referenceCostEUR": 10377.6,
+            "extendedCostEUR": 13836.8
+          },
+          "boundary": "Seller-selected equivalent reproduction effort for the expressly bounded implementation. These are not logged hours, elapsed development time or actual spending. EUR 94/hour is external rate context, not a minimum or quote; the 15% allowance is an assumption. The selected scenario is the lowest of these scoped scenarios, not an absolute cost floor. Candidate-only future features and unestablished qualification are excluded."
+        }
+      ],
       "futureReference": {
-        "milestoneConditionedEconomicReferenceEUR": 330368,
-        "sensitivityDeltaEUR": 50498,
+        "milestoneConditionedEconomicReferenceEUR": 335140,
+        "sensitivityDeltaEUR": 51227,
         "currentStage": "P",
         "targetStage": "V",
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 371763,
-        "sensitivityDeltaUSD": 56825
+        "milestoneConditionedEconomicReferenceUSD": 377133,
+        "sensitivityDeltaUSD": 57646
       },
       "calculationInputs": {
         "stage": "P",
@@ -660,14 +736,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 61892,
-        "negotiationLowUSD": 50639,
-        "negotiationHighUSD": 78771,
-        "replacementCostUSD": 506385,
-        "marketComparableProxyUSD": 348646,
-        "incomeLicensingProxyUSD": 290539,
-        "probabilityAdjustedStrategicValueUSD": 172871,
-        "triangulatedEconomicReferenceUSD": 314938
+        "sellerAskUSD": 63017,
+        "negotiationLowUSD": 51201,
+        "negotiationHighUSD": 79896,
+        "replacementCostUSD": 513699,
+        "marketComparableProxyUSD": 353682,
+        "incomeLicensingProxyUSD": 294735,
+        "probabilityAdjustedStrategicValueUSD": 175368,
+        "triangulatedEconomicReferenceUSD": 319487
       }
     },
     {
@@ -682,7 +758,7 @@
         "probabilityAdjustedStrategicValueEUR": 3096673,
         "triangulatedEconomicReferenceEUR": 2272136
       },
-      "basisDate": "2026-10-16",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -696,7 +772,7 @@
           "seniorEngineerMonths": 0.25,
           "leadOrSpecialistMonths": 0.15,
           "validationProvenanceMonths": 0.25,
-          "assumedHours": 104.0,
+          "assumedHours": 104,
           "rawEngineeringCostEUR": 11800,
           "withAllowanceEUR": 13570,
           "adoptedRecreationIncrementEUR": 15000,
@@ -759,23 +835,61 @@
     {
       "ref": "TA-IP-030",
       "values": {
-        "sellerAskEUR": 215000,
-        "negotiationLowEUR": 170000,
-        "negotiationHighEUR": 270000,
-        "replacementCostEUR": 850000,
-        "marketComparableProxyEUR": 879750,
-        "incomeLicensingProxyEUR": 975375,
-        "probabilityAdjustedStrategicValueEUR": 887612,
-        "triangulatedEconomicReferenceEUR": 894189
+        "sellerAskEUR": 216500,
+        "negotiationLowEUR": 171000,
+        "negotiationHighEUR": 271500,
+        "replacementCostEUR": 855000,
+        "marketComparableProxyEUR": 884925,
+        "incomeLicensingProxyEUR": 981113,
+        "probabilityAdjustedStrategicValueEUR": 892833,
+        "triangulatedEconomicReferenceEUR": 899449
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.",
-      "costBudgets": [],
+      "costBasisNote": "Recreation estimate: EUR 850,000 retained scope component plus EUR 5,000 for the explicitly scoped implementation work budget, giving EUR 855,000. The scoped budget assumes 48 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.",
+      "costBudgets": [
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "scope": "SOC-dependent battery voltage, resistance loss and thermal state; Available-power derating in mission and robust-planning constraints; Battery unit, stress and deterministic replay checks.",
+          "workPackages": [
+            {
+              "scope": "SOC-dependent battery voltage, resistance loss and thermal state",
+              "lowEffortHours": 20
+            },
+            {
+              "scope": "Available-power derating in mission and robust-planning constraints",
+              "lowEffortHours": 16
+            },
+            {
+              "scope": "Battery unit, stress and deterministic replay checks",
+              "lowEffortHours": 12
+            }
+          ],
+          "assumedHours": 48,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 4512,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 5188.8,
+          "adoptedRecreationIncrementEUR": 5000,
+          "previousRecreationCostEUR": 850000,
+          "currentRecreationCostEUR": 855000,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 48,
+            "referenceHours": 72,
+            "extendedHours": 96,
+            "lowCostEUR": 5188.8,
+            "referenceCostEUR": 7783.2,
+            "extendedCostEUR": 10377.6
+          },
+          "boundary": "Seller-selected equivalent reproduction effort for the expressly bounded implementation. These are not logged hours, elapsed development time or actual spending. EUR 94/hour is external rate context, not a minimum or quote; the 15% allowance is an assumption. The selected scenario is the lowest of these scoped scenarios, not an absolute cost floor. Candidate-only future features and unestablished qualification are excluded."
+        }
+      ],
       "futureReference": {
         "milestoneConditionedEconomicReferenceEUR": null,
         "currentStage": "V",
@@ -790,14 +904,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 241940,
-        "negotiationLowUSD": 191301,
-        "negotiationHighUSD": 303831,
-        "replacementCostUSD": 956505,
-        "marketComparableProxyUSD": 989983,
-        "incomeLicensingProxyUSD": 1097589,
-        "probabilityAdjustedStrategicValueUSD": 998830,
-        "triangulatedEconomicReferenceUSD": 1006231
+        "sellerAskUSD": 243627,
+        "negotiationLowUSD": 192426,
+        "negotiationHighUSD": 305519,
+        "replacementCostUSD": 962132,
+        "marketComparableProxyUSD": 995806,
+        "incomeLicensingProxyUSD": 1104046,
+        "probabilityAdjustedStrategicValueUSD": 1004705,
+        "triangulatedEconomicReferenceUSD": 1012150
       }
     },
     {
@@ -812,7 +926,7 @@
         "probabilityAdjustedStrategicValueEUR": 60961,
         "triangulatedEconomicReferenceEUR": 194776
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -861,7 +975,7 @@
         "probabilityAdjustedStrategicValueEUR": 1702639,
         "triangulatedEconomicReferenceEUR": 1415536
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -901,23 +1015,61 @@
     {
       "ref": "TA-IP-002",
       "values": {
-        "sellerAskEUR": 95000,
-        "negotiationLowEUR": 75000,
-        "negotiationHighEUR": 120000,
-        "replacementCostEUR": 520000,
-        "marketComparableProxyEUR": 382200,
-        "incomeLicensingProxyEUR": 265200,
-        "probabilityAdjustedStrategicValueEUR": 130891,
-        "triangulatedEconomicReferenceEUR": 305292
+        "sellerAskEUR": 97500,
+        "negotiationLowEUR": 77000,
+        "negotiationHighEUR": 123000,
+        "replacementCostEUR": 532500,
+        "marketComparableProxyEUR": 391388,
+        "incomeLicensingProxyEUR": 271575,
+        "probabilityAdjustedStrategicValueEUR": 134037,
+        "triangulatedEconomicReferenceEUR": 312631
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.",
-      "costBudgets": [],
+      "costBasisNote": "Recreation estimate: EUR 520,000 retained scope component plus EUR 12,500 for the explicitly scoped implementation work budget, giving EUR 532,500. The scoped budget assumes 120 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.",
+      "costBudgets": [
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "scope": "Deterministic repair planning and bounded shortcut allocation; Portfolio efficiency baselines and failure-domain policies; Release closure, provenance and replay regression.",
+          "workPackages": [
+            {
+              "scope": "Deterministic repair planning and bounded shortcut allocation",
+              "lowEffortHours": 48
+            },
+            {
+              "scope": "Portfolio efficiency baselines and failure-domain policies",
+              "lowEffortHours": 32
+            },
+            {
+              "scope": "Release closure, provenance and replay regression",
+              "lowEffortHours": 40
+            }
+          ],
+          "assumedHours": 120,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 11280,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 12972,
+          "adoptedRecreationIncrementEUR": 12500,
+          "previousRecreationCostEUR": 520000,
+          "currentRecreationCostEUR": 532500,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 120,
+            "referenceHours": 180,
+            "extendedHours": 240,
+            "lowCostEUR": 12972,
+            "referenceCostEUR": 19458,
+            "extendedCostEUR": 25944
+          },
+          "boundary": "Seller-selected equivalent reproduction effort for the expressly bounded implementation. These are not logged hours, elapsed development time or actual spending. EUR 94/hour is external rate context, not a minimum or quote; the 15% allowance is an assumption. The selected scenario is the lowest of these scoped scenarios, not an absolute cost floor. Candidate-only future features and unestablished qualification are excluded."
+        }
+      ],
       "futureReference": {
         "milestoneConditionedEconomicReferenceEUR": null,
         "currentStage": "V",
@@ -932,14 +1084,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 106904,
-        "negotiationLowUSD": 84398,
-        "negotiationHighUSD": 135036,
-        "replacementCostUSD": 585156,
-        "marketComparableProxyUSD": 430090,
-        "incomeLicensingProxyUSD": 298430,
-        "probabilityAdjustedStrategicValueUSD": 147292,
-        "triangulatedEconomicReferenceUSD": 343545
+        "sellerAskUSD": 109717,
+        "negotiationLowUSD": 86648,
+        "negotiationHighUSD": 138412,
+        "replacementCostUSD": 599222,
+        "marketComparableProxyUSD": 440429,
+        "incomeLicensingProxyUSD": 305603,
+        "probabilityAdjustedStrategicValueUSD": 150832,
+        "triangulatedEconomicReferenceUSD": 351804
       }
     },
     {
@@ -954,7 +1106,7 @@
         "probabilityAdjustedStrategicValueEUR": 237680,
         "triangulatedEconomicReferenceEUR": 274044
       },
-      "basisDate": "2026-10-12",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -1006,23 +1158,61 @@
     {
       "ref": "TA-IP-027",
       "values": {
-        "sellerAskEUR": 360000,
-        "negotiationLowEUR": 290000,
-        "negotiationHighEUR": 450000,
-        "replacementCostEUR": 1650000,
-        "marketComparableProxyEUR": 1992375,
-        "incomeLicensingProxyEUR": 1893375,
-        "probabilityAdjustedStrategicValueEUR": 2010179,
-        "triangulatedEconomicReferenceEUR": 1893213
+        "sellerAskEUR": 362000,
+        "negotiationLowEUR": 292000,
+        "negotiationHighEUR": 452500,
+        "replacementCostEUR": 1660000,
+        "marketComparableProxyEUR": 2004450,
+        "incomeLicensingProxyEUR": 1904850,
+        "probabilityAdjustedStrategicValueEUR": 2022362,
+        "triangulatedEconomicReferenceEUR": 1904687
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.",
-      "costBudgets": [],
+      "costBasisNote": "Recreation estimate: EUR 1,650,000 retained scope component plus EUR 10,000 for the explicitly scoped implementation work budget, giving EUR 1,660,000. The scoped budget assumes 96 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.",
+      "costBudgets": [
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "scope": "Bound Guardian/Operator authorization and replay-guard contracts; Canonical typed evidence V2 encoding and immutable legacy bindings; Cross-language vectors, protocol model and conformance qualification.",
+          "workPackages": [
+            {
+              "scope": "Bound Guardian/Operator authorization and replay-guard contracts",
+              "lowEffortHours": 32
+            },
+            {
+              "scope": "Canonical typed evidence V2 encoding and immutable legacy bindings",
+              "lowEffortHours": 32
+            },
+            {
+              "scope": "Cross-language vectors, protocol model and conformance qualification",
+              "lowEffortHours": 32
+            }
+          ],
+          "assumedHours": 96,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 9024,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 10377.6,
+          "adoptedRecreationIncrementEUR": 10000,
+          "previousRecreationCostEUR": 1650000,
+          "currentRecreationCostEUR": 1660000,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 96,
+            "referenceHours": 144,
+            "extendedHours": 192,
+            "lowCostEUR": 10377.6,
+            "referenceCostEUR": 15566.4,
+            "extendedCostEUR": 20755.2
+          },
+          "boundary": "Seller-selected equivalent reproduction effort for the expressly bounded implementation. These are not logged hours, elapsed development time or actual spending. EUR 94/hour is external rate context, not a minimum or quote; the 15% allowance is an assumption. The selected scenario is the lowest of these scoped scenarios, not an absolute cost floor. Candidate-only future features and unestablished qualification are excluded."
+        }
+      ],
       "futureReference": {
         "milestoneConditionedEconomicReferenceEUR": null,
         "currentStage": "V",
@@ -1037,14 +1227,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 405108,
-        "negotiationLowUSD": 326337,
-        "negotiationHighUSD": 506385,
-        "replacementCostUSD": 1856745,
-        "marketComparableProxyUSD": 2242020,
-        "incomeLicensingProxyUSD": 2130615,
-        "probabilityAdjustedStrategicValueUSD": 2262054,
-        "triangulatedEconomicReferenceUSD": 2130433
+        "sellerAskUSD": 407359,
+        "negotiationLowUSD": 328588,
+        "negotiationHighUSD": 509198,
+        "replacementCostUSD": 1867998,
+        "marketComparableProxyUSD": 2255608,
+        "incomeLicensingProxyUSD": 2143528,
+        "probabilityAdjustedStrategicValueUSD": 2275764,
+        "triangulatedEconomicReferenceUSD": 2143344
       }
     },
     {
@@ -1059,7 +1249,7 @@
         "probabilityAdjustedStrategicValueEUR": 6041109,
         "triangulatedEconomicReferenceEUR": 4539388
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -1094,23 +1284,61 @@
     {
       "ref": "TA-IP-042",
       "values": {
-        "sellerAskEUR": 150000,
-        "negotiationLowEUR": 120000,
-        "negotiationHighEUR": 190000,
-        "replacementCostEUR": 700000,
-        "marketComparableProxyEUR": 535500,
-        "incomeLicensingProxyEUR": 535500,
-        "probabilityAdjustedStrategicValueEUR": 319508,
-        "triangulatedEconomicReferenceEUR": 501028
+        "sellerAskEUR": 152000,
+        "negotiationLowEUR": 121500,
+        "negotiationHighEUR": 192500,
+        "replacementCostEUR": 710000,
+        "marketComparableProxyEUR": 543150,
+        "incomeLicensingProxyEUR": 543150,
+        "probabilityAdjustedStrategicValueEUR": 324072,
+        "triangulatedEconomicReferenceEUR": 508185
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.",
-      "costBudgets": [],
+      "costBasisNote": "Recreation estimate: EUR 700,000 retained scope component plus EUR 10,000 for the explicitly scoped implementation work budget, giving EUR 710,000. The scoped budget assumes 96 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.",
+      "costBudgets": [
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "scope": "Physical-resource route, factory and corridor co-search; Stochastic inventory and bounded workload calibration studies; Package parity, installed CLI and audit regression.",
+          "workPackages": [
+            {
+              "scope": "Physical-resource route, factory and corridor co-search",
+              "lowEffortHours": 40
+            },
+            {
+              "scope": "Stochastic inventory and bounded workload calibration studies",
+              "lowEffortHours": 32
+            },
+            {
+              "scope": "Package parity, installed CLI and audit regression",
+              "lowEffortHours": 24
+            }
+          ],
+          "assumedHours": 96,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 9024,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 10377.6,
+          "adoptedRecreationIncrementEUR": 10000,
+          "previousRecreationCostEUR": 700000,
+          "currentRecreationCostEUR": 710000,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 96,
+            "referenceHours": 144,
+            "extendedHours": 192,
+            "lowCostEUR": 10377.6,
+            "referenceCostEUR": 15566.4,
+            "extendedCostEUR": 20755.2
+          },
+          "boundary": "Seller-selected equivalent reproduction effort for the expressly bounded implementation. These are not logged hours, elapsed development time or actual spending. EUR 94/hour is external rate context, not a minimum or quote; the 15% allowance is an assumption. The selected scenario is the lowest of these scoped scenarios, not an absolute cost floor. Candidate-only future features and unestablished qualification are excluded."
+        }
+      ],
       "futureReference": {
         "milestoneConditionedEconomicReferenceEUR": null,
         "currentStage": "V",
@@ -1125,14 +1353,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 168795,
-        "negotiationLowUSD": 135036,
-        "negotiationHighUSD": 213807,
-        "replacementCostUSD": 787710,
-        "marketComparableProxyUSD": 602598,
-        "incomeLicensingProxyUSD": 602598,
-        "probabilityAdjustedStrategicValueUSD": 359542,
-        "triangulatedEconomicReferenceUSD": 563807
+        "sellerAskUSD": 171046,
+        "negotiationLowUSD": 136724,
+        "negotiationHighUSD": 216620,
+        "replacementCostUSD": 798963,
+        "marketComparableProxyUSD": 611207,
+        "incomeLicensingProxyUSD": 611207,
+        "probabilityAdjustedStrategicValueUSD": 364678,
+        "triangulatedEconomicReferenceUSD": 571861
       }
     },
     {
@@ -1147,7 +1375,7 @@
         "probabilityAdjustedStrategicValueEUR": 3254576,
         "triangulatedEconomicReferenceEUR": 3366602
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -1191,7 +1419,7 @@
         "probabilityAdjustedStrategicValueEUR": 974632,
         "triangulatedEconomicReferenceEUR": 971921
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -1235,7 +1463,7 @@
         "probabilityAdjustedStrategicValueEUR": 870810,
         "triangulatedEconomicReferenceEUR": 1040159
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -1284,7 +1512,7 @@
         "probabilityAdjustedStrategicValueEUR": 352398,
         "triangulatedEconomicReferenceEUR": 527089
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -1328,7 +1556,7 @@
         "probabilityAdjustedStrategicValueEUR": 63725,
         "triangulatedEconomicReferenceEUR": 106368
       },
-      "basisDate": "2026-10-11",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -1431,7 +1659,7 @@
         "probabilityAdjustedStrategicValueEUR": 172723,
         "triangulatedEconomicReferenceEUR": 573633
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -1480,7 +1708,7 @@
         "probabilityAdjustedStrategicValueEUR": 1160277,
         "triangulatedEconomicReferenceEUR": 1169597
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -1515,34 +1743,72 @@
     {
       "ref": "TA-IP-041",
       "values": {
-        "sellerAskEUR": 115000,
-        "negotiationLowEUR": 90000,
-        "negotiationHighEUR": 145000,
-        "replacementCostEUR": 850000,
-        "marketComparableProxyEUR": 872419,
-        "incomeLicensingProxyEUR": 731531,
-        "probabilityAdjustedStrategicValueEUR": 731480,
-        "triangulatedEconomicReferenceEUR": 789308
+        "sellerAskEUR": 116000,
+        "negotiationLowEUR": 91000,
+        "negotiationHighEUR": 146500,
+        "replacementCostEUR": 858500,
+        "marketComparableProxyEUR": 881143,
+        "incomeLicensingProxyEUR": 738847,
+        "probabilityAdjustedStrategicValueEUR": 738795,
+        "triangulatedEconomicReferenceEUR": 797201
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.",
-      "costBudgets": [],
+      "costBasisNote": "Recreation estimate: EUR 850,000 retained scope component plus EUR 8,500 for the explicitly scoped implementation work budget, giving EUR 858,500. The scoped budget assumes 80 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.",
+      "costBudgets": [
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "scope": "AEAD-backed private persistence and key-rotation contracts; External rollback-guard and security-bootstrap interfaces; HTTPS/mTLS counter adapter and adversarial qualification checks.",
+          "workPackages": [
+            {
+              "scope": "AEAD-backed private persistence and key-rotation contracts",
+              "lowEffortHours": 32
+            },
+            {
+              "scope": "External rollback-guard and security-bootstrap interfaces",
+              "lowEffortHours": 24
+            },
+            {
+              "scope": "HTTPS/mTLS counter adapter and adversarial qualification checks",
+              "lowEffortHours": 24
+            }
+          ],
+          "assumedHours": 80,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 7520,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 8648,
+          "adoptedRecreationIncrementEUR": 8500,
+          "previousRecreationCostEUR": 850000,
+          "currentRecreationCostEUR": 858500,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 80,
+            "referenceHours": 120,
+            "extendedHours": 160,
+            "lowCostEUR": 8648,
+            "referenceCostEUR": 12972,
+            "extendedCostEUR": 17296
+          },
+          "boundary": "Seller-selected equivalent reproduction effort for the expressly bounded implementation. These are not logged hours, elapsed development time or actual spending. EUR 94/hour is external rate context, not a minimum or quote; the 15% allowance is an assumption. The selected scenario is the lowest of these scoped scenarios, not an absolute cost floor. Candidate-only future features and unestablished qualification are excluded."
+        }
+      ],
       "futureReference": {
-        "milestoneConditionedEconomicReferenceEUR": 975291,
-        "sensitivityDeltaEUR": 185983,
+        "milestoneConditionedEconomicReferenceEUR": 985044,
+        "sensitivityDeltaEUR": 187843,
         "currentStage": "P",
         "targetStage": "V",
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 1097495,
-        "sensitivityDeltaUSD": 209287
+        "milestoneConditionedEconomicReferenceUSD": 1108470,
+        "sensitivityDeltaUSD": 211380
       },
       "calculationInputs": {
         "stage": "P",
@@ -1551,14 +1817,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 129410,
-        "negotiationLowUSD": 101277,
-        "negotiationHighUSD": 163169,
-        "replacementCostUSD": 956505,
-        "marketComparableProxyUSD": 981733,
-        "incomeLicensingProxyUSD": 823192,
-        "probabilityAdjustedStrategicValueUSD": 823134,
-        "triangulatedEconomicReferenceUSD": 888208
+        "sellerAskUSD": 130535,
+        "negotiationLowUSD": 102402,
+        "negotiationHighUSD": 164856,
+        "replacementCostUSD": 966070,
+        "marketComparableProxyUSD": 991550,
+        "incomeLicensingProxyUSD": 831425,
+        "probabilityAdjustedStrategicValueUSD": 831366,
+        "triangulatedEconomicReferenceUSD": 897090
       }
     },
     {
@@ -1573,7 +1839,7 @@
         "probabilityAdjustedStrategicValueEUR": 30345,
         "triangulatedEconomicReferenceEUR": 54201
       },
-      "basisDate": "2026-10-12",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -1613,23 +1879,61 @@
     {
       "ref": "TA-IP-071",
       "values": {
-        "sellerAskEUR": 400000,
-        "negotiationLowEUR": 320000,
-        "negotiationHighEUR": 500000,
-        "replacementCostEUR": 1600000,
-        "marketComparableProxyEUR": 1932000,
-        "incomeLicensingProxyEUR": 2376000,
-        "probabilityAdjustedStrategicValueEUR": 1949265,
-        "triangulatedEconomicReferenceEUR": 1943843
+        "sellerAskEUR": 402500,
+        "negotiationLowEUR": 322000,
+        "negotiationHighEUR": 503000,
+        "replacementCostEUR": 1610000,
+        "marketComparableProxyEUR": 1944075,
+        "incomeLicensingProxyEUR": 2390850,
+        "probabilityAdjustedStrategicValueEUR": 1961448,
+        "triangulatedEconomicReferenceEUR": 1955992
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.",
-      "costBudgets": [],
+      "costBasisNote": "Recreation estimate: EUR 1,600,000 retained scope component plus EUR 10,000 for the explicitly scoped implementation work budget, giving EUR 1,610,000. The scoped budget assumes 96 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.",
+      "costBudgets": [
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "scope": "Signed Ed25519 trust-bundle distribution and monotonic history; Signer permission, rotation, threshold and revocation governance; Custody, provider-boundary and focused runtime regressions.",
+          "workPackages": [
+            {
+              "scope": "Signed Ed25519 trust-bundle distribution and monotonic history",
+              "lowEffortHours": 32
+            },
+            {
+              "scope": "Signer permission, rotation, threshold and revocation governance",
+              "lowEffortHours": 32
+            },
+            {
+              "scope": "Custody, provider-boundary and focused runtime regressions",
+              "lowEffortHours": 32
+            }
+          ],
+          "assumedHours": 96,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 9024,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 10377.6,
+          "adoptedRecreationIncrementEUR": 10000,
+          "previousRecreationCostEUR": 1600000,
+          "currentRecreationCostEUR": 1610000,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 96,
+            "referenceHours": 144,
+            "extendedHours": 192,
+            "lowCostEUR": 10377.6,
+            "referenceCostEUR": 15566.4,
+            "extendedCostEUR": 20755.2
+          },
+          "boundary": "Seller-selected equivalent reproduction effort for the expressly bounded implementation. These are not logged hours, elapsed development time or actual spending. EUR 94/hour is external rate context, not a minimum or quote; the 15% allowance is an assumption. The selected scenario is the lowest of these scoped scenarios, not an absolute cost floor. Candidate-only future features and unestablished qualification are excluded."
+        }
+      ],
       "futureReference": {
         "milestoneConditionedEconomicReferenceEUR": null,
         "currentStage": "V",
@@ -1644,14 +1948,14 @@
         "route": "Private deployment / enterprise licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 450120,
-        "negotiationLowUSD": 360096,
-        "negotiationHighUSD": 562650,
-        "replacementCostUSD": 1800480,
-        "marketComparableProxyUSD": 2174080,
-        "incomeLicensingProxyUSD": 2673713,
-        "probabilityAdjustedStrategicValueUSD": 2193508,
-        "triangulatedEconomicReferenceUSD": 2187407
+        "sellerAskUSD": 452933,
+        "negotiationLowUSD": 362347,
+        "negotiationHighUSD": 566026,
+        "replacementCostUSD": 1811733,
+        "marketComparableProxyUSD": 2187668,
+        "incomeLicensingProxyUSD": 2690424,
+        "probabilityAdjustedStrategicValueUSD": 2207217,
+        "triangulatedEconomicReferenceUSD": 2201078
       }
     },
     {
@@ -1666,7 +1970,7 @@
         "probabilityAdjustedStrategicValueEUR": 451070,
         "triangulatedEconomicReferenceEUR": 631475
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -1710,7 +2014,7 @@
         "probabilityAdjustedStrategicValueEUR": 645424,
         "triangulatedEconomicReferenceEUR": 734417
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -1759,7 +2063,7 @@
         "probabilityAdjustedStrategicValueEUR": 3721323,
         "triangulatedEconomicReferenceEUR": 2730463
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -1844,7 +2148,7 @@
           "previousRecreationCostEUR": 1100000,
           "resultingRecreationCostEUR": 1400000,
           "rawEngineeringCostEUR": 290000,
-          "withAllowanceEUR": 333500.0,
+          "withAllowanceEUR": 333500,
           "boundary": "Assumed engineering-equivalent reproduction budget, not actual hours, payroll, expenditure, elapsed development time or an independently certified appraisal.",
           "kind": "Scoped work-package budget"
         }
@@ -1885,7 +2189,7 @@
         "probabilityAdjustedStrategicValueEUR": 2346996,
         "triangulatedEconomicReferenceEUR": 1915824
       },
-      "basisDate": "2026-10-16",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -1899,7 +2203,7 @@
           "seniorEngineerMonths": 1.1,
           "leadOrSpecialistMonths": 0.6,
           "validationProvenanceMonths": 0.65,
-          "assumedHours": 376.0,
+          "assumedHours": 376,
           "rawEngineeringCostEUR": 43400,
           "withAllowanceEUR": 49910,
           "adoptedRecreationIncrementEUR": 50000,
@@ -1967,23 +2271,65 @@
     {
       "ref": "TA-IP-023",
       "values": {
-        "sellerAskEUR": 210000,
-        "negotiationLowEUR": 170000,
-        "negotiationHighEUR": 265000,
-        "replacementCostEUR": 1150000,
-        "marketComparableProxyEUR": 684250,
-        "incomeLicensingProxyEUR": 793500,
-        "probabilityAdjustedStrategicValueEUR": 234333,
-        "triangulatedEconomicReferenceEUR": 665067
+        "sellerAskEUR": 213000,
+        "negotiationLowEUR": 172500,
+        "negotiationHighEUR": 269000,
+        "replacementCostEUR": 1167000,
+        "marketComparableProxyEUR": 694365,
+        "incomeLicensingProxyEUR": 805230,
+        "probabilityAdjustedStrategicValueEUR": 237797,
+        "triangulatedEconomicReferenceEUR": 674898
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.",
-      "costBudgets": [],
+      "costBasisNote": "Recreation estimate: EUR 1,150,000 retained scope component plus EUR 17,000 for the explicitly scoped implementation work budget, giving EUR 1,167,000. The scoped budget assumes 160 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.",
+      "costBudgets": [
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "scope": "Governed observation intake, study plans and observer key lifecycle; Portable evidence capsules, history and checkpoints; Scalar measurement contracts, adapters and exact unit transformations; Synthetic regressions, installed-package and archive qualification.",
+          "workPackages": [
+            {
+              "scope": "Governed observation intake, study plans and observer key lifecycle",
+              "lowEffortHours": 48
+            },
+            {
+              "scope": "Portable evidence capsules, history and checkpoints",
+              "lowEffortHours": 48
+            },
+            {
+              "scope": "Scalar measurement contracts, adapters and exact unit transformations",
+              "lowEffortHours": 32
+            },
+            {
+              "scope": "Synthetic regressions, installed-package and archive qualification",
+              "lowEffortHours": 32
+            }
+          ],
+          "assumedHours": 160,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 15040,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 17296,
+          "adoptedRecreationIncrementEUR": 17000,
+          "previousRecreationCostEUR": 1150000,
+          "currentRecreationCostEUR": 1167000,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 160,
+            "referenceHours": 240,
+            "extendedHours": 320,
+            "lowCostEUR": 17296,
+            "referenceCostEUR": 25944,
+            "extendedCostEUR": 34592
+          },
+          "boundary": "Seller-selected equivalent reproduction effort for the expressly bounded implementation. These are not logged hours, elapsed development time or actual spending. EUR 94/hour is external rate context, not a minimum or quote; the 15% allowance is an assumption. The selected scenario is the lowest of these scoped scenarios, not an absolute cost floor. Candidate-only future features and unestablished qualification are excluded."
+        }
+      ],
       "futureReference": {
         "milestoneConditionedEconomicReferenceEUR": null,
         "currentStage": "V",
@@ -1998,14 +2344,14 @@
         "route": "Enterprise software / licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 236313,
-        "negotiationLowUSD": 191301,
-        "negotiationHighUSD": 298205,
-        "replacementCostUSD": 1294095,
-        "marketComparableProxyUSD": 769987,
-        "incomeLicensingProxyUSD": 892926,
-        "probabilityAdjustedStrategicValueUSD": 263695,
-        "triangulatedEconomicReferenceUSD": 748400
+        "sellerAskUSD": 239689,
+        "negotiationLowUSD": 194114,
+        "negotiationHighUSD": 302706,
+        "replacementCostUSD": 1313225,
+        "marketComparableProxyUSD": 781369,
+        "incomeLicensingProxyUSD": 906125,
+        "probabilityAdjustedStrategicValueUSD": 267593,
+        "triangulatedEconomicReferenceUSD": 759463
       }
     },
     {
@@ -2020,7 +2366,7 @@
         "probabilityAdjustedStrategicValueEUR": 3828913,
         "triangulatedEconomicReferenceEUR": 3780620
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -2064,7 +2410,7 @@
         "probabilityAdjustedStrategicValueEUR": 153622,
         "triangulatedEconomicReferenceEUR": 279870
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -2113,7 +2459,7 @@
         "probabilityAdjustedStrategicValueEUR": 405695,
         "triangulatedEconomicReferenceEUR": 456060
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -2162,7 +2508,7 @@
         "probabilityAdjustedStrategicValueEUR": 811390,
         "triangulatedEconomicReferenceEUR": 912119
       },
-      "basisDate": "2026-10-16",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -2173,10 +2519,10 @@
         {
           "basis": "Incremental present first-party work since the explicitly identified earlier source; previous scope counted once",
           "economicAssessmentAt": "2026-10-16T07:49:40Z",
-          "seniorEngineerMonths": 3.0,
+          "seniorEngineerMonths": 3,
           "leadOrSpecialistMonths": 0.75,
           "validationProvenanceMonths": 1.25,
-          "assumedHours": 800.0,
+          "assumedHours": 800,
           "rawEngineeringCostEUR": 90500,
           "withAllowanceEUR": 104075,
           "adoptedRecreationIncrementEUR": 100000,
@@ -2253,7 +2599,7 @@
         "probabilityAdjustedStrategicValueEUR": 609145,
         "triangulatedEconomicReferenceEUR": 614201
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -2297,7 +2643,7 @@
         "probabilityAdjustedStrategicValueEUR": 3044719,
         "triangulatedEconomicReferenceEUR": 2295652
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -2341,7 +2687,7 @@
         "probabilityAdjustedStrategicValueEUR": 2297348,
         "triangulatedEconomicReferenceEUR": 2268372
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -2385,7 +2731,7 @@
         "probabilityAdjustedStrategicValueEUR": 547727,
         "triangulatedEconomicReferenceEUR": 912904
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -2429,7 +2775,7 @@
         "probabilityAdjustedStrategicValueEUR": 935005,
         "triangulatedEconomicReferenceEUR": 1762172
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -2478,7 +2824,7 @@
         "probabilityAdjustedStrategicValueEUR": 2192923,
         "triangulatedEconomicReferenceEUR": 2186823
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -2522,7 +2868,7 @@
         "probabilityAdjustedStrategicValueEUR": 1536216,
         "triangulatedEconomicReferenceEUR": 1275676
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -2571,7 +2917,7 @@
         "probabilityAdjustedStrategicValueEUR": 153622,
         "triangulatedEconomicReferenceEUR": 279870
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -2620,7 +2966,7 @@
         "probabilityAdjustedStrategicValueEUR": 2537266,
         "triangulatedEconomicReferenceEUR": 1893043
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -2664,7 +3010,7 @@
         "probabilityAdjustedStrategicValueEUR": 3080966,
         "triangulatedEconomicReferenceEUR": 2315088
       },
-      "basisDate": "2026-10-16",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -2677,8 +3023,8 @@
           "economicAssessmentAt": "2026-10-16T07:49:40Z",
           "seniorEngineerMonths": 1.75,
           "leadOrSpecialistMonths": 0.75,
-          "validationProvenanceMonths": 1.0,
-          "assumedHours": 560.0,
+          "validationProvenanceMonths": 1,
+          "assumedHours": 560,
           "rawEngineeringCostEUR": 64000,
           "withAllowanceEUR": 73600,
           "adoptedRecreationIncrementEUR": 75000,
@@ -2750,7 +3096,7 @@
         "probabilityAdjustedStrategicValueEUR": 3132747,
         "triangulatedEconomicReferenceEUR": 3194361
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -2794,7 +3140,7 @@
         "probabilityAdjustedStrategicValueEUR": 3411213,
         "triangulatedEconomicReferenceEUR": 3401725
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -2838,7 +3184,7 @@
         "probabilityAdjustedStrategicValueEUR": 540927,
         "triangulatedEconomicReferenceEUR": 608079
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -2887,7 +3233,7 @@
         "probabilityAdjustedStrategicValueEUR": 838300,
         "triangulatedEconomicReferenceEUR": 936005
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -2931,7 +3277,7 @@
         "probabilityAdjustedStrategicValueEUR": 17069,
         "triangulatedEconomicReferenceEUR": 31097
       },
-      "basisDate": "2026-10-11",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -3010,7 +3356,7 @@
         "probabilityAdjustedStrategicValueEUR": 928221,
         "triangulatedEconomicReferenceEUR": 946477
       },
-      "basisDate": "2026-10-09",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -3024,7 +3370,7 @@
           "leadOrSpecialistMonths": 8,
           "validationProvenanceMonths": 10,
           "rawEngineeringCostEUR": 696000,
-          "withAllowanceEUR": 800400.0,
+          "withAllowanceEUR": 800400,
           "adoptedRecreationCostEUR": 800000,
           "scope": "Present first-party piano practice, performance and local production software, its proprietary transcription work, retained research and validation, and documentation. User music, external scores, recordings, datasets, plugins and future model qualification are excluded.",
           "economicAssessmentAt": "2026-10-09T06:22:41Z",
@@ -3067,7 +3413,7 @@
         "probabilityAdjustedStrategicValueEUR": 495849,
         "triangulatedEconomicReferenceEUR": 557406
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -3116,7 +3462,7 @@
         "probabilityAdjustedStrategicValueEUR": 153622,
         "triangulatedEconomicReferenceEUR": 279870
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -3165,7 +3511,7 @@
         "probabilityAdjustedStrategicValueEUR": 860565,
         "triangulatedEconomicReferenceEUR": 928598
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -3214,7 +3560,7 @@
         "probabilityAdjustedStrategicValueEUR": 479458,
         "triangulatedEconomicReferenceEUR": 556559
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -3263,7 +3609,7 @@
         "probabilityAdjustedStrategicValueEUR": 287898,
         "triangulatedEconomicReferenceEUR": 468569
       },
-      "basisDate": "2026-10-16",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -3274,10 +3620,10 @@
         {
           "basis": "Incremental present first-party work since the explicitly identified earlier source; previous scope counted once",
           "economicAssessmentAt": "2026-10-16T07:49:40Z",
-          "seniorEngineerMonths": 1.0,
+          "seniorEngineerMonths": 1,
           "leadOrSpecialistMonths": 0.5,
           "validationProvenanceMonths": 0.5,
-          "assumedHours": 320.0,
+          "assumedHours": 320,
           "rawEngineeringCostEUR": 37000,
           "withAllowanceEUR": 42550,
           "adoptedRecreationIncrementEUR": 40000,
@@ -3354,7 +3700,7 @@
         "probabilityAdjustedStrategicValueEUR": 26552,
         "triangulatedEconomicReferenceEUR": 47426
       },
-      "basisDate": "2026-10-13",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -3463,7 +3809,7 @@
         "probabilityAdjustedStrategicValueEUR": 2525184,
         "triangulatedEconomicReferenceEUR": 1852814
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -3507,7 +3853,7 @@
         "probabilityAdjustedStrategicValueEUR": 22948,
         "triangulatedEconomicReferenceEUR": 39577
       },
-      "basisDate": "2026-10-12",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -3556,7 +3902,7 @@
         "probabilityAdjustedStrategicValueEUR": 174104,
         "triangulatedEconomicReferenceEUR": 328128
       },
-      "basisDate": "2026-10-16",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -3567,10 +3913,10 @@
         {
           "basis": "Incremental present first-party work since the explicitly identified earlier source; previous scope counted once",
           "economicAssessmentAt": "2026-10-16T07:49:40Z",
-          "seniorEngineerMonths": 3.0,
-          "leadOrSpecialistMonths": 2.0,
+          "seniorEngineerMonths": 3,
+          "leadOrSpecialistMonths": 2,
           "validationProvenanceMonths": 1.5,
-          "assumedHours": 1040.0,
+          "assumedHours": 1040,
           "rawEngineeringCostEUR": 122000,
           "withAllowanceEUR": 140300,
           "adoptedRecreationIncrementEUR": 140000,
@@ -3647,7 +3993,7 @@
         "probabilityAdjustedStrategicValueEUR": 113271,
         "triangulatedEconomicReferenceEUR": 280395
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -3691,7 +4037,7 @@
         "probabilityAdjustedStrategicValueEUR": 166898,
         "triangulatedEconomicReferenceEUR": 271634
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -3740,7 +4086,7 @@
         "probabilityAdjustedStrategicValueEUR": 579947,
         "triangulatedEconomicReferenceEUR": 880981
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -3784,7 +4130,7 @@
         "probabilityAdjustedStrategicValueEUR": 559367,
         "triangulatedEconomicReferenceEUR": 643076
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -3824,22 +4170,22 @@
     {
       "ref": "TA-IP-109",
       "values": {
-        "sellerAskEUR": 9000,
-        "negotiationLowEUR": 7000,
-        "negotiationHighEUR": 11500,
-        "replacementCostEUR": 30000,
-        "marketComparableProxyEUR": 22950,
-        "incomeLicensingProxyEUR": 22275,
-        "probabilityAdjustedStrategicValueEUR": 11379,
-        "triangulatedEconomicReferenceEUR": 20528
+        "sellerAskEUR": 10500,
+        "negotiationLowEUR": 8000,
+        "negotiationHighEUR": 13500,
+        "replacementCostEUR": 35000,
+        "marketComparableProxyEUR": 26775,
+        "incomeLicensingProxyEUR": 25988,
+        "probabilityAdjustedStrategicValueEUR": 13276,
+        "triangulatedEconomicReferenceEUR": 23949
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "Present-source low-effort recreation reference EUR 30,000; seller asking choice EUR 9,000. Market value remains not established. Estimated hours are not logged time or expenditure.",
+      "costBasisNote": "Recreation estimate: EUR 30,000 retained scope component plus EUR 5,000 for the explicitly scoped implementation work budget, giving EUR 35,000. The scoped budget assumes 48 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has its own disclosed work-package estimate; overlapping work must not be added twice. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.",
       "costBudgets": [
         {
           "economicAssessmentAt": "2026-10-17T06:30:00Z",
@@ -3866,21 +4212,58 @@
           "hourlyRateEUR": 94,
           "rawEngineeringCostEUR": 26320,
           "coordinationToolingAllowance": 0.15,
-          "withAllowanceEUR": 30268.0,
+          "withAllowanceEUR": 30268,
           "adoptedRecreationCostEUR": 30000,
           "adoptedRecreationIncrementEUR": null,
           "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
           "rounding": "DOWN_TO_EUR_500",
           "effortAlternatives": {
             "lowHours": 280,
-            "referenceHours": 420.0,
+            "referenceHours": 420,
             "extendedHours": 560,
-            "lowCostEUR": 30268.0,
-            "referenceCostEUR": 45402.0,
-            "extendedCostEUR": 60536.0
+            "lowCostEUR": 30268,
+            "referenceCostEUR": 45402,
+            "extendedCostEUR": 60536
           },
           "boundary": "Hours and the 15% allowance are analyst assumptions for bounded reproduction with modern tooling. EUR 94 is a Dutch mean, not a minimum rate or a contractor quote. This is the lowest of the explicitly scoped working scenarios, not an absolute market or cost floor.",
           "kind": "Low-effort working estimate"
+        },
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "scope": "Revision-bound editorial reviews and publication gates; Canon/world graph and multilingual consistency checks; Text reuse, local studio and domain/HTTP regressions.",
+          "workPackages": [
+            {
+              "scope": "Revision-bound editorial reviews and publication gates",
+              "lowEffortHours": 16
+            },
+            {
+              "scope": "Canon/world graph and multilingual consistency checks",
+              "lowEffortHours": 16
+            },
+            {
+              "scope": "Text reuse, local studio and domain/HTTP regressions",
+              "lowEffortHours": 16
+            }
+          ],
+          "assumedHours": 48,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 4512,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 5188.8,
+          "adoptedRecreationIncrementEUR": 5000,
+          "previousRecreationCostEUR": 30000,
+          "currentRecreationCostEUR": 35000,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 48,
+            "referenceHours": 72,
+            "extendedHours": 96,
+            "lowCostEUR": 5188.8,
+            "referenceCostEUR": 7783.2,
+            "extendedCostEUR": 10377.6
+          },
+          "boundary": "Seller-selected equivalent reproduction effort for the expressly bounded implementation. These are not logged hours, elapsed development time or actual spending. EUR 94/hour is external rate context, not a minimum or quote; the 15% allowance is an assumption. The selected scenario is the lowest of these scoped scenarios, not an absolute cost floor. Candidate-only future features and unestablished qualification are excluded."
         }
       ],
       "futureReference": {
@@ -3898,14 +4281,14 @@
         "route": "Private deployment / enterprise licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 10128,
-        "negotiationLowUSD": 7877,
-        "negotiationHighUSD": 12941,
-        "replacementCostUSD": 33759,
-        "marketComparableProxyUSD": 25826,
-        "incomeLicensingProxyUSD": 25066,
-        "probabilityAdjustedStrategicValueUSD": 12805,
-        "triangulatedEconomicReferenceUSD": 23100
+        "sellerAskUSD": 11816,
+        "negotiationLowUSD": 9002,
+        "negotiationHighUSD": 15192,
+        "replacementCostUSD": 39386,
+        "marketComparableProxyUSD": 30130,
+        "incomeLicensingProxyUSD": 29244,
+        "probabilityAdjustedStrategicValueUSD": 14939,
+        "triangulatedEconomicReferenceUSD": 26950
       }
     },
     {
@@ -3920,7 +4303,7 @@
         "probabilityAdjustedStrategicValueEUR": 1860662,
         "triangulatedEconomicReferenceEUR": 1379232
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -3964,7 +4347,7 @@
         "probabilityAdjustedStrategicValueEUR": 626983,
         "triangulatedEconomicReferenceEUR": 748914
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -4004,23 +4387,61 @@
     {
       "ref": "TA-IP-019",
       "values": {
-        "sellerAskEUR": 700000,
-        "negotiationLowEUR": 560000,
-        "negotiationHighEUR": 875000,
-        "replacementCostEUR": 1900000,
-        "marketComparableProxyEUR": 2992500,
-        "incomeLicensingProxyEUR": 4370000,
-        "probabilityAdjustedStrategicValueEUR": 4820805,
-        "triangulatedEconomicReferenceEUR": 3634782
+        "sellerAskEUR": 703000,
+        "negotiationLowEUR": 562500,
+        "negotiationHighEUR": 879000,
+        "replacementCostEUR": 1908500,
+        "marketComparableProxyEUR": 3005888,
+        "incomeLicensingProxyEUR": 4389550,
+        "probabilityAdjustedStrategicValueEUR": 4842372,
+        "triangulatedEconomicReferenceEUR": 3651043
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.",
-      "costBudgets": [],
+      "costBasisNote": "Recreation estimate: EUR 1,900,000 retained scope component plus EUR 8,500 for the explicitly scoped implementation work budget, giving EUR 1,908,500. The scoped budget assumes 80 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.",
+      "costBudgets": [
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "scope": "Recovery freshness and durable evidence-state contracts; Trust-store and release-identity integration; Offline release qualification, package and provenance checks.",
+          "workPackages": [
+            {
+              "scope": "Recovery freshness and durable evidence-state contracts",
+              "lowEffortHours": 32
+            },
+            {
+              "scope": "Trust-store and release-identity integration",
+              "lowEffortHours": 24
+            },
+            {
+              "scope": "Offline release qualification, package and provenance checks",
+              "lowEffortHours": 24
+            }
+          ],
+          "assumedHours": 80,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 7520,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 8648,
+          "adoptedRecreationIncrementEUR": 8500,
+          "previousRecreationCostEUR": 1900000,
+          "currentRecreationCostEUR": 1908500,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 80,
+            "referenceHours": 120,
+            "extendedHours": 160,
+            "lowCostEUR": 8648,
+            "referenceCostEUR": 12972,
+            "extendedCostEUR": 17296
+          },
+          "boundary": "Seller-selected equivalent reproduction effort for the expressly bounded implementation. These are not logged hours, elapsed development time or actual spending. EUR 94/hour is external rate context, not a minimum or quote; the 15% allowance is an assumption. The selected scenario is the lowest of these scoped scenarios, not an absolute cost floor. Candidate-only future features and unestablished qualification are excluded."
+        }
+      ],
       "futureReference": {
         "milestoneConditionedEconomicReferenceEUR": null,
         "currentStage": "V",
@@ -4035,14 +4456,14 @@
         "route": "B2B SaaS / enterprise software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 787710,
-        "negotiationLowUSD": 630168,
-        "negotiationHighUSD": 984638,
-        "replacementCostUSD": 2138070,
-        "marketComparableProxyUSD": 3367460,
-        "incomeLicensingProxyUSD": 4917561,
-        "probabilityAdjustedStrategicValueUSD": 5424852,
-        "triangulatedEconomicReferenceUSD": 4090220
+        "sellerAskUSD": 791086,
+        "negotiationLowUSD": 632981,
+        "negotiationHighUSD": 989139,
+        "replacementCostUSD": 2147635,
+        "marketComparableProxyUSD": 3382526,
+        "incomeLicensingProxyUSD": 4939561,
+        "probabilityAdjustedStrategicValueUSD": 5449121,
+        "triangulatedEconomicReferenceUSD": 4108519
       }
     },
     {
@@ -4057,7 +4478,7 @@
         "probabilityAdjustedStrategicValueEUR": 1276304,
         "triangulatedEconomicReferenceEUR": 1246706
       },
-      "basisDate": "2026-10-16",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -4068,10 +4489,10 @@
         {
           "basis": "Incremental present first-party work since the explicitly identified earlier source; previous scope counted once",
           "economicAssessmentAt": "2026-10-16T07:49:40Z",
-          "seniorEngineerMonths": 3.0,
-          "leadOrSpecialistMonths": 1.0,
-          "validationProvenanceMonths": 1.0,
-          "assumedHours": 800.0,
+          "seniorEngineerMonths": 3,
+          "leadOrSpecialistMonths": 1,
+          "validationProvenanceMonths": 1,
+          "assumedHours": 800,
           "rawEngineeringCostEUR": 92000,
           "withAllowanceEUR": 105800,
           "adoptedRecreationIncrementEUR": 100000,
@@ -4143,7 +4564,7 @@
         "probabilityAdjustedStrategicValueEUR": 270463,
         "triangulatedEconomicReferenceEUR": 304040
       },
-      "basisDate": "2026-10-09",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -4157,7 +4578,7 @@
           "leadOrSpecialistMonths": 3,
           "validationProvenanceMonths": 4,
           "rawEngineeringCostEUR": 274000,
-          "withAllowanceEUR": 315100.0,
+          "withAllowanceEUR": 315100,
           "adoptedRecreationCostEUR": 300000,
           "scope": "Present first-party evidence-governed intelligence prototype, retained qualification, documentation and packaging. Production deployment, operational infrastructure, external evidence/data rights and future productisation are excluded.",
           "economicAssessmentAt": "2026-10-09T06:22:41Z",
@@ -4205,7 +4626,7 @@
         "probabilityAdjustedStrategicValueEUR": 1860662,
         "triangulatedEconomicReferenceEUR": 1379232
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -4249,7 +4670,7 @@
         "probabilityAdjustedStrategicValueEUR": 143936,
         "triangulatedEconomicReferenceEUR": 478028
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -4298,7 +4719,7 @@
         "probabilityAdjustedStrategicValueEUR": 209570,
         "triangulatedEconomicReferenceEUR": 394970
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -4347,7 +4768,7 @@
         "probabilityAdjustedStrategicValueEUR": 1282106,
         "triangulatedEconomicReferenceEUR": 1326237
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -4382,23 +4803,61 @@
     {
       "ref": "TA-IP-011",
       "values": {
-        "sellerAskEUR": 280000,
-        "negotiationLowEUR": 225000,
-        "negotiationHighEUR": 350000,
-        "replacementCostEUR": 850000,
-        "marketComparableProxyEUR": 1075250,
-        "incomeLicensingProxyEUR": 1319625,
-        "probabilityAdjustedStrategicValueEUR": 1084859,
-        "triangulatedEconomicReferenceEUR": 1071176
+        "sellerAskEUR": 282000,
+        "negotiationLowEUR": 226500,
+        "negotiationHighEUR": 352500,
+        "replacementCostEUR": 856500,
+        "marketComparableProxyEUR": 1083473,
+        "incomeLicensingProxyEUR": 1329716,
+        "probabilityAdjustedStrategicValueEUR": 1093155,
+        "triangulatedEconomicReferenceEUR": 1079367
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.",
-      "costBudgets": [],
+      "costBasisNote": "Recreation estimate: EUR 850,000 retained scope component plus EUR 6,500 for the explicitly scoped implementation work budget, giving EUR 856,500. The scoped budget assumes 64 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.",
+      "costBudgets": [
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "scope": "Guarded internal/external evidence synthesis and durable human-review package; Source-as-data envelopes, byte provenance and fail-closed input checks; Live Docker qualification runner, canaries and offline acceptance tooling.",
+          "workPackages": [
+            {
+              "scope": "Guarded internal/external evidence synthesis and durable human-review package",
+              "lowEffortHours": 24
+            },
+            {
+              "scope": "Source-as-data envelopes, byte provenance and fail-closed input checks",
+              "lowEffortHours": 24
+            },
+            {
+              "scope": "Live Docker qualification runner, canaries and offline acceptance tooling",
+              "lowEffortHours": 16
+            }
+          ],
+          "assumedHours": 64,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 6016,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 6918.4,
+          "adoptedRecreationIncrementEUR": 6500,
+          "previousRecreationCostEUR": 850000,
+          "currentRecreationCostEUR": 856500,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 64,
+            "referenceHours": 96,
+            "extendedHours": 128,
+            "lowCostEUR": 6918.4,
+            "referenceCostEUR": 10377.6,
+            "extendedCostEUR": 13836.8
+          },
+          "boundary": "Seller-selected equivalent reproduction effort for the expressly bounded implementation. These are not logged hours, elapsed development time or actual spending. EUR 94/hour is external rate context, not a minimum or quote; the 15% allowance is an assumption. The selected scenario is the lowest of these scoped scenarios, not an absolute cost floor. Candidate-only future features and unestablished qualification are excluded."
+        }
+      ],
       "futureReference": {
         "milestoneConditionedEconomicReferenceEUR": null,
         "currentStage": "V",
@@ -4413,14 +4872,14 @@
         "route": "B2B SaaS / enterprise software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 315084,
-        "negotiationLowUSD": 253193,
-        "negotiationHighUSD": 393855,
-        "replacementCostUSD": 956505,
-        "marketComparableProxyUSD": 1209979,
-        "incomeLicensingProxyUSD": 1484974,
-        "probabilityAdjustedStrategicValueUSD": 1220792,
-        "triangulatedEconomicReferenceUSD": 1205394
+        "sellerAskUSD": 317335,
+        "negotiationLowUSD": 254880,
+        "negotiationHighUSD": 396668,
+        "replacementCostUSD": 963819,
+        "marketComparableProxyUSD": 1219232,
+        "incomeLicensingProxyUSD": 1496329,
+        "probabilityAdjustedStrategicValueUSD": 1230127,
+        "triangulatedEconomicReferenceUSD": 1214612
       }
     },
     {
@@ -4435,7 +4894,7 @@
         "probabilityAdjustedStrategicValueEUR": 225386,
         "triangulatedEconomicReferenceEUR": 253367
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -4484,7 +4943,7 @@
         "probabilityAdjustedStrategicValueEUR": 2132008,
         "triangulatedEconomicReferenceEUR": 2126078
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -4528,7 +4987,7 @@
         "probabilityAdjustedStrategicValueEUR": 609145,
         "triangulatedEconomicReferenceEUR": 607451
       },
-      "basisDate": "2026-10-16",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -4539,10 +4998,10 @@
         {
           "basis": "Incremental present first-party work since the explicitly identified earlier source; previous scope counted once",
           "economicAssessmentAt": "2026-10-16T07:49:40Z",
-          "seniorEngineerMonths": 2.0,
-          "leadOrSpecialistMonths": 1.0,
+          "seniorEngineerMonths": 2,
+          "leadOrSpecialistMonths": 1,
           "validationProvenanceMonths": 1.5,
-          "assumedHours": 720.0,
+          "assumedHours": 720,
           "rawEngineeringCostEUR": 82000,
           "withAllowanceEUR": 94300,
           "adoptedRecreationIncrementEUR": 100000,
@@ -4614,7 +5073,7 @@
         "probabilityAdjustedStrategicValueEUR": 104311,
         "triangulatedEconomicReferenceEUR": 179896
       },
-      "basisDate": "2026-10-11",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -4704,7 +5163,7 @@
         "probabilityAdjustedStrategicValueEUR": 1035547,
         "triangulatedEconomicReferenceEUR": 1044141
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -4748,7 +5207,7 @@
         "probabilityAdjustedStrategicValueEUR": 4349599,
         "triangulatedEconomicReferenceEUR": 3304360
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -4792,7 +5251,7 @@
         "probabilityAdjustedStrategicValueEUR": 9303308,
         "triangulatedEconomicReferenceEUR": 6476158
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -4836,7 +5295,7 @@
         "probabilityAdjustedStrategicValueEUR": 1061740,
         "triangulatedEconomicReferenceEUR": 999960
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -4865,18 +5324,18 @@
           "hourlyRateEUR": 94,
           "rawEngineeringCostEUR": 18800,
           "coordinationToolingAllowance": 0.15,
-          "withAllowanceEUR": 21620.0,
+          "withAllowanceEUR": 21620,
           "adoptedRecreationCostEUR": null,
           "adoptedRecreationIncrementEUR": 21500,
           "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
           "rounding": "DOWN_TO_EUR_500",
           "effortAlternatives": {
             "lowHours": 200,
-            "referenceHours": 300.0,
+            "referenceHours": 300,
             "extendedHours": 400,
-            "lowCostEUR": 21620.0,
-            "referenceCostEUR": 32430.0,
-            "extendedCostEUR": 43240.0
+            "lowCostEUR": 21620,
+            "referenceCostEUR": 32430,
+            "extendedCostEUR": 43240
           },
           "boundary": "Hours and the 15% allowance are analyst assumptions for bounded reproduction with modern tooling. EUR 94 is a Dutch mean, not a minimum rate or a contractor quote. This is the lowest of the explicitly scoped working scenarios, not an absolute market or cost floor.",
           "kind": "Low-effort working estimate"
@@ -4918,7 +5377,7 @@
         "probabilityAdjustedStrategicValueEUR": 83449,
         "triangulatedEconomicReferenceEUR": 135817
       },
-      "basisDate": "2026-10-12",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -4929,9 +5388,9 @@
         {
           "basis": "First standalone present-scope software estimate",
           "economicAssessmentAt": "2026-10-11T07:01:21Z",
-          "seniorEngineerMonths": 4.0,
+          "seniorEngineerMonths": 4,
           "leadOrSpecialistMonths": 1.25,
-          "validationProvenanceMonths": 2.0,
+          "validationProvenanceMonths": 2,
           "rawEngineeringCostEUR": 131500,
           "withAllowanceEUR": 151225,
           "adoptedRecreationCostEUR": 150000,
@@ -5017,7 +5476,7 @@
         "probabilityAdjustedStrategicValueEUR": 47414,
         "triangulatedEconomicReferenceEUR": 243605
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5066,7 +5525,7 @@
         "probabilityAdjustedStrategicValueEUR": 82975,
         "triangulatedEconomicReferenceEUR": 426309
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5115,7 +5574,7 @@
         "probabilityAdjustedStrategicValueEUR": 791889,
         "triangulatedEconomicReferenceEUR": 789686
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5159,7 +5618,7 @@
         "probabilityAdjustedStrategicValueEUR": 1455857,
         "triangulatedEconomicReferenceEUR": 1451808
       },
-      "basisDate": "2026-10-12",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5218,7 +5677,7 @@
         "probabilityAdjustedStrategicValueEUR": 754180,
         "triangulatedEconomicReferenceEUR": 769013
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5262,7 +5721,7 @@
         "probabilityAdjustedStrategicValueEUR": 1327356,
         "triangulatedEconomicReferenceEUR": 1296575
       },
-      "basisDate": "2026-10-12",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5301,7 +5760,7 @@
           "previousRecreationCostEUR": 850000,
           "resultingRecreationCostEUR": 1000000,
           "rawEngineeringCostEUR": 142000,
-          "withAllowanceEUR": 163300.0,
+          "withAllowanceEUR": 163300,
           "boundary": "Assumed engineering-equivalent reproduction budget, not actual hours, payroll, expenditure, elapsed development time or an independently certified appraisal.",
           "kind": "Scoped work-package budget"
         },
@@ -5356,7 +5815,7 @@
         "probabilityAdjustedStrategicValueEUR": 1253099,
         "triangulatedEconomicReferenceEUR": 1262385
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5412,7 +5871,7 @@
         "probabilityAdjustedStrategicValueEUR": 721236,
         "triangulatedEconomicReferenceEUR": 810773
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5461,7 +5920,7 @@
         "probabilityAdjustedStrategicValueEUR": 229484,
         "triangulatedEconomicReferenceEUR": 373497
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5510,7 +5969,7 @@
         "probabilityAdjustedStrategicValueEUR": 37552,
         "triangulatedEconomicReferenceEUR": 64763
       },
-      "basisDate": "2026-10-12",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5550,22 +6009,22 @@
     {
       "ref": "TA-IP-107",
       "values": {
-        "sellerAskEUR": 4000,
-        "negotiationLowEUR": 3000,
-        "negotiationHighEUR": 5000,
-        "replacementCostEUR": 12500,
-        "marketComparableProxyEUR": 9563,
-        "incomeLicensingProxyEUR": 9281,
-        "probabilityAdjustedStrategicValueEUR": 4741,
-        "triangulatedEconomicReferenceEUR": 8553
+        "sellerAskEUR": 6000,
+        "negotiationLowEUR": 4500,
+        "negotiationHighEUR": 7500,
+        "replacementCostEUR": 18500,
+        "marketComparableProxyEUR": 14153,
+        "incomeLicensingProxyEUR": 13736,
+        "probabilityAdjustedStrategicValueEUR": 7017,
+        "triangulatedEconomicReferenceEUR": 12659
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "Present-source low-effort recreation reference EUR 12,500; seller asking choice EUR 4,000. Market value remains not established. Estimated hours are not logged time or expenditure.",
+      "costBasisNote": "Recreation estimate: EUR 12,500 retained scope component plus EUR 6,000 for the explicitly scoped implementation work budget, giving EUR 18,500. The scoped budget assumes 56 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has its own disclosed work-package estimate; overlapping work must not be added twice. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.",
       "costBudgets": [
         {
           "economicAssessmentAt": "2026-10-17T06:30:00Z",
@@ -5588,21 +6047,58 @@
           "hourlyRateEUR": 94,
           "rawEngineeringCostEUR": 11280,
           "coordinationToolingAllowance": 0.15,
-          "withAllowanceEUR": 12972.0,
+          "withAllowanceEUR": 12972,
           "adoptedRecreationCostEUR": 12500,
           "adoptedRecreationIncrementEUR": null,
           "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
           "rounding": "DOWN_TO_EUR_500",
           "effortAlternatives": {
             "lowHours": 120,
-            "referenceHours": 180.0,
+            "referenceHours": 180,
             "extendedHours": 240,
-            "lowCostEUR": 12972.0,
-            "referenceCostEUR": 19458.0,
-            "extendedCostEUR": 25944.0
+            "lowCostEUR": 12972,
+            "referenceCostEUR": 19458,
+            "extendedCostEUR": 25944
           },
           "boundary": "Hours and the 15% allowance are analyst assumptions for bounded reproduction with modern tooling. EUR 94 is a Dutch mean, not a minimum rate or a contractor quote. This is the lowest of the explicitly scoped working scenarios, not an absolute market or cost floor.",
           "kind": "Low-effort working estimate"
+        },
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "scope": "Structured CSV/JSON ingestion and unit/currency normalization; Deterministic identities and duplicate-candidate reconciliation; Safe document registration, path handling and export regressions.",
+          "workPackages": [
+            {
+              "scope": "Structured CSV/JSON ingestion and unit/currency normalization",
+              "lowEffortHours": 20
+            },
+            {
+              "scope": "Deterministic identities and duplicate-candidate reconciliation",
+              "lowEffortHours": 20
+            },
+            {
+              "scope": "Safe document registration, path handling and export regressions",
+              "lowEffortHours": 16
+            }
+          ],
+          "assumedHours": 56,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 5264,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 6053.6,
+          "adoptedRecreationIncrementEUR": 6000,
+          "previousRecreationCostEUR": 12500,
+          "currentRecreationCostEUR": 18500,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 56,
+            "referenceHours": 84,
+            "extendedHours": 112,
+            "lowCostEUR": 6053.6,
+            "referenceCostEUR": 9080.4,
+            "extendedCostEUR": 12107.2
+          },
+          "boundary": "Seller-selected equivalent reproduction effort for the expressly bounded implementation. These are not logged hours, elapsed development time or actual spending. EUR 94/hour is external rate context, not a minimum or quote; the 15% allowance is an assumption. The selected scenario is the lowest of these scoped scenarios, not an absolute cost floor. Candidate-only future features and unestablished qualification are excluded."
         }
       ],
       "futureReference": {
@@ -5620,14 +6116,14 @@
         "route": "Private deployment / enterprise licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 4501,
-        "negotiationLowUSD": 3376,
-        "negotiationHighUSD": 5627,
-        "replacementCostUSD": 14066,
-        "marketComparableProxyUSD": 10761,
-        "incomeLicensingProxyUSD": 10444,
-        "probabilityAdjustedStrategicValueUSD": 5335,
-        "triangulatedEconomicReferenceUSD": 9625
+        "sellerAskUSD": 6752,
+        "negotiationLowUSD": 5064,
+        "negotiationHighUSD": 8440,
+        "replacementCostUSD": 20818,
+        "marketComparableProxyUSD": 15926,
+        "incomeLicensingProxyUSD": 15457,
+        "probabilityAdjustedStrategicValueUSD": 7896,
+        "triangulatedEconomicReferenceUSD": 14245
       }
     },
     {
@@ -5642,7 +6138,7 @@
         "probabilityAdjustedStrategicValueEUR": 35466,
         "triangulatedEconomicReferenceEUR": 66841
       },
-      "basisDate": "2026-10-12",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5691,7 +6187,7 @@
         "probabilityAdjustedStrategicValueEUR": 970977,
         "triangulatedEconomicReferenceEUR": 968276
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5720,18 +6216,18 @@
           "hourlyRateEUR": 94,
           "rawEngineeringCostEUR": 15040,
           "coordinationToolingAllowance": 0.15,
-          "withAllowanceEUR": 17296.0,
+          "withAllowanceEUR": 17296,
           "adoptedRecreationCostEUR": null,
           "adoptedRecreationIncrementEUR": 17000,
           "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
           "rounding": "DOWN_TO_EUR_500",
           "effortAlternatives": {
             "lowHours": 160,
-            "referenceHours": 240.0,
+            "referenceHours": 240,
             "extendedHours": 320,
-            "lowCostEUR": 17296.0,
-            "referenceCostEUR": 25944.0,
-            "extendedCostEUR": 34592.0
+            "lowCostEUR": 17296,
+            "referenceCostEUR": 25944,
+            "extendedCostEUR": 34592
           },
           "boundary": "Hours and the 15% allowance are analyst assumptions for bounded reproduction with modern tooling. EUR 94 is a Dutch mean, not a minimum rate or a contractor quote. This is the lowest of the explicitly scoped working scenarios, not an absolute market or cost floor.",
           "kind": "Low-effort working estimate"
@@ -5773,7 +6269,7 @@
         "probabilityAdjustedStrategicValueEUR": 774509,
         "triangulatedEconomicReferenceEUR": 899057
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5834,7 +6330,7 @@
         "probabilityAdjustedStrategicValueEUR": 45518,
         "triangulatedEconomicReferenceEUR": 81301
       },
-      "basisDate": "2026-10-12",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5898,7 +6394,7 @@
         "probabilityAdjustedStrategicValueEUR": 3063130,
         "triangulatedEconomicReferenceEUR": 3024496
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5942,7 +6438,7 @@
         "probabilityAdjustedStrategicValueEUR": 3322610,
         "triangulatedEconomicReferenceEUR": 2462914
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5986,7 +6482,7 @@
         "probabilityAdjustedStrategicValueEUR": 5074532,
         "triangulatedEconomicReferenceEUR": 3826086
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -6030,7 +6526,7 @@
         "probabilityAdjustedStrategicValueEUR": 1116766,
         "triangulatedEconomicReferenceEUR": 1102681
       },
-      "basisDate": "2026-10-16",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -6044,7 +6540,7 @@
           "seniorEngineerMonths": 0.6,
           "leadOrSpecialistMonths": 0.2,
           "validationProvenanceMonths": 0.35,
-          "assumedHours": 184.0,
+          "assumedHours": 184,
           "rawEngineeringCostEUR": 20800,
           "withAllowanceEUR": 23920,
           "adoptedRecreationIncrementEUR": 25000,
@@ -6116,7 +6612,7 @@
         "probabilityAdjustedStrategicValueEUR": 224144,
         "triangulatedEconomicReferenceEUR": 508550
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -6154,20 +6650,58 @@
         "sellerAskEUR": 260000,
         "negotiationLowEUR": 210000,
         "negotiationHighEUR": 325000,
-        "replacementCostEUR": 1200000,
-        "marketComparableProxyEUR": 1188000,
-        "incomeLicensingProxyEUR": 918000,
-        "probabilityAdjustedStrategicValueEUR": 708824,
-        "triangulatedEconomicReferenceEUR": 969288
+        "replacementCostEUR": 1200500,
+        "marketComparableProxyEUR": 1188495,
+        "incomeLicensingProxyEUR": 918383,
+        "probabilityAdjustedStrategicValueEUR": 709119,
+        "triangulatedEconomicReferenceEUR": 969692
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.",
-      "costBudgets": [],
+      "costBasisNote": "Recreation estimate: EUR 1,200,000 retained scope component plus EUR 500 for the explicitly scoped implementation work budget, giving EUR 1,200,500. The scoped budget assumes 8 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.",
+      "costBudgets": [
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "scope": "Training-checkpoint compatibility repair; Stale-trainer rejection guard; Targeted repair regressions and instructions.",
+          "workPackages": [
+            {
+              "scope": "Training-checkpoint compatibility repair",
+              "lowEffortHours": 3
+            },
+            {
+              "scope": "Stale-trainer rejection guard",
+              "lowEffortHours": 2
+            },
+            {
+              "scope": "Targeted repair regressions and instructions",
+              "lowEffortHours": 3
+            }
+          ],
+          "assumedHours": 8,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 752,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 864.8,
+          "adoptedRecreationIncrementEUR": 500,
+          "previousRecreationCostEUR": 1200000,
+          "currentRecreationCostEUR": 1200500,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 8,
+            "referenceHours": 12,
+            "extendedHours": 16,
+            "lowCostEUR": 864.8,
+            "referenceCostEUR": 1297.2,
+            "extendedCostEUR": 1729.6
+          },
+          "boundary": "Seller-selected equivalent reproduction effort for the expressly bounded implementation. These are not logged hours, elapsed development time or actual spending. EUR 94/hour is external rate context, not a minimum or quote; the 15% allowance is an assumption. The selected scenario is the lowest of these scoped scenarios, not an absolute cost floor. Candidate-only future features and unestablished qualification are excluded."
+        }
+      ],
       "futureReference": {
         "milestoneConditionedEconomicReferenceEUR": null,
         "currentStage": "V",
@@ -6185,11 +6719,11 @@
         "sellerAskUSD": 292578,
         "negotiationLowUSD": 236313,
         "negotiationHighUSD": 365723,
-        "replacementCostUSD": 1350360,
-        "marketComparableProxyUSD": 1336856,
-        "incomeLicensingProxyUSD": 1033025,
-        "probabilityAdjustedStrategicValueUSD": 797640,
-        "triangulatedEconomicReferenceUSD": 1090740
+        "replacementCostUSD": 1350923,
+        "marketComparableProxyUSD": 1337413,
+        "incomeLicensingProxyUSD": 1033456,
+        "probabilityAdjustedStrategicValueUSD": 797972,
+        "triangulatedEconomicReferenceUSD": 1091194
       }
     },
     {
@@ -6204,7 +6738,7 @@
         "probabilityAdjustedStrategicValueEUR": 7207,
         "triangulatedEconomicReferenceEUR": 12873
       },
-      "basisDate": "2026-10-17",
+      "basisDate": "2026-10-18",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -6233,18 +6767,18 @@
           "hourlyRateEUR": 94,
           "rawEngineeringCostEUR": 16920,
           "coordinationToolingAllowance": 0.15,
-          "withAllowanceEUR": 19458.0,
+          "withAllowanceEUR": 19458,
           "adoptedRecreationCostEUR": 19000,
           "adoptedRecreationIncrementEUR": null,
           "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
           "rounding": "DOWN_TO_EUR_500",
           "effortAlternatives": {
             "lowHours": 180,
-            "referenceHours": 270.0,
+            "referenceHours": 270,
             "extendedHours": 360,
-            "lowCostEUR": 19458.0,
-            "referenceCostEUR": 29187.0,
-            "extendedCostEUR": 38916.0
+            "lowCostEUR": 19458,
+            "referenceCostEUR": 29187,
+            "extendedCostEUR": 38916
           },
           "boundary": "Hours and the 15% allowance are analyst assumptions for bounded reproduction with modern tooling. EUR 94 is a Dutch mean, not a minimum rate or a contractor quote. This is the lowest of the explicitly scoped working scenarios, not an absolute market or cost floor.",
           "kind": "Low-effort working estimate"
@@ -6277,13 +6811,13 @@
     }
   ],
   "portfolioUSD": {
-    "sellerAskUSD": 27767903,
-    "negotiationLowUSD": 22182364,
-    "negotiationHighUSD": 34801450,
-    "replacementCostUSD": 118302789,
-    "marketComparableProxyUSD": 134568018,
-    "incomeLicensingProxyUSD": 158364263,
-    "probabilityAdjustedStrategicValueUSD": 147930438,
-    "triangulatedEconomicReferenceUSD": 139937811
+    "sellerAskUSD": 27797723,
+    "negotiationLowUSD": 22205995,
+    "negotiationHighUSD": 34839147,
+    "replacementCostUSD": 118433324,
+    "marketComparableProxyUSD": 134694781,
+    "incomeLicensingProxyUSD": 158497645,
+    "probabilityAdjustedStrategicValueUSD": 148040030,
+    "triangulatedEconomicReferenceUSD": 140060830
   }
 }

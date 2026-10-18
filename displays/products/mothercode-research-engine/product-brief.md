@@ -1,4 +1,4 @@
-# MOTHERCODE Research Engine
+# Adaptive Neurodynamics Engineering Platform
 
 TA-IP-037 | Reference name: Eve | AI & decision software
 
@@ -6,7 +6,7 @@ Explore learning and memory in brain-inspired research models and compare their 
 
 ## Product overview
 
-An experimental neural-dynamics research asset for repeatable computational studies.
+ANEP is an experimental spiking-neural-dynamics research asset with sparse topology and short-horizon memory studies. Agree the included development-branch source and historical evidence package explicitly.
 
 ## Potential acquirers
 
@@ -56,9 +56,9 @@ Acquisition of the specifically agreed first-party work product and transferable
 
 ## Buyer information and enquiry
 
-Asset profile: https://thearchitect-max.github.io/MyProjects/projects/mothercode-research-engine/
+Asset profile: https://thearchitect-max.github.io/MyProjects/projects/adaptive-neurodynamics-engineering-platform/
 
-Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/mothercode-research-engine/factsheet.pdf
+Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/adaptive-neurodynamics-engineering-platform/factsheet.pdf
 
 Quote TA-IP-037 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
@@ -72,20 +72,27 @@ Identified product edition: 18.3
 
 Handover position: Conditional handover
 
-The available research implementation is on a development branch. Wider qualification and biological claims remain open.
+Experimental research source is on an unmerged development branch. The priced historical v18.3 evidence package and the v18.4 candidate must be expressly distinguished in the delivery agreement.
 
-Separately scoped development: 18.4 research target
+Separately scoped development: 18.4 unmerged adaptive sparsity-budget candidate; external CUDA qualification pending
 
 ### Priced first-party scope
 
 Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+
+### Research evidence and delivery edition
+
+The candidate documentation records three focused ANEP tests PASS and a five-seed local study passing four seeds; seed 5 has zero frozen-control margin and remains in the canonical set. v18.3 remains the recorded external Tesla-T4 baseline. These records do not establish external v18.4 CUDA qualification or a fresh complete regression PASS.
+
+- Main contains the public identity and acquisition documentation; agree and freeze the actual included research-source package.
+- Consciousness, biological equivalence, AGI, autonomous perception, planning and production readiness are not established.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
 | Technical scope | P | Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance. |
-| Evidence and validation | E4 | E3 plus repository-retained independent/external validation evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results. |
+| Evidence and validation | E4 | Historical external CUDA evidence is identified for v18.3. The v18.4 candidate has bounded local research evidence; external CUDA and complete candidate regression/packaging acceptance remain separate. |
 | Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. This grade concerns documented rights evidence. Missing documentation does not establish that first-party ownership is absent. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. A published asking reference does not establish a completed sale, income or an independent appraisal. |
 | Delivery and handover | T2 | Source, documentation, tests and licence evidence support bounded handover. Your agreed delivery scope and the conditions below govern acceptance. |
@@ -128,7 +135,7 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-17. All amounts in EUR. Market value is not established.
+Basis: 2026-10-18. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
@@ -144,8 +151,8 @@ Basis: 2026-10-17. All amounts in EUR. Market value is not established.
 USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
-- Negotiation reference - low: Lower end of the previously published indicative negotiation range.
-- Negotiation reference - high: Upper end of the previously published indicative negotiation range.
+- Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
+- Negotiation reference - high: Upper end of the indicative seller negotiation range for the defined AS IS asset.
 - Recreation cost estimate: Seller estimate to reproduce comparable present work; not recorded expenditure or an established market value.
 - Marketability cost scenario: Cost-based model scenario; no observed comparable IP sale is used.
 - Monetisation cost scenario: Cost-based model scenario; no attributable income, royalty valuation or DCF is established.
@@ -176,7 +183,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "P", "potential": "M", "sector": "AI, Decision & Knowledge Systems", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc1
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc2
 
-Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/mothercode-research-engine/#calculation
+Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/adaptive-neurodynamics-engineering-platform/#calculation
 

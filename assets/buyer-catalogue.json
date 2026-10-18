@@ -324,18 +324,18 @@
         "research"
       ],
       "summary": "Explore how adaptive learning and memory affect decisions in controlled research experiments.",
-      "overview": "An adaptive cognition research runtime for accountable learning and memory studies.",
+      "overview": "An experimental cognitive runtime for adaptation, memory and sequential decision studies, with an optional local neural backend and explicit worker-admission controls.",
       "potentialBuyers": [
         "AI research teams",
         "Cognition research groups",
         "Scientific software vendors"
       ],
       "capabilities": [
-        "Study adaptation and memory",
-        "Compare planned outcomes",
-        "Review uncertainty",
-        "Run sequential-task experiments",
-        "Recover retained research sessions"
+        "Compare adaptation and sequential-task outcomes",
+        "Study neural reconstruction and cross-modal alignment",
+        "Replay and consolidate learned representations",
+        "Retain portable neural state and research sessions",
+        "Apply bounded opt-in capability-worker admission"
       ],
       "outputTypes": [
         "Learning-study records",
@@ -345,9 +345,9 @@
       "maturity": "Developed software",
       "maturityNote": "Existing software offered for evaluation against an agreed use and delivery scope.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 225000,
+      "askingReferenceEUR": 227500,
       "materialBoundaries": [
-        "Computational cognition research. Sentience and human-equivalent performance are not established capabilities."
+        "No AGI capability is established. Worker processes are not a hostile-code kernel/container sandbox; execution requires explicit admission."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -531,18 +531,18 @@
         "specialist"
       ],
       "summary": "Compare ground-vehicle concepts and assess design choices before committing to further engineering work.",
-      "overview": "A ground-vehicle analysis foundation for repeatable concept studies and reference comparisons.",
+      "overview": "An offline C++ engineering-analysis foundation for ground-vehicle concept comparisons, cumulative scenario-sequence energy and deterministic multi-node thermal networks.",
       "potentialBuyers": [
         "Vehicle engineering teams",
         "Simulation vendors",
         "Engineering consultancies"
       ],
       "capabilities": [
-        "Compare mobility and energy concepts",
-        "Review structural and wear observations",
-        "Assess uncertainty",
-        "Compare predictions with supplied reference data",
-        "Retain qualification records"
+        "Compare mobility, source-energy and uncertainty assumptions",
+        "Accumulate scenario duration, distance and energy",
+        "Model thermal nodes, conductive links and fixed boundaries",
+        "Inspect energy-balance residuals and stability guards",
+        "Export deterministic text, JSON and residual records"
       ],
       "outputTypes": [
         "Concept comparisons",
@@ -552,9 +552,9 @@
       "maturity": "Prototype",
       "maturityNote": "A prototype offered for evaluation and continued development; production acceptance is separate.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 55000,
+      "askingReferenceEUR": 56000,
       "materialBoundaries": [
-        "Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately."
+        "The scope is offline, nonoperational analysis. Field reliability, manufacturing feasibility, real subsystem performance and physical qualification are not established."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -634,18 +634,18 @@
         "mobility"
       ],
       "summary": "Explore mission scenarios, compare routes and examine planning assumptions before real-world deployment.",
-      "overview": "An aerospace mission simulation product for route comparisons and uncertainty-aware studies.",
+      "overview": "A deterministic mission research simulator with route and fault studies, robust planning and a lumped battery model linking charge, resistive losses, temperature and available propulsion power.",
       "potentialBuyers": [
         "Aerospace research groups",
         "Mission-planning software vendors",
         "Vehicle engineering teams"
       ],
       "capabilities": [
-        "Simulate mission scenarios",
-        "Compare route choices",
-        "Review energy margins",
-        "Study modelled sensor and actuator faults",
-        "Retain supervisory event histories"
+        "Simulate mission, route and fault scenarios",
+        "Compare robust planning and energy margins",
+        "Model charge-dependent voltage and resistive loss",
+        "Propagate thermal and low-charge power derating",
+        "Retain deterministic battery and supervisory histories"
       ],
       "outputTypes": [
         "Mission comparisons",
@@ -655,9 +655,9 @@
       "maturity": "Developed software",
       "maturityNote": "Existing software offered for evaluation against an agreed use and delivery scope.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 215000,
+      "askingReferenceEUR": 216500,
       "materialBoundaries": [
-        "Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately."
+        "This is research/software-in-the-loop scope. Battery qualification, real-aircraft performance, operational flight evidence and aircraft certification are not established."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -791,18 +791,18 @@
         "specialist"
       ],
       "summary": "Compare recovery options when your network is disrupted, and review the evidence behind each choice.",
-      "overview": "A resilience research asset for comparing recovery choices under network disruption.",
+      "overview": "A deterministic network-resilience research platform for comparing disruption and repair portfolios, shared damaged-network baselines, budget constraints and failure-domain assurance.",
       "potentialBuyers": [
         "Infrastructure engineering teams",
         "Network research groups",
         "Resilience consultancies"
       ],
       "capabilities": [
-        "Create controlled disruption studies",
-        "Compare recovery alternatives",
-        "Assess uncertainty",
-        "Review reasons for selected actions",
-        "Retain repeatable evaluation records"
+        "Compare deterministic disruption and repair portfolios",
+        "Plan bounded repair shortcuts and zero-budget cases",
+        "Review shared network-efficiency baselines",
+        "Apply failure-domain policies and uncertainty checks",
+        "Replay release and provenance evidence"
       ],
       "outputTypes": [
         "Recovery comparisons",
@@ -812,10 +812,9 @@
       "maturity": "Developed software",
       "maturityNote": "Existing software offered for evaluation against an agreed use and delivery scope.",
       "availability": "Scope and transfer review required",
-      "askingReferenceEUR": 95000,
+      "askingReferenceEUR": 97500,
       "materialBoundaries": [
-        "Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately.",
-        "The delivery perimeter and transfer requirements need further review before terms can be finalised."
+        "Network simulations and deterministic software checks do not establish universal optimisation, physical resilience or biological/clinical effects."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -895,18 +894,18 @@
         "industrial"
       ],
       "summary": "Evaluate recovery options when a system degrades, and examine whether continuity can be preserved.",
-      "overview": "A resilience research asset for controlled recovery when systems degrade.",
+      "overview": "An adaptation and continuity research framework with source-bound evidence qualification, a separate dual-attestation authorization protocol and canonical typed evidence contracts.",
       "potentialBuyers": [
         "Reliability software vendors",
         "Systems research teams",
         "Platform engineering groups"
       ],
       "capabilities": [
-        "Detect modelled degradation",
-        "Preserve a trusted operating scope",
-        "Study recovery choices",
-        "Review continuity conditions",
-        "Retain conformance and execution evidence"
+        "Study bounded degradation and continuity recovery",
+        "Bind target-specific evidence and qualification lineage",
+        "Require distinct Guardian and Operator attestations",
+        "Use explicit signature-verifier and replay-guard contracts",
+        "Encode canonical evidence and retain immutable legacy bindings"
       ],
       "outputTypes": [
         "Recovery plans",
@@ -916,9 +915,9 @@
       "maturity": "Developed software",
       "maturityNote": "Existing software offered for evaluation against an agreed use and delivery scope.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 360000,
+      "askingReferenceEUR": 362000,
       "materialBoundaries": [
-        "Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately."
+        "The v0.24 qualification is source- and target-specific. General power-loss durability, independent third-party reproduction, production key infrastructure and operational authorization are not established."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -989,27 +988,27 @@
     },
     {
       "ref": "TA-IP-042",
-      "slug": "axiomfactor",
-      "title": "AxiomFactor",
+      "slug": "quantum-cryptanalysis-engineering-platform",
+      "title": "Quantum Cryptanalysis Engineering Platform",
       "referenceName": "Hypatia",
       "categoryId": "physics-math-optimization",
       "buyerGroupIds": [
         "software",
         "research"
       ],
-      "summary": "Explore mathematical problems and compare computational approaches through controlled research studies.",
-      "overview": "A mathematical computing research product for controlled factorisation and feasibility studies.",
+      "summary": "Compare bounded factorisation experiments and quantum-resource engineering assumptions with reproducible research evidence.",
+      "overview": "QCEP is a research platform for bounded factorisation, resource-estimation scenarios, physical route/factory co-search and stochastic inventory studies with explicit calibration limits.",
       "potentialBuyers": [
         "Quantum-computing research teams",
         "Scientific software vendors",
         "Mathematical research groups"
       ],
       "capabilities": [
-        "Run bounded factorisation studies",
-        "Compare resource scenarios",
-        "Review timing and uncertainty assumptions",
-        "Explore feasible study configurations",
-        "Retain reproducible calculations"
+        "Run bounded factorisation and arithmetic studies",
+        "Compare physical routes, factories and corridor scenarios",
+        "Study stochastic inventory and refinement policies",
+        "Review held-out resource-model limitations",
+        "Reproduce installed CLI and package-parity checks"
       ],
       "outputTypes": [
         "Feasibility reports",
@@ -1019,9 +1018,9 @@
       "maturity": "Developed software",
       "maturityNote": "Existing software offered for evaluation against an agreed use and delivery scope.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 150000,
+      "askingReferenceEUR": 152000,
       "materialBoundaries": [
-        "Mathematical research software. Practical quantum advantage and commercial factorisation performance are not established."
+        "No calibrated QPU forecast, ECDLP/secp256k1 circuit, real-wallet targeting capability, universal hardware advantage or completed post-quantum security assessment is established."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -1033,10 +1032,10 @@
         "Personal, customer and author content, private accounts and credentials",
         "Future development, hosting, hardware, support and operating businesses unless expressly agreed"
       ],
-      "profileUrl": "https://thearchitect-max.github.io/MyProjects/projects/axiomfactor/",
-      "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/axiomfactor/",
-      "factsheetUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/axiomfactor/factsheet.pdf",
-      "briefUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/axiomfactor/product-brief.md"
+      "profileUrl": "https://thearchitect-max.github.io/MyProjects/projects/quantum-cryptanalysis-engineering-platform/",
+      "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/quantum-cryptanalysis-engineering-platform/",
+      "factsheetUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/quantum-cryptanalysis-engineering-platform/factsheet.pdf",
+      "briefUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/quantum-cryptanalysis-engineering-platform/product-brief.md"
     },
     {
       "ref": "TA-IP-077",
@@ -1412,18 +1411,18 @@
         "assurance"
       ],
       "summary": "Explore privacy-conscious ways to route and access information in controlled research settings.",
-      "overview": "A confidential-access research asset for studying privacy-oriented information routing.",
+      "overview": "A privacy-oriented database research foundation with restart and authenticated journal studies, AEAD persistence, external rollback-guard contracts and controlled security-bootstrap interfaces.",
       "potentialBuyers": [
         "Privacy research groups",
         "Secure-storage developers",
         "Academic security teams"
       ],
       "capabilities": [
-        "Study confidential record access",
-        "Compare routing scenarios",
-        "Review repeated-query behaviour",
-        "Retain restart and continuity studies",
-        "Record research limitations"
+        "Study confidential access and routing primitives",
+        "Retain authenticated journal and restart research",
+        "Evaluate AEAD persistence and key rotation",
+        "Bind external rollback and qualification contracts",
+        "Exercise an HTTPS/mTLS monotonic-counter adapter"
       ],
       "outputTypes": [
         "Research comparisons",
@@ -1433,9 +1432,9 @@
       "maturity": "Prototype",
       "maturityNote": "A prototype offered for evaluation and continued development; production acceptance is separate.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 115000,
+      "askingReferenceEUR": 116000,
       "materialBoundaries": [
-        "Privacy-oriented research software. Security suitability for an operational deployment requires a dedicated review."
+        "The private-fetch access-pattern primitive remains unresolved. ORAM/PIR/DPF and shadow components are research/reference scope; this is not a qualified production private database."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -1518,18 +1517,18 @@
         "assurance"
       ],
       "summary": "Review content and supporting evidence so you can make more accountable integrity decisions.",
-      "overview": "A content-integrity product for reviewable source collection and evidence handling.",
+      "overview": "A content-integrity evidence platform with controlled review workspaces, attributable receipts, signed trust-bundle distribution and signer/custody governance.",
       "potentialBuyers": [
         "Content assurance vendors",
         "Research publishers",
         "Evidence software teams"
       ],
       "capabilities": [
-        "Organise isolated review workspaces",
-        "Collect permitted source evidence",
-        "Retain content histories",
-        "Review attributable receipts",
-        "Prepare controlled evidence packages"
+        "Organise isolated content-evidence workspaces",
+        "Review attributable content and custody receipts",
+        "Distribute signed trust bundles with rollback/fork checks",
+        "Govern signer permissions, rotation and revocation",
+        "Retain bounded evidence and recovery packages"
       ],
       "outputTypes": [
         "Integrity findings",
@@ -1539,9 +1538,9 @@
       "maturity": "Developed software",
       "maturityNote": "Existing software offered for evaluation against an agreed use and delivery scope.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 400000,
+      "askingReferenceEUR": 402500,
       "materialBoundaries": [
-        "Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately."
+        "Provider interfaces include file/callback boundaries. A concrete vendor HSM/KMS SDK, independently qualified key custody and general content-truth guarantees are not established."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -1777,18 +1776,18 @@
         "research"
       ],
       "summary": "Organise reported visual experiences and compare study records for structured phenomenology research.",
-      "overview": "A computational research workbench for recorded visual phenomenology and controlled study evidence.",
+      "overview": "A phenomenology research and evidence platform combining controlled computational studies, governed observation intake, portable provenance packages and bounded scalar measurement adapters.",
       "potentialBuyers": [
         "Perception research groups",
         "Scientific data teams",
         "Research software vendors"
       ],
       "capabilities": [
-        "Organise phenomenology records",
-        "Run controlled computational studies",
-        "Retain calibration and review records",
-        "Compare declared hypotheses",
-        "Prepare attributable evidence packages"
+        "Organise governed observations and declared study plans",
+        "Apply scalar measurement contracts and unit conversions",
+        "Propagate standard uncertainty through affine transformations",
+        "Verify portable evidence capsules and observer-key histories",
+        "Retain reproducible computational and package checks"
       ],
       "outputTypes": [
         "Study dossiers",
@@ -1798,9 +1797,9 @@
       "maturity": "Developed software",
       "maturityNote": "Existing software offered for evaluation against an agreed use and delivery scope.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 210000,
+      "askingReferenceEUR": 213000,
       "materialBoundaries": [
-        "A research workbench for recorded visual phenomena and controlled study material; scientific interpretations require separate review."
+        "Metadata, provenance and scalar transformations do not authenticate empirical origin or establish neurobiology, causality, clinical effects or a physical interpretation."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -3382,8 +3381,8 @@
     },
     {
       "ref": "TA-IP-037",
-      "slug": "mothercode-research-engine",
-      "title": "MOTHERCODE Research Engine",
+      "slug": "adaptive-neurodynamics-engineering-platform",
+      "title": "Adaptive Neurodynamics Engineering Platform",
       "referenceName": "Eve",
       "categoryId": "adaptive-intelligence",
       "buyerGroupIds": [
@@ -3391,7 +3390,7 @@
         "research"
       ],
       "summary": "Explore learning and memory in brain-inspired research models and compare their observed behaviour.",
-      "overview": "An experimental neural-dynamics research asset for repeatable computational studies.",
+      "overview": "ANEP is an experimental spiking-neural-dynamics research asset with sparse topology and short-horizon memory studies. Agree the included development-branch source and historical evidence package explicitly.",
       "potentialBuyers": [
         "Computational neuroscience groups",
         "AI research teams",
@@ -3426,10 +3425,10 @@
         "Personal, customer and author content, private accounts and credentials",
         "Future development, hosting, hardware, support and operating businesses unless expressly agreed"
       ],
-      "profileUrl": "https://thearchitect-max.github.io/MyProjects/projects/mothercode-research-engine/",
-      "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/mothercode-research-engine/",
-      "factsheetUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/mothercode-research-engine/factsheet.pdf",
-      "briefUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/mothercode-research-engine/product-brief.md"
+      "profileUrl": "https://thearchitect-max.github.io/MyProjects/projects/adaptive-neurodynamics-engineering-platform/",
+      "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/adaptive-neurodynamics-engineering-platform/",
+      "factsheetUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/adaptive-neurodynamics-engineering-platform/factsheet.pdf",
+      "briefUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/adaptive-neurodynamics-engineering-platform/product-brief.md"
     },
     {
       "ref": "TA-IP-031",
@@ -3548,17 +3547,18 @@
         "specialist"
       ],
       "summary": "Manage collectible identities, editions and fictional narratives while keeping physical facts and review decisions distinct.",
-      "overview": "An object-independent collectible-registration and narrative-management prototype with edition controls, review workflows and supporting evidence records.",
+      "overview": "A local collectible-registry and narrative studio with edition limits, revision-bound editorial review, fictional canon/world graphs, multilingual consistency and publication-quality gates.",
       "potentialBuyers": [
         "Collectible registry software teams",
         "Narrative product studios",
         "Independent collection operators"
       ],
       "capabilities": [
-        "Register collections, editions and individual objects",
-        "Manage fictional narratives separately from factual descriptions",
-        "Review narrative continuity and fictional world histories",
-        "Maintain supporting evidence and recovery packages"
+        "Register collectible identities and edition limits",
+        "Keep fictional narrative and physical facts distinct",
+        "Bind editorial decisions to narrative revisions",
+        "Review canon, multilingual consistency and text reuse",
+        "Retain deterministic histories and recovery packages"
       ],
       "outputTypes": [
         "Collectible and edition records",
@@ -3568,9 +3568,9 @@
       "maturity": "Prototype",
       "maturityNote": "A prototype offered for evaluation and continued development; production acceptance is separate.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 9000,
+      "askingReferenceEUR": 10500,
       "materialBoundaries": [
-        "A local collectible-registry prototype with fictional narratives. Public commerce, payments, physical stock and independently certified ownership are excluded."
+        "Text checks are not semantic entailment, plagiarism detection or translation-quality certification. Physical stock, third-party fiction, commerce, payments and hosted accounts are separately scoped."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -3700,18 +3700,18 @@
         "research"
       ],
       "summary": "Keep earlier software decisions accessible so your team can review precedents when planning new changes.",
-      "overview": "An organisational memory product for software-change history and precedent-led decisions.",
+      "overview": "A governed organisational memory and software-change review engine with precedent retrieval, acceptance decisions, durable recovery freshness, trust-store contracts and offline release evidence.",
       "potentialBuyers": [
         "Engineering organisations",
         "Developer-tool vendors",
         "Enterprise knowledge teams"
       ],
       "capabilities": [
-        "Retain software-change history",
-        "Retrieve relevant precedents",
-        "Review change risk",
-        "Govern candidate acceptance",
-        "Track recovery and review decisions"
+        "Retrieve attributable software-change precedents",
+        "Govern candidate acceptance and recovery decisions",
+        "Enforce recovery evidence freshness",
+        "Review trust-store and release consistency",
+        "Run the offline release qualification gate"
       ],
       "outputTypes": [
         "Precedent records",
@@ -3721,9 +3721,9 @@
       "maturity": "Developed software",
       "maturityNote": "Existing software offered for evaluation against an agreed use and delivery scope.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 700000,
+      "askingReferenceEUR": 703000,
       "materialBoundaries": [
-        "Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately."
+        "Governance records do not authorise production traffic or infrastructure. Provider API execution and public-key nonrepudiation are outside the demonstrated core."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -4061,18 +4061,18 @@
         "research"
       ],
       "summary": "Organise research programmes, manage review work and keep your study records accessible.",
-      "overview": "A research-programme coordination product for durable work records and human review.",
+      "overview": "An event-driven research orchestration platform with authenticated human review, durable PostgreSQL/outbox state, RabbitMQ workers, guarded dual-source synthesis and bounded operational observability.",
       "potentialBuyers": [
         "Research organisations",
         "Enterprise workflow vendors",
         "Programme-management teams"
       ],
       "capabilities": [
-        "Coordinate research work",
-        "Record review decisions",
-        "Retain programme state",
-        "Recover interrupted work",
-        "Observe bounded operational activity"
+        "Coordinate durable research and human approval workflows",
+        "Retain both source streams in review packages",
+        "Guard synthesis and untrusted-source boundaries",
+        "Track outbox retries and worker health",
+        "Generate live Docker qualification evidence bundles"
       ],
       "outputTypes": [
         "Programme histories",
@@ -4082,9 +4082,9 @@
       "maturity": "Developed software",
       "maturityNote": "Existing software offered for evaluation against an agreed use and delivery scope.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 280000,
+      "askingReferenceEUR": 282000,
       "materialBoundaries": [
-        "Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately."
+        "Evidence coverage is a structural measure, not a probability of truth. Provider results, source rights, target-environment security and operational acceptance require separate review."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -5097,17 +5097,18 @@
         "property"
       ],
       "summary": "Structure property and asset evidence, distinguish facts from assumptions, and prepare replacement-cost summaries.",
-      "overview": "A property-evidence software foundation for organising buildings, rooms, contents and supporting records.",
+      "overview": "A local property-evidence core with hierarchical asset records, structured CSV/JSON ingestion, explicit observation types, replacement-cost ranges and deterministic reconciliation exports.",
       "potentialBuyers": [
         "Property documentation software teams",
         "Insurance evidence specialists",
         "Facilities and estate inventory teams"
       ],
       "capabilities": [
-        "Organise property, floor, room and asset records",
-        "Associate supplied evidence with recorded observations",
-        "Distinguish observed facts, declarations and inferences",
-        "Prepare replacement-cost ranges and export summaries"
+        "Organise property, floor, room and asset hierarchies",
+        "Import structured evidence with unit and currency normalization",
+        "Distinguish observations, declarations and inferences",
+        "Review duplicate candidates and deterministic identities",
+        "Export evidence graphs and replacement-cost ranges"
       ],
       "outputTypes": [
         "Property and contents registers",
@@ -5117,9 +5118,9 @@
       "maturity": "Prototype",
       "maturityNote": "A prototype offered for evaluation and continued development; production acceptance is separate.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 4000,
+      "askingReferenceEUR": 6000,
       "materialBoundaries": [
-        "A supplied-evidence property prototype. Automatic image extraction, certified property appraisal and verified insurance values are not established."
+        "Opaque document registration does not establish trained vision, automatic document understanding, sensor-derived property truth or an insurance appraisal."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -5610,18 +5611,18 @@
         "research"
       ],
       "summary": "Compare AI research results and examine ECG learning studies through repeatable evaluation.",
-      "overview": "An experimental AI research asset with governed cardiac-signal studies.",
+      "overview": "An AI and ECG research engine with checkpoint provenance, subject-safe training, repeated-seed governance and a locked external-generalisation protocol.",
       "potentialBuyers": [
         "AI research groups",
         "Cardiac-signal research teams",
         "Scientific software vendors"
       ],
       "capabilities": [
-        "Run controlled benchmark studies",
-        "Record data provenance",
-        "Compare research outcomes",
-        "Review cardiac-signal evaluation",
-        "Assess external generalisation"
+        "Run controlled AI and ECG benchmark studies",
+        "Recover compatible checkpoints with trainer guards",
+        "Retain subject-safe training and threshold records",
+        "Apply locked external-generalisation contracts",
+        "Report provenance and descriptive research results"
       ],
       "outputTypes": [
         "Benchmark records",
@@ -5633,7 +5634,7 @@
       "availability": "Available for acquisition discussion",
       "askingReferenceEUR": 260000,
       "materialBoundaries": [
-        "AI and cardiac-signal research software. Clinical performance and medical acceptance remain separate."
+        "Clinical validity, patient-care suitability, regulatory approval and superiority to third-party models are not established by engineering governance."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",

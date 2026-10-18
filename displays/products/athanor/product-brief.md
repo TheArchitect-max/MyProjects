@@ -6,7 +6,7 @@ Compare recovery options when your network is disrupted, and review the evidence
 
 ## Product overview
 
-A resilience research asset for comparing recovery choices under network disruption.
+A deterministic network-resilience research platform for comparing disruption and repair portfolios, shared damaged-network baselines, budget constraints and failure-domain assurance.
 
 ## Potential acquirers
 
@@ -16,11 +16,11 @@ A resilience research asset for comparing recovery choices under network disrupt
 
 ## Documented functions
 
-- Create controlled disruption studies
-- Compare recovery alternatives
-- Assess uncertainty
-- Review reasons for selected actions
-- Retain repeatable evaluation records
+- Compare deterministic disruption and repair portfolios
+- Plan bounded repair shortcuts and zero-budget cases
+- Review shared network-efficiency baselines
+- Apply failure-domain policies and uncertainty checks
+- Replay release and provenance evidence
 
 ## Available output types
 
@@ -34,12 +34,11 @@ Developed software. Existing software offered for evaluation against an agreed u
 
 Scope and transfer review required.
 
-- Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately.
-- The delivery perimeter and transfer requirements need further review before terms can be finalised.
+- Network simulations and deterministic software checks do not establish universal optimisation, physical resilience or biological/clinical effects.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 95,000.
+Seller asking reference: EUR 97,500.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -69,29 +68,40 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 3.5.0
+Identified product edition: 3.7.0
 
 Handover position: Scope closure required
 
-Available software for evaluation against your intended use. Deployment suitability is assessed separately.
+A deterministic network-resilience research platform for comparing disruption and repair portfolios, shared damaged-network baselines, budget constraints and failure-domain assurance.
 
 ### Priced first-party scope
 
-Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+Specifically agreed first-party implementation, documentation and retained evidence for 3.7.0. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.
+
+### Edition-specific evidence
+
+The retained v3.7.0 release manifest and Colab replay audit record 74/74 checks PASS, including seven embedded provenance checks. This is version-specific software/research evidence, not independent field validation.
+
+
+
+### Intended qualification
+
+Reproduce representative failure-domain and repair-budget cases in the buyer environment and retain negative comparisons where an external baseline performs better.
+
+- Network simulations and deterministic software checks do not establish universal optimisation, physical resilience or biological/clinical effects.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
 | Technical scope | V | Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance. |
-| Evidence and validation | E1 | Tests or structured evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results. |
+| Evidence and validation | E3 | The retained v3.7.0 release manifest and Colab replay audit record 74/74 checks PASS, including seven embedded provenance checks. This is version-specific software/research evidence, not independent field validation. |
 | Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. This grade concerns documented rights evidence. Missing documentation does not establish that first-party ownership is absent. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. A published asking reference does not establish a completed sale, income or an independent appraisal. |
 | Delivery and handover | T1 | Implementation exists but core transfer evidence is incomplete. Your agreed delivery scope and the conditions below govern acceptance. |
 
 ### Conditions before handover
 
-- Repository-native tests not identified.
 - Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
 - A detailed component inventory and licensing report are required for the agreed delivery scope.
 - A security assessment or an explicit statement of its absence is required before acceptance.
@@ -99,8 +109,8 @@ Seller-owned first-party rights plus specifically agreed transferable software/d
 
 ### Qualification objectives
 
-- Agree a source-specific delivery edition and evaluate the documented functions against your intended use.
-- Close the listed technical, rights and handover conditions before recipient acceptance.
+- Reproduce representative failure-domain and repair-budget cases in the buyer environment and retain negative comparisons where an external baseline performs better.
+- Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance.
 - Independent legal ownership/title opinion not performed by this internal audit.
 - Freedom-to-operate legal opinion not performed unless separately evidenced.
 - Independent penetration test not assumed unless separately evidenced.
@@ -131,24 +141,24 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-17. All amounts in EUR. Market value is not established.
+Basis: 2026-10-18. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 95,000 | 106,904 |
-| Negotiation reference - low | 75,000 | 84,398 |
-| Negotiation reference - high | 120,000 | 135,036 |
-| Recreation cost estimate | 520,000 | 585,156 |
-| Marketability cost scenario | 382,200 | 430,090 |
-| Monetisation cost scenario | 265,200 | 298,430 |
-| Risk-adjusted strategic reference | 130,891 | 147,292 |
-| Weighted economic reference | 305,292 | 343,545 |
+| Seller asking reference | 97,500 | 109,717 |
+| Negotiation reference - low | 77,000 | 86,648 |
+| Negotiation reference - high | 123,000 | 138,412 |
+| Recreation cost estimate | 532,500 | 599,222 |
+| Marketability cost scenario | 391,388 | 440,429 |
+| Monetisation cost scenario | 271,575 | 305,603 |
+| Risk-adjusted strategic reference | 134,037 | 150,832 |
+| Weighted economic reference | 312,631 | 351,804 |
 
 USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
-- Negotiation reference - low: Lower end of the previously published indicative negotiation range.
-- Negotiation reference - high: Upper end of the previously published indicative negotiation range.
+- Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
+- Negotiation reference - high: Upper end of the indicative seller negotiation range for the defined AS IS asset.
 - Recreation cost estimate: Seller estimate to reproduce comparable present work; not recorded expenditure or an established market value.
 - Marketability cost scenario: Cost-based model scenario; no observed comparable IP sale is used.
 - Monetisation cost scenario: Cost-based model scenario; no attributable income, royalty valuation or DCF is established.
@@ -161,7 +171,32 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+Recreation estimate: EUR 520,000 retained scope component plus EUR 12,500 for the explicitly scoped implementation work budget, giving EUR 532,500. The scoped budget assumes 120 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.
+
+#### Scoped implementation reproduction budget
+
+Deterministic repair planning and bounded shortcut allocation; Portfolio efficiency baselines and failure-domain policies; Release closure, provenance and replay regression.
+
+- Deterministic repair planning and bounded shortcut allocation — 48 assumed hours
+- Portfolio efficiency baselines and failure-domain policies — 32 assumed hours
+- Release closure, provenance and replay regression — 40 assumed hours
+
+- Assumed hours: 120
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 11,280
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 12,972
+- Adopted recreation increment: EUR 12,500
+- Previous recreation cost: EUR 520,000
+- Current recreation cost: EUR 532,500
+- Effort alternatives / Low hours: 120
+- Effort alternatives / Reference hours: 180
+- Effort alternatives / Extended hours: 240
+- Effort alternatives / Low cost: EUR 12,972
+- Effort alternatives / Reference cost: EUR 19,458
+- Effort alternatives / Extended cost: EUR 25,944
+
+Seller-selected equivalent reproduction effort for the expressly bounded implementation. These are not logged hours, elapsed development time or actual spending. EUR 94/hour is external rate context, not a minimum or quote; the 15% allowance is an assumption. The selected scenario is the lowest of these scoped scenarios, not an absolute cost floor. Candidate-only future features and unestablished qualification are excluded.
 
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
@@ -179,7 +214,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "V", "potential": "S", "sector": "Industrial & Infrastructure Software", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc1
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc2
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/athanor/#calculation
 

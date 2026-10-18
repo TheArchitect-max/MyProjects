@@ -38,10 +38,10 @@ def validate():
    assert url.path.startswith('/MyProjects/'),(relative,link);target=ROOT/unquote(url.path.removeprefix('/MyProjects/'))
    if target.is_dir() or url.path.endswith('/'):target=target/'index.html'
    assert target.is_file(),(relative,link);links+=1
- aliases=json.loads((ROOT/'assets/route-aliases.json').read_text())['aliases'];assert len(aliases)==6
+ aliases=json.loads((ROOT/'assets/route-aliases.json').read_text())['aliases'];assert len(aliases)==8
  for a in aliases:
   assert set(a)=={'ref','legacySlug','slug'}
   for folder in [ROOT/'projects',ROOT/'displays/products']:
    s=(folder/a['legacySlug']/'index.html').read_text();assert 'noindex,follow' in s and a['slug'] in s
- return dict(result='PASS',approvedPublicProjectRecords=108,perProjectSpecificBuyerProfiles=108,applicationAreas=12,buyerGroups=10,allowedHubDataFiles=7,internalDocumentDirectoryAbsent=True,legacyProfileAndDisplayRoutes=12,htmlPages=pages,internalLinks=links,missingTargets=0)
+ return dict(result='PASS',approvedPublicProjectRecords=108,perProjectSpecificBuyerProfiles=108,applicationAreas=12,buyerGroups=10,allowedHubDataFiles=7,internalDocumentDirectoryAbsent=True,legacyProfileAndDisplayRoutes=2*len(aliases),htmlPages=pages,internalLinks=links,missingTargets=0)
 if __name__=='__main__':print(json.dumps(validate(),indent=2))

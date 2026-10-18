@@ -113,7 +113,7 @@ Documentary indicators support initial diligence. Identified files do not establ
 
 - Dependency declaration: identified
 - Dependency lock record: not established in reviewed records
-- Component inventory artifact: not established in reviewed records
+- Component inventory artifact: identified
 - Licence notices: identified
 - Third-party disclosure: identified
 - Security documentation: not established in reviewed records
@@ -131,7 +131,7 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-16. All amounts in EUR. Market value is not established.
+Basis: 2026-10-18. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
@@ -147,8 +147,8 @@ Basis: 2026-10-16. All amounts in EUR. Market value is not established.
 USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
-- Negotiation reference - low: Lower end of the previously published indicative negotiation range.
-- Negotiation reference - high: Upper end of the previously published indicative negotiation range.
+- Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
+- Negotiation reference - high: Upper end of the indicative seller negotiation range for the defined AS IS asset.
 - Recreation cost estimate: Seller estimate to reproduce comparable present work; not recorded expenditure or an established market value.
 - Marketability cost scenario: Cost-based model scenario; no observed comparable IP sale is used.
 - Monetisation cost scenario: Cost-based model scenario; no attributable income, royalty valuation or DCF is established.
@@ -167,10 +167,14 @@ The recreation anchor combines an identified base with separately scoped impleme
 
 Provides operator case governance, cross-dossier evidence review, verifiable bundles/delivery records and bounded authorized local-document collection beyond the retained v5.9 scope. Rename-only edits receive no separate premium.
 
-- Senior engineer months: 3.0
+- Operator governance and cross-dossier review functions
+- Evidence bundles, delivery records and authorized document collection
+- Compatibility repairs, retained qualification and handover documentation
+
+- Senior engineer months: 3
 - Lead or specialist months: 0.75
 - Validation provenance months: 1.25
-- Assumed hours: 800.0
+- Assumed hours: 800
 - Raw engineering cost: EUR 90,500
 - With allowance: EUR 104,075
 - Adopted recreation increment: EUR 100,000
@@ -197,7 +201,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "P", "potential": "H", "sector": "AI, Decision & Knowledge Systems", "route": "B2B SaaS / enterprise software"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc1
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc2
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/evidence-intelligence-operations-platform/#calculation
 

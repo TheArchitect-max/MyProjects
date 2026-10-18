@@ -128,7 +128,7 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-17. All amounts in EUR. Market value is not established.
+Basis: 2026-10-18. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
@@ -144,8 +144,8 @@ Basis: 2026-10-17. All amounts in EUR. Market value is not established.
 USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
-- Negotiation reference - low: Lower end of the previously published indicative negotiation range.
-- Negotiation reference - high: Upper end of the previously published indicative negotiation range.
+- Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
+- Negotiation reference - high: Upper end of the indicative seller negotiation range for the defined AS IS asset.
 - Recreation cost estimate: Seller estimate to reproduce comparable present work; not recorded expenditure or an established market value.
 - Marketability cost scenario: Cost-based model scenario; no observed comparable IP sale is used.
 - Monetisation cost scenario: Cost-based model scenario; no attributable income, royalty valuation or DCF is established.
@@ -164,18 +164,22 @@ The EUR 797,000 recreation estimate consists of a EUR 780,000 base and a EUR 17,
 
 Provides coordinated single-writer runtime, fencing/idempotency controls, transparent scenario decisions and deterministic multi-source telemetry alignment with replayable provenance.
 
+- Single-writer coordination, fencing, runtime and install hardening — 48 assumed hours
+- Transparent decision layer and heterogeneous telemetry alignment — 64 assumed hours
+- Replay/provenance, regression checks and transfer documentation — 48 assumed hours
+
 - Assumed hours: 160
 - Hourly rate: EUR 94
 - Raw engineering cost: EUR 15,040
 - Coordination tooling allowance: 0.15
-- With allowance: EUR 17,296.0
+- With allowance: EUR 17,296
 - Adopted recreation increment: EUR 17,000
 - Effort alternatives / Low hours: 160
-- Effort alternatives / Reference hours: 240.0
+- Effort alternatives / Reference hours: 240
 - Effort alternatives / Extended hours: 320
-- Effort alternatives / Low cost: EUR 17,296.0
-- Effort alternatives / Reference cost: EUR 25,944.0
-- Effort alternatives / Extended cost: EUR 34,592.0
+- Effort alternatives / Low cost: EUR 17,296
+- Effort alternatives / Reference cost: EUR 25,944
+- Effort alternatives / Extended cost: EUR 34,592
 
 Hours and the 15% allowance are analyst assumptions for bounded reproduction with modern tooling. EUR 94 is a Dutch mean, not a minimum rate or a contractor quote. This is the lowest of the explicitly scoped working scenarios, not an absolute market or cost floor.
 
@@ -195,7 +199,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "V", "potential": "H", "sector": "Industrial & Infrastructure Software", "route": "Vertical SaaS / specialist software"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc1
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc2
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/universal-sensor-fusion-digital-twin-intelligence-platform/#calculation
 
