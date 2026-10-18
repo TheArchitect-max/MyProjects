@@ -3,106 +3,357 @@
   "basisDate": "2026-10-19",
   "purpose": "Seller-authored acquisition hypotheses for consideration by Elon Musk and appropriately authorised company evaluation teams. Company publications establish business context only; they do not evaluate these assets or establish buyer interest, affiliation, endorsement, integration or performance advantage.",
   "sources": [
-    {"id":"xai-structure","publisher":"xAI","title":"xAI joins SpaceX · 2 February 2026","url":"https://x.ai/news/xai-joins-spacex","context":"xAI announced that SpaceX had acquired it. The AI and aerospace routes are assessment workstreams within the SpaceX context, rather than independent corporate buyers.","limit":"A corporate event announcement; no THEARCHITECT_MAX acquisition interest or technical fit is established.","checkedOn":"2026-10-19"},
-    {"id":"grok-platform","publisher":"SpaceX Super Intelligence / Grok","title":"Grok developer platform overview","url":"https://docs.x.ai/overview","context":"The developer documentation describes reasoning, multimodal models, structured outputs and tool use. These activities provide context for evaluating independent orchestration, memory and evidence software.","limit":"Product documentation is not an assessment of the seller's software, a compatibility test or a licence to models or services.","checkedOn":"2026-10-19"},
-    {"id":"tesla-ai","publisher":"Tesla","title":"AI & Robotics","url":"https://www.tesla.com/AI","context":"Tesla describes vehicle and robot autonomy, perception, planning, efficient inference and simulation-based evaluation infrastructure.","limit":"Published engineering activities do not disclose an internal procurement need or establish suitability, vehicle safety or deployment acceptance for an offered asset.","checkedOn":"2026-10-19"},
-    {"id":"spacex-mission","publisher":"SpaceX","title":"Launch, spaceflight and Starship overview","url":"https://www.spacex.com/","context":"SpaceX presents launch services, human spaceflight and development of Starship for orbital and deep-space transportation.","limit":"Company mission context only. No flight-model validation, hardware compatibility, mission participation or certification of seller software is implied.","checkedOn":"2026-10-19"},
-    {"id":"starlink-network","publisher":"SpaceX / Starlink","title":"Improving Starlink's Latency · engineering note","url":"https://starlink.com/public-files/StarlinkLatency.pdf","context":"This historical engineering note discusses network topology, routing, scheduling, congestion, queueing and subsystem measurements as contributors to latency.","limit":"The note describes a historical engineering programme, not current service metrics. It supports the problem domain, not a claim that generic research software improves Starlink.","checkedOn":"2026-10-19"},
-    {"id":"neuralink-technology","publisher":"Neuralink","title":"Technology overview","url":"https://neuralink.com/technology/","context":"Neuralink describes an implantable brain-computer interface, neural-signal processing and decoding signals into computer-control actions.","limit":"A company's BCI programme does not establish biological validity, implant compatibility, clinical utility or medical approval of computational research assets.","checkedOn":"2026-10-19"},
-    {"id":"boring-prufrock","publisher":"The Boring Company","title":"Prufrock","url":"https://www.boringcompany.com/prufrock","context":"The company describes tunnel-boring equipment, continuous mining and remote operation from its operations centre.","limit":"Manufacturer descriptions do not qualify seller software for machinery control, geology, tunnel design or safety-critical operations.","checkedOn":"2026-10-19"},
-    {"id":"boring-loop","publisher":"The Boring Company","title":"Loop","url":"https://www.boringcompany.com/loop","context":"Loop is presented as underground passenger transportation with stations and an operational control centre.","limit":"Public transportation context only. No capacity, safety, civil-engineering or operational improvement is attributed to the offered assets.","checkedOn":"2026-10-19"}
+    {
+      "id": "xai-structure",
+      "publisher": "xAI",
+      "title": "xAI joins SpaceX · 2 February 2026",
+      "url": "https://x.ai/news/xai-joins-spacex",
+      "context": "xAI announced that SpaceX had acquired it. The AI and aerospace routes are assessment workstreams within the SpaceX context, rather than independent corporate buyers.",
+      "limit": "A corporate event announcement; no THEARCHITECT_MAX acquisition interest or technical fit is established.",
+      "checkedOn": "2026-10-19"
+    },
+    {
+      "id": "grok-platform",
+      "publisher": "SpaceX Super Intelligence / Grok",
+      "title": "Grok developer platform overview",
+      "url": "https://docs.x.ai/overview",
+      "context": "The developer documentation describes reasoning, multimodal models, structured outputs and tool use. These activities provide context for evaluating independent orchestration, memory and evidence software.",
+      "limit": "Product documentation is not an assessment of the seller's software, a compatibility test or a licence to models or services.",
+      "checkedOn": "2026-10-19"
+    },
+    {
+      "id": "tesla-ai",
+      "publisher": "Tesla",
+      "title": "AI & Robotics",
+      "url": "https://www.tesla.com/AI",
+      "context": "Tesla describes vehicle and robot autonomy, perception, planning, efficient inference and simulation-based evaluation infrastructure.",
+      "limit": "Published engineering activities do not disclose an internal procurement need or establish suitability, vehicle safety or deployment acceptance for an offered asset.",
+      "checkedOn": "2026-10-19"
+    },
+    {
+      "id": "spacex-mission",
+      "publisher": "SpaceX",
+      "title": "Launch, spaceflight and Starship overview",
+      "url": "https://www.spacex.com/",
+      "context": "SpaceX presents launch services, human spaceflight and development of Starship for orbital and deep-space transportation.",
+      "limit": "Company mission context only. No flight-model validation, hardware compatibility, mission participation or certification of seller software is implied.",
+      "checkedOn": "2026-10-19"
+    },
+    {
+      "id": "starlink-network",
+      "publisher": "SpaceX / Starlink",
+      "title": "Improving Starlink's Latency · engineering note",
+      "url": "https://starlink.com/public-files/StarlinkLatency.pdf",
+      "context": "This historical engineering note discusses network topology, routing, scheduling, congestion, queueing and subsystem measurements as contributors to latency.",
+      "limit": "The note describes a historical engineering programme, not current service metrics. It supports the problem domain, not a claim that generic research software improves Starlink.",
+      "checkedOn": "2026-10-19"
+    },
+    {
+      "id": "neuralink-technology",
+      "publisher": "Neuralink",
+      "title": "Technology overview",
+      "url": "https://neuralink.com/technology/",
+      "context": "Neuralink describes an implantable brain-computer interface, neural-signal processing and decoding signals into computer-control actions.",
+      "limit": "A company's BCI programme does not establish biological validity, implant compatibility, clinical utility or medical approval of computational research assets.",
+      "checkedOn": "2026-10-19"
+    },
+    {
+      "id": "boring-prufrock",
+      "publisher": "The Boring Company",
+      "title": "Prufrock",
+      "url": "https://www.boringcompany.com/prufrock",
+      "context": "The company describes tunnel-boring equipment, continuous mining and remote operation from its operations centre.",
+      "limit": "Manufacturer descriptions do not qualify seller software for machinery control, geology, tunnel design or safety-critical operations.",
+      "checkedOn": "2026-10-19"
+    },
+    {
+      "id": "boring-loop",
+      "publisher": "The Boring Company",
+      "title": "Loop",
+      "url": "https://www.boringcompany.com/loop",
+      "context": "Loop is presented as underground passenger transportation with stations and an operational control centre.",
+      "limit": "Public transportation context only. No capacity, safety, civil-engineering or operational improvement is attributed to the offered assets.",
+      "checkedOn": "2026-10-19"
+    }
   ],
   "workstreams": [
     {
-      "id":"ai","company":"SpaceX · xAI / Grok","title":"Governed AI & engineering memory","position":"Core evaluation route",
-      "companyContext":"Grok's developer platform spans reasoning, multimodal models and tool use. xAI announced its acquisition by SpaceX on 2 February 2026.",
-      "buyerQuestion":"Could independent memory, resource coordination and evidence controls improve a defined internal AI research or engineering workflow?",
-      "proposal":"Assess modular first-party research and governance software against a buyer-selected task. Begin with reproducibility, attributable decisions and constrained execution before considering any platform integration.",
-      "boundary":"No AGI, Grok integration, frontier-model advantage or access to company models, infrastructure or training data is established. Model and service entitlements are separate.",
-      "reviewPlan":["Select one permitted workload and compare against the buyer's existing approach using agreed quality, latency, resource and recovery measures.","Review the exact offered edition, dependency and model provenance, execution permissions and reproducible failure cases.","Define any adapter work and first-party rights in a separate delivery schedule; accept the software before operational use."],
-      "sourceIds":["xai-structure","grok-platform"],
-      "members":[
-        {"ref":"TA-IP-070","fit":"Study bounded adaptation, memory consolidation and retained neural state as an independent cognitive research component.","evaluation":"Compare sequential-task retention, forgetting and recovery on declared workloads; inspect opt-in worker admission.","scopeNote":"Experimental cognitive runtime. No AGI is established; admitted workers are not contained by a hostile-code sandbox."},
-        {"ref":"TA-IP-022","fit":"Evaluate workload placement, capacity reservation and recovery decisions across explicitly authorised compute resources.","evaluation":"Measure placement overhead and recovery on the buyer's permitted hardware; distinguish retained single-device evidence from open multi-host and multi-GPU gates.","scopeNote":"The baseline and development candidate have distinct scopes. Physical multi-GPU, two-host recovery and live containment qualification remain open."},
-        {"ref":"TA-IP-019","fit":"Keep engineering precedents, acceptance decisions and recovery evidence attributable and available for review.","evaluation":"Test retrieval relevance, evidence freshness, durable recovery and access boundaries using authorised software-change cases.","scopeNote":"Governed software-change memory. Records do not authorise production actions; external provider execution is outside the demonstrated core."},
-        {"ref":"TA-IP-053","fit":"Compare specialist reasoning paths and inspect contradictions and supporting evidence before accepting an analytical result.","evaluation":"Use buyer-supplied cases with adjudicated answers to assess grounding, disagreement handling and reproducibility.","scopeNote":"The validated baseline and separately scoped candidate must be distinguished. No advantage over the buyer's models is established."},
-        {"ref":"TA-IP-028","fit":"Explore resource-bounded generation and revision workflows with retained project state and configurable review conditions.","evaluation":"Measure interruption recovery, task quality and resource use under explicit model and service permissions.","scopeNote":"A development-branch release candidate; production and provider qualification require separate acceptance."},
-        {"ref":"TA-IP-018","fit":"Evaluate explicit authorisation and attributable state transitions around bounded software execution requests.","evaluation":"Review denial cases, permission boundaries, replay integrity and the exact actions a proposed adapter could authorise.","scopeNote":"An independent control-software evaluation. No connection to Grok tools or live company infrastructure is delivered."}
+      "id": "ai",
+      "company": "SpaceX · xAI / Grok",
+      "title": "Governed AI & engineering memory",
+      "position": "Core evaluation route",
+      "companyContext": "Grok's developer platform spans reasoning, multimodal models and tool use. xAI announced its acquisition by SpaceX on 2 February 2026.",
+      "buyerQuestion": "Could independent memory, resource coordination and evidence controls improve a defined internal AI research or engineering workflow?",
+      "proposal": "Assess modular first-party research and governance software against a buyer-selected task. Begin with reproducibility, attributable decisions and constrained execution before considering any platform integration.",
+      "boundary": "No AGI, Grok integration, frontier-model advantage or access to company models, infrastructure or training data is established. Model and service entitlements are separate.",
+      "reviewPlan": [
+        "Select one permitted workload and compare against the buyer's existing approach using agreed quality, latency, resource and recovery measures.",
+        "Review the exact offered edition, dependency and model provenance, execution permissions and reproducible failure cases.",
+        "Define any adapter work and first-party rights in a separate delivery schedule; accept the software before operational use."
+      ],
+      "sourceIds": [
+        "xai-structure",
+        "grok-platform"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-070",
+          "fit": "Study bounded adaptation, memory consolidation and retained neural state as an independent cognitive research component.",
+          "evaluation": "Compare sequential-task retention, forgetting and recovery on declared workloads; inspect opt-in worker admission.",
+          "scopeNote": "Experimental cognitive runtime. No AGI is established; admitted workers are not contained by a hostile-code sandbox."
+        },
+        {
+          "ref": "TA-IP-022",
+          "fit": "Evaluate workload placement, capacity reservation and recovery decisions across explicitly authorised compute resources.",
+          "evaluation": "Measure placement overhead and recovery on the buyer's permitted hardware; distinguish retained single-device evidence from open multi-host and multi-GPU gates.",
+          "scopeNote": "The baseline and development candidate have distinct scopes. Physical multi-GPU, two-host recovery and live containment qualification remain open."
+        },
+        {
+          "ref": "TA-IP-019",
+          "fit": "Keep engineering precedents, acceptance decisions and recovery evidence attributable and available for review.",
+          "evaluation": "Test retrieval relevance, evidence freshness, durable recovery and access boundaries using authorised software-change cases.",
+          "scopeNote": "Governed software-change memory. Records do not authorise production actions; external provider execution is outside the demonstrated core."
+        },
+        {
+          "ref": "TA-IP-053",
+          "fit": "Compare specialist reasoning paths and inspect contradictions and supporting evidence before accepting an analytical result.",
+          "evaluation": "Use buyer-supplied cases with adjudicated answers to assess grounding, disagreement handling and reproducibility.",
+          "scopeNote": "The validated baseline and separately scoped candidate must be distinguished. No advantage over the buyer's models is established."
+        },
+        {
+          "ref": "TA-IP-028",
+          "fit": "Explore resource-bounded generation and revision workflows with retained project state and configurable review conditions.",
+          "evaluation": "Measure interruption recovery, task quality and resource use under explicit model and service permissions.",
+          "scopeNote": "A development-branch release candidate; production and provider qualification require separate acceptance."
+        },
+        {
+          "ref": "TA-IP-018",
+          "fit": "Evaluate explicit authorisation and attributable state transitions around bounded software execution requests.",
+          "evaluation": "Review denial cases, permission boundaries, replay integrity and the exact actions a proposed adapter could authorise.",
+          "scopeNote": "An independent control-software evaluation. No connection to Grok tools or live company infrastructure is delivered."
+        }
       ]
     },
     {
-      "id":"tesla","company":"Tesla","title":"Autonomy, robotics & reliability research","position":"Core evaluation route",
-      "companyContext":"Tesla describes autonomy for vehicles and robots, perception and planning, efficient inference and open- and closed-loop evaluation infrastructure.",
-      "buyerQuestion":"Could selected research and evidence components improve the comparison, traceability or fault coverage of a bounded engineering study?",
-      "proposal":"Offer a small, reproducible research evaluation around model studies, supplied sensor records and simulated failure scenarios. Establish incremental engineering value on representative permitted data.",
-      "boundary":"These assets are not delivered FSD or Optimus components. No vehicle control, robot deployment, functional-safety certification or production readiness is implied.",
-      "reviewPlan":["Choose one offline perception, model-adaptation, telemetry or equipment-condition case and document the buyer's baseline.","Compare representative data quality, uncertainty, reproducibility, failure coverage and recovery; retain negative results.","Treat hardware interfaces, safety engineering and operational acceptance as separately scoped work before any physical deployment."],
-      "sourceIds":["tesla-ai"],
-      "members":[
-        {"ref":"TA-IP-013","fit":"Compare model-adaptation studies and inspect the evidence used to promote a training candidate.","evaluation":"Reproduce the offered alpha edition on an agreed model study; verify adapter, resume and promotion behaviour independently.","scopeNote":"Model-training research software. Earlier GPU evidence is version-specific and external adapter qualification remains open."},
-        {"ref":"TA-IP-016","fit":"Organise supplied signal series, align observations and retain traceable processing and recovery results.","evaluation":"Test representative sensor rates, temporal alignment, missing records, retry behaviour and domain-specific accuracy.","scopeNote":"Supplied-series reference software; live-instrument and automotive domain acceptance are not established."},
-        {"ref":"TA-IP-003","fit":"Compare coupled service failures, degraded conditions and defensive resource choices in controlled reliability scenarios.","evaluation":"Calibrate a permitted scenario and distinguish measured workload traces from simulated controller responses.","scopeNote":"Engineering and simulation scope. Environment-specific calibration, full dependency tests and operational acceptance remain separate."},
-        {"ref":"TA-IP-052","fit":"Examine multimodal perception experiments with retained source provenance and controlled scientific-claim promotion.","evaluation":"Compare declared conditions and representative perception benchmarks, including uncertainty and adverse cases.","scopeNote":"Feature-specific research evidence does not establish vehicle perception performance or biological equivalence."},
-        {"ref":"TA-IP-025","fit":"Replay multi-source observations and inspect state uncertainty, telemetry alignment and bounded digital-twin decisions.","evaluation":"Exercise ordering, fencing, idempotency and recovery on supplied telemetry; compare the model with buyer-approved physical references.","scopeNote":"The priced baseline excludes the separate hardening candidate. Physical-system and production qualification are separate."},
-        {"ref":"TA-IP-059","fit":"Compare equipment-condition models and remaining-life estimates for manufacturing or maintenance research.","evaluation":"Use representative machine histories to test error, calibration, false alarms and robustness to data drift.","scopeNote":"Condition and remaining-life research software. Equipment-specific predictive performance requires data and acceptance."}
+      "id": "tesla",
+      "company": "Tesla",
+      "title": "Autonomy, robotics & reliability research",
+      "position": "Core evaluation route",
+      "companyContext": "Tesla describes autonomy for vehicles and robots, perception and planning, efficient inference and open- and closed-loop evaluation infrastructure.",
+      "buyerQuestion": "Could selected research and evidence components improve the comparison, traceability or fault coverage of a bounded engineering study?",
+      "proposal": "Offer a small, reproducible research evaluation around model studies, supplied sensor records and simulated failure scenarios. Establish incremental engineering value on representative permitted data.",
+      "boundary": "These assets are not delivered FSD or Optimus components. No vehicle control, robot deployment, functional-safety certification or production readiness is implied.",
+      "reviewPlan": [
+        "Choose one offline perception, model-adaptation, telemetry or equipment-condition case and document the buyer's baseline.",
+        "Compare representative data quality, uncertainty, reproducibility, failure coverage and recovery; retain negative results.",
+        "Treat hardware interfaces, safety engineering and operational acceptance as separately scoped work before any physical deployment."
+      ],
+      "sourceIds": [
+        "tesla-ai"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-013",
+          "fit": "Compare model-adaptation studies and inspect the evidence used to promote a training candidate.",
+          "evaluation": "Reproduce the offered alpha edition on an agreed model study; verify adapter, resume and promotion behaviour independently.",
+          "scopeNote": "Model-training research software. Earlier GPU evidence is version-specific and external adapter qualification remains open."
+        },
+        {
+          "ref": "TA-IP-016",
+          "fit": "Organise supplied signal series, align observations and retain traceable processing and recovery results.",
+          "evaluation": "Test representative sensor rates, temporal alignment, missing records, retry behaviour and domain-specific accuracy.",
+          "scopeNote": "Supplied-series reference software; live-instrument and automotive domain acceptance are not established."
+        },
+        {
+          "ref": "TA-IP-003",
+          "fit": "Compare coupled service failures, degraded conditions and defensive resource choices in controlled reliability scenarios.",
+          "evaluation": "Calibrate a permitted scenario and distinguish measured workload traces from simulated controller responses.",
+          "scopeNote": "Engineering and simulation scope. Environment-specific calibration, full dependency tests and operational acceptance remain separate."
+        },
+        {
+          "ref": "TA-IP-052",
+          "fit": "Examine multimodal perception experiments with retained source provenance and controlled scientific-claim promotion.",
+          "evaluation": "Compare declared conditions and representative perception benchmarks, including uncertainty and adverse cases.",
+          "scopeNote": "Feature-specific research evidence does not establish vehicle perception performance or biological equivalence."
+        },
+        {
+          "ref": "TA-IP-025",
+          "fit": "Replay multi-source observations and inspect state uncertainty, telemetry alignment and bounded digital-twin decisions.",
+          "evaluation": "Exercise ordering, fencing, idempotency and recovery on supplied telemetry; compare the model with buyer-approved physical references.",
+          "scopeNote": "The priced baseline excludes the separate hardening candidate. Physical-system and production qualification are separate."
+        },
+        {
+          "ref": "TA-IP-059",
+          "fit": "Compare equipment-condition models and remaining-life estimates for manufacturing or maintenance research.",
+          "evaluation": "Use representative machine histories to test error, calibration, false alarms and robustness to data drift.",
+          "scopeNote": "Condition and remaining-life research software. Equipment-specific predictive performance requires data and acceptance."
+        }
       ]
     },
     {
-      "id":"space","company":"SpaceX","title":"Mission studies & aerospace evidence","position":"Core evaluation route",
-      "companyContext":"SpaceX's public programme covers launches, human spaceflight and Starship transportation for orbital and deep-space applications.",
-      "buyerQuestion":"Could existing mission-study, observation and requirements software contribute useful, reproducible evidence to a defined early engineering question?",
-      "proposal":"Evaluate the software as research and planning work product. Separate observation replay, conceptual transport studies and electric-flight models; each requires its own intended-use assessment.",
-      "boundary":"No Starship integration, rocket propulsion model, flight-qualified software, launch hardware or certified mission capability is offered by this mapping. Electric-flight models are an adjacent research route.",
-      "reviewPlan":["Define a bounded research question and buyer-approved reference cases; distinguish transport concepts, observations and aircraft models.","Review physical assumptions, uncertainty, units, deterministic replay and validation against appropriate independent models.","Agree parent/module rights, source editions, hardware exclusions and acceptance evidence before any acquisition schedule is executed."],
-      "sourceIds":["spacex-mission"],
-      "members":[
-        {"ref":"TA-IP-030","fit":"Study deterministic mission, route and fault scenarios with battery, thermal and supervisory histories.","evaluation":"Compare the specific electric-flight and energy models with approved references and sensitivity cases.","scopeNote":"Software-in-the-loop research. The battery and aircraft models are not validated rocket or spacecraft propulsion models."},
-        {"ref":"TA-IP-001","fit":"Organise aerospace observations and replay evidence comparisons while preserving uncertainty and declared geometry.","evaluation":"Distinguish the baseline from the research candidate; independently assess calibration, geometry and cross-modality interpretation.","scopeNote":"Observation-research software, not a launch vehicle or mission controller. Calibrated field and mission performance remain open."},
-        {"ref":"TA-IP-032","fit":"Compare electric-flight control and energy assumptions as an adjacent aerospace simulation research asset.","evaluation":"Check the available model against independent reference cases and identify any reusable first-party simulation components.","scopeNote":"Electric-flight simulation only. No rocket, Starship, spacecraft or physical-aircraft qualification is established."},
-        {"ref":"TA-IP-098","fit":"Review conceptual launch and cislunar transport architectures, route assumptions and logistics decision evidence.","evaluation":"Assess the baseline transport studies and expressly distinguish the unmerged refuelling/departure draft from the included edition.","scopeNote":"FusionLunar transport module. Parent/module delivery and rights require explicit allocation; completed joint integration and flight qualification are not established."},
-        {"ref":"TA-IP-104","fit":"Turn a defined engineering objective into reviewed requirements, dependencies, work packages and planning reports.","evaluation":"Trace a supplied mission requirement through dependencies and blockers; independently assess the feasibility of the resulting plan.","scopeNote":"Local planning prototype. Review labels are declarations, not scientific or operational certification; handover documentation remains open."}
+      "id": "space",
+      "company": "SpaceX",
+      "title": "Mission studies & aerospace evidence",
+      "position": "Core evaluation route",
+      "companyContext": "SpaceX's public programme covers launches, human spaceflight and Starship transportation for orbital and deep-space applications.",
+      "buyerQuestion": "Could existing mission-study, observation and requirements software contribute useful, reproducible evidence to a defined early engineering question?",
+      "proposal": "Evaluate the software as research and planning work product. Separate observation replay, conceptual transport studies and electric-flight models; each requires its own intended-use assessment.",
+      "boundary": "No Starship integration, rocket propulsion model, flight-qualified software, launch hardware or certified mission capability is offered by this mapping. Electric-flight models are an adjacent research route.",
+      "reviewPlan": [
+        "Define a bounded research question and buyer-approved reference cases; distinguish transport concepts, observations and aircraft models.",
+        "Review physical assumptions, uncertainty, units, deterministic replay and validation against appropriate independent models.",
+        "Agree parent/module rights, source editions, hardware exclusions and acceptance evidence before any acquisition schedule is executed."
+      ],
+      "sourceIds": [
+        "spacex-mission"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-030",
+          "fit": "Study deterministic mission, route and fault scenarios with battery, thermal and supervisory histories.",
+          "evaluation": "Compare the specific electric-flight and energy models with approved references and sensitivity cases.",
+          "scopeNote": "Software-in-the-loop research. The battery and aircraft models are not validated rocket or spacecraft propulsion models."
+        },
+        {
+          "ref": "TA-IP-001",
+          "fit": "Organise aerospace observations and replay evidence comparisons while preserving uncertainty and declared geometry.",
+          "evaluation": "Distinguish the baseline from the research candidate; independently assess calibration, geometry and cross-modality interpretation.",
+          "scopeNote": "Observation-research software, not a launch vehicle or mission controller. Calibrated field and mission performance remain open."
+        },
+        {
+          "ref": "TA-IP-032",
+          "fit": "Compare electric-flight control and energy assumptions as an adjacent aerospace simulation research asset.",
+          "evaluation": "Check the available model against independent reference cases and identify any reusable first-party simulation components.",
+          "scopeNote": "Electric-flight simulation only. No rocket, Starship, spacecraft or physical-aircraft qualification is established."
+        },
+        {
+          "ref": "TA-IP-098",
+          "fit": "Review conceptual launch and cislunar transport architectures, route assumptions and logistics decision evidence.",
+          "evaluation": "Assess the baseline transport studies and expressly distinguish the unmerged refuelling/departure draft from the included edition.",
+          "scopeNote": "FusionLunar transport module. Parent/module delivery and rights require explicit allocation; completed joint integration and flight qualification are not established."
+        },
+        {
+          "ref": "TA-IP-104",
+          "fit": "Turn a defined engineering objective into reviewed requirements, dependencies, work packages and planning reports.",
+          "evaluation": "Trace a supplied mission requirement through dependencies and blockers; independently assess the feasibility of the resulting plan.",
+          "scopeNote": "Local planning prototype. Review labels are declarations, not scientific or operational certification; handover documentation remains open."
+        }
       ]
     },
     {
-      "id":"starlink","company":"Starlink · SpaceX","title":"Network resilience & distributed continuity","position":"Adjacent engineering route",
-      "companyContext":"Starlink's published latency engineering note discusses topology, scheduling, routing, queueing and subsystem measurements in a satellite internet network.",
-      "buyerQuestion":"Could generic resilience and continuity research tools help compare a permitted network scenario or distributed software workflow?",
-      "proposal":"Begin with buyer-supplied topology and synthetic failure cases, then evaluate the limits of translating generic software models to the specific network domain.",
-      "boundary":"No satellite control, radio-frequency model, Starlink routing adapter, orbital network calibration or service improvement is demonstrated. The historical source supplies problem context, not current metrics.",
-      "reviewPlan":["Agree permitted topology, workload and failure-domain assumptions; measure the internal reference method.","Compare repair portfolios, session recovery and state consistency under repeatable disruptions and constrained budgets.","Require authorised interfaces, representative measurements and network-specific validation before considering any production use."],
-      "sourceIds":["spacex-mission","starlink-network"],
-      "members":[
-        {"ref":"TA-IP-002","fit":"Compare network disruption and repair portfolios with explicit budgets, failure domains and uncertainty checks.","evaluation":"Assess a buyer-supplied topology against its baseline repair strategy, including degraded cases and zero-budget constraints.","scopeNote":"Deterministic network-resilience research; no calibrated Starlink constellation or universal optimisation claim."},
-        {"ref":"TA-IP-082","fit":"Study authorised worker coordination, bounded reconnect and session continuity in a distributed software setting.","evaluation":"Test mutual-authentication boundaries, lease expiry, heartbeats and recovery on an isolated permitted environment.","scopeNote":"Reference worker software. Loopback evidence does not establish remote fleet, accelerator, orbital or provider qualification."},
-        {"ref":"TA-IP-004","fit":"Review attributable state changes and contradictory records across replayable disruption histories.","evaluation":"Exercise stale records, duplicate events, conflicting state and recovery against a defined buyer acceptance contract.","scopeNote":"State-integrity evaluation software. It is not a delivered telecommunications control-plane integration."}
+      "id": "starlink",
+      "company": "Starlink · SpaceX",
+      "title": "Network resilience & distributed continuity",
+      "position": "Adjacent engineering route",
+      "companyContext": "Starlink's published latency engineering note discusses topology, scheduling, routing, queueing and subsystem measurements in a satellite internet network.",
+      "buyerQuestion": "Could generic resilience and continuity research tools help compare a permitted network scenario or distributed software workflow?",
+      "proposal": "Begin with buyer-supplied topology and synthetic failure cases, then evaluate the limits of translating generic software models to the specific network domain.",
+      "boundary": "No satellite control, radio-frequency model, Starlink routing adapter, orbital network calibration or service improvement is demonstrated. The historical source supplies problem context, not current metrics.",
+      "reviewPlan": [
+        "Agree permitted topology, workload and failure-domain assumptions; measure the internal reference method.",
+        "Compare repair portfolios, session recovery and state consistency under repeatable disruptions and constrained budgets.",
+        "Require authorised interfaces, representative measurements and network-specific validation before considering any production use."
+      ],
+      "sourceIds": [
+        "spacex-mission",
+        "starlink-network"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-002",
+          "fit": "Compare network disruption and repair portfolios with explicit budgets, failure domains and uncertainty checks.",
+          "evaluation": "Assess a buyer-supplied topology against its baseline repair strategy, including degraded cases and zero-budget constraints.",
+          "scopeNote": "Deterministic network-resilience research; no calibrated Starlink constellation or universal optimisation claim."
+        },
+        {
+          "ref": "TA-IP-082",
+          "fit": "Study authorised worker coordination, bounded reconnect and session continuity in a distributed software setting.",
+          "evaluation": "Test mutual-authentication boundaries, lease expiry, heartbeats and recovery on an isolated permitted environment.",
+          "scopeNote": "Reference worker software. Loopback evidence does not establish remote fleet, accelerator, orbital or provider qualification."
+        },
+        {
+          "ref": "TA-IP-004",
+          "fit": "Review attributable state changes and contradictory records across replayable disruption histories.",
+          "evaluation": "Exercise stale records, duplicate events, conflicting state and recovery against a defined buyer acceptance contract.",
+          "scopeNote": "State-integrity evaluation software. It is not a delivered telecommunications control-plane integration."
+        }
       ]
     },
     {
-      "id":"neuralink","company":"Neuralink","title":"Computational neuroscience research","position":"Exploratory research route",
-      "companyContext":"Neuralink describes an implantable brain-computer interface and neural-signal processing used to decode intended computer-control actions.",
-      "buyerQuestion":"Do the computational experiments offer any reproducible research utility before considering a relationship to biological signals or BCI work?",
-      "proposal":"Offer computational models for independent neuroscience review. Begin with synthetic or appropriately authorised nonclinical study material and bounded experimental questions.",
-      "boundary":"No implant, decoder compatibility, biological equivalence, clinical performance, patient benefit or medical approval is established. These are computational research assets.",
-      "reviewPlan":["Have qualified domain reviewers select a reproducible computational question and independent comparison models.","Reproduce the exact research baseline, experimental assumptions, sensitivity and negative results; review data rights.","Treat any biological, human-subject, medical-device or clinical work as a separate programme with its own approvals and evidence."],
-      "sourceIds":["neuralink-technology"],
-      "members":[
-        {"ref":"TA-IP-077","fit":"Explore repeatable neural-dynamics and active-inference studies with interventions and robustness comparisons.","evaluation":"Reproduce controlled computational cases against independent models; distinguish the retained baseline from the candidate awaiting validation.","scopeNote":"Computational simulation. No biological equivalence, implant integration or clinical outcome is claimed."},
-        {"ref":"TA-IP-037","fit":"Compare learning and memory behaviour in declared neural-dynamics experiments and retained benchmark records.","evaluation":"Review experimental source and reproducibility separately from the historical priced evidence package.","scopeNote":"Experimental development-branch research. The historical and candidate editions require explicit separation in the delivery terms."}
+      "id": "neuralink",
+      "company": "Neuralink",
+      "title": "Computational neuroscience research",
+      "position": "Exploratory research route",
+      "companyContext": "Neuralink describes an implantable brain-computer interface and neural-signal processing used to decode intended computer-control actions.",
+      "buyerQuestion": "Do the computational experiments offer any reproducible research utility before considering a relationship to biological signals or BCI work?",
+      "proposal": "Offer computational models for independent neuroscience review. Begin with synthetic or appropriately authorised nonclinical study material and bounded experimental questions.",
+      "boundary": "No implant, decoder compatibility, biological equivalence, clinical performance, patient benefit or medical approval is established. These are computational research assets.",
+      "reviewPlan": [
+        "Have qualified domain reviewers select a reproducible computational question and independent comparison models.",
+        "Reproduce the exact research baseline, experimental assumptions, sensitivity and negative results; review data rights.",
+        "Treat any biological, human-subject, medical-device or clinical work as a separate programme with its own approvals and evidence."
+      ],
+      "sourceIds": [
+        "neuralink-technology"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-077",
+          "fit": "Explore repeatable neural-dynamics and active-inference studies with interventions and robustness comparisons.",
+          "evaluation": "Reproduce controlled computational cases against independent models; distinguish the retained baseline from the candidate awaiting validation.",
+          "scopeNote": "Computational simulation. No biological equivalence, implant integration or clinical outcome is claimed."
+        },
+        {
+          "ref": "TA-IP-037",
+          "fit": "Compare learning and memory behaviour in declared neural-dynamics experiments and retained benchmark records.",
+          "evaluation": "Review experimental source and reproducibility separately from the historical priced evidence package.",
+          "scopeNote": "Experimental development-branch research. The historical and candidate editions require explicit separation in the delivery terms."
+        }
       ]
     },
     {
-      "id":"boring","company":"The Boring Company","title":"Industrial evidence & operations studies","position":"Adjacent engineering route",
-      "companyContext":"The company describes Prufrock tunnel-boring machines and remote operations, alongside Loop underground transportation and stations.",
-      "buyerQuestion":"Could independent evidence, machinery simulation and planning tools improve review of a bounded industrial or operations scenario?",
-      "proposal":"Evaluate supplied materials evidence, simulated machinery faults and offline resource plans. Test whether these generic components add value to an agreed industrial study.",
-      "boundary":"No tunnel design, subsurface detection, Prufrock control, civil-engineering safety case or operational Loop integration is delivered. Real machinery and transport operation require separate qualification.",
-      "reviewPlan":["Choose one permitted industrial scenario and supply representative evidence, constraints and reference outcomes.","Review provenance, fault interpretation, plan feasibility and uncertainty against the company's existing assessment method.","Separate conceptual studies from civil engineering, geotechnical measurement and physical control; agree rights and safety acceptance explicitly."],
-      "sourceIds":["boring-prufrock","boring-loop"],
-      "members":[
-        {"ref":"TA-IP-043","fit":"Organise supplied subsurface-material evidence, qualification decisions and provenance for a review package.","evaluation":"Test traceability and consistency using independently identified materials and authorised records.","scopeNote":"Evidence qualification, not physical subsurface identification, geological measurement or a tunnelling sensor."},
-        {"ref":"TA-IP-010","fit":"Explore simulated rotating-machine conditions and faults with explanatory diagnostic histories.","evaluation":"Compare fault scenarios with equipment-specific reference data and document model limits.","scopeNote":"Machinery simulation and diagnostic demonstrations; no Prufrock interface or field diagnostic accuracy is established."},
-        {"ref":"TA-IP-102","fit":"Model resources, prerequisites, capacity and deadlines, then compare offline operational plans before authorisation.","evaluation":"Test scheduling constraints and blocked cases against an agreed industrial-planning baseline.","scopeNote":"Offline operations-planning prototype. Production authentication, live operations and autonomous execution remain future work."},
-        {"ref":"TA-IP-096","fit":"Compose linked system studies and compare how declared changes propagate through an industrial scenario.","evaluation":"Test local model composition, observation histories and scenario reproducibility against domain-specific reference cases.","scopeNote":"Connected-system modelling prototype. Physical prediction, cross-domain accuracy and acquisition handover need further review."}
+      "id": "boring",
+      "company": "The Boring Company",
+      "title": "Industrial evidence & operations studies",
+      "position": "Adjacent engineering route",
+      "companyContext": "The company describes Prufrock tunnel-boring machines and remote operations, alongside Loop underground transportation and stations.",
+      "buyerQuestion": "Could independent evidence, machinery simulation and planning tools improve review of a bounded industrial or operations scenario?",
+      "proposal": "Evaluate supplied materials evidence, simulated machinery faults and offline resource plans. Test whether these generic components add value to an agreed industrial study.",
+      "boundary": "No tunnel design, subsurface detection, Prufrock control, civil-engineering safety case or operational Loop integration is delivered. Real machinery and transport operation require separate qualification.",
+      "reviewPlan": [
+        "Choose one permitted industrial scenario and supply representative evidence, constraints and reference outcomes.",
+        "Review provenance, fault interpretation, plan feasibility and uncertainty against the company's existing assessment method.",
+        "Separate conceptual studies from civil engineering, geotechnical measurement and physical control; agree rights and safety acceptance explicitly."
+      ],
+      "sourceIds": [
+        "boring-prufrock",
+        "boring-loop"
+      ],
+      "members": [
+        {
+          "ref": "TA-IP-043",
+          "fit": "Organise supplied subsurface-material evidence, qualification decisions and provenance for a review package.",
+          "evaluation": "Test traceability and consistency using independently identified materials and authorised records.",
+          "scopeNote": "Evidence qualification, not physical subsurface identification, geological measurement or a tunnelling sensor."
+        },
+        {
+          "ref": "TA-IP-010",
+          "fit": "Explore simulated rotating-machine conditions and faults with explanatory diagnostic histories.",
+          "evaluation": "Compare fault scenarios with equipment-specific reference data and document model limits.",
+          "scopeNote": "Machinery simulation and diagnostic demonstrations; no Prufrock interface or field diagnostic accuracy is established."
+        },
+        {
+          "ref": "TA-IP-102",
+          "fit": "Model resources, prerequisites, capacity and deadlines, then compare offline operational plans before authorisation.",
+          "evaluation": "Test scheduling constraints and blocked cases against an agreed industrial-planning baseline.",
+          "scopeNote": "Offline operations-planning prototype. Production authentication, live operations and autonomous execution remain future work."
+        },
+        {
+          "ref": "TA-IP-096",
+          "fit": "Compose connected-system scenarios and examine bounded offline forecast studies for a supplied industrial research question.",
+          "evaluation": "Reproduce local model composition and chronological forecast studies; assess predictors, abstention and empirical intervals against representative domain references.",
+          "scopeNote": "Developer-research prototype. Independent physical prediction, field calibration, cross-domain accuracy and handover remain open. Existing cost references retain the disclosed v0.6 scope."
+        }
       ]
     }
   ]

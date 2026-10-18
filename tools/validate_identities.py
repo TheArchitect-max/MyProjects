@@ -40,18 +40,30 @@ def validate(snapshot=None):
  if snapshot:
   audit=json.loads(snapshot.read_text());records=audit['assets'];repo_ids={a['repositoryId'] for a in records}
   assert len(records)==len(repo_ids)==108 and {r['ref'] for r in records}==set(by_ref)
-  assert len(audit['publicationRepositories'])==2 and audit['repositoryCount']==108+len(audit['publicationRepositories'])+len(audit.get('uninitializedRepositories',[]))
+  assert len(audit['publicationRepositories'])==3 and audit['repositoryCount']==108+len(audit['publicationRepositories'])+len(audit.get('uninitializedRepositories',[]))
+  assert not audit.get('uninitializedRepositories'), 'Unclassified or uninitialized repositories require review'
+  assert len({p['repositoryId'] for p in audit['publicationRepositories']})==3
+  assert not repo_ids.intersection(p['repositoryId'] for p in audit['publicationRepositories'])
+  editions={p['ref']:p for p in json.loads((ROOT/'assets/buyer-dossiers.json').read_text())['projects']}
   for r in records:
    a=by_ref[r['ref']];i=r['identity']
    assert (i['portfolioReference'],i['canonicalProjectName'],i['feminineReferenceName'])==(a['ref'],a['title'],a['referenceName'])
    assert i['repository']['id']==r['repositoryId'] and i['repository']['fullName']==r['fullName']
    assert i['publicPresentation']=={'profileUrl':a['profileUrl'],'displayUrl':a['displayUrl']}
    assert r['readmeCurrentReferences']==[a['ref']] and r['readmeFeminineName']==a['referenceName']
+   assert all(re.fullmatch(r'[0-9a-f]{40}',r[k]) for k in ['headSha','treeSha','identityFileSha','readmeSha'])
+   if r.get('packageVersion'):
+    assert r['packageVersion'].lower().lstrip('v') in editions[a['ref']]['version'].lower(), (a['ref'],'website edition differs from reviewed source metadata')
    source_count+=1
   for p in audit['publicationRepositories']:
-   i=json.loads((ROOT/'PUBLICATION_IDENTITY.json').read_text()) if p['name']=='MyProjects' else json.loads((ROOT.parent/'Projects-Displays/PUBLICATION_IDENTITY.json').read_text())
-   assert i['repository']['id']==p['repositoryId'] and i['isOfferedIPAsset'] is False and i['portfolioReference'] is None
- return dict(result='PASS',assetIdentities=108,uniqueFeminineNames=108,displayAndDossierLinks=216,pdfIdentitiesChecked=108,briefIdentitiesChecked=108,identityCsvRows=108,sourceRepositoryIdentitiesChecked=source_count,publicationRepositoriesExcludedFromAssetCount=2,consecutiveNumbering=True,identifierGaps=[],legacyContributionRoutesRedirect=True)
+   i=p['identity']
+   assert i['schema']=='thearchitect-publication-identity-1' and i['repository']['id']==p['repositoryId'] and i['repository']['fullName']==p['fullName']
+   assert i['isOfferedIPAsset'] is False and i['portfolioReference'] is None and i['feminineReferenceName'] is None
+   assert i['role'] in {'seller-offered-asset-catalogue','project-display-library','confidential-strategic-ip-acquisition-dossier'}
+   if p['name'] in ['MyProjects','Projects-Displays']:
+    local=ROOT if p['name']=='MyProjects' else ROOT.parent/'Projects-Displays'
+    assert json.loads((local/'PUBLICATION_IDENTITY.json').read_text())==i
+ return dict(result='PASS',assetIdentities=108,uniqueFeminineNames=108,displayAndDossierLinks=216,pdfIdentitiesChecked=108,briefIdentitiesChecked=108,identityCsvRows=108,sourceRepositoryIdentitiesChecked=source_count,publicationRepositoriesExcludedFromAssetCount=3,consecutiveNumbering=True,identifierGaps=[],legacyContributionRoutesRedirect=True)
 
 if __name__=='__main__':
  p=argparse.ArgumentParser(description=__doc__);p.add_argument('--repository-snapshot',type=Path);a=p.parse_args();print(json.dumps(validate(a.repository_snapshot),indent=2))
