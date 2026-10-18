@@ -37,7 +37,7 @@ Prototype. The 0.6.0 / R5 local reference source passed its 130-test repository 
 
 Available for acquisition discussion.
 
-- Text checks are not semantic entailment, plagiarism detection or translation-quality certification. Physical stock, third-party fiction, commerce, payments and hosted accounts are separately scoped.
+- Text checks are not semantic entailment, plagiarism detection or translation-quality certification. Physical stock, third-party fiction, production commerce, real payments and hosted accounts are separately scoped.
 - Commerce functions use simulated transaction states. Real payments and production commerce are not activated.
 - Financial references retain their disclosed registry, assurance and R4 cost basis; agree the R5 delivery scope and any separate consideration expressly.
 
@@ -79,7 +79,7 @@ Handover position: Conditional handover
 
 A local collectible-registry and narrative studio with edition limits, revision-bound editorial review and fictional canon/world graphs. R5 adds simulated order, inventory, fulfilment, return, refund and ledger workflows with idempotency and financial invariants. All 130 repository tests passed locally for the reviewed source; production and real payments remain outside this research/reference scope.
 
-Separately scoped development: R5 commerce-domain implementation in the local reference application; real payments and production remain unactivated.
+Separately scoped development: R5 commerce-domain implementation in the local reference application; real payments and production remain unactivated
 
 ### Priced first-party scope
 
@@ -107,8 +107,8 @@ The eight retained financial references use the existing registry, assurance and
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | P | An object-independent local SQLite registry and studio with edition limits, narrative checks, fictional world graph, deterministic replay, keyed checkpoints, evidence custody and verified backup/restore. |
-| Evidence and validation | E2 | Retained R4/v0.5 evidence records 108/108 Python tests PASS, including 84 earlier regression cases and 24 R4 domain/HTTP cases, plus Python and JavaScript syntax checks. Reviewer identities are synthetic fixtures; human editorial and browser acceptance are separate. |
+| Technical scope | P | The local 0.6 / R5 reference source combines collectible and edition registration, narrative/editorial controls, assurance records and simulated order, inventory, return, refund and ledger workflows. Real payments and production operation remain outside the current scope. |
+| Evidence and validation | E2 | The reviewed 0.6 / R5 source passed all 130 local repository tests, including simulated commerce, financial invariants and earlier narrative/editorial regressions, plus Python and JavaScript syntax checks. The retained R4 baseline records 108 tests. Independent operator, browser and production acceptance remain separate. |
 | Rights and component obligations | R1 | Proprietary declaration and repository notices reviewed; independent chain of title and freedom to operate remain unestablished. |
 | Commercial basis | C2 | Explicit low-effort cost assumptions and seller asking choice; no independently determined market or income value. |
 | Delivery and handover | T2 | Source, tests and instructions inspected; exact rights, manifest and recipient acceptance remain open. |
