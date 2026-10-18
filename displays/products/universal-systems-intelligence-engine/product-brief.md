@@ -79,7 +79,7 @@ Handover position: Scope closure required
 
 The 0.7.0 developer-research source combines connected-system simulation with fixed forecast tasks, chronological data splits, transparent CPU reference predictors, held-out error reports, empirical intervals and explicit abstention. All 128 repository tests passed in a local CPU environment for the reviewed source. Synthetic checks do not establish independent predictive or industrial qualification.
 
-Separately scoped development: Offline predictive-research edition; independent model, field-data and intended-use qualification remain open.
+Separately scoped development: Offline predictive-research edition; independent model, field-data and intended-use qualification remain open
 
 ### Priced first-party scope
 
@@ -102,8 +102,8 @@ The existing eight financial references retain the disclosed v0.6 reproduction b
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | P | Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance. |
-| Evidence and validation | E3 | Tests, validation and provenance/release evidence identified. The identified source version and tested scope govern these results; this is not independent certification. |
+| Technical scope | P | Current 0.7 developer-research source includes linked-system modelling, local co-simulation and fixed-task offline forecast studies with chronological separation, reference predictors, empirical intervals and abstention. Domain and physical prediction require independent qualification. |
+| Evidence and validation | E3 | The reviewed complete source passed 128 local CPU repository tests, compilation and a synthetic forecast example. Developer evidence is bounded to the recorded source and environment; representative field datasets and full independent model qualification remain open. |
 | Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the documented rights and exclusions for your transaction; no independent title opinion is established. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. This is a seller asking reference and assumption-based reproduction model, not a completed sale or independent appraisal. |
 | Delivery and handover | T1 | Implementation exists but core transfer evidence is incomplete. The listed conditions and agreed delivery scope govern acceptance. |
