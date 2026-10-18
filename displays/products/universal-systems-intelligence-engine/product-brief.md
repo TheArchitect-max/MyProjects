@@ -1,4 +1,4 @@
-# CAUSORYN
+# Universal-Systems-Intelligence-Engine
 
 TA-IP-097 | Reference name: Vespera | Operations, reliability & digital twins
 
@@ -57,9 +57,9 @@ Acquisition of the specifically agreed first-party work product and transferable
 
 ## Buyer information and enquiry
 
-Asset profile: https://thearchitect-max.github.io/MyProjects/projects/causoryn/
+Asset profile: https://thearchitect-max.github.io/MyProjects/projects/universal-systems-intelligence-engine/
 
-Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/causoryn/factsheet.pdf
+Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/universal-systems-intelligence-engine/factsheet.pdf
 
 Quote TA-IP-097 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
@@ -201,5 +201,5 @@ Calculation inputs: {"stage": "P", "potential": "M", "sector": "Industrial & Inf
 
 Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc2
 
-Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/causoryn/#calculation
+Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/universal-systems-intelligence-engine/#calculation
 
