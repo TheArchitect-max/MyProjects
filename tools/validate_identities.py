@@ -18,6 +18,7 @@ def validate(snapshot=None):
  catalogue=json.loads((ROOT/'assets/buyer-catalogue.json').read_text());assets=catalogue['projects'];by_ref={a['ref']:a for a in assets}
  assert len(assets)==len(by_ref)==len({a['referenceName'].casefold() for a in assets})==108
  assert all(re.fullmatch(r'TA-IP-\d{3}',a['ref']) for a in assets)
+ assert set(by_ref)=={'TA-IP-'+str(i).zfill(3) for i in range(1,109)},'Asset IDs must be consecutive TA-IP-001 through TA-IP-108'
  mapping=json.loads((ROOT/'displays/project-map.json').read_text())['projects'];maps={a['ref']:a for a in mapping};assert set(maps)==set(by_ref)
  with (ROOT/'displays/identity-register.csv').open(encoding='utf-8-sig',newline='') as f:csv_rows=list(csv.DictReader(f))
  rows={r['Asset_ID']:r for r in csv_rows};assert len(csv_rows)==len(rows)==108 and set(rows)==set(by_ref)
@@ -50,7 +51,7 @@ def validate(snapshot=None):
   for p in audit['publicationRepositories']:
    i=json.loads((ROOT/'PUBLICATION_IDENTITY.json').read_text()) if p['name']=='MyProjects' else json.loads((ROOT.parent/'Projects-Displays/PUBLICATION_IDENTITY.json').read_text())
    assert i['repository']['id']==p['repositoryId'] and i['isOfferedIPAsset'] is False and i['portfolioReference'] is None
- return dict(result='PASS',assetIdentities=108,uniqueFeminineNames=108,displayAndDossierLinks=216,pdfIdentitiesChecked=108,briefIdentitiesChecked=108,identityCsvRows=108,sourceRepositoryIdentitiesChecked=source_count,publicationRepositoriesExcludedFromAssetCount=2,identifierGapsRetained=[86],legacyContributionRoutesRedirect=True)
+ return dict(result='PASS',assetIdentities=108,uniqueFeminineNames=108,displayAndDossierLinks=216,pdfIdentitiesChecked=108,briefIdentitiesChecked=108,identityCsvRows=108,sourceRepositoryIdentitiesChecked=source_count,publicationRepositoriesExcludedFromAssetCount=2,consecutiveNumbering=True,identifierGaps=[],legacyContributionRoutesRedirect=True)
 
 if __name__=='__main__':
  p=argparse.ArgumentParser(description=__doc__);p.add_argument('--repository-snapshot',type=Path);a=p.parse_args();print(json.dumps(validate(a.repository_snapshot),indent=2))

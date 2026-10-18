@@ -1,6 +1,6 @@
 # Universal Operations Orchestration & Intelligence Platform
 
-TA-IP-103 | Reference name: Diana | Enterprise & commerce software
+TA-IP-102 | Reference name: Diana | Enterprise & commerce software
 
 Model your operations, compare resource and workflow scenarios, and review proposed decisions before authorising execution.
 
@@ -60,7 +60,7 @@ Asset profile: https://thearchitect-max.github.io/MyProjects/projects/universal-
 
 Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/universal-operations-orchestration-intelligence-platform/factsheet.pdf
 
-Quote TA-IP-103 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
+Quote TA-IP-102 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
 Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
 

@@ -1,6 +1,6 @@
 # Maastricht Digital Twin
 
-TA-IP-088 | Reference name: Mila | Operations, reliability & digital twins
+TA-IP-087 | Reference name: Mila | Operations, reliability & digital twins
 
 Explore Maastricht-based scenarios and compare mobility simulations in a local research workbench.
 
@@ -60,7 +60,7 @@ Asset profile: https://thearchitect-max.github.io/MyProjects/projects/maastricht
 
 Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/maastricht-digital-twin/factsheet.pdf
 
-Quote TA-IP-088 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
+Quote TA-IP-087 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
 Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
 

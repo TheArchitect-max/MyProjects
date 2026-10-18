@@ -1,6 +1,6 @@
 # Manuscript Integrity & Publishing Platform
 
-TA-IP-106 | Reference name: Euterpe | Audio, publishing & media
+TA-IP-105 | Reference name: Euterpe | Audio, publishing & media
 
 Write and assemble your chapters, track editorial evidence and defects, and prepare an author-approved manuscript for manual publication handoff.
 
@@ -60,7 +60,7 @@ Asset profile: https://thearchitect-max.github.io/MyProjects/projects/manuscript
 
 Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/manuscript-integrity-publishing-platform/factsheet.pdf
 
-Quote TA-IP-106 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
+Quote TA-IP-105 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
 Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
 

@@ -1,6 +1,6 @@
 # Universal Video Intelligence Platform
 
-TA-IP-101 | Reference name: Ophelia | Audio, publishing & media
+TA-IP-100 | Reference name: Ophelia | Audio, publishing & media
 
 Control your video viewing, keep and recover your own timecoded research notes, and turn reviewed observations into source-linked project investigations.
 
@@ -61,7 +61,7 @@ Asset profile: https://thearchitect-max.github.io/MyProjects/projects/universal-
 
 Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/universal-video-intelligence-platform/factsheet.pdf
 
-Quote TA-IP-101 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
+Quote TA-IP-100 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
 Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
 

@@ -1,6 +1,6 @@
 # Launch & Cislunar Transportation Engineering Platform
 
-TA-IP-099 | Reference name: Astrid | Aerospace & mobility engineering
+TA-IP-098 | Reference name: Astrid | Aerospace & mobility engineering
 
 Assess launch and lunar transport options for your FusionLunar studies, compare their assumptions and review the evidence needed for further engineering.
 
@@ -60,7 +60,7 @@ Asset profile: https://thearchitect-max.github.io/MyProjects/projects/launch-cis
 
 Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/launch-cislunar-transportation-engineering-platform/factsheet.pdf
 
-Quote TA-IP-099 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
+Quote TA-IP-098 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
 Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
 

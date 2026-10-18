@@ -1,6 +1,6 @@
 # Collective Reality Engine
 
-TA-IP-104 | Reference name: Calliope | Enterprise & commerce software
+TA-IP-103 | Reference name: Calliope | Enterprise & commerce software
 
 Explore shared fictional worlds, review the consequences of participant decisions and preserve a consistent history of each scenario.
 
@@ -61,7 +61,7 @@ Asset profile: https://thearchitect-max.github.io/MyProjects/projects/collective
 
 Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/collective-reality-engine/factsheet.pdf
 
-Quote TA-IP-104 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
+Quote TA-IP-103 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
 Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
 

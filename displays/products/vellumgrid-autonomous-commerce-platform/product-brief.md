@@ -1,6 +1,6 @@
 # VellumGrid Autonomous Commerce Platform
 
-TA-IP-087 | Reference name: Vivienne | Enterprise & commerce software
+TA-IP-086 | Reference name: Vivienne | Enterprise & commerce software
 
 Organise digital-product creation and fulfilment, and review the operational and financial evidence for your commerce workflow.
 
@@ -60,7 +60,7 @@ Asset profile: https://thearchitect-max.github.io/MyProjects/projects/vellumgrid
 
 Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/vellumgrid-autonomous-commerce-platform/factsheet.pdf
 
-Quote TA-IP-087 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
+Quote TA-IP-086 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
 Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
 

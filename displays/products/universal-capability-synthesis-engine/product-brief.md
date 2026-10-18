@@ -1,6 +1,6 @@
 # Universal Capability Synthesis Engine (UCSE)
 
-TA-IP-092 | Reference name: Ursula | AI & decision software
+TA-IP-091 | Reference name: Ursula | AI & decision software
 
 Find and compare software capabilities for your requirements, then assess how suitable components could work together.
 
@@ -60,7 +60,7 @@ Asset profile: https://thearchitect-max.github.io/MyProjects/projects/universal-
 
 Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/universal-capability-synthesis-engine/factsheet.pdf
 
-Quote TA-IP-092 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
+Quote TA-IP-091 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
 Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
 

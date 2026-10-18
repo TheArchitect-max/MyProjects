@@ -1,6 +1,6 @@
 # Software Asset Engineering Platform
 
-TA-IP-098 | Reference name: Octavia | Software assurance & infrastructure
+TA-IP-097 | Reference name: Octavia | Software assurance & infrastructure
 
 Inspect a software project, review its recorded evidence and limitations, and prepare a documented package for an acquisition review.
 
@@ -60,7 +60,7 @@ Asset profile: https://thearchitect-max.github.io/MyProjects/projects/software-a
 
 Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/software-asset-engineering-platform/factsheet.pdf
 
-Quote TA-IP-098 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
+Quote TA-IP-097 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
 Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
 
