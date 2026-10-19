@@ -222,4 +222,3 @@ Calculation inputs: {"stage": "V", "potential": "H", "sector": "AI, Decision & K
 Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/truelane-intelligence-engine/#calculation
-

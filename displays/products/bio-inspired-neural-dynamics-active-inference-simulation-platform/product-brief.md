@@ -191,4 +191,3 @@ Calculation inputs: {"stage": "V", "potential": "H", "sector": "Research & Scien
 Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/bio-inspired-neural-dynamics-active-inference-simulation-platform/#calculation
-

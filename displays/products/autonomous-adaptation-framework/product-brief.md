@@ -226,4 +226,3 @@ Calculation inputs: {"stage": "V", "potential": "H", "sector": "Industrial & Inf
 Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/autonomous-adaptation-framework/#calculation
-

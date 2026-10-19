@@ -188,4 +188,3 @@ Calculation inputs: {"stage": "V", "potential": "H", "sector": "Specialist Verti
 Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/interactive-piano-learning-platform/#calculation
-

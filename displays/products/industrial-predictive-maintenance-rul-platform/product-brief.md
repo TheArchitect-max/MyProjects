@@ -187,4 +187,3 @@ Calculation inputs: {"stage": "V", "potential": "VH", "sector": "Industrial & In
 Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/industrial-predictive-maintenance-rul-platform/#calculation
-

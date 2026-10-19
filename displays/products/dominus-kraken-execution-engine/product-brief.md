@@ -181,4 +181,3 @@ Calculation inputs: {"stage": "V", "potential": "H", "sector": "Enterprise Softw
 Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/dominus-kraken-execution-engine/#calculation
-
