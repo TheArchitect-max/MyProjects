@@ -4,11 +4,15 @@ An acquisition presentation for 108 individually scoped software and research IP
 
 ## Project presentations and identity
 
-The restored original presentation retains the black/gold style, Caravaggio and Rembrandt artwork and music. Sixteen primary navigation tabs provide direct access to the project displays, individual asset dossiers, Connections, prices, sources and acquisition process. `identities.html` provides the public register of canonical project titles, current TA-IP references and feminine aliases; `displays/identity-register.csv` supplies the corresponding download in the hub. Every asset has one identity and one display. Compatibility routes are not additional assets.
+The restored original presentation retains the black/gold style, Caravaggio and Rembrandt artwork and music. Seventeen primary navigation tabs provide direct access to the project displays, individual asset dossiers, Connections, prices, sources and acquisition process. `identities.html` provides the public register of canonical project titles, current TA-IP references and feminine aliases; `displays/identity-register.csv` supplies the corresponding download in the hub. Every asset has one identity and one display. Compatibility routes are not additional assets.
 
 The current project repositories carry `ASSET_IDENTITY.json`, linking the fixed portfolio reference and feminine alias to the stable numeric GitHub repository ID. The three publication repositories carry `PUBLICATION_IDENTITY.json` and are excluded from the asset count. The current catalogue is numbered consecutively from TA-IP-001 through TA-IP-108, as instructed by the seller. Resolve current identity through the canonical project title, feminine alias and repository identity; retain historical evidence in its recorded scope.
 
 The public register excludes private source, personal identity, credentials and internal audit records. Historical qualification records keep their original source identities and execution scope. An administrative identity correction does not promote product qualification or establish legal title.
+
+## Portfolio thesis
+
+`portfolio-thesis.html` publishes the seller-authored “Independent Advanced Technology & Software Intellectual Property Portfolio”. The complete approved text is maintained in `portfolio-thesis.md`; `tools/build_pages.py` compiles its six sections into the existing frontend. The homepage, primary navigation, footer and acquisition dossier link to the publication. Current status, conditional future potential, rights and valuation boundaries remain explicit. The dated inventory distinguishes 111 repositories (109 private, two public) from 108 offered assets and three publication repositories. Existing asset references, financial records, documents, original art and music are preserved.
 
 ## Financial and product information
 
