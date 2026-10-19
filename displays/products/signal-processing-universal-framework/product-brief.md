@@ -129,7 +129,7 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-18. All amounts in EUR. Market value is not established.
+Basis: 2026-10-19. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
@@ -160,6 +160,14 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 ### Cost basis
 
 The recreation anchor combines an identified base with separately scoped implementation work. The base remains a seller assumption; the scoped component has a role/work-package reproduction budget. Each component is counted once.
+
+### Financial assessment
+
+Partial work budget; retained base requires reconstruction. Assessed 2026-10-19.
+
+The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.
+
+Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
 #### Implemented scope budget
 

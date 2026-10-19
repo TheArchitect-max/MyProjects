@@ -29,7 +29,8 @@ function checkProject(a,p){
   const allowance=b.coordinationToolingAllowance??p.methodology.coordinationToolingAllowance,withAllowance=direct*(1+allowance),directMatch=Math.abs(direct-b.rawEngineeringCostEUR)<0.000001,allowanceMatch=b.withAllowanceEUR==null||Math.abs(withAllowance-b.withAllowanceEUR)<0.000001;
   const scoped=b.kind==='Scoped implementation reproduction budget',workPackagesMatch=!scoped||Array.isArray(b.workPackages)&&b.workPackages.every(w=>Number.isSafeInteger(w.lowEffortHours)&&w.lowEffortHours>=0)&&b.workPackages.reduce((n,w)=>n+w.lowEffortHours,0)===b.assumedHours;
   const adoptedIncrementMatch=!scoped||b.rounding==='DOWN_TO_EUR_500'&&b.adoptedRecreationIncrementEUR===Math.floor((Math.round(withAllowance*100)/100)/500)*500;
-  const resultingAnchorMatch=!scoped||b.previousRecreationCostEUR+b.adoptedRecreationIncrementEUR===b.currentRecreationCostEUR&&b.currentRecreationCostEUR===a.values.replacementCostEUR;
+  const nextIncrement=a.costBudgets.slice(index+1).find(x=>x.kind==='Scoped implementation reproduction budget');
+  const resultingAnchorMatch=!scoped||b.previousRecreationCostEUR+b.adoptedRecreationIncrementEUR===b.currentRecreationCostEUR&&b.currentRecreationCostEUR===(nextIncrement?nextIncrement.previousRecreationCostEUR:a.values.replacementCostEUR);
   budgetChecks.push({budgetIndex:index,method,recomputedDirectEUR:direct,publishedDirectEUR:b.rawEngineeringCostEUR,allowance,recomputedWithAllowanceEUR:Math.round(withAllowance*100)/100,publishedWithAllowanceEUR:b.withAllowanceEUR??null,directMatch,allowanceMatch,workPackagesMatch,adoptedIncrementMatch,resultingAnchorMatch,match:directMatch&&allowanceMatch&&workPackagesMatch&&adoptedIncrementMatch&&resultingAnchorMatch});
  });
  const f=a.futureReference,n=f.milestoneConditionedEconomicReferenceEUR;let futureCheck={applicable:false};

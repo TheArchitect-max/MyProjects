@@ -126,7 +126,7 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-18. All amounts in EUR. Market value is not established.
+Basis: 2026-10-19. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
@@ -157,6 +157,14 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 ### Cost basis
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+
+### Financial assessment
+
+Retained seller estimate; work breakdown required. Assessed 2026-10-19.
+
+No complete work-package budget supports this retained recreation anchor in the financial register. The current amount remains a low-confidence seller estimate. Do not infer engineering hours or market value from it; obtain a delivery-specific work breakdown and quote.
+
+Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 

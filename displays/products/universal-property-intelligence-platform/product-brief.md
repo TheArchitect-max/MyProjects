@@ -132,7 +132,7 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-18. All amounts in EUR. Market value is not established.
+Basis: 2026-10-19. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
@@ -163,6 +163,14 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 ### Cost basis
 
 Recreation estimate: EUR 12,500 retained scope component plus EUR 6,000 for the explicitly scoped implementation work budget, giving EUR 18,500. The scoped budget assumes 56 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has its own disclosed work-package estimate; overlapping work must not be added twice. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.
+
+### Financial assessment
+
+Full budget for the stated priced scope. Assessed 2026-10-19.
+
+The disclosed adopted budget components reconcile to the recreation anchor. Scope, effort and rates are seller assumptions; this does not establish an independent quote, actual expenditure or coverage of every current or proposed feature.
+
+Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
 #### Low-effort working estimate
 

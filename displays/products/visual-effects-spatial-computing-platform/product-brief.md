@@ -118,7 +118,7 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-18. All amounts in EUR. Market value is not established.
+Basis: 2026-10-19. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
@@ -149,6 +149,14 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 ### Cost basis
 
 Present-source low-effort recreation reference EUR 19,000; seller asking choice EUR 5,500. Market value remains not established. Estimated hours are not logged time or expenditure.
+
+### Financial assessment
+
+Full budget for the stated priced scope. Assessed 2026-10-19.
+
+The disclosed adopted budget components reconcile to the recreation anchor. Scope, effort and rates are seller assumptions; this does not establish an independent quote, actual expenditure or coverage of every current or proposed feature.
+
+Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
 #### Low-effort working estimate
 
