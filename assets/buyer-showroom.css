@@ -31,3 +31,7 @@
 .site-head .nav-links a{padding:10px 0;font-size:12px;white-space:nowrap}.site-head .nav-links a[aria-current=page]{border-bottom:1px solid var(--gold)}
 .strategic-workflow{padding:14px 0;border-top:1px solid rgba(185,150,91,.25)}
 @media(max-width:760px){.site-head .shell.nav{gap:16px;padding-top:16px}.site-head .nav-links{flex-basis:100%;justify-content:flex-start;gap:0 17px}.site-head .nav-links a{padding:8px 0;font-size:11px}.site-head .brand{max-width:100%}}
+
+/* Narrative valuation tables retain readable wrapping at every width. */
+.value-bases{table-layout:fixed;width:100%}.value-bases th:first-child{width:20%}.value-bases th:nth-child(2),.value-bases th:nth-child(3){width:40%}.value-bases th,.value-bases td{white-space:normal;overflow-wrap:anywhere;line-height:1.7}
+@media(max-width:700px){.value-bases th,.value-bases td{padding:10px;font-size:.73rem}}
