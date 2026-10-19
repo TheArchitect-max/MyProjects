@@ -182,4 +182,3 @@ Calculation inputs: {"stage": "R", "potential": "S", "sector": "Research & Scien
 Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/temporal-physics-causality-research-platform/#calculation
-

@@ -185,4 +185,3 @@ Calculation inputs: {"stage": "P", "potential": "H", "sector": "Identity, Privac
 Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/custody-integrity-assurance-platform/#calculation
-

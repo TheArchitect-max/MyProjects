@@ -181,4 +181,3 @@ Calculation inputs: {"stage": "P", "potential": "S", "sector": "Research & Scien
 Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/protein-structure-evidence-qualification-platform/#calculation
-

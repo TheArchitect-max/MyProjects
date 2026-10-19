@@ -188,4 +188,3 @@ Calculation inputs: {"stage": "V", "potential": "VH", "sector": "Identity, Priva
 Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/veritas-evidence-intelligence/#calculation
-

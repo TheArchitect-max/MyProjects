@@ -208,4 +208,3 @@ Calculation inputs: {"stage": "P", "potential": "VH", "sector": "Enterprise Soft
 Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/distributed-compute-fabric/#calculation
-

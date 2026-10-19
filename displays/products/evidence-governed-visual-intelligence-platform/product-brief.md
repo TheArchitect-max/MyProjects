@@ -209,4 +209,3 @@ Calculation inputs: {"stage": "V", "potential": "VH", "sector": "AI, Decision & 
 Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/evidence-governed-visual-intelligence-platform/#calculation
-

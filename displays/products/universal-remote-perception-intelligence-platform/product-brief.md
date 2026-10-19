@@ -188,4 +188,3 @@ Calculation inputs: {"stage": "P", "potential": "M", "sector": "Research & Scien
 Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/universal-remote-perception-intelligence-platform/#calculation
-

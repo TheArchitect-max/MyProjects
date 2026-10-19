@@ -183,4 +183,3 @@ Calculation inputs: {"stage": "V", "potential": "M", "sector": "Identity, Privac
 Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/causal-state-field-engine/#calculation
-
