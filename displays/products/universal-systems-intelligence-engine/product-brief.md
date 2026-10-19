@@ -6,7 +6,7 @@ Model connected systems, compare scenarios and examine bounded offline forecast 
 
 ## Product overview
 
-Connected-system simulation, traceable observations and offline forecast studies with constrained-decision and release-assurance research gates. A retained real-data CPU benchmark covers one UCI building-energy dataset; scope, abstention, evidence provenance and comparison limits remain explicit.
+Connected-system simulation, traceable observations and offline forecast research with constrained-decision, release-assurance and Q2 cross-domain comparison software. Developer reports cover energy, mobility and air-quality datasets; exploratory outcomes, selection limits and open independent qualification remain explicit.
 
 ## Potential acquirers
 
@@ -26,6 +26,8 @@ Connected-system simulation, traceable observations and offline forecast studies
 - Evaluate declared decision constraints with traceable feasibility and abstention
 - Inspect static and executed research-release assurance
 - Run pinned CPU data-receipt and benchmark studies
+- Import pinned hourly mobility and air-quality CSV receipts with explicit missingness exclusions
+- Compare declared domain tasks, chronological baselines and diagnostic paired bootstrap summaries
 
 ## Available output types
 
@@ -36,18 +38,18 @@ Connected-system simulation, traceable observations and offline forecast studies
 
 ## Current offered position
 
-Prototype. Distribution version 0.7.0 with later v0.9/v1.0 and Q1 research gates. All 219 current local developer tests passed. No independent scientific, security or production qualification is established.
+Prototype. Distribution version 0.7.0 with later research gates and Q2 E1 comparison software. All 255 current local CPU developer tests passed. The retained exploratory study did not meet its numeric superiority target; independent scientific and production qualification remain open.
 
 Scope and transfer review required.
 
-- The retained UCI building-energy benchmark is a developer evaluation of one dataset; raw-data results were not independently recalculated in this review.
-- Persistence has the lowest reported MAE and AR(1) the lowest RMSE; no universal predictive superiority is demonstrated.
-- Q2 multi-dataset predictive-superiority work is planned only. Physical fidelity, cross-domain accuracy and production acceptance remain open.
-- The financial scope includes only the explicit implementation budgets, with earlier modelling and forecast foundations counted once.
+- The retained Q2 developer report describes three UCI datasets; raw source CSVs were not supplied for independent recalculation in this website review.
+- Reported macro AR(1) gain over persistence: MAE -1.03% (worse), RMSE +3.92% (better). The prospective 10% target on both metrics was NOT MET.
+- The reported protocol was not fully preregistered before held-out access. Longest-contiguous-segment selection excludes substantial data and can bias conclusions.
+- The comparison, source-authenticity, independent replication, strong domain-baseline, shift/fallback and production-acceptance gates remain open. Financial references price only explicit implementation effort; no scientific-performance premium is included.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 54,500.
+Seller asking reference: EUR 56,500.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -77,29 +79,37 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 0.7.0 / v1.0 research gates + Q1
+Identified product edition: 0.7.0 / v1.0 research gates + Q2 E1
 
 Handover position: Scope closure required
 
-Connected-system simulation, traceable observations and offline forecast studies with constrained-decision and release-assurance research gates. A retained real-data CPU benchmark covers one UCI building-energy dataset; scope, abstention, evidence provenance and comparison limits remain explicit.
+Connected-system simulation, traceable observations and offline forecast research with constrained-decision, release-assurance and Q2 cross-domain comparison software. Developer reports cover energy, mobility and air-quality datasets; exploratory outcomes, selection limits and open independent qualification remain explicit.
 
-Separately scoped development: Q2 predictive-superiority protocol is planned only; not an implemented or qualified capability
+Separately scoped development: Q2 E1 software is implemented and exploratory developer results are retained; independent scientific qualification, safe runtime fallback and production acceptance remain open.
 
 ### Priced first-party scope
 
-Specifically agreed current first-party research implementation, including the constrained-decision, assurance and Q1 software gates. Distribution metadata remains 0.7.0. Delivery rights, source perimeter and recipient acceptance require written agreement.
+Specifically agreed current first-party research implementation, including constrained-decision, assurance, Q1 and Q2 E1 offline comparison software. Distribution metadata remains 0.7.0. Confirm delivery rights, source perimeter and recipient acceptance in writing.
 
 ### Developer software evidence
 
-Distribution version 0.7.0 with later v0.9/v1.0 and Q1 research gates. All 219 current local developer tests passed. No independent scientific, security or production qualification is established.
+Distribution version 0.7.0 with later research gates and Q2 E1 comparison software. All 255 current local CPU developer tests passed. The retained exploratory study did not meet its numeric superiority target; independent scientific and production qualification remain open.
 
-- Retained Q1 report: 19,735 observations, chronological train/validation/test partitions and three preregistered reference models.
-- Reported MAE / RMSE Wh: persistence 26.65 / 66.44; moving mean 31.17 / 73.81; AR(1) 26.73 / 61.92. No model wins every metric.
-- The current local 219-test suite passed; the real source dataset was not independently re-ingested for this website review.
+- The fresh complete local CPU suite passed 255 tests. Retained exact-source qualification also records 13 examples, compilation, assurance, wheel and CLI checks.
+- Q1 reported MAE / RMSE Wh: persistence 26.65 / 66.44; moving mean 31.17 / 73.81; AR(1) 26.73 / 61.92. No model won every metric.
+
+### Cross-domain exploratory comparison
+
+The Q2 E1 comparator adds pinned source readers, explicit chronological tasks, reference models and diagnostic paired bootstrap summaries. Execution success does not establish success of the predictive-superiority hypothesis.
+
+- The retained Q2 developer report describes three UCI datasets; raw source CSVs were not supplied for independent recalculation in this website review.
+- Reported macro AR(1) gain over persistence: MAE -1.03% (worse), RMSE +3.92% (better). The prospective 10% target on both metrics was NOT MET.
+- The reported protocol was not fully preregistered before held-out access. Longest-contiguous-segment selection excludes substantial data and can bias conclusions.
+- The comparison, source-authenticity, independent replication, strong domain-baseline, shift/fallback and production-acceptance gates remain open. Financial references price only explicit implementation effort; no scientific-performance premium is included.
 
 ### Financial reference scope
 
-The recreation estimate contains EUR 167,500 of previously scoped work plus EUR 13,500 for post-0.7 constrained-decision, assurance and Q1 research implementation, giving EUR 181,000. This increment assumes 128 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. Asking/negotiation inputs preserve prior asking/cost relationships, rounded half-up to EUR 500. All effort and prices remain seller assumptions; market value and actual expenditure are not established. Existing v0.6 foundations and the already priced v0.7 forecast implementation are reused and excluded from this increment. Distribution metadata remains 0.7.0; v0.9/v1.0 are research gates. Q2 predictive-superiority work is planned only and excluded. Independent replication, scientific superiority, production deployment and third-party dataset ownership are excluded.
+The recreation estimate contains EUR 160,000 of foundations, EUR 7,500 of v0.7 forecasting, EUR 13,500 of later constrained-decision/assurance/Q1 software and EUR 6,500 of Q2 E1 comparison software, giving EUR 187,500. Foundations are counted once. The Q2 increment assumes 64 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500; asking/negotiation inputs preserve the preceding asking/cost relationships, rounded half-up to EUR 500. These are seller assumptions, not logged work, actual expenditure, contractor quotes, minimum costs or established market value. Independent raw-data replication, scientific superiority and production acceptance are excluded; no performance premium is added.
 
 
 
@@ -107,8 +117,8 @@ The recreation estimate contains EUR 167,500 of previously scoped work plus EUR 
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | P | Connected-system simulation, traceable observations and offline forecast studies with constrained-decision and release-assurance research gates. A retained real-data CPU benchmark covers one UCI building-energy dataset; scope, abstention, evidence provenance and comparison limits remain explicit. Intended-use and physical prediction require separate qualification. |
-| Evidence and validation | E3 | Distribution version 0.7.0 with later v0.9/v1.0 and Q1 research gates. All 219 current local developer tests passed. No independent scientific, security or production qualification is established. Retained real-data metrics are developer evidence, not independent reproduction. |
+| Technical scope | P | Connected-system simulation, traceable observations and offline forecast research with constrained-decision, release-assurance and Q2 cross-domain comparison software. Developer reports cover energy, mobility and air-quality datasets; exploratory outcomes, selection limits and open independent qualification remain explicit. Intended-use and physical prediction require independent qualification. |
+| Evidence and validation | E3 | Distribution version 0.7.0 with later research gates and Q2 E1 comparison software. All 255 current local CPU developer tests passed. The retained exploratory study did not meet its numeric superiority target; independent scientific and production qualification remain open. Raw-data empirical results remain retained developer evidence, not independent replication. |
 | Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the documented rights and exclusions for your transaction; no independent title opinion is established. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. This is a seller asking reference and assumption-based reproduction model, not a completed sale or independent appraisal. |
 | Delivery and handover | T1 | Implementation exists but core transfer evidence is incomplete. The listed conditions and agreed delivery scope govern acceptance. |
@@ -158,14 +168,14 @@ Basis: 2026-10-19. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 54,500 | 61,329 |
-| Negotiation reference - low | 43,000 | 48,388 |
-| Negotiation reference - high | 68,000 | 76,520 |
-| Recreation cost estimate | 181,000 | 203,679 |
-| Marketability cost scenario | 145,388 | 163,605 |
-| Monetisation cost scenario | 103,849 | 116,861 |
-| Risk-adjusted strategic reference | 72,088 | 81,121 |
-| Weighted economic reference | 120,328 | 135,405 |
+| Seller asking reference | 56,500 | 63,579 |
+| Negotiation reference - low | 44,500 | 50,076 |
+| Negotiation reference - high | 70,500 | 79,334 |
+| Recreation cost estimate | 187,500 | 210,994 |
+| Marketability cost scenario | 150,609 | 169,480 |
+| Monetisation cost scenario | 107,578 | 121,058 |
+| Risk-adjusted strategic reference | 74,677 | 84,034 |
+| Weighted economic reference | 124,649 | 140,268 |
 
 USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
@@ -178,13 +188,13 @@ USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is 
 - Risk-adjusted strategic reference: Cost-based opportunity scenario with stated seller-selected factors.
 - Weighted economic reference: Weighted blend of correlated cost scenarios; not an independent appraisal.
 
-Milestone-conditioned reference: EUR 142,871; model change EUR 22,543. Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and an agreed operational and handover acceptance scope.
+Milestone-conditioned reference: EUR 148,002; model change EUR 23,353. Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and an agreed operational and handover acceptance scope.
 
 This is a conditional model sensitivity, not a current asking price, forecast or market value.
 
 ### Cost basis
 
-The recreation estimate contains EUR 167,500 of previously scoped work plus EUR 13,500 for post-0.7 constrained-decision, assurance and Q1 research implementation, giving EUR 181,000. This increment assumes 128 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. Asking/negotiation inputs preserve prior asking/cost relationships, rounded half-up to EUR 500. All effort and prices remain seller assumptions; market value and actual expenditure are not established. Existing v0.6 foundations and the already priced v0.7 forecast implementation are reused and excluded from this increment. Distribution metadata remains 0.7.0; v0.9/v1.0 are research gates. Q2 predictive-superiority work is planned only and excluded. Independent replication, scientific superiority, production deployment and third-party dataset ownership are excluded.
+The recreation estimate contains EUR 160,000 of foundations, EUR 7,500 of v0.7 forecasting, EUR 13,500 of later constrained-decision/assurance/Q1 software and EUR 6,500 of Q2 E1 comparison software, giving EUR 187,500. Foundations are counted once. The Q2 increment assumes 64 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500; asking/negotiation inputs preserve the preceding asking/cost relationships, rounded half-up to EUR 500. These are seller assumptions, not logged work, actual expenditure, contractor quotes, minimum costs or established market value. Independent raw-data replication, scientific superiority and production acceptance are excluded; no performance premium is added.
 
 ### Financial assessment
 
@@ -265,7 +275,32 @@ post-0.7 constrained-decision, assurance and Q1 research implementation
 - Effort alternatives / Reference cost: EUR 20,755.2
 - Effort alternatives / Extended cost: EUR 27,673.6
 
-Equivalent reproduction effort is an explicit seller-side analyst assumption, not logged work, actual spend or a contractor quote. EUR 94/hour is rate context, not a minimum. The 15% allowance and alternatives are assumptions. The lowest bounded effort scenario is adopted. Existing v0.6 foundations and the already priced v0.7 forecast implementation are reused and excluded from this increment. Distribution metadata remains 0.7.0; v0.9/v1.0 are research gates. Q2 predictive-superiority work is planned only and excluded. Independent replication, scientific superiority, production deployment and third-party dataset ownership are excluded.
+Equivalent reproduction effort is an explicit seller-side analyst assumption, not logged work, actual spend or a contractor quote. EUR 94/hour is rate context, not a minimum. The 15% allowance and alternatives are assumptions. The lowest bounded effort scenario is adopted. Existing v0.6 foundations and the already priced v0.7 forecast implementation are reused and excluded from this increment. Distribution metadata remains 0.7.0; v0.9/v1.0 are research gates. Q2 work is excluded from this particular budget and, where implemented, is scoped separately in a later budget. Independent replication, scientific superiority, production deployment and third-party dataset ownership are excluded.
+
+#### Scoped implementation reproduction budget
+
+Q2 E1 offline cross-domain comparison implementation
+
+- Pinned mobility and air-quality intake, missingness/segment receipts — 24 assumed hours
+- Cross-domain fixed-task comparator, baselines and diagnostic bootstrap — 24 assumed hours
+- Negative/leakage regressions and developer handover boundaries — 16 assumed hours
+
+- Assumed hours: 64
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 6,016
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 6,918.4
+- Adopted recreation increment: EUR 6,500
+- Previous recreation cost: EUR 181,000
+- Current recreation cost: EUR 187,500
+- Effort alternatives / Low hours: 64
+- Effort alternatives / Reference hours: 96
+- Effort alternatives / Extended hours: 128
+- Effort alternatives / Low cost: EUR 6,918.4
+- Effort alternatives / Reference cost: EUR 10,377.6
+- Effort alternatives / Extended cost: EUR 13,836.8
+
+Equivalent reproduction effort is a seller-side analyst assumption, not actual work, expenditure or a quote. EUR 94/hour is external rate context, not a minimum; the 15% allowance is assumed. Reuses all previously priced forecasting, Q1 data and assurance foundations once. Dataset ownership, independent raw-data acquisition/replication, predictive superiority, production fallback and operation are excluded. The prospective 10% scientific target was not met and carries no premium.
 
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 

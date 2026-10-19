@@ -46,14 +46,14 @@
     }
   ],
   "portfolio": {
-    "sellerAskEUR": 24720000,
-    "negotiationLowEUR": 19746500,
-    "negotiationHighEUR": 30981375,
-    "replacementCostEUR": 105319500,
-    "marketComparableProxyEUR": 119757462,
-    "incomeLicensingProxyEUR": 140910917,
-    "probabilityAdjustedStrategicValueEUR": 131597834,
-    "triangulatedEconomicReferenceEUR": 124522796
+    "sellerAskEUR": 24722000,
+    "negotiationLowEUR": 19748000,
+    "negotiationHighEUR": 30983875,
+    "replacementCostEUR": 105326000,
+    "marketComparableProxyEUR": 119762683,
+    "incomeLicensingProxyEUR": 140914646,
+    "probabilityAdjustedStrategicValueEUR": 131600423,
+    "triangulatedEconomicReferenceEUR": 124527117
   },
   "displayCurrency": {
     "base": "EUR",
@@ -249,7 +249,7 @@
       "assessedOn": "2026-10-19",
       "assetsReviewed": 108,
       "basis": "All 111 current default-branch identities and full READMEs reviewed against the preceding detailed assessment. Current implementation/evidence records reviewed for the four changed asset sources; explicit work-package estimates recognise bounded additional implementation once.",
-      "runtimeBoundary": "Fresh local CPU developer suites passed for three changed sources: 38 media-platform, 29 governance-runtime and 219 systems-engine tests. DMT is a documentary review of retained software evidence. No fresh all-108 runtime certification, GPU qualification, independent raw-data replication or production acceptance is represented.",
+      "runtimeBoundary": "Fresh local CPU developer suites passed for three changed sources: 38 media-platform, 29 governance-runtime and 255 systems-engine tests. DMT is a documentary review of retained software evidence. Raw datasets were not independently re-ingested; no full-portfolio runtime, GPU, scientific or production certification is represented.",
       "budgetCoverage": {
         "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN": 66,
         "PARTIAL_SCOPED_BUDGET": 31,
@@ -2003,14 +2003,14 @@
     {
       "ref": "TA-IP-096",
       "values": {
-        "sellerAskEUR": 54500,
-        "negotiationLowEUR": 43000,
-        "negotiationHighEUR": 68000,
-        "replacementCostEUR": 181000,
-        "marketComparableProxyEUR": 145388,
-        "incomeLicensingProxyEUR": 103849,
-        "probabilityAdjustedStrategicValueEUR": 72088,
-        "triangulatedEconomicReferenceEUR": 120328
+        "sellerAskEUR": 56500,
+        "negotiationLowEUR": 44500,
+        "negotiationHighEUR": 70500,
+        "replacementCostEUR": 187500,
+        "marketComparableProxyEUR": 150609,
+        "incomeLicensingProxyEUR": 107578,
+        "probabilityAdjustedStrategicValueEUR": 74677,
+        "triangulatedEconomicReferenceEUR": 124649
       },
       "basisDate": "2026-10-19",
       "sourceIds": [
@@ -2018,7 +2018,7 @@
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The recreation estimate contains EUR 167,500 of previously scoped work plus EUR 13,500 for post-0.7 constrained-decision, assurance and Q1 research implementation, giving EUR 181,000. This increment assumes 128 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. Asking/negotiation inputs preserve prior asking/cost relationships, rounded half-up to EUR 500. All effort and prices remain seller assumptions; market value and actual expenditure are not established. Existing v0.6 foundations and the already priced v0.7 forecast implementation are reused and excluded from this increment. Distribution metadata remains 0.7.0; v0.9/v1.0 are research gates. Q2 predictive-superiority work is planned only and excluded. Independent replication, scientific superiority, production deployment and third-party dataset ownership are excluded.",
+      "costBasisNote": "The recreation estimate contains EUR 160,000 of foundations, EUR 7,500 of v0.7 forecasting, EUR 13,500 of later constrained-decision/assurance/Q1 software and EUR 6,500 of Q2 E1 comparison software, giving EUR 187,500. Foundations are counted once. The Q2 increment assumes 64 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500; asking/negotiation inputs preserve the preceding asking/cost relationships, rounded half-up to EUR 500. These are seller assumptions, not logged work, actual expenditure, contractor quotes, minimum costs or established market value. Independent raw-data replication, scientific superiority and production acceptance are excluded; no performance premium is added.",
       "costBudgets": [
         {
           "basis": "Present delivered v0.6.0 scope including v0.5/v0.6 increments",
@@ -2155,20 +2155,58 @@
             "referenceCostEUR": 20755.2,
             "extendedCostEUR": 27673.6
           },
-          "boundary": "Equivalent reproduction effort is an explicit seller-side analyst assumption, not logged work, actual spend or a contractor quote. EUR 94/hour is rate context, not a minimum. The 15% allowance and alternatives are assumptions. The lowest bounded effort scenario is adopted. Existing v0.6 foundations and the already priced v0.7 forecast implementation are reused and excluded from this increment. Distribution metadata remains 0.7.0; v0.9/v1.0 are research gates. Q2 predictive-superiority work is planned only and excluded. Independent replication, scientific superiority, production deployment and third-party dataset ownership are excluded."
+          "boundary": "Equivalent reproduction effort is an explicit seller-side analyst assumption, not logged work, actual spend or a contractor quote. EUR 94/hour is rate context, not a minimum. The 15% allowance and alternatives are assumptions. The lowest bounded effort scenario is adopted. Existing v0.6 foundations and the already priced v0.7 forecast implementation are reused and excluded from this increment. Distribution metadata remains 0.7.0; v0.9/v1.0 are research gates. Q2 work is excluded from this particular budget and, where implemented, is scoped separately in a later budget. Independent replication, scientific superiority, production deployment and third-party dataset ownership are excluded."
+        },
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "economicAssessmentAt": "2026-10-19",
+          "scope": "Q2 E1 offline cross-domain comparison implementation",
+          "workPackages": [
+            {
+              "scope": "Pinned mobility and air-quality intake, missingness/segment receipts",
+              "lowEffortHours": 24
+            },
+            {
+              "scope": "Cross-domain fixed-task comparator, baselines and diagnostic bootstrap",
+              "lowEffortHours": 24
+            },
+            {
+              "scope": "Negative/leakage regressions and developer handover boundaries",
+              "lowEffortHours": 16
+            }
+          ],
+          "assumedHours": 64,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 6016,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 6918.4,
+          "adoptedRecreationIncrementEUR": 6500,
+          "previousRecreationCostEUR": 181000,
+          "currentRecreationCostEUR": 187500,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 64,
+            "referenceHours": 96,
+            "extendedHours": 128,
+            "lowCostEUR": 6918.4,
+            "referenceCostEUR": 10377.6,
+            "extendedCostEUR": 13836.8
+          },
+          "boundary": "Equivalent reproduction effort is a seller-side analyst assumption, not actual work, expenditure or a quote. EUR 94/hour is external rate context, not a minimum; the 15% allowance is assumed. Reuses all previously priced forecasting, Q1 data and assurance foundations once. Dataset ownership, independent raw-data acquisition/replication, predictive superiority, production fallback and operation are excluded. The prospective 10% scientific target was not met and carries no premium."
         }
       ],
       "futureReference": {
-        "milestoneConditionedEconomicReferenceEUR": 142871,
-        "sensitivityDeltaEUR": 22543,
+        "milestoneConditionedEconomicReferenceEUR": 148002,
+        "sensitivityDeltaEUR": 23353,
         "currentStage": "P",
         "targetStage": "V",
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and an agreed operational and handover acceptance scope.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price, future asking reference or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 160773,
-        "sensitivityDeltaUSD": 25368
+        "milestoneConditionedEconomicReferenceUSD": 166547,
+        "sensitivityDeltaUSD": 26279
       },
       "calculationInputs": {
         "stage": "P",
@@ -2177,18 +2215,18 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 61329,
-        "negotiationLowUSD": 48388,
-        "negotiationHighUSD": 76520,
-        "replacementCostUSD": 203679,
-        "marketComparableProxyUSD": 163605,
-        "incomeLicensingProxyUSD": 116861,
-        "probabilityAdjustedStrategicValueUSD": 81121,
-        "triangulatedEconomicReferenceUSD": 135405
+        "sellerAskUSD": 63579,
+        "negotiationLowUSD": 50076,
+        "negotiationHighUSD": 79334,
+        "replacementCostUSD": 210994,
+        "marketComparableProxyUSD": 169480,
+        "incomeLicensingProxyUSD": 121058,
+        "probabilityAdjustedStrategicValueUSD": 84034,
+        "triangulatedEconomicReferenceUSD": 140268
       },
       "assessment": {
         "assessedOn": "2026-10-19",
-        "offeredEdition": "0.7.0 / v1.0 research gates + Q1",
+        "offeredEdition": "0.7.0 / v1.0 research gates + Q2 E1",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "FULL_SCOPED_BUDGET",
         "costEvidenceLabel": "Full budget for the stated priced scope",
@@ -9026,13 +9064,13 @@
     }
   ],
   "portfolioUSD": {
-    "sellerAskUSD": 27817416,
-    "negotiationLowUSD": 22220736,
-    "negotiationHighUSD": 34863341,
-    "replacementCostUSD": 118516033,
-    "marketComparableProxyUSD": 134763072,
-    "incomeLicensingProxyUSD": 158567055,
-    "probabilityAdjustedStrategicValueUSD": 148087043,
-    "triangulatedEconomicReferenceUSD": 140125502
+    "sellerAskUSD": 27819667,
+    "negotiationLowUSD": 22222424,
+    "negotiationHighUSD": 34866155,
+    "replacementCostUSD": 118523348,
+    "marketComparableProxyUSD": 134768947,
+    "incomeLicensingProxyUSD": 158571251,
+    "probabilityAdjustedStrategicValueUSD": 148089956,
+    "triangulatedEconomicReferenceUSD": 140130365
   }
 }

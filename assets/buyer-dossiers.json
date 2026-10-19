@@ -1580,23 +1580,23 @@
     },
     {
       "ref": "TA-IP-096",
-      "version": "0.7.0 / v1.0 research gates + Q1",
-      "developmentEdition": "Q2 predictive-superiority protocol is planned only; not an implemented or qualified capability",
-      "productPosition": "Connected-system simulation, traceable observations and offline forecast studies with constrained-decision and release-assurance research gates. A retained real-data CPU benchmark covers one UCI building-energy dataset; scope, abstention, evidence provenance and comparison limits remain explicit.",
-      "offeredEdition": "Specifically agreed current first-party research implementation, including the constrained-decision, assurance and Q1 software gates. Distribution metadata remains 0.7.0. Delivery rights, source perimeter and recipient acceptance require written agreement.",
+      "version": "0.7.0 / v1.0 research gates + Q2 E1",
+      "developmentEdition": "Q2 E1 software is implemented and exploratory developer results are retained; independent scientific qualification, safe runtime fallback and production acceptance remain open.",
+      "productPosition": "Connected-system simulation, traceable observations and offline forecast research with constrained-decision, release-assurance and Q2 cross-domain comparison software. Developer reports cover energy, mobility and air-quality datasets; exploratory outcomes, selection limits and open independent qualification remain explicit.",
+      "offeredEdition": "Specifically agreed current first-party research implementation, including constrained-decision, assurance, Q1 and Q2 E1 offline comparison software. Distribution metadata remains 0.7.0. Confirm delivery rights, source perimeter and recipient acceptance in writing.",
       "transferPosition": "Scope closure required",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "P",
-          "criterion": "Connected-system simulation, traceable observations and offline forecast studies with constrained-decision and release-assurance research gates. A retained real-data CPU benchmark covers one UCI building-energy dataset; scope, abstention, evidence provenance and comparison limits remain explicit. Intended-use and physical prediction require separate qualification."
+          "criterion": "Connected-system simulation, traceable observations and offline forecast research with constrained-decision, release-assurance and Q2 cross-domain comparison software. Developer reports cover energy, mobility and air-quality datasets; exploratory outcomes, selection limits and open independent qualification remain explicit. Intended-use and physical prediction require independent qualification."
         },
         {
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
           "grade": "E3",
-          "criterion": "Distribution version 0.7.0 with later v0.9/v1.0 and Q1 research gates. All 219 current local developer tests passed. No independent scientific, security or production qualification is established. Retained real-data metrics are developer evidence, not independent reproduction."
+          "criterion": "Distribution version 0.7.0 with later research gates and Q2 E1 comparison software. All 255 current local CPU developer tests passed. The retained exploratory study did not meet its numeric superiority target; independent scientific and production qualification remain open. Raw-data empirical results remain retained developer evidence, not independent replication."
         },
         {
           "axis": "ipRightsMaturity",
@@ -1645,16 +1645,25 @@
       "productDetails": [
         {
           "title": "Developer software evidence",
-          "text": "Distribution version 0.7.0 with later v0.9/v1.0 and Q1 research gates. All 219 current local developer tests passed. No independent scientific, security or production qualification is established.",
+          "text": "Distribution version 0.7.0 with later research gates and Q2 E1 comparison software. All 255 current local CPU developer tests passed. The retained exploratory study did not meet its numeric superiority target; independent scientific and production qualification remain open.",
           "items": [
-            "Retained Q1 report: 19,735 observations, chronological train/validation/test partitions and three preregistered reference models.",
-            "Reported MAE / RMSE Wh: persistence 26.65 / 66.44; moving mean 31.17 / 73.81; AR(1) 26.73 / 61.92. No model wins every metric.",
-            "The current local 219-test suite passed; the real source dataset was not independently re-ingested for this website review."
+            "The fresh complete local CPU suite passed 255 tests. Retained exact-source qualification also records 13 examples, compilation, assurance, wheel and CLI checks.",
+            "Q1 reported MAE / RMSE Wh: persistence 26.65 / 66.44; moving mean 31.17 / 73.81; AR(1) 26.73 / 61.92. No model won every metric."
+          ]
+        },
+        {
+          "title": "Cross-domain exploratory comparison",
+          "text": "The Q2 E1 comparator adds pinned source readers, explicit chronological tasks, reference models and diagnostic paired bootstrap summaries. Execution success does not establish success of the predictive-superiority hypothesis.",
+          "items": [
+            "The retained Q2 developer report describes three UCI datasets; raw source CSVs were not supplied for independent recalculation in this website review.",
+            "Reported macro AR(1) gain over persistence: MAE -1.03% (worse), RMSE +3.92% (better). The prospective 10% target on both metrics was NOT MET.",
+            "The reported protocol was not fully preregistered before held-out access. Longest-contiguous-segment selection excludes substantial data and can bias conclusions.",
+            "The comparison, source-authenticity, independent replication, strong domain-baseline, shift/fallback and production-acceptance gates remain open. Financial references price only explicit implementation effort; no scientific-performance premium is included."
           ]
         },
         {
           "title": "Financial reference scope",
-          "text": "The recreation estimate contains EUR 167,500 of previously scoped work plus EUR 13,500 for post-0.7 constrained-decision, assurance and Q1 research implementation, giving EUR 181,000. This increment assumes 128 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. Asking/negotiation inputs preserve prior asking/cost relationships, rounded half-up to EUR 500. All effort and prices remain seller assumptions; market value and actual expenditure are not established. Existing v0.6 foundations and the already priced v0.7 forecast implementation are reused and excluded from this increment. Distribution metadata remains 0.7.0; v0.9/v1.0 are research gates. Q2 predictive-superiority work is planned only and excluded. Independent replication, scientific superiority, production deployment and third-party dataset ownership are excluded.",
+          "text": "The recreation estimate contains EUR 160,000 of foundations, EUR 7,500 of v0.7 forecasting, EUR 13,500 of later constrained-decision/assurance/Q1 software and EUR 6,500 of Q2 E1 comparison software, giving EUR 187,500. Foundations are counted once. The Q2 increment assumes 64 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500; asking/negotiation inputs preserve the preceding asking/cost relationships, rounded half-up to EUR 500. These are seller assumptions, not logged work, actual expenditure, contractor quotes, minimum costs or established market value. Independent raw-data replication, scientific superiority and production acceptance are excluded; no performance premium is added.",
           "items": []
         }
       ]
