@@ -1257,7 +1257,7 @@
         "specialist"
       ],
       "summary": "Model connected systems, compare scenarios and examine bounded offline forecast studies with traceable evidence.",
-      "overview": "Connected-system simulation, traceable observations and offline forecast studies with constrained-decision and release-assurance research gates. A retained real-data CPU benchmark covers one UCI building-energy dataset; scope, abstention, evidence provenance and comparison limits remain explicit.",
+      "overview": "Connected-system simulation, traceable observations and offline forecast research with constrained-decision, release-assurance and Q2 cross-domain comparison software. Developer reports cover energy, mobility and air-quality datasets; exploratory outcomes, selection limits and open independent qualification remain explicit.",
       "potentialBuyers": [
         "Digital-twin vendors",
         "Systems research groups",
@@ -1273,7 +1273,9 @@
         "Review chronological splits, held-out errors, empirical intervals and abstention",
         "Evaluate declared decision constraints with traceable feasibility and abstention",
         "Inspect static and executed research-release assurance",
-        "Run pinned CPU data-receipt and benchmark studies"
+        "Run pinned CPU data-receipt and benchmark studies",
+        "Import pinned hourly mobility and air-quality CSV receipts with explicit missingness exclusions",
+        "Compare declared domain tasks, chronological baselines and diagnostic paired bootstrap summaries"
       ],
       "outputTypes": [
         "Scenario comparisons",
@@ -1282,14 +1284,14 @@
         "Bounded forecast-study and reference-comparison reports"
       ],
       "maturity": "Prototype",
-      "maturityNote": "Distribution version 0.7.0 with later v0.9/v1.0 and Q1 research gates. All 219 current local developer tests passed. No independent scientific, security or production qualification is established.",
+      "maturityNote": "Distribution version 0.7.0 with later research gates and Q2 E1 comparison software. All 255 current local CPU developer tests passed. The retained exploratory study did not meet its numeric superiority target; independent scientific and production qualification remain open.",
       "availability": "Scope and transfer review required",
-      "askingReferenceEUR": 54500,
+      "askingReferenceEUR": 56500,
       "materialBoundaries": [
-        "The retained UCI building-energy benchmark is a developer evaluation of one dataset; raw-data results were not independently recalculated in this review.",
-        "Persistence has the lowest reported MAE and AR(1) the lowest RMSE; no universal predictive superiority is demonstrated.",
-        "Q2 multi-dataset predictive-superiority work is planned only. Physical fidelity, cross-domain accuracy and production acceptance remain open.",
-        "The financial scope includes only the explicit implementation budgets, with earlier modelling and forecast foundations counted once."
+        "The retained Q2 developer report describes three UCI datasets; raw source CSVs were not supplied for independent recalculation in this website review.",
+        "Reported macro AR(1) gain over persistence: MAE -1.03% (worse), RMSE +3.92% (better). The prospective 10% target on both metrics was NOT MET.",
+        "The reported protocol was not fully preregistered before held-out access. Longest-contiguous-segment selection excludes substantial data and can bias conclusions.",
+        "The comparison, source-authenticity, independent replication, strong domain-baseline, shift/fallback and production-acceptance gates remain open. Financial references price only explicit implementation effort; no scientific-performance premium is included."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",

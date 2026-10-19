@@ -184,6 +184,34 @@
       "access": "Primary dataset publisher page reviewed",
       "useLimit": "One building-energy dataset; no independent replication, multi-domain superiority, production acceptance or asset valuation is supplied.",
       "referenceContext": "Universal-Systems-Intelligence-Engine / Vespera / TA-IP-096 Q1 dataset context"
+    },
+    {
+      "id": "UCI-275",
+      "publisher": "UCI Machine Learning Repository",
+      "title": "Bike Sharing — Fanaee-T (2013)",
+      "url": "https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset",
+      "finding": "Hourly and daily Capital Bikeshare rental counts with weather/seasonal context. Publisher summary counts and exact CSV receipts must be distinguished. DOI 10.24432/C5W894.",
+      "application": "Dataset context for the systems-engine Q2 E1 exploratory developer comparison; no independent implementation, prediction or financial validation is supplied.",
+      "checkedOn": "2026-10-19",
+      "categoryId": "diligence",
+      "referenceBasisDate": "2026-10-19",
+      "access": "Primary dataset publisher page reviewed",
+      "useLimit": "Review the exact licensed raw-file receipt, missingness and segment selection. No independent replication, domain superiority, production acceptance or asset valuation is supplied.",
+      "referenceContext": "Universal-Systems-Intelligence-Engine / Vespera / TA-IP-096 Q2 dataset context"
+    },
+    {
+      "id": "UCI-381",
+      "publisher": "UCI Machine Learning Repository",
+      "title": "Beijing PM2.5 — Chen (2015)",
+      "url": "https://archive.ics.uci.edu/dataset/381/beijing+pm2+5+data",
+      "finding": "Hourly Beijing air-quality and meteorological data; 43,824 publisher instances, including NA missingness. DOI 10.24432/C5JS49.",
+      "application": "Dataset context for the systems-engine Q2 E1 exploratory developer comparison; no independent implementation, prediction or financial validation is supplied.",
+      "checkedOn": "2026-10-19",
+      "categoryId": "diligence",
+      "referenceBasisDate": "2026-10-19",
+      "access": "Primary dataset publisher page reviewed",
+      "useLimit": "Review the exact licensed raw-file receipt, missingness and segment selection. No independent replication, domain superiority, production acceptance or asset valuation is supplied.",
+      "referenceContext": "Universal-Systems-Intelligence-Engine / Vespera / TA-IP-096 Q2 dataset context"
     }
   ],
   "assessmentRecords": [
