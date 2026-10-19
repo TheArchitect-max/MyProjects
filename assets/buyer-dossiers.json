@@ -516,10 +516,10 @@
     },
     {
       "ref": "TA-IP-083",
-      "version": "0.1.0",
+      "version": "0.1.0 / RC1",
       "developmentEdition": "",
-      "productPosition": "An implemented prototype for evaluation and further development.",
-      "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
+      "productPosition": "A local evidence-governed runtime with workspaces, cases, relationships, obligations and authority gates. Evidence expiry, revocation and supersession feed decisions; digest-verified bundles and SQLite snapshot history support controlled restore and backup.",
+      "offeredEdition": "Specifically agreed first-party RC1 local governance runtime, SQLite reference persistence, domain packs, CLI and retained developer evidence. Production controls and independent certification require separate scope.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
@@ -578,7 +578,16 @@
         "securityDocumentationIdentified": true,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Persistent evidence-governed runtime",
+          "text": "RC1 local reference runtime; 29 developer tests and native CLI/SQLite checks passed. Production database security, availability and certification are outside this scope.",
+          "items": [
+            "A local SQLite reference adapter; no encryption, enterprise identity, replicated availability or production secrets management is established.",
+            "Integrity hashes do not establish substantive truth, compliance or legal authority."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-034",
@@ -1571,23 +1580,23 @@
     },
     {
       "ref": "TA-IP-096",
-      "version": "0.7.0",
-      "developmentEdition": "Offline predictive-research edition; independent model, field-data and intended-use qualification remain open",
-      "productPosition": "The 0.7.0 developer-research source combines connected-system simulation with fixed forecast tasks, chronological data splits, transparent CPU reference predictors, held-out error reports, empirical intervals and explicit abstention. All 128 repository tests passed in a local CPU environment for the reviewed source. Synthetic checks do not establish independent predictive or industrial qualification.",
-      "offeredEdition": "Current first-party 0.7.0 research source, documented capabilities and retained developer evidence are available for an expressly agreed acquisition scope. The published recreation budget retains its disclosed v0.6.0 modelling, observation and co-simulation basis; the v0.7 forecasting increment has no separately established monetary allocation. Confirm the included edition, work-product perimeter and consideration in writing. Live telemetry, distributed operation, physical fidelity and production qualification remain excluded.",
+      "version": "0.7.0 / v1.0 research gates + Q1",
+      "developmentEdition": "Q2 predictive-superiority protocol is planned only; not an implemented or qualified capability",
+      "productPosition": "Connected-system simulation, traceable observations and offline forecast studies with constrained-decision and release-assurance research gates. A retained real-data CPU benchmark covers one UCI building-energy dataset; scope, abstention, evidence provenance and comparison limits remain explicit.",
+      "offeredEdition": "Specifically agreed current first-party research implementation, including the constrained-decision, assurance and Q1 software gates. Distribution metadata remains 0.7.0. Delivery rights, source perimeter and recipient acceptance require written agreement.",
       "transferPosition": "Scope closure required",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "P",
-          "criterion": "Current 0.7 developer-research source includes linked-system modelling, local co-simulation and fixed-task offline forecast studies with chronological separation, reference predictors, empirical intervals and abstention. Domain and physical prediction require independent qualification."
+          "criterion": "Connected-system simulation, traceable observations and offline forecast studies with constrained-decision and release-assurance research gates. A retained real-data CPU benchmark covers one UCI building-energy dataset; scope, abstention, evidence provenance and comparison limits remain explicit. Intended-use and physical prediction require separate qualification."
         },
         {
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
           "grade": "E3",
-          "criterion": "The reviewed complete source passed 128 local CPU repository tests, compilation and a synthetic forecast example. Developer evidence is bounded to the recorded source and environment; representative field datasets and full independent model qualification remain open."
+          "criterion": "Distribution version 0.7.0 with later v0.9/v1.0 and Q1 research gates. All 219 current local developer tests passed. No independent scientific, security or production qualification is established. Retained real-data metrics are developer evidence, not independent reproduction."
         },
         {
           "axis": "ipRightsMaturity",
@@ -1635,16 +1644,17 @@
       },
       "productDetails": [
         {
-          "title": "Offline forecast research",
-          "text": "Caller-fixed forecast tasks use chronological training, validation and test partitions, transparent CPU predictors and comparison with a persistence reference. Empirical validation-residual intervals and abstention are research outputs, not established field-calibrated forecasts.",
+          "title": "Developer software evidence",
+          "text": "Distribution version 0.7.0 with later v0.9/v1.0 and Q1 research gates. All 219 current local developer tests passed. No independent scientific, security or production qualification is established.",
           "items": [
-            "The full local 128-test repository suite and the synthetic forecast example passed for the reviewed source.",
-            "Representative held-out domain datasets, independent predictive benchmarks and the full model-qualification programme remain open."
+            "Retained Q1 report: 19,735 observations, chronological train/validation/test partitions and three preregistered reference models.",
+            "Reported MAE / RMSE Wh: persistence 26.65 / 66.44; moving mean 31.17 / 73.81; AR(1) 26.73 / 61.92. No model wins every metric.",
+            "The current local 219-test suite passed; the real source dataset was not independently re-ingested for this website review."
           ]
         },
         {
           "title": "Financial reference scope",
-          "text": "The current recreation budget includes the separately scoped v0.7 offline CPU forecast research implementation alongside the previously priced foundations. The budget describes equivalent reproduction effort for the local developer implementation; independent qualification, production services and future work remain excluded. Delivery edition, rights and final consideration require written agreement.",
+          "text": "The recreation estimate contains EUR 167,500 of previously scoped work plus EUR 13,500 for post-0.7 constrained-decision, assurance and Q1 research implementation, giving EUR 181,000. This increment assumes 128 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. Asking/negotiation inputs preserve prior asking/cost relationships, rounded half-up to EUR 500. All effort and prices remain seller assumptions; market value and actual expenditure are not established. Existing v0.6 foundations and the already priced v0.7 forecast implementation are reused and excluded from this increment. Distribution metadata remains 0.7.0; v0.9/v1.0 are research gates. Q2 predictive-superiority work is planned only and excluded. Independent replication, scientific superiority, production deployment and third-party dataset ownership are excluded.",
           "items": []
         }
       ]
@@ -2263,10 +2273,10 @@
     },
     {
       "ref": "TA-IP-023",
-      "version": "8.28.0",
-      "developmentEdition": "",
-      "productPosition": "A phenomenology research and evidence platform combining controlled computational studies, governed observation intake, portable provenance packages and bounded scalar measurement adapters.",
-      "offeredEdition": "Specifically agreed first-party implementation, documentation and retained evidence for 8.28.0. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.",
+      "version": "8.29.0",
+      "developmentEdition": "B03 and B04.1–B04.4a implemented software gates; complete scientific comparison remains open",
+      "productPosition": "A phenomenology research software platform combining governed observations, provenance and scalar adapters with prespecified comparison designs, separated campaign/custody workflows, controlled calibration, transactional intent metadata and pinned held-out scoring reports.",
+      "offeredEdition": "Specifically agreed first-party 8.29.0 software and implemented B03/B04.1–B04.4a work, documentation and retained developer evidence. Future scientific gates and third-party rights are excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
@@ -2279,7 +2289,7 @@
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
           "grade": "E3",
-          "criterion": "Retained v8.28.0 evidence records 463/463 pytest tests and 30/30 native release checks PASS, all 23 installed entrypoints PASS and extracted-source-distribution replay PASS. Adapter observations and instruments in these checks are synthetic fixtures."
+          "criterion": "Package 8.29.0 with B03 and B04.1–B04.4a software gates. Retained B04.4a evidence records 682 tests and 37 native checks passing. These are software-reference checks; complete scientific empirical qualification remains open."
         },
         {
           "axis": "ipRightsMaturity",
@@ -2326,15 +2336,13 @@
       },
       "productDetails": [
         {
-          "title": "Edition-specific evidence",
-          "text": "Retained v8.28.0 evidence records 463/463 pytest tests and 30/30 native release checks PASS, all 23 installed entrypoints PASS and extracted-source-distribution replay PASS. Adapter observations and instruments in these checks are synthetic fixtures.",
-          "items": []
-        },
-        {
-          "title": "Intended qualification",
-          "text": "Qualify permissioned real measurement methods and observation provenance separately; agree the intended scientific protocol and reproduce package-level acceptance.",
+          "title": "Software qualification",
+          "text": "Package 8.29.0 with B03 and B04.1–B04.4a software gates. Retained B04.4a evidence records 682 tests and 37 native checks passing. These are software-reference checks; complete scientific empirical qualification remains open.",
           "items": [
-            "Metadata, provenance and scalar transformations do not authenticate empirical origin or establish neurobiology, causality, clinical effects or a physical interpretation."
+            "B04.4a retained record: 682/682 pytest, 37/37 native checks, 90 offline schemas, 30/30 installed entrypoints and source-distribution replay PASS.",
+            "The retained evidence was reviewed; this website assessment did not rerun the full DMT software suite.",
+            "Synthetic/software qualification does not authenticate empirical origin, independent human custody, optical causality, clinical benefit or a DMT-laser mechanism.",
+            "Held-out scoring is implemented, while condition-labelled contrasts, sensitivity computations and reference-baseline scientific comparison remain separately qualified future gates."
           ]
         }
       ]
@@ -2996,10 +3004,10 @@
     },
     {
       "ref": "TA-IP-068",
-      "version": "0.4.0",
-      "developmentEdition": "",
-      "productPosition": "An implemented prototype for evaluation and further development.",
-      "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
+      "version": "0.5.1",
+      "developmentEdition": "Real LTX-2.5 GPU qualification remains a separate open gate",
+      "productPosition": "A local media-production control plane with tenant-scoped accounts, hashed API keys, queued generation jobs and separately operated inference workers. Internal credits reserve and settle usage; administrative controls support suspension, recovery and review.",
+      "offeredEdition": "Specifically agreed first-party 0.5.1 control-plane, commercial-control and worker-protocol implementation with documentation. Third-party models, weights, runtimes, services and GPU infrastructure retain separate terms.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
@@ -3057,7 +3065,17 @@
         "securityDocumentationIdentified": true,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Local commercial controls",
+          "text": "Version 0.5.1 passed 38 local developer tests and repository identity/boundary checks. Real model/GPU qualification and production acceptance remain separate.",
+          "items": [
+            "Model weights and inference runtime are separately installed third-party components under their own terms.",
+            "Internal credits are entitlement units, not currency or a payment service.",
+            "Offline control-plane checks do not establish GPU performance, production security or customer deployment."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-089",

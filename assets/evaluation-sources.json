@@ -38,7 +38,7 @@
       "url": "https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html",
       "finding": "Cost-based reproduction/replacement is a starting point; cost and negotiated value may differ.",
       "application": "Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.",
-      "checkedOn": "2026-10-18",
+      "checkedOn": "2026-10-19",
       "categoryId": "valuation",
       "referenceBasisDate": "2026-10-17",
       "access": "Primary publisher page reviewed",
@@ -52,7 +52,7 @@
       "url": "https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst",
       "finding": "Reported 2026 mean software-developer rate: EUR 94/hour excluding VAT; broader survey includes over 20,000 Dutch self-employed people.",
       "application": "External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.",
-      "checkedOn": "2026-10-18",
+      "checkedOn": "2026-10-19",
       "categoryId": "rates",
       "referenceBasisDate": "2026-10-17",
       "access": "Primary publisher page reviewed",
@@ -80,7 +80,7 @@
       "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
       "finding": "Latest retrieved dated observation: 16 October 2026, EUR 1 = USD 1.1253. Indicative display conversion only.",
       "application": "Indicative USD display conversion only; authoritative project references remain in EUR.",
-      "checkedOn": "2026-10-18",
+      "checkedOn": "2026-10-19",
       "categoryId": "currency",
       "referenceBasisDate": "2026-10-17",
       "access": "Primary publisher page reviewed",
@@ -170,6 +170,20 @@
       "checkedOn": "2026-10-18",
       "access": "Primary publisher page reviewed",
       "referenceContext": "Identity and presentation-route controls"
+    },
+    {
+      "id": "UCI-374",
+      "publisher": "UCI Machine Learning Repository",
+      "title": "Appliances Energy Prediction — Candanedo (2017)",
+      "url": "https://archive.ics.uci.edu/dataset/374/appliances+energy+prediction",
+      "finding": "The publisher describes 19,735 building-energy observations at ten-minute intervals; DOI 10.24432/C5VC8G, CC BY 4.0.",
+      "application": "Dataset context for the systems-engine Q1 developer benchmark only. Metrics come from retained project evidence; this page does not validate the implementation or its predictions.",
+      "checkedOn": "2026-10-19",
+      "categoryId": "diligence",
+      "referenceBasisDate": "2026-10-19",
+      "access": "Primary dataset publisher page reviewed",
+      "useLimit": "One building-energy dataset; no independent replication, multi-domain superiority, production acceptance or asset valuation is supplied.",
+      "referenceContext": "Universal-Systems-Intelligence-Engine / Vespera / TA-IP-096 Q1 dataset context"
     }
   ],
   "assessmentRecords": [

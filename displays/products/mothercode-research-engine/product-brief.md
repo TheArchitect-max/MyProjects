@@ -191,7 +191,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "P", "potential": "M", "sector": "AI, Decision & Knowledge Systems", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc2
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/adaptive-neurodynamics-engineering-platform/#calculation
 

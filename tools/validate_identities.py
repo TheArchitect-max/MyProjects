@@ -35,7 +35,7 @@ def validate(snapshot=None):
  homepage=(ROOT/'assets/im.js').read_text();assert 'Project displays' in homepage and 'identities.html' in homepage
  assert not re.search(r'bitcoin:|Bitcoin|voluntary contribution',homepage,re.I)
  assert all('location.replace' in (ROOT/name).read_text() and 'acquisition.html' in (ROOT/name).read_text() for name in ['development.html','opportunity.html'])
- sources=json.loads((ROOT/'assets/evaluation-sources.json').read_text());assert len(sources['externalSources'])==10 and len(sources['assessmentRecords'])==7
+ sources=json.loads((ROOT/'assets/evaluation-sources.json').read_text());assert len(sources['externalSources'])==11 and len(sources['assessmentRecords'])==7
  source_count=0
  if snapshot:
   audit=json.loads(snapshot.read_text());records=audit['assets'];repo_ids={a['repositoryId'] for a in records}

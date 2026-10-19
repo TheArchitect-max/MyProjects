@@ -38,7 +38,7 @@ def validate():
    assert url.path.startswith('/MyProjects/'),(relative,link);target=ROOT/unquote(url.path.removeprefix('/MyProjects/'))
    if target.is_dir() or url.path.endswith('/'):target=target/'index.html'
    assert target.is_file(),(relative,link);links+=1
- aliases=json.loads((ROOT/'assets/route-aliases.json').read_text())['aliases'];assert len(aliases)==8
+ aliases=json.loads((ROOT/'assets/route-aliases.json').read_text())['aliases'];assert len(aliases)==9
  for a in aliases:
   assert set(a)=={'ref','legacySlug','slug'}
   for folder in [ROOT/'projects',ROOT/'displays/products']:

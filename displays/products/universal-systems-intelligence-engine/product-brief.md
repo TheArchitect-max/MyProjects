@@ -6,7 +6,7 @@ Model connected systems, compare scenarios and examine bounded offline forecast 
 
 ## Product overview
 
-Review connected-system models, supplied observations, scenario branches and local coupled simulations, alongside a developer-research forecast workflow with fixed tasks and chronological data separation. Compare reference predictors, inspect held-out errors and empirical intervals, and retain explicit abstention and evidence limits for further qualification.
+Connected-system simulation, traceable observations and offline forecast studies with constrained-decision and release-assurance research gates. A retained real-data CPU benchmark covers one UCI building-energy dataset; scope, abstention, evidence provenance and comparison limits remain explicit.
 
 ## Potential acquirers
 
@@ -23,6 +23,9 @@ Review connected-system models, supplied observations, scenario branches and loc
 - Retain attributable histories
 - Compare fixed-task offline forecasts with transparent CPU reference predictors
 - Review chronological splits, held-out errors, empirical intervals and abstention
+- Evaluate declared decision constraints with traceable feasibility and abstention
+- Inspect static and executed research-release assurance
+- Run pinned CPU data-receipt and benchmark studies
 
 ## Available output types
 
@@ -33,17 +36,18 @@ Review connected-system models, supplied observations, scenario branches and loc
 
 ## Current offered position
 
-Prototype. Locally tested 0.7.0 developer-research prototype. Physical prediction, representative-domain accuracy, independent model qualification and completed acquisition handover remain separate requirements.
+Prototype. Distribution version 0.7.0 with later v0.9/v1.0 and Q1 research gates. All 219 current local developer tests passed. No independent scientific, security or production qualification is established.
 
 Scope and transfer review required.
 
-- A connected-system modelling prototype. Physical prediction and cross-domain accuracy require domain-specific qualification.
-- The delivery perimeter and transfer requirements need further review before terms can be finalised.
-- The published financial references retain their disclosed v0.6 reproduction scope. The v0.7 research increment requires an expressly agreed delivery allocation and has no separately established monetary reference.
+- The retained UCI building-energy benchmark is a developer evaluation of one dataset; raw-data results were not independently recalculated in this review.
+- Persistence has the lowest reported MAE and AR(1) the lowest RMSE; no universal predictive superiority is demonstrated.
+- Q2 multi-dataset predictive-superiority work is planned only. Physical fidelity, cross-domain accuracy and production acceptance remain open.
+- The financial scope includes only the explicit implementation budgets, with earlier modelling and forecast foundations counted once.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 50,500.
+Seller asking reference: EUR 54,500.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -73,28 +77,29 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 0.7.0
+Identified product edition: 0.7.0 / v1.0 research gates + Q1
 
 Handover position: Scope closure required
 
-The 0.7.0 developer-research source combines connected-system simulation with fixed forecast tasks, chronological data splits, transparent CPU reference predictors, held-out error reports, empirical intervals and explicit abstention. All 128 repository tests passed in a local CPU environment for the reviewed source. Synthetic checks do not establish independent predictive or industrial qualification.
+Connected-system simulation, traceable observations and offline forecast studies with constrained-decision and release-assurance research gates. A retained real-data CPU benchmark covers one UCI building-energy dataset; scope, abstention, evidence provenance and comparison limits remain explicit.
 
-Separately scoped development: Offline predictive-research edition; independent model, field-data and intended-use qualification remain open
+Separately scoped development: Q2 predictive-superiority protocol is planned only; not an implemented or qualified capability
 
 ### Priced first-party scope
 
-Current first-party 0.7.0 research source, documented capabilities and retained developer evidence are available for an expressly agreed acquisition scope. The published recreation budget retains its disclosed v0.6.0 modelling, observation and co-simulation basis; the v0.7 forecasting increment has no separately established monetary allocation. Confirm the included edition, work-product perimeter and consideration in writing. Live telemetry, distributed operation, physical fidelity and production qualification remain excluded.
+Specifically agreed current first-party research implementation, including the constrained-decision, assurance and Q1 software gates. Distribution metadata remains 0.7.0. Delivery rights, source perimeter and recipient acceptance require written agreement.
 
-### Offline forecast research
+### Developer software evidence
 
-Caller-fixed forecast tasks use chronological training, validation and test partitions, transparent CPU predictors and comparison with a persistence reference. Empirical validation-residual intervals and abstention are research outputs, not established field-calibrated forecasts.
+Distribution version 0.7.0 with later v0.9/v1.0 and Q1 research gates. All 219 current local developer tests passed. No independent scientific, security or production qualification is established.
 
-- The full local 128-test repository suite and the synthetic forecast example passed for the reviewed source.
-- Representative held-out domain datasets, independent predictive benchmarks and the full model-qualification programme remain open.
+- Retained Q1 report: 19,735 observations, chronological train/validation/test partitions and three preregistered reference models.
+- Reported MAE / RMSE Wh: persistence 26.65 / 66.44; moving mean 31.17 / 73.81; AR(1) 26.73 / 61.92. No model wins every metric.
+- The current local 219-test suite passed; the real source dataset was not independently re-ingested for this website review.
 
 ### Financial reference scope
 
-The current recreation budget includes the separately scoped v0.7 offline CPU forecast research implementation alongside the previously priced foundations. The budget describes equivalent reproduction effort for the local developer implementation; independent qualification, production services and future work remain excluded. Delivery edition, rights and final consideration require written agreement.
+The recreation estimate contains EUR 167,500 of previously scoped work plus EUR 13,500 for post-0.7 constrained-decision, assurance and Q1 research implementation, giving EUR 181,000. This increment assumes 128 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. Asking/negotiation inputs preserve prior asking/cost relationships, rounded half-up to EUR 500. All effort and prices remain seller assumptions; market value and actual expenditure are not established. Existing v0.6 foundations and the already priced v0.7 forecast implementation are reused and excluded from this increment. Distribution metadata remains 0.7.0; v0.9/v1.0 are research gates. Q2 predictive-superiority work is planned only and excluded. Independent replication, scientific superiority, production deployment and third-party dataset ownership are excluded.
 
 
 
@@ -102,8 +107,8 @@ The current recreation budget includes the separately scoped v0.7 offline CPU fo
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | P | Current 0.7 developer-research source includes linked-system modelling, local co-simulation and fixed-task offline forecast studies with chronological separation, reference predictors, empirical intervals and abstention. Domain and physical prediction require independent qualification. |
-| Evidence and validation | E3 | The reviewed complete source passed 128 local CPU repository tests, compilation and a synthetic forecast example. Developer evidence is bounded to the recorded source and environment; representative field datasets and full independent model qualification remain open. |
+| Technical scope | P | Connected-system simulation, traceable observations and offline forecast studies with constrained-decision and release-assurance research gates. A retained real-data CPU benchmark covers one UCI building-energy dataset; scope, abstention, evidence provenance and comparison limits remain explicit. Intended-use and physical prediction require separate qualification. |
+| Evidence and validation | E3 | Distribution version 0.7.0 with later v0.9/v1.0 and Q1 research gates. All 219 current local developer tests passed. No independent scientific, security or production qualification is established. Retained real-data metrics are developer evidence, not independent reproduction. |
 | Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the documented rights and exclusions for your transaction; no independent title opinion is established. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. This is a seller asking reference and assumption-based reproduction model, not a completed sale or independent appraisal. |
 | Delivery and handover | T1 | Implementation exists but core transfer evidence is incomplete. The listed conditions and agreed delivery scope govern acceptance. |
@@ -153,14 +158,14 @@ Basis: 2026-10-19. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 50,500 | 56,828 |
-| Negotiation reference - low | 40,000 | 45,012 |
-| Negotiation reference - high | 63,000 | 70,894 |
-| Recreation cost estimate | 167,500 | 188,488 |
-| Marketability cost scenario | 134,544 | 151,402 |
-| Monetisation cost scenario | 96,103 | 108,145 |
-| Risk-adjusted strategic reference | 66,712 | 75,071 |
-| Weighted economic reference | 111,354 | 125,307 |
+| Seller asking reference | 54,500 | 61,329 |
+| Negotiation reference - low | 43,000 | 48,388 |
+| Negotiation reference - high | 68,000 | 76,520 |
+| Recreation cost estimate | 181,000 | 203,679 |
+| Marketability cost scenario | 145,388 | 163,605 |
+| Monetisation cost scenario | 103,849 | 116,861 |
+| Risk-adjusted strategic reference | 72,088 | 81,121 |
+| Weighted economic reference | 120,328 | 135,405 |
 
 USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
@@ -173,13 +178,13 @@ USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is 
 - Risk-adjusted strategic reference: Cost-based opportunity scenario with stated seller-selected factors.
 - Weighted economic reference: Weighted blend of correlated cost scenarios; not an independent appraisal.
 
-Milestone-conditioned reference: EUR 132,215; model change EUR 20,861. Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and an agreed operational and handover acceptance scope.
+Milestone-conditioned reference: EUR 142,871; model change EUR 22,543. Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and an agreed operational and handover acceptance scope.
 
 This is a conditional model sensitivity, not a current asking price, forecast or market value.
 
 ### Cost basis
 
-Recreation estimate: EUR 160,000 of previously scoped work plus EUR 7,500 for v0.7 offline CPU forecast research, giving EUR 167,500. The non-overlapping increment assumes 72 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. Asking and negotiation references retain the earlier seller-selected asking/cost relationships, rounded half-up to EUR 500. Reused foundations are included once; independent qualification, production services and future features are excluded. These are working seller estimates, not recorded spending, contractor quotes or established market value.
+The recreation estimate contains EUR 167,500 of previously scoped work plus EUR 13,500 for post-0.7 constrained-decision, assurance and Q1 research implementation, giving EUR 181,000. This increment assumes 128 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. Asking/negotiation inputs preserve prior asking/cost relationships, rounded half-up to EUR 500. All effort and prices remain seller assumptions; market value and actual expenditure are not established. Existing v0.6 foundations and the already priced v0.7 forecast implementation are reused and excluded from this increment. Distribution metadata remains 0.7.0; v0.9/v1.0 are research gates. Q2 predictive-superiority work is planned only and excluded. Independent replication, scientific superiority, production deployment and third-party dataset ownership are excluded.
 
 ### Financial assessment
 
@@ -236,6 +241,32 @@ Offline CPU forecast research: regular-grid series and chronological partitions;
 
 Equivalent reproduction effort is an explicit seller-side analyst assumption, not logged work, actual spend or an independent contractor quote. EUR 94/hour is published rate context, not a minimum. The 15% project coordination/tooling allowance and scenario alternatives are assumptions. Only the lowest of these bounded working scenarios is adopted. Reuses the existing v0.6 kernel, observation journal, coupling, replay and packaging; none is charged again. Independent model calibration, field-data acquisition, live integrations, causal discovery and production qualification are excluded.
 
+#### Scoped implementation reproduction budget
+
+post-0.7 constrained-decision, assurance and Q1 research implementation
+
+- Bounded constrained-decision contracts and abstention/feasibility evidence — 40 assumed hours
+- Static/executed release assurance and verifiable evidence manifests — 32 assumed hours
+- Pinned real-data receipt and preregistered CPU benchmark harness — 40 assumed hours
+- Developer regression, comparison boundaries and handover documentation — 16 assumed hours
+
+- Assumed hours: 128
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 12,032
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 13,836.8
+- Adopted recreation increment: EUR 13,500
+- Previous recreation cost: EUR 167,500
+- Current recreation cost: EUR 181,000
+- Effort alternatives / Low hours: 128
+- Effort alternatives / Reference hours: 192
+- Effort alternatives / Extended hours: 256
+- Effort alternatives / Low cost: EUR 13,836.8
+- Effort alternatives / Reference cost: EUR 20,755.2
+- Effort alternatives / Extended cost: EUR 27,673.6
+
+Equivalent reproduction effort is an explicit seller-side analyst assumption, not logged work, actual spend or a contractor quote. EUR 94/hour is rate context, not a minimum. The 15% allowance and alternatives are assumptions. The lowest bounded effort scenario is adopted. Existing v0.6 foundations and the already priced v0.7 forecast implementation are reused and excluded from this increment. Distribution metadata remains 0.7.0; v0.9/v1.0 are research gates. Q2 predictive-superiority work is planned only and excluded. Independent replication, scientific superiority, production deployment and third-party dataset ownership are excluded.
+
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
@@ -252,7 +283,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "P", "potential": "M", "sector": "Industrial & Infrastructure Software", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc2
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/universal-systems-intelligence-engine/#calculation
 
