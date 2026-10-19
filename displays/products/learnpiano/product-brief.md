@@ -131,7 +131,7 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-18. All amounts in EUR. Market value is not established.
+Basis: 2026-10-19. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
@@ -162,6 +162,14 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 ### Cost basis
 
 Disclosed base/increment assumptions reconcile to the retained recreation anchor. Effort remains an analyst estimate for its original scope.
+
+### Financial assessment
+
+Full budget for the stated priced scope. Assessed 2026-10-19.
+
+The disclosed adopted budget components reconcile to the recreation anchor. Scope, effort and rates are seller assumptions; this does not establish an independent quote, actual expenditure or coverage of every current or proposed feature.
+
+Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
 #### Scoped work-package budget
 

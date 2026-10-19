@@ -43,7 +43,7 @@ Available for acquisition discussion.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 10,500.
+Seller asking reference: EUR 13,500.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -99,7 +99,7 @@ Complete representative human editorial and local-browser acceptance, define key
 
 ### Financial reference scope
 
-The eight retained financial references use the existing registry, assurance and R4 editorial cost budgets. The R5 source is disclosed as a current implementation, with delivery scope and any separate consideration to be agreed rather than silently added to the original monetary basis.
+The current recreation budget includes the separately scoped v0.6 / R5 simulated commerce implementation alongside the previously priced foundations. The budget describes equivalent reproduction effort for the local developer implementation; independent qualification, production services and future work remain excluded. Delivery edition, rights and final consideration require written agreement.
 
 
 
@@ -145,18 +145,18 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-18. All amounts in EUR. Market value is not established.
+Basis: 2026-10-19. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 10,500 | 11,816 |
-| Negotiation reference - low | 8,000 | 9,002 |
-| Negotiation reference - high | 13,500 | 15,192 |
-| Recreation cost estimate | 35,000 | 39,386 |
-| Marketability cost scenario | 26,775 | 30,130 |
-| Monetisation cost scenario | 25,988 | 29,244 |
-| Risk-adjusted strategic reference | 13,276 | 14,939 |
-| Weighted economic reference | 23,949 | 26,950 |
+| Seller asking reference | 13,500 | 15,192 |
+| Negotiation reference - low | 10,500 | 11,816 |
+| Negotiation reference - high | 17,500 | 19,693 |
+| Recreation cost estimate | 45,000 | 50,639 |
+| Marketability cost scenario | 34,425 | 38,738 |
+| Monetisation cost scenario | 33,413 | 37,600 |
+| Risk-adjusted strategic reference | 17,069 | 19,208 |
+| Weighted economic reference | 30,792 | 34,650 |
 
 USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
@@ -175,7 +175,15 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-Recreation estimate: EUR 30,000 retained scope component plus EUR 5,000 for the explicitly scoped implementation work budget, giving EUR 35,000. The scoped budget assumes 48 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has its own disclosed work-package estimate; overlapping work must not be added twice. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.
+Recreation estimate: EUR 35,000 of previously scoped work plus EUR 10,000 for v0.6 / R5 simulated commerce, giving EUR 45,000. The non-overlapping increment assumes 96 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. Asking and negotiation references retain the earlier seller-selected asking/cost relationships, rounded half-up to EUR 500. Reused foundations are included once; independent qualification, production services and future features are excluded. These are working seller estimates, not recorded spending, contractor quotes or established market value.
+
+### Financial assessment
+
+Full budget for the stated priced scope. Assessed 2026-10-19.
+
+The disclosed adopted budget components reconcile to the recreation anchor. Scope, effort and rates are seller assumptions; this does not establish an independent quote, actual expenditure or coverage of every current or proposed feature.
+
+Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
 #### Low-effort working estimate
 
@@ -225,6 +233,32 @@ Revision-bound editorial reviews and publication gates; Canon/world graph and mu
 - Effort alternatives / Extended cost: EUR 10,377.6
 
 Seller-selected equivalent reproduction effort for the expressly bounded implementation. These are not logged hours, elapsed development time or actual spending. EUR 94/hour is external rate context, not a minimum or quote; the 15% allowance is an assumption. The selected scenario is the lowest of these scoped scenarios, not an absolute cost floor. Candidate-only future features and unestablished qualification are excluded.
+
+#### Scoped implementation reproduction budget
+
+Local simulated commerce domain: immutable order-line snapshots, atomic stock allocation, persistent idempotency, bounded lifecycle/refund/return states, balanced synthetic postings and read-only reconciliation; local API/studio, migration and regressions.
+
+- Order snapshots and transactional multi-object stock allocation with concurrency guards — 24 assumed hours
+- Persistent idempotency and simulated capture/fulfilment/cancel/return/refund contracts — 24 assumed hours
+- Balanced synthetic postings, monetary bounds and inventory/journal reconciliation — 24 assumed hours
+- Schema migration, local HTTP/studio integration, adversarial regressions and handover — 24 assumed hours
+
+- Assumed hours: 96
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 9,024
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 10,377.6
+- Adopted recreation increment: EUR 10,000
+- Previous recreation cost: EUR 35,000
+- Current recreation cost: EUR 45,000
+- Effort alternatives / Low hours: 96
+- Effort alternatives / Reference hours: 144
+- Effort alternatives / Extended hours: 192
+- Effort alternatives / Low cost: EUR 10,377.6
+- Effort alternatives / Reference cost: EUR 15,566.4
+- Effort alternatives / Extended cost: EUR 20,755.2
+
+Equivalent reproduction effort is an explicit seller-side analyst assumption, not logged work, actual spend or an independent contractor quote. EUR 94/hour is published rate context, not a minimum. The 15% project coordination/tooling allowance and scenario alternatives are assumptions. Only the lowest of these bounded working scenarios is adopted. Reuses the R0-R3 registry/assurance and R4 editorial foundations; none is charged again. Real payments, customer authentication, hosting, accounting/tax approval, production operation and statutory commerce workflows are excluded.
 
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 

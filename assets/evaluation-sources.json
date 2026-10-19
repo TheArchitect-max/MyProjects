@@ -1,6 +1,6 @@
 {
   "schema": "public-evaluation-sources-1",
-  "basisDate": "2026-10-18",
+  "basisDate": "2026-10-19",
   "title": "Sources behind the asset evaluation",
   "scope": "External references inform method, rate, currency and diligence context. Project-specific descriptions, grades, effort assumptions and prices remain attributed to the seller records. Market value has not been established.",
   "categories": [
@@ -203,19 +203,19 @@
     {
       "id": "financial-inputs",
       "title": "Seller cost and commercial inputs",
-      "basis": "The per-asset asking references, scoped work budgets, role-rate assumptions and disclosed economic factors.",
+      "basis": "All 108 financial records reassessed against current offered/development editions, retained qualification and rights/transfer conditions, explicit scoped budgets and disclosed seller factors. Budget coverage is classified for each asset.",
       "application": "Eight EUR and USD reference fields, conditional scenarios and portfolio reconciliation.",
-      "limit": "Effort and model factors are seller assumptions. They are not logged spending, comparable transactions or established market value.",
-      "publicUrl": "assets/pricing-catalogue.json",
-      "linkLabel": "Public financial inputs and factors"
+      "limit": "11 stated scopes have full budget reconciliation, 29 have partial budgets and 68 retain estimates without a complete work breakdown. Effort, cost anchors and scenario factors remain seller assumptions; none establishes market value or an independent quote.",
+      "publicUrl": "valuation.html#assessment",
+      "linkLabel": "Complete financial assessment coverage"
     },
     {
       "id": "calculation",
       "title": "Reproducible arithmetic",
       "basis": "The public pricing inputs and shared calculation module, with a downloadable deterministic check report.",
-      "application": "432 scenario outputs, 864 USD conversions, 46 scoped budgets, 49 conditional references and eight totals.",
+      "application": "432 scenario outputs, 864 USD conversions, 48 scoped budgets, 49 conditional references and eight totals.",
       "limit": "A matching calculation checks arithmetic consistency; it does not independently validate the assumptions.",
-      "publicUrl": "proof.html?v=calc1",
+      "publicUrl": "proof.html?v=calc3",
       "linkLabel": "Run calculation validation"
     },
     {
@@ -230,7 +230,7 @@
     {
       "id": "asset-identity",
       "title": "Asset identity and display linkage",
-      "basis": "Authenticated repository inventory matched by stable numeric repository ID to 108 asset identities and two publication repositories. Uninitialised repositories without a source baseline are excluded from the asset count; current identity records and presentation links are reviewed.",
+      "basis": "Authenticated inventory of 111 repositories matched by stable numeric repository ID to 108 asset identities and three publication/acquisition repositories. Current identity records, feminine reference names and presentation links are reviewed.",
       "application": "Canonical project title, TA-IP reference and feminine alias across repository identity metadata, asset dossiers, displays, factsheets and product briefs.",
       "limit": "Identity consistency does not establish ownership clearance, product qualification or market value. Private source and detailed internal records are outside the public register.",
       "publicUrl": "identities.html",
