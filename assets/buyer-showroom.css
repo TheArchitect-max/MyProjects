@@ -35,3 +35,6 @@
 /* Narrative valuation tables retain readable wrapping at every width. */
 .value-bases{table-layout:fixed;width:100%}.value-bases th:first-child{width:20%}.value-bases th:nth-child(2),.value-bases th:nth-child(3){width:40%}.value-bases th,.value-bases td{white-space:normal;overflow-wrap:anywhere;line-height:1.7}
 @media(max-width:700px){.value-bases th,.value-bases td{padding:10px;font-size:.73rem}}
+
+/* Visible attribution for company-specific seller analysis. */
+.strategic-disclosure{margin:0 0 2rem;padding:1rem 1.2rem;border-left:2px solid var(--gold,#c5a46d);background:rgba(124,84,47,.12);color:var(--ivory,#eee5d5);font-size:.85rem;line-height:1.7;max-width:none}.strategic-crosslink .strategic-disclosure{margin-bottom:1.5rem;font-size:.8rem}
