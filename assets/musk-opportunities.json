@@ -100,37 +100,43 @@
           "ref": "TA-IP-070",
           "fit": "Study bounded adaptation, memory consolidation and retained neural state as an independent cognitive research component.",
           "evaluation": "Compare sequential-task retention, forgetting and recovery on declared workloads; inspect opt-in worker admission.",
-          "scopeNote": "Experimental cognitive runtime. No AGI is established; admitted workers are not contained by a hostile-code sandbox."
+          "scopeNote": "Experimental cognitive runtime. No AGI is established; admitted workers are not contained by a hostile-code sandbox.",
+          "canonicalConnectionId": "TA-CN-009"
         },
         {
           "ref": "TA-IP-022",
           "fit": "Evaluate workload placement, capacity reservation and recovery decisions across explicitly authorised compute resources.",
           "evaluation": "Measure placement overhead and recovery on the buyer's permitted hardware; distinguish retained single-device evidence from open multi-host and multi-GPU gates.",
-          "scopeNote": "The baseline and development candidate have distinct scopes. Physical multi-GPU, two-host recovery and live containment qualification remain open."
+          "scopeNote": "The baseline and development candidate have distinct scopes. Physical multi-GPU, two-host recovery and live containment qualification remain open.",
+          "canonicalConnectionId": "TA-CN-006"
         },
         {
           "ref": "TA-IP-019",
           "fit": "Keep engineering precedents, acceptance decisions and recovery evidence attributable and available for review.",
           "evaluation": "Test retrieval relevance, evidence freshness, durable recovery and access boundaries using authorised software-change cases.",
-          "scopeNote": "Governed software-change memory. Records do not authorise production actions; external provider execution is outside the demonstrated core."
+          "scopeNote": "Governed software-change memory. Records do not authorise production actions; external provider execution is outside the demonstrated core.",
+          "canonicalConnectionId": "TA-CN-005"
         },
         {
           "ref": "TA-IP-053",
           "fit": "Compare specialist reasoning paths and inspect contradictions and supporting evidence before accepting an analytical result.",
           "evaluation": "Use buyer-supplied cases with adjudicated answers to assess grounding, disagreement handling and reproducibility.",
-          "scopeNote": "The validated baseline and separately scoped candidate must be distinguished. No advantage over the buyer's models is established."
+          "scopeNote": "The validated baseline and separately scoped candidate must be distinguished. No advantage over the buyer's models is established.",
+          "canonicalConnectionId": "TA-CN-001"
         },
         {
           "ref": "TA-IP-028",
           "fit": "Explore resource-bounded generation and revision workflows with retained project state and configurable review conditions.",
           "evaluation": "Measure interruption recovery, task quality and resource use under explicit model and service permissions.",
-          "scopeNote": "A development-branch release candidate; production and provider qualification require separate acceptance."
+          "scopeNote": "A development-branch release candidate; production and provider qualification require separate acceptance.",
+          "canonicalConnectionId": "TA-CN-006"
         },
         {
           "ref": "TA-IP-018",
           "fit": "Evaluate explicit authorisation and attributable state transitions around bounded software execution requests.",
           "evaluation": "Review denial cases, permission boundaries, replay integrity and the exact actions a proposed adapter could authorise.",
-          "scopeNote": "An independent control-software evaluation. No connection to Grok tools or live company infrastructure is delivered."
+          "scopeNote": "An independent control-software evaluation. No connection to Grok tools or live company infrastructure is delivered.",
+          "canonicalConnectionId": "TA-CN-018"
         }
       ]
     },
@@ -156,37 +162,43 @@
           "ref": "TA-IP-013",
           "fit": "Compare model-adaptation studies and inspect the evidence used to promote a training candidate.",
           "evaluation": "Reproduce the offered alpha edition on an agreed model study; verify adapter, resume and promotion behaviour independently.",
-          "scopeNote": "Model-training research software. Earlier GPU evidence is version-specific and external adapter qualification remains open."
+          "scopeNote": "Model-training research software. Earlier GPU evidence is version-specific and external adapter qualification remains open.",
+          "canonicalConnectionId": "TA-CN-008"
         },
         {
           "ref": "TA-IP-016",
           "fit": "Organise supplied signal series, align observations and retain traceable processing and recovery results.",
           "evaluation": "Test representative sensor rates, temporal alignment, missing records, retry behaviour and domain-specific accuracy.",
-          "scopeNote": "Supplied-series reference software; live-instrument and automotive domain acceptance are not established."
+          "scopeNote": "Supplied-series reference software; live-instrument and automotive domain acceptance are not established.",
+          "canonicalConnectionId": "TA-CN-022"
         },
         {
           "ref": "TA-IP-003",
           "fit": "Compare coupled service failures, degraded conditions and defensive resource choices in controlled reliability scenarios.",
           "evaluation": "Calibrate a permitted scenario and distinguish measured workload traces from simulated controller responses.",
-          "scopeNote": "Engineering and simulation scope. Environment-specific calibration, full dependency tests and operational acceptance remain separate."
+          "scopeNote": "Engineering and simulation scope. Environment-specific calibration, full dependency tests and operational acceptance remain separate.",
+          "canonicalConnectionId": "TA-CN-007"
         },
         {
           "ref": "TA-IP-052",
           "fit": "Examine multimodal perception experiments with retained source provenance and controlled scientific-claim promotion.",
           "evaluation": "Compare declared conditions and representative perception benchmarks, including uncertainty and adverse cases.",
-          "scopeNote": "Feature-specific research evidence does not establish vehicle perception performance or biological equivalence."
+          "scopeNote": "Feature-specific research evidence does not establish vehicle perception performance or biological equivalence.",
+          "canonicalConnectionId": "TA-CN-010"
         },
         {
           "ref": "TA-IP-025",
           "fit": "Replay multi-source observations and inspect state uncertainty, telemetry alignment and bounded digital-twin decisions.",
           "evaluation": "Exercise ordering, fencing, idempotency and recovery on supplied telemetry; compare the model with buyer-approved physical references.",
-          "scopeNote": "The priced baseline excludes the separate hardening candidate. Physical-system and production qualification are separate."
+          "scopeNote": "The priced baseline excludes the separate hardening candidate. Physical-system and production qualification are separate.",
+          "canonicalConnectionId": "TA-CN-017"
         },
         {
           "ref": "TA-IP-059",
           "fit": "Compare equipment-condition models and remaining-life estimates for manufacturing or maintenance research.",
           "evaluation": "Use representative machine histories to test error, calibration, false alarms and robustness to data drift.",
-          "scopeNote": "Condition and remaining-life research software. Equipment-specific predictive performance requires data and acceptance."
+          "scopeNote": "Condition and remaining-life research software. Equipment-specific predictive performance requires data and acceptance.",
+          "canonicalConnectionId": "TA-CN-017"
         }
       ]
     },
@@ -212,31 +224,36 @@
           "ref": "TA-IP-030",
           "fit": "Study deterministic mission, route and fault scenarios with battery, thermal and supervisory histories.",
           "evaluation": "Compare the specific electric-flight and energy models with approved references and sensitivity cases.",
-          "scopeNote": "Software-in-the-loop research. The battery and aircraft models are not validated rocket or spacecraft propulsion models."
+          "scopeNote": "Software-in-the-loop research. The battery and aircraft models are not validated rocket or spacecraft propulsion models.",
+          "canonicalConnectionId": "TA-CN-020"
         },
         {
           "ref": "TA-IP-001",
           "fit": "Organise aerospace observations and replay evidence comparisons while preserving uncertainty and declared geometry.",
           "evaluation": "Distinguish the baseline from the research candidate; independently assess calibration, geometry and cross-modality interpretation.",
-          "scopeNote": "Observation-research software, not a launch vehicle or mission controller. Calibrated field and mission performance remain open."
+          "scopeNote": "Observation-research software, not a launch vehicle or mission controller. Calibrated field and mission performance remain open.",
+          "canonicalConnectionId": "TA-CN-029"
         },
         {
           "ref": "TA-IP-032",
           "fit": "Compare electric-flight control and energy assumptions as an adjacent aerospace simulation research asset.",
           "evaluation": "Check the available model against independent reference cases and identify any reusable first-party simulation components.",
-          "scopeNote": "Electric-flight simulation only. No rocket, Starship, spacecraft or physical-aircraft qualification is established."
+          "scopeNote": "Electric-flight simulation only. No rocket, Starship, spacecraft or physical-aircraft qualification is established.",
+          "canonicalConnectionId": "TA-CN-020"
         },
         {
           "ref": "TA-IP-098",
           "fit": "Review conceptual launch and cislunar transport architectures, route assumptions and logistics decision evidence.",
           "evaluation": "Assess the baseline transport studies and expressly distinguish the unmerged refuelling/departure draft from the included edition.",
-          "scopeNote": "FusionLunar transport module. Parent/module delivery and rights require explicit allocation; completed joint integration and flight qualification are not established."
+          "scopeNote": "FusionLunar transport module. Parent/module delivery and rights require explicit allocation; completed joint integration and flight qualification are not established.",
+          "canonicalConnectionId": "TA-CN-026"
         },
         {
           "ref": "TA-IP-104",
           "fit": "Turn a defined engineering objective into reviewed requirements, dependencies, work packages and planning reports.",
           "evaluation": "Trace a supplied mission requirement through dependencies and blockers; independently assess the feasibility of the resulting plan.",
-          "scopeNote": "Local planning prototype. Review labels are declarations, not scientific or operational certification; handover documentation remains open."
+          "scopeNote": "Local planning prototype. Review labels are declarations, not scientific or operational certification; handover documentation remains open.",
+          "canonicalConnectionId": "TA-CN-027"
         }
       ]
     },
@@ -263,19 +280,22 @@
           "ref": "TA-IP-002",
           "fit": "Compare network disruption and repair portfolios with explicit budgets, failure domains and uncertainty checks.",
           "evaluation": "Assess a buyer-supplied topology against its baseline repair strategy, including degraded cases and zero-budget constraints.",
-          "scopeNote": "Deterministic network-resilience research; no calibrated Starlink constellation or universal optimisation claim."
+          "scopeNote": "Deterministic network-resilience research; no calibrated Starlink constellation or universal optimisation claim.",
+          "canonicalConnectionId": "TA-CN-033"
         },
         {
           "ref": "TA-IP-082",
           "fit": "Study authorised worker coordination, bounded reconnect and session continuity in a distributed software setting.",
           "evaluation": "Test mutual-authentication boundaries, lease expiry, heartbeats and recovery on an isolated permitted environment.",
-          "scopeNote": "Reference worker software. Loopback evidence does not establish remote fleet, accelerator, orbital or provider qualification."
+          "scopeNote": "Reference worker software. Loopback evidence does not establish remote fleet, accelerator, orbital or provider qualification.",
+          "canonicalConnectionId": "TA-CN-007"
         },
         {
           "ref": "TA-IP-004",
           "fit": "Review attributable state changes and contradictory records across replayable disruption histories.",
           "evaluation": "Exercise stale records, duplicate events, conflicting state and recovery against a defined buyer acceptance contract.",
-          "scopeNote": "State-integrity evaluation software. It is not a delivered telecommunications control-plane integration."
+          "scopeNote": "State-integrity evaluation software. It is not a delivered telecommunications control-plane integration.",
+          "canonicalConnectionId": "TA-CN-005"
         }
       ]
     },
@@ -301,13 +321,15 @@
           "ref": "TA-IP-077",
           "fit": "Explore repeatable neural-dynamics and active-inference studies with interventions and robustness comparisons.",
           "evaluation": "Reproduce controlled computational cases against independent models; distinguish the retained baseline from the candidate awaiting validation.",
-          "scopeNote": "Computational simulation. No biological equivalence, implant integration or clinical outcome is claimed."
+          "scopeNote": "Computational simulation. No biological equivalence, implant integration or clinical outcome is claimed.",
+          "canonicalConnectionId": "TA-CN-009"
         },
         {
           "ref": "TA-IP-037",
           "fit": "Compare learning and memory behaviour in declared neural-dynamics experiments and retained benchmark records.",
           "evaluation": "Review experimental source and reproducibility separately from the historical priced evidence package.",
-          "scopeNote": "Experimental development-branch research. The historical and candidate editions require explicit separation in the delivery terms."
+          "scopeNote": "Experimental development-branch research. The historical and candidate editions require explicit separation in the delivery terms.",
+          "canonicalConnectionId": null
         }
       ]
     },
@@ -334,25 +356,29 @@
           "ref": "TA-IP-043",
           "fit": "Organise supplied subsurface-material evidence, qualification decisions and provenance for a review package.",
           "evaluation": "Test traceability and consistency using independently identified materials and authorised records.",
-          "scopeNote": "Evidence qualification, not physical subsurface identification, geological measurement or a tunnelling sensor."
+          "scopeNote": "Evidence qualification, not physical subsurface identification, geological measurement or a tunnelling sensor.",
+          "canonicalConnectionId": null
         },
         {
           "ref": "TA-IP-010",
           "fit": "Explore simulated rotating-machine conditions and faults with explanatory diagnostic histories.",
           "evaluation": "Compare fault scenarios with equipment-specific reference data and document model limits.",
-          "scopeNote": "Machinery simulation and diagnostic demonstrations; no Prufrock interface or field diagnostic accuracy is established."
+          "scopeNote": "Machinery simulation and diagnostic demonstrations; no Prufrock interface or field diagnostic accuracy is established.",
+          "canonicalConnectionId": "TA-CN-017"
         },
         {
           "ref": "TA-IP-102",
           "fit": "Model resources, prerequisites, capacity and deadlines, then compare offline operational plans before authorisation.",
           "evaluation": "Test scheduling constraints and blocked cases against an agreed industrial-planning baseline.",
-          "scopeNote": "Offline operations-planning prototype. Production authentication, live operations and autonomous execution remain future work."
+          "scopeNote": "Offline operations-planning prototype. Production authentication, live operations and autonomous execution remain future work.",
+          "canonicalConnectionId": "TA-CN-027"
         },
         {
           "ref": "TA-IP-096",
           "fit": "Compose connected-system scenarios and examine bounded offline forecast studies for a supplied industrial research question.",
           "evaluation": "Reproduce local model composition and chronological forecast studies; assess predictors, abstention and empirical intervals against representative domain references.",
-          "scopeNote": "Developer-research prototype. Independent physical prediction, field calibration, cross-domain accuracy and handover remain open. Existing cost references retain the disclosed v0.6 scope."
+          "scopeNote": "Developer-research prototype. Independent physical prediction, field calibration, cross-domain accuracy and handover remain open. Existing cost references retain the disclosed v0.6 scope.",
+          "canonicalConnectionId": "TA-CN-028"
         }
       ]
     }

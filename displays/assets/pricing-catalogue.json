@@ -46,14 +46,14 @@
     }
   ],
   "portfolio": {
-    "sellerAskEUR": 24708000,
-    "negotiationLowEUR": 19737500,
-    "negotiationHighEUR": 30966875,
-    "replacementCostEUR": 105263500,
-    "marketComparableProxyEUR": 119710449,
-    "incomeLicensingProxyEUR": 140860964,
-    "probabilityAdjustedStrategicValueEUR": 131562836,
-    "triangulatedEconomicReferenceEUR": 124477154
+    "sellerAskEUR": 24720000,
+    "negotiationLowEUR": 19746500,
+    "negotiationHighEUR": 30981375,
+    "replacementCostEUR": 105319500,
+    "marketComparableProxyEUR": 119757462,
+    "incomeLicensingProxyEUR": 140910917,
+    "probabilityAdjustedStrategicValueEUR": 131597834,
+    "triangulatedEconomicReferenceEUR": 124522796
   },
   "displayCurrency": {
     "base": "EUR",
@@ -248,11 +248,11 @@
     "reassessment": {
       "assessedOn": "2026-10-19",
       "assetsReviewed": 108,
-      "basis": "Current repository documentation, offered/development editions, retained qualification and rights/transfer conditions, disclosed work budgets and financial arithmetic. All 111 repository heads and 43 open change proposals were inventoried. Private source identifiers are retained in the acquisition dossier.",
-      "runtimeBoundary": "No fresh runtime qualification of all 108 products is represented. Exact-source local developer results for the two newly budgeted implementations are retained from the preceding audit; source unchanged.",
+      "basis": "All 111 current default-branch identities and full READMEs reviewed against the preceding detailed assessment. Current implementation/evidence records reviewed for the four changed asset sources; explicit work-package estimates recognise bounded additional implementation once.",
+      "runtimeBoundary": "Fresh local CPU developer suites passed for three changed sources: 38 media-platform, 29 governance-runtime and 219 systems-engine tests. DMT is a documentary review of retained software evidence. No fresh all-108 runtime certification, GPU qualification, independent raw-data replication or production acceptance is represented.",
       "budgetCoverage": {
-        "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN": 68,
-        "PARTIAL_SCOPED_BUDGET": 29,
+        "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN": 66,
+        "PARTIAL_SCOPED_BUDGET": 31,
         "FULL_SCOPED_BUDGET": 11
       },
       "budgetCoverageBoundary": "Coverage describes the arithmetic and stated scope of seller budgets, not external price validation or whole-product production acceptance.",
@@ -606,7 +606,7 @@
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "V",
           "evidenceMaturity": "E3",
@@ -756,14 +756,14 @@
     {
       "ref": "TA-IP-083",
       "values": {
-        "sellerAskEUR": 200000,
-        "negotiationLowEUR": 160000,
-        "negotiationHighEUR": 250000,
-        "replacementCostEUR": 1150000,
-        "marketComparableProxyEUR": 1236538,
-        "incomeLicensingProxyEUR": 1339031,
-        "probabilityAdjustedStrategicValueEUR": 1036776,
-        "triangulatedEconomicReferenceEUR": 1165485
+        "sellerAskEUR": 201500,
+        "negotiationLowEUR": 161000,
+        "negotiationHighEUR": 252000,
+        "replacementCostEUR": 1158500,
+        "marketComparableProxyEUR": 1245677,
+        "incomeLicensingProxyEUR": 1348928,
+        "probabilityAdjustedStrategicValueEUR": 1044439,
+        "triangulatedEconomicReferenceEUR": 1174100
       },
       "basisDate": "2026-10-19",
       "sourceIds": [
@@ -771,19 +771,62 @@
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.",
-      "costBudgets": [],
+      "costBasisNote": "The recreation estimate contains EUR 1,150,000 of previously scoped work plus EUR 8,500 for RC1 local persistent governance runtime, giving EUR 1,158,500. This increment assumes 80 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. Asking/negotiation inputs preserve prior asking/cost relationships, rounded half-up to EUR 500. All effort and prices remain seller assumptions; market value and actual expenditure are not established. Previously described obligation, authority, risk/control and domain-pack foundations are reused and excluded from this increment. Production security, high availability, enterprise identity, certification and legal/regulatory conclusions are excluded.",
+      "costBudgets": [
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "economicAssessmentAt": "2026-10-19",
+          "scope": "RC1 local persistent governance runtime",
+          "workPackages": [
+            {
+              "scope": "Workspace/case graph and evidence expiry/revocation/supersession",
+              "lowEffortHours": 24
+            },
+            {
+              "scope": "Digest-verified state and portable-bundle restore",
+              "lowEffortHours": 16
+            },
+            {
+              "scope": "SQLite snapshot migration, integrity and verified backup recovery",
+              "lowEffortHours": 24
+            },
+            {
+              "scope": "Local persistence and lifecycle acceptance regressions",
+              "lowEffortHours": 16
+            }
+          ],
+          "assumedHours": 80,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 7520,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 8648,
+          "adoptedRecreationIncrementEUR": 8500,
+          "previousRecreationCostEUR": 1150000,
+          "currentRecreationCostEUR": 1158500,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 80,
+            "referenceHours": 120,
+            "extendedHours": 160,
+            "lowCostEUR": 8648,
+            "referenceCostEUR": 12972,
+            "extendedCostEUR": 17296
+          },
+          "boundary": "Equivalent reproduction effort is an explicit seller-side analyst assumption, not logged work, actual spend or a contractor quote. EUR 94/hour is rate context, not a minimum. The 15% allowance and alternatives are assumptions. The lowest bounded effort scenario is adopted. Previously described obligation, authority, risk/control and domain-pack foundations are reused and excluded from this increment. Production security, high availability, enterprise identity, certification and legal/regulatory conclusions are excluded."
+        }
+      ],
       "futureReference": {
-        "milestoneConditionedEconomicReferenceEUR": 1449238,
-        "sensitivityDeltaEUR": 283753,
+        "milestoneConditionedEconomicReferenceEUR": 1459949,
+        "sensitivityDeltaEUR": 285849,
         "currentStage": "P",
         "targetStage": "V",
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 1630828,
-        "sensitivityDeltaUSD": 319307
+        "milestoneConditionedEconomicReferenceUSD": 1642881,
+        "sensitivityDeltaUSD": 321666
       },
       "calculationInputs": {
         "stage": "P",
@@ -792,22 +835,22 @@
         "route": "Enterprise software / licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 225060,
-        "negotiationLowUSD": 180048,
-        "negotiationHighUSD": 281325,
-        "replacementCostUSD": 1294095,
-        "marketComparableProxyUSD": 1391476,
-        "incomeLicensingProxyUSD": 1506812,
-        "probabilityAdjustedStrategicValueUSD": 1166684,
-        "triangulatedEconomicReferenceUSD": 1311520
+        "sellerAskUSD": 226748,
+        "negotiationLowUSD": 181173,
+        "negotiationHighUSD": 283576,
+        "replacementCostUSD": 1303660,
+        "marketComparableProxyUSD": 1401760,
+        "incomeLicensingProxyUSD": 1517949,
+        "probabilityAdjustedStrategicValueUSD": 1175307,
+        "triangulatedEconomicReferenceUSD": 1321215
       },
       "assessment": {
         "assessedOn": "2026-10-19",
-        "offeredEdition": "0.1.0",
+        "offeredEdition": "0.1.0 / RC1",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
-        "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
-        "costEvidenceLabel": "Retained seller estimate; work breakdown required",
-        "costEvidenceNote": "No complete work-package budget supports this retained recreation anchor in the financial register. The current amount remains a low-confidence seller estimate. Do not infer engineering hours or market value from it; obtain a delivery-specific work breakdown and quote.",
+        "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
+        "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "P",
           "evidenceMaturity": "E2",
@@ -912,7 +955,7 @@
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "P",
           "evidenceMaturity": "E2",
@@ -1016,7 +1059,7 @@
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "V",
           "evidenceMaturity": "E4",
@@ -1116,7 +1159,7 @@
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "V",
           "evidenceMaturity": "E2",
@@ -1350,7 +1393,7 @@
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "V",
           "evidenceMaturity": "E3",
@@ -1429,7 +1472,7 @@
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "P",
           "evidenceMaturity": "E3",
@@ -1529,7 +1572,7 @@
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "V",
           "evidenceMaturity": "E3",
@@ -1691,7 +1734,7 @@
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "V",
           "evidenceMaturity": "E3",
@@ -1960,14 +2003,14 @@
     {
       "ref": "TA-IP-096",
       "values": {
-        "sellerAskEUR": 50500,
-        "negotiationLowEUR": 40000,
-        "negotiationHighEUR": 63000,
-        "replacementCostEUR": 167500,
-        "marketComparableProxyEUR": 134544,
-        "incomeLicensingProxyEUR": 96103,
-        "probabilityAdjustedStrategicValueEUR": 66712,
-        "triangulatedEconomicReferenceEUR": 111354
+        "sellerAskEUR": 54500,
+        "negotiationLowEUR": 43000,
+        "negotiationHighEUR": 68000,
+        "replacementCostEUR": 181000,
+        "marketComparableProxyEUR": 145388,
+        "incomeLicensingProxyEUR": 103849,
+        "probabilityAdjustedStrategicValueEUR": 72088,
+        "triangulatedEconomicReferenceEUR": 120328
       },
       "basisDate": "2026-10-19",
       "sourceIds": [
@@ -1975,7 +2018,7 @@
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "Recreation estimate: EUR 160,000 of previously scoped work plus EUR 7,500 for v0.7 offline CPU forecast research, giving EUR 167,500. The non-overlapping increment assumes 72 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. Asking and negotiation references retain the earlier seller-selected asking/cost relationships, rounded half-up to EUR 500. Reused foundations are included once; independent qualification, production services and future features are excluded. These are working seller estimates, not recorded spending, contractor quotes or established market value.",
+      "costBasisNote": "The recreation estimate contains EUR 167,500 of previously scoped work plus EUR 13,500 for post-0.7 constrained-decision, assurance and Q1 research implementation, giving EUR 181,000. This increment assumes 128 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. Asking/negotiation inputs preserve prior asking/cost relationships, rounded half-up to EUR 500. All effort and prices remain seller assumptions; market value and actual expenditure are not established. Existing v0.6 foundations and the already priced v0.7 forecast implementation are reused and excluded from this increment. Distribution metadata remains 0.7.0; v0.9/v1.0 are research gates. Q2 predictive-superiority work is planned only and excluded. Independent replication, scientific superiority, production deployment and third-party dataset ownership are excluded.",
       "costBudgets": [
         {
           "basis": "Present delivered v0.6.0 scope including v0.5/v0.6 increments",
@@ -2071,19 +2114,61 @@
             "extendedCostEUR": 15566.4
           },
           "boundary": "Equivalent reproduction effort is an explicit seller-side analyst assumption, not logged work, actual spend or an independent contractor quote. EUR 94/hour is published rate context, not a minimum. The 15% project coordination/tooling allowance and scenario alternatives are assumptions. Only the lowest of these bounded working scenarios is adopted. Reuses the existing v0.6 kernel, observation journal, coupling, replay and packaging; none is charged again. Independent model calibration, field-data acquisition, live integrations, causal discovery and production qualification are excluded."
+        },
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "economicAssessmentAt": "2026-10-19",
+          "scope": "post-0.7 constrained-decision, assurance and Q1 research implementation",
+          "workPackages": [
+            {
+              "scope": "Bounded constrained-decision contracts and abstention/feasibility evidence",
+              "lowEffortHours": 40
+            },
+            {
+              "scope": "Static/executed release assurance and verifiable evidence manifests",
+              "lowEffortHours": 32
+            },
+            {
+              "scope": "Pinned real-data receipt and preregistered CPU benchmark harness",
+              "lowEffortHours": 40
+            },
+            {
+              "scope": "Developer regression, comparison boundaries and handover documentation",
+              "lowEffortHours": 16
+            }
+          ],
+          "assumedHours": 128,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 12032,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 13836.8,
+          "adoptedRecreationIncrementEUR": 13500,
+          "previousRecreationCostEUR": 167500,
+          "currentRecreationCostEUR": 181000,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 128,
+            "referenceHours": 192,
+            "extendedHours": 256,
+            "lowCostEUR": 13836.8,
+            "referenceCostEUR": 20755.2,
+            "extendedCostEUR": 27673.6
+          },
+          "boundary": "Equivalent reproduction effort is an explicit seller-side analyst assumption, not logged work, actual spend or a contractor quote. EUR 94/hour is rate context, not a minimum. The 15% allowance and alternatives are assumptions. The lowest bounded effort scenario is adopted. Existing v0.6 foundations and the already priced v0.7 forecast implementation are reused and excluded from this increment. Distribution metadata remains 0.7.0; v0.9/v1.0 are research gates. Q2 predictive-superiority work is planned only and excluded. Independent replication, scientific superiority, production deployment and third-party dataset ownership are excluded."
         }
       ],
       "futureReference": {
-        "milestoneConditionedEconomicReferenceEUR": 132215,
-        "sensitivityDeltaEUR": 20861,
+        "milestoneConditionedEconomicReferenceEUR": 142871,
+        "sensitivityDeltaEUR": 22543,
         "currentStage": "P",
         "targetStage": "V",
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and an agreed operational and handover acceptance scope.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price, future asking reference or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 148782,
-        "sensitivityDeltaUSD": 23475
+        "milestoneConditionedEconomicReferenceUSD": 160773,
+        "sensitivityDeltaUSD": 25368
       },
       "calculationInputs": {
         "stage": "P",
@@ -2092,18 +2177,18 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 56828,
-        "negotiationLowUSD": 45012,
-        "negotiationHighUSD": 70894,
-        "replacementCostUSD": 188488,
-        "marketComparableProxyUSD": 151402,
-        "incomeLicensingProxyUSD": 108145,
-        "probabilityAdjustedStrategicValueUSD": 75071,
-        "triangulatedEconomicReferenceUSD": 125307
+        "sellerAskUSD": 61329,
+        "negotiationLowUSD": 48388,
+        "negotiationHighUSD": 76520,
+        "replacementCostUSD": 203679,
+        "marketComparableProxyUSD": 163605,
+        "incomeLicensingProxyUSD": 116861,
+        "probabilityAdjustedStrategicValueUSD": 81121,
+        "triangulatedEconomicReferenceUSD": 135405
       },
       "assessment": {
         "assessedOn": "2026-10-19",
-        "offeredEdition": "0.7.0",
+        "offeredEdition": "0.7.0 / v1.0 research gates + Q1",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "FULL_SCOPED_BUDGET",
         "costEvidenceLabel": "Full budget for the stated priced scope",
@@ -2341,7 +2426,7 @@
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "P",
           "evidenceMaturity": "E2",
@@ -2508,7 +2593,7 @@
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "V",
           "evidenceMaturity": "E4",
@@ -2781,7 +2866,7 @@
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "V",
           "evidenceMaturity": "E4",
@@ -2890,7 +2975,7 @@
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "P",
           "evidenceMaturity": "E2",
@@ -2906,14 +2991,14 @@
     {
       "ref": "TA-IP-023",
       "values": {
-        "sellerAskEUR": 213000,
-        "negotiationLowEUR": 172500,
-        "negotiationHighEUR": 269000,
-        "replacementCostEUR": 1167000,
-        "marketComparableProxyEUR": 694365,
-        "incomeLicensingProxyEUR": 805230,
-        "probabilityAdjustedStrategicValueEUR": 237797,
-        "triangulatedEconomicReferenceEUR": 674898
+        "sellerAskEUR": 217500,
+        "negotiationLowEUR": 176000,
+        "negotiationHighEUR": 274500,
+        "replacementCostEUR": 1191000,
+        "marketComparableProxyEUR": 708645,
+        "incomeLicensingProxyEUR": 821790,
+        "probabilityAdjustedStrategicValueEUR": 242687,
+        "triangulatedEconomicReferenceEUR": 688777
       },
       "basisDate": "2026-10-19",
       "sourceIds": [
@@ -2921,7 +3006,7 @@
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "Recreation estimate: EUR 1,150,000 retained scope component plus EUR 17,000 for the explicitly scoped implementation work budget, giving EUR 1,167,000. The scoped budget assumes 160 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.",
+      "costBasisNote": "The recreation estimate contains EUR 1,167,000 of previously scoped work plus EUR 24,000 for 8.29.0 / B03 and B04.1–B04.4a software gates, giving EUR 1,191,000. This increment assumes 224 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. Asking/negotiation inputs preserve prior asking/cost relationships, rounded half-up to EUR 500. All effort and prices remain seller assumptions; market value and actual expenditure are not established. Existing v8.28 observation, provenance, scalar adapters and scientific model code are reused and excluded from this increment. Real campaigns, independent custody, empirical origin, condition-label contrasts, sensitivity studies and scientific or clinical qualification are excluded.",
       "costBudgets": [
         {
           "kind": "Scoped implementation reproduction budget",
@@ -2963,6 +3048,48 @@
             "extendedCostEUR": 34592
           },
           "boundary": "Seller-selected equivalent reproduction effort for the expressly bounded implementation. These are not logged hours, elapsed development time or actual spending. EUR 94/hour is external rate context, not a minimum or quote; the 15% allowance is an assumption. The selected scenario is the lowest of these scoped scenarios, not an absolute cost floor. Candidate-only future features and unestablished qualification are excluded."
+        },
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "economicAssessmentAt": "2026-10-19",
+          "scope": "8.29.0 / B03 and B04.1–B04.4a software gates",
+          "workPackages": [
+            {
+              "scope": "Prespecified comparison design and campaign-plan contracts",
+              "lowEffortHours": 40
+            },
+            {
+              "scope": "Separated custodian/analyst release and controlled calibration receipts",
+              "lowEffortHours": 64
+            },
+            {
+              "scope": "Metadata intent journal and SQLite transactional recovery",
+              "lowEffortHours": 64
+            },
+            {
+              "scope": "Pinned no-refit held-out scoring reports and regressions",
+              "lowEffortHours": 56
+            }
+          ],
+          "assumedHours": 224,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 21056,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 24214.4,
+          "adoptedRecreationIncrementEUR": 24000,
+          "previousRecreationCostEUR": 1167000,
+          "currentRecreationCostEUR": 1191000,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 224,
+            "referenceHours": 336,
+            "extendedHours": 448,
+            "lowCostEUR": 24214.4,
+            "referenceCostEUR": 36321.6,
+            "extendedCostEUR": 48428.8
+          },
+          "boundary": "Equivalent reproduction effort is an explicit seller-side analyst assumption, not logged work, actual spend or a contractor quote. EUR 94/hour is rate context, not a minimum. The 15% allowance and alternatives are assumptions. The lowest bounded effort scenario is adopted. Existing v8.28 observation, provenance, scalar adapters and scientific model code are reused and excluded from this increment. Real campaigns, independent custody, empirical origin, condition-label contrasts, sensitivity studies and scientific or clinical qualification are excluded."
         }
       ],
       "futureReference": {
@@ -2979,22 +3106,22 @@
         "route": "Enterprise software / licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 239689,
-        "negotiationLowUSD": 194114,
-        "negotiationHighUSD": 302706,
-        "replacementCostUSD": 1313225,
-        "marketComparableProxyUSD": 781369,
-        "incomeLicensingProxyUSD": 906125,
-        "probabilityAdjustedStrategicValueUSD": 267593,
-        "triangulatedEconomicReferenceUSD": 759463
+        "sellerAskUSD": 244753,
+        "negotiationLowUSD": 198053,
+        "negotiationHighUSD": 308895,
+        "replacementCostUSD": 1340232,
+        "marketComparableProxyUSD": 797438,
+        "incomeLicensingProxyUSD": 924760,
+        "probabilityAdjustedStrategicValueUSD": 273096,
+        "triangulatedEconomicReferenceUSD": 775081
       },
       "assessment": {
         "assessedOn": "2026-10-19",
-        "offeredEdition": "8.28.0",
+        "offeredEdition": "8.29.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "V",
           "evidenceMaturity": "E3",
@@ -3299,7 +3426,7 @@
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "P",
           "evidenceMaturity": "E2",
@@ -3692,14 +3819,14 @@
     {
       "ref": "TA-IP-068",
       "values": {
-        "sellerAskEUR": 160000,
-        "negotiationLowEUR": 125000,
-        "negotiationHighEUR": 200000,
-        "replacementCostEUR": 900000,
-        "marketComparableProxyEUR": 1147500,
-        "incomeLicensingProxyEUR": 1417500,
-        "probabilityAdjustedStrategicValueEUR": 1536216,
-        "triangulatedEconomicReferenceEUR": 1275676
+        "sellerAskEUR": 162000,
+        "negotiationLowEUR": 126500,
+        "negotiationHighEUR": 202000,
+        "replacementCostEUR": 910000,
+        "marketComparableProxyEUR": 1160250,
+        "incomeLicensingProxyEUR": 1433250,
+        "probabilityAdjustedStrategicValueEUR": 1553285,
+        "triangulatedEconomicReferenceEUR": 1289850
       },
       "basisDate": "2026-10-19",
       "sourceIds": [
@@ -3707,19 +3834,62 @@
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.",
-      "costBudgets": [],
+      "costBasisNote": "The recreation estimate contains EUR 900,000 of previously scoped work plus EUR 10,000 for 0.5.1 commercial control implementation, giving EUR 910,000. This increment assumes 96 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. Asking/negotiation inputs preserve prior asking/cost relationships, rounded half-up to EUR 500. All effort and prices remain seller assumptions; market value and actual expenditure are not established. Existing v0.4 media orchestration and isolated-worker foundations are reused and excluded from this increment. Naming changes carry no premium. Model weights, external inference rights, real payments, GPU performance and production acceptance are excluded.",
+      "costBudgets": [
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "economicAssessmentAt": "2026-10-19",
+          "scope": "0.5.1 commercial control implementation",
+          "workPackages": [
+            {
+              "scope": "Account/tenant ownership, hashed API keys and suspension/revocation",
+              "lowEffortHours": 24
+            },
+            {
+              "scope": "Atomic internal-credit reservation and job/concurrency admission",
+              "lowEffortHours": 32
+            },
+            {
+              "scope": "Settlement, failure/cancellation refunds and orphan recovery",
+              "lowEffortHours": 24
+            },
+            {
+              "scope": "Administrative studio and local control regressions",
+              "lowEffortHours": 16
+            }
+          ],
+          "assumedHours": 96,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 9024,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 10377.6,
+          "adoptedRecreationIncrementEUR": 10000,
+          "previousRecreationCostEUR": 900000,
+          "currentRecreationCostEUR": 910000,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 96,
+            "referenceHours": 144,
+            "extendedHours": 192,
+            "lowCostEUR": 10377.6,
+            "referenceCostEUR": 15566.4,
+            "extendedCostEUR": 20755.2
+          },
+          "boundary": "Equivalent reproduction effort is an explicit seller-side analyst assumption, not logged work, actual spend or a contractor quote. EUR 94/hour is rate context, not a minimum. The 15% allowance and alternatives are assumptions. The lowest bounded effort scenario is adopted. Existing v0.4 media orchestration and isolated-worker foundations are reused and excluded from this increment. Naming changes carry no premium. Model weights, external inference rights, real payments, GPU performance and production acceptance are excluded."
+        }
+      ],
       "futureReference": {
-        "milestoneConditionedEconomicReferenceEUR": 1634180,
-        "sensitivityDeltaEUR": 358504,
+        "milestoneConditionedEconomicReferenceEUR": 1652337,
+        "sensitivityDeltaEUR": 362487,
         "currentStage": "P",
         "targetStage": "V",
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 1838943,
-        "sensitivityDeltaUSD": 403425
+        "milestoneConditionedEconomicReferenceUSD": 1859375,
+        "sensitivityDeltaUSD": 407907
       },
       "calculationInputs": {
         "stage": "P",
@@ -3728,22 +3898,22 @@
         "route": "Media / creator software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 180048,
-        "negotiationLowUSD": 140663,
-        "negotiationHighUSD": 225060,
-        "replacementCostUSD": 1012770,
-        "marketComparableProxyUSD": 1291282,
-        "incomeLicensingProxyUSD": 1595113,
-        "probabilityAdjustedStrategicValueUSD": 1728704,
-        "triangulatedEconomicReferenceUSD": 1435518
+        "sellerAskUSD": 182299,
+        "negotiationLowUSD": 142350,
+        "negotiationHighUSD": 227311,
+        "replacementCostUSD": 1024023,
+        "marketComparableProxyUSD": 1305629,
+        "incomeLicensingProxyUSD": 1612836,
+        "probabilityAdjustedStrategicValueUSD": 1747912,
+        "triangulatedEconomicReferenceUSD": 1451468
       },
       "assessment": {
         "assessedOn": "2026-10-19",
-        "offeredEdition": "0.4.0",
+        "offeredEdition": "0.5.1",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
-        "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
-        "costEvidenceLabel": "Retained seller estimate; work breakdown required",
-        "costEvidenceNote": "No complete work-package budget supports this retained recreation anchor in the financial register. The current amount remains a low-confidence seller estimate. Do not infer engineering hours or market value from it; obtain a delivery-specific work breakdown and quote.",
+        "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
+        "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "P",
           "evidenceMaturity": "E3",
@@ -3976,7 +4146,7 @@
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "V",
           "evidenceMaturity": "E3",
@@ -4778,7 +4948,7 @@
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "P",
           "evidenceMaturity": "E3",
@@ -5143,7 +5313,7 @@
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "P",
           "evidenceMaturity": "E3",
@@ -5814,7 +5984,7 @@
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "V",
           "evidenceMaturity": "E3",
@@ -5918,7 +6088,7 @@
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "V",
           "evidenceMaturity": "E3",
@@ -6356,7 +6526,7 @@
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "V",
           "evidenceMaturity": "E2",
@@ -6589,7 +6759,7 @@
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "V",
           "evidenceMaturity": "E2",
@@ -6983,7 +7153,7 @@
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "V",
           "evidenceMaturity": "E2",
@@ -7373,7 +7543,7 @@
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "V",
           "evidenceMaturity": "E3",
@@ -7547,7 +7717,7 @@
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "V",
           "evidenceMaturity": "E4",
@@ -7621,7 +7791,7 @@
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "V",
           "evidenceMaturity": "E4",
@@ -8127,7 +8297,7 @@
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "V",
           "evidenceMaturity": "E3",
@@ -8288,7 +8458,7 @@
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "P",
           "evidenceMaturity": "E3",
@@ -8578,7 +8748,7 @@
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "V",
           "evidenceMaturity": "E2",
@@ -8740,7 +8910,7 @@
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial work budget; retained base requires reconstruction",
-        "costEvidenceNote": "The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.",
+        "costEvidenceNote": "The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.",
         "qualification": {
           "technicalMaturity": "V",
           "evidenceMaturity": "E3",
@@ -8856,13 +9026,13 @@
     }
   ],
   "portfolioUSD": {
-    "sellerAskUSD": 27803912,
-    "negotiationLowUSD": 22210609,
-    "negotiationHighUSD": 34847024,
-    "replacementCostUSD": 118453017,
-    "marketComparableProxyUSD": 134710168,
-    "incomeLicensingProxyUSD": 158510843,
-    "probabilityAdjustedStrategicValueUSD": 148047659,
-    "triangulatedEconomicReferenceUSD": 140074141
+    "sellerAskUSD": 27817416,
+    "negotiationLowUSD": 22220736,
+    "negotiationHighUSD": 34863341,
+    "replacementCostUSD": 118516033,
+    "marketComparableProxyUSD": 134763072,
+    "incomeLicensingProxyUSD": 158567055,
+    "probabilityAdjustedStrategicValueUSD": 148087043,
+    "triangulatedEconomicReferenceUSD": 140125502
   }
 }

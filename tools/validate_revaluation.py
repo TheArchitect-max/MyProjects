@@ -24,7 +24,7 @@ def validate(pricing=None,dossiers=None):
   assert a['calculationInputs']['route'] in p['methodology']['factors']['routeMonetization']
   counts[status]+=1
  assert counts==p['methodology']['reassessment']['budgetCoverage']
- assert counts=={'FULL_SCOPED_BUDGET':11,'PARTIAL_SCOPED_BUDGET':29,'LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN':68}
+ assert counts=={'FULL_SCOPED_BUDGET':11,'PARTIAL_SCOPED_BUDGET':31,'LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN':66}
  assert p['methodology']['reassessment']['assetsReviewed']==108
  return {'result':'PASS','assessmentRecords':108,'costCoverage':dict(counts),'qualificationGradesUnpromoted':True,'marketValueNotEstablished':108}
 if __name__=='__main__':print(json.dumps(validate(),indent=2))

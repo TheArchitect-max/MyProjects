@@ -164,7 +164,7 @@ The EUR 797,000 recreation estimate consists of a EUR 780,000 base and a EUR 17,
 
 Partial work budget; retained base requires reconstruction. Assessed 2026-10-19.
 
-The disclosed work budgets do not reconstruct the entire recreation anchor. The retained base remains a low-confidence seller estimate. Obtain a delivery-specific work breakdown and quote before relying on the total.
+The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
@@ -207,7 +207,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "V", "potential": "H", "sector": "Industrial & Infrastructure Software", "route": "Vertical SaaS / specialist software"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc2
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/universal-sensor-fusion-digital-twin-intelligence-platform/#calculation
 

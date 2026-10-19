@@ -24,3 +24,10 @@
 @media(max-width:850px){.strategic-hero-grid{grid-template-columns:1fr}.strategic-hero h1{font-size:clamp(2.7rem,8vw,4.5rem)}.strategic-mandate{max-width:650px}.strategic-crosslink{flex-direction:column;gap:1.5rem}.strategic-crosslink>.actions{max-width:none}.strategic-tools{grid-template-columns:1fr}}
 @media(max-width:600px){.strategic-prices{grid-template-columns:1fr}.strategic-asset .restored-price-grid{grid-template-columns:1fr}.strategic-asset-identity{flex-wrap:wrap}.strategic-hero{padding-bottom:2.5rem}.strategic-mandate{padding:1.5rem}.strategic-company{font-size:1.9rem}}
 @media print{.strategic-hero-grid{grid-template-columns:1fr}.strategic-mandate{background:none}.strategic-asset,.strategic-route{break-inside:avoid}.strategic-tools{display:none}.strategic-prices strong,.strategic-scope,.strategic-company,.strategic-prices .price-usd{color:#222}}
+
+/* Full catalogue navigation; original palette and typography retained. */
+.site-head .shell.nav{display:flex;flex-wrap:wrap;align-items:center;gap:10px 30px;padding-top:20px;padding-bottom:12px}
+.site-head .brand{flex:0 0 auto}.site-head .nav-links{display:flex;flex:1 1 680px;flex-wrap:wrap;align-items:center;justify-content:flex-end;gap:0 20px;min-width:0}
+.site-head .nav-links a{padding:10px 0;font-size:12px;white-space:nowrap}.site-head .nav-links a[aria-current=page]{border-bottom:1px solid var(--gold)}
+.strategic-workflow{padding:14px 0;border-top:1px solid rgba(185,150,91,.25)}
+@media(max-width:760px){.site-head .shell.nav{gap:16px;padding-top:16px}.site-head .nav-links{flex-basis:100%;justify-content:flex-start;gap:0 17px}.site-head .nav-links a{padding:8px 0;font-size:11px}.site-head .brand{max-width:100%}}

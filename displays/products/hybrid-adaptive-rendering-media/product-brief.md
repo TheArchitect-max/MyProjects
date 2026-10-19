@@ -1,12 +1,12 @@
-# HARM — Hybrid Adaptive Rendering & Media
+# Generative Media Production Platform
 
 TA-IP-068 | Reference name: Nova | Audio, publishing & media
 
-Organise your media-generation projects, review previews and manage their delivery.
+Control a first-party media production workflow with isolated inference workers, account ownership and internal usage credits.
 
 ## Product overview
 
-A media-generation product prototype for managed projects, jobs and previews.
+A local media-production control plane with tenant-scoped accounts, hashed API keys, queued generation jobs and separately operated inference workers. Internal credits reserve and settle usage; administrative controls support suspension, recovery and review.
 
 ## Potential acquirers
 
@@ -16,29 +16,31 @@ A media-generation product prototype for managed projects, jobs and previews.
 
 ## Documented functions
 
-- Manage projects and assets
-- Submit controlled generation jobs
-- Review previews
-- Recover or cancel interrupted work
-- Retain output provenance
+- Scope accounts, API keys and jobs to their tenant owner
+- Reserve credits and concurrency atomically when accepting jobs
+- Settle completed usage and refund failed or cancelled work
+- Operate isolated inference workers through a defined protocol
+- Review generated media contracts and administrative recovery
 
 ## Available output types
 
-- Media job records
-- Preview libraries
-- Output histories
+- Generation job and usage records
+- Validated media artifacts
+- Administrative and credit-ledger records
 
 ## Current offered position
 
-Prototype. A prototype offered for evaluation and continued development; production acceptance is separate.
+Prototype. Version 0.5.1 passed 38 local developer tests and repository identity/boundary checks. Real model/GPU qualification and production acceptance remain separate.
 
 Available for acquisition discussion.
 
-- Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately.
+- Model weights and inference runtime are separately installed third-party components under their own terms.
+- Internal credits are entitlement units, not currency or a payment service.
+- Offline control-plane checks do not establish GPU performance, production security or customer deployment.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 160,000.
+Seller asking reference: EUR 162,000.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -56,9 +58,9 @@ Acquisition of the specifically agreed first-party work product and transferable
 
 ## Buyer information and enquiry
 
-Asset profile: https://thearchitect-max.github.io/MyProjects/projects/hybrid-adaptive-rendering-media/
+Asset profile: https://thearchitect-max.github.io/MyProjects/projects/generative-media-production-platform/
 
-Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/hybrid-adaptive-rendering-media/factsheet.pdf
+Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/generative-media-production-platform/factsheet.pdf
 
 Quote TA-IP-068 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
@@ -68,15 +70,25 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 0.4.0
+Identified product edition: 0.5.1
 
 Handover position: Conditional handover
 
-An implemented prototype for evaluation and further development.
+A local media-production control plane with tenant-scoped accounts, hashed API keys, queued generation jobs and separately operated inference workers. Internal credits reserve and settle usage; administrative controls support suspension, recovery and review.
+
+Separately scoped development: Real LTX-2.5 GPU qualification remains a separate open gate
 
 ### Priced first-party scope
 
-Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+Specifically agreed first-party 0.5.1 control-plane, commercial-control and worker-protocol implementation with documentation. Third-party models, weights, runtimes, services and GPU infrastructure retain separate terms.
+
+### Local commercial controls
+
+Version 0.5.1 passed 38 local developer tests and repository identity/boundary checks. Real model/GPU qualification and production acceptance remain separate.
+
+- Model weights and inference runtime are separately installed third-party components under their own terms.
+- Internal credits are entitlement units, not currency or a payment service.
+- Offline control-plane checks do not establish GPU performance, production security or customer deployment.
 
 ### Acquisition evidence profile
 
@@ -132,14 +144,14 @@ Basis: 2026-10-19. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 160,000 | 180,048 |
-| Negotiation reference - low | 125,000 | 140,663 |
-| Negotiation reference - high | 200,000 | 225,060 |
-| Recreation cost estimate | 900,000 | 1,012,770 |
-| Marketability cost scenario | 1,147,500 | 1,291,282 |
-| Monetisation cost scenario | 1,417,500 | 1,595,113 |
-| Risk-adjusted strategic reference | 1,536,216 | 1,728,704 |
-| Weighted economic reference | 1,275,676 | 1,435,518 |
+| Seller asking reference | 162,000 | 182,299 |
+| Negotiation reference - low | 126,500 | 142,350 |
+| Negotiation reference - high | 202,000 | 227,311 |
+| Recreation cost estimate | 910,000 | 1,024,023 |
+| Marketability cost scenario | 1,160,250 | 1,305,629 |
+| Monetisation cost scenario | 1,433,250 | 1,612,836 |
+| Risk-adjusted strategic reference | 1,553,285 | 1,747,912 |
+| Weighted economic reference | 1,289,850 | 1,451,468 |
 
 USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
@@ -152,21 +164,47 @@ USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is 
 - Risk-adjusted strategic reference: Cost-based opportunity scenario with stated seller-selected factors.
 - Weighted economic reference: Weighted blend of correlated cost scenarios; not an independent appraisal.
 
-Milestone-conditioned reference: EUR 1,634,180; model change EUR 358,504. Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.
+Milestone-conditioned reference: EUR 1,652,337; model change EUR 362,487. Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.
 
 This is a conditional model sensitivity, not a current asking price, forecast or market value.
 
 ### Cost basis
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+The recreation estimate contains EUR 900,000 of previously scoped work plus EUR 10,000 for 0.5.1 commercial control implementation, giving EUR 910,000. This increment assumes 96 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. Asking/negotiation inputs preserve prior asking/cost relationships, rounded half-up to EUR 500. All effort and prices remain seller assumptions; market value and actual expenditure are not established. Existing v0.4 media orchestration and isolated-worker foundations are reused and excluded from this increment. Naming changes carry no premium. Model weights, external inference rights, real payments, GPU performance and production acceptance are excluded.
 
 ### Financial assessment
 
-Retained seller estimate; work breakdown required. Assessed 2026-10-19.
+Partial work budget; retained base requires reconstruction. Assessed 2026-10-19.
 
-No complete work-package budget supports this retained recreation anchor in the financial register. The current amount remains a low-confidence seller estimate. Do not infer engineering hours or market value from it; obtain a delivery-specific work breakdown and quote.
+The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
+
+#### Scoped implementation reproduction budget
+
+0.5.1 commercial control implementation
+
+- Account/tenant ownership, hashed API keys and suspension/revocation — 24 assumed hours
+- Atomic internal-credit reservation and job/concurrency admission — 32 assumed hours
+- Settlement, failure/cancellation refunds and orphan recovery — 24 assumed hours
+- Administrative studio and local control regressions — 16 assumed hours
+
+- Assumed hours: 96
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 9,024
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 10,377.6
+- Adopted recreation increment: EUR 10,000
+- Previous recreation cost: EUR 900,000
+- Current recreation cost: EUR 910,000
+- Effort alternatives / Low hours: 96
+- Effort alternatives / Reference hours: 144
+- Effort alternatives / Extended hours: 192
+- Effort alternatives / Low cost: EUR 10,377.6
+- Effort alternatives / Reference cost: EUR 15,566.4
+- Effort alternatives / Extended cost: EUR 20,755.2
+
+Equivalent reproduction effort is an explicit seller-side analyst assumption, not logged work, actual spend or a contractor quote. EUR 94/hour is rate context, not a minimum. The 15% allowance and alternatives are assumptions. The lowest bounded effort scenario is adopted. Existing v0.4 media orchestration and isolated-worker foundations are reused and excluded from this increment. Naming changes carry no premium. Model weights, external inference rights, real payments, GPU performance and production acceptance are excluded.
 
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
@@ -184,7 +222,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "P", "potential": "VH", "sector": "Media & Creator Technology", "route": "Media / creator software"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc2
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
 
-Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/hybrid-adaptive-rendering-media/#calculation
+Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/generative-media-production-platform/#calculation
 

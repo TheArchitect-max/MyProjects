@@ -6,7 +6,7 @@ Bring evidence, policies and decisions together so your team can review the basi
 
 ## Product overview
 
-A domain-neutral governance prototype for organisations, obligations and controlled decisions.
+A local evidence-governed runtime with workspaces, cases, relationships, obligations and authority gates. Evidence expiry, revocation and supersession feed decisions; digest-verified bundles and SQLite snapshot history support controlled restore and backup.
 
 ## Potential acquirers
 
@@ -16,29 +16,30 @@ A domain-neutral governance prototype for organisations, obligations and control
 
 ## Documented functions
 
-- Model organisational obligations
-- Review evidence applicability
-- Link risks to controls
-- Evaluate decision authority
-- Retain system snapshots
+- Model obligations, authority and risk/control relationships
+- Track evidence expiry, revocation and supersession
+- Organise workspaces, cases and relationship graphs
+- Export and restore integrity-checked state bundles
+- Retain SQLite snapshots, verify stored integrity and recover backups
 
 ## Available output types
 
-- Governance models
-- Decision records
-- Control review reports
+- Governed case and decision records
+- Evidence and audit histories
+- Portable state bundles and verified local backups
 
 ## Current offered position
 
-Prototype. A prototype offered for evaluation and continued development; production acceptance is separate.
+Prototype. RC1 local reference runtime; 29 developer tests and native CLI/SQLite checks passed. Production database security, availability and certification are outside this scope.
 
 Available for acquisition discussion.
 
-- Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately.
+- A local SQLite reference adapter; no encryption, enterprise identity, replicated availability or production secrets management is established.
+- Integrity hashes do not establish substantive truth, compliance or legal authority.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 200,000.
+Seller asking reference: EUR 201,500.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -68,15 +69,22 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 0.1.0
+Identified product edition: 0.1.0 / RC1
 
 Handover position: Conditional handover
 
-An implemented prototype for evaluation and further development.
+A local evidence-governed runtime with workspaces, cases, relationships, obligations and authority gates. Evidence expiry, revocation and supersession feed decisions; digest-verified bundles and SQLite snapshot history support controlled restore and backup.
 
 ### Priced first-party scope
 
-Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+Specifically agreed first-party RC1 local governance runtime, SQLite reference persistence, domain packs, CLI and retained developer evidence. Production controls and independent certification require separate scope.
+
+### Persistent evidence-governed runtime
+
+RC1 local reference runtime; 29 developer tests and native CLI/SQLite checks passed. Production database security, availability and certification are outside this scope.
+
+- A local SQLite reference adapter; no encryption, enterprise identity, replicated availability or production secrets management is established.
+- Integrity hashes do not establish substantive truth, compliance or legal authority.
 
 ### Acquisition evidence profile
 
@@ -133,14 +141,14 @@ Basis: 2026-10-19. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 200,000 | 225,060 |
-| Negotiation reference - low | 160,000 | 180,048 |
-| Negotiation reference - high | 250,000 | 281,325 |
-| Recreation cost estimate | 1,150,000 | 1,294,095 |
-| Marketability cost scenario | 1,236,538 | 1,391,476 |
-| Monetisation cost scenario | 1,339,031 | 1,506,812 |
-| Risk-adjusted strategic reference | 1,036,776 | 1,166,684 |
-| Weighted economic reference | 1,165,485 | 1,311,520 |
+| Seller asking reference | 201,500 | 226,748 |
+| Negotiation reference - low | 161,000 | 181,173 |
+| Negotiation reference - high | 252,000 | 283,576 |
+| Recreation cost estimate | 1,158,500 | 1,303,660 |
+| Marketability cost scenario | 1,245,677 | 1,401,760 |
+| Monetisation cost scenario | 1,348,928 | 1,517,949 |
+| Risk-adjusted strategic reference | 1,044,439 | 1,175,307 |
+| Weighted economic reference | 1,174,100 | 1,321,215 |
 
 USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
 
@@ -153,21 +161,47 @@ USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is 
 - Risk-adjusted strategic reference: Cost-based opportunity scenario with stated seller-selected factors.
 - Weighted economic reference: Weighted blend of correlated cost scenarios; not an independent appraisal.
 
-Milestone-conditioned reference: EUR 1,449,238; model change EUR 283,753. Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.
+Milestone-conditioned reference: EUR 1,459,949; model change EUR 285,849. Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.
 
 This is a conditional model sensitivity, not a current asking price, forecast or market value.
 
 ### Cost basis
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+The recreation estimate contains EUR 1,150,000 of previously scoped work plus EUR 8,500 for RC1 local persistent governance runtime, giving EUR 1,158,500. This increment assumes 80 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. Asking/negotiation inputs preserve prior asking/cost relationships, rounded half-up to EUR 500. All effort and prices remain seller assumptions; market value and actual expenditure are not established. Previously described obligation, authority, risk/control and domain-pack foundations are reused and excluded from this increment. Production security, high availability, enterprise identity, certification and legal/regulatory conclusions are excluded.
 
 ### Financial assessment
 
-Retained seller estimate; work breakdown required. Assessed 2026-10-19.
+Partial work budget; retained base requires reconstruction. Assessed 2026-10-19.
 
-No complete work-package budget supports this retained recreation anchor in the financial register. The current amount remains a low-confidence seller estimate. Do not infer engineering hours or market value from it; obtain a delivery-specific work breakdown and quote.
+The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
+
+#### Scoped implementation reproduction budget
+
+RC1 local persistent governance runtime
+
+- Workspace/case graph and evidence expiry/revocation/supersession — 24 assumed hours
+- Digest-verified state and portable-bundle restore — 16 assumed hours
+- SQLite snapshot migration, integrity and verified backup recovery — 24 assumed hours
+- Local persistence and lifecycle acceptance regressions — 16 assumed hours
+
+- Assumed hours: 80
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 7,520
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 8,648
+- Adopted recreation increment: EUR 8,500
+- Previous recreation cost: EUR 1,150,000
+- Current recreation cost: EUR 1,158,500
+- Effort alternatives / Low hours: 80
+- Effort alternatives / Reference hours: 120
+- Effort alternatives / Extended hours: 160
+- Effort alternatives / Low cost: EUR 8,648
+- Effort alternatives / Reference cost: EUR 12,972
+- Effort alternatives / Extended cost: EUR 17,296
+
+Equivalent reproduction effort is an explicit seller-side analyst assumption, not logged work, actual spend or a contractor quote. EUR 94/hour is rate context, not a minimum. The 15% allowance and alternatives are assumptions. The lowest bounded effort scenario is adopted. Previously described obligation, authority, risk/control and domain-pack foundations are reused and excluded from this increment. Production security, high availability, enterprise identity, certification and legal/regulatory conclusions are excluded.
 
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
@@ -185,7 +219,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "P", "potential": "H", "sector": "AI, Decision & Knowledge Systems", "route": "Enterprise software / licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc2
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/adaptive-systems-intelligence-platform/#calculation
 

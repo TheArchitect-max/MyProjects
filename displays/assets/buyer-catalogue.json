@@ -478,30 +478,31 @@
         "specialist"
       ],
       "summary": "Bring evidence, policies and decisions together so your team can review the basis for its work.",
-      "overview": "A domain-neutral governance prototype for organisations, obligations and controlled decisions.",
+      "overview": "A local evidence-governed runtime with workspaces, cases, relationships, obligations and authority gates. Evidence expiry, revocation and supersession feed decisions; digest-verified bundles and SQLite snapshot history support controlled restore and backup.",
       "potentialBuyers": [
         "Governance software vendors",
         "Enterprise architecture teams",
         "Systems consultancies"
       ],
       "capabilities": [
-        "Model organisational obligations",
-        "Review evidence applicability",
-        "Link risks to controls",
-        "Evaluate decision authority",
-        "Retain system snapshots"
+        "Model obligations, authority and risk/control relationships",
+        "Track evidence expiry, revocation and supersession",
+        "Organise workspaces, cases and relationship graphs",
+        "Export and restore integrity-checked state bundles",
+        "Retain SQLite snapshots, verify stored integrity and recover backups"
       ],
       "outputTypes": [
-        "Governance models",
-        "Decision records",
-        "Control review reports"
+        "Governed case and decision records",
+        "Evidence and audit histories",
+        "Portable state bundles and verified local backups"
       ],
       "maturity": "Prototype",
-      "maturityNote": "A prototype offered for evaluation and continued development; production acceptance is separate.",
+      "maturityNote": "RC1 local reference runtime; 29 developer tests and native CLI/SQLite checks passed. Production database security, availability and certification are outside this scope.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 200000,
+      "askingReferenceEUR": 201500,
       "materialBoundaries": [
-        "Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately."
+        "A local SQLite reference adapter; no encryption, enterprise identity, replicated availability or production secrets management is established.",
+        "Integrity hashes do not establish substantive truth, compliance or legal authority."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -1256,7 +1257,7 @@
         "specialist"
       ],
       "summary": "Model connected systems, compare scenarios and examine bounded offline forecast studies with traceable evidence.",
-      "overview": "Review connected-system models, supplied observations, scenario branches and local coupled simulations, alongside a developer-research forecast workflow with fixed tasks and chronological data separation. Compare reference predictors, inspect held-out errors and empirical intervals, and retain explicit abstention and evidence limits for further qualification.",
+      "overview": "Connected-system simulation, traceable observations and offline forecast studies with constrained-decision and release-assurance research gates. A retained real-data CPU benchmark covers one UCI building-energy dataset; scope, abstention, evidence provenance and comparison limits remain explicit.",
       "potentialBuyers": [
         "Digital-twin vendors",
         "Systems research groups",
@@ -1269,7 +1270,10 @@
         "Run local combined simulations",
         "Retain attributable histories",
         "Compare fixed-task offline forecasts with transparent CPU reference predictors",
-        "Review chronological splits, held-out errors, empirical intervals and abstention"
+        "Review chronological splits, held-out errors, empirical intervals and abstention",
+        "Evaluate declared decision constraints with traceable feasibility and abstention",
+        "Inspect static and executed research-release assurance",
+        "Run pinned CPU data-receipt and benchmark studies"
       ],
       "outputTypes": [
         "Scenario comparisons",
@@ -1278,13 +1282,14 @@
         "Bounded forecast-study and reference-comparison reports"
       ],
       "maturity": "Prototype",
-      "maturityNote": "Locally tested 0.7.0 developer-research prototype. Physical prediction, representative-domain accuracy, independent model qualification and completed acquisition handover remain separate requirements.",
+      "maturityNote": "Distribution version 0.7.0 with later v0.9/v1.0 and Q1 research gates. All 219 current local developer tests passed. No independent scientific, security or production qualification is established.",
       "availability": "Scope and transfer review required",
-      "askingReferenceEUR": 50500,
+      "askingReferenceEUR": 54500,
       "materialBoundaries": [
-        "A connected-system modelling prototype. Physical prediction and cross-domain accuracy require domain-specific qualification.",
-        "The delivery perimeter and transfer requirements need further review before terms can be finalised.",
-        "The published financial references retain their disclosed v0.6 reproduction scope. The v0.7 research increment requires an expressly agreed delivery allocation and has no separately established monetary reference."
+        "The retained UCI building-energy benchmark is a developer evaluation of one dataset; raw-data results were not independently recalculated in this review.",
+        "Persistence has the lowest reported MAE and AR(1) the lowest RMSE; no universal predictive superiority is demonstrated.",
+        "Q2 multi-dataset predictive-superiority work is planned only. Physical fidelity, cross-domain accuracy and production acceptance remain open.",
+        "The financial scope includes only the explicit implementation budgets, with earlier modelling and forecast foundations counted once."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -1780,7 +1785,7 @@
         "research"
       ],
       "summary": "Organise reported visual experiences and compare study records for structured phenomenology research.",
-      "overview": "A phenomenology research and evidence platform combining controlled computational studies, governed observation intake, portable provenance packages and bounded scalar measurement adapters.",
+      "overview": "A phenomenology research software platform combining governed observations, provenance and scalar adapters with prespecified comparison designs, separated campaign/custody workflows, controlled calibration, transactional intent metadata and pinned held-out scoring reports.",
       "potentialBuyers": [
         "Perception research groups",
         "Scientific data teams",
@@ -1791,7 +1796,11 @@
         "Apply scalar measurement contracts and unit conversions",
         "Propagate standard uncertainty through affine transformations",
         "Verify portable evidence capsules and observer-key histories",
-        "Retain reproducible computational and package checks"
+        "Retain reproducible computational and package checks",
+        "Prespecify comparison and campaign contracts",
+        "Separate custodian release from analyst calibration and scoring",
+        "Retain transactional intent metadata and recover journal state",
+        "Verify pinned no-refit held-out scoring reports"
       ],
       "outputTypes": [
         "Study dossiers",
@@ -1799,11 +1808,12 @@
         "Review records"
       ],
       "maturity": "Developed software",
-      "maturityNote": "Existing software offered for evaluation against an agreed use and delivery scope.",
+      "maturityNote": "Package 8.29.0 with B03 and B04.1–B04.4a software gates. Retained B04.4a evidence records 682 tests and 37 native checks passing. These are software-reference checks; complete scientific empirical qualification remains open.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 213000,
+      "askingReferenceEUR": 217500,
       "materialBoundaries": [
-        "Metadata, provenance and scalar transformations do not authenticate empirical origin or establish neurobiology, causality, clinical effects or a physical interpretation."
+        "Synthetic/software qualification does not authenticate empirical origin, independent human custody, optical causality, clinical benefit or a DMT-laser mechanism.",
+        "Held-out scoring is implemented, while condition-labelled contrasts, sensitivity computations and reference-baseline scientific comparison remain separately qualified future gates."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -2343,39 +2353,41 @@
     },
     {
       "ref": "TA-IP-068",
-      "slug": "hybrid-adaptive-rendering-media",
-      "title": "HARM — Hybrid Adaptive Rendering & Media",
+      "slug": "generative-media-production-platform",
+      "title": "Generative Media Production Platform",
       "referenceName": "Nova",
       "categoryId": "audio-media",
       "buyerGroupIds": [
         "software",
         "media"
       ],
-      "summary": "Organise your media-generation projects, review previews and manage their delivery.",
-      "overview": "A media-generation product prototype for managed projects, jobs and previews.",
+      "summary": "Control a first-party media production workflow with isolated inference workers, account ownership and internal usage credits.",
+      "overview": "A local media-production control plane with tenant-scoped accounts, hashed API keys, queued generation jobs and separately operated inference workers. Internal credits reserve and settle usage; administrative controls support suspension, recovery and review.",
       "potentialBuyers": [
         "Media software vendors",
         "Creator-platform teams",
         "Production tool developers"
       ],
       "capabilities": [
-        "Manage projects and assets",
-        "Submit controlled generation jobs",
-        "Review previews",
-        "Recover or cancel interrupted work",
-        "Retain output provenance"
+        "Scope accounts, API keys and jobs to their tenant owner",
+        "Reserve credits and concurrency atomically when accepting jobs",
+        "Settle completed usage and refund failed or cancelled work",
+        "Operate isolated inference workers through a defined protocol",
+        "Review generated media contracts and administrative recovery"
       ],
       "outputTypes": [
-        "Media job records",
-        "Preview libraries",
-        "Output histories"
+        "Generation job and usage records",
+        "Validated media artifacts",
+        "Administrative and credit-ledger records"
       ],
       "maturity": "Prototype",
-      "maturityNote": "A prototype offered for evaluation and continued development; production acceptance is separate.",
+      "maturityNote": "Version 0.5.1 passed 38 local developer tests and repository identity/boundary checks. Real model/GPU qualification and production acceptance remain separate.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 160000,
+      "askingReferenceEUR": 162000,
       "materialBoundaries": [
-        "Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately."
+        "Model weights and inference runtime are separately installed third-party components under their own terms.",
+        "Internal credits are entitlement units, not currency or a payment service.",
+        "Offline control-plane checks do not establish GPU performance, production security or customer deployment."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -2387,10 +2399,10 @@
         "Personal, customer and author content, private accounts and credentials",
         "Future development, hosting, hardware, support and operating businesses unless expressly agreed"
       ],
-      "profileUrl": "https://thearchitect-max.github.io/MyProjects/projects/hybrid-adaptive-rendering-media/",
-      "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/hybrid-adaptive-rendering-media/",
-      "factsheetUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/hybrid-adaptive-rendering-media/factsheet.pdf",
-      "briefUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/hybrid-adaptive-rendering-media/product-brief.md"
+      "profileUrl": "https://thearchitect-max.github.io/MyProjects/projects/generative-media-production-platform/",
+      "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/generative-media-production-platform/",
+      "factsheetUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/generative-media-production-platform/factsheet.pdf",
+      "briefUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/generative-media-production-platform/product-brief.md"
     },
     {
       "ref": "TA-IP-089",
