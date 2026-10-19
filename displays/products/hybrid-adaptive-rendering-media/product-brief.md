@@ -225,3 +225,11 @@ Calculation inputs: {"stage": "P", "potential": "VH", "sector": "Media & Creator
 Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/generative-media-production-platform/#calculation
+
+## Buyer-specific economic value and evaluation
+
+TA-IP-068 / Nova / Generative Media Production Platform
+
+Assess the intended use against a credible build, licence or operating alternative. Support any time advantage, incremental cash flow or avoided costs, count each benefit once, and include remaining qualification, integration, rights and operating requirements. The published references describe their stated scope and assumptions; a separately evidenced buyer-specific case may support different consideration. No strategic premium, independently established market value or guaranteed transaction ceiling/floor is asserted.
+
+Buyer-value framework, scenario requirements and source context: https://thearchitect-max.github.io/MyProjects/valuation.html#buyer-value
