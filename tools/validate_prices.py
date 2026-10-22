@@ -38,6 +38,6 @@ def validate():
  assert p==json.loads((ROOT/'displays/assets/pricing-catalogue.json').read_text())
  report=json.loads((ROOT/'assets/calculation-validation.json').read_text());assert report['status']=='PASS' and report['summary']['modelOutputs']==432 and report['summary']['usdConversions']==864
  for item in report['publicFiles'].values():assert hashlib.sha256((ROOT/item['path']).read_bytes()).hexdigest()==item['sha256']
- assert report['summary']['costBudgets']==53
+ assert report['summary']['costBudgets']==sum(len(a['costBudgets']) for a in p['projects'])
  return dict(result='PASS',usdConversions=864,modelOutputsRecomputed=432,costBudgetsReconciled=report['summary']['costBudgets'],completePriceRecords=108,monetaryFields=864,portfolioTotalsReconciled=8,conditionalFutureReferences=conditional,sources=6,askingReferencesConsistentWithBuyerCatalogue=True)
 if __name__=='__main__':print(json.dumps(validate(),indent=2))

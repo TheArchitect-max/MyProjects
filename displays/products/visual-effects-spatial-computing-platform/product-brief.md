@@ -2,11 +2,11 @@
 
 TA-IP-107 | Reference name: Asteria | Visual & spatial software
 
-Create and animate 2D scenes with editable layers, keyframes and bounded visual-effect controls.
+Create and animate local visual scenes, compare bounded effects and explore a limited 3D authoring workflow.
 
 ## Product overview
 
-An independent local 2D authoring and visual-effects prototype with a scene editor, animation controls and a visual node graph.
+A standalone visual-authoring development platform with 2D editing, animation and a limited experimental 3D workbench.
 
 ## Potential acquirers
 
@@ -16,28 +16,30 @@ An independent local 2D authoring and visual-effects prototype with a scene edit
 
 ## Documented functions
 
-- Edit 2D shape and text layers
-- Animate scene properties with keyframes
-- Create visual-effect node graphs
-- Save and reopen editable scene projects
+- Create layered 2D scenes
+- Edit timelines and keyframes
+- Apply bounded visual-effect graphs
+- Explore a limited local 3D scene
+- Import and export supported bounded model files
 
 ## Available output types
 
-- Editable 2D scene projects
-- Animation and keyframe records
-- Visual-effect graph projects
+- Editable scenes
+- Animation project files
+- Supported model exports
 
 ## Current offered position
 
-Prototype. A prototype offered for evaluation and continued development; production acceptance is separate.
+Prototype. A standalone development-alpha authoring platform with limited experimental 3D. Browser, GPU, device and production acceptance remain separate.
 
 Available for acquisition discussion.
 
-- An independent 2D authoring prototype. 3D, XR and computer vision remain future work. No integration with other portfolio projects is offered.
+- Development alpha with limited experimental 3D. Browser, GPU and device acceptance remain separate.
+- XR, computer vision, production video encoding and integration with other portfolio projects are excluded.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 5,500.
+Seller asking reference: EUR 8,500.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -67,15 +69,24 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 0.2.0
+Identified product edition: 0.4.0 / R3 development alpha
 
 Handover position: Conditional handover
 
-An independent local 2D Canvas editor with shape/text layers, timeline/keyframes, validated JSON import/export and a typed deterministic visual-effect graph. 24 JavaScript model/graph tests and 5 Python policy/server tests passed. Browser GUI/device acceptance was not rerun. R1 is a development alpha. Full browser interaction acceptance, hardware camera checks, genuine 3D, AR/VR/XR, computer vision, physics, AI, video encoding and production packaging remain open. Architectural isolation is mandatory: no integration or shared code with other portfolio projects.
+An independent local visual-authoring prototype combining a 2D editor, animation/effect controls and a limited experimental 3D workbench.
+
+Separately scoped development: Limited local 3D workbench and bounded model-file workflow; device and production qualification remain open.
 
 ### Priced first-party scope
 
-Present first-party v0.2.0 software. R1 is a development alpha. Full browser interaction acceptance, hardware camera checks, genuine 3D, AR/VR/XR, computer vision, physics, AI, video encoding and production packaging remain open. Architectural isolation is mandatory: no integration or shared code with other portfolio projects.
+Specifically agreed first-party 0.4.0 / R3 development-alpha source and documentation. This asset remains standalone, with no shared code or integration with other portfolio projects.
+
+### Evaluation and acceptance
+
+Retained developer checks support the identified software scope. Detailed reproducibility, component, security and delivery evidence is available through an agreed confidential review. Independent acceptance for the intended application remains separate.
+
+- Development alpha with limited experimental 3D. Browser, GPU and device acceptance remain separate.
+- XR, computer vision, production video encoding and integration with other portfolio projects are excluded.
 
 ### Acquisition evidence profile
 
@@ -89,14 +100,15 @@ Present first-party v0.2.0 software. R1 is a development alpha. Full browser int
 
 ### Conditions before handover
 
-- Agree exact first-party rights, component obligations and excluded content in the definitive agreement.
-- Freeze a release-specific delivery manifest and complete recipient acceptance.
-- Complete independent security review or expressly accept its absence within the local reference scope.
-- Perform source-pinned browser GUI acceptance and continue the independent roadmap with explicit device and export gates.
+- Agree and freeze the exact first-party delivery edition, rights, third-party obligations and excluded content.
+- Review source-specific reproducibility, component and security documentation under agreed confidentiality.
+- Complete the relevant application qualification and recipient handover acceptance.
+- Preserve the standalone architecture and complete representative browser, GPU and device acceptance.
 
 ### Qualification objectives
 
-- Perform source-pinned browser GUI acceptance and continue the independent roadmap with explicit device and export gates.
+- Evaluate representative intended-use cases against the offered functions and material boundaries.
+- Agree measurable acceptance criteria and the delivery package before transfer.
 
 ### Rights and components
 
@@ -118,20 +130,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-19. All amounts in EUR. Market value is not established.
+Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 5,500 | 6,189 |
-| Negotiation reference - low | 4,500 | 5,064 |
-| Negotiation reference - high | 7,000 | 7,877 |
-| Recreation cost estimate | 19,000 | 21,381 |
-| Marketability cost scenario | 14,535 | 16,356 |
-| Monetisation cost scenario | 13,466 | 15,153 |
-| Risk-adjusted strategic reference | 7,207 | 8,110 |
-| Weighted economic reference | 12,873 | 14,486 |
+| Seller asking reference | 8,500 | 9,549 |
+| Negotiation reference - low | 7,000 | 7,864 |
+| Negotiation reference - high | 10,500 | 11,796 |
+| Recreation cost estimate | 29,000 | 32,579 |
+| Marketability cost scenario | 22,185 | 24,923 |
+| Monetisation cost scenario | 20,554 | 23,090 |
+| Risk-adjusted strategic reference | 11,000 | 12,357 |
+| Weighted economic reference | 19,648 | 22,073 |
 
-USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
+USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -148,13 +160,13 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-Present-source low-effort recreation reference EUR 19,000; seller asking choice EUR 5,500. Market value remains not established. Estimated hours are not logged time or expenditure.
+The recreation estimate comprises the retained expressly priced scope and the separately disclosed non-overlapping implementation budgets. Historical anchors and each successive scoped increment reconcile in the calculation below. Equivalent effort is a seller estimate; market value, actual expenditure and independent quotations are not established. Reuses the standalone 2D editor and effect graph. Hardware/GPU acceptance, XR, computer vision, production packaging and any integration with other portfolio projects are excluded.
 
 ### Financial assessment
 
-Full budget for the stated priced scope. Assessed 2026-10-19.
+Stated scope reconciled to explicit budgets. Assessed 2026-10-21.
 
-The disclosed adopted budget components reconcile to the recreation anchor. Scope, effort and rates are seller assumptions; this does not establish an independent quote, actual expenditure or coverage of every current or proposed feature.
+The stated recreation scope reconciles to explicit seller work-package budgets. Effort remains assumed; completeness, external quotations, intended-use qualification and market value are not independently established.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
@@ -181,6 +193,31 @@ An independent local 2D Canvas editor with shape/text layers, timeline/keyframes
 
 Hours and the 15% allowance are analyst assumptions for bounded reproduction with modern tooling. EUR 94 is a Dutch mean, not a minimum rate or a contractor quote. This is the lowest of the explicitly scoped working scenarios, not an absolute market or cost floor.
 
+#### Scoped implementation reproduction budget
+
+Limited local 3D authoring and scene controls; Bounded model-file import, export and provenance; Standalone compatibility and delivery qualification.
+
+- Limited local 3D authoring and scene controls — 40 assumed hours
+- Bounded model-file import, export and provenance — 32 assumed hours
+- Standalone compatibility and delivery qualification — 24 assumed hours
+
+- Assumed hours: 96
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 9,024
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 10,377.6
+- Adopted recreation increment: EUR 10,000
+- Previous recreation cost: EUR 19,000
+- Current recreation cost: EUR 29,000
+- Effort alternatives / Low hours: 96
+- Effort alternatives / Reference hours: 144
+- Effort alternatives / Extended hours: 192
+- Effort alternatives / Low cost: EUR 10,377.6
+- Effort alternatives / Reference cost: EUR 15,566.4
+- Effort alternatives / Extended cost: EUR 20,755.2
+
+Seller-selected equivalent reproduction effort, not logged hours, actual expenditure or a contractor quote. EUR 94/hour and the 15% allowance are disclosed assumptions; the adopted amount is the lowest of these bounded scenarios, not an absolute cost floor. Reuses the standalone 2D editor and effect graph. Hardware/GPU acceptance, XR, computer vision, production packaging and any integration with other portfolio projects are excluded.
+
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
@@ -191,7 +228,7 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 

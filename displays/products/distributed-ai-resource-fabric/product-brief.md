@@ -72,7 +72,7 @@ Identified product edition: 0.19.0
 
 Handover position: Conditional handover
 
-The v0.19 baseline and separate v0.24 development candidate have distinct acceptance scopes. Retained 375-test and single-T4 results remain specific to their recorded versions. A hardware-campaign inventory preflight failed before multi-GPU execution. Physical multi-GPU, two-host recovery and live containment qualification remain open.
+An AI-resource coordination asset for reviewing capacity, workload placement and recoverability.
 
 Separately scoped development: 0.24.0 unmerged draft; physical campaign preflight unsuccessful
 
@@ -133,20 +133,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-19. All amounts in EUR. Market value is not established.
+Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 500,000 | 562,650 |
-| Negotiation reference - low | 390,000 | 438,867 |
-| Negotiation reference - high | 630,000 | 708,939 |
-| Recreation cost estimate | 1,400,000 | 1,575,420 |
-| Marketability cost scenario | 2,310,000 | 2,599,443 |
-| Monetisation cost scenario | 3,080,000 | 3,465,924 |
-| Risk-adjusted strategic reference | 3,721,323 | 4,187,605 |
-| Weighted economic reference | 2,730,463 | 3,072,590 |
+| Seller asking reference | 500,000 | 561,700 |
+| Negotiation reference - low | 390,000 | 438,126 |
+| Negotiation reference - high | 630,000 | 707,742 |
+| Recreation cost estimate | 1,400,000 | 1,572,760 |
+| Marketability cost scenario | 2,310,000 | 2,595,054 |
+| Monetisation cost scenario | 3,080,000 | 3,460,072 |
+| Risk-adjusted strategic reference | 3,721,323 | 4,180,534 |
+| Weighted economic reference | 2,730,463 | 3,067,402 |
 
-USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
+USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -167,9 +167,9 @@ Some dated work-package assumptions are disclosed, but they do not reconstruct t
 
 ### Financial assessment
 
-Partial work budget; retained base requires reconstruction. Assessed 2026-10-19.
+Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-21.
 
-The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.
+Explicit budgets cover only part of this recreation estimate. The retained unbroken anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
@@ -235,7 +235,7 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 

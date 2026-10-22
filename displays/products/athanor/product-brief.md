@@ -1,12 +1,12 @@
-# ATHANOR Adaptive Topology, Hazard Analysis, Network Optimization & Resilience
+# Adaptive Network Resilience Intelligence Platform
 
 TA-IP-002 | Reference name: Elara | Operations, reliability & digital twins
 
-Compare recovery options when your network is disrupted, and review the evidence behind each choice.
+Compare network recovery options, resource constraints and scenario robustness before deciding what to investigate or build.
 
 ## Product overview
 
-A deterministic network-resilience research platform for comparing disruption and repair portfolios, shared damaged-network baselines, budget constraints and failure-domain assurance.
+A research platform for evaluating network disruption and recovery choices with traceable comparative outputs.
 
 ## Potential acquirers
 
@@ -16,29 +16,30 @@ A deterministic network-resilience research platform for comparing disruption an
 
 ## Documented functions
 
-- Compare deterministic disruption and repair portfolios
-- Plan bounded repair shortcuts and zero-budget cases
-- Review shared network-efficiency baselines
-- Apply failure-domain policies and uncertainty checks
-- Replay release and provenance evidence
+- Model network disruption and recovery scenarios
+- Compare bounded repair and resource options
+- Review recovery-option trade-offs
+- Assess scenario robustness
+- Export traceable evaluation summaries
 
 ## Available output types
 
-- Recovery comparisons
-- Scenario reports
-- Decision records
+- Scenario comparisons
+- Recovery-option summaries
+- Evaluation reports
 
 ## Current offered position
 
-Developed software. Existing software offered for evaluation against an agreed use and delivery scope.
+Developed software. Network-resilience research software with separately identified development extensions. Field qualification and release-specific recipient acceptance are separate.
 
 Scope and transfer review required.
 
-- Network simulations and deterministic software checks do not establish universal optimisation, physical resilience or biological/clinical effects.
+- Research simulations and software checks do not establish physical network resilience or universal optimisation.
+- Development extensions are offered separately from the published release and require delivery-specific acceptance.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 97,500.
+Seller asking reference: EUR 99,000.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -56,9 +57,9 @@ Acquisition of the specifically agreed first-party work product and transferable
 
 ## Buyer information and enquiry
 
-Asset profile: https://thearchitect-max.github.io/MyProjects/projects/athanor/
+Asset profile: https://thearchitect-max.github.io/MyProjects/projects/adaptive-network-resilience-intelligence-platform/
 
-Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/athanor/factsheet.pdf
+Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/adaptive-network-resilience-intelligence-platform/factsheet.pdf
 
 Quote TA-IP-002 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
@@ -72,23 +73,20 @@ Identified product edition: 3.7.0
 
 Handover position: Scope closure required
 
-A deterministic network-resilience research platform for comparing disruption and repair portfolios, shared damaged-network baselines, budget constraints and failure-domain assurance.
+Network-resilience research software for comparing disruptions, recovery options and resource-constrained repair plans.
+
+Separately scoped development: Implemented development extensions for recovery-option comparison and scenario robustness; the published release remains 3.7.0.
 
 ### Priced first-party scope
 
-Specifically agreed first-party implementation, documentation and retained evidence for 3.7.0. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.
+Specifically agreed first-party release software and implemented development extensions, associated documentation and retained developer evidence. Release status and delivery acceptance are agreed explicitly.
 
-### Edition-specific evidence
+### Evaluation and acceptance
 
-The retained v3.7.0 release manifest and Colab replay audit record 74/74 checks PASS, including seven embedded provenance checks. This is version-specific software/research evidence, not independent field validation.
+Retained developer checks support the identified software scope. Detailed reproducibility, component, security and delivery evidence is available through an agreed confidential review. Independent acceptance for the intended application remains separate.
 
-
-
-### Intended qualification
-
-Reproduce representative failure-domain and repair-budget cases in the buyer environment and retain negative comparisons where an external baseline performs better.
-
-- Network simulations and deterministic software checks do not establish universal optimisation, physical resilience or biological/clinical effects.
+- Research simulations and software checks do not establish physical network resilience or universal optimisation.
+- Development extensions are offered separately from the published release and require delivery-specific acceptance.
 
 ### Acquisition evidence profile
 
@@ -102,15 +100,14 @@ Reproduce representative failure-domain and repair-budget cases in the buyer env
 
 ### Conditions before handover
 
-- Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
-- A detailed component inventory and licensing report are required for the agreed delivery scope.
-- A security assessment or an explicit statement of its absence is required before acceptance.
-- An explicit delivery manifest and handover scope remain to be agreed.
+- Agree and freeze the exact first-party delivery edition, rights, third-party obligations and excluded content.
+- Review source-specific reproducibility, component and security documentation under agreed confidentiality.
+- Complete the relevant application qualification and recipient handover acceptance.
 
 ### Qualification objectives
 
-- Reproduce representative failure-domain and repair-budget cases in the buyer environment and retain negative comparisons where an external baseline performs better.
-- Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance.
+- Evaluate representative intended-use cases against the offered functions and material boundaries.
+- Agree measurable acceptance criteria and the delivery package before transfer.
 - Independent legal ownership/title opinion not performed by this internal audit.
 - Freedom-to-operate legal opinion not performed unless separately evidenced.
 - Independent penetration test not assumed unless separately evidenced.
@@ -141,20 +138,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-19. All amounts in EUR. Market value is not established.
+Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 97,500 | 109,717 |
-| Negotiation reference - low | 77,000 | 86,648 |
-| Negotiation reference - high | 123,000 | 138,412 |
-| Recreation cost estimate | 532,500 | 599,222 |
-| Marketability cost scenario | 391,388 | 440,429 |
-| Monetisation cost scenario | 271,575 | 305,603 |
-| Risk-adjusted strategic reference | 134,037 | 150,832 |
-| Weighted economic reference | 312,631 | 351,804 |
+| Seller asking reference | 99,000 | 111,217 |
+| Negotiation reference - low | 78,000 | 87,625 |
+| Negotiation reference - high | 125,000 | 140,425 |
+| Recreation cost estimate | 541,000 | 607,759 |
+| Marketability cost scenario | 397,635 | 446,703 |
+| Monetisation cost scenario | 275,910 | 309,957 |
+| Risk-adjusted strategic reference | 136,177 | 152,981 |
+| Weighted economic reference | 317,621 | 356,815 |
 
-USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
+USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -171,13 +168,13 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-Recreation estimate: EUR 520,000 retained scope component plus EUR 12,500 for the explicitly scoped implementation work budget, giving EUR 532,500. The scoped budget assumes 120 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.
+The recreation estimate comprises the retained expressly priced scope and the separately disclosed non-overlapping implementation budgets. Historical anchors and each successive scoped increment reconcile in the calculation below. Equivalent effort is a seller estimate; market value, actual expenditure and independent quotations are not established. Reuses the priced release foundation. Only implemented development software is included; independent network/field qualification and future release work are excluded.
 
 ### Financial assessment
 
-Partial work budget; retained base requires reconstruction. Assessed 2026-10-19.
+Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-21.
 
-The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.
+Explicit budgets cover only part of this recreation estimate. The retained unbroken anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
@@ -206,6 +203,31 @@ Deterministic repair planning and bounded shortcut allocation; Portfolio efficie
 
 Seller-selected equivalent reproduction effort for the expressly bounded implementation. These are not logged hours, elapsed development time or actual spending. EUR 94/hour is external rate context, not a minimum or quote; the 15% allowance is an assumption. The selected scenario is the lowest of these scoped scenarios, not an absolute cost floor. Candidate-only future features and unestablished qualification are excluded.
 
+#### Scoped implementation reproduction budget
+
+Recovery-option comparison and decision summaries; Scenario robustness review and bounded evaluation outputs; Compatibility, negative cases and delivery documentation.
+
+- Recovery-option comparison and decision summaries — 32 assumed hours
+- Scenario robustness review and bounded evaluation outputs — 32 assumed hours
+- Compatibility, negative cases and delivery documentation — 16 assumed hours
+
+- Assumed hours: 80
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 7,520
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 8,648
+- Adopted recreation increment: EUR 8,500
+- Previous recreation cost: EUR 532,500
+- Current recreation cost: EUR 541,000
+- Effort alternatives / Low hours: 80
+- Effort alternatives / Reference hours: 120
+- Effort alternatives / Extended hours: 160
+- Effort alternatives / Low cost: EUR 8,648
+- Effort alternatives / Reference cost: EUR 12,972
+- Effort alternatives / Extended cost: EUR 17,296
+
+Seller-selected equivalent reproduction effort, not logged hours, actual expenditure or a contractor quote. EUR 94/hour and the 15% allowance are disclosed assumptions; the adopted amount is the lowest of these bounded scenarios, not an absolute cost floor. Reuses the priced release foundation. Only implemented development software is included; independent network/field qualification and future release work are excluded.
+
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
@@ -216,7 +238,7 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
@@ -224,11 +246,11 @@ Calculation inputs: {"stage": "V", "potential": "S", "sector": "Industrial & Inf
 
 Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
 
-Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/athanor/#calculation
+Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/adaptive-network-resilience-intelligence-platform/#calculation
 
 ## Buyer-specific economic value and evaluation
 
-TA-IP-002 / Elara / ATHANOR Adaptive Topology, Hazard Analysis, Network Optimization & Resilience
+TA-IP-002 / Elara / Adaptive Network Resilience Intelligence Platform
 
 Assess the intended use against a credible build, licence or operating alternative. Support any time advantage, incremental cash flow or avoided costs, count each benefit once, and include remaining qualification, integration, rights and operating requirements. The published references describe their stated scope and assumptions; a separately evidenced buyer-specific case may support different consideration. No strategic premium, independently established market value or guaranteed transaction ceiling/floor is asserted.
 

@@ -497,12 +497,12 @@
         "Portable state bundles and verified local backups"
       ],
       "maturity": "Prototype",
-      "maturityNote": "RC1 local reference runtime; 29 developer tests and native CLI/SQLite checks passed. Production database security, availability and certification are outside this scope.",
+      "maturityNote": "A local evidence-governance reference runtime. Production security, availability and certification require separate qualification.",
       "availability": "Available for acquisition discussion",
       "askingReferenceEUR": 201500,
       "materialBoundaries": [
-        "A local SQLite reference adapter; no encryption, enterprise identity, replicated availability or production secrets management is established.",
-        "Integrity hashes do not establish substantive truth, compliance or legal authority."
+        "A local reference runtime; production security, identity, availability and deployment acceptance require separate qualification.",
+        "Integrity records do not establish substantive truth, compliance or legal authority."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -782,8 +782,8 @@
     },
     {
       "ref": "TA-IP-002",
-      "slug": "athanor",
-      "title": "ATHANOR Adaptive Topology, Hazard Analysis, Network Optimization & Resilience",
+      "slug": "adaptive-network-resilience-intelligence-platform",
+      "title": "Adaptive Network Resilience Intelligence Platform",
       "referenceName": "Elara",
       "categoryId": "industrial-digital-twins",
       "buyerGroupIds": [
@@ -791,31 +791,32 @@
         "industrial",
         "specialist"
       ],
-      "summary": "Compare recovery options when your network is disrupted, and review the evidence behind each choice.",
-      "overview": "A deterministic network-resilience research platform for comparing disruption and repair portfolios, shared damaged-network baselines, budget constraints and failure-domain assurance.",
+      "summary": "Compare network recovery options, resource constraints and scenario robustness before deciding what to investigate or build.",
+      "overview": "A research platform for evaluating network disruption and recovery choices with traceable comparative outputs.",
       "potentialBuyers": [
         "Infrastructure engineering teams",
         "Network research groups",
         "Resilience consultancies"
       ],
       "capabilities": [
-        "Compare deterministic disruption and repair portfolios",
-        "Plan bounded repair shortcuts and zero-budget cases",
-        "Review shared network-efficiency baselines",
-        "Apply failure-domain policies and uncertainty checks",
-        "Replay release and provenance evidence"
+        "Model network disruption and recovery scenarios",
+        "Compare bounded repair and resource options",
+        "Review recovery-option trade-offs",
+        "Assess scenario robustness",
+        "Export traceable evaluation summaries"
       ],
       "outputTypes": [
-        "Recovery comparisons",
-        "Scenario reports",
-        "Decision records"
+        "Scenario comparisons",
+        "Recovery-option summaries",
+        "Evaluation reports"
       ],
       "maturity": "Developed software",
-      "maturityNote": "Existing software offered for evaluation against an agreed use and delivery scope.",
+      "maturityNote": "Network-resilience research software with separately identified development extensions. Field qualification and release-specific recipient acceptance are separate.",
       "availability": "Scope and transfer review required",
-      "askingReferenceEUR": 97500,
+      "askingReferenceEUR": 99000,
       "materialBoundaries": [
-        "Network simulations and deterministic software checks do not establish universal optimisation, physical resilience or biological/clinical effects."
+        "Research simulations and software checks do not establish physical network resilience or universal optimisation.",
+        "Development extensions are offered separately from the published release and require delivery-specific acceptance."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -827,10 +828,10 @@
         "Personal, customer and author content, private accounts and credentials",
         "Future development, hosting, hardware, support and operating businesses unless expressly agreed"
       ],
-      "profileUrl": "https://thearchitect-max.github.io/MyProjects/projects/athanor/",
-      "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/athanor/",
-      "factsheetUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/athanor/factsheet.pdf",
-      "briefUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/athanor/product-brief.md"
+      "profileUrl": "https://thearchitect-max.github.io/MyProjects/projects/adaptive-network-resilience-intelligence-platform/",
+      "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/adaptive-network-resilience-intelligence-platform/",
+      "factsheetUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/adaptive-network-resilience-intelligence-platform/factsheet.pdf",
+      "briefUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/adaptive-network-resilience-intelligence-platform/product-brief.md"
     },
     {
       "ref": "TA-IP-092",
@@ -1257,41 +1258,31 @@
         "specialist"
       ],
       "summary": "Model connected systems, compare scenarios and examine bounded offline forecast studies with traceable evidence.",
-      "overview": "Connected-system simulation, traceable observations and offline forecast research with constrained-decision, release-assurance and Q2 cross-domain comparison software. Developer reports cover energy, mobility and air-quality datasets; exploratory outcomes, selection limits and open independent qualification remain explicit.",
+      "overview": "A research engine for modelling connected systems, comparing bounded decisions and examining reproducible offline forecast studies.",
       "potentialBuyers": [
         "Digital-twin vendors",
         "Systems research groups",
         "Engineering consultancies"
       ],
       "capabilities": [
-        "Compose linked system studies",
-        "Compare declared scenarios",
-        "Review supplied observations",
-        "Run local combined simulations",
-        "Retain attributable histories",
-        "Compare fixed-task offline forecasts with transparent CPU reference predictors",
-        "Review chronological splits, held-out errors, empirical intervals and abstention",
-        "Evaluate declared decision constraints with traceable feasibility and abstention",
-        "Inspect static and executed research-release assurance",
-        "Run pinned CPU data-receipt and benchmark studies",
-        "Import pinned hourly mobility and air-quality CSV receipts with explicit missingness exclusions",
-        "Compare declared domain tasks, chronological baselines and diagnostic paired bootstrap summaries"
+        "Model connected-system scenarios",
+        "Compare bounded forecast and decision studies",
+        "Organise governed research inputs",
+        "Review separated evaluation evidence",
+        "Export portable offline study packages"
       ],
       "outputTypes": [
         "Scenario comparisons",
-        "Observation records",
-        "Simulation histories",
-        "Bounded forecast-study and reference-comparison reports"
+        "Research evaluation summaries",
+        "Portable evidence packages"
       ],
       "maturity": "Prototype",
-      "maturityNote": "Distribution version 0.7.0 with later research gates and Q2 E1 comparison software. All 255 current local CPU developer tests passed. The retained exploratory study did not meet its numeric superiority target; independent scientific and production qualification remain open.",
+      "maturityNote": "An offline systems and forecasting research implementation. Independent predictive superiority, scientific validity and production acceptance remain open.",
       "availability": "Scope and transfer review required",
-      "askingReferenceEUR": 56500,
+      "askingReferenceEUR": 64000,
       "materialBoundaries": [
-        "The retained Q2 developer report describes three UCI datasets; raw source CSVs were not supplied for independent recalculation in this website review.",
-        "Reported macro AR(1) gain over persistence: MAE -1.03% (worse), RMSE +3.92% (better). The prospective 10% target on both metrics was NOT MET.",
-        "The reported protocol was not fully preregistered before held-out access. Longest-contiguous-segment selection excludes substantial data and can bias conclusions.",
-        "The comparison, source-authenticity, independent replication, strong domain-baseline, shift/fallback and production-acceptance gates remain open. Financial references price only explicit implementation effort; no scientific-performance premium is included."
+        "Independent predictive superiority and scientific or physical-system validity are not established.",
+        "The implementation is research software; live integration, safe operational fallback and production acceptance require separate qualification."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -1787,35 +1778,31 @@
         "research"
       ],
       "summary": "Organise reported visual experiences and compare study records for structured phenomenology research.",
-      "overview": "A phenomenology research software platform combining governed observations, provenance and scalar adapters with prespecified comparison designs, separated campaign/custody workflows, controlled calibration, transactional intent metadata and pinned held-out scoring reports.",
+      "overview": "A structured research environment for observation records, comparative studies and controlled evidence review.",
       "potentialBuyers": [
         "Perception research groups",
         "Scientific data teams",
         "Research software vendors"
       ],
       "capabilities": [
-        "Organise governed observations and declared study plans",
-        "Apply scalar measurement contracts and unit conversions",
-        "Propagate standard uncertainty through affine transformations",
-        "Verify portable evidence capsules and observer-key histories",
-        "Retain reproducible computational and package checks",
-        "Prespecify comparison and campaign contracts",
-        "Separate custodian release from analyst calibration and scoring",
-        "Retain transactional intent metadata and recover journal state",
-        "Verify pinned no-refit held-out scoring reports"
+        "Organise structured observation records",
+        "Prepare and compare bounded studies",
+        "Review condition and reference summaries",
+        "Coordinate controlled evidence review",
+        "Export portable review packages"
       ],
       "outputTypes": [
-        "Study dossiers",
-        "Hypothesis comparisons",
-        "Review records"
+        "Observation records",
+        "Comparative study summaries",
+        "Review packages"
       ],
       "maturity": "Developed software",
-      "maturityNote": "Package 8.29.0 with B03 and B04.1–B04.4a software gates. Retained B04.4a evidence records 682 tests and 37 native checks passing. These are software-reference checks; complete scientific empirical qualification remains open.",
+      "maturityNote": "Implemented phenomenology research and governed-study software. Empirical authenticity and independent scientific acceptance are not established by software checks.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 217500,
+      "askingReferenceEUR": 223000,
       "materialBoundaries": [
-        "Synthetic/software qualification does not authenticate empirical origin, independent human custody, optical causality, clinical benefit or a DMT-laser mechanism.",
-        "Held-out scoring is implemented, while condition-labelled contrasts, sensitivity computations and reference-baseline scientific comparison remain separately qualified future gates."
+        "Software qualification does not establish empirical authenticity, optical causation, clinical benefit or a DMT-laser mechanism.",
+        "Scientific conclusions and independent study acceptance require separately qualified evidence."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -2383,7 +2370,7 @@
         "Administrative and credit-ledger records"
       ],
       "maturity": "Prototype",
-      "maturityNote": "Version 0.5.1 passed 38 local developer tests and repository identity/boundary checks. Real model/GPU qualification and production acceptance remain separate.",
+      "maturityNote": "A media-production platform with local workflow controls. Third-party model/runtime rights, GPU qualification and production acceptance remain separate.",
       "availability": "Available for acquisition discussion",
       "askingReferenceEUR": 162000,
       "materialBoundaries": [
@@ -2731,30 +2718,30 @@
         "assurance"
       ],
       "summary": "Organise subsurface-material records and assess the evidence available for a research or acquisition review.",
-      "overview": "A subsurface-materials evidence asset with portable qualification and acquisition review.",
+      "overview": "A research platform for assessing materials evidence and preparing reviewable qualification and transfer records.",
       "potentialBuyers": [
         "Materials research groups",
         "Scientific assurance vendors",
         "Engineering data teams"
       ],
       "capabilities": [
-        "Organise materials evidence",
-        "Review qualification decisions",
-        "Retain transaction provenance",
-        "Prepare portable review packages",
-        "Verify acquisition package consistency"
+        "Organise subsurface-materials evidence",
+        "Assess research qualification records",
+        "Review trust continuity",
+        "Coordinate multi-party evidence approval",
+        "Prepare offline acquisition review outputs"
       ],
       "outputTypes": [
-        "Materials dossiers",
-        "Qualification records",
-        "Acquisition review packages"
+        "Qualification summaries",
+        "Governed review records",
+        "Transfer review packages"
       ],
       "maturity": "Developed software",
-      "maturityNote": "Existing software offered for evaluation against an agreed use and delivery scope.",
+      "maturityNote": "Materials-evidence research software with controlled trust and review workflows. Physical and scientific qualification remain separate.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 255000,
+      "askingReferenceEUR": 256500,
       "materialBoundaries": [
-        "Evidence qualification for supplied materials data. Independent physical identification of subsurface materials is not established."
+        "Materials research and evidence-governance software; no physical operation, hardware safety authority or independent scientific certification is offered."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -3357,30 +3344,31 @@
         "education"
       ],
       "summary": "Explore classical ciphers, test candidate interpretations and review your cryptanalysis results.",
-      "overview": "A classical-cipher analysis product with repeatable transformation and candidate-review workflows.",
+      "overview": "A modular environment for analysing supported classical ciphers and comparing candidate interpretations through a consistent research workflow.",
       "potentialBuyers": [
         "Cryptography education providers",
         "Historical-text researchers",
         "Security research teams"
       ],
       "capabilities": [
-        "Work with configurable symbol sets",
-        "Transform classical cipher material",
-        "Analyse candidate readings",
-        "Review key-recovery results",
-        "Retain reproducible analysis"
+        "Analyse supported classical cipher families",
+        "Plan and compare analysis methods",
+        "Review candidate and exploratory family evidence",
+        "Assess representative calibration examples",
+        "Export comparable research results"
       ],
       "outputTypes": [
-        "Candidate readings",
-        "Analysis reports",
-        "Validation records"
+        "Candidate interpretations",
+        "Comparison reports",
+        "Calibration summaries"
       ],
       "maturity": "Developed software",
-      "maturityNote": "Existing software offered for evaluation against an agreed use and delivery scope.",
+      "maturityNote": "Classical-cipher research software for bounded analysis and comparison. Intended-use acceptance is agreed for the delivery edition.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 95000,
+      "askingReferenceEUR": 101000,
       "materialBoundaries": [
-        "Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately."
+        "Classical-cipher research software; no capability to break modern encryption systems or independently certified security service is claimed.",
+        "Family evidence is exploratory. General classifier accuracy and independent out-of-sample performance are not established."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -3564,36 +3552,34 @@
         "assurance",
         "specialist"
       ],
-      "summary": "Manage collectible identities and narratives, review editorial evidence and study simulated commerce workflows with controlled inventory and ledger rules.",
-      "overview": "Review collectible identities, edition limits, fictional narratives and editorial evidence in a local reference studio. The R5 source also supports simulated order and fulfilment states, controlled stock reservations, returns, refunds and ledger invariants. Physical facts remain distinct from fiction, and production operation and real payments require later independent acceptance.",
+      "summary": "Manage collectible identities and narratives, review simulated commerce and prepare controlled local verification and recovery.",
+      "overview": "An object-independent local reference platform for collectible registries, editorial narratives and controlled simulated commerce.",
       "potentialBuyers": [
         "Collectible registry software teams",
         "Narrative product studios",
         "Independent collection operators"
       ],
       "capabilities": [
-        "Register collectible identities and edition limits",
-        "Keep fictional narrative and physical facts distinct",
-        "Bind editorial decisions to narrative revisions",
-        "Review canon, multilingual consistency and text reuse",
-        "Retain deterministic histories and recovery packages",
-        "Study simulated order, fulfilment, return and refund lifecycles",
-        "Review idempotency, duplicate-sale prevention and financial ledger invariants"
+        "Manage collectible and edition records",
+        "Review narratives and editorial decisions",
+        "Study simulated order and stock workflows",
+        "Apply local access and privacy controls",
+        "Export offline verification and recovery packages"
       ],
       "outputTypes": [
-        "Collectible and edition records",
-        "Fictional world and narrative histories",
-        "Review and recovery packages",
-        "Simulated commerce lifecycle and ledger-assurance reports"
+        "Collectible registry records",
+        "Editorial review summaries",
+        "Simulated commerce reports",
+        "Verification and recovery packages"
       ],
       "maturity": "Prototype",
-      "maturityNote": "The 0.6.0 / R5 local reference source passed its 130-test repository suite. Independent operator, security, privacy, rights and production acceptance remain separate final gates; real payments are not activated.",
+      "maturityNote": "A local reference application for collectible, narrative and simulated-commerce workflows, with local access controls and portable recovery. Real payments and production services are excluded.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 13500,
+      "askingReferenceEUR": 17500,
       "materialBoundaries": [
-        "Text checks are not semantic entailment, plagiarism detection or translation-quality certification. Physical stock, third-party fiction, production commerce, real payments and hosted accounts are separately scoped.",
-        "Commerce functions use simulated transaction states. Real payments and production commerce are not activated.",
-        "Financial references retain their disclosed registry, assurance and R4 cost basis; agree the R5 delivery scope and any separate consideration expressly."
+        "Commerce uses simulated transactions; real payments, production identity services and hosted operations are excluded.",
+        "Narrative checks do not establish literary originality, translation quality or third-party rights clearance.",
+        "Portable integrity verification does not independently establish ownership, historical truth or external trust."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -5684,30 +5670,32 @@
         "software",
         "media"
       ],
-      "summary": "Create and animate 2D scenes with editable layers, keyframes and bounded visual-effect controls.",
-      "overview": "An independent local 2D authoring and visual-effects prototype with a scene editor, animation controls and a visual node graph.",
+      "summary": "Create and animate local visual scenes, compare bounded effects and explore a limited 3D authoring workflow.",
+      "overview": "A standalone visual-authoring development platform with 2D editing, animation and a limited experimental 3D workbench.",
       "potentialBuyers": [
         "Visual authoring software teams",
         "Creative-tool developers",
         "Interactive media R&D teams"
       ],
       "capabilities": [
-        "Edit 2D shape and text layers",
-        "Animate scene properties with keyframes",
-        "Create visual-effect node graphs",
-        "Save and reopen editable scene projects"
+        "Create layered 2D scenes",
+        "Edit timelines and keyframes",
+        "Apply bounded visual-effect graphs",
+        "Explore a limited local 3D scene",
+        "Import and export supported bounded model files"
       ],
       "outputTypes": [
-        "Editable 2D scene projects",
-        "Animation and keyframe records",
-        "Visual-effect graph projects"
+        "Editable scenes",
+        "Animation project files",
+        "Supported model exports"
       ],
       "maturity": "Prototype",
-      "maturityNote": "A prototype offered for evaluation and continued development; production acceptance is separate.",
+      "maturityNote": "A standalone development-alpha authoring platform with limited experimental 3D. Browser, GPU, device and production acceptance remain separate.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 5500,
+      "askingReferenceEUR": 8500,
       "materialBoundaries": [
-        "An independent 2D authoring prototype. 3D, XR and computer vision remain future work. No integration with other portfolio projects is offered."
+        "Development alpha with limited experimental 3D. Browser, GPU and device acceptance remain separate.",
+        "XR, computer vision, production video encoding and integration with other portfolio projects are excluded."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",

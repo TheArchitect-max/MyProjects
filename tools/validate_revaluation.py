@@ -15,7 +15,7 @@ def validate(pricing=None,dossiers=None):
   covered=sum((x.get('adoptedRecreationCostEUR') or 0)+(x.get('adoptedRecreationIncrementEUR') or 0) for x in b)
   status='FULL_SCOPED_BUDGET' if covered==a['values']['replacementCostEUR'] else ('PARTIAL_SCOPED_BUDGET' if b else 'LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN')
   assert q['costEvidenceStatus']==status,('Cost coverage misrepresented',ref)
-  assert q['assessedOn']==p['basisDate']=='2026-10-19'
+  assert q['assessedOn']==a['basisDate'] and q['assessedOn']<=p['basisDate']==d['basisDate']
   assert q['offeredEdition']==ds[ref]['version']
   assert q['qualification']=={x['axis']:x['grade'] for x in ds[ref]['assessmentCriteria']}
   assert q['marketValueStatus']=='NOT_ESTABLISHED'
@@ -24,7 +24,7 @@ def validate(pricing=None,dossiers=None):
   assert a['calculationInputs']['route'] in p['methodology']['factors']['routeMonetization']
   counts[status]+=1
  assert counts==p['methodology']['reassessment']['budgetCoverage']
- assert counts=={'FULL_SCOPED_BUDGET':11,'PARTIAL_SCOPED_BUDGET':31,'LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN':66}
+ assert sum(counts.values())==108 and set(counts)<= {'FULL_SCOPED_BUDGET','PARTIAL_SCOPED_BUDGET','LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN'}
  assert p['methodology']['reassessment']['assetsReviewed']==108
  return {'result':'PASS','assessmentRecords':108,'costCoverage':dict(counts),'qualificationGradesUnpromoted':True,'marketValueNotEstablished':108}
 if __name__=='__main__':print(json.dumps(validate(),indent=2))

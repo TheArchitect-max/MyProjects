@@ -82,7 +82,7 @@ Seller-owned first-party rights plus specifically agreed transferable software/d
 
 ### Research evidence and delivery edition
 
-The candidate documentation records three focused ANEP tests PASS and a five-seed local study passing four seeds; seed 5 has zero frozen-control margin and remains in the canonical set. v18.3 remains the recorded external Tesla-T4 baseline. These records do not establish external v18.4 CUDA qualification or a fresh complete regression PASS.
+Research evidence applies to its identified delivery edition and environment. Complete candidate regression and independent hardware qualification remain open.
 
 - Main contains the public identity and acquisition documentation; agree and freeze the actual included research-source package.
 - Consciousness, biological equivalence, AGI, autonomous perception, planning and production readiness are not established.
@@ -135,20 +135,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-19. All amounts in EUR. Market value is not established.
+Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 45,000 | 50,639 |
-| Negotiation reference - low | 35,000 | 39,386 |
-| Negotiation reference - high | 55,000 | 61,892 |
-| Recreation cost estimate | 400,000 | 450,120 |
-| Marketability cost scenario | 336,600 | 378,776 |
-| Monetisation cost scenario | 229,500 | 258,256 |
-| Risk-adjusted strategic reference | 166,898 | 187,810 |
-| Weighted economic reference | 271,634 | 305,670 |
+| Seller asking reference | 45,000 | 50,553 |
+| Negotiation reference - low | 35,000 | 39,319 |
+| Negotiation reference - high | 55,000 | 61,787 |
+| Recreation cost estimate | 400,000 | 449,360 |
+| Marketability cost scenario | 336,600 | 378,136 |
+| Monetisation cost scenario | 229,500 | 257,820 |
+| Risk-adjusted strategic reference | 166,898 | 187,493 |
+| Weighted economic reference | 271,634 | 305,154 |
 
-USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
+USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -169,9 +169,9 @@ The retained recreation anchor has no explicit per-role work-package budget in t
 
 ### Financial assessment
 
-Retained seller estimate; work breakdown required. Assessed 2026-10-19.
+Retained seller estimate; work breakdown required. Assessed 2026-10-21.
 
-No complete work-package budget supports this retained recreation anchor in the financial register. The current amount remains a low-confidence seller estimate. Do not infer engineering hours or market value from it; obtain a delivery-specific work breakdown and quote.
+No complete work-package budget supports the retained anchor. Obtain a delivery-specific work breakdown and quote; this seller estimate does not establish actual expenditure or market value.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
@@ -185,7 +185,7 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 

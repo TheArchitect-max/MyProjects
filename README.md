@@ -1,41 +1,25 @@
-# THEARCHITECT_MAX — Seller-offered software IP portfolio
+# THEARCHITECT_MAX - Seller-led software IP acquisition portfolio
 
-An acquisition presentation for 108 individually scoped software and research IP assets. The seller defines the offered work, agrees controlled disclosure and negotiates the expressly transferable first-party rights and delivery. This is a static information website; it does not operate the underlying software, host a SaaS, create accounts, collect enquiries or process payments.
+[Open the acquisition portfolio](https://thearchitect-max.github.io/MyProjects/). Seventeen navigation sections provide access to the collection, individual project displays, portfolio thesis, qualifications, financial method, sources and acquisition process.
 
-## Project presentations and identity
+## Asset identity and information
 
-The restored original presentation retains the black/gold style, Caravaggio and Rembrandt artwork and music. Seventeen primary navigation tabs provide direct access to the project displays, individual asset dossiers, Connections, prices, sources and acquisition process. `identities.html` provides the public register of canonical project titles, current TA-IP references and feminine aliases; `displays/identity-register.csv` supplies the corresponding download in the hub. Every asset has one identity and one display. Compatibility routes are not additional assets.
+The public catalogue contains 108 individually identified software and research IP assets. Each asset has one current TA-IP reference, canonical project title and feminine reference name. Individual presentations link to the asset dossier, factsheet PDF and product brief. Compatibility routes preserve earlier links without creating additional assets. The three publication repositories are excluded from the asset count.
 
-The current project repositories carry `ASSET_IDENTITY.json`, linking the fixed portfolio reference and feminine alias to the stable numeric GitHub repository ID. The three publication repositories carry `PUBLICATION_IDENTITY.json` and are excluded from the asset count. The current catalogue is numbered consecutively from TA-IP-001 through TA-IP-108, as instructed by the seller. Resolve current identity through the canonical project title, feminine alias and repository identity; retain historical evidence in its recorded scope.
+## Financial references
 
-The public register excludes private source, personal identity, credentials and internal audit records. Historical qualification records keep their original source identities and execution scope. An administrative identity correction does not promote product qualification or establish legal title.
+All eight financial references are presented in EUR and indicative USD, with a dated exchange rate, stated cost assumptions, conditional scenarios and reproducible arithmetic. Individual asking references are seller inputs. Recreation estimates are assumed equivalent engineering costs, not recorded expenditure or an absolute minimum. Market value is not established; final consideration depends on the agreed work, rights and delivery. Portfolio totals are sums of individual references, not an agreed package price.
 
-## Portfolio thesis
+## Controlled acquisition review
 
-`portfolio-thesis.html` publishes the seller-authored “Independent Advanced Technology & Software Intellectual Property Portfolio”. The complete approved text is maintained in `portfolio-thesis.md`; `tools/build_pages.py` compiles its six sections into the existing frontend. The homepage, primary navigation, footer and acquisition dossier link to the publication. Current status, conditional future potential, rights and valuation boundaries remain explicit. The dated inventory distinguishes 111 repositories (109 private, two public) from 108 offered assets and three publication repositories. Existing asset references, financial records, documents, original art and music are preserved.
+Public product information supports initial screening. Confidential source, detailed validation, component, security and rights evidence is reviewed under agreed confidentiality. A transfer covers only expressly agreed first-party work and transferable rights. Third-party software, models, datasets, content and service entitlements retain their own terms. Delivery, recipient acceptance and any further work require separate written scope.
 
-## Financial and product information
+Connections describe proposed workflows, not delivered integrations or additional assets. The separate “Strategic fit · Company-specific opportunities” analysis links existing assets to factual business contexts and the central Sources register. Independent seller-authored analysis. No affiliation, endorsement, commissioning or buyer interest is claimed. The visual-effects platform remains standalone.
 
-Preserve all eight EUR and USD financial references, the dated ECB conversion, model inputs, scoped budgets, conditional maturity references and attributed sources in `assets/pricing-catalogue.json`. Asking prices and effort assumptions are seller inputs; market value is not established. Do not remove prices when changing the presentation.
+## Publication and verification
 
-`assets/buyer-catalogue.json` provides the approved product information; `assets/buyer-dossiers.json` supplies the offered edition, separately scoped development, qualification, rights and handover conditions. `assets/application-combinations.json` provides 33 proposed workflows involving 81 distinct assets. Connections do not imply delivered integrations or additional asset value. The VFX platform remains standalone.
+The website is a static acquisition presentation. It does not run the underlying products, host accounts, submit enquiries or process payments. Enquiry controls prepare drafts locally. The original visual style, artwork and optional music remain part of the presentation.
 
-`assets/evaluation-sources.json` attributes thirteen contextual external references and seven assessment-record categories. Each project retains its factsheet, product brief, prices and source links. Original visual and music assets remain in place.
-
-`musk.html` presents “Strategic fit · Company-specific opportunities”, a separate seller-authored analysis for appropriately authorised company evaluation teams. The section, homepage introduction and Connections crosslink visibly state: “Independent seller-authored analysis. No affiliation, endorsement, commissioning or buyer interest is claimed.” `assets/musk-opportunities.json` maps 26 distinct existing assets to six company assessment routes and eight official contextual sources. Current titles, IDs, aliases, editions and every price are resolved from the existing catalogues. The route adds no assets, integration claims, valuation uplift or affiliation. General Connections remains separate. The complete confidential acquisition dossier is consolidated in `acquisition-dossier/confidential-dossier.taip` using AES-256-GCM, with a separately held private recovery key. All original tracked files are preserved byte for byte; a separate current assessment layer records financial deltas and source/evidence boundaries. This snapshot does not clone Git history and the original repository remains preserved. `acquisition-dossier/` provides the buyer-facing index. Company contexts reference the existing canonical workflow IDs and do not create duplicate combinations. The hub renders the official company source register on both the strategic page and the separate Sources page.
-
-## Buyer-specific economic value
-
-The valuation page separates seller asking references, scoped reproduction assumptions, correlated cost scenarios, buyer-specific strategic value and unestablished market value. The home page, all asset dossiers, static displays, briefs and company assessment routes link to the same evidence-led framework. It covers time advantage, incremental benefits, avoided work, rights, alternatives and remaining delivery costs. No automatic premium or arbitrary multiple changes the financial register; all existing EUR/USD values, cost budgets, calculations, sources, identities, factsheets, style, music and confidential archive remain preserved.
-
-## Seller-led review and delivery
-
-The acquisition flow distinguishes initial non-binding interest, agreed confidentiality and diligence, negotiation, definitive written terms, delivery and recipient acceptance. Exact source editions, rights, third-party obligations, security status, component disclosures and delivery manifests are agreed for the selected work. A request does not imply that every diligence record is already complete.
-
-The enquiry tools create local drafts only. Contact details and confidential review arrangements accompany the seller's acquisition introduction. Legacy contribution pages route to acquisition; no donation or cryptocurrency route forms part of this presentation.
-
-## Validation
-
-The hub supports `python tools/validate_identities.py`, optionally with `--repository-snapshot` pointing to a private authenticated identity audit. Existing validators cover product dossiers, model arithmetic, source attribution, complete prices, public privacy boundaries and internal links. The display validator checks all 108 displays, PDF identities, briefs and mirrored files. No product execution or independent appraisal is inferred from these website checks.
+Repository tools verify identity consistency, documents, complete prices, disclosed arithmetic, sources, public disclosure boundaries and internal links. Website checks do not independently certify the underlying products or establish legal title, market value or production acceptance.
 
 © 2026 THEARCHITECT_MAX. First-party rights reserved.

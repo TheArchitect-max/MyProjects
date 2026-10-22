@@ -6,7 +6,7 @@ Organise subsurface-material records and assess the evidence available for a res
 
 ## Product overview
 
-A subsurface-materials evidence asset with portable qualification and acquisition review.
+A research platform for assessing materials evidence and preparing reviewable qualification and transfer records.
 
 ## Potential acquirers
 
@@ -16,29 +16,29 @@ A subsurface-materials evidence asset with portable qualification and acquisitio
 
 ## Documented functions
 
-- Organise materials evidence
-- Review qualification decisions
-- Retain transaction provenance
-- Prepare portable review packages
-- Verify acquisition package consistency
+- Organise subsurface-materials evidence
+- Assess research qualification records
+- Review trust continuity
+- Coordinate multi-party evidence approval
+- Prepare offline acquisition review outputs
 
 ## Available output types
 
-- Materials dossiers
-- Qualification records
-- Acquisition review packages
+- Qualification summaries
+- Governed review records
+- Transfer review packages
 
 ## Current offered position
 
-Developed software. Existing software offered for evaluation against an agreed use and delivery scope.
+Developed software. Materials-evidence research software with controlled trust and review workflows. Physical and scientific qualification remain separate.
 
 Available for acquisition discussion.
 
-- Evidence qualification for supplied materials data. Independent physical identification of subsurface materials is not established.
+- Materials research and evidence-governance software; no physical operation, hardware safety authority or independent scientific certification is offered.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 255,000.
+Seller asking reference: EUR 256,500.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -68,15 +68,21 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 0.0.21
+Identified product edition: 0.0.23
 
 Handover position: Conditional handover
 
-Available software for evaluation against your intended use. Deployment suitability is assessed separately.
+Subsurface-materials research software for evidence qualification, trust continuity and controlled multi-party acquisition review.
 
 ### Priced first-party scope
 
-Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+Specifically agreed first-party 0.0.23 implementation, documentation and retained developer evidence, subject to delivery-specific verification.
+
+### Evaluation and acceptance
+
+Retained developer checks support the identified software scope. Detailed reproducibility, component, security and delivery evidence is available through an agreed confidential review. Independent acceptance for the intended application remains separate.
+
+- Materials research and evidence-governance software; no physical operation, hardware safety authority or independent scientific certification is offered.
 
 ### Acquisition evidence profile
 
@@ -90,13 +96,14 @@ Seller-owned first-party rights plus specifically agreed transferable software/d
 
 ### Conditions before handover
 
-- Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
-- A security assessment or an explicit statement of its absence is required before acceptance.
+- Agree and freeze the exact first-party delivery edition, rights, third-party obligations and excluded content.
+- Review source-specific reproducibility, component and security documentation under agreed confidentiality.
+- Complete the relevant application qualification and recipient handover acceptance.
 
 ### Qualification objectives
 
-- Agree a source-specific delivery edition and evaluate the documented functions against your intended use.
-- Close the listed technical, rights and handover conditions before recipient acceptance.
+- Evaluate representative intended-use cases against the offered functions and material boundaries.
+- Agree measurable acceptance criteria and the delivery package before transfer.
 - Independent legal ownership/title opinion not performed by this internal audit.
 - Freedom-to-operate legal opinion not performed unless separately evidenced.
 - Independent penetration test not assumed unless separately evidenced.
@@ -121,20 +128,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-19. All amounts in EUR. Market value is not established.
+Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 255,000 | 286,952 |
-| Negotiation reference - low | 205,000 | 230,687 |
-| Negotiation reference - high | 320,000 | 360,096 |
-| Recreation cost estimate | 850,000 | 956,505 |
-| Marketability cost scenario | 830,875 | 934,984 |
-| Monetisation cost scenario | 1,319,625 | 1,484,974 |
-| Risk-adjusted strategic reference | 838,300 | 943,339 |
-| Weighted economic reference | 936,005 | 1,053,286 |
+| Seller asking reference | 256,500 | 288,152 |
+| Negotiation reference - low | 206,000 | 231,420 |
+| Negotiation reference - high | 322,000 | 361,735 |
+| Recreation cost estimate | 855,000 | 960,507 |
+| Marketability cost scenario | 835,762 | 938,895 |
+| Monetisation cost scenario | 1,327,388 | 1,491,188 |
+| Risk-adjusted strategic reference | 843,231 | 947,286 |
+| Weighted economic reference | 941,511 | 1,057,693 |
 
-USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
+USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -151,15 +158,40 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+The recreation estimate comprises the retained expressly priced scope and the separately disclosed non-overlapping implementation budgets. Historical anchors and each successive scoped increment reconcile in the calculation below. Equivalent effort is a seller estimate; market value, actual expenditure and independent quotations are not established. Reuses the previously priced materials-evidence platform. Physical experiments, hardware authority and scientific qualification are excluded.
 
 ### Financial assessment
 
-Retained seller estimate; work breakdown required. Assessed 2026-10-19.
+Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-21.
 
-No complete work-package budget supports this retained recreation anchor in the financial register. The current amount remains a low-confidence seller estimate. Do not infer engineering hours or market value from it; obtain a delivery-specific work breakdown and quote.
+Explicit budgets cover only part of this recreation estimate. The retained unbroken anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
+
+#### Scoped implementation reproduction budget
+
+Trust continuity and review policy controls; Multi-party review and governed transitions; Negative cases, compatibility and handover documentation.
+
+- Trust continuity and review policy controls — 16 assumed hours
+- Multi-party review and governed transitions — 20 assumed hours
+- Negative cases, compatibility and handover documentation — 12 assumed hours
+
+- Assumed hours: 48
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 4,512
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 5,188.8
+- Adopted recreation increment: EUR 5,000
+- Previous recreation cost: EUR 850,000
+- Current recreation cost: EUR 855,000
+- Effort alternatives / Low hours: 48
+- Effort alternatives / Reference hours: 72
+- Effort alternatives / Extended hours: 96
+- Effort alternatives / Low cost: EUR 5,188.8
+- Effort alternatives / Reference cost: EUR 7,783.2
+- Effort alternatives / Extended cost: EUR 10,377.6
+
+Seller-selected equivalent reproduction effort, not logged hours, actual expenditure or a contractor quote. EUR 94/hour and the 15% allowance are disclosed assumptions; the adopted amount is the lowest of these bounded scenarios, not an absolute cost floor. Reuses the previously priced materials-evidence platform. Physical experiments, hardware authority and scientific qualification are excluded.
 
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
@@ -171,7 +203,7 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 

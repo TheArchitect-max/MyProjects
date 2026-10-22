@@ -72,7 +72,7 @@ Identified product edition: 1.8.0
 
 Handover position: Conditional handover
 
-The v1.8.0 software provides a coordinated single-writer runtime, fencing and idempotency controls, scenario decisions, deterministic multi-source telemetry alignment and replayable provenance. All 73 local Python tests passed for the recorded snapshot. Physical-system and production qualification are separate. The unmerged v1.8.1 hardening candidate is excluded from the v1.8.0 financial scope.
+The v1.8.0 software provides a coordinated single-writer runtime, fencing and idempotency controls, scenario decisions, deterministic multi-source telemetry alignment and replayable provenance. All Physical-system and production qualification are separate. The unmerged v1.8.1 hardening candidate is excluded from the v1.8.0 financial scope.
 
 Separately scoped development: 1.8.1 — unmerged hardening candidate; excluded from current price
 
@@ -128,20 +128,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-19. All amounts in EUR. Market value is not established.
+Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 240,000 | 270,072 |
-| Negotiation reference - low | 194,000 | 218,308 |
-| Negotiation reference - high | 301,500 | 339,278 |
-| Recreation cost estimate | 797,000 | 896,864 |
-| Marketability cost scenario | 962,377 | 1,082,963 |
-| Monetisation cost scenario | 1,183,545 | 1,331,843 |
-| Risk-adjusted strategic reference | 970,977 | 1,092,640 |
-| Weighted economic reference | 968,276 | 1,089,601 |
+| Seller asking reference | 240,000 | 269,616 |
+| Negotiation reference - low | 194,000 | 217,940 |
+| Negotiation reference - high | 301,500 | 338,705 |
+| Recreation cost estimate | 797,000 | 895,350 |
+| Marketability cost scenario | 962,377 | 1,081,134 |
+| Monetisation cost scenario | 1,183,545 | 1,329,594 |
+| Risk-adjusted strategic reference | 970,977 | 1,090,796 |
+| Weighted economic reference | 968,276 | 1,087,761 |
 
-USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
+USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -162,9 +162,9 @@ The EUR 797,000 recreation estimate consists of a EUR 780,000 base and a EUR 17,
 
 ### Financial assessment
 
-Partial work budget; retained base requires reconstruction. Assessed 2026-10-19.
+Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-21.
 
-The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.
+Explicit budgets cover only part of this recreation estimate. The retained unbroken anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
@@ -201,7 +201,7 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 

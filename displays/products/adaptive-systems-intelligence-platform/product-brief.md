@@ -30,12 +30,12 @@ A local evidence-governed runtime with workspaces, cases, relationships, obligat
 
 ## Current offered position
 
-Prototype. RC1 local reference runtime; 29 developer tests and native CLI/SQLite checks passed. Production database security, availability and certification are outside this scope.
+Prototype. A local evidence-governance reference runtime. Production security, availability and certification require separate qualification.
 
 Available for acquisition discussion.
 
-- A local SQLite reference adapter; no encryption, enterprise identity, replicated availability or production secrets management is established.
-- Integrity hashes do not establish substantive truth, compliance or legal authority.
+- A local reference runtime; production security, identity, availability and deployment acceptance require separate qualification.
+- Integrity records do not establish substantive truth, compliance or legal authority.
 
 ## Acquisition reference
 
@@ -81,10 +81,10 @@ Specifically agreed first-party RC1 local governance runtime, SQLite reference p
 
 ### Persistent evidence-governed runtime
 
-RC1 local reference runtime; 29 developer tests and native CLI/SQLite checks passed. Production database security, availability and certification are outside this scope.
+A local reference runtime with persistent evidence and policy records. Production deployment and independent security qualification are separate.
 
-- A local SQLite reference adapter; no encryption, enterprise identity, replicated availability or production secrets management is established.
-- Integrity hashes do not establish substantive truth, compliance or legal authority.
+- A local reference runtime; production security, identity, availability and deployment acceptance require separate qualification.
+- Integrity records do not establish substantive truth, compliance or legal authority.
 
 ### Acquisition evidence profile
 
@@ -137,20 +137,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-19. All amounts in EUR. Market value is not established.
+Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 201,500 | 226,748 |
-| Negotiation reference - low | 161,000 | 181,173 |
-| Negotiation reference - high | 252,000 | 283,576 |
-| Recreation cost estimate | 1,158,500 | 1,303,660 |
-| Marketability cost scenario | 1,245,677 | 1,401,760 |
-| Monetisation cost scenario | 1,348,928 | 1,517,949 |
-| Risk-adjusted strategic reference | 1,044,439 | 1,175,307 |
-| Weighted economic reference | 1,174,100 | 1,321,215 |
+| Seller asking reference | 201,500 | 226,365 |
+| Negotiation reference - low | 161,000 | 180,867 |
+| Negotiation reference - high | 252,000 | 283,097 |
+| Recreation cost estimate | 1,158,500 | 1,301,459 |
+| Marketability cost scenario | 1,245,677 | 1,399,394 |
+| Monetisation cost scenario | 1,348,928 | 1,515,386 |
+| Risk-adjusted strategic reference | 1,044,439 | 1,173,323 |
+| Weighted economic reference | 1,174,100 | 1,318,984 |
 
-USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
+USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -171,9 +171,9 @@ The recreation estimate contains EUR 1,150,000 of previously scoped work plus EU
 
 ### Financial assessment
 
-Partial work budget; retained base requires reconstruction. Assessed 2026-10-19.
+Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-21.
 
-The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.
+Explicit budgets cover only part of this recreation estimate. The retained unbroken anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
@@ -213,7 +213,7 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
