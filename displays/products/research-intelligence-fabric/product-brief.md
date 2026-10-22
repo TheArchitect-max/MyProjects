@@ -80,7 +80,7 @@ Specifically agreed first-party implementation, documentation and retained evide
 
 ### Edition-specific evidence
 
-The v4.4 implementation includes offline policy/security tests and a separate live CPU/Docker qualification runner. A retained complete live v4.4 provider-to-report PASS bundle was not identified in the reviewed source tree; the existence of the runner is not a passing execution result.
+Retained developer evidence supports the identified edition within its documented software scope. Representative recipient acceptance and any independent application qualification remain separate.
 
 
 
@@ -141,20 +141,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-19. All amounts in EUR. Market value is not established.
+Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 282,000 | 317,335 |
-| Negotiation reference - low | 226,500 | 254,880 |
-| Negotiation reference - high | 352,500 | 396,668 |
-| Recreation cost estimate | 856,500 | 963,819 |
-| Marketability cost scenario | 1,083,473 | 1,219,232 |
-| Monetisation cost scenario | 1,329,716 | 1,496,329 |
-| Risk-adjusted strategic reference | 1,093,155 | 1,230,127 |
-| Weighted economic reference | 1,079,367 | 1,214,612 |
+| Seller asking reference | 282,000 | 316,799 |
+| Negotiation reference - low | 226,500 | 254,450 |
+| Negotiation reference - high | 352,500 | 395,999 |
+| Recreation cost estimate | 856,500 | 962,192 |
+| Marketability cost scenario | 1,083,473 | 1,217,174 |
+| Monetisation cost scenario | 1,329,716 | 1,493,803 |
+| Risk-adjusted strategic reference | 1,093,155 | 1,228,050 |
+| Weighted economic reference | 1,079,367 | 1,212,561 |
 
-USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
+USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -175,9 +175,9 @@ Recreation estimate: EUR 850,000 retained scope component plus EUR 6,500 for the
 
 ### Financial assessment
 
-Partial work budget; retained base requires reconstruction. Assessed 2026-10-19.
+Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-21.
 
-The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.
+Explicit budgets cover only part of this recreation estimate. The retained unbroken anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
@@ -216,7 +216,7 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 

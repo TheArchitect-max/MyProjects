@@ -72,7 +72,7 @@ Identified product edition: 0.1.0
 
 Handover position: Conditional handover
 
-The 0.1.0 baseline and the separate 0.6.3 STELLA research candidate have distinct delivery scopes. The candidate provides offline sensor processing, calibrated geometry, replayable evidence comparison and retained NOAA context. Its report records 1,043 tests and validation of 96 schemas for the recorded source. Calibrated field accuracy, cross-modality fusion and mission qualification remain open.
+A research workbench for organising aerial observations and retaining uncertain events for review.
 
 Separately scoped development: 0.6.3 — unmerged STELLA research foundation
 
@@ -130,20 +130,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-19. All amounts in EUR. Market value is not established.
+Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 61,000 | 68,643 |
-| Negotiation reference - low | 47,500 | 53,452 |
-| Negotiation reference - high | 74,500 | 83,835 |
-| Recreation cost estimate | 540,000 | 607,662 |
-| Marketability cost scenario | 351,135 | 395,132 |
-| Monetisation cost scenario | 309,825 | 348,646 |
-| Risk-adjusted strategic reference | 174,104 | 195,919 |
-| Weighted economic reference | 328,128 | 369,242 |
+| Seller asking reference | 61,000 | 68,527 |
+| Negotiation reference - low | 47,500 | 53,362 |
+| Negotiation reference - high | 74,500 | 83,693 |
+| Recreation cost estimate | 540,000 | 606,636 |
+| Marketability cost scenario | 351,135 | 394,465 |
+| Monetisation cost scenario | 309,825 | 348,057 |
+| Risk-adjusted strategic reference | 174,104 | 195,588 |
+| Weighted economic reference | 328,128 | 368,619 |
 
-USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
+USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -164,9 +164,9 @@ The recreation anchor combines an identified base with separately scoped impleme
 
 ### Financial assessment
 
-Partial work budget; retained base requires reconstruction. Assessed 2026-10-19.
+Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-21.
 
-The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.
+Explicit budgets cover only part of this recreation estimate. The retained unbroken anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
@@ -202,7 +202,7 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 

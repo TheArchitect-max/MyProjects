@@ -80,7 +80,7 @@ Specifically agreed first-party implementation, documentation and retained evide
 
 ### Edition-specific evidence
 
-The retained v61 focused runtime gate records 30/30 tests PASS: seven custody, eleven signing-governance and twelve trust-distribution tests. Historical v56-v60 and external evidence applies only to its recorded edition; it is not a fresh complete v61 regression or independent v61 assessment.
+Retained developer evidence supports the identified edition within its documented software scope. Representative recipient acceptance and any independent application qualification remain separate.
 
 
 
@@ -140,20 +140,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-19. All amounts in EUR. Market value is not established.
+Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 402,500 | 452,933 |
-| Negotiation reference - low | 322,000 | 362,347 |
-| Negotiation reference - high | 503,000 | 566,026 |
-| Recreation cost estimate | 1,610,000 | 1,811,733 |
-| Marketability cost scenario | 1,944,075 | 2,187,668 |
-| Monetisation cost scenario | 2,390,850 | 2,690,424 |
-| Risk-adjusted strategic reference | 1,961,448 | 2,207,217 |
-| Weighted economic reference | 1,955,992 | 2,201,078 |
+| Seller asking reference | 402,500 | 452,169 |
+| Negotiation reference - low | 322,000 | 361,735 |
+| Negotiation reference - high | 503,000 | 565,070 |
+| Recreation cost estimate | 1,610,000 | 1,808,674 |
+| Marketability cost scenario | 1,944,075 | 2,183,974 |
+| Monetisation cost scenario | 2,390,850 | 2,685,881 |
+| Risk-adjusted strategic reference | 1,961,448 | 2,203,491 |
+| Weighted economic reference | 1,955,992 | 2,197,361 |
 
-USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
+USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -174,9 +174,9 @@ Recreation estimate: EUR 1,600,000 retained scope component plus EUR 10,000 for 
 
 ### Financial assessment
 
-Partial work budget; retained base requires reconstruction. Assessed 2026-10-19.
+Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-21.
 
-The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.
+Explicit budgets cover only part of this recreation estimate. The retained unbroken anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
@@ -215,7 +215,7 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 

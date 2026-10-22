@@ -80,7 +80,7 @@ Specifically agreed first-party implementation, documentation and retained evide
 
 ### Edition-specific evidence
 
-The retained v0.8 validation contract records complete 14-test CTest execution with GCC and Clang Release builds, AddressSanitizer/UndefinedBehaviorSanitizer and strict-mode, manifest and export checks. These are software contracts and synthetic model checks.
+Retained developer evidence supports the identified edition within its documented software scope. Representative recipient acceptance and any independent application qualification remain separate.
 
 
 
@@ -140,20 +140,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-19. All amounts in EUR. Market value is not established.
+Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 56,000 | 63,017 |
-| Negotiation reference - low | 45,500 | 51,201 |
-| Negotiation reference - high | 71,000 | 79,896 |
-| Recreation cost estimate | 456,500 | 513,699 |
-| Marketability cost scenario | 314,300 | 353,682 |
-| Monetisation cost scenario | 261,917 | 294,735 |
-| Risk-adjusted strategic reference | 155,841 | 175,368 |
-| Weighted economic reference | 283,913 | 319,487 |
+| Seller asking reference | 56,000 | 62,910 |
+| Negotiation reference - low | 45,500 | 51,115 |
+| Negotiation reference - high | 71,000 | 79,761 |
+| Recreation cost estimate | 456,500 | 512,832 |
+| Marketability cost scenario | 314,300 | 353,085 |
+| Monetisation cost scenario | 261,917 | 294,238 |
+| Risk-adjusted strategic reference | 155,841 | 175,072 |
+| Weighted economic reference | 283,913 | 318,948 |
 
-USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
+USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -174,9 +174,9 @@ Recreation estimate: EUR 450,000 retained scope component plus EUR 6,500 for the
 
 ### Financial assessment
 
-Partial work budget; retained base requires reconstruction. Assessed 2026-10-19.
+Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-21.
 
-The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.
+Explicit budgets cover only part of this recreation estimate. The retained unbroken anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
@@ -215,7 +215,7 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 

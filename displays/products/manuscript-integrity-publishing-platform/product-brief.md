@@ -85,8 +85,6 @@ Existing first-party v0.1.0 local manuscript authoring, DOCX assembly, evidence-
 A local editorial production and publication-control workbench for authors, editors and small publishing teams. Each book keeps its own manuscript, evidence, defects and explicit owner decision.
 
 - Chapter writing and reproducible DOCX assembly; import ordinary DOCX, Markdown or plain text.
-- Immutable UBQARP v1.0 protocol with eight gates and 40 ordered stages.
-- SHA-256-bound evidence, manuscript fingerprints, defect severity/waiver rules and change invalidation.
 - Explicit author release authorization and an offline DOCX/metadata handoff for manual Draft2Digital upload.
 - Local read-only dashboard and CLI; no externally hosted account or billing system.
 
@@ -96,7 +94,7 @@ The staged Literary Style Studio records 57 solo or multi-select literary modes 
 
 - 57 selectable literary modes in seven groups; eight adjustable controls; 27 genre profiles.
 - Chiaroscuro, Tenebrism and Sfumato are configurable creative principles.
-- The reported 75-test offline result is separate-build documentary evidence; full application source import and independent execution remain pending.
+- The style-studio documentation is separate from a fully imported and independently executed application release.
 
 ### Editorial acceptance
 
@@ -156,20 +154,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-19. All amounts in EUR. Market value is not established.
+Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 21,000 | 23,631 |
-| Negotiation reference - low | 16,800 | 18,905 |
-| Negotiation reference - high | 26,250 | 29,539 |
-| Recreation cost estimate | 70,000 | 78,771 |
-| Marketability cost scenario | 53,550 | 60,260 |
-| Monetisation cost scenario | 49,613 | 55,830 |
-| Risk-adjusted strategic reference | 26,552 | 29,879 |
-| Weighted economic reference | 47,426 | 53,368 |
+| Seller asking reference | 21,000 | 23,591 |
+| Negotiation reference - low | 16,800 | 18,873 |
+| Negotiation reference - high | 26,250 | 29,489 |
+| Recreation cost estimate | 70,000 | 78,638 |
+| Marketability cost scenario | 53,550 | 60,158 |
+| Monetisation cost scenario | 49,613 | 55,735 |
+| Risk-adjusted strategic reference | 26,552 | 29,829 |
+| Weighted economic reference | 47,426 | 53,278 |
 
-USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
+USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -190,9 +188,9 @@ Disclosed base/increment assumptions reconcile to the retained recreation anchor
 
 ### Financial assessment
 
-Full budget for the stated priced scope. Assessed 2026-10-19.
+Stated scope reconciled to explicit budgets. Assessed 2026-10-21.
 
-The disclosed adopted budget components reconcile to the recreation anchor. Scope, effort and rates are seller assumptions; this does not establish an independent quote, actual expenditure or coverage of every current or proposed feature.
+The stated recreation scope reconciles to explicit seller work-package budgets. Effort remains assumed; completeness, external quotations, intended-use qualification and market value are not independently established.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
@@ -241,7 +239,7 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 

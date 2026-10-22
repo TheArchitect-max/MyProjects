@@ -6,7 +6,7 @@ Organise reported visual experiences and compare study records for structured ph
 
 ## Product overview
 
-A phenomenology research software platform combining governed observations, provenance and scalar adapters with prespecified comparison designs, separated campaign/custody workflows, controlled calibration, transactional intent metadata and pinned held-out scoring reports.
+A structured research environment for observation records, comparative studies and controlled evidence review.
 
 ## Potential acquirers
 
@@ -16,34 +16,30 @@ A phenomenology research software platform combining governed observations, prov
 
 ## Documented functions
 
-- Organise governed observations and declared study plans
-- Apply scalar measurement contracts and unit conversions
-- Propagate standard uncertainty through affine transformations
-- Verify portable evidence capsules and observer-key histories
-- Retain reproducible computational and package checks
-- Prespecify comparison and campaign contracts
-- Separate custodian release from analyst calibration and scoring
-- Retain transactional intent metadata and recover journal state
-- Verify pinned no-refit held-out scoring reports
+- Organise structured observation records
+- Prepare and compare bounded studies
+- Review condition and reference summaries
+- Coordinate controlled evidence review
+- Export portable review packages
 
 ## Available output types
 
-- Study dossiers
-- Hypothesis comparisons
-- Review records
+- Observation records
+- Comparative study summaries
+- Review packages
 
 ## Current offered position
 
-Developed software. Package 8.29.0 with B03 and B04.1–B04.4a software gates. Retained B04.4a evidence records 682 tests and 37 native checks passing. These are software-reference checks; complete scientific empirical qualification remains open.
+Developed software. Implemented phenomenology research and governed-study software. Empirical authenticity and independent scientific acceptance are not established by software checks.
 
 Available for acquisition discussion.
 
-- Synthetic/software qualification does not authenticate empirical origin, independent human custody, optical causality, clinical benefit or a DMT-laser mechanism.
-- Held-out scoring is implemented, while condition-labelled contrasts, sensitivity computations and reference-baseline scientific comparison remain separately qualified future gates.
+- Software qualification does not establish empirical authenticity, optical causation, clinical benefit or a DMT-laser mechanism.
+- Scientific conclusions and independent study acceptance require separately qualified evidence.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 217,500.
+Seller asking reference: EUR 223,000.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -77,22 +73,20 @@ Identified product edition: 8.29.0
 
 Handover position: Conditional handover
 
-A phenomenology research software platform combining governed observations, provenance and scalar adapters with prespecified comparison designs, separated campaign/custody workflows, controlled calibration, transactional intent metadata and pinned held-out scoring reports.
+Phenomenology research software for organising observations, conducting bounded comparisons and preparing governed review packages.
 
-Separately scoped development: B03 and B04.1–B04.4a implemented software gates; complete scientific comparison remains open
+Separately scoped development: Implemented study, governed review and durable campaign software; empirical and scientific qualification remain separate.
 
 ### Priced first-party scope
 
-Specifically agreed first-party 8.29.0 software and implemented B03/B04.1–B04.4a work, documentation and retained developer evidence. Future scientific gates and third-party rights are excluded.
+Specifically agreed first-party 8.29.0 software and implemented study/review extensions, documentation and retained developer evidence. Scientific outcomes and third-party rights are excluded.
 
-### Software qualification
+### Evaluation and acceptance
 
-Package 8.29.0 with B03 and B04.1–B04.4a software gates. Retained B04.4a evidence records 682 tests and 37 native checks passing. These are software-reference checks; complete scientific empirical qualification remains open.
+Retained developer checks support the identified software scope. Detailed reproducibility, component, security and delivery evidence is available through an agreed confidential review. Independent acceptance for the intended application remains separate.
 
-- B04.4a retained record: 682/682 pytest, 37/37 native checks, 90 offline schemas, 30/30 installed entrypoints and source-distribution replay PASS.
-- The retained evidence was reviewed; this website assessment did not rerun the full DMT software suite.
-- Synthetic/software qualification does not authenticate empirical origin, independent human custody, optical causality, clinical benefit or a DMT-laser mechanism.
-- Held-out scoring is implemented, while condition-labelled contrasts, sensitivity computations and reference-baseline scientific comparison remain separately qualified future gates.
+- Software qualification does not establish empirical authenticity, optical causation, clinical benefit or a DMT-laser mechanism.
+- Scientific conclusions and independent study acceptance require separately qualified evidence.
 
 ### Acquisition evidence profile
 
@@ -106,14 +100,14 @@ Package 8.29.0 with B03 and B04.1–B04.4a software gates. Retained B04.4a evide
 
 ### Conditions before handover
 
-- Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
-- A detailed component inventory and licensing report are required for the agreed delivery scope.
-- A security assessment or an explicit statement of its absence is required before acceptance.
+- Agree and freeze the exact first-party delivery edition, rights, third-party obligations and excluded content.
+- Review source-specific reproducibility, component and security documentation under agreed confidentiality.
+- Complete the relevant application qualification and recipient handover acceptance.
 
 ### Qualification objectives
 
-- Qualify permissioned real measurement methods and observation provenance separately; agree the intended scientific protocol and reproduce package-level acceptance.
-- Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance.
+- Evaluate representative intended-use cases against the offered functions and material boundaries.
+- Agree measurable acceptance criteria and the delivery package before transfer.
 - Independent legal ownership/title opinion not performed by this internal audit.
 - Freedom-to-operate legal opinion not performed unless separately evidenced.
 - Independent penetration test not assumed unless separately evidenced.
@@ -138,20 +132,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-19. All amounts in EUR. Market value is not established.
+Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 217,500 | 244,753 |
-| Negotiation reference - low | 176,000 | 198,053 |
-| Negotiation reference - high | 274,500 | 308,895 |
-| Recreation cost estimate | 1,191,000 | 1,340,232 |
-| Marketability cost scenario | 708,645 | 797,438 |
-| Monetisation cost scenario | 821,790 | 924,760 |
-| Risk-adjusted strategic reference | 242,687 | 273,096 |
-| Weighted economic reference | 688,777 | 775,081 |
+| Seller asking reference | 223,000 | 250,518 |
+| Negotiation reference - low | 180,500 | 202,774 |
+| Negotiation reference - high | 281,500 | 316,237 |
+| Recreation cost estimate | 1,221,000 | 1,371,671 |
+| Marketability cost scenario | 726,495 | 816,144 |
+| Monetisation cost scenario | 842,490 | 946,453 |
+| Risk-adjusted strategic reference | 248,800 | 279,502 |
+| Weighted economic reference | 706,127 | 793,263 |
 
-USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
+USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -168,13 +162,13 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The recreation estimate contains EUR 1,167,000 of previously scoped work plus EUR 24,000 for 8.29.0 / B03 and B04.1–B04.4a software gates, giving EUR 1,191,000. This increment assumes 224 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. Asking/negotiation inputs preserve prior asking/cost relationships, rounded half-up to EUR 500. All effort and prices remain seller assumptions; market value and actual expenditure are not established. Existing v8.28 observation, provenance, scalar adapters and scientific model code are reused and excluded from this increment. Real campaigns, independent custody, empirical origin, condition-label contrasts, sensitivity studies and scientific or clinical qualification are excluded.
+The recreation estimate comprises the retained expressly priced scope and the separately disclosed non-overlapping implementation budgets. Historical anchors and each successive scoped increment reconcile in the calculation below. Equivalent effort is a seller estimate; market value, actual expenditure and independent quotations are not established. Reuses the previously priced observation and study foundations. Empirical acquisition, independently authenticated custody, optical causation, clinical outcomes and scientific acceptance are excluded.
 
 ### Financial assessment
 
-Partial work budget; retained base requires reconstruction. Assessed 2026-10-19.
+Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-21.
 
-The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.
+Explicit budgets cover only part of this recreation estimate. The retained unbroken anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
@@ -230,6 +224,32 @@ Seller-selected equivalent reproduction effort for the expressly bounded impleme
 
 Equivalent reproduction effort is an explicit seller-side analyst assumption, not logged work, actual spend or a contractor quote. EUR 94/hour is rate context, not a minimum. The 15% allowance and alternatives are assumptions. The lowest bounded effort scenario is adopted. Existing v8.28 observation, provenance, scalar adapters and scientific model code are reused and excluded from this increment. Real campaigns, independent custody, empirical origin, condition-label contrasts, sensitivity studies and scientific or clinical qualification are excluded.
 
+#### Scoped implementation reproduction budget
+
+Comparative study outputs and reference analysis; Controlled review, custody and approval workflows; Portable review verification and release records; Durable campaign execution and recovery qualification.
+
+- Comparative study outputs and reference analysis — 64 assumed hours
+- Controlled review, custody and approval workflows — 80 assumed hours
+- Portable review verification and release records — 56 assumed hours
+- Durable campaign execution and recovery qualification — 80 assumed hours
+
+- Assumed hours: 280
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 26,320
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 30,268
+- Adopted recreation increment: EUR 30,000
+- Previous recreation cost: EUR 1,191,000
+- Current recreation cost: EUR 1,221,000
+- Effort alternatives / Low hours: 280
+- Effort alternatives / Reference hours: 420
+- Effort alternatives / Extended hours: 560
+- Effort alternatives / Low cost: EUR 30,268
+- Effort alternatives / Reference cost: EUR 45,402
+- Effort alternatives / Extended cost: EUR 60,536
+
+Seller-selected equivalent reproduction effort, not logged hours, actual expenditure or a contractor quote. EUR 94/hour and the 15% allowance are disclosed assumptions; the adopted amount is the lowest of these bounded scenarios, not an absolute cost floor. Reuses the previously priced observation and study foundations. Empirical acquisition, independently authenticated custody, optical causation, clinical outcomes and scientific acceptance are excluded.
+
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
@@ -240,7 +260,7 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 

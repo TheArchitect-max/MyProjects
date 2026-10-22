@@ -6,7 +6,7 @@ Model connected systems, compare scenarios and examine bounded offline forecast 
 
 ## Product overview
 
-Connected-system simulation, traceable observations and offline forecast research with constrained-decision, release-assurance and Q2 cross-domain comparison software. Developer reports cover energy, mobility and air-quality datasets; exploratory outcomes, selection limits and open independent qualification remain explicit.
+A research engine for modelling connected systems, comparing bounded decisions and examining reproducible offline forecast studies.
 
 ## Potential acquirers
 
@@ -16,40 +16,30 @@ Connected-system simulation, traceable observations and offline forecast researc
 
 ## Documented functions
 
-- Compose linked system studies
-- Compare declared scenarios
-- Review supplied observations
-- Run local combined simulations
-- Retain attributable histories
-- Compare fixed-task offline forecasts with transparent CPU reference predictors
-- Review chronological splits, held-out errors, empirical intervals and abstention
-- Evaluate declared decision constraints with traceable feasibility and abstention
-- Inspect static and executed research-release assurance
-- Run pinned CPU data-receipt and benchmark studies
-- Import pinned hourly mobility and air-quality CSV receipts with explicit missingness exclusions
-- Compare declared domain tasks, chronological baselines and diagnostic paired bootstrap summaries
+- Model connected-system scenarios
+- Compare bounded forecast and decision studies
+- Organise governed research inputs
+- Review separated evaluation evidence
+- Export portable offline study packages
 
 ## Available output types
 
 - Scenario comparisons
-- Observation records
-- Simulation histories
-- Bounded forecast-study and reference-comparison reports
+- Research evaluation summaries
+- Portable evidence packages
 
 ## Current offered position
 
-Prototype. Distribution version 0.7.0 with later research gates and Q2 E1 comparison software. All 255 current local CPU developer tests passed. The retained exploratory study did not meet its numeric superiority target; independent scientific and production qualification remain open.
+Prototype. An offline systems and forecasting research implementation. Independent predictive superiority, scientific validity and production acceptance remain open.
 
 Scope and transfer review required.
 
-- The retained Q2 developer report describes three UCI datasets; raw source CSVs were not supplied for independent recalculation in this website review.
-- Reported macro AR(1) gain over persistence: MAE -1.03% (worse), RMSE +3.92% (better). The prospective 10% target on both metrics was NOT MET.
-- The reported protocol was not fully preregistered before held-out access. Longest-contiguous-segment selection excludes substantial data and can bias conclusions.
-- The comparison, source-authenticity, independent replication, strong domain-baseline, shift/fallback and production-acceptance gates remain open. Financial references price only explicit implementation effort; no scientific-performance premium is included.
+- Independent predictive superiority and scientific or physical-system validity are not established.
+- The implementation is research software; live integration, safe operational fallback and production acceptance require separate qualification.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 56,500.
+Seller asking reference: EUR 64,000.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -79,39 +69,24 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 0.7.0 / v1.0 research gates + Q2 E1
+Identified product edition: 0.7.0 / Q2-C6 research development
 
 Handover position: Scope closure required
 
-Connected-system simulation, traceable observations and offline forecast research with constrained-decision, release-assurance and Q2 cross-domain comparison software. Developer reports cover energy, mobility and air-quality datasets; exploratory outcomes, selection limits and open independent qualification remain explicit.
+Connected-system modelling, scenario comparison and offline forecasting research with governed study inputs and portable review outputs.
 
-Separately scoped development: Q2 E1 software is implemented and exploratory developer results are retained; independent scientific qualification, safe runtime fallback and production acceptance remain open.
+Separately scoped development: Implemented offline research and portable evidence-review extensions; distribution metadata remains 0.7.0.
 
 ### Priced first-party scope
 
-Specifically agreed current first-party research implementation, including constrained-decision, assurance, Q1 and Q2 E1 offline comparison software. Distribution metadata remains 0.7.0. Confirm delivery rights, source perimeter and recipient acceptance in writing.
+Specifically agreed first-party 0.7.0 foundations and implemented research extensions through Q2-C6, documentation and retained developer evidence. The scope requires an agreed source edition and recipient acceptance.
 
-### Developer software evidence
+### Evaluation and acceptance
 
-Distribution version 0.7.0 with later research gates and Q2 E1 comparison software. All 255 current local CPU developer tests passed. The retained exploratory study did not meet its numeric superiority target; independent scientific and production qualification remain open.
+Retained developer checks support the identified software scope. Detailed reproducibility, component, security and delivery evidence is available through an agreed confidential review. Independent acceptance for the intended application remains separate.
 
-- The fresh complete local CPU suite passed 255 tests. Retained exact-source qualification also records 13 examples, compilation, assurance, wheel and CLI checks.
-- Q1 reported MAE / RMSE Wh: persistence 26.65 / 66.44; moving mean 31.17 / 73.81; AR(1) 26.73 / 61.92. No model won every metric.
-
-### Cross-domain exploratory comparison
-
-The Q2 E1 comparator adds pinned source readers, explicit chronological tasks, reference models and diagnostic paired bootstrap summaries. Execution success does not establish success of the predictive-superiority hypothesis.
-
-- The retained Q2 developer report describes three UCI datasets; raw source CSVs were not supplied for independent recalculation in this website review.
-- Reported macro AR(1) gain over persistence: MAE -1.03% (worse), RMSE +3.92% (better). The prospective 10% target on both metrics was NOT MET.
-- The reported protocol was not fully preregistered before held-out access. Longest-contiguous-segment selection excludes substantial data and can bias conclusions.
-- The comparison, source-authenticity, independent replication, strong domain-baseline, shift/fallback and production-acceptance gates remain open. Financial references price only explicit implementation effort; no scientific-performance premium is included.
-
-### Financial reference scope
-
-The recreation estimate contains EUR 160,000 of foundations, EUR 7,500 of v0.7 forecasting, EUR 13,500 of later constrained-decision/assurance/Q1 software and EUR 6,500 of Q2 E1 comparison software, giving EUR 187,500. Foundations are counted once. The Q2 increment assumes 64 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500; asking/negotiation inputs preserve the preceding asking/cost relationships, rounded half-up to EUR 500. These are seller assumptions, not logged work, actual expenditure, contractor quotes, minimum costs or established market value. Independent raw-data replication, scientific superiority and production acceptance are excluded; no performance premium is added.
-
-
+- Independent predictive superiority and scientific or physical-system validity are not established.
+- The implementation is research software; live integration, safe operational fallback and production acceptance require separate qualification.
 
 ### Acquisition evidence profile
 
@@ -125,15 +100,15 @@ The recreation estimate contains EUR 160,000 of foundations, EUR 7,500 of v0.7 f
 
 ### Conditions before handover
 
-- Freeze the acquisition delivery scope and complete the source, provenance and first-party rights register for the agreed release.
-- Reconcile a release-specific component and licensing inventory; identify and pin the build-tool dependency.
-- Complete the acquisition handover package and agree delivery, verification and acceptance conditions. The repository explicitly records NOT_READY.
-- Qualify the intended deployment and model-trust boundary; no independent security assessment or production acceptance is established.
-- Validate any claimed real-world domain behaviour separately. The current tests do not establish physical fidelity or scientific calibration.
+- Agree and freeze the exact first-party delivery edition, rights, third-party obligations and excluded content.
+- Review source-specific reproducibility, component and security documentation under agreed confidentiality.
+- Complete the relevant application qualification and recipient handover acceptance.
+- Complete the separately scoped release-assurance and handover conditions before operational use.
 
 ### Qualification objectives
 
-- Complete and freeze the acquisition evidence, rights and release-specific handover scope; separately qualify the intended domain.
+- Evaluate representative intended-use cases against the offered functions and material boundaries.
+- Agree measurable acceptance criteria and the delivery package before transfer.
 - Independent legal ownership/title opinion not performed by this internal audit.
 - Freedom-to-operate legal opinion not performed unless separately evidenced.
 - Independent penetration test not assumed unless separately evidenced.
@@ -164,20 +139,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-19. All amounts in EUR. Market value is not established.
+Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 56,500 | 63,579 |
-| Negotiation reference - low | 44,500 | 50,076 |
-| Negotiation reference - high | 70,500 | 79,334 |
-| Recreation cost estimate | 187,500 | 210,994 |
-| Marketability cost scenario | 150,609 | 169,480 |
-| Monetisation cost scenario | 107,578 | 121,058 |
-| Risk-adjusted strategic reference | 74,677 | 84,034 |
-| Weighted economic reference | 124,649 | 140,268 |
+| Seller asking reference | 64,000 | 71,898 |
+| Negotiation reference - low | 50,500 | 56,732 |
+| Negotiation reference - high | 80,000 | 89,872 |
+| Recreation cost estimate | 213,000 | 239,284 |
+| Marketability cost scenario | 171,092 | 192,205 |
+| Monetisation cost scenario | 122,209 | 137,290 |
+| Risk-adjusted strategic reference | 84,833 | 95,301 |
+| Weighted economic reference | 141,602 | 159,076 |
 
-USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
+USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -188,19 +163,19 @@ USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is 
 - Risk-adjusted strategic reference: Cost-based opportunity scenario with stated seller-selected factors.
 - Weighted economic reference: Weighted blend of correlated cost scenarios; not an independent appraisal.
 
-Milestone-conditioned reference: EUR 148,002; model change EUR 23,353. Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and an agreed operational and handover acceptance scope.
+Milestone-conditioned reference: EUR 168,130; model change EUR 26,528. Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and an agreed operational and handover acceptance scope.
 
 This is a conditional model sensitivity, not a current asking price, forecast or market value.
 
 ### Cost basis
 
-The recreation estimate contains EUR 160,000 of foundations, EUR 7,500 of v0.7 forecasting, EUR 13,500 of later constrained-decision/assurance/Q1 software and EUR 6,500 of Q2 E1 comparison software, giving EUR 187,500. Foundations are counted once. The Q2 increment assumes 64 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500; asking/negotiation inputs preserve the preceding asking/cost relationships, rounded half-up to EUR 500. These are seller assumptions, not logged work, actual expenditure, contractor quotes, minimum costs or established market value. Independent raw-data replication, scientific superiority and production acceptance are excluded; no performance premium is added.
+The recreation estimate comprises the retained expressly priced scope and the separately disclosed non-overlapping implementation budgets. Historical anchors and each successive scoped increment reconcile in the calculation below. Equivalent effort is a seller estimate; market value, actual expenditure and independent quotations are not established. Reuses all priced modelling, forecasting and comparison foundations. Independent scientific replication, predictive-superiority claims, live integration and production acceptance are excluded.
 
 ### Financial assessment
 
-Full budget for the stated priced scope. Assessed 2026-10-19.
+Stated scope reconciled to explicit budgets. Assessed 2026-10-21.
 
-The disclosed adopted budget components reconcile to the recreation anchor. Scope, effort and rates are seller assumptions; this does not establish an independent quote, actual expenditure or coverage of every current or proposed feature.
+The stated recreation scope reconciles to explicit seller work-package budgets. Effort remains assumed; completeness, external quotations, intended-use qualification and market value are not independently established.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
@@ -227,10 +202,10 @@ Assumed engineering-equivalent reproduction budget, not recorded hours, expendit
 
 #### Scoped implementation reproduction budget
 
-Offline CPU forecast research: regular-grid series and chronological partitions; fixed persistence, moving-mean and train-only AR(1) studies; empirical calibration, explicit abstention and frozen-observation evidence bridge.
+Offline forecasting research, comparable reference studies and reviewable evaluation outputs.
 
 - Regular-grid series/task contracts and chronological train/validation/test separation — 16 assumed hours
-- Fixed reference predictors, train-only AR(1), multi-horizon metrics and empirical intervals — 24 assumed hours
+- Fixed reference predictors, bounded forecasting, multi-horizon metrics and empirical intervals — 24 assumed hours
 - Observation-freeze bridge, evidence digests and explicit calibration/range abstention — 16 assumed hours
 - Leakage/invalid-input regressions, synthetic example and developer handover documentation — 16 assumed hours
 
@@ -256,7 +231,7 @@ Equivalent reproduction effort is an explicit seller-side analyst assumption, no
 post-0.7 constrained-decision, assurance and Q1 research implementation
 
 - Bounded constrained-decision contracts and abstention/feasibility evidence — 40 assumed hours
-- Static/executed release assurance and verifiable evidence manifests — 32 assumed hours
+- executed release assurance and verifiable evidence manifests — 32 assumed hours
 - Pinned real-data receipt and preregistered CPU benchmark harness — 40 assumed hours
 - Developer regression, comparison boundaries and handover documentation — 16 assumed hours
 
@@ -300,7 +275,33 @@ Q2 E1 offline cross-domain comparison implementation
 - Effort alternatives / Reference cost: EUR 10,377.6
 - Effort alternatives / Extended cost: EUR 13,836.8
 
-Equivalent reproduction effort is a seller-side analyst assumption, not actual work, expenditure or a quote. EUR 94/hour is external rate context, not a minimum; the 15% allowance is assumed. Reuses all previously priced forecasting, Q1 data and assurance foundations once. Dataset ownership, independent raw-data acquisition/replication, predictive superiority, production fallback and operation are excluded. The prospective 10% scientific target was not met and carries no premium.
+Equivalent reproduction effort is a seller-side analyst assumption, not actual work, expenditure or a quote. EUR 94/hour is external rate context, not a minimum; the 15% allowance is assumed. Reuses all previously priced forecasting, Q1 data and assurance foundations once. Dataset ownership, independent raw-data acquisition/replication, predictive superiority, production fallback and operation are excluded. Predictive superiority is not established and carries no premium.
+
+#### Scoped implementation reproduction budget
+
+Governed research-source intake and study plans; Separated evaluation and independent reference comparison; Portable offline evidence review and diagnostic reports; Compatibility and negative-case qualification.
+
+- Governed research-source intake and study plans — 64 assumed hours
+- Separated evaluation and independent reference comparison — 72 assumed hours
+- Portable offline evidence review and diagnostic reports — 64 assumed hours
+- Compatibility and negative-case qualification — 40 assumed hours
+
+- Assumed hours: 240
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 22,560
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 25,944
+- Adopted recreation increment: EUR 25,500
+- Previous recreation cost: EUR 187,500
+- Current recreation cost: EUR 213,000
+- Effort alternatives / Low hours: 240
+- Effort alternatives / Reference hours: 360
+- Effort alternatives / Extended hours: 480
+- Effort alternatives / Low cost: EUR 25,944
+- Effort alternatives / Reference cost: EUR 38,916
+- Effort alternatives / Extended cost: EUR 51,888
+
+Seller-selected equivalent reproduction effort, not logged hours, actual expenditure or a contractor quote. EUR 94/hour and the 15% allowance are disclosed assumptions; the adopted amount is the lowest of these bounded scenarios, not an absolute cost floor. Reuses all priced modelling, forecasting and comparison foundations. Independent scientific replication, predictive-superiority claims, live integration and production acceptance are excluded.
 
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
@@ -312,7 +313,7 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 

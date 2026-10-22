@@ -6,7 +6,7 @@ Explore classical ciphers, test candidate interpretations and review your crypta
 
 ## Product overview
 
-A classical-cipher analysis product with repeatable transformation and candidate-review workflows.
+A modular environment for analysing supported classical ciphers and comparing candidate interpretations through a consistent research workflow.
 
 ## Potential acquirers
 
@@ -16,29 +16,30 @@ A classical-cipher analysis product with repeatable transformation and candidate
 
 ## Documented functions
 
-- Work with configurable symbol sets
-- Transform classical cipher material
-- Analyse candidate readings
-- Review key-recovery results
-- Retain reproducible analysis
+- Analyse supported classical cipher families
+- Plan and compare analysis methods
+- Review candidate and exploratory family evidence
+- Assess representative calibration examples
+- Export comparable research results
 
 ## Available output types
 
-- Candidate readings
-- Analysis reports
-- Validation records
+- Candidate interpretations
+- Comparison reports
+- Calibration summaries
 
 ## Current offered position
 
-Developed software. Existing software offered for evaluation against an agreed use and delivery scope.
+Developed software. Classical-cipher research software for bounded analysis and comparison. Intended-use acceptance is agreed for the delivery edition.
 
 Available for acquisition discussion.
 
-- Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately.
+- Classical-cipher research software; no capability to break modern encryption systems or independently certified security service is claimed.
+- Family evidence is exploratory. General classifier accuracy and independent out-of-sample performance are not established.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 95,000.
+Seller asking reference: EUR 101,000.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -68,15 +69,22 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 2.1.0
+Identified product edition: 2.12.0
 
 Handover position: Conditional handover
 
-Available software for evaluation against your intended use. Deployment suitability is assessed separately.
+A classical-cipher research platform with coordinated analysis, comparable result evidence and exploratory family-evidence summaries.
 
 ### Priced first-party scope
 
-Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+Specifically agreed first-party 2.12.0 implementation, documentation, representative examples and retained developer qualification material.
+
+### Evaluation and acceptance
+
+Retained developer checks support the identified software scope. Detailed reproducibility, component, security and delivery evidence is available through an agreed confidential review. Independent acceptance for the intended application remains separate.
+
+- Classical-cipher research software; no capability to break modern encryption systems or independently certified security service is claimed.
+- Family evidence is exploratory. General classifier accuracy and independent out-of-sample performance are not established.
 
 ### Acquisition evidence profile
 
@@ -90,15 +98,14 @@ Seller-owned first-party rights plus specifically agreed transferable software/d
 
 ### Conditions before handover
 
-- Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
-- A detailed component inventory and licensing report are required for the agreed delivery scope.
-- A security assessment or an explicit statement of its absence is required before acceptance.
-- An explicit delivery manifest and handover scope remain to be agreed.
+- Agree and freeze the exact first-party delivery edition, rights, third-party obligations and excluded content.
+- Review source-specific reproducibility, component and security documentation under agreed confidentiality.
+- Complete the relevant application qualification and recipient handover acceptance.
 
 ### Qualification objectives
 
-- Agree a source-specific delivery edition and evaluate the documented functions against your intended use.
-- Close the listed technical, rights and handover conditions before recipient acceptance.
+- Evaluate representative intended-use cases against the offered functions and material boundaries.
+- Agree measurable acceptance criteria and the delivery package before transfer.
 - Independent legal ownership/title opinion not performed by this internal audit.
 - Freedom-to-operate legal opinion not performed unless separately evidenced.
 - Independent penetration test not assumed unless separately evidenced.
@@ -123,20 +130,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-19. All amounts in EUR. Market value is not established.
+Basis: 2026-10-22. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 95,000 | 106,904 |
-| Negotiation reference - low | 75,000 | 84,398 |
-| Negotiation reference - high | 120,000 | 135,036 |
-| Recreation cost estimate | 450,000 | 506,385 |
-| Marketability cost scenario | 330,750 | 372,193 |
-| Monetisation cost scenario | 310,500 | 349,406 |
-| Risk-adjusted strategic reference | 113,271 | 127,464 |
-| Weighted economic reference | 280,395 | 315,528 |
+| Seller asking reference | 101,000 | 113,463 |
+| Negotiation reference - low | 79,500 | 89,310 |
+| Negotiation reference - high | 127,000 | 142,672 |
+| Recreation cost estimate | 477,000 | 535,862 |
+| Marketability cost scenario | 350,595 | 393,858 |
+| Monetisation cost scenario | 329,130 | 369,745 |
+| Risk-adjusted strategic reference | 120,067 | 134,883 |
+| Weighted economic reference | 297,218 | 333,895 |
 
-USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
+USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -153,15 +160,66 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+The recreation estimate comprises the retained expressly priced scope and the separately disclosed non-overlapping implementation budgets. Historical anchors and each successive scoped increment reconcile in the calculation below. Equivalent effort is a seller estimate; market value, actual expenditure and independent quotations are not established. Reuses the previously priced classical-cipher engine. Production security certification and claims against modern cryptographic systems are excluded.
 
 ### Financial assessment
 
-Retained seller estimate; work breakdown required. Assessed 2026-10-19.
+Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-22.
 
-No complete work-package budget supports this retained recreation anchor in the financial register. The current amount remains a low-confidence seller estimate. Do not infer engineering hours or market value from it; obtain a delivery-specific work breakdown and quote.
+Explicit budgets cover only part of this recreation estimate. The retained unbroken anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
+
+#### Scoped implementation reproduction budget
+
+Consistent analysis input and result contracts; Analysis planning and method-adapter interoperability; Feature comparison and cross-method evidence review; Representative examples, calibration reports and regression qualification.
+
+- Consistent analysis input and result contracts — 40 assumed hours
+- Analysis planning and method-adapter interoperability — 56 assumed hours
+- Feature comparison and cross-method evidence review — 56 assumed hours
+- Representative examples, calibration reports and regression qualification — 64 assumed hours
+
+- Assumed hours: 216
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 20,304
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 23,349.6
+- Adopted recreation increment: EUR 23,000
+- Previous recreation cost: EUR 450,000
+- Current recreation cost: EUR 473,000
+- Effort alternatives / Low hours: 216
+- Effort alternatives / Reference hours: 324
+- Effort alternatives / Extended hours: 432
+- Effort alternatives / Low cost: EUR 23,349.6
+- Effort alternatives / Reference cost: EUR 35,024.4
+- Effort alternatives / Extended cost: EUR 46,699.2
+
+Seller-selected equivalent reproduction effort, not logged hours, actual expenditure or a contractor quote. EUR 94/hour and the 15% allowance are disclosed assumptions; the adopted amount is the lowest of these bounded scenarios, not an absolute cost floor. Reuses the previously priced classical-cipher engine. Production security certification and claims against modern cryptographic systems are excluded.
+
+#### Scoped implementation reproduction budget
+
+Exploratory cipher-family evidence summaries, ambiguity handling and reproducible review controls.
+
+- Development-derived family evidence summaries — 16 assumed hours
+- Explicit ambiguity and evidence-report contracts — 12 assumed hours
+- Provenance, negative cases and delivery qualification — 12 assumed hours
+
+- Assumed hours: 40
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 3,760
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 4,324
+- Adopted recreation increment: EUR 4,000
+- Previous recreation cost: EUR 473,000
+- Current recreation cost: EUR 477,000
+- Effort alternatives / Low hours: 40
+- Effort alternatives / Reference hours: 60
+- Effort alternatives / Extended hours: 80
+- Effort alternatives / Low cost: EUR 4,324
+- Effort alternatives / Reference cost: EUR 6,486
+- Effort alternatives / Extended cost: EUR 8,648
+
+Equivalent reproduction effort is a seller assumption, not logged work, actual expenditure, a minimum rate or an independent quote. The existing analysis, corpus, feature and calibration foundations are reused once. Exploratory evidence is not a validated classifier, recovered key, modern-cipher break or an out-of-sample accuracy claim; further independent qualification remains separate.
 
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
@@ -173,7 +231,7 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 

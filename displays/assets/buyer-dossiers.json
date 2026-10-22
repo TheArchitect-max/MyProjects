@@ -1,6 +1,6 @@
 {
   "schema": "public-buyer-dossiers-1",
-  "basisDate": "2026-10-19",
+  "basisDate": "2026-10-22",
   "purpose": "Version, qualification, rights and handover information for initial acquisition review. Evidence applies to the identified edition and tested scope.",
   "definitions": {
     "purpose": "Seller-side evidence, transfer and acquisition-documentation readiness. This is not buyer due diligence and does not replace buyer-specific legal, technical, security or financial review.",
@@ -370,7 +370,7 @@
       "productDetails": [
         {
           "title": "Edition-specific evidence",
-          "text": "The retained BICA v4.6 evidence records seven targeted CPU tests PASS and CPU-smoke reconstruction, alignment and consolidation gates PASS. Repository-wide and CUDA qualification tooling is present; a complete GPU PASS is not established without executed CUDA evidence.",
+          "text": "Retained developer evidence supports the identified edition within its documented software scope. Representative recipient acceptance and any independent application qualification remain separate.",
           "items": []
         },
         {
@@ -581,10 +581,10 @@
       "productDetails": [
         {
           "title": "Persistent evidence-governed runtime",
-          "text": "RC1 local reference runtime; 29 developer tests and native CLI/SQLite checks passed. Production database security, availability and certification are outside this scope.",
+          "text": "A local reference runtime with persistent evidence and policy records. Production deployment and independent security qualification are separate.",
           "items": [
-            "A local SQLite reference adapter; no encryption, enterprise identity, replicated availability or production secrets management is established.",
-            "Integrity hashes do not establish substantive truth, compliance or legal authority."
+            "A local reference runtime; production security, identity, availability and deployment acceptance require separate qualification.",
+            "Integrity records do not establish substantive truth, compliance or legal authority."
           ]
         }
       ]
@@ -655,7 +655,7 @@
       "productDetails": [
         {
           "title": "Edition-specific evidence",
-          "text": "The retained v0.8 validation contract records complete 14-test CTest execution with GCC and Clang Release builds, AddressSanitizer/UndefinedBehaviorSanitizer and strict-mode, manifest and export checks. These are software contracts and synthetic model checks.",
+          "text": "Retained developer evidence supports the identified edition within its documented software scope. Representative recipient acceptance and any independent application qualification remain separate.",
           "items": []
         },
         {
@@ -801,7 +801,7 @@
       "productDetails": [
         {
           "title": "Edition-specific evidence",
-          "text": "The v2.9 battery slice records 10/10 unit tests PASS plus a four-hour synthetic stress sequence and deterministic replay PASS. The v2.8 50-test and 51-check suites remain historical evidence. The 60-check v2.9 wrapper is defined; a complete v2.9 checkout execution is not established by these records.",
+          "text": "Retained developer evidence supports the identified edition within its documented software scope. Representative recipient acceptance and any independent application qualification remain separate.",
           "items": []
         },
         {
@@ -949,9 +949,9 @@
     {
       "ref": "TA-IP-002",
       "version": "3.7.0",
-      "developmentEdition": "",
-      "productPosition": "A deterministic network-resilience research platform for comparing disruption and repair portfolios, shared damaged-network baselines, budget constraints and failure-domain assurance.",
-      "offeredEdition": "Specifically agreed first-party implementation, documentation and retained evidence for 3.7.0. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.",
+      "developmentEdition": "Implemented development extensions for recovery-option comparison and scenario robustness; the published release remains 3.7.0.",
+      "productPosition": "Network-resilience research software for comparing disruptions, recovery options and resource-constrained repair plans.",
+      "offeredEdition": "Specifically agreed first-party release software and implemented development extensions, associated documentation and retained developer evidence. Release status and delivery acceptance are agreed explicitly.",
       "transferPosition": "Scope closure required",
       "assessmentCriteria": [
         {
@@ -986,10 +986,9 @@
         }
       ],
       "sellerConditions": [
-        "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
-        "A security assessment or an explicit statement of its absence is required before acceptance.",
-        "An explicit delivery manifest and handover scope remain to be agreed."
+        "Agree and freeze the exact first-party delivery edition, rights, third-party obligations and excluded content.",
+        "Review source-specific reproducibility, component and security documentation under agreed confidentiality.",
+        "Complete the relevant application qualification and recipient handover acceptance."
       ],
       "buyerConditions": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -997,8 +996,8 @@
         "Independent penetration test not assumed unless separately evidenced."
       ],
       "qualificationObjectives": [
-        "Reproduce representative failure-domain and repair-budget cases in the buyer environment and retain negative comparisons where an external baseline performs better.",
-        "Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance."
+        "Evaluate representative intended-use cases against the offered functions and material boundaries.",
+        "Agree measurable acceptance criteria and the delivery package before transfer."
       ],
       "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
       "componentEvidence": {
@@ -1012,15 +1011,11 @@
       },
       "productDetails": [
         {
-          "title": "Edition-specific evidence",
-          "text": "The retained v3.7.0 release manifest and Colab replay audit record 74/74 checks PASS, including seven embedded provenance checks. This is version-specific software/research evidence, not independent field validation.",
-          "items": []
-        },
-        {
-          "title": "Intended qualification",
-          "text": "Reproduce representative failure-domain and repair-budget cases in the buyer environment and retain negative comparisons where an external baseline performs better.",
+          "title": "Evaluation and acceptance",
+          "text": "Retained developer checks support the identified software scope. Detailed reproducibility, component, security and delivery evidence is available through an agreed confidential review. Independent acceptance for the intended application remains separate.",
           "items": [
-            "Network simulations and deterministic software checks do not establish universal optimisation, physical resilience or biological/clinical effects."
+            "Research simulations and software checks do not establish physical network resilience or universal optimisation.",
+            "Development extensions are offered separately from the published release and require delivery-specific acceptance."
           ]
         }
       ]
@@ -1157,7 +1152,7 @@
       "productDetails": [
         {
           "title": "Edition-specific evidence",
-          "text": "The retained v0.24 qualification record identifies 171/171 Rust tests PASS, nine Gate-7L integration tests PASS and a non-simulated process-filesystem target run. For v0.25, retained evidence establishes 57/57 selected-source checks and three Python byte-vector reproductions PASS; it does not establish execution of the v0.25 Rust suite.",
+          "text": "Retained developer evidence supports the identified edition within its documented software scope. Representative recipient acceptance and any independent application qualification remain separate.",
           "items": []
         },
         {
@@ -1301,7 +1296,7 @@
       "productDetails": [
         {
           "title": "Edition-specific evidence",
-          "text": "The retained v0.23 audit records 269 tests PASS, 41 installed CLI checks PASS, wheel/source-distribution parity and a 21 = 3 × 7 factorisation smoke. The workload holdout has 33 observations with 100% interval coverage but 0% exact chunk-bucket accuracy; only two of six folds are scored.",
+          "text": "Retained developer evidence supports the identified edition within its documented software scope. Representative recipient acceptance and any independent application qualification remain separate.",
           "items": []
         },
         {
@@ -1580,10 +1575,10 @@
     },
     {
       "ref": "TA-IP-096",
-      "version": "0.7.0 / v1.0 research gates + Q2 E1",
-      "developmentEdition": "Q2 E1 software is implemented and exploratory developer results are retained; independent scientific qualification, safe runtime fallback and production acceptance remain open.",
-      "productPosition": "Connected-system simulation, traceable observations and offline forecast research with constrained-decision, release-assurance and Q2 cross-domain comparison software. Developer reports cover energy, mobility and air-quality datasets; exploratory outcomes, selection limits and open independent qualification remain explicit.",
-      "offeredEdition": "Specifically agreed current first-party research implementation, including constrained-decision, assurance, Q1 and Q2 E1 offline comparison software. Distribution metadata remains 0.7.0. Confirm delivery rights, source perimeter and recipient acceptance in writing.",
+      "version": "0.7.0 / Q2-C6 research development",
+      "developmentEdition": "Implemented offline research and portable evidence-review extensions; distribution metadata remains 0.7.0.",
+      "productPosition": "Connected-system modelling, scenario comparison and offline forecasting research with governed study inputs and portable review outputs.",
+      "offeredEdition": "Specifically agreed first-party 0.7.0 foundations and implemented research extensions through Q2-C6, documentation and retained developer evidence. The scope requires an agreed source edition and recipient acceptance.",
       "transferPosition": "Scope closure required",
       "assessmentCriteria": [
         {
@@ -1618,11 +1613,10 @@
         }
       ],
       "sellerConditions": [
-        "Freeze the acquisition delivery scope and complete the source, provenance and first-party rights register for the agreed release.",
-        "Reconcile a release-specific component and licensing inventory; identify and pin the build-tool dependency.",
-        "Complete the acquisition handover package and agree delivery, verification and acceptance conditions. The repository explicitly records NOT_READY.",
-        "Qualify the intended deployment and model-trust boundary; no independent security assessment or production acceptance is established.",
-        "Validate any claimed real-world domain behaviour separately. The current tests do not establish physical fidelity or scientific calibration."
+        "Agree and freeze the exact first-party delivery edition, rights, third-party obligations and excluded content.",
+        "Review source-specific reproducibility, component and security documentation under agreed confidentiality.",
+        "Complete the relevant application qualification and recipient handover acceptance.",
+        "Complete the separately scoped release-assurance and handover conditions before operational use."
       ],
       "buyerConditions": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -1630,7 +1624,8 @@
         "Independent penetration test not assumed unless separately evidenced."
       ],
       "qualificationObjectives": [
-        "Complete and freeze the acquisition evidence, rights and release-specific handover scope; separately qualify the intended domain."
+        "Evaluate representative intended-use cases against the offered functions and material boundaries.",
+        "Agree measurable acceptance criteria and the delivery package before transfer."
       ],
       "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
       "componentEvidence": {
@@ -1644,27 +1639,12 @@
       },
       "productDetails": [
         {
-          "title": "Developer software evidence",
-          "text": "Distribution version 0.7.0 with later research gates and Q2 E1 comparison software. All 255 current local CPU developer tests passed. The retained exploratory study did not meet its numeric superiority target; independent scientific and production qualification remain open.",
+          "title": "Evaluation and acceptance",
+          "text": "Retained developer checks support the identified software scope. Detailed reproducibility, component, security and delivery evidence is available through an agreed confidential review. Independent acceptance for the intended application remains separate.",
           "items": [
-            "The fresh complete local CPU suite passed 255 tests. Retained exact-source qualification also records 13 examples, compilation, assurance, wheel and CLI checks.",
-            "Q1 reported MAE / RMSE Wh: persistence 26.65 / 66.44; moving mean 31.17 / 73.81; AR(1) 26.73 / 61.92. No model won every metric."
+            "Independent predictive superiority and scientific or physical-system validity are not established.",
+            "The implementation is research software; live integration, safe operational fallback and production acceptance require separate qualification."
           ]
-        },
-        {
-          "title": "Cross-domain exploratory comparison",
-          "text": "The Q2 E1 comparator adds pinned source readers, explicit chronological tasks, reference models and diagnostic paired bootstrap summaries. Execution success does not establish success of the predictive-superiority hypothesis.",
-          "items": [
-            "The retained Q2 developer report describes three UCI datasets; raw source CSVs were not supplied for independent recalculation in this website review.",
-            "Reported macro AR(1) gain over persistence: MAE -1.03% (worse), RMSE +3.92% (better). The prospective 10% target on both metrics was NOT MET.",
-            "The reported protocol was not fully preregistered before held-out access. Longest-contiguous-segment selection excludes substantial data and can bias conclusions.",
-            "The comparison, source-authenticity, independent replication, strong domain-baseline, shift/fallback and production-acceptance gates remain open. Financial references price only explicit implementation effort; no scientific-performance premium is included."
-          ]
-        },
-        {
-          "title": "Financial reference scope",
-          "text": "The recreation estimate contains EUR 160,000 of foundations, EUR 7,500 of v0.7 forecasting, EUR 13,500 of later constrained-decision/assurance/Q1 software and EUR 6,500 of Q2 E1 comparison software, giving EUR 187,500. Foundations are counted once. The Q2 increment assumes 64 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500; asking/negotiation inputs preserve the preceding asking/cost relationships, rounded half-up to EUR 500. These are seller assumptions, not logged work, actual expenditure, contractor quotes, minimum costs or established market value. Independent raw-data replication, scientific superiority and production acceptance are excluded; no performance premium is added.",
-          "items": []
         }
       ]
     },
@@ -1868,7 +1848,7 @@
       "productDetails": [
         {
           "title": "Edition-specific evidence",
-          "text": "The retained v0.3.17-v0.3.19 records identify isolated source/harness and OpenSSL RFC-vector checks plus local mTLS counter, stale-CAS, pin and certificate rejection checks PASS. A complete linked v0.3.19 CTest run and independent auditor/HSM qualification are not established.",
+          "text": "Retained developer evidence supports the identified edition within its documented software scope. Representative recipient acceptance and any independent application qualification remain separate.",
           "items": []
         },
         {
@@ -1884,7 +1864,7 @@
       "ref": "TA-IP-103",
       "version": "0.3.0",
       "developmentEdition": "",
-      "productPosition": "Evaluate a local shared-world prototype with two fictional scenarios and repeatable histories. All 41 local tests and the demonstration passed. Rights documentation and the delivery package remain incomplete; online multiplayer, AI actors and large-scale operation are not established.",
+      "productPosition": "Evaluate a local shared-world prototype with two fictional scenarios and repeatable histories. All Rights documentation and the delivery package remain incomplete; online multiplayer, AI actors and large-scale operation are not established.",
       "offeredEdition": "Existing first-party v0.3 local shared-world reference software, two bounded scenario implementations, local persistence/replay controls, tests and design documentation counted once. Future narrative production, external artwork/audio, AI models, online multiplayer, production identity, large-scale infrastructure and commercial event delivery are excluded.",
       "transferPosition": "Scope closure required",
       "assessmentCriteria": [
@@ -2010,7 +1990,7 @@
       "productDetails": [
         {
           "title": "Edition-specific evidence",
-          "text": "The retained v61 focused runtime gate records 30/30 tests PASS: seven custody, eleven signing-governance and twelve trust-distribution tests. Historical v56-v60 and external evidence applies only to its recorded edition; it is not a fresh complete v61 regression or independent v61 assessment.",
+          "text": "Retained developer evidence supports the identified edition within its documented software scope. Representative recipient acceptance and any independent application qualification remain separate.",
           "items": []
         },
         {
@@ -2152,7 +2132,7 @@
       "ref": "TA-IP-022",
       "version": "0.19.0",
       "developmentEdition": "0.24.0 unmerged draft; physical campaign preflight unsuccessful",
-      "productPosition": "The v0.19 baseline and separate v0.24 development candidate have distinct acceptance scopes. Retained 375-test and single-T4 results remain specific to their recorded versions. A hardware-campaign inventory preflight failed before multi-GPU execution. Physical multi-GPU, two-host recovery and live containment qualification remain open.",
+      "productPosition": "An AI-resource coordination asset for reviewing capacity, workload placement and recoverability.",
       "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
@@ -2283,9 +2263,9 @@
     {
       "ref": "TA-IP-023",
       "version": "8.29.0",
-      "developmentEdition": "B03 and B04.1–B04.4a implemented software gates; complete scientific comparison remains open",
-      "productPosition": "A phenomenology research software platform combining governed observations, provenance and scalar adapters with prespecified comparison designs, separated campaign/custody workflows, controlled calibration, transactional intent metadata and pinned held-out scoring reports.",
-      "offeredEdition": "Specifically agreed first-party 8.29.0 software and implemented B03/B04.1–B04.4a work, documentation and retained developer evidence. Future scientific gates and third-party rights are excluded.",
+      "developmentEdition": "Implemented study, governed review and durable campaign software; empirical and scientific qualification remain separate.",
+      "productPosition": "Phenomenology research software for organising observations, conducting bounded comparisons and preparing governed review packages.",
+      "offeredEdition": "Specifically agreed first-party 8.29.0 software and implemented study/review extensions, documentation and retained developer evidence. Scientific outcomes and third-party rights are excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
@@ -2320,9 +2300,9 @@
         }
       ],
       "sellerConditions": [
-        "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
-        "A security assessment or an explicit statement of its absence is required before acceptance."
+        "Agree and freeze the exact first-party delivery edition, rights, third-party obligations and excluded content.",
+        "Review source-specific reproducibility, component and security documentation under agreed confidentiality.",
+        "Complete the relevant application qualification and recipient handover acceptance."
       ],
       "buyerConditions": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -2330,8 +2310,8 @@
         "Independent penetration test not assumed unless separately evidenced."
       ],
       "qualificationObjectives": [
-        "Qualify permissioned real measurement methods and observation provenance separately; agree the intended scientific protocol and reproduce package-level acceptance.",
-        "Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance."
+        "Evaluate representative intended-use cases against the offered functions and material boundaries.",
+        "Agree measurable acceptance criteria and the delivery package before transfer."
       ],
       "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
       "componentEvidence": {
@@ -2345,13 +2325,11 @@
       },
       "productDetails": [
         {
-          "title": "Software qualification",
-          "text": "Package 8.29.0 with B03 and B04.1–B04.4a software gates. Retained B04.4a evidence records 682 tests and 37 native checks passing. These are software-reference checks; complete scientific empirical qualification remains open.",
+          "title": "Evaluation and acceptance",
+          "text": "Retained developer checks support the identified software scope. Detailed reproducibility, component, security and delivery evidence is available through an agreed confidential review. Independent acceptance for the intended application remains separate.",
           "items": [
-            "B04.4a retained record: 682/682 pytest, 37/37 native checks, 90 offline schemas, 30/30 installed entrypoints and source-distribution replay PASS.",
-            "The retained evidence was reviewed; this website assessment did not rerun the full DMT software suite.",
-            "Synthetic/software qualification does not authenticate empirical origin, independent human custody, optical causality, clinical benefit or a DMT-laser mechanism.",
-            "Held-out scoring is implemented, while condition-labelled contrasts, sensitivity computations and reference-baseline scientific comparison remain separately qualified future gates."
+            "Software qualification does not establish empirical authenticity, optical causation, clinical benefit or a DMT-laser mechanism.",
+            "Scientific conclusions and independent study acceptance require separately qualified evidence."
           ]
         }
       ]
@@ -2557,7 +2535,7 @@
       "ref": "TA-IP-005",
       "version": "6.3.0",
       "developmentEdition": "6.4.0 — unmerged authorized-document connector candidate",
-      "productPosition": "The 6.3.0 baseline and separate 6.4.0 document-connector candidate require different qualification evidence. The candidate supports explicitly authorised, bounded local-document collection and verifiable receipts. Its retained report records 54 command gates and 192 tests across six environments. Historical failed runs remain failed; repair evidence for 6.3.1/6.3.2 applies to those specific editions.",
+      "productPosition": "A multi-source intelligence prototype for monitoring changes and keeping review decisions attributable.",
       "offeredEdition": "Existing first-party 6.4.0 source (unmerged development snapshot), including the described implemented increment. Historical v6.0.0/v6.3.0 FAIL states remain. Live provider collection, external rights, production operation and future connectors are excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
@@ -3077,7 +3055,7 @@
       "productDetails": [
         {
           "title": "Local commercial controls",
-          "text": "Version 0.5.1 passed 38 local developer tests and repository identity/boundary checks. Real model/GPU qualification and production acceptance remain separate.",
+          "text": "A local media-production platform with documented commercial workflow controls. Model/runtime rights, real GPU performance and production acceptance require separate review.",
           "items": [
             "Model weights and inference runtime are separately installed third-party components under their own terms.",
             "Internal credits are entitlement units, not currency or a payment service.",
@@ -3479,10 +3457,10 @@
     },
     {
       "ref": "TA-IP-043",
-      "version": "0.0.21",
+      "version": "0.0.23",
       "developmentEdition": "",
-      "productPosition": "Available software for evaluation against your intended use. Deployment suitability is assessed separately.",
-      "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
+      "productPosition": "Subsurface-materials research software for evidence qualification, trust continuity and controlled multi-party acquisition review.",
+      "offeredEdition": "Specifically agreed first-party 0.0.23 implementation, documentation and retained developer evidence, subject to delivery-specific verification.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
@@ -3517,8 +3495,9 @@
         }
       ],
       "sellerConditions": [
-        "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "A security assessment or an explicit statement of its absence is required before acceptance."
+        "Agree and freeze the exact first-party delivery edition, rights, third-party obligations and excluded content.",
+        "Review source-specific reproducibility, component and security documentation under agreed confidentiality.",
+        "Complete the relevant application qualification and recipient handover acceptance."
       ],
       "buyerConditions": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -3526,8 +3505,8 @@
         "Independent penetration test not assumed unless separately evidenced."
       ],
       "qualificationObjectives": [
-        "Agree a source-specific delivery edition and evaluate the documented functions against your intended use.",
-        "Close the listed technical, rights and handover conditions before recipient acceptance."
+        "Evaluate representative intended-use cases against the offered functions and material boundaries.",
+        "Agree measurable acceptance criteria and the delivery package before transfer."
       ],
       "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
       "componentEvidence": {
@@ -3539,7 +3518,15 @@
         "securityDocumentationIdentified": false,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Evaluation and acceptance",
+          "text": "Retained developer checks support the identified software scope. Detailed reproducibility, component, security and delivery evidence is available through an agreed confidential review. Independent acceptance for the intended application remains separate.",
+          "items": [
+            "Materials research and evidence-governance software; no physical operation, hardware safety authority or independent scientific certification is offered."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-098",
@@ -4079,8 +4066,6 @@
           "text": "A local editorial production and publication-control workbench for authors, editors and small publishing teams. Each book keeps its own manuscript, evidence, defects and explicit owner decision.",
           "items": [
             "Chapter writing and reproducible DOCX assembly; import ordinary DOCX, Markdown or plain text.",
-            "Immutable UBQARP v1.0 protocol with eight gates and 40 ordered stages.",
-            "SHA-256-bound evidence, manuscript fingerprints, defect severity/waiver rules and change invalidation.",
             "Explicit author release authorization and an offline DOCX/metadata handoff for manual Draft2Digital upload.",
             "Local read-only dashboard and CLI; no externally hosted account or billing system."
           ]
@@ -4091,7 +4076,7 @@
           "items": [
             "57 selectable literary modes in seven groups; eight adjustable controls; 27 genre profiles.",
             "Chiaroscuro, Tenebrism and Sfumato are configurable creative principles.",
-            "The reported 75-test offline result is separate-build documentary evidence; full application source import and independent execution remain pending."
+            "The style-studio documentation is separate from a fully imported and independently executed application release."
           ]
         },
         {
@@ -4175,7 +4160,7 @@
       "ref": "TA-IP-104",
       "version": "0.1.0",
       "developmentEdition": "0.3.0 — unmerged, stacked traceability/feasibility candidate",
-      "productPosition": "Use the current local planning prototype to prepare requirements, dependencies and design documents. Main passed 24 tests; a separate unmerged v0.3 candidate passed 70 tests and its planning examples. Review labels record supplied declarations and do not independently establish engineering, scientific, legal or operational feasibility. Rights and handover documentation remain open.",
+      "productPosition": "An engineering workbench prototype for traceable requirements and execution planning.",
       "offeredEdition": "Existing first-party offline mission, requirements, dependency-planning and document-generation software on main v0.1 plus separately frozen unmerged v0.2/v0.3 traceability and feasibility-declaration software, tests and methodology documents. Generated plans are design outputs; independently established feasibility, copied cross-project IP, automatic engineering or execution, hosted services and future implementation are excluded.",
       "transferPosition": "Scope closure required",
       "assessmentCriteria": [
@@ -4239,7 +4224,7 @@
       "ref": "TA-IP-001",
       "version": "0.1.0",
       "developmentEdition": "0.6.3 — unmerged STELLA research foundation",
-      "productPosition": "The 0.1.0 baseline and the separate 0.6.3 STELLA research candidate have distinct delivery scopes. The candidate provides offline sensor processing, calibrated geometry, replayable evidence comparison and retained NOAA context. Its report records 1,043 tests and validation of 96 schemas for the recorded source. Calibrated field accuracy, cross-modality fusion and mission qualification remain open.",
+      "productPosition": "A research workbench for organising aerial observations and retaining uncertain events for review.",
       "offeredEdition": "Existing first-party 0.6.3 source (unmerged development snapshot), including the described implemented increment. Full cross-modality fusion, physical/field qualification, Horizon products and third-party archive ownership are excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
@@ -4302,10 +4287,10 @@
     },
     {
       "ref": "TA-IP-007",
-      "version": "2.1.0",
+      "version": "2.12.0",
       "developmentEdition": "",
-      "productPosition": "Available software for evaluation against your intended use. Deployment suitability is assessed separately.",
-      "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
+      "productPosition": "A classical-cipher research platform with coordinated analysis, comparable result evidence and exploratory family-evidence summaries.",
+      "offeredEdition": "Specifically agreed first-party 2.12.0 implementation, documentation, representative examples and retained developer qualification material.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
@@ -4340,10 +4325,9 @@
         }
       ],
       "sellerConditions": [
-        "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
-        "A security assessment or an explicit statement of its absence is required before acceptance.",
-        "An explicit delivery manifest and handover scope remain to be agreed."
+        "Agree and freeze the exact first-party delivery edition, rights, third-party obligations and excluded content.",
+        "Review source-specific reproducibility, component and security documentation under agreed confidentiality.",
+        "Complete the relevant application qualification and recipient handover acceptance."
       ],
       "buyerConditions": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -4351,8 +4335,8 @@
         "Independent penetration test not assumed unless separately evidenced."
       ],
       "qualificationObjectives": [
-        "Agree a source-specific delivery edition and evaluate the documented functions against your intended use.",
-        "Close the listed technical, rights and handover conditions before recipient acceptance."
+        "Evaluate representative intended-use cases against the offered functions and material boundaries.",
+        "Agree measurable acceptance criteria and the delivery package before transfer."
       ],
       "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
       "componentEvidence": {
@@ -4364,7 +4348,16 @@
         "securityDocumentationIdentified": false,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Evaluation and acceptance",
+          "text": "Retained developer checks support the identified software scope. Detailed reproducibility, component, security and delivery evidence is available through an agreed confidential review. Independent acceptance for the intended application remains separate.",
+          "items": [
+            "Classical-cipher research software; no capability to break modern encryption systems or independently certified security service is claimed.",
+            "Family evidence is exploratory. General classifier accuracy and independent out-of-sample performance are not established."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-037",
@@ -4436,7 +4429,7 @@
       "productDetails": [
         {
           "title": "Research evidence and delivery edition",
-          "text": "The candidate documentation records three focused ANEP tests PASS and a five-seed local study passing four seeds; seed 5 has zero frozen-control margin and remains in the canonical set. v18.3 remains the recorded external Tesla-T4 baseline. These records do not establish external v18.4 CUDA qualification or a fresh complete regression PASS.",
+          "text": "Research evidence applies to its identified delivery edition and environment. Complete candidate regression and independent hardware qualification remain open.",
           "items": [
             "Main contains the public identity and acquisition documentation; agree and freeze the actual included research-source package.",
             "Consciousness, biological equivalence, AGI, autonomous perception, planning and production readiness are not established."
@@ -4579,10 +4572,10 @@
     },
     {
       "ref": "TA-IP-108",
-      "version": "0.6.0 / R5",
-      "developmentEdition": "R5 commerce-domain implementation in the local reference application; real payments and production remain unactivated",
-      "productPosition": "A local collectible-registry and narrative studio with edition limits, revision-bound editorial review and fictional canon/world graphs. R5 adds simulated order, inventory, fulfilment, return, refund and ledger workflows with idempotency and financial invariants. All 130 repository tests passed locally for the reviewed source; production and real payments remain outside this research/reference scope.",
-      "offeredEdition": "Current first-party 0.6.0 / R5 source, documentation and retained local test evidence are available for a specifically agreed acquisition. Existing monetary references retain the disclosed registry, assurance and R4 editorial reproduction scopes; no separate R5 monetary increment is established. Agree the included source edition and allocation explicitly. Third-party rights, real payment processing, production services and future qualification remain separately scoped.",
+      "version": "0.8.0 / R7",
+      "developmentEdition": "Local reference application with controlled access, privacy review and portable verification/recovery workflows.",
+      "productPosition": "A local collectible-registry and narrative studio combining editorial review, simulated commerce, local access controls and portable verification and recovery.",
+      "offeredEdition": "Specifically agreed first-party 0.8.0 / R7 local reference implementation, documentation and retained developer evidence. Real payments, production identity services and operating businesses are excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
@@ -4617,15 +4610,14 @@
         }
       ],
       "sellerConditions": [
-        "Agree exact first-party rights, component obligations and excluded content in the definitive agreement.",
-        "Freeze a release-specific delivery manifest and complete recipient acceptance.",
-        "Complete independent security review or expressly accept its absence within the local reference scope.",
-        "Complete domain and operator acceptance, key/anchor custody and the final security, legal and operational production gates."
+        "Agree and freeze the exact first-party delivery edition, rights, third-party obligations and excluded content.",
+        "Review source-specific reproducibility, component and security documentation under agreed confidentiality.",
+        "Complete the relevant application qualification and recipient handover acceptance."
       ],
       "buyerConditions": [],
       "qualificationObjectives": [
-        "Complete representative human editorial and local-browser acceptance, define key/anchor custody and agree final domain, security and delivery conditions.",
-        "Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance."
+        "Evaluate representative intended-use cases against the offered functions and material boundaries.",
+        "Agree measurable acceptance criteria and the delivery package before transfer."
       ],
       "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
       "componentEvidence": {
@@ -4639,21 +4631,13 @@
       },
       "productDetails": [
         {
-          "title": "Edition-specific evidence",
-          "text": "The reviewed 0.6.0 / R5 source passed all 130 local Python tests, including concurrent sales protection, idempotency, returns, refunds, ledger invariants and earlier narrative/editorial regressions. Python and JavaScript syntax checks also passed. Fixtures and simulated transactions do not establish human editorial acceptance, operating-commerce qualification or live payment processing.",
-          "items": []
-        },
-        {
-          "title": "Intended qualification",
-          "text": "Complete representative human editorial and local-browser acceptance, define key/anchor custody and agree final domain, security and delivery conditions.",
+          "title": "Evaluation and acceptance",
+          "text": "Retained developer checks support the identified software scope. Detailed reproducibility, component, security and delivery evidence is available through an agreed confidential review. Independent acceptance for the intended application remains separate.",
           "items": [
-            "Text checks are not semantic entailment, plagiarism detection or translation-quality certification. Physical stock, third-party fiction, real payments, hosted accounts and production commerce require separate scope and acceptance."
+            "Commerce uses simulated transactions; real payments, production identity services and hosted operations are excluded.",
+            "Narrative checks do not establish literary originality, translation quality or third-party rights clearance.",
+            "Portable integrity verification does not independently establish ownership, historical truth or external trust."
           ]
-        },
-        {
-          "title": "Financial reference scope",
-          "text": "The current recreation budget includes the separately scoped v0.6 / R5 simulated commerce implementation alongside the previously priced foundations. The budget describes equivalent reproduction effort for the local developer implementation; independent qualification, production services and future work remain excluded. Delivery edition, rights and final consideration require written agreement.",
-          "items": []
         }
       ]
     },
@@ -4851,7 +4835,7 @@
       "productDetails": [
         {
           "title": "Edition-specific evidence",
-          "text": "The v2.31.0 retained exact-tree gate records 561 pytest tests PASS with no failures or skips, two FAISS checks PASS and a complete semantic release gate. Release evidence includes package, component and secret-scan checks.",
+          "text": "Retained developer evidence supports the identified edition within its documented software scope. Representative recipient acceptance and any independent application qualification remain separate.",
           "items": []
         },
         {
@@ -5324,7 +5308,7 @@
       "productDetails": [
         {
           "title": "Edition-specific evidence",
-          "text": "The v4.4 implementation includes offline policy/security tests and a separate live CPU/Docker qualification runner. A retained complete live v4.4 provider-to-report PASS bundle was not identified in the reviewed source tree; the existence of the runner is not a passing execution result.",
+          "text": "Retained developer evidence supports the identified edition within its documented software scope. Representative recipient acceptance and any independent application qualification remain separate.",
           "items": []
         },
         {
@@ -5871,7 +5855,7 @@
       "ref": "TA-IP-099",
       "version": "v0.4.0.dev0",
       "developmentEdition": "v0.4 resumable research controller (merged)",
-      "productPosition": "The v0.4 software supports repeatable research studies and controlled experiment resumption. All 29 local tests passed for the identified source. The recorded archive contains 20 checkpoint manifests and 152 binary parts; a numerical archive replay is not established. Consciousness and qualification of the larger planned GPU campaign remain unestablished.",
+      "productPosition": "The v0.4 software supports repeatable research studies and controlled experiment resumption. All The recorded archive contains 20 checkpoint manifests and 152 binary parts; a numerical archive replay is not established. Consciousness and qualification of the larger planned GPU campaign remain unestablished.",
       "offeredEdition": "Present first-party offline research software, corrected experimental derivative, implemented campaign-audit, multi-seed study and resumable-experiment controls, documentation and retained historical/final/checkpoint material counted once. Missing original historical data and weights, proven consciousness, numerical equivalence, external platform ownership, third-party rights, full-scale future GPU qualification and future research are excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
@@ -6534,7 +6518,7 @@
       "ref": "TA-IP-102",
       "version": "0.4.0",
       "developmentEdition": "",
-      "productPosition": "Evaluate operational models, plan dependencies and compare scenarios using the offline foundation. All 81 local tests, four demonstrations and the small local benchmark passed. Production authentication, hosted operations and autonomous real-world execution remain future work.",
+      "productPosition": "An operations-orchestration prototype for reviewable resources, scenarios and authorised work.",
       "offeredEdition": "Existing first-party v0.4 offline operational modelling, planning, local event memory, controlled recovery, portable evidence and non-mutating policy-proposal software, tests and documentation. External actuation, authenticated identities, externally certified custody, deployed multi-user SaaS, production optimisation or autonomous execution and future development are excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
@@ -6657,7 +6641,7 @@
       "productDetails": [
         {
           "title": "Edition-specific evidence",
-          "text": "Retained v0.2 evidence records 15/15 Python tests PASS, a reference ingestion bundle, canonical validation, reconciliation and deterministic export PASS, including path-traversal and generated-identity regressions.",
+          "text": "Retained developer evidence supports the identified edition within its documented software scope. Representative recipient acceptance and any independent application qualification remain separate.",
           "items": []
         },
         {
@@ -6673,7 +6657,7 @@
       "ref": "TA-IP-101",
       "version": "0.4.0",
       "developmentEdition": "P1.2 — unmerged conformance and recovery candidate",
-      "productPosition": "Use the current offline research prototype to prepare controlled studies and review recorded results. Main passed 52 local tests; the separate unmerged candidate passed 91 tests and its software preflight. The project's own commercial transfer gate remains blocked by unresolved rights and provenance documentation. Physical sensing and sensor-free remote perception are not established.",
+      "productPosition": "An offline perception-research prototype for controlled experiments and evidence review.",
       "offeredEdition": "Existing first-party offline controlled-study, custody, scoring and IP-governance software, its documentation and tests, with a separately identified unmerged P1.2 candidate. Seven internal component records are counted once within this project. Physical sensing hardware, hidden-object inference, scientifically demonstrated anomalous or sensor-free perception, independent custody/security certification, third-party rights and future research are excluded.",
       "transferPosition": "Scope closure required",
       "assessmentCriteria": [
@@ -6737,7 +6721,7 @@
       "ref": "TA-IP-025",
       "version": "1.8.0",
       "developmentEdition": "1.8.1 — unmerged hardening candidate; excluded from current price",
-      "productPosition": "The v1.8.0 software provides a coordinated single-writer runtime, fencing and idempotency controls, scenario decisions, deterministic multi-source telemetry alignment and replayable provenance. All 73 local Python tests passed for the recorded snapshot. Physical-system and production qualification are separate. The unmerged v1.8.1 hardening candidate is excluded from the v1.8.0 financial scope.",
+      "productPosition": "The v1.8.0 software provides a coordinated single-writer runtime, fencing and idempotency controls, scenario decisions, deterministic multi-source telemetry alignment and replayable provenance. All Physical-system and production qualification are separate. The unmerged v1.8.1 hardening candidate is excluded from the v1.8.0 financial scope.",
       "offeredEdition": "Present first-party v1.8.0 software. The separate v1.8.1 hardening PR is unmerged and excluded from the v1.8.0 cost scope. Domain calibration, physical sensor accuracy and production acceptance remain open.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
@@ -7357,7 +7341,7 @@
       "productDetails": [
         {
           "title": "Edition-specific evidence",
-          "text": "The v0.9 external protocol locks 75 INCART records across 32 source groups and requires the official 225-file checksum manifest. Historical repeated-seed and primary-holdout evidence remains version-bound; a protocol or integrity PASS does not itself establish a new externally generalising model result.",
+          "text": "Retained developer evidence supports the identified edition within its documented software scope. Representative recipient acceptance and any independent application qualification remain separate.",
           "items": []
         },
         {
@@ -7371,10 +7355,10 @@
     },
     {
       "ref": "TA-IP-107",
-      "version": "0.2.0",
-      "developmentEdition": "",
-      "productPosition": "An independent local 2D Canvas editor with shape/text layers, timeline/keyframes, validated JSON import/export and a typed deterministic visual-effect graph. 24 JavaScript model/graph tests and 5 Python policy/server tests passed. Browser GUI/device acceptance was not rerun. R1 is a development alpha. Full browser interaction acceptance, hardware camera checks, genuine 3D, AR/VR/XR, computer vision, physics, AI, video encoding and production packaging remain open. Architectural isolation is mandatory: no integration or shared code with other portfolio projects.",
-      "offeredEdition": "Present first-party v0.2.0 software. R1 is a development alpha. Full browser interaction acceptance, hardware camera checks, genuine 3D, AR/VR/XR, computer vision, physics, AI, video encoding and production packaging remain open. Architectural isolation is mandatory: no integration or shared code with other portfolio projects.",
+      "version": "0.4.0 / R3 development alpha",
+      "developmentEdition": "Limited local 3D workbench and bounded model-file workflow; device and production qualification remain open.",
+      "productPosition": "An independent local visual-authoring prototype combining a 2D editor, animation/effect controls and a limited experimental 3D workbench.",
+      "offeredEdition": "Specifically agreed first-party 0.4.0 / R3 development-alpha source and documentation. This asset remains standalone, with no shared code or integration with other portfolio projects.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
@@ -7409,14 +7393,15 @@
         }
       ],
       "sellerConditions": [
-        "Agree exact first-party rights, component obligations and excluded content in the definitive agreement.",
-        "Freeze a release-specific delivery manifest and complete recipient acceptance.",
-        "Complete independent security review or expressly accept its absence within the local reference scope.",
-        "Perform source-pinned browser GUI acceptance and continue the independent roadmap with explicit device and export gates."
+        "Agree and freeze the exact first-party delivery edition, rights, third-party obligations and excluded content.",
+        "Review source-specific reproducibility, component and security documentation under agreed confidentiality.",
+        "Complete the relevant application qualification and recipient handover acceptance.",
+        "Preserve the standalone architecture and complete representative browser, GPU and device acceptance."
       ],
       "buyerConditions": [],
       "qualificationObjectives": [
-        "Perform source-pinned browser GUI acceptance and continue the independent roadmap with explicit device and export gates."
+        "Evaluate representative intended-use cases against the offered functions and material boundaries.",
+        "Agree measurable acceptance criteria and the delivery package before transfer."
       ],
       "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
       "componentEvidence": {
@@ -7428,7 +7413,16 @@
         "securityDocumentationIdentified": false,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Evaluation and acceptance",
+          "text": "Retained developer checks support the identified software scope. Detailed reproducibility, component, security and delivery evidence is available through an agreed confidential review. Independent acceptance for the intended application remains separate.",
+          "items": [
+            "Development alpha with limited experimental 3D. Browser, GPU and device acceptance remain separate.",
+            "XR, computer vision, production video encoding and integration with other portfolio projects are excluded."
+          ]
+        }
+      ]
     }
   ]
 }

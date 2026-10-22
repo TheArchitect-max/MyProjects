@@ -30,7 +30,7 @@ A local media-production control plane with tenant-scoped accounts, hashed API k
 
 ## Current offered position
 
-Prototype. Version 0.5.1 passed 38 local developer tests and repository identity/boundary checks. Real model/GPU qualification and production acceptance remain separate.
+Prototype. A media-production platform with local workflow controls. Third-party model/runtime rights, GPU qualification and production acceptance remain separate.
 
 Available for acquisition discussion.
 
@@ -84,7 +84,7 @@ Specifically agreed first-party 0.5.1 control-plane, commercial-control and work
 
 ### Local commercial controls
 
-Version 0.5.1 passed 38 local developer tests and repository identity/boundary checks. Real model/GPU qualification and production acceptance remain separate.
+A local media-production platform with documented commercial workflow controls. Model/runtime rights, real GPU performance and production acceptance require separate review.
 
 - Model weights and inference runtime are separately installed third-party components under their own terms.
 - Internal credits are entitlement units, not currency or a payment service.
@@ -140,20 +140,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-19. All amounts in EUR. Market value is not established.
+Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 162,000 | 182,299 |
-| Negotiation reference - low | 126,500 | 142,350 |
-| Negotiation reference - high | 202,000 | 227,311 |
-| Recreation cost estimate | 910,000 | 1,024,023 |
-| Marketability cost scenario | 1,160,250 | 1,305,629 |
-| Monetisation cost scenario | 1,433,250 | 1,612,836 |
-| Risk-adjusted strategic reference | 1,553,285 | 1,747,912 |
-| Weighted economic reference | 1,289,850 | 1,451,468 |
+| Seller asking reference | 162,000 | 181,991 |
+| Negotiation reference - low | 126,500 | 142,110 |
+| Negotiation reference - high | 202,000 | 226,927 |
+| Recreation cost estimate | 910,000 | 1,022,294 |
+| Marketability cost scenario | 1,160,250 | 1,303,425 |
+| Monetisation cost scenario | 1,433,250 | 1,610,113 |
+| Risk-adjusted strategic reference | 1,553,285 | 1,744,960 |
+| Weighted economic reference | 1,289,850 | 1,449,017 |
 
-USD = EUR × 1.1253, rounded half-up to whole USD. ECB date: 2026-10-16. EUR is authoritative.
+USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -174,9 +174,9 @@ The recreation estimate contains EUR 900,000 of previously scoped work plus EUR 
 
 ### Financial assessment
 
-Partial work budget; retained base requires reconstruction. Assessed 2026-10-19.
+Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-21.
 
-The scoped work budgets do not reconstruct the entire retained recreation anchor. The base remains a low-confidence seller estimate; obtain a delivery-specific breakdown and quote before relying on the total.
+Explicit budgets cover only part of this recreation estimate. The retained unbroken anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
@@ -216,7 +216,7 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1253; ECB 2026-10-16. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
