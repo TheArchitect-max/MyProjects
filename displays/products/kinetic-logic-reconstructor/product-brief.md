@@ -82,11 +82,11 @@ Seller-owned first-party rights plus specifically agreed transferable software/d
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | P | Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance. |
-| Evidence and validation | E3 | Tests, validation and provenance/release evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results. |
-| Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. This grade concerns documented rights evidence. Missing documentation does not establish that first-party ownership is absent. |
-| Commercial basis | C2 | Seller ask and reproducible economic reference established. A published asking reference does not establish a completed sale, income or an independent appraisal. |
-| Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. Your agreed delivery scope and the conditions below govern acceptance. |
+| Technical scope | P | An expert decision-intelligence prototype for reviewing historical professional decisions. The offered edition and material boundaries govern review. |
+| Evidence and validation | E3 | Tests, validation and provenance/release evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
+| Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
+| Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
+| Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance. |
 
 ### Conditions before handover
 
@@ -132,16 +132,16 @@ Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 95,000 | 106,723 |
-| Negotiation reference - low | 75,000 | 84,255 |
-| Negotiation reference - high | 120,000 | 134,808 |
-| Recreation cost estimate | 600,000 | 674,040 |
-| Marketability cost scenario | 645,150 | 724,762 |
-| Monetisation cost scenario | 698,625 | 784,835 |
-| Risk-adjusted strategic reference | 540,927 | 607,677 |
-| Weighted economic reference | 608,079 | 683,116 |
+| Seller asking reference | 95,000 | 106,334 |
+| Negotiation reference - low | 75,000 | 83,948 |
+| Negotiation reference - high | 120,000 | 134,316 |
+| Recreation cost estimate | 600,000 | 671,580 |
+| Marketability cost scenario | 645,150 | 722,116 |
+| Monetisation cost scenario | 698,625 | 781,971 |
+| Risk-adjusted strategic reference | 540,927 | 605,460 |
+| Weighted economic reference | 608,079 | 680,623 |
 
-USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
+USD = EUR × 1.1193, rounded half-up to whole USD. ECB date: 2026-10-23. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -178,13 +178,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1193; ECB 2026-10-23. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "P", "potential": "H", "sector": "AI, Decision & Knowledge Systems", "route": "Enterprise software / licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc5
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/kinetic-logic-reconstructor/#calculation
 

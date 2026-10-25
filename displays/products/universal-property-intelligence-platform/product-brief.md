@@ -94,11 +94,11 @@ Validate realistic permissioned property bundles, price/condition assumptions an
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | P | A standard-library property evidence core with hierarchy, observed/declared/inferred records, deterministic low/base/high replacement estimates, condition/risk fields, graph and JSON/CSV exports. |
-| Evidence and validation | E2 | Retained v0.2 evidence records 15/15 Python tests PASS, a reference ingestion bundle, canonical validation, reconciliation and deterministic export PASS, including path-traversal and generated-identity regressions. |
-| Rights and component obligations | R1 | Proprietary declaration and repository notices reviewed; independent chain of title and freedom to operate remain unestablished. |
-| Commercial basis | C2 | Explicit low-effort cost assumptions and seller asking choice; no independently determined market or income value. |
-| Delivery and handover | T2 | Source, tests and instructions inspected; exact rights, manifest and recipient acceptance remain open. |
+| Technical scope | P | A local property-evidence core with hierarchical asset records, structured CSV/JSON ingestion, explicit observation types, replacement-cost ranges and deterministic reconciliation exports. The offered edition and material boundaries govern review. |
+| Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
+| Rights and component obligations | R1 | Repository licence file identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
+| Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
+| Delivery and handover | T2 | Source, documentation, tests and licence evidence support bounded handover. The listed conditions and written delivery agreement govern acceptance. |
 
 ### Conditions before handover
 
@@ -136,16 +136,16 @@ Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 6,000 | 6,740 |
-| Negotiation reference - low | 4,500 | 5,055 |
-| Negotiation reference - high | 7,500 | 8,426 |
-| Recreation cost estimate | 18,500 | 20,783 |
-| Marketability cost scenario | 14,153 | 15,899 |
-| Monetisation cost scenario | 13,736 | 15,431 |
-| Risk-adjusted strategic reference | 7,017 | 7,883 |
-| Weighted economic reference | 12,659 | 14,221 |
+| Seller asking reference | 6,000 | 6,716 |
+| Negotiation reference - low | 4,500 | 5,037 |
+| Negotiation reference - high | 7,500 | 8,395 |
+| Recreation cost estimate | 18,500 | 20,707 |
+| Marketability cost scenario | 14,153 | 15,841 |
+| Monetisation cost scenario | 13,736 | 15,375 |
+| Risk-adjusted strategic reference | 7,017 | 7,854 |
+| Weighted economic reference | 12,659 | 14,169 |
 
-USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
+USD = EUR × 1.1193, rounded half-up to whole USD. ECB date: 2026-10-23. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -168,7 +168,7 @@ Recreation estimate: EUR 12,500 retained scope component plus EUR 6,000 for the 
 
 Stated scope reconciled to explicit budgets. Assessed 2026-10-21.
 
-The stated recreation scope reconciles to explicit seller work-package budgets. Effort remains assumed; completeness, external quotations, intended-use qualification and market value are not independently established.
+The stated scope reconciles to explicit seller work-package budgets. Effort remains assumed; independent quotations, intended-use qualification and market value are not established.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
@@ -230,13 +230,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1193; ECB 2026-10-23. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "P", "potential": "M", "sector": "Enterprise, Web & Commerce", "route": "Private deployment / enterprise licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc5
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/universal-property-intelligence-platform/#calculation
 

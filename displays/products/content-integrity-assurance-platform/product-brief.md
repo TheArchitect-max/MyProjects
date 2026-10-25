@@ -94,11 +94,11 @@ Run the complete included-edition regression suite and qualify actual signing cu
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | V | Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance. |
-| Evidence and validation | E4 | The retained v61 focused runtime gate records 30/30 tests PASS: seven custody, eleven signing-governance and twelve trust-distribution tests. Historical v56-v60 and external evidence applies only to its recorded edition; it is not a fresh complete v61 regression or independent v61 assessment. |
-| Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. This grade concerns documented rights evidence. Missing documentation does not establish that first-party ownership is absent. |
-| Commercial basis | C2 | Seller ask and reproducible economic reference established. A published asking reference does not establish a completed sale, income or an independent appraisal. |
-| Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. Your agreed delivery scope and the conditions below govern acceptance. |
+| Technical scope | V | A content-integrity evidence platform with controlled review workspaces, attributable receipts, signed trust-bundle distribution and signer/custody governance. The offered edition and material boundaries govern review. |
+| Evidence and validation | E4 | E3 plus repository-retained independent/external validation evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
+| Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
+| Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
+| Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance. |
 
 ### Conditions before handover
 
@@ -144,16 +144,16 @@ Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 402,500 | 452,169 |
-| Negotiation reference - low | 322,000 | 361,735 |
-| Negotiation reference - high | 503,000 | 565,070 |
-| Recreation cost estimate | 1,610,000 | 1,808,674 |
-| Marketability cost scenario | 1,944,075 | 2,183,974 |
-| Monetisation cost scenario | 2,390,850 | 2,685,881 |
-| Risk-adjusted strategic reference | 1,961,448 | 2,203,491 |
-| Weighted economic reference | 1,955,992 | 2,197,361 |
+| Seller asking reference | 402,500 | 450,518 |
+| Negotiation reference - low | 322,000 | 360,415 |
+| Negotiation reference - high | 503,000 | 563,008 |
+| Recreation cost estimate | 1,610,000 | 1,802,073 |
+| Marketability cost scenario | 1,944,075 | 2,176,003 |
+| Monetisation cost scenario | 2,390,850 | 2,676,078 |
+| Risk-adjusted strategic reference | 1,961,448 | 2,195,449 |
+| Weighted economic reference | 1,955,992 | 2,189,342 |
 
-USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
+USD = EUR × 1.1193, rounded half-up to whole USD. ECB date: 2026-10-23. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -176,7 +176,7 @@ Recreation estimate: EUR 1,600,000 retained scope component plus EUR 10,000 for 
 
 Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-21.
 
-Explicit budgets cover only part of this recreation estimate. The retained unbroken anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
+Explicit budgets cover part of the estimate. The retained anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
@@ -215,13 +215,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1193; ECB 2026-10-23. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "V", "potential": "H", "sector": "Identity, Privacy & Assurance", "route": "Private deployment / enterprise licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc5
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/content-integrity-assurance-platform/#calculation
 

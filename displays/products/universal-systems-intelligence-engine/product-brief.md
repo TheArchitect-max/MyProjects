@@ -92,11 +92,11 @@ Retained developer checks support the identified software scope. Detailed reprod
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | P | Connected-system simulation, traceable observations and offline forecast research with constrained-decision, release-assurance and Q2 cross-domain comparison software. Developer reports cover energy, mobility and air-quality datasets; exploratory outcomes, selection limits and open independent qualification remain explicit. Intended-use and physical prediction require independent qualification. |
-| Evidence and validation | E3 | Distribution version 0.7.0 with later research gates and Q2 E1 comparison software. All 255 current local CPU developer tests passed. The retained exploratory study did not meet its numeric superiority target; independent scientific and production qualification remain open. Raw-data empirical results remain retained developer evidence, not independent replication. |
-| Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the documented rights and exclusions for your transaction; no independent title opinion is established. |
-| Commercial basis | C2 | Seller ask and reproducible economic reference established. This is a seller asking reference and assumption-based reproduction model, not a completed sale or independent appraisal. |
-| Delivery and handover | T1 | Implementation exists but core transfer evidence is incomplete. The listed conditions and agreed delivery scope govern acceptance. |
+| Technical scope | P | A research engine for modelling connected systems, comparing bounded decisions and examining reproducible offline forecast studies. The offered edition and material boundaries govern review. |
+| Evidence and validation | E3 | Tests, validation and provenance/release evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
+| Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
+| Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
+| Delivery and handover | T1 | Implementation exists but core transfer evidence is incomplete. The listed conditions and written delivery agreement govern acceptance. |
 
 ### Conditions before handover
 
@@ -143,16 +143,16 @@ Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 64,000 | 71,898 |
-| Negotiation reference - low | 50,500 | 56,732 |
-| Negotiation reference - high | 80,000 | 89,872 |
-| Recreation cost estimate | 213,000 | 239,284 |
-| Marketability cost scenario | 171,092 | 192,205 |
-| Monetisation cost scenario | 122,209 | 137,290 |
-| Risk-adjusted strategic reference | 84,833 | 95,301 |
-| Weighted economic reference | 141,602 | 159,076 |
+| Seller asking reference | 64,000 | 71,635 |
+| Negotiation reference - low | 50,500 | 56,525 |
+| Negotiation reference - high | 80,000 | 89,544 |
+| Recreation cost estimate | 213,000 | 238,411 |
+| Marketability cost scenario | 171,092 | 191,503 |
+| Monetisation cost scenario | 122,209 | 136,789 |
+| Risk-adjusted strategic reference | 84,833 | 94,954 |
+| Weighted economic reference | 141,602 | 158,495 |
 
-USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
+USD = EUR × 1.1193, rounded half-up to whole USD. ECB date: 2026-10-23. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -175,7 +175,7 @@ The recreation estimate comprises the retained expressly priced scope and the se
 
 Stated scope reconciled to explicit budgets. Assessed 2026-10-21.
 
-The stated recreation scope reconciles to explicit seller work-package budgets. Effort remains assumed; completeness, external quotations, intended-use qualification and market value are not independently established.
+The stated scope reconciles to explicit seller work-package budgets. Effort remains assumed; independent quotations, intended-use qualification and market value are not established.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
@@ -313,13 +313,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1193; ECB 2026-10-23. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "P", "potential": "M", "sector": "Industrial & Infrastructure Software", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc5
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/universal-systems-intelligence-engine/#calculation
 

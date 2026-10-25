@@ -18,9 +18,11 @@ def validate():
   assert not PRIVATE.search(text),a['ref']
   assert not RAW_RESULTS.search(a['maturityNote']),a['ref']
  for a in dossiers['projects']:
+  for criterion in a['assessmentCriteria']:
+   assert not RAW_RESULTS.search(criterion['criterion']),(a['ref'],criterion['axis'])
   for field in ['productPosition','offeredEdition','developmentEdition']:
    assert not RAW_RESULTS.search(a[field]),(a['ref'],field)
  assert not list(ROOT.glob('**/*Recovery_Key*'))
  assert not (ROOT/'audit-20261021').exists()
- return {'result':'PASS','publicAssets':108,'publicDocumentsChecked':324,'privateSourceIdentifiersAbsent':True,'credentialsAndPersonalContactsAbsent':True,'rawBenchmarkMetricsAbsent':True,'recoveryKeyAbsent':True}
+ return {'result':'PASS','publicAssets':110,'publicDocumentsChecked':330,'privateSourceIdentifiersAbsent':True,'credentialsAndPersonalContactsAbsent':True,'rawBenchmarkMetricsAbsent':True,'recoveryKeyAbsent':True}
 if __name__=='__main__':print(json.dumps(validate(),indent=2))

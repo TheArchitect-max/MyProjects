@@ -83,11 +83,11 @@ Existing first-party v0.3 local shared-world reference software, two bounded sce
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | P | Assess the identified existing prototype and its documented limits; design objectives do not establish completed implementation. |
-| Evidence and validation | E2 | Use the exact-source local software results. Synthetic fixtures, supplied declarations and unmerged candidates remain distinct from independent or production qualification. |
-| Rights and component obligations | R0 | Review the expressly included first-party rights and outstanding provenance/component obligations. A seller declaration or a source inventory does not independently establish legal title. |
-| Commercial basis | C2 | Compare the seller asking reference with the disclosed engineering-equivalent cost assumptions; no independent appraisal, attributable income or comparable sale is established. |
-| Delivery and handover | T1 | Resolve the missing explicit rights and agreed-transfer documentation; the source policy deliberately does not grant a general software licence. |
+| Technical scope | P | A shared-world pre-alpha asset for consistent history and participant-limited views. The offered edition and material boundaries govern review. |
+| Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
+| Rights and component obligations | R0 | No repository licence evidence identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
+| Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
+| Delivery and handover | T1 | Implementation exists but core transfer evidence is incomplete. The listed conditions and written delivery agreement govern acceptance. |
 
 ### Conditions before handover
 
@@ -132,16 +132,16 @@ Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 24,000 | 26,962 |
-| Negotiation reference - low | 19,200 | 21,569 |
-| Negotiation reference - high | 30,000 | 33,702 |
-| Recreation cost estimate | 80,000 | 89,872 |
-| Marketability cost scenario | 61,200 | 68,752 |
-| Monetisation cost scenario | 56,700 | 63,697 |
-| Risk-adjusted strategic reference | 30,345 | 34,090 |
-| Weighted economic reference | 54,201 | 60,889 |
+| Seller asking reference | 24,000 | 26,863 |
+| Negotiation reference - low | 19,200 | 21,491 |
+| Negotiation reference - high | 30,000 | 33,579 |
+| Recreation cost estimate | 80,000 | 89,544 |
+| Marketability cost scenario | 61,200 | 68,501 |
+| Monetisation cost scenario | 56,700 | 63,464 |
+| Risk-adjusted strategic reference | 30,345 | 33,965 |
+| Weighted economic reference | 54,201 | 60,667 |
 
-USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
+USD = EUR × 1.1193, rounded half-up to whole USD. ECB date: 2026-10-23. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -178,13 +178,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1193; ECB 2026-10-23. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "P", "potential": "M", "sector": "Media & Creator Technology", "route": "Media / creator software"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc5
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/collective-reality-engine/#calculation
 

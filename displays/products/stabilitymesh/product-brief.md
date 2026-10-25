@@ -90,11 +90,11 @@ Partial-observation and Google v3 event-contract work is an unmerged candidate. 
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | V | Provides hash-bound evidence custody, guarded local infrastructure qualification, Alibaba/Azure measured-trace adapters, full-trace sensitivity and operational outcome/readiness contracts. |
-| Evidence and validation | E2 | Eleven repository-native static gates passed, including parsing 61 Python files. Full dependency-based tests and external-data campaigns were not rerun. |
-| Rights and component obligations | R2 | Proprietary declaration and repository notices reviewed; independent chain of title and freedom to operate remain unestablished. |
-| Commercial basis | C2 | Explicit low-effort cost assumptions and seller asking choice; no independently determined market or income value. |
-| Delivery and handover | T3 | Source, tests and instructions inspected; exact rights, manifest and recipient acceptance remain open. |
+| Technical scope | V | A simulation environment for examining service disruption and controlled defensive responses. The offered edition and material boundaries govern review. |
+| Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
+| Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
+| Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
+| Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance. |
 
 ### Conditions before handover
 
@@ -138,16 +138,16 @@ Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 205,000 | 230,297 |
-| Negotiation reference - low | 164,000 | 184,238 |
-| Negotiation reference - high | 256,500 | 288,152 |
-| Recreation cost estimate | 871,500 | 979,043 |
-| Marketability cost scenario | 1,052,336 | 1,182,194 |
-| Monetisation cost scenario | 1,000,046 | 1,123,452 |
-| Risk-adjusted strategic reference | 1,061,740 | 1,192,759 |
-| Weighted economic reference | 999,960 | 1,123,355 |
+| Seller asking reference | 205,000 | 229,457 |
+| Negotiation reference - low | 164,000 | 183,565 |
+| Negotiation reference - high | 256,500 | 287,100 |
+| Recreation cost estimate | 871,500 | 975,470 |
+| Marketability cost scenario | 1,052,336 | 1,177,880 |
+| Monetisation cost scenario | 1,000,046 | 1,119,351 |
+| Risk-adjusted strategic reference | 1,061,740 | 1,188,406 |
+| Weighted economic reference | 999,960 | 1,119,255 |
 
-USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
+USD = EUR × 1.1193, rounded half-up to whole USD. ECB date: 2026-10-23. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -170,7 +170,7 @@ The EUR 871,500 recreation estimate consists of a EUR 850,000 base and a EUR 21,
 
 Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-21.
 
-Explicit budgets cover only part of this recreation estimate. The retained unbroken anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
+Explicit budgets cover part of the estimate. The retained anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
@@ -207,13 +207,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1193; ECB 2026-10-23. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "V", "potential": "H", "sector": "Industrial & Infrastructure Software", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc5
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/stabilitymesh/#calculation
 
