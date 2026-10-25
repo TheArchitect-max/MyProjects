@@ -84,11 +84,11 @@ Existing first-party 0.6.3 source (unmerged development snapshot), including the
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | P | Assess the identified existing prototype and its documented limits; design objectives do not establish completed implementation. |
-| Evidence and validation | E3 | Use the exact-source local software results. Synthetic fixtures, supplied declarations and unmerged candidates remain distinct from independent or production qualification. |
-| Rights and component obligations | R2 | Review the expressly included first-party rights and outstanding provenance/component obligations. A seller declaration or a source inventory does not independently establish legal title. |
-| Commercial basis | C2 | Compare the seller asking reference with the disclosed engineering-equivalent cost assumptions; no independent appraisal, attributable income or comparable sale is established. |
-| Delivery and handover | T2 | Agree and freeze the historical-main and separately reviewed v0.4.2 development delivery perimeter; the development candidate has not been merged. |
+| Technical scope | P | A research workbench for organising aerial observations and retaining uncertain events for review. The offered edition and material boundaries govern review. |
+| Evidence and validation | E3 | Tests, validation and provenance/release evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
+| Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
+| Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
+| Delivery and handover | T2 | Source, documentation, tests and licence evidence support bounded handover. The listed conditions and written delivery agreement govern acceptance. |
 
 ### Conditions before handover
 
@@ -134,16 +134,16 @@ Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 61,000 | 68,527 |
-| Negotiation reference - low | 47,500 | 53,362 |
-| Negotiation reference - high | 74,500 | 83,693 |
-| Recreation cost estimate | 540,000 | 606,636 |
-| Marketability cost scenario | 351,135 | 394,465 |
-| Monetisation cost scenario | 309,825 | 348,057 |
-| Risk-adjusted strategic reference | 174,104 | 195,588 |
-| Weighted economic reference | 328,128 | 368,619 |
+| Seller asking reference | 61,000 | 68,277 |
+| Negotiation reference - low | 47,500 | 53,167 |
+| Negotiation reference - high | 74,500 | 83,388 |
+| Recreation cost estimate | 540,000 | 604,422 |
+| Marketability cost scenario | 351,135 | 393,025 |
+| Monetisation cost scenario | 309,825 | 346,787 |
+| Risk-adjusted strategic reference | 174,104 | 194,875 |
+| Weighted economic reference | 328,128 | 367,274 |
 
-USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
+USD = EUR × 1.1193, rounded half-up to whole USD. ECB date: 2026-10-23. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -166,7 +166,7 @@ The recreation anchor combines an identified base with separately scoped impleme
 
 Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-21.
 
-Explicit budgets cover only part of this recreation estimate. The retained unbroken anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
+Explicit budgets cover part of the estimate. The retained anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
@@ -202,13 +202,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1193; ECB 2026-10-23. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "P", "potential": "M", "sector": "Research & Scientific Software", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc5
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/modular-aerospace-research-platform/#calculation
 

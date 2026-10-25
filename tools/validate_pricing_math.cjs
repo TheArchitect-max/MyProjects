@@ -2,7 +2,7 @@
 'use strict';
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),math=require('../assets/pricing-math.js');
 const root=path.resolve(__dirname,'..'),p=JSON.parse(fs.readFileSync(path.join(root,'assets/pricing-catalogue.json'),'utf8'));
-const result=math.verifyCatalogue(p);assert.equal(result.status,'PASS');assert.equal(result.summary.modelOutputs,432);assert.equal(result.summary.usdConversions,864);assert.equal(result.summary.costBudgets,p.projects.reduce((n,a)=>n+a.costBudgets.length,0));
+const result=math.verifyCatalogue(p);assert.equal(result.status,'PASS');assert.equal(result.summary.modelOutputs,440);assert.equal(result.summary.usdConversions,880);assert.equal(result.summary.costBudgets,p.projects.reduce((n,a)=>n+a.costBudgets.length,0));
 assert.equal(math.quoteEUR(5000,{base:'EUR',quote:'USD',rate:1.1253}),5627);assert.equal(math.quoteEUR(0,p.displayCurrency),0);assert.equal(math.quoteEUR(1,{base:'EUR',quote:'USD',rate:1}),1);assert.throws(()=>math.quoteEUR(-1,p.displayCurrency));
 let broken=structuredClone(p);broken.projects[0].valuesUSD.sellerAskUSD+=1;assert.equal(math.verifyCatalogue(broken).status,'FAIL');
 broken=structuredClone(p);broken.projects[0].values.marketComparableProxyEUR+=1;assert.equal(math.verifyCatalogue(broken).status,'FAIL');

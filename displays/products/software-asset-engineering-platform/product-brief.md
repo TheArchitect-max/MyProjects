@@ -84,11 +84,11 @@ Present first-party local software-inspection, evidence, bounded review-proposal
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | P | Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance. |
-| Evidence and validation | E3 | Tests, validation and provenance/release evidence identified. The identified source version and tested scope govern these results; this is not independent certification. |
-| Rights and component obligations | R3 | R2 plus SBOM/lockfile and provenance/rights-supporting evidence identified. Review the documented rights and exclusions for your transaction; no independent title opinion is established. |
-| Commercial basis | C2 | Seller ask and reproducible economic reference established. This is a seller asking reference and assumption-based reproduction model, not a completed sale or independent appraisal. |
-| Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and agreed delivery scope govern acceptance. |
+| Technical scope | P | A software-inspection prototype for documented asset review and handover preparation. The offered edition and material boundaries govern review. |
+| Evidence and validation | E3 | Tests, validation and provenance/release evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
+| Rights and component obligations | R3 | R2 plus SBOM/lockfile and provenance/rights-supporting evidence identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
+| Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
+| Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance. |
 
 ### Conditions before handover
 
@@ -135,16 +135,16 @@ Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 75,000 | 84,255 |
-| Negotiation reference - low | 60,000 | 67,404 |
-| Negotiation reference - high | 93,750 | 105,319 |
-| Recreation cost estimate | 250,000 | 280,850 |
-| Marketability cost scenario | 210,375 | 236,335 |
-| Monetisation cost scenario | 194,062 | 218,009 |
-| Risk-adjusted strategic reference | 104,311 | 117,183 |
-| Weighted economic reference | 179,896 | 202,095 |
+| Seller asking reference | 75,000 | 83,948 |
+| Negotiation reference - low | 60,000 | 67,158 |
+| Negotiation reference - high | 93,750 | 104,934 |
+| Recreation cost estimate | 250,000 | 279,825 |
+| Marketability cost scenario | 210,375 | 235,473 |
+| Monetisation cost scenario | 194,062 | 217,214 |
+| Risk-adjusted strategic reference | 104,311 | 116,755 |
+| Weighted economic reference | 179,896 | 201,358 |
 
-USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
+USD = EUR × 1.1193, rounded half-up to whole USD. ECB date: 2026-10-23. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -167,7 +167,7 @@ Disclosed base/increment assumptions reconcile to the retained recreation anchor
 
 Stated scope reconciled to explicit budgets. Assessed 2026-10-21.
 
-The stated recreation scope reconciles to explicit seller work-package budgets. Effort remains assumed; completeness, external quotations, intended-use qualification and market value are not independently established.
+The stated scope reconciles to explicit seller work-package budgets. Effort remains assumed; independent quotations, intended-use qualification and market value are not established.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
@@ -200,13 +200,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1193; ECB 2026-10-23. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "P", "potential": "M", "sector": "Enterprise Software & Operations", "route": "Enterprise software / licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc5
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/software-asset-engineering-platform/#calculation
 

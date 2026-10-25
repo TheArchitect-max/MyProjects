@@ -2,11 +2,11 @@
 
 TA-IP-021 | Reference name: Livia | Audio, publishing & media
 
-Develop and revise your lyrics, compare alternatives and keep your creative decisions organised.
+Develop lyrics, review revision proposals and manage a controlled songwriting workflow with traceable project history.
 
 ## Product overview
 
-A songwriting-workflow asset for structured checks, evidence-linked revision and production review.
+Songwriting software with a controlled customer workspace, evidence-linked revision, asynchronous assistance and deployment/recovery controls.
 
 ## Potential acquirers
 
@@ -16,29 +16,32 @@ A songwriting-workflow asset for structured checks, evidence-linked revision and
 
 ## Documented functions
 
-- Check lyrics and album structure
-- Record revision evidence
-- Review generation workflows
-- Compare workflow behaviour
-- Retain production evaluation records
+- Review deterministic lyric and project checks
+- Prepare and explicitly accept revision proposals
+- Use a controlled customer workspace
+- Manage metered assistance and recover prior work
+- Prepare bounded deployment and recovery packages
 
 ## Available output types
 
-- Lyric-check reports
-- Revision histories
-- Workflow comparisons
+- Lyric projects
+- Revision proposals and comparisons
+- Review reports
+- Recovery and delivery packages
 
 ## Current offered position
 
-Developed software. Existing software offered for evaluation against an agreed use and delivery scope.
+Developed software. Developed research or product software within the identified edition and material boundaries. Intended-use and recipient acceptance remain separate.
 
 Available for acquisition discussion.
 
-- Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately.
+- Software checks do not establish artistic merit, originality, commercial success or rights clearance.
+- Third-party model, payment, email and hosting services require separate entitlements and acceptance.
+- Version 3.24.0 is development scope; independent database, browser and production-security acceptance remain separate.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 300,000.
+Seller asking reference: EUR 314,500.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -68,25 +71,35 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 3.11.0
+Identified product edition: 3.23.0 accepted / 3.24.0 development
 
 Handover position: Conditional handover
 
-Available software for evaluation against your intended use. Deployment suitability is assessed separately.
+Songwriting software with a controlled customer workspace, evidence-linked revision, asynchronous assistance and deployment/recovery controls.
+
+Separately scoped development: Implemented 3.24.0 deployment controls are available as a separately identified development edition; independent acceptance remains open.
 
 ### Priced first-party scope
 
-Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+Specifically agreed first-party implementation and documentation for 3.23.0 accepted / 3.24.0 development. Detailed source, rights, components and acceptance evidence are reviewed under agreed confidentiality.
+
+### Evaluation and acceptance
+
+Retained software evidence applies to its identified source and tested scope. Detailed reproducibility and delivery evidence is reviewed through agreed confidential diligence.
+
+- Software checks do not establish artistic merit, originality, commercial success or rights clearance.
+- Third-party model, payment, email and hosting services require separate entitlements and acceptance.
+- Version 3.24.0 is development scope; independent database, browser and production-security acceptance remain separate.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | V | Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance. |
-| Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results. |
-| Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. This grade concerns documented rights evidence. Missing documentation does not establish that first-party ownership is absent. |
-| Commercial basis | C2 | Seller ask and reproducible economic reference established. A published asking reference does not establish a completed sale, income or an independent appraisal. |
-| Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. Your agreed delivery scope and the conditions below govern acceptance. |
+| Technical scope | V | Songwriting software with a controlled customer workspace, evidence-linked revision, asynchronous assistance and deployment/recovery controls. The offered edition and material boundaries govern review. |
+| Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
+| Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
+| Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
+| Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance. |
 
 ### Conditions before handover
 
@@ -130,20 +143,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-21. All amounts in EUR. Market value is not established.
+Basis: 2026-10-25. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 300,000 | 337,020 |
-| Negotiation reference - low | 240,000 | 269,616 |
-| Negotiation reference - high | 375,000 | 421,275 |
-| Recreation cost estimate | 1,000,000 | 1,123,400 |
-| Marketability cost scenario | 1,150,000 | 1,291,910 |
-| Monetisation cost scenario | 1,417,500 | 1,592,420 |
-| Risk-adjusted strategic reference | 1,160,277 | 1,303,455 |
-| Weighted economic reference | 1,169,597 | 1,313,925 |
+| Seller asking reference | 314,500 | 352,020 |
+| Negotiation reference - low | 251,500 | 281,504 |
+| Negotiation reference - high | 393,000 | 439,885 |
+| Recreation cost estimate | 1,048,000 | 1,173,026 |
+| Marketability cost scenario | 1,205,200 | 1,348,980 |
+| Monetisation cost scenario | 1,485,540 | 1,662,765 |
+| Risk-adjusted strategic reference | 1,215,970 | 1,361,035 |
+| Weighted economic reference | 1,225,738 | 1,371,969 |
 
-USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
+USD = EUR × 1.1193, rounded half-up to whole USD. ECB date: 2026-10-23. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -160,15 +173,42 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+The retained expressly priced scope and successive non-overlapping implementation budgets reconcile below. Equivalent effort and historical anchors remain seller assumptions; actual expenditure, independent quotations and market value are not established. The previously priced lyric, generation, API and evidence foundations are reused once. Live services, payment processing, licensed models, artistic/legal clearance and future production acceptance are excluded.
 
 ### Financial assessment
 
-Retained seller estimate; work breakdown required. Assessed 2026-10-21.
+Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-25.
 
-No complete work-package budget supports the retained anchor. Obtain a delivery-specific work breakdown and quote; this seller estimate does not establish actual expenditure or market value.
+Explicit budgets cover part of the estimate. The retained anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
+
+#### Scoped implementation reproduction budget
+
+Customer workspace and consent-based lyric review; Metered asynchronous revision workflows and recovery; Integration evidence and local deployment portability; Deployment isolation controls and negative-case qualification; Compatibility and handover documentation.
+
+- Customer workspace and consent-based lyric review — 128 assumed hours
+- Metered asynchronous revision workflows and recovery — 112 assumed hours
+- Integration evidence and local deployment portability — 96 assumed hours
+- Deployment isolation controls and negative-case qualification — 80 assumed hours
+- Compatibility and handover documentation — 32 assumed hours
+
+- Assumed hours: 448
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 42,112
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 48,428.8
+- Effort alternatives / Low hours: 448
+- Effort alternatives / Reference hours: 672
+- Effort alternatives / Extended hours: 896
+- Effort alternatives / Low cost: EUR 48,428.8
+- Effort alternatives / Reference cost: EUR 72,643.2
+- Effort alternatives / Extended cost: EUR 96,857.6
+- Adopted recreation increment: EUR 48,000
+- Previous recreation cost: EUR 1,000,000
+- Current recreation cost: EUR 1,048,000
+
+Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. The previously priced lyric, generation, API and evidence foundations are reused once. Live services, payment processing, licensed models, artistic/legal clearance and future production acceptance are excluded.
 
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
@@ -180,13 +220,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1193; ECB 2026-10-23. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "V", "potential": "H", "sector": "Media & Creator Technology", "route": "Media / creator software"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc5
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/cipher-lyric-engine/#calculation
 

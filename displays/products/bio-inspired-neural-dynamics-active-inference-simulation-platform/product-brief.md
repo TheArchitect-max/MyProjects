@@ -2,11 +2,11 @@
 
 TA-IP-077 | Reference name: Iona | Scientific observation & life sciences
 
-Study brain-inspired learning and behaviour through repeatable computational experiments.
+Explore bio-inspired neural dynamics, compare controlled perturbation studies and examine the evidence behind synthetic research results.
 
 ## Product overview
 
-A computational-neuroscience asset for repeatable learning and behaviour studies.
+Computational-neuroscience research software for synthetic neural dynamics, controlled perturbations, interaction stability and reproducible comparison evidence.
 
 ## Potential acquirers
 
@@ -16,29 +16,31 @@ A computational-neuroscience asset for repeatable learning and behaviour studies
 
 ## Documented functions
 
-- Run controlled neural-dynamics studies
-- Compare interventions
-- Review multi-source research evidence
-- Assess robustness boundaries
-- Retain repeatable evaluation records
+- Model supported synthetic neural dynamics
+- Compare controlled perturbation and stability studies
+- Review research-source and experiment lineage
+- Compare fixed-grid interaction fingerprints
+- Export bounded research and qualification reports
 
 ## Available output types
 
-- Neural study reports
-- Intervention comparisons
-- Qualification evidence
+- Synthetic simulation outputs
+- Interaction comparison reports
+- Lineage and qualification summaries
 
 ## Current offered position
 
-Developed software. Existing software offered for evaluation against an agreed use and delivery scope.
+Developed software. Developed research or product software within the identified edition and material boundaries. Intended-use and recipient acceptance remain separate.
 
 Available for acquisition discussion.
 
-- Computational neuroscience and simulation software. Biological equivalence and clinical outcomes are outside its scope.
+- Software and synthetic-study results do not establish biological equivalence, clinical relevance, cognition or causal validity.
+- Third-party research data retains its own rights and qualification requirements.
+- Exact numerical replay has not fully reconciled in the current local environment; qualify reproducibility in the recipient environment before relying on interaction qualification outputs.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 925,000.
+Seller asking reference: EUR 929,000.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -68,27 +70,33 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 2.2.0
+Identified product edition: 2.6.0
 
 Handover position: Conditional handover
 
-Use the retained v2.1.0 validated research baseline and review the separate v2.2.0 candidate separately. Full candidate validation remains outstanding.
-
-Separately scoped development: 2.2.0 hardened draft candidate
+Computational-neuroscience research software for synthetic neural dynamics, controlled perturbations, interaction stability and reproducible comparison evidence.
 
 ### Priced first-party scope
 
-Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+Specifically agreed first-party implementation and documentation for 2.6.0. Detailed source, rights, components and acceptance evidence are reviewed under agreed confidentiality.
+
+### Evaluation and acceptance
+
+Retained software evidence applies to its identified source and tested scope. Detailed reproducibility and delivery evidence is reviewed through agreed confidential diligence.
+
+- Software and synthetic-study results do not establish biological equivalence, clinical relevance, cognition or causal validity.
+- Third-party research data retains its own rights and qualification requirements.
+- Recipient-environment numerical replay remains an open qualification condition; detailed evidence is reviewed under agreed confidentiality.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | V | Identify whether the offered scope is developed software, a prototype, research or definition documentation. Technical maturity alone does not establish production acceptance. |
-| Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Identified evidence must be read within its exact version and tested scope; test files alone do not prove passing results. |
-| Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. This grade concerns documented rights evidence. Missing documentation does not establish that first-party ownership is absent. |
-| Commercial basis | C2 | Seller ask and reproducible economic reference established. A published asking reference does not establish a completed sale, income or an independent appraisal. |
-| Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. Your agreed delivery scope and the conditions below govern acceptance. |
+| Technical scope | V | Computational-neuroscience research software for synthetic neural dynamics, controlled perturbations, interaction stability and reproducible comparison evidence. The offered edition and material boundaries govern review. |
+| Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
+| Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
+| Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
+| Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance. |
 
 ### Conditions before handover
 
@@ -97,6 +105,7 @@ Seller-owned first-party rights plus specifically agreed transferable software/d
 - A security assessment or an explicit statement of its absence is required before acceptance.
 - Release identity and provenance evidence remain incomplete.
 - Full validation of the identified hardened v2.2 candidate remains outstanding before release acceptance.
+- Resolve the source-specific numerical replay reconciliation and retain recipient-environment acceptance evidence.
 
 ### Qualification objectives
 
@@ -132,20 +141,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-21. All amounts in EUR. Market value is not established.
+Basis: 2026-10-25. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 925,000 | 1,039,145 |
-| Negotiation reference - low | 740,000 | 831,316 |
-| Negotiation reference - high | 1,160,000 | 1,303,144 |
-| Recreation cost estimate | 3,300,000 | 3,707,220 |
-| Marketability cost scenario | 3,225,750 | 3,623,808 |
-| Monetisation cost scenario | 3,786,750 | 4,254,035 |
-| Risk-adjusted strategic reference | 3,254,576 | 3,656,191 |
-| Weighted economic reference | 3,366,602 | 3,782,041 |
+| Seller asking reference | 929,000 | 1,039,830 |
+| Negotiation reference - low | 743,000 | 831,640 |
+| Negotiation reference - high | 1,164,500 | 1,303,425 |
+| Recreation cost estimate | 3,313,500 | 3,708,801 |
+| Marketability cost scenario | 3,238,946 | 3,625,352 |
+| Monetisation cost scenario | 3,802,241 | 4,255,848 |
+| Risk-adjusted strategic reference | 3,267,890 | 3,657,749 |
+| Weighted economic reference | 3,380,374 | 3,783,653 |
 
-USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
+USD = EUR × 1.1193, rounded half-up to whole USD. ECB date: 2026-10-23. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -162,15 +171,41 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+The retained expressly priced scope and successive non-overlapping implementation budgets reconcile below. Equivalent effort and historical anchors remain seller assumptions; actual expenditure, independent quotations and market value are not established. The previously priced neural simulation and source-adapter foundations are reused once. Biological/clinical validation, third-party data ownership, new scientific findings and production qualification are excluded.
 
 ### Financial assessment
 
-Retained seller estimate; work breakdown required. Assessed 2026-10-21.
+Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-25.
 
-No complete work-package budget supports the retained anchor. Obtain a delivery-specific work breakdown and quote; this seller estimate does not establish actual expenditure or market value.
+Explicit budgets cover part of the estimate. The retained anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
+
+#### Scoped implementation reproduction budget
+
+Interaction stability and controlled comparison studies; Adversarial evidence-lineage verification; Fixed-grid fingerprint comparison outputs; Compatibility and qualification documentation.
+
+- Interaction stability and controlled comparison studies — 40 assumed hours
+- Adversarial evidence-lineage verification — 40 assumed hours
+- Fixed-grid fingerprint comparison outputs — 24 assumed hours
+- Compatibility and qualification documentation — 24 assumed hours
+
+- Assumed hours: 128
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 12,032
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 13,836.8
+- Effort alternatives / Low hours: 128
+- Effort alternatives / Reference hours: 192
+- Effort alternatives / Extended hours: 256
+- Effort alternatives / Low cost: EUR 13,836.8
+- Effort alternatives / Reference cost: EUR 20,755.2
+- Effort alternatives / Extended cost: EUR 27,673.6
+- Adopted recreation increment: EUR 13,500
+- Previous recreation cost: EUR 3,300,000
+- Current recreation cost: EUR 3,313,500
+
+Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. The previously priced neural simulation and source-adapter foundations are reused once. Biological/clinical validation, third-party data ownership, new scientific findings and production qualification are excluded.
 
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
@@ -182,13 +217,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1193; ECB 2026-10-23. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "V", "potential": "H", "sector": "Research & Scientific Software", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc5
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/bio-inspired-neural-dynamics-active-inference-simulation-platform/#calculation
 

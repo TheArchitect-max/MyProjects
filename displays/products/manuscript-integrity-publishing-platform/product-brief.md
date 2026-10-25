@@ -109,11 +109,11 @@ Human editorial approval governs each book and its release.
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | P | Executable local manuscript/QA prototype at v0.1.0; recorded future/offline development remains separately identified. |
-| Evidence and validation | E2 | 18 local automated tests, immutable protocol integrity and syntax checks passed. Synthetic tests do not establish literary quality. |
-| Rights and component obligations | R1 | NOTICE.md and the package manifest declare proprietary rights. Resolve embedded protocol/template permission and the definitive transfer perimeter separately. |
-| Commercial basis | C2 | Separate seller asking reference and reproducible cost budget, with WIPO method context, Knab and Upwork rate context and expressly labelled analyst assumptions. No attributable sale or income is established. |
-| Delivery and handover | T2 | Source, tests, protocol lock and instructions support a bounded handover. The release-specific manifest, rights/dependency treatment and recipient acceptance remain open. |
+| Technical scope | P | A manuscript-production prototype for editorial evidence and author-controlled release. The offered edition and material boundaries govern review. |
+| Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
+| Rights and component obligations | R1 | Repository licence file identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
+| Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
+| Delivery and handover | T2 | Source, documentation, tests and licence evidence support bounded handover. The listed conditions and written delivery agreement govern acceptance. |
 
 ### Conditions before handover
 
@@ -158,16 +158,16 @@ Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 21,000 | 23,591 |
-| Negotiation reference - low | 16,800 | 18,873 |
-| Negotiation reference - high | 26,250 | 29,489 |
-| Recreation cost estimate | 70,000 | 78,638 |
-| Marketability cost scenario | 53,550 | 60,158 |
-| Monetisation cost scenario | 49,613 | 55,735 |
-| Risk-adjusted strategic reference | 26,552 | 29,829 |
-| Weighted economic reference | 47,426 | 53,278 |
+| Seller asking reference | 21,000 | 23,505 |
+| Negotiation reference - low | 16,800 | 18,804 |
+| Negotiation reference - high | 26,250 | 29,382 |
+| Recreation cost estimate | 70,000 | 78,351 |
+| Marketability cost scenario | 53,550 | 59,939 |
+| Monetisation cost scenario | 49,613 | 55,532 |
+| Risk-adjusted strategic reference | 26,552 | 29,720 |
+| Weighted economic reference | 47,426 | 53,084 |
 
-USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
+USD = EUR × 1.1193, rounded half-up to whole USD. ECB date: 2026-10-23. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -190,7 +190,7 @@ Disclosed base/increment assumptions reconcile to the retained recreation anchor
 
 Stated scope reconciled to explicit budgets. Assessed 2026-10-21.
 
-The stated recreation scope reconciles to explicit seller work-package budgets. Effort remains assumed; completeness, external quotations, intended-use qualification and market value are not independently established.
+The stated scope reconciles to explicit seller work-package budgets. Effort remains assumed; independent quotations, intended-use qualification and market value are not established.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
@@ -239,13 +239,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1193; ECB 2026-10-23. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "P", "potential": "M", "sector": "Media & Creator Technology", "route": "Media / creator software"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc5
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/manuscript-integrity-publishing-platform/#calculation
 

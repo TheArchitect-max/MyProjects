@@ -82,11 +82,11 @@ Existing first-party local DJ and music-library prototype plus the implemented v
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | P | Assess the identified existing prototype and its documented limits; design objectives do not establish completed implementation. |
-| Evidence and validation | E3 | Use the exact-source local software results. Synthetic fixtures, supplied declarations and unmerged candidates remain distinct from independent or production qualification. |
-| Rights and component obligations | R2 | Review the expressly included first-party rights and outstanding provenance/component obligations. A seller declaration or a source inventory does not independently establish legal title. |
-| Commercial basis | C2 | Compare the seller asking reference with the disclosed engineering-equivalent cost assumptions; no independent appraisal, attributable income or comparable sale is established. |
-| Delivery and handover | T2 | Agree the exact v0.12 first-party source and prototype delivery manifest, supported dependencies and recipient acceptance checks. |
+| Technical scope | P | A bring-your-own-music prototype for candidate DJ and mashup discovery. The offered edition and material boundaries govern review. |
+| Evidence and validation | E3 | Tests, validation and provenance/release evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
+| Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
+| Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
+| Delivery and handover | T2 | Source, documentation, tests and licence evidence support bounded handover. The listed conditions and written delivery agreement govern acceptance. |
 
 ### Conditions before handover
 
@@ -133,16 +133,16 @@ Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 46,000 | 51,676 |
-| Negotiation reference - low | 34,500 | 38,757 |
-| Negotiation reference - high | 57,500 | 64,596 |
-| Recreation cost estimate | 290,000 | 325,786 |
-| Marketability cost scenario | 283,475 | 318,456 |
-| Monetisation cost scenario | 308,306 | 346,351 |
-| Risk-adjusted strategic reference | 237,680 | 267,010 |
-| Weighted economic reference | 274,044 | 307,861 |
+| Seller asking reference | 46,000 | 51,488 |
+| Negotiation reference - low | 34,500 | 38,616 |
+| Negotiation reference - high | 57,500 | 64,360 |
+| Recreation cost estimate | 290,000 | 324,597 |
+| Marketability cost scenario | 283,475 | 317,294 |
+| Monetisation cost scenario | 308,306 | 345,087 |
+| Risk-adjusted strategic reference | 237,680 | 266,035 |
+| Weighted economic reference | 274,044 | 306,737 |
 
-USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
+USD = EUR × 1.1193, rounded half-up to whole USD. ECB date: 2026-10-23. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -165,7 +165,7 @@ Some dated work-package assumptions are disclosed, but they do not reconstruct t
 
 Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-21.
 
-Explicit budgets cover only part of this recreation estimate. The retained unbroken anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
+Explicit budgets cover part of the estimate. The retained anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
@@ -193,13 +193,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1193; ECB 2026-10-23. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "P", "potential": "H", "sector": "Media & Creator Technology", "route": "Media / creator software"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc5
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/aurynthiq-autonomous-dj-intelligence-platform/#calculation
 

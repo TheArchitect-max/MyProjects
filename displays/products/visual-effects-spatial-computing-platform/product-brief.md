@@ -92,11 +92,11 @@ Retained developer checks support the identified software scope. Detailed reprod
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | P | An independent local 2D Canvas editor with shape/text layers, timeline/keyframes, validated JSON import/export and a typed deterministic visual-effect graph. |
-| Evidence and validation | E2 | 24 JavaScript model/graph tests and 5 Python policy/server tests passed. Browser GUI/device acceptance was not rerun. |
-| Rights and component obligations | R1 | Proprietary declaration and repository notices reviewed; independent chain of title and freedom to operate remain unestablished. |
-| Commercial basis | C2 | Explicit low-effort cost assumptions and seller asking choice; no independently determined market or income value. |
-| Delivery and handover | T2 | Source, tests and instructions inspected; exact rights, manifest and recipient acceptance remain open. |
+| Technical scope | P | A standalone visual-authoring development platform with 2D editing, animation and a limited experimental 3D workbench. The offered edition and material boundaries govern review. |
+| Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
+| Rights and component obligations | R1 | Repository licence file identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
+| Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
+| Delivery and handover | T2 | Source, documentation, tests and licence evidence support bounded handover. The listed conditions and written delivery agreement govern acceptance. |
 
 ### Conditions before handover
 
@@ -134,16 +134,16 @@ Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 8,500 | 9,549 |
-| Negotiation reference - low | 7,000 | 7,864 |
-| Negotiation reference - high | 10,500 | 11,796 |
-| Recreation cost estimate | 29,000 | 32,579 |
-| Marketability cost scenario | 22,185 | 24,923 |
-| Monetisation cost scenario | 20,554 | 23,090 |
-| Risk-adjusted strategic reference | 11,000 | 12,357 |
-| Weighted economic reference | 19,648 | 22,073 |
+| Seller asking reference | 8,500 | 9,514 |
+| Negotiation reference - low | 7,000 | 7,835 |
+| Negotiation reference - high | 10,500 | 11,753 |
+| Recreation cost estimate | 29,000 | 32,460 |
+| Marketability cost scenario | 22,185 | 24,832 |
+| Monetisation cost scenario | 20,554 | 23,006 |
+| Risk-adjusted strategic reference | 11,000 | 12,312 |
+| Weighted economic reference | 19,648 | 21,992 |
 
-USD = EUR × 1.1234, rounded half-up to whole USD. ECB date: 2026-10-21. EUR is authoritative.
+USD = EUR × 1.1193, rounded half-up to whole USD. ECB date: 2026-10-23. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -166,7 +166,7 @@ The recreation estimate comprises the retained expressly priced scope and the se
 
 Stated scope reconciled to explicit budgets. Assessed 2026-10-21.
 
-The stated recreation scope reconciles to explicit seller work-package budgets. Effort remains assumed; completeness, external quotations, intended-use qualification and market value are not independently established.
+The stated scope reconciles to explicit seller work-package budgets. Effort remains assumed; independent quotations, intended-use qualification and market value are not established.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
@@ -228,13 +228,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1234; ECB 2026-10-21. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1193; ECB 2026-10-23. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "P", "potential": "M", "sector": "Media & Creator Technology", "route": "Media / creator software"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc4
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc5
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/visual-effects-spatial-computing-platform/#calculation
 
