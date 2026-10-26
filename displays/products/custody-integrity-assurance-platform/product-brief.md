@@ -90,7 +90,7 @@ Seller-owned first-party rights plus specifically agreed transferable software/d
 
 ### Conditions before handover
 
-- Review potential sensitive filenames before transfer: machine/schemas/validate_command_credentials-command.schema.json
+- Review confidential security and credential-handling materials within the agreed diligence and transfer scope.
 
 ### Qualification objectives
 
@@ -130,16 +130,16 @@ Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 140,000 | 156,702 |
-| Negotiation reference - low | 110,000 | 123,123 |
-| Negotiation reference - high | 175,000 | 195,878 |
-| Recreation cost estimate | 750,000 | 839,475 |
-| Marketability cost scenario | 769,781 | 861,616 |
-| Monetisation cost scenario | 835,313 | 934,966 |
-| Risk-adjusted strategic reference | 645,424 | 722,423 |
-| Weighted economic reference | 734,417 | 822,033 |
+| Seller asking reference | 140,000 | 156,632 |
+| Negotiation reference - low | 110,000 | 123,068 |
+| Negotiation reference - high | 175,000 | 195,790 |
+| Recreation cost estimate | 750,000 | 839,100 |
+| Marketability cost scenario | 769,781 | 861,231 |
+| Monetisation cost scenario | 835,313 | 934,548 |
+| Risk-adjusted strategic reference | 645,424 | 722,100 |
+| Weighted economic reference | 734,417 | 821,666 |
 
-USD = EUR × 1.1193, rounded half-up to whole USD. ECB date: 2026-10-23. EUR is authoritative.
+USD = EUR × 1.1188, rounded half-up to whole USD. ECB date: 2026-10-26. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -176,13 +176,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1193; ECB 2026-10-23. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1188; ECB 2026-10-26. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "P", "potential": "H", "sector": "Identity, Privacy & Assurance", "route": "Private deployment / enterprise licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc5
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc6
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/custody-integrity-assurance-platform/#calculation
 

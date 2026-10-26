@@ -1,6 +1,6 @@
 {
   "schema": "public-buyer-dossiers-1",
-  "basisDate": "2026-10-25",
+  "basisDate": "2026-10-26",
   "purpose": "Version, qualification, rights and handover information for initial acquisition review. Evidence applies to the identified edition and tested scope.",
   "definitions": {
     "purpose": "Seller-side evidence, transfer and acquisition-documentation readiness. This is not buyer due diligence and does not replace buyer-specific legal, technical, security or financial review.",
@@ -882,17 +882,17 @@
     },
     {
       "ref": "TA-IP-049",
-      "version": "1.1.0",
+      "version": "1.4.0",
       "developmentEdition": "",
-      "productPosition": "An implemented prototype for evaluation and further development.",
-      "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
+      "productPosition": "An authorised evidence and entity-intelligence prototype with recoverable local work state, relationship review and controlled worker-ownership reference workflows.",
+      "offeredEdition": "Specifically agreed first-party implementation and documentation for 1.4.0. The previously priced acquisition, graph, entity, evidence and defensive-control foundations are reused once. Third-party source entitlements, real shared persistence/queue deployment, production multi-node acceptance and legal/operational certification are excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "P",
-          "criterion": "An entity-intelligence prototype for authorised collection and attributable relationship review. The offered edition and material boundaries govern review."
+          "criterion": "An authorised evidence and entity-intelligence prototype with recoverable local work state, relationship review and controlled worker-ownership reference workflows. The offered edition and material boundaries govern review."
         },
         {
           "axis": "evidenceMaturity",
@@ -920,10 +920,9 @@
         }
       ],
       "sellerConditions": [
-        "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
-        "Release identity and provenance evidence remain incomplete.",
-        "Review potential sensitive filenames before transfer: src/security/credentialBroker.js"
+        "Confirm the dependency-free reference scope and any third-party materials added for the agreed delivery.",
+        "Qualify external durable backends and multi-process operation before relying on distributed deployment.",
+        "Agree the exact delivery manifest, transferable rights and recipient acceptance."
       ],
       "buyerConditions": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -944,7 +943,17 @@
         "securityDocumentationIdentified": true,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Offered work and qualification",
+          "text": "An authorised evidence and entity-intelligence prototype with recoverable local work state, relationship review and controlled worker-ownership reference workflows. Source-specific evidence is reviewed under agreed confidentiality; intended-use and recipient acceptance remain separate.",
+          "items": [
+            "The offered edition is a developed prototype for authorised information workflows; source permissions and intended-use acceptance remain separate.",
+            "Local durability is a bounded single-writer implementation. Distributed operation requires separately supplied durable persistence and queue services with independent qualification.",
+            "Reference concurrency and recovery checks do not establish production multi-node durability, legal compliance or unrestricted access to third-party sources."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-002",
@@ -1206,7 +1215,7 @@
       "sellerConditions": [
         "A security assessment or an explicit statement of its absence is required before acceptance.",
         "Release identity and provenance evidence remain incomplete.",
-        "Review potential sensitive filenames before transfer: apps/web/app/api/credentials/[id]/route.ts, apps/web/app/api/credentials/rotation/route.ts, apps/web/app/api/credentials/route.ts, apps/worker/src/provider-credentials.ts, docs/CREDENTIAL-KEY-ROTATION.md"
+        "Review confidential security and credential-handling materials within the agreed diligence and transfer scope."
       ],
       "buyerConditions": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -1310,17 +1319,17 @@
     },
     {
       "ref": "TA-IP-077",
-      "version": "2.6.0",
+      "version": "2.7.0 / qualified CPU scope",
       "developmentEdition": "",
-      "productPosition": "Computational-neuroscience research software for synthetic neural dynamics, controlled perturbations, interaction stability and reproducible comparison evidence.",
-      "offeredEdition": "Specifically agreed first-party implementation and documentation for 2.6.0. Detailed source, rights, components and acceptance evidence are reviewed under agreed confidentiality.",
+      "productPosition": "Computational-neuroscience research software for synthetic neural experiments, controlled comparisons, declared experiment/result packages and qualified-environment replay diagnostics.",
+      "offeredEdition": "Specifically agreed first-party implementation and documentation for 2.7.0 / qualified CPU scope. The previously priced neural runtime, source adapters, interaction studies and lineage/fingerprint foundations are reused once. The added experiment/result declarations and diagnostics are priced as software only. Biological/scientific/clinical findings, third-party dataset ownership, universal portability, future composable-model architecture and production qualification are excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "V",
-          "criterion": "Computational-neuroscience research software for synthetic neural dynamics, controlled perturbations, interaction stability and reproducible comparison evidence. The offered edition and material boundaries govern review."
+          "criterion": "Computational-neuroscience research software for synthetic neural experiments, controlled comparisons, declared experiment/result packages and qualified-environment replay diagnostics. The offered edition and material boundaries govern review."
         },
         {
           "axis": "evidenceMaturity",
@@ -1348,12 +1357,9 @@
         }
       ],
       "sellerConditions": [
-        "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
-        "A security assessment or an explicit statement of its absence is required before acceptance.",
-        "Release identity and provenance evidence remain incomplete.",
-        "Full validation of the identified hardened v2.2 candidate remains outstanding before release acceptance.",
-        "Resolve the source-specific numerical replay reconciliation and retain recipient-environment acceptance evidence."
+        "Retain the exact source and recorded environment supporting the reviewed CPU qualification.",
+        "Resolve exact numerical replay and downstream experiment qualification in the recipient environment without weakening historical checks.",
+        "Review dependency builds, source/data rights, security evidence and the delivery manifest before acceptance."
       ],
       "buyerConditions": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -1376,12 +1382,12 @@
       },
       "productDetails": [
         {
-          "title": "Evaluation and acceptance",
-          "text": "Retained software evidence applies to its identified source and tested scope. Detailed reproducibility and delivery evidence is reviewed through agreed confidential diligence.",
+          "title": "Offered work and qualification",
+          "text": "Computational-neuroscience research software for synthetic neural experiments, controlled comparisons, declared experiment/result packages and qualified-environment replay diagnostics. Source-specific evidence is reviewed under agreed confidentiality; intended-use and recipient acceptance remain separate.",
           "items": [
             "Software and synthetic-study results do not establish biological equivalence, clinical relevance, cognition or causal validity.",
-            "Third-party research data retains its own rights and qualification requirements.",
-            "Recipient-environment numerical replay remains an open qualification condition; detailed evidence is reviewed under agreed confidentiality."
+            "Recorded CPU evidence qualifies only its identified source and environments; third-party research data retains its own rights.",
+            "Exact numerical replay remains unresolved in another local environment, including downstream experiment qualification. Recipient-environment acceptance is required before relying on these outputs."
           ]
         }
       ]
@@ -1428,7 +1434,7 @@
       "sellerConditions": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
         "An explicit delivery manifest and handover scope remain to be agreed.",
-        "Review potential sensitive filenames before transfer: sentinelbio/credentials.py"
+        "Review confidential security and credential-handling materials within the agreed diligence and transfer scope."
       ],
       "buyerConditions": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -1728,17 +1734,17 @@
     },
     {
       "ref": "TA-IP-021",
-      "version": "3.23.0 accepted / 3.24.0 development",
-      "developmentEdition": "Implemented 3.24.0 deployment controls are available as a separately identified development edition; independent acceptance remains open.",
-      "productPosition": "Songwriting software with a controlled customer workspace, evidence-linked revision, asynchronous assistance and deployment/recovery controls.",
-      "offeredEdition": "Specifically agreed first-party implementation and documentation for 3.23.0 accepted / 3.24.0 development. Detailed source, rights, components and acceptance evidence are reviewed under agreed confidentiality.",
+      "version": "3.30.0 scoped qualification / 3.31.0 development",
+      "developmentEdition": "The compatibility-matrix tooling is implemented development scope. Full acceptance across the declared Python runtimes remains open.",
+      "productPosition": "Songwriting software for controlled lyric development, evidence-linked revision, recoverable customer workflows and bounded deployment qualification.",
+      "offeredEdition": "Specifically agreed first-party implementation and documentation for 3.30.0 scoped qualification / 3.31.0 development. The previously priced songwriting, workspace, recovery and role-isolation foundations are reused once. Only the added migration-inventory/rehearsal, staging, ingress and compatibility work is included. Actual hosting, paid services, customer-data migration, live model/payment/email integrations and independent production acceptance are excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "V",
-          "criterion": "Songwriting software with a controlled customer workspace, evidence-linked revision, asynchronous assistance and deployment/recovery controls. The offered edition and material boundaries govern review."
+          "criterion": "Songwriting software for controlled lyric development, evidence-linked revision, recoverable customer workflows and bounded deployment qualification. The offered edition and material boundaries govern review."
         },
         {
           "axis": "evidenceMaturity",
@@ -1766,11 +1772,9 @@
         }
       ],
       "sellerConditions": [
-        "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
-        "A security assessment or an explicit statement of its absence is required before acceptance.",
-        "Release identity and provenance evidence remain incomplete.",
-        "An explicit delivery manifest and handover scope remain to be agreed."
+        "Agree the exact qualified baseline and development-candidate delivery scope.",
+        "Complete compatibility, integration, operator/security and recipient acceptance for the intended environment.",
+        "Review component obligations, transferable rights and the final delivery manifest."
       ],
       "buyerConditions": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -1793,12 +1797,12 @@
       },
       "productDetails": [
         {
-          "title": "Evaluation and acceptance",
-          "text": "Retained software evidence applies to its identified source and tested scope. Detailed reproducibility and delivery evidence is reviewed through agreed confidential diligence.",
+          "title": "Offered work and qualification",
+          "text": "Songwriting software for controlled lyric development, evidence-linked revision, recoverable customer workflows and bounded deployment qualification. Source-specific evidence is reviewed under agreed confidentiality; intended-use and recipient acceptance remain separate.",
           "items": [
             "Software checks do not establish artistic merit, originality, commercial success or rights clearance.",
-            "Third-party model, payment, email and hosting services require separate entitlements and acceptance.",
-            "Version 3.24.0 is development scope; independent database, browser and production-security acceptance remain separate."
+            "Recorded software qualification covers its identified disposable test scope; the current compatibility candidate is not a production-qualified service.",
+            "Live integrations, tenant migration, keys, hosting security and recipient acceptance require separate qualification."
           ]
         }
       ]
@@ -2126,7 +2130,7 @@
         }
       ],
       "sellerConditions": [
-        "Review potential sensitive filenames before transfer: machine/schemas/validate_command_credentials-command.schema.json"
+        "Review confidential security and credential-handling materials within the agreed diligence and transfer scope."
       ],
       "buyerConditions": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -2725,7 +2729,7 @@
       ],
       "sellerConditions": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "Review potential sensitive filenames before transfer: src/bogae/credential_rotation.py",
+        "Review confidential security and credential-handling materials within the agreed diligence and transfer scope.",
         "A generated, release-specific component inventory and licensing report are required; inventory-generation software is not the completed report.",
         "An explicit delivery manifest and buyer handover scope must be agreed; runtime transaction features do not establish acquisition readiness."
       ],
@@ -3260,7 +3264,7 @@
       "sellerConditions": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
         "An explicit delivery manifest and handover scope remain to be agreed.",
-        "Review potential sensitive filenames before transfer: src/impe/managed_secrets.py, src/impe/provider_credentials.py"
+        "Review confidential security and credential-handling materials within the agreed diligence and transfer scope."
       ],
       "buyerConditions": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -3454,7 +3458,7 @@
       "sellerConditions": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
         "A detailed component inventory and licensing report are required for the agreed delivery scope.",
-        "Review potential sensitive filenames before transfer: scripts/scan_secrets.py, src/klr/security/secret_scan.py"
+        "Review confidential security and credential-handling materials within the agreed diligence and transfer scope."
       ],
       "buyerConditions": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -4912,7 +4916,7 @@
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
         "A detailed component inventory and licensing report are required for the agreed delivery scope.",
         "An explicit delivery manifest and handover scope remain to be agreed.",
-        "Review potential sensitive filenames before transfer: plant-environment-decision-intelligence-platform/plant-environment-decision-intelligence-platform/scripts/generate_dev_token.py"
+        "Review confidential security and credential-handling materials within the agreed diligence and transfer scope."
       ],
       "buyerConditions": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -7448,17 +7452,17 @@
     },
     {
       "ref": "TA-IP-109",
-      "version": "R5.7 prelaunch",
+      "version": "R5.35 prelaunch",
       "developmentEdition": "",
-      "productPosition": "A standalone prelaunch publishing-software asset for American-English entertainment satire, editorial workflow, release governance and static output preparation.",
-      "offeredEdition": "Specifically agreed first-party source, associated documentation and retained software evidence for R5.7 prelaunch. First-party software and agreed templates only. Live operation, source/content licences, an operating business, audience, domain entitlement, model/API usage and independent legal clearance are excluded.",
+      "productPosition": "A standalone prelaunch entertainment-satire publishing-software asset with editorial workflows, controlled release records, bounded operating-cost review and offline recovery/rehearsal tooling.",
+      "offeredEdition": "Specifically agreed first-party implementation and documentation for R5.35 prelaunch. The previously priced editorial, timing, release-registry and site-builder foundations are reused once. Only the added bounded operational, cost, continuity, replay and offline rehearsal software is included. Live hosting, licensed content, real API charges, editorial/legal clearance, real offsite backups and an operating media business are excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "P",
-          "criterion": "A standalone prelaunch publishing-software asset for American-English entertainment satire, editorial workflow, release governance and static output preparation. The offered edition and material boundaries govern review."
+          "criterion": "A standalone prelaunch entertainment-satire publishing-software asset with editorial workflows, controlled release records, bounded operating-cost review and offline recovery/rehearsal tooling. The offered edition and material boundaries govern review."
         },
         {
           "axis": "evidenceMaturity",
@@ -7486,9 +7490,9 @@
         }
       ],
       "sellerConditions": [
-        "Freeze the exact first-party edition, delivery manifest, transferable rights and exclusions.",
-        "Review reproducibility, component and security evidence under agreed confidentiality.",
-        "Complete the application-specific qualification, rights review and recipient acceptance."
+        "Freeze the exact first-party prelaunch software edition, templates, transferable rights and exclusions.",
+        "Qualify the real host, source/content rights, paid integrations, security and editorial/legal process separately before launch.",
+        "Agree recipient acceptance and the delivery manifest; offline rehearsal does not authorise publication."
       ],
       "buyerConditions": [],
       "qualificationObjectives": [
@@ -7507,29 +7511,29 @@
       },
       "productDetails": [
         {
-          "title": "Current offered scope",
-          "text": "A standalone prelaunch publishing-software asset for American-English entertainment satire, editorial workflow, release governance and static output preparation.",
+          "title": "Offered work and qualification",
+          "text": "A standalone prelaunch entertainment-satire publishing-software asset with editorial workflows, controlled release records, bounded operating-cost review and offline recovery/rehearsal tooling. Source-specific evidence is reviewed under agreed confidentiality; intended-use and recipient acceptance remain separate.",
           "items": [
-            "Prelaunch software; live publication, licensed news feeds and independent editorial/legal acceptance remain open.",
-            "Article drafts, brand/domain rights, personal data, operating ledgers and third-party content require separately agreed rights and scope.",
-            "The portfolio offers the software asset; it does not represent an operating publication, audience, income or legally certified autonomous newsroom."
+            "Prelaunch software with offline qualification; live publication, licensed news feeds and independent editorial/legal acceptance remain open.",
+            "Host-security planning and synthetic recovery rehearsals do not establish an operating server, real encrypted/offsite backups, measured recovery guarantees or production readiness.",
+            "The software offer excludes an operating publication, audience, income, credentials, personal content and third-party content or domain rights unless separately agreed."
           ]
         }
       ]
     },
     {
       "ref": "TA-IP-110",
-      "version": "0.15.0 development",
-      "developmentEdition": "The current release adds a limited model-neutral hypothesis-declaration registry; independent full-release acceptance remains a separate gate.",
-      "productPosition": "An independent research-software framework for falsifiable model comparisons, synthetic methodological controls and bounded offline astronomical-data review.",
-      "offeredEdition": "Specifically agreed first-party source, associated documentation and retained software evidence for 0.15.0 development. First-party research software only. Empirical discoveries, physical theories, instrument calibration, third-party datasets, external Fermitools qualification and future model engines are excluded.",
+      "version": "0.18.0",
+      "developmentEdition": "",
+      "productPosition": "An independent research-software framework for declared hypothesis portfolios, source-bound synthetic model comparisons, covariance-aware methodological controls and bounded astronomical-data audits.",
+      "offeredEdition": "Specifically agreed first-party implementation and documentation for 0.18.0. The previously priced synthetic experiments, astronomical-file audits, replay and hypothesis registry are reused once. Only the added bounded portfolio, dimension/source checks and covariance-aware synthetic comparison software is included. Empirical discoveries, physical theories, calibrated instrument response, third-party datasets and future model engines are excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "R",
-          "criterion": "An independent research-software framework for falsifiable model comparisons, synthetic methodological controls and bounded offline astronomical-data review. The offered edition and material boundaries govern review."
+          "criterion": "An independent research-software framework for declared hypothesis portfolios, source-bound synthetic model comparisons, covariance-aware methodological controls and bounded astronomical-data audits. The offered edition and material boundaries govern review."
         },
         {
           "axis": "evidenceMaturity",
@@ -7557,9 +7561,9 @@
         }
       ],
       "sellerConditions": [
-        "Freeze the exact first-party edition, delivery manifest, transferable rights and exclusions.",
-        "Review reproducibility, component and security evidence under agreed confidentiality.",
-        "Complete the application-specific qualification, rights review and recipient acceptance."
+        "Freeze the exact first-party research-software edition, delivery manifest and rights.",
+        "Qualify numerical methods and scientific assumptions for the recipient use; software checks do not validate physical claims.",
+        "Review data/component rights and agree independent intended-use and delivery acceptance."
       ],
       "buyerConditions": [],
       "qualificationObjectives": [
@@ -7578,12 +7582,12 @@
       },
       "productDetails": [
         {
-          "title": "Current offered scope",
-          "text": "An independent research-software framework for falsifiable model comparisons, synthetic methodological controls and bounded offline astronomical-data review.",
+          "title": "Offered work and qualification",
+          "text": "An independent research-software framework for declared hypothesis portfolios, source-bound synthetic model comparisons, covariance-aware methodological controls and bounded astronomical-data audits. Source-specific evidence is reviewed under agreed confidentiality; intended-use and recipient acceptance remain separate.",
           "items": [
             "A research-software framework, not a simulation detector or an empirically validated physical theory.",
-            "Synthetic results and source-data audits do not establish new physics, instrument calibration, a shared physical substrate or an external simulator.",
-            "The documented hypothesis families and long-term cross-domain programme are research directions, not a collection of implemented model engines."
+            "Synthetic model comparisons and covariance controls do not establish new physics, a scientifically calibrated null, instrument calibration or an external simulator.",
+            "The broader hypothesis families and cross-domain programme remain research directions; implemented bounded methodology is not a collection of validated physical model engines."
           ]
         }
       ]

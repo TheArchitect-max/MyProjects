@@ -2,11 +2,11 @@
 
 TA-IP-109 | Reference name: Lucinda | Audio, publishing & media
 
-Prepare and review entertainment-satire publishing workflows with editorial timing, controlled release records and a prelaunch site builder.
+Prepare entertainment-satire publishing workflows, review release and operating-cost conditions and rehearse bounded recovery before any separately approved launch.
 
 ## Product overview
 
-A standalone prelaunch publishing-software asset for American-English entertainment satire, editorial workflow, release governance and static output preparation.
+A standalone prelaunch entertainment-satire publishing-software asset with editorial workflows, controlled release records, bounded operating-cost review and offline recovery/rehearsal tooling.
 
 ## Potential acquirers
 
@@ -16,18 +16,18 @@ A standalone prelaunch publishing-software asset for American-English entertainm
 
 ## Documented functions
 
-- Organise editorial desks and draft workflows
-- Review source and publication conditions
-- Plan relevance, rotation and editorial timing
-- Prepare controlled publication and correction records
-- Build a local prelaunch presentation
+- Organise editorial desks, drafts and timing plans
+- Review publication, correction and release conditions
+- Reconcile bounded usage-cost and incident records
+- Review continuity, receipt and replay conditions offline
+- Rehearse prelaunch host planning and synthetic recovery
 
 ## Available output types
 
-- Editorial review records
-- Scheduling and rotation plans
-- Release review packages
-- Static prelaunch output
+- Editorial and release-review packages
+- Usage-cost and incident review reports
+- Continuity and replay records
+- Static prelaunch output and rehearsal reports
 
 ## Current offered position
 
@@ -35,13 +35,13 @@ Prototype. Available as a specifically scoped research or development software a
 
 Available for acquisition discussion.
 
-- Prelaunch software; live publication, licensed news feeds and independent editorial/legal acceptance remain open.
-- Article drafts, brand/domain rights, personal data, operating ledgers and third-party content require separately agreed rights and scope.
-- The portfolio offers the software asset; it does not represent an operating publication, audience, income or legally certified autonomous newsroom.
+- Prelaunch software with offline qualification; live publication, licensed news feeds and independent editorial/legal acceptance remain open.
+- Host-security planning and synthetic recovery rehearsals do not establish an operating server, real encrypted/offsite backups, measured recovery guarantees or production readiness.
+- The software offer excludes an operating publication, audience, income, credentials, personal content and third-party content or domain rights unless separately agreed.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 14,000.
+Seller asking reference: EUR 36,000.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -71,29 +71,29 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: R5.7 prelaunch
+Identified product edition: R5.35 prelaunch
 
 Handover position: Conditional handover
 
-A standalone prelaunch publishing-software asset for American-English entertainment satire, editorial workflow, release governance and static output preparation.
+A standalone prelaunch entertainment-satire publishing-software asset with editorial workflows, controlled release records, bounded operating-cost review and offline recovery/rehearsal tooling.
 
 ### Priced first-party scope
 
-Specifically agreed first-party source, associated documentation and retained software evidence for R5.7 prelaunch. First-party software and agreed templates only. Live operation, source/content licences, an operating business, audience, domain entitlement, model/API usage and independent legal clearance are excluded.
+Specifically agreed first-party implementation and documentation for R5.35 prelaunch. The previously priced editorial, timing, release-registry and site-builder foundations are reused once. Only the added bounded operational, cost, continuity, replay and offline rehearsal software is included. Live hosting, licensed content, real API charges, editorial/legal clearance, real offsite backups and an operating media business are excluded.
 
-### Current offered scope
+### Offered work and qualification
 
-A standalone prelaunch publishing-software asset for American-English entertainment satire, editorial workflow, release governance and static output preparation.
+A standalone prelaunch entertainment-satire publishing-software asset with editorial workflows, controlled release records, bounded operating-cost review and offline recovery/rehearsal tooling. Source-specific evidence is reviewed under agreed confidentiality; intended-use and recipient acceptance remain separate.
 
-- Prelaunch software; live publication, licensed news feeds and independent editorial/legal acceptance remain open.
-- Article drafts, brand/domain rights, personal data, operating ledgers and third-party content require separately agreed rights and scope.
-- The portfolio offers the software asset; it does not represent an operating publication, audience, income or legally certified autonomous newsroom.
+- Prelaunch software with offline qualification; live publication, licensed news feeds and independent editorial/legal acceptance remain open.
+- Host-security planning and synthetic recovery rehearsals do not establish an operating server, real encrypted/offsite backups, measured recovery guarantees or production readiness.
+- The software offer excludes an operating publication, audience, income, credentials, personal content and third-party content or domain rights unless separately agreed.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | P | A standalone prelaunch publishing-software asset for American-English entertainment satire, editorial workflow, release governance and static output preparation. The offered edition and material boundaries govern review. |
+| Technical scope | P | A standalone prelaunch entertainment-satire publishing-software asset with editorial workflows, controlled release records, bounded operating-cost review and offline recovery/rehearsal tooling. The offered edition and material boundaries govern review. |
 | Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
 | Rights and component obligations | R1 | Repository licence file identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
@@ -101,9 +101,9 @@ A standalone prelaunch publishing-software asset for American-English entertainm
 
 ### Conditions before handover
 
-- Freeze the exact first-party edition, delivery manifest, transferable rights and exclusions.
-- Review reproducibility, component and security evidence under agreed confidentiality.
-- Complete the application-specific qualification, rights review and recipient acceptance.
+- Freeze the exact first-party prelaunch software edition, templates, transferable rights and exclusions.
+- Qualify the real host, source/content rights, paid integrations, security and editorial/legal process separately before launch.
+- Agree recipient acceptance and the delivery manifest; offline rehearsal does not authorise publication.
 
 ### Qualification objectives
 
@@ -130,20 +130,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-25. All amounts in EUR. Market value is not established.
+Basis: 2026-10-26. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 14,000 | 15,670 |
-| Negotiation reference - low | 11,000 | 12,312 |
-| Negotiation reference - high | 17,500 | 19,588 |
-| Recreation cost estimate | 46,500 | 52,047 |
-| Marketability cost scenario | 35,573 | 39,817 |
-| Monetisation cost scenario | 32,957 | 36,889 |
-| Risk-adjusted strategic reference | 17,638 | 19,742 |
-| Weighted economic reference | 31,504 | 35,262 |
+| Seller asking reference | 36,000 | 40,277 |
+| Negotiation reference - low | 28,500 | 31,886 |
+| Negotiation reference - high | 45,000 | 50,346 |
+| Recreation cost estimate | 120,000 | 134,256 |
+| Marketability cost scenario | 91,800 | 102,706 |
+| Monetisation cost scenario | 85,050 | 95,154 |
+| Risk-adjusted strategic reference | 45,518 | 50,926 |
+| Weighted economic reference | 81,301 | 90,960 |
 
-USD = EUR × 1.1193, rounded half-up to whole USD. ECB date: 2026-10-23. EUR is authoritative.
+USD = EUR × 1.1188, rounded half-up to whole USD. ECB date: 2026-10-26. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -160,11 +160,11 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The recreation estimate is the lowest explicitly scoped equivalent-effort budget below. It is not recorded expenditure, an absolute cost floor, an independent quotation or an established market value. First-party software and agreed templates only. Live operation, source/content licences, an operating business, audience, domain entitlement, model/API usage and independent legal clearance are excluded.
+The retained expressly priced scope and successive non-overlapping implementation budgets reconcile below. Equivalent effort and historical anchors remain seller assumptions; actual expenditure, independent quotations and market value are not established. The previously priced editorial, timing, release-registry and site-builder foundations are reused once. Only the added bounded operational, cost, continuity, replay and offline rehearsal software is included. Live hosting, licensed content, real API charges, editorial/legal clearance, real offsite backups and an operating media business are excluded.
 
 ### Financial assessment
 
-Stated scope reconciled to explicit budgets. Assessed 2026-10-25.
+Stated scope reconciled to explicit budgets. Assessed 2026-10-26.
 
 The stated scope reconciles to explicit seller work-package budgets. Effort remains assumed; independent quotations, intended-use qualification and market value are not established.
 
@@ -195,6 +195,36 @@ Prelaunch site builder and editorial-workflow foundation; Bounded source intake 
 
 Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. First-party software and agreed templates only. Live operation, source/content licences, an operating business, audience, domain entitlement, model/API usage and independent legal clearance are excluded.
 
+#### Scoped implementation reproduction budget
+
+Release acceptance, recovery and private handover controls; Operational incident and recovery-evidence review; Bounded execution, trust and continuity controls; Usage-cost reconciliation and transport-safety controls; Offline receipt, custody and replay qualification; Single-server prelaunch rehearsal and security planning; Synthetic database backup and recovery rehearsal; Failure-case qualification, instructions and handover.
+
+- Release acceptance, recovery and private handover controls — 72 assumed hours
+- Operational incident and recovery-evidence review — 96 assumed hours
+- Bounded execution, trust and continuity controls — 128 assumed hours
+- Usage-cost reconciliation and transport-safety controls — 104 assumed hours
+- Offline receipt, custody and replay qualification — 80 assumed hours
+- Single-server prelaunch rehearsal and security planning — 72 assumed hours
+- Synthetic database backup and recovery rehearsal — 48 assumed hours
+- Failure-case qualification, instructions and handover — 80 assumed hours
+
+- Assumed hours: 680
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 63,920
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 73,508
+- Effort alternatives / Low hours: 680
+- Effort alternatives / Reference hours: 1020
+- Effort alternatives / Extended hours: 1360
+- Effort alternatives / Low cost: EUR 73,508
+- Effort alternatives / Reference cost: EUR 110,262
+- Effort alternatives / Extended cost: EUR 147,016
+- Adopted recreation increment: EUR 73,500
+- Previous recreation cost: EUR 46,500
+- Current recreation cost: EUR 120,000
+
+Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. The previously priced editorial, timing, release-registry and site-builder foundations are reused once. Only the added bounded operational, cost, continuity, replay and offline rehearsal software is included. Live hosting, licensed content, real API charges, editorial/legal clearance, real offsite backups and an operating media business are excluded.
+
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
@@ -205,13 +235,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1193; ECB 2026-10-23. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1188; ECB 2026-10-26. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "P", "potential": "M", "sector": "Media & Creator Technology", "route": "Media / creator software"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc5
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc6
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/gossquibble/#calculation
 

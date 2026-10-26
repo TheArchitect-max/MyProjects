@@ -141,16 +141,16 @@ Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 201,500 | 225,539 |
-| Negotiation reference - low | 161,000 | 180,207 |
-| Negotiation reference - high | 252,000 | 282,064 |
-| Recreation cost estimate | 1,158,500 | 1,296,709 |
-| Marketability cost scenario | 1,245,677 | 1,394,286 |
-| Monetisation cost scenario | 1,348,928 | 1,509,855 |
-| Risk-adjusted strategic reference | 1,044,439 | 1,169,041 |
-| Weighted economic reference | 1,174,100 | 1,314,170 |
+| Seller asking reference | 201,500 | 225,438 |
+| Negotiation reference - low | 161,000 | 180,127 |
+| Negotiation reference - high | 252,000 | 281,938 |
+| Recreation cost estimate | 1,158,500 | 1,296,130 |
+| Marketability cost scenario | 1,245,677 | 1,393,663 |
+| Monetisation cost scenario | 1,348,928 | 1,509,181 |
+| Risk-adjusted strategic reference | 1,044,439 | 1,168,518 |
+| Weighted economic reference | 1,174,100 | 1,313,583 |
 
-USD = EUR × 1.1193, rounded half-up to whole USD. ECB date: 2026-10-23. EUR is authoritative.
+USD = EUR × 1.1188, rounded half-up to whole USD. ECB date: 2026-10-26. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -213,13 +213,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1193; ECB 2026-10-23. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1188; ECB 2026-10-26. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "P", "potential": "H", "sector": "AI, Decision & Knowledge Systems", "route": "Enterprise software / licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc5
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc6
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/adaptive-systems-intelligence-platform/#calculation
 
