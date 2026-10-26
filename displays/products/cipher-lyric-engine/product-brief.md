@@ -2,32 +2,32 @@
 
 TA-IP-021 | Reference name: Livia | Audio, publishing & media
 
-Develop lyrics, review revision proposals and manage a controlled songwriting workflow with traceable project history.
+Develop lyrics, review revision proposals and prepare controlled recovery, migration and deployment evaluations for a defined songwriting workflow.
 
 ## Product overview
 
-Songwriting software with a controlled customer workspace, evidence-linked revision, asynchronous assistance and deployment/recovery controls.
+Songwriting software for controlled lyric development, evidence-linked revision, recoverable customer workflows and bounded deployment qualification.
 
 ## Potential acquirers
 
-- Songwriting software vendors
-- Music production teams
-- Creative-tool developers
+- Music and creator-software vendors
+- Songwriting and publishing businesses
+- Private creative-workflow operators
 
 ## Documented functions
 
-- Review deterministic lyric and project checks
-- Prepare and explicitly accept revision proposals
-- Use a controlled customer workspace
-- Manage metered assistance and recover prior work
-- Prepare bounded deployment and recovery packages
+- Develop lyric projects and review explicit revision proposals
+- Manage controlled metered assistance and recover prior work
+- Review synthetic migration and recovery rehearsals
+- Evaluate bounded hosting, ingress and local runtime conditions
+- Prepare compatibility and recipient-acceptance evidence
 
 ## Available output types
 
-- Lyric projects
-- Revision proposals and comparisons
-- Review reports
-- Recovery and delivery packages
+- Lyric projects and revision comparisons
+- Controlled workflow records
+- Migration and recovery review packages
+- Deployment and compatibility assessments
 
 ## Current offered position
 
@@ -36,12 +36,12 @@ Developed software. Developed research or product software within the identified
 Available for acquisition discussion.
 
 - Software checks do not establish artistic merit, originality, commercial success or rights clearance.
-- Third-party model, payment, email and hosting services require separate entitlements and acceptance.
-- Version 3.24.0 is development scope; independent database, browser and production-security acceptance remain separate.
+- Recorded software qualification covers its identified disposable test scope; the current compatibility candidate is not a production-qualified service.
+- Live integrations, tenant migration, keys, hosting security and recipient acceptance require separate qualification.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 314,500.
+Seller asking reference: EUR 325,500.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -71,31 +71,31 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 3.23.0 accepted / 3.24.0 development
+Identified product edition: 3.30.0 scoped qualification / 3.31.0 development
 
 Handover position: Conditional handover
 
-Songwriting software with a controlled customer workspace, evidence-linked revision, asynchronous assistance and deployment/recovery controls.
+Songwriting software for controlled lyric development, evidence-linked revision, recoverable customer workflows and bounded deployment qualification.
 
-Separately scoped development: Implemented 3.24.0 deployment controls are available as a separately identified development edition; independent acceptance remains open.
+Separately scoped development: The compatibility-matrix tooling is implemented development scope. Full acceptance across the declared Python runtimes remains open.
 
 ### Priced first-party scope
 
-Specifically agreed first-party implementation and documentation for 3.23.0 accepted / 3.24.0 development. Detailed source, rights, components and acceptance evidence are reviewed under agreed confidentiality.
+Specifically agreed first-party implementation and documentation for 3.30.0 scoped qualification / 3.31.0 development. The previously priced songwriting, workspace, recovery and role-isolation foundations are reused once. Only the added migration-inventory/rehearsal, staging, ingress and compatibility work is included. Actual hosting, paid services, customer-data migration, live model/payment/email integrations and independent production acceptance are excluded.
 
-### Evaluation and acceptance
+### Offered work and qualification
 
-Retained software evidence applies to its identified source and tested scope. Detailed reproducibility and delivery evidence is reviewed through agreed confidential diligence.
+Songwriting software for controlled lyric development, evidence-linked revision, recoverable customer workflows and bounded deployment qualification. Source-specific evidence is reviewed under agreed confidentiality; intended-use and recipient acceptance remain separate.
 
 - Software checks do not establish artistic merit, originality, commercial success or rights clearance.
-- Third-party model, payment, email and hosting services require separate entitlements and acceptance.
-- Version 3.24.0 is development scope; independent database, browser and production-security acceptance remain separate.
+- Recorded software qualification covers its identified disposable test scope; the current compatibility candidate is not a production-qualified service.
+- Live integrations, tenant migration, keys, hosting security and recipient acceptance require separate qualification.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | V | Songwriting software with a controlled customer workspace, evidence-linked revision, asynchronous assistance and deployment/recovery controls. The offered edition and material boundaries govern review. |
+| Technical scope | V | Songwriting software for controlled lyric development, evidence-linked revision, recoverable customer workflows and bounded deployment qualification. The offered edition and material boundaries govern review. |
 | Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
 | Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
@@ -103,11 +103,9 @@ Retained software evidence applies to its identified source and tested scope. De
 
 ### Conditions before handover
 
-- Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
-- A detailed component inventory and licensing report are required for the agreed delivery scope.
-- A security assessment or an explicit statement of its absence is required before acceptance.
-- Release identity and provenance evidence remain incomplete.
-- An explicit delivery manifest and handover scope remain to be agreed.
+- Agree the exact qualified baseline and development-candidate delivery scope.
+- Complete compatibility, integration, operator/security and recipient acceptance for the intended environment.
+- Review component obligations, transferable rights and the final delivery manifest.
 
 ### Qualification objectives
 
@@ -143,20 +141,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-25. All amounts in EUR. Market value is not established.
+Basis: 2026-10-26. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 314,500 | 352,020 |
-| Negotiation reference - low | 251,500 | 281,504 |
-| Negotiation reference - high | 393,000 | 439,885 |
-| Recreation cost estimate | 1,048,000 | 1,173,026 |
-| Marketability cost scenario | 1,205,200 | 1,348,980 |
-| Monetisation cost scenario | 1,485,540 | 1,662,765 |
-| Risk-adjusted strategic reference | 1,215,970 | 1,361,035 |
-| Weighted economic reference | 1,225,738 | 1,371,969 |
+| Seller asking reference | 325,500 | 364,169 |
+| Negotiation reference - low | 260,000 | 290,888 |
+| Negotiation reference - high | 406,500 | 454,792 |
+| Recreation cost estimate | 1,084,000 | 1,212,779 |
+| Marketability cost scenario | 1,246,600 | 1,394,696 |
+| Monetisation cost scenario | 1,536,570 | 1,719,115 |
+| Risk-adjusted strategic reference | 1,257,740 | 1,407,160 |
+| Weighted economic reference | 1,267,843 | 1,418,463 |
 
-USD = EUR × 1.1193, rounded half-up to whole USD. ECB date: 2026-10-23. EUR is authoritative.
+USD = EUR × 1.1188, rounded half-up to whole USD. ECB date: 2026-10-26. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -173,11 +171,11 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The retained expressly priced scope and successive non-overlapping implementation budgets reconcile below. Equivalent effort and historical anchors remain seller assumptions; actual expenditure, independent quotations and market value are not established. The previously priced lyric, generation, API and evidence foundations are reused once. Live services, payment processing, licensed models, artistic/legal clearance and future production acceptance are excluded.
+The retained expressly priced scope and successive non-overlapping implementation budgets reconcile below. Equivalent effort and historical anchors remain seller assumptions; actual expenditure, independent quotations and market value are not established. The previously priced songwriting, workspace, recovery and role-isolation foundations are reused once. Only the added migration-inventory/rehearsal, staging, ingress and compatibility work is included. Actual hosting, paid services, customer-data migration, live model/payment/email integrations and independent production acceptance are excluded.
 
 ### Financial assessment
 
-Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-25.
+Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-26.
 
 Explicit budgets cover part of the estimate. The retained anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
@@ -210,6 +208,33 @@ Customer workspace and consent-based lyric review; Metered asynchronous revision
 
 Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. The previously priced lyric, generation, API and evidence foundations are reused once. Live services, payment processing, licensed models, artistic/legal clearance and future production acceptance are excluded.
 
+#### Scoped implementation reproduction budget
+
+Offline staging eligibility and runtime compatibility controls; Source-to-destination migration inventory and disposable dual-database rehearsal; Bounded hosting and ingress planning; Local HTTP boundary integration and rejection controls; Compatibility-matrix tooling and handover documentation.
+
+- Offline staging eligibility and runtime compatibility controls — 64 assumed hours
+- Source-to-destination migration inventory and disposable dual-database rehearsal — 96 assumed hours
+- Bounded hosting and ingress planning — 48 assumed hours
+- Local HTTP boundary integration and rejection controls — 80 assumed hours
+- Compatibility-matrix tooling and handover documentation — 48 assumed hours
+
+- Assumed hours: 336
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 31,584
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 36,321.6
+- Effort alternatives / Low hours: 336
+- Effort alternatives / Reference hours: 504
+- Effort alternatives / Extended hours: 672
+- Effort alternatives / Low cost: EUR 36,321.6
+- Effort alternatives / Reference cost: EUR 54,482.4
+- Effort alternatives / Extended cost: EUR 72,643.2
+- Adopted recreation increment: EUR 36,000
+- Previous recreation cost: EUR 1,048,000
+- Current recreation cost: EUR 1,084,000
+
+Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. The previously priced songwriting, workspace, recovery and role-isolation foundations are reused once. Only the added migration-inventory/rehearsal, staging, ingress and compatibility work is included. Actual hosting, paid services, customer-data migration, live model/payment/email integrations and independent production acceptance are excluded.
+
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
@@ -220,13 +245,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1193; ECB 2026-10-23. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1188; ECB 2026-10-26. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "V", "potential": "H", "sector": "Media & Creator Technology", "route": "Media / creator software"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc5
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc6
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/cipher-lyric-engine/#calculation
 

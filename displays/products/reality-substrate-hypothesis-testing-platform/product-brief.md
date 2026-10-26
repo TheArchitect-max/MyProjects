@@ -2,11 +2,11 @@
 
 TA-IP-110 | Reference name: Urania | Physics, mathematics & optimisation
 
-Compare explicitly defined research hypotheses through controlled synthetic experiments, frozen model comparisons and bounded source-data audits.
+Define bounded research hypotheses, compare source-bound synthetic models and review covariance-aware methodological evidence with explicit scientific limits.
 
 ## Product overview
 
-An independent research-software framework for falsifiable model comparisons, synthetic methodological controls and bounded offline astronomical-data review.
+An independent research-software framework for declared hypothesis portfolios, source-bound synthetic model comparisons, covariance-aware methodological controls and bounded astronomical-data audits.
 
 ## Potential acquirers
 
@@ -17,19 +17,17 @@ An independent research-software framework for falsifiable model comparisons, sy
 ## Documented functions
 
 - Run clearly labelled synthetic methodological experiments
-- Declare and register bounded model-neutral hypotheses
-- Freeze model comparisons and review declared decisions
-- Compare bounded cross-domain toy predictions
-- Audit supported local astronomical metadata and files
-- Reproduce and verify software evidence packages
+- Declare bounded hypothesis portfolios and prediction provenance
+- Review dimension-qualified synthetic model comparisons
+- Compare fixed models using declared covariance assumptions
+- Audit supported local astronomical files and replay evidence
 
 ## Available output types
 
-- Synthetic experiment reports
-- Locked comparison records
-- Source-data audit summaries
+- Synthetic experiment and model-comparison reports
+- Hypothesis and prediction records
+- Statistical-method and source-data audit summaries
 - Reproducibility packages
-- Hypothesis declaration records
 
 ## Current offered position
 
@@ -38,12 +36,12 @@ Research software. Available as a specifically scoped research or development so
 Available for acquisition discussion.
 
 - A research-software framework, not a simulation detector or an empirically validated physical theory.
-- Synthetic results and source-data audits do not establish new physics, instrument calibration, a shared physical substrate or an external simulator.
-- The documented hypothesis families and long-term cross-domain programme are research directions, not a collection of implemented model engines.
+- Synthetic model comparisons and covariance controls do not establish new physics, a scientifically calibrated null, instrument calibration or an external simulator.
+- The broader hypothesis families and cross-domain programme remain research directions; implemented bounded methodology is not a collection of validated physical model engines.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 11,000.
+Seller asking reference: EUR 14,500.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -73,31 +71,29 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 0.15.0 development
+Identified product edition: 0.18.0
 
 Handover position: Conditional handover
 
-An independent research-software framework for falsifiable model comparisons, synthetic methodological controls and bounded offline astronomical-data review.
-
-Separately scoped development: The current release adds a limited model-neutral hypothesis-declaration registry; independent full-release acceptance remains a separate gate.
+An independent research-software framework for declared hypothesis portfolios, source-bound synthetic model comparisons, covariance-aware methodological controls and bounded astronomical-data audits.
 
 ### Priced first-party scope
 
-Specifically agreed first-party source, associated documentation and retained software evidence for 0.15.0 development. First-party research software only. Empirical discoveries, physical theories, instrument calibration, third-party datasets, external Fermitools qualification and future model engines are excluded.
+Specifically agreed first-party implementation and documentation for 0.18.0. The previously priced synthetic experiments, astronomical-file audits, replay and hypothesis registry are reused once. Only the added bounded portfolio, dimension/source checks and covariance-aware synthetic comparison software is included. Empirical discoveries, physical theories, calibrated instrument response, third-party datasets and future model engines are excluded.
 
-### Current offered scope
+### Offered work and qualification
 
-An independent research-software framework for falsifiable model comparisons, synthetic methodological controls and bounded offline astronomical-data review.
+An independent research-software framework for declared hypothesis portfolios, source-bound synthetic model comparisons, covariance-aware methodological controls and bounded astronomical-data audits. Source-specific evidence is reviewed under agreed confidentiality; intended-use and recipient acceptance remain separate.
 
 - A research-software framework, not a simulation detector or an empirically validated physical theory.
-- Synthetic results and source-data audits do not establish new physics, instrument calibration, a shared physical substrate or an external simulator.
-- The documented hypothesis families and long-term cross-domain programme are research directions, not a collection of implemented model engines.
+- Synthetic model comparisons and covariance controls do not establish new physics, a scientifically calibrated null, instrument calibration or an external simulator.
+- The broader hypothesis families and cross-domain programme remain research directions; implemented bounded methodology is not a collection of validated physical model engines.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | R | An independent research-software framework for falsifiable model comparisons, synthetic methodological controls and bounded offline astronomical-data review. The offered edition and material boundaries govern review. |
+| Technical scope | R | An independent research-software framework for declared hypothesis portfolios, source-bound synthetic model comparisons, covariance-aware methodological controls and bounded astronomical-data audits. The offered edition and material boundaries govern review. |
 | Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
 | Rights and component obligations | R1 | Repository licence file identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
@@ -105,9 +101,9 @@ An independent research-software framework for falsifiable model comparisons, sy
 
 ### Conditions before handover
 
-- Freeze the exact first-party edition, delivery manifest, transferable rights and exclusions.
-- Review reproducibility, component and security evidence under agreed confidentiality.
-- Complete the application-specific qualification, rights review and recipient acceptance.
+- Freeze the exact first-party research-software edition, delivery manifest and rights.
+- Qualify numerical methods and scientific assumptions for the recipient use; software checks do not validate physical claims.
+- Review data/component rights and agree independent intended-use and delivery acceptance.
 
 ### Qualification objectives
 
@@ -134,20 +130,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-25. All amounts in EUR. Market value is not established.
+Basis: 2026-10-26. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 11,000 | 12,312 |
-| Negotiation reference - low | 9,000 | 10,074 |
-| Negotiation reference - high | 14,000 | 15,670 |
-| Recreation cost estimate | 37,000 | 41,414 |
-| Marketability cost scenario | 14,310 | 16,017 |
-| Monetisation cost scenario | 9,435 | 10,561 |
-| Risk-adjusted strategic reference | 2,924 | 3,273 |
-| Weighted economic reference | 15,022 | 16,814 |
+| Seller asking reference | 14,500 | 16,223 |
+| Negotiation reference - low | 12,000 | 13,426 |
+| Negotiation reference - high | 18,500 | 20,698 |
+| Recreation cost estimate | 49,500 | 55,381 |
+| Marketability cost scenario | 19,144 | 21,418 |
+| Monetisation cost scenario | 12,623 | 14,123 |
+| Risk-adjusted strategic reference | 3,912 | 4,377 |
+| Weighted economic reference | 20,098 | 22,486 |
 
-USD = EUR × 1.1193, rounded half-up to whole USD. ECB date: 2026-10-23. EUR is authoritative.
+USD = EUR × 1.1188, rounded half-up to whole USD. ECB date: 2026-10-26. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -164,11 +160,11 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The recreation estimate is the lowest explicitly scoped equivalent-effort budget below. It is not recorded expenditure, an absolute cost floor, an independent quotation or an established market value. First-party research software only. Empirical discoveries, physical theories, instrument calibration, third-party datasets, external Fermitools qualification and future model engines are excluded.
+The retained expressly priced scope and successive non-overlapping implementation budgets reconcile below. Equivalent effort and historical anchors remain seller assumptions; actual expenditure, independent quotations and market value are not established. The previously priced synthetic experiments, astronomical-file audits, replay and hypothesis registry are reused once. Only the added bounded portfolio, dimension/source checks and covariance-aware synthetic comparison software is included. Empirical discoveries, physical theories, calibrated instrument response, third-party datasets and future model engines are excluded.
 
 ### Financial assessment
 
-Stated scope reconciled to explicit budgets. Assessed 2026-10-25.
+Stated scope reconciled to explicit budgets. Assessed 2026-10-26.
 
 The stated scope reconciles to explicit seller work-package budgets. Effort remains assumed; independent quotations, intended-use qualification and market value are not established.
 
@@ -200,6 +196,32 @@ Synthetic experiment and methodological-control foundation; Frozen single-design
 
 Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. First-party research software only. Empirical discoveries, physical theories, instrument calibration, third-party datasets, external Fermitools qualification and future model engines are excluded.
 
+#### Scoped implementation reproduction budget
+
+Bounded model portfolios and prediction-source records; Dimension-qualified synthetic model comparisons; Covariance-aware fixed-model discrimination controls; Adversarial replay qualification and documentation.
+
+- Bounded model portfolios and prediction-source records — 32 assumed hours
+- Dimension-qualified synthetic model comparisons — 32 assumed hours
+- Covariance-aware fixed-model discrimination controls — 32 assumed hours
+- Adversarial replay qualification and documentation — 24 assumed hours
+
+- Assumed hours: 120
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 11,280
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 12,972
+- Effort alternatives / Low hours: 120
+- Effort alternatives / Reference hours: 180
+- Effort alternatives / Extended hours: 240
+- Effort alternatives / Low cost: EUR 12,972
+- Effort alternatives / Reference cost: EUR 19,458
+- Effort alternatives / Extended cost: EUR 25,944
+- Adopted recreation increment: EUR 12,500
+- Previous recreation cost: EUR 37,000
+- Current recreation cost: EUR 49,500
+
+Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. The previously priced synthetic experiments, astronomical-file audits, replay and hypothesis registry are reused once. Only the added bounded portfolio, dimension/source checks and covariance-aware synthetic comparison software is included. Empirical discoveries, physical theories, calibrated instrument response, third-party datasets and future model engines are excluded.
+
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
@@ -210,13 +232,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1193; ECB 2026-10-23. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1188; ECB 2026-10-26. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "R", "potential": "S", "sector": "Research & Scientific Software", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc5
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc6
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/reality-substrate-hypothesis-testing-platform/#calculation
 

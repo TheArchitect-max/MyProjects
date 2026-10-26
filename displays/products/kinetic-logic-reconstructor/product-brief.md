@@ -92,7 +92,7 @@ Seller-owned first-party rights plus specifically agreed transferable software/d
 
 - Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
 - A detailed component inventory and licensing report are required for the agreed delivery scope.
-- Review potential sensitive filenames before transfer: scripts/scan_secrets.py, src/klr/security/secret_scan.py
+- Review confidential security and credential-handling materials within the agreed diligence and transfer scope.
 
 ### Qualification objectives
 
@@ -132,16 +132,16 @@ Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 95,000 | 106,334 |
-| Negotiation reference - low | 75,000 | 83,948 |
-| Negotiation reference - high | 120,000 | 134,316 |
-| Recreation cost estimate | 600,000 | 671,580 |
-| Marketability cost scenario | 645,150 | 722,116 |
-| Monetisation cost scenario | 698,625 | 781,971 |
-| Risk-adjusted strategic reference | 540,927 | 605,460 |
-| Weighted economic reference | 608,079 | 680,623 |
+| Seller asking reference | 95,000 | 106,286 |
+| Negotiation reference - low | 75,000 | 83,910 |
+| Negotiation reference - high | 120,000 | 134,256 |
+| Recreation cost estimate | 600,000 | 671,280 |
+| Marketability cost scenario | 645,150 | 721,794 |
+| Monetisation cost scenario | 698,625 | 781,622 |
+| Risk-adjusted strategic reference | 540,927 | 605,189 |
+| Weighted economic reference | 608,079 | 680,319 |
 
-USD = EUR × 1.1193, rounded half-up to whole USD. ECB date: 2026-10-23. EUR is authoritative.
+USD = EUR × 1.1188, rounded half-up to whole USD. ECB date: 2026-10-26. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -178,13 +178,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1193; ECB 2026-10-23. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1188; ECB 2026-10-26. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "P", "potential": "H", "sector": "AI, Decision & Knowledge Systems", "route": "Enterprise software / licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc5
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc6
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/kinetic-logic-reconstructor/#calculation
 

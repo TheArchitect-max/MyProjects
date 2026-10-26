@@ -1,6 +1,6 @@
 {
   "schema": "public-pricing-1",
-  "basisDate": "2026-10-25",
+  "basisDate": "2026-10-26",
   "currency": "EUR",
   "statement": "Seller asking references and engineering-equivalent cost scenarios for the defined AS IS assets. Market value is not established. Selected cost estimates are seller assumptions, distinct from actual expenditure and an absolute minimum cost.",
   "fields": [
@@ -46,20 +46,20 @@
     }
   ],
   "portfolio": {
-    "sellerAskEUR": 24798000,
-    "negotiationLowEUR": 19808000,
-    "negotiationHighEUR": 31078375,
-    "replacementCostEUR": 105608500,
-    "marketComparableProxyEUR": 119978792,
-    "incomeLicensingProxyEUR": 141136107,
-    "probabilityAdjustedStrategicValueEUR": 131732534,
-    "triangulatedEconomicReferenceEUR": 124731494
+    "sellerAskEUR": 24845500,
+    "negotiationLowEUR": 19845500,
+    "negotiationHighEUR": 31137375,
+    "replacementCostEUR": 105776000,
+    "marketComparableProxyEUR": 120135663,
+    "incomeLicensingProxyEUR": 141310510,
+    "probabilityAdjustedStrategicValueEUR": 131870211,
+    "triangulatedEconomicReferenceEUR": 124887811
   },
   "displayCurrency": {
     "base": "EUR",
     "quote": "USD",
-    "rate": 1.1193,
-    "date": "2026-10-23",
+    "rate": 1.1188,
+    "date": "2026-10-26",
     "sourceId": "ECB-FX",
     "rounding": "Each EUR amount is converted at the disclosed rate and rounded half-up to the nearest whole USD. Portfolio USD totals convert the EUR portfolio total; summing individually rounded USD amounts can differ."
   },
@@ -71,7 +71,7 @@
       "url": "https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html",
       "finding": "Cost-based reproduction/replacement is a starting point; cost and negotiated value may differ.",
       "application": "Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.",
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-26"
     },
     {
       "id": "KNAB-2026",
@@ -80,7 +80,7 @@
       "url": "https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst",
       "finding": "Reported 2026 mean software-developer rate: EUR 94/hour excluding VAT; broader survey includes over 20,000 Dutch self-employed people.",
       "application": "External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.",
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-26"
     },
     {
       "id": "UPWORK-RATES",
@@ -96,9 +96,9 @@
       "publisher": "European Central Bank",
       "title": "Euro reference exchange rate - US dollar",
       "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
-      "finding": "Retrieved dated observation: 23 October 2026, EUR 1 = USD 1.1193. Indicative display conversion only.",
+      "finding": "Retrieved dated observation: 26 October 2026, EUR 1 = USD 1.1188. Indicative display conversion only.",
       "application": "Indicative USD display conversion only; authoritative project references remain in EUR.",
-      "checkedOn": "2026-10-25"
+      "checkedOn": "2026-10-26"
     },
     {
       "id": "IVSC-STANDARDS",
@@ -246,13 +246,13 @@
     "calculationPolicy": "Recalculate the four cost-model outputs for each asset from the disclosed inputs. Apply Math.round to each non-negative whole-EUR scenario, then calculate and round the weighted blend from those rounded scenarios. Asking prices, negotiation bounds and recreation estimates are disclosed seller inputs, not independently validated market values. An unlisted sector or route retains the original neutral factor 1 and is explicitly identified in the calculation trace.",
     "factorCalibration": "All maturity, potential, marketability, commercialisation, rights reserve, sector and route factors are seller-selected scenario assumptions. Their numeric values are not independently calibrated success probabilities, transaction discounts or measured market observations.",
     "reassessment": {
-      "assessedOn": "2026-10-25",
+      "assessedOn": "2026-10-26",
       "assetsReviewed": 110,
-      "basis": "All 113 repository heads reconciled against the preceding inventory: 110 standalone assets and three publication repositories. Two new source trees and three changed asset trees reviewed against their actual implementation and qualification boundaries.",
-      "runtimeBoundary": "Fresh local CPU checks cover the new and changed source trees, with exact results and environment limits retained for confidential review. Developer checks do not establish independent scientific, legal, live-service, browser/device or production acceptance.",
+      "basis": "All 113 current repository heads reconciled: 110 standalone assets and three publication repositories. Five changed asset source trees reviewed against the previous inventory; no additional standalone source repository identified.",
+      "runtimeBoundary": "Current local software checks and retained source-specific evidence are reviewed separately. Exact numerical replay and downstream experiment qualification remain open in one local environment for the neural-research asset; qualified CPU evidence applies only to its recorded environments. Developer checks do not establish independent scientific, legal, live-service or production acceptance.",
       "budgetCoverage": {
-        "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN": 62,
-        "PARTIAL_SCOPED_BUDGET": 35,
+        "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN": 61,
+        "PARTIAL_SCOPED_BUDGET": 36,
         "FULL_SCOPED_BUDGET": 13
       },
       "budgetCoverageBoundary": "Coverage describes the arithmetic and stated scope of seller budgets, not external price validation or whole-product production acceptance.",
@@ -290,8 +290,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 589108,
-        "sensitivityDeltaUSD": 113135
+        "milestoneConditionedEconomicReferenceUSD": 588845,
+        "sensitivityDeltaUSD": 113085
       },
       "calculationInputs": {
         "stage": "P",
@@ -300,14 +300,14 @@
         "route": "Media / creator software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 89544,
-        "negotiationLowUSD": 72755,
-        "negotiationHighUSD": 111930,
-        "replacementCostUSD": 503685,
-        "marketComparableProxyUSD": 492352,
-        "incomeLicensingProxyUSD": 535480,
-        "probabilityAdjustedStrategicValueUSD": 412814,
-        "triangulatedEconomicReferenceUSD": 475972
+        "sellerAskUSD": 89504,
+        "negotiationLowUSD": 72722,
+        "negotiationHighUSD": 111880,
+        "replacementCostUSD": 503460,
+        "marketComparableProxyUSD": 492132,
+        "incomeLicensingProxyUSD": 535241,
+        "probabilityAdjustedStrategicValueUSD": 412629,
+        "triangulatedEconomicReferenceUSD": 475760
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -357,8 +357,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 785478,
-        "sensitivityDeltaUSD": 150848
+        "milestoneConditionedEconomicReferenceUSD": 785127,
+        "sensitivityDeltaUSD": 150781
       },
       "calculationInputs": {
         "stage": "P",
@@ -367,14 +367,14 @@
         "route": "Media / creator software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 106334,
-        "negotiationLowUSD": 83948,
-        "negotiationHighUSD": 134316,
-        "replacementCostUSD": 671580,
-        "marketComparableProxyUSD": 656469,
-        "incomeLicensingProxyUSD": 713973,
-        "probabilityAdjustedStrategicValueUSD": 550418,
-        "triangulatedEconomicReferenceUSD": 634630
+        "sellerAskUSD": 106286,
+        "negotiationLowUSD": 83910,
+        "negotiationHighUSD": 134256,
+        "replacementCostUSD": 671280,
+        "marketComparableProxyUSD": 656176,
+        "incomeLicensingProxyUSD": 713655,
+        "probabilityAdjustedStrategicValueUSD": 550172,
+        "triangulatedEconomicReferenceUSD": 634346
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -429,14 +429,14 @@
         "route": "Media / creator software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 475703,
-        "negotiationLowUSD": 380562,
-        "negotiationHighUSD": 598826,
-        "replacementCostUSD": 2014740,
-        "marketComparableProxyUSD": 2316951,
-        "incomeLicensingProxyUSD": 2855894,
-        "probabilityAdjustedStrategicValueUSD": 2337656,
-        "triangulatedEconomicReferenceUSD": 2356433
+        "sellerAskUSD": 475490,
+        "negotiationLowUSD": 380392,
+        "negotiationHighUSD": 598558,
+        "replacementCostUSD": 2013840,
+        "marketComparableProxyUSD": 2315916,
+        "incomeLicensingProxyUSD": 2854618,
+        "probabilityAdjustedStrategicValueUSD": 2336612,
+        "triangulatedEconomicReferenceUSD": 2355381
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -491,14 +491,14 @@
         "route": "Vertical SaaS / specialist software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 335790,
-        "negotiationLowUSD": 268632,
-        "negotiationHighUSD": 419738,
-        "replacementCostUSD": 1343160,
-        "marketComparableProxyUSD": 1544634,
-        "incomeLicensingProxyUSD": 1994593,
-        "probabilityAdjustedStrategicValueUSD": 1558437,
-        "triangulatedEconomicReferenceUSD": 1589088
+        "sellerAskUSD": 335640,
+        "negotiationLowUSD": 268512,
+        "negotiationHighUSD": 419550,
+        "replacementCostUSD": 1342560,
+        "marketComparableProxyUSD": 1543944,
+        "incomeLicensingProxyUSD": 1993702,
+        "probabilityAdjustedStrategicValueUSD": 1557741,
+        "triangulatedEconomicReferenceUSD": 1588378
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -591,14 +591,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 254641,
-        "negotiationLowUSD": 203713,
-        "negotiationHighUSD": 317322,
-        "replacementCostUSD": 962598,
-        "marketComparableProxyUSD": 1217686,
-        "incomeLicensingProxyUSD": 1104581,
-        "probabilityAdjustedStrategicValueUSD": 1228568,
-        "triangulatedEconomicReferenceUSD": 1135102
+        "sellerAskUSD": 254527,
+        "negotiationLowUSD": 203622,
+        "negotiationHighUSD": 317180,
+        "replacementCostUSD": 962168,
+        "marketComparableProxyUSD": 1217143,
+        "incomeLicensingProxyUSD": 1104088,
+        "probabilityAdjustedStrategicValueUSD": 1228019,
+        "triangulatedEconomicReferenceUSD": 1134595
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -648,8 +648,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 1386287,
-        "sensitivityDeltaUSD": 364177
+        "milestoneConditionedEconomicReferenceUSD": 1385667,
+        "sensitivityDeltaUSD": 364014
       },
       "calculationInputs": {
         "stage": "R",
@@ -658,14 +658,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 89544,
-        "negotiationLowUSD": 72755,
-        "negotiationHighUSD": 111930,
-        "replacementCostUSD": 1455090,
-        "marketComparableProxyUSD": 1196448,
-        "incomeLicensingProxyUSD": 834858,
-        "probabilityAdjustedStrategicValueUSD": 720219,
-        "triangulatedEconomicReferenceUSD": 1022110
+        "sellerAskUSD": 89504,
+        "negotiationLowUSD": 72722,
+        "negotiationHighUSD": 111880,
+        "replacementCostUSD": 1454440,
+        "marketComparableProxyUSD": 1195913,
+        "incomeLicensingProxyUSD": 834485,
+        "probabilityAdjustedStrategicValueUSD": 719897,
+        "triangulatedEconomicReferenceUSD": 1021653
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -715,8 +715,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 1319885,
-        "sensitivityDeltaUSD": 253510
+        "milestoneConditionedEconomicReferenceUSD": 1319296,
+        "sensitivityDeltaUSD": 253397
       },
       "calculationInputs": {
         "stage": "P",
@@ -725,14 +725,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 212667,
-        "negotiationLowUSD": 167895,
-        "negotiationHighUSD": 268632,
-        "replacementCostUSD": 1119300,
-        "marketComparableProxyUSD": 1203527,
-        "incomeLicensingProxyUSD": 963298,
-        "probabilityAdjustedStrategicValueUSD": 1009099,
-        "triangulatedEconomicReferenceUSD": 1066375
+        "sellerAskUSD": 212572,
+        "negotiationLowUSD": 167820,
+        "negotiationHighUSD": 268512,
+        "replacementCostUSD": 1118800,
+        "marketComparableProxyUSD": 1202990,
+        "incomeLicensingProxyUSD": 962867,
+        "probabilityAdjustedStrategicValueUSD": 1008649,
+        "triangulatedEconomicReferenceUSD": 1065899
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -825,8 +825,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 1634121,
-        "sensitivityDeltaUSD": 319951
+        "milestoneConditionedEconomicReferenceUSD": 1633391,
+        "sensitivityDeltaUSD": 319808
       },
       "calculationInputs": {
         "stage": "P",
@@ -835,14 +835,14 @@
         "route": "Enterprise software / licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 225539,
-        "negotiationLowUSD": 180207,
-        "negotiationHighUSD": 282064,
-        "replacementCostUSD": 1296709,
-        "marketComparableProxyUSD": 1394286,
-        "incomeLicensingProxyUSD": 1509855,
-        "probabilityAdjustedStrategicValueUSD": 1169041,
-        "triangulatedEconomicReferenceUSD": 1314170
+        "sellerAskUSD": 225438,
+        "negotiationLowUSD": 180127,
+        "negotiationHighUSD": 281938,
+        "replacementCostUSD": 1296130,
+        "marketComparableProxyUSD": 1393663,
+        "incomeLicensingProxyUSD": 1509181,
+        "probabilityAdjustedStrategicValueUSD": 1168518,
+        "triangulatedEconomicReferenceUSD": 1313583
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -930,8 +930,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 375122,
-        "sensitivityDeltaUSD": 57338
+        "milestoneConditionedEconomicReferenceUSD": 374955,
+        "sensitivityDeltaUSD": 57313
       },
       "calculationInputs": {
         "stage": "P",
@@ -940,14 +940,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 62681,
-        "negotiationLowUSD": 50928,
-        "negotiationHighUSD": 79470,
-        "replacementCostUSD": 510960,
-        "marketComparableProxyUSD": 351796,
-        "incomeLicensingProxyUSD": 293164,
-        "probabilityAdjustedStrategicValueUSD": 174433,
-        "triangulatedEconomicReferenceUSD": 317784
+        "sellerAskUSD": 62653,
+        "negotiationLowUSD": 50905,
+        "negotiationHighUSD": 79435,
+        "replacementCostUSD": 510732,
+        "marketComparableProxyUSD": 351639,
+        "incomeLicensingProxyUSD": 293033,
+        "probabilityAdjustedStrategicValueUSD": 174355,
+        "triangulatedEconomicReferenceUSD": 317642
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -1044,14 +1044,14 @@
         "route": "Private deployment / enterprise licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 396792,
-        "negotiationLowUSD": 317322,
-        "negotiationHighUSD": 498648,
-        "replacementCostUSD": 1303985,
-        "marketComparableProxyUSD": 2151574,
-        "incomeLicensingProxyUSD": 2868766,
-        "probabilityAdjustedStrategicValueUSD": 3466106,
-        "triangulatedEconomicReferenceUSD": 2543202
+        "sellerAskUSD": 396615,
+        "negotiationLowUSD": 317180,
+        "negotiationHighUSD": 498425,
+        "replacementCostUSD": 1303402,
+        "marketComparableProxyUSD": 2150613,
+        "incomeLicensingProxyUSD": 2867484,
+        "probabilityAdjustedStrategicValueUSD": 3464558,
+        "triangulatedEconomicReferenceUSD": 2542066
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -1144,14 +1144,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 242328,
-        "negotiationLowUSD": 191400,
-        "negotiationHighUSD": 303890,
-        "replacementCostUSD": 957002,
-        "marketComparableProxyUSD": 990497,
-        "incomeLicensingProxyUSD": 1098160,
-        "probabilityAdjustedStrategicValueUSD": 999348,
-        "triangulatedEconomicReferenceUSD": 1006753
+        "sellerAskUSD": 242220,
+        "negotiationLowUSD": 191315,
+        "negotiationHighUSD": 303754,
+        "replacementCostUSD": 956574,
+        "marketComparableProxyUSD": 990054,
+        "incomeLicensingProxyUSD": 1097669,
+        "probabilityAdjustedStrategicValueUSD": 998902,
+        "triangulatedEconomicReferenceUSD": 1006304
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -1201,8 +1201,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 247820,
-        "sensitivityDeltaUSD": 29807
+        "milestoneConditionedEconomicReferenceUSD": 247709,
+        "sensitivityDeltaUSD": 29794
       },
       "calculationInputs": {
         "stage": "P",
@@ -1211,14 +1211,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 44772,
-        "negotiationLowUSD": 33579,
-        "negotiationHighUSD": 55965,
-        "replacementCostUSD": 447720,
-        "marketComparableProxyUSD": 239754,
-        "incomeLicensingProxyUSD": 171253,
-        "probabilityAdjustedStrategicValueUSD": 68234,
-        "triangulatedEconomicReferenceUSD": 218013
+        "sellerAskUSD": 44752,
+        "negotiationLowUSD": 33564,
+        "negotiationHighUSD": 55940,
+        "replacementCostUSD": 447520,
+        "marketComparableProxyUSD": 239647,
+        "incomeLicensingProxyUSD": 171176,
+        "probabilityAdjustedStrategicValueUSD": 68203,
+        "triangulatedEconomicReferenceUSD": 217915
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -1242,34 +1242,77 @@
     {
       "ref": "TA-IP-049",
       "values": {
-        "sellerAskEUR": 200000,
-        "negotiationLowEUR": 160000,
-        "negotiationHighEUR": 250000,
-        "replacementCostEUR": 950000,
-        "marketComparableProxyEUR": 1271813,
-        "incomeLicensingProxyEUR": 1638750,
-        "probabilityAdjustedStrategicValueEUR": 1702639,
-        "triangulatedEconomicReferenceEUR": 1415536
+        "sellerAskEUR": 206000,
+        "negotiationLowEUR": 164500,
+        "negotiationHighEUR": 257000,
+        "replacementCostEUR": 977500,
+        "marketComparableProxyEUR": 1308628,
+        "incomeLicensingProxyEUR": 1686187,
+        "probabilityAdjustedStrategicValueEUR": 1751926,
+        "triangulatedEconomicReferenceEUR": 1456512
       },
-      "basisDate": "2026-10-21",
+      "basisDate": "2026-10-26",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.",
-      "costBudgets": [],
+      "costBasisNote": "The retained expressly priced scope and successive non-overlapping implementation budgets reconcile below. Equivalent effort and historical anchors remain seller assumptions; actual expenditure, independent quotations and market value are not established. The previously priced acquisition, graph, entity, evidence and defensive-control foundations are reused once. Third-party source entitlements, real shared persistence/queue deployment, production multi-node acceptance and legal/operational certification are excluded.",
+      "costBudgets": [
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "economicAssessmentAt": "2026-10-26",
+          "scope": "Encrypted single-writer checkpoint and recovery workflow; Fenced shared-state reference contract and reference backend; Distributed job-ownership and recovery reference workflow; Failure-case qualification and delivery documentation.",
+          "workPackages": [
+            {
+              "scope": "Encrypted single-writer checkpoint and recovery workflow",
+              "lowEffortHours": 80
+            },
+            {
+              "scope": "Fenced shared-state reference contract and reference backend",
+              "lowEffortHours": 64
+            },
+            {
+              "scope": "Distributed job-ownership and recovery reference workflow",
+              "lowEffortHours": 64
+            },
+            {
+              "scope": "Failure-case qualification and delivery documentation",
+              "lowEffortHours": 48
+            }
+          ],
+          "assumedHours": 256,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 24064,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 27673.6,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 256,
+            "referenceHours": 384,
+            "extendedHours": 512,
+            "lowCostEUR": 27673.6,
+            "referenceCostEUR": 41510.4,
+            "extendedCostEUR": 55347.2
+          },
+          "boundary": "Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. The previously priced acquisition, graph, entity, evidence and defensive-control foundations are reused once. Third-party source entitlements, real shared persistence/queue deployment, production multi-node acceptance and legal/operational certification are excluded.",
+          "adoptedRecreationIncrementEUR": 27500,
+          "previousRecreationCostEUR": 950000,
+          "currentRecreationCostEUR": 977500
+        }
+      ],
       "futureReference": {
-        "milestoneConditionedEconomicReferenceEUR": 1817391,
-        "sensitivityDeltaEUR": 401855,
+        "milestoneConditionedEconomicReferenceEUR": 1870000,
+        "sensitivityDeltaEUR": 413488,
         "currentStage": "P",
         "targetStage": "V",
         "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 2034206,
-        "sensitivityDeltaUSD": 449796
+        "milestoneConditionedEconomicReferenceUSD": 2092156,
+        "sensitivityDeltaUSD": 462610
       },
       "calculationInputs": {
         "stage": "P",
@@ -1278,22 +1321,22 @@
         "route": "B2B SaaS / enterprise software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 223860,
-        "negotiationLowUSD": 179088,
-        "negotiationHighUSD": 279825,
-        "replacementCostUSD": 1063335,
-        "marketComparableProxyUSD": 1423540,
-        "incomeLicensingProxyUSD": 1834253,
-        "probabilityAdjustedStrategicValueUSD": 1905764,
-        "triangulatedEconomicReferenceUSD": 1584409
+        "sellerAskUSD": 230473,
+        "negotiationLowUSD": 184043,
+        "negotiationHighUSD": 287532,
+        "replacementCostUSD": 1093627,
+        "marketComparableProxyUSD": 1464093,
+        "incomeLicensingProxyUSD": 1886506,
+        "probabilityAdjustedStrategicValueUSD": 1960055,
+        "triangulatedEconomicReferenceUSD": 1629546
       },
       "assessment": {
-        "assessedOn": "2026-10-21",
-        "offeredEdition": "1.1.0",
+        "assessedOn": "2026-10-26",
+        "offeredEdition": "1.4.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
-        "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
-        "costEvidenceLabel": "Retained seller estimate; work breakdown required",
-        "costEvidenceNote": "No complete work-package budget supports the retained anchor. Obtain a delivery-specific work breakdown and quote; this seller estimate does not establish actual expenditure or market value.",
+        "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
+        "costEvidenceLabel": "Partial scoped budget; retained anchor remains provisional",
+        "costEvidenceNote": "Explicit budgets cover part of the estimate. The retained anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.",
         "qualification": {
           "technicalMaturity": "P",
           "evidenceMaturity": "E2",
@@ -1416,14 +1459,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 110811,
-        "negotiationLowUSD": 87305,
-        "negotiationHighUSD": 139913,
-        "replacementCostUSD": 605541,
-        "marketComparableProxyUSD": 445073,
-        "incomeLicensingProxyUSD": 308826,
-        "probabilityAdjustedStrategicValueUSD": 152423,
-        "triangulatedEconomicReferenceUSD": 355513
+        "sellerAskUSD": 110761,
+        "negotiationLowUSD": 87266,
+        "negotiationHighUSD": 139850,
+        "replacementCostUSD": 605271,
+        "marketComparableProxyUSD": 444874,
+        "incomeLicensingProxyUSD": 308688,
+        "probabilityAdjustedStrategicValueUSD": 152355,
+        "triangulatedEconomicReferenceUSD": 355354
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -1485,8 +1528,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only on an evidenced software-maturity milestone. This constant-cost sensitivity is not a future asking price, income forecast or acceptance of unimplemented research goals.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 379648,
-        "sensitivityDeltaUSD": 72910
+        "milestoneConditionedEconomicReferenceUSD": 379478,
+        "sensitivityDeltaUSD": 72878
       },
       "calculationInputs": {
         "stage": "P",
@@ -1495,14 +1538,14 @@
         "route": "Media / creator software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 51488,
-        "negotiationLowUSD": 38616,
-        "negotiationHighUSD": 64360,
-        "replacementCostUSD": 324597,
-        "marketComparableProxyUSD": 317294,
-        "incomeLicensingProxyUSD": 345087,
-        "probabilityAdjustedStrategicValueUSD": 266035,
-        "triangulatedEconomicReferenceUSD": 306737
+        "sellerAskUSD": 51465,
+        "negotiationLowUSD": 38599,
+        "negotiationHighUSD": 64331,
+        "replacementCostUSD": 324452,
+        "marketComparableProxyUSD": 317152,
+        "incomeLicensingProxyUSD": 344933,
+        "probabilityAdjustedStrategicValueUSD": 265916,
+        "triangulatedEconomicReferenceUSD": 306600
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -1595,14 +1638,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 405187,
-        "negotiationLowUSD": 326836,
-        "negotiationHighUSD": 506483,
-        "replacementCostUSD": 1858038,
-        "marketComparableProxyUSD": 2243581,
-        "incomeLicensingProxyUSD": 2132099,
-        "probabilityAdjustedStrategicValueUSD": 2263630,
-        "triangulatedEconomicReferenceUSD": 2131916
+        "sellerAskUSD": 405006,
+        "negotiationLowUSD": 326690,
+        "negotiationHighUSD": 506257,
+        "replacementCostUSD": 1857208,
+        "marketComparableProxyUSD": 2242579,
+        "incomeLicensingProxyUSD": 2131146,
+        "probabilityAdjustedStrategicValueUSD": 2262619,
+        "triangulatedEconomicReferenceUSD": 2130964
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -1657,14 +1700,14 @@
         "route": "Media / creator software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 699563,
-        "negotiationLowUSD": 559650,
-        "negotiationHighUSD": 878651,
-        "replacementCostUSD": 2798250,
-        "marketComparableProxyUSD": 4197375,
-        "incomeLicensingProxyUSD": 5876325,
-        "probabilityAdjustedStrategicValueUSD": 6761813,
-        "triangulatedEconomicReferenceUSD": 5080937
+        "sellerAskUSD": 699250,
+        "negotiationLowUSD": 559400,
+        "negotiationHighUSD": 878258,
+        "replacementCostUSD": 2797000,
+        "marketComparableProxyUSD": 4195500,
+        "incomeLicensingProxyUSD": 5873700,
+        "probabilityAdjustedStrategicValueUSD": 6758793,
+        "triangulatedEconomicReferenceUSD": 5078667
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -1757,14 +1800,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 170134,
-        "negotiationLowUSD": 135995,
-        "negotiationHighUSD": 215465,
-        "replacementCostUSD": 794703,
-        "marketComparableProxyUSD": 607948,
-        "incomeLicensingProxyUSD": 607948,
-        "probabilityAdjustedStrategicValueUSD": 362734,
-        "triangulatedEconomicReferenceUSD": 568811
+        "sellerAskUSD": 170058,
+        "negotiationLowUSD": 135934,
+        "negotiationHighUSD": 215369,
+        "replacementCostUSD": 794348,
+        "marketComparableProxyUSD": 607676,
+        "incomeLicensingProxyUSD": 607676,
+        "probabilityAdjustedStrategicValueUSD": 362572,
+        "triangulatedEconomicReferenceUSD": 568557
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -1788,22 +1831,22 @@
     {
       "ref": "TA-IP-077",
       "values": {
-        "sellerAskEUR": 929000,
-        "negotiationLowEUR": 743000,
-        "negotiationHighEUR": 1164500,
-        "replacementCostEUR": 3313500,
-        "marketComparableProxyEUR": 3238946,
-        "incomeLicensingProxyEUR": 3802241,
-        "probabilityAdjustedStrategicValueEUR": 3267890,
-        "triangulatedEconomicReferenceEUR": 3380374
+        "sellerAskEUR": 934000,
+        "negotiationLowEUR": 747000,
+        "negotiationHighEUR": 1171000,
+        "replacementCostEUR": 3331500,
+        "marketComparableProxyEUR": 3256541,
+        "incomeLicensingProxyEUR": 3822896,
+        "probabilityAdjustedStrategicValueEUR": 3285642,
+        "triangulatedEconomicReferenceEUR": 3398737
       },
-      "basisDate": "2026-10-25",
+      "basisDate": "2026-10-26",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The retained expressly priced scope and successive non-overlapping implementation budgets reconcile below. Equivalent effort and historical anchors remain seller assumptions; actual expenditure, independent quotations and market value are not established. The previously priced neural simulation and source-adapter foundations are reused once. Biological/clinical validation, third-party data ownership, new scientific findings and production qualification are excluded.",
+      "costBasisNote": "The retained expressly priced scope and successive non-overlapping implementation budgets reconcile below. Equivalent effort and historical anchors remain seller assumptions; actual expenditure, independent quotations and market value are not established. The previously priced neural runtime, source adapters, interaction studies and lineage/fingerprint foundations are reused once. The added experiment/result declarations and diagnostics are priced as software only. Biological/scientific/clinical findings, third-party dataset ownership, universal portability, future composable-model architecture and production qualification are excluded.",
       "costBudgets": [
         {
           "kind": "Scoped implementation reproduction budget",
@@ -1846,6 +1889,48 @@
           "adoptedRecreationIncrementEUR": 13500,
           "previousRecreationCostEUR": 3300000,
           "currentRecreationCostEUR": 3313500
+        },
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "economicAssessmentAt": "2026-10-26",
+          "scope": "Bounded experiment declarations and result-package contracts; Strict contract validation and source-bound verification; Cross-environment numerical replay diagnostics; Qualification and handover documentation.",
+          "workPackages": [
+            {
+              "scope": "Bounded experiment declarations and result-package contracts",
+              "lowEffortHours": 64
+            },
+            {
+              "scope": "Strict contract validation and source-bound verification",
+              "lowEffortHours": 32
+            },
+            {
+              "scope": "Cross-environment numerical replay diagnostics",
+              "lowEffortHours": 48
+            },
+            {
+              "scope": "Qualification and handover documentation",
+              "lowEffortHours": 24
+            }
+          ],
+          "assumedHours": 168,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 15792,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 18160.8,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 168,
+            "referenceHours": 252,
+            "extendedHours": 336,
+            "lowCostEUR": 18160.8,
+            "referenceCostEUR": 27241.2,
+            "extendedCostEUR": 36321.6
+          },
+          "boundary": "Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. The previously priced neural runtime, source adapters, interaction studies and lineage/fingerprint foundations are reused once. The added experiment/result declarations and diagnostics are priced as software only. Biological/scientific/clinical findings, third-party dataset ownership, universal portability, future composable-model architecture and production qualification are excluded.",
+          "adoptedRecreationIncrementEUR": 18000,
+          "previousRecreationCostEUR": 3313500,
+          "currentRecreationCostEUR": 3331500
         }
       ],
       "futureReference": {
@@ -1862,18 +1947,18 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 1039830,
-        "negotiationLowUSD": 831640,
-        "negotiationHighUSD": 1303425,
-        "replacementCostUSD": 3708801,
-        "marketComparableProxyUSD": 3625352,
-        "incomeLicensingProxyUSD": 4255848,
-        "probabilityAdjustedStrategicValueUSD": 3657749,
-        "triangulatedEconomicReferenceUSD": 3783653
+        "sellerAskUSD": 1044959,
+        "negotiationLowUSD": 835744,
+        "negotiationHighUSD": 1310115,
+        "replacementCostUSD": 3727282,
+        "marketComparableProxyUSD": 3643418,
+        "incomeLicensingProxyUSD": 4277056,
+        "probabilityAdjustedStrategicValueUSD": 3675976,
+        "triangulatedEconomicReferenceUSD": 3802507
       },
       "assessment": {
-        "assessedOn": "2026-10-25",
-        "offeredEdition": "2.6.0",
+        "assessedOn": "2026-10-26",
+        "offeredEdition": "2.7.0 / qualified CPU scope",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial scoped budget; retained anchor remains provisional",
@@ -1924,14 +2009,14 @@
         "route": "Private deployment / enterprise licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 268632,
-        "negotiationLowUSD": 212667,
-        "negotiationHighUSD": 335790,
-        "replacementCostUSD": 895440,
-        "marketComparableProxyUSD": 1081244,
-        "incomeLicensingProxyUSD": 1329728,
-        "probabilityAdjustedStrategicValueUSD": 1090906,
-        "triangulatedEconomicReferenceUSD": 1087871
+        "sellerAskUSD": 268512,
+        "negotiationLowUSD": 212572,
+        "negotiationHighUSD": 335640,
+        "replacementCostUSD": 895040,
+        "marketComparableProxyUSD": 1080761,
+        "incomeLicensingProxyUSD": 1329134,
+        "probabilityAdjustedStrategicValueUSD": 1090418,
+        "triangulatedEconomicReferenceUSD": 1087385
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -1981,8 +2066,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 1427363,
-        "sensitivityDeltaUSD": 263113
+        "milestoneConditionedEconomicReferenceUSD": 1426725,
+        "sensitivityDeltaUSD": 262995
       },
       "calculationInputs": {
         "stage": "P",
@@ -1991,14 +2076,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 279825,
-        "negotiationLowUSD": 223860,
-        "negotiationHighUSD": 352580,
-        "replacementCostUSD": 1399125,
-        "marketComparableProxyUSD": 1162498,
-        "incomeLicensingProxyUSD": 1204122,
-        "probabilityAdjustedStrategicValueUSD": 974698,
-        "triangulatedEconomicReferenceUSD": 1164250
+        "sellerAskUSD": 279700,
+        "negotiationLowUSD": 223760,
+        "negotiationHighUSD": 352422,
+        "replacementCostUSD": 1398500,
+        "marketComparableProxyUSD": 1161979,
+        "incomeLicensingProxyUSD": 1203584,
+        "probabilityAdjustedStrategicValueUSD": 974262,
+        "triangulatedEconomicReferenceUSD": 1163730
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -2053,14 +2138,14 @@
         "route": "Enterprise software / licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 128720,
-        "negotiationLowUSD": 100737,
-        "negotiationHighUSD": 162299,
-        "replacementCostUSD": 699563,
-        "marketComparableProxyUSD": 661087,
-        "incomeLicensingProxyUSD": 724047,
-        "probabilityAdjustedStrategicValueUSD": 394439,
-        "triangulatedEconomicReferenceUSD": 589971
+        "sellerAskUSD": 128662,
+        "negotiationLowUSD": 100692,
+        "negotiationHighUSD": 162226,
+        "replacementCostUSD": 699250,
+        "marketComparableProxyUSD": 660791,
+        "incomeLicensingProxyUSD": 723724,
+        "probabilityAdjustedStrategicValueUSD": 394263,
+        "triangulatedEconomicReferenceUSD": 589707
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -2328,8 +2413,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price, future asking reference or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 188188,
-        "sensitivityDeltaUSD": 29693
+        "milestoneConditionedEconomicReferenceUSD": 188104,
+        "sensitivityDeltaUSD": 29680
       },
       "calculationInputs": {
         "stage": "P",
@@ -2338,14 +2423,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 71635,
-        "negotiationLowUSD": 56525,
-        "negotiationHighUSD": 89544,
-        "replacementCostUSD": 238411,
-        "marketComparableProxyUSD": 191503,
-        "incomeLicensingProxyUSD": 136789,
-        "probabilityAdjustedStrategicValueUSD": 94954,
-        "triangulatedEconomicReferenceUSD": 158495
+        "sellerAskUSD": 71603,
+        "negotiationLowUSD": 56499,
+        "negotiationHighUSD": 89504,
+        "replacementCostUSD": 238304,
+        "marketComparableProxyUSD": 191418,
+        "incomeLicensingProxyUSD": 136727,
+        "probabilityAdjustedStrategicValueUSD": 94911,
+        "triangulatedEconomicReferenceUSD": 158424
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -2395,8 +2480,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 728420,
-        "sensitivityDeltaUSD": 86353
+        "milestoneConditionedEconomicReferenceUSD": 728095,
+        "sensitivityDeltaUSD": 86314
       },
       "calculationInputs": {
         "stage": "P",
@@ -2405,14 +2490,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 139913,
-        "negotiationLowUSD": 111930,
-        "negotiationHighUSD": 179088,
-        "replacementCostUSD": 1343160,
-        "marketComparableProxyUSD": 679303,
-        "incomeLicensingProxyUSD": 513759,
-        "probabilityAdjustedStrategicValueUSD": 193329,
-        "triangulatedEconomicReferenceUSD": 642067
+        "sellerAskUSD": 139850,
+        "negotiationLowUSD": 111880,
+        "negotiationHighUSD": 179008,
+        "replacementCostUSD": 1342560,
+        "marketComparableProxyUSD": 679000,
+        "incomeLicensingProxyUSD": 513529,
+        "probabilityAdjustedStrategicValueUSD": 193242,
+        "triangulatedEconomicReferenceUSD": 641781
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -2436,22 +2521,22 @@
     {
       "ref": "TA-IP-021",
       "values": {
-        "sellerAskEUR": 314500,
-        "negotiationLowEUR": 251500,
-        "negotiationHighEUR": 393000,
-        "replacementCostEUR": 1048000,
-        "marketComparableProxyEUR": 1205200,
-        "incomeLicensingProxyEUR": 1485540,
-        "probabilityAdjustedStrategicValueEUR": 1215970,
-        "triangulatedEconomicReferenceEUR": 1225738
+        "sellerAskEUR": 325500,
+        "negotiationLowEUR": 260000,
+        "negotiationHighEUR": 406500,
+        "replacementCostEUR": 1084000,
+        "marketComparableProxyEUR": 1246600,
+        "incomeLicensingProxyEUR": 1536570,
+        "probabilityAdjustedStrategicValueEUR": 1257740,
+        "triangulatedEconomicReferenceEUR": 1267843
       },
-      "basisDate": "2026-10-25",
+      "basisDate": "2026-10-26",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The retained expressly priced scope and successive non-overlapping implementation budgets reconcile below. Equivalent effort and historical anchors remain seller assumptions; actual expenditure, independent quotations and market value are not established. The previously priced lyric, generation, API and evidence foundations are reused once. Live services, payment processing, licensed models, artistic/legal clearance and future production acceptance are excluded.",
+      "costBasisNote": "The retained expressly priced scope and successive non-overlapping implementation budgets reconcile below. Equivalent effort and historical anchors remain seller assumptions; actual expenditure, independent quotations and market value are not established. The previously priced songwriting, workspace, recovery and role-isolation foundations are reused once. Only the added migration-inventory/rehearsal, staging, ingress and compatibility work is included. Actual hosting, paid services, customer-data migration, live model/payment/email integrations and independent production acceptance are excluded.",
       "costBudgets": [
         {
           "kind": "Scoped implementation reproduction budget",
@@ -2498,6 +2583,52 @@
           "adoptedRecreationIncrementEUR": 48000,
           "previousRecreationCostEUR": 1000000,
           "currentRecreationCostEUR": 1048000
+        },
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "economicAssessmentAt": "2026-10-26",
+          "scope": "Offline staging eligibility and runtime compatibility controls; Source-to-destination migration inventory and disposable dual-database rehearsal; Bounded hosting and ingress planning; Local HTTP boundary integration and rejection controls; Compatibility-matrix tooling and handover documentation.",
+          "workPackages": [
+            {
+              "scope": "Offline staging eligibility and runtime compatibility controls",
+              "lowEffortHours": 64
+            },
+            {
+              "scope": "Source-to-destination migration inventory and disposable dual-database rehearsal",
+              "lowEffortHours": 96
+            },
+            {
+              "scope": "Bounded hosting and ingress planning",
+              "lowEffortHours": 48
+            },
+            {
+              "scope": "Local HTTP boundary integration and rejection controls",
+              "lowEffortHours": 80
+            },
+            {
+              "scope": "Compatibility-matrix tooling and handover documentation",
+              "lowEffortHours": 48
+            }
+          ],
+          "assumedHours": 336,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 31584,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 36321.6,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 336,
+            "referenceHours": 504,
+            "extendedHours": 672,
+            "lowCostEUR": 36321.6,
+            "referenceCostEUR": 54482.4,
+            "extendedCostEUR": 72643.2
+          },
+          "boundary": "Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. The previously priced songwriting, workspace, recovery and role-isolation foundations are reused once. Only the added migration-inventory/rehearsal, staging, ingress and compatibility work is included. Actual hosting, paid services, customer-data migration, live model/payment/email integrations and independent production acceptance are excluded.",
+          "adoptedRecreationIncrementEUR": 36000,
+          "previousRecreationCostEUR": 1048000,
+          "currentRecreationCostEUR": 1084000
         }
       ],
       "futureReference": {
@@ -2514,18 +2645,18 @@
         "route": "Media / creator software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 352020,
-        "negotiationLowUSD": 281504,
-        "negotiationHighUSD": 439885,
-        "replacementCostUSD": 1173026,
-        "marketComparableProxyUSD": 1348980,
-        "incomeLicensingProxyUSD": 1662765,
-        "probabilityAdjustedStrategicValueUSD": 1361035,
-        "triangulatedEconomicReferenceUSD": 1371969
+        "sellerAskUSD": 364169,
+        "negotiationLowUSD": 290888,
+        "negotiationHighUSD": 454792,
+        "replacementCostUSD": 1212779,
+        "marketComparableProxyUSD": 1394696,
+        "incomeLicensingProxyUSD": 1719115,
+        "probabilityAdjustedStrategicValueUSD": 1407160,
+        "triangulatedEconomicReferenceUSD": 1418463
       },
       "assessment": {
-        "assessedOn": "2026-10-25",
-        "offeredEdition": "3.23.0 accepted / 3.24.0 development",
+        "assessedOn": "2026-10-26",
+        "offeredEdition": "3.30.0 scoped qualification / 3.31.0 development",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
         "costEvidenceLabel": "Partial scoped budget; retained anchor remains provisional",
@@ -2609,8 +2740,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 1102560,
-        "sensitivityDeltaUSD": 210253
+        "milestoneConditionedEconomicReferenceUSD": 1102067,
+        "sensitivityDeltaUSD": 210159
       },
       "calculationInputs": {
         "stage": "P",
@@ -2619,14 +2750,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 129839,
-        "negotiationLowUSD": 101856,
-        "negotiationHighUSD": 163977,
-        "replacementCostUSD": 960919,
-        "marketComparableProxyUSD": 986263,
-        "incomeLicensingProxyUSD": 826991,
-        "probabilityAdjustedStrategicValueUSD": 826933,
-        "triangulatedEconomicReferenceUSD": 892307
+        "sellerAskUSD": 129781,
+        "negotiationLowUSD": 101811,
+        "negotiationHighUSD": 163904,
+        "replacementCostUSD": 960490,
+        "marketComparableProxyUSD": 985823,
+        "incomeLicensingProxyUSD": 826622,
+        "probabilityAdjustedStrategicValueUSD": 826564,
+        "triangulatedEconomicReferenceUSD": 891908
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -2676,8 +2807,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only on an evidenced software-maturity milestone. This constant-cost sensitivity is not a future asking price, income forecast or acceptance of unimplemented research goals.",
         "modelBasis": "Retained model; maturity alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 72258,
-        "sensitivityDeltaUSD": 11590
+        "milestoneConditionedEconomicReferenceUSD": 72225,
+        "sensitivityDeltaUSD": 11585
       },
       "calculationInputs": {
         "stage": "P",
@@ -2686,14 +2817,14 @@
         "route": "Media / creator software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 26863,
-        "negotiationLowUSD": 21491,
-        "negotiationHighUSD": 33579,
-        "replacementCostUSD": 89544,
-        "marketComparableProxyUSD": 68501,
-        "incomeLicensingProxyUSD": 63464,
-        "probabilityAdjustedStrategicValueUSD": 33965,
-        "triangulatedEconomicReferenceUSD": 60667
+        "sellerAskUSD": 26851,
+        "negotiationLowUSD": 21481,
+        "negotiationHighUSD": 33564,
+        "replacementCostUSD": 89504,
+        "marketComparableProxyUSD": 68471,
+        "incomeLicensingProxyUSD": 63436,
+        "probabilityAdjustedStrategicValueUSD": 33950,
+        "triangulatedEconomicReferenceUSD": 60640
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -2786,14 +2917,14 @@
         "route": "Private deployment / enterprise licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 450518,
-        "negotiationLowUSD": 360415,
-        "negotiationHighUSD": 563008,
-        "replacementCostUSD": 1802073,
-        "marketComparableProxyUSD": 2176003,
-        "incomeLicensingProxyUSD": 2676078,
-        "probabilityAdjustedStrategicValueUSD": 2195449,
-        "triangulatedEconomicReferenceUSD": 2189342
+        "sellerAskUSD": 450317,
+        "negotiationLowUSD": 360254,
+        "negotiationHighUSD": 562756,
+        "replacementCostUSD": 1801268,
+        "marketComparableProxyUSD": 2175031,
+        "incomeLicensingProxyUSD": 2674883,
+        "probabilityAdjustedStrategicValueUSD": 2194468,
+        "triangulatedEconomicReferenceUSD": 2188364
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -2848,14 +2979,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 195878,
-        "negotiationLowUSD": 156702,
-        "negotiationHighUSD": 246246,
-        "replacementCostUSD": 895440,
-        "marketComparableProxyUSD": 846191,
-        "incomeLicensingProxyUSD": 685012,
-        "probabilityAdjustedStrategicValueUSD": 504883,
-        "triangulatedEconomicReferenceUSD": 706810
+        "sellerAskUSD": 195790,
+        "negotiationLowUSD": 156632,
+        "negotiationHighUSD": 246136,
+        "replacementCostUSD": 895040,
+        "marketComparableProxyUSD": 845813,
+        "incomeLicensingProxyUSD": 684706,
+        "probabilityAdjustedStrategicValueUSD": 504657,
+        "triangulatedEconomicReferenceUSD": 706494
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -2905,8 +3036,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 1019879,
-        "sensitivityDeltaUSD": 197846
+        "milestoneConditionedEconomicReferenceUSD": 1019424,
+        "sensitivityDeltaUSD": 197758
       },
       "calculationInputs": {
         "stage": "P",
@@ -2915,14 +3046,14 @@
         "route": "Private deployment / enterprise licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 156702,
-        "negotiationLowUSD": 123123,
-        "negotiationHighUSD": 195878,
-        "replacementCostUSD": 839475,
-        "marketComparableProxyUSD": 861616,
-        "incomeLicensingProxyUSD": 934966,
-        "probabilityAdjustedStrategicValueUSD": 722423,
-        "triangulatedEconomicReferenceUSD": 822033
+        "sellerAskUSD": 156632,
+        "negotiationLowUSD": 123068,
+        "negotiationHighUSD": 195790,
+        "replacementCostUSD": 839100,
+        "marketComparableProxyUSD": 861231,
+        "incomeLicensingProxyUSD": 934548,
+        "probabilityAdjustedStrategicValueUSD": 722100,
+        "triangulatedEconomicReferenceUSD": 821666
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -3059,14 +3190,14 @@
         "route": "Private deployment / enterprise licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 559650,
-        "negotiationLowUSD": 436527,
-        "negotiationHighUSD": 705159,
-        "replacementCostUSD": 1567020,
-        "marketComparableProxyUSD": 2585583,
-        "incomeLicensingProxyUSD": 3447444,
-        "probabilityAdjustedStrategicValueUSD": 4165277,
-        "triangulatedEconomicReferenceUSD": 3056207
+        "sellerAskUSD": 559400,
+        "negotiationLowUSD": 436332,
+        "negotiationHighUSD": 704844,
+        "replacementCostUSD": 1566320,
+        "marketComparableProxyUSD": 2584428,
+        "incomeLicensingProxyUSD": 3445904,
+        "probabilityAdjustedStrategicValueUSD": 4163416,
+        "triangulatedEconomicReferenceUSD": 3054842
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -3158,8 +3289,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 2756740,
-        "sensitivityDeltaUSD": 612358
+        "milestoneConditionedEconomicReferenceUSD": 2755508,
+        "sensitivityDeltaUSD": 612084
       },
       "calculationInputs": {
         "stage": "P",
@@ -3168,14 +3299,14 @@
         "route": "B2B SaaS / enterprise software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 256320,
-        "negotiationLowUSD": 203713,
-        "negotiationHighUSD": 320679,
-        "replacementCostUSD": 1399125,
-        "marketComparableProxyUSD": 1962273,
-        "incomeLicensingProxyUSD": 2413491,
-        "probabilityAdjustedStrategicValueUSD": 2626993,
-        "triangulatedEconomicReferenceUSD": 2144382
+        "sellerAskUSD": 256205,
+        "negotiationLowUSD": 203622,
+        "negotiationHighUSD": 320536,
+        "replacementCostUSD": 1398500,
+        "marketComparableProxyUSD": 1961396,
+        "incomeLicensingProxyUSD": 2412413,
+        "probabilityAdjustedStrategicValueUSD": 2625819,
+        "triangulatedEconomicReferenceUSD": 2143424
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -3398,14 +3529,14 @@
         "route": "Enterprise software / licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 253521,
-        "negotiationLowUSD": 205392,
-        "negotiationHighUSD": 320120,
-        "replacementCostUSD": 1387932,
-        "marketComparableProxyUSD": 825820,
-        "incomeLicensingProxyUSD": 957673,
-        "probabilityAdjustedStrategicValueUSD": 282816,
-        "triangulatedEconomicReferenceUSD": 802667
+        "sellerAskUSD": 253408,
+        "negotiationLowUSD": 205300,
+        "negotiationHighUSD": 319977,
+        "replacementCostUSD": 1387312,
+        "marketComparableProxyUSD": 825451,
+        "incomeLicensingProxyUSD": 957245,
+        "probabilityAdjustedStrategicValueUSD": 282689,
+        "triangulatedEconomicReferenceUSD": 802308
       },
       "assessment": {
         "assessedOn": "2026-10-25",
@@ -3460,14 +3591,14 @@
         "route": "Enterprise software / licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 895440,
-        "negotiationLowUSD": 716352,
-        "negotiationHighUSD": 1119300,
-        "replacementCostUSD": 3357900,
-        "marketComparableProxyUSD": 4247744,
-        "incomeLicensingProxyUSD": 5213140,
-        "probabilityAdjustedStrategicValueUSD": 4285702,
-        "triangulatedEconomicReferenceUSD": 4231648
+        "sellerAskUSD": 895040,
+        "negotiationLowUSD": 716032,
+        "negotiationHighUSD": 1118800,
+        "replacementCostUSD": 3356400,
+        "marketComparableProxyUSD": 4245846,
+        "incomeLicensingProxyUSD": 5210811,
+        "probabilityAdjustedStrategicValueUSD": 4283788,
+        "triangulatedEconomicReferenceUSD": 4229758
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -3517,8 +3648,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 369781,
-        "sensitivityDeltaUSD": 56522
+        "milestoneConditionedEconomicReferenceUSD": 369616,
+        "sensitivityDeltaUSD": 56497
       },
       "calculationInputs": {
         "stage": "P",
@@ -3527,14 +3658,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 55965,
-        "negotiationLowUSD": 44772,
-        "negotiationHighUSD": 67158,
-        "replacementCostUSD": 503685,
-        "marketComparableProxyUSD": 346787,
-        "incomeLicensingProxyUSD": 288990,
-        "probabilityAdjustedStrategicValueUSD": 171949,
-        "triangulatedEconomicReferenceUSD": 313258
+        "sellerAskUSD": 55940,
+        "negotiationLowUSD": 44752,
+        "negotiationHighUSD": 67128,
+        "replacementCostUSD": 503460,
+        "marketComparableProxyUSD": 346632,
+        "incomeLicensingProxyUSD": 288861,
+        "probabilityAdjustedStrategicValueUSD": 171872,
+        "triangulatedEconomicReferenceUSD": 313119
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -3584,8 +3715,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 634747,
-        "sensitivityDeltaUSD": 124279
+        "milestoneConditionedEconomicReferenceUSD": 634464,
+        "sensitivityDeltaUSD": 124224
       },
       "calculationInputs": {
         "stage": "P",
@@ -3594,14 +3725,14 @@
         "route": "B2B SaaS / enterprise software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 89544,
-        "negotiationLowUSD": 72755,
-        "negotiationHighUSD": 111930,
-        "replacementCostUSD": 503685,
-        "marketComparableProxyUSD": 541588,
-        "incomeLicensingProxyUSD": 586479,
-        "probabilityAdjustedStrategicValueUSD": 454094,
-        "triangulatedEconomicReferenceUSD": 510468
+        "sellerAskUSD": 89504,
+        "negotiationLowUSD": 72722,
+        "negotiationHighUSD": 111880,
+        "replacementCostUSD": 503460,
+        "marketComparableProxyUSD": 541346,
+        "incomeLicensingProxyUSD": 586217,
+        "probabilityAdjustedStrategicValueUSD": 453892,
+        "triangulatedEconomicReferenceUSD": 510240
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -3693,8 +3824,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 1269494,
-        "sensitivityDeltaUSD": 248560
+        "milestoneConditionedEconomicReferenceUSD": 1268927,
+        "sensitivityDeltaUSD": 248449
       },
       "calculationInputs": {
         "stage": "P",
@@ -3703,14 +3834,14 @@
         "route": "B2B SaaS / enterprise software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 189162,
-        "negotiationLowUSD": 151106,
-        "negotiationHighUSD": 239530,
-        "replacementCostUSD": 1007370,
-        "marketComparableProxyUSD": 1083175,
-        "incomeLicensingProxyUSD": 1172956,
-        "probabilityAdjustedStrategicValueUSD": 908189,
-        "triangulatedEconomicReferenceUSD": 1020935
+        "sellerAskUSD": 189077,
+        "negotiationLowUSD": 151038,
+        "negotiationHighUSD": 239423,
+        "replacementCostUSD": 1006920,
+        "marketComparableProxyUSD": 1082691,
+        "incomeLicensingProxyUSD": 1172432,
+        "probabilityAdjustedStrategicValueUSD": 907783,
+        "triangulatedEconomicReferenceUSD": 1020479
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -3765,14 +3896,14 @@
         "route": "B2B SaaS / enterprise software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 184685,
-        "negotiationLowUSD": 145509,
-        "negotiationHighUSD": 229457,
-        "replacementCostUSD": 559650,
-        "marketComparableProxyUSD": 675777,
-        "incomeLicensingProxyUSD": 868857,
-        "probabilityAdjustedStrategicValueUSD": 681816,
-        "triangulatedEconomicReferenceUSD": 687475
+        "sellerAskUSD": 184602,
+        "negotiationLowUSD": 145444,
+        "negotiationHighUSD": 229354,
+        "replacementCostUSD": 559400,
+        "marketComparableProxyUSD": 675476,
+        "incomeLicensingProxyUSD": 868469,
+        "probabilityAdjustedStrategicValueUSD": 681511,
+        "triangulatedEconomicReferenceUSD": 687168
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -3827,14 +3958,14 @@
         "route": "B2B SaaS / enterprise software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 531668,
-        "negotiationLowUSD": 425334,
-        "negotiationHighUSD": 665984,
-        "replacementCostUSD": 1343160,
-        "marketComparableProxyUSD": 2115477,
-        "incomeLicensingProxyUSD": 3089268,
-        "probabilityAdjustedStrategicValueUSD": 3407954,
-        "triangulatedEconomicReferenceUSD": 2569523
+        "sellerAskUSD": 531430,
+        "negotiationLowUSD": 425144,
+        "negotiationHighUSD": 665686,
+        "replacementCostUSD": 1342560,
+        "marketComparableProxyUSD": 2114532,
+        "incomeLicensingProxyUSD": 3087888,
+        "probabilityAdjustedStrategicValueUSD": 3406432,
+        "triangulatedEconomicReferenceUSD": 2568375
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -3889,14 +4020,14 @@
         "route": "B2B SaaS / enterprise software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 559650,
-        "negotiationLowUSD": 447720,
-        "negotiationHighUSD": 699563,
-        "replacementCostUSD": 2014740,
-        "marketComparableProxyUSD": 2548646,
-        "incomeLicensingProxyUSD": 3127884,
-        "probabilityAdjustedStrategicValueUSD": 2571422,
-        "triangulatedEconomicReferenceUSD": 2538989
+        "sellerAskUSD": 559400,
+        "negotiationLowUSD": 447520,
+        "negotiationHighUSD": 699250,
+        "replacementCostUSD": 2013840,
+        "marketComparableProxyUSD": 2547508,
+        "incomeLicensingProxyUSD": 3126487,
+        "probabilityAdjustedStrategicValueUSD": 2570273,
+        "triangulatedEconomicReferenceUSD": 2537855
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -3951,14 +4082,14 @@
         "route": "Vertical SaaS / specialist software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 307808,
-        "negotiationLowUSD": 246246,
-        "negotiationHighUSD": 386159,
-        "replacementCostUSD": 1343160,
-        "marketComparableProxyUSD": 1027517,
-        "incomeLicensingProxyUSD": 1329728,
-        "probabilityAdjustedStrategicValueUSD": 613071,
-        "triangulatedEconomicReferenceUSD": 1021813
+        "sellerAskUSD": 307670,
+        "negotiationLowUSD": 246136,
+        "negotiationHighUSD": 385986,
+        "replacementCostUSD": 1342560,
+        "marketComparableProxyUSD": 1027058,
+        "incomeLicensingProxyUSD": 1329134,
+        "probabilityAdjustedStrategicValueUSD": 612797,
+        "triangulatedEconomicReferenceUSD": 1021357
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -4008,8 +4139,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 2323315,
-        "sensitivityDeltaUSD": 350916
+        "milestoneConditionedEconomicReferenceUSD": 2322277,
+        "sensitivityDeltaUSD": 350759
       },
       "calculationInputs": {
         "stage": "P",
@@ -4018,14 +4149,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 402948,
-        "negotiationLowUSD": 324597,
-        "negotiationHighUSD": 503685,
-        "replacementCostUSD": 3245970,
-        "marketComparableProxyUSD": 2110692,
-        "incomeLicensingProxyUSD": 1862375,
-        "probabilityAdjustedStrategicValueUSD": 1046551,
-        "triangulatedEconomicReferenceUSD": 1972399
+        "sellerAskUSD": 402768,
+        "negotiationLowUSD": 324452,
+        "negotiationHighUSD": 503460,
+        "replacementCostUSD": 3244520,
+        "marketComparableProxyUSD": 2109749,
+        "incomeLicensingProxyUSD": 1861543,
+        "probabilityAdjustedStrategicValueUSD": 1046084,
+        "triangulatedEconomicReferenceUSD": 1971518
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -4080,14 +4211,14 @@
         "route": "Vertical SaaS / specialist software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 475703,
-        "negotiationLowUSD": 380562,
-        "negotiationHighUSD": 598826,
-        "replacementCostUSD": 2014740,
-        "marketComparableProxyUSD": 2432799,
-        "incomeLicensingProxyUSD": 2991889,
-        "probabilityAdjustedStrategicValueUSD": 2454539,
-        "triangulatedEconomicReferenceUSD": 2447711
+        "sellerAskUSD": 475490,
+        "negotiationLowUSD": 380392,
+        "negotiationHighUSD": 598558,
+        "replacementCostUSD": 2013840,
+        "marketComparableProxyUSD": 2431712,
+        "incomeLicensingProxyUSD": 2990552,
+        "probabilityAdjustedStrategicValueUSD": 2453442,
+        "triangulatedEconomicReferenceUSD": 2446618
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -4180,8 +4311,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 1849461,
-        "sensitivityDeltaUSD": 405732
+        "milestoneConditionedEconomicReferenceUSD": 1848635,
+        "sensitivityDeltaUSD": 405550
       },
       "calculationInputs": {
         "stage": "P",
@@ -4190,14 +4321,14 @@
         "route": "Media / creator software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 181327,
-        "negotiationLowUSD": 141591,
-        "negotiationHighUSD": 226099,
-        "replacementCostUSD": 1018563,
-        "marketComparableProxyUSD": 1298668,
-        "incomeLicensingProxyUSD": 1604237,
-        "probabilityAdjustedStrategicValueUSD": 1738592,
-        "triangulatedEconomicReferenceUSD": 1443729
+        "sellerAskUSD": 181246,
+        "negotiationLowUSD": 141528,
+        "negotiationHighUSD": 225998,
+        "replacementCostUSD": 1018108,
+        "marketComparableProxyUSD": 1298088,
+        "incomeLicensingProxyUSD": 1603520,
+        "probabilityAdjustedStrategicValueUSD": 1737815,
+        "triangulatedEconomicReferenceUSD": 1443084
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -4247,8 +4378,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 369781,
-        "sensitivityDeltaUSD": 56522
+        "milestoneConditionedEconomicReferenceUSD": 369616,
+        "sensitivityDeltaUSD": 56497
       },
       "calculationInputs": {
         "stage": "P",
@@ -4257,14 +4388,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 61562,
-        "negotiationLowUSD": 50369,
-        "negotiationHighUSD": 78351,
-        "replacementCostUSD": 503685,
-        "marketComparableProxyUSD": 346787,
-        "incomeLicensingProxyUSD": 288990,
-        "probabilityAdjustedStrategicValueUSD": 171949,
-        "triangulatedEconomicReferenceUSD": 313258
+        "sellerAskUSD": 61534,
+        "negotiationLowUSD": 50346,
+        "negotiationHighUSD": 78316,
+        "replacementCostUSD": 503460,
+        "marketComparableProxyUSD": 346632,
+        "incomeLicensingProxyUSD": 288861,
+        "probabilityAdjustedStrategicValueUSD": 171872,
+        "triangulatedEconomicReferenceUSD": 313119
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -4319,14 +4450,14 @@
         "route": "Vertical SaaS / specialist software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 402948,
-        "negotiationLowUSD": 324597,
-        "negotiationHighUSD": 503685,
-        "replacementCostUSD": 1119300,
-        "marketComparableProxyUSD": 1762898,
-        "incomeLicensingProxyUSD": 2462460,
-        "probabilityAdjustedStrategicValueUSD": 2839962,
-        "triangulatedEconomicReferenceUSD": 2118883
+        "sellerAskUSD": 402768,
+        "negotiationLowUSD": 324452,
+        "negotiationHighUSD": 503460,
+        "replacementCostUSD": 1118800,
+        "marketComparableProxyUSD": 1762110,
+        "incomeLicensingProxyUSD": 2461360,
+        "probabilityAdjustedStrategicValueUSD": 2838693,
+        "triangulatedEconomicReferenceUSD": 2117937
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -4423,14 +4554,14 @@
         "route": "Media / creator software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 511520,
-        "negotiationLowUSD": 410223,
-        "negotiationHighUSD": 642478,
-        "replacementCostUSD": 1427108,
-        "marketComparableProxyUSD": 2140661,
-        "incomeLicensingProxyUSD": 2996926,
-        "probabilityAdjustedStrategicValueUSD": 3448525,
-        "triangulatedEconomicReferenceUSD": 2591278
+        "sellerAskUSD": 511292,
+        "negotiationLowUSD": 410040,
+        "negotiationHighUSD": 642191,
+        "replacementCostUSD": 1426470,
+        "marketComparableProxyUSD": 2139705,
+        "incomeLicensingProxyUSD": 2995587,
+        "probabilityAdjustedStrategicValueUSD": 3446985,
+        "triangulatedEconomicReferenceUSD": 2590120
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -4485,14 +4616,14 @@
         "route": "Vertical SaaS / specialist software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 783510,
-        "negotiationLowUSD": 626808,
-        "negotiationHighUSD": 979388,
-        "replacementCostUSD": 3022110,
-        "marketComparableProxyUSD": 3475427,
-        "incomeLicensingProxyUSD": 4487833,
-        "probabilityAdjustedStrategicValueUSD": 3506484,
-        "triangulatedEconomicReferenceUSD": 3575448
+        "sellerAskUSD": 783160,
+        "negotiationLowUSD": 626528,
+        "negotiationHighUSD": 978950,
+        "replacementCostUSD": 3020760,
+        "marketComparableProxyUSD": 3473874,
+        "incomeLicensingProxyUSD": 4485829,
+        "probabilityAdjustedStrategicValueUSD": 3504917,
+        "triangulatedEconomicReferenceUSD": 3573851
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -4547,14 +4678,14 @@
         "route": "Private deployment / enterprise licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 727545,
-        "negotiationLowUSD": 582036,
-        "negotiationHighUSD": 912230,
-        "replacementCostUSD": 3134040,
-        "marketComparableProxyUSD": 3784353,
-        "incomeLicensingProxyUSD": 4654049,
-        "probabilityAdjustedStrategicValueUSD": 3818171,
-        "triangulatedEconomicReferenceUSD": 3807551
+        "sellerAskUSD": 727220,
+        "negotiationLowUSD": 581776,
+        "negotiationHighUSD": 911822,
+        "replacementCostUSD": 3132640,
+        "marketComparableProxyUSD": 3782663,
+        "incomeLicensingProxyUSD": 4651970,
+        "probabilityAdjustedStrategicValueUSD": 3816465,
+        "triangulatedEconomicReferenceUSD": 3805850
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -4604,8 +4735,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 846330,
-        "sensitivityDeltaUSD": 165707
+        "milestoneConditionedEconomicReferenceUSD": 845952,
+        "sensitivityDeltaUSD": 165633
       },
       "calculationInputs": {
         "stage": "P",
@@ -4614,14 +4745,14 @@
         "route": "Enterprise software / licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 106334,
-        "negotiationLowUSD": 83948,
-        "negotiationHighUSD": 134316,
-        "replacementCostUSD": 671580,
-        "marketComparableProxyUSD": 722116,
-        "incomeLicensingProxyUSD": 781971,
-        "probabilityAdjustedStrategicValueUSD": 605460,
-        "triangulatedEconomicReferenceUSD": 680623
+        "sellerAskUSD": 106286,
+        "negotiationLowUSD": 83910,
+        "negotiationHighUSD": 134256,
+        "replacementCostUSD": 671280,
+        "marketComparableProxyUSD": 721794,
+        "incomeLicensingProxyUSD": 781622,
+        "probabilityAdjustedStrategicValueUSD": 605189,
+        "triangulatedEconomicReferenceUSD": 680319
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -4715,14 +4846,14 @@
         "route": "Enterprise software / licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 287100,
-        "negotiationLowUSD": 230576,
-        "negotiationHighUSD": 360415,
-        "replacementCostUSD": 957002,
-        "marketComparableProxyUSD": 935468,
-        "incomeLicensingProxyUSD": 1485745,
-        "probabilityAdjustedStrategicValueUSD": 943828,
-        "triangulatedEconomicReferenceUSD": 1053833
+        "sellerAskUSD": 286972,
+        "negotiationLowUSD": 230473,
+        "negotiationHighUSD": 360254,
+        "replacementCostUSD": 956574,
+        "marketComparableProxyUSD": 935051,
+        "incomeLicensingProxyUSD": 1485082,
+        "probabilityAdjustedStrategicValueUSD": 943407,
+        "triangulatedEconomicReferenceUSD": 1053363
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -4802,8 +4933,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced. This constant-cost sensitivity is not a future price, forecast, scientific qualification or acceptance of unimplemented capabilities.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 41086,
-        "sensitivityDeltaUSD": 6279
+        "milestoneConditionedEconomicReferenceUSD": 41068,
+        "sensitivityDeltaUSD": 6276
       },
       "calculationInputs": {
         "stage": "P",
@@ -4812,14 +4943,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 16790,
-        "negotiationLowUSD": 13432,
-        "negotiationHighUSD": 20987,
-        "replacementCostUSD": 55965,
-        "marketComparableProxyUSD": 38532,
-        "incomeLicensingProxyUSD": 32110,
-        "probabilityAdjustedStrategicValueUSD": 19105,
-        "triangulatedEconomicReferenceUSD": 34807
+        "sellerAskUSD": 16782,
+        "negotiationLowUSD": 13426,
+        "negotiationHighUSD": 20978,
+        "replacementCostUSD": 55940,
+        "marketComparableProxyUSD": 38515,
+        "incomeLicensingProxyUSD": 32096,
+        "probabilityAdjustedStrategicValueUSD": 19097,
+        "triangulatedEconomicReferenceUSD": 34791
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -4887,14 +5018,14 @@
         "route": "Vertical SaaS / specialist software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 201474,
-        "negotiationLowUSD": 162299,
-        "negotiationHighUSD": 251843,
-        "replacementCostUSD": 895440,
-        "marketComparableProxyUSD": 1029756,
-        "incomeLicensingProxyUSD": 1329728,
-        "probabilityAdjustedStrategicValueUSD": 1038958,
-        "triangulatedEconomicReferenceUSD": 1059392
+        "sellerAskUSD": 201384,
+        "negotiationLowUSD": 162226,
+        "negotiationHighUSD": 251730,
+        "replacementCostUSD": 895040,
+        "marketComparableProxyUSD": 1029296,
+        "incomeLicensingProxyUSD": 1329134,
+        "probabilityAdjustedStrategicValueUSD": 1038494,
+        "triangulatedEconomicReferenceUSD": 1058918
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -4944,8 +5075,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 775801,
-        "sensitivityDeltaUSD": 151897
+        "milestoneConditionedEconomicReferenceUSD": 775455,
+        "sensitivityDeltaUSD": 151829
       },
       "calculationInputs": {
         "stage": "P",
@@ -4954,14 +5085,14 @@
         "route": "B2B SaaS / enterprise software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 111930,
-        "negotiationLowUSD": 89544,
-        "negotiationHighUSD": 139913,
-        "replacementCostUSD": 615615,
-        "marketComparableProxyUSD": 661941,
-        "incomeLicensingProxyUSD": 716806,
-        "probabilityAdjustedStrategicValueUSD": 555004,
-        "triangulatedEconomicReferenceUSD": 623905
+        "sellerAskUSD": 111880,
+        "negotiationLowUSD": 89504,
+        "negotiationHighUSD": 139850,
+        "replacementCostUSD": 615340,
+        "marketComparableProxyUSD": 661645,
+        "incomeLicensingProxyUSD": 716486,
+        "probabilityAdjustedStrategicValueUSD": 554756,
+        "triangulatedEconomicReferenceUSD": 623626
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -5011,8 +5142,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 369781,
-        "sensitivityDeltaUSD": 56522
+        "milestoneConditionedEconomicReferenceUSD": 369616,
+        "sensitivityDeltaUSD": 56497
       },
       "calculationInputs": {
         "stage": "P",
@@ -5021,14 +5152,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 55965,
-        "negotiationLowUSD": 44772,
-        "negotiationHighUSD": 67158,
-        "replacementCostUSD": 503685,
-        "marketComparableProxyUSD": 346787,
-        "incomeLicensingProxyUSD": 288990,
-        "probabilityAdjustedStrategicValueUSD": 171949,
-        "triangulatedEconomicReferenceUSD": 313258
+        "sellerAskUSD": 55940,
+        "negotiationLowUSD": 44752,
+        "negotiationHighUSD": 67128,
+        "replacementCostUSD": 503460,
+        "marketComparableProxyUSD": 346632,
+        "incomeLicensingProxyUSD": 288861,
+        "probabilityAdjustedStrategicValueUSD": 171872,
+        "triangulatedEconomicReferenceUSD": 313119
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -5078,8 +5209,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 1284287,
-        "sensitivityDeltaUSD": 244907
+        "milestoneConditionedEconomicReferenceUSD": 1283713,
+        "sensitivityDeltaUSD": 244798
       },
       "calculationInputs": {
         "stage": "P",
@@ -5088,14 +5219,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 223860,
-        "negotiationLowUSD": 179088,
-        "negotiationHighUSD": 279825,
-        "replacementCostUSD": 1119300,
-        "marketComparableProxyUSD": 1148822,
-        "incomeLicensingProxyUSD": 963298,
-        "probabilityAdjustedStrategicValueUSD": 963230,
-        "triangulatedEconomicReferenceUSD": 1039380
+        "sellerAskUSD": 223760,
+        "negotiationLowUSD": 179008,
+        "negotiationHighUSD": 279700,
+        "replacementCostUSD": 1118800,
+        "marketComparableProxyUSD": 1148308,
+        "incomeLicensingProxyUSD": 962867,
+        "probabilityAdjustedStrategicValueUSD": 962800,
+        "triangulatedEconomicReferenceUSD": 1038915
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -5145,8 +5276,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 765368,
-        "sensitivityDeltaUSD": 142412
+        "milestoneConditionedEconomicReferenceUSD": 765026,
+        "sensitivityDeltaUSD": 142348
       },
       "calculationInputs": {
         "stage": "P",
@@ -5155,14 +5286,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 134316,
-        "negotiationLowUSD": 106334,
-        "negotiationHighUSD": 167895,
-        "replacementCostUSD": 727545,
-        "marketComparableProxyUSD": 640058,
-        "incomeLicensingProxyUSD": 626143,
-        "probabilityAdjustedStrategicValueUSD": 536657,
-        "triangulatedEconomicReferenceUSD": 622956
+        "sellerAskUSD": 134256,
+        "negotiationLowUSD": 106286,
+        "negotiationHighUSD": 167820,
+        "replacementCostUSD": 727220,
+        "marketComparableProxyUSD": 639772,
+        "incomeLicensingProxyUSD": 625863,
+        "probabilityAdjustedStrategicValueUSD": 536418,
+        "triangulatedEconomicReferenceUSD": 622678
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -5254,8 +5385,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 623832,
-        "sensitivityDeltaUSD": 99362
+        "milestoneConditionedEconomicReferenceUSD": 623553,
+        "sensitivityDeltaUSD": 99318
       },
       "calculationInputs": {
         "stage": "P",
@@ -5264,14 +5395,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 95141,
-        "negotiationLowUSD": 77232,
-        "negotiationHighUSD": 119205,
-        "replacementCostUSD": 772317,
-        "marketComparableProxyUSD": 649905,
-        "incomeLicensingProxyUSD": 443117,
-        "probabilityAdjustedStrategicValueUSD": 322244,
-        "triangulatedEconomicReferenceUSD": 524469
+        "sellerAskUSD": 95098,
+        "negotiationLowUSD": 77197,
+        "negotiationHighUSD": 119152,
+        "replacementCostUSD": 771972,
+        "marketComparableProxyUSD": 649614,
+        "incomeLicensingProxyUSD": 442919,
+        "probabilityAdjustedStrategicValueUSD": 322100,
+        "triangulatedEconomicReferenceUSD": 524235
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -5368,8 +5499,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Constant-cost maturity sensitivity only; not a future asking price, income forecast or a price for staged code.",
         "modelBasis": "Retained model; maturity alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 63225,
-        "sensitivityDeltaUSD": 10141
+        "milestoneConditionedEconomicReferenceUSD": 63197,
+        "sensitivityDeltaUSD": 10136
       },
       "costSensitivity": {
         "assumedHours": 560,
@@ -5391,14 +5522,14 @@
         "route": "Media / creator software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 23505,
-        "negotiationLowUSD": 18804,
-        "negotiationHighUSD": 29382,
-        "replacementCostUSD": 78351,
-        "marketComparableProxyUSD": 59939,
-        "incomeLicensingProxyUSD": 55532,
-        "probabilityAdjustedStrategicValueUSD": 29720,
-        "triangulatedEconomicReferenceUSD": 53084
+        "sellerAskUSD": 23495,
+        "negotiationLowUSD": 18796,
+        "negotiationHighUSD": 29369,
+        "replacementCostUSD": 78316,
+        "marketComparableProxyUSD": 59912,
+        "incomeLicensingProxyUSD": 55507,
+        "probabilityAdjustedStrategicValueUSD": 29706,
+        "triangulatedEconomicReferenceUSD": 53060
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -5453,14 +5584,14 @@
         "route": "Vertical SaaS / specialist software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 380562,
-        "negotiationLowUSD": 302211,
-        "negotiationHighUSD": 475703,
-        "replacementCostUSD": 1063335,
-        "marketComparableProxyUSD": 1754503,
-        "incomeLicensingProxyUSD": 2339337,
-        "probabilityAdjustedStrategicValueUSD": 2826438,
-        "triangulatedEconomicReferenceUSD": 2073855
+        "sellerAskUSD": 380392,
+        "negotiationLowUSD": 302076,
+        "negotiationHighUSD": 475490,
+        "replacementCostUSD": 1062860,
+        "marketComparableProxyUSD": 1753719,
+        "incomeLicensingProxyUSD": 2338292,
+        "probabilityAdjustedStrategicValueUSD": 2825176,
+        "triangulatedEconomicReferenceUSD": 2072928
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -5510,8 +5641,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only on an evidenced software-maturity milestone. This constant-cost sensitivity is not a future asking price, income forecast or acceptance of unimplemented research goals.",
         "modelBasis": "Retained model; maturity alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 53050,
-        "sensitivityDeltaUSD": 8752
+        "milestoneConditionedEconomicReferenceUSD": 53027,
+        "sensitivityDeltaUSD": 8748
       },
       "calculationInputs": {
         "stage": "P",
@@ -5520,14 +5651,14 @@
         "route": "Enterprise software / licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 18468,
-        "negotiationLowUSD": 14775,
-        "negotiationHighUSD": 23086,
-        "replacementCostUSD": 61562,
-        "marketComparableProxyUSD": 51805,
-        "incomeLicensingProxyUSD": 47787,
-        "probabilityAdjustedStrategicValueUSD": 25686,
-        "triangulatedEconomicReferenceUSD": 44299
+        "sellerAskUSD": 18460,
+        "negotiationLowUSD": 14768,
+        "negotiationHighUSD": 23075,
+        "replacementCostUSD": 61534,
+        "marketComparableProxyUSD": 51781,
+        "incomeLicensingProxyUSD": 47766,
+        "probabilityAdjustedStrategicValueUSD": 25674,
+        "triangulatedEconomicReferenceUSD": 44279
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -5619,8 +5750,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only on an evidenced software-maturity milestone. This constant-cost sensitivity is not a future asking price, income forecast or acceptance of unimplemented research goals.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 432617,
-        "sensitivityDeltaUSD": 65344
+        "milestoneConditionedEconomicReferenceUSD": 432424,
+        "sensitivityDeltaUSD": 65314
       },
       "calculationInputs": {
         "stage": "P",
@@ -5629,14 +5760,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 68277,
-        "negotiationLowUSD": 53167,
-        "negotiationHighUSD": 83388,
-        "replacementCostUSD": 604422,
-        "marketComparableProxyUSD": 393025,
-        "incomeLicensingProxyUSD": 346787,
-        "probabilityAdjustedStrategicValueUSD": 194875,
-        "triangulatedEconomicReferenceUSD": 367274
+        "sellerAskUSD": 68247,
+        "negotiationLowUSD": 53143,
+        "negotiationHighUSD": 83351,
+        "replacementCostUSD": 604152,
+        "marketComparableProxyUSD": 392850,
+        "incomeLicensingProxyUSD": 346632,
+        "probabilityAdjustedStrategicValueUSD": 194788,
+        "triangulatedEconomicReferenceUSD": 367110
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -5772,14 +5903,14 @@
         "route": "Enterprise software / licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 113049,
-        "negotiationLowUSD": 88984,
-        "negotiationHighUSD": 142151,
-        "replacementCostUSD": 533906,
-        "marketComparableProxyUSD": 392421,
-        "incomeLicensingProxyUSD": 368395,
-        "probabilityAdjustedStrategicValueUSD": 134391,
-        "triangulatedEconomicReferenceUSD": 332676
+        "sellerAskUSD": 112999,
+        "negotiationLowUSD": 88945,
+        "negotiationHighUSD": 142088,
+        "replacementCostUSD": 533668,
+        "marketComparableProxyUSD": 392246,
+        "incomeLicensingProxyUSD": 368231,
+        "probabilityAdjustedStrategicValueUSD": 134331,
+        "triangulatedEconomicReferenceUSD": 332527
       },
       "assessment": {
         "assessedOn": "2026-10-22",
@@ -5829,8 +5960,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 361641,
-        "sensitivityDeltaUSD": 57601
+        "milestoneConditionedEconomicReferenceUSD": 361480,
+        "sensitivityDeltaUSD": 57576
       },
       "calculationInputs": {
         "stage": "P",
@@ -5839,14 +5970,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 50369,
-        "negotiationLowUSD": 39176,
-        "negotiationHighUSD": 61562,
-        "replacementCostUSD": 447720,
-        "marketComparableProxyUSD": 376756,
-        "incomeLicensingProxyUSD": 256879,
-        "probabilityAdjustedStrategicValueUSD": 186809,
-        "triangulatedEconomicReferenceUSD": 304040
+        "sellerAskUSD": 50346,
+        "negotiationLowUSD": 39158,
+        "negotiationHighUSD": 61534,
+        "replacementCostUSD": 447520,
+        "marketComparableProxyUSD": 376588,
+        "incomeLicensingProxyUSD": 256765,
+        "probabilityAdjustedStrategicValueUSD": 186725,
+        "triangulatedEconomicReferenceUSD": 303904
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -5901,14 +6032,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 279825,
-        "negotiationLowUSD": 223860,
-        "negotiationHighUSD": 352580,
-        "replacementCostUSD": 1343160,
-        "marketComparableProxyUSD": 1087960,
-        "incomeLicensingProxyUSD": 1027517,
-        "probabilityAdjustedStrategicValueUSD": 649135,
-        "triangulatedEconomicReferenceUSD": 986082
+        "sellerAskUSD": 279700,
+        "negotiationLowUSD": 223760,
+        "negotiationHighUSD": 352422,
+        "replacementCostUSD": 1342560,
+        "marketComparableProxyUSD": 1087474,
+        "incomeLicensingProxyUSD": 1027058,
+        "probabilityAdjustedStrategicValueUSD": 648845,
+        "triangulatedEconomicReferenceUSD": 985642
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -5958,8 +6089,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 893717,
-        "sensitivityDeltaUSD": 173922
+        "milestoneConditionedEconomicReferenceUSD": 893318,
+        "sensitivityDeltaUSD": 173845
       },
       "calculationInputs": {
         "stage": "P",
@@ -5968,14 +6099,14 @@
         "route": "B2B SaaS / enterprise software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 128720,
-        "negotiationLowUSD": 100737,
-        "negotiationHighUSD": 162299,
-        "replacementCostUSD": 727545,
-        "marketComparableProxyUSD": 746734,
-        "incomeLicensingProxyUSD": 847135,
-        "probabilityAdjustedStrategicValueUSD": 626099,
-        "triangulatedEconomicReferenceUSD": 719795
+        "sellerAskUSD": 128662,
+        "negotiationLowUSD": 100692,
+        "negotiationHighUSD": 162226,
+        "replacementCostUSD": 727220,
+        "marketComparableProxyUSD": 746401,
+        "incomeLicensingProxyUSD": 846757,
+        "probabilityAdjustedStrategicValueUSD": 625820,
+        "triangulatedEconomicReferenceUSD": 719473
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -6190,14 +6321,14 @@
         "route": "Private deployment / enterprise licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 19588,
-        "negotiationLowUSD": 15111,
-        "negotiationHighUSD": 25184,
-        "replacementCostUSD": 64360,
-        "marketComparableProxyUSD": 49236,
-        "incomeLicensingProxyUSD": 47787,
-        "probabilityAdjustedStrategicValueUSD": 24412,
-        "triangulatedEconomicReferenceUSD": 44039
+        "sellerAskUSD": 19579,
+        "negotiationLowUSD": 15104,
+        "negotiationHighUSD": 25173,
+        "replacementCostUSD": 64331,
+        "marketComparableProxyUSD": 49214,
+        "incomeLicensingProxyUSD": 47766,
+        "probabilityAdjustedStrategicValueUSD": 24401,
+        "triangulatedEconomicReferenceUSD": 44019
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -6252,14 +6383,14 @@
         "route": "B2B SaaS / enterprise software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 307808,
-        "negotiationLowUSD": 246246,
-        "negotiationHighUSD": 386159,
-        "replacementCostUSD": 783510,
-        "marketComparableProxyUSD": 1292792,
-        "incomeLicensingProxyUSD": 1802073,
-        "probabilityAdjustedStrategicValueUSD": 2082639,
-        "triangulatedEconomicReferenceUSD": 1543774
+        "sellerAskUSD": 307670,
+        "negotiationLowUSD": 246136,
+        "negotiationHighUSD": 385986,
+        "replacementCostUSD": 783160,
+        "marketComparableProxyUSD": 1292214,
+        "incomeLicensingProxyUSD": 1801268,
+        "probabilityAdjustedStrategicValueUSD": 2081709,
+        "triangulatedEconomicReferenceUSD": 1543085
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -6309,8 +6440,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 1027701,
-        "sensitivityDeltaUSD": 189442
+        "milestoneConditionedEconomicReferenceUSD": 1027242,
+        "sensitivityDeltaUSD": 189357
       },
       "calculationInputs": {
         "stage": "P",
@@ -6319,14 +6450,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 134316,
-        "negotiationLowUSD": 106334,
-        "negotiationHighUSD": 167895,
-        "replacementCostUSD": 1007370,
-        "marketComparableProxyUSD": 836998,
-        "incomeLicensingProxyUSD": 866968,
-        "probabilityAdjustedStrategicValueUSD": 701782,
-        "triangulatedEconomicReferenceUSD": 838259
+        "sellerAskUSD": 134256,
+        "negotiationLowUSD": 106286,
+        "negotiationHighUSD": 167820,
+        "replacementCostUSD": 1006920,
+        "marketComparableProxyUSD": 836624,
+        "incomeLicensingProxyUSD": 866581,
+        "probabilityAdjustedStrategicValueUSD": 701469,
+        "triangulatedEconomicReferenceUSD": 837885
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -6419,14 +6550,14 @@
         "route": "B2B SaaS / enterprise software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 786868,
-        "negotiationLowUSD": 629606,
-        "negotiationHighUSD": 983865,
-        "replacementCostUSD": 2136184,
-        "marketComparableProxyUSD": 3364490,
-        "incomeLicensingProxyUSD": 4913223,
-        "probabilityAdjustedStrategicValueUSD": 5420067,
-        "triangulatedEconomicReferenceUSD": 4086612
+        "sellerAskUSD": 786516,
+        "negotiationLowUSD": 629325,
+        "negotiationHighUSD": 983425,
+        "replacementCostUSD": 2135230,
+        "marketComparableProxyUSD": 3362987,
+        "incomeLicensingProxyUSD": 4911029,
+        "probabilityAdjustedStrategicValueUSD": 5417646,
+        "triangulatedEconomicReferenceUSD": 4084787
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -6523,14 +6654,14 @@
         "route": "Vertical SaaS / specialist software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 335790,
-        "negotiationLowUSD": 267513,
-        "negotiationHighUSD": 423095,
-        "replacementCostUSD": 1119300,
-        "marketComparableProxyUSD": 1415915,
-        "incomeLicensingProxyUSD": 1662161,
-        "probabilityAdjustedStrategicValueUSD": 1428567,
-        "triangulatedEconomicReferenceUSD": 1395438
+        "sellerAskUSD": 335640,
+        "negotiationLowUSD": 267393,
+        "negotiationHighUSD": 422906,
+        "replacementCostUSD": 1118800,
+        "marketComparableProxyUSD": 1415282,
+        "incomeLicensingProxyUSD": 1661418,
+        "probabilityAdjustedStrategicValueUSD": 1427929,
+        "triangulatedEconomicReferenceUSD": 1394815
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -6593,8 +6724,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Use this figure only as a maturity sensitivity. It is not the current asking price or a promise of future value.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 423165,
-        "sensitivityDeltaUSD": 82853
+        "milestoneConditionedEconomicReferenceUSD": 422976,
+        "sensitivityDeltaUSD": 82816
       },
       "calculationInputs": {
         "stage": "P",
@@ -6603,14 +6734,14 @@
         "route": "Enterprise software / licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 55965,
-        "negotiationLowUSD": 44772,
-        "negotiationHighUSD": 69956,
-        "replacementCostUSD": 335790,
-        "marketComparableProxyUSD": 361058,
-        "incomeLicensingProxyUSD": 390986,
-        "probabilityAdjustedStrategicValueUSD": 302729,
-        "triangulatedEconomicReferenceUSD": 340312
+        "sellerAskUSD": 55940,
+        "negotiationLowUSD": 44752,
+        "negotiationHighUSD": 69925,
+        "replacementCostUSD": 335640,
+        "marketComparableProxyUSD": 360897,
+        "incomeLicensingProxyUSD": 390811,
+        "probabilityAdjustedStrategicValueUSD": 302594,
+        "triangulatedEconomicReferenceUSD": 340160
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -6665,14 +6796,14 @@
         "route": "Web platform infrastructure / SaaS / licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 296615,
-        "negotiationLowUSD": 235053,
-        "negotiationHighUSD": 369369,
-        "replacementCostUSD": 783510,
-        "marketComparableProxyUSD": 1292792,
-        "incomeLicensingProxyUSD": 1802073,
-        "probabilityAdjustedStrategicValueUSD": 2082639,
-        "triangulatedEconomicReferenceUSD": 1543774
+        "sellerAskUSD": 296482,
+        "negotiationLowUSD": 234948,
+        "negotiationHighUSD": 369204,
+        "replacementCostUSD": 783160,
+        "marketComparableProxyUSD": 1292214,
+        "incomeLicensingProxyUSD": 1801268,
+        "probabilityAdjustedStrategicValueUSD": 2081709,
+        "triangulatedEconomicReferenceUSD": 1543085
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -6722,8 +6853,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 607018,
-        "sensitivityDeltaUSD": 71961
+        "milestoneConditionedEconomicReferenceUSD": 606746,
+        "sensitivityDeltaUSD": 71929
       },
       "calculationInputs": {
         "stage": "P",
@@ -6732,14 +6863,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 111930,
-        "negotiationLowUSD": 89544,
-        "negotiationHighUSD": 139913,
-        "replacementCostUSD": 1119300,
-        "marketComparableProxyUSD": 566086,
-        "incomeLicensingProxyUSD": 428132,
-        "probabilityAdjustedStrategicValueUSD": 161108,
-        "triangulatedEconomicReferenceUSD": 535057
+        "sellerAskUSD": 111880,
+        "negotiationLowUSD": 89504,
+        "negotiationHighUSD": 139850,
+        "replacementCostUSD": 1118800,
+        "marketComparableProxyUSD": 565833,
+        "incomeLicensingProxyUSD": 427941,
+        "probabilityAdjustedStrategicValueUSD": 161036,
+        "triangulatedEconomicReferenceUSD": 534818
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -6789,8 +6920,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 520743,
-        "sensitivityDeltaUSD": 78653
+        "milestoneConditionedEconomicReferenceUSD": 520511,
+        "sensitivityDeltaUSD": 78618
       },
       "calculationInputs": {
         "stage": "P",
@@ -6799,14 +6930,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 100737,
-        "negotiationLowUSD": 78351,
-        "negotiationHighUSD": 128720,
-        "replacementCostUSD": 727545,
-        "marketComparableProxyUSD": 473087,
-        "incomeLicensingProxyUSD": 417430,
-        "probabilityAdjustedStrategicValueUSD": 234572,
-        "triangulatedEconomicReferenceUSD": 442090
+        "sellerAskUSD": 100692,
+        "negotiationLowUSD": 78316,
+        "negotiationHighUSD": 128662,
+        "replacementCostUSD": 727220,
+        "marketComparableProxyUSD": 472875,
+        "incomeLicensingProxyUSD": 417243,
+        "probabilityAdjustedStrategicValueUSD": 234467,
+        "triangulatedEconomicReferenceUSD": 441892
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -6861,14 +6992,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 307808,
-        "negotiationLowUSD": 246246,
-        "negotiationHighUSD": 386159,
-        "replacementCostUSD": 1455090,
-        "marketComparableProxyUSD": 1422350,
-        "incomeLicensingProxyUSD": 1669716,
-        "probabilityAdjustedStrategicValueUSD": 1435061,
-        "triangulatedEconomicReferenceUSD": 1484457
+        "sellerAskUSD": 307670,
+        "negotiationLowUSD": 246136,
+        "negotiationHighUSD": 385986,
+        "replacementCostUSD": 1454440,
+        "marketComparableProxyUSD": 1421715,
+        "incomeLicensingProxyUSD": 1668970,
+        "probabilityAdjustedStrategicValueUSD": 1434420,
+        "triangulatedEconomicReferenceUSD": 1483794
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -6961,14 +7092,14 @@
         "route": "B2B SaaS / enterprise software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 315643,
-        "negotiationLowUSD": 253521,
-        "negotiationHighUSD": 394553,
-        "replacementCostUSD": 958680,
-        "marketComparableProxyUSD": 1212731,
-        "incomeLicensingProxyUSD": 1488351,
-        "probabilityAdjustedStrategicValueUSD": 1223568,
-        "triangulatedEconomicReferenceUSD": 1208135
+        "sellerAskUSD": 315502,
+        "negotiationLowUSD": 253408,
+        "negotiationHighUSD": 394377,
+        "replacementCostUSD": 958252,
+        "marketComparableProxyUSD": 1212190,
+        "incomeLicensingProxyUSD": 1487686,
+        "probabilityAdjustedStrategicValueUSD": 1223022,
+        "triangulatedEconomicReferenceUSD": 1207596
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -7018,8 +7149,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 352638,
-        "sensitivityDeltaUSD": 69044
+        "milestoneConditionedEconomicReferenceUSD": 352480,
+        "sensitivityDeltaUSD": 69013
       },
       "calculationInputs": {
         "stage": "P",
@@ -7028,14 +7159,14 @@
         "route": "B2B SaaS / enterprise software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 22386,
-        "negotiationLowUSD": 16790,
-        "negotiationHighUSD": 27983,
-        "replacementCostUSD": 279825,
-        "marketComparableProxyUSD": 300882,
-        "incomeLicensingProxyUSD": 325822,
-        "probabilityAdjustedStrategicValueUSD": 252275,
-        "triangulatedEconomicReferenceUSD": 283594
+        "sellerAskUSD": 22376,
+        "negotiationLowUSD": 16782,
+        "negotiationHighUSD": 27970,
+        "replacementCostUSD": 279700,
+        "marketComparableProxyUSD": 300748,
+        "incomeLicensingProxyUSD": 325676,
+        "probabilityAdjustedStrategicValueUSD": 252162,
+        "triangulatedEconomicReferenceUSD": 283467
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -7090,14 +7221,14 @@
         "route": "Private deployment / enterprise licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 475703,
-        "negotiationLowUSD": 380562,
-        "negotiationHighUSD": 598826,
-        "replacementCostUSD": 1958775,
-        "marketComparableProxyUSD": 2365221,
-        "incomeLicensingProxyUSD": 2908781,
-        "probabilityAdjustedStrategicValueUSD": 2386357,
-        "triangulatedEconomicReferenceUSD": 2379719
+        "sellerAskUSD": 475490,
+        "negotiationLowUSD": 380392,
+        "negotiationHighUSD": 598558,
+        "replacementCostUSD": 1957900,
+        "marketComparableProxyUSD": 2364164,
+        "incomeLicensingProxyUSD": 2907482,
+        "probabilityAdjustedStrategicValueUSD": 2385291,
+        "triangulatedEconomicReferenceUSD": 2378656
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -7194,14 +7325,14 @@
         "route": "Private deployment / enterprise licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 167895,
-        "negotiationLowUSD": 133197,
-        "negotiationHighUSD": 209869,
-        "replacementCostUSD": 559650,
-        "marketComparableProxyUSD": 675777,
-        "incomeLicensingProxyUSD": 831080,
-        "probabilityAdjustedStrategicValueUSD": 681816,
-        "triangulatedEconomicReferenceUSD": 679920
+        "sellerAskUSD": 167820,
+        "negotiationLowUSD": 133137,
+        "negotiationHighUSD": 209775,
+        "replacementCostUSD": 559400,
+        "marketComparableProxyUSD": 675476,
+        "incomeLicensingProxyUSD": 830709,
+        "probabilityAdjustedStrategicValueUSD": 681511,
+        "triangulatedEconomicReferenceUSD": 679616
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -7292,8 +7423,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this is a constant-cost maturity sensitivity, not a future price, revenue forecast or acceptance of ingested software.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 241136,
-        "sensitivityDeltaUSD": 39779
+        "milestoneConditionedEconomicReferenceUSD": 241029,
+        "sensitivityDeltaUSD": 39761
       },
       "calculationInputs": {
         "stage": "P",
@@ -7302,14 +7433,14 @@
         "route": "Enterprise software / licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 83948,
-        "negotiationLowUSD": 67158,
-        "negotiationHighUSD": 104934,
-        "replacementCostUSD": 279825,
-        "marketComparableProxyUSD": 235473,
-        "incomeLicensingProxyUSD": 217214,
-        "probabilityAdjustedStrategicValueUSD": 116755,
-        "triangulatedEconomicReferenceUSD": 201358
+        "sellerAskUSD": 83910,
+        "negotiationLowUSD": 67128,
+        "negotiationHighUSD": 104888,
+        "replacementCostUSD": 279700,
+        "marketComparableProxyUSD": 235368,
+        "incomeLicensingProxyUSD": 217117,
+        "probabilityAdjustedStrategicValueUSD": 116703,
+        "triangulatedEconomicReferenceUSD": 201268
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -7364,14 +7495,14 @@
         "route": "B2B SaaS / enterprise software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 268632,
-        "negotiationLowUSD": 212667,
-        "negotiationHighUSD": 335790,
-        "replacementCostUSD": 951405,
-        "marketComparableProxyUSD": 1148822,
-        "incomeLicensingProxyUSD": 1477056,
-        "probabilityAdjustedStrategicValueUSD": 1159088,
-        "triangulatedEconomicReferenceUSD": 1168707
+        "sellerAskUSD": 268512,
+        "negotiationLowUSD": 212572,
+        "negotiationHighUSD": 335640,
+        "replacementCostUSD": 950980,
+        "marketComparableProxyUSD": 1148308,
+        "incomeLicensingProxyUSD": 1476396,
+        "probabilityAdjustedStrategicValueUSD": 1158570,
+        "triangulatedEconomicReferenceUSD": 1168185
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -7426,14 +7557,14 @@
         "route": "Vertical SaaS / specialist software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 727545,
-        "negotiationLowUSD": 582036,
-        "negotiationHighUSD": 912230,
-        "replacementCostUSD": 2014740,
-        "marketComparableProxyUSD": 3022110,
-        "incomeLicensingProxyUSD": 4432428,
-        "probabilityAdjustedStrategicValueUSD": 4868506,
-        "triangulatedEconomicReferenceUSD": 3698570
+        "sellerAskUSD": 727220,
+        "negotiationLowUSD": 581776,
+        "negotiationHighUSD": 911822,
+        "replacementCostUSD": 2013840,
+        "marketComparableProxyUSD": 3020760,
+        "incomeLicensingProxyUSD": 4430448,
+        "probabilityAdjustedStrategicValueUSD": 4866331,
+        "triangulatedEconomicReferenceUSD": 3696918
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -7488,14 +7619,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 895440,
-        "negotiationLowUSD": 716352,
-        "negotiationHighUSD": 1119300,
-        "replacementCostUSD": 3917550,
-        "marketComparableProxyUSD": 6463958,
-        "incomeLicensingProxyUSD": 6659835,
-        "probabilityAdjustedStrategicValueUSD": 10413193,
-        "triangulatedEconomicReferenceUSD": 7248764
+        "sellerAskUSD": 895040,
+        "negotiationLowUSD": 716032,
+        "negotiationHighUSD": 1118800,
+        "replacementCostUSD": 3915800,
+        "marketComparableProxyUSD": 6461070,
+        "incomeLicensingProxyUSD": 6656860,
+        "probabilityAdjustedStrategicValueUSD": 10408541,
+        "triangulatedEconomicReferenceUSD": 7245526
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -7588,14 +7719,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 229457,
-        "negotiationLowUSD": 183565,
-        "negotiationHighUSD": 287100,
-        "replacementCostUSD": 975470,
-        "marketComparableProxyUSD": 1177880,
-        "incomeLicensingProxyUSD": 1119351,
-        "probabilityAdjustedStrategicValueUSD": 1188406,
-        "triangulatedEconomicReferenceUSD": 1119255
+        "sellerAskUSD": 229354,
+        "negotiationLowUSD": 183483,
+        "negotiationHighUSD": 286972,
+        "replacementCostUSD": 975034,
+        "marketComparableProxyUSD": 1177354,
+        "incomeLicensingProxyUSD": 1118851,
+        "probabilityAdjustedStrategicValueUSD": 1187875,
+        "triangulatedEconomicReferenceUSD": 1118755
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -7695,8 +7826,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced. This constant-cost sensitivity is not a future price, forecast, scientific qualification or acceptance of unimplemented capabilities.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 180821,
-        "sensitivityDeltaUSD": 28801
+        "milestoneConditionedEconomicReferenceUSD": 180740,
+        "sensitivityDeltaUSD": 28788
       },
       "calculationInputs": {
         "stage": "P",
@@ -7705,14 +7836,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 67158,
-        "negotiationLowUSD": 53726,
-        "negotiationHighUSD": 83948,
-        "replacementCostUSD": 223860,
-        "marketComparableProxyUSD": 188378,
-        "incomeLicensingProxyUSD": 128440,
-        "probabilityAdjustedStrategicValueUSD": 93404,
-        "triangulatedEconomicReferenceUSD": 152020
+        "sellerAskUSD": 67128,
+        "negotiationLowUSD": 53702,
+        "negotiationHighUSD": 83910,
+        "replacementCostUSD": 223760,
+        "marketComparableProxyUSD": 188294,
+        "incomeLicensingProxyUSD": 128382,
+        "probabilityAdjustedStrategicValueUSD": 93363,
+        "triangulatedEconomicReferenceUSD": 151952
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -7762,8 +7893,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 321033,
-        "sensitivityDeltaUSD": 48366
+        "milestoneConditionedEconomicReferenceUSD": 320890,
+        "sensitivityDeltaUSD": 48344
       },
       "calculationInputs": {
         "stage": "R",
@@ -7772,14 +7903,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 61562,
-        "negotiationLowUSD": 50369,
-        "negotiationHighUSD": 78351,
-        "replacementCostUSD": 671580,
-        "marketComparableProxyUSD": 259734,
-        "incomeLicensingProxyUSD": 171253,
-        "probabilityAdjustedStrategicValueUSD": 53070,
-        "triangulatedEconomicReferenceUSD": 272667
+        "sellerAskUSD": 61534,
+        "negotiationLowUSD": 50346,
+        "negotiationHighUSD": 78316,
+        "replacementCostUSD": 671280,
+        "marketComparableProxyUSD": 259618,
+        "incomeLicensingProxyUSD": 171176,
+        "probabilityAdjustedStrategicValueUSD": 53047,
+        "triangulatedEconomicReferenceUSD": 272545
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -7829,8 +7960,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 561809,
-        "sensitivityDeltaUSD": 84641
+        "milestoneConditionedEconomicReferenceUSD": 561558,
+        "sensitivityDeltaUSD": 84604
       },
       "calculationInputs": {
         "stage": "R",
@@ -7839,14 +7970,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 55965,
-        "negotiationLowUSD": 44772,
-        "negotiationHighUSD": 72755,
-        "replacementCostUSD": 1175265,
-        "marketComparableProxyUSD": 454534,
-        "incomeLicensingProxyUSD": 299693,
-        "probabilityAdjustedStrategicValueUSD": 92874,
-        "triangulatedEconomicReferenceUSD": 477168
+        "sellerAskUSD": 55940,
+        "negotiationLowUSD": 44752,
+        "negotiationHighUSD": 72722,
+        "replacementCostUSD": 1174740,
+        "marketComparableProxyUSD": 454331,
+        "incomeLicensingProxyUSD": 299559,
+        "probabilityAdjustedStrategicValueUSD": 92832,
+        "triangulatedEconomicReferenceUSD": 476955
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -7901,14 +8032,14 @@
         "route": "Vertical SaaS / specialist software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 218264,
-        "negotiationLowUSD": 173492,
-        "negotiationHighUSD": 274229,
-        "replacementCostUSD": 727545,
-        "marketComparableProxyUSD": 878511,
-        "incomeLicensingProxyUSD": 1080404,
-        "probabilityAdjustedStrategicValueUSD": 886361,
-        "triangulatedEconomicReferenceUSD": 883896
+        "sellerAskUSD": 218166,
+        "negotiationLowUSD": 173414,
+        "negotiationHighUSD": 274106,
+        "replacementCostUSD": 727220,
+        "marketComparableProxyUSD": 878118,
+        "incomeLicensingProxyUSD": 1079922,
+        "probabilityAdjustedStrategicValueUSD": 885965,
+        "triangulatedEconomicReferenceUSD": 883501
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -7978,14 +8109,14 @@
         "route": "Vertical SaaS / specialist software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 330194,
-        "negotiationLowUSD": 265274,
-        "negotiationHighUSD": 413022,
-        "replacementCostUSD": 1337564,
-        "marketComparableProxyUSD": 1615108,
-        "incomeLicensingProxyUSD": 1986282,
-        "probabilityAdjustedStrategicValueUSD": 1629541,
-        "triangulatedEconomicReferenceUSD": 1625009
+        "sellerAskUSD": 330046,
+        "negotiationLowUSD": 265156,
+        "negotiationHighUSD": 412837,
+        "replacementCostUSD": 1336966,
+        "marketComparableProxyUSD": 1614387,
+        "incomeLicensingProxyUSD": 1985395,
+        "probabilityAdjustedStrategicValueUSD": 1628813,
+        "triangulatedEconomicReferenceUSD": 1624283
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -8040,14 +8171,14 @@
         "route": "Vertical SaaS / specialist software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 179088,
-        "negotiationLowUSD": 145509,
-        "negotiationHighUSD": 223860,
-        "replacementCostUSD": 727545,
-        "marketComparableProxyUSD": 836677,
-        "incomeLicensingProxyUSD": 1080404,
-        "probabilityAdjustedStrategicValueUSD": 844154,
-        "triangulatedEconomicReferenceUSD": 860756
+        "sellerAskUSD": 179008,
+        "negotiationLowUSD": 145444,
+        "negotiationHighUSD": 223760,
+        "replacementCostUSD": 727220,
+        "marketComparableProxyUSD": 836303,
+        "incomeLicensingProxyUSD": 1079922,
+        "probabilityAdjustedStrategicValueUSD": 843777,
+        "triangulatedEconomicReferenceUSD": 860372
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -8152,14 +8283,14 @@
         "route": "Private deployment / enterprise licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 346983,
-        "negotiationLowUSD": 277586,
-        "negotiationHighUSD": 434288,
-        "replacementCostUSD": 1164072,
-        "marketComparableProxyUSD": 1472551,
-        "incomeLicensingProxyUSD": 1728647,
-        "probabilityAdjustedStrategicValueUSD": 1485710,
-        "triangulatedEconomicReferenceUSD": 1451256
+        "sellerAskUSD": 346828,
+        "negotiationLowUSD": 277462,
+        "negotiationHighUSD": 434094,
+        "replacementCostUSD": 1163552,
+        "marketComparableProxyUSD": 1471893,
+        "incomeLicensingProxyUSD": 1727875,
+        "probabilityAdjustedStrategicValueUSD": 1485046,
+        "triangulatedEconomicReferenceUSD": 1450608
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -8226,14 +8357,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 335790,
-        "negotiationLowUSD": 268632,
-        "negotiationHighUSD": 419738,
-        "replacementCostUSD": 1343160,
-        "marketComparableProxyUSD": 1390171,
-        "incomeLicensingProxyUSD": 1541276,
-        "probabilityAdjustedStrategicValueUSD": 1402594,
-        "triangulatedEconomicReferenceUSD": 1412988
+        "sellerAskUSD": 335640,
+        "negotiationLowUSD": 268512,
+        "negotiationHighUSD": 419550,
+        "replacementCostUSD": 1342560,
+        "marketComparableProxyUSD": 1389550,
+        "incomeLicensingProxyUSD": 1540588,
+        "probabilityAdjustedStrategicValueUSD": 1401967,
+        "triangulatedEconomicReferenceUSD": 1412356
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -8283,8 +8414,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 1128439,
-        "sensitivityDeltaUSD": 220941
+        "milestoneConditionedEconomicReferenceUSD": 1127935,
+        "sensitivityDeltaUSD": 220842
       },
       "calculationInputs": {
         "stage": "P",
@@ -8293,14 +8424,14 @@
         "route": "Enterprise software / licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 167895,
-        "negotiationLowUSD": 134316,
-        "negotiationHighUSD": 212667,
-        "replacementCostUSD": 895440,
-        "marketComparableProxyUSD": 962822,
-        "incomeLicensingProxyUSD": 1042628,
-        "probabilityAdjustedStrategicValueUSD": 807279,
-        "triangulatedEconomicReferenceUSD": 907498
+        "sellerAskUSD": 167820,
+        "negotiationLowUSD": 134256,
+        "negotiationHighUSD": 212572,
+        "replacementCostUSD": 895040,
+        "marketComparableProxyUSD": 962392,
+        "incomeLicensingProxyUSD": 1042162,
+        "probabilityAdjustedStrategicValueUSD": 806919,
+        "triangulatedEconomicReferenceUSD": 907093
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -8350,8 +8481,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 497257,
-        "sensitivityDeltaUSD": 79202
+        "milestoneConditionedEconomicReferenceUSD": 497035,
+        "sensitivityDeltaUSD": 79166
       },
       "calculationInputs": {
         "stage": "P",
@@ -8360,14 +8491,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 72755,
-        "negotiationLowUSD": 55965,
-        "negotiationHighUSD": 89544,
-        "replacementCostUSD": 615615,
-        "marketComparableProxyUSD": 518040,
-        "incomeLicensingProxyUSD": 353210,
-        "probabilityAdjustedStrategicValueUSD": 256861,
-        "triangulatedEconomicReferenceUSD": 418055
+        "sellerAskUSD": 72722,
+        "negotiationLowUSD": 55940,
+        "negotiationHighUSD": 89504,
+        "replacementCostUSD": 615340,
+        "marketComparableProxyUSD": 517809,
+        "incomeLicensingProxyUSD": 353052,
+        "probabilityAdjustedStrategicValueUSD": 256747,
+        "triangulatedEconomicReferenceUSD": 417868
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -8417,8 +8548,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only on an evidenced software-maturity milestone. This constant-cost sensitivity is not a future asking price, income forecast or acceptance of unimplemented research goals.",
         "modelBasis": "Retained model; maturity alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 86810,
-        "sensitivityDeltaUSD": 14320
+        "milestoneConditionedEconomicReferenceUSD": 86771,
+        "sensitivityDeltaUSD": 14314
       },
       "calculationInputs": {
         "stage": "P",
@@ -8427,14 +8558,14 @@
         "route": "Enterprise software / licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 30221,
-        "negotiationLowUSD": 24177,
-        "negotiationHighUSD": 37776,
-        "replacementCostUSD": 100737,
-        "marketComparableProxyUSD": 84770,
-        "incomeLicensingProxyUSD": 78198,
-        "probabilityAdjustedStrategicValueUSD": 42032,
-        "triangulatedEconomicReferenceUSD": 72489
+        "sellerAskUSD": 30208,
+        "negotiationLowUSD": 24166,
+        "negotiationHighUSD": 37760,
+        "replacementCostUSD": 100692,
+        "marketComparableProxyUSD": 84732,
+        "incomeLicensingProxyUSD": 78163,
+        "probabilityAdjustedStrategicValueUSD": 42013,
+        "triangulatedEconomicReferenceUSD": 72457
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -8565,14 +8696,14 @@
         "route": "Private deployment / enterprise licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 6716,
-        "negotiationLowUSD": 5037,
-        "negotiationHighUSD": 8395,
-        "replacementCostUSD": 20707,
-        "marketComparableProxyUSD": 15841,
-        "incomeLicensingProxyUSD": 15375,
-        "probabilityAdjustedStrategicValueUSD": 7854,
-        "triangulatedEconomicReferenceUSD": 14169
+        "sellerAskUSD": 6713,
+        "negotiationLowUSD": 5035,
+        "negotiationHighUSD": 8391,
+        "replacementCostUSD": 20698,
+        "marketComparableProxyUSD": 15834,
+        "incomeLicensingProxyUSD": 15368,
+        "probabilityAdjustedStrategicValueUSD": 7851,
+        "triangulatedEconomicReferenceUSD": 14163
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -8622,8 +8753,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only on an evidenced software-maturity milestone. This constant-cost sensitivity is not a future asking price, income forecast or acceptance of unimplemented research goals.",
         "modelBasis": "Retained model; maturity alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 88126,
-        "sensitivityDeltaUSD": 13311
+        "milestoneConditionedEconomicReferenceUSD": 88086,
+        "sensitivityDeltaUSD": 13305
       },
       "calculationInputs": {
         "stage": "P",
@@ -8632,14 +8763,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 36937,
-        "negotiationLowUSD": 29550,
-        "negotiationHighUSD": 46171,
-        "replacementCostUSD": 123123,
-        "marketComparableProxyUSD": 80061,
-        "incomeLicensingProxyUSD": 70642,
-        "probabilityAdjustedStrategicValueUSD": 39697,
-        "triangulatedEconomicReferenceUSD": 74815
+        "sellerAskUSD": 36920,
+        "negotiationLowUSD": 29536,
+        "negotiationHighUSD": 46151,
+        "replacementCostUSD": 123068,
+        "marketComparableProxyUSD": 80026,
+        "incomeLicensingProxyUSD": 70611,
+        "probabilityAdjustedStrategicValueUSD": 39679,
+        "triangulatedEconomicReferenceUSD": 74782
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -8732,14 +8863,14 @@
         "route": "Vertical SaaS / specialist software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 268632,
-        "negotiationLowUSD": 217144,
-        "negotiationHighUSD": 337469,
-        "replacementCostUSD": 892082,
-        "marketComparableProxyUSD": 1077189,
-        "incomeLicensingProxyUSD": 1324742,
-        "probabilityAdjustedStrategicValueUSD": 1086815,
-        "triangulatedEconomicReferenceUSD": 1083791
+        "sellerAskUSD": 268512,
+        "negotiationLowUSD": 217047,
+        "negotiationHighUSD": 337318,
+        "replacementCostUSD": 891684,
+        "marketComparableProxyUSD": 1076707,
+        "incomeLicensingProxyUSD": 1324150,
+        "probabilityAdjustedStrategicValueUSD": 1086329,
+        "triangulatedEconomicReferenceUSD": 1083307
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -8801,8 +8932,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 1236363,
-        "sensitivityDeltaUSD": 230049
+        "milestoneConditionedEconomicReferenceUSD": 1235811,
+        "sensitivityDeltaUSD": 229946
       },
       "calculationInputs": {
         "stage": "P",
@@ -8811,14 +8942,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 139913,
-        "negotiationLowUSD": 111930,
-        "negotiationHighUSD": 173492,
-        "replacementCostUSD": 1175265,
-        "marketComparableProxyUSD": 1033940,
-        "incomeLicensingProxyUSD": 1011462,
-        "probabilityAdjustedStrategicValueUSD": 866908,
-        "triangulatedEconomicReferenceUSD": 1006315
+        "sellerAskUSD": 139850,
+        "negotiationLowUSD": 111880,
+        "negotiationHighUSD": 173414,
+        "replacementCostUSD": 1174740,
+        "marketComparableProxyUSD": 1033478,
+        "incomeLicensingProxyUSD": 1011010,
+        "probabilityAdjustedStrategicValueUSD": 866521,
+        "triangulatedEconomicReferenceUSD": 1005865
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -8883,8 +9014,8 @@
         "futureReferenceStatus": "CONDITIONAL",
         "acceptanceRule": "Re-evaluate only on an evidenced software-maturity milestone. This constant-cost sensitivity is not a future asking price, income forecast or acceptance of unimplemented research goals.",
         "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 108386,
-        "sensitivityDeltaUSD": 17386
+        "milestoneConditionedEconomicReferenceUSD": 108338,
+        "sensitivityDeltaUSD": 17378
       },
       "calculationInputs": {
         "stage": "P",
@@ -8893,14 +9024,14 @@
         "route": "Media / creator software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 40295,
-        "negotiationLowUSD": 32236,
-        "negotiationHighUSD": 50369,
-        "replacementCostUSD": 134316,
-        "marketComparableProxyUSD": 102752,
-        "incomeLicensingProxyUSD": 95196,
-        "probabilityAdjustedStrategicValueUSD": 50948,
-        "triangulatedEconomicReferenceUSD": 91000
+        "sellerAskUSD": 40277,
+        "negotiationLowUSD": 32221,
+        "negotiationHighUSD": 50346,
+        "replacementCostUSD": 134256,
+        "marketComparableProxyUSD": 102706,
+        "incomeLicensingProxyUSD": 95154,
+        "probabilityAdjustedStrategicValueUSD": 50926,
+        "triangulatedEconomicReferenceUSD": 90960
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -8955,14 +9086,14 @@
         "route": "B2B SaaS / enterprise software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 643598,
-        "negotiationLowUSD": 514878,
-        "negotiationHighUSD": 805896,
-        "replacementCostUSD": 2686320,
-        "marketComparableProxyUSD": 3398195,
-        "incomeLicensingProxyUSD": 4170512,
-        "probabilityAdjustedStrategicValueUSD": 3428561,
-        "triangulatedEconomicReferenceUSD": 3385318
+        "sellerAskUSD": 643310,
+        "negotiationLowUSD": 514648,
+        "negotiationHighUSD": 805536,
+        "replacementCostUSD": 2685120,
+        "marketComparableProxyUSD": 3396677,
+        "incomeLicensingProxyUSD": 4168649,
+        "probabilityAdjustedStrategicValueUSD": 3427030,
+        "triangulatedEconomicReferenceUSD": 3383806
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -9017,14 +9148,14 @@
         "route": "B2B SaaS / enterprise software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 503685,
-        "negotiationLowUSD": 402948,
-        "negotiationHighUSD": 632405,
-        "replacementCostUSD": 1399125,
-        "marketComparableProxyUSD": 2308556,
-        "incomeLicensingProxyUSD": 3217988,
-        "probabilityAdjustedStrategicValueUSD": 3718997,
-        "triangulatedEconomicReferenceUSD": 2756740
+        "sellerAskUSD": 503460,
+        "negotiationLowUSD": 402768,
+        "negotiationHighUSD": 632122,
+        "replacementCostUSD": 1398500,
+        "marketComparableProxyUSD": 2307525,
+        "incomeLicensingProxyUSD": 3216550,
+        "probabilityAdjustedStrategicValueUSD": 3717336,
+        "triangulatedEconomicReferenceUSD": 2755508
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -9079,14 +9210,14 @@
         "route": "B2B SaaS / enterprise software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 727545,
-        "negotiationLowUSD": 582036,
-        "negotiationHighUSD": 912230,
-        "replacementCostUSD": 2238600,
-        "marketComparableProxyUSD": 3525795,
-        "incomeLicensingProxyUSD": 5148780,
-        "probabilityAdjustedStrategicValueUSD": 5679924,
-        "triangulatedEconomicReferenceUSD": 4282538
+        "sellerAskUSD": 727220,
+        "negotiationLowUSD": 581776,
+        "negotiationHighUSD": 911822,
+        "replacementCostUSD": 2237600,
+        "marketComparableProxyUSD": 3524220,
+        "incomeLicensingProxyUSD": 5146480,
+        "probabilityAdjustedStrategicValueUSD": 5677386,
+        "triangulatedEconomicReferenceUSD": 4280625
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -9183,14 +9314,14 @@
         "route": "B2B SaaS / enterprise software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 207630,
-        "negotiationLowUSD": 167335,
-        "negotiationHighUSD": 259678,
-        "replacementCostUSD": 979388,
-        "marketComparableProxyUSD": 1238925,
-        "incomeLicensingProxyUSD": 1520500,
-        "probabilityAdjustedStrategicValueUSD": 1249996,
-        "triangulatedEconomicReferenceUSD": 1234231
+        "sellerAskUSD": 207537,
+        "negotiationLowUSD": 167261,
+        "negotiationHighUSD": 259562,
+        "replacementCostUSD": 978950,
+        "marketComparableProxyUSD": 1238372,
+        "incomeLicensingProxyUSD": 1519820,
+        "probabilityAdjustedStrategicValueUSD": 1249438,
+        "triangulatedEconomicReferenceUSD": 1233680
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -9245,14 +9376,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 179088,
-        "negotiationLowUSD": 145509,
-        "negotiationHighUSD": 223860,
-        "replacementCostUSD": 951405,
-        "marketComparableProxyUSD": 732582,
-        "incomeLicensingProxyUSD": 485217,
-        "probabilityAdjustedStrategicValueUSD": 250884,
-        "triangulatedEconomicReferenceUSD": 569220
+        "sellerAskUSD": 179008,
+        "negotiationLowUSD": 145444,
+        "negotiationHighUSD": 223760,
+        "replacementCostUSD": 950980,
+        "marketComparableProxyUSD": 732255,
+        "incomeLicensingProxyUSD": 485000,
+        "probabilityAdjustedStrategicValueUSD": 250772,
+        "triangulatedEconomicReferenceUSD": 568966
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -9345,14 +9476,14 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 291018,
-        "negotiationLowUSD": 235053,
-        "negotiationHighUSD": 363773,
-        "replacementCostUSD": 1343720,
-        "marketComparableProxyUSD": 1330282,
-        "incomeLicensingProxyUSD": 1027946,
-        "probabilityAdjustedStrategicValueUSD": 793717,
-        "triangulatedEconomicReferenceUSD": 1085376
+        "sellerAskUSD": 290888,
+        "negotiationLowUSD": 234948,
+        "negotiationHighUSD": 363610,
+        "replacementCostUSD": 1343119,
+        "marketComparableProxyUSD": 1329688,
+        "incomeLicensingProxyUSD": 1027487,
+        "probabilityAdjustedStrategicValueUSD": 793362,
+        "triangulatedEconomicReferenceUSD": 1084891
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -9484,14 +9615,14 @@
         "route": "Media / creator software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 9514,
-        "negotiationLowUSD": 7835,
-        "negotiationHighUSD": 11753,
-        "replacementCostUSD": 32460,
-        "marketComparableProxyUSD": 24832,
-        "incomeLicensingProxyUSD": 23006,
-        "probabilityAdjustedStrategicValueUSD": 12312,
-        "triangulatedEconomicReferenceUSD": 21992
+        "sellerAskUSD": 9510,
+        "negotiationLowUSD": 7832,
+        "negotiationHighUSD": 11747,
+        "replacementCostUSD": 32445,
+        "marketComparableProxyUSD": 24821,
+        "incomeLicensingProxyUSD": 22996,
+        "probabilityAdjustedStrategicValueUSD": 12307,
+        "triangulatedEconomicReferenceUSD": 21982
       },
       "assessment": {
         "assessedOn": "2026-10-21",
@@ -9515,22 +9646,22 @@
     {
       "ref": "TA-IP-109",
       "values": {
-        "sellerAskEUR": 14000,
-        "negotiationLowEUR": 11000,
-        "negotiationHighEUR": 17500,
-        "replacementCostEUR": 46500,
-        "marketComparableProxyEUR": 35573,
-        "incomeLicensingProxyEUR": 32957,
-        "probabilityAdjustedStrategicValueEUR": 17638,
-        "triangulatedEconomicReferenceEUR": 31504
+        "sellerAskEUR": 36000,
+        "negotiationLowEUR": 28500,
+        "negotiationHighEUR": 45000,
+        "replacementCostEUR": 120000,
+        "marketComparableProxyEUR": 91800,
+        "incomeLicensingProxyEUR": 85050,
+        "probabilityAdjustedStrategicValueEUR": 45518,
+        "triangulatedEconomicReferenceEUR": 81301
       },
-      "basisDate": "2026-10-25",
+      "basisDate": "2026-10-26",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The recreation estimate is the lowest explicitly scoped equivalent-effort budget below. It is not recorded expenditure, an absolute cost floor, an independent quotation or an established market value. First-party software and agreed templates only. Live operation, source/content licences, an operating business, audience, domain entitlement, model/API usage and independent legal clearance are excluded.",
+      "costBasisNote": "The retained expressly priced scope and successive non-overlapping implementation budgets reconcile below. Equivalent effort and historical anchors remain seller assumptions; actual expenditure, independent quotations and market value are not established. The previously priced editorial, timing, release-registry and site-builder foundations are reused once. Only the added bounded operational, cost, continuity, replay and offline rehearsal software is included. Live hosting, licensed content, real API charges, editorial/legal clearance, real offsite backups and an operating media business are excluded.",
       "costBudgets": [
         {
           "kind": "Low-effort working estimate",
@@ -9575,6 +9706,64 @@
           },
           "boundary": "Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. First-party software and agreed templates only. Live operation, source/content licences, an operating business, audience, domain entitlement, model/API usage and independent legal clearance are excluded.",
           "adoptedRecreationCostEUR": 46500
+        },
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "economicAssessmentAt": "2026-10-26",
+          "scope": "Release acceptance, recovery and private handover controls; Operational incident and recovery-evidence review; Bounded execution, trust and continuity controls; Usage-cost reconciliation and transport-safety controls; Offline receipt, custody and replay qualification; Single-server prelaunch rehearsal and security planning; Synthetic database backup and recovery rehearsal; Failure-case qualification, instructions and handover.",
+          "workPackages": [
+            {
+              "scope": "Release acceptance, recovery and private handover controls",
+              "lowEffortHours": 72
+            },
+            {
+              "scope": "Operational incident and recovery-evidence review",
+              "lowEffortHours": 96
+            },
+            {
+              "scope": "Bounded execution, trust and continuity controls",
+              "lowEffortHours": 128
+            },
+            {
+              "scope": "Usage-cost reconciliation and transport-safety controls",
+              "lowEffortHours": 104
+            },
+            {
+              "scope": "Offline receipt, custody and replay qualification",
+              "lowEffortHours": 80
+            },
+            {
+              "scope": "Single-server prelaunch rehearsal and security planning",
+              "lowEffortHours": 72
+            },
+            {
+              "scope": "Synthetic database backup and recovery rehearsal",
+              "lowEffortHours": 48
+            },
+            {
+              "scope": "Failure-case qualification, instructions and handover",
+              "lowEffortHours": 80
+            }
+          ],
+          "assumedHours": 680,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 63920,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 73508,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 680,
+            "referenceHours": 1020,
+            "extendedHours": 1360,
+            "lowCostEUR": 73508,
+            "referenceCostEUR": 110262,
+            "extendedCostEUR": 147016
+          },
+          "boundary": "Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. The previously priced editorial, timing, release-registry and site-builder foundations are reused once. Only the added bounded operational, cost, continuity, replay and offline rehearsal software is included. Live hosting, licensed content, real API charges, editorial/legal clearance, real offsite backups and an operating media business are excluded.",
+          "adoptedRecreationIncrementEUR": 73500,
+          "previousRecreationCostEUR": 46500,
+          "currentRecreationCostEUR": 120000
         }
       ],
       "futureReference": {
@@ -9592,18 +9781,18 @@
         "route": "Media / creator software"
       },
       "valuesUSD": {
-        "sellerAskUSD": 15670,
-        "negotiationLowUSD": 12312,
-        "negotiationHighUSD": 19588,
-        "replacementCostUSD": 52047,
-        "marketComparableProxyUSD": 39817,
-        "incomeLicensingProxyUSD": 36889,
-        "probabilityAdjustedStrategicValueUSD": 19742,
-        "triangulatedEconomicReferenceUSD": 35262
+        "sellerAskUSD": 40277,
+        "negotiationLowUSD": 31886,
+        "negotiationHighUSD": 50346,
+        "replacementCostUSD": 134256,
+        "marketComparableProxyUSD": 102706,
+        "incomeLicensingProxyUSD": 95154,
+        "probabilityAdjustedStrategicValueUSD": 50926,
+        "triangulatedEconomicReferenceUSD": 90960
       },
       "assessment": {
-        "assessedOn": "2026-10-25",
-        "offeredEdition": "R5.7 prelaunch",
+        "assessedOn": "2026-10-26",
+        "offeredEdition": "R5.35 prelaunch",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "FULL_SCOPED_BUDGET",
         "costEvidenceLabel": "Stated scope reconciled to explicit budgets",
@@ -9623,22 +9812,22 @@
     {
       "ref": "TA-IP-110",
       "values": {
-        "sellerAskEUR": 11000,
-        "negotiationLowEUR": 9000,
-        "negotiationHighEUR": 14000,
-        "replacementCostEUR": 37000,
-        "marketComparableProxyEUR": 14310,
-        "incomeLicensingProxyEUR": 9435,
-        "probabilityAdjustedStrategicValueEUR": 2924,
-        "triangulatedEconomicReferenceEUR": 15022
+        "sellerAskEUR": 14500,
+        "negotiationLowEUR": 12000,
+        "negotiationHighEUR": 18500,
+        "replacementCostEUR": 49500,
+        "marketComparableProxyEUR": 19144,
+        "incomeLicensingProxyEUR": 12623,
+        "probabilityAdjustedStrategicValueEUR": 3912,
+        "triangulatedEconomicReferenceEUR": 20098
       },
-      "basisDate": "2026-10-25",
+      "basisDate": "2026-10-26",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The recreation estimate is the lowest explicitly scoped equivalent-effort budget below. It is not recorded expenditure, an absolute cost floor, an independent quotation or an established market value. First-party research software only. Empirical discoveries, physical theories, instrument calibration, third-party datasets, external Fermitools qualification and future model engines are excluded.",
+      "costBasisNote": "The retained expressly priced scope and successive non-overlapping implementation budgets reconcile below. Equivalent effort and historical anchors remain seller assumptions; actual expenditure, independent quotations and market value are not established. The previously priced synthetic experiments, astronomical-file audits, replay and hypothesis registry are reused once. Only the added bounded portfolio, dimension/source checks and covariance-aware synthetic comparison software is included. Empirical discoveries, physical theories, calibrated instrument response, third-party datasets and future model engines are excluded.",
       "costBudgets": [
         {
           "kind": "Low-effort working estimate",
@@ -9687,6 +9876,48 @@
           },
           "boundary": "Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. First-party research software only. Empirical discoveries, physical theories, instrument calibration, third-party datasets, external Fermitools qualification and future model engines are excluded.",
           "adoptedRecreationCostEUR": 37000
+        },
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "economicAssessmentAt": "2026-10-26",
+          "scope": "Bounded model portfolios and prediction-source records; Dimension-qualified synthetic model comparisons; Covariance-aware fixed-model discrimination controls; Adversarial replay qualification and documentation.",
+          "workPackages": [
+            {
+              "scope": "Bounded model portfolios and prediction-source records",
+              "lowEffortHours": 32
+            },
+            {
+              "scope": "Dimension-qualified synthetic model comparisons",
+              "lowEffortHours": 32
+            },
+            {
+              "scope": "Covariance-aware fixed-model discrimination controls",
+              "lowEffortHours": 32
+            },
+            {
+              "scope": "Adversarial replay qualification and documentation",
+              "lowEffortHours": 24
+            }
+          ],
+          "assumedHours": 120,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 11280,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 12972,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 120,
+            "referenceHours": 180,
+            "extendedHours": 240,
+            "lowCostEUR": 12972,
+            "referenceCostEUR": 19458,
+            "extendedCostEUR": 25944
+          },
+          "boundary": "Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. The previously priced synthetic experiments, astronomical-file audits, replay and hypothesis registry are reused once. Only the added bounded portfolio, dimension/source checks and covariance-aware synthetic comparison software is included. Empirical discoveries, physical theories, calibrated instrument response, third-party datasets and future model engines are excluded.",
+          "adoptedRecreationIncrementEUR": 12500,
+          "previousRecreationCostEUR": 37000,
+          "currentRecreationCostEUR": 49500
         }
       ],
       "futureReference": {
@@ -9704,18 +9935,18 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 12312,
-        "negotiationLowUSD": 10074,
-        "negotiationHighUSD": 15670,
-        "replacementCostUSD": 41414,
-        "marketComparableProxyUSD": 16017,
-        "incomeLicensingProxyUSD": 10561,
-        "probabilityAdjustedStrategicValueUSD": 3273,
-        "triangulatedEconomicReferenceUSD": 16814
+        "sellerAskUSD": 16223,
+        "negotiationLowUSD": 13426,
+        "negotiationHighUSD": 20698,
+        "replacementCostUSD": 55381,
+        "marketComparableProxyUSD": 21418,
+        "incomeLicensingProxyUSD": 14123,
+        "probabilityAdjustedStrategicValueUSD": 4377,
+        "triangulatedEconomicReferenceUSD": 22486
       },
       "assessment": {
-        "assessedOn": "2026-10-25",
-        "offeredEdition": "0.15.0 development",
+        "assessedOn": "2026-10-26",
+        "offeredEdition": "0.18.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "FULL_SCOPED_BUDGET",
         "costEvidenceLabel": "Stated scope reconciled to explicit budgets",
@@ -9734,13 +9965,13 @@
     }
   ],
   "portfolioUSD": {
-    "sellerAskUSD": 27756401,
-    "negotiationLowUSD": 22171094,
-    "negotiationHighUSD": 34786025,
-    "replacementCostUSD": 118207594,
-    "marketComparableProxyUSD": 134292262,
-    "incomeLicensingProxyUSD": 157973645,
-    "probabilityAdjustedStrategicValueUSD": 147448225,
-    "triangulatedEconomicReferenceUSD": 139611961
+    "sellerAskUSD": 27797145,
+    "negotiationLowUSD": 22203145,
+    "negotiationHighUSD": 34836495,
+    "replacementCostUSD": 118342189,
+    "marketComparableProxyUSD": 134407780,
+    "incomeLicensingProxyUSD": 158098199,
+    "probabilityAdjustedStrategicValueUSD": 147536392,
+    "triangulatedEconomicReferenceUSD": 139724483
   }
 }

@@ -739,31 +739,34 @@
         "enterprise",
         "research"
       ],
-      "summary": "Organise authorised information about people, organisations and events, and review the relationships that matter to your investigation.",
-      "overview": "An entity-intelligence prototype for authorised collection and attributable relationship review.",
+      "summary": "Collect authorised information, review attributable entity relationships and recover bounded local workflows while evaluating controlled multi-worker reference designs.",
+      "overview": "An authorised evidence and entity-intelligence prototype with recoverable local work state, relationship review and controlled worker-ownership reference workflows.",
       "potentialBuyers": [
-        "Corporate analysis teams",
-        "Intelligence software vendors",
-        "Research organisations"
+        "Evidence and investigation-software vendors",
+        "Enterprise intelligence and compliance teams",
+        "Authorised research and information-analysis providers"
       ],
       "capabilities": [
-        "Collect permitted source records",
-        "Resolve entity references",
-        "Review relationships",
-        "Detect recorded changes",
-        "Prepare attributable analytical outputs"
+        "Collect and normalise authorised source information",
+        "Resolve supported entities and inspect bounded relationship graphs",
+        "Review attributable evidence and change records",
+        "Recover bounded local work state after interruption",
+        "Evaluate controlled ownership, retry and stale-worker scenarios"
       ],
       "outputTypes": [
-        "Entity dossiers",
-        "Relationship views",
-        "Evidence histories"
+        "Entity and relationship views",
+        "Attributable evidence packages",
+        "Recovery and continuity records",
+        "Reference deployment and acceptance assessments"
       ],
       "maturity": "Prototype",
-      "maturityNote": "A prototype offered for evaluation and continued development; production acceptance is separate.",
+      "maturityNote": "A developed prototype with bounded local software qualification. Real distributed deployment and recipient acceptance require separate evidence.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 200000,
+      "askingReferenceEUR": 206000,
       "materialBoundaries": [
-        "Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately."
+        "The offered edition is a developed prototype for authorised information workflows; source permissions and intended-use acceptance remain separate.",
+        "Local durability is a bounded single-writer implementation. Distributed operation requires separately supplied durable persistence and queue services with independent qualification.",
+        "Reference concurrency and recovery checks do not establish production multi-node durability, legal compliance or unrestricted access to third-party sources."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -1049,33 +1052,34 @@
         "software",
         "research"
       ],
-      "summary": "Explore bio-inspired neural dynamics, compare controlled perturbation studies and examine the evidence behind synthetic research results.",
-      "overview": "Computational-neuroscience research software for synthetic neural dynamics, controlled perturbations, interaction stability and reproducible comparison evidence.",
+      "summary": "Explore synthetic neural dynamics, define bounded research experiments and review comparison, lineage and reproducibility evidence within qualified environments.",
+      "overview": "Computational-neuroscience research software for synthetic neural experiments, controlled comparisons, declared experiment/result packages and qualified-environment replay diagnostics.",
       "potentialBuyers": [
-        "Neuroscience research groups",
-        "AI research teams",
-        "Scientific software vendors"
+        "Computational-neuroscience research teams",
+        "Research-software and simulation vendors",
+        "AI and neural-systems methodology groups"
       ],
       "capabilities": [
-        "Model supported synthetic neural dynamics",
-        "Compare controlled perturbation and stability studies",
-        "Review research-source and experiment lineage",
-        "Compare fixed-grid interaction fingerprints",
-        "Export bounded research and qualification reports"
+        "Model supported synthetic neural dynamics and perturbations",
+        "Compare interaction stability and fixed-grid research outputs",
+        "Declare and verify bounded experiments and result packages",
+        "Review source-specific lineage and negative-case controls",
+        "Capture and compare numerical replay diagnostics"
       ],
       "outputTypes": [
-        "Synthetic simulation outputs",
-        "Interaction comparison reports",
-        "Lineage and qualification summaries"
+        "Synthetic experiment outputs",
+        "Declared experiment and result packages",
+        "Interaction and lineage reports",
+        "Environment-specific replay diagnostics"
       ],
       "maturity": "Developed software",
       "maturityNote": "Developed research or product software within the identified edition and material boundaries. Intended-use and recipient acceptance remain separate.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 929000,
+      "askingReferenceEUR": 934000,
       "materialBoundaries": [
         "Software and synthetic-study results do not establish biological equivalence, clinical relevance, cognition or causal validity.",
-        "Third-party research data retains its own rights and qualification requirements.",
-        "Exact numerical replay has not fully reconciled in the current local environment; qualify reproducibility in the recipient environment before relying on interaction qualification outputs."
+        "Recorded CPU evidence qualifies only its identified source and environments; third-party research data retains its own rights.",
+        "Exact numerical replay remains unresolved in another local environment, including downstream experiment qualification. Recipient-environment acceptance is required before relying on these outputs."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -1362,34 +1366,34 @@
         "software",
         "media"
       ],
-      "summary": "Develop lyrics, review revision proposals and manage a controlled songwriting workflow with traceable project history.",
-      "overview": "Songwriting software with a controlled customer workspace, evidence-linked revision, asynchronous assistance and deployment/recovery controls.",
+      "summary": "Develop lyrics, review revision proposals and prepare controlled recovery, migration and deployment evaluations for a defined songwriting workflow.",
+      "overview": "Songwriting software for controlled lyric development, evidence-linked revision, recoverable customer workflows and bounded deployment qualification.",
       "potentialBuyers": [
-        "Songwriting software vendors",
-        "Music production teams",
-        "Creative-tool developers"
+        "Music and creator-software vendors",
+        "Songwriting and publishing businesses",
+        "Private creative-workflow operators"
       ],
       "capabilities": [
-        "Review deterministic lyric and project checks",
-        "Prepare and explicitly accept revision proposals",
-        "Use a controlled customer workspace",
-        "Manage metered assistance and recover prior work",
-        "Prepare bounded deployment and recovery packages"
+        "Develop lyric projects and review explicit revision proposals",
+        "Manage controlled metered assistance and recover prior work",
+        "Review synthetic migration and recovery rehearsals",
+        "Evaluate bounded hosting, ingress and local runtime conditions",
+        "Prepare compatibility and recipient-acceptance evidence"
       ],
       "outputTypes": [
-        "Lyric projects",
-        "Revision proposals and comparisons",
-        "Review reports",
-        "Recovery and delivery packages"
+        "Lyric projects and revision comparisons",
+        "Controlled workflow records",
+        "Migration and recovery review packages",
+        "Deployment and compatibility assessments"
       ],
       "maturity": "Developed software",
       "maturityNote": "Developed research or product software within the identified edition and material boundaries. Intended-use and recipient acceptance remain separate.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 314500,
+      "askingReferenceEUR": 325500,
       "materialBoundaries": [
         "Software checks do not establish artistic merit, originality, commercial success or rights clearance.",
-        "Third-party model, payment, email and hosting services require separate entitlements and acceptance.",
-        "Version 3.24.0 is development scope; independent database, browser and production-security acceptance remain separate."
+        "Recorded software qualification covers its identified disposable test scope; the current compatibility candidate is not a production-qualified service.",
+        "Live integrations, tenant migration, keys, hosting security and recipient acceptance require separate qualification."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -5729,34 +5733,34 @@
         "media",
         "software"
       ],
-      "summary": "Prepare and review entertainment-satire publishing workflows with editorial timing, controlled release records and a prelaunch site builder.",
-      "overview": "A standalone prelaunch publishing-software asset for American-English entertainment satire, editorial workflow, release governance and static output preparation.",
+      "summary": "Prepare entertainment-satire publishing workflows, review release and operating-cost conditions and rehearse bounded recovery before any separately approved launch.",
+      "overview": "A standalone prelaunch entertainment-satire publishing-software asset with editorial workflows, controlled release records, bounded operating-cost review and offline recovery/rehearsal tooling.",
       "potentialBuyers": [
         "Digital media publishers",
         "Entertainment editorial teams",
         "Publishing-workflow software vendors"
       ],
       "capabilities": [
-        "Organise editorial desks and draft workflows",
-        "Review source and publication conditions",
-        "Plan relevance, rotation and editorial timing",
-        "Prepare controlled publication and correction records",
-        "Build a local prelaunch presentation"
+        "Organise editorial desks, drafts and timing plans",
+        "Review publication, correction and release conditions",
+        "Reconcile bounded usage-cost and incident records",
+        "Review continuity, receipt and replay conditions offline",
+        "Rehearse prelaunch host planning and synthetic recovery"
       ],
       "outputTypes": [
-        "Editorial review records",
-        "Scheduling and rotation plans",
-        "Release review packages",
-        "Static prelaunch output"
+        "Editorial and release-review packages",
+        "Usage-cost and incident review reports",
+        "Continuity and replay records",
+        "Static prelaunch output and rehearsal reports"
       ],
       "maturity": "Prototype",
       "maturityNote": "Available as a specifically scoped research or development software asset. Independent application, rights and handover acceptance remain separate.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 14000,
+      "askingReferenceEUR": 36000,
       "materialBoundaries": [
-        "Prelaunch software; live publication, licensed news feeds and independent editorial/legal acceptance remain open.",
-        "Article drafts, brand/domain rights, personal data, operating ledgers and third-party content require separately agreed rights and scope.",
-        "The portfolio offers the software asset; it does not represent an operating publication, audience, income or legally certified autonomous newsroom."
+        "Prelaunch software with offline qualification; live publication, licensed news feeds and independent editorial/legal acceptance remain open.",
+        "Host-security planning and synthetic recovery rehearsals do not establish an operating server, real encrypted/offsite backups, measured recovery guarantees or production readiness.",
+        "The software offer excludes an operating publication, audience, income, credentials, personal content and third-party content or domain rights unless separately agreed."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -5784,8 +5788,8 @@
         "software",
         "education"
       ],
-      "summary": "Compare explicitly defined research hypotheses through controlled synthetic experiments, frozen model comparisons and bounded source-data audits.",
-      "overview": "An independent research-software framework for falsifiable model comparisons, synthetic methodological controls and bounded offline astronomical-data review.",
+      "summary": "Define bounded research hypotheses, compare source-bound synthetic models and review covariance-aware methodological evidence with explicit scientific limits.",
+      "overview": "An independent research-software framework for declared hypothesis portfolios, source-bound synthetic model comparisons, covariance-aware methodological controls and bounded astronomical-data audits.",
       "potentialBuyers": [
         "Scientific research organisations",
         "Research-software vendors",
@@ -5793,27 +5797,25 @@
       ],
       "capabilities": [
         "Run clearly labelled synthetic methodological experiments",
-        "Declare and register bounded model-neutral hypotheses",
-        "Freeze model comparisons and review declared decisions",
-        "Compare bounded cross-domain toy predictions",
-        "Audit supported local astronomical metadata and files",
-        "Reproduce and verify software evidence packages"
+        "Declare bounded hypothesis portfolios and prediction provenance",
+        "Review dimension-qualified synthetic model comparisons",
+        "Compare fixed models using declared covariance assumptions",
+        "Audit supported local astronomical files and replay evidence"
       ],
       "outputTypes": [
-        "Synthetic experiment reports",
-        "Locked comparison records",
-        "Source-data audit summaries",
-        "Reproducibility packages",
-        "Hypothesis declaration records"
+        "Synthetic experiment and model-comparison reports",
+        "Hypothesis and prediction records",
+        "Statistical-method and source-data audit summaries",
+        "Reproducibility packages"
       ],
       "maturity": "Research software",
       "maturityNote": "Available as a specifically scoped research or development software asset. Independent application, rights and handover acceptance remain separate.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 11000,
+      "askingReferenceEUR": 14500,
       "materialBoundaries": [
         "A research-software framework, not a simulation detector or an empirically validated physical theory.",
-        "Synthetic results and source-data audits do not establish new physics, instrument calibration, a shared physical substrate or an external simulator.",
-        "The documented hypothesis families and long-term cross-domain programme are research directions, not a collection of implemented model engines."
+        "Synthetic model comparisons and covariance controls do not establish new physics, a scientifically calibrated null, instrument calibration or an external simulator.",
+        "The broader hypothesis families and cross-domain programme remain research directions; implemented bounded methodology is not a collection of validated physical model engines."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",

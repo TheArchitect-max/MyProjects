@@ -2,43 +2,46 @@
 
 TA-IP-049 | Reference name: Alina | Evidence & investigation software
 
-Organise authorised information about people, organisations and events, and review the relationships that matter to your investigation.
+Collect authorised information, review attributable entity relationships and recover bounded local workflows while evaluating controlled multi-worker reference designs.
 
 ## Product overview
 
-An entity-intelligence prototype for authorised collection and attributable relationship review.
+An authorised evidence and entity-intelligence prototype with recoverable local work state, relationship review and controlled worker-ownership reference workflows.
 
 ## Potential acquirers
 
-- Corporate analysis teams
-- Intelligence software vendors
-- Research organisations
+- Evidence and investigation-software vendors
+- Enterprise intelligence and compliance teams
+- Authorised research and information-analysis providers
 
 ## Documented functions
 
-- Collect permitted source records
-- Resolve entity references
-- Review relationships
-- Detect recorded changes
-- Prepare attributable analytical outputs
+- Collect and normalise authorised source information
+- Resolve supported entities and inspect bounded relationship graphs
+- Review attributable evidence and change records
+- Recover bounded local work state after interruption
+- Evaluate controlled ownership, retry and stale-worker scenarios
 
 ## Available output types
 
-- Entity dossiers
-- Relationship views
-- Evidence histories
+- Entity and relationship views
+- Attributable evidence packages
+- Recovery and continuity records
+- Reference deployment and acceptance assessments
 
 ## Current offered position
 
-Prototype. A prototype offered for evaluation and continued development; production acceptance is separate.
+Prototype. A developed prototype with bounded local software qualification. Real distributed deployment and recipient acceptance require separate evidence.
 
 Available for acquisition discussion.
 
-- Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately.
+- The offered edition is a developed prototype for authorised information workflows; source permissions and intended-use acceptance remain separate.
+- Local durability is a bounded single-writer implementation. Distributed operation requires separately supplied durable persistence and queue services with independent qualification.
+- Reference concurrency and recovery checks do not establish production multi-node durability, legal compliance or unrestricted access to third-party sources.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 200,000.
+Seller asking reference: EUR 206,000.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -68,21 +71,29 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 1.1.0
+Identified product edition: 1.4.0
 
 Handover position: Conditional handover
 
-An implemented prototype for evaluation and further development.
+An authorised evidence and entity-intelligence prototype with recoverable local work state, relationship review and controlled worker-ownership reference workflows.
 
 ### Priced first-party scope
 
-Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+Specifically agreed first-party implementation and documentation for 1.4.0. The previously priced acquisition, graph, entity, evidence and defensive-control foundations are reused once. Third-party source entitlements, real shared persistence/queue deployment, production multi-node acceptance and legal/operational certification are excluded.
+
+### Offered work and qualification
+
+An authorised evidence and entity-intelligence prototype with recoverable local work state, relationship review and controlled worker-ownership reference workflows. Source-specific evidence is reviewed under agreed confidentiality; intended-use and recipient acceptance remain separate.
+
+- The offered edition is a developed prototype for authorised information workflows; source permissions and intended-use acceptance remain separate.
+- Local durability is a bounded single-writer implementation. Distributed operation requires separately supplied durable persistence and queue services with independent qualification.
+- Reference concurrency and recovery checks do not establish production multi-node durability, legal compliance or unrestricted access to third-party sources.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | P | An entity-intelligence prototype for authorised collection and attributable relationship review. The offered edition and material boundaries govern review. |
+| Technical scope | P | An authorised evidence and entity-intelligence prototype with recoverable local work state, relationship review and controlled worker-ownership reference workflows. The offered edition and material boundaries govern review. |
 | Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
 | Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
@@ -90,10 +101,9 @@ Seller-owned first-party rights plus specifically agreed transferable software/d
 
 ### Conditions before handover
 
-- Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
-- A detailed component inventory and licensing report are required for the agreed delivery scope.
-- Release identity and provenance evidence remain incomplete.
-- Review potential sensitive filenames before transfer: src/security/credentialBroker.js
+- Confirm the dependency-free reference scope and any third-party materials added for the agreed delivery.
+- Qualify external durable backends and multi-process operation before relying on distributed deployment.
+- Agree the exact delivery manifest, transferable rights and recipient acceptance.
 
 ### Qualification objectives
 
@@ -129,20 +139,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-21. All amounts in EUR. Market value is not established.
+Basis: 2026-10-26. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 200,000 | 223,860 |
-| Negotiation reference - low | 160,000 | 179,088 |
-| Negotiation reference - high | 250,000 | 279,825 |
-| Recreation cost estimate | 950,000 | 1,063,335 |
-| Marketability cost scenario | 1,271,813 | 1,423,540 |
-| Monetisation cost scenario | 1,638,750 | 1,834,253 |
-| Risk-adjusted strategic reference | 1,702,639 | 1,905,764 |
-| Weighted economic reference | 1,415,536 | 1,584,409 |
+| Seller asking reference | 206,000 | 230,473 |
+| Negotiation reference - low | 164,500 | 184,043 |
+| Negotiation reference - high | 257,000 | 287,532 |
+| Recreation cost estimate | 977,500 | 1,093,627 |
+| Marketability cost scenario | 1,308,628 | 1,464,093 |
+| Monetisation cost scenario | 1,686,187 | 1,886,506 |
+| Risk-adjusted strategic reference | 1,751,926 | 1,960,055 |
+| Weighted economic reference | 1,456,512 | 1,629,546 |
 
-USD = EUR × 1.1193, rounded half-up to whole USD. ECB date: 2026-10-23. EUR is authoritative.
+USD = EUR × 1.1188, rounded half-up to whole USD. ECB date: 2026-10-26. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -153,21 +163,47 @@ USD = EUR × 1.1193, rounded half-up to whole USD. ECB date: 2026-10-23. EUR is 
 - Risk-adjusted strategic reference: Cost-based opportunity scenario with stated seller-selected factors.
 - Weighted economic reference: Weighted blend of correlated cost scenarios; not an independent appraisal.
 
-Milestone-conditioned reference: EUR 1,817,391; model change EUR 401,855. Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.
+Milestone-conditioned reference: EUR 1,870,000; model change EUR 413,488. Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.
 
 This is a conditional model sensitivity, not a current asking price, forecast or market value.
 
 ### Cost basis
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+The retained expressly priced scope and successive non-overlapping implementation budgets reconcile below. Equivalent effort and historical anchors remain seller assumptions; actual expenditure, independent quotations and market value are not established. The previously priced acquisition, graph, entity, evidence and defensive-control foundations are reused once. Third-party source entitlements, real shared persistence/queue deployment, production multi-node acceptance and legal/operational certification are excluded.
 
 ### Financial assessment
 
-Retained seller estimate; work breakdown required. Assessed 2026-10-21.
+Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-26.
 
-No complete work-package budget supports the retained anchor. Obtain a delivery-specific work breakdown and quote; this seller estimate does not establish actual expenditure or market value.
+Explicit budgets cover part of the estimate. The retained anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
+
+#### Scoped implementation reproduction budget
+
+Encrypted single-writer checkpoint and recovery workflow; Fenced shared-state reference contract and reference backend; Distributed job-ownership and recovery reference workflow; Failure-case qualification and delivery documentation.
+
+- Encrypted single-writer checkpoint and recovery workflow — 80 assumed hours
+- Fenced shared-state reference contract and reference backend — 64 assumed hours
+- Distributed job-ownership and recovery reference workflow — 64 assumed hours
+- Failure-case qualification and delivery documentation — 48 assumed hours
+
+- Assumed hours: 256
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 24,064
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 27,673.6
+- Effort alternatives / Low hours: 256
+- Effort alternatives / Reference hours: 384
+- Effort alternatives / Extended hours: 512
+- Effort alternatives / Low cost: EUR 27,673.6
+- Effort alternatives / Reference cost: EUR 41,510.4
+- Effort alternatives / Extended cost: EUR 55,347.2
+- Adopted recreation increment: EUR 27,500
+- Previous recreation cost: EUR 950,000
+- Current recreation cost: EUR 977,500
+
+Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. The previously priced acquisition, graph, entity, evidence and defensive-control foundations are reused once. Third-party source entitlements, real shared persistence/queue deployment, production multi-node acceptance and legal/operational certification are excluded.
 
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
@@ -179,13 +215,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1193; ECB 2026-10-23. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1188; ECB 2026-10-26. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "P", "potential": "VH", "sector": "Identity, Privacy & Assurance", "route": "B2B SaaS / enterprise software"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc5
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc6
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/aletheia-intelligence-fabric/#calculation
 
