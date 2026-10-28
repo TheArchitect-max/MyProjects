@@ -17,7 +17,7 @@ def validate():
  data=json.loads((ROOT/'assets/buyer-catalogue.json').read_text());assert set(data)=={'schema','brand','currency','categories','buyerGroups','projects'}
  for c in data['categories']:assert set(c)=={'id','title','description'}
  for g in data['buyerGroups']:assert set(g)=={'id','title'}
- assert len(data['projects'])==len({x['ref'] for x in data['projects']})==len({x['referenceName'].casefold() for x in data['projects']})==110
+ assert len(data['projects'])==len({x['ref'] for x in data['projects']})==len({x['referenceName'].casefold() for x in data['projects']})==111
  for a in data['projects']:
   assert set(a)==FIELDS,a['ref'];assert len(a['potentialBuyers'])>=3 and len(a['capabilities'])>=3 and a['outputTypes'];assert a['askingReferenceEUR']>0
   for key in ['profileUrl','displayUrl','factsheetUrl','briefUrl']:
@@ -43,5 +43,5 @@ def validate():
   assert set(a)=={'ref','legacySlug','slug'}
   for folder in [ROOT/'projects',ROOT/'displays/products']:
    s=(folder/a['legacySlug']/'index.html').read_text();assert 'noindex,follow' in s and a['slug'] in s
- return dict(result='PASS',approvedPublicProjectRecords=110,perProjectSpecificBuyerProfiles=110,applicationAreas=12,buyerGroups=10,allowedHubDataFiles=8,internalDocumentDirectoryAbsent=True,legacyProfileAndDisplayRoutes=2*len(aliases),htmlPages=pages,internalLinks=links,missingTargets=0)
+ return dict(result='PASS',approvedPublicProjectRecords=111,perProjectSpecificBuyerProfiles=111,applicationAreas=12,buyerGroups=10,allowedHubDataFiles=8,internalDocumentDirectoryAbsent=True,legacyProfileAndDisplayRoutes=2*len(aliases),htmlPages=pages,internalLinks=links,missingTargets=0)
 if __name__=='__main__':print(json.dumps(validate(),indent=2))

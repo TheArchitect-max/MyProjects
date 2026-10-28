@@ -6,9 +6,9 @@
 
 The portfolio represents an extensive collection of independently initiated software engineering and research projects spanning advanced computational technologies, artificial intelligence, autonomous systems, scientific modeling, digital infrastructure, and specialized engineering applications.
 
-As of October 25, 2026, the portfolio comprises **113 distinct GitHub repositories, including 111 private and two public repositories**.
+As of October 28, 2026, the inventory resolves **113 currently accessible GitHub repositories, including 111 private and two public repositories**.
 
-**Catalogue scope:** This acquisition website presents **110 individually identified software and research IP assets**. The remaining **three repositories serve publication and acquisition-documentation roles** and are not additional offered IP assets. Repository count and offered-asset count describe different scopes; each asset retains its existing TA-IP reference and feminine reference name.
+**Catalogue scope:** This acquisition website retains **111 individually identified software and research IP references**. The accessible inventory covers **110 asset repositories and three publication/acquisition-documentation repositories**. One additional historical asset reference remains on availability hold pending source and transfer confirmation. Its identity and financial references are retained; it is not counted as an additional currently accessible repository. Confirm availability and the agreed transfer perimeter before treating catalogue sums as an acquisition scope.
 
 The portfolio is characterized by technological diversity, independently managed development initiatives, and an overarching emphasis on intellectual property creation, engineering methodologies, and long-term technological independence.
 
@@ -25,7 +25,7 @@ This distinction is essential to maintaining transparency between existing devel
 
 ### 2.1 Established Repository Portfolio
 
-The portfolio currently consists of 113 individually maintained GitHub repositories, representing a broad collection of software development and research initiatives.
+The current inventory resolves 113 accessible repositories. The acquisition catalogue additionally retains one historical availability-hold reference; the two counts describe different scopes.
 
 The repository inventory establishes the existence and organizational scope of these initiatives. It does not, by itself, establish that every repository contains a complete product, independently validated technology, or commercially deployable software.
 
