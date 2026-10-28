@@ -15,7 +15,7 @@ def validate():
  p=json.loads((ROOT/'assets/pricing-catalogue.json').read_text());buyers=json.loads((ROOT/'assets/buyer-catalogue.json').read_text());assets={a['ref']:a for a in buyers['projects']}
  assert set(p)=={'schema','basisDate','currency','statement','fields','portfolio','displayCurrency','sources','methodology','projects','portfolioUSD'}
  assert p['schema']=='public-pricing-1' and p['currency']=='EUR'
- assert len(p['projects'])==len({x['ref'] for x in p['projects']})==111
+ assert len(p['projects'])==len({x['ref'] for x in p['projects']})==110
  assert len(p['fields'])==len(FIELDS) and {x['key'] for x in p['fields']}==FIELDS
  ids={x['id'] for x in p['sources']};assert len(ids)==6
  for source in p['sources']:
@@ -36,8 +36,8 @@ def validate():
    assert recompute(a,p['methodology']['factors'],f['targetStage'])['triangulatedEconomicReferenceEUR']==n,a['ref']
  for k in FIELDS:assert p['portfolio'][k]==sum(a['values'][k] for a in p['projects']),k
  assert p==json.loads((ROOT/'displays/assets/pricing-catalogue.json').read_text())
- report=json.loads((ROOT/'assets/calculation-validation.json').read_text());assert report['status']=='PASS' and report['summary']['modelOutputs']==444 and report['summary']['usdConversions']==888
+ report=json.loads((ROOT/'assets/calculation-validation.json').read_text());assert report['status']=='PASS' and report['summary']['modelOutputs']==440 and report['summary']['usdConversions']==880
  for item in report['publicFiles'].values():assert hashlib.sha256((ROOT/item['path']).read_bytes()).hexdigest()==item['sha256']
  assert report['summary']['costBudgets']==sum(len(a['costBudgets']) for a in p['projects'])
- return dict(result='PASS',usdConversions=888,modelOutputsRecomputed=444,costBudgetsReconciled=report['summary']['costBudgets'],completePriceRecords=111,monetaryFields=888,portfolioTotalsReconciled=8,conditionalFutureReferences=conditional,sources=6,askingReferencesConsistentWithBuyerCatalogue=True)
+ return dict(result='PASS',usdConversions=880,modelOutputsRecomputed=440,costBudgetsReconciled=report['summary']['costBudgets'],completePriceRecords=110,monetaryFields=880,portfolioTotalsReconciled=8,conditionalFutureReferences=conditional,sources=6,askingReferencesConsistentWithBuyerCatalogue=True)
 if __name__=='__main__':print(json.dumps(validate(),indent=2))

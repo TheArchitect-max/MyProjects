@@ -1,45 +1,46 @@
-# PLANTELOGIA Intelligence Platform
+# Evidence-Governed Intelligence Platform
 
 TA-IP-095 | Reference name: Ivy | Evidence & investigation software
 
-Review supporting evidence and decision rules before adopting an intelligence workflow for your organisation.
+Register bounded evidence, retain review decisions and contradictions, and trace provenance within controlled research or governance workflows.
 
 ## Product overview
 
-Previously documented prototype: a distinct PLANTELOGIA lineage prototype for persistent evidence and policy review.
+An early evidence-governance prototype with machine-readable contracts and an in-memory evidence/provenance registry.
 
 ## Potential acquirers
 
-- Governance software vendors
-- Enterprise decision teams
-- Research organisations
+- Evidence-workflow software vendors
+- Enterprise governance and compliance teams
+- Controlled research-workflow developers
 
 ## Documented functions
 
-- Retain evidence records
-- Evaluate declared policy conditions
-- Track delegated authority
-- Reconstruct audit histories
-- Maintain attributable decisions
+- Review bounded machine-readable evidence contracts
+- Register evidence with applicability and validity conditions
+- Retain explicit review state and contradictions
+- Trace hash-linked provenance records
+- Export and verify bounded evidence records
 
 ## Available output types
 
-- Policy decisions
-- Evidence registers
-- Audit histories
+- Evidence and review records
+- Provenance-chain records
+- Contract validation reports
 
 ## Current offered position
 
-Prototype. Retained historical prototype description. Current source custody, availability and recipient acceptance require confirmation.
+Prototype. An early implemented prototype for bounded evaluation. Durable operation, wider engines and recipient acceptance remain separate.
 
-Availability unconfirmed; source and transfer review required.
+Available for acquisition discussion.
 
-- Current source custody and availability are unconfirmed. Confirm the source, rights and delivery edition before confidential diligence or any acquisition agreement.
-- Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately.
+- R3 provides a bounded in-memory prototype and reviewed contracts; persistence, APIs, production interfaces and the broader AI/digital-twin programme remain later development.
+- Software provenance and review gates do not authenticate external facts, confer legal authority or establish independent scientific or regulatory acceptance.
+- Legacy source archives, other portfolio assets, third-party content and future modules require separate scope and rights review.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 50,000.
+Seller asking reference: EUR 7,000.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -57,9 +58,9 @@ Acquisition of the specifically agreed first-party work product and transferable
 
 ## Buyer information and enquiry
 
-Asset profile: https://thearchitect-max.github.io/MyProjects/projects/plantelogia-intelligence-platform-lineage/
+Asset profile: https://thearchitect-max.github.io/MyProjects/projects/evidence-governed-intelligence-platform/
 
-Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/plantelogia-intelligence-platform-lineage/factsheet.pdf
+Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/evidence-governed-intelligence-platform/factsheet.pdf
 
 Quote TA-IP-095 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
@@ -69,40 +70,44 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 0.2.0 / availability to be confirmed
+Identified product edition: R3 / package 0.1.0.dev1
 
-Handover position: Scope closure required
+Handover position: Conditional handover
 
-Assess the qualified 0.2.0 prototype for your decision-review needs. Production deployment and operational security require further work.
+An early evidence-governance prototype with machine-readable contracts and an in-memory evidence/provenance registry.
 
 ### Priced first-party scope
 
-Present first-party evidence-governed intelligence prototype, retained qualification, documentation and packaging. Production deployment, operational infrastructure, external evidence/data rights and future productisation are excluded.
+Specifically agreed first-party R3 prototype and documentation. Only the agreed first-party R3 contract, evidence/provenance implementation and associated documentation are priced. The legacy source corpus and already priced portfolio foundations are excluded from this foreground estimate. Persistent storage, APIs, user interfaces, AI/digital-twin/risk engines, domain deployments and future productisation are not included.
+
+### Offered prototype scope
+
+An early evidence-governance prototype with machine-readable contracts and an in-memory evidence/provenance registry.
+
+- R3 provides a bounded in-memory prototype and reviewed contracts; persistence, APIs, production interfaces and the broader AI/digital-twin programme remain later development.
+- Software provenance and review gates do not authenticate external facts, confer legal authority or establish independent scientific or regulatory acceptance.
+- Legacy source archives, other portfolio assets, third-party content and future modules require separate scope and rights review.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | P | A distinct PLANTELOGIA lineage prototype for persistent evidence and policy review. The offered edition and material boundaries govern review. |
-| Evidence and validation | E3 | Historical qualification evidence is retained. The source edition and reproducibility must be reconfirmed because current availability is unconfirmed. |
-| Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
-| Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
-| Delivery and handover | T1 | Retained implementation description; current source availability and core transfer evidence must be reconfirmed before acceptance. |
+| Technical scope | P | An early evidence-governance prototype with machine-readable contracts and an in-memory evidence/provenance registry. The offered edition and material boundaries govern review. |
+| Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Source-specific diligence and recipient acceptance remain separate. |
+| Rights and component obligations | R1 | Repository licence file identified. Source-specific diligence and recipient acceptance remain separate. |
+| Commercial basis | C2 | Seller ask and reproducible economic reference established. Source-specific diligence and recipient acceptance remain separate. |
+| Delivery and handover | T2 | Source, documentation, tests and licence evidence support bounded handover. Source-specific diligence and recipient acceptance remain separate. |
 
 ### Conditions before handover
 
-- Current source custody and availability are unconfirmed. Confirm the source, rights and delivery edition before confidential diligence or any acquisition agreement.
-- Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
-- A detailed component inventory and licensing report are required for the agreed delivery scope.
-- An explicit delivery manifest and handover scope remain to be agreed.
+- Freeze the exact R3 first-party source and agreed documents, rights and exclusions.
+- Review the origin, disposition and rights of any legacy or third-party source materials before including them in delivery.
+- Qualify intended use, future persistence/integration scope and recipient acceptance separately.
 
 ### Qualification objectives
 
-- Agree a source-specific delivery edition and evaluate the documented functions against your intended use.
-- Close the listed technical, rights and handover conditions before recipient acceptance.
-- Independent legal ownership/title opinion not performed by this internal audit.
-- Freedom-to-operate legal opinion not performed unless separately evidenced.
-- Independent penetration test not assumed unless separately evidenced.
+- Evaluate bounded evidence and provenance workflows against representative recipient cases.
+- Agree source-specific rights, delivery and acceptance conditions before transfer.
 
 ### Rights and components
 
@@ -114,8 +119,8 @@ Documentary indicators support initial diligence. Identified files do not establ
 - Dependency lock record: not established in reviewed records
 - Component inventory artifact: not established in reviewed records
 - Licence notices: identified
-- Third-party disclosure: identified
-- Security documentation: identified
+- Third-party disclosure: not established in reviewed records
+- Security documentation: not established in reviewed records
 
 Grade definitions: https://thearchitect-max.github.io/MyProjects/assurance.html#criteria
 
@@ -124,18 +129,18 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-21. All amounts in EUR. Market value is not established.
+Basis: 2026-10-28. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 50,000 | 55,665 |
-| Negotiation reference - low | 40,000 | 44,532 |
-| Negotiation reference - high | 62,500 | 69,581 |
-| Recreation cost estimate | 300,000 | 333,990 |
-| Marketability cost scenario | 322,575 | 359,123 |
-| Monetisation cost scenario | 349,313 | 388,890 |
-| Risk-adjusted strategic reference | 270,463 | 301,106 |
-| Weighted economic reference | 304,040 | 338,488 |
+| Seller asking reference | 7,000 | 7,793 |
+| Negotiation reference - low | 5,500 | 6,123 |
+| Negotiation reference - high | 8,500 | 9,463 |
+| Recreation cost estimate | 23,000 | 25,606 |
+| Marketability cost scenario | 19,355 | 21,548 |
+| Monetisation cost scenario | 17,854 | 19,877 |
+| Risk-adjusted strategic reference | 9,597 | 10,684 |
+| Weighted economic reference | 16,551 | 18,426 |
 
 USD = EUR × 1.1133, rounded half-up to whole USD. ECB date: 2026-10-28. EUR is authoritative.
 
@@ -148,35 +153,46 @@ USD = EUR × 1.1133, rounded half-up to whole USD. ECB date: 2026-10-28. EUR is 
 - Risk-adjusted strategic reference: Cost-based opportunity scenario with stated seller-selected factors.
 - Weighted economic reference: Weighted blend of correlated cost scenarios; not an independent appraisal.
 
-Milestone-conditioned reference: EUR 378,062; model change EUR 74,022. Evidence a repeatable operational release, deployment-specific security and agreed delivery acceptance for the intended use.
+Milestone-conditioned reference: Not established. No accepted next-stage scope or attributable market/income evidence supports a separate future amount.
 
 This is a conditional model sensitivity, not a current asking price, forecast or market value.
 
 ### Cost basis
 
-Disclosed base/increment assumptions reconcile to the retained recreation anchor. Effort remains an analyst estimate for its original scope. Monetary inputs are retained from the stated historical price basis; current source availability is unconfirmed and no fresh recreation premium is added.
+The recreation estimate adopts the lowest explicitly scoped seller effort scenario. It is not expenditure, an absolute minimum, an independent quote or market value. Only the agreed first-party R3 contract, evidence/provenance implementation and associated documentation are priced. The legacy source corpus and already priced portfolio foundations are excluded from this foreground estimate. Persistent storage, APIs, user interfaces, AI/digital-twin/risk engines, domain deployments and future productisation are not included.
 
 ### Financial assessment
 
-Stated scope reconciled to explicit budgets. Assessed 2026-10-21.
+Stated scope reconciled to explicit budgets. Assessed 2026-10-28.
 
 The stated scope reconciles to explicit seller budgets. Effort remains assumed; independent quotations, intended-use qualification and market value are not established.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
-#### Scoped work-package budget
+#### Low-effort working estimate
 
-Present first-party evidence-governed intelligence prototype, retained qualification, documentation and packaging. Production deployment, operational infrastructure, external evidence/data rights and future productisation are excluded.
+Controlled source/requirement disposition and specification baseline; Canonical requirements and traceability contracts; Machine-readable schemas and acceptance fixtures; In-memory evidence, review, contradiction and provenance registry; Qualification, packaging and handover documentation.
 
+- Controlled source/requirement disposition and specification baseline — 32 assumed hours
+- Canonical requirements and traceability contracts — 40 assumed hours
+- Machine-readable schemas and acceptance fixtures — 48 assumed hours
+- In-memory evidence, review, contradiction and provenance registry — 64 assumed hours
+- Qualification, packaging and handover documentation — 32 assumed hours
 
-- Senior engineer months: 8
-- Lead or specialist months: 3
-- Validation provenance months: 4
-- Raw engineering cost: EUR 274,000
-- With allowance: EUR 315,100
-- Adopted recreation cost: EUR 300,000
+- Assumed hours: 216
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 20,304
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 23,349.6
+- Effort alternatives / Low hours: 216
+- Effort alternatives / Reference hours: 324
+- Effort alternatives / Extended hours: 432
+- Effort alternatives / Low cost: EUR 23,349.6
+- Effort alternatives / Reference cost: EUR 35,024.4
+- Effort alternatives / Extended cost: EUR 46,699.2
+- Adopted recreation cost: EUR 23,000
 
-Seller assumptions for scoped reproduction, not actual spending.
+Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. Only the agreed first-party R3 contract, evidence/provenance implementation and associated documentation are priced. The legacy source corpus and already priced portfolio foundations are excluded from this foreground estimate. Persistent storage, APIs, user interfaces, AI/digital-twin/risk engines, domain deployments and future productisation are not included.
 
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
@@ -192,15 +208,15 @@ Indicative USD conversion: EUR 1 = USD 1.1133; ECB 2026-10-28. EUR remains autho
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
-Calculation inputs: {"stage": "P", "potential": "H", "sector": "AI, Decision & Knowledge Systems", "route": "Enterprise software / licensing"}.
+Calculation inputs: {"stage": "P", "potential": "M", "sector": "Enterprise Software & Operations", "route": "Enterprise software / licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc7
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc8
 
-Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/plantelogia-intelligence-platform-lineage/#calculation
+Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/evidence-governed-intelligence-platform/#calculation
 
 ## Buyer-specific economic value and evaluation
 
-TA-IP-095 / Ivy / PLANTELOGIA Intelligence Platform
+TA-IP-095 / Ivy / Evidence-Governed Intelligence Platform
 
 Assess the intended use against a credible build, licence or operating alternative. Support any time advantage, incremental cash flow or avoided costs, count each benefit once, and include remaining qualification, integration, rights and operating requirements. The published references describe their stated scope and assumptions; a separately evidenced buyer-specific case may support different consideration. No strategic premium, independently established market value or guaranteed transaction ceiling/floor is asserted.
 

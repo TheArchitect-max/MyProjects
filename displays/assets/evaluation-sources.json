@@ -218,7 +218,7 @@
     {
       "id": "product-scope",
       "title": "Product editions and implemented scope",
-      "basis": "111 distinct catalogue identities reconciled with 110 currently accessible asset repositories, one historical availability-hold entry and three publication repositories. One new and four changed source trees reviewed against implemented scope.",
+      "basis": "110 distinct catalogue identities reconciled with 110 source repositories and three publication repositories. Public product information describes identified implemented scope and material qualification boundaries.",
       "application": "Public purpose, functions, outputs, identified version and priced first-party scope.",
       "limit": "The public summary is not the underlying source code or a guarantee of fitness for a buyer’s deployment.",
       "publicUrl": "assets/buyer-dossiers.json",
@@ -245,9 +245,9 @@
     {
       "id": "financial-inputs",
       "title": "Seller cost and commercial inputs",
-      "basis": "111 financial references reviewed against current or expressly retained historical offered editions, scoped budgets and qualification/rights/transfer conditions; one reference remains subject to availability confirmation.",
+      "basis": "110 financial references reconciled to their identified offered editions, scoped budgets and qualification, rights and transfer conditions.",
       "application": "Eight EUR and USD reference fields, conditional scenarios and portfolio reconciliation.",
-      "limit": "14 scopes reconcile to full budgets, 37 have partial budgets and 60 retain anchors without full work breakdown. One retained entry has availability unconfirmed. These are seller assumptions, not independent quotes or market value.",
+      "limit": "13 scopes reconcile to full budgets, 37 have partial budgets and 60 retain anchors without full work breakdown. These are seller assumptions, not independent quotes or market value.",
       "publicUrl": "valuation.html#assessment",
       "linkLabel": "Complete financial assessment coverage"
     },
@@ -255,9 +255,9 @@
       "id": "calculation",
       "title": "Reproducible arithmetic",
       "basis": "The public pricing inputs and shared calculation module, with a downloadable deterministic check report.",
-      "application": "444 scenario outputs, 888 USD conversions, 76 scoped budgets, 49 conditional references and eight totals.",
+      "application": "440 scenario outputs, 880 USD conversions, 75 scoped budgets, 48 conditional references and eight totals.",
       "limit": "A matching calculation checks arithmetic consistency; it does not independently validate the assumptions.",
-      "publicUrl": "proof.html?v=calc7",
+      "publicUrl": "proof.html?v=calc8",
       "linkLabel": "Run calculation validation"
     },
     {
@@ -272,7 +272,7 @@
     {
       "id": "asset-identity",
       "title": "Asset identity and display linkage",
-      "basis": "Authenticated inventory of 113 currently accessible repositories: 110 asset sources and three publication repositories. One additional historical catalogue entry is retained with current availability unconfirmed; its old identity is not represented as newly verified.",
+      "basis": "Authenticated inventory of 113 repositories: 110 distinct asset sources and three publication repositories. Each current catalogue identity maps to one source repository, canonical title and feminine reference name.",
       "application": "Canonical project title, TA-IP reference and feminine alias across repository identity metadata, asset dossiers, displays, factsheets and product briefs.",
       "limit": "Identity consistency does not establish ownership clearance, product qualification or market value. Private source and detailed internal records are outside the public register.",
       "publicUrl": "identities.html",

@@ -16,12 +16,13 @@ class IdentityPage(HTMLParser):
 
 def validate(snapshot=None):
  catalogue=json.loads((ROOT/'assets/buyer-catalogue.json').read_text());assets=catalogue['projects'];by_ref={a['ref']:a for a in assets}
- assert len(assets)==len(by_ref)==len({a['referenceName'].casefold() for a in assets})==111
+ assert len(assets)==len(by_ref)==len({a['referenceName'].casefold() for a in assets})==110
  assert all(re.fullmatch(r'TA-IP-\d{3}',a['ref']) for a in assets)
- assert set(by_ref)=={'TA-IP-'+str(i).zfill(3) for i in range(1,112)},'Asset IDs must be consecutive TA-IP-001 through TA-IP-111'
+ assert (by_ref['TA-IP-095']['title'],by_ref['TA-IP-095']['referenceName'],by_ref['TA-IP-095']['slug'])==('Evidence-Governed Intelligence Platform','Ivy','evidence-governed-intelligence-platform')
+ assert set(by_ref)=={'TA-IP-'+str(i).zfill(3) for i in range(1,111)},'Asset IDs must be consecutive TA-IP-001 through TA-IP-110'
  mapping=json.loads((ROOT/'displays/project-map.json').read_text())['projects'];maps={a['ref']:a for a in mapping};assert set(maps)==set(by_ref)
  with (ROOT/'displays/identity-register.csv').open(encoding='utf-8-sig',newline='') as f:csv_rows=list(csv.DictReader(f))
- rows={r['Asset_ID']:r for r in csv_rows};assert len(csv_rows)==len(rows)==111 and set(rows)==set(by_ref)
+ rows={r['Asset_ID']:r for r in csv_rows};assert len(csv_rows)==len(rows)==110 and set(rows)==set(by_ref)
  for a in assets:
   m=maps[a['ref']];r=rows[a['ref']]
   assert (m['title'],m['referenceName'],m['url'],m['profileUrl'])==(a['title'],a['referenceName'],a['displayUrl'],a['profileUrl'])
@@ -39,9 +40,9 @@ def validate(snapshot=None):
  source_count=0;unavailable_count=0
  if snapshot:
   audit=json.loads(snapshot.read_text());records=audit['assets'];repo_ids={a['repositoryId'] for a in records}
-  assert len(records)==len(repo_ids)==111 and {r['ref'] for r in records}==set(by_ref)
+  assert len(records)==len(repo_ids)==110 and {r['ref'] for r in records}==set(by_ref)
   unavailable=[r for r in records if r.get('currentSourceStatus')=='UNAVAILABLE']
-  assert {r['ref'] for r in unavailable}=={'TA-IP-095'},'Only the explicitly retained availability-hold entry may lack current source access'
+  assert not unavailable and all(r.get('currentSourceStatus')=='VERIFIED' for r in records),'Every current catalogue asset must have a verified source identity'
   unavailable_count=len(unavailable)
   assert len(audit['publicationRepositories'])==3 and audit['repositoryCount']==len(records)-unavailable_count+len(audit['publicationRepositories'])+len(audit.get('uninitializedRepositories',[]))
   assert not audit.get('uninitializedRepositories'), 'Unclassified or uninitialized repositories require review'
@@ -70,7 +71,7 @@ def validate(snapshot=None):
    if p['name'] in ['MyProjects','Projects-Displays']:
     local=ROOT if p['name']=='MyProjects' else ROOT.parent/'Projects-Displays'
     assert json.loads((local/'PUBLICATION_IDENTITY.json').read_text())==i
- return dict(result='PASS',assetIdentities=111,uniqueFeminineNames=111,displayAndDossierLinks=222,pdfIdentitiesChecked=111,briefIdentitiesChecked=111,identityCsvRows=111,sourceRepositoryIdentitiesChecked=source_count,unavailableSourceEntries=unavailable_count,publicationRepositoriesExcludedFromAssetCount=3,consecutiveNumbering=True,identifierGaps=[],legacyContributionRoutesRedirect=True)
+ return dict(result='PASS',assetIdentities=110,uniqueFeminineNames=110,displayAndDossierLinks=220,pdfIdentitiesChecked=110,briefIdentitiesChecked=110,identityCsvRows=110,sourceRepositoryIdentitiesChecked=source_count,unavailableSourceEntries=unavailable_count,publicationRepositoriesExcludedFromAssetCount=3,consecutiveNumbering=True,identifierGaps=[],legacyContributionRoutesRedirect=True)
 
 if __name__=='__main__':
  p=argparse.ArgumentParser(description=__doc__);p.add_argument('--repository-snapshot',type=Path);a=p.parse_args();print(json.dumps(validate(a.repository_snapshot),indent=2))
