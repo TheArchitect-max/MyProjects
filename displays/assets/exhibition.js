@@ -19,7 +19,7 @@
       card.hidden = !visible;
       if (visible) shown += 1;
     }
-    document.getElementById('result-count').textContent = String(shown);
+    document.getElementById('result-count').textContent = `${shown} ${shown === 1 ? 'asset' : 'assets'}`;
     document.getElementById('empty-state').hidden = shown !== 0;
     const ordered = [...cards].sort((a, b) => {
       const price = Number(a.dataset.price) - Number(b.dataset.price);
@@ -45,7 +45,7 @@
     }));
     const updateSelection = () => {
       const count = document.querySelectorAll('.asset-select:checked').length;
-      document.getElementById('selection-count').textContent = String(count);
+      document.getElementById('selection-count').textContent = `${count} ${count === 1 ? 'asset' : 'assets'} selected`;
       document.getElementById('selection-bar').hidden = count === 0;
     };
     document.querySelectorAll('.asset-select').forEach(input => input.addEventListener('change', updateSelection));
