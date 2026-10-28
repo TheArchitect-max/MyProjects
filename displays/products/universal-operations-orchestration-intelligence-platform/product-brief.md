@@ -183,7 +183,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "P", "potential": "M", "sector": "Enterprise Software & Operations", "route": "Enterprise software / licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc7
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc8
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/universal-operations-orchestration-intelligence-platform/#calculation
 

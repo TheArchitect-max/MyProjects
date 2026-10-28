@@ -185,7 +185,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "P", "potential": "M", "sector": "Research & Scientific Software", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc7
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc8
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/universal-remote-perception-intelligence-platform/#calculation
 

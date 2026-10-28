@@ -1,6 +1,6 @@
 # Acquisition dossier
 
-The [buyer presentation](https://thearchitect-max.github.io/MyProjects/acquisition-dossier/) brings together the acquisition mandate, portfolio, financial method, current product editions, evidence, rights, workflow records and transaction process. All 111 project displays, briefs and factsheets remain available through the [collection](https://thearchitect-max.github.io/MyProjects/displays/). One historical catalogue entry is on an explicit availability hold.
+The [buyer presentation](https://thearchitect-max.github.io/MyProjects/acquisition-dossier/) brings together the acquisition mandate, portfolio, financial method, current product editions, evidence, rights, workflow records and transaction process. All 110 project displays, briefs and factsheets remain available through the [collection](https://thearchitect-max.github.io/MyProjects/displays/).
 
 `confidential-dossier.taip` preserves the complete tracked-file snapshot of the original confidential acquisition repository, including its original financial/source snapshots, identity batches, documentation and tools, byte for byte. A separate dated current-assessment layer supplies the 28 October 2026 source review, financial decisions, developer validation and approved public records. Earlier assessment files remain historical. The original historical files have not been rewritten. This is a file-snapshot consolidation; it is not a Git-history clone. The original repository remains preserved.
 

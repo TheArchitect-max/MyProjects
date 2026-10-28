@@ -187,7 +187,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "V", "potential": "VH", "sector": "Enterprise Software & Operations", "route": "Web platform infrastructure / SaaS / licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc7
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc8
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/programmatic-search-fabric/#calculation
 

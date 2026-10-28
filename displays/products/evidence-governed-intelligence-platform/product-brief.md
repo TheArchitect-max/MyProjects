@@ -1,6 +1,6 @@
 # Evidence-Governed Intelligence Platform
 
-TA-IP-111 | Reference name: Veridiana | Evidence & investigation software
+TA-IP-095 | Reference name: Ivy | Evidence & investigation software
 
 Register bounded evidence, retain review decisions and contradictions, and trace provenance within controlled research or governance workflows.
 
@@ -62,7 +62,7 @@ Asset profile: https://thearchitect-max.github.io/MyProjects/projects/evidence-g
 
 Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/evidence-governed-intelligence-platform/factsheet.pdf
 
-Quote TA-IP-111 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
+Quote TA-IP-095 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
 Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
 
@@ -210,13 +210,13 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "P", "potential": "M", "sector": "Enterprise Software & Operations", "route": "Enterprise software / licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc7
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc8
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/evidence-governed-intelligence-platform/#calculation
 
 ## Buyer-specific economic value and evaluation
 
-TA-IP-111 / Veridiana / Evidence-Governed Intelligence Platform
+TA-IP-095 / Ivy / Evidence-Governed Intelligence Platform
 
 Assess the intended use against a credible build, licence or operating alternative. Support any time advantage, incremental cash flow or avoided costs, count each benefit once, and include remaining qualification, integration, rights and operating requirements. The published references describe their stated scope and assumptions; a separately evidenced buyer-specific case may support different consideration. No strategic premium, independently established market value or guaranteed transaction ceiling/floor is asserted.
 
