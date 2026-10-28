@@ -4,7 +4,7 @@
 
 ## Asset identity and information
 
-The public catalogue contains 110 individually identified software and research IP assets. Each asset has one current TA-IP reference, canonical project title and feminine reference name. Individual presentations link to the asset dossier, factsheet PDF and product brief. Compatibility routes preserve earlier links without creating additional assets. The three publication repositories are excluded from the asset count.
+The public catalogue contains 111 individually identified software and research IP assets. Each asset has one current TA-IP reference, canonical project title and feminine reference name. Individual presentations link to the asset dossier, factsheet PDF and product brief. Compatibility routes preserve earlier links without creating additional assets. The three publication repositories are excluded from the asset count. The current accessible inventory covers 110 asset sources and three publication repositories. One historical catalogue entry is retained on an explicit availability hold; it is excluded from the current source-verification count.
 
 ## Financial references
 

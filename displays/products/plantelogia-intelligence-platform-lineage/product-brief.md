@@ -6,7 +6,7 @@ Review supporting evidence and decision rules before adopting an intelligence wo
 
 ## Product overview
 
-A distinct PLANTELOGIA lineage prototype for persistent evidence and policy review.
+Previously documented prototype: a distinct PLANTELOGIA lineage prototype for persistent evidence and policy review.
 
 ## Potential acquirers
 
@@ -30,10 +30,11 @@ A distinct PLANTELOGIA lineage prototype for persistent evidence and policy revi
 
 ## Current offered position
 
-Prototype. A prototype offered for evaluation and continued development; production acceptance is separate.
+Prototype. Retained historical prototype description. Current source custody, availability and recipient acceptance require confirmation.
 
-Available for acquisition discussion.
+Availability unconfirmed; source and transfer review required.
 
+- Current source custody and availability are unconfirmed. Confirm the source, rights and delivery edition before confidential diligence or any acquisition agreement.
 - Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately.
 
 ## Acquisition reference
@@ -68,9 +69,9 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 0.2.0
+Identified product edition: 0.2.0 / availability to be confirmed
 
-Handover position: Conditional handover
+Handover position: Scope closure required
 
 Assess the qualified 0.2.0 prototype for your decision-review needs. Production deployment and operational security require further work.
 
@@ -83,13 +84,14 @@ Present first-party evidence-governed intelligence prototype, retained qualifica
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
 | Technical scope | P | A distinct PLANTELOGIA lineage prototype for persistent evidence and policy review. The offered edition and material boundaries govern review. |
-| Evidence and validation | E3 | Tests, validation and provenance/release evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
+| Evidence and validation | E3 | Historical qualification evidence is retained. The source edition and reproducibility must be reconfirmed because current availability is unconfirmed. |
 | Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
-| Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance. |
+| Delivery and handover | T1 | Retained implementation description; current source availability and core transfer evidence must be reconfirmed before acceptance. |
 
 ### Conditions before handover
 
+- Current source custody and availability are unconfirmed. Confirm the source, rights and delivery edition before confidential diligence or any acquisition agreement.
 - Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
 - A detailed component inventory and licensing report are required for the agreed delivery scope.
 - An explicit delivery manifest and handover scope remain to be agreed.
@@ -126,16 +128,16 @@ Basis: 2026-10-21. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 50,000 | 55,940 |
-| Negotiation reference - low | 40,000 | 44,752 |
-| Negotiation reference - high | 62,500 | 69,925 |
-| Recreation cost estimate | 300,000 | 335,640 |
-| Marketability cost scenario | 322,575 | 360,897 |
-| Monetisation cost scenario | 349,313 | 390,811 |
-| Risk-adjusted strategic reference | 270,463 | 302,594 |
-| Weighted economic reference | 304,040 | 340,160 |
+| Seller asking reference | 50,000 | 55,665 |
+| Negotiation reference - low | 40,000 | 44,532 |
+| Negotiation reference - high | 62,500 | 69,581 |
+| Recreation cost estimate | 300,000 | 333,990 |
+| Marketability cost scenario | 322,575 | 359,123 |
+| Monetisation cost scenario | 349,313 | 388,890 |
+| Risk-adjusted strategic reference | 270,463 | 301,106 |
+| Weighted economic reference | 304,040 | 338,488 |
 
-USD = EUR × 1.1188, rounded half-up to whole USD. ECB date: 2026-10-26. EUR is authoritative.
+USD = EUR × 1.1133, rounded half-up to whole USD. ECB date: 2026-10-28. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -152,13 +154,13 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-Disclosed base/increment assumptions reconcile to the retained recreation anchor. Effort remains an analyst estimate for its original scope.
+Disclosed base/increment assumptions reconcile to the retained recreation anchor. Effort remains an analyst estimate for its original scope. Monetary inputs are retained from the stated historical price basis; current source availability is unconfirmed and no fresh recreation premium is added.
 
 ### Financial assessment
 
 Stated scope reconciled to explicit budgets. Assessed 2026-10-21.
 
-The stated scope reconciles to explicit seller work-package budgets. Effort remains assumed; independent quotations, intended-use qualification and market value are not established.
+The stated scope reconciles to explicit seller budgets. Effort remains assumed; independent quotations, intended-use qualification and market value are not established.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
 
@@ -186,13 +188,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1188; ECB 2026-10-26. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1133; ECB 2026-10-28. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "P", "potential": "H", "sector": "AI, Decision & Knowledge Systems", "route": "Enterprise software / licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc6
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc7
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/plantelogia-intelligence-platform-lineage/#calculation
 

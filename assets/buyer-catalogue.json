@@ -531,31 +531,34 @@
         "mobility",
         "specialist"
       ],
-      "summary": "Compare ground-vehicle concepts and assess design choices before committing to further engineering work.",
-      "overview": "An offline C++ engineering-analysis foundation for ground-vehicle concept comparisons, cumulative scenario-sequence energy and deterministic multi-node thermal networks.",
+      "summary": "Compare bounded ground-vehicle engineering studies and trace requirements, configuration changes and evidence-review decisions through reproducible reports.",
+      "overview": "An offline ground-vehicle engineering-analysis prototype with physical-model studies, traceable requirements, versioned audit packages and controlled evidence-policy review.",
       "potentialBuyers": [
-        "Vehicle engineering teams",
-        "Simulation vendors",
-        "Engineering consultancies"
+        "Vehicle engineering and simulation businesses",
+        "Engineering assurance and validation teams",
+        "Mobility research organisations"
       ],
       "capabilities": [
-        "Compare mobility, source-energy and uncertainty assumptions",
-        "Accumulate scenario duration, distance and energy",
-        "Model thermal nodes, conductive links and fixed boundaries",
-        "Inspect energy-balance residuals and stability guards",
-        "Export deterministic text, JSON and residual records"
+        "Run supported mobility, energy and thermal studies",
+        "Review model-versus-reference datasets and uncertainty",
+        "Trace requirements to identified evidence",
+        "Compare configuration baselines and evidence lifecycle changes",
+        "Prepare audit packages and policy-governed review queues"
       ],
       "outputTypes": [
-        "Concept comparisons",
-        "Reference-data reports",
-        "Engineering evidence"
+        "Engineering-analysis reports",
+        "Reference-data comparisons",
+        "Traceability and change-impact records",
+        "Evidence lifecycle and policy-review packages"
       ],
       "maturity": "Prototype",
       "maturityNote": "A prototype offered for evaluation and continued development; production acceptance is separate.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 56000,
+      "askingReferenceEUR": 60500,
       "materialBoundaries": [
-        "The scope is offline, nonoperational analysis. Field reliability, manufacturing feasibility, real subsystem performance and physical qualification are not established."
+        "A non-operational engineering-analysis prototype; software calculations and fixture checks do not establish real-vehicle, field or physical-system qualification.",
+        "Policy, approval and waiver records organise review; they do not confer regulatory approval, legal authority or independently certified engineering evidence.",
+        "Hardware control, real sensor operation, safety-critical deployment and intended-use acceptance remain outside the offered software qualification."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -1052,34 +1055,34 @@
         "software",
         "research"
       ],
-      "summary": "Explore synthetic neural dynamics, define bounded research experiments and review comparison, lineage and reproducibility evidence within qualified environments.",
-      "overview": "Computational-neuroscience research software for synthetic neural experiments, controlled comparisons, declared experiment/result packages and qualified-environment replay diagnostics.",
+      "summary": "Compose bounded synthetic neural experiments, compare declared hypotheses and inspect how observation choices affect distinguishability within qualified research protocols.",
+      "overview": "Computational-neuroscience research software for bounded composable synthetic models, controlled cohort studies, predeclared hypothesis comparisons and observation-equivalence audits.",
       "potentialBuyers": [
         "Computational-neuroscience research teams",
         "Research-software and simulation vendors",
-        "AI and neural-systems methodology groups"
+        "Neural-systems methodology and evaluation groups"
       ],
       "capabilities": [
-        "Model supported synthetic neural dynamics and perturbations",
-        "Compare interaction stability and fixed-grid research outputs",
-        "Declare and verify bounded experiments and result packages",
-        "Review source-specific lineage and negative-case controls",
-        "Capture and compare numerical replay diagnostics"
+        "Compose supported bounded synthetic model configurations",
+        "Run controlled studies, cohorts and solver cross-checks",
+        "Register source-bound models and predeclare hypothesis comparisons",
+        "Review sensitivity, calibration/evaluation roles and leakage controls",
+        "Audit observation masks, resolution and scenario-local alias witnesses"
       ],
       "outputTypes": [
-        "Synthetic experiment outputs",
-        "Declared experiment and result packages",
-        "Interaction and lineage reports",
-        "Environment-specific replay diagnostics"
+        "Synthetic model and cohort reports",
+        "Solver and registry qualification records",
+        "Hypothesis comparison and sensitivity reports",
+        "Observation-resolution and alias-witness audits"
       ],
       "maturity": "Developed software",
       "maturityNote": "Developed research or product software within the identified edition and material boundaries. Intended-use and recipient acceptance remain separate.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 934000,
+      "askingReferenceEUR": 947500,
       "materialBoundaries": [
-        "Software and synthetic-study results do not establish biological equivalence, clinical relevance, cognition or causal validity.",
-        "Recorded CPU evidence qualifies only its identified source and environments; third-party research data retains its own rights.",
-        "Exact numerical replay remains unresolved in another local environment, including downstream experiment qualification. Recipient-environment acceptance is required before relying on these outputs."
+        "Qualified CPU evidence applies only to its identified source and tested environments. Another local environment still has an unresolved exact numerical replay discrepancy affecting downstream qualification.",
+        "Bounded synthetic comparisons do not establish a unique biological mechanism, empirical identifiability, causal validity, clinical relevance, AGI or production readiness.",
+        "Observation aliases and separation witnesses are protocol-specific software results; recipient-environment replay and scientific/data-rights qualification remain separate."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -3823,7 +3826,7 @@
         "research"
       ],
       "summary": "Review supporting evidence and decision rules before adopting an intelligence workflow for your organisation.",
-      "overview": "A distinct PLANTELOGIA lineage prototype for persistent evidence and policy review.",
+      "overview": "Previously documented prototype: a distinct PLANTELOGIA lineage prototype for persistent evidence and policy review.",
       "potentialBuyers": [
         "Governance software vendors",
         "Enterprise decision teams",
@@ -3842,10 +3845,11 @@
         "Audit histories"
       ],
       "maturity": "Prototype",
-      "maturityNote": "A prototype offered for evaluation and continued development; production acceptance is separate.",
-      "availability": "Available for acquisition discussion",
+      "maturityNote": "Retained historical prototype description. Current source custody, availability and recipient acceptance require confirmation.",
+      "availability": "Availability unconfirmed; source and transfer review required",
       "askingReferenceEUR": 50000,
       "materialBoundaries": [
+        "Current source custody and availability are unconfirmed. Confirm the source, rights and delivery edition before confidential diligence or any acquisition agreement.",
         "Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately."
       ],
       "offeredScope": [
@@ -5014,31 +5018,34 @@
         "software",
         "research"
       ],
-      "summary": "Compare learning approaches and examine how well they retain information under controlled changes.",
-      "overview": "A learning-research asset for comparing robustness and information retention.",
+      "summary": "Evaluate representation-learning experiments, compare matched model outputs and organise resumable research campaigns with evidence checks.",
+      "overview": "Experimental representation-learning software with controlled comparison harnesses, source-bound evidence review and resumable research-campaign execution.",
       "potentialBuyers": [
-        "AI research teams",
-        "Academic research groups",
-        "Benchmark software vendors"
+        "Machine-learning research teams",
+        "Learning-framework and evaluation-tool vendors",
+        "Research-intensive technology companies"
       ],
       "capabilities": [
-        "Compare learning candidates",
-        "Run repeatable benchmark studies",
-        "Assess robustness under perturbation",
-        "Review resource costs",
-        "Retain multi-run evidence"
+        "Train supported feature-driven learning models",
+        "Run bounded comparator and robustness evaluations",
+        "Review evidence against predeclared claim requirements",
+        "Plan and shard deterministic research campaigns",
+        "Resume execution and re-audit campaign evidence"
       ],
       "outputTypes": [
-        "Benchmark comparisons",
-        "Robustness reports",
-        "Resource-use records"
+        "Experiment records",
+        "Matched-comparison reports",
+        "Campaign plans and execution ledgers",
+        "Evidence and claim-readiness assessments"
       ],
       "maturity": "Prototype",
       "maturityNote": "A prototype offered for evaluation and continued development; production acceptance is separate.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 65000,
+      "askingReferenceEUR": 69000,
       "materialBoundaries": [
-        "Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately."
+        "An experimental feature-driven learning implementation; graph-aware models are comparators rather than hidden components of the core model.",
+        "Local synthetic checks validate software and evidence handling, not scientific superiority, general robustness or completion of the planned benchmark campaign.",
+        "External datasets, optional benchmark components, empirical campaign execution and production qualification require separate rights and acceptance."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -5733,34 +5740,34 @@
         "media",
         "software"
       ],
-      "summary": "Prepare entertainment-satire publishing workflows, review release and operating-cost conditions and rehearse bounded recovery before any separately approved launch.",
-      "overview": "A standalone prelaunch entertainment-satire publishing-software asset with editorial workflows, controlled release records, bounded operating-cost review and offline recovery/rehearsal tooling.",
+      "summary": "Prepare entertainment-satire publishing workflows and review bounded release, cost, encryption and recovery conditions before any separately approved launch.",
+      "overview": "A standalone prelaunch publishing-software asset with controlled editorial workflows, operating-cost review, joint synthetic recovery, optional encryption qualification and temporary nonce/commit rehearsal.",
       "potentialBuyers": [
         "Digital media publishers",
         "Entertainment editorial teams",
         "Publishing-workflow software vendors"
       ],
       "capabilities": [
-        "Organise editorial desks, drafts and timing plans",
-        "Review publication, correction and release conditions",
-        "Reconcile bounded usage-cost and incident records",
-        "Review continuity, receipt and replay conditions offline",
-        "Rehearse prelaunch host planning and synthetic recovery"
+        "Organise editorial, timing and controlled release workflows",
+        "Review bounded usage-cost and incident records",
+        "Rehearse joint static-site and synthetic database recovery",
+        "Review retention, key-custody and optional encryption conditions",
+        "Exercise encrypted synthetic restoration and temporary nonce journals"
       ],
       "outputTypes": [
         "Editorial and release-review packages",
-        "Usage-cost and incident review reports",
-        "Continuity and replay records",
-        "Static prelaunch output and rehearsal reports"
+        "Usage-cost and incident reports",
+        "Synthetic recovery and retention assessments",
+        "Encryption and journal qualification reports"
       ],
       "maturity": "Prototype",
       "maturityNote": "Available as a specifically scoped research or development software asset. Independent application, rights and handover acceptance remain separate.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 36000,
+      "askingReferenceEUR": 43000,
       "materialBoundaries": [
-        "Prelaunch software with offline qualification; live publication, licensed news feeds and independent editorial/legal acceptance remain open.",
-        "Host-security planning and synthetic recovery rehearsals do not establish an operating server, real encrypted/offsite backups, measured recovery guarantees or production readiness.",
-        "The software offer excludes an operating publication, audience, income, credentials, personal content and third-party content or domain rights unless separately agreed."
+        "Prelaunch software with offline qualification; live publication, licensed news sources, editorial/legal acceptance and real host operation remain separately gated.",
+        "Recovery and encryption exercises use explicitly synthetic disposable material. They do not establish durable real backups, recoverable production keys, independent anti-rollback, offsite custody or recovery-time guarantees.",
+        "Optional third-party cryptography is qualified only in the stated test scope. Production integration, licensed content, real paid services and an operating publication are excluded unless separately agreed."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -5831,6 +5838,60 @@
       "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/reality-substrate-hypothesis-testing-platform/",
       "factsheetUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/reality-substrate-hypothesis-testing-platform/factsheet.pdf",
       "briefUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/reality-substrate-hypothesis-testing-platform/product-brief.md"
+    },
+    {
+      "ref": "TA-IP-111",
+      "slug": "evidence-governed-intelligence-platform",
+      "title": "Evidence-Governed Intelligence Platform",
+      "referenceName": "Veridiana",
+      "categoryId": "evidence-intelligence",
+      "buyerGroupIds": [
+        "software",
+        "enterprise",
+        "research"
+      ],
+      "summary": "Register bounded evidence, retain review decisions and contradictions, and trace provenance within controlled research or governance workflows.",
+      "overview": "An early evidence-governance prototype with machine-readable contracts and an in-memory evidence/provenance registry.",
+      "potentialBuyers": [
+        "Evidence-workflow software vendors",
+        "Enterprise governance and compliance teams",
+        "Controlled research-workflow developers"
+      ],
+      "capabilities": [
+        "Review bounded machine-readable evidence contracts",
+        "Register evidence with applicability and validity conditions",
+        "Retain explicit review state and contradictions",
+        "Trace hash-linked provenance records",
+        "Export and verify bounded evidence records"
+      ],
+      "outputTypes": [
+        "Evidence and review records",
+        "Provenance-chain records",
+        "Contract validation reports"
+      ],
+      "maturity": "Prototype",
+      "maturityNote": "An early implemented prototype for bounded evaluation. Durable operation, wider engines and recipient acceptance remain separate.",
+      "availability": "Available for acquisition discussion",
+      "askingReferenceEUR": 7000,
+      "materialBoundaries": [
+        "R3 provides a bounded in-memory prototype and reviewed contracts; persistence, APIs, production interfaces and the broader AI/digital-twin programme remain later development.",
+        "Software provenance and review gates do not authenticate external facts, confer legal authority or establish independent scientific or regulatory acceptance.",
+        "Legacy source archives, other portfolio assets, third-party content and future modules require separate scope and rights review."
+      ],
+      "offeredScope": [
+        "The specifically agreed first-party software or research work product",
+        "Associated first-party product documentation and retained evaluation material",
+        "The expressly agreed transferable first-party rights"
+      ],
+      "excludedScope": [
+        "Third-party software, data, media, models and service entitlements beyond their own terms",
+        "Personal, customer and author content, private accounts and credentials",
+        "Future development, hosting, hardware, support and operating businesses unless expressly agreed"
+      ],
+      "profileUrl": "https://thearchitect-max.github.io/MyProjects/projects/evidence-governed-intelligence-platform/",
+      "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/evidence-governed-intelligence-platform/",
+      "factsheetUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/evidence-governed-intelligence-platform/factsheet.pdf",
+      "briefUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/evidence-governed-intelligence-platform/product-brief.md"
     }
   ]
 }

@@ -2,32 +2,32 @@
 
 TA-IP-077 | Reference name: Iona | Scientific observation & life sciences
 
-Explore synthetic neural dynamics, define bounded research experiments and review comparison, lineage and reproducibility evidence within qualified environments.
+Compose bounded synthetic neural experiments, compare declared hypotheses and inspect how observation choices affect distinguishability within qualified research protocols.
 
 ## Product overview
 
-Computational-neuroscience research software for synthetic neural experiments, controlled comparisons, declared experiment/result packages and qualified-environment replay diagnostics.
+Computational-neuroscience research software for bounded composable synthetic models, controlled cohort studies, predeclared hypothesis comparisons and observation-equivalence audits.
 
 ## Potential acquirers
 
 - Computational-neuroscience research teams
 - Research-software and simulation vendors
-- AI and neural-systems methodology groups
+- Neural-systems methodology and evaluation groups
 
 ## Documented functions
 
-- Model supported synthetic neural dynamics and perturbations
-- Compare interaction stability and fixed-grid research outputs
-- Declare and verify bounded experiments and result packages
-- Review source-specific lineage and negative-case controls
-- Capture and compare numerical replay diagnostics
+- Compose supported bounded synthetic model configurations
+- Run controlled studies, cohorts and solver cross-checks
+- Register source-bound models and predeclare hypothesis comparisons
+- Review sensitivity, calibration/evaluation roles and leakage controls
+- Audit observation masks, resolution and scenario-local alias witnesses
 
 ## Available output types
 
-- Synthetic experiment outputs
-- Declared experiment and result packages
-- Interaction and lineage reports
-- Environment-specific replay diagnostics
+- Synthetic model and cohort reports
+- Solver and registry qualification records
+- Hypothesis comparison and sensitivity reports
+- Observation-resolution and alias-witness audits
 
 ## Current offered position
 
@@ -35,13 +35,13 @@ Developed software. Developed research or product software within the identified
 
 Available for acquisition discussion.
 
-- Software and synthetic-study results do not establish biological equivalence, clinical relevance, cognition or causal validity.
-- Recorded CPU evidence qualifies only its identified source and environments; third-party research data retains its own rights.
-- Exact numerical replay remains unresolved in another local environment, including downstream experiment qualification. Recipient-environment acceptance is required before relying on these outputs.
+- Qualified CPU evidence applies only to its identified source and tested environments. Another local environment still has an unresolved exact numerical replay discrepancy affecting downstream qualification.
+- Bounded synthetic comparisons do not establish a unique biological mechanism, empirical identifiability, causal validity, clinical relevance, AGI or production readiness.
+- Observation aliases and separation witnesses are protocol-specific software results; recipient-environment replay and scientific/data-rights qualification remain separate.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 934,000.
+Seller asking reference: EUR 947,500.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -71,29 +71,29 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 2.7.0 / qualified CPU scope
+Identified product edition: 2.9.8 / qualified CPU scope
 
 Handover position: Conditional handover
 
-Computational-neuroscience research software for synthetic neural experiments, controlled comparisons, declared experiment/result packages and qualified-environment replay diagnostics.
+Computational-neuroscience research software for bounded composable synthetic models, controlled cohort studies, predeclared hypothesis comparisons and observation-equivalence audits.
 
 ### Priced first-party scope
 
-Specifically agreed first-party implementation and documentation for 2.7.0 / qualified CPU scope. The previously priced neural runtime, source adapters, interaction studies and lineage/fingerprint foundations are reused once. The added experiment/result declarations and diagnostics are priced as software only. Biological/scientific/clinical findings, third-party dataset ownership, universal portability, future composable-model architecture and production qualification are excluded.
+Specifically agreed first-party implementation and documentation for 2.9.8 / qualified CPU scope. The previously priced neural runtime, source adapters, interaction/lineage studies, experiment contracts and portability diagnostics are reused once. Added bounded composition and synthetic hypothesis/observation audit software is included. Biological or clinical findings, universal numerical portability, empirical performance, third-party data ownership, future development phases and production qualification are excluded.
 
 ### Offered work and qualification
 
-Computational-neuroscience research software for synthetic neural experiments, controlled comparisons, declared experiment/result packages and qualified-environment replay diagnostics. Source-specific evidence is reviewed under agreed confidentiality; intended-use and recipient acceptance remain separate.
+Computational-neuroscience research software for bounded composable synthetic models, controlled cohort studies, predeclared hypothesis comparisons and observation-equivalence audits. Source-specific evidence is reviewed under agreed confidentiality; recipient acceptance remains separate.
 
-- Software and synthetic-study results do not establish biological equivalence, clinical relevance, cognition or causal validity.
-- Recorded CPU evidence qualifies only its identified source and environments; third-party research data retains its own rights.
-- Exact numerical replay remains unresolved in another local environment, including downstream experiment qualification. Recipient-environment acceptance is required before relying on these outputs.
+- Qualified CPU evidence applies only to its identified source and tested environments. Another local environment still has an unresolved exact numerical replay discrepancy affecting downstream qualification.
+- Bounded synthetic comparisons do not establish a unique biological mechanism, empirical identifiability, causal validity, clinical relevance, AGI or production readiness.
+- Observation aliases and separation witnesses are protocol-specific software results; recipient-environment replay and scientific/data-rights qualification remain separate.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | V | Computational-neuroscience research software for synthetic neural experiments, controlled comparisons, declared experiment/result packages and qualified-environment replay diagnostics. The offered edition and material boundaries govern review. |
+| Technical scope | V | Computational-neuroscience research software for bounded composable synthetic models, controlled cohort studies, predeclared hypothesis comparisons and observation-equivalence audits. The offered edition and material boundaries govern review. |
 | Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
 | Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
@@ -101,9 +101,10 @@ Computational-neuroscience research software for synthetic neural experiments, c
 
 ### Conditions before handover
 
-- Retain the exact source and recorded environment supporting the reviewed CPU qualification.
-- Resolve exact numerical replay and downstream experiment qualification in the recipient environment without weakening historical checks.
-- Review dependency builds, source/data rights, security evidence and the delivery manifest before acceptance.
+- Freeze the source-specific delivery edition, transferable rights and exclusions.
+- Resolve exact numerical replay and downstream qualification in the recipient environment without weakening historical checks.
+- Review component obligations, source-specific reproducibility and security evidence under agreed confidentiality.
+- Complete intended-use and recipient-environment acceptance before relying on the identified outputs.
 
 ### Qualification objectives
 
@@ -139,20 +140,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-26. All amounts in EUR. Market value is not established.
+Basis: 2026-10-28. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 934,000 | 1,044,959 |
-| Negotiation reference - low | 747,000 | 835,744 |
-| Negotiation reference - high | 1,171,000 | 1,310,115 |
-| Recreation cost estimate | 3,331,500 | 3,727,282 |
-| Marketability cost scenario | 3,256,541 | 3,643,418 |
-| Monetisation cost scenario | 3,822,896 | 4,277,056 |
-| Risk-adjusted strategic reference | 3,285,642 | 3,675,976 |
-| Weighted economic reference | 3,398,737 | 3,802,507 |
+| Seller asking reference | 947,500 | 1,054,852 |
+| Negotiation reference - low | 757,500 | 843,325 |
+| Negotiation reference - high | 1,187,500 | 1,322,044 |
+| Recreation cost estimate | 3,379,000 | 3,761,841 |
+| Marketability cost scenario | 3,302,972 | 3,677,199 |
+| Monetisation cost scenario | 3,877,403 | 4,316,713 |
+| Risk-adjusted strategic reference | 3,332,488 | 3,710,059 |
+| Weighted economic reference | 3,447,196 | 3,837,763 |
 
-USD = EUR × 1.1188, rounded half-up to whole USD. ECB date: 2026-10-26. EUR is authoritative.
+USD = EUR × 1.1133, rounded half-up to whole USD. ECB date: 2026-10-28. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -169,11 +170,11 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The retained expressly priced scope and successive non-overlapping implementation budgets reconcile below. Equivalent effort and historical anchors remain seller assumptions; actual expenditure, independent quotations and market value are not established. The previously priced neural runtime, source adapters, interaction studies and lineage/fingerprint foundations are reused once. The added experiment/result declarations and diagnostics are priced as software only. Biological/scientific/clinical findings, third-party dataset ownership, universal portability, future composable-model architecture and production qualification are excluded.
+The retained expressly priced scope and successive non-overlapping implementation budgets reconcile below. Equivalent effort and historical anchors remain seller assumptions, not actual expenditure, independent quotations or market value. The previously priced neural runtime, source adapters, interaction/lineage studies, experiment contracts and portability diagnostics are reused once. Added bounded composition and synthetic hypothesis/observation audit software is included. Biological or clinical findings, universal numerical portability, empirical performance, third-party data ownership, future development phases and production qualification are excluded.
 
 ### Financial assessment
 
-Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-26.
+Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-28.
 
 Explicit budgets cover part of the estimate. The retained anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
@@ -231,6 +232,35 @@ Bounded experiment declarations and result-package contracts; Strict contract va
 
 Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. The previously priced neural runtime, source adapters, interaction studies and lineage/fingerprint foundations are reused once. The added experiment/result declarations and diagnostics are priced as software only. Biological/scientific/clinical findings, third-party dataset ownership, universal portability, future composable-model architecture and production qualification are excluded.
 
+#### Scoped implementation reproduction budget
+
+Composable model declarations and source-locked execution; Controlled studies, cohorts and reference comparisons; Numerical solver cross-checks and bounded model registry; Predeclared synthetic hypothesis comparisons and sensitivity; Calibration/evaluation roles and leakage controls; Observation masks, resolution and scenario alias witnesses; Adversarial qualification and recipient packaging.
+
+- Composable model declarations and source-locked execution — 72 assumed hours
+- Controlled studies, cohorts and reference comparisons — 64 assumed hours
+- Numerical solver cross-checks and bounded model registry — 56 assumed hours
+- Predeclared synthetic hypothesis comparisons and sensitivity — 64 assumed hours
+- Calibration/evaluation roles and leakage controls — 48 assumed hours
+- Observation masks, resolution and scenario alias witnesses — 72 assumed hours
+- Adversarial qualification and recipient packaging — 64 assumed hours
+
+- Assumed hours: 440
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 41,360
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 47,564
+- Effort alternatives / Low hours: 440
+- Effort alternatives / Reference hours: 660
+- Effort alternatives / Extended hours: 880
+- Effort alternatives / Low cost: EUR 47,564
+- Effort alternatives / Reference cost: EUR 71,346
+- Effort alternatives / Extended cost: EUR 95,128
+- Adopted recreation increment: EUR 47,500
+- Previous recreation cost: EUR 3,331,500
+- Current recreation cost: EUR 3,379,000
+
+Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. The previously priced neural runtime, source adapters, interaction/lineage studies, experiment contracts and portability diagnostics are reused once. Added bounded composition and synthetic hypothesis/observation audit software is included. Biological or clinical findings, universal numerical portability, empirical performance, third-party data ownership, future development phases and production qualification are excluded.
+
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
@@ -241,13 +271,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1188; ECB 2026-10-26. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1133; ECB 2026-10-28. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "V", "potential": "H", "sector": "Research & Scientific Software", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc6
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc7
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/bio-inspired-neural-dynamics-active-inference-simulation-platform/#calculation
 

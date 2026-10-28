@@ -2,31 +2,32 @@
 
 TA-IP-024 | Reference name: Kira | AI & decision software
 
-Compare learning approaches and examine how well they retain information under controlled changes.
+Evaluate representation-learning experiments, compare matched model outputs and organise resumable research campaigns with evidence checks.
 
 ## Product overview
 
-A learning-research asset for comparing robustness and information retention.
+Experimental representation-learning software with controlled comparison harnesses, source-bound evidence review and resumable research-campaign execution.
 
 ## Potential acquirers
 
-- AI research teams
-- Academic research groups
-- Benchmark software vendors
+- Machine-learning research teams
+- Learning-framework and evaluation-tool vendors
+- Research-intensive technology companies
 
 ## Documented functions
 
-- Compare learning candidates
-- Run repeatable benchmark studies
-- Assess robustness under perturbation
-- Review resource costs
-- Retain multi-run evidence
+- Train supported feature-driven learning models
+- Run bounded comparator and robustness evaluations
+- Review evidence against predeclared claim requirements
+- Plan and shard deterministic research campaigns
+- Resume execution and re-audit campaign evidence
 
 ## Available output types
 
-- Benchmark comparisons
-- Robustness reports
-- Resource-use records
+- Experiment records
+- Matched-comparison reports
+- Campaign plans and execution ledgers
+- Evidence and claim-readiness assessments
 
 ## Current offered position
 
@@ -34,11 +35,13 @@ Prototype. A prototype offered for evaluation and continued development; product
 
 Available for acquisition discussion.
 
-- Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately.
+- An experimental feature-driven learning implementation; graph-aware models are comparators rather than hidden components of the core model.
+- Local synthetic checks validate software and evidence handling, not scientific superiority, general robustness or completion of the planned benchmark campaign.
+- External datasets, optional benchmark components, empirical campaign execution and production qualification require separate rights and acceptance.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 65,000.
+Seller asking reference: EUR 69,000.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -68,21 +71,29 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: V57 / package 0.2.0
+Identified product edition: V59 / package 0.4.0
 
 Handover position: Conditional handover
 
-An experimental research build for comparative evaluation; superiority has not been established.
+Experimental representation-learning software with controlled comparison harnesses, source-bound evidence review and resumable research-campaign execution.
 
 ### Priced first-party scope
 
-Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+Specifically agreed first-party implementation and documentation for V59 / package 0.4.0. The previously priced learning, training and prototype foundations are reused once. The estimate adds only the implemented evidence/comparison and resumable campaign software. Dataset rights, GPU campaign execution, claimed performance gains, scientific novelty and production qualification are excluded.
+
+### Offered work and qualification
+
+Experimental representation-learning software with controlled comparison harnesses, source-bound evidence review and resumable research-campaign execution. Source-specific evidence is reviewed under agreed confidentiality; recipient acceptance remains separate.
+
+- An experimental feature-driven learning implementation; graph-aware models are comparators rather than hidden components of the core model.
+- Local synthetic checks validate software and evidence handling, not scientific superiority, general robustness or completion of the planned benchmark campaign.
+- External datasets, optional benchmark components, empirical campaign execution and production qualification require separate rights and acceptance.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | P | A learning-research asset for comparing robustness and information retention. The offered edition and material boundaries govern review. |
+| Technical scope | P | Experimental representation-learning software with controlled comparison harnesses, source-bound evidence review and resumable research-campaign execution. The offered edition and material boundaries govern review. |
 | Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
 | Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
@@ -90,11 +101,9 @@ Seller-owned first-party rights plus specifically agreed transferable software/d
 
 ### Conditions before handover
 
-- Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
-- A detailed component inventory and licensing report are required for the agreed delivery scope.
-- A security assessment or an explicit statement of its absence is required before acceptance.
-- Release identity and provenance evidence remain incomplete.
-- An explicit delivery manifest and handover scope remain to be agreed.
+- Freeze the source-specific delivery edition, transferable rights and exclusions.
+- Review component obligations, source-specific reproducibility and security evidence under agreed confidentiality.
+- Complete intended-use and recipient-environment acceptance before relying on the identified outputs.
 
 ### Qualification objectives
 
@@ -130,20 +139,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-21. All amounts in EUR. Market value is not established.
+Basis: 2026-10-28. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 65,000 | 72,722 |
-| Negotiation reference - low | 50,000 | 55,940 |
-| Negotiation reference - high | 80,000 | 89,504 |
-| Recreation cost estimate | 550,000 | 615,340 |
-| Marketability cost scenario | 462,825 | 517,809 |
-| Monetisation cost scenario | 315,563 | 353,052 |
-| Risk-adjusted strategic reference | 229,484 | 256,747 |
-| Weighted economic reference | 373,497 | 417,868 |
+| Seller asking reference | 69,000 | 76,818 |
+| Negotiation reference - low | 53,000 | 59,005 |
+| Negotiation reference - high | 85,000 | 94,631 |
+| Recreation cost estimate | 584,500 | 650,724 |
+| Marketability cost scenario | 491,857 | 547,584 |
+| Monetisation cost scenario | 335,357 | 373,353 |
+| Risk-adjusted strategic reference | 243,879 | 271,510 |
+| Weighted economic reference | 396,925 | 441,897 |
 
-USD = EUR × 1.1188, rounded half-up to whole USD. ECB date: 2026-10-26. EUR is authoritative.
+USD = EUR × 1.1133, rounded half-up to whole USD. ECB date: 2026-10-28. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -154,21 +163,49 @@ USD = EUR × 1.1188, rounded half-up to whole USD. ECB date: 2026-10-26. EUR is 
 - Risk-adjusted strategic reference: Cost-based opportunity scenario with stated seller-selected factors.
 - Weighted economic reference: Weighted blend of correlated cost scenarios; not an independent appraisal.
 
-Milestone-conditioned reference: EUR 444,257; model change EUR 70,760. Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.
+Milestone-conditioned reference: EUR 472,124; model change EUR 75,199. Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.
 
 This is a conditional model sensitivity, not a current asking price, forecast or market value.
 
 ### Cost basis
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+The retained expressly priced scope and successive non-overlapping implementation budgets reconcile below. Equivalent effort and historical anchors remain seller assumptions, not actual expenditure, independent quotations or market value. The previously priced learning, training and prototype foundations are reused once. The estimate adds only the implemented evidence/comparison and resumable campaign software. Dataset rights, GPU campaign execution, claimed performance gains, scientific novelty and production qualification are excluded.
 
 ### Financial assessment
 
-Retained seller estimate; work breakdown required. Assessed 2026-10-21.
+Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-28.
 
-No complete work-package budget supports the retained anchor. Obtain a delivery-specific work breakdown and quote; this seller estimate does not establish actual expenditure or market value.
+Explicit budgets cover part of the estimate. The retained anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
+
+#### Scoped implementation reproduction budget
+
+Source-bound evidence records and claim protocol; Matched comparison and robustness-evaluation harness; Fail-closed evidence and report compilation; Deterministic campaign planning and sharding; Resumable execution ledger and evidence re-audit; Correctness qualification and handover documentation.
+
+- Source-bound evidence records and claim protocol — 56 assumed hours
+- Matched comparison and robustness-evaluation harness — 64 assumed hours
+- Fail-closed evidence and report compilation — 48 assumed hours
+- Deterministic campaign planning and sharding — 48 assumed hours
+- Resumable execution ledger and evidence re-audit — 64 assumed hours
+- Correctness qualification and handover documentation — 40 assumed hours
+
+- Assumed hours: 320
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 30,080
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 34,592
+- Effort alternatives / Low hours: 320
+- Effort alternatives / Reference hours: 480
+- Effort alternatives / Extended hours: 640
+- Effort alternatives / Low cost: EUR 34,592
+- Effort alternatives / Reference cost: EUR 51,888
+- Effort alternatives / Extended cost: EUR 69,184
+- Adopted recreation increment: EUR 34,500
+- Previous recreation cost: EUR 550,000
+- Current recreation cost: EUR 584,500
+
+Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. The previously priced learning, training and prototype foundations are reused once. The estimate adds only the implemented evidence/comparison and resumable campaign software. Dataset rights, GPU campaign execution, claimed performance gains, scientific novelty and production qualification are excluded.
 
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
@@ -180,13 +217,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1188; ECB 2026-10-26. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1133; ECB 2026-10-28. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "P", "potential": "M", "sector": "AI, Decision & Knowledge Systems", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc6
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc7
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/universal-kernel-machine/#calculation
 
