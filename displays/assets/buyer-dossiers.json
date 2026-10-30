@@ -1,6 +1,6 @@
 {
   "schema": "public-buyer-dossiers-1",
-  "basisDate": "2026-10-28",
+  "basisDate": "2026-10-30",
   "purpose": "Version, qualification, rights and handover information for initial acquisition review. Evidence applies to the identified edition and tested scope.",
   "definitions": {
     "purpose": "Seller-side evidence, transfer and acquisition-documentation readiness. This is not buyer due diligence and does not replace buyer-specific legal, technical, security or financial review.",
@@ -3412,17 +3412,17 @@
     },
     {
       "ref": "TA-IP-050",
-      "version": "Delivery edition to be agreed",
+      "version": "Phase 2B.2A / PostgreSQL qualification harness",
       "developmentEdition": "",
-      "productPosition": "Available software for evaluation against your intended use. Deployment suitability is assessed separately.",
-      "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
+      "productPosition": "Tattoo-studio operations software with tenant-scoped transactional persistence adapters and an isolated PostgreSQL qualification harness.",
+      "offeredEdition": "Specifically agreed first-party implementation and documentation for Phase 2B.2A / PostgreSQL qualification harness. The previously priced studio, geometry, workflow, authentication and migration foundations are reused once. Added first-party persistence adapters and qualification tooling are included. Real PostgreSQL operation, production tenant migration, payment services, clinical or regulatory acceptance, hosting and third-party ownership rights are excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "V",
-          "criterion": "A tattoo-studio operations asset for material traceability and business workflow support. The offered edition and material boundaries govern review."
+          "criterion": "Tattoo-studio operations software with tenant-scoped transactional persistence adapters and an isolated PostgreSQL qualification harness. The offered edition and material boundaries govern review."
         },
         {
           "axis": "evidenceMaturity",
@@ -3450,10 +3450,10 @@
         }
       ],
       "sellerConditions": [
-        "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
-        "Release identity and provenance evidence remain incomplete.",
-        "An explicit delivery manifest and handover scope remain to be agreed."
+        "Freeze the exact source edition, agreed first-party work, rights and exclusions.",
+        "Execute and accept the isolated real PostgreSQL runtime qualification before claiming database-specific delivery readiness.",
+        "Review source-specific reproducibility, component and security evidence under agreed confidentiality.",
+        "Complete intended-use and recipient-environment acceptance before relying on the identified outputs."
       ],
       "buyerConditions": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -3467,14 +3467,24 @@
       "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
       "componentEvidence": {
         "dependencyManifestIdentified": true,
-        "dependencyLockIdentified": false,
+        "dependencyLockIdentified": true,
         "componentInventoryIdentified": false,
         "licenceNoticesIdentified": true,
         "thirdPartyDisclosureIdentified": true,
         "securityDocumentationIdentified": true,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Offered work and qualification",
+          "text": "Tattoo-studio operations software with tenant-scoped transactional persistence adapters and an isolated PostgreSQL qualification harness.",
+          "items": [
+            "The engineering baseline and local software checks do not establish real PostgreSQL runtime acceptance; that remains an open delivery gate.",
+            "Recipient deployment, tenant migration, security review, studio compliance, payment-provider integration and real-world stencil suitability require separate qualification.",
+            "The pinned database driver and other third-party components retain their own terms; the offered proprietary value covers first-party work."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-051",
@@ -3623,17 +3633,17 @@
     },
     {
       "ref": "TA-IP-053",
-      "version": "1.7.0",
-      "developmentEdition": "1.8.0 capability-study candidate",
-      "productPosition": "Use the validated v1.7.0 release as the current evidence baseline. The separate v1.8.0 candidate has completed static review and awaits full runtime and distribution validation.",
-      "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
+      "version": "2.1.0 / engineering release",
+      "developmentEdition": "",
+      "productPosition": "Evidence-grounded multi-expert reasoning software with matched baselines, controlled-study protocols and cross-model replication evidence packages.",
+      "offeredEdition": "Specifically agreed first-party implementation and documentation for 2.1.0 / engineering release. Previously priced routing, grounding, evaluation, canonical fingerprints and custody foundations are reused once. Added governed capability/baseline, controlled-study and cross-model replication software is included. Real model-provider runs, H1–H7 scientific success, model or human superiority, empirical data ownership and later development phases are excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "V",
-          "criterion": "An evidence-grounded reasoning product for specialist review and measurable comparisons. The offered edition and material boundaries govern review."
+          "criterion": "Evidence-grounded multi-expert reasoning software with matched baselines, controlled-study protocols and cross-model replication evidence packages. The offered edition and material boundaries govern review."
         },
         {
           "axis": "evidenceMaturity",
@@ -3661,11 +3671,10 @@
         }
       ],
       "sellerConditions": [
-        "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
-        "A detailed component inventory and licensing report are required for the agreed delivery scope.",
-        "A security assessment or an explicit statement of its absence is required before acceptance.",
-        "An explicit delivery manifest and handover scope remain to be agreed.",
-        "Complete runtime and distribution acceptance of the v1.8 candidate remains outstanding."
+        "Freeze the exact source edition, agreed first-party work, rights and exclusions.",
+        "Keep engineering acceptance separate from real model-backed H1–H7 scientific exit and later phase promotion.",
+        "Review source-specific reproducibility, component and security evidence under agreed confidentiality.",
+        "Complete intended-use and recipient-environment acceptance before relying on the identified outputs."
       ],
       "buyerConditions": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -3686,7 +3695,17 @@
         "securityDocumentationIdentified": false,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Offered work and qualification",
+          "text": "Evidence-grounded multi-expert reasoning software with matched baselines, controlled-study protocols and cross-model replication evidence packages.",
+          "items": [
+            "The v2.1 engineering release qualifies the study machinery; real model-backed H1–H7 scientific exit and independent scientific assessment remain separate.",
+            "Fixture outcomes do not establish model superiority, human-level performance or cross-domain robustness. Later roadmap promotion remains conditional on accepted scientific evidence.",
+            "External models, provider services, datasets, deployment and attributable commercial outcomes require separate rights, scope and acceptance."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-054",
@@ -5233,17 +5252,17 @@
     },
     {
       "ref": "TA-IP-077",
-      "version": "2.9.8 / qualified CPU scope",
+      "version": "2.9.13 / qualified CPU scope",
       "developmentEdition": "",
-      "productPosition": "Computational-neuroscience research software for bounded composable synthetic models, controlled cohort studies, predeclared hypothesis comparisons and observation-equivalence audits.",
-      "offeredEdition": "Specifically agreed first-party implementation and documentation for 2.9.8 / qualified CPU scope. The previously priced neural runtime, source adapters, interaction/lineage studies, experiment contracts and portability diagnostics are reused once. Added bounded composition and synthetic hypothesis/observation audit software is included. Biological or clinical findings, universal numerical portability, empirical performance, third-party data ownership, future development phases and production qualification are excluded.",
+      "productPosition": "Developed neural-research software for source-locked synthetic comparisons, scenario recovery, dual erasure and finite availability or critical-cut audits.",
+      "offeredEdition": "Specifically agreed first-party implementation and documentation for 2.9.13 / qualified CPU scope. Previously priced neural runtime, source adapters, composition, solver and synthetic hypothesis/observation foundations are reused once. Added scenario-basis, erasure/recovery, dual-erasure and availability/cut software is included. Empirical reliability, biological or clinical findings, universal numerical portability, external data ownership, future phases and production qualification are excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "V",
-          "criterion": "Computational-neuroscience research software for bounded composable synthetic models, controlled cohort studies, predeclared hypothesis comparisons and observation-equivalence audits. The offered edition and material boundaries govern review."
+          "criterion": "Developed neural-research software for source-locked synthetic comparisons, scenario recovery, dual erasure and finite availability or critical-cut audits. The offered edition and material boundaries govern review."
         },
         {
           "axis": "evidenceMaturity",
@@ -5271,9 +5290,9 @@
         }
       ],
       "sellerConditions": [
-        "Freeze the source-specific delivery edition, transferable rights and exclusions.",
-        "Resolve exact numerical replay and downstream qualification in the recipient environment without weakening historical checks.",
-        "Review component obligations, source-specific reproducibility and security evidence under agreed confidentiality.",
+        "Freeze the exact source edition, agreed first-party work, rights and exclusions.",
+        "Resolve exact numerical replay and full downstream qualification in the recipient environment without weakening retained checks.",
+        "Review source-specific reproducibility, component and security evidence under agreed confidentiality.",
         "Complete intended-use and recipient-environment acceptance before relying on the identified outputs."
       ],
       "buyerConditions": [
@@ -5298,11 +5317,11 @@
       "productDetails": [
         {
           "title": "Offered work and qualification",
-          "text": "Computational-neuroscience research software for bounded composable synthetic models, controlled cohort studies, predeclared hypothesis comparisons and observation-equivalence audits. Source-specific evidence is reviewed under agreed confidentiality; recipient acceptance remains separate.",
+          "text": "Developed neural-research software for source-locked synthetic comparisons, scenario recovery, dual erasure and finite availability or critical-cut audits.",
           "items": [
-            "Qualified CPU evidence applies only to its identified source and tested environments. Another local environment still has an unresolved exact numerical replay discrepancy affecting downstream qualification.",
-            "Bounded synthetic comparisons do not establish a unique biological mechanism, empirical identifiability, causal validity, clinical relevance, AGI or production readiness.",
-            "Observation aliases and separation witnesses are protocol-specific software results; recipient-environment replay and scientific/data-rights qualification remain separate."
+            "Qualified CPU evidence applies to its identified source and environment. A different local environment still has an unresolved exact numerical replay discrepancy affecting the full downstream suite.",
+            "Scenario availability, critical cuts and recovery witnesses are finite retrospective synthetic results, not empirical outage probabilities, calibrated reliability or new observations.",
+            "These software results do not establish unique biological mechanisms, EEG/BCI validity, causal or clinical findings, AGI or production readiness. Intended-use and recipient-environment acceptance remain separate."
           ]
         }
       ]
@@ -6449,17 +6468,17 @@
     },
     {
       "ref": "TA-IP-095",
-      "version": "R3 / package 0.1.0.dev1",
+      "version": "R4 / package 0.2.0.dev1",
       "developmentEdition": "",
-      "productPosition": "An early evidence-governance prototype with machine-readable contracts and an in-memory evidence/provenance registry.",
-      "offeredEdition": "Specifically agreed first-party R3 prototype and documentation. Only the agreed first-party R3 contract, evidence/provenance implementation and associated documentation are priced. The legacy source corpus and already priced portfolio foundations are excluded from this foreground estimate. Persistent storage, APIs, user interfaces, AI/digital-twin/risk engines, domain deployments and future productisation are not included.",
+      "productPosition": "An in-memory evidence-governance reference implementation with policy enforcement, bounded authority, delegation and human-approval workflows.",
+      "offeredEdition": "Specifically agreed first-party implementation and documentation for R4 / package 0.2.0.dev1. The previously priced R3 contract, evidence and provenance foundations are reused once. Added first-party R4 governance, policy, authority, approval and accountability software is included. The legacy corpus, other assets, durable persistence, APIs, user interfaces, broader AI/risk/digital-twin engines and future productisation are excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "P",
-          "criterion": "An early evidence-governance prototype with machine-readable contracts and an in-memory evidence/provenance registry. The offered edition and material boundaries govern review."
+          "criterion": "An in-memory evidence-governance reference implementation with policy enforcement, bounded authority, delegation and human-approval workflows. The offered edition and material boundaries govern review."
         },
         {
           "axis": "evidenceMaturity",
@@ -6487,9 +6506,10 @@
         }
       ],
       "sellerConditions": [
-        "Freeze the exact R3 first-party source and agreed documents, rights and exclusions.",
-        "Review the origin, disposition and rights of any legacy or third-party source materials before including them in delivery.",
-        "Qualify intended use, future persistence/integration scope and recipient acceptance separately."
+        "Freeze the exact source edition, agreed first-party work, rights and exclusions.",
+        "Agree persistence and integration boundaries separately from the internally qualified in-memory reference implementation.",
+        "Review source-specific reproducibility, component and security evidence under agreed confidentiality.",
+        "Complete intended-use and recipient-environment acceptance before relying on the identified outputs."
       ],
       "buyerConditions": [],
       "qualificationObjectives": [
@@ -6508,11 +6528,11 @@
       },
       "productDetails": [
         {
-          "title": "Offered prototype scope",
-          "text": "An early evidence-governance prototype with machine-readable contracts and an in-memory evidence/provenance registry.",
+          "title": "Offered work and qualification",
+          "text": "An in-memory evidence-governance reference implementation with policy enforcement, bounded authority, delegation and human-approval workflows.",
           "items": [
-            "R3 provides a bounded in-memory prototype and reviewed contracts; persistence, APIs, production interfaces and the broader AI/digital-twin programme remain later development.",
-            "Software provenance and review gates do not authenticate external facts, confer legal authority or establish independent scientific or regulatory acceptance.",
+            "R4 qualifies an in-memory reference implementation. Durable storage, APIs, production interfaces and the broader AI, risk and digital-twin programme remain later development.",
+            "Policy and authority gates organise software decisions; they do not authenticate external facts, confer legal authority or establish regulatory or scientific acceptance.",
             "Legacy source archives, other portfolio assets, third-party content and future modules require separate scope and rights review."
           ]
         }
@@ -7600,6 +7620,148 @@
             "A research-software framework, not a simulation detector or an empirically validated physical theory.",
             "Synthetic model comparisons and covariance controls do not establish new physics, a scientifically calibrated null, instrument calibration or an external simulator.",
             "The broader hypothesis families and cross-domain programme remain research directions; implemented bounded methodology is not a collection of validated physical model engines."
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "TA-IP-111",
+      "version": "1.28.0 / native research scope",
+      "developmentEdition": "",
+      "productPosition": "A standalone local-first chess analysis and training prototype with legally synchronised board history, bounded native research analysers and a separate owner-interface pathway.",
+      "offeredEdition": "Specifically agreed first-party implementation and documentation. Only the specifically agreed first-party local chess application, native research analysers and related documentation are priced. Third-party historical games, derived data and external engine ownership rights are not priced as proprietary assets. Independent strength qualification, future search advances, live integrations and production services are excluded.",
+      "transferPosition": "Conditional handover",
+      "assessmentCriteria": [
+        {
+          "axis": "technicalMaturity",
+          "label": "Technical scope",
+          "grade": "P",
+          "criterion": "A standalone local-first chess analysis and training prototype with legally synchronised board history, bounded native research analysers and a separate owner-interface pathway. The offered edition and material boundaries govern review."
+        },
+        {
+          "axis": "evidenceMaturity",
+          "label": "Evidence and validation",
+          "grade": "E2",
+          "criterion": "Tests plus validation/qualification evidence identified. Source-specific diligence and recipient acceptance remain separate."
+        },
+        {
+          "axis": "ipRightsMaturity",
+          "label": "Rights and component obligations",
+          "grade": "R2",
+          "criterion": "R1 plus dependency/third-party disclosure basis identified. Source-specific diligence and recipient acceptance remain separate."
+        },
+        {
+          "axis": "commercialMaturity",
+          "label": "Commercial basis",
+          "grade": "C2",
+          "criterion": "Seller ask and reproducible economic reference established. Source-specific diligence and recipient acceptance remain separate."
+        },
+        {
+          "axis": "transferReadiness",
+          "label": "Delivery and handover",
+          "grade": "T2",
+          "criterion": "Source, documentation, tests and licence evidence support bounded handover. Source-specific diligence and recipient acceptance remain separate."
+        }
+      ],
+      "sellerConditions": [
+        "Freeze the specific first-party source, delivery documents, transferable rights and exclusions.",
+        "Review retained source-specific qualification and any further independent or intended-use acceptance.",
+        "Keep third-party rights, future capabilities and empirical or competitive claims outside the agreed proprietary scope."
+      ],
+      "buyerConditions": [],
+      "qualificationObjectives": [
+        "Reproduce the identified software and representative recipient cases within the stated boundaries.",
+        "Agree source-specific rights, delivery and acceptance before transfer."
+      ],
+      "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established. Historical game and derived data capsules retain CC BY-SA 4.0 terms, including attribution and share-alike where applicable; optional external engines are separately licensed. These are not proprietary ownership rights offered by the seller.",
+      "componentEvidence": {
+        "dependencyManifestIdentified": false,
+        "dependencyLockIdentified": false,
+        "componentInventoryIdentified": false,
+        "licenceNoticesIdentified": true,
+        "thirdPartyDisclosureIdentified": true,
+        "securityDocumentationIdentified": false,
+        "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
+      },
+      "productDetails": [
+        {
+          "title": "Offered work and qualification",
+          "text": "A standalone local-first chess analysis and training prototype with legally synchronised board history, bounded native research analysers and a separate owner-interface pathway.",
+          "items": [
+            "The native v1.28 research analyser and its history-safe cache have local software qualification; independent v1.28 acceptance remains pending. The owner interface retains its separately accepted earlier engine pathway.",
+            "World-class strength, verified Elo, guaranteed wins and strength attributable to an optional third-party engine are not established properties of the proprietary native engine.",
+            "Historical game and derived opening-data capsules retain CC BY-SA 4.0 attribution and share-alike terms. Optional external engines retain their own licences and are outside the proprietary first-party price."
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "TA-IP-112",
+      "version": "0.2.1 / R1.1 numerical and record assurance",
+      "developmentEdition": "",
+      "productPosition": "Experimental research software for explicit cosmological reference calculations, toy-geometry experiments, numerical assurance and versioned provenance records.",
+      "offeredEdition": "Specifically agreed first-party implementation and documentation. Only the specifically agreed first-party numerical-reference, synthetic experiment, assurance and record-contract software and documentation are priced. Other portfolio assets, empirical data rights, physical discoveries, a validated new theory, future R2 modules and production qualification are excluded.",
+      "transferPosition": "Conditional handover",
+      "assessmentCriteria": [
+        {
+          "axis": "technicalMaturity",
+          "label": "Technical scope",
+          "grade": "R",
+          "criterion": "Experimental research software for explicit cosmological reference calculations, toy-geometry experiments, numerical assurance and versioned provenance records. The offered edition and material boundaries govern review."
+        },
+        {
+          "axis": "evidenceMaturity",
+          "label": "Evidence and validation",
+          "grade": "E2",
+          "criterion": "Tests plus validation/qualification evidence identified. Source-specific diligence and recipient acceptance remain separate."
+        },
+        {
+          "axis": "ipRightsMaturity",
+          "label": "Rights and component obligations",
+          "grade": "R1",
+          "criterion": "Repository licence file identified. Source-specific diligence and recipient acceptance remain separate."
+        },
+        {
+          "axis": "commercialMaturity",
+          "label": "Commercial basis",
+          "grade": "C2",
+          "criterion": "Seller ask and reproducible economic reference established. Source-specific diligence and recipient acceptance remain separate."
+        },
+        {
+          "axis": "transferReadiness",
+          "label": "Delivery and handover",
+          "grade": "T2",
+          "criterion": "Source, documentation, tests and licence evidence support bounded handover. Source-specific diligence and recipient acceptance remain separate."
+        }
+      ],
+      "sellerConditions": [
+        "Freeze the specific first-party source, delivery documents, transferable rights and exclusions.",
+        "Review retained source-specific qualification and any further independent or intended-use acceptance.",
+        "Keep third-party rights, future capabilities and empirical or competitive claims outside the agreed proprietary scope."
+      ],
+      "buyerConditions": [],
+      "qualificationObjectives": [
+        "Reproduce the identified software and representative recipient cases within the stated boundaries.",
+        "Agree source-specific rights, delivery and acceptance before transfer."
+      ],
+      "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
+      "componentEvidence": {
+        "dependencyManifestIdentified": true,
+        "dependencyLockIdentified": false,
+        "componentInventoryIdentified": false,
+        "licenceNoticesIdentified": true,
+        "thirdPartyDisclosureIdentified": false,
+        "securityDocumentationIdentified": false,
+        "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
+      },
+      "productDetails": [
+        {
+          "title": "Offered work and qualification",
+          "text": "Experimental research software for explicit cosmological reference calculations, toy-geometry experiments, numerical assurance and versioned provenance records.",
+          "items": [
+            "The v0.2.1 record-contract changes have local software acceptance. Prior v0.2.0 numerical second-runtime evidence does not by itself qualify the new schema code; full R1 acceptance and R2 remain open.",
+            "Reference calculations, toy geometry and synthetic Bayesian comparisons are not new observations or proof of emergent spacetime, cosmic origins or an original fundamental-physics theory.",
+            "Independent physical-science review, representative empirical data, declared platform compatibility and recipient acceptance require separate evidence and scope."
           ]
         }
       ]

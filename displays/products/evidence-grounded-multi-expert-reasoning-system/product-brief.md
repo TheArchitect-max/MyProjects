@@ -2,31 +2,31 @@
 
 TA-IP-053 | Reference name: Eleanor | Evidence & investigation software
 
-Compare multiple perspectives on a complex question and inspect the evidence behind their conclusions.
+Compare declared reasoning strategies, preserve contradictory or inconclusive results and audit matched controlled-study and replication packages.
 
 ## Product overview
 
-An evidence-grounded reasoning product for specialist review and measurable comparisons.
+Evidence-grounded multi-expert reasoning software with matched baselines, controlled-study protocols and cross-model replication evidence packages.
 
 ## Potential acquirers
 
-- AI product companies
-- Enterprise reasoning teams
-- Research organisations
+- Reasoning and evaluation software vendors
+- Enterprise AI assurance teams
+- Research organisations conducting controlled model studies
 
 ## Documented functions
 
-- Route problems to specialist review
-- Ground claims in supplied evidence
-- Expose contradictions
-- Run bounded checks
-- Retain reproducible evaluation records
+- Route tasks through declared specialist strategies
+- Govern capability and strong-baseline comparisons
+- Prepare controlled-study evidence packages
+- Bind cross-model runs to matched protocols
+- Verify nested evidence, lineage and report integrity
 
 ## Available output types
 
-- Evidence-linked conclusions
-- Contradiction reports
-- Benchmark dossiers
+- Controlled-study and replication packages
+- Baseline comparison and consistency reports
+- Verifiable audit and provenance records
 
 ## Current offered position
 
@@ -34,11 +34,13 @@ Developed software. Existing software offered for evaluation against an agreed u
 
 Available for acquisition discussion.
 
-- Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately.
+- The v2.1 engineering release qualifies the study machinery; real model-backed H1–H7 scientific exit and independent scientific assessment remain separate.
+- Fixture outcomes do not establish model superiority, human-level performance or cross-domain robustness. Later roadmap promotion remains conditional on accepted scientific evidence.
+- External models, provider services, datasets, deployment and attributable commercial outcomes require separate rights, scope and acceptance.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 500,000.
+Seller asking reference: EUR 519,000.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -68,23 +70,29 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 1.7.0
+Identified product edition: 2.1.0 / engineering release
 
 Handover position: Conditional handover
 
-Use the validated v1.7.0 release as the current evidence baseline. The separate v1.8.0 candidate has completed static review and awaits full runtime and distribution validation.
-
-Separately scoped development: 1.8.0 capability-study candidate
+Evidence-grounded multi-expert reasoning software with matched baselines, controlled-study protocols and cross-model replication evidence packages.
 
 ### Priced first-party scope
 
-Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+Specifically agreed first-party implementation and documentation for 2.1.0 / engineering release. Previously priced routing, grounding, evaluation, canonical fingerprints and custody foundations are reused once. Added governed capability/baseline, controlled-study and cross-model replication software is included. Real model-provider runs, H1–H7 scientific success, model or human superiority, empirical data ownership and later development phases are excluded.
+
+### Offered work and qualification
+
+Evidence-grounded multi-expert reasoning software with matched baselines, controlled-study protocols and cross-model replication evidence packages.
+
+- The v2.1 engineering release qualifies the study machinery; real model-backed H1–H7 scientific exit and independent scientific assessment remain separate.
+- Fixture outcomes do not establish model superiority, human-level performance or cross-domain robustness. Later roadmap promotion remains conditional on accepted scientific evidence.
+- External models, provider services, datasets, deployment and attributable commercial outcomes require separate rights, scope and acceptance.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | V | An evidence-grounded reasoning product for specialist review and measurable comparisons. The offered edition and material boundaries govern review. |
+| Technical scope | V | Evidence-grounded multi-expert reasoning software with matched baselines, controlled-study protocols and cross-model replication evidence packages. The offered edition and material boundaries govern review. |
 | Evidence and validation | E3 | Tests, validation and provenance/release evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
 | Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
@@ -92,11 +100,10 @@ Seller-owned first-party rights plus specifically agreed transferable software/d
 
 ### Conditions before handover
 
-- Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
-- A detailed component inventory and licensing report are required for the agreed delivery scope.
-- A security assessment or an explicit statement of its absence is required before acceptance.
-- An explicit delivery manifest and handover scope remain to be agreed.
-- Complete runtime and distribution acceptance of the v1.8 candidate remains outstanding.
+- Freeze the exact source edition, agreed first-party work, rights and exclusions.
+- Keep engineering acceptance separate from real model-backed H1–H7 scientific exit and later phase promotion.
+- Review source-specific reproducibility, component and security evidence under agreed confidentiality.
+- Complete intended-use and recipient-environment acceptance before relying on the identified outputs.
 
 ### Qualification objectives
 
@@ -132,20 +139,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-21. All amounts in EUR. Market value is not established.
+Basis: 2026-10-30. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 500,000 | 556,650 |
-| Negotiation reference - low | 400,000 | 445,320 |
-| Negotiation reference - high | 625,000 | 695,813 |
-| Recreation cost estimate | 1,800,000 | 2,003,940 |
-| Marketability cost scenario | 2,277,000 | 2,534,984 |
-| Monetisation cost scenario | 2,794,500 | 3,111,117 |
-| Risk-adjusted strategic reference | 2,297,348 | 2,557,638 |
-| Weighted economic reference | 2,268,372 | 2,525,379 |
+| Seller asking reference | 519,000 | 579,827 |
+| Negotiation reference - low | 415,500 | 464,197 |
+| Negotiation reference - high | 649,000 | 725,063 |
+| Recreation cost estimate | 1,869,000 | 2,088,047 |
+| Marketability cost scenario | 2,364,285 | 2,641,379 |
+| Monetisation cost scenario | 2,901,623 | 3,241,693 |
+| Risk-adjusted strategic reference | 2,385,413 | 2,664,983 |
+| Weighted economic reference | 2,355,326 | 2,631,370 |
 
-USD = EUR × 1.1133, rounded half-up to whole USD. ECB date: 2026-10-28. EUR is authoritative.
+USD = EUR × 1.1172, rounded half-up to whole USD. ECB date: 2026-10-30. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -162,15 +169,43 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+The retained expressly priced scope and successive non-overlapping budgets reconcile below. Equivalent effort and historical anchors are seller assumptions, not actual expenditure, independent quotations or market value. Previously priced routing, grounding, evaluation, canonical fingerprints and custody foundations are reused once. Added governed capability/baseline, controlled-study and cross-model replication software is included. Real model-provider runs, H1–H7 scientific success, model or human superiority, empirical data ownership and later development phases are excluded.
 
 ### Financial assessment
 
-Retained seller estimate; work breakdown required. Assessed 2026-10-21.
+Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-30.
 
-No complete work-package budget supports the retained anchor. Obtain a delivery-specific work breakdown and quote; this seller estimate does not establish actual expenditure or market value.
+Explicit budgets cover part of the estimate. The retained anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
+
+#### Scoped implementation reproduction budget
+
+Governed capability-science protocols; Matched strong-baseline harness; Controlled-study orchestration and packaging; Cross-model replication governance; CLI, provenance and handover documentation; Adversarial software qualification.
+
+- Governed capability-science protocols — 96 assumed hours
+- Matched strong-baseline harness — 128 assumed hours
+- Controlled-study orchestration and packaging — 128 assumed hours
+- Cross-model replication governance — 112 assumed hours
+- CLI, provenance and handover documentation — 96 assumed hours
+- Adversarial software qualification — 80 assumed hours
+
+- Assumed hours: 640
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 60,160
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 69,184
+- Effort alternatives / Low hours: 640
+- Effort alternatives / Reference hours: 960
+- Effort alternatives / Extended hours: 1280
+- Effort alternatives / Low cost: EUR 69,184
+- Effort alternatives / Reference cost: EUR 103,776
+- Effort alternatives / Extended cost: EUR 138,368
+- Adopted recreation increment: EUR 69,000
+- Previous recreation cost: EUR 1,800,000
+- Current recreation cost: EUR 1,869,000
+
+Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. Previously priced routing, grounding, evaluation, canonical fingerprints and custody foundations are reused once. Added governed capability/baseline, controlled-study and cross-model replication software is included. Real model-provider runs, H1–H7 scientific success, model or human superiority, empirical data ownership and later development phases are excluded.
 
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
@@ -182,13 +217,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1133; ECB 2026-10-28. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1172; ECB 2026-10-30. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "V", "potential": "H", "sector": "AI, Decision & Knowledge Systems", "route": "B2B SaaS / enterprise software"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc8
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc9
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/evidence-grounded-multi-expert-reasoning-system/#calculation
 

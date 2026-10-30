@@ -2,11 +2,11 @@
 
 TA-IP-095 | Reference name: Ivy | Evidence & investigation software
 
-Register bounded evidence, retain review decisions and contradictions, and trace provenance within controlled research or governance workflows.
+Register bounded evidence, review policy conditions and retain attributable decisions, provenance and human-approval records.
 
 ## Product overview
 
-An early evidence-governance prototype with machine-readable contracts and an in-memory evidence/provenance registry.
+An in-memory evidence-governance reference implementation with policy enforcement, bounded authority, delegation and human-approval workflows.
 
 ## Potential acquirers
 
@@ -16,17 +16,17 @@ An early evidence-governance prototype with machine-readable contracts and an in
 
 ## Documented functions
 
-- Review bounded machine-readable evidence contracts
-- Register evidence with applicability and validity conditions
-- Retain explicit review state and contradictions
-- Trace hash-linked provenance records
-- Export and verify bounded evidence records
+- Register evidence and trace provenance
+- Evaluate reviewed policy and applicability conditions
+- Constrain authority and delegated actions
+- Require scoped human approval where declared
+- Retain local accountability and contestability records
 
 ## Available output types
 
-- Evidence and review records
-- Provenance-chain records
-- Contract validation reports
+- Evidence and policy-decision records
+- Authority and approval assessments
+- Auditable governance workflow packages
 
 ## Current offered position
 
@@ -34,13 +34,13 @@ Prototype. An early implemented prototype for bounded evaluation. Durable operat
 
 Available for acquisition discussion.
 
-- R3 provides a bounded in-memory prototype and reviewed contracts; persistence, APIs, production interfaces and the broader AI/digital-twin programme remain later development.
-- Software provenance and review gates do not authenticate external facts, confer legal authority or establish independent scientific or regulatory acceptance.
+- R4 qualifies an in-memory reference implementation. Durable storage, APIs, production interfaces and the broader AI, risk and digital-twin programme remain later development.
+- Policy and authority gates organise software decisions; they do not authenticate external facts, confer legal authority or establish regulatory or scientific acceptance.
 - Legacy source archives, other portfolio assets, third-party content and future modules require separate scope and rights review.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 7,000.
+Seller asking reference: EUR 13,000.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -70,29 +70,29 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: R3 / package 0.1.0.dev1
+Identified product edition: R4 / package 0.2.0.dev1
 
 Handover position: Conditional handover
 
-An early evidence-governance prototype with machine-readable contracts and an in-memory evidence/provenance registry.
+An in-memory evidence-governance reference implementation with policy enforcement, bounded authority, delegation and human-approval workflows.
 
 ### Priced first-party scope
 
-Specifically agreed first-party R3 prototype and documentation. Only the agreed first-party R3 contract, evidence/provenance implementation and associated documentation are priced. The legacy source corpus and already priced portfolio foundations are excluded from this foreground estimate. Persistent storage, APIs, user interfaces, AI/digital-twin/risk engines, domain deployments and future productisation are not included.
+Specifically agreed first-party implementation and documentation for R4 / package 0.2.0.dev1. The previously priced R3 contract, evidence and provenance foundations are reused once. Added first-party R4 governance, policy, authority, approval and accountability software is included. The legacy corpus, other assets, durable persistence, APIs, user interfaces, broader AI/risk/digital-twin engines and future productisation are excluded.
 
-### Offered prototype scope
+### Offered work and qualification
 
-An early evidence-governance prototype with machine-readable contracts and an in-memory evidence/provenance registry.
+An in-memory evidence-governance reference implementation with policy enforcement, bounded authority, delegation and human-approval workflows.
 
-- R3 provides a bounded in-memory prototype and reviewed contracts; persistence, APIs, production interfaces and the broader AI/digital-twin programme remain later development.
-- Software provenance and review gates do not authenticate external facts, confer legal authority or establish independent scientific or regulatory acceptance.
+- R4 qualifies an in-memory reference implementation. Durable storage, APIs, production interfaces and the broader AI, risk and digital-twin programme remain later development.
+- Policy and authority gates organise software decisions; they do not authenticate external facts, confer legal authority or establish regulatory or scientific acceptance.
 - Legacy source archives, other portfolio assets, third-party content and future modules require separate scope and rights review.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | P | An early evidence-governance prototype with machine-readable contracts and an in-memory evidence/provenance registry. The offered edition and material boundaries govern review. |
+| Technical scope | P | An in-memory evidence-governance reference implementation with policy enforcement, bounded authority, delegation and human-approval workflows. The offered edition and material boundaries govern review. |
 | Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Source-specific diligence and recipient acceptance remain separate. |
 | Rights and component obligations | R1 | Repository licence file identified. Source-specific diligence and recipient acceptance remain separate. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. Source-specific diligence and recipient acceptance remain separate. |
@@ -100,9 +100,10 @@ An early evidence-governance prototype with machine-readable contracts and an in
 
 ### Conditions before handover
 
-- Freeze the exact R3 first-party source and agreed documents, rights and exclusions.
-- Review the origin, disposition and rights of any legacy or third-party source materials before including them in delivery.
-- Qualify intended use, future persistence/integration scope and recipient acceptance separately.
+- Freeze the exact source edition, agreed first-party work, rights and exclusions.
+- Agree persistence and integration boundaries separately from the internally qualified in-memory reference implementation.
+- Review source-specific reproducibility, component and security evidence under agreed confidentiality.
+- Complete intended-use and recipient-environment acceptance before relying on the identified outputs.
 
 ### Qualification objectives
 
@@ -129,20 +130,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-28. All amounts in EUR. Market value is not established.
+Basis: 2026-10-30. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 7,000 | 7,793 |
-| Negotiation reference - low | 5,500 | 6,123 |
-| Negotiation reference - high | 8,500 | 9,463 |
-| Recreation cost estimate | 23,000 | 25,606 |
-| Marketability cost scenario | 19,355 | 21,548 |
-| Monetisation cost scenario | 17,854 | 19,877 |
-| Risk-adjusted strategic reference | 9,597 | 10,684 |
-| Weighted economic reference | 16,551 | 18,426 |
+| Seller asking reference | 13,000 | 14,524 |
+| Negotiation reference - low | 10,500 | 11,731 |
+| Negotiation reference - high | 16,000 | 17,875 |
+| Recreation cost estimate | 43,500 | 48,598 |
+| Marketability cost scenario | 36,605 | 40,895 |
+| Monetisation cost scenario | 33,767 | 37,724 |
+| Risk-adjusted strategic reference | 18,150 | 20,277 |
+| Weighted economic reference | 31,302 | 34,971 |
 
-USD = EUR × 1.1133, rounded half-up to whole USD. ECB date: 2026-10-28. EUR is authoritative.
+USD = EUR × 1.1172, rounded half-up to whole USD. ECB date: 2026-10-30. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -159,11 +160,11 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The recreation estimate adopts the lowest explicitly scoped seller effort scenario. It is not expenditure, an absolute minimum, an independent quote or market value. Only the agreed first-party R3 contract, evidence/provenance implementation and associated documentation are priced. The legacy source corpus and already priced portfolio foundations are excluded from this foreground estimate. Persistent storage, APIs, user interfaces, AI/digital-twin/risk engines, domain deployments and future productisation are not included.
+The retained expressly priced scope and successive non-overlapping budgets reconcile below. Equivalent effort and historical anchors are seller assumptions, not actual expenditure, independent quotations or market value. The previously priced R3 contract, evidence and provenance foundations are reused once. Added first-party R4 governance, policy, authority, approval and accountability software is included. The legacy corpus, other assets, durable persistence, APIs, user interfaces, broader AI/risk/digital-twin engines and future productisation are excluded.
 
 ### Financial assessment
 
-Stated scope reconciled to explicit budgets. Assessed 2026-10-28.
+Stated scope reconciled to explicit budgets. Assessed 2026-10-30.
 
 The stated scope reconciles to explicit seller budgets. Effort remains assumed; independent quotations, intended-use qualification and market value are not established.
 
@@ -194,6 +195,33 @@ Controlled source/requirement disposition and specification baseline; Canonical 
 
 Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. Only the agreed first-party R3 contract, evidence/provenance implementation and associated documentation are priced. The legacy source corpus and already priced portfolio foundations are excluded from this foreground estimate. Persistent storage, APIs, user interfaces, AI/digital-twin/risk engines, domain deployments and future productisation are not included.
 
+#### Scoped implementation reproduction budget
+
+Policy lifecycle and applicability models; Scoped authority and bounded delegation; Human approval and governance workflows; Accountability and contestability audit records; Requirement traceability and software qualification.
+
+- Policy lifecycle and applicability models — 32 assumed hours
+- Scoped authority and bounded delegation — 40 assumed hours
+- Human approval and governance workflows — 48 assumed hours
+- Accountability and contestability audit records — 40 assumed hours
+- Requirement traceability and software qualification — 32 assumed hours
+
+- Assumed hours: 192
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 18,048
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 20,755.2
+- Effort alternatives / Low hours: 192
+- Effort alternatives / Reference hours: 288
+- Effort alternatives / Extended hours: 384
+- Effort alternatives / Low cost: EUR 20,755.2
+- Effort alternatives / Reference cost: EUR 31,132.8
+- Effort alternatives / Extended cost: EUR 41,510.4
+- Adopted recreation increment: EUR 20,500
+- Previous recreation cost: EUR 23,000
+- Current recreation cost: EUR 43,500
+
+Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. The previously priced R3 contract, evidence and provenance foundations are reused once. Added first-party R4 governance, policy, authority, approval and accountability software is included. The legacy corpus, other assets, durable persistence, APIs, user interfaces, broader AI/risk/digital-twin engines and future productisation are excluded.
+
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
@@ -204,13 +232,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1133; ECB 2026-10-28. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1172; ECB 2026-10-30. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "P", "potential": "M", "sector": "Enterprise Software & Operations", "route": "Enterprise software / licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc8
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc9
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/evidence-governed-intelligence-platform/#calculation
 
