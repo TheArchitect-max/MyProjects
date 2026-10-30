@@ -2,31 +2,31 @@
 
 TA-IP-050 | Reference name: Ines | Specialist applications
 
-Organise your tattoo studio’s materials, consent records, stock planning and operational workflows.
+Trace studio materials and consent, manage inventory and deposit workflow state, and review bounded persistence and migration safeguards.
 
 ## Product overview
 
-A tattoo-studio operations asset for material traceability and business workflow support.
+Tattoo-studio operations software with tenant-scoped transactional persistence adapters and an isolated PostgreSQL qualification harness.
 
 ## Potential acquirers
 
-- Studio software vendors
-- Tattoo studio groups
-- Specialist business-platform teams
+- Tattoo-industry software vendors
+- Studio-management platform developers
+- Specialist operations software businesses
 
 ## Documented functions
 
-- Track materials and consent records
-- Plan inventory replenishment
-- Review deposit workflows
-- Prepare stencil work
-- Retain operational records
+- Record material and consent traceability
+- Review inventory and deposit-state transitions
+- Apply tenant-scoped transactional persistence rules
+- Detect migration drift and ordering errors
+- Prepare isolated database qualification runs
 
 ## Available output types
 
-- Traceability records
-- Inventory plans
-- Stencil outputs
+- Traceability and workflow records
+- Inventory and deposit-state reports
+- Migration and qualification assessments
 
 ## Current offered position
 
@@ -34,11 +34,13 @@ Developed software. Existing software offered for evaluation against an agreed u
 
 Available for acquisition discussion.
 
-- Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately.
+- The engineering baseline and local software checks do not establish real PostgreSQL runtime acceptance; that remains an open delivery gate.
+- Recipient deployment, tenant migration, security review, studio compliance, payment-provider integration and real-world stencil suitability require separate qualification.
+- The pinned database driver and other third-party components retain their own terms; the offered proprietary value covers first-party work.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 160,000.
+Seller asking reference: EUR 165,500.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -68,21 +70,29 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: Delivery edition to be agreed
+Identified product edition: Phase 2B.2A / PostgreSQL qualification harness
 
 Handover position: Conditional handover
 
-Available software for evaluation against your intended use. Deployment suitability is assessed separately.
+Tattoo-studio operations software with tenant-scoped transactional persistence adapters and an isolated PostgreSQL qualification harness.
 
 ### Priced first-party scope
 
-Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+Specifically agreed first-party implementation and documentation for Phase 2B.2A / PostgreSQL qualification harness. The previously priced studio, geometry, workflow, authentication and migration foundations are reused once. Added first-party persistence adapters and qualification tooling are included. Real PostgreSQL operation, production tenant migration, payment services, clinical or regulatory acceptance, hosting and third-party ownership rights are excluded.
+
+### Offered work and qualification
+
+Tattoo-studio operations software with tenant-scoped transactional persistence adapters and an isolated PostgreSQL qualification harness.
+
+- The engineering baseline and local software checks do not establish real PostgreSQL runtime acceptance; that remains an open delivery gate.
+- Recipient deployment, tenant migration, security review, studio compliance, payment-provider integration and real-world stencil suitability require separate qualification.
+- The pinned database driver and other third-party components retain their own terms; the offered proprietary value covers first-party work.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | V | A tattoo-studio operations asset for material traceability and business workflow support. The offered edition and material boundaries govern review. |
+| Technical scope | V | Tattoo-studio operations software with tenant-scoped transactional persistence adapters and an isolated PostgreSQL qualification harness. The offered edition and material boundaries govern review. |
 | Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
 | Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
@@ -90,10 +100,10 @@ Seller-owned first-party rights plus specifically agreed transferable software/d
 
 ### Conditions before handover
 
-- Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
-- A detailed component inventory and licensing report are required for the agreed delivery scope.
-- Release identity and provenance evidence remain incomplete.
-- An explicit delivery manifest and handover scope remain to be agreed.
+- Freeze the exact source edition, agreed first-party work, rights and exclusions.
+- Execute and accept the isolated real PostgreSQL runtime qualification before claiming database-specific delivery readiness.
+- Review source-specific reproducibility, component and security evidence under agreed confidentiality.
+- Complete intended-use and recipient-environment acceptance before relying on the identified outputs.
 
 ### Qualification objectives
 
@@ -110,7 +120,7 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance.
 
 - Dependency declaration: identified
-- Dependency lock record: not established in reviewed records
+- Dependency lock record: identified
 - Component inventory artifact: not established in reviewed records
 - Licence notices: identified
 - Third-party disclosure: identified
@@ -123,20 +133,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-21. All amounts in EUR. Market value is not established.
+Basis: 2026-10-30. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 160,000 | 178,128 |
-| Negotiation reference - low | 130,000 | 144,729 |
-| Negotiation reference - high | 200,000 | 222,660 |
-| Recreation cost estimate | 650,000 | 723,645 |
-| Marketability cost scenario | 747,500 | 832,192 |
-| Monetisation cost scenario | 965,250 | 1,074,613 |
-| Risk-adjusted strategic reference | 754,180 | 839,629 |
-| Weighted economic reference | 769,013 | 856,142 |
+| Seller asking reference | 165,500 | 184,897 |
+| Negotiation reference - low | 134,500 | 150,263 |
+| Negotiation reference - high | 207,000 | 231,260 |
+| Recreation cost estimate | 672,000 | 750,758 |
+| Marketability cost scenario | 772,800 | 863,372 |
+| Monetisation cost scenario | 997,920 | 1,114,876 |
+| Risk-adjusted strategic reference | 779,706 | 871,088 |
+| Weighted economic reference | 795,041 | 888,220 |
 
-USD = EUR × 1.1133, rounded half-up to whole USD. ECB date: 2026-10-28. EUR is authoritative.
+USD = EUR × 1.1172, rounded half-up to whole USD. ECB date: 2026-10-30. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -153,15 +163,42 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+The retained expressly priced scope and successive non-overlapping budgets reconcile below. Equivalent effort and historical anchors are seller assumptions, not actual expenditure, independent quotations or market value. The previously priced studio, geometry, workflow, authentication and migration foundations are reused once. Added first-party persistence adapters and qualification tooling are included. Real PostgreSQL operation, production tenant migration, payment services, clinical or regulatory acceptance, hosting and third-party ownership rights are excluded.
 
 ### Financial assessment
 
-Retained seller estimate; work breakdown required. Assessed 2026-10-21.
+Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-30.
 
-No complete work-package budget supports the retained anchor. Obtain a delivery-specific work breakdown and quote; this seller estimate does not establish actual expenditure or market value.
+Explicit budgets cover part of the estimate. The retained anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
 Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
+
+#### Scoped implementation reproduction budget
+
+Tenant-scoped transactional persistence adapters; Stock protection, concurrency and audit fingerprints; Migration and database-interface safety; Isolated PostgreSQL qualification harness; Qualification documentation and handover.
+
+- Tenant-scoped transactional persistence adapters — 64 assumed hours
+- Stock protection, concurrency and audit fingerprints — 48 assumed hours
+- Migration and database-interface safety — 32 assumed hours
+- Isolated PostgreSQL qualification harness — 40 assumed hours
+- Qualification documentation and handover — 24 assumed hours
+
+- Assumed hours: 208
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 19,552
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 22,484.8
+- Effort alternatives / Low hours: 208
+- Effort alternatives / Reference hours: 312
+- Effort alternatives / Extended hours: 416
+- Effort alternatives / Low cost: EUR 22,484.8
+- Effort alternatives / Reference cost: EUR 33,727.2
+- Effort alternatives / Extended cost: EUR 44,969.6
+- Adopted recreation increment: EUR 22,000
+- Previous recreation cost: EUR 650,000
+- Current recreation cost: EUR 672,000
+
+Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. The previously priced studio, geometry, workflow, authentication and migration foundations are reused once. Added first-party persistence adapters and qualification tooling are included. Real PostgreSQL operation, production tenant migration, payment services, clinical or regulatory acceptance, hosting and third-party ownership rights are excluded.
 
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
@@ -173,13 +210,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1133; ECB 2026-10-28. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1172; ECB 2026-10-30. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "V", "potential": "H", "sector": "Specialist Vertical Software", "route": "Vertical SaaS / specialist software"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc8
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc9
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/truelane-inkcore/#calculation
 

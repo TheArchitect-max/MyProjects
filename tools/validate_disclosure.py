@@ -27,5 +27,5 @@ def validate():
   assert not any('potential sensitive filenames' in x.lower() for x in a['sellerConditions']),a['ref']
  assert not list(ROOT.glob('**/*Recovery_Key*'))
  assert not (ROOT/'audit-20261021').exists()
- return {'result':'PASS','publicAssets':110,'publicDocumentsChecked':330,'privateSourceIdentifiersAbsent':True,'privateImplementationPathsAbsent':True,'credentialsAndPersonalContactsAbsent':True,'rawBenchmarkMetricsAbsent':True,'recoveryKeyAbsent':True}
+ return {'result':'PASS','publicAssets':112,'publicDocumentsChecked':336,'privateSourceIdentifiersAbsent':True,'privateImplementationPathsAbsent':True,'credentialsAndPersonalContactsAbsent':True,'rawBenchmarkMetricsAbsent':True,'recoveryKeyAbsent':True}
 if __name__=='__main__':print(json.dumps(validate(),indent=2))

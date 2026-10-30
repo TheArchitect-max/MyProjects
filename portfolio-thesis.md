@@ -6,9 +6,9 @@
 
 The portfolio represents an extensive collection of independently initiated software engineering and research projects spanning advanced computational technologies, artificial intelligence, autonomous systems, scientific modeling, digital infrastructure, and specialized engineering applications.
 
-As of October 28, 2026, the inventory resolves **113 currently accessible GitHub repositories, including 111 private and two public repositories**.
+As of October 30, 2026, the acquisition catalogue comprises **112 independently identified software and research IP assets**.
 
-**Catalogue scope:** This acquisition website presents **110 individually identified software and research IP assets**, each linked to one of **110 asset repositories**. The three publication/acquisition-documentation repositories are excluded from the asset count. Confirm the agreed transfer perimeter before treating catalogue sums as an acquisition scope.
+**Catalogue scope:** Each of the **112 assets** is linked to one private source repository, one current ID and one feminine reference name. Public publication infrastructure and seller-excluded archives receive no standalone asset identity or price. The agreed first-party work, rights and transfer perimeter govern each acquisition.
 
 The portfolio is characterized by technological diversity, independently managed development initiatives, and an overarching emphasis on intellectual property creation, engineering methodologies, and long-term technological independence.
 
@@ -25,7 +25,7 @@ This distinction is essential to maintaining transparency between existing devel
 
 ### 2.1 Established Repository Portfolio
 
-The current inventory resolves 113 accessible repositories. The acquisition catalogue comprises 110 asset sources; the three publication repositories are excluded from its asset count.
+The current acquisition inventory comprises 112 distinct software and research assets. Publication and archive records are outside this asset count.
 
 The repository inventory establishes the existence and organizational scope of these initiatives. It does not, by itself, establish that every repository contains a complete product, independently validated technology, or commercially deployable software.
 
@@ -181,7 +181,7 @@ Achievement of that ambition remains dependent on the measurable performance and
 
 **Current Status — October 25, 2026**
 
-The portfolio comprises 113 identified GitHub repositories covering a broad range of advanced software, scientific, computational, and engineering disciplines. The repository inventory has been established, but comprehensive portfolio-wide technical certification, independent scientific validation, production-readiness verification, legal clearance, and commercial valuation are not established by that inventory.
+The acquisition portfolio comprises 112 individually identified software and research assets covering a broad range of advanced software, scientific, computational, and engineering disciplines. The repository inventory has been established, but comprehensive portfolio-wide technical certification, independent scientific validation, production-readiness verification, legal clearance, and commercial valuation are not established by that inventory.
 
 **Future Potential — Conditional and Forward-Looking**
 

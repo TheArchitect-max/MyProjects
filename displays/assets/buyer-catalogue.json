@@ -2676,31 +2676,33 @@
         "software",
         "specialist"
       ],
-      "summary": "Organise your tattoo studio’s materials, consent records, stock planning and operational workflows.",
-      "overview": "A tattoo-studio operations asset for material traceability and business workflow support.",
+      "summary": "Trace studio materials and consent, manage inventory and deposit workflow state, and review bounded persistence and migration safeguards.",
+      "overview": "Tattoo-studio operations software with tenant-scoped transactional persistence adapters and an isolated PostgreSQL qualification harness.",
       "potentialBuyers": [
-        "Studio software vendors",
-        "Tattoo studio groups",
-        "Specialist business-platform teams"
+        "Tattoo-industry software vendors",
+        "Studio-management platform developers",
+        "Specialist operations software businesses"
       ],
       "capabilities": [
-        "Track materials and consent records",
-        "Plan inventory replenishment",
-        "Review deposit workflows",
-        "Prepare stencil work",
-        "Retain operational records"
+        "Record material and consent traceability",
+        "Review inventory and deposit-state transitions",
+        "Apply tenant-scoped transactional persistence rules",
+        "Detect migration drift and ordering errors",
+        "Prepare isolated database qualification runs"
       ],
       "outputTypes": [
-        "Traceability records",
-        "Inventory plans",
-        "Stencil outputs"
+        "Traceability and workflow records",
+        "Inventory and deposit-state reports",
+        "Migration and qualification assessments"
       ],
       "maturity": "Developed software",
       "maturityNote": "Existing software offered for evaluation against an agreed use and delivery scope.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 160000,
+      "askingReferenceEUR": 165500,
       "materialBoundaries": [
-        "Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately."
+        "The engineering baseline and local software checks do not establish real PostgreSQL runtime acceptance; that remains an open delivery gate.",
+        "Recipient deployment, tenant migration, security review, studio compliance, payment-provider integration and real-world stencil suitability require separate qualification.",
+        "The pinned database driver and other third-party components retain their own terms; the offered proprietary value covers first-party work."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -2830,31 +2832,33 @@
         "enterprise",
         "research"
       ],
-      "summary": "Compare multiple perspectives on a complex question and inspect the evidence behind their conclusions.",
-      "overview": "An evidence-grounded reasoning product for specialist review and measurable comparisons.",
+      "summary": "Compare declared reasoning strategies, preserve contradictory or inconclusive results and audit matched controlled-study and replication packages.",
+      "overview": "Evidence-grounded multi-expert reasoning software with matched baselines, controlled-study protocols and cross-model replication evidence packages.",
       "potentialBuyers": [
-        "AI product companies",
-        "Enterprise reasoning teams",
-        "Research organisations"
+        "Reasoning and evaluation software vendors",
+        "Enterprise AI assurance teams",
+        "Research organisations conducting controlled model studies"
       ],
       "capabilities": [
-        "Route problems to specialist review",
-        "Ground claims in supplied evidence",
-        "Expose contradictions",
-        "Run bounded checks",
-        "Retain reproducible evaluation records"
+        "Route tasks through declared specialist strategies",
+        "Govern capability and strong-baseline comparisons",
+        "Prepare controlled-study evidence packages",
+        "Bind cross-model runs to matched protocols",
+        "Verify nested evidence, lineage and report integrity"
       ],
       "outputTypes": [
-        "Evidence-linked conclusions",
-        "Contradiction reports",
-        "Benchmark dossiers"
+        "Controlled-study and replication packages",
+        "Baseline comparison and consistency reports",
+        "Verifiable audit and provenance records"
       ],
       "maturity": "Developed software",
       "maturityNote": "Existing software offered for evaluation against an agreed use and delivery scope.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 500000,
+      "askingReferenceEUR": 519000,
       "materialBoundaries": [
-        "Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately."
+        "The v2.1 engineering release qualifies the study machinery; real model-backed H1–H7 scientific exit and independent scientific assessment remain separate.",
+        "Fixture outcomes do not establish model superiority, human-level performance or cross-domain robustness. Later roadmap promotion remains conditional on accepted scientific evidence.",
+        "External models, provider services, datasets, deployment and attributable commercial outcomes require separate rights, scope and acceptance."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -4068,34 +4072,33 @@
         "software",
         "research"
       ],
-      "summary": "Compose bounded synthetic neural experiments, compare declared hypotheses and inspect how observation choices affect distinguishability within qualified research protocols.",
-      "overview": "Computational-neuroscience research software for bounded composable synthetic models, controlled cohort studies, predeclared hypothesis comparisons and observation-equivalence audits.",
+      "summary": "Compare bounded synthetic neural hypotheses and inspect how scenario availability, erasure and recovery affect their distinguishability.",
+      "overview": "Developed neural-research software for source-locked synthetic comparisons, scenario recovery, dual erasure and finite availability or critical-cut audits.",
       "potentialBuyers": [
         "Computational-neuroscience research teams",
         "Research-software and simulation vendors",
         "Neural-systems methodology and evaluation groups"
       ],
       "capabilities": [
-        "Compose supported bounded synthetic model configurations",
-        "Run controlled studies, cohorts and solver cross-checks",
-        "Register source-bound models and predeclare hypothesis comparisons",
-        "Review sensitivity, calibration/evaluation roles and leakage controls",
-        "Audit observation masks, resolution and scenario-local alias witnesses"
+        "Compose bounded synthetic neural studies",
+        "Trace scenario-basis and observation contracts",
+        "Audit erasure and controlled recovery witnesses",
+        "Compare dual-scenario removal cases",
+        "Inspect finite availability and critical-cut certificates"
       ],
       "outputTypes": [
-        "Synthetic model and cohort reports",
-        "Solver and registry qualification records",
-        "Hypothesis comparison and sensitivity reports",
-        "Observation-resolution and alias-witness audits"
+        "Source-locked synthetic study records",
+        "Erasure, recovery and availability audit reports",
+        "Schema-checked comparison and lineage packages"
       ],
       "maturity": "Developed software",
       "maturityNote": "Developed research or product software within the identified edition and material boundaries. Intended-use and recipient acceptance remain separate.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 947500,
+      "askingReferenceEUR": 958500,
       "materialBoundaries": [
-        "Qualified CPU evidence applies only to its identified source and tested environments. Another local environment still has an unresolved exact numerical replay discrepancy affecting downstream qualification.",
-        "Bounded synthetic comparisons do not establish a unique biological mechanism, empirical identifiability, causal validity, clinical relevance, AGI or production readiness.",
-        "Observation aliases and separation witnesses are protocol-specific software results; recipient-environment replay and scientific/data-rights qualification remain separate."
+        "Qualified CPU evidence applies to its identified source and environment. A different local environment still has an unresolved exact numerical replay discrepancy affecting the full downstream suite.",
+        "Scenario availability, critical cuts and recovery witnesses are finite retrospective synthetic results, not empirical outage probabilities, calibrated reliability or new observations.",
+        "These software results do not establish unique biological mechanisms, EEG/BCI validity, causal or clinical findings, AGI or production readiness. Intended-use and recipient-environment acceptance remain separate."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -5006,32 +5009,32 @@
         "enterprise",
         "research"
       ],
-      "summary": "Register bounded evidence, retain review decisions and contradictions, and trace provenance within controlled research or governance workflows.",
-      "overview": "An early evidence-governance prototype with machine-readable contracts and an in-memory evidence/provenance registry.",
+      "summary": "Register bounded evidence, review policy conditions and retain attributable decisions, provenance and human-approval records.",
+      "overview": "An in-memory evidence-governance reference implementation with policy enforcement, bounded authority, delegation and human-approval workflows.",
       "potentialBuyers": [
         "Evidence-workflow software vendors",
         "Enterprise governance and compliance teams",
         "Controlled research-workflow developers"
       ],
       "capabilities": [
-        "Review bounded machine-readable evidence contracts",
-        "Register evidence with applicability and validity conditions",
-        "Retain explicit review state and contradictions",
-        "Trace hash-linked provenance records",
-        "Export and verify bounded evidence records"
+        "Register evidence and trace provenance",
+        "Evaluate reviewed policy and applicability conditions",
+        "Constrain authority and delegated actions",
+        "Require scoped human approval where declared",
+        "Retain local accountability and contestability records"
       ],
       "outputTypes": [
-        "Evidence and review records",
-        "Provenance-chain records",
-        "Contract validation reports"
+        "Evidence and policy-decision records",
+        "Authority and approval assessments",
+        "Auditable governance workflow packages"
       ],
       "maturity": "Prototype",
       "maturityNote": "An early implemented prototype for bounded evaluation. Durable operation, wider engines and recipient acceptance remain separate.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 7000,
+      "askingReferenceEUR": 13000,
       "materialBoundaries": [
-        "R3 provides a bounded in-memory prototype and reviewed contracts; persistence, APIs, production interfaces and the broader AI/digital-twin programme remain later development.",
-        "Software provenance and review gates do not authenticate external facts, confer legal authority or establish independent scientific or regulatory acceptance.",
+        "R4 qualifies an in-memory reference implementation. Durable storage, APIs, production interfaces and the broader AI, risk and digital-twin programme remain later development.",
+        "Policy and authority gates organise software decisions; they do not authenticate external facts, confer legal authority or establish regulatory or scientific acceptance.",
         "Legacy source archives, other portfolio assets, third-party content and future modules require separate scope and rights review."
       ],
       "offeredScope": [
@@ -5839,6 +5842,113 @@
       "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/reality-substrate-hypothesis-testing-platform/",
       "factsheetUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/reality-substrate-hypothesis-testing-platform/factsheet.pdf",
       "briefUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/reality-substrate-hypothesis-testing-platform/product-brief.md"
+    },
+    {
+      "ref": "TA-IP-111",
+      "slug": "chess-strategic-intelligence-platform",
+      "title": "Chess Strategic Intelligence Platform",
+      "referenceName": "Caissa",
+      "categoryId": "specialist-verticals",
+      "buyerGroupIds": [
+        "software",
+        "education",
+        "research"
+      ],
+      "summary": "Use CROWN to review chess positions and move history, rehearse local practice decisions and compare bounded native analysis within its stated research limits.",
+      "overview": "A standalone local-first chess analysis and training prototype with legally synchronised board history, bounded native research analysers and a separate owner-interface pathway.",
+      "potentialBuyers": [
+        "Chess and training-software vendors",
+        "Educational game and practice-platform developers",
+        "Research teams evaluating chess-search methods"
+      ],
+      "capabilities": [
+        "Maintain legal board and move-history state",
+        "Review positions from either side",
+        "Support local practice and actual-move correction",
+        "Compare bounded native search and history-aware caches",
+        "Review reproducible training and analysis records"
+      ],
+      "outputTypes": [
+        "Position and move-history records",
+        "Bounded native analysis reports",
+        "Practice and evaluation packages"
+      ],
+      "maturity": "Prototype",
+      "maturityNote": "Available as a specifically scoped research or development software asset. Independent application, rights and handover acceptance remain separate.",
+      "availability": "Available for acquisition discussion",
+      "askingReferenceEUR": 20000,
+      "materialBoundaries": [
+        "The native v1.28 research analyser and its history-safe cache have local software qualification; independent v1.28 acceptance remains pending. The owner interface retains its separately accepted earlier engine pathway.",
+        "World-class strength, verified Elo, guaranteed wins and strength attributable to an optional third-party engine are not established properties of the proprietary native engine.",
+        "Historical game and derived opening-data capsules retain CC BY-SA 4.0 attribution and share-alike terms. Optional external engines retain their own licences and are outside the proprietary first-party price."
+      ],
+      "offeredScope": [
+        "The specifically agreed first-party software or research work product",
+        "Associated first-party product documentation and retained evaluation material",
+        "The expressly agreed transferable first-party rights"
+      ],
+      "excludedScope": [
+        "Third-party software, data, media, models and service entitlements beyond their own terms",
+        "Personal, customer and author content, private accounts and credentials",
+        "Future development, hosting, hardware, support and operating businesses unless expressly agreed"
+      ],
+      "profileUrl": "https://thearchitect-max.github.io/MyProjects/projects/chess-strategic-intelligence-platform/",
+      "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/chess-strategic-intelligence-platform/",
+      "factsheetUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/chess-strategic-intelligence-platform/factsheet.pdf",
+      "briefUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/chess-strategic-intelligence-platform/product-brief.md"
+    },
+    {
+      "ref": "TA-IP-112",
+      "slug": "fundamental-reality-research-platform",
+      "title": "Fundamental Reality Research Platform",
+      "referenceName": "Astraea",
+      "categoryId": "physics-math-optimization",
+      "buyerGroupIds": [
+        "software",
+        "research"
+      ],
+      "summary": "Run FRRP numerical physics-reference and synthetic geometry experiments, compare consistency and verify the provenance and schema of research records.",
+      "overview": "Experimental research software for explicit cosmological reference calculations, toy-geometry experiments, numerical assurance and versioned provenance records.",
+      "potentialBuyers": [
+        "Scientific-software vendors",
+        "Computational physics and cosmology research groups",
+        "Research-methods and numerical-assurance teams"
+      ],
+      "capabilities": [
+        "Run declared cosmological reference calculations",
+        "Explore synthetic graph-distance toy geometry",
+        "Compare numerical integrators and analytic limits",
+        "Record deterministic provenance and source limitations",
+        "Validate versioned records and reject incompatible migrations"
+      ],
+      "outputTypes": [
+        "Numerical reference and synthetic experiment records",
+        "Convergence and consistency assessments",
+        "Schema-checked provenance and compatibility reports"
+      ],
+      "maturity": "Research software",
+      "maturityNote": "Available as a specifically scoped research or development software asset. Independent application, rights and handover acceptance remain separate.",
+      "availability": "Available for acquisition discussion",
+      "askingReferenceEUR": 10500,
+      "materialBoundaries": [
+        "The v0.2.1 record-contract changes have local software acceptance. Prior v0.2.0 numerical second-runtime evidence does not by itself qualify the new schema code; full R1 acceptance and R2 remain open.",
+        "Reference calculations, toy geometry and synthetic Bayesian comparisons are not new observations or proof of emergent spacetime, cosmic origins or an original fundamental-physics theory.",
+        "Independent physical-science review, representative empirical data, declared platform compatibility and recipient acceptance require separate evidence and scope."
+      ],
+      "offeredScope": [
+        "The specifically agreed first-party software or research work product",
+        "Associated first-party product documentation and retained evaluation material",
+        "The expressly agreed transferable first-party rights"
+      ],
+      "excludedScope": [
+        "Third-party software, data, media, models and service entitlements beyond their own terms",
+        "Personal, customer and author content, private accounts and credentials",
+        "Future development, hosting, hardware, support and operating businesses unless expressly agreed"
+      ],
+      "profileUrl": "https://thearchitect-max.github.io/MyProjects/projects/fundamental-reality-research-platform/",
+      "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/fundamental-reality-research-platform/",
+      "factsheetUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/fundamental-reality-research-platform/factsheet.pdf",
+      "briefUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/fundamental-reality-research-platform/product-brief.md"
     }
   ]
 }

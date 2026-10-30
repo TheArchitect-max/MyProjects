@@ -16,13 +16,13 @@ class IdentityPage(HTMLParser):
 
 def validate(snapshot=None):
  catalogue=json.loads((ROOT/'assets/buyer-catalogue.json').read_text());assets=catalogue['projects'];by_ref={a['ref']:a for a in assets}
- assert len(assets)==len(by_ref)==len({a['referenceName'].casefold() for a in assets})==110
+ assert len(assets)==len(by_ref)==len({a['referenceName'].casefold() for a in assets})==112
  assert all(re.fullmatch(r'TA-IP-\d{3}',a['ref']) for a in assets)
  assert (by_ref['TA-IP-095']['title'],by_ref['TA-IP-095']['referenceName'],by_ref['TA-IP-095']['slug'])==('Evidence-Governed Intelligence Platform','Ivy','evidence-governed-intelligence-platform')
- assert set(by_ref)=={'TA-IP-'+str(i).zfill(3) for i in range(1,111)},'Asset IDs must be consecutive TA-IP-001 through TA-IP-110'
+ assert set(by_ref)=={'TA-IP-'+str(i).zfill(3) for i in range(1,113)},'Asset IDs must be consecutive TA-IP-001 through TA-IP-112'
  mapping=json.loads((ROOT/'displays/project-map.json').read_text())['projects'];maps={a['ref']:a for a in mapping};assert set(maps)==set(by_ref)
  with (ROOT/'displays/identity-register.csv').open(encoding='utf-8-sig',newline='') as f:csv_rows=list(csv.DictReader(f))
- rows={r['Asset_ID']:r for r in csv_rows};assert len(csv_rows)==len(rows)==110 and set(rows)==set(by_ref)
+ rows={r['Asset_ID']:r for r in csv_rows};assert len(csv_rows)==len(rows)==112 and set(rows)==set(by_ref)
  for a in assets:
   m=maps[a['ref']];r=rows[a['ref']]
   assert (m['title'],m['referenceName'],m['url'],m['profileUrl'])==(a['title'],a['referenceName'],a['displayUrl'],a['profileUrl'])
@@ -36,25 +36,34 @@ def validate(snapshot=None):
  homepage=(ROOT/'assets/im.js').read_text();assert 'Project displays' in homepage and 'identities.html' in homepage
  assert not re.search(r'bitcoin:|Bitcoin|voluntary contribution',homepage,re.I)
  assert all('location.replace' in (ROOT/name).read_text() and 'acquisition.html' in (ROOT/name).read_text() for name in ['development.html','opportunity.html'])
- sources=json.loads((ROOT/'assets/evaluation-sources.json').read_text());assert len(sources['externalSources'])==13 and len(sources['assessmentRecords'])==7
+ sources=json.loads((ROOT/'assets/evaluation-sources.json').read_text());assert len(sources['externalSources'])==14 and len(sources['assessmentRecords'])==7
  source_count=0;unavailable_count=0
  if snapshot:
   audit=json.loads(snapshot.read_text());records=audit['assets'];repo_ids={a['repositoryId'] for a in records}
-  assert len(records)==len(repo_ids)==110 and {r['ref'] for r in records}==set(by_ref)
+  assert len(records)==len(repo_ids)==112 and {r['ref'] for r in records}==set(by_ref)
   unavailable=[r for r in records if r.get('currentSourceStatus')=='UNAVAILABLE']
   assert not unavailable and all(r.get('currentSourceStatus')=='VERIFIED' for r in records),'Every current catalogue asset must have a verified source identity'
   unavailable_count=len(unavailable)
-  assert len(audit['publicationRepositories'])==3 and audit['repositoryCount']==len(records)-unavailable_count+len(audit['publicationRepositories'])+len(audit.get('uninitializedRepositories',[]))
+  assert len(audit['publicationRepositories'])==3 and audit['repositoryCount']==len(records)-unavailable_count+len(audit['publicationRepositories'])+len(audit.get('excludedRepositories',[]))+len(audit.get('uninitializedRepositories',[]))
   assert not audit.get('uninitializedRepositories'), 'Unclassified or uninitialized repositories require review'
   assert len({p['repositoryId'] for p in audit['publicationRepositories']})==3
   assert not repo_ids.intersection(p['repositoryId'] for p in audit['publicationRepositories'])
+  excluded={e['repositoryId']for e in audit.get('excludedRepositories',[])}
+  assert not repo_ids.intersection(excluded)
+  assert all(e.get('isOfferedIPAsset') is False for e in audit.get('excludedRepositories',[]))
+  assert any(e.get('reasonCode')=='SELLER_EXCLUDED_LITERARY_ARCHIVE' for e in audit.get('excludedRepositories',[]))
   editions={p['ref']:p for p in json.loads((ROOT/'assets/buyer-dossiers.json').read_text())['projects']}
   for r in records:
    a=by_ref[r['ref']];i=r['identity']
    assert (i['portfolioReference'],i['canonicalProjectName'],i['feminineReferenceName'])==(a['ref'],a['title'],a['referenceName'])
    assert i['repository']['id']==r['repositoryId'] and i['repository']['fullName']==r['fullName']
    assert i['publicPresentation']=={'profileUrl':a['profileUrl'],'displayUrl':a['displayUrl']}
-   assert r['readmeCurrentReferences']==[a['ref']] and r['readmeFeminineName']==a['referenceName']
+   assert r.get('sourceVisibility')=='private'
+   if r.get('identityDiscoveryFile'):
+    assert r['identityDiscoveryFile']=='PORTFOLIO_IDENTITY.md' and re.fullmatch(r'[0-9a-f]{40}',r['identityDiscoverySha'])
+    assert r['identityDocumentReferences']==[a['ref']] and r['identityDocumentFeminineName']==a['referenceName']
+    assert r['readmeCurrentReferences']==[] and r['readmeFeminineName'] is None
+   else:assert r['readmeCurrentReferences']==[a['ref']] and r['readmeFeminineName']==a['referenceName']
    assert all(re.fullmatch(r'[0-9a-f]{40}',r[k]) for k in ['headSha','treeSha','identityFileSha','readmeSha'])
    if r.get('packageVersion'):
     assert r['packageVersion'].lower().lstrip('v') in editions[a['ref']]['version'].lower(), (a['ref'],'website edition differs from reviewed source metadata')
@@ -71,7 +80,7 @@ def validate(snapshot=None):
    if p['name'] in ['MyProjects','Projects-Displays']:
     local=ROOT if p['name']=='MyProjects' else ROOT.parent/'Projects-Displays'
     assert json.loads((local/'PUBLICATION_IDENTITY.json').read_text())==i
- return dict(result='PASS',assetIdentities=110,uniqueFeminineNames=110,displayAndDossierLinks=220,pdfIdentitiesChecked=110,briefIdentitiesChecked=110,identityCsvRows=110,sourceRepositoryIdentitiesChecked=source_count,unavailableSourceEntries=unavailable_count,publicationRepositoriesExcludedFromAssetCount=3,consecutiveNumbering=True,identifierGaps=[],legacyContributionRoutesRedirect=True)
+ return dict(result='PASS',assetIdentities=112,uniqueFeminineNames=112,displayAndDossierLinks=224,pdfIdentitiesChecked=112,briefIdentitiesChecked=112,identityCsvRows=112,sourceRepositoryIdentitiesChecked=source_count,unavailableSourceEntries=unavailable_count,publicationRepositoriesExcludedFromAssetCount=3,consecutiveNumbering=True,identifierGaps=[],legacyContributionRoutesRedirect=True)
 
 if __name__=='__main__':
  p=argparse.ArgumentParser(description=__doc__);p.add_argument('--repository-snapshot',type=Path);a=p.parse_args();print(json.dumps(validate(a.repository_snapshot),indent=2))
