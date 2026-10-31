@@ -39,7 +39,7 @@ def validate():
   members.update(m['ref'] for m in c['members'])
  assert len(members)==81
  for page in ['portfolio-thesis','assurance','connections','commercialization','evidence','identities','transaction','transfer','sources','musk']:
-  text=(ROOT/(page+'.html')).read_text();assert 'location.replace' not in text and 'im.js?v=showroom23-recovery-20261031' in text
+  text=(ROOT/(page+'.html')).read_text();assert 'location.replace' not in text and 'im.js?v=showroom24-identity-range-20261031' in text
  with (ROOT/'displays/catalogue.csv').open(encoding='utf-8-sig',newline='') as f:rows=list(csv.DictReader(f))
  assert len(rows)==116
  for row in rows:

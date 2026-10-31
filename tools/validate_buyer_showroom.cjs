@@ -27,6 +27,7 @@ vm.createContext(sandbox);vm.runInContext(source,sandbox);
  for(const g of d.buyerGroups){const rows=r.filterAssets(d,{buyer:g.id});assert(rows.length>0);assert(rows.every(a=>a.buyerGroupIds.includes(g.id)));}
  for(const name of ['Vesta','Asteria','Scheherazade']){const rows=r.filterAssets(d,{query:name});assert.equal(rows.length,1);assert.equal(rows[0].referenceName,name);}
  assert.equal(r.filterAssets(d,{query:'unmatched-object-xyz'}).length,0);
+ assert(r.identityPage(d).includes('numbered consecutively from TA-IP-001 through TA-IP-116.'));
  assert.equal((r.identityPage(d).match(/data-identity-ref=/g)||[]).length,116);assert.equal(r.filterIdentity(d,'Lydia')[0].ref,'TA-IP-089');assert.equal(r.filterIdentity(d,'Lucia')[0].ref,'TA-IP-090');assert.equal((r.portfolio(d).match(/data-project-display=/g)||[]).length,116);assert(!/Bitcoin|voluntary contribution/.test(r.acquisition(d)+r.home(d)+r.policy(d)));
  assert.equal((r.valuation(d).match(/data-price-ref=/g)||[]).length,116);
  assert.equal((r.calculationPage(d).match(/data-calculation-ref=/g)||[]).length,116);
