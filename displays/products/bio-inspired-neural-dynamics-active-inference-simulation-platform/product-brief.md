@@ -2,11 +2,11 @@
 
 TA-IP-077 | Reference name: Iona | Scientific observation & life sciences
 
-Compare bounded synthetic neural hypotheses and inspect how scenario availability, erasure and recovery affect their distinguishability.
+Compare synthetic measurement qualifications and check declared source, rights, split and protocol prerequisites before any external benchmark admission.
 
 ## Product overview
 
-Developed neural-research software for source-locked synthetic comparisons, scenario recovery, dual erasure and finite availability or critical-cut audits.
+Developed neural-research software for finite synthetic qualification comparisons and bounded, data-free external benchmark entry checks.
 
 ## Potential acquirers
 
@@ -16,16 +16,16 @@ Developed neural-research software for source-locked synthetic comparisons, scen
 
 ## Documented functions
 
-- Compose bounded synthetic neural studies
-- Trace scenario-basis and observation contracts
-- Audit erasure and controlled recovery witnesses
-- Compare dual-scenario removal cases
-- Inspect finite availability and critical-cut certificates
+- Compose source-locked synthetic neural studies
+- Compare bounded measurement and observation qualifications
+- Preserve indistinguishable model alternatives
+- Check declared source, rights, split and protocol conditions
+- Verify bounded local payload integrity without dataset admission
 
 ## Available output types
 
-- Source-locked synthetic study records
-- Erasure, recovery and availability audit reports
+- Synthetic cross-qualification and witness reports
+- Source-entry and local-integrity assessments
 - Schema-checked comparison and lineage packages
 
 ## Current offered position
@@ -34,13 +34,13 @@ Developed software. Developed research or product software within the identified
 
 Available for acquisition discussion.
 
-- Qualified CPU evidence applies to its identified source and environment. A different local environment still has an unresolved exact numerical replay discrepancy affecting the full downstream suite.
-- Scenario availability, critical cuts and recovery witnesses are finite retrospective synthetic results, not empirical outage probabilities, calibrated reliability or new observations.
-- These software results do not establish unique biological mechanisms, EEG/BCI validity, causal or clinical findings, AGI or production readiness. Intended-use and recipient-environment acceptance remain separate.
+- Retained qualification applies to its identified source and environment. Full replay in a different local environment still has unresolved numerical discrepancies; recipient-environment acceptance remains open.
+- Cross-qualification results are finite synthetic comparisons. Data-free source-entry checks assess declarations and local integrity; they do not admit a real dataset or establish source authenticity or legal clearance.
+- External scientific benchmarking remains closed. No unique biological mechanism, EEG/BCI validity, causal or clinical finding, AGI or production readiness is established.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 958,500.
+Seller asking reference: EUR 964,000.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -70,29 +70,29 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 2.9.13 / qualified CPU scope
+Identified product edition: 2.9.15 / qualified CPU software scope
 
 Handover position: Conditional handover
 
-Developed neural-research software for source-locked synthetic comparisons, scenario recovery, dual erasure and finite availability or critical-cut audits.
+Developed neural-research software for finite synthetic qualification comparisons and bounded, data-free external benchmark entry checks.
 
 ### Priced first-party scope
 
-Specifically agreed first-party implementation and documentation for 2.9.13 / qualified CPU scope. Previously priced neural runtime, source adapters, composition, solver and synthetic hypothesis/observation foundations are reused once. Added scenario-basis, erasure/recovery, dual-erasure and availability/cut software is included. Empirical reliability, biological or clinical findings, universal numerical portability, external data ownership, future phases and production qualification are excluded.
+Specifically agreed first-party implementation and documentation for 2.9.15 / qualified CPU software scope. Previously priced neural runtime, synthetic studies and scenario availability, erasure and recovery foundations are reused once. Only the added cross-qualification audit and data-free benchmark-entry software are included. Real dataset admission, scientific or clinical findings, universal numerical portability, external data rights and future phases are excluded.
 
 ### Offered work and qualification
 
-Developed neural-research software for source-locked synthetic comparisons, scenario recovery, dual erasure and finite availability or critical-cut audits.
+Developed neural-research software for finite synthetic qualification comparisons and bounded, data-free external benchmark entry checks.
 
-- Qualified CPU evidence applies to its identified source and environment. A different local environment still has an unresolved exact numerical replay discrepancy affecting the full downstream suite.
-- Scenario availability, critical cuts and recovery witnesses are finite retrospective synthetic results, not empirical outage probabilities, calibrated reliability or new observations.
-- These software results do not establish unique biological mechanisms, EEG/BCI validity, causal or clinical findings, AGI or production readiness. Intended-use and recipient-environment acceptance remain separate.
+- Retained qualification applies to its identified source and environment. Full replay in a different local environment still has unresolved numerical discrepancies; recipient-environment acceptance remains open.
+- Cross-qualification results are finite synthetic comparisons. Data-free source-entry checks assess declarations and local integrity; they do not admit a real dataset or establish source authenticity or legal clearance.
+- External scientific benchmarking remains closed. No unique biological mechanism, EEG/BCI validity, causal or clinical finding, AGI or production readiness is established.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | V | Developed neural-research software for source-locked synthetic comparisons, scenario recovery, dual erasure and finite availability or critical-cut audits. The offered edition and material boundaries govern review. |
+| Technical scope | V | Developed neural-research software for finite synthetic qualification comparisons and bounded, data-free external benchmark entry checks. The offered edition and material boundaries govern review. |
 | Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
 | Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
@@ -139,18 +139,18 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-30. All amounts in EUR. Market value is not established.
+Basis: 2026-10-31. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 958,500 | 1,070,836 |
-| Negotiation reference - low | 766,000 | 855,775 |
-| Negotiation reference - high | 1,201,000 | 1,341,757 |
-| Recreation cost estimate | 3,417,500 | 3,818,031 |
-| Marketability cost scenario | 3,340,606 | 3,732,125 |
-| Monetisation cost scenario | 3,921,581 | 4,381,190 |
-| Risk-adjusted strategic reference | 3,370,458 | 3,765,476 |
-| Weighted economic reference | 3,486,473 | 3,895,088 |
+| Seller asking reference | 964,000 | 1,076,981 |
+| Negotiation reference - low | 770,500 | 860,803 |
+| Negotiation reference - high | 1,207,500 | 1,349,019 |
+| Recreation cost estimate | 3,436,500 | 3,839,258 |
+| Marketability cost scenario | 3,359,179 | 3,752,875 |
+| Monetisation cost scenario | 3,943,384 | 4,405,549 |
+| Risk-adjusted strategic reference | 3,389,197 | 3,786,411 |
+| Weighted economic reference | 3,505,857 | 3,916,743 |
 
 USD = EUR × 1.1172, rounded half-up to whole USD. ECB date: 2026-10-30. EUR is authoritative.
 
@@ -169,11 +169,11 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The retained expressly priced scope and successive non-overlapping budgets reconcile below. Equivalent effort and historical anchors are seller assumptions, not actual expenditure, independent quotations or market value. Previously priced neural runtime, source adapters, composition, solver and synthetic hypothesis/observation foundations are reused once. Added scenario-basis, erasure/recovery, dual-erasure and availability/cut software is included. Empirical reliability, biological or clinical findings, universal numerical portability, external data ownership, future phases and production qualification are excluded.
+The retained priced scope and successive non-overlapping budgets reconcile below. Equivalent effort and historical anchors are seller assumptions, not actual expenditure, independent quotations or market value. Previously priced neural runtime, synthetic studies and scenario availability, erasure and recovery foundations are reused once. Only the added cross-qualification audit and data-free benchmark-entry software are included. Real dataset admission, scientific or clinical findings, universal numerical portability, external data rights and future phases are excluded.
 
 ### Financial assessment
 
-Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-30.
+Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-31.
 
 Explicit budgets cover part of the estimate. The retained anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
@@ -288,6 +288,32 @@ Source-locked scenario-basis audit; Scenario-erasure certificates; Controlled re
 
 Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. Previously priced neural runtime, source adapters, composition, solver and synthetic hypothesis/observation foundations are reused once. Added scenario-basis, erasure/recovery, dual-erasure and availability/cut software is included. Empirical reliability, biological or clinical findings, universal numerical portability, external data ownership, future phases and production qualification are excluded.
 
+#### Scoped implementation reproduction budget
+
+Finite cross-qualification and non-nested observation audit; Data-free source, rights, split and protocol entry checks; Streaming local integrity and adversarial verification; Schemas, command interfaces and qualification documentation.
+
+- Finite cross-qualification and non-nested observation audit — 48 assumed hours
+- Data-free source, rights, split and protocol entry checks — 56 assumed hours
+- Streaming local integrity and adversarial verification — 32 assumed hours
+- Schemas, command interfaces and qualification documentation — 40 assumed hours
+
+- Assumed hours: 176
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 16,544
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 19,025.6
+- Effort alternatives / Low hours: 176
+- Effort alternatives / Reference hours: 264
+- Effort alternatives / Extended hours: 352
+- Effort alternatives / Low cost: EUR 19,025.6
+- Effort alternatives / Reference cost: EUR 28,538.4
+- Effort alternatives / Extended cost: EUR 38,051.2
+- Adopted recreation increment: EUR 19,000
+- Previous recreation cost: EUR 3,417,500
+- Current recreation cost: EUR 3,436,500
+
+Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. Previously priced neural runtime, synthetic studies and scenario availability, erasure and recovery foundations are reused once. Only the added cross-qualification audit and data-free benchmark-entry software are included. Real dataset admission, scientific or clinical findings, universal numerical portability, external data rights and future phases are excluded.
+
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
@@ -304,7 +330,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "V", "potential": "H", "sector": "Research & Scientific Software", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc9
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc10
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/bio-inspired-neural-dynamics-active-inference-simulation-platform/#calculation
 

@@ -129,7 +129,7 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-30. All amounts in EUR. Market value is not established.
+Basis: 2026-10-31. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
@@ -163,7 +163,7 @@ The retained recreation anchor has no explicit per-role work-package budget in t
 
 ### Financial assessment
 
-Retained seller estimate; work breakdown required. Assessed 2026-10-30.
+Retained seller estimate; work breakdown required. Assessed 2026-10-31.
 
 No complete work-package budget supports the retained anchor. Obtain a delivery-specific work breakdown and quote; this seller estimate does not establish actual expenditure or market value.
 
@@ -185,7 +185,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "V", "potential": "VH", "sector": "Industrial & Infrastructure Software", "route": "B2B SaaS / enterprise software"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc9
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc10
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/evidence-governed-software-assurance-platform/#calculation
 

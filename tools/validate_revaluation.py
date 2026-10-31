@@ -8,8 +8,8 @@ def validate(pricing=None,dossiers=None):
  p=pricing or json.loads((ROOT/'assets/pricing-catalogue.json').read_text())
  d=dossiers or json.loads((ROOT/'assets/buyer-dossiers.json').read_text())
  ds={x['ref']:x for x in d['projects']};counts=Counter()
- assert {x['ref'] for x in p['projects']}=={'TA-IP-'+str(n).zfill(3) for n in range(1,113)}
- assert len(p['projects'])==112
+ assert {x['ref'] for x in p['projects']}=={'TA-IP-'+str(n).zfill(3) for n in range(1,117)}
+ assert len(p['projects'])==116
  for a in p['projects']:
   q=a['assessment'];ref=a['ref'];b=a['costBudgets']
   covered=sum((x.get('adoptedRecreationCostEUR') or 0)+(x.get('adoptedRecreationIncrementEUR') or 0) for x in b)
@@ -24,7 +24,7 @@ def validate(pricing=None,dossiers=None):
   assert a['calculationInputs']['route'] in p['methodology']['factors']['routeMonetization']
   counts[status]+=1
  assert counts==p['methodology']['reassessment']['budgetCoverage']
- assert sum(counts.values())==112 and set(counts)<= {'FULL_SCOPED_BUDGET','PARTIAL_SCOPED_BUDGET','LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN'}
- assert p['methodology']['reassessment']['assetsReviewed']==112
- return {'result':'PASS','assessmentRecords':112,'costCoverage':dict(counts),'qualificationGradesUnpromoted':True,'marketValueNotEstablished':112}
+ assert sum(counts.values())==116 and set(counts)<= {'FULL_SCOPED_BUDGET','PARTIAL_SCOPED_BUDGET','LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN'}
+ assert p['methodology']['reassessment']['assetsReviewed']==116
+ return {'result':'PASS','assessmentRecords':116,'costCoverage':dict(counts),'qualificationGradesUnpromoted':True,'marketValueNotEstablished':116}
 if __name__=='__main__':print(json.dumps(validate(),indent=2))

@@ -1,6 +1,6 @@
 {
   "schema": "public-evaluation-sources-1",
-  "basisDate": "2026-10-30",
+  "basisDate": "2026-10-31",
   "title": "Sources behind the asset evaluation",
   "scope": "External references inform method, rate, currency and diligence context. Project-specific descriptions, grades, effort assumptions and prices remain attributed to the seller records. Market value has not been established.",
   "categories": [
@@ -52,7 +52,7 @@
       "url": "https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst",
       "finding": "Reported 2026 mean software-developer rate: EUR 94/hour excluding VAT; broader survey includes over 20,000 Dutch self-employed people.",
       "application": "External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.",
-      "checkedOn": "2026-10-30",
+      "checkedOn": "2026-10-31",
       "categoryId": "rates",
       "referenceBasisDate": "2026-10-17",
       "access": "Primary publisher search result confirms the reported 2026 rate; detailed page access was unavailable during this refresh.",
@@ -80,7 +80,7 @@
       "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
       "finding": "Retrieved dated observation: 30 October 2026, EUR 1 = USD 1.1172. Indicative display conversion only.",
       "application": "Indicative USD display conversion only; authoritative project references remain in EUR.",
-      "checkedOn": "2026-10-30",
+      "checkedOn": "2026-10-31",
       "categoryId": "currency",
       "referenceBasisDate": "2026-10-30",
       "access": "Primary publisher page reviewed",
@@ -232,7 +232,7 @@
     {
       "id": "product-scope",
       "title": "Product editions and implemented scope",
-      "basis": "112 identified offered editions reconciled to documented implementation and material qualification boundaries; future research, integrations and acceptance remain separate.",
+      "basis": "116 offered editions reconciled to source implementation and material qualification boundaries; scientific findings, integrations and recipient acceptance remain separate.",
       "application": "Public purpose, functions, outputs, identified version and priced first-party scope.",
       "limit": "The public summary is not the underlying source code or a guarantee of fitness for a buyer’s deployment.",
       "publicUrl": "assets/buyer-dossiers.json",
@@ -259,9 +259,9 @@
     {
       "id": "financial-inputs",
       "title": "Seller cost and commercial inputs",
-      "basis": "112 financial records reviewed against offered editions, scoped budgets and rights/transfer conditions.",
+      "basis": "116 financial records reviewed against offered editions, scoped budgets and rights/transfer conditions.",
       "application": "Eight EUR and USD reference fields, conditional scenarios and portfolio reconciliation.",
-      "limit": "15 scopes reconcile to full budgets, 39 have partial budgets and 58 retain anchors without full work breakdown. These are seller assumptions, not independent quotes or market value.",
+      "limit": "19 scopes reconcile to full budgets, 39 have partial budgets and 58 retain anchors without full work breakdown. These are seller assumptions, not independent quotes or market value.",
       "publicUrl": "valuation.html#assessment",
       "linkLabel": "Complete financial assessment coverage"
     },
@@ -269,9 +269,9 @@
       "id": "calculation",
       "title": "Reproducible arithmetic",
       "basis": "The public pricing inputs and shared calculation module, with a downloadable deterministic check report.",
-      "application": "448 scenario outputs, 896 USD conversions, 81 scoped budgets, 48 conditional references and eight totals.",
+      "application": "464 scenario outputs, 928 USD conversions, 86 scoped budgets, 48 conditional references and eight totals.",
       "limit": "A matching calculation checks arithmetic consistency; it does not independently validate the assumptions.",
-      "publicUrl": "proof.html?v=calc9",
+      "publicUrl": "proof.html?v=calc10",
       "linkLabel": "Run calculation validation"
     },
     {
@@ -286,7 +286,7 @@
     {
       "id": "asset-identity",
       "title": "Asset identity and display linkage",
-      "basis": "112 distinct current catalogue identities linked to private asset source repositories. Public repositories, publication infrastructure and seller-excluded archives are outside the asset count.",
+      "basis": "116 distinct current catalogue identities linked to private asset source repositories. Public repositories, publication infrastructure and seller-excluded archives are outside the asset count.",
       "application": "Canonical project title, TA-IP reference and feminine alias across repository identity metadata, asset dossiers, displays, factsheets and product briefs.",
       "limit": "Identity consistency does not establish ownership clearance, product qualification or market value. Private source and detailed internal records are outside the public register.",
       "publicUrl": "identities.html",
