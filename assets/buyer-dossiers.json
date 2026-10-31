@@ -1,6 +1,6 @@
 {
   "schema": "public-buyer-dossiers-1",
-  "basisDate": "2026-10-30",
+  "basisDate": "2026-10-31",
   "purpose": "Version, qualification, rights and handover information for initial acquisition review. Evidence applies to the identified edition and tested scope.",
   "definitions": {
     "purpose": "Seller-side evidence, transfer and acquisition-documentation readiness. This is not buyer due diligence and does not replace buyer-specific legal, technical, security or financial review.",
@@ -5252,17 +5252,17 @@
     },
     {
       "ref": "TA-IP-077",
-      "version": "2.9.13 / qualified CPU scope",
+      "version": "2.9.15 / qualified CPU software scope",
       "developmentEdition": "",
-      "productPosition": "Developed neural-research software for source-locked synthetic comparisons, scenario recovery, dual erasure and finite availability or critical-cut audits.",
-      "offeredEdition": "Specifically agreed first-party implementation and documentation for 2.9.13 / qualified CPU scope. Previously priced neural runtime, source adapters, composition, solver and synthetic hypothesis/observation foundations are reused once. Added scenario-basis, erasure/recovery, dual-erasure and availability/cut software is included. Empirical reliability, biological or clinical findings, universal numerical portability, external data ownership, future phases and production qualification are excluded.",
+      "productPosition": "Developed neural-research software for finite synthetic qualification comparisons and bounded, data-free external benchmark entry checks.",
+      "offeredEdition": "Specifically agreed first-party implementation and documentation for 2.9.15 / qualified CPU software scope. Previously priced neural runtime, synthetic studies and scenario availability, erasure and recovery foundations are reused once. Only the added cross-qualification audit and data-free benchmark-entry software are included. Real dataset admission, scientific or clinical findings, universal numerical portability, external data rights and future phases are excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "V",
-          "criterion": "Developed neural-research software for source-locked synthetic comparisons, scenario recovery, dual erasure and finite availability or critical-cut audits. The offered edition and material boundaries govern review."
+          "criterion": "Developed neural-research software for finite synthetic qualification comparisons and bounded, data-free external benchmark entry checks. The offered edition and material boundaries govern review."
         },
         {
           "axis": "evidenceMaturity",
@@ -5317,11 +5317,11 @@
       "productDetails": [
         {
           "title": "Offered work and qualification",
-          "text": "Developed neural-research software for source-locked synthetic comparisons, scenario recovery, dual erasure and finite availability or critical-cut audits.",
+          "text": "Developed neural-research software for finite synthetic qualification comparisons and bounded, data-free external benchmark entry checks.",
           "items": [
-            "Qualified CPU evidence applies to its identified source and environment. A different local environment still has an unresolved exact numerical replay discrepancy affecting the full downstream suite.",
-            "Scenario availability, critical cuts and recovery witnesses are finite retrospective synthetic results, not empirical outage probabilities, calibrated reliability or new observations.",
-            "These software results do not establish unique biological mechanisms, EEG/BCI validity, causal or clinical findings, AGI or production readiness. Intended-use and recipient-environment acceptance remain separate."
+            "Retained qualification applies to its identified source and environment. Full replay in a different local environment still has unresolved numerical discrepancies; recipient-environment acceptance remains open.",
+            "Cross-qualification results are finite synthetic comparisons. Data-free source-entry checks assess declarations and local integrity; they do not admit a real dataset or establish source authenticity or legal clearance.",
+            "External scientific benchmarking remains closed. No unique biological mechanism, EEG/BCI validity, causal or clinical finding, AGI or production readiness is established."
           ]
         }
       ]
@@ -7762,6 +7762,291 @@
             "The v0.2.1 record-contract changes have local software acceptance. Prior v0.2.0 numerical second-runtime evidence does not by itself qualify the new schema code; full R1 acceptance and R2 remain open.",
             "Reference calculations, toy geometry and synthetic Bayesian comparisons are not new observations or proof of emergent spacetime, cosmic origins or an original fundamental-physics theory.",
             "Independent physical-science review, representative empirical data, declared platform compatibility and recipient acceptance require separate evidence and scope."
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "TA-IP-113",
+      "version": "0.1.0 / custody v3 and research screening",
+      "developmentEdition": "",
+      "productPosition": "Independent research software and documentation for preregistered binary studies, local evidence-custody integrity and critical temporal-causality mechanism screening.",
+      "offeredEdition": "Specifically agreed first-party implementation and documentation. Only the agreed first-party study, custody and research-screening work is priced. Other portfolio assets, physical devices, independently witnessed chronology, experimental breakthroughs, third-party works and future programmes are excluded.",
+      "transferPosition": "Conditional handover",
+      "assessmentCriteria": [
+        {
+          "axis": "technicalMaturity",
+          "label": "Technical scope",
+          "grade": "R",
+          "criterion": "Independent research software and documentation for preregistered binary studies, local evidence-custody integrity and critical temporal-causality mechanism screening. The offered edition and material boundaries govern review."
+        },
+        {
+          "axis": "evidenceMaturity",
+          "label": "Evidence and validation",
+          "grade": "E2",
+          "criterion": "Tests plus validation/qualification evidence identified. Source-specific diligence and recipient acceptance remain separate."
+        },
+        {
+          "axis": "ipRightsMaturity",
+          "label": "Rights and component obligations",
+          "grade": "R1",
+          "criterion": "Repository licence file identified. Source-specific diligence and recipient acceptance remain separate."
+        },
+        {
+          "axis": "commercialMaturity",
+          "label": "Commercial basis",
+          "grade": "C2",
+          "criterion": "Seller ask and reproducible economic reference established. Source-specific diligence and recipient acceptance remain separate."
+        },
+        {
+          "axis": "transferReadiness",
+          "label": "Delivery and handover",
+          "grade": "T2",
+          "criterion": "Source, documentation, tests and licence evidence support bounded handover. Source-specific diligence and recipient acceptance remain separate."
+        }
+      ],
+      "sellerConditions": [
+        "Freeze the specific first-party source, delivery documents, transferable rights and exclusions.",
+        "Review retained source-specific qualification and further independent or intended-use acceptance.",
+        "Keep third-party rights, future capabilities and unverified empirical claims outside the agreed proprietary scope."
+      ],
+      "buyerConditions": [],
+      "qualificationObjectives": [
+        "Reproduce the identified software and representative recipient cases within the stated boundaries.",
+        "Agree source-specific rights, delivery and acceptance before transfer."
+      ],
+      "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
+      "componentEvidence": {
+        "dependencyManifestIdentified": false,
+        "dependencyLockIdentified": false,
+        "componentInventoryIdentified": false,
+        "licenceNoticesIdentified": true,
+        "thirdPartyDisclosureIdentified": true,
+        "securityDocumentationIdentified": true,
+        "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
+      },
+      "productDetails": [
+        {
+          "title": "Offered work and qualification",
+          "text": "Independent research software and documentation for preregistered binary studies, local evidence-custody integrity and critical temporal-causality mechanism screening.",
+          "items": [
+            "The current work is research and evidence-integrity software. No controllable information transfer to the past or physical temporal-causality breakthrough has been demonstrated.",
+            "Local hashes, custody records, simulated studies and statistical significance do not independently establish chronology, identity or physical causation.",
+            "Independent witnesses, a defensible physical mechanism, real experiments and replicated scientific acceptance remain separate. Speculative physical builds remain on hold."
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "TA-IP-114",
+      "version": "Python 0.1.0 / native 0.7.0 / S6 FITS sampler",
+      "developmentEdition": "",
+      "productPosition": "A standalone cosmological research implementation with native correlation estimators, spatial indexing, jackknife covariance and offline catalogue-integrity or FITS sample checks.",
+      "offeredEdition": "Specifically agreed first-party implementation and documentation. Only the agreed first-party numerical, synthetic research and catalogue-screening work is priced. Other assets, observational data rights, accepted survey inference, physical discoveries, hosted services and future programmes are excluded.",
+      "transferPosition": "Conditional handover",
+      "assessmentCriteria": [
+        {
+          "axis": "technicalMaturity",
+          "label": "Technical scope",
+          "grade": "R",
+          "criterion": "A standalone cosmological research implementation with native correlation estimators, spatial indexing, jackknife covariance and offline catalogue-integrity or FITS sample checks. The offered edition and material boundaries govern review."
+        },
+        {
+          "axis": "evidenceMaturity",
+          "label": "Evidence and validation",
+          "grade": "E2",
+          "criterion": "Tests plus validation/qualification evidence identified. Source-specific diligence and recipient acceptance remain separate."
+        },
+        {
+          "axis": "ipRightsMaturity",
+          "label": "Rights and component obligations",
+          "grade": "R1",
+          "criterion": "Repository licence file identified. Source-specific diligence and recipient acceptance remain separate."
+        },
+        {
+          "axis": "commercialMaturity",
+          "label": "Commercial basis",
+          "grade": "C2",
+          "criterion": "Seller ask and reproducible economic reference established. Source-specific diligence and recipient acceptance remain separate."
+        },
+        {
+          "axis": "transferReadiness",
+          "label": "Delivery and handover",
+          "grade": "T2",
+          "criterion": "Source, documentation, tests and licence evidence support bounded handover. Source-specific diligence and recipient acceptance remain separate."
+        }
+      ],
+      "sellerConditions": [
+        "Freeze the specific first-party source, delivery documents, transferable rights and exclusions.",
+        "Review retained source-specific qualification and further independent or intended-use acceptance.",
+        "Keep third-party rights, future capabilities and unverified empirical claims outside the agreed proprietary scope."
+      ],
+      "buyerConditions": [],
+      "qualificationObjectives": [
+        "Reproduce the identified software and representative recipient cases within the stated boundaries.",
+        "Agree source-specific rights, delivery and acceptance before transfer."
+      ],
+      "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
+      "componentEvidence": {
+        "dependencyManifestIdentified": true,
+        "dependencyLockIdentified": false,
+        "componentInventoryIdentified": false,
+        "licenceNoticesIdentified": true,
+        "thirdPartyDisclosureIdentified": true,
+        "securityDocumentationIdentified": true,
+        "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
+      },
+      "productDetails": [
+        {
+          "title": "Offered work and qualification",
+          "text": "A standalone cosmological research implementation with native correlation estimators, spatial indexing, jackknife covariance and offline catalogue-integrity or FITS sample checks.",
+          "items": [
+            "Synthetic numerical and structural software checks do not establish an accepted observational dataset, a published survey reconstruction or a cosmological discovery.",
+            "Catalogue checks have bounded sampling and format limits. Source authenticity, data licences, survey selection and scientific uncertainty require separate admission and review.",
+            "The local job-admission prototype is not an authenticated or isolated hosted service. Production hosting and further physical inference are outside the present offer."
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "TA-IP-115",
+      "version": "0.2.0 / Template Commerce Engine",
+      "developmentEdition": "",
+      "productPosition": "A WordPress/WooCommerce extension and storefront implementation for digital-template packages, consent records, tamper-evident transaction evidence and defined BTCPay integration boundaries.",
+      "offeredEdition": "Specifically agreed first-party implementation and documentation. Only the agreed first-party extension, theme and documentation are priced, subject to rights and compatibility review. Platform ownership, customer or payment data, a trading business, live operations, hosting and third-party licences are excluded.",
+      "transferPosition": "Rights and staging review required",
+      "assessmentCriteria": [
+        {
+          "axis": "technicalMaturity",
+          "label": "Technical scope",
+          "grade": "P",
+          "criterion": "A WordPress/WooCommerce extension and storefront implementation for digital-template packages, consent records, tamper-evident transaction evidence and defined BTCPay integration boundaries. The offered edition and material boundaries govern review."
+        },
+        {
+          "axis": "evidenceMaturity",
+          "label": "Evidence and validation",
+          "grade": "E2",
+          "criterion": "Tests plus validation/qualification evidence identified. Source-specific diligence and recipient acceptance remain separate."
+        },
+        {
+          "axis": "ipRightsMaturity",
+          "label": "Rights and component obligations",
+          "grade": "R0",
+          "criterion": "No repository licence evidence identified. Source-specific diligence and recipient acceptance remain separate."
+        },
+        {
+          "axis": "commercialMaturity",
+          "label": "Commercial basis",
+          "grade": "C2",
+          "criterion": "Seller ask and reproducible economic reference established. Source-specific diligence and recipient acceptance remain separate."
+        },
+        {
+          "axis": "transferReadiness",
+          "label": "Delivery and handover",
+          "grade": "T1",
+          "criterion": "Implementation exists but core transfer evidence is incomplete. Source-specific diligence and recipient acceptance remain separate."
+        }
+      ],
+      "sellerConditions": [
+        "Freeze the specific first-party source, delivery documents, transferable rights and exclusions.",
+        "Complete platform licence-compatibility review and real WordPress/WooCommerce/BTCPay staging acceptance before distribution or operational use.",
+        "Review retained source-specific qualification and further independent or intended-use acceptance.",
+        "Keep third-party rights, future capabilities and unverified empirical claims outside the agreed proprietary scope."
+      ],
+      "buyerConditions": [],
+      "qualificationObjectives": [
+        "Reproduce the identified software and representative recipient cases within the stated boundaries.",
+        "Agree source-specific rights, delivery and acceptance before transfer."
+      ],
+      "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
+      "componentEvidence": {
+        "dependencyManifestIdentified": false,
+        "dependencyLockIdentified": false,
+        "componentInventoryIdentified": false,
+        "licenceNoticesIdentified": false,
+        "thirdPartyDisclosureIdentified": true,
+        "securityDocumentationIdentified": true,
+        "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
+      },
+      "productDetails": [
+        {
+          "title": "Offered work and qualification",
+          "text": "A WordPress/WooCommerce extension and storefront implementation for digital-template packages, consent records, tamper-evident transaction evidence and defined BTCPay integration boundaries.",
+          "items": [
+            "Local PHP syntax and standalone logic checks do not establish an accepted WordPress, WooCommerce and BTCPay staging deployment or reliable live fulfilment.",
+            "WordPress and third-party platform licences retain their own terms. Distribution compatibility and first-party title require specific review before any exclusive-rights offer or delivery.",
+            "The ledger is tamper-evident, not absolutely immutable against privileged control. Security, tax, consumer-law, backup and recipient operational acceptance remain separate."
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "TA-IP-116",
+      "version": "0.2.0a0 / R2B2C numerical convergence",
+      "developmentEdition": "",
+      "productPosition": "Independent computational research software for hydrostatic loading, explicit energy ledgers, passive laminar reservoir networks and bounded numerical-convergence assurance.",
+      "offeredEdition": "Specifically agreed first-party implementation and documentation. Only the agreed first-party fluid models, energy accounting and numerical-assurance work are priced. Other assets, devices, physical energy output, experimental findings, historical designs, patent rights and future research are excluded.",
+      "transferPosition": "Conditional handover",
+      "assessmentCriteria": [
+        {
+          "axis": "technicalMaturity",
+          "label": "Technical scope",
+          "grade": "R",
+          "criterion": "Independent computational research software for hydrostatic loading, explicit energy ledgers, passive laminar reservoir networks and bounded numerical-convergence assurance. The offered edition and material boundaries govern review."
+        },
+        {
+          "axis": "evidenceMaturity",
+          "label": "Evidence and validation",
+          "grade": "E2",
+          "criterion": "Tests plus validation/qualification evidence identified. Source-specific diligence and recipient acceptance remain separate."
+        },
+        {
+          "axis": "ipRightsMaturity",
+          "label": "Rights and component obligations",
+          "grade": "R2",
+          "criterion": "R1 plus dependency/third-party disclosure basis identified. Source-specific diligence and recipient acceptance remain separate."
+        },
+        {
+          "axis": "commercialMaturity",
+          "label": "Commercial basis",
+          "grade": "C2",
+          "criterion": "Seller ask and reproducible economic reference established. Source-specific diligence and recipient acceptance remain separate."
+        },
+        {
+          "axis": "transferReadiness",
+          "label": "Delivery and handover",
+          "grade": "T2",
+          "criterion": "Source, documentation, tests and licence evidence support bounded handover. Source-specific diligence and recipient acceptance remain separate."
+        }
+      ],
+      "sellerConditions": [
+        "Freeze the specific first-party source, delivery documents, transferable rights and exclusions.",
+        "Review retained source-specific qualification and further independent or intended-use acceptance.",
+        "Keep third-party rights, future capabilities and unverified empirical claims outside the agreed proprietary scope."
+      ],
+      "buyerConditions": [],
+      "qualificationObjectives": [
+        "Reproduce the identified software and representative recipient cases within the stated boundaries.",
+        "Agree source-specific rights, delivery and acceptance before transfer."
+      ],
+      "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
+      "componentEvidence": {
+        "dependencyManifestIdentified": true,
+        "dependencyLockIdentified": false,
+        "componentInventoryIdentified": false,
+        "licenceNoticesIdentified": true,
+        "thirdPartyDisclosureIdentified": true,
+        "securityDocumentationIdentified": false,
+        "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
+      },
+      "productDetails": [
+        {
+          "title": "Offered work and qualification",
+          "text": "Independent computational research software for hydrostatic loading, explicit energy ledgers, passive laminar reservoir networks and bounded numerical-convergence assurance.",
+          "items": [
+            "The offered work is numerical research software. It does not demonstrate perpetual motion, energy without a source, a working physical engine or historical-device reconstruction.",
+            "Retained cross-environment evidence covers earlier identified software scopes. Current convergence checks pass locally; independent acceptance of that increment remains pending.",
+            "Models have explicit passive, laminar and analytical limits. Detailed physical simulation, calibrated hardware measurements, novelty, safety and freedom-to-operate require separate review."
           ]
         }
       ]

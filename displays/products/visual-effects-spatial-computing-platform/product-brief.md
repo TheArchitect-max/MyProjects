@@ -130,7 +130,7 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-30. All amounts in EUR. Market value is not established.
+Basis: 2026-10-31. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
@@ -164,7 +164,7 @@ The recreation estimate comprises the retained expressly priced scope and the se
 
 ### Financial assessment
 
-Stated scope reconciled to explicit budgets. Assessed 2026-10-30.
+Stated scope reconciled to explicit budgets. Assessed 2026-10-31.
 
 The stated scope reconciles to explicit seller budgets. Effort remains assumed; independent quotations, intended-use qualification and market value are not established.
 
@@ -234,7 +234,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "P", "potential": "M", "sector": "Media & Creator Technology", "route": "Media / creator software"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc9
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc10
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/visual-effects-spatial-computing-platform/#calculation
 
