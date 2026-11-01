@@ -2,11 +2,11 @@
 
 TA-IP-114 | Reference name: Caroline | Scientific observation & life sciences
 
-Evaluate synthetic clustering and covariance methods, then screen bounded catalogue-file and FITS structures before any separately qualified observational analysis.
+Validate declared catalogue structure, map sky coordinates under explicit geometry assumptions and compare synthetic weighted clustering estimates with independent numerical references.
 
 ## Product overview
 
-A standalone cosmological research implementation with native correlation estimators, spatial indexing, jackknife covariance and offline catalogue-integrity or FITS sample checks.
+Computational cosmology software for bounded catalogue integrity, full-row FITS checks, fiducial sky geometry and weighted isotropic or anisotropic correlation references.
 
 ## Potential acquirers
 
@@ -16,17 +16,17 @@ A standalone cosmological research implementation with native correlation estima
 
 ## Documented functions
 
-- Compute bounded synthetic correlation estimates
-- Compare exact spatial-index and weighted estimators
-- Evaluate leave-one-region-out covariance
-- Check declared catalogue-file integrity contracts
-- Inspect bounded FITS binary-table structures
+- Validate complete declared FITS catalogue rows within resource limits
+- Transform sky coordinates under a stated fiducial cosmology
+- Apply matched sky-coordinate selection to data and random inputs
+- Compute exact weighted isotropic and bounded anisotropic correlations
+- Compare multipole and covariance outputs with numerical oracles
 
 ## Available output types
 
-- Synthetic correlation and covariance records
-- Independent numerical comparison reports
-- Catalogue-integrity and FITS sample assessments
+- Catalogue-integrity and full-row format reports
+- Fiducial geometry and weighted-correlation records
+- Anisotropic-bin, multipole and numerical-reference assessments
 
 ## Current offered position
 
@@ -34,13 +34,13 @@ Research software. Available as a specifically scoped research or development so
 
 Available for acquisition discussion.
 
-- Synthetic numerical and structural software checks do not establish an accepted observational dataset, a published survey reconstruction or a cosmological discovery.
-- Catalogue checks have bounded sampling and format limits. Source authenticity, data licences, survey selection and scientific uncertainty require separate admission and review.
-- The local job-admission prototype is not an authenticated or isolated hosted service. Production hosting and further physical inference are outside the present offer.
+- The complete current native build, regression suite and anisotropic numerical oracle pass local CPU replay. Retained cross-environment evidence has its own earlier source scope; independent current-edition recipient acceptance remains separate.
+- Tests use bounded synthetic fixtures. Real survey-data admission, survey selection and covariance, source-specific rights and published observational reconstruction remain open.
+- Anisotropic estimates use the stated pre-reconstruction convention and bounded exact reference implementation. They do not establish full-survey scalability, a cosmological discovery or reproduction of a published survey statistic.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 16,000.
+Seller asking reference: EUR 27,000.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -70,29 +70,29 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: Python 0.1.0 / native 0.7.0 / S6 FITS sampler
+Identified product edition: Python 0.1.0 / native 0.10.0 / S10 anisotropic reference
 
 Handover position: Conditional handover
 
-A standalone cosmological research implementation with native correlation estimators, spatial indexing, jackknife covariance and offline catalogue-integrity or FITS sample checks.
+Computational cosmology software for bounded catalogue integrity, full-row FITS checks, fiducial sky geometry and weighted isotropic or anisotropic correlation references.
 
 ### Priced first-party scope
 
-Specifically agreed first-party implementation and documentation. Only the agreed first-party numerical, synthetic research and catalogue-screening work is priced. Other assets, observational data rights, accepted survey inference, physical discoveries, hosted services and future programmes are excluded.
+Specifically agreed first-party implementation and documentation. Previously priced correlation, covariance and sampled-FITS foundations are retained once. Only the added full-row scanner, fiducial geometry, selected sky pipeline and anisotropic reference software are included. Survey-data rights, accepted observations, physical discoveries, full-survey deployment and future research are excluded.
 
 ### Offered work and qualification
 
-A standalone cosmological research implementation with native correlation estimators, spatial indexing, jackknife covariance and offline catalogue-integrity or FITS sample checks.
+Computational cosmology software for bounded catalogue integrity, full-row FITS checks, fiducial sky geometry and weighted isotropic or anisotropic correlation references.
 
-- Synthetic numerical and structural software checks do not establish an accepted observational dataset, a published survey reconstruction or a cosmological discovery.
-- Catalogue checks have bounded sampling and format limits. Source authenticity, data licences, survey selection and scientific uncertainty require separate admission and review.
-- The local job-admission prototype is not an authenticated or isolated hosted service. Production hosting and further physical inference are outside the present offer.
+- The complete current native build, regression suite and anisotropic numerical oracle pass local CPU replay. Retained cross-environment evidence has its own earlier source scope; independent current-edition recipient acceptance remains separate.
+- Tests use bounded synthetic fixtures. Real survey-data admission, survey selection and covariance, source-specific rights and published observational reconstruction remain open.
+- Anisotropic estimates use the stated pre-reconstruction convention and bounded exact reference implementation. They do not establish full-survey scalability, a cosmological discovery or reproduction of a published survey statistic.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | R | A standalone cosmological research implementation with native correlation estimators, spatial indexing, jackknife covariance and offline catalogue-integrity or FITS sample checks. The offered edition and material boundaries govern review. |
+| Technical scope | R | Computational cosmology software for bounded catalogue integrity, full-row FITS checks, fiducial sky geometry and weighted isotropic or anisotropic correlation references. The offered edition and material boundaries govern review. |
 | Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Source-specific diligence and recipient acceptance remain separate. |
 | Rights and component obligations | R1 | Repository licence file identified. Source-specific diligence and recipient acceptance remain separate. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. Source-specific diligence and recipient acceptance remain separate. |
@@ -129,18 +129,18 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-31. All amounts in EUR. Market value is not established.
+Basis: 2026-11-01. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 16,000 | 17,875 |
-| Negotiation reference - low | 13,000 | 14,524 |
-| Negotiation reference - high | 20,000 | 22,344 |
-| Recreation cost estimate | 53,500 | 59,770 |
-| Marketability cost scenario | 20,691 | 23,116 |
-| Monetisation cost scenario | 13,643 | 15,242 |
-| Risk-adjusted strategic reference | 4,228 | 4,724 |
-| Weighted economic reference | 21,722 | 24,268 |
+| Seller asking reference | 27,000 | 30,164 |
+| Negotiation reference - low | 22,000 | 24,578 |
+| Negotiation reference - high | 34,000 | 37,985 |
+| Recreation cost estimate | 90,500 | 101,107 |
+| Marketability cost scenario | 35,001 | 39,103 |
+| Monetisation cost scenario | 23,078 | 25,783 |
+| Risk-adjusted strategic reference | 7,152 | 7,990 |
+| Weighted economic reference | 36,744 | 41,050 |
 
 USD = EUR × 1.1172, rounded half-up to whole USD. ECB date: 2026-10-30. EUR is authoritative.
 
@@ -159,11 +159,11 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The recreation estimate adopts the lowest expressly scoped seller effort scenario. It is not recorded expenditure, an absolute minimum, an independent quote or established market value. Only the agreed first-party numerical, synthetic research and catalogue-screening work is priced. Other assets, observational data rights, accepted survey inference, physical discoveries, hosted services and future programmes are excluded.
+The retained priced scope and successive non-overlapping budgets reconcile below. Equivalent effort and historical anchors are seller assumptions, not actual expenditure, independent quotations or market value. Previously priced correlation, covariance and sampled-FITS foundations are retained once. Only the added full-row scanner, fiducial geometry, selected sky pipeline and anisotropic reference software are included. Survey-data rights, accepted observations, physical discoveries, full-survey deployment and future research are excluded.
 
 ### Financial assessment
 
-Stated scope reconciled to explicit budgets. Assessed 2026-10-31.
+Stated scope reconciled to explicit budgets. Assessed 2026-11-01.
 
 The stated scope reconciles to explicit seller budgets. Effort remains assumed; independent quotations, intended-use qualification and market value are not established.
 
@@ -197,6 +197,34 @@ Native numerical and correlation-estimation core; Exact spatial indexing and wei
 
 Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. Only the agreed first-party numerical, synthetic research and catalogue-screening work is priced. Other assets, observational data rights, accepted survey inference, physical discoveries, hosted services and future programmes are excluded.
 
+#### Scoped implementation reproduction budget
+
+Complete bounded FITS row scanner and rejection controls; Fiducial distance and sky-coordinate geometry; Selected sky-catalogue to weighted-clustering pipeline; Exact anisotropic pair counts and multipole references; Independent numerical oracles and negative fixtures; Integrated native qualification and scope documentation.
+
+- Complete bounded FITS row scanner and rejection controls — 56 assumed hours
+- Fiducial distance and sky-coordinate geometry — 48 assumed hours
+- Selected sky-catalogue to weighted-clustering pipeline — 64 assumed hours
+- Exact anisotropic pair counts and multipole references — 80 assumed hours
+- Independent numerical oracles and negative fixtures — 64 assumed hours
+- Integrated native qualification and scope documentation — 32 assumed hours
+
+- Assumed hours: 344
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 32,336
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 37,186.4
+- Effort alternatives / Low hours: 344
+- Effort alternatives / Reference hours: 516
+- Effort alternatives / Extended hours: 688
+- Effort alternatives / Low cost: EUR 37,186.4
+- Effort alternatives / Reference cost: EUR 55,779.6
+- Effort alternatives / Extended cost: EUR 74,372.8
+- Adopted recreation increment: EUR 37,000
+- Previous recreation cost: EUR 53,500
+- Current recreation cost: EUR 90,500
+
+Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. Previously priced correlation, covariance and sampled-FITS foundations are retained once. Only the added full-row scanner, fiducial geometry, selected sky pipeline and anisotropic reference software are included. Survey-data rights, accepted observations, physical discoveries, full-survey deployment and future research are excluded.
+
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
@@ -213,7 +241,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "R", "potential": "S", "sector": "Research & Scientific Software", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc10
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc11
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/cosmological-structure-and-expansion-research-platform/#calculation
 

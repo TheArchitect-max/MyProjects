@@ -143,7 +143,7 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-31. All amounts in EUR. Market value is not established.
+Basis: 2026-11-01. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
@@ -177,7 +177,7 @@ Recreation estimate: EUR 850,000 retained scope component plus EUR 5,000 for the
 
 ### Financial assessment
 
-Partial scoped budget; retained anchor remains provisional. Assessed 2026-10-31.
+Partial scoped budget; retained anchor remains provisional. Assessed 2026-11-01.
 
 Explicit budgets cover part of the estimate. The retained anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
@@ -224,7 +224,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "V", "potential": "H", "sector": "Aerospace & Mobility", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc10
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc11
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/aerospace-mission-simulator/#calculation
 

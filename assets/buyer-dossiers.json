@@ -1,6 +1,6 @@
 {
   "schema": "public-buyer-dossiers-1",
-  "basisDate": "2026-10-31",
+  "basisDate": "2026-11-01",
   "purpose": "Version, qualification, rights and handover information for initial acquisition review. Evidence applies to the identified edition and tested scope.",
   "definitions": {
     "purpose": "Seller-side evidence, transfer and acquisition-documentation readiness. This is not buyer due diligence and does not replace buyer-specific legal, technical, security or financial review.",
@@ -583,9 +583,9 @@
     },
     {
       "ref": "TA-IP-009",
-      "version": "0.4.0",
+      "version": "0.6.0 / synthetic pilot and executable recovery candidate",
       "developmentEdition": "",
-      "productPosition": "A candidate reference implementation; independent review and operational approval remain pending.",
+      "productPosition": "A custody-assurance candidate with deterministic reference processing, multi-organisation pilot simulation, executable recovery scenarios and reproducible evidence packaging.",
       "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
@@ -593,7 +593,7 @@
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "P",
-          "criterion": "A custody-assurance prototype for accountable transfers between managed organisations. The offered edition and material boundaries govern review."
+          "criterion": "A custody-assurance candidate with deterministic reference processing, multi-organisation pilot simulation, executable recovery scenarios and reproducible evidence packaging. Prototype status is retained; production and live-pilot approval are not established."
         },
         {
           "axis": "evidenceMaturity",
@@ -621,7 +621,9 @@
         }
       ],
       "sellerConditions": [
-        "Review confidential security and credential-handling materials within the agreed diligence and transfer scope."
+        "Review confidential security and credential-handling materials within the agreed diligence and transfer scope.",
+        "Reproduce the agreed candidate and complete intended-environment recovery and accountable approval gates.",
+        "Reconstruct the retained recreation estimate using an explicit delivery-specific work breakdown before reliance."
       ],
       "buyerConditions": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -642,7 +644,17 @@
         "securityDocumentationIdentified": true,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Implemented candidate and acceptance limits",
+          "text": "A custody-assurance candidate with deterministic reference processing, multi-organisation pilot simulation, executable recovery scenarios and reproducible evidence packaging.",
+          "items": [
+            "All five offline validation layers pass current-source local replay, including six synthetic pilot scenarios and eight deterministic recovery exercises. These are bounded software simulations.",
+            "Real deployment failover, approved RTO/RPO performance, deployed independent witnesses, cryptographic operations and live-pilot acceptance remain open. Synthetic recovery results do not close those gates.",
+            "Governance, independent review, security, legal/privacy, operational and recipient approvals remain required. The retained recreation anchor lacks a complete work-package budget and receives no uplift for this increment."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-010",
@@ -7697,17 +7709,17 @@
     },
     {
       "ref": "TA-IP-112",
-      "version": "0.2.1 / R1.1 numerical and record assurance",
+      "version": "0.3.1 / R2A observational-source parser and governance",
       "developmentEdition": "",
-      "productPosition": "Experimental research software for explicit cosmological reference calculations, toy-geometry experiments, numerical assurance and versioned provenance records.",
-      "offeredEdition": "Specifically agreed first-party implementation and documentation. Only the specifically agreed first-party numerical-reference, synthetic experiment, assurance and record-contract software and documentation are priced. Other portfolio assets, empirical data rights, physical discoveries, a validated new theory, future R2 modules and production qualification are excluded.",
+      "productPosition": "Research software combining numerical physics-reference experiments with local dataset-governance checks, versioned evidence records and a bounded astronomical table parser.",
+      "offeredEdition": "Specifically agreed first-party implementation and documentation. Previously priced numerical-reference, synthetic geometry and record-assurance foundations are retained once. The increment covers only implemented dataset-governance and table-format software. Other portfolio projects, original observational data rights, authenticated scientific ingestion, novel physics, future modules and production operations are excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "R",
-          "criterion": "Experimental research software for explicit cosmological reference calculations, toy-geometry experiments, numerical assurance and versioned provenance records. The offered edition and material boundaries govern review."
+          "criterion": "Research software combining numerical physics-reference experiments with local dataset-governance checks, versioned evidence records and a bounded astronomical table parser. The offered edition and material boundaries govern review."
         },
         {
           "axis": "evidenceMaturity",
@@ -7757,28 +7769,28 @@
       "productDetails": [
         {
           "title": "Offered work and qualification",
-          "text": "Experimental research software for explicit cosmological reference calculations, toy-geometry experiments, numerical assurance and versioned provenance records.",
+          "text": "Research software combining numerical physics-reference experiments with local dataset-governance checks, versioned evidence records and a bounded astronomical table parser.",
           "items": [
-            "The v0.2.1 record-contract changes have local software acceptance. Prior v0.2.0 numerical second-runtime evidence does not by itself qualify the new schema code; full R1 acceptance and R2 remain open.",
-            "Reference calculations, toy geometry and synthetic Bayesian comparisons are not new observations or proof of emergent spacetime, cosmic origins or an original fundamental-physics theory.",
-            "Independent physical-science review, representative empirical data, declared platform compatibility and recipient acceptance require separate evidence and scope."
+            "Retained source-matched second-runtime records cover the implemented numerical, record-contract, dataset-governance and table-parser software. Current local regression replay also passes; full observational-data admission remains open.",
+            "The astronomical test fixture is a web transcription, not the authenticated original source file. Original-file provenance, product-specific rights, full scientific covariance, instrument and selection qualification remain unresolved.",
+            "Reference models and software checks do not establish emergent spacetime, cosmic origins, a new physical theory or an accepted cosmological likelihood. Recipient and intended-use acceptance require separate evidence."
           ]
         }
       ]
     },
     {
       "ref": "TA-IP-113",
-      "version": "0.1.0 / custody v3 and research screening",
+      "version": "0.1.0 / custody v3 and CR-OPEN-16 research review",
       "developmentEdition": "",
-      "productPosition": "Independent research software and documentation for preregistered binary studies, local evidence-custody integrity and critical temporal-causality mechanism screening.",
-      "offeredEdition": "Specifically agreed first-party implementation and documentation. Only the agreed first-party study, custody and research-screening work is priced. Other portfolio assets, physical devices, independently witnessed chronology, experimental breakthroughs, third-party works and future programmes are excluded.",
+      "productPosition": "Preregistered binary-study and research-custody software with local artifact-byte verification, bounded-memory hashing and exclusive complete-file publication.",
+      "offeredEdition": "Specifically agreed first-party implementation and documentation. Previously priced binary-study, custody-v3 and research-screening foundations are retained once. The increment covers file verification, streaming and atomic publication assurance only. Speculative physical mechanisms, a time-travel result, independent witness services, hardware and future experiments receive no monetary premium.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "R",
-          "criterion": "Independent research software and documentation for preregistered binary studies, local evidence-custody integrity and critical temporal-causality mechanism screening. The offered edition and material boundaries govern review."
+          "criterion": "Preregistered binary-study and research-custody software with local artifact-byte verification, bounded-memory hashing and exclusive complete-file publication. The offered edition and material boundaries govern review."
         },
         {
           "axis": "evidenceMaturity",
@@ -7828,28 +7840,28 @@
       "productDetails": [
         {
           "title": "Offered work and qualification",
-          "text": "Independent research software and documentation for preregistered binary studies, local evidence-custody integrity and critical temporal-causality mechanism screening.",
+          "text": "Preregistered binary-study and research-custody software with local artifact-byte verification, bounded-memory hashing and exclusive complete-file publication.",
           "items": [
-            "The current work is research and evidence-integrity software. No controllable information transfer to the past or physical temporal-causality breakthrough has been demonstrated.",
-            "Local hashes, custody records, simulated studies and statistical significance do not independently establish chronology, identity or physical causation.",
-            "Independent witnesses, a defensible physical mechanism, real experiments and replicated scientific acceptance remain separate. Speculative physical builds remain on hold."
+            "Current local regression replay supports the implemented study, custody and evidence-file software. Matching local bytes and hashes do not authenticate original acquisition, independent timestamps or an externally witnessed chronology.",
+            "Complete-file publication is qualified on the tested local filesystem. Universal crash durability, hostile-parent-directory protection, all-platform access controls and independent security certification are not established.",
+            "The updated mechanism review remains theory-only, including the chronology and access conditions of the examined geometric models. No validated physical source, buildable time channel, future-to-past message or independently reproduced physical anomaly is demonstrated."
           ]
         }
       ]
     },
     {
       "ref": "TA-IP-114",
-      "version": "Python 0.1.0 / native 0.7.0 / S6 FITS sampler",
+      "version": "Python 0.1.0 / native 0.10.0 / S10 anisotropic reference",
       "developmentEdition": "",
-      "productPosition": "A standalone cosmological research implementation with native correlation estimators, spatial indexing, jackknife covariance and offline catalogue-integrity or FITS sample checks.",
-      "offeredEdition": "Specifically agreed first-party implementation and documentation. Only the agreed first-party numerical, synthetic research and catalogue-screening work is priced. Other assets, observational data rights, accepted survey inference, physical discoveries, hosted services and future programmes are excluded.",
+      "productPosition": "Computational cosmology software for bounded catalogue integrity, full-row FITS checks, fiducial sky geometry and weighted isotropic or anisotropic correlation references.",
+      "offeredEdition": "Specifically agreed first-party implementation and documentation. Previously priced correlation, covariance and sampled-FITS foundations are retained once. Only the added full-row scanner, fiducial geometry, selected sky pipeline and anisotropic reference software are included. Survey-data rights, accepted observations, physical discoveries, full-survey deployment and future research are excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "R",
-          "criterion": "A standalone cosmological research implementation with native correlation estimators, spatial indexing, jackknife covariance and offline catalogue-integrity or FITS sample checks. The offered edition and material boundaries govern review."
+          "criterion": "Computational cosmology software for bounded catalogue integrity, full-row FITS checks, fiducial sky geometry and weighted isotropic or anisotropic correlation references. The offered edition and material boundaries govern review."
         },
         {
           "axis": "evidenceMaturity",
@@ -7899,11 +7911,11 @@
       "productDetails": [
         {
           "title": "Offered work and qualification",
-          "text": "A standalone cosmological research implementation with native correlation estimators, spatial indexing, jackknife covariance and offline catalogue-integrity or FITS sample checks.",
+          "text": "Computational cosmology software for bounded catalogue integrity, full-row FITS checks, fiducial sky geometry and weighted isotropic or anisotropic correlation references.",
           "items": [
-            "Synthetic numerical and structural software checks do not establish an accepted observational dataset, a published survey reconstruction or a cosmological discovery.",
-            "Catalogue checks have bounded sampling and format limits. Source authenticity, data licences, survey selection and scientific uncertainty require separate admission and review.",
-            "The local job-admission prototype is not an authenticated or isolated hosted service. Production hosting and further physical inference are outside the present offer."
+            "The complete current native build, regression suite and anisotropic numerical oracle pass local CPU replay. Retained cross-environment evidence has its own earlier source scope; independent current-edition recipient acceptance remains separate.",
+            "Tests use bounded synthetic fixtures. Real survey-data admission, survey selection and covariance, source-specific rights and published observational reconstruction remain open.",
+            "Anisotropic estimates use the stated pre-reconstruction convention and bounded exact reference implementation. They do not establish full-survey scalability, a cosmological discovery or reproduction of a published survey statistic."
           ]
         }
       ]
@@ -7982,17 +7994,17 @@
     },
     {
       "ref": "TA-IP-116",
-      "version": "0.2.0a0 / R2B2C numerical convergence",
+      "version": "0.2.0a0 / R3A adversarial energy envelopes",
       "developmentEdition": "",
-      "productPosition": "Independent computational research software for hydrostatic loading, explicit energy ledgers, passive laminar reservoir networks and bounded numerical-convergence assurance.",
-      "offeredEdition": "Specifically agreed first-party implementation and documentation. Only the agreed first-party fluid models, energy accounting and numerical-assurance work are priced. Other assets, devices, physical energy output, experimental findings, historical designs, patent rights and future research are excluded.",
+      "productPosition": "Numerical engineering-research software for fluid-network solver comparison, explicit source-storage-load accounting and adverse-scenario screening of declared energy-system candidates.",
+      "offeredEdition": "Specifically agreed first-party implementation and documentation. Previously priced passive-network and convergence foundations are retained once. The increment covers cross-solver, source-storage-load, candidate and adverse-envelope software. Physical engines, measured energy production, perpetual-motion claims, hardware, legal clearance and future phases are excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "R",
-          "criterion": "Independent computational research software for hydrostatic loading, explicit energy ledgers, passive laminar reservoir networks and bounded numerical-convergence assurance. The offered edition and material boundaries govern review."
+          "criterion": "Numerical engineering-research software for fluid-network solver comparison, explicit source-storage-load accounting and adverse-scenario screening of declared energy-system candidates. The offered edition and material boundaries govern review."
         },
         {
           "axis": "evidenceMaturity",
@@ -8042,11 +8054,225 @@
       "productDetails": [
         {
           "title": "Offered work and qualification",
-          "text": "Independent computational research software for hydrostatic loading, explicit energy ledgers, passive laminar reservoir networks and bounded numerical-convergence assurance.",
+          "text": "Numerical engineering-research software for fluid-network solver comparison, explicit source-storage-load accounting and adverse-scenario screening of declared energy-system candidates.",
           "items": [
-            "The offered work is numerical research software. It does not demonstrate perpetual motion, energy without a source, a working physical engine or historical-device reconstruction.",
-            "Retained cross-environment evidence covers earlier identified software scopes. Current convergence checks pass locally; independent acceptance of that increment remains pending.",
-            "Models have explicit passive, laminar and analytical limits. Detailed physical simulation, calibrated hardware measurements, novelty, safety and freedom-to-operate require separate review."
+            "Retained independent-environment records cover earlier identified numerical scopes. Current local unit and analytical audit replay passes; external replay of the latest adverse-envelope increment remains open.",
+            "Adverse envelopes are deliberate assumption scenarios, not formal uncertainty intervals, statistical confidence bounds, measured efficiencies or physical-device performance predictions.",
+            "No perpetual motion, energy without a source, physical engine, calibrated hardware result or freedom-to-operate clearance is demonstrated. Models retain explicit fluid, solver and boundary limitations."
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "TA-IP-117",
+      "version": "R2g / strain-source, boundary and force-law diagnostics",
+      "developmentEdition": "",
+      "productPosition": "A standalone theoretical-physics framework with classical lattice, matter-field and strain-source demonstrators, including finite-boundary, force-law and anisotropy diagnostics.",
+      "offeredEdition": "Specifically agreed first-party implementation and documentation. Only additional committed strain-source, periodic zero-mode, imposed-boundary and force-law diagnostic software through R2g is priced. Previously budgeted classical lattice and matter-field work is retained once. R2h rotational-averaging candidate, physical gravity, observational evidence, hardware and future research are excluded.",
+      "transferPosition": "Rights and handover review required",
+      "assessmentCriteria": [
+        {
+          "axis": "technicalMaturity",
+          "label": "Technical scope",
+          "grade": "R",
+          "criterion": "A standalone theoretical-physics framework with classical lattice, matter-field and strain-source demonstrators, including finite-boundary, force-law and anisotropy diagnostics. Research status and stated model boundaries remain."
+        },
+        {
+          "axis": "evidenceMaturity",
+          "label": "Evidence and validation",
+          "grade": "E2",
+          "criterion": "Tests plus validation/qualification evidence identified. Source-specific diligence and recipient acceptance remain separate."
+        },
+        {
+          "axis": "ipRightsMaturity",
+          "label": "Rights and component obligations",
+          "grade": "R0",
+          "criterion": "Proprietary status is asserted in the research policy, but no dedicated repository licence or transfer notice is identified. First-party title, component obligations and delivery terms require specific review."
+        },
+        {
+          "axis": "commercialMaturity",
+          "label": "Commercial basis",
+          "grade": "C2",
+          "criterion": "Seller ask and reproducible economic reference established. Source-specific diligence and recipient acceptance remain separate."
+        },
+        {
+          "axis": "transferReadiness",
+          "label": "Delivery and handover",
+          "grade": "T1",
+          "criterion": "Implementation exists but core transfer evidence is incomplete. Source-specific diligence and recipient acceptance remain separate."
+        }
+      ],
+      "sellerConditions": [
+        "Freeze the specifically agreed first-party source edition, documents, rights and exclusions.",
+        "Complete the dedicated licence/transfer notice and release-specific component and delivery record.",
+        "Review retained internal CPU evidence and reproduce representative recipient cases.",
+        "Keep later research candidates, unsupported physical claims and third-party works outside the transfer scope."
+      ],
+      "buyerConditions": [],
+      "qualificationObjectives": [
+        "Reproduce the bounded classical analogue and scalar-model software with its counterexamples.",
+        "Agree source-specific rights, delivery and acceptance before transfer."
+      ],
+      "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
+      "componentEvidence": {
+        "dependencyManifestIdentified": false,
+        "dependencyLockIdentified": false,
+        "componentInventoryIdentified": false,
+        "licenceNoticesIdentified": false,
+        "thirdPartyDisclosureIdentified": true,
+        "securityDocumentationIdentified": false,
+        "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
+      },
+      "productDetails": [
+        {
+          "title": "Offered work and qualification",
+          "text": "A standalone theoretical-physics framework with classical lattice, matter-field and strain-source demonstrators, including finite-boundary, force-law and anisotropy diagnostics.",
+          "items": [
+            "Retained acceptance records and 316 current-source local tests support committed software through R2g. The R2h rotational-averaging candidate is outside the offered accepted scope.",
+            "Scalar dynamics, coupling choices and the Dirichlet boundary are model assumptions. Strain-source anisotropy and finite-boundary sensitivity remain explicit; a point-source comparator does not establish isotropy of the original source. Universal gravity, Einstein-equation derivation and emergent physical spacetime are not established.",
+            "The source asserts proprietary status, but a dedicated licence/transfer notice and complete release-specific component and delivery record still require review. Independent scientific, rights and recipient acceptance are not established."
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "TA-IP-118",
+      "version": "0.2.0 / R2 bounded formal argument graph",
+      "developmentEdition": "",
+      "productPosition": "A deterministic research-case register and bounded classical propositional argument checker for explicit assumptions, supported derivations and premise consistency.",
+      "offeredEdition": "Only the expressly agreed first-party implemented software, tests and research documents in the stated edition are included. Other portfolio assets, universal scientific conclusions, third-party works, independent certification, future development and operating services are excluded.",
+      "transferPosition": "Conditional handover",
+      "assessmentCriteria": [
+        {
+          "axis": "technicalMaturity",
+          "label": "Technical scope",
+          "grade": "R",
+          "criterion": "A deterministic research-case register and bounded classical propositional argument checker for explicit assumptions, supported derivations and premise consistency. The offered edition and limits govern review."
+        },
+        {
+          "axis": "evidenceMaturity",
+          "label": "Evidence and validation",
+          "grade": "E2",
+          "criterion": "Tests plus validation/qualification evidence identified. Source-specific review and recipient acceptance remain separate."
+        },
+        {
+          "axis": "ipRightsMaturity",
+          "label": "Rights and component obligations",
+          "grade": "R1",
+          "criterion": "Repository licence file identified. Source-specific review and recipient acceptance remain separate."
+        },
+        {
+          "axis": "commercialMaturity",
+          "label": "Commercial basis",
+          "grade": "C2",
+          "criterion": "Seller ask and reproducible economic reference established. Source-specific review and recipient acceptance remain separate."
+        },
+        {
+          "axis": "transferReadiness",
+          "label": "Delivery and handover",
+          "grade": "T2",
+          "criterion": "Source, documentation, tests and licence evidence support bounded handover. Source-specific review and recipient acceptance remain separate."
+        }
+      ],
+      "sellerConditions": [
+        "Freeze the specifically agreed first-party edition, documents, rights and exclusions.",
+        "Reproduce representative recipient cases and review component, delivery and acceptance records.",
+        "Keep unsupported scientific conclusions and third-party works outside the transfer scope."
+      ],
+      "buyerConditions": [],
+      "qualificationObjectives": [
+        "Reproduce the stated bounded software and its explicit counterexamples.",
+        "Agree source-specific rights, delivery and recipient acceptance before transfer."
+      ],
+      "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
+      "componentEvidence": {
+        "dependencyManifestIdentified": false,
+        "dependencyLockIdentified": false,
+        "componentInventoryIdentified": false,
+        "licenceNoticesIdentified": true,
+        "thirdPartyDisclosureIdentified": true,
+        "securityDocumentationIdentified": false,
+        "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
+      },
+      "productDetails": [
+        {
+          "title": "Offered work and qualification",
+          "text": "A deterministic research-case register and bounded classical propositional argument checker for explicit assumptions, supported derivations and premise consistency.",
+          "items": [
+            "Current-source local replay passes 43 tests. Accepted derivations are valid only relative to the supplied premises and supported rules; input checks do not verify the factual truth of premises.",
+            "Truth tables cover at most eight premise atoms. The argument language excludes first-order, modal and temporal logic; this is not a complete theorem prover or an autonomous scientific-discovery system.",
+            "Independent empirical replication, external source verification, intended-use qualification and recipient acceptance are not established. This asset is independent of other portfolio research frameworks."
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "TA-IP-119",
+      "version": "R3 / modal identity, grounding and four research volumes",
+      "developmentEdition": "",
+      "productPosition": "An independent foundational-research archive with four analytical volumes and bounded modal-model checks for explanatory necessity, individual identity and grounding assumptions.",
+      "offeredEdition": "Only the agreed first-party R2/R3 finite semantic models, 57 regression tests and four research volumes are included. General facts and ideas, third-party works, R4 research, empirical discoveries, independent certification and other portfolio assets are excluded.",
+      "transferPosition": "Conditional handover",
+      "assessmentCriteria": [
+        {
+          "axis": "technicalMaturity",
+          "label": "Technical scope",
+          "grade": "R",
+          "criterion": "An independent foundational-research archive with four analytical volumes and bounded modal-model checks for explanatory necessity, individual identity and grounding assumptions. The stated finite semantics and research limits govern review."
+        },
+        {
+          "axis": "evidenceMaturity",
+          "label": "Evidence and validation",
+          "grade": "E2",
+          "criterion": "Tests plus validation/qualification evidence identified. Source-specific review and recipient acceptance remain separate."
+        },
+        {
+          "axis": "ipRightsMaturity",
+          "label": "Rights and component obligations",
+          "grade": "R1",
+          "criterion": "Repository licence file identified. Source-specific review and recipient acceptance remain separate."
+        },
+        {
+          "axis": "commercialMaturity",
+          "label": "Commercial basis",
+          "grade": "C2",
+          "criterion": "Seller ask and reproducible economic reference established. Source-specific review and recipient acceptance remain separate."
+        },
+        {
+          "axis": "transferReadiness",
+          "label": "Delivery and handover",
+          "grade": "T2",
+          "criterion": "Source, documentation, tests and licence evidence support bounded handover. Source-specific review and recipient acceptance remain separate."
+        }
+      ],
+      "sellerConditions": [
+        "Freeze the specifically agreed first-party edition, documents, rights and exclusions.",
+        "Reproduce representative recipient cases and review component, delivery and acceptance records.",
+        "Keep unsupported scientific conclusions and third-party works outside the transfer scope."
+      ],
+      "buyerConditions": [],
+      "qualificationObjectives": [
+        "Reproduce the stated bounded software and its explicit counterexamples.",
+        "Agree source-specific rights, delivery and recipient acceptance before transfer."
+      ],
+      "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
+      "componentEvidence": {
+        "dependencyManifestIdentified": false,
+        "dependencyLockIdentified": false,
+        "componentInventoryIdentified": false,
+        "licenceNoticesIdentified": true,
+        "thirdPartyDisclosureIdentified": true,
+        "securityDocumentationIdentified": false,
+        "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
+      },
+      "productDetails": [
+        {
+          "title": "Offered work and qualification",
+          "text": "An independent foundational-research archive with four analytical volumes and bounded modal-model checks for explanatory necessity, individual identity and grounding assumptions.",
+          "items": [
+            "Current local replay passes 57 R2/R3 tests. The R3 bounded enumeration covers 728 models, including 152 identity countermodels; the earlier R2 enumeration remains reproducible. These are finite, model-conditional results.",
+            "Crossworld identity uses stipulated labels, accessibility and varying-domain rules. Barcan-formula and grounding comparisons depend on those choices; they are not unrestricted theorems or evidence about physical existence.",
+            "The four volumes are research documents. Independent formal review, external empirical replication and discoveries about cosmic origins remain unestablished. R4 research and other portfolio assets are outside the offered scope."
           ]
         }
       ]

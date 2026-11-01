@@ -1,6 +1,6 @@
 {
   "schema": "public-pricing-1",
-  "basisDate": "2026-10-31",
+  "basisDate": "2026-11-01",
   "currency": "EUR",
   "statement": "Seller asking references and engineering-equivalent cost scenarios for the defined AS IS assets. Market value is not established. Selected cost estimates are seller assumptions, distinct from actual expenditure and an absolute minimum cost.",
   "fields": [
@@ -46,14 +46,14 @@
     }
   ],
   "portfolio": {
-    "sellerAskEUR": 24959000,
-    "negotiationLowEUR": 19937000,
-    "negotiationHighEUR": 31277875,
-    "replacementCostEUR": 106078500,
-    "marketComparableProxyEUR": 120279706,
-    "incomeLicensingProxyEUR": 141427639,
-    "probabilityAdjustedStrategicValueEUR": 131922884,
-    "triangulatedEconomicReferenceEUR": 125034105
+    "sellerAskEUR": 25021500,
+    "negotiationLowEUR": 19987500,
+    "negotiationHighEUR": 31355875,
+    "replacementCostEUR": 106286500,
+    "marketComparableProxyEUR": 120360151,
+    "incomeLicensingProxyEUR": 141480680,
+    "probabilityAdjustedStrategicValueEUR": 131939323,
+    "triangulatedEconomicReferenceEUR": 125118557
   },
   "displayCurrency": {
     "base": "EUR",
@@ -80,7 +80,7 @@
       "url": "https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst",
       "finding": "Reported 2026 mean software-developer rate: EUR 94/hour excluding VAT; broader survey includes over 20,000 Dutch self-employed people.",
       "application": "External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.",
-      "checkedOn": "2026-10-31"
+      "checkedOn": "2026-11-01"
     },
     {
       "id": "UPWORK-RATES",
@@ -98,7 +98,7 @@
       "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
       "finding": "Retrieved dated observation: 30 October 2026, EUR 1 = USD 1.1172. Indicative display conversion only.",
       "application": "Indicative USD display conversion only; authoritative project references remain in EUR.",
-      "checkedOn": "2026-10-31"
+      "checkedOn": "2026-11-01"
     },
     {
       "id": "IVSC-STANDARDS",
@@ -247,17 +247,17 @@
     "calculationPolicy": "Recalculate the four cost-model outputs for each asset from the disclosed inputs. Apply Math.round to each non-negative whole-EUR scenario, then calculate and round the weighted blend from those rounded scenarios. Asking prices, negotiation bounds and recreation estimates are disclosed seller inputs, not independently validated market values. An unlisted sector or route retains the original neutral factor 1 and is explicitly identified in the calculation trace.",
     "factorCalibration": "All maturity, potential, marketability, commercialisation, rights reserve, sector and route factors are seller-selected scenario assumptions. Their numeric values are not independently calibrated success probabilities, transaction discounts or measured market observations.",
     "reassessment": {
-      "assessedOn": "2026-10-31",
-      "assetsReviewed": 116,
-      "basis": "116 individually identified software and research assets reconciled with their private source identities and stated offered editions. Public publication infrastructure and seller-excluded archives receive no separate asset IDs or monetary references.",
-      "runtimeBoundary": "Local offline software checks and retained source-specific evidence are assessed separately. Neural-research full-suite numerical portability, commerce staging, independent current-increment acceptance and physical-science findings remain asset-specific open conditions. Website checks do not establish independent legal, scientific, operational or production acceptance.",
+      "assessedOn": "2026-11-01",
+      "assetsReviewed": 119,
+      "basis": "119 independently identified private software and research assets, including three new projects and five existing source updates since the previous publication. 111 existing source versions are unchanged. Public repositories, publication infrastructure and the excluded literary archive are not assets.",
+      "runtimeBoundary": "Current local CPU replay and retained source-specific evidence are assessed separately. Independent current-increment acceptance, scientific observational admission, physical validation, neural-research numerical portability and commerce staging remain asset-specific conditions. Website checks do not certify the underlying products.",
       "budgetCoverage": {
         "PARTIAL_SCOPED_BUDGET": 39,
         "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN": 58,
-        "FULL_SCOPED_BUDGET": 19
+        "FULL_SCOPED_BUDGET": 22
       },
       "budgetCoverageBoundary": "Coverage describes the arithmetic and stated scope of seller budgets, not external price validation or whole-product production acceptance.",
-      "portfolioBoundary": "Portfolio figures sum 116 individual references. They are not an agreed package price and do not price shared replacement work, integration or buyer-specific synergies. Confirm the expressly agreed work and transfer perimeter before negotiation.",
+      "portfolioBoundary": "Portfolio figures sum 119 individual references. They are not an agreed package price; shared reproduction work, integration and buyer-specific synergies require a separate scope.",
       "developmentRecognition": "Implemented, bounded, non-overlapping work can receive an explicit incremental reproduction estimate. Renames, version numbers, elapsed days, pending proposals and additional test counts alone do not determine monetary value."
     }
   },
@@ -274,7 +274,7 @@
         "probabilityAdjustedStrategicValueEUR": 174104,
         "triangulatedEconomicReferenceEUR": 328128
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -353,7 +353,7 @@
         "triangulatedEconomicReferenceUSD": 366585
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.1.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -383,7 +383,7 @@
         "probabilityAdjustedStrategicValueEUR": 136177,
         "triangulatedEconomicReferenceEUR": 317621
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -491,7 +491,7 @@
         "triangulatedEconomicReferenceUSD": 354846
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "3.7.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -521,7 +521,7 @@
         "probabilityAdjustedStrategicValueEUR": 1061740,
         "triangulatedEconomicReferenceEUR": 999960
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -591,7 +591,7 @@
         "triangulatedEconomicReferenceUSD": 1117155
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "1.9.1",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -621,7 +621,7 @@
         "probabilityAdjustedStrategicValueEUR": 451070,
         "triangulatedEconomicReferenceEUR": 631475
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -653,7 +653,7 @@
         "triangulatedEconomicReferenceUSD": 705484
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "2.4.1",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -683,7 +683,7 @@
         "probabilityAdjustedStrategicValueEUR": 811390,
         "triangulatedEconomicReferenceEUR": 912119
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -762,7 +762,7 @@
         "triangulatedEconomicReferenceUSD": 1019019
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "6.3.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -792,7 +792,7 @@
         "probabilityAdjustedStrategicValueEUR": 547727,
         "triangulatedEconomicReferenceEUR": 912904
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -824,7 +824,7 @@
         "triangulatedEconomicReferenceUSD": 1019896
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "5.7.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -854,7 +854,7 @@
         "probabilityAdjustedStrategicValueEUR": 120067,
         "triangulatedEconomicReferenceEUR": 297218
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -967,7 +967,7 @@
         "triangulatedEconomicReferenceUSD": 332052
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "2.12.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -997,7 +997,7 @@
         "probabilityAdjustedStrategicValueEUR": 1276304,
         "triangulatedEconomicReferenceEUR": 1246706
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -1071,7 +1071,7 @@
         "triangulatedEconomicReferenceUSD": 1392820
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "Retained assessment-comparison build",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -1101,13 +1101,13 @@
         "probabilityAdjustedStrategicValueEUR": 645424,
         "triangulatedEconomicReferenceEUR": 734417
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.",
+      "costBasisNote": "The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance. Current candidate 0.6.0 adds synthetic pilot and recovery software; the retained anchor and asking reference are unchanged. No price premium is assigned to modeled RTO/RPO or unapproved deployment capabilities.",
       "costBudgets": [],
       "futureReference": {
         "milestoneConditionedEconomicReferenceEUR": 911176,
@@ -1138,8 +1138,8 @@
         "triangulatedEconomicReferenceUSD": 820491
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
-        "offeredEdition": "0.4.0",
+        "assessedOn": "2026-11-01",
+        "offeredEdition": "0.6.0 / synthetic pilot and executable recovery candidate",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
         "costEvidenceLabel": "Retained seller estimate; work breakdown required",
@@ -1168,7 +1168,7 @@
         "probabilityAdjustedStrategicValueEUR": 791889,
         "triangulatedEconomicReferenceEUR": 789686
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -1200,7 +1200,7 @@
         "triangulatedEconomicReferenceUSD": 882237
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "1.0.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -1230,7 +1230,7 @@
         "probabilityAdjustedStrategicValueEUR": 1093155,
         "triangulatedEconomicReferenceEUR": 1079367
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -1300,7 +1300,7 @@
         "triangulatedEconomicReferenceUSD": 1205869
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "4.4.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -1330,7 +1330,7 @@
         "probabilityAdjustedStrategicValueEUR": 3096673,
         "triangulatedEconomicReferenceEUR": 2272136
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -1404,7 +1404,7 @@
         "triangulatedEconomicReferenceUSD": 2538430
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "2.9.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -1434,7 +1434,7 @@
         "probabilityAdjustedStrategicValueEUR": 1327356,
         "triangulatedEconomicReferenceEUR": 1296575
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -1516,7 +1516,7 @@
         "triangulatedEconomicReferenceUSD": 1448534
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "5.8.0-alpha.1",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -1546,7 +1546,7 @@
         "probabilityAdjustedStrategicValueEUR": 1860662,
         "triangulatedEconomicReferenceEUR": 1379232
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -1578,7 +1578,7 @@
         "triangulatedEconomicReferenceUSD": 1540878
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "1.9.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -1608,7 +1608,7 @@
         "probabilityAdjustedStrategicValueEUR": 143936,
         "triangulatedEconomicReferenceEUR": 478028
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -1645,7 +1645,7 @@
         "triangulatedEconomicReferenceUSD": 534053
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "Delivery edition to be agreed",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -1675,7 +1675,7 @@
         "probabilityAdjustedStrategicValueEUR": 609145,
         "triangulatedEconomicReferenceEUR": 607451
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -1749,7 +1749,7 @@
         "triangulatedEconomicReferenceUSD": 678644
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "1.23.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -1779,7 +1779,7 @@
         "probabilityAdjustedStrategicValueEUR": 60961,
         "triangulatedEconomicReferenceEUR": 194776
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -1816,7 +1816,7 @@
         "triangulatedEconomicReferenceUSD": 217604
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "v8 Master",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -1846,7 +1846,7 @@
         "probabilityAdjustedStrategicValueEUR": 3322610,
         "triangulatedEconomicReferenceEUR": 2462914
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -1878,7 +1878,7 @@
         "triangulatedEconomicReferenceUSD": 2751568
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "Delivery edition to be agreed",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -1908,7 +1908,7 @@
         "probabilityAdjustedStrategicValueEUR": 4842372,
         "triangulatedEconomicReferenceEUR": 3651043
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -1978,7 +1978,7 @@
         "triangulatedEconomicReferenceUSD": 4078945
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "2.31.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -2008,7 +2008,7 @@
         "probabilityAdjustedStrategicValueEUR": 287898,
         "triangulatedEconomicReferenceEUR": 468569
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -2087,7 +2087,7 @@
         "triangulatedEconomicReferenceUSD": 523485
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.8.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -2117,7 +2117,7 @@
         "probabilityAdjustedStrategicValueEUR": 1257740,
         "triangulatedEconomicReferenceEUR": 1267843
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -2242,7 +2242,7 @@
         "triangulatedEconomicReferenceUSD": 1416434
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "3.30.0 scoped qualification / 3.31.0 development",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -2272,7 +2272,7 @@
         "probabilityAdjustedStrategicValueEUR": 3721323,
         "triangulatedEconomicReferenceEUR": 2730463
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -2386,7 +2386,7 @@
         "triangulatedEconomicReferenceUSD": 3050473
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.19.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -2416,7 +2416,7 @@
         "probabilityAdjustedStrategicValueEUR": 252672,
         "triangulatedEconomicReferenceEUR": 717115
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -2616,7 +2616,7 @@
         "triangulatedEconomicReferenceUSD": 801161
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "8.29.0 / implemented research extensions",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -2646,7 +2646,7 @@
         "probabilityAdjustedStrategicValueEUR": 243879,
         "triangulatedEconomicReferenceEUR": 396925
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -2734,7 +2734,7 @@
         "triangulatedEconomicReferenceUSD": 443445
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "V59 / package 0.4.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -2764,7 +2764,7 @@
         "probabilityAdjustedStrategicValueEUR": 970977,
         "triangulatedEconomicReferenceEUR": 968276
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -2834,7 +2834,7 @@
         "triangulatedEconomicReferenceUSD": 1081758
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "1.8.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -2864,7 +2864,7 @@
         "probabilityAdjustedStrategicValueEUR": 3828913,
         "triangulatedEconomicReferenceEUR": 3780620
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -2896,7 +2896,7 @@
         "triangulatedEconomicReferenceUSD": 4223709
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "3.8.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -2926,7 +2926,7 @@
         "probabilityAdjustedStrategicValueEUR": 2022362,
         "triangulatedEconomicReferenceEUR": 1904687
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -2996,7 +2996,7 @@
         "triangulatedEconomicReferenceUSD": 2127916
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.25.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -3026,7 +3026,7 @@
         "probabilityAdjustedStrategicValueEUR": 225386,
         "triangulatedEconomicReferenceEUR": 253367
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -3063,7 +3063,7 @@
         "triangulatedEconomicReferenceUSD": 283062
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "Delivery edition to be agreed",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -3093,7 +3093,7 @@
         "probabilityAdjustedStrategicValueEUR": 5074532,
         "triangulatedEconomicReferenceEUR": 3826086
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -3125,7 +3125,7 @@
         "triangulatedEconomicReferenceUSD": 4274503
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.24.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -3155,7 +3155,7 @@
         "probabilityAdjustedStrategicValueEUR": 892833,
         "triangulatedEconomicReferenceEUR": 899449
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -3225,7 +3225,7 @@
         "triangulatedEconomicReferenceUSD": 1004864
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "2.9.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -3255,7 +3255,7 @@
         "probabilityAdjustedStrategicValueEUR": 579947,
         "triangulatedEconomicReferenceEUR": 880981
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -3287,7 +3287,7 @@
         "triangulatedEconomicReferenceUSD": 984232
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.14.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -3317,7 +3317,7 @@
         "probabilityAdjustedStrategicValueEUR": 153622,
         "triangulatedEconomicReferenceEUR": 279870
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -3354,7 +3354,7 @@
         "triangulatedEconomicReferenceUSD": 312671
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.2.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -3384,7 +3384,7 @@
         "probabilityAdjustedStrategicValueEUR": 495849,
         "triangulatedEconomicReferenceEUR": 557406
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -3421,7 +3421,7 @@
         "triangulatedEconomicReferenceUSD": 622734
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.8.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -3451,7 +3451,7 @@
         "probabilityAdjustedStrategicValueEUR": 168984,
         "triangulatedEconomicReferenceEUR": 307857
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -3576,7 +3576,7 @@
         "triangulatedEconomicReferenceUSD": 343938
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.13.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -3606,7 +3606,7 @@
         "probabilityAdjustedStrategicValueEUR": 974632,
         "triangulatedEconomicReferenceEUR": 971921
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -3638,7 +3638,7 @@
         "triangulatedEconomicReferenceUSD": 1085830
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.3.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -3668,7 +3668,7 @@
         "probabilityAdjustedStrategicValueEUR": 405695,
         "triangulatedEconomicReferenceEUR": 456060
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -3705,7 +3705,7 @@
         "triangulatedEconomicReferenceUSD": 509510
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.50.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -3735,7 +3735,7 @@
         "probabilityAdjustedStrategicValueEUR": 166898,
         "triangulatedEconomicReferenceEUR": 271634
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -3772,7 +3772,7 @@
         "triangulatedEconomicReferenceUSD": 303470
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "18.3",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -3802,7 +3802,7 @@
         "probabilityAdjustedStrategicValueEUR": 3080966,
         "triangulatedEconomicReferenceEUR": 2315088
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -3876,7 +3876,7 @@
         "triangulatedEconomicReferenceUSD": 2586416
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.24.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -3906,7 +3906,7 @@
         "probabilityAdjustedStrategicValueEUR": 3044719,
         "triangulatedEconomicReferenceEUR": 2295652
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -3938,7 +3938,7 @@
         "triangulatedEconomicReferenceUSD": 2564702
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "40.0.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -3968,7 +3968,7 @@
         "probabilityAdjustedStrategicValueEUR": 1860662,
         "triangulatedEconomicReferenceEUR": 1379232
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -4000,7 +4000,7 @@
         "triangulatedEconomicReferenceUSD": 1540878
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "1.0.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -4030,7 +4030,7 @@
         "probabilityAdjustedStrategicValueEUR": 738795,
         "triangulatedEconomicReferenceEUR": 797201
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -4105,7 +4105,7 @@
         "triangulatedEconomicReferenceUSD": 890633
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.3.19",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -4135,7 +4135,7 @@
         "probabilityAdjustedStrategicValueEUR": 324072,
         "triangulatedEconomicReferenceEUR": 508185
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -4205,7 +4205,7 @@
         "triangulatedEconomicReferenceUSD": 567744
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.23.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -4235,7 +4235,7 @@
         "probabilityAdjustedStrategicValueEUR": 843231,
         "triangulatedEconomicReferenceEUR": 941511
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -4306,7 +4306,7 @@
         "triangulatedEconomicReferenceUSD": 1051856
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.0.23",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -4336,7 +4336,7 @@
         "probabilityAdjustedStrategicValueEUR": 3411213,
         "triangulatedEconomicReferenceEUR": 3401725
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -4368,7 +4368,7 @@
         "triangulatedEconomicReferenceUSD": 3800407
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "2.4.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -4398,7 +4398,7 @@
         "probabilityAdjustedStrategicValueEUR": 2525184,
         "triangulatedEconomicReferenceEUR": 1852814
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -4430,7 +4430,7 @@
         "triangulatedEconomicReferenceUSD": 2069964
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "1.0.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -4460,7 +4460,7 @@
         "probabilityAdjustedStrategicValueEUR": 4349599,
         "triangulatedEconomicReferenceEUR": 3304360
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -4492,7 +4492,7 @@
         "triangulatedEconomicReferenceUSD": 3691631
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.2.0a33",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -4522,7 +4522,7 @@
         "probabilityAdjustedStrategicValueEUR": 540927,
         "triangulatedEconomicReferenceEUR": 608079
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -4559,7 +4559,7 @@
         "triangulatedEconomicReferenceUSD": 679346
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "1.8.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -4589,7 +4589,7 @@
         "probabilityAdjustedStrategicValueEUR": 1392332,
         "triangulatedEconomicReferenceEUR": 1419716
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -4621,7 +4621,7 @@
         "triangulatedEconomicReferenceUSD": 1586107
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "1.1.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -4651,7 +4651,7 @@
         "probabilityAdjustedStrategicValueEUR": 1751926,
         "triangulatedEconomicReferenceEUR": 1456512
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -4731,7 +4731,7 @@
         "triangulatedEconomicReferenceUSD": 1627215
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "1.4.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -4761,7 +4761,7 @@
         "probabilityAdjustedStrategicValueEUR": 779706,
         "triangulatedEconomicReferenceEUR": 795041
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -4840,7 +4840,7 @@
         "triangulatedEconomicReferenceUSD": 888220
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "Phase 2B.2A / PostgreSQL qualification harness",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -4870,7 +4870,7 @@
         "probabilityAdjustedStrategicValueEUR": 709119,
         "triangulatedEconomicReferenceEUR": 969692
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -4940,7 +4940,7 @@
         "triangulatedEconomicReferenceUSD": 1083340
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.9.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -4970,7 +4970,7 @@
         "probabilityAdjustedStrategicValueEUR": 224144,
         "triangulatedEconomicReferenceEUR": 508550
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5002,7 +5002,7 @@
         "triangulatedEconomicReferenceUSD": 568152
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "35.0.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -5032,7 +5032,7 @@
         "probabilityAdjustedStrategicValueEUR": 2385413,
         "triangulatedEconomicReferenceEUR": 2355326
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5115,7 +5115,7 @@
         "triangulatedEconomicReferenceUSD": 2631370
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "2.1.0 / engineering release",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -5145,7 +5145,7 @@
         "probabilityAdjustedStrategicValueEUR": 2192923,
         "triangulatedEconomicReferenceEUR": 2186823
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5177,7 +5177,7 @@
         "triangulatedEconomicReferenceUSD": 2443119
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.10.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -5207,7 +5207,7 @@
         "probabilityAdjustedStrategicValueEUR": 6041109,
         "triangulatedEconomicReferenceEUR": 4539388
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5239,7 +5239,7 @@
         "triangulatedEconomicReferenceUSD": 5071404
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.9.11",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -5269,7 +5269,7 @@
         "probabilityAdjustedStrategicValueEUR": 559367,
         "triangulatedEconomicReferenceEUR": 643076
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5306,7 +5306,7 @@
         "triangulatedEconomicReferenceUSD": 718445
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.2.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -5336,7 +5336,7 @@
         "probabilityAdjustedStrategicValueEUR": 935005,
         "triangulatedEconomicReferenceEUR": 1762172
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5373,7 +5373,7 @@
         "triangulatedEconomicReferenceUSD": 1968699
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.46.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -5403,7 +5403,7 @@
         "probabilityAdjustedStrategicValueEUR": 82975,
         "triangulatedEconomicReferenceEUR": 426309
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5440,7 +5440,7 @@
         "triangulatedEconomicReferenceUSD": 476272
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.16.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -5470,7 +5470,7 @@
         "probabilityAdjustedStrategicValueEUR": 2537266,
         "triangulatedEconomicReferenceEUR": 1893043
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5502,7 +5502,7 @@
         "triangulatedEconomicReferenceUSD": 2114908
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.2.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -5532,7 +5532,7 @@
         "probabilityAdjustedStrategicValueEUR": 491752,
         "triangulatedEconomicReferenceEUR": 566988
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5569,7 +5569,7 @@
         "triangulatedEconomicReferenceUSD": 633439
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.1.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -5599,7 +5599,7 @@
         "probabilityAdjustedStrategicValueEUR": 352398,
         "triangulatedEconomicReferenceEUR": 527089
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5631,7 +5631,7 @@
         "triangulatedEconomicReferenceUSD": 588864
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.8.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -5661,7 +5661,7 @@
         "probabilityAdjustedStrategicValueEUR": 609145,
         "triangulatedEconomicReferenceEUR": 614201
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5693,7 +5693,7 @@
         "triangulatedEconomicReferenceUSD": 686185
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.5.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -5723,7 +5723,7 @@
         "probabilityAdjustedStrategicValueEUR": 1035547,
         "triangulatedEconomicReferenceEUR": 1044141
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5755,7 +5755,7 @@
         "triangulatedEconomicReferenceUSD": 1166514
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.4.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -5785,7 +5785,7 @@
         "probabilityAdjustedStrategicValueEUR": 643455,
         "triangulatedEconomicReferenceEUR": 913169
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5822,7 +5822,7 @@
         "triangulatedEconomicReferenceUSD": 1020192
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "1.52.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -5852,7 +5852,7 @@
         "probabilityAdjustedStrategicValueEUR": 1455857,
         "triangulatedEconomicReferenceEUR": 1451808
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5899,7 +5899,7 @@
         "triangulatedEconomicReferenceUSD": 1621960
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.6.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -5929,7 +5929,7 @@
         "probabilityAdjustedStrategicValueEUR": 626983,
         "triangulatedEconomicReferenceEUR": 748914
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -5966,7 +5966,7 @@
         "triangulatedEconomicReferenceUSD": 836687
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.7.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -5996,7 +5996,7 @@
         "probabilityAdjustedStrategicValueEUR": 172723,
         "triangulatedEconomicReferenceEUR": 573633
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -6033,7 +6033,7 @@
         "triangulatedEconomicReferenceUSD": 640863
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.15.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -6063,7 +6063,7 @@
         "probabilityAdjustedStrategicValueEUR": 1553285,
         "triangulatedEconomicReferenceEUR": 1289850
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -6143,7 +6143,7 @@
         "triangulatedEconomicReferenceUSD": 1441020
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.5.1",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -6173,7 +6173,7 @@
         "probabilityAdjustedStrategicValueEUR": 2088498,
         "triangulatedEconomicReferenceEUR": 2105274
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -6205,7 +6205,7 @@
         "triangulatedEconomicReferenceUSD": 2352012
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.14.2",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -6235,7 +6235,7 @@
         "probabilityAdjustedStrategicValueEUR": 1097622,
         "triangulatedEconomicReferenceEUR": 1014118
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -6305,7 +6305,7 @@
         "triangulatedEconomicReferenceUSD": 1132973
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.4.6 / BICA 4.6",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -6335,7 +6335,7 @@
         "probabilityAdjustedStrategicValueEUR": 1961448,
         "triangulatedEconomicReferenceEUR": 1955992
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -6405,7 +6405,7 @@
         "triangulatedEconomicReferenceUSD": 2185234
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "61.0.0 / analysis engine 56.0.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -6435,7 +6435,7 @@
         "probabilityAdjustedStrategicValueEUR": 1282106,
         "triangulatedEconomicReferenceEUR": 1326237
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -6467,7 +6467,7 @@
         "triangulatedEconomicReferenceUSD": 1481672
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "7.17.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -6497,7 +6497,7 @@
         "probabilityAdjustedStrategicValueEUR": 9303308,
         "triangulatedEconomicReferenceEUR": 6476158
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -6529,7 +6529,7 @@
         "triangulatedEconomicReferenceUSD": 7235164
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.11.1",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -6559,7 +6559,7 @@
         "probabilityAdjustedStrategicValueEUR": 47414,
         "triangulatedEconomicReferenceEUR": 243605
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -6596,7 +6596,7 @@
         "triangulatedEconomicReferenceUSD": 272156
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.23.0.dev0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -6626,7 +6626,7 @@
         "probabilityAdjustedStrategicValueEUR": 209570,
         "triangulatedEconomicReferenceEUR": 394970
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -6663,7 +6663,7 @@
         "triangulatedEconomicReferenceUSD": 441260
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.2.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -6693,7 +6693,7 @@
         "probabilityAdjustedStrategicValueEUR": 901545,
         "triangulatedEconomicReferenceEUR": 952716
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -6730,7 +6730,7 @@
         "triangulatedEconomicReferenceUSD": 1064374
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.5.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -6760,7 +6760,7 @@
         "probabilityAdjustedStrategicValueEUR": 3389197,
         "triangulatedEconomicReferenceEUR": 3505857
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -7023,7 +7023,7 @@
         "triangulatedEconomicReferenceUSD": 3916743
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "2.9.15 / qualified CPU software scope",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -7053,7 +7053,7 @@
         "probabilityAdjustedStrategicValueEUR": 870810,
         "triangulatedEconomicReferenceEUR": 1040159
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -7090,7 +7090,7 @@
         "triangulatedEconomicReferenceUSD": 1162066
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.13.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -7120,7 +7120,7 @@
         "probabilityAdjustedStrategicValueEUR": 2132008,
         "triangulatedEconomicReferenceEUR": 2126078
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -7152,7 +7152,7 @@
         "triangulatedEconomicReferenceUSD": 2375254
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "2.9.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -7182,7 +7182,7 @@
         "probabilityAdjustedStrategicValueEUR": 1253099,
         "triangulatedEconomicReferenceEUR": 1262385
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -7226,7 +7226,7 @@
         "triangulatedEconomicReferenceUSD": 1410337
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "2.0.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -7256,7 +7256,7 @@
         "probabilityAdjustedStrategicValueEUR": 1116766,
         "triangulatedEconomicReferenceEUR": 1102681
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -7330,7 +7330,7 @@
         "triangulatedEconomicReferenceUSD": 1231915
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.7.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -7360,7 +7360,7 @@
         "probabilityAdjustedStrategicValueEUR": 2346996,
         "triangulatedEconomicReferenceEUR": 1915824
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -7439,7 +7439,7 @@
         "triangulatedEconomicReferenceUSD": 2140359
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.11.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -7469,7 +7469,7 @@
         "probabilityAdjustedStrategicValueEUR": 1044439,
         "triangulatedEconomicReferenceEUR": 1174100
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -7549,7 +7549,7 @@
         "triangulatedEconomicReferenceUSD": 1311705
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.1.0 / RC1",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -7579,7 +7579,7 @@
         "probabilityAdjustedStrategicValueEUR": 3132747,
         "triangulatedEconomicReferenceEUR": 3194361
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -7611,7 +7611,7 @@
         "triangulatedEconomicReferenceUSD": 3568740
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "1.0.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -7641,7 +7641,7 @@
         "probabilityAdjustedStrategicValueEUR": 368814,
         "triangulatedEconomicReferenceEUR": 425241
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -7678,7 +7678,7 @@
         "triangulatedEconomicReferenceUSD": 475079
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "Delivery edition to be agreed",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -7708,7 +7708,7 @@
         "probabilityAdjustedStrategicValueEUR": 3063130,
         "triangulatedEconomicReferenceEUR": 3024496
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -7740,7 +7740,7 @@
         "triangulatedEconomicReferenceUSD": 3378967
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.7.6.dev0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -7770,7 +7770,7 @@
         "probabilityAdjustedStrategicValueEUR": 860565,
         "triangulatedEconomicReferenceEUR": 928598
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -7807,7 +7807,7 @@
         "triangulatedEconomicReferenceUSD": 1037430
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.1.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -7837,7 +7837,7 @@
         "probabilityAdjustedStrategicValueEUR": 479458,
         "triangulatedEconomicReferenceEUR": 556559
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -7874,7 +7874,7 @@
         "triangulatedEconomicReferenceUSD": 621788
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.1.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -7904,7 +7904,7 @@
         "probabilityAdjustedStrategicValueEUR": 153622,
         "triangulatedEconomicReferenceEUR": 279870
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -7941,7 +7941,7 @@
         "triangulatedEconomicReferenceUSD": 312671
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.1.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -7971,7 +7971,7 @@
         "probabilityAdjustedStrategicValueEUR": 153622,
         "triangulatedEconomicReferenceEUR": 279870
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -8008,7 +8008,7 @@
         "triangulatedEconomicReferenceUSD": 312671
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.1.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -8038,7 +8038,7 @@
         "probabilityAdjustedStrategicValueEUR": 721236,
         "triangulatedEconomicReferenceEUR": 810773
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -8075,7 +8075,7 @@
         "triangulatedEconomicReferenceUSD": 905796
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.1.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -8105,7 +8105,7 @@
         "probabilityAdjustedStrategicValueEUR": 237680,
         "triangulatedEconomicReferenceEUR": 274044
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -8154,7 +8154,7 @@
         "triangulatedEconomicReferenceUSD": 306162
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.12.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -8184,7 +8184,7 @@
         "probabilityAdjustedStrategicValueEUR": 774509,
         "triangulatedEconomicReferenceEUR": 899057
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -8233,7 +8233,7 @@
         "triangulatedEconomicReferenceUSD": 1004426
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.5.6.dev0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "FULL_SCOPED_BUDGET",
@@ -8263,7 +8263,7 @@
         "probabilityAdjustedStrategicValueEUR": 928221,
         "triangulatedEconomicReferenceEUR": 946477
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -8308,7 +8308,7 @@
         "triangulatedEconomicReferenceUSD": 1057404
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "v13 established product",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "FULL_SCOPED_BUDGET",
@@ -8338,7 +8338,7 @@
         "probabilityAdjustedStrategicValueEUR": 18150,
         "triangulatedEconomicReferenceEUR": 31302
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -8462,7 +8462,7 @@
         "triangulatedEconomicReferenceUSD": 34971
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "R4 / package 0.2.0.dev1",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "FULL_SCOPED_BUDGET",
@@ -8492,7 +8492,7 @@
         "probabilityAdjustedStrategicValueEUR": 84833,
         "triangulatedEconomicReferenceEUR": 141602
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -8747,7 +8747,7 @@
         "triangulatedEconomicReferenceUSD": 158198
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.7.0 / Q2-C6 research development",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "FULL_SCOPED_BUDGET",
@@ -8777,7 +8777,7 @@
         "probabilityAdjustedStrategicValueEUR": 104311,
         "triangulatedEconomicReferenceEUR": 179896
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -8855,7 +8855,7 @@
         "triangulatedEconomicReferenceUSD": 200980
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "v0.1.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "FULL_SCOPED_BUDGET",
@@ -8885,7 +8885,7 @@
         "probabilityAdjustedStrategicValueEUR": 17069,
         "triangulatedEconomicReferenceEUR": 31097
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -8952,7 +8952,7 @@
         "triangulatedEconomicReferenceUSD": 34742
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "v0.1.0.dev0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "FULL_SCOPED_BUDGET",
@@ -8982,7 +8982,7 @@
         "probabilityAdjustedStrategicValueEUR": 83449,
         "triangulatedEconomicReferenceEUR": 135817
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -9069,7 +9069,7 @@
         "triangulatedEconomicReferenceUSD": 151735
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "v0.4.0.dev0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "FULL_SCOPED_BUDGET",
@@ -9099,7 +9099,7 @@
         "probabilityAdjustedStrategicValueEUR": 45518,
         "triangulatedEconomicReferenceEUR": 81301
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -9151,7 +9151,7 @@
         "triangulatedEconomicReferenceUSD": 90829
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.9.8",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
@@ -9181,7 +9181,7 @@
         "probabilityAdjustedStrategicValueEUR": 35466,
         "triangulatedEconomicReferenceEUR": 66841
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -9218,7 +9218,7 @@
         "triangulatedEconomicReferenceUSD": 74675
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.4.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -9248,7 +9248,7 @@
         "probabilityAdjustedStrategicValueEUR": 37552,
         "triangulatedEconomicReferenceEUR": 64763
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -9285,7 +9285,7 @@
         "triangulatedEconomicReferenceUSD": 72353
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.4.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -9315,7 +9315,7 @@
         "probabilityAdjustedStrategicValueEUR": 30345,
         "triangulatedEconomicReferenceEUR": 54201
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -9352,7 +9352,7 @@
         "triangulatedEconomicReferenceUSD": 60553
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.3.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -9382,7 +9382,7 @@
         "probabilityAdjustedStrategicValueEUR": 22948,
         "triangulatedEconomicReferenceEUR": 39577
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -9419,7 +9419,7 @@
         "triangulatedEconomicReferenceUSD": 44215
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.1.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
@@ -9449,7 +9449,7 @@
         "probabilityAdjustedStrategicValueEUR": 26552,
         "triangulatedEconomicReferenceEUR": 47426
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -9546,7 +9546,7 @@
         "triangulatedEconomicReferenceUSD": 52984
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.1.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "FULL_SCOPED_BUDGET",
@@ -9576,7 +9576,7 @@
         "probabilityAdjustedStrategicValueEUR": 7017,
         "triangulatedEconomicReferenceEUR": 12659
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -9684,7 +9684,7 @@
         "triangulatedEconomicReferenceUSD": 14143
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.2.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "FULL_SCOPED_BUDGET",
@@ -9714,7 +9714,7 @@
         "probabilityAdjustedStrategicValueEUR": 11000,
         "triangulatedEconomicReferenceEUR": 19648
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -9823,7 +9823,7 @@
         "triangulatedEconomicReferenceUSD": 21951
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.4.0 / R3 development alpha",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "FULL_SCOPED_BUDGET",
@@ -9853,7 +9853,7 @@
         "probabilityAdjustedStrategicValueEUR": 21810,
         "triangulatedEconomicReferenceEUR": 39345
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -10045,7 +10045,7 @@
         "triangulatedEconomicReferenceUSD": 43956
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.8.0 / R7",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "FULL_SCOPED_BUDGET",
@@ -10075,7 +10075,7 @@
         "probabilityAdjustedStrategicValueEUR": 54242,
         "triangulatedEconomicReferenceEUR": 96884
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -10265,7 +10265,7 @@
         "triangulatedEconomicReferenceUSD": 108239
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "R5.41 prelaunch",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "FULL_SCOPED_BUDGET",
@@ -10295,7 +10295,7 @@
         "probabilityAdjustedStrategicValueEUR": 3912,
         "triangulatedEconomicReferenceEUR": 20098
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -10419,7 +10419,7 @@
         "triangulatedEconomicReferenceUSD": 22453
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.18.0",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "FULL_SCOPED_BUDGET",
@@ -10449,7 +10449,7 @@
         "probabilityAdjustedStrategicValueEUR": 25414,
         "triangulatedEconomicReferenceEUR": 44941
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -10541,7 +10541,7 @@
         "triangulatedEconomicReferenceUSD": 50208
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "1.28.0 / native research scope",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "FULL_SCOPED_BUDGET",
@@ -10562,22 +10562,22 @@
     {
       "ref": "TA-IP-112",
       "values": {
-        "sellerAskEUR": 10500,
-        "negotiationLowEUR": 8500,
-        "negotiationHighEUR": 13000,
-        "replacementCostEUR": 34500,
-        "marketComparableProxyEUR": 13343,
-        "incomeLicensingProxyEUR": 8798,
-        "probabilityAdjustedStrategicValueEUR": 2726,
-        "triangulatedEconomicReferenceEUR": 14007
+        "sellerAskEUR": 16500,
+        "negotiationLowEUR": 13000,
+        "negotiationHighEUR": 20000,
+        "replacementCostEUR": 53500,
+        "marketComparableProxyEUR": 20691,
+        "incomeLicensingProxyEUR": 13643,
+        "probabilityAdjustedStrategicValueEUR": 4228,
+        "triangulatedEconomicReferenceEUR": 21722
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The recreation estimate adopts the lowest expressly scoped seller effort scenario. It is not recorded expenditure, an absolute minimum, an independent quote or established market value. Only the specifically agreed first-party numerical-reference, synthetic experiment, assurance and record-contract software and documentation are priced. Other portfolio assets, empirical data rights, physical discoveries, a validated new theory, future R2 modules and production qualification are excluded.",
+      "costBasisNote": "The retained priced scope and successive non-overlapping budgets reconcile below. Equivalent effort and historical anchors are seller assumptions, not actual expenditure, independent quotations or market value. Previously priced numerical-reference, synthetic geometry and record-assurance foundations are retained once. The increment covers only implemented dataset-governance and table-format software. Other portfolio projects, original observational data rights, authenticated scientific ingestion, novel physics, future modules and production operations are excluded.",
       "costBudgets": [
         {
           "kind": "Scoped implementation reproduction budget",
@@ -10628,6 +10628,52 @@
           "adoptedRecreationIncrementEUR": 34500,
           "previousRecreationCostEUR": 0,
           "currentRecreationCostEUR": 34500
+        },
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "economicAssessmentAt": "2026-11-01",
+          "scope": "Dataset provenance and local asset-integrity contracts; Uncertainty, covariance and partition validation; Metadata registry and command-line governance; Bounded astronomical table-format reader; Adversarial regression and scope documentation.",
+          "workPackages": [
+            {
+              "scope": "Dataset provenance and local asset-integrity contracts",
+              "lowEffortHours": 40
+            },
+            {
+              "scope": "Uncertainty, covariance and partition validation",
+              "lowEffortHours": 48
+            },
+            {
+              "scope": "Metadata registry and command-line governance",
+              "lowEffortHours": 32
+            },
+            {
+              "scope": "Bounded astronomical table-format reader",
+              "lowEffortHours": 24
+            },
+            {
+              "scope": "Adversarial regression and scope documentation",
+              "lowEffortHours": 32
+            }
+          ],
+          "assumedHours": 176,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 16544,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 19025.6,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 176,
+            "referenceHours": 264,
+            "extendedHours": 352,
+            "lowCostEUR": 19025.6,
+            "referenceCostEUR": 28538.4,
+            "extendedCostEUR": 38051.2
+          },
+          "boundary": "Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. Previously priced numerical-reference, synthetic geometry and record-assurance foundations are retained once. The increment covers only implemented dataset-governance and table-format software. Other portfolio projects, original observational data rights, authenticated scientific ingestion, novel physics, future modules and production operations are excluded.",
+          "adoptedRecreationIncrementEUR": 19000,
+          "previousRecreationCostEUR": 34500,
+          "currentRecreationCostEUR": 53500
         }
       ],
       "futureReference": {
@@ -10645,18 +10691,18 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 11731,
-        "negotiationLowUSD": 9496,
-        "negotiationHighUSD": 14524,
-        "replacementCostUSD": 38543,
-        "marketComparableProxyUSD": 14907,
-        "incomeLicensingProxyUSD": 9829,
-        "probabilityAdjustedStrategicValueUSD": 3045,
-        "triangulatedEconomicReferenceUSD": 15649
+        "sellerAskUSD": 18434,
+        "negotiationLowUSD": 14524,
+        "negotiationHighUSD": 22344,
+        "replacementCostUSD": 59770,
+        "marketComparableProxyUSD": 23116,
+        "incomeLicensingProxyUSD": 15242,
+        "probabilityAdjustedStrategicValueUSD": 4724,
+        "triangulatedEconomicReferenceUSD": 24268
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
-        "offeredEdition": "0.2.1 / R1.1 numerical and record assurance",
+        "assessedOn": "2026-11-01",
+        "offeredEdition": "0.3.1 / R2A observational-source parser and governance",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "FULL_SCOPED_BUDGET",
         "costEvidenceLabel": "Stated scope reconciled to explicit budgets",
@@ -10676,22 +10722,22 @@
     {
       "ref": "TA-IP-113",
       "values": {
-        "sellerAskEUR": 10500,
-        "negotiationLowEUR": 8500,
-        "negotiationHighEUR": 13000,
-        "replacementCostEUR": 34500,
-        "marketComparableProxyEUR": 13343,
-        "incomeLicensingProxyEUR": 8798,
-        "probabilityAdjustedStrategicValueEUR": 2726,
-        "triangulatedEconomicReferenceEUR": 14007
+        "sellerAskEUR": 14000,
+        "negotiationLowEUR": 11000,
+        "negotiationHighEUR": 17000,
+        "replacementCostEUR": 45500,
+        "marketComparableProxyEUR": 17597,
+        "incomeLicensingProxyEUR": 11603,
+        "probabilityAdjustedStrategicValueEUR": 3596,
+        "triangulatedEconomicReferenceEUR": 18474
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The recreation estimate adopts the lowest expressly scoped seller effort scenario. It is not recorded expenditure, an absolute minimum, an independent quote or established market value. Only the agreed first-party study, custody and research-screening work is priced. Other portfolio assets, physical devices, independently witnessed chronology, experimental breakthroughs, third-party works and future programmes are excluded.",
+      "costBasisNote": "The retained priced scope and successive non-overlapping budgets reconcile below. Equivalent effort and historical anchors are seller assumptions, not actual expenditure, independent quotations or market value. Previously priced binary-study, custody-v3 and research-screening foundations are retained once. The increment covers file verification, streaming and atomic publication assurance only. Speculative physical mechanisms, a time-travel result, independent witness services, hardware and future experiments receive no monetary premium.",
       "costBudgets": [
         {
           "kind": "Scoped implementation reproduction budget",
@@ -10738,6 +10784,52 @@
           "adoptedRecreationIncrementEUR": 34500,
           "previousRecreationCostEUR": 0,
           "currentRecreationCostEUR": 34500
+        },
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "economicAssessmentAt": "2026-11-01",
+          "scope": "Local artifact-byte and order verification; Bounded-memory streaming custody append; Exclusive atomic complete-file publication; Failure, race and integrity regression qualification; Software scope and research-decision documentation.",
+          "workPackages": [
+            {
+              "scope": "Local artifact-byte and order verification",
+              "lowEffortHours": 24
+            },
+            {
+              "scope": "Bounded-memory streaming custody append",
+              "lowEffortHours": 16
+            },
+            {
+              "scope": "Exclusive atomic complete-file publication",
+              "lowEffortHours": 24
+            },
+            {
+              "scope": "Failure, race and integrity regression qualification",
+              "lowEffortHours": 24
+            },
+            {
+              "scope": "Software scope and research-decision documentation",
+              "lowEffortHours": 16
+            }
+          ],
+          "assumedHours": 104,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 9776,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 11242.4,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 104,
+            "referenceHours": 156,
+            "extendedHours": 208,
+            "lowCostEUR": 11242.4,
+            "referenceCostEUR": 16863.6,
+            "extendedCostEUR": 22484.8
+          },
+          "boundary": "Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. Previously priced binary-study, custody-v3 and research-screening foundations are retained once. The increment covers file verification, streaming and atomic publication assurance only. Speculative physical mechanisms, a time-travel result, independent witness services, hardware and future experiments receive no monetary premium.",
+          "adoptedRecreationIncrementEUR": 11000,
+          "previousRecreationCostEUR": 34500,
+          "currentRecreationCostEUR": 45500
         }
       ],
       "futureReference": {
@@ -10755,18 +10847,18 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 11731,
-        "negotiationLowUSD": 9496,
-        "negotiationHighUSD": 14524,
-        "replacementCostUSD": 38543,
-        "marketComparableProxyUSD": 14907,
-        "incomeLicensingProxyUSD": 9829,
-        "probabilityAdjustedStrategicValueUSD": 3045,
-        "triangulatedEconomicReferenceUSD": 15649
+        "sellerAskUSD": 15641,
+        "negotiationLowUSD": 12289,
+        "negotiationHighUSD": 18992,
+        "replacementCostUSD": 50833,
+        "marketComparableProxyUSD": 19659,
+        "incomeLicensingProxyUSD": 12963,
+        "probabilityAdjustedStrategicValueUSD": 4017,
+        "triangulatedEconomicReferenceUSD": 20639
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
-        "offeredEdition": "0.1.0 / custody v3 and research screening",
+        "assessedOn": "2026-11-01",
+        "offeredEdition": "0.1.0 / custody v3 and CR-OPEN-16 research review",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "FULL_SCOPED_BUDGET",
         "costEvidenceLabel": "Stated scope reconciled to explicit budgets",
@@ -10786,22 +10878,22 @@
     {
       "ref": "TA-IP-114",
       "values": {
-        "sellerAskEUR": 16000,
-        "negotiationLowEUR": 13000,
-        "negotiationHighEUR": 20000,
-        "replacementCostEUR": 53500,
-        "marketComparableProxyEUR": 20691,
-        "incomeLicensingProxyEUR": 13643,
-        "probabilityAdjustedStrategicValueEUR": 4228,
-        "triangulatedEconomicReferenceEUR": 21722
+        "sellerAskEUR": 27000,
+        "negotiationLowEUR": 22000,
+        "negotiationHighEUR": 34000,
+        "replacementCostEUR": 90500,
+        "marketComparableProxyEUR": 35001,
+        "incomeLicensingProxyEUR": 23078,
+        "probabilityAdjustedStrategicValueEUR": 7152,
+        "triangulatedEconomicReferenceEUR": 36744
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The recreation estimate adopts the lowest expressly scoped seller effort scenario. It is not recorded expenditure, an absolute minimum, an independent quote or established market value. Only the agreed first-party numerical, synthetic research and catalogue-screening work is priced. Other assets, observational data rights, accepted survey inference, physical discoveries, hosted services and future programmes are excluded.",
+      "costBasisNote": "The retained priced scope and successive non-overlapping budgets reconcile below. Equivalent effort and historical anchors are seller assumptions, not actual expenditure, independent quotations or market value. Previously priced correlation, covariance and sampled-FITS foundations are retained once. Only the added full-row scanner, fiducial geometry, selected sky pipeline and anisotropic reference software are included. Survey-data rights, accepted observations, physical discoveries, full-survey deployment and future research are excluded.",
       "costBudgets": [
         {
           "kind": "Scoped implementation reproduction budget",
@@ -10852,6 +10944,56 @@
           "adoptedRecreationIncrementEUR": 53500,
           "previousRecreationCostEUR": 0,
           "currentRecreationCostEUR": 53500
+        },
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "economicAssessmentAt": "2026-11-01",
+          "scope": "Complete bounded FITS row scanner and rejection controls; Fiducial distance and sky-coordinate geometry; Selected sky-catalogue to weighted-clustering pipeline; Exact anisotropic pair counts and multipole references; Independent numerical oracles and negative fixtures; Integrated native qualification and scope documentation.",
+          "workPackages": [
+            {
+              "scope": "Complete bounded FITS row scanner and rejection controls",
+              "lowEffortHours": 56
+            },
+            {
+              "scope": "Fiducial distance and sky-coordinate geometry",
+              "lowEffortHours": 48
+            },
+            {
+              "scope": "Selected sky-catalogue to weighted-clustering pipeline",
+              "lowEffortHours": 64
+            },
+            {
+              "scope": "Exact anisotropic pair counts and multipole references",
+              "lowEffortHours": 80
+            },
+            {
+              "scope": "Independent numerical oracles and negative fixtures",
+              "lowEffortHours": 64
+            },
+            {
+              "scope": "Integrated native qualification and scope documentation",
+              "lowEffortHours": 32
+            }
+          ],
+          "assumedHours": 344,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 32336,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 37186.4,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 344,
+            "referenceHours": 516,
+            "extendedHours": 688,
+            "lowCostEUR": 37186.4,
+            "referenceCostEUR": 55779.6,
+            "extendedCostEUR": 74372.8
+          },
+          "boundary": "Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. Previously priced correlation, covariance and sampled-FITS foundations are retained once. Only the added full-row scanner, fiducial geometry, selected sky pipeline and anisotropic reference software are included. Survey-data rights, accepted observations, physical discoveries, full-survey deployment and future research are excluded.",
+          "adoptedRecreationIncrementEUR": 37000,
+          "previousRecreationCostEUR": 53500,
+          "currentRecreationCostEUR": 90500
         }
       ],
       "futureReference": {
@@ -10869,18 +11011,18 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 17875,
-        "negotiationLowUSD": 14524,
-        "negotiationHighUSD": 22344,
-        "replacementCostUSD": 59770,
-        "marketComparableProxyUSD": 23116,
-        "incomeLicensingProxyUSD": 15242,
-        "probabilityAdjustedStrategicValueUSD": 4724,
-        "triangulatedEconomicReferenceUSD": 24268
+        "sellerAskUSD": 30164,
+        "negotiationLowUSD": 24578,
+        "negotiationHighUSD": 37985,
+        "replacementCostUSD": 101107,
+        "marketComparableProxyUSD": 39103,
+        "incomeLicensingProxyUSD": 25783,
+        "probabilityAdjustedStrategicValueUSD": 7990,
+        "triangulatedEconomicReferenceUSD": 41050
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
-        "offeredEdition": "Python 0.1.0 / native 0.7.0 / S6 FITS sampler",
+        "assessedOn": "2026-11-01",
+        "offeredEdition": "Python 0.1.0 / native 0.10.0 / S10 anisotropic reference",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "FULL_SCOPED_BUDGET",
         "costEvidenceLabel": "Stated scope reconciled to explicit budgets",
@@ -10909,7 +11051,7 @@
         "probabilityAdjustedStrategicValueEUR": 13086,
         "triangulatedEconomicReferenceEUR": 23840
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
@@ -10989,7 +11131,7 @@
         "triangulatedEconomicReferenceUSD": 26634
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
+        "assessedOn": "2026-11-01",
         "offeredEdition": "0.2.0 / Template Commerce Engine",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "FULL_SCOPED_BUDGET",
@@ -11010,22 +11152,22 @@
     {
       "ref": "TA-IP-116",
       "values": {
-        "sellerAskEUR": 13000,
-        "negotiationLowEUR": 10500,
-        "negotiationHighEUR": 16000,
-        "replacementCostEUR": 43000,
-        "marketComparableProxyEUR": 16630,
-        "incomeLicensingProxyEUR": 10965,
-        "probabilityAdjustedStrategicValueEUR": 3398,
-        "triangulatedEconomicReferenceEUR": 17458
+        "sellerAskEUR": 22500,
+        "negotiationLowEUR": 18000,
+        "negotiationHighEUR": 27500,
+        "replacementCostEUR": 74500,
+        "marketComparableProxyEUR": 28813,
+        "incomeLicensingProxyEUR": 18998,
+        "probabilityAdjustedStrategicValueEUR": 5887,
+        "triangulatedEconomicReferenceEUR": 30248
       },
-      "basisDate": "2026-10-31",
+      "basisDate": "2026-11-01",
       "sourceIds": [
         "WIPO-COST",
         "KNAB-2026",
         "UPWORK-RATES"
       ],
-      "costBasisNote": "The recreation estimate adopts the lowest expressly scoped seller effort scenario. It is not recorded expenditure, an absolute minimum, an independent quote or established market value. Only the agreed first-party fluid models, energy accounting and numerical-assurance work are priced. Other assets, devices, physical energy output, experimental findings, historical designs, patent rights and future research are excluded.",
+      "costBasisNote": "The retained priced scope and successive non-overlapping budgets reconcile below. Equivalent effort and historical anchors are seller assumptions, not actual expenditure, independent quotations or market value. Previously priced passive-network and convergence foundations are retained once. The increment covers cross-solver, source-storage-load, candidate and adverse-envelope software. Physical engines, measured energy production, perpetual-motion claims, hardware, legal clearance and future phases are excluded.",
       "costBudgets": [
         {
           "kind": "Scoped implementation reproduction budget",
@@ -11076,6 +11218,56 @@
           "adoptedRecreationIncrementEUR": 43000,
           "previousRecreationCostEUR": 0,
           "currentRecreationCostEUR": 43000
+        },
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "economicAssessmentAt": "2026-11-01",
+          "scope": "Independent network integrator and cross-solver checks; Source-storage-load energy boundary and loss accounting; Source-driven candidate screening and source-removal controls; Adverse-scenario and terminal-reserve envelopes; Analytical and adversarial regression qualification; Evidence, model boundaries and recipient documentation.",
+          "workPackages": [
+            {
+              "scope": "Independent network integrator and cross-solver checks",
+              "lowEffortHours": 48
+            },
+            {
+              "scope": "Source-storage-load energy boundary and loss accounting",
+              "lowEffortHours": 72
+            },
+            {
+              "scope": "Source-driven candidate screening and source-removal controls",
+              "lowEffortHours": 64
+            },
+            {
+              "scope": "Adverse-scenario and terminal-reserve envelopes",
+              "lowEffortHours": 40
+            },
+            {
+              "scope": "Analytical and adversarial regression qualification",
+              "lowEffortHours": 48
+            },
+            {
+              "scope": "Evidence, model boundaries and recipient documentation",
+              "lowEffortHours": 24
+            }
+          ],
+          "assumedHours": 296,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 27824,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 31997.6,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 296,
+            "referenceHours": 444,
+            "extendedHours": 592,
+            "lowCostEUR": 31997.6,
+            "referenceCostEUR": 47996.4,
+            "extendedCostEUR": 63995.2
+          },
+          "boundary": "Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. Previously priced passive-network and convergence foundations are retained once. The increment covers cross-solver, source-storage-load, candidate and adverse-envelope software. Physical engines, measured energy production, perpetual-motion claims, hardware, legal clearance and future phases are excluded.",
+          "adoptedRecreationIncrementEUR": 31500,
+          "previousRecreationCostEUR": 43000,
+          "currentRecreationCostEUR": 74500
         }
       ],
       "futureReference": {
@@ -11093,18 +11285,18 @@
         "route": "Research / R&D licensing"
       },
       "valuesUSD": {
-        "sellerAskUSD": 14524,
-        "negotiationLowUSD": 11731,
-        "negotiationHighUSD": 17875,
-        "replacementCostUSD": 48040,
-        "marketComparableProxyUSD": 18579,
-        "incomeLicensingProxyUSD": 12250,
-        "probabilityAdjustedStrategicValueUSD": 3796,
-        "triangulatedEconomicReferenceUSD": 19504
+        "sellerAskUSD": 25137,
+        "negotiationLowUSD": 20110,
+        "negotiationHighUSD": 30723,
+        "replacementCostUSD": 83231,
+        "marketComparableProxyUSD": 32190,
+        "incomeLicensingProxyUSD": 21225,
+        "probabilityAdjustedStrategicValueUSD": 6577,
+        "triangulatedEconomicReferenceUSD": 33793
       },
       "assessment": {
-        "assessedOn": "2026-10-31",
-        "offeredEdition": "0.2.0a0 / R2B2C numerical convergence",
+        "assessedOn": "2026-11-01",
+        "offeredEdition": "0.2.0a0 / R3A adversarial energy envelopes",
         "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
         "costEvidenceStatus": "FULL_SCOPED_BUDGET",
         "costEvidenceLabel": "Stated scope reconciled to explicit budgets",
@@ -11120,16 +11312,416 @@
         "commercialEvidence": "No attributable project revenue, executed comparable IP sale, accepted external valuation or independently calibrated probability model is established in this assessment.",
         "acceptancePosition": "Source-specific delivery, rights, qualification and recipient acceptance remain subject to the stated asset conditions."
       }
+    },
+    {
+      "ref": "TA-IP-117",
+      "values": {
+        "sellerAskEUR": 19500,
+        "negotiationLowEUR": 16000,
+        "negotiationHighEUR": 24500,
+        "replacementCostEUR": 65500,
+        "marketComparableProxyEUR": 25332,
+        "incomeLicensingProxyEUR": 16703,
+        "probabilityAdjustedStrategicValueEUR": 5176,
+        "triangulatedEconomicReferenceEUR": 26594
+      },
+      "basisDate": "2026-11-01",
+      "sourceIds": [
+        "WIPO-COST",
+        "KNAB-2026",
+        "UPWORK-RATES"
+      ],
+      "costBasisNote": "The stated implemented scope reconciles to explicit non-overlapping seller budgets; assumed effort is not actual expenditure or market value. Only additional committed strain-source, periodic zero-mode, imposed-boundary and force-law diagnostic software through R2g is priced. Previously budgeted classical lattice and matter-field work is retained once. R2h rotational-averaging candidate, physical gravity, observational evidence, hardware and future research are excluded.",
+      "costBudgets": [
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "economicAssessmentAt": "2026-11-01",
+          "scope": "Reference computations and research-model contracts; Multidimensional lattice and two-way backreaction demonstrators; Static scalar reference and finite-boundary diagnostics; Dynamic scalar response and species comparisons; Variational mobile-matter and field coupling; Regression, conservation and counterexample qualification; Provenance, scope and handover documentation.",
+          "workPackages": [
+            {
+              "scope": "Reference computations and research-model contracts",
+              "lowEffortHours": 32
+            },
+            {
+              "scope": "Multidimensional lattice and two-way backreaction demonstrators",
+              "lowEffortHours": 96
+            },
+            {
+              "scope": "Static scalar reference and finite-boundary diagnostics",
+              "lowEffortHours": 48
+            },
+            {
+              "scope": "Dynamic scalar response and species comparisons",
+              "lowEffortHours": 48
+            },
+            {
+              "scope": "Variational mobile-matter and field coupling",
+              "lowEffortHours": 64
+            },
+            {
+              "scope": "Regression, conservation and counterexample qualification",
+              "lowEffortHours": 64
+            },
+            {
+              "scope": "Provenance, scope and handover documentation",
+              "lowEffortHours": 32
+            }
+          ],
+          "assumedHours": 384,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 36096,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 41510.4,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 384,
+            "referenceHours": 576,
+            "extendedHours": 768,
+            "lowCostEUR": 41510.4,
+            "referenceCostEUR": 62265.6,
+            "extendedCostEUR": 83020.8
+          },
+          "boundary": "Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. Only the specifically agreed first-party classical lattice, backreaction, scalar-model demonstrators, tests and documentation through the committed matter-field scope are included. Other portfolio assets are separate. The next research candidate, experimental physics, a validated theory of gravity, empirical data rights, hardware and future development are excluded.",
+          "adoptedRecreationIncrementEUR": 41500,
+          "previousRecreationCostEUR": 0,
+          "currentRecreationCostEUR": 41500
+        },
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "economicAssessmentAt": "2026-11-01",
+          "scope": "Strain-derived screened scalar source and coupling diagnostics; Periodic zero-mode solvability and obstruction checks; Imposed-boundary field and flux-balance controls; Force-law slopes and directional/boundary comparisons; Additional regression and acceptance-record qualification; Scope and research documentation.",
+          "workPackages": [
+            {
+              "scope": "Strain-derived screened scalar source and coupling diagnostics",
+              "lowEffortHours": 32
+            },
+            {
+              "scope": "Periodic zero-mode solvability and obstruction checks",
+              "lowEffortHours": 48
+            },
+            {
+              "scope": "Imposed-boundary field and flux-balance controls",
+              "lowEffortHours": 40
+            },
+            {
+              "scope": "Force-law slopes and directional/boundary comparisons",
+              "lowEffortHours": 48
+            },
+            {
+              "scope": "Additional regression and acceptance-record qualification",
+              "lowEffortHours": 40
+            },
+            {
+              "scope": "Scope and research documentation",
+              "lowEffortHours": 16
+            }
+          ],
+          "assumedHours": 224,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 21056,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 24214.4,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 224,
+            "referenceHours": 336,
+            "extendedHours": 448,
+            "lowCostEUR": 24214.4,
+            "referenceCostEUR": 36321.6,
+            "extendedCostEUR": 48428.8
+          },
+          "boundary": "Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. Only additional committed strain-source, periodic zero-mode, imposed-boundary and force-law diagnostic software through R2g is priced. Previously budgeted classical lattice and matter-field work is retained once. R2h rotational-averaging candidate, physical gravity, observational evidence, hardware and future research are excluded.",
+          "adoptedRecreationIncrementEUR": 24000,
+          "previousRecreationCostEUR": 41500,
+          "currentRecreationCostEUR": 65500
+        }
+      ],
+      "futureReference": {
+        "currentStage": "R",
+        "targetStage": null,
+        "targetMilestone": "Agree and evidence a separately scoped next-maturity qualification gate.",
+        "reason": "No independently accepted next-stage scope or attributable market/income evidence supports a separate future amount.",
+        "futureReferenceStatus": "NOT_ESTABLISHED",
+        "acceptanceRule": "Reassess future work against its own scope, evidence and assumptions."
+      },
+      "calculationInputs": {
+        "stage": "R",
+        "potential": "S",
+        "sector": "Research & Scientific Software",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 21785,
+        "negotiationLowUSD": 17875,
+        "negotiationHighUSD": 27371,
+        "replacementCostUSD": 73177,
+        "marketComparableProxyUSD": 28301,
+        "incomeLicensingProxyUSD": 18661,
+        "probabilityAdjustedStrategicValueUSD": 5783,
+        "triangulatedEconomicReferenceUSD": 29711
+      },
+      "assessment": {
+        "assessedOn": "2026-11-01",
+        "offeredEdition": "R2g / strain-source, boundary and force-law diagnostics",
+        "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
+        "costEvidenceStatus": "FULL_SCOPED_BUDGET",
+        "costEvidenceLabel": "Stated scope reconciled to explicit budgets",
+        "costEvidenceNote": "The stated scope reconciles to explicit seller budgets. Effort remains assumed; independent quotations, intended-use qualification and market value are not established.",
+        "qualification": {
+          "technicalMaturity": "R",
+          "evidenceMaturity": "E2",
+          "ipRightsMaturity": "R0",
+          "commercialMaturity": "C2",
+          "transferReadiness": "T1"
+        },
+        "marketValueStatus": "NOT_ESTABLISHED",
+        "commercialEvidence": "No attributable project revenue, executed comparable IP sale, accepted external valuation or independently calibrated probability model is established in this assessment.",
+        "acceptancePosition": "Source-specific delivery, rights, qualification and recipient acceptance remain subject to the stated asset conditions."
+      }
+    },
+    {
+      "ref": "TA-IP-118",
+      "values": {
+        "sellerAskEUR": 6500,
+        "negotiationLowEUR": 5500,
+        "negotiationHighEUR": 8500,
+        "replacementCostEUR": 22000,
+        "marketComparableProxyEUR": 8509,
+        "incomeLicensingProxyEUR": 5610,
+        "probabilityAdjustedStrategicValueEUR": 1739,
+        "triangulatedEconomicReferenceEUR": 8932
+      },
+      "basisDate": "2026-11-01",
+      "sourceIds": [
+        "WIPO-COST",
+        "KNAB-2026",
+        "UPWORK-RATES"
+      ],
+      "costBasisNote": "The estimate adopts the lowest explicitly scoped seller effort scenario; it is not logged expenditure, an independent quote, an absolute minimum or established market value. Only the expressly agreed first-party implemented software, tests and research documents in the stated edition are included. Other portfolio assets, universal scientific conclusions, third-party works, independent certification, future development and operating services are excluded.",
+      "costBudgets": [
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "economicAssessmentAt": "2026-11-01",
+          "scope": "Structured research-case and assumption register; Bounded propositional formula parser; Argument dependency and supported-inference validation; Premise truth tables and contradiction reporting; Command-line contracts and adversarial regression; Research boundaries and handover documentation.",
+          "workPackages": [
+            {
+              "scope": "Structured research-case and assumption register",
+              "lowEffortHours": 40
+            },
+            {
+              "scope": "Bounded propositional formula parser",
+              "lowEffortHours": 40
+            },
+            {
+              "scope": "Argument dependency and supported-inference validation",
+              "lowEffortHours": 48
+            },
+            {
+              "scope": "Premise truth tables and contradiction reporting",
+              "lowEffortHours": 24
+            },
+            {
+              "scope": "Command-line contracts and adversarial regression",
+              "lowEffortHours": 40
+            },
+            {
+              "scope": "Research boundaries and handover documentation",
+              "lowEffortHours": 16
+            }
+          ],
+          "assumedHours": 208,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 19552,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 22484.8,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 208,
+            "referenceHours": 312,
+            "extendedHours": 416,
+            "lowCostEUR": 22484.8,
+            "referenceCostEUR": 33727.2,
+            "extendedCostEUR": 44969.6
+          },
+          "boundary": "Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. Only the expressly agreed first-party implemented software, tests and research documents in the stated edition are included. Other portfolio assets, universal scientific conclusions, third-party works, independent certification, future development and operating services are excluded.",
+          "adoptedRecreationIncrementEUR": 22000,
+          "previousRecreationCostEUR": 0,
+          "currentRecreationCostEUR": 22000
+        }
+      ],
+      "futureReference": {
+        "currentStage": "R",
+        "targetStage": null,
+        "targetMilestone": "Agree and evidence a separately scoped next-maturity qualification gate.",
+        "reason": "No independently accepted next-stage scope or attributable market/income evidence supports a separate future amount.",
+        "futureReferenceStatus": "NOT_ESTABLISHED",
+        "acceptanceRule": "Reassess future work against its own scope, evidence and assumptions."
+      },
+      "calculationInputs": {
+        "stage": "R",
+        "potential": "S",
+        "sector": "Research & Scientific Software",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 7262,
+        "negotiationLowUSD": 6145,
+        "negotiationHighUSD": 9496,
+        "replacementCostUSD": 24578,
+        "marketComparableProxyUSD": 9506,
+        "incomeLicensingProxyUSD": 6267,
+        "probabilityAdjustedStrategicValueUSD": 1943,
+        "triangulatedEconomicReferenceUSD": 9979
+      },
+      "assessment": {
+        "assessedOn": "2026-11-01",
+        "offeredEdition": "0.2.0 / R2 bounded formal argument graph",
+        "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
+        "costEvidenceStatus": "FULL_SCOPED_BUDGET",
+        "costEvidenceLabel": "Stated scope reconciled to explicit budgets",
+        "costEvidenceNote": "The stated scope reconciles to explicit seller budgets. Effort remains assumed; independent quotations, intended-use qualification and market value are not established.",
+        "qualification": {
+          "technicalMaturity": "R",
+          "evidenceMaturity": "E2",
+          "ipRightsMaturity": "R1",
+          "commercialMaturity": "C2",
+          "transferReadiness": "T2"
+        },
+        "marketValueStatus": "NOT_ESTABLISHED",
+        "commercialEvidence": "No attributable project revenue, executed comparable IP sale, accepted external valuation or independently calibrated probability model is established in this assessment.",
+        "acceptancePosition": "Source-specific delivery, rights, qualification and recipient acceptance remain subject to the stated asset conditions."
+      }
+    },
+    {
+      "ref": "TA-IP-119",
+      "values": {
+        "sellerAskEUR": 6500,
+        "negotiationLowEUR": 5500,
+        "negotiationHighEUR": 8500,
+        "replacementCostEUR": 22000,
+        "marketComparableProxyEUR": 8509,
+        "incomeLicensingProxyEUR": 5610,
+        "probabilityAdjustedStrategicValueEUR": 1739,
+        "triangulatedEconomicReferenceEUR": 8932
+      },
+      "basisDate": "2026-11-01",
+      "sourceIds": [
+        "WIPO-COST",
+        "KNAB-2026",
+        "UPWORK-RATES"
+      ],
+      "costBasisNote": "The lowest explicitly scoped seller effort scenario is adopted. This is not actual expenditure, an independent quote or established market value. Only the agreed first-party R2/R3 finite semantic models, 57 regression tests and four research volumes are included. General facts and ideas, third-party works, R4 research, empirical discoveries, independent certification and other portfolio assets are excluded.",
+      "costBudgets": [
+        {
+          "kind": "Scoped implementation reproduction budget",
+          "economicAssessmentAt": "2026-11-01",
+          "scope": "Foundational research structure and three analytical volumes; Finite modal and local-quantifier semantic evaluator; Bounded model enumeration and counterexample reports; Regression and excluded-semantics controls; Research status, provenance and handover documentation; Rigid-label modal identity and quantifier comparisons; Grounding examples, fourth volume and regression qualification.",
+          "workPackages": [
+            {
+              "scope": "Foundational research structure and three analytical volumes",
+              "lowEffortHours": 40
+            },
+            {
+              "scope": "Finite modal and local-quantifier semantic evaluator",
+              "lowEffortHours": 40
+            },
+            {
+              "scope": "Bounded model enumeration and counterexample reports",
+              "lowEffortHours": 24
+            },
+            {
+              "scope": "Regression and excluded-semantics controls",
+              "lowEffortHours": 24
+            },
+            {
+              "scope": "Research status, provenance and handover documentation",
+              "lowEffortHours": 16
+            },
+            {
+              "scope": "Rigid-label modal identity and quantifier comparisons",
+              "lowEffortHours": 32
+            },
+            {
+              "scope": "Grounding examples, fourth volume and regression qualification",
+              "lowEffortHours": 32
+            }
+          ],
+          "assumedHours": 208,
+          "hourlyRateEUR": 94,
+          "rawEngineeringCostEUR": 19552,
+          "coordinationToolingAllowance": 0.15,
+          "withAllowanceEUR": 22484.8,
+          "selectedScenario": "LOW_EFFORT_WORKING_ESTIMATE",
+          "rounding": "DOWN_TO_EUR_500",
+          "effortAlternatives": {
+            "lowHours": 208,
+            "referenceHours": 312,
+            "extendedHours": 416,
+            "lowCostEUR": 22484.8,
+            "referenceCostEUR": 33727.2,
+            "extendedCostEUR": 44969.6
+          },
+          "boundary": "Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. Only the agreed first-party R2/R3 finite semantic models, 57 regression tests and four research volumes are included. General facts and ideas, third-party works, R4 research, empirical discoveries, independent certification and other portfolio assets are excluded.",
+          "adoptedRecreationIncrementEUR": 22000,
+          "previousRecreationCostEUR": 0,
+          "currentRecreationCostEUR": 22000
+        }
+      ],
+      "futureReference": {
+        "currentStage": "R",
+        "targetStage": null,
+        "targetMilestone": "Agree and evidence a separately scoped next-maturity qualification gate.",
+        "reason": "No independently accepted next-stage scope or attributable market/income evidence supports a separate future amount.",
+        "futureReferenceStatus": "NOT_ESTABLISHED",
+        "acceptanceRule": "Reassess future work against its own scope, evidence and assumptions."
+      },
+      "calculationInputs": {
+        "stage": "R",
+        "potential": "S",
+        "sector": "Research & Scientific Software",
+        "route": "Research / R&D licensing"
+      },
+      "valuesUSD": {
+        "sellerAskUSD": 7262,
+        "negotiationLowUSD": 6145,
+        "negotiationHighUSD": 9496,
+        "replacementCostUSD": 24578,
+        "marketComparableProxyUSD": 9506,
+        "incomeLicensingProxyUSD": 6267,
+        "probabilityAdjustedStrategicValueUSD": 1943,
+        "triangulatedEconomicReferenceUSD": 9979
+      },
+      "assessment": {
+        "assessedOn": "2026-11-01",
+        "offeredEdition": "R3 / modal identity, grounding and four research volumes",
+        "financialScopeRule": "Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.",
+        "costEvidenceStatus": "FULL_SCOPED_BUDGET",
+        "costEvidenceLabel": "Stated scope reconciled to explicit budgets",
+        "costEvidenceNote": "The stated scope reconciles to explicit seller budgets. Effort remains assumed; independent quotations, intended-use qualification and market value are not established.",
+        "qualification": {
+          "technicalMaturity": "R",
+          "evidenceMaturity": "E2",
+          "ipRightsMaturity": "R1",
+          "commercialMaturity": "C2",
+          "transferReadiness": "T2"
+        },
+        "marketValueStatus": "NOT_ESTABLISHED",
+        "commercialEvidence": "No attributable project revenue, executed comparable IP sale, accepted external valuation or independently calibrated probability model is established in this assessment.",
+        "acceptancePosition": "Source-specific delivery, rights, qualification and recipient acceptance remain subject to the stated asset conditions."
+      }
     }
   ],
   "portfolioUSD": {
-    "sellerAskUSD": 27884195,
-    "negotiationLowUSD": 22273616,
-    "negotiationHighUSD": 34943642,
-    "replacementCostUSD": 118510900,
-    "marketComparableProxyUSD": 134376488,
-    "incomeLicensingProxyUSD": 158002958,
-    "probabilityAdjustedStrategicValueUSD": 147384246,
-    "triangulatedEconomicReferenceUSD": 139688102
+    "sellerAskUSD": 27954020,
+    "negotiationLowUSD": 22330035,
+    "negotiationHighUSD": 35030784,
+    "replacementCostUSD": 118743278,
+    "marketComparableProxyUSD": 134466361,
+    "incomeLicensingProxyUSD": 158062216,
+    "probabilityAdjustedStrategicValueUSD": 147402612,
+    "triangulatedEconomicReferenceUSD": 139782452
   }
 }

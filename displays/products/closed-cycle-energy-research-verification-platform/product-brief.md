@@ -2,11 +2,11 @@
 
 TA-IP-116 | Reference name: Agnes | Physics, mathematics & optimisation
 
-Compare declared fluid-mechanical models, track energy boundaries and qualify numerical convergence before drawing any conclusions about a physical device.
+Compare bounded fluid models and test source, storage and useful-load assumptions under deliberately adverse scenarios before interpreting any physical device claim.
 
 ## Product overview
 
-Independent computational research software for hydrostatic loading, explicit energy ledgers, passive laminar reservoir networks and bounded numerical-convergence assurance.
+Numerical engineering-research software for fluid-network solver comparison, explicit source-storage-load accounting and adverse-scenario screening of declared energy-system candidates.
 
 ## Potential acquirers
 
@@ -16,17 +16,17 @@ Independent computational research software for hydrostatic loading, explicit en
 
 ## Documented functions
 
-- Calculate declared hydrostatic and conservative work
-- Reconcile explicit energy sources and stores
-- Compare reservoir, channel and passive network models
-- Audit refinement errors against analytical references
-- Reject unsupported numerical and physical claims
+- Compare bounded network integrators and numerical refinement
+- Reconcile explicit energy sources, stores, conversion losses and loads
+- Screen declared source-driven candidate scenarios
+- Apply adverse source, loss, outage and reserve assumptions
+- Reject unaccounted energy and unsupported physical conclusions
 
 ## Available output types
 
-- Fluid-mechanical and energy-accounting records
-- Analytical regression and error-budget reports
-- Numerical-convergence and scope assessments
+- Fluid-network and cross-solver verification records
+- Source-storage-load ledgers and candidate assessments
+- Adverse-scenario and conservation-screening reports
 
 ## Current offered position
 
@@ -34,13 +34,13 @@ Research software. Available as a specifically scoped research or development so
 
 Available for acquisition discussion.
 
-- The offered work is numerical research software. It does not demonstrate perpetual motion, energy without a source, a working physical engine or historical-device reconstruction.
-- Retained cross-environment evidence covers earlier identified software scopes. Current convergence checks pass locally; independent acceptance of that increment remains pending.
-- Models have explicit passive, laminar and analytical limits. Detailed physical simulation, calibrated hardware measurements, novelty, safety and freedom-to-operate require separate review.
+- Retained independent-environment records cover earlier identified numerical scopes. Current local unit and analytical audit replay passes; external replay of the latest adverse-envelope increment remains open.
+- Adverse envelopes are deliberate assumption scenarios, not formal uncertainty intervals, statistical confidence bounds, measured efficiencies or physical-device performance predictions.
+- No perpetual motion, energy without a source, physical engine, calibrated hardware result or freedom-to-operate clearance is demonstrated. Models retain explicit fluid, solver and boundary limitations.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 13,000.
+Seller asking reference: EUR 22,500.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -70,29 +70,29 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 0.2.0a0 / R2B2C numerical convergence
+Identified product edition: 0.2.0a0 / R3A adversarial energy envelopes
 
 Handover position: Conditional handover
 
-Independent computational research software for hydrostatic loading, explicit energy ledgers, passive laminar reservoir networks and bounded numerical-convergence assurance.
+Numerical engineering-research software for fluid-network solver comparison, explicit source-storage-load accounting and adverse-scenario screening of declared energy-system candidates.
 
 ### Priced first-party scope
 
-Specifically agreed first-party implementation and documentation. Only the agreed first-party fluid models, energy accounting and numerical-assurance work are priced. Other assets, devices, physical energy output, experimental findings, historical designs, patent rights and future research are excluded.
+Specifically agreed first-party implementation and documentation. Previously priced passive-network and convergence foundations are retained once. The increment covers cross-solver, source-storage-load, candidate and adverse-envelope software. Physical engines, measured energy production, perpetual-motion claims, hardware, legal clearance and future phases are excluded.
 
 ### Offered work and qualification
 
-Independent computational research software for hydrostatic loading, explicit energy ledgers, passive laminar reservoir networks and bounded numerical-convergence assurance.
+Numerical engineering-research software for fluid-network solver comparison, explicit source-storage-load accounting and adverse-scenario screening of declared energy-system candidates.
 
-- The offered work is numerical research software. It does not demonstrate perpetual motion, energy without a source, a working physical engine or historical-device reconstruction.
-- Retained cross-environment evidence covers earlier identified software scopes. Current convergence checks pass locally; independent acceptance of that increment remains pending.
-- Models have explicit passive, laminar and analytical limits. Detailed physical simulation, calibrated hardware measurements, novelty, safety and freedom-to-operate require separate review.
+- Retained independent-environment records cover earlier identified numerical scopes. Current local unit and analytical audit replay passes; external replay of the latest adverse-envelope increment remains open.
+- Adverse envelopes are deliberate assumption scenarios, not formal uncertainty intervals, statistical confidence bounds, measured efficiencies or physical-device performance predictions.
+- No perpetual motion, energy without a source, physical engine, calibrated hardware result or freedom-to-operate clearance is demonstrated. Models retain explicit fluid, solver and boundary limitations.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | R | Independent computational research software for hydrostatic loading, explicit energy ledgers, passive laminar reservoir networks and bounded numerical-convergence assurance. The offered edition and material boundaries govern review. |
+| Technical scope | R | Numerical engineering-research software for fluid-network solver comparison, explicit source-storage-load accounting and adverse-scenario screening of declared energy-system candidates. The offered edition and material boundaries govern review. |
 | Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Source-specific diligence and recipient acceptance remain separate. |
 | Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Source-specific diligence and recipient acceptance remain separate. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. Source-specific diligence and recipient acceptance remain separate. |
@@ -129,18 +129,18 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-31. All amounts in EUR. Market value is not established.
+Basis: 2026-11-01. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 13,000 | 14,524 |
-| Negotiation reference - low | 10,500 | 11,731 |
-| Negotiation reference - high | 16,000 | 17,875 |
-| Recreation cost estimate | 43,000 | 48,040 |
-| Marketability cost scenario | 16,630 | 18,579 |
-| Monetisation cost scenario | 10,965 | 12,250 |
-| Risk-adjusted strategic reference | 3,398 | 3,796 |
-| Weighted economic reference | 17,458 | 19,504 |
+| Seller asking reference | 22,500 | 25,137 |
+| Negotiation reference - low | 18,000 | 20,110 |
+| Negotiation reference - high | 27,500 | 30,723 |
+| Recreation cost estimate | 74,500 | 83,231 |
+| Marketability cost scenario | 28,813 | 32,190 |
+| Monetisation cost scenario | 18,998 | 21,225 |
+| Risk-adjusted strategic reference | 5,887 | 6,577 |
+| Weighted economic reference | 30,248 | 33,793 |
 
 USD = EUR × 1.1172, rounded half-up to whole USD. ECB date: 2026-10-30. EUR is authoritative.
 
@@ -159,11 +159,11 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The recreation estimate adopts the lowest expressly scoped seller effort scenario. It is not recorded expenditure, an absolute minimum, an independent quote or established market value. Only the agreed first-party fluid models, energy accounting and numerical-assurance work are priced. Other assets, devices, physical energy output, experimental findings, historical designs, patent rights and future research are excluded.
+The retained priced scope and successive non-overlapping budgets reconcile below. Equivalent effort and historical anchors are seller assumptions, not actual expenditure, independent quotations or market value. Previously priced passive-network and convergence foundations are retained once. The increment covers cross-solver, source-storage-load, candidate and adverse-envelope software. Physical engines, measured energy production, perpetual-motion claims, hardware, legal clearance and future phases are excluded.
 
 ### Financial assessment
 
-Stated scope reconciled to explicit budgets. Assessed 2026-10-31.
+Stated scope reconciled to explicit budgets. Assessed 2026-11-01.
 
 The stated scope reconciles to explicit seller budgets. Effort remains assumed; independent quotations, intended-use qualification and market value are not established.
 
@@ -197,6 +197,34 @@ Hydrostatic, conservative-work and energy-ledger core; Reservoir and laminar cha
 
 Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. Only the agreed first-party fluid models, energy accounting and numerical-assurance work are priced. Other assets, devices, physical energy output, experimental findings, historical designs, patent rights and future research are excluded.
 
+#### Scoped implementation reproduction budget
+
+Independent network integrator and cross-solver checks; Source-storage-load energy boundary and loss accounting; Source-driven candidate screening and source-removal controls; Adverse-scenario and terminal-reserve envelopes; Analytical and adversarial regression qualification; Evidence, model boundaries and recipient documentation.
+
+- Independent network integrator and cross-solver checks — 48 assumed hours
+- Source-storage-load energy boundary and loss accounting — 72 assumed hours
+- Source-driven candidate screening and source-removal controls — 64 assumed hours
+- Adverse-scenario and terminal-reserve envelopes — 40 assumed hours
+- Analytical and adversarial regression qualification — 48 assumed hours
+- Evidence, model boundaries and recipient documentation — 24 assumed hours
+
+- Assumed hours: 296
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 27,824
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 31,997.6
+- Effort alternatives / Low hours: 296
+- Effort alternatives / Reference hours: 444
+- Effort alternatives / Extended hours: 592
+- Effort alternatives / Low cost: EUR 31,997.6
+- Effort alternatives / Reference cost: EUR 47,996.4
+- Effort alternatives / Extended cost: EUR 63,995.2
+- Adopted recreation increment: EUR 31,500
+- Previous recreation cost: EUR 43,000
+- Current recreation cost: EUR 74,500
+
+Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. Previously priced passive-network and convergence foundations are retained once. The increment covers cross-solver, source-storage-load, candidate and adverse-envelope software. Physical engines, measured energy production, perpetual-motion claims, hardware, legal clearance and future phases are excluded.
+
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
@@ -213,7 +241,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "R", "potential": "S", "sector": "Research & Scientific Software", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc10
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc11
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/closed-cycle-energy-research-verification-platform/#calculation
 

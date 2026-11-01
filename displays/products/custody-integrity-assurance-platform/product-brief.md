@@ -2,11 +2,11 @@
 
 TA-IP-009 | Reference name: Justine | Security, identity & traceability
 
-Track custody handovers and examine whether the accompanying records support a clear chain of responsibility.
+Simulate accountable custody handovers, inject defined recovery failures and reproduce the resulting evidence packages.
 
 ## Product overview
 
-A custody-assurance prototype for accountable transfers between managed organisations.
+A custody-assurance candidate with deterministic reference processing, multi-organisation pilot simulation, executable recovery scenarios and reproducible evidence packaging.
 
 ## Potential acquirers
 
@@ -16,17 +16,17 @@ A custody-assurance prototype for accountable transfers between managed organisa
 
 ## Documented functions
 
-- Record custody transitions
-- Preserve transfer history
-- Review implementation conformance
-- Study operational recovery
-- Prepare independent review material
+- Process accountable custody transitions
+- Evaluate conformance and witness-quorum rules
+- Run multi-organisation synthetic pilot scenarios
+- Execute eight defined recovery and failure-injection cases
+- Produce deterministic evidence packages and audit digests
 
 ## Available output types
 
-- Custody records
-- Conformance reports
-- Continuity evidence
+- Custody and conformance records
+- Synthetic pilot and recovery reports
+- Reproducible evidence packages
 
 ## Current offered position
 
@@ -34,7 +34,9 @@ Prototype. A prototype offered for evaluation and continued development; product
 
 Available for acquisition discussion.
 
-- Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately.
+- All five offline validation layers pass current-source local replay, including six synthetic pilot scenarios and eight deterministic recovery exercises. These are bounded software simulations.
+- Real deployment failover, approved RTO/RPO performance, deployed independent witnesses, cryptographic operations and live-pilot acceptance remain open. Synthetic recovery results do not close those gates.
+- Governance, independent review, security, legal/privacy, operational and recipient approvals remain required. The retained recreation anchor lacks a complete work-package budget and receives no uplift for this increment.
 
 ## Acquisition reference
 
@@ -68,21 +70,29 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 0.4.0
+Identified product edition: 0.6.0 / synthetic pilot and executable recovery candidate
 
 Handover position: Conditional handover
 
-A candidate reference implementation; independent review and operational approval remain pending.
+A custody-assurance candidate with deterministic reference processing, multi-organisation pilot simulation, executable recovery scenarios and reproducible evidence packaging.
 
 ### Priced first-party scope
 
 Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
 
+### Implemented candidate and acceptance limits
+
+A custody-assurance candidate with deterministic reference processing, multi-organisation pilot simulation, executable recovery scenarios and reproducible evidence packaging.
+
+- All five offline validation layers pass current-source local replay, including six synthetic pilot scenarios and eight deterministic recovery exercises. These are bounded software simulations.
+- Real deployment failover, approved RTO/RPO performance, deployed independent witnesses, cryptographic operations and live-pilot acceptance remain open. Synthetic recovery results do not close those gates.
+- Governance, independent review, security, legal/privacy, operational and recipient approvals remain required. The retained recreation anchor lacks a complete work-package budget and receives no uplift for this increment.
+
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | P | A custody-assurance prototype for accountable transfers between managed organisations. The offered edition and material boundaries govern review. |
+| Technical scope | P | A custody-assurance candidate with deterministic reference processing, multi-organisation pilot simulation, executable recovery scenarios and reproducible evidence packaging. Prototype status is retained; production and live-pilot approval are not established. |
 | Evidence and validation | E3 | Tests, validation and provenance/release evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
 | Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
@@ -91,6 +101,8 @@ Seller-owned first-party rights plus specifically agreed transferable software/d
 ### Conditions before handover
 
 - Review confidential security and credential-handling materials within the agreed diligence and transfer scope.
+- Reproduce the agreed candidate and complete intended-environment recovery and accountable approval gates.
+- Reconstruct the retained recreation estimate using an explicit delivery-specific work breakdown before reliance.
 
 ### Qualification objectives
 
@@ -126,7 +138,7 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-31. All amounts in EUR. Market value is not established.
+Basis: 2026-11-01. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
@@ -156,11 +168,11 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance. Current candidate 0.6.0 adds synthetic pilot and recovery software; the retained anchor and asking reference are unchanged. No price premium is assigned to modeled RTO/RPO or unapproved deployment capabilities.
 
 ### Financial assessment
 
-Retained seller estimate; work breakdown required. Assessed 2026-10-31.
+Retained seller estimate; work breakdown required. Assessed 2026-11-01.
 
 No complete work-package budget supports the retained anchor. Obtain a delivery-specific work breakdown and quote; this seller estimate does not establish actual expenditure or market value.
 
@@ -182,7 +194,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "P", "potential": "H", "sector": "Identity, Privacy & Assurance", "route": "Private deployment / enterprise licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc10
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc11
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/custody-integrity-assurance-platform/#calculation
 
