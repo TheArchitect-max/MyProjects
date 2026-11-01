@@ -2,11 +2,11 @@
 
 TA-IP-113 | Reference name: Clotho | Physics, mathematics & optimisation
 
-Prepare bounded prediction studies, audit local evidence custody and screen proposed temporal-causality mechanisms against explicit scientific acceptance conditions.
+Preserve declared research commitments, verify local evidence files and publish complete custody records under explicit filesystem and independent-witness limitations.
 
 ## Product overview
 
-Independent research software and documentation for preregistered binary studies, local evidence-custody integrity and critical temporal-causality mechanism screening.
+Preregistered binary-study and research-custody software with local artifact-byte verification, bounded-memory hashing and exclusive complete-file publication.
 
 ## Potential acquirers
 
@@ -16,17 +16,17 @@ Independent research software and documentation for preregistered binary studies
 
 ## Documented functions
 
-- Prepare fixed prediction-study commitments
-- Evaluate declared binary null hypotheses
-- Maintain run-specific local custody records
-- Detect altered or incompatible evidence chains
-- Screen mechanism proposals against explicit scientific gates
+- Prepare fixed binary-study commitments and statistical audits
+- Maintain study- and run-bound custody records
+- Verify local artifact bytes, order and digests
+- Stream bounded-memory artifact hashing
+- Publish complete evidence files without replacing existing targets
 
 ## Available output types
 
-- Study commitments and statistical audit records
-- Local custody and integrity assessments
-- Research decision and mechanism-screening documents
+- Preregistered study and conditional statistical reports
+- Custody-chain and local-artifact verification records
+- Research-screening and evidence-publication assessments
 
 ## Current offered position
 
@@ -34,13 +34,13 @@ Research software. Available as a specifically scoped research or development so
 
 Available for acquisition discussion.
 
-- The current work is research and evidence-integrity software. No controllable information transfer to the past or physical temporal-causality breakthrough has been demonstrated.
-- Local hashes, custody records, simulated studies and statistical significance do not independently establish chronology, identity or physical causation.
-- Independent witnesses, a defensible physical mechanism, real experiments and replicated scientific acceptance remain separate. Speculative physical builds remain on hold.
+- Current local regression replay supports the implemented study, custody and evidence-file software. Matching local bytes and hashes do not authenticate original acquisition, independent timestamps or an externally witnessed chronology.
+- Complete-file publication is qualified on the tested local filesystem. Universal crash durability, hostile-parent-directory protection, all-platform access controls and independent security certification are not established.
+- The updated mechanism review remains theory-only, including the chronology and access conditions of the examined geometric models. No validated physical source, buildable time channel, future-to-past message or independently reproduced physical anomaly is demonstrated.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 10,500.
+Seller asking reference: EUR 14,000.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -70,29 +70,29 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 0.1.0 / custody v3 and research screening
+Identified product edition: 0.1.0 / custody v3 and CR-OPEN-16 research review
 
 Handover position: Conditional handover
 
-Independent research software and documentation for preregistered binary studies, local evidence-custody integrity and critical temporal-causality mechanism screening.
+Preregistered binary-study and research-custody software with local artifact-byte verification, bounded-memory hashing and exclusive complete-file publication.
 
 ### Priced first-party scope
 
-Specifically agreed first-party implementation and documentation. Only the agreed first-party study, custody and research-screening work is priced. Other portfolio assets, physical devices, independently witnessed chronology, experimental breakthroughs, third-party works and future programmes are excluded.
+Specifically agreed first-party implementation and documentation. Previously priced binary-study, custody-v3 and research-screening foundations are retained once. The increment covers file verification, streaming and atomic publication assurance only. Speculative physical mechanisms, a time-travel result, independent witness services, hardware and future experiments receive no monetary premium.
 
 ### Offered work and qualification
 
-Independent research software and documentation for preregistered binary studies, local evidence-custody integrity and critical temporal-causality mechanism screening.
+Preregistered binary-study and research-custody software with local artifact-byte verification, bounded-memory hashing and exclusive complete-file publication.
 
-- The current work is research and evidence-integrity software. No controllable information transfer to the past or physical temporal-causality breakthrough has been demonstrated.
-- Local hashes, custody records, simulated studies and statistical significance do not independently establish chronology, identity or physical causation.
-- Independent witnesses, a defensible physical mechanism, real experiments and replicated scientific acceptance remain separate. Speculative physical builds remain on hold.
+- Current local regression replay supports the implemented study, custody and evidence-file software. Matching local bytes and hashes do not authenticate original acquisition, independent timestamps or an externally witnessed chronology.
+- Complete-file publication is qualified on the tested local filesystem. Universal crash durability, hostile-parent-directory protection, all-platform access controls and independent security certification are not established.
+- The updated mechanism review remains theory-only, including the chronology and access conditions of the examined geometric models. No validated physical source, buildable time channel, future-to-past message or independently reproduced physical anomaly is demonstrated.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | R | Independent research software and documentation for preregistered binary studies, local evidence-custody integrity and critical temporal-causality mechanism screening. The offered edition and material boundaries govern review. |
+| Technical scope | R | Preregistered binary-study and research-custody software with local artifact-byte verification, bounded-memory hashing and exclusive complete-file publication. The offered edition and material boundaries govern review. |
 | Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Source-specific diligence and recipient acceptance remain separate. |
 | Rights and component obligations | R1 | Repository licence file identified. Source-specific diligence and recipient acceptance remain separate. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. Source-specific diligence and recipient acceptance remain separate. |
@@ -129,18 +129,18 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-31. All amounts in EUR. Market value is not established.
+Basis: 2026-11-01. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 10,500 | 11,731 |
-| Negotiation reference - low | 8,500 | 9,496 |
-| Negotiation reference - high | 13,000 | 14,524 |
-| Recreation cost estimate | 34,500 | 38,543 |
-| Marketability cost scenario | 13,343 | 14,907 |
-| Monetisation cost scenario | 8,798 | 9,829 |
-| Risk-adjusted strategic reference | 2,726 | 3,045 |
-| Weighted economic reference | 14,007 | 15,649 |
+| Seller asking reference | 14,000 | 15,641 |
+| Negotiation reference - low | 11,000 | 12,289 |
+| Negotiation reference - high | 17,000 | 18,992 |
+| Recreation cost estimate | 45,500 | 50,833 |
+| Marketability cost scenario | 17,597 | 19,659 |
+| Monetisation cost scenario | 11,603 | 12,963 |
+| Risk-adjusted strategic reference | 3,596 | 4,017 |
+| Weighted economic reference | 18,474 | 20,639 |
 
 USD = EUR × 1.1172, rounded half-up to whole USD. ECB date: 2026-10-30. EUR is authoritative.
 
@@ -159,11 +159,11 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The recreation estimate adopts the lowest expressly scoped seller effort scenario. It is not recorded expenditure, an absolute minimum, an independent quote or established market value. Only the agreed first-party study, custody and research-screening work is priced. Other portfolio assets, physical devices, independently witnessed chronology, experimental breakthroughs, third-party works and future programmes are excluded.
+The retained priced scope and successive non-overlapping budgets reconcile below. Equivalent effort and historical anchors are seller assumptions, not actual expenditure, independent quotations or market value. Previously priced binary-study, custody-v3 and research-screening foundations are retained once. The increment covers file verification, streaming and atomic publication assurance only. Speculative physical mechanisms, a time-travel result, independent witness services, hardware and future experiments receive no monetary premium.
 
 ### Financial assessment
 
-Stated scope reconciled to explicit budgets. Assessed 2026-10-31.
+Stated scope reconciled to explicit budgets. Assessed 2026-11-01.
 
 The stated scope reconciles to explicit seller budgets. Effort remains assumed; independent quotations, intended-use qualification and market value are not established.
 
@@ -196,6 +196,33 @@ Preregistered binary-study and statistical audit core; Versioned custody integri
 
 Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. Only the agreed first-party study, custody and research-screening work is priced. Other portfolio assets, physical devices, independently witnessed chronology, experimental breakthroughs, third-party works and future programmes are excluded.
 
+#### Scoped implementation reproduction budget
+
+Local artifact-byte and order verification; Bounded-memory streaming custody append; Exclusive atomic complete-file publication; Failure, race and integrity regression qualification; Software scope and research-decision documentation.
+
+- Local artifact-byte and order verification — 24 assumed hours
+- Bounded-memory streaming custody append — 16 assumed hours
+- Exclusive atomic complete-file publication — 24 assumed hours
+- Failure, race and integrity regression qualification — 24 assumed hours
+- Software scope and research-decision documentation — 16 assumed hours
+
+- Assumed hours: 104
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 9,776
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 11,242.4
+- Effort alternatives / Low hours: 104
+- Effort alternatives / Reference hours: 156
+- Effort alternatives / Extended hours: 208
+- Effort alternatives / Low cost: EUR 11,242.4
+- Effort alternatives / Reference cost: EUR 16,863.6
+- Effort alternatives / Extended cost: EUR 22,484.8
+- Adopted recreation increment: EUR 11,000
+- Previous recreation cost: EUR 34,500
+- Current recreation cost: EUR 45,500
+
+Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. Previously priced binary-study, custody-v3 and research-screening foundations are retained once. The increment covers file verification, streaming and atomic publication assurance only. Speculative physical mechanisms, a time-travel result, independent witness services, hardware and future experiments receive no monetary premium.
+
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
@@ -212,7 +239,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "R", "potential": "S", "sector": "Research & Scientific Software", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc10
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc11
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/temporal-causality-breakthrough-research-platform/#calculation
 

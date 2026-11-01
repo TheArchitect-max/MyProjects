@@ -534,31 +534,33 @@
         "software",
         "assurance"
       ],
-      "summary": "Track custody handovers and examine whether the accompanying records support a clear chain of responsibility.",
-      "overview": "A custody-assurance prototype for accountable transfers between managed organisations.",
+      "summary": "Simulate accountable custody handovers, inject defined recovery failures and reproduce the resulting evidence packages.",
+      "overview": "A custody-assurance candidate with deterministic reference processing, multi-organisation pilot simulation, executable recovery scenarios and reproducible evidence packaging.",
       "potentialBuyers": [
         "Supply-chain software vendors",
         "Custody service providers",
         "Audit and assurance teams"
       ],
       "capabilities": [
-        "Record custody transitions",
-        "Preserve transfer history",
-        "Review implementation conformance",
-        "Study operational recovery",
-        "Prepare independent review material"
+        "Process accountable custody transitions",
+        "Evaluate conformance and witness-quorum rules",
+        "Run multi-organisation synthetic pilot scenarios",
+        "Execute eight defined recovery and failure-injection cases",
+        "Produce deterministic evidence packages and audit digests"
       ],
       "outputTypes": [
-        "Custody records",
-        "Conformance reports",
-        "Continuity evidence"
+        "Custody and conformance records",
+        "Synthetic pilot and recovery reports",
+        "Reproducible evidence packages"
       ],
       "maturity": "Prototype",
       "maturityNote": "A prototype offered for evaluation and continued development; production acceptance is separate.",
       "availability": "Available for acquisition discussion",
       "askingReferenceEUR": 140000,
       "materialBoundaries": [
-        "Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately."
+        "All five offline validation layers pass current-source local replay, including six synthetic pilot scenarios and eight deterministic recovery exercises. These are bounded software simulations.",
+        "Real deployment failover, approved RTO/RPO performance, deployed independent witnesses, cryptographic operations and live-pilot acceptance remain open. Synthetic recovery results do not close those gates.",
+        "Governance, independent review, security, legal/privacy, operational and recipient approvals remain required. The retained recreation anchor lacks a complete work-package budget and receives no uplift for this increment."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -5907,33 +5909,33 @@
         "software",
         "research"
       ],
-      "summary": "Run FRRP numerical physics-reference and synthetic geometry experiments, compare consistency and verify the provenance and schema of research records.",
-      "overview": "Experimental research software for explicit cosmological reference calculations, toy-geometry experiments, numerical assurance and versioned provenance records.",
+      "summary": "Check declared dataset provenance, uncertainty and split conditions; inspect a defined astronomical table format while retaining explicit source-authentication and scientific limits.",
+      "overview": "Research software combining numerical physics-reference experiments with local dataset-governance checks, versioned evidence records and a bounded astronomical table parser.",
       "potentialBuyers": [
         "Scientific-software vendors",
         "Computational physics and cosmology research groups",
         "Research-methods and numerical-assurance teams"
       ],
       "capabilities": [
-        "Run declared cosmological reference calculations",
-        "Explore synthetic graph-distance toy geometry",
-        "Compare numerical integrators and analytic limits",
-        "Record deterministic provenance and source limitations",
-        "Validate versioned records and reject incompatible migrations"
+        "Run cosmological-reference and synthetic geometry experiments",
+        "Validate dataset manifests, declared rights and local asset integrity",
+        "Check uncertainty, covariance and partition declarations",
+        "Inspect bounded astronomical table records and reject malformed inputs",
+        "Preserve versioned research records and source limitations"
       ],
       "outputTypes": [
         "Numerical reference and synthetic experiment records",
-        "Convergence and consistency assessments",
-        "Schema-checked provenance and compatibility reports"
+        "Dataset-governance and local-integrity assessments",
+        "Astronomical table-format and provenance reports"
       ],
       "maturity": "Research software",
       "maturityNote": "Available as a specifically scoped research or development software asset. Independent application, rights and handover acceptance remain separate.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 10500,
+      "askingReferenceEUR": 16500,
       "materialBoundaries": [
-        "The v0.2.1 record-contract changes have local software acceptance. Prior v0.2.0 numerical second-runtime evidence does not by itself qualify the new schema code; full R1 acceptance and R2 remain open.",
-        "Reference calculations, toy geometry and synthetic Bayesian comparisons are not new observations or proof of emergent spacetime, cosmic origins or an original fundamental-physics theory.",
-        "Independent physical-science review, representative empirical data, declared platform compatibility and recipient acceptance require separate evidence and scope."
+        "Retained source-matched second-runtime records cover the implemented numerical, record-contract, dataset-governance and table-parser software. Current local regression replay also passes; full observational-data admission remains open.",
+        "The astronomical test fixture is a web transcription, not the authenticated original source file. Original-file provenance, product-specific rights, full scientific covariance, instrument and selection qualification remain unresolved.",
+        "Reference models and software checks do not establish emergent spacetime, cosmic origins, a new physical theory or an accepted cosmological likelihood. Recipient and intended-use acceptance require separate evidence."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -5960,33 +5962,33 @@
         "research",
         "software"
       ],
-      "summary": "Prepare bounded prediction studies, audit local evidence custody and screen proposed temporal-causality mechanisms against explicit scientific acceptance conditions.",
-      "overview": "Independent research software and documentation for preregistered binary studies, local evidence-custody integrity and critical temporal-causality mechanism screening.",
+      "summary": "Preserve declared research commitments, verify local evidence files and publish complete custody records under explicit filesystem and independent-witness limitations.",
+      "overview": "Preregistered binary-study and research-custody software with local artifact-byte verification, bounded-memory hashing and exclusive complete-file publication.",
       "potentialBuyers": [
         "Research-methods and scientific-software developers",
         "Foundational-physics research organisations",
         "Evidence-integrity and experimental-protocol teams"
       ],
       "capabilities": [
-        "Prepare fixed prediction-study commitments",
-        "Evaluate declared binary null hypotheses",
-        "Maintain run-specific local custody records",
-        "Detect altered or incompatible evidence chains",
-        "Screen mechanism proposals against explicit scientific gates"
+        "Prepare fixed binary-study commitments and statistical audits",
+        "Maintain study- and run-bound custody records",
+        "Verify local artifact bytes, order and digests",
+        "Stream bounded-memory artifact hashing",
+        "Publish complete evidence files without replacing existing targets"
       ],
       "outputTypes": [
-        "Study commitments and statistical audit records",
-        "Local custody and integrity assessments",
-        "Research decision and mechanism-screening documents"
+        "Preregistered study and conditional statistical reports",
+        "Custody-chain and local-artifact verification records",
+        "Research-screening and evidence-publication assessments"
       ],
       "maturity": "Research software",
       "maturityNote": "Available as a specifically scoped research or development software asset. Independent application, rights and handover acceptance remain separate.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 10500,
+      "askingReferenceEUR": 14000,
       "materialBoundaries": [
-        "The current work is research and evidence-integrity software. No controllable information transfer to the past or physical temporal-causality breakthrough has been demonstrated.",
-        "Local hashes, custody records, simulated studies and statistical significance do not independently establish chronology, identity or physical causation.",
-        "Independent witnesses, a defensible physical mechanism, real experiments and replicated scientific acceptance remain separate. Speculative physical builds remain on hold."
+        "Current local regression replay supports the implemented study, custody and evidence-file software. Matching local bytes and hashes do not authenticate original acquisition, independent timestamps or an externally witnessed chronology.",
+        "Complete-file publication is qualified on the tested local filesystem. Universal crash durability, hostile-parent-directory protection, all-platform access controls and independent security certification are not established.",
+        "The updated mechanism review remains theory-only, including the chronology and access conditions of the examined geometric models. No validated physical source, buildable time channel, future-to-past message or independently reproduced physical anomaly is demonstrated."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -6013,33 +6015,33 @@
         "research",
         "software"
       ],
-      "summary": "Evaluate synthetic clustering and covariance methods, then screen bounded catalogue-file and FITS structures before any separately qualified observational analysis.",
-      "overview": "A standalone cosmological research implementation with native correlation estimators, spatial indexing, jackknife covariance and offline catalogue-integrity or FITS sample checks.",
+      "summary": "Validate declared catalogue structure, map sky coordinates under explicit geometry assumptions and compare synthetic weighted clustering estimates with independent numerical references.",
+      "overview": "Computational cosmology software for bounded catalogue integrity, full-row FITS checks, fiducial sky geometry and weighted isotropic or anisotropic correlation references.",
       "potentialBuyers": [
         "Scientific-software and astronomical-analysis vendors",
         "Cosmology and survey-methodology research groups",
         "Research teams developing numerical-assurance workflows"
       ],
       "capabilities": [
-        "Compute bounded synthetic correlation estimates",
-        "Compare exact spatial-index and weighted estimators",
-        "Evaluate leave-one-region-out covariance",
-        "Check declared catalogue-file integrity contracts",
-        "Inspect bounded FITS binary-table structures"
+        "Validate complete declared FITS catalogue rows within resource limits",
+        "Transform sky coordinates under a stated fiducial cosmology",
+        "Apply matched sky-coordinate selection to data and random inputs",
+        "Compute exact weighted isotropic and bounded anisotropic correlations",
+        "Compare multipole and covariance outputs with numerical oracles"
       ],
       "outputTypes": [
-        "Synthetic correlation and covariance records",
-        "Independent numerical comparison reports",
-        "Catalogue-integrity and FITS sample assessments"
+        "Catalogue-integrity and full-row format reports",
+        "Fiducial geometry and weighted-correlation records",
+        "Anisotropic-bin, multipole and numerical-reference assessments"
       ],
       "maturity": "Research software",
       "maturityNote": "Available as a specifically scoped research or development software asset. Independent application, rights and handover acceptance remain separate.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 16000,
+      "askingReferenceEUR": 27000,
       "materialBoundaries": [
-        "Synthetic numerical and structural software checks do not establish an accepted observational dataset, a published survey reconstruction or a cosmological discovery.",
-        "Catalogue checks have bounded sampling and format limits. Source authenticity, data licences, survey selection and scientific uncertainty require separate admission and review.",
-        "The local job-admission prototype is not an authenticated or isolated hosted service. Production hosting and further physical inference are outside the present offer."
+        "The complete current native build, regression suite and anisotropic numerical oracle pass local CPU replay. Retained cross-environment evidence has its own earlier source scope; independent current-edition recipient acceptance remains separate.",
+        "Tests use bounded synthetic fixtures. Real survey-data admission, survey selection and covariance, source-specific rights and published observational reconstruction remain open.",
+        "Anisotropic estimates use the stated pre-reconstruction convention and bounded exact reference implementation. They do not establish full-survey scalability, a cosmological discovery or reproduction of a published survey statistic."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -6118,33 +6120,33 @@
         "research",
         "software"
       ],
-      "summary": "Compare declared fluid-mechanical models, track energy boundaries and qualify numerical convergence before drawing any conclusions about a physical device.",
-      "overview": "Independent computational research software for hydrostatic loading, explicit energy ledgers, passive laminar reservoir networks and bounded numerical-convergence assurance.",
+      "summary": "Compare bounded fluid models and test source, storage and useful-load assumptions under deliberately adverse scenarios before interpreting any physical device claim.",
+      "overview": "Numerical engineering-research software for fluid-network solver comparison, explicit source-storage-load accounting and adverse-scenario screening of declared energy-system candidates.",
       "potentialBuyers": [
         "Engineering and scientific-simulation software vendors",
         "Energy-conversion and fluid-systems research groups",
         "Numerical verification and engineering-methodology teams"
       ],
       "capabilities": [
-        "Calculate declared hydrostatic and conservative work",
-        "Reconcile explicit energy sources and stores",
-        "Compare reservoir, channel and passive network models",
-        "Audit refinement errors against analytical references",
-        "Reject unsupported numerical and physical claims"
+        "Compare bounded network integrators and numerical refinement",
+        "Reconcile explicit energy sources, stores, conversion losses and loads",
+        "Screen declared source-driven candidate scenarios",
+        "Apply adverse source, loss, outage and reserve assumptions",
+        "Reject unaccounted energy and unsupported physical conclusions"
       ],
       "outputTypes": [
-        "Fluid-mechanical and energy-accounting records",
-        "Analytical regression and error-budget reports",
-        "Numerical-convergence and scope assessments"
+        "Fluid-network and cross-solver verification records",
+        "Source-storage-load ledgers and candidate assessments",
+        "Adverse-scenario and conservation-screening reports"
       ],
       "maturity": "Research software",
       "maturityNote": "Available as a specifically scoped research or development software asset. Independent application, rights and handover acceptance remain separate.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 13000,
+      "askingReferenceEUR": 22500,
       "materialBoundaries": [
-        "The offered work is numerical research software. It does not demonstrate perpetual motion, energy without a source, a working physical engine or historical-device reconstruction.",
-        "Retained cross-environment evidence covers earlier identified software scopes. Current convergence checks pass locally; independent acceptance of that increment remains pending.",
-        "Models have explicit passive, laminar and analytical limits. Detailed physical simulation, calibrated hardware measurements, novelty, safety and freedom-to-operate require separate review."
+        "Retained independent-environment records cover earlier identified numerical scopes. Current local unit and analytical audit replay passes; external replay of the latest adverse-envelope increment remains open.",
+        "Adverse envelopes are deliberate assumption scenarios, not formal uncertainty intervals, statistical confidence bounds, measured efficiencies or physical-device performance predictions.",
+        "No perpetual motion, energy without a source, physical engine, calibrated hardware result or freedom-to-operate clearance is demonstrated. Models retain explicit fluid, solver and boundary limitations."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -6160,6 +6162,165 @@
       "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/closed-cycle-energy-research-verification-platform/",
       "factsheetUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/closed-cycle-energy-research-verification-platform/factsheet.pdf",
       "briefUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/closed-cycle-energy-research-verification-platform/product-brief.md"
+    },
+    {
+      "ref": "TA-IP-117",
+      "slug": "the-stone-universe-research-framework",
+      "title": "The Stone Universe Research Framework",
+      "referenceName": "Petronella",
+      "categoryId": "physics-math-optimization",
+      "buyerGroupIds": [
+        "software",
+        "research"
+      ],
+      "summary": "Explore finite lattice and scalar-field analogues, compare conservation and coupling diagnostics, and distinguish internal mathematical consistency from physical gravitational claims.",
+      "overview": "A standalone theoretical-physics framework with classical lattice, matter-field and strain-source demonstrators, including finite-boundary, force-law and anisotropy diagnostics.",
+      "potentialBuyers": [
+        "Computational-physics research software vendors",
+        "Theoretical and analogue-model research groups",
+        "Numerical-methods and scientific-software teams"
+      ],
+      "capabilities": [
+        "Run classical lattice and variational matter-field models",
+        "Derive bounded static strain-source terms within the stated model",
+        "Compare periodic solvability and externally imposed boundaries",
+        "Measure finite-model radial slopes and directional sensitivity",
+        "Report conservation checks and nonuniversality counterexamples"
+      ],
+      "outputTypes": [
+        "Classical analogue and scalar-model research records",
+        "Conservation, force and finite-domain diagnostics",
+        "Model-consistency and counterexample evidence"
+      ],
+      "maturity": "Research software",
+      "maturityNote": "Available as a specifically scoped research or development software asset. Independent application, rights and handover acceptance remain separate.",
+      "availability": "Available for acquisition discussion",
+      "askingReferenceEUR": 19500,
+      "materialBoundaries": [
+        "Retained acceptance records and 316 current-source local tests support committed software through R2g. The R2h rotational-averaging candidate is outside the offered accepted scope.",
+        "Scalar dynamics, coupling choices and the Dirichlet boundary are model assumptions. Strain-source anisotropy and finite-boundary sensitivity remain explicit; a point-source comparator does not establish isotropy of the original source. Universal gravity, Einstein-equation derivation and emergent physical spacetime are not established.",
+        "The source asserts proprietary status, but a dedicated licence/transfer notice and complete release-specific component and delivery record still require review. Independent scientific, rights and recipient acceptance are not established."
+      ],
+      "offeredScope": [
+        "The specifically agreed first-party software or research work product",
+        "Associated first-party product documentation and retained evaluation material",
+        "The expressly agreed transferable first-party rights"
+      ],
+      "excludedScope": [
+        "Third-party software, data, media, models and service entitlements beyond their own terms",
+        "Personal, customer and author content, private accounts and credentials",
+        "Future development, hosting, hardware, support and operating businesses unless expressly agreed"
+      ],
+      "profileUrl": "https://thearchitect-max.github.io/MyProjects/projects/the-stone-universe-research-framework/",
+      "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/the-stone-universe-research-framework/",
+      "factsheetUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/the-stone-universe-research-framework/factsheet.pdf",
+      "briefUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/the-stone-universe-research-framework/product-brief.md"
+    },
+    {
+      "ref": "TA-IP-118",
+      "slug": "universal-independent-reasoning-framework",
+      "title": "Universal Independent Reasoning Framework",
+      "referenceName": "Diotima",
+      "categoryId": "physics-math-optimization",
+      "buyerGroupIds": [
+        "software",
+        "research"
+      ],
+      "summary": "Register assumptions, inspect supplied argument graphs and test bounded premise consistency while keeping factual truth and empirical evidence separate.",
+      "overview": "A deterministic research-case register and bounded classical propositional argument checker for explicit assumptions, supported derivations and premise consistency.",
+      "potentialBuyers": [
+        "Research-methodology software teams",
+        "Formal reasoning and verification teams",
+        "Scientific and philosophical research groups"
+      ],
+      "capabilities": [
+        "Register structured research cases and assumption relationships",
+        "Validate bounded formula and argument-graph inputs",
+        "Check supported inference rules in dependency order",
+        "Reject cycles and propagate blocked derivations",
+        "Report explicit negation pairs and bounded premise satisfiability"
+      ],
+      "outputTypes": [
+        "Research-case and assumption reports",
+        "Conditional derivation and graph reports",
+        "Bounded satisfiability witnesses and contradiction indicators"
+      ],
+      "maturity": "Research software",
+      "maturityNote": "Available as a specifically scoped research or development software asset. Independent application, rights and handover acceptance remain separate.",
+      "availability": "Available for acquisition discussion",
+      "askingReferenceEUR": 6500,
+      "materialBoundaries": [
+        "Current-source local replay passes 43 tests. Accepted derivations are valid only relative to the supplied premises and supported rules; input checks do not verify the factual truth of premises.",
+        "Truth tables cover at most eight premise atoms. The argument language excludes first-order, modal and temporal logic; this is not a complete theorem prover or an autonomous scientific-discovery system.",
+        "Independent empirical replication, external source verification, intended-use qualification and recipient acceptance are not established. This asset is independent of other portfolio research frameworks."
+      ],
+      "offeredScope": [
+        "The specifically agreed first-party software or research work product",
+        "Associated first-party product documentation and retained evaluation material",
+        "The expressly agreed transferable first-party rights"
+      ],
+      "excludedScope": [
+        "Third-party software, data, media, models and service entitlements beyond their own terms",
+        "Personal, customer and author content, private accounts and credentials",
+        "Future development, hosting, hardware, support and operating businesses unless expressly agreed"
+      ],
+      "profileUrl": "https://thearchitect-max.github.io/MyProjects/projects/universal-independent-reasoning-framework/",
+      "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/universal-independent-reasoning-framework/",
+      "factsheetUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/universal-independent-reasoning-framework/factsheet.pdf",
+      "briefUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/universal-independent-reasoning-framework/product-brief.md"
+    },
+    {
+      "ref": "TA-IP-119",
+      "slug": "foundational-existence-research-framework",
+      "title": "Foundational Existence Research Framework",
+      "referenceName": "Simone",
+      "categoryId": "physics-math-optimization",
+      "buyerGroupIds": [
+        "software",
+        "research"
+      ],
+      "summary": "Examine explicit foundational assumptions and reproduce finite logical countermodels without treating conceptual consistency as evidence about physical reality.",
+      "overview": "An independent foundational-research archive with four analytical volumes and bounded modal-model checks for explanatory necessity, individual identity and grounding assumptions.",
+      "potentialBuyers": [
+        "Logic and philosophical research groups",
+        "Formal-methods and research-software teams",
+        "Scientific methodology and education publishers"
+      ],
+      "capabilities": [
+        "Review four structured foundational research volumes",
+        "Construct finite modal models with explicit domain and identity rules",
+        "Compare worldwise existence and persistent-individual claims",
+        "Enumerate bounded quantifier and grounding counterexamples",
+        "Report semantic assumptions separately from physical claims"
+      ],
+      "outputTypes": [
+        "Foundational research volumes and protocols",
+        "Finite-model counterexamples and enumeration reports",
+        "Local regression and semantic-boundary records"
+      ],
+      "maturity": "Research software",
+      "maturityNote": "Available as a specifically scoped research or development software asset. Independent application, rights and handover acceptance remain separate.",
+      "availability": "Available for acquisition discussion",
+      "askingReferenceEUR": 6500,
+      "materialBoundaries": [
+        "Current local replay passes 57 R2/R3 tests. The R3 bounded enumeration covers 728 models, including 152 identity countermodels; the earlier R2 enumeration remains reproducible. These are finite, model-conditional results.",
+        "Crossworld identity uses stipulated labels, accessibility and varying-domain rules. Barcan-formula and grounding comparisons depend on those choices; they are not unrestricted theorems or evidence about physical existence.",
+        "The four volumes are research documents. Independent formal review, external empirical replication and discoveries about cosmic origins remain unestablished. R4 research and other portfolio assets are outside the offered scope."
+      ],
+      "offeredScope": [
+        "The specifically agreed first-party software or research work product",
+        "Associated first-party product documentation and retained evaluation material",
+        "The expressly agreed transferable first-party rights"
+      ],
+      "excludedScope": [
+        "Third-party software, data, media, models and service entitlements beyond their own terms",
+        "Personal, customer and author content, private accounts and credentials",
+        "Future development, hosting, hardware, support and operating businesses unless expressly agreed"
+      ],
+      "profileUrl": "https://thearchitect-max.github.io/MyProjects/projects/foundational-existence-research-framework/",
+      "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/foundational-existence-research-framework/",
+      "factsheetUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/foundational-existence-research-framework/factsheet.pdf",
+      "briefUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/foundational-existence-research-framework/product-brief.md"
     }
   ]
 }

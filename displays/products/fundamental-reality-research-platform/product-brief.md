@@ -2,11 +2,11 @@
 
 TA-IP-112 | Reference name: Astraea | Physics, mathematics & optimisation
 
-Run FRRP numerical physics-reference and synthetic geometry experiments, compare consistency and verify the provenance and schema of research records.
+Check declared dataset provenance, uncertainty and split conditions; inspect a defined astronomical table format while retaining explicit source-authentication and scientific limits.
 
 ## Product overview
 
-Experimental research software for explicit cosmological reference calculations, toy-geometry experiments, numerical assurance and versioned provenance records.
+Research software combining numerical physics-reference experiments with local dataset-governance checks, versioned evidence records and a bounded astronomical table parser.
 
 ## Potential acquirers
 
@@ -16,17 +16,17 @@ Experimental research software for explicit cosmological reference calculations,
 
 ## Documented functions
 
-- Run declared cosmological reference calculations
-- Explore synthetic graph-distance toy geometry
-- Compare numerical integrators and analytic limits
-- Record deterministic provenance and source limitations
-- Validate versioned records and reject incompatible migrations
+- Run cosmological-reference and synthetic geometry experiments
+- Validate dataset manifests, declared rights and local asset integrity
+- Check uncertainty, covariance and partition declarations
+- Inspect bounded astronomical table records and reject malformed inputs
+- Preserve versioned research records and source limitations
 
 ## Available output types
 
 - Numerical reference and synthetic experiment records
-- Convergence and consistency assessments
-- Schema-checked provenance and compatibility reports
+- Dataset-governance and local-integrity assessments
+- Astronomical table-format and provenance reports
 
 ## Current offered position
 
@@ -34,13 +34,13 @@ Research software. Available as a specifically scoped research or development so
 
 Available for acquisition discussion.
 
-- The v0.2.1 record-contract changes have local software acceptance. Prior v0.2.0 numerical second-runtime evidence does not by itself qualify the new schema code; full R1 acceptance and R2 remain open.
-- Reference calculations, toy geometry and synthetic Bayesian comparisons are not new observations or proof of emergent spacetime, cosmic origins or an original fundamental-physics theory.
-- Independent physical-science review, representative empirical data, declared platform compatibility and recipient acceptance require separate evidence and scope.
+- Retained source-matched second-runtime records cover the implemented numerical, record-contract, dataset-governance and table-parser software. Current local regression replay also passes; full observational-data admission remains open.
+- The astronomical test fixture is a web transcription, not the authenticated original source file. Original-file provenance, product-specific rights, full scientific covariance, instrument and selection qualification remain unresolved.
+- Reference models and software checks do not establish emergent spacetime, cosmic origins, a new physical theory or an accepted cosmological likelihood. Recipient and intended-use acceptance require separate evidence.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 10,500.
+Seller asking reference: EUR 16,500.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -70,29 +70,29 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 0.2.1 / R1.1 numerical and record assurance
+Identified product edition: 0.3.1 / R2A observational-source parser and governance
 
 Handover position: Conditional handover
 
-Experimental research software for explicit cosmological reference calculations, toy-geometry experiments, numerical assurance and versioned provenance records.
+Research software combining numerical physics-reference experiments with local dataset-governance checks, versioned evidence records and a bounded astronomical table parser.
 
 ### Priced first-party scope
 
-Specifically agreed first-party implementation and documentation. Only the specifically agreed first-party numerical-reference, synthetic experiment, assurance and record-contract software and documentation are priced. Other portfolio assets, empirical data rights, physical discoveries, a validated new theory, future R2 modules and production qualification are excluded.
+Specifically agreed first-party implementation and documentation. Previously priced numerical-reference, synthetic geometry and record-assurance foundations are retained once. The increment covers only implemented dataset-governance and table-format software. Other portfolio projects, original observational data rights, authenticated scientific ingestion, novel physics, future modules and production operations are excluded.
 
 ### Offered work and qualification
 
-Experimental research software for explicit cosmological reference calculations, toy-geometry experiments, numerical assurance and versioned provenance records.
+Research software combining numerical physics-reference experiments with local dataset-governance checks, versioned evidence records and a bounded astronomical table parser.
 
-- The v0.2.1 record-contract changes have local software acceptance. Prior v0.2.0 numerical second-runtime evidence does not by itself qualify the new schema code; full R1 acceptance and R2 remain open.
-- Reference calculations, toy geometry and synthetic Bayesian comparisons are not new observations or proof of emergent spacetime, cosmic origins or an original fundamental-physics theory.
-- Independent physical-science review, representative empirical data, declared platform compatibility and recipient acceptance require separate evidence and scope.
+- Retained source-matched second-runtime records cover the implemented numerical, record-contract, dataset-governance and table-parser software. Current local regression replay also passes; full observational-data admission remains open.
+- The astronomical test fixture is a web transcription, not the authenticated original source file. Original-file provenance, product-specific rights, full scientific covariance, instrument and selection qualification remain unresolved.
+- Reference models and software checks do not establish emergent spacetime, cosmic origins, a new physical theory or an accepted cosmological likelihood. Recipient and intended-use acceptance require separate evidence.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | R | Experimental research software for explicit cosmological reference calculations, toy-geometry experiments, numerical assurance and versioned provenance records. The offered edition and material boundaries govern review. |
+| Technical scope | R | Research software combining numerical physics-reference experiments with local dataset-governance checks, versioned evidence records and a bounded astronomical table parser. The offered edition and material boundaries govern review. |
 | Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Source-specific diligence and recipient acceptance remain separate. |
 | Rights and component obligations | R1 | Repository licence file identified. Source-specific diligence and recipient acceptance remain separate. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. Source-specific diligence and recipient acceptance remain separate. |
@@ -129,18 +129,18 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-31. All amounts in EUR. Market value is not established.
+Basis: 2026-11-01. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 10,500 | 11,731 |
-| Negotiation reference - low | 8,500 | 9,496 |
-| Negotiation reference - high | 13,000 | 14,524 |
-| Recreation cost estimate | 34,500 | 38,543 |
-| Marketability cost scenario | 13,343 | 14,907 |
-| Monetisation cost scenario | 8,798 | 9,829 |
-| Risk-adjusted strategic reference | 2,726 | 3,045 |
-| Weighted economic reference | 14,007 | 15,649 |
+| Seller asking reference | 16,500 | 18,434 |
+| Negotiation reference - low | 13,000 | 14,524 |
+| Negotiation reference - high | 20,000 | 22,344 |
+| Recreation cost estimate | 53,500 | 59,770 |
+| Marketability cost scenario | 20,691 | 23,116 |
+| Monetisation cost scenario | 13,643 | 15,242 |
+| Risk-adjusted strategic reference | 4,228 | 4,724 |
+| Weighted economic reference | 21,722 | 24,268 |
 
 USD = EUR × 1.1172, rounded half-up to whole USD. ECB date: 2026-10-30. EUR is authoritative.
 
@@ -159,11 +159,11 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The recreation estimate adopts the lowest expressly scoped seller effort scenario. It is not recorded expenditure, an absolute minimum, an independent quote or established market value. Only the specifically agreed first-party numerical-reference, synthetic experiment, assurance and record-contract software and documentation are priced. Other portfolio assets, empirical data rights, physical discoveries, a validated new theory, future R2 modules and production qualification are excluded.
+The retained priced scope and successive non-overlapping budgets reconcile below. Equivalent effort and historical anchors are seller assumptions, not actual expenditure, independent quotations or market value. Previously priced numerical-reference, synthetic geometry and record-assurance foundations are retained once. The increment covers only implemented dataset-governance and table-format software. Other portfolio projects, original observational data rights, authenticated scientific ingestion, novel physics, future modules and production operations are excluded.
 
 ### Financial assessment
 
-Stated scope reconciled to explicit budgets. Assessed 2026-10-31.
+Stated scope reconciled to explicit budgets. Assessed 2026-11-01.
 
 The stated scope reconciles to explicit seller budgets. Effort remains assumed; independent quotations, intended-use qualification and market value are not established.
 
@@ -197,6 +197,33 @@ Research registry and explicit hypothesis boundaries; Cosmological and synthetic
 
 Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. Only the specifically agreed first-party numerical-reference, synthetic experiment, assurance and record-contract software and documentation are priced. Other portfolio assets, empirical data rights, physical discoveries, a validated new theory, future R2 modules and production qualification are excluded.
 
+#### Scoped implementation reproduction budget
+
+Dataset provenance and local asset-integrity contracts; Uncertainty, covariance and partition validation; Metadata registry and command-line governance; Bounded astronomical table-format reader; Adversarial regression and scope documentation.
+
+- Dataset provenance and local asset-integrity contracts — 40 assumed hours
+- Uncertainty, covariance and partition validation — 48 assumed hours
+- Metadata registry and command-line governance — 32 assumed hours
+- Bounded astronomical table-format reader — 24 assumed hours
+- Adversarial regression and scope documentation — 32 assumed hours
+
+- Assumed hours: 176
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 16,544
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 19,025.6
+- Effort alternatives / Low hours: 176
+- Effort alternatives / Reference hours: 264
+- Effort alternatives / Extended hours: 352
+- Effort alternatives / Low cost: EUR 19,025.6
+- Effort alternatives / Reference cost: EUR 28,538.4
+- Effort alternatives / Extended cost: EUR 38,051.2
+- Adopted recreation increment: EUR 19,000
+- Previous recreation cost: EUR 34,500
+- Current recreation cost: EUR 53,500
+
+Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. Previously priced numerical-reference, synthetic geometry and record-assurance foundations are retained once. The increment covers only implemented dataset-governance and table-format software. Other portfolio projects, original observational data rights, authenticated scientific ingestion, novel physics, future modules and production operations are excluded.
+
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
@@ -213,7 +240,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "R", "potential": "S", "sector": "Research & Scientific Software", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc10
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc11
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/fundamental-reality-research-platform/#calculation
 

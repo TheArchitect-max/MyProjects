@@ -139,7 +139,7 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-10-31. All amounts in EUR. Market value is not established.
+Basis: 2026-11-01. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
@@ -173,7 +173,7 @@ The recreation estimate comprises the retained expressly priced scope and the se
 
 ### Financial assessment
 
-Stated scope reconciled to explicit budgets. Assessed 2026-10-31.
+Stated scope reconciled to explicit budgets. Assessed 2026-11-01.
 
 The stated scope reconciles to explicit seller budgets. Effort remains assumed; independent quotations, intended-use qualification and market value are not established.
 
@@ -319,7 +319,7 @@ Full pricing method and source register: https://thearchitect-max.github.io/MyPr
 
 Calculation inputs: {"stage": "P", "potential": "M", "sector": "Industrial & Infrastructure Software", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc10
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc11
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/universal-systems-intelligence-engine/#calculation
 
