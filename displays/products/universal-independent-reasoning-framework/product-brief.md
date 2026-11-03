@@ -2,11 +2,11 @@
 
 TA-IP-118 | Reference name: Diotima | Physics, mathematics & optimisation
 
-Register assumptions, inspect supplied argument graphs and test bounded premise consistency while keeping factual truth and empirical evidence separate.
+Domain-independent reasoning research software for bounded argument checking, proof artifacts, offline provenance, hypothesis comparison, assumption challenges and declared review decisions.
 
 ## Product overview
 
-A deterministic research-case register and bounded classical propositional argument checker for explicit assumptions, supported derivations and premise consistency.
+Domain-independent reasoning research software for bounded argument checking, proof artifacts, offline provenance, hypothesis comparison, assumption challenges and declared review decisions.
 
 ## Potential acquirers
 
@@ -16,11 +16,11 @@ A deterministic research-case register and bounded classical propositional argum
 
 ## Documented functions
 
-- Register structured research cases and assumption relationships
-- Validate bounded formula and argument-graph inputs
-- Check supported inference rules in dependency order
-- Reject cycles and propagate blocked derivations
-- Report explicit negation pairs and bounded premise satisfiability
+- Check bounded argument graphs and separate proof certificates
+- Verify declared local evidence bytes and provenance contracts
+- Compare explicitly supplied hypotheses and assumptions
+- Generate traceable assumption challenges and review packets
+- Audit source-bound declared review decisions and abstention conditions
 
 ## Available output types
 
@@ -34,13 +34,13 @@ Research software. Available as a specifically scoped research or development so
 
 Available for acquisition discussion.
 
-- Current-source local replay passes 43 tests. Accepted derivations are valid only relative to the supplied premises and supported rules; input checks do not verify the factual truth of premises.
-- Truth tables cover at most eight premise atoms. The argument language excludes first-order, modal and temporal logic; this is not a complete theorem prover or an autonomous scientific-discovery system.
-- Independent empirical replication, external source verification, intended-use qualification and recipient acceptance are not established. This asset is independent of other portfolio research frameworks.
+- Current local full-suite replay passes its executed tests, covering the committed R1-R8 implementation. Earlier R7 acceptance retains its own source scope; the separate R8 release gate remains open.
+- The software checks supplied structures, declarations and bounded logic. It does not authenticate reviewer identity or independence, retrieve or verify external literature, or establish empirical truth.
+- Question candidates and proof artifacts do not establish scientific novelty, unrestricted theorem proving, universal reasoning capability or independent certification.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 6,500.
+Seller asking reference: EUR 15,500.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -70,30 +70,32 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 0.2.0 / R2 bounded formal argument graph
+Identified product edition: 0.8.0 / R8 declared-review decision audit
 
 Handover position: Conditional handover
 
-A deterministic research-case register and bounded classical propositional argument checker for explicit assumptions, supported derivations and premise consistency.
+Domain-independent reasoning research software for bounded argument checking, proof artifacts, offline provenance, hypothesis comparison, assumption challenges and declared review decisions.
+
+Separately scoped development: Current full local regression is available; a separate complete R8 Colab/release acceptance and authenticated reviewer independence remain pending.
 
 ### Priced first-party scope
 
-Only the expressly agreed first-party implemented software, tests and research documents in the stated edition are included. Other portfolio assets, universal scientific conclusions, third-party works, independent certification, future development and operating services are excluded.
+Previously budgeted R1/R2 foundations are retained once. Added first-party R3-R8 proof, provenance, comparison, challenge, review-packet and decision-audit code is priced within its bounded implemented scope. External source rights, authenticated reviewers, scientific discoveries, operating services and future work are excluded.
 
 ### Offered work and qualification
 
-A deterministic research-case register and bounded classical propositional argument checker for explicit assumptions, supported derivations and premise consistency.
+Domain-independent reasoning research software for bounded argument checking, proof artifacts, offline provenance, hypothesis comparison, assumption challenges and declared review decisions.
 
-- Current-source local replay passes 43 tests. Accepted derivations are valid only relative to the supplied premises and supported rules; input checks do not verify the factual truth of premises.
-- Truth tables cover at most eight premise atoms. The argument language excludes first-order, modal and temporal logic; this is not a complete theorem prover or an autonomous scientific-discovery system.
-- Independent empirical replication, external source verification, intended-use qualification and recipient acceptance are not established. This asset is independent of other portfolio research frameworks.
+- Current local full-suite replay passes its executed tests, covering the committed R1-R8 implementation. Earlier R7 acceptance retains its own source scope; the separate R8 release gate remains open.
+- The software checks supplied structures, declarations and bounded logic. It does not authenticate reviewer identity or independence, retrieve or verify external literature, or establish empirical truth.
+- Question candidates and proof artifacts do not establish scientific novelty, unrestricted theorem proving, universal reasoning capability or independent certification.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | R | A deterministic research-case register and bounded classical propositional argument checker for explicit assumptions, supported derivations and premise consistency. The offered edition and limits govern review. |
-| Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Source-specific review and recipient acceptance remain separate. |
+| Technical scope | R | Domain-independent reasoning research software for bounded argument checking, proof artifacts, offline provenance, hypothesis comparison, assumption challenges and declared review decisions. The stated edition and material boundaries govern review. |
+| Evidence and validation | E2 | Current local full-suite replay passes its executed tests, covering the committed R1-R8 implementation. Earlier R7 acceptance retains its own source scope; the separate R8 release gate remains open. Independent recipient and intended-use acceptance remain separate. |
 | Rights and component obligations | R1 | Repository licence file identified. Source-specific review and recipient acceptance remain separate. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. Source-specific review and recipient acceptance remain separate. |
 | Delivery and handover | T2 | Source, documentation, tests and licence evidence support bounded handover. Source-specific review and recipient acceptance remain separate. |
@@ -129,20 +131,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-11-01. All amounts in EUR. Market value is not established.
+Basis: 2026-11-03. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 6,500 | 7,262 |
-| Negotiation reference - low | 5,500 | 6,145 |
-| Negotiation reference - high | 8,500 | 9,496 |
-| Recreation cost estimate | 22,000 | 24,578 |
-| Marketability cost scenario | 8,509 | 9,506 |
-| Monetisation cost scenario | 5,610 | 6,267 |
-| Risk-adjusted strategic reference | 1,739 | 1,943 |
-| Weighted economic reference | 8,932 | 9,979 |
+| Seller asking reference | 15,500 | 17,385 |
+| Negotiation reference - low | 13,500 | 15,142 |
+| Negotiation reference - high | 20,500 | 22,993 |
+| Recreation cost estimate | 53,000 | 59,445 |
+| Marketability cost scenario | 20,498 | 22,991 |
+| Monetisation cost scenario | 13,515 | 15,158 |
+| Risk-adjusted strategic reference | 4,188 | 4,697 |
+| Weighted economic reference | 21,518 | 24,135 |
 
-USD = EUR × 1.1172, rounded half-up to whole USD. ECB date: 2026-10-30. EUR is authoritative.
+USD = EUR × 1.1216, rounded half-up to whole USD. ECB date: 2026-11-02. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -159,11 +161,11 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The estimate adopts the lowest explicitly scoped seller effort scenario; it is not logged expenditure, an independent quote, an absolute minimum or established market value. Only the expressly agreed first-party implemented software, tests and research documents in the stated edition are included. Other portfolio assets, universal scientific conclusions, third-party works, independent certification, future development and operating services are excluded.
+The retained priced scope and explicitly non-overlapping implementation budgets reconcile below. Effort and prices remain seller assumptions, not actual expenditure, independent quotations or established market value. Previously budgeted R1/R2 foundations are retained once. Added first-party R3-R8 proof, provenance, comparison, challenge, review-packet and decision-audit code is priced within its bounded implemented scope. External source rights, authenticated reviewers, scientific discoveries, operating services and future work are excluded.
 
 ### Financial assessment
 
-Stated scope reconciled to explicit budgets. Assessed 2026-11-01.
+Stated scope reconciled to explicit budgets. Assessed 2026-11-03.
 
 The stated scope reconciles to explicit seller budgets. Effort remains assumed; independent quotations, intended-use qualification and market value are not established.
 
@@ -197,6 +199,36 @@ Structured research-case and assumption register; Bounded propositional formula 
 
 Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. Only the expressly agreed first-party implemented software, tests and research documents in the stated edition are included. Other portfolio assets, universal scientific conclusions, third-party works, independent certification, future development and operating services are excluded.
 
+#### Scoped implementation reproduction budget
+
+Separate bounded proof-certificate producer and verifier; Offline file provenance and integrity admission; Explicit cross-domain hypothesis comparison; Assumption challenge and question-candidate generation; Source-bound question review preparation; Declared review-decision audit and abstention; CLI integration and adversarial regression qualification; Method and delivery-boundary documentation.
+
+- Separate bounded proof-certificate producer and verifier — 48 assumed hours
+- Offline file provenance and integrity admission — 32 assumed hours
+- Explicit cross-domain hypothesis comparison — 48 assumed hours
+- Assumption challenge and question-candidate generation — 32 assumed hours
+- Source-bound question review preparation — 32 assumed hours
+- Declared review-decision audit and abstention — 32 assumed hours
+- CLI integration and adversarial regression qualification — 40 assumed hours
+- Method and delivery-boundary documentation — 24 assumed hours
+
+- Assumed hours: 288
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 27,072
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 31,132.8
+- Effort alternatives / Low hours: 288
+- Effort alternatives / Reference hours: 432.0
+- Effort alternatives / Extended hours: 576
+- Effort alternatives / Low cost: EUR 31,132.8
+- Effort alternatives / Reference cost: EUR 46,699.2
+- Effort alternatives / Extended cost: EUR 62,265.6
+- Adopted recreation increment: EUR 31,000
+- Previous recreation cost: EUR 22,000
+- Current recreation cost: EUR 53,000
+
+Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. Previously budgeted R1/R2 foundations are retained once. Added first-party R3-R8 proof, provenance, comparison, challenge, review-packet and decision-audit code is priced within its bounded implemented scope. External source rights, authenticated reviewers, scientific discoveries, operating services and future work are excluded.
+
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
@@ -207,13 +239,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1172; ECB 2026-10-30. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1216; ECB 2026-11-02. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "R", "potential": "S", "sector": "Research & Scientific Software", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc11
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc12
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/universal-independent-reasoning-framework/#calculation
 

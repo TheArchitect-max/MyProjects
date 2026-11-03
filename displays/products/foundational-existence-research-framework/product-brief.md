@@ -2,11 +2,11 @@
 
 TA-IP-119 | Reference name: Simone | Physics, mathematics & optimisation
 
-Examine explicit foundational assumptions and reproduce finite logical countermodels without treating conceptual consistency as evidence about physical reality.
+A foundational research archive with nine analytical volumes, finite semantic/countermodel engines and a bounded bridge from declared observational provenance to software-evidence review.
 
 ## Product overview
 
-An independent foundational-research archive with four analytical volumes and bounded modal-model checks for explanatory necessity, individual identity and grounding assumptions.
+A foundational research archive with nine analytical volumes, finite semantic/countermodel engines and a bounded bridge from declared observational provenance to software-evidence review.
 
 ## Potential acquirers
 
@@ -16,11 +16,11 @@ An independent foundational-research archive with four analytical volumes and bo
 
 ## Documented functions
 
-- Review four structured foundational research volumes
-- Construct finite modal models with explicit domain and identity rules
-- Compare worldwise existence and persistent-individual claims
-- Enumerate bounded quantifier and grounding counterexamples
-- Report semantic assumptions separately from physical claims
+- Compare finite identity and counterpart semantics
+- Analyze premise dependencies, inconsistency and countermodels
+- Separate logical, temporal, causal and grounding relations
+- Screen declared observational provenance and quarantine acquired records
+- Verify complete test/report/source bindings in evidence archives
 
 ## Available output types
 
@@ -34,13 +34,13 @@ Research software. Available as a specifically scoped research or development so
 
 Available for acquisition discussion.
 
-- Current local replay passes 57 R2/R3 tests. The R3 bounded enumeration covers 728 models, including 152 identity countermodels; the earlier R2 enumeration remains reproducible. These are finite, model-conditional results.
-- Crossworld identity uses stipulated labels, accessibility and varying-domain rules. Barcan-formula and grounding comparisons depend on those choices; they are not unrestricted theorems or evidence about physical existence.
-- The four volumes are research documents. Independent formal review, external empirical replication and discoveries about cosmic origins remain unestablished. R4 research and other portfolio assets are outside the offered scope.
+- Current local replay passes its executed R2-R8C tests. Earlier R8B acceptance retains its documented omitted-manifest-entry warning; the new contract is tested separately rather than rewriting that evidence.
+- NASA acquisition tests use controlled transport and the observational bridge uses declared inputs. No live NASA dataset was retrieved or scientifically admitted in this review.
+- The nine volumes and bounded models do not prove facts about ultimate physical existence. Scientific novelty, external peer review, real observational independence and unrestricted causal claims remain unestablished.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 6,500.
+Seller asking reference: EUR 18,000.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -70,30 +70,32 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: R3 / modal identity, grounding and four research volumes
+Identified product edition: R8C / finite semantics and evidence-integrity contracts
 
 Handover position: Conditional handover
 
-An independent foundational-research archive with four analytical volumes and bounded modal-model checks for explanatory necessity, individual identity and grounding assumptions.
+A foundational research archive with nine analytical volumes, finite semantic/countermodel engines and a bounded bridge from declared observational provenance to software-evidence review.
+
+Separately scoped development: Current combined local regression is available; separate complete R8C release acceptance and empirical scientific admission remain open.
 
 ### Priced first-party scope
 
-Only the agreed first-party R2/R3 finite semantic models, 57 regression tests and four research volumes are included. General facts and ideas, third-party works, R4 research, empirical discoveries, independent certification and other portfolio assets are excluded.
+Previously budgeted R2/R3 finite models and four volumes are retained once. Added R4-R8C counterpart, premise, typed-comparison, provenance/quarantine and evidence-contract software plus five further volumes is priced only as first-party research work. Facts, general ideas, third-party works, empirical discoveries and future qualification are excluded.
 
 ### Offered work and qualification
 
-An independent foundational-research archive with four analytical volumes and bounded modal-model checks for explanatory necessity, individual identity and grounding assumptions.
+A foundational research archive with nine analytical volumes, finite semantic/countermodel engines and a bounded bridge from declared observational provenance to software-evidence review.
 
-- Current local replay passes 57 R2/R3 tests. The R3 bounded enumeration covers 728 models, including 152 identity countermodels; the earlier R2 enumeration remains reproducible. These are finite, model-conditional results.
-- Crossworld identity uses stipulated labels, accessibility and varying-domain rules. Barcan-formula and grounding comparisons depend on those choices; they are not unrestricted theorems or evidence about physical existence.
-- The four volumes are research documents. Independent formal review, external empirical replication and discoveries about cosmic origins remain unestablished. R4 research and other portfolio assets are outside the offered scope.
+- Current local replay passes its executed R2-R8C tests. Earlier R8B acceptance retains its documented omitted-manifest-entry warning; the new contract is tested separately rather than rewriting that evidence.
+- NASA acquisition tests use controlled transport and the observational bridge uses declared inputs. No live NASA dataset was retrieved or scientifically admitted in this review.
+- The nine volumes and bounded models do not prove facts about ultimate physical existence. Scientific novelty, external peer review, real observational independence and unrestricted causal claims remain unestablished.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | R | An independent foundational-research archive with four analytical volumes and bounded modal-model checks for explanatory necessity, individual identity and grounding assumptions. The stated finite semantics and research limits govern review. |
-| Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Source-specific review and recipient acceptance remain separate. |
+| Technical scope | R | A foundational research archive with nine analytical volumes, finite semantic/countermodel engines and a bounded bridge from declared observational provenance to software-evidence review. The stated edition and material boundaries govern review. |
+| Evidence and validation | E2 | Current local replay passes its executed R2-R8C tests. Earlier R8B acceptance retains its documented omitted-manifest-entry warning; the new contract is tested separately rather than rewriting that evidence. Independent recipient and intended-use acceptance remain separate. |
 | Rights and component obligations | R1 | Repository licence file identified. Source-specific review and recipient acceptance remain separate. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. Source-specific review and recipient acceptance remain separate. |
 | Delivery and handover | T2 | Source, documentation, tests and licence evidence support bounded handover. Source-specific review and recipient acceptance remain separate. |
@@ -129,20 +131,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-11-01. All amounts in EUR. Market value is not established.
+Basis: 2026-11-03. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 6,500 | 7,262 |
-| Negotiation reference - low | 5,500 | 6,145 |
-| Negotiation reference - high | 8,500 | 9,496 |
-| Recreation cost estimate | 22,000 | 24,578 |
-| Marketability cost scenario | 8,509 | 9,506 |
-| Monetisation cost scenario | 5,610 | 6,267 |
-| Risk-adjusted strategic reference | 1,739 | 1,943 |
-| Weighted economic reference | 8,932 | 9,979 |
+| Seller asking reference | 18,000 | 20,189 |
+| Negotiation reference - low | 15,500 | 17,385 |
+| Negotiation reference - high | 24,000 | 26,918 |
+| Recreation cost estimate | 61,500 | 68,978 |
+| Marketability cost scenario | 23,785 | 26,677 |
+| Monetisation cost scenario | 15,683 | 17,590 |
+| Risk-adjusted strategic reference | 4,860 | 5,451 |
+| Weighted economic reference | 24,970 | 28,006 |
 
-USD = EUR × 1.1172, rounded half-up to whole USD. ECB date: 2026-10-30. EUR is authoritative.
+USD = EUR × 1.1216, rounded half-up to whole USD. ECB date: 2026-11-02. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -159,11 +161,11 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The lowest explicitly scoped seller effort scenario is adopted. This is not actual expenditure, an independent quote or established market value. Only the agreed first-party R2/R3 finite semantic models, 57 regression tests and four research volumes are included. General facts and ideas, third-party works, R4 research, empirical discoveries, independent certification and other portfolio assets are excluded.
+The retained priced scope and explicitly non-overlapping implementation budgets reconcile below. Effort and prices remain seller assumptions, not actual expenditure, independent quotations or established market value. Previously budgeted R2/R3 finite models and four volumes are retained once. Added R4-R8C counterpart, premise, typed-comparison, provenance/quarantine and evidence-contract software plus five further volumes is priced only as first-party research work. Facts, general ideas, third-party works, empirical discoveries and future qualification are excluded.
 
 ### Financial assessment
 
-Stated scope reconciled to explicit budgets. Assessed 2026-11-01.
+Stated scope reconciled to explicit budgets. Assessed 2026-11-03.
 
 The stated scope reconciles to explicit seller budgets. Effort remains assumed; independent quotations, intended-use qualification and market value are not established.
 
@@ -198,6 +200,37 @@ Foundational research structure and three analytical volumes; Finite modal and l
 
 Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. Only the agreed first-party R2/R3 finite semantic models, 57 regression tests and four research volumes are included. General facts and ideas, third-party works, R4 research, empirical discoveries, independent certification and other portfolio assets are excluded.
 
+#### Scoped implementation reproduction budget
+
+Finite counterpart semantics and identity counterexamples; Premise support, inconsistency and countermodel engine; Typed explanatory relations and bounded causal interventions; Assumption-sensitive finite model comparison; Offline observational provenance and uncertainty intake; Bounded acquisition and quarantine adapter; Strict evidence archive and report-integrity contract; Five additional analytical volumes and research protocols; Cross-module regression and handover qualification.
+
+- Finite counterpart semantics and identity counterexamples — 40 assumed hours
+- Premise support, inconsistency and countermodel engine — 48 assumed hours
+- Typed explanatory relations and bounded causal interventions — 48 assumed hours
+- Assumption-sensitive finite model comparison — 40 assumed hours
+- Offline observational provenance and uncertainty intake — 40 assumed hours
+- Bounded acquisition and quarantine adapter — 24 assumed hours
+- Strict evidence archive and report-integrity contract — 40 assumed hours
+- Five additional analytical volumes and research protocols — 48 assumed hours
+- Cross-module regression and handover qualification — 40 assumed hours
+
+- Assumed hours: 368
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 34,592
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 39,780.8
+- Effort alternatives / Low hours: 368
+- Effort alternatives / Reference hours: 552.0
+- Effort alternatives / Extended hours: 736
+- Effort alternatives / Low cost: EUR 39,780.8
+- Effort alternatives / Reference cost: EUR 59,671.2
+- Effort alternatives / Extended cost: EUR 79,561.6
+- Adopted recreation increment: EUR 39,500
+- Previous recreation cost: EUR 22,000
+- Current recreation cost: EUR 61,500
+
+Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. Previously budgeted R2/R3 finite models and four volumes are retained once. Added R4-R8C counterpart, premise, typed-comparison, provenance/quarantine and evidence-contract software plus five further volumes is priced only as first-party research work. Facts, general ideas, third-party works, empirical discoveries and future qualification are excluded.
+
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
@@ -208,13 +241,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1172; ECB 2026-10-30. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1216; ECB 2026-11-02. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "R", "potential": "S", "sector": "Research & Scientific Software", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc11
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc12
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/foundational-existence-research-framework/#calculation
 

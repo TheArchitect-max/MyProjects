@@ -2,11 +2,11 @@
 
 TA-IP-075 | Reference name: Emmy | Physics, mathematics & optimisation
 
-Compare optimisation approaches and assess candidate solutions within a clearly defined problem scope.
+QUBO structural-analysis research software with a separately specified weighted Max-3-SAT encoding, explicit auxiliary-variable accounting and bounded exhaustive objective checks.
 
 ## Product overview
 
-An optimisation research prototype for structured problem analysis and comparative studies.
+QUBO structural-analysis research software with a separately specified weighted Max-3-SAT encoding, explicit auxiliary-variable accounting and bounded exhaustive objective checks.
 
 ## Potential acquirers
 
@@ -16,11 +16,11 @@ An optimisation research prototype for structured problem analysis and comparati
 
 ## Documented functions
 
-- Characterise supplied problems
-- Review connectivity and scale
-- Compare bounded candidate solutions
-- Measure study resource use
-- Retain qualification evidence
+- Inspect declared matrix and sparse-structure properties
+- Encode normalized weighted clauses under a strict penalty condition
+- Preserve constant offsets and source-formula provenance
+- Compare every bounded source and auxiliary assignment
+- Search declared random-formula families for counterexamples
 
 ## Available output types
 
@@ -34,7 +34,9 @@ Prototype. A prototype offered for evaluation and continued development; product
 
 Available for acquisition discussion.
 
-- Optimisation research software. Performance must be evaluated for the intended problem class and operating conditions.
+- The current local suite passes its executed tests. The separate deterministic encoding campaign checks bounded formulas under the stated variable, clause and penalty assumptions.
+- The qualified objective relation belongs to the named encoding. The earlier pairwise structural projection remains a separate research construction and is not an exact satisfiability reduction.
+- Finite validation does not establish polynomial-time solution of NP-complete problems, universal spectral barriers or quantum advantage. The retained recreation anchor lacks a complete work breakdown.
 
 ## Acquisition reference
 
@@ -68,22 +70,30 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 0.2.0
+Identified product edition: 0.3.0 / bounded weighted Max-3-SAT encoding qualification
 
 Handover position: Conditional handover
 
-An implemented prototype for evaluation and further development.
+QUBO structural-analysis research software with a separately specified weighted Max-3-SAT encoding, explicit auxiliary-variable accounting and bounded exhaustive objective checks.
 
 ### Priced first-party scope
 
-Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+The specifically agreed first-party structural-analysis and bounded encoding software may be reviewed for transfer. The prior low-confidence recreation anchor is retained without an uplift. Universal complexity claims, hardware, quantum advantage and future research are excluded.
+
+### Offered work and qualification
+
+QUBO structural-analysis research software with a separately specified weighted Max-3-SAT encoding, explicit auxiliary-variable accounting and bounded exhaustive objective checks.
+
+- The current local suite passes its executed tests. The separate deterministic encoding campaign checks bounded formulas under the stated variable, clause and penalty assumptions.
+- The qualified objective relation belongs to the named encoding. The earlier pairwise structural projection remains a separate research construction and is not an exact satisfiability reduction.
+- Finite validation does not establish polynomial-time solution of NP-complete problems, universal spectral barriers or quantum advantage. The retained recreation anchor lacks a complete work breakdown.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | P | An optimisation research prototype for structured problem analysis and comparative studies. The offered edition and material boundaries govern review. |
-| Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
+| Technical scope | P | QUBO structural-analysis research software with a separately specified weighted Max-3-SAT encoding, explicit auxiliary-variable accounting and bounded exhaustive objective checks. The stated edition and material boundaries govern review. |
+| Evidence and validation | E2 | The current local suite passes its executed tests. The separate deterministic encoding campaign checks bounded formulas under the stated variable, clause and penalty assumptions. Independent recipient and intended-use acceptance remain separate. |
 | Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
 | Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance. |
@@ -131,20 +141,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-11-01. All amounts in EUR. Market value is not established.
+Basis: 2026-11-03. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 90,000 | 100,548 |
-| Negotiation reference - low | 70,000 | 78,204 |
-| Negotiation reference - high | 115,000 | 128,478 |
-| Recreation cost estimate | 650,000 | 726,180 |
-| Marketability cost scenario | 422,663 | 472,199 |
-| Monetisation cost scenario | 372,938 | 416,646 |
-| Risk-adjusted strategic reference | 209,570 | 234,132 |
-| Weighted economic reference | 394,970 | 441,260 |
+| Seller asking reference | 90,000 | 100,944 |
+| Negotiation reference - low | 70,000 | 78,512 |
+| Negotiation reference - high | 115,000 | 128,984 |
+| Recreation cost estimate | 650,000 | 729,040 |
+| Marketability cost scenario | 422,663 | 474,059 |
+| Monetisation cost scenario | 372,938 | 418,287 |
+| Risk-adjusted strategic reference | 209,570 | 235,054 |
+| Weighted economic reference | 394,970 | 442,998 |
 
-USD = EUR × 1.1172, rounded half-up to whole USD. ECB date: 2026-10-30. EUR is authoritative.
+USD = EUR × 1.1216, rounded half-up to whole USD. ECB date: 2026-11-02. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -161,11 +171,11 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance. Review on 2026-11-03: The specifically agreed first-party structural-analysis and bounded encoding software may be reviewed for transfer. The prior low-confidence recreation anchor is retained without an uplift. Universal complexity claims, hardware, quantum advantage and future research are excluded.
 
 ### Financial assessment
 
-Retained seller estimate; work breakdown required. Assessed 2026-11-01.
+Retained seller estimate; work breakdown required. Assessed 2026-11-03.
 
 No complete work-package budget supports the retained anchor. Obtain a delivery-specific work breakdown and quote; this seller estimate does not establish actual expenditure or market value.
 
@@ -181,13 +191,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1172; ECB 2026-10-30. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1216; ECB 2026-11-02. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "P", "potential": "M", "sector": "Research & Scientific Software", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc11
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc12
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/qubo-structural-analysis-and-optimization-platform/#calculation
 

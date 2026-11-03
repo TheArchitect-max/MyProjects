@@ -2,11 +2,11 @@
 
 TA-IP-051 | Reference name: Vivian | Visual & spatial software
 
-Compare AI research results and examine ECG learning studies through repeatable evaluation.
+Experimental machine-learning and ECG research software with reproducible training, frozen external-evaluation records, dataset-consumption governance and a preregistered second-dataset inference workflow.
 
 ## Product overview
 
-An AI and ECG research engine with checkpoint provenance, subject-safe training, repeated-seed governance and a locked external-generalisation protocol.
+Experimental machine-learning and ECG research software with reproducible training, frozen external-evaluation records, dataset-consumption governance and a preregistered second-dataset inference workflow.
 
 ## Potential acquirers
 
@@ -16,11 +16,11 @@ An AI and ECG research engine with checkpoint provenance, subject-safe training,
 
 ## Documented functions
 
-- Run controlled AI and ECG benchmark studies
-- Recover compatible checkpoints with trainer guards
-- Retain subject-safe training and threshold records
-- Apply locked external-generalisation contracts
-- Report provenance and descriptive research results
+- Run controlled training and model-evaluation experiments
+- Preserve frozen external-generalization reports and integrity records
+- Identify when an external dataset has become a consumed development boundary
+- Qualify a separately declared dataset before inference
+- Bind model identities, thresholds and resumable inference to a frozen protocol
 
 ## Available output types
 
@@ -34,7 +34,9 @@ Developed software. Existing software offered for evaluation against an agreed u
 
 Available for acquisition discussion.
 
-- Clinical validity, patient-care suitability, regulatory approval and superiority to third-party models are not established by engineering governance.
+- Current local CPU regressions pass. Retained INCART records describe three frozen model runs; their descriptive performance is not a predeclared performance success threshold.
+- Retained SVDB qualification verifies the declared file/header boundary without running model inference. The 0.12 workflow is implemented, but completed second-dataset performance evidence remains pending.
+- The work is research software. Clinical validity, medical-device approval, general superiority, independent reproduction of the external data run and third-party data/model rights are not established by this review.
 
 ## Acquisition reference
 
@@ -68,34 +70,32 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 0.9.0
+Identified product edition: 0.12.0 / frozen external-baseline and SVDB inference protocol
 
 Handover position: Conditional handover
 
-An AI and ECG research engine with checkpoint provenance, subject-safe training, repeated-seed governance and a locked external-generalisation protocol.
+Experimental machine-learning and ECG research software with reproducible training, frozen external-evaluation records, dataset-consumption governance and a preregistered second-dataset inference workflow.
+
+Separately scoped development: The first-inference workflow is implemented; a retained completed SVDB model-performance run is not established at this review cutoff.
 
 ### Priced first-party scope
 
-Specifically agreed first-party implementation, documentation and retained evidence for 0.9.0. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.
+The specifically agreed first-party research code, protocol and retained engineering records are available for review. The earlier partially budgeted recreation anchor is retained without an uplift. External datasets/models, clinical claims, a completed SVDB inference result and future qualification are excluded.
 
-### Edition-specific evidence
+### Offered work and qualification
 
-Retained developer evidence supports the identified edition within its documented software scope. Representative recipient acceptance and any independent application qualification remain separate.
+Experimental machine-learning and ECG research software with reproducible training, frozen external-evaluation records, dataset-consumption governance and a preregistered second-dataset inference workflow.
 
-
-
-### Intended qualification
-
-Reproduce checkpoint-repair regressions and review each retained training, primary-holdout and external dataset result separately, including unsuccessful results.
-
-- Clinical validity, patient-care suitability, regulatory approval and superiority to third-party models are not established by engineering governance.
+- Current local CPU regressions pass. Retained INCART records describe three frozen model runs; their descriptive performance is not a predeclared performance success threshold.
+- Retained SVDB qualification verifies the declared file/header boundary without running model inference. The 0.12 workflow is implemented, but completed second-dataset performance evidence remains pending.
+- The work is research software. Clinical validity, medical-device approval, general superiority, independent reproduction of the external data run and third-party data/model rights are not established by this review.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | V | An AI and ECG research engine with checkpoint provenance, subject-safe training, repeated-seed governance and a locked external-generalisation protocol. The offered edition and material boundaries govern review. |
-| Evidence and validation | E3 | Tests, validation and provenance/release evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
+| Technical scope | V | Experimental machine-learning and ECG research software with reproducible training, frozen external-evaluation records, dataset-consumption governance and a preregistered second-dataset inference workflow. The stated edition and material boundaries govern review. |
+| Evidence and validation | E3 | Current local CPU regressions pass. Retained INCART records describe three frozen model runs; their descriptive performance is not a predeclared performance success threshold. Independent recipient and intended-use acceptance remain separate. |
 | Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
 | Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance. |
@@ -141,20 +141,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-11-01. All amounts in EUR. Market value is not established.
+Basis: 2026-11-03. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 260,000 | 290,472 |
-| Negotiation reference - low | 210,000 | 234,612 |
-| Negotiation reference - high | 325,000 | 363,090 |
-| Recreation cost estimate | 1,200,500 | 1,341,199 |
-| Marketability cost scenario | 1,188,495 | 1,327,787 |
-| Monetisation cost scenario | 918,383 | 1,026,017 |
-| Risk-adjusted strategic reference | 709,119 | 792,228 |
-| Weighted economic reference | 969,692 | 1,083,340 |
+| Seller asking reference | 260,000 | 291,616 |
+| Negotiation reference - low | 210,000 | 235,536 |
+| Negotiation reference - high | 325,000 | 364,520 |
+| Recreation cost estimate | 1,200,500 | 1,346,481 |
+| Marketability cost scenario | 1,188,495 | 1,333,016 |
+| Monetisation cost scenario | 918,383 | 1,030,058 |
+| Risk-adjusted strategic reference | 709,119 | 795,348 |
+| Weighted economic reference | 969,692 | 1,087,607 |
 
-USD = EUR × 1.1172, rounded half-up to whole USD. ECB date: 2026-10-30. EUR is authoritative.
+USD = EUR × 1.1216, rounded half-up to whole USD. ECB date: 2026-11-02. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -171,11 +171,11 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-Recreation estimate: EUR 1,200,000 retained scope component plus EUR 500 for the explicitly scoped implementation work budget, giving EUR 1,200,500. The scoped budget assumes 8 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.
+Recreation estimate: EUR 1,200,000 retained scope component plus EUR 500 for the explicitly scoped implementation work budget, giving EUR 1,200,500. The scoped budget assumes 8 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value. Review on 2026-11-03: The specifically agreed first-party research code, protocol and retained engineering records are available for review. The earlier partially budgeted recreation anchor is retained without an uplift. External datasets/models, clinical claims, a completed SVDB inference result and future qualification are excluded.
 
 ### Financial assessment
 
-Partial scoped budget; retained anchor remains provisional. Assessed 2026-11-01.
+Partial scoped budget; retained anchor remains provisional. Assessed 2026-11-03.
 
 Explicit budgets cover part of the estimate. The retained anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
@@ -216,13 +216,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1172; ECB 2026-10-30. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1216; ECB 2026-11-02. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "V", "potential": "M", "sector": "AI, Decision & Knowledge Systems", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc11
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc12
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/visionair-research-engine/#calculation
 

@@ -1,12 +1,12 @@
-# Maastricht Digital Twin
+# Urban Digital Twin Intelligence & Simulation Platform
 
 TA-IP-087 | Reference name: Mila | Operations, reliability & digital twins
 
-Explore Maastricht-based scenarios and compare mobility simulations in a local research workbench.
+An offline urban digital-twin research workbench with geospatial import, deterministic mobility fixtures, paired intervention scenarios, local browser exploration and replayable evidence.
 
 ## Product overview
 
-A Maastricht geospatial workbench for repeatable urban mobility studies.
+An offline urban digital-twin research workbench with geospatial import, deterministic mobility fixtures, paired intervention scenarios, local browser exploration and replayable evidence.
 
 ## Potential acquirers
 
@@ -16,11 +16,11 @@ A Maastricht geospatial workbench for repeatable urban mobility studies.
 
 ## Documented functions
 
-- Import permitted geospatial records
-- Explore a local city workbench
-- Run mobility scenarios
-- Retain scenario histories
-- Replay study evidence
+- Import declared geospatial inputs into a local world model
+- Explore the local world in a browser interface
+- Run deterministic mobility and intervention scenarios
+- Compare paired baseline/intervention runs with explicit seeds
+- Export and replay scenario evidence and local records
 
 ## Available output types
 
@@ -34,7 +34,9 @@ Prototype. A prototype offered for evaluation and continued development; product
 
 Available for acquisition discussion.
 
-- A geospatial research workbench. City data and other third-party materials remain subject to their own rights.
+- Current local replay passes its executed tests; optional geospatial-backend checks are skipped in this environment. Paired scenario comparison and product identity tests are included.
+- Bundled Maastricht geometry is schematic and traffic behaviour is illustrative. A surveyed city reconstruction, calibrated traffic model and validated planning predictions are not supplied.
+- The new canonical name retains TA-IP-087 and Mila. Real-world data admission, independent recipient acceptance and production operation remain separate.
 
 ## Acquisition reference
 
@@ -68,22 +70,30 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 0.1.0
+Identified product edition: 0.1.0 / paired scenario comparison and canonical identity
 
 Handover position: Conditional handover
 
-An implemented prototype for evaluation and further development.
+An offline urban digital-twin research workbench with geospatial import, deterministic mobility fixtures, paired intervention scenarios, local browser exploration and replayable evidence.
 
 ### Priced first-party scope
 
-Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+The specifically agreed local first-party workbench, paired scenario comparison and documentation retain the prior low-confidence recreation anchor without a naming or version premium. Real-city measurement rights, calibrated planning predictions, hosting and future modules are excluded.
+
+### Offered work and qualification
+
+An offline urban digital-twin research workbench with geospatial import, deterministic mobility fixtures, paired intervention scenarios, local browser exploration and replayable evidence.
+
+- Current local replay passes its executed tests; optional geospatial-backend checks are skipped in this environment. Paired scenario comparison and product identity tests are included.
+- Bundled Maastricht geometry is schematic and traffic behaviour is illustrative. A surveyed city reconstruction, calibrated traffic model and validated planning predictions are not supplied.
+- The new canonical name retains TA-IP-087 and Mila. Real-world data admission, independent recipient acceptance and production operation remain separate.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | P | A Maastricht geospatial workbench for repeatable urban mobility studies. The offered edition and material boundaries govern review. |
-| Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
+| Technical scope | P | An offline urban digital-twin research workbench with geospatial import, deterministic mobility fixtures, paired intervention scenarios, local browser exploration and replayable evidence. The stated edition and material boundaries govern review. |
+| Evidence and validation | E2 | Current local replay passes its executed tests; optional geospatial-backend checks are skipped in this environment. Paired scenario comparison and product identity tests are included. Independent recipient and intended-use acceptance remain separate. |
 | Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
 | Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance. |
@@ -129,20 +139,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-11-01. All amounts in EUR. Market value is not established.
+Basis: 2026-11-03. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 200,000 | 223,440 |
-| Negotiation reference - low | 160,000 | 178,752 |
-| Negotiation reference - high | 250,000 | 279,300 |
-| Recreation cost estimate | 1,000,000 | 1,117,200 |
-| Marketability cost scenario | 1,026,375 | 1,146,666 |
-| Monetisation cost scenario | 860,625 | 961,490 |
-| Risk-adjusted strategic reference | 860,565 | 961,423 |
-| Weighted economic reference | 928,598 | 1,037,430 |
+| Seller asking reference | 200,000 | 224,320 |
+| Negotiation reference - low | 160,000 | 179,456 |
+| Negotiation reference - high | 250,000 | 280,400 |
+| Recreation cost estimate | 1,000,000 | 1,121,600 |
+| Marketability cost scenario | 1,026,375 | 1,151,182 |
+| Monetisation cost scenario | 860,625 | 965,277 |
+| Risk-adjusted strategic reference | 860,565 | 965,210 |
+| Weighted economic reference | 928,598 | 1,041,516 |
 
-USD = EUR × 1.1172, rounded half-up to whole USD. ECB date: 2026-10-30. EUR is authoritative.
+USD = EUR × 1.1216, rounded half-up to whole USD. ECB date: 2026-11-02. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -159,11 +169,11 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance. Review on 2026-11-03: The specifically agreed local first-party workbench, paired scenario comparison and documentation retain the prior low-confidence recreation anchor without a naming or version premium. Real-city measurement rights, calibrated planning predictions, hosting and future modules are excluded.
 
 ### Financial assessment
 
-Retained seller estimate; work breakdown required. Assessed 2026-11-01.
+Retained seller estimate; work breakdown required. Assessed 2026-11-03.
 
 No complete work-package budget supports the retained anchor. Obtain a delivery-specific work breakdown and quote; this seller estimate does not establish actual expenditure or market value.
 
@@ -179,19 +189,19 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1172; ECB 2026-10-30. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1216; ECB 2026-11-02. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "P", "potential": "H", "sector": "Industrial & Infrastructure Software", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc11
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc12
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/maastricht-digital-twin/#calculation
 
 ## Buyer-specific economic value and evaluation
 
-TA-IP-087 / Mila / Maastricht Digital Twin
+TA-IP-087 / Mila / Urban Digital Twin Intelligence & Simulation Platform
 
 Assess the intended use against a credible build, licence or operating alternative. Support any time advantage, incremental cash flow or avoided costs, count each benefit once, and include remaining qualification, integration, rights and operating requirements. The published references describe their stated scope and assumptions; a separately evidenced buyer-specific case may support different consideration. No strategic premium, independently established market value or guaranteed transaction ceiling/floor is asserted.
 

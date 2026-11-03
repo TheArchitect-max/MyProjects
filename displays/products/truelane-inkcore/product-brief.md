@@ -133,20 +133,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-11-01. All amounts in EUR. Market value is not established.
+Basis: 2026-11-03. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 165,500 | 184,897 |
-| Negotiation reference - low | 134,500 | 150,263 |
-| Negotiation reference - high | 207,000 | 231,260 |
-| Recreation cost estimate | 672,000 | 750,758 |
-| Marketability cost scenario | 772,800 | 863,372 |
-| Monetisation cost scenario | 997,920 | 1,114,876 |
-| Risk-adjusted strategic reference | 779,706 | 871,088 |
-| Weighted economic reference | 795,041 | 888,220 |
+| Seller asking reference | 165,500 | 185,625 |
+| Negotiation reference - low | 134,500 | 150,855 |
+| Negotiation reference - high | 207,000 | 232,171 |
+| Recreation cost estimate | 672,000 | 753,715 |
+| Marketability cost scenario | 772,800 | 866,772 |
+| Monetisation cost scenario | 997,920 | 1,119,267 |
+| Risk-adjusted strategic reference | 779,706 | 874,518 |
+| Weighted economic reference | 795,041 | 891,718 |
 
-USD = EUR × 1.1172, rounded half-up to whole USD. ECB date: 2026-10-30. EUR is authoritative.
+USD = EUR × 1.1216, rounded half-up to whole USD. ECB date: 2026-11-02. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -167,7 +167,7 @@ The retained expressly priced scope and successive non-overlapping budgets recon
 
 ### Financial assessment
 
-Partial scoped budget; retained anchor remains provisional. Assessed 2026-11-01.
+Partial scoped budget; retained anchor remains provisional. Assessed 2026-11-03.
 
 Explicit budgets cover part of the estimate. The retained anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
@@ -210,13 +210,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1172; ECB 2026-10-30. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1216; ECB 2026-11-02. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "V", "potential": "H", "sector": "Specialist Vertical Software", "route": "Vertical SaaS / specialist software"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc11
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc12
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/truelane-inkcore/#calculation
 

@@ -2,11 +2,11 @@
 
 TA-IP-063 | Reference name: Beatrice | Software assurance & infrastructure
 
-Review a software asset’s origin and qualification evidence before accepting a release or handover.
+Repository provenance and qualification software with component/evidence inventories and a candidate release workflow that checks structured build/test evidence, signatures and cross-file bindings.
 
 ## Product overview
 
-A software-asset qualification product for reviewable provenance and release evidence.
+Repository provenance and qualification software with component/evidence inventories and a candidate release workflow that checks structured build/test evidence, signatures and cross-file bindings.
 
 ## Potential acquirers
 
@@ -16,11 +16,11 @@ A software-asset qualification product for reviewable provenance and release evi
 
 ## Documented functions
 
-- Inventory software work products
-- Review provenance records
-- Record build and test evidence
-- Prepare asset dossiers
-- Verify release attestations
+- Inventory declared source and component evidence
+- Apply explicit qualification policy and provenance checks
+- Bind structured test evidence to a repository fingerprint
+- Verify signatures and connected release-evidence records
+- Prepare a bounded asset dossier from allowlisted evidence
 
 ## Available output types
 
@@ -32,9 +32,11 @@ A software-asset qualification product for reviewable provenance and release evi
 
 Developed software. Existing software offered for evaluation against an agreed use and delivery scope.
 
-Available for acquisition discussion.
+Available for discussion; current development candidate has unresolved regression checks.
 
-- Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately.
+- Current local replay reports failed legacy-policy tests: expected IP_READY outcomes now evaluate to FAILED. Complete 0.5 release acceptance is unresolved.
+- Structured release receipts and signatures verify supplied technical bindings; they do not independently prove authorship, legal ownership or the truth of reviewer declarations.
+- Real isolated-build infrastructure, security review, distribution rights and recipient acceptance remain separate. Interoperability envelopes do not establish a SLSA level or standards certification.
 
 ## Acquisition reference
 
@@ -68,28 +70,39 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 0.4.0
+Identified product edition: 0.4.0 retained scope / 0.5.0 release-assurance candidate
 
 Handover position: Conditional handover
 
-Available software for evaluation against your intended use. Deployment suitability is assessed separately.
+Repository provenance and qualification software with component/evidence inventories and a candidate release workflow that checks structured build/test evidence, signatures and cross-file bindings.
+
+Separately scoped development: The structured release-assurance candidate is implemented; three prior policy compatibility tests fail in the current full replay.
 
 ### Priced first-party scope
 
-Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+The earlier specifically priced provenance/qualification scope is retained. The 0.5 release-assurance implementation is disclosed as development scope with unresolved compatibility tests and no added monetary premium. Legal title, independent certification and production readiness are excluded.
+
+### Offered work and qualification
+
+Repository provenance and qualification software with component/evidence inventories and a candidate release workflow that checks structured build/test evidence, signatures and cross-file bindings.
+
+- Current local replay reports failed legacy-policy tests: expected IP_READY outcomes now evaluate to FAILED. Complete 0.5 release acceptance is unresolved.
+- Structured release receipts and signatures verify supplied technical bindings; they do not independently prove authorship, legal ownership or the truth of reviewer declarations.
+- Real isolated-build infrastructure, security review, distribution rights and recipient acceptance remain separate. Interoperability envelopes do not establish a SLSA level or standards certification.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | V | A software-asset qualification product for reviewable provenance and release evidence. The offered edition and material boundaries govern review. |
-| Evidence and validation | E4 | E3 plus repository-retained independent/external validation evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
+| Technical scope | V | Repository provenance and qualification software with component/evidence inventories and a candidate release workflow that checks structured build/test evidence, signatures and cross-file bindings. The stated edition and material boundaries govern review. |
+| Evidence and validation | E4 | Current local replay reports failed legacy-policy tests: expected IP_READY outcomes now evaluate to FAILED. Complete 0.5 release acceptance is unresolved. Independent recipient and intended-use acceptance remain separate. |
 | Rights and component obligations | R3 | R2 plus SBOM/lockfile and provenance/rights-supporting evidence identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
 | Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance. |
 
 ### Conditions before handover
 
+- Resolve and repeat the stated current-candidate regression and complete release gates before representing that candidate as accepted.
 - Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
 - An explicit delivery manifest and handover scope remain to be agreed.
 
@@ -127,20 +140,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-11-01. All amounts in EUR. Market value is not established.
+Basis: 2026-11-03. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 240,000 | 268,128 |
-| Negotiation reference - low | 190,000 | 212,268 |
-| Negotiation reference - high | 300,000 | 335,160 |
-| Recreation cost estimate | 850,000 | 949,620 |
-| Marketability cost scenario | 1,026,375 | 1,146,666 |
-| Monetisation cost scenario | 1,319,625 | 1,474,285 |
-| Risk-adjusted strategic reference | 1,035,547 | 1,156,913 |
-| Weighted economic reference | 1,044,141 | 1,166,514 |
+| Seller asking reference | 240,000 | 269,184 |
+| Negotiation reference - low | 190,000 | 213,104 |
+| Negotiation reference - high | 300,000 | 336,480 |
+| Recreation cost estimate | 850,000 | 953,360 |
+| Marketability cost scenario | 1,026,375 | 1,151,182 |
+| Monetisation cost scenario | 1,319,625 | 1,480,091 |
+| Risk-adjusted strategic reference | 1,035,547 | 1,161,470 |
+| Weighted economic reference | 1,044,141 | 1,171,109 |
 
-USD = EUR × 1.1172, rounded half-up to whole USD. ECB date: 2026-10-30. EUR is authoritative.
+USD = EUR × 1.1216, rounded half-up to whole USD. ECB date: 2026-11-02. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -157,11 +170,11 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance. Review on 2026-11-03: The earlier specifically priced provenance/qualification scope is retained. The 0.5 release-assurance implementation is disclosed as development scope with unresolved compatibility tests and no added monetary premium. Legal title, independent certification and production readiness are excluded.
 
 ### Financial assessment
 
-Retained seller estimate; work breakdown required. Assessed 2026-11-01.
+Retained seller estimate; work breakdown required. Assessed 2026-11-03.
 
 No complete work-package budget supports the retained anchor. Obtain a delivery-specific work breakdown and quote; this seller estimate does not establish actual expenditure or market value.
 
@@ -177,13 +190,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1172; ECB 2026-10-30. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1216; ECB 2026-11-02. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "V", "potential": "H", "sector": "Identity, Privacy & Assurance", "route": "B2B SaaS / enterprise software"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc11
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc12
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/software-asset-provenance-qualification-platform/#calculation
 

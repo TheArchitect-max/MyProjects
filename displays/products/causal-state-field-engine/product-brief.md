@@ -2,11 +2,11 @@
 
 TA-IP-061 | Reference name: Maya | Evidence & investigation software
 
-Review how system states change over time and follow the recorded context behind each change.
+Deterministic state-transition integrity and compact audit software with selective disclosure, signed audit commitments and a scoped successor-key lifecycle candidate.
 
 ## Product overview
 
-A state-record integrity product for attributable change and selective review.
+Deterministic state-transition integrity and compact audit software with selective disclosure, signed audit commitments and a scoped successor-key lifecycle candidate.
 
 ## Potential acquirers
 
@@ -16,11 +16,11 @@ A state-record integrity product for attributable change and selective review.
 
 ## Documented functions
 
-- Record declared state changes
-- Preserve historical continuity
-- Replay retained transitions
-- Disclose selected records
-- Review record-authentication lifecycle
+- Record and replay attributable state transitions
+- Produce compact inclusion and continuity evidence
+- Disclose selected historical state under explicit rules
+- Verify signed audit commitments
+- Evaluate scoped successor authorization and proof of key possession
 
 ## Available output types
 
@@ -32,9 +32,11 @@ A state-record integrity product for attributable change and selective review.
 
 Developed software. Existing software offered for evaluation against an agreed use and delivery scope.
 
-Available for acquisition discussion.
+Available for discussion; current development candidate has unresolved regression checks.
 
-- Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately.
+- Current full local replay reports failed tests. The new lifecycle tests supply incomplete anchor fixtures to the actual lower-layer verifier; the current release is not fully qualified.
+- Prior protocol evidence retains its original version scope. The new lifecycle candidate, current dependency inventory and seller threat model require integrated recipient review.
+- Integrity relative to supplied keys and inputs does not establish trusted time, legal identity, universal revocation, independently certified security or production acceptance.
 
 ## Acquisition reference
 
@@ -68,28 +70,39 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 0.8.0
+Identified product edition: 0.8.0 retained scope / 0.9.0 key-lifecycle candidate
 
 Handover position: Conditional handover
 
-Available software for evaluation against your intended use. Deployment suitability is assessed separately.
+Deterministic state-transition integrity and compact audit software with selective disclosure, signed audit commitments and a scoped successor-key lifecycle candidate.
+
+Separately scoped development: The 0.9.0 lifecycle module is implemented, but the complete current regression replay has three failures in anchor/lifecycle fixture integration.
 
 ### Priced first-party scope
 
-Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+The earlier specifically priced first-party state-integrity scope remains the cost anchor. The 0.9.0 scoped key-lifecycle implementation is disclosed as a candidate with unresolved integration checks and no added monetary premium. External authority, deployed security and independently accepted handover are excluded.
+
+### Offered work and qualification
+
+Deterministic state-transition integrity and compact audit software with selective disclosure, signed audit commitments and a scoped successor-key lifecycle candidate.
+
+- Current full local replay reports failed tests. The new lifecycle tests supply incomplete anchor fixtures to the actual lower-layer verifier; the current release is not fully qualified.
+- Prior protocol evidence retains its original version scope. The new lifecycle candidate, current dependency inventory and seller threat model require integrated recipient review.
+- Integrity relative to supplied keys and inputs does not establish trusted time, legal identity, universal revocation, independently certified security or production acceptance.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | V | A state-record integrity product for attributable change and selective review. The offered edition and material boundaries govern review. |
-| Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
+| Technical scope | V | Deterministic state-transition integrity and compact audit software with selective disclosure, signed audit commitments and a scoped successor-key lifecycle candidate. The stated edition and material boundaries govern review. |
+| Evidence and validation | E2 | Current full local replay reports failed tests. The new lifecycle tests supply incomplete anchor fixtures to the actual lower-layer verifier; the current release is not fully qualified. Independent recipient and intended-use acceptance remain separate. |
 | Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
 | Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance. |
 
 ### Conditions before handover
 
+- Resolve and repeat the stated current-candidate regression and complete release gates before representing that candidate as accepted.
 - Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
 - A detailed component inventory and licensing report are required for the agreed delivery scope.
 - A security assessment or an explicit statement of its absence is required before acceptance.
@@ -124,20 +137,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-11-01. All amounts in EUR. Market value is not established.
+Basis: 2026-11-03. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 115,000 | 128,478 |
-| Negotiation reference - low | 90,000 | 100,548 |
-| Negotiation reference - high | 145,000 | 161,994 |
-| Recreation cost estimate | 625,000 | 698,250 |
-| Marketability cost scenario | 590,625 | 659,846 |
-| Monetisation cost scenario | 646,875 | 722,689 |
-| Risk-adjusted strategic reference | 352,398 | 393,699 |
-| Weighted economic reference | 527,089 | 588,864 |
+| Seller asking reference | 115,000 | 128,984 |
+| Negotiation reference - low | 90,000 | 100,944 |
+| Negotiation reference - high | 145,000 | 162,632 |
+| Recreation cost estimate | 625,000 | 701,000 |
+| Marketability cost scenario | 590,625 | 662,445 |
+| Monetisation cost scenario | 646,875 | 725,535 |
+| Risk-adjusted strategic reference | 352,398 | 395,250 |
+| Weighted economic reference | 527,089 | 591,183 |
 
-USD = EUR × 1.1172, rounded half-up to whole USD. ECB date: 2026-10-30. EUR is authoritative.
+USD = EUR × 1.1216, rounded half-up to whole USD. ECB date: 2026-11-02. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -154,11 +167,11 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance. Review on 2026-11-03: The earlier specifically priced first-party state-integrity scope remains the cost anchor. The 0.9.0 scoped key-lifecycle implementation is disclosed as a candidate with unresolved integration checks and no added monetary premium. External authority, deployed security and independently accepted handover are excluded.
 
 ### Financial assessment
 
-Retained seller estimate; work breakdown required. Assessed 2026-11-01.
+Retained seller estimate; work breakdown required. Assessed 2026-11-03.
 
 No complete work-package budget supports the retained anchor. Obtain a delivery-specific work breakdown and quote; this seller estimate does not establish actual expenditure or market value.
 
@@ -174,13 +187,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1172; ECB 2026-10-30. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1216; ECB 2026-11-02. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "V", "potential": "M", "sector": "Identity, Privacy & Assurance", "route": "Enterprise software / licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc11
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc12
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/causal-state-field-engine/#calculation
 

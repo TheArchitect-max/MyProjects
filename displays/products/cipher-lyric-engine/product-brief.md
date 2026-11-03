@@ -1,12 +1,12 @@
-# Cipher Lyric Engine
+# Songwriting Intelligence & Creative Production Platform
 
 TA-IP-021 | Reference name: Livia | Audio, publishing & media
 
-Develop lyrics, review revision proposals and prepare controlled recovery, migration and deployment evaluations for a defined songwriting workflow.
+Evidence-linked songwriting and controlled revision software with private workspace, recovery and deployment-assurance foundations, plus a separate offline editorial-export candidate.
 
 ## Product overview
 
-Songwriting software for controlled lyric development, evidence-linked revision, recoverable customer workflows and bounded deployment qualification.
+Evidence-linked songwriting and controlled revision software with private workspace, recovery and deployment-assurance foundations, plus a separate offline editorial-export candidate.
 
 ## Potential acquirers
 
@@ -16,11 +16,11 @@ Songwriting software for controlled lyric development, evidence-linked revision,
 
 ## Documented functions
 
-- Develop lyric projects and review explicit revision proposals
-- Manage controlled metered assistance and recover prior work
-- Review synthetic migration and recovery rehearsals
-- Evaluate bounded hosting, ingress and local runtime conditions
-- Prepare compatibility and recipient-acceptance evidence
+- Develop and revise supplied lyrics with explicit author approval
+- Maintain governed revision, job and recovery records
+- Review deployment, ingress and runtime compatibility evidence
+- Rewrap an existing encrypted recovery bundle under an operator-controlled key
+- Prepare a bounded offline editorial ZIP from existing authorized source text
 
 ## Available output types
 
@@ -33,11 +33,11 @@ Songwriting software for controlled lyric development, evidence-linked revision,
 
 Developed software. Developed research or product software within the identified edition and material boundaries. Intended-use and recipient acceptance remain separate.
 
-Available for acquisition discussion.
+Available for discussion; current development candidate has unresolved regression checks.
 
-- Software checks do not establish artistic merit, originality, commercial success or rights clearance.
-- Recorded software qualification covers its identified disposable test scope; the current compatibility candidate is not a production-qualified service.
-- Live integrations, tenant migration, keys, hosting security and recipient acceptance require separate qualification.
+- The retained 3.32 acceptance covers its recorded source and runtime matrix. Current 3.33 local replay reports a failed regression: a prior test still expects the previous CLI target. Full new-release acceptance remains open.
+- The editorial export is a plaintext local review artifact, not publication, an ownership certificate, generated music or autonomous distribution. Author control and separate publication decisions remain required.
+- Real model/payment/email integrations, hosting, customer-data migration, independent penetration testing and production authorization require separate acceptance.
 
 ## Acquisition reference
 
@@ -71,38 +71,39 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 3.30.0 scoped qualification / 3.31.0 development
+Identified product edition: 3.32.0 retained acceptance / 3.33.0 development candidate
 
 Handover position: Conditional handover
 
-Songwriting software for controlled lyric development, evidence-linked revision, recoverable customer workflows and bounded deployment qualification.
+Evidence-linked songwriting and controlled revision software with private workspace, recovery and deployment-assurance foundations, plus a separate offline editorial-export candidate.
 
-Separately scoped development: The compatibility-matrix tooling is implemented development scope. Full acceptance across the declared Python runtimes remains open.
+Separately scoped development: The 3.33.0 offline editorial-handoff candidate is implemented. Current local replay has one stale CLI-entrypoint expectation; its complete independent 23-gate acceptance remains pending.
 
 ### Priced first-party scope
 
-Specifically agreed first-party implementation and documentation for 3.30.0 scoped qualification / 3.31.0 development. The previously priced songwriting, workspace, recovery and role-isolation foundations are reused once. Only the added migration-inventory/rehearsal, staging, ingress and compatibility work is included. Actual hosting, paid services, customer-data migration, live model/payment/email integrations and independent production acceptance are excluded.
+The previously priced songwriting, workspace, recovery, role-isolation, migration, ingress and compatibility scope remains the monetary basis. The 3.32 rewrap and 3.33 editorial-handoff changes are separately disclosed development scope without an added price premium in this review. No live service, external entitlement, publication or production acceptance is included.
 
 ### Offered work and qualification
 
-Songwriting software for controlled lyric development, evidence-linked revision, recoverable customer workflows and bounded deployment qualification. Source-specific evidence is reviewed under agreed confidentiality; intended-use and recipient acceptance remain separate.
+Evidence-linked songwriting and controlled revision software with private workspace, recovery and deployment-assurance foundations, plus a separate offline editorial-export candidate.
 
-- Software checks do not establish artistic merit, originality, commercial success or rights clearance.
-- Recorded software qualification covers its identified disposable test scope; the current compatibility candidate is not a production-qualified service.
-- Live integrations, tenant migration, keys, hosting security and recipient acceptance require separate qualification.
+- The retained 3.32 acceptance covers its recorded source and runtime matrix. Current 3.33 local replay reports a failed regression: a prior test still expects the previous CLI target. Full new-release acceptance remains open.
+- The editorial export is a plaintext local review artifact, not publication, an ownership certificate, generated music or autonomous distribution. Author control and separate publication decisions remain required.
+- Real model/payment/email integrations, hosting, customer-data migration, independent penetration testing and production authorization require separate acceptance.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | V | Songwriting software for controlled lyric development, evidence-linked revision, recoverable customer workflows and bounded deployment qualification. The offered edition and material boundaries govern review. |
-| Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
+| Technical scope | V | Evidence-linked songwriting and controlled revision software with private workspace, recovery and deployment-assurance foundations, plus a separate offline editorial-export candidate. The stated edition and material boundaries govern review. |
+| Evidence and validation | E2 | The retained 3.32 acceptance covers its recorded source and runtime matrix. Current 3.33 local replay reports a failed regression: a prior test still expects the previous CLI target. Full new-release acceptance remains open. Independent recipient and intended-use acceptance remain separate. |
 | Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
 | Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance. |
 
 ### Conditions before handover
 
+- Resolve and repeat the stated current-candidate regression and complete release gates before representing that candidate as accepted.
 - Agree the exact qualified baseline and development-candidate delivery scope.
 - Complete compatibility, integration, operator/security and recipient acceptance for the intended environment.
 - Review component obligations, transferable rights and the final delivery manifest.
@@ -141,20 +142,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-11-01. All amounts in EUR. Market value is not established.
+Basis: 2026-11-03. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 325,500 | 363,649 |
-| Negotiation reference - low | 260,000 | 290,472 |
-| Negotiation reference - high | 406,500 | 454,142 |
-| Recreation cost estimate | 1,084,000 | 1,211,045 |
-| Marketability cost scenario | 1,246,600 | 1,392,702 |
-| Monetisation cost scenario | 1,536,570 | 1,716,656 |
-| Risk-adjusted strategic reference | 1,257,740 | 1,405,147 |
-| Weighted economic reference | 1,267,843 | 1,416,434 |
+| Seller asking reference | 325,500 | 365,081 |
+| Negotiation reference - low | 260,000 | 291,616 |
+| Negotiation reference - high | 406,500 | 455,930 |
+| Recreation cost estimate | 1,084,000 | 1,215,814 |
+| Marketability cost scenario | 1,246,600 | 1,398,187 |
+| Monetisation cost scenario | 1,536,570 | 1,723,417 |
+| Risk-adjusted strategic reference | 1,257,740 | 1,410,681 |
+| Weighted economic reference | 1,267,843 | 1,422,013 |
 
-USD = EUR × 1.1172, rounded half-up to whole USD. ECB date: 2026-10-30. EUR is authoritative.
+USD = EUR × 1.1216, rounded half-up to whole USD. ECB date: 2026-11-02. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -171,11 +172,11 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The retained expressly priced scope and successive non-overlapping implementation budgets reconcile below. Equivalent effort and historical anchors remain seller assumptions; actual expenditure, independent quotations and market value are not established. The previously priced songwriting, workspace, recovery and role-isolation foundations are reused once. Only the added migration-inventory/rehearsal, staging, ingress and compatibility work is included. Actual hosting, paid services, customer-data migration, live model/payment/email integrations and independent production acceptance are excluded.
+The retained expressly priced scope and successive non-overlapping implementation budgets reconcile below. Equivalent effort and historical anchors remain seller assumptions; actual expenditure, independent quotations and market value are not established. The previously priced songwriting, workspace, recovery and role-isolation foundations are reused once. Only the added migration-inventory/rehearsal, staging, ingress and compatibility work is included. Actual hosting, paid services, customer-data migration, live model/payment/email integrations and independent production acceptance are excluded. Review on 2026-11-03: The previously priced songwriting, workspace, recovery, role-isolation, migration, ingress and compatibility scope remains the monetary basis. The 3.32 rewrap and 3.33 editorial-handoff changes are separately disclosed development scope without an added price premium in this review. No live service, external entitlement, publication or production acceptance is included.
 
 ### Financial assessment
 
-Partial scoped budget; retained anchor remains provisional. Assessed 2026-11-01.
+Partial scoped budget; retained anchor remains provisional. Assessed 2026-11-03.
 
 Explicit budgets cover part of the estimate. The retained anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
@@ -245,19 +246,19 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1172; ECB 2026-10-30. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1216; ECB 2026-11-02. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "V", "potential": "H", "sector": "Media & Creator Technology", "route": "Media / creator software"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc11
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc12
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/cipher-lyric-engine/#calculation
 
 ## Buyer-specific economic value and evaluation
 
-TA-IP-021 / Livia / Cipher Lyric Engine
+TA-IP-021 / Livia / Songwriting Intelligence & Creative Production Platform
 
 Assess the intended use against a credible build, licence or operating alternative. Support any time advantage, incremental cash flow or avoided costs, count each benefit once, and include remaining qualification, integration, rights and operating requirements. The published references describe their stated scope and assumptions; a separately evidenced buyer-specific case may support different consideration. No strategic premium, independently established market value or guaranteed transaction ceiling/floor is asserted.
 
