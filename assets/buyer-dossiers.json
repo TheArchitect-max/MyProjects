@@ -1,6 +1,6 @@
 {
   "schema": "public-buyer-dossiers-1",
-  "basisDate": "2026-11-01",
+  "basisDate": "2026-11-03",
   "purpose": "Version, qualification, rights and handover information for initial acquisition review. Evidence applies to the identified edition and tested scope.",
   "definitions": {
     "purpose": "Seller-side evidence, transfer and acquisition-documentation readiness. This is not buyer due diligence and does not replace buyer-specific legal, technical, security or financial review.",
@@ -868,23 +868,23 @@
     },
     {
       "ref": "TA-IP-013",
-      "version": "5.8.0-alpha.1",
+      "version": "5.8.0-alpha.1 / current canonical product identity",
       "developmentEdition": "",
-      "productPosition": "The 5.8.0-alpha.1 software provides first-party model-adaptation workflows. Retained GPU and Drive-resume evidence applies to v5.6/v5.7. External adapter qualification for v5.8 remains open.",
-      "offeredEdition": "Existing first-party AI research and training-control software plus the implemented v5.8 adaptation, reviewed-input and local checkpoint-control increment. Optional separate PyTorch training execution, external CUDA/Drive adapter qualification, larger-model quality, external weights and data, frontier performance and future development are not included as demonstrated capabilities.",
+      "productPosition": "A proprietary AI research and training-control platform with a deterministic core, reviewed model inputs, optional training workers and bounded adapter/checkpoint verification.",
+      "offeredEdition": "The previously priced first-party training-control and bounded adapter/checkpoint implementation is retained once. The current change is product naming and packaging metadata; it receives no monetary premium. External model weights, data rights, CUDA qualification, frontier performance and operating services remain excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "V",
-          "criterion": "An AI systems-engineering asset for governed model studies and auditable development decisions. The offered edition and material boundaries govern review."
+          "criterion": "A proprietary AI research and training-control platform with a deterministic core, reviewed model inputs, optional training workers and bounded adapter/checkpoint verification. The stated edition and material boundaries govern review."
         },
         {
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
           "grade": "E4",
-          "criterion": "E3 plus repository-retained independent/external validation evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate."
+          "criterion": "The current local CPU suite passes its executed tests with the optional CPU training dependency installed. Built-in model and data fixtures are deliberately small verification assets. Independent recipient and intended-use acceptance remain separate."
         },
         {
           "axis": "ipRightsMaturity",
@@ -929,7 +929,17 @@
         "securityDocumentationIdentified": false,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Offered work and qualification",
+          "text": "A proprietary AI research and training-control platform with a deterministic core, reviewed model inputs, optional training workers and bounded adapter/checkpoint verification.",
+          "items": [
+            "The current local CPU suite passes its executed tests with the optional CPU training dependency installed. Built-in model and data fixtures are deliberately small verification assets.",
+            "Earlier source-specific CUDA records retain their original scope. Current adapter CUDA/Drive acceptance, larger-model quality and independent comparative performance remain open.",
+            "The new product name preserves TA-IP-013 and Thalia. No frontier-model capability, autonomous scientific success or deployed service is established."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-014",
@@ -1406,23 +1416,23 @@
     },
     {
       "ref": "TA-IP-021",
-      "version": "3.30.0 scoped qualification / 3.31.0 development",
-      "developmentEdition": "The compatibility-matrix tooling is implemented development scope. Full acceptance across the declared Python runtimes remains open.",
-      "productPosition": "Songwriting software for controlled lyric development, evidence-linked revision, recoverable customer workflows and bounded deployment qualification.",
-      "offeredEdition": "Specifically agreed first-party implementation and documentation for 3.30.0 scoped qualification / 3.31.0 development. The previously priced songwriting, workspace, recovery and role-isolation foundations are reused once. Only the added migration-inventory/rehearsal, staging, ingress and compatibility work is included. Actual hosting, paid services, customer-data migration, live model/payment/email integrations and independent production acceptance are excluded.",
+      "version": "3.32.0 retained acceptance / 3.33.0 development candidate",
+      "developmentEdition": "The 3.33.0 offline editorial-handoff candidate is implemented. Current local replay has one stale CLI-entrypoint expectation; its complete independent 23-gate acceptance remains pending.",
+      "productPosition": "Evidence-linked songwriting and controlled revision software with private workspace, recovery and deployment-assurance foundations, plus a separate offline editorial-export candidate.",
+      "offeredEdition": "The previously priced songwriting, workspace, recovery, role-isolation, migration, ingress and compatibility scope remains the monetary basis. The 3.32 rewrap and 3.33 editorial-handoff changes are separately disclosed development scope without an added price premium in this review. No live service, external entitlement, publication or production acceptance is included.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "V",
-          "criterion": "Songwriting software for controlled lyric development, evidence-linked revision, recoverable customer workflows and bounded deployment qualification. The offered edition and material boundaries govern review."
+          "criterion": "Evidence-linked songwriting and controlled revision software with private workspace, recovery and deployment-assurance foundations, plus a separate offline editorial-export candidate. The stated edition and material boundaries govern review."
         },
         {
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
           "grade": "E2",
-          "criterion": "Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate."
+          "criterion": "The retained 3.32 acceptance covers its recorded source and runtime matrix. Current 3.33 local replay reports a failed regression: a prior test still expects the previous CLI target. Full new-release acceptance remains open. Independent recipient and intended-use acceptance remain separate."
         },
         {
           "axis": "ipRightsMaturity",
@@ -1444,6 +1454,7 @@
         }
       ],
       "sellerConditions": [
+        "Resolve and repeat the stated current-candidate regression and complete release gates before representing that candidate as accepted.",
         "Agree the exact qualified baseline and development-candidate delivery scope.",
         "Complete compatibility, integration, operator/security and recipient acceptance for the intended environment.",
         "Review component obligations, transferable rights and the final delivery manifest."
@@ -1470,11 +1481,11 @@
       "productDetails": [
         {
           "title": "Offered work and qualification",
-          "text": "Songwriting software for controlled lyric development, evidence-linked revision, recoverable customer workflows and bounded deployment qualification. Source-specific evidence is reviewed under agreed confidentiality; intended-use and recipient acceptance remain separate.",
+          "text": "Evidence-linked songwriting and controlled revision software with private workspace, recovery and deployment-assurance foundations, plus a separate offline editorial-export candidate.",
           "items": [
-            "Software checks do not establish artistic merit, originality, commercial success or rights clearance.",
-            "Recorded software qualification covers its identified disposable test scope; the current compatibility candidate is not a production-qualified service.",
-            "Live integrations, tenant migration, keys, hosting security and recipient acceptance require separate qualification."
+            "The retained 3.32 acceptance covers its recorded source and runtime matrix. Current 3.33 local replay reports a failed regression: a prior test still expects the previous CLI target. Full new-release acceptance remains open.",
+            "The editorial export is a plaintext local review artifact, not publication, an ownership certificate, generated music or autonomous distribution. Author control and separate publication decisions remain required.",
+            "Real model/payment/email integrations, hosting, customer-data migration, independent penetration testing and production authorization require separate acceptance."
           ]
         }
       ]
@@ -3500,23 +3511,23 @@
     },
     {
       "ref": "TA-IP-051",
-      "version": "0.9.0",
-      "developmentEdition": "",
-      "productPosition": "An AI and ECG research engine with checkpoint provenance, subject-safe training, repeated-seed governance and a locked external-generalisation protocol.",
-      "offeredEdition": "Specifically agreed first-party implementation, documentation and retained evidence for 0.9.0. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.",
+      "version": "0.12.0 / frozen external-baseline and SVDB inference protocol",
+      "developmentEdition": "The first-inference workflow is implemented; a retained completed SVDB model-performance run is not established at this review cutoff.",
+      "productPosition": "Experimental machine-learning and ECG research software with reproducible training, frozen external-evaluation records, dataset-consumption governance and a preregistered second-dataset inference workflow.",
+      "offeredEdition": "The specifically agreed first-party research code, protocol and retained engineering records are available for review. The earlier partially budgeted recreation anchor is retained without an uplift. External datasets/models, clinical claims, a completed SVDB inference result and future qualification are excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "V",
-          "criterion": "An AI and ECG research engine with checkpoint provenance, subject-safe training, repeated-seed governance and a locked external-generalisation protocol. The offered edition and material boundaries govern review."
+          "criterion": "Experimental machine-learning and ECG research software with reproducible training, frozen external-evaluation records, dataset-consumption governance and a preregistered second-dataset inference workflow. The stated edition and material boundaries govern review."
         },
         {
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
           "grade": "E3",
-          "criterion": "Tests, validation and provenance/release evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate."
+          "criterion": "Current local CPU regressions pass. Retained INCART records describe three frozen model runs; their descriptive performance is not a predeclared performance success threshold. Independent recipient and intended-use acceptance remain separate."
         },
         {
           "axis": "ipRightsMaturity",
@@ -3564,15 +3575,12 @@
       },
       "productDetails": [
         {
-          "title": "Edition-specific evidence",
-          "text": "Retained developer evidence supports the identified edition within its documented software scope. Representative recipient acceptance and any independent application qualification remain separate.",
-          "items": []
-        },
-        {
-          "title": "Intended qualification",
-          "text": "Reproduce checkpoint-repair regressions and review each retained training, primary-holdout and external dataset result separately, including unsuccessful results.",
+          "title": "Offered work and qualification",
+          "text": "Experimental machine-learning and ECG research software with reproducible training, frozen external-evaluation records, dataset-consumption governance and a preregistered second-dataset inference workflow.",
           "items": [
-            "Clinical validity, patient-care suitability, regulatory approval and superiority to third-party models are not established by engineering governance."
+            "Current local CPU regressions pass. Retained INCART records describe three frozen model runs; their descriptive performance is not a predeclared performance success threshold.",
+            "Retained SVDB qualification verifies the declared file/header boundary without running model inference. The 0.12 workflow is implemented, but completed second-dataset performance evidence remains pending.",
+            "The work is research software. Clinical validity, medical-device approval, general superiority, independent reproduction of the external data run and third-party data/model rights are not established by this review."
           ]
         }
       ]
@@ -4180,23 +4188,23 @@
     },
     {
       "ref": "TA-IP-061",
-      "version": "0.8.0",
-      "developmentEdition": "",
-      "productPosition": "Available software for evaluation against your intended use. Deployment suitability is assessed separately.",
-      "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
+      "version": "0.8.0 retained scope / 0.9.0 key-lifecycle candidate",
+      "developmentEdition": "The 0.9.0 lifecycle module is implemented, but the complete current regression replay has three failures in anchor/lifecycle fixture integration.",
+      "productPosition": "Deterministic state-transition integrity and compact audit software with selective disclosure, signed audit commitments and a scoped successor-key lifecycle candidate.",
+      "offeredEdition": "The earlier specifically priced first-party state-integrity scope remains the cost anchor. The 0.9.0 scoped key-lifecycle implementation is disclosed as a candidate with unresolved integration checks and no added monetary premium. External authority, deployed security and independently accepted handover are excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "V",
-          "criterion": "A state-record integrity product for attributable change and selective review. The offered edition and material boundaries govern review."
+          "criterion": "Deterministic state-transition integrity and compact audit software with selective disclosure, signed audit commitments and a scoped successor-key lifecycle candidate. The stated edition and material boundaries govern review."
         },
         {
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
           "grade": "E2",
-          "criterion": "Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate."
+          "criterion": "Current full local replay reports failed tests. The new lifecycle tests supply incomplete anchor fixtures to the actual lower-layer verifier; the current release is not fully qualified. Independent recipient and intended-use acceptance remain separate."
         },
         {
           "axis": "ipRightsMaturity",
@@ -4218,6 +4226,7 @@
         }
       ],
       "sellerConditions": [
+        "Resolve and repeat the stated current-candidate regression and complete release gates before representing that candidate as accepted.",
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
         "A detailed component inventory and licensing report are required for the agreed delivery scope.",
         "A security assessment or an explicit statement of its absence is required before acceptance.",
@@ -4243,7 +4252,17 @@
         "securityDocumentationIdentified": false,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Offered work and qualification",
+          "text": "Deterministic state-transition integrity and compact audit software with selective disclosure, signed audit commitments and a scoped successor-key lifecycle candidate.",
+          "items": [
+            "Current full local replay reports failed tests. The new lifecycle tests supply incomplete anchor fixtures to the actual lower-layer verifier; the current release is not fully qualified.",
+            "Prior protocol evidence retains its original version scope. The new lifecycle candidate, current dependency inventory and seller threat model require integrated recipient review.",
+            "Integrity relative to supplied keys and inputs does not establish trusted time, legal identity, universal revocation, independently certified security or production acceptance."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-062",
@@ -4312,23 +4331,23 @@
     },
     {
       "ref": "TA-IP-063",
-      "version": "0.4.0",
-      "developmentEdition": "",
-      "productPosition": "Available software for evaluation against your intended use. Deployment suitability is assessed separately.",
-      "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
+      "version": "0.4.0 retained scope / 0.5.0 release-assurance candidate",
+      "developmentEdition": "The structured release-assurance candidate is implemented; three prior policy compatibility tests fail in the current full replay.",
+      "productPosition": "Repository provenance and qualification software with component/evidence inventories and a candidate release workflow that checks structured build/test evidence, signatures and cross-file bindings.",
+      "offeredEdition": "The earlier specifically priced provenance/qualification scope is retained. The 0.5 release-assurance implementation is disclosed as development scope with unresolved compatibility tests and no added monetary premium. Legal title, independent certification and production readiness are excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "V",
-          "criterion": "A software-asset qualification product for reviewable provenance and release evidence. The offered edition and material boundaries govern review."
+          "criterion": "Repository provenance and qualification software with component/evidence inventories and a candidate release workflow that checks structured build/test evidence, signatures and cross-file bindings. The stated edition and material boundaries govern review."
         },
         {
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
           "grade": "E4",
-          "criterion": "E3 plus repository-retained independent/external validation evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate."
+          "criterion": "Current local replay reports failed legacy-policy tests: expected IP_READY outcomes now evaluate to FAILED. Complete 0.5 release acceptance is unresolved. Independent recipient and intended-use acceptance remain separate."
         },
         {
           "axis": "ipRightsMaturity",
@@ -4350,6 +4369,7 @@
         }
       ],
       "sellerConditions": [
+        "Resolve and repeat the stated current-candidate regression and complete release gates before representing that candidate as accepted.",
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
         "An explicit delivery manifest and handover scope remain to be agreed."
       ],
@@ -4372,7 +4392,17 @@
         "securityDocumentationIdentified": true,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Offered work and qualification",
+          "text": "Repository provenance and qualification software with component/evidence inventories and a candidate release workflow that checks structured build/test evidence, signatures and cross-file bindings.",
+          "items": [
+            "Current local replay reports failed legacy-policy tests: expected IP_READY outcomes now evaluate to FAILED. Complete 0.5 release acceptance is unresolved.",
+            "Structured release receipts and signatures verify supplied technical bindings; they do not independently prove authorship, legal ownership or the truth of reviewer declarations.",
+            "Real isolated-build infrastructure, security review, distribution rights and recipient acceptance remain separate. Interoperability envelopes do not establish a SLSA level or standards certification."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-064",
@@ -5130,23 +5160,23 @@
     },
     {
       "ref": "TA-IP-075",
-      "version": "0.2.0",
+      "version": "0.3.0 / bounded weighted Max-3-SAT encoding qualification",
       "developmentEdition": "",
-      "productPosition": "An implemented prototype for evaluation and further development.",
-      "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
+      "productPosition": "QUBO structural-analysis research software with a separately specified weighted Max-3-SAT encoding, explicit auxiliary-variable accounting and bounded exhaustive objective checks.",
+      "offeredEdition": "The specifically agreed first-party structural-analysis and bounded encoding software may be reviewed for transfer. The prior low-confidence recreation anchor is retained without an uplift. Universal complexity claims, hardware, quantum advantage and future research are excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "P",
-          "criterion": "An optimisation research prototype for structured problem analysis and comparative studies. The offered edition and material boundaries govern review."
+          "criterion": "QUBO structural-analysis research software with a separately specified weighted Max-3-SAT encoding, explicit auxiliary-variable accounting and bounded exhaustive objective checks. The stated edition and material boundaries govern review."
         },
         {
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
           "grade": "E2",
-          "criterion": "Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate."
+          "criterion": "The current local suite passes its executed tests. The separate deterministic encoding campaign checks bounded formulas under the stated variable, clause and penalty assumptions. Independent recipient and intended-use acceptance remain separate."
         },
         {
           "axis": "ipRightsMaturity",
@@ -5194,7 +5224,17 @@
         "securityDocumentationIdentified": false,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Offered work and qualification",
+          "text": "QUBO structural-analysis research software with a separately specified weighted Max-3-SAT encoding, explicit auxiliary-variable accounting and bounded exhaustive objective checks.",
+          "items": [
+            "The current local suite passes its executed tests. The separate deterministic encoding campaign checks bounded formulas under the stated variable, clause and penalty assumptions.",
+            "The qualified objective relation belongs to the named encoding. The earlier pairwise structural projection remains a separate research construction and is not an exact satisfiability reduction.",
+            "Finite validation does not establish polynomial-time solution of NP-complete problems, universal spectral barriers or quantum advantage. The retained recreation anchor lacks a complete work breakdown."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-076",
@@ -5946,23 +5986,23 @@
     },
     {
       "ref": "TA-IP-087",
-      "version": "0.1.0",
+      "version": "0.1.0 / paired scenario comparison and canonical identity",
       "developmentEdition": "",
-      "productPosition": "An implemented prototype for evaluation and further development.",
-      "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
+      "productPosition": "An offline urban digital-twin research workbench with geospatial import, deterministic mobility fixtures, paired intervention scenarios, local browser exploration and replayable evidence.",
+      "offeredEdition": "The specifically agreed local first-party workbench, paired scenario comparison and documentation retain the prior low-confidence recreation anchor without a naming or version premium. Real-city measurement rights, calibrated planning predictions, hosting and future modules are excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "P",
-          "criterion": "A Maastricht geospatial workbench for repeatable urban mobility studies. The offered edition and material boundaries govern review."
+          "criterion": "An offline urban digital-twin research workbench with geospatial import, deterministic mobility fixtures, paired intervention scenarios, local browser exploration and replayable evidence. The stated edition and material boundaries govern review."
         },
         {
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
           "grade": "E2",
-          "criterion": "Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate."
+          "criterion": "Current local replay passes its executed tests; optional geospatial-backend checks are skipped in this environment. Paired scenario comparison and product identity tests are included. Independent recipient and intended-use acceptance remain separate."
         },
         {
           "axis": "ipRightsMaturity",
@@ -6008,7 +6048,17 @@
         "securityDocumentationIdentified": true,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "Offered work and qualification",
+          "text": "An offline urban digital-twin research workbench with geospatial import, deterministic mobility fixtures, paired intervention scenarios, local browser exploration and replayable evidence.",
+          "items": [
+            "Current local replay passes its executed tests; optional geospatial-backend checks are skipped in this environment. Paired scenario comparison and product identity tests are included.",
+            "Bundled Maastricht geometry is schematic and traffic behaviour is illustrative. A surveyed city reconstruction, calibrated traffic model and validated planning predictions are not supplied.",
+            "The new canonical name retains TA-IP-087 and Mila. Real-world data admission, independent recipient acceptance and production operation remain separate."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-088",
@@ -6480,23 +6530,23 @@
     },
     {
       "ref": "TA-IP-095",
-      "version": "R4 / package 0.2.0.dev1",
+      "version": "R6 / package 0.4.0.dev1 / governed risk and experimentation",
       "developmentEdition": "",
-      "productPosition": "An in-memory evidence-governance reference implementation with policy enforcement, bounded authority, delegation and human-approval workflows.",
-      "offeredEdition": "Specifically agreed first-party implementation and documentation for R4 / package 0.2.0.dev1. The previously priced R3 contract, evidence and provenance foundations are reused once. Added first-party R4 governance, policy, authority, approval and accountability software is included. The legacy corpus, other assets, durable persistence, APIs, user interfaces, broader AI/risk/digital-twin engines and future productisation are excluded.",
+      "productPosition": "An in-memory evidence-governed reference implementation combining provenance, policy and authority checks with current risk controls and a separately authorized experiment lifecycle.",
+      "offeredEdition": "Previously priced R3 evidence and R4 governance foundations are retained once. Only additional first-party R5 risk and R6 experiment lifecycle, gate integration, regression and documentation work is incrementally priced. Other assets, the historical source corpus, persistent services, real experiments and future modules are excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "P",
-          "criterion": "An in-memory evidence-governance reference implementation with policy enforcement, bounded authority, delegation and human-approval workflows. The offered edition and material boundaries govern review."
+          "criterion": "An in-memory evidence-governed reference implementation combining provenance, policy and authority checks with current risk controls and a separately authorized experiment lifecycle. The stated edition and material boundaries govern review."
         },
         {
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
           "grade": "E2",
-          "criterion": "Tests plus validation/qualification evidence identified. Source-specific diligence and recipient acceptance remain separate."
+          "criterion": "Current local replay passes its executed tests. The repository qualification also checks protected earlier contracts, requirement coverage and the bounded R4-R6 example flows. Independent recipient and intended-use acceptance remain separate."
         },
         {
           "axis": "ipRightsMaturity",
@@ -6541,11 +6591,11 @@
       "productDetails": [
         {
           "title": "Offered work and qualification",
-          "text": "An in-memory evidence-governance reference implementation with policy enforcement, bounded authority, delegation and human-approval workflows.",
+          "text": "An in-memory evidence-governed reference implementation combining provenance, policy and authority checks with current risk controls and a separately authorized experiment lifecycle.",
           "items": [
-            "R4 qualifies an in-memory reference implementation. Durable storage, APIs, production interfaces and the broader AI, risk and digital-twin programme remain later development.",
-            "Policy and authority gates organise software decisions; they do not authenticate external facts, confer legal authority or establish regulatory or scientific acceptance.",
-            "Legacy source archives, other portfolio assets, third-party content and future modules require separate scope and rights review."
+            "Current local replay passes its executed tests. The repository qualification also checks protected earlier contracts, requirement coverage and the bounded R4-R6 example flows.",
+            "Actor identities, reviewer independence, evidence truth and actual external rollback remain trusted-host responsibilities. A promotion record does not execute deployment or establish a causal scientific finding.",
+            "The implementation is in memory. Durable persistence, concurrency guarantees, authentication infrastructure, real-world monitoring, later digital-twin modules and production acceptance remain open."
           ]
         }
       ]
@@ -7780,23 +7830,23 @@
     },
     {
       "ref": "TA-IP-113",
-      "version": "0.1.0 / custody v3 and CR-OPEN-16 research review",
+      "version": "0.1.0 / custody v3 and CR-OPEN-22 research review",
       "developmentEdition": "",
-      "productPosition": "Preregistered binary-study and research-custody software with local artifact-byte verification, bounded-memory hashing and exclusive complete-file publication.",
-      "offeredEdition": "Specifically agreed first-party implementation and documentation. Previously priced binary-study, custody-v3 and research-screening foundations are retained once. The increment covers file verification, streaming and atomic publication assurance only. Speculative physical mechanisms, a time-travel result, independent witness services, hardware and future experiments receive no monetary premium.",
+      "productPosition": "Preregistered binary-study and research-custody software accompanied by conditional theoretical studies of local scalar-field, horizon and constraint assumptions.",
+      "offeredEdition": "The previously priced binary-study, custody, streaming and local publication-assurance software is retained once. Conditional research documents through CR-OPEN-22 are described, with no increment for an unproved physical result. Hardware, independent witness services, global physical validation and future experiments remain excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "R",
-          "criterion": "Preregistered binary-study and research-custody software with local artifact-byte verification, bounded-memory hashing and exclusive complete-file publication. The offered edition and material boundaries govern review."
+          "criterion": "Preregistered binary-study and research-custody software accompanied by conditional theoretical studies of local scalar-field, horizon and constraint assumptions. The stated edition and material boundaries govern review."
         },
         {
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
           "grade": "E2",
-          "criterion": "Tests plus validation/qualification evidence identified. Source-specific diligence and recipient acceptance remain separate."
+          "criterion": "The executable study/custody source is unchanged and its local regression replay passes. The added CR-OPEN-17 through CR-OPEN-22 material is conditional research documentation. Independent recipient and intended-use acceptance remain separate."
         },
         {
           "axis": "ipRightsMaturity",
@@ -7840,11 +7890,11 @@
       "productDetails": [
         {
           "title": "Offered work and qualification",
-          "text": "Preregistered binary-study and research-custody software with local artifact-byte verification, bounded-memory hashing and exclusive complete-file publication.",
+          "text": "Preregistered binary-study and research-custody software accompanied by conditional theoretical studies of local scalar-field, horizon and constraint assumptions.",
           "items": [
-            "Current local regression replay supports the implemented study, custody and evidence-file software. Matching local bytes and hashes do not authenticate original acquisition, independent timestamps or an externally witnessed chronology.",
-            "Complete-file publication is qualified on the tested local filesystem. Universal crash durability, hostile-parent-directory protection, all-platform access controls and independent security certification are not established.",
-            "The updated mechanism review remains theory-only, including the chronology and access conditions of the examined geometric models. No validated physical source, buildable time channel, future-to-past message or independently reproduced physical anomaly is demonstrated."
+            "The executable study/custody source is unchanged and its local regression replay passes. The added CR-OPEN-17 through CR-OPEN-22 material is conditional research documentation.",
+            "Local scalar/constraint calculations do not establish globally consistent backreaction, a stable physical time machine, independently witnessed chronology or a controllable future-to-past message.",
+            "The prior software cost anchor is retained. Theoretical hypotheses and additional documents receive no physical-breakthrough or market-value premium."
           ]
         }
       ]
@@ -8065,23 +8115,23 @@
     },
     {
       "ref": "TA-IP-117",
-      "version": "R2g / strain-source, boundary and force-law diagnostics",
-      "developmentEdition": "",
-      "productPosition": "A standalone theoretical-physics framework with classical lattice, matter-field and strain-source demonstrators, including finite-boundary, force-law and anisotropy diagnostics.",
-      "offeredEdition": "Specifically agreed first-party implementation and documentation. Only additional committed strain-source, periodic zero-mode, imposed-boundary and force-law diagnostic software through R2g is priced. Previously budgeted classical lattice and matter-field work is retained once. R2h rotational-averaging candidate, physical gravity, observational evidence, hardware and future research are excluded.",
+      "version": "R2l / native lattice anisotropy and mechanism diagnostics",
+      "developmentEdition": "R2m is mentioned as a separate local candidate; its source and tests are absent from this frozen main-tree edition and are excluded.",
+      "productPosition": "A theoretical-physics research framework with classical lattice and scalar-field demonstrators, native source evolution and explicit symmetry, refinement and anisotropy counterexamples.",
+      "offeredEdition": "Previously budgeted classical lattice and R2g diagnostic work is retained once. Only implemented R2h-R2l symmetry, native-source, dynamic anisotropy and mechanism-probe software with its regression/documentation is added. R2m, physical gravity, hardware, observed data and future research are excluded.",
       "transferPosition": "Rights and handover review required",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "R",
-          "criterion": "A standalone theoretical-physics framework with classical lattice, matter-field and strain-source demonstrators, including finite-boundary, force-law and anisotropy diagnostics. Research status and stated model boundaries remain."
+          "criterion": "A theoretical-physics research framework with classical lattice and scalar-field demonstrators, native source evolution and explicit symmetry, refinement and anisotropy counterexamples. The stated edition and material boundaries govern review."
         },
         {
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
           "grade": "E2",
-          "criterion": "Tests plus validation/qualification evidence identified. Source-specific diligence and recipient acceptance remain separate."
+          "criterion": "Current local replay passes its executed tests through R2l. Retained source-specific CPU acceptance records cover the separate research stages; R2m remains outside this offered source edition. Independent recipient and intended-use acceptance remain separate."
         },
         {
           "axis": "ipRightsMaturity",
@@ -8126,34 +8176,34 @@
       "productDetails": [
         {
           "title": "Offered work and qualification",
-          "text": "A standalone theoretical-physics framework with classical lattice, matter-field and strain-source demonstrators, including finite-boundary, force-law and anisotropy diagnostics.",
+          "text": "A theoretical-physics research framework with classical lattice and scalar-field demonstrators, native source evolution and explicit symmetry, refinement and anisotropy counterexamples.",
           "items": [
-            "Retained acceptance records and 316 current-source local tests support committed software through R2g. The R2h rotational-averaging candidate is outside the offered accepted scope.",
-            "Scalar dynamics, coupling choices and the Dirichlet boundary are model assumptions. Strain-source anisotropy and finite-boundary sensitivity remain explicit; a point-source comparator does not establish isotropy of the original source. Universal gravity, Einstein-equation derivation and emergent physical spacetime are not established.",
-            "The source asserts proprietary status, but a dedicated licence/transfer notice and complete release-specific component and delivery record still require review. Independent scientific, rights and recipient acceptance are not established."
+            "Current local replay passes its executed tests through R2l. Retained source-specific CPU acceptance records cover the separate research stages; R2m remains outside this offered source edition.",
+            "Proper cubic covariance, source averaging and finite numerical agreement do not establish continuous rotational symmetry, universal free fall, Einstein dynamics or physical spacetime grains.",
+            "The source asserts proprietary status, but dedicated licence/transfer terms and complete component/handover review remain open. No empirical gravitational discovery is established."
           ]
         }
       ]
     },
     {
       "ref": "TA-IP-118",
-      "version": "0.2.0 / R2 bounded formal argument graph",
-      "developmentEdition": "",
-      "productPosition": "A deterministic research-case register and bounded classical propositional argument checker for explicit assumptions, supported derivations and premise consistency.",
-      "offeredEdition": "Only the expressly agreed first-party implemented software, tests and research documents in the stated edition are included. Other portfolio assets, universal scientific conclusions, third-party works, independent certification, future development and operating services are excluded.",
+      "version": "0.8.0 / R8 declared-review decision audit",
+      "developmentEdition": "Current full local regression is available; a separate complete R8 Colab/release acceptance and authenticated reviewer independence remain pending.",
+      "productPosition": "Domain-independent reasoning research software for bounded argument checking, proof artifacts, offline provenance, hypothesis comparison, assumption challenges and declared review decisions.",
+      "offeredEdition": "Previously budgeted R1/R2 foundations are retained once. Added first-party R3-R8 proof, provenance, comparison, challenge, review-packet and decision-audit code is priced within its bounded implemented scope. External source rights, authenticated reviewers, scientific discoveries, operating services and future work are excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "R",
-          "criterion": "A deterministic research-case register and bounded classical propositional argument checker for explicit assumptions, supported derivations and premise consistency. The offered edition and limits govern review."
+          "criterion": "Domain-independent reasoning research software for bounded argument checking, proof artifacts, offline provenance, hypothesis comparison, assumption challenges and declared review decisions. The stated edition and material boundaries govern review."
         },
         {
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
           "grade": "E2",
-          "criterion": "Tests plus validation/qualification evidence identified. Source-specific review and recipient acceptance remain separate."
+          "criterion": "Current local full-suite replay passes its executed tests, covering the committed R1-R8 implementation. Earlier R7 acceptance retains its own source scope; the separate R8 release gate remains open. Independent recipient and intended-use acceptance remain separate."
         },
         {
           "axis": "ipRightsMaturity",
@@ -8197,34 +8247,34 @@
       "productDetails": [
         {
           "title": "Offered work and qualification",
-          "text": "A deterministic research-case register and bounded classical propositional argument checker for explicit assumptions, supported derivations and premise consistency.",
+          "text": "Domain-independent reasoning research software for bounded argument checking, proof artifacts, offline provenance, hypothesis comparison, assumption challenges and declared review decisions.",
           "items": [
-            "Current-source local replay passes 43 tests. Accepted derivations are valid only relative to the supplied premises and supported rules; input checks do not verify the factual truth of premises.",
-            "Truth tables cover at most eight premise atoms. The argument language excludes first-order, modal and temporal logic; this is not a complete theorem prover or an autonomous scientific-discovery system.",
-            "Independent empirical replication, external source verification, intended-use qualification and recipient acceptance are not established. This asset is independent of other portfolio research frameworks."
+            "Current local full-suite replay passes its executed tests, covering the committed R1-R8 implementation. Earlier R7 acceptance retains its own source scope; the separate R8 release gate remains open.",
+            "The software checks supplied structures, declarations and bounded logic. It does not authenticate reviewer identity or independence, retrieve or verify external literature, or establish empirical truth.",
+            "Question candidates and proof artifacts do not establish scientific novelty, unrestricted theorem proving, universal reasoning capability or independent certification."
           ]
         }
       ]
     },
     {
       "ref": "TA-IP-119",
-      "version": "R3 / modal identity, grounding and four research volumes",
-      "developmentEdition": "",
-      "productPosition": "An independent foundational-research archive with four analytical volumes and bounded modal-model checks for explanatory necessity, individual identity and grounding assumptions.",
-      "offeredEdition": "Only the agreed first-party R2/R3 finite semantic models, 57 regression tests and four research volumes are included. General facts and ideas, third-party works, R4 research, empirical discoveries, independent certification and other portfolio assets are excluded.",
+      "version": "R8C / finite semantics and evidence-integrity contracts",
+      "developmentEdition": "Current combined local regression is available; separate complete R8C release acceptance and empirical scientific admission remain open.",
+      "productPosition": "A foundational research archive with nine analytical volumes, finite semantic/countermodel engines and a bounded bridge from declared observational provenance to software-evidence review.",
+      "offeredEdition": "Previously budgeted R2/R3 finite models and four volumes are retained once. Added R4-R8C counterpart, premise, typed-comparison, provenance/quarantine and evidence-contract software plus five further volumes is priced only as first-party research work. Facts, general ideas, third-party works, empirical discoveries and future qualification are excluded.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
           "axis": "technicalMaturity",
           "label": "Technical scope",
           "grade": "R",
-          "criterion": "An independent foundational-research archive with four analytical volumes and bounded modal-model checks for explanatory necessity, individual identity and grounding assumptions. The stated finite semantics and research limits govern review."
+          "criterion": "A foundational research archive with nine analytical volumes, finite semantic/countermodel engines and a bounded bridge from declared observational provenance to software-evidence review. The stated edition and material boundaries govern review."
         },
         {
           "axis": "evidenceMaturity",
           "label": "Evidence and validation",
           "grade": "E2",
-          "criterion": "Tests plus validation/qualification evidence identified. Source-specific review and recipient acceptance remain separate."
+          "criterion": "Current local replay passes its executed R2-R8C tests. Earlier R8B acceptance retains its documented omitted-manifest-entry warning; the new contract is tested separately rather than rewriting that evidence. Independent recipient and intended-use acceptance remain separate."
         },
         {
           "axis": "ipRightsMaturity",
@@ -8268,11 +8318,11 @@
       "productDetails": [
         {
           "title": "Offered work and qualification",
-          "text": "An independent foundational-research archive with four analytical volumes and bounded modal-model checks for explanatory necessity, individual identity and grounding assumptions.",
+          "text": "A foundational research archive with nine analytical volumes, finite semantic/countermodel engines and a bounded bridge from declared observational provenance to software-evidence review.",
           "items": [
-            "Current local replay passes 57 R2/R3 tests. The R3 bounded enumeration covers 728 models, including 152 identity countermodels; the earlier R2 enumeration remains reproducible. These are finite, model-conditional results.",
-            "Crossworld identity uses stipulated labels, accessibility and varying-domain rules. Barcan-formula and grounding comparisons depend on those choices; they are not unrestricted theorems or evidence about physical existence.",
-            "The four volumes are research documents. Independent formal review, external empirical replication and discoveries about cosmic origins remain unestablished. R4 research and other portfolio assets are outside the offered scope."
+            "Current local replay passes its executed R2-R8C tests. Earlier R8B acceptance retains its documented omitted-manifest-entry warning; the new contract is tested separately rather than rewriting that evidence.",
+            "NASA acquisition tests use controlled transport and the observational bridge uses declared inputs. No live NASA dataset was retrieved or scientifically admitted in this review.",
+            "The nine volumes and bounded models do not prove facts about ultimate physical existence. Scientific novelty, external peer review, real observational independence and unrestricted causal claims remain unestablished."
           ]
         }
       ]

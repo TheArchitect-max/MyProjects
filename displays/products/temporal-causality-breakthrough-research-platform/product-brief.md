@@ -2,11 +2,11 @@
 
 TA-IP-113 | Reference name: Clotho | Physics, mathematics & optimisation
 
-Preserve declared research commitments, verify local evidence files and publish complete custody records under explicit filesystem and independent-witness limitations.
+Preregistered binary-study and research-custody software accompanied by conditional theoretical studies of local scalar-field, horizon and constraint assumptions.
 
 ## Product overview
 
-Preregistered binary-study and research-custody software with local artifact-byte verification, bounded-memory hashing and exclusive complete-file publication.
+Preregistered binary-study and research-custody software accompanied by conditional theoretical studies of local scalar-field, horizon and constraint assumptions.
 
 ## Potential acquirers
 
@@ -17,10 +17,10 @@ Preregistered binary-study and research-custody software with local artifact-byt
 ## Documented functions
 
 - Prepare fixed binary-study commitments and statistical audits
-- Maintain study- and run-bound custody records
-- Verify local artifact bytes, order and digests
-- Stream bounded-memory artifact hashing
-- Publish complete evidence files without replacing existing targets
+- Maintain study-bound custody and artifact-integrity records
+- Verify streamed local evidence files and their order
+- Publish complete local evidence records without replacing targets
+- Review explicit theoretical assumptions, controls and unresolved physical gates
 
 ## Available output types
 
@@ -34,9 +34,9 @@ Research software. Available as a specifically scoped research or development so
 
 Available for acquisition discussion.
 
-- Current local regression replay supports the implemented study, custody and evidence-file software. Matching local bytes and hashes do not authenticate original acquisition, independent timestamps or an externally witnessed chronology.
-- Complete-file publication is qualified on the tested local filesystem. Universal crash durability, hostile-parent-directory protection, all-platform access controls and independent security certification are not established.
-- The updated mechanism review remains theory-only, including the chronology and access conditions of the examined geometric models. No validated physical source, buildable time channel, future-to-past message or independently reproduced physical anomaly is demonstrated.
+- The executable study/custody source is unchanged and its local regression replay passes. The added CR-OPEN-17 through CR-OPEN-22 material is conditional research documentation.
+- Local scalar/constraint calculations do not establish globally consistent backreaction, a stable physical time machine, independently witnessed chronology or a controllable future-to-past message.
+- The prior software cost anchor is retained. Theoretical hypotheses and additional documents receive no physical-breakthrough or market-value premium.
 
 ## Acquisition reference
 
@@ -70,30 +70,30 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 0.1.0 / custody v3 and CR-OPEN-16 research review
+Identified product edition: 0.1.0 / custody v3 and CR-OPEN-22 research review
 
 Handover position: Conditional handover
 
-Preregistered binary-study and research-custody software with local artifact-byte verification, bounded-memory hashing and exclusive complete-file publication.
+Preregistered binary-study and research-custody software accompanied by conditional theoretical studies of local scalar-field, horizon and constraint assumptions.
 
 ### Priced first-party scope
 
-Specifically agreed first-party implementation and documentation. Previously priced binary-study, custody-v3 and research-screening foundations are retained once. The increment covers file verification, streaming and atomic publication assurance only. Speculative physical mechanisms, a time-travel result, independent witness services, hardware and future experiments receive no monetary premium.
+The previously priced binary-study, custody, streaming and local publication-assurance software is retained once. Conditional research documents through CR-OPEN-22 are described, with no increment for an unproved physical result. Hardware, independent witness services, global physical validation and future experiments remain excluded.
 
 ### Offered work and qualification
 
-Preregistered binary-study and research-custody software with local artifact-byte verification, bounded-memory hashing and exclusive complete-file publication.
+Preregistered binary-study and research-custody software accompanied by conditional theoretical studies of local scalar-field, horizon and constraint assumptions.
 
-- Current local regression replay supports the implemented study, custody and evidence-file software. Matching local bytes and hashes do not authenticate original acquisition, independent timestamps or an externally witnessed chronology.
-- Complete-file publication is qualified on the tested local filesystem. Universal crash durability, hostile-parent-directory protection, all-platform access controls and independent security certification are not established.
-- The updated mechanism review remains theory-only, including the chronology and access conditions of the examined geometric models. No validated physical source, buildable time channel, future-to-past message or independently reproduced physical anomaly is demonstrated.
+- The executable study/custody source is unchanged and its local regression replay passes. The added CR-OPEN-17 through CR-OPEN-22 material is conditional research documentation.
+- Local scalar/constraint calculations do not establish globally consistent backreaction, a stable physical time machine, independently witnessed chronology or a controllable future-to-past message.
+- The prior software cost anchor is retained. Theoretical hypotheses and additional documents receive no physical-breakthrough or market-value premium.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | R | Preregistered binary-study and research-custody software with local artifact-byte verification, bounded-memory hashing and exclusive complete-file publication. The offered edition and material boundaries govern review. |
-| Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Source-specific diligence and recipient acceptance remain separate. |
+| Technical scope | R | Preregistered binary-study and research-custody software accompanied by conditional theoretical studies of local scalar-field, horizon and constraint assumptions. The stated edition and material boundaries govern review. |
+| Evidence and validation | E2 | The executable study/custody source is unchanged and its local regression replay passes. The added CR-OPEN-17 through CR-OPEN-22 material is conditional research documentation. Independent recipient and intended-use acceptance remain separate. |
 | Rights and component obligations | R1 | Repository licence file identified. Source-specific diligence and recipient acceptance remain separate. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. Source-specific diligence and recipient acceptance remain separate. |
 | Delivery and handover | T2 | Source, documentation, tests and licence evidence support bounded handover. Source-specific diligence and recipient acceptance remain separate. |
@@ -129,20 +129,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-11-01. All amounts in EUR. Market value is not established.
+Basis: 2026-11-03. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 14,000 | 15,641 |
-| Negotiation reference - low | 11,000 | 12,289 |
-| Negotiation reference - high | 17,000 | 18,992 |
-| Recreation cost estimate | 45,500 | 50,833 |
-| Marketability cost scenario | 17,597 | 19,659 |
-| Monetisation cost scenario | 11,603 | 12,963 |
-| Risk-adjusted strategic reference | 3,596 | 4,017 |
-| Weighted economic reference | 18,474 | 20,639 |
+| Seller asking reference | 14,000 | 15,702 |
+| Negotiation reference - low | 11,000 | 12,338 |
+| Negotiation reference - high | 17,000 | 19,067 |
+| Recreation cost estimate | 45,500 | 51,033 |
+| Marketability cost scenario | 17,597 | 19,737 |
+| Monetisation cost scenario | 11,603 | 13,014 |
+| Risk-adjusted strategic reference | 3,596 | 4,033 |
+| Weighted economic reference | 18,474 | 20,720 |
 
-USD = EUR × 1.1172, rounded half-up to whole USD. ECB date: 2026-10-30. EUR is authoritative.
+USD = EUR × 1.1216, rounded half-up to whole USD. ECB date: 2026-11-02. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -159,11 +159,11 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The retained priced scope and successive non-overlapping budgets reconcile below. Equivalent effort and historical anchors are seller assumptions, not actual expenditure, independent quotations or market value. Previously priced binary-study, custody-v3 and research-screening foundations are retained once. The increment covers file verification, streaming and atomic publication assurance only. Speculative physical mechanisms, a time-travel result, independent witness services, hardware and future experiments receive no monetary premium.
+The retained priced scope and successive non-overlapping budgets reconcile below. Equivalent effort and historical anchors are seller assumptions, not actual expenditure, independent quotations or market value. Previously priced binary-study, custody-v3 and research-screening foundations are retained once. The increment covers file verification, streaming and atomic publication assurance only. Speculative physical mechanisms, a time-travel result, independent witness services, hardware and future experiments receive no monetary premium. Review on 2026-11-03: The previously priced binary-study, custody, streaming and local publication-assurance software is retained once. Conditional research documents through CR-OPEN-22 are described, with no increment for an unproved physical result. Hardware, independent witness services, global physical validation and future experiments remain excluded.
 
 ### Financial assessment
 
-Stated scope reconciled to explicit budgets. Assessed 2026-11-01.
+Stated scope reconciled to explicit budgets. Assessed 2026-11-03.
 
 The stated scope reconciles to explicit seller budgets. Effort remains assumed; independent quotations, intended-use qualification and market value are not established.
 
@@ -233,13 +233,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1172; ECB 2026-10-30. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1216; ECB 2026-11-02. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "R", "potential": "S", "sector": "Research & Scientific Software", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc11
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc12
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/temporal-causality-breakthrough-research-platform/#calculation
 

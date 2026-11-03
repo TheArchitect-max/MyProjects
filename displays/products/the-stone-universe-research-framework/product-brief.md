@@ -2,11 +2,11 @@
 
 TA-IP-117 | Reference name: Petronella | Physics, mathematics & optimisation
 
-Explore finite lattice and scalar-field analogues, compare conservation and coupling diagnostics, and distinguish internal mathematical consistency from physical gravitational claims.
+A theoretical-physics research framework with classical lattice and scalar-field demonstrators, native source evolution and explicit symmetry, refinement and anisotropy counterexamples.
 
 ## Product overview
 
-A standalone theoretical-physics framework with classical lattice, matter-field and strain-source demonstrators, including finite-boundary, force-law and anisotropy diagnostics.
+A theoretical-physics research framework with classical lattice and scalar-field demonstrators, native source evolution and explicit symmetry, refinement and anisotropy counterexamples.
 
 ## Potential acquirers
 
@@ -16,11 +16,11 @@ A standalone theoretical-physics framework with classical lattice, matter-field 
 
 ## Documented functions
 
-- Run classical lattice and variational matter-field models
-- Derive bounded static strain-source terms within the stated model
-- Compare periodic solvability and externally imposed boundaries
-- Measure finite-model radial slopes and directional sensitivity
-- Report conservation checks and nonuniversality counterexamples
+- Run bounded lattice and scalar matter-field analogues
+- Compare proper cubic rotations with continuous-isotropy claims
+- Inspect native-source refinement and mesh-phase effects
+- Stress directional effects across time and initial preparations
+- Separate diagnostic probe contributions under explicit assumptions
 
 ## Available output types
 
@@ -34,13 +34,13 @@ Research software. Available as a specifically scoped research or development so
 
 Available for acquisition discussion.
 
-- Retained acceptance records and 316 current-source local tests support committed software through R2g. The R2h rotational-averaging candidate is outside the offered accepted scope.
-- Scalar dynamics, coupling choices and the Dirichlet boundary are model assumptions. Strain-source anisotropy and finite-boundary sensitivity remain explicit; a point-source comparator does not establish isotropy of the original source. Universal gravity, Einstein-equation derivation and emergent physical spacetime are not established.
-- The source asserts proprietary status, but a dedicated licence/transfer notice and complete release-specific component and delivery record still require review. Independent scientific, rights and recipient acceptance are not established.
+- Current local replay passes its executed tests through R2l. Retained source-specific CPU acceptance records cover the separate research stages; R2m remains outside this offered source edition.
+- Proper cubic covariance, source averaging and finite numerical agreement do not establish continuous rotational symmetry, universal free fall, Einstein dynamics or physical spacetime grains.
+- The source asserts proprietary status, but dedicated licence/transfer terms and complete component/handover review remain open. No empirical gravitational discovery is established.
 
 ## Acquisition reference
 
-Seller asking reference: EUR 19,500.
+Seller asking reference: EUR 27,500.
 
 Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
 
@@ -70,30 +70,32 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: R2g / strain-source, boundary and force-law diagnostics
+Identified product edition: R2l / native lattice anisotropy and mechanism diagnostics
 
 Handover position: Rights and handover review required
 
-A standalone theoretical-physics framework with classical lattice, matter-field and strain-source demonstrators, including finite-boundary, force-law and anisotropy diagnostics.
+A theoretical-physics research framework with classical lattice and scalar-field demonstrators, native source evolution and explicit symmetry, refinement and anisotropy counterexamples.
+
+Separately scoped development: R2m is mentioned as a separate local candidate; its source and tests are absent from this frozen main-tree edition and are excluded.
 
 ### Priced first-party scope
 
-Specifically agreed first-party implementation and documentation. Only additional committed strain-source, periodic zero-mode, imposed-boundary and force-law diagnostic software through R2g is priced. Previously budgeted classical lattice and matter-field work is retained once. R2h rotational-averaging candidate, physical gravity, observational evidence, hardware and future research are excluded.
+Previously budgeted classical lattice and R2g diagnostic work is retained once. Only implemented R2h-R2l symmetry, native-source, dynamic anisotropy and mechanism-probe software with its regression/documentation is added. R2m, physical gravity, hardware, observed data and future research are excluded.
 
 ### Offered work and qualification
 
-A standalone theoretical-physics framework with classical lattice, matter-field and strain-source demonstrators, including finite-boundary, force-law and anisotropy diagnostics.
+A theoretical-physics research framework with classical lattice and scalar-field demonstrators, native source evolution and explicit symmetry, refinement and anisotropy counterexamples.
 
-- Retained acceptance records and 316 current-source local tests support committed software through R2g. The R2h rotational-averaging candidate is outside the offered accepted scope.
-- Scalar dynamics, coupling choices and the Dirichlet boundary are model assumptions. Strain-source anisotropy and finite-boundary sensitivity remain explicit; a point-source comparator does not establish isotropy of the original source. Universal gravity, Einstein-equation derivation and emergent physical spacetime are not established.
-- The source asserts proprietary status, but a dedicated licence/transfer notice and complete release-specific component and delivery record still require review. Independent scientific, rights and recipient acceptance are not established.
+- Current local replay passes its executed tests through R2l. Retained source-specific CPU acceptance records cover the separate research stages; R2m remains outside this offered source edition.
+- Proper cubic covariance, source averaging and finite numerical agreement do not establish continuous rotational symmetry, universal free fall, Einstein dynamics or physical spacetime grains.
+- The source asserts proprietary status, but dedicated licence/transfer terms and complete component/handover review remain open. No empirical gravitational discovery is established.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | R | A standalone theoretical-physics framework with classical lattice, matter-field and strain-source demonstrators, including finite-boundary, force-law and anisotropy diagnostics. Research status and stated model boundaries remain. |
-| Evidence and validation | E2 | Tests plus validation/qualification evidence identified. Source-specific diligence and recipient acceptance remain separate. |
+| Technical scope | R | A theoretical-physics research framework with classical lattice and scalar-field demonstrators, native source evolution and explicit symmetry, refinement and anisotropy counterexamples. The stated edition and material boundaries govern review. |
+| Evidence and validation | E2 | Current local replay passes its executed tests through R2l. Retained source-specific CPU acceptance records cover the separate research stages; R2m remains outside this offered source edition. Independent recipient and intended-use acceptance remain separate. |
 | Rights and component obligations | R0 | Proprietary status is asserted in the research policy, but no dedicated repository licence or transfer notice is identified. First-party title, component obligations and delivery terms require specific review. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. Source-specific diligence and recipient acceptance remain separate. |
 | Delivery and handover | T1 | Implementation exists but core transfer evidence is incomplete. Source-specific diligence and recipient acceptance remain separate. |
@@ -130,20 +132,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-11-01. All amounts in EUR. Market value is not established.
+Basis: 2026-11-03. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 19,500 | 21,785 |
-| Negotiation reference - low | 16,000 | 17,875 |
-| Negotiation reference - high | 24,500 | 27,371 |
-| Recreation cost estimate | 65,500 | 73,177 |
-| Marketability cost scenario | 25,332 | 28,301 |
-| Monetisation cost scenario | 16,703 | 18,661 |
-| Risk-adjusted strategic reference | 5,176 | 5,783 |
-| Weighted economic reference | 26,594 | 29,711 |
+| Seller asking reference | 27,500 | 30,844 |
+| Negotiation reference - low | 22,500 | 25,236 |
+| Negotiation reference - high | 34,500 | 38,695 |
+| Recreation cost estimate | 92,000 | 103,187 |
+| Marketability cost scenario | 35,581 | 39,908 |
+| Monetisation cost scenario | 23,460 | 26,313 |
+| Risk-adjusted strategic reference | 7,270 | 8,154 |
+| Weighted economic reference | 37,353 | 41,895 |
 
-USD = EUR × 1.1172, rounded half-up to whole USD. ECB date: 2026-10-30. EUR is authoritative.
+USD = EUR × 1.1216, rounded half-up to whole USD. ECB date: 2026-11-02. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -160,11 +162,11 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-The stated implemented scope reconciles to explicit non-overlapping seller budgets; assumed effort is not actual expenditure or market value. Only additional committed strain-source, periodic zero-mode, imposed-boundary and force-law diagnostic software through R2g is priced. Previously budgeted classical lattice and matter-field work is retained once. R2h rotational-averaging candidate, physical gravity, observational evidence, hardware and future research are excluded.
+The retained priced scope and explicitly non-overlapping implementation budgets reconcile below. Effort and prices remain seller assumptions, not actual expenditure, independent quotations or established market value. Previously budgeted classical lattice and R2g diagnostic work is retained once. Only implemented R2h-R2l symmetry, native-source, dynamic anisotropy and mechanism-probe software with its regression/documentation is added. R2m, physical gravity, hardware, observed data and future research are excluded.
 
 ### Financial assessment
 
-Stated scope reconciled to explicit budgets. Assessed 2026-11-01.
+Stated scope reconciled to explicit budgets. Assessed 2026-11-03.
 
 The stated scope reconciles to explicit seller budgets. Effort remains assumed; independent quotations, intended-use qualification and market value are not established.
 
@@ -227,6 +229,34 @@ Strain-derived screened scalar source and coupling diagnostics; Periodic zero-mo
 
 Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. Only additional committed strain-source, periodic zero-mode, imposed-boundary and force-law diagnostic software through R2g is priced. Previously budgeted classical lattice and matter-field work is retained once. R2h rotational-averaging candidate, physical gravity, observational evidence, hardware and future research are excluded.
 
+#### Scoped implementation reproduction budget
+
+Proper cubic-orbit and source-averaging diagnostics; Native source refinement and mesh-phase checks; Direct native dynamics and directional counterexamples; Longer-time multiple-preparation stress checks; Mechanism and hypothetical-probe decomposition; Regression reproduction and research-boundary documentation.
+
+- Proper cubic-orbit and source-averaging diagnostics — 48 assumed hours
+- Native source refinement and mesh-phase checks — 32 assumed hours
+- Direct native dynamics and directional counterexamples — 48 assumed hours
+- Longer-time multiple-preparation stress checks — 40 assumed hours
+- Mechanism and hypothetical-probe decomposition — 40 assumed hours
+- Regression reproduction and research-boundary documentation — 40 assumed hours
+
+- Assumed hours: 248
+- Hourly rate: EUR 94
+- Raw engineering cost: EUR 23,312
+- Coordination tooling allowance: 0.15
+- With allowance: EUR 26,808.8
+- Effort alternatives / Low hours: 248
+- Effort alternatives / Reference hours: 372.0
+- Effort alternatives / Extended hours: 496
+- Effort alternatives / Low cost: EUR 26,808.8
+- Effort alternatives / Reference cost: EUR 40,213.2
+- Effort alternatives / Extended cost: EUR 53,617.6
+- Adopted recreation increment: EUR 26,500
+- Previous recreation cost: EUR 65,500
+- Current recreation cost: EUR 92,000
+
+Seller-selected equivalent reproduction effort, not logged hours, actual expenditure, an independent quote or an absolute minimum. EUR 94/hour and the 15% allowance are assumptions. The lowest stated effort scenario is adopted. Previously budgeted classical lattice and R2g diagnostic work is retained once. Only implemented R2h-R2l symmetry, native-source, dynamic anisotropy and mechanism-probe software with its regression/documentation is added. R2m, physical gravity, hardware, observed data and future research are excluded.
+
 Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
 
 ### Sources
@@ -237,13 +267,13 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1172; ECB 2026-10-30. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1216; ECB 2026-11-02. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "R", "potential": "S", "sector": "Research & Scientific Software", "route": "Research / R&D licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc11
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc12
 
 Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/the-stone-universe-research-framework/#calculation
 

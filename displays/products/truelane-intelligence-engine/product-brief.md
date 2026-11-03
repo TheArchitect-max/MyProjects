@@ -1,12 +1,12 @@
-# TrueLane Intelligence Engine
+# Advanced General-Purpose AI Systems Platform
 
 TA-IP-013 | Reference name: Thalia | AI & decision software
 
-Compare AI training studies, resume reviewed experiments and assess model candidates using retained evidence.
+A proprietary AI research and training-control platform with a deterministic core, reviewed model inputs, optional training workers and bounded adapter/checkpoint verification.
 
 ## Product overview
 
-An AI systems-engineering asset for governed model studies and auditable development decisions.
+A proprietary AI research and training-control platform with a deterministic core, reviewed model inputs, optional training workers and bounded adapter/checkpoint verification.
 
 ## Potential acquirers
 
@@ -16,11 +16,11 @@ An AI systems-engineering asset for governed model studies and auditable develop
 
 ## Documented functions
 
-- Manage model evaluation
-- Review training studies
-- Control candidate promotion
-- Retain development evidence
-- Review adaptation and recovery records
+- Review model and training-asset declarations
+- Run deterministic model-worker and evaluation contracts
+- Exercise bounded training, distillation and preference workflows
+- Verify low-rank adapter export and merge equivalence
+- Retain resumable checkpoint and provenance records
 
 ## Available output types
 
@@ -34,7 +34,9 @@ Developed software. Existing software offered for evaluation against an agreed u
 
 Available for acquisition discussion.
 
-- Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately.
+- The current local CPU suite passes its executed tests with the optional CPU training dependency installed. Built-in model and data fixtures are deliberately small verification assets.
+- Earlier source-specific CUDA records retain their original scope. Current adapter CUDA/Drive acceptance, larger-model quality and independent comparative performance remain open.
+- The new product name preserves TA-IP-013 and Thalia. No frontier-model capability, autonomous scientific success or deployed service is established.
 
 ## Acquisition reference
 
@@ -56,9 +58,9 @@ Acquisition of the specifically agreed first-party work product and transferable
 
 ## Buyer information and enquiry
 
-Asset profile: https://thearchitect-max.github.io/MyProjects/projects/truelane-intelligence-engine/
+Asset profile: https://thearchitect-max.github.io/MyProjects/projects/advanced-general-purpose-ai-systems-platform/
 
-Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/truelane-intelligence-engine/factsheet.pdf
+Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/advanced-general-purpose-ai-systems-platform/factsheet.pdf
 
 Quote TA-IP-013 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
 
@@ -68,22 +70,30 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 5.8.0-alpha.1
+Identified product edition: 5.8.0-alpha.1 / current canonical product identity
 
 Handover position: Conditional handover
 
-The 5.8.0-alpha.1 software provides first-party model-adaptation workflows. Retained GPU and Drive-resume evidence applies to v5.6/v5.7. External adapter qualification for v5.8 remains open.
+A proprietary AI research and training-control platform with a deterministic core, reviewed model inputs, optional training workers and bounded adapter/checkpoint verification.
 
 ### Priced first-party scope
 
-Existing first-party AI research and training-control software plus the implemented v5.8 adaptation, reviewed-input and local checkpoint-control increment. Optional separate PyTorch training execution, external CUDA/Drive adapter qualification, larger-model quality, external weights and data, frontier performance and future development are not included as demonstrated capabilities.
+The previously priced first-party training-control and bounded adapter/checkpoint implementation is retained once. The current change is product naming and packaging metadata; it receives no monetary premium. External model weights, data rights, CUDA qualification, frontier performance and operating services remain excluded.
+
+### Offered work and qualification
+
+A proprietary AI research and training-control platform with a deterministic core, reviewed model inputs, optional training workers and bounded adapter/checkpoint verification.
+
+- The current local CPU suite passes its executed tests with the optional CPU training dependency installed. Built-in model and data fixtures are deliberately small verification assets.
+- Earlier source-specific CUDA records retain their original scope. Current adapter CUDA/Drive acceptance, larger-model quality and independent comparative performance remain open.
+- The new product name preserves TA-IP-013 and Thalia. No frontier-model capability, autonomous scientific success or deployed service is established.
 
 ### Acquisition evidence profile
 
 | Criterion | Profile | Meaning for your review |
 | --- | --- | --- |
-| Technical scope | V | An AI systems-engineering asset for governed model studies and auditable development decisions. The offered edition and material boundaries govern review. |
-| Evidence and validation | E4 | E3 plus repository-retained independent/external validation evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate. |
+| Technical scope | V | A proprietary AI research and training-control platform with a deterministic core, reviewed model inputs, optional training workers and bounded adapter/checkpoint verification. The stated edition and material boundaries govern review. |
+| Evidence and validation | E4 | The current local CPU suite passes its executed tests with the optional CPU training dependency installed. Built-in model and data fixtures are deliberately small verification assets. Independent recipient and intended-use acceptance remain separate. |
 | Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
 | Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
 | Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance. |
@@ -128,20 +138,20 @@ Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfe
 
 ## Complete prices and economic references
 
-Basis: 2026-11-01. All amounts in EUR. Market value is not established.
+Basis: 2026-11-03. All amounts in EUR. Market value is not established.
 
 | Reference | EUR | USD - indicative |
 | --- | ---: | ---: |
-| Seller asking reference | 310,000 | 346,332 |
-| Negotiation reference - low | 248,000 | 277,066 |
-| Negotiation reference - high | 388,000 | 433,474 |
-| Recreation cost estimate | 1,040,000 | 1,161,888 |
-| Marketability cost scenario | 1,315,600 | 1,469,788 |
-| Monetisation cost scenario | 1,544,400 | 1,725,404 |
-| Risk-adjusted strategic reference | 1,327,356 | 1,482,922 |
-| Weighted economic reference | 1,296,575 | 1,448,534 |
+| Seller asking reference | 310,000 | 347,696 |
+| Negotiation reference - low | 248,000 | 278,157 |
+| Negotiation reference - high | 388,000 | 435,181 |
+| Recreation cost estimate | 1,040,000 | 1,166,464 |
+| Marketability cost scenario | 1,315,600 | 1,475,577 |
+| Monetisation cost scenario | 1,544,400 | 1,732,199 |
+| Risk-adjusted strategic reference | 1,327,356 | 1,488,762 |
+| Weighted economic reference | 1,296,575 | 1,454,239 |
 
-USD = EUR × 1.1172, rounded half-up to whole USD. ECB date: 2026-10-30. EUR is authoritative.
+USD = EUR × 1.1216, rounded half-up to whole USD. ECB date: 2026-11-02. EUR is authoritative.
 
 - Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
 - Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
@@ -158,11 +168,11 @@ This is a conditional model sensitivity, not a current asking price, forecast or
 
 ### Cost basis
 
-Some dated work-package assumptions are disclosed, but they do not reconstruct the complete retained recreation anchor. A complete scope-specific budget is required.
+Some dated work-package assumptions are disclosed, but they do not reconstruct the complete retained recreation anchor. A complete scope-specific budget is required. Review on 2026-11-03: The previously priced first-party training-control and bounded adapter/checkpoint implementation is retained once. The current change is product naming and packaging metadata; it receives no monetary premium. External model weights, data rights, CUDA qualification, frontier performance and operating services remain excluded.
 
 ### Financial assessment
 
-Partial scoped budget; retained anchor remains provisional. Assessed 2026-11-01.
+Partial scoped budget; retained anchor remains provisional. Assessed 2026-11-03.
 
 Explicit budgets cover part of the estimate. The retained anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
 
@@ -213,19 +223,19 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1172; ECB 2026-10-30. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1216; ECB 2026-11-02. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
 Calculation inputs: {"stage": "V", "potential": "H", "sector": "AI, Decision & Knowledge Systems", "route": "Private deployment / enterprise licensing"}.
 
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc11
+Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc12
 
-Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/truelane-intelligence-engine/#calculation
+Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/advanced-general-purpose-ai-systems-platform/#calculation
 
 ## Buyer-specific economic value and evaluation
 
-TA-IP-013 / Thalia / TrueLane Intelligence Engine
+TA-IP-013 / Thalia / Advanced General-Purpose AI Systems Platform
 
 Assess the intended use against a credible build, licence or operating alternative. Support any time advantage, incremental cash flow or avoided costs, count each benefit once, and include remaining qualification, integration, rights and operating requirements. The published references describe their stated scope and assumptions; a separately evidenced buyer-specific case may support different consideration. No strategic premium, independently established market value or guaranteed transaction ceiling/floor is asserted.
 
