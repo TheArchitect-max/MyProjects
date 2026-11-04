@@ -34,7 +34,8 @@ def validate(snapshot=None):
   brief=(folder/'product-brief.md').read_text();assert a['ref']+' | Reference name: '+a['referenceName'] in brief
   first=PdfReader(folder/'factsheet.pdf').pages[0].extract_text();assert a['ref']+' / '+a['referenceName'] in first,a['ref']
  homepage=(ROOT/'assets/im.js').read_text();assert 'Project displays' in homepage and 'identities.html' in homepage
- assert not re.search(r'bitcoin:|Bitcoin|voluntary contribution',homepage,re.I)
+ # Services may explain voluntary contributions; payment UI remains excluded.
+ assert not re.search(r'bitcoin:|Bitcoin',homepage,re.I)
  assert all('location.replace' in (ROOT/name).read_text() and 'acquisition.html' in (ROOT/name).read_text() for name in ['development.html','opportunity.html'])
  sources=json.loads((ROOT/'assets/evaluation-sources.json').read_text());assert len(sources['externalSources'])==14 and len(sources['assessmentRecords'])==7
  source_count=0;unavailable_count=0

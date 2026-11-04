@@ -1,6 +1,10 @@
 # THEARCHITECT_MAX - Seller-led software IP acquisition portfolio
 
-[Open the acquisition portfolio](https://thearchitect-max.github.io/MyProjects/). Seventeen navigation sections provide access to the collection, individual project displays, portfolio thesis, qualifications, financial method, sources and acquisition process.
+[Open the acquisition portfolio](https://thearchitect-max.github.io/MyProjects/). Eighteen navigation sections provide access to professional services, the collection, individual project displays, portfolio thesis, qualifications, financial method, sources and acquisition process.
+
+## Professional services
+
+[Professional Services](https://thearchitect-max.github.io/MyProjects/professional-services.html) presents independent software architecture and advanced R&D consultancy, six expertise areas, indicative commercial rates, the engagement process and IP/confidentiality terms. Consulting engagements and existing software-IP acquisitions have separate written scopes and prices. The inquiry outline can be copied locally for use through the agreed business contact channel.
 
 ## Asset identity and information
 
@@ -18,7 +22,7 @@ Connections describe proposed workflows, not delivered integrations or additiona
 
 ## Publication and verification
 
-The website is a static acquisition presentation. It does not run the underlying products, host accounts, submit enquiries or process payments. Enquiry controls prepare drafts locally. The original visual style, artwork and optional music remain part of the presentation.
+The website is a static presentation of professional services and software-IP acquisition opportunities. It does not run the underlying products, host accounts, submit enquiries or process payments. Enquiry controls prepare drafts locally. The original visual style, artwork and optional music remain part of the presentation.
 
 Repository tools verify identity consistency, documents, complete prices, disclosed arithmetic, sources, public disclosure boundaries and internal links. Website checks do not independently certify the underlying products or establish legal title, market value or production acceptance.
 
