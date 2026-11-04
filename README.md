@@ -1,10 +1,14 @@
 # THEARCHITECT_MAX - Seller-led software IP acquisition portfolio
 
-[Open the acquisition portfolio](https://thearchitect-max.github.io/MyProjects/). Eighteen navigation sections provide access to professional services, the collection, individual project displays, portfolio thesis, qualifications, financial method, sources and acquisition process.
+[Open the acquisition portfolio](https://thearchitect-max.github.io/MyProjects/). Nineteen navigation sections provide access to professional services, the collection, individual project displays, portfolio thesis, qualifications, financial method, sources and acquisition process.
 
 ## Professional services
 
 [Professional Services](https://thearchitect-max.github.io/MyProjects/professional-services.html) presents independent software architecture and advanced R&D consultancy, six expertise areas, indicative commercial rates, the engagement process and IP/confidentiality terms. Consulting engagements and existing software-IP acquisitions have separate written scopes and prices. The inquiry outline can be copied locally for use through the agreed business contact channel.
+
+## Voluntary BTC contribution
+
+[Voluntary BTC Contribution](https://thearchitect-max.github.io/MyProjects/contribution.html) provides the owner-supplied BTC address, a local copy control and the Bitcoin-network-only warning. Contributions are optional and confer no services, source access, licenses, ownership, investment return or future work. The website never connects to wallets or initiates transactions. Legacy development links redirect to this informational page.
 
 ## Asset identity and information
 
