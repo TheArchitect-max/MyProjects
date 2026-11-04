@@ -2,7 +2,7 @@
 'use strict';
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'..'),script=fs.readFileSync(path.join(root,'assets/im.js'),'utf8'),marker='render().catch';
-assert(script.includes(marker));const source=script.slice(0,script.lastIndexOf(marker))+'globalThis.showroom={load,validate,home,portfolio,project,buyers,acquisition,policy,notice,filterAssets,valuation,validatePricing,calculationPage,connectionsPage,assurancePage,evidencePage,transferPage,transactionPage,commercializationPage,sourcesPage,identityPage,filterIdentity,filterConnections,validateEvaluationSources,muskPage,filterMusk,validateStrategicFit,muskSourceSection,dossierPage,portfolioThesisPage,professionalServicesPage};})();';
+assert(script.includes(marker));const source=script.slice(0,script.lastIndexOf(marker))+'globalThis.showroom={load,validate,home,portfolio,project,buyers,acquisition,policy,notice,filterAssets,valuation,validatePricing,calculationPage,connectionsPage,assurancePage,evidencePage,transferPage,transactionPage,commercializationPage,sourcesPage,identityPage,filterIdentity,filterConnections,validateEvaluationSources,muskPage,filterMusk,validateStrategicFit,muskSourceSection,dossierPage,portfolioThesisPage,professionalServicesPage,contributionPage,bindContribution};})();';
 const data=JSON.parse(fs.readFileSync(path.join(root,'assets/buyer-catalogue.json'),'utf8'));
 const prices=JSON.parse(fs.readFileSync(path.join(root,'assets/pricing-catalogue.json'),'utf8'));
 const dossiers=JSON.parse(fs.readFileSync(path.join(root,'assets/buyer-dossiers.json'),'utf8')),applications=JSON.parse(fs.readFileSync(path.join(root,'assets/application-combinations.json'),'utf8'));
@@ -21,14 +21,14 @@ vm.createContext(sandbox);vm.runInContext(source,sandbox);
  }
  const renderDir=process.env.SHOWROOM_RENDER_DIR;if(renderDir)fs.mkdirSync(renderDir,{recursive:true});
  if(renderDir)fs.mkdirSync(path.join(renderDir,'acquisition-dossier'),{recursive:true});
- let pages=0;for(const name of ['home','portfolio','buyers','acquisition','policy','notice','valuation','calculationPage','connectionsPage','assurancePage','evidencePage','transferPage','transactionPage','commercializationPage','sourcesPage','identityPage','muskPage','dossierPage','portfolioThesisPage','professionalServicesPage']){const html=r[name](d);if(renderDir){const files={home:'index.html',calculationPage:'proof.html',connectionsPage:'connections.html',assurancePage:'assurance.html',evidencePage:'evidence.html',transferPage:'transfer.html',transactionPage:'transaction.html',commercializationPage:'commercialization.html',sourcesPage:'sources.html',identityPage:'identities.html',muskPage:'musk.html',dossierPage:'acquisition-dossier/index.html',portfolioThesisPage:'portfolio-thesis.html',professionalServicesPage:'professional-services.html'};fs.writeFileSync(path.join(renderDir,files[name]||name+'.html'),html)}assert(html.length>1000,name);pages++;assert(!/\b[a-f0-9]{40}\b/.test(html));}
+ let pages=0;for(const name of ['home','portfolio','buyers','acquisition','policy','notice','valuation','calculationPage','connectionsPage','assurancePage','evidencePage','transferPage','transactionPage','commercializationPage','sourcesPage','identityPage','muskPage','dossierPage','portfolioThesisPage','professionalServicesPage','contributionPage']){const html=r[name](d);if(renderDir){const files={home:'index.html',calculationPage:'proof.html',connectionsPage:'connections.html',assurancePage:'assurance.html',evidencePage:'evidence.html',transferPage:'transfer.html',transactionPage:'transaction.html',commercializationPage:'commercialization.html',sourcesPage:'sources.html',identityPage:'identities.html',muskPage:'musk.html',dossierPage:'acquisition-dossier/index.html',portfolioThesisPage:'portfolio-thesis.html',professionalServicesPage:'professional-services.html',contributionPage:'contribution.html'};fs.writeFileSync(path.join(renderDir,files[name]||name+'.html'),html)}assert(html.length>1000,name);pages++;assert(!/\b[a-f0-9]{40}\b/.test(html));}
  assert.equal((r.portfolio(d).match(/data-asset-ref=/g)||[]).length,119);
  for(const c of d.categories){const rows=r.filterAssets(d,{family:c.id});assert(rows.length>0);assert(rows.every(a=>a.categoryId===c.id));}
  for(const g of d.buyerGroups){const rows=r.filterAssets(d,{buyer:g.id});assert(rows.length>0);assert(rows.every(a=>a.buyerGroupIds.includes(g.id)));}
  for(const name of ['Vesta','Asteria','Scheherazade']){const rows=r.filterAssets(d,{query:name});assert.equal(rows.length,1);assert.equal(rows[0].referenceName,name);}
  assert.equal(r.filterAssets(d,{query:'unmatched-object-xyz'}).length,0);
  assert(r.identityPage(d).includes('numbered consecutively from TA-IP-001 through TA-IP-119.'));
- assert.equal((r.identityPage(d).match(/data-identity-ref=/g)||[]).length,119);assert.equal(r.filterIdentity(d,'Lydia')[0].ref,'TA-IP-089');assert.equal(r.filterIdentity(d,'Lucia')[0].ref,'TA-IP-090');assert.equal((r.portfolio(d).match(/data-project-display=/g)||[]).length,119);assert(!/Bitcoin|voluntary contribution/.test(r.acquisition(d)+r.home(d)+r.policy(d)));
+ assert.equal((r.identityPage(d).match(/data-identity-ref=/g)||[]).length,119);assert.equal(r.filterIdentity(d,'Lydia')[0].ref,'TA-IP-089');assert.equal(r.filterIdentity(d,'Lucia')[0].ref,'TA-IP-090');assert.equal((r.portfolio(d).match(/data-project-display=/g)||[]).length,119);assert(!/bitcoin:|<form\b/i.test(r.contributionPage()));
  assert.equal((r.valuation(d).match(/data-price-ref=/g)||[]).length,119);
  assert.equal((r.calculationPage(d).match(/data-calculation-ref=/g)||[]).length,119);
  assert.equal((r.portfolio(d).match(/data-currency="USD"/g)||[]).length,238);
@@ -48,9 +48,27 @@ vm.createContext(sandbox);vm.runInContext(source,sandbox);
  assert.throws(()=>r.validate({...d,projects:[{...d.projects[0],unapprovedField:'not publishable'},...d.projects.slice(1)]}));
  let loadedMathScripts=0;const cachedShell={...sandbox,PricingMath:undefined,document:{currentScript:sandbox.document.currentScript,createElement:tag=>{assert.equal(tag,'script');return {}},head:{appendChild:script=>{assert.equal(new URL(script.src).pathname,'/MyProjects/assets/pricing-math.js');loadedMathScripts++;cachedShell.PricingMath=require(path.join(root,'assets/pricing-math.js'));script.onload()}}}};
  vm.createContext(cachedShell);vm.runInContext(source,cachedShell);const cachedData=await cachedShell.showroom.load();assert.equal(cachedData.calculation.status,'PASS');assert.equal(loadedMathScripts,1);
- const navigation=r.home(d).match(/<nav class="nav-links"[\s\S]*?<\/nav>/)[0];assert.equal((navigation.match(/<a /g)||[]).length,18);assert(r.home(d).includes('Private technology.<br><em>Public proof.</em>'));assert(r.home(d).includes('Philosopher in Meditation'));assert(r.dossierPage(d).includes('119 assets'));
+ const navigation=r.home(d).match(/<nav class="nav-links"[\s\S]*?<\/nav>/)[0];assert.equal((navigation.match(/<a /g)||[]).length,19);assert(r.home(d).includes('Private technology.<br><em>Public proof.</em>'));assert(r.home(d).includes('Philosopher in Meditation'));assert(r.dossierPage(d).includes('119 assets'));
  const used=new Set();for(const c of d.applications.connections)for(const m of c.members){assert(!used.has(m.ref));used.add(m.ref)}
  for(const w of d.strategic.workstreams)for(const m of w.members){const c=d.applications.connections.find(c=>c.members.some(x=>x.ref===m.ref));assert.equal(m.canonicalConnectionId,c?.id??null)}
  const badLink=JSON.parse(JSON.stringify(d.strategic));badLink.workstreams[0].members[0].canonicalConnectionId='TA-CN-999';assert.throws(()=>r.validateStrategicFit(badLink,d));
- console.log(JSON.stringify({result:'PASS',buyerProfilesRendered:119,mainPagesRendered:pages,applicationFilters:12,buyerFilters:10,uniqueProjectPresentations:119,perAssetBuyerFitAndDocuments:true,completePriceRecords:119,priceFieldsPerAsset:8,priceSourcesLinked:true,usdAmountsInCollection:238,calculationRows:119,unknownProjectFieldsRejected:true,strategicWorkstreams:6,distinctStrategicAssets:26,officialCompanySources:8,strategicSchemaAndFiltersChecked:true},null,2));
+ // Check the public destination independently, including the Base58Check checksum.
+ const address='38dn8ZDf11cYSMv8X1UUARsE2wqdmtjd36',contribution=r.contributionPage();
+ assert(contribution.includes('readonly spellcheck="false" aria-describedby="btc-network-warning">'+address+'</textarea>'));
+ assert(contribution.includes('Send only BTC on the Bitcoin network.'));
+ assert(contribution.includes('No source-code access, software license, ownership rights or exclusive rights.'));
+ assert(contribution.includes('No entitlement to development work'));
+ assert(contribution.includes('No equity, profit share, investment return or repayment promise.'));
+ assert(r.home(d).includes('View voluntary contribution details'));
+ assert(r.professionalServicesPage().includes('Voluntary BTC contribution details'));
+ const alphabet='123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz';let decoded=0n;
+ for(const ch of address){assert(alphabet.includes(ch));decoded=decoded*58n+BigInt(alphabet.indexOf(ch));}
+ const raw=Buffer.from(decoded.toString(16).padStart(50,'0'),'hex'),sha=x=>require('node:crypto').createHash('sha256').update(x).digest();
+ assert.equal(raw.length,25);assert.equal(raw[0],5);assert(raw.subarray(21).equals(sha(sha(raw.subarray(0,21))).subarray(0,4)));
+ let click,copied,focused=false,addressSelected=false;const status={textContent:''};
+ sandbox.document.getElementById=id=>({'copy-btc-address':{addEventListener:(event,fn)=>{assert.equal(event,'click');click=fn}},'btc-contribution-address':{focus:()=>{focused=true},select:()=>{addressSelected=true}},'btc-copy-status':status}[id]);
+ sandbox.navigator={clipboard:{writeText:async value=>{copied=value}}};r.bindContribution();await click();
+ assert.equal(copied,address);assert(status.textContent.includes('BTC address copied'));
+ sandbox.navigator.clipboard.writeText=async()=>{throw new Error('Clipboard denied')};await click();assert(focused&&addressSelected);assert(status.textContent.includes('selected'));
+ console.log(JSON.stringify({result:'PASS',contributionAddressChecksumValid:true,contributionCopyAndFallbackChecked:true,buyerProfilesRendered:119,mainPagesRendered:pages,applicationFilters:12,buyerFilters:10,uniqueProjectPresentations:119,perAssetBuyerFitAndDocuments:true,completePriceRecords:119,priceFieldsPerAsset:8,priceSourcesLinked:true,usdAmountsInCollection:238,calculationRows:119,unknownProjectFieldsRejected:true,strategicWorkstreams:6,distinctStrategicAssets:26,officialCompanySources:8,strategicSchemaAndFiltersChecked:true},null,2));
 })().catch(error=>{console.error(error);process.exitCode=1});
