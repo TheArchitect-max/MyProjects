@@ -1,6 +1,6 @@
 # Portfolio source-specific requalification addendum — 2026-11-07
 
-**Status: INCOMPLETE — website merge blocked.** This is an actual dated document inspection of seventy-nine source projects, not a claim that all 121 projects have been requalified. Identity consistency alone is not a product evaluation.
+**Status: INCOMPLETE — website merge blocked.** This is an actual dated document inspection of ninety-nine source projects, not a claim that all 121 projects have been requalified. Identity consistency alone is not a product evaluation.
 
 ## Evaluation protocol (per asset; re-run after material changes)
 
@@ -13,7 +13,7 @@
 7. Reconsider seller asking references against substantiated capability and current market evidence; never equate asking price with valuation.
 8. Reconcile the product brief, website dossier, identity register, evaluation matrix and release gates. On FAIL, NOT_RUN or NOT_VERIFIED, preserve HOLD.
 
-## Reviewed source cohort: seventy-nine of 121 (four documentary batches)
+## Reviewed source cohort: ninety-nine of 121 (four documentary batches)
 
 ### Initial batch — four projects
 
@@ -146,9 +146,40 @@ The source README blob and recent pull request status for each private repositor
 
 **Material candidate/evidence distinctions:** SonicFabric A34 and EGMERS real-model scientific PR #27 remain open drafts. Visionair v0.12 documents locked ECG experiment governance but no clinical success claim. Vision Evidence v35 has software regression acceptance yet 0/12 biological modes verified. The v0.46 FusionLunar candidate cannot inherit the finalized v0.45 release PASS. No price, independent legal rights, security, cross-platform reliability or customer-market acceptance is newly established by these source inspections.
 
-## Pending mandatory work: 42 assets
+## Seventh review batch — twenty source-specific private repository inspections
 
-The remaining 42 items in the machine-readable portfolio assessment retain *historical, unverified descriptive maturity labels*. They must undergo the same repository-specific review with source SHA, last accepted release and unmerged branch status before any claim of a newly completed portfolio-wide technical re-evaluation. All 121 require legally transferable rights and independent commercial due diligence before a final purchase.
+The current source README blob, source identity, recent pull-request state and where available source-specific qualification records were inspected. These 20 desk reviews do not reexecute the source, qualify physical systems, accept scientific results or appraise market value.
+
+| ID and alias | Documented source baseline | Unqualified or blocked conditions |
+|---|---|---|
+| TA-IP-065 / Clio | TraceLine v0.6 stateful investigation evidence vault and controlled local ingestion | A source hash is neither authorship nor truth; 2026-09-22 sector-code baseline expired, current legal reference and lawful evidence intake not externally verified. No admissibility or investigation-outcome proof. |
+| TA-IP-066 / Daphne | Organismal State Dynamics v0.7 bounded physiology, latent and cognitive-access reference modules | Reference latent models and simulations are not biological or patient-specific digital twins; no evidence of consciousness detection, diagnosis, therapy, clinical safety or consent-compliant regulated records. |
+| TA-IP-067 / Selene | Chimera Spectral Perception v0.15 exact physical-device and bench campaign preparation | Real Basler hardware discovery, synchronized acquisition, calibrated physical performance and sensor-to-photon timing not established. Proprietary CSPS does not include ownership of third-party pylon SDK. |
+| TA-IP-069 / Cadence | Adaptive Audio Synthesis Platform v0.14.2 C++ audio runtime and experimental neural-waveform training workspace | V0.14.2 has no promoted neural waveform generator, third-party model rights clearance or commercial music-quality evidence. Model-training scripts alone do not establish Suno-equivalent synthesis. |
+| TA-IP-070 / Sophia | Adaptive Cognitive Runtime BICA v4.6 / 0.4.6 engineering candidate | No v4.6 GPU PASS, AGI, broad autonomous cognition, real-world causal proof or hostile-code sandbox. Full pinned GPU qualification and operational security remain open. |
+| TA-IP-071 / Verena | Content Integrity Assurance main V68 lineage with draft V69 R0 HTTP completeness candidate in PR #6 | V69 candidate is unmerged; prior HTTP 206/ambiguous critical-header handling motivates explicit fix; complete exact-source V69 and V68 R1 release gates must not be marked PASS without evidence. |
+| TA-IP-072 / Jocelyn | Radioastronomy Signal Validation / VelaTrace historical v7.11–v7.17 real-data experiments and bulk repository-ingest gate | Full source/evidence/HDF5 import to one reconstructable Git repository not complete; completeness checker intentionally fails. No technosignature, extraterrestrial origin or real-time telescope operation claim. |
+| TA-IP-073 / Skye | Spatial Wearable Perception Platform v0.11.1 source-bound handoff and deterministic transfer bundles | Real wearable camera/IMU calibration, production models, external sensor-to-photon timing and certified field performance have not been demonstrated. |
+| TA-IP-074 / Terra | Telluric Actualization 0.22.dev TAM 3.1.0 research-gate candidate | No empirical TAM validation, observed reversal-boundary data, independent replication, G1–G6 closure or new full-tree PASS; synthetic GPTS input is pipeline-only. |
+| TA-IP-075 / Emmy | QUBO Structural Analysis v0.4 accepted CPU benchmark laboratory; open unmerged PR #5 v0.5 accelerator | No general optimality/superiority proof. v0.5 CUDA parity/throughput qualification and full PR acceptance are pending; QPLIB data remains third-party. |
+| TA-IP-076 / Ada | Adaptive Neural Architecture Platform v0.5 champion lifecycle and validation-gated residual-growth training | Identity-preserving network growth is not demonstrated general intelligence or broad model superiority; synthetic policies, real canary thresholds and production security remain unqualified. |
+| TA-IP-077 / Iona | BIND-AI main v2.9.15/P3p synthetic external-source preflight; v2.9.16/P3q r2 PR #35 open draft | No real DANDI full source dataset admission, licensed biological empirical inference, clinical validation or P4 entry; v2.9.16 unmerged and full candidate tests not passing. |
+| TA-IP-078 / Cora | CardioSignal v0.13 executable ECG temporal Conv1D/BiLSTM engineering and locked benchmark governance | No clinical sensitivity/specificity or arrhythmia diagnosis certification; multisegment execution validation remains fixture-layout bound, source data rights and cross-device efficacy need proof. |
+| TA-IP-079 / Valeria | Secure Actuation Integrity v2.9 benign secure-enclosure simulator and transfer-hand-off verification | Transfer-ready package, accepted seller signer, trusted external receipt and certification are NOT ESTABLISHED; no real actuation interface or physical safety qualification. |
+| TA-IP-080 / Ava | TrueLane Apex Architect main validated V2.0 proposal/pre-validation; open source-holdout PR #18 and stacked future-evidence PR #19 | Real engine/vehicle calibration, manufacturer compliance and field predictive accuracy not proven. Stacked PR #19 depends on #18 merge and its own exact-source gates. |
+| TA-IP-081 / Violet | VIORITH Mobile Camera Overlay v0.7 semantic marker/provider qualification | Synthetic marker scope is not general semantic perception; production detector qualified=false, physical devices and sensor-to-photon lag unmeasured. |
+| TA-IP-082 / Ingrid | Distributed Compute Fabric v0.11 outbound worker + local mTLS loopback | No non-loopback hosting, internet-grade certificate rotation, GPU remote workload pooling, hostile-code sandbox or production network/cloud qualification. |
+| TA-IP-083 / Nadia | Adaptive Systems Intelligence RC1 v0.2 persistent source-governed runtime | Domain packs do not certify legal/safety control effectiveness; no production database encryption, row-level access, KMS, SSO or real-world compliance certification. |
+| TA-IP-084 / Allegra | Interactive Piano Learning Platform local-first piano practice plus transcription and companion | Real instrument microphone recognition is expected-note constrained, not general polyphonic transcription; full user-device testing and independent educational efficacy not demonstrated. |
+| TA-IP-086 / Vivienne | VellumGrid v0.7.5 stable commerce software foundation and v0.7.6 development hardening | No live Shopify infrastructure, executed restore drill, retained live performance or real profitable sales. Github must not host payments, user accounts, production DB or SaaS runtime. |
+
+Important source distinctions: BIND-AI P3p v2.9.15 retained its independent bounded software acceptance; P3q v2.9.16 r2 remains draft with full CPU failures. CIAP V69 R0 requires independent CPU testing and V68 R1 full-release acceptance is not established by current README. QUBO v0.5 CUDA and TrueLane stacked PRs remain unmerged. VelaTrace's Git system-of-record migration is incomplete; hardware calibration, safety, biometric/clinical, external network and real-commerce assertions require independent empirical evidence.
+
+Historical 56/53/12 maturity category totals are still legacy descriptive labels. Source review statuses are individual engineering document conclusions, not current software test certification or current acquisition prices.
+
+## Pending mandatory work: 22 assets
+
+The remaining 22 items in the machine-readable portfolio assessment retain *historical, unverified descriptive maturity labels*. They must undergo the same repository-specific review with source SHA, last accepted release and unmerged branch status before any claim of a newly completed portfolio-wide technical re-evaluation. All 121 require legally transferable rights and independent commercial due diligence before a final purchase.
 
 ## Publication and price control
 
