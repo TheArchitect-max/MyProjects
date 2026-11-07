@@ -40,3 +40,7 @@ Repository tools verify identity consistency, documents, complete prices, disclo
 - The priced buyer catalogue, financial matrices and PDF factsheet collection remain **119** existing, dated records; the two additional research assets deliberately have **no** invented asking or recreation-cost figures.
 - Excluded from the 121 assets: both public repositories, the seller-excluded literary archive, and the private confidential acquisition-dossier repository, which identifies itself as publication infrastructure rather than a separate IP asset.
 - Website source checks do **not** establish a successful deployed-browser rendering test; do not label live UI verification PASS without direct evidence.
+
+## Mandatory requalification correction — 7 November 2026
+
+The portfolio matrix is **not a completed technical re-evaluation**. As of this draft revision, four source-specific documentation reviews have been recorded (TA-IP-019, TA-IP-021, TA-IP-120, TA-IP-121); **117** projects still require individual source/evidence review. The old 56/53/12 maturity totals are provisional descriptive labels, not freshly certified development outcomes. See [requalification review and gates](REQUALIFICATION_REVIEW_2026-11-07.md). The candidate remains draft/HOLD; the public website must not suggest that its source review, legal rights or current market valuations have been independently certified.
