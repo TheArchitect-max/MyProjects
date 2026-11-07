@@ -1,6 +1,6 @@
 # Portfolio source-specific requalification addendum — 2026-11-07
 
-**Status: INCOMPLETE — website merge blocked.** This is an actual dated document inspection of fourteen source projects, not a claim that all 121 projects have been requalified. Identity consistency alone is not a product evaluation.
+**Status: INCOMPLETE — website merge blocked.** This is an actual dated document inspection of twenty-four source projects, not a claim that all 121 projects have been requalified. Identity consistency alone is not a product evaluation.
 
 ## Evaluation protocol (per asset; re-run after material changes)
 
@@ -13,7 +13,7 @@
 7. Reconsider seller asking references against substantiated capability and current market evidence; never equate asking price with valuation.
 8. Reconcile the product brief, website dossier, identity register, evaluation matrix and release gates. On FAIL, NOT_RUN or NOT_VERIFIED, preserve HOLD.
 
-## Screened source projects (fourteen of 121)
+## Screened source projects (twenty-four of 121)
 
 | ID / alias | Evidence basis | Implemented maturity | Production & commercialization gate |
 |---|---|---|---|
@@ -43,9 +43,28 @@ The following reviews compare the current repository `main` README with recent P
 
 Each remains **individually saleable as-is only subject to contractual specification and due diligence**, not automatically buyer-ready. This document is not a market appraisal, a guarantee of ownership title or a technical release certificate. Prior listed seller asking references remain dated asking inputs, not current values.
 
-## Pending mandatory work: 107 assets
+## Third review batch — ten additional source document audits
 
-The remaining 107 items in the machine-readable portfolio assessment retain *historical, unverified descriptive maturity labels*. They must undergo the same repository-specific review with source SHA, last accepted release and unmerged branch status before any claim of a newly completed portfolio-wide technical re-evaluation. All 121 require legally transferable rights and independent commercial due diligence before a final purchase.
+The following entries were checked against their private GitHub source README, current PR state and source-specific validation/rights documents where available. All tests cited remain reported by the source/evidence record rather than executed anew for this portfolio audit.
+
+| ID / alias | Current documented implementation/evidence | Remaining qualification boundary |
+|---|---|---|
+| TA-IP-001 / Stella | Main presents historical OSSN UAP identity; unmerged STELLA PR #1 records extensive v0.6.11 synthetic and native checks | Current candidate Colab acceptance NOT_RUN, NGS velocity disagreements retained and no real sensor causality proven |
+| TA-IP-005 / Sophie | EIOP v6.3 bundles/receipts on main; draft 6.4 reports 192 native tests over six Python environments | Candidate not merged; independent production connector, Windows and provider security not qualified |
+| TA-IP-009 / Justine | CIAP 0.6.0 synthetic custody transfer and recovery/failure-injection candidate | Independent, governance, legal/privacy, security and real continuity approvals remain OPEN |
+| TA-IP-068 / Nova | GMPP v0.5.1 commercial-control, project/worker API and entitlement accounting | Actual GPU model inference, backend model rights, billing and secure SaaS rollout NOT VERIFIED |
+| TA-IP-087 / Mila | Renamed Urban Digital Twin v0.1 workbench has synthetic mobility and replay testing, post-rename PR #6 open | Schematic geometry, no field-calibrated traffic; new exact-source PR qualification NOT_RUN |
+| TA-IP-098 / Astrid | LCTEP v0.1 cislunar decision/evidence foundation | No flight-validated dynamics, hardware reliability or commercial launch acceptance |
+| TA-IP-100 / Ophelia | UVIP v0.9.8 exact-source Colab record: 143/143 Node and 14/14 Chromium on offline mock YouTube | Real platform behaviour, broad accessibility and production security NOT VERIFIED |
+| TA-IP-105 / Euterpe | MIPP v0.1 manuscript QA 8-gate/40-stage lifecycle, immutable evidence/defect controls | Real-book editorial quality, rights, output rendering and publishing acceptance remain separate |
+| TA-IP-107 / Asteria | Visual Effects R3 2D graph/editor prototype, local 24 Node tests and limited WebGL2 exploration | Real GPU output, full exact-source R0-R3 gate, and production XR/3D/VFX NOT QUALIFIED |
+| TA-IP-117 / Petronella | Stone Universe R2l internal 56/56 and 781 comparisons; open R2m draft tests report 96/96 local | R2m owner Colab not verified; no emergent physical gravity or SO(3)/empirical proof |
+
+**Asset classification:** These projects retain their existing numeric IDs and women's-name aliases. Being a documented software asset does not imply that its entire intended technical end-state exists or that the owner has obtained an independently verified commercial market value.
+
+## Pending mandatory work: 97 assets
+
+The remaining 97 items in the machine-readable portfolio assessment retain *historical, unverified descriptive maturity labels*. They must undergo the same repository-specific review with source SHA, last accepted release and unmerged branch status before any claim of a newly completed portfolio-wide technical re-evaluation. All 121 require legally transferable rights and independent commercial due diligence before a final purchase.
 
 ## Publication and price control
 
