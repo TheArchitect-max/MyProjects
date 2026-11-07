@@ -29,8 +29,8 @@ const technicalReviewPending=reassessment.assessments.filter(x=>x.technicalReeva
 assert.equal(sourceReviewed.length,reassessment.summary.projectSpecificSourceDeskReviews);
 assert.equal(technicalReviewPending.length,reassessment.summary.projectsAwaitingProjectSpecificTechnicalDeskReview);
 assert.equal(sourceReviewed.length+technicalReviewPending.length,121);
-assert.equal(sourceReviewed.length,59); // document-only review progress, NOT runtime acceptance
-assert.equal(technicalReviewPending.length,62);
+assert.equal(sourceReviewed.length,79); // document-only review progress, NOT runtime acceptance
+assert.equal(technicalReviewPending.length,42);
 assert.equal(reassessment.summary.freshFunctionalSourceReexecutions,0);
 assert.equal(reassessment.summary.fullCommercialRequalifications,0);
 assert(sourceReviewed.every(x=>/^[0-9a-f]{40}$/.test(x.sourceDocumentSha)), 'Reviewed sources must pin a 40-character README blob hash');
@@ -42,7 +42,7 @@ const reviewedDisplaySlugs=sourceReviewed.map(x=>{
  assert(segments.at(-3)==='displays'&&segments.at(-2)==='products','Reviewed asset has an invalid display URL: '+x.id);
  return segments.at(-1);
 });
-assert.equal(new Set(reviewedDisplaySlugs).size,59);
+assert.equal(new Set(reviewedDisplaySlugs).size,79);
 for(const slug of reviewedDisplaySlugs){
  const p='displays/products/'+slug+'/index.html';
  assert(exists(p),'Reviewed display not found: '+slug);
