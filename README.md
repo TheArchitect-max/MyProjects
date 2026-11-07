@@ -12,7 +12,7 @@
 
 ## Asset identity and information
 
-The public catalogue contains 119 individually identified software and research IP assets. Each asset has one current TA-IP reference, canonical project title and feminine reference name. Individual presentations link to the asset dossier, factsheet PDF and product brief. Compatibility routes preserve earlier links without creating additional assets. Public repositories, publication infrastructure and seller-excluded literary archives are excluded from the asset count. All 119 current catalogue identities are linked to verified private source identities.
+The verified private-source identity register contains **121** individually identified software and research IP assets (7 November 2026). The established financial and buyer-dossier catalogue has **119** published asking-reference records; **TA-IP-120 / Lotte** and **TA-IP-121 / Maryam** are registered without published asking figures. Each asset has one current TA-IP reference, canonical project title and feminine reference name. Individual presentations link to the asset dossier, factsheet PDF and product brief. Compatibility routes preserve earlier links without creating additional assets. Public repositories, publication infrastructure and seller-excluded literary archives are excluded from the asset count. All 121 source identities have been checked against the connected private repositories; this source-identity check is not a fresh software acceptance, legal clearance or commercial valuation.
 
 ## Financial references
 
@@ -31,3 +31,11 @@ The website is a static presentation of professional services and software-IP ac
 Repository tools verify identity consistency, documents, complete prices, disclosed arithmetic, sources, public disclosure boundaries and internal links. Website checks do not independently certify the underlying products or establish legal title, market value or production acceptance.
 
 © 2026 THEARCHITECT_MAX. First-party rights reserved.
+
+## Updated identity and source audit — 7 November 2026
+
+- [Complete 121-asset register](portfolio-register.html) (searchable, no private source code).
+- [Machine-readable identity ledger](assets/portfolio-identity-ledger.json) and [canonical 121-row identity CSV](displays/identity-register.csv).
+- The priced buyer catalogue, financial matrices and PDF factsheet collection remain **119** existing, dated records; the two additional research assets deliberately have **no** invented asking or recreation-cost figures.
+- Excluded from the 121 assets: both public repositories, the seller-excluded literary archive, and the private confidential acquisition-dossier repository, which identifies itself as publication infrastructure rather than a separate IP asset.
+- Website source checks do **not** establish a successful deployed-browser rendering test; do not label live UI verification PASS without direct evidence.
