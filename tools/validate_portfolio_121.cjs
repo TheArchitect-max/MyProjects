@@ -29,8 +29,8 @@ const technicalReviewPending=reassessment.assessments.filter(x=>x.technicalReeva
 assert.equal(sourceReviewed.length,reassessment.summary.projectSpecificSourceDeskReviews);
 assert.equal(technicalReviewPending.length,reassessment.summary.projectsAwaitingProjectSpecificTechnicalDeskReview);
 assert.equal(sourceReviewed.length+technicalReviewPending.length,121);
-assert.equal(sourceReviewed.length,99); // document-only review progress, NOT runtime acceptance
-assert.equal(technicalReviewPending.length,22);
+assert.equal(sourceReviewed.length,121); // document-only review progress, NOT runtime acceptance
+assert.equal(technicalReviewPending.length,0);
 assert.equal(reassessment.summary.freshFunctionalSourceReexecutions,0);
 assert.equal(reassessment.summary.fullCommercialRequalifications,0);
 assert(sourceReviewed.every(x=>/^[0-9a-f]{40}$/.test(x.sourceDocumentSha)), 'Reviewed sources must pin a 40-character README blob hash');
@@ -42,7 +42,7 @@ const reviewedDisplaySlugs=sourceReviewed.map(x=>{
  assert(segments.at(-3)==='displays'&&segments.at(-2)==='products','Reviewed asset has an invalid display URL: '+x.id);
  return segments.at(-1);
 });
-assert.equal(new Set(reviewedDisplaySlugs).size,99);
+assert.equal(new Set(reviewedDisplaySlugs).size,121);
 for(const slug of reviewedDisplaySlugs){
  const p='displays/products/'+slug+'/index.html';
  assert(exists(p),'Reviewed display not found: '+slug);
@@ -93,6 +93,8 @@ const display=read('displays/index.html'),register=read('portfolio-register.html
 assert.equal((display.match(/class="asset-card"/g)||[]).length,121);
 assert.equal((register.match(/<tr data-search=/g)||[]).length,121);
 assert.equal((matrix.match(/<tr data-filter=/g)||[]).length,121);
+assert(matrix.includes('121 reviewed')&&matrix.includes('0 desk reviews pending'),'Matrix must disclose all 121 desk reviews and continued independent acceptance gaps');
+assert(!matrix.includes('<span class="tag">Review required</span>'),'All 121 source-document review statuses must be individual');
 assert(hub.includes('portfolio-register.html')&&hub.includes('portfolio-evaluation.html'));
 assert(hub.includes('portfolio-reassessment-20261107.json')&&hub.includes('validateReassessment(rows[6])')&&hub.includes('projectRequalification(a,d)'),'Dynamic dossiers must show the current review register');
 assert(read('index.html').includes('showroom30-portfolio-20261107'));
