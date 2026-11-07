@@ -1,6 +1,6 @@
 # Portfolio source-specific requalification addendum — 2026-11-07
 
-**Status: INCOMPLETE — website merge blocked.** This is an actual dated document inspection of thirty-nine source projects, not a claim that all 121 projects have been requalified. Identity consistency alone is not a product evaluation.
+**Status: INCOMPLETE — website merge blocked.** This is an actual dated document inspection of fifty-nine source projects, not a claim that all 121 projects have been requalified. Identity consistency alone is not a product evaluation.
 
 ## Evaluation protocol (per asset; re-run after material changes)
 
@@ -13,7 +13,7 @@
 7. Reconsider seller asking references against substantiated capability and current market evidence; never equate asking price with valuation.
 8. Reconcile the product brief, website dossier, identity register, evaluation matrix and release gates. On FAIL, NOT_RUN or NOT_VERIFIED, preserve HOLD.
 
-## Reviewed source cohort: thirty-nine of 121 (four documentary batches)
+## Reviewed source cohort: fifty-nine of 121 (four documentary batches)
 
 ### Initial batch — four projects
 
@@ -88,9 +88,38 @@ The records below are engineering documentary reviews of the repository's curren
 
 **Release interpretation:** A project can have an engineering implementation with scoped test PASS while still being unsuitable for production sale claims. Independent IP title, transitive licences, buyer environment and supported hardware remain case-specific due-diligence gates. This audit does not change or validate historic asking prices.
 
-## Pending mandatory work: 82 assets
+## Fifth review batch — twenty additional source document audits
 
-The remaining 82 items in the machine-readable portfolio assessment retain *historical, unverified descriptive maturity labels*. They must undergo the same repository-specific review with source SHA, last accepted release and unmerged branch status before any claim of a newly completed portfolio-wide technical re-evaluation. All 121 require legally transferable rights and independent commercial due diligence before a final purchase.
+The items below were re-evaluated against private GitHub `main` README blobs (SHA-pinned in the assessment JSON), latest PR state, and selected qualification files where available. This review was documentary, not a full source checkout and not test execution. A source-reported PASS is evidence for that exact source and scope only.
+
+| Private asset | Documented source baseline | Limiting acceptance findings |
+|---|---|---|
+| TA-IP-024 / Kira | UKM V59 / package 0.4.0, feature-driven graph-comparator and deterministic claim campaign | The planned campaign is not completed evidence, and robust superiority, a novel kernel family or production model is unqualified. |
+| TA-IP-025 / Artemis | main v1.8.0 heterogeneous batch telemetry aligner; draft PR #11 v1.8.1 separate | No production safety, calibrated RUL or live multi-source clock synchronization; no automatic actuation; v1.8.1 remains unmerged. |
+| TA-IP-026 / Mara | DOMINUS V3.8 release evidence separated from V4.6 research candidate/main source | Forward economic OOS sample insufficient; no verified positive post-cost alpha or promoted live strategy; NO_TRADE remains. Future profit not guaranteed. |
+| TA-IP-027 / Nora | AAF 0.24.0 qualified source according to docs/STATUS.md; later v0.25 change is not automatically inherited | Qualification is pinned to one target fingerprint and source; no general external provider, power-loss durability, production authority or independent field qualification. |
+| TA-IP-028 / Mia | main LEWIS rebuild and open draft PR #1 RC26 provider-deployment governance | No independent end-to-end GGUF/model-quality, RAM/latency or provider billing acceptance; RC26 not merged. |
+| TA-IP-029 / Verity | Veritas Evidence Intelligence v0.24 registry and external-anchor rollback guards | Signature verification authenticates a key and bytes, not factual truth, legal title or trusted global timestamp; external anchor trust and operational suitability separate. |
+| TA-IP-030 / Celeste | Aerospace Mission Simulator v2.9 dynamic battery/thermal research model | Not flight-tested, certified, hardware-calibrated or operationally safe; new complete v2.9 checkout qualification must be distinguished from v2.8 historical PASS. |
+| TA-IP-031 / Valentina | MT2050 Experimental Dynamics v0.14 replayable assurance/evidence framework | No measured advanced propulsion, anti-gravity, faster-than-light, certified navigation, or physically verified flight behavior. |
+| TA-IP-032 / Amelia | Electric Flight Systems / TITAN v0.2.0 conventional low-order eVTOL simulator | No high-fidelity flight-dynamics, airworthiness, safety, EASA certification or crewed aircraft control authorization. |
+| TA-IP-033 / Julia | LegalOps NL v0.8 on main; draft PR #8 v0.9 Matter Graph and PR #9 roadmap remain separate | Embedded historical legal assertions remain unverified at proposition level; no legal-advice certification or current statutory assurance. v0.9 not released. |
+| TA-IP-034 / Petra | Advanced Ground Vehicle Engineering v0.13.0 C++ analysis and audit-package controls | Bundled scenarios are synthetic and cannot qualify actual vehicles, subsystems, TRL or operational safety. |
+| TA-IP-035 / Iris | Biometric Systems Assurance / SentinelBio Verify v0.3 software-only | No real device biometric accuracy, liveness performance, regulatory compliance or physical deployment certification. |
+| TA-IP-036 / Minerva | EIMP v0.50 Stage 08 engineering taxonomy and knowledge research | 300 specialist scope records do not equal independently verified expertise; zero currently promoted canonical_draft/verified_canon specialists. |
+| TA-IP-037 / Eve | ANEP spiking neural-network computational research engine | Biological fidelity, consciousness, large-scale neural benchmark performance and production GPU capacity not established. |
+| TA-IP-038 / Mira | IMPE v0.24 durable artifact deletion/GC after qualified v0.23.1 native baseline | v0.24 full native PostgreSQL 378+101 zero-skip acceptance outstanding; no vendor media download or legal third-party media clearance, no production reliability claim. |
+| TA-IP-039 / Grace | Evidence-Governed Software Assurance v40 main, v41 open draft PR #5 | Provider and signing authority real-live evidence not complete; v41 unmerged and no external production qualification. |
+| TA-IP-040 / Sibyl | ORACULUM INFINITUM v1.0 external software component evaluation/control plane | Search ranking and benchmarks are not provider license adjudication, supply-chain security assurance or suitability in all deployments; isolation backend must be available for untrusted code. |
+| TA-IP-041 / Vera | CipherRouteDB v0.3.19 security policy with ChaCha20-Poly1305 and external counter adapter | No production secure database, fully qualified external HSM/counter or audited 128-bit system guarantee; rollback and availability need real external verification. |
+| TA-IP-043 / Gaia | LatticeDepth v0.0.23 governance and Phase-0 silicon/proton scientific case | No beam control, exposure recipe, facility authorization, scientific experiment acceptance or legal IP title clearance. |
+| TA-IP-044 / Noelle | ISBR SecureTrace v2.4 validated historical core plus newer Assurance v5.1 governance development | No wet-lab result, experimental biological mechanism, safety/regulatory certification or automatic legal ownership effect. |
+
+The files `assets/portfolio-reassessment-20261107.json` and the corresponding twenty public product-display drafts now distinguish experimental capabilities, active code, historic test logs, and unmerged development candidates. **No independent run or commercial re-appraisal occurred in this batch.**
+
+## Pending mandatory work: 62 assets
+
+The remaining 62 items in the machine-readable portfolio assessment retain *historical, unverified descriptive maturity labels*. They must undergo the same repository-specific review with source SHA, last accepted release and unmerged branch status before any claim of a newly completed portfolio-wide technical re-evaluation. All 121 require legally transferable rights and independent commercial due diligence before a final purchase.
 
 ## Publication and price control
 
