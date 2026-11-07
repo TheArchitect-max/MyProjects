@@ -47,6 +47,6 @@ The portfolio matrix is **not a completed technical re-evaluation**. As of this 
 
 The 119 dynamically rendered buyer dossiers now read the source-review matrix and disclose whether each asset has received a current documentary review or still retains a historical, unverified maturity label. This is public, read-only static presentation — not a GitHub Pages SaaS service. Product-displays for all 59 reviewed assets also carry a specific source-scope notice.
 
-The sixth documentary review group (TA-IP-045 through TA-IP-064) is incorporated into the read-only project dossiers and 121-asset evaluation matrix. The resulting 79 reviewed source claims do not represent 79 runtime-valid releases or valuations; 42 source-specific reviews remain open.
+At the sixth checkpoint, TA-IP-045 through TA-IP-064 had brought the historical progress tally to 79 reviewed and 42 pending. The subsequent seventh cohort brings the current tally to **99 reviewed and 22 pending**. Neither checkpoint represents new runtime-valid releases or independent valuations.
 
 Seventh source-review cohort: 20 additional private repositories (TA-IP-065–067, 069–084, 086), each inspected against its source baseline and current open-candidate status. Historical maturity labels and original seller asking references were not promoted or repriced. The public catalogue remains a static read-only demonstration, never a GitHub Pages SaaS runtime.
