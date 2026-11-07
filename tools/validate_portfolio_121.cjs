@@ -29,10 +29,26 @@ const technicalReviewPending=reassessment.assessments.filter(x=>x.technicalReeva
 assert.equal(sourceReviewed.length,reassessment.summary.projectSpecificSourceDeskReviews);
 assert.equal(technicalReviewPending.length,reassessment.summary.projectsAwaitingProjectSpecificTechnicalDeskReview);
 assert.equal(sourceReviewed.length+technicalReviewPending.length,121);
-assert.equal(sourceReviewed.length,4); // audit progress, not product acceptance
-assert.equal(technicalReviewPending.length,117);
+assert.equal(sourceReviewed.length,14); // documentary review progress, NOT runtime qualification
+assert.equal(technicalReviewPending.length,107);
 assert.equal(reassessment.summary.freshFunctionalSourceReexecutions,0);
 assert.equal(reassessment.summary.fullCommercialRequalifications,0);
+const reviewedHistoricalDisplaySlugs=[
+ 'adaptive-network-resilience-intelligence-platform',
+ 'stabilitymesh',
+ 'dmt-laser-phenomenology-engine',
+ 'quantum-cryptanalysis-engineering-platform',
+ 'adaptive-audio-midi-transcription-studio',
+ 'chess-strategic-intelligence-platform',
+ 'fundamental-reality-research-platform',
+ 'cosmological-structure-and-expansion-research-platform',
+ 'universal-independent-reasoning-framework',
+ 'foundational-existence-research-framework'
+];
+for (const slug of reviewedHistoricalDisplaySlugs)
+ assert(read('displays/products/'+slug+'/index.html').includes('data-source-requalification-20261107'),
+        'Missing reviewed source limitation on display '+slug);
+
 
 assert.equal(new Set(assets.map(x=>x.id)).size,121);
 assert.equal(new Set(assets.map(x=>x.alias.toLocaleLowerCase())).size,121);
