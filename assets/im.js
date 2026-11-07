@@ -32,7 +32,7 @@ async function load(){await ensurePricingMath();const rows=await Promise.all(['b
 function validateReassessment(r){
  if(!r||!Array.isArray(r.assessments)||r.assessments.length!==121)throw Error('Review register unavailable');
  const ids=new Set();
- for(const a of r.assessments){if(!/^TA-IP-\\d{3}$/.test(a.id)||ids.has(a.id)||typeof a.technicalReevaluationStatus!=='string')throw Error('Invalid source review register');ids.add(a.id)}
+ for(const a of r.assessments){if(!/^TA-IP-\d{3}$/.test(a.id)||ids.has(a.id)||typeof a.technicalReevaluationStatus!=='string')throw Error('Invalid source review register');ids.add(a.id)}
  return r;
 }
 function projectRequalification(a,d){
