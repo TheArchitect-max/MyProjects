@@ -29,10 +29,12 @@ const technicalReviewPending=reassessment.assessments.filter(x=>x.technicalReeva
 assert.equal(sourceReviewed.length,reassessment.summary.projectSpecificSourceDeskReviews);
 assert.equal(technicalReviewPending.length,reassessment.summary.projectsAwaitingProjectSpecificTechnicalDeskReview);
 assert.equal(sourceReviewed.length+technicalReviewPending.length,121);
-assert.equal(sourceReviewed.length,24); // documentary review progress, NOT runtime qualification
-assert.equal(technicalReviewPending.length,97);
+assert.equal(sourceReviewed.length,39); // document-only review progress, NOT runtime acceptance
+assert.equal(technicalReviewPending.length,82);
 assert.equal(reassessment.summary.freshFunctionalSourceReexecutions,0);
 assert.equal(reassessment.summary.fullCommercialRequalifications,0);
+assert(sourceReviewed.every(x=>/^[0-9a-f]{40}$/.test(x.sourceDocumentSha)), 'Reviewed sources must pin a 40-character README blob hash');
+assert(sourceReviewed.every(x=>typeof x.developmentEvidence==='string'&&x.developmentEvidence.length>20&&typeof x.currentLimitations==='string'&&x.currentLimitations.length>20),'Reviewed source records must carry evidence and remaining limits');
 const reviewedHistoricalDisplaySlugs=[
  'adaptive-network-resilience-intelligence-platform',
  'stabilitymesh',
@@ -53,7 +55,22 @@ const reviewedHistoricalDisplaySlugs=[
  'universal-video-intelligence-platform',
  'manuscript-integrity-publishing-platform',
  'visual-effects-spatial-computing-platform',
- 'the-stone-universe-research-framework'
+ 'the-stone-universe-research-framework',
+ 'continuum-state-integrity-platform',
+ 'faunometric',
+ 'modular-key-cryptanalysis-platform',
+ 'plant-environment-decision-intelligence-platform',
+ 'tls-virtual',
+ 'research-intelligence-fabric',
+ 'evidence-governed-visual-intelligence-platform',
+ 'advanced-general-purpose-ai-systems-platform',
+ 'programmatic-search-fabric',
+ 'protein-structure-evidence-qualification-platform',
+ 'signal-processing-universal-framework',
+ 'air-to-water-transition-vehicle',
+ 'verifiable-execution-control-platform',
+ 'machine-cognition-research-framework',
+ 'distributed-ai-resource-fabric'
 ];
 for (const slug of reviewedHistoricalDisplaySlugs)
  assert(read('displays/products/'+slug+'/index.html').includes('data-source-requalification-20261107'),
