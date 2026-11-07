@@ -24,6 +24,16 @@ assert.equal(mapping.projects.length,121);
 assert.equal(buyers.projects.length,119);
 assert.equal(pricing.projects.length,119);
 assert.equal(reassessment.assessments.length,121);
+const sourceReviewed=reassessment.assessments.filter(x=>x.technicalReevaluationStatus?.startsWith('SOURCE_DESK_'));
+const technicalReviewPending=reassessment.assessments.filter(x=>x.technicalReevaluationStatus==='PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW');
+assert.equal(sourceReviewed.length,reassessment.summary.projectSpecificSourceDeskReviews);
+assert.equal(technicalReviewPending.length,reassessment.summary.projectsAwaitingProjectSpecificTechnicalDeskReview);
+assert.equal(sourceReviewed.length+technicalReviewPending.length,121);
+assert.equal(sourceReviewed.length,4); // audit progress, not product acceptance
+assert.equal(technicalReviewPending.length,117);
+assert.equal(reassessment.summary.freshFunctionalSourceReexecutions,0);
+assert.equal(reassessment.summary.fullCommercialRequalifications,0);
+
 assert.equal(new Set(assets.map(x=>x.id)).size,121);
 assert.equal(new Set(assets.map(x=>x.alias.toLocaleLowerCase())).size,121);
 assert.equal(new Set(assets.map(x=>x.slug)).size,121);
