@@ -1,7 +1,7 @@
 {
   "schema": "portfolio-evidence-limited-reassessment-1",
   "date": "2026-11-07",
-  "purpose": "Desk evaluation of identity, published maturity, unverified claims and gaps; not independent code test or financial valuation",
+  "purpose": "Release-gated reassessment tracking: source-specific technical desk reviews and historical labels are kept separate. Not a technical test or market valuation.",
   "evidencePolicy": "Only source identity and public artifact/static checks performed. NOT_RUN and NOT_VERIFIED may never be promoted to PASS.",
   "summary": {
     "identityPass": 121,
@@ -11,7 +11,11 @@
     "publishedSellerAskingReferences": 119,
     "notQuoted": 2,
     "independentlyReexecutedSourceBuilds": 0,
-    "confirmedCommerciallyReadyProducts": 0
+    "confirmedCommerciallyReadyProducts": 0,
+    "projectSpecificSourceDeskReviews": 4,
+    "projectsAwaitingProjectSpecificTechnicalDeskReview": 117,
+    "freshFunctionalSourceReexecutions": 0,
+    "fullCommercialRequalifications": 0
   },
   "assessments": [
     {
@@ -28,7 +32,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-002",
@@ -44,7 +53,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-003",
@@ -60,7 +74,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-004",
@@ -76,7 +95,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-005",
@@ -92,7 +116,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-006",
@@ -108,7 +137,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-007",
@@ -124,7 +158,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-008",
@@ -140,7 +179,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-009",
@@ -156,7 +200,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-010",
@@ -172,7 +221,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-011",
@@ -188,7 +242,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-012",
@@ -204,7 +263,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-013",
@@ -220,7 +284,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-014",
@@ -236,7 +305,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-015",
@@ -252,7 +326,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-016",
@@ -268,7 +347,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-017",
@@ -284,7 +368,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-018",
@@ -300,7 +389,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-019",
@@ -316,7 +410,15 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Documented v2.31 acceptance on source-specific commit; not independently executed in this portfolio audit.",
+      "technicalReevaluationStatus": "SOURCE_DESK_REVIEWED_RELEASE_NOT_APPROVED",
+      "assessmentMethod": "Reviewed current main README and evidence history; source-reported tests not independently rerun.",
+      "sourceDocumentSha": "f4597422ca9ddd8c96e27ce953aaf0a9a6c39cc1",
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED",
+      "developmentEvidence": "OME v2.31 documents 12 native gates, 561 tests, zero failures/skips/warnings, exact source hash in README.",
+      "demonstratedScope": "Organizational precedent, software-change memory, durable recovery freshness and control evidence",
+      "currentLimitations": "No approved production traffic or OME-core infrastructure execution; fresh source execution and independent transfer/security diligence not performed."
     },
     {
       "id": "TA-IP-020",
@@ -332,7 +434,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-021",
@@ -348,7 +455,15 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Source-reported 24/24 pinned CPU acceptance is development evidence only; production GO/NO-GO still blocked.",
+      "technicalReevaluationStatus": "SOURCE_DESK_REVIEWED_RELEASE_NOT_APPROVED",
+      "assessmentMethod": "Reviewed main README and merged product/subscription strategy PRs; reported Colab tests not independently rerun.",
+      "sourceDocumentSha": "e7e834376c6b4f3d4fad72ac707d0b68af47034b",
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED",
+      "developmentEvidence": "SICPP v3.34 source reports SHA-pinned disposable Colab CPU acceptance 24/24.",
+      "demonstratedScope": "Offline songwriting/editorial review ledger and author-controlled workflows",
+      "currentLimitations": "SaaS subscription plan is a strategy, not live infrastructure or approved payment/tenant operations."
     },
     {
       "id": "TA-IP-022",
@@ -364,7 +479,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-023",
@@ -380,7 +500,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-024",
@@ -396,7 +521,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-025",
@@ -412,7 +542,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-026",
@@ -428,7 +563,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-027",
@@ -444,7 +584,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-028",
@@ -460,7 +605,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-029",
@@ -476,7 +626,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-030",
@@ -492,7 +647,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-031",
@@ -508,7 +668,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-032",
@@ -524,7 +689,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-033",
@@ -540,7 +710,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-034",
@@ -556,7 +731,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-035",
@@ -572,7 +752,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-036",
@@ -588,7 +773,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-037",
@@ -604,7 +794,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-038",
@@ -620,7 +815,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-039",
@@ -636,7 +836,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-040",
@@ -652,7 +857,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-041",
@@ -668,7 +878,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-042",
@@ -684,7 +899,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-043",
@@ -700,7 +920,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-044",
@@ -716,7 +941,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-045",
@@ -732,7 +962,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-046",
@@ -748,7 +983,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-047",
@@ -764,7 +1004,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-048",
@@ -780,7 +1025,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-049",
@@ -796,7 +1046,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-050",
@@ -812,7 +1067,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-051",
@@ -828,7 +1088,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-052",
@@ -844,7 +1109,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-053",
@@ -860,7 +1130,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-054",
@@ -876,7 +1151,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-055",
@@ -892,7 +1172,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-056",
@@ -908,7 +1193,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-057",
@@ -924,7 +1214,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-058",
@@ -940,7 +1235,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-059",
@@ -956,7 +1256,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-060",
@@ -972,7 +1277,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-061",
@@ -988,7 +1298,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-062",
@@ -1004,7 +1319,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-063",
@@ -1020,7 +1340,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-064",
@@ -1036,7 +1361,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-065",
@@ -1052,7 +1382,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-066",
@@ -1068,7 +1403,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-067",
@@ -1084,7 +1424,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-068",
@@ -1100,7 +1445,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-069",
@@ -1116,7 +1466,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-070",
@@ -1132,7 +1487,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-071",
@@ -1148,7 +1508,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-072",
@@ -1164,7 +1529,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-073",
@@ -1180,7 +1550,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-074",
@@ -1196,7 +1571,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-075",
@@ -1212,7 +1592,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-076",
@@ -1228,7 +1613,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-077",
@@ -1244,7 +1634,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-078",
@@ -1260,7 +1655,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-079",
@@ -1276,7 +1676,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-080",
@@ -1292,7 +1697,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-081",
@@ -1308,7 +1718,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-082",
@@ -1324,7 +1739,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-083",
@@ -1340,7 +1760,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-084",
@@ -1356,7 +1781,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-085",
@@ -1372,7 +1802,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-086",
@@ -1388,7 +1823,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-087",
@@ -1404,7 +1844,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-088",
@@ -1420,7 +1865,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-089",
@@ -1436,7 +1886,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-090",
@@ -1452,7 +1907,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-091",
@@ -1468,7 +1928,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-092",
@@ -1484,7 +1949,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-093",
@@ -1500,7 +1970,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-094",
@@ -1516,7 +1991,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-095",
@@ -1532,7 +2012,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-096",
@@ -1548,7 +2033,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-097",
@@ -1564,7 +2054,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-098",
@@ -1580,7 +2075,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-099",
@@ -1596,7 +2096,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-100",
@@ -1612,7 +2117,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-101",
@@ -1628,7 +2138,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-102",
@@ -1644,7 +2159,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-103",
@@ -1660,7 +2180,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-104",
@@ -1676,7 +2201,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-105",
@@ -1692,7 +2222,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-106",
@@ -1708,7 +2243,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-107",
@@ -1724,7 +2264,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-108",
@@ -1740,7 +2285,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-109",
@@ -1756,7 +2306,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-110",
@@ -1772,7 +2327,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-111",
@@ -1788,7 +2348,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-112",
@@ -1804,7 +2369,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-113",
@@ -1820,7 +2390,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-114",
@@ -1836,7 +2411,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-115",
@@ -1852,7 +2432,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-116",
@@ -1868,7 +2453,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-117",
@@ -1884,7 +2474,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-118",
@@ -1900,7 +2495,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-119",
@@ -1916,7 +2516,12 @@
       "commercialPricing": "DATED_SELLER_REFERENCE_ONLY",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification."
+      "evidenceBoundary": "Maturity is previously declared; no new 2026-11-07 end-to-end requalification.",
+      "technicalReevaluationStatus": "PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW",
+      "assessmentMethod": "Historical catalogue classification carried forward as unverified descriptive label; not re-evaluated.",
+      "sourceDocumentSha": null,
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED"
     },
     {
       "id": "TA-IP-120",
@@ -1932,7 +2537,19 @@
       "commercialPricing": "NOT_QUOTED",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "New project source docs inspected; not an independent implementation, legal or runtime audit."
+      "evidenceBoundary": "Do not present unmerged PR as released; current draft candidate remains HOLD, latest CUDA positive gate was NOT_RUN according to its R9 document.",
+      "technicalReevaluationStatus": "SOURCE_DESK_REVIEWED_CANDIDATE_HOLD",
+      "assessmentMethod": "Compared source main README and CMake baseline with open draft PR #2, candidate README and R4.2g-R8/R9 qualification specifications.",
+      "sourceDocumentSha": "5422519d500c3c2bd1add8015a99984f663ecc32",
+      "candidateConsidered": true,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED",
+      "candidateSourceDocumentSha": "49d7bd95ea580d96a1009b9c7de72d13f68456cf",
+      "sourceBaseline": "main v0.1.0 / R0 native rights admission preflight",
+      "candidateStatus": "OPEN_DRAFT_PR_2_NOT_MERGED",
+      "candidateHeadSha": "173fac8d7aab2202ce71ec750857dc5b959b2f76",
+      "developmentEvidence": "Draft branch contains additional native logo/template cleanup, media-container handling, synthetic visual detection/quality and optional typed ONNX/CUDA qualification. Historical local testing is reported in PR and docs; latest R9 native CUDA positive gate documented NOT_RUN.",
+      "demonstratedScope": "R0 native preflight on main; broader experimental video pipeline candidate on unmerged PR",
+      "currentLimitations": "No independent commercial-use rights verification; synthetic unknown-overlay false positives; no validated semantic logo classifier or production-quality video pipeline; R9 CUDA positive/worker isolation and commercial readiness unverified."
     },
     {
       "id": "TA-IP-121",
@@ -1948,7 +2565,29 @@
       "commercialPricing": "NOT_QUOTED",
       "marketValueEstablished": false,
       "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
-      "evidenceBoundary": "New project source docs inspected; not an independent implementation, legal or runtime audit."
+      "evidenceBoundary": "Source-reported CI and mathematical reference checks only; no new full checkout execution in portfolio review.",
+      "technicalReevaluationStatus": "SOURCE_DESK_REVIEWED_RESEARCH_SCOPE",
+      "assessmentMethod": "Reviewed current main README, source identity and merged P3 R11 PR history; published CI results are referenced but not re-executed here.",
+      "sourceDocumentSha": "dea1c7b9e39dc176c21dbe8f268061b9af22ff8e",
+      "candidateConsidered": false,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED",
+      "sourceBaseline": "main P3 R11 merged; source claims exact-source CI at verified commit 49ca08bab8ed60ee3b37797107c8d0e049e1e279",
+      "developmentEvidence": "Source documents native 4D tesseract topology, orthographic projection/section variants, independent oracle comparisons, direct Chromium tests, and CI success in PR #22.",
+      "demonstratedScope": "Bounded 4D mathematical research software with offline browser visualization",
+      "currentLimitations": "Not a physical extra-dimension observation; no human perceptual study, arbitrary nD/perspective completeness or commercial release certification."
     }
-  ]
+  ],
+  "reviewProtocol": {
+    "categories": [
+      "source baseline and pending development branches",
+      "evidence from current source and recorded gates",
+      "implemented vs planned functionality",
+      "reported development maturity vs release maturity",
+      "licence and IP transfer diligence",
+      "seller asking references vs market value"
+    ],
+    "classificationRule": "Do not carry forward maturity labels as newly verified. A source desk review does not equal functional re-execution. Open PRs are assessed as provisional candidates and never promoted to main/release.",
+    "publicationGate": "HOLD until all modified/new projects are source-reviewed, updated documents are synchronized, static regressions pass and real website browser checks are recorded.",
+    "reReviewTrigger": "New source repository, merged revision, open candidate that changes product claims, change to legal/rights status, evidence or sales description."
+  }
 }
