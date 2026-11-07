@@ -34,6 +34,7 @@ Repository tools verify identity consistency, documents, complete prices, disclo
 
 ## Updated identity and source audit — 7 November 2026
 
+- [Evidence-limited 121-project reassessment](portfolio-evaluation.html) and [machine-readable assessment matrix](assets/portfolio-reassessment-20261107.json).
 - [Complete 121-asset register](portfolio-register.html) (searchable, no private source code).
 - [Machine-readable identity ledger](assets/portfolio-identity-ledger.json) and [canonical 121-row identity CSV](displays/identity-register.csv).
 - The priced buyer catalogue, financial matrices and PDF factsheet collection remain **119** existing, dated records; the two additional research assets deliberately have **no** invented asking or recreation-cost figures.
