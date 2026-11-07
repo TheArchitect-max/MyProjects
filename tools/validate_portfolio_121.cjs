@@ -29,52 +29,26 @@ const technicalReviewPending=reassessment.assessments.filter(x=>x.technicalReeva
 assert.equal(sourceReviewed.length,reassessment.summary.projectSpecificSourceDeskReviews);
 assert.equal(technicalReviewPending.length,reassessment.summary.projectsAwaitingProjectSpecificTechnicalDeskReview);
 assert.equal(sourceReviewed.length+technicalReviewPending.length,121);
-assert.equal(sourceReviewed.length,39); // document-only review progress, NOT runtime acceptance
-assert.equal(technicalReviewPending.length,82);
+assert.equal(sourceReviewed.length,59); // document-only review progress, NOT runtime acceptance
+assert.equal(technicalReviewPending.length,62);
 assert.equal(reassessment.summary.freshFunctionalSourceReexecutions,0);
 assert.equal(reassessment.summary.fullCommercialRequalifications,0);
 assert(sourceReviewed.every(x=>/^[0-9a-f]{40}$/.test(x.sourceDocumentSha)), 'Reviewed sources must pin a 40-character README blob hash');
 assert(sourceReviewed.every(x=>typeof x.developmentEvidence==='string'&&x.developmentEvidence.length>20&&typeof x.currentLimitations==='string'&&x.currentLimitations.length>20),'Reviewed source records must carry evidence and remaining limits');
-const reviewedHistoricalDisplaySlugs=[
- 'adaptive-network-resilience-intelligence-platform',
- 'stabilitymesh',
- 'dmt-laser-phenomenology-engine',
- 'quantum-cryptanalysis-engineering-platform',
- 'adaptive-audio-midi-transcription-studio',
- 'chess-strategic-intelligence-platform',
- 'fundamental-reality-research-platform',
- 'cosmological-structure-and-expansion-research-platform',
- 'universal-independent-reasoning-framework',
- 'foundational-existence-research-framework',
- 'modular-aerospace-research-platform',
- 'evidence-intelligence-operations-platform',
- 'custody-integrity-assurance-platform',
- 'generative-media-production-platform',
- 'maastricht-digital-twin', // TA-IP-087 legacy compatibility URL; canonical renamed title
- 'launch-cislunar-transportation-engineering-platform',
- 'universal-video-intelligence-platform',
- 'manuscript-integrity-publishing-platform',
- 'visual-effects-spatial-computing-platform',
- 'the-stone-universe-research-framework',
- 'continuum-state-integrity-platform',
- 'faunometric',
- 'modular-key-cryptanalysis-platform',
- 'plant-environment-decision-intelligence-platform',
- 'tls-virtual',
- 'research-intelligence-fabric',
- 'evidence-governed-visual-intelligence-platform',
- 'advanced-general-purpose-ai-systems-platform',
- 'programmatic-search-fabric',
- 'protein-structure-evidence-qualification-platform',
- 'signal-processing-universal-framework',
- 'air-to-water-transition-vehicle',
- 'verifiable-execution-control-platform',
- 'machine-cognition-research-framework',
- 'distributed-ai-resource-fabric'
-];
-for (const slug of reviewedHistoricalDisplaySlugs)
- assert(read('displays/products/'+slug+'/index.html').includes('data-source-requalification-20261107'),
-        'Missing reviewed source limitation on display '+slug);
+const reviewedDisplaySlugs=sourceReviewed.map(x=>{
+ const a=assets.find(a=>a.id===x.id);
+ assert(a,'Reviewed asset missing from identity ledger: '+x.id);
+ const segments=new URL(a.displayUrl).pathname.split('/').filter(Boolean);
+ assert(segments.at(-3)==='displays'&&segments.at(-2)==='products','Reviewed asset has an invalid display URL: '+x.id);
+ return segments.at(-1);
+});
+assert.equal(new Set(reviewedDisplaySlugs).size,59);
+for(const slug of reviewedDisplaySlugs){
+ const p='displays/products/'+slug+'/index.html';
+ assert(exists(p),'Reviewed display not found: '+slug);
+ assert(read(p).includes('data-source-requalification-20261107="documentary-review"'),
+        'Missing source qualification disclaimer on display '+slug);
+}
 
 
 assert.equal(new Set(assets.map(x=>x.id)).size,121);
@@ -120,6 +94,7 @@ assert.equal((display.match(/class="asset-card"/g)||[]).length,121);
 assert.equal((register.match(/<tr data-search=/g)||[]).length,121);
 assert.equal((matrix.match(/<tr data-filter=/g)||[]).length,121);
 assert(hub.includes('portfolio-register.html')&&hub.includes('portfolio-evaluation.html'));
+assert(hub.includes('portfolio-reassessment-20261107.json')&&hub.includes('validateReassessment(rows[6])')&&hub.includes('projectRequalification(a,d)'),'Dynamic dossiers must show the current review register');
 assert(read('index.html').includes('showroom30-portfolio-20261107'));
 new Function(hub);new Function(read('displays/assets/exhibition.js')); // parse only
 assert.equal(reassessment.summary.prototypeLabels+reassessment.summary.developedSoftwareLabel+reassessment.summary.researchSoftwareLabels,121);
