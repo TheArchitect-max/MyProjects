@@ -13,7 +13,9 @@
 7. Reconsider seller asking references against substantiated capability and current market evidence; never equate asking price with valuation.
 8. Reconcile the product brief, website dossier, identity register, evaluation matrix and release gates. On FAIL, NOT_RUN or NOT_VERIFIED, preserve HOLD.
 
-## Screened source projects (thirty-nine of 121)
+## Reviewed source cohort: thirty-nine of 121 (four documentary batches)
+
+### Initial batch — four projects
 
 | ID / alias | Evidence basis | Implemented maturity | Production & commercialization gate |
 |---|---|---|---|
