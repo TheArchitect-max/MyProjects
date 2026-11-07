@@ -1,6 +1,6 @@
 # Portfolio source-specific requalification addendum — 2026-11-07
 
-**Status: INCOMPLETE — website merge blocked.** This is an actual dated document inspection of ninety-nine source projects, not a claim that all 121 projects have been requalified. Identity consistency alone is not a product evaluation.
+**Status: SOURCE-DOCUMENT REVIEW COMPLETE / TECHNICAL AND COMMERCIAL QUALIFICATION INCOMPLETE — website merge blocked.** This document records individual current-source documentary inspections for all 121 private IP projects. It is not an independently executed source/build/security audit, a scientific qualification, legal title clearance or a market appraisal.
 
 ## Evaluation protocol (per asset; re-run after material changes)
 
@@ -13,7 +13,7 @@
 7. Reconsider seller asking references against substantiated capability and current market evidence; never equate asking price with valuation.
 8. Reconcile the product brief, website dossier, identity register, evaluation matrix and release gates. On FAIL, NOT_RUN or NOT_VERIFIED, preserve HOLD.
 
-## Reviewed source cohort: ninety-nine of 121 (seven documentary batches)
+## Reviewed source cohort: 121 of 121 (eight documentary batches)
 
 ### Initial batch — four projects
 
@@ -177,12 +177,43 @@ Important source distinctions: BIND-AI P3p v2.9.15 retained its independent boun
 
 Historical 56/53/12 maturity category totals are still legacy descriptive labels. Source review statuses are individual engineering document conclusions, not current software test certification or current acquisition prices.
 
-## Pending mandatory work: 22 assets
+## Eighth review batch — final twenty-two private source documentation inspections
 
-The remaining 22 items in the machine-readable portfolio assessment retain *historical, unverified descriptive maturity labels*. They must undergo the same repository-specific review with source SHA, last accepted release and unmerged branch status before any claim of a newly completed portfolio-wide technical re-evaluation. All 121 require legally transferable rights and independent commercial due diligence before a final purchase.
+The last 22 private repositories have now been inspected at current main README Git blob identity and recent PR/documented evidence where available. This is **documentary scope only**. The same per-repository isolation and failure-preservation rule applies as in earlier cohorts.
+
+| IP reference and alias | Documented source baseline | Evidence and product qualification gap |
+|---|---|---|
+| TA-IP-088 / Eva | Maastricht Zero-Hour Simulator v0.1 UE architecture/bootstrap skeleton | No compiled production/editor acceptance, 1:1 Maastricht mapping, physically calibrated vehicle behavior, live traffic or licensed world-asset delivery. |
+| TA-IP-089 / Lydia | HΛRM LYRA RS 3.6T automotive initial analysis/engineering baseline | No manufactured or tested vehicle, lab dyno/wind-tunnel proof, ECU calibration, homologation, OEM/third-party rights or operational safety certification. |
+| TA-IP-090 / Lucia | LYRA-AERO eVTOL v0.1 analytical feasibility kernel and design exploration | No CFD/FEM/rotor tests, real aircraft, battery thermal validation, airworthiness, flight-dynamics certification or physical feasibility acceptance. |
+| TA-IP-091 / Ursula | Universal Capability Synthesis Engine v0.1 proprietary evidence-governed component-selection kernel | Popularity is not engineering proof. No completed broad synthesis, independent security audit, full licence adjudication, third-party redistribution grants or production software component superiority. |
+| TA-IP-092 / Isadora | Aurynthiq v0.12.0 BYOM single-user local DJ/mashup analysis prototype | No proven DJ/mashup quality, externally verified music/composition rights, hostile-actor-resistant DRM, SaaS multi-tenancy, GPU production, paid subscription or public publication. |
+| TA-IP-093 / Celine | UVCD main 0.5.6.dev0 validated development reference; PR #25 offline billing-state draft | Reference firmware labels and dual signatures do not demonstrate real ECU/TCU fitment, OEM permission, commercial source redistribution or live paid SaaS. PR #25 cannot authorize production billing. |
+| TA-IP-094 / Elise | LEARNPIANO browser product v13 internal learned note-transcription default; PR #32 v16 recovery selection candidate | No independent real-recording SOTA, live hardware/vocal performance, pedagogical superiority or acceptance of v16 recovery. PR #32 unmerged and not promoted. |
+| TA-IP-095 / Ivy | Evidence-Governed Intelligence Platform R7 0.5.dev1 in-memory digital twin and governance reference | No hosted service, authenticated real user identity, durable database, fitted real system dynamics, causal verification, legal authority or demonstrated autonomous AI runtime; R8 still future. |
+| TA-IP-096 / Vespera | Universal Systems Intelligence Engine current Q2-C6 developer baseline; Q2-C7 draft PR #43 separate | Historical multi-domain Q2 prediction-improvement goal NOT_MET; external real prospective evaluation, authentic data custody and scientific independent superiority remain open. PR #43 not merged. |
+| TA-IP-097 / Octavia | Software Asset Engineering Platform current Python local CLI and loopback owner API | Does not build, install or execute analyzed third-party source and records those gates NOT_RUN. No private SaaS account/tenant production service or independently cleared title/FTO/market price. |
+| TA-IP-099 / Elysia | Synthetic Consciousness Engineering v0.4 JAX experimental v33.1 derivative and resumable synthetic campaign | No synthetic consciousness, sentience, faithful historical reconstruction, independently replicated physical/biological effects or production GPU campaign. |
+| TA-IP-101 / Pallas | Universal Remote Perception Intelligence P1.1 offline prediction/commitment prototype v0.4 | No physical sensing hardware, unexplained perception effect, independent nonlocal anomaly, validated AI perception model or commercially cleared legal chain of title. |
+| TA-IP-102 / Diana | Universal Operations Orchestration v0.4 local SQLite and state/evidence policy preflight | Not production SaaS, external actor authentication, real autonomous operations executor, financial ledger or global solver; unsigned custody anchors need separately trusted retention. |
+| TA-IP-103 / Calliope | Collective Reality Engine v0.3 local multi-scenario simulation; draft PR #3 v0.4 offline seals | No deployed multiplayer, persistent cloud shards, production moderation, real AI inference, customer accounts, payments or scalable public world. v0.4 candidate unmerged. |
+| TA-IP-104 / Hestia | Mission-to-Execution Engineering main early offline requirements/volume planning; stacked v0.4/0.5 PRs remain open | No general autonomous engineering, completed real-world mission or independently validated design; stacked PR #6 depends on #5 release and exact-source tests. |
+| TA-IP-106 / Vesta | Universal Property Intelligence v0.2 evidence ingestion/normalization engine | Hashed documents may not have been semantically interpreted; no independently verified valuation, actual building condition, insurer acceptance or production SaaS. |
+| TA-IP-108 / Scheherazade | Narrative Collectibles Platform R7/v0.8 local registry, editorial governance and portable verifier | No legal title/payment verification, shipping provider, authenticated public multi-tenancy, real sales, privacy/security certification or live commerce. HMAC local receipts not independent notarization. |
+| TA-IP-109 / Lucinda | Gossquibble R5.41 prelaunch synthetic security/recovery gate with open draft PR #49 R5.42 | No public launch, real source-content rights, production security/VPS, paid API operation or independent offsite key/witness custody. R5.42 unmerged, full Colab acceptance NOT_RUN. |
+| TA-IP-110 / Urania | Reality Substrate Hypothesis Testing v0.18 covariance-aware synthetic hypothesis-comparison candidate | No genuine Fermi instrument/likelihood calibration, observational evidence of physical substrate, preregistered real-world detection or complete current-source v0.18 acceptance. |
+| TA-IP-113 / Clotho | Temporal Causality Breakthrough Research current conceptual/constraint studies with strict custody repair history | No reproducible information transfer from future to past, time machine, physical causal violation or independent apparatus-based breakthrough. Negative results and mathematical constraints must be preserved. |
+| TA-IP-115 / Estelle | Digital Template Commerce v0.8 staging evidence harness and TCE 0.4 commerce integration | v0.8 exact runtime-source CPU gate PENDING, real WordPress/Woo/BTCPay HTTPS/payment test PENDING, production accepted NO; no live transactions or customer payments on GitHub. |
+| TA-IP-116 / Agnes | Closed-Cycle Energy Research R2B2F independently reproduced software/numerics; R3A adversarial envelope locally tested | R3A independent Colab replay OPEN, physical output/source-power measurement G5/G6 OPEN, rights/FTO G7 OPEN. No perpetual motion, self-powered energy gain or experimentally verified device performance. |
+
+Key distinctions: LEARNPIANO v13 is the internally accepted default while v16 PR #32 is unmerged; UVCD's firmware corpus has research provenance but no proven installed ECU/TCU fitment, and its PR #25 is strictly offline. USIE Q2-C6 retains its developer evidence but Q2 scientific gain remains NOT_MET; Q2-C7 is draft. Gossquibble R5.41 is PRELAUNCH and R5.42 is an unvalidated draft. Reality Substrate v0.18 and the energy-research R3A candidate await their own full/external acceptance. All physical-concept and temporal-causality discoveries remain NOT_DEMONSTRATED.
+
+## Documentary review status: 0 unreviewed source assets; all independent acceptance gates remain open
+
+Every source asset has now received a scoped documentary reading with a pinned README Git blob and distinctions for current software, reported tests and outstanding development branches. The inherited descriptive maturity labels (56 developed, 53 prototype, 12 research) have **not** been independently recertified. Independent fresh full-source execution, dependency/security assessment, rights/FTO review, release acceptance, actual browser checks and current market valuations still require separately verified evidence. All 121 require legally transferable rights and buyer diligence before a final purchase.
 
 ## Publication and price control
 
 The 119 existing individual seller asking references are preserved as dated seller inputs only. No revised fair market values, independently appraised prices or approved asset sale readiness can be inferred from this addendum. TA-IP-120 and TA-IP-121 remain unpriced.
 
-**Release decision: HOLD.** This draft branch is not cleared for merge until full source reviews, appropriate test and website browser acceptance are complete, with evidence retained.
+**Release decision: HOLD.** The documentary source-review gate is complete; release is not authorized until the actual repository-native website tests and browser gates pass, pending asset acceptance and legal/commercial representations are accurately disclosed, and the required evidence is retained. No private repository release or commercial transfer is certified here.
