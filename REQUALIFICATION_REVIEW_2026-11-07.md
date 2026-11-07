@@ -1,6 +1,6 @@
 # Portfolio source-specific requalification addendum — 2026-11-07
 
-**Status: INCOMPLETE — website merge blocked.** This is an actual dated document inspection of fifty-nine source projects, not a claim that all 121 projects have been requalified. Identity consistency alone is not a product evaluation.
+**Status: INCOMPLETE — website merge blocked.** This is an actual dated document inspection of seventy-nine source projects, not a claim that all 121 projects have been requalified. Identity consistency alone is not a product evaluation.
 
 ## Evaluation protocol (per asset; re-run after material changes)
 
@@ -13,7 +13,7 @@
 7. Reconsider seller asking references against substantiated capability and current market evidence; never equate asking price with valuation.
 8. Reconcile the product brief, website dossier, identity register, evaluation matrix and release gates. On FAIL, NOT_RUN or NOT_VERIFIED, preserve HOLD.
 
-## Reviewed source cohort: fifty-nine of 121 (four documentary batches)
+## Reviewed source cohort: seventy-nine of 121 (four documentary batches)
 
 ### Initial batch — four projects
 
@@ -117,9 +117,38 @@ The items below were re-evaluated against private GitHub `main` README blobs (SH
 
 The files `assets/portfolio-reassessment-20261107.json` and the corresponding twenty public product-display drafts now distinguish experimental capabilities, active code, historic test logs, and unmerged development candidates. **No independent run or commercial re-appraisal occurred in this batch.**
 
-## Pending mandatory work: 62 assets
+## Sixth review batch — twenty project-specific source inspections
 
-The remaining 62 items in the machine-readable portfolio assessment retain *historical, unverified descriptive maturity labels*. They must undergo the same repository-specific review with source SHA, last accepted release and unmerged branch status before any claim of a newly completed portfolio-wide technical re-evaluation. All 121 require legally transferable rights and independent commercial due diligence before a final purchase.
+The source README blob and recent pull request status for each private repository were examined, with additional scoped release/evidence records where available. Every result is an engineering **documentary desk review**, not an independently reexecuted build or verified buyer-ready deliverable.
+
+| IP identity | Documented implementation/release scope | Distinct qualification boundary |
+|---|---|---|
+| TA-IP-045 / Mercia | Mercorion Commerce Compiler main v1-series static/NDJSON product-page compiler and traceable catalog publishing | No independent traffic, checkout, fulfilment, merchant feed rights, live e-commerce uptime or sales conversion validation. Synthetic records do not establish real commercial offers. |
+| TA-IP-046 / Harmonia | SonicFabric main A33/0.2.0a33 bounded product controls; A34 open draft PR #19 separately | No production-admitted default provider or full licensed model stack; ACE-Step prequalification is not serving approval, DiffRhythm restrictions remain; A34 is not merged. |
+| TA-IP-047 / Keira | Kinetic Logic Reconstructor main v1.8 metadata-only acquisition planning and corpus evidence contracts | Synthetic demonstrations are pipeline tests, not validated human decisions, legal opinions or accuracy on genuinely rights-cleared expert corpora. |
+| TA-IP-048 / Serena | Adaptive Biofeedback Engine V1.1 Node/browser engineering with session evidence and safety monitor | No clinical effectiveness, physiological diagnostic accuracy or certified patient safety. Engineering advisory/escalation is not a medical alarm and has no universal clinical threshold. |
+| TA-IP-049 / Alina | Aletheia Intelligence Fabric main v1.4 distributed job ownership and HTTPS challenge-handling | A committed test harness is not PASS; no license for unrelated online sources or circumvention of challenges; original first-party title and third-party access rights require due diligence. |
+| TA-IP-050 / Ines | TrueLane Ink-Core local tattoo-studio material, consent and inventory governance implementation | No live customer-data security audit, Dutch/EU privacy compliance certification, payment-network authority, medical device qualification or target PostgreSQL compatibility. |
+| TA-IP-051 / Vivian | Visionair Research Engine v0.12 ECG evidence governance and locked SVDB external coverage | Dataset and model identity checks do not establish diagnostic sensitivity, external clinical performance, medical device approval, patient safety or stable generalization; descriptive metrics not certified. |
+| TA-IP-052 / Viola | Vision Evidence Governed Multimodal Perception v35 release, twelve canonical animal-proxy model contracts | 8/12 feature evidence is not complete biological qualification, real sensory equivalence, animal-model generalization or independently measured production accuracy. |
+| TA-IP-053 / Eleanor | EGMERS v2.0 fully source-reported engineering release with v2.1 research candidate and open draft PR #27 | No measured real-model/human superiority, causal expert benefit or scientific H1–H7 success; draft model-execution carrier is not actual experimental evidence. |
+| TA-IP-054 / Aurelia | GoldenNet Signal Intelligence main v0.10 evidence-bound model bundle and deployment guard | Official NASA C-MAPSS and IMS predictive metrics NOT ESTABLISHED without independently recorded source-run evidence; no field predictive-maintenance or safety certification. |
+| TA-IP-055 / Clara | Autonomous Documentary Engine v0.9.11 certification harness after merged release-control PR | Full third-party media clearance, real provider execution/production rendering, end-to-end SaaS tenancy and billing certification remain open. Repository CI alone is not finished documentary delivery. |
+| TA-IP-056 / Lena | MEASP v0.2 deterministic adaptive/simulation core; roadmap v0.3+ unimplemented | No claims of behavioral control, consciousness, external device operations, general AI or empirical multimodal performance; extensions remain planned. |
+| TA-IP-057 / Luna | FusionLunar v0.45 source-retained release; separate v0.46 candidate on release branch | v0.46 final complete independent reruns not established by earlier development PASS; no commercially viable fusion propulsion, lunar deployment or experimentally proven energy-system capability. |
+| TA-IP-058 / Eleni | Temporal Physics & Causality Research Platform v0.17 synthetic finite-sample PTCG-1N inference | No registered valid formal causal witness, independent experimental apparatus counts, physical causal nonseparability, nonstandard time physics or time-machine proof. |
+| TA-IP-059 / Rhea | Industrial Predictive Maintenance & RUL v0.2 model training and external dataset interface | Official held-out dataset results and independent real industrial prediction reliability not certified by repository code; not SIL-rated or autonomous shutdown capability. |
+| TA-IP-060 / Melody | Adaptive Audio Production System v0.1.0 reproducible offline audio analysis and signal QA | No verified integrated mastering/loudness normalization, lookahead limiting, stem mixing, vocal synthesis or automated musical judgement; not a professional DAW equivalent. |
+| TA-IP-061 / Maya | Causal State Field Engine v0.9 with second-generation cryptographic key lifecycle | No independent trusted time, global revocation, physical HSM custody, legal PKI identity or independent penetration-testing assurance. |
+| TA-IP-062 / Thea | Evidence-Governed Analytical Reasoning v0.5 deterministic case and control evidence verifier | Checks authenticate structure relative to supplied inputs, not the factual truth, legal admissibility, independent attestation or nonrepudiation of underlying evidence. |
+| TA-IP-063 / Beatrice | Software Asset Provenance & Qualification Platform v0.5 signed software evidence and acquisition dossier tooling | Self-issued signatures and seller-side evidence do not establish independent chain of title, third-party IP clearance, FTO, market value or production security. |
+| TA-IP-064 / Athena | Adaptive General Reasoning Research Platform v1.52 bounded epistemic model and research governance | No general intelligence, language-model superiority, open-world self-improvement, independent human-level reasoning or scientific truth claim. |
+
+**Material candidate/evidence distinctions:** SonicFabric A34 and EGMERS real-model scientific PR #27 remain open drafts. Visionair v0.12 documents locked ECG experiment governance but no clinical success claim. Vision Evidence v35 has software regression acceptance yet 0/12 biological modes verified. The v0.46 FusionLunar candidate cannot inherit the finalized v0.45 release PASS. No price, independent legal rights, security, cross-platform reliability or customer-market acceptance is newly established by these source inspections.
+
+## Pending mandatory work: 42 assets
+
+The remaining 42 items in the machine-readable portfolio assessment retain *historical, unverified descriptive maturity labels*. They must undergo the same repository-specific review with source SHA, last accepted release and unmerged branch status before any claim of a newly completed portfolio-wide technical re-evaluation. All 121 require legally transferable rights and independent commercial due diligence before a final purchase.
 
 ## Publication and price control
 
