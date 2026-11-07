@@ -29,8 +29,8 @@ const technicalReviewPending=reassessment.assessments.filter(x=>x.technicalReeva
 assert.equal(sourceReviewed.length,reassessment.summary.projectSpecificSourceDeskReviews);
 assert.equal(technicalReviewPending.length,reassessment.summary.projectsAwaitingProjectSpecificTechnicalDeskReview);
 assert.equal(sourceReviewed.length+technicalReviewPending.length,121);
-assert.equal(sourceReviewed.length,14); // documentary review progress, NOT runtime qualification
-assert.equal(technicalReviewPending.length,107);
+assert.equal(sourceReviewed.length,24); // documentary review progress, NOT runtime qualification
+assert.equal(technicalReviewPending.length,97);
 assert.equal(reassessment.summary.freshFunctionalSourceReexecutions,0);
 assert.equal(reassessment.summary.fullCommercialRequalifications,0);
 const reviewedHistoricalDisplaySlugs=[
@@ -43,7 +43,17 @@ const reviewedHistoricalDisplaySlugs=[
  'fundamental-reality-research-platform',
  'cosmological-structure-and-expansion-research-platform',
  'universal-independent-reasoning-framework',
- 'foundational-existence-research-framework'
+ 'foundational-existence-research-framework',
+ 'modular-aerospace-research-platform',
+ 'evidence-intelligence-operations-platform',
+ 'custody-integrity-assurance-platform',
+ 'generative-media-production-platform',
+ 'maastricht-digital-twin', // TA-IP-087 legacy compatibility URL; canonical renamed title
+ 'launch-cislunar-transportation-engineering-platform',
+ 'universal-video-intelligence-platform',
+ 'manuscript-integrity-publishing-platform',
+ 'visual-effects-spatial-computing-platform',
+ 'the-stone-universe-research-framework'
 ];
 for (const slug of reviewedHistoricalDisplaySlugs)
  assert(read('displays/products/'+slug+'/index.html').includes('data-source-requalification-20261107'),
