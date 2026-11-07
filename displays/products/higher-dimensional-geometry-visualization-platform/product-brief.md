@@ -31,3 +31,7 @@ The README records accepted and merged P3 R11 with exact-source CI evidence, bou
 The project visualizes mathematically specified extra degrees of freedom. It does not prove that physical extra dimensions exist or that humans can literally see 4D space. Source-specific software tests do not establish independent market value, operational readiness, all third-party rights, or terms of ownership transfer. Commercial details require separate written agreement.
 
 Public identity pages: https://thearchitect-max.github.io/MyProjects/projects/higher-dimensional-geometry-visualization-platform/ and https://thearchitect-max.github.io/MyProjects/displays/products/higher-dimensional-geometry-visualization-platform/.
+
+## Re-evaluation addendum — 7 November 2026
+
+The current `main` repository documents **P3 R11 merged** and bounded native/Chromium source-specific test evidence. The source-reported CI run does not constitute a new independently reexecuted portfolio test. This remains **developed research software for a mathematically constrained 4D domain**, not a commercial production release or human-perception breakthrough. Generalized nD/perceptual product readiness, rights diligence and buyer transfer gates remain open.
