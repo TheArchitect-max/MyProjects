@@ -31,3 +31,7 @@ The source repository documents a local standard-library/CMake native rights-adm
 Manifest approval assertions are not independent legal verification. Every third-party video remains subject to documented permissions. Copyright claims cannot be ruled out. Source-specific software tests do not establish independent market value, operational readiness, all third-party rights, or terms of ownership transfer. Commercial details require separate written agreement.
 
 Public identity pages: https://thearchitect-max.github.io/MyProjects/projects/intelligent-media-acquisition-production-engine/ and https://thearchitect-max.github.io/MyProjects/displays/products/intelligent-media-acquisition-production-engine/.
+
+## Re-evaluation addendum — 7 November 2026
+
+The statement above describes **merged `main` only**. A separate **open, unmerged draft PR #2** contains R1–R4.2g/R9 experimental media sanitization, template-logo handling, overlay/temporal evidence, optional typed ONNX integration and a CUDA provider qualifier. This is not a saleable completed rendering engine. In the R9 source note, successful CUDA operator execution is **NOT_RUN** until suitable verified SDK/GPU execution; synthetic visual evaluation still leaves false-positive and rights-review gaps. No new independent execution was conducted by the portfolio audit. **Development status: experimental native prototype; acceptance: HOLD.**
