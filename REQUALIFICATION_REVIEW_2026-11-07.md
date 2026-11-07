@@ -1,6 +1,6 @@
 # Portfolio source-specific requalification addendum — 2026-11-07
 
-**Status: INCOMPLETE — website merge blocked.** This is an actual dated document inspection of twenty-four source projects, not a claim that all 121 projects have been requalified. Identity consistency alone is not a product evaluation.
+**Status: INCOMPLETE — website merge blocked.** This is an actual dated document inspection of thirty-nine source projects, not a claim that all 121 projects have been requalified. Identity consistency alone is not a product evaluation.
 
 ## Evaluation protocol (per asset; re-run after material changes)
 
@@ -13,7 +13,7 @@
 7. Reconsider seller asking references against substantiated capability and current market evidence; never equate asking price with valuation.
 8. Reconcile the product brief, website dossier, identity register, evaluation matrix and release gates. On FAIL, NOT_RUN or NOT_VERIFIED, preserve HOLD.
 
-## Screened source projects (twenty-four of 121)
+## Screened source projects (thirty-nine of 121)
 
 | ID / alias | Evidence basis | Implemented maturity | Production & commercialization gate |
 |---|---|---|---|
@@ -62,9 +62,33 @@ The following entries were checked against their private GitHub source README, c
 
 **Asset classification:** These projects retain their existing numeric IDs and women's-name aliases. Being a documented software asset does not imply that its entire intended technical end-state exists or that the owner has obtained an independently verified commercial market value.
 
-## Pending mandatory work: 97 assets
+## Fourth review batch — fifteen source-specific repository inspections
 
-The remaining 97 items in the machine-readable portfolio assessment retain *historical, unverified descriptive maturity labels*. They must undergo the same repository-specific review with source SHA, last accepted release and unmerged branch status before any claim of a newly completed portfolio-wide technical re-evaluation. All 121 require legally transferable rights and independent commercial due diligence before a final purchase.
+The records below are engineering documentary reviews of the repository's current README, identity record, recent PR history and available retained validation documents. Their source-document blob SHA references, scope and boundaries are machine-recorded in the accompanying reassessment JSON. Current tests were not independently re-executed in this portfolio revision.
+
+| ID / alias | Evidence / current scope | Limit that must not be misrepresented |
+|---|---|---|
+| TA-IP-004 / Elena | Continuum v2.5.1 recovery and strict provenance/replay checks | Independent external tamper authority and live resilience unproven |
+| TA-IP-006 / Fauna | Faunometric scoped 5.6 GPU qualification; 5.7 development | No biological language decoding or field classifier certification |
+| TA-IP-007 / Alice | ModularKey 2.14 full regression and conservative abstention gate | Family classifier is intentionally NOT QUALIFIED after holdout failures |
+| TA-IP-008 / Florence | PEDIP authenticated plant/site assessment with immutable evidence API | Real botanical and environmental decision accuracy not independently accepted |
+| TA-IP-010 / Talia | TLS Virtual rotating machinery/digital-twin product identity | README lacks adequate source-bound technical test evidence for renewed maturity |
+| TA-IP-011 / Dorothy | Research Intelligence Fabric v4.4, durable outbox, guarded source review | Secure hosted operation and external source integration not production accepted |
+| TA-IP-012 / Helena | AEGIS Vision 2.9 evidence/provider governance, bounded local runtime | Provider agreement is not independent scientific truth or security attestation |
+| TA-IP-013 / Thalia | Small-model CUDA distillation checkpoint tests | No frontier-class AI or v5.8 full released GPU acceptance |
+| TA-IP-014 / Sasha | Programmatic Search Fabric 1.9, 202 route parity and 61 control gates | No proven search traffic, revenue or SaaS deployment |
+| TA-IP-015 / Rosalind | Two protein-model evidence routes retained | Scientific Gate 1 is BLOCKED; Gate 2 NOT AUTHORIZED |
+| TA-IP-016 / Shannon | SPUF v1.23 domain signal orchestration and archive checks | No real-world cross-domain measurement/safety accreditation |
+| TA-IP-017 / Marina | HATV v8 C 6-DOF software and controller/RL research | No physical transition-vehicle performance or safety validation |
+| TA-IP-018 / Victoria | VECP Rust/Go and software Modbus/TCP execution loop evidence | Cloud deployment and real equipment qualification not shown |
+| TA-IP-020 / Noa | MCRF v0.8 deterministic predictive-state learner | No general AI, sentience or large-world-model capability |
+| TA-IP-022 / Freya | DARF v0.19 pinned T4 resource admission and 298 source tests | Not pooled VRAM, multi-host inference, distributed failover or live cluster reliability |
+
+**Release interpretation:** A project can have an engineering implementation with scoped test PASS while still being unsuitable for production sale claims. Independent IP title, transitive licences, buyer environment and supported hardware remain case-specific due-diligence gates. This audit does not change or validate historic asking prices.
+
+## Pending mandatory work: 82 assets
+
+The remaining 82 items in the machine-readable portfolio assessment retain *historical, unverified descriptive maturity labels*. They must undergo the same repository-specific review with source SHA, last accepted release and unmerged branch status before any claim of a newly completed portfolio-wide technical re-evaluation. All 121 require legally transferable rights and independent commercial due diligence before a final purchase.
 
 ## Publication and price control
 
