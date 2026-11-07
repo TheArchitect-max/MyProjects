@@ -1,6 +1,6 @@
 # THEARCHITECT_MAX - Seller-led software IP acquisition portfolio
 
-[Open the acquisition portfolio](https://thearchitect-max.github.io/MyProjects/). Nineteen navigation sections provide access to professional services, the collection, individual project displays, portfolio thesis, qualifications, financial method, sources and acquisition process.
+[Open the acquisition portfolio](https://thearchitect-max.github.io/MyProjects/). Twenty navigation sections provide access to professional services, the collection, individual project displays, portfolio thesis, qualifications, financial method, sources and acquisition process.
 
 ## Professional services
 
