@@ -1,6 +1,6 @@
 # THEARCHITECT_MAX - Seller-led software IP acquisition portfolio
 
-[Open the acquisition portfolio](https://thearchitect-max.github.io/MyProjects/). Nineteen navigation sections provide access to professional services, the collection, individual project displays, portfolio thesis, qualifications, financial method, sources and acquisition process.
+[Open the acquisition portfolio](https://thearchitect-max.github.io/MyProjects/). 21 navigation sections provide access to professional services, the collection, individual project displays, portfolio thesis, qualifications, financial method, sources and acquisition process.
 
 ## Professional services
 
@@ -12,7 +12,7 @@
 
 ## Asset identity and information
 
-The public catalogue contains 119 individually identified software and research IP assets. Each asset has one current TA-IP reference, canonical project title and feminine reference name. Individual presentations link to the asset dossier, factsheet PDF and product brief. Compatibility routes preserve earlier links without creating additional assets. Public repositories, publication infrastructure and seller-excluded literary archives are excluded from the asset count. All 119 current catalogue identities are linked to verified private source identities.
+The verified private-source identity register contains **121** individually identified software and research IP assets (7 November 2026). The established financial and buyer-dossier catalogue has **119** published asking-reference records; **TA-IP-120 / Lotte** and **TA-IP-121 / Maryam** are registered without published asking figures. Each asset has one current TA-IP reference, canonical project title and feminine reference name. Individual presentations link to the asset dossier, factsheet PDF and product brief. Compatibility routes preserve earlier links without creating additional assets. Public repositories, publication infrastructure and seller-excluded literary archives are excluded from the asset count. All 121 source identities have been checked against the connected private repositories; this source-identity check is not a fresh software acceptance, legal clearance or commercial valuation.
 
 ## Financial references
 
@@ -31,3 +31,22 @@ The website is a static presentation of professional services and software-IP ac
 Repository tools verify identity consistency, documents, complete prices, disclosed arithmetic, sources, public disclosure boundaries and internal links. Website checks do not independently certify the underlying products or establish legal title, market value or production acceptance.
 
 © 2026 THEARCHITECT_MAX. First-party rights reserved.
+
+## Updated identity and source audit — 7 November 2026
+
+- [Evidence-limited 121-project reassessment](portfolio-evaluation.html) and [machine-readable assessment matrix](assets/portfolio-reassessment-20261107.json).
+- [Complete 121-asset register](portfolio-register.html) (searchable, no private source code).
+- [Machine-readable identity ledger](assets/portfolio-identity-ledger.json) and [canonical 121-row identity CSV](displays/identity-register.csv).
+- The priced buyer catalogue, financial matrices and PDF factsheet collection remain **119** existing, dated records; the two additional research assets deliberately have **no** invented asking or recreation-cost figures.
+- Excluded from the 121 assets: both public repositories, the seller-excluded literary archive, and the private confidential acquisition-dossier repository, which identifies itself as publication infrastructure rather than a separate IP asset.
+- Website source checks do **not** establish a successful deployed-browser rendering test; do not label live UI verification PASS without direct evidence.
+
+## Mandatory requalification correction — 7 November 2026
+
+The portfolio matrix is **not a completed technical re-evaluation**. As of this draft revision, 99 source-specific documentation reviews have been recorded; **22** projects still require individual source/evidence review. The 99 reviews are enumerated in the requalification addendum and machine-readable matrix. The old 56/53/12 maturity totals are provisional descriptive labels, not freshly certified development outcomes. See [requalification review and gates](REQUALIFICATION_REVIEW_2026-11-07.md). The candidate remains draft/HOLD; the public website must not suggest that its source review, legal rights or current market valuations have been independently certified.
+
+The 119 dynamically rendered buyer dossiers now read the source-review matrix and disclose whether each asset has received a current documentary review or still retains a historical, unverified maturity label. This is public, read-only static presentation — not a GitHub Pages SaaS service. Product-displays for all 59 reviewed assets also carry a specific source-scope notice.
+
+The sixth documentary review group (TA-IP-045 through TA-IP-064) is incorporated into the read-only project dossiers and 121-asset evaluation matrix. The resulting 79 reviewed source claims do not represent 79 runtime-valid releases or valuations; 42 source-specific reviews remain open.
+
+Seventh source-review cohort: 20 additional private repositories (TA-IP-065–067, 069–084, 086), each inspected against its source baseline and current open-candidate status. Historical maturity labels and original seller asking references were not promoted or repriced. The public catalogue remains a static read-only demonstration, never a GitHub Pages SaaS runtime.
