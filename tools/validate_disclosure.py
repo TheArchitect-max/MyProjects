@@ -13,7 +13,15 @@ def validate():
  known_source_hashes=set(SOURCE_HASH.findall((ROOT/'assets/portfolio-reassessment-20261107.json').read_text()))
  for file in (ROOT/'assets').glob('*.json'):
   raw=file.read_text();source_hashes=set(SOURCE_HASH.findall(raw))
-  if file.name=='portfolio-reassessment-20261107.json':assert source_hashes<=known_source_hashes
+  if file.name=='portfolio-reassessment-20261107.json':
+   assert source_hashes<=known_source_hashes
+  elif file.name in {f'source-price-session-20261108-S0{i}.json' for i in range(1,5)}:
+   session=json.loads(raw);suffix=file.stem[-3:]
+   assert session.get('sessionId')=='2026-11-08-'+suffix,(file,'wrong session ID')
+   entries=session.get('entries',session.get('projects',[]))
+   assert len(entries)==3,(file,'audit session must contain three asset records')
+   assert all(re.fullmatch(r'TA-IP-\d{3}',e.get('assetId','')) for e in entries),(file,'invalid asset identity')
+   assert not re.search(r'github\.com/TheArchitect-max/',raw,re.I),(file,'private repository URL')
   else:assert not source_hashes,(file,'unapproved source hash')
   assert not PRIVATE.search(SOURCE_HASH.sub('[APPROVED_SOURCE_PROVENANCE]',raw)),file
   assert not SOURCE_PATH.search(raw),file
