@@ -90,7 +90,7 @@ Existing first-party retained assessment-comparison build source (default-branch
 
 ### Conditions before handover
 
-- Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
+- Go go.sum is now present in source. Validate the dependency lock at the delivery SHA; a full SBOM/licence review is still required.
 - A detailed component inventory and licensing report are required for the agreed delivery scope.
 - An explicit delivery manifest and handover scope remain to be agreed.
 - Review confidential security and credential-handling materials within the agreed diligence and transfer scope.
@@ -194,7 +194,7 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1216; ECB 2026-11-02. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1165; ECB 2026-11-06. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 

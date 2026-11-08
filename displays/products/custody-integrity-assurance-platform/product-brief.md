@@ -34,7 +34,7 @@ Prototype. A prototype offered for evaluation and continued development; product
 
 Available for acquisition discussion.
 
-- All five offline validation layers pass current-source local replay, including six synthetic pilot scenarios and eight deterministic recovery exercises. These are bounded software simulations.
+- The source records 8/8 first-party synthetic recovery exercises and 34/34 recovery-specific checks; a complete final-current-tree independent five-layer PASS is not established. Real infrastructure/pilot approvals remain open.
 - Real deployment failover, approved RTO/RPO performance, deployed independent witnesses, cryptographic operations and live-pilot acceptance remain open. Synthetic recovery results do not close those gates.
 - Governance, independent review, security, legal/privacy, operational and recipient approvals remain required. The retained recreation anchor lacks a complete work-package budget and receives no uplift for this increment.
 
@@ -84,7 +84,7 @@ Seller-owned first-party rights plus specifically agreed transferable software/d
 
 A custody-assurance candidate with deterministic reference processing, multi-organisation pilot simulation, executable recovery scenarios and reproducible evidence packaging.
 
-- All five offline validation layers pass current-source local replay, including six synthetic pilot scenarios and eight deterministic recovery exercises. These are bounded software simulations.
+- The source records 8/8 first-party synthetic recovery exercises and 34/34 recovery-specific checks; a complete final-current-tree independent five-layer PASS is not established. Real infrastructure/pilot approvals remain open.
 - Real deployment failover, approved RTO/RPO performance, deployed independent witnesses, cryptographic operations and live-pilot acceptance remain open. Synthetic recovery results do not close those gates.
 - Governance, independent review, security, legal/privacy, operational and recipient approvals remain required. The retained recreation anchor lacks a complete work-package budget and receives no uplift for this increment.
 
@@ -188,7 +188,7 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1216; ECB 2026-11-02. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1165; ECB 2026-11-06. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
