@@ -97,7 +97,7 @@ assert(matrix.includes('123 reviewed')&&matrix.includes('0 desk reviews pending'
 assert(!matrix.includes('<span class="tag">Review required</span>'),'All 123 source-document review statuses must be individual');
 assert(hub.includes('portfolio-register.html')&&hub.includes('portfolio-evaluation.html'));
 assert(hub.includes('portfolio-reassessment-20261107.json')&&hub.includes('validateReassessment(rows[6])')&&hub.includes('projectRequalification(a,d)'),'Dynamic dossiers must show the current review register');
-assert(read('index.html').includes('showroom32-financial-20261108'));
+assert(read('index.html').includes('showroom33-s02-20261108'));
 new Function(hub);new Function(read('displays/assets/exhibition.js')); // parse only
 assert.equal(reassessment.summary.prototypeLabels+reassessment.summary.developedSoftwareLabel+reassessment.summary.researchSoftwareLabels,123);
 assert.equal(ledger.assets.filter(x=>x.identityVerified===true).length,121);
@@ -113,6 +113,14 @@ assert.equal(pricing.displayCurrency.rate,1.1165);
 assert.equal(pricing.displayCurrency.date,'2026-11-06');
 assert.equal((read('portfolio-pricing-review.html').match(/<tr data-search=/g)||[]).length,123);
 for(const a of pricing.projects){for(const [key,eur] of Object.entries(a.values)){assert.equal(a.valuesUSD[key.replace(/EUR$/,'USD')],Math.floor((eur*11165+5000)/10000));}}
+const s01=json('assets/source-price-session-20261108-S01.json');
+const s02=json('assets/source-price-session-20261108-S02.json');
+assert.equal(s01.entries.length,3);
+assert.equal(s02.projects.length,3);
+assert.deepEqual(s02.projects.map(x=>x.assetId),['TA-IP-004','TA-IP-005','TA-IP-006']);
+for(const entry of s02.projects){const price=pricing.projects.find(x=>x.ref===entry.assetId);const record=reassessment.assessments.find(x=>x.id===entry.assetId);assert(price&&record);assert.equal(price.values.sellerAskEUR,entry.datedSellerAskEUR);assert.equal(record.priceScopeStatus,entry.priceDecisionStatus);assert.equal(record.lastSourcePriceSession,'2026-11-08-S02');}
+assert(read('assets/im.js').includes('Source/price qualification:'));
+assert((read('portfolio-pricing-review.html').match(/<tr data-search=/g)||[]).length===123);
 const publicLedger=JSON.stringify(ledger);
 assert(!publicLedger.includes('Rayford-Aquirre-Literary-Archive'));
 assert(!publicLedger.includes('Strategic-Software-IP-Acquisition-Portfolio'));

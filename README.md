@@ -78,3 +78,7 @@ The shell generator now emits current cache tokens and retains discoverable inve
 ## Project source-to-price sessions
 
 [Session S01 — TA-IP-001 to TA-IP-003](audits/sessions/2026-11-08-S01-001-003.md) performs main-versus-candidate/source-versus-website review for each asset and adds a [structured pricing decision](assets/source-price-session-20261108-S01.json). Current EUR asking values remain dated historical reference values; TA-IP-001 mismatched source scope has a visible price HOLD, TA-IP-002 has composite source conditions, TA-IP-003 is v1.9.1 scope-aligned. Repricing requires supported scope, cost and rights data. No source code or private repository URL was published.
+
+## S02 — TA-IP-004 to TA-IP-006 (8 November 2026)
+
+The staged S02 source/price review compares current private main with the website, source identities and historical asking references. See [the S02 report](audits/sessions/2026-11-08-S02-004-006.md) and [per-project JSON](assets/source-price-session-20261108-S02.json). Continuum main is v2.5.1 versus an earlier v2.4.1 priced scope; EIOP main is v6.3.0 with candidate-only v6.4.0 connector scope; Faunometric 5.7 main requires source-bound GPU revalidation beyond accepted 5.6. No unsupported numeric uplift; all three EUR figures retained only as historical seller references with explicit conditions. Draft PR #28 remains HOLD. Static metadata checks are not full runtime/browser/market acceptance.
