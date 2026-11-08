@@ -68,7 +68,7 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 6.3.0
+Current source main: 6.3.0 (current main); historical priced edition: v6.3.0 plus unmerged 6.4 candidate
 
 Handover position: Conditional handover
 
@@ -220,3 +220,19 @@ TA-IP-005 / Sophie / Evidence Intelligence Operations Platform
 Assess the intended use against a credible build, licence or operating alternative. Support any time advantage, incremental cash flow or avoided costs, count each benefit once, and include remaining qualification, integration, rights and operating requirements. The published references describe their stated scope and assumptions; a separately evidenced buyer-specific case may support different consideration. No strategic premium, independently established market value or guaranteed transaction ceiling/floor is asserted.
 
 Buyer-value framework, scenario requirements and source context: https://thearchitect-max.github.io/MyProjects/valuation.html#buyer-value
+
+## Session S02 — exact source and commercial scope, 8 November 2026
+
+Current main SHA: `53a40b34a62119120d96d20ff3556f06f0c9cca6`.
+
+Current status: 6.3.0. Source candidate: Draft PR #1 v6.4.0 head b76713bcb30af9a83cc4ec679d92b5892b25e773.
+
+Evidence: v6.3 signed bundle/receipt manifest; PR #1 reports 54/54 commands and 192/192 source tests on frozen candidate
+
+**Original EUR asking reference: 169,000. Price status: HOLD_UNMERGED_CONNECTOR_SCOPE.**
+
+EUR 900,000 reproduction model includes EUR 100,000 scoped local-document collection work now in unmerged v6.4 PR. Dated EUR 169,000 composite ask is not a verified main-only quote; historical v6.3 source dossier gave EUR 150,000 (16 Oct).
+
+Main v6.3 does governed materiality, routing and HMAC authenticated bundles/receipts; candidate connectors not released. HMAC is not public-key non-repudiation.
+
+Do not infer a new market value, qualified live product, valid field performance or legal transfer status from this source-document review. See https://thearchitect-max.github.io/MyProjects/assets/source-price-session-20261108-S02.json.

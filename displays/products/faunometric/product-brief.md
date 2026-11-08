@@ -68,7 +68,7 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 5.7.0
+Current source main: 5.7.0 development (5.6 GPU validated); historical priced edition: 5.7 development, 5.6 GPU accepted
 
 Handover position: Conditional handover
 
@@ -195,3 +195,19 @@ TA-IP-006 / Fauna / Faunometric
 Assess the intended use against a credible build, licence or operating alternative. Support any time advantage, incremental cash flow or avoided costs, count each benefit once, and include remaining qualification, integration, rights and operating requirements. The published references describe their stated scope and assumptions; a separately evidenced buyer-specific case may support different consideration. No strategic premium, independently established market value or guaranteed transaction ceiling/floor is asserted.
 
 Buyer-value framework, scenario requirements and source context: https://thearchitect-max.github.io/MyProjects/valuation.html#buyer-value
+
+## Session S02 — exact source and commercial scope, 8 November 2026
+
+Current main SHA: `bc03b446827cf251ae8ad5bae9f8ee66975aa7f2`.
+
+Current status: 5.7.0 development. Source candidate: No open PR; 5.7 governance currently on main.
+
+Evidence: 5.6 GPU PASS 47 gates/218 regressions, pinned efe83124067e23572525ae901afa9c6e2087e9d5; 5.7 revalidation required
+
+**Original EUR asking reference: 275,000. Price status: HOLD_CURRENT_HEAD_REVALIDATION.**
+
+EUR 275,000 ask and EUR 1,200,000 legacy recreation estimate lack a scoped 5.7 work breakdown. Current 5.7 main requires fresh source-pinned GPU revalidation; cannot present as a fully accepted release market value.
+
+Recorded sound classification, model evaluation isolation and abstention controls; no animal-language interpretation or qualified biological truth.
+
+Do not infer a new market value, qualified live product, valid field performance or legal transfer status from this source-document review. See https://thearchitect-max.github.io/MyProjects/assets/source-price-session-20261108-S02.json.

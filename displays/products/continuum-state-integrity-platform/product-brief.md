@@ -68,7 +68,7 @@ Buyer profiles describe potential fit; no existing customer, contract or commerc
 
 ## Product edition and acquisition dossier
 
-Identified product edition: 2.4.1
+Current source main: 2.5.1 (current main); historical priced edition: v2.4.1
 
 Handover position: Conditional handover
 
@@ -193,3 +193,19 @@ TA-IP-004 / Elena / Continuum State Integrity Platform
 Assess the intended use against a credible build, licence or operating alternative. Support any time advantage, incremental cash flow or avoided costs, count each benefit once, and include remaining qualification, integration, rights and operating requirements. The published references describe their stated scope and assumptions; a separately evidenced buyer-specific case may support different consideration. No strategic premium, independently established market value or guaranteed transaction ceiling/floor is asserted.
 
 Buyer-value framework, scenario requirements and source context: https://thearchitect-max.github.io/MyProjects/valuation.html#buyer-value
+
+## Session S02 — exact source and commercial scope, 8 November 2026
+
+Current main SHA: `da6e1951fa4ffda0fb3b3b090670459810225cde`.
+
+Current status: 2.5.1. Source candidate: No open PR.
+
+Evidence: v2.5.0 baseline, v2.5.1 merged PR #9
+
+**Original EUR asking reference: 175,000. Price status: DATED_REFERENCE_VERSION_DRIFT.**
+
+Updated v2.5.1 main adds typed provenance/replay, checkpoint and recovery hardening but EUR 800,000 legacy recreation anchor has no complete work budget. New release price cannot be inferred from the older 2.4.1 ask.
+
+Deterministic state-integrity, fail-stop provenance, checkpointed replay and externally guarded recovery. Self-held anchors do not provide independent tamper resistance.
+
+Do not infer a new market value, qualified live product, valid field performance or legal transfer status from this source-document review. See https://thearchitect-max.github.io/MyProjects/assets/source-price-session-20261108-S02.json.
