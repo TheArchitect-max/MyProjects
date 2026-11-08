@@ -12,7 +12,7 @@
 
 ## Asset identity and information
 
-The verified private-source identity register contains **121** individually identified software and research IP assets (7 November 2026). The established financial and buyer-dossier catalogue has **119** published asking-reference records; **TA-IP-120 / Lotte** and **TA-IP-121 / Maryam** are registered without published asking figures. Each asset has one current TA-IP reference, canonical project title and feminine reference name. Individual presentations link to the asset dossier, factsheet PDF and product brief. Compatibility routes preserve earlier links without creating additional assets. Public repositories, publication infrastructure and seller-excluded literary archives are excluded from the asset count. All 121 source identities have been checked against the connected private repositories; this source-identity check is not a fresh software acceptance, legal clearance or commercial valuation.
+The private-source inventory register contains **123** candidate software/research IP assets (8 November 2026): 121 previously source-identity-verified and two provisional portfolio assignments. The established financial and buyer-dossier catalogue has **119** published asking-reference records; **TA-IP-120 / Lotte**, **TA-IP-121 / Maryam**, **TA-IP-122 / Lise** and **TA-IP-123 / Cecilia** are registered without published asking figures. Each asset has one current TA-IP reference, canonical project title and feminine reference name. Individual presentations link to the asset dossier, factsheet PDF and product brief. Compatibility routes preserve earlier links without creating additional assets. Public repositories, publication infrastructure and seller-excluded literary archives are excluded from the asset count. 121 prior source identities are verified; two newer portfolio identities require source-side confirmation; this source-identity check is not a fresh software acceptance, legal clearance or commercial valuation.
 
 ## Financial references
 
@@ -54,3 +54,9 @@ Seventh source-review cohort: 20 additional private repositories (TA-IP-065–06
 ## Documentary source-review milestone — eight cohorts complete (7 November 2026)
 
 All **121 private saleable assets** now carry SHA-bound documentary status and stated evidence/implementation limits in the public draft. This is a **source-documentation milestone**, not 121 independently rebuilt applications, 121 cleared saleable licences, 121 operationally accepted products, or independently appraised market values. Current readiness remains **NOT_ESTABLISHED** per asset. Complete Node/browser validation, rights/security/transfer due diligence and market requalification are outstanding. The static portfolio website must not act as a SaaS runtime, customer or billing system. PR #28 remains Draft / HOLD and `main` stays unchanged.
+
+## Inventory expansion — 8 November 2026 (batch 9)
+
+Current connected GitHub inventory: 126 repositories, 124 private and two public. Excluding the two public repositories and the one private confidential strategic portfolio, 123 private candidate IP assets are represented. The previously excluded literary archive is not in this inventory.
+
+The 121 existing verified source IDs remain unchanged. Two research sources have been added as **TA-IP-122 / Lise / Fractal Physics Discovery Platform** and **TA-IP-123 / Cecilia / Fundamental Dark Sector Research Platform**; the new portfolio identities are **provisional**, because source `ASSET_IDENTITY.json` was absent. All 123 have documentary review records, but no new independent code execution, scientific validation, legal title review or market appraisal. There remain **119 dated asking-reference records** and **four unpriced assets**.

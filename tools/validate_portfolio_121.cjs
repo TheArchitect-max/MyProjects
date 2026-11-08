@@ -14,24 +14,24 @@ const mapping=json('displays/project-map.json');
 const buyers=json('assets/buyer-catalogue.json');
 const pricing=json('assets/pricing-catalogue.json');
 const assets=ledger.assets;
-assert.equal(ledger.inventory.totalGitHubRepositories,125);
-assert.equal(ledger.inventory.privateRepositories,123);
-assert.equal(ledger.inventory.distinctPrivateIPAssets,121);
+assert.equal(ledger.inventory.totalGitHubRepositories,126);
+assert.equal(ledger.inventory.privateRepositories,124);
+assert.equal(ledger.inventory.distinctPrivateIPAssets,123);
 assert.equal(ledger.inventory.publishedIndividualAskingReferences,119);
-assert.equal(assets.length,121);
-assert.equal(mapping.projectCount,121);
-assert.equal(mapping.projects.length,121);
+assert.equal(assets.length,123);
+assert.equal(mapping.projectCount,123);
+assert.equal(mapping.projects.length,123);
 assert.equal(buyers.projects.length,119);
 assert.equal(pricing.projects.length,119);
-assert.equal(reassessment.assessments.length,121);
+assert.equal(reassessment.assessments.length,123);
 const sourceReviewed=reassessment.assessments.filter(x=>x.technicalReevaluationStatus?.startsWith('SOURCE_DESK_'));
 const technicalReviewPending=reassessment.assessments.filter(x=>x.technicalReevaluationStatus==='PENDING_PROJECT_SPECIFIC_SOURCE_REVIEW');
 assert.equal(sourceReviewed.length,reassessment.summary.projectSpecificSourceDeskReviews);
 assert.equal(technicalReviewPending.length,reassessment.summary.projectsAwaitingProjectSpecificTechnicalDeskReview);
-assert.equal(sourceReviewed.length+technicalReviewPending.length,121);
-assert.equal(sourceReviewed.length,121); // document-only review progress, NOT runtime acceptance
+assert.equal(sourceReviewed.length+technicalReviewPending.length,123);
+assert.equal(sourceReviewed.length,123); // document-only review progress, NOT runtime acceptance
 assert.equal(technicalReviewPending.length,0);
-assert.equal(reassessment.summary.freshFunctionalSourceReexecutions,0);
+assert.equal(reassessment.summary.freshFunctionalSourceReexecutions,0);assert.equal(reassessment.summary.identityPass,121);assert.equal(reassessment.summary.identityProvisional,2);
 assert.equal(reassessment.summary.fullCommercialRequalifications,0);
 assert(sourceReviewed.every(x=>/^[0-9a-f]{40}$/.test(x.sourceDocumentSha)), 'Reviewed sources must pin a 40-character README blob hash');
 assert(sourceReviewed.every(x=>typeof x.developmentEvidence==='string'&&x.developmentEvidence.length>20&&typeof x.currentLimitations==='string'&&x.currentLimitations.length>20),'Reviewed source records must carry evidence and remaining limits');
@@ -42,7 +42,7 @@ const reviewedDisplaySlugs=sourceReviewed.map(x=>{
  assert(segments.at(-3)==='displays'&&segments.at(-2)==='products','Reviewed asset has an invalid display URL: '+x.id);
  return segments.at(-1);
 });
-assert.equal(new Set(reviewedDisplaySlugs).size,121);
+assert.equal(new Set(reviewedDisplaySlugs).size,123);
 for(const slug of reviewedDisplaySlugs){
  const p='displays/products/'+slug+'/index.html';
  assert(exists(p),'Reviewed display not found: '+slug);
@@ -51,14 +51,14 @@ for(const slug of reviewedDisplaySlugs){
 }
 
 
-assert.equal(new Set(assets.map(x=>x.id)).size,121);
-assert.equal(new Set(assets.map(x=>x.alias.toLocaleLowerCase())).size,121);
-assert.equal(new Set(assets.map(x=>x.slug)).size,121);
+assert.equal(new Set(assets.map(x=>x.id)).size,123);
+assert.equal(new Set(assets.map(x=>x.alias.toLocaleLowerCase())).size,123);
+assert.equal(new Set(assets.map(x=>x.slug)).size,123);
 const mById=new Map(mapping.projects.map(x=>[x.ref,x]));
 const bById=new Map(buyers.projects.map(x=>[x.ref,x]));
 const eById=new Map(reassessment.assessments.map(x=>[x.id,x]));
-assert.equal(mById.size,121);
-assert.equal(eById.size,121);
+assert.equal(mById.size,123);
+assert.equal(eById.size,123);
 for(let i=0;i<assets.length;i++){
  const a=assets[i];
  assert.equal(a.id,'TA-IP-'+String(i+1).padStart(3,'0'));
@@ -69,7 +69,7 @@ for(let i=0;i<assets.length;i++){
  assert.equal(m.url,a.displayUrl);
  assert.equal(m.profileUrl,a.profileUrl);
  assert.equal(e.alias,a.alias);
- assert.equal(e.sourceIdentity,'PASS');
+ assert.equal(e.sourceIdentity,i<121?'PASS':'PORTFOLIO_PROVISIONAL');
  assert.equal(e.functionalReexecution,'NOT_RUN');
  assert.equal(e.fullAcquisitionReadiness,'NOT_DEMONSTRATED');
  assert(exists('projects/'+a.slug+'/index.html'),a.id+' profile absent');
@@ -87,20 +87,20 @@ for(let i=0;i<assets.length;i++){
  }
 }
 const csv=read('displays/identity-register.csv').replace(/^\uFEFF/,'').trim().split(/\r?\n/);
-assert.equal(csv.length,122); // one header, 121 rows
+assert.equal(csv.length,124); // one header, 123 rows
 for(const a of assets)assert(csv.some(line=>line.startsWith(a.id+',')),a.id+' absent from identity CSV');
 const display=read('displays/index.html'),register=read('portfolio-register.html'),matrix=read('portfolio-evaluation.html'),hub=read('assets/im.js');
-assert.equal((display.match(/class="asset-card"/g)||[]).length,121);
-assert.equal((register.match(/<tr data-search=/g)||[]).length,121);
-assert.equal((matrix.match(/<tr data-filter=/g)||[]).length,121);
-assert(matrix.includes('121 reviewed')&&matrix.includes('0 desk reviews pending'),'Matrix must disclose all 121 desk reviews and continued independent acceptance gaps');
+assert.equal((display.match(/class="asset-card"/g)||[]).length,123);
+assert.equal((register.match(/<tr data-search=/g)||[]).length,123);
+assert.equal((matrix.match(/<tr data-filter=/g)||[]).length,123);
+assert(matrix.includes('123 reviewed')&&matrix.includes('0 desk reviews pending'),'Matrix must disclose all 121 desk reviews and continued independent acceptance gaps');
 assert(!matrix.includes('<span class="tag">Review required</span>'),'All 121 source-document review statuses must be individual');
 assert(hub.includes('portfolio-register.html')&&hub.includes('portfolio-evaluation.html'));
 assert(hub.includes('portfolio-reassessment-20261107.json')&&hub.includes('validateReassessment(rows[6])')&&hub.includes('projectRequalification(a,d)'),'Dynamic dossiers must show the current review register');
-assert(read('index.html').includes('showroom30-portfolio-20261107'));
+assert(read('index.html').includes('showroom31-portfolio-20261108'));
 new Function(hub);new Function(read('displays/assets/exhibition.js')); // parse only
-assert.equal(reassessment.summary.prototypeLabels+reassessment.summary.developedSoftwareLabel+reassessment.summary.researchSoftwareLabels,121);
+assert.equal(reassessment.summary.prototypeLabels+reassessment.summary.developedSoftwareLabel+reassessment.summary.researchSoftwareLabels,123);
 const publicLedger=JSON.stringify(ledger);
 assert(!publicLedger.includes('Rayford-Aquirre-Literary-Archive'));
 assert(!publicLedger.includes('Strategic-Software-IP-Acquisition-Portfolio'));
-console.log(JSON.stringify({status:'PASS',scope:'static identity/path/source-code syntax only',assets:121,existingFinancialRecords:119,newUnpriced:2,privacy:'PASS',liveBrowser:'NOT_RUN',githubActions:'NOT_RUN'},null,2));
+console.log(JSON.stringify({status:'PASS',scope:'static identity/path/source-code syntax only',assets:123,existingFinancialRecords:119,newUnpriced:4,privacy:'PASS',liveBrowser:'NOT_RUN',githubActions:'NOT_RUN'},null,2));

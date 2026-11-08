@@ -1,20 +1,22 @@
 {
   "schema": "thearchitect-portfolio-identity-ledger-1",
-  "basisDate": "2026-11-07",
-  "scope": "Confirmed source repository identity, not independent technical, legal, financial or deployment acceptance",
+  "basisDate": "2026-11-08",
+  "scope": "123 private candidate project sources; 121 source identity matches previously established, two new public portfolio assignments provisional",
   "inventory": {
-    "totalGitHubRepositories": 125,
-    "privateRepositories": 123,
+    "totalGitHubRepositories": 126,
+    "privateRepositories": 124,
     "publicRepositories": 2,
-    "distinctPrivateIPAssets": 121,
+    "distinctPrivateIPAssets": 123,
     "publishedIndividualAskingReferences": 119,
-    "newUnpricedAssets": 2
+    "newUnpricedAssets": 4,
+    "verifiedSourceIdentities": 121,
+    "provisionalPortfolioIdentities": 2
   },
   "exclusions": {
     "publicRepositoryCount": 2,
-    "sellerExcludedPrivateArchiveCount": 1,
+    "sellerExcludedPrivateArchiveCount": 0,
     "confidentialPublicationRepositoryCount": 1,
-    "policy": "These repositories receive no saleable TA-IP identity. Names and private source paths are not included in this public ledger."
+    "policy": "Two public publication repositories are excluded, as is the private confidential strategic acquisition portfolio (not an independent saleable asset). The earlier private literary archive is absent from the current connected inventory. No excluded private source paths are disclosed."
   },
   "assets": [
     {
@@ -1349,6 +1351,32 @@
       "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/higher-dimensional-geometry-visualization-platform/",
       "financialStatus": "No seller asking reference published; commercial assessment pending",
       "identityVerified": true
+    },
+    {
+      "id": "TA-IP-122",
+      "alias": "Lise",
+      "title": "Fractal Physics Discovery Platform",
+      "slug": "fractal-physics-discovery-platform",
+      "maturity": "Research software",
+      "description": "Reproducible fractal mathematics, exact-rational certificate checking and bounded engineered-potential research; no experimental new-physics claim.",
+      "profileUrl": "https://thearchitect-max.github.io/MyProjects/projects/fractal-physics-discovery-platform/",
+      "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/fractal-physics-discovery-platform/",
+      "financialStatus": "Asking reference not quoted; scope-and-rights review pending",
+      "identityVerified": false,
+      "sourceIdentityStatus": "PORTFOLIO_PROVISIONAL"
+    },
+    {
+      "id": "TA-IP-123",
+      "alias": "Cecilia",
+      "title": "Fundamental Dark Sector Research Platform",
+      "slug": "fundamental-dark-sector-research-platform",
+      "maturity": "Research software",
+      "description": "Evidence-governed numerical cosmology and dark-sector research with authentic published BAO benchmark inputs and bounded numerical comparisons.",
+      "profileUrl": "https://thearchitect-max.github.io/MyProjects/projects/fundamental-dark-sector-research-platform/",
+      "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/fundamental-dark-sector-research-platform/",
+      "financialStatus": "Asking reference not quoted; scope-and-rights review pending",
+      "identityVerified": false,
+      "sourceIdentityStatus": "PORTFOLIO_PROVISIONAL"
     }
   ]
 }

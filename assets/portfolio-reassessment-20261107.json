@@ -1,21 +1,22 @@
 {
   "schema": "portfolio-evidence-limited-reassessment-1",
-  "date": "2026-11-07",
-  "purpose": "Fourteen source-specific documentary desk reviews; 107 historical maturity labels pending source-specific scrutiny. No independent functional, security, rights or market valuation certification.",
+  "date": "2026-11-08",
+  "purpose": "Documentary source review for 123 private project sources (121 pre-existing plus two newly added). No new independent functional/rights/market acceptance.",
   "evidencePolicy": "Only source identity and public artifact/static checks performed. NOT_RUN and NOT_VERIFIED may never be promoted to PASS.",
   "summary": {
     "identityPass": 121,
     "developedSoftwareLabel": 56,
     "prototypeLabels": 53,
-    "researchSoftwareLabels": 12,
+    "researchSoftwareLabels": 14,
     "publishedSellerAskingReferences": 119,
-    "notQuoted": 2,
+    "notQuoted": 4,
     "independentlyReexecutedSourceBuilds": 0,
     "confirmedCommerciallyReadyProducts": 0,
-    "projectSpecificSourceDeskReviews": 121,
+    "projectSpecificSourceDeskReviews": 123,
     "projectsAwaitingProjectSpecificTechnicalDeskReview": 0,
     "freshFunctionalSourceReexecutions": 0,
-    "fullCommercialRequalifications": 0
+    "fullCommercialRequalifications": 0,
+    "identityProvisional": 2
   },
   "assessments": [
     {
@@ -3379,6 +3380,60 @@
       "developmentEvidence": "Source documents native 4D tesseract topology, orthographic projection/section variants, independent oracle comparisons, direct Chromium tests, and CI success in PR #22.",
       "demonstratedScope": "Bounded 4D mathematical research software with offline browser visualization",
       "currentLimitations": "Not a physical extra-dimension observation; no human perceptual study, arbitrary nD/perspective completeness or commercial release certification."
+    },
+    {
+      "id": "TA-IP-122",
+      "alias": "Lise",
+      "title": "Fractal Physics Discovery Platform",
+      "maturity": "Research software",
+      "publishedMaturityBasis": "Source README documentary assessment only",
+      "sourceIdentity": "PORTFOLIO_PROVISIONAL",
+      "sourceRepositoryVisibility": "PRIVATE",
+      "functionalReexecution": "NOT_RUN",
+      "securityAndDependencyDiligence": "NOT_RUN",
+      "transferableRightsClearance": "NOT_VERIFIED",
+      "commercialPricing": "NOT_QUOTED",
+      "marketValueEstablished": false,
+      "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
+      "evidenceBoundary": "Scientific G2 HOLD, R4/R5 NOT RUN, no experimental fractal material, physical discovery, external peer review, cleared transfer or deployment.",
+      "technicalReevaluationStatus": "SOURCE_DESK_REVIEWED_RESEARCH_SCOPE",
+      "assessmentMethod": "README documentary review, no fresh functional or commercial qualification",
+      "sourceDocumentSha": "dde09fcfe26cfafe7b5cae9f5c02a9205b114cc8",
+      "candidateConsidered": true,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED",
+      "sourceBaseline": "Private main documentation checked 2026-11-08; HEAD 28b5c6a8baa2da623cf2fa5e5fc57adab5154868",
+      "developmentEvidence": "Private README reports 263/263 scoped R3B checks, 377/377 R3E local regression PASS and 18 scoped command checks; no fresh independent execution in this portfolio audit.",
+      "demonstratedScope": "Reproducible fractal mathematics, exact-rational certificate checking and bounded engineered-potential research; no experimental new-physics claim.",
+      "currentLimitations": "Scientific G2 HOLD, R4/R5 NOT RUN, no experimental fractal material, physical discovery, external peer review, cleared transfer or deployment.",
+      "sourceRepositoryNumericId": 1449871811,
+      "sourcePortfolioIdentityAssignment": "NOT_YET_RECONCILED_WITH_SOURCE_ASSET_IDENTITY"
+    },
+    {
+      "id": "TA-IP-123",
+      "alias": "Cecilia",
+      "title": "Fundamental Dark Sector Research Platform",
+      "maturity": "Research software",
+      "publishedMaturityBasis": "Source README documentary assessment only",
+      "sourceIdentity": "PORTFOLIO_PROVISIONAL",
+      "sourceRepositoryVisibility": "PRIVATE",
+      "functionalReexecution": "NOT_RUN",
+      "securityAndDependencyDiligence": "NOT_RUN",
+      "transferableRightsClearance": "NOT_VERIFIED",
+      "commercialPricing": "NOT_QUOTED",
+      "marketValueEstablished": false,
+      "fullAcquisitionReadiness": "NOT_DEMONSTRATED",
+      "evidenceBoundary": "Full official Cobaya/CAMB model and published posterior replication not fully accepted; no discovery, independent peer review, unrestricted third-party redistribution, rights clearance or live service.",
+      "technicalReevaluationStatus": "SOURCE_DESK_REVIEWED_RESEARCH_SCOPE",
+      "assessmentMethod": "README documentary review, no fresh functional or commercial qualification",
+      "sourceDocumentSha": "ff42fc1ee65891c97a09b3efaba1f755d705b326",
+      "candidateConsidered": true,
+      "confirmedReleaseReadiness": "NOT_ESTABLISHED",
+      "sourceBaseline": "Private main documentation checked 2026-11-08; HEAD 057ce98b31889dc8dfb7bd8eba5b2b059e09ad60",
+      "developmentEvidence": "Private README reports 109/109 pinned regression PASS and 9/9 official Cobaya BAO likelihood comparisons at R3B2B; later full Cobaya/CAMB attempts preserve recorded FAILs and NOT_RUN gates.",
+      "demonstratedScope": "Evidence-governed numerical cosmology and dark-sector research with authentic published BAO benchmark inputs and bounded numerical comparisons.",
+      "currentLimitations": "Full official Cobaya/CAMB model and published posterior replication not fully accepted; no discovery, independent peer review, unrestricted third-party redistribution, rights clearance or live service.",
+      "sourceRepositoryNumericId": 1450356611,
+      "sourcePortfolioIdentityAssignment": "NOT_YET_RECONCILED_WITH_SOURCE_ASSET_IDENTITY"
     }
   ],
   "reviewProtocol": {
@@ -3393,6 +3448,6 @@
     "classificationRule": "Do not carry forward maturity labels as newly verified. A source desk review does not equal functional re-execution. Open PRs are assessed as provisional candidates and never promoted to main/release.",
     "publicationGate": "HOLD until all modified/new projects are source-reviewed, updated documents are synchronized, static regressions pass and real website browser checks are recorded.",
     "reReviewTrigger": "New source repository, merged revision, open candidate that changes product claims, change to legal/rights status, evidence or sales description.",
-    "lastBatch": "2026-11-07 eighth documentary source batch: 22 remaining projects (TA-IP-088-116 selected); 121 private sources inspected, zero independent acceptance or current market requalifications"
+    "lastBatch": "8 November batch 9: FPDP/FDSRP source READMEs reviewed with recorded limits; two provisional public portfolio identities; unpriced."
   }
 }
