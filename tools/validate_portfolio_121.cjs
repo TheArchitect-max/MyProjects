@@ -97,7 +97,7 @@ assert(matrix.includes('123 reviewed')&&matrix.includes('0 desk reviews pending'
 assert(!matrix.includes('<span class="tag">Review required</span>'),'All 123 source-document review statuses must be individual');
 assert(hub.includes('portfolio-register.html')&&hub.includes('portfolio-evaluation.html'));
 assert(hub.includes('portfolio-reassessment-20261107.json')&&hub.includes('validateReassessment(rows[6])')&&hub.includes('projectRequalification(a,d)'),'Dynamic dossiers must show the current review register');
-assert(read('index.html').includes('showroom33-s02-20261108'));
+assert(read('index.html').includes('showroom34-s03-20261108'));
 new Function(hub);new Function(read('displays/assets/exhibition.js')); // parse only
 assert.equal(reassessment.summary.prototypeLabels+reassessment.summary.developedSoftwareLabel+reassessment.summary.researchSoftwareLabels,123);
 assert.equal(ledger.assets.filter(x=>x.identityVerified===true).length,121);
@@ -119,6 +119,31 @@ assert.equal(s01.entries.length,3);
 assert.equal(s02.projects.length,3);
 assert.deepEqual(s02.projects.map(x=>x.assetId),['TA-IP-004','TA-IP-005','TA-IP-006']);
 for(const entry of s02.projects){const price=pricing.projects.find(x=>x.ref===entry.assetId);const record=reassessment.assessments.find(x=>x.id===entry.assetId);assert(price&&record);assert.equal(price.values.sellerAskEUR,entry.datedSellerAskEUR);assert.equal(record.priceScopeStatus,entry.priceDecisionStatus);assert.equal(record.lastSourcePriceSession,'2026-11-08-S02');}
+for(const [phase,expectedIds] of [['S03',['TA-IP-007','TA-IP-008','TA-IP-009']],['S04',['TA-IP-010','TA-IP-011','TA-IP-012']]]){
+ const r=json('assets/source-price-session-20261108-'+phase+'.json');
+ assert.equal(r.projects.length,3);
+ assert.deepEqual(r.projects.map(x=>x.assetId),expectedIds);
+ for(const x of r.projects){
+  const b=buyers.projects.find(p=>p.ref===x.assetId),f=financial.projects.find(p=>p.id===x.assetId),p=pricing.projects.find(p=>p.ref===x.assetId);
+  assert(b&&f&&p,x.assetId);
+  assert.equal(x.datedSellerAskEUR,b.askingReferenceEUR);
+  assert.equal(x.datedSellerAskEUR,p.values.sellerAskEUR);
+  assert.equal(x.datedSellerAskEUR,f.askingReferenceEUR);
+  assert.equal(f['sourcePriceSession'+phase+'Status'],x.priceDecisionStatus);
+  const slug=assets.find(a=>a.id===x.assetId).slug;
+  assert(read('displays/products/'+slug+'/index.html').includes('id="source-price-session-'+phase.toLowerCase()+'"'));
+  if(phase==='S04'){
+   const v=reassessment.assessments.find(a=>a.id===x.assetId).sourcePriceSessionS04;
+   assert(v&&v.priceDecision===x.priceDecisionStatus&&v.sourceMainSha===x.sourceMainSHA);
+   for(const file of ['index.html','product-brief.md']){
+    const page=read('displays/products/'+slug+'/'+file);
+    assert(page.includes('EUR 1 = USD 1.1165; ECB 2026-11-06')&&!page.includes('EUR 1 = USD 1.1216'));
+   }
+  }
+ }
+}
+assert.equal(read('assets/buyer-catalogue.json'),read('displays/assets/buyer-catalogue.json'));
+assert.equal(read('assets/buyer-dossiers.json'),read('displays/assets/buyer-dossiers.json'));
 assert(read('assets/im.js').includes('Source/price qualification:'));
 assert((read('portfolio-pricing-review.html').match(/<tr data-search=/g)||[]).length===123);
 const publicLedger=JSON.stringify(ledger);

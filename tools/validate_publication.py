@@ -23,7 +23,7 @@ def validate():
   for key in ['profileUrl','displayUrl','factsheetUrl','briefUrl']:
    url=urlparse(a[key]);assert url.netloc=='thearchitect-max.github.io' and url.path.startswith('/MyProjects/')
    target=ROOT/unquote(url.path.removeprefix('/MyProjects/'));target=target/'index.html' if url.path.endswith('/') else target;assert target.is_file(),target
- assert {p.name for p in (ROOT/'assets').glob('*.json')}=={'buyer-catalogue.json','route-aliases.json','pricing-catalogue.json','calculation-validation.json','buyer-dossiers.json','application-combinations.json','evaluation-sources.json','musk-opportunities.json','portfolio-identity-ledger.json','portfolio-reassessment-20261107.json','pricing-review-20261108.json'}
+ assert {p.name for p in (ROOT/'assets').glob('*.json')}==({'buyer-catalogue.json','route-aliases.json','pricing-catalogue.json','calculation-validation.json','buyer-dossiers.json','application-combinations.json','evaluation-sources.json','musk-opportunities.json','portfolio-identity-ledger.json','portfolio-reassessment-20261107.json','pricing-review-20261108.json'}|{f'source-price-session-20261108-S0{i}.json' for i in range(1,5)})
  assert not list((ROOT/'assets').glob('*.csv'));assert not (ROOT/'docs').exists();assert not list(ROOT.glob('.github/workflows/*'))
  assert json.loads((ROOT/'displays/assets/buyer-catalogue.json').read_text())==data
  provenance=set(re.findall(r'\b[a-f0-9]{40}\b',(ROOT/'assets/portfolio-reassessment-20261107.json').read_text()))
