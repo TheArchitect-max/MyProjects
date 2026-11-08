@@ -255,3 +255,15 @@ TA-IP-002 / Elara / Adaptive Network Resilience Intelligence Platform
 Assess the intended use against a credible build, licence or operating alternative. Support any time advantage, incremental cash flow or avoided costs, count each benefit once, and include remaining qualification, integration, rights and operating requirements. The published references describe their stated scope and assumptions; a separately evidenced buyer-specific case may support different consideration. No strategic premium, independently established market value or guaranteed transaction ceiling/floor is asserted.
 
 Buyer-value framework, scenario requirements and source context: https://thearchitect-max.github.io/MyProjects/valuation.html#buyer-value
+
+## Project-specific current-source/price assessment — 8 November 2026
+
+Current source main: ffaafae149aafc85cf2d7b6999423d1a0bc49264 (v3.7.0 main). Candidate: 325c870bdb9c3f9a38a6289975efb01d88556f21 (v3.10 draft PR (v3.8–3.9 candidate lineage)), NOT MERGED.
+
+**Price disposition: CONDITIONAL_COMPOSITE_SCOPE.** The EUR 99,000 asking reference was calculated for v3.7.0 and separately scoped development increments (EUR 21,000 assumed work on EUR 520,000 legacy base). Main has v3.7.0 but later decision-frontier/leave-one-out candidate work has not been merged. Do not present EUR 99,000 as an independently assessed v3.7-only value; no additional uplift is supported.
+
+**Documentary evidence:** Source README and v3.7.0 release/evidence records report 74/74 software acceptance and historical Colab validation. Draft PR #17 describes 25 authored tests but has unclosed exact-head full-gate checks.
+
+**Outstanding:** No validated real-world network interventions, universally optimal repairs, full v3.10 acceptance, commercial security qualification or buyer-ready rights transfer.
+
+See /MyProjects/assets/source-price-session-20261108-S01.json for the session record. Historic EUR figures are seller assumptions, not new market value.

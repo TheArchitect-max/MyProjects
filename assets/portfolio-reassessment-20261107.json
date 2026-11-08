@@ -42,10 +42,14 @@
       "sourceEvidenceDocSha": null,
       "candidateStatus": "OPEN_PR_1_NOT_MERGED",
       "candidateHeadSha": "039d06780c1749f3fe193baa95ae3cd4352fdaa2",
-      "sourceBaseline": "main README is old OSSN UAP public identity; v0.6.11 work documented in unmerged PR #1",
-      "developmentEvidence": "PR #1 claims 1,351 executed source methods, native profiles and thousands of synthetic graph tests on earlier frozen executable source. Current PR head and Google Colab acceptance remain unqualified.",
+      "sourceBaseline": "v0.1.0 OSSN-UAP main; unmerged STELLA v0.6.11 open PR, not merged",
+      "developmentEvidence": "Main README, acquisition dossier and main Git tree inspected; compared with the frozen original source, current main adds metadata and documentation rather than the unmerged STELLA candidate. Candidate tests are source-reported only.",
       "demonstratedScope": "Observation/evidence research pipeline with synthetic association, calibration and provenance methods",
-      "currentLimitations": "Unmerged joint-association candidate; NGS velocity profile contains nine recorded disagreements; no physically confirmed UAP/measurement interpretation or field-sensor independence."
+      "currentLimitations": "The source PR reports nine unresolved NGS velocity disagreements; independent field-calibration, source-head Colab qualification, physical UAP conclusions, legal title and buyer transfer remain unresolved.",
+      "lastSourcePriceSession": "2026-11-08-S01",
+      "sourceMainCommitSha": "866532f51c21dca0d8c12c941767bd012478ae1e",
+      "currentCandidateHeadSha": "039d06780c1749f3fe193baa95ae3cd4352fdaa2",
+      "priceScopeStatus": "HOLD_SOURCE_SCOPE_MISMATCH"
     },
     {
       "id": "TA-IP-002",
@@ -68,12 +72,16 @@
       "candidateConsidered": true,
       "confirmedReleaseReadiness": "NOT_ESTABLISHED",
       "sourceEvidenceDocSha": null,
-      "sourceBaseline": "main distributed release v3.7.0; scenario robustness in later branch; PR #17 v3.10 draft",
-      "developmentEvidence": "Source reports v3.7 74-group validation, historic independent Colab replay; PR #17 has 25 planned decision-stability tests but exact-head CPU gate unchecked.",
+      "sourceBaseline": "v3.7.0 main; unmerged v3.10 draft PR (v3.8–3.9 candidate lineage)",
+      "developmentEvidence": "Source README and v3.7.0 release/evidence records report 74/74 software acceptance and historical Colab validation. Draft PR #17 describes 25 authored tests but has unclosed exact-head full-gate checks.",
       "demonstratedScope": "Synthetic network topology/resilience strategy comparison, failure-domain assurance and read-only portfolio choice analysis",
-      "currentLimitations": "Candidate v3.10 is unmerged and not release-qualified; stress-case external random_healthy baseline outperformed owned portfolio in the documented comparison. No real-world intervention or production certification.",
+      "currentLimitations": "No validated real-world network interventions, universally optimal repairs, full v3.10 acceptance, commercial security qualification or buyer-ready rights transfer.",
       "candidateStatus": "OPEN_DRAFT_PR_17_NOT_MERGED",
-      "candidateHeadSha": "325c870bdb9c3f9a38a6289975efb01d88556f21"
+      "candidateHeadSha": "325c870bdb9c3f9a38a6289975efb01d88556f21",
+      "lastSourcePriceSession": "2026-11-08-S01",
+      "sourceMainCommitSha": "ffaafae149aafc85cf2d7b6999423d1a0bc49264",
+      "currentCandidateHeadSha": "325c870bdb9c3f9a38a6289975efb01d88556f21",
+      "priceScopeStatus": "CONDITIONAL_COMPOSITE_SCOPE"
     },
     {
       "id": "TA-IP-003",
@@ -96,12 +104,16 @@
       "candidateConsidered": true,
       "confirmedReleaseReadiness": "NOT_ESTABLISHED",
       "sourceEvidenceDocSha": null,
-      "sourceBaseline": "main v1.9.1 maintenance on v1.9.0 functional baseline; PR #1 v1.10 draft",
-      "developmentEvidence": "Main documents source-bounded software validations with measured external workload traces. Draft reports 47 fixture-based v1.10 checks; full exact-candidate gate pending.",
+      "sourceBaseline": "v1.9.1 main; unmerged v1.10 draft PR (not merged)",
+      "developmentEvidence": "README, acquisition/transfer scope and outcome-calibration contract checked. The v1.10 draft reports 47 isolated fixture tests but complete exact-head release validation remains pending.",
       "demonstratedScope": "Resilience simulation, seven-domain abstractions, defensive policy benchmarking, evidence provenance",
-      "currentLimitations": "No qualified production calibration, predictive superiority or security/runtime operation; real event outcome join and full draft validation pending.",
+      "currentLimitations": "Measured workload traces do not themselves establish outcome truth, production reliability, causal effectiveness, independently assessed security or completed rights transfer.",
       "candidateStatus": "OPEN_DRAFT_PR_1_NOT_MERGED",
-      "candidateHeadSha": "67fd13a9ce992890490518eb240f7176649bc050"
+      "candidateHeadSha": "67fd13a9ce992890490518eb240f7176649bc050",
+      "lastSourcePriceSession": "2026-11-08-S01",
+      "sourceMainCommitSha": "799b38b6354be59c5224979967f7947076c56067",
+      "currentCandidateHeadSha": "67fd13a9ce992890490518eb240f7176649bc050",
+      "priceScopeStatus": "DATED_REFERENCE_SCOPE_ALIGNED"
     },
     {
       "id": "TA-IP-004",

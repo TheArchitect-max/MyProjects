@@ -219,3 +219,15 @@ TA-IP-001 / Stella / Modular Aerospace Research Platform
 Assess the intended use against a credible build, licence or operating alternative. Support any time advantage, incremental cash flow or avoided costs, count each benefit once, and include remaining qualification, integration, rights and operating requirements. The published references describe their stated scope and assumptions; a separately evidenced buyer-specific case may support different consideration. No strategic premium, independently established market value or guaranteed transaction ceiling/floor is asserted.
 
 Buyer-value framework, scenario requirements and source context: https://thearchitect-max.github.io/MyProjects/valuation.html#buyer-value
+
+## Project-specific current-source/price assessment — 8 November 2026
+
+Current source main: 866532f51c21dca0d8c12c941767bd012478ae1e (v0.1.0 OSSN-UAP main). Candidate: 039d06780c1749f3fe193baa95ae3cd4352fdaa2 (STELLA v0.6.11 open PR, not merged), NOT MERGED.
+
+**Price disposition: HOLD_SOURCE_SCOPE_MISMATCH.** The 3 November EUR 61,000 ask and EUR 540,000 assumed recreation budget include unmerged STELLA development and cannot be presented as an asking price for the current main v0.1.0 software. The frozen 7 October source dossier quoted EUR 45,000 for its historical v0.1.0 scope; that too is not a new quote. First establish exact offered release/development scope, source acceptance and a new complete work budget.
+
+**Documentary evidence:** Main README, acquisition dossier and main Git tree inspected; compared with the frozen original source, current main adds metadata and documentation rather than the unmerged STELLA candidate. Candidate tests are source-reported only.
+
+**Outstanding:** The source PR reports nine unresolved NGS velocity disagreements; independent field-calibration, source-head Colab qualification, physical UAP conclusions, legal title and buyer transfer remain unresolved.
+
+See /MyProjects/assets/source-price-session-20261108-S01.json for the session record. Historic EUR figures are seller assumptions, not new market value.

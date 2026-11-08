@@ -224,3 +224,15 @@ TA-IP-003 / Ariadne / StabilityMesh
 Assess the intended use against a credible build, licence or operating alternative. Support any time advantage, incremental cash flow or avoided costs, count each benefit once, and include remaining qualification, integration, rights and operating requirements. The published references describe their stated scope and assumptions; a separately evidenced buyer-specific case may support different consideration. No strategic premium, independently established market value or guaranteed transaction ceiling/floor is asserted.
 
 Buyer-value framework, scenario requirements and source context: https://thearchitect-max.github.io/MyProjects/valuation.html#buyer-value
+
+## Project-specific current-source/price assessment — 8 November 2026
+
+Current source main: 799b38b6354be59c5224979967f7947076c56067 (v1.9.1 main). Candidate: 67fd13a9ce992890490518eb240f7176649bc050 (v1.10 draft PR (not merged)), NOT MERGED.
+
+**Price disposition: DATED_REFERENCE_SCOPE_ALIGNED.** The dated EUR 205,000 asking figure and EUR 871,500 recreation estimate expressly cover the v1.9.1 main software and its evidence/readiness work. The unmerged v1.10 event and partial-observation contracts are excluded; no newly accepted work package or market sale supports an increase.
+
+**Documentary evidence:** README, acquisition/transfer scope and outcome-calibration contract checked. The v1.10 draft reports 47 isolated fixture tests but complete exact-head release validation remains pending.
+
+**Outstanding:** Measured workload traces do not themselves establish outcome truth, production reliability, causal effectiveness, independently assessed security or completed rights transfer.
+
+See /MyProjects/assets/source-price-session-20261108-S01.json for the session record. Historic EUR figures are seller assumptions, not new market value.

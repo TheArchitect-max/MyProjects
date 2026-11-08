@@ -74,3 +74,7 @@ The 123 private candidate asset mappings, unique IDs, dossier/brief/display path
 ## Regeneration safety — 8 November 2026 (batch 14a)
 
 The shell generator now emits current cache tokens and retains discoverable inventory URLs for all 123 private candidates plus the complete register, financial review and source evaluation. Historical 119 buyer source records remain distinct from the four unpriced assets. The thesis Markdown and its current frontend section are synchronized to the 8 November count and the non-appraisal boundary. This text-level regeneration repair is not an executed Python build or rendered browser test.
+
+## Project source-to-price sessions
+
+[Session S01 — TA-IP-001 to TA-IP-003](audits/sessions/2026-11-08-S01-001-003.md) performs main-versus-candidate/source-versus-website review for each asset and adds a [structured pricing decision](assets/source-price-session-20261108-S01.json). Current EUR asking values remain dated historical reference values; TA-IP-001 mismatched source scope has a visible price HOLD, TA-IP-002 has composite source conditions, TA-IP-003 is v1.9.1 scope-aligned. Repricing requires supported scope, cost and rights data. No source code or private repository URL was published.

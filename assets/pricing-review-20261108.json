@@ -48,7 +48,11 @@
       "askingReferenceUSD20261106": 68107,
       "recreationCostEUR": 540000,
       "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
-      "commercialStatus": "UNVERIFIED_SELLER_ASSUMPTION_NO_MARKET_APPRAISAL"
+      "commercialStatus": "UNVERIFIED_SELLER_ASSUMPTION_NO_MARKET_APPRAISAL",
+      "lastSourcePriceSession": "2026-11-08-S01",
+      "sourcePriceScopeStatus": "HOLD_SOURCE_SCOPE_MISMATCH",
+      "sourceMainVersion": "v0.1.0 OSSN-UAP main",
+      "pricingRationale": "The 3 November EUR 61,000 ask and EUR 540,000 assumed recreation budget include unmerged STELLA development and cannot be presented as an asking price for the current main v0.1.0 software. The frozen 7 October source dossier quoted EUR 45,000 for its historical v0.1.0 scope; that too is not a new quote. First establish exact offered release/development scope, source acceptance and a new complete work budget."
     },
     {
       "id": "TA-IP-002",
@@ -65,7 +69,11 @@
       "askingReferenceUSD20261106": 110534,
       "recreationCostEUR": 541000,
       "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
-      "commercialStatus": "UNVERIFIED_SELLER_ASSUMPTION_NO_MARKET_APPRAISAL"
+      "commercialStatus": "UNVERIFIED_SELLER_ASSUMPTION_NO_MARKET_APPRAISAL",
+      "lastSourcePriceSession": "2026-11-08-S01",
+      "sourcePriceScopeStatus": "CONDITIONAL_COMPOSITE_SCOPE",
+      "sourceMainVersion": "v3.7.0 main",
+      "pricingRationale": "The EUR 99,000 asking reference was calculated for v3.7.0 and separately scoped development increments (EUR 21,000 assumed work on EUR 520,000 legacy base). Main has v3.7.0 but later decision-frontier/leave-one-out candidate work has not been merged. Do not present EUR 99,000 as an independently assessed v3.7-only value; no additional uplift is supported."
     },
     {
       "id": "TA-IP-003",
@@ -82,7 +90,11 @@
       "askingReferenceUSD20261106": 228883,
       "recreationCostEUR": 871500,
       "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
-      "commercialStatus": "UNVERIFIED_SELLER_ASSUMPTION_NO_MARKET_APPRAISAL"
+      "commercialStatus": "UNVERIFIED_SELLER_ASSUMPTION_NO_MARKET_APPRAISAL",
+      "lastSourcePriceSession": "2026-11-08-S01",
+      "sourcePriceScopeStatus": "DATED_REFERENCE_SCOPE_ALIGNED",
+      "sourceMainVersion": "v1.9.1 main",
+      "pricingRationale": "The dated EUR 205,000 asking figure and EUR 871,500 recreation estimate expressly cover the v1.9.1 main software and its evidence/readiness work. The unmerged v1.10 event and partial-observation contracts are excluded; no newly accepted work package or market sale supports an increase."
     },
     {
       "id": "TA-IP-004",
