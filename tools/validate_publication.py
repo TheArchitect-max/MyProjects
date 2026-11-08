@@ -23,13 +23,14 @@ def validate():
   for key in ['profileUrl','displayUrl','factsheetUrl','briefUrl']:
    url=urlparse(a[key]);assert url.netloc=='thearchitect-max.github.io' and url.path.startswith('/MyProjects/')
    target=ROOT/unquote(url.path.removeprefix('/MyProjects/'));target=target/'index.html' if url.path.endswith('/') else target;assert target.is_file(),target
- assert {p.name for p in (ROOT/'assets').glob('*.json')}=={'buyer-catalogue.json','route-aliases.json','pricing-catalogue.json','calculation-validation.json','buyer-dossiers.json','application-combinations.json','evaluation-sources.json','musk-opportunities.json'}
+ assert {p.name for p in (ROOT/'assets').glob('*.json')}=={'buyer-catalogue.json','route-aliases.json','pricing-catalogue.json','calculation-validation.json','buyer-dossiers.json','application-combinations.json','evaluation-sources.json','musk-opportunities.json','portfolio-identity-ledger.json','portfolio-reassessment-20261107.json','pricing-review-20261108.json'}
  assert not list((ROOT/'assets').glob('*.csv'));assert not (ROOT/'docs').exists();assert not list(ROOT.glob('.github/workflows/*'))
  assert json.loads((ROOT/'displays/assets/buyer-catalogue.json').read_text())==data
+ provenance=set(re.findall(r'\b[a-f0-9]{40}\b',(ROOT/'assets/portfolio-reassessment-20261107.json').read_text()))
  pages=links=0
  for p in ROOT.rglob('*.html'):
   if '.git' in p.parts:continue
-  text=p.read_text();assert not re.search(r'\b[a-f0-9]{40}\b',text),p
+  text=p.read_text();assert set(re.findall(r'\b[a-f0-9]{40}\b',text))<=provenance,('unexpected source SHA',p)
   assert not re.search(r'\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b',text,re.I),p
   pages+=1;relative=p.relative_to(ROOT).as_posix()
   for link in Page(text).links:
@@ -43,5 +44,5 @@ def validate():
   assert set(a)=={'ref','legacySlug','slug'}
   for folder in [ROOT/'projects',ROOT/'displays/products']:
    s=(folder/a['legacySlug']/'index.html').read_text();assert 'noindex,follow' in s and a['slug'] in s
- return dict(result='PASS',approvedPublicProjectRecords=119,perProjectSpecificBuyerProfiles=119,applicationAreas=12,buyerGroups=10,allowedHubDataFiles=8,internalDocumentDirectoryAbsent=True,legacyProfileAndDisplayRoutes=2*len(aliases),htmlPages=pages,internalLinks=links,missingTargets=0)
+ return dict(result='PASS',approvedPublicProjectRecords=119,perProjectSpecificBuyerProfiles=119,applicationAreas=12,buyerGroups=10,allowedHubDataFiles=11,privateAssetPortfolioEntries=123,provenanceAllowlistApplied=True,internalDocumentDirectoryAbsent=True,legacyProfileAndDisplayRoutes=2*len(aliases),htmlPages=pages,internalLinks=links,missingTargets=0)
 if __name__=='__main__':print(json.dumps(validate(),indent=2))
