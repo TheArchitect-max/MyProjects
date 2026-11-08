@@ -93,13 +93,26 @@ const display=read('displays/index.html'),register=read('portfolio-register.html
 assert.equal((display.match(/class="asset-card"/g)||[]).length,123);
 assert.equal((register.match(/<tr data-search=/g)||[]).length,123);
 assert.equal((matrix.match(/<tr data-filter=/g)||[]).length,123);
-assert(matrix.includes('123 reviewed')&&matrix.includes('0 desk reviews pending'),'Matrix must disclose all 121 desk reviews and continued independent acceptance gaps');
-assert(!matrix.includes('<span class="tag">Review required</span>'),'All 121 source-document review statuses must be individual');
+assert(matrix.includes('123 reviewed')&&matrix.includes('0 desk reviews pending'),'Matrix must disclose all 123 desk reviews and continued independent acceptance gaps');
+assert(!matrix.includes('<span class="tag">Review required</span>'),'All 123 source-document review statuses must be individual');
 assert(hub.includes('portfolio-register.html')&&hub.includes('portfolio-evaluation.html'));
 assert(hub.includes('portfolio-reassessment-20261107.json')&&hub.includes('validateReassessment(rows[6])')&&hub.includes('projectRequalification(a,d)'),'Dynamic dossiers must show the current review register');
-assert(read('index.html').includes('showroom31-portfolio-20261108'));
+assert(read('index.html').includes('showroom32-financial-20261108'));
 new Function(hub);new Function(read('displays/assets/exhibition.js')); // parse only
 assert.equal(reassessment.summary.prototypeLabels+reassessment.summary.developedSoftwareLabel+reassessment.summary.researchSoftwareLabels,123);
+assert.equal(ledger.assets.filter(x=>x.identityVerified===true).length,121);
+assert.equal(ledger.assets.filter(x=>x.identityVerified===false).length,2);
+assert(read('assets/im.js').includes('portfolio-pricing-review.html'));
+const financial=json('assets/pricing-review-20261108.json');
+assert.equal(financial.projects.length,123);
+assert.equal(financial.coverage.FULL_SCOPED_BUDGET,22);
+assert.equal(financial.coverage.PARTIAL_SCOPED_BUDGET,39);
+assert.equal(financial.coverage.LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN,58);
+assert.equal(financial.coverage.NOT_QUOTED,4);
+assert.equal(pricing.displayCurrency.rate,1.1165);
+assert.equal(pricing.displayCurrency.date,'2026-11-06');
+assert.equal((read('portfolio-pricing-review.html').match(/<tr data-search=/g)||[]).length,123);
+for(const a of pricing.projects){for(const [key,eur] of Object.entries(a.values)){assert.equal(a.valuesUSD[key.replace(/EUR$/,'USD')],Math.floor((eur*11165+5000)/10000));}}
 const publicLedger=JSON.stringify(ledger);
 assert(!publicLedger.includes('Rayford-Aquirre-Literary-Archive'));
 assert(!publicLedger.includes('Strategic-Software-IP-Acquisition-Portfolio'));

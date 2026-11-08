@@ -1,6 +1,6 @@
 # THEARCHITECT_MAX - Seller-led software IP acquisition portfolio
 
-[Open the acquisition portfolio](https://thearchitect-max.github.io/MyProjects/). 21 navigation sections provide access to professional services, the collection, individual project displays, portfolio thesis, qualifications, financial method, sources and acquisition process.
+[Open the acquisition portfolio](https://thearchitect-max.github.io/MyProjects/). 22 navigation sections provide access to professional services, the collection, individual project displays, portfolio thesis, qualifications, financial method, sources and acquisition process.
 
 ## Professional services
 
@@ -66,3 +66,7 @@ The 121 existing verified source IDs remain unchanged. Two research sources have
 The 119 existing EUR asking figures and all EUR model scenarios retain their separately dated **3 November 2026** seller assumptions; a full new market appraisal or buyer-value conclusion would be unsupported. On **8 November 2026**, indicative USD amounts were recalculated from the **ECB 6 November 2026** observation of **EUR 1 = USD 1.1165**, across 119 pricing records (952 monetary conversions), eight aggregate EUR/USD totals, 48 conditional reference USD amounts, 119 exhibition cards and the source/synchronized calculation files. All four unpriced assets remain unquoted.
 
 The separately dated financial review table distinguishes reproducible arithmetic and budget coverage (**22 full stated budgets / 39 partial / 58 legacy cost assumptions / 4 unpriced**) from independently established market value (**none**). Historical PDF factsheets retain their dated snapshots; buyers should use [the updated reference review](portfolio-pricing-review.html) and live buyer-dossier pricing data, not treat an old PDF's USD conversion as a current exchange quote.
+
+## Batch 11 — source-tree and financial static checks (8 November 2026)
+
+The 123 private candidate asset mappings, unique IDs, dossier/brief/display paths, 119 factsheets, 123 price-review rows and 952 ECB USD computations were reviewed against the pinned Git tree and loaded JSON. The Node static checker was fixed for the latest site cache and financial references, but was **not executed** as a checked-out Node CLI. Live/browser/CI and market/legal gates remain unexecuted; PR #28 stays DRAFT/HOLD.
