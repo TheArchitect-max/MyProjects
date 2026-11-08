@@ -1,5 +1,7 @@
 # Fundamental Dark Sector Research Platform
 
+TA-IP-123 | Reference name: Cecilia
+
 **Public portfolio identity:** TA-IP-123 / Cecilia (provisional)  
 **Source review:** 2026-11-08 (README Git blob ff42fc1ee65891c97a09b3efaba1f755d705b326)  
 **Maturity:** Research software, bounded source-document classification  

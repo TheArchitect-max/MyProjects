@@ -1,5 +1,7 @@
 # Fractal Physics Discovery Platform
 
+TA-IP-122 | Reference name: Lise
+
 **Public portfolio identity:** TA-IP-122 / Lise (provisional)  
 **Source review:** 2026-11-08 (README Git blob dde09fcfe26cfafe7b5cae9f5c02a9205b114cc8)  
 **Maturity:** Research software, bounded source-document classification  

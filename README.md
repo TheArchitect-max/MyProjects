@@ -70,3 +70,7 @@ The separately dated financial review table distinguishes reproducible arithmeti
 ## Batch 11 — source-tree and financial static checks (8 November 2026)
 
 The 123 private candidate asset mappings, unique IDs, dossier/brief/display paths, 119 factsheets, 123 price-review rows and 952 ECB USD computations were reviewed against the pinned Git tree and loaded JSON. The Node static checker was fixed for the latest site cache and financial references, but was **not executed** as a checked-out Node CLI. Live/browser/CI and market/legal gates remain unexecuted; PR #28 stays DRAFT/HOLD.
+
+## Regeneration safety — 8 November 2026 (batch 14a)
+
+The shell generator now emits current cache tokens and retains discoverable inventory URLs for all 123 private candidates plus the complete register, financial review and source evaluation. Historical 119 buyer source records remain distinct from the four unpriced assets. The thesis Markdown and its current frontend section are synchronized to the 8 November count and the non-appraisal boundary. This text-level regeneration repair is not an executed Python build or rendered browser test.
