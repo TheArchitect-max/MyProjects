@@ -1,6 +1,6 @@
 {
   "schema": "public-evaluation-sources-1",
-  "basisDate": "2026-11-03",
+  "basisDate": "2026-11-08",
   "title": "Sources behind the asset evaluation",
   "scope": "External references inform method, rate, currency and diligence context. Project-specific descriptions, grades, effort assumptions and prices remain attributed to the seller records. Market value has not been established.",
   "categories": [
@@ -78,12 +78,12 @@
       "publisher": "European Central Bank",
       "title": "Euro reference exchange rate - US dollar",
       "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
-      "finding": "Retrieved dated observation: 2 November 2026, EUR 1 = USD 1.1216. Indicative display conversion only.",
+      "finding": "ECB euro foreign-exchange reference on Friday 6 November 2026: EUR 1 = USD 1.1165. Indicative display conversion, not valuation evidence.",
       "application": "Indicative USD display conversion only; authoritative project references remain in EUR.",
-      "checkedOn": "2026-11-03",
+      "checkedOn": "2026-11-08",
       "categoryId": "currency",
-      "referenceBasisDate": "2026-11-02",
-      "access": "Primary publisher page reviewed",
+      "referenceBasisDate": "2026-11-06",
+      "access": "ECB primary reference rate and dated 6 November 2026 published observation",
       "useLimit": "Display conversion only. The EUR values remain the reference figures; an exchange rate is not valuation evidence.",
       "referenceContext": "Financial methodology, rate and currency register"
     },

@@ -1,5 +1,9 @@
 'use strict';
 (() => {
+  // ECB 2026-11-06 EUR/USD reference; historic static project pages receive corrected display-only USD equivalents.
+  function refreshDatedUSD(){const k=11165;let updated=0;for(const el of document.querySelectorAll('.price-usd')){const parent=el.parentElement;if(!parent)continue;const before=parent.innerHTML.split(el.outerHTML)[0];const values=[...before.matchAll(/EUR\s+([\d,]+)/g)];if(!values.length)continue;const eur=Number(values.at(-1)[1].replaceAll(',',''));if(!Number.isSafeInteger(eur))continue;const usd=Math.floor((eur*k+5000)/10000);el.textContent='≈ USD '+usd.toLocaleString('en-US');el.dataset.fxDate='2026-11-06';updated++}if(updated&&document.body.dataset.projectRef){const section=document.getElementById('pricing');if(section&&!section.querySelector('[data-new-fx-note]')){const note=document.createElement('p');note.dataset.newFxNote='true';note.textContent='USD equivalents updated using ECB EUR/USD 1.1165 on 6 November 2026. Seller EUR reference prices are dated 3 November 2026 and not newly market-appraised.';section.appendChild(note)}}}
+  refreshDatedUSD();
+
   const grid = document.getElementById('asset-grid');
   const normal = value => String(value).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
   let activeFamily = 'all';
