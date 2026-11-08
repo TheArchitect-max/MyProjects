@@ -211,3 +211,9 @@ TA-IP-008 / Florence / Plant Environment Decision Intelligence Platform
 Assess the intended use against a credible build, licence or operating alternative. Support any time advantage, incremental cash flow or avoided costs, count each benefit once, and include remaining qualification, integration, rights and operating requirements. The published references describe their stated scope and assumptions; a separately evidenced buyer-specific case may support different consideration. No strategic premium, independently established market value or guaranteed transaction ceiling/floor is asserted.
 
 Buyer-value framework, scenario requirements and source context: https://thearchitect-max.github.io/MyProjects/valuation.html#buyer-value
+
+## S03 — source-versus-price review (8 November 2026)
+
+PEDIP main includes versioned projects, retained evidence, comparison and Go dependency checksums (go.sum). Earlier native PostgreSQL receipts do not qualify the latest comparison route. EUR 300,000 is a dated seller reference following an older EUR 270,000 source dossier with a partial EUR 100,000 scoped reproduction budget. SBOM, rights, field-data and deployment gates remain open.
+
+Existing EUR amounts are dated seller references, not newly established market valuations. Technical and rights acceptance gates remain open.

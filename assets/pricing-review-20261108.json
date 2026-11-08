@@ -174,7 +174,9 @@
       "askingReferenceUSD20261106": 112767,
       "recreationCostEUR": 477000,
       "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
-      "commercialStatus": "UNVERIFIED_SELLER_ASSUMPTION_NO_MARKET_APPRAISAL"
+      "commercialStatus": "UNVERIFIED_SELLER_ASSUMPTION_NO_MARKET_APPRAISAL",
+      "sourcePriceSessionS03Status": "HOLD_2_14_NEW_RELEASE_PRICE",
+      "sourcePriceSessionS03Rationale": "Main 2.14.0 implements a fail-closed classical family-classification and evidence-governance foundation. The independent 2.13 hold-out evaluation found material sensitivity failures, so family classification remains unqualified. EUR 101,000 is a dated seller reference tied to older 2.12.0 priced work; current 2.14.0 scope has not been independently repriced."
     },
     {
       "id": "TA-IP-008",
@@ -191,7 +193,9 @@
       "askingReferenceUSD20261106": 334950,
       "recreationCostEUR": 1000000,
       "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
-      "commercialStatus": "UNVERIFIED_SELLER_ASSUMPTION_NO_MARKET_APPRAISAL"
+      "commercialStatus": "UNVERIFIED_SELLER_ASSUMPTION_NO_MARKET_APPRAISAL",
+      "sourcePriceSessionS03Status": "CONDITIONAL_PARTIAL_BUDGET_POSTGRES",
+      "sourcePriceSessionS03Rationale": "PEDIP main includes versioned projects, retained evidence, comparison and Go dependency checksums (go.sum). Earlier native PostgreSQL receipts do not qualify the latest comparison route. EUR 300,000 is a dated seller reference following an older EUR 270,000 source dossier with a partial EUR 100,000 scoped reproduction budget. SBOM, rights, field-data and deployment gates remain open."
     },
     {
       "id": "TA-IP-009",
@@ -208,7 +212,9 @@
       "askingReferenceUSD20261106": 156310,
       "recreationCostEUR": 750000,
       "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
-      "commercialStatus": "UNVERIFIED_SELLER_ASSUMPTION_NO_MARKET_APPRAISAL"
+      "commercialStatus": "UNVERIFIED_SELLER_ASSUMPTION_NO_MARKET_APPRAISAL",
+      "sourcePriceSessionS03Status": "HOLD_UNVERIFIED_FULL_FIVE_LAYER_PASS",
+      "sourcePriceSessionS03Rationale": "CIAP main 0.6.0 has bounded synthetic recovery evidence: 8/8 exercises and 34/34 recovery-specific checks, not a complete independent current-tree five-validator PASS. Pilot, real failover/RTO/RPO, governance, security and legal approvals remain open. EUR 140,000 dated seller ask and EUR 750,000 legacy reproduction estimate have no complete work-package budget."
     },
     {
       "id": "TA-IP-010",

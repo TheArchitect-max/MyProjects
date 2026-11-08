@@ -1,0 +1,56 @@
+{
+  "schema": "source-price-audit-session-1",
+  "sessionId": "2026-11-08-S03",
+  "date": "2026-11-08",
+  "status": "SOURCE_DOCUMENT_REVIEW_ONLY; INDEPENDENT_ACCEPTANCE_HOLD",
+  "projects": [
+    {
+      "assetId": "TA-IP-007",
+      "alias": "Alice",
+      "sourceRepositoryId": "1299914990",
+      "sourceMainSHA": "3b8113559fd3f71ad88ff4088a2c6550adedcbd3",
+      "sourceREADMEBlobSHA": "88c7a79fa0137bf3bb543a64a21a019b823955f8",
+      "mainVersion": "2.14.0",
+      "datedSellerAskEUR": 101000,
+      "olderSourceDossierAskEUR": 95000,
+      "recreationCostEUR": 477000,
+      "priceDecisionStatus": "HOLD_2_14_NEW_RELEASE_PRICE",
+      "reason": "Main 2.14.0 implements a fail-closed classical family-classification and evidence-governance foundation. The independent 2.13 hold-out evaluation found material sensitivity failures, so family classification remains unqualified. EUR 101,000 is a dated seller reference tied to older 2.12.0 priced work; current 2.14.0 scope has not been independently repriced.",
+      "independentMarketValueEUR": null
+    },
+    {
+      "assetId": "TA-IP-008",
+      "alias": "Florence",
+      "sourceRepositoryId": "1324064685",
+      "sourceMainSHA": "8761b2f238cda172b8f7804f93f1d0146a6c2050",
+      "sourceREADMEBlobSHA": "70f3e03fa1e8660e699a0fe7be1095bda7420497",
+      "mainVersion": "comparison build, Go 1.26.9",
+      "datedSellerAskEUR": 300000,
+      "olderSourceDossierAskEUR": 270000,
+      "recreationCostEUR": 1000000,
+      "priceDecisionStatus": "CONDITIONAL_PARTIAL_BUDGET_POSTGRES",
+      "reason": "PEDIP main includes versioned projects, retained evidence, comparison and Go dependency checksums (go.sum). Earlier native PostgreSQL receipts do not qualify the latest comparison route. EUR 300,000 is a dated seller reference following an older EUR 270,000 source dossier with a partial EUR 100,000 scoped reproduction budget. SBOM, rights, field-data and deployment gates remain open.",
+      "independentMarketValueEUR": null
+    },
+    {
+      "assetId": "TA-IP-009",
+      "alias": "Justine",
+      "sourceRepositoryId": "1324075308",
+      "sourceMainSHA": "7e43fa4ab11a99e91ad214fd27d5acb01b6d5540",
+      "sourceREADMEBlobSHA": "9a43da83816c1f0ee94c45717e3e437f40801389",
+      "mainVersion": "0.6.0 candidate",
+      "datedSellerAskEUR": 140000,
+      "olderSourceDossierAskEUR": 140000,
+      "recreationCostEUR": 750000,
+      "priceDecisionStatus": "HOLD_UNVERIFIED_FULL_FIVE_LAYER_PASS",
+      "reason": "CIAP main 0.6.0 has bounded synthetic recovery evidence: 8/8 exercises and 34/34 recovery-specific checks, not a complete independent current-tree five-validator PASS. Pilot, real failover/RTO/RPO, governance, security and legal approvals remain open. EUR 140,000 dated seller ask and EUR 750,000 legacy reproduction estimate have no complete work-package budget.",
+      "independentMarketValueEUR": null
+    }
+  ],
+  "summary": {
+    "checkedPrivateSourceIdentities": 3,
+    "numericPriceChanges": 0,
+    "fullNodePythonBrowserTests": "NOT_RUN",
+    "independentMarketAndRightsReview": "NOT_RUN"
+  }
+}

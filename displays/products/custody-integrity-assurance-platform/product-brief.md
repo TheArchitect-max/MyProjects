@@ -205,3 +205,9 @@ TA-IP-009 / Justine / Custody Integrity Assurance Platform
 Assess the intended use against a credible build, licence or operating alternative. Support any time advantage, incremental cash flow or avoided costs, count each benefit once, and include remaining qualification, integration, rights and operating requirements. The published references describe their stated scope and assumptions; a separately evidenced buyer-specific case may support different consideration. No strategic premium, independently established market value or guaranteed transaction ceiling/floor is asserted.
 
 Buyer-value framework, scenario requirements and source context: https://thearchitect-max.github.io/MyProjects/valuation.html#buyer-value
+
+## S03 — source-versus-price review (8 November 2026)
+
+CIAP main 0.6.0 has bounded synthetic recovery evidence: 8/8 exercises and 34/34 recovery-specific checks, not a complete independent current-tree five-validator PASS. Pilot, real failover/RTO/RPO, governance, security and legal approvals remain open. EUR 140,000 dated seller ask and EUR 750,000 legacy reproduction estimate have no complete work-package budget.
+
+Existing EUR amounts are dated seller references, not newly established market valuations. Technical and rights acceptance gates remain open.

@@ -457,12 +457,13 @@
         "Calibration summaries"
       ],
       "maturity": "Developed software",
-      "maturityNote": "Classical-cipher research software for bounded analysis and comparison. Intended-use acceptance is agreed for the delivery edition.",
+      "maturityNote": "2.14 main accepted for fail-closed abstention foundation, not qualified family classifier. Priced scope was 2.12.0.",
       "availability": "Available for acquisition discussion",
       "askingReferenceEUR": 101000,
       "materialBoundaries": [
         "Classical-cipher research software; no capability to break modern encryption systems or independently certified security service is claimed.",
-        "Family evidence is exploratory. General classifier accuracy and independent out-of-sample performance are not established."
+        "Family evidence is exploratory. General classifier accuracy and independent out-of-sample performance are not established.",
+        "Main 2.14.0 implements a fail-closed classical family-classification and evidence-governance foundation. The independent 2.13 hold-out evaluation found material sensitivity failures, so family classification remains unqualified. EUR 101,000 is a dated seller reference tied to older 2.12.0 priced work; current 2.14.0 scope has not been independently repriced."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -513,7 +514,8 @@
       "availability": "Available for acquisition discussion",
       "askingReferenceEUR": 300000,
       "materialBoundaries": [
-        "Plant and site decision support. Local agronomic validation and production acceptance remain separately scoped."
+        "Plant and site decision support. Local agronomic validation and production acceptance remain separately scoped.",
+        "PEDIP main includes versioned projects, retained evidence, comparison and Go dependency checksums (go.sum). Earlier native PostgreSQL receipts do not qualify the latest comparison route. EUR 300,000 is a dated seller reference following an older EUR 270,000 source dossier with a partial EUR 100,000 scoped reproduction budget. SBOM, rights, field-data and deployment gates remain open."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -564,9 +566,10 @@
       "availability": "Available for acquisition discussion",
       "askingReferenceEUR": 140000,
       "materialBoundaries": [
-        "All five offline validation layers pass current-source local replay, including six synthetic pilot scenarios and eight deterministic recovery exercises. These are bounded software simulations.",
+        "The source report documents 8/8 synthetic recovery exercises and 34/34 recovery-specific checks, not a complete independent final-tree PASS of all five validators. Full-source acceptance and live recovery remain open.",
         "Real deployment failover, approved RTO/RPO performance, deployed independent witnesses, cryptographic operations and live-pilot acceptance remain open. Synthetic recovery results do not close those gates.",
-        "Governance, independent review, security, legal/privacy, operational and recipient approvals remain required. The retained recreation anchor lacks a complete work-package budget and receives no uplift for this increment."
+        "Governance, independent review, security, legal/privacy, operational and recipient approvals remain required. The retained recreation anchor lacks a complete work-package budget and receives no uplift for this increment.",
+        "CIAP main 0.6.0 has bounded synthetic recovery evidence: 8/8 exercises and 34/34 recovery-specific checks, not a complete independent current-tree five-validator PASS. Pilot, real failover/RTO/RPO, governance, security and legal approvals remain open. EUR 140,000 dated seller ask and EUR 750,000 legacy reproduction estimate have no complete work-package budget."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",

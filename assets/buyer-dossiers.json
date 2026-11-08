@@ -450,10 +450,10 @@
     },
     {
       "ref": "TA-IP-007",
-      "version": "2.12.0",
-      "developmentEdition": "",
+      "version": "2.12.0 priced scope / 2.14.0 current source",
+      "developmentEdition": "2.14.0 fail-closed abstention basis; classifier unqualified",
       "productPosition": "A classical-cipher research platform with coordinated analysis, comparable result evidence and exploratory family-evidence summaries.",
-      "offeredEdition": "Specifically agreed first-party 2.12.0 implementation, documentation, representative examples and retained developer qualification material.",
+      "offeredEdition": "The EUR 101,000 dated seller reference belongs to the historical 2.12.0 priced scope; inclusion of 2.14.0 main requires agreed delivery edition, evidence and new scoped price approval.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
@@ -490,7 +490,8 @@
       "sellerConditions": [
         "Agree and freeze the exact first-party delivery edition, rights, third-party obligations and excluded content.",
         "Review source-specific reproducibility, component and security documentation under agreed confidentiality.",
-        "Complete the relevant application qualification and recipient handover acceptance."
+        "Complete the relevant application qualification and recipient handover acceptance.",
+        "Re-estimate and freeze 2.14.0 delivery scope separately; do not treat the older price as current 2.14.0 value."
       ],
       "buyerConditions": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -562,10 +563,11 @@
         }
       ],
       "sellerConditions": [
-        "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
+        "The source now contains go.sum; verify locked module hashes at handover and compile a full SBOM and licence review.",
         "A detailed component inventory and licensing report are required for the agreed delivery scope.",
         "An explicit delivery manifest and handover scope remain to be agreed.",
-        "Review confidential security and credential-handling materials within the agreed diligence and transfer scope."
+        "Review confidential security and credential-handling materials within the agreed diligence and transfer scope.",
+        "Validate the comparison endpoint on native PostgreSQL at the specific proposed delivery SHA."
       ],
       "buyerConditions": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -578,7 +580,7 @@
       "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
       "componentEvidence": {
         "dependencyManifestIdentified": true,
-        "dependencyLockIdentified": false,
+        "dependencyLockIdentified": true,
         "componentInventoryIdentified": false,
         "licenceNoticesIdentified": true,
         "thirdPartyDisclosureIdentified": true,
@@ -629,7 +631,8 @@
       "sellerConditions": [
         "Review confidential security and credential-handling materials within the agreed diligence and transfer scope.",
         "Reproduce the agreed candidate and complete intended-environment recovery and accountable approval gates.",
-        "Reconstruct the retained recreation estimate using an explicit delivery-specific work breakdown before reliance."
+        "Reconstruct the retained recreation estimate using an explicit delivery-specific work breakdown before reliance.",
+        "Independently rerun and preserve exact-source PASS evidence for all five offline validators before approval."
       ],
       "buyerConditions": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -655,7 +658,7 @@
           "title": "Implemented candidate and acceptance limits",
           "text": "A custody-assurance candidate with deterministic reference processing, multi-organisation pilot simulation, executable recovery scenarios and reproducible evidence packaging.",
           "items": [
-            "All five offline validation layers pass current-source local replay, including six synthetic pilot scenarios and eight deterministic recovery exercises. These are bounded software simulations.",
+            "The source report documents 8/8 synthetic recovery exercises and 34/34 recovery-specific checks, not a complete independent final-tree PASS of all five validators. Full-source acceptance and live recovery remain open.",
             "Real deployment failover, approved RTO/RPO performance, deployed independent witnesses, cryptographic operations and live-pilot acceptance remain open. Synthetic recovery results do not close those gates.",
             "Governance, independent review, security, legal/privacy, operational and recipient approvals remain required. The retained recreation anchor lacks a complete work-package budget and receives no uplift for this increment."
           ]

@@ -82,3 +82,7 @@ The shell generator now emits current cache tokens and retains discoverable inve
 ## S02 — TA-IP-004 to TA-IP-006 (8 November 2026)
 
 The staged S02 source/price review compares current private main with the website, source identities and historical asking references. See [the S02 report](audits/sessions/2026-11-08-S02-004-006.md) and [per-project JSON](assets/source-price-session-20261108-S02.json). Continuum main is v2.5.1 versus an earlier v2.4.1 priced scope; EIOP main is v6.3.0 with candidate-only v6.4.0 connector scope; Faunometric 5.7 main requires source-bound GPU revalidation beyond accepted 5.6. No unsupported numeric uplift; all three EUR figures retained only as historical seller references with explicit conditions. Draft PR #28 remains HOLD. Static metadata checks are not full runtime/browser/market acceptance.
+
+## S03 — TA-IP-007 to TA-IP-009 (8 November 2026)
+
+The [S03 audit](audits/sessions/2026-11-08-S03-007-009.md) and [source-price register](assets/source-price-session-20261108-S03.json) distinguish ModularKey 2.14.0 current source from 2.12.0 historic priced scope, correct the PEDIP go.sum claim and comparison PostgreSQL boundary, and remove the CIAP five-validator PASS overclaim. Three dated EUR seller references are retained with status restrictions. No new independent valuation or full technical release acceptance is asserted. PR #28 remains DRAFT / HOLD.
