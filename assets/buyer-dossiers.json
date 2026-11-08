@@ -669,8 +669,8 @@
       "ref": "TA-IP-010",
       "version": "1.0.0",
       "developmentEdition": "",
-      "productPosition": "Available software for evaluation against your intended use. Deployment suitability is assessed separately.",
-      "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
+      "productPosition": "TLS Virtual 1.0.0 has a deterministic eight-scenario rotating-machine simulator and dashboard/CLI/API demonstration. Retained 2026-07-22 build verification reports 15 passing tests but explicitly does not validate physical machine behavior.",
+      "offeredEdition": "TLS Virtual first-party 1.0.0 simulation code and assets under expressly agreed terms. No physical sensor/rotor calibration, predictive-maintenance accuracy or production operations acceptance is included.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
@@ -708,7 +708,8 @@
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
         "A detailed component inventory and licensing report are required for the agreed delivery scope.",
         "A security assessment or an explicit statement of its absence is required before acceptance.",
-        "An explicit delivery manifest and handover scope remain to be agreed."
+        "An explicit delivery manifest and handover scope remain to be agreed.",
+        "Rerun release 1.0.0 at exact delivery SHA and test with real calibrated machine/sensor inputs before claiming field diagnostic performance."
       ],
       "buyerConditions": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -717,7 +718,8 @@
       ],
       "qualificationObjectives": [
         "Agree a source-specific delivery edition and evaluate the documented functions against your intended use.",
-        "Close the listed technical, rights and handover conditions before recipient acceptance."
+        "Close the listed technical, rights and handover conditions before recipient acceptance.",
+        "Obtain an itemized reconstruction budget for the EUR 650,000 legacy anchor before treating it as a current engineering cost."
       ],
       "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
       "componentEvidence": {
@@ -729,13 +731,23 @@
         "securityDocumentationIdentified": false,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "S04 source-to-price qualification",
+          "text": "TLS Virtual 1.0.0 is an executable rotating-machine simulation and diagnostic demonstrator. The 22 July 2026 retained build verification records 15 pytest successes, a passing wheel/JavaScript/CLI/API smoke, and eight deterministic simulated scenarios. It does not validate real machinery, sensor calibration, predictive-maintenance accuracy or deployment suitability. The EUR 195,000 ask and EUR 650,000 recreation estimate are dated seller references without a complete role/work-package reproduction budget.",
+          "items": [
+            "Historical priced edition: 1.0.0; current source: 1.0.0.",
+            "Current seller ask EUR 195,000 (historical), source dossier EUR 195,000 (historical).",
+            "Price status: HOLD_LEGACY_RECREATION_WITHOUT_WORK_BUDGET. Independent market appraisal and buyer transfer acceptance are NOT established."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-011",
       "version": "4.4.0",
       "developmentEdition": "",
-      "productPosition": "An event-driven research orchestration platform with authenticated human review, durable PostgreSQL/outbox state, RabbitMQ workers, guarded dual-source synthesis and bounded operational observability.",
+      "productPosition": "RIF v4.4.0 contains offline code and a documented Docker/PostgreSQL/RabbitMQ qualification runner, but no independently checked live exact-main PASS was established by this portfolio session.",
       "offeredEdition": "Specifically agreed first-party implementation, documentation and retained evidence for 4.4.0. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
@@ -774,7 +786,8 @@
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
         "A detailed component inventory and licensing report are required for the agreed delivery scope.",
         "Release identity and provenance evidence remain incomplete.",
-        "An explicit delivery manifest and handover scope remain to be agreed."
+        "An explicit delivery manifest and handover scope remain to be agreed.",
+        "Run the clean-tracked-source Docker qualification with authorized credentials, record exact-main PASS/FAIL artifact and exclude secrets from buyer evidence."
       ],
       "buyerConditions": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -783,7 +796,8 @@
       ],
       "qualificationObjectives": [
         "Run the offline and PostgreSQL integration gates, then execute the clean-checkout Docker qualification with permissioned provider credentials and retain either PASS or FAIL evidence.",
-        "Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance."
+        "Freeze the included edition and manifest, review first-party and component rights and complete recipient acceptance.",
+        "Establish an itemized reconstruction budget for the inherited EUR 850,000 anchor; EUR 6,500 covers only a documented subset."
       ],
       "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
       "componentEvidence": {
@@ -807,6 +821,15 @@
           "items": [
             "Evidence coverage is a structural measure, not a probability of truth. Provider results, source rights, target-environment security and operational acceptance require separate review."
           ]
+        },
+        {
+          "title": "S04 source-to-price qualification",
+          "text": "Research Intelligence Fabric 4.4.0 documents a PostgreSQL transactional outbox, RabbitMQ workers, authenticated human review, guarded dual-source synthesis and a separate live Docker qualification runner. A configured runner is not proof that the exact current multi-service stack passed with authorized live provider credentials. The EUR 282,000 dated ask is distinct from an older EUR 280,000 source dossier; EUR 856,500 recreation includes an EUR 850,000 unbroken-down seller anchor plus EUR 6,500 scoped work. No independent hosted reliability or current market value is established.",
+          "items": [
+            "Historical priced edition: 4.4.0; current source: 4.4.0.",
+            "Current seller ask EUR 282,000 (historical), source dossier EUR 280,000 (historical).",
+            "Price status: CONDITIONAL_PARTIAL_BUDGET_HOSTED_GATE_NOT_VERIFIED. Independent market appraisal and buyer transfer acceptance are NOT established."
+          ]
         }
       ]
     },
@@ -814,7 +837,7 @@
       "ref": "TA-IP-012",
       "version": "2.9.0",
       "developmentEdition": "",
-      "productPosition": "AEGIS Vision 2.9.0 provides visual-evidence workflows, provider comparison, release-evidence governance and requalification decisions after source changes. Offline deterministic gates are documented. Actual provider/model performance, intended deployment and independent certification require separate qualification.",
+      "productPosition": "AEGIS Vision v2.9.0 has source-reported internal validation (130 tests PASS, 90.88% scoped coverage). GPU evidence belongs to v2.3.3; later governance changes are not an externally qualified model or deployment.",
       "offeredEdition": "Existing first-party 2.9.0 source (default-branch snapshot), including the described implemented increment. No visual-accuracy, always-on monitoring, hidden remote-model identity, production, legal or independent-certification premium is included.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
@@ -852,7 +875,8 @@
       "sellerConditions": [
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
         "A detailed component inventory and licensing report are required for the agreed delivery scope.",
-        "An explicit delivery manifest and handover scope remain to be agreed."
+        "An explicit delivery manifest and handover scope remain to be agreed.",
+        "Do not transfer historical v2.3.3 external GPU PASS status to v2.9.0, and independently verify the exact delivery release if required."
       ],
       "buyerConditions": [
         "Independent legal ownership/title opinion not performed by this internal audit.",
@@ -861,7 +885,8 @@
       ],
       "qualificationObjectives": [
         "Agree a source-specific delivery edition and evaluate the documented functions against your intended use.",
-        "Close the listed technical, rights and handover conditions before recipient acceptance."
+        "Close the listed technical, rights and handover conditions before recipient acceptance.",
+        "Qualify representative visual truth labels, external model licences/provenance, provider risk and operational security for the proposed buyer use."
       ],
       "rightsPosition": "The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.",
       "componentEvidence": {
@@ -873,7 +898,17 @@
         "securityDocumentationIdentified": true,
         "interpretation": "Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance."
       },
-      "productDetails": []
+      "productDetails": [
+        {
+          "title": "S04 source-to-price qualification",
+          "text": "AEGIS Vision 2.9.0 implements evidence-governed image analysis, model provenance, dataset and benchmark governance, deterministic release readiness and observation-driven requalification. Its 16 October 2026 internal verification report records 130 passing tests and 90.88% measured core coverage against an 85% floor; this is internal evidence, not an independent v2.9 release re-run. External CUDA PASS remains bound to v2.3.3. It does not validate provider-managed weights, representative visual accuracy, always-on monitoring or production approval. EUR 354,500 is a dated seller ask; EUR 1,165,000 reproduction estimate includes an EUR 15,000 scoped increment on a legacy EUR 1,150,000 base.",
+          "items": [
+            "Historical priced edition: 2.9.0; current source: 2.9.0.",
+            "Current seller ask EUR 354,500 (historical), source dossier EUR 350,000 (historical).",
+            "Price status: CONDITIONAL_INTERNAL_2_9_ACCEPTANCE_EXTERNAL_LIMITS. Independent market appraisal and buyer transfer acceptance are NOT established."
+          ]
+        }
+      ]
     },
     {
       "ref": "TA-IP-013",

@@ -216,7 +216,7 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1216; ECB 2026-11-02. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1165; ECB 2026-11-06. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
@@ -233,3 +233,9 @@ TA-IP-011 / Dorothy / Research Intelligence Fabric
 Assess the intended use against a credible build, licence or operating alternative. Support any time advantage, incremental cash flow or avoided costs, count each benefit once, and include remaining qualification, integration, rights and operating requirements. The published references describe their stated scope and assumptions; a separately evidenced buyer-specific case may support different consideration. No strategic premium, independently established market value or guaranteed transaction ceiling/floor is asserted.
 
 Buyer-value framework, scenario requirements and source context: https://thearchitect-max.github.io/MyProjects/valuation.html#buyer-value
+
+## S04 source-to-price audit — 8 November 2026
+
+Research Intelligence Fabric 4.4.0 documents a PostgreSQL transactional outbox, RabbitMQ workers, authenticated human review, guarded dual-source synthesis and a separate live Docker qualification runner. A configured runner is not proof that the exact current multi-service stack passed with authorized live provider credentials. The EUR 282,000 dated ask is distinct from an older EUR 280,000 source dossier; EUR 856,500 recreation includes an EUR 850,000 unbroken-down seller anchor plus EUR 6,500 scoped work. No independent hosted reliability or current market value is established.
+
+**Decision:** CONDITIONAL_PARTIAL_BUDGET_HOSTED_GATE_NOT_VERIFIED. Dated seller asking reference: EUR 282,000. No new market appraisal, full independent release acceptance, legal rights clearance or buyer approval was performed.

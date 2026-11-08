@@ -316,7 +316,16 @@
       "developmentEvidence": "Current README offers no source-pinned release gates, numerical benchmarking or current implementation acceptance evidence; further module/test inspection required.",
       "demonstratedScope": "Declared rotating-machine simulation/diagnostics and digital-twin concept",
       "currentLimitations": "Real machine dynamics, calibration, executable quality and production use NOT_ESTABLISHED; former developed-software label not revalidated.",
-      "candidateStatus": null
+      "candidateStatus": null,
+      "sourcePriceSessionS04": {
+        "sourceMainSha": "c17bf660c023af1576fa8bd09d9c343df9c786d7",
+        "sourceReadmeBlobSha": "f0cbf8c5f24bd0c51c04892f75204b2156509387",
+        "pricedEdition": "1.0.0",
+        "priceDecision": "HOLD_LEGACY_RECREATION_WITHOUT_WORK_BUDGET",
+        "documentaryOnly": true,
+        "sourceCurrentVersion": "1.0.0",
+        "sourceRepositoryId": "1324078728"
+      }
     },
     {
       "id": "TA-IP-011",
@@ -343,7 +352,16 @@
       "developmentEvidence": "Source documents identifier-first event schema, transactional outbox, heartbeat diagnostics and policy-limited source packets; previous PR #3 includes a live Docker E2E gate. No newly run tests here.",
       "demonstratedScope": "Multi-service research workflow orchestration, authorized evidence packets and governed report packaging",
       "currentLimitations": "A documented Docker E2E path is not independently certified production hosting; provider calls, storage, secure operations, external licenses and scaling require verification.",
-      "candidateStatus": null
+      "candidateStatus": null,
+      "sourcePriceSessionS04": {
+        "sourceMainSha": "cedf1ffc2e3ec40b4ee56628072a2f94df7d04b7",
+        "sourceReadmeBlobSha": "8e1fcac8d9c0fd3d04dad2bd6857db21a4c73a88",
+        "pricedEdition": "4.4.0",
+        "priceDecision": "CONDITIONAL_PARTIAL_BUDGET_HOSTED_GATE_NOT_VERIFIED",
+        "documentaryOnly": true,
+        "sourceCurrentVersion": "4.4.0",
+        "sourceRepositoryId": "1324082910"
+      }
     },
     {
       "id": "TA-IP-012",
@@ -370,7 +388,16 @@
       "developmentEvidence": "README documents provider evidence, quorum/independence-domain handling, release packaging and ≥85% core coverage gate; no independent fresh test run or licensed model deployment confirmed.",
       "demonstratedScope": "Image-analysis evidence qualification, provider disagreement, provenance and bounded ML evaluations",
       "currentLimitations": "Provider diversity is not real independence by itself; self-attested runtime HMAC is not TPM/TEE attestation; scientific truth/production security unverified.",
-      "candidateStatus": null
+      "candidateStatus": null,
+      "sourcePriceSessionS04": {
+        "sourceMainSha": "1af5a7869a4f662f31d38e27ce41559306d19abb",
+        "sourceReadmeBlobSha": "767f2f6807a524b7b21c8673a3a47d010dda22a4",
+        "pricedEdition": "2.9.0",
+        "priceDecision": "CONDITIONAL_INTERNAL_2_9_ACCEPTANCE_EXTERNAL_LIMITS",
+        "documentaryOnly": true,
+        "sourceCurrentVersion": "2.9.0",
+        "sourceRepositoryId": "1324090907"
+      }
     },
     {
       "id": "TA-IP-013",

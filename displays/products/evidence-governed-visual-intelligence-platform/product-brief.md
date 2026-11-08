@@ -200,7 +200,7 @@ Project-specific prices are seller choices and model outputs; external publisher
 - [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
 - [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
 
-Indicative USD conversion: EUR 1 = USD 1.1216; ECB 2026-11-02. EUR remains authoritative.
+Indicative USD conversion: EUR 1 = USD 1.1165; ECB 2026-11-06. EUR remains authoritative.
 
 Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
 
@@ -217,3 +217,9 @@ TA-IP-012 / Helena / AEGIS Vision — Evidence-Governed Visual Intelligence Plat
 Assess the intended use against a credible build, licence or operating alternative. Support any time advantage, incremental cash flow or avoided costs, count each benefit once, and include remaining qualification, integration, rights and operating requirements. The published references describe their stated scope and assumptions; a separately evidenced buyer-specific case may support different consideration. No strategic premium, independently established market value or guaranteed transaction ceiling/floor is asserted.
 
 Buyer-value framework, scenario requirements and source context: https://thearchitect-max.github.io/MyProjects/valuation.html#buyer-value
+
+## S04 source-to-price audit — 8 November 2026
+
+AEGIS Vision 2.9.0 implements evidence-governed image analysis, model provenance, dataset and benchmark governance, deterministic release readiness and observation-driven requalification. Its 16 October 2026 internal verification report records 130 passing tests and 90.88% measured core coverage against an 85% floor; this is internal evidence, not an independent v2.9 release re-run. External CUDA PASS remains bound to v2.3.3. It does not validate provider-managed weights, representative visual accuracy, always-on monitoring or production approval. EUR 354,500 is a dated seller ask; EUR 1,165,000 reproduction estimate includes an EUR 15,000 scoped increment on a legacy EUR 1,150,000 base.
+
+**Decision:** CONDITIONAL_INTERNAL_2_9_ACCEPTANCE_EXTERNAL_LIMITS. Dated seller asking reference: EUR 354,500. No new market appraisal, full independent release acceptance, legal rights clearance or buyer approval was performed.

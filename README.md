@@ -86,3 +86,7 @@ The staged S02 source/price review compares current private main with the websit
 ## S03 — TA-IP-007 to TA-IP-009 (8 November 2026)
 
 The [S03 audit](audits/sessions/2026-11-08-S03-007-009.md) and [source-price register](assets/source-price-session-20261108-S03.json) distinguish ModularKey 2.14.0 current source from 2.12.0 historic priced scope, correct the PEDIP go.sum claim and comparison PostgreSQL boundary, and remove the CIAP five-validator PASS overclaim. Three dated EUR seller references are retained with status restrictions. No new independent valuation or full technical release acceptance is asserted. PR #28 remains DRAFT / HOLD.
+
+## S04 — TA-IP-010 through TA-IP-012 (8 November 2026)
+
+[Source/price S04 session](audits/sessions/2026-11-08-S04-010-012.md) and [structured project decisions](assets/source-price-session-20261108-S04.json) reconcile TLS Virtual v1.0.0's synthetic-only build (15 retained tests, physical validation outstanding), Research Intelligence Fabric v4.4.0's live Docker qualification runner (actual PASS unverified) and AEGIS Vision v2.9.0's 130 first-party test PASS (external GPU evidence bound to v2.3.3). EUR seller asks remain historical 195000, 282000 and 354500; no newly certified market valuation or complete transfer readiness is claimed. PR #28 remains DRAFT/HOLD; no merge or publication.
