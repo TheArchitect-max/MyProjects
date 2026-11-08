@@ -837,7 +837,7 @@
       "ref": "TA-IP-012",
       "version": "2.9.0",
       "developmentEdition": "",
-      "productPosition": "AEGIS Vision v2.9.0 has source-reported internal validation (130 tests PASS, 90.88% scoped coverage). GPU evidence belongs to v2.3.3; later governance changes are not an externally qualified model or deployment.",
+      "productPosition": "AEGIS Vision v2.9.0 has repository-retained internal deterministic validation and scoped coverage evidence, but no independent whole-release acceptance. External GPU evidence is frozen to v2.3.3; later governance changes do not qualify a model or deployment.",
       "offeredEdition": "Existing first-party 2.9.0 source (default-branch snapshot), including the described implemented increment. No visual-accuracy, always-on monitoring, hidden remote-model identity, production, legal or independent-certification premium is included.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
