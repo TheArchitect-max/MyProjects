@@ -111,7 +111,11 @@
       "askingReferenceUSD20261106": 195388,
       "recreationCostEUR": 800000,
       "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
-      "commercialStatus": "UNVERIFIED_SELLER_ASSUMPTION_NO_MARKET_APPRAISAL"
+      "commercialStatus": "UNVERIFIED_SELLER_ASSUMPTION_NO_MARKET_APPRAISAL",
+      "lastSourcePriceSession": "2026-11-08-S02",
+      "sourcePriceScopeStatus": "DATED_REFERENCE_VERSION_DRIFT",
+      "sourceMainVersion": "2.5.1",
+      "pricingRationale": "Updated v2.5.1 main adds typed provenance/replay, checkpoint and recovery hardening but EUR 800,000 legacy recreation anchor has no complete work budget. New release price cannot be inferred from the older 2.4.1 ask."
     },
     {
       "id": "TA-IP-005",
@@ -128,7 +132,11 @@
       "askingReferenceUSD20261106": 188689,
       "recreationCostEUR": 900000,
       "costEvidenceStatus": "PARTIAL_SCOPED_BUDGET",
-      "commercialStatus": "UNVERIFIED_SELLER_ASSUMPTION_NO_MARKET_APPRAISAL"
+      "commercialStatus": "UNVERIFIED_SELLER_ASSUMPTION_NO_MARKET_APPRAISAL",
+      "lastSourcePriceSession": "2026-11-08-S02",
+      "sourcePriceScopeStatus": "HOLD_UNMERGED_CONNECTOR_SCOPE",
+      "sourceMainVersion": "6.3.0",
+      "pricingRationale": "EUR 900,000 reproduction model includes EUR 100,000 scoped local-document collection work now in unmerged v6.4 PR. Dated EUR 169,000 composite ask is not a verified main-only quote; historical v6.3 source dossier gave EUR 150,000 (16 Oct)."
     },
     {
       "id": "TA-IP-006",
@@ -145,7 +153,11 @@
       "askingReferenceUSD20261106": 307038,
       "recreationCostEUR": 1200000,
       "costEvidenceStatus": "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN",
-      "commercialStatus": "UNVERIFIED_SELLER_ASSUMPTION_NO_MARKET_APPRAISAL"
+      "commercialStatus": "UNVERIFIED_SELLER_ASSUMPTION_NO_MARKET_APPRAISAL",
+      "lastSourcePriceSession": "2026-11-08-S02",
+      "sourcePriceScopeStatus": "HOLD_CURRENT_HEAD_REVALIDATION",
+      "sourceMainVersion": "5.7.0 development",
+      "pricingRationale": "EUR 275,000 ask and EUR 1,200,000 legacy recreation estimate lack a scoped 5.7 work breakdown. Current 5.7 main requires fresh source-pinned GPU revalidation; cannot present as a fully accepted release market value."
     },
     {
       "id": "TA-IP-007",

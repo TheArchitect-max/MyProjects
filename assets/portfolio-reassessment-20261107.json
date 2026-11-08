@@ -136,11 +136,15 @@
       "candidateConsidered": false,
       "confirmedReleaseReadiness": "NOT_ESTABLISHED",
       "sourceEvidenceDocSha": null,
-      "sourceBaseline": "Continuum v2.5.1 merged recovery/provenance hardening (PR #9)",
-      "developmentEvidence": "Main README documents strict JSON provenance, replay checkpoint/source hash verification, fail-stop semantics and a cross-platform release test matrix; exact test logs not rerun here.",
+      "sourceBaseline": "Main 2.5.1; v2.5.0 baseline, v2.5.1 merged PR #9",
+      "developmentEvidence": "v2.5.0 baseline, v2.5.1 merged PR #9",
       "demonstratedScope": "Deterministic state integrity, recovery and local replay controls",
-      "currentLimitations": "Self-contained anchors do not guarantee independent tamper resistance; no production resilience, AGI or nonrepudiation certification.",
-      "candidateStatus": null
+      "currentLimitations": "Deterministic state-integrity, fail-stop provenance, checkpointed replay and externally guarded recovery. Self-held anchors do not provide independent tamper resistance.",
+      "candidateStatus": null,
+      "lastSourcePriceSession": "2026-11-08-S02",
+      "sourceMainCommitSha": "da6e1951fa4ffda0fb3b3b090670459810225cde",
+      "priceScopeStatus": "DATED_REFERENCE_VERSION_DRIFT",
+      "currentPriceRationale": "Updated v2.5.1 main adds typed provenance/replay, checkpoint and recovery hardening but EUR 800,000 legacy recreation anchor has no complete work budget. New release price cannot be inferred from the older 2.4.1 ask."
     },
     {
       "id": "TA-IP-005",
@@ -165,10 +169,14 @@
       "sourceEvidenceDocSha": "777bc24dab7b8140d602864e7f7ebcd59cb90950",
       "candidateStatus": "OPEN_DRAFT_PR_1_V6_4_NOT_MERGED",
       "candidateHeadSha": "b76713bcb30af9a83cc4ec679d92b5892b25e773",
-      "sourceBaseline": "main EIOP v6.3 signed intelligence bundles and receipt-ledger contracts; v6.4 connector candidate on draft PR #1",
-      "developmentEvidence": "Draft PR documents 54/54 command gates and 192/192 source tests in six Python environments; not independently rerun by this portfolio audit. Historical FAIL records retained.",
+      "sourceBaseline": "Main 6.3.0; v6.3 signed bundle/receipt manifest; PR #1 reports 54/54 commands and 192/192 source tests on frozen candidate",
+      "developmentEvidence": "v6.3 signed bundle/receipt manifest; PR #1 reports 54/54 commands and 192/192 source tests on frozen candidate",
       "demonstratedScope": "Source-bound evidence fusion, case/routing governance, signed bundle exports and receipt tracking; document collection candidate",
-      "currentLimitations": "v6.4 connector is not merged; Windows/real external provider, tenant-safe production keying and independent security qualification remain open."
+      "currentLimitations": "Main v6.3 does governed materiality, routing and HMAC authenticated bundles/receipts; candidate connectors not released. HMAC is not public-key non-repudiation.",
+      "lastSourcePriceSession": "2026-11-08-S02",
+      "sourceMainCommitSha": "53a40b34a62119120d96d20ff3556f06f0c9cca6",
+      "priceScopeStatus": "HOLD_UNMERGED_CONNECTOR_SCOPE",
+      "currentPriceRationale": "EUR 900,000 reproduction model includes EUR 100,000 scoped local-document collection work now in unmerged v6.4 PR. Dated EUR 169,000 composite ask is not a verified main-only quote; historical v6.3 source dossier gave EUR 150,000 (16 Oct)."
     },
     {
       "id": "TA-IP-006",
@@ -191,11 +199,15 @@
       "candidateConsidered": false,
       "confirmedReleaseReadiness": "NOT_ESTABLISHED",
       "sourceEvidenceDocSha": "1c692b2a5ad308051a85b4508a9592f8a59cfc54",
-      "sourceBaseline": "Faunometric 5.6 GPU qualification and 5.7 development head",
-      "developmentEvidence": "Source reports 47 GPU/validation gates and 218 Colab regressions for v5.6; release evidence spec separates formal protocol, model, LOIO and provenance.",
+      "sourceBaseline": "Main 5.7.0 development; 5.6 GPU PASS 47 gates/218 regressions, pinned efe83124067e23572525ae901afa9c6e2087e9d5; 5.7 revalidation required",
+      "developmentEvidence": "5.6 GPU PASS 47 gates/218 regressions, pinned efe83124067e23572525ae901afa9c6e2087e9d5; 5.7 revalidation required",
       "demonstratedScope": "Governed bioacoustic classification, model isolation, evaluation and abstention",
-      "currentLimitations": "No demonstrated animal-language translation or causal animal intent; source-isolation and model metrics are not field biological validation; 5.7 fresh acceptance not established.",
-      "candidateStatus": null
+      "currentLimitations": "Recorded sound classification, model evaluation isolation and abstention controls; no animal-language interpretation or qualified biological truth.",
+      "candidateStatus": null,
+      "lastSourcePriceSession": "2026-11-08-S02",
+      "sourceMainCommitSha": "bc03b446827cf251ae8ad5bae9f8ee66975aa7f2",
+      "priceScopeStatus": "HOLD_CURRENT_HEAD_REVALIDATION",
+      "currentPriceRationale": "EUR 275,000 ask and EUR 1,200,000 legacy recreation estimate lack a scoped 5.7 work breakdown. Current 5.7 main requires fresh source-pinned GPU revalidation; cannot present as a fully accepted release market value."
     },
     {
       "id": "TA-IP-007",

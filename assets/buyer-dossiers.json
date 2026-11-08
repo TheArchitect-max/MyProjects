@@ -253,10 +253,10 @@
     },
     {
       "ref": "TA-IP-004",
-      "version": "2.4.1",
-      "developmentEdition": "",
+      "version": "2.5.1",
+      "developmentEdition": "2.5.1; No open PR",
       "productPosition": "Available software for evaluation against your intended use. Deployment suitability is assessed separately.",
-      "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
+      "offeredEdition": "Main: 2.5.1. Dated asking-price limitation: Updated v2.5.1 main adds typed provenance/replay, checkpoint and recovery hardening but EUR 800,000 legacy recreation anchor has no complete work budget. New release price cannot be inferred from the older 2.4.1 ask.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
@@ -291,6 +291,7 @@
         }
       ],
       "sellerConditions": [
+        "S02 exact-source price check: DATED_REFERENCE_VERSION_DRIFT. Scope and rights require written confirmation.",
         "An explicit delivery manifest and handover scope remain to be agreed."
       ],
       "buyerConditions": [
@@ -317,9 +318,9 @@
     {
       "ref": "TA-IP-005",
       "version": "6.3.0",
-      "developmentEdition": "6.4.0 — unmerged authorized-document connector candidate",
+      "developmentEdition": "6.3.0; Draft PR #1 v6.4.0 head b76713bcb30af9a83cc4ec679d92b5892b25e773",
       "productPosition": "A multi-source intelligence prototype for monitoring changes and keeping review decisions attributable.",
-      "offeredEdition": "Existing first-party 6.4.0 source (unmerged development snapshot), including the described implemented increment. Historical v6.0.0/v6.3.0 FAIL states remain. Live provider collection, external rights, production operation and future connectors are excluded.",
+      "offeredEdition": "Main: 6.3.0. Dated asking-price limitation: EUR 900,000 reproduction model includes EUR 100,000 scoped local-document collection work now in unmerged v6.4 PR. Dated EUR 169,000 composite ask is not a verified main-only quote; historical v6.3 source dossier gave EUR 150,000 (16 Oct).",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
@@ -354,6 +355,7 @@
         }
       ],
       "sellerConditions": [
+        "S02 exact-source price check: HOLD_UNMERGED_CONNECTOR_SCOPE. Scope and rights require written confirmation.",
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
         "A detailed component inventory and licensing report are required for the agreed delivery scope.",
         "A security assessment or an explicit statement of its absence is required before acceptance.",
@@ -383,9 +385,9 @@
     {
       "ref": "TA-IP-006",
       "version": "5.7.0",
-      "developmentEdition": "",
+      "developmentEdition": "5.7.0 development; No open PR; 5.7 governance currently on main",
       "productPosition": "The identified build requires fresh validation; the earlier validated baseline remains available for review.",
-      "offeredEdition": "Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.",
+      "offeredEdition": "Main: 5.7.0 development. Dated asking-price limitation: EUR 275,000 ask and EUR 1,200,000 legacy recreation estimate lack a scoped 5.7 work breakdown. Current 5.7 main requires fresh source-pinned GPU revalidation; cannot present as a fully accepted release market value.",
       "transferPosition": "Conditional handover",
       "assessmentCriteria": [
         {
@@ -420,6 +422,7 @@
         }
       ],
       "sellerConditions": [
+        "S02 exact-source price check: HOLD_CURRENT_HEAD_REVALIDATION. Scope and rights require written confirmation.",
         "Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.",
         "A detailed component inventory and licensing report are required for the agreed delivery scope.",
         "A security assessment or an explicit statement of its absence is required before acceptance."
