@@ -1,12 +1,16 @@
 # QUBO Structural Analysis and Optimization Platform
 
-TA-IP-075 | Reference name: Emmy | Physics, mathematics & optimisation
+TA-IP-075 | Reference name: Emmy
 
-QUBO structural-analysis research software with a separately specified weighted Max-3-SAT encoding, explicit auxiliary-variable accounting and bounded exhaustive objective checks.
+Assessment date: 2026-11-10
 
 ## Product overview
 
-QUBO structural-analysis research software with a separately specified weighted Max-3-SAT encoding, explicit auxiliary-variable accounting and bounded exhaustive objective checks.
+Structural QUBO analysis with bounded encodings, benchmark laboratory, batched solvers, resumable campaigns, QPLIB corpus ingestion and paired statistical/Pareto analysis.
+
+Identified edition: 0.8.0
+
+Structural QUBO analysis with bounded encodings, benchmark laboratory, batched solvers, resumable campaigns, QPLIB corpus ingestion and paired statistical/Pareto analysis. No universal solver superiority, complexity breakthrough, quantum advantage or current GPU qualification is inferred.
 
 ## Potential acquirers
 
@@ -16,90 +20,36 @@ QUBO structural-analysis research software with a separately specified weighted 
 
 ## Documented functions
 
-- Inspect declared matrix and sparse-structure properties
-- Encode normalized weighted clauses under a strict penalty condition
-- Preserve constant offsets and source-formula provenance
-- Compare every bounded source and auxiliary assignment
-- Search declared random-formula families for counterexamples
+- Batched solver and benchmark laboratory beyond 0.3
+- Resumable campaigns and source-qualified QPLIB corpus
+- Paired statistics, Pareto analysis and negative-control regression
 
-## Available output types
+## Output types
 
 - Problem diagnostics
 - Solution comparisons
 - Scaling reports
 
-## Current offered position
+## Material scope boundaries
 
-Prototype. A prototype offered for evaluation and continued development; production acceptance is separate.
+- No universal solver superiority, complexity breakthrough, quantum advantage or current GPU qualification is inferred.
+- First-party rights, exact delivery and recipient acceptance require project-specific agreement.
 
-Available for acquisition discussion.
+## Acquisition evidence profile
 
-- The current local suite passes its executed tests. The separate deterministic encoding campaign checks bounded formulas under the stated variable, clause and penalty assumptions.
-- The qualified objective relation belongs to the named encoding. The earlier pairwise structural projection remains a separate research construction and is not an exact satisfiability reduction.
-- Finite validation does not establish polynomial-time solution of NP-complete problems, universal spectral barriers or quantum advantage. The retained recreation anchor lacks a complete work breakdown.
+- Technical scope: P — Structural QUBO analysis with bounded encodings, benchmark laboratory, batched solvers, resumable campaigns, QPLIB corpus ingestion and paired statistical/Pareto analysis. The offered edition and material boundaries govern review.
+- Evidence and validation: E2 — The current local suite passes its executed tests. The separate deterministic encoding campaign checks bounded formulas under the stated variable, clause and penalty assumptions. Independent recipient and intended-use acceptance remain separate.
+- Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
+- Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
+- Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
-## Acquisition reference
+Offered first-party scope: Specifically agreed first-party 0.8.0 source, documentation and retained evidence: Structural QUBO analysis with bounded encodings, benchmark laboratory, batched solvers, resumable campaigns, QPLIB corpus ingestion and paired statistical/Pareto analysis. No universal solver superiority, complexity breakthrough, quantum advantage or current GPU qualification is inferred.
 
-Seller asking reference: EUR 90,000.
+Development: No separate open candidate at the reviewed snapshot.
 
-Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
+## Conditions before handover
 
-## Offered first-party scope
-
-- The specifically agreed first-party software or research work product
-- Associated first-party product documentation and retained evaluation material
-- The expressly agreed transferable first-party rights
-
-## Separately scoped or excluded
-
-- Third-party software, data, media, models and service entitlements beyond their own terms
-- Personal, customer and author content, private accounts and credentials
-- Future development, hosting, hardware, support and operating businesses unless expressly agreed
-
-## Buyer information and enquiry
-
-Asset profile: https://thearchitect-max.github.io/MyProjects/projects/qubo-structural-analysis-and-optimization-platform/
-
-Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/qubo-structural-analysis-and-optimization-platform/factsheet.pdf
-
-Quote TA-IP-075 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
-
-Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
-
-© 2026 THEARCHITECT_MAX. First-party rights reserved.
-
-## Product edition and acquisition dossier
-
-Identified product edition: 0.3.0 / bounded weighted Max-3-SAT encoding qualification
-
-Handover position: Conditional handover
-
-QUBO structural-analysis research software with a separately specified weighted Max-3-SAT encoding, explicit auxiliary-variable accounting and bounded exhaustive objective checks.
-
-### Priced first-party scope
-
-The specifically agreed first-party structural-analysis and bounded encoding software may be reviewed for transfer. The prior low-confidence recreation anchor is retained without an uplift. Universal complexity claims, hardware, quantum advantage and future research are excluded.
-
-### Offered work and qualification
-
-QUBO structural-analysis research software with a separately specified weighted Max-3-SAT encoding, explicit auxiliary-variable accounting and bounded exhaustive objective checks.
-
-- The current local suite passes its executed tests. The separate deterministic encoding campaign checks bounded formulas under the stated variable, clause and penalty assumptions.
-- The qualified objective relation belongs to the named encoding. The earlier pairwise structural projection remains a separate research construction and is not an exact satisfiability reduction.
-- Finite validation does not establish polynomial-time solution of NP-complete problems, universal spectral barriers or quantum advantage. The retained recreation anchor lacks a complete work breakdown.
-
-### Acquisition evidence profile
-
-| Criterion | Profile | Meaning for your review |
-| --- | --- | --- |
-| Technical scope | P | QUBO structural-analysis research software with a separately specified weighted Max-3-SAT encoding, explicit auxiliary-variable accounting and bounded exhaustive objective checks. The stated edition and material boundaries govern review. |
-| Evidence and validation | E2 | The current local suite passes its executed tests. The separate deterministic encoding campaign checks bounded formulas under the stated variable, clause and penalty assumptions. Independent recipient and intended-use acceptance remain separate. |
-| Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
-| Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
-| Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance. |
-
-### Conditions before handover
-
+- Freeze the 0.8.0 first-party delivery and reconcile source-specific acceptance records.
 - Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
 - A detailed component inventory and licensing report are required for the agreed delivery scope.
 - Third-party licensing and obligations documentation remains incomplete.
@@ -107,7 +57,7 @@ QUBO structural-analysis research software with a separately specified weighted 
 - Release identity and provenance evidence remain incomplete.
 - An explicit delivery manifest and handover scope remain to be agreed.
 
-### Qualification objectives
+## Qualification objectives
 
 - Agree a source-specific delivery edition and evaluate the documented functions against your intended use.
 - Close the listed technical, rights and handover conditions before recipient acceptance.
@@ -115,96 +65,39 @@ QUBO structural-analysis research software with a separately specified weighted 
 - Freedom-to-operate legal opinion not performed unless separately evidenced.
 - Independent penetration test not assumed unless separately evidenced.
 
-### Rights and components
+## Prices and sources
+
+| Reference | EUR | Indicative USD |
+|---|---:|---:|
+| Seller asking reference | 97,500 | 109,337 |
+| Negotiation reference - low | 78,000 | 87,469 |
+| Negotiation reference - high | 121,875 | 136,671 |
+| Recreation cost estimate | 675,500 | 757,506 |
+| Marketability cost scenario | 439,244 | 492,568 |
+| Monetisation cost scenario | 387,568 | 434,619 |
+| Risk-adjusted strategic reference | 217,792 | 244,232 |
+| Weighted economic reference | 410,465 | 460,295 |
+
+Earlier recreation anchor retained once; its prior coverage and uncertainty remain. Added only the individually described implementation work. 240 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 25,500 adopted recreation increment and EUR 7,500 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
+
+Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+
+EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+
+## Individual source review
+
+Source records 95 tests with 91 passing and four optional CUDA skips for the latest CPU scope; earlier GPU evidence is edition-specific. Analytics adds bootstrap and multiplicity-aware comparisons.
+
+Remaining limits: No universal solver superiority, complexity breakthrough, quantum advantage or current GPU qualification is inferred.
+
+Price decision: Earlier recreation anchor retained once; its prior coverage and uncertainty remain. Added only the individually described implementation work. 240 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 25,500 adopted recreation increment and EUR 7,500 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
+
+Documentary review only; private product tests were not re-executed in this website update.
 
 The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.
 
-Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance.
+[Full dossier](https://thearchitect-max.github.io/MyProjects/projects/qubo-structural-analysis-and-optimization-platform/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/qubo-structural-analysis-and-optimization-platform/)
 
-- Dependency declaration: identified
-- Dependency lock record: not established in reviewed records
-- Component inventory artifact: not established in reviewed records
-- Licence notices: identified
-- Third-party disclosure: not established in reviewed records
-- Security documentation: not established in reviewed records
-
-### Potential applications
-
-- [Factorisation and optimisation research](https://thearchitect-max.github.io/MyProjects/connections.html#factorisation-optimisation-research): Analyse and benchmark an explicitly formulated binary optimisation instance with declared baselines.
-
-Proposed applications require separate interfaces, integration and joint qualification; they are not delivered integrated products.
-
-Grade definitions: https://thearchitect-max.github.io/MyProjects/assurance.html#criteria
-
-Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfer.html
-
-
-## Complete prices and economic references
-
-Basis: 2026-11-03. All amounts in EUR. Market value is not established.
-
-| Reference | EUR | USD - indicative |
-| --- | ---: | ---: |
-| Seller asking reference | 90,000 | 100,944 |
-| Negotiation reference - low | 70,000 | 78,512 |
-| Negotiation reference - high | 115,000 | 128,984 |
-| Recreation cost estimate | 650,000 | 729,040 |
-| Marketability cost scenario | 422,663 | 474,059 |
-| Monetisation cost scenario | 372,938 | 418,287 |
-| Risk-adjusted strategic reference | 209,570 | 235,054 |
-| Weighted economic reference | 394,970 | 442,998 |
-
-USD = EUR × 1.1216, rounded half-up to whole USD. ECB date: 2026-11-02. EUR is authoritative.
-
-- Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
-- Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
-- Negotiation reference - high: Upper end of the indicative seller negotiation range for the defined AS IS asset.
-- Recreation cost estimate: Seller estimate to reproduce comparable present work; not recorded expenditure or an established market value.
-- Marketability cost scenario: Cost-based model scenario; no observed comparable IP sale is used.
-- Monetisation cost scenario: Cost-based model scenario; no attributable income, royalty valuation or DCF is established.
-- Risk-adjusted strategic reference: Cost-based opportunity scenario with stated seller-selected factors.
-- Weighted economic reference: Weighted blend of correlated cost scenarios; not an independent appraisal.
-
-Milestone-conditioned reference: EUR 465,240; model change EUR 70,270. Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.
-
-This is a conditional model sensitivity, not a current asking price, forecast or market value.
-
-### Cost basis
-
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance. Review on 2026-11-03: The specifically agreed first-party structural-analysis and bounded encoding software may be reviewed for transfer. The prior low-confidence recreation anchor is retained without an uplift. Universal complexity claims, hardware, quantum advantage and future research are excluded.
-
-### Financial assessment
-
-Retained seller estimate; work breakdown required. Assessed 2026-11-03.
-
-No complete work-package budget supports the retained anchor. Obtain a delivery-specific work breakdown and quote; this seller estimate does not establish actual expenditure or market value.
-
-Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
-
-Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
-
-### Sources
-
-Project-specific prices are seller choices and model outputs; external publishers inform method, rates and currency only.
-
-- [WIPO - Intellectual Property Valuation Basics — The cost method](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
-- [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
-- [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
-
-Indicative USD conversion: EUR 1 = USD 1.1216; ECB 2026-11-02. EUR remains authoritative.
-
-Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
-
-Calculation inputs: {"stage": "P", "potential": "M", "sector": "Research & Scientific Software", "route": "Research / R&D licensing"}.
-
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc12
-
-Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/qubo-structural-analysis-and-optimization-platform/#calculation
-
-## Buyer-specific economic value and evaluation
-
-TA-IP-075 / Emmy / QUBO Structural Analysis and Optimization Platform
-
-Assess the intended use against a credible build, licence or operating alternative. Support any time advantage, incremental cash flow or avoided costs, count each benefit once, and include remaining qualification, integration, rights and operating requirements. The published references describe their stated scope and assumptions; a separately evidenced buyer-specific case may support different consideration. No strategic premium, independently established market value or guaranteed transaction ceiling/floor is asserted.
-
-Buyer-value framework, scenario requirements and source context: https://thearchitect-max.github.io/MyProjects/valuation.html#buyer-value
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
+- [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

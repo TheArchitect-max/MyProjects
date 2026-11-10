@@ -40,7 +40,7 @@ def validate():
   for field in ['productPosition','offeredEdition','developmentEdition']:
    assert not RAW_RESULTS.search(a[field]),(a['ref'],field)
   assert not any('potential sensitive filenames' in x.lower() for x in a['sellerConditions']),a['ref']
- for a in json.loads((ROOT/'assets/portfolio-identity-ledger.json').read_text())['assets'][119:]:
+ for a in json.loads((ROOT/'assets/portfolio-identity-ledger.json').read_text())['assets'][123:]:
   folder=ROOT/'displays/products'/a['slug']
   for name in ['index.html','product-brief.md']:
    text=(folder/name).read_text()

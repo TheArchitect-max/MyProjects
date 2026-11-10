@@ -16,16 +16,16 @@ class IdentityPage(HTMLParser):
 
 def validate(snapshot=None):
  catalogue=json.loads((ROOT/'assets/buyer-catalogue.json').read_text());assets=catalogue['projects'];by_ref={a['ref']:a for a in assets}
- assert len(assets)==len(by_ref)==len({a['referenceName'].casefold() for a in assets})==119
+ assert len(assets)==len(by_ref)==len({a['referenceName'].casefold() for a in assets})==123
  assert all(re.fullmatch(r'TA-IP-\d{3}',a['ref']) for a in assets)
  assert (by_ref['TA-IP-095']['title'],by_ref['TA-IP-095']['referenceName'],by_ref['TA-IP-095']['slug'])==('Evidence-Governed Intelligence Platform','Ivy','evidence-governed-intelligence-platform')
- assert set(by_ref)=={'TA-IP-'+str(i).zfill(3) for i in range(1,120)},'Asset IDs must be consecutive TA-IP-001 through TA-IP-119'
+ assert set(by_ref)=={'TA-IP-'+str(i).zfill(3) for i in range(1,124)},'Asset IDs must be consecutive TA-IP-001 through TA-IP-123'
  mapping=json.loads((ROOT/'displays/project-map.json').read_text())['projects'];maps={a['ref']:a for a in mapping}
  ledger=json.loads((ROOT/'assets/portfolio-identity-ledger.json').read_text());registered=ledger['assets'];by_register={a['id']:a for a in registered}
  assert len(registered)==len(by_register)==len({a['alias'].casefold() for a in registered})==123
  assert set(by_register)=={'TA-IP-'+str(i).zfill(3) for i in range(1,124)}
  extra=set(by_register)-set(by_ref)
- assert extra=={'TA-IP-120','TA-IP-121','TA-IP-122','TA-IP-123'}
+ assert extra==set()
  assert len(mapping)==len(maps)==123 and set(maps)==set(by_register)
  assert all(maps[ref]['referenceName']==by_register[ref]['alias'] for ref in by_register)
  with (ROOT/'displays/identity-register.csv').open(encoding='utf-8-sig',newline='') as f:csv_rows=list(csv.DictReader(f))
@@ -62,7 +62,7 @@ def validate(snapshot=None):
  source_count=0;unavailable_count=0
  if snapshot:
   audit=json.loads(snapshot.read_text());records=audit['assets'];repo_ids={a['repositoryId'] for a in records}
-  assert len(records)==len(repo_ids)==119 and {r['ref'] for r in records}==set(by_ref)
+  assert len(records)==len(repo_ids)==123 and {r['ref'] for r in records}==set(by_ref)
   unavailable=[r for r in records if r.get('currentSourceStatus')=='UNAVAILABLE']
   assert not unavailable and all(r.get('currentSourceStatus')=='VERIFIED' for r in records),'Every current catalogue asset must have a verified source identity'
   unavailable_count=len(unavailable)
@@ -102,7 +102,7 @@ def validate(snapshot=None):
    if p['name'] in ['MyProjects','Projects-Displays']:
     local=ROOT if p['name']=='MyProjects' else ROOT.parent/'Projects-Displays'
     assert json.loads((local/'PUBLICATION_IDENTITY.json').read_text())==i
- return dict(result='PASS',assetIdentities=123,uniqueFeminineNames=123,displayAndDossierLinks=246,pdfIdentitiesChecked=119,briefIdentitiesChecked=123,identityCsvRows=123,verifiedSourceIdentities=121,provisionalSourceIdentities=2,sourceRepositoryIdentitiesChecked=source_count,unavailableSourceEntries=unavailable_count,publicationRepositoriesExcludedFromAssetCount=3,consecutiveNumbering=True,identifierGaps=[],legacyContributionRoutesRedirect=True)
+ return dict(result='PASS',assetIdentities=123,uniqueFeminineNames=123,displayAndDossierLinks=246,pdfIdentitiesChecked=123,briefIdentitiesChecked=123,identityCsvRows=123,verifiedSourceIdentities=121,provisionalSourceIdentities=2,sourceRepositoryIdentitiesChecked=source_count,unavailableSourceEntries=unavailable_count,publicationRepositoriesExcludedFromAssetCount=3,consecutiveNumbering=True,identifierGaps=[],legacyContributionRoutesRedirect=True)
 
 if __name__=='__main__':
  p=argparse.ArgumentParser(description=__doc__);p.add_argument('--repository-snapshot',type=Path);a=p.parse_args();print(json.dumps(validate(a.repository_snapshot),indent=2))

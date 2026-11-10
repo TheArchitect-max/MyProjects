@@ -6,4 +6,5 @@ const report=math.verifyCatalogue(JSON.parse(fs.readFileSync(pricePath,'utf8')))
 report.publicFiles={pricingCatalogue:{path:'assets/pricing-catalogue.json',sha256:crypto.createHash('sha256').update(fs.readFileSync(pricePath)).digest('hex')},calculationModule:{path:'assets/pricing-math.js',sha256:crypto.createHash('sha256').update(fs.readFileSync(mathPath)).digest('hex')}};
 if(report.status!=='PASS')throw Error('Pricing calculation checks failed: '+JSON.stringify(report.projects.filter(p=>p.status!=='PASS')));
 fs.writeFileSync(path.join(root,'assets/calculation-validation.json'),JSON.stringify(report,null,2)+'\n');
+fs.copyFileSync(path.join(root,'assets/calculation-validation.json'),path.join(root,'displays/assets/calculation-validation.json'));
 console.log(JSON.stringify({result:report.status,...report.summary},null,2));

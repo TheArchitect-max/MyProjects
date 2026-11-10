@@ -6,7 +6,7 @@
 
 The portfolio represents an extensive collection of independently initiated software engineering and research projects spanning advanced computational technologies, artificial intelligence, autonomous systems, scientific modeling, digital infrastructure, and specialized engineering applications.
 
-As of November 8, 2026, the identity register contains **123 private software and research IP asset candidates**. There are 119 dated seller asking references and four unpriced assets; two of the latter have provisional portfolio references pending source-side identity registration.
+As of November 10, 2026, the identity register contains **123 private software and research IP asset candidates**. There are 123 individually assessed seller asking references; two portfolio aliases remain provisional pending source-side identity registration.
 
 **Catalogue scope:** Each of the **123 assets** is associated with one private source repository and one unique feminine portfolio alias. Source identity was previously confirmed for 121; the last two portfolio IDs remain provisional. Public publication infrastructure and seller-excluded archives receive no standalone asset identity or price. The agreed first-party work, rights and transfer perimeter govern each acquisition.
 
@@ -149,7 +149,7 @@ Any defensible commercial valuation should consider factors such as:
 - Legal transferability and contractual restrictions.
 - Independent technical assessment and buyer-specific strategic relevance.
 
-Repository count, development effort, architectural complexity, and projected applications are insufficient on their own to establish market value. The EUR 25,058,000 arithmetic sum of 119 dated seller asking references is not an independent market appraisal, package offer, transaction price or realized revenue; four projects remain unpriced.
+Repository count, development effort, architectural complexity, and projected applications are insufficient on their own to establish market value. The EUR 25,153,000 arithmetic sum of 123 dated seller asking references is not an independent market appraisal, package offer, transaction price or realized revenue; all 123 projects have individual asking references.
 
 Furthermore, strategic value to a particular prospective acquirer should be distinguished from generally realizable market value. Buyer-specific synergies, expected cost savings, and future business opportunities may influence negotiations but should not be presented as established financial outcomes without supporting evidence.
 
@@ -179,7 +179,7 @@ Achievement of that ambition remains dependent on the measurable performance and
 
 ## 6. Portfolio Status and Forward-Looking Statement
 
-**Current Status — November 8, 2026**
+**Current Status — November 10, 2026**
 
 The acquisition portfolio comprises 123 individually mapped private software and research asset candidates covering a broad range of advanced software, scientific, computational, and engineering disciplines. The repository inventory has been established, but comprehensive portfolio-wide technical certification, independent scientific validation, production-readiness verification, legal clearance, and commercial valuation are not established by that inventory.
 
@@ -193,7 +193,7 @@ These prospective outcomes are dependent on further engineering development, suc
 
 *Portfolio Classification: Independent Software Research & Development, Advanced Computational Systems, and Proprietary Technology Development.*
 
-*Portfolio Inventory Date: November 8, 2026.*
+*Portfolio Inventory Date: November 10, 2026.*
 
 *Disclosure: This document is an independent, seller-authored portfolio description. No affiliation, endorsement, commissioning, acquisition commitment, or buyer interest from any external organization is claimed.*
 
