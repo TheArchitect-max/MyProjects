@@ -7,7 +7,7 @@ import json,re
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://thearchitect-max.github.io/MyProjects/'
 def shell(title,summary,canonical):
- return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#070604"><meta name="color-scheme" content="dark"><title>'+escape(title)+' — THEARCHITECT_MAX</title><meta name="description" content="'+escape(summary,quote=True)+'"><meta property="og:title" content="'+escape(title,quote=True)+'"><meta property="og:description" content="'+escape(summary,quote=True)+'"><meta property="og:type" content="website"><link rel="canonical" href="'+canonical+'"><link rel="stylesheet" href="/MyProjects/assets/im4.css?v=im36"><link rel="stylesheet" href="/MyProjects/assets/buyer-showroom.css?v=seller14"></head><body><div id="app"><main id="main"><section class="page-hero"><div class="shell"><p class="eyebrow">THEARCHITECT_MAX</p><h1>Software IP acquisition catalogue.</h1><p>Review independent assets, their purpose and buyer information.</p></div></section></main></div><script src="/MyProjects/assets/pricing-math.js?v=calc12" defer></script><script src="/MyProjects/assets/im.js?v=showroom29-contribution-20261104" defer></script><script src="/MyProjects/assets/audio-player.js?v=music3" defer></script><noscript><p><a href="/MyProjects/displays/">Open the complete project presentation collection</a></p></noscript></body></html>\n'
+ return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#070604"><meta name="color-scheme" content="dark"><title>'+escape(title)+' — THEARCHITECT_MAX</title><meta name="description" content="'+escape(summary,quote=True)+'"><meta property="og:title" content="'+escape(title,quote=True)+'"><meta property="og:description" content="'+escape(summary,quote=True)+'"><meta property="og:type" content="website"><link rel="canonical" href="'+canonical+'"><link rel="stylesheet" href="/MyProjects/assets/im4.css?v=im36"><link rel="stylesheet" href="/MyProjects/assets/buyer-showroom.css?v=seller14"></head><body><div id="app"><main id="main"><section class="page-hero"><div class="shell"><p class="eyebrow">THEARCHITECT_MAX</p><h1>Software IP acquisition catalogue.</h1><p>Review independent assets, their purpose and buyer information.</p></div></section></main></div><script src="/MyProjects/assets/pricing-math.js?v=calc12" defer></script><script src="/MyProjects/assets/im.js?v=showroom35-projects-20261110" defer></script><script src="/MyProjects/assets/audio-player.js?v=music3" defer></script><noscript><p><a href="/MyProjects/displays/">Open the complete project presentation collection</a></p></noscript></body></html>\n'
 def redirect(url,ref=''):
  script='const u=new URL('+json.dumps(url)+',location.href);u.search=location.search;u.hash=location.hash;location.replace(u.href);'
  return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,follow"><link rel="canonical" href="'+url+'"><title>IP acquisition catalogue</title></head><body data-legacy-project-ref="'+ref+'"><p><a href="'+url+'">Continue to the acquisition catalogue</a></p><script>'+script+'</script></body></html>\n'
@@ -65,8 +65,17 @@ def main():
  aliases={'updates.html':'portfolio.html','development.html':'contribution.html','opportunity.html':'acquisition.html'}
  for name,target in aliases.items():(ROOT/name).write_text(redirect(BASE+target))
  (ROOT/'404.html').write_text(shell('IP collection','Find a project in the acquisition catalogue.',BASE+'portfolio.html'))
+ inventory=json.loads((ROOT/'assets/portfolio-identity-ledger.json').read_text())
+ assert len(inventory['assets'])==123 and len({a['id'] for a in inventory['assets']})==123
+ site_links=set(urls)
+ for a in inventory['assets']:
+  for link in [a['profileUrl'],a['displayUrl']]:
+   if link not in site_links:urls.append(link);site_links.add(link)
+ for name in ['portfolio-register.html','portfolio-evaluation.html','portfolio-pricing-review.html']:
+  link=BASE+name
+  if link not in site_links:urls.append(link);site_links.add(link)
  (ROOT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+escape(u)+'</loc></url>' for u in urls)+'</urlset>\n')
  (ROOT/'robots.txt').write_text('User-agent: *\nAllow: /MyProjects/\nSitemap: '+BASE+'sitemap.xml\n')
- print('Built buyer-only hub pages, 119 profiles and established route redirects.')
+ print('Built hub pages and 123 priced project profiles with complete sitemap coverage.')
 
 if __name__=='__main__':main()

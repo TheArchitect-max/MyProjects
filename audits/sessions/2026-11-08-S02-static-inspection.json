@@ -1,0 +1,72 @@
+{
+  "schema": "thearchitect-site-source-static-inspection-v1",
+  "sessionId": "2026-11-08-S02",
+  "date": "2026-11-08",
+  "testedGitCommitSHA": "5de31e85c65639278e3b7f00b9e3b25bab765555",
+  "method": "Read source/JSON/HTML/JS at pinned GitHub commit and compare in ECMAScript V8 analysis; no full repository checkout or browser run",
+  "status": "STATIC_INSPECTION_PASS",
+  "checks": [
+    {
+      "name": "PR draft open; expected HEAD; main unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "123 unique private candidate references and unique aliases; public projects excluded",
+      "status": "PASS"
+    },
+    {
+      "name": "119 historic priced buyer dossiers and 123 source reviews",
+      "status": "PASS"
+    },
+    {
+      "name": "buyer JSON and dossier JSON source/display mirrors identical",
+      "status": "PASS"
+    },
+    {
+      "name": "S01 and S02 each contain exactly three assets in correct sequence",
+      "status": "PASS"
+    },
+    {
+      "name": "all S02 asking references numerically unchanged in canonical pricing",
+      "status": "PASS"
+    },
+    {
+      "name": "source-price flags aligned between reassessment and financial review",
+      "status": "PASS"
+    },
+    {
+      "name": "123 static project cards and 123 financial table rows",
+      "status": "PASS"
+    },
+    {
+      "name": "three S02 static product price warnings visible",
+      "status": "PASS"
+    },
+    {
+      "name": "Continuum 2.5.1 main version displayed",
+      "status": "PASS"
+    },
+    {
+      "name": "EIOP v6.4 open-candidate boundary and Faunometric 5.7/5.6 boundary displayed",
+      "status": "PASS"
+    },
+    {
+      "name": "frontend cache version and dynamic source/price warning present",
+      "status": "PASS"
+    },
+    {
+      "name": "website JS and Node validator compile as JS syntax",
+      "status": "PASS"
+    }
+  ],
+  "limits": {
+    "privateSourceTests": "NOT_RERUN",
+    "checkedOutNodeTest": "NOT_RUN",
+    "browserAcceptance": "NOT_RUN",
+    "GitHubActionsCI": "NOT_RUN",
+    "commercialAppraisal": "NOT_ESTABLISHED",
+    "legalTitle": "NOT_VERIFIED"
+  },
+  "releasePosition": "PR28 DRAFT_HOLD; no merge or live publication",
+  "nextSession": "S03 only after acceptance gates and controlled branch verification"
+}

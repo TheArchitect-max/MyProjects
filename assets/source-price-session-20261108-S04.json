@@ -1,0 +1,60 @@
+{
+  "schema": "source-price-audit-session-1",
+  "sessionId": "2026-11-08-S04",
+  "date": "2026-11-08",
+  "status": "DOCUMENTARY_ONLY; INDEPENDENT_ACCEPTANCE_HOLD",
+  "projects": [
+    {
+      "assetId": "TA-IP-010",
+      "alias": "Talia",
+      "sourceRepositoryId": "1324078728",
+      "sourceMainSHA": "c17bf660c023af1576fa8bd09d9c343df9c786d7",
+      "sourceREADMEBlobSHA": "f0cbf8c5f24bd0c51c04892f75204b2156509387",
+      "sourceVersion": "1.0.0",
+      "pricedEdition": "1.0.0",
+      "datedSellerAskEUR": 195000,
+      "olderSourceDossierAskEUR": 195000,
+      "recreationCostEUR": 650000,
+      "priceDecisionStatus": "HOLD_LEGACY_RECREATION_WITHOUT_WORK_BUDGET",
+      "reason": "TLS Virtual 1.0.0 is an executable rotating-machine simulation and diagnostic demonstrator. The 22 July 2026 retained build verification records 15 pytest successes, a passing wheel/JavaScript/CLI/API smoke, and eight deterministic simulated scenarios. It does not validate real machinery, sensor calibration, predictive-maintenance accuracy or deployment suitability. The EUR 195,000 ask and EUR 650,000 recreation estimate are dated seller references without a complete role/work-package reproduction budget.",
+      "independentMarketValueEUR": null
+    },
+    {
+      "assetId": "TA-IP-011",
+      "alias": "Dorothy",
+      "sourceRepositoryId": "1324082910",
+      "sourceMainSHA": "cedf1ffc2e3ec40b4ee56628072a2f94df7d04b7",
+      "sourceREADMEBlobSHA": "8e1fcac8d9c0fd3d04dad2bd6857db21a4c73a88",
+      "sourceVersion": "4.4.0",
+      "pricedEdition": "4.4.0",
+      "datedSellerAskEUR": 282000,
+      "olderSourceDossierAskEUR": 280000,
+      "recreationCostEUR": 856500,
+      "priceDecisionStatus": "CONDITIONAL_PARTIAL_BUDGET_HOSTED_GATE_NOT_VERIFIED",
+      "reason": "Research Intelligence Fabric 4.4.0 documents a PostgreSQL transactional outbox, RabbitMQ workers, authenticated human review, guarded dual-source synthesis and a separate live Docker qualification runner. A configured runner is not proof that the exact current multi-service stack passed with authorized live provider credentials. The EUR 282,000 dated ask is distinct from an older EUR 280,000 source dossier; EUR 856,500 recreation includes an EUR 850,000 unbroken-down seller anchor plus EUR 6,500 scoped work. No independent hosted reliability or current market value is established.",
+      "independentMarketValueEUR": null
+    },
+    {
+      "assetId": "TA-IP-012",
+      "alias": "Helena",
+      "sourceRepositoryId": "1324090907",
+      "sourceMainSHA": "1af5a7869a4f662f31d38e27ce41559306d19abb",
+      "sourceREADMEBlobSHA": "767f2f6807a524b7b21c8673a3a47d010dda22a4",
+      "sourceVersion": "2.9.0",
+      "pricedEdition": "2.9.0",
+      "datedSellerAskEUR": 354500,
+      "olderSourceDossierAskEUR": 350000,
+      "recreationCostEUR": 1165000,
+      "priceDecisionStatus": "CONDITIONAL_INTERNAL_2_9_ACCEPTANCE_EXTERNAL_LIMITS",
+      "reason": "AEGIS Vision 2.9.0 implements evidence-governed image analysis, model provenance, dataset and benchmark governance, deterministic release readiness and observation-driven requalification. Its 16 October 2026 internal verification report records 130 passing tests and 90.88% measured core coverage against an 85% floor; this is internal evidence, not an independent v2.9 release re-run. External CUDA PASS remains bound to v2.3.3. It does not validate provider-managed weights, representative visual accuracy, always-on monitoring or production approval. EUR 354,500 is a dated seller ask; EUR 1,165,000 reproduction estimate includes an EUR 15,000 scoped increment on a legacy EUR 1,150,000 base.",
+      "independentMarketValueEUR": null
+    }
+  ],
+  "summary": {
+    "privateSourceRepositoriesChecked": 3,
+    "sourceIdentityMatches": 3,
+    "numericPriceChanges": 0,
+    "fullPortfolioNodePythonBrowserTests": "NOT_RUN",
+    "independentRightsAndMarketQualification": "NOT_RUN"
+  }
+}

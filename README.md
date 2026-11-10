@@ -12,11 +12,13 @@
 
 ## Asset identity and information
 
-The public catalogue contains 119 individually identified software and research IP assets. Each asset has one current TA-IP reference, canonical project title and feminine reference name. Individual presentations link to the asset dossier, factsheet PDF and product brief. Compatibility routes preserve earlier links without creating additional assets. Public repositories, publication infrastructure and seller-excluded literary archives are excluded from the asset count. All 119 current catalogue identities are linked to verified private source identities.
+The public catalogue contains 123 individually identified software and research IP assets. Each asset has one current TA-IP reference, canonical project title and feminine reference name. Individual presentations link to the asset dossier, factsheet PDF and product brief. Compatibility routes preserve earlier links without creating additional assets. Public repositories, publication infrastructure and seller-excluded literary archives are excluded from the asset count. All 123 projects are linked to distinct private repositories. Source-side identity records confirm 121 portfolio assignments. TA-IP-122 and TA-IP-123 retain provisional portfolio aliases.
 
 ## Financial references
 
 All eight financial references are presented in EUR and indicative USD, with a dated exchange rate, stated cost assumptions, conditional scenarios and reproducible arithmetic. Individual asking references are seller inputs. Recreation estimates are assumed equivalent engineering costs, not recorded expenditure or an absolute minimum. Market value is not established; final consideration depends on the agreed work, rights and delivery. Portfolio totals are sums of individual references, not an agreed package price.
+
+The 10 November 2026 review records 12 scoped asking-price increments, four initial prices and 107 retained references. The sum of individual asking prices is EUR 25,153,000. [Read the individual source and price decisions](AUDIT_2026-11-10.md).
 
 ## Controlled acquisition review
 

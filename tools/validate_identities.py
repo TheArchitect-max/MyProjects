@@ -16,13 +16,20 @@ class IdentityPage(HTMLParser):
 
 def validate(snapshot=None):
  catalogue=json.loads((ROOT/'assets/buyer-catalogue.json').read_text());assets=catalogue['projects'];by_ref={a['ref']:a for a in assets}
- assert len(assets)==len(by_ref)==len({a['referenceName'].casefold() for a in assets})==119
+ assert len(assets)==len(by_ref)==len({a['referenceName'].casefold() for a in assets})==123
  assert all(re.fullmatch(r'TA-IP-\d{3}',a['ref']) for a in assets)
  assert (by_ref['TA-IP-095']['title'],by_ref['TA-IP-095']['referenceName'],by_ref['TA-IP-095']['slug'])==('Evidence-Governed Intelligence Platform','Ivy','evidence-governed-intelligence-platform')
- assert set(by_ref)=={'TA-IP-'+str(i).zfill(3) for i in range(1,120)},'Asset IDs must be consecutive TA-IP-001 through TA-IP-119'
- mapping=json.loads((ROOT/'displays/project-map.json').read_text())['projects'];maps={a['ref']:a for a in mapping};assert set(maps)==set(by_ref)
+ assert set(by_ref)=={'TA-IP-'+str(i).zfill(3) for i in range(1,124)},'Asset IDs must be consecutive TA-IP-001 through TA-IP-123'
+ mapping=json.loads((ROOT/'displays/project-map.json').read_text())['projects'];maps={a['ref']:a for a in mapping}
+ ledger=json.loads((ROOT/'assets/portfolio-identity-ledger.json').read_text());registered=ledger['assets'];by_register={a['id']:a for a in registered}
+ assert len(registered)==len(by_register)==len({a['alias'].casefold() for a in registered})==123
+ assert set(by_register)=={'TA-IP-'+str(i).zfill(3) for i in range(1,124)}
+ extra=set(by_register)-set(by_ref)
+ assert extra==set()
+ assert len(mapping)==len(maps)==123 and set(maps)==set(by_register)
+ assert all(maps[ref]['referenceName']==by_register[ref]['alias'] for ref in by_register)
  with (ROOT/'displays/identity-register.csv').open(encoding='utf-8-sig',newline='') as f:csv_rows=list(csv.DictReader(f))
- rows={r['Asset_ID']:r for r in csv_rows};assert len(csv_rows)==len(rows)==119 and set(rows)==set(by_ref)
+ rows={r['Asset_ID']:r for r in csv_rows};assert len(csv_rows)==len(rows)==123 and set(rows)==set(by_register)
  for a in assets:
   m=maps[a['ref']];r=rows[a['ref']]
   assert (m['title'],m['referenceName'],m['url'],m['profileUrl'])==(a['title'],a['referenceName'],a['displayUrl'],a['profileUrl'])
@@ -33,7 +40,19 @@ def validate(snapshot=None):
   assert page.canonical==a['displayUrl'],a['ref']
   brief=(folder/'product-brief.md').read_text();assert a['ref']+' | Reference name: '+a['referenceName'] in brief
   first=PdfReader(folder/'factsheet.pdf').pages[0].extract_text();assert a['ref']+' / '+a['referenceName'] in first,a['ref']
- homepage=(ROOT/'assets/im.js').read_text();assert 'Project displays' in homepage and 'identities.html' in homepage
+ for ref in sorted(extra):
+  a=by_register[ref];m=maps[ref];r=rows[ref]
+  assert (m['title'],m['referenceName'],m['slug'],m['url'],m['profileUrl'])==(a['title'],a['alias'],a['slug'],a['displayUrl'],a['profileUrl'])
+  assert (r['Canonical_project_title'],r['Feminine_name'],r['Project_display'],r['Asset_dossier'],r['Product_brief'])==(a['title'],a['alias'],a['displayUrl'],a['profileUrl'],m['briefUrl'])
+  assert not r['Factsheet_PDF'] and m.get('factsheetUrl') is None and m.get('priceReferenceStatus')=='NOT_QUOTED'
+  folder=ROOT/'displays/products'/a['slug'];page=IdentityPage((folder/'index.html').read_text())
+  assert (page.meta['asset-reference'],page.meta['asset-alias'],page.canonical,page.body['data-project-ref'])==(ref,a['alias'],a['displayUrl'],ref)
+  brief=(folder/'product-brief.md').read_text()
+  assert ref+' | Reference name: '+a['alias'] in brief
+  assert (ROOT/'projects'/a['slug']/'index.html').is_file()
+ assert len(re.findall(r'class="asset-card"',(ROOT/'displays/index.html').read_text()))==123
+ assert (ROOT/'portfolio-register.html').is_file()
+ homepage=(ROOT/'assets/im.js').read_text();assert 'Project displays' in homepage and 'identities.html' in homepage and 'portfolio-register.html' in homepage
  # Contribution information is public; no wallet-launch or checkout URI is used.
  assert not re.search(r'bitcoin:',homepage,re.I)
  for name,target in {'development.html':'contribution.html','opportunity.html':'acquisition.html'}.items():
@@ -43,7 +62,7 @@ def validate(snapshot=None):
  source_count=0;unavailable_count=0
  if snapshot:
   audit=json.loads(snapshot.read_text());records=audit['assets'];repo_ids={a['repositoryId'] for a in records}
-  assert len(records)==len(repo_ids)==119 and {r['ref'] for r in records}==set(by_ref)
+  assert len(records)==len(repo_ids)==123 and {r['ref'] for r in records}==set(by_ref)
   unavailable=[r for r in records if r.get('currentSourceStatus')=='UNAVAILABLE']
   assert not unavailable and all(r.get('currentSourceStatus')=='VERIFIED' for r in records),'Every current catalogue asset must have a verified source identity'
   unavailable_count=len(unavailable)
@@ -83,7 +102,7 @@ def validate(snapshot=None):
    if p['name'] in ['MyProjects','Projects-Displays']:
     local=ROOT if p['name']=='MyProjects' else ROOT.parent/'Projects-Displays'
     assert json.loads((local/'PUBLICATION_IDENTITY.json').read_text())==i
- return dict(result='PASS',assetIdentities=119,uniqueFeminineNames=119,displayAndDossierLinks=238,pdfIdentitiesChecked=119,briefIdentitiesChecked=119,identityCsvRows=119,sourceRepositoryIdentitiesChecked=source_count,unavailableSourceEntries=unavailable_count,publicationRepositoriesExcludedFromAssetCount=3,consecutiveNumbering=True,identifierGaps=[],legacyContributionRoutesRedirect=True)
+ return dict(result='PASS',assetIdentities=123,uniqueFeminineNames=123,displayAndDossierLinks=246,pdfIdentitiesChecked=123,briefIdentitiesChecked=123,identityCsvRows=123,verifiedSourceIdentities=121,provisionalSourceIdentities=2,sourceRepositoryIdentitiesChecked=source_count,unavailableSourceEntries=unavailable_count,publicationRepositoriesExcludedFromAssetCount=3,consecutiveNumbering=True,identifierGaps=[],legacyContributionRoutesRedirect=True)
 
 if __name__=='__main__':
  p=argparse.ArgumentParser(description=__doc__);p.add_argument('--repository-snapshot',type=Path);a=p.parse_args();print(json.dumps(validate(a.repository_snapshot),indent=2))

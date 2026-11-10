@@ -1,10 +1,14 @@
 # Advanced General-Purpose AI Systems Platform
 
-TA-IP-013 | Reference name: Thalia | AI & decision software
+TA-IP-013 | Reference name: Thalia
+
+Assessment date: 2026-11-10
+
+## Product overview
 
 A proprietary AI research and training-control platform with a deterministic core, reviewed model inputs, optional training workers and bounded adapter/checkpoint verification.
 
-## Product overview
+Identified edition: 5.8.0-alpha.1 / current canonical product identity
 
 A proprietary AI research and training-control platform with a deterministic core, reviewed model inputs, optional training workers and bounded adapter/checkpoint verification.
 
@@ -22,221 +26,77 @@ A proprietary AI research and training-control platform with a deterministic cor
 - Verify low-rank adapter export and merge equivalence
 - Retain resumable checkpoint and provenance records
 
-## Available output types
+## Output types
 
 - Study records
 - Candidate comparisons
 - Model-governance dossiers
 
-## Current offered position
-
-Developed software. Existing software offered for evaluation against an agreed use and delivery scope.
-
-Available for acquisition discussion.
+## Material scope boundaries
 
 - The current local CPU suite passes its executed tests with the optional CPU training dependency installed. Built-in model and data fixtures are deliberately small verification assets.
 - Earlier source-specific CUDA records retain their original scope. Current adapter CUDA/Drive acceptance, larger-model quality and independent comparative performance remain open.
 - The new product name preserves TA-IP-013 and Thalia. No frontier-model capability, autonomous scientific success or deployed service is established.
 
-## Acquisition reference
+## Acquisition evidence profile
 
-Seller asking reference: EUR 310,000.
+- Technical scope: V — A proprietary AI research and training-control platform with a deterministic core, reviewed model inputs, optional training workers and bounded adapter/checkpoint verification. The offered edition and material boundaries govern review.
+- Evidence and validation: E4 — The current local CPU suite passes its executed tests with the optional CPU training dependency installed. Built-in model and data fixtures are deliberately small verification assets. Independent recipient and intended-use acceptance remain separate.
+- Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
+- Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
+- Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
-Acquisition of the specifically agreed first-party work product and transferable rights, AS IS. The asking reference is a seller choice, not an independent market appraisal. Final delivery, rights, acceptance, consideration and taxes require a separate written agreement.
+Offered first-party scope: The previously priced first-party training-control and bounded adapter/checkpoint implementation is retained once. The current change is product naming and packaging metadata; it receives no monetary premium. External model weights, data rights, CUDA qualification, frontier performance and operating services remain excluded.
 
-## Offered first-party scope
+Development: No separate open candidate at the reviewed snapshot.
 
-- The specifically agreed first-party software or research work product
-- Associated first-party product documentation and retained evaluation material
-- The expressly agreed transferable first-party rights
-
-## Separately scoped or excluded
-
-- Third-party software, data, media, models and service entitlements beyond their own terms
-- Personal, customer and author content, private accounts and credentials
-- Future development, hosting, hardware, support and operating businesses unless expressly agreed
-
-## Buyer information and enquiry
-
-Asset profile: https://thearchitect-max.github.io/MyProjects/projects/advanced-general-purpose-ai-systems-platform/
-
-Factsheet: https://thearchitect-max.github.io/MyProjects/displays/products/advanced-general-purpose-ai-systems-platform/factsheet.pdf
-
-Quote TA-IP-013 and the project title when discussing your intended use and requested scope through the verified seller contact channel supplied with this portfolio. Detailed diligence is shared through an agreed review process.
-
-Buyer profiles describe potential fit; no existing customer, contract or commercial outcome is implied. Public viewing and receipt of this document do not grant rights in the underlying software.
-
-© 2026 THEARCHITECT_MAX. First-party rights reserved.
-
-## Product edition and acquisition dossier
-
-Identified product edition: 5.8.0-alpha.1 / current canonical product identity
-
-Handover position: Conditional handover
-
-A proprietary AI research and training-control platform with a deterministic core, reviewed model inputs, optional training workers and bounded adapter/checkpoint verification.
-
-### Priced first-party scope
-
-The previously priced first-party training-control and bounded adapter/checkpoint implementation is retained once. The current change is product naming and packaging metadata; it receives no monetary premium. External model weights, data rights, CUDA qualification, frontier performance and operating services remain excluded.
-
-### Offered work and qualification
-
-A proprietary AI research and training-control platform with a deterministic core, reviewed model inputs, optional training workers and bounded adapter/checkpoint verification.
-
-- The current local CPU suite passes its executed tests with the optional CPU training dependency installed. Built-in model and data fixtures are deliberately small verification assets.
-- Earlier source-specific CUDA records retain their original scope. Current adapter CUDA/Drive acceptance, larger-model quality and independent comparative performance remain open.
-- The new product name preserves TA-IP-013 and Thalia. No frontier-model capability, autonomous scientific success or deployed service is established.
-
-### Acquisition evidence profile
-
-| Criterion | Profile | Meaning for your review |
-| --- | --- | --- |
-| Technical scope | V | A proprietary AI research and training-control platform with a deterministic core, reviewed model inputs, optional training workers and bounded adapter/checkpoint verification. The stated edition and material boundaries govern review. |
-| Evidence and validation | E4 | The current local CPU suite passes its executed tests with the optional CPU training dependency installed. Built-in model and data fixtures are deliberately small verification assets. Independent recipient and intended-use acceptance remain separate. |
-| Rights and component obligations | R2 | R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter. |
-| Commercial basis | C2 | Seller ask and reproducible economic reference established. Market value is not established. |
-| Delivery and handover | T3 | T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance. |
-
-### Conditions before handover
+## Conditions before handover
 
 - Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
 - A detailed component inventory and licensing report are required for the agreed delivery scope.
 - A security assessment or an explicit statement of its absence is required before acceptance.
 - An explicit delivery manifest and handover scope remain to be agreed.
 
-### Qualification objectives
+## Qualification objectives
 
 - Larger reviewed model/data experiments and independent task benchmarks for your intended use.
 - Independent legal ownership/title opinion not performed by this internal audit.
 - Freedom-to-operate legal opinion not performed unless separately evidenced.
 - Independent penetration test not assumed unless separately evidenced.
 
-### Rights and components
+## Prices and sources
 
-The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.
-
-Documentary indicators support initial diligence. Identified files do not establish complete licence clearance, a complete component inventory, an independent security assessment or buyer acceptance.
-
-- Dependency declaration: identified
-- Dependency lock record: not established in reviewed records
-- Component inventory artifact: not established in reviewed records
-- Licence notices: identified
-- Third-party disclosure: identified
-- Security documentation: not established in reviewed records
-
-### Potential applications
-
-- [Learning model research and comparison](https://thearchitect-max.github.io/MyProjects/connections.html#learning-model-research): Manage reviewed AI training studies and model candidates.
-
-Proposed applications require separate interfaces, integration and joint qualification; they are not delivered integrated products.
-
-Grade definitions: https://thearchitect-max.github.io/MyProjects/assurance.html#criteria
-
-Rights and delivery guide: https://thearchitect-max.github.io/MyProjects/transfer.html
-
-
-## Complete prices and economic references
-
-Basis: 2026-11-03. All amounts in EUR. Market value is not established.
-
-| Reference | EUR | USD - indicative |
-| --- | ---: | ---: |
-| Seller asking reference | 310,000 | 347,696 |
-| Negotiation reference - low | 248,000 | 278,157 |
-| Negotiation reference - high | 388,000 | 435,181 |
-| Recreation cost estimate | 1,040,000 | 1,166,464 |
-| Marketability cost scenario | 1,315,600 | 1,475,577 |
-| Monetisation cost scenario | 1,544,400 | 1,732,199 |
-| Risk-adjusted strategic reference | 1,327,356 | 1,488,762 |
-| Weighted economic reference | 1,296,575 | 1,454,239 |
-
-USD = EUR × 1.1216, rounded half-up to whole USD. ECB date: 2026-11-02. EUR is authoritative.
-
-- Seller asking reference: Indicative acquisition asking price for the defined AS IS asset.
-- Negotiation reference - low: Lower end of the indicative seller negotiation range for the defined AS IS asset.
-- Negotiation reference - high: Upper end of the indicative seller negotiation range for the defined AS IS asset.
-- Recreation cost estimate: Seller estimate to reproduce comparable present work; not recorded expenditure or an established market value.
-- Marketability cost scenario: Cost-based model scenario; no observed comparable IP sale is used.
-- Monetisation cost scenario: Cost-based model scenario; no attributable income, royalty valuation or DCF is established.
-- Risk-adjusted strategic reference: Cost-based opportunity scenario with stated seller-selected factors.
-- Weighted economic reference: Weighted blend of correlated cost scenarios; not an independent appraisal.
-
-Milestone-conditioned reference: Not established. No independently supported higher maturity amount or new attributable market/income evidence is established.
-
-This is a conditional model sensitivity, not a current asking price, forecast or market value.
-
-### Cost basis
+| Reference | EUR | Indicative USD |
+|---|---:|---:|
+| Seller asking reference | 310,000 | 347,634 |
+| Negotiation reference - low | 248,000 | 278,107 |
+| Negotiation reference - high | 388,000 | 435,103 |
+| Recreation cost estimate | 1,040,000 | 1,166,256 |
+| Marketability cost scenario | 1,315,600 | 1,475,314 |
+| Monetisation cost scenario | 1,544,400 | 1,731,890 |
+| Risk-adjusted strategic reference | 1,327,356 | 1,488,497 |
+| Weighted economic reference | 1,296,575 | 1,453,979 |
 
 Some dated work-package assumptions are disclosed, but they do not reconstruct the complete retained recreation anchor. A complete scope-specific budget is required. Review on 2026-11-03: The previously priced first-party training-control and bounded adapter/checkpoint implementation is retained once. The current change is product naming and packaging metadata; it receives no monetary premium. External model weights, data rights, CUDA qualification, frontier performance and operating services remain excluded.
 
-### Financial assessment
+Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
 
-Partial scoped budget; retained anchor remains provisional. Assessed 2026-11-03.
+EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
 
-Explicit budgets cover part of the estimate. The retained anchor remains a low-confidence seller assumption requiring a delivery-specific work breakdown and external quotation.
+## Individual source review
 
-Only the work expressly described in the cost basis and scoped budgets is included. An edition label or development candidate does not automatically expand that scope.
+Source reports T4 CUDA v5.6 distillation exact-resume and repeated digest, with v5.8 CUDA checkpoint/report among next gates.
 
-#### Scoped work-package budget
+Remaining limits: Tiny rule-teacher and dataset only; no frontier-class foundation model, large-model performance or full v5.8 acceptance.
 
-Delivered first-party preference training and durable checkpoint/resume software, review assets, Colab verification and retained independent CUDA distillation evidence. Previously costed v5.6 distillation implementation is not counted again.
+Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
 
-- Reviewed preference-training workflow and first-party review assets
-- Durable checkpoint restore and identity checks
-- Retained CUDA qualification, reproducibility and documentation
+Documentary review only; private product tests were not re-executed in this website update.
 
-- Senior engineer months: 4
-- Lead or specialist months: 1
-- Validation provenance months: 3
-- Adopted recreation increment: EUR 150,000
-- Previous recreation cost: EUR 850,000
-- Resulting recreation cost: EUR 1,000,000
-- Raw engineering cost: EUR 142,000
-- With allowance: EUR 163,300
+The seller offers only the expressly agreed first-party rights it owns or controls, to the extent transferable. Third-party materials retain their own terms. Independent title and freedom-to-operate opinions are not established.
 
-Assumed engineering-equivalent reproduction budget, not actual hours, payroll, expenditure, elapsed development time or an independently certified appraisal.
+[Full dossier](https://thearchitect-max.github.io/MyProjects/projects/advanced-general-purpose-ai-systems-platform/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/advanced-general-purpose-ai-systems-platform/)
 
-#### Implemented scope budget
-
-Implemented first-party adaptation controls, reviewed fixtures and checkpoint lifecycle
-
-
-- Previous recreation cost: EUR 1,000,000
-- Current recreation cost: EUR 1,040,000
-- Senior engineer months: 1
-- Lead or specialist months: 0.25
-- Validation provenance months: 0.65
-- Raw engineering cost: EUR 33,900
-- With allowance: EUR 38,985
-- Adopted recreation cost: EUR 40,000
-
-Engineering-equivalent reproduction assumption; no test-count, file-count, revenue or unexecuted-qualification premium.
-
-Scope budgets can overlap. Use the stated cost anchor and calculation method; do not add overlapping budgets.
-
-### Sources
-
-Project-specific prices are seller choices and model outputs; external publishers inform method, rates and currency only.
-
-- [WIPO - Intellectual Property Valuation Basics — The cost method](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
-- [Knab - Software developer freelance rates in 2026](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): External Dutch rate cross-check. The retained EUR 100–137.50/hour role assumptions reflect an analyst-selected specialist budget and exceed this mean; the mean is not claimed to validate them.
-- [Upwork - Software developer hiring costs](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
-
-Indicative USD conversion: EUR 1 = USD 1.1216; ECB 2026-11-02. EUR remains authoritative.
-
-Full pricing method and source register: https://thearchitect-max.github.io/MyProjects/valuation.html#methodology
-
-Calculation inputs: {"stage": "V", "potential": "H", "sector": "AI, Decision & Knowledge Systems", "route": "Private deployment / enterprise licensing"}.
-
-Calculation validation: https://thearchitect-max.github.io/MyProjects/proof.html?v=calc12
-
-Asset-specific formulas: https://thearchitect-max.github.io/MyProjects/projects/advanced-general-purpose-ai-systems-platform/#calculation
-
-## Buyer-specific economic value and evaluation
-
-TA-IP-013 / Thalia / Advanced General-Purpose AI Systems Platform
-
-Assess the intended use against a credible build, licence or operating alternative. Support any time advantage, incremental cash flow or avoided costs, count each benefit once, and include remaining qualification, integration, rights and operating requirements. The published references describe their stated scope and assumptions; a separately evidenced buyer-specific case may support different consideration. No strategic premium, independently established market value or guaranteed transaction ceiling/floor is asserted.
-
-Buyer-value framework, scenario requirements and source context: https://thearchitect-max.github.io/MyProjects/valuation.html#buyer-value
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
+- [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
