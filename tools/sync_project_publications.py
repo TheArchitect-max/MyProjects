@@ -5,6 +5,7 @@ Run after pricing-calculation updates; PDF output is deterministic.
 """
 from pathlib import Path
 from html import escape as E
+from decimal import Decimal
 import json,re,csv
 R=Path(__file__).resolve().parents[1]; BASE='https://thearchitect-max.github.io/MyProjects/'
 def read(n):return json.loads((R/n).read_text())
@@ -12,6 +13,32 @@ def write(n,d):(R/n).write_text(json.dumps(d,indent=2,ensure_ascii=False)+'\n')
 def ul(xs):return '<ul>'+''.join('<li>'+E(str(x))+'</li>' for x in xs)+'</ul>'
 def money(n):return f'EUR {n:,}'
 def dollars(n):return f'USD {n:,}'
+
+def subscription_scenario_html():
+    """Render the fixed illustrative assumptions independently of seller prices."""
+    products = 123
+    customers_per_product = 100
+    monthly_price = Decimal("9.99")
+    monthly_revenue = products * customers_per_product * monthly_price
+    annual_revenue = monthly_revenue * 12
+
+    def euro(amount):
+        return f"€{amount:,.2f}".removesuffix(".00")
+
+    return f"""
+<section class="details" id="subscription-scenario" aria-labelledby="subscription-scenario-heading">
+  <h2 id="subscription-scenario-heading">Hypothetical portfolio scenario</h2>
+  <p>Suppose all {products} software products are live for a full year. Each product averages {customers_per_product} paying customers at {euro(monthly_price)} per customer per month.</p>
+  <div class="stats">
+    <div class="stat">Software products<strong>{products}</strong></div>
+    <div class="stat">Average paying customers per product<strong>{customers_per_product}</strong></div>
+    <div class="stat">Gross monthly subscription revenue<strong>{euro(monthly_revenue)}</strong><small class="muted">{products} × {customers_per_product} × {euro(monthly_price)}</small></div>
+    <div class="stat">Gross annual subscription revenue<strong>{euro(annual_revenue)}</strong><small class="muted">{euro(monthly_revenue)} × 12 months</small></div>
+  </div>
+  <p>All amounts exclude VAT and are shown before operating costs and taxes. This calculation is for illustration only and does not constitute a revenue forecast. There is no guarantee of customers or revenue.</p>
+</section>
+"""
+
 c=read('assets/buyer-catalogue.json');d=read('assets/buyer-dossiers.json');p=read('assets/pricing-catalogue.json');review=read('assets/portfolio-reassessment-20261107.json');ledger=read('assets/portfolio-identity-ledger.json')
 D={x['ref']:x for x in d['projects']};P={x['ref']:x for x in p['projects']};Q={x['id']:x for x in review['assessments']};CAT={x['id']:x['title'] for x in c['categories']};date=p['basisDate'];fx=p['displayCurrency'];template=(R/'displays/products/collective-reality-engine/index.html').read_text();original=next(x for x in c['projects'] if x['ref']=='TA-IP-103')
 def section(id,eyebrow,title,body):return '<section id="'+id+'" class="split-section"><div><p class="eyebrow">'+eyebrow+'</p><h2>'+title+'</h2></div><div>'+body+'</div></section>'
@@ -104,7 +131,7 @@ for filename,attr in [('portfolio-register.html','data-search'),('portfolio-eval
  if 'pricing' in filename:
   start=s.index('<main>');tablepos=s.index('<div class="table',start)
   # Audit page has no product flow changes; remove stale dated-price assertions from its preamble.
-  prefix='<main><p class="muted">INDIVIDUAL SOURCE AND PRICE REVIEW · 10 NOVEMBER 2026</p><h1>Portfolio-wide financial reference review</h1><p>123 separately reviewed projects: 12 scoped price increments, 107 retained references and four initial bounded estimates. Source-reported tests remain distinct from fresh website validation. No independent market appraisal is established.</p><div class="stats"><div class="stat"><strong>'+money(p['portfolio']['sellerAskEUR'])+'</strong>Sum of 123 individual asking references; not a package offer</div><div class="stat"><strong>'+dollars(p['portfolioUSD']['sellerAskUSD'])+'</strong>Indicative USD; ECB '+fx['date']+'</div><div class="stat"><strong>'+money(p['portfolio']['replacementCostEUR'])+'</strong>Seller recreation estimate, not expenditure</div></div><section class="details"><h2>Price assumptions and limits</h2><p>New scoped budgets use assumed hours at EUR 94/hour, a 15% coordination allowance and recreation increments rounded down to EUR 500. The asking increment is 30% of that adopted increment, rounded down to EUR 500. These effort and discount choices are seller assumptions. Older anchors remain at their disclosed confidence levels; versions, passing test counts and future ambitions alone receive no price premium.</p><p>Budget coverage: '+E(str(financial['coverage']))+'. Market value, transferable rights and buyer acceptance remain separate. Prior 8 November session files are historical snapshots superseded by this review for current project prices.</p><p>EUR 1 = USD '+str(fx['rate'])+'; ECB '+fx['date']+'.</p></section><label for="search">Filter projects</label><input id="search" type="search" placeholder="Project or reference"><p id="result" role="status">123 projects</p><section>'
+  prefix='<main><p class="muted">INDIVIDUAL SOURCE AND PRICE REVIEW · 10 NOVEMBER 2026</p><h1>Portfolio-wide financial reference review</h1><p>123 separately reviewed projects: 12 scoped price increments, 107 retained references and four initial bounded estimates. Source-reported tests remain distinct from fresh website validation. No independent market appraisal is established.</p><div class="stats"><div class="stat"><strong>'+money(p['portfolio']['sellerAskEUR'])+'</strong>Sum of 123 individual asking references; not a package offer</div><div class="stat"><strong>'+dollars(p['portfolioUSD']['sellerAskUSD'])+'</strong>Indicative USD; ECB '+fx['date']+'</div><div class="stat"><strong>'+money(p['portfolio']['replacementCostEUR'])+'</strong>Seller recreation estimate, not expenditure</div></div><section class="details"><h2>Price assumptions and limits</h2><p>New scoped budgets use assumed hours at EUR 94/hour, a 15% coordination allowance and recreation increments rounded down to EUR 500. The asking increment is 30% of that adopted increment, rounded down to EUR 500. These effort and discount choices are seller assumptions. Older anchors remain at their disclosed confidence levels; versions, passing test counts and future ambitions alone receive no price premium.</p><p>Budget coverage: '+E(str(financial['coverage']))+'. Market value, transferable rights and buyer acceptance remain separate. Prior 8 November session files are historical snapshots superseded by this review for current project prices.</p><p>EUR 1 = USD '+str(fx['rate'])+'; ECB '+fx['date']+'.</p></section>'+subscription_scenario_html()+'<label for="search">Filter projects</label><input id="search" type="search" placeholder="Project or reference"><p id="result" role="status">123 projects</p><section>'
   s=s[:start]+prefix+s[tablepos:];s=s.replace('Historical seller ask · EUR / updated USD','Current seller reference · EUR / indicative USD')
  s=s.replace('Four projects are deliberately unquoted. ', '').replace('Four unpriced assets include two provisionally assigned source identities','Two portfolio aliases await source-side registration')
  file.write_text(s)
