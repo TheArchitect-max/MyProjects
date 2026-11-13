@@ -1,0 +1,30 @@
+name: Validate public display calculator against 123 assets
+
+on:
+  push:
+    branches:
+      - maintenance/pricing-math-display-123-consistency-20261113
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  arithmetic-and-mirror:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Validate official financial arithmetic
+        run: node tools/validate_pricing_math.cjs
+      - name: Validate copied display calculator and public values
+        run: node tools/validate_display_publication_math.cjs
+      - name: Verify CI did not alter the publication
+        run: |
+          git diff --exit-code
+          test -z "$(git status --porcelain --untracked-files=all)"
