@@ -136,6 +136,8 @@ for filename,attr in [('portfolio-register.html','data-search'),('portfolio-eval
  s=s.replace('Four projects are deliberately unquoted. ', '').replace('Four unpriced assets include two provisionally assigned source identities','Two portfolio aliases await source-side registration')
  file.write_text(s)
 for file in ['buyer-catalogue.json','buyer-dossiers.json','pricing-catalogue.json']:(R/'displays/assets'/file).write_bytes((R/'assets'/file).read_bytes())
+# The published calculator must be identical to the 123-asset canonical calculator.
+(R/'displays/assets/pricing-math.js').write_bytes((R/'assets/pricing-math.js').read_bytes())
 for alias in read('assets/route-aliases.json')['aliases']:
  target=R/'displays/products'/alias['legacySlug']/'product-brief.md'
  if target.exists():target.write_bytes((R/'displays/products'/alias['slug']/'product-brief.md').read_bytes())
