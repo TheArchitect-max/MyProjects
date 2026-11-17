@@ -257,8 +257,15 @@
         "FULL_SCOPED_BUDGET": 26
       },
       "budgetCoverageBoundary": "Coverage describes the arithmetic and stated scope of seller budgets, not external price validation or whole-product production acceptance.",
-      "portfolioBoundary": "Portfolio figures sum 123 separate seller references; they are not an agreed package price.",
+      "portfolioBoundary": "Portfolio totals sum separate individual seller references. The full-portfolio asking offer applies a fixed 10% discount to the sum of current individual asking references, subject to agreed availability, scope, rights and written terms.",
       "developmentRecognition": "Implemented, bounded, non-overlapping work can receive an explicit incremental reproduction estimate. Renames, version numbers, elapsed days, pending proposals and additional test counts alone do not determine monetary value."
+    },
+    "fullPortfolioOffer": {
+      "discountPercent": 10,
+      "basis": "SUM_CURRENT_INDIVIDUAL_SELLER_ASKS",
+      "scope": "ALL_LISTED_PROJECTS_SINGLE_TRANSACTION",
+      "rounding": "HALF_UP_WHOLE_EUR",
+      "effectiveDate": "2026-11-17"
     }
   },
   "projects": [

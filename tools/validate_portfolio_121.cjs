@@ -27,7 +27,7 @@ assert.equal(review.summary.projectSpecificSourceDeskReviews,123);assert.equal(r
 assert.equal(math.verifyCatalogue(pricing).status,'PASS');assert.equal(pricing.displayCurrency.rate,1.1214);assert.equal(pricing.displayCurrency.date,'2026-11-10');assert.deepEqual(financial.coverage,pricing.methodology.reassessment.budgetCoverage);
 for(const [page,pattern] of [['displays/index.html',/class="asset-card"/g],['portfolio-register.html',/<tr data-search=/g],['portfolio-evaluation.html',/<tr data-filter=/g],['portfolio-pricing-review.html',/<tr data-search=/g]])assert.equal((read(page).match(pattern)||[]).length,123);
 for(const file of ['buyer-catalogue.json','buyer-dossiers.json','pricing-catalogue.json','evaluation-sources.json','calculation-validation.json'])assert.equal(read('assets/'+file),read('displays/assets/'+file));
-assert(read('index.html').includes('showroom35-projects-20261110'));new Function(read('assets/im.js'));new Function(read('displays/assets/exhibition.js'));
+assert(read('index.html').includes('showroom36-package-20261117'));new Function(read('assets/im.js'));new Function(read('displays/assets/exhibition.js'));
 // Older source/price sessions must reconcile to the preceding amounts, not overwrite the new assessment.
 for(const phase of ['S02','S03','S04'])for(const h of json('assets/source-price-session-20261108-'+phase+'.json').projects){const r=review.assessments.find(x=>x.id===h.assetId);assert.equal(h.datedSellerAskEUR,r.previousAskingReferenceEUR);}
 console.log(JSON.stringify({status:'PASS',assets:123,decisions,individualSourcePins:123,privateSourceReexecutions:0,marketValueEstablished:false},null,2));
