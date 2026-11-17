@@ -24,6 +24,8 @@ jobs:
         run: node tools/validate_pricing_math.cjs
       - name: Validate copied display calculator and public values
         run: node tools/validate_display_publication_math.cjs
+      - name: Validate full-portfolio offer and enquiry scope
+        run: node tools/validate_full_portfolio_offer.cjs
       - name: Verify CI did not alter the publication
         run: |
           git diff --exit-code

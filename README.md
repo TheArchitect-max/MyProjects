@@ -16,7 +16,7 @@ The public catalogue contains 123 individually identified software and research 
 
 ## Financial references
 
-All eight financial references are presented in EUR and indicative USD, with a dated exchange rate, stated cost assumptions, conditional scenarios and reproducible arithmetic. Individual asking references are seller inputs. Recreation estimates are assumed equivalent engineering costs, not recorded expenditure or an absolute minimum. Market value is not established; final consideration depends on the agreed work, rights and delivery. Portfolio totals are sums of individual references, not an agreed package price.
+All eight financial references are presented in EUR and indicative USD, with a dated exchange rate, stated cost assumptions, conditional scenarios and reproducible arithmetic. Individual asking references are seller inputs. Recreation estimates are assumed equivalent engineering costs, not recorded expenditure or an absolute minimum. Market value is not established; final consideration depends on the agreed work, rights and delivery. Portfolio totals are sums of individual references. The full-portfolio asking offer applies a fixed **10% discount** to the sum of current individual asking references for all listed projects acquired in one transaction. The amount updates with the catalogue. Selected groups are quoted separately, and availability, scope, rights and final consideration require written agreement.
 
 The 10 November 2026 review records 12 scoped asking-price increments, four initial prices and 107 retained references. The sum of individual asking prices is EUR 25,153,000. [Read the individual source and price decisions](AUDIT_2026-11-10.md).
 
@@ -31,5 +31,14 @@ Connections describe proposed workflows, not delivered integrations or additiona
 The website is a static presentation of professional services and software-IP acquisition opportunities. It does not run the underlying products, host accounts, submit enquiries or process payments. Enquiry controls prepare drafts locally. The original visual style, artwork and optional music remain part of the presentation.
 
 Repository tools verify identity consistency, documents, complete prices, disclosed arithmetic, sources, public disclosure boundaries and internal links. Website checks do not independently certify the underlying products or establish legal title, market value or production acceptance.
+
+
+## Full-portfolio asking offer
+
+The policy is defined in `assets/pricing-catalogue.json` under `methodology.fullPortfolioOffer`. `PricingMath.fullPortfolioOffer()` sums the current project asking references, checks them against the published total and applies the fixed percentage. Integer arithmetic rounds the package price once to the nearest whole euro, with half-euro amounts rounded up. The displayed saving is the combined individual total minus that rounded price. USD amounts use the existing dated catalogue exchange rate.
+
+The same calculation supplies the home, pricing and acquisition pages, the local enquiry draft, the generated pricing review and the calculation-validation report. The pricing review generator invokes the canonical JavaScript calculator, so the static page also works without JavaScript. The separate hypothetical subscription scenario is unchanged and does not determine the acquisition price.
+
+After editing catalogue prices, regenerate publications with `python tools/sync_project_publications.py`, rebuild the calculation report with `node tools/build_calculation_check.cjs`, and validate the maths and public pages. `python tools/build_pages.py` maintains the page shells and versioned script references. The full-portfolio tests cover future price updates, rounding, scope selection and consistency across published surfaces.
 
 © 2026 THEARCHITECT_MAX. First-party rights reserved.

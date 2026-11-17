@@ -149,7 +149,7 @@ Any defensible commercial valuation should consider factors such as:
 - Legal transferability and contractual restrictions.
 - Independent technical assessment and buyer-specific strategic relevance.
 
-Repository count, development effort, architectural complexity, and projected applications are insufficient on their own to establish market value. The EUR 25,153,000 arithmetic sum of 123 dated seller asking references is not an independent market appraisal, package offer, transaction price or realized revenue; all 123 projects have individual asking references.
+Repository count, development effort, architectural complexity, and projected applications are insufficient on their own to establish market value. All 123 projects have dated individual seller asking references. Their combined total is the basis for the full-portfolio asking offer, which applies a fixed 10% discount when all listed projects are acquired in one transaction. The amount updates as individual asking references change. This seller pricing policy does not establish independently appraised market value, a completed transaction price or realized revenue. Availability, included editions, transferable rights and final consideration require due diligence and written agreement.
 
 Furthermore, strategic value to a particular prospective acquirer should be distinguished from generally realizable market value. Buyer-specific synergies, expected cost savings, and future business opportunities may influence negotiations but should not be presented as established financial outcomes without supporting evidence.
 

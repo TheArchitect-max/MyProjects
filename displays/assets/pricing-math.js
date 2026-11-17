@@ -7,6 +7,17 @@ function quoteEUR(amount,fx){
  if(!Number.isSafeInteger(product)||!Number.isSafeInteger(2*product+scale))throw Error('Currency precision exceeded');
  return Math.floor((2*product+scale)/(2*scale));
 }
+function fullPortfolioOffer(p){
+ const policy=p.methodology?.fullPortfolioOffer,projects=p.projects;
+ if(!policy||policy.basis!=='SUM_CURRENT_INDIVIDUAL_SELLER_ASKS'||policy.scope!=='ALL_LISTED_PROJECTS_SINGLE_TRANSACTION'||policy.rounding!=='HALF_UP_WHOLE_EUR'||!Number.isInteger(policy.discountPercent)||policy.discountPercent<=0||policy.discountPercent>=100)throw Error('Invalid full-portfolio pricing policy');
+ if(!Array.isArray(projects)||!projects.length||new Set(projects.map(a=>a.ref)).size!==projects.length)throw Error('Invalid full-portfolio project coverage');
+ let individualAskingTotalEUR=0;
+ for(const a of projects){const amount=a.values?.sellerAskEUR;if(typeof a.ref!=='string'||!a.ref||!Number.isSafeInteger(amount)||amount<0)throw Error('Invalid full-portfolio asking reference');individualAskingTotalEUR+=amount;if(!Number.isSafeInteger(individualAskingTotalEUR))throw Error('Full-portfolio precision exceeded');}
+ if(individualAskingTotalEUR!==p.portfolio?.sellerAskEUR)throw Error('Full-portfolio asking total mismatch');
+ // Round once after summing, using exact integer arithmetic. The saving reconciles to the displayed price.
+ const payablePercent=100-policy.discountPercent,packageAskingEUR=Number((BigInt(individualAskingTotalEUR)*BigInt(payablePercent)+50n)/100n);
+ return {projectCount:projects.length,discountPercent:policy.discountPercent,payablePercent,individualAskingTotalEUR,savingEUR:individualAskingTotalEUR-packageAskingEUR,packageAskingEUR};
+}
 function calculate(asset,factors,targetStage){
  const i=asset.calculationInputs,stage=targetStage||i.stage,p=i.potential,cost=asset.values.replacementCostEUR;
  const lookup=(group,key)=>{const n=factors[group]?.[key];if(typeof n!=='number'||!Number.isFinite(n)||n<0)throw Error('Invalid model factor');return n;};
@@ -42,7 +53,7 @@ function verifyCatalogue(p){
  if(p.schema!=='public-pricing-1'||p.projects.length!==123||new Set(p.projects.map(a=>a.ref)).size!==123)throw Error('Invalid pricing coverage');
  const projects=p.projects.map(a=>checkProject(a,p)),totals=FIELDS.map(k=>{const eur=p.projects.reduce((n,a)=>n+a.values[k],0),usd=quoteEUR(eur,p.displayCurrency),roundedSum=p.projects.reduce((n,a)=>n+a.valuesUSD[USD_KEY(k)],0);return {key:k,sumEUR:eur,publishedEUR:p.portfolio[k],convertedUSD:usd,publishedUSD:p.portfolioUSD[USD_KEY(k)],sumRoundedProjectUSD:roundedSum,usdRoundingDifference:usd-roundedSum,match:eur===p.portfolio[k]&&usd===p.portfolioUSD[USD_KEY(k)]};});
  const status=projects.every(a=>a.status==='PASS')&&totals.every(a=>a.match)?'PASS':'FAIL';
- return {schema:'pricing-calculation-check-1',basisDate:p.basisDate,status,scope:'Arithmetic consistency of disclosed seller inputs, model outputs, cost budgets, currency conversion and totals. This is not independent validation of assumed effort, market value, product performance, ownership or transfer readiness.',displayCurrency:p.displayCurrency,summary:{projects:projects.length,modelOutputs:projects.reduce((n,a)=>n+a.modelChecks.length,0),usdConversions:projects.reduce((n,a)=>n+a.usdChecks.length,0),costBudgets:projects.reduce((n,a)=>n+a.budgetChecks.length,0),conditionalReferences:projects.filter(a=>a.futureCheck.applicable).length,portfolioTotals:totals.length},totals,projects};
+ return {schema:'pricing-calculation-check-1',basisDate:p.basisDate,status,scope:'Arithmetic consistency of disclosed seller inputs, model outputs, cost budgets, currency conversion and totals. This is not independent validation of assumed effort, market value, product performance, ownership or transfer readiness.',displayCurrency:p.displayCurrency,summary:{projects:projects.length,modelOutputs:projects.reduce((n,a)=>n+a.modelChecks.length,0),usdConversions:projects.reduce((n,a)=>n+a.usdChecks.length,0),costBudgets:projects.reduce((n,a)=>n+a.budgetChecks.length,0),conditionalReferences:projects.filter(a=>a.futureCheck.applicable).length,portfolioTotals:totals.length},totals,fullPortfolioOffer:fullPortfolioOffer(p),projects};
 }
-return Object.freeze({FIELDS,DERIVED,quoteEUR,calculate,checkProject,verifyCatalogue});
+return Object.freeze({FIELDS,DERIVED,quoteEUR,fullPortfolioOffer,calculate,checkProject,verifyCatalogue});
 });

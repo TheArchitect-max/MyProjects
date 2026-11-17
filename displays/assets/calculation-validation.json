@@ -101,6 +101,14 @@
       "match": true
     }
   ],
+  "fullPortfolioOffer": {
+    "projectCount": 123,
+    "discountPercent": 10,
+    "payablePercent": 90,
+    "individualAskingTotalEUR": 25153000,
+    "savingEUR": 2515300,
+    "packageAskingEUR": 22637700
+  },
   "projects": [
     {
       "ref": "TA-IP-001",
@@ -14027,11 +14035,11 @@
   "publicFiles": {
     "pricingCatalogue": {
       "path": "assets/pricing-catalogue.json",
-      "sha256": "fd080ccaa71a914d24630f7f07ff4a7183363db5c7879d1a8ef411375b61d916"
+      "sha256": "04c8672e152bf414a427a682922f617170d18f3b9e97bc86fdc932fede48f5ae"
     },
     "calculationModule": {
       "path": "assets/pricing-math.js",
-      "sha256": "60597a2e71f6d54301a0c1c54631c30e20092e7e352b6ca7488f50069ec9b9b8"
+      "sha256": "f3a35c6d4ba1f90c513adb3bab30a888e3f596627eb1082ad4c7a6edd119af5a"
     }
   }
 }
