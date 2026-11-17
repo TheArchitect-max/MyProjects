@@ -33,3 +33,9 @@ Local validation passed for all 13 repository validators.
 Browser QA of the local publication confirmed the home and valuation offer, all three EUR amounts and dated USD equivalents, the full-portfolio CTA and preselected enquiry, the generated package draft, a separate individual draft at its original price, and the static financial review alongside the existing subscription example. The website changes use the existing styles. Local validation is recorded separately from GitHub CI and does not revalidate the underlying private products.
 
 Price-update instructions are maintained in the README. The calculation-validation reports contain the computed full-portfolio offer and hashes of the canonical calculator and pricing data.
+
+## Verified publication
+
+[PR #31](https://github.com/TheArchitect-max/MyProjects/pull/31) merged after [GitHub CI run 44174939783](https://github.com/TheArchitect-max/MyProjects/actions/runs/44174939783) passed the financial arithmetic, calculator mirror, full-portfolio offer, enquiry-scope and clean-checkout controls. The candidate commit was `5181efcf01ed5f771d1ec3bf7852b013dc6937df`.
+
+The verified implementation merge on main was `da5029d5dda6d436d446f497ca46f3cf2ff0d3c8`, with Git tree `ca9d80c444234ae733b0b69d824ec2199a41250f`, identical to the locally validated implementation tree. There were no open pull requests after the merge. [GitHub Pages deployment 44175018352](https://github.com/TheArchitect-max/MyProjects/actions/runs/44175018352) completed successfully for that merge. This publication record is the subsequent documentation update and does not change the application or its pricing data.
