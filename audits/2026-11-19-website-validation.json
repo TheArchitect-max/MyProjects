@@ -271,7 +271,7 @@
     "candidateRenderAndInteraction": "PASS - complete existing Node VM suite renders every project and exercises filters, prices, scoped enquiries and cache upgrade",
     "publishedBaseline": "Observed in real cloud Chrome before publication; existing visual layout and navigation confirmed",
     "localChromium": "NOT_RUN - execution sandbox cannot launch browser",
-    "updatedLivePublication": "POST_MERGE_VERIFICATION"
+    "updatedLivePublication": "PASS - cloud Chrome observed 128 projects, individual prices, main-only scope correction, renamed route, live display filter/local enquiry dialog and full-portfolio totals"
   },
   "ci": "Local CPU validation; no GitHub Actions PASS claimed or manually triggered",
   "inputs": {
@@ -282,5 +282,20 @@
     "assets/portfolio-identity-ledger.json": "c2c244da189ce8a777c76b9a175cfb3dab54170787e83c28c9fef1a0803fc06a",
     "assets/im.js": "fb5b7e9efb49441a58cef37e699252e19e93ac64b474c50ba822f9577f3473d4",
     "assets/pricing-math.js": "bbf588fc59d8c7d25fd4c437f991dc092a1416dd67c3f15f6fd914732e6356dd"
+  },
+  "firstPostMergeVerification": {
+    "mainCommit": "b35d4d2d22fa1c1081020db0fc43d87ec830a2f0",
+    "tree": "66eecd02c15b79e96c0db2fc44e9ae1805a0fc66",
+    "openPullRequests": 0,
+    "pagesRunId": 44496423171,
+    "pagesDeployment": "SUCCESS",
+    "browserChecks": "audits/2026-11-19-live-browser-checks.json",
+    "liveFileVerification": {
+      "status": "PASS",
+      "files": 136,
+      "pdfDownloads": 128,
+      "byteHashesMatched": 136,
+      "record": "audits/2026-11-19-live-file-verification.json"
+    }
   }
 }

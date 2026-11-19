@@ -1,0 +1,960 @@
+{
+  "status": "PASS",
+  "publishedSourceCommit": "b35d4d2d22fa1c1081020db0fc43d87ec830a2f0",
+  "pdfDownloadsChecked": 128,
+  "publishedFilesChecked": 136,
+  "files": [
+    {
+      "path": "assets/buyer-catalogue.json",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "8b104a38e12899ffe53cf1743b47d0f2f6b513cb53b43137bd106e97af6231ed",
+      "expectedSha256": "8b104a38e12899ffe53cf1743b47d0f2f6b513cb53b43137bd106e97af6231ed"
+    },
+    {
+      "path": "assets/buyer-dossiers.json",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "8c1560c4a45779625f32210af2785010711bce2e76acbadccac4735fa22c075d",
+      "expectedSha256": "8c1560c4a45779625f32210af2785010711bce2e76acbadccac4735fa22c075d"
+    },
+    {
+      "path": "assets/pricing-catalogue.json",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "b5799feadaf68261c8fe04a038bae14ebb081ee58d0f851f3b31da826bcb2cd3",
+      "expectedSha256": "b5799feadaf68261c8fe04a038bae14ebb081ee58d0f851f3b31da826bcb2cd3"
+    },
+    {
+      "path": "assets/calculation-validation.json",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "f7a8a2264200e42a23a9e05e450a735c5b93caa0cd0908902d8c59c17b8ea81c",
+      "expectedSha256": "f7a8a2264200e42a23a9e05e450a735c5b93caa0cd0908902d8c59c17b8ea81c"
+    },
+    {
+      "path": "displays/catalogue.csv",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "603604c2aa51199a00ef0d7b384740e21e28b3c6fb622820446487533c5373d8",
+      "expectedSha256": "603604c2aa51199a00ef0d7b384740e21e28b3c6fb622820446487533c5373d8"
+    },
+    {
+      "path": "displays/identity-register.csv",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "5b2ce91893949d0f8dadac80f243744de4f63c12488ff3b667f0765f7f294d77",
+      "expectedSha256": "5b2ce91893949d0f8dadac80f243744de4f63c12488ff3b667f0765f7f294d77"
+    },
+    {
+      "path": "displays/index.html",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "87e092da4820bd87f2ca8ac0a6516b592fd126a38c16d5dee0ccf6754a8f2824",
+      "expectedSha256": "87e092da4820bd87f2ca8ac0a6516b592fd126a38c16d5dee0ccf6754a8f2824"
+    },
+    {
+      "path": "portfolio-pricing-review.html",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "032c61b3191a5573df9c693ba2f9f266b9ab37866e8fe97a0ce92c96692ada13",
+      "expectedSha256": "032c61b3191a5573df9c693ba2f9f266b9ab37866e8fe97a0ce92c96692ada13"
+    },
+    {
+      "path": "displays/products/modular-aerospace-research-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "bd1e4dcdf43575d97e2f8c8b0045046a94b6f9d23649a6517c13c2b95535f320",
+      "expectedSha256": "bd1e4dcdf43575d97e2f8c8b0045046a94b6f9d23649a6517c13c2b95535f320"
+    },
+    {
+      "path": "displays/products/adaptive-network-resilience-intelligence-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "da3ce0c8f11f3a1a0b31c9fe19dc4d3d5e4825a91677e3bacd9f8aff3654eec7",
+      "expectedSha256": "da3ce0c8f11f3a1a0b31c9fe19dc4d3d5e4825a91677e3bacd9f8aff3654eec7"
+    },
+    {
+      "path": "displays/products/stabilitymesh/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "10ffdf017c82aac2764ba94f1d6d26fc86a6d1f8b0935289cdc085ad49e5260a",
+      "expectedSha256": "10ffdf017c82aac2764ba94f1d6d26fc86a6d1f8b0935289cdc085ad49e5260a"
+    },
+    {
+      "path": "displays/products/continuum-state-integrity-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "ec92468409a8d846ceb56795163a7a127e48e2f6878d3bfe0e572feef2dc91d1",
+      "expectedSha256": "ec92468409a8d846ceb56795163a7a127e48e2f6878d3bfe0e572feef2dc91d1"
+    },
+    {
+      "path": "displays/products/evidence-intelligence-operations-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "2cd7ac81b534a46d286216a2daa17cc01d4da9d63d941f166a7ff4f91c414482",
+      "expectedSha256": "2cd7ac81b534a46d286216a2daa17cc01d4da9d63d941f166a7ff4f91c414482"
+    },
+    {
+      "path": "displays/products/faunometric/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "63556a8d2520ef8f7dbdbddf6cd466883fb5ab36cc9e31a3569d17b821404ade",
+      "expectedSha256": "63556a8d2520ef8f7dbdbddf6cd466883fb5ab36cc9e31a3569d17b821404ade"
+    },
+    {
+      "path": "displays/products/modular-key-cryptanalysis-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "2fc5d286334780fea2be310e364c73a491b19d0c2d3629f5990a622acefae5ac",
+      "expectedSha256": "2fc5d286334780fea2be310e364c73a491b19d0c2d3629f5990a622acefae5ac"
+    },
+    {
+      "path": "displays/products/plant-environment-decision-intelligence-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "c85b905a01d7c049db6d5c625610b32c4d17905300ed3f543b942d87bee51aa1",
+      "expectedSha256": "c85b905a01d7c049db6d5c625610b32c4d17905300ed3f543b942d87bee51aa1"
+    },
+    {
+      "path": "displays/products/custody-integrity-assurance-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "a43d57603dfc8116fc3db8c450cb300f2fe0ad4115029b72d3cdceb30f787c99",
+      "expectedSha256": "a43d57603dfc8116fc3db8c450cb300f2fe0ad4115029b72d3cdceb30f787c99"
+    },
+    {
+      "path": "displays/products/tls-virtual/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "781f425e4a9f0f89199041a6e8eaf176c5c8a387ff2db56e9b6a9fa55c4ea710",
+      "expectedSha256": "781f425e4a9f0f89199041a6e8eaf176c5c8a387ff2db56e9b6a9fa55c4ea710"
+    },
+    {
+      "path": "displays/products/research-intelligence-fabric/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "396a1f730678fcb3a3215ce421fbf8107d8d0762db401cb1c2a042b917869730",
+      "expectedSha256": "396a1f730678fcb3a3215ce421fbf8107d8d0762db401cb1c2a042b917869730"
+    },
+    {
+      "path": "displays/products/evidence-governed-visual-intelligence-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "eeb63e2dbeff8d357e4175c1c0e9a96a33331c33571b171b3ff98aee959ea68d",
+      "expectedSha256": "eeb63e2dbeff8d357e4175c1c0e9a96a33331c33571b171b3ff98aee959ea68d"
+    },
+    {
+      "path": "displays/products/advanced-general-purpose-ai-systems-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "c92711714de14cb7c04a0d3a880e351ec2afb71ed0f99f12e731a7a00ca294c7",
+      "expectedSha256": "c92711714de14cb7c04a0d3a880e351ec2afb71ed0f99f12e731a7a00ca294c7"
+    },
+    {
+      "path": "displays/products/programmatic-search-fabric/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "823dc13a72e9dc9f1d58b08ac6b2bf945f723ab04aaed4e90bd3ae04f7fafcfa",
+      "expectedSha256": "823dc13a72e9dc9f1d58b08ac6b2bf945f723ab04aaed4e90bd3ae04f7fafcfa"
+    },
+    {
+      "path": "displays/products/protein-structure-evidence-qualification-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "aaa88e54282c3baf8a939ebe384a2791569cb5cfc8f31cc4bb99e1bf8f1f6c6f",
+      "expectedSha256": "aaa88e54282c3baf8a939ebe384a2791569cb5cfc8f31cc4bb99e1bf8f1f6c6f"
+    },
+    {
+      "path": "displays/products/signal-processing-universal-framework/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "bd64d597b1271d5b872e361a87879210718d80764982188a96a6421467c4a625",
+      "expectedSha256": "bd64d597b1271d5b872e361a87879210718d80764982188a96a6421467c4a625"
+    },
+    {
+      "path": "displays/products/air-to-water-transition-vehicle/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "dc6da94b23cacaec37c115ac6b2a7569ec9867fb9b6fd871ba19347a0597a3a9",
+      "expectedSha256": "dc6da94b23cacaec37c115ac6b2a7569ec9867fb9b6fd871ba19347a0597a3a9"
+    },
+    {
+      "path": "displays/products/verifiable-execution-control-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "768d79db37ad73552a3f74b45ccfcd6541303851670ca876199d0b51e72c561c",
+      "expectedSha256": "768d79db37ad73552a3f74b45ccfcd6541303851670ca876199d0b51e72c561c"
+    },
+    {
+      "path": "displays/products/organizational-memory-engine/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "20ff4bfea6881c4ff0a0a9bd83f6bce13c4bc0eb46acb3bb08b135273ecd5495",
+      "expectedSha256": "20ff4bfea6881c4ff0a0a9bd83f6bce13c4bc0eb46acb3bb08b135273ecd5495"
+    },
+    {
+      "path": "displays/products/machine-cognition-research-framework/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "d47407c73c7bafbe3c8a7cd47f345e1bc7163ced7064b9313dd4831e8b5daed9",
+      "expectedSha256": "d47407c73c7bafbe3c8a7cd47f345e1bc7163ced7064b9313dd4831e8b5daed9"
+    },
+    {
+      "path": "displays/products/cipher-lyric-engine/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "b370e1132b91b5062bf6598b052dcd97a55d47b407173eac89552155579f6ec2",
+      "expectedSha256": "b370e1132b91b5062bf6598b052dcd97a55d47b407173eac89552155579f6ec2"
+    },
+    {
+      "path": "displays/products/distributed-ai-resource-fabric/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "287b72343911764f01a58ad9cdd59c9c04e3b5e5c79f71bc6a18ef1aa9553523",
+      "expectedSha256": "287b72343911764f01a58ad9cdd59c9c04e3b5e5c79f71bc6a18ef1aa9553523"
+    },
+    {
+      "path": "displays/products/dmt-laser-phenomenology-engine/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "566b3f20c001fe62ab7b6ace65ae8222895ce0350710bca1a1634f2a5d980c81",
+      "expectedSha256": "566b3f20c001fe62ab7b6ace65ae8222895ce0350710bca1a1634f2a5d980c81"
+    },
+    {
+      "path": "displays/products/universal-kernel-machine/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "73d85fb1647076acd2a92d7c002c326a3ff68dd771348fcb879fb6e75213c636",
+      "expectedSha256": "73d85fb1647076acd2a92d7c002c326a3ff68dd771348fcb879fb6e75213c636"
+    },
+    {
+      "path": "displays/products/universal-sensor-fusion-digital-twin-intelligence-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "eb34b9cdfa6b49e635ad24c807ad5929ab0d4a182d115fe81861f4f28d9e9260",
+      "expectedSha256": "eb34b9cdfa6b49e635ad24c807ad5929ab0d4a182d115fe81861f4f28d9e9260"
+    },
+    {
+      "path": "displays/products/dominus-kraken-execution-engine/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "0f12096173fd6c42de7b82722d323fca91c9a5946d1e8d79b1911777212e6c98",
+      "expectedSha256": "0f12096173fd6c42de7b82722d323fca91c9a5946d1e8d79b1911777212e6c98"
+    },
+    {
+      "path": "displays/products/autonomous-adaptation-framework/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "6fcddf6c1f78e28d0eaef25a5f71c7e4ff32ce10d78493e31a0d6f8311e2ea92",
+      "expectedSha256": "6fcddf6c1f78e28d0eaef25a5f71c7e4ff32ce10d78493e31a0d6f8311e2ea92"
+    },
+    {
+      "path": "displays/products/resource-aware-hybrid-model-orchestration-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "ab5c6ca425a1038926f9e0e401c52e35ad4a49fe972c798abef1febc8a9268ea",
+      "expectedSha256": "ab5c6ca425a1038926f9e0e401c52e35ad4a49fe972c798abef1febc8a9268ea"
+    },
+    {
+      "path": "displays/products/veritas-evidence-intelligence/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "f17e0303d3c638f407207551e382412d12662b45132245f37dc42f396b67d18f",
+      "expectedSha256": "f17e0303d3c638f407207551e382412d12662b45132245f37dc42f396b67d18f"
+    },
+    {
+      "path": "displays/products/aerospace-mission-simulator/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "78548a7ea4833be23f9b3aa5c6068a607f8d90b4a7853d4cd1b5e0fbde914ec8",
+      "expectedSha256": "78548a7ea4833be23f9b3aa5c6068a607f8d90b4a7853d4cd1b5e0fbde914ec8"
+    },
+    {
+      "path": "displays/products/mt2050-experimental-dynamics/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "b6330d07fe9fcd2600efc0fda13864210226502bf012c2d172afbe99f5f11c82",
+      "expectedSha256": "b6330d07fe9fcd2600efc0fda13864210226502bf012c2d172afbe99f5f11c82"
+    },
+    {
+      "path": "displays/products/electric-flight-systems-simulation-validation-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "1edd78c29647dddb1b38e97319929324f28b4822e0793ed54b327f63a18fb890",
+      "expectedSha256": "1edd78c29647dddb1b38e97319929324f28b4822e0793ed54b327f63a18fb890"
+    },
+    {
+      "path": "displays/products/legalops-nl/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "2e545ab3d005e0b18a4f8a5fa692d55ced79c0094e501c3e9441565a9f2bf6c7",
+      "expectedSha256": "2e545ab3d005e0b18a4f8a5fa692d55ced79c0094e501c3e9441565a9f2bf6c7"
+    },
+    {
+      "path": "displays/products/advanced-ground-vehicle-engineering/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "5bc2f303eac887ee250811750aadb6d98a346fd12c38abdcce7cfd36d72a92ab",
+      "expectedSha256": "5bc2f303eac887ee250811750aadb6d98a346fd12c38abdcce7cfd36d72a92ab"
+    },
+    {
+      "path": "displays/products/biometric-systems-assurance-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "b2bf4bdefb90d2fd1e3beb350643a14112f08f319e96731f15fd381768815e5b",
+      "expectedSha256": "b2bf4bdefb90d2fd1e3beb350643a14112f08f319e96731f15fd381768815e5b"
+    },
+    {
+      "path": "displays/products/engineering-intelligence-mastery-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "f4d4f79a31fd0010646291c38cc429f2bad489fe7e80a3175951976ef7b7c8a2",
+      "expectedSha256": "f4d4f79a31fd0010646291c38cc429f2bad489fe7e80a3175951976ef7b7c8a2"
+    },
+    {
+      "path": "displays/products/adaptive-neurodynamics-engineering-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "8a27409a22be29cc40d06825bf6876b191577868448bcf444eee5734144d8b6f",
+      "expectedSha256": "8a27409a22be29cc40d06825bf6876b191577868448bcf444eee5734144d8b6f"
+    },
+    {
+      "path": "displays/products/integrated-media-production-engine/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "311a396517e89cf2cfb8ff5a96f9b70277daf6e7afd82f4fef3488ac7016ba27",
+      "expectedSha256": "311a396517e89cf2cfb8ff5a96f9b70277daf6e7afd82f4fef3488ac7016ba27"
+    },
+    {
+      "path": "displays/products/evidence-governed-software-assurance-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "1712d33e39536a82cce96c279a59baef4f40f449e39d80ba74454dba1b0961ce",
+      "expectedSha256": "1712d33e39536a82cce96c279a59baef4f40f449e39d80ba74454dba1b0961ce"
+    },
+    {
+      "path": "displays/products/oraculum-infinitum/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "86f4644b8a399f847e9ec4a5b8eede480d4b65e232e40ffd00320da3206ef1e7",
+      "expectedSha256": "86f4644b8a399f847e9ec4a5b8eede480d4b65e232e40ffd00320da3206ef1e7"
+    },
+    {
+      "path": "displays/products/cipherroutedb/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "1ae96deaa67b1caa92fba0df73b8ffdfa3b6108c30f25490d5ba5d0d512ad4ae",
+      "expectedSha256": "1ae96deaa67b1caa92fba0df73b8ffdfa3b6108c30f25490d5ba5d0d512ad4ae"
+    },
+    {
+      "path": "displays/products/quantum-cryptanalysis-engineering-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "5154d28dbb25889d5a2c339e536645fd1f2f4362c3aae2507a988890f7fb2be0",
+      "expectedSha256": "5154d28dbb25889d5a2c339e536645fd1f2f4362c3aae2507a988890f7fb2be0"
+    },
+    {
+      "path": "displays/products/latticedepth/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "f86b1c9d379dc0cb24d43bd89ddf628e07aa9f7f87b3d2b8b663ea5302407447",
+      "expectedSha256": "f86b1c9d379dc0cb24d43bd89ddf628e07aa9f7f87b3d2b8b663ea5302407447"
+    },
+    {
+      "path": "displays/products/isbr-securetrace/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "d20ca7f5df6411af649a5c8d22403ebc8140e0b38e2b3d950f7534bf3555df2e",
+      "expectedSha256": "d20ca7f5df6411af649a5c8d22403ebc8140e0b38e2b3d950f7534bf3555df2e"
+    },
+    {
+      "path": "displays/products/mercorion-commerce-compiler/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "3c86a7611a8deceaea35db00bb8eadd33412239e6b51e515e1f0fe125258f867",
+      "expectedSha256": "3c86a7611a8deceaea35db00bb8eadd33412239e6b51e515e1f0fe125258f867"
+    },
+    {
+      "path": "displays/products/sonicfabric/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "1718fb29addc459c3f14f3163a8c9eaff479665b52193de394bf675f1123a572",
+      "expectedSha256": "1718fb29addc459c3f14f3163a8c9eaff479665b52193de394bf675f1123a572"
+    },
+    {
+      "path": "displays/products/kinetic-logic-reconstructor/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "9b92b04620aa2a3ef0681adc9b292369eed4efa571cf0997c490558312d127e5",
+      "expectedSha256": "9b92b04620aa2a3ef0681adc9b292369eed4efa571cf0997c490558312d127e5"
+    },
+    {
+      "path": "displays/products/adaptive-biofeedback-engine/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "7abeb34b1d597243177d85712fb2e743be86df9dbc4dab1cef44c7d71f79a098",
+      "expectedSha256": "7abeb34b1d597243177d85712fb2e743be86df9dbc4dab1cef44c7d71f79a098"
+    },
+    {
+      "path": "displays/products/aletheia-intelligence-fabric/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "279a898ae2431673906a80182fbf2efbb1fa7c89966c9d31fff73f8597ae4a4d",
+      "expectedSha256": "279a898ae2431673906a80182fbf2efbb1fa7c89966c9d31fff73f8597ae4a4d"
+    },
+    {
+      "path": "displays/products/truelane-inkcore/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "82cc69bcad8a490c383518863a413ab7f8b5bd1d2fecf45f9637e48a65245742",
+      "expectedSha256": "82cc69bcad8a490c383518863a413ab7f8b5bd1d2fecf45f9637e48a65245742"
+    },
+    {
+      "path": "displays/products/visionair-research-engine/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "2fadd648e210709842c951eac54fff68710c8e15e0600b9116dd5abbaf80b1ff",
+      "expectedSha256": "2fadd648e210709842c951eac54fff68710c8e15e0600b9116dd5abbaf80b1ff"
+    },
+    {
+      "path": "displays/products/vision-evidence-governed-multimodal-perception-framework/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "3a2a6fe8d7d7686935c4af5cfdd2867688254c409f267545746a388aea97a959",
+      "expectedSha256": "3a2a6fe8d7d7686935c4af5cfdd2867688254c409f267545746a388aea97a959"
+    },
+    {
+      "path": "displays/products/evidence-grounded-multi-expert-reasoning-system/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "1b9784611cef1bf3e47f292242e2f925a1a11ed9bf4d267b6c6a80d57bdd9dcb",
+      "expectedSha256": "1b9784611cef1bf3e47f292242e2f925a1a11ed9bf4d267b6c6a80d57bdd9dcb"
+    },
+    {
+      "path": "displays/products/goldennet-signal-intelligence-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "dd1c4a4718c8485f59836647f9be513f1d8d6148923e4b34a382152b9209bb4f",
+      "expectedSha256": "dd1c4a4718c8485f59836647f9be513f1d8d6148923e4b34a382152b9209bb4f"
+    },
+    {
+      "path": "displays/products/autonomous-documentary-engine/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "eb024dc6889cff8f5b495469aac6d9b2035bd8ed8a34917ec82533879e4c9bb8",
+      "expectedSha256": "eb024dc6889cff8f5b495469aac6d9b2035bd8ed8a34917ec82533879e4c9bb8"
+    },
+    {
+      "path": "displays/products/multimodal-evidence-adaptive-systems-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "12bf56167f79634540ecf3e21a06a4e88937f4818ff9d84859c36c0f1ea94a85",
+      "expectedSha256": "12bf56167f79634540ecf3e21a06a4e88937f4818ff9d84859c36c0f1ea94a85"
+    },
+    {
+      "path": "displays/products/fusionlunar-energy-systems-engineering-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "47184957a03721a1ce25d788844f3c6afbbfcb80b2fedd523bccb8f17e4794bf",
+      "expectedSha256": "47184957a03721a1ce25d788844f3c6afbbfcb80b2fedd523bccb8f17e4794bf"
+    },
+    {
+      "path": "displays/products/temporal-physics-causality-research-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "d5a0e6ac164d48ced56e6d1a4ae91786fd5aa55ed597983ca1818f3bc61361cb",
+      "expectedSha256": "d5a0e6ac164d48ced56e6d1a4ae91786fd5aa55ed597983ca1818f3bc61361cb"
+    },
+    {
+      "path": "displays/products/industrial-predictive-maintenance-rul-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "f2441c925975c50430c7781c7e2c6408a8fdeafdf94a9639f34433068d9ecb63",
+      "expectedSha256": "f2441c925975c50430c7781c7e2c6408a8fdeafdf94a9639f34433068d9ecb63"
+    },
+    {
+      "path": "displays/products/adaptive-audio-production-system/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "2edc77abff9b318b5d3865bd7ef323934cfa00af6b9e4c5328448c510768293e",
+      "expectedSha256": "2edc77abff9b318b5d3865bd7ef323934cfa00af6b9e4c5328448c510768293e"
+    },
+    {
+      "path": "displays/products/causal-state-field-engine/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "5eaf1c45f37dd0a3b472b499edf011e466b286a123862103e65f11dd354da4ac",
+      "expectedSha256": "5eaf1c45f37dd0a3b472b499edf011e466b286a123862103e65f11dd354da4ac"
+    },
+    {
+      "path": "displays/products/evidence-governed-analytical-reasoning-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "e676e2678d147d395de63abb6ff5e413a4d487ec0c26538bf4f5e7944727795d",
+      "expectedSha256": "e676e2678d147d395de63abb6ff5e413a4d487ec0c26538bf4f5e7944727795d"
+    },
+    {
+      "path": "displays/products/software-asset-provenance-qualification-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "8cfe69baadd9a4f58dbb8fbd4d7decd9ab51c2829407c5f31e5b39fd25d40b3a",
+      "expectedSha256": "8cfe69baadd9a4f58dbb8fbd4d7decd9ab51c2829407c5f31e5b39fd25d40b3a"
+    },
+    {
+      "path": "displays/products/adaptive-general-reasoning-research-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "138b20b8fdb7b776937a77a3471374b03d51da1cfda8fd55fe87a024d66f7b53",
+      "expectedSha256": "138b20b8fdb7b776937a77a3471374b03d51da1cfda8fd55fe87a024d66f7b53"
+    },
+    {
+      "path": "displays/products/traceline-evidence-governed-investigation-framework/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "093dc79e6f5e71b7468dda14153a48e4a9aa3569e9f9f7de39ba311b683e90cd",
+      "expectedSha256": "093dc79e6f5e71b7468dda14153a48e4a9aa3569e9f9f7de39ba311b683e90cd"
+    },
+    {
+      "path": "displays/products/organismal-state-dynamics-research-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "9da3ce48aa78e49ee2e01088d97764947a8ec2a5d1c92188a68d3bf11c9e43db",
+      "expectedSha256": "9da3ce48aa78e49ee2e01088d97764947a8ec2a5d1c92188a68d3bf11c9e43db"
+    },
+    {
+      "path": "displays/products/chimera-spectral-perception-system/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "39b8685117cdffbaa76321afbff90040bea4ee660ab15bc50958079ae944fc41",
+      "expectedSha256": "39b8685117cdffbaa76321afbff90040bea4ee660ab15bc50958079ae944fc41"
+    },
+    {
+      "path": "displays/products/generative-media-production-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "4fc66f66b32d676ebe97fef15d5cef76f860ad1d2306048caa728e0fecd09f8b",
+      "expectedSha256": "4fc66f66b32d676ebe97fef15d5cef76f860ad1d2306048caa728e0fecd09f8b"
+    },
+    {
+      "path": "displays/products/adaptive-audio-synthesis-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "338823d53ae129736182842ce77ef9b601e642ba263587fa1a80701b669b1ce9",
+      "expectedSha256": "338823d53ae129736182842ce77ef9b601e642ba263587fa1a80701b669b1ce9"
+    },
+    {
+      "path": "displays/products/adaptive-cognitive-runtime/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "3e57aebeb9fda456424f478be63529221c5926801b8bdaf243d25f509a787c5d",
+      "expectedSha256": "3e57aebeb9fda456424f478be63529221c5926801b8bdaf243d25f509a787c5d"
+    },
+    {
+      "path": "displays/products/content-integrity-assurance-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "19840f02d16fddb5e2cbead22a8c41ac746959bbd211d4742b44c88b3eccffd0",
+      "expectedSha256": "19840f02d16fddb5e2cbead22a8c41ac746959bbd211d4742b44c88b3eccffd0"
+    },
+    {
+      "path": "displays/products/radioastronomy-signal-validation-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "bfd2f8cd70e0683f7c6b82e273b49f0388f829a42db245ddf4c3c6e063703fc6",
+      "expectedSha256": "bfd2f8cd70e0683f7c6b82e273b49f0388f829a42db245ddf4c3c6e063703fc6"
+    },
+    {
+      "path": "displays/products/spatial-wearable-perception-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "d322848030e87987d85002da4113f99f79eed0b972020446b877fb65ca535b02",
+      "expectedSha256": "d322848030e87987d85002da4113f99f79eed0b972020446b877fb65ca535b02"
+    },
+    {
+      "path": "displays/products/telluric-actualization-research-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "2685f3771951655ae1f9a0b23d222a0dc4c50a4a285dae5b5b985897d9e04715",
+      "expectedSha256": "2685f3771951655ae1f9a0b23d222a0dc4c50a4a285dae5b5b985897d9e04715"
+    },
+    {
+      "path": "displays/products/qubo-structural-analysis-and-optimization-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "ce7ce7db24e082bfa38033f5420b2af16cf3eefee958b5530bca55e5ef55eac8",
+      "expectedSha256": "ce7ce7db24e082bfa38033f5420b2af16cf3eefee958b5530bca55e5ef55eac8"
+    },
+    {
+      "path": "displays/products/adaptive-neural-architecture-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "d9dd0bb1363347dc91debaebccf6b8e23efa7b2f15d41f6b469f7e9f0566f81c",
+      "expectedSha256": "d9dd0bb1363347dc91debaebccf6b8e23efa7b2f15d41f6b469f7e9f0566f81c"
+    },
+    {
+      "path": "displays/products/bio-inspired-neural-dynamics-active-inference-simulation-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "062e64ee6e547093ec6b39fcdf085fd55ce501e1ea3dbe669919e4be9035d6e8",
+      "expectedSha256": "062e64ee6e547093ec6b39fcdf085fd55ce501e1ea3dbe669919e4be9035d6e8"
+    },
+    {
+      "path": "displays/products/cardiosignal-intelligence-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "75ee140ccb999b03c7871640935e3a51b0d9078a9fe9bf43883c6e6e2f96e3a3",
+      "expectedSha256": "75ee140ccb999b03c7871640935e3a51b0d9078a9fe9bf43883c6e6e2f96e3a3"
+    },
+    {
+      "path": "displays/products/secure-actuation-integrity-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "fd8356198af34d1a72b59ee031f6401fac15dab483011323e8f3e0bd538b2298",
+      "expectedSha256": "fd8356198af34d1a72b59ee031f6401fac15dab483011323e8f3e0bd538b2298"
+    },
+    {
+      "path": "displays/products/truelane-studio-apex-architect/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "bd3a7be8613ebf3d003904f74dcb29e07ed9db575867e7073e8e484dcee82c32",
+      "expectedSha256": "bd3a7be8613ebf3d003904f74dcb29e07ed9db575867e7073e8e484dcee82c32"
+    },
+    {
+      "path": "displays/products/swpp-viorith-mobile-camera-overlay/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "c7b1b819ef6c091661e00fcbebf0cce92cf21b8756c5b05ea0b2d204016b1d97",
+      "expectedSha256": "c7b1b819ef6c091661e00fcbebf0cce92cf21b8756c5b05ea0b2d204016b1d97"
+    },
+    {
+      "path": "displays/products/distributed-compute-fabric/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "03bd51a19a9cb8b4ffb92948ff35154b5993aabad1e544caac59dca128fda9e5",
+      "expectedSha256": "03bd51a19a9cb8b4ffb92948ff35154b5993aabad1e544caac59dca128fda9e5"
+    },
+    {
+      "path": "displays/products/adaptive-systems-intelligence-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "169a053258f9d1f9dca14101bc00d6149f088a443b24b6c86e0fa5b1f9025894",
+      "expectedSha256": "169a053258f9d1f9dca14101bc00d6149f088a443b24b6c86e0fa5b1f9025894"
+    },
+    {
+      "path": "displays/products/interactive-piano-learning-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "a951b44955523249e50d90a5419b281d107d5822c447ba6e8ac5ff692074e6a0",
+      "expectedSha256": "a951b44955523249e50d90a5419b281d107d5822c447ba6e8ac5ff692074e6a0"
+    },
+    {
+      "path": "displays/products/adaptive-audio-midi-transcription-studio/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "424871107822f744d8c21c5d26119082c582001e1514951edec15cd356b573cb",
+      "expectedSha256": "424871107822f744d8c21c5d26119082c582001e1514951edec15cd356b573cb"
+    },
+    {
+      "path": "displays/products/vellumgrid-autonomous-commerce-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "276bc1568998502deb57a7d58e8cfb9c02b68deea270d6a3665043ea6ae2a883",
+      "expectedSha256": "276bc1568998502deb57a7d58e8cfb9c02b68deea270d6a3665043ea6ae2a883"
+    },
+    {
+      "path": "displays/products/maastricht-digital-twin/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "fb10bd1d4f732551bd7a4172ee39f831ddb334f67cd19dff32f76e9a1a9f63e6",
+      "expectedSha256": "fb10bd1d4f732551bd7a4172ee39f831ddb334f67cd19dff32f76e9a1a9f63e6"
+    },
+    {
+      "path": "displays/products/maastricht-zero-hour-simulator/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "1f5cc4943d41e392171a6e4ad203ef70b894d102414a7523f0d02367fe1d1bec",
+      "expectedSha256": "1f5cc4943d41e392171a6e4ad203ef70b894d102414a7523f0d02367fe1d1bec"
+    },
+    {
+      "path": "displays/products/h-rm-lyra-automotive-lyra-rs-3-6t/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "f8126db9334e7ea425f869762b5dd8339d2e551da6c97254240fcb8d2eb74d1c",
+      "expectedSha256": "f8126db9334e7ea425f869762b5dd8339d2e551da6c97254240fcb8d2eb74d1c"
+    },
+    {
+      "path": "displays/products/lyra-aero-evtol/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "cb8f8885cb40089f484917c399829bf8ea40f4f4784a199e90d28cc51481d7a0",
+      "expectedSha256": "cb8f8885cb40089f484917c399829bf8ea40f4f4784a199e90d28cc51481d7a0"
+    },
+    {
+      "path": "displays/products/universal-capability-synthesis-engine/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "0252c89c64281cd069d2b93c695056842c7a1f05b1958a5b57b2b5da197cce10",
+      "expectedSha256": "0252c89c64281cd069d2b93c695056842c7a1f05b1958a5b57b2b5da197cce10"
+    },
+    {
+      "path": "displays/products/aurynthiq-autonomous-dj-intelligence-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "3a7829a39df429847bd2f6f7db03f030273cfc27dbb87b52d7acb6a11774eace",
+      "expectedSha256": "3a7829a39df429847bd2f6f7db03f030273cfc27dbb87b52d7acb6a11774eace"
+    },
+    {
+      "path": "displays/products/universal-vehicle-configuration-database/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "349e1936712a36fb9f237bf73c2c00da1bacd793c391369f9bad0e95a4a0e197",
+      "expectedSha256": "349e1936712a36fb9f237bf73c2c00da1bacd793c391369f9bad0e95a4a0e197"
+    },
+    {
+      "path": "displays/products/learnpiano/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "7c08f6926014eb7d37b146453ca7e5dd5b64feb5781af3f2c029296798c31470",
+      "expectedSha256": "7c08f6926014eb7d37b146453ca7e5dd5b64feb5781af3f2c029296798c31470"
+    },
+    {
+      "path": "displays/products/evidence-governed-intelligence-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "d2381a4268d40499eed692c9f357f531eb2b22a270a55abe2cf7b8ff354c1598",
+      "expectedSha256": "d2381a4268d40499eed692c9f357f531eb2b22a270a55abe2cf7b8ff354c1598"
+    },
+    {
+      "path": "displays/products/universal-systems-intelligence-engine/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "375a39d8d321223a978e46dd70eb770d6d92268f6b9350ece06bb989a98dab31",
+      "expectedSha256": "375a39d8d321223a978e46dd70eb770d6d92268f6b9350ece06bb989a98dab31"
+    },
+    {
+      "path": "displays/products/software-asset-engineering-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "41978067c724c4f19b8e4b446839e77aa62eb9d4c3956d9a732e6372a5f2c9c8",
+      "expectedSha256": "41978067c724c4f19b8e4b446839e77aa62eb9d4c3956d9a732e6372a5f2c9c8"
+    },
+    {
+      "path": "displays/products/launch-cislunar-transportation-engineering-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "75639f9d99e052d6fe2a27a3e298d49fa5422985b74a45941bc79ccb3f1a343d",
+      "expectedSha256": "75639f9d99e052d6fe2a27a3e298d49fa5422985b74a45941bc79ccb3f1a343d"
+    },
+    {
+      "path": "displays/products/synthetic-consciousness-engineering-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "a9c1ab65db57c86da738b4f026e493d668a306879d97a735350b4fef4c848549",
+      "expectedSha256": "a9c1ab65db57c86da738b4f026e493d668a306879d97a735350b4fef4c848549"
+    },
+    {
+      "path": "displays/products/universal-video-intelligence-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "07bcd5ba0993e748533be7be182699f170f07f219240b8a432adb065d55c82b2",
+      "expectedSha256": "07bcd5ba0993e748533be7be182699f170f07f219240b8a432adb065d55c82b2"
+    },
+    {
+      "path": "displays/products/universal-remote-perception-intelligence-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "a93a0c48ce2a8882878a7dff3d5b9c1aa57975fcd776b2896ee0c6d84aca2d69",
+      "expectedSha256": "a93a0c48ce2a8882878a7dff3d5b9c1aa57975fcd776b2896ee0c6d84aca2d69"
+    },
+    {
+      "path": "displays/products/universal-operations-orchestration-intelligence-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "73c9f8ad9c9ca931bc206583b1cd85fa4c9ab187c153aa982eba2a791f70926e",
+      "expectedSha256": "73c9f8ad9c9ca931bc206583b1cd85fa4c9ab187c153aa982eba2a791f70926e"
+    },
+    {
+      "path": "displays/products/collective-reality-engine/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "859a5d4960a2481453aec4f8f6fd00835180a05a65afeabc3e10ec3808328d6c",
+      "expectedSha256": "859a5d4960a2481453aec4f8f6fd00835180a05a65afeabc3e10ec3808328d6c"
+    },
+    {
+      "path": "displays/products/mission-to-execution-engineering-framework/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "d0a8fe02b1208e49ca74baddd06b5b7e41af56841b3261651d19ffe30f2279c8",
+      "expectedSha256": "d0a8fe02b1208e49ca74baddd06b5b7e41af56841b3261651d19ffe30f2279c8"
+    },
+    {
+      "path": "displays/products/manuscript-integrity-publishing-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "d1e6be4bb8bf8e5c47d994da40456a284665287c704cf134285d0bb6b702f82c",
+      "expectedSha256": "d1e6be4bb8bf8e5c47d994da40456a284665287c704cf134285d0bb6b702f82c"
+    },
+    {
+      "path": "displays/products/universal-property-intelligence-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "bd35a211bef761ba6553f30fbe4d93c623c5dd1013f0294cacb1661eefd311be",
+      "expectedSha256": "bd35a211bef761ba6553f30fbe4d93c623c5dd1013f0294cacb1661eefd311be"
+    },
+    {
+      "path": "displays/products/visual-effects-spatial-computing-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "3b93a09157882bbad7ea4a9820d5e23d84c1bd91790a4025d5f6f0d6d6c92d83",
+      "expectedSha256": "3b93a09157882bbad7ea4a9820d5e23d84c1bd91790a4025d5f6f0d6d6c92d83"
+    },
+    {
+      "path": "displays/products/narrative-collectibles-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "f8aaeec30dc2d7f9aca4fb798fa7e8798f35443cafb8790e03631fb1ecd13895",
+      "expectedSha256": "f8aaeec30dc2d7f9aca4fb798fa7e8798f35443cafb8790e03631fb1ecd13895"
+    },
+    {
+      "path": "displays/products/gossquibble/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "b44a61881c86cd50e50e7855889b66a88b27f9c355b8fe29e0d87b524a7b0ff0",
+      "expectedSha256": "b44a61881c86cd50e50e7855889b66a88b27f9c355b8fe29e0d87b524a7b0ff0"
+    },
+    {
+      "path": "displays/products/reality-substrate-hypothesis-testing-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "dd16298a4a4cfaea76a227f0efb1378cde3e7e334644fcae221afc529eb18d55",
+      "expectedSha256": "dd16298a4a4cfaea76a227f0efb1378cde3e7e334644fcae221afc529eb18d55"
+    },
+    {
+      "path": "displays/products/chess-strategic-intelligence-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "09ac6869bf05eb6241e760c7e99d74f81553e0fc2c47b0489f25d36d86b9f8a9",
+      "expectedSha256": "09ac6869bf05eb6241e760c7e99d74f81553e0fc2c47b0489f25d36d86b9f8a9"
+    },
+    {
+      "path": "displays/products/fundamental-reality-research-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "5d2370a603bda49402fa5065470c7667753f2813dc23919dc608d9f705bb1d45",
+      "expectedSha256": "5d2370a603bda49402fa5065470c7667753f2813dc23919dc608d9f705bb1d45"
+    },
+    {
+      "path": "displays/products/temporal-causality-breakthrough-research-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "97bb54df3af8f0a918c65c3f3f8fa74f105e87de276e6a9e0035edf5baac67e0",
+      "expectedSha256": "97bb54df3af8f0a918c65c3f3f8fa74f105e87de276e6a9e0035edf5baac67e0"
+    },
+    {
+      "path": "displays/products/cosmological-structure-and-expansion-research-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "c9d61c574fdecba238d5d835b56e8a6c128169e9585936208020bb77a92b1ada",
+      "expectedSha256": "c9d61c574fdecba238d5d835b56e8a6c128169e9585936208020bb77a92b1ada"
+    },
+    {
+      "path": "displays/products/digital-template-commerce-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "0eb6f44d25b522c63ede3a056e5722a15e6e6ab6d1138534c3822036522398f0",
+      "expectedSha256": "0eb6f44d25b522c63ede3a056e5722a15e6e6ab6d1138534c3822036522398f0"
+    },
+    {
+      "path": "displays/products/closed-cycle-energy-research-verification-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "1a526c0fea43e1a3ffd8fda85eb2b3b28eae86252fba25bba63aecf461acac18",
+      "expectedSha256": "1a526c0fea43e1a3ffd8fda85eb2b3b28eae86252fba25bba63aecf461acac18"
+    },
+    {
+      "path": "displays/products/the-stone-universe-research-framework/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "4be10d1082ceca26c67b08210b9283ce480e7e5f5e9d9294e77c8d4a72f13702",
+      "expectedSha256": "4be10d1082ceca26c67b08210b9283ce480e7e5f5e9d9294e77c8d4a72f13702"
+    },
+    {
+      "path": "displays/products/universal-independent-reasoning-framework/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "995427aa5cc1e4061868f215120ddc1ac5dc8a58486b6e6e648f07ab8814c5ed",
+      "expectedSha256": "995427aa5cc1e4061868f215120ddc1ac5dc8a58486b6e6e648f07ab8814c5ed"
+    },
+    {
+      "path": "displays/products/foundational-existence-research-framework/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "0f2329fb60130efd444f457207ef77938415efd136308f52cde01e782434cc1d",
+      "expectedSha256": "0f2329fb60130efd444f457207ef77938415efd136308f52cde01e782434cc1d"
+    },
+    {
+      "path": "displays/products/intelligent-media-acquisition-production-engine/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "821842a8e980d327232ab8a0875fc83a9b8fcc3e0b7eec519a667d34b1600142",
+      "expectedSha256": "821842a8e980d327232ab8a0875fc83a9b8fcc3e0b7eec519a667d34b1600142"
+    },
+    {
+      "path": "displays/products/higher-dimensional-geometry-visualization-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "0b178e3cf7cc6c1528920d3cc64373c3ba281048f39c6e45cf0419c424db9104",
+      "expectedSha256": "0b178e3cf7cc6c1528920d3cc64373c3ba281048f39c6e45cf0419c424db9104"
+    },
+    {
+      "path": "displays/products/fractal-physics-discovery-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "8e0e43d0fa537b733ed147612ba16e976d7aa3c20ad677b845e92f1946b905ee",
+      "expectedSha256": "8e0e43d0fa537b733ed147612ba16e976d7aa3c20ad677b845e92f1946b905ee"
+    },
+    {
+      "path": "displays/products/fundamental-dark-sector-research-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "cb0581e373412b780246a3b8844f8b97bebba8a1bbc0ffb84d9de6157e8852be",
+      "expectedSha256": "cb0581e373412b780246a3b8844f8b97bebba8a1bbc0ffb84d9de6157e8852be"
+    },
+    {
+      "path": "displays/products/universal-digital-cloning-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "c85f456909501f4d5900849ef4bc008d5e3b7a4de4919993836185b1275861b1",
+      "expectedSha256": "c85f456909501f4d5900849ef4bc008d5e3b7a4de4919993836185b1275861b1"
+    },
+    {
+      "path": "displays/products/universal-cognitive-intelligence-architecture/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "301a4898d1d67f3bafe22a75cf7f6abd371d73a4cddd3dd726e605c83f7a6448",
+      "expectedSha256": "301a4898d1d67f3bafe22a75cf7f6abd371d73a4cddd3dd726e605c83f7a6448"
+    },
+    {
+      "path": "displays/products/autonomous-financial-value-creation-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "c923bb9f45b10dcef647a62167547ec7088286ec05772a8bfc0683c3fcd71ecf",
+      "expectedSha256": "c923bb9f45b10dcef647a62167547ec7088286ec05772a8bfc0683c3fcd71ecf"
+    },
+    {
+      "path": "displays/products/three-card-poker-decision-platform/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "9a2d387f125ea2f8fc7c6a138fbd2577df6ac1e41ad9e5196c91375337a890b6",
+      "expectedSha256": "9a2d387f125ea2f8fc7c6a138fbd2577df6ac1e41ad9e5196c91375337a890b6"
+    },
+    {
+      "path": "displays/products/art-direction-visual-design-research-framework/factsheet.pdf",
+      "status": "PASS",
+      "httpStatus": 200,
+      "sha256": "f58e99d0fae5817714c6a0240b8be1b248c76a3e0b118481515b0e9ba35f2b44",
+      "expectedSha256": "f58e99d0fae5817714c6a0240b8be1b248c76a3e0b118481515b0e9ba35f2b44"
+    }
+  ]
+}
