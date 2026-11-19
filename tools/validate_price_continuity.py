@@ -20,11 +20,11 @@ def validate(pricing=None,continuity=None,source_manifest=None):
  assert base['portfolio']==original['portfolio']
  assert roll['baselineAskingTotalEUR']==original['portfolio']['sellerAskEUR']==25274000
  B={a['ref']:a for a in base['projects']};O={a['ref']:a for a in original['projects']};P={a['ref']:a for a in p['projects']};Q={a['id']:a for a in read('assets/portfolio-reassessment-20261107.json')['assessments']}
- assert len(B)==len(O)==128 and len(P)==len(roll['projects'])==129
- expected={f'TA-IP-{n:03}' for n in range(1,130)}
+ assert len(B)==len(O)==128 and len(P)==len(roll['projects'])==128
+ expected={f'TA-IP-{n:03}' for n in range(1,129)}
  assert set(P)=={a['ref'] for a in roll['projects']}==set(Q)==expected
- assert len({a['sourceRepositoryNumericId'] for a in Q.values()})==129
- assert len({a['sourceMainSha'] for a in Q.values()})==129
+ assert len({a['sourceRepositoryNumericId'] for a in Q.values()})==128
+ assert len({a['sourceMainSha'] for a in Q.values()})==128
  additions=groups=candidate_groups=0
  for row in roll['projects']:
   ref=row['ref'];z=P[ref];r=Q[ref];old=O.get(ref);oldbudgets=old['costBudgets'] if old else []
@@ -67,15 +67,15 @@ def validate(pricing=None,continuity=None,source_manifest=None):
   assert z['assessment']['marketValueStatus']=='NOT_ESTABLISHED'
   additions+=ai
  assert sum(a['currentAskingEUR'] for a in roll['projects'])==p['portfolio']['sellerAskEUR']==roll['summary']['currentAskingTotalEUR']==25274000+additions
- assert roll['summary']['additionalAskingEUR']==additions==667000
+ assert roll['summary']['additionalAskingEUR']==additions==592000
  assert dict(Counter(a['decision'] for a in roll['projects']))==roll['summary']['decisions']
- assert candidate_groups==roll['summary']['writtenCandidatesPriced']==40
+ assert candidate_groups==roll['summary']['writtenCandidatesPriced']==39
  # Each static review table must retain the correct identity, not just the row count.
  for page in ['portfolio-register.html','portfolio-evaluation.html','portfolio-pricing-review.html']:
   html=(R/page).read_text();body=re.search(r'<tbody>(.*?)</tbody>',html,re.S).group(1)
   table_rows=re.findall(r'<tr\b[^>]*>(.*?)</tr>',body,re.S)
   ids=[re.search(r'TA-IP-\d{3}',row).group() for row in table_rows]
-  assert len(ids)==len(set(ids))==129 and set(ids)==expected,(page,'Wrong per-project identities')
+  assert len(ids)==len(set(ids))==128 and set(ids)==expected,(page,'Wrong per-project identities')
   if page!='portfolio-evaluation.html':
    for ref,row in zip(ids,table_rows):assert f"EUR {P[ref]['values']['sellerAskEUR']:,}" in unescape(row),(page,ref,'Wrong project asking reference')
  if source_manifest:
@@ -86,7 +86,7 @@ def validate(pricing=None,continuity=None,source_manifest=None):
    assert r['sourceMainSha']==s['mainSha'],ref
    assert r['openCandidateCount']==len(s['pulls']),ref
    if r.get('currentCandidateHeadSha'):assert r['currentCandidateHeadSha'] in {x['headSha'] for x in s['pulls']},ref
- return dict(result='PASS',baselineAssetsPreserved=128,currentAssets=129,baselineAskingEUR=25274000,additionalAskingEUR=additions,currentAskingEUR=p['portfolio']['sellerAskEUR'],distinctAdditionalEditionBudgets=groups,writtenCandidatesSeparatelyPriced=candidate_groups,staticReviewIdentitiesAndAsksChecked=True,sourceManifestReconciled=bool(source_manifest),historicalInputsUnchanged=True,marketValueEstablished=False)
+ return dict(result='PASS',baselineAssetsPreserved=128,currentAssets=128,baselineAskingEUR=25274000,additionalAskingEUR=additions,currentAskingEUR=p['portfolio']['sellerAskEUR'],distinctAdditionalEditionBudgets=groups,writtenCandidatesSeparatelyPriced=candidate_groups,staticReviewIdentitiesAndAsksChecked=True,sourceManifestReconciled=bool(source_manifest),historicalInputsUnchanged=True,marketValueEstablished=False)
 
 if __name__=='__main__':
  parser=argparse.ArgumentParser();parser.add_argument('--source-manifest');args=parser.parse_args()

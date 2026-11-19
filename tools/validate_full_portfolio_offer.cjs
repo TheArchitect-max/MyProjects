@@ -4,8 +4,8 @@ const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('n
 const root=path.resolve(__dirname,'..'),read=file=>fs.readFileSync(path.join(root,file),'utf8'),json=file=>JSON.parse(read(file));
 const math=require('../assets/pricing-math.js'),pricing=json('assets/pricing-catalogue.json');
 const current=math.fullPortfolioOffer(pricing);
-assert.deepEqual(current,{projectCount:129,discountPercent:10,payablePercent:90,individualAskingTotalEUR:25941000,savingEUR:2594100,packageAskingEUR:23346900});
-assert.equal(math.quoteEUR(current.packageAskingEUR,pricing.displayCurrency),25606880);
+assert.deepEqual(current,{projectCount:128,discountPercent:10,payablePercent:90,individualAskingTotalEUR:25866000,savingEUR:2586600,packageAskingEUR:23279400});
+assert.equal(math.quoteEUR(current.packageAskingEUR,pricing.displayCurrency),25532846);
 assert.deepEqual(json('assets/calculation-validation.json').fullPortfolioOffer,current);
 assert.deepEqual(json('displays/assets/calculation-validation.json').fullPortfolioOffer,current);
 
@@ -51,10 +51,10 @@ vm.createContext(sandbox);vm.runInContext(source,sandbox);
  assert(ui.acquisitionEnquiryText(futureData,'full-portfolio','','').includes(euro(next.packageAskingEUR)));
  const staticPage=read('portfolio-pricing-review.html'),staticOffer=staticPage.match(/<section[^>]*id="full-portfolio-offer"[\s\S]*?<\/section>/)[0];
  for(const field of ['individualAskingTotalEUR','savingEUR','packageAskingEUR'])assert(staticOffer.includes('EUR '+current[field].toLocaleString('en-US')));
- assert(staticOffer.includes('10%'));assert(staticOffer.includes('USD 25,606,880'));assert(staticPage.includes('id="subscription-scenario"'));assert(staticPage.includes('€128,871'));assert(staticPage.includes('€1,546,452'));
+ assert(staticOffer.includes('10%'));assert(staticOffer.includes('USD 25,532,846'));assert(staticPage.includes('id="subscription-scenario"'));assert(staticPage.includes('€127,872'));assert(staticPage.includes('€1,534,464'));
  assert(read('displays/index.html').includes('valuation.html#full-portfolio-offer'));
  const full=ui.acquisitionEnquiryText(data,'full-portfolio','Example buyer','Review all current editions.');
- assert(full.includes('all 129 listed projects'));assert(full.includes('Full-portfolio discount (10%): €2,594,100'));assert(full.includes('€23,346,900'));assert(full.includes('Example buyer'));assert(full.includes('Review all current editions.'));
+ assert(full.includes('all 128 listed projects'));assert(full.includes('Full-portfolio discount (10%): €2,586,600'));assert(full.includes('€23,279,400'));assert(full.includes('Example buyer'));assert(full.includes('Review all current editions.'));
  const asset=data.projects[0],individual=ui.acquisitionEnquiryText(data,asset.ref,'','');assert(individual.includes(asset.ref));assert(individual.includes(euro(asset.askingReferenceEUR)));assert(!individual.includes('Full-portfolio discount'));
  for(const selection of ['', 'unknown']){const draft=ui.acquisitionEnquiryText(data,selection,'','');assert(draft.includes('General portfolio or selected-group enquiry'));assert(!draft.includes('Full-portfolio discount'));}
 
@@ -63,7 +63,7 @@ vm.createContext(sandbox);vm.runInContext(source,sandbox);
  sandbox.document.getElementById=id=>elements[id];let copied='';sandbox.navigator={clipboard:{writeText:async text=>{copied=text;}}};
  sandbox.location.search='?scope=full-portfolio&asset='+asset.ref+'&workstream='+data.strategic.workstreams[0].id;
  ui.bindEnquiry(data);assert.equal(elements['enquiry-asset'].value,'full-portfolio');assert.equal(elements['enquiry-purpose'].value,'');
- elements['enquiry-form'].handlers.submit({preventDefault(){}});assert(elements['enquiry-draft'].value.includes('€23,346,900'));
+ elements['enquiry-form'].handlers.submit({preventDefault(){}});assert(elements['enquiry-draft'].value.includes('€23,279,400'));
  elements['enquiry-asset'].value=asset.ref;await elements['copy-enquiry'].handlers.click();assert(copied.includes(asset.ref));assert(!copied.includes('Full-portfolio discount'),'Copy must reflect the current selection');
  sandbox.location.search='?asset='+asset.ref;ui.bindEnquiry(data);assert.equal(elements['enquiry-asset'].value,asset.ref);
 

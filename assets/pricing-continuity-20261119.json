@@ -4,21 +4,20 @@
   "baselineCommitSha": "b5afc394f226e949f9264dba7b5e5b99f1f60e5e",
   "baselineAskingTotalEUR": 25274000,
   "baselineAssetCount": 128,
-  "currentAssetCount": 129,
+  "currentAssetCount": 128,
   "additionRule": "For each distinct added edition: floor(hours * 94 * 1.15 / 500) * 500 recreation; floor(recreation * 0.30 / 500) * 500 ask. Add to historical seller baseline. No market-value floor or target-total inference.",
   "methodBoundary": "Historical seller asking decisions are preserved. Added equivalent effort and prices remain seller estimates. WIPO provides valuation methodology, not project-specific verification or approval.",
   "summary": {
-    "additionalAskingEUR": 667000,
-    "additionalRecreationEUR": 2249500,
-    "currentAskingTotalEUR": 25941000,
+    "additionalAskingEUR": 592000,
+    "additionalRecreationEUR": 1998000,
+    "currentAskingTotalEUR": 25866000,
     "decisions": {
       "BASELINE_PLUS_SCOPED_WORK": 39,
-      "BASELINE_RETAINED": 89,
-      "INITIAL_SCOPED_REFERENCE": 1
+      "BASELINE_RETAINED": 89
     },
-    "writtenCandidatesPriced": 40,
+    "writtenCandidatesPriced": 39,
     "newMainChanges": 1,
-    "newStandaloneAssets": 1,
+    "newStandaloneAssets": 0,
     "projectSuitesRerun": 0
   },
   "projects": [
@@ -3250,81 +3249,6 @@
       "recreationIncrementEUR": 33500,
       "currentAskingEUR": 21500,
       "currentRecreationEUR": 72000,
-      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
-      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
-    },
-    {
-      "ref": "TA-IP-129",
-      "title": "Media Acquisition & Processing Intelligence Platform",
-      "baselineAskingEUR": 0,
-      "baselineRecreationEUR": 0,
-      "baselineSourceMainSha": null,
-      "currentMainSha": "8722bd12eea8e86db73e791fde5665e0ffc1f5ea",
-      "candidateSha": "d6509397442d085b582b6a14937801bebb03b128",
-      "sourceMainChanged": false,
-      "decision": "INITIAL_SCOPED_REFERENCE",
-      "additionalWork": [
-        {
-          "sourceEdition": "NEW_PROJECT_MAIN",
-          "scope": "Media discovery, acquisition-wrapper and processing workflow; Manifest, bitstream timing, audit and integrity-analysis logic; Local acquisition interface, mounted storage and evidence export; Media fixtures, reproduction tools and first-party architecture documents",
-          "assumedHours": 1680,
-          "recreationIncrementEUR": 181500,
-          "askingIncrementEUR": 54000,
-          "workPackages": [
-            {
-              "scope": "Media discovery, acquisition-wrapper and processing workflow",
-              "lowEffortHours": 550
-            },
-            {
-              "scope": "Manifest, bitstream timing, audit and integrity-analysis logic",
-              "lowEffortHours": 420
-            },
-            {
-              "scope": "Local acquisition interface, mounted storage and evidence export",
-              "lowEffortHours": 260
-            },
-            {
-              "scope": "Media fixtures, reproduction tools and first-party architecture documents",
-              "lowEffortHours": 450
-            }
-          ],
-          "effortSensitivity": {
-            "lowEffortHours": 840,
-            "baseEffortHours": 1680,
-            "highEffortHours": 3360,
-            "lowCostEUR": 90500,
-            "baseCostEUR": 181500,
-            "highCostEUR": 363000,
-            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
-          }
-        },
-        {
-          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
-          "scope": "Written original-webpage resolver, first-party MP4 acquisition and bounded job backend",
-          "assumedHours": 650,
-          "recreationIncrementEUR": 70000,
-          "askingIncrementEUR": 21000,
-          "workPackages": [
-            {
-              "scope": "Written original-webpage resolver, first-party MP4 acquisition and bounded job backend",
-              "lowEffortHours": 650
-            }
-          ],
-          "effortSensitivity": {
-            "lowEffortHours": 325,
-            "baseEffortHours": 650,
-            "highEffortHours": 1300,
-            "lowCostEUR": 35000,
-            "baseCostEUR": 70000,
-            "highCostEUR": 140500,
-            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
-          }
-        }
-      ],
-      "askingIncrementEUR": 75000,
-      "recreationIncrementEUR": 251500,
-      "currentAskingEUR": 75000,
-      "currentRecreationEUR": 251500,
       "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
       "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
     }

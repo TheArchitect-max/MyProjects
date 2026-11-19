@@ -259,7 +259,7 @@
     {
       "id": "financial-inputs",
       "title": "Seller cost and commercial inputs",
-      "basis": "Immutable 19 November published seller references, plus separately scoped first-party additions across 129 standalone assets. Main and written-candidate work remain distinct.",
+      "basis": "Immutable 19 November published seller references, plus separately scoped first-party additions across 128 standalone assets. Main and written-candidate work remain distinct.",
       "application": "Eight EUR and USD reference fields, conditional scenarios and portfolio reconciliation.",
       "limit": "Historical effort confidence is retained. New effort, rates and asking additions are seller assumptions; no market value, logged expenditure or product acceptance is established.",
       "publicUrl": "valuation.html#assessment",
@@ -269,7 +269,7 @@
       "id": "calculation",
       "title": "Reproducible arithmetic",
       "basis": "The current public pricing records and shared deterministic calculation module.",
-      "application": "516 model outputs, 1,032 USD conversions, chained historical/additional work budgets and all individual baseline-to-current sums.",
+      "application": "512 model outputs, 1,024 USD conversions, chained historical/additional work budgets and all individual baseline-to-current sums.",
       "limit": "A matching calculation checks arithmetic consistency; it does not independently validate the assumptions.",
       "publicUrl": "proof.html?v=calc16",
       "linkLabel": "Run calculation validation"
@@ -286,7 +286,7 @@
     {
       "id": "asset-identity",
       "title": "Asset identity and display linkage",
-      "basis": "129 current distinct private project sources; 121 source-side identities and eight provisional public aliases. Three publication repositories excluded.",
+      "basis": "128 current distinct private project sources; 121 source-side identities and seven provisional public aliases. Three publication repositories excluded.",
       "application": "Canonical project title, TA-IP reference and feminine alias across repository identity metadata, asset dossiers, displays, factsheets and product briefs.",
       "limit": "Identity consistency does not establish ownership clearance, product qualification or market value. Private source and detailed internal records are outside the public register.",
       "publicUrl": "identities.html",

@@ -31,11 +31,11 @@ for connection in load('assets/application-combinations.json')['connections']:
   asset=assets_by_ref[member['ref']]
   display=(R/'displays/products'/asset['slug']/'index.html').read_text()
   assert 'connections.html#'+connection['slug'] in display,member['ref']
-collection=(R/'displays/index.html').read_text();assert len(re.findall(r'class="asset-select"',collection))==129;assert len(re.findall(r'class="card-cost"',collection))==129
+collection=(R/'displays/index.html').read_text();assert len(re.findall(r'class="asset-select"',collection))==128;assert len(re.findall(r'class="card-cost"',collection))==128
 for x in load('assets/route-aliases.json')['aliases']:
  for f in ['factsheet.pdf','product-brief.md']:
   dst=R/'displays/products'/x['legacySlug']/f
   if dst.exists():assert dst.read_bytes()==(R/'displays/products'/x['slug']/f).read_bytes()
-assert sum(x['askingReferenceChangeEUR'] for x in q['assessments'])==667000
-assert sum(x['askingReferenceEUR'] for x in c['projects'])==25941000
-print(json.dumps({'result':'PASS','currentFactsheets':pdfs,'pdfPagesChecked':4*pdfs,'protectedPresentationFiles':len(protected),'preservedNavigationAndNonProjectFunctions':7,'enquirySelectionControls':129,'askingReferenceIncreaseEUR':667000,'underlyingPrivateProductsRerun':False},indent=2))
+assert sum(x['askingReferenceChangeEUR'] for x in q['assessments'])==592000
+assert sum(x['askingReferenceEUR'] for x in c['projects'])==25866000
+print(json.dumps({'result':'PASS','currentFactsheets':pdfs,'pdfPagesChecked':4*pdfs,'protectedPresentationFiles':len(protected),'preservedNavigationAndNonProjectFunctions':7,'enquirySelectionControls':128,'askingReferenceIncreaseEUR':592000,'underlyingPrivateProductsRerun':False},indent=2))

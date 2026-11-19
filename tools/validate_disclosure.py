@@ -42,7 +42,7 @@ def validate():
   for field in ['productPosition','offeredEdition','developmentEdition']:
    assert not RAW_RESULTS.search(a[field]),(a['ref'],field)
   assert not any('potential sensitive filenames' in x.lower() for x in a['sellerConditions']),a['ref']
- for a in json.loads((ROOT/'assets/portfolio-identity-ledger.json').read_text())['assets'][129:]:
+ for a in json.loads((ROOT/'assets/portfolio-identity-ledger.json').read_text())['assets'][128:]:
   folder=ROOT/'displays/products'/a['slug']
   for name in ['index.html','product-brief.md']:
    text=(folder/name).read_text()
@@ -50,5 +50,5 @@ def validate():
    assert not PRIVATE.search(SOURCE_HASH.sub('[SOURCE_PROVENANCE]',text)),(a['id'],name)
  assert not list(ROOT.glob('**/*Recovery_Key*'))
  assert not (ROOT/'audit-20261021').exists()
- return {'result':'PASS','publicAssets':129,'publicDocumentsChecked':387,'registeredSourceHashCount':len(known_source_hashes),'privateImplementationPathsAbsent':True,'credentialsAndPersonalContactsAbsent':True,'rawBenchmarkMetricsAbsent':True,'recoveryKeyAbsent':True}
+ return {'result':'PASS','publicAssets':128,'publicDocumentsChecked':384,'registeredSourceHashCount':len(known_source_hashes),'privateImplementationPathsAbsent':True,'credentialsAndPersonalContactsAbsent':True,'rawBenchmarkMetricsAbsent':True,'recoveryKeyAbsent':True}
 if __name__=='__main__':print(json.dumps(validate(),indent=2))

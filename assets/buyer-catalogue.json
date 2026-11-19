@@ -6857,59 +6857,6 @@
       "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/art-direction-visual-design-research-framework/",
       "factsheetUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/art-direction-visual-design-research-framework/factsheet.pdf",
       "briefUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/art-direction-visual-design-research-framework/product-brief.md"
-    },
-    {
-      "ref": "TA-IP-129",
-      "slug": "media-acquisition-processing-intelligence-platform",
-      "title": "Media Acquisition & Processing Intelligence Platform",
-      "referenceName": "Rosamund",
-      "categoryId": "audio-media",
-      "buyerGroupIds": [
-        "software",
-        "media",
-        "research"
-      ],
-      "summary": "Acquire permitted media, inspect stream integrity and retain reproducible evidence for archival workflows.",
-      "overview": "An independent media-acquisition and processing prototype with discovery, acquisition orchestration and bitstream-integrity analysis. A separately scoped development candidate adds an original-webpage resolver, first-party MP4 acquisition and a bounded job backend.",
-      "potentialBuyers": [
-        "Media archive developers",
-        "Digital preservation teams",
-        "Media workflow software companies"
-      ],
-      "capabilities": [
-        "Media discovery, acquisition-wrapper and processing workflow",
-        "Manifest, bitstream timing, audit and integrity-analysis logic",
-        "Local acquisition interface, mounted storage and evidence export",
-        "Written development: Written original-webpage resolver, first-party MP4 acquisition and bounded job backend"
-      ],
-      "outputTypes": [
-        "Verified-media records",
-        "Integrity reports",
-        "Acquisition evidence packages"
-      ],
-      "maturity": "Prototype",
-      "maturityNote": "v0.3.6 is the scoped main baseline. The v0.4 R3 acquisition candidate remains HOLD; source-specific live acquisition and production readiness are not established.",
-      "availability": "Defined AS IS first-party main and separately identified written development",
-      "askingReferenceEUR": 75000,
-      "materialBoundaries": [
-        "Current main includes acquisition orchestration around external media tools; those tools and their rights are not seller-owned IP.",
-        "Written first-party webpage-to-MP4 development remains unaccepted; live source success, a native resumable cloud uploader and production operation are not established."
-      ],
-      "offeredScope": [
-        "The agreed first-party main work and associated original documentation",
-        "The separately identified written development at the reviewed candidate source, with unresolved acceptance stated",
-        "The expressly agreed transferable first-party rights and delivery manifest",
-        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
-      ],
-      "excludedScope": [
-        "Third-party software, data, media, models and service entitlements beyond their own terms",
-        "Personal, customer and author content, private accounts and credentials",
-        "Future development, hosting, hardware, support and operating businesses unless expressly agreed"
-      ],
-      "profileUrl": "https://thearchitect-max.github.io/MyProjects/projects/media-acquisition-processing-intelligence-platform/",
-      "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/media-acquisition-processing-intelligence-platform/",
-      "factsheetUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/media-acquisition-processing-intelligence-platform/factsheet.pdf",
-      "briefUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/media-acquisition-processing-intelligence-platform/product-brief.md"
     }
   ]
 }

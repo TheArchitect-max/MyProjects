@@ -2,7 +2,7 @@
   "schema": "public-pricing-1",
   "basisDate": "2026-11-19",
   "currency": "EUR",
-  "statement": "Seller asking references for 129 independent AS IS assets, reconciled from the immutable published EUR 25,274,000 baseline plus individually identified additional first-party work. Existing written development is separately included with unresolved acceptance. EUR is authoritative; these amounts do not establish market value.",
+  "statement": "Seller asking references for 128 independent AS IS assets, reconciled from the immutable published EUR 25,274,000 baseline plus individually identified additional first-party work. Existing written development is separately included with unresolved acceptance. EUR is authoritative; these amounts do not establish market value.",
   "fields": [
     {
       "key": "sellerAskEUR",
@@ -46,14 +46,14 @@
     }
   ],
   "portfolio": {
-    "sellerAskEUR": 25941000,
-    "negotiationLowEUR": 20726100,
-    "negotiationHighEUR": 32479250,
-    "replacementCostEUR": 109063000,
-    "marketComparableProxyEUR": 122911022,
-    "incomeLicensingProxyEUR": 144112591,
-    "probabilityAdjustedStrategicValueEUR": 133978994,
-    "triangulatedEconomicReferenceEUR": 127563125
+    "sellerAskEUR": 25866000,
+    "negotiationLowEUR": 20666100,
+    "negotiationHighEUR": 32385500,
+    "replacementCostEUR": 108811500,
+    "marketComparableProxyEUR": 122665181,
+    "incomeLicensingProxyEUR": 143845215,
+    "probabilityAdjustedStrategicValueEUR": 133772868,
+    "triangulatedEconomicReferenceEUR": 127325462
   },
   "displayCurrency": {
     "base": "EUR",
@@ -251,11 +251,11 @@
     "factorCalibration": "All maturity, potential, marketability, commercialisation, rights reserve, sector and route factors are seller-selected scenario assumptions. Their numeric values are not independently calibrated success probabilities, transaction discounts or measured market observations.",
     "reassessment": {
       "assessedOn": "2026-11-19",
-      "assetsReviewed": 129,
-      "basis": "129 exact current GitHub sources reconciled individually to the published seller baseline; selected retained source inspections confirmed by matching current main and all open heads. Existing prices preserved; only specified additional work is added.",
+      "assetsReviewed": 128,
+      "basis": "128 remaining independent project source records following the owner-requested removal of the retired asset. All other per-project scope, source, prices and historical confidence remain unchanged.",
       "runtimeBoundary": "Source-reported acceptance and existing CI records were reviewed; underlying private projects were not re-executed during this catalogue update. Candidate and source-specific limits remain explicit.",
       "budgetCoverage": {
-        "FULL_SCOPED_BUDGET": 33,
+        "FULL_SCOPED_BUDGET": 32,
         "PARTIAL_SCOPED_BUDGET": 59,
         "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN": 37
       },
@@ -15130,163 +15130,16 @@
         "commercialEvidence": "No attributable project revenue, executed comparable IP sale, accepted external valuation or independently calibrated probability model is established in this assessment.",
         "acceptancePosition": "Source-specific delivery, rights, qualification and recipient acceptance remain subject to the stated asset conditions."
       }
-    },
-    {
-      "ref": "TA-IP-129",
-      "values": {
-        "sellerAskEUR": 75000,
-        "negotiationLowEUR": 60000,
-        "negotiationHighEUR": 93750,
-        "replacementCostEUR": 251500,
-        "marketComparableProxyEUR": 245841,
-        "incomeLicensingProxyEUR": 267376,
-        "probabilityAdjustedStrategicValueEUR": 206126,
-        "triangulatedEconomicReferenceEUR": 237663
-      },
-      "basisDate": "2026-11-19",
-      "sourceIds": [
-        "WIPO-COST",
-        "KNAB-2026"
-      ],
-      "costBasisNote": "Initial first-party main budget and separate written-development budget: 2,330 assumed hours at EUR 94/hour plus 15%; recreation EUR 251,500, seller ask EUR 75,000. Third-party implementations and future functionality are excluded; written development remains unaccepted.",
-      "costBudgets": [
-        {
-          "kind": "Scoped implementation reproduction budget",
-          "economicAssessmentAt": "2026-11-19",
-          "scope": "Media discovery, acquisition-wrapper and processing workflow; Manifest, bitstream timing, audit and integrity-analysis logic; Local acquisition interface, mounted storage and evidence export; Media fixtures, reproduction tools and first-party architecture documents",
-          "sourceEdition": "NEW_PROJECT_MAIN",
-          "sourceMainSha": "8722bd12eea8e86db73e791fde5665e0ffc1f5ea",
-          "sourceCandidateSha": null,
-          "workPackages": [
-            {
-              "scope": "Media discovery, acquisition-wrapper and processing workflow",
-              "lowEffortHours": 550
-            },
-            {
-              "scope": "Manifest, bitstream timing, audit and integrity-analysis logic",
-              "lowEffortHours": 420
-            },
-            {
-              "scope": "Local acquisition interface, mounted storage and evidence export",
-              "lowEffortHours": 260
-            },
-            {
-              "scope": "Media fixtures, reproduction tools and first-party architecture documents",
-              "lowEffortHours": 450
-            }
-          ],
-          "assumedHours": 1680,
-          "hourlyRateEUR": 94,
-          "rawEngineeringCostEUR": 157920,
-          "coordinationToolingAllowance": 0.15,
-          "withAllowanceEUR": 181608,
-          "adoptedRecreationIncrementEUR": 181500,
-          "rounding": "DOWN_TO_EUR_500",
-          "previousRecreationCostEUR": 0,
-          "currentRecreationCostEUR": 181500,
-          "boundary": "Newly listed or added first-party work only; no earlier baseline work is added again. Equivalent effort is estimated, not actual expenditure or established market value.",
-          "sellerAskRule": "Add 30% of this adopted recreation increment, rounded down to EUR 500, to the preserved seller asking baseline. No portfolio target is used.",
-          "effortSensitivity": {
-            "lowEffortHours": 840,
-            "baseEffortHours": 1680,
-            "highEffortHours": 3360,
-            "lowCostEUR": 90500,
-            "baseCostEUR": 181500,
-            "highCostEUR": 363000,
-            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
-          }
-        },
-        {
-          "kind": "Scoped implementation reproduction budget",
-          "economicAssessmentAt": "2026-11-19",
-          "scope": "Written original-webpage resolver, first-party MP4 acquisition and bounded job backend",
-          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
-          "sourceMainSha": "8722bd12eea8e86db73e791fde5665e0ffc1f5ea",
-          "sourceCandidateSha": "d6509397442d085b582b6a14937801bebb03b128",
-          "workPackages": [
-            {
-              "scope": "Written original-webpage resolver, first-party MP4 acquisition and bounded job backend",
-              "lowEffortHours": 650
-            }
-          ],
-          "assumedHours": 650,
-          "hourlyRateEUR": 94,
-          "rawEngineeringCostEUR": 61100,
-          "coordinationToolingAllowance": 0.15,
-          "withAllowanceEUR": 70265,
-          "adoptedRecreationIncrementEUR": 70000,
-          "rounding": "DOWN_TO_EUR_500",
-          "previousRecreationCostEUR": 181500,
-          "currentRecreationCostEUR": 251500,
-          "boundary": "Additional first-party work only. Existing baseline work, repeated historical versions, external software/data and unimplemented goals are excluded. Effort is a seller reproduction assumption, not logged work or established market value. Written candidate acceptance remains unresolved.",
-          "sellerAskRule": "Add 30% of this adopted recreation increment, rounded down to EUR 500, to the preserved seller asking baseline. No portfolio target is used.",
-          "effortSensitivity": {
-            "lowEffortHours": 325,
-            "baseEffortHours": 650,
-            "highEffortHours": 1300,
-            "lowCostEUR": 35000,
-            "baseCostEUR": 70000,
-            "highCostEUR": 140500,
-            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
-          }
-        }
-      ],
-      "futureReference": {
-        "milestoneConditionedEconomicReferenceEUR": 294154,
-        "sensitivityDeltaEUR": 56491,
-        "currentStage": "P",
-        "targetStage": "V",
-        "targetMilestone": "Reach the next portfolio maturity stage with source-pinned, reproducible release checks, bounded claims and agreed handover evidence.",
-        "futureReferenceStatus": "CONDITIONAL",
-        "acceptanceRule": "Re-evaluate only when the stated maturity gate is evidenced; this amount is a model sensitivity, not a current price or forecast.",
-        "modelBasis": "Current economic-methodology formula; maturity stage alone changes.",
-        "milestoneConditionedEconomicReferenceUSD": 322628,
-        "sensitivityDeltaUSD": 61959
-      },
-      "calculationInputs": {
-        "stage": "P",
-        "potential": "H",
-        "sector": "Media & Creator Technology",
-        "route": "Media / creator software"
-      },
-      "valuesUSD": {
-        "sellerAskUSD": 82260,
-        "negotiationLowUSD": 65808,
-        "negotiationHighUSD": 102825,
-        "replacementCostUSD": 275845,
-        "marketComparableProxyUSD": 269638,
-        "incomeLicensingProxyUSD": 293258,
-        "probabilityAdjustedStrategicValueUSD": 226079,
-        "triangulatedEconomicReferenceUSD": 260669
-      },
-      "assessment": {
-        "assessedOn": "2026-11-19",
-        "offeredEdition": "0.3.6",
-        "financialScopeRule": "Preserved historical seller reference plus only the expressly identified additional first-party main/candidate work. Written candidate delivery is separate from acceptance. No guaranteed market floor is established.",
-        "costEvidenceStatus": "FULL_SCOPED_BUDGET",
-        "costEvidenceLabel": "Defined seller work-package budget",
-        "costEvidenceNote": "Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.",
-        "qualification": {
-          "technicalMaturity": "P",
-          "evidenceMaturity": "E2",
-          "ipRightsMaturity": "R0",
-          "commercialMaturity": "C2",
-          "transferReadiness": "T1"
-        },
-        "marketValueStatus": "NOT_ESTABLISHED",
-        "commercialEvidence": "No attributable project revenue, executed comparable IP sale, accepted external valuation or independently calibrated probability model is established in this assessment.",
-        "acceptancePosition": "Source-specific delivery, rights, qualification and recipient acceptance remain subject to the stated asset conditions."
-      }
     }
   ],
   "portfolioUSD": {
-    "sellerAskUSD": 28452089,
-    "negotiationLowUSD": 22732386,
-    "negotiationHighUSD": 35623241,
-    "replacementCostUSD": 119620298,
-    "marketComparableProxyUSD": 134808809,
-    "incomeLicensingProxyUSD": 158062690,
-    "probabilityAdjustedStrategicValueUSD": 146948161,
-    "triangulatedEconomicReferenceUSD": 139911236
+    "sellerAskUSD": 28369829,
+    "negotiationLowUSD": 22666578,
+    "negotiationHighUSD": 35520416,
+    "replacementCostUSD": 119344453,
+    "marketComparableProxyUSD": 134539171,
+    "incomeLicensingProxyUSD": 157769432,
+    "probabilityAdjustedStrategicValueUSD": 146722082,
+    "triangulatedEconomicReferenceUSD": 139650567
   }
 }

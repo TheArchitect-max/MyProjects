@@ -50,4 +50,4 @@ for a in c['projects']:
 for alias in read('route-aliases.json')['aliases']:
  target=R/'displays/products'/alias['legacySlug']/'factsheet.pdf'
  if target.exists():target.write_bytes((R/'displays/products'/alias['slug']/'factsheet.pdf').read_bytes())
-print('Built 129 deterministic factsheets with current project, evidence and pricing records.')
+print('Built 128 deterministic factsheets with current project, evidence and pricing records.')

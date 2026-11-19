@@ -5,21 +5,21 @@
   "fxReferenceDate": "2026-11-18",
   "ecbEURUSD": 1.0968,
   "ecbSourceUrl": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.eu.html",
-  "basis": "129 independently reviewed projects: the EUR 25,274,000 published seller baseline is retained, with EUR 667,000 of separately scoped additions. Current combined seller asking references: EUR 25,941,000. Seller assumptions; no independently established market valuation.",
+  "basis": "128 retained projects: the EUR 25,274,000 published seller baseline is retained, with EUR 592,000 of separately scoped additions. Current combined seller asking references: EUR 25,866,000. Seller assumptions; no independently established market valuation.",
   "coverage": {
-    "FULL_SCOPED_BUDGET": 33,
+    "FULL_SCOPED_BUDGET": 32,
     "PARTIAL_SCOPED_BUDGET": 59,
     "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN": 37
   },
   "totalsEUR": {
-    "sellerAskEUR": 25941000,
-    "negotiationLowEUR": 20726100,
-    "negotiationHighEUR": 32479250,
-    "replacementCostEUR": 109063000,
-    "marketComparableProxyEUR": 122911022,
-    "incomeLicensingProxyEUR": 144112591,
-    "probabilityAdjustedStrategicValueEUR": 133978994,
-    "triangulatedEconomicReferenceEUR": 127563125
+    "sellerAskEUR": 25866000,
+    "negotiationLowEUR": 20666100,
+    "negotiationHighEUR": 32385500,
+    "replacementCostEUR": 108811500,
+    "marketComparableProxyEUR": 122665181,
+    "incomeLicensingProxyEUR": 143845215,
+    "probabilityAdjustedStrategicValueEUR": 133772868,
+    "triangulatedEconomicReferenceEUR": 127325462
   },
   "projects": [
     {
@@ -2581,36 +2581,16 @@
       "changeEUR": 10000,
       "priceDecision": "BASELINE_PLUS_SCOPED_WORK",
       "pricingRationale": "Preserved seller asking baseline EUR 11,500; add EUR 10,000 for Native screen-reader test-plan and evidence-intake implementation; Adversarial receipt controls and source-bound regression fixtures; Scoped CPU evidence reconciliation and original qualification documentation; Native screen-reader operator capture, resumable workflow and fail-closed receipt reconciliation. Added recreation allowance EUR 33,500, from 316 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once."
-    },
-    {
-      "id": "TA-IP-129",
-      "alias": "Rosamund",
-      "title": "Media Acquisition & Processing Intelligence Platform",
-      "slug": "media-acquisition-processing-intelligence-platform",
-      "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/media-acquisition-processing-intelligence-platform/",
-      "profileUrl": "https://thearchitect-max.github.io/MyProjects/projects/media-acquisition-processing-intelligence-platform/",
-      "classification": "Prototype",
-      "sourceDeskReviewStatus": "SOURCE_DESK_COMPLETE_SCOPE_REVIEW",
-      "sourceIdentityStatus": "PORTFOLIO_PROVISIONAL",
-      "askingReferenceEUR": 75000,
-      "askingReferenceUSD": 82260,
-      "recreationCostEUR": 251500,
-      "costEvidenceStatus": "FULL_SCOPED_BUDGET",
-      "commercialStatus": "SELLER_ESTIMATE_MARKET_VALUE_NOT_ESTABLISHED",
-      "previousAskingReferenceEUR": 0,
-      "changeEUR": 75000,
-      "priceDecision": "INITIAL_SCOPED_REFERENCE",
-      "pricingRationale": "Preserved seller asking baseline EUR 0; add EUR 75,000 for Media discovery, acquisition-wrapper and processing workflow; Manifest, bitstream timing, audit and integrity-analysis logic; Local acquisition interface, mounted storage and evidence export; Media fixtures, reproduction tools and first-party architecture documents; Written original-webpage resolver, first-party MP4 acquisition and bounded job backend. Added recreation allowance EUR 251,500, from 2,330 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once."
     }
   ],
   "totalsUSD": {
-    "sellerAskUSD": 28452089,
-    "negotiationLowUSD": 22732386,
-    "negotiationHighUSD": 35623241,
-    "replacementCostUSD": 119620298,
-    "marketComparableProxyUSD": 134808809,
-    "incomeLicensingProxyUSD": 158062690,
-    "probabilityAdjustedStrategicValueUSD": 146948161,
-    "triangulatedEconomicReferenceUSD": 139911236
+    "sellerAskUSD": 28369829,
+    "negotiationLowUSD": 22666578,
+    "negotiationHighUSD": 35520416,
+    "replacementCostUSD": 119344453,
+    "marketComparableProxyUSD": 134539171,
+    "incomeLicensingProxyUSD": 157769432,
+    "probabilityAdjustedStrategicValueUSD": 146722082,
+    "triangulatedEconomicReferenceUSD": 139650567
   }
 }

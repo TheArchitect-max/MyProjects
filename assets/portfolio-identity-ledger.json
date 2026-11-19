@@ -1,16 +1,16 @@
 {
   "schema": "thearchitect-portfolio-identity-ledger-1",
   "basisDate": "2026-11-19",
-  "scope": "129 separate private project repositories; 121 source-side portfolio identities and eight provisional aliases. Three publication repositories are excluded.",
+  "scope": "128 separate private project repositories; 121 source-side portfolio identities and seven provisional aliases. Three publication repositories are excluded.",
   "inventory": {
-    "totalGitHubRepositories": 132,
-    "privateRepositories": 130,
+    "totalGitHubRepositories": 131,
+    "privateRepositories": 129,
     "publicRepositories": 2,
-    "distinctPrivateIPAssets": 129,
-    "publishedIndividualAskingReferences": 129,
+    "distinctPrivateIPAssets": 128,
+    "publishedIndividualAskingReferences": 128,
     "newUnpricedAssets": 0,
     "verifiedSourceIdentities": 121,
-    "provisionalPortfolioIdentities": 8
+    "provisionalPortfolioIdentities": 7
   },
   "exclusions": {
     "publicRepositoryCount": 2,
@@ -1556,18 +1556,6 @@
       "financialStatus": "Dated seller asking reference; market value not established",
       "identityVerified": false,
       "description": "An art-direction research framework with an implemented HTML/CSS design-system prototype, original comparative studies and source-bound browser evidence."
-    },
-    {
-      "id": "TA-IP-129",
-      "alias": "Rosamund",
-      "title": "Media Acquisition & Processing Intelligence Platform",
-      "slug": "media-acquisition-processing-intelligence-platform",
-      "profileUrl": "https://thearchitect-max.github.io/MyProjects/projects/media-acquisition-processing-intelligence-platform/",
-      "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/media-acquisition-processing-intelligence-platform/",
-      "maturity": "Prototype",
-      "financialStatus": "Dated seller asking reference; market value not established",
-      "identityVerified": false,
-      "description": "An independent media-acquisition and processing prototype with discovery, acquisition orchestration and bitstream-integrity analysis. A separately scoped development candidate adds an original-webpage resolver, first-party MP4 acquisition and a bounded job backend."
     }
   ]
 }

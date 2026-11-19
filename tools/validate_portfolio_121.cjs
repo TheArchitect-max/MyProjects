@@ -4,10 +4,10 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),math=require('../assets/pricing-math.js');
 const root=path.resolve(__dirname,'..'),read=f=>fs.readFileSync(path.join(root,f),'utf8'),json=f=>JSON.parse(read(f));
 const ledger=json('assets/portfolio-identity-ledger.json'),review=json('assets/portfolio-reassessment-20261107.json'),buyers=json('assets/buyer-catalogue.json'),pricing=json('assets/pricing-catalogue.json'),financial=json('assets/pricing-review-20261108.json'),mapping=json('displays/project-map.json');
-const expected=Array.from({length:129},(_,i)=>'TA-IP-'+String(i+1).padStart(3,'0'));
+const expected=Array.from({length:128},(_,i)=>'TA-IP-'+String(i+1).padStart(3,'0'));
 for(const [rows,key] of [[ledger.assets,'id'],[review.assessments,'id'],[buyers.projects,'ref'],[pricing.projects,'ref'],[financial.projects,'id'],[mapping.projects,'ref']])assert.deepEqual(rows.map(x=>x[key]).sort(),expected);
-assert.equal(new Set(ledger.assets.map(x=>x.alias.toLowerCase())).size,129);assert.equal(new Set(ledger.assets.map(x=>x.slug)).size,129);
-assert.equal(ledger.inventory.totalGitHubRepositories,132);assert.equal(ledger.inventory.privateRepositories,130);assert.equal(ledger.inventory.distinctPrivateIPAssets,129);assert.equal(ledger.inventory.publishedIndividualAskingReferences,129);assert.equal(ledger.inventory.newUnpricedAssets,0);
+assert.equal(new Set(ledger.assets.map(x=>x.alias.toLowerCase())).size,128);assert.equal(new Set(ledger.assets.map(x=>x.slug)).size,128);
+assert.equal(ledger.inventory.totalGitHubRepositories,131);assert.equal(ledger.inventory.privateRepositories,129);assert.equal(ledger.inventory.distinctPrivateIPAssets,128);assert.equal(ledger.inventory.publishedIndividualAskingReferences,128);assert.equal(ledger.inventory.newUnpricedAssets,0);
 const decisions={};for(const a of buyers.projects){
  const r=review.assessments.find(x=>x.id===a.ref),p=pricing.projects.find(x=>x.ref===a.ref),f=financial.projects.find(x=>x.id===a.ref),l=ledger.assets.find(x=>x.id===a.ref),m=mapping.projects.find(x=>x.ref===a.ref);
  assert.equal(l.title,a.title);assert.equal(l.alias,a.referenceName);assert.equal(m.url,a.displayUrl);assert.equal(m.factsheetUrl,a.factsheetUrl);assert.equal(m.priceReferenceStatus,'DATED_SELLER_REFERENCE');
@@ -21,13 +21,13 @@ const decisions={};for(const a of buyers.projects){
  for(const name of ['index.html','factsheet.pdf','product-brief.md'])assert(fs.existsSync(path.join(root,'displays/products',a.slug,name)),a.ref+' missing '+name);
  const display=read('displays/products/'+a.slug+'/index.html');assert(display.includes('data-source-requalification-20261107="documentary-review"'));assert(display.includes('EUR 1 = USD 1.0968; ECB 2026-11-18'));assert(!display.includes('EUR 1 = USD 1.1216'));
 }
-assert.deepEqual(decisions,{BASELINE_PLUS_SCOPED_WORK:39,BASELINE_RETAINED:89,INITIAL_SCOPED_REFERENCE:1});
-assert.equal(new Set(review.assessments.map(x=>x.sourceMainSha)).size,129); // distinct repository baselines
-assert.equal(review.summary.projectSpecificSourceDeskReviews,129);assert.equal(review.summary.freshFunctionalSourceReexecutions,0);assert.equal(review.summary.fullCommercialRequalifications,0);assert.equal(ledger.assets.filter(x=>x.identityVerified).length,121);
+assert.deepEqual(decisions,{BASELINE_PLUS_SCOPED_WORK:39,BASELINE_RETAINED:89});
+assert.equal(new Set(review.assessments.map(x=>x.sourceMainSha)).size,128); // distinct repository baselines
+assert.equal(review.summary.projectSpecificSourceDeskReviews,128);assert.equal(review.summary.freshFunctionalSourceReexecutions,0);assert.equal(review.summary.fullCommercialRequalifications,0);assert.equal(ledger.assets.filter(x=>x.identityVerified).length,121);
 assert.equal(math.verifyCatalogue(pricing).status,'PASS');assert.equal(pricing.displayCurrency.rate,1.0968);assert.equal(pricing.displayCurrency.date,'2026-11-18');assert.deepEqual(financial.coverage,pricing.methodology.reassessment.budgetCoverage);
-for(const [page,pattern] of [['displays/index.html',/class="asset-card"/g],['portfolio-register.html',/<tr data-search=/g],['portfolio-evaluation.html',/<tr data-filter=/g],['portfolio-pricing-review.html',/<tr data-search=/g]])assert.equal((read(page).match(pattern)||[]).length,129);
+for(const [page,pattern] of [['displays/index.html',/class="asset-card"/g],['portfolio-register.html',/<tr data-search=/g],['portfolio-evaluation.html',/<tr data-filter=/g],['portfolio-pricing-review.html',/<tr data-search=/g]])assert.equal((read(page).match(pattern)||[]).length,128);
 for(const file of ['buyer-catalogue.json','buyer-dossiers.json','pricing-catalogue.json','evaluation-sources.json','calculation-validation.json'])assert.equal(read('assets/'+file),read('displays/assets/'+file));
-assert(read('index.html').includes('showroom39-continuity-20261119'));new Function(read('assets/im.js'));new Function(read('displays/assets/exhibition.js'));
+assert(read('index.html').includes('showroom40-catalogue-20261119'));new Function(read('assets/im.js'));new Function(read('displays/assets/exhibition.js'));
 // Older source/price sessions are immutable historical snapshots.
 for(const phase of ['S02','S03','S04'])for(const h of json('assets/source-price-session-20261108-'+phase+'.json').projects){assert(review.assessments.some(x=>x.id===h.assetId));assert(h.datedSellerAskEUR>0);}
-console.log(JSON.stringify({status:'PASS',assets:129,decisions,individualSourcePins:129,privateSourceReexecutions:0,marketValueEstablished:false},null,2));
+console.log(JSON.stringify({status:'PASS',assets:128,decisions,individualSourcePins:128,privateSourceReexecutions:0,marketValueEstablished:false},null,2));

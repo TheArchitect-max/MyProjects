@@ -12,13 +12,13 @@
 
 ## Asset identity and information
 
-The public catalogue contains 129 individually identified software and research IP assets. Each asset has one current TA-IP reference, canonical project title and feminine reference name. Individual presentations link to the asset dossier, factsheet PDF and product brief. Compatibility routes preserve earlier links without creating additional assets. Public repositories, publication infrastructure and seller-excluded literary archives are excluded from the asset count. All 129 projects are linked to distinct private repositories. Source-side identity records confirm 121 portfolio assignments. TA-IP-122 through TA-IP-129 retain provisional portfolio aliases.
+The public catalogue contains 128 individually identified software and research IP assets. Each asset has one current TA-IP reference, canonical project title and feminine reference name. Individual presentations link to the asset dossier, factsheet PDF and product brief. Compatibility routes preserve earlier links without creating additional assets. Public repositories, publication infrastructure and seller-excluded literary archives are excluded from the asset count. All 128 projects are linked to distinct private repositories. Source-side identity records confirm 121 portfolio assignments. TA-IP-122 through TA-IP-128 retain provisional portfolio aliases.
 
 ## Financial references
 
 All eight financial references are presented in EUR and indicative USD, with a dated exchange rate, stated cost assumptions, conditional scenarios and reproducible arithmetic. Individual asking references are seller inputs. Recreation estimates are assumed equivalent engineering costs, not recorded expenditure or an absolute minimum. Market value is not established; final consideration depends on the agreed work, rights and delivery. Portfolio totals are sums of individual references. The full-portfolio asking offer applies a fixed **10% discount** to the sum of current individual asking references for all listed projects acquired in one transaction. The amount updates with the catalogue. Selected groups are quoted separately, and availability, scope, rights and final consideration require written agreement.
 
-129 independently reviewed projects: the EUR 25,274,000 published seller baseline is retained, with EUR 667,000 of separately scoped additions. Current combined seller asking references: EUR 25,941,000. [Review the baseline-to-current reconciliation](AUDIT_2026-11-19_PRICE_CONTINUITY.md), including every project and its scope addition. The earlier [snapshot](AUDIT_2026-11-19.md) remains historical.
+128 independently reviewed projects: the EUR 25,274,000 published seller baseline is retained, with EUR 592,000 of separately scoped additions. Current combined seller asking references: EUR 25,866,000. [Review the current catalogue removal and totals](AUDIT_2026-11-19_MAPIP_REMOVAL.md), including every project and its scope addition. The earlier [snapshot](AUDIT_2026-11-19.md) remains historical.
 
 ## Controlled acquisition review
 
