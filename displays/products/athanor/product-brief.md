@@ -2,15 +2,15 @@
 
 TA-IP-002 | Reference name: Elara
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
-A research platform for evaluating network disruption and recovery choices with traceable comparative outputs.
+Adds read-only leave-one-scenario-out analysis of recovery-choice stability to the existing synthetic network-resilience workbench.
 
-Identified edition: 3.7.0
+Identified edition: 3.7.0 package / merged research extensions through 3.10
 
-Network-resilience research software for comparing disruptions, recovery options and resource-constrained repair plans.
+Adds read-only leave-one-scenario-out analysis of recovery-choice stability to the existing synthetic network-resilience workbench.
 
 ## Potential acquirers
 
@@ -20,11 +20,11 @@ Network-resilience research software for comparing disruptions, recovery options
 
 ## Documented functions
 
-- Model network disruption and recovery scenarios
-- Compare bounded repair and resource options
-- Review recovery-option trade-offs
 - Assess scenario robustness
 - Export traceable evaluation summaries
+- Scenario influence and decision-stability analysis
+- Deterministic replay and edge-case verification
+- Separate release and research-extension documentation
 
 ## Output types
 
@@ -34,33 +34,29 @@ Network-resilience research software for comparing disruptions, recovery options
 
 ## Material scope boundaries
 
-- Research simulations and software checks do not establish physical network resilience or universal optimisation.
-- Development extensions are offered separately from the published release and require delivery-specific acceptance.
-- The EUR 99,000 asking reference was calculated for v3.7.0 and separately scoped development increments (EUR 21,000 assumed work on EUR 520,000 legacy base). Main has v3.7.0 but later decision-frontier/leave-one-out candidate work has not been merged. Do not present EUR 99,000 as an independently assessed v3.7-only value; no additional uplift is supported.
+- The packaged execution baseline remains 3.7.0. Real-network data admission and domain-specific operational qualification remain open; scenario stability is not real-world generalization.
 
 ## Acquisition evidence profile
 
-- Technical scope: V — A research platform for evaluating network disruption and recovery choices with traceable comparative outputs. The offered edition and material boundaries govern review.
+- Technical scope: V — Adds read-only leave-one-scenario-out analysis of recovery-choice stability to the existing synthetic network-resilience workbench. The packaged execution baseline remains 3.7.0. Real-network data admission and domain-specific operational qualification remain open; scenario stability is not real-world generalization.
 - Evidence and validation: E3 — Tests, validation and provenance/release evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
 - Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
 - Delivery and handover: T1 — Implementation exists but core transfer evidence is incomplete. The listed conditions and written delivery agreement govern acceptance.
 
-Offered first-party scope: Current first-party main software only as independently defined from unmerged development. The EUR 99,000 asking reference was calculated for v3.7.0 and separately scoped development increments (EUR 21,000 assumed work on EUR 520,000 legacy base). Main has v3.7.0 but later decision-frontier/leave-one-out candidate work has not been merged. Do not present EUR 99,000 as an independently assessed v3.7-only value; no additional uplift is supported.
+Offered first-party scope: Existing first-party main-source work: Adds read-only leave-one-scenario-out analysis of recovery-choice stability to the existing synthetic network-resilience workbench. The packaged execution baseline remains 3.7.0. Real-network data admission and domain-specific operational qualification remain open; scenario stability is not real-world generalization.
 
-Development: Open, unmerged development: v3.10 candidate: fail-closed leave-one-scenario-out decision stability. Not a released product or an automatic expansion of priced scope.
+Development: Open, unmerged development: S03A draft: rights-aware dataset intake screening with one-ZIP CPU proof gate This is outside the offered main-source budget.
 
 ## Conditions before handover
 
+- The packaged execution baseline remains 3.7.0. Real-network data admission and domain-specific operational qualification remain open; scenario stability is not real-world generalization.
 - Reconcile exact main/candidate SHA, evidenced first-party scope, and seller asking-price basis before any binding AS-IS transfer.
 - Agree and freeze the exact first-party delivery edition, rights, third-party obligations and excluded content.
-- Review source-specific reproducibility, component and security documentation under agreed confidentiality.
-- Complete the relevant application qualification and recipient handover acceptance.
 
 ## Qualification objectives
 
-- Evaluate representative intended-use cases against the offered functions and material boundaries.
-- Agree measurable acceptance criteria and the delivery package before transfer.
+- The packaged execution baseline remains 3.7.0. Real-network data admission and domain-specific operational qualification remain open; scenario stability is not real-world generalization.
 - Independent legal ownership/title opinion not performed by this internal audit.
 - Freedom-to-operate legal opinion not performed unless separately evidenced.
 - Independent penetration test not assumed unless separately evidenced.
@@ -69,28 +65,28 @@ Development: Open, unmerged development: v3.10 candidate: fail-closed leave-one-
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 99,000 | 111,019 |
-| Negotiation reference - low | 78,000 | 87,469 |
-| Negotiation reference - high | 125,000 | 140,175 |
-| Recreation cost estimate | 541,000 | 606,677 |
-| Marketability cost scenario | 397,635 | 445,908 |
-| Monetisation cost scenario | 275,910 | 309,405 |
-| Risk-adjusted strategic reference | 136,177 | 152,709 |
-| Weighted economic reference | 317,621 | 356,180 |
+| Seller asking reference | 102,000 | 111,874 |
+| Negotiation reference - low | 81,600 | 89,499 |
+| Negotiation reference - high | 127,500 | 139,842 |
+| Recreation cost estimate | 551,000 | 604,337 |
+| Marketability cost scenario | 404,985 | 444,188 |
+| Monetisation cost scenario | 281,010 | 308,212 |
+| Risk-adjusted strategic reference | 138,694 | 152,120 |
+| Weighted economic reference | 323,492 | 354,806 |
 
-The recreation estimate comprises the retained expressly priced scope and the separately disclosed non-overlapping implementation budgets. Historical anchors and each successive scoped increment reconcile in the calculation below. Equivalent effort is a seller estimate; market value, actual expenditure and independent quotations are not established. Reuses the priced release foundation. Only implemented development software is included; independent network/field qualification and future release work are excluded.
+Non-overlapping implemented main-source increment: 96 assumed hours at EUR 94/hour, 15% allowance, EUR 10,000 adopted recreation increment and EUR 3,000 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project. Earlier priced work is counted once; its legacy uncertainty remains.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source README and v3.7.0 release/evidence records report 74/74 software acceptance and historical Colab validation. Draft PR #17 describes 25 authored tests but has unclosed exact-head full-gate checks.
+Current main README, full Git inventory and comparison with the prior reviewed main identify this implemented change: Adds read-only leave-one-scenario-out analysis of recovery-choice stability to the existing synthetic network-resilience workbench. Retained acceptance is source-reported and remains bound to its original source and environment.
 
-Remaining limits: No validated real-world network interventions, universally optimal repairs, full v3.10 acceptance, commercial security qualification or buyer-ready rights transfer.
+Remaining limits: The packaged execution baseline remains 3.7.0. Real-network data admission and domain-specific operational qualification remain open; scenario stability is not real-world generalization.
 
-Price decision: The EUR 99,000 asking reference was calculated for v3.7.0 and separately scoped development increments (EUR 21,000 assumed work on EUR 520,000 legacy base). Main has v3.7.0 but later decision-frontier/leave-one-out candidate work has not been merged. Do not present EUR 99,000 as an independently assessed v3.7-only value; no additional uplift is supported.
+Price decision: Non-overlapping implemented main-source increment: 96 assumed hours at EUR 94/hour, 15% allowance, EUR 10,000 adopted recreation increment and EUR 3,000 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

@@ -2,7 +2,7 @@
 
 TA-IP-117 | Reference name: Petronella
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -48,7 +48,7 @@ A theoretical-physics research framework with classical lattice and scalar-field
 
 Offered first-party scope: Previously budgeted classical lattice and R2g diagnostic work is retained once. Only implemented R2h-R2l symmetry, native-source, dynamic anisotropy and mechanism-probe software with its regression/documentation is added. R2m, physical gravity, hardware, observed data and future research are excluded.
 
-Development: Open, unmerged development: R2m: exact proper-cubic lattice covariance with persistent source anisotropy. Not a released product or an automatic expansion of priced scope.
+Development: Open, unmerged development: R2m: exact proper-cubic lattice covariance with persistent source anisotropy This is outside the offered main-source budget.
 
 ## Conditions before handover
 
@@ -66,28 +66,28 @@ Development: Open, unmerged development: R2m: exact proper-cubic lattice covaria
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 27,500 | 30,839 |
-| Negotiation reference - low | 22,500 | 25,232 |
-| Negotiation reference - high | 34,500 | 38,688 |
-| Recreation cost estimate | 92,000 | 103,169 |
-| Marketability cost scenario | 35,581 | 39,901 |
-| Monetisation cost scenario | 23,460 | 26,308 |
-| Risk-adjusted strategic reference | 7,270 | 8,153 |
-| Weighted economic reference | 37,353 | 41,888 |
+| Seller asking reference | 27,500 | 30,162 |
+| Negotiation reference - low | 22,500 | 24,678 |
+| Negotiation reference - high | 34,500 | 37,840 |
+| Recreation cost estimate | 92,000 | 100,906 |
+| Marketability cost scenario | 35,581 | 39,025 |
+| Monetisation cost scenario | 23,460 | 25,731 |
+| Risk-adjusted strategic reference | 7,270 | 7,974 |
+| Weighted economic reference | 37,353 | 40,969 |
 
 The retained priced scope and explicitly non-overlapping implementation budgets reconcile below. Effort and prices remain seller assumptions, not actual expenditure, independent quotations or established market value. Previously budgeted classical lattice and R2g diagnostic work is retained once. Only implemented R2h-R2l symmetry, native-source, dynamic anisotropy and mechanism-probe software with its regression/documentation is added. R2m, physical gravity, hardware, observed data and future research are excluded.
 
-Coverage describes stated seller estimates only. All recreation amounts have an explicit scoped budget; effort remains an assumption.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source R2l acceptance JSON records 56/56 owner and local CPU tests, 781 matching diagnostics; R2m PR reports 96/96 local tests.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source R2l acceptance JSON records 56/56 owner and local CPU tests, 781 matching diagnostics; R2m PR reports 96/96 local tests.
 
 Remaining limits: R2m independent Colab evidence pending; no emergent gravity metric, SO(3) isotropy, independent physical observation or validation of spacetime microstructure.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

@@ -2,7 +2,7 @@
 
 TA-IP-099 | Reference name: Elysia
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -46,7 +46,7 @@ The v0.4 software supports repeatable research studies and controlled experiment
 
 Offered first-party scope: Present first-party offline research software, corrected experimental derivative, implemented campaign-audit, multi-seed study and resumable-experiment controls, documentation and retained historical/final/checkpoint material counted once. Missing original historical data and weights, proven consciousness, numerical equivalence, external platform ownership, third-party rights, full-scale future GPU qualification and future research are excluded.
 
-Development: v0.4 resumable research controller (merged)
+Development: No separate open candidate at the reviewed snapshot.
 
 ## Conditions before handover
 
@@ -69,28 +69,28 @@ Development: v0.4 resumable research controller (merged)
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 60,000 | 67,284 |
-| Negotiation reference - low | 48,000 | 53,827 |
-| Negotiation reference - high | 75,000 | 84,105 |
-| Recreation cost estimate | 200,000 | 224,280 |
-| Marketability cost scenario | 168,300 | 188,732 |
-| Monetisation cost scenario | 114,750 | 128,681 |
-| Risk-adjusted strategic reference | 83,449 | 93,580 |
-| Weighted economic reference | 135,817 | 152,305 |
+| Seller asking reference | 60,000 | 65,808 |
+| Negotiation reference - low | 48,000 | 52,646 |
+| Negotiation reference - high | 75,000 | 82,260 |
+| Recreation cost estimate | 200,000 | 219,360 |
+| Marketability cost scenario | 168,300 | 184,591 |
+| Monetisation cost scenario | 114,750 | 125,858 |
+| Risk-adjusted strategic reference | 83,449 | 91,527 |
+| Weighted economic reference | 135,817 | 148,964 |
 
 Disclosed base/increment assumptions reconcile to the retained recreation anchor. Effort remains an analyst estimate for its original scope.
 
-Coverage describes stated seller estimates only. All recreation amounts have an explicit scoped budget; effort remains an assumption.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Repository retains reconstructed 1000-step campaigns and checkpoint replay tools; original historical v33.1 NPZ unrecovered, five-seed 400-agent replication NOT_RUN.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Repository retains reconstructed 1000-step campaigns and checkpoint replay tools; original historical v33.1 NPZ unrecovered, five-seed 400-agent replication NOT_RUN.
 
 Remaining limits: No synthetic consciousness, sentience, faithful historical reconstruction, independently replicated physical/biological effects or production GPU campaign.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

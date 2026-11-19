@@ -2,7 +2,7 @@
 
 TA-IP-118 | Reference name: Diotima
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -65,28 +65,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 15,500 | 17,382 |
-| Negotiation reference - low | 13,500 | 15,139 |
-| Negotiation reference - high | 20,500 | 22,989 |
-| Recreation cost estimate | 53,000 | 59,434 |
-| Marketability cost scenario | 20,498 | 22,986 |
-| Monetisation cost scenario | 13,515 | 15,156 |
-| Risk-adjusted strategic reference | 4,188 | 4,696 |
-| Weighted economic reference | 21,518 | 24,130 |
+| Seller asking reference | 15,500 | 17,000 |
+| Negotiation reference - low | 13,500 | 14,807 |
+| Negotiation reference - high | 20,500 | 22,484 |
+| Recreation cost estimate | 53,000 | 58,130 |
+| Marketability cost scenario | 20,498 | 22,482 |
+| Monetisation cost scenario | 13,515 | 14,823 |
+| Risk-adjusted strategic reference | 4,188 | 4,593 |
+| Weighted economic reference | 21,518 | 23,601 |
 
 The retained priced scope and explicitly non-overlapping implementation budgets reconcile below. Effort and prices remain seller assumptions, not actual expenditure, independent quotations or established market value. Previously budgeted R1/R2 foundations are retained once. Added first-party R3-R8 proof, provenance, comparison, challenge, review-packet and decision-audit code is priced within its bounded implemented scope. External source rights, authenticated reviewers, scientific discoveries, operating services and future work are excluded.
 
-Coverage describes stated seller estimates only. All recreation amounts have an explicit scoped budget; effort remains an assumption.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source retains the original faulty-notebook FAIL and a separate corrected requalification: 243/243 integrated tests, 27/27 source identities and corrected question-index verification.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source retains the original faulty-notebook FAIL and a separate corrected requalification: 243/243 integrated tests, 27/27 source identities and corrected question-index verification.
 
 Remaining limits: Corrected acceptance does not establish authenticated reviewer independence, universal reasoning correctness, new science or production readiness. Evidence-only update; asking price unchanged.
 
-Price decision: No additional non-overlapping implementation budget: acceptance/documentation or already-priced tooling only.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

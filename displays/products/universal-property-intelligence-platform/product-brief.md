@@ -2,7 +2,7 @@
 
 TA-IP-106 | Reference name: Vesta
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -64,28 +64,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 6,000 | 6,728 |
-| Negotiation reference - low | 4,500 | 5,046 |
-| Negotiation reference - high | 7,500 | 8,411 |
-| Recreation cost estimate | 18,500 | 20,746 |
-| Marketability cost scenario | 14,153 | 15,871 |
-| Monetisation cost scenario | 13,736 | 15,404 |
-| Risk-adjusted strategic reference | 7,017 | 7,869 |
-| Weighted economic reference | 12,659 | 14,196 |
+| Seller asking reference | 6,000 | 6,581 |
+| Negotiation reference - low | 4,500 | 4,936 |
+| Negotiation reference - high | 7,500 | 8,226 |
+| Recreation cost estimate | 18,500 | 20,291 |
+| Marketability cost scenario | 14,153 | 15,523 |
+| Monetisation cost scenario | 13,736 | 15,066 |
+| Risk-adjusted strategic reference | 7,017 | 7,696 |
+| Weighted economic reference | 12,659 | 13,884 |
 
 Recreation estimate: EUR 12,500 retained scope component plus EUR 6,000 for the explicitly scoped implementation work budget, giving EUR 18,500. The scoped budget assumes 56 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has its own disclosed work-package estimate; overlapping work must not be added twice. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.
 
-Coverage describes stated seller estimates only. All recreation amounts have an explicit scoped budget; effort remains an assumption.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-README describes local JSON/CSV document registration, SHA-bound evidence registry and canonical property room/asset graph with source participation logs.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. README describes local JSON/CSV document registration, SHA-bound evidence registry and canonical property room/asset graph with source participation logs.
 
 Remaining limits: Hashed documents may not have been semantically interpreted; no independently verified valuation, actual building condition, insurer acceptance or production SaaS.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

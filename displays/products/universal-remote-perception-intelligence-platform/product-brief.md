@@ -2,7 +2,7 @@
 
 TA-IP-101 | Reference name: Pallas
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -46,7 +46,7 @@ An offline perception-research prototype for controlled experiments and evidence
 
 Offered first-party scope: Existing first-party offline controlled-study, custody, scoring and IP-governance software, its documentation and tests, with a separately identified unmerged P1.2 candidate. Seven internal component records are counted once within this project. Physical sensing hardware, hidden-object inference, scientifically demonstrated anomalous or sensor-free perception, independent custody/security certification, third-party rights and future research are excluded.
 
-Development: Open, unmerged development: P1.2: Repository security hardening, canonical evidence, custody recovery and offline audit. Not a released product or an automatic expansion of priced scope.
+Development: Open, unmerged development: P1.2: Repository security hardening, canonical evidence, custody recovery and offline audit This is outside the offered main-source budget.
 
 ## Conditions before handover
 
@@ -65,28 +65,28 @@ Development: Open, unmerged development: P1.2: Repository security hardening, ca
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 33,000 | 37,006 |
-| Negotiation reference - low | 26,400 | 29,605 |
-| Negotiation reference - high | 41,250 | 46,258 |
-| Recreation cost estimate | 110,000 | 123,354 |
-| Marketability cost scenario | 71,528 | 80,211 |
-| Monetisation cost scenario | 63,113 | 70,775 |
-| Risk-adjusted strategic reference | 35,466 | 39,772 |
-| Weighted economic reference | 66,841 | 74,955 |
+| Seller asking reference | 33,000 | 36,194 |
+| Negotiation reference - low | 26,400 | 28,956 |
+| Negotiation reference - high | 41,250 | 45,243 |
+| Recreation cost estimate | 110,000 | 120,648 |
+| Marketability cost scenario | 71,528 | 78,452 |
+| Monetisation cost scenario | 63,113 | 69,222 |
+| Risk-adjusted strategic reference | 35,466 | 38,899 |
+| Weighted economic reference | 66,841 | 73,311 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source reports 34/34 P1.1 local tests, later 47/47 IP-governance tests and deterministic binomial scoring with sealed prediction/reveal records.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source reports 34/34 P1.1 local tests, later 47/47 IP-governance tests and deterministic binomial scoring with sealed prediction/reveal records.
 
 Remaining limits: No physical sensing hardware, unexplained perception effect, independent nonlocal anomaly, validated AI perception model or commercially cleared legal chain of title.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

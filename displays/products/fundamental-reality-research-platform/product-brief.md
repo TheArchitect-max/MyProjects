@@ -2,7 +2,7 @@
 
 TA-IP-112 | Reference name: Astraea
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -65,28 +65,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 16,500 | 18,503 |
-| Negotiation reference - low | 13,000 | 14,578 |
-| Negotiation reference - high | 20,000 | 22,428 |
-| Recreation cost estimate | 53,500 | 59,995 |
-| Marketability cost scenario | 20,691 | 23,203 |
-| Monetisation cost scenario | 13,643 | 15,299 |
-| Risk-adjusted strategic reference | 4,228 | 4,741 |
-| Weighted economic reference | 21,722 | 24,359 |
+| Seller asking reference | 16,500 | 18,097 |
+| Negotiation reference - low | 13,000 | 14,258 |
+| Negotiation reference - high | 20,000 | 21,936 |
+| Recreation cost estimate | 53,500 | 58,679 |
+| Marketability cost scenario | 20,691 | 22,694 |
+| Monetisation cost scenario | 13,643 | 14,964 |
+| Risk-adjusted strategic reference | 4,228 | 4,637 |
+| Weighted economic reference | 21,722 | 23,825 |
 
 The retained priced scope and successive non-overlapping budgets reconcile below. Equivalent effort and historical anchors are seller assumptions, not actual expenditure, independent quotations or market value. Previously priced numerical-reference, synthetic geometry and record-assurance foundations are retained once. The increment covers only implemented dataset-governance and table-format software. Other portfolio projects, original observational data rights, authenticated scientific ingestion, novel physics, future modules and production operations are excluded.
 
-Coverage describes stated seller estimates only. All recreation amounts have an explicit scoped budget; effort remains an assumption.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source evidence audit describes 123/123 tests and clean-directory replay, 28/28 Git source blobs, and 5 matching JSON outputs.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source evidence audit describes 123/123 tests and clean-directory replay, 28/28 Git source blobs, and 5 matching JSON outputs.
 
 Remaining limits: NASA original raw bytes, licensing, covariance/Fisher controls and scientific dataset admission not established. R3 blocked; no novel physics result.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

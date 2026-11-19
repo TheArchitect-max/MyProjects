@@ -2,7 +2,7 @@
 
 TA-IP-113 | Reference name: Clotho
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -65,28 +65,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 14,000 | 15,700 |
-| Negotiation reference - low | 11,000 | 12,335 |
-| Negotiation reference - high | 17,000 | 19,064 |
-| Recreation cost estimate | 45,500 | 51,024 |
-| Marketability cost scenario | 17,597 | 19,733 |
-| Monetisation cost scenario | 11,603 | 13,012 |
-| Risk-adjusted strategic reference | 3,596 | 4,033 |
-| Weighted economic reference | 18,474 | 20,717 |
+| Seller asking reference | 14,000 | 15,355 |
+| Negotiation reference - low | 11,000 | 12,065 |
+| Negotiation reference - high | 17,000 | 18,646 |
+| Recreation cost estimate | 45,500 | 49,904 |
+| Marketability cost scenario | 17,597 | 19,300 |
+| Monetisation cost scenario | 11,603 | 12,726 |
+| Risk-adjusted strategic reference | 3,596 | 3,944 |
+| Weighted economic reference | 18,474 | 20,262 |
 
 The retained priced scope and successive non-overlapping budgets reconcile below. Equivalent effort and historical anchors are seller assumptions, not actual expenditure, independent quotations or market value. Previously priced binary-study, custody-v3 and research-screening foundations are retained once. The increment covers file verification, streaming and atomic publication assurance only. Speculative physical mechanisms, a time-travel result, independent witness services, hardware and future experiments receive no monetary premium. Review on 2026-11-03: The previously priced binary-study, custody, streaming and local publication-assurance software is retained once. Conditional research documents through CR-OPEN-22 are described, with no increment for an unproved physical result. Hardware, independent witness services, global physical validation and future experiments remain excluded.
 
-Coverage describes stated seller estimates only. All recreation amounts have an explicit scoped budget; effort remains an assumption.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Repository documents software custody schemas, publication hardening and constrained GR/wormhole/energy-condition analyses; R1 14 tests and R2A 27 local tests are historical limited gates.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Repository documents software custody schemas, publication hardening and constrained GR/wormhole/energy-condition analyses; R1 14 tests and R2A 27 local tests are historical limited gates.
 
 Remaining limits: No reproducible information transfer from future to past, time machine, physical causal violation or independent apparatus-based breakthrough. Negative results and mathematical constraints must be preserved.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

@@ -2,7 +2,7 @@
 
 TA-IP-014 | Reference name: Sasha
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -69,28 +69,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 265,000 | 297,171 |
-| Negotiation reference - low | 210,000 | 235,494 |
-| Negotiation reference - high | 330,000 | 370,062 |
-| Recreation cost estimate | 700,000 | 784,980 |
-| Marketability cost scenario | 1,155,000 | 1,295,217 |
-| Monetisation cost scenario | 1,610,000 | 1,805,454 |
-| Risk-adjusted strategic reference | 1,860,662 | 2,086,546 |
-| Weighted economic reference | 1,379,232 | 1,546,671 |
+| Seller asking reference | 265,000 | 290,652 |
+| Negotiation reference - low | 210,000 | 230,328 |
+| Negotiation reference - high | 330,000 | 361,944 |
+| Recreation cost estimate | 700,000 | 767,760 |
+| Marketability cost scenario | 1,155,000 | 1,266,804 |
+| Monetisation cost scenario | 1,610,000 | 1,765,848 |
+| Risk-adjusted strategic reference | 1,860,662 | 2,040,774 |
+| Weighted economic reference | 1,379,232 | 1,512,742 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Repository reports 61/61 control gates, 202/202 static/SSR parity and 330 regressions/484 assertions; these were not independently executed here.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Repository reports 61/61 control gates, 202/202 static/SSR parity and 330 regressions/484 assertions; these were not independently executed here.
 
 Remaining limits: Route correctness and parity do not prove search ranking, traffic, advertising revenue or live hosting business; no GitHub Actions runtime.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

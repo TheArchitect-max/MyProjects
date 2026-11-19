@@ -2,7 +2,7 @@
 
 TA-IP-071 | Reference name: Verena
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -45,7 +45,7 @@ Provider transport controls including pre-request TCP-peer attestation, HTTP res
 
 Offered first-party scope: Specifically agreed first-party 71.0.0 release candidate source, documentation and retained evidence: Provider transport controls including pre-request TCP-peer attestation, HTTP response guards and acquisition-runtime qualification. Offered as implemented candidate software. Full V71 release acceptance, production transport guarantees and independent security assurance remain open.
 
-Development: V71 R1 release gate NOT_RUN; V71 R0 scoped non-release evidence only.
+Development: No separate open candidate at the reviewed snapshot.
 
 ## Conditions before handover
 
@@ -66,28 +66,28 @@ Development: V71 R1 release gate NOT_RUN; V71 R0 scoped non-release evidence onl
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 407,500 | 456,971 |
-| Negotiation reference - low | 326,000 | 365,576 |
-| Negotiation reference - high | 509,375 | 571,213 |
-| Recreation cost estimate | 1,627,000 | 1,824,518 |
-| Marketability cost scenario | 1,964,602 | 2,203,105 |
-| Monetisation cost scenario | 2,416,095 | 2,709,409 |
-| Risk-adjusted strategic reference | 1,982,158 | 2,222,792 |
-| Weighted economic reference | 1,976,645 | 2,216,610 |
+| Seller asking reference | 407,500 | 446,946 |
+| Negotiation reference - low | 326,000 | 357,557 |
+| Negotiation reference - high | 509,375 | 558,683 |
+| Recreation cost estimate | 1,627,000 | 1,784,494 |
+| Marketability cost scenario | 1,964,602 | 2,154,775 |
+| Monetisation cost scenario | 2,416,095 | 2,649,973 |
+| Risk-adjusted strategic reference | 1,982,158 | 2,174,031 |
+| Weighted economic reference | 1,976,645 | 2,167,984 |
 
 Earlier recreation anchor retained once; its prior coverage and uncertainty remain. Added only the individually described implementation work. 160 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 17,000 adopted recreation increment and EUR 5,000 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source V71 R0 evidence is PASS_NON_RELEASE: 224/224 total, with pinned transport 18/18, response 24/24 and acquisition runtime 62/62. V71 R1 release acceptance is NOT_RUN in the reviewed main record.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source V71 R0 evidence is PASS_NON_RELEASE: 224/224 total, with pinned transport 18/18, response 24/24 and acquisition runtime 62/62. V71 R1 release acceptance is NOT_RUN in the reviewed main record.
 
 Remaining limits: Offered as implemented candidate software. Full V71 release acceptance, production transport guarantees and independent security assurance remain open.
 
-Price decision: Earlier recreation anchor retained once; its prior coverage and uncertainty remain. Added only the individually described implementation work. 160 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 17,000 adopted recreation increment and EUR 5,000 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

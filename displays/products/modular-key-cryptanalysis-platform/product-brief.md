@@ -2,15 +2,15 @@
 
 TA-IP-007 | Reference name: Alice
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
-Cipher-family evaluation contracts, calibrated abstention and explicit refusal when development-derived scores are insufficient.
+Adds guarded planner handoff, cooperative search budgets, deterministic analysis sessions, explicit-manual controlled adapter execution and session-level comparison with ambiguity reporting.
 
-Identified edition: 2.14.0
+Identified edition: 2.19.0
 
-Cipher-family evaluation contracts, calibrated abstention and explicit refusal when development-derived scores are insufficient. No qualified general cipher-family classifier, cryptanalytic breakthrough or production detection accuracy.
+Adds guarded planner handoff, cooperative search budgets, deterministic analysis sessions, explicit-manual controlled adapter execution and session-level comparison with ambiguity reporting.
 
 ## Potential acquirers
 
@@ -20,11 +20,11 @@ Cipher-family evaluation contracts, calibrated abstention and explicit refusal w
 
 ## Documented functions
 
-- Analyse supported classical cipher families
-- Plan and compare analysis methods
-- Review candidate and exploratory family evidence
 - Assess representative calibration examples
 - Export comparable research results
+- Bounded search and controlled analysis-session execution
+- Session comparison and ambiguity handling
+- Adversarial regression and reproducible release integration
 
 ## Output types
 
@@ -34,32 +34,29 @@ Cipher-family evaluation contracts, calibrated abstention and explicit refusal w
 
 ## Material scope boundaries
 
-- No qualified general cipher-family classifier, cryptanalytic breakthrough or production detection accuracy.
-- First-party rights, exact delivery and recipient acceptance require project-specific agreement.
+- Automatic cipher-family classification remains unqualified and fails closed. Manual bounded execution does not establish general key recovery or break correctly configured modern encryption.
 
 ## Acquisition evidence profile
 
-- Technical scope: V — Cipher-family evaluation contracts, calibrated abstention and explicit refusal when development-derived scores are insufficient. The offered edition and material boundaries govern review.
+- Technical scope: V — Adds guarded planner handoff, cooperative search budgets, deterministic analysis sessions, explicit-manual controlled adapter execution and session-level comparison with ambiguity reporting. Automatic cipher-family classification remains unqualified and fails closed. Manual bounded execution does not establish general key recovery or break correctly configured modern encryption.
 - Evidence and validation: E3 — Tests, validation and provenance/release evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
 - Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
-Offered first-party scope: Specifically agreed first-party 2.14.0 source, documentation and retained evidence: Cipher-family evaluation contracts, calibrated abstention and explicit refusal when development-derived scores are insufficient. No qualified general cipher-family classifier, cryptanalytic breakthrough or production detection accuracy.
+Offered first-party scope: Existing first-party main-source work: Adds guarded planner handoff, cooperative search budgets, deterministic analysis sessions, explicit-manual controlled adapter execution and session-level comparison with ambiguity reporting. Automatic cipher-family classification remains unqualified and fails closed. Manual bounded execution does not establish general key recovery or break correctly configured modern encryption.
 
 Development: No separate open candidate at the reviewed snapshot.
 
 ## Conditions before handover
 
+- Automatic cipher-family classification remains unqualified and fails closed. Manual bounded execution does not establish general key recovery or break correctly configured modern encryption.
 - Freeze the 2.14.0 first-party delivery and reconcile source-specific acceptance records.
 - Agree and freeze the exact first-party delivery edition, rights, third-party obligations and excluded content.
-- Review source-specific reproducibility, component and security documentation under agreed confidentiality.
-- Complete the relevant application qualification and recipient handover acceptance.
 
 ## Qualification objectives
 
-- Evaluate representative intended-use cases against the offered functions and material boundaries.
-- Agree measurable acceptance criteria and the delivery package before transfer.
+- Automatic cipher-family classification remains unqualified and fails closed. Manual bounded execution does not establish general key recovery or break correctly configured modern encryption.
 - Independent legal ownership/title opinion not performed by this internal audit.
 - Freedom-to-operate legal opinion not performed unless separately evidenced.
 - Independent penetration test not assumed unless separately evidenced.
@@ -68,28 +65,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 102,500 | 114,944 |
-| Negotiation reference - low | 82,000 | 91,955 |
-| Negotiation reference - high | 128,125 | 143,679 |
-| Recreation cost estimate | 483,500 | 542,197 |
-| Marketability cost scenario | 355,373 | 398,515 |
-| Monetisation cost scenario | 333,615 | 374,116 |
-| Risk-adjusted strategic reference | 121,703 | 136,478 |
-| Weighted economic reference | 301,269 | 337,843 |
+| Seller asking reference | 109,500 | 120,100 |
+| Negotiation reference - low | 87,600 | 96,080 |
+| Negotiation reference - high | 136,875 | 150,125 |
+| Recreation cost estimate | 507,000 | 556,078 |
+| Marketability cost scenario | 372,645 | 408,717 |
+| Monetisation cost scenario | 349,830 | 383,694 |
+| Risk-adjusted strategic reference | 127,618 | 139,971 |
+| Weighted economic reference | 315,911 | 346,491 |
 
-Earlier recreation anchor retained once; its prior coverage and uncertainty remain. Added only the individually described implementation work. 64 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 6,500 adopted recreation increment and EUR 1,500 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
+Non-overlapping implemented main-source increment: 220 assumed hours at EUR 94/hour, 15% allowance, EUR 23,500 adopted recreation increment and EUR 7,000 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project. Earlier priced work is counted once; its legacy uncertainty remains.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source records 360 pytest tests, 18 groups and seven gates for the bounded CPU edition; historical false-negative and out-of-distribution limitations remain material.
+Current main README, full Git inventory and comparison with the prior reviewed main identify this implemented change: Adds guarded planner handoff, cooperative search budgets, deterministic analysis sessions, explicit-manual controlled adapter execution and session-level comparison with ambiguity reporting. Retained acceptance is source-reported and remains bound to its original source and environment.
 
-Remaining limits: No qualified general cipher-family classifier, cryptanalytic breakthrough or production detection accuracy.
+Remaining limits: Automatic cipher-family classification remains unqualified and fails closed. Manual bounded execution does not establish general key recovery or break correctly configured modern encryption.
 
-Price decision: Earlier recreation anchor retained once; its prior coverage and uncertainty remain. Added only the individually described implementation work. 64 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 6,500 adopted recreation increment and EUR 1,500 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
+Price decision: Non-overlapping implemented main-source increment: 220 assumed hours at EUR 94/hour, 15% allowance, EUR 23,500 adopted recreation increment and EUR 7,000 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

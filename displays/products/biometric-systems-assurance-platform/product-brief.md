@@ -2,7 +2,7 @@
 
 TA-IP-035 | Reference name: Iris
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -66,28 +66,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 240,000 | 269,136 |
-| Negotiation reference - low | 190,000 | 213,066 |
-| Negotiation reference - high | 300,000 | 336,420 |
-| Recreation cost estimate | 800,000 | 897,120 |
-| Marketability cost scenario | 966,000 | 1,083,272 |
-| Monetisation cost scenario | 1,188,000 | 1,332,223 |
-| Risk-adjusted strategic reference | 974,632 | 1,092,952 |
-| Weighted economic reference | 971,921 | 1,089,912 |
+| Seller asking reference | 240,000 | 263,232 |
+| Negotiation reference - low | 190,000 | 208,392 |
+| Negotiation reference - high | 300,000 | 329,040 |
+| Recreation cost estimate | 800,000 | 877,440 |
+| Marketability cost scenario | 966,000 | 1,059,509 |
+| Monetisation cost scenario | 1,188,000 | 1,302,998 |
+| Risk-adjusted strategic reference | 974,632 | 1,068,976 |
+| Weighted economic reference | 971,921 | 1,066,003 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source describes virtual protected resource, biometric match/liveness simulator, synthetic corpus and externally ingested decision-level evidence.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source describes virtual protected resource, biometric match/liveness simulator, synthetic corpus and externally ingested decision-level evidence.
 
 Remaining limits: No real device biometric accuracy, liveness performance, regulatory compliance or physical deployment certification.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

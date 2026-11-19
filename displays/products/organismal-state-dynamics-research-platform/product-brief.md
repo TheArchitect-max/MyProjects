@@ -2,7 +2,7 @@
 
 TA-IP-066 | Reference name: Daphne
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -65,28 +65,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 120,000 | 134,568 |
-| Negotiation reference - low | 95,000 | 106,533 |
-| Negotiation reference - high | 150,000 | 168,210 |
-| Recreation cost estimate | 900,000 | 1,009,260 |
-| Marketability cost scenario | 747,787 | 838,568 |
-| Monetisation cost scenario | 774,563 | 868,595 |
-| Risk-adjusted strategic reference | 626,983 | 703,099 |
-| Weighted economic reference | 748,914 | 839,832 |
+| Seller asking reference | 120,000 | 131,616 |
+| Negotiation reference - low | 95,000 | 104,196 |
+| Negotiation reference - high | 150,000 | 164,520 |
+| Recreation cost estimate | 900,000 | 987,120 |
+| Marketability cost scenario | 747,787 | 820,173 |
+| Monetisation cost scenario | 774,563 | 849,541 |
+| Risk-adjusted strategic reference | 626,983 | 687,675 |
+| Weighted economic reference | 748,914 | 821,409 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source enumerates deterministic ingestion, per-channel QC, scalar Gaussian estimation, first-order twin sensitivity and task-accessibility experiments; exact current test reports not independently executed.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source enumerates deterministic ingestion, per-channel QC, scalar Gaussian estimation, first-order twin sensitivity and task-accessibility experiments; exact current test reports not independently executed.
 
 Remaining limits: Reference latent models and simulations are not biological or patient-specific digital twins; no evidence of consciousness detection, diagnosis, therapy, clinical safety or consent-compliant regulated records.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

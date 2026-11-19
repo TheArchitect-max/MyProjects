@@ -2,7 +2,7 @@
 
 TA-IP-036 | Reference name: Minerva
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -68,28 +68,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 85,000 | 95,319 |
-| Negotiation reference - low | 68,000 | 76,255 |
-| Negotiation reference - high | 106,250 | 119,149 |
-| Recreation cost estimate | 467,000 | 523,694 |
-| Marketability cost scenario | 502,142 | 563,102 |
-| Monetisation cost scenario | 543,763 | 609,776 |
-| Risk-adjusted strategic reference | 421,021 | 472,133 |
-| Weighted economic reference | 473,288 | 530,745 |
+| Seller asking reference | 85,000 | 93,228 |
+| Negotiation reference - low | 68,000 | 74,582 |
+| Negotiation reference - high | 106,250 | 116,535 |
+| Recreation cost estimate | 467,000 | 512,206 |
+| Marketability cost scenario | 502,142 | 550,749 |
+| Monetisation cost scenario | 543,763 | 596,399 |
+| Risk-adjusted strategic reference | 421,021 | 461,776 |
+| Weighted economic reference | 473,288 | 519,102 |
 
 Earlier recreation anchor retained once; its prior coverage and uncertainty remain. Added only the individually described implementation work. 160 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 17,000 adopted recreation increment and EUR 5,000 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Current main has successful repository-integrity CI. Source records 166 research-active and 134 seed specialists; 1,660 Stage-08 claims and 633 unique sources. Counts describe catalogue coverage, not verified engineering expertise.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Current main has successful repository-integrity CI. Source records 166 research-active and 134 seed specialists; 1,660 Stage-08 claims and 633 unique sources. Counts describe catalogue coverage, not verified engineering expertise.
 
 Remaining limits: Zero canon-promoted or verified specialists are established. Source citations and research records do not establish correctness, autonomous expertise or customer performance.
 
-Price decision: Earlier recreation anchor retained once; its prior coverage and uncertainty remain. Added only the individually described implementation work. 160 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 17,000 adopted recreation increment and EUR 5,000 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

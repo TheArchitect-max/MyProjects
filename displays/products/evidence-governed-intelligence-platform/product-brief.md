@@ -2,7 +2,7 @@
 
 TA-IP-095 | Reference name: Ivy
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -66,28 +66,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 24,000 | 26,914 |
-| Negotiation reference - low | 19,200 | 21,531 |
-| Negotiation reference - high | 30,000 | 33,642 |
-| Recreation cost estimate | 80,000 | 89,712 |
-| Marketability cost scenario | 67,320 | 75,493 |
-| Monetisation cost scenario | 62,100 | 69,639 |
-| Risk-adjusted strategic reference | 33,380 | 37,432 |
-| Weighted economic reference | 57,567 | 64,556 |
+| Seller asking reference | 24,000 | 26,323 |
+| Negotiation reference - low | 19,200 | 21,059 |
+| Negotiation reference - high | 30,000 | 32,904 |
+| Recreation cost estimate | 80,000 | 87,744 |
+| Marketability cost scenario | 67,320 | 73,837 |
+| Monetisation cost scenario | 62,100 | 68,111 |
+| Risk-adjusted strategic reference | 33,380 | 36,611 |
+| Weighted economic reference | 57,567 | 63,139 |
 
 Earlier recreation anchor retained once; its prior coverage and uncertainty remain. Added only the individually described implementation work. 96 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 10,000 adopted recreation increment and EUR 3,000 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
 
-Coverage describes stated seller estimates only. All recreation amounts have an explicit scoped budget; effort remains an assumption.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Merged R7 record: 334 passing tests, 109 protected baseline files and a verified 128-file source manifest.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Merged R7 record: 334 passing tests, 109 protected baseline files and a verified 128-file source manifest.
 
 Remaining limits: Reference software contracts do not establish a calibrated physical twin, real experiments, production integration or independent rights clearance.
 
-Price decision: Earlier recreation anchor retained once; its prior coverage and uncertainty remain. Added only the individually described implementation work. 96 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 10,000 adopted recreation increment and EUR 3,000 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

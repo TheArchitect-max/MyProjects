@@ -2,7 +2,7 @@
 
 TA-IP-003 | Reference name: Ariadne
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -47,7 +47,7 @@ The 1.9.1 software provides evidence custody, guarded local infrastructure quali
 
 Offered first-party scope: Current first-party v1.9.1 main software only. The dated EUR 205,000 asking figure and EUR 871,500 recreation estimate expressly cover the v1.9.1 main software and its evidence/readiness work. The unmerged v1.10 event and partial-observation contracts are excluded; no newly accepted work package or market sale supports an increase.
 
-Development: Open, unmerged development: DRAFT v1.10.0: partial observations and Google v3 event contracts. Not a released product or an automatic expansion of priced scope.
+Development: Open, unmerged development: DRAFT v1.10.0: partial observations and Google v3 event contracts This is outside the offered main-source budget.
 
 ## Conditions before handover
 
@@ -66,28 +66,28 @@ Development: Open, unmerged development: DRAFT v1.10.0: partial observations and
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 205,000 | 229,887 |
-| Negotiation reference - low | 164,000 | 183,910 |
-| Negotiation reference - high | 256,500 | 287,639 |
-| Recreation cost estimate | 871,500 | 977,300 |
-| Marketability cost scenario | 1,052,336 | 1,180,090 |
-| Monetisation cost scenario | 1,000,046 | 1,121,452 |
-| Risk-adjusted strategic reference | 1,061,740 | 1,190,635 |
-| Weighted economic reference | 999,960 | 1,121,355 |
+| Seller asking reference | 205,000 | 224,844 |
+| Negotiation reference - low | 164,000 | 179,875 |
+| Negotiation reference - high | 256,500 | 281,329 |
+| Recreation cost estimate | 871,500 | 955,861 |
+| Marketability cost scenario | 1,052,336 | 1,154,202 |
+| Monetisation cost scenario | 1,000,046 | 1,096,850 |
+| Risk-adjusted strategic reference | 1,061,740 | 1,164,516 |
+| Weighted economic reference | 999,960 | 1,096,756 |
 
 The EUR 871,500 recreation estimate consists of a EUR 850,000 base and a EUR 21,500 scoped implementation budget. The seller asking reference is EUR 205,000. Effort is estimated, not logged time or actual expenditure. Market value is not established.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-README, acquisition/transfer scope and outcome-calibration contract checked. The v1.10 draft reports 47 isolated fixture tests but complete exact-head release validation remains pending.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. README, acquisition/transfer scope and outcome-calibration contract checked. The v1.10 draft reports 47 isolated fixture tests but complete exact-head release validation remains pending.
 
 Remaining limits: Measured workload traces do not themselves establish outcome truth, production reliability, causal effectiveness, independently assessed security or completed rights transfer.
 
-Price decision: The dated EUR 205,000 asking figure and EUR 871,500 recreation estimate expressly cover the v1.9.1 main software and its evidence/readiness work. The unmerged v1.10 event and partial-observation contracts are excluded; no newly accepted work package or market sale supports an increase.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

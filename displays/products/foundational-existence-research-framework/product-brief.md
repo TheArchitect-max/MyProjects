@@ -2,7 +2,7 @@
 
 TA-IP-119 | Reference name: Simone
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -48,7 +48,7 @@ A foundational research archive with nine analytical volumes, finite semantic/co
 
 Offered first-party scope: Previously budgeted R2/R3 finite models and four volumes are retained once. Added R4-R8C counterpart, premise, typed-comparison, provenance/quarantine and evidence-contract software plus five further volumes is priced only as first-party research work. Facts, general ideas, third-party works, empirical discoveries and future qualification are excluded.
 
-Development: Current combined local regression is available; separate complete R8C release acceptance and empirical scientific admission remain open.
+Development: No separate open candidate at the reviewed snapshot.
 
 ## Conditions before handover
 
@@ -65,28 +65,28 @@ Development: Current combined local regression is available; separate complete R
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 18,000 | 20,185 |
-| Negotiation reference - low | 15,500 | 17,382 |
-| Negotiation reference - high | 24,000 | 26,914 |
-| Recreation cost estimate | 61,500 | 68,966 |
-| Marketability cost scenario | 23,785 | 26,672 |
-| Monetisation cost scenario | 15,683 | 17,587 |
-| Risk-adjusted strategic reference | 4,860 | 5,450 |
-| Weighted economic reference | 24,970 | 28,001 |
+| Seller asking reference | 18,000 | 19,742 |
+| Negotiation reference - low | 15,500 | 17,000 |
+| Negotiation reference - high | 24,000 | 26,323 |
+| Recreation cost estimate | 61,500 | 67,453 |
+| Marketability cost scenario | 23,785 | 26,087 |
+| Monetisation cost scenario | 15,683 | 17,201 |
+| Risk-adjusted strategic reference | 4,860 | 5,330 |
+| Weighted economic reference | 24,970 | 27,387 |
 
 The retained priced scope and explicitly non-overlapping implementation budgets reconcile below. Effort and prices remain seller assumptions, not actual expenditure, independent quotations or established market value. Previously budgeted R2/R3 finite models and four volumes are retained once. Added R4-R8C counterpart, premise, typed-comparison, provenance/quarantine and evidence-contract software plus five further volumes is priced only as first-party research work. Facts, general ideas, third-party works, empirical discoveries and future qualification are excluded.
 
-Coverage describes stated seller estimates only. All recreation amounts have an explicit scoped budget; effort remains an assumption.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source evidence records 302/302 R2-R8B software tests with an explicit manifest warning. New R8C module rejects incomplete report manifests; 38 additional local regression tests documented.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source evidence records 302/302 R2-R8B software tests with an explicit manifest warning. New R8C module rejects incomplete report manifests; 38 additional local regression tests documented.
 
 Remaining limits: Combined R2-R8C 340-test frozen CPU acceptance NOT_RUN; no actual NASA dataset admission, external scientific validation or physical discovery.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

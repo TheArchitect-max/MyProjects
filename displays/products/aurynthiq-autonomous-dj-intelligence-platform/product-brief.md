@@ -2,7 +2,7 @@
 
 TA-IP-092 | Reference name: Isadora
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -67,28 +67,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 46,000 | 51,584 |
-| Negotiation reference - low | 34,500 | 38,688 |
-| Negotiation reference - high | 57,500 | 64,481 |
-| Recreation cost estimate | 290,000 | 325,206 |
-| Marketability cost scenario | 283,475 | 317,889 |
-| Monetisation cost scenario | 308,306 | 345,734 |
-| Risk-adjusted strategic reference | 237,680 | 266,534 |
-| Weighted economic reference | 274,044 | 307,313 |
+| Seller asking reference | 46,000 | 50,453 |
+| Negotiation reference - low | 34,500 | 37,840 |
+| Negotiation reference - high | 57,500 | 63,066 |
+| Recreation cost estimate | 290,000 | 318,072 |
+| Marketability cost scenario | 283,475 | 310,915 |
+| Monetisation cost scenario | 308,306 | 338,150 |
+| Risk-adjusted strategic reference | 237,680 | 260,687 |
+| Weighted economic reference | 274,044 | 300,571 |
 
 Some dated work-package assumptions are disclosed, but they do not reconstruct the complete retained recreation anchor. A complete scope-specific budget is required.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source documents FFprobe input gates, WAV preview creation, BPM/harmonic pairing, local rights-declaration checks and hash-bound export receipts.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source documents FFprobe input gates, WAV preview creation, BPM/harmonic pairing, local rights-declaration checks and hash-bound export receipts.
 
 Remaining limits: No proven DJ/mashup quality, externally verified music/composition rights, hostile-actor-resistant DRM, SaaS multi-tenancy, GPU production, paid subscription or public publication.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

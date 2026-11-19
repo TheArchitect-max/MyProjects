@@ -2,15 +2,15 @@
 
 TA-IP-023 | Reference name: Aurora
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
-Phenomenology research software for organising observations, comparing bounded studies and verifying synthetic reference and recovery workflows.
+Adds an offline, exact-version publisher file-metadata preflight to the existing research-source admission chain.
 
-Identified edition: 8.29.0 / implemented research extensions
+Identified edition: 8.29.0 / merged version-pinned archive metadata preflight
 
-Phenomenology research software for organising observations, comparing bounded studies and verifying synthetic reference and recovery workflows.
+Adds an offline, exact-version publisher file-metadata preflight to the existing research-source admission chain.
 
 ## Potential acquirers
 
@@ -20,11 +20,11 @@ Phenomenology research software for organising observations, comparing bounded s
 
 ## Documented functions
 
-- Organise structured study records
-- Compare bounded study and reference outputs
-- Generate explicitly synthetic software-test subjects
 - Prepare portable evidence and recovery packages
 - Review source-readiness and qualification conditions
+- Version-pinned file-metadata parsing and admission rules
+- Malformed-metadata and provenance regression cases
+- Source-gate integration and bounded documentation
 
 ## Output types
 
@@ -35,32 +35,29 @@ Phenomenology research software for organising observations, comparing bounded s
 
 ## Material scope boundaries
 
-- Synthetic subjects and software qualification do not establish human, biological, optical, causal or clinical results.
-- Actual-data provenance, independent custody, scientific acceptance and production key governance require separate qualification.
-- The proposed umbrella product identity is a roadmap; this asset remains DMT Laser Phenomenology Engine.
+- Publisher metadata is distinct from authentic participant-file admission, lawful processing and scientific validation. The live archive crosscheck is a separate open development proposal.
 
 ## Acquisition evidence profile
 
-- Technical scope: V — Phenomenology research software for organising observations, comparing bounded studies and verifying synthetic reference and recovery workflows. The offered edition and material boundaries govern review.
+- Technical scope: V — Adds an offline, exact-version publisher file-metadata preflight to the existing research-source admission chain. Publisher metadata is distinct from authentic participant-file admission, lawful processing and scientific validation. The live archive crosscheck is a separate open development proposal.
 - Evidence and validation: E3 — Tests, validation and provenance/release evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
 - Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
-Offered first-party scope: Specifically agreed first-party implementation and documentation for 8.29.0 / implemented research extensions. Detailed source, rights, components and acceptance evidence are reviewed under agreed confidentiality.
+Offered first-party scope: Existing first-party main-source work: Adds an offline, exact-version publisher file-metadata preflight to the existing research-source admission chain. Publisher metadata is distinct from authentic participant-file admission, lawful processing and scientific validation. The live archive crosscheck is a separate open development proposal.
 
-Development: Synthetic reference subjects, portable checkpoint transport and recovery controls are implemented software; empirical and external scientific gates remain open.
+Development: Open, unmerged development: B02: exact-version live Zenodo file-metadata crosscheck; defer laser instrument roadmap This is outside the offered main-source budget.
 
 ## Conditions before handover
 
+- Publisher metadata is distinct from authentic participant-file admission, lawful processing and scientific validation. The live archive crosscheck is a separate open development proposal.
 - Agree and freeze the exact first-party delivery edition, rights, third-party obligations and excluded content.
 - Review source-specific reproducibility, component and security documentation under agreed confidentiality.
-- Complete the relevant application qualification and recipient handover acceptance.
 
 ## Qualification objectives
 
-- Evaluate representative intended-use cases against the offered functions and material boundaries.
-- Agree measurable acceptance criteria and the delivery package before transfer.
+- Publisher metadata is distinct from authentic participant-file admission, lawful processing and scientific validation. The live archive crosscheck is a separate open development proposal.
 - Independent legal ownership/title opinion not performed by this internal audit.
 - Freedom-to-operate legal opinion not performed unless separately evidenced.
 - Independent penetration test not assumed unless separately evidenced.
@@ -69,28 +66,28 @@ Development: Synthetic reference subjects, portable checkpoint transport and rec
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 226,500 | 253,997 |
-| Negotiation reference - low | 183,500 | 205,777 |
-| Negotiation reference - high | 286,000 | 320,720 |
-| Recreation cost estimate | 1,240,000 | 1,390,536 |
-| Marketability cost scenario | 737,800 | 827,369 |
-| Monetisation cost scenario | 855,600 | 959,470 |
-| Risk-adjusted strategic reference | 252,672 | 283,346 |
-| Weighted economic reference | 717,115 | 804,173 |
+| Seller asking reference | 228,000 | 250,070 |
+| Negotiation reference - low | 182,400 | 200,056 |
+| Negotiation reference - high | 285,000 | 312,588 |
+| Recreation cost estimate | 1,245,000 | 1,365,516 |
+| Marketability cost scenario | 740,775 | 812,482 |
+| Monetisation cost scenario | 859,050 | 942,206 |
+| Risk-adjusted strategic reference | 253,691 | 278,248 |
+| Weighted economic reference | 720,007 | 789,704 |
 
-The retained expressly priced scope and successive non-overlapping implementation budgets reconcile below. Equivalent effort and historical anchors remain seller assumptions; actual expenditure, independent quotations and market value are not established. The previously priced study, observation, governance and campaign foundations are reused once. Empirical studies, external custody, scientific findings and planned general-purpose productisation are excluded.
+Non-overlapping implemented main-source increment: 48 assumed hours at EUR 94/hour, 15% allowance, EUR 5,000 adopted recreation increment and EUR 1,500 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project. Earlier priced work is counted once; its legacy uncertainty remains.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-README documents software/evidence-governance and synthetic-research controls; merged PR #69 describes bounded archive acquisition and checksum tests. PR narrative alone is not exact-head runtime proof.
+Current main README, full Git inventory and comparison with the prior reviewed main identify this implemented change: Adds an offline, exact-version publisher file-metadata preflight to the existing research-source admission chain. Retained acceptance is source-reported and remains bound to its original source and environment.
 
-Remaining limits: No independent authorization for human participant processing, no accepted real biological measurement validation, no observational/clinical result or institutional authorization.
+Remaining limits: Publisher metadata is distinct from authentic participant-file admission, lawful processing and scientific validation. The live archive crosscheck is a separate open development proposal.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: Non-overlapping implemented main-source increment: 48 assumed hours at EUR 94/hour, 15% allowance, EUR 5,000 adopted recreation increment and EUR 1,500 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

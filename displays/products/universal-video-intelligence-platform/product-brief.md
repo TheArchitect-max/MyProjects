@@ -2,7 +2,7 @@
 
 TA-IP-100 | Reference name: Ophelia
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -47,7 +47,7 @@ The v0.9.8 workspace supports playback controls, timestamp bookmarks, human-auth
 
 Offered first-party scope: Present first-party v0.9.1 browser and offline research prototype, manual notes and backup recovery, source-review and human-supplied evidence review, documentation, tests and development packaging. Browser production qualification, AI transcript/multimodal analysis, media downloading, platform or target-project ownership, hosted services, automatic repairs and future engineering are excluded.
 
-Development: Open, unmerged development: v0.9.9: fail-closed local mutations, idempotent note replay and read-back reconciliation. Not a released product or an automatic expansion of priced scope.
+Development: Open, unmerged development: v0.9.9: fail-closed local mutations, idempotent note replay and read-back reconciliation This is outside the offered main-source budget.
 
 ## Conditions before handover
 
@@ -68,28 +68,28 @@ Development: Open, unmerged development: v0.9.9: fail-closed local mutations, id
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 36,000 | 40,370 |
-| Negotiation reference - low | 28,800 | 32,296 |
-| Negotiation reference - high | 45,000 | 50,463 |
-| Recreation cost estimate | 120,000 | 134,568 |
-| Marketability cost scenario | 91,800 | 102,945 |
-| Monetisation cost scenario | 85,050 | 95,375 |
-| Risk-adjusted strategic reference | 45,518 | 51,044 |
-| Weighted economic reference | 81,301 | 91,171 |
+| Seller asking reference | 36,000 | 39,485 |
+| Negotiation reference - low | 28,800 | 31,588 |
+| Negotiation reference - high | 45,000 | 49,356 |
+| Recreation cost estimate | 120,000 | 131,616 |
+| Marketability cost scenario | 91,800 | 100,686 |
+| Monetisation cost scenario | 85,050 | 93,283 |
+| Risk-adjusted strategic reference | 45,518 | 49,924 |
+| Weighted economic reference | 81,301 | 89,171 |
 
 Some dated work-package assumptions are disclosed, but they do not reconstruct the complete retained recreation anchor. A complete scope-specific budget is required.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source report documents frozen v0.9.8 143/143 Node and 14/14 real Chromium Playwright test results on offline simulated YouTube pages; exact source SHA pinned.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source report documents frozen v0.9.8 143/143 Node and 14/14 real Chromium Playwright test results on offline simulated YouTube pages; exact source SHA pinned.
 
 Remaining limits: Offline mocked YouTube pages, not real-platform production compatibility; broader accessibility, production security and independent release review remain open.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

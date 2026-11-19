@@ -2,7 +2,7 @@
 
 TA-IP-076 | Reference name: Ada
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -46,7 +46,7 @@ An implemented prototype for evaluation and further development.
 
 Offered first-party scope: Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
 
-Development: No separate open candidate at the reviewed snapshot.
+Development: Open, unmerged development: ANAP v0.6: transactional lifecycle, strict contracts, and concurrency safety This is outside the offered main-source budget.
 
 ## Conditions before handover
 
@@ -67,28 +67,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 190,000 | 213,066 |
-| Negotiation reference - low | 150,000 | 168,210 |
-| Negotiation reference - high | 240,000 | 269,136 |
-| Recreation cost estimate | 1,000,000 | 1,121,400 |
-| Marketability cost scenario | 1,075,250 | 1,205,785 |
-| Monetisation cost scenario | 860,625 | 965,105 |
-| Risk-adjusted strategic reference | 901,545 | 1,010,993 |
-| Weighted economic reference | 952,716 | 1,068,376 |
+| Seller asking reference | 190,000 | 208,392 |
+| Negotiation reference - low | 150,000 | 164,520 |
+| Negotiation reference - high | 240,000 | 263,232 |
+| Recreation cost estimate | 1,000,000 | 1,096,800 |
+| Marketability cost scenario | 1,075,250 | 1,179,334 |
+| Monetisation cost scenario | 860,625 | 943,934 |
+| Risk-adjusted strategic reference | 901,545 | 988,815 |
+| Weighted economic reference | 952,716 | 1,044,939 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-README documents held-out validation, integrity-bound checkpoint and rollback, early stopping, replay snapshots and canary checks; no fresh model-quality benchmark execution in this review.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. README documents held-out validation, integrity-bound checkpoint and rollback, early stopping, replay snapshots and canary checks; no fresh model-quality benchmark execution in this review.
 
 Remaining limits: Identity-preserving network growth is not demonstrated general intelligence or broad model superiority; synthetic policies, real canary thresholds and production security remain unqualified.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

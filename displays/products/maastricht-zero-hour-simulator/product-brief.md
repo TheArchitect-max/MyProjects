@@ -2,7 +2,7 @@
 
 TA-IP-088 | Reference name: Eva
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -68,28 +68,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 120,000 | 134,568 |
-| Negotiation reference - low | 95,000 | 106,533 |
-| Negotiation reference - high | 150,000 | 168,210 |
-| Recreation cost estimate | 650,000 | 728,910 |
-| Marketability cost scenario | 571,838 | 641,259 |
-| Monetisation cost scenario | 559,406 | 627,318 |
-| Risk-adjusted strategic reference | 479,458 | 537,664 |
-| Weighted economic reference | 556,559 | 624,125 |
+| Seller asking reference | 120,000 | 131,616 |
+| Negotiation reference - low | 95,000 | 104,196 |
+| Negotiation reference - high | 150,000 | 164,520 |
+| Recreation cost estimate | 650,000 | 712,920 |
+| Marketability cost scenario | 571,838 | 627,192 |
+| Monetisation cost scenario | 559,406 | 613,557 |
+| Risk-adjusted strategic reference | 479,458 | 525,870 |
+| Weighted economic reference | 556,559 | 610,434 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source documents Unreal C++ vehicle, telemetry, damage and input skeleton with repository validation tooling; complete editor build and Chaos driveable test vehicle remain future gates.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source documents Unreal C++ vehicle, telemetry, damage and input skeleton with repository validation tooling; complete editor build and Chaos driveable test vehicle remain future gates.
 
 Remaining limits: No compiled production/editor acceptance, 1:1 Maastricht mapping, physically calibrated vehicle behavior, live traffic or licensed world-asset delivery.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

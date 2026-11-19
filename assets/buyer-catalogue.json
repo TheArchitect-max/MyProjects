@@ -138,12 +138,12 @@
         "Review records"
       ],
       "maturity": "Prototype",
-      "maturityNote": "Main is historical v0.1.0; later STELLA development is an unmerged research candidate, not the current released product.",
-      "availability": "Price and exact-source scope requalification required",
-      "askingReferenceEUR": 61000,
+      "maturityNote": "Historical 0.1.0 main remains the offered software. Later STELLA work is a separate unmerged development candidate.",
+      "availability": "Defined historical-main AS IS scope; separate development excluded",
+      "askingReferenceEUR": 14500,
       "materialBoundaries": [
-        "Research observation software; calibrated field performance and combined sensor interpretation require separate qualification.",
-        "The 3 November EUR 61,000 ask and EUR 540,000 assumed recreation budget include unmerged STELLA development and cannot be presented as an asking price for the current main v0.1.0 software. The frozen 7 October source dossier quoted EUR 45,000 for its historical v0.1.0 scope; that too is not a new quote. First establish exact offered release/development scope, source acceptance and a new complete work budget."
+        "Observation and evidence-review research software; calibrated field performance remains unqualified.",
+        "The current asking reference covers the historical 0.1.0 main software only. Unmerged STELLA development is excluded from this budget and requires a separately agreed scope."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -171,19 +171,19 @@
         "industrial",
         "specialist"
       ],
-      "summary": "Compare network recovery options, resource constraints and scenario robustness before deciding what to investigate or build.",
-      "overview": "A research platform for evaluating network disruption and recovery choices with traceable comparative outputs.",
+      "summary": "Adds read-only leave-one-scenario-out analysis of recovery-choice stability to the existing synthetic network-resilience workbench.",
+      "overview": "Adds read-only leave-one-scenario-out analysis of recovery-choice stability to the existing synthetic network-resilience workbench.",
       "potentialBuyers": [
         "Infrastructure engineering teams",
         "Network research groups",
         "Resilience consultancies"
       ],
       "capabilities": [
-        "Model network disruption and recovery scenarios",
-        "Compare bounded repair and resource options",
-        "Review recovery-option trade-offs",
         "Assess scenario robustness",
-        "Export traceable evaluation summaries"
+        "Export traceable evaluation summaries",
+        "Scenario influence and decision-stability analysis",
+        "Deterministic replay and edge-case verification",
+        "Separate release and research-extension documentation"
       ],
       "outputTypes": [
         "Scenario comparisons",
@@ -191,13 +191,11 @@
         "Evaluation reports"
       ],
       "maturity": "Developed software",
-      "maturityNote": "Network-resilience research software with separately identified development extensions. Field qualification and release-specific recipient acceptance are separate.",
+      "maturityNote": "The packaged execution baseline remains 3.7.0. Real-network data admission and domain-specific operational qualification remain open; scenario stability is not real-world generalization.",
       "availability": "Composite asking reference conditional on separately accepted source scope",
-      "askingReferenceEUR": 99000,
+      "askingReferenceEUR": 102000,
       "materialBoundaries": [
-        "Research simulations and software checks do not establish physical network resilience or universal optimisation.",
-        "Development extensions are offered separately from the published release and require delivery-specific acceptance.",
-        "The EUR 99,000 asking reference was calculated for v3.7.0 and separately scoped development increments (EUR 21,000 assumed work on EUR 520,000 legacy base). Main has v3.7.0 but later decision-frontier/leave-one-out candidate work has not been merged. Do not present EUR 99,000 as an independently assessed v3.7-only value; no additional uplift is supported."
+        "The packaged execution baseline remains 3.7.0. Real-network data admission and domain-specific operational qualification remain open; scenario stability is not real-world generalization."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -437,19 +435,19 @@
         "assurance",
         "education"
       ],
-      "summary": "Explore classical ciphers, test candidate interpretations and review your cryptanalysis results.",
-      "overview": "Cipher-family evaluation contracts, calibrated abstention and explicit refusal when development-derived scores are insufficient.",
+      "summary": "Adds guarded planner handoff, cooperative search budgets, deterministic analysis sessions, explicit-manual controlled adapter execution and session-level comparison with ambiguity reporting.",
+      "overview": "Adds guarded planner handoff, cooperative search budgets, deterministic analysis sessions, explicit-manual controlled adapter execution and session-level comparison with ambiguity reporting.",
       "potentialBuyers": [
         "Cryptography education providers",
         "Historical-text researchers",
         "Security research teams"
       ],
       "capabilities": [
-        "Analyse supported classical cipher families",
-        "Plan and compare analysis methods",
-        "Review candidate and exploratory family evidence",
         "Assess representative calibration examples",
-        "Export comparable research results"
+        "Export comparable research results",
+        "Bounded search and controlled analysis-session execution",
+        "Session comparison and ambiguity handling",
+        "Adversarial regression and reproducible release integration"
       ],
       "outputTypes": [
         "Candidate interpretations",
@@ -457,12 +455,11 @@
         "Calibration summaries"
       ],
       "maturity": "Developed software",
-      "maturityNote": "No qualified general cipher-family classifier, cryptanalytic breakthrough or production detection accuracy.",
+      "maturityNote": "Automatic cipher-family classification remains unqualified and fails closed. Manual bounded execution does not establish general key recovery or break correctly configured modern encryption.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 102500,
+      "askingReferenceEUR": 109500,
       "materialBoundaries": [
-        "No qualified general cipher-family classifier, cryptanalytic breakthrough or production detection accuracy.",
-        "First-party rights, exact delivery and recipient acceptance require project-specific agreement."
+        "Automatic cipher-family classification remains unqualified and fails closed. Manual bounded execution does not establish general key recovery or break correctly configured modern encryption."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -1071,19 +1068,19 @@
         "enterprise",
         "research"
       ],
-      "summary": "Keep earlier software decisions accessible so your team can review precedents when planning new changes.",
-      "overview": "A governed organisational memory and software-change review engine with precedent retrieval, acceptance decisions, durable recovery freshness, trust-store contracts and offline release evidence.",
+      "summary": "Adds packaging/native-platform assurance, strict point-in-time precedent retrieval, declared outcome-availability masking and authenticated historical-outcome observation receipts.",
+      "overview": "Adds packaging/native-platform assurance, strict point-in-time precedent retrieval, declared outcome-availability masking and authenticated historical-outcome observation receipts.",
       "potentialBuyers": [
         "Engineering organisations",
         "Developer-tool vendors",
         "Enterprise knowledge teams"
       ],
       "capabilities": [
-        "Retrieve attributable software-change precedents",
-        "Govern candidate acceptance and recovery decisions",
-        "Enforce recovery evidence freshness",
         "Review trust-store and release consistency",
-        "Run the offline release qualification gate"
+        "Run the offline release qualification gate",
+        "Historical retrieval and outcome-visibility controls",
+        "Separate-domain outcome observation authentication",
+        "Packaging resources and native-platform regression qualification"
       ],
       "outputTypes": [
         "Precedent records",
@@ -1091,11 +1088,11 @@
         "Decision histories"
       ],
       "maturity": "Developed software",
-      "maturityNote": "Existing software offered for evaluation against an agreed use and delivery scope.",
+      "maturityNote": "The installed package version remains 2.34.0. Signer-declared timestamps and HMAC receipts do not independently establish when a historical event occurred; infrastructure execution and predictive superiority remain unqualified.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 703000,
+      "askingReferenceEUR": 710500,
       "materialBoundaries": [
-        "Governance records do not authorise production traffic or infrastructure. Provider API execution and public-key nonrepudiation are outside the demonstrated core."
+        "The installed package version remains 2.34.0. Signer-declared timestamps and HMAC receipts do not independently establish when a historical event occurred; infrastructure execution and predictive superiority remain unqualified."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -1276,19 +1273,19 @@
         "software",
         "research"
       ],
-      "summary": "Organise phenomenology study records, compare bounded research outputs and review controlled synthetic and recovery workflows.",
-      "overview": "Phenomenology research software for organising observations, comparing bounded studies and verifying synthetic reference and recovery workflows.",
+      "summary": "Adds an offline, exact-version publisher file-metadata preflight to the existing research-source admission chain.",
+      "overview": "Adds an offline, exact-version publisher file-metadata preflight to the existing research-source admission chain.",
       "potentialBuyers": [
         "Perception research groups",
         "Scientific data teams",
         "Research software vendors"
       ],
       "capabilities": [
-        "Organise structured study records",
-        "Compare bounded study and reference outputs",
-        "Generate explicitly synthetic software-test subjects",
         "Prepare portable evidence and recovery packages",
-        "Review source-readiness and qualification conditions"
+        "Review source-readiness and qualification conditions",
+        "Version-pinned file-metadata parsing and admission rules",
+        "Malformed-metadata and provenance regression cases",
+        "Source-gate integration and bounded documentation"
       ],
       "outputTypes": [
         "Study records",
@@ -1297,13 +1294,11 @@
         "Review and recovery packages"
       ],
       "maturity": "Developed software",
-      "maturityNote": "Developed research or product software within the identified edition and material boundaries. Intended-use and recipient acceptance remain separate.",
+      "maturityNote": "Publisher metadata is distinct from authentic participant-file admission, lawful processing and scientific validation. The live archive crosscheck is a separate open development proposal.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 226500,
+      "askingReferenceEUR": 228000,
       "materialBoundaries": [
-        "Synthetic subjects and software qualification do not establish human, biological, optical, causal or clinical results.",
-        "Actual-data provenance, independent custody, scientific acceptance and production key governance require separate qualification.",
-        "The proposed umbrella product identity is a roadmap; this asset remains DMT Laser Phenomenology Engine."
+        "Publisher metadata is distinct from authentic participant-file admission, lawful processing and scientific validation. The live archive crosscheck is a separate open development proposal."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -1689,7 +1684,7 @@
     {
       "ref": "TA-IP-031",
       "slug": "mt2050-experimental-dynamics",
-      "title": "MT2050 Experimental Dynamics",
+      "title": "Advanced Systems Simulation & Evidence Qualification Platform",
       "referenceName": "Valentina",
       "categoryId": "aerospace-mobility",
       "buyerGroupIds": [
@@ -1698,19 +1693,19 @@
         "mobility",
         "specialist"
       ],
-      "summary": "Compare advanced-dynamics scenarios and review how assumptions and uncertainty affect your simulated results.",
-      "overview": "A dynamic-systems research platform for comparable, replayable engineering studies.",
+      "summary": "Adds portable study archives and strict manifest serialization to the simulation and evidence-qualification workbench; the product and repository name are now Advanced Systems Simulation & Evidence Qualification Platform.",
+      "overview": "Adds portable study archives and strict manifest serialization to the simulation and evidence-qualification workbench; the product and repository name are now Advanced Systems Simulation & Evidence Qualification Platform.",
       "potentialBuyers": [
         "Vehicle research teams",
         "Simulation software vendors",
         "Engineering consultancies"
       ],
       "capabilities": [
-        "Create configurable dynamic-system studies",
-        "Review calibration evidence",
-        "Compare model versions",
         "Assess uncertainty",
-        "Replay qualification packages"
+        "Replay qualification packages",
+        "Portable study archive construction and verification",
+        "Strict manifest serialization and malformed-input controls",
+        "Archive replay regression and compatibility documentation"
       ],
       "outputTypes": [
         "Engineering comparisons",
@@ -1718,11 +1713,11 @@
         "Replayable study dossiers"
       ],
       "maturity": "Developed software",
-      "maturityNote": "Existing software offered for evaluation against an agreed use and delivery scope.",
+      "maturityNote": "The package still identifies 0.14.0; portable-archive WP1 is merged development. Independent replay admission is pending. Simulation output is not physical certification or evidence for speculative dynamics.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 250000,
+      "askingReferenceEUR": 253000,
       "materialBoundaries": [
-        "Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately."
+        "The package still identifies 0.14.0; portable-archive WP1 is merged development. Independent replay admission is pending. Simulation output is not physical certification or evidence for speculative dynamics."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -2120,19 +2115,19 @@
         "enterprise",
         "assurance"
       ],
-      "summary": "Compare software components against your requirements and review the evidence before selecting them.",
-      "overview": "A software-assurance asset for controlled component discovery and qualification.",
+      "summary": "Adds live-qualification evidence admission, export and command-line workflows to the software-assurance control plane.",
+      "overview": "Adds live-qualification evidence admission, export and command-line workflows to the software-assurance control plane.",
       "potentialBuyers": [
         "Developer-tool companies",
         "Software assurance teams",
         "Enterprise architecture groups"
       ],
       "capabilities": [
-        "Discover candidate components",
-        "Review capability and rights evidence",
-        "Compare benchmark records",
         "Control qualification decisions",
-        "Retain governance and recovery histories"
+        "Retain governance and recovery histories",
+        "Live qualification evidence contracts and validation",
+        "Evidence export and command-line integration",
+        "Negative controls and release regression"
       ],
       "outputTypes": [
         "Component dossiers",
@@ -2140,11 +2135,11 @@
         "Qualification decisions"
       ],
       "maturity": "Developed software",
-      "maturityNote": "Existing software offered for evaluation against an agreed use and delivery scope.",
+      "maturityNote": "The software can inspect bounded evidence records; independently operated deployment hosts, real external trust identities and a completed multi-role live qualification ceremony remain open.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 475000,
+      "askingReferenceEUR": 478500,
       "materialBoundaries": [
-        "Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately."
+        "The software can inspect bounded evidence records; independently operated deployment hosts, real external trust identities and a completed multi-role live qualification ceremony remain open."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -2377,19 +2372,19 @@
         "enterprise",
         "assurance"
       ],
-      "summary": "Follow asset histories, review supporting records and assess what is ready for a documented handover.",
-      "overview": "A registry and assurance product for attributable assets, evidence and handover records.",
+      "summary": "Adds archive-backed governance recovery and a read-only compaction preflight, alongside authorization and registry hardening.",
+      "overview": "Adds archive-backed governance recovery and a read-only compaction preflight, alongside authorization and registry hardening.",
       "potentialBuyers": [
         "Registry software vendors",
         "Assurance service firms",
         "Enterprise audit teams"
       ],
       "capabilities": [
-        "Register digital asset identities",
-        "Link claims to evidence",
-        "Maintain record histories",
         "Prepare assurance dossiers",
-        "Review transfer and recovery records"
+        "Review transfer and recovery records",
+        "Signed archive and restore-governance verification",
+        "Read-only compaction diagnostics and registry hardening",
+        "Adversarial regression and acceptance-boundary documentation"
       ],
       "outputTypes": [
         "Asset registries",
@@ -2397,11 +2392,11 @@
         "Transfer histories"
       ],
       "maturity": "Developed software",
-      "maturityNote": "Existing software offered for evaluation against an agreed use and delivery scope.",
+      "maturityNote": "The source documents still label 5.3 R1 not accepted. Its presence on main is not acceptance evidence. No pruning is authorized; durable offsite archives, production recovery and external trust remain separate.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 650000,
+      "askingReferenceEUR": 655000,
       "materialBoundaries": [
-        "Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately."
+        "The source documents still label 5.3 R1 not accepted. Its presence on main is not acceptance evidence. No pruning is authorized; durable offsite archives, production recovery and external trust remain separate."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -2584,19 +2579,19 @@
         "research",
         "specialist"
       ],
-      "summary": "Follow your breathing sessions and review clearly labelled feedback to support your personal practice.",
-      "overview": "A guided biofeedback product for clearly labelled breathing-session observation.",
+      "summary": "Updates physiological-signal adapters, guided-session behavior and traceable session manifests for the bounded biofeedback prototype.",
+      "overview": "Updates physiological-signal adapters, guided-session behavior and traceable session manifests for the bounded biofeedback prototype.",
       "potentialBuyers": [
         "Wellness software vendors",
         "Human-performance research teams",
         "Digital experience developers"
       ],
       "capabilities": [
-        "Guide breathing sessions",
-        "Observe supported pulse inputs",
-        "Display signal quality",
         "Review session feedback",
-        "Retain attributable session records"
+        "Retain attributable session records",
+        "Sensor-source and guided-session integration",
+        "Traceable session manifests and signal-state controls",
+        "Campaign regressions and explicit end-user scope"
       ],
       "outputTypes": [
         "Session histories",
@@ -2604,11 +2599,11 @@
         "Observation records"
       ],
       "maturity": "Developed software",
-      "maturityNote": "Existing software offered for evaluation against an agreed use and delivery scope.",
+      "maturityNote": "Camera and compatible sensor paths require device-specific evidence; a synthetic demonstration is not a real physiological measurement, medical effect or production-qualified intervention.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 300000,
+      "askingReferenceEUR": 303000,
       "materialBoundaries": [
-        "Breathing-session and biofeedback software for a defined wellness or research scope; clinical diagnosis is excluded."
+        "Camera and compatible sensor paths require device-specific evidence; a synthetic demonstration is not a real physiological measurement, medical effect or production-qualified intervention."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -2690,19 +2685,19 @@
         "software",
         "specialist"
       ],
-      "summary": "Trace studio materials and consent, manage inventory and deposit workflow state, and review bounded persistence and migration safeguards.",
-      "overview": "Tattoo-studio operations software with tenant-scoped transactional persistence adapters and an isolated PostgreSQL qualification harness.",
+      "summary": "Adds qualified localhost Go-to-Python geometry transport, topology admission, benchmark tooling and low-distortion mesh parameterization research.",
+      "overview": "Adds qualified localhost Go-to-Python geometry transport, topology admission, benchmark tooling and low-distortion mesh parameterization research.",
       "potentialBuyers": [
         "Tattoo-industry software vendors",
         "Studio-management platform developers",
         "Specialist operations software businesses"
       ],
       "capabilities": [
-        "Record material and consent traceability",
-        "Review inventory and deposit-state transitions",
-        "Apply tenant-scoped transactional persistence rules",
         "Detect migration drift and ordering errors",
-        "Prepare isolated database qualification runs"
+        "Prepare isolated database qualification runs",
+        "Authenticated geometry transport and generated contract integration",
+        "Topology screening and low-distortion parameterization",
+        "Reproducible geometry comparisons and regression qualification"
       ],
       "outputTypes": [
         "Traceability and workflow records",
@@ -2710,13 +2705,11 @@
         "Migration and qualification assessments"
       ],
       "maturity": "Developed software",
-      "maturityNote": "Existing software offered for evaluation against an agreed use and delivery scope.",
+      "maturityNote": "Nonlinear refinement remains the next phase. Production persistence wiring, full tenant authorization, transport identity and anatomical stencil validation remain open.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 165500,
+      "askingReferenceEUR": 174500,
       "materialBoundaries": [
-        "The engineering baseline and local software checks do not establish real PostgreSQL runtime acceptance; that remains an open delivery gate.",
-        "Recipient deployment, tenant migration, security review, studio compliance, payment-provider integration and real-world stencil suitability require separate qualification.",
-        "The pinned database driver and other third-party components retain their own terms; the offered proprietary value covers first-party work."
+        "Nonlinear refinement remains the next phase. Production persistence wiring, full tenant authorization, transport identity and anatomical stencil validation remain open."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -3004,19 +2997,19 @@
         "software",
         "research"
       ],
-      "summary": "Bring different forms of observation together and compare their contribution to your research.",
-      "overview": "A multimodal research prototype for coordinated observation and attributable experiments.",
+      "summary": "Adds bounded external sensor/model adapter contracts, evidence-governed research sessions, comparable optimization benchmarks and preregistered spatiotemporal hypothesis-testing workflows.",
+      "overview": "Adds bounded external sensor/model adapter contracts, evidence-governed research sessions, comparable optimization benchmarks and preregistered spatiotemporal hypothesis-testing workflows.",
       "potentialBuyers": [
         "Sensor research groups",
         "Scientific software vendors",
         "Human-state research teams"
       ],
       "capabilities": [
-        "Organise multiple observation streams",
-        "Review quality and missing data",
-        "Align recorded sessions",
         "Study adaptive experiments",
-        "Retain research provenance"
+        "Retain research provenance",
+        "External adapter and governed research-session integration",
+        "Comparable optimization problem and benchmark contracts",
+        "Preregistered spatial-temporal tests and replay verification"
       ],
       "outputTypes": [
         "Observation sessions",
@@ -3024,11 +3017,11 @@
         "Replay records"
       ],
       "maturity": "Prototype",
-      "maturityNote": "A prototype offered for evaluation and continued development; production acceptance is separate.",
+      "maturityNote": "Statistical associations do not establish causality or a novel physical mechanism. Simulator contracts are not quantum-hardware results or quantum advantage; external domain qualification remains open.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 115000,
+      "askingReferenceEUR": 126500,
       "materialBoundaries": [
-        "A multimodal research prototype. Human-state conclusions and physical sensor performance require domain-specific qualification."
+        "Statistical associations do not establish causality or a novel physical mechanism. Simulator contracts are not quantum-hardware results or quantum advantage; external domain qualification remains open."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -3423,19 +3416,19 @@
         "software",
         "research"
       ],
-      "summary": "Compare reasoning approaches in repeatable experiments and assess which results your evidence supports.",
-      "overview": "A bounded reasoning research platform for repeatable experiments and evidence-led comparison.",
+      "summary": "Extends bounded reasoning experiments with dependency-gated belief revision, evidence/claim graphs, revision controls and repository-wide research validation hardening.",
+      "overview": "Extends bounded reasoning experiments with dependency-gated belief revision, evidence/claim graphs, revision controls and repository-wide research validation hardening.",
       "potentialBuyers": [
         "AI research groups",
         "Reasoning-tool developers",
         "Scientific software vendors"
       ],
       "capabilities": [
-        "Run reasoning experiments",
-        "Study planning and uncertainty",
-        "Compare research extensions",
         "Track claim-promotion conditions",
-        "Retain reproducible evidence"
+        "Retain reproducible evidence",
+        "Dependency-aware belief and claim-graph research",
+        "Revision propagation and evidence-ledger integration",
+        "Research-lineage integrity and adversarial regression"
       ],
       "outputTypes": [
         "Reasoning study records",
@@ -3443,11 +3436,11 @@
         "Research release material"
       ],
       "maturity": "Research software",
-      "maturityNote": "Research software for bounded studies; scientific outcomes require their own evidence.",
+      "maturityNote": "Finite synthetic research tasks do not demonstrate open-world reasoning, general intelligence or broad customer performance. The next cross-domain retrospective evaluation is still an open candidate.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 80000,
+      "askingReferenceEUR": 87500,
       "materialBoundaries": [
-        "Bounded reasoning research software. Broad general-intelligence claims are outside the offered scope."
+        "Finite synthetic research tasks do not demonstrate open-world reasoning, general intelligence or broad customer performance. The next cross-domain retrospective evaluation is still an open candidate."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -3989,17 +3982,19 @@
         "software",
         "research"
       ],
-      "summary": "QUBO structural-analysis research software with a separately specified weighted Max-3-SAT encoding, explicit auxiliary-variable accounting and bounded exhaustive objective checks.",
-      "overview": "Structural QUBO analysis with bounded encodings, benchmark laboratory, batched solvers, resumable campaigns, QPLIB corpus ingestion and paired statistical/Pareto analysis.",
+      "summary": "Adds instance characterization, solver-portfolio selection, bounded orchestration and algorithm-discovery/counterexample research to the QUBO analysis platform.",
+      "overview": "Adds instance characterization, solver-portfolio selection, bounded orchestration and algorithm-discovery/counterexample research to the QUBO analysis platform.",
       "potentialBuyers": [
         "Optimisation research teams",
         "Planning software vendors",
         "Scientific software developers"
       ],
       "capabilities": [
-        "Batched solver and benchmark laboratory beyond 0.3",
         "Resumable campaigns and source-qualified QPLIB corpus",
-        "Paired statistics, Pareto analysis and negative-control regression"
+        "Paired statistics, Pareto analysis and negative-control regression",
+        "Structural instance features and solver-portfolio selection",
+        "Bounded orchestration and counterexample experiments",
+        "Exact-reference comparison and reproducibility regression"
       ],
       "outputTypes": [
         "Problem diagnostics",
@@ -4007,12 +4002,11 @@
         "Scaling reports"
       ],
       "maturity": "Prototype",
-      "maturityNote": "No universal solver superiority, complexity breakthrough, quantum advantage or current GPU qualification is inferred.",
+      "maturityNote": "Bounded benchmark outcomes are not universal solver superiority or a new algorithm theorem. A current report/protocol hotfix is open; external scale and independent benchmarking remain separate.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 97500,
+      "askingReferenceEUR": 104500,
       "materialBoundaries": [
-        "No universal solver superiority, complexity breakthrough, quantum advantage or current GPU qualification is inferred.",
-        "First-party rights, exact delivery and recipient acceptance require project-specific agreement."
+        "Bounded benchmark outcomes are not universal solver superiority or a new algorithm theorem. A current report/protocol hotfix is open; external scale and independent benchmarking remain separate."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -4090,19 +4084,19 @@
         "software",
         "research"
       ],
-      "summary": "Compare synthetic measurement qualifications and check declared source, rights, split and protocol prerequisites before any external benchmark admission.",
-      "overview": "Developed neural-research software for finite synthetic qualification comparisons and bounded, data-free external benchmark entry checks.",
+      "summary": "Corrects published DANDI metadata parsing and exact source-identity checks in the computational-neuroscience source-admission workflow.",
+      "overview": "Corrects published DANDI metadata parsing and exact source-identity checks in the computational-neuroscience source-admission workflow.",
       "potentialBuyers": [
         "Computational-neuroscience research teams",
         "Research-software and simulation vendors",
         "Neural-systems methodology and evaluation groups"
       ],
       "capabilities": [
-        "Compose source-locked synthetic neural studies",
-        "Compare bounded measurement and observation qualifications",
-        "Preserve indistinguishable model alternatives",
         "Check declared source, rights, split and protocol conditions",
-        "Verify bounded local payload integrity without dataset admission"
+        "Verify bounded local payload integrity without dataset admission",
+        "Publisher metadata schema and identity reconciliation",
+        "Failure-path and recorded-response regression",
+        "Evidence and source-acceptance reconciliation"
       ],
       "outputTypes": [
         "Synthetic cross-qualification and witness reports",
@@ -4110,13 +4104,11 @@
         "Schema-checked comparison and lineage packages"
       ],
       "maturity": "Developed software",
-      "maturityNote": "Developed research or product software within the identified edition and material boundaries. Intended-use and recipient acceptance remain separate.",
+      "maturityNote": "Metadata identity is not admission of an authentic neural dataset or biological validation. Complete asset inventory is a separate open development proposal; clinical and production qualification remain open.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 964000,
+      "askingReferenceEUR": 965500,
       "materialBoundaries": [
-        "Retained qualification applies to its identified source and environment. Full replay in a different local environment still has unresolved numerical discrepancies; recipient-environment acceptance remains open.",
-        "Cross-qualification results are finite synthetic comparisons. Data-free source-entry checks assess declarations and local integrity; they do not admit a real dataset or establish source authenticity or legal clearance.",
-        "External scientific benchmarking remains closed. No unique biological mechanism, EEG/BCI validity, causal or clinical finding, AGI or production readiness is established."
+        "Metadata identity is not admission of an authentic neural dataset or biological validation. Complete asset inventory is a separate open development proposal; clinical and production qualification remain open."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -4143,19 +4135,19 @@
         "software",
         "research"
       ],
-      "summary": "Review ECG signal quality and compare research results for your cardiac-signal studies.",
-      "overview": "A cardiac-signal research prototype for quality assessment and controlled evaluation.",
+      "summary": "Adds governed external waveform-source handling, dataset/model lifecycle controls and an opt-in sequential private PTB-XL source-feasibility path.",
+      "overview": "Adds governed external waveform-source handling, dataset/model lifecycle controls and an opt-in sequential private PTB-XL source-feasibility path.",
       "potentialBuyers": [
         "Cardiac research groups",
         "Scientific software vendors",
         "Medical research tool developers"
       ],
       "capabilities": [
-        "Inspect supplied cardiac signals",
-        "Review signal quality",
-        "Govern dataset records",
         "Compare predictions with declared references",
-        "Track model acceptance decisions"
+        "Track model acceptance decisions",
+        "Governed waveform-source and private replay integration",
+        "Dataset admission and model-lifecycle research controls",
+        "Source feasibility, negative controls and reproducible qualification"
       ],
       "outputTypes": [
         "Signal quality reports",
@@ -4163,11 +4155,11 @@
         "Model review dossiers"
       ],
       "maturity": "Prototype",
-      "maturityNote": "A prototype offered for evaluation and continued development; production acceptance is separate.",
+      "maturityNote": "Operator assertions and checksum/replay controls do not establish independent rights clearance, authentic patient-cohort admission, clinical validity or production approval. The publisher connectivity probe remains a separate open candidate.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 250000,
+      "askingReferenceEUR": 261500,
       "materialBoundaries": [
-        "Cardiac-signal research and quality-analysis software. Clinical diagnosis and certified medical performance are excluded."
+        "Operator assertions and checksum/replay controls do not establish independent rights clearance, authentic patient-cohort admission, clinical validity or production approval. The publisher connectivity probe remains a separate open candidate."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -4195,19 +4187,19 @@
         "research",
         "assurance"
       ],
-      "summary": "Review permissions and decision records before authorising a controlled resource action.",
-      "overview": "Versioned evidence-receipt and handover lifecycle with counterparty-policy acknowledgement, withdrawal and supersession controls.",
+      "summary": "Adds assertion-time and current-time trust approval, fail-closed expiry/revocation, append-only provenance receipts and deterministic release replay.",
+      "overview": "Adds assertion-time and current-time trust approval, fail-closed expiry/revocation, append-only provenance receipts and deterministic release replay.",
       "potentialBuyers": [
         "Security software vendors",
         "Device research groups",
         "Assurance product teams"
       ],
       "capabilities": [
-        "Evaluate action permissions",
-        "Simulate secure-resource scenarios",
-        "Review qualification decisions",
         "Prepare portable handovers",
-        "Record buyer acceptance evidence"
+        "Record buyer acceptance evidence",
+        "Temporal trust approval and revocation enforcement",
+        "Receipt lineage and deterministic release replay",
+        "Repository audit and negative-control qualification"
       ],
       "outputTypes": [
         "Authorisation records",
@@ -4215,12 +4207,11 @@
         "Transfer packages"
       ],
       "maturity": "Developed software",
-      "maturityNote": "Transfer readiness remains false: required external counterparty evidence is absent. No verified real counterparty receipt, actuation authority or operational certification.",
+      "maturityNote": "This is software-only authorization and evidence control. Physical actuation safety, production identities and independent verifier qualification remain open; the next audit-chain candidate is not included.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 428500,
+      "askingReferenceEUR": 433500,
       "materialBoundaries": [
-        "Transfer readiness remains false: required external counterparty evidence is absent. No verified real counterparty receipt, actuation authority or operational certification.",
-        "First-party rights, exact delivery and recipient acceptance require project-specific agreement."
+        "This is software-only authorization and evidence control. Physical actuation safety, production identities and independent verifier qualification remain open; the next audit-chain candidate is not included."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -4977,19 +4968,19 @@
         "media",
         "education"
       ],
-      "summary": "Build focused piano practice around your own music, follow visual guidance and review your progress.",
-      "overview": "A distinct piano learning, performance and production application asset.",
+      "summary": "Adds browser practice-evidence/coaching work and synthetic-only V17 reference, feature-parity and statistical-readiness tooling while preserving the active V13 transcription baseline.",
+      "overview": "Adds browser practice-evidence/coaching work and synthetic-only V17 reference, feature-parity and statistical-readiness tooling while preserving the active V13 transcription baseline.",
       "potentialBuyers": [
         "Music education vendors",
         "Creator-tool developers",
         "Piano product teams"
       ],
       "capabilities": [
-        "Import lawful private music",
-        "Follow visual piano guidance",
-        "Use adaptive practice loops",
         "Review timing and note feedback",
-        "Back up private practice projects"
+        "Back up private practice projects",
+        "Browser practice evidence and bounded coaching integration",
+        "Synthetic V17 reference/parity and readiness tooling",
+        "Source-hold enforcement and release-boundary regression"
       ],
       "outputTypes": [
         "Practice projects",
@@ -4997,11 +4988,11 @@
         "Private library backups"
       ],
       "maturity": "Developed software",
-      "maturityNote": "Existing software offered for evaluation against an agreed use and delivery scope.",
+      "maturityNote": "V16 confirmation failed and is historical. V17 remains the active improvement line, with source admission, real training and fresh paired V13/V16 comparison on HOLD. No real-piano accuracy improvement is claimed.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 180000,
+      "askingReferenceEUR": 185000,
       "materialBoundaries": [
-        "Piano learning and production software. The delivery edition, supported devices and acceptance conditions are agreed before transfer."
+        "V16 confirmation failed and is historical. V17 remains the active improvement line, with source admission, real training and fresh paired V13/V16 comparison on HOLD. No real-piano accuracy improvement is claimed."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -5447,19 +5438,19 @@
         "research",
         "media"
       ],
-      "summary": "Explore shared fictional worlds, review the consequences of participant decisions and preserve a consistent history of each scenario.",
-      "overview": "Local shared-world simulation with scoped fact packets, revocable knowledge grants, SQLite character-belief memory and a governed gateway that rechecks action authorization inside the write transaction.",
+      "summary": "Adds issuer-key lifecycle, authenticated local audit and operator-managed rollback-checkpoint controls to the local shared-world reference implementation.",
+      "overview": "Adds issuer-key lifecycle, authenticated local audit and operator-managed rollback-checkpoint controls to the local shared-world reference implementation.",
       "potentialBuyers": [
         "Interactive storytelling studios",
         "Game-tool developers",
         "Simulation research groups"
       ],
       "capabilities": [
-        "Maintain local world histories and offline seals",
-        "Issue and revoke scoped fact handles",
-        "Persist attributed beliefs in SQLite",
         "Admit mock-agent actions through a local governed gateway",
-        "Recheck authorization atomically before an action commits"
+        "Recheck authorization atomically before an action commits",
+        "Issuer lifecycle and scoped world-claim enforcement",
+        "Authenticated audit and file-checkpoint integration",
+        "Rollback regressions and implementation/vision reconciliation"
       ],
       "outputTypes": [
         "Scenario worlds",
@@ -5467,12 +5458,11 @@
         "Replayable narrative records"
       ],
       "maturity": "Prototype",
-      "maturityNote": "Two authored scenarios, mock agents and fixed narrative templates. External identity, untrusted plugin isolation, freeform model grounding, distributed multiplayer and production deployment remain open. The R4 candidate is outside this price.",
+      "maturityNote": "A separate checkpoint pathname is not independent durable custody. Live identity, untrusted-code isolation, a cinematic frontend and hosted production operation remain unqualified; the persona narrative candidate is open.",
       "availability": "Scope and transfer review required",
-      "askingReferenceEUR": 28500,
+      "askingReferenceEUR": 32000,
       "materialBoundaries": [
-        "Two authored scenarios, mock agents and fixed narrative templates. External identity, untrusted plugin isolation, freeform model grounding, distributed multiplayer and production deployment remain open. The R4 candidate is outside this price.",
-        "First-party rights, exact delivery and recipient acceptance require project-specific agreement."
+        "A separate checkpoint pathname is not independent durable custody. Live identity, untrusted-code isolation, a cinematic frontend and hosted production operation remain unqualified; the persona narrative candidate is open."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -5763,19 +5753,19 @@
         "media",
         "software"
       ],
-      "summary": "Prepare entertainment-satire publishing workflows and review bounded release, cost, encryption and recovery conditions before any separately approved launch.",
-      "overview": "A standalone prelaunch publishing-software asset with controlled editorial workflows, operating-cost review, joint synthetic recovery, optional encryption qualification and temporary nonce/commit rehearsal.",
+      "summary": "Adds separate synthetic rollback witnesses, a simulated third trust domain, an offline remote-authority contract and a main-source outage/acknowledgement fence.",
+      "overview": "Adds separate synthetic rollback witnesses, a simulated third trust domain, an offline remote-authority contract and a main-source outage/acknowledgement fence.",
       "potentialBuyers": [
         "Digital media publishers",
         "Entertainment editorial teams",
         "Publishing-workflow software vendors"
       ],
       "capabilities": [
-        "Organise editorial, timing and controlled release workflows",
-        "Review bounded usage-cost and incident records",
-        "Rehearse joint static-site and synthetic database recovery",
         "Review retention, key-custody and optional encryption conditions",
-        "Exercise encrypted synthetic restoration and temporary nonce journals"
+        "Exercise encrypted synthetic restoration and temporary nonce journals",
+        "Synthetic witness and third-domain rollback comparison",
+        "Offline authority boundary and acknowledgement fencing",
+        "Outage/replay regression and acceptance reconciliation"
       ],
       "outputTypes": [
         "Editorial and release-review packages",
@@ -5784,13 +5774,11 @@
         "Encryption and journal qualification reports"
       ],
       "maturity": "Prototype",
-      "maturityNote": "Available as a specifically scoped research or development software asset. Independent application, rights and handover acceptance remain separate.",
+      "maturityNote": "All authority domains remain simulations on one offline host. R5.45 source documents retain pending acceptance; real remote custody, live publishing rights, operator recovery and commercial launch remain blocked.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 43000,
+      "askingReferenceEUR": 46000,
       "materialBoundaries": [
-        "Prelaunch software with offline qualification; live publication, licensed news sources, editorial/legal acceptance and real host operation remain separately gated.",
-        "Recovery and encryption exercises use explicitly synthetic disposable material. They do not establish durable real backups, recoverable production keys, independent anti-rollback, offsite custody or recovery-time guarantees.",
-        "Optional third-party cryptography is qualified only in the stated test scope. Production integration, licensed content, real paid services and an operating publication are excluded unless separately agreed."
+        "All authority domains remain simulations on one offline host. R5.45 source documents retain pending acceptance; real remote custody, live publishing rights, operator recovery and commercial launch remain blocked."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -5818,19 +5806,19 @@
         "software",
         "education"
       ],
-      "summary": "Define bounded research hypotheses, compare source-bound synthetic models and review covariance-aware methodological evidence with explicit scientific limits.",
-      "overview": "An independent research-software framework for declared hypothesis portfolios, source-bound synthetic model comparisons, covariance-aware methodological controls and bounded astronomical-data audits.",
+      "summary": "Adds a bounded public-source record collector and reconciles source-bound CPU evidence for the existing hypothesis-testing research software.",
+      "overview": "Adds a bounded public-source record collector and reconciles source-bound CPU evidence for the existing hypothesis-testing research software.",
       "potentialBuyers": [
         "Scientific research organisations",
         "Research-software vendors",
         "Computational-physics and methodology teams"
       ],
       "capabilities": [
-        "Run clearly labelled synthetic methodological experiments",
-        "Declare bounded hypothesis portfolios and prediction provenance",
-        "Review dimension-qualified synthetic model comparisons",
         "Compare fixed models using declared covariance assumptions",
-        "Audit supported local astronomical files and replay evidence"
+        "Audit supported local astronomical files and replay evidence",
+        "Bounded public-record collector and schema handling",
+        "Malformed-response and provenance regression",
+        "Source-bound evidence and research-gate reconciliation"
       ],
       "outputTypes": [
         "Synthetic experiment and model-comparison reports",
@@ -5839,13 +5827,11 @@
         "Reproducibility packages"
       ],
       "maturity": "Research software",
-      "maturityNote": "Available as a specifically scoped research or development software asset. Independent application, rights and handover acceptance remain separate.",
+      "maturityNote": "Collection captured partial public records, including unrelated procurement results; it does not establish a scientific corpus, buyer demand, item-level data rights or astrophysical corroboration. Research and rights gates remain in progress.",
       "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 14500,
+      "askingReferenceEUR": 17500,
       "materialBoundaries": [
-        "A research-software framework, not a simulation detector or an empirically validated physical theory.",
-        "Synthetic model comparisons and covariance controls do not establish new physics, a scientifically calibrated null, instrument calibration or an external simulator.",
-        "The broader hypothesis families and cross-domain programme remain research directions; implemented bounded methodology is not a collection of validated physical model engines."
+        "Collection captured partial public records, including unrelated procurement results; it does not establish a scientific corpus, buyer demand, item-level data rights or astrophysical corroboration. Research and rights gates remain in progress."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -6450,17 +6436,19 @@
         "education",
         "software"
       ],
-      "summary": "Reproducible fractal mathematics, exact-rational certificate checking and bounded engineered-potential research; no experimental new-physics claim.",
-      "overview": "Reproducible fractal mathematics, exact-rational return-interval certificates and bounded pattern catalogues with engineered photonic-potential research tools.",
+      "summary": "Adds measurement-readiness and external-evidence intake, versioned publisher metadata, raw-workbook admission and a physical-dataset comparability screen.",
+      "overview": "Adds measurement-readiness and external-evidence intake, versioned publisher metadata, raw-workbook admission and a physical-dataset comparability screen.",
       "potentialBuyers": [
         "Computational mathematics groups",
         "Photonic simulation researchers",
         "Scientific software developers"
       ],
       "capabilities": [
-        "Fractal computation and exact-rational certificate producer/verifier",
         "Pattern provenance, deduplication and bounded model experiments",
-        "CLI, independent numerical checks and acceptance packaging"
+        "CLI, independent numerical checks and acceptance packaging",
+        "Measurement and external-evidence intake contracts",
+        "Versioned metadata and raw-workbook verification",
+        "Physical-comparability screen and independent replay controls"
       ],
       "outputTypes": [
         "Mathematical certificates",
@@ -6468,12 +6456,11 @@
         "Numerical model reports"
       ],
       "maturity": "Research software",
-      "maturityNote": "G2 remains HOLD; no experimental measurements, demonstrated new physics or hardware. Duplicated catalogue entries are not independent discoveries.",
+      "maturityNote": "The admitted external optical data are not directly comparable with the current FPDP hypothesis. Scientific G2 remains HOLD; internal mathematical/software checks are not a new physical law or independent experimental corroboration.",
       "availability": "Scope and transfer review required",
-      "askingReferenceEUR": 15000,
+      "askingReferenceEUR": 20000,
       "materialBoundaries": [
-        "G2 remains HOLD; no experimental measurements, demonstrated new physics or hardware. Duplicated catalogue entries are not independent discoveries.",
-        "First-party rights, exact delivery and recipient acceptance require project-specific agreement."
+        "The admitted external optical data are not directly comparable with the current FPDP hypothesis. Scientific G2 remains HOLD; internal mathematical/software checks are not a new physical law or independent experimental corroboration."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
@@ -6540,6 +6527,257 @@
       "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/fundamental-dark-sector-research-platform/",
       "factsheetUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/fundamental-dark-sector-research-platform/factsheet.pdf",
       "briefUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/fundamental-dark-sector-research-platform/product-brief.md"
+    },
+    {
+      "ref": "TA-IP-124",
+      "slug": "universal-digital-cloning-platform",
+      "title": "Universal Digital Cloning Platform",
+      "referenceName": "Cressida",
+      "categoryId": "industrial-digital-twins",
+      "buyerGroupIds": [
+        "software",
+        "research"
+      ],
+      "summary": "Create, compare and trace recorded digital representations with explicit state and provenance boundaries.",
+      "overview": "A local research workbench for versioned digital records, variants and comparisons across several declared domains.",
+      "potentialBuyers": [
+        "Digital-twin research teams",
+        "Scientific software developers",
+        "Data-provenance tool builders"
+      ],
+      "capabilities": [
+        "Create recorded-state snapshots and variants",
+        "Compare declared digital representations",
+        "Track ancestry and content commitments",
+        "Exchange versioned records through a typed lossless envelope"
+      ],
+      "outputTypes": [
+        "Versioned state records",
+        "Comparison reports",
+        "Provenance and interchange artifacts"
+      ],
+      "maturity": "Prototype",
+      "maturityNote": "Recorded representations do not reproduce physical identity, clone money or establish universal predictive fidelity. Python remains authoritative; the Rust component is an experimental structural verifier. Hosted and scientific qualification remain open.",
+      "availability": "Defined AS IS scope; project-specific diligence required",
+      "askingReferenceEUR": 13500,
+      "materialBoundaries": [
+        "Recorded representations do not reproduce physical identity, clone money or establish universal predictive fidelity. Python remains authoritative; the Rust component is an experimental structural verifier. Hosted and scientific qualification remain open."
+      ],
+      "offeredScope": [
+        "The specifically agreed first-party software or research work product",
+        "Associated first-party product documentation and retained evaluation material",
+        "The expressly agreed transferable first-party rights"
+      ],
+      "excludedScope": [
+        "Third-party software, data, media, models and service entitlements beyond their own terms",
+        "Personal, customer and author content, private accounts and credentials",
+        "Future development, hosting, hardware, support and operating businesses unless expressly agreed"
+      ],
+      "profileUrl": "https://thearchitect-max.github.io/MyProjects/projects/universal-digital-cloning-platform/",
+      "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/universal-digital-cloning-platform/",
+      "factsheetUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/universal-digital-cloning-platform/factsheet.pdf",
+      "briefUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/universal-digital-cloning-platform/product-brief.md"
+    },
+    {
+      "ref": "TA-IP-125",
+      "slug": "universal-cognitive-intelligence-architecture",
+      "title": "Universal Cognitive Intelligence Architecture",
+      "referenceName": "Honoria",
+      "categoryId": "adaptive-intelligence",
+      "buyerGroupIds": [
+        "software",
+        "research"
+      ],
+      "summary": "Structure cognitive-workflow research around explicit evidence contracts, source provenance and bounded historical admission.",
+      "overview": "A research architecture and deterministic evidence-validation toolkit with a historical reference corpus and documented future workflow designs.",
+      "potentialBuyers": [
+        "Cognitive-architecture researchers",
+        "Evidence-workflow tool developers",
+        "Digital-humanities research teams"
+      ],
+      "capabilities": [
+        "Validate versioned epistemic records",
+        "Track historical-source and edition provenance",
+        "Record source-access limitations and admission decisions",
+        "Separate proposed cognitive workflows from implemented validators"
+      ],
+      "outputTypes": [
+        "Validated contract records",
+        "Source-access dossiers",
+        "Research and admission ledgers"
+      ],
+      "maturity": "Research software",
+      "maturityNote": "The architecture specifications are not deployed agents or a trained model. Historical authentication, complete corpus admission and empirical intelligence superiority are not established. R2 remains HOLD; WP5B acceptance is unresolved.",
+      "availability": "Defined AS IS scope; project-specific diligence required",
+      "askingReferenceEUR": 10000,
+      "materialBoundaries": [
+        "The architecture specifications are not deployed agents or a trained model. Historical authentication, complete corpus admission and empirical intelligence superiority are not established. R2 remains HOLD; WP5B acceptance is unresolved."
+      ],
+      "offeredScope": [
+        "The specifically agreed first-party software or research work product",
+        "Associated first-party product documentation and retained evaluation material",
+        "The expressly agreed transferable first-party rights"
+      ],
+      "excludedScope": [
+        "Third-party software, data, media, models and service entitlements beyond their own terms",
+        "Personal, customer and author content, private accounts and credentials",
+        "Future development, hosting, hardware, support and operating businesses unless expressly agreed"
+      ],
+      "profileUrl": "https://thearchitect-max.github.io/MyProjects/projects/universal-cognitive-intelligence-architecture/",
+      "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/universal-cognitive-intelligence-architecture/",
+      "factsheetUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/universal-cognitive-intelligence-architecture/factsheet.pdf",
+      "briefUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/universal-cognitive-intelligence-architecture/product-brief.md"
+    },
+    {
+      "ref": "TA-IP-126",
+      "slug": "autonomous-financial-value-creation-platform",
+      "title": "Autonomous Financial Value Creation Platform",
+      "referenceName": "Aveline",
+      "categoryId": "physics-math-optimization",
+      "buyerGroupIds": [
+        "research",
+        "software"
+      ],
+      "summary": "Investigate proposed useful-capability and value-creation mechanisms with reproducible counterfactual models and rejection records.",
+      "overview": "An exploratory research archive with bounded computational experiments examining whether a generated capability can produce an independently verifiable benefit.",
+      "potentialBuyers": [
+        "Mechanism-design research groups",
+        "Computational-economics researchers",
+        "Formal experimental-method teams"
+      ],
+      "capabilities": [
+        "Run bounded computational counterfactuals",
+        "Retain rejected hypotheses and replacement provenance",
+        "Compare useful-capability research mechanisms",
+        "Separate model consistency from actual financial receipts"
+      ],
+      "outputTypes": [
+        "Research reports",
+        "Model and benchmark records",
+        "Counterfactual and rejection ledgers"
+      ],
+      "maturity": "Research software",
+      "maturityNote": "No actual net euro receipt, newly recognized monetary right, market novelty or deployable earnings mechanism is demonstrated. The offer concerns existing first-party research work only; third-party methods and legal sources retain their own rights.",
+      "availability": "Defined AS IS scope; project-specific diligence required",
+      "askingReferenceEUR": 7500,
+      "materialBoundaries": [
+        "No actual net euro receipt, newly recognized monetary right, market novelty or deployable earnings mechanism is demonstrated. The offer concerns existing first-party research work only; third-party methods and legal sources retain their own rights."
+      ],
+      "offeredScope": [
+        "The specifically agreed first-party software or research work product",
+        "Associated first-party product documentation and retained evaluation material",
+        "The expressly agreed transferable first-party rights"
+      ],
+      "excludedScope": [
+        "Third-party software, data, media, models and service entitlements beyond their own terms",
+        "Personal, customer and author content, private accounts and credentials",
+        "Future development, hosting, hardware, support and operating businesses unless expressly agreed"
+      ],
+      "profileUrl": "https://thearchitect-max.github.io/MyProjects/projects/autonomous-financial-value-creation-platform/",
+      "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/autonomous-financial-value-creation-platform/",
+      "factsheetUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/autonomous-financial-value-creation-platform/factsheet.pdf",
+      "briefUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/autonomous-financial-value-creation-platform/product-brief.md"
+    },
+    {
+      "ref": "TA-IP-127",
+      "slug": "three-card-poker-decision-platform",
+      "title": "Three Card Poker Decision Platform",
+      "referenceName": "Sabina",
+      "categoryId": "specialist-verticals",
+      "buyerGroupIds": [
+        "software",
+        "education"
+      ],
+      "summary": "Train and review Three Card Poker decisions using exact rule-profile analysis, localized explanations and explicit risk reporting.",
+      "overview": "A mathematically bounded decision engine and training foundation with a provider-independent backend transport.",
+      "potentialBuyers": [
+        "Card-game training publishers",
+        "Decision-support software developers",
+        "Gaming-mathematics education teams"
+      ],
+      "capabilities": [
+        "Evaluate admitted player-hand and rule-profile decisions",
+        "Grade training decisions through a stable product contract",
+        "Present localized decision semantics",
+        "Compare decisions against exhaustive reference enumeration"
+      ],
+      "outputTypes": [
+        "Decision and grading records",
+        "Rule-profile validation reports",
+        "Risk and mathematical verification artifacts"
+      ],
+      "maturity": "Developed software",
+      "maturityNote": "Internal exhaustive agreement is bounded to admitted rules and does not establish external certification or a casino-beating system. The P2B interface is an open candidate; production hosting and customer readiness are unqualified.",
+      "availability": "Defined AS IS scope; project-specific diligence required",
+      "askingReferenceEUR": 19000,
+      "materialBoundaries": [
+        "Internal exhaustive agreement is bounded to admitted rules and does not establish external certification or a casino-beating system. The P2B interface is an open candidate; production hosting and customer readiness are unqualified."
+      ],
+      "offeredScope": [
+        "The specifically agreed first-party software or research work product",
+        "Associated first-party product documentation and retained evaluation material",
+        "The expressly agreed transferable first-party rights"
+      ],
+      "excludedScope": [
+        "Third-party software, data, media, models and service entitlements beyond their own terms",
+        "Personal, customer and author content, private accounts and credentials",
+        "Future development, hosting, hardware, support and operating businesses unless expressly agreed"
+      ],
+      "profileUrl": "https://thearchitect-max.github.io/MyProjects/projects/three-card-poker-decision-platform/",
+      "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/three-card-poker-decision-platform/",
+      "factsheetUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/three-card-poker-decision-platform/factsheet.pdf",
+      "briefUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/three-card-poker-decision-platform/product-brief.md"
+    },
+    {
+      "ref": "TA-IP-128",
+      "slug": "art-direction-visual-design-research-framework",
+      "title": "Art Direction & Visual Design Research Framework",
+      "referenceName": "Leonora",
+      "categoryId": "visual-multimodal",
+      "buyerGroupIds": [
+        "software",
+        "media",
+        "research"
+      ],
+      "summary": "Translate classical artistic principles into a coherent visual specification, original design studies and inspectable interface prototypes.",
+      "overview": "An art-direction research framework with an implemented HTML/CSS design-system prototype, original comparative studies and source-bound browser evidence.",
+      "potentialBuyers": [
+        "Design-system teams",
+        "Brand and editorial studios",
+        "Creative-technology researchers"
+      ],
+      "capabilities": [
+        "Apply documented color, material and composition rules",
+        "Explore original brand, editorial and cinematic studies",
+        "Inspect offline interface specimens",
+        "Record source-bound rendering and browser-behavior evidence"
+      ],
+      "outputTypes": [
+        "Design specifications",
+        "Original vector and interface studies",
+        "Browser qualification and provenance records"
+      ],
+      "maturity": "Prototype",
+      "maturityNote": "Scoped native/browser acceptance does not establish complete WCAG 2.2 AA, authentic assistive-technology acceptance, print/textile fidelity, trademark clearance or market validation. Manual accessibility research remains HOLD.",
+      "availability": "Defined AS IS scope; project-specific diligence required",
+      "askingReferenceEUR": 11500,
+      "materialBoundaries": [
+        "Scoped native/browser acceptance does not establish complete WCAG 2.2 AA, authentic assistive-technology acceptance, print/textile fidelity, trademark clearance or market validation. Manual accessibility research remains HOLD."
+      ],
+      "offeredScope": [
+        "The specifically agreed first-party software or research work product",
+        "Associated first-party product documentation and retained evaluation material",
+        "The expressly agreed transferable first-party rights"
+      ],
+      "excludedScope": [
+        "Third-party software, data, media, models and service entitlements beyond their own terms",
+        "Personal, customer and author content, private accounts and credentials",
+        "Future development, hosting, hardware, support and operating businesses unless expressly agreed"
+      ],
+      "profileUrl": "https://thearchitect-max.github.io/MyProjects/projects/art-direction-visual-design-research-framework/",
+      "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/art-direction-visual-design-research-framework/",
+      "factsheetUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/art-direction-visual-design-research-framework/factsheet.pdf",
+      "briefUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/art-direction-visual-design-research-framework/product-brief.md"
     }
   ]
 }

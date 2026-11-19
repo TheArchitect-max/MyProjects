@@ -2,15 +2,15 @@
 
 TA-IP-109 | Reference name: Lucinda
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
-A standalone prelaunch publishing-software asset with controlled editorial workflows, operating-cost review, joint synthetic recovery, optional encryption qualification and temporary nonce/commit rehearsal.
+Adds separate synthetic rollback witnesses, a simulated third trust domain, an offline remote-authority contract and a main-source outage/acknowledgement fence.
 
-Identified edition: R5.41 prelaunch
+Identified edition: R5.45 main-source prelaunch / accepted offline evidence through R5.44
 
-A standalone prelaunch publishing-software asset with controlled editorial workflows, operating-cost review, joint synthetic recovery, optional encryption qualification and temporary nonce/commit rehearsal.
+Adds separate synthetic rollback witnesses, a simulated third trust domain, an offline remote-authority contract and a main-source outage/acknowledgement fence.
 
 ## Potential acquirers
 
@@ -20,11 +20,11 @@ A standalone prelaunch publishing-software asset with controlled editorial workf
 
 ## Documented functions
 
-- Organise editorial, timing and controlled release workflows
-- Review bounded usage-cost and incident records
-- Rehearse joint static-site and synthetic database recovery
 - Review retention, key-custody and optional encryption conditions
 - Exercise encrypted synthetic restoration and temporary nonce journals
+- Synthetic witness and third-domain rollback comparison
+- Offline authority boundary and acknowledgement fencing
+- Outage/replay regression and acceptance reconciliation
 
 ## Output types
 
@@ -35,59 +35,56 @@ A standalone prelaunch publishing-software asset with controlled editorial workf
 
 ## Material scope boundaries
 
-- Prelaunch software with offline qualification; live publication, licensed news sources, editorial/legal acceptance and real host operation remain separately gated.
-- Recovery and encryption exercises use explicitly synthetic disposable material. They do not establish durable real backups, recoverable production keys, independent anti-rollback, offsite custody or recovery-time guarantees.
-- Optional third-party cryptography is qualified only in the stated test scope. Production integration, licensed content, real paid services and an operating publication are excluded unless separately agreed.
+- All authority domains remain simulations on one offline host. R5.45 source documents retain pending acceptance; real remote custody, live publishing rights, operator recovery and commercial launch remain blocked.
 
 ## Acquisition evidence profile
 
-- Technical scope: P — A standalone prelaunch publishing-software asset with controlled editorial workflows, operating-cost review, joint synthetic recovery, optional encryption qualification and temporary nonce/commit rehearsal. The offered edition and material boundaries govern review.
+- Technical scope: P — Adds separate synthetic rollback witnesses, a simulated third trust domain, an offline remote-authority contract and a main-source outage/acknowledgement fence. All authority domains remain simulations on one offline host. R5.45 source documents retain pending acceptance; real remote custody, live publishing rights, operator recovery and commercial launch remain blocked.
 - Evidence and validation: E2 — Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R1 — Repository licence file identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
 - Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
 - Delivery and handover: T2 — Source, documentation, tests and licence evidence support bounded handover. The listed conditions and written delivery agreement govern acceptance.
 
-Offered first-party scope: Specifically agreed first-party implementation and documentation for R5.41 prelaunch. The previously priced editorial, release, cost, continuity and prelaunch rehearsal foundations are reused once. Added joint recovery, retention, bounded key-custody/encryption and synthetic journal software is included. Real source/content rights, customer or operator data, durable production backups, host provisioning, paid API use and publication are excluded.
+Offered first-party scope: Existing first-party main-source work: Adds separate synthetic rollback witnesses, a simulated third trust domain, an offline remote-authority contract and a main-source outage/acknowledgement fence. All authority domains remain simulations on one offline host. R5.45 source documents retain pending acceptance; real remote custody, live publishing rights, operator recovery and commercial launch remain blocked.
 
-Development: Open, unmerged development: R5.42 — Separate synthetic rollback witness and recovery checkpoint assurance; Complete Gossquibble source import: 100 articles, website, newsroom and integrity gates. Not a released product or an automatic expansion of priced scope.
+Development: Open, unmerged development: R5.46 — Untrusted reconciliation admission and complete documentation consistency This is outside the offered main-source budget.
 
 ## Conditions before handover
 
+- All authority domains remain simulations on one offline host. R5.45 source documents retain pending acceptance; real remote custody, live publishing rights, operator recovery and commercial launch remain blocked.
 - Freeze the source-specific delivery edition, transferable rights and exclusions.
 - Review component obligations, source-specific reproducibility and security evidence under agreed confidentiality.
-- Complete intended-use and recipient-environment acceptance before relying on the identified outputs.
 
 ## Qualification objectives
 
-- Evaluate representative intended-use cases within the stated material boundaries.
-- Agree measurable delivery and acceptance conditions before transfer.
+- All authority domains remain simulations on one offline host. R5.45 source documents retain pending acceptance; real remote custody, live publishing rights, operator recovery and commercial launch remain blocked.
 
 ## Prices and sources
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 43,000 | 48,220 |
-| Negotiation reference - low | 34,000 | 38,128 |
-| Negotiation reference - high | 53,500 | 59,995 |
-| Recreation cost estimate | 143,000 | 160,360 |
-| Marketability cost scenario | 109,395 | 122,676 |
-| Monetisation cost scenario | 101,351 | 113,655 |
-| Risk-adjusted strategic reference | 54,242 | 60,827 |
-| Weighted economic reference | 96,884 | 108,646 |
+| Seller asking reference | 46,000 | 50,453 |
+| Negotiation reference - low | 36,800 | 40,362 |
+| Negotiation reference - high | 57,500 | 63,066 |
+| Recreation cost estimate | 153,000 | 167,810 |
+| Marketability cost scenario | 117,045 | 128,375 |
+| Monetisation cost scenario | 108,439 | 118,936 |
+| Risk-adjusted strategic reference | 58,035 | 63,653 |
+| Weighted economic reference | 103,659 | 113,693 |
 
-The retained expressly priced scope and successive non-overlapping implementation budgets reconcile below. Equivalent effort and historical anchors remain seller assumptions, not actual expenditure, independent quotations or market value. The previously priced editorial, release, cost, continuity and prelaunch rehearsal foundations are reused once. Added joint recovery, retention, bounded key-custody/encryption and synthetic journal software is included. Real source/content rights, customer or operator data, durable production backups, host provisioning, paid API use and publication are excluded.
+Non-overlapping implemented main-source increment: 96 assumed hours at EUR 94/hour, 15% allowance, EUR 10,000 adopted recreation increment and EUR 3,000 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project. Earlier priced work is counted once; its legacy uncertainty remains.
 
-Coverage describes stated seller estimates only. All recreation amounts have an explicit scoped budget; effort remains an assumption.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-README describes offline-only fictional late-night satire newsroom, synthetic SQLite rows, prelaunch HOLD and internal evidence chains; R5.42 PR targets 1463 tests not run on exact head.
+Current main README, full Git inventory and comparison with the prior reviewed main identify this implemented change: Adds separate synthetic rollback witnesses, a simulated third trust domain, an offline remote-authority contract and a main-source outage/acknowledgement fence. Retained acceptance is source-reported and remains bound to its original source and environment.
 
-Remaining limits: No public launch, real source-content rights, production security/VPS, paid API operation or independent offsite key/witness custody. R5.42 unmerged, full Colab acceptance NOT_RUN.
+Remaining limits: All authority domains remain simulations on one offline host. R5.45 source documents retain pending acceptance; real remote custody, live publishing rights, operator recovery and commercial launch remain blocked.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: Non-overlapping implemented main-source increment: 96 assumed hours at EUR 94/hour, 15% allowance, EUR 10,000 adopted recreation increment and EUR 3,000 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

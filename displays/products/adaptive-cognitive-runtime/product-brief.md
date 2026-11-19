@@ -2,7 +2,7 @@
 
 TA-IP-070 | Reference name: Sophia
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -67,28 +67,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 227,500 | 255,119 |
-| Negotiation reference - low | 182,000 | 204,095 |
-| Negotiation reference - high | 283,500 | 317,917 |
-| Recreation cost estimate | 860,000 | 964,404 |
-| Marketability cost scenario | 1,087,900 | 1,219,971 |
-| Monetisation cost scenario | 986,850 | 1,106,654 |
-| Risk-adjusted strategic reference | 1,097,622 | 1,230,873 |
-| Weighted economic reference | 1,014,118 | 1,137,232 |
+| Seller asking reference | 227,500 | 249,522 |
+| Negotiation reference - low | 182,000 | 199,618 |
+| Negotiation reference - high | 283,500 | 310,943 |
+| Recreation cost estimate | 860,000 | 943,248 |
+| Marketability cost scenario | 1,087,900 | 1,193,209 |
+| Monetisation cost scenario | 986,850 | 1,082,377 |
+| Risk-adjusted strategic reference | 1,097,622 | 1,203,872 |
+| Weighted economic reference | 1,014,118 | 1,112,285 |
 
 Recreation estimate: EUR 850,000 retained scope component plus EUR 10,000 for the explicitly scoped implementation work budget, giving EUR 860,000. The scoped budget assumes 96 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-README reports 7/7 local focused CPU tests and CPU neural reconstruction smoke; full repository and CUDA GPU Colab archive required for v4.6 qualification.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. README reports 7/7 local focused CPU tests and CPU neural reconstruction smoke; full repository and CUDA GPU Colab archive required for v4.6 qualification.
 
 Remaining limits: No v4.6 GPU PASS, AGI, broad autonomous cognition, real-world causal proof or hostile-code sandbox. Full pinned GPU qualification and operational security remain open.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

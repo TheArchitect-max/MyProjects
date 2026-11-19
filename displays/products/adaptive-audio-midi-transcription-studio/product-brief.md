@@ -2,7 +2,7 @@
 
 TA-IP-085 | Reference name: Aria
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -71,28 +71,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 80,000 | 89,712 |
-| Negotiation reference - low | 65,000 | 72,891 |
-| Negotiation reference - high | 100,000 | 112,140 |
-| Recreation cost estimate | 450,000 | 504,630 |
-| Marketability cost scenario | 439,875 | 493,276 |
-| Monetisation cost scenario | 478,406 | 536,484 |
-| Risk-adjusted strategic reference | 368,814 | 413,588 |
-| Weighted economic reference | 425,241 | 476,865 |
+| Seller asking reference | 80,000 | 87,744 |
+| Negotiation reference - low | 65,000 | 71,292 |
+| Negotiation reference - high | 100,000 | 109,680 |
+| Recreation cost estimate | 450,000 | 493,560 |
+| Marketability cost scenario | 439,875 | 482,455 |
+| Monetisation cost scenario | 478,406 | 524,716 |
+| Risk-adjusted strategic reference | 368,814 | 404,515 |
+| Weighted economic reference | 425,241 | 466,404 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-README enumerates separation, MIDI transcription, piano-roll UI and bundle paths; dependency inventory names Basic Pitch, Demucs and external FFmpeg. Independent accuracy/runtime source gate not present in inspected docs.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. README enumerates separation, MIDI transcription, piano-roll UI and bundle paths; dependency inventory names Basic Pitch, Demucs and external FFmpeg. Independent accuracy/runtime source gate not present in inspected docs.
 
 Remaining limits: No independently measured transcription accuracy, robust full-platform reproducibility or cleared model/audio distribution rights; upstream licenses/weights and installed FFmpeg build need diligence.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

@@ -2,7 +2,7 @@
 
 TA-IP-046 | Reference name: Harmonia
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -46,7 +46,7 @@ Main includes the merged A33 bounded generation controls. A34 remains an open pr
 
 Offered first-party scope: Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
 
-Development: Open, unmerged development: A34: evidence-selected provider routing. Not a released product or an automatic expansion of priced scope.
+Development: Open, unmerged development: A34: evidence-selected provider routing This is outside the offered main-source budget.
 
 ## Conditions before handover
 
@@ -67,28 +67,28 @@ Development: Open, unmerged development: A34: evidence-selected provider routing
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 650,000 | 728,910 |
-| Negotiation reference - low | 520,000 | 583,128 |
-| Negotiation reference - high | 815,000 | 913,941 |
-| Recreation cost estimate | 1,800,000 | 2,018,520 |
-| Marketability cost scenario | 2,700,000 | 3,027,780 |
-| Monetisation cost scenario | 3,960,000 | 4,440,744 |
-| Risk-adjusted strategic reference | 4,349,599 | 4,877,640 |
-| Weighted economic reference | 3,304,360 | 3,705,509 |
+| Seller asking reference | 650,000 | 712,920 |
+| Negotiation reference - low | 520,000 | 570,336 |
+| Negotiation reference - high | 815,000 | 893,892 |
+| Recreation cost estimate | 1,800,000 | 1,974,240 |
+| Marketability cost scenario | 2,700,000 | 2,961,360 |
+| Monetisation cost scenario | 3,960,000 | 4,343,328 |
+| Risk-adjusted strategic reference | 4,349,599 | 4,770,640 |
+| Weighted economic reference | 3,304,360 | 3,624,222 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source documents earlier pinned ACE-Step Tesla T4/WAV prequalification, A20–A33 validation/merges, quota/serving/library controls; A34 provider route exact-SHA/tree validation PENDING.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source documents earlier pinned ACE-Step Tesla T4/WAV prequalification, A20–A33 validation/merges, quota/serving/library controls; A34 provider route exact-SHA/tree validation PENDING.
 
 Remaining limits: No production-admitted default provider or full licensed model stack; ACE-Step prequalification is not serving approval, DiffRhythm restrictions remain; A34 is not merged.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

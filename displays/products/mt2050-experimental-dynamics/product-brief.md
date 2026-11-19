@@ -1,16 +1,16 @@
-# MT2050 Experimental Dynamics
+# Advanced Systems Simulation & Evidence Qualification Platform
 
 TA-IP-031 | Reference name: Valentina
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
-A dynamic-systems research platform for comparable, replayable engineering studies.
+Adds portable study archives and strict manifest serialization to the simulation and evidence-qualification workbench; the product and repository name are now Advanced Systems Simulation & Evidence Qualification Platform.
 
-Identified edition: 0.14.0
+Identified edition: 0.14.0 package / merged 0.15 WP1 portable archives
 
-Available software for evaluation against your intended use. Deployment suitability is assessed separately.
+Adds portable study archives and strict manifest serialization to the simulation and evidence-qualification workbench; the product and repository name are now Advanced Systems Simulation & Evidence Qualification Platform.
 
 ## Potential acquirers
 
@@ -20,11 +20,11 @@ Available software for evaluation against your intended use. Deployment suitabil
 
 ## Documented functions
 
-- Create configurable dynamic-system studies
-- Review calibration evidence
-- Compare model versions
 - Assess uncertainty
 - Replay qualification packages
+- Portable study archive construction and verification
+- Strict manifest serialization and malformed-input controls
+- Archive replay regression and compatibility documentation
 
 ## Output types
 
@@ -34,32 +34,29 @@ Available software for evaluation against your intended use. Deployment suitabil
 
 ## Material scope boundaries
 
-- Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately.
+- The package still identifies 0.14.0; portable-archive WP1 is merged development. Independent replay admission is pending. Simulation output is not physical certification or evidence for speculative dynamics.
 
 ## Acquisition evidence profile
 
-- Technical scope: V — A dynamic-systems research platform for comparable, replayable engineering studies. The offered edition and material boundaries govern review.
+- Technical scope: V — Adds portable study archives and strict manifest serialization to the simulation and evidence-qualification workbench; the product and repository name are now Advanced Systems Simulation & Evidence Qualification Platform. The package still identifies 0.14.0; portable-archive WP1 is merged development. Independent replay admission is pending. Simulation output is not physical certification or evidence for speculative dynamics.
 - Evidence and validation: E2 — Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
 - Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
-Offered first-party scope: Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+Offered first-party scope: Existing first-party main-source work: Adds portable study archives and strict manifest serialization to the simulation and evidence-qualification workbench; the product and repository name are now Advanced Systems Simulation & Evidence Qualification Platform. The package still identifies 0.14.0; portable-archive WP1 is merged development. Independent replay admission is pending. Simulation output is not physical certification or evidence for speculative dynamics.
 
-Development: No separate open candidate at the reviewed snapshot.
+Development: Open, unmerged development: v0.15 WP2 — Independent replay admission controls This is outside the offered main-source budget.
 
 ## Conditions before handover
 
+- The package still identifies 0.14.0; portable-archive WP1 is merged development. Independent replay admission is pending. Simulation output is not physical certification or evidence for speculative dynamics.
 - Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
 - A detailed component inventory and licensing report are required for the agreed delivery scope.
-- A security assessment or an explicit statement of its absence is required before acceptance.
-- Release identity and provenance evidence remain incomplete.
-- An explicit delivery manifest and handover scope remain to be agreed.
 
 ## Qualification objectives
 
-- Agree a source-specific delivery edition and evaluate the documented functions against your intended use.
-- Close the listed technical, rights and handover conditions before recipient acceptance.
+- The package still identifies 0.14.0; portable-archive WP1 is merged development. Independent replay admission is pending. Simulation output is not physical certification or evidence for speculative dynamics.
 - Independent legal ownership/title opinion not performed by this internal audit.
 - Freedom-to-operate legal opinion not performed unless separately evidenced.
 - Independent penetration test not assumed unless separately evidenced.
@@ -68,28 +65,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 250,000 | 280,350 |
-| Negotiation reference - low | 200,000 | 224,280 |
-| Negotiation reference - high | 315,000 | 353,241 |
-| Recreation cost estimate | 1,200,000 | 1,345,680 |
-| Marketability cost scenario | 972,000 | 1,090,001 |
-| Monetisation cost scenario | 918,000 | 1,029,445 |
-| Risk-adjusted strategic reference | 579,947 | 650,353 |
-| Weighted economic reference | 880,981 | 987,932 |
+| Seller asking reference | 253,000 | 277,490 |
+| Negotiation reference - low | 202,400 | 221,992 |
+| Negotiation reference - high | 316,250 | 346,863 |
+| Recreation cost estimate | 1,210,500 | 1,327,676 |
+| Marketability cost scenario | 980,505 | 1,075,418 |
+| Monetisation cost scenario | 926,033 | 1,015,673 |
+| Risk-adjusted strategic reference | 585,021 | 641,651 |
+| Weighted economic reference | 888,690 | 974,715 |
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+Non-overlapping implemented main-source increment: 100 assumed hours at EUR 94/hour, 15% allowance, EUR 10,500 adopted recreation increment and EUR 3,000 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project. Earlier priced work is counted once; its legacy uncertainty remains.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source describes frozen validation protocols, blocked/bootstrap uncertainty, data-quality and model-version controls with repository-native release harness.
+Current main README, full Git inventory and comparison with the prior reviewed main identify this implemented change: Adds portable study archives and strict manifest serialization to the simulation and evidence-qualification workbench; the product and repository name are now Advanced Systems Simulation & Evidence Qualification Platform. Retained acceptance is source-reported and remains bound to its original source and environment.
 
-Remaining limits: No measured advanced propulsion, anti-gravity, faster-than-light, certified navigation, or physically verified flight behavior.
+Remaining limits: The package still identifies 0.14.0; portable-archive WP1 is merged development. Independent replay admission is pending. Simulation output is not physical certification or evidence for speculative dynamics.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: Non-overlapping implemented main-source increment: 100 assumed hours at EUR 94/hour, 15% allowance, EUR 10,500 adopted recreation increment and EUR 3,000 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

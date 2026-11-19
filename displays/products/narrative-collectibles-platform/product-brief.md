@@ -2,7 +2,7 @@
 
 TA-IP-108 | Reference name: Scheherazade
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -49,7 +49,7 @@ A local collectible-registry and narrative studio combining editorial review, si
 
 Offered first-party scope: Specifically agreed first-party 0.8.0 / R7 local reference implementation, documentation and retained developer evidence. Real payments, production identity services and operating businesses are excluded.
 
-Development: Local reference application with controlled access, privacy review and portable verification/recovery workflows.
+Development: No separate open candidate at the reviewed snapshot.
 
 ## Conditions before handover
 
@@ -66,28 +66,28 @@ Development: Local reference application with controlled access, privacy review 
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 17,500 | 19,625 |
-| Negotiation reference - low | 13,500 | 15,139 |
-| Negotiation reference - high | 22,500 | 25,232 |
-| Recreation cost estimate | 57,500 | 64,481 |
-| Marketability cost scenario | 43,988 | 49,328 |
-| Monetisation cost scenario | 42,694 | 47,877 |
-| Risk-adjusted strategic reference | 21,810 | 24,458 |
-| Weighted economic reference | 39,345 | 44,121 |
+| Seller asking reference | 17,500 | 19,194 |
+| Negotiation reference - low | 13,500 | 14,807 |
+| Negotiation reference - high | 22,500 | 24,678 |
+| Recreation cost estimate | 57,500 | 63,066 |
+| Marketability cost scenario | 43,988 | 48,246 |
+| Monetisation cost scenario | 42,694 | 46,827 |
+| Risk-adjusted strategic reference | 21,810 | 23,921 |
+| Weighted economic reference | 39,345 | 43,154 |
 
 The recreation estimate comprises the retained expressly priced scope and the separately disclosed non-overlapping implementation budgets. Historical anchors and each successive scoped increment reconcile in the calculation below. Equivalent effort is a seller estimate; market value, actual expenditure and independent quotations are not established. Reuses the priced registry, editorial and simulated-commerce foundations. Real payments, production identity services, externally trusted provenance and hosted operations are excluded.
 
-Coverage describes stated seller estimates only. All recreation amounts have an explicit scoped budget; effort remains an assumption.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-README describes deterministic edition assignment, fictional narrative records, local role-scoped SQLite commerce, HMAC backup and portable source verification.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. README describes deterministic edition assignment, fictional narrative records, local role-scoped SQLite commerce, HMAC backup and portable source verification.
 
 Remaining limits: No legal title/payment verification, shipping provider, authenticated public multi-tenancy, real sales, privacy/security certification or live commerce. HMAC local receipts not independent notarization.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

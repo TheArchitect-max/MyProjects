@@ -2,7 +2,7 @@
 
 TA-IP-120 | Reference name: Lotte
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -45,7 +45,7 @@ Native C++20 rights-admission preflight for locally supplied manifests; confinem
 
 Offered first-party scope: Specifically agreed first-party 0.1.0 / R0 source, documentation and retained evidence: Native C++20 rights-admission preflight for locally supplied manifests; confinement checks and deterministic all-or-nothing admission reports. Human approval assertions are checked, not legally verified. Crawling, decoding, composition and production-quality media export are not implemented on main.
 
-Development: Open, unmerged development: IMAPE R1–R10h experimental media & inference isolation candidate — HOLD. Not a released product or an automatic expansion of priced scope.
+Development: Open, unmerged development: IMAPE R1–R10h experimental media & inference isolation candidate — HOLD This is outside the offered main-source budget.
 
 ## Conditions before handover
 
@@ -62,28 +62,28 @@ Development: Open, unmerged development: IMAPE R1–R10h experimental media & in
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 2,500 | 2,804 |
-| Negotiation reference - low | 2,000 | 2,243 |
-| Negotiation reference - high | 3,125 | 3,504 |
-| Recreation cost estimate | 8,500 | 9,532 |
-| Marketability cost scenario | 6,503 | 7,292 |
-| Monetisation cost scenario | 5,738 | 6,435 |
-| Risk-adjusted strategic reference | 3,224 | 3,615 |
-| Weighted economic reference | 5,702 | 6,394 |
+| Seller asking reference | 2,500 | 2,742 |
+| Negotiation reference - low | 2,000 | 2,194 |
+| Negotiation reference - high | 3,125 | 3,428 |
+| Recreation cost estimate | 8,500 | 9,323 |
+| Marketability cost scenario | 6,503 | 7,132 |
+| Monetisation cost scenario | 5,738 | 6,293 |
+| Risk-adjusted strategic reference | 3,224 | 3,536 |
+| Weighted economic reference | 5,702 | 6,254 |
 
 Initial bounded work-package estimate. 80 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 8,500 adopted recreation increment and EUR 2,500 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
 
-Coverage describes stated seller estimates only. All recreation amounts have an explicit scoped budget; effort remains an assumption.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Main contains the native prototype and local regression record. Broader R1–R10h development is confined to an unmerged candidate and excluded from this initial price.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Main contains the native prototype and local regression record. Broader R1–R10h development is confined to an unmerged candidate and excluded from this initial price.
 
 Remaining limits: Human approval assertions are checked, not legally verified. Crawling, decoding, composition and production-quality media export are not implemented on main.
 
-Price decision: Initial bounded work-package estimate. 80 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 8,500 adopted recreation increment and EUR 2,500 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

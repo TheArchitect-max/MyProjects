@@ -2,7 +2,7 @@
 
 TA-IP-027 | Reference name: Nora
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -46,7 +46,7 @@ An adaptation and continuity research framework with source-bound evidence quali
 
 Offered first-party scope: Specifically agreed first-party implementation, documentation and retained evidence for 0.25.0. The v0.24 executed baseline and the separately qualified v0.25 implementation must be distinguished in the delivery agreement. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.
 
-Development: 0.25.0 canonical-evidence implementation; exact native Rust execution qualification pending
+Development: No separate open candidate at the reviewed snapshot.
 
 ## Conditions before handover
 
@@ -66,28 +66,28 @@ Development: 0.25.0 canonical-evidence implementation; exact native Rust executi
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 362,000 | 405,947 |
-| Negotiation reference - low | 292,000 | 327,449 |
-| Negotiation reference - high | 452,500 | 507,434 |
-| Recreation cost estimate | 1,660,000 | 1,861,524 |
-| Marketability cost scenario | 2,004,450 | 2,247,790 |
-| Monetisation cost scenario | 1,904,850 | 2,136,099 |
-| Risk-adjusted strategic reference | 2,022,362 | 2,267,877 |
-| Weighted economic reference | 1,904,687 | 2,135,916 |
+| Seller asking reference | 362,000 | 397,042 |
+| Negotiation reference - low | 292,000 | 320,266 |
+| Negotiation reference - high | 452,500 | 496,302 |
+| Recreation cost estimate | 1,660,000 | 1,820,688 |
+| Marketability cost scenario | 2,004,450 | 2,198,481 |
+| Monetisation cost scenario | 1,904,850 | 2,089,239 |
+| Risk-adjusted strategic reference | 2,022,362 | 2,218,127 |
+| Weighted economic reference | 1,904,687 | 2,089,061 |
 
 Recreation estimate: EUR 1,650,000 retained scope component plus EUR 10,000 for the explicitly scoped implementation work budget, giving EUR 1,660,000. The scoped budget assumes 96 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Retained v0.24 evidence specifies 171 Rust tests, 140 governed bindings and non-simulated isolated filesystem target qualification; older README 0.19 line is not current qualification record.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Retained v0.24 evidence specifies 171 Rust tests, 140 governed bindings and non-simulated isolated filesystem target qualification; older README 0.19 line is not current qualification record.
 
 Remaining limits: Qualification is pinned to one target fingerprint and source; no general external provider, power-loss durability, production authority or independent field qualification.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

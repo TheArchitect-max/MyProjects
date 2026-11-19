@@ -2,7 +2,7 @@
 
 TA-IP-097 | Reference name: Octavia
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -46,7 +46,7 @@ The offered v0.1 local software-inspection engine has a separate unmerged servic
 
 Offered first-party scope: Present first-party local software-inspection, evidence, bounded review-proposal and package-preparation prototype, its CLI/local interface, source contracts, documentation and retained validation at the identified v0.1.0 commit. Ingested-project execution, arbitrary-code isolation, broader adapters, production SaaS, hosting, rights certification, third-party ownership and future development are excluded.
 
-Development: Open, unmerged development: Build: Octavia SaaS tenant registry and durable static-job control plane. Not a released product or an automatic expansion of priced scope.
+Development: Open, unmerged development: Build: Octavia SaaS tenant registry and durable static-job control plane This is outside the offered main-source budget.
 
 ## Conditions before handover
 
@@ -67,28 +67,28 @@ Development: Open, unmerged development: Build: Octavia SaaS tenant registry and
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 75,000 | 84,105 |
-| Negotiation reference - low | 60,000 | 67,284 |
-| Negotiation reference - high | 93,750 | 105,131 |
-| Recreation cost estimate | 250,000 | 280,350 |
-| Marketability cost scenario | 210,375 | 235,915 |
-| Monetisation cost scenario | 194,062 | 217,621 |
-| Risk-adjusted strategic reference | 104,311 | 116,974 |
-| Weighted economic reference | 179,896 | 201,735 |
+| Seller asking reference | 75,000 | 82,260 |
+| Negotiation reference - low | 60,000 | 65,808 |
+| Negotiation reference - high | 93,750 | 102,825 |
+| Recreation cost estimate | 250,000 | 274,200 |
+| Marketability cost scenario | 210,375 | 230,739 |
+| Monetisation cost scenario | 194,062 | 212,847 |
+| Risk-adjusted strategic reference | 104,311 | 114,408 |
+| Weighted economic reference | 179,896 | 197,310 |
 
 Disclosed base/increment assumptions reconcile to the retained recreation anchor. Effort remains an analyst estimate for its original scope.
 
-Coverage describes stated seller estimates only. All recreation amounts have an explicit scoped budget; effort remains an assumption.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-README documents directory/ZIP snapshots, bounded AST inspection, evidence packaging, repair proposals, rights dossiers and source-distribution verifier.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. README documents directory/ZIP snapshots, bounded AST inspection, evidence packaging, repair proposals, rights dossiers and source-distribution verifier.
 
 Remaining limits: Does not build, install or execute analyzed third-party source and records those gates NOT_RUN. No private SaaS account/tenant production service or independently cleared title/FTO/market price.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

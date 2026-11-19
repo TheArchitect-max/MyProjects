@@ -2,15 +2,15 @@
 
 TA-IP-064 | Reference name: Athena
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
-A bounded reasoning research platform for repeatable experiments and evidence-led comparison.
+Extends bounded reasoning experiments with dependency-gated belief revision, evidence/claim graphs, revision controls and repository-wide research validation hardening.
 
-Identified edition: 1.52.0
+Identified edition: 1.57.0 research lineage
 
-Experimental research software; scientific conclusions require separate evidence.
+Extends bounded reasoning experiments with dependency-gated belief revision, evidence/claim graphs, revision controls and repository-wide research validation hardening.
 
 ## Potential acquirers
 
@@ -20,11 +20,11 @@ Experimental research software; scientific conclusions require separate evidence
 
 ## Documented functions
 
-- Run reasoning experiments
-- Study planning and uncertainty
-- Compare research extensions
 - Track claim-promotion conditions
 - Retain reproducible evidence
+- Dependency-aware belief and claim-graph research
+- Revision propagation and evidence-ledger integration
+- Research-lineage integrity and adversarial regression
 
 ## Output types
 
@@ -34,31 +34,29 @@ Experimental research software; scientific conclusions require separate evidence
 
 ## Material scope boundaries
 
-- Bounded reasoning research software. Broad general-intelligence claims are outside the offered scope.
+- Finite synthetic research tasks do not demonstrate open-world reasoning, general intelligence or broad customer performance. The next cross-domain retrospective evaluation is still an open candidate.
 
 ## Acquisition evidence profile
 
-- Technical scope: R — A bounded reasoning research platform for repeatable experiments and evidence-led comparison. The offered edition and material boundaries govern review.
+- Technical scope: R — Extends bounded reasoning experiments with dependency-gated belief revision, evidence/claim graphs, revision controls and repository-wide research validation hardening. Finite synthetic research tasks do not demonstrate open-world reasoning, general intelligence or broad customer performance. The next cross-domain retrospective evaluation is still an open candidate.
 - Evidence and validation: E4 — E3 plus repository-retained independent/external validation evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
 - Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
-Offered first-party scope: Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+Offered first-party scope: Existing first-party main-source work: Extends bounded reasoning experiments with dependency-gated belief revision, evidence/claim graphs, revision controls and repository-wide research validation hardening. Finite synthetic research tasks do not demonstrate open-world reasoning, general intelligence or broad customer performance. The next cross-domain retrospective evaluation is still an open candidate.
 
-Development: No separate open candidate at the reviewed snapshot.
+Development: Open, unmerged development: AGRP v1.58 R4B1 — cross-domain retrospective evaluation (candidate) This is outside the offered main-source budget.
 
 ## Conditions before handover
 
+- Finite synthetic research tasks do not demonstrate open-world reasoning, general intelligence or broad customer performance. The next cross-domain retrospective evaluation is still an open candidate.
 - Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
 - A detailed component inventory and licensing report are required for the agreed delivery scope.
-- A security assessment or an explicit statement of its absence is required before acceptance.
-- An explicit delivery manifest and handover scope remain to be agreed.
 
 ## Qualification objectives
 
-- Agree a source-specific delivery edition and evaluate the documented functions against your intended use.
-- Close the listed technical, rights and handover conditions before recipient acceptance.
+- Finite synthetic research tasks do not demonstrate open-world reasoning, general intelligence or broad customer performance. The next cross-domain retrospective evaluation is still an open candidate.
 - Independent legal ownership/title opinion not performed by this internal audit.
 - Freedom-to-operate legal opinion not performed unless separately evidenced.
 - Independent penetration test not assumed unless separately evidenced.
@@ -67,28 +65,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 80,000 | 89,712 |
-| Negotiation reference - low | 65,000 | 72,891 |
-| Negotiation reference - high | 100,000 | 112,140 |
-| Recreation cost estimate | 1,300,000 | 1,457,820 |
-| Marketability cost scenario | 1,068,925 | 1,198,692 |
-| Monetisation cost scenario | 745,875 | 836,424 |
-| Risk-adjusted strategic reference | 643,455 | 721,570 |
-| Weighted economic reference | 913,169 | 1,024,028 |
+| Seller asking reference | 87,500 | 95,970 |
+| Negotiation reference - low | 70,000 | 76,776 |
+| Negotiation reference - high | 109,375 | 119,963 |
+| Recreation cost estimate | 1,325,500 | 1,453,808 |
+| Marketability cost scenario | 1,089,892 | 1,195,394 |
+| Monetisation cost scenario | 760,506 | 834,123 |
+| Risk-adjusted strategic reference | 656,077 | 719,585 |
+| Weighted economic reference | 931,082 | 1,021,211 |
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+Non-overlapping implemented main-source increment: 240 assumed hours at EUR 94/hour, 15% allowance, EUR 25,500 adopted recreation increment and EUR 7,500 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project. Earlier priced work is counted once; its legacy uncertainty remains.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source reports 25/25 local targeted tests for v1.52 with deterministic finite candidate arbitration and controlled experiment selection.
+Current main README, full Git inventory and comparison with the prior reviewed main identify this implemented change: Extends bounded reasoning experiments with dependency-gated belief revision, evidence/claim graphs, revision controls and repository-wide research validation hardening. Retained acceptance is source-reported and remains bound to its original source and environment.
 
-Remaining limits: No general intelligence, language-model superiority, open-world self-improvement, independent human-level reasoning or scientific truth claim.
+Remaining limits: Finite synthetic research tasks do not demonstrate open-world reasoning, general intelligence or broad customer performance. The next cross-domain retrospective evaluation is still an open candidate.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: Non-overlapping implemented main-source increment: 240 assumed hours at EUR 94/hour, 15% allowance, EUR 25,500 adopted recreation increment and EUR 7,500 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

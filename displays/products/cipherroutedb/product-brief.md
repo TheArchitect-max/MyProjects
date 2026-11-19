@@ -2,7 +2,7 @@
 
 TA-IP-041 | Reference name: Vera
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -66,28 +66,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 116,000 | 130,082 |
-| Negotiation reference - low | 91,000 | 102,047 |
-| Negotiation reference - high | 146,500 | 164,285 |
-| Recreation cost estimate | 858,500 | 962,722 |
-| Marketability cost scenario | 881,143 | 988,114 |
-| Monetisation cost scenario | 738,847 | 828,543 |
-| Risk-adjusted strategic reference | 738,795 | 828,485 |
-| Weighted economic reference | 797,201 | 893,981 |
+| Seller asking reference | 116,000 | 127,229 |
+| Negotiation reference - low | 91,000 | 99,809 |
+| Negotiation reference - high | 146,500 | 160,681 |
+| Recreation cost estimate | 858,500 | 941,603 |
+| Marketability cost scenario | 881,143 | 966,438 |
+| Monetisation cost scenario | 738,847 | 810,367 |
+| Risk-adjusted strategic reference | 738,795 | 810,310 |
+| Weighted economic reference | 797,201 | 874,370 |
 
 Recreation estimate: EUR 850,000 retained scope component plus EUR 8,500 for the explicitly scoped implementation work budget, giving EUR 858,500. The scoped budget assumes 80 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source documents testable reference vectors, fail-closed key rotation, pinned backend identities and mTLS monotonic-counter interface; complete native repo CTest not certified at this HEAD.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source documents testable reference vectors, fail-closed key rotation, pinned backend identities and mTLS monotonic-counter interface; complete native repo CTest not certified at this HEAD.
 
 Remaining limits: No production secure database, fully qualified external HSM/counter or audited 128-bit system guarantee; rollback and availability need real external verification.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

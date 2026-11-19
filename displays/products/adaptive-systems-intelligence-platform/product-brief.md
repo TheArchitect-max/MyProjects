@@ -2,7 +2,7 @@
 
 TA-IP-083 | Reference name: Nadia
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -68,28 +68,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 201,500 | 225,962 |
-| Negotiation reference - low | 161,000 | 180,545 |
-| Negotiation reference - high | 252,000 | 282,593 |
-| Recreation cost estimate | 1,158,500 | 1,299,142 |
-| Marketability cost scenario | 1,245,677 | 1,396,902 |
-| Monetisation cost scenario | 1,348,928 | 1,512,688 |
-| Risk-adjusted strategic reference | 1,044,439 | 1,171,234 |
-| Weighted economic reference | 1,174,100 | 1,316,636 |
+| Seller asking reference | 201,500 | 221,005 |
+| Negotiation reference - low | 161,000 | 176,585 |
+| Negotiation reference - high | 252,000 | 276,394 |
+| Recreation cost estimate | 1,158,500 | 1,270,643 |
+| Marketability cost scenario | 1,245,677 | 1,366,259 |
+| Monetisation cost scenario | 1,348,928 | 1,479,504 |
+| Risk-adjusted strategic reference | 1,044,439 | 1,145,541 |
+| Weighted economic reference | 1,174,100 | 1,287,753 |
 
 The recreation estimate contains EUR 1,150,000 of previously scoped work plus EUR 8,500 for RC1 local persistent governance runtime, giving EUR 1,158,500. This increment assumes 80 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. Asking/negotiation inputs preserve prior asking/cost relationships, rounded half-up to EUR 500. All effort and prices remain seller assumptions; market value and actual expenditure are not established. Previously described obligation, authority, risk/control and domain-pack foundations are reused and excluded from this increment. Production security, high availability, enterprise identity, certification and legal/regulatory conclusions are excluded.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-RC1 evidence record documents 29/29 local tests and 30 reconstructed Git blob SHA matches, domain-pack checks and SQLite initialization.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. RC1 evidence record documents 29/29 local tests and 30 reconstructed Git blob SHA matches, domain-pack checks and SQLite initialization.
 
 Remaining limits: Domain packs do not certify legal/safety control effectiveness; no production database encryption, row-level access, KMS, SSO or real-world compliance certification.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

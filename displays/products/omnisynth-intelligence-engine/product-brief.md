@@ -2,7 +2,7 @@
 
 TA-IP-005 | Reference name: Sophie
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -47,7 +47,7 @@ A multi-source intelligence prototype for monitoring changes and keeping review 
 
 Offered first-party scope: Main: 6.3.0. Dated asking-price limitation: EUR 900,000 reproduction model includes EUR 100,000 scoped local-document collection work now in unmerged v6.4 PR. Dated EUR 169,000 composite ask is not a verified main-only quote; historical v6.3 source dossier gave EUR 150,000 (16 Oct).
 
-Development: Open, unmerged development: feat: EIOP 6.4 authorized document connectors and verified collection proofs. Not a released product or an automatic expansion of priced scope.
+Development: Open, unmerged development: feat: EIOP 6.4 authorized document connectors and verified collection proofs This is outside the offered main-source budget.
 
 ## Conditions before handover
 
@@ -69,28 +69,28 @@ Development: Open, unmerged development: feat: EIOP 6.4 authorized document conn
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 169,000 | 189,517 |
-| Negotiation reference - low | 135,000 | 151,389 |
-| Negotiation reference - high | 214,000 | 239,980 |
-| Recreation cost estimate | 900,000 | 1,009,260 |
-| Marketability cost scenario | 967,725 | 1,085,207 |
-| Monetisation cost scenario | 1,047,937 | 1,175,157 |
-| Risk-adjusted strategic reference | 811,390 | 909,893 |
-| Weighted economic reference | 912,119 | 1,022,850 |
+| Seller asking reference | 169,000 | 185,359 |
+| Negotiation reference - low | 135,000 | 148,068 |
+| Negotiation reference - high | 214,000 | 234,715 |
+| Recreation cost estimate | 900,000 | 987,120 |
+| Marketability cost scenario | 967,725 | 1,061,401 |
+| Monetisation cost scenario | 1,047,937 | 1,149,377 |
+| Risk-adjusted strategic reference | 811,390 | 889,933 |
+| Weighted economic reference | 912,119 | 1,000,412 |
 
 The recreation anchor combines an identified base with separately scoped implementation work. The base remains a seller assumption; the scoped component has a role/work-package reproduction budget. Each component is counted once.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-v6.3 signed bundle/receipt manifest; PR #1 reports 54/54 commands and 192/192 source tests on frozen candidate
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. v6.3 signed bundle/receipt manifest; PR #1 reports 54/54 commands and 192/192 source tests on frozen candidate
 
 Remaining limits: Main v6.3 does governed materiality, routing and HMAC authenticated bundles/receipts; candidate connectors not released. HMAC is not public-key non-repudiation.
 
-Price decision: EUR 900,000 reproduction model includes EUR 100,000 scoped local-document collection work now in unmerged v6.4 PR. Dated EUR 169,000 composite ask is not a verified main-only quote; historical v6.3 source dossier gave EUR 150,000 (16 Oct).
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

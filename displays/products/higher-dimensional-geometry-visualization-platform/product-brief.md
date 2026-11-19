@@ -2,7 +2,7 @@
 
 TA-IP-121 | Reference name: Maryam
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -62,28 +62,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 18,000 | 20,185 |
-| Negotiation reference - low | 14,400 | 16,148 |
-| Negotiation reference - high | 22,500 | 25,232 |
-| Recreation cost estimate | 60,500 | 67,845 |
-| Marketability cost scenario | 30,084 | 33,736 |
-| Monetisation cost scenario | 27,225 | 30,530 |
-| Risk-adjusted strategic reference | 10,709 | 12,009 |
-| Weighted economic reference | 30,335 | 34,018 |
+| Seller asking reference | 18,000 | 19,742 |
+| Negotiation reference - low | 14,400 | 15,794 |
+| Negotiation reference - high | 22,500 | 24,678 |
+| Recreation cost estimate | 60,500 | 66,356 |
+| Marketability cost scenario | 30,084 | 32,996 |
+| Monetisation cost scenario | 27,225 | 29,860 |
+| Risk-adjusted strategic reference | 10,709 | 11,746 |
+| Weighted economic reference | 30,335 | 33,271 |
 
 Initial bounded work-package estimate. 560 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 60,500 adopted recreation increment and EUR 18,000 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
 
-Coverage describes stated seller estimates only. All recreation amounts have an explicit scoped budget; effort remains an assumption.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source records accepted P3 R11 and P4 R1–R3 CI; 31 labelled controls, four actions and 45 native CPU/RSS observations. Later documentation is not a separate runtime acceptance.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source records accepted P3 R11 and P4 R1–R3 CI; 31 labelled controls, four actions and 45 native CPU/RSS observations. Later documentation is not a separate runtime acceptance.
 
 Remaining limits: No physical extra-dimension observation, direct human 4D vision, general WCAG certification, Windows/macOS qualification or leak audit.
 
-Price decision: Initial bounded work-package estimate. 560 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 60,500 adopted recreation increment and EUR 18,000 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

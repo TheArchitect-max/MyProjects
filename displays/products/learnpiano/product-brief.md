@@ -2,15 +2,15 @@
 
 TA-IP-094 | Reference name: Elise
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
-A distinct piano learning, performance and production application asset.
+Adds browser practice-evidence/coaching work and synthetic-only V17 reference, feature-parity and statistical-readiness tooling while preserving the active V13 transcription baseline.
 
-Identified edition: v13 established product
+Identified edition: V13 active product / V17 synthetic research through S1F
 
-The established v13 product is the active product baseline. The v16 development work includes corpus staging and an evidence-aware model-selection candidate. A 32/8 campaign recorded a model-selection failure. Candidate validation, a qualified campaign and confirmation/promotion gates remain prerequisites for a v16 product claim.
+Adds browser practice-evidence/coaching work and synthetic-only V17 reference, feature-parity and statistical-readiness tooling while preserving the active V13 transcription baseline.
 
 ## Potential acquirers
 
@@ -20,11 +20,11 @@ The established v13 product is the active product baseline. The v16 development 
 
 ## Documented functions
 
-- Import lawful private music
-- Follow visual piano guidance
-- Use adaptive practice loops
 - Review timing and note feedback
 - Back up private practice projects
+- Browser practice evidence and bounded coaching integration
+- Synthetic V17 reference/parity and readiness tooling
+- Source-hold enforcement and release-boundary regression
 
 ## Output types
 
@@ -34,31 +34,29 @@ The established v13 product is the active product baseline. The v16 development 
 
 ## Material scope boundaries
 
-- Piano learning and production software. The delivery edition, supported devices and acceptance conditions are agreed before transfer.
+- V16 confirmation failed and is historical. V17 remains the active improvement line, with source admission, real training and fresh paired V13/V16 comparison on HOLD. No real-piano accuracy improvement is claimed.
 
 ## Acquisition evidence profile
 
-- Technical scope: V — A distinct piano learning, performance and production application asset. The offered edition and material boundaries govern review.
+- Technical scope: V — Adds browser practice-evidence/coaching work and synthetic-only V17 reference, feature-parity and statistical-readiness tooling while preserving the active V13 transcription baseline. V16 confirmation failed and is historical. V17 remains the active improvement line, with source admission, real training and fresh paired V13/V16 comparison on HOLD. No real-piano accuracy improvement is claimed.
 - Evidence and validation: E3 — Tests, validation and provenance/release evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
 - Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
-Offered first-party scope: Present first-party piano practice, performance and local production software, its proprietary transcription work, retained research and validation, and documentation. User music, external scores, recordings, datasets, plugins and future model qualification are excluded.
+Offered first-party scope: Existing first-party main-source work: Adds browser practice-evidence/coaching work and synthetic-only V17 reference, feature-parity and statistical-readiness tooling while preserving the active V13 transcription baseline. V16 confirmation failed and is historical. V17 remains the active improvement line, with source admission, real training and fresh paired V13/V16 comparison on HOLD. No real-piano accuracy improvement is claimed.
 
-Development: Open, unmerged development: v16 evidence-aware recovery model selection. Not a released product or an automatic expansion of priced scope.
+Development: Open, unmerged development: V17-S1G — temporal alignment integrity and drift diagnostics (synthetic only) This is outside the offered main-source budget.
 
 ## Conditions before handover
 
+- V16 confirmation failed and is historical. V17 remains the active improvement line, with source admission, real training and fresh paired V13/V16 comparison on HOLD. No real-piano accuracy improvement is claimed.
 - Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
 - A detailed component inventory and licensing report are required for the agreed delivery scope.
-- A security assessment or an explicit statement of its absence is required before acceptance.
-- An explicit delivery manifest and handover scope remain to be agreed.
-- Validate the draft training checkpoint/resume implementation and required v16 promotion gates before product acceptance.
 
 ## Qualification objectives
 
-- Validate the exact the development candidate candidate, rerun development and calibration, and satisfy the confirmation/promotion gates before changing the active product.
+- V16 confirmation failed and is historical. V17 remains the active improvement line, with source admission, real training and fresh paired V13/V16 comparison on HOLD. No real-piano accuracy improvement is claimed.
 - Independent legal ownership/title opinion not performed by this internal audit.
 - Freedom-to-operate legal opinion not performed unless separately evidenced.
 - Independent penetration test not assumed unless separately evidenced.
@@ -67,28 +65,28 @@ Development: Open, unmerged development: v16 evidence-aware recovery model selec
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 180,000 | 201,852 |
-| Negotiation reference - low | 145,000 | 162,603 |
-| Negotiation reference - high | 225,000 | 252,315 |
-| Recreation cost estimate | 800,000 | 897,120 |
-| Marketability cost scenario | 920,000 | 1,031,688 |
-| Monetisation cost scenario | 1,188,000 | 1,332,223 |
-| Risk-adjusted strategic reference | 928,221 | 1,040,907 |
-| Weighted economic reference | 946,477 | 1,061,379 |
+| Seller asking reference | 185,000 | 202,908 |
+| Negotiation reference - low | 148,000 | 162,326 |
+| Negotiation reference - high | 231,250 | 253,635 |
+| Recreation cost estimate | 817,000 | 896,086 |
+| Marketability cost scenario | 939,550 | 1,030,498 |
+| Monetisation cost scenario | 1,213,245 | 1,330,687 |
+| Risk-adjusted strategic reference | 947,946 | 1,039,707 |
+| Weighted economic reference | 966,590 | 1,060,156 |
 
-Disclosed base/increment assumptions reconcile to the retained recreation anchor. Effort remains an analyst estimate for its original scope.
+Non-overlapping implemented main-source increment: 160 assumed hours at EUR 94/hour, 15% allowance, EUR 17,000 adopted recreation increment and EUR 5,000 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project. Earlier priced work is counted once; its legacy uncertainty remains.
 
-Coverage describes stated seller estimates only. All recreation amounts have an explicit scoped budget; effort remains an assumption.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-README documents frozen v13 internal 192-song/128-song synthetic holdout and browser integration; PR #32 records degenerate early recovery checkpoint selection and Wilson-bound repair pending exact-head acceptance.
+Current main README, full Git inventory and comparison with the prior reviewed main identify this implemented change: Adds browser practice-evidence/coaching work and synthetic-only V17 reference, feature-parity and statistical-readiness tooling while preserving the active V13 transcription baseline. Retained acceptance is source-reported and remains bound to its original source and environment.
 
-Remaining limits: No independent real-recording SOTA, live hardware/vocal performance, pedagogical superiority or acceptance of v16 recovery. PR #32 unmerged and not promoted.
+Remaining limits: V16 confirmation failed and is historical. V17 remains the active improvement line, with source admission, real training and fresh paired V13/V16 comparison on HOLD. No real-piano accuracy improvement is claimed.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: Non-overlapping implemented main-source increment: 160 assumed hours at EUR 94/hour, 15% allowance, EUR 17,000 adopted recreation increment and EUR 5,000 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

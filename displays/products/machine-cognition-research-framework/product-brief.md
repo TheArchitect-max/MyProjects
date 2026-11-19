@@ -2,7 +2,7 @@
 
 TA-IP-020 | Reference name: Noa
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -67,28 +67,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 85,000 | 95,319 |
-| Negotiation reference - low | 69,000 | 77,377 |
-| Negotiation reference - high | 106,500 | 119,429 |
-| Recreation cost estimate | 690,000 | 773,766 |
-| Marketability cost scenario | 580,635 | 651,124 |
-| Monetisation cost scenario | 395,888 | 443,949 |
-| Risk-adjusted strategic reference | 287,898 | 322,849 |
-| Weighted economic reference | 468,569 | 525,453 |
+| Seller asking reference | 85,000 | 93,228 |
+| Negotiation reference - low | 69,000 | 75,679 |
+| Negotiation reference - high | 106,500 | 116,809 |
+| Recreation cost estimate | 690,000 | 756,792 |
+| Marketability cost scenario | 580,635 | 636,840 |
+| Monetisation cost scenario | 395,888 | 434,210 |
+| Risk-adjusted strategic reference | 287,898 | 315,767 |
+| Weighted economic reference | 468,569 | 513,926 |
 
 The recreation anchor combines an identified base with separately scoped implementation work. The base remains a seller assumption; the scoped component has a role/work-package reproduction budget. Each component is counted once.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source describes explicit count adaptation, TF-IDF predictive-state linear model, source compilation and testing gate; no new independent checkout run.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source describes explicit count adaptation, TF-IDF predictive-state linear model, source compilation and testing gate; no new independent checkout run.
 
 Remaining limits: No consciousness, AGI, broad autonomous cognition, large neural world model, or externally calibrated forecasting.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

@@ -2,7 +2,7 @@
 
 TA-IP-114 | Reference name: Caroline
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -65,28 +65,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 27,000 | 30,278 |
-| Negotiation reference - low | 22,000 | 24,671 |
-| Negotiation reference - high | 34,000 | 38,128 |
-| Recreation cost estimate | 90,500 | 101,487 |
-| Marketability cost scenario | 35,001 | 39,250 |
-| Monetisation cost scenario | 23,078 | 25,880 |
-| Risk-adjusted strategic reference | 7,152 | 8,020 |
-| Weighted economic reference | 36,744 | 41,205 |
+| Seller asking reference | 27,000 | 29,614 |
+| Negotiation reference - low | 22,000 | 24,130 |
+| Negotiation reference - high | 34,000 | 37,291 |
+| Recreation cost estimate | 90,500 | 99,260 |
+| Marketability cost scenario | 35,001 | 38,389 |
+| Monetisation cost scenario | 23,078 | 25,312 |
+| Risk-adjusted strategic reference | 7,152 | 7,844 |
+| Weighted economic reference | 36,744 | 40,301 |
 
 The retained priced scope and successive non-overlapping budgets reconcile below. Equivalent effort and historical anchors are seller assumptions, not actual expenditure, independent quotations or market value. Previously priced correlation, covariance and sampled-FITS foundations are retained once. Only the added full-row scanner, fiducial geometry, selected sky pipeline and anisotropic reference software are included. Survey-data rights, accepted observations, physical discoveries, full-survey deployment and future research are excluded.
 
-Coverage describes stated seller estimates only. All recreation amounts have an explicit scoped budget; effort remains an assumption.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-S10 local component document: GCC native build, 1/1 CTest, 80/80 independent synthetic oracle comparisons; earlier S9 source reports integrated CPU acceptance.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. S10 local component document: GCC native build, 1/1 CTest, 80/80 independent synthetic oracle comparisons; earlier S9 source reports integrated CPU acceptance.
 
 Remaining limits: S10 full checkout/integration NOT_RUN; no accepted full real DESI source/likelihood analysis or empirical cosmological discovery.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

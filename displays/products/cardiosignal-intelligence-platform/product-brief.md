@@ -2,15 +2,15 @@
 
 TA-IP-078 | Reference name: Cora
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
-A cardiac-signal research prototype for quality assessment and controlled evaluation.
+Adds governed external waveform-source handling, dataset/model lifecycle controls and an opt-in sequential private PTB-XL source-feasibility path.
 
-Identified edition: 0.13.0
+Identified edition: 0.32.0 / private source-feasibility research
 
-An implemented prototype for evaluation and further development.
+Adds governed external waveform-source handling, dataset/model lifecycle controls and an opt-in sequential private PTB-XL source-feasibility path.
 
 ## Potential acquirers
 
@@ -20,11 +20,11 @@ An implemented prototype for evaluation and further development.
 
 ## Documented functions
 
-- Inspect supplied cardiac signals
-- Review signal quality
-- Govern dataset records
 - Compare predictions with declared references
 - Track model acceptance decisions
+- Governed waveform-source and private replay integration
+- Dataset admission and model-lifecycle research controls
+- Source feasibility, negative controls and reproducible qualification
 
 ## Output types
 
@@ -34,31 +34,29 @@ An implemented prototype for evaluation and further development.
 
 ## Material scope boundaries
 
-- Cardiac-signal research and quality-analysis software. Clinical diagnosis and certified medical performance are excluded.
+- Operator assertions and checksum/replay controls do not establish independent rights clearance, authentic patient-cohort admission, clinical validity or production approval. The publisher connectivity probe remains a separate open candidate.
 
 ## Acquisition evidence profile
 
-- Technical scope: P — A cardiac-signal research prototype for quality assessment and controlled evaluation. The offered edition and material boundaries govern review.
+- Technical scope: P — Adds governed external waveform-source handling, dataset/model lifecycle controls and an opt-in sequential private PTB-XL source-feasibility path. Operator assertions and checksum/replay controls do not establish independent rights clearance, authentic patient-cohort admission, clinical validity or production approval. The publisher connectivity probe remains a separate open candidate.
 - Evidence and validation: E3 — Tests, validation and provenance/release evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
 - Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
-Offered first-party scope: Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+Offered first-party scope: Existing first-party main-source work: Adds governed external waveform-source handling, dataset/model lifecycle controls and an opt-in sequential private PTB-XL source-feasibility path. Operator assertions and checksum/replay controls do not establish independent rights clearance, authentic patient-cohort admission, clinical validity or production approval. The publisher connectivity probe remains a separate open candidate.
 
-Development: No separate open candidate at the reviewed snapshot.
+Development: Open, unmerged development: v0.32.1 R30: public-only PTB-XL publisher listing connectivity probe, real ECG HOLD This is outside the offered main-source budget.
 
 ## Conditions before handover
 
+- Operator assertions and checksum/replay controls do not establish independent rights clearance, authentic patient-cohort admission, clinical validity or production approval. The publisher connectivity probe remains a separate open candidate.
 - Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
 - A detailed component inventory and licensing report are required for the agreed delivery scope.
-- Third-party licensing and obligations documentation remains incomplete.
-- A security assessment or an explicit statement of its absence is required before acceptance.
 
 ## Qualification objectives
 
-- Agree a source-specific delivery edition and evaluate the documented functions against your intended use.
-- Close the listed technical, rights and handover conditions before recipient acceptance.
+- Operator assertions and checksum/replay controls do not establish independent rights clearance, authentic patient-cohort admission, clinical validity or production approval. The publisher connectivity probe remains a separate open candidate.
 - Independent legal ownership/title opinion not performed by this internal audit.
 - Freedom-to-operate legal opinion not performed unless separately evidenced.
 - Independent penetration test not assumed unless separately evidenced.
@@ -67,28 +65,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 250,000 | 280,350 |
-| Negotiation reference - low | 200,000 | 224,280 |
-| Negotiation reference - high | 315,000 | 353,241 |
-| Recreation cost estimate | 1,250,000 | 1,401,750 |
-| Marketability cost scenario | 1,038,594 | 1,164,679 |
-| Monetisation cost scenario | 1,075,781 | 1,206,381 |
-| Risk-adjusted strategic reference | 870,810 | 976,526 |
-| Weighted economic reference | 1,040,159 | 1,166,434 |
+| Seller asking reference | 261,500 | 286,813 |
+| Negotiation reference - low | 209,200 | 229,451 |
+| Negotiation reference - high | 326,875 | 358,517 |
+| Recreation cost estimate | 1,288,500 | 1,413,227 |
+| Marketability cost scenario | 1,070,582 | 1,174,214 |
+| Monetisation cost scenario | 1,108,915 | 1,216,258 |
+| Risk-adjusted strategic reference | 897,631 | 984,522 |
+| Weighted economic reference | 1,072,195 | 1,175,983 |
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+Non-overlapping implemented main-source increment: 360 assumed hours at EUR 94/hour, 15% allowance, EUR 38,500 adopted recreation increment and EUR 11,500 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project. Earlier priced work is counted once; its legacy uncertainty remains.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source documents WFDB source provenance, split-locks, ONNX runtime equivalence, deterministic signal preprocessing and Python 3.10–3.13 CI configuration.
+Current main README, full Git inventory and comparison with the prior reviewed main identify this implemented change: Adds governed external waveform-source handling, dataset/model lifecycle controls and an opt-in sequential private PTB-XL source-feasibility path. Retained acceptance is source-reported and remains bound to its original source and environment.
 
-Remaining limits: No clinical sensitivity/specificity or arrhythmia diagnosis certification; multisegment execution validation remains fixture-layout bound, source data rights and cross-device efficacy need proof.
+Remaining limits: Operator assertions and checksum/replay controls do not establish independent rights clearance, authentic patient-cohort admission, clinical validity or production approval. The publisher connectivity probe remains a separate open candidate.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: Non-overlapping implemented main-source increment: 360 assumed hours at EUR 94/hour, 15% allowance, EUR 38,500 adopted recreation increment and EUR 11,500 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

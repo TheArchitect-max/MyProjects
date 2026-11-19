@@ -2,15 +2,15 @@
 
 TA-IP-048 | Reference name: Serena
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
-A guided biofeedback product for clearly labelled breathing-session observation.
+Updates physiological-signal adapters, guided-session behavior and traceable session manifests for the bounded biofeedback prototype.
 
-Identified edition: 1.1.0
+Identified edition: 1.1.0 / sensor and session-manifest source updates
 
-Available software for evaluation against your intended use. Deployment suitability is assessed separately.
+Updates physiological-signal adapters, guided-session behavior and traceable session manifests for the bounded biofeedback prototype.
 
 ## Potential acquirers
 
@@ -20,11 +20,11 @@ Available software for evaluation against your intended use. Deployment suitabil
 
 ## Documented functions
 
-- Guide breathing sessions
-- Observe supported pulse inputs
-- Display signal quality
 - Review session feedback
 - Retain attributable session records
+- Sensor-source and guided-session integration
+- Traceable session manifests and signal-state controls
+- Campaign regressions and explicit end-user scope
 
 ## Output types
 
@@ -34,29 +34,29 @@ Available software for evaluation against your intended use. Deployment suitabil
 
 ## Material scope boundaries
 
-- Breathing-session and biofeedback software for a defined wellness or research scope; clinical diagnosis is excluded.
+- Camera and compatible sensor paths require device-specific evidence; a synthetic demonstration is not a real physiological measurement, medical effect or production-qualified intervention.
 
 ## Acquisition evidence profile
 
-- Technical scope: V — A guided biofeedback product for clearly labelled breathing-session observation. The offered edition and material boundaries govern review.
+- Technical scope: V — Updates physiological-signal adapters, guided-session behavior and traceable session manifests for the bounded biofeedback prototype. Camera and compatible sensor paths require device-specific evidence; a synthetic demonstration is not a real physiological measurement, medical effect or production-qualified intervention.
 - Evidence and validation: E3 — Tests, validation and provenance/release evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
 - Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
-Offered first-party scope: Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+Offered first-party scope: Existing first-party main-source work: Updates physiological-signal adapters, guided-session behavior and traceable session manifests for the bounded biofeedback prototype. Camera and compatible sensor paths require device-specific evidence; a synthetic demonstration is not a real physiological measurement, medical effect or production-qualified intervention.
 
-Development: No separate open candidate at the reviewed snapshot.
+Development: Open, unmerged development: ABE-041: strict physical campaign structural admission (Stage B) This is outside the offered main-source budget.
 
 ## Conditions before handover
 
+- Camera and compatible sensor paths require device-specific evidence; a synthetic demonstration is not a real physiological measurement, medical effect or production-qualified intervention.
 - Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
 - A detailed component inventory and licensing report are required for the agreed delivery scope.
 
 ## Qualification objectives
 
-- Agree a source-specific delivery edition and evaluate the documented functions against your intended use.
-- Close the listed technical, rights and handover conditions before recipient acceptance.
+- Camera and compatible sensor paths require device-specific evidence; a synthetic demonstration is not a real physiological measurement, medical effect or production-qualified intervention.
 - Independent legal ownership/title opinion not performed by this internal audit.
 - Freedom-to-operate legal opinion not performed unless separately evidenced.
 - Independent penetration test not assumed unless separately evidenced.
@@ -65,28 +65,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 300,000 | 336,420 |
-| Negotiation reference - low | 240,000 | 269,136 |
-| Negotiation reference - high | 375,000 | 420,525 |
-| Recreation cost estimate | 1,200,000 | 1,345,680 |
-| Marketability cost scenario | 1,380,000 | 1,547,532 |
-| Monetisation cost scenario | 1,782,000 | 1,998,335 |
-| Risk-adjusted strategic reference | 1,392,332 | 1,561,361 |
-| Weighted economic reference | 1,419,716 | 1,592,070 |
+| Seller asking reference | 303,000 | 332,330 |
+| Negotiation reference - low | 242,400 | 265,864 |
+| Negotiation reference - high | 378,750 | 415,413 |
+| Recreation cost estimate | 1,210,000 | 1,327,128 |
+| Marketability cost scenario | 1,391,500 | 1,526,197 |
+| Monetisation cost scenario | 1,796,850 | 1,970,785 |
+| Risk-adjusted strategic reference | 1,403,935 | 1,539,836 |
+| Weighted economic reference | 1,431,547 | 1,570,121 |
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+Non-overlapping implemented main-source increment: 96 assumed hours at EUR 94/hour, 15% allowance, EUR 10,000 adopted recreation increment and EUR 3,000 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project. Earlier priced work is counted once; its legacy uncertainty remains.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-README documents 236 Node contract/unit tests, headless Chromium at six viewport sizes, signed campaign checks and deterministic measurement bindings, source-reported only.
+Current main README, full Git inventory and comparison with the prior reviewed main identify this implemented change: Updates physiological-signal adapters, guided-session behavior and traceable session manifests for the bounded biofeedback prototype. Retained acceptance is source-reported and remains bound to its original source and environment.
 
-Remaining limits: No clinical effectiveness, physiological diagnostic accuracy or certified patient safety. Engineering advisory/escalation is not a medical alarm and has no universal clinical threshold.
+Remaining limits: Camera and compatible sensor paths require device-specific evidence; a synthetic demonstration is not a real physiological measurement, medical effect or production-qualified intervention.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: Non-overlapping implemented main-source increment: 96 assumed hours at EUR 94/hour, 15% allowance, EUR 10,000 adopted recreation increment and EUR 3,000 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

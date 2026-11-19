@@ -2,7 +2,7 @@
 
 TA-IP-063 | Reference name: Beatrice
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -48,7 +48,7 @@ Repository provenance and qualification software with component/evidence invento
 
 Offered first-party scope: The earlier specifically priced provenance/qualification scope is retained. The 0.5 release-assurance implementation is disclosed as development scope with unresolved compatibility tests and no added monetary premium. Legal title, independent certification and production readiness are excluded.
 
-Development: The structured release-assurance candidate is implemented; three prior policy compatibility tests fail in the current full replay.
+Development: No separate open candidate at the reviewed snapshot.
 
 ## Conditions before handover
 
@@ -68,28 +68,28 @@ Development: The structured release-assurance candidate is implemented; three pr
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 240,000 | 269,136 |
-| Negotiation reference - low | 190,000 | 213,066 |
-| Negotiation reference - high | 300,000 | 336,420 |
-| Recreation cost estimate | 850,000 | 953,190 |
-| Marketability cost scenario | 1,026,375 | 1,150,977 |
-| Monetisation cost scenario | 1,319,625 | 1,479,827 |
-| Risk-adjusted strategic reference | 1,035,547 | 1,161,262 |
-| Weighted economic reference | 1,044,141 | 1,170,900 |
+| Seller asking reference | 240,000 | 263,232 |
+| Negotiation reference - low | 190,000 | 208,392 |
+| Negotiation reference - high | 300,000 | 329,040 |
+| Recreation cost estimate | 850,000 | 932,280 |
+| Marketability cost scenario | 1,026,375 | 1,125,728 |
+| Monetisation cost scenario | 1,319,625 | 1,447,365 |
+| Risk-adjusted strategic reference | 1,035,547 | 1,135,788 |
+| Weighted economic reference | 1,044,141 | 1,145,214 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance. Review on 2026-11-03: The earlier specifically priced provenance/qualification scope is retained. The 0.5 release-assurance implementation is disclosed as development scope with unresolved compatibility tests and no added monetary premium. Legal title, independent certification and production readiness are excluded.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-README documents local verify script, build/test evidence checks, signed-release fixture, SBOM-tamper rejection and controlled commercial finalizer.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. README documents local verify script, build/test evidence checks, signed-release fixture, SBOM-tamper rejection and controlled commercial finalizer.
 
 Remaining limits: Self-issued signatures and seller-side evidence do not establish independent chain of title, third-party IP clearance, FTO, market value or production security.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

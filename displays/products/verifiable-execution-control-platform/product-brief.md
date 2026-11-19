@@ -2,7 +2,7 @@
 
 TA-IP-018 | Reference name: Victoria
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -46,7 +46,7 @@ Available software for evaluation against your intended use. Deployment suitabil
 
 Offered first-party scope: Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
 
-Development: Open, unmerged development: Bump bufbuild/buf-action from 1.5.0 to 1.7.0; Bump tokio from 1.53.1 to 1.54.1 in /edge; Bump serde_json from 1.0.151 to 1.0.154 in /edge; Bump thiserror from 2.0.20 to 2.0.21 in /edge. Separate from the priced main scope.
+Development: Open, unmerged development: Bump bufbuild/buf-action from 1.5.0 to 1.7.0; Bump tokio from 1.53.1 to 1.54.1 in /edge; Bump serde_json from 1.0.151 to 1.0.154 in /edge; Bump thiserror from 2.0.20 to 2.0.21 in /edge This is outside the offered main-source budget.
 
 ## Conditions before handover
 
@@ -66,28 +66,28 @@ Development: Open, unmerged development: Bump bufbuild/buf-action from 1.5.0 to 
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 450,000 | 504,630 |
-| Negotiation reference - low | 360,000 | 403,704 |
-| Negotiation reference - high | 565,000 | 633,591 |
-| Recreation cost estimate | 1,250,000 | 1,401,750 |
-| Marketability cost scenario | 2,062,500 | 2,312,888 |
-| Monetisation cost scenario | 2,875,000 | 3,224,025 |
-| Risk-adjusted strategic reference | 3,322,610 | 3,725,975 |
-| Weighted economic reference | 2,462,914 | 2,761,912 |
+| Seller asking reference | 450,000 | 493,560 |
+| Negotiation reference - low | 360,000 | 394,848 |
+| Negotiation reference - high | 565,000 | 619,692 |
+| Recreation cost estimate | 1,250,000 | 1,371,000 |
+| Marketability cost scenario | 2,062,500 | 2,262,150 |
+| Monetisation cost scenario | 2,875,000 | 3,153,300 |
+| Risk-adjusted strategic reference | 3,322,610 | 3,644,239 |
+| Weighted economic reference | 2,462,914 | 2,701,324 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source documented real compiled Rust edge + software Modbus/TCP end-to-end duplicate/idempotence and CI; no physical actuator execution.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source documented real compiled Rust edge + software Modbus/TCP end-to-end duplicate/idempotence and CI; no physical actuator execution.
 
 Remaining limits: AWS/EKS deployment not executed; real machine safety/commissioning and multi-writer persistence not qualified.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

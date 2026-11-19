@@ -2,7 +2,7 @@
 
 TA-IP-116 | Reference name: Agnes
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -65,28 +65,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 22,500 | 25,232 |
-| Negotiation reference - low | 18,000 | 20,185 |
-| Negotiation reference - high | 27,500 | 30,839 |
-| Recreation cost estimate | 74,500 | 83,544 |
-| Marketability cost scenario | 28,813 | 32,311 |
-| Monetisation cost scenario | 18,998 | 21,304 |
-| Risk-adjusted strategic reference | 5,887 | 6,602 |
-| Weighted economic reference | 30,248 | 33,920 |
+| Seller asking reference | 22,500 | 24,678 |
+| Negotiation reference - low | 18,000 | 19,742 |
+| Negotiation reference - high | 27,500 | 30,162 |
+| Recreation cost estimate | 74,500 | 81,712 |
+| Marketability cost scenario | 28,813 | 31,602 |
+| Monetisation cost scenario | 18,998 | 20,837 |
+| Risk-adjusted strategic reference | 5,887 | 6,457 |
+| Weighted economic reference | 30,248 | 33,176 |
 
 The retained priced scope and successive non-overlapping budgets reconcile below. Equivalent effort and historical anchors are seller assumptions, not actual expenditure, independent quotations or market value. Previously priced passive-network and convergence foundations are retained once. The increment covers cross-solver, source-storage-load, candidate and adverse-envelope software. Physical engines, measured energy production, perpetual-motion claims, hardware, legal clearance and future phases are excluded.
 
-Coverage describes stated seller estimates only. All recreation amounts have an explicit scoped budget; effort remains an assumption.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source reports R2B2F accepted independent CPU replay, R3A local 236/236 tests and synthetic adversarial energy accounting, 34 Git blob confirmations.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source reports R2B2F accepted independent CPU replay, R3A local 236/236 tests and synthetic adversarial energy accounting, 34 Git blob confirmations.
 
 Remaining limits: R3A independent Colab replay OPEN, physical output/source-power measurement G5/G6 OPEN, rights/FTO G7 OPEN. No perpetual motion, self-powered energy gain or experimentally verified device performance.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

@@ -2,7 +2,7 @@
 
 TA-IP-067 | Reference name: Selene
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -68,28 +68,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 125,000 | 140,175 |
-| Negotiation reference - low | 100,000 | 112,140 |
-| Negotiation reference - high | 160,000 | 179,424 |
-| Recreation cost estimate | 1,200,000 | 1,345,680 |
-| Marketability cost scenario | 606,900 | 680,578 |
-| Monetisation cost scenario | 459,000 | 514,723 |
-| Risk-adjusted strategic reference | 172,723 | 193,692 |
-| Weighted economic reference | 573,633 | 643,272 |
+| Seller asking reference | 125,000 | 137,100 |
+| Negotiation reference - low | 100,000 | 109,680 |
+| Negotiation reference - high | 160,000 | 175,488 |
+| Recreation cost estimate | 1,200,000 | 1,316,160 |
+| Marketability cost scenario | 606,900 | 665,648 |
+| Monetisation cost scenario | 459,000 | 503,431 |
+| Risk-adjusted strategic reference | 172,723 | 189,443 |
+| Weighted economic reference | 573,633 | 629,161 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-README records synthetic exact-match, serial/SDK mismatch tests, evidence packages and multi-camera calibration contracts. Canonical Basler device identity remains unbound.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. README records synthetic exact-match, serial/SDK mismatch tests, evidence packages and multi-camera calibration contracts. Canonical Basler device identity remains unbound.
 
 Remaining limits: Real Basler hardware discovery, synchronized acquisition, calibrated physical performance and sensor-to-photon timing not established. Proprietary CSPS does not include ownership of third-party pylon SDK.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

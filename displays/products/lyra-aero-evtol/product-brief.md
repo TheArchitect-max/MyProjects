@@ -2,7 +2,7 @@
 
 TA-IP-090 | Reference name: Lucia
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -69,28 +69,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 50,000 | 56,070 |
-| Negotiation reference - low | 40,000 | 44,856 |
-| Negotiation reference - high | 60,000 | 67,284 |
-| Recreation cost estimate | 450,000 | 504,630 |
-| Marketability cost scenario | 309,825 | 347,438 |
-| Monetisation cost scenario | 258,188 | 289,532 |
-| Risk-adjusted strategic reference | 153,622 | 172,272 |
-| Weighted economic reference | 279,870 | 313,846 |
+| Seller asking reference | 50,000 | 54,840 |
+| Negotiation reference - low | 40,000 | 43,872 |
+| Negotiation reference - high | 60,000 | 65,808 |
+| Recreation cost estimate | 450,000 | 493,560 |
+| Marketability cost scenario | 309,825 | 339,816 |
+| Monetisation cost scenario | 258,188 | 283,181 |
+| Risk-adjusted strategic reference | 153,622 | 168,493 |
+| Weighted economic reference | 279,870 | 306,961 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Repository exposes power/energy/lift equations, repeatable design-space search, CLI and assumption/evidence ledger; no executed hardware or high-fidelity flight evidence.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Repository exposes power/energy/lift equations, repeatable design-space search, CLI and assumption/evidence ledger; no executed hardware or high-fidelity flight evidence.
 
 Remaining limits: No CFD/FEM/rotor tests, real aircraft, battery thermal validation, airworthiness, flight-dynamics certification or physical feasibility acceptance.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

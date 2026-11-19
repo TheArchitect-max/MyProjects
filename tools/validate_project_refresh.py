@@ -3,7 +3,7 @@
 from pathlib import Path
 import json,re,subprocess
 from pypdf import PdfReader
-R=Path(__file__).resolve().parents[1];BASE='16828b202e80f4a48867418702115fd990d803dc'
+R=Path(__file__).resolve().parents[1];BASE='04cb673cc35568d6f7840696fe45c7340aae8661'
 def load(f):return json.loads((R/f).read_text())
 def original(f):return subprocess.check_output(['git','show',BASE+':'+f],cwd=R)
 c=load('assets/buyer-catalogue.json');p={x['ref']:x for x in load('assets/pricing-catalogue.json')['projects']};d={x['ref']:x for x in load('assets/buyer-dossiers.json')['projects']};q=load('assets/portfolio-reassessment-20261107.json')
@@ -20,7 +20,7 @@ assert 'Updated private asset inventory' not in a # no added banner or navigatio
 pdfs=0
 for x in c['projects']:
  path=R/'displays/products'/x['slug'];pdf=PdfReader(path/'factsheet.pdf');assert len(pdf.pages)==4,x['ref'];pages=[p.extract_text() for p in pdf.pages];text='\n'.join(pages)
- assert all(len(page)>200 for page in pages),x['ref'];assert x['ref']+' / '+x['referenceName'] in pages[0];assert d[x['ref']]['version'] in text;assert '2026-11-10' in text and '1.1214' in text
+ assert all(len(page)>200 for page in pages),x['ref'];assert x['ref']+' / '+x['referenceName'] in pages[0];assert d[x['ref']]['version'] in text;assert '2026-11-19' in text and '1.0968' in text
  for value in p[x['ref']]['values'].values():assert f'{value:,}' in text,(x['ref'],value)
  assert d[x['ref']]['sellerConditions'][0] in re.sub(r'\s+',' ',text),(x['ref'],'PDF condition')
  display=(path/'index.html').read_text();assert not re.search(r'data-source-price-session=|id="source-price-session-',display);assert 'data-asset-enquiry' in display
@@ -31,11 +31,11 @@ for connection in load('assets/application-combinations.json')['connections']:
   asset=assets_by_ref[member['ref']]
   display=(R/'displays/products'/asset['slug']/'index.html').read_text()
   assert 'connections.html#'+connection['slug'] in display,member['ref']
-collection=(R/'displays/index.html').read_text();assert len(re.findall(r'class="asset-select"',collection))==123;assert len(re.findall(r'class="card-cost"',collection))==123
+collection=(R/'displays/index.html').read_text();assert len(re.findall(r'class="asset-select"',collection))==128;assert len(re.findall(r'class="card-cost"',collection))==128
 for x in load('assets/route-aliases.json')['aliases']:
  for f in ['factsheet.pdf','product-brief.md']:
   dst=R/'displays/products'/x['legacySlug']/f
   if dst.exists():assert dst.read_bytes()==(R/'displays/products'/x['slug']/f).read_bytes()
-assert sum(x['askingReferenceChangeEUR'] for x in q['assessments'])==95000
-assert sum(x['askingReferenceEUR'] for x in c['projects'])==25153000
-print(json.dumps({'result':'PASS','currentFactsheets':pdfs,'pdfPagesChecked':4*pdfs,'protectedPresentationFiles':len(protected),'preservedNavigationAndNonProjectFunctions':7,'enquirySelectionControls':123,'askingReferenceIncreaseEUR':95000,'underlyingPrivateProductsRerun':False},indent=2))
+assert sum(x['askingReferenceChangeEUR'] for x in q['assessments'])==121000
+assert sum(x['askingReferenceEUR'] for x in c['projects'])==25274000
+print(json.dumps({'result':'PASS','currentFactsheets':pdfs,'pdfPagesChecked':4*pdfs,'protectedPresentationFiles':len(protected),'preservedNavigationAndNonProjectFunctions':7,'enquirySelectionControls':128,'askingReferenceIncreaseEUR':121000,'underlyingPrivateProductsRerun':False},indent=2))

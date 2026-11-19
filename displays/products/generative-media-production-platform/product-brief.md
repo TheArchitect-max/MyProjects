@@ -2,7 +2,7 @@
 
 TA-IP-068 | Reference name: Nova
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -48,7 +48,7 @@ A local media-production control plane with tenant-scoped accounts, hashed API k
 
 Offered first-party scope: Specifically agreed first-party 0.5.1 control-plane, commercial-control and worker-protocol implementation with documentation. Third-party models, weights, runtimes, services and GPU infrastructure retain separate terms.
 
-Development: Real LTX-2.5 GPU qualification remains a separate open gate
+Development: No separate open candidate at the reviewed snapshot.
 
 ## Conditions before handover
 
@@ -68,28 +68,28 @@ Development: Real LTX-2.5 GPU qualification remains a separate open gate
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 162,000 | 181,667 |
-| Negotiation reference - low | 126,500 | 141,857 |
-| Negotiation reference - high | 202,000 | 226,523 |
-| Recreation cost estimate | 910,000 | 1,020,474 |
-| Marketability cost scenario | 1,160,250 | 1,301,104 |
-| Monetisation cost scenario | 1,433,250 | 1,607,247 |
-| Risk-adjusted strategic reference | 1,553,285 | 1,741,854 |
-| Weighted economic reference | 1,289,850 | 1,446,438 |
+| Seller asking reference | 162,000 | 177,682 |
+| Negotiation reference - low | 126,500 | 138,745 |
+| Negotiation reference - high | 202,000 | 221,554 |
+| Recreation cost estimate | 910,000 | 998,088 |
+| Marketability cost scenario | 1,160,250 | 1,272,562 |
+| Monetisation cost scenario | 1,433,250 | 1,571,989 |
+| Risk-adjusted strategic reference | 1,553,285 | 1,703,643 |
+| Weighted economic reference | 1,289,850 | 1,414,707 |
 
 The recreation estimate contains EUR 900,000 of previously scoped work plus EUR 10,000 for 0.5.1 commercial control implementation, giving EUR 910,000. This increment assumes 96 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. Asking/negotiation inputs preserve prior asking/cost relationships, rounded half-up to EUR 500. All effort and prices remain seller assumptions; market value and actual expenditure are not established. Existing v0.4 media orchestration and isolated-worker foundations are reused and excluded from this increment. Naming changes carry no premium. Model weights, external inference rights, real payments, GPU performance and production acceptance are excluded.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Repository documents model-agnostic project/worker protocol, job isolation, API-key/account/credit ledger and preview/MP4 verification contracts.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Repository documents model-agnostic project/worker protocol, job isolation, API-key/account/credit ledger and preview/MP4 verification contracts.
 
 Remaining limits: Real LTX-2.5 GPU hardware inference, third-party model license admission, secure production tenancy, billing integration and public deployment are not verified.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

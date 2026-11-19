@@ -2,7 +2,7 @@
 
 TA-IP-072 | Reference name: Jocelyn
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -65,28 +65,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 275,000 | 308,385 |
-| Negotiation reference - low | 220,000 | 246,708 |
-| Negotiation reference - high | 345,000 | 386,883 |
-| Recreation cost estimate | 1,300,000 | 1,457,820 |
-| Marketability cost scenario | 1,270,750 | 1,425,019 |
-| Monetisation cost scenario | 1,491,750 | 1,672,848 |
-| Risk-adjusted strategic reference | 1,282,106 | 1,437,754 |
-| Weighted economic reference | 1,326,237 | 1,487,242 |
+| Seller asking reference | 275,000 | 301,620 |
+| Negotiation reference - low | 220,000 | 241,296 |
+| Negotiation reference - high | 345,000 | 378,396 |
+| Recreation cost estimate | 1,300,000 | 1,425,840 |
+| Marketability cost scenario | 1,270,750 | 1,393,759 |
+| Monetisation cost scenario | 1,491,750 | 1,636,151 |
+| Risk-adjusted strategic reference | 1,282,106 | 1,406,214 |
+| Weighted economic reference | 1,326,237 | 1,454,617 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-README documents six public GBT scans, 70/79 strict and 79/79 drift-aware comparator matches, zero level-3 events, and a 61 ZIP/628,733,216 byte retained Drive migration inventory.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. README documents six public GBT scans, 70/79 strict and 79/79 drift-aware comparator matches, zero level-3 events, and a 61 ZIP/628,733,216 byte retained Drive migration inventory.
 
 Remaining limits: Full source/evidence/HDF5 import to one reconstructable Git repository not complete; completeness checker intentionally fails. No technosignature, extraterrestrial origin or real-time telescope operation claim.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

@@ -2,7 +2,7 @@
 
 TA-IP-115 | Reference name: Estelle
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -47,7 +47,7 @@ Template-commerce source with staged evidence export, vault/ledger integrity, en
 
 Offered first-party scope: Specifically agreed first-party 0.7.0 accepted / 0.8.0 development source, documentation and retained evidence: Template-commerce source with staged evidence export, vault/ledger integrity, entitlement and download checks, and controlled runtime-acceptance tooling. No live checkout/payment acceptance, deployment or trading business is included. The existing budget already covers qualification tooling, so no additional price premium is adopted.
 
-Development: 0.8.0 / TCE 0.4.0 implemented staging candidate; fresh runtime acceptance pending.
+Development: No separate open candidate at the reviewed snapshot.
 
 ## Conditions before handover
 
@@ -66,28 +66,28 @@ Development: 0.8.0 / TCE 0.4.0 implemented staging candidate; fresh runtime acce
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 10,500 | 11,775 |
-| Negotiation reference - low | 8,500 | 9,532 |
-| Negotiation reference - high | 13,000 | 14,578 |
-| Recreation cost estimate | 34,500 | 38,688 |
-| Marketability cost scenario | 26,393 | 29,597 |
-| Monetisation cost scenario | 26,781 | 30,032 |
-| Risk-adjusted strategic reference | 13,086 | 14,675 |
-| Weighted economic reference | 23,840 | 26,734 |
+| Seller asking reference | 10,500 | 11,516 |
+| Negotiation reference - low | 8,500 | 9,323 |
+| Negotiation reference - high | 13,000 | 14,258 |
+| Recreation cost estimate | 34,500 | 37,840 |
+| Marketability cost scenario | 26,393 | 28,948 |
+| Monetisation cost scenario | 26,781 | 29,373 |
+| Risk-adjusted strategic reference | 13,086 | 14,353 |
+| Weighted economic reference | 23,840 | 26,148 |
 
 The recreation estimate adopts the lowest expressly scoped seller effort scenario. It is not recorded expenditure, an absolute minimum, an independent quote or established market value. Only the agreed first-party extension, theme and documentation are priced, subject to rights and compatibility review. Platform ownership, customer or payment data, a trading business, live operations, hosting and third-party licences are excluded.
 
-Coverage describes stated seller estimates only. All recreation amounts have an explicit scoped budget; effort remains an assumption.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Frozen v0.7 CPU acceptance is retained; v0.8/TCE0.4 changes PHP and shell code and requires fresh source and real staging acceptance.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Frozen v0.7 CPU acceptance is retained; v0.8/TCE0.4 changes PHP and shell code and requires fresh source and real staging acceptance.
 
 Remaining limits: No live checkout/payment acceptance, deployment or trading business is included. The existing budget already covers qualification tooling, so no additional price premium is adopted.
 
-Price decision: No additional non-overlapping implementation budget: acceptance/documentation or already-priced tooling only.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

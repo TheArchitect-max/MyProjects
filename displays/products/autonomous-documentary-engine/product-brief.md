@@ -2,7 +2,7 @@
 
 TA-IP-055 | Reference name: Clara
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -66,28 +66,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 631,000 | 707,603 |
-| Negotiation reference - low | 504,800 | 566,083 |
-| Negotiation reference - high | 788,750 | 884,504 |
-| Recreation cost estimate | 2,520,500 | 2,826,489 |
-| Marketability cost scenario | 3,780,750 | 4,239,733 |
-| Monetisation cost scenario | 5,293,050 | 5,935,626 |
-| Risk-adjusted strategic reference | 6,090,646 | 6,830,050 |
-| Weighted economic reference | 4,576,611 | 5,132,212 |
+| Seller asking reference | 631,000 | 692,081 |
+| Negotiation reference - low | 504,800 | 553,665 |
+| Negotiation reference - high | 788,750 | 865,101 |
+| Recreation cost estimate | 2,520,500 | 2,764,484 |
+| Marketability cost scenario | 3,780,750 | 4,146,727 |
+| Monetisation cost scenario | 5,293,050 | 5,805,417 |
+| Risk-adjusted strategic reference | 6,090,646 | 6,680,221 |
+| Weighted economic reference | 4,576,611 | 5,019,627 |
 
 Earlier recreation anchor retained once; its prior coverage and uncertainty remain. Added only the individually described implementation work. 192 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 20,500 adopted recreation increment and EUR 6,000 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-The captured main repository-validation workflow is successful. The source adds a 14-gate certification preflight and stale-output invalidation; this is an engineering qualification record.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. The captured main repository-validation workflow is successful. The source adds a 14-gate certification preflight and stale-output invalidation; this is an engineering qualification record.
 
 Remaining limits: Full production qualification, ten live fixtures, independent reviewers, media rights and any publication authorization remain separate.
 
-Price decision: Earlier recreation anchor retained once; its prior coverage and uncertainty remain. Added only the individually described implementation work. 192 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 20,500 adopted recreation increment and EUR 6,000 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

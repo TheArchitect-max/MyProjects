@@ -2,7 +2,7 @@
 
 TA-IP-087 | Reference name: Mila
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -48,7 +48,7 @@ An offline urban digital-twin research workbench with geospatial import, determi
 
 Offered first-party scope: The specifically agreed local first-party workbench, paired scenario comparison and documentation retain the prior low-confidence recreation anchor without a naming or version premium. Real-city measurement rights, calibrated planning predictions, hosting and future modules are excluded.
 
-Development: Open, unmerged development: fix: post-rename product consistency and synthetic evidence qualification. Not a released product or an automatic expansion of priced scope.
+Development: Open, unmerged development: fix: post-rename product consistency and synthetic evidence qualification This is outside the offered main-source budget.
 
 ## Conditions before handover
 
@@ -69,28 +69,28 @@ Development: Open, unmerged development: fix: post-rename product consistency an
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 200,000 | 224,280 |
-| Negotiation reference - low | 160,000 | 179,424 |
-| Negotiation reference - high | 250,000 | 280,350 |
-| Recreation cost estimate | 1,000,000 | 1,121,400 |
-| Marketability cost scenario | 1,026,375 | 1,150,977 |
-| Monetisation cost scenario | 860,625 | 965,105 |
-| Risk-adjusted strategic reference | 860,565 | 965,038 |
-| Weighted economic reference | 928,598 | 1,041,330 |
+| Seller asking reference | 200,000 | 219,360 |
+| Negotiation reference - low | 160,000 | 175,488 |
+| Negotiation reference - high | 250,000 | 274,200 |
+| Recreation cost estimate | 1,000,000 | 1,096,800 |
+| Marketability cost scenario | 1,026,375 | 1,125,728 |
+| Monetisation cost scenario | 860,625 | 943,934 |
+| Risk-adjusted strategic reference | 860,565 | 943,868 |
+| Weighted economic reference | 928,598 | 1,018,486 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance. Review on 2026-11-03: The specifically agreed local first-party workbench, paired scenario comparison and documentation retain the prior low-confidence recreation anchor without a naming or version premium. Real-city measurement rights, calibrated planning predictions, hosting and future modules are excluded.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-v0.1 repository validation records 52 Python tests plus local HTTP/Chromium fixture tests on 3 Oct 2026; synthetic deterministic mobility and evidence replay.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. v0.1 repository validation records 52 Python tests plus local HTTP/Chromium fixture tests on 3 Oct 2026; synthetic deterministic mobility and evidence replay.
 
 Remaining limits: Schematic synthetic geometry; uncalibrated traffic, incomplete OSM coverage, no 1:1 fidelity. Post-rename exact-source PR #6 validation remains pending.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

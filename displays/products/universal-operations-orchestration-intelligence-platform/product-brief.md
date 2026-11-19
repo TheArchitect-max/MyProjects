@@ -2,7 +2,7 @@
 
 TA-IP-102 | Reference name: Diana
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -65,28 +65,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 27,000 | 30,278 |
-| Negotiation reference - low | 21,600 | 24,222 |
-| Negotiation reference - high | 33,750 | 37,847 |
-| Recreation cost estimate | 90,000 | 100,926 |
-| Marketability cost scenario | 75,735 | 84,929 |
-| Monetisation cost scenario | 69,863 | 78,344 |
-| Risk-adjusted strategic reference | 37,552 | 42,111 |
-| Weighted economic reference | 64,763 | 72,625 |
+| Seller asking reference | 27,000 | 29,614 |
+| Negotiation reference - low | 21,600 | 23,691 |
+| Negotiation reference - high | 33,750 | 37,017 |
+| Recreation cost estimate | 90,000 | 98,712 |
+| Marketability cost scenario | 75,735 | 83,066 |
+| Monetisation cost scenario | 69,863 | 76,626 |
+| Risk-adjusted strategic reference | 37,552 | 41,187 |
+| Weighted economic reference | 64,763 | 71,032 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source documents role-based in-process START/COMPLETE transitions, dependency/constraint checks, deterministic scenario ranking and unsigned portable replay records.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source documents role-based in-process START/COMPLETE transitions, dependency/constraint checks, deterministic scenario ranking and unsigned portable replay records.
 
 Remaining limits: Not production SaaS, external actor authentication, real autonomous operations executor, financial ledger or global solver; unsigned custody anchors need separately trusted retention.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

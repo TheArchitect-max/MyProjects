@@ -2,7 +2,7 @@
 
 TA-IP-086 | Reference name: Vivienne
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -69,28 +69,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 575,000 | 644,805 |
-| Negotiation reference - low | 460,000 | 515,844 |
-| Negotiation reference - high | 720,000 | 807,408 |
-| Recreation cost estimate | 2,400,000 | 2,691,360 |
-| Marketability cost scenario | 3,036,000 | 3,404,570 |
-| Monetisation cost scenario | 3,726,000 | 4,178,336 |
-| Risk-adjusted strategic reference | 3,063,130 | 3,434,994 |
-| Weighted economic reference | 3,024,496 | 3,391,670 |
+| Seller asking reference | 575,000 | 630,660 |
+| Negotiation reference - low | 460,000 | 504,528 |
+| Negotiation reference - high | 720,000 | 789,696 |
+| Recreation cost estimate | 2,400,000 | 2,632,320 |
+| Marketability cost scenario | 3,036,000 | 3,329,885 |
+| Monetisation cost scenario | 3,726,000 | 4,086,677 |
+| Risk-adjusted strategic reference | 3,063,130 | 3,359,641 |
+| Weighted economic reference | 3,024,496 | 3,317,267 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Repository documents Shopify ingress/admin GraphQL reference, tenant orders, durable worker leases, operational/policy gates and explicit profit evidence. CI configured but actual live operation absent.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Repository documents Shopify ingress/admin GraphQL reference, tenant orders, durable worker leases, operational/policy gates and explicit profit evidence. CI configured but actual live operation absent.
 
 Remaining limits: No live Shopify infrastructure, executed restore drill, retained live performance or real profitable sales. Github must not host payments, user accounts, production DB or SaaS runtime.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

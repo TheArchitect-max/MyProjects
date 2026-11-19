@@ -2,7 +2,7 @@
 
 TA-IP-081 | Reference name: Violet
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -67,28 +67,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 185,500 | 208,020 |
-| Negotiation reference - low | 149,500 | 167,649 |
-| Negotiation reference - high | 232,000 | 260,165 |
-| Recreation cost estimate | 875,000 | 981,225 |
-| Marketability cost scenario | 1,106,875 | 1,241,250 |
-| Monetisation cost scenario | 1,358,438 | 1,523,352 |
-| Risk-adjusted strategic reference | 1,116,766 | 1,252,341 |
-| Weighted economic reference | 1,102,681 | 1,236,546 |
+| Seller asking reference | 185,500 | 203,456 |
+| Negotiation reference - low | 149,500 | 163,972 |
+| Negotiation reference - high | 232,000 | 254,458 |
+| Recreation cost estimate | 875,000 | 959,700 |
+| Marketability cost scenario | 1,106,875 | 1,214,021 |
+| Monetisation cost scenario | 1,358,438 | 1,489,935 |
+| Risk-adjusted strategic reference | 1,116,766 | 1,224,869 |
+| Weighted economic reference | 1,102,681 | 1,209,421 |
 
 The recreation anchor combines an identified base with separately scoped implementation work. The base remains a seller assumption; the scoped component has a role/work-package reproduction budget. Each component is counted once.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source reports historical v0.4 58 tests, v0.5 21, v0.6 26 and v0.7 30 scoped tests on simulated red/green/blue markers; full clean-checkout gate not established.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source reports historical v0.4 58 tests, v0.5 21, v0.6 26 and v0.7 30 scoped tests on simulated red/green/blue markers; full clean-checkout gate not established.
 
 Remaining limits: Synthetic marker scope is not general semantic perception; production detector qualified=false, physical devices and sensor-to-photon lag unmeasured.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

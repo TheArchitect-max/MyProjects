@@ -2,7 +2,7 @@
 
 TA-IP-037 | Reference name: Eve
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -46,7 +46,7 @@ Experimental research source is on an unmerged development branch. The priced hi
 
 Offered first-party scope: Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
 
-Development: Open, unmerged development: Bootstrap evidence-first ANEP v18.4 local adaptive budget baseline. Not a released product or an automatic expansion of priced scope.
+Development: Open, unmerged development: Bootstrap evidence-first ANEP v18.4 local adaptive budget baseline This is outside the offered main-source budget.
 
 ## Conditions before handover
 
@@ -70,28 +70,28 @@ Development: Open, unmerged development: Bootstrap evidence-first ANEP v18.4 loc
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 45,000 | 50,463 |
-| Negotiation reference - low | 35,000 | 39,249 |
-| Negotiation reference - high | 55,000 | 61,677 |
-| Recreation cost estimate | 400,000 | 448,560 |
-| Marketability cost scenario | 336,600 | 377,463 |
-| Monetisation cost scenario | 229,500 | 257,361 |
-| Risk-adjusted strategic reference | 166,898 | 187,159 |
-| Weighted economic reference | 271,634 | 304,610 |
+| Seller asking reference | 45,000 | 49,356 |
+| Negotiation reference - low | 35,000 | 38,388 |
+| Negotiation reference - high | 55,000 | 60,324 |
+| Recreation cost estimate | 400,000 | 438,720 |
+| Marketability cost scenario | 336,600 | 369,183 |
+| Monetisation cost scenario | 229,500 | 251,716 |
+| Risk-adjusted strategic reference | 166,898 | 183,054 |
+| Weighted economic reference | 271,634 | 297,928 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Main README describes block-sparse synapses, FEP-inspired latent inference and Colab GPU tooling; no source-specific current benchmark results in inspected README.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Main README describes block-sparse synapses, FEP-inspired latent inference and Colab GPU tooling; no source-specific current benchmark results in inspected README.
 
 Remaining limits: Biological fidelity, consciousness, large-scale neural benchmark performance and production GPU capacity not established.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

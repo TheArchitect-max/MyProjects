@@ -2,7 +2,7 @@
 
 TA-IP-045 | Reference name: Mercia
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -66,28 +66,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 340,000 | 381,276 |
-| Negotiation reference - low | 270,000 | 302,778 |
-| Negotiation reference - high | 425,000 | 476,595 |
-| Recreation cost estimate | 950,000 | 1,065,330 |
-| Marketability cost scenario | 1,567,500 | 1,757,795 |
-| Monetisation cost scenario | 2,090,000 | 2,343,726 |
-| Risk-adjusted strategic reference | 2,525,184 | 2,831,741 |
-| Weighted economic reference | 1,852,814 | 2,077,746 |
+| Seller asking reference | 340,000 | 372,912 |
+| Negotiation reference - low | 270,000 | 296,136 |
+| Negotiation reference - high | 425,000 | 466,140 |
+| Recreation cost estimate | 950,000 | 1,041,960 |
+| Marketability cost scenario | 1,567,500 | 1,719,234 |
+| Monetisation cost scenario | 2,090,000 | 2,292,312 |
+| Risk-adjusted strategic reference | 2,525,184 | 2,769,622 |
+| Weighted economic reference | 1,852,814 | 2,032,166 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-README reports 50/50 regression and scale tests, deterministic sharding and strict provenance-aware structured-data output; no new tests executed by portfolio reviewer.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. README reports 50/50 regression and scale tests, deterministic sharding and strict provenance-aware structured-data output; no new tests executed by portfolio reviewer.
 
 Remaining limits: No independent traffic, checkout, fulfilment, merchant feed rights, live e-commerce uptime or sales conversion validation. Synthetic records do not establish real commercial offers.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

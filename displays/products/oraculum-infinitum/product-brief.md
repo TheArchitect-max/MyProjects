@@ -2,7 +2,7 @@
 
 TA-IP-040 | Reference name: Sibyl
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -66,28 +66,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 275,000 | 308,385 |
-| Negotiation reference - low | 220,000 | 246,708 |
-| Negotiation reference - high | 345,000 | 386,883 |
-| Recreation cost estimate | 700,000 | 784,980 |
-| Marketability cost scenario | 1,155,000 | 1,295,217 |
-| Monetisation cost scenario | 1,610,000 | 1,805,454 |
-| Risk-adjusted strategic reference | 1,860,662 | 2,086,546 |
-| Weighted economic reference | 1,379,232 | 1,546,671 |
+| Seller asking reference | 275,000 | 301,620 |
+| Negotiation reference - low | 220,000 | 241,296 |
+| Negotiation reference - high | 345,000 | 378,396 |
+| Recreation cost estimate | 700,000 | 767,760 |
+| Marketability cost scenario | 1,155,000 | 1,266,804 |
+| Monetisation cost scenario | 1,610,000 | 1,765,848 |
+| Risk-adjusted strategic reference | 1,860,662 | 2,040,774 |
+| Weighted economic reference | 1,379,232 | 1,512,742 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source describes search ranking, sandbox-gated benchmarks, signed candidate provenance and repository-native verification entrypoint.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source describes search ranking, sandbox-gated benchmarks, signed candidate provenance and repository-native verification entrypoint.
 
 Remaining limits: Search ranking and benchmarks are not provider license adjudication, supply-chain security assurance or suitability in all deployments; isolation backend must be available for untrusted code.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

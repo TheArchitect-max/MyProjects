@@ -2,7 +2,7 @@
 
 TA-IP-111 | Reference name: Caissa
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -65,28 +65,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 20,000 | 22,428 |
-| Negotiation reference - low | 16,000 | 17,942 |
-| Negotiation reference - high | 25,000 | 28,035 |
-| Recreation cost estimate | 67,000 | 75,134 |
-| Marketability cost scenario | 51,255 | 57,477 |
-| Monetisation cost scenario | 45,225 | 50,715 |
-| Risk-adjusted strategic reference | 25,414 | 28,499 |
-| Weighted economic reference | 44,941 | 50,397 |
+| Seller asking reference | 20,000 | 21,936 |
+| Negotiation reference - low | 16,000 | 17,549 |
+| Negotiation reference - high | 25,000 | 27,420 |
+| Recreation cost estimate | 67,000 | 73,486 |
+| Marketability cost scenario | 51,255 | 56,216 |
+| Monetisation cost scenario | 45,225 | 49,603 |
+| Risk-adjusted strategic reference | 25,414 | 27,874 |
+| Weighted economic reference | 44,941 | 49,291 |
 
 The recreation estimate adopts the lowest expressly scoped seller effort scenario. It is not recorded expenditure, an absolute minimum, an independent quote or established market value. Only the specifically agreed first-party local chess application, native research analysers and related documentation are priced. Third-party historical games, derived data and external engine ownership rights are not priced as proprietary assets. Independent strength qualification, future search advances, live integrations and production services are excluded.
 
-Coverage describes stated seller estimates only. All recreation amounts have an explicit scoped budget; effort remains an assumption.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source reports 34 local suites / 1,799 assertions and 159 source hashes, with historic v1.27 32 suites / 1,527 assertions independently inspected.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source reports 34 local suites / 1,799 assertions and 159 source hashes, with historic v1.27 32 suites / 1,527 assertions independently inspected.
 
 Remaining limits: Independent v1.28 pinned Colab acceptance pending; no demonstrated Elo or world-class strength, v4 not installed in owner GUI; optional GPLv3 Stockfish and CC BY-SA data require separate rights conditions.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

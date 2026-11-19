@@ -2,7 +2,7 @@
 
 TA-IP-006 | Reference name: Fauna
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -47,7 +47,7 @@ The identified build requires fresh validation; the earlier validated baseline r
 
 Offered first-party scope: Main: 5.7.0 development. Dated asking-price limitation: EUR 275,000 ask and EUR 1,200,000 legacy recreation estimate lack a scoped 5.7 work breakdown. Current 5.7 main requires fresh source-pinned GPU revalidation; cannot present as a fully accepted release market value.
 
-Development: 5.7.0 development; No open PR; 5.7 governance currently on main
+Development: No separate open candidate at the reviewed snapshot.
 
 ## Conditions before handover
 
@@ -68,28 +68,28 @@ Development: 5.7.0 development; No open PR; 5.7 governance currently on main
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 275,000 | 308,385 |
-| Negotiation reference - low | 220,000 | 246,708 |
-| Negotiation reference - high | 345,000 | 386,883 |
-| Recreation cost estimate | 1,200,000 | 1,345,680 |
-| Marketability cost scenario | 918,000 | 1,029,445 |
-| Monetisation cost scenario | 1,188,000 | 1,332,223 |
-| Risk-adjusted strategic reference | 547,727 | 614,221 |
-| Weighted economic reference | 912,904 | 1,023,731 |
+| Seller asking reference | 275,000 | 301,620 |
+| Negotiation reference - low | 220,000 | 241,296 |
+| Negotiation reference - high | 345,000 | 378,396 |
+| Recreation cost estimate | 1,200,000 | 1,316,160 |
+| Marketability cost scenario | 918,000 | 1,006,862 |
+| Monetisation cost scenario | 1,188,000 | 1,302,998 |
+| Risk-adjusted strategic reference | 547,727 | 600,747 |
+| Weighted economic reference | 912,904 | 1,001,273 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-5.6 GPU PASS 47 gates/218 regressions, pinned source-pinned confidential record; 5.7 revalidation required
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. 5.6 GPU PASS 47 gates/218 regressions, pinned source-pinned confidential record; 5.7 revalidation required
 
 Remaining limits: Recorded sound classification, model evaluation isolation and abstention controls; no animal-language interpretation or qualified biological truth.
 
-Price decision: EUR 275,000 ask and EUR 1,200,000 legacy recreation estimate lack a scoped 5.7 work breakdown. Current 5.7 main requires fresh source-pinned GPU revalidation; cannot present as a fully accepted release market value.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

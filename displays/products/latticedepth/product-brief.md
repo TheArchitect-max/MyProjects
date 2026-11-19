@@ -2,7 +2,7 @@
 
 TA-IP-043 | Reference name: Gaia
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -66,28 +66,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 256,500 | 287,639 |
-| Negotiation reference - low | 206,000 | 231,008 |
-| Negotiation reference - high | 322,000 | 361,091 |
-| Recreation cost estimate | 855,000 | 958,797 |
-| Marketability cost scenario | 835,762 | 937,224 |
-| Monetisation cost scenario | 1,327,388 | 1,488,533 |
-| Risk-adjusted strategic reference | 843,231 | 945,599 |
-| Weighted economic reference | 941,511 | 1,055,810 |
+| Seller asking reference | 256,500 | 281,329 |
+| Negotiation reference - low | 206,000 | 225,941 |
+| Negotiation reference - high | 322,000 | 353,170 |
+| Recreation cost estimate | 855,000 | 937,764 |
+| Marketability cost scenario | 835,762 | 916,664 |
+| Monetisation cost scenario | 1,327,388 | 1,455,879 |
+| Risk-adjusted strategic reference | 843,231 | 924,856 |
+| Weighted economic reference | 941,511 | 1,032,649 |
 
 The recreation estimate comprises the retained expressly priced scope and the separately disclosed non-overlapping implementation budgets. Historical anchors and each successive scoped increment reconcile in the calculation below. Equivalent effort is a seller estimate; market value, actual expenditure and independent quotations are not established. Reuses the previously priced materials-evidence platform. Physical experiments, hardware authority and scientific qualification are excluded.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source describes trust-root transition and governance checks; full source Colab rerun and scientific G1–G9 gates remain open.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source describes trust-root transition and governance checks; full source Colab rerun and scientific G1–G9 gates remain open.
 
 Remaining limits: No beam control, exposure recipe, facility authorization, scientific experiment acceptance or legal IP title clearance.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

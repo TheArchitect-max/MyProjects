@@ -2,7 +2,7 @@
 
 TA-IP-098 | Reference name: Astrid
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -46,7 +46,7 @@ Use the v0.1 transport-concept software for your FusionLunar studies. A separate
 
 Offered first-party scope: Present first-party transport-concept screening software, interface contracts, synthetic example, tests, documentation and retained software validation at the identified development commit. Physical vehicles, flight qualification, operational transport, external science and data rights, the separately owned FusionLunar asset and future engineering are excluded.
 
-Development: Open, unmerged development: v0.2 — Stateful refueling, depot inventory and multi-launch departure gates. Not a released product or an automatic expansion of priced scope.
+Development: Open, unmerged development: v0.2 — Stateful refueling, depot inventory and multi-launch departure gates This is outside the offered main-source budget.
 
 ## Conditions before handover
 
@@ -67,28 +67,28 @@ Development: Open, unmerged development: v0.2 — Stateful refueling, depot inve
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 15,000 | 16,821 |
-| Negotiation reference - low | 12,000 | 13,457 |
-| Negotiation reference - high | 18,750 | 21,026 |
-| Recreation cost estimate | 50,000 | 56,070 |
-| Marketability cost scenario | 34,425 | 38,604 |
-| Monetisation cost scenario | 28,688 | 32,171 |
-| Risk-adjusted strategic reference | 17,069 | 19,141 |
-| Weighted economic reference | 31,097 | 34,872 |
+| Seller asking reference | 15,000 | 16,452 |
+| Negotiation reference - low | 12,000 | 13,162 |
+| Negotiation reference - high | 18,750 | 20,565 |
+| Recreation cost estimate | 50,000 | 54,840 |
+| Marketability cost scenario | 34,425 | 37,757 |
+| Monetisation cost scenario | 28,688 | 31,465 |
+| Risk-adjusted strategic reference | 17,069 | 18,721 |
+| Weighted economic reference | 31,097 | 34,107 |
 
 Disclosed base/increment assumptions reconcile to the retained recreation anchor. Effort remains an analyst estimate for its original scope.
 
-Coverage describes stated seller estimates only. All recreation amounts have an explicit scoped budget; effort remains an assumption.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Repository describes deterministic mission requirements, basic evaluator and PASS/FAIL/INCOMPLETE model contracts; no exact pinned project-wide acceptance reproduced by this portfolio audit.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Repository describes deterministic mission requirements, basic evaluator and PASS/FAIL/INCOMPLETE model contracts; no exact pinned project-wide acceptance reproduced by this portfolio audit.
 
 Remaining limits: Not flight-qualified trajectory, hardware performance, launch cadence, measured reliability, mission safety or commercially modeled feasibility.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

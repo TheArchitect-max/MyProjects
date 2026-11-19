@@ -2,7 +2,7 @@
 
 TA-IP-123 | Reference name: Cecilia
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -45,7 +45,7 @@ Numerical FLRW/CPL and BAO likelihood research, authenticated DESI reference pro
 
 Offered first-party scope: Specifically agreed first-party R3B2D3C / original Cobaya Model source, documentation and retained evidence: Numerical FLRW/CPL and BAO likelihood research, authenticated DESI reference products, published-chain reanalysis and a source-parameterized Cobaya/CAMB model comparison. Independent four-chain sampling is an open candidate. R3 remains open and R4 blocked; no complete independently sampled posterior, new physics or scientific peer-review acceptance.
 
-Development: Open, unmerged development: R3B2D3D0: first source-verified four-chain Cobaya/CAMB MCMC pilot. Not a released product or an automatic expansion of priced scope.
+Development: Open, unmerged development: R3B2D3D0: first source-verified four-chain Cobaya/CAMB MCMC pilot This is outside the offered main-source budget.
 
 ## Conditions before handover
 
@@ -62,28 +62,28 @@ Development: Open, unmerged development: R3B2D3D0: first source-verified four-ch
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 12,500 | 14,018 |
-| Negotiation reference - low | 10,000 | 11,214 |
-| Negotiation reference - high | 15,625 | 17,522 |
-| Recreation cost estimate | 43,000 | 48,220 |
-| Marketability cost scenario | 21,382 | 23,978 |
-| Monetisation cost scenario | 16,448 | 18,445 |
-| Risk-adjusted strategic reference | 7,612 | 8,536 |
-| Weighted economic reference | 20,980 | 23,527 |
+| Seller asking reference | 12,500 | 13,710 |
+| Negotiation reference - low | 10,000 | 10,968 |
+| Negotiation reference - high | 15,625 | 17,138 |
+| Recreation cost estimate | 43,000 | 47,162 |
+| Marketability cost scenario | 21,382 | 23,452 |
+| Monetisation cost scenario | 16,448 | 18,040 |
+| Risk-adjusted strategic reference | 7,612 | 8,349 |
+| Weighted economic reference | 20,980 | 23,011 |
 
 Initial bounded work-package estimate. 400 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 43,000 adopted recreation increment and EUR 12,500 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
 
-Coverage describes stated seller estimates only. All recreation amounts have an explicit scoped budget; effort remains an assumption.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Current main merge supersedes stale README candidate notices: 420/420 private CPU tests and 3/3 genuine original-parameterized model log-likelihood comparisons; maximum delta about 1.32e-13.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Current main merge supersedes stale README candidate notices: 420/420 private CPU tests and 3/3 genuine original-parameterized model log-likelihood comparisons; maximum delta about 1.32e-13.
 
 Remaining limits: Independent four-chain sampling is an open candidate. R3 remains open and R4 blocked; no complete independently sampled posterior, new physics or scientific peer-review acceptance.
 
-Price decision: Initial bounded work-package estimate. 400 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 43,000 adopted recreation increment and EUR 12,500 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

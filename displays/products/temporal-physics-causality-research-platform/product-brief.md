@@ -2,7 +2,7 @@
 
 TA-IP-058 | Reference name: Eleni
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -69,28 +69,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 50,500 | 56,631 |
-| Negotiation reference - low | 40,400 | 45,305 |
-| Negotiation reference - high | 63,125 | 70,788 |
-| Recreation cost estimate | 1,053,000 | 1,180,834 |
-| Marketability cost scenario | 407,248 | 456,688 |
-| Monetisation cost scenario | 268,515 | 301,113 |
-| Risk-adjusted strategic reference | 83,212 | 93,314 |
-| Weighted economic reference | 427,527 | 479,429 |
+| Seller asking reference | 50,500 | 55,388 |
+| Negotiation reference - low | 40,400 | 44,311 |
+| Negotiation reference - high | 63,125 | 69,236 |
+| Recreation cost estimate | 1,053,000 | 1,154,930 |
+| Marketability cost scenario | 407,248 | 446,670 |
+| Monetisation cost scenario | 268,515 | 294,507 |
+| Risk-adjusted strategic reference | 83,212 | 91,267 |
+| Weighted economic reference | 427,527 | 468,912 |
 
 Earlier recreation anchor retained once; its prior coverage and uncertainty remain. Added only the individually described implementation work. 32 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 3,000 adopted recreation increment and EUR 500 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-The PTCG-1N acceptance contract requires retained negative statistics, explicit null calibration and preregistered witness identity. Evidence is synthetic computational scope.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. The PTCG-1N acceptance contract requires retained negative statistics, explicit null calibration and preregistered witness identity. Evidence is synthetic computational scope.
 
 Remaining limits: Formal causal-witness proof, physical-projection bootstrap and measured apparatus covariance remain open. No physical causal nonseparability or time-machine claim.
 
-Price decision: Earlier recreation anchor retained once; its prior coverage and uncertainty remain. Added only the individually described implementation work. 32 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 3,000 adopted recreation increment and EUR 500 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

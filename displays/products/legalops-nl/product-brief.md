@@ -2,7 +2,7 @@
 
 TA-IP-033 | Reference name: Julia
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -46,7 +46,7 @@ The v0.8 prototype and unmerged v0.9 investigation-workspace candidate have sepa
 
 Offered first-party scope: Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
 
-Development: Open, unmerged development: docs: geïntegreerde LegalOps-NL bouwroadmap en hybride systeemarchitectuur; v0.9.0 — Matter Graph and complex-dossier workspace. Not a released product or an automatic expansion of priced scope.
+Development: Open, unmerged development: docs: geïntegreerde LegalOps-NL bouwroadmap en hybride systeemarchitectuur; v0.9.0 — Matter Graph and complex-dossier workspace This is outside the offered main-source budget.
 
 ## Conditions before handover
 
@@ -65,28 +65,28 @@ Development: Open, unmerged development: docs: geïntegreerde LegalOps-NL bouwro
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 100,000 | 112,140 |
-| Negotiation reference - low | 80,000 | 89,712 |
-| Negotiation reference - high | 125,000 | 140,175 |
-| Recreation cost estimate | 550,000 | 616,770 |
-| Marketability cost scenario | 591,388 | 663,183 |
-| Monetisation cost scenario | 640,406 | 718,151 |
-| Risk-adjusted strategic reference | 495,849 | 556,045 |
-| Weighted economic reference | 557,406 | 625,075 |
+| Seller asking reference | 100,000 | 109,680 |
+| Negotiation reference - low | 80,000 | 87,744 |
+| Negotiation reference - high | 125,000 | 137,100 |
+| Recreation cost estimate | 550,000 | 603,240 |
+| Marketability cost scenario | 591,388 | 648,634 |
+| Monetisation cost scenario | 640,406 | 702,397 |
+| Risk-adjusted strategic reference | 495,849 | 543,847 |
+| Weighted economic reference | 557,406 | 611,363 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source documents evidence hash/proposition records, human-review queues, deterministic release-gate; PR #8 is unmerged and unaccepted.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source documents evidence hash/proposition records, human-review queues, deterministic release-gate; PR #8 is unmerged and unaccepted.
 
 Remaining limits: Embedded historical legal assertions remain unverified at proposition level; no legal-advice certification or current statutory assurance. v0.9 not released.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

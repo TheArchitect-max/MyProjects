@@ -2,7 +2,7 @@
 
 TA-IP-030 | Reference name: Celeste
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -69,28 +69,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 216,500 | 242,783 |
-| Negotiation reference - low | 171,000 | 191,759 |
-| Negotiation reference - high | 271,500 | 304,460 |
-| Recreation cost estimate | 855,000 | 958,797 |
-| Marketability cost scenario | 884,925 | 992,355 |
-| Monetisation cost scenario | 981,113 | 1,100,220 |
-| Risk-adjusted strategic reference | 892,833 | 1,001,223 |
-| Weighted economic reference | 899,449 | 1,008,642 |
+| Seller asking reference | 216,500 | 237,457 |
+| Negotiation reference - low | 171,000 | 187,553 |
+| Negotiation reference - high | 271,500 | 297,781 |
+| Recreation cost estimate | 855,000 | 937,764 |
+| Marketability cost scenario | 884,925 | 970,586 |
+| Monetisation cost scenario | 981,113 | 1,076,085 |
+| Risk-adjusted strategic reference | 892,833 | 979,259 |
+| Weighted economic reference | 899,449 | 986,516 |
 
 Recreation estimate: EUR 850,000 retained scope component plus EUR 5,000 for the explicitly scoped implementation work budget, giving EUR 855,000. The scoped budget assumes 48 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-v2.8 history reports 50/50 tests and 51/51 validator checks; v2.9 adds nine battery/thermal checks including a 36-state matrix, without automatically requalifying inherited source.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. v2.8 history reports 50/50 tests and 51/51 validator checks; v2.9 adds nine battery/thermal checks including a 36-state matrix, without automatically requalifying inherited source.
 
 Remaining limits: Not flight-tested, certified, hardware-calibrated or operationally safe; new complete v2.9 checkout qualification must be distinguished from v2.8 historical PASS.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

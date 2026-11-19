@@ -2,7 +2,7 @@
 
 TA-IP-022 | Reference name: Freya
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -46,7 +46,7 @@ An AI-resource coordination asset for reviewing capacity, workload placement and
 
 Offered first-party scope: Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
 
-Development: Open, unmerged development: validation: Kaggle T4x2 GPU sharding, Colab pairing and live cgroup2 host campaign; docs: mandatory distributed GPU model execution gates (v0.24 375/375 baseline confirmed); v0.24: 375/375 exact-source + Tesla T4 PASS; live kernel pending; v0.23: 367/367 exact-source + Tesla T4 PASS; live cgroup kernel pending; v0.22: 351/351 exact-source + Tesla T4 PASS; live kernel containment pending; v0.21: exact-source 335/335 + Tesla T4 PASS; live cgroup kernel gate pending; v0.20: trusted cgroup pre-exec launch — exact-source software/T4 PASS; live kernel gate pending. Not a released product or an automatic expansion of priced scope.
+Development: Open, unmerged development: validation: Kaggle T4x2 GPU sharding, Colab pairing and live cgroup2 host campaign; docs: mandatory distributed GPU model execution gates (v0.24 375/375 baseline confirmed); v0.24: 375/375 exact-source + Tesla T4 PASS; live kernel pending; v0.23: 367/367 exact-source + Tesla T4 PASS; live cgroup kernel pending; v0.22: 351/351 exact-source + Tesla T4 PASS; live kernel containment pending; v0.21: exact-source 335/335 + Tesla T4 PASS; live cgroup kernel gate pending; v0.20: trusted cgroup pre-exec launch — exact-source software/T4 PASS; live kernel gate pending This is outside the offered main-source budget.
 
 ## Conditions before handover
 
@@ -69,28 +69,28 @@ Development: Open, unmerged development: validation: Kaggle T4x2 GPU sharding, C
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 500,000 | 560,700 |
-| Negotiation reference - low | 390,000 | 437,346 |
-| Negotiation reference - high | 630,000 | 706,482 |
-| Recreation cost estimate | 1,400,000 | 1,569,960 |
-| Marketability cost scenario | 2,310,000 | 2,590,434 |
-| Monetisation cost scenario | 3,080,000 | 3,453,912 |
-| Risk-adjusted strategic reference | 3,721,323 | 4,173,092 |
-| Weighted economic reference | 2,730,463 | 3,061,941 |
+| Seller asking reference | 500,000 | 548,400 |
+| Negotiation reference - low | 390,000 | 427,752 |
+| Negotiation reference - high | 630,000 | 690,984 |
+| Recreation cost estimate | 1,400,000 | 1,535,520 |
+| Marketability cost scenario | 2,310,000 | 2,533,608 |
+| Monetisation cost scenario | 3,080,000 | 3,378,144 |
+| Risk-adjusted strategic reference | 3,721,323 | 4,081,547 |
+| Weighted economic reference | 2,730,463 | 2,994,772 |
 
 Some dated work-package assumptions are disclosed, but they do not reconstruct the complete retained recreation anchor. A complete scope-specific budget is required.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-v0.19 source report: exact-source Colab Tesla T4 GPU admission and 298/298 repository tests; report flags no vLLM/llama.cpp model inference, multi-host failover, RDMA or pooled VRAM.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. v0.19 source report: exact-source Colab Tesla T4 GPU admission and 298/298 repository tests; report flags no vLLM/llama.cpp model inference, multi-host failover, RDMA or pooled VRAM.
 
 Remaining limits: Single T4 admission is not two-host distributed inference/VRAM pooling; pending multi-host tests and real worker failover remain unqualified.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

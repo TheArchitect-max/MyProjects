@@ -2,7 +2,7 @@
 
 TA-IP-016 | Reference name: Shannon
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -67,28 +67,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 150,000 | 168,210 |
-| Negotiation reference - low | 119,000 | 133,447 |
-| Negotiation reference - high | 187,500 | 210,263 |
-| Recreation cost estimate | 500,000 | 560,700 |
-| Marketability cost scenario | 603,750 | 677,045 |
-| Monetisation cost scenario | 742,500 | 832,640 |
-| Risk-adjusted strategic reference | 609,145 | 683,095 |
-| Weighted economic reference | 607,451 | 681,196 |
+| Seller asking reference | 150,000 | 164,520 |
+| Negotiation reference - low | 119,000 | 130,519 |
+| Negotiation reference - high | 187,500 | 205,650 |
+| Recreation cost estimate | 500,000 | 548,400 |
+| Marketability cost scenario | 603,750 | 662,193 |
+| Monetisation cost scenario | 742,500 | 814,374 |
+| Risk-adjusted strategic reference | 609,145 | 668,110 |
+| Weighted economic reference | 607,451 | 666,252 |
 
 The recreation anchor combines an identified base with separately scoped implementation work. The base remains a seller assumption; the scoped component has a role/work-package reproduction budget. Each component is counted once.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source documents cross-domain adapters, immutable window records and portable hash-bound CLI verification; exact current integrated source gate not reexecuted.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source documents cross-domain adapters, immutable window records and portable hash-bound CLI verification; exact current integrated source gate not reexecuted.
 
 Remaining limits: Reference signal detectors are not calibrated weather, clinical, finance, seismic, RF or safety-certified measurements.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

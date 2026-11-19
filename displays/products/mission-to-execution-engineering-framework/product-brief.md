@@ -2,7 +2,7 @@
 
 TA-IP-104 | Reference name: Hestia
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -47,7 +47,7 @@ An engineering workbench prototype for traceable requirements and execution plan
 
 Offered first-party scope: Existing first-party offline mission, requirements, dependency-planning and document-generation software on main v0.1 plus separately frozen unmerged v0.2/v0.3 traceability and feasibility-declaration software, tests and methodology documents. Generated plans are design outputs; independently established feasibility, copied cross-project IP, automatic engineering or execution, hosted services and future implementation are excluded.
 
-Development: Open, unmerged development: feat(v0.5): source-grounded VolumeForge drafts and review checkpoints; feat(v0.4): architecture alternatives, hard decision gates and ADR traceability; feat(v0.3): mission objectives, feasibility declarations and research experiments; feat: UMEEF v0.2 traceability graph and evidence integrity auditing. Not a released product or an automatic expansion of priced scope.
+Development: Open, unmerged development: feat(v0.5): source-grounded VolumeForge drafts and review checkpoints; feat(v0.4): architecture alternatives, hard decision gates and ADR traceability; feat(v0.3): mission objectives, feasibility declarations and research experiments; feat: UMEEF v0.2 traceability graph and evidence integrity auditing This is outside the offered main-source budget.
 
 ## Conditions before handover
 
@@ -66,28 +66,28 @@ Development: Open, unmerged development: feat(v0.5): source-grounded VolumeForge
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 16,500 | 18,503 |
-| Negotiation reference - low | 13,200 | 14,802 |
-| Negotiation reference - high | 20,625 | 23,129 |
-| Recreation cost estimate | 55,000 | 61,677 |
-| Marketability cost scenario | 46,283 | 51,902 |
-| Monetisation cost scenario | 42,694 | 47,877 |
-| Risk-adjusted strategic reference | 22,948 | 25,734 |
-| Weighted economic reference | 39,577 | 44,382 |
+| Seller asking reference | 16,500 | 18,097 |
+| Negotiation reference - low | 13,200 | 14,478 |
+| Negotiation reference - high | 20,625 | 22,622 |
+| Recreation cost estimate | 55,000 | 60,324 |
+| Marketability cost scenario | 46,283 | 50,763 |
+| Monetisation cost scenario | 42,694 | 46,827 |
+| Risk-adjusted strategic reference | 22,948 | 25,169 |
+| Weighted economic reference | 39,577 | 43,408 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source offers deterministic mission-charter, dependency planning, requirements traceability and draft volume build; v0.5 PR #6 says separately tested 110/110 local archive but exact transferred GitHub head not reexecuted.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source offers deterministic mission-charter, dependency planning, requirements traceability and draft volume build; v0.5 PR #6 says separately tested 110/110 local archive but exact transferred GitHub head not reexecuted.
 
 Remaining limits: No general autonomous engineering, completed real-world mission or independently validated design; stacked PR #6 depends on #5 release and exact-source tests.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

@@ -2,7 +2,7 @@
 
 TA-IP-093 | Reference name: Celine
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -45,7 +45,7 @@ Offline vehicle evidence software extended with tenant/API quotas, an internal b
 
 Offered first-party scope: Specifically agreed first-party 0.5.6.dev0 / merged offline milestones through PR29 source, documentation and retained evidence: Offline vehicle evidence software extended with tenant/API quotas, an internal browser portal, synthetic signed billing events and a Stripe-format offline event inbox. No live payments, public SaaS, OEM commercial redistribution grant, physical fitment proof or production vehicle actuation. Offline signatures do not prove real payment.
 
-Development: Open, unmerged development: SaaS: offline-only Stripe inbox read-only metadata preflight. Not a released product or an automatic expansion of priced scope.
+Development: Open, unmerged development: SaaS: offline-only Stripe inbox read-only metadata preflight This is outside the offered main-source budget.
 
 ## Conditions before handover
 
@@ -70,28 +70,28 @@ Development: Open, unmerged development: SaaS: offline-only Stripe inbox read-on
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 131,000 | 146,903 |
-| Negotiation reference - low | 104,800 | 117,523 |
-| Negotiation reference - high | 163,750 | 183,629 |
-| Recreation cost estimate | 1,070,500 | 1,200,459 |
-| Marketability cost scenario | 941,772 | 1,056,103 |
-| Monetisation cost scenario | 921,299 | 1,033,145 |
-| Risk-adjusted strategic reference | 789,630 | 885,491 |
-| Weighted economic reference | 916,610 | 1,027,886 |
+| Seller asking reference | 131,000 | 143,681 |
+| Negotiation reference - low | 104,800 | 114,945 |
+| Negotiation reference - high | 163,750 | 179,601 |
+| Recreation cost estimate | 1,070,500 | 1,174,124 |
+| Marketability cost scenario | 941,772 | 1,032,936 |
+| Monetisation cost scenario | 921,299 | 1,010,481 |
+| Risk-adjusted strategic reference | 789,630 | 866,066 |
+| Weighted economic reference | 916,610 | 1,005,338 |
 
 Earlier recreation anchor retained once; its prior coverage and uncertainty remain. Added only the individually described implementation work. 192 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 20,500 adopted recreation increment and EUR 6,000 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
 
-Coverage describes stated seller estimates only. All recreation amounts have an explicit scoped budget; effort remains an assumption.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-The main merge records independent master Colab PR01–29 acceptance at 92/92, with the executed code tree reconciled to documentation changes. PR30 metadata preflight remains an unmerged candidate.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. The main merge records independent master Colab PR01–29 acceptance at 92/92, with the executed code tree reconciled to documentation changes. PR30 metadata preflight remains an unmerged candidate.
 
 Remaining limits: No live payments, public SaaS, OEM commercial redistribution grant, physical fitment proof or production vehicle actuation. Offline signatures do not prove real payment.
 
-Price decision: Earlier recreation anchor retained once; its prior coverage and uncertainty remain. Added only the individually described implementation work. 192 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 20,500 adopted recreation increment and EUR 6,000 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

@@ -2,7 +2,7 @@
 
 TA-IP-073 | Reference name: Skye
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -66,28 +66,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 800,000 | 897,120 |
-| Negotiation reference - low | 640,000 | 717,696 |
-| Negotiation reference - high | 1,000,000 | 1,121,400 |
-| Recreation cost estimate | 3,500,000 | 3,924,900 |
-| Marketability cost scenario | 5,775,000 | 6,476,085 |
-| Monetisation cost scenario | 5,950,000 | 6,672,330 |
-| Risk-adjusted strategic reference | 9,303,308 | 10,432,730 |
-| Weighted economic reference | 6,476,158 | 7,262,364 |
+| Seller asking reference | 800,000 | 877,440 |
+| Negotiation reference - low | 640,000 | 701,952 |
+| Negotiation reference - high | 1,000,000 | 1,096,800 |
+| Recreation cost estimate | 3,500,000 | 3,838,800 |
+| Marketability cost scenario | 5,775,000 | 6,334,020 |
+| Monetisation cost scenario | 5,950,000 | 6,525,960 |
+| Risk-adjusted strategic reference | 9,303,308 | 10,203,868 |
+| Weighted economic reference | 6,476,158 | 7,103,050 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-README reports historical 150 software tests, whole-source snapshot checking, release-seal/handoff and offline bundle verification; no new physical evidence.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. README reports historical 150 software tests, whole-source snapshot checking, release-seal/handoff and offline bundle verification; no new physical evidence.
 
 Remaining limits: Real wearable camera/IMU calibration, production models, external sensor-to-photon timing and certified field performance have not been demonstrated.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

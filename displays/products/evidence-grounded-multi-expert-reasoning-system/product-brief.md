@@ -2,7 +2,7 @@
 
 TA-IP-053 | Reference name: Eleanor
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -48,7 +48,7 @@ Evidence-grounded multi-expert reasoning software with matched baselines, contro
 
 Offered first-party scope: Specifically agreed first-party implementation and documentation for 2.1.0 / engineering release. Previously priced routing, grounding, evaluation, canonical fingerprints and custody foundations are reused once. Added governed capability/baseline, controlled-study and cross-model replication software is included. Real model-provider runs, H1–H7 scientific success, model or human superiority, empirical data ownership and later development phases are excluded.
 
-Development: Open, unmerged development: Research v2.1 — Real-model H1–H7 execution preparation (scientific NOT_MET). Not a released product or an automatic expansion of priced scope.
+Development: Open, unmerged development: Research v2.1 — Real-model H1–H7 execution preparation (scientific NOT_MET) This is outside the offered main-source budget.
 
 ## Conditions before handover
 
@@ -69,28 +69,28 @@ Development: Open, unmerged development: Research v2.1 — Real-model H1–H7 ex
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 519,000 | 582,007 |
-| Negotiation reference - low | 415,500 | 465,942 |
-| Negotiation reference - high | 649,000 | 727,789 |
-| Recreation cost estimate | 1,869,000 | 2,095,897 |
-| Marketability cost scenario | 2,364,285 | 2,651,309 |
-| Monetisation cost scenario | 2,901,623 | 3,253,880 |
-| Risk-adjusted strategic reference | 2,385,413 | 2,675,002 |
-| Weighted economic reference | 2,355,326 | 2,641,263 |
+| Seller asking reference | 519,000 | 569,239 |
+| Negotiation reference - low | 415,500 | 455,720 |
+| Negotiation reference - high | 649,000 | 711,823 |
+| Recreation cost estimate | 1,869,000 | 2,049,919 |
+| Marketability cost scenario | 2,364,285 | 2,593,148 |
+| Monetisation cost scenario | 2,901,623 | 3,182,500 |
+| Risk-adjusted strategic reference | 2,385,413 | 2,616,321 |
+| Weighted economic reference | 2,355,326 | 2,583,322 |
 
 The retained expressly priced scope and successive non-overlapping budgets reconcile below. Equivalent effort and historical anchors are seller assumptions, not actual expenditure, independent quotations or market value. Previously priced routing, grounding, evaluation, canonical fingerprints and custody foundations are reused once. Added governed capability/baseline, controlled-study and cross-model replication software is included. Real model-provider runs, H1–H7 scientific success, model or human superiority, empirical data ownership and later development phases are excluded.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-README reports v2.0 281/281 tests and 22/22 stages; PR #27 scientific real-model H1–H7 inputs and preflight remain unmerged, H1–H7 NOT_MET.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. README reports v2.0 281/281 tests and 22/22 stages; PR #27 scientific real-model H1–H7 inputs and preflight remain unmerged, H1–H7 NOT_MET.
 
 Remaining limits: No measured real-model/human superiority, causal expert benefit or scientific H1–H7 success; draft model-execution carrier is not actual experimental evidence.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

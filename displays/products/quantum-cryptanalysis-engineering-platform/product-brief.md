@@ -2,7 +2,7 @@
 
 TA-IP-042 | Reference name: Hypatia
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -67,28 +67,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 152,000 | 170,453 |
-| Negotiation reference - low | 121,500 | 136,250 |
-| Negotiation reference - high | 192,500 | 215,870 |
-| Recreation cost estimate | 710,000 | 796,194 |
-| Marketability cost scenario | 543,150 | 609,088 |
-| Monetisation cost scenario | 543,150 | 609,088 |
-| Risk-adjusted strategic reference | 324,072 | 363,414 |
-| Weighted economic reference | 508,185 | 569,879 |
+| Seller asking reference | 152,000 | 166,714 |
+| Negotiation reference - low | 121,500 | 133,261 |
+| Negotiation reference - high | 192,500 | 211,134 |
+| Recreation cost estimate | 710,000 | 778,728 |
+| Marketability cost scenario | 543,150 | 595,727 |
+| Monetisation cost scenario | 543,150 | 595,727 |
+| Risk-adjusted strategic reference | 324,072 | 355,442 |
+| Weighted economic reference | 508,185 | 557,377 |
 
 Recreation estimate: EUR 700,000 retained scope component plus EUR 10,000 for the explicitly scoped implementation work budget, giving EUR 710,000. The scoped budget assumes 96 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source committed validation JSON records 263 local passing tests, zero failed, wheel install and ZIP integrity; GitHub Actions and remote-host test absent.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source committed validation JSON records 263 local passing tests, zero failed, wheel install and ZIP integrity; GitHub Actions and remote-host test absent.
 
 Remaining limits: No demonstrated quantum cryptanalytic break of modern cryptography, no calibrated real quantum hardware performance; ECDLP/secp256k1 modules absent.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

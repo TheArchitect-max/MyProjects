@@ -2,7 +2,7 @@
 
 TA-IP-065 | Reference name: Clio
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -66,28 +66,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 295,000 | 330,813 |
-| Negotiation reference - low | 237,000 | 265,772 |
-| Negotiation reference - high | 369,000 | 413,797 |
-| Recreation cost estimate | 1,195,000 | 1,340,073 |
-| Marketability cost scenario | 1,442,963 | 1,618,139 |
-| Monetisation cost scenario | 1,774,575 | 1,990,008 |
-| Risk-adjusted strategic reference | 1,455,857 | 1,632,598 |
-| Weighted economic reference | 1,451,808 | 1,628,057 |
+| Seller asking reference | 295,000 | 323,556 |
+| Negotiation reference - low | 237,000 | 259,942 |
+| Negotiation reference - high | 369,000 | 404,719 |
+| Recreation cost estimate | 1,195,000 | 1,310,676 |
+| Marketability cost scenario | 1,442,963 | 1,582,642 |
+| Monetisation cost scenario | 1,774,575 | 1,946,354 |
+| Risk-adjusted strategic reference | 1,455,857 | 1,596,784 |
+| Weighted economic reference | 1,451,808 | 1,592,343 |
 
 Some dated work-package assumptions are disclosed, but they do not reconstruct the complete retained recreation anchor. A complete scope-specific budget is required.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-README describes case governance, append-only audit, recoverable transaction journals, integrity hashing and disclosure/disposition controls. No new runtime tests were rerun in this portfolio review.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. README describes case governance, append-only audit, recoverable transaction journals, integrity hashing and disclosure/disposition controls. No new runtime tests were rerun in this portfolio review.
 
 Remaining limits: A source hash is neither authorship nor truth; 2026-09-22 sector-code baseline expired, current legal reference and lawful evidence intake not externally verified. No admissibility or investigation-outcome proof.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

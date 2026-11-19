@@ -2,7 +2,7 @@
 
 TA-IP-011 | Reference name: Dorothy
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -70,28 +70,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 282,000 | 316,235 |
-| Negotiation reference - low | 226,500 | 253,997 |
-| Negotiation reference - high | 352,500 | 395,294 |
-| Recreation cost estimate | 856,500 | 960,479 |
-| Marketability cost scenario | 1,083,473 | 1,215,007 |
-| Monetisation cost scenario | 1,329,716 | 1,491,144 |
-| Risk-adjusted strategic reference | 1,093,155 | 1,225,864 |
-| Weighted economic reference | 1,079,367 | 1,210,402 |
+| Seller asking reference | 282,000 | 309,298 |
+| Negotiation reference - low | 226,500 | 248,425 |
+| Negotiation reference - high | 352,500 | 386,622 |
+| Recreation cost estimate | 856,500 | 939,409 |
+| Marketability cost scenario | 1,083,473 | 1,188,353 |
+| Monetisation cost scenario | 1,329,716 | 1,458,433 |
+| Risk-adjusted strategic reference | 1,093,155 | 1,198,972 |
+| Weighted economic reference | 1,079,367 | 1,183,850 |
 
 Recreation estimate: EUR 850,000 retained scope component plus EUR 6,500 for the explicitly scoped implementation work budget, giving EUR 856,500. The scoped budget assumes 64 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source documents identifier-first event schema, transactional outbox, heartbeat diagnostics and policy-limited source packets; previous PR #3 includes a live Docker E2E gate. No newly run tests here.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source documents identifier-first event schema, transactional outbox, heartbeat diagnostics and policy-limited source packets; previous PR #3 includes a live Docker E2E gate. No newly run tests here.
 
 Remaining limits: A documented Docker E2E path is not independently certified production hosting; provider calls, storage, secure operations, external licenses and scaling require verification.
 
-Price decision: Research Intelligence Fabric 4.4.0 documents a PostgreSQL transactional outbox, RabbitMQ workers, authenticated human review, guarded dual-source synthesis and a separate live Docker qualification runner. A configured runner is not proof that the exact current multi-service stack passed with authorized live provider credentials. The EUR 282,000 dated ask is distinct from an older EUR 280,000 source dossier; EUR 856,500 recreation includes an EUR 850,000 unbroken-down seller anchor plus EUR 6,500 scoped work. No independent hosted reliability or current market value is established.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

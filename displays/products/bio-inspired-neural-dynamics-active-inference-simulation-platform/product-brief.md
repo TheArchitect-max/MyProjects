@@ -2,15 +2,15 @@
 
 TA-IP-077 | Reference name: Iona
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
-Developed neural-research software for finite synthetic qualification comparisons and bounded, data-free external benchmark entry checks.
+Corrects published DANDI metadata parsing and exact source-identity checks in the computational-neuroscience source-admission workflow.
 
-Identified edition: 2.9.15 / qualified CPU software scope
+Identified edition: 2.9.16 / bounded CPU research software
 
-Developed neural-research software for finite synthetic qualification comparisons and bounded, data-free external benchmark entry checks.
+Corrects published DANDI metadata parsing and exact source-identity checks in the computational-neuroscience source-admission workflow.
 
 ## Potential acquirers
 
@@ -20,11 +20,11 @@ Developed neural-research software for finite synthetic qualification comparison
 
 ## Documented functions
 
-- Compose source-locked synthetic neural studies
-- Compare bounded measurement and observation qualifications
-- Preserve indistinguishable model alternatives
 - Check declared source, rights, split and protocol conditions
 - Verify bounded local payload integrity without dataset admission
+- Publisher metadata schema and identity reconciliation
+- Failure-path and recorded-response regression
+- Evidence and source-acceptance reconciliation
 
 ## Output types
 
@@ -34,33 +34,29 @@ Developed neural-research software for finite synthetic qualification comparison
 
 ## Material scope boundaries
 
-- Retained qualification applies to its identified source and environment. Full replay in a different local environment still has unresolved numerical discrepancies; recipient-environment acceptance remains open.
-- Cross-qualification results are finite synthetic comparisons. Data-free source-entry checks assess declarations and local integrity; they do not admit a real dataset or establish source authenticity or legal clearance.
-- External scientific benchmarking remains closed. No unique biological mechanism, EEG/BCI validity, causal or clinical finding, AGI or production readiness is established.
+- Metadata identity is not admission of an authentic neural dataset or biological validation. Complete asset inventory is a separate open development proposal; clinical and production qualification remain open.
 
 ## Acquisition evidence profile
 
-- Technical scope: V — Developed neural-research software for finite synthetic qualification comparisons and bounded, data-free external benchmark entry checks. The offered edition and material boundaries govern review.
+- Technical scope: V — Corrects published DANDI metadata parsing and exact source-identity checks in the computational-neuroscience source-admission workflow. Metadata identity is not admission of an authentic neural dataset or biological validation. Complete asset inventory is a separate open development proposal; clinical and production qualification remain open.
 - Evidence and validation: E2 — Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
 - Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
-Offered first-party scope: Specifically agreed first-party implementation and documentation for 2.9.15 / qualified CPU software scope. Previously priced neural runtime, synthetic studies and scenario availability, erasure and recovery foundations are reused once. Only the added cross-qualification audit and data-free benchmark-entry software are included. Real dataset admission, scientific or clinical findings, universal numerical portability, external data rights and future phases are excluded.
+Offered first-party scope: Existing first-party main-source work: Corrects published DANDI metadata parsing and exact source-identity checks in the computational-neuroscience source-admission workflow. Metadata identity is not admission of an authentic neural dataset or biological validation. Complete asset inventory is a separate open development proposal; clinical and production qualification remain open.
 
-Development: Open, unmerged development: BIND-AI v2.9.16 / P3q r2 — correct DANDI metadata and source identity. Not a released product or an automatic expansion of priced scope.
+Development: Open, unmerged development: BIND-AI v2.9.17 / P3r — complete published DANDI asset inventory This is outside the offered main-source budget.
 
 ## Conditions before handover
 
+- Metadata identity is not admission of an authentic neural dataset or biological validation. Complete asset inventory is a separate open development proposal; clinical and production qualification remain open.
 - Freeze the exact source edition, agreed first-party work, rights and exclusions.
 - Resolve exact numerical replay and full downstream qualification in the recipient environment without weakening retained checks.
-- Review source-specific reproducibility, component and security evidence under agreed confidentiality.
-- Complete intended-use and recipient-environment acceptance before relying on the identified outputs.
 
 ## Qualification objectives
 
-- Agree a source-specific delivery edition and evaluate the documented functions against your intended use.
-- Close the listed technical, rights and handover conditions before recipient acceptance.
+- Metadata identity is not admission of an authentic neural dataset or biological validation. Complete asset inventory is a separate open development proposal; clinical and production qualification remain open.
 - Independent legal ownership/title opinion not performed by this internal audit.
 - Freedom-to-operate legal opinion not performed unless separately evidenced.
 - Independent penetration test not assumed unless separately evidenced.
@@ -69,28 +65,28 @@ Development: Open, unmerged development: BIND-AI v2.9.16 / P3q r2 — correct DA
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 964,000 | 1,081,030 |
-| Negotiation reference - low | 770,500 | 864,039 |
-| Negotiation reference - high | 1,207,500 | 1,354,091 |
-| Recreation cost estimate | 3,436,500 | 3,853,691 |
-| Marketability cost scenario | 3,359,179 | 3,766,983 |
-| Monetisation cost scenario | 3,943,384 | 4,422,111 |
-| Risk-adjusted strategic reference | 3,389,197 | 3,800,646 |
-| Weighted economic reference | 3,505,857 | 3,931,468 |
+| Seller asking reference | 965,500 | 1,058,960 |
+| Negotiation reference - low | 772,400 | 847,168 |
+| Negotiation reference - high | 1,206,875 | 1,323,701 |
+| Recreation cost estimate | 3,442,500 | 3,775,734 |
+| Marketability cost scenario | 3,365,044 | 3,690,780 |
+| Monetisation cost scenario | 3,950,269 | 4,332,655 |
+| Risk-adjusted strategic reference | 3,395,114 | 3,723,761 |
+| Weighted economic reference | 3,511,978 | 3,851,937 |
 
-The retained priced scope and successive non-overlapping budgets reconcile below. Equivalent effort and historical anchors are seller assumptions, not actual expenditure, independent quotations or market value. Previously priced neural runtime, synthetic studies and scenario availability, erasure and recovery foundations are reused once. Only the added cross-qualification audit and data-free benchmark-entry software are included. Real dataset admission, scientific or clinical findings, universal numerical portability, external data rights and future phases are excluded.
+Non-overlapping implemented main-source increment: 56 assumed hours at EUR 94/hour, 15% allowance, EUR 6,000 adopted recreation increment and EUR 1,500 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project. Earlier priced work is counted once; its legacy uncertainty remains.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Pinned v2.9.15 Colab CPU report documents 923/923 tests and 18 focused PASS with 476 source paths reconciled; v2.9.16 r2 PR has focused 38/38 local PASS but full CPU gate FAIL / upstream Torch setup issue.
+Current main README, full Git inventory and comparison with the prior reviewed main identify this implemented change: Corrects published DANDI metadata parsing and exact source-identity checks in the computational-neuroscience source-admission workflow. Retained acceptance is source-reported and remains bound to its original source and environment.
 
-Remaining limits: No real DANDI full source dataset admission, licensed biological empirical inference, clinical validation or P4 entry; v2.9.16 unmerged and full candidate tests not passing.
+Remaining limits: Metadata identity is not admission of an authentic neural dataset or biological validation. Complete asset inventory is a separate open development proposal; clinical and production qualification remain open.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: Non-overlapping implemented main-source increment: 56 assumed hours at EUR 94/hour, 15% allowance, EUR 6,000 adopted recreation increment and EUR 1,500 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

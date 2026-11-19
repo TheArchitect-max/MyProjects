@@ -2,7 +2,7 @@
 
 TA-IP-008 | Reference name: Florence
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -68,28 +68,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 300,000 | 336,420 |
-| Negotiation reference - low | 239,000 | 268,015 |
-| Negotiation reference - high | 378,000 | 423,889 |
-| Recreation cost estimate | 1,000,000 | 1,121,400 |
-| Marketability cost scenario | 1,265,000 | 1,418,571 |
-| Monetisation cost scenario | 1,485,000 | 1,665,279 |
-| Risk-adjusted strategic reference | 1,276,304 | 1,431,247 |
-| Weighted economic reference | 1,246,706 | 1,398,056 |
+| Seller asking reference | 300,000 | 329,040 |
+| Negotiation reference - low | 239,000 | 262,135 |
+| Negotiation reference - high | 378,000 | 414,590 |
+| Recreation cost estimate | 1,000,000 | 1,096,800 |
+| Marketability cost scenario | 1,265,000 | 1,387,452 |
+| Monetisation cost scenario | 1,485,000 | 1,628,748 |
+| Risk-adjusted strategic reference | 1,276,304 | 1,399,850 |
+| Weighted economic reference | 1,246,706 | 1,367,387 |
 
 The recreation anchor combines an identified base with separately scoped implementation work. The base remains a seller assumption; the scoped component has a role/work-package reproduction budget. Each component is counted once.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source describes authenticated bearer/JWT-scoped project assessment capture, immutable SHA-tagged records and versioned export; repo-wide exact-source runtime execution not reproduced.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source describes authenticated bearer/JWT-scoped project assessment capture, immutable SHA-tagged records and versioned export; repo-wide exact-source runtime execution not reproduced.
 
 Remaining limits: Actual botany/agronomy accuracy, complete weather provenance, legal data rights and regulatory field decision acceptance are not independently qualified.
 
-Price decision: PEDIP main includes versioned projects, retained evidence, comparison and Go dependency checksums (go.sum). Earlier native PostgreSQL receipts do not qualify the latest comparison route. EUR 300,000 is a dated seller reference following an older EUR 270,000 source dossier with a partial EUR 100,000 scoped reproduction budget. SBOM, rights, field-data and deployment gates remain open.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

@@ -2,7 +2,7 @@
 
 TA-IP-049 | Reference name: Alina
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -69,28 +69,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 206,000 | 231,008 |
-| Negotiation reference - low | 164,500 | 184,470 |
-| Negotiation reference - high | 257,000 | 288,200 |
-| Recreation cost estimate | 977,500 | 1,096,169 |
-| Marketability cost scenario | 1,308,628 | 1,467,495 |
-| Monetisation cost scenario | 1,686,187 | 1,890,890 |
-| Risk-adjusted strategic reference | 1,751,926 | 1,964,610 |
-| Weighted economic reference | 1,456,512 | 1,633,333 |
+| Seller asking reference | 206,000 | 225,941 |
+| Negotiation reference - low | 164,500 | 180,424 |
+| Negotiation reference - high | 257,000 | 281,878 |
+| Recreation cost estimate | 977,500 | 1,072,122 |
+| Marketability cost scenario | 1,308,628 | 1,435,303 |
+| Monetisation cost scenario | 1,686,187 | 1,849,410 |
+| Risk-adjusted strategic reference | 1,751,926 | 1,921,512 |
+| Weighted economic reference | 1,456,512 | 1,597,502 |
 
 The retained expressly priced scope and successive non-overlapping implementation budgets reconcile below. Equivalent effort and historical anchors remain seller assumptions; actual expenditure, independent quotations and market value are not established. The previously priced acquisition, graph, entity, evidence and defensive-control foundations are reused once. Third-party source entitlements, real shared persistence/queue deployment, production multi-node acceptance and legal/operational certification are excluded.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source README describes authorized exact-host network collection, durable leases/attempt fencing, retry and noninvasive challenge handling; execution logs not re-run at the assessed commit.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source README describes authorized exact-host network collection, durable leases/attempt fencing, retry and noninvasive challenge handling; execution logs not re-run at the assessed commit.
 
 Remaining limits: A committed test harness is not PASS; no license for unrelated online sources or circumvention of challenges; original first-party title and third-party access rights require due diligence.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

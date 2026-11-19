@@ -2,7 +2,7 @@
 
 TA-IP-026 | Reference name: Mara
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -66,28 +66,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 800,000 | 897,120 |
-| Negotiation reference - low | 640,000 | 717,696 |
-| Negotiation reference - high | 1,000,000 | 1,121,400 |
-| Recreation cost estimate | 3,000,000 | 3,364,200 |
-| Marketability cost scenario | 3,795,000 | 4,255,713 |
-| Monetisation cost scenario | 4,657,500 | 5,222,921 |
-| Risk-adjusted strategic reference | 3,828,913 | 4,293,743 |
-| Weighted economic reference | 3,780,620 | 4,239,587 |
+| Seller asking reference | 800,000 | 877,440 |
+| Negotiation reference - low | 640,000 | 701,952 |
+| Negotiation reference - high | 1,000,000 | 1,096,800 |
+| Recreation cost estimate | 3,000,000 | 3,290,400 |
+| Marketability cost scenario | 3,795,000 | 4,162,356 |
+| Monetisation cost scenario | 4,657,500 | 5,108,346 |
+| Risk-adjusted strategic reference | 3,828,913 | 4,199,552 |
+| Weighted economic reference | 3,780,620 | 4,146,584 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Historical V3.9–V4.5 45 technical gates recorded with 392 forward observations against older 500 threshold; current source requires 50,000 serious forward observations and fresh exact HEAD.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Historical V3.9–V4.5 45 technical gates recorded with 392 forward observations against older 500 threshold; current source requires 50,000 serious forward observations and fresh exact HEAD.
 
 Remaining limits: Forward economic OOS sample insufficient; no verified positive post-cost alpha or promoted live strategy; NO_TRADE remains. Future profit not guaranteed.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

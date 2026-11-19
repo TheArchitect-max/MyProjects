@@ -2,7 +2,7 @@
 
 TA-IP-028 | Reference name: Mia
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -46,7 +46,7 @@ An implemented release candidate is available on a development branch; productio
 
 Offered first-party scope: Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
 
-Development: Open, unmerged development: Build Resource-Aware Hybrid Model Orchestration Platform through 0.1.7rc26. Not a released product or an automatic expansion of priced scope.
+Development: Open, unmerged development: Build Resource-Aware Hybrid Model Orchestration Platform through 0.1.7rc26 This is outside the offered main-source budget.
 
 ## Conditions before handover
 
@@ -69,28 +69,28 @@ Development: Open, unmerged development: Build Resource-Aware Hybrid Model Orche
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 20,000 | 22,428 |
-| Negotiation reference - low | 15,000 | 16,821 |
-| Negotiation reference - high | 25,000 | 28,035 |
-| Recreation cost estimate | 250,000 | 280,350 |
-| Marketability cost scenario | 268,813 | 301,447 |
-| Monetisation cost scenario | 291,094 | 326,433 |
-| Risk-adjusted strategic reference | 225,386 | 252,748 |
-| Weighted economic reference | 253,367 | 284,126 |
+| Seller asking reference | 20,000 | 21,936 |
+| Negotiation reference - low | 15,000 | 16,452 |
+| Negotiation reference - high | 25,000 | 27,420 |
+| Recreation cost estimate | 250,000 | 274,200 |
+| Marketability cost scenario | 268,813 | 294,834 |
+| Monetisation cost scenario | 291,094 | 319,272 |
+| Risk-adjusted strategic reference | 225,386 | 247,203 |
+| Weighted economic reference | 253,367 | 277,893 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-PR #1 documents deterministic secret-free provider profile, posture-stage checks and readiness recomputation; unmerged draft scope is not accepted as released.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. PR #1 documents deterministic secret-free provider profile, posture-stage checks and readiness recomputation; unmerged draft scope is not accepted as released.
 
 Remaining limits: No independent end-to-end GGUF/model-quality, RAM/latency or provider billing acceptance; RC26 not merged.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

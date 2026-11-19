@@ -2,7 +2,7 @@
 
 TA-IP-012 | Reference name: Helena
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -70,28 +70,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 354,500 | 397,536 |
-| Negotiation reference - low | 283,500 | 317,917 |
-| Negotiation reference - high | 445,500 | 499,584 |
-| Recreation cost estimate | 1,165,000 | 1,306,431 |
-| Marketability cost scenario | 1,922,250 | 2,155,611 |
-| Monetisation cost scenario | 2,563,000 | 2,874,148 |
-| Risk-adjusted strategic reference | 3,096,673 | 3,472,609 |
-| Weighted economic reference | 2,272,136 | 2,547,973 |
+| Seller asking reference | 354,500 | 388,816 |
+| Negotiation reference - low | 283,500 | 310,943 |
+| Negotiation reference - high | 445,500 | 488,624 |
+| Recreation cost estimate | 1,165,000 | 1,277,772 |
+| Marketability cost scenario | 1,922,250 | 2,108,324 |
+| Monetisation cost scenario | 2,563,000 | 2,811,098 |
+| Risk-adjusted strategic reference | 3,096,673 | 3,396,431 |
+| Weighted economic reference | 2,272,136 | 2,492,079 |
 
 The recreation anchor combines an identified base with separately scoped implementation work. The base remains a seller assumption; the scoped component has a role/work-package reproduction budget. Each component is counted once.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-README documents provider evidence, quorum/independence-domain handling, release packaging and ≥85% core coverage gate; no independent fresh test run or licensed model deployment confirmed.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. README documents provider evidence, quorum/independence-domain handling, release packaging and ≥85% core coverage gate; no independent fresh test run or licensed model deployment confirmed.
 
 Remaining limits: Provider diversity is not real independence by itself; self-attested runtime HMAC is not TPM/TEE attestation; scientific truth/production security unverified.
 
-Price decision: AEGIS Vision 2.9.0 implements evidence-governed image analysis, model provenance, dataset and benchmark governance, deterministic release readiness and observation-driven requalification. Its 16 October 2026 internal verification report records 130 passing tests and 90.88% measured core coverage against an 85% floor; this is internal evidence, not an independent v2.9 release re-run. External CUDA PASS remains bound to v2.3.3. It does not validate provider-managed weights, representative visual accuracy, always-on monitoring or production approval. EUR 354,500 is a dated seller ask; EUR 1,165,000 reproduction estimate includes an EUR 15,000 scoped increment on a legacy EUR 1,150,000 base.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

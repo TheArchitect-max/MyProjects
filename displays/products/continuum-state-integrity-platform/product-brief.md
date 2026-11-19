@@ -2,7 +2,7 @@
 
 TA-IP-004 | Reference name: Elena
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -66,28 +66,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 176,500 | 197,927 |
-| Negotiation reference - low | 141,200 | 158,342 |
-| Negotiation reference - high | 220,625 | 247,409 |
-| Recreation cost estimate | 806,500 | 904,409 |
-| Marketability cost scenario | 762,143 | 854,667 |
-| Monetisation cost scenario | 616,973 | 691,874 |
-| Risk-adjusted strategic reference | 454,734 | 509,939 |
-| Weighted economic reference | 636,605 | 713,889 |
+| Seller asking reference | 176,500 | 193,585 |
+| Negotiation reference - low | 141,200 | 154,868 |
+| Negotiation reference - high | 220,625 | 241,982 |
+| Recreation cost estimate | 806,500 | 884,569 |
+| Marketability cost scenario | 762,143 | 835,918 |
+| Monetisation cost scenario | 616,973 | 676,696 |
+| Risk-adjusted strategic reference | 454,734 | 498,752 |
+| Weighted economic reference | 636,605 | 698,228 |
 
 Earlier recreation anchor retained once; its prior coverage and uncertainty remain. Added only the individually described implementation work. 64 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 6,500 adopted recreation increment and EUR 1,500 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source reports 86 regression tests for the committed recovery/provenance edition.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source reports 86 regression tests for the committed recovery/provenance edition.
 
 Remaining limits: Intended-use recovery, security, rights and recipient acceptance remain separate.
 
-Price decision: Earlier recreation anchor retained once; its prior coverage and uncertainty remain. Added only the individually described implementation work. 64 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 6,500 adopted recreation increment and EUR 1,500 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

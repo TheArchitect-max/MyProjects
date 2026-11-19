@@ -2,7 +2,7 @@
 
 TA-IP-025 | Reference name: Artemis
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -46,7 +46,7 @@ The v1.8.0 software provides a coordinated single-writer runtime, fencing and id
 
 Offered first-party scope: Present first-party v1.8.0 software. The separate v1.8.1 hardening PR is unmerged and excluded from the v1.8.0 cost scope. Domain calibration, physical sensor accuracy and production acceptance remain open.
 
-Development: Open, unmerged development: v1.8.1 — full-repository hardening candidate + finite JSON bounds. Not a released product or an automatic expansion of priced scope.
+Development: Open, unmerged development: v1.8.1 — full-repository hardening candidate + finite JSON bounds This is outside the offered main-source budget.
 
 ## Conditions before handover
 
@@ -64,28 +64,28 @@ Development: Open, unmerged development: v1.8.1 — full-repository hardening ca
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 240,000 | 269,136 |
-| Negotiation reference - low | 194,000 | 217,552 |
-| Negotiation reference - high | 301,500 | 338,102 |
-| Recreation cost estimate | 797,000 | 893,756 |
-| Marketability cost scenario | 962,377 | 1,079,210 |
-| Monetisation cost scenario | 1,183,545 | 1,327,227 |
-| Risk-adjusted strategic reference | 970,977 | 1,088,854 |
-| Weighted economic reference | 968,276 | 1,085,825 |
+| Seller asking reference | 240,000 | 263,232 |
+| Negotiation reference - low | 194,000 | 212,779 |
+| Negotiation reference - high | 301,500 | 330,685 |
+| Recreation cost estimate | 797,000 | 874,150 |
+| Marketability cost scenario | 962,377 | 1,055,535 |
+| Monetisation cost scenario | 1,183,545 | 1,298,112 |
+| Risk-adjusted strategic reference | 970,977 | 1,064,968 |
+| Weighted economic reference | 968,276 | 1,062,005 |
 
 The EUR 797,000 recreation estimate consists of a EUR 780,000 base and a EUR 17,000 scoped implementation budget. The seller asking reference is EUR 240,000. Effort is estimated, not logged time or actual expenditure. Market value is not established.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source documents deterministic channel source attribution, stream snapshots, fencing and human-supervised reference decisions; PR #11 exact-source full suite NOT_RUN.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source documents deterministic channel source attribution, stream snapshots, fencing and human-supervised reference decisions; PR #11 exact-source full suite NOT_RUN.
 
 Remaining limits: No production safety, calibrated RUL or live multi-source clock synchronization; no automatic actuation; v1.8.1 remains unmerged.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

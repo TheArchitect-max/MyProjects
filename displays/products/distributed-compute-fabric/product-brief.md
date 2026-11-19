@@ -2,7 +2,7 @@
 
 TA-IP-082 | Reference name: Ingrid
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -65,28 +65,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 229,000 | 256,801 |
-| Negotiation reference - low | 182,000 | 204,095 |
-| Negotiation reference - high | 286,500 | 321,281 |
-| Recreation cost estimate | 1,250,000 | 1,401,750 |
-| Marketability cost scenario | 1,753,125 | 1,965,954 |
-| Monetisation cost scenario | 2,156,250 | 2,418,019 |
-| Risk-adjusted strategic reference | 2,346,996 | 2,631,921 |
-| Weighted economic reference | 1,915,824 | 2,148,405 |
+| Seller asking reference | 229,000 | 251,167 |
+| Negotiation reference - low | 182,000 | 199,618 |
+| Negotiation reference - high | 286,500 | 314,233 |
+| Recreation cost estimate | 1,250,000 | 1,371,000 |
+| Marketability cost scenario | 1,753,125 | 1,922,828 |
+| Monetisation cost scenario | 2,156,250 | 2,364,975 |
+| Risk-adjusted strategic reference | 2,346,996 | 2,574,185 |
+| Weighted economic reference | 1,915,824 | 2,101,276 |
 
 The recreation anchor combines an identified base with separately scoped implementation work. The base remains a seller assumption; the scoped component has a role/work-package reproduction budget. Each component is counted once.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Retained v0.11 report describes 212/212 isolated reconstructed-source tests on Linux Python 3.13.5, not a fresh Git checkout. Outbound worker command admission and fencing are bounded.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Retained v0.11 report describes 212/212 isolated reconstructed-source tests on Linux Python 3.13.5, not a fresh Git checkout. Outbound worker command admission and fencing are bounded.
 
 Remaining limits: No non-loopback hosting, internet-grade certificate rotation, GPU remote workload pooling, hostile-code sandbox or production network/cloud qualification.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

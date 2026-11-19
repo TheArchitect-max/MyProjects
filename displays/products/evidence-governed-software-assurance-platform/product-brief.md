@@ -2,15 +2,15 @@
 
 TA-IP-039 | Reference name: Grace
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
-A software-assurance asset for controlled component discovery and qualification.
+Adds live-qualification evidence admission, export and command-line workflows to the software-assurance control plane.
 
-Identified edition: 40.0.0
+Identified edition: 41.0.0
 
-Available software for evaluation against your intended use. Deployment suitability is assessed separately.
+Adds live-qualification evidence admission, export and command-line workflows to the software-assurance control plane.
 
 ## Potential acquirers
 
@@ -20,11 +20,11 @@ Available software for evaluation against your intended use. Deployment suitabil
 
 ## Documented functions
 
-- Discover candidate components
-- Review capability and rights evidence
-- Compare benchmark records
 - Control qualification decisions
 - Retain governance and recovery histories
+- Live qualification evidence contracts and validation
+- Evidence export and command-line integration
+- Negative controls and release regression
 
 ## Output types
 
@@ -34,31 +34,29 @@ Available software for evaluation against your intended use. Deployment suitabil
 
 ## Material scope boundaries
 
-- Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately.
+- The software can inspect bounded evidence records; independently operated deployment hosts, real external trust identities and a completed multi-role live qualification ceremony remain open.
 
 ## Acquisition evidence profile
 
-- Technical scope: V — A software-assurance asset for controlled component discovery and qualification. The offered edition and material boundaries govern review.
+- Technical scope: V — Adds live-qualification evidence admission, export and command-line workflows to the software-assurance control plane. The software can inspect bounded evidence records; independently operated deployment hosts, real external trust identities and a completed multi-role live qualification ceremony remain open.
 - Evidence and validation: E4 — E3 plus repository-retained independent/external validation evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
 - Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
-Offered first-party scope: Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+Offered first-party scope: Existing first-party main-source work: Adds live-qualification evidence admission, export and command-line workflows to the software-assurance control plane. The software can inspect bounded evidence records; independently operated deployment hosts, real external trust identities and a completed multi-role live qualification ceremony remain open.
 
-Development: Open, unmerged development: v41: live qualification evidence bundle and fail-closed readiness. Not a released product or an automatic expansion of priced scope.
+Development: No separate open candidate at the reviewed snapshot.
 
 ## Conditions before handover
 
+- The software can inspect bounded evidence records; independently operated deployment hosts, real external trust identities and a completed multi-role live qualification ceremony remain open.
 - Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
 - Review confidential security and credential-handling materials within the agreed diligence and transfer scope.
-- A generated, release-specific component inventory and licensing report are required; inventory-generation software is not the completed report.
-- An explicit delivery manifest and buyer handover scope must be agreed; runtime transaction features do not establish acquisition readiness.
 
 ## Qualification objectives
 
-- Agree a source-specific delivery edition and evaluate the documented functions against your intended use.
-- Close the listed technical, rights and handover conditions before recipient acceptance.
+- The software can inspect bounded evidence records; independently operated deployment hosts, real external trust identities and a completed multi-role live qualification ceremony remain open.
 - Independent legal ownership/title opinion not performed by this internal audit.
 - Freedom-to-operate legal opinion not performed unless separately evidenced.
 - Independent penetration test not assumed unless separately evidenced.
@@ -67,28 +65,28 @@ Development: Open, unmerged development: v41: live qualification evidence bundle
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 475,000 | 532,665 |
-| Negotiation reference - low | 380,000 | 426,132 |
-| Negotiation reference - high | 595,000 | 667,233 |
-| Recreation cost estimate | 1,200,000 | 1,345,680 |
-| Marketability cost scenario | 1,890,000 | 2,119,446 |
-| Monetisation cost scenario | 2,760,000 | 3,095,064 |
-| Risk-adjusted strategic reference | 3,044,719 | 3,414,348 |
-| Weighted economic reference | 2,295,652 | 2,574,344 |
+| Seller asking reference | 478,500 | 524,819 |
+| Negotiation reference - low | 382,800 | 419,855 |
+| Negotiation reference - high | 598,125 | 656,024 |
+| Recreation cost estimate | 1,212,500 | 1,329,870 |
+| Marketability cost scenario | 1,909,688 | 2,094,546 |
+| Monetisation cost scenario | 2,788,750 | 3,058,701 |
+| Risk-adjusted strategic reference | 3,076,435 | 3,374,234 |
+| Weighted economic reference | 2,319,565 | 2,544,099 |
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+Non-overlapping implemented main-source increment: 120 assumed hours at EUR 94/hour, 15% allowance, EUR 12,500 adopted recreation increment and EUR 3,500 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project. Earlier priced work is counted once; its legacy uncertainty remains.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-v40 source records 114 focused local checks over candidate adapters; v41 proposed live evidence bundle with 25 repository-native tests not yet accepted.
+Current main README, full Git inventory and comparison with the prior reviewed main identify this implemented change: Adds live-qualification evidence admission, export and command-line workflows to the software-assurance control plane. Retained acceptance is source-reported and remains bound to its original source and environment.
 
-Remaining limits: Provider and signing authority real-live evidence not complete; v41 unmerged and no external production qualification.
+Remaining limits: The software can inspect bounded evidence records; independently operated deployment hosts, real external trust identities and a completed multi-role live qualification ceremony remain open.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: Non-overlapping implemented main-source increment: 120 assumed hours at EUR 94/hour, 15% allowance, EUR 12,500 adopted recreation increment and EUR 3,500 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

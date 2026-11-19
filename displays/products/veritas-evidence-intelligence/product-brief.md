@@ -2,7 +2,7 @@
 
 TA-IP-029 | Reference name: Verity
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -67,28 +67,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 650,000 | 728,910 |
-| Negotiation reference - low | 520,000 | 583,128 |
-| Negotiation reference - high | 815,000 | 913,941 |
-| Recreation cost estimate | 2,000,000 | 2,242,800 |
-| Marketability cost scenario | 3,150,000 | 3,532,410 |
-| Monetisation cost scenario | 4,600,000 | 5,158,440 |
-| Risk-adjusted strategic reference | 5,074,532 | 5,690,580 |
-| Weighted economic reference | 3,826,086 | 4,290,573 |
+| Seller asking reference | 650,000 | 712,920 |
+| Negotiation reference - low | 520,000 | 570,336 |
+| Negotiation reference - high | 815,000 | 893,892 |
+| Recreation cost estimate | 2,000,000 | 2,193,600 |
+| Marketability cost scenario | 3,150,000 | 3,454,920 |
+| Monetisation cost scenario | 4,600,000 | 5,045,280 |
+| Risk-adjusted strategic reference | 5,074,532 | 5,565,747 |
+| Weighted economic reference | 3,826,086 | 4,196,451 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source describes attested lineage, namespace trust, signed receipt/guard and content-addressed publication assurance.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source describes attested lineage, namespace trust, signed receipt/guard and content-addressed publication assurance.
 
 Remaining limits: Signature verification authenticates a key and bytes, not factual truth, legal title or trusted global timestamp; external anchor trust and operational suitability separate.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

@@ -2,7 +2,7 @@
 
 TA-IP-096 | Reference name: Vespera
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -47,7 +47,7 @@ Connected-system modelling, scenario comparison and offline forecasting research
 
 Offered first-party scope: Specifically agreed first-party 0.7.0 foundations and implemented research extensions through Q2-C6, documentation and retained developer evidence. The scope requires an agreed source edition and recipient acceptance.
 
-Development: Open, unmerged development: Q2-C7: bounded evaluator handoff with explicit absent evidence. Not a released product or an automatic expansion of priced scope.
+Development: Open, unmerged development: Q2-C7: bounded evaluator handoff with explicit absent evidence This is outside the offered main-source budget.
 
 ## Conditions before handover
 
@@ -68,28 +68,28 @@ Development: Open, unmerged development: Q2-C7: bounded evaluator handoff with e
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 64,000 | 71,770 |
-| Negotiation reference - low | 50,500 | 56,631 |
-| Negotiation reference - high | 80,000 | 89,712 |
-| Recreation cost estimate | 213,000 | 238,858 |
-| Marketability cost scenario | 171,092 | 191,863 |
-| Monetisation cost scenario | 122,209 | 137,045 |
-| Risk-adjusted strategic reference | 84,833 | 95,132 |
-| Weighted economic reference | 141,602 | 158,792 |
+| Seller asking reference | 64,000 | 70,195 |
+| Negotiation reference - low | 50,500 | 55,388 |
+| Negotiation reference - high | 80,000 | 87,744 |
+| Recreation cost estimate | 213,000 | 233,618 |
+| Marketability cost scenario | 171,092 | 187,654 |
+| Monetisation cost scenario | 122,209 | 134,039 |
+| Risk-adjusted strategic reference | 84,833 | 93,045 |
+| Weighted economic reference | 141,602 | 155,309 |
 
 The recreation estimate comprises the retained expressly priced scope and the separately disclosed non-overlapping implementation budgets. Historical anchors and each successive scoped increment reconcile in the calculation below. Equivalent effort is a seller estimate; market value, actual expenditure and independent quotations are not established. Reuses all priced modelling, forecasting and comparison foundations. Independent scientific replication, predictive-superiority claims, live integration and production acceptance are excluded.
 
-Coverage describes stated seller estimates only. All recreation amounts have an explicit scoped budget; effort remains an assumption.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source records 627/627 exact-Q2C6 repository tests and 41 command log verifications, portable evaluator replay; Q2-C7 draft has >=642-test gate NOT_RUN.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source records 627/627 exact-Q2C6 repository tests and 41 command log verifications, portable evaluator replay; Q2-C7 draft has >=642-test gate NOT_RUN.
 
 Remaining limits: Historical multi-domain Q2 prediction-improvement goal NOT_MET; external real prospective evaluation, authentic data custody and scientific independent superiority remain open. PR #43 not merged.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

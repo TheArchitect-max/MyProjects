@@ -2,7 +2,7 @@
 
 TA-IP-074 | Reference name: Terra
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -70,28 +70,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 55,000 | 61,677 |
-| Negotiation reference - low | 45,000 | 50,463 |
-| Negotiation reference - high | 70,000 | 78,498 |
-| Recreation cost estimate | 600,000 | 672,840 |
-| Marketability cost scenario | 232,050 | 260,221 |
-| Monetisation cost scenario | 153,000 | 171,574 |
-| Risk-adjusted strategic reference | 47,414 | 53,170 |
-| Weighted economic reference | 243,605 | 273,179 |
+| Seller asking reference | 55,000 | 60,324 |
+| Negotiation reference - low | 45,000 | 49,356 |
+| Negotiation reference - high | 70,000 | 76,776 |
+| Recreation cost estimate | 600,000 | 658,080 |
+| Marketability cost scenario | 232,050 | 254,512 |
+| Monetisation cost scenario | 153,000 | 167,810 |
+| Risk-adjusted strategic reference | 47,414 | 52,004 |
+| Weighted economic reference | 243,605 | 267,186 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-README records 6/6 syntax checks on newest module, 181/181 older 0.17.dev source tests; real IPGP MATLAB/Octave PSV data/execution and parity were unavailable, G1/G2/G3/G4/G6 blocked.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. README records 6/6 syntax checks on newest module, 181/181 older 0.17.dev source tests; real IPGP MATLAB/Octave PSV data/execution and parity were unavailable, G1/G2/G3/G4/G6 blocked.
 
 Remaining limits: No empirical TAM validation, observed reversal-boundary data, independent replication, G1–G6 closure or new full-tree PASS; synthetic GPTS input is pipeline-only.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

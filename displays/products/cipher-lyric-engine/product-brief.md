@@ -2,7 +2,7 @@
 
 TA-IP-021 | Reference name: Livia
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -67,28 +67,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 328,500 | 368,380 |
-| Negotiation reference - low | 262,800 | 294,704 |
-| Negotiation reference - high | 410,625 | 460,475 |
-| Recreation cost estimate | 1,094,000 | 1,226,812 |
-| Marketability cost scenario | 1,258,100 | 1,410,833 |
-| Monetisation cost scenario | 1,550,745 | 1,739,005 |
-| Risk-adjusted strategic reference | 1,269,343 | 1,423,441 |
-| Weighted economic reference | 1,279,539 | 1,434,875 |
+| Seller asking reference | 328,500 | 360,299 |
+| Negotiation reference - low | 262,800 | 288,239 |
+| Negotiation reference - high | 410,625 | 450,374 |
+| Recreation cost estimate | 1,094,000 | 1,199,899 |
+| Marketability cost scenario | 1,258,100 | 1,379,884 |
+| Monetisation cost scenario | 1,550,745 | 1,700,857 |
+| Risk-adjusted strategic reference | 1,269,343 | 1,392,215 |
+| Weighted economic reference | 1,279,539 | 1,403,398 |
 
 Earlier recreation anchor retained once; its prior coverage and uncertainty remain. Added only the individually described implementation work. 96 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 10,000 adopted recreation increment and EUR 3,000 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Retained source acceptance: 24/24 disposable Colab CPU gates, 403 regressions and 418 pytest cases on each real Python 3.10–3.13 environment. Documentation-only launch planning is not a new software acceptance.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Retained source acceptance: 24/24 disposable Colab CPU gates, 403 regressions and 418 pytest cases on each real Python 3.10–3.13 environment. Documentation-only launch planning is not a new software acceptance.
 
 Remaining limits: Plaintext lyrics and notes require private handling. Hashes do not prove reviewer identity, legal rights or publication approval. Recurring subscriptions and live deployment remain unqualified.
 
-Price decision: Earlier recreation anchor retained once; its prior coverage and uncertainty remain. Added only the individually described implementation work. 96 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 10,000 adopted recreation increment and EUR 3,000 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

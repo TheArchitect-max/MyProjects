@@ -2,7 +2,7 @@
 
 TA-IP-059 | Reference name: Rhea
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -66,28 +66,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 360,000 | 403,704 |
-| Negotiation reference - low | 290,000 | 325,206 |
-| Negotiation reference - high | 450,000 | 504,630 |
-| Recreation cost estimate | 1,000,000 | 1,121,400 |
-| Marketability cost scenario | 1,575,000 | 1,766,205 |
-| Monetisation cost scenario | 2,200,000 | 2,467,080 |
-| Risk-adjusted strategic reference | 2,537,266 | 2,845,290 |
-| Weighted economic reference | 1,893,043 | 2,122,858 |
+| Seller asking reference | 360,000 | 394,848 |
+| Negotiation reference - low | 290,000 | 318,072 |
+| Negotiation reference - high | 450,000 | 493,560 |
+| Recreation cost estimate | 1,000,000 | 1,096,800 |
+| Marketability cost scenario | 1,575,000 | 1,727,460 |
+| Monetisation cost scenario | 2,200,000 | 2,412,960 |
+| Risk-adjusted strategic reference | 2,537,266 | 2,782,873 |
+| Weighted economic reference | 1,893,043 | 2,076,290 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-README describes unit-safe train/validation/test splitting, operator-supplied NASA C-MAPSS official test path and source-hashed validation manifests.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. README describes unit-safe train/validation/test splitting, operator-supplied NASA C-MAPSS official test path and source-hashed validation manifests.
 
 Remaining limits: Official held-out dataset results and independent real industrial prediction reliability not certified by repository code; not SIL-rated or autonomous shutdown capability.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

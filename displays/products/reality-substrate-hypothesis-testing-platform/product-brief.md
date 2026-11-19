@@ -2,15 +2,15 @@
 
 TA-IP-110 | Reference name: Urania
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
-An independent research-software framework for declared hypothesis portfolios, source-bound synthetic model comparisons, covariance-aware methodological controls and bounded astronomical-data audits.
+Adds a bounded public-source record collector and reconciles source-bound CPU evidence for the existing hypothesis-testing research software.
 
-Identified edition: 0.18.0
+Identified edition: 0.18.0 / merged S1-WP3 bounded public-source collector
 
-An independent research-software framework for declared hypothesis portfolios, source-bound synthetic model comparisons, covariance-aware methodological controls and bounded astronomical-data audits.
+Adds a bounded public-source record collector and reconciles source-bound CPU evidence for the existing hypothesis-testing research software.
 
 ## Potential acquirers
 
@@ -20,11 +20,11 @@ An independent research-software framework for declared hypothesis portfolios, s
 
 ## Documented functions
 
-- Run clearly labelled synthetic methodological experiments
-- Declare bounded hypothesis portfolios and prediction provenance
-- Review dimension-qualified synthetic model comparisons
 - Compare fixed models using declared covariance assumptions
 - Audit supported local astronomical files and replay evidence
+- Bounded public-record collector and schema handling
+- Malformed-response and provenance regression
+- Source-bound evidence and research-gate reconciliation
 
 ## Output types
 
@@ -35,59 +35,56 @@ An independent research-software framework for declared hypothesis portfolios, s
 
 ## Material scope boundaries
 
-- A research-software framework, not a simulation detector or an empirically validated physical theory.
-- Synthetic model comparisons and covariance controls do not establish new physics, a scientifically calibrated null, instrument calibration or an external simulator.
-- The broader hypothesis families and cross-domain programme remain research directions; implemented bounded methodology is not a collection of validated physical model engines.
+- Collection captured partial public records, including unrelated procurement results; it does not establish a scientific corpus, buyer demand, item-level data rights or astrophysical corroboration. Research and rights gates remain in progress.
 
 ## Acquisition evidence profile
 
-- Technical scope: R — An independent research-software framework for declared hypothesis portfolios, source-bound synthetic model comparisons, covariance-aware methodological controls and bounded astronomical-data audits. The offered edition and material boundaries govern review.
+- Technical scope: R — Adds a bounded public-source record collector and reconciles source-bound CPU evidence for the existing hypothesis-testing research software. Collection captured partial public records, including unrelated procurement results; it does not establish a scientific corpus, buyer demand, item-level data rights or astrophysical corroboration. Research and rights gates remain in progress.
 - Evidence and validation: E2 — Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R1 — Repository licence file identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
 - Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
 - Delivery and handover: T2 — Source, documentation, tests and licence evidence support bounded handover. The listed conditions and written delivery agreement govern acceptance.
 
-Offered first-party scope: Specifically agreed first-party implementation and documentation for 0.18.0. The previously priced synthetic experiments, astronomical-file audits, replay and hypothesis registry are reused once. Only the added bounded portfolio, dimension/source checks and covariance-aware synthetic comparison software is included. Empirical discoveries, physical theories, calibrated instrument response, third-party datasets and future model engines are excluded.
+Offered first-party scope: Existing first-party main-source work: Adds a bounded public-source record collector and reconciles source-bound CPU evidence for the existing hypothesis-testing research software. Collection captured partial public records, including unrelated procurement results; it does not establish a scientific corpus, buyer demand, item-level data rights or astrophysical corroboration. Research and rights gates remain in progress.
 
 Development: No separate open candidate at the reviewed snapshot.
 
 ## Conditions before handover
 
+- Collection captured partial public records, including unrelated procurement results; it does not establish a scientific corpus, buyer demand, item-level data rights or astrophysical corroboration. Research and rights gates remain in progress.
 - Freeze the exact first-party research-software edition, delivery manifest and rights.
 - Qualify numerical methods and scientific assumptions for the recipient use; software checks do not validate physical claims.
-- Review data/component rights and agree independent intended-use and delivery acceptance.
 
 ## Qualification objectives
 
-- Evaluate representative intended-use cases within the stated material boundaries.
-- Agree measurable delivery and acceptance conditions before transfer.
+- Collection captured partial public records, including unrelated procurement results; it does not establish a scientific corpus, buyer demand, item-level data rights or astrophysical corroboration. Research and rights gates remain in progress.
 
 ## Prices and sources
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 14,500 | 16,260 |
-| Negotiation reference - low | 12,000 | 13,457 |
-| Negotiation reference - high | 18,500 | 20,746 |
-| Recreation cost estimate | 49,500 | 55,509 |
-| Marketability cost scenario | 19,144 | 21,468 |
-| Monetisation cost scenario | 12,623 | 14,155 |
-| Risk-adjusted strategic reference | 3,912 | 4,387 |
-| Weighted economic reference | 20,098 | 22,538 |
+| Seller asking reference | 17,500 | 19,194 |
+| Negotiation reference - low | 14,000 | 15,355 |
+| Negotiation reference - high | 21,875 | 23,993 |
+| Recreation cost estimate | 59,500 | 65,260 |
+| Marketability cost scenario | 23,012 | 25,240 |
+| Monetisation cost scenario | 15,173 | 16,642 |
+| Risk-adjusted strategic reference | 4,702 | 5,157 |
+| Weighted economic reference | 24,158 | 26,496 |
 
-The retained expressly priced scope and successive non-overlapping implementation budgets reconcile below. Equivalent effort and historical anchors remain seller assumptions; actual expenditure, independent quotations and market value are not established. The previously priced synthetic experiments, astronomical-file audits, replay and hypothesis registry are reused once. Only the added bounded portfolio, dimension/source checks and covariance-aware synthetic comparison software is included. Empirical discoveries, physical theories, calibrated instrument response, third-party datasets and future model engines are excluded.
+Non-overlapping implemented main-source increment: 96 assumed hours at EUR 94/hour, 15% allowance, EUR 10,000 adopted recreation increment and EUR 3,000 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project. Earlier priced work is counted once; its legacy uncertainty remains.
 
-Coverage describes stated seller estimates only. All recreation amounts have an explicit scoped budget; effort remains an assumption.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-README records prior v0.17 263/263 full CPU suite twice at pinned source; v0.18 adds 25 focused synthetic covariance comparisons but exact new two-pass complete suite pending.
+Current main README, full Git inventory and comparison with the prior reviewed main identify this implemented change: Adds a bounded public-source record collector and reconciles source-bound CPU evidence for the existing hypothesis-testing research software. Retained acceptance is source-reported and remains bound to its original source and environment.
 
-Remaining limits: No genuine Fermi instrument/likelihood calibration, observational evidence of physical substrate, preregistered real-world detection or complete current-source v0.18 acceptance.
+Remaining limits: Collection captured partial public records, including unrelated procurement results; it does not establish a scientific corpus, buyer demand, item-level data rights or astrophysical corroboration. Research and rights gates remain in progress.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: Non-overlapping implemented main-source increment: 96 assumed hours at EUR 94/hour, 15% allowance, EUR 10,000 adopted recreation increment and EUR 3,000 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

@@ -2,15 +2,15 @@
 
 TA-IP-122 | Reference name: Lise
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
-Reproducible fractal mathematics, exact-rational return-interval certificates and bounded pattern catalogues with engineered photonic-potential research tools.
+Adds measurement-readiness and external-evidence intake, versioned publisher metadata, raw-workbook admission and a physical-dataset comparability screen.
 
-Identified edition: R3I
+Identified edition: 0.2.6 package / R3N research engineering
 
-Reproducible fractal mathematics, exact-rational return-interval certificates and bounded pattern catalogues with engineered photonic-potential research tools. G2 remains HOLD; no experimental measurements, demonstrated new physics or hardware. Duplicated catalogue entries are not independent discoveries.
+Adds measurement-readiness and external-evidence intake, versioned publisher metadata, raw-workbook admission and a physical-dataset comparability screen.
 
 ## Potential acquirers
 
@@ -20,9 +20,11 @@ Reproducible fractal mathematics, exact-rational return-interval certificates an
 
 ## Documented functions
 
-- Fractal computation and exact-rational certificate producer/verifier
 - Pattern provenance, deduplication and bounded model experiments
 - CLI, independent numerical checks and acceptance packaging
+- Measurement and external-evidence intake contracts
+- Versioned metadata and raw-workbook verification
+- Physical-comparability screen and independent replay controls
 
 ## Output types
 
@@ -32,58 +34,57 @@ Reproducible fractal mathematics, exact-rational return-interval certificates an
 
 ## Material scope boundaries
 
-- G2 remains HOLD; no experimental measurements, demonstrated new physics or hardware. Duplicated catalogue entries are not independent discoveries.
-- First-party rights, exact delivery and recipient acceptance require project-specific agreement.
+- The admitted external optical data are not directly comparable with the current FPDP hypothesis. Scientific G2 remains HOLD; internal mathematical/software checks are not a new physical law or independent experimental corroboration.
 
 ## Acquisition evidence profile
 
-- Technical scope: R — Reproducible fractal mathematics, exact-rational return-interval certificates and bounded pattern catalogues with engineered photonic-potential research tools. The offered edition and material boundaries govern review.
+- Technical scope: R — Adds measurement-readiness and external-evidence intake, versioned publisher metadata, raw-workbook admission and a physical-dataset comparability screen. The admitted external optical data are not directly comparable with the current FPDP hypothesis. Scientific G2 remains HOLD; internal mathematical/software checks are not a new physical law or independent experimental corroboration.
 - Evidence and validation: E3 — Tests, validation and provenance/release evidence identified.
 - Rights and component obligations: R0 — No repository licence evidence identified.
 - Commercial basis: C2 — Seller ask and reproducible economic reference established.
 - Delivery and handover: T1 — Implementation exists but core transfer evidence is incomplete.
 
-Offered first-party scope: Specifically agreed first-party R3I source, documentation and retained evidence: Reproducible fractal mathematics, exact-rational return-interval certificates and bounded pattern catalogues with engineered photonic-potential research tools. G2 remains HOLD; no experimental measurements, demonstrated new physics or hardware. Duplicated catalogue entries are not independent discoveries.
+Offered first-party scope: Existing first-party main-source work: Adds measurement-readiness and external-evidence intake, versioned publisher metadata, raw-workbook admission and a physical-dataset comparability screen. The admitted external optical data are not directly comparable with the current FPDP hypothesis. Scientific G2 remains HOLD; internal mathematical/software checks are not a new physical law or independent experimental corroboration.
 
 Development: No separate open candidate at the reviewed snapshot.
 
 ## Conditions before handover
 
+- The admitted external optical data are not directly comparable with the current FPDP hypothesis. Scientific G2 remains HOLD; internal mathematical/software checks are not a new physical law or independent experimental corroboration.
 - Freeze the R3I first-party delivery and reconcile source-specific acceptance records.
 - Agree the exact first-party source edition, deliverable manifest and recipient acceptance criteria.
-- Reconcile third-party components, source terms and transferable first-party rights.
 
 ## Qualification objectives
 
-- Complete project-specific delivery, rights and intended-use acceptance.
+- The admitted external optical data are not directly comparable with the current FPDP hypothesis. Scientific G2 remains HOLD; internal mathematical/software checks are not a new physical law or independent experimental corroboration.
 - Independent legal title/FTO opinions, security certification and buyer-specific acceptance remain separate.
 
 ## Prices and sources
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 15,000 | 16,821 |
-| Negotiation reference - low | 12,000 | 13,457 |
-| Negotiation reference - high | 18,750 | 21,026 |
-| Recreation cost estimate | 51,500 | 57,752 |
-| Marketability cost scenario | 25,608 | 28,717 |
-| Monetisation cost scenario | 19,699 | 22,090 |
-| Risk-adjusted strategic reference | 9,116 | 10,223 |
-| Weighted economic reference | 25,127 | 28,177 |
+| Seller asking reference | 20,000 | 21,936 |
+| Negotiation reference - low | 16,000 | 17,549 |
+| Negotiation reference - high | 25,000 | 27,420 |
+| Recreation cost estimate | 68,500 | 75,131 |
+| Marketability cost scenario | 34,062 | 37,359 |
+| Monetisation cost scenario | 26,201 | 28,737 |
+| Risk-adjusted strategic reference | 12,125 | 13,299 |
+| Weighted economic reference | 33,421 | 36,656 |
 
-Initial bounded work-package estimate. 480 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 51,500 adopted recreation increment and EUR 15,000 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
+Non-overlapping implemented main-source increment: 160 assumed hours at EUR 94/hour, 15% allowance, EUR 17,000 adopted recreation increment and EUR 5,000 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project. Earlier priced work is counted once; its legacy uncertainty remains.
 
-Coverage describes stated seller estimates only. All recreation amounts have an explicit scoped budget; effort remains an assumption.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source R3I acceptance records 504/504 CPU tests, 22 commands and 44 verified logs; 496 mathematical intervals and six unique pattern classes.
+Current main README, full Git inventory and comparison with the prior reviewed main identify this implemented change: Adds measurement-readiness and external-evidence intake, versioned publisher metadata, raw-workbook admission and a physical-dataset comparability screen. Retained acceptance is source-reported and remains bound to its original source and environment.
 
-Remaining limits: G2 remains HOLD; no experimental measurements, demonstrated new physics or hardware. Duplicated catalogue entries are not independent discoveries.
+Remaining limits: The admitted external optical data are not directly comparable with the current FPDP hypothesis. Scientific G2 remains HOLD; internal mathematical/software checks are not a new physical law or independent experimental corroboration.
 
-Price decision: Initial bounded work-package estimate. 480 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 51,500 adopted recreation increment and EUR 15,000 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
+Price decision: Non-overlapping implemented main-source increment: 160 assumed hours at EUR 94/hour, 15% allowance, EUR 17,000 adopted recreation increment and EUR 5,000 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

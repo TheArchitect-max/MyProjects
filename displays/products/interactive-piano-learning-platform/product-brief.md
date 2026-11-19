@@ -2,7 +2,7 @@
 
 TA-IP-084 | Reference name: Allegra
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -67,28 +67,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 700,000 | 784,980 |
-| Negotiation reference - low | 560,000 | 627,984 |
-| Negotiation reference - high | 875,000 | 981,225 |
-| Recreation cost estimate | 2,700,000 | 3,027,780 |
-| Marketability cost scenario | 3,105,000 | 3,481,947 |
-| Monetisation cost scenario | 4,009,500 | 4,496,253 |
-| Risk-adjusted strategic reference | 3,132,747 | 3,513,062 |
-| Weighted economic reference | 3,194,361 | 3,582,156 |
+| Seller asking reference | 700,000 | 767,760 |
+| Negotiation reference - low | 560,000 | 614,208 |
+| Negotiation reference - high | 875,000 | 959,700 |
+| Recreation cost estimate | 2,700,000 | 2,961,360 |
+| Marketability cost scenario | 3,105,000 | 3,405,564 |
+| Monetisation cost scenario | 4,009,500 | 4,397,620 |
+| Risk-adjusted strategic reference | 3,132,747 | 3,435,997 |
+| Weighted economic reference | 3,194,361 | 3,503,575 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-README documents deterministic piano practice, note-level scoring, rights-governed public-domain discovery and simulated acoustic/MIDI tests; validation file flags unrun real Audiveris, VST/native MIDI, Demucs and full Playwright.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. README documents deterministic piano practice, note-level scoring, rights-governed public-domain discovery and simulated acoustic/MIDI tests; validation file flags unrun real Audiveris, VST/native MIDI, Demucs and full Playwright.
 
 Remaining limits: Real instrument microphone recognition is expected-note constrained, not general polyphonic transcription; full user-device testing and independent educational efficacy not demonstrated.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

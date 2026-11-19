@@ -2,7 +2,7 @@
 
 TA-IP-105 | Reference name: Euterpe
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -46,7 +46,7 @@ The offered v0.1.0 editorial QA application supports manuscript preparation, rec
 
 Offered first-party scope: Existing first-party v0.1.0 local manuscript authoring, DOCX assembly, evidence-linked eight-gate/40-stage quality workflow, defect and change controls, explicit author release authorization, read-only dashboard, manual Draft2Digital handoff, tests and documentation at the frozen repository baseline. The embedded author-supplied protocol must have separately agreed use/transfer rights. Author manuscripts, creative archive ownership, author identity/pen-name rights, third-party services and templates, separately staged v0.2–v0.5 application code, automated literary/factual certification, autonomous book generation, live distribution and future SaaS are outside this price.
 
-Development: 0.7.0 — documented offline staging; full application source import pending
+Development: No separate open candidate at the reviewed snapshot.
 
 ## Conditions before handover
 
@@ -65,28 +65,28 @@ Development: 0.7.0 — documented offline staging; full application source impor
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 21,000 | 23,549 |
-| Negotiation reference - low | 16,800 | 18,840 |
-| Negotiation reference - high | 26,250 | 29,437 |
-| Recreation cost estimate | 70,000 | 78,498 |
-| Marketability cost scenario | 53,550 | 60,051 |
-| Monetisation cost scenario | 49,613 | 55,636 |
-| Risk-adjusted strategic reference | 26,552 | 29,775 |
-| Weighted economic reference | 47,426 | 53,184 |
+| Seller asking reference | 21,000 | 23,033 |
+| Negotiation reference - low | 16,800 | 18,426 |
+| Negotiation reference - high | 26,250 | 28,791 |
+| Recreation cost estimate | 70,000 | 76,776 |
+| Marketability cost scenario | 53,550 | 58,734 |
+| Monetisation cost scenario | 49,613 | 54,416 |
+| Risk-adjusted strategic reference | 26,552 | 29,122 |
+| Weighted economic reference | 47,426 | 52,017 |
 
 Disclosed base/increment assumptions reconcile to the retained recreation anchor. Effort remains an analyst estimate for its original scope.
 
-Coverage describes stated seller estimates only. All recreation amounts have an explicit scoped budget; effort remains an assumption.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source documents 8 gates/40 stages, deterministic hash-bound evidence and defect/release blocking with manual D2D packaging.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source documents 8 gates/40 stages, deterministic hash-bound evidence and defect/release blocking with manual D2D packaging.
 
 Remaining limits: Automated structural checks do not prove full literary quality, legal publishing rights, publisher/platform acceptance or finished professional rendering for arbitrary manuscripts.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

@@ -2,15 +2,15 @@
 
 TA-IP-050 | Reference name: Ines
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
-Tattoo-studio operations software with tenant-scoped transactional persistence adapters and an isolated PostgreSQL qualification harness.
+Adds qualified localhost Go-to-Python geometry transport, topology admission, benchmark tooling and low-distortion mesh parameterization research.
 
-Identified edition: Phase 2B.2A / PostgreSQL qualification harness
+Identified edition: Phase 3B / LSCM parameterization research
 
-Tattoo-studio operations software with tenant-scoped transactional persistence adapters and an isolated PostgreSQL qualification harness.
+Adds qualified localhost Go-to-Python geometry transport, topology admission, benchmark tooling and low-distortion mesh parameterization research.
 
 ## Potential acquirers
 
@@ -20,11 +20,11 @@ Tattoo-studio operations software with tenant-scoped transactional persistence a
 
 ## Documented functions
 
-- Record material and consent traceability
-- Review inventory and deposit-state transitions
-- Apply tenant-scoped transactional persistence rules
 - Detect migration drift and ordering errors
 - Prepare isolated database qualification runs
+- Authenticated geometry transport and generated contract integration
+- Topology screening and low-distortion parameterization
+- Reproducible geometry comparisons and regression qualification
 
 ## Output types
 
@@ -34,33 +34,29 @@ Tattoo-studio operations software with tenant-scoped transactional persistence a
 
 ## Material scope boundaries
 
-- The engineering baseline and local software checks do not establish real PostgreSQL runtime acceptance; that remains an open delivery gate.
-- Recipient deployment, tenant migration, security review, studio compliance, payment-provider integration and real-world stencil suitability require separate qualification.
-- The pinned database driver and other third-party components retain their own terms; the offered proprietary value covers first-party work.
+- Nonlinear refinement remains the next phase. Production persistence wiring, full tenant authorization, transport identity and anatomical stencil validation remain open.
 
 ## Acquisition evidence profile
 
-- Technical scope: V — Tattoo-studio operations software with tenant-scoped transactional persistence adapters and an isolated PostgreSQL qualification harness. The offered edition and material boundaries govern review.
+- Technical scope: V — Adds qualified localhost Go-to-Python geometry transport, topology admission, benchmark tooling and low-distortion mesh parameterization research. Nonlinear refinement remains the next phase. Production persistence wiring, full tenant authorization, transport identity and anatomical stencil validation remain open.
 - Evidence and validation: E2 — Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
 - Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
-Offered first-party scope: Specifically agreed first-party implementation and documentation for Phase 2B.2A / PostgreSQL qualification harness. The previously priced studio, geometry, workflow, authentication and migration foundations are reused once. Added first-party persistence adapters and qualification tooling are included. Real PostgreSQL operation, production tenant migration, payment services, clinical or regulatory acceptance, hosting and third-party ownership rights are excluded.
+Offered first-party scope: Existing first-party main-source work: Adds qualified localhost Go-to-Python geometry transport, topology admission, benchmark tooling and low-distortion mesh parameterization research. Nonlinear refinement remains the next phase. Production persistence wiring, full tenant authorization, transport identity and anatomical stencil validation remain open.
 
-Development: No separate open candidate at the reviewed snapshot.
+Development: Open, unmerged development: Pre-Phase 3C repository-wide audit and hardening This is outside the offered main-source budget.
 
 ## Conditions before handover
 
+- Nonlinear refinement remains the next phase. Production persistence wiring, full tenant authorization, transport identity and anatomical stencil validation remain open.
 - Freeze the exact source edition, agreed first-party work, rights and exclusions.
 - Execute and accept the isolated real PostgreSQL runtime qualification before claiming database-specific delivery readiness.
-- Review source-specific reproducibility, component and security evidence under agreed confidentiality.
-- Complete intended-use and recipient-environment acceptance before relying on the identified outputs.
 
 ## Qualification objectives
 
-- Agree a source-specific delivery edition and evaluate the documented functions against your intended use.
-- Close the listed technical, rights and handover conditions before recipient acceptance.
+- Nonlinear refinement remains the next phase. Production persistence wiring, full tenant authorization, transport identity and anatomical stencil validation remain open.
 - Independent legal ownership/title opinion not performed by this internal audit.
 - Freedom-to-operate legal opinion not performed unless separately evidenced.
 - Independent penetration test not assumed unless separately evidenced.
@@ -69,28 +65,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 165,500 | 185,592 |
-| Negotiation reference - low | 134,500 | 150,828 |
-| Negotiation reference - high | 207,000 | 232,130 |
-| Recreation cost estimate | 672,000 | 753,581 |
-| Marketability cost scenario | 772,800 | 866,618 |
-| Monetisation cost scenario | 997,920 | 1,119,067 |
-| Risk-adjusted strategic reference | 779,706 | 874,362 |
-| Weighted economic reference | 795,041 | 891,559 |
+| Seller asking reference | 174,500 | 191,392 |
+| Negotiation reference - low | 139,600 | 153,113 |
+| Negotiation reference - high | 218,125 | 239,240 |
+| Recreation cost estimate | 702,000 | 769,954 |
+| Marketability cost scenario | 807,300 | 885,447 |
+| Monetisation cost scenario | 1,042,470 | 1,143,381 |
+| Risk-adjusted strategic reference | 814,514 | 893,359 |
+| Weighted economic reference | 830,534 | 910,930 |
 
-The retained expressly priced scope and successive non-overlapping budgets reconcile below. Equivalent effort and historical anchors are seller assumptions, not actual expenditure, independent quotations or market value. The previously priced studio, geometry, workflow, authentication and migration foundations are reused once. Added first-party persistence adapters and qualification tooling are included. Real PostgreSQL operation, production tenant migration, payment services, clinical or regulatory acceptance, hosting and third-party ownership rights are excluded.
+Non-overlapping implemented main-source increment: 280 assumed hours at EUR 94/hour, 15% allowance, EUR 30,000 adopted recreation increment and EUR 9,000 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project. Earlier priced work is counted once; its legacy uncertainty remains.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-README documents studio record/consent workflows and local validation conventions; source inspection did not independently execute full PostgreSQL/toolchain or customer workflows.
+Current main README, full Git inventory and comparison with the prior reviewed main identify this implemented change: Adds qualified localhost Go-to-Python geometry transport, topology admission, benchmark tooling and low-distortion mesh parameterization research. Retained acceptance is source-reported and remains bound to its original source and environment.
 
-Remaining limits: No live customer-data security audit, Dutch/EU privacy compliance certification, payment-network authority, medical device qualification or target PostgreSQL compatibility.
+Remaining limits: Nonlinear refinement remains the next phase. Production persistence wiring, full tenant authorization, transport identity and anatomical stencil validation remain open.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: Non-overlapping implemented main-source increment: 280 assumed hours at EUR 94/hour, 15% allowance, EUR 30,000 adopted recreation increment and EUR 9,000 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

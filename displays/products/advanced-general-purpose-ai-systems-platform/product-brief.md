@@ -2,7 +2,7 @@
 
 TA-IP-013 | Reference name: Thalia
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -68,28 +68,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 310,000 | 347,634 |
-| Negotiation reference - low | 248,000 | 278,107 |
-| Negotiation reference - high | 388,000 | 435,103 |
-| Recreation cost estimate | 1,040,000 | 1,166,256 |
-| Marketability cost scenario | 1,315,600 | 1,475,314 |
-| Monetisation cost scenario | 1,544,400 | 1,731,890 |
-| Risk-adjusted strategic reference | 1,327,356 | 1,488,497 |
-| Weighted economic reference | 1,296,575 | 1,453,979 |
+| Seller asking reference | 310,000 | 340,008 |
+| Negotiation reference - low | 248,000 | 272,006 |
+| Negotiation reference - high | 388,000 | 425,558 |
+| Recreation cost estimate | 1,040,000 | 1,140,672 |
+| Marketability cost scenario | 1,315,600 | 1,442,950 |
+| Monetisation cost scenario | 1,544,400 | 1,693,898 |
+| Risk-adjusted strategic reference | 1,327,356 | 1,455,844 |
+| Weighted economic reference | 1,296,575 | 1,422,083 |
 
 Some dated work-package assumptions are disclosed, but they do not reconstruct the complete retained recreation anchor. A complete scope-specific budget is required. Review on 2026-11-03: The previously priced first-party training-control and bounded adapter/checkpoint implementation is retained once. The current change is product naming and packaging metadata; it receives no monetary premium. External model weights, data rights, CUDA qualification, frontier performance and operating services remain excluded.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source reports T4 CUDA v5.6 distillation exact-resume and repeated digest, with v5.8 CUDA checkpoint/report among next gates.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source reports T4 CUDA v5.6 distillation exact-resume and repeated digest, with v5.8 CUDA checkpoint/report among next gates.
 
 Remaining limits: Tiny rule-teacher and dataset only; no frontier-class foundation model, large-model performance or full v5.8 acceptance.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

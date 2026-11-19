@@ -2,7 +2,7 @@
 
 TA-IP-080 | Reference name: Ava
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -46,7 +46,7 @@ The 2.0.0 release has retained external validation. Suitability for your vehicle
 
 Offered first-party scope: Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
 
-Development: Open, unmerged development: TrueLane — locked forward validation and long-term engineering objectives; TrueLane Studio — source-group holdout checks for model learning proposals. Not a released product or an automatic expansion of priced scope.
+Development: Open, unmerged development: TrueLane — locked forward validation and long-term engineering objectives; TrueLane Studio — source-group holdout checks for model learning proposals This is outside the offered main-source budget.
 
 ## Conditions before handover
 
@@ -67,28 +67,28 @@ Development: Open, unmerged development: TrueLane — locked forward validation 
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 300,000 | 336,420 |
-| Negotiation reference - low | 240,000 | 269,136 |
-| Negotiation reference - high | 375,000 | 420,525 |
-| Recreation cost estimate | 1,200,000 | 1,345,680 |
-| Marketability cost scenario | 1,242,000 | 1,392,779 |
-| Monetisation cost scenario | 1,377,000 | 1,544,168 |
-| Risk-adjusted strategic reference | 1,253,099 | 1,405,225 |
-| Weighted economic reference | 1,262,385 | 1,415,639 |
+| Seller asking reference | 300,000 | 329,040 |
+| Negotiation reference - low | 240,000 | 263,232 |
+| Negotiation reference - high | 375,000 | 411,300 |
+| Recreation cost estimate | 1,200,000 | 1,316,160 |
+| Marketability cost scenario | 1,242,000 | 1,362,226 |
+| Monetisation cost scenario | 1,377,000 | 1,510,294 |
+| Risk-adjusted strategic reference | 1,253,099 | 1,374,399 |
+| Weighted economic reference | 1,262,385 | 1,384,584 |
 
 Some dated work-package assumptions are disclosed, but they do not reconstruct the complete retained recreation anchor. A complete scope-specific budget is required.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-PR #18 states independent CPU Colab 8/8 gates and 129 tests on pinned runtime candidate; PR #19 future-validation lock has separate pending full tests; neither PR merged.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. PR #18 states independent CPU Colab 8/8 gates and 129 tests on pinned runtime candidate; PR #19 future-validation lock has separate pending full tests; neither PR merged.
 
 Remaining limits: Real engine/vehicle calibration, manufacturer compliance and field predictive accuracy not proven. Stacked PR #19 depends on #18 merge and its own exact-source gates.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

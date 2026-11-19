@@ -2,7 +2,7 @@
 
 TA-IP-062 | Reference name: Thea
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -66,28 +66,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 165,000 | 185,031 |
-| Negotiation reference - low | 130,000 | 145,782 |
-| Negotiation reference - high | 205,000 | 229,887 |
-| Recreation cost estimate | 500,000 | 560,700 |
-| Marketability cost scenario | 603,750 | 677,045 |
-| Monetisation cost scenario | 776,250 | 870,487 |
-| Risk-adjusted strategic reference | 609,145 | 683,095 |
-| Weighted economic reference | 614,201 | 688,765 |
+| Seller asking reference | 165,000 | 180,972 |
+| Negotiation reference - low | 130,000 | 142,584 |
+| Negotiation reference - high | 205,000 | 224,844 |
+| Recreation cost estimate | 500,000 | 548,400 |
+| Marketability cost scenario | 603,750 | 662,193 |
+| Monetisation cost scenario | 776,250 | 851,391 |
+| Risk-adjusted strategic reference | 609,145 | 668,110 |
+| Weighted economic reference | 614,201 | 673,656 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source reports 97 scoped unit/invariant regressions, controlled HMAC/custody records and fail-closed unknown-evidence analysis.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source reports 97 scoped unit/invariant regressions, controlled HMAC/custody records and fail-closed unknown-evidence analysis.
 
 Remaining limits: Checks authenticate structure relative to supplied inputs, not the factual truth, legal admissibility, independent attestation or nonrepudiation of underlying evidence.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

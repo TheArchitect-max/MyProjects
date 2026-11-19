@@ -2,7 +2,7 @@
 
 TA-IP-069 | Reference name: Cadence
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -64,28 +64,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 425,000 | 476,595 |
-| Negotiation reference - low | 340,000 | 381,276 |
-| Negotiation reference - high | 535,000 | 599,949 |
-| Recreation cost estimate | 1,800,000 | 2,018,520 |
-| Marketability cost scenario | 2,070,000 | 2,321,298 |
-| Monetisation cost scenario | 2,551,500 | 2,861,252 |
-| Risk-adjusted strategic reference | 2,088,498 | 2,342,042 |
-| Weighted economic reference | 2,105,274 | 2,360,854 |
+| Seller asking reference | 425,000 | 466,140 |
+| Negotiation reference - low | 340,000 | 372,912 |
+| Negotiation reference - high | 535,000 | 586,788 |
+| Recreation cost estimate | 1,800,000 | 1,974,240 |
+| Marketability cost scenario | 2,070,000 | 2,270,376 |
+| Monetisation cost scenario | 2,551,500 | 2,798,485 |
+| Risk-adjusted strategic reference | 2,088,498 | 2,290,665 |
+| Weighted economic reference | 2,105,274 | 2,309,065 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Source describes a procedural renderer, owned small learned-control checkpoint, authenticated job runtime and CUDA/Colab training definition; no trained neural-waveform checkpoint has qualified for product integration.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source describes a procedural renderer, owned small learned-control checkpoint, authenticated job runtime and CUDA/Colab training definition; no trained neural-waveform checkpoint has qualified for product integration.
 
 Remaining limits: V0.14.2 has no promoted neural waveform generator, third-party model rights clearance or commercial music-quality evidence. Model-training scripts alone do not establish Suno-equivalent synthesis.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

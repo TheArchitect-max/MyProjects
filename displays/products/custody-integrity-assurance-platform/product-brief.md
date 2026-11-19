@@ -2,7 +2,7 @@
 
 TA-IP-009 | Reference name: Justine
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -70,28 +70,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 140,000 | 156,996 |
-| Negotiation reference - low | 110,000 | 123,354 |
-| Negotiation reference - high | 175,000 | 196,245 |
-| Recreation cost estimate | 750,000 | 841,050 |
-| Marketability cost scenario | 769,781 | 863,232 |
-| Monetisation cost scenario | 835,313 | 936,720 |
-| Risk-adjusted strategic reference | 645,424 | 723,778 |
-| Weighted economic reference | 734,417 | 823,575 |
+| Seller asking reference | 140,000 | 153,552 |
+| Negotiation reference - low | 110,000 | 120,648 |
+| Negotiation reference - high | 175,000 | 191,940 |
+| Recreation cost estimate | 750,000 | 822,600 |
+| Marketability cost scenario | 769,781 | 844,296 |
+| Monetisation cost scenario | 835,313 | 916,171 |
+| Risk-adjusted strategic reference | 645,424 | 707,901 |
+| Weighted economic reference | 734,417 | 805,509 |
 
 The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance. Current candidate 0.6.0 adds synthetic pilot and recovery software; the retained anchor and asking reference are unchanged. No price premium is assigned to modeled RTO/RPO or unapproved deployment capabilities.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-Repository implements deterministic transfer/custody checks and evidence pack generation; GATE-REF-001 internally passed per open-gates register.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Repository implements deterministic transfer/custody checks and evidence pack generation; GATE-REF-001 internally passed per open-gates register.
 
 Remaining limits: Governance, independent review, security, legal/privacy, operations and real measured recovery approvals remain OPEN.
 
-Price decision: CIAP main 0.6.0 has bounded synthetic recovery evidence: 8/8 exercises and 34/34 recovery-specific checks, not a complete independent current-tree five-validator PASS. Pilot, real failover/RTO/RPO, governance, security and legal approvals remain open. EUR 140,000 dated seller ask and EUR 750,000 legacy reproduction estimate have no complete work-package budget.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 

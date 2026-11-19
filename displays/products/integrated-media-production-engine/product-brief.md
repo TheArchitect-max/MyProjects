@@ -2,7 +2,7 @@
 
 TA-IP-038 | Reference name: Mira
 
-Assessment date: 2026-11-10
+Assessment date: 2026-11-19
 
 ## Product overview
 
@@ -65,28 +65,28 @@ Development: No separate open candidate at the reviewed snapshot.
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 457,000 | 512,480 |
-| Negotiation reference - low | 366,500 | 410,993 |
-| Negotiation reference - high | 574,000 | 643,684 |
-| Recreation cost estimate | 1,275,000 | 1,429,785 |
-| Marketability cost scenario | 1,912,500 | 2,144,678 |
-| Monetisation cost scenario | 2,677,500 | 3,002,549 |
-| Risk-adjusted strategic reference | 3,080,966 | 3,454,995 |
-| Weighted economic reference | 2,315,088 | 2,596,140 |
+| Seller asking reference | 457,000 | 501,238 |
+| Negotiation reference - low | 366,500 | 401,977 |
+| Negotiation reference - high | 574,000 | 629,563 |
+| Recreation cost estimate | 1,275,000 | 1,398,420 |
+| Marketability cost scenario | 1,912,500 | 2,097,630 |
+| Monetisation cost scenario | 2,677,500 | 2,936,682 |
+| Risk-adjusted strategic reference | 3,080,966 | 3,379,204 |
+| Weighted economic reference | 2,315,088 | 2,539,189 |
 
 The recreation anchor combines an identified base with separately scoped implementation work. The base remains a seller assumption; the scoped component has a role/work-package reproduction budget. Each component is counted once.
 
-Coverage describes stated seller estimates only. The retained earlier anchor lacks a complete work breakdown; added scope does not validate it.
+Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
 
-EUR 1 = USD 1.1214; ECB 2026-11-10. EUR is authoritative; market value is not established.
+EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
 ## Individual source review
 
-v0.23.1 exact source reported 322 tests each on Python 3.11/3.13 and 52 native PostgreSQL tests; v0.24 local tests have 54 PostgreSQL skips and PGlite two native concurrency skips.
+Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. v0.23.1 exact source reported 322 tests each on Python 3.11/3.13 and 52 native PostgreSQL tests; v0.24 local tests have 54 PostgreSQL skips and PGlite two native concurrency skips.
 
 Remaining limits: v0.24 full native PostgreSQL 378+101 zero-skip acceptance outstanding; no vendor media download or legal third-party media clearance, no production reliability claim.
 
-Price decision: No additional non-overlapping implemented scope was established for a new budget in this review. Existing low-confidence reference and project-specific qualification conditions retained.
+Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
