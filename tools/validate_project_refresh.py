@@ -15,7 +15,10 @@ def fn(s,name):
  m=re.search(r'^function '+re.escape(name)+r'\(',s,re.M);assert m,name
  end=re.search(r'^(?:async )?function |^const [A-Z_]+=',s[m.end():],re.M)
  return s[m.start():m.end()+end.start()] if end else s[m.start():]
-for name in ['nav','policy','notice','contributionPage','bindContribution','transferPage','transactionPage']:assert fn(a,name)==fn(b,name),name
+# The editorial section adds exactly one destination to the approved navigation.
+old_link = "['displays/','Project displays'],"
+assert fn(a,'nav') == fn(b,'nav').replace(old_link, old_link+"['interviews/','Interviews'],", 1)
+for name in ['policy','notice','contributionPage','bindContribution','transferPage','transactionPage']:assert fn(a,name)==fn(b,name),name
 assert 'Updated private asset inventory' not in a # no added banner or navigation layout
 pdfs=0
 for x in c['projects']:
@@ -45,4 +48,4 @@ for x in load('assets/route-aliases.json')['aliases']:
   if dst.exists():assert dst.read_bytes()==(R/'displays/products'/x['slug']/f).read_bytes()
 assert sum(x['askingReferenceChangeEUR'] for x in q['assessments'])==592000
 assert sum(x['askingReferenceEUR'] for x in c['projects'])==25866000
-print(json.dumps({'result':'PASS','currentFactsheets':pdfs,'pdfPagesChecked':4*pdfs,'protectedPresentationFiles':len(protected),'preservedNavigationAndNonProjectFunctions':7,'enquirySelectionControls':128,'askingReferenceIncreaseEUR':592000,'underlyingPrivateProductsRerun':False},indent=2))
+print(json.dumps({'result':'PASS','currentFactsheets':pdfs,'pdfPagesChecked':4*pdfs,'protectedPresentationFiles':len(protected),'navigationVerifiedWithInterviewLink':True,'preservedNonProjectFunctions':6,'enquirySelectionControls':128,'askingReferenceIncreaseEUR':592000,'underlyingPrivateProductsRerun':False},indent=2))

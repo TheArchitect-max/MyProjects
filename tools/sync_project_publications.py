@@ -4,6 +4,8 @@ Does not change styles, navigation, services, payment/contribution policy or sou
 Run after pricing-calculation updates; PDF output is deterministic.
 """
 from pathlib import Path
+from build_interviews import display_with_interview, story_path
+from urllib.parse import urlsplit
 from html import escape as E
 from decimal import Decimal
 import json,re,csv,subprocess,sys
@@ -138,7 +140,9 @@ for a in c['projects']:
  # Replace historical in-page source snapshots, retaining dated historical register files separately.
  s=re.sub(r'<section[^>]*data-source-requalification-20261107="documentary-review".*?</section>',lambda _:review_html(a,r),s,flags=re.S)
  s=re.sub(r'<section[^>]*(?:id="source-price-session-[^"]+"|data-source-price-session="[^"]+").*?</section>','',s,flags=re.S)
- (folder/'index.html').write_text(s)
+ interview_path=story_path(a['slug'])
+ interview_url=urlsplit(BASE).path+interview_path if (R/interview_path/'transcript.json').is_file() else ''
+ (folder/'index.html').write_text(display_with_interview(s,interview_url))
  brief='# '+a['title']+'\n\n'+ref+' | Reference name: '+a['referenceName']+'\n\nAssessment date: '+date+'\n\n## Product overview\n\n'+a['overview']+'\n\nIdentified edition: '+v['version']+'\n\n'+v['productPosition']+'\n\n'
  for title,items in [('Potential acquirers',a['potentialBuyers']),('Documented functions',a['capabilities']),('Output types',a['outputTypes']),('Material scope boundaries',a['materialBoundaries'])]:brief+='## '+title+'\n\n'+'\n'.join('- '+x for x in items)+'\n\n'
  brief+='## Acquisition evidence profile\n\n'+'\n'.join('- '+x['label']+': '+x['grade']+' — '+x['criterion'] for x in v['assessmentCriteria'])+'\n\nOffered first-party scope: '+v['offeredEdition']+'\n\nDevelopment: '+(v['developmentEdition'] or 'No separate open candidate at the reviewed snapshot.')+'\n\n'
