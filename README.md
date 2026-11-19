@@ -1,6 +1,13 @@
 # THEARCHITECT_MAX - Seller-led software IP acquisition portfolio
 
-[Open the acquisition portfolio](https://thearchitect-max.github.io/MyProjects/). Nineteen navigation sections provide access to professional services, the collection, individual project displays, portfolio thesis, qualifications, financial method, sources and acquisition process.
+[Open the acquisition portfolio](https://thearchitect-max.github.io/MyProjects/). Twenty navigation sections provide access to professional services, the collection, individual project displays, portfolio thesis, qualifications, financial method, sources and acquisition process.
+
+Interviews with Harm Booij
+--------------------------
+
+The [interview series](https://thearchitect-max.github.io/MyProjects/interviews/) opens with 89 questions and answers across the Organizational Memory Engine, FusionLunar and the Art Direction & Visual Design Research Framework. Each conversation has a chapter index, a direct link to the creator’s future vision and a return link to its project display. The matching displays and dossiers link to the interview. The full text and chapter navigation work with JavaScript disabled.
+
+To publish another interview, add its edited transcript at `interviews/<catalogue-slug>/transcript.json` with the matching project title and reference, then run `python tools/build_pages.py` and `python tools/validate_interviews.py`. The build generates the reading pages, project links and sitemap entries. The publication check verifies the question and answer text, chapter destinations and project links across the catalogue.
 
 ## Professional services
 
