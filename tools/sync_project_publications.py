@@ -6,7 +6,7 @@ Run after pricing-calculation updates; PDF output is deterministic.
 from pathlib import Path
 from html import escape as E
 from decimal import Decimal
-import json,re,csv,subprocess
+import json,re,csv,subprocess,sys
 R=Path(__file__).resolve().parents[1]; BASE='https://thearchitect-max.github.io/MyProjects/'
 def read(n):return json.loads((R/n).read_text())
 def write(n,d):(R/n).write_text(json.dumps(d,indent=2,ensure_ascii=False)+'\n')
@@ -61,11 +61,36 @@ def subscription_scenario_html():
 </section>
 """
 
+def connection_context(ref,connections):
+ rows=[(c,next((m for m in c['members'] if m['ref']==ref),None)) for c in connections]
+ rows=[(c,m) for c,m in rows if m is not None]
+ if not rows:return ''
+ return '<div data-project-connections="'+E(ref)+'"><h3>Potential application contexts</h3><ul>'+''.join('<li><a href="'+BASE+'connections.html#'+E(c['slug'])+'">'+E(c['id'])+' · '+E(c['title'])+'</a> — <strong>'+E(c['status'])+'</strong>. '+E(m['role'])+'</li>' for c,m in rows)+'</ul><p class="small">A project can participate in several proposed routes while retaining one identity and price. Interfaces, integration and joint qualification require separate work and acceptance.</p></div>'
+
+def refresh_connection_contexts():
+ connections=read('assets/application-combinations-v2.json')['connections'];changed=0
+ for a in read('assets/buyer-catalogue.json')['projects']:
+  path=R/'displays/products'/a['slug']/'index.html';text=path.read_text()
+  match=re.search(r'<section id="product-dossier".*?</section>',text,re.S);assert match,a['ref']
+  section=match[0]
+  section=re.sub(r'<div data-project-connections="[^"]*">.*?</div>','',section,flags=re.S)
+  section=re.sub(r'<h3>Potential application context</h3><ul>.*?</ul><p class="small">Proposed applications require.*?</p>','',section,flags=re.S)
+  anchor='<p><a class="text-link" href="'+BASE+'transfer.html">'
+  assert section.count(anchor)==1,a['ref']
+  section=section.replace(anchor,connection_context(a['ref'],connections)+anchor,1)
+  result=text[:match.start()]+section+text[match.end():]
+  if result!=text:path.write_text(result);changed+=1
+ print('Updated connection contexts in '+str(changed)+' standalone project displays; other sections and downloads unchanged.')
+
+if '--connections-only' in sys.argv:
+ refresh_connection_contexts()
+ sys.exit(0)
+
 c=read('assets/buyer-catalogue.json');d=read('assets/buyer-dossiers.json');p=read('assets/pricing-catalogue.json');review=read('assets/portfolio-reassessment-20261107.json');ledger=read('assets/portfolio-identity-ledger.json')
 D={x['ref']:x for x in d['projects']};P={x['ref']:x for x in p['projects']};Q={x['id']:x for x in review['assessments']};CAT={x['id']:x['title'] for x in c['categories']};date=p['basisDate'];fx=p['displayCurrency'];template=(R/'displays/products/collective-reality-engine/index.html').read_text();original=next(x for x in c['projects'] if x['ref']=='TA-IP-103')
 def section(id,eyebrow,title,body):return '<section id="'+id+'" class="split-section"><div><p class="eyebrow">'+eyebrow+'</p><h2>'+title+'</h2></div><div>'+body+'</div></section>'
 def review_html(a,r):return '<section class="section" data-source-requalification-20261107="documentary-review"><div class="shell"><h2>Source-specific reassessment — 19 November 2026</h2><p><strong>'+a['ref']+' / '+E(a['referenceName'])+':</strong> '+E(r['sourceBaseline'])+'</p><p><strong>Implemented scope:</strong> '+E(r.get('demonstratedScope',a['overview']))+'</p><p><strong>Retained source evidence:</strong> '+E(r['developmentEvidence'])+'</p><p><strong>Remaining limits:</strong> '+E(r['currentLimitations'])+'</p><p><strong>Development:</strong> '+E(r['currentCandidateSummary'])+'</p><p><strong>Price decision:</strong> '+E(r['priceDecisionReason'])+'</p><p>Individual documentary review. Underlying private software was not freshly executed in this catalogue update. No market value, rights clearance or production acceptance is certified.</p></div></section>'
-connections=read('assets/application-combinations.json')['connections']
+connections=read('assets/application-combinations-v2.json')['connections']
 rows=[];idrows=[];cards=[]
 oldcsv=list(csv.DictReader((R/'displays/catalogue.csv').open(encoding='utf-8-sig')));csvfields=list(oldcsv[0]);bycsv={x['Reference']:x for x in oldcsv}
 for a in c['projects']:
@@ -96,10 +121,7 @@ for a in c['projects']:
  body+='<dl class="buyer-component-grid">'+''.join('<div><dt>'+label+'</dt><dd>'+('Identified in the reviewed records' if flag else 'Not established in the reviewed records')+'</dd></div>' for label,flag in zip(labels,flags))+'</dl><p class="small">'+E(v['componentEvidence']['interpretation'])+'</p>'
  for det in v['productDetails']:
   if not det['title'].startswith('Source review'):body+='<h3>'+E(det['title'])+'</h3><p>'+E(det['text'])+'</p>'+ul(det.get('items',[]))
- for connection in connections:
-  member=next((member for member in connection['members'] if member['ref']==ref),None)
-  if member:
-   body+='<h3>Potential application context</h3><ul><li><a href="'+BASE+'connections.html#'+E(connection['slug'])+'">'+E(connection['title'])+'</a> — '+E(member['role'])+'</li></ul><p class="small">Proposed applications require separately agreed interfaces, integration and joint qualification. They are not additional assets or delivered integrated products.</p>'
+ body+=connection_context(ref,connections)
  body+='<p><a class="text-link" href="'+BASE+'transfer.html">Review the rights and delivery guide ↗</a></p>'
  s=re.sub(r'<section id="product-dossier".*?</section>',lambda _:section('product-dossier','06 / PRODUCT EDITION &amp; QUALIFICATION','Product edition &amp; qualification',body),s,count=1,flags=re.S)
  body='<p>Price basis: '+date+'. EUR is authoritative; market value is not established.</p><dl class="restored-price-grid">'

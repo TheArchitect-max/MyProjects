@@ -27,7 +27,7 @@ assert.equal(review.summary.projectSpecificSourceDeskReviews,128);assert.equal(r
 assert.equal(math.verifyCatalogue(pricing).status,'PASS');assert.equal(pricing.displayCurrency.rate,1.0968);assert.equal(pricing.displayCurrency.date,'2026-11-18');assert.deepEqual(financial.coverage,pricing.methodology.reassessment.budgetCoverage);
 for(const [page,pattern] of [['displays/index.html',/class="asset-card"/g],['portfolio-register.html',/<tr data-search=/g],['portfolio-evaluation.html',/<tr data-filter=/g],['portfolio-pricing-review.html',/<tr data-search=/g]])assert.equal((read(page).match(pattern)||[]).length,128);
 for(const file of ['buyer-catalogue.json','buyer-dossiers.json','pricing-catalogue.json','evaluation-sources.json','calculation-validation.json'])assert.equal(read('assets/'+file),read('displays/assets/'+file));
-assert(read('index.html').includes('showroom40-catalogue-20261119'));new Function(read('assets/im.js'));new Function(read('displays/assets/exhibition.js'));
+assert(read('index.html').includes('showroom41-connections-20261119'));new Function(read('assets/im.js'));new Function(read('displays/assets/exhibition.js'));
 // Older source/price sessions are immutable historical snapshots.
 for(const phase of ['S02','S03','S04'])for(const h of json('assets/source-price-session-20261108-'+phase+'.json').projects){assert(review.assessments.some(x=>x.id===h.assetId));assert(h.datedSellerAskEUR>0);}
 console.log(JSON.stringify({status:'PASS',assets:128,decisions,individualSourcePins:128,privateSourceReexecutions:0,marketValueEstablished:false},null,2));

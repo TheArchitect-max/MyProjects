@@ -23,7 +23,7 @@ def validate():
   for key in ['profileUrl','displayUrl','factsheetUrl','briefUrl']:
    url=urlparse(a[key]);assert url.netloc=='thearchitect-max.github.io' and url.path.startswith('/MyProjects/')
    target=ROOT/unquote(url.path.removeprefix('/MyProjects/'));target=target/'index.html' if url.path.endswith('/') else target;assert target.is_file(),target
- assert {p.name for p in (ROOT/'assets').glob('*.json')}==({'buyer-catalogue.json','route-aliases.json','pricing-catalogue.json','calculation-validation.json','buyer-dossiers.json','application-combinations.json','evaluation-sources.json','musk-opportunities.json','portfolio-identity-ledger.json','portfolio-reassessment-20261107.json','pricing-review-20261108.json','pricing-baseline-20261119.json','pricing-continuity-20261119.json'}|{f'source-price-session-20261108-S0{i}.json' for i in range(1,5)})
+ assert {p.name for p in (ROOT/'assets').glob('*.json')}==({'buyer-catalogue.json','route-aliases.json','pricing-catalogue.json','calculation-validation.json','buyer-dossiers.json','application-combinations.json','application-combinations-v2.json','evaluation-sources.json','musk-opportunities.json','portfolio-identity-ledger.json','portfolio-reassessment-20261107.json','pricing-review-20261108.json','pricing-baseline-20261119.json','pricing-continuity-20261119.json'}|{f'source-price-session-20261108-S0{i}.json' for i in range(1,5)})
  assert not list((ROOT/'assets').glob('*.csv'));assert not (ROOT/'docs').exists()
  # The approved public calculator workflow is CI only; retain the publication allowlist.
  assert {f.name for f in ROOT.glob('.github/workflows/*')}=={'validate-display-calculator.yml'}

@@ -26,11 +26,18 @@ for x in c['projects']:
  display=(path/'index.html').read_text();assert not re.search(r'data-source-price-session=|id="source-price-session-',display);assert 'data-asset-enquiry' in display
  pdfs+=1
 assets_by_ref={asset['ref']:asset for asset in c['projects']}
-for connection in load('assets/application-combinations.json')['connections']:
+for connection in load('assets/application-combinations-v2.json')['connections']:
  for member in connection['members']:
   asset=assets_by_ref[member['ref']]
   display=(R/'displays/products'/asset['slug']/'index.html').read_text()
   assert 'connections.html#'+connection['slug'] in display,member['ref']
+# Every standalone display must have exactly its current v2 routes, including none.
+connections=load('assets/application-combinations-v2.json')['connections']
+for asset in c['projects']:
+ text=(R/'displays/products'/asset['slug']/'index.html').read_text()
+ actual=set(re.findall(r'connections\.html#([-a-z0-9]+)',text))
+ expected={cn['slug'] for cn in connections if any(m['ref']==asset['ref'] for m in cn['members'])}
+ assert actual==expected,(asset['ref'],'stale/missing connection contexts')
 collection=(R/'displays/index.html').read_text();assert len(re.findall(r'class="asset-select"',collection))==128;assert len(re.findall(r'class="card-cost"',collection))==128
 for x in load('assets/route-aliases.json')['aliases']:
  for f in ['factsheet.pdf','product-brief.md']:

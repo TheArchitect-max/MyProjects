@@ -1,15 +1,16 @@
 #!/usr/bin/env node
 'use strict';
+const childProcess=require('node:child_process');
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'..'),script=fs.readFileSync(path.join(root,'assets/im.js'),'utf8'),marker='render().catch';
-assert(script.includes(marker));const source=script.slice(0,script.lastIndexOf(marker))+'globalThis.showroom={load,validate,home,portfolio,project,buyers,acquisition,policy,notice,filterAssets,valuation,validatePricing,calculationPage,connectionsPage,assurancePage,evidencePage,transferPage,transactionPage,commercializationPage,sourcesPage,identityPage,filterIdentity,filterConnections,validateEvaluationSources,muskPage,filterMusk,validateStrategicFit,muskSourceSection,dossierPage,portfolioThesisPage,professionalServicesPage,contributionPage,bindContribution};})();';
+assert(script.includes(marker));const source=script.slice(0,script.lastIndexOf(marker))+'globalThis.showroom={load,validate,home,portfolio,project,buyers,acquisition,policy,notice,filterAssets,valuation,validatePricing,calculationPage,connectionsPage,assurancePage,evidencePage,transferPage,transactionPage,commercializationPage,sourcesPage,identityPage,filterIdentity,filterConnections,validateEvaluationSources,muskPage,filterMusk,validateStrategicFit,muskSourceSection,dossierPage,portfolioThesisPage,professionalServicesPage,contributionPage,bindContribution,validateBuyerInformation,connectionValues,connectionSummary,canonicalWorkflowLink,bindConnections};})();';
 const data=JSON.parse(fs.readFileSync(path.join(root,'assets/buyer-catalogue.json'),'utf8'));
 const prices=JSON.parse(fs.readFileSync(path.join(root,'assets/pricing-catalogue.json'),'utf8'));
-const dossiers=JSON.parse(fs.readFileSync(path.join(root,'assets/buyer-dossiers.json'),'utf8')),applications=JSON.parse(fs.readFileSync(path.join(root,'assets/application-combinations.json'),'utf8'));
+const dossiers=JSON.parse(fs.readFileSync(path.join(root,'assets/buyer-dossiers.json'),'utf8')),applications=JSON.parse(fs.readFileSync(path.join(root,'assets/application-combinations-v2.json'),'utf8'));
 const strategic=JSON.parse(fs.readFileSync(path.join(root,'assets/musk-opportunities.json'),'utf8'));
 const evaluationSources=JSON.parse(fs.readFileSync(path.join(root,'assets/evaluation-sources.json'),'utf8'));
 const reassessment=JSON.parse(fs.readFileSync(path.join(root,'assets/portfolio-reassessment-20261107.json'),'utf8'));
-const sandbox={PricingMath:require(path.join(root,'assets/pricing-math.js')),URL,URLSearchParams,Intl,JSON,Math,Number,String,Boolean,Map,Set,console,document:{currentScript:{src:'https://thearchitect-max.github.io/MyProjects/assets/im.js'}},location:{pathname:'/MyProjects/',search:'',hash:''},fetch:async url=>{const file=new URL(url).pathname;assert(['/MyProjects/assets/buyer-catalogue.json','/MyProjects/assets/pricing-catalogue.json','/MyProjects/assets/buyer-dossiers.json','/MyProjects/assets/application-combinations.json','/MyProjects/assets/evaluation-sources.json','/MyProjects/assets/musk-opportunities.json','/MyProjects/assets/portfolio-reassessment-20261107.json'].includes(file));return {ok:true,json:async()=>file.endsWith('/pricing-catalogue.json')?prices:file.endsWith('/buyer-dossiers.json')?dossiers:file.endsWith('/application-combinations.json')?applications:file.endsWith('/evaluation-sources.json')?evaluationSources:file.endsWith('/musk-opportunities.json')?strategic:file.endsWith('/portfolio-reassessment-20261107.json')?reassessment:data}}};
+const sandbox={PricingMath:require(path.join(root,'assets/pricing-math.js')),URL,URLSearchParams,Intl,JSON,Math,Number,String,Boolean,Map,Set,console,document:{currentScript:{src:'https://thearchitect-max.github.io/MyProjects/assets/im.js'}},location:{pathname:'/MyProjects/',search:'',hash:''},fetch:async url=>{const file=new URL(url).pathname;assert(['/MyProjects/assets/buyer-catalogue.json','/MyProjects/assets/pricing-catalogue.json','/MyProjects/assets/buyer-dossiers.json','/MyProjects/assets/application-combinations-v2.json','/MyProjects/assets/evaluation-sources.json','/MyProjects/assets/musk-opportunities.json','/MyProjects/assets/portfolio-reassessment-20261107.json'].includes(file));return {ok:true,json:async()=>file.endsWith('/pricing-catalogue.json')?prices:file.endsWith('/buyer-dossiers.json')?dossiers:file.endsWith('/application-combinations-v2.json')?applications:file.endsWith('/evaluation-sources.json')?evaluationSources:file.endsWith('/musk-opportunities.json')?strategic:file.endsWith('/portfolio-reassessment-20261107.json')?reassessment:data}}};
 vm.createContext(sandbox);vm.runInContext(source,sandbox);
 (async()=>{
  const r=sandbox.showroom,d=await r.load();assert.equal(d.projects.length,128);
@@ -33,9 +34,9 @@ vm.createContext(sandbox);vm.runInContext(source,sandbox);
  assert.equal((r.valuation(d).match(/data-price-ref=/g)||[]).length,128);
  assert.equal((r.calculationPage(d).match(/data-calculation-ref=/g)||[]).length,128);
  assert.equal((r.portfolio(d).match(/data-currency="USD"/g)||[]).length,256);
- assert.equal(d.calculation.status,'PASS');assert.equal((r.connectionsPage(d).match(/data-connection-ref=/g)||[]).length,33);assert.equal((r.assurancePage(d).match(/data-assurance-ref=/g)||[]).length,128);
+ assert.equal(d.calculation.status,'PASS');assert.equal((r.connectionsPage(d).match(/data-connection-ref=/g)||[]).length,37);assert.equal((r.assurancePage(d).match(/data-assurance-ref=/g)||[]).length,128);
  assert.equal((r.sourcesPage(d).match(/data-evaluation-source=/g)||[]).length,14);assert.equal((r.sourcesPage(d).match(/data-source-asset=/g)||[]).length,128);
- assert.equal(r.filterConnections(d).length,33);assert.equal(r.filterConnections(d,{query:'Asteria'}).length,0);assert.equal(r.filterConnections(d,{query:'unmatched-connection-xyz'}).length,0);const ariadne=r.filterConnections(d,{query:'Ariadne'});assert(ariadne.length>0);assert(ariadne.every(c=>c.members.some(m=>m.ref==='TA-IP-003')));const selected=r.filterConnections(d,{asset:'TA-IP-003'});assert.equal(selected.length,ariadne.length);assert(r.filterConnections(d,{category:'Intelligence & research'}).every(c=>c.category==='Intelligence & research'));
+ assert.equal(r.filterConnections(d).length,37);assert.equal(r.filterConnections(d,{query:'Asteria'}).length,0);assert.equal(r.filterConnections(d,{query:'unmatched-connection-xyz'}).length,0);const ariadne=r.filterConnections(d,{query:'Ariadne'});assert(ariadne.length>0);assert(ariadne.every(c=>c.members.some(m=>m.ref==='TA-IP-003')));const selected=r.filterConnections(d,{asset:'TA-IP-003'});assert.equal(selected.length,ariadne.length);assert(r.filterConnections(d,{category:'Intelligence & research'}).every(c=>c.category==='Intelligence & research'));
  for(const x of evaluationSources.externalSources)assert(r.sourcesPage(d).includes(x.url));const brokenSources=JSON.parse(JSON.stringify(evaluationSources));brokenSources.externalSources[0].url='https://example.org/unattributed';assert.throws(()=>r.validateEvaluationSources(brokenSources,d));
  const strategicRows=r.filterMusk(d);assert.equal(strategicRows.length,26);assert.equal(new Set(strategicRows.map(x=>x.asset.ref)).size,26);assert.equal(d.strategic.workstreams.length,6);
  const musk=r.muskPage(d);assert(musk.includes('sources.html#strategic-company-sources'));assert(!musk.includes('href="#company-sources-'));assert.equal((musk.match(/data-strategic-asset=/g)||[]).length,26);assert.equal((musk.match(/data-strategic-route=/g)||[]).length,6);assert.equal((musk.match(/data-strategic-source=/g)||[]).length,0);assert.equal((r.sourcesPage(d).match(/data-strategic-source=/g)||[]).length,8);
@@ -50,8 +51,58 @@ vm.createContext(sandbox);vm.runInContext(source,sandbox);
  let loadedMathScripts=0;const cachedShell={...sandbox,PricingMath:undefined,document:{currentScript:sandbox.document.currentScript,createElement:tag=>{assert.equal(tag,'script');return {}},head:{appendChild:script=>{assert.equal(new URL(script.src).pathname,'/MyProjects/assets/pricing-math.js');loadedMathScripts++;cachedShell.PricingMath=require(path.join(root,'assets/pricing-math.js'));script.onload()}}}};
  vm.createContext(cachedShell);vm.runInContext(source,cachedShell);const cachedData=await cachedShell.showroom.load();assert.equal(cachedData.calculation.status,'PASS');assert.equal(loadedMathScripts,1);
  const navigation=r.home(d).match(/<nav class="nav-links"[\s\S]*?<\/nav>/)[0];assert.equal((navigation.match(/<a /g)||[]).length,19);assert(r.home(d).includes('Private technology.<br><em>Public proof.</em>'));assert(r.home(d).includes('Philosopher in Meditation'));assert(r.dossierPage(d).includes('128 assets'));
- const used=new Set();for(const c of d.applications.connections)for(const m of c.members){assert(!used.has(m.ref));used.add(m.ref)}
- for(const w of d.strategic.workstreams)for(const m of w.members){const c=d.applications.connections.find(c=>c.members.some(x=>x.ref===m.ref));assert.equal(m.canonicalConnectionId,c?.id??null)}
+ // Shared assets are allowed across workflows, while each route retains unique members.
+ const connected=new Set();let occurrences=0;for(const c of d.applications.connections){assert.equal(new Set(c.members.map(m=>m.ref)).size,c.members.length);for(const m of c.members){connected.add(m.ref);occurrences++}}
+ assert.equal(connected.size,84);assert.equal(occurrences,87);assert(!connected.has('TA-IP-107'));
+ const planning=r.filterConnections(d,{asset:'TA-IP-075'});assert.deepEqual(Array.from(planning,c=>c.id),['TA-CN-032','TA-CN-035']);
+ const unionRefs=['TA-IP-042','TA-IP-075','TA-IP-102'],combined=r.connectionValues(planning,d);
+ for(const f of prices.fields){const expected=unionRefs.reduce((n,ref)=>n+prices.projects.find(p=>p.ref===ref).values[f.key],0);assert.equal(combined[f.key],expected,'shared QUBO counted once for '+f.key)}
+ assert(r.connectionSummary(planning,d).includes('3 distinct assets'));
+ assert(Object.values(r.connectionValues([],d)).every(n=>n===0));
+ const byId=id=>applications.connections.find(c=>c.id===id);
+ assert(!byId('TA-CN-015').members.some(m=>m.ref==='TA-IP-105'));
+ assert.deepEqual(byId('TA-CN-022').members.map(m=>m.ref),['TA-IP-016','TA-IP-006']);
+ assert.deepEqual(byId('TA-CN-034').members.map(m=>m.ref),['TA-IP-016','TA-IP-072']);
+ assert.equal(byId('TA-CN-029').status,'Redesign required');assert.equal(byId('TA-CN-006').status,'Research hold');assert.equal(byId('TA-CN-037').status,'Research hold');
+ for(const status of new Set(applications.connections.map(c=>c.status))){const rows=r.filterConnections(d,{status});assert(rows.length>0);assert(rows.every(c=>c.status===status))}
+ assert.equal(r.filterConnections(d,{status:'Research hold',asset:'TA-IP-075'}).length,0);
+ assert.equal(r.filterConnections(d,{query:'source-revision manifest',asset:'TA-IP-108'}).length,1);
+ const connectionHTML=r.connectionsPage(d),connectionText=connectionHTML.replaceAll('&#39;',"'").replaceAll('&quot;','"').replaceAll('&gt;','>').replaceAll('&lt;','<').replaceAll('&amp;','&');for(const c of applications.connections){assert(connectionText.includes(c.review.summary));for(const h of c.handoffs){assert(connectionText.includes(h.artifact));assert(connectionText.includes(h.acceptance))}}
+ assert(connectionHTML.includes('id="connection-status"'));assert(connectionHTML.includes('id="connection-selection"'));assert(connectionHTML.includes('application-combinations-v2.json'));
+ const spuf=r.project(d.projects.find(a=>a.ref==='TA-IP-016'),d);assert(spuf.includes('#bioacoustic-signal-review'));assert(spuf.includes('#radioastronomy-signal-review'));
+ const operationLinks=r.canonicalWorkflowLink(d.projects.find(a=>a.ref==='TA-IP-102'),d);assert(operationLinks.includes('TA-CN-027'));assert(operationLinks.includes('TA-CN-035'));
+ assert(!r.project(d.projects.find(a=>a.ref==='TA-IP-107'),d).includes('id="application-context"'));
+ const reversed={...d,applications:{...d.applications,connections:[...d.applications.connections].reverse()}};
+ r.validateStrategicFit(strategic,reversed); // Primary navigation must not depend on array order.
+ for(const mutate of [
+  a=>a.connections.push({...a.connections[0],slug:'other-slug'}),
+  a=>a.connections[1].slug=a.connections[0].slug,
+  a=>a.connections[0].members.push(a.connections[0].members[0]),
+  a=>a.connections[0].members[0].ref='TA-IP-107',
+  a=>a.connections[0].status='Integrated and production-ready',
+  a=>a.connections[0].review.summary='',
+  a=>a.connections[0].handoffs[0].to='TA-IP-128',
+  a=>a.connections[0].handoffs[0].to=a.connections[0].handoffs[0].from,
+  a=>a.connections[0].handoffs[0].acceptance='',
+  a=>a.connections[0].handoffs.push(a.connections[0].handoffs[0]),
+  a=>a.connections[2].handoffs.pop(),
+  a=>a.connections[0].privateSource='unexpected'
+ ]){const bad=JSON.parse(JSON.stringify(applications));mutate(bad);assert.throws(()=>r.validateBuyerInformation(dossiers,bad,d))}
+ // Exercise the actual filter binding, including URL initialization and empty/reset totals.
+ const handlers={},elements={};for(const id of ['connection-search','connection-category','connection-asset','connection-status'])elements[id]={value:id==='connection-search'?'':'all',options:[{value:'all'},...((id==='connection-status')?['Research hold','Research proposal'].map(value=>({value})):id==='connection-asset'?[{value:'TA-IP-075'}]:[])],addEventListener:(event,fn)=>{handlers[id]=fn}};
+ for(const id of ['connection-list','connection-count','connection-empty','connection-selection'])elements[id]={innerHTML:'',textContent:'',hidden:false};
+ sandbox.document.getElementById=id=>elements[id];sandbox.location.search='?asset=TA-IP-075&status=Research%20proposal';r.bindConnections(d);
+ assert.equal(elements['connection-asset'].value,'TA-IP-075');assert.equal(elements['connection-status'].value,'Research proposal');assert.equal(elements['connection-count'].textContent,'2 of 37 connections');
+ assert(elements['connection-selection'].innerHTML.includes('3 distinct assets'));assert(elements['connection-empty'].hidden);
+ elements['connection-search'].value='unmatched-connection-xyz';handlers['connection-search']();assert.equal(elements['connection-count'].textContent,'0 of 37 connections');assert(elements['connection-selection'].innerHTML.includes('0 distinct assets'));assert(!elements['connection-empty'].hidden);
+ for(const id of ['connection-category','connection-asset','connection-status'])elements[id].value='all';elements['connection-search'].value='';handlers['connection-search']();assert.equal(elements['connection-count'].textContent,'37 of 37 connections');assert(elements['connection-selection'].innerHTML.includes('84 distinct assets'));assert(elements['connection-empty'].hidden);sandbox.location.search='';
+ // A cached v40 bundle must still load its unchanged 33-route v1 endpoint.
+ const oldScript=childProcess.execFileSync('git',['show','34378bdffd921e33a2b40bf574fcfda64594774c:assets/im.js'],{cwd:root,encoding:'utf8'}),legacy=JSON.parse(fs.readFileSync(path.join(root,'assets/application-combinations.json'),'utf8'));
+ assert.equal(legacy.connections.length,33);
+ const oldSandbox={...sandbox,document:{currentScript:{src:'https://thearchitect-max.github.io/MyProjects/assets/im.js'}},fetch:async url=>{const file=new URL(url).pathname;return {ok:true,json:async()=>file.endsWith('/application-combinations.json')?legacy:file.endsWith('/pricing-catalogue.json')?prices:file.endsWith('/buyer-dossiers.json')?dossiers:file.endsWith('/evaluation-sources.json')?evaluationSources:file.endsWith('/musk-opportunities.json')?strategic:file.endsWith('/portfolio-reassessment-20261107.json')?reassessment:data}}};
+ vm.createContext(oldSandbox);vm.runInContext(oldScript.slice(0,oldScript.lastIndexOf(marker))+'globalThis.cachedLoad=load;})();',oldSandbox);const oldData=await oldSandbox.cachedLoad();assert.equal(oldData.applications.connections.length,33);
+
+ for(const w of d.strategic.workstreams)for(const m of w.members){const c=d.applications.connections.find(c=>c.members.some(x=>x.ref===m.ref));assert(c?d.applications.connections.some(c=>c.id===m.canonicalConnectionId&&c.members.some(x=>x.ref===m.ref)):m.canonicalConnectionId===null)}
  const badLink=JSON.parse(JSON.stringify(d.strategic));badLink.workstreams[0].members[0].canonicalConnectionId='TA-CN-999';assert.throws(()=>r.validateStrategicFit(badLink,d));
  // Check the public destination independently, including the Base58Check checksum.
  const address='38dn8ZDf11cYSMv8X1UUARsE2wqdmtjd36',contribution=r.contributionPage();
@@ -71,5 +122,5 @@ vm.createContext(sandbox);vm.runInContext(source,sandbox);
  sandbox.navigator={clipboard:{writeText:async value=>{copied=value}}};r.bindContribution();await click();
  assert.equal(copied,address);assert(status.textContent.includes('BTC address copied'));
  sandbox.navigator.clipboard.writeText=async()=>{throw new Error('Clipboard denied')};await click();assert(focused&&addressSelected);assert(status.textContent.includes('selected'));
- console.log(JSON.stringify({result:'PASS',contributionAddressChecksumValid:true,contributionCopyAndFallbackChecked:true,buyerProfilesRendered:128,mainPagesRendered:pages,applicationFilters:12,buyerFilters:10,uniqueProjectPresentations:128,perAssetBuyerFitAndDocuments:true,completePriceRecords:128,priceFieldsPerAsset:8,priceSourcesLinked:true,usdAmountsInCollection:256,calculationRows:128,unknownProjectFieldsRejected:true,strategicWorkstreams:6,distinctStrategicAssets:26,officialCompanySources:8,strategicSchemaAndFiltersChecked:true},null,2));
+ console.log(JSON.stringify({result:'PASS',contributionAddressChecksumValid:true,contributionCopyAndFallbackChecked:true,buyerProfilesRendered:128,mainPagesRendered:pages,applicationFilters:12,buyerFilters:10,uniqueProjectPresentations:128,perAssetBuyerFitAndDocuments:true,completePriceRecords:128,priceFieldsPerAsset:8,priceSourcesLinked:true,usdAmountsInCollection:256,calculationRows:128,unknownProjectFieldsRejected:true,strategicWorkstreams:6,distinctStrategicAssets:26,officialCompanySources:8,strategicSchemaAndFiltersChecked:true,connectionRoutes:37,distinctConnectedAssets:84,versionedConnectionMigrationChecked:true,overlappingAssetTotalsDeduplicated:true,connectionStageAndDOMFiltersChecked:true,connectionSchemaNegativeCases:12},null,2));
 })().catch(error=>{console.error(error);process.exitCode=1});

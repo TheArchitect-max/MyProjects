@@ -1,0 +1,8 @@
+/* Connections-only source reviews, handoffs and distinct-asset totals. */
+.connections-tools{grid-template-columns:minmax(180px,1.3fr) minmax(150px,1fr) minmax(200px,1.2fr) minmax(160px,.9fr)}
+.connection-review{padding:16px 0;margin:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.connection-review p{margin:0 0 10px}.connection-review p:last-child{margin-bottom:0}
+.connection-handoff{padding:14px 0;border-bottom:1px solid var(--line)}.connection-handoff h3{font-size:1rem;margin:0 0 10px}.connection-handoff p{margin:0 0 10px}
+.connection-selection .buyer-connection-totals{margin:18px 0}.connection-selection>p:last-child{margin-bottom:0}
+@media(max-width:1120px){.connections-tools{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.connections-tools{grid-template-columns:1fr}}
