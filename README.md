@@ -24,7 +24,9 @@ All eight financial references are presented in EUR and indicative USD, with a d
 
 Public product information supports initial screening. Confidential source, detailed validation, component, security and rights evidence is reviewed under agreed confidentiality. A transfer covers only expressly agreed first-party work and transferable rights. Third-party software, models, datasets, content and service entitlements retain their own terms. Delivery, recipient acceptance and any further work require separate written scope.
 
-Connections describe proposed workflows, not delivered integrations or additional assets. The separate “Strategic fit · Company-specific opportunities” analysis links existing assets to factual business contexts and the central Sources register. Independent seller-authored analysis. No affiliation, endorsement, commissioning or buyer interest is claimed. The visual-effects platform remains standalone.
+Connections now describe 37 source-reviewed workflow proposals involving 84 distinct assets. Projects can participate in several routes while retaining their separate identities, rights and prices. Source-review decisions, directed handoffs and acceptance requirements are visible per route; stage filtering and distinct-asset totals support comparison without double-counting shared projects. New routes cover radioastronomy, Operations–QUBO, narrative–manuscript assurance and property–recorded-state research. These remain proposals requiring separate joint qualification. See [the implementation and verification record](CONNECTIONS_UPDATE_2026-11-19.md).
+
+The current interface and publication generator use `assets/application-combinations-v2.json`; the original v1 endpoint remains unchanged for cached previous bundles. The separate “Strategic fit · Company-specific opportunities” analysis links existing assets to factual business contexts and the central Sources register. Independent seller-authored analysis. No affiliation, endorsement, commissioning or buyer interest is claimed. The visual-effects platform remains standalone.
 
 ## Publication and verification
 
