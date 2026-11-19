@@ -16,6 +16,6 @@ All eight monetary totals remove only the retired asset's corresponding contribu
 
 All **15 local publication controls PASS**, including explicit retirement checks and protection of every retained asset. These are website-publication controls, not reruns of the underlying products. Historical audit files describe their dated snapshots and are retained as audit history; they do not reintroduce the retired asset into the current offer.
 
-Pre-change verified main: `6549e9b3d2625e6d4f2f263f2dabaabf13101ec0`. The existing development branch is reused; no force-push or source-project change is authorized or performed. Live verification and the mandatory post-main documentation update follow publication.
+Pre-change verified main: `6549e9b3d2625e6d4f2f263f2dabaabf13101ec0`. The existing development branch is reused; no force-push or source-project change is authorized or performed. Live verification passed for all 199 publication paths, including HTTP 404 for the four retired paths. [Final verification](AUDIT_2026-11-19_MAPIP_REMOVAL_VERIFICATION.md) records the mandatory post-main documentation update.
 
 [Current financial references](https://thearchitect-max.github.io/MyProjects/valuation.html#full-portfolio-offer) · [Current reconciliation CSV](displays/price-reconciliation.csv) · [Local validation](audits/MAPIP_REMOVAL_20261119_LOCAL_VALIDATION.json).

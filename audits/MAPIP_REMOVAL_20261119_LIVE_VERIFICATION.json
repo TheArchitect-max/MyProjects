@@ -1,0 +1,1214 @@
+{
+  "schema": "asset-retirement-live-verification-1",
+  "date": "2026-11-19",
+  "publicationCommit": "acb41208ce47803aa4f2d1c9881781bf1842e53e",
+  "publicationTree": "bfeebb42f4e0bcfaecf7d4b80f9e8ae4ef0c72c6",
+  "result": "PASS",
+  "filesChecked": 199,
+  "retiredRoutes404": 4,
+  "currentProjects": 128,
+  "currentAskingEUR": 25866000,
+  "currentPackageAskingEUR": 23279400,
+  "files": [
+    {
+      "path": "404.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "646d270d1e789748c84fbb5e94267637585abb57"
+    },
+    {
+      "path": "AUDIT_2026-11-19_MAPIP_REMOVAL.md",
+      "result": "PASS",
+      "status": 200,
+      "sha": "d44a7e947845d3f0294a31505de705766ef87ae7"
+    },
+    {
+      "path": "README.md",
+      "result": "PASS",
+      "status": 200,
+      "sha": "12b5f85c594b277b8a66555dd7ea32453e928524"
+    },
+    {
+      "path": "acquisition-dossier/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "02307f1f6ab3e0f8ac0cfdd113b8859091d0c683"
+    },
+    {
+      "path": "acquisition.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "517d1e0d49ee6f65131a5b3f88a6fa47b478d0c0"
+    },
+    {
+      "path": "assets/buyer-catalogue.json",
+      "result": "PASS",
+      "status": 200,
+      "sha": "2443eb64d20be83cb046b1e6628a974515534b25"
+    },
+    {
+      "path": "assets/buyer-dossiers.json",
+      "result": "PASS",
+      "status": 200,
+      "sha": "533bc25f6f3e13b6fbe31abb51b6b414a00b2bc1"
+    },
+    {
+      "path": "assets/calculation-validation.json",
+      "result": "PASS",
+      "status": 200,
+      "sha": "a0180543a332e078b77975fd6f390940efab7664"
+    },
+    {
+      "path": "assets/evaluation-sources.json",
+      "result": "PASS",
+      "status": 200,
+      "sha": "5f9f7c07f02227188ca5b2fa24862529cbd4696b"
+    },
+    {
+      "path": "assets/im.js",
+      "result": "PASS",
+      "status": 200,
+      "sha": "7de2816a5855408080d1983ca5d9e71dfb6634d0"
+    },
+    {
+      "path": "assets/portfolio-identity-ledger.json",
+      "result": "PASS",
+      "status": 200,
+      "sha": "793d39bfcd037b4629eb4c2bc9fe01bd06cb7a92"
+    },
+    {
+      "path": "assets/portfolio-reassessment-20261107.json",
+      "result": "PASS",
+      "status": 200,
+      "sha": "c498d8f9d155dd04bf39ac90008c0529462af106"
+    },
+    {
+      "path": "assets/pricing-catalogue.json",
+      "result": "PASS",
+      "status": 200,
+      "sha": "b8916330bae8881da80413d679a898b78f677ae3"
+    },
+    {
+      "path": "assets/pricing-continuity-20261119.json",
+      "result": "PASS",
+      "status": 200,
+      "sha": "24fd959c6862bcbbf4a600d486535ac815f001b8"
+    },
+    {
+      "path": "assets/pricing-review-20261108.json",
+      "result": "PASS",
+      "status": 200,
+      "sha": "6e283e4695f2e298a4baa5673c2c30e85ae845ef"
+    },
+    {
+      "path": "assurance.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "324923b55390b0aa5306da431d137becbd28c509"
+    },
+    {
+      "path": "audits/MAPIP_REMOVAL_20261119_LOCAL_VALIDATION.json",
+      "result": "PASS",
+      "status": 200,
+      "sha": "0544528699dc0ae82e7662da974e0f80b5ea8c1a"
+    },
+    {
+      "path": "buyers.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "98a2204620d6a5d471a64f7e7a6ca96362b20db6"
+    },
+    {
+      "path": "commercialization.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "7fe943a345d2741e11cfff2e3eee24052fbf7b10"
+    },
+    {
+      "path": "connections.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "1dd7d046cebca0674782442420b916f1783a0eed"
+    },
+    {
+      "path": "contribution.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "98fe6f1df196b1e7010d6f4e2392df91f7086710"
+    },
+    {
+      "path": "displays/assets/buyer-catalogue.json",
+      "result": "PASS",
+      "status": 200,
+      "sha": "2443eb64d20be83cb046b1e6628a974515534b25"
+    },
+    {
+      "path": "displays/assets/buyer-dossiers.json",
+      "result": "PASS",
+      "status": 200,
+      "sha": "533bc25f6f3e13b6fbe31abb51b6b414a00b2bc1"
+    },
+    {
+      "path": "displays/assets/calculation-validation.json",
+      "result": "PASS",
+      "status": 200,
+      "sha": "a0180543a332e078b77975fd6f390940efab7664"
+    },
+    {
+      "path": "displays/assets/evaluation-sources.json",
+      "result": "PASS",
+      "status": 200,
+      "sha": "5f9f7c07f02227188ca5b2fa24862529cbd4696b"
+    },
+    {
+      "path": "displays/assets/pricing-catalogue.json",
+      "result": "PASS",
+      "status": 200,
+      "sha": "b8916330bae8881da80413d679a898b78f677ae3"
+    },
+    {
+      "path": "displays/catalogue.csv",
+      "result": "PASS",
+      "status": 200,
+      "sha": "28d416e6f3cda84478438ea33ab44c08c40f5b88"
+    },
+    {
+      "path": "displays/identity-register.csv",
+      "result": "PASS",
+      "status": 200,
+      "sha": "efe64ab0e7c20568647643b345af66201150ed40"
+    },
+    {
+      "path": "displays/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "a08ce3954cc2377a2f5749d20adc0bb2ad7a0852"
+    },
+    {
+      "path": "displays/price-reconciliation.csv",
+      "result": "PASS",
+      "status": 200,
+      "sha": "20c08976d4006539084123808b8d80866f27f781"
+    },
+    {
+      "path": "displays/products/media-acquisition-processing-intelligence-platform/factsheet.pdf",
+      "result": "PASS",
+      "status": 404,
+      "retired": true
+    },
+    {
+      "path": "displays/products/media-acquisition-processing-intelligence-platform/index.html",
+      "result": "PASS",
+      "status": 404,
+      "retired": true
+    },
+    {
+      "path": "displays/products/media-acquisition-processing-intelligence-platform/product-brief.md",
+      "result": "PASS",
+      "status": 404,
+      "retired": true
+    },
+    {
+      "path": "displays/project-map.json",
+      "result": "PASS",
+      "status": 200,
+      "sha": "86db7ad87de749a1db6d2bd2255a43343d36edd7"
+    },
+    {
+      "path": "evidence.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "8dc01cca52d5184a7a4bdb3d1351f62aae4bc177"
+    },
+    {
+      "path": "identities.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "04a6286ecdc4f795d36ba9e2789700aa8f99edd2"
+    },
+    {
+      "path": "index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "32fe103983f8ade9d7c44524f798badd2b4dfdad"
+    },
+    {
+      "path": "musk.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "a51d2f2a1c9f2498f680ddf5253d6ff83e1be814"
+    },
+    {
+      "path": "notice.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "24769e47f70e67f422328e61b1642715adfbdfaa"
+    },
+    {
+      "path": "policy.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "55c683d5f171e86d5bc2c504be56ee73ed9a88f1"
+    },
+    {
+      "path": "portfolio-evaluation.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "a59e8ee582c9a190757789f2451f7aaf70483b8f"
+    },
+    {
+      "path": "portfolio-pricing-review.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "9d0915dbed01fcfab7d902ddaab3e1cb30cbb2c0"
+    },
+    {
+      "path": "portfolio-register.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "cdeb4fd362d7aaddc08b98b9646677a8a54c2c20"
+    },
+    {
+      "path": "portfolio-thesis.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "66a43a781c0bc4e7f6874842f705aaa085d769b4"
+    },
+    {
+      "path": "portfolio-thesis.md",
+      "result": "PASS",
+      "status": 200,
+      "sha": "67aaea6627248c6615507e82ed8c8d278ff3dbc0"
+    },
+    {
+      "path": "portfolio.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "d7a3df2b6c8a7ddaa43b491af34dc153844d5a2f"
+    },
+    {
+      "path": "professional-services.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "d110cd78df4a7d16ef94ca0b9698d32025c5be12"
+    },
+    {
+      "path": "projects/adaptive-audio-midi-transcription-studio/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "008d8974fd1834aa97eaacf9b230837ac6253ff6"
+    },
+    {
+      "path": "projects/adaptive-audio-production-system/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "d14ff606d638ddf53a4f4f09cdc098d43ccb4991"
+    },
+    {
+      "path": "projects/adaptive-audio-synthesis-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "a2519e2588cc58ce1008b9ab67e83993b6d04177"
+    },
+    {
+      "path": "projects/adaptive-biofeedback-engine/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "9ecb095317c1cb0bfdafbab17fcf69303d4d09d9"
+    },
+    {
+      "path": "projects/adaptive-cognitive-runtime/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "3e925e5d188b6182a0e97ffd7042643911fa6068"
+    },
+    {
+      "path": "projects/adaptive-general-reasoning-research-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "9c336f569ddaeeac283586fa4cc1d75f8076f92e"
+    },
+    {
+      "path": "projects/adaptive-network-resilience-intelligence-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "cf195b06ea156bd51afd96e58942eb05c935f50c"
+    },
+    {
+      "path": "projects/adaptive-neural-architecture-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "89a99418ee7f170d71329be8008c9297c4dceb14"
+    },
+    {
+      "path": "projects/adaptive-neurodynamics-engineering-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "e51a2d9e2733ed0369cb0d311fcda940da03039e"
+    },
+    {
+      "path": "projects/adaptive-systems-intelligence-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "832703b9fc583cf7159095dd3d61d46d9202df1a"
+    },
+    {
+      "path": "projects/advanced-general-purpose-ai-systems-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "a764f5be669cd0b924545bdd131501c48799a73c"
+    },
+    {
+      "path": "projects/advanced-ground-vehicle-engineering/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "37d09a1d44a78a1a00761927d1ba57ea5c022bca"
+    },
+    {
+      "path": "projects/aerospace-mission-simulator/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "f85a61352f5cd968b23491f8408f4935acf35462"
+    },
+    {
+      "path": "projects/air-to-water-transition-vehicle/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "be163e1722ad382e481e833c8449fbbfdc2d1cf6"
+    },
+    {
+      "path": "projects/aletheia-intelligence-fabric/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "13125e0f5f0cf9a340d8531da0d89c900a7256fb"
+    },
+    {
+      "path": "projects/art-direction-visual-design-research-framework/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "8da26387634d5568fa5562ac7aa1f6dfc46844b8"
+    },
+    {
+      "path": "projects/aurynthiq-autonomous-dj-intelligence-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "1dd25b4b9ca23055a5446b1b90202de66a919039"
+    },
+    {
+      "path": "projects/autonomous-adaptation-framework/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "41b52c8dbed83bda67227360e6d77ae92ba39584"
+    },
+    {
+      "path": "projects/autonomous-documentary-engine/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "42cdc9cfae438a4f8e6ba6264d9a4004cf40fcd9"
+    },
+    {
+      "path": "projects/autonomous-financial-value-creation-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "cbe45683a149f76e57e4d1e824b7229a33a92b63"
+    },
+    {
+      "path": "projects/bio-inspired-neural-dynamics-active-inference-simulation-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "1574208a4d95ee7c2670ba392811bd0c4fc8cafe"
+    },
+    {
+      "path": "projects/biometric-systems-assurance-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "1c02bbd05b86434240d20fc4eb92303a868f4aea"
+    },
+    {
+      "path": "projects/cardiosignal-intelligence-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "702274a030bf50e7aadd3569f28b6799a0024e63"
+    },
+    {
+      "path": "projects/causal-state-field-engine/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "397da7eccf475e68ddb58cdc37f30de3c2ff0b14"
+    },
+    {
+      "path": "projects/chess-strategic-intelligence-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "d5349c7f6b50e76d62a0b2ce95a436a6b86cb56c"
+    },
+    {
+      "path": "projects/chimera-spectral-perception-system/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "5c391f346ffec51ec858126712f9b6ab8550325e"
+    },
+    {
+      "path": "projects/cipher-lyric-engine/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "8cc1fc570e72bdabdfc887ae41e53ba11eb4e55c"
+    },
+    {
+      "path": "projects/cipherroutedb/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "e4b65327f85b530aa97ab237beae5432a5f57b92"
+    },
+    {
+      "path": "projects/closed-cycle-energy-research-verification-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "f4ba794c3f2681ee6f6652510fa0479d9a4d8e21"
+    },
+    {
+      "path": "projects/collective-reality-engine/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "878bf69fe423acd7be31c5fdf0dd36a837820d01"
+    },
+    {
+      "path": "projects/content-integrity-assurance-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "247e4b82fc8c95a312728e0f109e21a831e17432"
+    },
+    {
+      "path": "projects/continuum-state-integrity-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "e27cd3c94ef05f05a93376734901abd9a8d608d0"
+    },
+    {
+      "path": "projects/cosmological-structure-and-expansion-research-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "a54f46b3998d59f5ac6e49d86f20eed7d4524799"
+    },
+    {
+      "path": "projects/custody-integrity-assurance-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "9e912d5d7477571f67a0cf331c049b04595b70ec"
+    },
+    {
+      "path": "projects/digital-template-commerce-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "362b27a58930b45bda6645a0423e0c9f207456e1"
+    },
+    {
+      "path": "projects/distributed-ai-resource-fabric/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "59abfdff49910cbbd3f31b95d3a120570f3eacf9"
+    },
+    {
+      "path": "projects/distributed-compute-fabric/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "67c57675b07aa26f53931aec73c67eb805857a38"
+    },
+    {
+      "path": "projects/dmt-laser-phenomenology-engine/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "d70aecdd07a52877377b260cdd9f5ec69339be01"
+    },
+    {
+      "path": "projects/dominus-kraken-execution-engine/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "34abbda47b0ad32966d4551cac33f9d3a1bb0d1c"
+    },
+    {
+      "path": "projects/electric-flight-systems-simulation-validation-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "e33f19bbd333789ccfe44b71de4d34b4004bff74"
+    },
+    {
+      "path": "projects/engineering-intelligence-mastery-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "460776fd737718b76972f4370ab29766f6214afe"
+    },
+    {
+      "path": "projects/evidence-governed-analytical-reasoning-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "c20f209f5e16bcfd41a66c128bd39fbfb8cbfef3"
+    },
+    {
+      "path": "projects/evidence-governed-intelligence-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "7e475778293d21d12cb8c321c342a575d0fbf0f8"
+    },
+    {
+      "path": "projects/evidence-governed-software-assurance-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "57818567286ad2b1fb24c1d5e391bb5386dcd078"
+    },
+    {
+      "path": "projects/evidence-governed-visual-intelligence-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "b1b7086e8d87164255cc6599906b61df670d6763"
+    },
+    {
+      "path": "projects/evidence-grounded-multi-expert-reasoning-system/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "5a48e6b923df25fd7ad1f9650ece852e5247ccf9"
+    },
+    {
+      "path": "projects/evidence-intelligence-operations-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "eb8b79bb74349b4823b66a51cfb26d2caa7aec6b"
+    },
+    {
+      "path": "projects/faunometric/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "c5d95cf41ffa9b27bc86b98ae5ecec267c5eb178"
+    },
+    {
+      "path": "projects/foundational-existence-research-framework/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "56c54a2f66ccb8bf91074126d09ddc53fda4763a"
+    },
+    {
+      "path": "projects/fractal-physics-discovery-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "5499d9fc25d801f79df3fb6b1b77e4e0fd1d38a7"
+    },
+    {
+      "path": "projects/fundamental-dark-sector-research-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "bb827bca7cf6df6c77546ef5db6c88146968b727"
+    },
+    {
+      "path": "projects/fundamental-reality-research-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "e2cd5aca13d726647bd33f131b8731d9553ca6ec"
+    },
+    {
+      "path": "projects/fusionlunar-energy-systems-engineering-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "860bb1347d742a69e83f231615cf8e3721fa5d0c"
+    },
+    {
+      "path": "projects/generative-media-production-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "629b04dd8b36af36219e3cb2d97495ba6d4678f9"
+    },
+    {
+      "path": "projects/goldennet-signal-intelligence-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "6d7400caf95b734335020feedf73141465b49811"
+    },
+    {
+      "path": "projects/gossquibble/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "f95d29624589a5ba2bb79e939681d88f148b2b0b"
+    },
+    {
+      "path": "projects/h-rm-lyra-automotive-lyra-rs-3-6t/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "e7e24f583c22d2a092afb7e9c7eeff07ead4f9b7"
+    },
+    {
+      "path": "projects/higher-dimensional-geometry-visualization-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "df99bfa710aa7a82b98223ef84abaeca3a7be0ab"
+    },
+    {
+      "path": "projects/industrial-predictive-maintenance-rul-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "0d36e06053e3d5526ca181a809b19c504dd95cdf"
+    },
+    {
+      "path": "projects/integrated-media-production-engine/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "f151cccaed7718e021b4f9ae6343b818cf82ca8f"
+    },
+    {
+      "path": "projects/intelligent-media-acquisition-production-engine/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "19b079eaddd423ed6bdd9f59d3eecd9e9dcb4d93"
+    },
+    {
+      "path": "projects/interactive-piano-learning-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "b8680ee2d7211de0af948b0297f3d37b15ad9bc0"
+    },
+    {
+      "path": "projects/isbr-securetrace/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "d0798d3c98a2de84d7ca9bd440bc0a80dce939e0"
+    },
+    {
+      "path": "projects/kinetic-logic-reconstructor/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "c117fe0b7c61cd38e99e004be494411c7e97d8af"
+    },
+    {
+      "path": "projects/latticedepth/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "d7c3b67dca4c83c30f0695894826a359f8c70d42"
+    },
+    {
+      "path": "projects/launch-cislunar-transportation-engineering-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "82e260a3e4d9a5489f123e6b06a9388b830c6212"
+    },
+    {
+      "path": "projects/learnpiano/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "3d22769190bd3536486b1f1f70cd7694682b0de7"
+    },
+    {
+      "path": "projects/legalops-nl/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "d7a0a225c7fb4e0f0f4d5932319ac12a3670312b"
+    },
+    {
+      "path": "projects/lyra-aero-evtol/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "771da90bd2b08d5147e8aeff8839aa126e5402f2"
+    },
+    {
+      "path": "projects/maastricht-digital-twin/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "10643a4a7271b3487f3863eb56b9e7bb798457da"
+    },
+    {
+      "path": "projects/maastricht-zero-hour-simulator/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "3c770d854478d4f2078b1465137770b3e02e238c"
+    },
+    {
+      "path": "projects/machine-cognition-research-framework/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "c4071f2585161bd31664c520bae26bbedc8177c8"
+    },
+    {
+      "path": "projects/manuscript-integrity-publishing-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "e3d91a7679e6849146e9a70942571d1a9bd2eeb3"
+    },
+    {
+      "path": "projects/media-acquisition-processing-intelligence-platform/index.html",
+      "result": "PASS",
+      "status": 404,
+      "retired": true
+    },
+    {
+      "path": "projects/mercorion-commerce-compiler/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "51dde9a34a0a953670e8d223d3692c285685ac54"
+    },
+    {
+      "path": "projects/mission-to-execution-engineering-framework/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "b91f91aa71d4425b9967cf90a7252b08ab9be278"
+    },
+    {
+      "path": "projects/modular-aerospace-research-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "ce3e497795d77f7e9afb6ac68084a0e2110b31ba"
+    },
+    {
+      "path": "projects/modular-key-cryptanalysis-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "2d7222fcaf83c99dd941f53aa4a6f1d160395d78"
+    },
+    {
+      "path": "projects/mt2050-experimental-dynamics/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "68c027ef2faf0da4dedfc69aeb2026873c728cc6"
+    },
+    {
+      "path": "projects/multimodal-evidence-adaptive-systems-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "f4ddb089dbf2474cf0930fa4ac261871194572a1"
+    },
+    {
+      "path": "projects/narrative-collectibles-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "9f74c8bd27c6e9bd92da2648ad57184e53dcc339"
+    },
+    {
+      "path": "projects/oraculum-infinitum/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "cad309dc20dd2fd972d9a21d15ddaf93e1587514"
+    },
+    {
+      "path": "projects/organismal-state-dynamics-research-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "19339270041657f7784a47d72ce0dd8dae9d0aa4"
+    },
+    {
+      "path": "projects/organizational-memory-engine/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "a7617d04c3ff79d76156b8e2628361dd671cf2bf"
+    },
+    {
+      "path": "projects/plant-environment-decision-intelligence-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "5c713d91ec54ab7806c74ef33675576542441d8e"
+    },
+    {
+      "path": "projects/programmatic-search-fabric/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "10e454ee2dd913044f603dcf55ce1ca6536abd38"
+    },
+    {
+      "path": "projects/protein-structure-evidence-qualification-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "2e3d58c025a08c76a5a2889ac891d991d272ba00"
+    },
+    {
+      "path": "projects/quantum-cryptanalysis-engineering-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "59b332970aef2bfdf51749e0db2d5fa7ea82de87"
+    },
+    {
+      "path": "projects/qubo-structural-analysis-and-optimization-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "845056d4c70ee29d15daffcf03432b355075d86b"
+    },
+    {
+      "path": "projects/radioastronomy-signal-validation-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "6170135922f607e42cef973e13616c0a96f2d3a7"
+    },
+    {
+      "path": "projects/reality-substrate-hypothesis-testing-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "bcf7fde27bd0c9a8ab9de31056d09ccda9254151"
+    },
+    {
+      "path": "projects/research-intelligence-fabric/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "c08982e294f36f156614146b89f39f828a220fbe"
+    },
+    {
+      "path": "projects/resource-aware-hybrid-model-orchestration-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "2bf5abe4b921c7adc1eb1d1e9499a00fd5514423"
+    },
+    {
+      "path": "projects/secure-actuation-integrity-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "31e9a8fe38e618a9c3e202b919eb67f5ac29e5c6"
+    },
+    {
+      "path": "projects/signal-processing-universal-framework/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "fa5ba24a601faa36232e2834cfe9c21086629316"
+    },
+    {
+      "path": "projects/software-asset-engineering-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "fc5c3e04864afc0b887d852b1a22ec7cd8b70b3c"
+    },
+    {
+      "path": "projects/software-asset-provenance-qualification-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "e6435268a09cfbb4722b873952b74f539b4f8922"
+    },
+    {
+      "path": "projects/sonicfabric/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "44809717d3d3bdef1017506176e0c8ad3206a2b1"
+    },
+    {
+      "path": "projects/spatial-wearable-perception-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "5f5744b3f1c1480d8e66cba3daaaee69554c973b"
+    },
+    {
+      "path": "projects/stabilitymesh/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "03d6f9a9cc51c92ed24e58b56db003475262208c"
+    },
+    {
+      "path": "projects/swpp-viorith-mobile-camera-overlay/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "720f85ff2d21ddb5afa8ae64ebdcf4c06c9c8b0e"
+    },
+    {
+      "path": "projects/synthetic-consciousness-engineering-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "edb0e5d806a1e3ae027ce75bee860b8f4ac7a9a8"
+    },
+    {
+      "path": "projects/telluric-actualization-research-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "26da74f43bccce4dc9c00a7e2ca5984595c409dc"
+    },
+    {
+      "path": "projects/temporal-causality-breakthrough-research-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "ca8658f4afba28ec5a6643d787089f99d94735a3"
+    },
+    {
+      "path": "projects/temporal-physics-causality-research-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "24aa81311e5406c1b51b41edf97d87f30d5937cb"
+    },
+    {
+      "path": "projects/the-stone-universe-research-framework/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "faa3a5b7497a688899d2cce8943e7d7c9dd2fe88"
+    },
+    {
+      "path": "projects/three-card-poker-decision-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "b0164c13cfc7a26a63a2216ffd9b57d1ed8257da"
+    },
+    {
+      "path": "projects/tls-virtual/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "aa29df099bdd8a8fcbb0a31c2b7ad7b25e8f370c"
+    },
+    {
+      "path": "projects/traceline-evidence-governed-investigation-framework/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "0b1e34b74e8018c896be1d91166c643815b4d54e"
+    },
+    {
+      "path": "projects/truelane-inkcore/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "2cd47e8c50d4dcad474ca388f229ae592f95b91c"
+    },
+    {
+      "path": "projects/truelane-studio-apex-architect/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "fa10c18361f0b2bc16c7c773ed5303a580d281ac"
+    },
+    {
+      "path": "projects/universal-capability-synthesis-engine/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "22f17dc511eeb503f49951d97ef1dbdfad488880"
+    },
+    {
+      "path": "projects/universal-cognitive-intelligence-architecture/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "8bd7c4e41057658c6ff1ebeaae7aa93cae91d299"
+    },
+    {
+      "path": "projects/universal-digital-cloning-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "1b84ad8a7e71beb55d8897c07a688e25a1a0c413"
+    },
+    {
+      "path": "projects/universal-independent-reasoning-framework/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "69098a1bf66b6d73e7cc4c2e9f8e204d4cee048a"
+    },
+    {
+      "path": "projects/universal-kernel-machine/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "5c14409dc47e3dacb362fe1b93cc77e6d133cc0f"
+    },
+    {
+      "path": "projects/universal-operations-orchestration-intelligence-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "c9d3fab8b4eb56e242320203a229b5094065f497"
+    },
+    {
+      "path": "projects/universal-property-intelligence-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "bfe5edf90ce07eb23b5b2d2d80db69a4f9c9bd43"
+    },
+    {
+      "path": "projects/universal-remote-perception-intelligence-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "44be704568da14bb9ae84736f912308ed8c0b964"
+    },
+    {
+      "path": "projects/universal-sensor-fusion-digital-twin-intelligence-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "4b2aaade8952cfb28fc2538b3f850e11b2568341"
+    },
+    {
+      "path": "projects/universal-systems-intelligence-engine/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "73ab8fde882c23c49a70c7238a4f25e64cb63869"
+    },
+    {
+      "path": "projects/universal-vehicle-configuration-database/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "02712b8b0d9aff6c63df1df0eafb9f7ef9d1aa4c"
+    },
+    {
+      "path": "projects/universal-video-intelligence-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "92ecb459df34aa8b5762895a50270d5ad15e83c4"
+    },
+    {
+      "path": "projects/vellumgrid-autonomous-commerce-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "7b911093e29ac88aa3fd3cb1ade23c172cf2c326"
+    },
+    {
+      "path": "projects/verifiable-execution-control-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "43d5d430de7693857bbf5b877e0300b07e713c82"
+    },
+    {
+      "path": "projects/veritas-evidence-intelligence/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "ddf9e3fe8841b9f0ce10476483d39401e9e66720"
+    },
+    {
+      "path": "projects/vision-evidence-governed-multimodal-perception-framework/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "e5070355041a11bbe835e8a764203242a3e62a05"
+    },
+    {
+      "path": "projects/visionair-research-engine/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "a83d7a017998dbf0354426ec575a6f46c62ff0e3"
+    },
+    {
+      "path": "projects/visual-effects-spatial-computing-platform/index.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "041ff380bc17886b27f128581ebd602ee5f1c5aa"
+    },
+    {
+      "path": "proof.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "9e792b6d30684fcbe842e4c2351945f48041edbe"
+    },
+    {
+      "path": "sitemap.xml",
+      "result": "PASS",
+      "status": 200,
+      "sha": "9e9d18f579631ced69ebf29c40426d949e4ba055"
+    },
+    {
+      "path": "sources.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "da0c3d397d1842832a584377034144402603e25f"
+    },
+    {
+      "path": "tools/build_pages.py",
+      "result": "PASS",
+      "status": 200,
+      "sha": "a3e217d5fabf0a82a94164674292c73fc10c320d"
+    },
+    {
+      "path": "tools/build_project_factsheets.py",
+      "result": "PASS",
+      "status": 200,
+      "sha": "68f7bb40526ff1397b7a0f5b1af3cea8d8911be9"
+    },
+    {
+      "path": "tools/sync_project_publications.py",
+      "result": "PASS",
+      "status": 200,
+      "sha": "afaafef1b6823c3f8fb44cf196bda5c4b84cdca4"
+    },
+    {
+      "path": "tools/validate_buyer_information.py",
+      "result": "PASS",
+      "status": 200,
+      "sha": "9c29ea9d4d82fea1154211d87d473d2d85e15f52"
+    },
+    {
+      "path": "tools/validate_buyer_showroom.cjs",
+      "result": "PASS",
+      "status": 200,
+      "sha": "213bda152b53a99f4c8a05d79c3d8cec1864b721"
+    },
+    {
+      "path": "tools/validate_disclosure.py",
+      "result": "PASS",
+      "status": 200,
+      "sha": "d5f4ef199c914f7a990732dd0c384854847a383e"
+    },
+    {
+      "path": "tools/validate_display_publication_math.cjs",
+      "result": "PASS",
+      "status": 200,
+      "sha": "e9e5e1ab87ac7de429b1975b3a96f0fa78dd9247"
+    },
+    {
+      "path": "tools/validate_full_portfolio_offer.cjs",
+      "result": "PASS",
+      "status": 200,
+      "sha": "ef872dbbd0c01ece35dd5081d5026e911e5726c4"
+    },
+    {
+      "path": "tools/validate_identities.py",
+      "result": "PASS",
+      "status": 200,
+      "sha": "63b3ec4a85997b2aa0c44d51b7977b0b81d20716"
+    },
+    {
+      "path": "tools/validate_portfolio_121.cjs",
+      "result": "PASS",
+      "status": 200,
+      "sha": "244f0a34cba39e96030b14024e66204365c84f0f"
+    },
+    {
+      "path": "tools/validate_price_continuity.py",
+      "result": "PASS",
+      "status": 200,
+      "sha": "fe6c92de8e0e14d712c2a9338081dfcdcb9441a8"
+    },
+    {
+      "path": "tools/validate_prices.py",
+      "result": "PASS",
+      "status": 200,
+      "sha": "e7aaad413825f70b5eaf8bbbb69903e10388627b"
+    },
+    {
+      "path": "tools/validate_pricing_math.cjs",
+      "result": "PASS",
+      "status": 200,
+      "sha": "5136a2c46ba05ad51034b39002a33cdc896c6b64"
+    },
+    {
+      "path": "tools/validate_project_refresh.py",
+      "result": "PASS",
+      "status": 200,
+      "sha": "31abea116bca80e5e82ae8b99dc8d36f286a6825"
+    },
+    {
+      "path": "tools/validate_publication.py",
+      "result": "PASS",
+      "status": 200,
+      "sha": "3cad0423c532e5a2d59dff247efb85482fae936c"
+    },
+    {
+      "path": "tools/validate_removed_asset.py",
+      "result": "PASS",
+      "status": 200,
+      "sha": "6d69d93cd9b9588ebda052c8dca9c06e6e2087a8"
+    },
+    {
+      "path": "tools/validate_revaluation.py",
+      "result": "PASS",
+      "status": 200,
+      "sha": "951049d2bfb840eb255405335d43377dd6c3e8f1"
+    },
+    {
+      "path": "transaction.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "156d0b71039c96666eadb213c8b12fe38d9e4854"
+    },
+    {
+      "path": "transfer.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "95fa82341c2af72a482b1f9a560c5cd35b9f6c04"
+    },
+    {
+      "path": "valuation.html",
+      "result": "PASS",
+      "status": 200,
+      "sha": "9ed1f1cf877de92b31849352f1c00392e839fd1b"
+    }
+  ],
+  "verifiedMainBeforeDocumentation": {
+    "commit": "acb41208ce47803aa4f2d1c9881781bf1842e53e",
+    "tree": "bfeebb42f4e0bcfaecf7d4b80f9e8ae4ef0c72c6",
+    "openPRs": 0
+  },
+  "documentationBoundary": "Only this verification report, its JSON evidence and the current removal audit are updated afterward. Prices, active catalogue, source records, code and retained project documents remain unchanged."
+}
