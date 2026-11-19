@@ -7,7 +7,7 @@ const path = require('node:path');
 const base = path.resolve(__dirname, '..');
 const authoritative = fs.readFileSync(path.join(base, 'assets/pricing-math.js'));
 const display = fs.readFileSync(path.join(base, 'displays/assets/pricing-math.js'));
-assert(authoritative.equals(display), 'The displays calculator is behind the 128-asset canonical calculator');
+assert(authoritative.equals(display), 'The displays calculator is behind the 129-asset canonical calculator');
 const record = JSON.parse(fs.readFileSync(path.join(base, 'assets/pricing-catalogue.json')));
 const publication = JSON.parse(fs.readFileSync(path.join(base, 'displays/assets/pricing-catalogue.json')));
 assert.deepStrictEqual(publication, record, 'Published price data differs');
@@ -16,9 +16,9 @@ assert.equal(reported.publicFiles.calculationModule.sha256,
   crypto.createHash('sha256').update(display).digest('hex'));
 const verify = require(path.join(base, 'displays/assets/pricing-math.js')).verifyCatalogue(publication);
 assert.equal(verify.status, 'PASS');
-assert.equal(verify.summary.projects, 128);
-assert.equal(verify.summary.modelOutputs, 512);
-assert.equal(verify.summary.usdConversions, 1024);
-assert.equal(publication.portfolio.sellerAskEUR, 25274000);
+assert.equal(verify.summary.projects, 129);
+assert.equal(verify.summary.modelOutputs, 516);
+assert.equal(verify.summary.usdConversions, 1032);
+assert.equal(publication.portfolio.sellerAskEUR, 25941000);
 console.log(JSON.stringify({result:'PASS',displayCalculator:'same-as-authoritative',
-  pricedAssets:128,modelOutputs:512,usdChecks:1024,datedAskingReferencesEUR:25274000},null,2));
+  pricedAssets:129,modelOutputs:516,usdChecks:1032,datedAskingReferencesEUR:25941000},null,2));

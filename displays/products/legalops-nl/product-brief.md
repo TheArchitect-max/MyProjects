@@ -25,6 +25,7 @@ The v0.8 prototype and unmerged v0.9 investigation-workspace candidate have sepa
 - Record citation evidence
 - Track source changes
 - Manage human review queues
+- Written development: Written matter-graph workspace and integrated architecture documentation
 
 ## Output types
 
@@ -41,16 +42,16 @@ The v0.8 prototype and unmerged v0.9 investigation-workspace candidate have sepa
 - Technical scope: P — A Dutch and EU legal-operations prototype for structured knowledge and reviewable evidence. The offered edition and material boundaries govern review.
 - Evidence and validation: E3 — Tests, validation and provenance/release evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
-Offered first-party scope: Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+Offered first-party scope: The agreed first-party main work and separately identified written development delta, with their distinct source manifests and acceptance status. Future completion, operations and third-party entitlements require separate terms.
 
-Development: Open, unmerged development: docs: geïntegreerde LegalOps-NL bouwroadmap en hybride systeemarchitectuur; v0.9.0 — Matter Graph and complex-dossier workspace This is outside the offered main-source budget.
+Development: Written matter-graph workspace and integrated architecture documentation. Written first-party work; release acceptance remains unresolved.
 
 ## Conditions before handover
 
-- A security assessment or an explicit statement of its absence is required before acceptance.
+- Freeze the agreed main and written-development sources, first-party rights, pending acceptance and delivery manifest before transfer.
 - An explicit delivery manifest and handover scope remain to be agreed.
 
 ## Qualification objectives
@@ -65,28 +66,34 @@ Development: Open, unmerged development: docs: geïntegreerde LegalOps-NL bouwro
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 100,000 | 109,680 |
-| Negotiation reference - low | 80,000 | 87,744 |
-| Negotiation reference - high | 125,000 | 137,100 |
-| Recreation cost estimate | 550,000 | 603,240 |
-| Marketability cost scenario | 591,388 | 648,634 |
-| Monetisation cost scenario | 640,406 | 702,397 |
-| Risk-adjusted strategic reference | 495,849 | 543,847 |
-| Weighted economic reference | 557,406 | 611,363 |
+| Seller asking reference | 113,500 | 124,487 |
+| Negotiation reference - low | 90,800 | 99,589 |
+| Negotiation reference - high | 141,875 | 155,609 |
+| Recreation cost estimate | 595,000 | 652,596 |
+| Marketability cost scenario | 639,774 | 701,704 |
+| Monetisation cost scenario | 692,803 | 759,866 |
+| Risk-adjusted strategic reference | 536,419 | 588,344 |
+| Weighted economic reference | 603,012 | 661,384 |
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+Published baseline retained once: recreation EUR 550,000, seller ask EUR 100,000. Additional identified work adds recreation EUR 45,000 and ask EUR 13,500. Written development is separately included with acceptance unresolved. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Preserved seller asking baseline EUR 100,000; add EUR 13,500 for Written matter-graph workspace and integrated architecture documentation. Added recreation allowance EUR 45,000, from 420 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once.
+
+- Written matter-graph workspace and integrated architecture documentation — 420 assumed hours; WRITTEN_CANDIDATE_DELTA
+
 ## Individual source review
 
-Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source documents evidence hash/proposition records, human-review queues, deterministic release-gate; PR #8 is unmerged and unaccepted.
+Reviewed first-party work: Citation, evidence and provenance workflow core; Snapshots, review queues and release-package logic; Shell workflow, local tooling and document exports. Written development: Written matter-graph workspace and integrated architecture documentation. Existing written work only; acceptance and future completion remain separate. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: Embedded historical legal assertions remain unverified at proposition level; no legal-advice certification or current statutory assurance. v0.9 not released.
 
-Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
+Price decision: Preserved seller asking baseline EUR 100,000; add EUR 13,500 for Written matter-graph workspace and integrated architecture documentation. Added recreation allowance EUR 45,000, from 420 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -94,6 +101,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/legalops-nl/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/legalops-nl/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

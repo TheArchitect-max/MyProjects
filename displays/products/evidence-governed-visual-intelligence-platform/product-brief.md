@@ -43,7 +43,7 @@ AEGIS Vision v2.9.0 has repository-retained internal deterministic validation an
 - Technical scope: V — A visual-evidence analysis asset that makes interpretations and disagreements reviewable. The offered edition and material boundaries govern review.
 - Evidence and validation: E4 — E3 plus repository-retained independent/external validation evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
 Offered first-party scope: Existing first-party 2.9.0 source (default-branch snapshot), including the described implemented increment. No visual-accuracy, always-on monitoring, hidden remote-model identity, production, legal or independent-certification premium is included.
@@ -79,19 +79,24 @@ Development: No separate open candidate at the reviewed snapshot.
 | Risk-adjusted strategic reference | 3,096,673 | 3,396,431 |
 | Weighted economic reference | 2,272,136 | 2,492,079 |
 
-The recreation anchor combines an identified base with separately scoped implementation work. The base remains a seller assumption; the scoped component has a role/work-package reproduction budget. Each component is counted once.
+Published baseline retained once: recreation EUR 1,165,000, seller ask EUR 354,500. No monetary addition at this snapshot. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Retain the published EUR 354,500 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
+
+
 ## Individual source review
 
-Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. README documents provider evidence, quorum/independence-domain handling, release packaging and ≥85% core coverage gate; no independent fresh test run or licensed model deployment confirmed.
+Reviewed first-party work: Vision provider analysis and dataset qualification; Frozen splits, promotion and release evidence lifecycle; Provider adapters, analysis API and reporting. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: Provider diversity is not real independence by itself; self-attested runtime HMAC is not TPM/TEE attestation; scientific truth/production security unverified.
 
-Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
+Price decision: Retain the published EUR 354,500 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -99,6 +104,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/evidence-governed-visual-intelligence-platform/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/evidence-governed-visual-intelligence-platform/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

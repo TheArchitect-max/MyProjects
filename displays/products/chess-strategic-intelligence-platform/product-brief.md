@@ -43,7 +43,7 @@ A standalone local-first chess analysis and training prototype with legally sync
 - Technical scope: P — A standalone local-first chess analysis and training prototype with legally synchronised board history, bounded native research analysers and a separate owner-interface pathway. The offered edition and material boundaries govern review.
 - Evidence and validation: E2 — Tests plus validation/qualification evidence identified. Source-specific diligence and recipient acceptance remain separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Source-specific diligence and recipient acceptance remain separate.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Source-specific diligence and recipient acceptance remain separate.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T2 — Source, documentation, tests and licence evidence support bounded handover. Source-specific diligence and recipient acceptance remain separate.
 
 Offered first-party scope: Specifically agreed first-party implementation and documentation. Only the specifically agreed first-party local chess application, native research analysers and related documentation are priced. Third-party historical games, derived data and external engine ownership rights are not priced as proprietary assets. Independent strength qualification, future search advances, live integrations and production services are excluded.
@@ -74,19 +74,24 @@ Development: No separate open candidate at the reviewed snapshot.
 | Risk-adjusted strategic reference | 25,414 | 27,874 |
 | Weighted economic reference | 44,941 | 49,291 |
 
-The recreation estimate adopts the lowest expressly scoped seller effort scenario. It is not recorded expenditure, an absolute minimum, an independent quote or established market value. Only the specifically agreed first-party local chess application, native research analysers and related documentation are priced. Third-party historical games, derived data and external engine ownership rights are not priced as proprietary assets. Independent strength qualification, future search advances, live integrations and production services are excluded.
+Published baseline retained once: recreation EUR 67,000, seller ask EUR 20,000. No monetary addition at this snapshot. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Retain the published EUR 20,000 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
+
+
 ## Individual source review
 
-Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source reports 34 local suites / 1,799 assertions and 159 source hashes, with historic v1.27 32 suites / 1,527 assertions independently inspected.
+Reviewed first-party work: Chess rules, move analysis and evaluation engine; Learning state, explanations and reference interoperability; Board UI, PGN workflows and analysis output. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: Independent v1.28 pinned Colab acceptance pending; no demonstrated Elo or world-class strength, v4 not installed in owner GUI; optional GPLv3 Stockfish and CC BY-SA data require separate rights conditions.
 
-Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
+Price decision: Retain the published EUR 20,000 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -94,6 +99,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/chess-strategic-intelligence-platform/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/chess-strategic-intelligence-platform/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

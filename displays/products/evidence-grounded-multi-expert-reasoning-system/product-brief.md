@@ -25,6 +25,7 @@ Evidence-grounded multi-expert reasoning software with matched baselines, contro
 - Prepare controlled-study evidence packages
 - Bind cross-model runs to matched protocols
 - Verify nested evidence, lineage and report integrity
+- Written development: Real-model H1-H7 execution-preparation and admission tooling
 
 ## Output types
 
@@ -43,16 +44,16 @@ Evidence-grounded multi-expert reasoning software with matched baselines, contro
 - Technical scope: V — Evidence-grounded multi-expert reasoning software with matched baselines, controlled-study protocols and cross-model replication evidence packages. The offered edition and material boundaries govern review.
 - Evidence and validation: E3 — Tests, validation and provenance/release evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
-Offered first-party scope: Specifically agreed first-party implementation and documentation for 2.1.0 / engineering release. Previously priced routing, grounding, evaluation, canonical fingerprints and custody foundations are reused once. Added governed capability/baseline, controlled-study and cross-model replication software is included. Real model-provider runs, H1–H7 scientific success, model or human superiority, empirical data ownership and later development phases are excluded.
+Offered first-party scope: The agreed first-party main work and separately identified written development delta, with their distinct source manifests and acceptance status. Future completion, operations and third-party entitlements require separate terms.
 
-Development: Open, unmerged development: Research v2.1 — Real-model H1–H7 execution preparation (scientific NOT_MET) This is outside the offered main-source budget.
+Development: Real-model H1-H7 execution-preparation and admission tooling. Written first-party work; release acceptance remains unresolved.
 
 ## Conditions before handover
 
-- Freeze the exact source edition, agreed first-party work, rights and exclusions.
+- Freeze the agreed main and written-development sources, first-party rights, pending acceptance and delivery manifest before transfer.
 - Keep engineering acceptance separate from real model-backed H1–H7 scientific exit and later phase promotion.
 - Review source-specific reproducibility, component and security evidence under agreed confidentiality.
 - Complete intended-use and recipient-environment acceptance before relying on the identified outputs.
@@ -69,28 +70,34 @@ Development: Open, unmerged development: Research v2.1 — Real-model H1–H7 ex
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 519,000 | 569,239 |
-| Negotiation reference - low | 415,500 | 455,720 |
-| Negotiation reference - high | 649,000 | 711,823 |
-| Recreation cost estimate | 1,869,000 | 2,049,919 |
-| Marketability cost scenario | 2,364,285 | 2,593,148 |
-| Monetisation cost scenario | 2,901,623 | 3,182,500 |
-| Risk-adjusted strategic reference | 2,385,413 | 2,616,321 |
-| Weighted economic reference | 2,355,326 | 2,583,322 |
+| Seller asking reference | 523,500 | 574,175 |
+| Negotiation reference - low | 419,100 | 459,669 |
+| Negotiation reference - high | 654,625 | 717,993 |
+| Recreation cost estimate | 1,884,000 | 2,066,371 |
+| Marketability cost scenario | 2,383,260 | 2,613,960 |
+| Monetisation cost scenario | 2,924,910 | 3,208,041 |
+| Risk-adjusted strategic reference | 2,404,557 | 2,637,318 |
+| Weighted economic reference | 2,374,229 | 2,604,054 |
 
-The retained expressly priced scope and successive non-overlapping budgets reconcile below. Equivalent effort and historical anchors are seller assumptions, not actual expenditure, independent quotations or market value. Previously priced routing, grounding, evaluation, canonical fingerprints and custody foundations are reused once. Added governed capability/baseline, controlled-study and cross-model replication software is included. Real model-provider runs, H1–H7 scientific success, model or human superiority, empirical data ownership and later development phases are excluded.
+Published baseline retained once: recreation EUR 1,869,000, seller ask EUR 519,000. Additional identified work adds recreation EUR 15,000 and ask EUR 4,500. Written development is separately included with acceptance unresolved. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Preserved seller asking baseline EUR 519,000; add EUR 4,500 for Real-model H1-H7 execution-preparation and admission tooling. Added recreation allowance EUR 15,000, from 140 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once.
+
+- Real-model H1-H7 execution-preparation and admission tooling — 140 assumed hours; WRITTEN_CANDIDATE_DELTA
+
 ## Individual source review
 
-Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. README reports v2.0 281/281 tests and 22/22 stages; PR #27 scientific real-model H1–H7 inputs and preflight remain unmerged, H1–H7 NOT_MET.
+Reviewed first-party work: Multi-expert reasoning, grounding and revision domain; Claim relations, adjudication and replication protocols; Model adapters, experiment configuration and review output. Written development: Real-model H1-H7 execution-preparation and admission tooling. Existing written work only; acceptance and future completion remain separate. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: No measured real-model/human superiority, causal expert benefit or scientific H1–H7 success; draft model-execution carrier is not actual experimental evidence.
 
-Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
+Price decision: Preserved seller asking baseline EUR 519,000; add EUR 4,500 for Real-model H1-H7 execution-preparation and admission tooling. Added recreation allowance EUR 15,000, from 140 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -98,6 +105,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/evidence-grounded-multi-expert-reasoning-system/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/evidence-grounded-multi-expert-reasoning-system/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

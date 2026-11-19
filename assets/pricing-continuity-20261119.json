@@ -1,0 +1,3332 @@
+{
+  "schema": "seller-price-continuity-1",
+  "basisDate": "2026-11-19",
+  "baselineCommitSha": "b5afc394f226e949f9264dba7b5e5b99f1f60e5e",
+  "baselineAskingTotalEUR": 25274000,
+  "baselineAssetCount": 128,
+  "currentAssetCount": 129,
+  "additionRule": "For each distinct added edition: floor(hours * 94 * 1.15 / 500) * 500 recreation; floor(recreation * 0.30 / 500) * 500 ask. Add to historical seller baseline. No market-value floor or target-total inference.",
+  "methodBoundary": "Historical seller asking decisions are preserved. Added equivalent effort and prices remain seller estimates. WIPO provides valuation methodology, not project-specific verification or approval.",
+  "summary": {
+    "additionalAskingEUR": 667000,
+    "additionalRecreationEUR": 2249500,
+    "currentAskingTotalEUR": 25941000,
+    "decisions": {
+      "BASELINE_PLUS_SCOPED_WORK": 39,
+      "BASELINE_RETAINED": 89,
+      "INITIAL_SCOPED_REFERENCE": 1
+    },
+    "writtenCandidatesPriced": 40,
+    "newMainChanges": 1,
+    "newStandaloneAssets": 1,
+    "projectSuitesRerun": 0
+  },
+  "projects": [
+    {
+      "ref": "TA-IP-001",
+      "title": "Modular Aerospace Research Platform",
+      "baselineAskingEUR": 14500,
+      "baselineRecreationEUR": 48500,
+      "baselineSourceMainSha": "866532f51c21dca0d8c12c941767bd012478ae1e",
+      "currentMainSha": "866532f51c21dca0d8c12c941767bd012478ae1e",
+      "candidateSha": "039d06780c1749f3fe193baa95ae3cd4352fdaa2",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "STELLA observation association, calibration, archive and CPU research implementation",
+          "assumedHours": 1900,
+          "recreationIncrementEUR": 205000,
+          "askingIncrementEUR": 61500,
+          "workPackages": [
+            {
+              "scope": "STELLA observation association, calibration, archive and CPU research implementation",
+              "lowEffortHours": 1900
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 950,
+            "baseEffortHours": 1900,
+            "highEffortHours": 3800,
+            "lowCostEUR": 102500,
+            "baseCostEUR": 205000,
+            "highCostEUR": 410500,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 61500,
+      "recreationIncrementEUR": 205000,
+      "currentAskingEUR": 76000,
+      "currentRecreationEUR": 253500,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-002",
+      "title": "Adaptive Network Resilience Intelligence Platform",
+      "baselineAskingEUR": 102000,
+      "baselineRecreationEUR": 551000,
+      "baselineSourceMainSha": "d33695a0a3fe770e72ec0828fc8974bac641241f",
+      "currentMainSha": "d33695a0a3fe770e72ec0828fc8974bac641241f",
+      "candidateSha": "6470f9228bf67f0ef055d4d5c780d4dfd1241e1d",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "S03A rights-aware dataset screening and admission records",
+          "assumedHours": 140,
+          "recreationIncrementEUR": 15000,
+          "askingIncrementEUR": 4500,
+          "workPackages": [
+            {
+              "scope": "S03A rights-aware dataset screening and admission records",
+              "lowEffortHours": 140
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 70,
+            "baseEffortHours": 140,
+            "highEffortHours": 280,
+            "lowCostEUR": 7500,
+            "baseCostEUR": 15000,
+            "highCostEUR": 30000,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 4500,
+      "recreationIncrementEUR": 15000,
+      "currentAskingEUR": 106500,
+      "currentRecreationEUR": 566000,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-003",
+      "title": "StabilityMesh",
+      "baselineAskingEUR": 205000,
+      "baselineRecreationEUR": 871500,
+      "baselineSourceMainSha": "799b38b6354be59c5224979967f7947076c56067",
+      "currentMainSha": "799b38b6354be59c5224979967f7947076c56067",
+      "candidateSha": "964bebf234dd0eb7798fa47345b49afa25638d65",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Partial-observation runtime and Google event-contract adapters",
+          "assumedHours": 260,
+          "recreationIncrementEUR": 28000,
+          "askingIncrementEUR": 8000,
+          "workPackages": [
+            {
+              "scope": "Partial-observation runtime and Google event-contract adapters",
+              "lowEffortHours": 260
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 130,
+            "baseEffortHours": 260,
+            "highEffortHours": 520,
+            "lowCostEUR": 14000,
+            "baseCostEUR": 28000,
+            "highCostEUR": 56000,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 8000,
+      "recreationIncrementEUR": 28000,
+      "currentAskingEUR": 213000,
+      "currentRecreationEUR": 899500,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-004",
+      "title": "Continuum State Integrity Platform",
+      "baselineAskingEUR": 176500,
+      "baselineRecreationEUR": 806500,
+      "baselineSourceMainSha": "da6e1951fa4ffda0fb3b3b090670459810225cde",
+      "currentMainSha": "da6e1951fa4ffda0fb3b3b090670459810225cde",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 176500,
+      "currentRecreationEUR": 806500,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-005",
+      "title": "Evidence Intelligence Operations Platform",
+      "baselineAskingEUR": 169000,
+      "baselineRecreationEUR": 900000,
+      "baselineSourceMainSha": "53a40b34a62119120d96d20ff3556f06f0c9cca6",
+      "currentMainSha": "53a40b34a62119120d96d20ff3556f06f0c9cca6",
+      "candidateSha": "b76713bcb30af9a83cc4ec679d92b5892b25e773",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Authorized document connectors and verified collection proofs",
+          "assumedHours": 300,
+          "recreationIncrementEUR": 32000,
+          "askingIncrementEUR": 9500,
+          "workPackages": [
+            {
+              "scope": "Authorized document connectors and verified collection proofs",
+              "lowEffortHours": 300
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 150,
+            "baseEffortHours": 300,
+            "highEffortHours": 600,
+            "lowCostEUR": 16000,
+            "baseCostEUR": 32000,
+            "highCostEUR": 64500,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 9500,
+      "recreationIncrementEUR": 32000,
+      "currentAskingEUR": 178500,
+      "currentRecreationEUR": 932000,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-006",
+      "title": "Faunometric",
+      "baselineAskingEUR": 275000,
+      "baselineRecreationEUR": 1200000,
+      "baselineSourceMainSha": "bc03b446827cf251ae8ad5bae9f8ee66975aa7f2",
+      "currentMainSha": "bc03b446827cf251ae8ad5bae9f8ee66975aa7f2",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 275000,
+      "currentRecreationEUR": 1200000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-007",
+      "title": "ModularKey Cryptanalysis Platform",
+      "baselineAskingEUR": 109500,
+      "baselineRecreationEUR": 507000,
+      "baselineSourceMainSha": "8a838fac9b4c3537dccf4a306a1158ea246c0862",
+      "currentMainSha": "8a838fac9b4c3537dccf4a306a1158ea246c0862",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 109500,
+      "currentRecreationEUR": 507000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-008",
+      "title": "Plant Environment Decision Intelligence Platform",
+      "baselineAskingEUR": 300000,
+      "baselineRecreationEUR": 1000000,
+      "baselineSourceMainSha": "8761b2f238cda172b8f7804f93f1d0146a6c2050",
+      "currentMainSha": "8761b2f238cda172b8f7804f93f1d0146a6c2050",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 300000,
+      "currentRecreationEUR": 1000000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-009",
+      "title": "Custody Integrity Assurance Platform",
+      "baselineAskingEUR": 140000,
+      "baselineRecreationEUR": 750000,
+      "baselineSourceMainSha": "7e43fa4ab11a99e91ad214fd27d5acb01b6d5540",
+      "currentMainSha": "7e43fa4ab11a99e91ad214fd27d5acb01b6d5540",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 140000,
+      "currentRecreationEUR": 750000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-010",
+      "title": "TLS Virtual",
+      "baselineAskingEUR": 195000,
+      "baselineRecreationEUR": 650000,
+      "baselineSourceMainSha": "c17bf660c023af1576fa8bd09d9c343df9c786d7",
+      "currentMainSha": "c17bf660c023af1576fa8bd09d9c343df9c786d7",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 195000,
+      "currentRecreationEUR": 650000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-011",
+      "title": "Research Intelligence Fabric",
+      "baselineAskingEUR": 282000,
+      "baselineRecreationEUR": 856500,
+      "baselineSourceMainSha": "cedf1ffc2e3ec40b4ee56628072a2f94df7d04b7",
+      "currentMainSha": "cedf1ffc2e3ec40b4ee56628072a2f94df7d04b7",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 282000,
+      "currentRecreationEUR": 856500,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-012",
+      "title": "AEGIS Vision — Evidence-Governed Visual Intelligence Platform",
+      "baselineAskingEUR": 354500,
+      "baselineRecreationEUR": 1165000,
+      "baselineSourceMainSha": "1af5a7869a4f662f31d38e27ce41559306d19abb",
+      "currentMainSha": "1af5a7869a4f662f31d38e27ce41559306d19abb",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 354500,
+      "currentRecreationEUR": 1165000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-013",
+      "title": "Advanced General-Purpose AI Systems Platform",
+      "baselineAskingEUR": 310000,
+      "baselineRecreationEUR": 1040000,
+      "baselineSourceMainSha": "d202a1fbc6ed053c956ca959cb70bae44c835f50",
+      "currentMainSha": "d202a1fbc6ed053c956ca959cb70bae44c835f50",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 310000,
+      "currentRecreationEUR": 1040000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-014",
+      "title": "Programmatic Search Fabric",
+      "baselineAskingEUR": 265000,
+      "baselineRecreationEUR": 700000,
+      "baselineSourceMainSha": "bfa107e75c7703a1beecb253dce3219c506e07f1",
+      "currentMainSha": "bfa107e75c7703a1beecb253dce3219c506e07f1",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 265000,
+      "currentRecreationEUR": 700000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-015",
+      "title": "Protein Structure Evidence Qualification Platform",
+      "baselineAskingEUR": 100000,
+      "baselineRecreationEUR": 1000000,
+      "baselineSourceMainSha": "a8530b9bffbb1710d5b13d93a3c5aed488308a0c",
+      "currentMainSha": "a8530b9bffbb1710d5b13d93a3c5aed488308a0c",
+      "candidateSha": "7bec7f26640a61f44db734833bf093d35ac70e54",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 100000,
+      "currentRecreationEUR": 1000000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-016",
+      "title": "Signal Processing Universal Framework",
+      "baselineAskingEUR": 150000,
+      "baselineRecreationEUR": 500000,
+      "baselineSourceMainSha": "0708ce2089d71b20cc84f997730db7ca95bf26c7",
+      "currentMainSha": "0708ce2089d71b20cc84f997730db7ca95bf26c7",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 150000,
+      "currentRecreationEUR": 500000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-017",
+      "title": "Air-to-Water Transition Vehicle",
+      "baselineAskingEUR": 40000,
+      "baselineRecreationEUR": 400000,
+      "baselineSourceMainSha": "61a23ae3957253c119bad3da12ed73696840dc15",
+      "currentMainSha": "61a23ae3957253c119bad3da12ed73696840dc15",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 40000,
+      "currentRecreationEUR": 400000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-018",
+      "title": "Verifiable Execution Control Platform",
+      "baselineAskingEUR": 450000,
+      "baselineRecreationEUR": 1250000,
+      "baselineSourceMainSha": "af6a8275e80f5e1736884e05bf67afa32b2ddf3c",
+      "currentMainSha": "af6a8275e80f5e1736884e05bf67afa32b2ddf3c",
+      "candidateSha": "50c257ba18a1b728833031a2ea1d3acf524cb6e2",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 450000,
+      "currentRecreationEUR": 1250000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-019",
+      "title": "Organizational Memory Engine",
+      "baselineAskingEUR": 710500,
+      "baselineRecreationEUR": 1934000,
+      "baselineSourceMainSha": "444d1e1a1980210231b2e453a3046ca4aefd50d8",
+      "currentMainSha": "444d1e1a1980210231b2e453a3046ca4aefd50d8",
+      "candidateSha": "b96f08bd0e4d70cef04a5c1d60f5e530b0300ea4",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Externally pinned outcome-observation checkpoints and membership checks",
+          "assumedHours": 220,
+          "recreationIncrementEUR": 23500,
+          "askingIncrementEUR": 7000,
+          "workPackages": [
+            {
+              "scope": "Externally pinned outcome-observation checkpoints and membership checks",
+              "lowEffortHours": 220
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 110,
+            "baseEffortHours": 220,
+            "highEffortHours": 440,
+            "lowCostEUR": 11500,
+            "baseCostEUR": 23500,
+            "highCostEUR": 47500,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 7000,
+      "recreationIncrementEUR": 23500,
+      "currentAskingEUR": 717500,
+      "currentRecreationEUR": 1957500,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-020",
+      "title": "Machine Cognition Research Framework",
+      "baselineAskingEUR": 85000,
+      "baselineRecreationEUR": 690000,
+      "baselineSourceMainSha": "ca625306a751066268b1985eb1e27671dc0762bd",
+      "currentMainSha": "ca625306a751066268b1985eb1e27671dc0762bd",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 85000,
+      "currentRecreationEUR": 690000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-021",
+      "title": "Songwriting Intelligence & Creative Production Platform",
+      "baselineAskingEUR": 328500,
+      "baselineRecreationEUR": 1094000,
+      "baselineSourceMainSha": "2883d4c731d44eab92ce8f257bd665e0f9459498",
+      "currentMainSha": "2883d4c731d44eab92ce8f257bd665e0f9459498",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 328500,
+      "currentRecreationEUR": 1094000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-022",
+      "title": "Distributed AI Resource Fabric",
+      "baselineAskingEUR": 500000,
+      "baselineRecreationEUR": 1400000,
+      "baselineSourceMainSha": "be6d41b81149a8772784b3282fcf67239dec520c",
+      "currentMainSha": "be6d41b81149a8772784b3282fcf67239dec520c",
+      "candidateSha": "b7c602ed7eb5b8dae29734a3571e9a460e3e4d83",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Written distributed execution, model manifests, cgroup and GPU qualification tooling",
+          "assumedHours": 700,
+          "recreationIncrementEUR": 75500,
+          "askingIncrementEUR": 22500,
+          "workPackages": [
+            {
+              "scope": "Written distributed execution, model manifests, cgroup and GPU qualification tooling",
+              "lowEffortHours": 700
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 350,
+            "baseEffortHours": 700,
+            "highEffortHours": 1400,
+            "lowCostEUR": 37500,
+            "baseCostEUR": 75500,
+            "highCostEUR": 151000,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 22500,
+      "recreationIncrementEUR": 75500,
+      "currentAskingEUR": 522500,
+      "currentRecreationEUR": 1475500,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-023",
+      "title": "DMT Laser Phenomenology Engine",
+      "baselineAskingEUR": 228000,
+      "baselineRecreationEUR": 1245000,
+      "baselineSourceMainSha": "ff90a1c25f30be87246dcf7e97b562eb17aaf5ed",
+      "currentMainSha": "ff90a1c25f30be87246dcf7e97b562eb17aaf5ed",
+      "candidateSha": "fff97e2e84e7225d012aed11e18f2b11856e5c45",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Exact-version publisher file-metadata crosschecks",
+          "assumedHours": 100,
+          "recreationIncrementEUR": 10500,
+          "askingIncrementEUR": 3000,
+          "workPackages": [
+            {
+              "scope": "Exact-version publisher file-metadata crosschecks",
+              "lowEffortHours": 100
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 50,
+            "baseEffortHours": 100,
+            "highEffortHours": 200,
+            "lowCostEUR": 5000,
+            "baseCostEUR": 10500,
+            "highCostEUR": 21500,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 3000,
+      "recreationIncrementEUR": 10500,
+      "currentAskingEUR": 231000,
+      "currentRecreationEUR": 1255500,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-024",
+      "title": "Universal Kernel Machine",
+      "baselineAskingEUR": 69000,
+      "baselineRecreationEUR": 584500,
+      "baselineSourceMainSha": "ff30dda533c5c54e4cc0faa7dad4e70c9635de31",
+      "currentMainSha": "ff30dda533c5c54e4cc0faa7dad4e70c9635de31",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 69000,
+      "currentRecreationEUR": 584500,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-025",
+      "title": "Universal Sensor Fusion & Digital Twin Intelligence Platform",
+      "baselineAskingEUR": 240000,
+      "baselineRecreationEUR": 797000,
+      "baselineSourceMainSha": "877d44c0a10a55c5f30b64d712178e257cc76ad5",
+      "currentMainSha": "877d44c0a10a55c5f30b64d712178e257cc76ad5",
+      "candidateSha": "8199f3a19ea9de23f739171d37f2da1a26974f60",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Finite-input hardening and repository-wide fusion runtime corrections",
+          "assumedHours": 240,
+          "recreationIncrementEUR": 25500,
+          "askingIncrementEUR": 7500,
+          "workPackages": [
+            {
+              "scope": "Finite-input hardening and repository-wide fusion runtime corrections",
+              "lowEffortHours": 240
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 120,
+            "baseEffortHours": 240,
+            "highEffortHours": 480,
+            "lowCostEUR": 12500,
+            "baseCostEUR": 25500,
+            "highCostEUR": 51500,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 7500,
+      "recreationIncrementEUR": 25500,
+      "currentAskingEUR": 247500,
+      "currentRecreationEUR": 822500,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-026",
+      "title": "Dominus Kraken Execution Engine",
+      "baselineAskingEUR": 800000,
+      "baselineRecreationEUR": 3000000,
+      "baselineSourceMainSha": "129aa1fb3026ef9e1a31c6a5f3658346557aed9a",
+      "currentMainSha": "129aa1fb3026ef9e1a31c6a5f3658346557aed9a",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 800000,
+      "currentRecreationEUR": 3000000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-027",
+      "title": "Autonomous Adaptation Framework",
+      "baselineAskingEUR": 362000,
+      "baselineRecreationEUR": 1660000,
+      "baselineSourceMainSha": "ab0b7f0355b6da469264fc08abd81ca051db8044",
+      "currentMainSha": "ab0b7f0355b6da469264fc08abd81ca051db8044",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 362000,
+      "currentRecreationEUR": 1660000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-028",
+      "title": "Resource-Aware Hybrid Model Orchestration Platform",
+      "baselineAskingEUR": 20000,
+      "baselineRecreationEUR": 250000,
+      "baselineSourceMainSha": "1d2bcbd112fa11969b04dda160f7a778ec832acd",
+      "currentMainSha": "1d2bcbd112fa11969b04dda160f7a778ec832acd",
+      "candidateSha": "3b643814c0feb8d0e5120f79a78ca97dabf127e4",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Hybrid model routing, long-form workflow, RAG, checkpointing and operator-governance candidate",
+          "assumedHours": 2300,
+          "recreationIncrementEUR": 248500,
+          "askingIncrementEUR": 74500,
+          "workPackages": [
+            {
+              "scope": "Hybrid model routing, long-form workflow, RAG, checkpointing and operator-governance candidate",
+              "lowEffortHours": 2300
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 1150,
+            "baseEffortHours": 2300,
+            "highEffortHours": 4600,
+            "lowCostEUR": 124000,
+            "baseCostEUR": 248500,
+            "highCostEUR": 497000,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 74500,
+      "recreationIncrementEUR": 248500,
+      "currentAskingEUR": 94500,
+      "currentRecreationEUR": 498500,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-029",
+      "title": "Veritas Evidence Intelligence",
+      "baselineAskingEUR": 650000,
+      "baselineRecreationEUR": 2000000,
+      "baselineSourceMainSha": "d054472d2699061a7243d4b3a01db595184615ec",
+      "currentMainSha": "d054472d2699061a7243d4b3a01db595184615ec",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 650000,
+      "currentRecreationEUR": 2000000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-030",
+      "title": "Aerospace Mission Simulator",
+      "baselineAskingEUR": 216500,
+      "baselineRecreationEUR": 855000,
+      "baselineSourceMainSha": "526f8f14265482a6a065c1c123dd7ac24bec306a",
+      "currentMainSha": "526f8f14265482a6a065c1c123dd7ac24bec306a",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 216500,
+      "currentRecreationEUR": 855000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-031",
+      "title": "Advanced Systems Simulation & Evidence Qualification Platform",
+      "baselineAskingEUR": 253000,
+      "baselineRecreationEUR": 1210500,
+      "baselineSourceMainSha": "66a03a60708b8d1f0b16fb0576ddd3dff70e5c86",
+      "currentMainSha": "66a03a60708b8d1f0b16fb0576ddd3dff70e5c86",
+      "candidateSha": "f65dfcbe497d93504e2feb322f41250d587df5db",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Independent replay admission and portable-archive verification controls",
+          "assumedHours": 240,
+          "recreationIncrementEUR": 25500,
+          "askingIncrementEUR": 7500,
+          "workPackages": [
+            {
+              "scope": "Independent replay admission and portable-archive verification controls",
+              "lowEffortHours": 240
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 120,
+            "baseEffortHours": 240,
+            "highEffortHours": 480,
+            "lowCostEUR": 12500,
+            "baseCostEUR": 25500,
+            "highCostEUR": 51500,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 7500,
+      "recreationIncrementEUR": 25500,
+      "currentAskingEUR": 260500,
+      "currentRecreationEUR": 1236000,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-032",
+      "title": "Electric Flight Systems Simulation & Validation Platform",
+      "baselineAskingEUR": 50000,
+      "baselineRecreationEUR": 450000,
+      "baselineSourceMainSha": "e08d9668137b92dc1abe5e729465d528eafe2544",
+      "currentMainSha": "e08d9668137b92dc1abe5e729465d528eafe2544",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 50000,
+      "currentRecreationEUR": 450000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-033",
+      "title": "LegalOps NL",
+      "baselineAskingEUR": 100000,
+      "baselineRecreationEUR": 550000,
+      "baselineSourceMainSha": "c3b7fd5438cb984cb0ebbf271349a9ee8c6a12b9",
+      "currentMainSha": "c3b7fd5438cb984cb0ebbf271349a9ee8c6a12b9",
+      "candidateSha": "aa0e931eb1761692c65bf0e133d5f1df78d4a05d",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Written matter-graph workspace and integrated architecture documentation",
+          "assumedHours": 420,
+          "recreationIncrementEUR": 45000,
+          "askingIncrementEUR": 13500,
+          "workPackages": [
+            {
+              "scope": "Written matter-graph workspace and integrated architecture documentation",
+              "lowEffortHours": 420
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 210,
+            "baseEffortHours": 420,
+            "highEffortHours": 840,
+            "lowCostEUR": 22500,
+            "baseCostEUR": 45000,
+            "highCostEUR": 90500,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 13500,
+      "recreationIncrementEUR": 45000,
+      "currentAskingEUR": 113500,
+      "currentRecreationEUR": 595000,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-034",
+      "title": "Advanced Ground Vehicle Engineering",
+      "baselineAskingEUR": 60500,
+      "baselineRecreationEUR": 495000,
+      "baselineSourceMainSha": "5bb96762e2059c37912692733f6c240bc1550803",
+      "currentMainSha": "5bb96762e2059c37912692733f6c240bc1550803",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 60500,
+      "currentRecreationEUR": 495000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-035",
+      "title": "Biometric Systems Assurance Platform",
+      "baselineAskingEUR": 240000,
+      "baselineRecreationEUR": 800000,
+      "baselineSourceMainSha": "c814b4154ea4882a12d35cad1863548197647afc",
+      "currentMainSha": "c814b4154ea4882a12d35cad1863548197647afc",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 240000,
+      "currentRecreationEUR": 800000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-036",
+      "title": "Engineering Intelligence & Mastery Platform (EIMP)",
+      "baselineAskingEUR": 85000,
+      "baselineRecreationEUR": 467000,
+      "baselineSourceMainSha": "9b5a03ca19d1878eb7b24ff6c20d94d345f3878c",
+      "currentMainSha": "9b5a03ca19d1878eb7b24ff6c20d94d345f3878c",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 85000,
+      "currentRecreationEUR": 467000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-037",
+      "title": "Adaptive Neurodynamics Engineering Platform",
+      "baselineAskingEUR": 45000,
+      "baselineRecreationEUR": 400000,
+      "baselineSourceMainSha": "54b8a42cdff9d7b1fba7baa9d2fd5d2ed05b6740",
+      "currentMainSha": "54b8a42cdff9d7b1fba7baa9d2fd5d2ed05b6740",
+      "candidateSha": "d5fd5db2c1b4a17a1c617ad061c130c181fb0aa8",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "ANEP v18.4 spiking dynamics, sparse topology, adaptive budgets and memory-control research code",
+          "assumedHours": 2500,
+          "recreationIncrementEUR": 270000,
+          "askingIncrementEUR": 81000,
+          "workPackages": [
+            {
+              "scope": "ANEP v18.4 spiking dynamics, sparse topology, adaptive budgets and memory-control research code",
+              "lowEffortHours": 2500
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 1250,
+            "baseEffortHours": 2500,
+            "highEffortHours": 5000,
+            "lowCostEUR": 135000,
+            "baseCostEUR": 270000,
+            "highCostEUR": 540500,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 81000,
+      "recreationIncrementEUR": 270000,
+      "currentAskingEUR": 126000,
+      "currentRecreationEUR": 670000,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-038",
+      "title": "Integrated Media Production Engine",
+      "baselineAskingEUR": 457000,
+      "baselineRecreationEUR": 1275000,
+      "baselineSourceMainSha": "7f73fc3fe9f7182f0267b89860ebfd8110aa85b1",
+      "currentMainSha": "7f73fc3fe9f7182f0267b89860ebfd8110aa85b1",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 457000,
+      "currentRecreationEUR": 1275000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-039",
+      "title": "Evidence-Governed Software Assurance Platform",
+      "baselineAskingEUR": 478500,
+      "baselineRecreationEUR": 1212500,
+      "baselineSourceMainSha": "86f162c7afac813e1f209ae4cf80468a3af0d159",
+      "currentMainSha": "86f162c7afac813e1f209ae4cf80468a3af0d159",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 478500,
+      "currentRecreationEUR": 1212500,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-040",
+      "title": "ORACULUM INFINITUM",
+      "baselineAskingEUR": 275000,
+      "baselineRecreationEUR": 700000,
+      "baselineSourceMainSha": "b95c1c2c53924918f09357bd6840193e6c0910c9",
+      "currentMainSha": "b95c1c2c53924918f09357bd6840193e6c0910c9",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 275000,
+      "currentRecreationEUR": 700000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-041",
+      "title": "CipherRouteDB",
+      "baselineAskingEUR": 116000,
+      "baselineRecreationEUR": 858500,
+      "baselineSourceMainSha": "391176ec862699327b0a9679fb876ac6f216ea46",
+      "currentMainSha": "391176ec862699327b0a9679fb876ac6f216ea46",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 116000,
+      "currentRecreationEUR": 858500,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-042",
+      "title": "Quantum Cryptanalysis Engineering Platform",
+      "baselineAskingEUR": 152000,
+      "baselineRecreationEUR": 710000,
+      "baselineSourceMainSha": "ce453aaa7757f396f3765bea223dfb79a4aae8ef",
+      "currentMainSha": "ce453aaa7757f396f3765bea223dfb79a4aae8ef",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 152000,
+      "currentRecreationEUR": 710000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-043",
+      "title": "LatticeDepth",
+      "baselineAskingEUR": 256500,
+      "baselineRecreationEUR": 855000,
+      "baselineSourceMainSha": "6e86e345d195d4b3849fa0382dd61c130af2187b",
+      "currentMainSha": "6e86e345d195d4b3849fa0382dd61c130af2187b",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 256500,
+      "currentRecreationEUR": 855000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-044",
+      "title": "ISBR SecureTrace",
+      "baselineAskingEUR": 655000,
+      "baselineRecreationEUR": 2817000,
+      "baselineSourceMainSha": "63f97bc3f3cb573e9440fc93aa7ac308dcaf5b7d",
+      "currentMainSha": "63f97bc3f3cb573e9440fc93aa7ac308dcaf5b7d",
+      "candidateSha": "288b6396fce71e499902740521563a100fadd4ee",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "API boundary hardening and repository-wide consistency corrections",
+          "assumedHours": 260,
+          "recreationIncrementEUR": 28000,
+          "askingIncrementEUR": 8000,
+          "workPackages": [
+            {
+              "scope": "API boundary hardening and repository-wide consistency corrections",
+              "lowEffortHours": 260
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 130,
+            "baseEffortHours": 260,
+            "highEffortHours": 520,
+            "lowCostEUR": 14000,
+            "baseCostEUR": 28000,
+            "highCostEUR": 56000,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 8000,
+      "recreationIncrementEUR": 28000,
+      "currentAskingEUR": 663000,
+      "currentRecreationEUR": 2845000,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-045",
+      "title": "Mercorion Commerce Compiler",
+      "baselineAskingEUR": 340000,
+      "baselineRecreationEUR": 950000,
+      "baselineSourceMainSha": "808ea9cb2cadff36da50b4db5131fa22b3956369",
+      "currentMainSha": "808ea9cb2cadff36da50b4db5131fa22b3956369",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 340000,
+      "currentRecreationEUR": 950000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-046",
+      "title": "SonicFabric",
+      "baselineAskingEUR": 650000,
+      "baselineRecreationEUR": 1800000,
+      "baselineSourceMainSha": "3fee5974ea230ecd5cfac15f91e322c72f0ced61",
+      "currentMainSha": "3fee5974ea230ecd5cfac15f91e322c72f0ced61",
+      "candidateSha": "f1d7036aa7359825fe7d1ca13785f56e27ab784b",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Evidence-selected provider routing and admission rules",
+          "assumedHours": 200,
+          "recreationIncrementEUR": 21500,
+          "askingIncrementEUR": 6000,
+          "workPackages": [
+            {
+              "scope": "Evidence-selected provider routing and admission rules",
+              "lowEffortHours": 200
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 100,
+            "baseEffortHours": 200,
+            "highEffortHours": 400,
+            "lowCostEUR": 10500,
+            "baseCostEUR": 21500,
+            "highCostEUR": 43000,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 6000,
+      "recreationIncrementEUR": 21500,
+      "currentAskingEUR": 656000,
+      "currentRecreationEUR": 1821500,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-047",
+      "title": "Kinetic Logic Reconstructor",
+      "baselineAskingEUR": 95000,
+      "baselineRecreationEUR": 600000,
+      "baselineSourceMainSha": "93071c858b365f95afab7f2fce904e3396a42ef7",
+      "currentMainSha": "93071c858b365f95afab7f2fce904e3396a42ef7",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 95000,
+      "currentRecreationEUR": 600000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-048",
+      "title": "Adaptive Biofeedback Engine",
+      "baselineAskingEUR": 303000,
+      "baselineRecreationEUR": 1210000,
+      "baselineSourceMainSha": "a1f0fae51d4578c44264b22a9e16d3bb602e4e0b",
+      "currentMainSha": "a1f0fae51d4578c44264b22a9e16d3bb602e4e0b",
+      "candidateSha": "10f5091ad01f4605f313907275af5f85a6961cbb",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Strict structural admission for physical-campaign evidence packages",
+          "assumedHours": 180,
+          "recreationIncrementEUR": 19000,
+          "askingIncrementEUR": 5500,
+          "workPackages": [
+            {
+              "scope": "Strict structural admission for physical-campaign evidence packages",
+              "lowEffortHours": 180
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 90,
+            "baseEffortHours": 180,
+            "highEffortHours": 360,
+            "lowCostEUR": 9500,
+            "baseCostEUR": 19000,
+            "highCostEUR": 38500,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 5500,
+      "recreationIncrementEUR": 19000,
+      "currentAskingEUR": 308500,
+      "currentRecreationEUR": 1229000,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-049",
+      "title": "Aletheia Intelligence Fabric",
+      "baselineAskingEUR": 206000,
+      "baselineRecreationEUR": 977500,
+      "baselineSourceMainSha": "adbb54c946cedbc9d30ab7922110b77d9e9ec401",
+      "currentMainSha": "adbb54c946cedbc9d30ab7922110b77d9e9ec401",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 206000,
+      "currentRecreationEUR": 977500,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-050",
+      "title": "TrueLane Ink-Core",
+      "baselineAskingEUR": 174500,
+      "baselineRecreationEUR": 702000,
+      "baselineSourceMainSha": "9d1c01d33dd4da74dd7f8604813b75496e86875f",
+      "currentMainSha": "9d1c01d33dd4da74dd7f8604813b75496e86875f",
+      "candidateSha": "1ba37a1029137ae295079de1a7e8949e3d30d1a8",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Pre-Phase 3C hardening and module reconciliation tooling",
+          "assumedHours": 260,
+          "recreationIncrementEUR": 28000,
+          "askingIncrementEUR": 8000,
+          "workPackages": [
+            {
+              "scope": "Pre-Phase 3C hardening and module reconciliation tooling",
+              "lowEffortHours": 260
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 130,
+            "baseEffortHours": 260,
+            "highEffortHours": 520,
+            "lowCostEUR": 14000,
+            "baseCostEUR": 28000,
+            "highCostEUR": 56000,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 8000,
+      "recreationIncrementEUR": 28000,
+      "currentAskingEUR": 182500,
+      "currentRecreationEUR": 730000,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-051",
+      "title": "Visionair Research Engine",
+      "baselineAskingEUR": 260000,
+      "baselineRecreationEUR": 1200500,
+      "baselineSourceMainSha": "5995ee2e6bd7fd7cd906e7096c6c6a98e23604ad",
+      "currentMainSha": "5995ee2e6bd7fd7cd906e7096c6c6a98e23604ad",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 260000,
+      "currentRecreationEUR": 1200500,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-052",
+      "title": "Vision Evidence Governed Multimodal Perception Framework",
+      "baselineAskingEUR": 160000,
+      "baselineRecreationEUR": 850000,
+      "baselineSourceMainSha": "87c94086b12aee738d7b9581f65305f06b919bf2",
+      "currentMainSha": "87c94086b12aee738d7b9581f65305f06b919bf2",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 160000,
+      "currentRecreationEUR": 850000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-053",
+      "title": "Evidence-Grounded Multi-Expert Reasoning System",
+      "baselineAskingEUR": 519000,
+      "baselineRecreationEUR": 1869000,
+      "baselineSourceMainSha": "009265d3a27257436d742ac9cbc58872b303d1ae",
+      "currentMainSha": "009265d3a27257436d742ac9cbc58872b303d1ae",
+      "candidateSha": "e4191f09feb1b6b0f12e6abb201461760aa05501",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Real-model H1-H7 execution-preparation and admission tooling",
+          "assumedHours": 140,
+          "recreationIncrementEUR": 15000,
+          "askingIncrementEUR": 4500,
+          "workPackages": [
+            {
+              "scope": "Real-model H1-H7 execution-preparation and admission tooling",
+              "lowEffortHours": 140
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 70,
+            "baseEffortHours": 140,
+            "highEffortHours": 280,
+            "lowCostEUR": 7500,
+            "baseCostEUR": 15000,
+            "highCostEUR": 30000,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 4500,
+      "recreationIncrementEUR": 15000,
+      "currentAskingEUR": 523500,
+      "currentRecreationEUR": 1884000,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-054",
+      "title": "GoldenNet Signal Intelligence Platform",
+      "baselineAskingEUR": 425000,
+      "baselineRecreationEUR": 1800000,
+      "baselineSourceMainSha": "c90b7cf5c20a17e0e9bbca5704c8d4041a4a27ba",
+      "currentMainSha": "c90b7cf5c20a17e0e9bbca5704c8d4041a4a27ba",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 425000,
+      "currentRecreationEUR": 1800000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-055",
+      "title": "Autonomous Documentary Engine",
+      "baselineAskingEUR": 631000,
+      "baselineRecreationEUR": 2520500,
+      "baselineSourceMainSha": "c24d575b687aa84bd67d8ac44824c5c96194fe3f",
+      "currentMainSha": "c24d575b687aa84bd67d8ac44824c5c96194fe3f",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 631000,
+      "currentRecreationEUR": 2520500,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-056",
+      "title": "Multimodal Evidence Adaptive Systems Platform",
+      "baselineAskingEUR": 126500,
+      "baselineRecreationEUR": 688500,
+      "baselineSourceMainSha": "ee742e2d7b49ad8b5d1708e5feffa1945bcb96e2",
+      "currentMainSha": "ee742e2d7b49ad8b5d1708e5feffa1945bcb96e2",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 126500,
+      "currentRecreationEUR": 688500,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-057",
+      "title": "FusionLunar Energy Systems Engineering Platform",
+      "baselineAskingEUR": 360000,
+      "baselineRecreationEUR": 2900000,
+      "baselineSourceMainSha": "73b0b2c26c8b8f6f8c6b6344f7825f835ede21c7",
+      "currentMainSha": "73b0b2c26c8b8f6f8c6b6344f7825f835ede21c7",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 360000,
+      "currentRecreationEUR": 2900000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-058",
+      "title": "Temporal Physics & Causality Research Platform",
+      "baselineAskingEUR": 50500,
+      "baselineRecreationEUR": 1053000,
+      "baselineSourceMainSha": "e651f260d07850fe3391a3e03ca21486e71efefb",
+      "currentMainSha": "e651f260d07850fe3391a3e03ca21486e71efefb",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 50500,
+      "currentRecreationEUR": 1053000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-059",
+      "title": "Industrial Predictive Maintenance & RUL Platform",
+      "baselineAskingEUR": 360000,
+      "baselineRecreationEUR": 1000000,
+      "baselineSourceMainSha": "4fabbb418d8da7a5b0615f78ec37964e3f24078f",
+      "currentMainSha": "4fabbb418d8da7a5b0615f78ec37964e3f24078f",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 360000,
+      "currentRecreationEUR": 1000000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-060",
+      "title": "Adaptive Audio Production System",
+      "baselineAskingEUR": 95000,
+      "baselineRecreationEUR": 600000,
+      "baselineSourceMainSha": "28069500376115027c08e108c25d98f7314fa499",
+      "currentMainSha": "28069500376115027c08e108c25d98f7314fa499",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 95000,
+      "currentRecreationEUR": 600000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-061",
+      "title": "Causal State Field Engine",
+      "baselineAskingEUR": 115000,
+      "baselineRecreationEUR": 625000,
+      "baselineSourceMainSha": "d081040def9062f731bb0b1817e00e1cfdfb1641",
+      "currentMainSha": "d081040def9062f731bb0b1817e00e1cfdfb1641",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 115000,
+      "currentRecreationEUR": 625000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-062",
+      "title": "Evidence-Governed Analytical Reasoning Platform",
+      "baselineAskingEUR": 165000,
+      "baselineRecreationEUR": 500000,
+      "baselineSourceMainSha": "fb914cd3a5aa454890ad49109763f9f94e685270",
+      "currentMainSha": "fb914cd3a5aa454890ad49109763f9f94e685270",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 165000,
+      "currentRecreationEUR": 500000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-063",
+      "title": "Software Asset Provenance & Qualification Platform",
+      "baselineAskingEUR": 240000,
+      "baselineRecreationEUR": 850000,
+      "baselineSourceMainSha": "e5184bd173437852d365d06b087bbc19e03a3cf0",
+      "currentMainSha": "e5184bd173437852d365d06b087bbc19e03a3cf0",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 240000,
+      "currentRecreationEUR": 850000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-064",
+      "title": "Adaptive General Reasoning Research Platform",
+      "baselineAskingEUR": 87500,
+      "baselineRecreationEUR": 1325500,
+      "baselineSourceMainSha": "4305f5a629ff44f68fb93ffe8ed10f5879b5d68f",
+      "currentMainSha": "4305f5a629ff44f68fb93ffe8ed10f5879b5d68f",
+      "candidateSha": "f68dc8691dedd7e585e945bc8d9f1c7f2e80bddf",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Cross-domain retrospective evaluation and source-qualified model adapter",
+          "assumedHours": 260,
+          "recreationIncrementEUR": 28000,
+          "askingIncrementEUR": 8000,
+          "workPackages": [
+            {
+              "scope": "Cross-domain retrospective evaluation and source-qualified model adapter",
+              "lowEffortHours": 260
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 130,
+            "baseEffortHours": 260,
+            "highEffortHours": 520,
+            "lowCostEUR": 14000,
+            "baseCostEUR": 28000,
+            "highCostEUR": 56000,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 8000,
+      "recreationIncrementEUR": 28000,
+      "currentAskingEUR": 95500,
+      "currentRecreationEUR": 1353500,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-065",
+      "title": "TraceLine — Evidence-Governed Investigation Framework",
+      "baselineAskingEUR": 295000,
+      "baselineRecreationEUR": 1195000,
+      "baselineSourceMainSha": "ea933448cb371f4ae9cdb0078b3d7db0e401fe4a",
+      "currentMainSha": "ea933448cb371f4ae9cdb0078b3d7db0e401fe4a",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 295000,
+      "currentRecreationEUR": 1195000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-066",
+      "title": "Organismal State Dynamics Research Platform",
+      "baselineAskingEUR": 120000,
+      "baselineRecreationEUR": 900000,
+      "baselineSourceMainSha": "cd34a80fc597c5cb4276d88bb7fa4644070aa999",
+      "currentMainSha": "cd34a80fc597c5cb4276d88bb7fa4644070aa999",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 120000,
+      "currentRecreationEUR": 900000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-067",
+      "title": "Chimera Spectral Perception System",
+      "baselineAskingEUR": 125000,
+      "baselineRecreationEUR": 1200000,
+      "baselineSourceMainSha": "016ec2cb8ad6fda1ed39426988efaa8bab447821",
+      "currentMainSha": "016ec2cb8ad6fda1ed39426988efaa8bab447821",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 125000,
+      "currentRecreationEUR": 1200000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-068",
+      "title": "Generative Media Production Platform",
+      "baselineAskingEUR": 162000,
+      "baselineRecreationEUR": 910000,
+      "baselineSourceMainSha": "97a5b98356012d50d5f205fbf8c38770611eb3bc",
+      "currentMainSha": "97a5b98356012d50d5f205fbf8c38770611eb3bc",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 162000,
+      "currentRecreationEUR": 910000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-069",
+      "title": "Adaptive Audio Synthesis Platform",
+      "baselineAskingEUR": 425000,
+      "baselineRecreationEUR": 1800000,
+      "baselineSourceMainSha": "dfb528122e448d5ca095e850cb99ed6f5314da7e",
+      "currentMainSha": "dfb528122e448d5ca095e850cb99ed6f5314da7e",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 425000,
+      "currentRecreationEUR": 1800000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-070",
+      "title": "Adaptive Cognitive Runtime",
+      "baselineAskingEUR": 227500,
+      "baselineRecreationEUR": 860000,
+      "baselineSourceMainSha": "9165a01bc5f529e768e60c48507b6656a5b816ff",
+      "currentMainSha": "9165a01bc5f529e768e60c48507b6656a5b816ff",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 227500,
+      "currentRecreationEUR": 860000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-071",
+      "title": "Content Integrity Assurance Platform",
+      "baselineAskingEUR": 407500,
+      "baselineRecreationEUR": 1627000,
+      "baselineSourceMainSha": "31fa6d66b3c2c1564d140ff15a7f689e7489deaf",
+      "currentMainSha": "31fa6d66b3c2c1564d140ff15a7f689e7489deaf",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 407500,
+      "currentRecreationEUR": 1627000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-072",
+      "title": "Radioastronomy Signal Validation Platform",
+      "baselineAskingEUR": 275000,
+      "baselineRecreationEUR": 1300000,
+      "baselineSourceMainSha": "18c6d45fd4dd8daed5598d055e136c22b19c5900",
+      "currentMainSha": "18c6d45fd4dd8daed5598d055e136c22b19c5900",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 275000,
+      "currentRecreationEUR": 1300000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-073",
+      "title": "Spatial Wearable Perception Platform",
+      "baselineAskingEUR": 800000,
+      "baselineRecreationEUR": 3500000,
+      "baselineSourceMainSha": "15f48d4eb7dd78fdb56c3472c8e70b24827f357a",
+      "currentMainSha": "15f48d4eb7dd78fdb56c3472c8e70b24827f357a",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 800000,
+      "currentRecreationEUR": 3500000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-074",
+      "title": "Telluric Actualization Research Platform",
+      "baselineAskingEUR": 55000,
+      "baselineRecreationEUR": 600000,
+      "baselineSourceMainSha": "df01dceaf8e27b33593537280ad0d93fa8b222be",
+      "currentMainSha": "df01dceaf8e27b33593537280ad0d93fa8b222be",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 55000,
+      "currentRecreationEUR": 600000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-075",
+      "title": "QUBO Structural Analysis and Optimization Platform",
+      "baselineAskingEUR": 104500,
+      "baselineRecreationEUR": 699000,
+      "baselineSourceMainSha": "5730f807574e456eba3293aa46a68ee69cb1eb04",
+      "currentMainSha": "5730f807574e456eba3293aa46a68ee69cb1eb04",
+      "candidateSha": "f3b38240f871b5fdcf6781b3b204d8bd26580d60",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 104500,
+      "currentRecreationEUR": 699000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-076",
+      "title": "Adaptive Neural Architecture Platform",
+      "baselineAskingEUR": 190000,
+      "baselineRecreationEUR": 1000000,
+      "baselineSourceMainSha": "cbef9e55c64a0d16a5f72067964f54822c522b20",
+      "currentMainSha": "cbef9e55c64a0d16a5f72067964f54822c522b20",
+      "candidateSha": "acda5df1aca97a363ff1e2bd8389985a6bbd2faf",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Transactional lifecycle, strict contracts and concurrency controls",
+          "assumedHours": 300,
+          "recreationIncrementEUR": 32000,
+          "askingIncrementEUR": 9500,
+          "workPackages": [
+            {
+              "scope": "Transactional lifecycle, strict contracts and concurrency controls",
+              "lowEffortHours": 300
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 150,
+            "baseEffortHours": 300,
+            "highEffortHours": 600,
+            "lowCostEUR": 16000,
+            "baseCostEUR": 32000,
+            "highCostEUR": 64500,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 9500,
+      "recreationIncrementEUR": 32000,
+      "currentAskingEUR": 199500,
+      "currentRecreationEUR": 1032000,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-077",
+      "title": "Bio-Inspired Neural Dynamics & Active Inference Simulation Platform",
+      "baselineAskingEUR": 965500,
+      "baselineRecreationEUR": 3442500,
+      "baselineSourceMainSha": "5d351464f7e27f84526c5e8826d3e7dc10a9b59a",
+      "currentMainSha": "5d351464f7e27f84526c5e8826d3e7dc10a9b59a",
+      "candidateSha": "8713bc1d1b1c979fd5bac8628e08acc144d23346",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Complete published-asset inventory and metadata reconciliation",
+          "assumedHours": 180,
+          "recreationIncrementEUR": 19000,
+          "askingIncrementEUR": 5500,
+          "workPackages": [
+            {
+              "scope": "Complete published-asset inventory and metadata reconciliation",
+              "lowEffortHours": 180
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 90,
+            "baseEffortHours": 180,
+            "highEffortHours": 360,
+            "lowCostEUR": 9500,
+            "baseCostEUR": 19000,
+            "highCostEUR": 38500,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 5500,
+      "recreationIncrementEUR": 19000,
+      "currentAskingEUR": 971000,
+      "currentRecreationEUR": 3461500,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-078",
+      "title": "CardioSignal Intelligence Platform",
+      "baselineAskingEUR": 261500,
+      "baselineRecreationEUR": 1288500,
+      "baselineSourceMainSha": "a491c2a3de92604d02dfba7ace0e5efaf4167111",
+      "currentMainSha": "a491c2a3de92604d02dfba7ace0e5efaf4167111",
+      "candidateSha": "1a9fe7dc4616f0982eb3a602d50d69584a1a57ef",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Public publisher-listing connectivity and metadata-probe tooling",
+          "assumedHours": 120,
+          "recreationIncrementEUR": 12500,
+          "askingIncrementEUR": 3500,
+          "workPackages": [
+            {
+              "scope": "Public publisher-listing connectivity and metadata-probe tooling",
+              "lowEffortHours": 120
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 60,
+            "baseEffortHours": 120,
+            "highEffortHours": 240,
+            "lowCostEUR": 6000,
+            "baseCostEUR": 12500,
+            "highCostEUR": 25500,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 3500,
+      "recreationIncrementEUR": 12500,
+      "currentAskingEUR": 265000,
+      "currentRecreationEUR": 1301000,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-079",
+      "title": "Secure Actuation Integrity Platform",
+      "baselineAskingEUR": 433500,
+      "baselineRecreationEUR": 1779000,
+      "baselineSourceMainSha": "b02b24a587fc98e72e511d1d4cc8eed6fe835ad8",
+      "currentMainSha": "b02b24a587fc98e72e511d1d4cc8eed6fe835ad8",
+      "candidateSha": "03c84e0e085750657f88bc0413b9c6b6ade81047",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Audit-chain enforcement and virtual-action evidence controls",
+          "assumedHours": 250,
+          "recreationIncrementEUR": 27000,
+          "askingIncrementEUR": 8000,
+          "workPackages": [
+            {
+              "scope": "Audit-chain enforcement and virtual-action evidence controls",
+              "lowEffortHours": 250
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 125,
+            "baseEffortHours": 250,
+            "highEffortHours": 500,
+            "lowCostEUR": 13500,
+            "baseCostEUR": 27000,
+            "highCostEUR": 54000,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 8000,
+      "recreationIncrementEUR": 27000,
+      "currentAskingEUR": 441500,
+      "currentRecreationEUR": 1806000,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-080",
+      "title": "TrueLane Studio: Apex Architect",
+      "baselineAskingEUR": 300000,
+      "baselineRecreationEUR": 1200000,
+      "baselineSourceMainSha": "5b2a71883af9ce2fa86c4bfa6d5398ac38c572d0",
+      "currentMainSha": "5b2a71883af9ce2fa86c4bfa6d5398ac38c572d0",
+      "candidateSha": "975e4c0a3e147ff34ca65a95cdb303dc3fda213e",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Written holdout model research and locked forward-validation workflow",
+          "assumedHours": 200,
+          "recreationIncrementEUR": 21500,
+          "askingIncrementEUR": 6000,
+          "workPackages": [
+            {
+              "scope": "Written holdout model research and locked forward-validation workflow",
+              "lowEffortHours": 200
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 100,
+            "baseEffortHours": 200,
+            "highEffortHours": 400,
+            "lowCostEUR": 10500,
+            "baseCostEUR": 21500,
+            "highCostEUR": 43000,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 6000,
+      "recreationIncrementEUR": 21500,
+      "currentAskingEUR": 306000,
+      "currentRecreationEUR": 1221500,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-081",
+      "title": "VIORITH Mobile Camera Overlay",
+      "baselineAskingEUR": 185500,
+      "baselineRecreationEUR": 875000,
+      "baselineSourceMainSha": "e60da5de78c90229337a50ff67ca6599db13119c",
+      "currentMainSha": "e60da5de78c90229337a50ff67ca6599db13119c",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 185500,
+      "currentRecreationEUR": 875000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-082",
+      "title": "Distributed Compute Fabric",
+      "baselineAskingEUR": 229000,
+      "baselineRecreationEUR": 1250000,
+      "baselineSourceMainSha": "6262451193d1ce031690ad5daea2a9016f7be9d3",
+      "currentMainSha": "6262451193d1ce031690ad5daea2a9016f7be9d3",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 229000,
+      "currentRecreationEUR": 1250000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-083",
+      "title": "Adaptive Systems Intelligence Platform",
+      "baselineAskingEUR": 201500,
+      "baselineRecreationEUR": 1158500,
+      "baselineSourceMainSha": "ade408bb3e259a500f01045a6fa7adc503a0fd7a",
+      "currentMainSha": "ade408bb3e259a500f01045a6fa7adc503a0fd7a",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 201500,
+      "currentRecreationEUR": 1158500,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-084",
+      "title": "Interactive Piano Learning Platform",
+      "baselineAskingEUR": 700000,
+      "baselineRecreationEUR": 2700000,
+      "baselineSourceMainSha": "5bb67eb0422ce4d2c882c934201622e589a57752",
+      "currentMainSha": "5bb67eb0422ce4d2c882c934201622e589a57752",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 700000,
+      "currentRecreationEUR": 2700000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-085",
+      "title": "Adaptive Audio MIDI Transcription Studio",
+      "baselineAskingEUR": 80000,
+      "baselineRecreationEUR": 450000,
+      "baselineSourceMainSha": "3432db09757a22d0b770c83dcc513c4c38efe91f",
+      "currentMainSha": "3432db09757a22d0b770c83dcc513c4c38efe91f",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 80000,
+      "currentRecreationEUR": 450000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-086",
+      "title": "VellumGrid Autonomous Commerce Platform",
+      "baselineAskingEUR": 575000,
+      "baselineRecreationEUR": 2400000,
+      "baselineSourceMainSha": "2145e40635dd7244297457469133490397b6d396",
+      "currentMainSha": "2145e40635dd7244297457469133490397b6d396",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 575000,
+      "currentRecreationEUR": 2400000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-087",
+      "title": "Urban Digital Twin Intelligence & Simulation Platform",
+      "baselineAskingEUR": 200000,
+      "baselineRecreationEUR": 1000000,
+      "baselineSourceMainSha": "7c75324d2ee8968cde496fc3d589db09e9b9bdc2",
+      "currentMainSha": "7c75324d2ee8968cde496fc3d589db09e9b9bdc2",
+      "candidateSha": "19fc71253cf84db7d79a2c80abc7f0b4d39b0ee9",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 200000,
+      "currentRecreationEUR": 1000000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-088",
+      "title": "Maastricht Zero-Hour Simulator",
+      "baselineAskingEUR": 120000,
+      "baselineRecreationEUR": 650000,
+      "baselineSourceMainSha": "760bdc407879db79e63168d7a2dc466126d09d8a",
+      "currentMainSha": "760bdc407879db79e63168d7a2dc466126d09d8a",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 120000,
+      "currentRecreationEUR": 650000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-089",
+      "title": "HΛRM LYRA Automotive",
+      "baselineAskingEUR": 55000,
+      "baselineRecreationEUR": 450000,
+      "baselineSourceMainSha": "6d5f628e212d77fef87e9bc051aed03e9c373e6b",
+      "currentMainSha": "6d5f628e212d77fef87e9bc051aed03e9c373e6b",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 55000,
+      "currentRecreationEUR": 450000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-090",
+      "title": "LYRA-AERO eVTOL",
+      "baselineAskingEUR": 50000,
+      "baselineRecreationEUR": 450000,
+      "baselineSourceMainSha": "968dbbb8eb82ec001c2ee6eab0cfbda4b2a97dff",
+      "currentMainSha": "968dbbb8eb82ec001c2ee6eab0cfbda4b2a97dff",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 50000,
+      "currentRecreationEUR": 450000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-091",
+      "title": "Universal Capability Synthesis Engine (UCSE)",
+      "baselineAskingEUR": 150000,
+      "baselineRecreationEUR": 800000,
+      "baselineSourceMainSha": "c368fd51c106a0c6938385c410c3ec8e1ffb19ea",
+      "currentMainSha": "c368fd51c106a0c6938385c410c3ec8e1ffb19ea",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 150000,
+      "currentRecreationEUR": 800000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-092",
+      "title": "Aurynthiq Autonomous DJ Intelligence Platform",
+      "baselineAskingEUR": 46000,
+      "baselineRecreationEUR": 290000,
+      "baselineSourceMainSha": "e7b4d1af7200d92e0a2b669def317d6201ed400f",
+      "currentMainSha": "e7b4d1af7200d92e0a2b669def317d6201ed400f",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 46000,
+      "currentRecreationEUR": 290000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-093",
+      "title": "Universal Vehicle Configuration Database",
+      "baselineAskingEUR": 131000,
+      "baselineRecreationEUR": 1070500,
+      "baselineSourceMainSha": "c60425501b8cbc45a2cafb36b8179f4315d075f6",
+      "currentMainSha": "c60425501b8cbc45a2cafb36b8179f4315d075f6",
+      "candidateSha": "1746d9d8d7fa6c4500e27a9a4793bd73bc5347e4",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Offline payment-inbox metadata preflight and replay checks",
+          "assumedHours": 100,
+          "recreationIncrementEUR": 10500,
+          "askingIncrementEUR": 3000,
+          "workPackages": [
+            {
+              "scope": "Offline payment-inbox metadata preflight and replay checks",
+              "lowEffortHours": 100
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 50,
+            "baseEffortHours": 100,
+            "highEffortHours": 200,
+            "lowCostEUR": 5000,
+            "baseCostEUR": 10500,
+            "highCostEUR": 21500,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 3000,
+      "recreationIncrementEUR": 10500,
+      "currentAskingEUR": 134000,
+      "currentRecreationEUR": 1081000,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-094",
+      "title": "LEARNPIANO",
+      "baselineAskingEUR": 185000,
+      "baselineRecreationEUR": 817000,
+      "baselineSourceMainSha": "02eb8889a3fe85442d4398d1542cff32d278a67c",
+      "currentMainSha": "02eb8889a3fe85442d4398d1542cff32d278a67c",
+      "candidateSha": "33917306d72e1cf436f7cb432878b40f1079fd39",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "V17 temporal-alignment integrity and synthetic drift diagnostics",
+          "assumedHours": 240,
+          "recreationIncrementEUR": 25500,
+          "askingIncrementEUR": 7500,
+          "workPackages": [
+            {
+              "scope": "V17 temporal-alignment integrity and synthetic drift diagnostics",
+              "lowEffortHours": 240
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 120,
+            "baseEffortHours": 240,
+            "highEffortHours": 480,
+            "lowCostEUR": 12500,
+            "baseCostEUR": 25500,
+            "highCostEUR": 51500,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 7500,
+      "recreationIncrementEUR": 25500,
+      "currentAskingEUR": 192500,
+      "currentRecreationEUR": 842500,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-095",
+      "title": "Evidence-Governed Intelligence Platform",
+      "baselineAskingEUR": 24000,
+      "baselineRecreationEUR": 80000,
+      "baselineSourceMainSha": "bd07e21cbfccf9999dfb2a6ec79697283d22bd24",
+      "currentMainSha": "bd07e21cbfccf9999dfb2a6ec79697283d22bd24",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 24000,
+      "currentRecreationEUR": 80000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-096",
+      "title": "Universal-Systems-Intelligence-Engine",
+      "baselineAskingEUR": 64000,
+      "baselineRecreationEUR": 213000,
+      "baselineSourceMainSha": "cca5f6e53fffc592a33691fd43cb317d8f64bdce",
+      "currentMainSha": "cca5f6e53fffc592a33691fd43cb317d8f64bdce",
+      "candidateSha": "f927519f43d5b62a700aeac48b7d4417daf8d586",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Evaluator handoff, absent-evidence handling and admission contracts",
+          "assumedHours": 180,
+          "recreationIncrementEUR": 19000,
+          "askingIncrementEUR": 5500,
+          "workPackages": [
+            {
+              "scope": "Evaluator handoff, absent-evidence handling and admission contracts",
+              "lowEffortHours": 180
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 90,
+            "baseEffortHours": 180,
+            "highEffortHours": 360,
+            "lowCostEUR": 9500,
+            "baseCostEUR": 19000,
+            "highCostEUR": 38500,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 5500,
+      "recreationIncrementEUR": 19000,
+      "currentAskingEUR": 69500,
+      "currentRecreationEUR": 232000,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-097",
+      "title": "Software Asset Engineering Platform",
+      "baselineAskingEUR": 75000,
+      "baselineRecreationEUR": 250000,
+      "baselineSourceMainSha": "d6491a117594834cd3a341abcee72b22cbf4882e",
+      "currentMainSha": "d6491a117594834cd3a341abcee72b22cbf4882e",
+      "candidateSha": "9bd9823f1e295e6d43f11595ccf4c6d32acc0d4c",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Written tenant registry and durable static-job control plane",
+          "assumedHours": 420,
+          "recreationIncrementEUR": 45000,
+          "askingIncrementEUR": 13500,
+          "workPackages": [
+            {
+              "scope": "Written tenant registry and durable static-job control plane",
+              "lowEffortHours": 420
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 210,
+            "baseEffortHours": 420,
+            "highEffortHours": 840,
+            "lowCostEUR": 22500,
+            "baseCostEUR": 45000,
+            "highCostEUR": 90500,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 13500,
+      "recreationIncrementEUR": 45000,
+      "currentAskingEUR": 88500,
+      "currentRecreationEUR": 295000,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-098",
+      "title": "Launch & Cislunar Transportation Engineering Platform",
+      "baselineAskingEUR": 15000,
+      "baselineRecreationEUR": 50000,
+      "baselineSourceMainSha": "03b31db319cd783151b316d468e2cefd9124a9a1",
+      "currentMainSha": "03b31db319cd783151b316d468e2cefd9124a9a1",
+      "candidateSha": "8d0313be1dab5291b475b2e6b04f105fa0d6b3d5",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Stateful refuelling, depot inventory and multi-launch departure gates",
+          "assumedHours": 360,
+          "recreationIncrementEUR": 38500,
+          "askingIncrementEUR": 11500,
+          "workPackages": [
+            {
+              "scope": "Stateful refuelling, depot inventory and multi-launch departure gates",
+              "lowEffortHours": 360
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 180,
+            "baseEffortHours": 360,
+            "highEffortHours": 720,
+            "lowCostEUR": 19000,
+            "baseCostEUR": 38500,
+            "highCostEUR": 77500,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 11500,
+      "recreationIncrementEUR": 38500,
+      "currentAskingEUR": 26500,
+      "currentRecreationEUR": 88500,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-099",
+      "title": "Synthetic Consciousness Engineering Platform",
+      "baselineAskingEUR": 60000,
+      "baselineRecreationEUR": 200000,
+      "baselineSourceMainSha": "0b168ab06c8e639eef85b4f6dfea5c7dc5c44451",
+      "currentMainSha": "0b168ab06c8e639eef85b4f6dfea5c7dc5c44451",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 60000,
+      "currentRecreationEUR": 200000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-100",
+      "title": "Universal Video Intelligence Platform",
+      "baselineAskingEUR": 36000,
+      "baselineRecreationEUR": 120000,
+      "baselineSourceMainSha": "d8517fdaf02861c3a9f26ae9d94ea1c2f1b9d99e",
+      "currentMainSha": "d8517fdaf02861c3a9f26ae9d94ea1c2f1b9d99e",
+      "candidateSha": "3e2cf54d65a37b00131d9db6fc16d678c0292763",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Fail-closed mutations, idempotent replay and read-back reconciliation",
+          "assumedHours": 200,
+          "recreationIncrementEUR": 21500,
+          "askingIncrementEUR": 6000,
+          "workPackages": [
+            {
+              "scope": "Fail-closed mutations, idempotent replay and read-back reconciliation",
+              "lowEffortHours": 200
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 100,
+            "baseEffortHours": 200,
+            "highEffortHours": 400,
+            "lowCostEUR": 10500,
+            "baseCostEUR": 21500,
+            "highCostEUR": 43000,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 6000,
+      "recreationIncrementEUR": 21500,
+      "currentAskingEUR": 42000,
+      "currentRecreationEUR": 141500,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-101",
+      "title": "Universal Remote Perception Intelligence Platform",
+      "baselineAskingEUR": 33000,
+      "baselineRecreationEUR": 110000,
+      "baselineSourceMainSha": "372c3cedbaaa9a6c644f9e0fc5ba200461646270",
+      "currentMainSha": "372c3cedbaaa9a6c644f9e0fc5ba200461646270",
+      "candidateSha": "059266ddc7b2c7aa845af416b3e9ea0500031625",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Canonical evidence hardening, custody recovery and offline audit",
+          "assumedHours": 220,
+          "recreationIncrementEUR": 23500,
+          "askingIncrementEUR": 7000,
+          "workPackages": [
+            {
+              "scope": "Canonical evidence hardening, custody recovery and offline audit",
+              "lowEffortHours": 220
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 110,
+            "baseEffortHours": 220,
+            "highEffortHours": 440,
+            "lowCostEUR": 11500,
+            "baseCostEUR": 23500,
+            "highCostEUR": 47500,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 7000,
+      "recreationIncrementEUR": 23500,
+      "currentAskingEUR": 40000,
+      "currentRecreationEUR": 133500,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-102",
+      "title": "Universal Operations Orchestration & Intelligence Platform",
+      "baselineAskingEUR": 27000,
+      "baselineRecreationEUR": 90000,
+      "baselineSourceMainSha": "a5d82a19742dddb5e0fd5ac0fb9206bfb261ff72",
+      "currentMainSha": "a5d82a19742dddb5e0fd5ac0fb9206bfb261ff72",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 27000,
+      "currentRecreationEUR": 90000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-103",
+      "title": "Collective Reality Engine",
+      "baselineAskingEUR": 32000,
+      "baselineRecreationEUR": 108000,
+      "baselineSourceMainSha": "280268e69b50d80665123ef06de57607d5653e40",
+      "currentMainSha": "280268e69b50d80665123ef06de57607d5653e40",
+      "candidateSha": "36835c00723855ac65beb2a08fe600bd1e4294ac",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Persona-scoped narrative claims and bounded authority checks",
+          "assumedHours": 220,
+          "recreationIncrementEUR": 23500,
+          "askingIncrementEUR": 7000,
+          "workPackages": [
+            {
+              "scope": "Persona-scoped narrative claims and bounded authority checks",
+              "lowEffortHours": 220
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 110,
+            "baseEffortHours": 220,
+            "highEffortHours": 440,
+            "lowCostEUR": 11500,
+            "baseCostEUR": 23500,
+            "highCostEUR": 47500,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 7000,
+      "recreationIncrementEUR": 23500,
+      "currentAskingEUR": 39000,
+      "currentRecreationEUR": 131500,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-104",
+      "title": "Mission-to-Execution Engineering Framework",
+      "baselineAskingEUR": 16500,
+      "baselineRecreationEUR": 55000,
+      "baselineSourceMainSha": "1a945bda33d2bbcf77a003a0df1418af138d75d6",
+      "currentMainSha": "1a945bda33d2bbcf77a003a0df1418af138d75d6",
+      "candidateSha": "958880b2511dda82e2d5413d7abf0ae83550b5f4",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Written feasibility, architecture, traceability and VolumeForge review candidate",
+          "assumedHours": 1000,
+          "recreationIncrementEUR": 108000,
+          "askingIncrementEUR": 32000,
+          "workPackages": [
+            {
+              "scope": "Written feasibility, architecture, traceability and VolumeForge review candidate",
+              "lowEffortHours": 1000
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 500,
+            "baseEffortHours": 1000,
+            "highEffortHours": 2000,
+            "lowCostEUR": 54000,
+            "baseCostEUR": 108000,
+            "highCostEUR": 216000,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 32000,
+      "recreationIncrementEUR": 108000,
+      "currentAskingEUR": 48500,
+      "currentRecreationEUR": 163000,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-105",
+      "title": "Manuscript Integrity & Publishing Platform",
+      "baselineAskingEUR": 21000,
+      "baselineRecreationEUR": 70000,
+      "baselineSourceMainSha": "36e5b2a6ccfba8fbb21c1205a5d99f5e3eb0951d",
+      "currentMainSha": "36e5b2a6ccfba8fbb21c1205a5d99f5e3eb0951d",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 21000,
+      "currentRecreationEUR": 70000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-106",
+      "title": "Universal Property Intelligence Platform",
+      "baselineAskingEUR": 6000,
+      "baselineRecreationEUR": 18500,
+      "baselineSourceMainSha": "2fca83e8090d51013f91f9bb71720226b29bc0cf",
+      "currentMainSha": "2fca83e8090d51013f91f9bb71720226b29bc0cf",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 6000,
+      "currentRecreationEUR": 18500,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-107",
+      "title": "Visual-Effects-Spatial-Computing-Platform",
+      "baselineAskingEUR": 8500,
+      "baselineRecreationEUR": 29000,
+      "baselineSourceMainSha": "08129093359959f0f42200035ea0188ce42a3349",
+      "currentMainSha": "08129093359959f0f42200035ea0188ce42a3349",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 8500,
+      "currentRecreationEUR": 29000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-108",
+      "title": "Narrative Collectibles Platform",
+      "baselineAskingEUR": 17500,
+      "baselineRecreationEUR": 57500,
+      "baselineSourceMainSha": "6718234d20bbee71f2e35a42c3bcd66603e1b76c",
+      "currentMainSha": "6718234d20bbee71f2e35a42c3bcd66603e1b76c",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 17500,
+      "currentRecreationEUR": 57500,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-109",
+      "title": "Gossquibble",
+      "baselineAskingEUR": 46000,
+      "baselineRecreationEUR": 153000,
+      "baselineSourceMainSha": "c91eb254a96bad0e4c43795cf10959afffc86783",
+      "currentMainSha": "c91eb254a96bad0e4c43795cf10959afffc86783",
+      "candidateSha": "f67e8b00f9596b46bb00528b91545dc913b1ef5d",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Untrusted reconciliation admission and workflow consistency corrections",
+          "assumedHours": 180,
+          "recreationIncrementEUR": 19000,
+          "askingIncrementEUR": 5500,
+          "workPackages": [
+            {
+              "scope": "Untrusted reconciliation admission and workflow consistency corrections",
+              "lowEffortHours": 180
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 90,
+            "baseEffortHours": 180,
+            "highEffortHours": 360,
+            "lowCostEUR": 9500,
+            "baseCostEUR": 19000,
+            "highCostEUR": 38500,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 5500,
+      "recreationIncrementEUR": 19000,
+      "currentAskingEUR": 51500,
+      "currentRecreationEUR": 172000,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-110",
+      "title": "Reality Substrate Hypothesis Testing Platform",
+      "baselineAskingEUR": 17500,
+      "baselineRecreationEUR": 59500,
+      "baselineSourceMainSha": "d651b09c6b41576149efb2e335420ce08f138b3d",
+      "currentMainSha": "d651b09c6b41576149efb2e335420ce08f138b3d",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 17500,
+      "currentRecreationEUR": 59500,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-111",
+      "title": "Chess Strategic Intelligence Platform",
+      "baselineAskingEUR": 20000,
+      "baselineRecreationEUR": 67000,
+      "baselineSourceMainSha": "53b45608b608a5154fbb3e9c20e1164fdf53a393",
+      "currentMainSha": "53b45608b608a5154fbb3e9c20e1164fdf53a393",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 20000,
+      "currentRecreationEUR": 67000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-112",
+      "title": "Fundamental Reality Research Platform",
+      "baselineAskingEUR": 16500,
+      "baselineRecreationEUR": 53500,
+      "baselineSourceMainSha": "0edb04d021fc738bb2d5d55a80c4803fff539270",
+      "currentMainSha": "0edb04d021fc738bb2d5d55a80c4803fff539270",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 16500,
+      "currentRecreationEUR": 53500,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-113",
+      "title": "Temporal Causality Breakthrough Research Platform",
+      "baselineAskingEUR": 14000,
+      "baselineRecreationEUR": 45500,
+      "baselineSourceMainSha": "aa35309455e051b43d499940ee313e37b4c6d2a1",
+      "currentMainSha": "aa35309455e051b43d499940ee313e37b4c6d2a1",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 14000,
+      "currentRecreationEUR": 45500,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-114",
+      "title": "Cosmological Structure and Expansion Research Platform",
+      "baselineAskingEUR": 27000,
+      "baselineRecreationEUR": 90500,
+      "baselineSourceMainSha": "a75a398b0740f2730dcb7c43f2dd404bbf6cfb23",
+      "currentMainSha": "a75a398b0740f2730dcb7c43f2dd404bbf6cfb23",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 27000,
+      "currentRecreationEUR": 90500,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-115",
+      "title": "Digital Template Commerce Platform",
+      "baselineAskingEUR": 10500,
+      "baselineRecreationEUR": 34500,
+      "baselineSourceMainSha": "9c5dab1d847afd4ba23de2cfbcc0e690fbea6657",
+      "currentMainSha": "9c5dab1d847afd4ba23de2cfbcc0e690fbea6657",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 10500,
+      "currentRecreationEUR": 34500,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-116",
+      "title": "Closed-Cycle Energy Research & Verification Platform",
+      "baselineAskingEUR": 22500,
+      "baselineRecreationEUR": 74500,
+      "baselineSourceMainSha": "f98adda06e1fb123e99c560a28dfbe729b8b548e",
+      "currentMainSha": "f98adda06e1fb123e99c560a28dfbe729b8b548e",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 22500,
+      "currentRecreationEUR": 74500,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-117",
+      "title": "The Stone Universe Research Framework",
+      "baselineAskingEUR": 27500,
+      "baselineRecreationEUR": 92000,
+      "baselineSourceMainSha": "a1e00a07de02d12c5a7ce0e4b9e8f00eb02ca989",
+      "currentMainSha": "a1e00a07de02d12c5a7ce0e4b9e8f00eb02ca989",
+      "candidateSha": "12806696acd12c227e4d3b523c3af7cdb4214196",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Exact proper-cubic covariance and persistent-anisotropy experiments",
+          "assumedHours": 200,
+          "recreationIncrementEUR": 21500,
+          "askingIncrementEUR": 6000,
+          "workPackages": [
+            {
+              "scope": "Exact proper-cubic covariance and persistent-anisotropy experiments",
+              "lowEffortHours": 200
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 100,
+            "baseEffortHours": 200,
+            "highEffortHours": 400,
+            "lowCostEUR": 10500,
+            "baseCostEUR": 21500,
+            "highCostEUR": 43000,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 6000,
+      "recreationIncrementEUR": 21500,
+      "currentAskingEUR": 33500,
+      "currentRecreationEUR": 113500,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-118",
+      "title": "Universal Independent Reasoning Framework",
+      "baselineAskingEUR": 15500,
+      "baselineRecreationEUR": 53000,
+      "baselineSourceMainSha": "131a032ecef667ace9599c91d137b1e658abbeb3",
+      "currentMainSha": "131a032ecef667ace9599c91d137b1e658abbeb3",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 15500,
+      "currentRecreationEUR": 53000,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-119",
+      "title": "Foundational Existence Research Framework",
+      "baselineAskingEUR": 18000,
+      "baselineRecreationEUR": 61500,
+      "baselineSourceMainSha": "98866ccc371d832a86961b78d2f8aa0e78b2929e",
+      "currentMainSha": "98866ccc371d832a86961b78d2f8aa0e78b2929e",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 18000,
+      "currentRecreationEUR": 61500,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-120",
+      "title": "Intelligent Media Acquisition & Production Engine",
+      "baselineAskingEUR": 2500,
+      "baselineRecreationEUR": 8500,
+      "baselineSourceMainSha": "6c77b500d3805353ffbe625da19dcf34f596b24a",
+      "currentMainSha": "6c77b500d3805353ffbe625da19dcf34f596b24a",
+      "candidateSha": "24f5be4635055e56cf2f495aa023986b68339a96",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Experimental image cleanup, native media export, editorial and inference-isolation implementation",
+          "assumedHours": 2600,
+          "recreationIncrementEUR": 281000,
+          "askingIncrementEUR": 84000,
+          "workPackages": [
+            {
+              "scope": "Experimental image cleanup, native media export, editorial and inference-isolation implementation",
+              "lowEffortHours": 2600
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 1300,
+            "baseEffortHours": 2600,
+            "highEffortHours": 5200,
+            "lowCostEUR": 140500,
+            "baseCostEUR": 281000,
+            "highCostEUR": 562000,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 84000,
+      "recreationIncrementEUR": 281000,
+      "currentAskingEUR": 86500,
+      "currentRecreationEUR": 289500,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-121",
+      "title": "Higher-Dimensional Geometry Visualization Platform",
+      "baselineAskingEUR": 18000,
+      "baselineRecreationEUR": 60500,
+      "baselineSourceMainSha": "6d6818d530200a5ad23c50f74b03706e99fdb94e",
+      "currentMainSha": "6d6818d530200a5ad23c50f74b03706e99fdb94e",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 18000,
+      "currentRecreationEUR": 60500,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-122",
+      "title": "Fractal Physics Discovery Platform",
+      "baselineAskingEUR": 20000,
+      "baselineRecreationEUR": 68500,
+      "baselineSourceMainSha": "8806a206c251ac3e3534161568392c4722cb18fb",
+      "currentMainSha": "8806a206c251ac3e3534161568392c4722cb18fb",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 20000,
+      "currentRecreationEUR": 68500,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-123",
+      "title": "Fundamental Dark Sector Research Platform",
+      "baselineAskingEUR": 12500,
+      "baselineRecreationEUR": 43000,
+      "baselineSourceMainSha": "90a724a5e331c0b838d33cecfc7e480d532fecb6",
+      "currentMainSha": "90a724a5e331c0b838d33cecfc7e480d532fecb6",
+      "candidateSha": "44946b601d86032c41e480939b66a612be30c3e3",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "First-party four-chain MCMC pilot and convergence-audit tooling",
+          "assumedHours": 300,
+          "recreationIncrementEUR": 32000,
+          "askingIncrementEUR": 9500,
+          "workPackages": [
+            {
+              "scope": "First-party four-chain MCMC pilot and convergence-audit tooling",
+              "lowEffortHours": 300
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 150,
+            "baseEffortHours": 300,
+            "highEffortHours": 600,
+            "lowCostEUR": 16000,
+            "baseCostEUR": 32000,
+            "highCostEUR": 64500,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 9500,
+      "recreationIncrementEUR": 32000,
+      "currentAskingEUR": 22000,
+      "currentRecreationEUR": 75000,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-124",
+      "title": "Universal Digital Cloning Platform",
+      "baselineAskingEUR": 13500,
+      "baselineRecreationEUR": 45000,
+      "baselineSourceMainSha": "253a2cd76d6fc0d3af1abb7fc8be25e476bb100f",
+      "currentMainSha": "253a2cd76d6fc0d3af1abb7fc8be25e476bb100f",
+      "candidateSha": "5d177e599c5db4c0bb84e25713f1ddd426aef45d",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "IFC source-qualification research and customer-problem specifications",
+          "assumedHours": 120,
+          "recreationIncrementEUR": 12500,
+          "askingIncrementEUR": 3500,
+          "workPackages": [
+            {
+              "scope": "IFC source-qualification research and customer-problem specifications",
+              "lowEffortHours": 120
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 60,
+            "baseEffortHours": 120,
+            "highEffortHours": 240,
+            "lowCostEUR": 6000,
+            "baseCostEUR": 12500,
+            "highCostEUR": 25500,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 3500,
+      "recreationIncrementEUR": 12500,
+      "currentAskingEUR": 17000,
+      "currentRecreationEUR": 57500,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-125",
+      "title": "Universal Cognitive Intelligence Architecture",
+      "baselineAskingEUR": 10000,
+      "baselineRecreationEUR": 34500,
+      "baselineSourceMainSha": "ea9768add85a9a11d5a11fa93884415e1ba19361",
+      "currentMainSha": "ea9768add85a9a11d5a11fa93884415e1ba19361",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 10000,
+      "currentRecreationEUR": 34500,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-126",
+      "title": "Autonomous Financial Value Creation Platform",
+      "baselineAskingEUR": 7500,
+      "baselineRecreationEUR": 25500,
+      "baselineSourceMainSha": "525da2e62fb6a2e5b2252351558193b0f1c42b8c",
+      "currentMainSha": "525da2e62fb6a2e5b2252351558193b0f1c42b8c",
+      "candidateSha": null,
+      "sourceMainChanged": false,
+      "decision": "BASELINE_RETAINED",
+      "additionalWork": [],
+      "askingIncrementEUR": 0,
+      "recreationIncrementEUR": 0,
+      "currentAskingEUR": 7500,
+      "currentRecreationEUR": 25500,
+      "acceptance": "RETAINED_SOURCE_STATUS",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-127",
+      "title": "Three Card Poker Decision Platform",
+      "baselineAskingEUR": 19000,
+      "baselineRecreationEUR": 64500,
+      "baselineSourceMainSha": "b737500911b5e8cce5fdd12b27a2ba248c3183a6",
+      "currentMainSha": "b737500911b5e8cce5fdd12b27a2ba248c3183a6",
+      "candidateSha": "d49784655163347892ac1c98fad6586a4fce5cf3",
+      "sourceMainChanged": false,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Accessible same-origin decision UI and response-state handling",
+          "assumedHours": 260,
+          "recreationIncrementEUR": 28000,
+          "askingIncrementEUR": 8000,
+          "workPackages": [
+            {
+              "scope": "Accessible same-origin decision UI and response-state handling",
+              "lowEffortHours": 260
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 130,
+            "baseEffortHours": 260,
+            "highEffortHours": 520,
+            "lowCostEUR": 14000,
+            "baseCostEUR": 28000,
+            "highCostEUR": 56000,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 8000,
+      "recreationIncrementEUR": 28000,
+      "currentAskingEUR": 27000,
+      "currentRecreationEUR": 92500,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-128",
+      "title": "Art Direction & Visual Design Research Framework",
+      "baselineAskingEUR": 11500,
+      "baselineRecreationEUR": 38500,
+      "baselineSourceMainSha": "447670a3a89b67f52d45864c65a7e46c2d4b5810",
+      "currentMainSha": "0fd3303db86787c534ffa0b75cc3e413d4f7dd04",
+      "candidateSha": "5745d35f3efad54b09ea5dbf06a5d9300bc81005",
+      "sourceMainChanged": true,
+      "decision": "BASELINE_PLUS_SCOPED_WORK",
+      "additionalWork": [
+        {
+          "sourceEdition": "NEW_MAIN_DELTA",
+          "scope": "Native screen-reader test-plan and evidence-intake implementation; Adversarial receipt controls and source-bound regression fixtures; Scoped CPU evidence reconciliation and original qualification documentation",
+          "assumedHours": 96,
+          "recreationIncrementEUR": 10000,
+          "askingIncrementEUR": 3000,
+          "workPackages": [
+            {
+              "scope": "Native screen-reader test-plan and evidence-intake implementation",
+              "lowEffortHours": 36
+            },
+            {
+              "scope": "Adversarial receipt controls and source-bound regression fixtures",
+              "lowEffortHours": 32
+            },
+            {
+              "scope": "Scoped CPU evidence reconciliation and original qualification documentation",
+              "lowEffortHours": 28
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 48,
+            "baseEffortHours": 96,
+            "highEffortHours": 192,
+            "lowCostEUR": 5000,
+            "baseCostEUR": 10000,
+            "highCostEUR": 20500,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        },
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Native screen-reader operator capture, resumable workflow and fail-closed receipt reconciliation",
+          "assumedHours": 220,
+          "recreationIncrementEUR": 23500,
+          "askingIncrementEUR": 7000,
+          "workPackages": [
+            {
+              "scope": "Native screen-reader operator capture, resumable workflow and fail-closed receipt reconciliation",
+              "lowEffortHours": 220
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 110,
+            "baseEffortHours": 220,
+            "highEffortHours": 440,
+            "lowCostEUR": 11500,
+            "baseCostEUR": 23500,
+            "highCostEUR": 47500,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 10000,
+      "recreationIncrementEUR": 33500,
+      "currentAskingEUR": 21500,
+      "currentRecreationEUR": 72000,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    },
+    {
+      "ref": "TA-IP-129",
+      "title": "Media Acquisition & Processing Intelligence Platform",
+      "baselineAskingEUR": 0,
+      "baselineRecreationEUR": 0,
+      "baselineSourceMainSha": null,
+      "currentMainSha": "8722bd12eea8e86db73e791fde5665e0ffc1f5ea",
+      "candidateSha": "d6509397442d085b582b6a14937801bebb03b128",
+      "sourceMainChanged": false,
+      "decision": "INITIAL_SCOPED_REFERENCE",
+      "additionalWork": [
+        {
+          "sourceEdition": "NEW_PROJECT_MAIN",
+          "scope": "Media discovery, acquisition-wrapper and processing workflow; Manifest, bitstream timing, audit and integrity-analysis logic; Local acquisition interface, mounted storage and evidence export; Media fixtures, reproduction tools and first-party architecture documents",
+          "assumedHours": 1680,
+          "recreationIncrementEUR": 181500,
+          "askingIncrementEUR": 54000,
+          "workPackages": [
+            {
+              "scope": "Media discovery, acquisition-wrapper and processing workflow",
+              "lowEffortHours": 550
+            },
+            {
+              "scope": "Manifest, bitstream timing, audit and integrity-analysis logic",
+              "lowEffortHours": 420
+            },
+            {
+              "scope": "Local acquisition interface, mounted storage and evidence export",
+              "lowEffortHours": 260
+            },
+            {
+              "scope": "Media fixtures, reproduction tools and first-party architecture documents",
+              "lowEffortHours": 450
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 840,
+            "baseEffortHours": 1680,
+            "highEffortHours": 3360,
+            "lowCostEUR": 90500,
+            "baseCostEUR": 181500,
+            "highCostEUR": 363000,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        },
+        {
+          "sourceEdition": "WRITTEN_CANDIDATE_DELTA",
+          "scope": "Written original-webpage resolver, first-party MP4 acquisition and bounded job backend",
+          "assumedHours": 650,
+          "recreationIncrementEUR": 70000,
+          "askingIncrementEUR": 21000,
+          "workPackages": [
+            {
+              "scope": "Written original-webpage resolver, first-party MP4 acquisition and bounded job backend",
+              "lowEffortHours": 650
+            }
+          ],
+          "effortSensitivity": {
+            "lowEffortHours": 325,
+            "baseEffortHours": 650,
+            "highEffortHours": 1300,
+            "lowCostEUR": 35000,
+            "baseCostEUR": 70000,
+            "highCostEUR": 140500,
+            "sensitivityBasis": "50%-200% of this additional-work assumption; seller sensitivity only, not a statistical confidence interval. The historical baseline is held fixed."
+          }
+        }
+      ],
+      "askingIncrementEUR": 75000,
+      "recreationIncrementEUR": 251500,
+      "currentAskingEUR": 75000,
+      "currentRecreationEUR": 251500,
+      "acceptance": "WRITTEN_CANDIDATE_NOT_RELEASE_ACCEPTED",
+      "overlapRule": "Historical baseline is held fixed. Main baseline is excluded from the candidate delta. Only one current functional equivalent is counted; old versions, external implementations and future goals are excluded."
+    }
+  ]
+}

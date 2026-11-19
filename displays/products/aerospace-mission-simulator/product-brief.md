@@ -41,7 +41,7 @@ A deterministic mission research simulator with route and fault studies, robust 
 - Technical scope: V — A deterministic mission research simulator with route and fault studies, robust planning and a lumped battery model linking charge, resistive losses, temperature and available propulsion power. The offered edition and material boundaries govern review.
 - Evidence and validation: E2 — Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
 Offered first-party scope: Specifically agreed first-party implementation, documentation and retained evidence for 2.9.0. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.
@@ -78,19 +78,24 @@ Development: No separate open candidate at the reviewed snapshot.
 | Risk-adjusted strategic reference | 892,833 | 979,259 |
 | Weighted economic reference | 899,449 | 986,516 |
 
-Recreation estimate: EUR 850,000 retained scope component plus EUR 5,000 for the explicitly scoped implementation work budget, giving EUR 855,000. The scoped budget assumes 48 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.
+Published baseline retained once: recreation EUR 855,000, seller ask EUR 216,500. No monetary addition at this snapshot. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Retain the published EUR 216,500 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
+
+
 ## Individual source review
 
-Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. v2.8 history reports 50/50 tests and 51/51 validator checks; v2.9 adds nine battery/thermal checks including a 36-state matrix, without automatically requalifying inherited source.
+Reviewed first-party work: Mission routes, leg estimates and aerospace simulation; Scenario comparison and mission evidence workspace; Mission inputs, planner interfaces and output reports. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: Not flight-tested, certified, hardware-calibrated or operationally safe; new complete v2.9 checkout qualification must be distinguished from v2.8 historical PASS.
 
-Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
+Price decision: Retain the published EUR 216,500 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -98,6 +103,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/aerospace-mission-simulator/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/aerospace-mission-simulator/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

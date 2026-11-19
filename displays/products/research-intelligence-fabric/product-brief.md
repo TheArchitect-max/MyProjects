@@ -42,7 +42,7 @@ RIF v4.4.0 contains offline code and a documented Docker/PostgreSQL/RabbitMQ qua
 - Technical scope: V — An event-driven research orchestration platform with authenticated human review, durable PostgreSQL/outbox state, RabbitMQ workers, guarded dual-source synthesis and bounded operational observability. The offered edition and material boundaries govern review.
 - Evidence and validation: E2 — Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
 Offered first-party scope: Specifically agreed first-party implementation, documentation and retained evidence for 4.4.0. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.
@@ -79,19 +79,24 @@ Development: No separate open candidate at the reviewed snapshot.
 | Risk-adjusted strategic reference | 1,093,155 | 1,198,972 |
 | Weighted economic reference | 1,079,367 | 1,183,850 |
 
-Recreation estimate: EUR 850,000 retained scope component plus EUR 6,500 for the explicitly scoped implementation work budget, giving EUR 856,500. The scoped budget assumes 64 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.
+Published baseline retained once: recreation EUR 856,500, seller ask EUR 282,000. No monetary addition at this snapshot. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Retain the published EUR 282,000 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
+
+
 ## Individual source review
 
-Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source documents identifier-first event schema, transactional outbox, heartbeat diagnostics and policy-limited source packets; previous PR #3 includes a live Docker E2E gate. No newly run tests here.
+Reviewed first-party work: Research orchestration and evidence-workflow backend; Qualification, research state and execution controls; FastAPI interfaces, middleware and operator reports. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: A documented Docker E2E path is not independently certified production hosting; provider calls, storage, secure operations, external licenses and scaling require verification.
 
-Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
+Price decision: Retain the published EUR 282,000 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -99,6 +104,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/research-intelligence-fabric/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/research-intelligence-fabric/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

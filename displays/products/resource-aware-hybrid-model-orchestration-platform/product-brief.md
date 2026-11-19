@@ -25,6 +25,7 @@ An implemented release candidate is available on a development branch; productio
 - Retain project state
 - Review configurable quality conditions
 - Study optional higher-capability review
+- Written development: Hybrid model routing, long-form workflow, RAG, checkpointing and operator-governance candidate
 
 ## Output types
 
@@ -35,22 +36,23 @@ An implemented release candidate is available on a development branch; productio
 ## Material scope boundaries
 
 - A generation and revision workflow prototype. Third-party model and service entitlements are separately scoped.
+- Main contains definition documents; the functional implementation is written development, separately included in the estimate with acceptance unresolved.
 
 ## Acquisition evidence profile
 
 - Technical scope: P — A resource-aware generation and revision prototype for managed long-form work. The offered edition and material boundaries govern review.
 - Evidence and validation: E2 — Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T2 — Source, documentation, tests and licence evidence support bounded handover. The listed conditions and written delivery agreement govern acceptance.
 
-Offered first-party scope: Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+Offered first-party scope: The agreed first-party main work and separately identified written development delta, with their distinct source manifests and acceptance status. Future completion, operations and third-party entitlements require separate terms.
 
-Development: Open, unmerged development: Build Resource-Aware Hybrid Model Orchestration Platform through 0.1.7rc26 This is outside the offered main-source budget.
+Development: Hybrid model routing, long-form workflow, RAG, checkpointing and operator-governance candidate. Written first-party work; release acceptance remains unresolved.
 
 ## Conditions before handover
 
-- Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
+- Freeze the agreed main and written-development sources, first-party rights, pending acceptance and delivery manifest before transfer.
 - A detailed component inventory and licensing report are required for the agreed delivery scope.
 - Third-party licensing and obligations documentation remains incomplete.
 - A security assessment or an explicit statement of its absence is required before acceptance.
@@ -69,28 +71,34 @@ Development: Open, unmerged development: Build Resource-Aware Hybrid Model Orche
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 20,000 | 21,936 |
-| Negotiation reference - low | 15,000 | 16,452 |
-| Negotiation reference - high | 25,000 | 27,420 |
-| Recreation cost estimate | 250,000 | 274,200 |
-| Marketability cost scenario | 268,813 | 294,834 |
-| Monetisation cost scenario | 291,094 | 319,272 |
-| Risk-adjusted strategic reference | 225,386 | 247,203 |
-| Weighted economic reference | 253,367 | 277,893 |
+| Seller asking reference | 94,500 | 103,648 |
+| Negotiation reference - low | 74,600 | 81,821 |
+| Negotiation reference - high | 118,125 | 129,560 |
+| Recreation cost estimate | 498,500 | 546,755 |
+| Marketability cost scenario | 536,012 | 587,898 |
+| Monetisation cost scenario | 580,441 | 636,628 |
+| Risk-adjusted strategic reference | 449,420 | 492,924 |
+| Weighted economic reference | 505,213 | 554,118 |
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+Published baseline retained once: recreation EUR 250,000, seller ask EUR 20,000. Additional identified work adds recreation EUR 248,500 and ask EUR 74,500. Written development is separately included with acceptance unresolved. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Preserved seller asking baseline EUR 20,000; add EUR 74,500 for Hybrid model routing, long-form workflow, RAG, checkpointing and operator-governance candidate. Added recreation allowance EUR 248,500, from 2,300 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once.
+
+- Hybrid model routing, long-form workflow, RAG, checkpointing and operator-governance candidate — 2300 assumed hours; WRITTEN_CANDIDATE_DELTA
+
 ## Individual source review
 
-Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. PR #1 documents deterministic secret-free provider profile, posture-stage checks and readiness recomputation; unmerged draft scope is not accepted as released.
+Reviewed first-party work: Main first-party product definition and identity records; Main architecture, transfer perimeter and research specifications. Written development: Hybrid model routing, long-form workflow, RAG, checkpointing and operator-governance candidate. Existing written work only; acceptance and future completion remain separate. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: No independent end-to-end GGUF/model-quality, RAM/latency or provider billing acceptance; RC26 not merged.
 
-Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
+Price decision: Preserved seller asking baseline EUR 20,000; add EUR 74,500 for Hybrid model routing, long-form workflow, RAG, checkpointing and operator-governance candidate. Added recreation allowance EUR 248,500, from 2,300 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -98,6 +106,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/resource-aware-hybrid-model-orchestration-platform/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/resource-aware-hybrid-model-orchestration-platform/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

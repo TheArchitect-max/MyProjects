@@ -42,7 +42,7 @@ Template-commerce source with staged evidence export, vault/ledger integrity, en
 - Technical scope: P — Template-commerce source with staged evidence export, vault/ledger integrity, entitlement and download checks, and controlled runtime-acceptance tooling. The offered edition and material boundaries govern review.
 - Evidence and validation: E2 — Tests plus validation/qualification evidence identified. Source-specific diligence and recipient acceptance remain separate.
 - Rights and component obligations: R0 — No repository licence evidence identified. Source-specific diligence and recipient acceptance remain separate.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Source-specific diligence and recipient acceptance remain separate.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T1 — Implementation exists but core transfer evidence is incomplete. Source-specific diligence and recipient acceptance remain separate.
 
 Offered first-party scope: Specifically agreed first-party 0.7.0 accepted / 0.8.0 development source, documentation and retained evidence: Template-commerce source with staged evidence export, vault/ledger integrity, entitlement and download checks, and controlled runtime-acceptance tooling. No live checkout/payment acceptance, deployment or trading business is included. The existing budget already covers qualification tooling, so no additional price premium is adopted.
@@ -75,19 +75,24 @@ Development: No separate open candidate at the reviewed snapshot.
 | Risk-adjusted strategic reference | 13,086 | 14,353 |
 | Weighted economic reference | 23,840 | 26,148 |
 
-The recreation estimate adopts the lowest expressly scoped seller effort scenario. It is not recorded expenditure, an absolute minimum, an independent quote or established market value. Only the agreed first-party extension, theme and documentation are priced, subject to rights and compatibility review. Platform ownership, customer or payment data, a trading business, live operations, hosting and third-party licences are excluded.
+Published baseline retained once: recreation EUR 34,500, seller ask EUR 10,500. No monetary addition at this snapshot. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Retain the published EUR 10,500 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
+
+
 ## Individual source review
 
-Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Frozen v0.7 CPU acceptance is retained; v0.8/TCE0.4 changes PHP and shell code and requires fresh source and real staging acceptance.
+Reviewed first-party work: Template-commerce plugin, orders and entitlement domain; Payment evidence, download tokens, vault and backup controls; WordPress integration and first-party template-catalogue build. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: No live checkout/payment acceptance, deployment or trading business is included. The existing budget already covers qualification tooling, so no additional price premium is adopted.
 
-Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
+Price decision: Retain the published EUR 10,500 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -95,6 +100,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/digital-template-commerce-platform/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/digital-template-commerce-platform/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

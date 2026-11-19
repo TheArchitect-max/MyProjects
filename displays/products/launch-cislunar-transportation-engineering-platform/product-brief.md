@@ -25,6 +25,7 @@ Use the v0.1 transport-concept software for your FusionLunar studies. A separate
 - Screen architecture choices
 - Review reliability and logistics assumptions
 - Retain decision evidence
+- Written development: Stateful refuelling, depot inventory and multi-launch departure gates
 
 ## Output types
 
@@ -41,16 +42,16 @@ Use the v0.1 transport-concept software for your FusionLunar studies. A separate
 - Technical scope: P — A transport-architecture research foundation for launch and lunar logistics choices. The offered edition and material boundaries govern review.
 - Evidence and validation: E3 — Tests, validation and provenance/release evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
-Offered first-party scope: Present first-party transport-concept screening software, interface contracts, synthetic example, tests, documentation and retained software validation at the identified development commit. Physical vehicles, flight qualification, operational transport, external science and data rights, the separately owned FusionLunar asset and future engineering are excluded.
+Offered first-party scope: The agreed first-party main work and separately identified written development delta, with their distinct source manifests and acceptance status. Future completion, operations and third-party entitlements require separate terms.
 
-Development: Open, unmerged development: v0.2 — Stateful refueling, depot inventory and multi-launch departure gates This is outside the offered main-source budget.
+Development: Stateful refuelling, depot inventory and multi-launch departure gates. Written first-party work; release acceptance remains unresolved.
 
 ## Conditions before handover
 
-- Agree the exact software delivery manifest, release identity and recipient acceptance checks.
+- Freeze the agreed main and written-development sources, first-party rights, pending acceptance and delivery manifest before transfer.
 - Confirm the applicable rights holder and its authority to transfer the included first-party materials; the repository copyright notice names TrueLaneStudio.
 - Reconcile build and test component versions, licences and release inventory; no dependency lockfile or completed SBOM is retained.
 - Qualify the intended engineering use with appropriate evidence; synthetic screening and software tests do not establish flight performance, safety or operational reliability.
@@ -67,28 +68,34 @@ Development: Open, unmerged development: v0.2 — Stateful refueling, depot inve
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 15,000 | 16,452 |
-| Negotiation reference - low | 12,000 | 13,162 |
-| Negotiation reference - high | 18,750 | 20,565 |
-| Recreation cost estimate | 50,000 | 54,840 |
-| Marketability cost scenario | 34,425 | 37,757 |
-| Monetisation cost scenario | 28,688 | 31,465 |
-| Risk-adjusted strategic reference | 17,069 | 18,721 |
-| Weighted economic reference | 31,097 | 34,107 |
+| Seller asking reference | 26,500 | 29,065 |
+| Negotiation reference - low | 21,200 | 23,252 |
+| Negotiation reference - high | 33,125 | 36,332 |
+| Recreation cost estimate | 88,500 | 97,067 |
+| Marketability cost scenario | 60,932 | 66,830 |
+| Monetisation cost scenario | 50,777 | 55,692 |
+| Risk-adjusted strategic reference | 30,212 | 33,137 |
+| Weighted economic reference | 55,041 | 60,369 |
 
-Disclosed base/increment assumptions reconcile to the retained recreation anchor. Effort remains an analyst estimate for its original scope.
+Published baseline retained once: recreation EUR 50,000, seller ask EUR 15,000. Additional identified work adds recreation EUR 38,500 and ask EUR 11,500. Written development is separately included with acceptance unresolved. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Preserved seller asking baseline EUR 15,000; add EUR 11,500 for Stateful refuelling, depot inventory and multi-launch departure gates. Added recreation allowance EUR 38,500, from 360 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once.
+
+- Stateful refuelling, depot inventory and multi-launch departure gates — 360 assumed hours; WRITTEN_CANDIDATE_DELTA
+
 ## Individual source review
 
-Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Repository describes deterministic mission requirements, basic evaluator and PASS/FAIL/INCOMPLETE model contracts; no exact pinned project-wide acceptance reproduced by this portfolio audit.
+Reviewed first-party work: Cislunar mission stages and trajectory models; Architecture tradeoffs and bounded transport simulation; Mission inputs, evaluation CLI and engineering reports. Written development: Stateful refuelling, depot inventory and multi-launch departure gates. Existing written work only; acceptance and future completion remain separate. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: Not flight-qualified trajectory, hardware performance, launch cadence, measured reliability, mission safety or commercially modeled feasibility.
 
-Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
+Price decision: Preserved seller asking baseline EUR 15,000; add EUR 11,500 for Stateful refuelling, depot inventory and multi-launch departure gates. Added recreation allowance EUR 38,500, from 360 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -96,6 +103,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/launch-cislunar-transportation-engineering-platform/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/launch-cislunar-transportation-engineering-platform/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

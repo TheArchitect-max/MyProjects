@@ -15,6 +15,8 @@ def validate():
   raw=file.read_text();source_hashes=set(SOURCE_HASH.findall(raw))
   if file.name=='portfolio-reassessment-20261107.json':
    assert source_hashes<=known_source_hashes
+  elif file.name in {'pricing-catalogue.json','pricing-baseline-20261119.json','pricing-continuity-20261119.json'}:
+   assert source_hashes<=known_source_hashes,(file,'unregistered provenance')
   elif file.name in {f'source-price-session-20261108-S0{i}.json' for i in range(1,5)}:
    session=json.loads(raw);suffix=file.stem[-3:]
    assert session.get('sessionId')=='2026-11-08-'+suffix,(file,'wrong session ID')
@@ -40,7 +42,7 @@ def validate():
   for field in ['productPosition','offeredEdition','developmentEdition']:
    assert not RAW_RESULTS.search(a[field]),(a['ref'],field)
   assert not any('potential sensitive filenames' in x.lower() for x in a['sellerConditions']),a['ref']
- for a in json.loads((ROOT/'assets/portfolio-identity-ledger.json').read_text())['assets'][128:]:
+ for a in json.loads((ROOT/'assets/portfolio-identity-ledger.json').read_text())['assets'][129:]:
   folder=ROOT/'displays/products'/a['slug']
   for name in ['index.html','product-brief.md']:
    text=(folder/name).read_text()
@@ -48,5 +50,5 @@ def validate():
    assert not PRIVATE.search(SOURCE_HASH.sub('[SOURCE_PROVENANCE]',text)),(a['id'],name)
  assert not list(ROOT.glob('**/*Recovery_Key*'))
  assert not (ROOT/'audit-20261021').exists()
- return {'result':'PASS','publicAssets':128,'publicDocumentsChecked':384,'registeredSourceHashCount':len(known_source_hashes),'privateImplementationPathsAbsent':True,'credentialsAndPersonalContactsAbsent':True,'rawBenchmarkMetricsAbsent':True,'recoveryKeyAbsent':True}
+ return {'result':'PASS','publicAssets':129,'publicDocumentsChecked':387,'registeredSourceHashCount':len(known_source_hashes),'privateImplementationPathsAbsent':True,'credentialsAndPersonalContactsAbsent':True,'rawBenchmarkMetricsAbsent':True,'recoveryKeyAbsent':True}
 if __name__=='__main__':print(json.dumps(validate(),indent=2))

@@ -6,9 +6,9 @@
 
 The portfolio represents an extensive collection of independently initiated software engineering and research projects spanning advanced computational technologies, artificial intelligence, autonomous systems, scientific modeling, digital infrastructure, and specialized engineering applications.
 
-As of November 19, 2026, the identity register contains **128 private software and research IP asset candidates**. There are 128 individually assessed seller asking references; seven portfolio aliases remain provisional pending source-side identity registration.
+As of November 19, 2026, the identity register contains **129 private software and research IP asset candidates**. There are 129 individually assessed seller asking references; eight portfolio aliases remain provisional pending source-side identity registration.
 
-**Catalogue scope:** Each of the **128 assets** is associated with one private source repository and one unique feminine portfolio alias. Source identity was previously confirmed for 121; seven portfolio IDs remain provisional. Public publication infrastructure and seller-excluded archives receive no standalone asset identity or price. The agreed first-party work, rights and transfer perimeter govern each acquisition.
+**Catalogue scope:** Each of the **129 assets** is associated with one private source repository and one unique feminine portfolio alias. Source identity was previously confirmed for 121; eight portfolio IDs remain provisional. Public publication infrastructure and seller-excluded archives receive no standalone asset identity or price. The agreed first-party work, rights and transfer perimeter govern each acquisition.
 
 The portfolio is characterized by technological diversity, independently managed development initiatives, and an overarching emphasis on intellectual property creation, engineering methodologies, and long-term technological independence.
 
@@ -25,7 +25,7 @@ This distinction is essential to maintaining transparency between existing devel
 
 ### 2.1 Established Repository Portfolio
 
-The current acquisition inventory comprises 128 distinct private software and research asset candidates. The two public publication repositories and a private strategic supporting dossier are not independent software assets; an earlier excluded literary archive is absent from the current account inventory.
+The current acquisition inventory comprises 129 distinct private software and research asset candidates. The two public publication repositories and a private strategic supporting dossier are not independent software assets; an earlier excluded literary archive is absent from the current account inventory.
 
 The repository inventory establishes the existence and organizational scope of these initiatives. It does not, by itself, establish that every repository contains a complete product, independently validated technology, or commercially deployable software.
 
@@ -149,7 +149,7 @@ Any defensible commercial valuation should consider factors such as:
 - Legal transferability and contractual restrictions.
 - Independent technical assessment and buyer-specific strategic relevance.
 
-Repository count, development effort, architectural complexity, and projected applications are insufficient on their own to establish market value. All 128 projects have dated individual seller asking references. Their combined total is the basis for the full-portfolio asking offer, which applies a fixed 10% discount when all listed projects are acquired in one transaction. The amount updates as individual asking references change. This seller pricing policy does not establish independently appraised market value, a completed transaction price or realized revenue. Availability, included editions, transferable rights and final consideration require due diligence and written agreement.
+Repository count, development effort, architectural complexity, and projected applications are insufficient on their own to establish market value. All 129 projects have dated individual seller asking references. Their combined total is the basis for the full-portfolio asking offer, which applies a fixed 10% discount when all listed projects are acquired in one transaction. The amount updates as individual asking references change. This seller pricing policy does not establish independently appraised market value, a completed transaction price or realized revenue. Availability, included editions, transferable rights and final consideration require due diligence and written agreement.
 
 Furthermore, strategic value to a particular prospective acquirer should be distinguished from generally realizable market value. Buyer-specific synergies, expected cost savings, and future business opportunities may influence negotiations but should not be presented as established financial outcomes without supporting evidence.
 
@@ -181,7 +181,7 @@ Achievement of that ambition remains dependent on the measurable performance and
 
 **Current Status — November 19, 2026**
 
-The acquisition portfolio comprises 128 individually mapped private software and research asset candidates covering a broad range of advanced software, scientific, computational, and engineering disciplines. The repository inventory has been established, but comprehensive portfolio-wide technical certification, independent scientific validation, production-readiness verification, legal clearance, and commercial valuation are not established by that inventory.
+The acquisition portfolio comprises 129 individually mapped private software and research asset candidates covering a broad range of advanced software, scientific, computational, and engineering disciplines. The repository inventory has been established, but comprehensive portfolio-wide technical certification, independent scientific validation, production-readiness verification, legal clearance, and commercial valuation are not established by that inventory.
 
 **Future Potential — Conditional and Forward-Looking**
 

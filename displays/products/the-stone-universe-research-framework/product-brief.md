@@ -25,6 +25,7 @@ A theoretical-physics research framework with classical lattice and scalar-field
 - Inspect native-source refinement and mesh-phase effects
 - Stress directional effects across time and initial preparations
 - Separate diagnostic probe contributions under explicit assumptions
+- Written development: Exact proper-cubic covariance and persistent-anisotropy experiments
 
 ## Output types
 
@@ -43,16 +44,16 @@ A theoretical-physics research framework with classical lattice and scalar-field
 - Technical scope: R — A theoretical-physics research framework with classical lattice and scalar-field demonstrators, native source evolution and explicit symmetry, refinement and anisotropy counterexamples. The offered edition and material boundaries govern review.
 - Evidence and validation: E2 — Current local replay passes its executed tests through R2l. Retained source-specific CPU acceptance records cover the separate research stages; R2m remains outside this offered source edition. Independent recipient and intended-use acceptance remain separate.
 - Rights and component obligations: R0 — Proprietary status is asserted in the research policy, but no dedicated repository licence or transfer notice is identified. First-party title, component obligations and delivery terms require specific review.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Source-specific diligence and recipient acceptance remain separate.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T1 — Implementation exists but core transfer evidence is incomplete. Source-specific diligence and recipient acceptance remain separate.
 
-Offered first-party scope: Previously budgeted classical lattice and R2g diagnostic work is retained once. Only implemented R2h-R2l symmetry, native-source, dynamic anisotropy and mechanism-probe software with its regression/documentation is added. R2m, physical gravity, hardware, observed data and future research are excluded.
+Offered first-party scope: The agreed first-party main work and separately identified written development delta, with their distinct source manifests and acceptance status. Future completion, operations and third-party entitlements require separate terms.
 
-Development: Open, unmerged development: R2m: exact proper-cubic lattice covariance with persistent source anisotropy This is outside the offered main-source budget.
+Development: Exact proper-cubic covariance and persistent-anisotropy experiments. Written first-party work; release acceptance remains unresolved.
 
 ## Conditions before handover
 
-- Freeze the specifically agreed first-party source edition, documents, rights and exclusions.
+- Freeze the agreed main and written-development sources, first-party rights, pending acceptance and delivery manifest before transfer.
 - Complete the dedicated licence/transfer notice and release-specific component and delivery record.
 - Review retained internal CPU evidence and reproduce representative recipient cases.
 - Keep later research candidates, unsupported physical claims and third-party works outside the transfer scope.
@@ -66,28 +67,34 @@ Development: Open, unmerged development: R2m: exact proper-cubic lattice covaria
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 27,500 | 30,162 |
-| Negotiation reference - low | 22,500 | 24,678 |
-| Negotiation reference - high | 34,500 | 37,840 |
-| Recreation cost estimate | 92,000 | 100,906 |
-| Marketability cost scenario | 35,581 | 39,025 |
-| Monetisation cost scenario | 23,460 | 25,731 |
-| Risk-adjusted strategic reference | 7,270 | 7,974 |
-| Weighted economic reference | 37,353 | 40,969 |
+| Seller asking reference | 33,500 | 36,743 |
+| Negotiation reference - low | 27,300 | 29,943 |
+| Negotiation reference - high | 42,000 | 46,066 |
+| Recreation cost estimate | 113,500 | 124,487 |
+| Marketability cost scenario | 43,896 | 48,145 |
+| Monetisation cost scenario | 28,943 | 31,745 |
+| Risk-adjusted strategic reference | 8,969 | 9,837 |
+| Weighted economic reference | 46,082 | 50,543 |
 
-The retained priced scope and explicitly non-overlapping implementation budgets reconcile below. Effort and prices remain seller assumptions, not actual expenditure, independent quotations or established market value. Previously budgeted classical lattice and R2g diagnostic work is retained once. Only implemented R2h-R2l symmetry, native-source, dynamic anisotropy and mechanism-probe software with its regression/documentation is added. R2m, physical gravity, hardware, observed data and future research are excluded.
+Published baseline retained once: recreation EUR 92,000, seller ask EUR 27,500. Additional identified work adds recreation EUR 21,500 and ask EUR 6,000. Written development is separately included with acceptance unresolved. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Preserved seller asking baseline EUR 27,500; add EUR 6,000 for Exact proper-cubic covariance and persistent-anisotropy experiments. Added recreation allowance EUR 21,500, from 200 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once.
+
+- Exact proper-cubic covariance and persistent-anisotropy experiments — 200 assumed hours; WRITTEN_CANDIDATE_DELTA
+
 ## Individual source review
 
-Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source R2l acceptance JSON records 56/56 owner and local CPU tests, 781 matching diagnostics; R2m PR reports 96/96 local tests.
+Reviewed first-party work: Lattice Hamiltonian, Verlet and dilaton-model computation; Convergence, anisotropy and bounded falsification experiments; Research interfaces, parameter controls and numerical reports. Written development: Exact proper-cubic covariance and persistent-anisotropy experiments. Existing written work only; acceptance and future completion remain separate. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: R2m independent Colab evidence pending; no emergent gravity metric, SO(3) isotropy, independent physical observation or validation of spacetime microstructure.
 
-Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
+Price decision: Preserved seller asking baseline EUR 27,500; add EUR 6,000 for Exact proper-cubic covariance and persistent-anisotropy experiments. Added recreation allowance EUR 21,500, from 200 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -95,6 +102,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/the-stone-universe-research-framework/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/the-stone-universe-research-framework/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

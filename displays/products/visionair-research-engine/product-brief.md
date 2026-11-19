@@ -43,7 +43,7 @@ Experimental machine-learning and ECG research software with reproducible traini
 - Technical scope: V — Experimental machine-learning and ECG research software with reproducible training, frozen external-evaluation records, dataset-consumption governance and a preregistered second-dataset inference workflow. The offered edition and material boundaries govern review.
 - Evidence and validation: E3 — Current local CPU regressions pass. Retained INCART records describe three frozen model runs; their descriptive performance is not a predeclared performance success threshold. Independent recipient and intended-use acceptance remain separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
 Offered first-party scope: The specifically agreed first-party research code, protocol and retained engineering records are available for review. The earlier partially budgeted recreation anchor is retained without an uplift. External datasets/models, clinical claims, a completed SVDB inference result and future qualification are excluded.
@@ -78,19 +78,24 @@ Development: No separate open candidate at the reviewed snapshot.
 | Risk-adjusted strategic reference | 709,119 | 777,762 |
 | Weighted economic reference | 969,692 | 1,063,558 |
 
-Recreation estimate: EUR 1,200,000 retained scope component plus EUR 500 for the explicitly scoped implementation work budget, giving EUR 1,200,500. The scoped budget assumes 8 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value. Review on 2026-11-03: The specifically agreed first-party research code, protocol and retained engineering records are available for review. The earlier partially budgeted recreation anchor is retained without an uplift. External datasets/models, clinical claims, a completed SVDB inference result and future qualification are excluded.
+Published baseline retained once: recreation EUR 1,200,500, seller ask EUR 260,000. No monetary addition at this snapshot. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Retain the published EUR 260,000 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
+
+
 ## Individual source review
 
-Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source describes MIT-BIH training/holdout, three frozen seeds, v0.9.1 INCART independent source, v0.10 external baseline and v0.12 SVDB 78-record integrity; initial performance gate defined=false.
+Reviewed first-party work: Experimental perception engine and signal model code; Neural evaluation, checkpoints and evidence workflows; Data adapters, benchmark inputs and analysis interfaces. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: Dataset and model identity checks do not establish diagnostic sensitivity, external clinical performance, medical device approval, patient safety or stable generalization; descriptive metrics not certified.
 
-Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
+Price decision: Retain the published EUR 260,000 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -98,6 +103,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/visionair-research-engine/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/visionair-research-engine/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

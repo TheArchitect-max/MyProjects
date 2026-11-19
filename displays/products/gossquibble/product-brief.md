@@ -25,6 +25,7 @@ Adds separate synthetic rollback witnesses, a simulated third trust domain, an o
 - Synthetic witness and third-domain rollback comparison
 - Offline authority boundary and acknowledgement fencing
 - Outage/replay regression and acceptance reconciliation
+- Written development: Untrusted reconciliation admission and workflow consistency corrections
 
 ## Output types
 
@@ -42,16 +43,16 @@ Adds separate synthetic rollback witnesses, a simulated third trust domain, an o
 - Technical scope: P — Adds separate synthetic rollback witnesses, a simulated third trust domain, an offline remote-authority contract and a main-source outage/acknowledgement fence. All authority domains remain simulations on one offline host. R5.45 source documents retain pending acceptance; real remote custody, live publishing rights, operator recovery and commercial launch remain blocked.
 - Evidence and validation: E2 — Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R1 — Repository licence file identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T2 — Source, documentation, tests and licence evidence support bounded handover. The listed conditions and written delivery agreement govern acceptance.
 
-Offered first-party scope: Existing first-party main-source work: Adds separate synthetic rollback witnesses, a simulated third trust domain, an offline remote-authority contract and a main-source outage/acknowledgement fence. All authority domains remain simulations on one offline host. R5.45 source documents retain pending acceptance; real remote custody, live publishing rights, operator recovery and commercial launch remain blocked.
+Offered first-party scope: The agreed first-party main work and separately identified written development delta, with their distinct source manifests and acceptance status. Future completion, operations and third-party entitlements require separate terms.
 
-Development: Open, unmerged development: R5.46 — Untrusted reconciliation admission and complete documentation consistency This is outside the offered main-source budget.
+Development: Untrusted reconciliation admission and workflow consistency corrections. Written first-party work; release acceptance remains unresolved.
 
 ## Conditions before handover
 
-- All authority domains remain simulations on one offline host. R5.45 source documents retain pending acceptance; real remote custody, live publishing rights, operator recovery and commercial launch remain blocked.
+- Freeze the agreed main and written-development sources, first-party rights, pending acceptance and delivery manifest before transfer.
 - Freeze the source-specific delivery edition, transferable rights and exclusions.
 - Review component obligations, source-specific reproducibility and security evidence under agreed confidentiality.
 
@@ -63,28 +64,34 @@ Development: Open, unmerged development: R5.46 — Untrusted reconciliation admi
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 46,000 | 50,453 |
-| Negotiation reference - low | 36,800 | 40,362 |
-| Negotiation reference - high | 57,500 | 63,066 |
-| Recreation cost estimate | 153,000 | 167,810 |
-| Marketability cost scenario | 117,045 | 128,375 |
-| Monetisation cost scenario | 108,439 | 118,936 |
-| Risk-adjusted strategic reference | 58,035 | 63,653 |
-| Weighted economic reference | 103,659 | 113,693 |
+| Seller asking reference | 51,500 | 56,485 |
+| Negotiation reference - low | 41,200 | 45,188 |
+| Negotiation reference - high | 64,375 | 70,607 |
+| Recreation cost estimate | 172,000 | 188,650 |
+| Marketability cost scenario | 131,580 | 144,317 |
+| Monetisation cost scenario | 121,905 | 133,705 |
+| Risk-adjusted strategic reference | 65,242 | 71,557 |
+| Weighted economic reference | 116,532 | 127,812 |
 
-Non-overlapping implemented main-source increment: 96 assumed hours at EUR 94/hour, 15% allowance, EUR 10,000 adopted recreation increment and EUR 3,000 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project. Earlier priced work is counted once; its legacy uncertainty remains.
+Published baseline retained once: recreation EUR 153,000, seller ask EUR 46,000. Additional identified work adds recreation EUR 19,000 and ask EUR 5,500. Written development is separately included with acceptance unresolved. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Preserved seller asking baseline EUR 46,000; add EUR 5,500 for Untrusted reconciliation admission and workflow consistency corrections. Added recreation allowance EUR 19,000, from 180 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once.
+
+- Untrusted reconciliation admission and workflow consistency corrections — 180 assumed hours; WRITTEN_CANDIDATE_DELTA
+
 ## Individual source review
 
-Current main README, full Git inventory and comparison with the prior reviewed main identify this implemented change: Adds separate synthetic rollback witnesses, a simulated third trust domain, an offline remote-authority contract and a main-source outage/acknowledgement fence. Retained acceptance is source-reported and remains bound to its original source and environment.
+Reviewed first-party work: Original satire newsroom and editorial-workflow engine; Source ingestion, deduplication and publishing qualification; Web and ASGI interfaces, durable state and backup tooling. Written development: Untrusted reconciliation admission and workflow consistency corrections. Existing written work only; acceptance and future completion remain separate. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: All authority domains remain simulations on one offline host. R5.45 source documents retain pending acceptance; real remote custody, live publishing rights, operator recovery and commercial launch remain blocked.
 
-Price decision: Non-overlapping implemented main-source increment: 96 assumed hours at EUR 94/hour, 15% allowance, EUR 10,000 adopted recreation increment and EUR 3,000 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project.
+Price decision: Preserved seller asking baseline EUR 46,000; add EUR 5,500 for Untrusted reconciliation admission and workflow consistency corrections. Added recreation allowance EUR 19,000, from 180 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -92,6 +99,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/gossquibble/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/gossquibble/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

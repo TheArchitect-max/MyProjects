@@ -43,7 +43,7 @@ Preregistered binary-study and research-custody software accompanied by conditio
 - Technical scope: R — Preregistered binary-study and research-custody software accompanied by conditional theoretical studies of local scalar-field, horizon and constraint assumptions. The offered edition and material boundaries govern review.
 - Evidence and validation: E2 — The executable study/custody source is unchanged and its local regression replay passes. The added CR-OPEN-17 through CR-OPEN-22 material is conditional research documentation. Independent recipient and intended-use acceptance remain separate.
 - Rights and component obligations: R1 — Repository licence file identified. Source-specific diligence and recipient acceptance remain separate.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Source-specific diligence and recipient acceptance remain separate.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T2 — Source, documentation, tests and licence evidence support bounded handover. Source-specific diligence and recipient acceptance remain separate.
 
 Offered first-party scope: The previously priced binary-study, custody, streaming and local publication-assurance software is retained once. Conditional research documents through CR-OPEN-22 are described, with no increment for an unproved physical result. Hardware, independent witness services, global physical validation and future experiments remain excluded.
@@ -74,19 +74,24 @@ Development: No separate open candidate at the reviewed snapshot.
 | Risk-adjusted strategic reference | 3,596 | 3,944 |
 | Weighted economic reference | 18,474 | 20,262 |
 
-The retained priced scope and successive non-overlapping budgets reconcile below. Equivalent effort and historical anchors are seller assumptions, not actual expenditure, independent quotations or market value. Previously priced binary-study, custody-v3 and research-screening foundations are retained once. The increment covers file verification, streaming and atomic publication assurance only. Speculative physical mechanisms, a time-travel result, independent witness services, hardware and future experiments receive no monetary premium. Review on 2026-11-03: The previously priced binary-study, custody, streaming and local publication-assurance software is retained once. Conditional research documents through CR-OPEN-22 are described, with no increment for an unproved physical result. Hardware, independent witness services, global physical validation and future experiments remain excluded.
+Published baseline retained once: recreation EUR 45,500, seller ask EUR 14,000. No monetary addition at this snapshot. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Retain the published EUR 14,000 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
+
+
 ## Individual source review
 
-Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Repository documents software custody schemas, publication hardening and constrained GR/wormhole/energy-condition analyses; R1 14 tests and R2A 27 local tests are historical limited gates.
+Reviewed first-party work: Prediction commitment and time-order research protocol; Exact statistical tests, custody and reveal evaluation; Experiment interfaces, chronology records and evidence output. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: No reproducible information transfer from future to past, time machine, physical causal violation or independent apparatus-based breakthrough. Negative results and mathematical constraints must be preserved.
 
-Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
+Price decision: Retain the published EUR 14,000 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -94,6 +99,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/temporal-causality-breakthrough-research-platform/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/temporal-causality-breakthrough-research-platform/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

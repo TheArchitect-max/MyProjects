@@ -42,7 +42,7 @@ A local evidence-governed runtime with workspaces, cases, relationships, obligat
 - Technical scope: P — A local evidence-governed runtime with workspaces, cases, relationships, obligations and authority gates. Evidence expiry, revocation and supersession feed decisions; digest-verified bundles and SQLite snapshot history support controlled restore and backup. The offered edition and material boundaries govern review.
 - Evidence and validation: E2 — Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
 Offered first-party scope: Specifically agreed first-party RC1 local governance runtime, SQLite reference persistence, domain packs, CLI and retained developer evidence. Production controls and independent certification require separate scope.
@@ -77,19 +77,24 @@ Development: No separate open candidate at the reviewed snapshot.
 | Risk-adjusted strategic reference | 1,044,439 | 1,145,541 |
 | Weighted economic reference | 1,174,100 | 1,287,753 |
 
-The recreation estimate contains EUR 1,150,000 of previously scoped work plus EUR 8,500 for RC1 local persistent governance runtime, giving EUR 1,158,500. This increment assumes 80 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. Asking/negotiation inputs preserve prior asking/cost relationships, rounded half-up to EUR 500. All effort and prices remain seller assumptions; market value and actual expenditure are not established. Previously described obligation, authority, risk/control and domain-pack foundations are reused and excluded from this increment. Production security, high availability, enterprise identity, certification and legal/regulatory conclusions are excluded.
+Published baseline retained once: recreation EUR 1,158,500, seller ask EUR 201,500. No monetary addition at this snapshot. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Retain the published EUR 201,500 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
+
+
 ## Individual source review
 
-Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. RC1 evidence record documents 29/29 local tests and 30 reconstructed Git blob SHA matches, domain-pack checks and SQLite initialization.
+Reviewed first-party work: Assurance domain packs and control-obligation models; Evidence lifecycle and bounded engine execution; Configuration, review interfaces and audit output. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: Domain packs do not certify legal/safety control effectiveness; no production database encryption, row-level access, KMS, SSO or real-world compliance certification.
 
-Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
+Price decision: Retain the published EUR 201,500 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -97,6 +102,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/adaptive-systems-intelligence-platform/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/adaptive-systems-intelligence-platform/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

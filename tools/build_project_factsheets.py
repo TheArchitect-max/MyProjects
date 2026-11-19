@@ -43,11 +43,11 @@ for a in c['projects']:
   if src['id']in z['sourceIds']:s.append(para(src['publisher']+' — '+src['title'],'small'))
  s.extend([para('External publishers inform method and rate context, not individual asset valuations. Effort and model factors are seller assumptions.','small'),para('EUR 1 = USD '+str(prices['displayCurrency']['rate'])+'; ECB '+prices['displayCurrency']['date']+'.','small'),para(a['profileUrl']+'#pricing','small'),PageBreak()])
  page('PROJECT EVIDENCE','Individual source review.')
- s.extend([para('Reviewed 19 November 2026. Current main documentation, source inventory and open candidate status; no fresh execution of private product tests.'),heading('Retained source evidence'),para(r['developmentEvidence']),heading('Remaining limits'),para(r['currentLimitations']),heading('Development position'),para(r['currentCandidateSummary']),heading('Acquisition evidence profile')])
+ s.extend([para('Reviewed 19 November 2026. Main and every open source head reconciled with retained project-specific implementation inspection; no fresh execution of private product tests.'),heading('Retained source evidence'),para(r['developmentEvidence']),heading('Remaining limits'),para(r['currentLimitations']),heading('Development position'),para(r['currentCandidateSummary']),heading('Acquisition evidence profile')])
  for x in v['assessmentCriteria']:s.append(para(x['label']+': '+x['grade']+' — '+x['criterion'],'small'))
  s.extend([heading('Buyer information and next step'),para('Quote '+ref+' and the project title. Agree the exact first-party edition, rights, delivery manifest and recipient acceptance separately.','small'),para(a['profileUrl'],'small')])
  path=R/'displays/products'/a['slug']/'factsheet.pdf';doc=SimpleDocTemplate(str(path),pagesize=A4,leftMargin=18*mm,rightMargin=18*mm,topMargin=19*mm,bottomMargin=23*mm,title=a['title']+' — '+ref,author='THEARCHITECT_MAX',invariant=1);doc.build(s,onFirstPage=footer,onLaterPages=footer)
 for alias in read('route-aliases.json')['aliases']:
  target=R/'displays/products'/alias['legacySlug']/'factsheet.pdf'
  if target.exists():target.write_bytes((R/'displays/products'/alias['slug']/'factsheet.pdf').read_bytes())
-print('Built 128 deterministic factsheets with current project, evidence and pricing records.')
+print('Built 129 deterministic factsheets with current project, evidence and pricing records.')

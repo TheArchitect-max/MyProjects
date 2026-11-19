@@ -17,13 +17,13 @@ def validate():
  data=json.loads((ROOT/'assets/buyer-catalogue.json').read_text());assert set(data)=={'schema','brand','currency','categories','buyerGroups','projects'}
  for c in data['categories']:assert set(c)=={'id','title','description'}
  for g in data['buyerGroups']:assert set(g)=={'id','title'}
- assert len(data['projects'])==len({x['ref'] for x in data['projects']})==len({x['referenceName'].casefold() for x in data['projects']})==128
+ assert len(data['projects'])==len({x['ref'] for x in data['projects']})==len({x['referenceName'].casefold() for x in data['projects']})==129
  for a in data['projects']:
   assert set(a)==FIELDS,a['ref'];assert len(a['potentialBuyers'])>=3 and len(a['capabilities'])>=3 and a['outputTypes'];assert a['askingReferenceEUR']>0
   for key in ['profileUrl','displayUrl','factsheetUrl','briefUrl']:
    url=urlparse(a[key]);assert url.netloc=='thearchitect-max.github.io' and url.path.startswith('/MyProjects/')
    target=ROOT/unquote(url.path.removeprefix('/MyProjects/'));target=target/'index.html' if url.path.endswith('/') else target;assert target.is_file(),target
- assert {p.name for p in (ROOT/'assets').glob('*.json')}==({'buyer-catalogue.json','route-aliases.json','pricing-catalogue.json','calculation-validation.json','buyer-dossiers.json','application-combinations.json','evaluation-sources.json','musk-opportunities.json','portfolio-identity-ledger.json','portfolio-reassessment-20261107.json','pricing-review-20261108.json'}|{f'source-price-session-20261108-S0{i}.json' for i in range(1,5)})
+ assert {p.name for p in (ROOT/'assets').glob('*.json')}==({'buyer-catalogue.json','route-aliases.json','pricing-catalogue.json','calculation-validation.json','buyer-dossiers.json','application-combinations.json','evaluation-sources.json','musk-opportunities.json','portfolio-identity-ledger.json','portfolio-reassessment-20261107.json','pricing-review-20261108.json','pricing-baseline-20261119.json','pricing-continuity-20261119.json'}|{f'source-price-session-20261108-S0{i}.json' for i in range(1,5)})
  assert not list((ROOT/'assets').glob('*.csv'));assert not (ROOT/'docs').exists()
  # The approved public calculator workflow is CI only; retain the publication allowlist.
  assert {f.name for f in ROOT.glob('.github/workflows/*')}=={'validate-display-calculator.yml'}
@@ -46,5 +46,5 @@ def validate():
   assert set(a)=={'ref','legacySlug','slug'}
   for folder in [ROOT/'projects',ROOT/'displays/products']:
    s=(folder/a['legacySlug']/'index.html').read_text();assert 'noindex,follow' in s and a['slug'] in s
- return dict(result='PASS',approvedPublicProjectRecords=128,perProjectSpecificBuyerProfiles=128,applicationAreas=12,buyerGroups=10,allowedHubDataFiles=11,privateAssetPortfolioEntries=128,provenanceAllowlistApplied=True,internalDocumentDirectoryAbsent=True,legacyProfileAndDisplayRoutes=2*len(aliases),htmlPages=pages,internalLinks=links,missingTargets=0)
+ return dict(result='PASS',approvedPublicProjectRecords=129,perProjectSpecificBuyerProfiles=129,applicationAreas=12,buyerGroups=10,allowedHubDataFiles=13,privateAssetPortfolioEntries=129,provenanceAllowlistApplied=True,internalDocumentDirectoryAbsent=True,legacyProfileAndDisplayRoutes=2*len(aliases),htmlPages=pages,internalLinks=links,missingTargets=0)
 if __name__=='__main__':print(json.dumps(validate(),indent=2))

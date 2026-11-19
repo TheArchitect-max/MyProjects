@@ -130,7 +130,8 @@
         "Compare observations from multiple locations",
         "Retain events requiring investigation",
         "Document uncertainty",
-        "Cross-reference permitted external records"
+        "Cross-reference permitted external records",
+        "Written development: STELLA observation association, calibration, archive and CPU research implementation"
       ],
       "outputTypes": [
         "Event dossiers",
@@ -138,17 +139,18 @@
         "Review records"
       ],
       "maturity": "Prototype",
-      "maturityNote": "Historical 0.1.0 main remains the offered software. Later STELLA work is a separate unmerged development candidate.",
-      "availability": "Defined historical-main AS IS scope; separate development excluded",
-      "askingReferenceEUR": 14500,
+      "maturityNote": "Historical 0.1.0 main and separately identified written STELLA development. The latter remains unmerged; source-reported engineering results do not establish physical observation or field qualification.",
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 76000,
       "materialBoundaries": [
         "Observation and evidence-review research software; calibrated field performance remains unqualified.",
-        "The current asking reference covers the historical 0.1.0 main software only. Unmerged STELLA development is excluded from this budget and requires a separately agreed scope."
+        "Historical main and separately written STELLA development are identified as distinct delivery work; unmerged development retains its unresolved acceptance."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -183,7 +185,8 @@
         "Export traceable evaluation summaries",
         "Scenario influence and decision-stability analysis",
         "Deterministic replay and edge-case verification",
-        "Separate release and research-extension documentation"
+        "Separate release and research-extension documentation",
+        "Written development: S03A rights-aware dataset screening and admission records"
       ],
       "outputTypes": [
         "Scenario comparisons",
@@ -192,15 +195,16 @@
       ],
       "maturity": "Developed software",
       "maturityNote": "The packaged execution baseline remains 3.7.0. Real-network data admission and domain-specific operational qualification remain open; scenario stability is not real-world generalization.",
-      "availability": "Composite asking reference conditional on separately accepted source scope",
-      "askingReferenceEUR": 102000,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 106500,
       "materialBoundaries": [
         "The packaged execution baseline remains 3.7.0. Real-network data admission and domain-specific operational qualification remain open; scenario stability is not real-world generalization."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -235,7 +239,8 @@
         "Observe pressure and system health",
         "Compare defensive resource choices",
         "Study degraded operating conditions",
-        "Review historical scenario results"
+        "Review historical scenario results",
+        "Written development: Partial-observation runtime and Google event-contract adapters"
       ],
       "outputTypes": [
         "Resilience dashboards",
@@ -244,8 +249,8 @@
       ],
       "maturity": "Developed software",
       "maturityNote": "Existing software offered for evaluation against an agreed use and delivery scope.",
-      "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 205000,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 213000,
       "materialBoundaries": [
         "An engineering and simulation asset. Environment-specific calibration and operational acceptance are separate requirements.",
         "The dated EUR 205,000 asking figure and EUR 871,500 recreation estimate expressly cover the v1.9.1 main software and its evidence/readiness work. The unmerged v1.10 event and partial-observation contracts are excluded; no newly accepted work package or market sale supports an increase."
@@ -253,7 +258,8 @@
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -342,7 +348,8 @@
         "Review temporal changes",
         "Define watch rules",
         "Route material alerts",
-        "Manage subject dossiers and review queues"
+        "Manage subject dossiers and review queues",
+        "Written development: Authorized document connectors and verified collection proofs"
       ],
       "outputTypes": [
         "Subject dossiers",
@@ -351,8 +358,8 @@
       ],
       "maturity": "Prototype",
       "maturityNote": "6.3.0: Main v6.3 does governed materiality, routing and HMAC authenticated bundles/receipts; candidate connectors not released. HMAC is not public-key non-repudiation.",
-      "availability": "Historical composite price on HOLD",
-      "askingReferenceEUR": 169000,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 178500,
       "materialBoundaries": [
         "A prototype for authorised evidence workflows. Live source access and production operation require separate acceptance.",
         "EUR 900,000 reproduction model includes EUR 100,000 scoped local-document collection work now in unmerged v6.4 PR. Dated EUR 169,000 composite ask is not a verified main-only quote; historical v6.3 source dossier gave EUR 150,000 (16 Oct)."
@@ -360,7 +367,8 @@
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -1080,7 +1088,8 @@
         "Run the offline release qualification gate",
         "Historical retrieval and outcome-visibility controls",
         "Separate-domain outcome observation authentication",
-        "Packaging resources and native-platform regression qualification"
+        "Packaging resources and native-platform regression qualification",
+        "Written development: Externally pinned outcome-observation checkpoints and membership checks"
       ],
       "outputTypes": [
         "Precedent records",
@@ -1089,15 +1098,16 @@
       ],
       "maturity": "Developed software",
       "maturityNote": "The installed package version remains 2.34.0. Signer-declared timestamps and HMAC receipts do not independently establish when a historical event occurred; infrastructure execution and predictive superiority remain unqualified.",
-      "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 710500,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 717500,
       "materialBoundaries": [
         "The installed package version remains 2.34.0. Signer-declared timestamps and HMAC receipts do not independently establish when a historical event occurred; infrastructure execution and predictive superiority remain unqualified."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -1234,7 +1244,8 @@
         "Review workload placement",
         "Reserve compatible resources",
         "Observe execution and recovery",
-        "Retain measured qualification evidence"
+        "Retain measured qualification evidence",
+        "Written development: Written distributed execution, model manifests, cgroup and GPU qualification tooling"
       ],
       "outputTypes": [
         "Capacity records",
@@ -1243,15 +1254,16 @@
       ],
       "maturity": "Developed software",
       "maturityNote": "Existing software offered for evaluation against an agreed use and delivery scope.",
-      "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 500000,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 522500,
       "materialBoundaries": [
         "Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -1285,7 +1297,8 @@
         "Review source-readiness and qualification conditions",
         "Version-pinned file-metadata parsing and admission rules",
         "Malformed-metadata and provenance regression cases",
-        "Source-gate integration and bounded documentation"
+        "Source-gate integration and bounded documentation",
+        "Written development: Exact-version publisher file-metadata crosschecks"
       ],
       "outputTypes": [
         "Study records",
@@ -1295,15 +1308,16 @@
       ],
       "maturity": "Developed software",
       "maturityNote": "Publisher metadata is distinct from authentic participant-file admission, lawful processing and scientific validation. The live archive crosscheck is a separate open development proposal.",
-      "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 228000,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 231000,
       "materialBoundaries": [
         "Publisher metadata is distinct from authentic participant-file admission, lawful processing and scientific validation. The live archive crosscheck is a separate open development proposal."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -1391,7 +1405,8 @@
         "Review estimated state and uncertainty",
         "Supervise bounded workflows",
         "Recover retained sessions",
-        "Replay evaluation histories"
+        "Replay evaluation histories",
+        "Written development: Finite-input hardening and repository-wide fusion runtime corrections"
       ],
       "outputTypes": [
         "Twin state records",
@@ -1400,15 +1415,16 @@
       ],
       "maturity": "Developed software",
       "maturityNote": "Existing software offered for evaluation against an agreed use and delivery scope.",
-      "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 240000,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 247500,
       "materialBoundaries": [
         "Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -1547,7 +1563,8 @@
         "Work within declared resource limits",
         "Retain project state",
         "Review configurable quality conditions",
-        "Study optional higher-capability review"
+        "Study optional higher-capability review",
+        "Written development: Hybrid model routing, long-form workflow, RAG, checkpointing and operator-governance candidate"
       ],
       "outputTypes": [
         "Long-form work records",
@@ -1556,15 +1573,17 @@
       ],
       "maturity": "Prototype",
       "maturityNote": "A prototype offered for evaluation and continued development; production acceptance is separate.",
-      "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 20000,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 94500,
       "materialBoundaries": [
-        "A generation and revision workflow prototype. Third-party model and service entitlements are separately scoped."
+        "A generation and revision workflow prototype. Third-party model and service entitlements are separately scoped.",
+        "Main contains definition documents; the functional implementation is written development, separately included in the estimate with acceptance unresolved."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -1705,7 +1724,8 @@
         "Replay qualification packages",
         "Portable study archive construction and verification",
         "Strict manifest serialization and malformed-input controls",
-        "Archive replay regression and compatibility documentation"
+        "Archive replay regression and compatibility documentation",
+        "Written development: Independent replay admission and portable-archive verification controls"
       ],
       "outputTypes": [
         "Engineering comparisons",
@@ -1714,15 +1734,16 @@
       ],
       "maturity": "Developed software",
       "maturityNote": "The package still identifies 0.14.0; portable-archive WP1 is merged development. Independent replay admission is pending. Simulation output is not physical certification or evidence for speculative dynamics.",
-      "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 253000,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 260500,
       "materialBoundaries": [
         "The package still identifies 0.14.0; portable-archive WP1 is merged development. Independent replay admission is pending. Simulation output is not physical certification or evidence for speculative dynamics."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -1810,7 +1831,8 @@
         "Generate reference and checklist material",
         "Record citation evidence",
         "Track source changes",
-        "Manage human review queues"
+        "Manage human review queues",
+        "Written development: Written matter-graph workspace and integrated architecture documentation"
       ],
       "outputTypes": [
         "Knowledge workspaces",
@@ -1819,15 +1841,16 @@
       ],
       "maturity": "Prototype",
       "maturityNote": "A prototype offered for evaluation and continued development; production acceptance is separate.",
-      "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 100000,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 113500,
       "materialBoundaries": [
         "A legal-operations knowledge prototype. Its content and workflow must be reviewed for the intended jurisdiction and use."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -2023,7 +2046,8 @@
         "Compare declared study settings",
         "Retain reproducible benchmark records",
         "Review experimental outcomes",
-        "Prepare research evidence"
+        "Prepare research evidence",
+        "Written development: ANEP v18.4 spiking dynamics, sparse topology, adaptive budgets and memory-control research code"
       ],
       "outputTypes": [
         "Experiment records",
@@ -2032,15 +2056,17 @@
       ],
       "maturity": "Prototype",
       "maturityNote": "A prototype offered for evaluation and continued development; production acceptance is separate.",
-      "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 45000,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 126000,
       "materialBoundaries": [
-        "Computational neural-dynamics research. Biological equivalence and experimental outcomes require separate evidence."
+        "Computational neural-dynamics research. Biological equivalence and experimental outcomes require separate evidence.",
+        "Main contains definition documents; the functional implementation is written development, separately included in the estimate with acceptance unresolved."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -2384,7 +2410,8 @@
         "Review transfer and recovery records",
         "Signed archive and restore-governance verification",
         "Read-only compaction diagnostics and registry hardening",
-        "Adversarial regression and acceptance-boundary documentation"
+        "Adversarial regression and acceptance-boundary documentation",
+        "Written development: API boundary hardening and repository-wide consistency corrections"
       ],
       "outputTypes": [
         "Asset registries",
@@ -2393,15 +2420,16 @@
       ],
       "maturity": "Developed software",
       "maturityNote": "The source documents still label 5.3 R1 not accepted. Its presence on main is not acceptance evidence. No pruning is authorized; durable offsite archives, production recovery and external trust remain separate.",
-      "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 655000,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 663000,
       "materialBoundaries": [
         "The source documents still label 5.3 R1 not accepted. Its presence on main is not acceptance evidence. No pruning is authorized; durable offsite archives, production recovery and external trust remain separate."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -2487,7 +2515,8 @@
         "Manage generation requests",
         "Review external service qualification",
         "Track output and delivery records",
-        "Maintain library and commercial workflows"
+        "Maintain library and commercial workflows",
+        "Written development: Evidence-selected provider routing and admission rules"
       ],
       "outputTypes": [
         "Generation job records",
@@ -2496,15 +2525,16 @@
       ],
       "maturity": "Developed software",
       "maturityNote": "Existing software offered for evaluation against an agreed use and delivery scope.",
-      "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 650000,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 656000,
       "materialBoundaries": [
         "Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -2591,7 +2621,8 @@
         "Retain attributable session records",
         "Sensor-source and guided-session integration",
         "Traceable session manifests and signal-state controls",
-        "Campaign regressions and explicit end-user scope"
+        "Campaign regressions and explicit end-user scope",
+        "Written development: Strict structural admission for physical-campaign evidence packages"
       ],
       "outputTypes": [
         "Session histories",
@@ -2600,15 +2631,16 @@
       ],
       "maturity": "Developed software",
       "maturityNote": "Camera and compatible sensor paths require device-specific evidence; a synthetic demonstration is not a real physiological measurement, medical effect or production-qualified intervention.",
-      "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 303000,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 308500,
       "materialBoundaries": [
         "Camera and compatible sensor paths require device-specific evidence; a synthetic demonstration is not a real physiological measurement, medical effect or production-qualified intervention."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -2697,7 +2729,8 @@
         "Prepare isolated database qualification runs",
         "Authenticated geometry transport and generated contract integration",
         "Topology screening and low-distortion parameterization",
-        "Reproducible geometry comparisons and regression qualification"
+        "Reproducible geometry comparisons and regression qualification",
+        "Written development: Pre-Phase 3C hardening and module reconciliation tooling"
       ],
       "outputTypes": [
         "Traceability and workflow records",
@@ -2706,15 +2739,16 @@
       ],
       "maturity": "Developed software",
       "maturityNote": "Nonlinear refinement remains the next phase. Production persistence wiring, full tenant authorization, transport identity and anatomical stencil validation remain open.",
-      "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 174500,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 182500,
       "materialBoundaries": [
         "Nonlinear refinement remains the next phase. Production persistence wiring, full tenant authorization, transport identity and anatomical stencil validation remain open."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -2853,7 +2887,8 @@
         "Govern capability and strong-baseline comparisons",
         "Prepare controlled-study evidence packages",
         "Bind cross-model runs to matched protocols",
-        "Verify nested evidence, lineage and report integrity"
+        "Verify nested evidence, lineage and report integrity",
+        "Written development: Real-model H1-H7 execution-preparation and admission tooling"
       ],
       "outputTypes": [
         "Controlled-study and replication packages",
@@ -2862,8 +2897,8 @@
       ],
       "maturity": "Developed software",
       "maturityNote": "Existing software offered for evaluation against an agreed use and delivery scope.",
-      "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 519000,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 523500,
       "materialBoundaries": [
         "The v2.1 engineering release qualifies the study machinery; real model-backed H1–H7 scientific exit and independent scientific assessment remain separate.",
         "Fixture outcomes do not establish model superiority, human-level performance or cross-domain robustness. Later roadmap promotion remains conditional on accepted scientific evidence.",
@@ -2872,7 +2907,8 @@
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -3428,7 +3464,8 @@
         "Retain reproducible evidence",
         "Dependency-aware belief and claim-graph research",
         "Revision propagation and evidence-ledger integration",
-        "Research-lineage integrity and adversarial regression"
+        "Research-lineage integrity and adversarial regression",
+        "Written development: Cross-domain retrospective evaluation and source-qualified model adapter"
       ],
       "outputTypes": [
         "Reasoning study records",
@@ -3437,15 +3474,16 @@
       ],
       "maturity": "Research software",
       "maturityNote": "Finite synthetic research tasks do not demonstrate open-world reasoning, general intelligence or broad customer performance. The next cross-domain retrospective evaluation is still an open candidate.",
-      "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 87500,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 95500,
       "materialBoundaries": [
         "Finite synthetic research tasks do not demonstrate open-world reasoning, general intelligence or broad customer performance. The next cross-domain retrospective evaluation is still an open candidate."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -4045,7 +4083,8 @@
         "Study controlled model growth",
         "Compare validation outcomes",
         "Govern candidate acceptance",
-        "Recover and replay retained states"
+        "Recover and replay retained states",
+        "Written development: Transactional lifecycle, strict contracts and concurrency controls"
       ],
       "outputTypes": [
         "Candidate models",
@@ -4054,15 +4093,16 @@
       ],
       "maturity": "Prototype",
       "maturityNote": "A prototype offered for evaluation and continued development; production acceptance is separate.",
-      "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 190000,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 199500,
       "materialBoundaries": [
         "Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -4096,7 +4136,8 @@
         "Verify bounded local payload integrity without dataset admission",
         "Publisher metadata schema and identity reconciliation",
         "Failure-path and recorded-response regression",
-        "Evidence and source-acceptance reconciliation"
+        "Evidence and source-acceptance reconciliation",
+        "Written development: Complete published-asset inventory and metadata reconciliation"
       ],
       "outputTypes": [
         "Synthetic cross-qualification and witness reports",
@@ -4105,15 +4146,16 @@
       ],
       "maturity": "Developed software",
       "maturityNote": "Metadata identity is not admission of an authentic neural dataset or biological validation. Complete asset inventory is a separate open development proposal; clinical and production qualification remain open.",
-      "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 965500,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 971000,
       "materialBoundaries": [
         "Metadata identity is not admission of an authentic neural dataset or biological validation. Complete asset inventory is a separate open development proposal; clinical and production qualification remain open."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -4147,7 +4189,8 @@
         "Track model acceptance decisions",
         "Governed waveform-source and private replay integration",
         "Dataset admission and model-lifecycle research controls",
-        "Source feasibility, negative controls and reproducible qualification"
+        "Source feasibility, negative controls and reproducible qualification",
+        "Written development: Public publisher-listing connectivity and metadata-probe tooling"
       ],
       "outputTypes": [
         "Signal quality reports",
@@ -4156,15 +4199,16 @@
       ],
       "maturity": "Prototype",
       "maturityNote": "Operator assertions and checksum/replay controls do not establish independent rights clearance, authentic patient-cohort admission, clinical validity or production approval. The publisher connectivity probe remains a separate open candidate.",
-      "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 261500,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 265000,
       "materialBoundaries": [
         "Operator assertions and checksum/replay controls do not establish independent rights clearance, authentic patient-cohort admission, clinical validity or production approval. The publisher connectivity probe remains a separate open candidate."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -4199,7 +4243,8 @@
         "Record buyer acceptance evidence",
         "Temporal trust approval and revocation enforcement",
         "Receipt lineage and deterministic release replay",
-        "Repository audit and negative-control qualification"
+        "Repository audit and negative-control qualification",
+        "Written development: Audit-chain enforcement and virtual-action evidence controls"
       ],
       "outputTypes": [
         "Authorisation records",
@@ -4208,15 +4253,16 @@
       ],
       "maturity": "Developed software",
       "maturityNote": "This is software-only authorization and evidence control. Physical actuation safety, production identities and independent verifier qualification remain open; the next audit-chain candidate is not included.",
-      "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 433500,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 441500,
       "materialBoundaries": [
         "This is software-only authorization and evidence control. Physical actuation safety, production identities and independent verifier qualification remain open; the next audit-chain candidate is not included."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -4252,7 +4298,8 @@
         "Compare calibration alternatives",
         "Review learning evidence",
         "Prepare portable engineering packages",
-        "Replay regression studies"
+        "Replay regression studies",
+        "Written development: Written holdout model research and locked forward-validation workflow"
       ],
       "outputTypes": [
         "Configuration comparisons",
@@ -4261,15 +4308,16 @@
       ],
       "maturity": "Developed software",
       "maturityNote": "Existing software offered for evaluation against an agreed use and delivery scope.",
-      "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 300000,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 306000,
       "materialBoundaries": [
         "Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -4927,7 +4975,8 @@
       "capabilities": [
         "Local tenant, quota and internal portal modules beyond the priced research corpus",
         "Synthetic signed billing custody and offline Stripe-format inbox",
-        "Integrated offline admission and rejection qualification"
+        "Integrated offline admission and rejection qualification",
+        "Written development: Offline payment-inbox metadata preflight and replay checks"
       ],
       "outputTypes": [
         "Vehicle reference records",
@@ -4936,8 +4985,8 @@
       ],
       "maturity": "Prototype",
       "maturityNote": "No live payments, public SaaS, OEM commercial redistribution grant, physical fitment proof or production vehicle actuation. Offline signatures do not prove real payment.",
-      "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 131000,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 134000,
       "materialBoundaries": [
         "No live payments, public SaaS, OEM commercial redistribution grant, physical fitment proof or production vehicle actuation. Offline signatures do not prove real payment.",
         "First-party rights, exact delivery and recipient acceptance require project-specific agreement."
@@ -4945,7 +4994,8 @@
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -4980,7 +5030,8 @@
         "Back up private practice projects",
         "Browser practice evidence and bounded coaching integration",
         "Synthetic V17 reference/parity and readiness tooling",
-        "Source-hold enforcement and release-boundary regression"
+        "Source-hold enforcement and release-boundary regression",
+        "Written development: V17 temporal-alignment integrity and synthetic drift diagnostics"
       ],
       "outputTypes": [
         "Practice projects",
@@ -4989,15 +5040,16 @@
       ],
       "maturity": "Developed software",
       "maturityNote": "V16 confirmation failed and is historical. V17 remains the active improvement line, with source admission, real training and fresh paired V13/V16 comparison on HOLD. No real-piano accuracy improvement is claimed.",
-      "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 185000,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 192500,
       "materialBoundaries": [
         "V16 confirmation failed and is historical. V17 remains the active improvement line, with source admission, real training and fresh paired V13/V16 comparison on HOLD. No real-piano accuracy improvement is claimed."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -5086,7 +5138,8 @@
         "Compare bounded forecast and decision studies",
         "Organise governed research inputs",
         "Review separated evaluation evidence",
-        "Export portable offline study packages"
+        "Export portable offline study packages",
+        "Written development: Evaluator handoff, absent-evidence handling and admission contracts"
       ],
       "outputTypes": [
         "Scenario comparisons",
@@ -5095,8 +5148,8 @@
       ],
       "maturity": "Prototype",
       "maturityNote": "An offline systems and forecasting research implementation. Independent predictive superiority, scientific validity and production acceptance remain open.",
-      "availability": "Scope and transfer review required",
-      "askingReferenceEUR": 64000,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 69500,
       "materialBoundaries": [
         "Independent predictive superiority and scientific or physical-system validity are not established.",
         "The implementation is research software; live integration, safe operational fallback and production acceptance require separate qualification."
@@ -5104,7 +5157,8 @@
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -5140,7 +5194,8 @@
         "Retain review snapshots",
         "Record supported findings",
         "Prepare repair-note proposals",
-        "Create review and handover dossiers"
+        "Create review and handover dossiers",
+        "Written development: Written tenant registry and durable static-job control plane"
       ],
       "outputTypes": [
         "Inspection reports",
@@ -5149,15 +5204,16 @@
       ],
       "maturity": "Prototype",
       "maturityNote": "A prototype offered for evaluation and continued development; production acceptance is separate.",
-      "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 75000,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 88500,
       "materialBoundaries": [
         "Target-environment suitability, deployment acceptance and any required independent qualification are agreed separately."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -5192,7 +5248,8 @@
         "Compare transport routes",
         "Screen architecture choices",
         "Review reliability and logistics assumptions",
-        "Retain decision evidence"
+        "Retain decision evidence",
+        "Written development: Stateful refuelling, depot inventory and multi-launch departure gates"
       ],
       "outputTypes": [
         "Transport comparisons",
@@ -5201,15 +5258,16 @@
       ],
       "maturity": "Prototype",
       "maturityNote": "A prototype offered for evaluation and continued development; production acceptance is separate.",
-      "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 15000,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 26500,
       "materialBoundaries": [
         "Transport-architecture research software. Launch hardware, mission delivery and physical performance are excluded."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -5296,7 +5354,7 @@
         "Recover private research drafts",
         "Prepare source-aware project research",
         "Export controlled review material",
-        "Search private bookmarks and notes locally (v0.9.9 development candidate)"
+        "Written development: Fail-closed mutations, idempotent replay and read-back reconciliation"
       ],
       "outputTypes": [
         "Bookmarks",
@@ -5305,15 +5363,16 @@
       ],
       "maturity": "Prototype",
       "maturityNote": "A prototype offered for evaluation and continued development; production acceptance is separate.",
-      "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 36000,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 42000,
       "materialBoundaries": [
         "Local video and research workflows. External-platform access, content permissions and production acceptance are separately scoped."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -5347,7 +5406,8 @@
         "Review supplied observations",
         "Compare declared reconstruction hypotheses",
         "Record blinded study conditions",
-        "Retain attributable research results"
+        "Retain attributable research results",
+        "Written development: Canonical evidence hardening, custody recovery and offline audit"
       ],
       "outputTypes": [
         "Study protocols",
@@ -5356,15 +5416,16 @@
       ],
       "maturity": "Prototype",
       "maturityNote": "A prototype offered for evaluation and continued development; production acceptance is separate.",
-      "availability": "Scope and transfer review required",
-      "askingReferenceEUR": 33000,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 40000,
       "materialBoundaries": [
         "A research prototype for preliminary review. Rights and transfer permissions must be clarified before an acquisition can close."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -5450,7 +5511,8 @@
         "Recheck authorization atomically before an action commits",
         "Issuer lifecycle and scoped world-claim enforcement",
         "Authenticated audit and file-checkpoint integration",
-        "Rollback regressions and implementation/vision reconciliation"
+        "Rollback regressions and implementation/vision reconciliation",
+        "Written development: Persona-scoped narrative claims and bounded authority checks"
       ],
       "outputTypes": [
         "Scenario worlds",
@@ -5459,15 +5521,16 @@
       ],
       "maturity": "Prototype",
       "maturityNote": "A separate checkpoint pathname is not independent durable custody. Live identity, untrusted-code isolation, a cinematic frontend and hosted production operation remain unqualified; the persona narrative candidate is open.",
-      "availability": "Scope and transfer review required",
-      "askingReferenceEUR": 32000,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 39000,
       "materialBoundaries": [
         "A separate checkpoint pathname is not independent durable custody. Live identity, untrusted-code isolation, a cinematic frontend and hosted production operation remain unqualified; the persona narrative candidate is open."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -5503,7 +5566,8 @@
         "Organise capability and work packages",
         "Review dependencies and blockers",
         "Prepare priority-aware plans",
-        "Generate auditable project reports"
+        "Generate auditable project reports",
+        "Written development: Written feasibility, architecture, traceability and VolumeForge review candidate"
       ],
       "outputTypes": [
         "Mission charters",
@@ -5512,8 +5576,8 @@
       ],
       "maturity": "Prototype",
       "maturityNote": "A prototype offered for evaluation and continued development; production acceptance is separate.",
-      "availability": "Scope and transfer review required",
-      "askingReferenceEUR": 16500,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 48500,
       "materialBoundaries": [
         "A planning and requirements prototype. Review records do not certify engineering or operational feasibility.",
         "The delivery perimeter and transfer requirements need further review before terms can be finalised."
@@ -5521,7 +5585,8 @@
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -5765,7 +5830,8 @@
         "Exercise encrypted synthetic restoration and temporary nonce journals",
         "Synthetic witness and third-domain rollback comparison",
         "Offline authority boundary and acknowledgement fencing",
-        "Outage/replay regression and acceptance reconciliation"
+        "Outage/replay regression and acceptance reconciliation",
+        "Written development: Untrusted reconciliation admission and workflow consistency corrections"
       ],
       "outputTypes": [
         "Editorial and release-review packages",
@@ -5775,15 +5841,16 @@
       ],
       "maturity": "Prototype",
       "maturityNote": "All authority domains remain simulations on one offline host. R5.45 source documents retain pending acceptance; real remote custody, live publishing rights, operator recovery and commercial launch remain blocked.",
-      "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 46000,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 51500,
       "materialBoundaries": [
         "All authority domains remain simulations on one offline host. R5.45 source documents retain pending acceptance; real remote custody, live publishing rights, operator recovery and commercial launch remain blocked."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -6187,7 +6254,8 @@
         "Compare proper cubic rotations with continuous-isotropy claims",
         "Inspect native-source refinement and mesh-phase effects",
         "Stress directional effects across time and initial preparations",
-        "Separate diagnostic probe contributions under explicit assumptions"
+        "Separate diagnostic probe contributions under explicit assumptions",
+        "Written development: Exact proper-cubic covariance and persistent-anisotropy experiments"
       ],
       "outputTypes": [
         "Classical analogue and scalar-model research records",
@@ -6196,8 +6264,8 @@
       ],
       "maturity": "Research software",
       "maturityNote": "Available as a specifically scoped research or development software asset. Independent application, rights and handover acceptance remain separate.",
-      "availability": "Available for acquisition discussion",
-      "askingReferenceEUR": 27500,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 33500,
       "materialBoundaries": [
         "Current local replay passes its executed tests through R2l. Retained source-specific CPU acceptance records cover the separate research stages; R2m remains outside this offered source edition.",
         "Proper cubic covariance, source averaging and finite numerical agreement do not establish continuous rotational symmetry, universal free fall, Einstein dynamics or physical spacetime grains.",
@@ -6206,7 +6274,8 @@
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -6345,7 +6414,8 @@
         "Read local rights-admission manifests",
         "Confine referenced media and evidence paths",
         "Reject incomplete or uncertain admissions",
-        "Export deterministic admission and selection reports"
+        "Export deterministic admission and selection reports",
+        "Written development: Experimental image cleanup, native media export, editorial and inference-isolation implementation"
       ],
       "outputTypes": [
         "Admission reports",
@@ -6353,8 +6423,8 @@
       ],
       "maturity": "Prototype",
       "maturityNote": "Human approval assertions are checked, not legally verified. Crawling, decoding, composition and production-quality media export are not implemented on main.",
-      "availability": "Scope and transfer review required",
-      "askingReferenceEUR": 2500,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 86500,
       "materialBoundaries": [
         "Human approval assertions are checked, not legally verified. Crawling, decoding, composition and production-quality media export are not implemented on main.",
         "First-party rights, exact delivery and recipient acceptance require project-specific agreement."
@@ -6362,7 +6432,8 @@
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -6498,7 +6569,8 @@
       "capabilities": [
         "Reference cosmology and authentic BAO likelihood implementation",
         "Original-source authentication and published-chain reanalysis",
-        "Restricted expression interpreter, Cobaya/CAMB bridge and regression gates"
+        "Restricted expression interpreter, Cobaya/CAMB bridge and regression gates",
+        "Written development: First-party four-chain MCMC pilot and convergence-audit tooling"
       ],
       "outputTypes": [
         "BAO likelihood reports",
@@ -6507,8 +6579,8 @@
       ],
       "maturity": "Research software",
       "maturityNote": "Independent four-chain sampling is an open candidate. R3 remains open and R4 blocked; no complete independently sampled posterior, new physics or scientific peer-review acceptance.",
-      "availability": "Scope and transfer review required",
-      "askingReferenceEUR": 12500,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 22000,
       "materialBoundaries": [
         "Independent four-chain sampling is an open candidate. R3 remains open and R4 blocked; no complete independently sampled posterior, new physics or scientific peer-review acceptance.",
         "First-party rights, exact delivery and recipient acceptance require project-specific agreement."
@@ -6516,7 +6588,8 @@
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -6549,7 +6622,8 @@
         "Create recorded-state snapshots and variants",
         "Compare declared digital representations",
         "Track ancestry and content commitments",
-        "Exchange versioned records through a typed lossless envelope"
+        "Exchange versioned records through a typed lossless envelope",
+        "Written development: IFC source-qualification research and customer-problem specifications"
       ],
       "outputTypes": [
         "Versioned state records",
@@ -6558,15 +6632,16 @@
       ],
       "maturity": "Prototype",
       "maturityNote": "Recorded representations do not reproduce physical identity, clone money or establish universal predictive fidelity. Python remains authoritative; the Rust component is an experimental structural verifier. Hosted and scientific qualification remain open.",
-      "availability": "Defined AS IS scope; project-specific diligence required",
-      "askingReferenceEUR": 13500,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 17000,
       "materialBoundaries": [
         "Recorded representations do not reproduce physical identity, clone money or establish universal predictive fidelity. Python remains authoritative; the Rust component is an experimental structural verifier. Hosted and scientific qualification remain open."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -6699,7 +6774,8 @@
         "Evaluate admitted player-hand and rule-profile decisions",
         "Grade training decisions through a stable product contract",
         "Present localized decision semantics",
-        "Compare decisions against exhaustive reference enumeration"
+        "Compare decisions against exhaustive reference enumeration",
+        "Written development: Accessible same-origin decision UI and response-state handling"
       ],
       "outputTypes": [
         "Decision and grading records",
@@ -6708,15 +6784,16 @@
       ],
       "maturity": "Developed software",
       "maturityNote": "Internal exhaustive agreement is bounded to admitted rules and does not establish external certification or a casino-beating system. The P2B interface is an open candidate; production hosting and customer readiness are unqualified.",
-      "availability": "Defined AS IS scope; project-specific diligence required",
-      "askingReferenceEUR": 19000,
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 27000,
       "materialBoundaries": [
         "Internal exhaustive agreement is bounded to admitted rules and does not establish external certification or a casino-beating system. The P2B interface is an open candidate; production hosting and customer readiness are unqualified."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -6750,7 +6827,8 @@
         "Apply documented color, material and composition rules",
         "Explore original brand, editorial and cinematic studies",
         "Inspect offline interface specimens",
-        "Record source-bound rendering and browser-behavior evidence"
+        "Record source-bound rendering and browser-behavior evidence",
+        "Written development: Native screen-reader operator capture, resumable workflow and fail-closed receipt reconciliation"
       ],
       "outputTypes": [
         "Design specifications",
@@ -6758,16 +6836,17 @@
         "Browser qualification and provenance records"
       ],
       "maturity": "Prototype",
-      "maturityNote": "Scoped native/browser acceptance does not establish complete WCAG 2.2 AA, authentic assistive-technology acceptance, print/textile fidelity, trademark clearance or market validation. Manual accessibility research remains HOLD.",
-      "availability": "Defined AS IS scope; project-specific diligence required",
-      "askingReferenceEUR": 11500,
+      "maturityNote": "Current main includes scoped-accepted WP3A evidence-intake tooling. Written WP3B operator tooling is separately included with acceptance pending. Genuine screen-reader and WCAG qualification remain HOLD.",
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 21500,
       "materialBoundaries": [
         "Scoped native/browser acceptance does not establish complete WCAG 2.2 AA, authentic assistive-technology acceptance, print/textile fidelity, trademark clearance or market validation. Manual accessibility research remains HOLD."
       ],
       "offeredScope": [
         "The specifically agreed first-party software or research work product",
         "Associated first-party product documentation and retained evaluation material",
-        "The expressly agreed transferable first-party rights"
+        "The expressly agreed transferable first-party rights",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
       ],
       "excludedScope": [
         "Third-party software, data, media, models and service entitlements beyond their own terms",
@@ -6778,6 +6857,59 @@
       "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/art-direction-visual-design-research-framework/",
       "factsheetUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/art-direction-visual-design-research-framework/factsheet.pdf",
       "briefUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/art-direction-visual-design-research-framework/product-brief.md"
+    },
+    {
+      "ref": "TA-IP-129",
+      "slug": "media-acquisition-processing-intelligence-platform",
+      "title": "Media Acquisition & Processing Intelligence Platform",
+      "referenceName": "Rosamund",
+      "categoryId": "audio-media",
+      "buyerGroupIds": [
+        "software",
+        "media",
+        "research"
+      ],
+      "summary": "Acquire permitted media, inspect stream integrity and retain reproducible evidence for archival workflows.",
+      "overview": "An independent media-acquisition and processing prototype with discovery, acquisition orchestration and bitstream-integrity analysis. A separately scoped development candidate adds an original-webpage resolver, first-party MP4 acquisition and a bounded job backend.",
+      "potentialBuyers": [
+        "Media archive developers",
+        "Digital preservation teams",
+        "Media workflow software companies"
+      ],
+      "capabilities": [
+        "Media discovery, acquisition-wrapper and processing workflow",
+        "Manifest, bitstream timing, audit and integrity-analysis logic",
+        "Local acquisition interface, mounted storage and evidence export",
+        "Written development: Written original-webpage resolver, first-party MP4 acquisition and bounded job backend"
+      ],
+      "outputTypes": [
+        "Verified-media records",
+        "Integrity reports",
+        "Acquisition evidence packages"
+      ],
+      "maturity": "Prototype",
+      "maturityNote": "v0.3.6 is the scoped main baseline. The v0.4 R3 acquisition candidate remains HOLD; source-specific live acquisition and production readiness are not established.",
+      "availability": "Defined AS IS first-party main and separately identified written development",
+      "askingReferenceEUR": 75000,
+      "materialBoundaries": [
+        "Current main includes acquisition orchestration around external media tools; those tools and their rights are not seller-owned IP.",
+        "Written first-party webpage-to-MP4 development remains unaccepted; live source success, a native resumable cloud uploader and production operation are not established."
+      ],
+      "offeredScope": [
+        "The agreed first-party main work and associated original documentation",
+        "The separately identified written development at the reviewed candidate source, with unresolved acceptance stated",
+        "The expressly agreed transferable first-party rights and delivery manifest",
+        "The expressly identified written development delta, with its pending acceptance and separate source manifest"
+      ],
+      "excludedScope": [
+        "Third-party software, data, media, models and service entitlements beyond their own terms",
+        "Personal, customer and author content, private accounts and credentials",
+        "Future development, hosting, hardware, support and operating businesses unless expressly agreed"
+      ],
+      "profileUrl": "https://thearchitect-max.github.io/MyProjects/projects/media-acquisition-processing-intelligence-platform/",
+      "displayUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/media-acquisition-processing-intelligence-platform/",
+      "factsheetUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/media-acquisition-processing-intelligence-platform/factsheet.pdf",
+      "briefUrl": "https://thearchitect-max.github.io/MyProjects/displays/products/media-acquisition-processing-intelligence-platform/product-brief.md"
     }
   ]
 }

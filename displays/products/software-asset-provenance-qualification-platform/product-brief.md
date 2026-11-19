@@ -43,7 +43,7 @@ Repository provenance and qualification software with component/evidence invento
 - Technical scope: V — Repository provenance and qualification software with component/evidence inventories and a candidate release workflow that checks structured build/test evidence, signatures and cross-file bindings. The offered edition and material boundaries govern review.
 - Evidence and validation: E4 — Current local replay reports failed legacy-policy tests: expected IP_READY outcomes now evaluate to FAILED. Complete 0.5 release acceptance is unresolved. Independent recipient and intended-use acceptance remain separate.
 - Rights and component obligations: R3 — R2 plus SBOM/lockfile and provenance/rights-supporting evidence identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
 Offered first-party scope: The earlier specifically priced provenance/qualification scope is retained. The 0.5 release-assurance implementation is disclosed as development scope with unresolved compatibility tests and no added monetary premium. Legal title, independent certification and production readiness are excluded.
@@ -77,19 +77,24 @@ Development: No separate open candidate at the reviewed snapshot.
 | Risk-adjusted strategic reference | 1,035,547 | 1,135,788 |
 | Weighted economic reference | 1,044,141 | 1,145,214 |
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance. Review on 2026-11-03: The earlier specifically priced provenance/qualification scope is retained. The 0.5 release-assurance implementation is disclosed as development scope with unresolved compatibility tests and no added monetary premium. Legal title, independent certification and production readiness are excluded.
+Published baseline retained once: recreation EUR 850,000, seller ask EUR 240,000. No monetary addition at this snapshot. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Retain the published EUR 240,000 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
+
+
 ## Individual source review
 
-Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. README documents local verify script, build/test evidence checks, signed-release fixture, SBOM-tamper rejection and controlled commercial finalizer.
+Reviewed first-party work: Software source qualification and provenance domain; Isolated builds, asset dossiers and trust controls; Inventory adapters, qualification interfaces and evidence export. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: Self-issued signatures and seller-side evidence do not establish independent chain of title, third-party IP clearance, FTO, market value or production security.
 
-Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
+Price decision: Retain the published EUR 240,000 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -97,6 +102,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/software-asset-provenance-qualification-platform/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/software-asset-provenance-qualification-platform/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

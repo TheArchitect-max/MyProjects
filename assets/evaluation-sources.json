@@ -37,7 +37,7 @@
       "title": "Intellectual Property Valuation Basics — The cost method",
       "url": "https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html",
       "finding": "Cost-based reproduction/replacement is a starting point; cost and negotiated value may differ.",
-      "application": "Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.",
+      "application": "WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.",
       "checkedOn": "2026-11-19",
       "categoryId": "valuation",
       "referenceBasisDate": "2026-10-17",
@@ -232,7 +232,7 @@
     {
       "id": "product-scope",
       "title": "Product editions and implemented scope",
-      "basis": "All 128 immutable main READMEs, full Git inventories and open-PR states individually rechecked on 19 November 2026. Twenty changed existing main revisions were compared with the preceding reviewed source.",
+      "basis": "Each current main and open-PR head rechecked against retained immutable README, full file inventory, selected first-party implementation and project-specific records; written development is separately identified.",
       "application": "Public purpose, functions, outputs, identified version and priced first-party scope.",
       "limit": "The public summary is not the underlying source code or a guarantee of fitness for a buyer’s deployment.",
       "publicUrl": "assets/buyer-dossiers.json",
@@ -259,9 +259,9 @@
     {
       "id": "financial-inputs",
       "title": "Seller cost and commercial inputs",
-      "basis": "128 independent financial records: 102 retained asking references, 20 bounded main-source increments, five initial first-party scope budgets and one historical-main scope correction.",
+      "basis": "Immutable 19 November published seller references, plus separately scoped first-party additions across 129 standalone assets. Main and written-candidate work remain distinct.",
       "application": "Eight EUR and USD reference fields, conditional scenarios and portfolio reconciliation.",
-      "limit": "Cost coverage: 32 full scoped budget, 52 partial scoped budget, 44 legacy estimate without work breakdown. Effort and seller discounts remain assumptions, not market valuations.",
+      "limit": "Historical effort confidence is retained. New effort, rates and asking additions are seller assumptions; no market value, logged expenditure or product acceptance is established.",
       "publicUrl": "valuation.html#assessment",
       "linkLabel": "Complete financial assessment coverage"
     },
@@ -269,9 +269,9 @@
       "id": "calculation",
       "title": "Reproducible arithmetic",
       "basis": "The current public pricing records and shared deterministic calculation module.",
-      "application": "512 model outputs, 1,024 USD conversions, all declared work-package budgets, conditional references and eight portfolio totals.",
+      "application": "516 model outputs, 1,032 USD conversions, chained historical/additional work budgets and all individual baseline-to-current sums.",
       "limit": "A matching calculation checks arithmetic consistency; it does not independently validate the assumptions.",
-      "publicUrl": "proof.html?v=calc12",
+      "publicUrl": "proof.html?v=calc16",
       "linkLabel": "Run calculation validation"
     },
     {
@@ -286,7 +286,7 @@
     {
       "id": "asset-identity",
       "title": "Asset identity and display linkage",
-      "basis": "128 distinct private repository identities reconciled to public asset records; 121 source-side portfolio assignments and seven provisional aliases. Product renames preserve stable asset references; publication infrastructure is excluded.",
+      "basis": "129 current distinct private project sources; 121 source-side identities and eight provisional public aliases. Three publication repositories excluded.",
       "application": "Canonical project title, TA-IP reference and feminine alias across repository identity metadata, asset dossiers, displays, factsheets and product briefs.",
       "limit": "Identity consistency does not establish ownership clearance, product qualification or market value. Private source and detailed internal records are outside the public register.",
       "publicUrl": "identities.html",

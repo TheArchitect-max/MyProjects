@@ -41,7 +41,7 @@ Deterministic author-controlled editorial ZIP handoff and a detached, hash-ancho
 - Technical scope: V — Deterministic author-controlled editorial ZIP handoff and a detached, hash-anchored ledger of human song-review decisions. The offered edition and material boundaries govern review.
 - Evidence and validation: E2 — The retained 3.32 acceptance covers its recorded source and runtime matrix. Current 3.33 local replay reports a failed regression: a prior test still expects the previous CLI target. Full new-release acceptance remains open. Independent recipient and intended-use acceptance remain separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
 Offered first-party scope: Specifically agreed first-party 3.34.0 source, documentation and retained evidence: Deterministic author-controlled editorial ZIP handoff and a detached, hash-anchored ledger of human song-review decisions. Plaintext lyrics and notes require private handling. Hashes do not prove reviewer identity, legal rights or publication approval. Recurring subscriptions and live deployment remain unqualified.
@@ -76,19 +76,24 @@ Development: No separate open candidate at the reviewed snapshot.
 | Risk-adjusted strategic reference | 1,269,343 | 1,392,215 |
 | Weighted economic reference | 1,279,539 | 1,403,398 |
 
-Earlier recreation anchor retained once; its prior coverage and uncertainty remain. Added only the individually described implementation work. 96 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 10,000 adopted recreation increment and EUR 3,000 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
+Published baseline retained once: recreation EUR 1,094,000, seller ask EUR 328,500. No monetary addition at this snapshot. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Retain the published EUR 328,500 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
+
+
 ## Individual source review
 
-Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Retained source acceptance: 24/24 disposable Colab CPU gates, 403 regressions and 418 pytest cases on each real Python 3.10–3.13 environment. Documentation-only launch planning is not a new software acceptance.
+Reviewed first-party work: Songwriting, cadence and album-production domain; Editorial workflow, validation and signing controls; CLI, project interfaces and creative production exports. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: Plaintext lyrics and notes require private handling. Hashes do not prove reviewer identity, legal rights or publication approval. Recurring subscriptions and live deployment remain unqualified.
 
-Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
+Price decision: Retain the published EUR 328,500 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -96,6 +101,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/cipher-lyric-engine/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/cipher-lyric-engine/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

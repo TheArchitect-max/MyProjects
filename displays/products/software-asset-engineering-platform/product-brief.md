@@ -25,6 +25,7 @@ The offered v0.1 local software-inspection engine has a separate unmerged servic
 - Record supported findings
 - Prepare repair-note proposals
 - Create review and handover dossiers
+- Written development: Written tenant registry and durable static-job control plane
 
 ## Output types
 
@@ -41,16 +42,16 @@ The offered v0.1 local software-inspection engine has a separate unmerged servic
 - Technical scope: P — A software-inspection prototype for documented asset review and handover preparation. The offered edition and material boundaries govern review.
 - Evidence and validation: E3 — Tests, validation and provenance/release evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R3 — R2 plus SBOM/lockfile and provenance/rights-supporting evidence identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
-Offered first-party scope: Present first-party local software-inspection, evidence, bounded review-proposal and package-preparation prototype, its CLI/local interface, source contracts, documentation and retained validation at the identified v0.1.0 commit. Ingested-project execution, arbitrary-code isolation, broader adapters, production SaaS, hosting, rights certification, third-party ownership and future development are excluded.
+Offered first-party scope: The agreed first-party main work and separately identified written development delta, with their distinct source manifests and acceptance status. Future completion, operations and third-party entitlements require separate terms.
 
-Development: Open, unmerged development: Build: Octavia SaaS tenant registry and durable static-job control plane This is outside the offered main-source budget.
+Development: Written tenant registry and durable static-job control plane. Written first-party work; release acceptance remains unresolved.
 
 ## Conditions before handover
 
-- Agree and freeze the engine asset delivery manifest, included rights and first-party provenance for the identified release.
+- Freeze the agreed main and written-development sources, first-party rights, pending acceptance and delivery manifest before transfer.
 - Reconcile the pinned build-tool licences and final component obligations for the agreed delivery scope.
 - Complete recipient verification and acceptance of the engine delivery package; generated input-project dossiers remain separate draft review records.
 - Qualify the intended local deployment and its security boundary. Input-project execution, a general sandbox and multi-tenant SaaS are not delivered.
@@ -67,28 +68,34 @@ Development: Open, unmerged development: Build: Octavia SaaS tenant registry and
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 75,000 | 82,260 |
-| Negotiation reference - low | 60,000 | 65,808 |
-| Negotiation reference - high | 93,750 | 102,825 |
-| Recreation cost estimate | 250,000 | 274,200 |
-| Marketability cost scenario | 210,375 | 230,739 |
-| Monetisation cost scenario | 194,062 | 212,847 |
-| Risk-adjusted strategic reference | 104,311 | 114,408 |
-| Weighted economic reference | 179,896 | 197,310 |
+| Seller asking reference | 88,500 | 97,067 |
+| Negotiation reference - low | 70,800 | 77,653 |
+| Negotiation reference - high | 110,625 | 121,334 |
+| Recreation cost estimate | 295,000 | 323,556 |
+| Marketability cost scenario | 248,243 | 272,273 |
+| Monetisation cost scenario | 228,994 | 251,161 |
+| Risk-adjusted strategic reference | 123,087 | 135,002 |
+| Weighted economic reference | 212,278 | 232,827 |
 
-Disclosed base/increment assumptions reconcile to the retained recreation anchor. Effort remains an analyst estimate for its original scope.
+Published baseline retained once: recreation EUR 250,000, seller ask EUR 75,000. Additional identified work adds recreation EUR 45,000 and ask EUR 13,500. Written development is separately included with acceptance unresolved. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Preserved seller asking baseline EUR 75,000; add EUR 13,500 for Written tenant registry and durable static-job control plane. Added recreation allowance EUR 45,000, from 420 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once.
+
+- Written tenant registry and durable static-job control plane — 420 assumed hours; WRITTEN_CANDIDATE_DELTA
+
 ## Individual source review
 
-Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. README documents directory/ZIP snapshots, bounded AST inspection, evidence packaging, repair proposals, rights dossiers and source-distribution verifier.
+Reviewed first-party work: Software AST, import and asset-engineering domain; Inventory, provenance and audit processing; API, adapters and source review interfaces. Written development: Written tenant registry and durable static-job control plane. Existing written work only; acceptance and future completion remain separate. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: Does not build, install or execute analyzed third-party source and records those gates NOT_RUN. No private SaaS account/tenant production service or independently cleared title/FTO/market price.
 
-Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
+Price decision: Preserved seller asking baseline EUR 75,000; add EUR 13,500 for Written tenant registry and durable static-job control plane. Added recreation allowance EUR 45,000, from 420 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -96,6 +103,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/software-asset-engineering-platform/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/software-asset-engineering-platform/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

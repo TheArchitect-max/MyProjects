@@ -25,6 +25,7 @@ Adds packaging/native-platform assurance, strict point-in-time precedent retriev
 - Historical retrieval and outcome-visibility controls
 - Separate-domain outcome observation authentication
 - Packaging resources and native-platform regression qualification
+- Written development: Externally pinned outcome-observation checkpoints and membership checks
 
 ## Output types
 
@@ -41,16 +42,16 @@ Adds packaging/native-platform assurance, strict point-in-time precedent retriev
 - Technical scope: V — Adds packaging/native-platform assurance, strict point-in-time precedent retrieval, declared outcome-availability masking and authenticated historical-outcome observation receipts. The installed package version remains 2.34.0. Signer-declared timestamps and HMAC receipts do not independently establish when a historical event occurred; infrastructure execution and predictive superiority remain unqualified.
 - Evidence and validation: E3 — Tests, validation and provenance/release evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
-Offered first-party scope: Existing first-party main-source work: Adds packaging/native-platform assurance, strict point-in-time precedent retrieval, declared outcome-availability masking and authenticated historical-outcome observation receipts. The installed package version remains 2.34.0. Signer-declared timestamps and HMAC receipts do not independently establish when a historical event occurred; infrastructure execution and predictive superiority remain unqualified.
+Offered first-party scope: The agreed first-party main work and separately identified written development delta, with their distinct source manifests and acceptance status. Future completion, operations and third-party entitlements require separate terms.
 
-Development: Open, unmerged development: OME 2.35-WP6: externally pinned outcome observation checkpoints This is outside the offered main-source budget.
+Development: Externally pinned outcome-observation checkpoints and membership checks. Written first-party work; release acceptance remains unresolved.
 
 ## Conditions before handover
 
-- The installed package version remains 2.34.0. Signer-declared timestamps and HMAC receipts do not independently establish when a historical event occurred; infrastructure execution and predictive superiority remain unqualified.
+- Freeze the agreed main and written-development sources, first-party rights, pending acceptance and delivery manifest before transfer.
 - Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
 - A detailed component inventory and licensing report are required for the agreed delivery scope.
 
@@ -65,28 +66,34 @@ Development: Open, unmerged development: OME 2.35-WP6: externally pinned outcome
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 710,500 | 779,276 |
-| Negotiation reference - low | 568,400 | 623,421 |
-| Negotiation reference - high | 888,125 | 974,096 |
-| Recreation cost estimate | 1,934,000 | 2,121,211 |
-| Marketability cost scenario | 3,046,050 | 3,340,908 |
-| Monetisation cost scenario | 4,448,200 | 4,878,786 |
-| Risk-adjusted strategic reference | 4,907,072 | 5,382,077 |
-| Weighted economic reference | 3,699,825 | 4,057,968 |
+| Seller asking reference | 717,500 | 786,954 |
+| Negotiation reference - low | 574,000 | 629,563 |
+| Negotiation reference - high | 896,875 | 983,693 |
+| Recreation cost estimate | 1,957,500 | 2,146,986 |
+| Marketability cost scenario | 3,083,063 | 3,381,503 |
+| Monetisation cost scenario | 4,502,250 | 4,938,068 |
+| Risk-adjusted strategic reference | 4,966,698 | 5,447,474 |
+| Weighted economic reference | 3,744,782 | 4,107,277 |
 
-Non-overlapping implemented main-source increment: 240 assumed hours at EUR 94/hour, 15% allowance, EUR 25,500 adopted recreation increment and EUR 7,500 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project. Earlier priced work is counted once; its legacy uncertainty remains.
+Published baseline retained once: recreation EUR 1,934,000, seller ask EUR 710,500. Additional identified work adds recreation EUR 23,500 and ask EUR 7,000. Written development is separately included with acceptance unresolved. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Preserved seller asking baseline EUR 710,500; add EUR 7,000 for Externally pinned outcome-observation checkpoints and membership checks. Added recreation allowance EUR 23,500, from 220 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once.
+
+- Externally pinned outcome-observation checkpoints and membership checks — 220 assumed hours; WRITTEN_CANDIDATE_DELTA
+
 ## Individual source review
 
-Current main README, full Git inventory and comparison with the prior reviewed main identify this implemented change: Adds packaging/native-platform assurance, strict point-in-time precedent retrieval, declared outcome-availability masking and authenticated historical-outcome observation receipts. Retained acceptance is source-reported and remains bound to its original source and environment.
+Reviewed first-party work: Organisational memory, retrieval and provenance domains; Risk, trust, outcome masking and durable recovery runtime; Historical queries, signed receipts and service interfaces. Written development: Externally pinned outcome-observation checkpoints and membership checks. Existing written work only; acceptance and future completion remain separate. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: The installed package version remains 2.34.0. Signer-declared timestamps and HMAC receipts do not independently establish when a historical event occurred; infrastructure execution and predictive superiority remain unqualified.
 
-Price decision: Non-overlapping implemented main-source increment: 240 assumed hours at EUR 94/hour, 15% allowance, EUR 25,500 adopted recreation increment and EUR 7,500 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project.
+Price decision: Preserved seller asking baseline EUR 710,500; add EUR 7,000 for Externally pinned outcome-observation checkpoints and membership checks. Added recreation allowance EUR 23,500, from 220 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -94,6 +101,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/organizational-memory-engine/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/organizational-memory-engine/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

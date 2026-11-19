@@ -23,6 +23,7 @@ Offline vehicle evidence software extended with tenant/API quotas, an internal b
 - Local tenant, quota and internal portal modules beyond the priced research corpus
 - Synthetic signed billing custody and offline Stripe-format inbox
 - Integrated offline admission and rejection qualification
+- Written development: Offline payment-inbox metadata preflight and replay checks
 
 ## Output types
 
@@ -40,16 +41,16 @@ Offline vehicle evidence software extended with tenant/API quotas, an internal b
 - Technical scope: P — Offline vehicle evidence software extended with tenant/API quotas, an internal browser portal, synthetic signed billing events and a Stripe-format offline event inbox. The offered edition and material boundaries govern review.
 - Evidence and validation: E4 — E3 plus repository-retained independent/external validation evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
-Offered first-party scope: Specifically agreed first-party 0.5.6.dev0 / merged offline milestones through PR29 source, documentation and retained evidence: Offline vehicle evidence software extended with tenant/API quotas, an internal browser portal, synthetic signed billing events and a Stripe-format offline event inbox. No live payments, public SaaS, OEM commercial redistribution grant, physical fitment proof or production vehicle actuation. Offline signatures do not prove real payment.
+Offered first-party scope: The agreed first-party main work and separately identified written development delta, with their distinct source manifests and acceptance status. Future completion, operations and third-party entitlements require separate terms.
 
-Development: Open, unmerged development: SaaS: offline-only Stripe inbox read-only metadata preflight This is outside the offered main-source budget.
+Development: Offline payment-inbox metadata preflight and replay checks. Written first-party work; release acceptance remains unresolved.
 
 ## Conditions before handover
 
-- Freeze the 0.5.6.dev0 / merged offline milestones through PR29 first-party delivery and reconcile source-specific acceptance records.
+- Freeze the agreed main and written-development sources, first-party rights, pending acceptance and delivery manifest before transfer.
 - Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
 - A detailed component inventory and licensing report are required for the agreed delivery scope.
 - A security assessment or an explicit statement of its absence is required before acceptance.
@@ -70,28 +71,34 @@ Development: Open, unmerged development: SaaS: offline-only Stripe inbox read-on
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 131,000 | 143,681 |
-| Negotiation reference - low | 104,800 | 114,945 |
-| Negotiation reference - high | 163,750 | 179,601 |
-| Recreation cost estimate | 1,070,500 | 1,174,124 |
-| Marketability cost scenario | 941,772 | 1,032,936 |
-| Monetisation cost scenario | 921,299 | 1,010,481 |
-| Risk-adjusted strategic reference | 789,630 | 866,066 |
-| Weighted economic reference | 916,610 | 1,005,338 |
+| Seller asking reference | 134,000 | 146,971 |
+| Negotiation reference - low | 107,200 | 117,577 |
+| Negotiation reference - high | 167,500 | 183,714 |
+| Recreation cost estimate | 1,081,000 | 1,185,641 |
+| Marketability cost scenario | 951,010 | 1,043,068 |
+| Monetisation cost scenario | 930,336 | 1,020,393 |
+| Risk-adjusted strategic reference | 797,375 | 874,561 |
+| Weighted economic reference | 925,600 | 1,015,198 |
 
-Earlier recreation anchor retained once; its prior coverage and uncertainty remain. Added only the individually described implementation work. 192 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 20,500 adopted recreation increment and EUR 6,000 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
+Published baseline retained once: recreation EUR 1,070,500, seller ask EUR 131,000. Additional identified work adds recreation EUR 10,500 and ask EUR 3,000. Written development is separately included with acceptance unresolved. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Preserved seller asking baseline EUR 131,000; add EUR 3,000 for Offline payment-inbox metadata preflight and replay checks. Added recreation allowance EUR 10,500, from 100 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once.
+
+- Offline payment-inbox metadata preflight and replay checks — 100 assumed hours; WRITTEN_CANDIDATE_DELTA
+
 ## Individual source review
 
-Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. The main merge records independent master Colab PR01–29 acceptance at 92/92, with the executed code tree reconciled to documentation changes. PR30 metadata preflight remains an unmerged candidate.
+Reviewed first-party work: Vehicle configuration registry and source-evidence domain; Reconciliation, signing, firmware ambiguity and review controls; Catalogue interfaces, metadata services and operator tools. Written development: Offline payment-inbox metadata preflight and replay checks. Existing written work only; acceptance and future completion remain separate. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: No live payments, public SaaS, OEM commercial redistribution grant, physical fitment proof or production vehicle actuation. Offline signatures do not prove real payment.
 
-Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
+Price decision: Preserved seller asking baseline EUR 131,000; add EUR 3,000 for Offline payment-inbox metadata preflight and replay checks. Added recreation allowance EUR 10,500, from 100 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -99,6 +106,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/universal-vehicle-configuration-database/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/universal-vehicle-configuration-database/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

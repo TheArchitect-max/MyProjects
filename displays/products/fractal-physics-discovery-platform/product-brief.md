@@ -41,7 +41,7 @@ Adds measurement-readiness and external-evidence intake, versioned publisher met
 - Technical scope: R — Adds measurement-readiness and external-evidence intake, versioned publisher metadata, raw-workbook admission and a physical-dataset comparability screen. The admitted external optical data are not directly comparable with the current FPDP hypothesis. Scientific G2 remains HOLD; internal mathematical/software checks are not a new physical law or independent experimental corroboration.
 - Evidence and validation: E3 — Tests, validation and provenance/release evidence identified.
 - Rights and component obligations: R0 — No repository licence evidence identified.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T1 — Implementation exists but core transfer evidence is incomplete.
 
 Offered first-party scope: Existing first-party main-source work: Adds measurement-readiness and external-evidence intake, versioned publisher metadata, raw-workbook admission and a physical-dataset comparability screen. The admitted external optical data are not directly comparable with the current FPDP hypothesis. Scientific G2 remains HOLD; internal mathematical/software checks are not a new physical law or independent experimental corroboration.
@@ -72,19 +72,24 @@ Development: No separate open candidate at the reviewed snapshot.
 | Risk-adjusted strategic reference | 12,125 | 13,299 |
 | Weighted economic reference | 33,421 | 36,656 |
 
-Non-overlapping implemented main-source increment: 160 assumed hours at EUR 94/hour, 15% allowance, EUR 17,000 adopted recreation increment and EUR 5,000 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project. Earlier priced work is counted once; its legacy uncertainty remains.
+Published baseline retained once: recreation EUR 68,500, seller ask EUR 20,000. No monetary addition at this snapshot. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Retain the published EUR 20,000 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
+
+
 ## Individual source review
 
-Current main README, full Git inventory and comparison with the prior reviewed main identify this implemented change: Adds measurement-readiness and external-evidence intake, versioned publisher metadata, raw-workbook admission and a physical-dataset comparability screen. Retained acceptance is source-reported and remains bound to its original source and environment.
+Reviewed first-party work: Exact fractal intervals, rational bounds and toy physical models; Measurement readiness, data intake and comparability analysis; Research interfaces, proof-bound reports and source qualification. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: The admitted external optical data are not directly comparable with the current FPDP hypothesis. Scientific G2 remains HOLD; internal mathematical/software checks are not a new physical law or independent experimental corroboration.
 
-Price decision: Non-overlapping implemented main-source increment: 160 assumed hours at EUR 94/hour, 15% allowance, EUR 17,000 adopted recreation increment and EUR 5,000 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project.
+Price decision: Retain the published EUR 20,000 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -92,6 +97,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/fractal-physics-discovery-platform/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/fractal-physics-discovery-platform/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

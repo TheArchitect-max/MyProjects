@@ -12,102 +12,102 @@
     "rounding": "ECB 18 November 2026 EUR/USD 1.0968; half-up to whole USD. EUR is authoritative. Portfolio conversion rounds the aggregate; USD is not a valuation."
   },
   "summary": {
-    "projects": 128,
-    "modelOutputs": 512,
-    "usdConversions": 1024,
-    "costBudgets": 139,
-    "conditionalReferences": 57,
+    "projects": 129,
+    "modelOutputs": 516,
+    "usdConversions": 1032,
+    "costBudgets": 181,
+    "conditionalReferences": 58,
     "portfolioTotals": 8
   },
   "totals": [
     {
       "key": "sellerAskEUR",
-      "sumEUR": 25274000,
-      "publishedEUR": 25274000,
-      "convertedUSD": 27720523,
-      "publishedUSD": 27720523,
-      "sumRoundedProjectUSD": 27720523,
-      "usdRoundingDifference": 0,
+      "sumEUR": 25941000,
+      "publishedEUR": 25941000,
+      "convertedUSD": 28452089,
+      "publishedUSD": 28452089,
+      "sumRoundedProjectUSD": 28452092,
+      "usdRoundingDifference": -3,
       "match": true
     },
     {
       "key": "negotiationLowEUR",
-      "sumEUR": 20192500,
-      "publishedEUR": 20192500,
-      "convertedUSD": 22147134,
-      "publishedUSD": 22147134,
-      "sumRoundedProjectUSD": 22147135,
-      "usdRoundingDifference": -1,
+      "sumEUR": 20726100,
+      "publishedEUR": 20726100,
+      "convertedUSD": 22732386,
+      "publishedUSD": 22732386,
+      "sumRoundedProjectUSD": 22732390,
+      "usdRoundingDifference": -4,
       "match": true
     },
     {
       "key": "negotiationHighEUR",
-      "sumEUR": 31645500,
-      "publishedEUR": 31645500,
-      "convertedUSD": 34708784,
-      "publishedUSD": 34708784,
-      "sumRoundedProjectUSD": 34708794,
-      "usdRoundingDifference": -10,
+      "sumEUR": 32479250,
+      "publishedEUR": 32479250,
+      "convertedUSD": 35623241,
+      "publishedUSD": 35623241,
+      "sumRoundedProjectUSD": 35623256,
+      "usdRoundingDifference": -15,
       "match": true
     },
     {
       "key": "replacementCostEUR",
-      "sumEUR": 106813500,
-      "publishedEUR": 106813500,
-      "convertedUSD": 117153047,
-      "publishedUSD": 117153047,
-      "sumRoundedProjectUSD": 117153047,
-      "usdRoundingDifference": 0,
+      "sumEUR": 109063000,
+      "publishedEUR": 109063000,
+      "convertedUSD": 119620298,
+      "publishedUSD": 119620298,
+      "sumRoundedProjectUSD": 119620301,
+      "usdRoundingDifference": -3,
       "match": true
     },
     {
       "key": "marketComparableProxyEUR",
-      "sumEUR": 120838765,
-      "publishedEUR": 120838765,
-      "convertedUSD": 132535957,
-      "publishedUSD": 132535957,
-      "sumRoundedProjectUSD": 132535960,
+      "sumEUR": 122911022,
+      "publishedEUR": 122911022,
+      "convertedUSD": 134808809,
+      "publishedUSD": 134808809,
+      "sumRoundedProjectUSD": 134808812,
       "usdRoundingDifference": -3,
       "match": true
     },
     {
       "key": "incomeLicensingProxyEUR",
-      "sumEUR": 142025082,
-      "publishedEUR": 142025082,
-      "convertedUSD": 155773110,
-      "publishedUSD": 155773110,
-      "sumRoundedProjectUSD": 155773112,
-      "usdRoundingDifference": -2,
+      "sumEUR": 144112591,
+      "publishedEUR": 144112591,
+      "convertedUSD": 158062690,
+      "publishedUSD": 158062690,
+      "sumRoundedProjectUSD": 158062689,
+      "usdRoundingDifference": 1,
       "match": true
     },
     {
       "key": "probabilityAdjustedStrategicValueEUR",
-      "sumEUR": 132372238,
-      "publishedEUR": 132372238,
-      "convertedUSD": 145185871,
-      "publishedUSD": 145185871,
-      "sumRoundedProjectUSD": 145185873,
-      "usdRoundingDifference": -2,
+      "sumEUR": 133978994,
+      "publishedEUR": 133978994,
+      "convertedUSD": 146948161,
+      "publishedUSD": 146948161,
+      "sumRoundedProjectUSD": 146948160,
+      "usdRoundingDifference": 1,
       "match": true
     },
     {
       "key": "triangulatedEconomicReferenceEUR",
-      "sumEUR": 125606431,
-      "publishedEUR": 125606431,
-      "convertedUSD": 137765134,
-      "publishedUSD": 137765134,
-      "sumRoundedProjectUSD": 137765130,
+      "sumEUR": 127563125,
+      "publishedEUR": 127563125,
+      "convertedUSD": 139911236,
+      "publishedUSD": 139911236,
+      "sumRoundedProjectUSD": 139911232,
       "usdRoundingDifference": 4,
       "match": true
     }
   ],
   "fullPortfolioOffer": {
-    "projectCount": 128,
+    "projectCount": 129,
     "discountPercent": 10,
     "payablePercent": 90,
-    "individualAskingTotalEUR": 25274000,
-    "savingEUR": 2527400,
-    "packageAskingEUR": 22746600
+    "individualAskingTotalEUR": 25941000,
+    "savingEUR": 2594100,
+    "packageAskingEUR": 23346900
   },
   "projects": [
     {
@@ -117,88 +117,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 31537,
-          "recomputedEUR": 31537,
-          "formula": "round(48500 × 0.9 × 0.85 × 0.85) = 31537",
+          "publishedEUR": 164838,
+          "recomputedEUR": 164838,
+          "formula": "round(253500 × 0.9 × 0.85 × 0.85) = 164838",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 27827,
-          "recomputedEUR": 27827,
-          "formula": "round(48500 × 0.9 × 0.75 × 0.85) = 27827",
+          "publishedEUR": 145446,
+          "recomputedEUR": 145446,
+          "formula": "round(253500 × 0.9 × 0.75 × 0.85) = 145446",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 15637,
-          "recomputedEUR": 15637,
-          "formula": "round(48500 × 1.75 × 0.75 × 0.4 × 0.85 × 0.85 × 0.85) = 15637",
+          "publishedEUR": 81732,
+          "recomputedEUR": 81732,
+          "formula": "round(253500 × 1.75 × 0.75 × 0.4 × 0.85 × 0.85 × 0.85) = 81732",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 29471,
-          "recomputedEUR": 29471,
-          "formula": "round(48500 × 0.25 + 31537 × 0.2 + 27827 × 0.2 + 15637 × 0.35) = 29471",
+          "publishedEUR": 154038,
+          "recomputedEUR": 154038,
+          "formula": "round(253500 × 0.25 + 164838 × 0.2 + 145446 × 0.2 + 81732 × 0.35) = 154038",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 14500,
-          "publishedUSD": 15904,
-          "convertedUSD": 15904,
+          "eur": 76000,
+          "publishedUSD": 83357,
+          "convertedUSD": 83357,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 11600,
-          "publishedUSD": 12723,
-          "convertedUSD": 12723,
+          "eur": 60800,
+          "publishedUSD": 66685,
+          "convertedUSD": 66685,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 18125,
-          "publishedUSD": 19880,
-          "convertedUSD": 19880,
+          "eur": 95000,
+          "publishedUSD": 104196,
+          "convertedUSD": 104196,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 48500,
-          "publishedUSD": 53195,
-          "convertedUSD": 53195,
+          "eur": 253500,
+          "publishedUSD": 278039,
+          "convertedUSD": 278039,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 31537,
-          "publishedUSD": 34590,
-          "convertedUSD": 34590,
+          "eur": 164838,
+          "publishedUSD": 180794,
+          "convertedUSD": 180794,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 27827,
-          "publishedUSD": 30521,
-          "convertedUSD": 30521,
+          "eur": 145446,
+          "publishedUSD": 159525,
+          "convertedUSD": 159525,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 15637,
-          "publishedUSD": 17151,
-          "convertedUSD": 17151,
+          "eur": 81732,
+          "publishedUSD": 89644,
+          "convertedUSD": 89644,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 29471,
-          "publishedUSD": 32324,
-          "convertedUSD": 32324,
+          "eur": 154038,
+          "publishedUSD": 168949,
+          "convertedUSD": 168949,
           "match": true
         }
       ],
@@ -217,13 +217,28 @@
           "adoptedIncrementMatch": true,
           "resultingAnchorMatch": true,
           "match": true
+        },
+        {
+          "budgetIndex": 1,
+          "method": "1900 hours × EUR 94/hour",
+          "recomputedDirectEUR": 178600,
+          "publishedDirectEUR": 178600,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 205390,
+          "publishedWithAllowanceEUR": 205390,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
         }
       ],
       "futureCheck": {
         "applicable": true,
-        "publishedEUR": 34714,
-        "recomputedEUR": 34714,
-        "deltaEUR": 5243,
+        "publishedEUR": 181444,
+        "recomputedEUR": 181444,
+        "deltaEUR": 27406,
         "match": true
       }
     },
@@ -234,88 +249,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 404985,
-          "recomputedEUR": 404985,
-          "formula": "round(551000 × 0.7 × 1 × 1.05) = 404985",
+          "publishedEUR": 416010,
+          "recomputedEUR": 416010,
+          "formula": "round(566000 × 0.7 × 1 × 1.05) = 416010",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 281010,
-          "recomputedEUR": 281010,
-          "formula": "round(551000 × 0.6 × 1 × 0.85) = 281010",
+          "publishedEUR": 288660,
+          "recomputedEUR": 288660,
+          "formula": "round(566000 × 0.6 × 1 × 0.85) = 288660",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 138694,
-          "recomputedEUR": 138694,
-          "formula": "round(551000 × 1.25 × 0.95 × 0.25 × 0.85 × 0.95 × 1.05) = 138694",
+          "publishedEUR": 142469,
+          "recomputedEUR": 142469,
+          "formula": "round(566000 × 1.25 × 0.95 × 0.25 × 0.85 × 0.95 × 1.05) = 142469",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 323492,
-          "recomputedEUR": 323492,
-          "formula": "round(551000 × 0.25 + 404985 × 0.2 + 281010 × 0.2 + 138694 × 0.35) = 323492",
+          "publishedEUR": 332298,
+          "recomputedEUR": 332298,
+          "formula": "round(566000 × 0.25 + 416010 × 0.2 + 288660 × 0.2 + 142469 × 0.35) = 332298",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 102000,
-          "publishedUSD": 111874,
-          "convertedUSD": 111874,
+          "eur": 106500,
+          "publishedUSD": 116809,
+          "convertedUSD": 116809,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 81600,
-          "publishedUSD": 89499,
-          "convertedUSD": 89499,
+          "eur": 85200,
+          "publishedUSD": 93447,
+          "convertedUSD": 93447,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 127500,
-          "publishedUSD": 139842,
-          "convertedUSD": 139842,
+          "eur": 133125,
+          "publishedUSD": 146012,
+          "convertedUSD": 146012,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 551000,
-          "publishedUSD": 604337,
-          "convertedUSD": 604337,
+          "eur": 566000,
+          "publishedUSD": 620789,
+          "convertedUSD": 620789,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 404985,
-          "publishedUSD": 444188,
-          "convertedUSD": 444188,
+          "eur": 416010,
+          "publishedUSD": 456280,
+          "convertedUSD": 456280,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 281010,
-          "publishedUSD": 308212,
-          "convertedUSD": 308212,
+          "eur": 288660,
+          "publishedUSD": 316602,
+          "convertedUSD": 316602,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 138694,
-          "publishedUSD": 152120,
-          "convertedUSD": 152120,
+          "eur": 142469,
+          "publishedUSD": 156260,
+          "convertedUSD": 156260,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 323492,
-          "publishedUSD": 354806,
-          "convertedUSD": 354806,
+          "eur": 332298,
+          "publishedUSD": 364464,
+          "convertedUSD": 364464,
           "match": true
         }
       ],
@@ -364,6 +379,21 @@
           "adoptedIncrementMatch": true,
           "resultingAnchorMatch": true,
           "match": true
+        },
+        {
+          "budgetIndex": 3,
+          "method": "140 hours × EUR 94/hour",
+          "recomputedDirectEUR": 13160,
+          "publishedDirectEUR": 13160,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 15134,
+          "publishedWithAllowanceEUR": 15134,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
         }
       ],
       "futureCheck": {
@@ -377,88 +407,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 1052336,
-          "recomputedEUR": 1052336,
-          "formula": "round(871500 × 1.15 × 1 × 1.05) = 1052336",
+          "publishedEUR": 1086146,
+          "recomputedEUR": 1086146,
+          "formula": "round(899500 × 1.15 × 1 × 1.05) = 1086146",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 1000046,
-          "recomputedEUR": 1000046,
-          "formula": "round(871500 × 1.35 × 1 × 0.85) = 1000046",
+          "publishedEUR": 1032176,
+          "recomputedEUR": 1032176,
+          "formula": "round(899500 × 1.35 × 1 × 0.85) = 1032176",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 1061740,
-          "recomputedEUR": 1061740,
-          "formula": "round(871500 × 2.75 × 0.95 × 0.55 × 0.85 × 0.95 × 1.05) = 1061740",
+          "publishedEUR": 1095852,
+          "recomputedEUR": 1095852,
+          "formula": "round(899500 × 2.75 × 0.95 × 0.55 × 0.85 × 0.95 × 1.05) = 1095852",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 999960,
-          "recomputedEUR": 999960,
-          "formula": "round(871500 × 0.25 + 1052336 × 0.2 + 1000046 × 0.2 + 1061740 × 0.35) = 999960",
+          "publishedEUR": 1032088,
+          "recomputedEUR": 1032088,
+          "formula": "round(899500 × 0.25 + 1086146 × 0.2 + 1032176 × 0.2 + 1095852 × 0.35) = 1032088",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 205000,
-          "publishedUSD": 224844,
-          "convertedUSD": 224844,
+          "eur": 213000,
+          "publishedUSD": 233618,
+          "convertedUSD": 233618,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 164000,
-          "publishedUSD": 179875,
-          "convertedUSD": 179875,
+          "eur": 170400,
+          "publishedUSD": 186895,
+          "convertedUSD": 186895,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 256500,
-          "publishedUSD": 281329,
-          "convertedUSD": 281329,
+          "eur": 266500,
+          "publishedUSD": 292297,
+          "convertedUSD": 292297,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 871500,
-          "publishedUSD": 955861,
-          "convertedUSD": 955861,
+          "eur": 899500,
+          "publishedUSD": 986572,
+          "convertedUSD": 986572,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 1052336,
-          "publishedUSD": 1154202,
-          "convertedUSD": 1154202,
+          "eur": 1086146,
+          "publishedUSD": 1191285,
+          "convertedUSD": 1191285,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 1000046,
-          "publishedUSD": 1096850,
-          "convertedUSD": 1096850,
+          "eur": 1032176,
+          "publishedUSD": 1132091,
+          "convertedUSD": 1132091,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 1061740,
-          "publishedUSD": 1164516,
-          "convertedUSD": 1164516,
+          "eur": 1095852,
+          "publishedUSD": 1201930,
+          "convertedUSD": 1201930,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 999960,
-          "publishedUSD": 1096756,
-          "convertedUSD": 1096756,
+          "eur": 1032088,
+          "publishedUSD": 1131994,
+          "convertedUSD": 1131994,
           "match": true
         }
       ],
@@ -471,6 +501,21 @@
           "allowance": 0.15,
           "recomputedWithAllowanceEUR": 21620,
           "publishedWithAllowanceEUR": 21620,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
+        },
+        {
+          "budgetIndex": 1,
+          "method": "260 hours × EUR 94/hour",
+          "recomputedDirectEUR": 24440,
+          "publishedDirectEUR": 24440,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 28106,
+          "publishedWithAllowanceEUR": 28106,
           "directMatch": true,
           "allowanceMatch": true,
           "workPackagesMatch": true,
@@ -603,88 +648,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 967725,
-          "recomputedEUR": 967725,
-          "formula": "round(900000 × 1.15 × 0.85 × 1.1) = 967725",
+          "publishedEUR": 1002133,
+          "recomputedEUR": 1002133,
+          "formula": "round(932000 × 1.15 × 0.85 × 1.1) = 1002133",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 1047937,
-          "recomputedEUR": 1047937,
-          "formula": "round(900000 × 1.35 × 0.75 × 1.15) = 1047937",
+          "publishedEUR": 1085198,
+          "recomputedEUR": 1085198,
+          "formula": "round(932000 × 1.35 × 0.75 × 1.15) = 1085198",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 811390,
-          "recomputedEUR": 811390,
-          "formula": "round(900000 × 2.75 × 0.75 × 0.55 × 0.85 × 0.85 × 1.1) = 811390",
+          "publishedEUR": 840240,
+          "recomputedEUR": 840240,
+          "formula": "round(932000 × 2.75 × 0.75 × 0.55 × 0.85 × 0.85 × 1.1) = 840240",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 912119,
-          "recomputedEUR": 912119,
-          "formula": "round(900000 × 0.25 + 967725 × 0.2 + 1047937 × 0.2 + 811390 × 0.35) = 912119",
+          "publishedEUR": 944550,
+          "recomputedEUR": 944550,
+          "formula": "round(932000 × 0.25 + 1002133 × 0.2 + 1085198 × 0.2 + 840240 × 0.35) = 944550",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 169000,
-          "publishedUSD": 185359,
-          "convertedUSD": 185359,
+          "eur": 178500,
+          "publishedUSD": 195779,
+          "convertedUSD": 195779,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 135000,
-          "publishedUSD": 148068,
-          "convertedUSD": 148068,
+          "eur": 142600,
+          "publishedUSD": 156404,
+          "convertedUSD": 156404,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 214000,
-          "publishedUSD": 234715,
-          "convertedUSD": 234715,
+          "eur": 225875,
+          "publishedUSD": 247740,
+          "convertedUSD": 247740,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 900000,
-          "publishedUSD": 987120,
-          "convertedUSD": 987120,
+          "eur": 932000,
+          "publishedUSD": 1022218,
+          "convertedUSD": 1022218,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 967725,
-          "publishedUSD": 1061401,
-          "convertedUSD": 1061401,
+          "eur": 1002133,
+          "publishedUSD": 1099139,
+          "convertedUSD": 1099139,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 1047937,
-          "publishedUSD": 1149377,
-          "convertedUSD": 1149377,
+          "eur": 1085198,
+          "publishedUSD": 1190245,
+          "convertedUSD": 1190245,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 811390,
-          "publishedUSD": 889933,
-          "convertedUSD": 889933,
+          "eur": 840240,
+          "publishedUSD": 921575,
+          "convertedUSD": 921575,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 912119,
-          "publishedUSD": 1000412,
-          "convertedUSD": 1000412,
+          "eur": 944550,
+          "publishedUSD": 1035982,
+          "convertedUSD": 1035982,
           "match": true
         }
       ],
@@ -703,13 +748,28 @@
           "adoptedIncrementMatch": true,
           "resultingAnchorMatch": true,
           "match": true
+        },
+        {
+          "budgetIndex": 1,
+          "method": "300 hours × EUR 94/hour",
+          "recomputedDirectEUR": 28200,
+          "publishedDirectEUR": 28200,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 32430,
+          "publishedWithAllowanceEUR": 32430,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
         }
       ],
       "futureCheck": {
         "applicable": true,
-        "publishedEUR": 1134186,
-        "recomputedEUR": 1134186,
-        "deltaEUR": 222067,
+        "publishedEUR": 1174513,
+        "recomputedEUR": 1174513,
+        "deltaEUR": 229963,
         "match": true
       }
     },
@@ -2149,88 +2209,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 3046050,
-          "recomputedEUR": 3046050,
-          "formula": "round(1934000 × 1.5 × 1 × 1.05) = 3046050",
+          "publishedEUR": 3083063,
+          "recomputedEUR": 3083063,
+          "formula": "round(1957500 × 1.5 × 1 × 1.05) = 3083063",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 4448200,
-          "recomputedEUR": 4448200,
-          "formula": "round(1934000 × 2 × 1 × 1.15) = 4448200",
+          "publishedEUR": 4502250,
+          "recomputedEUR": 4502250,
+          "formula": "round(1957500 × 2 × 1 × 1.15) = 4502250",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 4907072,
-          "recomputedEUR": 4907072,
-          "formula": "round(1934000 × 4.5 × 0.95 × 0.7 × 0.85 × 0.95 × 1.05) = 4907072",
+          "publishedEUR": 4966698,
+          "recomputedEUR": 4966698,
+          "formula": "round(1957500 × 4.5 × 0.95 × 0.7 × 0.85 × 0.95 × 1.05) = 4966698",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 3699825,
-          "recomputedEUR": 3699825,
-          "formula": "round(1934000 × 0.25 + 3046050 × 0.2 + 4448200 × 0.2 + 4907072 × 0.35) = 3699825",
+          "publishedEUR": 3744782,
+          "recomputedEUR": 3744782,
+          "formula": "round(1957500 × 0.25 + 3083063 × 0.2 + 4502250 × 0.2 + 4966698 × 0.35) = 3744782",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 710500,
-          "publishedUSD": 779276,
-          "convertedUSD": 779276,
+          "eur": 717500,
+          "publishedUSD": 786954,
+          "convertedUSD": 786954,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 568400,
-          "publishedUSD": 623421,
-          "convertedUSD": 623421,
+          "eur": 574000,
+          "publishedUSD": 629563,
+          "convertedUSD": 629563,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 888125,
-          "publishedUSD": 974096,
-          "convertedUSD": 974096,
+          "eur": 896875,
+          "publishedUSD": 983693,
+          "convertedUSD": 983693,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 1934000,
-          "publishedUSD": 2121211,
-          "convertedUSD": 2121211,
+          "eur": 1957500,
+          "publishedUSD": 2146986,
+          "convertedUSD": 2146986,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 3046050,
-          "publishedUSD": 3340908,
-          "convertedUSD": 3340908,
+          "eur": 3083063,
+          "publishedUSD": 3381503,
+          "convertedUSD": 3381503,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 4448200,
-          "publishedUSD": 4878786,
-          "convertedUSD": 4878786,
+          "eur": 4502250,
+          "publishedUSD": 4938068,
+          "convertedUSD": 4938068,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 4907072,
-          "publishedUSD": 5382077,
-          "convertedUSD": 5382077,
+          "eur": 4966698,
+          "publishedUSD": 5447474,
+          "convertedUSD": 5447474,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 3699825,
-          "publishedUSD": 4057968,
-          "convertedUSD": 4057968,
+          "eur": 3744782,
+          "publishedUSD": 4107277,
+          "convertedUSD": 4107277,
           "match": true
         }
       ],
@@ -2258,6 +2318,21 @@
           "allowance": 0.15,
           "recomputedWithAllowanceEUR": 25944,
           "publishedWithAllowanceEUR": 25944,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
+        },
+        {
+          "budgetIndex": 2,
+          "method": "220 hours × EUR 94/hour",
+          "recomputedDirectEUR": 20680,
+          "publishedDirectEUR": 20680,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 23782,
+          "publishedWithAllowanceEUR": 23782,
           "directMatch": true,
           "allowanceMatch": true,
           "workPackagesMatch": true,
@@ -2537,88 +2612,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 2310000,
-          "recomputedEUR": 2310000,
-          "formula": "round(1400000 × 1.5 × 1 × 1.1) = 2310000",
+          "publishedEUR": 2434575,
+          "recomputedEUR": 2434575,
+          "formula": "round(1475500 × 1.5 × 1 × 1.1) = 2434575",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 3080000,
-          "recomputedEUR": 3080000,
-          "formula": "round(1400000 × 2 × 1 × 1.1) = 3080000",
+          "publishedEUR": 3246100,
+          "recomputedEUR": 3246100,
+          "formula": "round(1475500 × 2 × 1 × 1.1) = 3246100",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 3721323,
-          "recomputedEUR": 3721323,
-          "formula": "round(1400000 × 4.5 × 0.95 × 0.7 × 0.85 × 0.95 × 1.1) = 3721323",
+          "publishedEUR": 3922009,
+          "recomputedEUR": 3922009,
+          "formula": "round(1475500 × 4.5 × 0.95 × 0.7 × 0.85 × 0.95 × 1.1) = 3922009",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 2730463,
-          "recomputedEUR": 2730463,
-          "formula": "round(1400000 × 0.25 + 2310000 × 0.2 + 3080000 × 0.2 + 3721323 × 0.35) = 2730463",
+          "publishedEUR": 2877713,
+          "recomputedEUR": 2877713,
+          "formula": "round(1475500 × 0.25 + 2434575 × 0.2 + 3246100 × 0.2 + 3922009 × 0.35) = 2877713",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 500000,
-          "publishedUSD": 548400,
-          "convertedUSD": 548400,
+          "eur": 522500,
+          "publishedUSD": 573078,
+          "convertedUSD": 573078,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 390000,
-          "publishedUSD": 427752,
-          "convertedUSD": 427752,
+          "eur": 408000,
+          "publishedUSD": 447494,
+          "convertedUSD": 447494,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 630000,
-          "publishedUSD": 690984,
-          "convertedUSD": 690984,
+          "eur": 658125,
+          "publishedUSD": 721832,
+          "convertedUSD": 721832,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 1400000,
-          "publishedUSD": 1535520,
-          "convertedUSD": 1535520,
+          "eur": 1475500,
+          "publishedUSD": 1618328,
+          "convertedUSD": 1618328,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 2310000,
-          "publishedUSD": 2533608,
-          "convertedUSD": 2533608,
+          "eur": 2434575,
+          "publishedUSD": 2670242,
+          "convertedUSD": 2670242,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 3080000,
-          "publishedUSD": 3378144,
-          "convertedUSD": 3378144,
+          "eur": 3246100,
+          "publishedUSD": 3560322,
+          "convertedUSD": 3560322,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 3721323,
-          "publishedUSD": 4081547,
-          "convertedUSD": 4081547,
+          "eur": 3922009,
+          "publishedUSD": 4301659,
+          "convertedUSD": 4301659,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 2730463,
-          "publishedUSD": 2994772,
-          "convertedUSD": 2994772,
+          "eur": 2877713,
+          "publishedUSD": 3156276,
+          "convertedUSD": 3156276,
           "match": true
         }
       ],
@@ -2667,6 +2742,21 @@
           "adoptedIncrementMatch": true,
           "resultingAnchorMatch": true,
           "match": true
+        },
+        {
+          "budgetIndex": 3,
+          "method": "700 hours × EUR 94/hour",
+          "recomputedDirectEUR": 65800,
+          "publishedDirectEUR": 65800,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 75670,
+          "publishedWithAllowanceEUR": 75670,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
         }
       ],
       "futureCheck": {
@@ -2680,88 +2770,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 740775,
-          "recomputedEUR": 740775,
-          "formula": "round(1245000 × 0.7 × 1 × 0.85) = 740775",
+          "publishedEUR": 747023,
+          "recomputedEUR": 747023,
+          "formula": "round(1255500 × 0.7 × 1 × 0.85) = 747023",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 859050,
-          "recomputedEUR": 859050,
-          "formula": "round(1245000 × 0.6 × 1 × 1.15) = 859050",
+          "publishedEUR": 866295,
+          "recomputedEUR": 866295,
+          "formula": "round(1255500 × 0.6 × 1 × 1.15) = 866295",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 253691,
-          "recomputedEUR": 253691,
-          "formula": "round(1245000 × 1.25 × 0.95 × 0.25 × 0.85 × 0.95 × 0.85) = 253691",
+          "publishedEUR": 255830,
+          "recomputedEUR": 255830,
+          "formula": "round(1255500 × 1.25 × 0.95 × 0.25 × 0.85 × 0.95 × 0.85) = 255830",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 720007,
-          "recomputedEUR": 720007,
-          "formula": "round(1245000 × 0.25 + 740775 × 0.2 + 859050 × 0.2 + 253691 × 0.35) = 720007",
+          "publishedEUR": 726079,
+          "recomputedEUR": 726079,
+          "formula": "round(1255500 × 0.25 + 747023 × 0.2 + 866295 × 0.2 + 255830 × 0.35) = 726079",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 228000,
-          "publishedUSD": 250070,
-          "convertedUSD": 250070,
+          "eur": 231000,
+          "publishedUSD": 253361,
+          "convertedUSD": 253361,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 182400,
-          "publishedUSD": 200056,
-          "convertedUSD": 200056,
+          "eur": 184800,
+          "publishedUSD": 202689,
+          "convertedUSD": 202689,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 285000,
-          "publishedUSD": 312588,
-          "convertedUSD": 312588,
+          "eur": 288750,
+          "publishedUSD": 316701,
+          "convertedUSD": 316701,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 1245000,
-          "publishedUSD": 1365516,
-          "convertedUSD": 1365516,
+          "eur": 1255500,
+          "publishedUSD": 1377032,
+          "convertedUSD": 1377032,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 740775,
-          "publishedUSD": 812482,
-          "convertedUSD": 812482,
+          "eur": 747023,
+          "publishedUSD": 819335,
+          "convertedUSD": 819335,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 859050,
-          "publishedUSD": 942206,
-          "convertedUSD": 942206,
+          "eur": 866295,
+          "publishedUSD": 950152,
+          "convertedUSD": 950152,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 253691,
-          "publishedUSD": 278248,
-          "convertedUSD": 278248,
+          "eur": 255830,
+          "publishedUSD": 280594,
+          "convertedUSD": 280594,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 720007,
-          "publishedUSD": 789704,
-          "convertedUSD": 789704,
+          "eur": 726079,
+          "publishedUSD": 796363,
+          "convertedUSD": 796363,
           "match": true
         }
       ],
@@ -2834,6 +2924,21 @@
           "allowance": 0.15,
           "recomputedWithAllowanceEUR": 5188.8,
           "publishedWithAllowanceEUR": 5188.8,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
+        },
+        {
+          "budgetIndex": 5,
+          "method": "100 hours × EUR 94/hour",
+          "recomputedDirectEUR": 9400,
+          "publishedDirectEUR": 9400,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 10810,
+          "publishedWithAllowanceEUR": 10810,
           "directMatch": true,
           "allowanceMatch": true,
           "workPackagesMatch": true,
@@ -2970,88 +3075,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 962377,
-          "recomputedEUR": 962377,
-          "formula": "round(797000 × 1.15 × 1 × 1.05) = 962377",
+          "publishedEUR": 993169,
+          "recomputedEUR": 993169,
+          "formula": "round(822500 × 1.15 × 1 × 1.05) = 993169",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 1183545,
-          "recomputedEUR": 1183545,
-          "formula": "round(797000 × 1.35 × 1 × 1.1) = 1183545",
+          "publishedEUR": 1221413,
+          "recomputedEUR": 1221413,
+          "formula": "round(822500 × 1.35 × 1 × 1.1) = 1221413",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 970977,
-          "recomputedEUR": 970977,
-          "formula": "round(797000 × 2.75 × 0.95 × 0.55 × 0.85 × 0.95 × 1.05) = 970977",
+          "publishedEUR": 1002044,
+          "recomputedEUR": 1002044,
+          "formula": "round(822500 × 2.75 × 0.95 × 0.55 × 0.85 × 0.95 × 1.05) = 1002044",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 968276,
-          "recomputedEUR": 968276,
-          "formula": "round(797000 × 0.25 + 962377 × 0.2 + 1183545 × 0.2 + 970977 × 0.35) = 968276",
+          "publishedEUR": 999257,
+          "recomputedEUR": 999257,
+          "formula": "round(822500 × 0.25 + 993169 × 0.2 + 1221413 × 0.2 + 1002044 × 0.35) = 999257",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 240000,
-          "publishedUSD": 263232,
-          "convertedUSD": 263232,
+          "eur": 247500,
+          "publishedUSD": 271458,
+          "convertedUSD": 271458,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 194000,
-          "publishedUSD": 212779,
-          "convertedUSD": 212779,
+          "eur": 200000,
+          "publishedUSD": 219360,
+          "convertedUSD": 219360,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 301500,
-          "publishedUSD": 330685,
-          "convertedUSD": 330685,
+          "eur": 310875,
+          "publishedUSD": 340968,
+          "convertedUSD": 340968,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 797000,
-          "publishedUSD": 874150,
-          "convertedUSD": 874150,
+          "eur": 822500,
+          "publishedUSD": 902118,
+          "convertedUSD": 902118,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 962377,
-          "publishedUSD": 1055535,
-          "convertedUSD": 1055535,
+          "eur": 993169,
+          "publishedUSD": 1089308,
+          "convertedUSD": 1089308,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 1183545,
-          "publishedUSD": 1298112,
-          "convertedUSD": 1298112,
+          "eur": 1221413,
+          "publishedUSD": 1339646,
+          "convertedUSD": 1339646,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 970977,
-          "publishedUSD": 1064968,
-          "convertedUSD": 1064968,
+          "eur": 1002044,
+          "publishedUSD": 1099042,
+          "convertedUSD": 1099042,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 968276,
-          "publishedUSD": 1062005,
-          "convertedUSD": 1062005,
+          "eur": 999257,
+          "publishedUSD": 1095985,
+          "convertedUSD": 1095985,
           "match": true
         }
       ],
@@ -3064,6 +3169,21 @@
           "allowance": 0.15,
           "recomputedWithAllowanceEUR": 17296,
           "publishedWithAllowanceEUR": 17296,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
+        },
+        {
+          "budgetIndex": 1,
+          "method": "240 hours × EUR 94/hour",
+          "recomputedDirectEUR": 22560,
+          "publishedDirectEUR": 22560,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 25944,
+          "publishedWithAllowanceEUR": 25944,
           "directMatch": true,
           "allowanceMatch": true,
           "workPackagesMatch": true,
@@ -3293,97 +3413,113 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 268813,
-          "recomputedEUR": 268813,
-          "formula": "round(250000 × 1.15 × 0.85 × 1.1) = 268813",
+          "publishedEUR": 536012,
+          "recomputedEUR": 536012,
+          "formula": "round(498500 × 1.15 × 0.85 × 1.1) = 536012",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 291094,
-          "recomputedEUR": 291094,
-          "formula": "round(250000 × 1.35 × 0.75 × 1.15) = 291094",
+          "publishedEUR": 580441,
+          "recomputedEUR": 580441,
+          "formula": "round(498500 × 1.35 × 0.75 × 1.15) = 580441",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 225386,
-          "recomputedEUR": 225386,
-          "formula": "round(250000 × 2.75 × 0.75 × 0.55 × 0.85 × 0.85 × 1.1) = 225386",
+          "publishedEUR": 449420,
+          "recomputedEUR": 449420,
+          "formula": "round(498500 × 2.75 × 0.75 × 0.55 × 0.85 × 0.85 × 1.1) = 449420",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 253367,
-          "recomputedEUR": 253367,
-          "formula": "round(250000 × 0.25 + 268813 × 0.2 + 291094 × 0.2 + 225386 × 0.35) = 253367",
+          "publishedEUR": 505213,
+          "recomputedEUR": 505213,
+          "formula": "round(498500 × 0.25 + 536012 × 0.2 + 580441 × 0.2 + 449420 × 0.35) = 505213",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 20000,
-          "publishedUSD": 21936,
-          "convertedUSD": 21936,
+          "eur": 94500,
+          "publishedUSD": 103648,
+          "convertedUSD": 103648,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 15000,
-          "publishedUSD": 16452,
-          "convertedUSD": 16452,
+          "eur": 74600,
+          "publishedUSD": 81821,
+          "convertedUSD": 81821,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 25000,
-          "publishedUSD": 27420,
-          "convertedUSD": 27420,
+          "eur": 118125,
+          "publishedUSD": 129560,
+          "convertedUSD": 129560,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 250000,
-          "publishedUSD": 274200,
-          "convertedUSD": 274200,
+          "eur": 498500,
+          "publishedUSD": 546755,
+          "convertedUSD": 546755,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 268813,
-          "publishedUSD": 294834,
-          "convertedUSD": 294834,
+          "eur": 536012,
+          "publishedUSD": 587898,
+          "convertedUSD": 587898,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 291094,
-          "publishedUSD": 319272,
-          "convertedUSD": 319272,
+          "eur": 580441,
+          "publishedUSD": 636628,
+          "convertedUSD": 636628,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 225386,
-          "publishedUSD": 247203,
-          "convertedUSD": 247203,
+          "eur": 449420,
+          "publishedUSD": 492924,
+          "convertedUSD": 492924,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 253367,
-          "publishedUSD": 277893,
-          "convertedUSD": 277893,
+          "eur": 505213,
+          "publishedUSD": 554118,
+          "convertedUSD": 554118,
           "match": true
         }
       ],
-      "budgetChecks": [],
+      "budgetChecks": [
+        {
+          "budgetIndex": 0,
+          "method": "2300 hours × EUR 94/hour",
+          "recomputedDirectEUR": 216200,
+          "publishedDirectEUR": 216200,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 248630,
+          "publishedWithAllowanceEUR": 248630,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
+        }
+      ],
       "futureCheck": {
         "applicable": true,
-        "publishedEUR": 315052,
-        "recomputedEUR": 315052,
-        "deltaEUR": 61685,
+        "publishedEUR": 628213,
+        "recomputedEUR": 628213,
+        "deltaEUR": 123000,
         "match": true
       }
     },
@@ -3604,88 +3740,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 980505,
-          "recomputedEUR": 980505,
-          "formula": "round(1210500 × 0.9 × 1 × 0.9) = 980505",
+          "publishedEUR": 1001160,
+          "recomputedEUR": 1001160,
+          "formula": "round(1236000 × 0.9 × 1 × 0.9) = 1001160",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 926033,
-          "recomputedEUR": 926033,
-          "formula": "round(1210500 × 0.9 × 1 × 0.85) = 926033",
+          "publishedEUR": 945540,
+          "recomputedEUR": 945540,
+          "formula": "round(1236000 × 0.9 × 1 × 0.85) = 945540",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 585021,
-          "recomputedEUR": 585021,
-          "formula": "round(1210500 × 1.75 × 0.95 × 0.4 × 0.85 × 0.95 × 0.9) = 585021",
+          "publishedEUR": 597345,
+          "recomputedEUR": 597345,
+          "formula": "round(1236000 × 1.75 × 0.95 × 0.4 × 0.85 × 0.95 × 0.9) = 597345",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 888690,
-          "recomputedEUR": 888690,
-          "formula": "round(1210500 × 0.25 + 980505 × 0.2 + 926033 × 0.2 + 585021 × 0.35) = 888690",
+          "publishedEUR": 907411,
+          "recomputedEUR": 907411,
+          "formula": "round(1236000 × 0.25 + 1001160 × 0.2 + 945540 × 0.2 + 597345 × 0.35) = 907411",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 253000,
-          "publishedUSD": 277490,
-          "convertedUSD": 277490,
+          "eur": 260500,
+          "publishedUSD": 285716,
+          "convertedUSD": 285716,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 202400,
-          "publishedUSD": 221992,
-          "convertedUSD": 221992,
+          "eur": 208400,
+          "publishedUSD": 228573,
+          "convertedUSD": 228573,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 316250,
-          "publishedUSD": 346863,
-          "convertedUSD": 346863,
+          "eur": 325625,
+          "publishedUSD": 357146,
+          "convertedUSD": 357146,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 1210500,
-          "publishedUSD": 1327676,
-          "convertedUSD": 1327676,
+          "eur": 1236000,
+          "publishedUSD": 1355645,
+          "convertedUSD": 1355645,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 980505,
-          "publishedUSD": 1075418,
-          "convertedUSD": 1075418,
+          "eur": 1001160,
+          "publishedUSD": 1098072,
+          "convertedUSD": 1098072,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 926033,
-          "publishedUSD": 1015673,
-          "convertedUSD": 1015673,
+          "eur": 945540,
+          "publishedUSD": 1037068,
+          "convertedUSD": 1037068,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 585021,
-          "publishedUSD": 641651,
-          "convertedUSD": 641651,
+          "eur": 597345,
+          "publishedUSD": 655168,
+          "convertedUSD": 655168,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 888690,
-          "publishedUSD": 974715,
-          "convertedUSD": 974715,
+          "eur": 907411,
+          "publishedUSD": 995248,
+          "convertedUSD": 995248,
           "match": true
         }
       ],
@@ -3698,6 +3834,21 @@
           "allowance": 0.15,
           "recomputedWithAllowanceEUR": 10810,
           "publishedWithAllowanceEUR": 10810,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
+        },
+        {
+          "budgetIndex": 1,
+          "method": "240 hours × EUR 94/hour",
+          "recomputedDirectEUR": 22560,
+          "publishedDirectEUR": 22560,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 25944,
+          "publishedWithAllowanceEUR": 25944,
           "directMatch": true,
           "allowanceMatch": true,
           "workPackagesMatch": true,
@@ -3818,97 +3969,113 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 591388,
-          "recomputedEUR": 591388,
-          "formula": "round(550000 × 1.15 × 0.85 × 1.1) = 591388",
+          "publishedEUR": 639774,
+          "recomputedEUR": 639774,
+          "formula": "round(595000 × 1.15 × 0.85 × 1.1) = 639774",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 640406,
-          "recomputedEUR": 640406,
-          "formula": "round(550000 × 1.35 × 0.75 × 1.15) = 640406",
+          "publishedEUR": 692803,
+          "recomputedEUR": 692803,
+          "formula": "round(595000 × 1.35 × 0.75 × 1.15) = 692803",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 495849,
-          "recomputedEUR": 495849,
-          "formula": "round(550000 × 2.75 × 0.75 × 0.55 × 0.85 × 0.85 × 1.1) = 495849",
+          "publishedEUR": 536419,
+          "recomputedEUR": 536419,
+          "formula": "round(595000 × 2.75 × 0.75 × 0.55 × 0.85 × 0.85 × 1.1) = 536419",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 557406,
-          "recomputedEUR": 557406,
-          "formula": "round(550000 × 0.25 + 591388 × 0.2 + 640406 × 0.2 + 495849 × 0.35) = 557406",
+          "publishedEUR": 603012,
+          "recomputedEUR": 603012,
+          "formula": "round(595000 × 0.25 + 639774 × 0.2 + 692803 × 0.2 + 536419 × 0.35) = 603012",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 100000,
-          "publishedUSD": 109680,
-          "convertedUSD": 109680,
+          "eur": 113500,
+          "publishedUSD": 124487,
+          "convertedUSD": 124487,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 80000,
-          "publishedUSD": 87744,
-          "convertedUSD": 87744,
+          "eur": 90800,
+          "publishedUSD": 99589,
+          "convertedUSD": 99589,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 125000,
-          "publishedUSD": 137100,
-          "convertedUSD": 137100,
+          "eur": 141875,
+          "publishedUSD": 155609,
+          "convertedUSD": 155609,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 550000,
-          "publishedUSD": 603240,
-          "convertedUSD": 603240,
+          "eur": 595000,
+          "publishedUSD": 652596,
+          "convertedUSD": 652596,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 591388,
-          "publishedUSD": 648634,
-          "convertedUSD": 648634,
+          "eur": 639774,
+          "publishedUSD": 701704,
+          "convertedUSD": 701704,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 640406,
-          "publishedUSD": 702397,
-          "convertedUSD": 702397,
+          "eur": 692803,
+          "publishedUSD": 759866,
+          "convertedUSD": 759866,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 495849,
-          "publishedUSD": 543847,
-          "convertedUSD": 543847,
+          "eur": 536419,
+          "publishedUSD": 588344,
+          "convertedUSD": 588344,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 557406,
-          "publishedUSD": 611363,
-          "convertedUSD": 611363,
+          "eur": 603012,
+          "publishedUSD": 661384,
+          "convertedUSD": 661384,
           "match": true
         }
       ],
-      "budgetChecks": [],
+      "budgetChecks": [
+        {
+          "budgetIndex": 0,
+          "method": "420 hours × EUR 94/hour",
+          "recomputedDirectEUR": 39480,
+          "publishedDirectEUR": 39480,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 45402,
+          "publishedWithAllowanceEUR": 45402,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
+        }
+      ],
       "futureCheck": {
         "applicable": true,
-        "publishedEUR": 693113,
-        "recomputedEUR": 693113,
-        "deltaEUR": 135707,
+        "publishedEUR": 749823,
+        "recomputedEUR": 749823,
+        "deltaEUR": 146811,
         "match": true
       }
     },
@@ -4265,97 +4432,113 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 336600,
-          "recomputedEUR": 336600,
-          "formula": "round(400000 × 0.9 × 0.85 × 1.1) = 336600",
+          "publishedEUR": 563805,
+          "recomputedEUR": 563805,
+          "formula": "round(670000 × 0.9 × 0.85 × 1.1) = 563805",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 229500,
-          "recomputedEUR": 229500,
-          "formula": "round(400000 × 0.9 × 0.75 × 0.85) = 229500",
+          "publishedEUR": 384413,
+          "recomputedEUR": 384413,
+          "formula": "round(670000 × 0.9 × 0.75 × 0.85) = 384413",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 166898,
-          "recomputedEUR": 166898,
-          "formula": "round(400000 × 1.75 × 0.75 × 0.4 × 0.85 × 0.85 × 1.1) = 166898",
+          "publishedEUR": 279553,
+          "recomputedEUR": 279553,
+          "formula": "round(670000 × 1.75 × 0.75 × 0.4 × 0.85 × 0.85 × 1.1) = 279553",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 271634,
-          "recomputedEUR": 271634,
-          "formula": "round(400000 × 0.25 + 336600 × 0.2 + 229500 × 0.2 + 166898 × 0.35) = 271634",
+          "publishedEUR": 454987,
+          "recomputedEUR": 454987,
+          "formula": "round(670000 × 0.25 + 563805 × 0.2 + 384413 × 0.2 + 279553 × 0.35) = 454987",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 45000,
-          "publishedUSD": 49356,
-          "convertedUSD": 49356,
+          "eur": 126000,
+          "publishedUSD": 138197,
+          "convertedUSD": 138197,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 35000,
-          "publishedUSD": 38388,
-          "convertedUSD": 38388,
+          "eur": 99800,
+          "publishedUSD": 109461,
+          "convertedUSD": 109461,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 55000,
-          "publishedUSD": 60324,
-          "convertedUSD": 60324,
+          "eur": 156250,
+          "publishedUSD": 171375,
+          "convertedUSD": 171375,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 400000,
-          "publishedUSD": 438720,
-          "convertedUSD": 438720,
+          "eur": 670000,
+          "publishedUSD": 734856,
+          "convertedUSD": 734856,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 336600,
-          "publishedUSD": 369183,
-          "convertedUSD": 369183,
+          "eur": 563805,
+          "publishedUSD": 618381,
+          "convertedUSD": 618381,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 229500,
-          "publishedUSD": 251716,
-          "convertedUSD": 251716,
+          "eur": 384413,
+          "publishedUSD": 421624,
+          "convertedUSD": 421624,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 166898,
-          "publishedUSD": 183054,
-          "convertedUSD": 183054,
+          "eur": 279553,
+          "publishedUSD": 306614,
+          "convertedUSD": 306614,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 271634,
-          "publishedUSD": 297928,
-          "convertedUSD": 297928,
+          "eur": 454987,
+          "publishedUSD": 499030,
+          "convertedUSD": 499030,
           "match": true
         }
       ],
-      "budgetChecks": [],
+      "budgetChecks": [
+        {
+          "budgetIndex": 0,
+          "method": "2500 hours × EUR 94/hour",
+          "recomputedDirectEUR": 235000,
+          "publishedDirectEUR": 235000,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 270250,
+          "publishedWithAllowanceEUR": 270250,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
+        }
+      ],
       "futureCheck": {
         "applicable": true,
-        "publishedEUR": 323096,
-        "recomputedEUR": 323096,
-        "deltaEUR": 51462,
+        "publishedEUR": 541186,
+        "recomputedEUR": 541186,
+        "deltaEUR": 86199,
         "match": true
       }
     },
@@ -5032,88 +5215,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 3401527,
-          "recomputedEUR": 3401527,
-          "formula": "round(2817000 × 1.15 × 1 × 1.05) = 3401527",
+          "publishedEUR": 3435337,
+          "recomputedEUR": 3435337,
+          "formula": "round(2845000 × 1.15 × 1 × 1.05) = 3435337",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 4183245,
-          "recomputedEUR": 4183245,
-          "formula": "round(2817000 × 1.35 × 1 × 1.1) = 4183245",
+          "publishedEUR": 4224825,
+          "recomputedEUR": 4224825,
+          "formula": "round(2845000 × 1.35 × 1 × 1.1) = 4224825",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 3431924,
-          "recomputedEUR": 3431924,
-          "formula": "round(2817000 × 2.75 × 0.95 × 0.55 × 0.85 × 0.95 × 1.05) = 3431924",
+          "publishedEUR": 3466036,
+          "recomputedEUR": 3466036,
+          "formula": "round(2845000 × 2.75 × 0.95 × 0.55 × 0.85 × 0.95 × 1.05) = 3466036",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 3422378,
-          "recomputedEUR": 3422378,
-          "formula": "round(2817000 × 0.25 + 3401527 × 0.2 + 4183245 × 0.2 + 3431924 × 0.35) = 3422378",
+          "publishedEUR": 3456395,
+          "recomputedEUR": 3456395,
+          "formula": "round(2845000 × 0.25 + 3435337 × 0.2 + 4224825 × 0.2 + 3466036 × 0.35) = 3456395",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 655000,
-          "publishedUSD": 718404,
-          "convertedUSD": 718404,
+          "eur": 663000,
+          "publishedUSD": 727178,
+          "convertedUSD": 727178,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 524000,
-          "publishedUSD": 574723,
-          "convertedUSD": 574723,
+          "eur": 530400,
+          "publishedUSD": 581743,
+          "convertedUSD": 581743,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 818750,
-          "publishedUSD": 898005,
-          "convertedUSD": 898005,
+          "eur": 828750,
+          "publishedUSD": 908973,
+          "convertedUSD": 908973,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 2817000,
-          "publishedUSD": 3089686,
-          "convertedUSD": 3089686,
+          "eur": 2845000,
+          "publishedUSD": 3120396,
+          "convertedUSD": 3120396,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 3401527,
-          "publishedUSD": 3730795,
-          "convertedUSD": 3730795,
+          "eur": 3435337,
+          "publishedUSD": 3767878,
+          "convertedUSD": 3767878,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 4183245,
-          "publishedUSD": 4588183,
-          "convertedUSD": 4588183,
+          "eur": 4224825,
+          "publishedUSD": 4633788,
+          "convertedUSD": 4633788,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 3431924,
-          "publishedUSD": 3764134,
-          "convertedUSD": 3764134,
+          "eur": 3466036,
+          "publishedUSD": 3801548,
+          "convertedUSD": 3801548,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 3422378,
-          "publishedUSD": 3753664,
-          "convertedUSD": 3753664,
+          "eur": 3456395,
+          "publishedUSD": 3790974,
+          "convertedUSD": 3790974,
           "match": true
         }
       ],
@@ -5126,6 +5309,21 @@
           "allowance": 0.15,
           "recomputedWithAllowanceEUR": 17296,
           "publishedWithAllowanceEUR": 17296,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
+        },
+        {
+          "budgetIndex": 1,
+          "method": "260 hours × EUR 94/hour",
+          "recomputedDirectEUR": 24440,
+          "publishedDirectEUR": 24440,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 28106,
+          "publishedWithAllowanceEUR": 28106,
           "directMatch": true,
           "allowanceMatch": true,
           "workPackagesMatch": true,
@@ -5242,92 +5440,108 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 2700000,
-          "recomputedEUR": 2700000,
-          "formula": "round(1800000 × 1.5 × 1 × 1) = 2700000",
+          "publishedEUR": 2732250,
+          "recomputedEUR": 2732250,
+          "formula": "round(1821500 × 1.5 × 1 × 1) = 2732250",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 3960000,
-          "recomputedEUR": 3960000,
-          "formula": "round(1800000 × 2 × 1 × 1.1) = 3960000",
+          "publishedEUR": 4007300,
+          "recomputedEUR": 4007300,
+          "formula": "round(1821500 × 2 × 1 × 1.1) = 4007300",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 4349599,
-          "recomputedEUR": 4349599,
-          "formula": "round(1800000 × 4.5 × 0.95 × 0.7 × 0.85 × 0.95 × 1) = 4349599",
+          "publishedEUR": 4401552,
+          "recomputedEUR": 4401552,
+          "formula": "round(1821500 × 4.5 × 0.95 × 0.7 × 0.85 × 0.95 × 1) = 4401552",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 3304360,
-          "recomputedEUR": 3304360,
-          "formula": "round(1800000 × 0.25 + 2700000 × 0.2 + 3960000 × 0.2 + 4349599 × 0.35) = 3304360",
+          "publishedEUR": 3343828,
+          "recomputedEUR": 3343828,
+          "formula": "round(1821500 × 0.25 + 2732250 × 0.2 + 4007300 × 0.2 + 4401552 × 0.35) = 3343828",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 650000,
-          "publishedUSD": 712920,
-          "convertedUSD": 712920,
+          "eur": 656000,
+          "publishedUSD": 719501,
+          "convertedUSD": 719501,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 520000,
-          "publishedUSD": 570336,
-          "convertedUSD": 570336,
+          "eur": 524800,
+          "publishedUSD": 575601,
+          "convertedUSD": 575601,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 815000,
-          "publishedUSD": 893892,
-          "convertedUSD": 893892,
+          "eur": 822500,
+          "publishedUSD": 902118,
+          "convertedUSD": 902118,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 1800000,
-          "publishedUSD": 1974240,
-          "convertedUSD": 1974240,
+          "eur": 1821500,
+          "publishedUSD": 1997821,
+          "convertedUSD": 1997821,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 2700000,
-          "publishedUSD": 2961360,
-          "convertedUSD": 2961360,
+          "eur": 2732250,
+          "publishedUSD": 2996732,
+          "convertedUSD": 2996732,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 3960000,
-          "publishedUSD": 4343328,
-          "convertedUSD": 4343328,
+          "eur": 4007300,
+          "publishedUSD": 4395207,
+          "convertedUSD": 4395207,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 4349599,
-          "publishedUSD": 4770640,
-          "convertedUSD": 4770640,
+          "eur": 4401552,
+          "publishedUSD": 4827622,
+          "convertedUSD": 4827622,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 3304360,
-          "publishedUSD": 3624222,
-          "convertedUSD": 3624222,
+          "eur": 3343828,
+          "publishedUSD": 3667511,
+          "convertedUSD": 3667511,
           "match": true
         }
       ],
-      "budgetChecks": [],
+      "budgetChecks": [
+        {
+          "budgetIndex": 0,
+          "method": "200 hours × EUR 94/hour",
+          "recomputedDirectEUR": 18800,
+          "publishedDirectEUR": 18800,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 21620,
+          "publishedWithAllowanceEUR": 21620,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
+        }
+      ],
       "futureCheck": {
         "applicable": false
       }
@@ -5440,88 +5654,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 1391500,
-          "recomputedEUR": 1391500,
-          "formula": "round(1210000 × 1.15 × 1 × 1) = 1391500",
+          "publishedEUR": 1413350,
+          "recomputedEUR": 1413350,
+          "formula": "round(1229000 × 1.15 × 1 × 1) = 1413350",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 1796850,
-          "recomputedEUR": 1796850,
-          "formula": "round(1210000 × 1.35 × 1 × 1.1) = 1796850",
+          "publishedEUR": 1825065,
+          "recomputedEUR": 1825065,
+          "formula": "round(1229000 × 1.35 × 1 × 1.1) = 1825065",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 1403935,
-          "recomputedEUR": 1403935,
-          "formula": "round(1210000 × 2.75 × 0.95 × 0.55 × 0.85 × 0.95 × 1) = 1403935",
+          "publishedEUR": 1425980,
+          "recomputedEUR": 1425980,
+          "formula": "round(1229000 × 2.75 × 0.95 × 0.55 × 0.85 × 0.95 × 1) = 1425980",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 1431547,
-          "recomputedEUR": 1431547,
-          "formula": "round(1210000 × 0.25 + 1391500 × 0.2 + 1796850 × 0.2 + 1403935 × 0.35) = 1431547",
+          "publishedEUR": 1454026,
+          "recomputedEUR": 1454026,
+          "formula": "round(1229000 × 0.25 + 1413350 × 0.2 + 1825065 × 0.2 + 1425980 × 0.35) = 1454026",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 303000,
-          "publishedUSD": 332330,
-          "convertedUSD": 332330,
+          "eur": 308500,
+          "publishedUSD": 338363,
+          "convertedUSD": 338363,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 242400,
-          "publishedUSD": 265864,
-          "convertedUSD": 265864,
+          "eur": 246800,
+          "publishedUSD": 270690,
+          "convertedUSD": 270690,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 378750,
-          "publishedUSD": 415413,
-          "convertedUSD": 415413,
+          "eur": 385625,
+          "publishedUSD": 422954,
+          "convertedUSD": 422954,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 1210000,
-          "publishedUSD": 1327128,
-          "convertedUSD": 1327128,
+          "eur": 1229000,
+          "publishedUSD": 1347967,
+          "convertedUSD": 1347967,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 1391500,
-          "publishedUSD": 1526197,
-          "convertedUSD": 1526197,
+          "eur": 1413350,
+          "publishedUSD": 1550162,
+          "convertedUSD": 1550162,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 1796850,
-          "publishedUSD": 1970785,
-          "convertedUSD": 1970785,
+          "eur": 1825065,
+          "publishedUSD": 2001731,
+          "convertedUSD": 2001731,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 1403935,
-          "publishedUSD": 1539836,
-          "convertedUSD": 1539836,
+          "eur": 1425980,
+          "publishedUSD": 1564015,
+          "convertedUSD": 1564015,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 1431547,
-          "publishedUSD": 1570121,
-          "convertedUSD": 1570121,
+          "eur": 1454026,
+          "publishedUSD": 1594776,
+          "convertedUSD": 1594776,
           "match": true
         }
       ],
@@ -5534,6 +5748,21 @@
           "allowance": 0.15,
           "recomputedWithAllowanceEUR": 10377.6,
           "publishedWithAllowanceEUR": 10377.6,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
+        },
+        {
+          "budgetIndex": 1,
+          "method": "180 hours × EUR 94/hour",
+          "recomputedDirectEUR": 16920,
+          "publishedDirectEUR": 16920,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 19458,
+          "publishedWithAllowanceEUR": 19458,
           "directMatch": true,
           "allowanceMatch": true,
           "workPackagesMatch": true,
@@ -5670,88 +5899,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 807300,
-          "recomputedEUR": 807300,
-          "formula": "round(702000 × 1.15 × 1 × 1) = 807300",
+          "publishedEUR": 839500,
+          "recomputedEUR": 839500,
+          "formula": "round(730000 × 1.15 × 1 × 1) = 839500",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 1042470,
-          "recomputedEUR": 1042470,
-          "formula": "round(702000 × 1.35 × 1 × 1.1) = 1042470",
+          "publishedEUR": 1084050,
+          "recomputedEUR": 1084050,
+          "formula": "round(730000 × 1.35 × 1 × 1.1) = 1084050",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 814514,
-          "recomputedEUR": 814514,
-          "formula": "round(702000 × 2.75 × 0.95 × 0.55 × 0.85 × 0.95 × 1) = 814514",
+          "publishedEUR": 847002,
+          "recomputedEUR": 847002,
+          "formula": "round(730000 × 2.75 × 0.95 × 0.55 × 0.85 × 0.95 × 1) = 847002",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 830534,
-          "recomputedEUR": 830534,
-          "formula": "round(702000 × 0.25 + 807300 × 0.2 + 1042470 × 0.2 + 814514 × 0.35) = 830534",
+          "publishedEUR": 863661,
+          "recomputedEUR": 863661,
+          "formula": "round(730000 × 0.25 + 839500 × 0.2 + 1084050 × 0.2 + 847002 × 0.35) = 863661",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 174500,
-          "publishedUSD": 191392,
-          "convertedUSD": 191392,
+          "eur": 182500,
+          "publishedUSD": 200166,
+          "convertedUSD": 200166,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 139600,
-          "publishedUSD": 153113,
-          "convertedUSD": 153113,
+          "eur": 146000,
+          "publishedUSD": 160133,
+          "convertedUSD": 160133,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 218125,
-          "publishedUSD": 239240,
-          "convertedUSD": 239240,
+          "eur": 228125,
+          "publishedUSD": 250208,
+          "convertedUSD": 250208,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 702000,
-          "publishedUSD": 769954,
-          "convertedUSD": 769954,
+          "eur": 730000,
+          "publishedUSD": 800664,
+          "convertedUSD": 800664,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 807300,
-          "publishedUSD": 885447,
-          "convertedUSD": 885447,
+          "eur": 839500,
+          "publishedUSD": 920764,
+          "convertedUSD": 920764,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 1042470,
-          "publishedUSD": 1143381,
-          "convertedUSD": 1143381,
+          "eur": 1084050,
+          "publishedUSD": 1188986,
+          "convertedUSD": 1188986,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 814514,
-          "publishedUSD": 893359,
-          "convertedUSD": 893359,
+          "eur": 847002,
+          "publishedUSD": 928992,
+          "convertedUSD": 928992,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 830534,
-          "publishedUSD": 910930,
-          "convertedUSD": 910930,
+          "eur": 863661,
+          "publishedUSD": 947263,
+          "convertedUSD": 947263,
           "match": true
         }
       ],
@@ -5779,6 +6008,21 @@
           "allowance": 0.15,
           "recomputedWithAllowanceEUR": 30268,
           "publishedWithAllowanceEUR": 30268,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
+        },
+        {
+          "budgetIndex": 2,
+          "method": "260 hours × EUR 94/hour",
+          "recomputedDirectEUR": 24440,
+          "publishedDirectEUR": 24440,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 28106,
+          "publishedWithAllowanceEUR": 28106,
           "directMatch": true,
           "allowanceMatch": true,
           "workPackagesMatch": true,
@@ -6008,88 +6252,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 2364285,
-          "recomputedEUR": 2364285,
-          "formula": "round(1869000 × 1.15 × 1 × 1.1) = 2364285",
+          "publishedEUR": 2383260,
+          "recomputedEUR": 2383260,
+          "formula": "round(1884000 × 1.15 × 1 × 1.1) = 2383260",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 2901623,
-          "recomputedEUR": 2901623,
-          "formula": "round(1869000 × 1.35 × 1 × 1.15) = 2901623",
+          "publishedEUR": 2924910,
+          "recomputedEUR": 2924910,
+          "formula": "round(1884000 × 1.35 × 1 × 1.15) = 2924910",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 2385413,
-          "recomputedEUR": 2385413,
-          "formula": "round(1869000 × 2.75 × 0.95 × 0.55 × 0.85 × 0.95 × 1.1) = 2385413",
+          "publishedEUR": 2404557,
+          "recomputedEUR": 2404557,
+          "formula": "round(1884000 × 2.75 × 0.95 × 0.55 × 0.85 × 0.95 × 1.1) = 2404557",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 2355326,
-          "recomputedEUR": 2355326,
-          "formula": "round(1869000 × 0.25 + 2364285 × 0.2 + 2901623 × 0.2 + 2385413 × 0.35) = 2355326",
+          "publishedEUR": 2374229,
+          "recomputedEUR": 2374229,
+          "formula": "round(1884000 × 0.25 + 2383260 × 0.2 + 2924910 × 0.2 + 2404557 × 0.35) = 2374229",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 519000,
-          "publishedUSD": 569239,
-          "convertedUSD": 569239,
+          "eur": 523500,
+          "publishedUSD": 574175,
+          "convertedUSD": 574175,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 415500,
-          "publishedUSD": 455720,
-          "convertedUSD": 455720,
+          "eur": 419100,
+          "publishedUSD": 459669,
+          "convertedUSD": 459669,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 649000,
-          "publishedUSD": 711823,
-          "convertedUSD": 711823,
+          "eur": 654625,
+          "publishedUSD": 717993,
+          "convertedUSD": 717993,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 1869000,
-          "publishedUSD": 2049919,
-          "convertedUSD": 2049919,
+          "eur": 1884000,
+          "publishedUSD": 2066371,
+          "convertedUSD": 2066371,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 2364285,
-          "publishedUSD": 2593148,
-          "convertedUSD": 2593148,
+          "eur": 2383260,
+          "publishedUSD": 2613960,
+          "convertedUSD": 2613960,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 2901623,
-          "publishedUSD": 3182500,
-          "convertedUSD": 3182500,
+          "eur": 2924910,
+          "publishedUSD": 3208041,
+          "convertedUSD": 3208041,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 2385413,
-          "publishedUSD": 2616321,
-          "convertedUSD": 2616321,
+          "eur": 2404557,
+          "publishedUSD": 2637318,
+          "convertedUSD": 2637318,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 2355326,
-          "publishedUSD": 2583322,
-          "convertedUSD": 2583322,
+          "eur": 2374229,
+          "publishedUSD": 2604054,
+          "convertedUSD": 2604054,
           "match": true
         }
       ],
@@ -6102,6 +6346,21 @@
           "allowance": 0.15,
           "recomputedWithAllowanceEUR": 69184,
           "publishedWithAllowanceEUR": 69184,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
+        },
+        {
+          "budgetIndex": 1,
+          "method": "140 hours × EUR 94/hour",
+          "recomputedDirectEUR": 13160,
+          "publishedDirectEUR": 13160,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 15134,
+          "publishedWithAllowanceEUR": 15134,
           "directMatch": true,
           "allowanceMatch": true,
           "workPackagesMatch": true,
@@ -7155,88 +7414,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 1089892,
-          "recomputedEUR": 1089892,
-          "formula": "round(1325500 × 1.15 × 0.65 × 1.1) = 1089892",
+          "publishedEUR": 1112915,
+          "recomputedEUR": 1112915,
+          "formula": "round(1353500 × 1.15 × 0.65 × 1.1) = 1112915",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 760506,
-          "recomputedEUR": 760506,
-          "formula": "round(1325500 × 1.35 × 0.5 × 0.85) = 760506",
+          "publishedEUR": 776571,
+          "recomputedEUR": 776571,
+          "formula": "round(1353500 × 1.35 × 0.5 × 0.85) = 776571",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 656077,
-          "recomputedEUR": 656077,
-          "formula": "round(1325500 × 2.75 × 0.5 × 0.55 × 0.85 × 0.7 × 1.1) = 656077",
+          "publishedEUR": 669936,
+          "recomputedEUR": 669936,
+          "formula": "round(1353500 × 2.75 × 0.5 × 0.55 × 0.85 × 0.7 × 1.1) = 669936",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 931082,
-          "recomputedEUR": 931082,
-          "formula": "round(1325500 × 0.25 + 1089892 × 0.2 + 760506 × 0.2 + 656077 × 0.35) = 931082",
+          "publishedEUR": 950750,
+          "recomputedEUR": 950750,
+          "formula": "round(1353500 × 0.25 + 1112915 × 0.2 + 776571 × 0.2 + 669936 × 0.35) = 950750",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 87500,
-          "publishedUSD": 95970,
-          "convertedUSD": 95970,
+          "eur": 95500,
+          "publishedUSD": 104744,
+          "convertedUSD": 104744,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 70000,
-          "publishedUSD": 76776,
-          "convertedUSD": 76776,
+          "eur": 76400,
+          "publishedUSD": 83796,
+          "convertedUSD": 83796,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 109375,
-          "publishedUSD": 119963,
-          "convertedUSD": 119963,
+          "eur": 119375,
+          "publishedUSD": 130931,
+          "convertedUSD": 130931,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 1325500,
-          "publishedUSD": 1453808,
-          "convertedUSD": 1453808,
+          "eur": 1353500,
+          "publishedUSD": 1484519,
+          "convertedUSD": 1484519,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 1089892,
-          "publishedUSD": 1195394,
-          "convertedUSD": 1195394,
+          "eur": 1112915,
+          "publishedUSD": 1220645,
+          "convertedUSD": 1220645,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 760506,
-          "publishedUSD": 834123,
-          "convertedUSD": 834123,
+          "eur": 776571,
+          "publishedUSD": 851743,
+          "convertedUSD": 851743,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 656077,
-          "publishedUSD": 719585,
-          "convertedUSD": 719585,
+          "eur": 669936,
+          "publishedUSD": 734786,
+          "convertedUSD": 734786,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 931082,
-          "publishedUSD": 1021211,
-          "convertedUSD": 1021211,
+          "eur": 950750,
+          "publishedUSD": 1042783,
+          "convertedUSD": 1042783,
           "match": true
         }
       ],
@@ -7255,13 +7514,28 @@
           "adoptedIncrementMatch": true,
           "resultingAnchorMatch": true,
           "match": true
+        },
+        {
+          "budgetIndex": 1,
+          "method": "260 hours × EUR 94/hour",
+          "recomputedDirectEUR": 24440,
+          "publishedDirectEUR": 24440,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 28106,
+          "publishedWithAllowanceEUR": 28106,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
         }
       ],
       "futureCheck": {
         "applicable": true,
-        "publishedEUR": 1262824,
-        "recomputedEUR": 1262824,
-        "deltaEUR": 331742,
+        "publishedEUR": 1289501,
+        "recomputedEUR": 1289501,
+        "deltaEUR": 338751,
         "match": true
       }
     },
@@ -8469,97 +8743,113 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 1075250,
-          "recomputedEUR": 1075250,
-          "formula": "round(1000000 × 1.15 × 0.85 × 1.1) = 1075250",
+          "publishedEUR": 1109658,
+          "recomputedEUR": 1109658,
+          "formula": "round(1032000 × 1.15 × 0.85 × 1.1) = 1109658",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 860625,
-          "recomputedEUR": 860625,
-          "formula": "round(1000000 × 1.35 × 0.75 × 0.85) = 860625",
+          "publishedEUR": 888165,
+          "recomputedEUR": 888165,
+          "formula": "round(1032000 × 1.35 × 0.75 × 0.85) = 888165",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 901545,
-          "recomputedEUR": 901545,
-          "formula": "round(1000000 × 2.75 × 0.75 × 0.55 × 0.85 × 0.85 × 1.1) = 901545",
+          "publishedEUR": 930394,
+          "recomputedEUR": 930394,
+          "formula": "round(1032000 × 2.75 × 0.75 × 0.55 × 0.85 × 0.85 × 1.1) = 930394",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 952716,
-          "recomputedEUR": 952716,
-          "formula": "round(1000000 × 0.25 + 1075250 × 0.2 + 860625 × 0.2 + 901545 × 0.35) = 952716",
+          "publishedEUR": 983203,
+          "recomputedEUR": 983203,
+          "formula": "round(1032000 × 0.25 + 1109658 × 0.2 + 888165 × 0.2 + 930394 × 0.35) = 983203",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 190000,
-          "publishedUSD": 208392,
-          "convertedUSD": 208392,
+          "eur": 199500,
+          "publishedUSD": 218812,
+          "convertedUSD": 218812,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 150000,
-          "publishedUSD": 164520,
-          "convertedUSD": 164520,
+          "eur": 157600,
+          "publishedUSD": 172856,
+          "convertedUSD": 172856,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 240000,
-          "publishedUSD": 263232,
-          "convertedUSD": 263232,
+          "eur": 251875,
+          "publishedUSD": 276257,
+          "convertedUSD": 276257,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 1000000,
-          "publishedUSD": 1096800,
-          "convertedUSD": 1096800,
+          "eur": 1032000,
+          "publishedUSD": 1131898,
+          "convertedUSD": 1131898,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 1075250,
-          "publishedUSD": 1179334,
-          "convertedUSD": 1179334,
+          "eur": 1109658,
+          "publishedUSD": 1217073,
+          "convertedUSD": 1217073,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 860625,
-          "publishedUSD": 943934,
-          "convertedUSD": 943934,
+          "eur": 888165,
+          "publishedUSD": 974139,
+          "convertedUSD": 974139,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 901545,
-          "publishedUSD": 988815,
-          "convertedUSD": 988815,
+          "eur": 930394,
+          "publishedUSD": 1020456,
+          "convertedUSD": 1020456,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 952716,
-          "publishedUSD": 1044939,
-          "convertedUSD": 1044939,
+          "eur": 983203,
+          "publishedUSD": 1078377,
+          "convertedUSD": 1078377,
           "match": true
         }
       ],
-      "budgetChecks": [],
+      "budgetChecks": [
+        {
+          "budgetIndex": 0,
+          "method": "300 hours × EUR 94/hour",
+          "recomputedDirectEUR": 28200,
+          "publishedDirectEUR": 28200,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 32430,
+          "publishedWithAllowanceEUR": 32430,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
+        }
+      ],
       "futureCheck": {
         "applicable": true,
-        "publishedEUR": 1179206,
-        "recomputedEUR": 1179206,
-        "deltaEUR": 226490,
+        "publishedEUR": 1216941,
+        "recomputedEUR": 1216941,
+        "deltaEUR": 233738,
         "match": true
       }
     },
@@ -8570,88 +8860,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 3365044,
-          "recomputedEUR": 3365044,
-          "formula": "round(3442500 × 1.15 × 1 × 0.85) = 3365044",
+          "publishedEUR": 3383616,
+          "recomputedEUR": 3383616,
+          "formula": "round(3461500 × 1.15 × 1 × 0.85) = 3383616",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 3950269,
-          "recomputedEUR": 3950269,
-          "formula": "round(3442500 × 1.35 × 1 × 0.85) = 3950269",
+          "publishedEUR": 3972071,
+          "recomputedEUR": 3972071,
+          "formula": "round(3461500 × 1.35 × 1 × 0.85) = 3972071",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 3395114,
-          "recomputedEUR": 3395114,
-          "formula": "round(3442500 × 2.75 × 0.95 × 0.55 × 0.85 × 0.95 × 0.85) = 3395114",
+          "publishedEUR": 3413853,
+          "recomputedEUR": 3413853,
+          "formula": "round(3461500 × 2.75 × 0.95 × 0.55 × 0.85 × 0.95 × 0.85) = 3413853",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 3511978,
-          "recomputedEUR": 3511978,
-          "formula": "round(3442500 × 0.25 + 3365044 × 0.2 + 3950269 × 0.2 + 3395114 × 0.35) = 3511978",
+          "publishedEUR": 3531361,
+          "recomputedEUR": 3531361,
+          "formula": "round(3461500 × 0.25 + 3383616 × 0.2 + 3972071 × 0.2 + 3413853 × 0.35) = 3531361",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 965500,
-          "publishedUSD": 1058960,
-          "convertedUSD": 1058960,
+          "eur": 971000,
+          "publishedUSD": 1064993,
+          "convertedUSD": 1064993,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 772400,
-          "publishedUSD": 847168,
-          "convertedUSD": 847168,
+          "eur": 776800,
+          "publishedUSD": 851994,
+          "convertedUSD": 851994,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 1206875,
-          "publishedUSD": 1323701,
-          "convertedUSD": 1323701,
+          "eur": 1213750,
+          "publishedUSD": 1331241,
+          "convertedUSD": 1331241,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 3442500,
-          "publishedUSD": 3775734,
-          "convertedUSD": 3775734,
+          "eur": 3461500,
+          "publishedUSD": 3796573,
+          "convertedUSD": 3796573,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 3365044,
-          "publishedUSD": 3690780,
-          "convertedUSD": 3690780,
+          "eur": 3383616,
+          "publishedUSD": 3711150,
+          "convertedUSD": 3711150,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 3950269,
-          "publishedUSD": 4332655,
-          "convertedUSD": 4332655,
+          "eur": 3972071,
+          "publishedUSD": 4356567,
+          "convertedUSD": 4356567,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 3395114,
-          "publishedUSD": 3723761,
-          "convertedUSD": 3723761,
+          "eur": 3413853,
+          "publishedUSD": 3744314,
+          "convertedUSD": 3744314,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 3511978,
-          "publishedUSD": 3851937,
-          "convertedUSD": 3851937,
+          "eur": 3531361,
+          "publishedUSD": 3873197,
+          "convertedUSD": 3873197,
           "match": true
         }
       ],
@@ -8745,6 +9035,21 @@
           "adoptedIncrementMatch": true,
           "resultingAnchorMatch": true,
           "match": true
+        },
+        {
+          "budgetIndex": 6,
+          "method": "180 hours × EUR 94/hour",
+          "recomputedDirectEUR": 16920,
+          "publishedDirectEUR": 16920,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 19458,
+          "publishedWithAllowanceEUR": 19458,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
         }
       ],
       "futureCheck": {
@@ -8758,88 +9063,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 1070582,
-          "recomputedEUR": 1070582,
-          "formula": "round(1288500 × 1.15 × 0.85 × 0.85) = 1070582",
+          "publishedEUR": 1080968,
+          "recomputedEUR": 1080968,
+          "formula": "round(1301000 × 1.15 × 0.85 × 0.85) = 1080968",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 1108915,
-          "recomputedEUR": 1108915,
-          "formula": "round(1288500 × 1.35 × 0.75 × 0.85) = 1108915",
+          "publishedEUR": 1119673,
+          "recomputedEUR": 1119673,
+          "formula": "round(1301000 × 1.35 × 0.75 × 0.85) = 1119673",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 897631,
-          "recomputedEUR": 897631,
-          "formula": "round(1288500 × 2.75 × 0.75 × 0.55 × 0.85 × 0.85 × 0.85) = 897631",
+          "publishedEUR": 906339,
+          "recomputedEUR": 906339,
+          "formula": "round(1301000 × 2.75 × 0.75 × 0.55 × 0.85 × 0.85 × 0.85) = 906339",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 1072195,
-          "recomputedEUR": 1072195,
-          "formula": "round(1288500 × 0.25 + 1070582 × 0.2 + 1108915 × 0.2 + 897631 × 0.35) = 1072195",
+          "publishedEUR": 1082597,
+          "recomputedEUR": 1082597,
+          "formula": "round(1301000 × 0.25 + 1080968 × 0.2 + 1119673 × 0.2 + 906339 × 0.35) = 1082597",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 261500,
-          "publishedUSD": 286813,
-          "convertedUSD": 286813,
+          "eur": 265000,
+          "publishedUSD": 290652,
+          "convertedUSD": 290652,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 209200,
-          "publishedUSD": 229451,
-          "convertedUSD": 229451,
+          "eur": 212000,
+          "publishedUSD": 232522,
+          "convertedUSD": 232522,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 326875,
-          "publishedUSD": 358517,
-          "convertedUSD": 358517,
+          "eur": 331250,
+          "publishedUSD": 363315,
+          "convertedUSD": 363315,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 1288500,
-          "publishedUSD": 1413227,
-          "convertedUSD": 1413227,
+          "eur": 1301000,
+          "publishedUSD": 1426937,
+          "convertedUSD": 1426937,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 1070582,
-          "publishedUSD": 1174214,
-          "convertedUSD": 1174214,
+          "eur": 1080968,
+          "publishedUSD": 1185606,
+          "convertedUSD": 1185606,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 1108915,
-          "publishedUSD": 1216258,
-          "convertedUSD": 1216258,
+          "eur": 1119673,
+          "publishedUSD": 1228057,
+          "convertedUSD": 1228057,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 897631,
-          "publishedUSD": 984522,
-          "convertedUSD": 984522,
+          "eur": 906339,
+          "publishedUSD": 994073,
+          "convertedUSD": 994073,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 1072195,
-          "publishedUSD": 1175983,
-          "convertedUSD": 1175983,
+          "eur": 1082597,
+          "publishedUSD": 1187392,
+          "convertedUSD": 1187392,
           "match": true
         }
       ],
@@ -8858,13 +9163,28 @@
           "adoptedIncrementMatch": true,
           "resultingAnchorMatch": true,
           "match": true
+        },
+        {
+          "budgetIndex": 1,
+          "method": "120 hours × EUR 94/hour",
+          "recomputedDirectEUR": 11280,
+          "publishedDirectEUR": 11280,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 12972,
+          "publishedWithAllowanceEUR": 12972,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
         }
       ],
       "futureCheck": {
         "applicable": true,
-        "publishedEUR": 1314505,
-        "recomputedEUR": 1314505,
-        "deltaEUR": 242310,
+        "publishedEUR": 1327257,
+        "recomputedEUR": 1327257,
+        "deltaEUR": 244660,
         "match": true
       }
     },
@@ -8875,88 +9195,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 2148143,
-          "recomputedEUR": 2148143,
-          "formula": "round(1779000 × 1.15 × 1 × 1.05) = 2148143",
+          "publishedEUR": 2180745,
+          "recomputedEUR": 2180745,
+          "formula": "round(1806000 × 1.15 × 1 × 1.05) = 2180745",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 2641815,
-          "recomputedEUR": 2641815,
-          "formula": "round(1779000 × 1.35 × 1 × 1.1) = 2641815",
+          "publishedEUR": 2681910,
+          "recomputedEUR": 2681910,
+          "formula": "round(1806000 × 1.35 × 1 × 1.1) = 2681910",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 2167339,
-          "recomputedEUR": 2167339,
-          "formula": "round(1779000 × 2.75 × 0.95 × 0.55 × 0.85 × 0.95 × 1.05) = 2167339",
+          "publishedEUR": 2200232,
+          "recomputedEUR": 2200232,
+          "formula": "round(1806000 × 2.75 × 0.95 × 0.55 × 0.85 × 0.95 × 1.05) = 2200232",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 2161310,
-          "recomputedEUR": 2161310,
-          "formula": "round(1779000 × 0.25 + 2148143 × 0.2 + 2641815 × 0.2 + 2167339 × 0.35) = 2161310",
+          "publishedEUR": 2194112,
+          "recomputedEUR": 2194112,
+          "formula": "round(1806000 × 0.25 + 2180745 × 0.2 + 2681910 × 0.2 + 2200232 × 0.35) = 2194112",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 433500,
-          "publishedUSD": 475463,
-          "convertedUSD": 475463,
+          "eur": 441500,
+          "publishedUSD": 484237,
+          "convertedUSD": 484237,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 346800,
-          "publishedUSD": 380370,
-          "convertedUSD": 380370,
+          "eur": 353200,
+          "publishedUSD": 387390,
+          "convertedUSD": 387390,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 541875,
-          "publishedUSD": 594329,
-          "convertedUSD": 594329,
+          "eur": 551875,
+          "publishedUSD": 605297,
+          "convertedUSD": 605297,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 1779000,
-          "publishedUSD": 1951207,
-          "convertedUSD": 1951207,
+          "eur": 1806000,
+          "publishedUSD": 1980821,
+          "convertedUSD": 1980821,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 2148143,
-          "publishedUSD": 2356083,
-          "convertedUSD": 2356083,
+          "eur": 2180745,
+          "publishedUSD": 2391841,
+          "convertedUSD": 2391841,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 2641815,
-          "publishedUSD": 2897543,
-          "convertedUSD": 2897543,
+          "eur": 2681910,
+          "publishedUSD": 2941519,
+          "convertedUSD": 2941519,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 2167339,
-          "publishedUSD": 2377137,
-          "convertedUSD": 2377137,
+          "eur": 2200232,
+          "publishedUSD": 2413214,
+          "convertedUSD": 2413214,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 2161310,
-          "publishedUSD": 2370525,
-          "convertedUSD": 2370525,
+          "eur": 2194112,
+          "publishedUSD": 2406502,
+          "convertedUSD": 2406502,
           "match": true
         }
       ],
@@ -8990,6 +9310,21 @@
           "adoptedIncrementMatch": true,
           "resultingAnchorMatch": true,
           "match": true
+        },
+        {
+          "budgetIndex": 2,
+          "method": "250 hours × EUR 94/hour",
+          "recomputedDirectEUR": 23500,
+          "publishedDirectEUR": 23500,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 27025,
+          "publishedWithAllowanceEUR": 27025,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
         }
       ],
       "futureCheck": {
@@ -9003,88 +9338,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 1242000,
-          "recomputedEUR": 1242000,
-          "formula": "round(1200000 × 1.15 × 1 × 0.9) = 1242000",
+          "publishedEUR": 1264253,
+          "recomputedEUR": 1264253,
+          "formula": "round(1221500 × 1.15 × 1 × 0.9) = 1264253",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 1377000,
-          "recomputedEUR": 1377000,
-          "formula": "round(1200000 × 1.35 × 1 × 0.85) = 1377000",
+          "publishedEUR": 1401671,
+          "recomputedEUR": 1401671,
+          "formula": "round(1221500 × 1.35 × 1 × 0.85) = 1401671",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 1253099,
-          "recomputedEUR": 1253099,
-          "formula": "round(1200000 × 2.75 × 0.95 × 0.55 × 0.85 × 0.95 × 0.9) = 1253099",
+          "publishedEUR": 1275550,
+          "recomputedEUR": 1275550,
+          "formula": "round(1221500 × 2.75 × 0.95 × 0.55 × 0.85 × 0.95 × 0.9) = 1275550",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 1262385,
-          "recomputedEUR": 1262385,
-          "formula": "round(1200000 × 0.25 + 1242000 × 0.2 + 1377000 × 0.2 + 1253099 × 0.35) = 1262385",
+          "publishedEUR": 1285002,
+          "recomputedEUR": 1285002,
+          "formula": "round(1221500 × 0.25 + 1264253 × 0.2 + 1401671 × 0.2 + 1275550 × 0.35) = 1285002",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 300000,
-          "publishedUSD": 329040,
-          "convertedUSD": 329040,
+          "eur": 306000,
+          "publishedUSD": 335621,
+          "convertedUSD": 335621,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 240000,
-          "publishedUSD": 263232,
-          "convertedUSD": 263232,
+          "eur": 244800,
+          "publishedUSD": 268497,
+          "convertedUSD": 268497,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 375000,
-          "publishedUSD": 411300,
-          "convertedUSD": 411300,
+          "eur": 382500,
+          "publishedUSD": 419526,
+          "convertedUSD": 419526,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 1200000,
-          "publishedUSD": 1316160,
-          "convertedUSD": 1316160,
+          "eur": 1221500,
+          "publishedUSD": 1339741,
+          "convertedUSD": 1339741,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 1242000,
-          "publishedUSD": 1362226,
-          "convertedUSD": 1362226,
+          "eur": 1264253,
+          "publishedUSD": 1386633,
+          "convertedUSD": 1386633,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 1377000,
-          "publishedUSD": 1510294,
-          "convertedUSD": 1510294,
+          "eur": 1401671,
+          "publishedUSD": 1537353,
+          "convertedUSD": 1537353,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 1253099,
-          "publishedUSD": 1374399,
-          "convertedUSD": 1374399,
+          "eur": 1275550,
+          "publishedUSD": 1399023,
+          "convertedUSD": 1399023,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 1262385,
-          "publishedUSD": 1384584,
-          "convertedUSD": 1384584,
+          "eur": 1285002,
+          "publishedUSD": 1409390,
+          "convertedUSD": 1409390,
           "match": true
         }
       ],
@@ -9097,6 +9432,21 @@
           "allowance": 0.15,
           "recomputedWithAllowanceEUR": 216200,
           "publishedWithAllowanceEUR": 216200,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
+        },
+        {
+          "budgetIndex": 1,
+          "method": "200 hours × EUR 94/hour",
+          "recomputedDirectEUR": 18800,
+          "publishedDirectEUR": 18800,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 21620,
+          "publishedWithAllowanceEUR": 21620,
           "directMatch": true,
           "allowanceMatch": true,
           "workPackagesMatch": true,
@@ -10380,88 +10730,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 941772,
-          "recomputedEUR": 941772,
-          "formula": "round(1070500 × 1.15 × 0.85 × 0.9) = 941772",
+          "publishedEUR": 951010,
+          "recomputedEUR": 951010,
+          "formula": "round(1081000 × 1.15 × 0.85 × 0.9) = 951010",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 921299,
-          "recomputedEUR": 921299,
-          "formula": "round(1070500 × 1.35 × 0.75 × 0.85) = 921299",
+          "publishedEUR": 930336,
+          "recomputedEUR": 930336,
+          "formula": "round(1081000 × 1.35 × 0.75 × 0.85) = 930336",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 789630,
-          "recomputedEUR": 789630,
-          "formula": "round(1070500 × 2.75 × 0.75 × 0.55 × 0.85 × 0.85 × 0.9) = 789630",
+          "publishedEUR": 797375,
+          "recomputedEUR": 797375,
+          "formula": "round(1081000 × 2.75 × 0.75 × 0.55 × 0.85 × 0.85 × 0.9) = 797375",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 916610,
-          "recomputedEUR": 916610,
-          "formula": "round(1070500 × 0.25 + 941772 × 0.2 + 921299 × 0.2 + 789630 × 0.35) = 916610",
+          "publishedEUR": 925600,
+          "recomputedEUR": 925600,
+          "formula": "round(1081000 × 0.25 + 951010 × 0.2 + 930336 × 0.2 + 797375 × 0.35) = 925600",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 131000,
-          "publishedUSD": 143681,
-          "convertedUSD": 143681,
+          "eur": 134000,
+          "publishedUSD": 146971,
+          "convertedUSD": 146971,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 104800,
-          "publishedUSD": 114945,
-          "convertedUSD": 114945,
+          "eur": 107200,
+          "publishedUSD": 117577,
+          "convertedUSD": 117577,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 163750,
-          "publishedUSD": 179601,
-          "convertedUSD": 179601,
+          "eur": 167500,
+          "publishedUSD": 183714,
+          "convertedUSD": 183714,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 1070500,
-          "publishedUSD": 1174124,
-          "convertedUSD": 1174124,
+          "eur": 1081000,
+          "publishedUSD": 1185641,
+          "convertedUSD": 1185641,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 941772,
-          "publishedUSD": 1032936,
-          "convertedUSD": 1032936,
+          "eur": 951010,
+          "publishedUSD": 1043068,
+          "convertedUSD": 1043068,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 921299,
-          "publishedUSD": 1010481,
-          "convertedUSD": 1010481,
+          "eur": 930336,
+          "publishedUSD": 1020393,
+          "convertedUSD": 1020393,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 789630,
-          "publishedUSD": 866066,
-          "convertedUSD": 866066,
+          "eur": 797375,
+          "publishedUSD": 874561,
+          "convertedUSD": 874561,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 916610,
-          "publishedUSD": 1005338,
-          "convertedUSD": 1005338,
+          "eur": 925600,
+          "publishedUSD": 1015198,
+          "convertedUSD": 1015198,
           "match": true
         }
       ],
@@ -10495,13 +10845,28 @@
           "adoptedIncrementMatch": true,
           "resultingAnchorMatch": true,
           "match": true
+        },
+        {
+          "budgetIndex": 2,
+          "method": "100 hours × EUR 94/hour",
+          "recomputedDirectEUR": 9400,
+          "publishedDirectEUR": 9400,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 10810,
+          "publishedWithAllowanceEUR": 10810,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
         }
       ],
       "futureCheck": {
         "applicable": true,
-        "publishedEUR": 1126152,
-        "recomputedEUR": 1126152,
-        "deltaEUR": 209542,
+        "publishedEUR": 1137198,
+        "recomputedEUR": 1137198,
+        "deltaEUR": 211598,
         "match": true
       }
     },
@@ -10512,88 +10877,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 939550,
-          "recomputedEUR": 939550,
-          "formula": "round(817000 × 1.15 × 1 × 1) = 939550",
+          "publishedEUR": 968875,
+          "recomputedEUR": 968875,
+          "formula": "round(842500 × 1.15 × 1 × 1) = 968875",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 1213245,
-          "recomputedEUR": 1213245,
-          "formula": "round(817000 × 1.35 × 1 × 1.1) = 1213245",
+          "publishedEUR": 1251113,
+          "recomputedEUR": 1251113,
+          "formula": "round(842500 × 1.35 × 1 × 1.1) = 1251113",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 947946,
-          "recomputedEUR": 947946,
-          "formula": "round(817000 × 2.75 × 0.95 × 0.55 × 0.85 × 0.95 × 1) = 947946",
+          "publishedEUR": 977533,
+          "recomputedEUR": 977533,
+          "formula": "round(842500 × 2.75 × 0.95 × 0.55 × 0.85 × 0.95 × 1) = 977533",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 966590,
-          "recomputedEUR": 966590,
-          "formula": "round(817000 × 0.25 + 939550 × 0.2 + 1213245 × 0.2 + 947946 × 0.35) = 966590",
+          "publishedEUR": 996759,
+          "recomputedEUR": 996759,
+          "formula": "round(842500 × 0.25 + 968875 × 0.2 + 1251113 × 0.2 + 977533 × 0.35) = 996759",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 185000,
-          "publishedUSD": 202908,
-          "convertedUSD": 202908,
+          "eur": 192500,
+          "publishedUSD": 211134,
+          "convertedUSD": 211134,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 148000,
-          "publishedUSD": 162326,
-          "convertedUSD": 162326,
+          "eur": 154000,
+          "publishedUSD": 168907,
+          "convertedUSD": 168907,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 231250,
-          "publishedUSD": 253635,
-          "convertedUSD": 253635,
+          "eur": 240625,
+          "publishedUSD": 263918,
+          "convertedUSD": 263918,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 817000,
-          "publishedUSD": 896086,
-          "convertedUSD": 896086,
+          "eur": 842500,
+          "publishedUSD": 924054,
+          "convertedUSD": 924054,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 939550,
-          "publishedUSD": 1030498,
-          "convertedUSD": 1030498,
+          "eur": 968875,
+          "publishedUSD": 1062662,
+          "convertedUSD": 1062662,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 1213245,
-          "publishedUSD": 1330687,
-          "convertedUSD": 1330687,
+          "eur": 1251113,
+          "publishedUSD": 1372221,
+          "convertedUSD": 1372221,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 947946,
-          "publishedUSD": 1039707,
-          "convertedUSD": 1039707,
+          "eur": 977533,
+          "publishedUSD": 1072158,
+          "convertedUSD": 1072158,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 966590,
-          "publishedUSD": 1060156,
-          "convertedUSD": 1060156,
+          "eur": 996759,
+          "publishedUSD": 1093245,
+          "convertedUSD": 1093245,
           "match": true
         }
       ],
@@ -10621,6 +10986,21 @@
           "allowance": 0.15,
           "recomputedWithAllowanceEUR": 17296,
           "publishedWithAllowanceEUR": 17296,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
+        },
+        {
+          "budgetIndex": 2,
+          "method": "240 hours × EUR 94/hour",
+          "recomputedDirectEUR": 22560,
+          "publishedDirectEUR": 22560,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 25944,
+          "publishedWithAllowanceEUR": 25944,
           "directMatch": true,
           "allowanceMatch": true,
           "workPackagesMatch": true,
@@ -10798,88 +11178,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 171092,
-          "recomputedEUR": 171092,
-          "formula": "round(213000 × 0.9 × 0.85 × 1.05) = 171092",
+          "publishedEUR": 186354,
+          "recomputedEUR": 186354,
+          "formula": "round(232000 × 0.9 × 0.85 × 1.05) = 186354",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 122209,
-          "recomputedEUR": 122209,
-          "formula": "round(213000 × 0.9 × 0.75 × 0.85) = 122209",
+          "publishedEUR": 133110,
+          "recomputedEUR": 133110,
+          "formula": "round(232000 × 0.9 × 0.75 × 0.85) = 133110",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 84833,
-          "recomputedEUR": 84833,
-          "formula": "round(213000 × 1.75 × 0.75 × 0.4 × 0.85 × 0.85 × 1.05) = 84833",
+          "publishedEUR": 92401,
+          "recomputedEUR": 92401,
+          "formula": "round(232000 × 1.75 × 0.75 × 0.4 × 0.85 × 0.85 × 1.05) = 92401",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 141602,
-          "recomputedEUR": 141602,
-          "formula": "round(213000 × 0.25 + 171092 × 0.2 + 122209 × 0.2 + 84833 × 0.35) = 141602",
+          "publishedEUR": 154233,
+          "recomputedEUR": 154233,
+          "formula": "round(232000 × 0.25 + 186354 × 0.2 + 133110 × 0.2 + 92401 × 0.35) = 154233",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 64000,
-          "publishedUSD": 70195,
-          "convertedUSD": 70195,
+          "eur": 69500,
+          "publishedUSD": 76228,
+          "convertedUSD": 76228,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 50500,
-          "publishedUSD": 55388,
-          "convertedUSD": 55388,
+          "eur": 54900,
+          "publishedUSD": 60214,
+          "convertedUSD": 60214,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 80000,
-          "publishedUSD": 87744,
-          "convertedUSD": 87744,
+          "eur": 86875,
+          "publishedUSD": 95285,
+          "convertedUSD": 95285,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 213000,
-          "publishedUSD": 233618,
-          "convertedUSD": 233618,
+          "eur": 232000,
+          "publishedUSD": 254458,
+          "convertedUSD": 254458,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 171092,
-          "publishedUSD": 187654,
-          "convertedUSD": 187654,
+          "eur": 186354,
+          "publishedUSD": 204393,
+          "convertedUSD": 204393,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 122209,
-          "publishedUSD": 134039,
-          "convertedUSD": 134039,
+          "eur": 133110,
+          "publishedUSD": 145995,
+          "convertedUSD": 145995,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 84833,
-          "publishedUSD": 93045,
-          "convertedUSD": 93045,
+          "eur": 92401,
+          "publishedUSD": 101345,
+          "convertedUSD": 101345,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 141602,
-          "publishedUSD": 155309,
-          "convertedUSD": 155309,
+          "eur": 154233,
+          "publishedUSD": 169163,
+          "convertedUSD": 169163,
           "match": true
         }
       ],
@@ -10958,13 +11338,28 @@
           "adoptedIncrementMatch": true,
           "resultingAnchorMatch": true,
           "match": true
+        },
+        {
+          "budgetIndex": 5,
+          "method": "180 hours × EUR 94/hour",
+          "recomputedDirectEUR": 16920,
+          "publishedDirectEUR": 16920,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 19458,
+          "publishedWithAllowanceEUR": 19458,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
         }
       ],
       "futureCheck": {
         "applicable": true,
-        "publishedEUR": 168130,
-        "recomputedEUR": 168130,
-        "deltaEUR": 26528,
+        "publishedEUR": 183128,
+        "recomputedEUR": 183128,
+        "deltaEUR": 28895,
         "match": true
       }
     },
@@ -10975,88 +11370,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 210375,
-          "recomputedEUR": 210375,
-          "formula": "round(250000 × 0.9 × 0.85 × 1.1) = 210375",
+          "publishedEUR": 248243,
+          "recomputedEUR": 248243,
+          "formula": "round(295000 × 0.9 × 0.85 × 1.1) = 248243",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 194062,
-          "recomputedEUR": 194062,
-          "formula": "round(250000 × 0.9 × 0.75 × 1.15) = 194062",
+          "publishedEUR": 228994,
+          "recomputedEUR": 228994,
+          "formula": "round(295000 × 0.9 × 0.75 × 1.15) = 228994",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 104311,
-          "recomputedEUR": 104311,
-          "formula": "round(250000 × 1.75 × 0.75 × 0.4 × 0.85 × 0.85 × 1.1) = 104311",
+          "publishedEUR": 123087,
+          "recomputedEUR": 123087,
+          "formula": "round(295000 × 1.75 × 0.75 × 0.4 × 0.85 × 0.85 × 1.1) = 123087",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 179896,
-          "recomputedEUR": 179896,
-          "formula": "round(250000 × 0.25 + 210375 × 0.2 + 194062 × 0.2 + 104311 × 0.35) = 179896",
+          "publishedEUR": 212278,
+          "recomputedEUR": 212278,
+          "formula": "round(295000 × 0.25 + 248243 × 0.2 + 228994 × 0.2 + 123087 × 0.35) = 212278",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 75000,
-          "publishedUSD": 82260,
-          "convertedUSD": 82260,
+          "eur": 88500,
+          "publishedUSD": 97067,
+          "convertedUSD": 97067,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 60000,
-          "publishedUSD": 65808,
-          "convertedUSD": 65808,
+          "eur": 70800,
+          "publishedUSD": 77653,
+          "convertedUSD": 77653,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 93750,
-          "publishedUSD": 102825,
-          "convertedUSD": 102825,
+          "eur": 110625,
+          "publishedUSD": 121334,
+          "convertedUSD": 121334,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 250000,
-          "publishedUSD": 274200,
-          "convertedUSD": 274200,
+          "eur": 295000,
+          "publishedUSD": 323556,
+          "convertedUSD": 323556,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 210375,
-          "publishedUSD": 230739,
-          "convertedUSD": 230739,
+          "eur": 248243,
+          "publishedUSD": 272273,
+          "convertedUSD": 272273,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 194062,
-          "publishedUSD": 212847,
-          "convertedUSD": 212847,
+          "eur": 228994,
+          "publishedUSD": 251161,
+          "convertedUSD": 251161,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 104311,
-          "publishedUSD": 114408,
-          "convertedUSD": 114408,
+          "eur": 123087,
+          "publishedUSD": 135002,
+          "convertedUSD": 135002,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 179896,
-          "publishedUSD": 197310,
-          "convertedUSD": 197310,
+          "eur": 212278,
+          "publishedUSD": 232827,
+          "convertedUSD": 232827,
           "match": true
         }
       ],
@@ -11075,13 +11470,28 @@
           "adoptedIncrementMatch": true,
           "resultingAnchorMatch": true,
           "match": true
+        },
+        {
+          "budgetIndex": 1,
+          "method": "420 hours × EUR 94/hour",
+          "recomputedDirectEUR": 39480,
+          "publishedDirectEUR": 39480,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 45402,
+          "publishedWithAllowanceEUR": 45402,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
         }
       ],
       "futureCheck": {
         "applicable": true,
-        "publishedEUR": 215435,
-        "recomputedEUR": 215435,
-        "deltaEUR": 35539,
+        "publishedEUR": 254213,
+        "recomputedEUR": 254213,
+        "deltaEUR": 41935,
         "match": true
       }
     },
@@ -11092,88 +11502,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 34425,
-          "recomputedEUR": 34425,
-          "formula": "round(50000 × 0.9 × 0.85 × 0.9) = 34425",
+          "publishedEUR": 60932,
+          "recomputedEUR": 60932,
+          "formula": "round(88500 × 0.9 × 0.85 × 0.9) = 60932",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 28688,
-          "recomputedEUR": 28688,
-          "formula": "round(50000 × 0.9 × 0.75 × 0.85) = 28688",
+          "publishedEUR": 50777,
+          "recomputedEUR": 50777,
+          "formula": "round(88500 × 0.9 × 0.75 × 0.85) = 50777",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 17069,
-          "recomputedEUR": 17069,
-          "formula": "round(50000 × 1.75 × 0.75 × 0.4 × 0.85 × 0.85 × 0.9) = 17069",
+          "publishedEUR": 30212,
+          "recomputedEUR": 30212,
+          "formula": "round(88500 × 1.75 × 0.75 × 0.4 × 0.85 × 0.85 × 0.9) = 30212",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 31097,
-          "recomputedEUR": 31097,
-          "formula": "round(50000 × 0.25 + 34425 × 0.2 + 28688 × 0.2 + 17069 × 0.35) = 31097",
+          "publishedEUR": 55041,
+          "recomputedEUR": 55041,
+          "formula": "round(88500 × 0.25 + 60932 × 0.2 + 50777 × 0.2 + 30212 × 0.35) = 55041",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 15000,
-          "publishedUSD": 16452,
-          "convertedUSD": 16452,
+          "eur": 26500,
+          "publishedUSD": 29065,
+          "convertedUSD": 29065,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 12000,
-          "publishedUSD": 13162,
-          "convertedUSD": 13162,
+          "eur": 21200,
+          "publishedUSD": 23252,
+          "convertedUSD": 23252,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 18750,
-          "publishedUSD": 20565,
-          "convertedUSD": 20565,
+          "eur": 33125,
+          "publishedUSD": 36332,
+          "convertedUSD": 36332,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 50000,
-          "publishedUSD": 54840,
-          "convertedUSD": 54840,
+          "eur": 88500,
+          "publishedUSD": 97067,
+          "convertedUSD": 97067,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 34425,
-          "publishedUSD": 37757,
-          "convertedUSD": 37757,
+          "eur": 60932,
+          "publishedUSD": 66830,
+          "convertedUSD": 66830,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 28688,
-          "publishedUSD": 31465,
-          "convertedUSD": 31465,
+          "eur": 50777,
+          "publishedUSD": 55692,
+          "convertedUSD": 55692,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 17069,
-          "publishedUSD": 18721,
-          "convertedUSD": 18721,
+          "eur": 30212,
+          "publishedUSD": 33137,
+          "convertedUSD": 33137,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 31097,
-          "publishedUSD": 34107,
-          "convertedUSD": 34107,
+          "eur": 55041,
+          "publishedUSD": 60369,
+          "convertedUSD": 60369,
           "match": true
         }
       ],
@@ -11192,13 +11602,28 @@
           "adoptedIncrementMatch": true,
           "resultingAnchorMatch": true,
           "match": true
+        },
+        {
+          "budgetIndex": 1,
+          "method": "360 hours × EUR 94/hour",
+          "recomputedDirectEUR": 33840,
+          "publishedDirectEUR": 33840,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 38916,
+          "publishedWithAllowanceEUR": 38916,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
         }
       ],
       "futureCheck": {
         "applicable": true,
-        "publishedEUR": 36707,
-        "recomputedEUR": 36707,
-        "deltaEUR": 5610,
+        "publishedEUR": 64972,
+        "recomputedEUR": 64972,
+        "deltaEUR": 9931,
         "match": true
       }
     },
@@ -11341,88 +11766,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 91800,
-          "recomputedEUR": 91800,
-          "formula": "round(120000 × 0.9 × 0.85 × 1) = 91800",
+          "publishedEUR": 108248,
+          "recomputedEUR": 108248,
+          "formula": "round(141500 × 0.9 × 0.85 × 1) = 108248",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 85050,
-          "recomputedEUR": 85050,
-          "formula": "round(120000 × 0.9 × 0.75 × 1.05) = 85050",
+          "publishedEUR": 100288,
+          "recomputedEUR": 100288,
+          "formula": "round(141500 × 0.9 × 0.75 × 1.05) = 100288",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 45518,
-          "recomputedEUR": 45518,
-          "formula": "round(120000 × 1.75 × 0.75 × 0.4 × 0.85 × 0.85 × 1) = 45518",
+          "publishedEUR": 53673,
+          "recomputedEUR": 53673,
+          "formula": "round(141500 × 1.75 × 0.75 × 0.4 × 0.85 × 0.85 × 1) = 53673",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 81301,
-          "recomputedEUR": 81301,
-          "formula": "round(120000 × 0.25 + 91800 × 0.2 + 85050 × 0.2 + 45518 × 0.35) = 81301",
+          "publishedEUR": 95868,
+          "recomputedEUR": 95868,
+          "formula": "round(141500 × 0.25 + 108248 × 0.2 + 100288 × 0.2 + 53673 × 0.35) = 95868",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 36000,
-          "publishedUSD": 39485,
-          "convertedUSD": 39485,
+          "eur": 42000,
+          "publishedUSD": 46066,
+          "convertedUSD": 46066,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 28800,
-          "publishedUSD": 31588,
-          "convertedUSD": 31588,
+          "eur": 33600,
+          "publishedUSD": 36852,
+          "convertedUSD": 36852,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 45000,
-          "publishedUSD": 49356,
-          "convertedUSD": 49356,
+          "eur": 52500,
+          "publishedUSD": 57582,
+          "convertedUSD": 57582,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 120000,
-          "publishedUSD": 131616,
-          "convertedUSD": 131616,
+          "eur": 141500,
+          "publishedUSD": 155197,
+          "convertedUSD": 155197,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 91800,
-          "publishedUSD": 100686,
-          "convertedUSD": 100686,
+          "eur": 108248,
+          "publishedUSD": 118726,
+          "convertedUSD": 118726,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 85050,
-          "publishedUSD": 93283,
-          "convertedUSD": 93283,
+          "eur": 100288,
+          "publishedUSD": 109996,
+          "convertedUSD": 109996,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 45518,
-          "publishedUSD": 49924,
-          "convertedUSD": 49924,
+          "eur": 53673,
+          "publishedUSD": 58869,
+          "convertedUSD": 58869,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 81301,
-          "publishedUSD": 89171,
-          "convertedUSD": 89171,
+          "eur": 95868,
+          "publishedUSD": 105148,
+          "convertedUSD": 105148,
           "match": true
         }
       ],
@@ -11441,13 +11866,28 @@
           "adoptedIncrementMatch": true,
           "resultingAnchorMatch": true,
           "match": true
+        },
+        {
+          "budgetIndex": 1,
+          "method": "200 hours × EUR 94/hour",
+          "recomputedDirectEUR": 18800,
+          "publishedDirectEUR": 18800,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 21620,
+          "publishedWithAllowanceEUR": 21620,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
         }
       ],
       "futureCheck": {
         "applicable": true,
-        "publishedEUR": 96834,
-        "recomputedEUR": 96834,
-        "deltaEUR": 15533,
+        "publishedEUR": 114183,
+        "recomputedEUR": 114183,
+        "deltaEUR": 18315,
         "match": true
       }
     },
@@ -11458,97 +11898,113 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 71528,
-          "recomputedEUR": 71528,
-          "formula": "round(110000 × 0.9 × 0.85 × 0.85) = 71528",
+          "publishedEUR": 86808,
+          "recomputedEUR": 86808,
+          "formula": "round(133500 × 0.9 × 0.85 × 0.85) = 86808",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 63113,
-          "recomputedEUR": 63113,
-          "formula": "round(110000 × 0.9 × 0.75 × 0.85) = 63113",
+          "publishedEUR": 76596,
+          "recomputedEUR": 76596,
+          "formula": "round(133500 × 0.9 × 0.75 × 0.85) = 76596",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 35466,
-          "recomputedEUR": 35466,
-          "formula": "round(110000 × 1.75 × 0.75 × 0.4 × 0.85 × 0.85 × 0.85) = 35466",
+          "publishedEUR": 43042,
+          "recomputedEUR": 43042,
+          "formula": "round(133500 × 1.75 × 0.75 × 0.4 × 0.85 × 0.85 × 0.85) = 43042",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 66841,
-          "recomputedEUR": 66841,
-          "formula": "round(110000 × 0.25 + 71528 × 0.2 + 63113 × 0.2 + 35466 × 0.35) = 66841",
+          "publishedEUR": 81121,
+          "recomputedEUR": 81121,
+          "formula": "round(133500 × 0.25 + 86808 × 0.2 + 76596 × 0.2 + 43042 × 0.35) = 81121",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 33000,
-          "publishedUSD": 36194,
-          "convertedUSD": 36194,
+          "eur": 40000,
+          "publishedUSD": 43872,
+          "convertedUSD": 43872,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 26400,
-          "publishedUSD": 28956,
-          "convertedUSD": 28956,
+          "eur": 32000,
+          "publishedUSD": 35098,
+          "convertedUSD": 35098,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 41250,
-          "publishedUSD": 45243,
-          "convertedUSD": 45243,
+          "eur": 50000,
+          "publishedUSD": 54840,
+          "convertedUSD": 54840,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 110000,
-          "publishedUSD": 120648,
-          "convertedUSD": 120648,
+          "eur": 133500,
+          "publishedUSD": 146423,
+          "convertedUSD": 146423,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 71528,
-          "publishedUSD": 78452,
-          "convertedUSD": 78452,
+          "eur": 86808,
+          "publishedUSD": 95211,
+          "convertedUSD": 95211,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 63113,
-          "publishedUSD": 69222,
-          "convertedUSD": 69222,
+          "eur": 76596,
+          "publishedUSD": 84010,
+          "convertedUSD": 84010,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 35466,
-          "publishedUSD": 38899,
-          "convertedUSD": 38899,
+          "eur": 43042,
+          "publishedUSD": 47208,
+          "convertedUSD": 47208,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 66841,
-          "publishedUSD": 73311,
-          "convertedUSD": 73311,
+          "eur": 81121,
+          "publishedUSD": 88974,
+          "convertedUSD": 88974,
           "match": true
         }
       ],
-      "budgetChecks": [],
+      "budgetChecks": [
+        {
+          "budgetIndex": 0,
+          "method": "220 hours × EUR 94/hour",
+          "recomputedDirectEUR": 20680,
+          "publishedDirectEUR": 20680,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 23782,
+          "publishedWithAllowanceEUR": 23782,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
+        }
+      ],
       "futureCheck": {
         "applicable": true,
-        "publishedEUR": 78733,
-        "recomputedEUR": 78733,
-        "deltaEUR": 11892,
+        "publishedEUR": 95553,
+        "recomputedEUR": 95553,
+        "deltaEUR": 14432,
         "match": true
       }
     },
@@ -11660,88 +12116,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 82620,
-          "recomputedEUR": 82620,
-          "formula": "round(108000 × 0.9 × 0.85 × 1) = 82620",
+          "publishedEUR": 100598,
+          "recomputedEUR": 100598,
+          "formula": "round(131500 × 0.9 × 0.85 × 1) = 100598",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 76545,
-          "recomputedEUR": 76545,
-          "formula": "round(108000 × 0.9 × 0.75 × 1.05) = 76545",
+          "publishedEUR": 93201,
+          "recomputedEUR": 93201,
+          "formula": "round(131500 × 0.9 × 0.75 × 1.05) = 93201",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 40966,
-          "recomputedEUR": 40966,
-          "formula": "round(108000 × 1.75 × 0.75 × 0.4 × 0.85 × 0.85 × 1) = 40966",
+          "publishedEUR": 49880,
+          "recomputedEUR": 49880,
+          "formula": "round(131500 × 1.75 × 0.75 × 0.4 × 0.85 × 0.85 × 1) = 49880",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 73171,
-          "recomputedEUR": 73171,
-          "formula": "round(108000 × 0.25 + 82620 × 0.2 + 76545 × 0.2 + 40966 × 0.35) = 73171",
+          "publishedEUR": 89093,
+          "recomputedEUR": 89093,
+          "formula": "round(131500 × 0.25 + 100598 × 0.2 + 93201 × 0.2 + 49880 × 0.35) = 89093",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 32000,
-          "publishedUSD": 35098,
-          "convertedUSD": 35098,
+          "eur": 39000,
+          "publishedUSD": 42775,
+          "convertedUSD": 42775,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 25600,
-          "publishedUSD": 28078,
-          "convertedUSD": 28078,
+          "eur": 31200,
+          "publishedUSD": 34220,
+          "convertedUSD": 34220,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 40000,
-          "publishedUSD": 43872,
-          "convertedUSD": 43872,
+          "eur": 48750,
+          "publishedUSD": 53469,
+          "convertedUSD": 53469,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 108000,
-          "publishedUSD": 118454,
-          "convertedUSD": 118454,
+          "eur": 131500,
+          "publishedUSD": 144229,
+          "convertedUSD": 144229,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 82620,
-          "publishedUSD": 90618,
-          "convertedUSD": 90618,
+          "eur": 100598,
+          "publishedUSD": 110336,
+          "convertedUSD": 110336,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 76545,
-          "publishedUSD": 83955,
-          "convertedUSD": 83955,
+          "eur": 93201,
+          "publishedUSD": 102223,
+          "convertedUSD": 102223,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 40966,
-          "publishedUSD": 44932,
-          "convertedUSD": 44932,
+          "eur": 49880,
+          "publishedUSD": 54708,
+          "convertedUSD": 54708,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 73171,
-          "publishedUSD": 80254,
-          "convertedUSD": 80254,
+          "eur": 89093,
+          "publishedUSD": 97717,
+          "convertedUSD": 97717,
           "match": true
         }
       ],
@@ -11775,13 +12231,28 @@
           "adoptedIncrementMatch": true,
           "resultingAnchorMatch": true,
           "match": true
+        },
+        {
+          "budgetIndex": 2,
+          "method": "220 hours × EUR 94/hour",
+          "recomputedDirectEUR": 20680,
+          "publishedDirectEUR": 20680,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 23782,
+          "publishedWithAllowanceEUR": 23782,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
         }
       ],
       "futureCheck": {
         "applicable": true,
-        "publishedEUR": 87150,
-        "recomputedEUR": 87150,
-        "deltaEUR": 13979,
+        "publishedEUR": 106114,
+        "recomputedEUR": 106114,
+        "deltaEUR": 17021,
         "match": true
       }
     },
@@ -11792,97 +12263,113 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 46283,
-          "recomputedEUR": 46283,
-          "formula": "round(55000 × 0.9 × 0.85 × 1.1) = 46283",
+          "publishedEUR": 137165,
+          "recomputedEUR": 137165,
+          "formula": "round(163000 × 0.9 × 0.85 × 1.1) = 137165",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 42694,
-          "recomputedEUR": 42694,
-          "formula": "round(55000 × 0.9 × 0.75 × 1.15) = 42694",
+          "publishedEUR": 126529,
+          "recomputedEUR": 126529,
+          "formula": "round(163000 × 0.9 × 0.75 × 1.15) = 126529",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 22948,
-          "recomputedEUR": 22948,
-          "formula": "round(55000 × 1.75 × 0.75 × 0.4 × 0.85 × 0.85 × 1.1) = 22948",
+          "publishedEUR": 68011,
+          "recomputedEUR": 68011,
+          "formula": "round(163000 × 1.75 × 0.75 × 0.4 × 0.85 × 0.85 × 1.1) = 68011",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 39577,
-          "recomputedEUR": 39577,
-          "formula": "round(55000 × 0.25 + 46283 × 0.2 + 42694 × 0.2 + 22948 × 0.35) = 39577",
+          "publishedEUR": 117293,
+          "recomputedEUR": 117293,
+          "formula": "round(163000 × 0.25 + 137165 × 0.2 + 126529 × 0.2 + 68011 × 0.35) = 117293",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 16500,
-          "publishedUSD": 18097,
-          "convertedUSD": 18097,
+          "eur": 48500,
+          "publishedUSD": 53195,
+          "convertedUSD": 53195,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 13200,
-          "publishedUSD": 14478,
-          "convertedUSD": 14478,
+          "eur": 38800,
+          "publishedUSD": 42556,
+          "convertedUSD": 42556,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 20625,
-          "publishedUSD": 22622,
-          "convertedUSD": 22622,
+          "eur": 60625,
+          "publishedUSD": 66494,
+          "convertedUSD": 66494,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 55000,
-          "publishedUSD": 60324,
-          "convertedUSD": 60324,
+          "eur": 163000,
+          "publishedUSD": 178778,
+          "convertedUSD": 178778,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 46283,
-          "publishedUSD": 50763,
-          "convertedUSD": 50763,
+          "eur": 137165,
+          "publishedUSD": 150443,
+          "convertedUSD": 150443,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 42694,
-          "publishedUSD": 46827,
-          "convertedUSD": 46827,
+          "eur": 126529,
+          "publishedUSD": 138777,
+          "convertedUSD": 138777,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 22948,
-          "publishedUSD": 25169,
-          "convertedUSD": 25169,
+          "eur": 68011,
+          "publishedUSD": 74594,
+          "convertedUSD": 74594,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 39577,
-          "publishedUSD": 43408,
-          "convertedUSD": 43408,
+          "eur": 117293,
+          "publishedUSD": 128647,
+          "convertedUSD": 128647,
           "match": true
         }
       ],
-      "budgetChecks": [],
+      "budgetChecks": [
+        {
+          "budgetIndex": 0,
+          "method": "1000 hours × EUR 94/hour",
+          "recomputedDirectEUR": 94000,
+          "publishedDirectEUR": 94000,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 108100,
+          "publishedWithAllowanceEUR": 108100,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
+        }
+      ],
       "futureCheck": {
         "applicable": true,
-        "publishedEUR": 47396,
-        "recomputedEUR": 47396,
-        "deltaEUR": 7819,
+        "publishedEUR": 140464,
+        "recomputedEUR": 140464,
+        "deltaEUR": 23171,
         "match": true
       }
     },
@@ -12424,88 +12911,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 117045,
-          "recomputedEUR": 117045,
-          "formula": "round(153000 × 0.9 × 0.85 × 1) = 117045",
+          "publishedEUR": 131580,
+          "recomputedEUR": 131580,
+          "formula": "round(172000 × 0.9 × 0.85 × 1) = 131580",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 108439,
-          "recomputedEUR": 108439,
-          "formula": "round(153000 × 0.9 × 0.75 × 1.05) = 108439",
+          "publishedEUR": 121905,
+          "recomputedEUR": 121905,
+          "formula": "round(172000 × 0.9 × 0.75 × 1.05) = 121905",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 58035,
-          "recomputedEUR": 58035,
-          "formula": "round(153000 × 1.75 × 0.75 × 0.4 × 0.85 × 0.85 × 1) = 58035",
+          "publishedEUR": 65242,
+          "recomputedEUR": 65242,
+          "formula": "round(172000 × 1.75 × 0.75 × 0.4 × 0.85 × 0.85 × 1) = 65242",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 103659,
-          "recomputedEUR": 103659,
-          "formula": "round(153000 × 0.25 + 117045 × 0.2 + 108439 × 0.2 + 58035 × 0.35) = 103659",
+          "publishedEUR": 116532,
+          "recomputedEUR": 116532,
+          "formula": "round(172000 × 0.25 + 131580 × 0.2 + 121905 × 0.2 + 65242 × 0.35) = 116532",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 46000,
-          "publishedUSD": 50453,
-          "convertedUSD": 50453,
+          "eur": 51500,
+          "publishedUSD": 56485,
+          "convertedUSD": 56485,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 36800,
-          "publishedUSD": 40362,
-          "convertedUSD": 40362,
+          "eur": 41200,
+          "publishedUSD": 45188,
+          "convertedUSD": 45188,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 57500,
-          "publishedUSD": 63066,
-          "convertedUSD": 63066,
+          "eur": 64375,
+          "publishedUSD": 70607,
+          "convertedUSD": 70607,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 153000,
-          "publishedUSD": 167810,
-          "convertedUSD": 167810,
+          "eur": 172000,
+          "publishedUSD": 188650,
+          "convertedUSD": 188650,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 117045,
-          "publishedUSD": 128375,
-          "convertedUSD": 128375,
+          "eur": 131580,
+          "publishedUSD": 144317,
+          "convertedUSD": 144317,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 108439,
-          "publishedUSD": 118936,
-          "convertedUSD": 118936,
+          "eur": 121905,
+          "publishedUSD": 133705,
+          "convertedUSD": 133705,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 58035,
-          "publishedUSD": 63653,
-          "convertedUSD": 63653,
+          "eur": 65242,
+          "publishedUSD": 71557,
+          "convertedUSD": 71557,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 103659,
-          "publishedUSD": 113693,
-          "convertedUSD": 113693,
+          "eur": 116532,
+          "publishedUSD": 127812,
+          "convertedUSD": 127812,
           "match": true
         }
       ],
@@ -12563,6 +13050,21 @@
           "allowance": 0.15,
           "recomputedWithAllowanceEUR": 10377.6,
           "publishedWithAllowanceEUR": 10377.6,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
+        },
+        {
+          "budgetIndex": 4,
+          "method": "180 hours × EUR 94/hour",
+          "recomputedDirectEUR": 16920,
+          "publishedDirectEUR": 16920,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 19458,
+          "publishedWithAllowanceEUR": 19458,
           "directMatch": true,
           "allowanceMatch": true,
           "workPackagesMatch": true,
@@ -13463,88 +13965,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 35581,
-          "recomputedEUR": 35581,
-          "formula": "round(92000 × 0.7 × 0.65 × 0.85) = 35581",
+          "publishedEUR": 43896,
+          "recomputedEUR": 43896,
+          "formula": "round(113500 × 0.7 × 0.65 × 0.85) = 43896",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 23460,
-          "recomputedEUR": 23460,
-          "formula": "round(92000 × 0.6 × 0.5 × 0.85) = 23460",
+          "publishedEUR": 28943,
+          "recomputedEUR": 28943,
+          "formula": "round(113500 × 0.6 × 0.5 × 0.85) = 28943",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 7270,
-          "recomputedEUR": 7270,
-          "formula": "round(92000 × 1.25 × 0.5 × 0.25 × 0.85 × 0.7 × 0.85) = 7270",
+          "publishedEUR": 8969,
+          "recomputedEUR": 8969,
+          "formula": "round(113500 × 1.25 × 0.5 × 0.25 × 0.85 × 0.7 × 0.85) = 8969",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 37353,
-          "recomputedEUR": 37353,
-          "formula": "round(92000 × 0.25 + 35581 × 0.2 + 23460 × 0.2 + 7270 × 0.35) = 37353",
+          "publishedEUR": 46082,
+          "recomputedEUR": 46082,
+          "formula": "round(113500 × 0.25 + 43896 × 0.2 + 28943 × 0.2 + 8969 × 0.35) = 46082",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 27500,
-          "publishedUSD": 30162,
-          "convertedUSD": 30162,
+          "eur": 33500,
+          "publishedUSD": 36743,
+          "convertedUSD": 36743,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 22500,
-          "publishedUSD": 24678,
-          "convertedUSD": 24678,
+          "eur": 27300,
+          "publishedUSD": 29943,
+          "convertedUSD": 29943,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 34500,
-          "publishedUSD": 37840,
-          "convertedUSD": 37840,
+          "eur": 42000,
+          "publishedUSD": 46066,
+          "convertedUSD": 46066,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 92000,
-          "publishedUSD": 100906,
-          "convertedUSD": 100906,
+          "eur": 113500,
+          "publishedUSD": 124487,
+          "convertedUSD": 124487,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 35581,
-          "publishedUSD": 39025,
-          "convertedUSD": 39025,
+          "eur": 43896,
+          "publishedUSD": 48145,
+          "convertedUSD": 48145,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 23460,
-          "publishedUSD": 25731,
-          "convertedUSD": 25731,
+          "eur": 28943,
+          "publishedUSD": 31745,
+          "convertedUSD": 31745,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 7270,
-          "publishedUSD": 7974,
-          "convertedUSD": 7974,
+          "eur": 8969,
+          "publishedUSD": 9837,
+          "convertedUSD": 9837,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 37353,
-          "publishedUSD": 40969,
-          "convertedUSD": 40969,
+          "eur": 46082,
+          "publishedUSD": 50543,
+          "convertedUSD": 50543,
           "match": true
         }
       ],
@@ -13587,6 +14089,21 @@
           "allowance": 0.15,
           "recomputedWithAllowanceEUR": 26808.8,
           "publishedWithAllowanceEUR": 26808.8,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
+        },
+        {
+          "budgetIndex": 3,
+          "method": "200 hours × EUR 94/hour",
+          "recomputedDirectEUR": 18800,
+          "publishedDirectEUR": 18800,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 21620,
+          "publishedWithAllowanceEUR": 21620,
           "directMatch": true,
           "allowanceMatch": true,
           "workPackagesMatch": true,
@@ -13862,88 +14379,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 6503,
-          "recomputedEUR": 6503,
-          "formula": "round(8500 × 0.9 × 0.85 × 1) = 6503",
+          "publishedEUR": 221468,
+          "recomputedEUR": 221468,
+          "formula": "round(289500 × 0.9 × 0.85 × 1) = 221468",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 5738,
-          "recomputedEUR": 5738,
-          "formula": "round(8500 × 0.9 × 0.75 × 1) = 5738",
+          "publishedEUR": 195413,
+          "recomputedEUR": 195413,
+          "formula": "round(289500 × 0.9 × 0.75 × 1) = 195413",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 3224,
-          "recomputedEUR": 3224,
-          "formula": "round(8500 × 1.75 × 0.75 × 0.4 × 0.85 × 0.85 × 1) = 3224",
+          "publishedEUR": 109811,
+          "recomputedEUR": 109811,
+          "formula": "round(289500 × 1.75 × 0.75 × 0.4 × 0.85 × 0.85 × 1) = 109811",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 5702,
-          "recomputedEUR": 5702,
-          "formula": "round(8500 × 0.25 + 6503 × 0.2 + 5738 × 0.2 + 3224 × 0.35) = 5702",
+          "publishedEUR": 194185,
+          "recomputedEUR": 194185,
+          "formula": "round(289500 × 0.25 + 221468 × 0.2 + 195413 × 0.2 + 109811 × 0.35) = 194185",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 2500,
-          "publishedUSD": 2742,
-          "convertedUSD": 2742,
+          "eur": 86500,
+          "publishedUSD": 94873,
+          "convertedUSD": 94873,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 2000,
-          "publishedUSD": 2194,
-          "convertedUSD": 2194,
+          "eur": 69200,
+          "publishedUSD": 75899,
+          "convertedUSD": 75899,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 3125,
-          "publishedUSD": 3428,
-          "convertedUSD": 3428,
+          "eur": 108125,
+          "publishedUSD": 118592,
+          "convertedUSD": 118592,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 8500,
-          "publishedUSD": 9323,
-          "convertedUSD": 9323,
+          "eur": 289500,
+          "publishedUSD": 317524,
+          "convertedUSD": 317524,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 6503,
-          "publishedUSD": 7132,
-          "convertedUSD": 7132,
+          "eur": 221468,
+          "publishedUSD": 242906,
+          "convertedUSD": 242906,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 5738,
-          "publishedUSD": 6293,
-          "convertedUSD": 6293,
+          "eur": 195413,
+          "publishedUSD": 214329,
+          "convertedUSD": 214329,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 3224,
-          "publishedUSD": 3536,
-          "convertedUSD": 3536,
+          "eur": 109811,
+          "publishedUSD": 120441,
+          "convertedUSD": 120441,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 5702,
-          "publishedUSD": 6254,
-          "convertedUSD": 6254,
+          "eur": 194185,
+          "publishedUSD": 212982,
+          "convertedUSD": 212982,
           "match": true
         }
       ],
@@ -13962,13 +14479,28 @@
           "adoptedIncrementMatch": true,
           "resultingAnchorMatch": true,
           "match": true
+        },
+        {
+          "budgetIndex": 1,
+          "method": "2600 hours × EUR 94/hour",
+          "recomputedDirectEUR": 244400,
+          "publishedDirectEUR": 244400,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 281060,
+          "publishedWithAllowanceEUR": 281060,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
         }
       ],
       "futureCheck": {
         "applicable": true,
-        "publishedEUR": 6782,
-        "recomputedEUR": 6782,
-        "deltaEUR": 1080,
+        "publishedEUR": 231005,
+        "recomputedEUR": 231005,
+        "deltaEUR": 36820,
         "match": true
       }
     },
@@ -14228,88 +14760,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 21382,
-          "recomputedEUR": 21382,
-          "formula": "round(43000 × 0.9 × 0.65 × 0.85) = 21382",
+          "publishedEUR": 37294,
+          "recomputedEUR": 37294,
+          "formula": "round(75000 × 0.9 × 0.65 × 0.85) = 37294",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 16448,
-          "recomputedEUR": 16448,
-          "formula": "round(43000 × 0.9 × 0.5 × 0.85) = 16448",
+          "publishedEUR": 28688,
+          "recomputedEUR": 28688,
+          "formula": "round(75000 × 0.9 × 0.5 × 0.85) = 28688",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 7612,
-          "recomputedEUR": 7612,
-          "formula": "round(43000 × 1.75 × 0.5 × 0.4 × 0.85 × 0.7 × 0.85) = 7612",
+          "publishedEUR": 13276,
+          "recomputedEUR": 13276,
+          "formula": "round(75000 × 1.75 × 0.5 × 0.4 × 0.85 × 0.7 × 0.85) = 13276",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 20980,
-          "recomputedEUR": 20980,
-          "formula": "round(43000 × 0.25 + 21382 × 0.2 + 16448 × 0.2 + 7612 × 0.35) = 20980",
+          "publishedEUR": 36593,
+          "recomputedEUR": 36593,
+          "formula": "round(75000 × 0.25 + 37294 × 0.2 + 28688 × 0.2 + 13276 × 0.35) = 36593",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 12500,
-          "publishedUSD": 13710,
-          "convertedUSD": 13710,
+          "eur": 22000,
+          "publishedUSD": 24130,
+          "convertedUSD": 24130,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 10000,
-          "publishedUSD": 10968,
-          "convertedUSD": 10968,
+          "eur": 17600,
+          "publishedUSD": 19304,
+          "convertedUSD": 19304,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 15625,
-          "publishedUSD": 17138,
-          "convertedUSD": 17138,
+          "eur": 27500,
+          "publishedUSD": 30162,
+          "convertedUSD": 30162,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 43000,
-          "publishedUSD": 47162,
-          "convertedUSD": 47162,
+          "eur": 75000,
+          "publishedUSD": 82260,
+          "convertedUSD": 82260,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 21382,
-          "publishedUSD": 23452,
-          "convertedUSD": 23452,
+          "eur": 37294,
+          "publishedUSD": 40904,
+          "convertedUSD": 40904,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 16448,
-          "publishedUSD": 18040,
-          "convertedUSD": 18040,
+          "eur": 28688,
+          "publishedUSD": 31465,
+          "convertedUSD": 31465,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 7612,
-          "publishedUSD": 8349,
-          "convertedUSD": 8349,
+          "eur": 13276,
+          "publishedUSD": 14561,
+          "convertedUSD": 14561,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 20980,
-          "publishedUSD": 23011,
-          "convertedUSD": 23011,
+          "eur": 36593,
+          "publishedUSD": 40135,
+          "convertedUSD": 40135,
           "match": true
         }
       ],
@@ -14328,13 +14860,28 @@
           "adoptedIncrementMatch": true,
           "resultingAnchorMatch": true,
           "match": true
+        },
+        {
+          "budgetIndex": 1,
+          "method": "300 hours × EUR 94/hour",
+          "recomputedDirectEUR": 28200,
+          "publishedDirectEUR": 28200,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 32430,
+          "publishedWithAllowanceEUR": 32430,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
         }
       ],
       "futureCheck": {
         "applicable": true,
-        "publishedEUR": 30777,
-        "recomputedEUR": 30777,
-        "deltaEUR": 9797,
+        "publishedEUR": 53682,
+        "recomputedEUR": 53682,
+        "deltaEUR": 17089,
         "match": true
       }
     },
@@ -14345,88 +14892,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 29261,
-          "recomputedEUR": 29261,
-          "formula": "round(45000 × 0.9 × 0.85 × 0.85) = 29261",
+          "publishedEUR": 37389,
+          "recomputedEUR": 37389,
+          "formula": "round(57500 × 0.9 × 0.85 × 0.85) = 37389",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 30375,
-          "recomputedEUR": 30375,
-          "formula": "round(45000 × 0.9 × 0.75 × 1) = 30375",
+          "publishedEUR": 38813,
+          "recomputedEUR": 38813,
+          "formula": "round(57500 × 0.9 × 0.75 × 1) = 38813",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 14509,
-          "recomputedEUR": 14509,
-          "formula": "round(45000 × 1.75 × 0.75 × 0.4 × 0.85 × 0.85 × 0.85) = 14509",
+          "publishedEUR": 18539,
+          "recomputedEUR": 18539,
+          "formula": "round(57500 × 1.75 × 0.75 × 0.4 × 0.85 × 0.85 × 0.85) = 18539",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 28255,
-          "recomputedEUR": 28255,
-          "formula": "round(45000 × 0.25 + 29261 × 0.2 + 30375 × 0.2 + 14509 × 0.35) = 28255",
+          "publishedEUR": 36104,
+          "recomputedEUR": 36104,
+          "formula": "round(57500 × 0.25 + 37389 × 0.2 + 38813 × 0.2 + 18539 × 0.35) = 36104",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 13500,
-          "publishedUSD": 14807,
-          "convertedUSD": 14807,
+          "eur": 17000,
+          "publishedUSD": 18646,
+          "convertedUSD": 18646,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 10800,
-          "publishedUSD": 11845,
-          "convertedUSD": 11845,
+          "eur": 13600,
+          "publishedUSD": 14916,
+          "convertedUSD": 14916,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 16875,
-          "publishedUSD": 18509,
-          "convertedUSD": 18509,
+          "eur": 21250,
+          "publishedUSD": 23307,
+          "convertedUSD": 23307,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 45000,
-          "publishedUSD": 49356,
-          "convertedUSD": 49356,
+          "eur": 57500,
+          "publishedUSD": 63066,
+          "convertedUSD": 63066,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 29261,
-          "publishedUSD": 32093,
-          "convertedUSD": 32093,
+          "eur": 37389,
+          "publishedUSD": 41008,
+          "convertedUSD": 41008,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 30375,
-          "publishedUSD": 33315,
-          "convertedUSD": 33315,
+          "eur": 38813,
+          "publishedUSD": 42570,
+          "convertedUSD": 42570,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 14509,
-          "publishedUSD": 15913,
-          "convertedUSD": 15913,
+          "eur": 18539,
+          "publishedUSD": 20334,
+          "convertedUSD": 20334,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 28255,
-          "publishedUSD": 30990,
-          "convertedUSD": 30990,
+          "eur": 36104,
+          "publishedUSD": 39599,
+          "convertedUSD": 39599,
           "match": true
         }
       ],
@@ -14445,13 +14992,28 @@
           "adoptedIncrementMatch": true,
           "resultingAnchorMatch": true,
           "match": true
+        },
+        {
+          "budgetIndex": 1,
+          "method": "120 hours × EUR 94/hour",
+          "recomputedDirectEUR": 11280,
+          "publishedDirectEUR": 11280,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 12972,
+          "publishedWithAllowanceEUR": 12972,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
         }
       ],
       "futureCheck": {
         "applicable": true,
-        "publishedEUR": 33424,
-        "recomputedEUR": 33424,
-        "deltaEUR": 5169,
+        "publishedEUR": 42708,
+        "recomputedEUR": 42708,
+        "deltaEUR": 6604,
         "match": true
       }
     },
@@ -14696,88 +15258,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 58050,
-          "recomputedEUR": 58050,
-          "formula": "round(64500 × 0.9 × 1 × 1) = 58050",
+          "publishedEUR": 83250,
+          "recomputedEUR": 83250,
+          "formula": "round(92500 × 0.9 × 1 × 1) = 83250",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 58050,
-          "recomputedEUR": 58050,
-          "formula": "round(64500 × 0.9 × 1 × 1) = 58050",
+          "publishedEUR": 83250,
+          "recomputedEUR": 83250,
+          "formula": "round(92500 × 0.9 × 1 × 1) = 83250",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 34636,
-          "recomputedEUR": 34636,
-          "formula": "round(64500 × 1.75 × 0.95 × 0.4 × 0.85 × 0.95 × 1) = 34636",
+          "publishedEUR": 49671,
+          "recomputedEUR": 49671,
+          "formula": "round(92500 × 1.75 × 0.95 × 0.4 × 0.85 × 0.95 × 1) = 49671",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 51468,
-          "recomputedEUR": 51468,
-          "formula": "round(64500 × 0.25 + 58050 × 0.2 + 58050 × 0.2 + 34636 × 0.35) = 51468",
+          "publishedEUR": 73810,
+          "recomputedEUR": 73810,
+          "formula": "round(92500 × 0.25 + 83250 × 0.2 + 83250 × 0.2 + 49671 × 0.35) = 73810",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 19000,
-          "publishedUSD": 20839,
-          "convertedUSD": 20839,
+          "eur": 27000,
+          "publishedUSD": 29614,
+          "convertedUSD": 29614,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 15200,
-          "publishedUSD": 16671,
-          "convertedUSD": 16671,
+          "eur": 21600,
+          "publishedUSD": 23691,
+          "convertedUSD": 23691,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 23750,
-          "publishedUSD": 26049,
-          "convertedUSD": 26049,
+          "eur": 33750,
+          "publishedUSD": 37017,
+          "convertedUSD": 37017,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 64500,
-          "publishedUSD": 70744,
-          "convertedUSD": 70744,
+          "eur": 92500,
+          "publishedUSD": 101454,
+          "convertedUSD": 101454,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 58050,
-          "publishedUSD": 63669,
-          "convertedUSD": 63669,
+          "eur": 83250,
+          "publishedUSD": 91309,
+          "convertedUSD": 91309,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 58050,
-          "publishedUSD": 63669,
-          "convertedUSD": 63669,
+          "eur": 83250,
+          "publishedUSD": 91309,
+          "convertedUSD": 91309,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 34636,
-          "publishedUSD": 37989,
-          "convertedUSD": 37989,
+          "eur": 49671,
+          "publishedUSD": 54479,
+          "convertedUSD": 54479,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 51468,
-          "publishedUSD": 56450,
-          "convertedUSD": 56450,
+          "eur": 73810,
+          "publishedUSD": 80955,
+          "convertedUSD": 80955,
           "match": true
         }
       ],
@@ -14796,12 +15358,27 @@
           "adoptedIncrementMatch": true,
           "resultingAnchorMatch": true,
           "match": true
+        },
+        {
+          "budgetIndex": 1,
+          "method": "260 hours × EUR 94/hour",
+          "recomputedDirectEUR": 24440,
+          "publishedDirectEUR": 24440,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 28106,
+          "publishedWithAllowanceEUR": 28106,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
         }
       ],
       "futureCheck": {
         "applicable": true,
-        "publishedEUR": 51468,
-        "recomputedEUR": 51468,
+        "publishedEUR": 73810,
+        "recomputedEUR": 73810,
         "deltaEUR": 0,
         "match": true
       }
@@ -14813,88 +15390,88 @@
       "modelChecks": [
         {
           "key": "marketComparableProxyEUR",
-          "publishedEUR": 29453,
-          "recomputedEUR": 29453,
-          "formula": "round(38500 × 0.9 × 0.85 × 1) = 29453",
+          "publishedEUR": 55080,
+          "recomputedEUR": 55080,
+          "formula": "round(72000 × 0.9 × 0.85 × 1) = 55080",
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "publishedEUR": 25988,
-          "recomputedEUR": 25988,
-          "formula": "round(38500 × 0.9 × 0.75 × 1) = 25988",
+          "publishedEUR": 48600,
+          "recomputedEUR": 48600,
+          "formula": "round(72000 × 0.9 × 0.75 × 1) = 48600",
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "publishedEUR": 14604,
-          "recomputedEUR": 14604,
-          "formula": "round(38500 × 1.75 × 0.75 × 0.4 × 0.85 × 0.85 × 1) = 14604",
+          "publishedEUR": 27311,
+          "recomputedEUR": 27311,
+          "formula": "round(72000 × 1.75 × 0.75 × 0.4 × 0.85 × 0.85 × 1) = 27311",
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "publishedEUR": 25825,
-          "recomputedEUR": 25825,
-          "formula": "round(38500 × 0.25 + 29453 × 0.2 + 25988 × 0.2 + 14604 × 0.35) = 25825",
+          "publishedEUR": 48295,
+          "recomputedEUR": 48295,
+          "formula": "round(72000 × 0.25 + 55080 × 0.2 + 48600 × 0.2 + 27311 × 0.35) = 48295",
           "match": true
         }
       ],
       "usdChecks": [
         {
           "key": "sellerAskEUR",
-          "eur": 11500,
-          "publishedUSD": 12613,
-          "convertedUSD": 12613,
+          "eur": 21500,
+          "publishedUSD": 23581,
+          "convertedUSD": 23581,
           "match": true
         },
         {
           "key": "negotiationLowEUR",
-          "eur": 9200,
-          "publishedUSD": 10091,
-          "convertedUSD": 10091,
+          "eur": 17200,
+          "publishedUSD": 18865,
+          "convertedUSD": 18865,
           "match": true
         },
         {
           "key": "negotiationHighEUR",
-          "eur": 14375,
-          "publishedUSD": 15767,
-          "convertedUSD": 15767,
+          "eur": 26875,
+          "publishedUSD": 29477,
+          "convertedUSD": 29477,
           "match": true
         },
         {
           "key": "replacementCostEUR",
-          "eur": 38500,
-          "publishedUSD": 42227,
-          "convertedUSD": 42227,
+          "eur": 72000,
+          "publishedUSD": 78970,
+          "convertedUSD": 78970,
           "match": true
         },
         {
           "key": "marketComparableProxyEUR",
-          "eur": 29453,
-          "publishedUSD": 32304,
-          "convertedUSD": 32304,
+          "eur": 55080,
+          "publishedUSD": 60412,
+          "convertedUSD": 60412,
           "match": true
         },
         {
           "key": "incomeLicensingProxyEUR",
-          "eur": 25988,
-          "publishedUSD": 28504,
-          "convertedUSD": 28504,
+          "eur": 48600,
+          "publishedUSD": 53304,
+          "convertedUSD": 53304,
           "match": true
         },
         {
           "key": "probabilityAdjustedStrategicValueEUR",
-          "eur": 14604,
-          "publishedUSD": 16018,
-          "convertedUSD": 16018,
+          "eur": 27311,
+          "publishedUSD": 29955,
+          "convertedUSD": 29955,
           "match": true
         },
         {
           "key": "triangulatedEconomicReferenceEUR",
-          "eur": 25825,
-          "publishedUSD": 28325,
-          "convertedUSD": 28325,
+          "eur": 48295,
+          "publishedUSD": 52970,
+          "convertedUSD": 52970,
           "match": true
         }
       ],
@@ -14913,13 +15490,175 @@
           "adoptedIncrementMatch": true,
           "resultingAnchorMatch": true,
           "match": true
+        },
+        {
+          "budgetIndex": 1,
+          "method": "96 hours × EUR 94/hour",
+          "recomputedDirectEUR": 9024,
+          "publishedDirectEUR": 9024,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 10377.6,
+          "publishedWithAllowanceEUR": 10377.6,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
+        },
+        {
+          "budgetIndex": 2,
+          "method": "220 hours × EUR 94/hour",
+          "recomputedDirectEUR": 20680,
+          "publishedDirectEUR": 20680,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 23782,
+          "publishedWithAllowanceEUR": 23782,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
         }
       ],
       "futureCheck": {
         "applicable": true,
-        "publishedEUR": 30721,
-        "recomputedEUR": 30721,
-        "deltaEUR": 4896,
+        "publishedEUR": 57452,
+        "recomputedEUR": 57452,
+        "deltaEUR": 9157,
+        "match": true
+      }
+    },
+    {
+      "ref": "TA-IP-129",
+      "status": "PASS",
+      "rangeMatches": true,
+      "modelChecks": [
+        {
+          "key": "marketComparableProxyEUR",
+          "publishedEUR": 245841,
+          "recomputedEUR": 245841,
+          "formula": "round(251500 × 1.15 × 0.85 × 1) = 245841",
+          "match": true
+        },
+        {
+          "key": "incomeLicensingProxyEUR",
+          "publishedEUR": 267376,
+          "recomputedEUR": 267376,
+          "formula": "round(251500 × 1.35 × 0.75 × 1.05) = 267376",
+          "match": true
+        },
+        {
+          "key": "probabilityAdjustedStrategicValueEUR",
+          "publishedEUR": 206126,
+          "recomputedEUR": 206126,
+          "formula": "round(251500 × 2.75 × 0.75 × 0.55 × 0.85 × 0.85 × 1) = 206126",
+          "match": true
+        },
+        {
+          "key": "triangulatedEconomicReferenceEUR",
+          "publishedEUR": 237663,
+          "recomputedEUR": 237663,
+          "formula": "round(251500 × 0.25 + 245841 × 0.2 + 267376 × 0.2 + 206126 × 0.35) = 237663",
+          "match": true
+        }
+      ],
+      "usdChecks": [
+        {
+          "key": "sellerAskEUR",
+          "eur": 75000,
+          "publishedUSD": 82260,
+          "convertedUSD": 82260,
+          "match": true
+        },
+        {
+          "key": "negotiationLowEUR",
+          "eur": 60000,
+          "publishedUSD": 65808,
+          "convertedUSD": 65808,
+          "match": true
+        },
+        {
+          "key": "negotiationHighEUR",
+          "eur": 93750,
+          "publishedUSD": 102825,
+          "convertedUSD": 102825,
+          "match": true
+        },
+        {
+          "key": "replacementCostEUR",
+          "eur": 251500,
+          "publishedUSD": 275845,
+          "convertedUSD": 275845,
+          "match": true
+        },
+        {
+          "key": "marketComparableProxyEUR",
+          "eur": 245841,
+          "publishedUSD": 269638,
+          "convertedUSD": 269638,
+          "match": true
+        },
+        {
+          "key": "incomeLicensingProxyEUR",
+          "eur": 267376,
+          "publishedUSD": 293258,
+          "convertedUSD": 293258,
+          "match": true
+        },
+        {
+          "key": "probabilityAdjustedStrategicValueEUR",
+          "eur": 206126,
+          "publishedUSD": 226079,
+          "convertedUSD": 226079,
+          "match": true
+        },
+        {
+          "key": "triangulatedEconomicReferenceEUR",
+          "eur": 237663,
+          "publishedUSD": 260669,
+          "convertedUSD": 260669,
+          "match": true
+        }
+      ],
+      "budgetChecks": [
+        {
+          "budgetIndex": 0,
+          "method": "1680 hours × EUR 94/hour",
+          "recomputedDirectEUR": 157920,
+          "publishedDirectEUR": 157920,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 181608,
+          "publishedWithAllowanceEUR": 181608,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
+        },
+        {
+          "budgetIndex": 1,
+          "method": "650 hours × EUR 94/hour",
+          "recomputedDirectEUR": 61100,
+          "publishedDirectEUR": 61100,
+          "allowance": 0.15,
+          "recomputedWithAllowanceEUR": 70265,
+          "publishedWithAllowanceEUR": 70265,
+          "directMatch": true,
+          "allowanceMatch": true,
+          "workPackagesMatch": true,
+          "adoptedIncrementMatch": true,
+          "resultingAnchorMatch": true,
+          "match": true
+        }
+      ],
+      "futureCheck": {
+        "applicable": true,
+        "publishedEUR": 294154,
+        "recomputedEUR": 294154,
+        "deltaEUR": 56491,
         "match": true
       }
     }
@@ -14927,7 +15666,7 @@
   "publicFiles": {
     "pricingCatalogue": {
       "path": "assets/pricing-catalogue.json",
-      "sha256": "b5799feadaf68261c8fe04a038bae14ebb081ee58d0f851f3b31da826bcb2cd3"
+      "sha256": "46585d5e7c9b17e6d4c4fc8de793415007d026b70de6a2ab29823e7bc91dc69d"
     },
     "calculationModule": {
       "path": "assets/pricing-math.js",

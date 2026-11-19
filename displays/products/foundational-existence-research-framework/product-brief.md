@@ -43,7 +43,7 @@ A foundational research archive with nine analytical volumes, finite semantic/co
 - Technical scope: R — A foundational research archive with nine analytical volumes, finite semantic/countermodel engines and a bounded bridge from declared observational provenance to software-evidence review. The offered edition and material boundaries govern review.
 - Evidence and validation: E2 — Current local replay passes its executed R2-R8C tests. Earlier R8B acceptance retains its documented omitted-manifest-entry warning; the new contract is tested separately rather than rewriting that evidence. Independent recipient and intended-use acceptance remain separate.
 - Rights and component obligations: R1 — Repository licence file identified. Source-specific review and recipient acceptance remain separate.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Source-specific review and recipient acceptance remain separate.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T2 — Source, documentation, tests and licence evidence support bounded handover. Source-specific review and recipient acceptance remain separate.
 
 Offered first-party scope: Previously budgeted R2/R3 finite models and four volumes are retained once. Added R4-R8C counterpart, premise, typed-comparison, provenance/quarantine and evidence-contract software plus five further volumes is priced only as first-party research work. Facts, general ideas, third-party works, empirical discoveries and future qualification are excluded.
@@ -74,19 +74,24 @@ Development: No separate open candidate at the reviewed snapshot.
 | Risk-adjusted strategic reference | 4,860 | 5,330 |
 | Weighted economic reference | 24,970 | 27,387 |
 
-The retained priced scope and explicitly non-overlapping implementation budgets reconcile below. Effort and prices remain seller assumptions, not actual expenditure, independent quotations or established market value. Previously budgeted R2/R3 finite models and four volumes are retained once. Added R4-R8C counterpart, premise, typed-comparison, provenance/quarantine and evidence-contract software plus five further volumes is priced only as first-party research work. Facts, general ideas, third-party works, empirical discoveries and future qualification are excluded.
+Published baseline retained once: recreation EUR 61,500, seller ask EUR 18,000. No monetary addition at this snapshot. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Retain the published EUR 18,000 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
+
+
 ## Individual source review
 
-Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source evidence records 302/302 R2-R8B software tests with an explicit manifest warning. New R8C module rejects incomplete report manifests; 38 additional local regression tests documented.
+Reviewed first-party work: Modal logic, grounding and finite-model enumeration; Existence hypotheses and evidence-source intake; Research interfaces, quarantine and model reports. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: Combined R2-R8C 340-test frozen CPU acceptance NOT_RUN; no actual NASA dataset admission, external scientific validation or physical discovery.
 
-Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
+Price decision: Retain the published EUR 18,000 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -94,6 +99,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/foundational-existence-research-framework/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/foundational-existence-research-framework/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

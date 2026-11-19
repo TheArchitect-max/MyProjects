@@ -25,6 +25,7 @@ An engineering workbench prototype for traceable requirements and execution plan
 - Review dependencies and blockers
 - Prepare priority-aware plans
 - Generate auditable project reports
+- Written development: Written feasibility, architecture, traceability and VolumeForge review candidate
 
 ## Output types
 
@@ -42,16 +43,16 @@ An engineering workbench prototype for traceable requirements and execution plan
 - Technical scope: P — An engineering workbench prototype for traceable requirements and execution planning. The offered edition and material boundaries govern review.
 - Evidence and validation: E2 — Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R0 — No repository licence evidence identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T1 — Implementation exists but core transfer evidence is incomplete. The listed conditions and written delivery agreement govern acceptance.
 
-Offered first-party scope: Existing first-party offline mission, requirements, dependency-planning and document-generation software on main v0.1 plus separately frozen unmerged v0.2/v0.3 traceability and feasibility-declaration software, tests and methodology documents. Generated plans are design outputs; independently established feasibility, copied cross-project IP, automatic engineering or execution, hosted services and future implementation are excluded.
+Offered first-party scope: The agreed first-party main work and separately identified written development delta, with their distinct source manifests and acceptance status. Future completion, operations and third-party entitlements require separate terms.
 
-Development: Open, unmerged development: feat(v0.5): source-grounded VolumeForge drafts and review checkpoints; feat(v0.4): architecture alternatives, hard decision gates and ADR traceability; feat(v0.3): mission objectives, feasibility declarations and research experiments; feat: UMEEF v0.2 traceability graph and evidence integrity auditing This is outside the offered main-source budget.
+Development: Written feasibility, architecture, traceability and VolumeForge review candidate. Written first-party work; release acceptance remains unresolved.
 
 ## Conditions before handover
 
-- Complete explicit first-party rights, component-obligation and definitive transfer documentation; a repository licence file is not currently identified.
+- Freeze the agreed main and written-development sources, first-party rights, pending acceptance and delivery manifest before transfer.
 - Agree main v0.1 and any expressly included unmerged v0.2/v0.3 delivery sources; the stacked candidate has not been integrated into main.
 - Freeze the delivery manifest, supported environment and recipient acceptance of the agreed planning and traceability workflows.
 - Independently review actual evidence and feasibility for your use case; software labels and supplied PASS declarations do not establish real-world feasibility.
@@ -66,28 +67,34 @@ Development: Open, unmerged development: feat(v0.5): source-grounded VolumeForge
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 16,500 | 18,097 |
-| Negotiation reference - low | 13,200 | 14,478 |
-| Negotiation reference - high | 20,625 | 22,622 |
-| Recreation cost estimate | 55,000 | 60,324 |
-| Marketability cost scenario | 46,283 | 50,763 |
-| Monetisation cost scenario | 42,694 | 46,827 |
-| Risk-adjusted strategic reference | 22,948 | 25,169 |
-| Weighted economic reference | 39,577 | 43,408 |
+| Seller asking reference | 48,500 | 53,195 |
+| Negotiation reference - low | 38,800 | 42,556 |
+| Negotiation reference - high | 60,625 | 66,494 |
+| Recreation cost estimate | 163,000 | 178,778 |
+| Marketability cost scenario | 137,165 | 150,443 |
+| Monetisation cost scenario | 126,529 | 138,777 |
+| Risk-adjusted strategic reference | 68,011 | 74,594 |
+| Weighted economic reference | 117,293 | 128,647 |
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+Published baseline retained once: recreation EUR 55,000, seller ask EUR 16,500. Additional identified work adds recreation EUR 108,000 and ask EUR 32,000. Written development is separately included with acceptance unresolved. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Preserved seller asking baseline EUR 16,500; add EUR 32,000 for Written feasibility, architecture, traceability and VolumeForge review candidate. Added recreation allowance EUR 108,000, from 1,000 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once.
+
+- Written feasibility, architecture, traceability and VolumeForge review candidate — 1000 assumed hours; WRITTEN_CANDIDATE_DELTA
+
 ## Individual source review
 
-Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source offers deterministic mission-charter, dependency planning, requirements traceability and draft volume build; v0.5 PR #6 says separately tested 110/110 local archive but exact transferred GitHub head not reexecuted.
+Reviewed first-party work: Mission specifications and project scaffold generator; Requirements traceability and bounded generation rules; Scaffold interfaces and source-package outputs. Written development: Written feasibility, architecture, traceability and VolumeForge review candidate. Existing written work only; acceptance and future completion remain separate. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: No general autonomous engineering, completed real-world mission or independently validated design; stacked PR #6 depends on #5 release and exact-source tests.
 
-Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
+Price decision: Preserved seller asking baseline EUR 16,500; add EUR 32,000 for Written feasibility, architecture, traceability and VolumeForge review candidate. Added recreation allowance EUR 108,000, from 1,000 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -95,6 +102,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/mission-to-execution-engineering-framework/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/mission-to-execution-engineering-framework/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

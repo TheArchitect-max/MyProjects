@@ -3,7 +3,7 @@
 from pathlib import Path
 import json,re,subprocess
 from pypdf import PdfReader
-R=Path(__file__).resolve().parents[1];BASE='04cb673cc35568d6f7840696fe45c7340aae8661'
+R=Path(__file__).resolve().parents[1];BASE='b5afc394f226e949f9264dba7b5e5b99f1f60e5e'
 def load(f):return json.loads((R/f).read_text())
 def original(f):return subprocess.check_output(['git','show',BASE+':'+f],cwd=R)
 c=load('assets/buyer-catalogue.json');p={x['ref']:x for x in load('assets/pricing-catalogue.json')['projects']};d={x['ref']:x for x in load('assets/buyer-dossiers.json')['projects']};q=load('assets/portfolio-reassessment-20261107.json')
@@ -31,11 +31,11 @@ for connection in load('assets/application-combinations.json')['connections']:
   asset=assets_by_ref[member['ref']]
   display=(R/'displays/products'/asset['slug']/'index.html').read_text()
   assert 'connections.html#'+connection['slug'] in display,member['ref']
-collection=(R/'displays/index.html').read_text();assert len(re.findall(r'class="asset-select"',collection))==128;assert len(re.findall(r'class="card-cost"',collection))==128
+collection=(R/'displays/index.html').read_text();assert len(re.findall(r'class="asset-select"',collection))==129;assert len(re.findall(r'class="card-cost"',collection))==129
 for x in load('assets/route-aliases.json')['aliases']:
  for f in ['factsheet.pdf','product-brief.md']:
   dst=R/'displays/products'/x['legacySlug']/f
   if dst.exists():assert dst.read_bytes()==(R/'displays/products'/x['slug']/f).read_bytes()
-assert sum(x['askingReferenceChangeEUR'] for x in q['assessments'])==121000
-assert sum(x['askingReferenceEUR'] for x in c['projects'])==25274000
-print(json.dumps({'result':'PASS','currentFactsheets':pdfs,'pdfPagesChecked':4*pdfs,'protectedPresentationFiles':len(protected),'preservedNavigationAndNonProjectFunctions':7,'enquirySelectionControls':128,'askingReferenceIncreaseEUR':121000,'underlyingPrivateProductsRerun':False},indent=2))
+assert sum(x['askingReferenceChangeEUR'] for x in q['assessments'])==667000
+assert sum(x['askingReferenceEUR'] for x in c['projects'])==25941000
+print(json.dumps({'result':'PASS','currentFactsheets':pdfs,'pdfPagesChecked':4*pdfs,'protectedPresentationFiles':len(protected),'preservedNavigationAndNonProjectFunctions':7,'enquirySelectionControls':129,'askingReferenceIncreaseEUR':667000,'underlyingPrivateProductsRerun':False},indent=2))

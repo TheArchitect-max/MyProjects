@@ -25,6 +25,7 @@ Adds an offline, exact-version publisher file-metadata preflight to the existing
 - Version-pinned file-metadata parsing and admission rules
 - Malformed-metadata and provenance regression cases
 - Source-gate integration and bounded documentation
+- Written development: Exact-version publisher file-metadata crosschecks
 
 ## Output types
 
@@ -42,16 +43,16 @@ Adds an offline, exact-version publisher file-metadata preflight to the existing
 - Technical scope: V — Adds an offline, exact-version publisher file-metadata preflight to the existing research-source admission chain. Publisher metadata is distinct from authentic participant-file admission, lawful processing and scientific validation. The live archive crosscheck is a separate open development proposal.
 - Evidence and validation: E3 — Tests, validation and provenance/release evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
-Offered first-party scope: Existing first-party main-source work: Adds an offline, exact-version publisher file-metadata preflight to the existing research-source admission chain. Publisher metadata is distinct from authentic participant-file admission, lawful processing and scientific validation. The live archive crosscheck is a separate open development proposal.
+Offered first-party scope: The agreed first-party main work and separately identified written development delta, with their distinct source manifests and acceptance status. Future completion, operations and third-party entitlements require separate terms.
 
-Development: Open, unmerged development: B02: exact-version live Zenodo file-metadata crosscheck; defer laser instrument roadmap This is outside the offered main-source budget.
+Development: Exact-version publisher file-metadata crosschecks. Written first-party work; release acceptance remains unresolved.
 
 ## Conditions before handover
 
-- Publisher metadata is distinct from authentic participant-file admission, lawful processing and scientific validation. The live archive crosscheck is a separate open development proposal.
+- Freeze the agreed main and written-development sources, first-party rights, pending acceptance and delivery manifest before transfer.
 - Agree and freeze the exact first-party delivery edition, rights, third-party obligations and excluded content.
 - Review source-specific reproducibility, component and security documentation under agreed confidentiality.
 
@@ -66,28 +67,34 @@ Development: Open, unmerged development: B02: exact-version live Zenodo file-met
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 228,000 | 250,070 |
-| Negotiation reference - low | 182,400 | 200,056 |
-| Negotiation reference - high | 285,000 | 312,588 |
-| Recreation cost estimate | 1,245,000 | 1,365,516 |
-| Marketability cost scenario | 740,775 | 812,482 |
-| Monetisation cost scenario | 859,050 | 942,206 |
-| Risk-adjusted strategic reference | 253,691 | 278,248 |
-| Weighted economic reference | 720,007 | 789,704 |
+| Seller asking reference | 231,000 | 253,361 |
+| Negotiation reference - low | 184,800 | 202,689 |
+| Negotiation reference - high | 288,750 | 316,701 |
+| Recreation cost estimate | 1,255,500 | 1,377,032 |
+| Marketability cost scenario | 747,023 | 819,335 |
+| Monetisation cost scenario | 866,295 | 950,152 |
+| Risk-adjusted strategic reference | 255,830 | 280,594 |
+| Weighted economic reference | 726,079 | 796,363 |
 
-Non-overlapping implemented main-source increment: 48 assumed hours at EUR 94/hour, 15% allowance, EUR 5,000 adopted recreation increment and EUR 1,500 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project. Earlier priced work is counted once; its legacy uncertainty remains.
+Published baseline retained once: recreation EUR 1,245,000, seller ask EUR 228,000. Additional identified work adds recreation EUR 10,500 and ask EUR 3,000. Written development is separately included with acceptance unresolved. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Preserved seller asking baseline EUR 228,000; add EUR 3,000 for Exact-version publisher file-metadata crosschecks. Added recreation allowance EUR 10,500, from 100 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once.
+
+- Exact-version publisher file-metadata crosschecks — 100 assumed hours; WRITTEN_CANDIDATE_DELTA
+
 ## Individual source review
 
-Current main README, full Git inventory and comparison with the prior reviewed main identify this implemented change: Adds an offline, exact-version publisher file-metadata preflight to the existing research-source admission chain. Retained acceptance is source-reported and remains bound to its original source and environment.
+Reviewed first-party work: Phenomenology study, calibration and bounded simulation software; Campaign evidence, custody, encryption and recovery controls; Study interfaces, desktop tooling and source admission. Written development: Exact-version publisher file-metadata crosschecks. Existing written work only; acceptance and future completion remain separate. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: Publisher metadata is distinct from authentic participant-file admission, lawful processing and scientific validation. The live archive crosscheck is a separate open development proposal.
 
-Price decision: Non-overlapping implemented main-source increment: 48 assumed hours at EUR 94/hour, 15% allowance, EUR 5,000 adopted recreation increment and EUR 1,500 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project.
+Price decision: Preserved seller asking baseline EUR 228,000; add EUR 3,000 for Exact-version publisher file-metadata crosschecks. Added recreation allowance EUR 10,500, from 100 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -95,6 +102,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/dmt-laser-phenomenology-engine/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/dmt-laser-phenomenology-engine/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

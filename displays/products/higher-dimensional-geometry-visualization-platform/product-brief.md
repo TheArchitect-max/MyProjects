@@ -40,7 +40,7 @@ Native 4D geometry, projections and sections with offline browser workstations, 
 - Technical scope: R — Native 4D geometry, projections and sections with offline browser workstations, versioned session exchange and a deterministic Linux x86-64 distribution. The offered edition and material boundaries govern review.
 - Evidence and validation: E3 — Tests, validation and provenance/release evidence identified.
 - Rights and component obligations: R0 — No repository licence evidence identified.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T1 — Implementation exists but core transfer evidence is incomplete.
 
 Offered first-party scope: Specifically agreed first-party P4 R3 source, documentation and retained evidence: Native 4D geometry, projections and sections with offline browser workstations, versioned session exchange and a deterministic Linux x86-64 distribution. No physical extra-dimension observation, direct human 4D vision, general WCAG certification, Windows/macOS qualification or leak audit.
@@ -71,19 +71,24 @@ Development: No separate open candidate at the reviewed snapshot.
 | Risk-adjusted strategic reference | 10,709 | 11,746 |
 | Weighted economic reference | 30,335 | 33,271 |
 
-Initial bounded work-package estimate. 560 assumed hours at EUR 94/hour, 15% coordination allowance; EUR 60,500 adopted recreation increment and EUR 18,000 asking-reference increment. No premium for version labels, test counts, scientific claims, future work or unrelated assets.
+Published baseline retained once: recreation EUR 60,500, seller ask EUR 18,000. No monetary addition at this snapshot. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Retain the published EUR 18,000 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
+
+
 ## Individual source review
 
-Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source records accepted P3 R11 and P4 R1–R3 CI; 31 labelled controls, four actions and 45 native CPU/RSS observations. Later documentation is not a separate runtime acceptance.
+Reviewed first-party work: Higher-dimensional atlas, projection and native geometry core; Invariant validation, JSON contracts and deterministic replay; Browser geometry viewer and analysis controls. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: No physical extra-dimension observation, direct human 4D vision, general WCAG certification, Windows/macOS qualification or leak audit.
 
-Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
+Price decision: Retain the published EUR 18,000 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -91,6 +96,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/higher-dimensional-geometry-visualization-platform/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/higher-dimensional-geometry-visualization-platform/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

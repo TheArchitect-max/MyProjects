@@ -25,6 +25,7 @@ Main includes the merged A33 bounded generation controls. A34 remains an open pr
 - Review external service qualification
 - Track output and delivery records
 - Maintain library and commercial workflows
+- Written development: Evidence-selected provider routing and admission rules
 
 ## Output types
 
@@ -41,16 +42,16 @@ Main includes the merged A33 bounded generation controls. A34 remains an open pr
 - Technical scope: V — A generative-music product foundation for creation workflows and commercial control. The offered edition and material boundaries govern review.
 - Evidence and validation: E3 — Tests, validation and provenance/release evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
-Offered first-party scope: Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+Offered first-party scope: The agreed first-party main work and separately identified written development delta, with their distinct source manifests and acceptance status. Future completion, operations and third-party entitlements require separate terms.
 
-Development: Open, unmerged development: A34: evidence-selected provider routing This is outside the offered main-source budget.
+Development: Evidence-selected provider routing and admission rules. Written first-party work; release acceptance remains unresolved.
 
 ## Conditions before handover
 
-- Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
+- Freeze the agreed main and written-development sources, first-party rights, pending acceptance and delivery manifest before transfer.
 - A detailed component inventory and licensing report are required for the agreed delivery scope.
 - A security assessment or an explicit statement of its absence is required before acceptance.
 - An explicit delivery manifest and handover scope remain to be agreed.
@@ -67,28 +68,34 @@ Development: Open, unmerged development: A34: evidence-selected provider routing
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 650,000 | 712,920 |
-| Negotiation reference - low | 520,000 | 570,336 |
-| Negotiation reference - high | 815,000 | 893,892 |
-| Recreation cost estimate | 1,800,000 | 1,974,240 |
-| Marketability cost scenario | 2,700,000 | 2,961,360 |
-| Monetisation cost scenario | 3,960,000 | 4,343,328 |
-| Risk-adjusted strategic reference | 4,349,599 | 4,770,640 |
-| Weighted economic reference | 3,304,360 | 3,624,222 |
+| Seller asking reference | 656,000 | 719,501 |
+| Negotiation reference - low | 524,800 | 575,601 |
+| Negotiation reference - high | 822,500 | 902,118 |
+| Recreation cost estimate | 1,821,500 | 1,997,821 |
+| Marketability cost scenario | 2,732,250 | 2,996,732 |
+| Monetisation cost scenario | 4,007,300 | 4,395,207 |
+| Risk-adjusted strategic reference | 4,401,552 | 4,827,622 |
+| Weighted economic reference | 3,343,828 | 3,667,511 |
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+Published baseline retained once: recreation EUR 1,800,000, seller ask EUR 650,000. Additional identified work adds recreation EUR 21,500 and ask EUR 6,000. Written development is separately included with acceptance unresolved. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Preserved seller asking baseline EUR 650,000; add EUR 6,000 for Evidence-selected provider routing and admission rules. Added recreation allowance EUR 21,500, from 200 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once.
+
+- Evidence-selected provider routing and admission rules — 200 assumed hours; WRITTEN_CANDIDATE_DELTA
+
 ## Individual source review
 
-Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source documents earlier pinned ACE-Step Tesla T4/WAV prequalification, A20–A33 validation/merges, quota/serving/library controls; A34 provider route exact-SHA/tree validation PENDING.
+Reviewed first-party work: Audio model staging and production request domain; Dispatch, provider qualification and commercial control plane; Provider interfaces, audio runtime and service packaging. Written development: Evidence-selected provider routing and admission rules. Existing written work only; acceptance and future completion remain separate. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: No production-admitted default provider or full licensed model stack; ACE-Step prequalification is not serving approval, DiffRhythm restrictions remain; A34 is not merged.
 
-Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
+Price decision: Preserved seller asking baseline EUR 650,000; add EUR 6,000 for Evidence-selected provider routing and admission rules. Added recreation allowance EUR 21,500, from 200 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -96,6 +103,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/sonicfabric/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/sonicfabric/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

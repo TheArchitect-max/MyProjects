@@ -11,7 +11,7 @@ def validate():
  dossiers=json.loads((ROOT/'assets/buyer-dossiers.json').read_text())
  applications=json.loads((ROOT/'assets/application-combinations.json').read_text())
  records={p['ref']:p for p in dossiers['projects']};refs={a['ref'] for a in catalogue['projects']}
- assert set(records)==refs and len(dossiers['projects'])==128
+ assert set(records)==refs and len(dossiers['projects'])==129
  assert set(dossiers)=={'schema','basisDate','purpose','definitions','projects'}
  assert set(applications)=={'schema','purpose','connections'}
  assert not re.search(r'\b[a-f0-9]{40}\b|\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b',json.dumps([dossiers,applications]),re.I)
@@ -41,8 +41,8 @@ def validate():
  for page in ['portfolio-thesis','assurance','connections','commercialization','evidence','identities','transaction','transfer','sources','musk']:
   text=(ROOT/(page+'.html')).read_text();assert 'location.replace' not in text and re.search(r'im\.js\?v=showroom\d+(?:-[a-z0-9]+)*',text)
  with (ROOT/'displays/catalogue.csv').open(encoding='utf-8-sig',newline='') as f:rows=list(csv.DictReader(f))
- assert len(rows)==128
+ assert len(rows)==129
  for row in rows:
   p=records[row['Reference']];assert row['Product_edition']==p['version'] and row['Handover_position']==p['transferPosition'] and row['Seller_conditions']
- return dict(result='PASS',publicBuyerDossiers=128,assessmentCriteria=640,explicitDevelopmentEditions=editions,handoverConditions=conditions,proposedApplications=33,distinctApplicationMembers=81,buyerInformationPages=10,productBriefsAndDisplaysChecked=256,catalogueRows=128,standaloneVfxAssetPreserved=True)
+ return dict(result='PASS',publicBuyerDossiers=129,assessmentCriteria=645,explicitDevelopmentEditions=editions,handoverConditions=conditions,proposedApplications=33,distinctApplicationMembers=81,buyerInformationPages=10,productBriefsAndDisplaysChecked=258,catalogueRows=129,standaloneVfxAssetPreserved=True)
 if __name__=='__main__':print(json.dumps(validate(),indent=2))

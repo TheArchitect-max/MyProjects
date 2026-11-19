@@ -44,7 +44,7 @@ An authorised evidence and entity-intelligence prototype with recoverable local 
 - Technical scope: P — An authorised evidence and entity-intelligence prototype with recoverable local work state, relationship review and controlled worker-ownership reference workflows. The offered edition and material boundaries govern review.
 - Evidence and validation: E2 — Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
 Offered first-party scope: Specifically agreed first-party implementation and documentation for 1.4.0. The previously priced acquisition, graph, entity, evidence and defensive-control foundations are reused once. Third-party source entitlements, real shared persistence/queue deployment, production multi-node acceptance and legal/operational certification are excluded.
@@ -78,19 +78,24 @@ Development: No separate open candidate at the reviewed snapshot.
 | Risk-adjusted strategic reference | 1,751,926 | 1,921,512 |
 | Weighted economic reference | 1,456,512 | 1,597,502 |
 
-The retained expressly priced scope and successive non-overlapping implementation budgets reconcile below. Equivalent effort and historical anchors remain seller assumptions; actual expenditure, independent quotations and market value are not established. The previously priced acquisition, graph, entity, evidence and defensive-control foundations are reused once. Third-party source entitlements, real shared persistence/queue deployment, production multi-node acceptance and legal/operational certification are excluded.
+Published baseline retained once: recreation EUR 977,500, seller ask EUR 206,000. No monetary addition at this snapshot. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Retain the published EUR 206,000 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
+
+
 ## Individual source review
 
-Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source README describes authorized exact-host network collection, durable leases/attempt fencing, retry and noninvasive challenge handling; execution logs not re-run at the assessed commit.
+Reviewed first-party work: Entity resolution and evidence-fabric domain; Persistence, hash integrity and concurrent state handling; Entity review interfaces, imports and evidence export. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: A committed test harness is not PASS; no license for unrelated online sources or circumvention of challenges; original first-party title and third-party access rights require due diligence.
 
-Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
+Price decision: Retain the published EUR 206,000 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -98,6 +103,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/aletheia-intelligence-fabric/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/aletheia-intelligence-fabric/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

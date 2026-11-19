@@ -25,6 +25,7 @@ Connected-system modelling, scenario comparison and offline forecasting research
 - Organise governed research inputs
 - Review separated evaluation evidence
 - Export portable offline study packages
+- Written development: Evaluator handoff, absent-evidence handling and admission contracts
 
 ## Output types
 
@@ -42,16 +43,16 @@ Connected-system modelling, scenario comparison and offline forecasting research
 - Technical scope: P — A research engine for modelling connected systems, comparing bounded decisions and examining reproducible offline forecast studies. The offered edition and material boundaries govern review.
 - Evidence and validation: E3 — Tests, validation and provenance/release evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T1 — Implementation exists but core transfer evidence is incomplete. The listed conditions and written delivery agreement govern acceptance.
 
-Offered first-party scope: Specifically agreed first-party 0.7.0 foundations and implemented research extensions through Q2-C6, documentation and retained developer evidence. The scope requires an agreed source edition and recipient acceptance.
+Offered first-party scope: The agreed first-party main work and separately identified written development delta, with their distinct source manifests and acceptance status. Future completion, operations and third-party entitlements require separate terms.
 
-Development: Open, unmerged development: Q2-C7: bounded evaluator handoff with explicit absent evidence This is outside the offered main-source budget.
+Development: Evaluator handoff, absent-evidence handling and admission contracts. Written first-party work; release acceptance remains unresolved.
 
 ## Conditions before handover
 
-- Agree and freeze the exact first-party delivery edition, rights, third-party obligations and excluded content.
+- Freeze the agreed main and written-development sources, first-party rights, pending acceptance and delivery manifest before transfer.
 - Review source-specific reproducibility, component and security documentation under agreed confidentiality.
 - Complete the relevant application qualification and recipient handover acceptance.
 - Complete the separately scoped release-assurance and handover conditions before operational use.
@@ -68,28 +69,34 @@ Development: Open, unmerged development: Q2-C7: bounded evaluator handoff with e
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 64,000 | 70,195 |
-| Negotiation reference - low | 50,500 | 55,388 |
-| Negotiation reference - high | 80,000 | 87,744 |
-| Recreation cost estimate | 213,000 | 233,618 |
-| Marketability cost scenario | 171,092 | 187,654 |
-| Monetisation cost scenario | 122,209 | 134,039 |
-| Risk-adjusted strategic reference | 84,833 | 93,045 |
-| Weighted economic reference | 141,602 | 155,309 |
+| Seller asking reference | 69,500 | 76,228 |
+| Negotiation reference - low | 54,900 | 60,214 |
+| Negotiation reference - high | 86,875 | 95,285 |
+| Recreation cost estimate | 232,000 | 254,458 |
+| Marketability cost scenario | 186,354 | 204,393 |
+| Monetisation cost scenario | 133,110 | 145,995 |
+| Risk-adjusted strategic reference | 92,401 | 101,345 |
+| Weighted economic reference | 154,233 | 169,163 |
 
-The recreation estimate comprises the retained expressly priced scope and the separately disclosed non-overlapping implementation budgets. Historical anchors and each successive scoped increment reconcile in the calculation below. Equivalent effort is a seller estimate; market value, actual expenditure and independent quotations are not established. Reuses all priced modelling, forecasting and comparison foundations. Independent scientific replication, predictive-superiority claims, live integration and production acceptance are excluded.
+Published baseline retained once: recreation EUR 213,000, seller ask EUR 64,000. Additional identified work adds recreation EUR 19,000 and ask EUR 5,500. Written development is separately included with acceptance unresolved. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. Every recreation amount has explicit work-package coverage; effort remains assumed.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Preserved seller asking baseline EUR 64,000; add EUR 5,500 for Evaluator handoff, absent-evidence handling and admission contracts. Added recreation allowance EUR 19,000, from 180 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once.
+
+- Evaluator handoff, absent-evidence handling and admission contracts — 180 assumed hours; WRITTEN_CANDIDATE_DELTA
+
 ## Individual source review
 
-Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Source records 627/627 exact-Q2C6 repository tests and 41 command log verifications, portable evaluator replay; Q2-C7 draft has >=642-test gate NOT_RUN.
+Reviewed first-party work: Structural causal models and intervention analysis; Evidence forecasts, evaluation protocols and replay; Causal-model interfaces and research comparison reports. Written development: Evaluator handoff, absent-evidence handling and admission contracts. Existing written work only; acceptance and future completion remain separate. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: Historical multi-domain Q2 prediction-improvement goal NOT_MET; external real prospective evaluation, authentic data custody and scientific independent superiority remain open. PR #43 not merged.
 
-Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
+Price decision: Preserved seller asking baseline EUR 64,000; add EUR 5,500 for Evaluator handoff, absent-evidence handling and admission contracts. Added recreation allowance EUR 19,000, from 180 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -97,6 +104,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/universal-systems-intelligence-engine/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/universal-systems-intelligence-engine/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

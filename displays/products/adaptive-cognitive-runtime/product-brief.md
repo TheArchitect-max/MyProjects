@@ -41,7 +41,7 @@ An experimental cognitive runtime for adaptation, memory and sequential decision
 - Technical scope: V — An experimental cognitive runtime for adaptation, memory and sequential decision studies, with an optional local neural backend and explicit worker-admission controls. The offered edition and material boundaries govern review.
 - Evidence and validation: E3 — Tests, validation and provenance/release evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
 Offered first-party scope: Specifically agreed first-party implementation, documentation and retained evidence for 0.4.6 / BICA 4.6. Third-party software, datasets, models, content, service entitlements and future qualification remain subject to separate terms.
@@ -76,19 +76,24 @@ Development: No separate open candidate at the reviewed snapshot.
 | Risk-adjusted strategic reference | 1,097,622 | 1,203,872 |
 | Weighted economic reference | 1,014,118 | 1,112,285 |
 
-Recreation estimate: EUR 850,000 retained scope component plus EUR 10,000 for the explicitly scoped implementation work budget, giving EUR 860,000. The scoped budget assumes 96 equivalent hours at EUR 94/hour plus 15%, rounded down to EUR 500. The retained scope component has no complete per-role reconstruction budget and remains a low-confidence seller estimate. The asking reference and negotiation bounds preserve the seller-selected asking/cost relationships, rounded to EUR 500; they are transaction assumptions, not measured market value.
+Published baseline retained once: recreation EUR 860,000, seller ask EUR 227,500. No monetary addition at this snapshot. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Retain the published EUR 227,500 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
+
+
 ## Individual source review
 
-Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. README reports 7/7 local focused CPU tests and CPU neural reconstruction smoke; full repository and CUDA GPU Colab archive required for v4.6 qualification.
+Reviewed first-party work: Adaptive cognitive runtime and crossmodal alignment; Curriculum, benchmarks, safety and recovery controls; Experiment configuration and runtime inspection interfaces. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: No v4.6 GPU PASS, AGI, broad autonomous cognition, real-world causal proof or hostile-code sandbox. Full pinned GPU qualification and operational security remain open.
 
-Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
+Price decision: Retain the published EUR 227,500 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -96,6 +101,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/adaptive-cognitive-runtime/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/adaptive-cognitive-runtime/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

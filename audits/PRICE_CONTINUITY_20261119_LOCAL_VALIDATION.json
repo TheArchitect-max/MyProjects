@@ -1,0 +1,259 @@
+{
+  "schema": "price-continuity-publication-validation-1",
+  "date": "2026-11-19",
+  "result": "PASS",
+  "execution": "Local CPU/Node/Python; not a GitHub Actions result",
+  "baselineCommitSha": "b5afc394f226e949f9264dba7b5e5b99f1f60e5e",
+  "controls": [
+    {
+      "check": "validate_acquisition_dossier.py",
+      "exit": 0,
+      "report": {
+        "result": "PASS",
+        "originalFilesPreservedEncrypted": 92,
+        "recoveryKeyPublished": false,
+        "confidentialPlaintextPublished": false,
+        "authenticatedEncryption": "AES-256-GCM"
+      }
+    },
+    {
+      "check": "validate_buyer_information.py",
+      "exit": 0,
+      "report": {
+        "result": "PASS",
+        "publicBuyerDossiers": 129,
+        "assessmentCriteria": 645,
+        "explicitDevelopmentEditions": 44,
+        "handoverConditions": 501,
+        "proposedApplications": 33,
+        "distinctApplicationMembers": 81,
+        "buyerInformationPages": 10,
+        "productBriefsAndDisplaysChecked": 258,
+        "catalogueRows": 129,
+        "standaloneVfxAssetPreserved": true
+      }
+    },
+    {
+      "check": "validate_disclosure.py",
+      "exit": 0,
+      "report": {
+        "result": "PASS",
+        "publicAssets": 129,
+        "publicDocumentsChecked": 387,
+        "registeredSourceHashCount": 988,
+        "privateImplementationPathsAbsent": true,
+        "credentialsAndPersonalContactsAbsent": true,
+        "rawBenchmarkMetricsAbsent": true,
+        "recoveryKeyAbsent": true
+      }
+    },
+    {
+      "check": "validate_identities.py",
+      "exit": 0,
+      "report": {
+        "result": "PASS",
+        "assetIdentities": 129,
+        "uniqueFeminineNames": 129,
+        "displayAndDossierLinks": 258,
+        "pdfIdentitiesChecked": 129,
+        "briefIdentitiesChecked": 129,
+        "identityCsvRows": 129,
+        "verifiedSourceIdentities": 121,
+        "provisionalSourceIdentities": 8,
+        "sourceRepositoryIdentitiesChecked": 0,
+        "unavailableSourceEntries": 0,
+        "publicationRepositoriesExcludedFromAssetCount": 3,
+        "consecutiveNumbering": true,
+        "identifierGaps": [],
+        "legacyContributionRoutesRedirect": true
+      }
+    },
+    {
+      "check": "validate_price_continuity.py",
+      "exit": 0,
+      "report": {
+        "result": "PASS",
+        "baselineAssetsPreserved": 128,
+        "currentAssets": 129,
+        "baselineAskingEUR": 25274000,
+        "additionalAskingEUR": 667000,
+        "currentAskingEUR": 25941000,
+        "distinctAdditionalEditionBudgets": 42,
+        "writtenCandidatesSeparatelyPriced": 40,
+        "staticReviewIdentitiesAndAsksChecked": true,
+        "sourceManifestReconciled": true,
+        "historicalInputsUnchanged": true,
+        "marketValueEstablished": false,
+        "negativeControlsRejected": 3
+      }
+    },
+    {
+      "check": "validate_prices.py",
+      "exit": 0,
+      "report": {
+        "result": "PASS",
+        "usdConversions": 1032,
+        "modelOutputsRecomputed": 516,
+        "costBudgetsReconciled": 181,
+        "completePriceRecords": 129,
+        "monetaryFields": 1032,
+        "portfolioTotalsReconciled": 8,
+        "conditionalFutureReferences": 58,
+        "sources": 6,
+        "askingReferencesConsistentWithBuyerCatalogue": true
+      }
+    },
+    {
+      "check": "validate_project_refresh.py",
+      "exit": 0,
+      "report": {
+        "result": "PASS",
+        "currentFactsheets": 129,
+        "pdfPagesChecked": 516,
+        "protectedPresentationFiles": 11,
+        "preservedNavigationAndNonProjectFunctions": 7,
+        "enquirySelectionControls": 129,
+        "askingReferenceIncreaseEUR": 667000,
+        "underlyingPrivateProductsRerun": false
+      }
+    },
+    {
+      "check": "validate_publication.py",
+      "exit": 0,
+      "report": {
+        "result": "PASS",
+        "approvedPublicProjectRecords": 129,
+        "perProjectSpecificBuyerProfiles": 129,
+        "applicationAreas": 12,
+        "buyerGroups": 10,
+        "allowedHubDataFiles": 13,
+        "privateAssetPortfolioEntries": 129,
+        "provenanceAllowlistApplied": true,
+        "internalDocumentDirectoryAbsent": true,
+        "legacyProfileAndDisplayRoutes": 24,
+        "htmlPages": 315,
+        "internalLinks": 6541,
+        "missingTargets": 0
+      }
+    },
+    {
+      "check": "validate_revaluation.py",
+      "exit": 0,
+      "report": {
+        "result": "PASS",
+        "assessmentRecords": 129,
+        "costCoverage": {
+          "FULL_SCOPED_BUDGET": 33,
+          "PARTIAL_SCOPED_BUDGET": 59,
+          "LEGACY_ESTIMATE_WITHOUT_WORK_BREAKDOWN": 37
+        },
+        "qualificationGradesUnpromoted": true,
+        "marketValueNotEstablished": 129
+      }
+    },
+    {
+      "check": "validate_buyer_showroom.cjs",
+      "exit": 0,
+      "report": {
+        "result": "PASS",
+        "contributionAddressChecksumValid": true,
+        "contributionCopyAndFallbackChecked": true,
+        "buyerProfilesRendered": 129,
+        "mainPagesRendered": 21,
+        "applicationFilters": 12,
+        "buyerFilters": 10,
+        "uniqueProjectPresentations": 129,
+        "perAssetBuyerFitAndDocuments": true,
+        "completePriceRecords": 129,
+        "priceFieldsPerAsset": 8,
+        "priceSourcesLinked": true,
+        "usdAmountsInCollection": 258,
+        "calculationRows": 129,
+        "unknownProjectFieldsRejected": true,
+        "strategicWorkstreams": 6,
+        "distinctStrategicAssets": 26,
+        "officialCompanySources": 8,
+        "strategicSchemaAndFiltersChecked": true
+      }
+    },
+    {
+      "check": "validate_display_publication_math.cjs",
+      "exit": 0,
+      "report": {
+        "result": "PASS",
+        "displayCalculator": "same-as-authoritative",
+        "pricedAssets": 129,
+        "modelOutputs": 516,
+        "usdChecks": 1032,
+        "datedAskingReferencesEUR": 25941000
+      }
+    },
+    {
+      "check": "validate_full_portfolio_offer.cjs",
+      "exit": 0,
+      "report": {
+        "result": "PASS",
+        "fixedDiscountPercent": 10,
+        "packageAskingEUR": 23346900,
+        "savingEUR": 2594100,
+        "futureUpdatesAndAggregateRounding": true,
+        "invalidInputsRejected": 11,
+        "consistentOfferPages": 4,
+        "fullAndIndividualEnquiryPaths": true,
+        "cachedCalculatorUpgrade": true
+      }
+    },
+    {
+      "check": "validate_portfolio_121.cjs",
+      "exit": 0,
+      "report": {
+        "status": "PASS",
+        "assets": 129,
+        "decisions": {
+          "BASELINE_PLUS_SCOPED_WORK": 39,
+          "BASELINE_RETAINED": 89,
+          "INITIAL_SCOPED_REFERENCE": 1
+        },
+        "individualSourcePins": 129,
+        "privateSourceReexecutions": 0,
+        "marketValueEstablished": false
+      }
+    },
+    {
+      "check": "validate_pricing_math.cjs",
+      "exit": 0,
+      "report": {
+        "result": "PASS",
+        "actualChecks": {
+          "projects": 129,
+          "modelOutputs": 516,
+          "usdConversions": 1032,
+          "costBudgets": 181,
+          "conditionalReferences": 58,
+          "portfolioTotals": 8
+        },
+        "halfDollarRounding": true,
+        "mutatedUsdRejected": true,
+        "mutatedModelOutputRejected": true,
+        "mutatedTotalRejected": true,
+        "unknownFactorRejected": true,
+        "neutralSectorDefaultsExplicit": 0
+      }
+    }
+  ],
+  "pdfQA": {
+    "renderedPages": 516,
+    "factsheets": 129,
+    "layoutErrors": []
+  },
+  "sourceFreshness": {
+    "repositories": 129,
+    "currentHeadsAndAllOpenCandidatesRechecked": true,
+    "changesSinceRetainedReview": 0
+  },
+  "boundaries": {
+    "privateProductSuitesRerun": false,
+    "marketValueEstablished": false,
+    "candidateReleaseAcceptanceEstablished": false
+  }
+}

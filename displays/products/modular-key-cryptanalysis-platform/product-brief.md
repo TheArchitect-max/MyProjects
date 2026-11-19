@@ -41,7 +41,7 @@ Adds guarded planner handoff, cooperative search budgets, deterministic analysis
 - Technical scope: V — Adds guarded planner handoff, cooperative search budgets, deterministic analysis sessions, explicit-manual controlled adapter execution and session-level comparison with ambiguity reporting. Automatic cipher-family classification remains unqualified and fails closed. Manual bounded execution does not establish general key recovery or break correctly configured modern encryption.
 - Evidence and validation: E3 — Tests, validation and provenance/release evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
 Offered first-party scope: Existing first-party main-source work: Adds guarded planner handoff, cooperative search budgets, deterministic analysis sessions, explicit-manual controlled adapter execution and session-level comparison with ambiguity reporting. Automatic cipher-family classification remains unqualified and fails closed. Manual bounded execution does not establish general key recovery or break correctly configured modern encryption.
@@ -74,19 +74,24 @@ Development: No separate open candidate at the reviewed snapshot.
 | Risk-adjusted strategic reference | 127,618 | 139,971 |
 | Weighted economic reference | 315,911 | 346,491 |
 
-Non-overlapping implemented main-source increment: 220 assumed hours at EUR 94/hour, 15% allowance, EUR 23,500 adopted recreation increment and EUR 7,000 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project. Earlier priced work is counted once; its legacy uncertainty remains.
+Published baseline retained once: recreation EUR 507,000, seller ask EUR 109,500. No monetary addition at this snapshot. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Retain the published EUR 109,500 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
+
+
 ## Individual source review
 
-Current main README, full Git inventory and comparison with the prior reviewed main identify this implemented change: Adds guarded planner handoff, cooperative search budgets, deterministic analysis sessions, explicit-manual controlled adapter execution and session-level comparison with ambiguity reporting. Retained acceptance is source-reported and remains bound to its original source and environment.
+Reviewed first-party work: Classical cipher adapters and manual recovery operations; Search budgets, planner handoff and comparison sessions; Analysis interfaces, ambiguity records and exports. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: Automatic cipher-family classification remains unqualified and fails closed. Manual bounded execution does not establish general key recovery or break correctly configured modern encryption.
 
-Price decision: Non-overlapping implemented main-source increment: 220 assumed hours at EUR 94/hour, 15% allowance, EUR 23,500 adopted recreation increment and EUR 7,000 asking increment. No premium for version labels, test counts, unmerged work, intended outcomes or another project.
+Price decision: Retain the published EUR 109,500 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -94,6 +99,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/modular-key-cryptanalysis-platform/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/modular-key-cryptanalysis-platform/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

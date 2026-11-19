@@ -43,7 +43,7 @@ Deterministic state-transition integrity and compact audit software with selecti
 - Technical scope: V — Deterministic state-transition integrity and compact audit software with selective disclosure, signed audit commitments and a scoped successor-key lifecycle candidate. The offered edition and material boundaries govern review.
 - Evidence and validation: E2 — Current full local replay reports failed tests. The new lifecycle tests supply incomplete anchor fixtures to the actual lower-layer verifier; the current release is not fully qualified. Independent recipient and intended-use acceptance remain separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
 Offered first-party scope: The earlier specifically priced first-party state-integrity scope remains the cost anchor. The 0.9.0 scoped key-lifecycle implementation is disclosed as a candidate with unresolved integration checks and no added monetary premium. External authority, deployed security and independently accepted handover are excluded.
@@ -80,19 +80,24 @@ Development: No separate open candidate at the reviewed snapshot.
 | Risk-adjusted strategic reference | 352,398 | 386,510 |
 | Weighted economic reference | 527,089 | 578,111 |
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance. Review on 2026-11-03: The earlier specifically priced first-party state-integrity scope remains the cost anchor. The 0.9.0 scoped key-lifecycle implementation is disclosed as a candidate with unresolved integration checks and no added monetary premium. External authority, deployed security and independently accepted handover are excluded.
+Published baseline retained once: recreation EUR 625,000, seller ask EUR 115,000. No monetary addition at this snapshot. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Retain the published EUR 115,000 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
+
+
 ## Individual source review
 
-Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. Retained internal v0.9 report documents 25/25 scoped harness tests for v2 lifecycle/CLI; full historical private checkout tests not reexecuted in that environment.
+Reviewed first-party work: Causal-graph records and canonical state encoder; Inclusion proofs, receipts, signing and recovery; Graph interfaces, key lifecycle and evidence export. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: No independent trusted time, global revocation, physical HSM custody, legal PKI identity or independent penetration-testing assurance.
 
-Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
+Price decision: Retain the published EUR 115,000 seller reference from the pinned baseline. No additional separately priced first-party implementation is established at this snapshot; documentation/identity corrections and dependency-only proposals receive no automatic premium.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -100,6 +105,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/causal-state-field-engine/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/causal-state-field-engine/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.

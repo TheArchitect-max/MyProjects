@@ -25,6 +25,7 @@ An implemented prototype for evaluation and further development.
 - Compare validation outcomes
 - Govern candidate acceptance
 - Recover and replay retained states
+- Written development: Transactional lifecycle, strict contracts and concurrency controls
 
 ## Output types
 
@@ -41,16 +42,16 @@ An implemented prototype for evaluation and further development.
 - Technical scope: P — An adaptive learning-model prototype for governed development and candidate acceptance. The offered edition and material boundaries govern review.
 - Evidence and validation: E2 — Tests plus validation/qualification evidence identified. Detailed source-specific records are reviewed under agreed confidentiality; independent intended-use acceptance remains separate.
 - Rights and component obligations: R2 — R1 plus dependency/third-party disclosure basis identified. Review the agreed first-party rights, third-party obligations and delivery perimeter.
-- Commercial basis: C2 — Seller ask and reproducible economic reference established. Market value is not established.
+- Commercial basis: C2 — Dated seller reference with disclosed baseline and additional-work arithmetic. No attributable income or observed IP transaction establishes market value.
 - Delivery and handover: T3 — T2 plus validation, build/release and dependency-disclosure evidence. The listed conditions and written delivery agreement govern acceptance.
 
-Offered first-party scope: Seller-owned first-party rights plus specifically agreed transferable software/delivery artifacts; website displays and third-party ownership rights excluded from standalone software asset value.
+Offered first-party scope: The agreed first-party main work and separately identified written development delta, with their distinct source manifests and acceptance status. Future completion, operations and third-party entitlements require separate terms.
 
-Development: Open, unmerged development: ANAP v0.6: transactional lifecycle, strict contracts, and concurrency safety This is outside the offered main-source budget.
+Development: Transactional lifecycle, strict contracts and concurrency controls. Written first-party work; release acceptance remains unresolved.
 
 ## Conditions before handover
 
-- Dependency manifest exists without an identified lockfile; reproducibility should be reviewed.
+- Freeze the agreed main and written-development sources, first-party rights, pending acceptance and delivery manifest before transfer.
 - A detailed component inventory and licensing report are required for the agreed delivery scope.
 - Release identity and provenance evidence remain incomplete.
 - An explicit delivery manifest and handover scope remain to be agreed.
@@ -67,28 +68,34 @@ Development: Open, unmerged development: ANAP v0.6: transactional lifecycle, str
 
 | Reference | EUR | Indicative USD |
 |---|---:|---:|
-| Seller asking reference | 190,000 | 208,392 |
-| Negotiation reference - low | 150,000 | 164,520 |
-| Negotiation reference - high | 240,000 | 263,232 |
-| Recreation cost estimate | 1,000,000 | 1,096,800 |
-| Marketability cost scenario | 1,075,250 | 1,179,334 |
-| Monetisation cost scenario | 860,625 | 943,934 |
-| Risk-adjusted strategic reference | 901,545 | 988,815 |
-| Weighted economic reference | 952,716 | 1,044,939 |
+| Seller asking reference | 199,500 | 218,812 |
+| Negotiation reference - low | 157,600 | 172,856 |
+| Negotiation reference - high | 251,875 | 276,257 |
+| Recreation cost estimate | 1,032,000 | 1,131,898 |
+| Marketability cost scenario | 1,109,658 | 1,217,073 |
+| Monetisation cost scenario | 888,165 | 974,139 |
+| Risk-adjusted strategic reference | 930,394 | 1,020,456 |
+| Weighted economic reference | 983,203 | 1,078,377 |
 
-The retained recreation anchor has no explicit per-role work-package budget in the current methodology register. It remains a low-confidence seller estimate requiring reconstruction before reliance.
+Published baseline retained once: recreation EUR 1,000,000, seller ask EUR 190,000. Additional identified work adds recreation EUR 32,000 and ask EUR 9,500. Written development is separately included with acceptance unresolved. Historical budget confidence remains unchanged; these are seller cost assumptions and asking choices.
 
-Coverage describes the stated seller budget, not actual expenditure or an independent quotation. The retained legacy component lacks complete work-package support; additions do not validate that component.
+Budget coverage concerns the declared recreation estimate. Historical base uncertainty is retained; additional effort is assumed, not logged time, expenditure, an independent quotation or candidate acceptance.
 
 EUR 1 = USD 1.0968; ECB 2026-11-18. EUR is authoritative; market value is not established.
 
+### Baseline and additional-work reconciliation
+
+Preserved seller asking baseline EUR 190,000; add EUR 9,500 for Transactional lifecycle, strict contracts and concurrency controls. Added recreation allowance EUR 32,000, from 300 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once.
+
+- Transactional lifecycle, strict contracts and concurrency controls — 300 assumed hours; WRITTEN_CANDIDATE_DELTA
+
 ## Individual source review
 
-Current main README and full Git inventory rechecked at the same immutable main revision as the preceding assessment. README documents held-out validation, integrity-bound checkpoint and rollback, early stopping, replay snapshots and canary checks; no fresh model-quality benchmark execution in this review.
+Reviewed first-party work: Adaptive neural shared core and prequential modelling; Drift, replay, task state and bounded world model; Training interfaces, qualification and experiment output. Written development: Transactional lifecycle, strict contracts and concurrency controls. Existing written work only; acceptance and future completion remain separate. Source-native validation records remain reported evidence; no fresh product execution or independent scientific acceptance is claimed.
 
 Remaining limits: Identity-preserving network growth is not demonstrated general intelligence or broad model superiority; synthetic policies, real canary thresholds and production security remain unqualified.
 
-Price decision: The individually rechecked current-main source is unchanged from the preceding assessment. Retain this project-specific seller asking reference and its disclosed cost-evidence confidence. Open development, if present, adds no automatic value to the offered main scope.
+Price decision: Preserved seller asking baseline EUR 190,000; add EUR 9,500 for Transactional lifecycle, strict contracts and concurrency controls. Added recreation allowance EUR 32,000, from 300 assumed equivalent hours at EUR 94/hour plus 15%, rounded down per edition to EUR 500; ask addition is 30% of each allowance rounded down to EUR 500. Existing work is counted once.
 
 Documentary review only; private product tests were not re-executed in this website update.
 
@@ -96,6 +103,6 @@ The seller offers only the expressly agreed first-party rights it owns or contro
 
 [Full dossier](https://thearchitect-max.github.io/MyProjects/projects/adaptive-neural-architecture-platform/) · [Project display](https://thearchitect-max.github.io/MyProjects/displays/products/adaptive-neural-architecture-platform/)
 
-- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): Method selection and the cost-versus-value boundary; no asset amount or discount is supplied by WIPO.
+- [WIPO](https://www.wipo.int/web-publications/intellectual-property-valuation-basics-for-technology-transfer-professionals/en/4-the-cost-method.html): WIPO informs the distinction between cost, market and income methods. It supplies no project amount, endorsement, independent appraisal or guaranteed price floor.
 - [Knab](https://bieb.knab.nl/ondernemen/wat-verdient-een-software-developer-zzp-bekijk-uurtarief-en-winst): EUR 94/hour contextualises the new scoped seller estimates. Effort, 15% coordination allowance and 30% asking increment are seller assumptions. Older specialist-rate budgets remain separate.
 - [Upwork](https://www.upwork.com/hire/software-developers/): Broad contractor-rate context only. No asset valuation, Dutch quote or expert-tier premium is inferred.
