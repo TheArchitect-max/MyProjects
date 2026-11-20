@@ -28,6 +28,10 @@ Connections now describe 37 source-reviewed workflow proposals involving 84 dist
 
 The current interface and publication generator use `assets/application-combinations-v2.json`; the original v1 endpoint remains unchanged for cached previous bundles. The separate “Strategic fit · Company-specific opportunities” analysis links existing assets to factual business contexts and the central Sources register. Independent seller-authored analysis. No affiliation, endorsement, commissioning or buyer interest is claimed. The visual-effects platform remains standalone.
 
+## Musk company-specific acquisition economics
+
+The existing [Strategic fit / Musk company contexts](https://thearchitect-max.github.io/MyProjects/musk.html#economic-case) page now includes a separately labelled buyer-side financial screening. It derives 14 SpaceX/xAI/Starlink assets, 26 unique workstream assets, and all 128 assets from the source-backed catalogues; estimates buyer cash-flow capacity and the alternative buy-versus-build threshold; and preserves all existing recreation and seller asking references. All buyer benefits and integration costs are transparent scenario inputs, not buyer evidence or certified market value. See [method, exact inputs and test boundaries](MUSK_STRATEGIC_ACQUISITION_ECONOMICS_2026-11-20.md).
+
 ## Publication and verification
 
 The website is a static presentation of professional services and software-IP acquisition opportunities. It does not run the underlying products, host accounts, submit enquiries or process payments. Enquiry controls prepare drafts locally. The original visual style, artwork and optional music remain part of the presentation.

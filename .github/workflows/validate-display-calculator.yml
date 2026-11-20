@@ -20,12 +20,19 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
+          fetch-depth: 0  # showroom regression reads a frozen historical Git snapshot
       - name: Validate official financial arithmetic
         run: node tools/validate_pricing_math.cjs
       - name: Validate copied display calculator and public values
         run: node tools/validate_display_publication_math.cjs
       - name: Validate full-portfolio offer and enquiry scope
         run: node tools/validate_full_portfolio_offer.cjs
+      - name: Validate full public buyer showroom including strategic acquisition economics
+        run: node tools/validate_buyer_showroom.cjs
+      - name: Verify page generator syntax and portfolio documentation
+        run: |
+          python -c "import ast,pathlib; ast.parse(pathlib.Path('tools/build_pages.py').read_text(encoding='utf-8'))"
+          test -s MUSK_STRATEGIC_ACQUISITION_ECONOMICS_2026-11-20.md
       - name: Verify CI did not alter the publication
         run: |
           git diff --exit-code
