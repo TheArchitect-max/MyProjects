@@ -54,3 +54,32 @@
 .contribution-layout{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:3rem;align-items:start}.contribution-copy,.contribution-card{min-width:0}.contribution-copy h2:first-child{margin-top:0}.contribution-card{padding:2rem;border:1px solid var(--line);background:rgba(124,84,47,.08)}.contribution-card h2{margin-top:.7rem}.contribution-card label{display:block;color:var(--gold);font-size:.85rem;margin:1.5rem 0 .6rem}.contribution-card textarea{display:block;width:100%;max-width:100%;resize:none;box-sizing:border-box;background:#100c08;border:1px solid var(--line);border-radius:3px;color:var(--ivory);font:1rem/1.6 ui-monospace,monospace;overflow-wrap:anywhere;word-break:break-all;padding:1rem;margin-bottom:1rem}.contribution-card .boundary-note{margin-top:1.8rem}.contribution-card .boundary-note p{margin-bottom:0}.contribution-introduction .strategic-crosslink{margin-bottom:0}
 @media(max-width:800px){.contribution-layout{grid-template-columns:1fr;gap:2rem}.contribution-card{padding:1.2rem}.contribution-card .btn{white-space:normal}}
 @media print{.contribution-layout{display:block}.contribution-card{break-inside:avoid}.contribution-card textarea{color:#111;background:white}.contribution-card button,.contribution-card [role=status]{display:none}}
+
+
+/* Strategic acquisition economics · clearly separated from seller financial references. */
+.strategic-economics{scroll-margin-top:2rem}
+.economic-scroll{overflow-x:auto;max-width:100%;margin:2rem 0}
+.economic-table{width:100%;min-width:620px;border-collapse:collapse;font-size:.82rem}
+.economic-table caption{text-align:left;color:var(--muted);font-size:.76rem;line-height:1.6;margin-bottom:1rem}
+.economic-table th,.economic-table td{border-bottom:1px solid var(--line);padding:1rem .7rem;text-align:left;vertical-align:top}
+.economic-table th:first-child{min-width:215px}
+.economic-table thead th{color:var(--gold);font-size:.7rem;letter-spacing:.035em}
+.economic-table td:nth-child(n+2){white-space:nowrap;font-variant-numeric:tabular-nums}
+.economic-subtotal{background:rgba(201,164,104,.09)}
+.economic-subtotal th{color:var(--ivory);font-weight:650}
+.economic-model{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:2.2rem;padding:2rem;border:1px solid var(--line);background:rgba(124,84,47,.07);margin:2rem 0;align-items:start}
+.economic-model>div{min-width:0}
+.economic-model h3{font-family:var(--serif);font-size:clamp(1.55rem,2.4vw,2.25rem);line-height:1.2;margin:.7rem 0 1rem}
+.economic-controls{display:grid;gap:1.1rem;margin-top:1.7rem}
+.economic-controls label{display:block;color:var(--gold);font-size:.8rem}
+.economic-controls input,.economic-controls select{box-sizing:border-box;display:block;width:100%;max-width:100%;margin-top:.45rem;background:#100c08;border:1px solid var(--line);color:var(--ivory);border-radius:3px;padding:.8rem .9rem;font:inherit;font-size:.9rem}
+.economic-controls input:focus-visible,.economic-controls select:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.economic-output{padding:1.2rem;border:1px solid var(--line)}
+.economic-output dl{margin:1.2rem 0}
+.economic-output dl>div{border-bottom:1px solid var(--line);padding:.9rem 0;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:1rem;align-items:baseline}
+.economic-output dt{font-size:.74rem;line-height:1.5;color:var(--muted)}
+.economic-output dd{margin:0;color:var(--ivory);font:1.07rem var(--serif);font-variant-numeric:tabular-nums;text-align:right}
+.economic-output .fine{line-height:1.6}
+@media(max-width:850px){.economic-model{grid-template-columns:1fr;padding:1.3rem;gap:1.3rem}}
+@media(max-width:500px){.economic-output dl>div{grid-template-columns:1fr;gap:.25rem}.economic-output dd{text-align:left}.economic-table{min-width:580px}}
+@media print{.economic-model{display:block;background:#fff}.economic-controls{display:none}.economic-output{margin-top:1rem}.economic-output dd,.economic-subtotal th{color:#222}.economic-output dt{color:#444}}
