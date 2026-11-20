@@ -59,7 +59,7 @@ vm.createContext(sandbox);vm.runInContext(source,sandbox);
  assert(economics.includes('id="economic-case"'));
  for(const id of ['acq-scope','acq-annual','acq-integration','acq-rate','acq-years','acq-value','acq-breakeven','acq-avoid'])assert(economics.includes('id="'+id+'"'));
  assert(economics.includes('WIPO income approach')&&economics.includes('SpaceX Q3 2026 SEC filing'));
- assert(economics.includes('no company-specific benefit')===false);
+ assert(economics.includes('no company-specific benefit'));
  assert(economics.includes('unverified illustrative assumptions'));
  const musk=r.muskPage(d);assert(musk.includes('sources.html#strategic-company-sources'));assert(!musk.includes('href="#company-sources-'));assert.equal((musk.match(/data-strategic-asset=/g)||[]).length,26);assert.equal((musk.match(/data-strategic-route=/g)||[]).length,6);assert.equal((musk.match(/data-strategic-source=/g)||[]).length,0);assert.equal((r.sourcesPage(d).match(/data-strategic-source=/g)||[]).length,8);
  assert(musk.includes('id="economic-case"'));assert(musk.includes('14</td>'));assert(musk.includes('128</td>'));
