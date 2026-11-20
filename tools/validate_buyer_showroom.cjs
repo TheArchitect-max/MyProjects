@@ -42,7 +42,7 @@ vm.createContext(sandbox);vm.runInContext(source,sandbox);
 
  const scopes=r.strategicEconomicScopes(d);
  assert.equal(scopes.length,3);
- assert.deepEqual(scopes.map(s=>[s.count,s.ask,s.recreation]),[[14,3465000,12358000],[26,6550500,23428500],[128,23279400,108811500]]);
+ assert.equal(JSON.stringify(scopes.map(s=>[s.count,s.ask,s.recreation])),JSON.stringify([[14,3465000,12358000],[26,6550500,23428500],[128,23279400,108811500]]));
  assert.equal(scopes[2].rawAsk,25866000);
  const defaultCase=r.strategicEconomicModel(scopes[0],5000000,25,15,5);
  assert.equal(defaultCase.cost,866250);
