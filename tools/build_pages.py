@@ -15,7 +15,11 @@ def shell(title,summary,canonical,interview_url=''):
  elif canonical == BASE:
   fallback = ' · <a href="/MyProjects/interviews/">Interviews with Harm Booij</a>'
  html = '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#070604"><meta name="color-scheme" content="dark"><title>'+escape(title)+' — THEARCHITECT_MAX</title><meta name="description" content="'+escape(summary,quote=True)+'"><meta property="og:title" content="'+escape(title,quote=True)+'"><meta property="og:description" content="'+escape(summary,quote=True)+'"><meta property="og:type" content="website"><link rel="canonical" href="'+canonical+'"><link rel="stylesheet" href="/MyProjects/assets/im4.css?v=im36"><link rel="stylesheet" href="/MyProjects/assets/buyer-showroom.css?v=seller14">'+('<link rel="stylesheet" href="/MyProjects/assets/connections-review.css?v=connections1">' if canonical.endswith('/connections.html') else '')+'</head><body><div id="app"'+attribute+'><main id="main"><section class="page-hero"><div class="shell"><p class="eyebrow">THEARCHITECT_MAX</p><h1>Software IP acquisition catalogue.</h1><p>Review independent assets, their purpose and buyer information.</p></div></section></main></div><script src="/MyProjects/assets/pricing-math.js?v=calc16" defer></script><script src="/MyProjects/assets/im.js?v=showroom42-interviews-20261120" defer></script><script src="/MyProjects/assets/audio-player.js?v=music3" defer></script><noscript><p><a href="/MyProjects/displays/">Open the complete project presentation collection</a>'+fallback+'</p></noscript></body></html>\n'
- return html.replace('seller14','seller16-quality-reference-20261121').replace('showroom42-interviews-20261120','showroom44-quality-reference-20261121') if canonical.endswith('/musk.html') else html
+ if canonical.endswith('/musk.html'):
+  return html.replace('seller14','seller16-quality-reference-20261121').replace('showroom42-interviews-20261120','showroom44-quality-reference-20261121')
+ if canonical == BASE:
+  return html.replace('seller14','seller17-completion-20261121').replace('showroom42-interviews-20261120','showroom45-completion-20261121')
+ return html
 
 def redirect(url,ref=''):
  script='const u=new URL('+json.dumps(url)+',location.href);u.search=location.search;u.hash=location.hash;location.replace(u.href);'
