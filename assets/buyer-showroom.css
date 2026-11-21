@@ -83,3 +83,25 @@
 @media(max-width:850px){.economic-model{grid-template-columns:1fr;padding:1.3rem;gap:1.3rem}}
 @media(max-width:500px){.economic-output dl>div{grid-template-columns:1fr;gap:.25rem}.economic-output dd{text-align:left}.economic-table{min-width:580px}}
 @media print{.economic-model{display:block;background:#fff}.economic-controls{display:none}.economic-output{margin-top:1rem}.economic-output dd,.economic-subtotal th{color:#222}.economic-output dt{color:#444}}
+
+
+/* Musk strategic-fit page: company-independent engineering benchmark and legal limits. */
+.quality-reference{scroll-margin-top:2rem;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.quality-reference-layout{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(275px,.85fr);gap:clamp(2rem,4vw,4.5rem);align-items:start}
+.quality-reference-main{min-width:0}
+.quality-reference-main h2{font-family:var(--serif);font-size:clamp(2rem,3.9vw,3.65rem);line-height:1.13;letter-spacing:-.035em;max-width:17ch;margin:.8rem 0 1.5rem;color:var(--ivory)}
+.quality-reference-main h2 em{color:var(--gold);font-weight:400}
+.quality-reference-main p{max-width:69ch}
+.quality-reference-lede{font-size:clamp(1rem,1.5vw,1.23rem);line-height:1.65;color:var(--ivory)}
+.quality-reference-main .actions{margin-top:1.6rem;display:flex;flex-wrap:wrap;gap:.75rem}
+.quality-reference-boundary{min-width:0;border:1px solid var(--line);padding:clamp(1.25rem,2.4vw,2.1rem);background:rgba(124,84,47,.09);overflow-wrap:break-word}
+.quality-reference-boundary h3{font:1.65rem/1.2 var(--serif);margin:.9rem 0 1.3rem;color:var(--ivory)}
+.quality-reference-boundary p{font-size:.88rem;line-height:1.7}
+.quality-reference-boundary .fine{font-size:.76rem}
+.quality-reference-boundary details{margin-top:1rem;border-top:1px solid var(--line);padding-top:1rem}
+.quality-reference-boundary summary{cursor:pointer;color:var(--gold);font-size:.82rem;font-weight:600}
+.quality-reference-boundary summary:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.quality-reference-boundary a{color:var(--gold);text-underline-offset:3px}
+@media(max-width:880px){.quality-reference-layout{grid-template-columns:1fr}.quality-reference-main h2{max-width:22ch}}
+@media(max-width:520px){.quality-reference-main .actions{flex-direction:column;align-items:stretch}.quality-reference-main .actions .btn{white-space:normal;text-align:center}.quality-reference-boundary{padding:1.1rem}}
+@media print{.quality-reference-layout{display:block}.quality-reference-boundary{margin-top:1.5rem;background:#fff;color:#222}.quality-reference-main h2,.quality-reference-boundary h3{color:#222}}
