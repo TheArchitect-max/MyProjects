@@ -62,6 +62,24 @@ vm.createContext(sandbox);vm.runInContext(source,sandbox);
  assert(economics.includes('no company-specific benefit'));
  assert(economics.includes('unverified illustrative assumptions'));
  const musk=r.muskPage(d);assert(musk.includes('sources.html#strategic-company-sources'));assert(!musk.includes('href="#company-sources-'));assert.equal((musk.match(/data-strategic-asset=/g)||[]).length,26);assert.equal((musk.match(/data-strategic-route=/g)||[]).length,6);assert.equal((musk.match(/data-strategic-source=/g)||[]).length,0);assert.equal((r.sourcesPage(d).match(/data-strategic-source=/g)||[]).length,8);
+
+ // Company-independent quality reference is a development ambition, never implied buyer approval.
+ assert.equal((musk.match(/id="engineering-reference"/g)||[]).length,1);
+ assert(musk.includes('Engineered for the most demanding technological environments.'));
+ assert(musk.includes('Accessible to companies of every scale.'));
+ assert(musk.includes('Independent, proprietary software and research assets developed against rigorous engineering principles'));
+ assert(musk.includes('without independently recreating its entire development foundation'));
+ assert(musk.includes('A benchmark for how the work is approached, not a claim of external qualification.'));
+ assert(musk.includes('Reference context, not endorsement'));
+ assert(musk.includes('They have <strong>not</strong> been shown to test, approve, certify, procure, sponsor or endorse'));
+ assert(musk.includes('No asset is represented here as independently qualified'));
+ assert(musk.includes('no savings, readiness or outcomes are guaranteed'));
+ assert(musk.includes('Third-party names and trade marks remain the property of their respective owners'));
+ assert(musk.includes('https://business.gov.nl/regulations/advertising/'));
+ assert(musk.includes('https://eur-lex.europa.eu/eli/dir/2006/114'));
+ assert(musk.includes('href="'+new URL('portfolio.html','https://thearchitect-max.github.io/MyProjects/').href+'"'));
+ assert(musk.indexOf('id="engineering-reference"')<musk.indexOf('id="economic-case"'));
+ assert(musk.includes('Independent seller-authored analysis. No affiliation, endorsement, commissioning or buyer interest is claimed.'));
  assert(musk.includes('id="economic-case"'));assert(musk.includes('14</td>'));assert(musk.includes('128</td>'));
  assert(musk.includes('No strategic-fit premium or package discount is added'));assert(musk.includes('Market value is not established'));assert(musk.includes('General project connections'));assert(!/github.com\/TheArchitect-max\/Strategic-Software/.test(musk));
  for(const row of strategicRows){const a=row.asset;assert(musk.includes('data-strategic-display="'+a.ref+'"'));for(const key of ['title','referenceName'])assert(musk.includes(a[key].replaceAll('&','&amp;')));for(const key of ['displayUrl','profileUrl','factsheetUrl','briefUrl'])assert(musk.includes(a[key]));}
