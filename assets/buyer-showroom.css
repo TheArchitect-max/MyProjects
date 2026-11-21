@@ -105,3 +105,18 @@
 @media(max-width:880px){.quality-reference-layout{grid-template-columns:1fr}.quality-reference-main h2{max-width:22ch}}
 @media(max-width:520px){.quality-reference-main .actions{flex-direction:column;align-items:stretch}.quality-reference-main .actions .btn{white-space:normal;text-align:center}.quality-reference-boundary{padding:1.1rem}}
 @media print{.quality-reference-layout{display:block}.quality-reference-boundary{margin-top:1.5rem;background:#fff;color:#222}.quality-reference-main h2,.quality-reference-boundary h3{color:#222}}
+
+
+/* Homepage: portfolio-wide ambition, clearly distinct from demonstrated asset maturity. */
+.completion-commitment{scroll-margin-top:2rem}
+.completion-commitment-inner{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.2fr);gap:clamp(2rem,4.5vw,5rem);padding:clamp(1.5rem,3vw,3.5rem) 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);align-items:start}
+.completion-commitment-heading,.completion-commitment-copy{min-width:0}
+.completion-commitment-heading h2{font-family:var(--serif);font-size:clamp(2rem,3.7vw,3.6rem);line-height:1.14;letter-spacing:-.03em;margin:1.1rem 0 1.5rem;color:var(--ivory)}
+.completion-commitment-heading .fine{max-width:34ch;line-height:1.6}
+.completion-commitment-copy p{color:var(--ivory);font-size:clamp(.94rem,1.15vw,1.05rem);line-height:1.8;margin:0 0 1.45rem}
+.completion-commitment-copy p:nth-child(2){color:var(--muted)}
+.completion-commitment-copy p:last-of-type{padding-left:1.2rem;border-left:2px solid var(--gold);font-size:.88rem}
+.completion-commitment-copy .actions{margin-top:1.9rem;display:flex;flex-wrap:wrap;gap:.75rem}
+@media(max-width:880px){.completion-commitment-inner{grid-template-columns:1fr;gap:1rem}.completion-commitment-heading h2{max-width:26ch}.completion-commitment-heading .fine{max-width:none}}
+@media(max-width:520px){.completion-commitment-copy .actions{display:flex;flex-direction:column;align-items:stretch}.completion-commitment-copy .actions .btn{white-space:normal;text-align:center}}
+@media print{.completion-commitment-inner{display:block}.completion-commitment-heading h2{color:#222}.completion-commitment-copy p{color:#222}}

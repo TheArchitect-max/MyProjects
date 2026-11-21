@@ -32,6 +32,10 @@ The current interface and publication generator use `assets/application-combinat
 
 The existing [Strategic fit / Musk company contexts](https://thearchitect-max.github.io/MyProjects/musk.html#economic-case) page now includes a separately labelled buyer-side financial screening. It derives 14 SpaceX/xAI/Starlink assets, 26 unique workstream assets, and all 128 assets from the source-backed catalogues; estimates buyer cash-flow capacity and the alternative buy-versus-build threshold; and preserves all existing recreation and seller asking references. All buyer benefits and integration costs are transparent scenario inputs, not buyer evidence or certified market value. See [method, exact inputs and test boundaries](MUSK_STRATEGIC_ACQUISITION_ECONOMICS_2026-11-20.md).
 
+## Portfolio-wide complete product realization commitment
+
+The [homepage statement](https://thearchitect-max.github.io/MyProjects/#completion-commitment) records the portfolio-wide long-term objective of pursuing each project's fully defined vision through structured, evidence-driven development, subject to technical feasibility, validation, available resources and applicable requirements. This is a **future development commitment, not a claim of current completion or guaranteed delivery**. Each asset retains independent technical scope and IP identity. The owner is developing the individual `Ultimate Objective`, `Current Development Status` and `Remaining Development Roadmap` materials separately; **no such project-level fields have been published or inferred by this change**. See [approved wording and publication boundaries](PORTFOLIO_COMPLETION_COMMITMENT_2026-11-21.md).
+
 ## Publication and verification
 
 The website is a static presentation of professional services and software-IP acquisition opportunities. It does not run the underlying products, host accounts, submit enquiries or process payments. Enquiry controls prepare drafts locally. The original visual style, artwork and optional music remain part of the presentation.

@@ -92,6 +92,27 @@ vm.createContext(sandbox);vm.runInContext(source,sandbox);
  let loadedMathScripts=0;const cachedShell={...sandbox,PricingMath:undefined,document:{currentScript:sandbox.document.currentScript,createElement:tag=>{assert.equal(tag,'script');return {}},head:{appendChild:script=>{assert.equal(new URL(script.src).pathname,'/MyProjects/assets/pricing-math.js');loadedMathScripts++;cachedShell.PricingMath=require(path.join(root,'assets/pricing-math.js'));script.onload()}}}};
  vm.createContext(cachedShell);vm.runInContext(source,cachedShell);const cachedData=await cachedShell.showroom.load();assert.equal(cachedData.calculation.status,'PASS');assert.equal(loadedMathScripts,1);
  const navigation=r.home(d).match(/<nav class="nav-links"[\s\S]*?<\/nav>/)[0];assert.equal((navigation.match(/<a /g)||[]).length,20);assert(navigation.includes('interviews/">Interviews</a>'));assert(r.home(d).includes('Private technology.<br><em>Public proof.</em>'));assert(r.home(d).includes('Philosopher in Meditation'));assert(r.dossierPage(d).includes('128 assets'));
+
+ // Portfolio-level ambition is explicit, verbatim, and never presented as a completed project.
+ const completionCopy=[
+  'Every project in THE ARCHITECT portfolio is conceived with the long-term objective of achieving its fully defined product vision. Development follows a structured, evidence-driven roadmap toward comprehensive functionality, engineering maturity, validation, and commercial or scientific readiness, where technically feasible.',
+  'Current development status must not be confused with the ultimate project objective. Each asset retains its independent architecture, intellectual property identity, development roadmap, and acceptance criteria.',
+  'Full realization remains subject to technical feasibility, successful validation, available resources, and applicable regulatory requirements.'
+ ];
+ const completionHome=r.home(d);
+ assert.equal((completionHome.match(/id="completion-commitment"/g)||[]).length,1);
+ assert(completionHome.includes('<h2 id="completion-commitment-title">Our Commitment to Complete Product Realization</h2>'));
+ for(const paragraph of completionCopy)assert(completionHome.includes('<p>'+paragraph+'</p>'));
+ assert(completionHome.indexOf('class="ledger-strip"')<completionHome.indexOf('id="completion-commitment"'));
+ assert(completionHome.indexOf('id="completion-commitment"')<completionHome.indexOf('id="full-portfolio-offer"'));
+ assert(completionHome.includes('Long-term intent · Distinct from each asset'));
+ assert(completionHome.includes('/MyProjects/assurance.html'));
+ assert(completionHome.includes('/MyProjects/portfolio-thesis.html'));
+ assert(!r.portfolio(d).includes('id="completion-commitment"'));
+ assert(!r.muskPage(d).includes('id="completion-commitment"'));
+ assert(!r.project(d.projects[0],d).includes('id="completion-commitment"'));
+ assert(!completionHome.includes('Remaining Development Roadmap'));
+ assert(!completionHome.includes('Ultimate Objective</h'));
  // Shared assets are allowed across workflows, while each route retains unique members.
  const connected=new Set();let occurrences=0;for(const c of d.applications.connections){assert.equal(new Set(c.members.map(m=>m.ref)).size,c.members.length);for(const m of c.members){connected.add(m.ref);occurrences++}}
  assert.equal(connected.size,84);assert.equal(occurrences,87);assert(!connected.has('TA-IP-107'));
